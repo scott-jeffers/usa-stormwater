@@ -1,0 +1,595 @@
+[
+  {
+    "id": "md-state",
+    "jurisdictionHint": "Maryland",
+    "levelHint": "state",
+    "pdfUrl": "https://mde.maryland.gov/programs/water/StormwaterManagementProgram/Documents/www.mde.state.md.us/assets/document/sedimentstormwater/MD%20SWM%20Volume%201.pdf",
+    "landingPageUrl": "https://mde.maryland.gov/programs/water/stormwatermanagementprogram/pages/stormwater_design.aspx",
+    "cityCoords": null
+  },
+  {
+    "id": "pa-state",
+    "jurisdictionHint": "Pennsylvania",
+    "levelHint": "state",
+    "pdfUrl": "https://franklinccd.org/wp-content/uploads/PENNSYLVANIA_POST-CONSTRUCTION_STORMWATER_MANAGEMENT_PCSM_MANUAL.pdf",
+    "landingPageUrl": "https://www.pa.gov/agencies/dep/programs-and-services/water/clean-water/stormwater-management/construction-stormwater/eands-resources",
+    "cityCoords": null
+  },
+  {
+    "id": "philadelphia-pa",
+    "jurisdictionHint": "Philadelphia",
+    "levelHint": "municipality",
+    "pdfUrl": "https://water.phila.gov/wp-content/uploads/files/stormwater-management-guidance-manual.pdf",
+    "landingPageUrl": "https://water.phila.gov/development/stormwater-plan-review/manual/",
+    "cityCoords": [
+      -75.1652,
+      39.9526
+    ]
+  },
+  {
+    "id": "ga-state",
+    "jurisdictionHint": "Georgia",
+    "levelHint": "state",
+    "pdfUrl": "https://documents.atlantaregional.com/gastormwater/GSMM_2016%20EDITION_FINAL_V1.pdf",
+    "landingPageUrl": "https://atlantaregional.org/what-we-do/natural-resources/georgia-stormwater-management-manual/",
+    "cityCoords": null
+  },
+  {
+    "id": "ct-state",
+    "jurisdictionHint": "Connecticut",
+    "levelHint": "state",
+    "pdfUrl": "https://portal.ct.gov/-/media/deep/water/water_quality_management/guidance/swm_mar_2024.pdf",
+    "landingPageUrl": "https://portal.ct.gov/DEEP/Water-Regulating-and-Discharges/Stormwater/Stormwater-Manual",
+    "cityCoords": null
+  },
+  {
+    "id": "ny-state",
+    "jurisdictionHint": "New York",
+    "levelHint": "state",
+    "pdfUrl": "https://dec.ny.gov/fs/projects/24-25DraftCGPDesignManual/Manual.SW.CGP.2024-07-31.Design_Manual_Issued_2024-07-31.pdf",
+    "landingPageUrl": "https://dec.ny.gov/environmental-protection/water/water-quality/stormwater/construction-stormwater-toolbox",
+    "cityCoords": null
+  },
+  {
+    "id": "ny-bluebook",
+    "jurisdictionHint": "New York",
+    "levelHint": "state",
+    "pdfUrl": "https://www.dec.ny.gov/fs/docs/pdf/erosionsediment_bluebook.pdf",
+    "landingPageUrl": "https://dec.ny.gov/environmental-protection/water/water-quality/stormwater/construction-stormwater-toolbox",
+    "cityCoords": null,
+    "notes": "NYS Standards and Specifications for Erosion and Sediment Control (Blue Book)"
+  },
+  {
+    "id": "tn-state",
+    "jurisdictionHint": "Tennessee",
+    "levelHint": "state",
+    "pdfUrl": "https://lewisburgtn.gov/wp-content/uploads/2022/11/Permanent-Stormwater-Management-Design-Guidance-Manual.pdf",
+    "landingPageUrl": "https://www.tn.gov/environment/program-areas/wr-water-resources/stormwater.html",
+    "cityCoords": null
+  },
+  {
+    "id": "ri-state",
+    "jurisdictionHint": "Rhode Island",
+    "levelHint": "state",
+    "pdfUrl": "https://services.statescape.com/RegsText/StaticDownloads/90765_156853.pdf",
+    "landingPageUrl": "https://www.crmc.ri.gov/policy/stormwater.html",
+    "cityCoords": null
+  },
+  {
+    "id": "vt-state",
+    "jurisdictionHint": "Vermont",
+    "levelHint": "state",
+    "pdfUrl": "http://legislature.vermont.gov/Documents/2016/WorkGroups/House%20Fish%20and%20Wildlife/Stormwater%20Manual%20Revisions/W~Kevin%20Burke~Draft%20Stormwater%20Manual%20Revisions%20DEC~3-22-2016.pdf",
+    "landingPageUrl": "https://dec.vermont.gov/watershed/stormwater",
+    "cityCoords": null,
+    "notes": "Draft VSMM Vol I circulated publicly; verify against current DEC edition if available"
+  },
+  {
+    "id": "nh-state",
+    "jurisdictionHint": "New Hampshire",
+    "levelHint": "state",
+    "pdfUrl": "https://extension.unh.edu/sites/default/files/media/2025-06/stormwater-management-standards.pdf",
+    "landingPageUrl": "https://extension.unh.edu/stormwater-center/nh-stormwater-manual",
+    "cityCoords": null
+  },
+  {
+    "id": "wa-state-western",
+    "jurisdictionHint": "Washington",
+    "levelHint": "state",
+    "pdfUrl": "https://www.cityofcamas.us/sites/default/files/fileattachments/community_development/page/9505/2024swmmww_6-14-24.pdf",
+    "landingPageUrl": "https://www.ecology.wa.gov/regulations-permits/guidance-technical-assistance/stormwater-permittee-guidance-resources/stormwater-manuals",
+    "cityCoords": null,
+    "notes": "Ecology 2024 SWMMWW mirrored by Camas; official Ecology download also available"
+  },
+  {
+    "id": "fl-fsesci-tier1",
+    "jurisdictionHint": "Florida",
+    "levelHint": "state",
+    "pdfUrl": "https://www.mywaltonfl.gov/DocumentCenter/View/32627/FSESCI-TIER-I-Manual-062918",
+    "landingPageUrl": "https://floridadep.gov/dear/florida-stormwater-erosion",
+    "cityCoords": null,
+    "notes": "FSESCI Tier I inspector manual (public mirror)"
+  },
+  {
+    "id": "ma-state-draft",
+    "jurisdictionHint": "Massachusetts",
+    "levelHint": "state",
+    "pdfUrl": "https://www.ashlandmass.com/DocumentCenter/View/13272/MassDEP-Handbook_DRAFT-6_2023-12-14_withAppendices-2",
+    "landingPageUrl": "https://www.mass.gov/guides/massachusetts-stormwater-handbook-and-stormwater-standards",
+    "cityCoords": null,
+    "notes": "2023 draft handbook with appendices (municipal mirror of MassDEP draft)"
+  },
+  {
+    "id": "ia-state-ch1",
+    "jurisdictionHint": "Iowa",
+    "levelHint": "state",
+    "pdfUrl": "https://www.iowadnr.gov/media/7380/download?inline=",
+    "landingPageUrl": "https://www.iowadnr.gov/environmental-protection/water-quality/stormwater-program/iswmm-manual",
+    "cityCoords": null,
+    "notes": "ISWMM Chapter 1 general information (chapter-based manual; no single full PDF)"
+  },
+  {
+    "id": "nyc-ny",
+    "jurisdictionHint": "New York City",
+    "levelHint": "municipality",
+    "pdfUrl": "https://www.nyc.gov/assets/dep/downloads/pdf/water/stormwater/unified-stormwater-rule/uswr_nyc_stormwater_manual.pdf",
+    "landingPageUrl": "https://www.nyc.gov/site/dep/water/unified-stormwater-rule.page",
+    "cityCoords": [
+      -74.006,
+      40.7128
+    ]
+  },
+  {
+    "id": "seattle-wa",
+    "jurisdictionHint": "Seattle",
+    "levelHint": "municipality",
+    "pdfUrl": "https://www.seattle.gov/documents/Departments/SDCI/Codes/ChangesToCodes/UpdatingStormwaterRegulations/2021SWFullManualFinalClean.pdf",
+    "landingPageUrl": "https://www.seattle.gov/sdci/codes/codes-we-enforce-(a-z)/stormwater-code",
+    "cityCoords": [
+      -122.3321,
+      47.6062
+    ]
+  },
+  {
+    "id": "seattle-wa-2026",
+    "jurisdictionHint": "Seattle",
+    "levelHint": "municipality",
+    "pdfUrl": "https://www.seattle.gov/documents/departments/sdci/codes/stormwatercode/2026stormwatermanualcombined.pdf",
+    "landingPageUrl": "https://www.seattle.gov/sdci/codes/codes-we-enforce-(a-z)/stormwater-code",
+    "cityCoords": [
+      -122.3321,
+      47.6062
+    ],
+    "notes": "2026 combined manual (effective July 2026)"
+  },
+  {
+    "id": "chicago-il",
+    "jurisdictionHint": "Chicago",
+    "levelHint": "municipality",
+    "pdfUrl": "https://www.chicago.gov/content/dam/city/depts/water/general/Engineering/SewerConstStormReq/2024StormwaterManual.pdf",
+    "landingPageUrl": "https://www.chicago.gov/city/en/depts/water.html",
+    "cityCoords": [
+      -87.6298,
+      41.8781
+    ]
+  },
+  {
+    "id": "austin-tx-ecm",
+    "jurisdictionHint": "Austin",
+    "levelHint": "municipality",
+    "pdfUrl": "https://mcclibraryfunctions.azurewebsites.us/api/ordinanceDownload/15306/905455/pdf",
+    "landingPageUrl": "https://library.municode.com/tx/austin/codes/environmental_criteria_manual",
+    "cityCoords": [
+      -97.7431,
+      30.2672
+    ],
+    "notes": "Municode ECM export (may be partial section PDF)"
+  },
+  {
+    "id": "portland-or",
+    "jurisdictionHint": "Portland",
+    "levelHint": "municipality",
+    "pdfUrl": "https://www.portland.gov/sites/default/files/policies/enb-4.01-stormwater-management-manual-december-2020.pdf",
+    "landingPageUrl": "https://www.portland.gov/bes/stormwater/2020-stormwater-management-manual",
+    "cityCoords": [
+      -122.6765,
+      45.5152
+    ],
+    "notes": "2020 SWMM (direct PDF); 2025 still lacks stable direct link"
+  },
+  {
+    "id": "denver-co",
+    "jurisdictionHint": "Denver",
+    "levelHint": "municipality",
+    "pdfUrl": "https://www.mhfd.org/files/7af5d4c2f/03_Chapter-1-Stormwater-Management.pdf",
+    "landingPageUrl": "https://www.mhfd.org/criteria-manual-volume-3",
+    "cityCoords": [
+      -104.9903,
+      39.7392
+    ],
+    "notes": "MHFD USDCM Vol 3 Ch1 (regional Denver metro criteria; full vol is chaptered)"
+  },
+  {
+    "id": "va-state",
+    "jurisdictionHint": "Virginia",
+    "levelHint": "state",
+    "pdfUrl": null,
+    "landingPageUrl": "https://www.deq.virginia.gov/water/stormwater/stormwater-construction/handbooks",
+    "cityCoords": null,
+    "notes": "skipped_no_single_pdf — VA handbook is chapter/web EncodePlus, not one PDF"
+  },
+  {
+    "id": "nc-state",
+    "jurisdictionHint": "North Carolina",
+    "levelHint": "state",
+    "pdfUrl": null,
+    "landingPageUrl": "https://www.deq.nc.gov/about/divisions/energy-mineral-and-land-resources/stormwater",
+    "cityCoords": null,
+    "notes": "skipped_no_single_pdf — NC design manual is chapter portal"
+  },
+  {
+    "id": "nj-state",
+    "jurisdictionHint": "New Jersey",
+    "levelHint": "state",
+    "pdfUrl": null,
+    "landingPageUrl": "https://dep.nj.gov/stormwater/stormwater-management/bmp-manual/",
+    "cityCoords": null,
+    "notes": "skipped_no_single_pdf — NJ BMP manual is chapter PDFs"
+  },
+  {
+    "id": "mn-state",
+    "jurisdictionHint": "Minnesota",
+    "levelHint": "state",
+    "pdfUrl": null,
+    "landingPageUrl": "https://stormwater.pca.state.mn.us/",
+    "cityCoords": null,
+    "notes": "skipped_no_single_pdf — live wiki; 2008 PDF outdated"
+  },
+  {
+    "id": "ca-casqa-municipal",
+    "jurisdictionHint": "California",
+    "levelHint": "state",
+    "pdfUrl": null,
+    "landingPageUrl": "https://www.casqa.org/resources/bmp-handbooks/municipal-bmp-handbook",
+    "cityCoords": null,
+    "notes": "skipped_no_single_pdf — CASQA municipal handbook free but multi-file; Construction requires subscription"
+  },
+  {
+    "id": "dc-guidebook",
+    "jurisdictionHint": "District of Columbia",
+    "levelHint": "municipality",
+    "pdfUrl": "https://doee.dc.gov/sites/default/files/dc/sites/ddoe/page_content/attachments/FinalGuidebook_changes%20accepted_Appendices%20A-U_07_29_2013_compressed.pdf",
+    "landingPageUrl": "https://doee.dc.gov/swguidebook",
+    "cityCoords": [
+      -77.0369,
+      38.9072
+    ],
+    "notes": "2013 SWMG appendices A-U; prefer full 2020 guidebook when direct PDF returns"
+  },
+  {
+    "id": "baltimore-md",
+    "jurisdictionHint": "Baltimore",
+    "levelHint": "municipality",
+    "pdfUrl": "https://publicworks.baltimorecity.gov/sites/default/files/Baltimore%20City%20Stormwater%20Manual%20Update_Final%20-%20May%202019.pdf",
+    "landingPageUrl": "https://publicworks.baltimorecity.gov/stormwater",
+    "cityCoords": [
+      -76.6122,
+      39.2904
+    ],
+    "notes": "May fail if URL moved — will skip"
+  },
+  {
+    "id": "boston-ma",
+    "jurisdictionHint": "Boston",
+    "levelHint": "municipality",
+    "pdfUrl": "https://www.boston.gov/sites/default/files/file/2021/06/Stormwater%20Design%20Guidance%20Manual.pdf",
+    "landingPageUrl": "https://www.boston.gov/departments/environment/stormwater",
+    "cityCoords": [
+      -71.0589,
+      42.3601
+    ],
+    "notes": "May fail if URL moved — will skip"
+  },
+  {
+    "id": "houston-tx",
+    "jurisdictionHint": "Houston",
+    "levelHint": "municipality",
+    "pdfUrl": "https://www.houstonpermittingcenter.org/media/2356/download",
+    "landingPageUrl": "https://www.houstonpermittingcenter.org/",
+    "cityCoords": [
+      -95.3698,
+      29.7604
+    ],
+    "notes": "IDF/design criteria download candidate — may skip if not PDF"
+  },
+  {
+    "id": "san-diego-ca",
+    "jurisdictionHint": "San Diego",
+    "levelHint": "municipality",
+    "pdfUrl": "https://www.sandiego.gov/sites/default/files/legacy/stormwater/pdf/stormwatermanual.pdf",
+    "landingPageUrl": "https://www.sandiego.gov/stormwater",
+    "cityCoords": [
+      -117.1611,
+      32.7157
+    ],
+    "notes": "Legacy path may 404"
+  },
+  {
+    "id": "los-angeles-ca",
+    "jurisdictionHint": "Los Angeles",
+    "levelHint": "municipality",
+    "pdfUrl": "https://www.lacitysan.org/cs/groups/public/documents/document/y250/mde4/~edisp/cnt035153.pdf",
+    "landingPageUrl": "https://www.lacitysan.org/",
+    "cityCoords": [
+      -118.2437,
+      34.0522
+    ],
+    "notes": "LID handbook candidate — may skip"
+  },
+  {
+    "id": "atlanta-ga",
+    "jurisdictionHint": "Atlanta",
+    "levelHint": "municipality",
+    "pdfUrl": "https://www.atlantaga.gov/Home/ShowDocument?id=4578",
+    "landingPageUrl": "https://www.atlantaga.gov/",
+    "cityCoords": [
+      -84.388,
+      33.749
+    ],
+    "notes": "City stormwater candidate — may skip"
+  },
+  {
+    "id": "miami-fl",
+    "jurisdictionHint": "Miami",
+    "levelHint": "municipality",
+    "pdfUrl": null,
+    "landingPageUrl": "https://www.miamigov.com/Government/Departments-Organizations/Public-Works",
+    "cityCoords": [
+      -80.1918,
+      25.7617
+    ],
+    "notes": "skipped_no_single_pdf — need verified city manual PDF"
+  },
+  {
+    "id": "minneapolis-mn",
+    "jurisdictionHint": "Minneapolis",
+    "levelHint": "municipality",
+    "pdfUrl": null,
+    "landingPageUrl": "https://www.minneapolismn.gov/government/departments/public-works/stormwater/",
+    "cityCoords": [
+      -93.265,
+      44.9778
+    ],
+    "notes": "skipped_no_single_pdf — need verified city manual PDF"
+  },
+  {
+    "id": "detroit-mi",
+    "jurisdictionHint": "Detroit",
+    "levelHint": "municipality",
+    "pdfUrl": null,
+    "landingPageUrl": "https://detroitmi.gov/departments/water-and-sewerage-department",
+    "cityCoords": [
+      -83.0458,
+      42.3314
+    ],
+    "notes": "skipped_no_single_pdf"
+  },
+  {
+    "id": "phoenix-az",
+    "jurisdictionHint": "Phoenix",
+    "levelHint": "municipality",
+    "pdfUrl": null,
+    "landingPageUrl": "https://www.phoenix.gov/streets/stormwater",
+    "cityCoords": [
+      -112.074,
+      33.4484
+    ],
+    "notes": "skipped_no_single_pdf"
+  },
+  {
+    "id": "salt-lake-city-ut",
+    "jurisdictionHint": "Salt Lake City",
+    "levelHint": "municipality",
+    "pdfUrl": null,
+    "landingPageUrl": "https://www.slc.gov/utilities/stormwater/",
+    "cityCoords": [
+      -111.891,
+      40.7608
+    ],
+    "notes": "skipped_no_single_pdf"
+  },
+  {
+    "id": "boise-id",
+    "jurisdictionHint": "Boise",
+    "levelHint": "municipality",
+    "pdfUrl": null,
+    "landingPageUrl": "https://www.cityofboise.org/departments/public-works/stormwater/",
+    "cityCoords": [
+      -116.2146,
+      43.615
+    ],
+    "notes": "skipped_no_single_pdf"
+  },
+  {
+    "id": "albuquerque-nm",
+    "jurisdictionHint": "Albuquerque",
+    "levelHint": "municipality",
+    "pdfUrl": null,
+    "landingPageUrl": "https://www.cabq.gov/municipaldevelopment/engineering/storm-drainage",
+    "cityCoords": [
+      -106.6504,
+      35.0844
+    ],
+    "notes": "skipped_no_single_pdf"
+  },
+  {
+    "id": "honolulu-hi",
+    "jurisdictionHint": "Honolulu",
+    "levelHint": "municipality",
+    "pdfUrl": null,
+    "landingPageUrl": "https://www.honolulu.gov/dfm/",
+    "cityCoords": [
+      -157.8583,
+      21.3069
+    ],
+    "notes": "skipped_no_single_pdf"
+  },
+  {
+    "id": "anchorage-ak",
+    "jurisdictionHint": "Anchorage",
+    "levelHint": "municipality",
+    "pdfUrl": null,
+    "landingPageUrl": "https://www.muni.org/Departments/works/pages/default.aspx",
+    "cityCoords": [
+      -149.9003,
+      61.2181
+    ],
+    "notes": "skipped_no_single_pdf"
+  },
+  {
+    "id": "ohio-rainwater",
+    "jurisdictionHint": "Ohio",
+    "levelHint": "state",
+    "pdfUrl": "https://dam.assets.ohio.gov/image/upload/epa.ohio.gov/Portals/35/storm/technical_assistance/ARCHIVE-RaLD-2006.pdf",
+    "landingPageUrl": "https://epa.ohio.gov/divisions-and-offices/surface-water/guides-manuals/rainwater-and-land-development",
+    "cityCoords": null,
+    "notes": "2006 Rainwater and Land Development full archive PDF"
+  },
+  {
+    "id": "wisconsin-technical",
+    "jurisdictionHint": "Wisconsin",
+    "levelHint": "state",
+    "pdfUrl": "https://dnr.wisconsin.gov/sites/default/files/topic/Stormwater/PostConstructionTechStandard1001.pdf",
+    "landingPageUrl": "https://dnr.wisconsin.gov/topic/Stormwater",
+    "cityCoords": null,
+    "notes": "WDNR post-construction technical standard (not full manual book)"
+  },
+  {
+    "id": "michigan-manual",
+    "jurisdictionHint": "Michigan",
+    "levelHint": "state",
+    "pdfUrl": "https://www.kalcounty.gov/DocumentCenter/View/2059/EGLE-Nonpoint-Source-Best-Management-Practices-Manual-PDF",
+    "landingPageUrl": "https://www.michigan.gov/egle/about/organization/water-resources/stormwater/municipal",
+    "cityCoords": null,
+    "notes": "EGLE NPS BMP Manual intro (municipal mirror)"
+  },
+  {
+    "id": "indiana-manual",
+    "jurisdictionHint": "Indiana",
+    "levelHint": "state",
+    "pdfUrl": "https://www.in.gov/idem/stormwater/files/stormwater_quality_manual_chap_01.pdf",
+    "landingPageUrl": "https://www.in.gov/idem/stormwater/",
+    "cityCoords": null,
+    "notes": "Chapter 1 only of IDEM stormwater quality manual"
+  },
+  {
+    "id": "missouri-manual",
+    "jurisdictionHint": "Missouri",
+    "levelHint": "state",
+    "pdfUrl": "https://dnr.mo.gov/document-search/missouri-guide-green-infrastructure-pub2451/pub2451",
+    "landingPageUrl": "https://dnr.mo.gov/water/business-industry-other-entities/permits-certification-engineering-fees/stormwater",
+    "cityCoords": null,
+    "notes": "Green infrastructure guide candidate — may not be direct PDF"
+  },
+  {
+    "id": "arkansas-manual",
+    "jurisdictionHint": "Arkansas",
+    "levelHint": "state",
+    "pdfUrl": "https://www.adeq.state.ar.us/water/branch_permits/general_permits/stormwater/pdfs/SWMP_Template.pdf",
+    "landingPageUrl": "https://www.adeq.state.ar.us/water/",
+    "cityCoords": null,
+    "notes": "SWMP template — lighter content; may skip if weak fit"
+  },
+  {
+    "id": "alabama-handbook",
+    "jurisdictionHint": "Alabama",
+    "levelHint": "state",
+    "pdfUrl": "https://alabamasoilandwater.gov/wp-content/uploads/2022/08/20220801_HandBook_Vol_1.pdf",
+    "landingPageUrl": "https://alabamasoilandwater.gov/alesc-bluebook/",
+    "cityCoords": null,
+    "notes": "Alabama Blue Book Vol I 2022"
+  },
+  {
+    "id": "south-carolina-manual",
+    "jurisdictionHint": "South Carolina",
+    "levelHint": "state",
+    "pdfUrl": "https://www.des.sc.gov/sites/des/files/Documents/BOW/Stormwater/BMP/BMPFieldManual.pdf",
+    "landingPageUrl": "https://www.des.sc.gov/programs/bureau-water/stormwater/best-management-practices-bmps/bmp-handbook",
+    "cityCoords": null,
+    "notes": "SC DES BMP Field Manual"
+  },
+  {
+    "id": "kentucky-bmp",
+    "jurisdictionHint": "Kentucky",
+    "levelHint": "state",
+    "pdfUrl": "https://eec.ky.gov/Environmental-Protection/Water/PermitCert/KPDES/Documents/Stormwater%20Manual.pdf",
+    "landingPageUrl": "https://eec.ky.gov/Environmental-Protection/Water/Pages/default.aspx",
+    "cityCoords": null,
+    "notes": "KY stormwater manual candidate"
+  },
+  {
+    "id": "west-virginia-manual",
+    "jurisdictionHint": "West Virginia",
+    "levelHint": "state",
+    "pdfUrl": "https://apps.dep.wv.gov/Documents/DWWM/Stormwater/Design/West_Virginia_Stormwater_Management_and_Design_Guidance_Manual_FULL_November_2012-v2.pdf",
+    "landingPageUrl": "https://dep.wv.gov/WWE/Programs/stormwater/MS4/Pages/StormwaterManagementDesignandGuidanceManual.aspx",
+    "cityCoords": null
+  },
+  {
+    "id": "delaware-esc",
+    "jurisdictionHint": "Delaware",
+    "levelHint": "state",
+    "pdfUrl": "https://documents.dnrec.delaware.gov/swc/Drainage/Documents/Sediment%20and%20Stormwater%20Program/Delaware%20ESC%20Handbook%202019.pdf",
+    "landingPageUrl": "https://dnrec.delaware.gov/watershed-stewardship/sediment-stormwater/",
+    "cityCoords": null,
+    "notes": "Delaware ESC Handbook 2019 candidate"
+  },
+  {
+    "id": "maine-manual",
+    "jurisdictionHint": "Maine",
+    "levelHint": "state",
+    "pdfUrl": "https://www.maine.gov/dep/land/stormwater/stormwaterbmps/vol3/volume%20III%20May%202016.pdf",
+    "landingPageUrl": "https://www.maine.gov/dep/land/stormwater/stormwaterbmps/",
+    "cityCoords": null,
+    "notes": "Maine Stormwater BMP Manual Volume III May 2016"
+  },
+  {
+    "id": "oregon-manual",
+    "jurisdictionHint": "Oregon",
+    "levelHint": "state",
+    "pdfUrl": "https://www.oregon.gov/deq/FilterDocs/lidman.pdf",
+    "landingPageUrl": "https://www.oregon.gov/deq/wq/programs/Pages/Stormwater.aspx",
+    "cityCoords": null,
+    "notes": "Oregon LID guidance candidate"
+  },
+  {
+    "id": "kansas-city-marc-bmp",
+    "jurisdictionHint": "Kansas City Metro",
+    "levelHint": "regional",
+    "pdfUrl": "https://www.marc.org/sites/default/files/2022-05/Best_Management_Practices_for_Stormwater_Quality.pdf",
+    "landingPageUrl": "https://www.marc.org/environment/environment-plans/stormwater-management",
+    "cityCoords": [
+      -94.5786,
+      39.0997
+    ],
+    "notes": "2012 MARC/APWA BMP Manual for Stormwater Quality"
+  },
+  {
+    "id": "tx-edwards-rg348",
+    "jurisdictionHint": "Texas",
+    "levelHint": "state",
+    "pdfUrl": "https://www.tceq.texas.gov/downloads/publications/rg/complying-with-the-edwards-aquifer-rules-rg-348.pdf",
+    "landingPageUrl": "https://www.tceq.texas.gov/publications/rg/rg-348",
+    "cityCoords": null,
+    "notes": "TCEQ RG-348 Edwards Aquifer BMP technical guidance"
+  },
+  {
+    "id": "idaho-bmp-catalog",
+    "jurisdictionHint": "Idaho",
+    "levelHint": "state",
+    "pdfUrl": null,
+    "landingPageUrl": "https://www.deq.idaho.gov/water-quality/wastewater/stormwater/",
+    "cityCoords": null,
+    "notes": "skipped_no_single_pdf — Idaho BMP catalog URL 404 on verify"
+  }
+]

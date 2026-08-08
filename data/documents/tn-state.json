@@ -1,0 +1,121 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "Tennessee Department of Environment and Conservation",
+    "jurisdiction_level": "state",
+    "state_code": "TN",
+    "document_title": "Tennessee Permanent Stormwater Management and Design Guidance Manual",
+    "version_or_edition": "First Edition",
+    "adoption_or_effective_date": "2014-12-01",
+    "last_revised_date": null,
+    "relationship_to_state_manual": "independent"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [
+      1,
+      2,
+      5,
+      10,
+      25,
+      100
+    ],
+    "water_quality_volume_method": "Infiltrate, evapotranspirate, harvest and/or use the first inch of every rainfall event preceded by 72 hours of dry weather.",
+    "peak_flow_calculation_method": [
+      "Rational Method",
+      "SCS Curve Number Approach"
+    ],
+    "required_hydrologic_hydraulic_software": [
+      "Tennessee Runoff Reduction Assessment Tool (TNRRAT)"
+    ],
+    "approved_bmp_categories": [
+      "Dry Detention",
+      "Wet Ponds",
+      "Vegetated Swale (Water Quality Swale)",
+      "Managed Vegetated Areas (Urban Forest, Grassland and Riparian Buffers)",
+      "Filter Strips",
+      "Bioretention",
+      "Urban Bioretention",
+      "Infiltration Areas (Impervious Area Disconnection)",
+      "Permeable Pavement",
+      "Green Roofs",
+      "Rainwater Harvesting",
+      "Stormwater Treatment Wetlands",
+      "Manufactured/Proprietary Treatment Devices"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "Tennessee Department of Environment and Conservation",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.jurisdiction_level",
+      "excerpt": "Tennessee Department of Environment and Conservation\nDivision of Water Resources",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.state_code",
+      "excerpt": "Tennessee",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "Tennessee Permanent Stormwater Management and Design Guidance Manual",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.version_or_edition",
+      "excerpt": "First Edition",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.adoption_or_effective_date",
+      "excerpt": "December 2014",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.relationship_to_state_manual",
+      "excerpt": "prepared by the Tennessee Department of Environment and Conservation, Division of Water Resources",
+      "page_or_section": "Acknowledgements"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "Typically, a 10-year or 25-year return design storm is used to size storm sewer systems... Similarly, a 2-year or 5-year return design storm is used to protect from downstream... Additionally, a 100-year return design storm is used to protect from downstream flooding",
+      "page_or_section": "Chapter 4, Section 4.5"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "designed, built, and maintained to infiltrate, evapotranspirate, harvest and/or use, the first inch of every rainfall event preceded by 72 hours of dry weather.",
+      "page_or_section": "Chapter 2, Section 2.2"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "SCS Curve Number Approach (Hann et al., 1994)",
+      "page_or_section": "Chapter 6, Section 6.1"
+    },
+    {
+      "field": "design_criteria.required_hydrologic_hydraulic_software",
+      "excerpt": "Tennessee Runoff Reduction Assessment Tool (TNRRAT)",
+      "page_or_section": "Chapter 6, Section 6.1"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "5.4.1 Dry Detention\n5.4.2 Wet Ponds\n5.4.3 Vegetated Swale (Water Quality Swale)\n5.4.4 Managed Vegetated Areas\n5.4.5 Filter Strips\n5.4.6 Bioretention\n5.4.6a Urban Bioretention\n5.4.7 Infiltration Areas\n5.4.8 Permeable Pavement\n5.4.9 Green Roofs\n5.4.10 Rainwater Harvesting\n5.4.11 Stormwater Treatment Wetlands\n5.4.12 Manufactured/Proprietary Treatment Devices",
+      "page_or_section": "Chapter 5, Section 5.4"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "high",
+    "needs_human_review": false,
+    "review_notes": "All required properties were successfully extracted from the text. The document is the official state manual for Tennessee, published by TDEC in December 2014.",
+    "fields_not_found": [
+      "document_metadata.last_revised_date"
+    ]
+  },
+  "source": {
+    "document_url": "https://lewisburgtn.gov/wp-content/uploads/2022/11/Permanent-Stormwater-Management-Design-Guidance-Manual.pdf",
+    "landing_page_url": "https://www.tn.gov/environment/program-areas/wr-water-resources/stormwater.html",
+    "retrieved_at": "2026-08-07T11:27:05.531Z",
+    "original_filename": "tn-state.pdf"
+  }
+}

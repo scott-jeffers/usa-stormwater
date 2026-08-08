@@ -1,0 +1,119 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "City of Seattle",
+    "jurisdiction_level": "municipality",
+    "state_code": "WA",
+    "document_title": "Stormwater Manual",
+    "version_or_edition": "July 2021",
+    "adoption_or_effective_date": "2021-07-01",
+    "last_revised_date": "2021-03-23",
+    "relationship_to_state_manual": "deemed_equivalent_to_state_manual"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [
+      2,
+      5,
+      10,
+      25,
+      50,
+      100
+    ],
+    "water_quality_volume_method": "The daily runoff volume at or below which 91 percent of the total runoff volume for the simulation period occurs, as determined using an approved continuous model.",
+    "peak_flow_calculation_method": [
+      "Continuous Simulation Method",
+      "Single Event Hydrograph Method",
+      "Rational Method"
+    ],
+    "required_hydrologic_hydraulic_software": [],
+    "approved_bmp_categories": [
+      "On-site stormwater management",
+      "Flow control",
+      "Water quality treatment",
+      "Conveyance",
+      "Soil amendment",
+      "Tree planting and retention",
+      "Dispersion",
+      "Infiltration",
+      "Rainwater harvesting",
+      "Alternative surface",
+      "Detention",
+      "Non-infiltrating"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "City of Seattle",
+      "page_or_section": "Page 2 of 1086"
+    },
+    {
+      "field": "document_metadata.jurisdiction_level",
+      "excerpt": "City of Seattle",
+      "page_or_section": "Page 2 of 1086"
+    },
+    {
+      "field": "document_metadata.state_code",
+      "excerpt": "Washington State Department of Ecology",
+      "page_or_section": "Volume 1, Chapter 1, Page 1-1"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "Stormwater Manual",
+      "page_or_section": "Page 2 of 1086"
+    },
+    {
+      "field": "document_metadata.version_or_edition",
+      "excerpt": "July 2021",
+      "page_or_section": "Page 2 of 1086"
+    },
+    {
+      "field": "document_metadata.adoption_or_effective_date",
+      "excerpt": "Effective: 07/01/2021",
+      "page_or_section": "Page 2 of 1086"
+    },
+    {
+      "field": "document_metadata.last_revised_date",
+      "excerpt": "Publication: 03/23/2021",
+      "page_or_section": "Page 2 of 1086"
+    },
+    {
+      "field": "document_metadata.relationship_to_state_manual",
+      "excerpt": "Ecology has determined to meet the requirements contained in the Phase I NPDES Municipal Stormwater Permit, with reference to the Stormwater Management Manual for Western Washington (Ecology 2019).",
+      "page_or_section": "Volume 1, Chapter 1, Page 1-1"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "2-year, 5-year, 10-year, 25-year, 50-year, 100-year",
+      "page_or_section": "Volume 1 & Volume 3"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "The daily runoff volume at or below which 91 percent of the total runoff volume for the simulation period occurs, as determined using an approved continuous model.",
+      "page_or_section": "Volume 1, Chapter 5, Page 5-14"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "Single Event Hydrograph Method... Continuous Simulation Method... Rational Method",
+      "page_or_section": "Volume 3, Chapter 4, Page 4-46 & Page 4-65"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "This volume covers four primary functional categories of stormwater BMPs: On-site stormwater management, Flow control BMPs, Water quality treatment BMPs, Conveyance BMPs",
+      "page_or_section": "Volume 3, Chapter 2, Page 2-1"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "high",
+    "needs_human_review": false,
+    "review_notes": null,
+    "fields_not_found": [
+      "design_criteria.required_hydrologic_hydraulic_software"
+    ]
+  },
+  "source": {
+    "document_url": "https://www.seattle.gov/documents/Departments/SDCI/Codes/ChangesToCodes/UpdatingStormwaterRegulations/2021SWFullManualFinalClean.pdf",
+    "landing_page_url": "https://www.seattle.gov/sdci/codes/codes-we-enforce-(a-z)/stormwater-code",
+    "retrieved_at": "2026-08-07T11:39:56.302Z",
+    "original_filename": "seattle-wa.pdf"
+  }
+}

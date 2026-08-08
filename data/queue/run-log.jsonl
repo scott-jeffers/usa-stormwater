@@ -1,0 +1,66 @@
+{"ts":"2026-08-07T11:19:40.291Z","id":"ga-state","status":"done","detail":"Saved ga-state","slug":"ga-state","chars":547912,"durationMs":30855}
+{"ts":"2026-08-07T11:22:12.139Z","id":"ct-state","status":"done","detail":"Saved ct-state","slug":"ct-state","chars":1125046,"durationMs":106830}
+{"ts":"2026-08-07T11:24:29.823Z","id":"ny-state","status":"done","detail":"Saved ny-state","slug":"ny-state","chars":1020768,"durationMs":92679}
+{"ts":"2026-08-07T11:25:47.287Z","id":"ny-bluebook","status":"skipped","detail":"{\"error\":{\"code\":503,\"message\":\"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\"status\":\"UNAVAILABLE\"}}","durationMs":32447}
+{"ts":"2026-08-07T11:27:05.534Z","id":"tn-state","status":"done","detail":"Saved tn-state","slug":"tn-state","chars":660872,"durationMs":33232}
+{"ts":"2026-08-07T11:28:15.875Z","id":"ri-state","status":"done","detail":"Saved ri-state","slug":"ri-state","chars":952098,"durationMs":25327}
+{"ts":"2026-08-07T11:29:27.036Z","id":"vt-state","status":"done","detail":"Saved vt-state","slug":"vt-state","chars":468235,"durationMs":26143}
+{"ts":"2026-08-07T11:30:42.900Z","id":"nh-state","status":"done","detail":"Saved nh-state","slug":"nh-state","chars":30049,"durationMs":30861}
+{"ts":"2026-08-07T11:33:14.324Z","id":"wa-state-western","status":"done","detail":"Saved wa-state-western","slug":"wa-state-western","chars":2574377,"durationMs":106418}
+{"ts":"2026-08-07T11:34:24.796Z","id":"fl-fsesci-tier1","status":"done","detail":"Saved fl-fsesci-tier1","slug":"fl-fsesci-tier1","chars":292083,"durationMs":25469}
+{"ts":"2026-08-07T11:36:02.659Z","id":"ma-state-draft","status":"done","detail":"Saved ma-state-draft","slug":"ma-state-draft","chars":2008453,"durationMs":52847}
+{"ts":"2026-08-07T11:37:16.124Z","id":"ia-state-ch1","status":"done","detail":"Saved ia-state-ch1","slug":"ia-state-ch1","chars":164855,"durationMs":28447}
+{"ts":"2026-08-07T11:38:32.233Z","id":"nyc-ny","status":"done","detail":"Saved nyc-ny","slug":"nyc-ny","chars":300867,"durationMs":31093}
+{"ts":"2026-08-07T11:39:56.307Z","id":"seattle-wa","status":"done","detail":"Saved seattle-wa","slug":"seattle-wa","chars":2003102,"durationMs":39060}
+{"ts":"2026-08-07T11:41:19.743Z","id":"seattle-wa-2026","status":"done","detail":"Saved seattle-wa-2026","slug":"seattle-wa-2026","chars":2301524,"durationMs":38427}
+{"ts":"2026-08-07T11:42:11.034Z","id":"chicago-il","status":"skipped","detail":"{\"error\":{\"code\":503,\"message\":\"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\"status\":\"UNAVAILABLE\"}}","durationMs":6279}
+{"ts":"2026-08-07T11:43:24.322Z","id":"austin-tx-ecm","status":"done","detail":"Saved austin-tx-ecm","slug":"austin-tx-ecm","chars":58124,"durationMs":28274}
+{"ts":"2026-08-07T11:44:09.338Z","id":"portland-or","status":"skipped_no_single_pdf","detail":"skipped_no_single_pdf — 2025 SWMM download is behind Drupal media link; resolve direct URL later"}
+{"ts":"2026-08-07T11:44:09.342Z","id":"denver-co","status":"skipped_no_single_pdf","detail":"skipped_no_single_pdf — Ultra-Urban GI Guidelines PDF blocked by bot protection on scrape"}
+{"ts":"2026-08-07T11:44:09.344Z","id":"va-state","status":"skipped_no_single_pdf","detail":"skipped_no_single_pdf — VA handbook is chapter/web EncodePlus, not one PDF"}
+{"ts":"2026-08-07T11:44:09.346Z","id":"nc-state","status":"skipped_no_single_pdf","detail":"skipped_no_single_pdf — NC design manual is chapter portal"}
+{"ts":"2026-08-07T11:44:09.348Z","id":"nj-state","status":"skipped_no_single_pdf","detail":"skipped_no_single_pdf — NJ BMP manual is chapter PDFs"}
+{"ts":"2026-08-07T11:44:09.350Z","id":"mn-state","status":"skipped_no_single_pdf","detail":"skipped_no_single_pdf — live wiki; 2008 PDF outdated"}
+{"ts":"2026-08-07T11:44:09.351Z","id":"ca-casqa-municipal","status":"skipped_no_single_pdf","detail":"skipped_no_single_pdf — CASQA municipal handbook free but multi-file; Construction requires subscription"}
+{"ts":"2026-08-07T11:44:14.717Z","id":"dc-guidebook","status":"skipped","detail":"{\"error\":{\"code\":503,\"message\":\"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\"status\":\"UNAVAILABLE\"}}","durationMs":5364}
+{"ts":"2026-08-07T11:45:00.758Z","id":"baltimore-md","status":"skipped","detail":"HTTP 404 Not Found","durationMs":1031}
+{"ts":"2026-08-07T11:45:46.564Z","id":"boston-ma","status":"skipped","detail":"HTTP 404 Not Found","durationMs":791}
+{"ts":"2026-08-07T11:51:36.489Z","id":"houston-tx","status":"skipped","detail":"fetch failed","durationMs":304911}
+{"ts":"2026-08-07T11:52:30.887Z","id":"san-diego-ca","status":"skipped","detail":"HTTP 404 Not Found","durationMs":9393}
+{"ts":"2026-08-07T11:53:16.500Z","id":"los-angeles-ca","status":"skipped","detail":"HTTP 404 Not Found","durationMs":600}
+{"ts":"2026-08-07T11:54:02.125Z","id":"atlanta-ga","status":"skipped","detail":"HTTP 404 Not Found","durationMs":617}
+{"ts":"2026-08-07T11:54:47.132Z","id":"miami-fl","status":"skipped_no_single_pdf","detail":"skipped_no_single_pdf — need verified city manual PDF"}
+{"ts":"2026-08-07T11:54:47.136Z","id":"minneapolis-mn","status":"skipped_no_single_pdf","detail":"skipped_no_single_pdf — need verified city manual PDF"}
+{"ts":"2026-08-07T11:54:47.139Z","id":"detroit-mi","status":"skipped_no_single_pdf","detail":"skipped_no_single_pdf"}
+{"ts":"2026-08-07T11:54:47.142Z","id":"phoenix-az","status":"skipped_no_single_pdf","detail":"skipped_no_single_pdf"}
+{"ts":"2026-08-07T11:54:47.144Z","id":"salt-lake-city-ut","status":"skipped_no_single_pdf","detail":"skipped_no_single_pdf"}
+{"ts":"2026-08-07T11:54:47.146Z","id":"boise-id","status":"skipped_no_single_pdf","detail":"skipped_no_single_pdf"}
+{"ts":"2026-08-07T11:54:47.153Z","id":"albuquerque-nm","status":"skipped_no_single_pdf","detail":"skipped_no_single_pdf"}
+{"ts":"2026-08-07T11:54:47.156Z","id":"honolulu-hi","status":"skipped_no_single_pdf","detail":"skipped_no_single_pdf"}
+{"ts":"2026-08-07T11:54:47.158Z","id":"anchorage-ak","status":"skipped_no_single_pdf","detail":"skipped_no_single_pdf"}
+{"ts":"2026-08-07T11:54:47.603Z","id":"ohio-rainwater","status":"skipped","detail":"HTTP 404 Not Found","durationMs":442}
+{"ts":"2026-08-07T11:55:33.412Z","id":"wisconsin-technical","status":"skipped","detail":"HTTP 404 Not Found","durationMs":798}
+{"ts":"2026-08-07T11:56:19.055Z","id":"michigan-manual","status":"skipped","detail":"HTTP 404 Not Found","durationMs":631}
+{"ts":"2026-08-07T11:57:04.467Z","id":"indiana-manual","status":"skipped","detail":"HTTP 404 ","durationMs":403}
+{"ts":"2026-08-07T11:57:50.276Z","id":"missouri-manual","status":"skipped","detail":"HTTP 404 Not Found","durationMs":796}
+{"ts":"2026-08-07T11:58:36.083Z","id":"arkansas-manual","status":"skipped","detail":"HTTP 404 Not Found","durationMs":800}
+{"ts":"2026-08-07T11:59:21.139Z","id":"alabama-handbook","status":"skipped","detail":"fetch failed","durationMs":43}
+{"ts":"2026-08-07T12:00:06.250Z","id":"south-carolina-manual","status":"skipped","detail":"fetch failed","durationMs":103}
+{"ts":"2026-08-07T12:00:51.887Z","id":"kentucky-bmp","status":"skipped","detail":"HTTP 404 NOT FOUND","durationMs":626}
+{"ts":"2026-08-07T12:01:37.458Z","id":"west-virginia-manual","status":"skipped","detail":"HTTP 404 NOT FOUND","durationMs":553}
+{"ts":"2026-08-07T12:02:22.980Z","id":"delaware-esc","status":"skipped","detail":"HTTP 404 Not Found","durationMs":508}
+{"ts":"2026-08-07T12:03:08.208Z","id":"maine-manual","status":"skipped","detail":"HTTP 404 Not Found","durationMs":211}
+{"ts":"2026-08-07T12:03:53.653Z","id":"oregon-manual","status":"skipped","detail":"HTTP 404 Not Found","durationMs":440}
+{"ts":"2026-08-07T21:19:23.961Z","id":"ny-bluebook","status":"done","detail":"Saved ny-bluebook","slug":"ny-bluebook","chars":727429,"durationMs":18903}
+{"ts":"2026-08-07T21:21:20.853Z","id":"chicago-il","status":"done","detail":"Saved chicago-il","slug":"chicago-il","chars":273802,"durationMs":71887}
+{"ts":"2026-08-07T21:22:17.985Z","id":"portland-or","status":"deferred_quota","detail":"{\"error\":{\"code\":429,\"message\":\"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.5-flash\\nPlease retry in 42.87350591s.\",\"status\":\"RESOURCE_EXHAUSTED\",\"details\":[{\"@type\":\"type.googleapis.com/google.rpc.Help\",\"links\":[{\"description\":\"Learn more about Gemini API quotas\",\"url\":\"https://ai.google.dev/gemini-api/docs/rate-limits\"}]},{\"@type\":\"type.googleapis.com/google.rpc.QuotaFailure\",\"violations\":[{\"quotaMetric\":\"generativelanguage.googleapis.com/generate_content_free_tier_requests\",\"quotaId\":\"GenerateRequestsPerDayPerProjectPerModel-FreeTier\",\"quotaDimensions\":{\"location\":\"global\",\"model\":\"gemini-3.5-flash\"},\"quotaValue\":\"20\"}]},{\"@type\":\"type.googleapis.com/google.rpc.RetryInfo\",\"retryDelay\":\"42s\"}]}}","durationMs":12124}
+{"ts":"2026-08-07T21:23:04.208Z","id":"denver-co","status":"deferred_quota","detail":"{\"error\":{\"code\":429,\"message\":\"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.5-flash\\nPlease retry in 56.642851685s.\",\"status\":\"RESOURCE_EXHAUSTED\",\"details\":[{\"@type\":\"type.googleapis.com/google.rpc.Help\",\"links\":[{\"description\":\"Learn more about Gemini API quotas\",\"url\":\"https://ai.google.dev/gemini-api/docs/rate-limits\"}]},{\"@type\":\"type.googleapis.com/google.rpc.QuotaFailure\",\"violations\":[{\"quotaMetric\":\"generativelanguage.googleapis.com/generate_content_free_tier_requests\",\"quotaId\":\"GenerateRequestsPerDayPerProjectPerModel-FreeTier\",\"quotaDimensions\":{\"location\":\"global\",\"model\":\"gemini-3.5-flash\"},\"quotaValue\":\"20\"}]},{\"@type\":\"type.googleapis.com/google.rpc.RetryInfo\",\"retryDelay\":\"56s\"}]}}","durationMs":1219}
+{"ts":"2026-08-07T21:23:04.212Z","id":"dc-guidebook","status":"deferred_quota_batch","detail":"Deferred due to Gemini quota / rate limit"}
+{"ts":"2026-08-07T21:23:04.213Z","id":"ohio-rainwater","status":"deferred_quota_batch","detail":"Deferred due to Gemini quota / rate limit"}
+{"ts":"2026-08-07T21:23:04.213Z","id":"michigan-manual","status":"deferred_quota_batch","detail":"Deferred due to Gemini quota / rate limit"}
+{"ts":"2026-08-07T21:23:04.214Z","id":"alabama-handbook","status":"deferred_quota_batch","detail":"Deferred due to Gemini quota / rate limit"}
+{"ts":"2026-08-07T21:23:04.214Z","id":"south-carolina-manual","status":"deferred_quota_batch","detail":"Deferred due to Gemini quota / rate limit"}
+{"ts":"2026-08-07T21:23:04.215Z","id":"west-virginia-manual","status":"deferred_quota_batch","detail":"Deferred due to Gemini quota / rate limit"}
+{"ts":"2026-08-07T21:23:04.215Z","id":"maine-manual","status":"deferred_quota_batch","detail":"Deferred due to Gemini quota / rate limit"}
+{"ts":"2026-08-07T21:23:04.216Z","id":"kansas-city-marc-bmp","status":"deferred_quota_batch","detail":"Deferred due to Gemini quota / rate limit"}
+{"ts":"2026-08-07T21:23:04.217Z","id":"tx-edwards-rg348","status":"deferred_quota_batch","detail":"Deferred due to Gemini quota / rate limit"}

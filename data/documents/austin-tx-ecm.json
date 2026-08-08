@@ -1,0 +1,86 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "City of Austin",
+    "jurisdiction_level": "municipality",
+    "state_code": null,
+    "document_title": "ENVIRONMENTAL CRITERIA MANUAL",
+    "version_or_edition": null,
+    "adoption_or_effective_date": null,
+    "last_revised_date": null,
+    "relationship_to_state_manual": "unknown"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [
+      100
+    ],
+    "water_quality_volume_method": null,
+    "peak_flow_calculation_method": [],
+    "required_hydrologic_hydraulic_software": [],
+    "approved_bmp_categories": [
+      "vegetative filter strips",
+      "rain gardens",
+      "biofiltration ponds",
+      "irrigation",
+      "infiltration",
+      "sedimentation/filtration ponds",
+      "SOS ponds"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "City of Austin's Land Development Code",
+      "page_or_section": "Section 1.3.0, Page 1"
+    },
+    {
+      "field": "document_metadata.jurisdiction_level",
+      "excerpt": "City of Austin's Land Development Code",
+      "page_or_section": "Section 1.3.0, Page 1"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "ENVIRONMENTAL CRITERIA MANUAL",
+      "page_or_section": "Header, Page 1"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "100 year floodplain",
+      "page_or_section": "Section 1.3.0, Page 1"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "vegetative filter strips, rain gardens, biofiltration ponds, and areas used for irrigation or infiltration of stormwater",
+      "page_or_section": "Section 1.5.3 H, Page 5"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "sedimentation/filtration ponds for the redeveloped area or an equivalent area on the site",
+      "page_or_section": "Appendix Q-6, Page 20"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "SOS ponds",
+      "page_or_section": "Appendix Q-4, Page 10"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "high",
+    "needs_human_review": false,
+    "review_notes": "State code was left as null since Texas or TX is not explicitly written in the provided text. Return periods include 100-year from the floodplain references. Peak flow calculation methods are mentioned as being in the Drainage Criteria Manual, which is outside the scope of this document. No specific water quality volume method or hydraulic software was listed.",
+    "fields_not_found": [
+      "document_metadata.state_code",
+      "document_metadata.version_or_edition",
+      "document_metadata.adoption_or_effective_date",
+      "document_metadata.last_revised_date",
+      "design_criteria.water_quality_volume_method",
+      "design_criteria.peak_flow_calculation_method",
+      "design_criteria.required_hydrologic_hydraulic_software"
+    ]
+  },
+  "source": {
+    "document_url": "https://mcclibraryfunctions.azurewebsites.us/api/ordinanceDownload/15306/905455/pdf",
+    "landing_page_url": "https://library.municode.com/tx/austin/codes/environmental_criteria_manual",
+    "retrieved_at": "2026-08-07T11:43:24.317Z",
+    "original_filename": "austin-tx-ecm.pdf"
+  }
+}

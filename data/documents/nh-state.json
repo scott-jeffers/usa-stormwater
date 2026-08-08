@@ -1,0 +1,108 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "Town of { your jurisdiction }",
+    "jurisdiction_level": "municipality",
+    "state_code": "NH",
+    "document_title": "Model Stormwater Standards, 2025 update",
+    "version_or_edition": "Draft: May, 2025",
+    "adoption_or_effective_date": null,
+    "last_revised_date": "2025-05",
+    "relationship_to_state_manual": "adopts_state_manual_directly"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [
+      1,
+      2,
+      10,
+      25,
+      50,
+      100
+    ],
+    "water_quality_volume_method": "WQV = (P)(Rv)(A) where P = 1 inch of rainfall, Rv = 0.05 + 0.9(I) where I = percent impervious cover draining to the structure converted to decimal form, and A = total site area draining to the structure",
+    "peak_flow_calculation_method": [
+      "TR-55"
+    ],
+    "required_hydrologic_hydraulic_software": [],
+    "approved_bmp_categories": [
+      "raingardens",
+      "bioretention systems",
+      "tree box filters",
+      "subsurface gravel wetlands",
+      "filtration practices",
+      "infiltration practices",
+      "swales",
+      "detention areas"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "protect and safeguard the general health, safety, and welfare of the public in the Town of { your jurisdiction }",
+      "page_or_section": "ELEMENT A: Purpose and Goals, page 2"
+    },
+    {
+      "field": "document_metadata.jurisdiction_level",
+      "excerpt": "Town of { your jurisdiction }",
+      "page_or_section": "ELEMENT A: Purpose and Goals, page 2"
+    },
+    {
+      "field": "document_metadata.state_code",
+      "excerpt": "latest New Hampshire Stormwater Manual",
+      "page_or_section": "ELEMENT C, Section 2.a, page 2"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "Model Stormwater Standards, 2025 update",
+      "page_or_section": "Title page, page 1"
+    },
+    {
+      "field": "document_metadata.version_or_edition",
+      "excerpt": "Draft: May, 2025",
+      "page_or_section": "Title page, page 1"
+    },
+    {
+      "field": "document_metadata.last_revised_date",
+      "excerpt": "Last Edited: May 2025 1",
+      "page_or_section": "Title page, page 1"
+    },
+    {
+      "field": "document_metadata.relationship_to_state_manual",
+      "excerpt": "The site shall be designed to meet the Watershed Protection Standard (WPS) to the Maximum Extent Practicable (MEP) as specified in the latest New Hampshire Stormwater Manual",
+      "page_or_section": "ELEMENT C, Section 2.a, page 2"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "the 1-inch rainstorm and the 2-year, 10-year, 25-year, and 50-year 24-hour storm events",
+      "page_or_section": "ELEMENT C, Section 2.c, page 3"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "WQV = (P)(Rv)(A)",
+      "page_or_section": "Table 1, page 9"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "qu = unit peak discharge from TR-55 exhibits 4-II and 4-III",
+      "page_or_section": "Table 1, page 9"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "SCMs (such as raingardens, bioretention systems, tree box filters, and similar stormwater management landscaping techniques)",
+      "page_or_section": "ELEMENT C, Section 1.b, page 2"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "high",
+    "needs_human_review": false,
+    "review_notes": "The document is a template containing the placeholder '{ your jurisdiction }'. State code 'NH' was determined based on references to the New Hampshire Stormwater Manual and NH DES.",
+    "fields_not_found": [
+      "design_criteria.required_hydrologic_hydraulic_software"
+    ]
+  },
+  "source": {
+    "document_url": "https://extension.unh.edu/sites/default/files/media/2025-06/stormwater-management-standards.pdf",
+    "landing_page_url": "https://extension.unh.edu/stormwater-center/nh-stormwater-manual",
+    "retrieved_at": "2026-08-07T11:30:42.897Z",
+    "original_filename": "nh-state.pdf"
+  }
+}

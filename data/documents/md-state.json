@@ -1,0 +1,104 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "Maryland",
+    "jurisdiction_level": "state",
+    "state_code": "MD",
+    "document_title": "Maryland Stormwater Design Manual",
+    "version_or_edition": "Volume One",
+    "adoption_or_effective_date": null,
+    "last_revised_date": null,
+    "relationship_to_state_manual": "independent"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [
+      1,
+      2,
+      10,
+      100
+    ],
+    "water_quality_volume_method": "WQv is calculated as (P)(Rv)(A)/12, where P is the rainfall depth (1.0 inch in the Eastern Rainfall Zone, 0.9 inch in the Western Rainfall Zone), Rv is the volumetric runoff coefficient (0.05 + 0.009 * I), and A is the site area in acres.",
+    "peak_flow_calculation_method": [
+      "TR-55",
+      "TR-20"
+    ],
+    "required_hydrologic_hydraulic_software": [
+      "TR-20",
+      "TR-55"
+    ],
+    "approved_bmp_categories": [
+      "Stormwater Ponds",
+      "Stormwater Wetlands",
+      "Infiltration Practices",
+      "Filtering Systems",
+      "Open Channel Practices",
+      "Non-structural Practices"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "Maryland Stormwater Design Manual",
+      "page_or_section": "TOC-1"
+    },
+    {
+      "field": "document_metadata.jurisdiction_level",
+      "excerpt": "State of Maryland",
+      "page_or_section": "TOC-3"
+    },
+    {
+      "field": "document_metadata.state_code",
+      "excerpt": "State of Maryland",
+      "page_or_section": "TOC-3"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "Maryland Stormwater Design Manual",
+      "page_or_section": "TOC-1"
+    },
+    {
+      "field": "document_metadata.version_or_edition",
+      "excerpt": "VOLUME ONE",
+      "page_or_section": "TOC-1"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "Rainfall Depths Associated with the 1,2,10 and 100-year, 24-hour Storm Events",
+      "page_or_section": "2.11, Table 2.2"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "WQv = (1.0) (Rv)(A) Eastern Rainfall Zone ... WQv = (0.9) (Rv)(A) Western Rainfall Zone ... where: WQv = water quality volume (in acre-feet) Rv = 0.05 + 0.009(I)",
+      "page_or_section": "2.2, Section 2.1"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "The models TR-55 and TR-20 (or approved equivalent) shall be used for determining peak discharge rates.",
+      "page_or_section": "2.10, Section 2.3"
+    },
+    {
+      "field": "design_criteria.required_hydrologic_hydraulic_software",
+      "excerpt": "TR-20 Technical Release No. 20 Project Formulation-Hydrology, computer program\nTR-55 Technical Release No. 55 Urban Unit Hydrology for Small Watersheds",
+      "page_or_section": "1.21, Table 1.3"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Acceptable BMP groups are:\n- Stormwater Ponds\n- Stormwater Wetlands\n- Infiltration Practices\n- Filtering Systems\n- Open Channel Practices\n- Non-structural Practices",
+      "page_or_section": "1.16, Section 1.3.1"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "high",
+    "needs_human_review": false,
+    "review_notes": "Adoption and revision dates are not explicitly stated as full ISO dates in the provided text, so they were left null. TR-55 outputs carry 1997 and 1998 system dates but do not explicitly represent the legal publication/revision dates of the manual itself.",
+    "fields_not_found": [
+      "document_metadata.adoption_or_effective_date",
+      "document_metadata.last_revised_date"
+    ]
+  },
+  "source": {
+    "document_url": "https://mde.maryland.gov/programs/water/StormwaterManagementProgram/Documents/www.mde.state.md.us/assets/document/sedimentstormwater/MD%20SWM%20Volume%201.pdf",
+    "landing_page_url": "https://mde.maryland.gov/programs/water/stormwatermanagementprogram/pages/stormwater_design.aspx",
+    "retrieved_at": "2026-08-07T10:44:00.000Z",
+    "original_filename": "md-swm-volume-1.pdf"
+  }
+}

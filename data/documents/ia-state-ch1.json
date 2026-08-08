@@ -1,0 +1,121 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "Iowa",
+    "jurisdiction_level": "state",
+    "state_code": "IA",
+    "document_title": "Iowa Storm Water Management Manual",
+    "version_or_edition": null,
+    "adoption_or_effective_date": "2009-10-28",
+    "last_revised_date": null,
+    "relationship_to_state_manual": "independent"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [
+      1,
+      2,
+      5,
+      10,
+      25,
+      50,
+      100
+    ],
+    "water_quality_volume_method": "Equivalent to the rainfall depth in inches (using the recommended 90% cumulative frequency depth of 1.25 inches) multiplied by the volumetric runoff coefficient (Rv) for the site and the site drainage area.",
+    "peak_flow_calculation_method": [
+      "Rational Method",
+      "WinTR-55 Method",
+      "TR-20 Model",
+      "HEC-1",
+      "HEC-HMS",
+      "Regression equations"
+    ],
+    "required_hydrologic_hydraulic_software": [
+      "HEC-RAS",
+      "HEC-2",
+      "SWMM",
+      "WSPRO",
+      "HY-8",
+      "WinTR-55",
+      "HEC-1",
+      "HEC-HMS",
+      "TR-20"
+    ],
+    "approved_bmp_categories": [
+      "Non-structural BMPs",
+      "Stormwater Detention BMPs",
+      "Infiltration BMPs",
+      "Vegetative BMPs"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "Iowa Storm Water Management Manual",
+      "page_or_section": "Chapter 1- Section 1, Page 1 of 8"
+    },
+    {
+      "field": "document_metadata.jurisdiction_level",
+      "excerpt": "Iowa Storm Water Management Manual",
+      "page_or_section": "Chapter 1- Section 1, Page 1 of 8"
+    },
+    {
+      "field": "document_metadata.state_code",
+      "excerpt": "The Nationwide Permit Program Fact Sheet No. 7 (IA)",
+      "page_or_section": "Chapter 1- Section 3, Page 5 of 10"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "Iowa Storm Water Management Manual",
+      "page_or_section": "Chapter 1- Section 1, Page 1 of 8"
+    },
+    {
+      "field": "document_metadata.adoption_or_effective_date",
+      "excerpt": "October 28, 2009",
+      "page_or_section": "Chapter 1- Section 1, Page 1 of 8"
+    },
+    {
+      "field": "document_metadata.relationship_to_state_manual",
+      "excerpt": "Iowa Storm Water Management Manual",
+      "page_or_section": "Chapter 1- Section 1, Page 1 of 8"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "the 1-year, 24-hour storm... 5-year recurrence interval... 2-year and 10-year... 25-year... 50-year (Qp50)... 100-year, 24-hour storm event",
+      "page_or_section": "Chapter 1- Section 4, Pages 3-4 of 7"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "In numerical terms, it is equivalent to the rainfall depth in inches (the 90% cumulative frequency rainfall depth) multiplied by the volumetric runoff coefficient (Rv) for the site, and the site drainage area.",
+      "page_or_section": "Chapter 1- Section 4, Page 2 of 7"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "Use the Rational Method for drainage areas up to 160 acres... Use the WinTR-55 Method for drainage areas up to 2000 acres... TR-20 Model... Routines contained in HEC-1 or HEC-HMS computer models... Regression equations",
+      "page_or_section": "Chapter 1- Section 5, Page 2 of 8"
+    },
+    {
+      "field": "design_criteria.required_hydrologic_hydraulic_software",
+      "excerpt": "HEC-RAS - river analysis systems... HEC-2 - water surface profiles... SWMM - stormwater management model... WSPRO - water surface profiles... HY-8 - hydraulic design of highway culverts",
+      "page_or_section": "Chapter 1- Section 5, Page 4 of 8"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Non-structural BMPs... Stormwater Detention BMPs... Infiltration BMPs... Vegetative BMPs",
+      "page_or_section": "Chapter 1- Section 3, Page 8 of 10"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "high",
+    "needs_human_review": true,
+    "review_notes": "The listed software are noted in the text as 'typical modeling programs' rather than explicitly 'required'. Version and last revised dates were not explicitly distinguished beyond the general publication date of October 28, 2009.",
+    "fields_not_found": [
+      "document_metadata.version_or_edition",
+      "document_metadata.last_revised_date"
+    ]
+  },
+  "source": {
+    "document_url": "https://www.iowadnr.gov/media/7380/download?inline=",
+    "landing_page_url": "https://www.iowadnr.gov/environmental-protection/water-quality/stormwater-program/iswmm-manual",
+    "retrieved_at": "2026-08-07T11:37:16.121Z",
+    "original_filename": "ia-state-ch1.pdf"
+  }
+}

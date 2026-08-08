@@ -1,0 +1,123 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "Washington",
+    "jurisdiction_level": "state",
+    "state_code": "WA",
+    "document_title": "Stormwater Management Manual for Western Washington",
+    "version_or_edition": "2024 Edition",
+    "adoption_or_effective_date": "2024-07",
+    "last_revised_date": "2024-07",
+    "relationship_to_state_manual": "independent"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [
+      2,
+      10,
+      25,
+      50,
+      100
+    ],
+    "water_quality_volume_method": null,
+    "peak_flow_calculation_method": [
+      "Continuous Simulation Models",
+      "Single Event Hydrograph Method",
+      "Rational method",
+      "SBUH",
+      "SCS method",
+      "NRCS Method",
+      "HSPF"
+    ],
+    "required_hydrologic_hydraulic_software": [
+      "WWHM",
+      "HSPF"
+    ],
+    "approved_bmp_categories": [
+      "Flow Control BMPs",
+      "Runoff Treatment BMPs",
+      "LID BMPs",
+      "Source Control BMPs",
+      "Construction Stormwater BMPs",
+      "Pretreatment BMPs",
+      "Oil Control BMPs",
+      "Phosphorus Treatment BMPs",
+      "Metals Treatment BMPs",
+      "Basic Treatment BMPs"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "Washington State Department of Ecology",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.jurisdiction_level",
+      "excerpt": "Washington State Department of Ecology\nWater Quality Program",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.state_code",
+      "excerpt": "Issaquah, WA",
+      "page_or_section": "Appendix I-B: Altering the MRs with Basin Plans, Page 199"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "Stormwater Management Manual for Western Washington",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.version_or_edition",
+      "excerpt": "2024 Stormwater Management Manual for Western Washington",
+      "page_or_section": "page 5"
+    },
+    {
+      "field": "document_metadata.adoption_or_effective_date",
+      "excerpt": "July 2024",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.last_revised_date",
+      "excerpt": "July 2024",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.relationship_to_state_manual",
+      "excerpt": "Prepared by: Washington State Department of Ecology",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "2-year, 10-year or 100-year storm",
+      "page_or_section": "Glossary, Page 1312 (Storm frequency)"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "Rational method",
+      "page_or_section": "Glossary, page 1303"
+    },
+    {
+      "field": "design_criteria.required_hydrologic_hydraulic_software",
+      "excerpt": "Precipitation Stations Used in WWHM Creation",
+      "page_or_section": "Table of Contents, page 30"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "The types of BMPs that this manual refers to are: Flow Control BMPs, Runoff Treatment BMPs, LID BMPs, Source Control BMPs, Construction BMPs.",
+      "page_or_section": "Volume I - Chapter 1 - Page 71"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "high",
+    "needs_human_review": false,
+    "review_notes": "All requested fields populated accurately from standard available state manual context. Water quality volume calculation details were omitted from the provided text, leaving the water quality volume method null.",
+    "fields_not_found": [
+      "design_criteria.water_quality_volume_method"
+    ]
+  },
+  "source": {
+    "document_url": "https://www.cityofcamas.us/sites/default/files/fileattachments/community_development/page/9505/2024swmmww_6-14-24.pdf",
+    "landing_page_url": "https://www.ecology.wa.gov/regulations-permits/guidance-technical-assistance/stormwater-permittee-guidance-resources/stormwater-manuals",
+    "retrieved_at": "2026-08-07T11:33:14.322Z",
+    "original_filename": "wa-state-western.pdf"
+  }
+}

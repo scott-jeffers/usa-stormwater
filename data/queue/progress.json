@@ -1,0 +1,364 @@
+{
+  "md-state": {
+    "status": "done",
+    "updatedAt": "2026-08-07T00:00:00.000Z",
+    "slug": "md-state",
+    "error": null
+  },
+  "pa-state": {
+    "status": "done",
+    "updatedAt": "2026-08-07T00:00:00.000Z",
+    "slug": "pa-state",
+    "error": null
+  },
+  "philadelphia-pa": {
+    "status": "done",
+    "updatedAt": "2026-08-07T00:00:00.000Z",
+    "slug": "philadelphia-pa",
+    "error": null
+  },
+  "ga-state": {
+    "status": "done",
+    "updatedAt": "2026-08-07T11:19:40.291Z",
+    "slug": "ga-state",
+    "chars": 547912,
+    "durationMs": 30855,
+    "error": null
+  },
+  "ct-state": {
+    "status": "done",
+    "updatedAt": "2026-08-07T11:22:12.139Z",
+    "slug": "ct-state",
+    "chars": 1125046,
+    "durationMs": 106830,
+    "error": null
+  },
+  "ny-state": {
+    "status": "done",
+    "updatedAt": "2026-08-07T11:24:29.823Z",
+    "slug": "ny-state",
+    "chars": 1020768,
+    "durationMs": 92679,
+    "error": null
+  },
+  "ny-bluebook": {
+    "status": "done",
+    "updatedAt": "2026-08-07T21:19:23.961Z",
+    "slug": "ny-bluebook",
+    "chars": 727429,
+    "durationMs": 18903,
+    "error": null
+  },
+  "tn-state": {
+    "status": "done",
+    "updatedAt": "2026-08-07T11:27:05.534Z",
+    "slug": "tn-state",
+    "chars": 660872,
+    "durationMs": 33232,
+    "error": null
+  },
+  "ri-state": {
+    "status": "done",
+    "updatedAt": "2026-08-07T11:28:15.875Z",
+    "slug": "ri-state",
+    "chars": 952098,
+    "durationMs": 25327,
+    "error": null
+  },
+  "vt-state": {
+    "status": "done",
+    "updatedAt": "2026-08-07T11:29:27.036Z",
+    "slug": "vt-state",
+    "chars": 468235,
+    "durationMs": 26143,
+    "error": null
+  },
+  "nh-state": {
+    "status": "done",
+    "updatedAt": "2026-08-07T11:30:42.900Z",
+    "slug": "nh-state",
+    "chars": 30049,
+    "durationMs": 30861,
+    "error": null
+  },
+  "wa-state-western": {
+    "status": "done",
+    "updatedAt": "2026-08-07T11:33:14.324Z",
+    "slug": "wa-state-western",
+    "chars": 2574377,
+    "durationMs": 106418,
+    "error": null
+  },
+  "fl-fsesci-tier1": {
+    "status": "done",
+    "updatedAt": "2026-08-07T11:34:24.796Z",
+    "slug": "fl-fsesci-tier1",
+    "chars": 292083,
+    "durationMs": 25469,
+    "error": null
+  },
+  "ma-state-draft": {
+    "status": "done",
+    "updatedAt": "2026-08-07T11:36:02.659Z",
+    "slug": "ma-state-draft",
+    "chars": 2008453,
+    "durationMs": 52847,
+    "error": null
+  },
+  "ia-state-ch1": {
+    "status": "done",
+    "updatedAt": "2026-08-07T11:37:16.124Z",
+    "slug": "ia-state-ch1",
+    "chars": 164855,
+    "durationMs": 28447,
+    "error": null
+  },
+  "nyc-ny": {
+    "status": "done",
+    "updatedAt": "2026-08-07T11:38:32.233Z",
+    "slug": "nyc-ny",
+    "chars": 300867,
+    "durationMs": 31093,
+    "error": null
+  },
+  "seattle-wa": {
+    "status": "done",
+    "updatedAt": "2026-08-07T11:39:56.307Z",
+    "slug": "seattle-wa",
+    "chars": 2003102,
+    "durationMs": 39060,
+    "error": null
+  },
+  "seattle-wa-2026": {
+    "status": "done",
+    "updatedAt": "2026-08-07T11:41:19.743Z",
+    "slug": "seattle-wa-2026",
+    "chars": 2301524,
+    "durationMs": 38427,
+    "error": null
+  },
+  "chicago-il": {
+    "status": "done",
+    "updatedAt": "2026-08-07T21:21:20.853Z",
+    "slug": "chicago-il",
+    "chars": 273802,
+    "durationMs": 71887,
+    "error": null
+  },
+  "austin-tx-ecm": {
+    "status": "done",
+    "updatedAt": "2026-08-07T11:43:24.322Z",
+    "slug": "austin-tx-ecm",
+    "chars": 58124,
+    "durationMs": 28274,
+    "error": null
+  },
+  "portland-or": {
+    "status": "pending",
+    "updatedAt": "2026-08-07T21:23:16.192Z",
+    "error": null
+  },
+  "denver-co": {
+    "status": "pending",
+    "updatedAt": "2026-08-07T21:23:16.192Z",
+    "error": null
+  },
+  "va-state": {
+    "status": "skipped",
+    "updatedAt": "2026-08-07T11:44:09.344Z",
+    "error": "skipped_no_single_pdf — VA handbook is chapter/web EncodePlus, not one PDF"
+  },
+  "nc-state": {
+    "status": "skipped",
+    "updatedAt": "2026-08-07T11:44:09.346Z",
+    "error": "skipped_no_single_pdf — NC design manual is chapter portal"
+  },
+  "nj-state": {
+    "status": "skipped",
+    "updatedAt": "2026-08-07T11:44:09.348Z",
+    "error": "skipped_no_single_pdf — NJ BMP manual is chapter PDFs"
+  },
+  "mn-state": {
+    "status": "skipped",
+    "updatedAt": "2026-08-07T11:44:09.350Z",
+    "error": "skipped_no_single_pdf — live wiki; 2008 PDF outdated"
+  },
+  "ca-casqa-municipal": {
+    "status": "skipped",
+    "updatedAt": "2026-08-07T11:44:09.351Z",
+    "error": "skipped_no_single_pdf — CASQA municipal handbook free but multi-file; Construction requires subscription"
+  },
+  "dc-guidebook": {
+    "status": "pending",
+    "updatedAt": "2026-08-07T21:23:16.192Z",
+    "error": null
+  },
+  "baltimore-md": {
+    "status": "skipped",
+    "updatedAt": "2026-08-07T11:45:00.758Z",
+    "error": "HTTP 404 Not Found",
+    "durationMs": 1031
+  },
+  "boston-ma": {
+    "status": "skipped",
+    "updatedAt": "2026-08-07T11:45:46.564Z",
+    "error": "HTTP 404 Not Found",
+    "durationMs": 791
+  },
+  "houston-tx": {
+    "status": "skipped",
+    "updatedAt": "2026-08-07T11:51:36.489Z",
+    "error": "fetch failed",
+    "durationMs": 304911
+  },
+  "san-diego-ca": {
+    "status": "skipped",
+    "updatedAt": "2026-08-07T11:52:30.887Z",
+    "error": "HTTP 404 Not Found",
+    "durationMs": 9393
+  },
+  "los-angeles-ca": {
+    "status": "skipped",
+    "updatedAt": "2026-08-07T11:53:16.500Z",
+    "error": "HTTP 404 Not Found",
+    "durationMs": 600
+  },
+  "atlanta-ga": {
+    "status": "skipped",
+    "updatedAt": "2026-08-07T11:54:02.125Z",
+    "error": "HTTP 404 Not Found",
+    "durationMs": 617
+  },
+  "miami-fl": {
+    "status": "skipped",
+    "updatedAt": "2026-08-07T11:54:47.132Z",
+    "error": "skipped_no_single_pdf — need verified city manual PDF"
+  },
+  "minneapolis-mn": {
+    "status": "skipped",
+    "updatedAt": "2026-08-07T11:54:47.136Z",
+    "error": "skipped_no_single_pdf — need verified city manual PDF"
+  },
+  "detroit-mi": {
+    "status": "skipped",
+    "updatedAt": "2026-08-07T11:54:47.139Z",
+    "error": "skipped_no_single_pdf"
+  },
+  "phoenix-az": {
+    "status": "skipped",
+    "updatedAt": "2026-08-07T11:54:47.142Z",
+    "error": "skipped_no_single_pdf"
+  },
+  "salt-lake-city-ut": {
+    "status": "skipped",
+    "updatedAt": "2026-08-07T11:54:47.144Z",
+    "error": "skipped_no_single_pdf"
+  },
+  "boise-id": {
+    "status": "skipped",
+    "updatedAt": "2026-08-07T11:54:47.146Z",
+    "error": "skipped_no_single_pdf"
+  },
+  "albuquerque-nm": {
+    "status": "skipped",
+    "updatedAt": "2026-08-07T11:54:47.153Z",
+    "error": "skipped_no_single_pdf"
+  },
+  "honolulu-hi": {
+    "status": "skipped",
+    "updatedAt": "2026-08-07T11:54:47.156Z",
+    "error": "skipped_no_single_pdf"
+  },
+  "anchorage-ak": {
+    "status": "skipped",
+    "updatedAt": "2026-08-07T11:54:47.158Z",
+    "error": "skipped_no_single_pdf"
+  },
+  "ohio-rainwater": {
+    "status": "pending",
+    "updatedAt": "2026-08-07T21:23:16.192Z",
+    "error": null
+  },
+  "wisconsin-technical": {
+    "status": "skipped",
+    "updatedAt": "2026-08-07T11:55:33.412Z",
+    "error": "HTTP 404 Not Found",
+    "durationMs": 798
+  },
+  "michigan-manual": {
+    "status": "pending",
+    "updatedAt": "2026-08-07T21:23:16.192Z",
+    "error": null
+  },
+  "indiana-manual": {
+    "status": "skipped",
+    "updatedAt": "2026-08-07T11:57:04.467Z",
+    "error": "HTTP 404 ",
+    "durationMs": 403
+  },
+  "missouri-manual": {
+    "status": "skipped",
+    "updatedAt": "2026-08-07T11:57:50.276Z",
+    "error": "HTTP 404 Not Found",
+    "durationMs": 796
+  },
+  "arkansas-manual": {
+    "status": "skipped",
+    "updatedAt": "2026-08-07T11:58:36.083Z",
+    "error": "HTTP 404 Not Found",
+    "durationMs": 800
+  },
+  "alabama-handbook": {
+    "status": "pending",
+    "updatedAt": "2026-08-07T21:23:16.192Z",
+    "error": null
+  },
+  "south-carolina-manual": {
+    "status": "pending",
+    "updatedAt": "2026-08-07T21:23:16.192Z",
+    "error": null
+  },
+  "kentucky-bmp": {
+    "status": "skipped",
+    "updatedAt": "2026-08-07T12:00:51.887Z",
+    "error": "HTTP 404 NOT FOUND",
+    "durationMs": 626
+  },
+  "west-virginia-manual": {
+    "status": "pending",
+    "updatedAt": "2026-08-07T21:23:16.192Z",
+    "error": null
+  },
+  "delaware-esc": {
+    "status": "skipped",
+    "updatedAt": "2026-08-07T12:02:22.980Z",
+    "error": "HTTP 404 Not Found",
+    "durationMs": 508
+  },
+  "maine-manual": {
+    "status": "pending",
+    "updatedAt": "2026-08-07T21:23:16.192Z",
+    "error": null
+  },
+  "oregon-manual": {
+    "status": "skipped",
+    "updatedAt": "2026-08-07T12:03:53.653Z",
+    "error": "HTTP 404 Not Found",
+    "durationMs": 440
+  },
+  "kansas-city-marc-bmp": {
+    "status": "pending",
+    "updatedAt": "2026-08-07T21:23:16.192Z",
+    "error": null
+  },
+  "tx-edwards-rg348": {
+    "status": "pending",
+    "updatedAt": "2026-08-07T21:23:16.192Z",
+    "error": null
+  },
+  "idaho-bmp-catalog": {
+    "status": "skipped",
+    "updatedAt": "2026-08-07T21:19:04.374Z",
+    "error": "URL 404 on verify"
+  }
+}

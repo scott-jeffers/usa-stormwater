@@ -1,0 +1,132 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "City of Chicago",
+    "jurisdiction_level": "municipality",
+    "state_code": "IL",
+    "document_title": "Stormwater Management Ordinance Manual",
+    "version_or_edition": "August 2024",
+    "adoption_or_effective_date": "2024-08",
+    "last_revised_date": "2024-08",
+    "relationship_to_state_manual": "independent"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [
+      2,
+      5,
+      10,
+      25,
+      100
+    ],
+    "water_quality_volume_method": "Capture one-half inch of runoff from all impervious surfaces, or achieve a fifteen-percent reduction in impervious surfaces from existing conditions for developments not discharging to Waters or MS4.",
+    "peak_flow_calculation_method": [
+      "Rational Method",
+      "Modified Rational Method",
+      "Hydrograph Methods",
+      "HEC-1",
+      "HEC-HMS",
+      "TR-20",
+      "TR-55",
+      "SWMM"
+    ],
+    "required_hydrologic_hydraulic_software": [
+      "Stormwater Spreadsheet Tool"
+    ],
+    "approved_bmp_categories": [
+      "Combined Sewers",
+      "Ditches, Swales, and Natural Channels",
+      "Storm Sewers",
+      "Detention Basins",
+      "Detention Vaults",
+      "Oversized Pipes",
+      "Parking Lot Detention",
+      "Rooftop Detention",
+      "Green Roofs",
+      "Rooftop Runoff BMPs (Planter Boxes, Rain Barrels and Cisterns)",
+      "Permeable Paving",
+      "Natural Landscaping",
+      "Vegetated Filter Strips",
+      "Bioinfiltration Systems",
+      "Drainage Swales",
+      "Infiltration Vault"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "City of Chicago",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.jurisdiction_level",
+      "excerpt": "City of Chicago",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.state_code",
+      "excerpt": "Chicago, Illinois 60602",
+      "page_or_section": "Page 3, Section 1.4"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "Stormwater Management Ordinance Manual",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.version_or_edition",
+      "excerpt": "August 2024",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.adoption_or_effective_date",
+      "excerpt": "August 2024",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.last_revised_date",
+      "excerpt": "August 2024",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.relationship_to_state_manual",
+      "excerpt": "The purpose of this 'Stormwater Manual' (Manual) is to help applicants understand and comply with the Ordinance and accompanying Chapter III 'Requirements for Stormwater Management' of the 'Regulations for Sewer Construction and Stormwater Management' (Regulations).",
+      "page_or_section": "Page iv, Foreword"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "Velocities must be 1 ft/sec or less during the 2-year storm event... minor drainage systems for small storm events of up to the 5-year storm event... storage for a minimum 10-year event... 25-year storm analysis... 100-year storm event",
+      "page_or_section": "Pages 7, 14, 24, 36, 39"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "Capture one-half inch of runoff from all impervious surfaces in accordance with volume control BMPs; or (B) For Developments that do not directly discharge to Waters or to a municipal separate storm sewer system, achieve a fifteen-percent reduction in impervious surfaces from existing conditions.",
+      "page_or_section": "Page 26, Section 3.2"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "Modified Rational Method to calculate the maximum volume of stormwater... Rational Method... hydrograph methods with regional rainfall data... HEC-1 and HEC-HMS... TR-20... TR-55... SWMM",
+      "page_or_section": "Pages 7, 15, 16, B-6, B-7"
+    },
+    {
+      "field": "design_criteria.required_hydrologic_hydraulic_software",
+      "excerpt": "The initial site plans, Stormwater Management Plan (SMP), Stormwater Spreadsheet Tool and all other supporting documentation must be submitted to DOB",
+      "page_or_section": "Page 3, Section 1.4"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Green Roofs... Rooftop Runoff BMPs (Planter Boxes, Rain Barrels and Cisterns)... Permeable Paving... Natural Landscaping... Vegetated Filter Strips... Bioinfiltration Systems... Drainage Swales... Infiltration Vault",
+      "page_or_section": "Page 36, Section 3.3.1"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "high",
+    "needs_human_review": false,
+    "review_notes": "The document clearly defines the City of Chicago's independent stormwater manual, its return periods (2, 5, 10, 25, 100 years), its volume control target (0.5 inches of runoff or 15% impervious reduction), and its calculation methods (Rational, Modified Rational, and hydrograph models). All requested fields were successfully extracted with exact text evidence.",
+    "fields_not_found": []
+  },
+  "source": {
+    "document_url": "https://www.chicago.gov/content/dam/city/depts/water/general/Engineering/SewerConstStormReq/2024StormwaterManual.pdf",
+    "landing_page_url": "https://www.chicago.gov/city/en/depts/water.html",
+    "retrieved_at": "2026-08-07T21:21:20.846Z",
+    "original_filename": "chicago-il.pdf"
+  }
+}

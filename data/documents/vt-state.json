@@ -1,0 +1,111 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "Vermont",
+    "jurisdiction_level": "state",
+    "state_code": "VT",
+    "document_title": "The Vermont Stormwater Management Manual Volume I – Stormwater Treatment Standards",
+    "version_or_edition": "DRAFT March 1, 2016",
+    "adoption_or_effective_date": null,
+    "last_revised_date": "2016-03-01",
+    "relationship_to_state_manual": "independent"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [
+      1,
+      10,
+      100
+    ],
+    "water_quality_volume_method": "WQv = (P)(Rv)(A) / 12, where P = 1.0 inch, Rv = 0.05 + 0.009(I), I = percent impervious, A = site area in acres.",
+    "peak_flow_calculation_method": [
+      "NRCS Runoff methods",
+      "Watershed Lag Method",
+      "TR-55",
+      "TR-20"
+    ],
+    "required_hydrologic_hydraulic_software": [
+      "TR-55",
+      "TR-20",
+      "HECRAS"
+    ],
+    "approved_bmp_categories": [
+      "Pre-Treatment Practices",
+      "Non-Structural Practices",
+      "Structural Stormwater Treatment Practices",
+      "Alternative Stormwater Treatment Practices"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "The Vermont Stormwater Management Manual",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.jurisdiction_level",
+      "excerpt": "Vermont Agency of Natural Resources",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.state_code",
+      "excerpt": "VT Relay Service",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "The Vermont Stormwater Management Manual Volume I – Stormwater Treatment Standards",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.version_or_edition",
+      "excerpt": "DRAFT March 1, 2016",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.last_revised_date",
+      "excerpt": "DRAFT March 1, 2016",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.relationship_to_state_manual",
+      "excerpt": "This manual was produced to provide technical analysis and design guidance for the Vermont Agency of Natural Resources Stormwater Management Program.",
+      "page_or_section": "1-1"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "1-year 24 hour storm... 10-year storm... 100-year storm",
+      "page_or_section": "2-2"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "WQv = (P)(Rv)(A) / 12",
+      "page_or_section": "2-7"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "The Watershed Lag Method shall be used for determination of peak rates",
+      "page_or_section": "2-13"
+    },
+    {
+      "field": "design_criteria.required_hydrologic_hydraulic_software",
+      "excerpt": "The models TR-55 and TR-20 (or approved equivalent) will be used for determining peak discharge rates",
+      "page_or_section": "2-14"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Pre-Treatment Practices, Non-Structural Practices, Structural Stormwater Treatment Practices",
+      "page_or_section": "Table of Contents"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "high",
+    "needs_human_review": false,
+    "review_notes": null,
+    "fields_not_found": []
+  },
+  "source": {
+    "document_url": "http://legislature.vermont.gov/Documents/2016/WorkGroups/House%20Fish%20and%20Wildlife/Stormwater%20Manual%20Revisions/W~Kevin%20Burke~Draft%20Stormwater%20Manual%20Revisions%20DEC~3-22-2016.pdf",
+    "landing_page_url": "https://dec.vermont.gov/watershed/stormwater",
+    "retrieved_at": "2026-08-07T11:29:27.033Z",
+    "original_filename": "vt-state.pdf"
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "Connecticut",
+    "jurisdiction_level": "state",
+    "state_code": "CT",
+    "document_title": "Connecticut Stormwater Quality Manual",
+    "version_or_edition": "2024 Edition",
+    "adoption_or_effective_date": "2024-03-30",
+    "last_revised_date": "2024-03-26",
+    "relationship_to_state_manual": "independent"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [
+      2,
+      10,
+      100
+    ],
+    "water_quality_volume_method": "WQV = (P)(R)(A)/12 where P = 1.3 inches (90th percentile rainfall event), R = volumetric runoff coefficient = 0.05 + 0.009(I) where I is the post-development impervious area percentage, and A is the drainage area in square feet.",
+    "peak_flow_calculation_method": [
+      "NRCS Curve Number method",
+      "Graphical Peak Discharge Method",
+      "TR-20",
+      "Rational Formula"
+    ],
+    "required_hydrologic_hydraulic_software": [
+      "WinTR-55",
+      "HydroCAD",
+      "TR-20",
+      "Hantush Groundwater Mounding Spreadsheet"
+    ],
+    "approved_bmp_categories": [
+      "Pretreatment BMPs",
+      "Infiltration BMPs",
+      "Filtering BMPs",
+      "Stormwater Pond BMPs",
+      "Stormwater Wetland BMPs",
+      "Water Quality Conveyance BMPs",
+      "Stormwater Reuse BMPs",
+      "Proprietary BMPs",
+      "Other BMPs and BMP Accessories"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "Connecticut Stormwater Quality Manual",
+      "page_or_section": "Cover Page"
+    },
+    {
+      "field": "document_metadata.jurisdiction_level",
+      "excerpt": "CONNECTICUT DEPARTMENT OF ENERGY & ENVIRONMENTAL PROTECTION",
+      "page_or_section": "Cover Page"
+    },
+    {
+      "field": "document_metadata.state_code",
+      "excerpt": "CT DEEP",
+      "page_or_section": "Page 2"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "Connecticut Stormwater Quality Manual",
+      "page_or_section": "Cover Page"
+    },
+    {
+      "field": "document_metadata.version_or_edition",
+      "excerpt": "Latest Revision March 26, 2024",
+      "page_or_section": "Cover Page"
+    },
+    {
+      "field": "document_metadata.adoption_or_effective_date",
+      "excerpt": "Effective Date: March 30, 2024",
+      "page_or_section": "Cover Page"
+    },
+    {
+      "field": "document_metadata.last_revised_date",
+      "excerpt": "Latest Revision March 26, 2024",
+      "page_or_section": "Cover Page"
+    },
+    {
+      "field": "document_metadata.relationship_to_state_manual",
+      "excerpt": "CONNECTICUT DEPARTMENT OF ENERGY & ENVIRONMENTAL PROTECTION",
+      "page_or_section": "Cover Page"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "Control the 2-year, 24-hour post-development peak flow rate... Control the 10-year, 24-hour post-development peak flow rate... Potentially control the 100-year, 24-hour post-development peak flow rate",
+      "page_or_section": "Page 35, Table 4-1"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "WQV = (P)(R)(A)/12 where: WQV = water quality volume (cubic feet) P = 1.3 inches (90th percentile rainfall event) R = volumetric runoff coefficient = 0.05+0.009(I) I = post- development impervious area (percent) A = post-development total drainage area of site or design point (square feet)",
+      "page_or_section": "Page 46, Water Quality Volume Calculation"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "using a hydrologic/hydraulic routing model based on the NRCS Curve Number method (e.g., HydroCAD or similar software)... Graphical Peak Discharge Method... routing employed by TR-20... Rational Formula",
+      "page_or_section": "Page 59, Appendix D"
+    },
+    {
+      "field": "design_criteria.required_hydrologic_hydraulic_software",
+      "excerpt": "hydrologic analysis software such as WinTR-55... HydroCAD or similar software... TR-20... USGS and New Jersey Department of Environmental Protection Hantush Groundwater Mounding Spreadsheet",
+      "page_or_section": "Page 55, 59, 190"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "This Manual includes the following major categories and types of structural stormwater BMPs that are recommended for use in Connecticut, based on their primary function: Pretreatment BMPs, Infiltration BMPs, Filtering BMPs, Stormwater Pond BMPs, Stormwater Wetland BMPs, Water Quality Conveyance BMPs, Stormwater Reuse BMPs, Proprietary BMPs, Other BMPs and BMP Accessories",
+      "page_or_section": "Page 110-111, Functional Categories of Structural Stormwater BMPs"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "high",
+    "needs_human_review": false,
+    "review_notes": "The document is the official Connecticut Stormwater Quality Manual, and all details, including the updated 1.3-inch water quality storm and NOAA Atlas 14 storm return periods, were extracted directly with matching exact citations.",
+    "fields_not_found": []
+  },
+  "source": {
+    "document_url": "https://portal.ct.gov/-/media/deep/water/water_quality_management/guidance/swm_mar_2024.pdf",
+    "landing_page_url": "https://portal.ct.gov/DEEP/Water-Regulating-and-Discharges/Stormwater/Stormwater-Manual",
+    "retrieved_at": "2026-08-07T11:22:12.135Z",
+    "original_filename": "ct-state.pdf"
+  }
+}

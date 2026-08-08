@@ -1,0 +1,94 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "Florida",
+    "jurisdiction_level": "state",
+    "state_code": "FL",
+    "document_title": "Florida Stormwater Erosion and Sedimentation Control Inspectors Manual",
+    "version_or_edition": "July 2018",
+    "adoption_or_effective_date": "2018-07",
+    "last_revised_date": null,
+    "relationship_to_state_manual": "independent"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [
+      2,
+      10
+    ],
+    "water_quality_volume_method": "Temporary (or permanent) sediment or wet detention basin providing 3,600 cubic feet of storage per acre drained",
+    "peak_flow_calculation_method": [],
+    "required_hydrologic_hydraulic_software": [],
+    "approved_bmp_categories": [
+      "Temporary BMPs for Erosion and Sedimentation Control",
+      "BMPs—Vegetation for Erosion Control",
+      "BMPs for Dewatering"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "Florida Department of Environmental Protection",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.jurisdiction_level",
+      "excerpt": "Florida Department of Environmental Protection",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.state_code",
+      "excerpt": "Tallahassee, FL 32399",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "Florida Stormwater Erosion and Sedimentation Control Inspectors Manual",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.version_or_edition",
+      "excerpt": "July 2018",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.adoption_or_effective_date",
+      "excerpt": "July 2018",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.relationship_to_state_manual",
+      "excerpt": "Florida Department of Environmental Protection",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "peak runoff expected from the drainage area for a 10-year storm",
+      "page_or_section": "Chapter 3, Page 106"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "temporary (or permanent) sediment or wet detention basin providing 3,600 cubic feet of storage per acre drained must be provided",
+      "page_or_section": "Chapter 3, Page 103"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Chapter 3: Temporary BMPs for Erosion and Sedimentation Control ... Chapter 4: BMPs—Vegetation for Erosion Control ... Chapter 5: BMPs for Dewatering",
+      "page_or_section": "Contents"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "high",
+    "needs_human_review": false,
+    "review_notes": null,
+    "fields_not_found": [
+      "document_metadata.last_revised_date",
+      "design_criteria.peak_flow_calculation_method",
+      "design_criteria.required_hydrologic_hydraulic_software"
+    ]
+  },
+  "source": {
+    "document_url": "https://www.mywaltonfl.gov/DocumentCenter/View/32627/FSESCI-TIER-I-Manual-062918",
+    "landing_page_url": "https://floridadep.gov/dear/florida-stormwater-erosion",
+    "retrieved_at": "2026-08-07T11:34:24.793Z",
+    "original_filename": "fl-fsesci-tier1.pdf"
+  }
+}

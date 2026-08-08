@@ -1,0 +1,112 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "New York State",
+    "jurisdiction_level": "state",
+    "state_code": "NY",
+    "document_title": "New York State Standards and Specifications for Erosion and Sediment Control",
+    "version_or_edition": "November 2016",
+    "adoption_or_effective_date": "2016-11",
+    "last_revised_date": "2016-11",
+    "relationship_to_state_manual": "independent"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [
+      1,
+      2,
+      10,
+      100
+    ],
+    "water_quality_volume_method": null,
+    "peak_flow_calculation_method": [
+      "TR-55",
+      "TR-20"
+    ],
+    "required_hydrologic_hydraulic_software": [
+      "HydroCAD",
+      "USDA NRCS TR20"
+    ],
+    "approved_bmp_categories": [
+      "vegetative",
+      "structural",
+      "Runoff Control",
+      "Soil Stabilization",
+      "Sediment Control"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "New York State Standards and Specifications for Erosion and Sediment Control",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.jurisdiction_level",
+      "excerpt": "New York State Standards and Specifications for Erosion and Sediment Control",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.state_code",
+      "excerpt": "New York State Standards and Specifications for Erosion and Sediment Control",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "New York State Standards and Specifications for Erosion and Sediment Control",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.version_or_edition",
+      "excerpt": "November 2016",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.adoption_or_effective_date",
+      "excerpt": "November 2016",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.last_revised_date",
+      "excerpt": "November 2016 Blue Book Corrections",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.relationship_to_state_manual",
+      "excerpt": "New York State Standards and Specifications for Erosion and Sediment Control",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "Runoff calculations for 1 and 10-year frequency storms, if required.",
+      "page_or_section": "Page 5.23"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "the shortest allowed with TR-55",
+      "page_or_section": "Page B.1"
+    },
+    {
+      "field": "design_criteria.required_hydrologic_hydraulic_software",
+      "excerpt": "These data can be imported into HydroCAD, USDA NRCS TR20, and other computer models",
+      "page_or_section": "Page 1.5"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "ESC practices are categorized as vegetative and/or structural controls.",
+      "page_or_section": "Page 2.2"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "high",
+    "needs_human_review": false,
+    "review_notes": "The document references the separate 'New York State Stormwater Management Design Manual' for post-construction runoff reduction and water quality volume maintenance, leaving the local water quality volume method null in this erosion-and-sediment-focused manual.",
+    "fields_not_found": [
+      "design_criteria.water_quality_volume_method"
+    ]
+  },
+  "source": {
+    "document_url": "https://www.dec.ny.gov/fs/docs/pdf/erosionsediment_bluebook.pdf",
+    "landing_page_url": "https://dec.ny.gov/environmental-protection/water/water-quality/stormwater/construction-stormwater-toolbox",
+    "retrieved_at": "2026-08-07T21:19:23.959Z",
+    "original_filename": "ny-bluebook.pdf"
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "Massachusetts",
+    "jurisdiction_level": "state",
+    "state_code": "MA",
+    "document_title": "Massachusetts Stormwater Management Handbook",
+    "version_or_edition": "Third Edition",
+    "adoption_or_effective_date": null,
+    "last_revised_date": "2023-12",
+    "relationship_to_state_manual": "independent"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [
+      2,
+      10,
+      100
+    ],
+    "water_quality_volume_method": "calculated as the required runoff depth multiplied by the total post-construction impervious site area",
+    "peak_flow_calculation_method": [
+      "NRCS Technical Release WinTR20 Project Formulation Method",
+      "WinTR55 Small Watershed Hydrology Method"
+    ],
+    "required_hydrologic_hydraulic_software": [
+      "WinTR-20",
+      "WinTR-55",
+      "MODFLOW"
+    ],
+    "approved_bmp_categories": [
+      "Non-Structural",
+      "Structural Pretreatment",
+      "Structural Treatment",
+      "Structural Conveyance",
+      "Structural Infiltration",
+      "Structural Other"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "Massachusetts",
+      "page_or_section": "Page i"
+    },
+    {
+      "field": "document_metadata.jurisdiction_level",
+      "excerpt": "The Massachusetts Department of Environmental Protection (MassDEP) is responsible for implementing the Stormwater Management Standards under the Massachusetts Clean Waters Act",
+      "page_or_section": "Page 1-1"
+    },
+    {
+      "field": "document_metadata.state_code",
+      "excerpt": "Hardwick, MA",
+      "page_or_section": "Page iv"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "Massachusetts Stormwater Handbook",
+      "page_or_section": "Page i"
+    },
+    {
+      "field": "document_metadata.version_or_edition",
+      "excerpt": "This is the third edition of the Massachusetts Stormwater Handbook.",
+      "page_or_section": "Page ix"
+    },
+    {
+      "field": "document_metadata.last_revised_date",
+      "excerpt": "December 2023",
+      "page_or_section": "Page i"
+    },
+    {
+      "field": "document_metadata.relationship_to_state_manual",
+      "excerpt": "The Massachusetts Department of Environmental Protection (MassDEP) is responsible for implementing the Stormwater Management Standards under the Massachusetts Clean Waters Act, M.G.L. c. 21, §§ 26-53, and the Wetlands Protection Act, M.G.L. c. 131, § 40.",
+      "page_or_section": "Page 1-1"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "The post-development peak discharge rate must be designed to be equal to or less than the pre-development rate from the 2-year, 10-year, and 100-year 24-hour storms",
+      "page_or_section": "Page 2-5"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "Water Quality Volume (WQv) is the runoff volume requiring treatment – it is calculated as the required runoff depth multiplied by the total post-construction impervious site area.",
+      "page_or_section": "Page 2-14"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "The peak discharge rate computations must be conducted using the NRCS Technical Release WinTR20 Project Formulation Method (Version 3.20 or later versions are permissible) or WinTR55 Small Watershed Hydrology Method (Version 1.00.10 or later versions are permissible).",
+      "page_or_section": "Page 2-5"
+    },
+    {
+      "field": "design_criteria.required_hydrologic_hydraulic_software",
+      "excerpt": "WinTR20 Project Formulation Method (Version 3.20 or later versions are permissible) or WinTR55 Small Watershed Hydrology Method (Version 1.00.10 or later versions are permissible).",
+      "page_or_section": "Page 2-5"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Non-Structural\nStreet Cleaning\nESSD Credits\nStructural Pretreatment\nDeep Sump Catch Basin\nOil/Grit Separator\nProprietary Separator\nSediment Forebay\nVegetated Filter Strip\nStructural Treatment\nBioretention Area\nConstructed Stormwater Wetland\nExtended Dry Detention Basin\nGravel Wetland\nProprietary Media Filter\nSand/Organic Filter\nTree Box Filter\nWet Basin\nRoof Dripline Filter\nStructural Conveyance\nDrainage Channel\nGrass Channel\nWater Quality Swale\nStructural Infiltration\nDry well\nInfiltration Basin\nInfiltration Trench\nLeaching Catch Basin\nPorous pavement\nSubsurface Infiltrator\nStructural Other\nDry Detention Basin\nGreen Roof\nRain Barrels & Cisterns",
+      "page_or_section": "Page 2-18"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "high",
+    "needs_human_review": false,
+    "review_notes": null,
+    "fields_not_found": [
+      "document_metadata.adoption_or_effective_date"
+    ]
+  },
+  "source": {
+    "document_url": "https://www.ashlandmass.com/DocumentCenter/View/13272/MassDEP-Handbook_DRAFT-6_2023-12-14_withAppendices-2",
+    "landing_page_url": "https://www.mass.gov/guides/massachusetts-stormwater-handbook-and-stormwater-standards",
+    "retrieved_at": "2026-08-07T11:36:02.657Z",
+    "original_filename": "ma-state-draft.pdf"
+  }
+}

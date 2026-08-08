@@ -1,0 +1,121 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "Pennsylvania",
+    "jurisdiction_level": "state",
+    "state_code": "PA",
+    "document_title": "Pennsylvania Post-Construction Stormwater Management (PCSM) Manual",
+    "version_or_edition": "January 28, 2023 / DRAFT",
+    "adoption_or_effective_date": null,
+    "last_revised_date": "2023-01-28",
+    "relationship_to_state_manual": "independent"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [
+      2,
+      10,
+      50,
+      100
+    ],
+    "water_quality_volume_method": "A pollutant load approach, coupling volume and water quality management, in which statistically derived land cover-based pollutant concentrations are applied to runoff, volume reductions through SCMs are taken into account, and post-construction pollutant loads are compared to pre-construction pollutant loads.",
+    "peak_flow_calculation_method": [
+      "NRCS hydrologic soil-cover complex method",
+      "Green and Ampt equation",
+      "Snyder Unit Hydrograph",
+      "WINSLAMM small storm hydrology method",
+      "nonlinear reservoir runoff",
+      "kinematic wave methods"
+    ],
+    "required_hydrologic_hydraulic_software": [
+      "HEC-RAS",
+      "iRIC",
+      "EPA SWMM"
+    ],
+    "approved_bmp_categories": [
+      "Protect and Preserve Natural Landscape Processes",
+      "Enhanced Natural Landscape SCMs",
+      "Infiltration-Based SCMs",
+      "Non-Infiltration SCMs",
+      "Managed Release Concept",
+      "Rate Control SCMs"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "TITLE: Pennsylvania Post-Construction Stormwater Management (PCSM) Manual",
+      "page_or_section": "Page i"
+    },
+    {
+      "field": "document_metadata.jurisdiction_level",
+      "excerpt": "DEPARTMENT OF ENVIRONMENTAL PROTECTION\nBureau of Clean Water",
+      "page_or_section": "Page i"
+    },
+    {
+      "field": "document_metadata.state_code",
+      "excerpt": "Pennsylvania Department of Environmental Protection\n400 Market Street, P.O. Box 8774\nHarrisburg, PA 17105-8774",
+      "page_or_section": "Page ii"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "TITLE: Pennsylvania Post-Construction Stormwater Management (PCSM) Manual",
+      "page_or_section": "Page i"
+    },
+    {
+      "field": "document_metadata.version_or_edition",
+      "excerpt": "386-0300-001 / January 28, 2023 / DRAFT",
+      "page_or_section": "Page i"
+    },
+    {
+      "field": "document_metadata.adoption_or_effective_date",
+      "excerpt": "EFFECTIVE DATE: Upon publication of notice as final in the Pennsylvania Bulletin.",
+      "page_or_section": "Page i"
+    },
+    {
+      "field": "document_metadata.last_revised_date",
+      "excerpt": "386-0300-001 / January 28, 2023 / DRAFT",
+      "page_or_section": "Page i"
+    },
+    {
+      "field": "document_metadata.relationship_to_state_manual",
+      "excerpt": "This Pennsylvania Post-Construction Stormwater Management Manual (PCSM Manual or Manual) was developed to update and replace the Pennsylvania Stormwater Best Management Practices Manual (363-0300-002) that was published by the Pennsylvania Department of Environmental Protection (DEP) in December 2006",
+      "page_or_section": "Page 1-1"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "manage the net change in peak rate for the 2-, 10-, 50-, and 100-year/24-hour storm events in a manner not to exceed preconstruction rates",
+      "page_or_section": "Page 2-37"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "Water quality is addressed in this Manual through a pollutant load approach, coupling volume and WQM. First, statistically derived land cover-based pollutant concentrations are applied to runoff from existing and proposed site conditions. Second, volume reductions through SCMs are taken into account. Finally, post-construction pollutant loads are evaluated based on SCM effluent (outflow) pollutant concentration data from accepted data sources such as the National Stormwater Quality Database and the International Stormwater BMP Database, and compared to pre-construction pollutant loads.",
+      "page_or_section": "Page 1-18"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "Methods include the NRCS hydrologic soil-cover complex method, Green and Ampt equation, Snyder Unit Hydrograph, and WINSLAMM small storm hydrology method.",
+      "page_or_section": "Page 2-53"
+    },
+    {
+      "field": "design_criteria.required_hydrologic_hydraulic_software",
+      "excerpt": "HEC-RAS, International River Interface Cooperative (iRIC), or other software capable of performing a sediment transport analysis.",
+      "page_or_section": "Page 2-65"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "A.1 Protect and Preserve Natural Landscape Processes\nA.2 Enhanced Natural Landscape SCMs\nB.1 Infiltration-Based SCMs\nB.2 Non-Infiltration SCMs\nManaged Release Concept\nRate Control SCMs",
+      "page_or_section": "Page 3-4, Table 3-1"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "high",
+    "needs_human_review": false,
+    "review_notes": "The document is a state-level Draft PCSM Manual for Pennsylvania. The effective date is conditional upon publication as final in the Pennsylvania Bulletin, hence the date is set to null.",
+    "fields_not_found": []
+  },
+  "source": {
+    "document_url": "https://franklinccd.org/wp-content/uploads/PENNSYLVANIA_POST-CONSTRUCTION_STORMWATER_MANAGEMENT_PCSM_MANUAL.pdf",
+    "landing_page_url": "https://www.pa.gov/agencies/dep/programs-and-services/water/clean-water/stormwater-management/construction-stormwater/eands-resources",
+    "retrieved_at": "2026-08-07T10:59:18.082Z",
+    "original_filename": "pa-pcsm-manual.pdf"
+  }
+}

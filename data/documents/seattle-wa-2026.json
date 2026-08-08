@@ -1,0 +1,118 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "City of Seattle",
+    "jurisdiction_level": "municipality",
+    "state_code": "WA",
+    "document_title": "Stormwater Manual",
+    "version_or_edition": "Joint Directors' Rule Public Utilities DWW-200 (rev. 3) / Department of Construction & Inspections 03-2026",
+    "adoption_or_effective_date": "2026-07-01",
+    "last_revised_date": null,
+    "relationship_to_state_manual": "deemed_equivalent_to_state_manual"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [
+      2,
+      5,
+      10,
+      25,
+      50,
+      100
+    ],
+    "water_quality_volume_method": "The daily runoff volume at or below which 91 percent of the total runoff volume for the simulation period occurs, determined by ranking daily runoff volumes and sequentially summing them until the total equals 9 percent of the total volume.",
+    "peak_flow_calculation_method": [
+      "Single Event Hydrograph Method",
+      "Continuous Simulation Method",
+      "Rational Method"
+    ],
+    "required_hydrologic_hydraulic_software": [
+      "Western Washington Hydraulic Model (WWHM)",
+      "MGSFlood"
+    ],
+    "approved_bmp_categories": [
+      "Soil Amendment",
+      "Tree Planting and Retention",
+      "Dispersion BMPs",
+      "Infiltration BMPs",
+      "Rainwater Harvesting BMPs",
+      "Alternative Surface BMPs",
+      "Detention BMPs",
+      "Non-infiltrating BMPs"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "City of Seattle",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.jurisdiction_level",
+      "excerpt": "City of Seattle",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.state_code",
+      "excerpt": "Washington State Department of Ecology",
+      "page_or_section": "1.1"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "STORMWATER MANUAL",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.version_or_edition",
+      "excerpt": "JOINT DIRECTORS’ RULE\nPublic Utilities DWW-200 (rev. 3)\nDepartment of Construction & Inspections 03-2026",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.adoption_or_effective_date",
+      "excerpt": "Effective: July 1, 2026",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.relationship_to_state_manual",
+      "excerpt": "which Ecology has determined meets the requirements contained in the Phase I NPDES Municipal Stormwater Permit, with reference to the Stormwater Management Manual for Western Washington (SWMMWW)",
+      "page_or_section": "1.1"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "2-year, 5-year, 10-year, 25-year, 50-year, and 100-year recurrence intervals",
+      "page_or_section": "3.8, 5.3, 5.3.5, 4.3.6"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "The daily runoff volume at or below which 91 percent of the total runoff volume for the simulation period occurs, as determined using an approved continuous model.",
+      "page_or_section": "5.4.1.1"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "Single Event Hydrograph Method, Continuous Simulation Method, Rational Method",
+      "page_or_section": "4.3.6"
+    },
+    {
+      "field": "design_criteria.required_hydrologic_hydraulic_software",
+      "excerpt": "the Western Washington Hydraulic Model (WWHM) can be used to size flow control... The same design steps can generally be used for MGSFlood",
+      "page_or_section": "4.4.1"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Soil Amendment, Tree Planting and Retention, Dispersion BMPs, Infiltration BMPs, Rainwater Harvesting BMPs, Alternative Surface BMPs, Detention BMPs, Non-infiltrating BMPs",
+      "page_or_section": "Volume 3 Table of Contents"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "high",
+    "needs_human_review": false,
+    "review_notes": "All fields were successfully mapped based on direct, explicit text references. No interpolation or estimation was used.",
+    "fields_not_found": [
+      "document_metadata.last_revised_date"
+    ]
+  },
+  "source": {
+    "document_url": "https://www.seattle.gov/documents/departments/sdci/codes/stormwatercode/2026stormwatermanualcombined.pdf",
+    "landing_page_url": "https://www.seattle.gov/sdci/codes/codes-we-enforce-(a-z)/stormwater-code",
+    "retrieved_at": "2026-08-07T11:41:19.738Z",
+    "original_filename": "seattle-wa-2026.pdf"
+  }
+}

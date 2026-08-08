@@ -1,0 +1,119 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "New York State",
+    "jurisdiction_level": "state",
+    "state_code": "NY",
+    "document_title": "STORMWATER MANAGEMENT DESIGN MANUAL",
+    "version_or_edition": "July 31, 2024",
+    "adoption_or_effective_date": "2024-07-31",
+    "last_revised_date": "2024-07-31",
+    "relationship_to_state_manual": "independent"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [
+      1,
+      2,
+      10,
+      100
+    ],
+    "water_quality_volume_method": "90% Rule: WQv (acre-feet) = (P * Rv * A) / 12, where Rv = 0.05 + 0.009(I)",
+    "peak_flow_calculation_method": [
+      "TR-55",
+      "TR-20"
+    ],
+    "required_hydrologic_hydraulic_software": [
+      "USDA NRCS TR20",
+      "HydroCAD",
+      "Pond Pack",
+      "StormCAD",
+      "Hydraflow",
+      "HEC-HMS"
+    ],
+    "approved_bmp_categories": [
+      "Stormwater Ponds",
+      "Stormwater Wetlands",
+      "Infiltration Practices",
+      "Filtering Practices",
+      "Open Channel Practices"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "New York State Department of Environmental Conservation",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.jurisdiction_level",
+      "excerpt": "New York State Department of Environmental Conservation",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.state_code",
+      "excerpt": "Albany, NY 12233",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "STORMWATER MANAGEMENT DESIGN MANUAL",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.version_or_edition",
+      "excerpt": "July 31, 2024",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.adoption_or_effective_date",
+      "excerpt": "July 31, 2024",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.last_revised_date",
+      "excerpt": "July 31, 2024",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.relationship_to_state_manual",
+      "excerpt": "The New York State Stormwater Design Manual is prepared to provide standards for the design of the Stormwater Management Practices",
+      "page_or_section": "Preface"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "1-year, 2-year, 10-year, and 100-year",
+      "page_or_section": "Table 4.1"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "90% Rule: WQv (acre-feet) = (P * Rv * A) / 12",
+      "page_or_section": "Table 4.1"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "TR-55 and TR-20 (or approved equivalent) shall be used to determine peak discharge rates.",
+      "page_or_section": "Section 4.6"
+    },
+    {
+      "field": "design_criteria.required_hydrologic_hydraulic_software",
+      "excerpt": "Hydraulic and hydrologic modeling software, such as USDA NRCS TR20, HydroCAD, Pond Pack, StormCAD, Hydraflow, and Hydrologic Engineering Center Hydrologic Modeling System (HEC-HMS) and others, shall be used",
+      "page_or_section": "Section 4.9"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Acceptable practices are divided into five groups, including: I. Stormwater Ponds... II. Stormwater Wetlands... III. Infiltration Practices... IV. Filtering Practices... V. Open Channel Practices",
+      "page_or_section": "Section 3.3.1"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "high",
+    "needs_human_review": false,
+    "review_notes": null,
+    "fields_not_found": []
+  },
+  "source": {
+    "document_url": "https://dec.ny.gov/fs/projects/24-25DraftCGPDesignManual/Manual.SW.CGP.2024-07-31.Design_Manual_Issued_2024-07-31.pdf",
+    "landing_page_url": "https://dec.ny.gov/environmental-protection/water/water-quality/stormwater/construction-stormwater-toolbox",
+    "retrieved_at": "2026-08-07T11:24:29.820Z",
+    "original_filename": "ny-state.pdf"
+  }
+}

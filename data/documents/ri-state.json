@@ -1,0 +1,119 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "Rhode Island",
+    "jurisdiction_level": "state",
+    "state_code": "RI",
+    "document_title": "RHODE ISLAND STORMWATER DESIGN AND INSTALLATION STANDARDS MANUAL",
+    "version_or_edition": "Amended March 2015",
+    "adoption_or_effective_date": null,
+    "last_revised_date": "March 2015",
+    "relationship_to_state_manual": "independent"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [
+      1,
+      2,
+      5,
+      10,
+      25,
+      50,
+      100
+    ],
+    "water_quality_volume_method": "Equivalent to the runoff associated with the first 1.2 inches of rainfall over the impervious surface (i.e., 1 inch of runoff), calculated as WQv = (1\") (I) / 12",
+    "peak_flow_calculation_method": [
+      "TR-55",
+      "TR-20",
+      "Rational Method"
+    ],
+    "required_hydrologic_hydraulic_software": [
+      "TR-55",
+      "TR-20"
+    ],
+    "approved_bmp_categories": [
+      "Wet Vegetated Treatment Systems (WVTS)",
+      "Infiltration Practices",
+      "Filtering Systems",
+      "Green Roofs",
+      "Open Channel Systems"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "RHODE ISLAND DEPARTMENT OF ENVIRONMENTAL MANAGEMENT",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.jurisdiction_level",
+      "excerpt": "RHODE ISLAND DEPARTMENT OF ENVIRONMENTAL MANAGEMENT AND COASTAL RESOURCES MANAGEMENT COUNCIL",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.state_code",
+      "excerpt": "The RI Stormwater Design and Installation Standards Manual",
+      "page_or_section": "Effective Date Page"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "RHODE ISLAND STORMWATER DESIGN AND INSTALLATION STANDARDS MANUAL",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.version_or_edition",
+      "excerpt": "Amended March 2015",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.adoption_or_effective_date",
+      "excerpt": "Effective Date: _______________",
+      "page_or_section": "Effective Date Page"
+    },
+    {
+      "field": "document_metadata.last_revised_date",
+      "excerpt": "Amended March 2015",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.relationship_to_state_manual",
+      "excerpt": "RHODE ISLAND STORMWATER DESIGN AND INSTALLATION STANDARDS MANUAL",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "1-Year 2-Year 5-Year 10-Year 25-Year 50-Year 100-Year",
+      "page_or_section": "Table 3-1, Page 3-1"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "The required WQv, which results in the capture and treatment of the entire runoff volume for 90 percent of the average annual storm events, is equivalent to the runoff associated with the first 1.2 inches of rainfall over the impervious surface (i.e., 1 inch of runoff).",
+      "page_or_section": "Section 3.3.3, Page 3-13 to 3-14"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "The models TR-55 or TR-20 (or approved equivalent) shall be used for determining the CPv. ... The Rational Method may be used for sizing the conveyance system.",
+      "page_or_section": "Section 3.3.4, Page 3-17"
+    },
+    {
+      "field": "design_criteria.required_hydrologic_hydraulic_software",
+      "excerpt": "The models TR-55 and TR-20 (or approved equivalent) will be used for determining the required storage and outlet structures",
+      "page_or_section": "Section 3.3.5, Page 3-19"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "The five groups of structural BMPs include (1) Wet Vegetated Treatment Systems (WVTS), (2) Infiltration Practices, (3) Filtering Systems, (4) Green Roofs, and (5) Open Channel Practices.",
+      "page_or_section": "Section 1.3, Page 1-5"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "high",
+    "needs_human_review": false,
+    "review_notes": "All requested metadata and design criteria were explicitly identified in the provided text sections. The exact effective date was not filled in on the copy of the document, so it was set to null.",
+    "fields_not_found": []
+  },
+  "source": {
+    "document_url": "https://services.statescape.com/RegsText/StaticDownloads/90765_156853.pdf",
+    "landing_page_url": "https://www.crmc.ri.gov/policy/stormwater.html",
+    "retrieved_at": "2026-08-07T11:28:15.873Z",
+    "original_filename": "ri-state.pdf"
+  }
+}

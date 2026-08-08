@@ -1,0 +1,118 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "Philadelphia",
+    "jurisdiction_level": "municipality",
+    "state_code": "PA",
+    "document_title": "Philadelphia Stormwater Management Guidance Manual",
+    "version_or_edition": "Version 3.4",
+    "adoption_or_effective_date": "2026-07",
+    "last_revised_date": "2026-07",
+    "relationship_to_state_manual": "independent"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [
+      1,
+      2,
+      5,
+      10,
+      25,
+      50,
+      100
+    ],
+    "water_quality_volume_method": "Infiltration of the first 1.5 inches of runoff from all directly connected impervious areas (DCIA) within the limits of earth disturbance.",
+    "peak_flow_calculation_method": [
+      "NRCS Curve Number Method",
+      "Rational Method"
+    ],
+    "required_hydrologic_hydraulic_software": [],
+    "approved_bmp_categories": [
+      "Bioinfiltration/Bioretention",
+      "Porous Surfaces",
+      "Green Roofs",
+      "Subsurface Infiltration",
+      "Cisterns",
+      "Blue Roofs",
+      "Ponds and Wet Basins",
+      "Subsurface Detention",
+      "Media Filters",
+      "Blue-Green Roofs",
+      "Drainage Wells"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "The Philadelphia Stormwater Management Guidance Manual (the Manual, or SMGM) is a comprehensive resource for the development community in complying with the Philadelphia Water Department (PWD) Stormwater Regulations",
+      "page_or_section": "Introduction, Page 1"
+    },
+    {
+      "field": "document_metadata.jurisdiction_level",
+      "excerpt": "The City of Philadelphia is required, by a series of State and Federal regulations and mandates, to clean up its waterways.",
+      "page_or_section": "Introduction, Page 10"
+    },
+    {
+      "field": "document_metadata.state_code",
+      "excerpt": "Professional Engineer licensed in the Commonwealth of Pennsylvania",
+      "page_or_section": "Chapter 2, Page 23"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "Stormwater Management Guidance Manual",
+      "page_or_section": "Cover Page"
+    },
+    {
+      "field": "document_metadata.version_or_edition",
+      "excerpt": "Version 3.4",
+      "page_or_section": "Cover Page"
+    },
+    {
+      "field": "document_metadata.adoption_or_effective_date",
+      "excerpt": "Version 3.4 July 2026",
+      "page_or_section": "Cover Page"
+    },
+    {
+      "field": "document_metadata.last_revised_date",
+      "excerpt": "Version 3.4 July 2026",
+      "page_or_section": "Cover Page"
+    },
+    {
+      "field": "document_metadata.relationship_to_state_manual",
+      "excerpt": "The Philadelphia Stormwater Management Guidance Manual (the Manual, or SMGM) is a comprehensive resource for the development community in complying with the Philadelphia Water Department (PWD) Stormwater Regulations (Stormwater Regulations) and designing stormwater management on private property.",
+      "page_or_section": "Introduction, Page 1"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "Return period DURATION 1 yr 2 yr 5 yr 10 yr 25 yr 50 yr 100 yr",
+      "page_or_section": "Chapter 3, Page 100, Table 3.4-3"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "The Water Quality requirement stipulates infiltration of the first 1.5 inches of runoff from all directly connected impervious areas (DCIA) within the limits of earth disturbance. This quantity of stormwater runoff is referred to as the Water Quality Volume (WQv).",
+      "page_or_section": "Chapter 1, Page 15"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "The NRCS Curve Number Method is used to estimate site stormwater runoff from a given storm. ... The Rational Method may be used when designing storm sewers.",
+      "page_or_section": "Chapter 3, Page 98 & Page 95"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "This chapter consists of guidance and requirements for the following SMPs: Section 4.1 – Bioinfiltration/Bioretention Section 4.2 – Porous Surfaces Section 4.3 – Green Roofs Section 4.4 – Subsurface Infiltration Section 4.5 – Cisterns Section 4.6 – Blue Roofs Section 4.7 – Ponds and Wet Basins Section 4.8 – Subsurface Detention Section 4.9 – Media Filters Section 4.14 – Blue-Green Roofs Section 4.15 – Drainage Wells",
+      "page_or_section": "Chapter 4, Section 4.0.2, Page 2"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "high",
+    "needs_human_review": false,
+    "review_notes": null,
+    "fields_not_found": [
+      "design_criteria.required_hydrologic_hydraulic_software"
+    ]
+  },
+  "source": {
+    "document_url": "https://water.phila.gov/wp-content/uploads/files/stormwater-management-guidance-manual.pdf",
+    "landing_page_url": "https://water.phila.gov/development/stormwater-plan-review/manual/",
+    "retrieved_at": "2026-08-07T11:00:41.804Z",
+    "original_filename": "philadelphia-smgm.pdf"
+  }
+}
