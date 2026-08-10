@@ -22,8 +22,7 @@ export default function HomePage() {
           Stormwater design rules, in one place
         </h1>
         <p className="text-base leading-relaxed text-slate-600">
-          Browse U.S. state, county, and city manuals. Key requirements are
-          listed with the quote from the source document.
+          Browse U.S. state, county, and city manuals.
         </p>
         <p className="pt-1 text-sm text-slate-500">
           {manuals.length} manuals · {statesCovered} states
