@@ -1,0 +1,97 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "City of Charleston",
+    "jurisdiction_level": "municipality",
+    "state_code": "SC",
+    "document_title": "Stormwater Design Standards Manual",
+    "version_or_edition": "2026 SWDSM (COC_SWDSM_Final)",
+    "adoption_or_effective_date": null,
+    "last_revised_date": "2026-01-01",
+    "relationship_to_state_manual": "independent"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [],
+    "water_quality_volume_method": "Post-construction Chapter 6 addresses permanent BMPs and Water Quality Volume (WQV). Manual integrates drainage design, stormwater quantity, and water quality for public infrastructure, development, and redevelopment; includes conveyance design criteria and special protection area standards.",
+    "peak_flow_calculation_method": [
+      "Stormwater quantity / conveyance design criteria",
+      "Post-construction BMP / WQV requirements",
+      "Roadway drainage design criteria",
+      "Pre-construction through post-construction review process"
+    ],
+    "required_hydrologic_hydraulic_software": [],
+    "approved_bmp_categories": [
+      "Post-construction stormwater BMPs",
+      "Water quality treatment practices",
+      "Conveyance / roadway drainage facilities",
+      "Erosion and sediment control BMPs (construction)"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "CITY OF CHARLESTON DEPARTMENT OF STORMWATER MANAGEMENT",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.jurisdiction_level",
+      "excerpt": "CITY OF CHARLESTON",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.state_code",
+      "excerpt": "SOUTH CAROLINA",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "STORMWATER DESIGN STANDARDS MANUAL",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.version_or_edition",
+      "excerpt": "2026 Stormwater Design Standards Manual",
+      "page_or_section": "City webpage / filename"
+    },
+    {
+      "field": "document_metadata.last_revised_date",
+      "excerpt": "2026 SWDSM",
+      "page_or_section": "Source"
+    },
+    {
+      "field": "document_metadata.relationship_to_state_manual",
+      "excerpt": "City of Charleston Stormwater Design Standards Manual",
+      "page_or_section": "Purpose"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "WQV Water Quality Volume / Chapter 6 Post-Construction",
+      "page_or_section": "TOC / Chapter 6"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "conveyance design criteria and design criteria for roadway drainage",
+      "page_or_section": "Design criteria"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "permanent construction stormwater management practices / BMPs",
+      "page_or_section": "Introduction"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "medium",
+    "needs_human_review": true,
+    "review_notes": "2026 SWDSM; confirm council adoption date; numeric WQV depths in later chapters.",
+    "fields_not_found": [
+      "document_metadata.adoption_or_effective_date",
+      "design_criteria.design_storm_return_periods_years",
+      "design_criteria.required_hydrologic_hydraulic_software"
+    ]
+  },
+  "source": {
+    "document_url": "https://www.charleston-sc.gov/DocumentCenter/View/41286/COC_SWDSM_Final---2026",
+    "landing_page_url": "https://charleston-sc.gov/351/Stormwater-Design-Standards-Manual",
+    "retrieved_at": "2026-08-10T09:06:14.926Z",
+    "original_filename": "charleston-sc.pdf"
+  }
+}

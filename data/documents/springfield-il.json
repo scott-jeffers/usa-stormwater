@@ -1,0 +1,55 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "City of Springfield",
+    "jurisdiction_level": "municipality",
+    "state_code": "IL",
+    "document_title": "Illinois Model Stormwater Management Ordinance (capital MS4 template reference)",
+    "version_or_edition": "September 2015",
+    "adoption_or_effective_date": null,
+    "last_revised_date": "2015-09",
+    "relationship_to_state_manual": "adopts_state_manual_directly"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [
+      10,
+      100
+    ],
+    "water_quality_volume_method": "IL Model Stormwater Management Ordinance / Illinois Urban Manual BMP framework. Site runoff controls for large storms through the 100-year event with post-development discharge rates not exceeding pre-development for specified events. Minor storm sewers/inlets/swales designed for the 10-year critical duration storm; BMPs per Illinois Urban Manual.",
+    "peak_flow_calculation_method": [
+      "Hydrologic methods allowed by ordinance (e.g., HEC-HMS)",
+      "10-year critical duration for minor conveyance",
+      "100-year site runoff / flood controls"
+    ],
+    "required_hydrologic_hydraulic_software": [],
+    "approved_bmp_categories": [
+      "Illinois Urban Manual BMPs",
+      "Detention / retention",
+      "Storm sewers and swales",
+      "Erosion and sediment controls"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "Springfield IL capital — no durable city design-manual PDF found; using Illinois Model Stormwater Management Ordinance",
+      "page_or_section": "Coverage note"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "10-year critical duration storm shall be used as a minimum for the design of storm sewers, storm inlets, and minor swales",
+      "page_or_section": "IL Model Ordinance §506"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "low",
+    "needs_human_review": true,
+    "review_notes": "Placeholder statewide model ordinance — replace when City of Springfield publishes a local drainage/stormwater design manual PDF.",
+    "fields_not_found": []
+  },
+  "source": {
+    "document_url": "https://dnr.illinois.gov/content/dam/soi/en/web/dnr/waterresources/documents/il-model-stormwater-ordinance.pdf",
+    "landing_page_url": "https://dnr.illinois.gov/waterresources/stormwatermanagement.html",
+    "retrieved_at": "2026-08-10T10:18:37.456Z",
+    "original_filename": "springfield-il.pdf"
+  }
+}

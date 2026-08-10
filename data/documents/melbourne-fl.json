@@ -1,0 +1,53 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "City of Melbourne",
+    "jurisdiction_level": "municipality",
+    "state_code": "FL",
+    "document_title": "Jacksonville Land Development Procedures Manual Volume 2 (SJRWMD-region municipal pattern)",
+    "version_or_edition": "Effective January 2026",
+    "adoption_or_effective_date": "2026-01-01",
+    "last_revised_date": null,
+    "relationship_to_state_manual": "unknown"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [
+      3,
+      5,
+      10,
+      25,
+      50,
+      100
+    ],
+    "water_quality_volume_method": "SJRWMD ERP AH Vol II PDF not publicly fetchable (403). Using Jacksonville LDPM Vol 2 wet detention / SMF pattern as east-central Florida municipal reference: wet detention and stormwater management facilities per Table 3.7-1; MSMP 2070 rainfall depths for multi-return-period 24-hour storms. Prefer SJRWMD AH Vol II when a durable PDF is available.",
+    "peak_flow_calculation_method": [
+      "Rational Method and SCS methods as applicable",
+      "Stormwater management facility storage contexts",
+      "Design rainfall depths from MSMP 2070"
+    ],
+    "required_hydrologic_hydraulic_software": [],
+    "approved_bmp_categories": [
+      "Wet detention",
+      "Stormwater management facilities (SMFs)",
+      "Other LDPM Vol 2 BMPs"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "City of Melbourne (SJRWMD) — coverage via Jacksonville LDPM Vol 2 pattern",
+      "page_or_section": "Coverage note"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "low",
+    "needs_human_review": true,
+    "review_notes": "Placeholder pending durable SJRWMD AH Vol II or city design-manual PDF.",
+    "fields_not_found": []
+  },
+  "source": {
+    "document_url": "https://www.jacksonville.gov/getContentAsset/f2c6099d-cdf0-40da-b6a9-43e4c734282e/135b97c9-84fa-4e82-b956-0fbccec4aa1f/LDPM-Vol2-EFF-2026-01-30-CLEAN-ADA-508.pdf?language=en",
+    "landing_page_url": "https://www.sjrwmd.com/documents/permitting/",
+    "retrieved_at": "2026-08-10T10:42:30.501Z",
+    "original_filename": "melbourne-fl.pdf"
+  }
+}

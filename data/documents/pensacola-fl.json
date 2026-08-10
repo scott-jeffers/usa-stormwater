@@ -1,0 +1,55 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "City of Pensacola",
+    "jurisdiction_level": "municipality",
+    "state_code": "FL",
+    "document_title": "NWFWMD Environmental Resource Permit Applicant’s Handbook Volume II (design standards)",
+    "version_or_edition": "June 28, 2024",
+    "adoption_or_effective_date": "2024-06-28",
+    "last_revised_date": "2024-06-28",
+    "relationship_to_state_manual": "adopts_state_manual_directly"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [
+      10,
+      100
+    ],
+    "water_quality_volume_method": "NWFWMD ERP AH Vol II stormwater quality criteria (Parts II/IV/V) including retention system treatment volume and additional quality standards. Quantity/flood criteria include 10-year floodplain storage and 100-year floodway conveyance limits.",
+    "peak_flow_calculation_method": [
+      "Stormwater quantity rate and volume controls (Part III)",
+      "Retention / detention routing",
+      "Floodplain / floodway conveyance checks"
+    ],
+    "required_hydrologic_hydraulic_software": [],
+    "approved_bmp_categories": [
+      "Retention systems",
+      "Detention systems",
+      "On-line and off-line stormwater systems",
+      "Stormwater quantity / flood control facilities"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "Pensacola / NWFWMD geographic boundaries",
+      "page_or_section": "Coverage note"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "ENVIRONMENTAL RESOURCE PERMIT APPLICANT’S HANDBOOK VOLUME II",
+      "page_or_section": "Title"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "medium",
+    "needs_human_review": true,
+    "review_notes": "Regional NWFWMD AH Vol II for Pensacola MS4 — confirm city-specific amendments.",
+    "fields_not_found": []
+  },
+  "source": {
+    "document_url": "https://nwfwater.com/wp-content/uploads/2024/07/AHII-nwfwmd-FINAL-2024.pdf",
+    "landing_page_url": "https://nwfwater.com/",
+    "retrieved_at": "2026-08-10T10:42:30.501Z",
+    "original_filename": "pensacola-fl.pdf"
+  }
+}

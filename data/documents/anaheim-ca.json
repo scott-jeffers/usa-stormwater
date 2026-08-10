@@ -1,0 +1,103 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "City of Anaheim",
+    "jurisdiction_level": "municipality",
+    "state_code": "CA",
+    "document_title": "Drainage Manual for Public and Private Drainage Facilities — Division IV Private Storm Drainage Facilities Requirements",
+    "version_or_edition": "August 2005",
+    "adoption_or_effective_date": null,
+    "last_revised_date": "2005-08",
+    "relationship_to_state_manual": "independent"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [
+      10,
+      25,
+      100
+    ],
+    "water_quality_volume_method": "City adopts Orange County Hydrology Manual and Local Drainage Manual with Anaheim revisions (other divisions). This Division IV covers private facility design criteria; sump inlets designed for Q25 with 100-year habitable-area protection if grate fully clogs.",
+    "peak_flow_calculation_method": [
+      "Private drains tributary to Santa Ana River (not connected to public facilities): minimum 10-year recurrence interval",
+      "Onsite sump grate inlets designed to capture Q25",
+      "100-year protection of habitable areas with emergency overflow / freeboard if grate clogs 100%"
+    ],
+    "required_hydrologic_hydraulic_software": [],
+    "approved_bmp_categories": [
+      "Private storm drains",
+      "Grate inlets / sump systems",
+      "Emergency overflow conveyance"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "CITY OF ANAHEIM",
+      "page_or_section": "Title"
+    },
+    {
+      "field": "document_metadata.jurisdiction_level",
+      "excerpt": "City of Anaheim",
+      "page_or_section": "Title"
+    },
+    {
+      "field": "document_metadata.state_code",
+      "excerpt": "Santa Ana River",
+      "page_or_section": "Section 1"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "DRAINAGE MANUAL FOR PUBLIC AND PRIVATE DRAINAGE FACILITIES DIVISION IV",
+      "page_or_section": "Title"
+    },
+    {
+      "field": "document_metadata.version_or_edition",
+      "excerpt": "AUGUST 2005",
+      "page_or_section": "Footer"
+    },
+    {
+      "field": "document_metadata.last_revised_date",
+      "excerpt": "AUGUST 2005",
+      "page_or_section": "Footer"
+    },
+    {
+      "field": "document_metadata.relationship_to_state_manual",
+      "excerpt": "PRIVATE STORM DRAINAGE FACILITIES REQUIREMENTS",
+      "page_or_section": "Division IV"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "minimum of the 10-year storm / capture Q25 / 100-year protection of habitable areas",
+      "page_or_section": "Section 1 Design Criteria"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "special drainage design requirements for private storm drains",
+      "page_or_section": "Section 1"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "Onsite inlets in sump condition shall be designed to capture Q25",
+      "page_or_section": "Section 1.D"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Grate inlets are allowed on private property",
+      "page_or_section": "Section 1.D"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "medium",
+    "needs_human_review": true,
+    "review_notes": "Anaheim Division IV only (10 pages). Full city criteria also in Div I–III adopting OC manuals with revisions — already have orange-county-ca LDM.",
+    "fields_not_found": [
+      "document_metadata.adoption_or_effective_date",
+      "design_criteria.required_hydrologic_hydraulic_software"
+    ]
+  },
+  "source": {
+    "document_url": "https://www.anaheim.net/DocumentCenter/View/1077",
+    "landing_page_url": "https://www.anaheim.net/589/Storm-Drainage-Manual-Public-Private-Fac",
+    "retrieved_at": "2026-08-10T08:05:33.346Z",
+    "original_filename": "anaheim-ca.pdf"
+  }
+}

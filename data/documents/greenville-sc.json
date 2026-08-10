@@ -1,0 +1,51 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "City of Greenville",
+    "jurisdiction_level": "municipality",
+    "state_code": "SC",
+    "document_title": "Best Management Practice (BMP) Design Manual / GSMM Unified Stormwater Sizing Criteria (SC MS4 pattern)",
+    "version_or_edition": "January 10, 2014 (Columbia manual used as SC municipal BMP pattern)",
+    "adoption_or_effective_date": "2014-01-10",
+    "last_revised_date": "2014-01-10",
+    "relationship_to_state_manual": "unknown"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [
+      1,
+      2,
+      25,
+      100
+    ],
+    "water_quality_volume_method": "South Carolina MS4s commonly apply Unified Stormwater Sizing Criteria / GSMM methods: treat runoff from a ~1.2-inch rainfall event (WQv), Channel Protection Volume for the 1-year storm, and overbank flood protection (e.g., Q25). Greenville-specific design manual PDF not located; Columbia BMP Design Manual used as in-state municipal pattern.",
+    "peak_flow_calculation_method": [
+      "Unified Stormwater Sizing Criteria (WQv / CPv)",
+      "GSMM structural BMP methods",
+      "Overbank Flood Protection (Q25)"
+    ],
+    "required_hydrologic_hydraulic_software": [],
+    "approved_bmp_categories": [
+      "Water quality BMPs (GSMM structural controls)",
+      "Detention ponds",
+      "Pretreatment practices"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "Greenville SC — coverage via Columbia BMP Design Manual / GSMM sizing pattern (needs local confirmation)",
+      "page_or_section": "Coverage note"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "low",
+    "needs_human_review": true,
+    "review_notes": "Placeholder using Columbia SC BMP manual as SC municipal GSMM pattern — replace with Greenville city manual when found.",
+    "fields_not_found": []
+  },
+  "source": {
+    "document_url": "https://columbiascwater.net/wp-content/uploads/2018/08/bmpmanual.pdf",
+    "landing_page_url": "https://www.greenvillesc.gov/",
+    "retrieved_at": "2026-08-10T10:27:43.524Z",
+    "original_filename": "greenville-sc.pdf"
+  }
+}

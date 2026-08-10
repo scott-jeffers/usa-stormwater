@@ -1,0 +1,104 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "City of Grand Rapids",
+    "jurisdiction_level": "municipality",
+    "state_code": "MI",
+    "document_title": "Stormwater Standards Manual",
+    "version_or_edition": "Rev. 04.29.2021",
+    "adoption_or_effective_date": null,
+    "last_revised_date": "2021-04-29",
+    "relationship_to_state_manual": "independent"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [
+      2,
+      100
+    ],
+    "water_quality_volume_method": "Water quality “first flush”: treat runoff from 1 inch of rain over the project site (≈90th percentile / first flush), achieving ≥80% TSS reduction or equivalent discharge concentration. Channel protection: match pre-development runoff volume and rate for storms up to the 2-year, 24-hour event (or detain 2-year, 24-hour for 24 hours). Flood control for 100-year as applicable by sewershed.",
+    "peak_flow_calculation_method": [
+      "Water quality volume / first flush treatment",
+      "Channel protection volume retention or extended detention",
+      "Flood control / 100-year peak criteria by sewershed",
+      "Infiltration BMP evaluation for WQ and channel protection"
+    ],
+    "required_hydrologic_hydraulic_software": [],
+    "approved_bmp_categories": [
+      "Infiltration BMPs",
+      "Detention / retention for channel protection",
+      "Structural BMPs (Green Book / Red Book specs)",
+      "Water quality treatment BMPs"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "City of Grand Rapids Kent County, Michigan",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.jurisdiction_level",
+      "excerpt": "City of Grand Rapids",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.state_code",
+      "excerpt": "Michigan",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "Stormwater Standards Manual",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.version_or_edition",
+      "excerpt": "Rev. 04.29.2021",
+      "page_or_section": "Header"
+    },
+    {
+      "field": "document_metadata.last_revised_date",
+      "excerpt": "04.29.2021",
+      "page_or_section": "Header"
+    },
+    {
+      "field": "document_metadata.relationship_to_state_manual",
+      "excerpt": "Stormwater Ordinance Chapter 32 / Chapter 67",
+      "page_or_section": "Purpose"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "2-year, 24-hour / 100-year storm",
+      "page_or_section": "Channel Protection / Flood Control"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "Treat the runoff generated from 1 inch of rain / \"first flush\"",
+      "page_or_section": "Water Quality"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "Channel Protection / Flood Control performance standards",
+      "page_or_section": "Part IV / Table 1"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "infiltration BMPs / Structural Best Management Practices",
+      "page_or_section": "Design Process / Green Book"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "high",
+    "needs_human_review": false,
+    "review_notes": "Grand Rapids Stormwater Standards Manual Apr 2021.",
+    "fields_not_found": [
+      "document_metadata.adoption_or_effective_date",
+      "design_criteria.required_hydrologic_hydraulic_software"
+    ]
+  },
+  "source": {
+    "document_url": "https://www.grandrapidsmi.gov/media/4vfaiq3n/gr-stormwater-standard-manual-04292021.pdf",
+    "landing_page_url": "https://www.grandrapidsmi.gov/",
+    "retrieved_at": "2026-08-10T08:56:34.266Z",
+    "original_filename": "grand-rapids-mi.pdf"
+  }
+}

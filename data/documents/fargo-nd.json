@@ -1,0 +1,74 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "City of Fargo",
+    "jurisdiction_level": "municipality",
+    "state_code": "ND",
+    "document_title": "Policy on Storm Water Discharge and Treatment Requirements (Storm Sewer Manual)",
+    "version_or_edition": "2019-09-09",
+    "adoption_or_effective_date": "2019-09-09",
+    "last_revised_date": "2019-09-09",
+    "relationship_to_state_manual": "independent"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [
+      2,
+      10,
+      100
+    ],
+    "water_quality_volume_method": "Sites >3 acres: max discharge 1 cfs/acre; 1–3 acre sites per table. Post-development 2-, 10-, and 100-year peaks per NOAA Atlas 14 for Fargo. Water quality (Appendix C): wet detention Vwq = 1800 cu-ft per impervious acre; extended detention Vwqed = 1800 cu-ft; infiltration Vwq = 0.5 inches from impervious; manufactured devices treat first 0.5 inches from impervious.",
+    "peak_flow_calculation_method": [
+      "NOAA Atlas 14 (Fargo) for 2-/10-/100-year storms",
+      "Allowable release rate tables (Appendix B)",
+      "Detention/retention pond design (Appendix D)"
+    ],
+    "required_hydrologic_hydraulic_software": [],
+    "approved_bmp_categories": [
+      "Wet detention ponds",
+      "Extended detention",
+      "Infiltration",
+      "Manufactured treatment devices",
+      "Regional or on-site detention/retention"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "City of Fargo Policy on Storm Water Discharge and Treatment Requirements",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.version_or_edition",
+      "excerpt": "Storm Water Discharge and Treatment Policy 2019",
+      "page_or_section": "Header"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "Wet Detention Ponds Water Quality Volume (Vwq) = 1800 cu-ft per impervious acre ... Infiltration Water Quality Volume (Vwq) = 0.5 inches from impervious area",
+      "page_or_section": "Appendix C"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "post-development 2, 10, and 100-year storm events as identified under the most current NOAA Atlas 14",
+      "page_or_section": "Policy / Appendix A"
+    },
+    {
+      "field": "document_metadata.relationship_to_state_manual",
+      "excerpt": "independent city policy (refs ND Storm Water Criteria Manual resources)",
+      "page_or_section": "Coverage note"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "medium",
+    "needs_human_review": true,
+    "review_notes": "15-page policy/manual; compact but covers quantity + WQ appendices.",
+    "fields_not_found": [
+      "design_criteria.required_hydrologic_hydraulic_software"
+    ]
+  },
+  "source": {
+    "document_url": "https://download.fargond.gov/0/storm_sewer_manual_city_of_fargo_policy_2019-09-09.pdf",
+    "landing_page_url": "https://download.fargond.gov/",
+    "retrieved_at": "2026-08-10T09:45:18.892Z",
+    "original_filename": "fargo-nd.pdf"
+  }
+}

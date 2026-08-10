@@ -1,0 +1,52 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "City of Reading",
+    "jurisdiction_level": "municipality",
+    "state_code": "PA",
+    "document_title": "Pennsylvania Post-Construction Stormwater Management (PCSM) Manual / Act 167",
+    "version_or_edition": null,
+    "adoption_or_effective_date": null,
+    "last_revised_date": null,
+    "relationship_to_state_manual": "adopts_state_manual_directly"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [],
+    "water_quality_volume_method": "PA PCSM Manual pollutant-load approach coupling volume and water quality management; Act 167 / MS4 ordinances require BMPs consistent with Pennsylvania Stormwater BMP / PCSM Manual.",
+    "peak_flow_calculation_method": [
+      "PA PCSM / Stormwater BMP Manual methods",
+      "Act 167 stormwater management ordinance criteria"
+    ],
+    "required_hydrologic_hydraulic_software": [],
+    "approved_bmp_categories": [
+      "Volume-reducing SCMs",
+      "Water quality SCMs",
+      "Post-construction BMPs per PA Manual"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "City of Reading MS4 / Act 167 cites PA PCSM Manual",
+      "page_or_section": "Coverage note"
+    },
+    {
+      "field": "document_metadata.relationship_to_state_manual",
+      "excerpt": "adopts_state_manual_directly — PA PCSM / BMP Manual",
+      "page_or_section": "Coverage note"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "medium",
+    "needs_human_review": true,
+    "review_notes": "Municipality coverage via PA PCSM Manual (Allentown/Harrisburg pattern).",
+    "fields_not_found": [
+      "design_criteria.design_storm_return_periods_years"
+    ]
+  },
+  "source": {
+    "document_url": "https://franklinccd.org/wp-content/uploads/PENNSYLVANIA_POST-CONSTRUCTION_STORMWATER_MANAGEMENT_PCSM_MANUAL.pdf",
+    "landing_page_url": "https://www.pa.gov/agencies/dep/programs-and-services/water/clean-water/stormwater-management/construction-stormwater/eands-resources",
+    "retrieved_at": "2026-08-10T10:10:49.504Z",
+    "original_filename": "reading-pa.pdf"
+  }
+}

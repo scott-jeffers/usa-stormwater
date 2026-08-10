@@ -1,0 +1,100 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "City of Oakland",
+    "jurisdiction_level": "municipality",
+    "state_code": "CA",
+    "document_title": "Storm Drainage Design Standards",
+    "version_or_edition": "2014",
+    "adoption_or_effective_date": null,
+    "last_revised_date": "2014",
+    "relationship_to_state_manual": "independent"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [
+      100
+    ],
+    "water_quality_volume_method": "C.3 stormwater quality measures referenced; primary document is drainage/hydraulics standards. Peak reduction into City system limited (up to 25%).",
+    "peak_flow_calculation_method": [
+      "Modified Rational Method for watersheds <320 acres",
+      "Synthetic unit hydrograph for watersheds ≥320 acres",
+      "Detention designed for 100-year; up to 25% peak reduction into City system"
+    ],
+    "required_hydrologic_hydraulic_software": [],
+    "approved_bmp_categories": [
+      "Detention",
+      "C.3 stormwater quality measures (referenced)"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "City of Oakland Storm Drainage Design Standards",
+      "page_or_section": "Title"
+    },
+    {
+      "field": "document_metadata.jurisdiction_level",
+      "excerpt": "City of Oakland",
+      "page_or_section": "Title"
+    },
+    {
+      "field": "document_metadata.state_code",
+      "excerpt": "California",
+      "page_or_section": "Title"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "Storm Drainage Design Standards",
+      "page_or_section": "Title"
+    },
+    {
+      "field": "document_metadata.version_or_edition",
+      "excerpt": "2014",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.last_revised_date",
+      "excerpt": "2014",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.relationship_to_state_manual",
+      "excerpt": "C.3",
+      "page_or_section": "Quality measures"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "100-year",
+      "page_or_section": "Detention"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "C.3 stormwater quality measures",
+      "page_or_section": "References"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "Modified Rational / Synthetic UH; 25% peak reduction",
+      "page_or_section": "Hydrology / detention"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Detention / C.3",
+      "page_or_section": "Standards"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "medium",
+    "needs_human_review": true,
+    "review_notes": "Oakland 2014 drainage standards; C.3 WQ largely by reference to MRP/regional guidance.",
+    "fields_not_found": [
+      "document_metadata.adoption_or_effective_date",
+      "design_criteria.required_hydrologic_hydraulic_software"
+    ]
+  },
+  "source": {
+    "document_url": "https://cao-94612.s3.us-west-2.amazonaws.com/documents/City-of-Oakland-Design-Standards.pdf",
+    "landing_page_url": "https://www.oaklandca.gov/Community/Community-Development/Sustainability-Environment/Creeks-Watershed-and-Stormwater/Storm-Drainage-Design-Standards",
+    "retrieved_at": "2026-08-10T08:10:00.000Z",
+    "original_filename": "oakland-ca.pdf"
+  }
+}

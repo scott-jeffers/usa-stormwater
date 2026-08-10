@@ -1,0 +1,65 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "City of Flagstaff",
+    "jurisdiction_level": "municipality",
+    "state_code": "AZ",
+    "document_title": "Stormwater Management Design Manual",
+    "version_or_edition": "2025",
+    "adoption_or_effective_date": null,
+    "last_revised_date": "2025",
+    "relationship_to_state_manual": "independent"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [
+      2,
+      5,
+      10,
+      25,
+      50,
+      100
+    ],
+    "water_quality_volume_method": "Low Impact Development Runoff Capture Volume (ROCV): Impervious Surface Area (sq ft) × 1 inch = ROCV. ROCV requirement may be met by (1) retaining the minimum ROCV for ≥24 hours, (2) treating the discharge from the 2-year storm, or (3) a combination. Detailed LID design per City of Flagstaff LID Guidance Manual.",
+    "peak_flow_calculation_method": [
+      "Rational Method / hydrograph methods per Ch.4 Hydrology",
+      "On-site detention for developments >1/4 acre (policies in §5.3.8)",
+      "2-year detention waived if site fully captures ROCV"
+    ],
+    "required_hydrologic_hydraulic_software": [],
+    "approved_bmp_categories": [
+      "LID / Runoff Capture Volume facilities",
+      "Detention / multi-purpose basins",
+      "Rainwater harvesting (passive/active)",
+      "Bio-filters / infiltration",
+      "Extended detention"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "2025 Stormwater Management Design Manual",
+      "page_or_section": "Cover / §1.1"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "Impervious Surface Area (square feet) X 1 inch = Runoff Capture Volume",
+      "page_or_section": "§6.0 LID / ROCV"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "retaining the required minimum ROCV for a minimum of 24 hours, (2) treating the discharge from the 2-year storm",
+      "page_or_section": "§6.2 policy 14"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "high",
+    "needs_human_review": false,
+    "review_notes": null,
+    "fields_not_found": []
+  },
+  "source": {
+    "document_url": "https://www.flagstaff.az.gov/DocumentCenter/View/88520/2025-Stormwater-Management-Design-Manual",
+    "landing_page_url": "https://www.flagstaff.az.gov/2131/Stormwater",
+    "retrieved_at": "2026-08-10T10:42:30.501Z",
+    "original_filename": "flagstaff-az.pdf"
+  }
+}

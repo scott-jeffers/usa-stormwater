@@ -26,6 +26,15 @@ yarn-error.log*
 # local PDF samples for ingestion testing (not committed)
 /samples/
 
+# regenerable corpus (pages/chunks) — large, rebuild with pipeline:corpus
+/data/corpus/
+
+# pipeline append-only log (progress.json + STATUS.md are committed)
+/data/pipeline/run-log.jsonl
+
+# generated machine-readable API (rebuilt by npm run export:data / prebuild)
+/public/data/
+
 # typescript
 *.tsbuildinfo
 next-env.d.ts

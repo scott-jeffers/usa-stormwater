@@ -1,0 +1,59 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "City of Kennewick",
+    "jurisdiction_level": "municipality",
+    "state_code": "WA",
+    "document_title": "Stormwater Management Manual for Eastern Washington (SWMMEW)",
+    "version_or_edition": "July 2024 (Ecology Pub. 24-10-014)",
+    "adoption_or_effective_date": "2024-07",
+    "last_revised_date": "2024-07",
+    "relationship_to_state_manual": "adopts_state_manual_directly"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [
+      2
+    ],
+    "water_quality_volume_method": "Ecology SWMMEW Core Element 5 (Runoff Treatment): water quality design storm is the 6-month, 24-hour precipitation computed as Pwqs = Cwqs × P2yr24hr (Cwqs by climate region, Table 4.5). Runoff treatment BMPs sized per Ch.6; infiltration BMPs must infiltrate the 6-month, 24-hour design storm where required. Kennewick is in Eastern Washington — use SWMMEW rather than SWMMWW.",
+    "peak_flow_calculation_method": [
+      "Core Element 6 Flow Control",
+      "Hydrologic analysis methods in SWMMEW Ch.4",
+      "Runoff treatment and flow control BMP library (Ch.6)"
+    ],
+    "required_hydrologic_hydraulic_software": [],
+    "approved_bmp_categories": [
+      "Runoff treatment BMPs (infiltration, biofiltration, wetpool, media filtration)",
+      "Flow control BMPs",
+      "LID BMPs",
+      "Pretreatment BMPs"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "Stormwater Management Manual for Eastern Washington",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "The frequency of the water quality design storm is a 6-month recurrence interval or return period",
+      "page_or_section": "Ch.4 / Equation 4.1"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "Pwqs = Cwqs * P2yr24hr",
+      "page_or_section": "Equation 4.1"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "medium",
+    "needs_human_review": true,
+    "review_notes": "Regional Ecology SWMMEW used for Kennewick MS4; confirm city adoption ordinance / local amendments.",
+    "fields_not_found": []
+  },
+  "source": {
+    "document_url": "https://apps.ecology.wa.gov/publications/documents/2410014.pdf",
+    "landing_page_url": "https://ecology.wa.gov/regulations-permits/guidance-technical-assistance/stormwater-permittee-guidance-resources/stormwater-manuals",
+    "retrieved_at": "2026-08-10T10:42:30.501Z",
+    "original_filename": "kennewick-wa.pdf"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "City of Missoula",
+    "jurisdiction_level": "municipality",
+    "state_code": "MT",
+    "document_title": "Montana Circular DEQ-8 — Subdivision Storm Water Drainage Standards",
+    "version_or_edition": "2024 Edition",
+    "adoption_or_effective_date": "2024",
+    "last_revised_date": "2024",
+    "relationship_to_state_manual": "adopts_state_manual_directly"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [
+      2,
+      10,
+      100
+    ],
+    "water_quality_volume_method": "Initial Storm Water Facility must infiltrate, evapotranspire, and/or capture for reuse post-development runoff from the first 0.5 inches of rainfall on impervious areas (V = 0.5 × Aimp / 12).",
+    "peak_flow_calculation_method": [
+      "Rational Method",
+      "TR-55 / SCS Curve Number Method",
+      "Storage-Indication Routing"
+    ],
+    "required_hydrologic_hydraulic_software": [],
+    "approved_bmp_categories": [
+      "Initial Storm Water Facility",
+      "Retention / Detention / Infiltration",
+      "Bioretention"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "City of Missoula MS4 follows Montana DEQ-8 standards",
+      "page_or_section": "Coverage note"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "medium",
+    "needs_human_review": true,
+    "review_notes": "Municipality coverage via Montana DEQ-8 (Helena pattern).",
+    "fields_not_found": []
+  },
+  "source": {
+    "document_url": "https://deq.mt.gov/files/Water/Forms/DEQ_8_2024_FINAL_2024_09_20.pdf",
+    "landing_page_url": "https://deq.mt.gov/water",
+    "retrieved_at": "2026-08-10T10:27:43.524Z",
+    "original_filename": "missoula-mt.pdf"
+  }
+}

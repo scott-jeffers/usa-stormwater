@@ -1,0 +1,108 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "South Broward Drainage District",
+    "jurisdiction_level": "special_district",
+    "state_code": "FL",
+    "document_title": "Stormwater Management Regulations, Standards, Procedures and Design Criteria Manual",
+    "version_or_edition": "March 26, 2015 (Latest Revision February 2015)",
+    "adoption_or_effective_date": "2015-03-26",
+    "last_revised_date": "2015-02-01",
+    "relationship_to_state_manual": "independent"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [
+      3,
+      100
+    ],
+    "water_quality_volume_method": "Must meet SFWMD criteria for dry pre-treatment retention/detention plus District water quality and quantity requirements. Discharge limited by basin (e.g., inches of runoff per day per acre for SFWMD C-9 / C-11 basins). Structures protected against 100-year, 3-day storm; second-order drainage systems designed for 3-year rainfall (FDOT Zone 10).",
+    "peak_flow_calculation_method": [
+      "3-year design for second-order / internal drainage (FDOT Zone 10 IDF)",
+      "100-year, 3-day flood protection / stage criteria",
+      "Allowable discharge rates by SFWMD basin (C-9 / C-11)",
+      "Retention / detention with control structures"
+    ],
+    "required_hydrologic_hydraulic_software": [],
+    "approved_bmp_categories": [
+      "Dry retention / detention",
+      "Wet retention / detention",
+      "Control structures / weirs",
+      "Swales and conveyance systems"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "SOUTH BROWARD DRAINAGE DISTRICT",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.jurisdiction_level",
+      "excerpt": "SOUTH BROWARD DRAINAGE DISTRICT / BROWARD COUNTY, FLORIDA",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.state_code",
+      "excerpt": "FLORIDA",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "STORMWATER MANAGEMENT REGULATIONS, STANDARDS, PROCEDURES AND DESIGN CRITERIA MANUAL",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.version_or_edition",
+      "excerpt": "March 26, 2015 / Latest Revision February 2015",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.adoption_or_effective_date",
+      "excerpt": "March 26, 2015",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.last_revised_date",
+      "excerpt": "Latest Revision February 2015",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.relationship_to_state_manual",
+      "excerpt": "supplement the established rules ... South Florida Water Management District (SFWMD)",
+      "page_or_section": "Purpose"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "100-year, 3-day storm event / second-order drainage system ... 3-year",
+      "page_or_section": "Definitions / Design criteria"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "meet SFWMD criteria for dry, pre-treatment retention/detention",
+      "page_or_section": "Water Quality"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "allowable discharge ... inch of runoff per day per acre ... SFWMD C-9 / C-11 basin",
+      "page_or_section": "Discharge Criteria"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "retention systems, detention systems",
+      "page_or_section": "Definitions / criteria"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "high",
+    "needs_human_review": false,
+    "review_notes": "SBDD criteria cover southern Broward; Central Broward WCD has separate manual.",
+    "fields_not_found": [
+      "design_criteria.required_hydrologic_hydraulic_software"
+    ]
+  },
+  "source": {
+    "document_url": "https://www.sbdd.org/pdfs/Criteria%20Manual%202015/Criteria%20Manual-March2015.pdf",
+    "landing_page_url": "https://www.sbdd.org/development-projects/resources/standard-details-pdf/",
+    "retrieved_at": "2026-08-10T08:45:22.876Z",
+    "original_filename": "broward-county-fl.pdf"
+  }
+}

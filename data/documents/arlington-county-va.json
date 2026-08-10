@@ -1,0 +1,106 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "Arlington County",
+    "jurisdiction_level": "county",
+    "state_code": "VA",
+    "document_title": "Stormwater Manual: A Guide to Stormwater Requirements for Land Disturbing Activities in Arlington County",
+    "version_or_edition": "July 2025",
+    "adoption_or_effective_date": "2025-07-01",
+    "last_revised_date": "2025-07-01",
+    "relationship_to_state_manual": "deemed_equivalent_to_state_manual"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [],
+    "water_quality_volume_method": "Water quality technical criteria aligned with VADEQ Stormwater Management Handbook / Virginia Runoff Reduction Method (VRRM) and Virginia BMP Clearinghouse. County clarifications for BMPs, underdrains, setbacks, waterproofing, and soil/infiltration testing. Energy-balance detention used for water quantity / flood control where applicable.",
+    "peak_flow_calculation_method": [
+      "Virginia Runoff Reduction Method (VRRM)",
+      "Energy balance detention / water quantity worksheet",
+      "Virginia Stormwater BMP Clearinghouse design specs"
+    ],
+    "required_hydrologic_hydraulic_software": [
+      "VRRM spreadsheet"
+    ],
+    "approved_bmp_categories": [
+      "Virginia BMP Clearinghouse SCMs",
+      "Sheetflow to vegetated filter strip / conserved open space",
+      "Detention tanks / energy-balance facilities",
+      "Stormwater planters / urban BMPs"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "LAND DISTURBING ACTIVITIES IN ARLINGTON COUNTY",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.jurisdiction_level",
+      "excerpt": "Arlington County",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.state_code",
+      "excerpt": "Virginia",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "STORMWATER MANUAL: A GUIDE TO STORMWATER REQUIREMENTS",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.version_or_edition",
+      "excerpt": "July 2025",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.adoption_or_effective_date",
+      "excerpt": "July 2025",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.last_revised_date",
+      "excerpt": "July 2025",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.relationship_to_state_manual",
+      "excerpt": "Updated for consistency with new VADEQ Stormwater",
+      "page_or_section": "Highlights / §2.2.4"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "Water Quality Technical Criteria ... VRRM",
+      "page_or_section": "§2.2.4"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "energy balance detention for flood control",
+      "page_or_section": "Water quantity"
+    },
+    {
+      "field": "design_criteria.required_hydrologic_hydraulic_software",
+      "excerpt": "Modified VRRM spreadsheet",
+      "page_or_section": "TOC"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Virginia Stormwater BMP Clearinghouse",
+      "page_or_section": "Facility Design Considerations"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "medium",
+    "needs_human_review": true,
+    "review_notes": "County LDA guidance manual; numeric WQv depths primarily via VRRM/Handbook rather than restated inline.",
+    "fields_not_found": [
+      "design_criteria.design_storm_return_periods_years"
+    ]
+  },
+  "source": {
+    "document_url": "https://www.arlingtonva.us/files/sharedassets/public/v/3/building/documents/guidance_manual_lda2.0-2025-updates-for-new-vrrm-and-bmp-manual.pdf",
+    "landing_page_url": "https://www.arlingtonva.us/Government/Programs/Building/Permits/Land-Disturbing-Activity-Stormwater/Land-Disturbing-ActivityStormwater-Permit-Details",
+    "retrieved_at": "2026-08-10T09:29:55.327Z",
+    "original_filename": "arlington-county-va.pdf"
+  }
+}

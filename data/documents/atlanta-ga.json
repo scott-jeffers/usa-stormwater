@@ -1,0 +1,125 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "City of Atlanta",
+    "jurisdiction_level": "municipality",
+    "state_code": "GA",
+    "document_title": "Georgia Stormwater Management Manual (city adopts GSMM; Chapter 74 Art. X)",
+    "version_or_edition": "2016 Edition",
+    "adoption_or_effective_date": null,
+    "last_revised_date": null,
+    "relationship_to_state_manual": "adopts_state_manual_directly"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [
+      1,
+      2,
+      10,
+      25,
+      100
+    ],
+    "water_quality_volume_method": "Sized to treat the runoff from 85% of the storms that occur in an average year, which equates to 1.2 inches of rainfall (Water Quality Volume, WQv), or the first 1.0 inch of rainfall using runoff reduction practices to the maximum extent practicable. If the entire 1.0 inch is reduced, the water quality volume may be waived. Otherwise, the remaining runoff from the 1.2-inch event must be treated to remove at least 80% of average annual TSS.",
+    "peak_flow_calculation_method": [
+      "SCS Curve Number Method"
+    ],
+    "required_hydrologic_hydraulic_software": [],
+    "approved_bmp_categories": [
+      "Bioretention Basin",
+      "Bioslopes",
+      "Dry Wells",
+      "Infiltration Trenches",
+      "Organic Filters",
+      "Regenerative Stormwater Conveyance",
+      "Sand Filters",
+      "Stormwater Planters/Tree Boxes",
+      "Downspout Disconnects",
+      "Site Reforestation/Revegetation",
+      "Soil Restoration",
+      "Vegetated Filter Strips",
+      "Dry Detention Basins",
+      "Dry Extended Detention Basins",
+      "Multi-Purpose Detention Basins",
+      "Stormwater Ponds",
+      "Stormwater Wetlands",
+      "Gravel Wetlands",
+      "Enhanced Dry Swales",
+      "Enhanced Wet Swales",
+      "Grass Channels",
+      "Gravity Separators",
+      "Proprietary Systems",
+      "Underground Detention",
+      "Green Roofs",
+      "Permeable Paver System",
+      "Pervious Concrete",
+      "Porous Asphalt",
+      "Rainwater Harvesting"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "City of Atlanta adopts GSMM technical standards",
+      "page_or_section": "Coverage note"
+    },
+    {
+      "field": "document_metadata.jurisdiction_level",
+      "excerpt": "municipality — City of Atlanta",
+      "page_or_section": "Coverage note"
+    },
+    {
+      "field": "document_metadata.state_code",
+      "excerpt": "GEORGIA VOLUMES 1 & 2",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "STORMWATER MANAGEMENT MANUAL GEORGIA VOLUMES 1 & 2",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.version_or_edition",
+      "excerpt": "2016 EDITION",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.relationship_to_state_manual",
+      "excerpt": "adopts_state_manual_directly — GSMM 2016 / Chapter 74 Art. X",
+      "page_or_section": "Coverage note"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "the 1-year, 25-year, and 100-year return intervals... 2-year through the 25-year return frequency storm events",
+      "page_or_section": "105, 112"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "Stormwater management systems shall be designed to retain or treat the runoff from 85% of the storms that occur in an average year, and reduce average annual post-development total suspended solids loadings by 80%. Averaged from rainfall events across the state of Georgia, this equates to treating storm events of 1.2 inches or less, as well as the first 1.2 inches of runoff for all larger storm events.",
+      "page_or_section": "111"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "What is the SCS curve number for this sub-watershed",
+      "page_or_section": "154"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Bioretention Basin; Bioslopes; Dry Wells; Infiltration Trenches; Organic Filters; Regenerative Stormwater Conveyance; Sand Filters; and Stormwater Planters/Tree Boxes",
+      "page_or_section": "199"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "medium",
+    "needs_human_review": true,
+    "review_notes": "No durable standalone Atlanta design-manual PDF found; municipality coverage via GSMM 2016 (same approach as Fulton/DeKalb). Prefer city-specific PDF if published.",
+    "fields_not_found": [
+      "document_metadata.adoption_or_effective_date",
+      "document_metadata.last_revised_date",
+      "design_criteria.required_hydrologic_hydraulic_software"
+    ]
+  },
+  "source": {
+    "document_url": "https://documents.atlantaregional.com/gastormwater/GSMM_2016%20EDITION_FINAL_V1.pdf",
+    "landing_page_url": "https://atlantaregional.org/what-we-do/natural-resources/georgia-stormwater-management-manual/",
+    "retrieved_at": "2026-08-10T09:24:56.027Z",
+    "original_filename": "atlanta-ga.pdf"
+  }
+}

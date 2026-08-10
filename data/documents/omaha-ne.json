@@ -1,0 +1,57 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "City of Omaha",
+    "jurisdiction_level": "municipality",
+    "state_code": "NE",
+    "document_title": "Post-Construction Stormwater Management Planning (PCSMP) / ORSDM Ch.8 BMPs",
+    "version_or_edition": "March 2009 (PCSMP guidance); ORSDM April 2006+",
+    "adoption_or_effective_date": "2008-07-01",
+    "last_revised_date": null,
+    "relationship_to_state_manual": "independent"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [],
+    "water_quality_volume_method": "Omaha Municipal Code Ch.32/53 PCSMP: low-impact development BMPs providing water quality control of the first one-half inch (0.5\") of runoff from the site (required for plats on/after July 1, 2008; maximize 0.5\" control where reasonably practical for older plats / ≥1-acre disturbance). ORSDM Chapter 8 provides BMP design criteria, pretreatment, and feasibility. Full ORSDM is chaptered and often 403-blocked on city servers.",
+    "peak_flow_calculation_method": [
+      "ORSDM hydrology / detention criteria (Chapters 2+)",
+      "PCSMP BMP sizing calculations"
+    ],
+    "required_hydrologic_hydraulic_software": [],
+    "approved_bmp_categories": [
+      "Low impact development BMPs",
+      "ORSDM Chapter 8 stormwater quality BMPs",
+      "Bioretention / permeable pavement / other ORSDM practices"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "City of Omaha - POST-CONSTRUCTION STORMWATER MANAGEMENT PLAN (PCSMP)",
+      "page_or_section": "Header"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "provide water quality control of the first one-half inch of runoff from the site",
+      "page_or_section": "Table 1 / §1.2 Applicability"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "Chapter 8 of the Omaha Regional Stormwater Design Manual provides information about BMPs",
+      "page_or_section": "§1.0 / resources"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "medium",
+    "needs_human_review": true,
+    "review_notes": "Extracted from PCWP PCSMP planning guide citing ORSDM Ch.8. Prefer full ORSDM chapters when durable public PDFs are available.",
+    "fields_not_found": [
+      "design_criteria.design_storm_return_periods_years"
+    ]
+  },
+  "source": {
+    "document_url": "https://papiopartnership.org/wp-content/uploads/2017/11/post_construction_stormwater_planning.pdf",
+    "landing_page_url": "https://www.omahastormwater.org/resources/forms-downloads/",
+    "retrieved_at": "2026-08-10T10:27:43.524Z",
+    "original_filename": "omaha-ne.pdf"
+  }
+}

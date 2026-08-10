@@ -1,0 +1,104 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "City of Salem",
+    "jurisdiction_level": "municipality",
+    "state_code": "OR",
+    "document_title": "Public Works Design Standards — Administrative Rule 109 (Div. 004 Stormwater)",
+    "version_or_edition": "March 2025",
+    "adoption_or_effective_date": null,
+    "last_revised_date": "2025-03-01",
+    "relationship_to_state_manual": "independent"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [
+      100
+    ],
+    "water_quality_volume_method": "Green Stormwater Infrastructure (GSI) to the Maximum Extent Feasible (MEF) per SRC 71.100; water quality design storm represents 80% of average annual runoff volume (NSRR — Numeric Stormwater Retention Requirement). Flow control per SRC 71.095(c). Infiltration facilities sized with design infiltration rate = measured rate / 2 safety factor.",
+    "peak_flow_calculation_method": [
+      "Flow control performance standards (SRC 71.095)",
+      "Hydrologic analysis Appendix 4D",
+      "100-year floodway / open channel easement criteria"
+    ],
+    "required_hydrologic_hydraulic_software": [],
+    "approved_bmp_categories": [
+      "Green stormwater infrastructure (planters, infiltration)",
+      "Infiltration facilities / drywells (UIC)",
+      "Filtration facilities",
+      "Flow control facilities",
+      "Pervious pavement / eco-roofs (impervious area reduction)",
+      "Manufactured stormwater facilities (accepted list)"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "CITY OF SALEM DEPARTMENT OF PUBLIC WORKS ADMINISTRATIVE RULES",
+      "page_or_section": "Header"
+    },
+    {
+      "field": "document_metadata.jurisdiction_level",
+      "excerpt": "City of Salem",
+      "page_or_section": "Header"
+    },
+    {
+      "field": "document_metadata.state_code",
+      "excerpt": "Oregon",
+      "page_or_section": "Coverage"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "004 STORMWATER SYSTEM",
+      "page_or_section": "TOC"
+    },
+    {
+      "field": "document_metadata.version_or_edition",
+      "excerpt": "Public Works Design Standards - March 2025",
+      "page_or_section": "Landing / filename"
+    },
+    {
+      "field": "document_metadata.last_revised_date",
+      "excerpt": "March 2025",
+      "page_or_section": "Landing"
+    },
+    {
+      "field": "document_metadata.relationship_to_state_manual",
+      "excerpt": "Salem Revised Code / Public Works Design Standards",
+      "page_or_section": "Introduction"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "Water Quality Design Storm Event - a design storm event representative of 80 percent of the",
+      "page_or_section": "Definitions"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "flow control performance standards of SRC 71.095(c)",
+      "page_or_section": "Definitions"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Green Stormwater Infrastructure - GSI; Infiltration Facility",
+      "page_or_section": "Definitions"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "100-year floodway",
+      "page_or_section": "Easements"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "medium",
+    "needs_human_review": true,
+    "review_notes": "Full Admin Rule 109 PDF (multiple divisions). Stormwater criteria concentrated in Div. 004 / SRC 71 references.",
+    "fields_not_found": [
+      "document_metadata.adoption_or_effective_date",
+      "design_criteria.required_hydrologic_hydraulic_software"
+    ]
+  },
+  "source": {
+    "document_url": "https://www.cityofsalem.net/home/showpublisheddocument/420/639198930718730000",
+    "landing_page_url": "https://www.cityofsalem.net/business/building-in-salem/helpful-resources/engineering-and-technical-resources/standard-plans-construction-specifications-and-public-works-design-standards",
+    "retrieved_at": "2026-08-10T09:29:55.327Z",
+    "original_filename": "salem-or.pdf"
+  }
+}

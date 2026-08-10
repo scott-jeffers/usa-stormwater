@@ -1,0 +1,60 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "City of Cleveland",
+    "jurisdiction_level": "municipality",
+    "state_code": "OH",
+    "document_title": "Rainwater and Land Development — Ohio's Standards for Stormwater Management (city MS4)",
+    "version_or_edition": "Third Edition 2006",
+    "adoption_or_effective_date": "2006-12-01",
+    "last_revised_date": null,
+    "relationship_to_state_manual": "adopts_state_manual_directly"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [
+      1,
+      2,
+      5,
+      10,
+      25,
+      50,
+      100
+    ],
+    "water_quality_volume_method": "WQv (ac-ft) = C × 0.75 × A / 12 (treat runoff from 0.75 inch of precipitation); Ohio EPA NPDES requires 20% additional WQv for sediment; extended detention drawdown 24–48 hours. Used where no durable city design-manual PDF was found (or prior extract was empty/scanned).",
+    "peak_flow_calculation_method": [
+      "NRCS TR-55",
+      "USGS empirical equations for small urban streams in Ohio",
+      "Manning's Equation"
+    ],
+    "required_hydrologic_hydraulic_software": [],
+    "approved_bmp_categories": [
+      "Water Quality Ponds",
+      "Infiltration / Filtration practices",
+      "LID / Conservation Development",
+      "Wetland / Stream setbacks"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "City of Cleveland MS4 — Ohio Rainwater and Land Development standards",
+      "page_or_section": "Coverage note"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "WQv (ac-ft) = C × 0.75 × A / 12",
+      "page_or_section": "Ohio RaLD"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "medium",
+    "needs_human_review": true,
+    "review_notes": "Statewide Ohio manual used as MS4 post-construction reference when city PDF unavailable/empty.",
+    "fields_not_found": []
+  },
+  "source": {
+    "document_url": "https://dam.assets.ohio.gov/image/upload/epa.ohio.gov/Portals/35/storm/technical_assistance/ARCHIVE-RaLD-2006.pdf",
+    "landing_page_url": "https://epa.ohio.gov/divisions-and-offices/surface-water/guides-manuals/rainwater-and-land-development",
+    "retrieved_at": "2026-08-10T10:35:05.250Z",
+    "original_filename": "cleveland-oh.pdf"
+  }
+}

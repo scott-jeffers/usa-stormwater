@@ -1,0 +1,63 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "Carson City",
+    "jurisdiction_level": "municipality",
+    "state_code": "NV",
+    "document_title": "Carson City Drainage Manual (Low Impact Development)",
+    "version_or_edition": "Revised 7/1/2021",
+    "adoption_or_effective_date": "2021-07-01",
+    "last_revised_date": "2021-07-01",
+    "relationship_to_state_manual": "independent"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [
+      2,
+      10,
+      100
+    ],
+    "water_quality_volume_method": "LID required for new development/redevelopment. Flow-based post-construction controls sized for the 2-year runoff event from the connected drainage area. Volume-based controls capture/treat 90% of annual runoff volume. WQV = [(P)(RV)(A)]/12 with P = 1.5 in west of Carson Street and 0.5 in east of Carson Street. Detention attenuates post-development 10-year (Q10) peaks to predevelopment; volume credit for WQ features 1:1. Minor/major conveyance: 10-year / 100-year 24-hour; arterials/collectors checked for 100-year.",
+    "peak_flow_calculation_method": [
+      "10-year / 100-year 24-hour design storms",
+      "Detention to predevelopment Q10",
+      "Rational / hydrograph methods per Drainage Manual technical criteria"
+    ],
+    "required_hydrologic_hydraulic_software": [],
+    "approved_bmp_categories": [
+      "LID BMPs (infiltration, bioretention, etc.)",
+      "Flow-based water quality controls",
+      "Volume-based water quality controls",
+      "Detention basins",
+      "Infiltration trenches / basins",
+      "Storm drain / channel conveyance"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "Carson City Drainage Manual Revised: 7/1/2021",
+      "page_or_section": "Headers"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "WQV = [(P)(RV)(A)]/12 ... P, use 1.5 inches for areas west of Carson Street and 0.5 inches for areas east",
+      "page_or_section": "Technical Criteria / WQV"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "minor storm event (10-year) and a major storm event (100-year)",
+      "page_or_section": "Design Storm Events"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "high",
+    "needs_human_review": false,
+    "review_notes": null,
+    "fields_not_found": []
+  },
+  "source": {
+    "document_url": "https://www.carson.org/home/showpublisheddocument/76280/637624691903200000",
+    "landing_page_url": "https://www.carsoncity.gov/government/departments-g-z/public-works/storm-water-flood-plain-management/low-impact-development-drainage-manual-faqs",
+    "retrieved_at": "2026-08-10T10:18:37.456Z",
+    "original_filename": "carson-city-nv.pdf"
+  }
+}

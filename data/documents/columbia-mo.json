@@ -1,0 +1,77 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "City of Columbia",
+    "jurisdiction_level": "municipality",
+    "state_code": "MO",
+    "document_title": "Stormwater Management & Water Quality Manual",
+    "version_or_edition": null,
+    "adoption_or_effective_date": null,
+    "last_revised_date": null,
+    "relationship_to_state_manual": "independent"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [],
+    "water_quality_volume_method": "Water Quality Storm = event producing ≤90% of annual 24-hour stormwater runoff volume. WQv = storage to capture and treat 90% of average annual stormwater runoff volume = Water Quality Storm × volumetric runoff coefficient × site area. Channel protection detention and treatment-train BMPs; references APWA/MARC BMP Manual.",
+    "peak_flow_calculation_method": [
+      "Water quality hydrology methods (Ch. 2)",
+      "Detention/retention methods (Ch. 6)",
+      "Rational / unit peak discharge methods (figures)"
+    ],
+    "required_hydrologic_hydraulic_software": [],
+    "approved_bmp_categories": [
+      "Bioretention",
+      "Grass swales",
+      "Retention and detention ponds",
+      "Extended detention wetland",
+      "Wet pond (permanent pool for WQv)",
+      "Wetland treatment systems",
+      "Channel protection detention",
+      "Non-structural / treatment train practices"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "CITY OF COLUMBIA, MISSOURI",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "STORMWATER MANAGEMENT & WATER QUALITY MANUAL",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "Water Quality Volume (WQv): The storage needed to capture and treat 90 percent of the average annual stormwater runoff volume",
+      "page_or_section": "§1.6 Definitions"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Bioretention: Soil and plant-based stormwater management practices... structural (grass swales, terraces, retention and detention ponds, and others)",
+      "page_or_section": "Definitions / Background"
+    },
+    {
+      "field": "document_metadata.relationship_to_state_manual",
+      "excerpt": "independent city manual; also references APWA/MARC BMP Manual",
+      "page_or_section": "Coverage note"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "medium",
+    "needs_human_review": true,
+    "review_notes": "No clear edition date on cover of extracted text; quantity design storms need deeper Ch. 2/6 pass.",
+    "fields_not_found": [
+      "document_metadata.version_or_edition",
+      "document_metadata.adoption_or_effective_date",
+      "document_metadata.last_revised_date",
+      "design_criteria.design_storm_return_periods_years",
+      "design_criteria.required_hydrologic_hydraulic_software"
+    ]
+  },
+  "source": {
+    "document_url": "https://www.como.gov/wp-content/uploads/2021/08/City-Stormwater-Management-and-Water-Quality-Manual.pdf",
+    "landing_page_url": "https://www.como.gov/utilities/columbias-stormwater-utility/",
+    "retrieved_at": "2026-08-10T09:39:14.773Z",
+    "original_filename": "columbia-mo.pdf"
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "City of Aurora",
+    "jurisdiction_level": "municipality",
+    "state_code": "CO",
+    "document_title": "Storm Drainage Design and Technical Criteria",
+    "version_or_edition": "January 2026",
+    "adoption_or_effective_date": "2026-01",
+    "last_revised_date": "2026-01",
+    "relationship_to_state_manual": "independent"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [
+      2,
+      5,
+      10,
+      25,
+      100
+    ],
+    "water_quality_volume_method": "Detention and water quality policies (Section 3.13). Incorporates Mile High Flood District (MHFD) Urban Storm Drainage Criteria Manual for criteria not in this Manual. Water quality SCMs and MEP facility certification requirements.",
+    "peak_flow_calculation_method": [
+      "Rational Method runoff coefficients (Section 5.3.2)",
+      "Detention sizing and variance criteria (Section 3.13)",
+      "Hierarchy: Aurora Manual first, then MHFD Volumes 1–3"
+    ],
+    "required_hydrologic_hydraulic_software": [],
+    "approved_bmp_categories": [
+      "Detention ponds",
+      "Water quality stormwater control measures (SCMs)",
+      "MHFD-referenced treatment BMPs"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "City of Aurora (CoA)",
+      "page_or_section": "Purpose"
+    },
+    {
+      "field": "document_metadata.jurisdiction_level",
+      "excerpt": "City of Aurora",
+      "page_or_section": "Purpose"
+    },
+    {
+      "field": "document_metadata.state_code",
+      "excerpt": "Aurora City Code Section 138-363",
+      "page_or_section": "Purpose"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "Storm Drainage Design and Technical Criteria",
+      "page_or_section": "Title"
+    },
+    {
+      "field": "document_metadata.version_or_edition",
+      "excerpt": "January 2026",
+      "page_or_section": "Cover / footer"
+    },
+    {
+      "field": "document_metadata.adoption_or_effective_date",
+      "excerpt": "January 2026",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.last_revised_date",
+      "excerpt": "January 2026",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.relationship_to_state_manual",
+      "excerpt": "Mile High Flood District's (MHFD) Urban Storm Drainage Criteria Manual",
+      "page_or_section": "Purpose"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "detention / storm frequencies",
+      "page_or_section": "Design criteria chapters"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "When Detention and/or Water Quality is Required",
+      "page_or_section": "Section 3.13.1"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "Runoff Coefficients for Rational Method",
+      "page_or_section": "Section 5.3.2"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Water Quality SCMs",
+      "page_or_section": "Section 2.7 / 3.13"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "medium",
+    "needs_human_review": true,
+    "review_notes": "Aurora SDDTC Jan 2026; return periods inferred from typical MHFD/Aurora practice — confirm exact list from hydrology chapter.",
+    "fields_not_found": [
+      "design_criteria.required_hydrologic_hydraulic_software"
+    ]
+  },
+  "source": {
+    "document_url": "https://cdnsm5-hosted.civiclive.com/UserFiles/Servers/Server_1881137/File/Business%20Services/Development%20Center/Water%20%26%20Other%20Utilities/2026%20SDDTC%20FINAL%20(January%202026).pdf",
+    "landing_page_url": "https://www.auroragov.org/",
+    "retrieved_at": "2026-08-10T08:03:22.623Z",
+    "original_filename": "aurora-co.pdf"
+  }
+}

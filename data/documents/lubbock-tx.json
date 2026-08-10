@@ -1,0 +1,108 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "City of Lubbock",
+    "jurisdiction_level": "municipality",
+    "state_code": "TX",
+    "document_title": "Drainage Criteria Manual",
+    "version_or_edition": "November 2019",
+    "adoption_or_effective_date": "2019-11-19",
+    "last_revised_date": "2019-11",
+    "relationship_to_state_manual": "independent"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [
+      100
+    ],
+    "water_quality_volume_method": "Chapter 9 Stormwater Quality covers post-construction BMPs and structural controls. Primary drainage design emphasizes playa lakes, street/alley conveyance for the 100-year event, and detention/retention (Chapter 7, Modified Rational Method).",
+    "peak_flow_calculation_method": [
+      "Rational Method (Chapter 3)",
+      "Street hydraulic design / 100-year street capacity analysis",
+      "Playa hydrologic routing and volumetric mitigation (Chapter 5)",
+      "Detention/retention Modified Rational Method (Chapter 7)",
+      "TxDOT IDF coefficients"
+    ],
+    "required_hydrologic_hydraulic_software": [],
+    "approved_bmp_categories": [
+      "Post-construction structural BMPs",
+      "Detention / retention basins",
+      "Playas (overflow and non-overflow)",
+      "Sediment and erosion control BMPs"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "The City of Lubbock, Texas",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.jurisdiction_level",
+      "excerpt": "City of Lubbock",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.state_code",
+      "excerpt": "Texas",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "Drainage Criteria Manual",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.version_or_edition",
+      "excerpt": "November 2019",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.adoption_or_effective_date",
+      "excerpt": "adopted and becomes effective on November 19, 2019",
+      "page_or_section": "Introduction"
+    },
+    {
+      "field": "document_metadata.last_revised_date",
+      "excerpt": "November 2019",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.relationship_to_state_manual",
+      "excerpt": "City of Lubbock Drainage Criteria Manual",
+      "page_or_section": "Title"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "100-Year Stormwater Capacity Analysis",
+      "page_or_section": "Figure 4.1"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "9.0 STORMWATER QUALITY / Post-Construction Best Management Practices",
+      "page_or_section": "Chapter 9"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "Rational Method / Playa Analysis / Detention and Retention",
+      "page_or_section": "Chapters 3, 5, 7"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Structural Controls / Detention/Retention Basin",
+      "page_or_section": "Chapters 7–9"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "medium",
+    "needs_human_review": true,
+    "review_notes": "Lubbock DCM Nov 2019; playa-centric. Confirm Chapter 9 numeric WQ sizing if needed.",
+    "fields_not_found": [
+      "design_criteria.required_hydrologic_hydraulic_software"
+    ]
+  },
+  "source": {
+    "document_url": "https://www.mylubbock.us/DocumentCenter/View/1563/Drainage-Criteria-Manual-PDF",
+    "landing_page_url": "https://www.mylubbock.us/280/Development-Engineering",
+    "retrieved_at": "2026-08-10T08:30:22.061Z",
+    "original_filename": "lubbock-tx.pdf"
+  }
+}

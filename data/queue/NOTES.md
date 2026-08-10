@@ -1,6 +1,6 @@
 # Overnight queue notes
 
-Updated: 2026-08-10T06:10:45.857Z
+Updated: 2026-08-10T10:40:39.268Z
 
 Extraction is done by **Cursor agents** (not Gemini). After `npm run prepare:queue`, ask Cursor to read `samples/queue/<id>.txt` and write `data/documents/<id>.json` matching `lib/schema.ts`, then `npm run save -- samples/queue/<id>.extraction.json --slug=<id>` (or have the agent write the document JSON directly).
 
@@ -8,15 +8,19 @@ Extraction is done by **Cursor agents** (not Gemini). After `npm run prepare:que
 
 | Status | Count |
 |--------|------:|
-| done | 81 |
-| prepared (awaiting agent) | 0 |
-| pending | 0 |
-| skipped | 10 |
+| done | 283 |
+| prepared (awaiting agent) | 5 |
+| pending | 6 |
+| skipped | 5 |
 | deferred | 0 |
 
 ## Ready for Cursor extract
 
-_none_
+- `flagstaff-az` — text ready for Cursor agent
+- `beaumont-tx` — text ready for Cursor agent
+- `santa-barbara-ca` — text ready for Cursor agent
+- `charleston-wv` — text ready for Cursor agent
+- `kennewick-wa` — text ready for Cursor agent
 
 ## Worked
 
@@ -47,10 +51,12 @@ _none_
 - `nj-state` → `nj-state`
 - `ca-casqa-municipal` → `ca-casqa-municipal`
 - `dc-guidebook` → `dc-guidebook`
+- `baltimore-md` → `baltimore-md`
 - `boston-ma` → `boston-ma`
 - `houston-tx` → `houston-tx`
 - `san-diego-ca` → `san-diego-ca`
 - `los-angeles-ca` → `los-angeles-ca`
+- `atlanta-ga` → `atlanta-ga`
 - `miami-fl` → `miami-fl`
 - `minneapolis-mn` → `minneapolis-mn`
 - `detroit-mi` → `detroit-mi`
@@ -62,13 +68,17 @@ _none_
 - `ohio-rainwater` → `ohio-rainwater`
 - `michigan-manual` → `michigan-manual`
 - `indiana-manual` → `indiana-manual`
+- `missouri-manual` → `missouri-manual`
+- `arkansas-manual` → `arkansas-manual`
 - `alabama-handbook` → `alabama-handbook`
 - `south-carolina-manual` → `south-carolina-manual`
 - `kentucky-bmp` → `kentucky-bmp`
 - `west-virginia-manual` → `west-virginia-manual`
 - `maine-manual` → `maine-manual`
+- `oregon-manual` → `oregon-manual`
 - `kansas-city-marc-bmp` → `kansas-city-marc-bmp`
 - `tx-edwards-rg348` → `tx-edwards-rg348`
+- `idaho-bmp-catalog` → `idaho-bmp-catalog`
 - `south-salt-lake-ut` → `south-salt-lake-ut`
 - `hawaii-dot-pcbmp` → `hawaii-dot-pcbmp`
 - `albuquerque-nm-gsi` → `albuquerque-nm-gsi`
@@ -101,16 +111,231 @@ _none_
 - `tucson-az-detention` → `tucson-az-detention`
 - `tampa-fl` → `tampa-fl`
 - `gainesville-fl` → `gainesville-fl`
+- `san-francisco-ca` → `san-francisco-ca`
+- `san-antonio-tx` → `san-antonio-tx`
+- `columbus-oh` → `columbus-oh`
+- `dallas-tx` → `dallas-tx`
+- `san-jose-ca` → `san-jose-ca`
+- `fort-worth-tx` → `fort-worth-tx`
+- `sacramento-ca` → `sacramento-ca`
+- `memphis-tn` → `memphis-tn`
+- `louisville-ky` → `louisville-ky`
+- `el-paso-tx` → `el-paso-tx`
+- `las-vegas-nv` → `las-vegas-nv`
+- `raleigh-nc` → `raleigh-nc`
+- `oakland-ca` → `oakland-ca`
+- `jacksonville-fl` → `jacksonville-fl`
+- `milwaukee-wi` → `milwaukee-wi`
+- `fresno-ca` → `fresno-ca`
+- `long-beach-ca` → `long-beach-ca`
+- `tulsa-ok` → `tulsa-ok`
+- `king-county-wa` → `king-county-wa`
+- `orange-county-ca` → `orange-county-ca`
+- `mesa-az` → `mesa-az`
+- `aurora-co` → `aurora-co`
+- `cincinnati-oh` → `cincinnati-oh`
+- `plano-tx` → `plano-tx`
+- `arlington-tx` → `arlington-tx`
+- `orlando-fl` → `orlando-fl`
+- `anaheim-ca` → `anaheim-ca`
+- `corpus-christi-tx` → `corpus-christi-tx`
+- `durham-nc` → `durham-nc`
+- `tacoma-wa` → `tacoma-wa`
+- `saint-paul-mn` → `saint-paul-mn`
+- `lexington-ky` → `lexington-ky`
+- `chandler-az` → `chandler-az`
+- `madison-wi` → `madison-wi`
+- `spokane-wa` → `spokane-wa`
+- `scottsdale-az` → `scottsdale-az`
+- `maricopa-county-az` → `maricopa-county-az`
+- `stockton-ca` → `stockton-ca`
+- `fort-wayne-in` → `fort-wayne-in`
+- `lubbock-tx` → `lubbock-tx`
+- `pittsburgh-pa` → `pittsburgh-pa`
+- `buffalo-ny` → `buffalo-ny`
+- `garland-tx` → `garland-tx`
+- `winston-salem-nc` → `winston-salem-nc`
+- `richmond-va` → `richmond-va`
+- `fairfax-county-va` → `fairfax-county-va`
+- `fremont-ca` → `fremont-ca`
+- `pinellas-county-fl` → `pinellas-county-fl`
+- `des-moines-ia` → `des-moines-ia`
+- `jersey-city-nj` → `jersey-city-nj`
+- `cleveland-oh` → `cleveland-oh`
+- `frisco-tx` → `frisco-tx`
+- `mckinney-tx` → `mckinney-tx`
+- `riverside-county-ca` → `riverside-county-ca`
+- `broward-county-fl` → `broward-county-fl`
+- `san-bernardino-county-ca` → `san-bernardino-county-ca`
+- `amarillo-tx` → `amarillo-tx`
+- `bellevue-wa` → `bellevue-wa`
+- `overland-park-ks` → `overland-park-ks`
+- `denton-tx` → `denton-tx`
+- `chattanooga-tn` → `chattanooga-tn`
+- `grand-rapids-mi` → `grand-rapids-mi`
+- `cape-coral-fl` → `cape-coral-fl`
+- `eugene-or` → `eugene-or`
+- `springfield-mo` → `springfield-mo`
+- `charleston-sc` → `charleston-sc`
+- `providence-ri` → `providence-ri`
+- `santa-rosa-ca` → `santa-rosa-ca`
+- `rochester-ny` → `rochester-ny`
+- `gwinnett-county-ga` → `gwinnett-county-ga`
+- `prince-georges-county-md` → `prince-georges-county-md`
+- `fulton-county-ga` → `fulton-county-ga`
+- `dekalb-county-ga` → `dekalb-county-ga`
+- `cook-county-il` → `cook-county-il`
+- `harris-county-tx` → `harris-county-tx`
+- `tarrant-county-tx` → `tarrant-county-tx`
+- `bakersfield-ca` → `bakersfield-ca`
+- `knoxville-tn` → `knoxville-tn`
+- `vancouver-wa` → `vancouver-wa`
+- `alexandria-va` → `alexandria-va`
+- `wayne-county-mi` → `wayne-county-mi`
+- `atlanta-ga` → `atlanta-ga`
+- `augusta-ga` → `augusta-ga`
+- `cary-nc` → `cary-nc`
+- `columbia-sc` → `columbia-sc`
+- `tallahassee-fl` → `tallahassee-fl`
+- `arlington-county-va` → `arlington-county-va`
+- `salem-or` → `salem-or`
+- `yonkers-ny` → `yonkers-ny`
+- `macon-ga` → `macon-ga`
+- `montgomery-al` → `montgomery-al`
+- `mobile-al` → `mobile-al`
+- `birmingham-al` → `birmingham-al`
+- `murfreesboro-tn` → `murfreesboro-tn`
+- `clarksville-tn` → `clarksville-tn`
+- `topeka-ks` → `topeka-ks`
+- `columbia-mo` → `columbia-mo`
+- `dayton-oh` → `dayton-oh`
+- `athens-ga` → `athens-ga`
+- `syracuse-ny` → `syracuse-ny`
+- `jackson-ms` → `jackson-ms`
+- `cedar-rapids-ia` → `cedar-rapids-ia`
+- `shreveport-la` → `shreveport-la`
+- `rockford-il` → `rockford-il`
+- `fargo-nd` → `fargo-nd`
+- `worcester-ma` → `worcester-ma`
+- `springfield-ma` → `springfield-ma`
+- `newark-nj` → `newark-nj`
+- `paterson-nj` → `paterson-nj`
+- `elizabeth-nj` → `elizabeth-nj`
+- `bridgeport-ct` → `bridgeport-ct`
+- `stamford-ct` → `stamford-ct`
+- `new-haven-ct` → `new-haven-ct`
+- `ann-arbor-mi` → `ann-arbor-mi`
+- `killeen-tx` → `killeen-tx`
+- `mesquite-tx` → `mesquite-tx`
+- `round-rock-tx` → `round-rock-tx`
+- `rochester-mn` → `rochester-mn`
+- `independence-mo` → `independence-mo`
+- `hartford-ct` → `hartford-ct`
+- `cambridge-ma` → `cambridge-ma`
+- `allentown-pa` → `allentown-pa`
+- `lansing-mi` → `lansing-mi`
+- `peoria-il` → `peoria-il`
+- `high-point-nc` → `high-point-nc`
+- `wilmington-nc` → `wilmington-nc`
+- `concord-nc` → `concord-nc`
+- `evansville-in` → `evansville-in`
+- `manchester-nh` → `manchester-nh`
+- `albany-ny` → `albany-ny`
+- `trenton-nj` → `trenton-nj`
+- `davenport-ia` → `davenport-ia`
+- `harrisburg-pa` → `harrisburg-pa`
+- `everett-wa` → `everett-wa`
+- `olympia-wa` → `olympia-wa`
+- `lawrence-ks` → `lawrence-ks`
+- `roanoke-va` → `roanoke-va`
+- `annapolis-md` → `annapolis-md`
+- `concord-nh` → `concord-nh`
+- `nashua-nh` → `nashua-nh`
+- `montpelier-vt` → `montpelier-vt`
+- `juneau-ak` → `juneau-ak`
+- `greensboro-nc` → `greensboro-nc`
+- `asheville-nc` → `asheville-nc`
+- `south-bend-in` → `south-bend-in`
+- `reading-pa` → `reading-pa`
+- `erie-pa` → `erie-pa`
+- `scranton-pa` → `scranton-pa`
+- `bellingham-wa` → `bellingham-wa`
+- `jefferson-city-mo` → `jefferson-city-mo`
+- `helena-mt` → `helena-mt`
+- `carson-city-nv` → `carson-city-nv`
+- `springfield-il` → `springfield-il`
+- `huntsville-al` → `huntsville-al`
+- `fayetteville-ar` → `fayetteville-ar`
+- `augusta-me` → `augusta-me`
+- `frankfort-ky` → `frankfort-ky`
+- `dover-de` → `dover-de`
+- `hialeah-fl` → `hialeah-fl`
+- `west-palm-beach-fl` → `west-palm-beach-fl`
+- `port-st-lucie-fl` → `port-st-lucie-fl`
+- `boca-raton-fl` → `boca-raton-fl`
+- `lakeland-fl` → `lakeland-fl`
+- `omaha-ne` → `omaha-ne`
+- `pasadena-tx` → `pasadena-tx`
+- `franklin-tn` → `franklin-tn`
+- `charlottesville-va` → `charlottesville-va`
+- `gastonia-nc` → `gastonia-nc`
+- `portland-me` → `portland-me`
+- `rockville-md` → `rockville-md`
+- `burlington-vt` → `burlington-vt`
+- `wilmington-de` → `wilmington-de`
+- `gulfport-ms` → `gulfport-ms`
+- `missoula-mt` → `missoula-mt`
+- `chula-vista-ca` → `chula-vista-ca`
+- `pearland-tx` → `pearland-tx`
+- `greenville-sc` → `greenville-sc`
+- `lincoln-ne` → `lincoln-ne`
+- `colorado-springs-co` → `colorado-springs-co`
+- `boulder-co` → `boulder-co`
+- `fort-collins-co` → `fort-collins-co`
+- `toledo-oh` → `toledo-oh`
+- `akron-oh` → `akron-oh`
+- `youngstown-oh` → `youngstown-oh`
+- `duluth-mn` → `duluth-mn`
+- `bend-or` → `bend-or`
+- `flint-mi` → `flint-mi`
+- `grand-prairie-tx` → `grand-prairie-tx`
+- `waco-tx` → `waco-tx`
+- `lafayette-la` → `lafayette-la`
+- `santa-fe-nm` → `santa-fe-nm`
+- `las-cruces-nm` → `las-cruces-nm`
+- `sioux-falls-sd` → `sioux-falls-sd`
+- `pierre-sd` → `pierre-sd`
+- `cheyenne-wy` → `cheyenne-wy`
+- `casper-wy` → `casper-wy`
 
 ## Skipped
 
-- `mn-state`: skipped_no_single_pdf — live wiki; 2008 PDF outdated
-- `baltimore-md`: HTTP 404 Not Found
-- `atlanta-ga`: HTTP 404 Not Found
-- `albuquerque-nm`: skipped_no_single_pdf
-- `wisconsin-technical`: HTTP 404 Not Found
-- `missouri-manual`: HTTP 404 Not Found
-- `arkansas-manual`: HTTP 404 Not Found
-- `delaware-esc`: HTTP 404 Not Found
-- `oregon-manual`: HTTP 404 Not Found
-- `idaho-bmp-catalog`: URL 404 on verify
+- `mn-state`: superseded_by mn-state-2008
+- `albuquerque-nm`: superseded_by albuquerque-nm-gsi
+- `wisconsin-technical`: superseded_by wi-dnr-1001
+- `delaware-esc`: superseded_by de-wet-ponds-draft (partial wet-ponds coverage)
+- `tempe-az`: Wrong PDF (Historic Preservation memo); need real Tempe drainage/stormwater manual URL
+
+## Coverage gaps (P1)
+
+- **St. Louis, MO** — not_in_manifest → suggested `st-louis-mo` (top100, ms4_phase1)
+- **Laredo, TX** — not_in_manifest → suggested `laredo-tx` (top100, ms4_phase1)
+- **Brownsville, TX** — not_in_manifest → suggested `brownsville-tx` (ms4_phase1)
+- **McAllen, TX** — not_in_manifest → suggested `mcallen-tx` (ms4_phase1)
+- **College Station, TX** — not_in_manifest → suggested `college-station-tx` (ms4_phase1)
+- **Palm Bay, FL** — no_document → suggested `palm-bay-fl` (ms4_phase1)
+- **Beaumont, TX** — no_document → suggested `beaumont-tx` (ms4_phase1)
+- **Charleston, WV** — no_document → suggested `charleston-wv` (capital, ms4_phase2)
+_Full report: `data/coverage/REPORT.md` (run `npm run coverage:report`)._
+
+## Overnight tick 22b (2026-08-10)
+- Prepared+extracted: Flagstaff 2025 SWMDM (ROCV = impervious × 1"); Beaumont DD6 Drainage Criteria (Atlas 14 detention); Santa Barbara BMP Guide (95th pct / 2.4"); Charleston WV Guidance Manual (first 1"); Kennewick via Ecology 2024 SWMMEW (6-mo WQ storm)
+- Regional: Pensacola → NWFWMD AH Vol II; Palm Bay / Daytona / Melbourne / Deltona / Palm Coast → Jacksonville LDPM pattern (SJRWMD AH Vol II still 403)
+- Still hard: St. Louis MSD, Laredo / McAllen / Brownsville / College Station (no durable city PDF), Yuma (no good alias)
+
+## Overnight tick 23 (2026-08-10)
+- St. Louis: MSD WQv 1.14" via Site Design Guidance (Maryland SWM Manual Ch.3/5)
+- Yuma: alias + doc via Maricopa Drainage Policies (city SWMP adopts Maricopa ECDDM); first flush 0.5"
+- Laredo / McAllen / Brownsville: low-conf San Antonio South TX pattern (city PDFs 403/wrong)
+- College Station: low-conf iSWM/Dallas (BCS Drainage_2020.pdf 404)
+- Plateau for genuine city PDFs on remaining TX RGV + BCS portal

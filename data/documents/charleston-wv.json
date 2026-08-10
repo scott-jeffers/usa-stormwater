@@ -1,0 +1,61 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "City of Charleston",
+    "jurisdiction_level": "municipality",
+    "state_code": "WV",
+    "document_title": "Stormwater Management Guidance Manual",
+    "version_or_edition": "Version 1.0",
+    "adoption_or_effective_date": null,
+    "last_revised_date": null,
+    "relationship_to_state_manual": "independent"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [],
+    "water_quality_volume_method": "Capture and infiltrate the first one (1) inch of rainfall on site (average 24-hour storm preceded by 48 hours of no measurable precipitation). Extended filtration practices designed to manage one inch of rainfall may discharge through an underdrain. Used as the City standard for water quality / post-construction runoff control (Ch.6).",
+    "peak_flow_calculation_method": [
+      "Engineering calculations (Ch.4)",
+      "Detention basins (Ch.6.13)",
+      "LID / runoff reduction practices"
+    ],
+    "required_hydrologic_hydraulic_software": [],
+    "approved_bmp_categories": [
+      "Infiltration practices",
+      "Bioretention / planters",
+      "Permeable pavement",
+      "Impervious surface disconnection",
+      "Detention basins",
+      "Other Ch.6 post-construction measures"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "Stormwater Management Guidance Manual Version 1.0 City of Charleston, WV",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "infiltrating the first one (1) inch of rainfall on the site",
+      "page_or_section": "Post-construction / permitting"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "manage on-site the first 1-inch of rainfall from an average 24-hour storm preceded by 48 hours of no measurable precipitation",
+      "page_or_section": "Ch.6 Post Construction"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "high",
+    "needs_human_review": false,
+    "review_notes": null,
+    "fields_not_found": [
+      "design_criteria.design_storm_return_periods_years"
+    ]
+  },
+  "source": {
+    "document_url": "http://charlestonstormwater.org/wp-content/uploads/2025/03/Charleston-Stormwater-Management-Guidance-Manual-website.pdf",
+    "landing_page_url": "http://charlestonstormwater.org/sample-page/",
+    "retrieved_at": "2026-08-10T10:42:30.501Z",
+    "original_filename": "charleston-wv.pdf"
+  }
+}

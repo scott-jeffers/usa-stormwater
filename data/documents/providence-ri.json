@@ -1,0 +1,102 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "City of Providence",
+    "jurisdiction_level": "municipality",
+    "state_code": "RI",
+    "document_title": "Rhode Island Stormwater Design and Installation Standards Manual (adopted statewide; applies in Providence)",
+    "version_or_edition": "Amended March 2015",
+    "adoption_or_effective_date": "2015-03-01",
+    "last_revised_date": "2015-03-01",
+    "relationship_to_state_manual": "adopts_state_manual_directly"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [],
+    "water_quality_volume_method": "Statewide RISDISM eleven minimum standards apply in Providence (LID site planning; groundwater recharge Rev; water quality WQv; channel protection CPv; overbank flood protection Qp; etc.). Structural STPs sized to meet WQv and related standards; construction SESC practices sized for 1 inch of runoff where specified.",
+    "peak_flow_calculation_method": [
+      "Water Quality Volume (WQv)",
+      "Recharge Volume (Rev)",
+      "Channel Protection Volume (CPv)",
+      "Overbank Flood Protection (Qp)",
+      "Eleven RISDISM minimum standards"
+    ],
+    "required_hydrologic_hydraulic_software": [],
+    "approved_bmp_categories": [
+      "LID site planning and design strategies",
+      "Groundwater recharge practices",
+      "Structural stormwater treatment practices (Chapter 5)",
+      "Channel protection / flood control practices"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "RHODE ISLAND DEPARTMENT OF ENVIRONMENTAL MANAGEMENT AND COASTAL RESOURCES MANAGEMENT COUNCIL",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.jurisdiction_level",
+      "excerpt": "State of Rhode Island / Providence capital",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.state_code",
+      "excerpt": "Rhode Island",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "RHODE ISLAND STORMWATER DESIGN AND INSTALLATION STANDARDS MANUAL",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.version_or_edition",
+      "excerpt": "AMENDED MARCH 2015",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.adoption_or_effective_date",
+      "excerpt": "Amended March 2015",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.last_revised_date",
+      "excerpt": "March 2015",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.relationship_to_state_manual",
+      "excerpt": "Eleven minimum standards ... State of Rhode Island",
+      "page_or_section": "Chapter 3"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "Water Quality, WQv; Channel Protection, CPv; and Overbank Flood Protection, Qp",
+      "page_or_section": "Chapter 3"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "WQv / Rev / CPv sizing criteria",
+      "page_or_section": "Minimum standards"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Structural Stormwater Treatment Practices for Meeting Water Quality",
+      "page_or_section": "Chapter Five"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "medium",
+    "needs_human_review": true,
+    "review_notes": "Statewide RISDISM used for Providence capital coverage; city may have additional local ordinance requirements.",
+    "fields_not_found": [
+      "design_criteria.design_storm_return_periods_years",
+      "design_criteria.required_hydrologic_hydraulic_software"
+    ]
+  },
+  "source": {
+    "document_url": "https://dem.ri.gov/sites/g/files/xkgbur861/files/pubs/regs/regs/water/swmanual15.pdf",
+    "landing_page_url": "https://dem.ri.gov/environmental-protection-bureau/water-resources/permitting/stormwater-permitting/stormwater-rules",
+    "retrieved_at": "2026-08-10T09:06:14.926Z",
+    "original_filename": "providence-ri.pdf"
+  }
+}

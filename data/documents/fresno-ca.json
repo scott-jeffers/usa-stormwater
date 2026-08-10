@@ -1,0 +1,121 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "Fresno Metropolitan Flood Control District",
+    "jurisdiction_level": "special_district",
+    "state_code": "CA",
+    "document_title": "Post-Development Standards Technical Manual",
+    "version_or_edition": "June 2014",
+    "adoption_or_effective_date": "2014-06",
+    "last_revised_date": "2014-06",
+    "relationship_to_state_manual": "independent"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [
+      100
+    ],
+    "water_quality_volume_method": "Priority Projects must mitigate SWQDV or SWQDF via LID- or treatment-based BMPs. SWQDV: infiltrate or treat runoff from the 24-hour 85th percentile storm (local rainfall record), or WEF/ASCE maximized capture volume, or volume of annual runoff achieving equivalent treatment to the 85th percentile 24-hour event. County of Fresno drainage standards (pre- vs post-development 100-year runoff volume difference) are noted as more stringent than the 2013 MS4 Permit for areas not covered by the FMFCD Master Plan. Projects discharging to the Regional Stormwater Management Basin System meet LID/treatment requirements via the regional system.",
+    "peak_flow_calculation_method": [
+      "SWQDF for flow-based BMPs (vegetated filter strips, vegetated swales, some proprietary devices)",
+      "Effective stormwater runoff coefficient from Tables 5-2 (Fresno) and 5-3 (Clovis)",
+      "County of Fresno drainage design: mitigate difference in pre- vs post-development 100-year runoff volume where Master Plan basins do not apply"
+    ],
+    "required_hydrologic_hydraulic_software": [],
+    "approved_bmp_categories": [
+      "Bioretention (LID-1)",
+      "Infiltration basin (LID-2)",
+      "Infiltration trench (LID-3)",
+      "Dry well (LID-4)",
+      "Permeable pavement without underdrain (LID-5)",
+      "Rain barrel/cistern (LID-6)",
+      "Green roof (LID-7)",
+      "Biofiltration (T-1)",
+      "Stormwater planter (T-2)",
+      "Tree-well filter (T-3)",
+      "Vegetated filter strips (T-4)",
+      "Vegetated swales (T-5)",
+      "Sand filters (T-6)",
+      "Constructed wetlands (T-7)",
+      "Extended detention basin (T-8)",
+      "Wet pond (T-9)",
+      "Permeable pavement with underdrain (T-10)",
+      "Proprietary devices (T-11)",
+      "Source control BMPs"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "Fresno Metropolitan Flood Control District i June 2014",
+      "page_or_section": "Title / footer"
+    },
+    {
+      "field": "document_metadata.jurisdiction_level",
+      "excerpt": "Fresno Metropolitan Flood Control District",
+      "page_or_section": "Title"
+    },
+    {
+      "field": "document_metadata.state_code",
+      "excerpt": "2013 MS4 Permit",
+      "page_or_section": "Section 1.1"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "Post-Development Standards Technical Manual",
+      "page_or_section": "Title"
+    },
+    {
+      "field": "document_metadata.version_or_edition",
+      "excerpt": "June 2014",
+      "page_or_section": "Cover / footer"
+    },
+    {
+      "field": "document_metadata.adoption_or_effective_date",
+      "excerpt": "FMFCD has prepared the 2014 Post-Development Standards Technical Manual",
+      "page_or_section": "Section 1.1"
+    },
+    {
+      "field": "document_metadata.last_revised_date",
+      "excerpt": "June 2014",
+      "page_or_section": "Cover / footer"
+    },
+    {
+      "field": "document_metadata.relationship_to_state_manual",
+      "excerpt": "comply with the requirements of the 2013 MS4 Permit",
+      "page_or_section": "Section 1.1"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "difference in stormwater runoff volume between the pre- and post-development 100-",
+      "page_or_section": "Section 5.3"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "The volume of stormwater runoff produced from a 24-hour, 85th percentile storm event, as determined from the local historical rainfall record",
+      "page_or_section": "Section 5.4"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "Vegetated Filter Strips (T-4) SWQDF / Vegetated Swales (T-5) SWQDF",
+      "page_or_section": "Table 5-1"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Bioretention (LID-1) SWQDV / Infiltration Basin (LID-2) SWQDV",
+      "page_or_section": "Table 5-1"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "high",
+    "needs_human_review": false,
+    "review_notes": "FMFCD June 2014 Post-Development Standards Technical Manual (URL updated to 2022/09 hosting path). Covers Fresno-Clovis priority projects outside regional basin service areas; regional basin discharges credited as meeting LID/treatment.",
+    "fields_not_found": [
+      "design_criteria.required_hydrologic_hydraulic_software"
+    ]
+  },
+  "source": {
+    "document_url": "https://www.fresnofloodcontrol.org/wp-content/uploads/2022/09/Post-Development-Standards-Technical-Manual.pdf",
+    "landing_page_url": "https://www.fresnofloodcontrol.org/documents-and-reports/",
+    "retrieved_at": "2026-08-10T07:50:51.242Z",
+    "original_filename": "fresno-ca.pdf"
+  }
+}

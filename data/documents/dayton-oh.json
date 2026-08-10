@@ -1,0 +1,83 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "City of Dayton",
+    "jurisdiction_level": "municipality",
+    "state_code": "OH",
+    "document_title": "Department of Water Engineering Design Standards — Section 5 Storm Water Requirements",
+    "version_or_edition": "October 2020",
+    "adoption_or_effective_date": "2020-10-01",
+    "last_revised_date": "2020-10-01",
+    "relationship_to_state_manual": "independent"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [
+      1,
+      25,
+      50,
+      100
+    ],
+    "water_quality_volume_method": "Peak-rate control: post-development peak runoff ≤ pre-development for all 24-hour storms from 1-year through the critical year storm; detention volume methods based on percent increase in 1-year 24-hour runoff volume. Post-construction BMPs per Ohio EPA Construction General Permit OHC000002 (SWP3 Part III) with O&M manuals required. Section is conveyance/detention focused rather than a standalone WQv rainfall-depth manual.",
+    "peak_flow_calculation_method": [
+      "Major waterways (>4 sq mi): 100-year",
+      "Secondary (1–4 sq mi): 50-year",
+      "Minor (≤1 sq mi open channels): 25-year",
+      "Detention: post ≤ pre for 24-hr storms 1-year through critical year",
+      "Runoff curve numbers / detention routing"
+    ],
+    "required_hydrologic_hydraulic_software": [],
+    "approved_bmp_categories": [
+      "Detention basins",
+      "Retention basins",
+      "Storm sewer / closed conduits",
+      "Open channels",
+      "Post-construction BMPs per Ohio EPA CGP",
+      "Dry wells (limited / geotech)"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "City of Dayton Engineering Design Standards",
+      "page_or_section": "Section 5"
+    },
+    {
+      "field": "document_metadata.version_or_edition",
+      "excerpt": "October 2020",
+      "page_or_section": "Header"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "Major waterways ... 100 years ... Secondary ... 50 years ... Minor ... 25 years",
+      "page_or_section": "§5.1 A"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "post-development peak rate of runoff does not exceed that of the pre-development stage, for all 24-hour storms ... Post Construction Storm Water Management requirements ... Ohio EPA Permit No.: OHC000002",
+      "page_or_section": "§5.1 D / §5.6"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Section 5.4 Detention/Retention Basins ... post construction BMPs",
+      "page_or_section": "§5.4 / §5.6"
+    },
+    {
+      "field": "document_metadata.relationship_to_state_manual",
+      "excerpt": "independent city standards; post-construction refs Ohio EPA CGP",
+      "page_or_section": "§5.6"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "medium",
+    "needs_human_review": true,
+    "review_notes": "Section 5 only (11 pages); not a full multi-volume BMP design manual. HEAD 404 but GET works.",
+    "fields_not_found": [
+      "design_criteria.required_hydrologic_hydraulic_software"
+    ]
+  },
+  "source": {
+    "document_url": "https://www.daytonohio.gov/DocumentCenter/View/4875",
+    "landing_page_url": "https://www.daytonohio.gov/",
+    "retrieved_at": "2026-08-10T09:39:14.776Z",
+    "original_filename": "dayton-oh.pdf"
+  }
+}

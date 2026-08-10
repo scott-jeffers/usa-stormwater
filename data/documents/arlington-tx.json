@@ -1,0 +1,105 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "City of Arlington",
+    "jurisdiction_level": "municipality",
+    "state_code": "TX",
+    "document_title": "Design Criteria Manual",
+    "version_or_edition": "Updated April 1, 2020",
+    "adoption_or_effective_date": "2020-04-01",
+    "last_revised_date": "2020-04-01",
+    "relationship_to_state_manual": "independent"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [
+      100
+    ],
+    "water_quality_volume_method": "Section 5.10 Post Construction Stormwater Quality. Detention/retention ponds must be in public drainage easements where required.",
+    "peak_flow_calculation_method": [
+      "100-year fully developed floodplain easement criteria for natural streams",
+      "Flood study and detention technical review",
+      "Detention/retention pond design criteria within DCM drainage sections"
+    ],
+    "required_hydrologic_hydraulic_software": [],
+    "approved_bmp_categories": [
+      "Detention ponds",
+      "Retention ponds",
+      "Post-construction stormwater quality measures"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "City of Arlington",
+      "page_or_section": "Purpose"
+    },
+    {
+      "field": "document_metadata.jurisdiction_level",
+      "excerpt": "City of Arlington",
+      "page_or_section": "Purpose"
+    },
+    {
+      "field": "document_metadata.state_code",
+      "excerpt": "Texas",
+      "page_or_section": "Jurisdiction"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "Design Criteria Manual",
+      "page_or_section": "Title"
+    },
+    {
+      "field": "document_metadata.version_or_edition",
+      "excerpt": "Updated April 1, 2020",
+      "page_or_section": "City webpage / cover"
+    },
+    {
+      "field": "document_metadata.adoption_or_effective_date",
+      "excerpt": "April 1, 2020",
+      "page_or_section": "Update note"
+    },
+    {
+      "field": "document_metadata.last_revised_date",
+      "excerpt": "April 1, 2020",
+      "page_or_section": "Update note"
+    },
+    {
+      "field": "document_metadata.relationship_to_state_manual",
+      "excerpt": "Design Criteria Manual",
+      "page_or_section": "Purpose"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "100-year fully developed floodplain",
+      "page_or_section": "Drainage easements"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "Post Construction Stormwater Quality",
+      "page_or_section": "Section 5.10"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "Detention/Retention Ponds",
+      "page_or_section": "Drainage criteria"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Detention/Retention Ponds",
+      "page_or_section": "Drainage criteria"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "medium",
+    "needs_human_review": true,
+    "review_notes": "Arlington DCM Apr 2020 is multi-discipline; stormwater is one chapter — confirm WQ sizing details in Section 5.10.",
+    "fields_not_found": [
+      "design_criteria.required_hydrologic_hydraulic_software"
+    ]
+  },
+  "source": {
+    "document_url": "https://www.arlingtontx.gov/files/assets/city/v/2/public-works/documents/design-criteria-manual/arlington-design-criteria-manual.pdf",
+    "landing_page_url": "https://www.arlingtontx.gov/City-Services/Transportation-Streets-Traffic/Streets-and-Traffic/Engineers-Builders-Contractors/Design-Criteria-Manual",
+    "retrieved_at": "2026-08-10T08:03:22.623Z",
+    "original_filename": "arlington-tx.pdf"
+  }
+}

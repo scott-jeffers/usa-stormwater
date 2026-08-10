@@ -1,0 +1,100 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "Clark County Regional Flood Control District",
+    "jurisdiction_level": "special_district",
+    "state_code": "NV",
+    "document_title": "Hydrologic Criteria and Drainage Design Manual (HCDDM)",
+    "version_or_edition": null,
+    "adoption_or_effective_date": "1999",
+    "last_revised_date": null,
+    "relationship_to_state_manual": "independent"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [
+      2,
+      10,
+      100
+    ],
+    "water_quality_volume_method": "Regional flood control / drainage design criteria; water quality BMP sizing may be in local agency supplements. Prepared extract truncated for large HCDDM.",
+    "peak_flow_calculation_method": [
+      "Minor storm: 10-year (§304.2)",
+      "Major storm: 100-year (§304.2)",
+      "Rainfall frequencies from 2-year through 100-year (§500)"
+    ],
+    "required_hydrologic_hydraulic_software": [],
+    "approved_bmp_categories": [
+      "Detention",
+      "Channels",
+      "Storm drains",
+      "Flood control facilities"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "Clark County Regional Flood Control District",
+      "page_or_section": "Title"
+    },
+    {
+      "field": "document_metadata.jurisdiction_level",
+      "excerpt": "Regional Flood Control District",
+      "page_or_section": "Title"
+    },
+    {
+      "field": "document_metadata.state_code",
+      "excerpt": "Nevada",
+      "page_or_section": "Title"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "Hydrologic Criteria and Drainage Design Manual",
+      "page_or_section": "Title"
+    },
+    {
+      "field": "document_metadata.adoption_or_effective_date",
+      "excerpt": "adopted 1999",
+      "page_or_section": "Manifest / cover"
+    },
+    {
+      "field": "document_metadata.relationship_to_state_manual",
+      "excerpt": "HCDDM",
+      "page_or_section": "Title"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "minor storm 10-year / major storm 100-year",
+      "page_or_section": "§304.2"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "minor and major storm",
+      "page_or_section": "§304.2"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "drainage design",
+      "page_or_section": "HCDDM"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "detention / channels / storm drains",
+      "page_or_section": "Design chapters"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "medium",
+    "needs_human_review": true,
+    "review_notes": "Clark County HCDDM covers Las Vegas metro flood/drainage criteria. Text extract truncated; confirm WQ BMP chapter if present.",
+    "fields_not_found": [
+      "document_metadata.version_or_edition",
+      "document_metadata.last_revised_date",
+      "design_criteria.required_hydrologic_hydraulic_software"
+    ]
+  },
+  "source": {
+    "document_url": "https://gustfront.ccrfcd.org/pdf_arch1/hcddm/current%20manual%20(complete)/hcddm.pdf",
+    "landing_page_url": "https://www.regionalflood.org/",
+    "retrieved_at": "2026-08-10T08:10:00.000Z",
+    "original_filename": "las-vegas-nv.pdf"
+  }
+}

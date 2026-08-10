@@ -1,0 +1,100 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "Pinellas County",
+    "jurisdiction_level": "county",
+    "state_code": "FL",
+    "document_title": "Stormwater Manual",
+    "version_or_edition": "Revised April 23, 2024",
+    "adoption_or_effective_date": "2024-04-23",
+    "last_revised_date": "2024-04-23",
+    "relationship_to_state_manual": "independent"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [],
+    "water_quality_volume_method": "Presumptive treatment criteria include 0.5 inch for dry retention and 1 inch for wet detention over the contributing area (small-site provisions). Manual Parts A–B cover water quality/quantity performance standards, BMP criteria (bioswales, wet detention, green infrastructure), and attenuation/storage requirements.",
+    "peak_flow_calculation_method": [
+      "Water quantity attenuation and storage criteria (Chapters 1–2)",
+      "Off-site compensating treatment / regional facilities",
+      "BMP-specific hydraulic design (Part B)"
+    ],
+    "required_hydrologic_hydraulic_software": [],
+    "approved_bmp_categories": [
+      "Dry retention / exfiltration",
+      "Wet detention",
+      "Bioswales / treatment swales / green gutters",
+      "Green infrastructure BMPs"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "PINELLAS COUNTY",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.jurisdiction_level",
+      "excerpt": "Pinellas County",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.state_code",
+      "excerpt": "Florida",
+      "page_or_section": "Applicability"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "STORMWATER MANUAL",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.version_or_edition",
+      "excerpt": "REVISED APRIL 23, 2024",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.adoption_or_effective_date",
+      "excerpt": "APRIL 23, 2024",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.last_revised_date",
+      "excerpt": "APRIL 23, 2024",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.relationship_to_state_manual",
+      "excerpt": "Pinellas County Stormwater Manual / state water quality standards",
+      "page_or_section": "Introduction"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "Presumptive treatment criteria of 0.5\" for dry retention and 1\" for wet detention",
+      "page_or_section": "Small sites"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "attenuation, storage and treatment required",
+      "page_or_section": "Performance standards"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Bioswales/Treatment Swales / Wet Detention / Green Infrastructure",
+      "page_or_section": "Chapter 4 / 6"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "high",
+    "needs_human_review": false,
+    "review_notes": "Pinellas County Stormwater Manual Apr 2024.",
+    "fields_not_found": [
+      "design_criteria.design_storm_return_periods_years",
+      "design_criteria.required_hydrologic_hydraulic_software"
+    ]
+  },
+  "source": {
+    "document_url": "https://pinellas.gov/wp-content/uploads/2021/11/Stormwater_Manual.pdf",
+    "landing_page_url": "https://pinellas.gov/",
+    "retrieved_at": "2026-08-10T08:41:07.399Z",
+    "original_filename": "pinellas-county-fl.pdf"
+  }
+}

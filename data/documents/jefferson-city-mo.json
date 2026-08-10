@@ -1,0 +1,57 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "City of Jefferson City",
+    "jurisdiction_level": "municipality",
+    "state_code": "MO",
+    "document_title": "Missouri Guide to Green Infrastructure (capital MS4 / PUB2446)",
+    "version_or_edition": "PUB2446, May 2012",
+    "adoption_or_effective_date": "2012-05",
+    "last_revised_date": null,
+    "relationship_to_state_manual": "adopts_state_manual_directly"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [
+      1,
+      2,
+      10,
+      100
+    ],
+    "water_quality_volume_method": "Guidance uses water quality rain events occurring roughly 90% of the time (~0.5–1.5 in literature for Missouri), with SCMs designed to infiltrate, evapotranspire, or reuse runoff to the MEP; typical one-inch channel-forming event for energy controls.",
+    "peak_flow_calculation_method": [],
+    "required_hydrologic_hydraulic_software": [],
+    "approved_bmp_categories": [
+      "Wet Ponds / Extended Wet Detention",
+      "Rain Gardens / Bioretention",
+      "Infiltration Trenches and Basins",
+      "Green Roofs",
+      "Pervious Pavements",
+      "Bioswales / Filter Strips",
+      "Constructed Wetlands",
+      "Stream Buffers"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "Jefferson City capital coverage via Missouri Guide to Green Infrastructure",
+      "page_or_section": "Coverage note"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "water quality volume based on water quality rain events that occur roughly 90% of the time",
+      "page_or_section": "PUB2446"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "medium",
+    "needs_human_review": true,
+    "review_notes": "Statewide GI guide — not a full conventional drainage design manual; city may have additional local standards.",
+    "fields_not_found": []
+  },
+  "source": {
+    "document_url": "https://dnr.mo.gov/sites/dnr/files/vfc/2023/05/main/pub2446-mo-guide-to-green-infrastructure_1.pdf",
+    "landing_page_url": "https://dnr.mo.gov/document-search/missouri-guide-green-infrastructure-pub2446",
+    "retrieved_at": "2026-08-10T10:10:49.504Z",
+    "original_filename": "jefferson-city-mo.pdf"
+  }
+}

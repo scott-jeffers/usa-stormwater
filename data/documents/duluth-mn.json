@@ -1,0 +1,48 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "City of Duluth",
+    "jurisdiction_level": "municipality",
+    "state_code": "MN",
+    "document_title": "Minnesota Stormwater Manual (city MS4)",
+    "version_or_edition": "Version 2.0, 2008",
+    "adoption_or_effective_date": "2008",
+    "last_revised_date": "2008",
+    "relationship_to_state_manual": "adopts_state_manual_directly"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [
+      2,
+      10,
+      100
+    ],
+    "water_quality_volume_method": "Minnesota Stormwater Manual post-construction BMP sizing / volume control framework (city engineering guidelines PDF not found).",
+    "peak_flow_calculation_method": [
+      "Minnesota Stormwater Manual methods"
+    ],
+    "required_hydrologic_hydraulic_software": [],
+    "approved_bmp_categories": [
+      "Infiltration / filtration BMPs",
+      "Detention / retention",
+      "Other Minnesota Stormwater Manual practices"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "City of Duluth MS4 follows Minnesota Stormwater Manual",
+      "page_or_section": "Coverage note"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "medium",
+    "needs_human_review": true,
+    "review_notes": "Municipality coverage via Minnesota Stormwater Manual.",
+    "fields_not_found": []
+  },
+  "source": {
+    "document_url": "https://stormwater.pca.state.mn.us/sites/stormwater/files/Minnesota_Stormwater_Manual.pdf",
+    "landing_page_url": "https://stormwater.pca.state.mn.us/",
+    "retrieved_at": "2026-08-10T10:35:05.250Z",
+    "original_filename": "duluth-mn.pdf"
+  }
+}

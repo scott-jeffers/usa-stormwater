@@ -1,0 +1,66 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "City of Lawrence",
+    "jurisdiction_level": "municipality",
+    "state_code": "KS",
+    "document_title": "Stormwater Management Criteria",
+    "version_or_edition": "February 2025",
+    "adoption_or_effective_date": "2025-02",
+    "last_revised_date": "2025-02",
+    "relationship_to_state_manual": "independent"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [
+      1,
+      2,
+      5,
+      10,
+      25,
+      50,
+      100
+    ],
+    "water_quality_volume_method": "Post-construction BMPs per City's adopted Mid-America Regional Council (MARC) and APWA Manual of Best Management Practices for Stormwater Quality (Sept. 2003 and updates) / Value Rating method. Quantity: detention when required by drainage study; Lake Alvamar watershed example release caps 2-yr 2.4 cfs/acre, 10-yr 3.2 cfs/acre, 100-yr 4.5 cfs/acre. Enclosed minor systems sized for 10-year; major/overflow checked for 100-year.",
+    "peak_flow_calculation_method": [
+      "Rational Method (≤300 acres / small detention)",
+      "Hydrograph methods for larger basins / detention",
+      "Allowable release rates (Section 9.3)",
+      "MARC/APWA BMP Manual for post-construction quality"
+    ],
+    "required_hydrologic_hydraulic_software": [],
+    "approved_bmp_categories": [
+      "MARC/APWA structural and non-structural BMPs",
+      "Detention facilities (dry/wet)",
+      "Storm sewer / open channel conveyance",
+      "Parking excess BMPs per MARC manual"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "STORMWATER MANAGEMENT CRITERIA FEBRUARY 2025",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "City's adopted BMP manual. [Mid-America Regional Council and APWA Manual of Best Management Practices for Stormwater Quality - Sept. 2003 and subsequent updates]",
+      "page_or_section": "Post-construction BMP section"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "2 yr storm 2.4 cfs/acre 10 yr storm 3.2 cfs/acre 100 yr storm 4.5 cfs/acre",
+      "page_or_section": "Section 9.3 / Lake Alvamar criteria"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "high",
+    "needs_human_review": false,
+    "review_notes": null,
+    "fields_not_found": []
+  },
+  "source": {
+    "document_url": "https://lawrenceks.gov/wp-content/uploads/2025/03/Stormwater-Management-Criteria-2025-1.pdf",
+    "landing_page_url": "https://lawrenceks.gov/mso/technical-resources/",
+    "retrieved_at": "2026-08-10T10:10:49.504Z",
+    "original_filename": "lawrence-ks.pdf"
+  }
+}

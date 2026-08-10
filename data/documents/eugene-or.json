@@ -1,0 +1,102 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "City of Eugene",
+    "jurisdiction_level": "municipality",
+    "state_code": "OR",
+    "document_title": "Stormwater Management Manual",
+    "version_or_edition": "2025",
+    "adoption_or_effective_date": "2025-07-01",
+    "last_revised_date": "2025-01-01",
+    "relationship_to_state_manual": "independent"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [],
+    "water_quality_volume_method": "Implements Eugene Code 9.6790–9.6797 standards for flood control, stormwater quality (pollution reduction facilities sized to Water Quality Design Storm), oil control for high-risk vehicle areas, and flow control. Facility selection/design in Chapters 2–3; flood control design storm tables in Appendix K; water quality design storm development in Appendix L.",
+    "peak_flow_calculation_method": [
+      "Flood control design methodologies (on-site / off-site facilities)",
+      "Flow control methodologies",
+      "Water quality facility selection and design",
+      "Underground Injection Control (UIC) constraints where applicable"
+    ],
+    "required_hydrologic_hydraulic_software": [],
+    "approved_bmp_categories": [
+      "Stormwater quality / pollution reduction facilities",
+      "Flow control facilities",
+      "Flood control facilities",
+      "Oil control facilities",
+      "Infiltration / UIC facilities"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "City of Eugene / STORMWATER MANAGEMENT IN EUGENE",
+      "page_or_section": "Chapter 1"
+    },
+    {
+      "field": "document_metadata.jurisdiction_level",
+      "excerpt": "City of Eugene",
+      "page_or_section": "Title"
+    },
+    {
+      "field": "document_metadata.state_code",
+      "excerpt": "Oregon / Eugene Code",
+      "page_or_section": "1.1"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "STORMWATER MANAGEMENT MANUAL",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.version_or_edition",
+      "excerpt": "2025",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.adoption_or_effective_date",
+      "excerpt": "Eugene Code as in effect on July 1, 2025",
+      "page_or_section": "Appendix A / intro"
+    },
+    {
+      "field": "document_metadata.last_revised_date",
+      "excerpt": "2025",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.relationship_to_state_manual",
+      "excerpt": "Eugene Code 9.6790 Stormwater Development Standards",
+      "page_or_section": "1.1"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "STORMWATER QUALITY / Water Quality Design Storm",
+      "page_or_section": "1.7 / Appendix L"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "STORMWATER FLOOD CONTROL / FLOW CONTROL",
+      "page_or_section": "1.6 / 1.9"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Stormwater quality / oil control / flow control / flood control facilities",
+      "page_or_section": "Chapter 1 TOC"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "high",
+    "needs_human_review": false,
+    "review_notes": "Eugene 2025 SWMM with appendices.",
+    "fields_not_found": [
+      "design_criteria.design_storm_return_periods_years",
+      "design_criteria.required_hydrologic_hydraulic_software"
+    ]
+  },
+  "source": {
+    "document_url": "https://www.eugene-or.gov/DocumentCenter/View/79289/2025-Stormwater-Management-Manual-with-Appendices",
+    "landing_page_url": "https://www.eugene-or.gov/477/Stormwater-Management-Manual",
+    "retrieved_at": "2026-08-10T09:06:14.926Z",
+    "original_filename": "eugene-or.pdf"
+  }
+}

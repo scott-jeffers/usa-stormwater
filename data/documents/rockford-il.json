@@ -1,0 +1,88 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "City of Rockford",
+    "jurisdiction_level": "municipality",
+    "state_code": "IL",
+    "document_title": "Stormwater Technical Guidance Manual",
+    "version_or_edition": "May 18, 2015",
+    "adoption_or_effective_date": "2015-05-18",
+    "last_revised_date": "2015-05-18",
+    "relationship_to_state_manual": "independent"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [
+      1,
+      2,
+      5,
+      10,
+      25,
+      50,
+      100
+    ],
+    "water_quality_volume_method": "Peak release rate from a development site shall not exceed 0.2 cfs/acre for the 100-year (0.01 AEP) storm. Minor system typically 10-year; major system 100-year. Design rainfall from Illinois State Water Survey Bulletin 70 Northwest sectional statistics. BMPs required for water quality; Illinois Urban Manual referenced for practice design.",
+    "peak_flow_calculation_method": [
+      "HEC-HMS / HEC-1 (SCS runoff)",
+      "SWMM",
+      "TR-20",
+      "TR-55 tabular method",
+      "Bulletin 70 critical-duration storms"
+    ],
+    "required_hydrologic_hydraulic_software": [
+      "HEC-HMS",
+      "HEC-1",
+      "SWMM",
+      "TR-20",
+      "TR-55"
+    ],
+    "approved_bmp_categories": [
+      "Site runoff storage / detention",
+      "Overland flow paths",
+      "Best Management Practices hierarchy (avoidance → LID → structural)",
+      "Illinois Urban Manual practices"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "CITY OF ROCKFORD STORMWATER TECHNICAL GUIDANCE MANUAL",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.version_or_edition",
+      "excerpt": "May 18, 2015",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "The peak release rate from a development site shall not exceed 0.2 cfs/acre of development for the 0.01 probability in any year",
+      "page_or_section": "T2-03(b)"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "minor system criteria (typically 10-year) ... major system criteria (the 100-year) ... Bulletin 70",
+      "page_or_section": "T2-02 / Table 1"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "HEC-HMS, HEC-1 with SCS runoff method, SWMM, TR-20, and TR-55 tabular",
+      "page_or_section": "T2-02(e)"
+    },
+    {
+      "field": "document_metadata.relationship_to_state_manual",
+      "excerpt": "independent city technical manual (supplements Stormwater Ordinance)",
+      "page_or_section": "Introduction"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "medium",
+    "needs_human_review": true,
+    "review_notes": "May 2015 edition; quantity-focused release-rate standard with BMP hierarchy.",
+    "fields_not_found": []
+  },
+  "source": {
+    "document_url": "https://www.rockfordil.gov/DocumentCenter/View/400",
+    "landing_page_url": "https://www.rockfordil.gov/274/Stormwater-Environmental-Team",
+    "retrieved_at": "2026-08-10T09:45:18.887Z",
+    "original_filename": "rockford-il.pdf"
+  }
+}

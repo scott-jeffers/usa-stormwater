@@ -1,0 +1,100 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "Des Moines / Iowa SUDAS",
+    "jurisdiction_level": "municipality",
+    "state_code": "IA",
+    "document_title": "SUDAS Design Manual — Chapter 2 Stormwater",
+    "version_or_edition": "Chapter 02 (SUDAS Design Manual)",
+    "adoption_or_effective_date": null,
+    "last_revised_date": null,
+    "relationship_to_state_manual": "independent"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [
+      2,
+      10,
+      100
+    ],
+    "water_quality_volume_method": "Defines Water Quality Volume (WQv) and Recharge Volume (Rev). City of Des Moines also adopts Iowa Stormwater Management Manual (ISWMM) for post-construction practices; SUDAS Chapter 2 covers conveyance, detention practices (2G), and minor/major design storm concept.",
+    "peak_flow_calculation_method": [
+      "Minor design storm (generally 2- to 10-year) for conveyance",
+      "Major design storm (typically 100-year) for flood routing",
+      "Detention basin design methods (Section 2G)",
+      "Master drainage plan flow routing where available"
+    ],
+    "required_hydrologic_hydraulic_software": [],
+    "approved_bmp_categories": [
+      "Detention practices",
+      "Storm sewer / intake conveyance",
+      "Water quality / recharge volume practices (cross-ref ISWMM)"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "SUDAS Design Manual Chapter 2 Stormwater",
+      "page_or_section": "Title"
+    },
+    {
+      "field": "document_metadata.jurisdiction_level",
+      "excerpt": "Iowa Statewide Urban Design and Specifications",
+      "page_or_section": "Title"
+    },
+    {
+      "field": "document_metadata.state_code",
+      "excerpt": "Iowa",
+      "page_or_section": "Title"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "Chapter 2: Stormwater",
+      "page_or_section": "Title"
+    },
+    {
+      "field": "document_metadata.version_or_edition",
+      "excerpt": "Chapter_02.pdf SUDAS Design Manual",
+      "page_or_section": "Source"
+    },
+    {
+      "field": "document_metadata.relationship_to_state_manual",
+      "excerpt": "SUDAS / ISWMM referenced by Des Moines",
+      "page_or_section": "City stormwater review page"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "minor (or ordinary) storm recurring at regular intervals, generally 2 to 10 years / major ... 100 year storm event",
+      "page_or_section": "Minor and Major Design Storms"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "Water Quality Volume, WQv",
+      "page_or_section": "Definitions / criteria"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "2G Detention Practices / Detention Basin Design Methods",
+      "page_or_section": "Chapter 2G"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Detention Practices / stormwater facilities",
+      "page_or_section": "2G"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "medium",
+    "needs_human_review": true,
+    "review_notes": "SUDAS Ch.2 used as Des Moines design reference alongside ISWMM; consider adding ISWMM criteria chapter later.",
+    "fields_not_found": [
+      "document_metadata.adoption_or_effective_date",
+      "document_metadata.last_revised_date",
+      "design_criteria.required_hydrologic_hydraulic_software"
+    ]
+  },
+  "source": {
+    "document_url": "https://www.iowasudas.org/wp-content/uploads/sites/15/2020/03/Chapter_02.pdf",
+    "landing_page_url": "https://www.dsm.city/Stormwater_Management_Review450.php",
+    "retrieved_at": "2026-08-10T08:41:07.399Z",
+    "original_filename": "des-moines-ia.pdf"
+  }
+}

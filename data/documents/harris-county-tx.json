@@ -1,0 +1,104 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "Harris County",
+    "jurisdiction_level": "county",
+    "state_code": "TX",
+    "document_title": "Harris County Low Impact Development & Green Infrastructure Design Criteria for Storm Water Management",
+    "version_or_edition": "Adopted April 2011",
+    "adoption_or_effective_date": "2011-04-01",
+    "last_revised_date": "2011-04-01",
+    "relationship_to_state_manual": "independent"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [],
+    "water_quality_volume_method": "Projects exceeding one acre require a Storm Water Quality (SWQ) Permit and SWQMP; treat the first 1 inch of runoff. LID IMPs (bioretention, vegetated swales, permeable pavement, rainwater harvesting, green roofs, filter strips, planters, tree box filters) may satisfy quality and detention credits per Table 1. Conventional gravity detention minimum rate 0.55 ac-ft per acre (Table 3); LID projects may use reduced detention with approved low-impact approach.",
+    "peak_flow_calculation_method": [
+      "Detention and hydrograph matching per HCPID-AED / HCFCD requirements",
+      "Minimum detention 0.55 ac-ft/acre for gravity systems"
+    ],
+    "required_hydrologic_hydraulic_software": [],
+    "approved_bmp_categories": [
+      "Disconnection of roof runoff and impervious surfaces",
+      "Vegetated filter strip",
+      "Vegetated swale / bioswale",
+      "Rainwater harvesting",
+      "Bioretention systems",
+      "Permeable pavement",
+      "Tree box filter",
+      "Storm water planter box",
+      "Green roof"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "Harris County Low Impact Development & Green Infrastructure Design Criteria",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.jurisdiction_level",
+      "excerpt": "Adopted by Harris County Commissioners Court",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.state_code",
+      "excerpt": "Harris County Flood Control District",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "Harris County Low Impact Development & Green Infrastructure Design Criteria for Storm Water Management",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.version_or_edition",
+      "excerpt": "Adopted April 2011",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.adoption_or_effective_date",
+      "excerpt": "Adopted April 2011",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.last_revised_date",
+      "excerpt": "Adopted April 2011",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.relationship_to_state_manual",
+      "excerpt": "interim guidelines ... HCPID-AED and HCFCD Storm Water Management Programs",
+      "page_or_section": "Background"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "Treatment of the first 1\" of runoff ... Storm Water Quality Permit required",
+      "page_or_section": "Table 5 / §2.4"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "The minimum detention rate for gravity drained detention basin systems is 0.55 ac-ft",
+      "page_or_section": "Table 3"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Bioretention; Vegetated Swale; Permeable Pavement; Rainwater Harvesting; Green Roof",
+      "page_or_section": "Table 1 / Part 3"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "medium",
+    "needs_human_review": true,
+    "review_notes": "LID/GI design criteria (2011). Full HCFCD PCPM remains portal-gated; this PDF covers SWQ 1\" treatment and LID IMPs used with county detention criteria.",
+    "fields_not_found": [
+      "design_criteria.design_storm_return_periods_years",
+      "design_criteria.required_hydrologic_hydraulic_software"
+    ]
+  },
+  "source": {
+    "document_url": "https://oce.harriscountytx.gov/Portals/43/Documents/Publications/SWQ_LID_design_criteria.pdf",
+    "landing_page_url": "https://oce.harriscountytx.gov/Services/Consultants-Resources-and-Specifications/Watershed-Protection/LID-Green-Infrastructure",
+    "retrieved_at": "2026-08-10T09:18:00.000Z",
+    "original_filename": "harris-county-tx.pdf"
+  }
+}

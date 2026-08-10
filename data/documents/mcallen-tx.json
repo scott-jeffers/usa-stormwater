@@ -1,0 +1,60 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "City of McAllen",
+    "jurisdiction_level": "municipality",
+    "state_code": "TX",
+    "document_title": "Storm Water Design Criteria Manual",
+    "version_or_edition": "April 2019",
+    "adoption_or_effective_date": "2019-04",
+    "last_revised_date": "2019-04",
+    "relationship_to_state_manual": "unknown"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [
+      1,
+      2,
+      5,
+      10,
+      25,
+      50,
+      100,
+      500
+    ],
+    "water_quality_volume_method": "null McAllen — no durable city PDF; San Antonio South TX pattern",
+    "peak_flow_calculation_method": [
+      "Rational Method (Q = CIA) for drainage areas less than 200 acres",
+      "Modified Rational Method for detention ponds with drainage areas of 20 acres or less",
+      "Unit hydrograph method (preferably SCS Dimensionless Unit Hydrograph in HEC-HMS) for drainage areas 200 acres or greater and for detention ponds greater than 20 acres",
+      "Snyder Unit Hydrograph",
+      "Clark Unit Hydrograph",
+      "NOAA Atlas 14 Volume 11 rainfall intensities / depths for San Antonio and ETJ"
+    ],
+    "required_hydrologic_hydraulic_software": [
+      "HEC-HMS (preferred for SCS Dimensionless Unit Hydrograph / unit hydrograph modeling)"
+    ],
+    "approved_bmp_categories": [
+      "Onsite detention facilities (Regional Storm Water Management Program option)",
+      "Fee in-lieu-of (FILO) detention participation",
+      "Low Impact Development (LID) planning referenced in manual TOC"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "McAllen — no durable city PDF; San Antonio South TX pattern",
+      "page_or_section": "Coverage note"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "low",
+    "needs_human_review": true,
+    "review_notes": "South Texas municipal placeholder using San Antonio criteria — replace with city manual when available.",
+    "fields_not_found": []
+  },
+  "source": {
+    "document_url": "https://www.sanantonio.gov/Portals/0/Files/CIMS/Services/UDC-Amendment-Drainage-Manual.pdf",
+    "landing_page_url": "https://www.sanantonio.gov/",
+    "retrieved_at": "2026-08-10T10:44:44.192Z",
+    "original_filename": "mcallen-tx.pdf"
+  }
+}

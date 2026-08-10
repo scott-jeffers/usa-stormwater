@@ -1,0 +1,110 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "City of Frisco",
+    "jurisdiction_level": "municipality",
+    "state_code": "TX",
+    "document_title": "Engineering Standards — Design Standards (Part A)",
+    "version_or_edition": "October 2025",
+    "adoption_or_effective_date": "2025-10-28",
+    "last_revised_date": "2025-10-28",
+    "relationship_to_state_manual": "independent"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [
+      2,
+      5,
+      25,
+      100
+    ],
+    "water_quality_volume_method": "Section 4 Drainage Design Requirements include stormwater quality treatment (4.18), detention/retention facility design (4.09), and sustainable development provisions. Street and enclosed-system conveyance sized with multi-frequency storms including 100-year street capacity / dry-lane criteria; references NCTCOG construction standards.",
+    "peak_flow_calculation_method": [
+      "Rational Method / Q=CIA for enclosed systems and inlets",
+      "Multi-frequency rainfall (2-, 5-, 25-, 100-year; Hydro-35 / TP-40 era tables referenced)",
+      "Downstream assessment and detention sizing (4.03 / 4.09)",
+      "100-year street capacity / dry-lane criteria"
+    ],
+    "required_hydrologic_hydraulic_software": [],
+    "approved_bmp_categories": [
+      "Detention / retention facilities",
+      "Stormwater quality treatment BMPs",
+      "Open channels / culverts / energy dissipators",
+      "Erosion and sedimentation controls"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "City of Frisco Engineering Standards",
+      "page_or_section": "Title"
+    },
+    {
+      "field": "document_metadata.jurisdiction_level",
+      "excerpt": "City of Frisco",
+      "page_or_section": "Title"
+    },
+    {
+      "field": "document_metadata.state_code",
+      "excerpt": "Texas",
+      "page_or_section": "Standards"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "Engineering Standards / Design Standards",
+      "page_or_section": "Cover / TOC"
+    },
+    {
+      "field": "document_metadata.version_or_edition",
+      "excerpt": "Table of Contents October 2025",
+      "page_or_section": "TOC"
+    },
+    {
+      "field": "document_metadata.adoption_or_effective_date",
+      "excerpt": "revised as of October 28, 2025",
+      "page_or_section": "Engineering Standards page"
+    },
+    {
+      "field": "document_metadata.last_revised_date",
+      "excerpt": "October 2025",
+      "page_or_section": "Section headers"
+    },
+    {
+      "field": "document_metadata.relationship_to_state_manual",
+      "excerpt": "City Engineering Standards / NCTCOG",
+      "page_or_section": "General"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "2-year 5-year 25 year 100- year",
+      "page_or_section": "Section 4.02"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "4.18 Stormwater Quality Treatment",
+      "page_or_section": "Section 4 TOC"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "100-year runoff, Q=CIA (cfs)",
+      "page_or_section": "Section 4 inlet design"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Detention/Retention Facility Design / Stormwater Quality Treatment",
+      "page_or_section": "Section 4.09 / 4.18"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "high",
+    "needs_human_review": false,
+    "review_notes": "Frisco 2025 Design Standards Part A; Section 4 drainage.",
+    "fields_not_found": [
+      "design_criteria.required_hydrologic_hydraulic_software"
+    ]
+  },
+  "source": {
+    "document_url": "https://www.friscotexas.gov/DocumentCenter/View/39413/2025-Design-Standards-ONLY",
+    "landing_page_url": "https://www.friscotexas.gov/412/Engineering-Standards",
+    "retrieved_at": "2026-08-10T08:45:22.876Z",
+    "original_filename": "frisco-tx.pdf"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "City of Davenport",
+    "jurisdiction_level": "municipality",
+    "state_code": "IA",
+    "document_title": "SUDAS Design Manual — Chapter 2 Stormwater (city uses SUDAS + ISWMM)",
+    "version_or_edition": "Chapter 02 (SUDAS Design Manual)",
+    "adoption_or_effective_date": null,
+    "last_revised_date": null,
+    "relationship_to_state_manual": "adopts_state_manual_directly"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [
+      2,
+      10,
+      100
+    ],
+    "water_quality_volume_method": "Davenport follows statewide SUDAS Design Manual Chapter 2 and Iowa Stormwater Management Manual (ISWMM) for post-construction practices. SUDAS defines Water Quality Volume (WQv) and Recharge Volume (Rev) plus conveyance/detention (2G); ISWMM guides practice sizing.",
+    "peak_flow_calculation_method": [
+      "Minor design storm (generally 2- to 10-year) for conveyance",
+      "Major design storm (typically 100-year) for flood routing",
+      "Detention basin design methods (Section 2G)",
+      "ISWMM criteria for post-construction practices"
+    ],
+    "required_hydrologic_hydraulic_software": [],
+    "approved_bmp_categories": [
+      "Detention practices",
+      "Storm sewer / intake conveyance",
+      "Water quality / recharge volume practices (ISWMM)"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "City of Davenport uses SUDAS Design Manual / ISWMM",
+      "page_or_section": "Coverage note"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "Water Quality Volume, WQv / ISWMM Design Standards",
+      "page_or_section": "SUDAS Ch.2"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "medium",
+    "needs_human_review": true,
+    "review_notes": "Municipality coverage via SUDAS + ISWMM (Cedar Rapids pattern).",
+    "fields_not_found": []
+  },
+  "source": {
+    "document_url": "https://www.iowasudas.org/wp-content/uploads/sites/15/2020/03/Chapter_02.pdf",
+    "landing_page_url": "https://iowasudas.org/manuals/design-manual/",
+    "retrieved_at": "2026-08-10T10:02:27.846Z",
+    "original_filename": "davenport-ia.pdf"
+  }
+}

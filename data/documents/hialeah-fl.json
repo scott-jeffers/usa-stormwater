@@ -1,0 +1,56 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "City of Hialeah",
+    "jurisdiction_level": "municipality",
+    "state_code": "FL",
+    "document_title": "SFWMD Environmental Resource Permit Applicant's Handbook Volume II (Basis of Review)",
+    "version_or_edition": "Effective July 4, 2010 (draft ERP Vol II mirror)",
+    "adoption_or_effective_date": "2010-07-04",
+    "last_revised_date": null,
+    "relationship_to_state_manual": "adopts_state_manual_directly"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [
+      25,
+      100
+    ],
+    "water_quality_volume_method": "SFWMD ERP AH Vol II: wet detention volume for the first inch of runoff from the developed project (or 2.5 in over the basin for projects with ≥50% impervious / special cases per rule); dry detention = 75% of wet; retention = 50% of wet. Quantity: off-site discharge typically based on 3-day / 25-year storm unless local criteria are more stringent; 100-year / 3-day considered for flood protection / finished floors.",
+    "peak_flow_calculation_method": [
+      "3-day / 25-year off-site discharge (default)",
+      "100-year / 3-day flood considerations",
+      "Retention / detention routing"
+    ],
+    "required_hydrologic_hydraulic_software": [],
+    "approved_bmp_categories": [
+      "Wet detention systems",
+      "Dry retention / detention",
+      "Exfiltration trenches",
+      "Swales / pretreatment",
+      "Other SFWMD-approved BMPs"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "City of Hialeah is within SFWMD and follows ERP Applicant's Handbook Vol II",
+      "page_or_section": "Coverage note"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "Wet detention volume shall be provided for the first inch of runoff",
+      "page_or_section": "SFWMD Vol II water quality criteria"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "medium",
+    "needs_human_review": true,
+    "review_notes": "Municipality coverage via SFWMD ERP AH Vol II. Prefer city-specific drainage criteria if a durable public PDF appears.",
+    "fields_not_found": []
+  },
+  "source": {
+    "document_url": "https://www.sfwmd.gov/sites/default/files/documents/draft_erp%20vol%20ii%20swerp%20ii_2104_10.pdf",
+    "landing_page_url": "https://www.hialeahfl.gov/258/Engineering",
+    "retrieved_at": "2026-08-10T10:18:37.456Z",
+    "original_filename": "hialeah-fl.pdf"
+  }
+}

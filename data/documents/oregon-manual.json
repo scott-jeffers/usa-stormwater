@@ -1,0 +1,98 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "Clean Water Services",
+    "jurisdiction_level": "special_district",
+    "state_code": "OR",
+    "document_title": "Low Impact Development Approaches Handbook",
+    "version_or_edition": "2016",
+    "adoption_or_effective_date": "2016-06",
+    "last_revised_date": "2016-06",
+    "relationship_to_state_manual": "independent"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [],
+    "water_quality_volume_method": "Size LIDA facilities with District sizing factors based on the water quality design storm and typical soils (WQV rate/volume methods are in Design and Construction Standards Chapter 4). Infiltration planter/rain garden, flow-through planter, LIDA swale, and vegetated filter strip use a sizing factor of 0.06 × contributing impervious area when native infiltration is less than 2 in/hr (smaller factors allowed with demonstrated higher infiltration or deeper amended soil). Porous pavement and green roofs replace impervious area at 1:1 and may be deducted as LIDA credits. Extended dry basins and constructed water quality wetlands must accommodate the water quality design storm with 48-hour drawdown; minimum water quality detention volume equals 1 × WQV.",
+    "peak_flow_calculation_method": [],
+    "required_hydrologic_hydraulic_software": [],
+    "approved_bmp_categories": [
+      "Porous Pavement",
+      "Green Roof",
+      "Infiltration Planter/Rain Garden",
+      "Flow-Through Planter",
+      "LIDA Swale",
+      "Vegetated Filter Strip",
+      "Vegetated Swale",
+      "Extended Dry Basin",
+      "Constructed Water Quality Wetland",
+      "Proprietary Facility"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "Clean Water Services (the District) is a water resources management utility in urban areas of the Tualatin River Watershed",
+      "page_or_section": "Chapter 1: Introduction, Page 4"
+    },
+    {
+      "field": "document_metadata.jurisdiction_level",
+      "excerpt": "Clean Water Services (the District) is a water resources management utility in urban areas of the Tualatin River Watershed that builds, maintains and enhances the public drainage system in partnership with Washington County and its member Cities.",
+      "page_or_section": "Chapter 1: Introduction, Page 4"
+    },
+    {
+      "field": "document_metadata.state_code",
+      "excerpt": "strict water quality regulations set for the Tualatin River basin by the Oregon Department of Environmental Quality (DEQ).",
+      "page_or_section": "Chapter 1: Introduction, Page 4"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "Low Impact Development Approaches Handbook",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.version_or_edition",
+      "excerpt": "Low Impact Development Approaches Handbook 2016",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.adoption_or_effective_date",
+      "excerpt": "The handbook was updated in June 2016",
+      "page_or_section": "Chapter 1: Introduction, Page 4"
+    },
+    {
+      "field": "document_metadata.last_revised_date",
+      "excerpt": "The handbook was updated in June 2016",
+      "page_or_section": "Chapter 1: Introduction, Page 4"
+    },
+    {
+      "field": "document_metadata.relationship_to_state_manual",
+      "excerpt": "This handbook is a supplement to the Standards and is to be used in conjunction with them and other applicable regulations.",
+      "page_or_section": "Chapter 1: Introduction, Page 4"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "The water quality storm runoff rate volume calculations for sizing water quality facilities are presented in Chapter 4 of the Design and Construction Standards. ... LIDA Sizing Form ... based on the water quality design storm and typical soil conditions. ... Infiltration Planters/Rain Garden 0.06 Flow-through Planter 0.06 LIDA Swale 0.06 Vegetated Filter Strip 0.06 ... The minimum water quality detention volume is equal to (1) x the water quality volume (WQV). ... sized for a 48 hour drawdown time.",
+      "page_or_section": "Chapter 3 §§3.1–3.2 / LIDA Sizing Form, Pages 17–19; Extended Dry Basin / Constructed Wetland fact sheets, Pages 51 & 55"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Porous Pavement ... Green Roof ... Infiltration Planter/Rain Garden ... Flow-Through Planter ... LIDA Swale ... Vegetated Filter Strip ... Vegetated Swale ... Extended Dry Basin ... Constructed Water Quality Wetland ... proprietary facility may be appropriate.",
+      "page_or_section": "Table of Contents / Table 2: LIDA Fact Sheet Table, Pages 3 & 20–21; Chapter 3 §3.2, Page 19"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "medium",
+    "needs_human_review": true,
+    "review_notes": "Handbook is a supplement to Clean Water Services Design and Construction Standards; water quality design storm rainfall depth/intensity and peak-flow hydrology methods are deferred to Standards Chapter 4 and are not specified here. Only freeboard references a 25-year water surface elevation for extended dry basins and wetlands.",
+    "fields_not_found": [
+      "design_criteria.design_storm_return_periods_years",
+      "design_criteria.peak_flow_calculation_method",
+      "design_criteria.required_hydrologic_hydraulic_software"
+    ]
+  },
+  "source": {
+    "document_url": "https://www.canbyoregon.gov/sites/default/files/fileattachments/streets_and_sewer/page/6341/cws_low_impact_development_lid.pdf",
+    "landing_page_url": "https://cleanwaterservices.org/development/dnc/lida/",
+    "retrieved_at": "2026-08-10T07:09:00.000Z",
+    "original_filename": "oregon-manual.pdf"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "City of Flint",
+    "jurisdiction_level": "municipality",
+    "state_code": "MI",
+    "document_title": "Lansing Stormwater Management Design Manual (EGLE WQv pattern)",
+    "version_or_edition": null,
+    "adoption_or_effective_date": null,
+    "last_revised_date": null,
+    "relationship_to_state_manual": "unknown"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [
+      1,
+      2,
+      10,
+      50,
+      100
+    ],
+    "water_quality_volume_method": "No durable Flint design-manual PDF found. Using Lansing Stormwater Management Design Manual as Michigan EGLE MS4 pattern: water quality treatment volume from ~0.9 inches of rainfall; channel protection through 2-year 24-hour storm.",
+    "peak_flow_calculation_method": [
+      "Water quality treatment volume (~0.9 in)",
+      "Channel protection (2-year 24-hour)",
+      "Collection system peak (10-/50-year)"
+    ],
+    "required_hydrologic_hydraulic_software": [],
+    "approved_bmp_categories": [
+      "Stormwater control measures (SCMs)",
+      "Retention / infiltration",
+      "Filtration / detention SCMs"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "Flint — coverage via Lansing/EGLE stormwater design pattern (needs local confirmation)",
+      "page_or_section": "Coverage note"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "low",
+    "needs_human_review": true,
+    "review_notes": "Placeholder using Lansing manual — replace with Flint city standards when found.",
+    "fields_not_found": []
+  },
+  "source": {
+    "document_url": "https://content.civicplus.com/api/assets/mi-lansing/5275ad94-2c28-4941-9d23-67842b45023f?cache=1800",
+    "landing_page_url": "https://www.cityofflint.com/",
+    "retrieved_at": "2026-08-10T10:35:05.250Z",
+    "original_filename": "flint-mi.pdf"
+  }
+}

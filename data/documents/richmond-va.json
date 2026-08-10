@@ -1,0 +1,108 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "City of Richmond",
+    "jurisdiction_level": "municipality",
+    "state_code": "VA",
+    "document_title": "Water Resources Guidance Manual",
+    "version_or_edition": "July 2025",
+    "adoption_or_effective_date": "2025-07",
+    "last_revised_date": "2025-07",
+    "relationship_to_state_manual": "adopts_state_manual_directly"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [
+      10,
+      100
+    ],
+    "water_quality_volume_method": "City is VSMP/VESMP authority. Stormwater plans must meet Virginia water quality and quantity criteria using the Runoff Reduction Method / spreadsheet, Virginia Stormwater Management Handbook, and City of Richmond Stormwater Management Design and Construction Standards Manual for drainage design. Chesapeake Bay / RPA water quality impact assessment requirements apply where designated.",
+    "peak_flow_calculation_method": [
+      "COR Stormwater Management Design and Construction Standards Manual (storm drain system)",
+      "Virginia Stormwater Management Handbook quantity criteria",
+      "Runoff Reduction Method",
+      "100-year floodplain / floodway requirements"
+    ],
+    "required_hydrologic_hydraulic_software": [],
+    "approved_bmp_categories": [
+      "Virginia BMP Clearinghouse / Handbook practices",
+      "Detention / retention",
+      "Runoff reduction BMPs",
+      "Erosion and sediment control measures (VESCH)"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "CITY OF RICHMOND, WATER RESOURCES GUIDANCE MANUAL",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.jurisdiction_level",
+      "excerpt": "City of Richmond",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.state_code",
+      "excerpt": "Virginia Department of Environmental Quality (DEQ)",
+      "page_or_section": "Introduction"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "Water Resources Guidance Manual",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.version_or_edition",
+      "excerpt": "July 2025",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.adoption_or_effective_date",
+      "excerpt": "July 2025",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.last_revised_date",
+      "excerpt": "July 2025",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.relationship_to_state_manual",
+      "excerpt": "Virginia Stormwater Management Program (VSMP) / Virginia Stormwater Management Handbook",
+      "page_or_section": "Introduction"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "100-year flood / storm drain design references",
+      "page_or_section": "Glossary / checklists"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "Runoff Reduction Method / Runoff Reduction Spreadsheet",
+      "page_or_section": "Guidance"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "Stormwater Management Design and Construction Manual that shall be used to prepare stormwater design",
+      "page_or_section": "Guidance"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "stormwater quantity and water quality / detention/retention",
+      "page_or_section": "Plan requirements"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "medium",
+    "needs_human_review": true,
+    "review_notes": "Guidance manual (process + VA criteria). Original Design & Construction Standards PDF was image-only; supplement later if text layer available.",
+    "fields_not_found": [
+      "design_criteria.required_hydrologic_hydraulic_software"
+    ]
+  },
+  "source": {
+    "document_url": "https://rva.gov/sites/default/files/2025-07/Richmond%20Water%20Resources%20Guidance%20Manual_Final_6.25.2025.pdf",
+    "landing_page_url": "https://rva.gov/",
+    "retrieved_at": "2026-08-10T08:34:54.567Z",
+    "original_filename": "richmond-va.pdf"
+  }
+}

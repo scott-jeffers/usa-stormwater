@@ -58,6 +58,8 @@ export async function saveDocument(opts: {
   landingPageUrl?: string | null;
   originalFilename?: string | null;
   preferredSlug?: string | null;
+  /** When true, write preferredSlug even if the file already exists. */
+  overwrite?: boolean;
 }): Promise<{ slug: string; outPath: string; data: StormwaterData }> {
   const source: DocumentSource = {
     document_url: opts.documentUrl ?? null,
@@ -76,7 +78,8 @@ export async function saveDocument(opts: {
   let slug: string;
   if (
     opts.preferredSlug &&
-    !existsSync(path.join(DOCUMENTS_DIR, `${opts.preferredSlug}.json`))
+    (opts.overwrite ||
+      !existsSync(path.join(DOCUMENTS_DIR, `${opts.preferredSlug}.json`)))
   ) {
     slug = opts.preferredSlug;
   } else {
@@ -85,7 +88,50 @@ export async function saveDocument(opts: {
 
   const outPath = path.join(DOCUMENTS_DIR, `${slug}.json`);
   await writeFile(outPath, JSON.stringify(data, null, 2) + "\n", "utf-8");
+
+  if (opts.preferredSlug) {
+    await markManifestProgressDone(opts.preferredSlug, slug);
+  }
+
   return { slug, outPath, data };
+}
+
+/** When saving with --slug=<manifest-id>, mark that queue job done. */
+async function markManifestProgressDone(
+  preferredSlug: string,
+  savedSlug: string
+): Promise<void> {
+  const progressPath = path.resolve(process.cwd(), "data/queue/progress.json");
+  const manifestPath = path.resolve(process.cwd(), "data/queue/manifest.json");
+  if (!existsSync(progressPath) || !existsSync(manifestPath)) return;
+
+  try {
+    const manifest = JSON.parse(await readFile(manifestPath, "utf-8")) as Array<{
+      id: string;
+    }>;
+    const ids = new Set(manifest.map((j) => j.id));
+    if (!ids.has(preferredSlug)) return;
+
+    const progress = JSON.parse(await readFile(progressPath, "utf-8")) as Record<
+      string,
+      {
+        status: string;
+        updatedAt: string;
+        error?: string | null;
+        slug?: string | null;
+      }
+    >;
+    progress[preferredSlug] = {
+      ...(progress[preferredSlug] ?? {}),
+      status: "done",
+      updatedAt: new Date().toISOString(),
+      error: null,
+      slug: savedSlug,
+    };
+    await writeFile(progressPath, JSON.stringify(progress, null, 2) + "\n", "utf-8");
+  } catch {
+    // Progress sync is best-effort — don't fail the save.
+  }
 }
 
 export async function saveDocumentFromFile(

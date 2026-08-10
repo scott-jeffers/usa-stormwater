@@ -1,0 +1,96 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "City of Alexandria",
+    "jurisdiction_level": "municipality",
+    "state_code": "VA",
+    "document_title": "Green Streets and Sidewalks Stormwater Design Guidelines",
+    "version_or_edition": "2020 Final",
+    "adoption_or_effective_date": null,
+    "last_revised_date": "2020-01-01",
+    "relationship_to_state_manual": "deemed_equivalent_to_state_manual"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [],
+    "water_quality_volume_method": "ROW BMP water quality sizing per Virginia BMP Clearinghouse standards: runoff from the 90th percentile 1-inch rainfall (VSMP) and/or the City Water Quality Volume Default of the first ½ inch of runoff from total impervious area. Urban bioretention and permeable pavement are primary ROW BMPs.",
+    "peak_flow_calculation_method": [
+      "Virginia BMP Clearinghouse sizing",
+      "Virginia Stormwater Management Program criteria"
+    ],
+    "required_hydrologic_hydraulic_software": [],
+    "approved_bmp_categories": [
+      "Urban bioretention / tree wells",
+      "Mid-sidewalk bioretention",
+      "Back of sidewalk bioretention",
+      "Bus bulb bioretention",
+      "Permeable pavement (sidewalks, parking, bike lanes)"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "Alexandria, Virginia",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.jurisdiction_level",
+      "excerpt": "City of Alexandria",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.state_code",
+      "excerpt": "Virginia",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "GREEN STREETS AND SIDEWALKS STORMWATER DESIGN GUIDELINES",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.version_or_edition",
+      "excerpt": "2020 Final",
+      "page_or_section": "Filename / coverage"
+    },
+    {
+      "field": "document_metadata.last_revised_date",
+      "excerpt": "2020",
+      "page_or_section": "Coverage"
+    },
+    {
+      "field": "document_metadata.relationship_to_state_manual",
+      "excerpt": "supplement the Virginia BMP Clearinghouse standards and specifications",
+      "page_or_section": "Preface"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "90th percentile rainfall depth of 1 inch ... first ½ inch of runoff from the total impervious area ... Water Quality Volume Default",
+      "page_or_section": "Water Quality Sizing"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "Virginia BMP Clearinghouse standards and specifications",
+      "page_or_section": "Water Quality Sizing"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Urban Bioretention; Permeable Pavement",
+      "page_or_section": "TOC"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "medium",
+    "needs_human_review": true,
+    "review_notes": "ROW-focused green streets guidelines; site development still relies on full VA BMP Clearinghouse / VESMP. Not a complete city stormwater design manual.",
+    "fields_not_found": [
+      "document_metadata.adoption_or_effective_date",
+      "design_criteria.design_storm_return_periods_years",
+      "design_criteria.required_hydrologic_hydraulic_software"
+    ]
+  },
+  "source": {
+    "document_url": "https://media.alexandriava.gov/docs-archives/tes/stormwater/alexandria-gs-sw-design-guidelines=2020=final=1=.pdf",
+    "landing_page_url": "https://www.alexandriava.gov/stormwater-management/green-street-and-sidewalk-stormwater-design-guidelines",
+    "retrieved_at": "2026-08-10T09:24:56.027Z",
+    "original_filename": "alexandria-va.pdf"
+  }
+}

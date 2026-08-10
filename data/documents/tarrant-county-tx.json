@@ -1,0 +1,104 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "Tarrant County",
+    "jurisdiction_level": "county",
+    "state_code": "TX",
+    "document_title": "iSWM Technical Manual — Site Development Controls (NCTCOG)",
+    "version_or_edition": "Revised 04/10",
+    "adoption_or_effective_date": null,
+    "last_revised_date": "2010-04-01",
+    "relationship_to_state_manual": "independent"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [],
+    "water_quality_volume_method": "Structural controls sized to treat the Water Quality Volume (WQv); primary performance goal approximately 70–80% TSS removal (Primary TSS). Integrated design also addresses streambank protection volume (SPv) and flood control. Controls may be online or offline diverting WQv to treatment.",
+    "peak_flow_calculation_method": [
+      "Water Quality Volume (WQv)",
+      "Streambank Protection Volume (SPv)",
+      "Flood control / detention routing"
+    ],
+    "required_hydrologic_hydraulic_software": [],
+    "approved_bmp_categories": [
+      "Bioretention",
+      "Enhanced swales / grass channels",
+      "Filter strips",
+      "Organic filters / sand filters",
+      "Planter boxes",
+      "Infiltration trenches / drywells / soakage trenches",
+      "Stormwater ponds / wetlands",
+      "Dry detention / extended detention",
+      "Underground detention",
+      "Permeable pavement / porous concrete",
+      "Green roofs",
+      "Rainwater harvesting"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "iSWM Technical Manual Site Development Controls — NCTCOG regional guidance used in Tarrant County",
+      "page_or_section": "Coverage note"
+    },
+    {
+      "field": "document_metadata.jurisdiction_level",
+      "excerpt": "Tarrant County",
+      "page_or_section": "Coverage note"
+    },
+    {
+      "field": "document_metadata.state_code",
+      "excerpt": "North Central Texas Council of Governments",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "iSWMTM Technical Manual Site Development Controls",
+      "page_or_section": "Title"
+    },
+    {
+      "field": "document_metadata.version_or_edition",
+      "excerpt": "Revised 04/10",
+      "page_or_section": "Footer"
+    },
+    {
+      "field": "document_metadata.last_revised_date",
+      "excerpt": "Revised 04/10",
+      "page_or_section": "Footer"
+    },
+    {
+      "field": "document_metadata.relationship_to_state_manual",
+      "excerpt": "iSWM Online Technical Manual referenced by community iSWM Criteria Manuals",
+      "page_or_section": "NCTCOG iSWM"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "Ability to treat the Water Quality Volume (WQv) ... 70% TSS removal performance goal",
+      "page_or_section": "§1.2 / structural control selection"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "Water Quality; Streambank Protection; Flood Control",
+      "page_or_section": "§1.2 Integrated Design Focus Areas"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Bioretention; Dry Detention / Extended Detention Dry Basins; Underground Detention; Stormwater Pond",
+      "page_or_section": "TOC"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "medium",
+    "needs_human_review": true,
+    "review_notes": "County coverage via NCTCOG iSWM Site Development Controls technical manual. Local Tarrant/iSWM Criteria Manual adoption details not separately ingested.",
+    "fields_not_found": [
+      "document_metadata.adoption_or_effective_date",
+      "design_criteria.design_storm_return_periods_years",
+      "design_criteria.required_hydrologic_hydraulic_software"
+    ]
+  },
+  "source": {
+    "document_url": "https://iswm.nctcog.org/Documents/technical_manual/Site_Development_Controls_4-2010b.pdf",
+    "landing_page_url": "https://www.iswm.nctcog.org/technical-manual.html",
+    "retrieved_at": "2026-08-10T09:20:00.000Z",
+    "original_filename": "tarrant-county-tx.pdf"
+  }
+}

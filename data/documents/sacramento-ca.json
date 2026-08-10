@@ -1,0 +1,103 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "City of Sacramento",
+    "jurisdiction_level": "municipality",
+    "state_code": "CA",
+    "document_title": "Onsite Design Manual",
+    "version_or_edition": "Rev. 03/01/2026",
+    "adoption_or_effective_date": null,
+    "last_revised_date": "2026-03-01",
+    "relationship_to_state_manual": "independent"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [
+      10,
+      100
+    ],
+    "water_quality_volume_method": "Stormwater quality post-construction requirements and LID design per Section 7. Detention volume for increased imperviousness sized using City basin-specific 100-year storage required per acre (Figure 10); 10-year storage must remain outside vehicular/pedestrian surfaces when part of 100-year volume is stored on pavement.",
+    "peak_flow_calculation_method": [
+      "Rational Method (static analysis)",
+      "Dynamic analysis option for drainage studies",
+      "Mitigate increased imperviousness with 100-year storage volume; check 10-year storage when using surface storage"
+    ],
+    "required_hydrologic_hydraulic_software": [],
+    "approved_bmp_categories": [
+      "Detention",
+      "Retention",
+      "Low Impact Development (LID) design features",
+      "Surface stormwater quality features"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "for properties within the City of Sacramento, this on-site design manual provides the Department of Utilities (DOU) minimum design standards",
+      "page_or_section": "Purpose"
+    },
+    {
+      "field": "document_metadata.jurisdiction_level",
+      "excerpt": "City of Sacramento",
+      "page_or_section": "Purpose"
+    },
+    {
+      "field": "document_metadata.state_code",
+      "excerpt": "state issued WDID number",
+      "page_or_section": "Plan requirements"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "Onsite Design Manual",
+      "page_or_section": "Title"
+    },
+    {
+      "field": "document_metadata.version_or_edition",
+      "excerpt": "Rev. 03/01/2026",
+      "page_or_section": "Running footer"
+    },
+    {
+      "field": "document_metadata.last_revised_date",
+      "excerpt": "Rev. 03/01/2026",
+      "page_or_section": "Running footer"
+    },
+    {
+      "field": "document_metadata.relationship_to_state_manual",
+      "excerpt": "Stormwater quality treatment and Low Impact Development (LID) methods",
+      "page_or_section": "Purpose"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "10 and 100-year event tailwater elevations and sources.",
+      "page_or_section": "Drainage study requirements"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "Multiply the additional impervious area by the 100-year event storage required per acre",
+      "page_or_section": "Detention sizing procedure"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "shall use the rational method as specified below; only a 10-year event",
+      "page_or_section": "Section 3.1.2 Rational Method"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Detention & Retention / Low Impact Development (LID) Design",
+      "page_or_section": "TOC Sections 3.10 / 7.2"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "medium",
+    "needs_human_review": true,
+    "review_notes": "Sacramento Onsite Design Manual covers drainage plus SWQ/LID; numeric SWQDV formulas may live in referenced regional manuals. Adoption date not explicit beyond revision stamp.",
+    "fields_not_found": [
+      "document_metadata.adoption_or_effective_date",
+      "design_criteria.required_hydrologic_hydraulic_software"
+    ]
+  },
+  "source": {
+    "document_url": "https://www.cityofsacramento.gov/content/dam/portal/dou/utilities/development-standards/OnsiteDesignManual.pdf",
+    "landing_page_url": "https://www.cityofsacramento.gov/utilities",
+    "retrieved_at": "2026-08-10T08:10:00.000Z",
+    "original_filename": "sacramento-ca.pdf"
+  }
+}

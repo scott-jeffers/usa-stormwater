@@ -1,0 +1,59 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "City of Trenton",
+    "jurisdiction_level": "municipality",
+    "state_code": "NJ",
+    "document_title": "New Jersey Stormwater BMP Manual / N.J.A.C. 7:8 (capital MS4)",
+    "version_or_edition": "Chapter 5: July 2023; Chapter 9.7: January 2026",
+    "adoption_or_effective_date": "2023-07",
+    "last_revised_date": "2026-01",
+    "relationship_to_state_manual": "adopts_state_manual_directly"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [
+      2,
+      10,
+      100
+    ],
+    "water_quality_volume_method": "NJDEP Water Quality Design Storm (WQDS): 1.25 inches of rain falling nonuniformly over 2 hours (N.J.A.C. 7:8-5.5). NRCS methodology computes WQDS runoff volume, peak rate, and hydrograph; BMPs such as small-scale bioretention must store/treat the entire WQDS volume.",
+    "peak_flow_calculation_method": [
+      "USDA NRCS methodology (NRCS Runoff Equation and Dimensionless Unit Hydrograph)",
+      "NRCS Curve Number (CN) method"
+    ],
+    "required_hydrologic_hydraulic_software": [],
+    "approved_bmp_categories": [
+      "Small-scale green infrastructure BMPs",
+      "Small-scale bioretention systems",
+      "Small-scale infiltration basins",
+      "Green roofs",
+      "Pervious paving systems",
+      "Grass swales",
+      "Cisterns",
+      "Green Infrastructure MTDs / MTDs"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "City of Trenton MS4 follows NJDEP Stormwater BMP Manual",
+      "page_or_section": "Coverage note"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "Water Quality Design Storm (WQDS): 1.25 inches",
+      "page_or_section": "N.J.A.C. 7:8-5.5 / NJDEP BMP Manual"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "medium",
+    "needs_human_review": true,
+    "review_notes": "Municipality coverage via NJDEP BMP Manual (Newark/Paterson pattern).",
+    "fields_not_found": []
+  },
+  "source": {
+    "document_url": "https://dep.nj.gov/wp-content/uploads/stormwater/bmp/njswbmp-chapter-9.7-small-scale-bioretention-systems-january-2026.pdf",
+    "landing_page_url": "https://dep.nj.gov/stormwater/stormwater-management/bmp-manual/",
+    "retrieved_at": "2026-08-10T10:02:27.846Z",
+    "original_filename": "trenton-nj.pdf"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "City of Yuma",
+    "jurisdiction_level": "municipality",
+    "state_code": "AZ",
+    "document_title": "Drainage Policies and Standards Manual for Maricopa County (adopted by Yuma SWMP)",
+    "version_or_edition": "revised 11/2025",
+    "adoption_or_effective_date": null,
+    "last_revised_date": "2025-11",
+    "relationship_to_state_manual": "adopts_state_manual_directly"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [
+      2,
+      10,
+      50,
+      100
+    ],
+    "water_quality_volume_method": "Yuma SWMP/code adopt Maricopa County Erosion Control Drainage Design Manual and Drainage Policies as technical guidance. Maricopa Policy 3.6.6 First Flush: retain or treat the first 0.5 inches of direct runoff; Standard 6.10.2: new developments retain stormwater from a 100-year, 2-hour duration storm. City Code §192-04 retention also references 100-year 2-hour (1.22 in/hr) for residential basins.",
+    "peak_flow_calculation_method": [
+      "Local 2-year, 24-hour storm peak control (Yuma §195-09)",
+      "100-year 2-hour retention volume (Maricopa / Yuma §192-04)",
+      "10-year 2-hour street conveyance"
+    ],
+    "required_hydrologic_hydraulic_software": [],
+    "approved_bmp_categories": [
+      "Retention basins",
+      "Infiltration / LID BMPs per Maricopa ECDDM",
+      "Detention / conveyance controls"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "City adopted Standard Construction Specifications and the Erosion Control Drainage Design Manual for Maricopa County, Arizona",
+      "page_or_section": "Yuma SWMP BMP 3"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "First Flush: retain or treat the first 0.5 inches of direct runoff",
+      "page_or_section": "Maricopa Drainage Policies 3.6.6"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "medium",
+    "needs_human_review": true,
+    "review_notes": "Yuma explicitly adopts Maricopa ECDDM/Drainage Policies; local retention rates in City Code Ch.192.",
+    "fields_not_found": []
+  },
+  "source": {
+    "document_url": "https://www.esd.maricopa.gov/DocumentCenter/View/2369/Drainage-Policies-and-Standards-Manual-for-Maricopa-County---revised-112025-PDF",
+    "landing_page_url": "https://www.yumaaz.gov/",
+    "retrieved_at": "2026-08-10T10:44:44.192Z",
+    "original_filename": "yuma-az.pdf"
+  }
+}

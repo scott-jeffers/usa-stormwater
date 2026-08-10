@@ -1,0 +1,63 @@
+{
+  "generatedAt": "2026-08-10T10:45:05.063Z",
+  "summary": {
+    "targets": 309,
+    "covered": 309,
+    "gaps": 0,
+    "byTier": {
+      "queue": 0,
+      "p1": 0,
+      "p2": 0,
+      "p3": 0
+    },
+    "queueGaps": 5
+  },
+  "gaps": [],
+  "queueGaps": [
+    {
+      "id": "mn-state",
+      "jurisdictionHint": "Minnesota",
+      "levelHint": "state",
+      "status": "skipped",
+      "reason": "skipped",
+      "notes": "superseded_by mn-state-2008",
+      "hasDocument": false
+    },
+    {
+      "id": "albuquerque-nm",
+      "jurisdictionHint": "Albuquerque",
+      "levelHint": "municipality",
+      "status": "skipped",
+      "reason": "skipped",
+      "notes": "superseded_by albuquerque-nm-gsi",
+      "hasDocument": false
+    },
+    {
+      "id": "wisconsin-technical",
+      "jurisdictionHint": "Wisconsin",
+      "levelHint": "state",
+      "status": "skipped",
+      "reason": "skipped",
+      "notes": "superseded_by wi-dnr-1001",
+      "hasDocument": false
+    },
+    {
+      "id": "delaware-esc",
+      "jurisdictionHint": "Delaware",
+      "levelHint": "state",
+      "status": "skipped",
+      "reason": "skipped",
+      "notes": "superseded_by de-wet-ponds-draft (partial wet-ponds coverage)",
+      "hasDocument": false
+    },
+    {
+      "id": "tempe-az",
+      "jurisdictionHint": "Tempe",
+      "levelHint": "municipality",
+      "status": "skipped",
+      "reason": "skipped",
+      "notes": "Wrong PDF (Historic Preservation memo); need real Tempe drainage/stormwater manual URL",
+      "hasDocument": false
+    }
+  ]
+}

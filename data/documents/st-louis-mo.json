@@ -1,0 +1,58 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "City of St. Louis / Metropolitan St. Louis Sewer District",
+    "jurisdiction_level": "municipality",
+    "state_code": "MO",
+    "document_title": "Site Design Guidance (MSD post-construction BMP requirements / Maryland SWM Manual)",
+    "version_or_edition": null,
+    "adoption_or_effective_date": null,
+    "last_revised_date": null,
+    "relationship_to_state_manual": "unknown"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [
+      2,
+      100
+    ],
+    "water_quality_volume_method": "MSD Rules & Regulations require BMPs to treat a water quality volume based on runoff from 1.14 inches of rainfall. Structural BMP design methodology adopts Chapters 3 and 5 of the Maryland Stormwater Design Manual (2000). Flood detention: release rates not to exceed allowable 2-year and 100-year 24-hour events (NRCS TR-55).",
+    "peak_flow_calculation_method": [
+      "NRCS TR-55 Urban Hydrology for Small Watersheds",
+      "2-year and 100-year 24-hour flood detention release rates",
+      "Maryland SWM Manual BMP sizing (Ch.3/5)"
+    ],
+    "required_hydrologic_hydraulic_software": [],
+    "approved_bmp_categories": [
+      "Bioretention",
+      "Permeable pavement",
+      "Stormwater ponds / wetlands",
+      "Infiltration BMPs",
+      "Filtering systems / sand filters",
+      "Open channel systems",
+      "Green roof / rainwater harvesting (WQv reduction credits)"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "MSD rules and regulations require use of BMPs to treat a water quality volume of runoff from 1.14 inches",
+      "page_or_section": "Site Design Guidance / MSD Phase II"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "MSD relies upon Chapters 3 and 4 of the Maryland Department of the Environment’s (MDE), April 2000, Stormwater Design Manual",
+      "page_or_section": "Site Design Guidance"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "medium",
+    "needs_human_review": true,
+    "review_notes": "Criteria from Phase II Site Design Guidance documenting MSD rules; prefer direct MSD Laserfiche design chapter when available.",
+    "fields_not_found": []
+  },
+  "source": {
+    "document_url": "https://www.rockhillmo.net/sites/g/files/vyhlif1136/f/uploads/site_design_guidance.pdf",
+    "landing_page_url": "https://msdprojectclear.org/what-we-do/stormwater-management/bmp-toolbox/technology-matrix/",
+    "retrieved_at": "2026-08-10T10:44:44.192Z",
+    "original_filename": "st-louis-mo.pdf"
+  }
+}

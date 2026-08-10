@@ -1,0 +1,52 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "City of Dover",
+    "jurisdiction_level": "municipality",
+    "state_code": "DE",
+    "document_title": "Delaware Sediment and Stormwater / Wet Pond Standards (capital MS4 partial)",
+    "version_or_edition": "Section 13.0 Wet Ponds (DRAFT public-notice revision)",
+    "adoption_or_effective_date": null,
+    "last_revised_date": null,
+    "relationship_to_state_manual": "adopts_state_manual_directly"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [
+      100
+    ],
+    "water_quality_volume_method": "DNREC Sediment and Stormwater Program framework. Wet ED Ponds receive RPv credit via 48-hour extended detention of the Resource Protection Volume (RPv); exact RPv depth defined in Delaware Sediment and Stormwater Regulations. Capital MS4 follows statewide standards; full technical document PDF often unavailable via direct download.",
+    "peak_flow_calculation_method": [
+      "Site-adjusted runoff curve number (RCN)",
+      "Cv / Fv quantity management per DNREC regulations"
+    ],
+    "required_hydrologic_hydraulic_software": [],
+    "approved_bmp_categories": [
+      "Wet Quantity Management Pond",
+      "Wet Extended Detention (ED) Pond",
+      "Other DNREC-approved BMPs"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "City of Dover capital MS4 follows DNREC Sediment and Stormwater standards",
+      "page_or_section": "Coverage note"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "48-hour extended detention of the Resource Protection Volume (RPv)",
+      "page_or_section": "Wet Ponds §13"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "low",
+    "needs_human_review": true,
+    "review_notes": "Partial coverage via wet-pond chapter only — prefer full Delaware Technical Document when a stable public PDF is available.",
+    "fields_not_found": []
+  },
+  "source": {
+    "document_url": "https://documents.dnrec.delaware.gov/Admin/Public-Notices/WSS20260001/13-0-Wet-Ponds-DRAFT-strikethrough.pdf",
+    "landing_page_url": "https://dnrec.delaware.gov/watershed-stewardship/sediment-stormwater/",
+    "retrieved_at": "2026-08-10T10:18:37.456Z",
+    "original_filename": "dover-de.pdf"
+  }
+}

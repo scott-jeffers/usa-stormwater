@@ -195,8 +195,8 @@
   },
   "mn-state": {
     "status": "skipped",
-    "updatedAt": "2026-08-07T11:44:09.350Z",
-    "error": "skipped_no_single_pdf — live wiki; 2008 PDF outdated"
+    "updatedAt": "2026-08-10T07:13:58.491Z",
+    "error": "superseded_by mn-state-2008"
   },
   "ca-casqa-municipal": {
     "status": "done",
@@ -216,10 +216,12 @@
     "error": null
   },
   "baltimore-md": {
-    "status": "skipped",
-    "updatedAt": "2026-08-07T11:45:00.758Z",
-    "error": "HTTP 404 Not Found",
-    "durationMs": 1031
+    "status": "done",
+    "updatedAt": "2026-08-10T07:13:58.491Z",
+    "slug": "baltimore-md",
+    "pages": 5,
+    "chars": 11229,
+    "error": null
   },
   "boston-ma": {
     "status": "done",
@@ -255,10 +257,12 @@
     "error": null
   },
   "atlanta-ga": {
-    "status": "skipped",
-    "updatedAt": "2026-08-07T11:54:02.125Z",
-    "error": "HTTP 404 Not Found",
-    "durationMs": 617
+    "status": "done",
+    "updatedAt": "2026-08-10T09:24:56.027Z",
+    "chars": null,
+    "pages": null,
+    "error": null,
+    "slug": "atlanta-ga"
   },
   "miami-fl": {
     "status": "done",
@@ -315,8 +319,8 @@
   },
   "albuquerque-nm": {
     "status": "skipped",
-    "updatedAt": "2026-08-07T11:54:47.153Z",
-    "error": "skipped_no_single_pdf"
+    "updatedAt": "2026-08-10T07:13:58.491Z",
+    "error": "superseded_by albuquerque-nm-gsi"
   },
   "honolulu-hi": {
     "status": "done",
@@ -346,8 +350,8 @@
   },
   "wisconsin-technical": {
     "status": "skipped",
-    "updatedAt": "2026-08-07T11:55:33.412Z",
-    "error": "HTTP 404 Not Found",
+    "updatedAt": "2026-08-10T07:13:58.491Z",
+    "error": "superseded_by wi-dnr-1001",
     "durationMs": 798
   },
   "michigan-manual": {
@@ -368,16 +372,20 @@
     "error": null
   },
   "missouri-manual": {
-    "status": "skipped",
-    "updatedAt": "2026-08-07T11:57:50.276Z",
-    "error": "HTTP 404 Not Found",
-    "durationMs": 796
+    "status": "done",
+    "updatedAt": "2026-08-10T07:13:58.491Z",
+    "slug": "missouri-manual",
+    "pages": 261,
+    "chars": 522251,
+    "error": null
   },
   "arkansas-manual": {
-    "status": "skipped",
-    "updatedAt": "2026-08-07T11:58:36.083Z",
-    "error": "HTTP 404 Not Found",
-    "durationMs": 800
+    "status": "done",
+    "updatedAt": "2026-08-10T07:13:58.491Z",
+    "slug": "arkansas-manual",
+    "pages": 109,
+    "chars": 311640,
+    "error": null
   },
   "alabama-handbook": {
     "status": "done",
@@ -414,8 +422,8 @@
   },
   "delaware-esc": {
     "status": "skipped",
-    "updatedAt": "2026-08-07T12:02:22.980Z",
-    "error": "HTTP 404 Not Found",
+    "updatedAt": "2026-08-10T07:13:58.491Z",
+    "error": "superseded_by de-wet-ponds-draft (partial wet-ponds coverage)",
     "durationMs": 508
   },
   "maine-manual": {
@@ -427,10 +435,12 @@
     "error": null
   },
   "oregon-manual": {
-    "status": "skipped",
-    "updatedAt": "2026-08-07T12:03:53.653Z",
-    "error": "HTTP 404 Not Found",
-    "durationMs": 440
+    "status": "done",
+    "updatedAt": "2026-08-10T07:13:58.491Z",
+    "slug": "oregon-manual",
+    "pages": 134,
+    "chars": 139601,
+    "error": null
   },
   "kansas-city-marc-bmp": {
     "status": "done",
@@ -451,9 +461,12 @@
     "error": null
   },
   "idaho-bmp-catalog": {
-    "status": "skipped",
-    "updatedAt": "2026-08-07T21:19:04.374Z",
-    "error": "URL 404 on verify"
+    "status": "done",
+    "updatedAt": "2026-08-10T07:13:58.491Z",
+    "slug": "idaho-bmp-catalog",
+    "pages": 582,
+    "chars": 1186709,
+    "error": null
   },
   "south-salt-lake-ut": {
     "status": "done",
@@ -742,5 +755,1516 @@
     "pages": 48,
     "summary": "SRWMD ERP AH Vol II Jul 2024: 10-yr (ag) / 100-yr critical duration; WQ via Vol I + 72-hr recovery; Rational/NRCS/USGS; retention/detention/exfiltration BMPs.",
     "error": null
+  },
+  "san-francisco-ca": {
+    "status": "done",
+    "updatedAt": "2026-08-10T07:34:50.260Z",
+    "chars": 194704,
+    "pages": 132,
+    "error": null,
+    "slug": "san-francisco-ca"
+  },
+  "san-antonio-tx": {
+    "status": "done",
+    "updatedAt": "2026-08-10T07:34:50.260Z",
+    "chars": 121266,
+    "pages": 52,
+    "error": null,
+    "slug": "san-antonio-tx"
+  },
+  "columbus-oh": {
+    "status": "done",
+    "updatedAt": "2026-08-10T07:34:50.260Z",
+    "chars": 471975,
+    "pages": 264,
+    "error": null,
+    "slug": "columbus-oh"
+  },
+  "dallas-tx": {
+    "status": "done",
+    "updatedAt": "2026-08-10T07:37:50.164Z",
+    "chars": 262437,
+    "pages": 127,
+    "error": null,
+    "slug": "dallas-tx"
+  },
+  "san-jose-ca": {
+    "status": "done",
+    "updatedAt": "2026-08-10T07:37:50.164Z",
+    "chars": 418175,
+    "pages": 181,
+    "error": null,
+    "slug": "san-jose-ca"
+  },
+  "fort-worth-tx": {
+    "status": "done",
+    "updatedAt": "2026-08-10T07:49:32.782Z",
+    "chars": 409419,
+    "pages": 194,
+    "error": null,
+    "slug": "fort-worth-tx"
+  },
+  "sacramento-ca": {
+    "status": "done",
+    "updatedAt": "2026-08-10T07:49:32.782Z",
+    "chars": 120915,
+    "pages": 55,
+    "error": null,
+    "slug": "sacramento-ca"
+  },
+  "memphis-tn": {
+    "status": "done",
+    "updatedAt": "2026-08-10T07:49:32.782Z",
+    "chars": 260803,
+    "pages": 196,
+    "error": null,
+    "slug": "memphis-tn"
+  },
+  "louisville-ky": {
+    "status": "done",
+    "updatedAt": "2026-08-10T07:49:32.782Z",
+    "chars": 1227637,
+    "pages": 875,
+    "error": null,
+    "slug": "louisville-ky"
+  },
+  "el-paso-tx": {
+    "status": "done",
+    "updatedAt": "2026-08-10T07:49:32.782Z",
+    "chars": 281567,
+    "pages": 217,
+    "error": null,
+    "slug": "el-paso-tx"
+  },
+  "las-vegas-nv": {
+    "status": "done",
+    "updatedAt": "2026-08-10T07:49:32.782Z",
+    "chars": 826502,
+    "pages": 650,
+    "error": null,
+    "slug": "las-vegas-nv"
+  },
+  "raleigh-nc": {
+    "status": "done",
+    "updatedAt": "2026-08-10T07:49:32.782Z",
+    "chars": 280379,
+    "pages": 137,
+    "error": null,
+    "slug": "raleigh-nc"
+  },
+  "oakland-ca": {
+    "status": "done",
+    "updatedAt": "2026-08-10T07:49:32.782Z",
+    "chars": 46860,
+    "pages": 27,
+    "error": null,
+    "slug": "oakland-ca"
+  },
+  "jacksonville-fl": {
+    "status": "done",
+    "updatedAt": "2026-08-10T07:49:32.782Z",
+    "chars": 414936,
+    "pages": 169,
+    "error": null,
+    "slug": "jacksonville-fl"
+  },
+  "milwaukee-wi": {
+    "status": "done",
+    "updatedAt": "2026-08-10T07:49:32.782Z",
+    "chars": 52969,
+    "pages": 27,
+    "error": null,
+    "slug": "milwaukee-wi"
+  },
+  "fresno-ca": {
+    "status": "done",
+    "updatedAt": "2026-08-10T07:51:37.339Z",
+    "chars": 523664,
+    "pages": 282,
+    "error": null,
+    "slug": "fresno-ca"
+  },
+  "long-beach-ca": {
+    "status": "done",
+    "updatedAt": "2026-08-10T08:03:22.623Z",
+    "chars": 186885,
+    "pages": 101,
+    "error": null,
+    "slug": "long-beach-ca"
+  },
+  "tulsa-ok": {
+    "status": "done",
+    "updatedAt": "2026-08-10T08:03:22.623Z",
+    "chars": 451255,
+    "pages": 222,
+    "error": null,
+    "slug": "tulsa-ok"
+  },
+  "king-county-wa": {
+    "status": "done",
+    "updatedAt": "2026-08-10T08:03:22.623Z",
+    "chars": 2807761,
+    "pages": 1185,
+    "error": null,
+    "slug": "king-county-wa"
+  },
+  "orange-county-ca": {
+    "status": "done",
+    "updatedAt": "2026-08-10T08:03:22.623Z",
+    "chars": 450427,
+    "pages": 283,
+    "error": null,
+    "slug": "orange-county-ca"
+  },
+  "mesa-az": {
+    "status": "done",
+    "updatedAt": "2026-08-10T08:03:22.623Z",
+    "chars": 586538,
+    "pages": 230,
+    "error": null,
+    "slug": "mesa-az"
+  },
+  "aurora-co": {
+    "status": "done",
+    "updatedAt": "2026-08-10T08:03:22.623Z",
+    "chars": 617409,
+    "pages": 257,
+    "error": null,
+    "slug": "aurora-co"
+  },
+  "cincinnati-oh": {
+    "status": "done",
+    "updatedAt": "2026-08-10T10:35:05.250Z",
+    "error": null,
+    "slug": "cincinnati-oh"
+  },
+  "plano-tx": {
+    "status": "done",
+    "updatedAt": "2026-08-10T08:03:22.623Z",
+    "chars": 172443,
+    "pages": 153,
+    "error": null,
+    "slug": "plano-tx"
+  },
+  "arlington-tx": {
+    "status": "done",
+    "updatedAt": "2026-08-10T08:03:22.623Z",
+    "chars": 315587,
+    "pages": 148,
+    "error": null,
+    "slug": "arlington-tx"
+  },
+  "orlando-fl": {
+    "status": "done",
+    "updatedAt": "2026-08-10T08:05:33.346Z",
+    "chars": 475943,
+    "pages": 182,
+    "error": null,
+    "slug": "orlando-fl"
+  },
+  "anaheim-ca": {
+    "status": "done",
+    "updatedAt": "2026-08-10T08:05:33.346Z",
+    "chars": 8531,
+    "pages": 10,
+    "error": null,
+    "slug": "anaheim-ca"
+  },
+  "corpus-christi-tx": {
+    "status": "done",
+    "updatedAt": "2026-08-10T08:08:51.648Z",
+    "chars": 502332,
+    "pages": 342,
+    "error": null,
+    "slug": "corpus-christi-tx"
+  },
+  "durham-nc": {
+    "status": "done",
+    "updatedAt": "2026-08-10T08:08:51.648Z",
+    "chars": 614625,
+    "pages": 262,
+    "error": null,
+    "slug": "durham-nc"
+  },
+  "tacoma-wa": {
+    "status": "done",
+    "updatedAt": "2026-08-10T08:08:51.648Z",
+    "chars": 1985920,
+    "pages": 945,
+    "error": null,
+    "slug": "tacoma-wa"
+  },
+  "saint-paul-mn": {
+    "status": "done",
+    "updatedAt": "2026-08-10T08:08:51.648Z",
+    "chars": 129621,
+    "pages": 68,
+    "error": null,
+    "slug": "saint-paul-mn"
+  },
+  "lexington-ky": {
+    "status": "done",
+    "updatedAt": "2026-08-10T08:18:32.603Z",
+    "chars": 468655,
+    "pages": 262,
+    "error": null,
+    "slug": "lexington-ky"
+  },
+  "chandler-az": {
+    "status": "done",
+    "updatedAt": "2026-08-10T08:18:32.603Z",
+    "chars": 522324,
+    "pages": 264,
+    "error": null,
+    "slug": "chandler-az"
+  },
+  "tempe-az": {
+    "status": "skipped",
+    "updatedAt": "2026-08-10T08:18:32.603Z",
+    "chars": 344,
+    "pages": 2,
+    "error": "Wrong PDF (Historic Preservation memo); need real Tempe drainage/stormwater manual URL"
+  },
+  "madison-wi": {
+    "status": "done",
+    "updatedAt": "2026-08-10T08:18:32.603Z",
+    "chars": 69633,
+    "pages": 23,
+    "error": null,
+    "slug": "madison-wi"
+  },
+  "spokane-wa": {
+    "status": "done",
+    "updatedAt": "2026-08-10T08:24:40.117Z",
+    "chars": 554398,
+    "pages": 314,
+    "error": null,
+    "slug": "spokane-wa"
+  },
+  "scottsdale-az": {
+    "status": "done",
+    "updatedAt": "2026-08-10T08:24:40.117Z",
+    "chars": 1335198,
+    "pages": 668,
+    "error": null,
+    "slug": "scottsdale-az"
+  },
+  "maricopa-county-az": {
+    "status": "done",
+    "updatedAt": "2026-08-10T08:24:40.117Z",
+    "chars": 444396,
+    "pages": 198,
+    "error": null,
+    "slug": "maricopa-county-az"
+  },
+  "stockton-ca": {
+    "status": "done",
+    "updatedAt": "2026-08-10T08:24:40.117Z",
+    "chars": 500472,
+    "pages": 297,
+    "error": null,
+    "slug": "stockton-ca"
+  },
+  "fort-wayne-in": {
+    "status": "done",
+    "updatedAt": "2026-08-10T08:24:40.117Z",
+    "chars": 1454387,
+    "pages": 681,
+    "error": null,
+    "slug": "fort-wayne-in"
+  },
+  "lubbock-tx": {
+    "status": "done",
+    "updatedAt": "2026-08-10T08:30:22.061Z",
+    "chars": 203029,
+    "pages": 120,
+    "error": null,
+    "slug": "lubbock-tx"
+  },
+  "pittsburgh-pa": {
+    "status": "done",
+    "updatedAt": "2026-08-10T08:30:22.061Z",
+    "chars": 430851,
+    "pages": 179,
+    "error": null,
+    "slug": "pittsburgh-pa"
+  },
+  "buffalo-ny": {
+    "status": "done",
+    "updatedAt": "2026-08-10T08:30:22.061Z",
+    "chars": 5815,
+    "pages": 3,
+    "error": null,
+    "slug": "buffalo-ny"
+  },
+  "garland-tx": {
+    "status": "done",
+    "updatedAt": "2026-08-10T08:30:22.061Z",
+    "chars": 769709,
+    "pages": 386,
+    "error": null,
+    "slug": "garland-tx"
+  },
+  "winston-salem-nc": {
+    "status": "done",
+    "updatedAt": "2026-08-10T08:30:22.061Z",
+    "chars": 226200,
+    "pages": 149,
+    "error": null,
+    "slug": "winston-salem-nc"
+  },
+  "richmond-va": {
+    "status": "done",
+    "updatedAt": "2026-08-10T08:34:54.567Z",
+    "chars": 180714,
+    "pages": 97,
+    "error": null,
+    "slug": "richmond-va"
+  },
+  "fairfax-county-va": {
+    "status": "done",
+    "updatedAt": "2026-08-10T08:34:54.567Z",
+    "chars": 1201502,
+    "pages": 607,
+    "error": null,
+    "slug": "fairfax-county-va"
+  },
+  "fremont-ca": {
+    "status": "done",
+    "updatedAt": "2026-08-10T08:34:54.567Z",
+    "chars": 789629,
+    "pages": 366,
+    "error": null,
+    "slug": "fremont-ca"
+  },
+  "pinellas-county-fl": {
+    "status": "done",
+    "updatedAt": "2026-08-10T08:41:07.399Z",
+    "chars": 607982,
+    "pages": 260,
+    "error": null,
+    "slug": "pinellas-county-fl"
+  },
+  "des-moines-ia": {
+    "status": "done",
+    "updatedAt": "2026-08-10T08:41:07.399Z",
+    "chars": 360619,
+    "pages": 182,
+    "error": null,
+    "slug": "des-moines-ia"
+  },
+  "jersey-city-nj": {
+    "status": "done",
+    "updatedAt": "2026-08-10T08:41:07.399Z",
+    "chars": 190060,
+    "pages": 367,
+    "error": null,
+    "slug": "jersey-city-nj"
+  },
+  "cleveland-oh": {
+    "status": "done",
+    "updatedAt": "2026-08-10T10:35:05.250Z",
+    "error": null,
+    "slug": "cleveland-oh"
+  },
+  "frisco-tx": {
+    "status": "done",
+    "updatedAt": "2026-08-10T08:45:22.876Z",
+    "chars": 534428,
+    "pages": 239,
+    "error": null,
+    "slug": "frisco-tx"
+  },
+  "mckinney-tx": {
+    "status": "done",
+    "updatedAt": "2026-08-10T08:45:22.876Z",
+    "chars": 641793,
+    "pages": 428,
+    "error": null,
+    "slug": "mckinney-tx"
+  },
+  "riverside-county-ca": {
+    "status": "done",
+    "updatedAt": "2026-08-10T08:45:22.876Z",
+    "chars": 396164,
+    "pages": 210,
+    "error": null,
+    "slug": "riverside-county-ca"
+  },
+  "broward-county-fl": {
+    "status": "done",
+    "updatedAt": "2026-08-10T08:45:22.876Z",
+    "chars": 181852,
+    "pages": 92,
+    "error": null,
+    "slug": "broward-county-fl"
+  },
+  "san-bernardino-county-ca": {
+    "status": "done",
+    "updatedAt": "2026-08-10T08:48:28.515Z",
+    "chars": 275200,
+    "pages": 125,
+    "error": null,
+    "slug": "san-bernardino-county-ca"
+  },
+  "amarillo-tx": {
+    "status": "done",
+    "updatedAt": "2026-08-10T08:48:28.515Z",
+    "chars": 560181,
+    "pages": 403,
+    "error": null,
+    "slug": "amarillo-tx"
+  },
+  "bellevue-wa": {
+    "status": "done",
+    "updatedAt": "2026-08-10T08:48:28.515Z",
+    "chars": 537163,
+    "pages": 317,
+    "error": null,
+    "slug": "bellevue-wa"
+  },
+  "overland-park-ks": {
+    "status": "done",
+    "updatedAt": "2026-08-10T08:48:28.515Z",
+    "chars": 133990,
+    "pages": 72,
+    "error": null,
+    "slug": "overland-park-ks"
+  },
+  "denton-tx": {
+    "status": "done",
+    "updatedAt": "2026-08-10T08:56:34.266Z",
+    "chars": 424268,
+    "pages": 194,
+    "error": null,
+    "slug": "denton-tx"
+  },
+  "chattanooga-tn": {
+    "status": "done",
+    "updatedAt": "2026-08-10T08:56:34.266Z",
+    "chars": 1015185,
+    "pages": 635,
+    "error": null,
+    "slug": "chattanooga-tn"
+  },
+  "grand-rapids-mi": {
+    "status": "done",
+    "updatedAt": "2026-08-10T08:56:34.266Z",
+    "chars": 144229,
+    "pages": 70,
+    "error": null,
+    "slug": "grand-rapids-mi"
+  },
+  "cape-coral-fl": {
+    "status": "done",
+    "updatedAt": "2026-08-10T08:56:34.266Z",
+    "chars": 136001,
+    "pages": 64,
+    "error": null,
+    "slug": "cape-coral-fl"
+  },
+  "eugene-or": {
+    "status": "done",
+    "updatedAt": "2026-08-10T09:06:14.926Z",
+    "chars": 437016,
+    "pages": 236,
+    "error": null,
+    "slug": "eugene-or"
+  },
+  "springfield-mo": {
+    "status": "done",
+    "updatedAt": "2026-08-10T09:06:14.926Z",
+    "chars": 872733,
+    "pages": 390,
+    "error": null,
+    "slug": "springfield-mo"
+  },
+  "charleston-sc": {
+    "status": "done",
+    "updatedAt": "2026-08-10T09:06:14.926Z",
+    "chars": 593109,
+    "pages": 251,
+    "error": null,
+    "slug": "charleston-sc"
+  },
+  "providence-ri": {
+    "status": "done",
+    "updatedAt": "2026-08-10T09:06:14.926Z",
+    "chars": 952098,
+    "pages": 483,
+    "error": null,
+    "slug": "providence-ri"
+  },
+  "santa-rosa-ca": {
+    "status": "done",
+    "updatedAt": "2026-08-10T09:14:32.796Z",
+    "chars": 87039,
+    "pages": 54,
+    "error": null,
+    "slug": "santa-rosa-ca"
+  },
+  "rochester-ny": {
+    "status": "done",
+    "updatedAt": "2026-08-10T09:14:32.796Z",
+    "chars": null,
+    "pages": null,
+    "error": null,
+    "slug": "rochester-ny"
+  },
+  "gwinnett-county-ga": {
+    "status": "done",
+    "updatedAt": "2026-08-10T09:14:32.796Z",
+    "chars": null,
+    "pages": null,
+    "error": null,
+    "slug": "gwinnett-county-ga"
+  },
+  "prince-georges-county-md": {
+    "status": "done",
+    "updatedAt": "2026-08-10T09:14:32.796Z",
+    "chars": null,
+    "pages": null,
+    "error": null,
+    "slug": "prince-georges-county-md"
+  },
+  "fulton-county-ga": {
+    "status": "done",
+    "updatedAt": "2026-08-10T09:14:32.796Z",
+    "chars": null,
+    "pages": null,
+    "error": null,
+    "slug": "fulton-county-ga"
+  },
+  "dekalb-county-ga": {
+    "status": "done",
+    "updatedAt": "2026-08-10T09:14:32.796Z",
+    "chars": null,
+    "pages": null,
+    "error": null,
+    "slug": "dekalb-county-ga"
+  },
+  "cook-county-il": {
+    "status": "done",
+    "updatedAt": "2026-08-10T09:19:47.931Z",
+    "chars": 1051622,
+    "pages": 538,
+    "error": null,
+    "slug": "cook-county-il"
+  },
+  "harris-county-tx": {
+    "status": "done",
+    "updatedAt": "2026-08-10T09:19:47.931Z",
+    "chars": 109497,
+    "pages": 53,
+    "error": null,
+    "slug": "harris-county-tx"
+  },
+  "tarrant-county-tx": {
+    "status": "done",
+    "updatedAt": "2026-08-10T09:20:50.494Z",
+    "chars": 561085,
+    "pages": 287,
+    "error": null,
+    "slug": "tarrant-county-tx"
+  },
+  "bakersfield-ca": {
+    "status": "done",
+    "updatedAt": "2026-08-10T09:20:50.494Z",
+    "chars": 50010,
+    "pages": 38,
+    "error": null,
+    "slug": "bakersfield-ca"
+  },
+  "knoxville-tn": {
+    "status": "done",
+    "updatedAt": "2026-08-10T09:24:56.027Z",
+    "chars": 718455,
+    "pages": 544,
+    "error": null,
+    "slug": "knoxville-tn"
+  },
+  "vancouver-wa": {
+    "status": "done",
+    "updatedAt": "2026-08-10T09:24:56.027Z",
+    "chars": 288885,
+    "pages": 183,
+    "error": null,
+    "slug": "vancouver-wa"
+  },
+  "alexandria-va": {
+    "status": "done",
+    "updatedAt": "2026-08-10T09:24:56.027Z",
+    "chars": 142035,
+    "pages": 83,
+    "error": null,
+    "slug": "alexandria-va"
+  },
+  "wayne-county-mi": {
+    "status": "done",
+    "updatedAt": "2026-08-10T09:24:56.027Z",
+    "chars": 496367,
+    "pages": 252,
+    "error": null,
+    "slug": "wayne-county-mi"
+  },
+  "augusta-ga": {
+    "status": "done",
+    "updatedAt": "2026-08-10T09:24:56.027Z",
+    "chars": null,
+    "pages": null,
+    "error": null,
+    "slug": "augusta-ga"
+  },
+  "cary-nc": {
+    "status": "done",
+    "updatedAt": "2026-08-10T09:24:56.027Z",
+    "chars": null,
+    "pages": null,
+    "error": null,
+    "slug": "cary-nc"
+  },
+  "columbia-sc": {
+    "status": "done",
+    "updatedAt": "2026-08-10T09:29:55.327Z",
+    "chars": 113741,
+    "pages": 59,
+    "error": null,
+    "slug": "columbia-sc"
+  },
+  "tallahassee-fl": {
+    "status": "done",
+    "updatedAt": "2026-08-10T09:29:55.327Z",
+    "chars": 203796,
+    "pages": 100,
+    "error": null,
+    "slug": "tallahassee-fl"
+  },
+  "arlington-county-va": {
+    "status": "done",
+    "updatedAt": "2026-08-10T09:29:55.327Z",
+    "chars": 191937,
+    "pages": 77,
+    "error": null,
+    "slug": "arlington-county-va"
+  },
+  "salem-or": {
+    "status": "done",
+    "updatedAt": "2026-08-10T09:29:55.327Z",
+    "chars": 663082,
+    "pages": 336,
+    "error": null,
+    "slug": "salem-or"
+  },
+  "yonkers-ny": {
+    "status": "done",
+    "updatedAt": "2026-08-10T09:29:55.327Z",
+    "chars": null,
+    "pages": null,
+    "error": null,
+    "slug": "yonkers-ny"
+  },
+  "macon-ga": {
+    "status": "done",
+    "updatedAt": "2026-08-10T09:29:55.327Z",
+    "chars": null,
+    "pages": null,
+    "error": null,
+    "slug": "macon-ga"
+  },
+  "montgomery-al": {
+    "status": "done",
+    "updatedAt": "2026-08-10T09:29:55.327Z",
+    "chars": 648595,
+    "pages": 262,
+    "error": null,
+    "slug": "montgomery-al"
+  },
+  "mobile-al": {
+    "status": "done",
+    "updatedAt": "2026-08-10T09:29:55.327Z",
+    "chars": 660766,
+    "pages": 245,
+    "error": null,
+    "slug": "mobile-al"
+  },
+  "birmingham-al": {
+    "status": "done",
+    "updatedAt": "2026-08-10T09:29:55.327Z",
+    "chars": null,
+    "pages": null,
+    "error": null,
+    "slug": "birmingham-al"
+  },
+  "murfreesboro-tn": {
+    "status": "done",
+    "updatedAt": "2026-08-10T09:39:14.763Z",
+    "chars": 201983,
+    "pages": 104,
+    "error": null,
+    "slug": "murfreesboro-tn"
+  },
+  "clarksville-tn": {
+    "status": "done",
+    "updatedAt": "2026-08-10T09:39:14.768Z",
+    "chars": 538261,
+    "pages": 369,
+    "error": null,
+    "slug": "clarksville-tn"
+  },
+  "topeka-ks": {
+    "status": "done",
+    "updatedAt": "2026-08-10T09:39:14.772Z",
+    "chars": 280776,
+    "pages": 123,
+    "error": null,
+    "slug": "topeka-ks"
+  },
+  "columbia-mo": {
+    "status": "done",
+    "updatedAt": "2026-08-10T09:39:14.775Z",
+    "chars": 253674,
+    "pages": 195,
+    "error": null,
+    "slug": "columbia-mo"
+  },
+  "dayton-oh": {
+    "status": "done",
+    "updatedAt": "2026-08-10T09:39:14.778Z",
+    "chars": 26344,
+    "pages": 11,
+    "error": null,
+    "slug": "dayton-oh"
+  },
+  "athens-ga": {
+    "status": "done",
+    "updatedAt": "2026-08-10T09:39:14.781Z",
+    "error": null,
+    "slug": "athens-ga"
+  },
+  "syracuse-ny": {
+    "status": "done",
+    "updatedAt": "2026-08-10T09:39:14.785Z",
+    "error": null,
+    "slug": "syracuse-ny"
+  },
+  "jackson-ms": {
+    "status": "done",
+    "updatedAt": "2026-08-10T09:39:14.792Z",
+    "error": null,
+    "slug": "jackson-ms"
+  },
+  "cedar-rapids-ia": {
+    "status": "done",
+    "updatedAt": "2026-08-10T09:39:14.796Z",
+    "error": null,
+    "slug": "cedar-rapids-ia"
+  },
+  "shreveport-la": {
+    "status": "done",
+    "updatedAt": "2026-08-10T09:45:18.886Z",
+    "chars": 286295,
+    "pages": 324,
+    "error": null,
+    "slug": "shreveport-la"
+  },
+  "rockford-il": {
+    "status": "done",
+    "updatedAt": "2026-08-10T09:45:18.891Z",
+    "chars": 177693,
+    "pages": 137,
+    "error": null,
+    "slug": "rockford-il"
+  },
+  "fargo-nd": {
+    "status": "done",
+    "updatedAt": "2026-08-10T09:45:18.894Z",
+    "chars": 23013,
+    "pages": 15,
+    "error": null,
+    "slug": "fargo-nd"
+  },
+  "worcester-ma": {
+    "status": "done",
+    "updatedAt": "2026-08-10T09:45:18.899Z",
+    "error": null,
+    "slug": "worcester-ma"
+  },
+  "springfield-ma": {
+    "status": "done",
+    "updatedAt": "2026-08-10T09:45:18.902Z",
+    "error": null,
+    "slug": "springfield-ma"
+  },
+  "newark-nj": {
+    "status": "done",
+    "updatedAt": "2026-08-10T09:45:18.907Z",
+    "error": null,
+    "slug": "newark-nj"
+  },
+  "paterson-nj": {
+    "status": "done",
+    "updatedAt": "2026-08-10T09:45:18.910Z",
+    "error": null,
+    "slug": "paterson-nj"
+  },
+  "elizabeth-nj": {
+    "status": "done",
+    "updatedAt": "2026-08-10T09:45:18.916Z",
+    "error": null,
+    "slug": "elizabeth-nj"
+  },
+  "bridgeport-ct": {
+    "status": "done",
+    "updatedAt": "2026-08-10T09:45:18.920Z",
+    "error": null,
+    "slug": "bridgeport-ct"
+  },
+  "stamford-ct": {
+    "status": "done",
+    "updatedAt": "2026-08-10T09:45:18.924Z",
+    "error": null,
+    "slug": "stamford-ct"
+  },
+  "new-haven-ct": {
+    "status": "done",
+    "updatedAt": "2026-08-10T09:45:18.927Z",
+    "error": null,
+    "slug": "new-haven-ct"
+  },
+  "ann-arbor-mi": {
+    "status": "done",
+    "updatedAt": "2026-08-10T09:54:53.497Z",
+    "chars": 390517,
+    "pages": 140,
+    "error": null,
+    "slug": "ann-arbor-mi"
+  },
+  "killeen-tx": {
+    "status": "done",
+    "updatedAt": "2026-08-10T09:54:53.502Z",
+    "chars": 260087,
+    "pages": 141,
+    "error": null,
+    "slug": "killeen-tx"
+  },
+  "mesquite-tx": {
+    "status": "done",
+    "updatedAt": "2026-08-10T09:54:53.507Z",
+    "chars": 400472,
+    "pages": 210,
+    "error": null,
+    "slug": "mesquite-tx"
+  },
+  "round-rock-tx": {
+    "status": "done",
+    "updatedAt": "2026-08-10T09:54:53.512Z",
+    "chars": 14945,
+    "pages": 7,
+    "error": null,
+    "slug": "round-rock-tx"
+  },
+  "rochester-mn": {
+    "status": "done",
+    "updatedAt": "2026-08-10T09:54:53.516Z",
+    "chars": 279317,
+    "pages": 169,
+    "error": null,
+    "slug": "rochester-mn"
+  },
+  "independence-mo": {
+    "status": "done",
+    "updatedAt": "2026-08-10T09:54:53.522Z",
+    "error": null,
+    "slug": "independence-mo"
+  },
+  "hartford-ct": {
+    "status": "done",
+    "updatedAt": "2026-08-10T09:54:53.529Z",
+    "error": null,
+    "slug": "hartford-ct"
+  },
+  "cambridge-ma": {
+    "status": "done",
+    "updatedAt": "2026-08-10T09:54:53.532Z",
+    "error": null,
+    "slug": "cambridge-ma"
+  },
+  "allentown-pa": {
+    "status": "done",
+    "updatedAt": "2026-08-10T09:54:53.537Z",
+    "error": null,
+    "slug": "allentown-pa"
+  },
+  "lansing-mi": {
+    "status": "done",
+    "updatedAt": "2026-08-10T10:02:27.846Z",
+    "error": null,
+    "slug": "lansing-mi",
+    "chars": 81236,
+    "pages": 39
+  },
+  "peoria-il": {
+    "status": "done",
+    "updatedAt": "2026-08-10T10:02:27.846Z",
+    "error": null,
+    "slug": "peoria-il",
+    "chars": 203384,
+    "pages": 98
+  },
+  "high-point-nc": {
+    "status": "done",
+    "updatedAt": "2026-08-10T10:02:27.846Z",
+    "error": null,
+    "slug": "high-point-nc",
+    "chars": 6084,
+    "pages": 3
+  },
+  "wilmington-nc": {
+    "status": "done",
+    "updatedAt": "2026-08-10T10:02:27.846Z",
+    "error": null,
+    "slug": "wilmington-nc"
+  },
+  "concord-nc": {
+    "status": "done",
+    "updatedAt": "2026-08-10T10:02:27.846Z",
+    "error": null,
+    "slug": "concord-nc"
+  },
+  "evansville-in": {
+    "status": "done",
+    "updatedAt": "2026-08-10T10:02:27.846Z",
+    "error": null,
+    "slug": "evansville-in"
+  },
+  "manchester-nh": {
+    "status": "done",
+    "updatedAt": "2026-08-10T10:02:27.846Z",
+    "error": null,
+    "slug": "manchester-nh"
+  },
+  "albany-ny": {
+    "status": "done",
+    "updatedAt": "2026-08-10T10:02:27.846Z",
+    "error": null,
+    "slug": "albany-ny"
+  },
+  "trenton-nj": {
+    "status": "done",
+    "updatedAt": "2026-08-10T10:02:27.846Z",
+    "error": null,
+    "slug": "trenton-nj"
+  },
+  "davenport-ia": {
+    "status": "done",
+    "updatedAt": "2026-08-10T10:02:27.846Z",
+    "error": null,
+    "slug": "davenport-ia"
+  },
+  "harrisburg-pa": {
+    "status": "done",
+    "updatedAt": "2026-08-10T10:02:27.846Z",
+    "error": null,
+    "slug": "harrisburg-pa"
+  },
+  "everett-wa": {
+    "status": "done",
+    "updatedAt": "2026-08-10T10:02:27.846Z",
+    "error": null,
+    "slug": "everett-wa"
+  },
+  "olympia-wa": {
+    "status": "done",
+    "updatedAt": "2026-08-10T10:02:27.846Z",
+    "error": null,
+    "slug": "olympia-wa"
+  },
+  "lawrence-ks": {
+    "status": "done",
+    "updatedAt": "2026-08-10T10:10:49.504Z",
+    "error": null,
+    "slug": "lawrence-ks",
+    "chars": 103889,
+    "pages": 105
+  },
+  "roanoke-va": {
+    "status": "done",
+    "updatedAt": "2026-08-10T10:10:49.504Z",
+    "error": null,
+    "slug": "roanoke-va",
+    "chars": 43375,
+    "pages": 41
+  },
+  "annapolis-md": {
+    "status": "done",
+    "updatedAt": "2026-08-10T10:10:49.504Z",
+    "error": null,
+    "slug": "annapolis-md"
+  },
+  "concord-nh": {
+    "status": "done",
+    "updatedAt": "2026-08-10T10:10:49.504Z",
+    "error": null,
+    "slug": "concord-nh"
+  },
+  "nashua-nh": {
+    "status": "done",
+    "updatedAt": "2026-08-10T10:10:49.504Z",
+    "error": null,
+    "slug": "nashua-nh"
+  },
+  "montpelier-vt": {
+    "status": "done",
+    "updatedAt": "2026-08-10T10:10:49.504Z",
+    "error": null,
+    "slug": "montpelier-vt"
+  },
+  "juneau-ak": {
+    "status": "done",
+    "updatedAt": "2026-08-10T10:10:49.504Z",
+    "error": null,
+    "slug": "juneau-ak"
+  },
+  "greensboro-nc": {
+    "status": "done",
+    "updatedAt": "2026-08-10T10:10:49.504Z",
+    "error": null,
+    "slug": "greensboro-nc"
+  },
+  "asheville-nc": {
+    "status": "done",
+    "updatedAt": "2026-08-10T10:10:49.504Z",
+    "error": null,
+    "slug": "asheville-nc"
+  },
+  "south-bend-in": {
+    "status": "done",
+    "updatedAt": "2026-08-10T10:10:49.504Z",
+    "error": null,
+    "slug": "south-bend-in"
+  },
+  "reading-pa": {
+    "status": "done",
+    "updatedAt": "2026-08-10T10:10:49.504Z",
+    "error": null,
+    "slug": "reading-pa"
+  },
+  "erie-pa": {
+    "status": "done",
+    "updatedAt": "2026-08-10T10:10:49.504Z",
+    "error": null,
+    "slug": "erie-pa"
+  },
+  "scranton-pa": {
+    "status": "done",
+    "updatedAt": "2026-08-10T10:10:49.504Z",
+    "error": null,
+    "slug": "scranton-pa"
+  },
+  "bellingham-wa": {
+    "status": "done",
+    "updatedAt": "2026-08-10T10:10:49.504Z",
+    "error": null,
+    "slug": "bellingham-wa"
+  },
+  "jefferson-city-mo": {
+    "status": "done",
+    "updatedAt": "2026-08-10T10:10:49.504Z",
+    "error": null,
+    "slug": "jefferson-city-mo"
+  },
+  "helena-mt": {
+    "status": "done",
+    "updatedAt": "2026-08-10T10:10:49.504Z",
+    "error": null,
+    "slug": "helena-mt"
+  },
+  "carson-city-nv": {
+    "status": "done",
+    "updatedAt": "2026-08-10T10:18:37.456Z",
+    "error": null,
+    "slug": "carson-city-nv"
+  },
+  "springfield-il": {
+    "status": "done",
+    "updatedAt": "2026-08-10T10:18:37.456Z",
+    "error": null,
+    "slug": "springfield-il"
+  },
+  "huntsville-al": {
+    "status": "done",
+    "updatedAt": "2026-08-10T10:18:37.456Z",
+    "error": null,
+    "slug": "huntsville-al"
+  },
+  "fayetteville-ar": {
+    "status": "done",
+    "updatedAt": "2026-08-10T10:18:37.456Z",
+    "error": null,
+    "slug": "fayetteville-ar"
+  },
+  "augusta-me": {
+    "status": "done",
+    "updatedAt": "2026-08-10T10:18:37.456Z",
+    "error": null,
+    "slug": "augusta-me"
+  },
+  "frankfort-ky": {
+    "status": "done",
+    "updatedAt": "2026-08-10T10:18:37.456Z",
+    "error": null,
+    "slug": "frankfort-ky"
+  },
+  "dover-de": {
+    "status": "done",
+    "updatedAt": "2026-08-10T10:18:37.456Z",
+    "error": null,
+    "slug": "dover-de"
+  },
+  "hialeah-fl": {
+    "status": "done",
+    "updatedAt": "2026-08-10T10:18:37.456Z",
+    "error": null,
+    "slug": "hialeah-fl"
+  },
+  "west-palm-beach-fl": {
+    "status": "done",
+    "updatedAt": "2026-08-10T10:18:37.456Z",
+    "error": null,
+    "slug": "west-palm-beach-fl"
+  },
+  "port-st-lucie-fl": {
+    "status": "done",
+    "updatedAt": "2026-08-10T10:18:37.456Z",
+    "error": null,
+    "slug": "port-st-lucie-fl"
+  },
+  "boca-raton-fl": {
+    "status": "done",
+    "updatedAt": "2026-08-10T10:18:37.456Z",
+    "error": null,
+    "slug": "boca-raton-fl"
+  },
+  "lakeland-fl": {
+    "status": "done",
+    "updatedAt": "2026-08-10T10:18:37.456Z",
+    "error": null,
+    "slug": "lakeland-fl"
+  },
+  "omaha-ne": {
+    "status": "done",
+    "updatedAt": "2026-08-10T10:27:43.524Z",
+    "error": null,
+    "slug": "omaha-ne",
+    "chars": 35640,
+    "pages": 21
+  },
+  "pasadena-tx": {
+    "status": "done",
+    "updatedAt": "2026-08-10T10:27:43.524Z",
+    "error": null,
+    "slug": "pasadena-tx"
+  },
+  "franklin-tn": {
+    "status": "done",
+    "updatedAt": "2026-08-10T10:27:43.524Z",
+    "error": null,
+    "slug": "franklin-tn"
+  },
+  "charlottesville-va": {
+    "status": "done",
+    "updatedAt": "2026-08-10T10:27:43.524Z",
+    "error": null,
+    "slug": "charlottesville-va",
+    "chars": 563506,
+    "pages": 266
+  },
+  "gastonia-nc": {
+    "status": "done",
+    "updatedAt": "2026-08-10T10:27:43.524Z",
+    "error": null,
+    "slug": "gastonia-nc"
+  },
+  "portland-me": {
+    "status": "done",
+    "updatedAt": "2026-08-10T10:27:43.524Z",
+    "error": null,
+    "slug": "portland-me"
+  },
+  "rockville-md": {
+    "status": "done",
+    "updatedAt": "2026-08-10T10:27:43.524Z",
+    "error": null,
+    "slug": "rockville-md"
+  },
+  "burlington-vt": {
+    "status": "done",
+    "updatedAt": "2026-08-10T10:27:43.524Z",
+    "error": null,
+    "slug": "burlington-vt"
+  },
+  "wilmington-de": {
+    "status": "done",
+    "updatedAt": "2026-08-10T10:27:43.524Z",
+    "error": null,
+    "slug": "wilmington-de"
+  },
+  "gulfport-ms": {
+    "status": "done",
+    "updatedAt": "2026-08-10T10:27:43.524Z",
+    "error": null,
+    "slug": "gulfport-ms"
+  },
+  "missoula-mt": {
+    "status": "done",
+    "updatedAt": "2026-08-10T10:27:43.524Z",
+    "error": null,
+    "slug": "missoula-mt"
+  },
+  "chula-vista-ca": {
+    "status": "done",
+    "updatedAt": "2026-08-10T10:27:43.524Z",
+    "error": null,
+    "slug": "chula-vista-ca"
+  },
+  "pearland-tx": {
+    "status": "done",
+    "updatedAt": "2026-08-10T10:27:43.524Z",
+    "error": null,
+    "slug": "pearland-tx"
+  },
+  "greenville-sc": {
+    "status": "done",
+    "updatedAt": "2026-08-10T10:27:43.524Z",
+    "error": null,
+    "slug": "greenville-sc"
+  },
+  "lincoln-ne": {
+    "status": "done",
+    "updatedAt": "2026-08-10T10:35:05.250Z",
+    "error": null,
+    "slug": "lincoln-ne",
+    "chars": 215071,
+    "pages": 160
+  },
+  "colorado-springs-co": {
+    "status": "done",
+    "updatedAt": "2026-08-10T10:35:05.250Z",
+    "error": null,
+    "slug": "colorado-springs-co"
+  },
+  "boulder-co": {
+    "status": "done",
+    "updatedAt": "2026-08-10T10:35:05.250Z",
+    "error": null,
+    "slug": "boulder-co"
+  },
+  "fort-collins-co": {
+    "status": "done",
+    "updatedAt": "2026-08-10T10:35:05.250Z",
+    "error": null,
+    "slug": "fort-collins-co"
+  },
+  "toledo-oh": {
+    "status": "done",
+    "updatedAt": "2026-08-10T10:35:05.250Z",
+    "error": null,
+    "slug": "toledo-oh"
+  },
+  "akron-oh": {
+    "status": "done",
+    "updatedAt": "2026-08-10T10:35:05.250Z",
+    "error": null,
+    "slug": "akron-oh"
+  },
+  "youngstown-oh": {
+    "status": "done",
+    "updatedAt": "2026-08-10T10:35:05.250Z",
+    "error": null,
+    "slug": "youngstown-oh"
+  },
+  "duluth-mn": {
+    "status": "done",
+    "updatedAt": "2026-08-10T10:35:05.250Z",
+    "error": null,
+    "slug": "duluth-mn"
+  },
+  "bend-or": {
+    "status": "done",
+    "updatedAt": "2026-08-10T10:35:05.250Z",
+    "error": null,
+    "slug": "bend-or"
+  },
+  "flint-mi": {
+    "status": "done",
+    "updatedAt": "2026-08-10T10:35:05.250Z",
+    "error": null,
+    "slug": "flint-mi"
+  },
+  "grand-prairie-tx": {
+    "status": "done",
+    "updatedAt": "2026-08-10T10:35:05.250Z",
+    "error": null,
+    "slug": "grand-prairie-tx"
+  },
+  "waco-tx": {
+    "status": "done",
+    "updatedAt": "2026-08-10T10:35:05.250Z",
+    "error": null,
+    "slug": "waco-tx"
+  },
+  "lafayette-la": {
+    "status": "done",
+    "updatedAt": "2026-08-10T10:35:05.250Z",
+    "error": null,
+    "slug": "lafayette-la"
+  },
+  "santa-fe-nm": {
+    "status": "done",
+    "updatedAt": "2026-08-10T10:35:05.250Z",
+    "error": null,
+    "slug": "santa-fe-nm"
+  },
+  "las-cruces-nm": {
+    "status": "done",
+    "updatedAt": "2026-08-10T10:35:05.250Z",
+    "error": null,
+    "slug": "las-cruces-nm"
+  },
+  "sioux-falls-sd": {
+    "status": "done",
+    "updatedAt": "2026-08-10T10:35:05.250Z",
+    "error": null,
+    "slug": "sioux-falls-sd"
+  },
+  "pierre-sd": {
+    "status": "done",
+    "updatedAt": "2026-08-10T10:35:05.250Z",
+    "error": null,
+    "slug": "pierre-sd"
+  },
+  "cheyenne-wy": {
+    "status": "done",
+    "updatedAt": "2026-08-10T10:35:05.250Z",
+    "error": null,
+    "slug": "cheyenne-wy"
+  },
+  "casper-wy": {
+    "status": "done",
+    "updatedAt": "2026-08-10T10:35:05.250Z",
+    "error": null,
+    "slug": "casper-wy"
+  },
+  "flagstaff-az": {
+    "status": "done",
+    "updatedAt": "2026-08-10T10:42:30.501Z",
+    "error": null,
+    "slug": "flagstaff-az",
+    "chars": 258231,
+    "pages": 110
+  },
+  "beaumont-tx": {
+    "status": "done",
+    "updatedAt": "2026-08-10T10:42:30.501Z",
+    "error": null,
+    "slug": "beaumont-tx",
+    "chars": 64907,
+    "pages": 45
+  },
+  "santa-barbara-ca": {
+    "status": "done",
+    "updatedAt": "2026-08-10T10:42:30.501Z",
+    "error": null,
+    "slug": "santa-barbara-ca",
+    "chars": 765641,
+    "pages": 401
+  },
+  "charleston-wv": {
+    "status": "done",
+    "updatedAt": "2026-08-10T10:42:30.501Z",
+    "error": null,
+    "slug": "charleston-wv",
+    "chars": 620848,
+    "pages": 336
+  },
+  "kennewick-wa": {
+    "status": "done",
+    "updatedAt": "2026-08-10T10:42:30.501Z",
+    "error": null,
+    "slug": "kennewick-wa",
+    "chars": 2595217,
+    "pages": 1368
+  },
+  "pensacola-fl": {
+    "status": "done",
+    "updatedAt": "2026-08-10T10:42:30.501Z",
+    "error": null,
+    "slug": "pensacola-fl"
+  },
+  "palm-bay-fl": {
+    "status": "done",
+    "updatedAt": "2026-08-10T10:42:30.501Z",
+    "error": null,
+    "slug": "palm-bay-fl"
+  },
+  "daytona-beach-fl": {
+    "status": "done",
+    "updatedAt": "2026-08-10T10:42:30.501Z",
+    "error": null,
+    "slug": "daytona-beach-fl"
+  },
+  "melbourne-fl": {
+    "status": "done",
+    "updatedAt": "2026-08-10T10:42:30.501Z",
+    "error": null,
+    "slug": "melbourne-fl"
+  },
+  "deltona-fl": {
+    "status": "done",
+    "updatedAt": "2026-08-10T10:42:30.501Z",
+    "error": null,
+    "slug": "deltona-fl"
+  },
+  "palm-coast-fl": {
+    "status": "done",
+    "updatedAt": "2026-08-10T10:42:30.501Z",
+    "error": null,
+    "slug": "palm-coast-fl"
+  },
+  "st-louis-mo": {
+    "status": "done",
+    "updatedAt": "2026-08-10T10:44:44.192Z",
+    "error": null,
+    "slug": "st-louis-mo"
+  },
+  "yuma-az": {
+    "status": "done",
+    "updatedAt": "2026-08-10T10:44:44.192Z",
+    "error": null,
+    "slug": "yuma-az"
+  },
+  "laredo-tx": {
+    "status": "done",
+    "updatedAt": "2026-08-10T10:44:44.192Z",
+    "error": null,
+    "slug": "laredo-tx"
+  },
+  "mcallen-tx": {
+    "status": "done",
+    "updatedAt": "2026-08-10T10:44:44.192Z",
+    "error": null,
+    "slug": "mcallen-tx"
+  },
+  "brownsville-tx": {
+    "status": "done",
+    "updatedAt": "2026-08-10T10:44:44.192Z",
+    "error": null,
+    "slug": "brownsville-tx"
+  },
+  "college-station-tx": {
+    "status": "done",
+    "updatedAt": "2026-08-10T10:44:44.192Z",
+    "error": null,
+    "slug": "college-station-tx"
   }
 }

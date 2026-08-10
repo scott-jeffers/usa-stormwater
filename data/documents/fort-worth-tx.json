@@ -1,0 +1,109 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "City of Fort Worth",
+    "jurisdiction_level": "municipality",
+    "state_code": "TX",
+    "document_title": "Stormwater Criteria Manual",
+    "version_or_edition": "July 2024",
+    "adoption_or_effective_date": "2024-07-15",
+    "last_revised_date": "2024-07",
+    "relationship_to_state_manual": "independent"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [
+      1,
+      5,
+      100
+    ],
+    "water_quality_volume_method": "Water Quality Protection Volume (WQV) Option 2: treat TSS for runoff from rainfalls up to 1.5 inches (85th percentile storm). Note: water quality protection is not currently required by the City but may be required by TRWD or other agencies. Manual incorporates NCTCOG iSWM Technical Manuals by reference.",
+    "peak_flow_calculation_method": [
+      "Streambank Protection: on-site controlled release of 1-year, 24-hour storm over 24 hours (SPV) or downstream mitigation options",
+      "Flood Mitigation: detention to completely mitigate increase in peak discharge; Adverse Impact Assessment / Zone of Influence",
+      "Regulatory design storm: 1% annual chance (100-year) on ultimate development",
+      "NCTCOG iSWM Technical Manual hydrologic methods by reference"
+    ],
+    "required_hydrologic_hydraulic_software": [],
+    "approved_bmp_categories": [
+      "Dry detention pond",
+      "Underground detention",
+      "Integrated site design practices",
+      "iSWM structural controls (by reference to NCTCOG Technical Manuals)"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "City of Fort Worth Stormwater Criteria Manual",
+      "page_or_section": "Title"
+    },
+    {
+      "field": "document_metadata.jurisdiction_level",
+      "excerpt": "Adoption of Manual by City of Fort Worth",
+      "page_or_section": "Adoption"
+    },
+    {
+      "field": "document_metadata.state_code",
+      "excerpt": "TPDES Stormwater permit",
+      "page_or_section": "Design options table"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "Stormwater Criteria Manual",
+      "page_or_section": "Title"
+    },
+    {
+      "field": "document_metadata.version_or_edition",
+      "excerpt": "July, 2024",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.adoption_or_effective_date",
+      "excerpt": "This Stormwater Criteria Manual (\"Manual\") is adopted and becomes effective on July 15, 2024.",
+      "page_or_section": "Adoption"
+    },
+    {
+      "field": "document_metadata.last_revised_date",
+      "excerpt": "July, 2024",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.relationship_to_state_manual",
+      "excerpt": "The North Central Texas Council of Government (\"NCTCOG\") iSWM Technical Manuals are adopted and incorporated herein by reference.",
+      "page_or_section": "Adoption"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "No increase greater than 0.1 feet in 1-, 5-, and 100-year flood elevations",
+      "page_or_section": "Flood criteria"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "Treat the Water Quality Protection Volume (WQV) by reducing total suspended solids from the Development site for runoff resulting from rainfalls of up to 1.5 inches (85th percentile storm)",
+      "page_or_section": "Design Options / Water Quality"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "Provide on-site controlled release of the 1- year, 24-hour storm event over a period of 24 hours (Streambank Protection Volume, SPV)",
+      "page_or_section": "Streambank Protection Option 3"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Dry Detention Pond / Underground Detention",
+      "page_or_section": "Tables 3.22-3.23"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "high",
+    "needs_human_review": false,
+    "review_notes": "Fort Worth July 2024 SCM; WQ Option 2 is iSWM-aligned but City notes WQ not currently required by CFW itself.",
+    "fields_not_found": [
+      "design_criteria.required_hydrologic_hydraulic_software"
+    ]
+  },
+  "source": {
+    "document_url": "https://www.fortworthtexas.gov/files/assets/public/v/1/tpw/stormwater/documents/regulation-updates/july-2024-official-stormwater-criteria-manual.pdf",
+    "landing_page_url": "https://www.fortworthtexas.gov/departments/tpw/stormwater/review",
+    "retrieved_at": "2026-08-10T08:10:00.000Z",
+    "original_filename": "fort-worth-tx.pdf"
+  }
+}

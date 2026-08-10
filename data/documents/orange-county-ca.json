@@ -1,0 +1,97 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "County of Orange",
+    "jurisdiction_level": "county",
+    "state_code": "CA",
+    "document_title": "Orange County Local Drainage Manual",
+    "version_or_edition": "2nd Edition",
+    "adoption_or_effective_date": null,
+    "last_revised_date": null,
+    "relationship_to_state_manual": "independent"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [
+      100
+    ],
+    "water_quality_volume_method": "Local detention basins chapter includes water quality & hydromodification considerations (7.2.10). Manual focuses on local drainage (tributary ≤640 acres); larger facilities per OCFCD Design Manual. Does not supersede Orange County DAMP.",
+    "peak_flow_calculation_method": [
+      "Local drainage facility hydraulic design (Chapters 3–9)",
+      "Detention routing analysis procedures",
+      "100-year floodplain procedures (Chapter 11)"
+    ],
+    "required_hydrologic_hydraulic_software": [],
+    "approved_bmp_categories": [
+      "Local detention basins",
+      "Vegetated swales (water quality example)",
+      "Storm drains and local drainage structures"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "County of Orange / Orange County Local Drainage Manual",
+      "page_or_section": "Title"
+    },
+    {
+      "field": "document_metadata.jurisdiction_level",
+      "excerpt": "unincorporated Orange County",
+      "page_or_section": "Purpose"
+    },
+    {
+      "field": "document_metadata.state_code",
+      "excerpt": "Porter-Cologne Water Quality Control Act",
+      "page_or_section": "Section 1.6.3"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "Orange County Local Drainage Manual",
+      "page_or_section": "Title"
+    },
+    {
+      "field": "document_metadata.version_or_edition",
+      "excerpt": "2nd Edition",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.relationship_to_state_manual",
+      "excerpt": "Orange County Drainage Area Management Plan (DAMP)",
+      "page_or_section": "Purpose"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "100-year Floodplain",
+      "page_or_section": "Section 11.3.1"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "Water Quality & Hydromodification Considerations",
+      "page_or_section": "Section 7.2.10"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "Design Procedure - Detention Routing Analysis",
+      "page_or_section": "Chapter 7"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Local Detention Basins / Water Quality Vegetated Swale",
+      "page_or_section": "Chapter 7 / Figure 6-9"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "medium",
+    "needs_human_review": true,
+    "review_notes": "OC Local Drainage Manual is hydraulics-focused; post-construction LID/WQ primarily in OC DAMP/TGD — consider adding TGD next.",
+    "fields_not_found": [
+      "document_metadata.adoption_or_effective_date",
+      "document_metadata.last_revised_date",
+      "design_criteria.required_hydrologic_hydraulic_software"
+    ]
+  },
+  "source": {
+    "document_url": "https://pwip.oc.gov/sites/ocpwocip/files/2021-08/OC%20LDM%20-%202nd%20Edition-secured.pdf",
+    "landing_page_url": "https://ocpublicworks.com/",
+    "retrieved_at": "2026-08-10T08:03:22.623Z",
+    "original_filename": "orange-county-ca.pdf"
+  }
+}

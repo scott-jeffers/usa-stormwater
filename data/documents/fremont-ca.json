@@ -1,0 +1,107 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "Alameda Countywide Clean Water Program (ACCWP) / City of Fremont",
+    "jurisdiction_level": "special_district",
+    "state_code": "CA",
+    "document_title": "C.3 Stormwater Technical Guidance",
+    "version_or_edition": "Version 8.2 (May 19, 2024)",
+    "adoption_or_effective_date": "2024-05-19",
+    "last_revised_date": "2024-05-19",
+    "relationship_to_state_manual": "independent"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [],
+    "water_quality_volume_method": "MRP Provision C.3 LID treatment: volume-based sizing (WEF/ASCE 80% capture / related methods) or flow-based sizing using 85th percentile rainfall intensity; biotreatment/bioretention preferred. Hydromodification management (Provision C.3.g) via flow duration control / BAHM where applicable.",
+    "peak_flow_calculation_method": [
+      "Volume-based BMP sizing (Section 7.1.1 / Appendix C worksheet)",
+      "Flow-based treatment sizing (85th percentile intensity)",
+      "Hydromodification management / BAHM flow duration control (Chapter 9)"
+    ],
+    "required_hydrologic_hydraulic_software": [
+      "BAHM (Bay Area Hydrology Model)"
+    ],
+    "approved_bmp_categories": [
+      "Bioretention / bioinfiltration",
+      "Biotreatment measures",
+      "Treatment trains",
+      "Hydromodification management measures",
+      "LID site design / source controls"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "C.3 Stormwater Technical Guidance / Alameda",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.jurisdiction_level",
+      "excerpt": "Clean Water Program / MRP municipalities",
+      "page_or_section": "Introduction"
+    },
+    {
+      "field": "document_metadata.state_code",
+      "excerpt": "California / Municipal Regional Permit",
+      "page_or_section": "Introduction"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "C.3 Stormwater Technical Guidance",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.version_or_edition",
+      "excerpt": "Version 8.2 / May 19, 2024",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.adoption_or_effective_date",
+      "excerpt": "May 19, 2024",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.last_revised_date",
+      "excerpt": "May 19, 2024",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.relationship_to_state_manual",
+      "excerpt": "MRP Provision C.3",
+      "page_or_section": "Introduction"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "85th percentile value / Volume-based BMP sizing criteria and 80 percent capture",
+      "page_or_section": "Section 7.1 / glossary"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "Hydromodification Management / Flow Duration Control / BAHM",
+      "page_or_section": "Chapter 9"
+    },
+    {
+      "field": "design_criteria.required_hydrologic_hydraulic_software",
+      "excerpt": "BAHM",
+      "page_or_section": "Appendix P / HM"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Bioretention/BioInfiltration Area",
+      "page_or_section": "Section 8.1"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "high",
+    "needs_human_review": false,
+    "review_notes": "ACCWP C.3 TG v8.2; covers Fremont and other Alameda County MRP cities (aliases).",
+    "fields_not_found": [
+      "design_criteria.design_storm_return_periods_years"
+    ]
+  },
+  "source": {
+    "document_url": "https://cleanwaterprogram.org/wp-content/uploads/2024/05/C3TG-8.2-compiled-20240519.pdf",
+    "landing_page_url": "https://cleanwaterprogram.org/businesses/development/",
+    "retrieved_at": "2026-08-10T08:34:54.567Z",
+    "original_filename": "fremont-ca.pdf"
+  }
+}

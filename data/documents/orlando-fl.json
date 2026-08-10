@@ -1,0 +1,102 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "City of Orlando",
+    "jurisdiction_level": "municipality",
+    "state_code": "FL",
+    "document_title": "Engineering Standards Manual",
+    "version_or_edition": "2026",
+    "adoption_or_effective_date": null,
+    "last_revised_date": "2026",
+    "relationship_to_state_manual": "independent"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [
+      100
+    ],
+    "water_quality_volume_method": "Chapter 7 Stormwater Management: pollution abatement & flow attenuation (7.04.01). City accepts SSRWMD/SFWMD ERP Applicant Handbook criteria and FDOT erosion manuals except as specifically addressed. Retention/detention facilities required components.",
+    "peak_flow_calculation_method": [
+      "Hydraulic design criteria for roadway drainage, storm sewers, culverts, open channels (Section 7.05)",
+      "Pollution abatement and flow attenuation facilities",
+      "Primary/secondary/tertiary/roadway conveyance facilities"
+    ],
+    "required_hydrologic_hydraulic_software": [],
+    "approved_bmp_categories": [
+      "Retention facilities",
+      "Detention facilities",
+      "Pollution abatement facilities",
+      "Storm sewers and conveyance"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "City of Orlando",
+      "page_or_section": "Purpose"
+    },
+    {
+      "field": "document_metadata.jurisdiction_level",
+      "excerpt": "City of Orlando corporate limits",
+      "page_or_section": "Purpose"
+    },
+    {
+      "field": "document_metadata.state_code",
+      "excerpt": "SFWMD Permit Information Manual",
+      "page_or_section": "Accepted criteria"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "Engineering Standards Manual",
+      "page_or_section": "Title"
+    },
+    {
+      "field": "document_metadata.version_or_edition",
+      "excerpt": "2026",
+      "page_or_section": "Filename"
+    },
+    {
+      "field": "document_metadata.last_revised_date",
+      "excerpt": "2026",
+      "page_or_section": "Filename"
+    },
+    {
+      "field": "document_metadata.relationship_to_state_manual",
+      "excerpt": "SSRWMD Permit Information Manual, and SFWMD Permit Information Manual",
+      "page_or_section": "Accepted criteria"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "shall not increase the existing 100-year flood elevation",
+      "page_or_section": "Chapter 7 / related standards"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "Pollution Abatement & Flow Attenuation",
+      "page_or_section": "Section 7.04.01"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "Hydraulic Design Criteria",
+      "page_or_section": "Section 7.05"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Retention/Detention Facilities",
+      "page_or_section": "Chapter 7"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "medium",
+    "needs_human_review": true,
+    "review_notes": "Orlando ESM 2026 Ch 7; detailed numeric WQ volumes may defer to SFWMD/SJRWMD handbooks.",
+    "fields_not_found": [
+      "document_metadata.adoption_or_effective_date",
+      "design_criteria.required_hydrologic_hydraulic_software"
+    ]
+  },
+  "source": {
+    "document_url": "https://www.orlando.gov/files/sharedassets/public/v/3/documents/engineering/platting/2026_engineeringstandardsmanual.pdf",
+    "landing_page_url": "https://www.orlando.gov/Our-Government/Records-and-Documents/Engineering-Documents",
+    "retrieved_at": "2026-08-10T08:05:33.346Z",
+    "original_filename": "orlando-fl.pdf"
+  }
+}

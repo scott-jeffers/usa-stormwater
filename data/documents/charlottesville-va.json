@@ -1,0 +1,64 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "City of Charlottesville",
+    "jurisdiction_level": "municipality",
+    "state_code": "VA",
+    "document_title": "Standards and Design Manual — Chapter 5 Stormwater Management",
+    "version_or_edition": null,
+    "adoption_or_effective_date": null,
+    "last_revised_date": null,
+    "relationship_to_state_manual": "adopts_state_manual_directly"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [
+      10,
+      100
+    ],
+    "water_quality_volume_method": "City Code Ch.10 VSMP: water quality per latest Virginia Stormwater BMP Clearinghouse Standards and Specifications and DEQ Stormwater Management Handbook (including drafts). Use DEQ Runoff Reduction Method spreadsheets for pollutant removal. Prefer on-site treatment; nutrient credits last resort for public projects. Flood protection: Part IIB / current VSMP; for existing man-made conveyance, contain post-development 10% AEP (10-year) 24-hour HGL within pipe/junctions. Check storm: 1% AEP (100-year) with emergency overflow. NOAA Atlas 14 rainfall; VDOT Drainage Manual for conveyance.",
+    "peak_flow_calculation_method": [
+      "NOAA Atlas 14 / SCS 24-hour methods",
+      "Rational Method",
+      "VDOT Drainage Manual conveyance criteria",
+      "DEQ Runoff Reduction Method (quality)"
+    ],
+    "required_hydrologic_hydraulic_software": [],
+    "approved_bmp_categories": [
+      "Virginia BMP Clearinghouse practices",
+      "Bioretention / GSI (preferred)",
+      "Stormwater tree planters / curb extensions",
+      "Underground detention (with CCTV access)",
+      "Other Clearinghouse-listed BMPs"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "CHARLOTTESVILLE STANDARDS & DESIGN MANUAL Chapter 5: Stormwater Management",
+      "page_or_section": "Ch.5 headers"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "latest Virginia Stormwater BMP Clearinghouse Standards and Specifications and DEQ Stormwater Management Handbook",
+      "page_or_section": "§5.4.1"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "post-development 10% AEP 24-hour storm event ... 1% AEP storm event shall be utilized as a check storm",
+      "page_or_section": "§5.3.1.1–5.3.1.2"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "high",
+    "needs_human_review": false,
+    "review_notes": null,
+    "fields_not_found": [
+      "document_metadata.version_or_edition"
+    ]
+  },
+  "source": {
+    "document_url": "https://www.charlottesville.gov/DocumentCenter/View/10298",
+    "landing_page_url": "https://va-charlottesville.civicplus.com/491/Stormwater",
+    "retrieved_at": "2026-08-10T10:27:43.524Z",
+    "original_filename": "charlottesville-va.pdf"
+  }
+}

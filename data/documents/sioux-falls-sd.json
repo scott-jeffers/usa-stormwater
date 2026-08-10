@@ -1,0 +1,47 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "City of Sioux Falls",
+    "jurisdiction_level": "municipality",
+    "state_code": "SD",
+    "document_title": "SDDOT Erosion and Sediment Control and Stormwater Management Course Manual (partial)",
+    "version_or_edition": "Revised October 2024",
+    "adoption_or_effective_date": null,
+    "last_revised_date": "2024-10",
+    "relationship_to_state_manual": "adopts_state_manual_directly"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [
+      2
+    ],
+    "water_quality_volume_method": null,
+    "peak_flow_calculation_method": [],
+    "required_hydrologic_hydraulic_software": [],
+    "approved_bmp_categories": [
+      "Erosion Control BMPs",
+      "Sediment Control BMPs",
+      "Slope / channel velocity controls",
+      "Stabilized construction entrance"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "City of Sioux Falls — partial coverage via SDDOT ESC/stormwater course manual (city design PDF 403)",
+      "page_or_section": "Coverage note"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "low",
+    "needs_human_review": true,
+    "review_notes": "ESC-focused state course manual — not a full municipal post-construction design manual.",
+    "fields_not_found": [
+      "design_criteria.water_quality_volume_method"
+    ]
+  },
+  "source": {
+    "document_url": "https://dot.sd.gov/media/kywakwy4/escontrolsw.pdf",
+    "landing_page_url": "https://danr.sd.gov/",
+    "retrieved_at": "2026-08-10T10:35:05.250Z",
+    "original_filename": "sioux-falls-sd.pdf"
+  }
+}

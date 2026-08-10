@@ -1,0 +1,107 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "City of Amarillo",
+    "jurisdiction_level": "municipality",
+    "state_code": "TX",
+    "document_title": "Storm Water Management Criteria Manual",
+    "version_or_edition": "Posted on City of Amarillo Web Page 03/13/08",
+    "adoption_or_effective_date": null,
+    "last_revised_date": "2008-03-13",
+    "relationship_to_state_manual": "independent"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [
+      2,
+      5,
+      10,
+      25,
+      100
+    ],
+    "water_quality_volume_method": "Minor and major drainage systems with design storm frequency criteria; Rational Method hydrology; street capacity for minor/major storms; detention and retention provisions (1.3.15). Peak flow curves provided for 2- through 100-year events.",
+    "peak_flow_calculation_method": [
+      "Rational Method",
+      "Minor / major storm street and gutter capacity",
+      "Storm sewer design storm frequency tables",
+      "Detention and retention sizing"
+    ],
+    "required_hydrologic_hydraulic_software": [],
+    "approved_bmp_categories": [
+      "Detention facilities",
+      "Retention facilities",
+      "Storm sewers / street conveyance",
+      "Open channels / culverts"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "CITY OF AMARILLO",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.jurisdiction_level",
+      "excerpt": "CITY OF AMARILLO",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.state_code",
+      "excerpt": "Amarillo Texas",
+      "page_or_section": "Title"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "Storm Water Management Criteria Manual",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.version_or_edition",
+      "excerpt": "Posted on City of Amarillo Web Page 03/13/08",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.last_revised_date",
+      "excerpt": "03/13/08",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.relationship_to_state_manual",
+      "excerpt": "City Storm Water Management Criteria Manual",
+      "page_or_section": "Introduction"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "2-Year / 5-Year / 10-Year / 25-Year Peak Flow Curves",
+      "page_or_section": "Chapter 2 figures"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "Minor Storm Provisions / Major Storm Provisions / Detention and Retention",
+      "page_or_section": "1.3 / 1.3.15"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "2.2 RATIONAL METHOD",
+      "page_or_section": "Chapter 2"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Detention and Retention",
+      "page_or_section": "1.3.15"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "medium",
+    "needs_human_review": true,
+    "review_notes": "2008-posted criteria manual still hosted 2024; confirm current adoption status.",
+    "fields_not_found": [
+      "document_metadata.adoption_or_effective_date",
+      "design_criteria.required_hydrologic_hydraulic_software"
+    ]
+  },
+  "source": {
+    "document_url": "https://www.amarillo.gov/wp-content/uploads/2024/09/Storm-Water-Management-Cri.pdf",
+    "landing_page_url": "https://www.amarillo.gov/capital-projects-and-development/",
+    "retrieved_at": "2026-08-10T08:48:28.515Z",
+    "original_filename": "amarillo-tx.pdf"
+  }
+}

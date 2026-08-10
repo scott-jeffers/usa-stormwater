@@ -1,0 +1,53 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "City of Fort Collins",
+    "jurisdiction_level": "municipality",
+    "state_code": "CO",
+    "document_title": "Urban Storm Drainage Criteria Manual Volume 3 (MHFD/UDFCD) — regional Front Range reference",
+    "version_or_edition": "November 2015 (Vol.3 Ch.1)",
+    "adoption_or_effective_date": null,
+    "last_revised_date": null,
+    "relationship_to_state_manual": "adopts_state_manual_directly"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [
+      2
+    ],
+    "water_quality_volume_method": "Water Quality Capture Volume (WQCV) based on runoff from 0.6 inches of precipitation within the MHFD/UDFCD boundary (≈80th percentile storm); remaining runoff after volume reduction treated through capture and slow release of the WQCV. City drainage portals often HTML/403 — Front Range MS4s commonly apply USDCM Volume 3.",
+    "peak_flow_calculation_method": [],
+    "required_hydrologic_hydraulic_software": [],
+    "approved_bmp_categories": [
+      "Grass Buffers / Swales",
+      "Bioretention",
+      "Permeable Pavement",
+      "Extended Detention Basins",
+      "Sand Filters",
+      "Constructed Wetland / Retention Ponds",
+      "Underground / Source Control BMPs"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "City of Fort Collins Front Range MS4 — coverage via MHFD/UDFCD Volume 3 WQCV",
+      "page_or_section": "Coverage note"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "Water Quality Capture Volume (WQCV) based on runoff from 0.6 inches",
+      "page_or_section": "USDCM Vol.3"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "medium",
+    "needs_human_review": true,
+    "review_notes": "Regional MHFD criteria — prefer city-specific drainage criteria manual when a durable public PDF is available.",
+    "fields_not_found": []
+  },
+  "source": {
+    "document_url": "https://www.mhfd.org/files/7af5d4c2f/03_Chapter-1-Stormwater-Management.pdf",
+    "landing_page_url": "https://www.fcgov.com/",
+    "retrieved_at": "2026-08-10T10:35:05.250Z",
+    "original_filename": "fort-collins-co.pdf"
+  }
+}

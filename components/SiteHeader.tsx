@@ -3,7 +3,7 @@ import Link from "next/link";
 export function SiteHeader() {
   return (
     <header className="sticky top-0 z-40 border-b border-slate-200/80 bg-white/80 backdrop-blur-md">
-      <div className="mx-auto flex h-14 max-w-6xl items-center px-4 sm:px-6 lg:px-8">
+      <div className="mx-auto flex h-14 max-w-6xl items-center justify-between gap-4 px-4 sm:px-6 lg:px-8">
         <Link
           href="/"
           className="group flex items-center gap-2.5 text-ink transition-opacity hover:opacity-80"
@@ -13,6 +13,14 @@ export function SiteHeader() {
             Stormwater Atlas
           </span>
         </Link>
+        <nav className="flex items-center gap-4 text-sm">
+          <Link
+            href="/about/"
+            className="font-medium text-slate-600 transition-colors hover:text-water-link"
+          >
+            About
+          </Link>
+        </nav>
       </div>
     </header>
   );

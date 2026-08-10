@@ -1,0 +1,88 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "City of Pittsburgh",
+    "jurisdiction_level": "municipality",
+    "state_code": "PA",
+    "document_title": "Stormwater Design Manual",
+    "version_or_edition": null,
+    "adoption_or_effective_date": null,
+    "last_revised_date": null,
+    "relationship_to_state_manual": "independent"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [],
+    "water_quality_volume_method": "Volume Control (Section 2.2.a): stormwater facilities shall capture at least the first two (2) inches of runoff; volume control tied to managing runoff from the 95th percentile storm (§1303.03). Includes water quality treatment, volume control offsets/incentives. Rate Control (Section 2.2.b) uses NOAA Atlas 14 climate-change design rain events.",
+    "peak_flow_calculation_method": [
+      "Rate control modeling requirements (Section 2.2.b)",
+      "NOAA Atlas 14 and climate change design rain events",
+      "Rate control points of interest"
+    ],
+    "required_hydrologic_hydraulic_software": [],
+    "approved_bmp_categories": [
+      "Green roofs / rain gardens",
+      "Volume control BMPs",
+      "Rate control facilities",
+      "Stormwater BMP design standards (Section 4)"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "City of Pittsburgh",
+      "page_or_section": "Section 1.1"
+    },
+    {
+      "field": "document_metadata.jurisdiction_level",
+      "excerpt": "City of Pittsburgh",
+      "page_or_section": "Title"
+    },
+    {
+      "field": "document_metadata.state_code",
+      "excerpt": "Pennsylvania / Title Thirteen",
+      "page_or_section": "Introduction"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "STORMWATER DESIGN MANUAL",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.relationship_to_state_manual",
+      "excerpt": "Title Thirteen Stormwater Management",
+      "page_or_section": "Introduction"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "Stormwater facilities shall capture at least the first two (2) inches of runoff",
+      "page_or_section": "Section 2.2.a Volume Control"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "NOAA Atlas 14 and Climate Change Design Rain Events",
+      "page_or_section": "Section 2.2.b.i"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "green roofs and rain gardens",
+      "page_or_section": "Section 2.2.a"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "high",
+    "needs_human_review": false,
+    "review_notes": "Pittsburgh Stormwater Design Manual; 2-inch / 95th percentile volume control confirmed.",
+    "fields_not_found": [
+      "document_metadata.version_or_edition",
+      "document_metadata.adoption_or_effective_date",
+      "document_metadata.last_revised_date",
+      "design_criteria.design_storm_return_periods_years",
+      "design_criteria.required_hydrologic_hydraulic_software"
+    ]
+  },
+  "source": {
+    "document_url": "https://engage.pittsburghpa.gov/download_file/2830/541",
+    "landing_page_url": "https://www.pittsburghpa.gov/Business-Development/Zoning/Plan-Reviews-and-Notices/Environmental-Review/Stormwater",
+    "retrieved_at": "2026-08-10T08:30:22.061Z",
+    "original_filename": "pittsburgh-pa.pdf"
+  }
+}

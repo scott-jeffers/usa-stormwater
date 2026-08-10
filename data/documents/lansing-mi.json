@@ -1,0 +1,67 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "City of Lansing",
+    "jurisdiction_level": "municipality",
+    "state_code": "MI",
+    "document_title": "Stormwater Management Design Manual",
+    "version_or_edition": null,
+    "adoption_or_effective_date": null,
+    "last_revised_date": null,
+    "relationship_to_state_manual": "independent"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [
+      1,
+      2,
+      10,
+      50,
+      100
+    ],
+    "water_quality_volume_method": "EGLE-designated Lansing-area water quality treatment volume from 0.9 inches of rainfall (producing storms). Treat by retaining the WQ volume, capturing it in an SCM then filtering/releasing, or filtering continuously. Channel protection applies up to the 2-year 24-hour storm (post ≤ pre volume and peak). Collection system: 10-year 24-hour (non-sag) / 50-year 24-hour (sag).",
+    "peak_flow_calculation_method": [
+      "Water quality treatment volume (0.9 in)",
+      "Channel protection (2-year 24-hour post ≤ pre)",
+      "Collection system peak (10-/50-year)",
+      "SDST User's Manual example methods"
+    ],
+    "required_hydrologic_hydraulic_software": [],
+    "approved_bmp_categories": [
+      "Stormwater control measures (SCMs)",
+      "Retention / infiltration",
+      "Filtration SCMs",
+      "Detention / flood control SCMs",
+      "Bioretention / vegetated practices"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "City of Lansing Stormwater Management Design Manual",
+      "page_or_section": "Title / cover"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "producing storms, which for the Lansing area has been designated by EGLE to be 0.9 inches of rainfall",
+      "page_or_section": "Water Quality Treatment Volume"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "Channel Protection Up to and including the 2-year 24-hour; Collection System 10-year / 50-year 24-hour",
+      "page_or_section": "Performance criteria table"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "medium",
+    "needs_human_review": true,
+    "review_notes": "Extracted from Lansing Stormwater Management Design Manual PDF text; truncated tables/layout noise; EGLE 0.9\" WQv is clear.",
+    "fields_not_found": [
+      "document_metadata.version_or_edition"
+    ]
+  },
+  "source": {
+    "document_url": "https://content.civicplus.com/api/assets/mi-lansing/5275ad94-2c28-4941-9d23-67842b45023f?cache=1800",
+    "landing_page_url": "https://www.lansingmi.gov/",
+    "retrieved_at": "2026-08-10T10:02:27.846Z",
+    "original_filename": "lansing-mi.pdf"
+  }
+}

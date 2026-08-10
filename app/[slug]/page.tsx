@@ -264,7 +264,7 @@ export default async function ManualDetailPage({
             fieldsNotFound={fieldsNotFound}
           />
           <FieldWithEvidence
-            label="Required hydrologic/hydraulic software"
+            label="Hydrologic/hydraulic software"
             fieldPath="design_criteria.required_hydrologic_hydraulic_software"
             value={
               criteria.required_hydrologic_hydraulic_software.length

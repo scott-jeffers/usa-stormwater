@@ -1,0 +1,102 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "City of Garland",
+    "jurisdiction_level": "municipality",
+    "state_code": "TX",
+    "document_title": "Technical Standards Manual",
+    "version_or_edition": null,
+    "adoption_or_effective_date": "2015-05-19",
+    "last_revised_date": null,
+    "relationship_to_state_manual": "independent"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [
+      2,
+      10,
+      100
+    ],
+    "water_quality_volume_method": "TSM Chapter 4 drainage includes detention/retention facility design (4.11) and stormwater management requirements (Section 6). Downstream assessment: no increases in water surface elevations for the 2-, 10-, and 100-year storm events.",
+    "peak_flow_calculation_method": [
+      "Drainage plan and capacity analysis (TSM 4.04)",
+      "Downstream assessment (TSM 4.02)",
+      "Inlet location and capacity (4.09)",
+      "Detention/retention facility design (4.11)",
+      "2-/10-/100-year WSEL no-rise criterion"
+    ],
+    "required_hydrologic_hydraulic_software": [],
+    "approved_bmp_categories": [
+      "Detention ponds",
+      "Retention facilities",
+      "Storm drain / curb inlets",
+      "Construction stormwater quality BMPs"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "City of Garland",
+      "page_or_section": "Title"
+    },
+    {
+      "field": "document_metadata.jurisdiction_level",
+      "excerpt": "City of Garland",
+      "page_or_section": "Title"
+    },
+    {
+      "field": "document_metadata.state_code",
+      "excerpt": "Texas",
+      "page_or_section": "Title"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "Technical Standards Manual",
+      "page_or_section": "Title"
+    },
+    {
+      "field": "document_metadata.adoption_or_effective_date",
+      "excerpt": "Garland Development Code (GDC) on Tuesday, May 19, 2015",
+      "page_or_section": "TSM landing page / intro"
+    },
+    {
+      "field": "document_metadata.relationship_to_state_manual",
+      "excerpt": "Technical Standards Manual",
+      "page_or_section": "Title"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "No increases in water surface elevations for the 2-, 10-, and 100-year storm events",
+      "page_or_section": "Downstream assessment"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "4.11 Detention/Retention Facility Design",
+      "page_or_section": "Chapter 4"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "Drainage Plan and Capacity Analysis (see TSM Section 4.04)",
+      "page_or_section": "Submittals"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Detention/Retention Facility / Stormwater Quality BMPs",
+      "page_or_section": "Chapter 4 / Section 6"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "medium",
+    "needs_human_review": true,
+    "review_notes": "Large TSM; drainage Chapter 4 confirmed. Numeric detention volume formulas may need deeper pull.",
+    "fields_not_found": [
+      "document_metadata.version_or_edition",
+      "document_metadata.last_revised_date",
+      "design_criteria.required_hydrologic_hydraulic_software"
+    ]
+  },
+  "source": {
+    "document_url": "https://www.garlandtx.gov/DocumentCenter/View/459",
+    "landing_page_url": "https://www.garlandtx.gov/272/Technical-Standards-Manual",
+    "retrieved_at": "2026-08-10T08:30:22.061Z",
+    "original_filename": "garland-tx.pdf"
+  }
+}

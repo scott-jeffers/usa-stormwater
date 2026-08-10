@@ -1,0 +1,132 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "Dallas / North Central Texas (iSWM)",
+    "jurisdiction_level": "municipality",
+    "state_code": "TX",
+    "document_title": "iSWM Criteria Manual for Site Development and Construction",
+    "version_or_edition": "Revised January 2015 (December 2009 base)",
+    "adoption_or_effective_date": "2015-01",
+    "last_revised_date": "2015-01",
+    "relationship_to_state_manual": "independent"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [1, 25, 100],
+    "water_quality_volume_method": "Water Quality Protection Volume (WQv) based on 1.5 inches of rainfall (85th percentile storm), not a return-period storm. Option 2: treat WQv by reducing TSS from the development site for runoff from rainfalls up to 1.5 inches. Primary structural controls sized for WQv are expected to remove about 70–80% of annual average TSS load when designed per specifications. Methods to compute WQv referenced to Water Quality Technical Manual Section 1.2.",
+    "peak_flow_calculation_method": [
+      "Rational Method",
+      "SCS Unit Hydrograph Method",
+      "Streambank Protection: control 1-year, 24-hour storm (Streambank Protection Volume / SPV), including 24-hour extended detention option",
+      "Conveyance: 25-year, 24-hour storm",
+      "Flood Mitigation: 100-year, 24-hour storm",
+      "Downstream assessment required for streambank protection, conveyance, and flood mitigation"
+    ],
+    "required_hydrologic_hydraulic_software": [],
+    "approved_bmp_categories": [
+      "Bioretention",
+      "Enhanced swales (dry, wet, wetland)",
+      "Detention",
+      "Filter strips",
+      "Sand filters / filter boxes",
+      "Infiltration wells and trenches",
+      "Ponds",
+      "Porous surfaces",
+      "Green roofs",
+      "Rainwater harvesting",
+      "Wetlands",
+      "Submerged gravel wetlands",
+      "Alum treatment",
+      "Proprietary systems"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "assists cities and counties to achieve their goals of water quality protection, streambank protection, and flood mitigation",
+      "page_or_section": "Introduction / Program purpose"
+    },
+    {
+      "field": "document_metadata.jurisdiction_level",
+      "excerpt": "criteria that cities and counties may use as a component of their stormwater management related development regulations",
+      "page_or_section": "Criteria Manual overview"
+    },
+    {
+      "field": "document_metadata.state_code",
+      "excerpt": "TPDES Stormwater permit",
+      "page_or_section": "Table 1.3 Water Quality Option 3"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "iSWM Criteria Manual",
+      "page_or_section": "Running header / title"
+    },
+    {
+      "field": "document_metadata.version_or_edition",
+      "excerpt": "December 2009 / Revised 1/2015",
+      "page_or_section": "Footer"
+    },
+    {
+      "field": "document_metadata.adoption_or_effective_date",
+      "excerpt": "Revised 1/2015",
+      "page_or_section": "Footer"
+    },
+    {
+      "field": "document_metadata.last_revised_date",
+      "excerpt": "Revised 1/2015",
+      "page_or_section": "Footer"
+    },
+    {
+      "field": "document_metadata.relationship_to_state_manual",
+      "excerpt": "The criteria may be customized by local governments to meet specific local needs",
+      "page_or_section": "Criteria Manual introduction"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "\"Streambank Protection\" 1-year, 24-hour storm event; \"Conveyance\" 25-year, 24-hour storm event; \"Flood Mitigation\" 100-year, 24-hour storm event",
+      "page_or_section": "Table 1.2 Storm Events"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "\"Water Quality\" Criteria based on a volume of 1.5 inches of rainfall, not a storm frequency",
+      "page_or_section": "Table 1.2 Storm Events"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "Option 2: Treat the Water Quality Protection Volume (WQV) by reducing total suspended solids from the development site for runoff resulting from rainfalls of up to 1.5 inches (85th percentile storm)",
+      "page_or_section": "Table 1.3"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "The Water Quality Protection Volume (WQv) is the runoff from the first 1.5 inches of rainfall.",
+      "page_or_section": "Section 3.2.3"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "Rational Method / SCS Unit Hydrograph Method",
+      "page_or_section": "Technical methods list"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "Provide on-site controlled release of the 1-year, 24-hour storm event over a period of 24 hours (Streambank Protection Volume, SPV)",
+      "page_or_section": "Table 1.3 Streambank Protection Option 3"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Bioretention; Enhanced swales (dry, wet, wetland); Alum treatment; Detention; Filter strips; Sand filters, filter boxes, etc; Infiltration wells and trenches; Ponds; Porous surfaces; Proprietary systems; Green roofs; Rainwater harvesting; Wetlands; Submerged gravel wetlands",
+      "page_or_section": "Recommended Stormwater Control Practices"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "high",
+    "needs_human_review": true,
+    "review_notes": "NCTCOG iSWM Criteria Manual is regional guidance adopted/customized by many North Texas cities including Dallas. Local Provision boxes may alter criteria city-by-city; verify City of Dallas local provisions. Detailed hydrologic software requirements live in companion Technical Manuals, not mandated by name in this Criteria Manual.",
+    "fields_not_found": [
+      "design_criteria.required_hydrologic_hydraulic_software"
+    ]
+  },
+  "source": {
+    "document_url": "https://iswm.nctcog.org/Documents/iSWM_Criteria_Manual_01142015.pdf",
+    "landing_page_url": "https://iswm.nctcog.org/criteria-manual.html",
+    "retrieved_at": "2026-08-10T07:50:00.000Z",
+    "original_filename": "dallas-tx.pdf"
+  }
+}

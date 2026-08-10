@@ -1,0 +1,92 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "City of Plano",
+    "jurisdiction_level": "municipality",
+    "state_code": "TX",
+    "document_title": "Storm Drainage Design Manual",
+    "version_or_edition": null,
+    "adoption_or_effective_date": null,
+    "last_revised_date": null,
+    "relationship_to_state_manual": "independent"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [
+      100
+    ],
+    "water_quality_volume_method": "Section 5.0 Maintenance, Permitting, and Stormwater Quality; Stormwater Quality Plan requirements. Detention storage calculation in Section 3.9.",
+    "peak_flow_calculation_method": [
+      "Rational Method runoff calculation (Form C)",
+      "Detention storage calculation (Section 3.9.1)",
+      "100-year fully developed floodplain context for floodplain definition"
+    ],
+    "required_hydrologic_hydraulic_software": [],
+    "approved_bmp_categories": [
+      "Detention / stormwater storage",
+      "Storm drainage facilities"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "City of Plano (City)",
+      "page_or_section": "Purpose"
+    },
+    {
+      "field": "document_metadata.jurisdiction_level",
+      "excerpt": "City of Plano",
+      "page_or_section": "Purpose"
+    },
+    {
+      "field": "document_metadata.state_code",
+      "excerpt": "NCTCOG / TCEQ",
+      "page_or_section": "References"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "Stormwater Design Manual / Storm Drainage Design Manual",
+      "page_or_section": "Title / purpose"
+    },
+    {
+      "field": "document_metadata.relationship_to_state_manual",
+      "excerpt": "NCTCOG",
+      "page_or_section": "References"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "fully developed 100-year water surface elevation",
+      "page_or_section": "Definitions"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "Stormwater Quality Plan",
+      "page_or_section": "Section 5.1"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "Rational Method Runoff Calculation / Detention Storage Calculation",
+      "page_or_section": "Form C / Section 3.9"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Stormwater Storage and Detention",
+      "page_or_section": "Section 3.9"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "medium",
+    "needs_human_review": true,
+    "review_notes": "Plano storm drainage design manual; edition date not prominent in extract.",
+    "fields_not_found": [
+      "document_metadata.version_or_edition",
+      "document_metadata.adoption_or_effective_date",
+      "document_metadata.last_revised_date",
+      "design_criteria.required_hydrologic_hydraulic_software"
+    ]
+  },
+  "source": {
+    "document_url": "https://content.civicplus.com/api/assets/tx-plano/a66735c2-e8bd-4348-ad5f-fb5dedebdaef/final-city-of-plano-storm-drainage-design-manual-1-.pdf?scope=all&sq=1c8352d3-e41e-89e7-c087-e050ad0bd558",
+    "landing_page_url": "https://www.plano.gov/",
+    "retrieved_at": "2026-08-10T08:03:22.623Z",
+    "original_filename": "plano-tx.pdf"
+  }
+}

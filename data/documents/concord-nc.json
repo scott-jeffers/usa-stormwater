@@ -1,0 +1,54 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "City of Concord",
+    "jurisdiction_level": "municipality",
+    "state_code": "NC",
+    "document_title": "NCDEQ Stormwater Design Manual (City MS4 / LDO)",
+    "version_or_edition": "Revised: 1-3-2017",
+    "adoption_or_effective_date": "2017-01-03",
+    "last_revised_date": "2017-01-03",
+    "relationship_to_state_manual": "adopts_state_manual_directly"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [
+      10
+    ],
+    "water_quality_volume_method": "Concord MS4 follows NCDEQ Stormwater Design Manual MDC. Combined SCM design volume handles the required storm depth for the applicable stormwater program (e.g., 1\" for runoff treatment under Rule 15A NCAC 02H .1021(6) in non-coastal HQW/ORW zones).",
+    "peak_flow_calculation_method": [
+      "NCDEQ MDC 10-year outlet erosion protection"
+    ],
+    "required_hydrologic_hydraulic_software": [],
+    "approved_bmp_categories": [
+      "Infiltration systems",
+      "Bioretention cells",
+      "Permeable pavement",
+      "Vegetated swales",
+      "Level spreader-filter strips",
+      "SCM devices per 15A NCAC 02H .1051–.1062"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "City of Concord MS4 uses NCDEQ Stormwater Design Manual",
+      "page_or_section": "Coverage note"
+    },
+    {
+      "field": "document_metadata.relationship_to_state_manual",
+      "excerpt": "adopts_state_manual_directly — NCDEQ MDC",
+      "page_or_section": "Coverage note"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "medium",
+    "needs_human_review": true,
+    "review_notes": "Municipality coverage via NCDEQ Design Manual (Cary/High Point pattern).",
+    "fields_not_found": []
+  },
+  "source": {
+    "document_url": "https://www.deq.nc.gov/energy-mineral-and-land-resources/stormwater/bmp-manual/c-0-mdc-all-scms/download",
+    "landing_page_url": "https://www.deq.nc.gov/about/divisions/energy-mineral-and-land-resources/stormwater/stormwater-program/stormwater-design-manual",
+    "retrieved_at": "2026-08-10T10:02:27.846Z",
+    "original_filename": "concord-nc.pdf"
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "Prince Georges County",
+    "jurisdiction_level": "county",
+    "state_code": "MD",
+    "document_title": "Maryland Stormwater Design Manual (county implements ESD to MEP)",
+    "version_or_edition": "Volume One",
+    "adoption_or_effective_date": null,
+    "last_revised_date": null,
+    "relationship_to_state_manual": "adopts_state_manual_directly"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [1, 2, 10, 100],
+    "water_quality_volume_method": "WQv is calculated as (P)(Rv)(A)/12, where P is the rainfall depth (1.0 inch in the Eastern Rainfall Zone, 0.9 inch in the Western Rainfall Zone), Rv is the volumetric runoff coefficient (0.05 + 0.009 * I), and A is the site area in acres.",
+    "peak_flow_calculation_method": ["TR-55", "TR-20"],
+    "required_hydrologic_hydraulic_software": ["TR-20", "TR-55"],
+    "approved_bmp_categories": [
+      "Stormwater Ponds",
+      "Stormwater Wetlands",
+      "Infiltration Practices",
+      "Filtering Systems",
+      "Open Channel Practices",
+      "Non-structural Practices"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "Prince George's County implements Maryland SWM Design Manual",
+      "page_or_section": "Coverage note"
+    },
+    {
+      "field": "document_metadata.jurisdiction_level",
+      "excerpt": "Prince Georges County",
+      "page_or_section": "Coverage note"
+    },
+    {
+      "field": "document_metadata.state_code",
+      "excerpt": "State of Maryland",
+      "page_or_section": "TOC"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "Maryland Stormwater Design Manual",
+      "page_or_section": "TOC-1"
+    },
+    {
+      "field": "document_metadata.version_or_edition",
+      "excerpt": "Volume One",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.relationship_to_state_manual",
+      "excerpt": "adopts_state_manual_directly — Maryland SWM Design Manual ESD to MEP",
+      "page_or_section": "Coverage note"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "1, 2, 10, 100 year design storms (Maryland SWM Design Manual)",
+      "page_or_section": "Design criteria"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "WQv is calculated as (P)(Rv)(A)/12, where P is the rainfall depth (1.0 inch in the Eastern Rainfall Zone, 0.9 inch in the Western Rainfall Zone)",
+      "page_or_section": "WQv chapter"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "TR-55 / TR-20",
+      "page_or_section": "Hydrology"
+    },
+    {
+      "field": "design_criteria.required_hydrologic_hydraulic_software",
+      "excerpt": "TR-20, TR-55",
+      "page_or_section": "Software guidance"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Stormwater Ponds; Stormwater Wetlands; Infiltration Practices; Filtering Systems; Open Channel Practices; Non-structural Practices",
+      "page_or_section": "BMP chapters"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "medium",
+    "needs_human_review": true,
+    "review_notes": "County-level coverage using Maryland SWM Design Manual Volume 1 (ESD to MEP). Local Prince George's supplements not separately ingested.",
+    "fields_not_found": [
+      "document_metadata.adoption_or_effective_date",
+      "document_metadata.last_revised_date"
+    ]
+  },
+  "source": {
+    "document_url": "https://mde.maryland.gov/programs/water/StormwaterManagementProgram/Documents/www.mde.state.md.us/assets/document/sedimentstormwater/MD%20SWM%20Volume%201.pdf",
+    "landing_page_url": "https://mde.maryland.gov/programs/water/stormwatermanagementprogram/pages/stormwater_design.aspx",
+    "retrieved_at": "2026-08-10T09:15:00.000Z",
+    "original_filename": "prince-georges-county-md.pdf"
+  }
+}

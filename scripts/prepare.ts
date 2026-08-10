@@ -13,6 +13,10 @@ import {
   samplesQueuePath,
   writePreparedText,
 } from "./lib/pdfText";
+import {
+  buildCoverageReport,
+  formatP1GapLines,
+} from "../lib/coverage";
 
 const QUEUE_DIR = path.resolve(process.cwd(), "data/queue");
 const MANIFEST_PATH = path.join(QUEUE_DIR, "manifest.json");
@@ -65,7 +69,7 @@ async function appendLog(line: object): Promise<void> {
   await appendFile(RUN_LOG_PATH, JSON.stringify(line) + "\n", "utf-8");
 }
 
-async function writeNotes(
+export async function writeNotes(
   manifest: ManifestJob[],
   progress: ProgressMap
 ): Promise<void> {
@@ -108,6 +112,24 @@ ${done.length ? done.join("\n") : "_none_"}
 ## Skipped
 
 ${skipped.length ? skipped.join("\n") : "_none_"}
+
+## Coverage gaps (P1)
+
+${(() => {
+  try {
+    const report = buildCoverageReport({ tierFilter: "p1" });
+    const lines = formatP1GapLines(report, 10);
+    const extra =
+      report.summary.byTier.p1 > 10
+        ? `\n_…and ${report.summary.byTier.p1 - 10} more. Full report: \`data/coverage/REPORT.md\` (run \`npm run coverage:report\`)._`
+        : `\n_Full report: \`data/coverage/REPORT.md\` (run \`npm run coverage:report\`)._`;
+    return (lines.length ? lines.join("\n") : "_none_") + extra;
+  } catch (error) {
+    return `_Coverage report unavailable: ${
+      error instanceof Error ? error.message : String(error)
+    }_`;
+  }
+})()}
 `;
   await writeFile(NOTES_PATH, body, "utf-8");
 }
@@ -236,7 +258,13 @@ async function main() {
   console.log(`\nNotes: ${path.relative(process.cwd(), NOTES_PATH)}`);
 }
 
-main().catch((e) => {
-  console.error(e);
-  process.exit(1);
-});
+const isDirectRun =
+  process.argv[1] != null &&
+  /prepare\.(ts|js|mts|mjs|cjs)$/.test(process.argv[1].replace(/\\/g, "/"));
+
+if (isDirectRun) {
+  main().catch((e) => {
+    console.error(e);
+    process.exit(1);
+  });
+}

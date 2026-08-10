@@ -1,0 +1,95 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "City of Winston-Salem",
+    "jurisdiction_level": "municipality",
+    "state_code": "NC",
+    "document_title": "Infrastructure Development Standards (Winston-Salem / Forsyth County)",
+    "version_or_edition": "2020 (Revised April 2020)",
+    "adoption_or_effective_date": null,
+    "last_revised_date": "2020-04",
+    "relationship_to_state_manual": "adopts_state_manual_directly"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [],
+    "water_quality_volume_method": "Stormwater management and permitting administered under City Code Chapter 75 with NCDEQ Stormwater Design Manual MDC (85% TSS SCMs; first-inch / 1-year rate criteria commonly applied per city post-construction permit process). Infrastructure Development Standards cover storm drain systems and stormwater management process (Sections IV / VI / VII).",
+    "peak_flow_calculation_method": [
+      "Storm drain system design standards (Section IV)",
+      "Stormwater management permitting process",
+      "NCDEQ Land Quality / stormwater standards coordination"
+    ],
+    "required_hydrologic_hydraulic_software": [],
+    "approved_bmp_categories": [
+      "NCDEQ-approved SCMs (85% TSS)",
+      "Storm drain systems",
+      "Post-construction stormwater management facilities"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "City of Winston-Salem",
+      "page_or_section": "Applicability"
+    },
+    {
+      "field": "document_metadata.jurisdiction_level",
+      "excerpt": "City of Winston Salem",
+      "page_or_section": "Standards apply"
+    },
+    {
+      "field": "document_metadata.state_code",
+      "excerpt": "N.C. / NCDEQ",
+      "page_or_section": "Standards"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "Infrastructure Development Standards",
+      "page_or_section": "Title"
+    },
+    {
+      "field": "document_metadata.version_or_edition",
+      "excerpt": "2020 Revised April 2020",
+      "page_or_section": "Filename / cover"
+    },
+    {
+      "field": "document_metadata.last_revised_date",
+      "excerpt": "April 2020",
+      "page_or_section": "Filename"
+    },
+    {
+      "field": "document_metadata.relationship_to_state_manual",
+      "excerpt": "most current standards of the Land Quality Section of the NCDEQ",
+      "page_or_section": "Checklist"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "C. STORMWATER MANAGEMENT",
+      "page_or_section": "Section IV-14"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "Storm Drain System",
+      "page_or_section": "Section IV-5"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Stormwater Management Permit / NCDEQ",
+      "page_or_section": "Section VI / checklist"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "low",
+    "needs_human_review": true,
+    "review_notes": "IDS is process/infrastructure-heavy; numeric post-construction criteria live mainly in Chapter 75 ordinance + NCDEQ manual. Consider supplementing with ordinance PDF later.",
+    "fields_not_found": [
+      "document_metadata.adoption_or_effective_date",
+      "design_criteria.design_storm_return_periods_years",
+      "design_criteria.required_hydrologic_hydraulic_software"
+    ]
+  },
+  "source": {
+    "document_url": "https://www.cityofws.org/DocumentCenter/View/14134/Infrastructure-Development-Standards-2020-Revised-April-2020-PDF",
+    "landing_page_url": "https://www.cityofws.org/",
+    "retrieved_at": "2026-08-10T08:30:22.061Z",
+    "original_filename": "winston-salem-nc.pdf"
+  }
+}

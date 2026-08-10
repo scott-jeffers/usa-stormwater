@@ -1,0 +1,54 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "City of Frankfort",
+    "jurisdiction_level": "municipality",
+    "state_code": "KY",
+    "document_title": "LFUCG Stormwater Manual (KY urban post-construction reference for capital)",
+    "version_or_edition": "2026 (effective May 1, 2026)",
+    "adoption_or_effective_date": "2026-05-01",
+    "last_revised_date": "2026-05-01",
+    "relationship_to_state_manual": "unknown"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [
+      10,
+      100
+    ],
+    "water_quality_volume_method": "No durable Frankfort city design-manual PDF found. Using LFUCG Stormwater Manual as a Kentucky urban MS4 post-construction reference: WQv for new development — treat runoff from impervious areas for the 90th percentile storm of 1.2 inches; streambank protection via 24-hour detention of the 10-year 6-hour storm volume.",
+    "peak_flow_calculation_method": [
+      "Post-construction water quantity and quality criteria",
+      "Detention for 10-year and 100-year development levels"
+    ],
+    "required_hydrologic_hydraulic_software": [],
+    "approved_bmp_categories": [
+      "Green infrastructure practices",
+      "Extended detention basins",
+      "Underground detention",
+      "Post-construction BMPs"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "Frankfort capital — coverage via LFUCG Stormwater Manual as KY urban reference (not a Frankfort-adopted document)",
+      "page_or_section": "Coverage note"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "90th percentile storm of 1.2 inches",
+      "page_or_section": "LFUCG Stormwater Manual"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "low",
+    "needs_human_review": true,
+    "review_notes": "Placeholder using Lexington-Fayette manual criteria — replace when Frankfort publishes a local drainage/stormwater design PDF.",
+    "fields_not_found": []
+  },
+  "source": {
+    "document_url": "https://content.lexingtonky.gov/sites/default/files/2026-04/LFUCG%20Stormwater%20Manual%2005.01.26.pdf",
+    "landing_page_url": "https://www.lexingtonky.gov/government/departments-programs/environmental-quality-public-works/water-quality/municipal-separate-storm-sewer-system-ms4",
+    "retrieved_at": "2026-08-10T10:18:37.456Z",
+    "original_filename": "frankfort-ky.pdf"
+  }
+}

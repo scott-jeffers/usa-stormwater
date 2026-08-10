@@ -1,0 +1,62 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "City of High Point",
+    "jurisdiction_level": "municipality",
+    "state_code": "NC",
+    "document_title": "Stormwater Best Management Practices Design Manual",
+    "version_or_edition": "Effective January 1, 2009",
+    "adoption_or_effective_date": "2009-01-01",
+    "last_revised_date": null,
+    "relationship_to_state_manual": "adopts_state_manual_directly"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [
+      10,
+      100
+    ],
+    "water_quality_volume_method": "Adopts NC DWQ/DEQ Stormwater BMP Manual jurisdiction-wide (Phase II). WS-IV high-density: control first 1\" of rainfall (and 85% TSS) where BUA >24% (or >12% in lower Randleman). City-extra: developments with BUA between 6% and those thresholds require additional BMPs controlling the first ½\" (natural infiltration, dry detention, infiltration trenches). Wet detention principal spillway = 10-year pre-development; emergency spillway = 100-year; ≥1 ft freeboard to dam crest.",
+    "peak_flow_calculation_method": [
+      "NCDEQ / DWQ BMP Manual methods",
+      "Wet detention: post ≤ pre 10-year principal spillway",
+      "Emergency spillway sized for 100-year"
+    ],
+    "required_hydrologic_hydraulic_software": [],
+    "approved_bmp_categories": [
+      "NCDEQ / DWQ BMP Manual practices",
+      "Wet detention basins (city extras)",
+      "Natural infiltration areas",
+      "Dry detention ponds",
+      "Infiltration trenches",
+      "Other BMPs controlling first 0.5\" rainfall"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "Stormwater Best Management Practices Design Manual",
+      "page_or_section": "Title"
+    },
+    {
+      "field": "document_metadata.relationship_to_state_manual",
+      "excerpt": "the City of High Point has adopted the Division of Water Quality’s Stormwater Best Management Practices Manual",
+      "page_or_section": "Introduction"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "must control the first 1” of rainfall ... Additional BMPs ... control the first ½” of rainfall",
+      "page_or_section": "Introduction"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "high",
+    "needs_human_review": false,
+    "review_notes": null,
+    "fields_not_found": []
+  },
+  "source": {
+    "document_url": "https://www.highpointnc.gov/DocumentCenter/View/1533",
+    "landing_page_url": "https://www.highpointnc.gov/",
+    "retrieved_at": "2026-08-10T10:02:27.846Z",
+    "original_filename": "high-point-nc.pdf"
+  }
+}

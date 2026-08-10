@@ -1,0 +1,69 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "City of Cedar Rapids",
+    "jurisdiction_level": "municipality",
+    "state_code": "IA",
+    "document_title": "SUDAS Design Manual — Chapter 2 Stormwater (city adopts SUDAS + ISWMM)",
+    "version_or_edition": "Chapter 02 (SUDAS Design Manual)",
+    "adoption_or_effective_date": "2019-01-01",
+    "last_revised_date": null,
+    "relationship_to_state_manual": "adopts_state_manual_directly"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [
+      2,
+      10,
+      100
+    ],
+    "water_quality_volume_method": "Cedar Rapids adopted SUDAS effective Jan 1, 2019 (with city General Supplements). Ordinance Ch. 72 references Iowa Stormwater Management Manual (ISWMM) Design Standards for Stormwater Management Plans. SUDAS Ch. 2 defines Water Quality Volume (WQv) and Recharge Volume (Rev) and covers conveyance/detention (2G); ISWMM guides post-construction practice sizing.",
+    "peak_flow_calculation_method": [
+      "Minor design storm (generally 2- to 10-year) for conveyance",
+      "Major design storm (typically 100-year) for flood routing",
+      "Detention basin design methods (Section 2G)",
+      "ISWMM criteria for post-construction practices"
+    ],
+    "required_hydrologic_hydraulic_software": [],
+    "approved_bmp_categories": [
+      "Detention practices",
+      "Storm sewer / intake conveyance",
+      "Water quality / recharge volume practices (ISWMM)"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "City of Cedar Rapids adopted SUDAS effective January 1, 2019",
+      "page_or_section": "City SUDAS page"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "Chapter 2: Stormwater",
+      "page_or_section": "SUDAS Design Manual"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "Water Quality Volume, WQv / Design Standards include ISWMM",
+      "page_or_section": "SUDAS Ch.2 / Municode Ch.72"
+    },
+    {
+      "field": "document_metadata.relationship_to_state_manual",
+      "excerpt": "adopts_state_manual_directly — SUDAS + ISWMM",
+      "page_or_section": "Coverage note"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "medium",
+    "needs_human_review": true,
+    "review_notes": "Same SUDAS Ch.2 PDF as Des Moines coverage pattern; city supplements and ISWMM also apply.",
+    "fields_not_found": [
+      "document_metadata.last_revised_date",
+      "design_criteria.required_hydrologic_hydraulic_software"
+    ]
+  },
+  "source": {
+    "document_url": "https://www.iowasudas.org/wp-content/uploads/sites/15/2020/03/Chapter_02.pdf",
+    "landing_page_url": "https://cedar-rapids.org/local_government/departments_g_-_v/public_works/sudas_statewide_urban_design_and_specifications.php",
+    "retrieved_at": "2026-08-10T09:39:14.794Z",
+    "original_filename": "cedar-rapids-ia.pdf"
+  }
+}

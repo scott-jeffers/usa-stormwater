@@ -1,0 +1,138 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "City of Columbus",
+    "jurisdiction_level": "municipality",
+    "state_code": "OH",
+    "document_title": "Stormwater Drainage Manual",
+    "version_or_edition": "June 2025",
+    "adoption_or_effective_date": "2025-08-26",
+    "last_revised_date": "2025-06",
+    "relationship_to_state_manual": "independent"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [1, 2, 5, 10, 25, 50, 100],
+    "water_quality_volume_method": "Post-construction stormwater quality controls sized to the Water Quality Volume (WQv) and Water Quality Flow (WQf) per Section 3.3 / 6.2.9, using Ohio EPA Construction General Permit post-construction criteria and Ohio Rainwater and Land Development Manual methods (more stringent of OEPA vs Columbus criteria applies). Combined-sewer discharges are exempt from Section 3.3 water quality controls unless separation/redirection is planned. Extended detention example: release 50% of WQv in 8 hours and 100% of WQv per design tables.",
+    "peak_flow_calculation_method": [
+      "Rational Method (peak flows; up to 200 acres)",
+      "USGS Regression Equations (streams; ~17–2600 acres)",
+      "NRCS (SCS) Curve Number Method (peak flows up to 640 acres)",
+      "Approved hydrograph methods (required for detention design and downstream analysis)",
+      "Critical storm method for quantity control (Table 3-1): release ≤ critical storm at ≤ 1-year predevelopment peak; 100-year post ≤ 10-year predevelopment peak",
+      "SCS Type II 24-hour design storm hyetograph (Table 2-3) with NOAA Atlas 14 Central Ohio IDF"
+    ],
+    "required_hydrologic_hydraulic_software": [],
+    "approved_bmp_categories": [
+      "Dry detention pond",
+      "Wet detention pond",
+      "Constructed wetland / shallow constructed wetland",
+      "Parking lot storage",
+      "Infiltration basin",
+      "Vegetated filter strips",
+      "Underground detention system",
+      "Permeable pavement",
+      "Bioretention facilities (GI)",
+      "Sand/media filter"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "Columbus Stormwater Drainage Manual June 2025 / Division of Sewerage and Drainage",
+      "page_or_section": "Cover / headers"
+    },
+    {
+      "field": "document_metadata.jurisdiction_level",
+      "excerpt": "Columbus Stormwater Drainage Manual June 2025 / Division of Sewerage and Drainage",
+      "page_or_section": "Cover / headers"
+    },
+    {
+      "field": "document_metadata.state_code",
+      "excerpt": "Ohio EPA Construction General Permit / Rainwater and Land Development Manual",
+      "page_or_section": "Section 3.3 / Definitions"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "Stormwater Drainage Manual",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.version_or_edition",
+      "excerpt": "June 2025",
+      "page_or_section": "Cover / List of Updates"
+    },
+    {
+      "field": "document_metadata.adoption_or_effective_date",
+      "excerpt": "Effective August 26, 2025, the 2024 Stormwater Drainage Manual and the 1994 Erosion",
+      "page_or_section": "Preface / Effective date"
+    },
+    {
+      "field": "document_metadata.last_revised_date",
+      "excerpt": "Stormwater Drainage Manual List of Updates June 2025",
+      "page_or_section": "List of Updates"
+    },
+    {
+      "field": "document_metadata.relationship_to_state_manual",
+      "excerpt": "The design criteria provided in this section are in addition to the criteria detailed in the Ohio Construction General Permit and the Ohio Rainwater and Land Development Manual.",
+      "page_or_section": "Section 3.3"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "Type II 24-Hour Distribution Rainfall (in) Frequency: 100-yr 50-yr 25-yr 10-yr 5-yr 2-yr 1-yr",
+      "page_or_section": "Table 2-3"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "Critical Storm Determination … 1-year, 2-year, 5-year, 10-year, 25-year, 50-year, 100-year",
+      "page_or_section": "Table 3-1"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "All runoff from development sites shall be directed to one or more stormwater quality controls designed according to: 1. Appropriate currently effective Ohio EPA Authorization for Stormwater Discharges Associated with Construction Activity… 3. Appropriate currently effective Ohio Rainwater and Land Development Manual, and 4. Criteria provided in Section 3.",
+      "page_or_section": "Section 3.3.1.1"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "WQv Water Quality Volume / Method used for calculating the Water Quality Volume (WQv)",
+      "page_or_section": "Acronyms / Table 2-2"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "For extended detention, release 50% WQv in 8 hours and release 100% WQv",
+      "page_or_section": "Section 3 bioretention/extended detention design table"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "The City allows three methods for calculating stormwater runoff peak flows: 1. The Rational Method… 2. USGS Regression Equations… 3. The Natural Resources Conservation Service (NRCS… Curve Number method…",
+      "page_or_section": "Section 2.2.1"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "Runoff from storm events less than or equal to the critical storm event shall be released from the site at a rate no greater than the peak runoff during a 1-year storm event under pre-developed conditions. Additionally, the peak runoff rate during the 100-year storm event shall be released at a rate less than or equal to the peak runoff rate during the 10-year storm event under pre-developed conditions",
+      "page_or_section": "Section 3.2.1"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "Design rainfall hyetographs distributed over a 24-hour period with the SCS Type II distribution are presented in Table 2-3.",
+      "page_or_section": "Section 2.2.2.1"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Dry Detention Pond; Wet Detention Pond; Constructed Wetland; Shallow Constructed Wetland; Parking Lot Storage; Infiltration basin; Vegetated Filter Strips; Underground Detention System; Permeable Pavement; Bioretention; Sand/Media Filter",
+      "page_or_section": "Table 3-2 Characterization of Post-Construction Stormwater Controls"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "high",
+    "needs_human_review": true,
+    "review_notes": "June 2025 Columbus SWDM. Explicit WQv rainfall depth equation is deferred to OEPA CGP / Rainwater and Land Development Manual rather than restated as a single Columbus-only formula in Section 3.3. No named proprietary modeling package is mandated (methods are specified). Manual text: effective August 26, 2025.",
+    "fields_not_found": [
+      "design_criteria.required_hydrologic_hydraulic_software"
+    ]
+  },
+  "source": {
+    "document_url": "https://www.columbus.gov/files/sharedassets/city/v/2/utilities/documents/sewer-publications/2025-stormwater-drainage-manual.pdf",
+    "landing_page_url": "https://www.columbus.gov/Services/Columbus-Water-Power/Information-for-Customers/Public-Utility-Contractors/Stormwater-Drainage-Manual",
+    "retrieved_at": "2026-08-10T07:45:00.000Z",
+    "original_filename": "columbus-oh.pdf"
+  }
+}

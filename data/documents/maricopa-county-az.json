@@ -1,0 +1,107 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "Maricopa County / Flood Control District of Maricopa County",
+    "jurisdiction_level": "county",
+    "state_code": "AZ",
+    "document_title": "Drainage Policies and Standards Manual for Maricopa County",
+    "version_or_edition": "Revised August 22, 2018 (document center label Nov 2025)",
+    "adoption_or_effective_date": "2018-08-22",
+    "last_revised_date": "2018-08-22",
+    "relationship_to_state_manual": "independent"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [
+      100
+    ],
+    "water_quality_volume_method": "Policy 3.6.6 First Flush: retain or treat the first 0.5 inches of direct runoff. Standard 6.10.2 Minimum Design Storm: new developments shall retain stormwater runoff from a 100-year, 2-hour duration storm (retention volume uses P = 100-year, 2-hour rainfall depth). Use with Drainage Design Manual for Maricopa County (Hydrology/Hydraulics/Erosion Control).",
+    "peak_flow_calculation_method": [
+      "100-year floodplain / base flood elevation definition",
+      "Design storm duration criteria (Table 6.2; 6- and 24-hour storms)",
+      "Retention basin percolation design factors (Tables 6.14–6.16)",
+      "Detention basin alternative standards (Standard 6.10.4)"
+    ],
+    "required_hydrologic_hydraulic_software": [],
+    "approved_bmp_categories": [
+      "Retention basins",
+      "Detention basins",
+      "First flush / green infrastructure",
+      "Stormwater storage facilities"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "Maricopa County",
+      "page_or_section": "Title"
+    },
+    {
+      "field": "document_metadata.jurisdiction_level",
+      "excerpt": "Maricopa County",
+      "page_or_section": "Title"
+    },
+    {
+      "field": "document_metadata.state_code",
+      "excerpt": "Arizona / ADWR State Standard 8-99",
+      "page_or_section": "References"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "Drainage Policies and Standards Manual for Maricopa County",
+      "page_or_section": "Title"
+    },
+    {
+      "field": "document_metadata.version_or_edition",
+      "excerpt": "Revised August 22, 2018",
+      "page_or_section": "Header"
+    },
+    {
+      "field": "document_metadata.adoption_or_effective_date",
+      "excerpt": "Revised August 22, 2018",
+      "page_or_section": "Header"
+    },
+    {
+      "field": "document_metadata.last_revised_date",
+      "excerpt": "Revised August 22, 2018",
+      "page_or_section": "Header"
+    },
+    {
+      "field": "document_metadata.relationship_to_state_manual",
+      "excerpt": "Drainage Design Manual for Maricopa County (DDM)",
+      "page_or_section": "Introduction"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "100-year, 2-hour duration storm",
+      "page_or_section": "Standard 6.10.2"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "minimum standard is \"First Flush\", and consists of retaining or treating the first 0.5 inches of direct",
+      "page_or_section": "Policy 3.6.6"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "shall make provisions to retain the stormwater runoff from a 100-year, 2-hour duration storm",
+      "page_or_section": "Standard 6.10.2"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Retention basins / Detention Basin Requirements",
+      "page_or_section": "Standards 6.10.x"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "high",
+    "needs_human_review": false,
+    "review_notes": "County policies/standards; technical hydrology in companion DDM volumes.",
+    "fields_not_found": [
+      "design_criteria.required_hydrologic_hydraulic_software"
+    ]
+  },
+  "source": {
+    "document_url": "https://www.esd.maricopa.gov/DocumentCenter/View/2369/Drainage-Policies-and-Standards-Manual-for-Maricopa-County---revised-112025-PDF",
+    "landing_page_url": "https://www.esd.maricopa.gov/",
+    "retrieved_at": "2026-08-10T08:24:40.117Z",
+    "original_filename": "maricopa-county-az.pdf"
+  }
+}

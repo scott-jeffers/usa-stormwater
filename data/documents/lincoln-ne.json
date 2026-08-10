@@ -1,0 +1,60 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "City of Lincoln",
+    "jurisdiction_level": "municipality",
+    "state_code": "NE",
+    "document_title": "Stormwater Post Construction Best Management Practices Guidance Manual",
+    "version_or_edition": "2020 Edition",
+    "adoption_or_effective_date": null,
+    "last_revised_date": "2020",
+    "relationship_to_state_manual": "independent"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [
+      2
+    ],
+    "water_quality_volume_method": "Post-construction BMPs sized to meet Lincoln Drainage Criteria Manual Chapter 8 / Municipal Code Ch.28.03 post-construction water quality rainfall event (percentile-based depth). Guidance notes most surface pollutants are collected during the first one-half inch of runoff; BMPs (bioretention, native plantings, filters, etc.) selected via matrices for rate, volume, and water quality treatment. Not a substitute for street/stormwater design standards in the Drainage Criteria Manual.",
+    "peak_flow_calculation_method": [
+      "Lincoln Drainage Criteria Manual hydrology / detention",
+      "BMP selection for rate, volume, and water quality"
+    ],
+    "required_hydrologic_hydraulic_software": [],
+    "approved_bmp_categories": [
+      "Bioretention",
+      "Native prairie / vegetation BMPs",
+      "Filter strips / swales",
+      "Permeable pavement / infiltration",
+      "Extended detention / settling practices",
+      "Other Chapter 8 Drainage Criteria Manual BMPs"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "Stormwater Post Construction Best Management Practices Guidance Manual City of Lincoln, Nebraska 2020 Edition",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "Most surface pollutants are collected during the first one-half",
+      "page_or_section": "BMP guidance narrative"
+    },
+    {
+      "field": "document_metadata.relationship_to_state_manual",
+      "excerpt": "City of Lincoln Drainage Criteria Manual provides additional information ... Chapter 8 - Stormwater Best Management Practices",
+      "page_or_section": "Introduction"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "medium",
+    "needs_human_review": true,
+    "review_notes": "BMP toolbox manual; exact WQv percentile depth is in Drainage Criteria Manual Ch.8 / Code 28.03 (often chaptered). First-half-inch pollutant narrative is explicit.",
+    "fields_not_found": []
+  },
+  "source": {
+    "document_url": "https://www.lincoln.ne.gov/files/sharedassets/public/v/1/ltu/utilities/watershed-management/best-management-practices/bmp-guidelines.pdf",
+    "landing_page_url": "https://www.lincoln.ne.gov/City/Departments/LTU/Utilities/Watershed-Management/Sustainable-Landscapes/Post-Construction-BMPs/Guidance-Manual",
+    "retrieved_at": "2026-08-10T10:35:05.250Z",
+    "original_filename": "lincoln-ne.pdf"
+  }
+}

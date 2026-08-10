@@ -1,0 +1,65 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "City of Beaumont / Jefferson County Drainage District No. 6",
+    "jurisdiction_level": "municipality",
+    "state_code": "TX",
+    "document_title": "Drainage Criteria Manual",
+    "version_or_edition": "July 2025 Update",
+    "adoption_or_effective_date": "2025-07-01",
+    "last_revised_date": "2025-07",
+    "relationship_to_state_manual": "independent"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [
+      2,
+      5,
+      10,
+      25,
+      50,
+      100
+    ],
+    "water_quality_volume_method": "DD6 Drainage Criteria Manual focuses on peak-flow conveyance and on-site detention/retention using Atlas 14 rainfall (10-/25-/50-/100-year 24-hour distributions). Explicit post-construction WQv depth is not a primary DD6 criterion; City of Beaumont MS4 SWMP is separate. Where City of Beaumont criteria conflict with DD6, the more restrictive applies.",
+    "peak_flow_calculation_method": [
+      "NOAA Atlas 14 precipitation-frequency (Texas Vol.11)",
+      "Rational Method intensity coefficients (Table 4-3)",
+      "On-site detention/retention routing (Ch.10)",
+      "10-/25-/50-/100-year peak flow conveyance within and from developments"
+    ],
+    "required_hydrologic_hydraulic_software": [],
+    "approved_bmp_categories": [
+      "On-site detention basins",
+      "Retention facilities",
+      "Open channels / storm sewers",
+      "Outfall / energy dissipation"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "Jefferson County Drainage District No. 6 Drainage Criteria Manual (July 2025 Update)",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "10-year, 25-year, 50-year, and 100-year peak flow runoff within the boundaries of subdivisions and developments",
+      "page_or_section": "Drainage Regulation intent"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "hypothetical 24-hr, 10-year, 25-year, 50-year, and 100-year storm rainfall distribution based on the Atlas 14 report",
+      "page_or_section": "Hydrologic Design Criteria"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "medium",
+    "needs_human_review": true,
+    "review_notes": "Drainage/detention criteria manual — limited explicit WQv; confirm Beaumont city post-construction water-quality standards separately.",
+    "fields_not_found": []
+  },
+  "source": {
+    "document_url": "https://dd6.org/wp-content/uploads/2025/07/Drainage-Criteria-Manual-Update-2025-FINAL-7-1-2025.pdf",
+    "landing_page_url": "https://dd6.org/",
+    "retrieved_at": "2026-08-10T10:42:30.501Z",
+    "original_filename": "beaumont-tx.pdf"
+  }
+}

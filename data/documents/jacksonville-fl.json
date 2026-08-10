@@ -1,0 +1,106 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "City of Jacksonville",
+    "jurisdiction_level": "municipality",
+    "state_code": "FL",
+    "document_title": "Land Development Procedures Manual Volume 2",
+    "version_or_edition": "Effective January 2026",
+    "adoption_or_effective_date": "2026-01-01",
+    "last_revised_date": null,
+    "relationship_to_state_manual": "independent"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [
+      3,
+      5,
+      10,
+      25,
+      50,
+      100
+    ],
+    "water_quality_volume_method": "Wet detention and other stormwater management facilities per LDPM Vol 2; Table 3.7-1 and related criteria. Rational SMF storage for 100-year; SCS for 25-year in specified contexts. MSMP 2070 rainfall depths for 3/5/10/25/50/100-year 24-hour storms.",
+    "peak_flow_calculation_method": [
+      "Rational Method and SCS methods as applicable",
+      "Stormwater management facility storage: Rational 100-year / SCS 25-year contexts",
+      "Design rainfall depths from MSMP 2070 for multiple return periods"
+    ],
+    "required_hydrologic_hydraulic_software": [],
+    "approved_bmp_categories": [
+      "Wet detention",
+      "Stormwater management facilities (SMFs)",
+      "Other LDPM Vol 2 BMPs"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "City of Jacksonville Land Development Procedures Manual",
+      "page_or_section": "Title"
+    },
+    {
+      "field": "document_metadata.jurisdiction_level",
+      "excerpt": "City of Jacksonville",
+      "page_or_section": "Title"
+    },
+    {
+      "field": "document_metadata.state_code",
+      "excerpt": "Florida",
+      "page_or_section": "Title"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "Land Development Procedures Manual Volume 2",
+      "page_or_section": "Title"
+    },
+    {
+      "field": "document_metadata.version_or_edition",
+      "excerpt": "effective January 2026",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.adoption_or_effective_date",
+      "excerpt": "January 2026",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.relationship_to_state_manual",
+      "excerpt": "LDPM Volume 2",
+      "page_or_section": "Title"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "3, 5, 10, 25, 50, 100-year 24-hour",
+      "page_or_section": "MSMP 2070 rainfall"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "wet detention Table 3.7-1",
+      "page_or_section": "Table 3.7-1"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "Rational SMF storage 100-year / SCS 25-year",
+      "page_or_section": "SMF design"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "wet detention",
+      "page_or_section": "Table 3.7-1"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "medium",
+    "needs_human_review": true,
+    "review_notes": "Jacksonville LDPM Vol 2 effective Jan 2026. Confirm exact Table 3.7-1 WQ criteria from PDF.",
+    "fields_not_found": [
+      "document_metadata.last_revised_date",
+      "design_criteria.required_hydrologic_hydraulic_software"
+    ]
+  },
+  "source": {
+    "document_url": "https://www.jacksonville.gov/getContentAsset/f2c6099d-cdf0-40da-b6a9-43e4c734282e/135b97c9-84fa-4e82-b956-0fbccec4aa1f/LDPM-Vol2-EFF-2026-01-30-CLEAN-ADA-508.pdf?language=en",
+    "landing_page_url": "https://www.jacksonville.gov/",
+    "retrieved_at": "2026-08-10T08:10:00.000Z",
+    "original_filename": "jacksonville-fl.pdf"
+  }
+}

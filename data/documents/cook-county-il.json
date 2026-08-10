@@ -1,0 +1,92 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "Cook County",
+    "jurisdiction_level": "county",
+    "state_code": "IL",
+    "document_title": "Technical Guidance Manual for the Implementation of the Watershed Management Ordinance",
+    "version_or_edition": "MWRD TGM (compiled articles; Article 5 stormwater)",
+    "adoption_or_effective_date": null,
+    "last_revised_date": null,
+    "relationship_to_state_manual": "independent"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [],
+    "water_quality_volume_method": "Volume control storage equals one (1) inch of stormwater runoff from newly developed impervious surfaces, treated using retention-based volume control practices first, then flow-through practices for any untreated portion. Site detention release rate must not exceed existing runoff rate (or calculated allowable release rate, whichever is smaller). Volume control storage may credit against required site detention volume.",
+    "peak_flow_calculation_method": [
+      "Existing vs proposed runoff comparison (no increase)",
+      "Site detention with allowable release rate",
+      "Curve number method (CN tables in TGM)"
+    ],
+    "required_hydrologic_hydraulic_software": [],
+    "approved_bmp_categories": [
+      "Retention-based volume control practices",
+      "Flow-through practices (vegetated swales, filter strips, oil/grit separators)",
+      "Site detention facilities",
+      "Erosion and sediment control BMPs"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "management of stormwater, floodplains, wetlands, and sewer construction for developments in Cook County",
+      "page_or_section": "TGM Introduction"
+    },
+    {
+      "field": "document_metadata.jurisdiction_level",
+      "excerpt": "Cook County",
+      "page_or_section": "TGM Introduction"
+    },
+    {
+      "field": "document_metadata.state_code",
+      "excerpt": "Metropolitan Water Reclamation District of Greater Chicago",
+      "page_or_section": "TGM Introduction"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "TECHNICAL GUIDANCE MANUAL FOR THE IMPLEMENTATION OF THE WATERSHED MANAGEMENT ORDINANCE",
+      "page_or_section": "Title"
+    },
+    {
+      "field": "document_metadata.version_or_edition",
+      "excerpt": "Technical Guidance Manual",
+      "page_or_section": "Footer"
+    },
+    {
+      "field": "document_metadata.relationship_to_state_manual",
+      "excerpt": "Watershed Management Ordinance (WMO) ... Cook County",
+      "page_or_section": "Introduction"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "requires that one (1) inch of stormwater runoff from all impervious surfaces of the development be treated using volume control practices",
+      "page_or_section": "Article 5 — Site Volume Control Requirements"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "allowable release rate from the site shall be either equal to or less than the existing runoff rate",
+      "page_or_section": "Article 5 — Site Stormwater Management"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Retention-based practices ... Flow-through practices ... vegetated swales, filter strips, or mechanical structures such as oil and grit separators",
+      "page_or_section": "Article 5 — Volume Control Practices"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "medium",
+    "needs_human_review": true,
+    "review_notes": "Extracted from MWRD TGM PDF (538 pages; text truncated/encoding degraded for some symbols). Criteria focus on Article 5 volume control (1 inch) and detention release-rate matching. WMO amendments after TGM compile may add detail.",
+    "fields_not_found": [
+      "document_metadata.adoption_or_effective_date",
+      "document_metadata.last_revised_date",
+      "design_criteria.design_storm_return_periods_years",
+      "design_criteria.required_hydrologic_hydraulic_software"
+    ]
+  },
+  "source": {
+    "document_url": "https://mwrd.org/sites/default/files/documents/TGM.pdf",
+    "landing_page_url": "https://mwrd.org/doing-business/watershed-management-ordinance-and-infiltrationinflow/watershed-management-ordinance-wmo-and-technical-guidance-manual-tgm/technical-guidance-manual-tgm",
+    "retrieved_at": "2026-08-10T09:19:00.000Z",
+    "original_filename": "cook-county-il.pdf"
+  }
+}

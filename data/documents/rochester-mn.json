@@ -1,0 +1,68 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "City of Rochester",
+    "jurisdiction_level": "municipality",
+    "state_code": "MN",
+    "document_title": "Storm Water Management Plan",
+    "version_or_edition": "October 1997; Revised December 1999",
+    "adoption_or_effective_date": "1999-12-01",
+    "last_revised_date": "1999-12-01",
+    "relationship_to_state_manual": "independent"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [
+      10,
+      100
+    ],
+    "water_quality_volume_method": "Storm sewers: 10-year. Major drainage / ponds: greater of 100-year 24-hour (6.2 in) or 10-day snowmelt; SCS Type II distribution. Subdivision ordinance references this plan. Regional rate-control and water-quality basins recommended; wet detention highlighted for sediment/pollutant removal (Ch.6).",
+    "peak_flow_calculation_method": [
+      "SCS 24-hour Type II (100-year intensity)",
+      "10-year storm sewer design",
+      "Regional detention / rate-control basin modeling"
+    ],
+    "required_hydrologic_hydraulic_software": [],
+    "approved_bmp_categories": [
+      "Storm sewers / trunk drainage",
+      "Regional detention / rate-control basins",
+      "Water quality / wet detention basins",
+      "Sedimentation basins",
+      "Created or restored wetlands"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "Storm Water Management Plan Rochester, Minnesota",
+      "page_or_section": "Title"
+    },
+    {
+      "field": "document_metadata.version_or_edition",
+      "excerpt": "October, 1997 Revised December, 1999",
+      "page_or_section": "Title page"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "City of Rochester uses a 10-year frequency storm event for storm sewer design, while the greater of the 100-year, 24-hour frequency rainfall event ... (6.2 inches in 24 hours)",
+      "page_or_section": "§5.2 Design Criteria"
+    },
+    {
+      "field": "document_metadata.relationship_to_state_manual",
+      "excerpt": "independent city storm water management plan",
+      "page_or_section": "Preface"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "medium",
+    "needs_human_review": true,
+    "review_notes": "1999 plan still referenced historically; confirm whether newer design standards superseded sections.",
+    "fields_not_found": [
+      "design_criteria.required_hydrologic_hydraulic_software"
+    ]
+  },
+  "source": {
+    "document_url": "https://www.rochestermn.gov/media/wauldibk/1999-rochester-storm-water-management-plan.pdf",
+    "landing_page_url": "https://www.rochestermn.gov/",
+    "retrieved_at": "2026-08-10T09:54:53.513Z",
+    "original_filename": "rochester-mn.pdf"
+  }
+}

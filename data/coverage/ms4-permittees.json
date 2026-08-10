@@ -1,0 +1,2170 @@
+{
+  "fetchedAt": "2026-08-10T07:22:40.546Z",
+  "source": "Seeded MS4 inventory: large/medium cities as Phase I (pop>=100k) plus curated Phase II and county MS4s. Refresh with npm run coverage:fetch-targets.",
+  "note": "Not a complete EPA ICIS dump; intended as actionable coverage targets. Phase tags approximate 40 CFR 122.26 large/medium vs small MS4s.",
+  "permittees": [
+    {
+      "name": "New York",
+      "state_code": "NY",
+      "phase": "I",
+      "population": 8336817,
+      "npdes_id": null
+    },
+    {
+      "name": "Cook County",
+      "state_code": "IL",
+      "phase": "I",
+      "population": 5275541,
+      "npdes_id": null
+    },
+    {
+      "name": "Harris County",
+      "state_code": "TX",
+      "phase": "I",
+      "population": 4731145,
+      "npdes_id": null
+    },
+    {
+      "name": "Maricopa County",
+      "state_code": "AZ",
+      "phase": "I",
+      "population": 4420568,
+      "npdes_id": null
+    },
+    {
+      "name": "Los Angeles",
+      "state_code": "CA",
+      "phase": "I",
+      "population": 3898747,
+      "npdes_id": null
+    },
+    {
+      "name": "Orange County",
+      "state_code": "CA",
+      "phase": "I",
+      "population": 3186989,
+      "npdes_id": null
+    },
+    {
+      "name": "Chicago",
+      "state_code": "IL",
+      "phase": "I",
+      "population": 2746388,
+      "npdes_id": null
+    },
+    {
+      "name": "Miami-Dade County",
+      "state_code": "FL",
+      "phase": "I",
+      "population": 2701767,
+      "npdes_id": null
+    },
+    {
+      "name": "Dallas County",
+      "state_code": "TX",
+      "phase": "I",
+      "population": 2613539,
+      "npdes_id": null
+    },
+    {
+      "name": "Riverside County",
+      "state_code": "CA",
+      "phase": "I",
+      "population": 2418185,
+      "npdes_id": null
+    },
+    {
+      "name": "Houston",
+      "state_code": "TX",
+      "phase": "I",
+      "population": 2304580,
+      "npdes_id": null
+    },
+    {
+      "name": "King County",
+      "state_code": "WA",
+      "phase": "I",
+      "population": 2269675,
+      "npdes_id": null
+    },
+    {
+      "name": "Clark County",
+      "state_code": "NV",
+      "phase": "I",
+      "population": 2265461,
+      "npdes_id": null
+    },
+    {
+      "name": "San Bernardino County",
+      "state_code": "CA",
+      "phase": "I",
+      "population": 2182540,
+      "npdes_id": null
+    },
+    {
+      "name": "Tarrant County",
+      "state_code": "TX",
+      "phase": "I",
+      "population": 2110640,
+      "npdes_id": null
+    },
+    {
+      "name": "Bexar County",
+      "state_code": "TX",
+      "phase": "I",
+      "population": 2009324,
+      "npdes_id": null
+    },
+    {
+      "name": "Broward County",
+      "state_code": "FL",
+      "phase": "I",
+      "population": 1944375,
+      "npdes_id": null
+    },
+    {
+      "name": "Wayne County",
+      "state_code": "MI",
+      "phase": "I",
+      "population": 1793566,
+      "npdes_id": null
+    },
+    {
+      "name": "Phoenix",
+      "state_code": "AZ",
+      "phase": "I",
+      "population": 1608139,
+      "npdes_id": null
+    },
+    {
+      "name": "Philadelphia",
+      "state_code": "PA",
+      "phase": "I",
+      "population": 1603797,
+      "npdes_id": null
+    },
+    {
+      "name": "Hillsborough County",
+      "state_code": "FL",
+      "phase": "I",
+      "population": 1459762,
+      "npdes_id": null
+    },
+    {
+      "name": "San Antonio",
+      "state_code": "TX",
+      "phase": "I",
+      "population": 1434625,
+      "npdes_id": null
+    },
+    {
+      "name": "San Diego",
+      "state_code": "CA",
+      "phase": "I",
+      "population": 1386932,
+      "npdes_id": null
+    },
+    {
+      "name": "Dallas",
+      "state_code": "TX",
+      "phase": "I",
+      "population": 1304379,
+      "npdes_id": null
+    },
+    {
+      "name": "Travis County",
+      "state_code": "TX",
+      "phase": "I",
+      "population": 1296130,
+      "npdes_id": null
+    },
+    {
+      "name": "Salt Lake County",
+      "state_code": "UT",
+      "phase": "I",
+      "population": 1185238,
+      "npdes_id": null
+    },
+    {
+      "name": "Fairfax County",
+      "state_code": "VA",
+      "phase": "I",
+      "population": 1150309,
+      "npdes_id": null
+    },
+    {
+      "name": "Wake County",
+      "state_code": "NC",
+      "phase": "I",
+      "population": 1129410,
+      "npdes_id": null
+    },
+    {
+      "name": "Mecklenburg County",
+      "state_code": "NC",
+      "phase": "I",
+      "population": 1115482,
+      "npdes_id": null
+    },
+    {
+      "name": "Fulton County",
+      "state_code": "GA",
+      "phase": "I",
+      "population": 1066710,
+      "npdes_id": null
+    },
+    {
+      "name": "Montgomery County",
+      "state_code": "MD",
+      "phase": "I",
+      "population": 1062061,
+      "npdes_id": null
+    },
+    {
+      "name": "Honolulu County",
+      "state_code": "HI",
+      "phase": "I",
+      "population": 1016508,
+      "npdes_id": null
+    },
+    {
+      "name": "San Jose",
+      "state_code": "CA",
+      "phase": "I",
+      "population": 1013240,
+      "npdes_id": null
+    },
+    {
+      "name": "Duval County",
+      "state_code": "FL",
+      "phase": "I",
+      "population": 995098,
+      "npdes_id": null
+    },
+    {
+      "name": "Prince Georges County",
+      "state_code": "MD",
+      "phase": "I",
+      "population": 967201,
+      "npdes_id": null
+    },
+    {
+      "name": "Austin",
+      "state_code": "TX",
+      "phase": "I",
+      "population": 961855,
+      "npdes_id": null
+    },
+    {
+      "name": "Pinellas County",
+      "state_code": "FL",
+      "phase": "I",
+      "population": 959107,
+      "npdes_id": null
+    },
+    {
+      "name": "Gwinnett County",
+      "state_code": "GA",
+      "phase": "I",
+      "population": 957062,
+      "npdes_id": null
+    },
+    {
+      "name": "Jacksonville",
+      "state_code": "FL",
+      "phase": "I",
+      "population": 949611,
+      "npdes_id": null
+    },
+    {
+      "name": "Shelby County",
+      "state_code": "TN",
+      "phase": "I",
+      "population": 929744,
+      "npdes_id": null
+    },
+    {
+      "name": "Fort Worth",
+      "state_code": "TX",
+      "phase": "I",
+      "population": 918915,
+      "npdes_id": null
+    },
+    {
+      "name": "Columbus",
+      "state_code": "OH",
+      "phase": "I",
+      "population": 905748,
+      "npdes_id": null
+    },
+    {
+      "name": "Indianapolis",
+      "state_code": "IN",
+      "phase": "I",
+      "population": 887642,
+      "npdes_id": null
+    },
+    {
+      "name": "Charlotte",
+      "state_code": "NC",
+      "phase": "I",
+      "population": 874579,
+      "npdes_id": null
+    },
+    {
+      "name": "San Francisco",
+      "state_code": "CA",
+      "phase": "I",
+      "population": 873965,
+      "npdes_id": null
+    },
+    {
+      "name": "Multnomah County",
+      "state_code": "OR",
+      "phase": "I",
+      "population": 815428,
+      "npdes_id": null
+    },
+    {
+      "name": "Jefferson County",
+      "state_code": "KY",
+      "phase": "I",
+      "population": 782969,
+      "npdes_id": null
+    },
+    {
+      "name": "DeKalb County",
+      "state_code": "GA",
+      "phase": "I",
+      "population": 764382,
+      "npdes_id": null
+    },
+    {
+      "name": "Seattle",
+      "state_code": "WA",
+      "phase": "I",
+      "population": 737015,
+      "npdes_id": null
+    },
+    {
+      "name": "Davidson County",
+      "state_code": "TN",
+      "phase": "I",
+      "population": 715884,
+      "npdes_id": null
+    },
+    {
+      "name": "Denver",
+      "state_code": "CO",
+      "phase": "I",
+      "population": 715522,
+      "npdes_id": null
+    },
+    {
+      "name": "Denver County",
+      "state_code": "CO",
+      "phase": "I",
+      "population": 715522,
+      "npdes_id": null
+    },
+    {
+      "name": "District of Columbia",
+      "state_code": "DC",
+      "phase": "I",
+      "population": 689545,
+      "npdes_id": null
+    },
+    {
+      "name": "Washington",
+      "state_code": "DC",
+      "phase": "I",
+      "population": 689545,
+      "npdes_id": null
+    },
+    {
+      "name": "Nashville",
+      "state_code": "TN",
+      "phase": "I",
+      "population": 689447,
+      "npdes_id": null
+    },
+    {
+      "name": "Oklahoma City",
+      "state_code": "OK",
+      "phase": "I",
+      "population": 681054,
+      "npdes_id": null
+    },
+    {
+      "name": "El Paso",
+      "state_code": "TX",
+      "phase": "I",
+      "population": 678815,
+      "npdes_id": null
+    },
+    {
+      "name": "Bernalillo County",
+      "state_code": "NM",
+      "phase": "I",
+      "population": 676444,
+      "npdes_id": null
+    },
+    {
+      "name": "Boston",
+      "state_code": "MA",
+      "phase": "I",
+      "population": 675647,
+      "npdes_id": null
+    },
+    {
+      "name": "Portland",
+      "state_code": "OR",
+      "phase": "I",
+      "population": 652503,
+      "npdes_id": null
+    },
+    {
+      "name": "Las Vegas",
+      "state_code": "NV",
+      "phase": "I",
+      "population": 641903,
+      "npdes_id": null
+    },
+    {
+      "name": "Detroit",
+      "state_code": "MI",
+      "phase": "I",
+      "population": 639111,
+      "npdes_id": null
+    },
+    {
+      "name": "Memphis",
+      "state_code": "TN",
+      "phase": "I",
+      "population": 633104,
+      "npdes_id": null
+    },
+    {
+      "name": "Louisville",
+      "state_code": "KY",
+      "phase": "I",
+      "population": 633045,
+      "npdes_id": null
+    },
+    {
+      "name": "Baltimore",
+      "state_code": "MD",
+      "phase": "I",
+      "population": 585708,
+      "npdes_id": null
+    },
+    {
+      "name": "Milwaukee",
+      "state_code": "WI",
+      "phase": "I",
+      "population": 577222,
+      "npdes_id": null
+    },
+    {
+      "name": "Albuquerque",
+      "state_code": "NM",
+      "phase": "I",
+      "population": 564559,
+      "npdes_id": null
+    },
+    {
+      "name": "Tucson",
+      "state_code": "AZ",
+      "phase": "I",
+      "population": 542629,
+      "npdes_id": null
+    },
+    {
+      "name": "Fresno",
+      "state_code": "CA",
+      "phase": "I",
+      "population": 542107,
+      "npdes_id": null
+    },
+    {
+      "name": "Sacramento",
+      "state_code": "CA",
+      "phase": "I",
+      "population": 524943,
+      "npdes_id": null
+    },
+    {
+      "name": "Kansas City",
+      "state_code": "MO",
+      "phase": "I",
+      "population": 508090,
+      "npdes_id": null
+    },
+    {
+      "name": "Mesa",
+      "state_code": "AZ",
+      "phase": "I",
+      "population": 504258,
+      "npdes_id": null
+    },
+    {
+      "name": "Atlanta",
+      "state_code": "GA",
+      "phase": "I",
+      "population": 498715,
+      "npdes_id": null
+    },
+    {
+      "name": "Omaha",
+      "state_code": "NE",
+      "phase": "I",
+      "population": 486051,
+      "npdes_id": null
+    },
+    {
+      "name": "Colorado Springs",
+      "state_code": "CO",
+      "phase": "I",
+      "population": 478961,
+      "npdes_id": null
+    },
+    {
+      "name": "Raleigh",
+      "state_code": "NC",
+      "phase": "I",
+      "population": 467665,
+      "npdes_id": null
+    },
+    {
+      "name": "Long Beach",
+      "state_code": "CA",
+      "phase": "I",
+      "population": 466742,
+      "npdes_id": null
+    },
+    {
+      "name": "Virginia Beach",
+      "state_code": "VA",
+      "phase": "I",
+      "population": 459470,
+      "npdes_id": null
+    },
+    {
+      "name": "Miami",
+      "state_code": "FL",
+      "phase": "I",
+      "population": 442241,
+      "npdes_id": null
+    },
+    {
+      "name": "Oakland",
+      "state_code": "CA",
+      "phase": "I",
+      "population": 440646,
+      "npdes_id": null
+    },
+    {
+      "name": "Minneapolis",
+      "state_code": "MN",
+      "phase": "I",
+      "population": 429954,
+      "npdes_id": null
+    },
+    {
+      "name": "Tulsa",
+      "state_code": "OK",
+      "phase": "I",
+      "population": 413066,
+      "npdes_id": null
+    },
+    {
+      "name": "Bakersfield",
+      "state_code": "CA",
+      "phase": "I",
+      "population": 403455,
+      "npdes_id": null
+    },
+    {
+      "name": "Wichita",
+      "state_code": "KS",
+      "phase": "I",
+      "population": 397532,
+      "npdes_id": null
+    },
+    {
+      "name": "Arlington",
+      "state_code": "TX",
+      "phase": "I",
+      "population": 394266,
+      "npdes_id": null
+    },
+    {
+      "name": "Aurora",
+      "state_code": "CO",
+      "phase": "I",
+      "population": 386261,
+      "npdes_id": null
+    },
+    {
+      "name": "Tampa",
+      "state_code": "FL",
+      "phase": "I",
+      "population": 384959,
+      "npdes_id": null
+    },
+    {
+      "name": "New Orleans",
+      "state_code": "LA",
+      "phase": "I",
+      "population": 383997,
+      "npdes_id": null
+    },
+    {
+      "name": "Cleveland",
+      "state_code": "OH",
+      "phase": "I",
+      "population": 372624,
+      "npdes_id": null
+    },
+    {
+      "name": "Honolulu",
+      "state_code": "HI",
+      "phase": "I",
+      "population": 350964,
+      "npdes_id": null
+    },
+    {
+      "name": "Anaheim",
+      "state_code": "CA",
+      "phase": "I",
+      "population": 346824,
+      "npdes_id": null
+    },
+    {
+      "name": "Lexington",
+      "state_code": "KY",
+      "phase": "I",
+      "population": 322570,
+      "npdes_id": null
+    },
+    {
+      "name": "Stockton",
+      "state_code": "CA",
+      "phase": "I",
+      "population": 320804,
+      "npdes_id": null
+    },
+    {
+      "name": "Henderson",
+      "state_code": "NV",
+      "phase": "I",
+      "population": 320189,
+      "npdes_id": null
+    },
+    {
+      "name": "Corpus Christi",
+      "state_code": "TX",
+      "phase": "I",
+      "population": 317863,
+      "npdes_id": null
+    },
+    {
+      "name": "Riverside",
+      "state_code": "CA",
+      "phase": "I",
+      "population": 314998,
+      "npdes_id": null
+    },
+    {
+      "name": "Newark",
+      "state_code": "NJ",
+      "phase": "I",
+      "population": 311549,
+      "npdes_id": null
+    },
+    {
+      "name": "Saint Paul",
+      "state_code": "MN",
+      "phase": "I",
+      "population": 311527,
+      "npdes_id": null
+    },
+    {
+      "name": "Santa Ana",
+      "state_code": "CA",
+      "phase": "I",
+      "population": 310227,
+      "npdes_id": null
+    },
+    {
+      "name": "Cincinnati",
+      "state_code": "OH",
+      "phase": "I",
+      "population": 309317,
+      "npdes_id": null
+    },
+    {
+      "name": "Irvine",
+      "state_code": "CA",
+      "phase": "I",
+      "population": 307670,
+      "npdes_id": null
+    },
+    {
+      "name": "Orlando",
+      "state_code": "FL",
+      "phase": "I",
+      "population": 307573,
+      "npdes_id": null
+    },
+    {
+      "name": "Pittsburgh",
+      "state_code": "PA",
+      "phase": "I",
+      "population": 302971,
+      "npdes_id": null
+    },
+    {
+      "name": "St. Louis",
+      "state_code": "MO",
+      "phase": "I",
+      "population": 301578,
+      "npdes_id": null
+    },
+    {
+      "name": "Greensboro",
+      "state_code": "NC",
+      "phase": "I",
+      "population": 299035,
+      "npdes_id": null
+    },
+    {
+      "name": "Jersey City",
+      "state_code": "NJ",
+      "phase": "I",
+      "population": 292449,
+      "npdes_id": null
+    },
+    {
+      "name": "Anchorage",
+      "state_code": "AK",
+      "phase": "I",
+      "population": 291247,
+      "npdes_id": null
+    },
+    {
+      "name": "Anchorage Municipality",
+      "state_code": "AK",
+      "phase": "I",
+      "population": 291247,
+      "npdes_id": null
+    },
+    {
+      "name": "Lincoln",
+      "state_code": "NE",
+      "phase": "I",
+      "population": 291082,
+      "npdes_id": null
+    },
+    {
+      "name": "Plano",
+      "state_code": "TX",
+      "phase": "I",
+      "population": 285494,
+      "npdes_id": null
+    },
+    {
+      "name": "Durham",
+      "state_code": "NC",
+      "phase": "I",
+      "population": 283506,
+      "npdes_id": null
+    },
+    {
+      "name": "Buffalo",
+      "state_code": "NY",
+      "phase": "I",
+      "population": 278349,
+      "npdes_id": null
+    },
+    {
+      "name": "Chandler",
+      "state_code": "AZ",
+      "phase": "I",
+      "population": 275987,
+      "npdes_id": null
+    },
+    {
+      "name": "Chula Vista",
+      "state_code": "CA",
+      "phase": "I",
+      "population": 275487,
+      "npdes_id": null
+    },
+    {
+      "name": "Toledo",
+      "state_code": "OH",
+      "phase": "I",
+      "population": 270871,
+      "npdes_id": null
+    },
+    {
+      "name": "Madison",
+      "state_code": "WI",
+      "phase": "I",
+      "population": 269840,
+      "npdes_id": null
+    },
+    {
+      "name": "Gilbert",
+      "state_code": "AZ",
+      "phase": "I",
+      "population": 267918,
+      "npdes_id": null
+    },
+    {
+      "name": "Reno",
+      "state_code": "NV",
+      "phase": "I",
+      "population": 264165,
+      "npdes_id": null
+    },
+    {
+      "name": "Fort Wayne",
+      "state_code": "IN",
+      "phase": "I",
+      "population": 263886,
+      "npdes_id": null
+    },
+    {
+      "name": "North Las Vegas",
+      "state_code": "NV",
+      "phase": "I",
+      "population": 262527,
+      "npdes_id": null
+    },
+    {
+      "name": "St. Petersburg",
+      "state_code": "FL",
+      "phase": "I",
+      "population": 258308,
+      "npdes_id": null
+    },
+    {
+      "name": "Lubbock",
+      "state_code": "TX",
+      "phase": "I",
+      "population": 257141,
+      "npdes_id": null
+    },
+    {
+      "name": "Irving",
+      "state_code": "TX",
+      "phase": "I",
+      "population": 256684,
+      "npdes_id": null
+    },
+    {
+      "name": "Laredo",
+      "state_code": "TX",
+      "phase": "I",
+      "population": 255205,
+      "npdes_id": null
+    },
+    {
+      "name": "Winston-Salem",
+      "state_code": "NC",
+      "phase": "I",
+      "population": 249545,
+      "npdes_id": null
+    },
+    {
+      "name": "Chesapeake",
+      "state_code": "VA",
+      "phase": "I",
+      "population": 249303,
+      "npdes_id": null
+    },
+    {
+      "name": "Glendale",
+      "state_code": "AZ",
+      "phase": "I",
+      "population": 248325,
+      "npdes_id": null
+    },
+    {
+      "name": "Garland",
+      "state_code": "TX",
+      "phase": "I",
+      "population": 246018,
+      "npdes_id": null
+    },
+    {
+      "name": "Scottsdale",
+      "state_code": "AZ",
+      "phase": "I",
+      "population": 241361,
+      "npdes_id": null
+    },
+    {
+      "name": "Arlington County",
+      "state_code": "VA",
+      "phase": "I",
+      "population": 238643,
+      "npdes_id": null
+    },
+    {
+      "name": "Norfolk",
+      "state_code": "VA",
+      "phase": "I",
+      "population": 238005,
+      "npdes_id": null
+    },
+    {
+      "name": "Boise",
+      "state_code": "ID",
+      "phase": "I",
+      "population": 235684,
+      "npdes_id": null
+    },
+    {
+      "name": "Fremont",
+      "state_code": "CA",
+      "phase": "I",
+      "population": 230504,
+      "npdes_id": null
+    },
+    {
+      "name": "Spokane",
+      "state_code": "WA",
+      "phase": "I",
+      "population": 228989,
+      "npdes_id": null
+    },
+    {
+      "name": "Baton Rouge",
+      "state_code": "LA",
+      "phase": "I",
+      "population": 227470,
+      "npdes_id": null
+    },
+    {
+      "name": "Richmond",
+      "state_code": "VA",
+      "phase": "I",
+      "population": 226610,
+      "npdes_id": null
+    },
+    {
+      "name": "Hialeah",
+      "state_code": "FL",
+      "phase": "I",
+      "population": 223109,
+      "npdes_id": null
+    },
+    {
+      "name": "Tacoma",
+      "state_code": "WA",
+      "phase": "I",
+      "population": 219346,
+      "npdes_id": null
+    },
+    {
+      "name": "Huntsville",
+      "state_code": "AL",
+      "phase": "I",
+      "population": 215006,
+      "npdes_id": null
+    },
+    {
+      "name": "Des Moines",
+      "state_code": "IA",
+      "phase": "I",
+      "population": 214133,
+      "npdes_id": null
+    },
+    {
+      "name": "Yonkers",
+      "state_code": "NY",
+      "phase": "I",
+      "population": 211569,
+      "npdes_id": null
+    },
+    {
+      "name": "Rochester",
+      "state_code": "NY",
+      "phase": "I",
+      "population": 211328,
+      "npdes_id": null
+    },
+    {
+      "name": "Worcester",
+      "state_code": "MA",
+      "phase": "I",
+      "population": 206518,
+      "npdes_id": null
+    },
+    {
+      "name": "Port St. Lucie",
+      "state_code": "FL",
+      "phase": "I",
+      "population": 204851,
+      "npdes_id": null
+    },
+    {
+      "name": "Little Rock",
+      "state_code": "AR",
+      "phase": "I",
+      "population": 202591,
+      "npdes_id": null
+    },
+    {
+      "name": "Augusta",
+      "state_code": "GA",
+      "phase": "I",
+      "population": 202081,
+      "npdes_id": null
+    },
+    {
+      "name": "Birmingham",
+      "state_code": "AL",
+      "phase": "I",
+      "population": 200733,
+      "npdes_id": null
+    },
+    {
+      "name": "Montgomery",
+      "state_code": "AL",
+      "phase": "I",
+      "population": 200603,
+      "npdes_id": null
+    },
+    {
+      "name": "Frisco",
+      "state_code": "TX",
+      "phase": "I",
+      "population": 200509,
+      "npdes_id": null
+    },
+    {
+      "name": "Amarillo",
+      "state_code": "TX",
+      "phase": "I",
+      "population": 200393,
+      "npdes_id": null
+    },
+    {
+      "name": "Grand Rapids",
+      "state_code": "MI",
+      "phase": "I",
+      "population": 198917,
+      "npdes_id": null
+    },
+    {
+      "name": "Overland Park",
+      "state_code": "KS",
+      "phase": "I",
+      "population": 197238,
+      "npdes_id": null
+    },
+    {
+      "name": "Tallahassee",
+      "state_code": "FL",
+      "phase": "I",
+      "population": 196169,
+      "npdes_id": null
+    },
+    {
+      "name": "Grand Prairie",
+      "state_code": "TX",
+      "phase": "I",
+      "population": 196100,
+      "npdes_id": null
+    },
+    {
+      "name": "McKinney",
+      "state_code": "TX",
+      "phase": "I",
+      "population": 195308,
+      "npdes_id": null
+    },
+    {
+      "name": "Cape Coral",
+      "state_code": "FL",
+      "phase": "I",
+      "population": 194016,
+      "npdes_id": null
+    },
+    {
+      "name": "Sioux Falls",
+      "state_code": "SD",
+      "phase": "I",
+      "population": 192517,
+      "npdes_id": null
+    },
+    {
+      "name": "Peoria",
+      "state_code": "AZ",
+      "phase": "I",
+      "population": 190985,
+      "npdes_id": null
+    },
+    {
+      "name": "Providence",
+      "state_code": "RI",
+      "phase": "I",
+      "population": 190934,
+      "npdes_id": null
+    },
+    {
+      "name": "Vancouver",
+      "state_code": "WA",
+      "phase": "I",
+      "population": 190915,
+      "npdes_id": null
+    },
+    {
+      "name": "Knoxville",
+      "state_code": "TN",
+      "phase": "I",
+      "population": 190740,
+      "npdes_id": null
+    },
+    {
+      "name": "Akron",
+      "state_code": "OH",
+      "phase": "I",
+      "population": 190469,
+      "npdes_id": null
+    },
+    {
+      "name": "Shreveport",
+      "state_code": "LA",
+      "phase": "I",
+      "population": 187593,
+      "npdes_id": null
+    },
+    {
+      "name": "Mobile",
+      "state_code": "AL",
+      "phase": "I",
+      "population": 187041,
+      "npdes_id": null
+    },
+    {
+      "name": "Brownsville",
+      "state_code": "TX",
+      "phase": "I",
+      "population": 186738,
+      "npdes_id": null
+    },
+    {
+      "name": "Fort Lauderdale",
+      "state_code": "FL",
+      "phase": "I",
+      "population": 182760,
+      "npdes_id": null
+    },
+    {
+      "name": "Chattanooga",
+      "state_code": "TN",
+      "phase": "I",
+      "population": 181099,
+      "npdes_id": null
+    },
+    {
+      "name": "Tempe",
+      "state_code": "AZ",
+      "phase": "I",
+      "population": 180587,
+      "npdes_id": null
+    },
+    {
+      "name": "Santa Rosa",
+      "state_code": "CA",
+      "phase": "I",
+      "population": 178127,
+      "npdes_id": null
+    },
+    {
+      "name": "Eugene",
+      "state_code": "OR",
+      "phase": "I",
+      "population": 176654,
+      "npdes_id": null
+    },
+    {
+      "name": "Salem",
+      "state_code": "OR",
+      "phase": "I",
+      "population": 175535,
+      "npdes_id": null
+    },
+    {
+      "name": "Cary",
+      "state_code": "NC",
+      "phase": "I",
+      "population": 174721,
+      "npdes_id": null
+    },
+    {
+      "name": "Pembroke Pines",
+      "state_code": "FL",
+      "phase": "I",
+      "population": 171178,
+      "npdes_id": null
+    },
+    {
+      "name": "Fort Collins",
+      "state_code": "CO",
+      "phase": "I",
+      "population": 169810,
+      "npdes_id": null
+    },
+    {
+      "name": "Springfield",
+      "state_code": "MO",
+      "phase": "I",
+      "population": 169176,
+      "npdes_id": null
+    },
+    {
+      "name": "Clarksville",
+      "state_code": "TN",
+      "phase": "I",
+      "population": 166722,
+      "npdes_id": null
+    },
+    {
+      "name": "Paterson",
+      "state_code": "NJ",
+      "phase": "I",
+      "population": 159732,
+      "npdes_id": null
+    },
+    {
+      "name": "Alexandria",
+      "state_code": "VA",
+      "phase": "I",
+      "population": 159467,
+      "npdes_id": null
+    },
+    {
+      "name": "Macon",
+      "state_code": "GA",
+      "phase": "I",
+      "population": 157346,
+      "npdes_id": null
+    },
+    {
+      "name": "Springfield",
+      "state_code": "MA",
+      "phase": "I",
+      "population": 155929,
+      "npdes_id": null
+    },
+    {
+      "name": "Sunnyvale",
+      "state_code": "CA",
+      "phase": "I",
+      "population": 155805,
+      "npdes_id": null
+    },
+    {
+      "name": "Jackson",
+      "state_code": "MS",
+      "phase": "I",
+      "population": 153701,
+      "npdes_id": null
+    },
+    {
+      "name": "Killeen",
+      "state_code": "TX",
+      "phase": "I",
+      "population": 153095,
+      "npdes_id": null
+    },
+    {
+      "name": "Hollywood",
+      "state_code": "FL",
+      "phase": "I",
+      "population": 153067,
+      "npdes_id": null
+    },
+    {
+      "name": "Murfreesboro",
+      "state_code": "TN",
+      "phase": "I",
+      "population": 152691,
+      "npdes_id": null
+    },
+    {
+      "name": "Pasadena",
+      "state_code": "TX",
+      "phase": "I",
+      "population": 151950,
+      "npdes_id": null
+    },
+    {
+      "name": "Bellevue",
+      "state_code": "WA",
+      "phase": "I",
+      "population": 151854,
+      "npdes_id": null
+    },
+    {
+      "name": "Charleston",
+      "state_code": "SC",
+      "phase": "I",
+      "population": 150227,
+      "npdes_id": null
+    },
+    {
+      "name": "Mesquite",
+      "state_code": "TX",
+      "phase": "I",
+      "population": 150108,
+      "npdes_id": null
+    },
+    {
+      "name": "Rockford",
+      "state_code": "IL",
+      "phase": "I",
+      "population": 148655,
+      "npdes_id": null
+    },
+    {
+      "name": "Bridgeport",
+      "state_code": "CT",
+      "phase": "I",
+      "population": 148654,
+      "npdes_id": null
+    },
+    {
+      "name": "Syracuse",
+      "state_code": "NY",
+      "phase": "I",
+      "population": 148620,
+      "npdes_id": null
+    },
+    {
+      "name": "Denton",
+      "state_code": "TX",
+      "phase": "I",
+      "population": 148146,
+      "npdes_id": null
+    },
+    {
+      "name": "Savannah",
+      "state_code": "GA",
+      "phase": "I",
+      "population": 147780,
+      "npdes_id": null
+    },
+    {
+      "name": "Surprise",
+      "state_code": "AZ",
+      "phase": "I",
+      "population": 143148,
+      "npdes_id": null
+    },
+    {
+      "name": "McAllen",
+      "state_code": "TX",
+      "phase": "I",
+      "population": 142210,
+      "npdes_id": null
+    },
+    {
+      "name": "Gainesville",
+      "state_code": "FL",
+      "phase": "I",
+      "population": 141085,
+      "npdes_id": null
+    },
+    {
+      "name": "West Valley City",
+      "state_code": "UT",
+      "phase": "I",
+      "population": 140230,
+      "npdes_id": null
+    },
+    {
+      "name": "Waco",
+      "state_code": "TX",
+      "phase": "I",
+      "population": 138486,
+      "npdes_id": null
+    },
+    {
+      "name": "Cedar Rapids",
+      "state_code": "IA",
+      "phase": "I",
+      "population": 137710,
+      "npdes_id": null
+    },
+    {
+      "name": "Dayton",
+      "state_code": "OH",
+      "phase": "I",
+      "population": 137644,
+      "npdes_id": null
+    },
+    {
+      "name": "Elizabeth",
+      "state_code": "NJ",
+      "phase": "I",
+      "population": 137298,
+      "npdes_id": null
+    },
+    {
+      "name": "Columbia",
+      "state_code": "SC",
+      "phase": "I",
+      "population": 136632,
+      "npdes_id": null
+    },
+    {
+      "name": "Stamford",
+      "state_code": "CT",
+      "phase": "I",
+      "population": 135470,
+      "npdes_id": null
+    },
+    {
+      "name": "New Haven",
+      "state_code": "CT",
+      "phase": "I",
+      "population": 135081,
+      "npdes_id": null
+    },
+    {
+      "name": "Miramar",
+      "state_code": "FL",
+      "phase": "I",
+      "population": 134721,
+      "npdes_id": null
+    },
+    {
+      "name": "Coral Springs",
+      "state_code": "FL",
+      "phase": "I",
+      "population": 134394,
+      "npdes_id": null
+    },
+    {
+      "name": "Round Rock",
+      "state_code": "TX",
+      "phase": "I",
+      "population": 133372,
+      "npdes_id": null
+    },
+    {
+      "name": "Athens",
+      "state_code": "GA",
+      "phase": "I",
+      "population": 127315,
+      "npdes_id": null
+    },
+    {
+      "name": "Topeka",
+      "state_code": "KS",
+      "phase": "I",
+      "population": 126587,
+      "npdes_id": null
+    },
+    {
+      "name": "Columbia",
+      "state_code": "MO",
+      "phase": "I",
+      "population": 126254,
+      "npdes_id": null
+    },
+    {
+      "name": "Fargo",
+      "state_code": "ND",
+      "phase": "I",
+      "population": 125990,
+      "npdes_id": null
+    },
+    {
+      "name": "Pearland",
+      "state_code": "TX",
+      "phase": "I",
+      "population": 125990,
+      "npdes_id": null
+    },
+    {
+      "name": "Allentown",
+      "state_code": "PA",
+      "phase": "I",
+      "population": 125845,
+      "npdes_id": null
+    },
+    {
+      "name": "Berkeley",
+      "state_code": "CA",
+      "phase": "I",
+      "population": 124321,
+      "npdes_id": null
+    },
+    {
+      "name": "Ann Arbor",
+      "state_code": "MI",
+      "phase": "I",
+      "population": 123851,
+      "npdes_id": null
+    },
+    {
+      "name": "Independence",
+      "state_code": "MO",
+      "phase": "I",
+      "population": 123011,
+      "npdes_id": null
+    },
+    {
+      "name": "Rochester",
+      "state_code": "MN",
+      "phase": "I",
+      "population": 121395,
+      "npdes_id": null
+    },
+    {
+      "name": "Lafayette",
+      "state_code": "LA",
+      "phase": "I",
+      "population": 121374,
+      "npdes_id": null
+    },
+    {
+      "name": "Hartford",
+      "state_code": "CT",
+      "phase": "I",
+      "population": 121054,
+      "npdes_id": null
+    },
+    {
+      "name": "College Station",
+      "state_code": "TX",
+      "phase": "I",
+      "population": 120511,
+      "npdes_id": null
+    },
+    {
+      "name": "Palm Bay",
+      "state_code": "FL",
+      "phase": "I",
+      "population": 119760,
+      "npdes_id": null
+    },
+    {
+      "name": "Cambridge",
+      "state_code": "MA",
+      "phase": "I",
+      "population": 118403,
+      "npdes_id": null
+    },
+    {
+      "name": "West Palm Beach",
+      "state_code": "FL",
+      "phase": "I",
+      "population": 117415,
+      "npdes_id": null
+    },
+    {
+      "name": "Evansville",
+      "state_code": "IN",
+      "phase": "I",
+      "population": 117298,
+      "npdes_id": null
+    },
+    {
+      "name": "Clearwater",
+      "state_code": "FL",
+      "phase": "I",
+      "population": 117292,
+      "npdes_id": null
+    },
+    {
+      "name": "Billings",
+      "state_code": "MT",
+      "phase": "I",
+      "population": 117116,
+      "npdes_id": null
+    },
+    {
+      "name": "Manchester",
+      "state_code": "NH",
+      "phase": "I",
+      "population": 115644,
+      "npdes_id": null
+    },
+    {
+      "name": "Wilmington",
+      "state_code": "NC",
+      "phase": "I",
+      "population": 115451,
+      "npdes_id": null
+    },
+    {
+      "name": "Beaumont",
+      "state_code": "TX",
+      "phase": "I",
+      "population": 115282,
+      "npdes_id": null
+    },
+    {
+      "name": "Provo",
+      "state_code": "UT",
+      "phase": "I",
+      "population": 115162,
+      "npdes_id": null
+    },
+    {
+      "name": "Springfield",
+      "state_code": "IL",
+      "phase": "I",
+      "population": 114394,
+      "npdes_id": null
+    },
+    {
+      "name": "High Point",
+      "state_code": "NC",
+      "phase": "I",
+      "population": 114059,
+      "npdes_id": null
+    },
+    {
+      "name": "Peoria",
+      "state_code": "IL",
+      "phase": "I",
+      "population": 113150,
+      "npdes_id": null
+    },
+    {
+      "name": "Lansing",
+      "state_code": "MI",
+      "phase": "I",
+      "population": 112644,
+      "npdes_id": null
+    },
+    {
+      "name": "Lakeland",
+      "state_code": "FL",
+      "phase": "I",
+      "population": 112641,
+      "npdes_id": null
+    },
+    {
+      "name": "Pompano Beach",
+      "state_code": "FL",
+      "phase": "I",
+      "population": 112046,
+      "npdes_id": null
+    },
+    {
+      "name": "Las Cruces",
+      "state_code": "NM",
+      "phase": "I",
+      "population": 111385,
+      "npdes_id": null
+    },
+    {
+      "name": "Everett",
+      "state_code": "WA",
+      "phase": "I",
+      "population": 110629,
+      "npdes_id": null
+    },
+    {
+      "name": "Boulder",
+      "state_code": "CO",
+      "phase": "I",
+      "population": 108250,
+      "npdes_id": null
+    },
+    {
+      "name": "Davie",
+      "state_code": "FL",
+      "phase": "I",
+      "population": 105691,
+      "npdes_id": null
+    },
+    {
+      "name": "Concord",
+      "state_code": "NC",
+      "phase": "I",
+      "population": 105240,
+      "npdes_id": null
+    },
+    {
+      "name": "South Bend",
+      "state_code": "IN",
+      "phase": "I",
+      "population": 103453,
+      "npdes_id": null
+    },
+    {
+      "name": "Bend",
+      "state_code": "OR",
+      "phase": "I",
+      "population": 102059,
+      "npdes_id": null
+    },
+    {
+      "name": "Davenport",
+      "state_code": "IA",
+      "phase": "I",
+      "population": 101724,
+      "npdes_id": null
+    },
+    {
+      "name": "Roanoke",
+      "state_code": "VA",
+      "phase": "I",
+      "population": 100011,
+      "npdes_id": null
+    },
+    {
+      "name": "Albany",
+      "state_code": "NY",
+      "phase": "II",
+      "population": 99224,
+      "npdes_id": null
+    },
+    {
+      "name": "Orem",
+      "state_code": "UT",
+      "phase": "II",
+      "population": 98129,
+      "npdes_id": null
+    },
+    {
+      "name": "Boca Raton",
+      "state_code": "FL",
+      "phase": "II",
+      "population": 97422,
+      "npdes_id": null
+    },
+    {
+      "name": "Sandy",
+      "state_code": "UT",
+      "phase": "II",
+      "population": 96904,
+      "npdes_id": null
+    },
+    {
+      "name": "Yuma",
+      "state_code": "AZ",
+      "phase": "II",
+      "population": 95548,
+      "npdes_id": null
+    },
+    {
+      "name": "Reading",
+      "state_code": "PA",
+      "phase": "II",
+      "population": 95112,
+      "npdes_id": null
+    },
+    {
+      "name": "Lawrence",
+      "state_code": "KS",
+      "phase": "II",
+      "population": 94934,
+      "npdes_id": null
+    },
+    {
+      "name": "Erie",
+      "state_code": "PA",
+      "phase": "II",
+      "population": 94831,
+      "npdes_id": null
+    },
+    {
+      "name": "Asheville",
+      "state_code": "NC",
+      "phase": "II",
+      "population": 94589,
+      "npdes_id": null
+    },
+    {
+      "name": "Fayetteville",
+      "state_code": "AR",
+      "phase": "II",
+      "population": 93949,
+      "npdes_id": null
+    },
+    {
+      "name": "Deltona",
+      "state_code": "FL",
+      "phase": "II",
+      "population": 93692,
+      "npdes_id": null
+    },
+    {
+      "name": "Bellingham",
+      "state_code": "WA",
+      "phase": "II",
+      "population": 91482,
+      "npdes_id": null
+    },
+    {
+      "name": "Nashua",
+      "state_code": "NH",
+      "phase": "II",
+      "population": 91322,
+      "npdes_id": null
+    },
+    {
+      "name": "Trenton",
+      "state_code": "NJ",
+      "phase": "II",
+      "population": 90871,
+      "npdes_id": null
+    },
+    {
+      "name": "Palm Coast",
+      "state_code": "FL",
+      "phase": "II",
+      "population": 89258,
+      "npdes_id": null
+    },
+    {
+      "name": "Santa Barbara",
+      "state_code": "CA",
+      "phase": "II",
+      "population": 88665,
+      "npdes_id": null
+    },
+    {
+      "name": "Santa Fe",
+      "state_code": "NM",
+      "phase": "II",
+      "population": 87505,
+      "npdes_id": null
+    },
+    {
+      "name": "Ogden",
+      "state_code": "UT",
+      "phase": "II",
+      "population": 87321,
+      "npdes_id": null
+    },
+    {
+      "name": "Duluth",
+      "state_code": "MN",
+      "phase": "II",
+      "population": 86697,
+      "npdes_id": null
+    },
+    {
+      "name": "Melbourne",
+      "state_code": "FL",
+      "phase": "II",
+      "population": 84678,
+      "npdes_id": null
+    },
+    {
+      "name": "Kennewick",
+      "state_code": "WA",
+      "phase": "II",
+      "population": 84347,
+      "npdes_id": null
+    },
+    {
+      "name": "Franklin",
+      "state_code": "TN",
+      "phase": "II",
+      "population": 83454,
+      "npdes_id": null
+    },
+    {
+      "name": "Mountain View",
+      "state_code": "CA",
+      "phase": "II",
+      "population": 82376,
+      "npdes_id": null
+    },
+    {
+      "name": "Layton",
+      "state_code": "UT",
+      "phase": "II",
+      "population": 81773,
+      "npdes_id": null
+    },
+    {
+      "name": "Flint",
+      "state_code": "MI",
+      "phase": "II",
+      "population": 81252,
+      "npdes_id": null
+    },
+    {
+      "name": "Gastonia",
+      "state_code": "NC",
+      "phase": "II",
+      "population": 80411,
+      "npdes_id": null
+    },
+    {
+      "name": "Flagstaff",
+      "state_code": "AZ",
+      "phase": "II",
+      "population": 76831,
+      "npdes_id": null
+    },
+    {
+      "name": "Scranton",
+      "state_code": "PA",
+      "phase": "II",
+      "population": 76328,
+      "npdes_id": null
+    },
+    {
+      "name": "Missoula",
+      "state_code": "MT",
+      "phase": "II",
+      "population": 75516,
+      "npdes_id": null
+    },
+    {
+      "name": "Gulfport",
+      "state_code": "MS",
+      "phase": "II",
+      "population": 72926,
+      "npdes_id": null
+    },
+    {
+      "name": "Daytona Beach",
+      "state_code": "FL",
+      "phase": "II",
+      "population": 72647,
+      "npdes_id": null
+    },
+    {
+      "name": "Greenville",
+      "state_code": "SC",
+      "phase": "II",
+      "population": 72095,
+      "npdes_id": null
+    },
+    {
+      "name": "Wilmington",
+      "state_code": "DE",
+      "phase": "II",
+      "population": 70851,
+      "npdes_id": null
+    },
+    {
+      "name": "Palo Alto",
+      "state_code": "CA",
+      "phase": "II",
+      "population": 68572,
+      "npdes_id": null
+    },
+    {
+      "name": "Portland",
+      "state_code": "ME",
+      "phase": "II",
+      "population": 68408,
+      "npdes_id": null
+    },
+    {
+      "name": "Rockville",
+      "state_code": "MD",
+      "phase": "II",
+      "population": 67117,
+      "npdes_id": null
+    },
+    {
+      "name": "Cheyenne",
+      "state_code": "WY",
+      "phase": "II",
+      "population": 65132,
+      "npdes_id": null
+    },
+    {
+      "name": "Idaho Falls",
+      "state_code": "ID",
+      "phase": "II",
+      "population": 64818,
+      "npdes_id": null
+    },
+    {
+      "name": "North Little Rock",
+      "state_code": "AR",
+      "phase": "II",
+      "population": 64391,
+      "npdes_id": null
+    },
+    {
+      "name": "Youngstown",
+      "state_code": "OH",
+      "phase": "II",
+      "population": 60068,
+      "npdes_id": null
+    },
+    {
+      "name": "Casper",
+      "state_code": "WY",
+      "phase": "II",
+      "population": 59038,
+      "npdes_id": null
+    },
+    {
+      "name": "Carson City",
+      "state_code": "NV",
+      "phase": "II",
+      "population": 58639,
+      "npdes_id": null
+    },
+    {
+      "name": "Olympia",
+      "state_code": "WA",
+      "phase": "II",
+      "population": 55605,
+      "npdes_id": null
+    },
+    {
+      "name": "Pensacola",
+      "state_code": "FL",
+      "phase": "II",
+      "population": 54312,
+      "npdes_id": null
+    },
+    {
+      "name": "Lacey",
+      "state_code": "WA",
+      "phase": "II",
+      "population": 53526,
+      "npdes_id": null
+    },
+    {
+      "name": "Harrisburg",
+      "state_code": "PA",
+      "phase": "II",
+      "population": 50099,
+      "npdes_id": null
+    },
+    {
+      "name": "Charlottesville",
+      "state_code": "VA",
+      "phase": "II",
+      "population": 46553,
+      "npdes_id": null
+    },
+    {
+      "name": "Burlington",
+      "state_code": "VT",
+      "phase": "II",
+      "population": 44743,
+      "npdes_id": null
+    },
+    {
+      "name": "Concord",
+      "state_code": "NH",
+      "phase": "II",
+      "population": 43976,
+      "npdes_id": null
+    },
+    {
+      "name": "Annapolis",
+      "state_code": "MD",
+      "phase": "II",
+      "population": 40812,
+      "npdes_id": null
+    },
+    {
+      "name": "Dover",
+      "state_code": "DE",
+      "phase": "II",
+      "population": 39421,
+      "npdes_id": null
+    },
+    {
+      "name": "South Salt Lake",
+      "state_code": "UT",
+      "phase": "II",
+      "population": 26777,
+      "npdes_id": null
+    },
+    {
+      "name": "Beatrice",
+      "state_code": "NE",
+      "phase": "II",
+      "population": 12261,
+      "npdes_id": null
+    },
+    {
+      "name": "Montpelier",
+      "state_code": "VT",
+      "phase": "II",
+      "population": 8074,
+      "npdes_id": null
+    },
+    {
+      "name": "Augusta",
+      "state_code": "ME",
+      "phase": "II",
+      "population": null,
+      "npdes_id": null
+    },
+    {
+      "name": "Bismarck",
+      "state_code": "ND",
+      "phase": "II",
+      "population": null,
+      "npdes_id": null
+    },
+    {
+      "name": "Charleston",
+      "state_code": "WV",
+      "phase": "II",
+      "population": null,
+      "npdes_id": null
+    },
+    {
+      "name": "Frankfort",
+      "state_code": "KY",
+      "phase": "II",
+      "population": null,
+      "npdes_id": null
+    },
+    {
+      "name": "Helena",
+      "state_code": "MT",
+      "phase": "II",
+      "population": null,
+      "npdes_id": null
+    },
+    {
+      "name": "Jefferson City",
+      "state_code": "MO",
+      "phase": "II",
+      "population": null,
+      "npdes_id": null
+    },
+    {
+      "name": "Juneau",
+      "state_code": "AK",
+      "phase": "II",
+      "population": null,
+      "npdes_id": null
+    },
+    {
+      "name": "Pierre",
+      "state_code": "SD",
+      "phase": "II",
+      "population": null,
+      "npdes_id": null
+    },
+    {
+      "name": "Salt Lake City",
+      "state_code": "UT",
+      "phase": "II",
+      "population": null,
+      "npdes_id": null
+    }
+  ]
+}

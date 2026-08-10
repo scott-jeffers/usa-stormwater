@@ -1,0 +1,54 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "City of Chula Vista",
+    "jurisdiction_level": "municipality",
+    "state_code": "CA",
+    "document_title": "City of San Diego Stormwater Standards (San Diego County MS4 regional reference)",
+    "version_or_edition": "August 2024 Edition",
+    "adoption_or_effective_date": "2024-08-15",
+    "last_revised_date": "2024-08",
+    "relationship_to_state_manual": "unknown"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [
+      2,
+      10,
+      100
+    ],
+    "water_quality_volume_method": "Design Capture Volume (DCV): retain onsite pollutants in runoff from the 24-hour, 85th percentile storm event. If full retention is not feasible, biofiltration for remaining volume (treat 1.5× DCV not retained, or flow-thru biofiltration holding ≥0.75× DCV not retained). Chula Vista participates in the San Diego County regional MS4 program; city portal often 403 — San Diego Stormwater Standards used as regional technical reference pending a durable Chula Vista-specific PDF.",
+    "peak_flow_calculation_method": [
+      "Continuous simulation hydrologic modeling",
+      "Approved Q2/Q10 regression equations",
+      "Rational method (runoff to BMPs)"
+    ],
+    "required_hydrologic_hydraulic_software": [
+      "San Diego Hydrology Model (SDHM)",
+      "EPA SWMM"
+    ],
+    "approved_bmp_categories": [
+      "Harvest and Use",
+      "Infiltration / Bioretention / Permeable pavement",
+      "Biofiltration",
+      "Flow-thru treatment controls"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "Chula Vista — San Diego County MS4; coverage via City of San Diego Stormwater Standards as regional reference",
+      "page_or_section": "Coverage note"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "low",
+    "needs_human_review": true,
+    "review_notes": "Regional placeholder — replace with Chula Vista / County BMP Design Manual when a durable public PDF is available.",
+    "fields_not_found": []
+  },
+  "source": {
+    "document_url": "https://www.sandiego.gov/sites/default/files/2024-08/sws_manual_august_2024_update.pdf",
+    "landing_page_url": "https://www.chulavistaca.gov/",
+    "retrieved_at": "2026-08-10T10:27:43.524Z",
+    "original_filename": "chula-vista-ca.pdf"
+  }
+}

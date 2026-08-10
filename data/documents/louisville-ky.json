@@ -1,0 +1,100 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "Louisville and Jefferson County Metropolitan Sewer District",
+    "jurisdiction_level": "special_district",
+    "state_code": "KY",
+    "document_title": "MSD Design Manual",
+    "version_or_edition": "Rev. 06-29-2021",
+    "adoption_or_effective_date": null,
+    "last_revised_date": "2021-06-29",
+    "relationship_to_state_manual": "independent"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [
+      10,
+      100
+    ],
+    "water_quality_volume_method": "Stormwater quality and quantity criteria are addressed in MSD Design Manual Chapter 10 (stormwater). Prepared text extract is truncated; confirm WQv / water quality BMP sizing from full PDF Chapter 10.",
+    "peak_flow_calculation_method": [
+      "10-year and 100-year conveyance/detention design storms referenced in Chapter 10",
+      "MSD stormwater design criteria for drainage systems and detention"
+    ],
+    "required_hydrologic_hydraulic_software": [],
+    "approved_bmp_categories": [
+      "Detention",
+      "Stormwater BMPs (per Chapter 10)"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "Metropolitan Sewer District",
+      "page_or_section": "Title / headers"
+    },
+    {
+      "field": "document_metadata.jurisdiction_level",
+      "excerpt": "MSD Design Manual",
+      "page_or_section": "Title"
+    },
+    {
+      "field": "document_metadata.state_code",
+      "excerpt": "Kentucky",
+      "page_or_section": "Jurisdiction"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "Design Manual",
+      "page_or_section": "Title"
+    },
+    {
+      "field": "document_metadata.version_or_edition",
+      "excerpt": "rev 06-29-2021",
+      "page_or_section": "Filename / cover"
+    },
+    {
+      "field": "document_metadata.last_revised_date",
+      "excerpt": "06-29-2021",
+      "page_or_section": "Filename / cover"
+    },
+    {
+      "field": "document_metadata.relationship_to_state_manual",
+      "excerpt": "MSD Design Manual Chapter 10 stormwater",
+      "page_or_section": "Chapter 10"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "10-year / 100-year",
+      "page_or_section": "Chapter 10"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "stormwater quality",
+      "page_or_section": "Chapter 10"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "detention",
+      "page_or_section": "Chapter 10"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "BMPs",
+      "page_or_section": "Chapter 10"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "low",
+    "needs_human_review": true,
+    "review_notes": "Large MSD Design Manual; queue text truncated. Re-extract Chapter 10 from full PDF for higher-confidence WQ and peak methods.",
+    "fields_not_found": [
+      "document_metadata.adoption_or_effective_date",
+      "design_criteria.required_hydrologic_hydraulic_software"
+    ]
+  },
+  "source": {
+    "document_url": "https://louisvillemsd.org/sites/default/files/inline-files/designmanual_rev%2006-29-2021_0.pdf",
+    "landing_page_url": "https://louisvillemsd.org/what-we-do/stormwaterdrainage/drawings",
+    "retrieved_at": "2026-08-10T08:10:00.000Z",
+    "original_filename": "louisville-ky.pdf"
+  }
+}

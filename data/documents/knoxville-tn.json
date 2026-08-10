@@ -1,0 +1,101 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "City of Knoxville",
+    "jurisdiction_level": "municipality",
+    "state_code": "TN",
+    "document_title": "Best Management Practices (BMP) Manual",
+    "version_or_edition": "January 2018",
+    "adoption_or_effective_date": null,
+    "last_revised_date": "2018-01-01",
+    "relationship_to_state_manual": "independent"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [],
+    "water_quality_volume_method": "First flush volume = 0.5 inch of direct runoff over the entire contributing drainage area (min 4,500 cf), released over a minimum of 24 hours (Knoxville Stormwater and Street Ordinance Ch. 22.5). Structural ST BMPs include dry/wet detention, infiltration, wetlands, filter strips/swales, water quality inlets, oil/water separators.",
+    "peak_flow_calculation_method": [
+      "Detention computations (ST-10)",
+      "HEC-1 / HEC-HMS examples (ST-12)",
+      "Ordinance-defined detention storms (Ch. 22.5)"
+    ],
+    "required_hydrologic_hydraulic_software": [],
+    "approved_bmp_categories": [
+      "Dry detention basin",
+      "Wet detention basin",
+      "Infiltration systems",
+      "Constructed wetlands",
+      "Filter strips and swales",
+      "Water quality / media filtration inlets",
+      "Oil / water separator",
+      "Underground detention (special permission)",
+      "Erosion and sediment control BMPs"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "City of Knoxville",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.jurisdiction_level",
+      "excerpt": "City of Knoxville",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.state_code",
+      "excerpt": "Tennessee",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "Best Management Practices (BMP) Manual",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.version_or_edition",
+      "excerpt": "January 2018",
+      "page_or_section": "Title page"
+    },
+    {
+      "field": "document_metadata.last_revised_date",
+      "excerpt": "January 2018",
+      "page_or_section": "Title page"
+    },
+    {
+      "field": "document_metadata.relationship_to_state_manual",
+      "excerpt": "Knoxville Stormwater and Street Ordinance (Chapter 22.5)",
+      "page_or_section": "Introduction"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "first flush volume is defined as one-half inch of direct runoff over the entire contributing drainage area",
+      "page_or_section": "Chapter 4"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "ST-10 Detention Computations; ST-12 Detention Example for HEC-1 and HEC-HMS",
+      "page_or_section": "ST section TOC"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "ST-01 Dry Detention Basin; ST-02 Wet Detention Basin; ST-03 Infiltration Systems",
+      "page_or_section": "ST section"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "medium",
+    "needs_human_review": true,
+    "review_notes": "Combined KnoxvilleBMP.pdf (Jan 2018). First-flush criteria from ordinance citations in manual; peak-rate return periods not fully tabulated in extracted text.",
+    "fields_not_found": [
+      "document_metadata.adoption_or_effective_date",
+      "design_criteria.design_storm_return_periods_years",
+      "design_criteria.required_hydrologic_hydraulic_software"
+    ]
+  },
+  "source": {
+    "document_url": "https://cdnsm5-hosted.civiclive.com/UserFiles/Servers/Server_109478/File/Engineering/BMPManual/KnoxvilleBMP.pdf",
+    "landing_page_url": "https://www.knoxvilletn.gov/government/city_departments_offices/engineering/engineering_development_services_division/bmp_manual",
+    "retrieved_at": "2026-08-10T09:24:56.027Z",
+    "original_filename": "knoxville-tn.pdf"
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "City of Overland Park",
+    "jurisdiction_level": "municipality",
+    "state_code": "KS",
+    "document_title": "Design and Construction Standards — Volume 1 Design Criteria",
+    "version_or_edition": "2023 (adopted November 1, 2023)",
+    "adoption_or_effective_date": "2023-11-01",
+    "last_revised_date": "2023-11-01",
+    "relationship_to_state_manual": "independent"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [],
+    "water_quality_volume_method": "Adopts KC-APWA Section 5600 Storm Drainage Systems and Facilities by reference with Overland Park amendments (detention 5608, conveyance, treatment facilities). Stormwater detention per OPMC 15.10 and Section 5608 as amended; stormwater treatment facility standards adopted by Public Works. MARC/APWA BMP Manual typically used regionally for water quality (confirm via city ES policies).",
+    "peak_flow_calculation_method": [
+      "KC-APWA Section 5600 as amended by Overland Park",
+      "Detention basin sizing / release rates (Section 5608 amendments)",
+      "Stormwater management studies per ES Policy 3-01",
+      "Stream corridor / conveyance rules (OPMC 15.10 / 18.365)"
+    ],
+    "required_hydrologic_hydraulic_software": [],
+    "approved_bmp_categories": [
+      "Stormwater conveyance facilities",
+      "Detention / underground storage",
+      "Stormwater treatment facilities",
+      "Engineered / bio swales"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "City of Overland Park / Planning and Development Services / Public Works",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.jurisdiction_level",
+      "excerpt": "City of Overland Park",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.state_code",
+      "excerpt": "Kansas",
+      "page_or_section": "Standards"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "DESIGN AND CONSTRUCTION STANDARDS",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.version_or_edition",
+      "excerpt": "2023",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.adoption_or_effective_date",
+      "excerpt": "Adopted 11.01.23",
+      "page_or_section": "Source filename / adoption"
+    },
+    {
+      "field": "document_metadata.last_revised_date",
+      "excerpt": "2023",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.relationship_to_state_manual",
+      "excerpt": "Adoption of KC-APWA Section 5600 by Reference",
+      "page_or_section": "Stormwater Conveyance Facilities"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "Stormwater Treatment Facilities / Detention Basin Size",
+      "page_or_section": "Section C / 5608.4.D"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "Section 5600 - Storm Drainage Systems and Facilities ... adopted by reference",
+      "page_or_section": "B.1"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Stormwater Detention / Stormwater Treatment Facilities",
+      "page_or_section": "5608 / Section C"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "medium",
+    "needs_human_review": true,
+    "review_notes": "City amendments to KC-APWA 5600; full numeric criteria in referenced APWA/MARC manuals.",
+    "fields_not_found": [
+      "design_criteria.design_storm_return_periods_years",
+      "design_criteria.required_hydrologic_hydraulic_software"
+    ]
+  },
+  "source": {
+    "document_url": "https://content.civicplus.com/api/assets/ks-overlandpark/2e50125c-ea9f-462d-8053-f153e5f23e1c?cache=1800",
+    "landing_page_url": "https://www.opkansas.org/",
+    "retrieved_at": "2026-08-10T08:48:28.515Z",
+    "original_filename": "overland-park-ks.pdf"
+  }
+}

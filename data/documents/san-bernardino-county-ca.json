@@ -1,0 +1,100 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "San Bernardino County",
+    "jurisdiction_level": "county",
+    "state_code": "CA",
+    "document_title": "Technical Guidance Document for Water Quality Management Plans (Santa Ana River Watershed)",
+    "version_or_edition": "Effective September 19, 2013 (approved June 21, 2013)",
+    "adoption_or_effective_date": "2013-09-19",
+    "last_revised_date": "2013-06-21",
+    "relationship_to_state_manual": "independent"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [],
+    "water_quality_volume_method": "Priority Projects must meet LID performance criteria by retaining/treating the Design Capture Volume (DCV) for the water quality design storm via infiltration, evapotranspiration, biofiltration, or detention near the source. Hydrologic Conditions of Concern (HCOC) performance criteria address hydromodification. Mojave River Watershed has a separate TGD.",
+    "peak_flow_calculation_method": [
+      "Design Capture Volume (DCV) calculation for LID",
+      "HCOC / hydromodification performance criteria",
+      "LID BMP selection and feasibility evaluation"
+    ],
+    "required_hydrologic_hydraulic_software": [],
+    "approved_bmp_categories": [
+      "LID preventive / site design measures",
+      "LID mitigative BMPs (infiltration, biotreatment)",
+      "Treatment control BMPs",
+      "HCOC hydromodification mitigation BMPs"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "County of San Bernardino Areawide Stormwater Program",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.jurisdiction_level",
+      "excerpt": "County of San Bernardino",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.state_code",
+      "excerpt": "Santa Ana Regional / ORDER No. R8-2010-0036",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "Technical Guidance Document for Water Quality Management Plans",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.version_or_edition",
+      "excerpt": "Effective Date: September 19, 2013",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.adoption_or_effective_date",
+      "excerpt": "Effective Date: September 19, 2013",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.last_revised_date",
+      "excerpt": "Approval Date: June 21, 2013",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.relationship_to_state_manual",
+      "excerpt": "NPDES No. CAS618036 MS4 Order R8-2010-0036",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "Design Capture Volume or \"DCV\" / LID Performance Criteria",
+      "page_or_section": "Section 4.1"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "HCOC Performance Criteria / Hydromodification Impacts",
+      "page_or_section": "Section 4.2 / 3.4.1"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Selection of LID Mitigative Measures and BMPs",
+      "page_or_section": "Section 5.3"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "high",
+    "needs_human_review": false,
+    "review_notes": "Santa Ana River Watershed TGD; Mojave has separate guidance.",
+    "fields_not_found": [
+      "design_criteria.design_storm_return_periods_years",
+      "design_criteria.required_hydrologic_hydraulic_software"
+    ]
+  },
+  "source": {
+    "document_url": "https://dpw.sbcounty.gov/wp-content/uploads/sites/87/docs/SantaAnaRiver-WQMP-Final-June2013.pdf",
+    "landing_page_url": "https://dpw.sbcounty.gov/wqmp-templates-and-forms/",
+    "retrieved_at": "2026-08-10T08:48:28.515Z",
+    "original_filename": "san-bernardino-county-ca.pdf"
+  }
+}

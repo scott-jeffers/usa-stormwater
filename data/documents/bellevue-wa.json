@@ -1,0 +1,101 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "City of Bellevue",
+    "jurisdiction_level": "municipality",
+    "state_code": "WA",
+    "document_title": "Storm and Surface Water Engineering Standards",
+    "version_or_edition": "January 2023",
+    "adoption_or_effective_date": "2023-01-01",
+    "last_revised_date": "2023-01-01",
+    "relationship_to_state_manual": "deemed_equivalent_to_state_manual"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [],
+    "water_quality_volume_method": "Implements Ecology DOE Manual-aligned Minimum Requirements #1–#9 for new/redevelopment (site plans, construction SWPPP, source control, natural drainage, on-site stormwater management, runoff treatment, flow control, wetlands protection, O&M). Flow control and infiltration/detention facility standards in Chapters D6–D7; LID infeasibility criteria in appendices.",
+    "peak_flow_calculation_method": [
+      "Minimum Requirement #7 Flow Control (duration matching per DOE Manual)",
+      "Detention facility design standards",
+      "Infiltration system design / feasibility checklist",
+      "Flow control exemptions for Ecology-approved receiving waters"
+    ],
+    "required_hydrologic_hydraulic_software": [],
+    "approved_bmp_categories": [
+      "On-site stormwater management / LID BMPs",
+      "Runoff treatment BMPs",
+      "Flow control detention facilities",
+      "Infiltration systems"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "CITY OF BELLEVUE UTILITIES DEPARTMENT",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.jurisdiction_level",
+      "excerpt": "CITY OF BELLEVUE",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.state_code",
+      "excerpt": "DOE Manual / Ecology",
+      "page_or_section": "D1-01"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "STORM AND SURFACE WATER ENGINEERING STANDARDS",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.version_or_edition",
+      "excerpt": "January 2023",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.adoption_or_effective_date",
+      "excerpt": "January 2023",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.last_revised_date",
+      "excerpt": "January 2023",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.relationship_to_state_manual",
+      "excerpt": "in accordance with the DOE Manual / Storm and Surface Water Utility Code Chapter 24.06",
+      "page_or_section": "D1-01.1"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "MINIMUM REQUIREMENT #6 - RUNOFF TREATMENT / #5 - ON-SITE STORMWATER MANAGEMENT",
+      "page_or_section": "D1-04.2"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "MINIMUM REQUIREMENT #7 - FLOW CONTROL",
+      "page_or_section": "D1-04.2(G)"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "FLOW CONTROL - DETENTION FACILITIES / INFILTRATION SYSTEMS",
+      "page_or_section": "D6 / D7"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "high",
+    "needs_human_review": false,
+    "review_notes": "2023 standards used (2025/2026 also published); Ecology DOE Manual equivalent framework.",
+    "fields_not_found": [
+      "design_criteria.design_storm_return_periods_years",
+      "design_criteria.required_hydrologic_hydraulic_software"
+    ]
+  },
+  "source": {
+    "document_url": "https://bellevuewa.gov/sites/default/files/media/pdf_document/2023/Storm%20Engineering%20Standards%202023%28PDF%29.pdf",
+    "landing_page_url": "https://bellevuewa.gov/city-government/departments/utilities/utilities-projects-plans-standards/utilities-codes-and-standards/surface-water-engineering-standards",
+    "retrieved_at": "2026-08-10T08:48:28.515Z",
+    "original_filename": "bellevue-wa.pdf"
+  }
+}

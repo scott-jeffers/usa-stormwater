@@ -1,0 +1,119 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "City of Vancouver",
+    "jurisdiction_level": "municipality",
+    "state_code": "WA",
+    "document_title": "Surface Water Management Design and Construction Requirements (Section 4 General Requirements)",
+    "version_or_edition": "FINAL 2/18/2025",
+    "adoption_or_effective_date": "2025-02-18",
+    "last_revised_date": "2025-02-18",
+    "relationship_to_state_manual": "adopts_state_manual_directly"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [
+      2,
+      10,
+      25,
+      50,
+      100
+    ],
+    "water_quality_volume_method": "Adopts Ecology Stormwater Management Manual for Western Washington (SWMMWW) Minimum Requirements by reference (MR #1–#9 including runoff treatment and flow control). Local Section 4 General Requirements supplement/clarify SWMMWW for Vancouver conditions, including bioretention, flow control & infiltration systems, and UIC program alignment.",
+    "peak_flow_calculation_method": [
+      "Ecology SWMMWW continuous simulation / flow control",
+      "WWHM / HSPF (per SWMMWW)",
+      "City General Requirements Section 4"
+    ],
+    "required_hydrologic_hydraulic_software": [
+      "WWHM",
+      "HSPF"
+    ],
+    "approved_bmp_categories": [
+      "Bioretention areas",
+      "Flow control facilities",
+      "Infiltration systems",
+      "Runoff treatment BMPs (SWMMWW)",
+      "LID BMPs",
+      "Source control BMPs",
+      "Construction stormwater BMPs"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "City of Vancouver",
+      "page_or_section": "Section 4 header"
+    },
+    {
+      "field": "document_metadata.jurisdiction_level",
+      "excerpt": "City of Vancouver",
+      "page_or_section": "Coverage"
+    },
+    {
+      "field": "document_metadata.state_code",
+      "excerpt": "Washington State Department of Ecology",
+      "page_or_section": "§4-1"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "SURFACE WATER MANAGEMENT DESIGN AND CONSTRUCTION REQUIREMENTS",
+      "page_or_section": "Section 4"
+    },
+    {
+      "field": "document_metadata.version_or_edition",
+      "excerpt": "FINAL 2/18/2025",
+      "page_or_section": "Footer"
+    },
+    {
+      "field": "document_metadata.adoption_or_effective_date",
+      "excerpt": "FINAL 2/18/2025",
+      "page_or_section": "Footer"
+    },
+    {
+      "field": "document_metadata.last_revised_date",
+      "excerpt": "FINAL 2/18/2025",
+      "page_or_section": "Footer"
+    },
+    {
+      "field": "document_metadata.relationship_to_state_manual",
+      "excerpt": "supplement and clarify the Stormwater Management Manual for Western Washington (Stormwater Manual)",
+      "page_or_section": "§4-1"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "Minimum Requirements ... Flow Control ... Ecology's Stormwater Manual",
+      "page_or_section": "§4-1.01"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "Flow Control & Infiltration Systems",
+      "page_or_section": "§4-5"
+    },
+    {
+      "field": "design_criteria.required_hydrologic_hydraulic_software",
+      "excerpt": "WWHM / HSPF per SWMMWW",
+      "page_or_section": "SWMMWW / coverage note"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Bioretention Areas",
+      "page_or_section": "§4-7.01"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "SWMMWW design storms 2/10/25/50/100",
+      "page_or_section": "SWMMWW / coverage note"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "medium",
+    "needs_human_review": true,
+    "review_notes": "Local Section 4 (2025) + SWMMWW adoption via VMC 14.25. Return periods mirrored from wa-state-western / SWMMWW.",
+    "fields_not_found": []
+  },
+  "source": {
+    "document_url": "https://www.cityofvancouver.us/wp-content/uploads/2024/12/Section-4-Storm-Gen-Reqs-2025-with-appendix.pdf",
+    "landing_page_url": "https://www.cityofvancouver.us/government/department/public-works/water-sewer-and-stormwater/surface-water-stormwater-design-construction-requirements/",
+    "retrieved_at": "2026-08-10T09:24:56.027Z",
+    "original_filename": "vancouver-wa.pdf"
+  }
+}

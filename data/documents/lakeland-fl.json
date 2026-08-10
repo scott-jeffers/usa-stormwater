@@ -1,0 +1,56 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "City of Lakeland",
+    "jurisdiction_level": "municipality",
+    "state_code": "FL",
+    "document_title": "SWFWMD ERP Applicant's Handbook Volume II (Design Requirements)",
+    "version_or_edition": "Adopted 10-31-25 (AH Vol II with Appendices)",
+    "adoption_or_effective_date": "2025-10-31",
+    "last_revised_date": "2025-10-31",
+    "relationship_to_state_manual": "adopts_state_manual_directly"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [
+      25,
+      100
+    ],
+    "water_quality_volume_method": "SWFWMD ERP AH Vol II stormwater quality and quantity criteria for systems in the District. Open-basin peak discharge typically analyzed with District 24-hour / 25-year rainfall; closed basins may require 24-hour / 100-year volume matching. Treatment volumes and recovery criteria per Parts IV–VI of Volume II (and Volume I performance standards).",
+    "peak_flow_calculation_method": [
+      "SWFWMD 24-hour / 25-year rainfall maps (open basin)",
+      "24-hour / 100-year volume criteria (closed / volume-sensitive basins)",
+      "NRCS Type II Florida Modified distribution"
+    ],
+    "required_hydrologic_hydraulic_software": [],
+    "approved_bmp_categories": [
+      "Retention systems",
+      "Detention systems",
+      "Wet detention",
+      "Off-line treatment systems",
+      "Other SWFWMD-approved BMPs"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "City of Lakeland is within SWFWMD and follows ERP AH Volume II",
+      "page_or_section": "Coverage note"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "24-hour, 25-year rainfall maps and the Natural Resources Conservation Service type II Florida Modified 24-hour rainfall distribution",
+      "page_or_section": "SWFWMD AH Vol II §3"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "medium",
+    "needs_human_review": true,
+    "review_notes": "Municipality coverage via SWFWMD ERP AH Vol II. City portal criteria PDF returned HTML/404 previously.",
+    "fields_not_found": []
+  },
+  "source": {
+    "document_url": "https://www.swfwmd.state.fl.us/sites/default/files/medias/documents/SWFWMD%20AHVII%20with%20Appendices-Adopted%20on%2010-31-25.pdf",
+    "landing_page_url": "https://www.swfwmd.state.fl.us/",
+    "retrieved_at": "2026-08-10T10:18:37.456Z",
+    "original_filename": "lakeland-fl.pdf"
+  }
+}

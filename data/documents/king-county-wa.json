@@ -1,0 +1,115 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "King County",
+    "jurisdiction_level": "county",
+    "state_code": "WA",
+    "document_title": "Surface Water Design Manual",
+    "version_or_edition": "2021 Amended November 14, 2024",
+    "adoption_or_effective_date": "2021-07-23",
+    "last_revised_date": "2024-11-14",
+    "relationship_to_state_manual": "independent"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [
+      2,
+      10,
+      25,
+      100
+    ],
+    "water_quality_volume_method": "Core Requirement #8: Water Quality. Water quality menus (Basic Water Quality Menu and others) in Chapter 6. Continuous simulation / WWHM-based sizing typical for flow control and WQ facilities.",
+    "peak_flow_calculation_method": [
+      "Core Requirement #3: Flow Control",
+      "Flow Control Design standards (Chapter 3)",
+      "Flow control design using continuous hydrologic modeling (WWHM)",
+      "Core Requirement #9: Flow Control BMPs (dispersal/infiltration LID BMPs)"
+    ],
+    "required_hydrologic_hydraulic_software": [
+      "Western Washington Hydrology Model (WWHM) / continuous simulation tools as specified"
+    ],
+    "approved_bmp_categories": [
+      "Flow control facilities",
+      "Water quality treatment facilities (Basic WQ menu and others)",
+      "Flow control BMPs / LID",
+      "Infiltration facilities"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "KING COUNTY, WASHINGTON",
+      "page_or_section": "Title"
+    },
+    {
+      "field": "document_metadata.jurisdiction_level",
+      "excerpt": "King County",
+      "page_or_section": "Title"
+    },
+    {
+      "field": "document_metadata.state_code",
+      "excerpt": "WASHINGTON",
+      "page_or_section": "Title"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "SURFACE WATER DESIGN MANUAL",
+      "page_or_section": "Title"
+    },
+    {
+      "field": "document_metadata.version_or_edition",
+      "excerpt": "July 23, 2021 Amended November 14, 2024",
+      "page_or_section": "Title"
+    },
+    {
+      "field": "document_metadata.adoption_or_effective_date",
+      "excerpt": "July 23, 2021",
+      "page_or_section": "Title"
+    },
+    {
+      "field": "document_metadata.last_revised_date",
+      "excerpt": "Amended November 14, 2024",
+      "page_or_section": "Title"
+    },
+    {
+      "field": "document_metadata.relationship_to_state_manual",
+      "excerpt": "King County Code (KCC) Chapter 9.04",
+      "page_or_section": "Chapter 1"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "Flow Control / design standards",
+      "page_or_section": "Chapter 3"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "Core Reqmt #8: Water Quality",
+      "page_or_section": "Section 1.2.8"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "Core Reqmt #3: Flow Control",
+      "page_or_section": "Section 1.2.3"
+    },
+    {
+      "field": "design_criteria.required_hydrologic_hydraulic_software",
+      "excerpt": "Flow Control Design Using the",
+      "page_or_section": "Section 3.3.2"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Basic Water Quality Menu",
+      "page_or_section": "Section 6.1.1"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "high",
+    "needs_human_review": false,
+    "review_notes": "King County SWDM 2021/2024; text extract truncated but core requirements and WQ/flow-control structure clear.",
+    "fields_not_found": []
+  },
+  "source": {
+    "document_url": "https://your.kingcounty.gov/dnrp/library/water-and-land/stormwater/surface-water-design-manual/2021/amended-2024/2021-kcswdm-amended-2024-full-manual.pdf",
+    "landing_page_url": "https://kingcounty.gov/en/dept/dnrp/nature-recreation/environment/water/stormwater",
+    "retrieved_at": "2026-08-10T08:03:22.623Z",
+    "original_filename": "king-county-wa.pdf"
+  }
+}

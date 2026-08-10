@@ -1,0 +1,63 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "City of Roanoke",
+    "jurisdiction_level": "municipality",
+    "state_code": "VA",
+    "document_title": "Stormwater Management Design Manual — Chapter 5 Stormwater Hydrology (+ Ch.12 WQ)",
+    "version_or_edition": "Revised July 1, 2014 (manual Oct 1, 2007 base)",
+    "adoption_or_effective_date": "2014-07-01",
+    "last_revised_date": "2014-07-01",
+    "relationship_to_state_manual": "deemed_equivalent_to_state_manual"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [
+      2,
+      10,
+      25,
+      100
+    ],
+    "water_quality_volume_method": "Ch.12: stormwater quality BMPs per DEQ BMP Clearinghouse; runoff reduction method / water quality compliance worksheet per 9VAC25-870-65. Phosphorus removal is primary design target (assumes metals/TSS also controlled). Channel protection and flood protection for SWM facilities per 9VAC25-870-66. Hydrology Ch.5: open-channel minor 10-year (lining 2- or 10-year by size), major 100-year; culverts 10-/25-year; storm drains 10-year; check 100-year where flooding risk.",
+    "peak_flow_calculation_method": [
+      "Rational Method (with Cf for storms >10-year)",
+      "SCS Method / hydrographs",
+      "VDOT Drainage Manual / VA SWM Handbook references",
+      "Anderson Method (as applicable)"
+    ],
+    "required_hydrologic_hydraulic_software": [],
+    "approved_bmp_categories": [
+      "Virginia BMP Clearinghouse practices",
+      "Manufactured BMPs (Clearinghouse-listed only)",
+      "Retention / detention (Ch.10)",
+      "Open channels / culverts / storm drains"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "City of Roanoke Stormwater Management Design Manual",
+      "page_or_section": "Ch.5 / Ch.12 headers"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "Open Channels: Minor Channel Capacity 10-year ... Major Channel Capacity 100-year ... Culverts: Principal Arterial Roads 25-year Other Roads 10-year ... Storm Drains: 10-year",
+      "page_or_section": "§5.2.2"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "runoff reduction method will be utilized. A water quality compliance worksheet ... 9VAC25-870-65",
+      "page_or_section": "Ch.12 §12.3"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "medium",
+    "needs_human_review": true,
+    "review_notes": "Manual is chaptered; ingested Ch.5 hydrology PDF plus Ch.12 pollutant-removal criteria from city DocumentCenter. Prefer full combined PDF if published later.",
+    "fields_not_found": []
+  },
+  "source": {
+    "document_url": "https://www.roanokeva.gov/DocumentCenter/View/1181/Chapter-5-Stormwater-Hydrology",
+    "landing_page_url": "https://www.roanokeva.gov/1065/Stormwater-Management-Code",
+    "retrieved_at": "2026-08-10T10:10:49.504Z",
+    "original_filename": "roanoke-va.pdf"
+  }
+}

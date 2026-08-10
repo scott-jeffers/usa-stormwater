@@ -1,0 +1,108 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "Lexington-Fayette Urban County Government",
+    "jurisdiction_level": "municipality",
+    "state_code": "KY",
+    "document_title": "Stormwater Manual",
+    "version_or_edition": "2026 (effective May 1, 2026)",
+    "adoption_or_effective_date": "2026-05-01",
+    "last_revised_date": "2026-05-01",
+    "relationship_to_state_manual": "independent"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [
+      10,
+      100
+    ],
+    "water_quality_volume_method": "New development: Water Quality Volume — all runoff from impervious areas must pass through a stormwater control sized for the 90th percentile storm of 1.2 inches. Runoff Reduction — green infrastructure shall retain on-site a portion of runoff from impervious areas. Streambank protection: 24-hour detention of runoff volume for the 10-year 6-hour storm. Redevelopment criteria in Section 1.8 (20% reduction / treatment of baseline impervious).",
+    "peak_flow_calculation_method": [
+      "Post-construction water quantity and quality criteria (Table 1-2)",
+      "Detention for 10-year and 100-year development levels as specified",
+      "100-year floodplain construction criteria"
+    ],
+    "required_hydrologic_hydraulic_software": [],
+    "approved_bmp_categories": [
+      "Green infrastructure practices",
+      "Extended detention basins",
+      "Underground detention",
+      "Post-construction BMPs (Chapter 10)",
+      "Sediment ponds"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "LFUCG STORMWATER MANUAL",
+      "page_or_section": "Header"
+    },
+    {
+      "field": "document_metadata.jurisdiction_level",
+      "excerpt": "Lexington-Fayette",
+      "page_or_section": "Manual"
+    },
+    {
+      "field": "document_metadata.state_code",
+      "excerpt": "Kentucky",
+      "page_or_section": "Jurisdiction"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "STORMWATER MANUAL",
+      "page_or_section": "Title"
+    },
+    {
+      "field": "document_metadata.version_or_edition",
+      "excerpt": "May 1, 2026",
+      "page_or_section": "Header"
+    },
+    {
+      "field": "document_metadata.adoption_or_effective_date",
+      "excerpt": "May 1, 2026",
+      "page_or_section": "Effective date"
+    },
+    {
+      "field": "document_metadata.last_revised_date",
+      "excerpt": "May 1, 2026",
+      "page_or_section": "Header"
+    },
+    {
+      "field": "document_metadata.relationship_to_state_manual",
+      "excerpt": "LFUCG Stormwater Manual",
+      "page_or_section": "Title"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "10-year, 100-year",
+      "page_or_section": "Quantity criteria"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "stormwater control sized for the 90th percentile storm of 1.2 inches",
+      "page_or_section": "Section 1.7.3"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "24-hour detention of the runoff volume for the 10-year 6-hour storm",
+      "page_or_section": "Section 1.7"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "GREEN INFRASTRUCTURE PRACTICES / extended detention basins",
+      "page_or_section": "Table 1-7 / Chapter 10"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "high",
+    "needs_human_review": false,
+    "review_notes": "LFUCG Stormwater Manual 2026 effective May 1, 2026.",
+    "fields_not_found": [
+      "design_criteria.required_hydrologic_hydraulic_software"
+    ]
+  },
+  "source": {
+    "document_url": "https://content.lexingtonky.gov/sites/default/files/2026-04/LFUCG%20Stormwater%20Manual%2005.01.26.pdf",
+    "landing_page_url": "https://www.lexingtonky.gov/government/departments-programs/environmental-quality-public-works/water-quality/municipal-separate-storm-sewer-system-ms4",
+    "retrieved_at": "2026-08-10T08:18:32.603Z",
+    "original_filename": "lexington-ky.pdf"
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "City of Fort Wayne",
+    "jurisdiction_level": "municipality",
+    "state_code": "IN",
+    "document_title": "City Utilities Design Standards Manual",
+    "version_or_edition": "July 2026",
+    "adoption_or_effective_date": "2026-07",
+    "last_revised_date": "2026-07",
+    "relationship_to_state_manual": "independent"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [
+      2,
+      10,
+      100
+    ],
+    "water_quality_volume_method": "SW11 Stormwater Management: Water Quality Volume (WQv) sized via Reduced Runoff Method and/or Volume Based Method (SW11.06–SW11.07); documentation includes 2-year impacts. Acceptable stormwater quality BMPs include wet/dry extended detention, bioretention, constructed wetlands, proprietary water quality units, and treatment trains.",
+    "peak_flow_calculation_method": [
+      "SW6.02 Design Storms — minor (10-year) and major (100-year) for storm sewers",
+      "SW5 Hydrology methods (Rational / SCS / hydrographs)",
+      "SW11.09 Stormwater Detention Calculations",
+      "Compensatory storage and floodplain criteria (SW11.04)"
+    ],
+    "required_hydrologic_hydraulic_software": [],
+    "approved_bmp_categories": [
+      "Wet extended detention basins",
+      "Dry extended detention basins",
+      "Bioretention basins",
+      "Constructed wetlands",
+      "Underground detention",
+      "Water quality swales",
+      "Proprietary water quality units"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "City of Fort Wayne",
+      "page_or_section": "Title"
+    },
+    {
+      "field": "document_metadata.jurisdiction_level",
+      "excerpt": "City Utilities",
+      "page_or_section": "Title"
+    },
+    {
+      "field": "document_metadata.state_code",
+      "excerpt": "Indiana",
+      "page_or_section": "Jurisdiction"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "City Utilities Design Standards Manual",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.version_or_edition",
+      "excerpt": "July 2026",
+      "page_or_section": "Header"
+    },
+    {
+      "field": "document_metadata.adoption_or_effective_date",
+      "excerpt": "July 2026",
+      "page_or_section": "Header"
+    },
+    {
+      "field": "document_metadata.last_revised_date",
+      "excerpt": "July 2026",
+      "page_or_section": "Header"
+    },
+    {
+      "field": "document_metadata.relationship_to_state_manual",
+      "excerpt": "City Utilities Design Standards",
+      "page_or_section": "Title"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "minor (10-year) storm and the major (100-year) storm",
+      "page_or_section": "SW6.02"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "Stormwater Quality Volume The volume of runoff to be retained in a green infrastructure",
+      "page_or_section": "Definitions / SW11"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "SW11.09 Stormwater Detention Calculations",
+      "page_or_section": "SW11 TOC"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Wet Extended Detention Basins / Bioretention Basins / Constructed Wetlands",
+      "page_or_section": "SW11.14–SW11.17"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "medium",
+    "needs_human_review": true,
+    "review_notes": "Large July 2026 manual (text truncated); WQv numeric depth may be in SW11.07 tables not fully captured.",
+    "fields_not_found": [
+      "design_criteria.required_hydrologic_hydraulic_software"
+    ]
+  },
+  "source": {
+    "document_url": "https://utilities.cityoffortwayne.org/wp-content/uploads/2026/07/City-Utilities-Design-Standards-July-2026.pdf",
+    "landing_page_url": "https://utilities.cityoffortwayne.org/contractors-engineers-developers/design-standards-manual",
+    "retrieved_at": "2026-08-10T08:24:40.117Z",
+    "original_filename": "fort-wayne-in.pdf"
+  }
+}

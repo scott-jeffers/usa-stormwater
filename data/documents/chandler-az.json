@@ -1,0 +1,101 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "City of Chandler",
+    "jurisdiction_level": "municipality",
+    "state_code": "AZ",
+    "document_title": "Engineering Design Standards Manual",
+    "version_or_edition": "January 2025",
+    "adoption_or_effective_date": "2025-01-27",
+    "last_revised_date": "2025-01",
+    "relationship_to_state_manual": "independent"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [],
+    "water_quality_volume_method": "Chapter 3 Storm Drainage System Design includes stormwater quality and runoff control. On-site retention basins and drywells are primary local practices (Maricopa County MAG standards referenced).",
+    "peak_flow_calculation_method": [
+      "Storm Drainage System Design (Chapter 3)",
+      "Runoff control criteria",
+      "On-site retention basin design",
+      "Drywell registration/design per ADEQ/EPA updates"
+    ],
+    "required_hydrologic_hydraulic_software": [],
+    "approved_bmp_categories": [
+      "Retention basins",
+      "Drywells",
+      "Storm drainage systems",
+      "Landscaped medians/retention"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "City of Chandler",
+      "page_or_section": "Title"
+    },
+    {
+      "field": "document_metadata.jurisdiction_level",
+      "excerpt": "City of Chandler",
+      "page_or_section": "Title"
+    },
+    {
+      "field": "document_metadata.state_code",
+      "excerpt": "Arizona / ADEQ",
+      "page_or_section": "Change summary"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "Engineering Design Standards Manual",
+      "page_or_section": "Title"
+    },
+    {
+      "field": "document_metadata.version_or_edition",
+      "excerpt": "January 2025",
+      "page_or_section": "Change Summary"
+    },
+    {
+      "field": "document_metadata.adoption_or_effective_date",
+      "excerpt": "effective January 27, 2025, all new (1st Review) improvement plan submittals",
+      "page_or_section": "Cover memo"
+    },
+    {
+      "field": "document_metadata.last_revised_date",
+      "excerpt": "January 2025",
+      "page_or_section": "Change Summary"
+    },
+    {
+      "field": "document_metadata.relationship_to_state_manual",
+      "excerpt": "MAG Uniform Standard Specifications",
+      "page_or_section": "Purpose"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "Stormwater Quality",
+      "page_or_section": "Chapter 3 TOC"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "Storm Drainage System Design / Runoff Control",
+      "page_or_section": "Chapter 3"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Retention Basins / Drywells",
+      "page_or_section": "Standards sections"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "medium",
+    "needs_human_review": true,
+    "review_notes": "Chandler EDS Jan 2025; confirm numeric retention depth from Chapter 3 tables.",
+    "fields_not_found": [
+      "design_criteria.design_storm_return_periods_years",
+      "design_criteria.required_hydrologic_hydraulic_software"
+    ]
+  },
+  "source": {
+    "document_url": "https://www.chandleraz.gov/sites/default/files/departments/development-services/City-of-Chandler-Engineering-Design-Standards-Manual.pdf",
+    "landing_page_url": "https://www.chandleraz.gov/",
+    "retrieved_at": "2026-08-10T08:18:32.603Z",
+    "original_filename": "chandler-az.pdf"
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "City of Shreveport",
+    "jurisdiction_level": "municipality",
+    "state_code": "LA",
+    "document_title": "Drainage Design Standards",
+    "version_or_edition": "October 14, 2021",
+    "adoption_or_effective_date": "2021-10-14",
+    "last_revised_date": "2021-10-14",
+    "relationship_to_state_manual": "independent"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [
+      10,
+      25,
+      100
+    ],
+    "water_quality_volume_method": "Detention basins reduce post-development peak flow to pre-development for the 10-, 25-, and 100-year design storms. Design frequencies (Table 2-1): storm sewers/inlets 10-year; main channels / arterial cross drains / detention features 25-year; 100-year hydraulic gradient in SFHA and critical arterial underpasses. Rational Method ≤200 ac; NRCS 200–2,000 ac.",
+    "peak_flow_calculation_method": [
+      "Rational Method (≤200 acres)",
+      "NRCS Method (200–2,000 acres)",
+      "USGS Method (>2,000 acres)",
+      "Detention routing for 10-/25-/100-year storms"
+    ],
+    "required_hydrologic_hydraulic_software": [],
+    "approved_bmp_categories": [
+      "Stormwater detention basins",
+      "Retention features",
+      "Storm sewers and inlets",
+      "Open channels / main drainage channels",
+      "Cross drains / side drains"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "Engineering & Environmental Services Department www.shreveport.la.gov",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "DRAINAGE DESIGN STANDARDS",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.version_or_edition",
+      "excerpt": "October 14, 2021",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "Storm Sewers and Inlets ... 10-yr; Main Drainage Channels 25-yr; Detention or Retention Features 25yr; 100-year frequency storm ... SFHA",
+      "page_or_section": "Table 2-1"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "reducing peak flow of a post-development site to peak flow the pre-development ... 10-year, 25-year, and 100-year design storms",
+      "page_or_section": "§9 Stormwater Detention"
+    },
+    {
+      "field": "document_metadata.relationship_to_state_manual",
+      "excerpt": "independent city drainage design standards",
+      "page_or_section": "Coverage note"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "medium",
+    "needs_human_review": true,
+    "review_notes": "Large standards PDF (324 pages / many detail sheets); WQ focus is primarily peak detention rather than fixed rainfall-depth WQv.",
+    "fields_not_found": [
+      "design_criteria.required_hydrologic_hydraulic_software"
+    ]
+  },
+  "source": {
+    "document_url": "https://www.shreveportla.gov/DocumentCenter/View/29000",
+    "landing_page_url": "https://www.shreveportla.gov/2774/Engineering",
+    "retrieved_at": "2026-08-10T09:45:18.880Z",
+    "original_filename": "shreveport-la.pdf"
+  }
+}

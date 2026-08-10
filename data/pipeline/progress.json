@@ -1,0 +1,6021 @@
+{
+  "version": 1,
+  "updatedAt": "2026-08-10T08:01:16.676Z",
+  "jobs": {
+    "md-state": {
+      "id": "md-state",
+      "slug": "md-state",
+      "stages": {
+        "prepare": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "corpus": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {
+            "pages": "pending",
+            "structure": "pending",
+            "chunks": "pending",
+            "tagging": "pending",
+            "manifest": "pending"
+          },
+          "meta": {}
+        },
+        "extract": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "verify": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {},
+          "meta": {}
+        }
+      }
+    },
+    "pa-state": {
+      "id": "pa-state",
+      "slug": "pa-state",
+      "stages": {
+        "prepare": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "corpus": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {
+            "pages": "pending",
+            "structure": "pending",
+            "chunks": "pending",
+            "tagging": "pending",
+            "manifest": "pending"
+          },
+          "meta": {}
+        },
+        "extract": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "verify": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {},
+          "meta": {}
+        }
+      }
+    },
+    "philadelphia-pa": {
+      "id": "philadelphia-pa",
+      "slug": "philadelphia-pa",
+      "stages": {
+        "prepare": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "corpus": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {
+            "pages": "pending",
+            "structure": "pending",
+            "chunks": "pending",
+            "tagging": "pending",
+            "manifest": "pending"
+          },
+          "meta": {}
+        },
+        "extract": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "verify": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {},
+          "meta": {}
+        }
+      }
+    },
+    "ga-state": {
+      "id": "ga-state",
+      "slug": "ga-state",
+      "stages": {
+        "prepare": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "corpus": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {
+            "pages": "pending",
+            "structure": "pending",
+            "chunks": "pending",
+            "tagging": "pending",
+            "manifest": "pending"
+          },
+          "meta": {}
+        },
+        "extract": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "verify": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {},
+          "meta": {}
+        }
+      }
+    },
+    "ct-state": {
+      "id": "ct-state",
+      "slug": "ct-state",
+      "stages": {
+        "prepare": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "corpus": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {
+            "pages": "pending",
+            "structure": "pending",
+            "chunks": "pending",
+            "tagging": "pending",
+            "manifest": "pending"
+          },
+          "meta": {}
+        },
+        "extract": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "verify": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {},
+          "meta": {}
+        }
+      }
+    },
+    "ny-state": {
+      "id": "ny-state",
+      "slug": "ny-state",
+      "stages": {
+        "prepare": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "corpus": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {
+            "pages": "pending",
+            "structure": "pending",
+            "chunks": "pending",
+            "tagging": "pending",
+            "manifest": "pending"
+          },
+          "meta": {}
+        },
+        "extract": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "verify": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {},
+          "meta": {}
+        }
+      }
+    },
+    "ny-bluebook": {
+      "id": "ny-bluebook",
+      "slug": "ny-bluebook",
+      "stages": {
+        "prepare": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "corpus": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {
+            "pages": "pending",
+            "structure": "pending",
+            "chunks": "pending",
+            "tagging": "pending",
+            "manifest": "pending"
+          },
+          "meta": {}
+        },
+        "extract": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "verify": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {},
+          "meta": {}
+        }
+      }
+    },
+    "tn-state": {
+      "id": "tn-state",
+      "slug": "tn-state",
+      "stages": {
+        "prepare": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "corpus": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {
+            "pages": "pending",
+            "structure": "pending",
+            "chunks": "pending",
+            "tagging": "pending",
+            "manifest": "pending"
+          },
+          "meta": {}
+        },
+        "extract": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "verify": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {},
+          "meta": {}
+        }
+      }
+    },
+    "ri-state": {
+      "id": "ri-state",
+      "slug": "ri-state",
+      "stages": {
+        "prepare": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "corpus": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {
+            "pages": "pending",
+            "structure": "pending",
+            "chunks": "pending",
+            "tagging": "pending",
+            "manifest": "pending"
+          },
+          "meta": {}
+        },
+        "extract": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "verify": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {},
+          "meta": {}
+        }
+      }
+    },
+    "vt-state": {
+      "id": "vt-state",
+      "slug": "vt-state",
+      "stages": {
+        "prepare": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "corpus": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {
+            "pages": "pending",
+            "structure": "pending",
+            "chunks": "pending",
+            "tagging": "pending",
+            "manifest": "pending"
+          },
+          "meta": {}
+        },
+        "extract": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "verify": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {},
+          "meta": {}
+        }
+      }
+    },
+    "nh-state": {
+      "id": "nh-state",
+      "slug": "nh-state",
+      "stages": {
+        "prepare": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "corpus": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {
+            "pages": "pending",
+            "structure": "pending",
+            "chunks": "pending",
+            "tagging": "pending",
+            "manifest": "pending"
+          },
+          "meta": {}
+        },
+        "extract": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "verify": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {},
+          "meta": {}
+        }
+      }
+    },
+    "wa-state-western": {
+      "id": "wa-state-western",
+      "slug": "wa-state-western",
+      "stages": {
+        "prepare": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "corpus": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {
+            "pages": "pending",
+            "structure": "pending",
+            "chunks": "pending",
+            "tagging": "pending",
+            "manifest": "pending"
+          },
+          "meta": {}
+        },
+        "extract": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "verify": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {},
+          "meta": {}
+        }
+      }
+    },
+    "fl-fsesci-tier1": {
+      "id": "fl-fsesci-tier1",
+      "slug": "fl-fsesci-tier1",
+      "stages": {
+        "prepare": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "corpus": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {
+            "pages": "pending",
+            "structure": "pending",
+            "chunks": "pending",
+            "tagging": "pending",
+            "manifest": "pending"
+          },
+          "meta": {}
+        },
+        "extract": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "verify": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {},
+          "meta": {}
+        }
+      }
+    },
+    "ma-state-draft": {
+      "id": "ma-state-draft",
+      "slug": "ma-state-draft",
+      "stages": {
+        "prepare": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "corpus": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {
+            "pages": "pending",
+            "structure": "pending",
+            "chunks": "pending",
+            "tagging": "pending",
+            "manifest": "pending"
+          },
+          "meta": {}
+        },
+        "extract": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "verify": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {},
+          "meta": {}
+        }
+      }
+    },
+    "ia-state-ch1": {
+      "id": "ia-state-ch1",
+      "slug": "ia-state-ch1",
+      "stages": {
+        "prepare": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "corpus": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {
+            "pages": "pending",
+            "structure": "pending",
+            "chunks": "pending",
+            "tagging": "pending",
+            "manifest": "pending"
+          },
+          "meta": {}
+        },
+        "extract": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "verify": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {},
+          "meta": {}
+        }
+      }
+    },
+    "nyc-ny": {
+      "id": "nyc-ny",
+      "slug": "nyc-ny",
+      "stages": {
+        "prepare": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "corpus": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {
+            "pages": "pending",
+            "structure": "pending",
+            "chunks": "pending",
+            "tagging": "pending",
+            "manifest": "pending"
+          },
+          "meta": {}
+        },
+        "extract": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "verify": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {},
+          "meta": {}
+        }
+      }
+    },
+    "seattle-wa": {
+      "id": "seattle-wa",
+      "slug": "seattle-wa",
+      "stages": {
+        "prepare": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "corpus": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {
+            "pages": "pending",
+            "structure": "pending",
+            "chunks": "pending",
+            "tagging": "pending",
+            "manifest": "pending"
+          },
+          "meta": {}
+        },
+        "extract": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "verify": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {},
+          "meta": {}
+        }
+      }
+    },
+    "seattle-wa-2026": {
+      "id": "seattle-wa-2026",
+      "slug": "seattle-wa-2026",
+      "stages": {
+        "prepare": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "corpus": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {
+            "pages": "pending",
+            "structure": "pending",
+            "chunks": "pending",
+            "tagging": "pending",
+            "manifest": "pending"
+          },
+          "meta": {}
+        },
+        "extract": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "verify": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {},
+          "meta": {}
+        }
+      }
+    },
+    "chicago-il": {
+      "id": "chicago-il",
+      "slug": "chicago-il",
+      "stages": {
+        "prepare": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "corpus": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {
+            "pages": "pending",
+            "structure": "pending",
+            "chunks": "pending",
+            "tagging": "pending",
+            "manifest": "pending"
+          },
+          "meta": {}
+        },
+        "extract": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "verify": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {},
+          "meta": {}
+        }
+      }
+    },
+    "austin-tx-ecm": {
+      "id": "austin-tx-ecm",
+      "slug": "austin-tx-ecm",
+      "stages": {
+        "prepare": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "corpus": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {
+            "pages": "pending",
+            "structure": "pending",
+            "chunks": "pending",
+            "tagging": "pending",
+            "manifest": "pending"
+          },
+          "meta": {}
+        },
+        "extract": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "verify": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {},
+          "meta": {}
+        }
+      }
+    },
+    "portland-or": {
+      "id": "portland-or",
+      "slug": "portland-or",
+      "stages": {
+        "prepare": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "corpus": {
+          "status": "failed",
+          "updatedAt": "2026-08-10T08:00:17.505Z",
+          "startedAt": "2026-08-10T08:00:15.487Z",
+          "completedAt": "2026-08-10T08:00:17.505Z",
+          "error": "CURSOR_API_KEY is not set. Add it to .env.local (see .env.example).",
+          "substeps": {
+            "pages": "done",
+            "structure": "failed",
+            "chunks": "pending",
+            "tagging": "pending",
+            "manifest": "pending"
+          },
+          "meta": {
+            "pages": 480,
+            "chars": 790909
+          }
+        },
+        "extract": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "verify": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:41.492Z",
+          "startedAt": "2026-08-10T07:58:41.482Z",
+          "completedAt": "2026-08-10T07:58:41.492Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "verification_passed": false,
+            "skipped_reason": "no_corpus_chunks",
+            "failed_fields": []
+          }
+        }
+      }
+    },
+    "denver-co": {
+      "id": "denver-co",
+      "slug": "denver-co",
+      "stages": {
+        "prepare": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "corpus": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {
+            "pages": "pending",
+            "structure": "pending",
+            "chunks": "pending",
+            "tagging": "pending",
+            "manifest": "pending"
+          },
+          "meta": {}
+        },
+        "extract": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "verify": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {},
+          "meta": {}
+        }
+      }
+    },
+    "va-state": {
+      "id": "va-state",
+      "slug": "va-state",
+      "stages": {
+        "prepare": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "corpus": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {
+            "pages": "pending",
+            "structure": "pending",
+            "chunks": "pending",
+            "tagging": "pending",
+            "manifest": "pending"
+          },
+          "meta": {}
+        },
+        "extract": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "verify": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {},
+          "meta": {}
+        }
+      }
+    },
+    "nc-state": {
+      "id": "nc-state",
+      "slug": "nc-state",
+      "stages": {
+        "prepare": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "corpus": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {
+            "pages": "pending",
+            "structure": "pending",
+            "chunks": "pending",
+            "tagging": "pending",
+            "manifest": "pending"
+          },
+          "meta": {}
+        },
+        "extract": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "verify": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {},
+          "meta": {}
+        }
+      }
+    },
+    "nj-state": {
+      "id": "nj-state",
+      "slug": "nj-state",
+      "stages": {
+        "prepare": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "corpus": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {
+            "pages": "pending",
+            "structure": "pending",
+            "chunks": "pending",
+            "tagging": "pending",
+            "manifest": "pending"
+          },
+          "meta": {}
+        },
+        "extract": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "verify": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {},
+          "meta": {}
+        }
+      }
+    },
+    "mn-state": {
+      "id": "mn-state",
+      "slug": null,
+      "stages": {
+        "prepare": {
+          "status": "skipped",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": "superseded_by mn-state-2008",
+          "substeps": {},
+          "meta": {}
+        },
+        "corpus": {
+          "status": "skipped",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": "prepare_skipped",
+          "substeps": {
+            "pages": "pending",
+            "structure": "pending",
+            "chunks": "pending",
+            "tagging": "pending",
+            "manifest": "pending"
+          },
+          "meta": {}
+        },
+        "extract": {
+          "status": "skipped",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": "prepare_skipped",
+          "substeps": {},
+          "meta": {}
+        },
+        "verify": {
+          "status": "skipped",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": "prepare_skipped",
+          "substeps": {},
+          "meta": {}
+        }
+      }
+    },
+    "ca-casqa-municipal": {
+      "id": "ca-casqa-municipal",
+      "slug": "ca-casqa-municipal",
+      "stages": {
+        "prepare": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "corpus": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {
+            "pages": "pending",
+            "structure": "pending",
+            "chunks": "pending",
+            "tagging": "pending",
+            "manifest": "pending"
+          },
+          "meta": {}
+        },
+        "extract": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "verify": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {},
+          "meta": {}
+        }
+      }
+    },
+    "dc-guidebook": {
+      "id": "dc-guidebook",
+      "slug": "dc-guidebook",
+      "stages": {
+        "prepare": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "corpus": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {
+            "pages": "pending",
+            "structure": "pending",
+            "chunks": "pending",
+            "tagging": "pending",
+            "manifest": "pending"
+          },
+          "meta": {}
+        },
+        "extract": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "verify": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {},
+          "meta": {}
+        }
+      }
+    },
+    "baltimore-md": {
+      "id": "baltimore-md",
+      "slug": "baltimore-md",
+      "stages": {
+        "prepare": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "corpus": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {
+            "pages": "pending",
+            "structure": "pending",
+            "chunks": "pending",
+            "tagging": "pending",
+            "manifest": "pending"
+          },
+          "meta": {}
+        },
+        "extract": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "verify": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {},
+          "meta": {}
+        }
+      }
+    },
+    "boston-ma": {
+      "id": "boston-ma",
+      "slug": "boston-ma",
+      "stages": {
+        "prepare": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "corpus": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {
+            "pages": "pending",
+            "structure": "pending",
+            "chunks": "pending",
+            "tagging": "pending",
+            "manifest": "pending"
+          },
+          "meta": {}
+        },
+        "extract": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "verify": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {},
+          "meta": {}
+        }
+      }
+    },
+    "houston-tx": {
+      "id": "houston-tx",
+      "slug": "houston-tx",
+      "stages": {
+        "prepare": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "corpus": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {
+            "pages": "pending",
+            "structure": "pending",
+            "chunks": "pending",
+            "tagging": "pending",
+            "manifest": "pending"
+          },
+          "meta": {}
+        },
+        "extract": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "verify": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {},
+          "meta": {}
+        }
+      }
+    },
+    "san-diego-ca": {
+      "id": "san-diego-ca",
+      "slug": "san-diego-ca",
+      "stages": {
+        "prepare": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "corpus": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {
+            "pages": "pending",
+            "structure": "pending",
+            "chunks": "pending",
+            "tagging": "pending",
+            "manifest": "pending"
+          },
+          "meta": {}
+        },
+        "extract": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "verify": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {},
+          "meta": {}
+        }
+      }
+    },
+    "los-angeles-ca": {
+      "id": "los-angeles-ca",
+      "slug": "los-angeles-ca",
+      "stages": {
+        "prepare": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "corpus": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {
+            "pages": "pending",
+            "structure": "pending",
+            "chunks": "pending",
+            "tagging": "pending",
+            "manifest": "pending"
+          },
+          "meta": {}
+        },
+        "extract": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "verify": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {},
+          "meta": {}
+        }
+      }
+    },
+    "atlanta-ga": {
+      "id": "atlanta-ga",
+      "slug": null,
+      "stages": {
+        "prepare": {
+          "status": "skipped",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": "deferred_no_city_design_manual — Atlanta Chapter 74 Art. X ordinance (Municode) + adopts GSMM (see ga-state); no standalone city design-manual PDF (ShowDocument 4578 403)",
+          "substeps": {},
+          "meta": {}
+        },
+        "corpus": {
+          "status": "skipped",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": "prepare_skipped",
+          "substeps": {
+            "pages": "pending",
+            "structure": "pending",
+            "chunks": "pending",
+            "tagging": "pending",
+            "manifest": "pending"
+          },
+          "meta": {}
+        },
+        "extract": {
+          "status": "skipped",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": "prepare_skipped",
+          "substeps": {},
+          "meta": {}
+        },
+        "verify": {
+          "status": "skipped",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": "prepare_skipped",
+          "substeps": {},
+          "meta": {}
+        }
+      }
+    },
+    "miami-fl": {
+      "id": "miami-fl",
+      "slug": "miami-fl",
+      "stages": {
+        "prepare": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "corpus": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {
+            "pages": "pending",
+            "structure": "pending",
+            "chunks": "pending",
+            "tagging": "pending",
+            "manifest": "pending"
+          },
+          "meta": {}
+        },
+        "extract": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "verify": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {},
+          "meta": {}
+        }
+      }
+    },
+    "minneapolis-mn": {
+      "id": "minneapolis-mn",
+      "slug": "minneapolis-mn",
+      "stages": {
+        "prepare": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "corpus": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {
+            "pages": "pending",
+            "structure": "pending",
+            "chunks": "pending",
+            "tagging": "pending",
+            "manifest": "pending"
+          },
+          "meta": {}
+        },
+        "extract": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "verify": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {},
+          "meta": {}
+        }
+      }
+    },
+    "detroit-mi": {
+      "id": "detroit-mi",
+      "slug": "detroit-mi",
+      "stages": {
+        "prepare": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "corpus": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {
+            "pages": "pending",
+            "structure": "pending",
+            "chunks": "pending",
+            "tagging": "pending",
+            "manifest": "pending"
+          },
+          "meta": {}
+        },
+        "extract": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "verify": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {},
+          "meta": {}
+        }
+      }
+    },
+    "phoenix-az": {
+      "id": "phoenix-az",
+      "slug": "phoenix-az",
+      "stages": {
+        "prepare": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "corpus": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {
+            "pages": "pending",
+            "structure": "pending",
+            "chunks": "pending",
+            "tagging": "pending",
+            "manifest": "pending"
+          },
+          "meta": {}
+        },
+        "extract": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "verify": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {},
+          "meta": {}
+        }
+      }
+    },
+    "salt-lake-city-ut": {
+      "id": "salt-lake-city-ut",
+      "slug": "salt-lake-city-ut",
+      "stages": {
+        "prepare": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "corpus": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {
+            "pages": "pending",
+            "structure": "pending",
+            "chunks": "pending",
+            "tagging": "pending",
+            "manifest": "pending"
+          },
+          "meta": {}
+        },
+        "extract": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "verify": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {},
+          "meta": {}
+        }
+      }
+    },
+    "boise-id": {
+      "id": "boise-id",
+      "slug": "boise-id",
+      "stages": {
+        "prepare": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "corpus": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {
+            "pages": "pending",
+            "structure": "pending",
+            "chunks": "pending",
+            "tagging": "pending",
+            "manifest": "pending"
+          },
+          "meta": {}
+        },
+        "extract": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "verify": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {},
+          "meta": {}
+        }
+      }
+    },
+    "albuquerque-nm": {
+      "id": "albuquerque-nm",
+      "slug": null,
+      "stages": {
+        "prepare": {
+          "status": "skipped",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": "superseded_by albuquerque-nm-gsi",
+          "substeps": {},
+          "meta": {}
+        },
+        "corpus": {
+          "status": "skipped",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": "prepare_skipped",
+          "substeps": {
+            "pages": "pending",
+            "structure": "pending",
+            "chunks": "pending",
+            "tagging": "pending",
+            "manifest": "pending"
+          },
+          "meta": {}
+        },
+        "extract": {
+          "status": "skipped",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": "prepare_skipped",
+          "substeps": {},
+          "meta": {}
+        },
+        "verify": {
+          "status": "skipped",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": "prepare_skipped",
+          "substeps": {},
+          "meta": {}
+        }
+      }
+    },
+    "honolulu-hi": {
+      "id": "honolulu-hi",
+      "slug": "honolulu-hi",
+      "stages": {
+        "prepare": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "corpus": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {
+            "pages": "pending",
+            "structure": "pending",
+            "chunks": "pending",
+            "tagging": "pending",
+            "manifest": "pending"
+          },
+          "meta": {}
+        },
+        "extract": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "verify": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {},
+          "meta": {}
+        }
+      }
+    },
+    "anchorage-ak": {
+      "id": "anchorage-ak",
+      "slug": "anchorage-ak",
+      "stages": {
+        "prepare": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "corpus": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {
+            "pages": "pending",
+            "structure": "pending",
+            "chunks": "pending",
+            "tagging": "pending",
+            "manifest": "pending"
+          },
+          "meta": {}
+        },
+        "extract": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "verify": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {},
+          "meta": {}
+        }
+      }
+    },
+    "ohio-rainwater": {
+      "id": "ohio-rainwater",
+      "slug": "ohio-rainwater",
+      "stages": {
+        "prepare": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "corpus": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {
+            "pages": "pending",
+            "structure": "pending",
+            "chunks": "pending",
+            "tagging": "pending",
+            "manifest": "pending"
+          },
+          "meta": {}
+        },
+        "extract": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "verify": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {},
+          "meta": {}
+        }
+      }
+    },
+    "wisconsin-technical": {
+      "id": "wisconsin-technical",
+      "slug": null,
+      "stages": {
+        "prepare": {
+          "status": "skipped",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": "superseded_by wi-dnr-1001",
+          "substeps": {},
+          "meta": {}
+        },
+        "corpus": {
+          "status": "skipped",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": "prepare_skipped",
+          "substeps": {
+            "pages": "pending",
+            "structure": "pending",
+            "chunks": "pending",
+            "tagging": "pending",
+            "manifest": "pending"
+          },
+          "meta": {}
+        },
+        "extract": {
+          "status": "skipped",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": "prepare_skipped",
+          "substeps": {},
+          "meta": {}
+        },
+        "verify": {
+          "status": "skipped",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": "prepare_skipped",
+          "substeps": {},
+          "meta": {}
+        }
+      }
+    },
+    "michigan-manual": {
+      "id": "michigan-manual",
+      "slug": "michigan-manual",
+      "stages": {
+        "prepare": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "corpus": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {
+            "pages": "pending",
+            "structure": "pending",
+            "chunks": "pending",
+            "tagging": "pending",
+            "manifest": "pending"
+          },
+          "meta": {}
+        },
+        "extract": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "verify": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {},
+          "meta": {}
+        }
+      }
+    },
+    "indiana-manual": {
+      "id": "indiana-manual",
+      "slug": "indiana-manual",
+      "stages": {
+        "prepare": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "corpus": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {
+            "pages": "pending",
+            "structure": "pending",
+            "chunks": "pending",
+            "tagging": "pending",
+            "manifest": "pending"
+          },
+          "meta": {}
+        },
+        "extract": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "verify": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {},
+          "meta": {}
+        }
+      }
+    },
+    "missouri-manual": {
+      "id": "missouri-manual",
+      "slug": "missouri-manual",
+      "stages": {
+        "prepare": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "corpus": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {
+            "pages": "pending",
+            "structure": "pending",
+            "chunks": "pending",
+            "tagging": "pending",
+            "manifest": "pending"
+          },
+          "meta": {}
+        },
+        "extract": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "verify": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {},
+          "meta": {}
+        }
+      }
+    },
+    "arkansas-manual": {
+      "id": "arkansas-manual",
+      "slug": "arkansas-manual",
+      "stages": {
+        "prepare": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "corpus": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {
+            "pages": "pending",
+            "structure": "pending",
+            "chunks": "pending",
+            "tagging": "pending",
+            "manifest": "pending"
+          },
+          "meta": {}
+        },
+        "extract": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "verify": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {},
+          "meta": {}
+        }
+      }
+    },
+    "alabama-handbook": {
+      "id": "alabama-handbook",
+      "slug": "alabama-handbook",
+      "stages": {
+        "prepare": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "corpus": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {
+            "pages": "pending",
+            "structure": "pending",
+            "chunks": "pending",
+            "tagging": "pending",
+            "manifest": "pending"
+          },
+          "meta": {}
+        },
+        "extract": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "verify": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {},
+          "meta": {}
+        }
+      }
+    },
+    "south-carolina-manual": {
+      "id": "south-carolina-manual",
+      "slug": "south-carolina-manual",
+      "stages": {
+        "prepare": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "corpus": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {
+            "pages": "pending",
+            "structure": "pending",
+            "chunks": "pending",
+            "tagging": "pending",
+            "manifest": "pending"
+          },
+          "meta": {}
+        },
+        "extract": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "verify": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {},
+          "meta": {}
+        }
+      }
+    },
+    "kentucky-bmp": {
+      "id": "kentucky-bmp",
+      "slug": "kentucky-bmp",
+      "stages": {
+        "prepare": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "corpus": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {
+            "pages": "pending",
+            "structure": "pending",
+            "chunks": "pending",
+            "tagging": "pending",
+            "manifest": "pending"
+          },
+          "meta": {}
+        },
+        "extract": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "verify": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {},
+          "meta": {}
+        }
+      }
+    },
+    "west-virginia-manual": {
+      "id": "west-virginia-manual",
+      "slug": "west-virginia-manual",
+      "stages": {
+        "prepare": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "corpus": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {
+            "pages": "pending",
+            "structure": "pending",
+            "chunks": "pending",
+            "tagging": "pending",
+            "manifest": "pending"
+          },
+          "meta": {}
+        },
+        "extract": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "verify": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {},
+          "meta": {}
+        }
+      }
+    },
+    "delaware-esc": {
+      "id": "delaware-esc",
+      "slug": null,
+      "stages": {
+        "prepare": {
+          "status": "skipped",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": "superseded_by de-wet-ponds-draft (partial wet-ponds coverage)",
+          "substeps": {},
+          "meta": {}
+        },
+        "corpus": {
+          "status": "skipped",
+          "updatedAt": "2026-08-10T07:58:22.240Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": "prepare_skipped",
+          "substeps": {
+            "pages": "pending",
+            "structure": "pending",
+            "chunks": "pending",
+            "tagging": "pending",
+            "manifest": "pending"
+          },
+          "meta": {}
+        },
+        "extract": {
+          "status": "skipped",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": "prepare_skipped",
+          "substeps": {},
+          "meta": {}
+        },
+        "verify": {
+          "status": "skipped",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": "prepare_skipped",
+          "substeps": {},
+          "meta": {}
+        }
+      }
+    },
+    "maine-manual": {
+      "id": "maine-manual",
+      "slug": "maine-manual",
+      "stages": {
+        "prepare": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "corpus": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {
+            "pages": "pending",
+            "structure": "pending",
+            "chunks": "pending",
+            "tagging": "pending",
+            "manifest": "pending"
+          },
+          "meta": {}
+        },
+        "extract": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "verify": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {},
+          "meta": {}
+        }
+      }
+    },
+    "oregon-manual": {
+      "id": "oregon-manual",
+      "slug": "oregon-manual",
+      "stages": {
+        "prepare": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "corpus": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {
+            "pages": "pending",
+            "structure": "pending",
+            "chunks": "pending",
+            "tagging": "pending",
+            "manifest": "pending"
+          },
+          "meta": {}
+        },
+        "extract": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "verify": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {},
+          "meta": {}
+        }
+      }
+    },
+    "kansas-city-marc-bmp": {
+      "id": "kansas-city-marc-bmp",
+      "slug": "kansas-city-marc-bmp",
+      "stages": {
+        "prepare": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "corpus": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {
+            "pages": "pending",
+            "structure": "pending",
+            "chunks": "pending",
+            "tagging": "pending",
+            "manifest": "pending"
+          },
+          "meta": {}
+        },
+        "extract": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "verify": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {},
+          "meta": {}
+        }
+      }
+    },
+    "tx-edwards-rg348": {
+      "id": "tx-edwards-rg348",
+      "slug": "tx-edwards-rg348",
+      "stages": {
+        "prepare": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "corpus": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {
+            "pages": "pending",
+            "structure": "pending",
+            "chunks": "pending",
+            "tagging": "pending",
+            "manifest": "pending"
+          },
+          "meta": {}
+        },
+        "extract": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "verify": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {},
+          "meta": {}
+        }
+      }
+    },
+    "idaho-bmp-catalog": {
+      "id": "idaho-bmp-catalog",
+      "slug": "idaho-bmp-catalog",
+      "stages": {
+        "prepare": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "corpus": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {
+            "pages": "pending",
+            "structure": "pending",
+            "chunks": "pending",
+            "tagging": "pending",
+            "manifest": "pending"
+          },
+          "meta": {}
+        },
+        "extract": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "verify": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {},
+          "meta": {}
+        }
+      }
+    },
+    "south-salt-lake-ut": {
+      "id": "south-salt-lake-ut",
+      "slug": "south-salt-lake-ut",
+      "stages": {
+        "prepare": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "corpus": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {
+            "pages": "pending",
+            "structure": "pending",
+            "chunks": "pending",
+            "tagging": "pending",
+            "manifest": "pending"
+          },
+          "meta": {}
+        },
+        "extract": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "verify": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {},
+          "meta": {}
+        }
+      }
+    },
+    "hawaii-dot-pcbmp": {
+      "id": "hawaii-dot-pcbmp",
+      "slug": "hawaii-dot-pcbmp",
+      "stages": {
+        "prepare": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "corpus": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {
+            "pages": "pending",
+            "structure": "pending",
+            "chunks": "pending",
+            "tagging": "pending",
+            "manifest": "pending"
+          },
+          "meta": {}
+        },
+        "extract": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "verify": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {},
+          "meta": {}
+        }
+      }
+    },
+    "albuquerque-nm-gsi": {
+      "id": "albuquerque-nm-gsi",
+      "slug": "albuquerque-nm-gsi",
+      "stages": {
+        "prepare": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "corpus": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {
+            "pages": "pending",
+            "structure": "pending",
+            "chunks": "pending",
+            "tagging": "pending",
+            "manifest": "pending"
+          },
+          "meta": {}
+        },
+        "extract": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "verify": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {},
+          "meta": {}
+        }
+      }
+    },
+    "ca-caltrans-construction": {
+      "id": "ca-caltrans-construction",
+      "slug": "ca-caltrans-construction",
+      "stages": {
+        "prepare": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "corpus": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {
+            "pages": "pending",
+            "structure": "pending",
+            "chunks": "pending",
+            "tagging": "pending",
+            "manifest": "pending"
+          },
+          "meta": {}
+        },
+        "extract": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "verify": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {},
+          "meta": {}
+        }
+      }
+    },
+    "mn-state-2008": {
+      "id": "mn-state-2008",
+      "slug": "mn-state-2008",
+      "stages": {
+        "prepare": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "corpus": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {
+            "pages": "pending",
+            "structure": "pending",
+            "chunks": "pending",
+            "tagging": "pending",
+            "manifest": "pending"
+          },
+          "meta": {}
+        },
+        "extract": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "verify": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {},
+          "meta": {}
+        }
+      }
+    },
+    "bismarck-nd": {
+      "id": "bismarck-nd",
+      "slug": "bismarck-nd",
+      "stages": {
+        "prepare": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "corpus": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {
+            "pages": "pending",
+            "structure": "pending",
+            "chunks": "pending",
+            "tagging": "pending",
+            "manifest": "pending"
+          },
+          "meta": {}
+        },
+        "extract": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "verify": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {},
+          "meta": {}
+        }
+      }
+    },
+    "reno-nv": {
+      "id": "reno-nv",
+      "slug": "reno-nv",
+      "stages": {
+        "prepare": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "corpus": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {
+            "pages": "pending",
+            "structure": "pending",
+            "chunks": "pending",
+            "tagging": "pending",
+            "manifest": "pending"
+          },
+          "meta": {}
+        },
+        "extract": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "verify": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {},
+          "meta": {}
+        }
+      }
+    },
+    "oklahoma-odot-ch10": {
+      "id": "oklahoma-odot-ch10",
+      "slug": "oklahoma-odot-ch10",
+      "stages": {
+        "prepare": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "corpus": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {
+            "pages": "pending",
+            "structure": "pending",
+            "chunks": "pending",
+            "tagging": "pending",
+            "manifest": "pending"
+          },
+          "meta": {}
+        },
+        "extract": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "verify": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {},
+          "meta": {}
+        }
+      }
+    },
+    "ak-state": {
+      "id": "ak-state",
+      "slug": "ak-state",
+      "stages": {
+        "prepare": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "corpus": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {
+            "pages": "pending",
+            "structure": "pending",
+            "chunks": "pending",
+            "tagging": "pending",
+            "manifest": "pending"
+          },
+          "meta": {}
+        },
+        "extract": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "verify": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {},
+          "meta": {}
+        }
+      }
+    },
+    "wi-dnr-1001": {
+      "id": "wi-dnr-1001",
+      "slug": "wi-dnr-1001",
+      "stages": {
+        "prepare": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "corpus": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {
+            "pages": "pending",
+            "structure": "pending",
+            "chunks": "pending",
+            "tagging": "pending",
+            "manifest": "pending"
+          },
+          "meta": {}
+        },
+        "extract": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "verify": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {},
+          "meta": {}
+        }
+      }
+    },
+    "mt-deq8": {
+      "id": "mt-deq8",
+      "slug": "mt-deq8",
+      "stages": {
+        "prepare": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "corpus": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {
+            "pages": "pending",
+            "structure": "pending",
+            "chunks": "pending",
+            "tagging": "pending",
+            "manifest": "pending"
+          },
+          "meta": {}
+        },
+        "extract": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "verify": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {},
+          "meta": {}
+        }
+      }
+    },
+    "billings-mt": {
+      "id": "billings-mt",
+      "slug": "billings-mt",
+      "stages": {
+        "prepare": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "corpus": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {
+            "pages": "pending",
+            "structure": "pending",
+            "chunks": "pending",
+            "tagging": "pending",
+            "manifest": "pending"
+          },
+          "meta": {}
+        },
+        "extract": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "verify": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {},
+          "meta": {}
+        }
+      }
+    },
+    "north-little-rock-ar": {
+      "id": "north-little-rock-ar",
+      "slug": "north-little-rock-ar",
+      "stages": {
+        "prepare": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "corpus": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {
+            "pages": "pending",
+            "structure": "pending",
+            "chunks": "pending",
+            "tagging": "pending",
+            "manifest": "pending"
+          },
+          "meta": {}
+        },
+        "extract": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "verify": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {},
+          "meta": {}
+        }
+      }
+    },
+    "ms-state-vol2": {
+      "id": "ms-state-vol2",
+      "slug": "ms-state-vol2",
+      "stages": {
+        "prepare": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "corpus": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {
+            "pages": "pending",
+            "structure": "pending",
+            "chunks": "pending",
+            "tagging": "pending",
+            "manifest": "pending"
+          },
+          "meta": {}
+        },
+        "extract": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "verify": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {},
+          "meta": {}
+        }
+      }
+    },
+    "new-orleans-jefferson-la": {
+      "id": "new-orleans-jefferson-la",
+      "slug": "new-orleans-jefferson-la",
+      "stages": {
+        "prepare": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "corpus": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {
+            "pages": "pending",
+            "structure": "pending",
+            "chunks": "pending",
+            "tagging": "pending",
+            "manifest": "pending"
+          },
+          "meta": {}
+        },
+        "extract": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "verify": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {},
+          "meta": {}
+        }
+      }
+    },
+    "baton-rouge-la": {
+      "id": "baton-rouge-la",
+      "slug": "baton-rouge-la",
+      "stages": {
+        "prepare": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "corpus": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {
+            "pages": "pending",
+            "structure": "pending",
+            "chunks": "pending",
+            "tagging": "pending",
+            "manifest": "pending"
+          },
+          "meta": {}
+        },
+        "extract": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "verify": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {},
+          "meta": {}
+        }
+      }
+    },
+    "wichita-ks-vol2": {
+      "id": "wichita-ks-vol2",
+      "slug": "wichita-ks-vol2",
+      "stages": {
+        "prepare": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "corpus": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {
+            "pages": "pending",
+            "structure": "pending",
+            "chunks": "pending",
+            "tagging": "pending",
+            "manifest": "pending"
+          },
+          "meta": {}
+        },
+        "extract": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "verify": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {},
+          "meta": {}
+        }
+      }
+    },
+    "wy-wydot-field": {
+      "id": "wy-wydot-field",
+      "slug": "wy-wydot-field",
+      "stages": {
+        "prepare": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "corpus": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {
+            "pages": "pending",
+            "structure": "pending",
+            "chunks": "pending",
+            "tagging": "pending",
+            "manifest": "pending"
+          },
+          "meta": {}
+        },
+        "extract": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "verify": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {},
+          "meta": {}
+        }
+      }
+    },
+    "de-wet-ponds-draft": {
+      "id": "de-wet-ponds-draft",
+      "slug": "de-wet-ponds-draft",
+      "stages": {
+        "prepare": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "corpus": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {
+            "pages": "pending",
+            "structure": "pending",
+            "chunks": "pending",
+            "tagging": "pending",
+            "manifest": "pending"
+          },
+          "meta": {}
+        },
+        "extract": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "verify": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {},
+          "meta": {}
+        }
+      }
+    },
+    "sd-dot-esc": {
+      "id": "sd-dot-esc",
+      "slug": "sd-dot-esc",
+      "stages": {
+        "prepare": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "corpus": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {
+            "pages": "pending",
+            "structure": "pending",
+            "chunks": "pending",
+            "tagging": "pending",
+            "manifest": "pending"
+          },
+          "meta": {}
+        },
+        "extract": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "verify": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {},
+          "meta": {}
+        }
+      }
+    },
+    "ne-ndot-stf": {
+      "id": "ne-ndot-stf",
+      "slug": "ne-ndot-stf",
+      "stages": {
+        "prepare": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "corpus": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {
+            "pages": "pending",
+            "structure": "pending",
+            "chunks": "pending",
+            "tagging": "pending",
+            "manifest": "pending"
+          },
+          "meta": {}
+        },
+        "extract": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "verify": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {},
+          "meta": {}
+        }
+      }
+    },
+    "beatrice-ne": {
+      "id": "beatrice-ne",
+      "slug": "beatrice-ne",
+      "stages": {
+        "prepare": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "corpus": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {
+            "pages": "pending",
+            "structure": "pending",
+            "chunks": "pending",
+            "tagging": "pending",
+            "manifest": "pending"
+          },
+          "meta": {}
+        },
+        "extract": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "verify": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {},
+          "meta": {}
+        }
+      }
+    },
+    "norfolk-va": {
+      "id": "norfolk-va",
+      "slug": "norfolk-va",
+      "stages": {
+        "prepare": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "corpus": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {
+            "pages": "pending",
+            "structure": "pending",
+            "chunks": "pending",
+            "tagging": "pending",
+            "manifest": "pending"
+          },
+          "meta": {}
+        },
+        "extract": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "verify": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {},
+          "meta": {}
+        }
+      }
+    },
+    "chesapeake-va": {
+      "id": "chesapeake-va",
+      "slug": "chesapeake-va",
+      "stages": {
+        "prepare": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "corpus": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {
+            "pages": "pending",
+            "structure": "pending",
+            "chunks": "pending",
+            "tagging": "pending",
+            "manifest": "pending"
+          },
+          "meta": {}
+        },
+        "extract": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "verify": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {},
+          "meta": {}
+        }
+      }
+    },
+    "lacey-wa": {
+      "id": "lacey-wa",
+      "slug": "lacey-wa",
+      "stages": {
+        "prepare": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "corpus": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {
+            "pages": "pending",
+            "structure": "pending",
+            "chunks": "pending",
+            "tagging": "pending",
+            "manifest": "pending"
+          },
+          "meta": {}
+        },
+        "extract": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "verify": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {},
+          "meta": {}
+        }
+      }
+    },
+    "nashville-tn-vol4": {
+      "id": "nashville-tn-vol4",
+      "slug": "nashville-tn-vol4",
+      "stages": {
+        "prepare": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "corpus": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {
+            "pages": "pending",
+            "structure": "pending",
+            "chunks": "pending",
+            "tagging": "pending",
+            "manifest": "pending"
+          },
+          "meta": {}
+        },
+        "extract": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "verify": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {},
+          "meta": {}
+        }
+      }
+    },
+    "charlotte-nc": {
+      "id": "charlotte-nc",
+      "slug": "charlotte-nc",
+      "stages": {
+        "prepare": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "corpus": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {
+            "pages": "pending",
+            "structure": "pending",
+            "chunks": "pending",
+            "tagging": "pending",
+            "manifest": "pending"
+          },
+          "meta": {}
+        },
+        "extract": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "verify": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {},
+          "meta": {}
+        }
+      }
+    },
+    "savannah-ga-css": {
+      "id": "savannah-ga-css",
+      "slug": "savannah-ga-css",
+      "stages": {
+        "prepare": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "corpus": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {
+            "pages": "pending",
+            "structure": "pending",
+            "chunks": "pending",
+            "tagging": "pending",
+            "manifest": "pending"
+          },
+          "meta": {}
+        },
+        "extract": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "verify": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {},
+          "meta": {}
+        }
+      }
+    },
+    "tucson-az": {
+      "id": "tucson-az",
+      "slug": "tucson-az",
+      "stages": {
+        "prepare": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "corpus": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {
+            "pages": "pending",
+            "structure": "pending",
+            "chunks": "pending",
+            "tagging": "pending",
+            "manifest": "pending"
+          },
+          "meta": {}
+        },
+        "extract": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "verify": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {},
+          "meta": {}
+        }
+      }
+    },
+    "tucson-az-detention": {
+      "id": "tucson-az-detention",
+      "slug": "tucson-az-detention",
+      "stages": {
+        "prepare": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "corpus": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {
+            "pages": "pending",
+            "structure": "pending",
+            "chunks": "pending",
+            "tagging": "pending",
+            "manifest": "pending"
+          },
+          "meta": {}
+        },
+        "extract": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "verify": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {},
+          "meta": {}
+        }
+      }
+    },
+    "tampa-fl": {
+      "id": "tampa-fl",
+      "slug": "tampa-fl",
+      "stages": {
+        "prepare": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "corpus": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {
+            "pages": "pending",
+            "structure": "pending",
+            "chunks": "pending",
+            "tagging": "pending",
+            "manifest": "pending"
+          },
+          "meta": {}
+        },
+        "extract": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "verify": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {},
+          "meta": {}
+        }
+      }
+    },
+    "gainesville-fl": {
+      "id": "gainesville-fl",
+      "slug": "gainesville-fl",
+      "stages": {
+        "prepare": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "corpus": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {
+            "pages": "pending",
+            "structure": "pending",
+            "chunks": "pending",
+            "tagging": "pending",
+            "manifest": "pending"
+          },
+          "meta": {}
+        },
+        "extract": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "verify": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {},
+          "meta": {}
+        }
+      }
+    },
+    "san-francisco-ca": {
+      "id": "san-francisco-ca",
+      "slug": "san-francisco-ca",
+      "stages": {
+        "prepare": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "corpus": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {
+            "pages": "pending",
+            "structure": "pending",
+            "chunks": "pending",
+            "tagging": "pending",
+            "manifest": "pending"
+          },
+          "meta": {}
+        },
+        "extract": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "verify": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {},
+          "meta": {}
+        }
+      }
+    },
+    "san-antonio-tx": {
+      "id": "san-antonio-tx",
+      "slug": "san-antonio-tx",
+      "stages": {
+        "prepare": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "corpus": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {
+            "pages": "pending",
+            "structure": "pending",
+            "chunks": "pending",
+            "tagging": "pending",
+            "manifest": "pending"
+          },
+          "meta": {}
+        },
+        "extract": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "verify": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {},
+          "meta": {}
+        }
+      }
+    },
+    "columbus-oh": {
+      "id": "columbus-oh",
+      "slug": "columbus-oh",
+      "stages": {
+        "prepare": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "corpus": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {
+            "pages": "pending",
+            "structure": "pending",
+            "chunks": "pending",
+            "tagging": "pending",
+            "manifest": "pending"
+          },
+          "meta": {}
+        },
+        "extract": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "verify": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {},
+          "meta": {}
+        }
+      }
+    },
+    "dallas-tx": {
+      "id": "dallas-tx",
+      "slug": "dallas-tx",
+      "stages": {
+        "prepare": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "corpus": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {
+            "pages": "pending",
+            "structure": "pending",
+            "chunks": "pending",
+            "tagging": "pending",
+            "manifest": "pending"
+          },
+          "meta": {}
+        },
+        "extract": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "verify": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {},
+          "meta": {}
+        }
+      }
+    },
+    "san-jose-ca": {
+      "id": "san-jose-ca",
+      "slug": "san-jose-ca",
+      "stages": {
+        "prepare": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "corpus": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {
+            "pages": "pending",
+            "structure": "pending",
+            "chunks": "pending",
+            "tagging": "pending",
+            "manifest": "pending"
+          },
+          "meta": {}
+        },
+        "extract": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "verify": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {},
+          "meta": {}
+        }
+      }
+    },
+    "fort-worth-tx": {
+      "id": "fort-worth-tx",
+      "slug": "fort-worth-tx",
+      "stages": {
+        "prepare": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "corpus": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {
+            "pages": "pending",
+            "structure": "pending",
+            "chunks": "pending",
+            "tagging": "pending",
+            "manifest": "pending"
+          },
+          "meta": {}
+        },
+        "extract": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "verify": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {},
+          "meta": {}
+        }
+      }
+    },
+    "sacramento-ca": {
+      "id": "sacramento-ca",
+      "slug": "sacramento-ca",
+      "stages": {
+        "prepare": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "corpus": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {
+            "pages": "pending",
+            "structure": "pending",
+            "chunks": "pending",
+            "tagging": "pending",
+            "manifest": "pending"
+          },
+          "meta": {}
+        },
+        "extract": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "verify": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {},
+          "meta": {}
+        }
+      }
+    },
+    "memphis-tn": {
+      "id": "memphis-tn",
+      "slug": "memphis-tn",
+      "stages": {
+        "prepare": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "corpus": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {
+            "pages": "pending",
+            "structure": "pending",
+            "chunks": "pending",
+            "tagging": "pending",
+            "manifest": "pending"
+          },
+          "meta": {}
+        },
+        "extract": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "verify": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {},
+          "meta": {}
+        }
+      }
+    },
+    "louisville-ky": {
+      "id": "louisville-ky",
+      "slug": "louisville-ky",
+      "stages": {
+        "prepare": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "corpus": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {
+            "pages": "pending",
+            "structure": "pending",
+            "chunks": "pending",
+            "tagging": "pending",
+            "manifest": "pending"
+          },
+          "meta": {}
+        },
+        "extract": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "verify": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {},
+          "meta": {}
+        }
+      }
+    },
+    "el-paso-tx": {
+      "id": "el-paso-tx",
+      "slug": "el-paso-tx",
+      "stages": {
+        "prepare": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "corpus": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {
+            "pages": "pending",
+            "structure": "pending",
+            "chunks": "pending",
+            "tagging": "pending",
+            "manifest": "pending"
+          },
+          "meta": {}
+        },
+        "extract": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "verify": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {},
+          "meta": {}
+        }
+      }
+    },
+    "las-vegas-nv": {
+      "id": "las-vegas-nv",
+      "slug": "las-vegas-nv",
+      "stages": {
+        "prepare": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "corpus": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {
+            "pages": "pending",
+            "structure": "pending",
+            "chunks": "pending",
+            "tagging": "pending",
+            "manifest": "pending"
+          },
+          "meta": {}
+        },
+        "extract": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "verify": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {},
+          "meta": {}
+        }
+      }
+    },
+    "raleigh-nc": {
+      "id": "raleigh-nc",
+      "slug": "raleigh-nc",
+      "stages": {
+        "prepare": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "corpus": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {
+            "pages": "pending",
+            "structure": "pending",
+            "chunks": "pending",
+            "tagging": "pending",
+            "manifest": "pending"
+          },
+          "meta": {}
+        },
+        "extract": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "verify": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {},
+          "meta": {}
+        }
+      }
+    },
+    "oakland-ca": {
+      "id": "oakland-ca",
+      "slug": "oakland-ca",
+      "stages": {
+        "prepare": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "corpus": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {
+            "pages": "pending",
+            "structure": "pending",
+            "chunks": "pending",
+            "tagging": "pending",
+            "manifest": "pending"
+          },
+          "meta": {}
+        },
+        "extract": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "verify": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {},
+          "meta": {}
+        }
+      }
+    },
+    "jacksonville-fl": {
+      "id": "jacksonville-fl",
+      "slug": "jacksonville-fl",
+      "stages": {
+        "prepare": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "corpus": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {
+            "pages": "pending",
+            "structure": "pending",
+            "chunks": "pending",
+            "tagging": "pending",
+            "manifest": "pending"
+          },
+          "meta": {}
+        },
+        "extract": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "verify": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {},
+          "meta": {}
+        }
+      }
+    },
+    "milwaukee-wi": {
+      "id": "milwaukee-wi",
+      "slug": "milwaukee-wi",
+      "stages": {
+        "prepare": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "corpus": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {
+            "pages": "pending",
+            "structure": "pending",
+            "chunks": "pending",
+            "tagging": "pending",
+            "manifest": "pending"
+          },
+          "meta": {}
+        },
+        "extract": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "verify": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {},
+          "meta": {}
+        }
+      }
+    },
+    "fresno-ca": {
+      "id": "fresno-ca",
+      "slug": "fresno-ca",
+      "stages": {
+        "prepare": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "corpus": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {
+            "pages": "pending",
+            "structure": "pending",
+            "chunks": "pending",
+            "tagging": "pending",
+            "manifest": "pending"
+          },
+          "meta": {}
+        },
+        "extract": {
+          "status": "done",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T07:58:22.239Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "verify": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:58:22.241Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {},
+          "meta": {}
+        }
+      }
+    },
+    "long-beach-ca": {
+      "id": "long-beach-ca",
+      "slug": null,
+      "stages": {
+        "prepare": {
+          "status": "done",
+          "updatedAt": "2026-08-10T08:00:15.485Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T08:00:15.485Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "corpus": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:59:38.197Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {
+            "pages": "pending",
+            "structure": "pending",
+            "chunks": "pending",
+            "tagging": "pending",
+            "manifest": "pending"
+          },
+          "meta": {}
+        },
+        "extract": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:59:38.197Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {},
+          "meta": {}
+        },
+        "verify": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:59:38.197Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {},
+          "meta": {}
+        }
+      }
+    },
+    "tulsa-ok": {
+      "id": "tulsa-ok",
+      "slug": null,
+      "stages": {
+        "prepare": {
+          "status": "done",
+          "updatedAt": "2026-08-10T08:00:15.485Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T08:00:15.485Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "corpus": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:59:38.197Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {
+            "pages": "pending",
+            "structure": "pending",
+            "chunks": "pending",
+            "tagging": "pending",
+            "manifest": "pending"
+          },
+          "meta": {}
+        },
+        "extract": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:59:38.197Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {},
+          "meta": {}
+        },
+        "verify": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:59:38.197Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {},
+          "meta": {}
+        }
+      }
+    },
+    "king-county-wa": {
+      "id": "king-county-wa",
+      "slug": null,
+      "stages": {
+        "prepare": {
+          "status": "done",
+          "updatedAt": "2026-08-10T08:00:43.101Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T08:00:43.100Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "corpus": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:59:38.197Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {
+            "pages": "pending",
+            "structure": "pending",
+            "chunks": "pending",
+            "tagging": "pending",
+            "manifest": "pending"
+          },
+          "meta": {}
+        },
+        "extract": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:59:38.197Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {},
+          "meta": {}
+        },
+        "verify": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:59:38.197Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {},
+          "meta": {}
+        }
+      }
+    },
+    "orange-county-ca": {
+      "id": "orange-county-ca",
+      "slug": null,
+      "stages": {
+        "prepare": {
+          "status": "done",
+          "updatedAt": "2026-08-10T08:01:16.676Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T08:01:16.676Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "corpus": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:59:38.197Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {
+            "pages": "pending",
+            "structure": "pending",
+            "chunks": "pending",
+            "tagging": "pending",
+            "manifest": "pending"
+          },
+          "meta": {}
+        },
+        "extract": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:59:38.197Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {},
+          "meta": {}
+        },
+        "verify": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:59:38.197Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {},
+          "meta": {}
+        }
+      }
+    },
+    "mesa-az": {
+      "id": "mesa-az",
+      "slug": null,
+      "stages": {
+        "prepare": {
+          "status": "done",
+          "updatedAt": "2026-08-10T08:01:16.676Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T08:01:16.676Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "corpus": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:59:38.197Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {
+            "pages": "pending",
+            "structure": "pending",
+            "chunks": "pending",
+            "tagging": "pending",
+            "manifest": "pending"
+          },
+          "meta": {}
+        },
+        "extract": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:59:38.198Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {},
+          "meta": {}
+        },
+        "verify": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:59:38.198Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {},
+          "meta": {}
+        }
+      }
+    },
+    "aurora-co": {
+      "id": "aurora-co",
+      "slug": null,
+      "stages": {
+        "prepare": {
+          "status": "done",
+          "updatedAt": "2026-08-10T08:01:16.676Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T08:01:16.676Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "corpus": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:59:38.198Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {
+            "pages": "pending",
+            "structure": "pending",
+            "chunks": "pending",
+            "tagging": "pending",
+            "manifest": "pending"
+          },
+          "meta": {}
+        },
+        "extract": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:59:38.198Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {},
+          "meta": {}
+        },
+        "verify": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:59:38.198Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {},
+          "meta": {}
+        }
+      }
+    },
+    "cincinnati-oh": {
+      "id": "cincinnati-oh",
+      "slug": null,
+      "stages": {
+        "prepare": {
+          "status": "done",
+          "updatedAt": "2026-08-10T08:01:16.676Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T08:01:16.676Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "corpus": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:59:38.198Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {
+            "pages": "pending",
+            "structure": "pending",
+            "chunks": "pending",
+            "tagging": "pending",
+            "manifest": "pending"
+          },
+          "meta": {}
+        },
+        "extract": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:59:38.198Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {},
+          "meta": {}
+        },
+        "verify": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:59:38.198Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {},
+          "meta": {}
+        }
+      }
+    },
+    "plano-tx": {
+      "id": "plano-tx",
+      "slug": null,
+      "stages": {
+        "prepare": {
+          "status": "done",
+          "updatedAt": "2026-08-10T08:01:16.676Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T08:01:16.676Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "corpus": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:59:38.198Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {
+            "pages": "pending",
+            "structure": "pending",
+            "chunks": "pending",
+            "tagging": "pending",
+            "manifest": "pending"
+          },
+          "meta": {}
+        },
+        "extract": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:59:38.198Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {},
+          "meta": {}
+        },
+        "verify": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:59:38.198Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {},
+          "meta": {}
+        }
+      }
+    },
+    "arlington-tx": {
+      "id": "arlington-tx",
+      "slug": null,
+      "stages": {
+        "prepare": {
+          "status": "done",
+          "updatedAt": "2026-08-10T08:01:16.676Z",
+          "startedAt": null,
+          "completedAt": "2026-08-10T08:01:16.676Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "corpus": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:59:38.198Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {
+            "pages": "pending",
+            "structure": "pending",
+            "chunks": "pending",
+            "tagging": "pending",
+            "manifest": "pending"
+          },
+          "meta": {}
+        },
+        "extract": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:59:38.198Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {},
+          "meta": {}
+        },
+        "verify": {
+          "status": "pending",
+          "updatedAt": "2026-08-10T07:59:38.198Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {},
+          "meta": {}
+        }
+      }
+    }
+  },
+  "outline": {
+    "status": "pending",
+    "updatedAt": "2026-08-10T07:58:22.236Z",
+    "startedAt": null,
+    "completedAt": null,
+    "error": null,
+    "substeps": {},
+    "meta": {}
+  },
+  "draft": {
+    "status": "pending",
+    "updatedAt": "2026-08-10T07:58:22.236Z",
+    "sections": {}
+  }
+}

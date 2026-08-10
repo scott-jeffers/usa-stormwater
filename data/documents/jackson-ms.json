@@ -1,0 +1,71 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "City of Jackson",
+    "jurisdiction_level": "municipality",
+    "state_code": "MS",
+    "document_title": "MDEQ Volume 2 Stormwater Runoff Management Manual (capital coverage; no standalone city design-manual PDF found)",
+    "version_or_edition": "Published 2011",
+    "adoption_or_effective_date": "2011",
+    "last_revised_date": "2011",
+    "relationship_to_state_manual": "adopts_state_manual_directly"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [
+      1,
+      2,
+      5,
+      10,
+      25,
+      50
+    ],
+    "water_quality_volume_method": "Capture and treat a water quality volume typically equal to the first 1 inch or first 1.5 inches of rainfall, sized with Schueler's Simple Method (Appendix A). Recommended BMP-specific treatment volumes include: wet detention — first 0.5 inch of runoff or 1.5 inches from impervious area; dry retention and constructed wetlands — first 1.0 inch of runoff or 2.5 inches from impervious area (whichever is greater for dry retention).",
+    "peak_flow_calculation_method": [
+      "SCS Runoff Curve Number Method",
+      "Short Cut Floodrouting Method (detention storage within method limits)"
+    ],
+    "required_hydrologic_hydraulic_software": [],
+    "approved_bmp_categories": [
+      "Planning / site design LID practices",
+      "Infiltration (swales, basins, trenches, permeable pavements)",
+      "Filtration (bioretention, sand/organic filters, vegetated filter strips)",
+      "Retention/Detention (wetlands, dry detention, wet ponds, in-line storage)",
+      "Manufactured stormwater treatment systems"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "City of Jackson capital coverage via MDEQ Volume 2",
+      "page_or_section": "Coverage note"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "Volume 2 Stormwater Runoff Management Manual",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "first 1 inch or first 1.5 inches of rainfall... Schueler's Simple Method",
+      "page_or_section": "MDEQ Vol 2 criteria"
+    },
+    {
+      "field": "document_metadata.relationship_to_state_manual",
+      "excerpt": "adopts_state_manual_directly — MDEQ Volume 2",
+      "page_or_section": "Coverage note"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "medium",
+    "needs_human_review": true,
+    "review_notes": "No durable Jackson city design-manual PDF found; MS4 program page only. Coverage via MDEQ Volume 2 (same pattern as AL capitals with ADEM LID).",
+    "fields_not_found": [
+      "design_criteria.required_hydrologic_hydraulic_software"
+    ]
+  },
+  "source": {
+    "document_url": "https://www.mdeq.ms.gov/wp-content/uploads/2017/05/Volume_2.pdf",
+    "landing_page_url": "https://jacksonms.gov/government/city-departments/public-works-department/stormwater-management/",
+    "retrieved_at": "2026-08-10T09:39:14.788Z",
+    "original_filename": "jackson-ms.pdf"
+  }
+}

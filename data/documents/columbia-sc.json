@@ -1,0 +1,109 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "City of Columbia",
+    "jurisdiction_level": "municipality",
+    "state_code": "SC",
+    "document_title": "Best Management Practice (BMP) Design Manual",
+    "version_or_edition": "January 10, 2014",
+    "adoption_or_effective_date": "2014-01-10",
+    "last_revised_date": "2014-01-10",
+    "relationship_to_state_manual": "independent"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [
+      1,
+      2,
+      25,
+      100
+    ],
+    "water_quality_volume_method": "Sites disturbing >1 acre: treat runoff from a 1.2-inch rainfall event (WQv via Unified Stormwater Sizing Criteria / GSMM methods), released over ≥24 hours for detention ponds. Also treat Channel Protection Volume (CPv) for the 1-year storm (≥24-hour release). Overbank flood protection Q25 and extreme flooding addressed. Pretreatment required; commercial/parking >2,000 sf need hydrocarbon capture.",
+    "peak_flow_calculation_method": [
+      "Unified Stormwater Sizing Criteria (WQv / CPv)",
+      "GSMM Sections 3.2–3.4 for structural BMPs",
+      "Overbank Flood Protection (Q25)"
+    ],
+    "required_hydrologic_hydraulic_software": [],
+    "approved_bmp_categories": [
+      "Water quality BMPs (GSMM structural controls)",
+      "Detention ponds",
+      "Pretreatment (forebay, micro-pool, filter strips, vault)",
+      "Better site design practices"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "The City of Columbia, Utilities and Engineering Department",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.jurisdiction_level",
+      "excerpt": "City of Columbia",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.state_code",
+      "excerpt": "Columbia, South Carolina",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "Best Management Practice (BMP) Design Manual",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.version_or_edition",
+      "excerpt": "Date Revised: January 10 2014",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.adoption_or_effective_date",
+      "excerpt": "January 10 2014",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.last_revised_date",
+      "excerpt": "January 10 2014",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.relationship_to_state_manual",
+      "excerpt": "Georgia Stormwater Management Manual (GSMM) will also be utilized",
+      "page_or_section": "Ch. 1"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "treat at least the runoff from the entire site for a 1.2-inch rainfall event",
+      "page_or_section": "§1 Water Quality"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "Channel Protection Volume ... 1-year storm; Overbank Flood Protection (Q25)",
+      "page_or_section": "Ch. 1–2"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "permanent water quality BMP ... pretreatment device such as a forebay",
+      "page_or_section": "§1 Water Quality"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "1-year ... 2- through 100-year; Q25",
+      "page_or_section": "Ch. 1–2"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "high",
+    "needs_human_review": false,
+    "review_notes": null,
+    "fields_not_found": [
+      "design_criteria.required_hydrologic_hydraulic_software"
+    ]
+  },
+  "source": {
+    "document_url": "https://columbiascwater.net/wp-content/uploads/2018/08/bmpmanual.pdf",
+    "landing_page_url": "https://columbiascwater.net/",
+    "retrieved_at": "2026-08-10T09:29:55.327Z",
+    "original_filename": "columbia-sc.pdf"
+  }
+}

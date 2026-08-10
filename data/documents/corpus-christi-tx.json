@@ -1,0 +1,102 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "City of Corpus Christi",
+    "jurisdiction_level": "municipality",
+    "state_code": "TX",
+    "document_title": "Drainage Design Manual",
+    "version_or_edition": "December 2024",
+    "adoption_or_effective_date": null,
+    "last_revised_date": "2024-12",
+    "relationship_to_state_manual": "independent"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [
+      25,
+      100
+    ],
+    "water_quality_volume_method": "Chapter 9 Water Quality / Water Quality Protection; Chapter 11 general water quality management approach. Detention analysis Chapter 7 including design rainfall events for detention and stormwater retention (7.8).",
+    "peak_flow_calculation_method": [
+      "Detention analysis and design rainfall events for detention (Chapter 7)",
+      "Street/roadway level of protection including 25-year and 100-year criteria",
+      "Supports Infrastructure Design Manual (IDM) policies"
+    ],
+    "required_hydrologic_hydraulic_software": [],
+    "approved_bmp_categories": [
+      "Detention basins",
+      "Stormwater retention",
+      "Water quality protection practices"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "CITY OF CORPUS CHRISTI",
+      "page_or_section": "Title"
+    },
+    {
+      "field": "document_metadata.jurisdiction_level",
+      "excerpt": "City of Corpus Christi",
+      "page_or_section": "Title"
+    },
+    {
+      "field": "document_metadata.state_code",
+      "excerpt": "Corpus Christi",
+      "page_or_section": "Title"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "DRAINAGE DESIGN MANUAL",
+      "page_or_section": "Title"
+    },
+    {
+      "field": "document_metadata.version_or_edition",
+      "excerpt": "DECEMBER 2024",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.last_revised_date",
+      "excerpt": "Updated December 2024",
+      "page_or_section": "Footer"
+    },
+    {
+      "field": "document_metadata.relationship_to_state_manual",
+      "excerpt": "APPENDIX TO THE INFRASTRUCTURE DESIGN MANUAL",
+      "page_or_section": "Title"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "25-year / 100-year design storm",
+      "page_or_section": "Level of protection"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "Water Quality Protection",
+      "page_or_section": "Section 9.2"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "Design Rainfall Events For Detention",
+      "page_or_section": "Section 7.2"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Detention Basin Design / Stormwater Retention",
+      "page_or_section": "Chapter 7"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "medium",
+    "needs_human_review": true,
+    "review_notes": "Corpus Christi DDM Dec 2024 labeled draft appendix to IDM.",
+    "fields_not_found": [
+      "document_metadata.adoption_or_effective_date",
+      "design_criteria.required_hydrologic_hydraulic_software"
+    ]
+  },
+  "source": {
+    "document_url": "https://www.corpuschristitx.gov/media/ln5lofdo/draft-drainage-design-manual.pdf",
+    "landing_page_url": "https://www.corpuschristitx.gov/department-directory/engineering-services/infrastructure-design-manual/",
+    "retrieved_at": "2026-08-10T08:08:51.648Z",
+    "original_filename": "corpus-christi-tx.pdf"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "City of Fayetteville",
+    "jurisdiction_level": "municipality",
+    "state_code": "AR",
+    "document_title": "NWA Stormwater BMP Manual (Fayetteville MS4 / Northwest Arkansas)",
+    "version_or_edition": "Revised December 2016 / NWA 2016",
+    "adoption_or_effective_date": "2016-12",
+    "last_revised_date": null,
+    "relationship_to_state_manual": "adopts_state_manual_directly"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [
+      2,
+      10,
+      25,
+      100
+    ],
+    "water_quality_volume_method": "Northwest Arkansas regional Stormwater BMP Manual used by Fayetteville and peer NWA MS4s. Construction sediment traps and retention/detention sized to municipal design storms; LID Appendix B addresses rain gardens, bioretention, infiltration, and green roofs. No single regional WQv equation — follow host municipality + NWA manual.",
+    "peak_flow_calculation_method": [
+      "Rational Method",
+      "Hydrologic analysis (2-/10-/100-year peaks)",
+      "Pre-developed allowable discharge methods"
+    ],
+    "required_hydrologic_hydraulic_software": [],
+    "approved_bmp_categories": [
+      "Preserving Natural Vegetation / Buffer Zones",
+      "Retention / detention ponds",
+      "Bioretention / rain gardens",
+      "Infiltration practices",
+      "Construction ESC BMPs per NWA manual"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "City of Fayetteville is an NWA MS4 using the regional Stormwater BMP Manual",
+      "page_or_section": "Coverage note"
+    },
+    {
+      "field": "document_metadata.relationship_to_state_manual",
+      "excerpt": "adopts_state_manual_directly — NWA BMP Manual",
+      "page_or_section": "Coverage note"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "medium",
+    "needs_human_review": true,
+    "review_notes": "Municipality coverage via Northwest Arkansas regional BMP Manual.",
+    "fields_not_found": []
+  },
+  "source": {
+    "document_url": "https://cityoflittleflock.com/wp-content/uploads/2024/06/BMP-Manual-1-17-ALL.pdf",
+    "landing_page_url": "https://www.bentonville.ar.gov/422/Stormwater-Management",
+    "retrieved_at": "2026-08-10T10:18:37.456Z",
+    "original_filename": "fayetteville-ar.pdf"
+  }
+}

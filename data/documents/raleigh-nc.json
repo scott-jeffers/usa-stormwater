@@ -1,0 +1,110 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "City of Raleigh",
+    "jurisdiction_level": "municipality",
+    "state_code": "NC",
+    "document_title": "Stormwater Design Manual",
+    "version_or_edition": "November 2024",
+    "adoption_or_effective_date": "2024-11-02",
+    "last_revised_date": "2024-11",
+    "relationship_to_state_manual": "independent"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [
+      1,
+      2,
+      10,
+      25,
+      100
+    ],
+    "water_quality_volume_method": "WQv and SCM design; references NCDEQ Stormwater Control Measure Design Manual. Nutrient and peak rate controls apply per City stormwater ordinance and this manual.",
+    "peak_flow_calculation_method": [
+      "Peak rate control for design storms",
+      "SCM / detention design per City manual and NCDEQ SCM Design Manual"
+    ],
+    "required_hydrologic_hydraulic_software": [],
+    "approved_bmp_categories": [
+      "Stormwater Control Measures (SCMs)",
+      "Bioretention",
+      "Wet ponds",
+      "Detention",
+      "Other NCDEQ-approved SCMs"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "City of Raleigh Stormwater Design Manual",
+      "page_or_section": "Title"
+    },
+    {
+      "field": "document_metadata.jurisdiction_level",
+      "excerpt": "City of Raleigh",
+      "page_or_section": "Title"
+    },
+    {
+      "field": "document_metadata.state_code",
+      "excerpt": "North Carolina",
+      "page_or_section": "Title"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "Stormwater Design Manual",
+      "page_or_section": "Title"
+    },
+    {
+      "field": "document_metadata.version_or_edition",
+      "excerpt": "November 2024",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.adoption_or_effective_date",
+      "excerpt": "November 2, 2024",
+      "page_or_section": "Effective date"
+    },
+    {
+      "field": "document_metadata.last_revised_date",
+      "excerpt": "November 2024",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.relationship_to_state_manual",
+      "excerpt": "NCDEQ SCM Design Manual",
+      "page_or_section": "References"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "design storms / peak rate",
+      "page_or_section": "Design criteria"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "WQv / SCMs",
+      "page_or_section": "SCM design"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "peak rate",
+      "page_or_section": "Design criteria"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Stormwater Control Measures",
+      "page_or_section": "SCM chapters"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "medium",
+    "needs_human_review": true,
+    "review_notes": "Raleigh SDM effective Nov 2, 2024; adopts/modifies NCDEQ SCM guidance. Confirm exact return-period list from hydrology chapter.",
+    "fields_not_found": [
+      "design_criteria.required_hydrologic_hydraulic_software"
+    ]
+  },
+  "source": {
+    "document_url": "https://cityofraleigh0drupal.blob.core.usgovcloudapi.net/drupal-prod/COR16/Stormwater%20Design%20Manual.pdf",
+    "landing_page_url": "https://raleighnc.gov/stormwater/services/stormwater-permitting-and-inspections-development/stormwater-design-manual",
+    "retrieved_at": "2026-08-10T08:10:00.000Z",
+    "original_filename": "raleigh-nc.pdf"
+  }
+}

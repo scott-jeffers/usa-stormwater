@@ -1,0 +1,88 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "City of Jersey City",
+    "jurisdiction_level": "municipality",
+    "state_code": "NJ",
+    "document_title": "Stormwater Management Plan",
+    "version_or_edition": null,
+    "adoption_or_effective_date": null,
+    "last_revised_date": null,
+    "relationship_to_state_manual": "adopts_state_manual_directly"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [],
+    "water_quality_volume_method": "Adopts N.J.A.C. 7:8 design and performance standards for stormwater management measures (groundwater recharge, stormwater quality, and quantity), emphasizing nonstructural strategies and green infrastructure before structural BMPs (extended detention, MTDs, etc.). Ordinance Article VI §345-74 implements these standards locally (including 0.6 gal/sf impervious retention for applicable minor development per local practice).",
+    "peak_flow_calculation_method": [
+      "N.J.A.C. 7:8 runoff quantity standards",
+      "Groundwater recharge standards",
+      "Stormwater quality standards"
+    ],
+    "required_hydrologic_hydraulic_software": [],
+    "approved_bmp_categories": [
+      "Nonstructural / green infrastructure strategies",
+      "Extended detention basins",
+      "Manufactured treatment devices",
+      "NJ BMP Manual practices"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "City of Jersey City",
+      "page_or_section": "Title"
+    },
+    {
+      "field": "document_metadata.jurisdiction_level",
+      "excerpt": "Jersey City",
+      "page_or_section": "Title"
+    },
+    {
+      "field": "document_metadata.state_code",
+      "excerpt": "N.J.A.C. 7:8",
+      "page_or_section": "Standards"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "Stormwater Management Plan",
+      "page_or_section": "Title"
+    },
+    {
+      "field": "document_metadata.relationship_to_state_manual",
+      "excerpt": "design and performance standards for stormwater management measures presented in N.J.A.C 7:8-5",
+      "page_or_section": "Section 3"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "Stormwater Management Rules N.J.A.C. 7:8 / groundwater recharge, stormwater quantity, and stormwater quality",
+      "page_or_section": "Introduction / Section 3"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "DESIGN AND PERFORMANCE STANDARDS",
+      "page_or_section": "Section 3.0"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Extended Detention Basins / Manufactured Treatment Devices",
+      "page_or_section": "Section 4.3"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "medium",
+    "needs_human_review": true,
+    "review_notes": "Municipal SWMP adopting NJAC 7:8; numeric sizing primarily in state BMP manual / local ordinance.",
+    "fields_not_found": [
+      "document_metadata.version_or_edition",
+      "document_metadata.adoption_or_effective_date",
+      "document_metadata.last_revised_date",
+      "design_criteria.design_storm_return_periods_years",
+      "design_criteria.required_hydrologic_hydraulic_software"
+    ]
+  },
+  "source": {
+    "document_url": "https://jcmua.com/wp-content/uploads/2025/04/Jersey-City-Stormwater-Management-Plan.pdf",
+    "landing_page_url": "https://jcmua.com/",
+    "retrieved_at": "2026-08-10T08:41:07.399Z",
+    "original_filename": "jersey-city-nj.pdf"
+  }
+}

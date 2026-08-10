@@ -1,0 +1,25 @@
+# Stormwater Atlas
+
+> U.S. stormwater design manual requirements in one place — structured, evidence-cited JSON anyone (or any AI) can fetch. No API key.
+
+Website: https://stormwateratlas.com/
+About & examples: https://stormwateratlas.com/about/
+
+## Machine-readable data
+
+- Index (lightweight): https://stormwateratlas.com/data/manuals.json
+- One manual: https://stormwateratlas.com/data/manuals/{slug}.json
+- Full atlas dump: https://stormwateratlas.com/data/atlas.json
+- Field guide: https://stormwateratlas.com/data/schema.json
+
+Each record includes jurisdiction metadata, design criteria (storm return periods, water-quality volume method, peak-flow methods, software, BMP categories), verbatim evidence excerpts with page/section, extraction confidence, and source PDF / agency URLs.
+
+## Suggested uses
+
+- Compare design storms or BMP lists across states and cities
+- Look up a jurisdiction and return the cited quote for a field
+- Filter manuals that mention a method, software package, or BMP type
+
+## Important
+
+Data is for research reference only. Always verify against the current official agency document linked in each record. Some extractions fields may need human review.

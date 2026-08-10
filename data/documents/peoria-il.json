@@ -1,0 +1,65 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "City of Peoria",
+    "jurisdiction_level": "municipality",
+    "state_code": "IL",
+    "document_title": "Unified Stormwater Ordinance / Manual of Practice Chapter 17",
+    "version_or_edition": "September 2012",
+    "adoption_or_effective_date": null,
+    "last_revised_date": "2012-09",
+    "relationship_to_state_manual": "independent"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [
+      1,
+      10,
+      100
+    ],
+    "water_quality_volume_method": "Water Quality Volume = volume necessary to collect 100% of runoff from a specified event; detain ≥24 hours from 1-year HWL (detention) or 2-year HWL (certain BMPs) until complete drainage. Release-rate design for Class 2 grading/drainage: 1-year (≤0.08 cfs/acre with 24-hr detention), 10-year 0.08 cfs/acre, 100-year 0.30 cfs/acre (Illinois River direct discharges exempt from 10-/100-year limits but still need 24-hr 1-year WQ detention).",
+    "peak_flow_calculation_method": [
+      "Release rates (cfs/acre) for 1-/10-/100-year",
+      "Rational Formula (minor systems ≤10–100 acres)",
+      "Hydrograph / reservoir routing for detention",
+      "IDOT Drainage Manual methods (as modified)"
+    ],
+    "required_hydrologic_hydraulic_software": [],
+    "approved_bmp_categories": [
+      "Wet bottom detention basins",
+      "Wetland basins",
+      "Dry basins",
+      "Infiltration trenches",
+      "Swales / native landscaping",
+      "Porous pavement",
+      "Other BMPs meeting WQv detention"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "City of Peoria Manual of Practice Chapter 17 September 2012",
+      "page_or_section": "Headers"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "Water Quality Volume means the volume necessary to collect 100 percent of the runoff generated from a specified event. This volume shall be detained for a period not less than 24 hours",
+      "page_or_section": "Definitions §120"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "10-year 0.08 100-year 0.30 ... 1-year release rate ... not be greater than 0.08 cfs/acre",
+      "page_or_section": "Section Three, Article II.B Release Rates"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "high",
+    "needs_human_review": false,
+    "review_notes": null,
+    "fields_not_found": []
+  },
+  "source": {
+    "document_url": "https://www.peoriagov.org/DocumentCenter/View/2575",
+    "landing_page_url": "https://www.peoriagov.org/",
+    "retrieved_at": "2026-08-10T10:02:27.846Z",
+    "original_filename": "peoria-il.pdf"
+  }
+}

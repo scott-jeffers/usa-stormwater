@@ -1,0 +1,67 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "City of Independence",
+    "jurisdiction_level": "municipality",
+    "state_code": "MO",
+    "document_title": "MARC/APWA Manual of BMPs for Stormwater Quality + APWA Section 5600 (city adopts both)",
+    "version_or_edition": "MARC/APWA BMP Manual Final October 2012; APWA 5600 adopted",
+    "adoption_or_effective_date": "2012-10-01",
+    "last_revised_date": null,
+    "relationship_to_state_manual": "independent"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [
+      2,
+      10,
+      100
+    ],
+    "water_quality_volume_method": "City Design & Construction Manual adopts APWA Section 5600 Default Strategy: Comprehensive Protection — peak control for 1%, 10%, and 50% chance storms plus volumetric/extended detention of the 90% mean annual event. Water quality via MARC/APWA BMP Manual: WQv captures 90% of average annual runoff using 1.37-inch Water Quality Storm for KC metro (WQv = P × Rv).",
+    "peak_flow_calculation_method": [
+      "APWA 5600 Default Strategy peak control (1%/10%/50% chance)",
+      "MARC/APWA Short-Cut / Small Storm Hydrology methods",
+      "Rational Method / SCS TR-55"
+    ],
+    "required_hydrologic_hydraulic_software": [],
+    "approved_bmp_categories": [
+      "Bioretention / rain gardens",
+      "Infiltration trenches",
+      "Permeable pavement",
+      "Extended detention wetland / wet / dry basins",
+      "Sand filters",
+      "Native vegetation swales",
+      "Proprietary MTDs"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "City of Independence Engineering Codes list APWA 5600 and MARC & KC APWA BMP Manual",
+      "page_or_section": "City engineering resources page"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "Default Strategy: Comprehensive Protection Peak runoff control shall be provided for the 1%, 10% and 50% chance storms and volumetric and/or extended detention control of the 90% mean annual event ... WQv captures 90% ... 1.37-inch Water Quality Storm",
+      "page_or_section": "APWA 5600 city amendments / MARC BMP Manual"
+    },
+    {
+      "field": "document_metadata.relationship_to_state_manual",
+      "excerpt": "independent — metro APWA 5600 + MARC BMP standards",
+      "page_or_section": "Coverage note"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "medium",
+    "needs_human_review": true,
+    "review_notes": "Independence D&C Manual / APWA 5600 only on Issuu (no durable direct PDF); criteria from city-cited MARC BMP Manual + published 5600 amendment excerpts.",
+    "fields_not_found": [
+      "document_metadata.last_revised_date",
+      "design_criteria.required_hydrologic_hydraulic_software"
+    ]
+  },
+  "source": {
+    "document_url": "https://www.marc.org/sites/default/files/2022-05/Best_Management_Practices_for_Stormwater_Quality.pdf",
+    "landing_page_url": "https://www.independencemo.gov/government/city-departments/community-development/development-services/engineering-codes-standards-and-resources",
+    "retrieved_at": "2026-08-10T09:54:53.517Z",
+    "original_filename": "independence-mo.pdf"
+  }
+}

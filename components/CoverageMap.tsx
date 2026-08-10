@@ -267,7 +267,7 @@ export function CoverageMap({
           <button
             type="button"
             onClick={() => onSelectState(null)}
-            className="font-medium text-water-link hover:text-water-deep hover:underline"
+            className="inline-flex h-9 shrink-0 items-center justify-center rounded-md border border-water/30 bg-white px-3.5 text-sm font-medium text-water-link shadow-sm transition-colors hover:border-water hover:bg-mist hover:text-water-deep focus:outline-none focus:ring-2 focus:ring-water/20"
           >
             Clear map selection
           </button>

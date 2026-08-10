@@ -1,0 +1,80 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "City of Murfreesboro",
+    "jurisdiction_level": "municipality",
+    "state_code": "TN",
+    "document_title": "Stormwater Planning & Low Impact Design Guide",
+    "version_or_edition": "April 2008",
+    "adoption_or_effective_date": "2008-04-01",
+    "last_revised_date": "2008-04-01",
+    "relationship_to_state_manual": "independent"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [
+      100
+    ],
+    "water_quality_volume_method": "WQv = 1.2 * Rv * A / 12 (acre-feet). Treat runoff from rainfalls up to 1.2 inches (85th percentile / Middle Tennessee). Streambank Protection Volume (SPv): controlled release of the 3.1-inch storm over 24 hours. Flood control: convey full build-out 100-year on-site without habitable structural flooding; downstream options per assessment.",
+    "peak_flow_calculation_method": [
+      "Water Quality Protection Volume (WQv)",
+      "Streambank Protection Volume (SPv) — 3.1-inch / 24-hr release",
+      "Downstream hydrologic analysis for flood control"
+    ],
+    "required_hydrologic_hydraulic_software": [],
+    "approved_bmp_categories": [
+      "Site design / LID practices (conserve natural features, reduce imperviousness)",
+      "Structural stormwater controls (WQv / SPv / flood)",
+      "Detention facilities with multi-step outlet controls"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "City of Murfreesboro Plan Review Responsibilities",
+      "page_or_section": "§1.1.4"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "STORMWATER PLANNING & LOW IMPACT DESIGN GUIDE",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.version_or_edition",
+      "excerpt": "April, 2008",
+      "page_or_section": "Footer"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "WQv = 1.2 * Rv * A / 12 ... 1.2 inches of rainfall has been identified as the average depth corresponding to the 85th percentile storm for the Middle Tennessee region",
+      "page_or_section": "§1.2.2.1"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "the full build-out 100year storm event is to be conveyed on-site such that no resulting habitable structural flooding occurs",
+      "page_or_section": "Table 1.2-1 Step 3"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "Provide on-site controlled release of the 3.1” storm event over a period of 24 hours (Streambank Protection Volume, SPV)",
+      "page_or_section": "Table 1.2-1 Step 2"
+    },
+    {
+      "field": "document_metadata.relationship_to_state_manual",
+      "excerpt": "independent city LID / planning guide",
+      "page_or_section": "Coverage note"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "medium",
+    "needs_human_review": true,
+    "review_notes": "Primary planning/LID guide (Apr 2008). Structural Controls Manual is published as separate CivicPlus DocumentCenter sections.",
+    "fields_not_found": [
+      "design_criteria.required_hydrologic_hydraulic_software"
+    ]
+  },
+  "source": {
+    "document_url": "https://www.murfreesborotn.gov/DocumentCenter/View/420/Stormwater-Planning-and-Low-Impact-Design-Guide",
+    "landing_page_url": "https://www.murfreesborotn.gov/498/Stormwater-Quality-Design",
+    "retrieved_at": "2026-08-10T09:39:14.757Z",
+    "original_filename": "murfreesboro-tn.pdf"
+  }
+}

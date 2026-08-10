@@ -1,0 +1,101 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "City of Long Beach",
+    "jurisdiction_level": "municipality",
+    "state_code": "CA",
+    "document_title": "Low Impact Development (LID) Best Management Practices (BMP) Design Manual",
+    "version_or_edition": "2nd edition",
+    "adoption_or_effective_date": "2013-02-19",
+    "last_revised_date": "2013-12",
+    "relationship_to_state_manual": "independent"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [],
+    "water_quality_volume_method": "LID BMPs must infiltrate, evapotranspire, and/or capture and use stormwater. Priority for infiltration BMPs. Design to manage the 85th percentile 24-hour runoff event (maximized capture). Implements Long Beach Municipal Code Ch. 18.74 LID ordinance.",
+    "peak_flow_calculation_method": [
+      "LID volume/flow management via infiltration, ET, capture/use, and flow-rate adjustments",
+      "Treatment control BMPs when on-site retention infeasible"
+    ],
+    "required_hydrologic_hydraulic_software": [],
+    "approved_bmp_categories": [
+      "Infiltration BMPs",
+      "Bioretention / biofiltration",
+      "Capture and use",
+      "Evapotranspiration features",
+      "Treatment control BMPs",
+      "Source control BMPs"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "created by the City of Long Beach Department of Development Services",
+      "page_or_section": "Preface"
+    },
+    {
+      "field": "document_metadata.jurisdiction_level",
+      "excerpt": "City of Long Beach",
+      "page_or_section": "Preface"
+    },
+    {
+      "field": "document_metadata.state_code",
+      "excerpt": "Long Beach Municipal Code",
+      "page_or_section": "Preface"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "Low Impact Development (LID) Best Management Practices (BMP) Design Manual",
+      "page_or_section": "Title"
+    },
+    {
+      "field": "document_metadata.version_or_edition",
+      "excerpt": "2nd edition",
+      "page_or_section": "Preface"
+    },
+    {
+      "field": "document_metadata.adoption_or_effective_date",
+      "excerpt": "LID requirements that went into effect on February 19, 2013",
+      "page_or_section": "Preface"
+    },
+    {
+      "field": "document_metadata.last_revised_date",
+      "excerpt": "revisions that take effect in December 2013",
+      "page_or_section": "Preface"
+    },
+    {
+      "field": "document_metadata.relationship_to_state_manual",
+      "excerpt": "Chapter 18.74 of the Long Beach Municipal Code",
+      "page_or_section": "Preface"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "The 85th percentile 24-hour runoff event determined as the maximized capture",
+      "page_or_section": "Performance criteria"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "storage and retention, infiltration, filtering, and flowrate adjustments",
+      "page_or_section": "LID principles"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "INFILTRATION BMPS",
+      "page_or_section": "Section 4.4"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "high",
+    "needs_human_review": false,
+    "review_notes": "Long Beach LID BMP Design Manual 2nd ed.; primary post-construction WQ/LID criteria.",
+    "fields_not_found": [
+      "design_criteria.design_storm_return_periods_years",
+      "design_criteria.required_hydrologic_hydraulic_software"
+    ]
+  },
+  "source": {
+    "document_url": "https://www.waterboards.ca.gov/rwqcb4/water_issues/programs/stormwater/municipal/ms4_permits/long_beach/2014/LIDBMPManual-2ndEd(FINAL)120413.pdf",
+    "landing_page_url": "https://www.longbeach.gov/",
+    "retrieved_at": "2026-08-10T08:03:22.623Z",
+    "original_filename": "long-beach-ca.pdf"
+  }
+}

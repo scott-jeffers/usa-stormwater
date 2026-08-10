@@ -1,0 +1,100 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "City of Saint Paul",
+    "jurisdiction_level": "municipality",
+    "state_code": "MN",
+    "document_title": "Stormwater Management Design Standards",
+    "version_or_edition": "January 2026",
+    "adoption_or_effective_date": "2026-01",
+    "last_revised_date": "2026-01",
+    "relationship_to_state_manual": "independent"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [],
+    "water_quality_volume_method": "Volume control and water quality requirements for sites discharging to the City MS4. Water Quality Volume for construction activity: 1.1 inches of runoff from new impervious surfaces (definition). Prefers green infrastructure / LID; BMP design standards in Section 7 and Minnesota Stormwater Manual.",
+    "peak_flow_calculation_method": [
+      "Volume control and water quality thresholds (Section 3.1.1)",
+      "Rate control aligned with water quality standards",
+      "References Minnesota Stormwater Manual for BMP design details"
+    ],
+    "required_hydrologic_hydraulic_software": [],
+    "approved_bmp_categories": [
+      "Green infrastructure / LID practices",
+      "Underground retention and infiltration/filtration systems",
+      "Filtration BMPs",
+      "Minnesota Stormwater Manual BMPs"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "City of St. Paul / City of Saint Paul",
+      "page_or_section": "Title"
+    },
+    {
+      "field": "document_metadata.jurisdiction_level",
+      "excerpt": "City of Saint Paul",
+      "page_or_section": "Purpose"
+    },
+    {
+      "field": "document_metadata.state_code",
+      "excerpt": "Minnesota Stormwater Manual",
+      "page_or_section": "References"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "Stormwater Management Design Standards",
+      "page_or_section": "Title"
+    },
+    {
+      "field": "document_metadata.version_or_edition",
+      "excerpt": "January 2026",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.adoption_or_effective_date",
+      "excerpt": "January 2026",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.last_revised_date",
+      "excerpt": "January 2026",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.relationship_to_state_manual",
+      "excerpt": "Minnesota Stormwater Manual",
+      "page_or_section": "Purpose / references"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "Water Quality Volume means for Construction Activity, one and one-tenth (1.1) inches of runoff",
+      "page_or_section": "Definitions"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "Volume Control and Water Quality Threshold",
+      "page_or_section": "Section 3.1.1"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Underground Retention and Infiltration/Filtration Systems",
+      "page_or_section": "Section 7.8"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "high",
+    "needs_human_review": false,
+    "review_notes": "St. Paul SWMDS Jan 2026; WQv 1.1 in defined; rate-control details in rate sections.",
+    "fields_not_found": [
+      "design_criteria.design_storm_return_periods_years",
+      "design_criteria.required_hydrologic_hydraulic_software"
+    ]
+  },
+  "source": {
+    "document_url": "https://www.stpaul.gov/sites/default/files/public-works/st-paul-stormwater-management-design-standards-swmdsjanuary-2026.pdf",
+    "landing_page_url": "https://www.stpaul.gov/departments/public-works/sewer-utility-division/site-plan-review",
+    "retrieved_at": "2026-08-10T08:08:51.648Z",
+    "original_filename": "saint-paul-mn.pdf"
+  }
+}

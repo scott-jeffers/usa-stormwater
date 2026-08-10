@@ -1,0 +1,96 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "City of Mesa",
+    "jurisdiction_level": "municipality",
+    "state_code": "AZ",
+    "document_title": "Engineering & Design Standards",
+    "version_or_edition": "2022",
+    "adoption_or_effective_date": null,
+    "last_revised_date": "2022",
+    "relationship_to_state_manual": "independent"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [],
+    "water_quality_volume_method": "Chapter 8 Storm Water Drainage & Retention: on-site stormwater management and retention basin requirements. LID landscape guidance in Section 1112. Mesa LID Toolkit referenced as guideline.",
+    "peak_flow_calculation_method": [
+      "On-site storm water management per Section 806",
+      "Street drainage and off-site storm water management per Section 807",
+      "Developed-condition runoff C coefficients by storm frequency (Table 8.1)",
+      "Public and private retention basins (Sections 808–809)"
+    ],
+    "required_hydrologic_hydraulic_software": [],
+    "approved_bmp_categories": [
+      "Retention basins",
+      "Storm drains",
+      "Low Impact Development (LID) landscape features"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "City of Mesa Engineering Department",
+      "page_or_section": "Title"
+    },
+    {
+      "field": "document_metadata.jurisdiction_level",
+      "excerpt": "City of Mesa",
+      "page_or_section": "Title"
+    },
+    {
+      "field": "document_metadata.state_code",
+      "excerpt": "City of Mesa",
+      "page_or_section": "Title"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "Engineering & Design Standards",
+      "page_or_section": "Title"
+    },
+    {
+      "field": "document_metadata.version_or_edition",
+      "excerpt": "2022",
+      "page_or_section": "Filename / cover"
+    },
+    {
+      "field": "document_metadata.last_revised_date",
+      "excerpt": "2022",
+      "page_or_section": "Filename / cover"
+    },
+    {
+      "field": "document_metadata.relationship_to_state_manual",
+      "excerpt": "Engineering & Design Standards",
+      "page_or_section": "Purpose"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "Section 806 - On-Site Storm Water Management",
+      "page_or_section": "Chapter 8"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "Table 8.1 - Developed Condition Runoff (C) Coefficients by Storm Frequency",
+      "page_or_section": "Chapter 8"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Retention Basins / Low Impact Development (LID) Landscape",
+      "page_or_section": "Sections 808 / 1112"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "medium",
+    "needs_human_review": true,
+    "review_notes": "Mesa EDS 2022 Ch 8; confirm retention depth/volume numeric criteria from Section 806 tables.",
+    "fields_not_found": [
+      "document_metadata.adoption_or_effective_date",
+      "design_criteria.design_storm_return_periods_years",
+      "design_criteria.required_hydrologic_hydraulic_software"
+    ]
+  },
+  "source": {
+    "document_url": "https://www.mesaaz.gov/files/assets/public/v/1/business-development/engineering/designstandards/2022engdesignstandards.pdf",
+    "landing_page_url": "https://www.mesaaz.gov/business-development/engineering",
+    "retrieved_at": "2026-08-10T08:03:22.623Z",
+    "original_filename": "mesa-az.pdf"
+  }
+}

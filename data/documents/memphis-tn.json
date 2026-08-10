@@ -1,0 +1,98 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "City of Memphis and Shelby County",
+    "jurisdiction_level": "municipality",
+    "state_code": "TN",
+    "document_title": "Storm Water Management Manual Volume 1: Policies and Procedures",
+    "version_or_edition": "Volume 1",
+    "adoption_or_effective_date": null,
+    "last_revised_date": null,
+    "relationship_to_state_manual": "independent"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [
+      10,
+      100
+    ],
+    "water_quality_volume_method": "Water quality BMPs are encouraged but not required under Volume 1 policy; stormwater management (detention) is mandatory. Detailed hydrologic methods and BMP design are in Volumes 2–3.",
+    "peak_flow_calculation_method": [
+      "Detention required for new development and significant redevelopment",
+      "10-year storm defines active drainage path capacity context",
+      "100-year floodplain / flood management definitions apply"
+    ],
+    "required_hydrologic_hydraulic_software": [],
+    "approved_bmp_categories": [
+      "Detention",
+      "Water quality BMPs (encouraged)",
+      "Erosion and sediment control measures"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "City of Memphis and Shelby County Storm Water Management Manual",
+      "page_or_section": "Title"
+    },
+    {
+      "field": "document_metadata.jurisdiction_level",
+      "excerpt": "City of Memphis and Shelby County",
+      "page_or_section": "Title"
+    },
+    {
+      "field": "document_metadata.state_code",
+      "excerpt": "Tennessee",
+      "page_or_section": "Policy context"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "Volume 1 Policies and Procedures",
+      "page_or_section": "Title"
+    },
+    {
+      "field": "document_metadata.version_or_edition",
+      "excerpt": "Volume 1",
+      "page_or_section": "Title"
+    },
+    {
+      "field": "document_metadata.relationship_to_state_manual",
+      "excerpt": "Storm Water Management Manual Volume 1",
+      "page_or_section": "Title"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "10-year / 100-year",
+      "page_or_section": "Flood / drainage definitions"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "water quality BMPs are encouraged but not required",
+      "page_or_section": "Policy"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "detention is mandatory",
+      "page_or_section": "Policy"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "detention / water quality BMPs",
+      "page_or_section": "Policy"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "medium",
+    "needs_human_review": true,
+    "review_notes": "Volume 1 is policy-only. Volumes 2–3 contain methods and BMP design criteria; extract those next for fuller WQ/peak methods.",
+    "fields_not_found": [
+      "document_metadata.adoption_or_effective_date",
+      "document_metadata.last_revised_date",
+      "design_criteria.required_hydrologic_hydraulic_software"
+    ]
+  },
+  "source": {
+    "document_url": "https://www.shelbycountytn.gov/DocumentCenter/View/34048/Volume-1-Policy-Manual",
+    "landing_page_url": "https://www.shelbycountytn.gov/",
+    "retrieved_at": "2026-08-10T08:10:00.000Z",
+    "original_filename": "memphis-tn.pdf"
+  }
+}

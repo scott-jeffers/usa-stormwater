@@ -1,0 +1,53 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "City of Waco",
+    "jurisdiction_level": "municipality",
+    "state_code": "TX",
+    "document_title": "iSWM Criteria Manual for Site Development and Construction",
+    "version_or_edition": "Revised January 2015",
+    "adoption_or_effective_date": "2015-01",
+    "last_revised_date": "2015-01",
+    "relationship_to_state_manual": "adopts_state_manual_directly"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [
+      1,
+      25,
+      100
+    ],
+    "water_quality_volume_method": "Water Quality Protection Volume (WQv) based on 1.5 inches of rainfall (85th percentile storm). Streambank Protection: control 1-year, 24-hour storm; Conveyance: 25-year; Flood Mitigation: 100-year.",
+    "peak_flow_calculation_method": [
+      "Rational Method",
+      "SCS Unit Hydrograph Method",
+      "Streambank Protection Volume (SPV)",
+      "25-year conveyance / 100-year flood mitigation"
+    ],
+    "required_hydrologic_hydraulic_software": [],
+    "approved_bmp_categories": [
+      "Bioretention",
+      "Enhanced swales",
+      "Detention",
+      "Sand filters / filter boxes",
+      "Infiltration wells and trenches"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "Waco — NCTCOG iSWM as Central TX reference (city PDF 403)",
+      "page_or_section": "Coverage note"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "low",
+    "needs_human_review": true,
+    "review_notes": "NCTCOG iSWM regional criteria — confirm city adoption / local amendments.",
+    "fields_not_found": []
+  },
+  "source": {
+    "document_url": "https://iswm.nctcog.org/Documents/iSWM_Criteria_Manual_01142015.pdf",
+    "landing_page_url": "https://iswm.nctcog.org/criteria-manual.html",
+    "retrieved_at": "2026-08-10T10:35:05.250Z",
+    "original_filename": "waco-tx.pdf"
+  }
+}

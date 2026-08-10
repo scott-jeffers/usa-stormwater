@@ -1,0 +1,82 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "City of Topeka",
+    "jurisdiction_level": "municipality",
+    "state_code": "KS",
+    "document_title": "Stormwater BMP Design Handbook",
+    "version_or_edition": "January 2021",
+    "adoption_or_effective_date": "2021-01-01",
+    "last_revised_date": "2021-01-01",
+    "relationship_to_state_manual": "independent"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [],
+    "water_quality_volume_method": "Meet or exceed Level of Service (LS) using the MARC/APWA Manual of Best Management Practices for Stormwater Quality Value Rating method (Table 3-1 Overall Value Ratings). BMPs designed per Handbook + MARC/APWA specs; quantity BMPs (detention/retention) addressed in Handbook Ch. 4 with conveyance still in Design Criteria & Drafting Standards.",
+    "peak_flow_calculation_method": [
+      "MARC/APWA Level of Service / Value Rating method",
+      "Handbook Chapter 4 stormwater quantity BMP design",
+      "City Design Criteria & Drafting Standards for linear conveyance"
+    ],
+    "required_hydrologic_hydraulic_software": [],
+    "approved_bmp_categories": [
+      "Native vegetation preserved/established",
+      "Rain garden",
+      "Infiltration basin / trench",
+      "Bioretention",
+      "Pervious concrete / porous asphalt / modular block",
+      "Extended detention wetland",
+      "Sand filters",
+      "Extended wet / dry detention",
+      "Vegetated filter strip / native swale",
+      "Manufactured treatment devices (policy)",
+      "Cistern (Appendix F)"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "City of Topeka, Kansas",
+      "page_or_section": "Title"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "Stormwater BMP Design Handbook",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.version_or_edition",
+      "excerpt": "Version: January 2021",
+      "page_or_section": "Footer"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "Applicable developments shall be designed and constructed to meet or exceed the Level of Service (LS) required for the site as evaluated using the Level of Service Method described in the most recent version of the MARC/APWA Manual",
+      "page_or_section": "§3.3"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Table 3-1. Stormwater Quality BMP Value Ratings ... Bioretention ... Infiltration Basin",
+      "page_or_section": "Table 3-1"
+    },
+    {
+      "field": "document_metadata.relationship_to_state_manual",
+      "excerpt": "independent — aligns with MARC/APWA BMP Manual and TMC 13.35",
+      "page_or_section": "§1.4 / §3.3"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "medium",
+    "needs_human_review": true,
+    "review_notes": "LS/Value Rating method rather than fixed rainfall depth WQv; quantity design storms live partly in companion Design Criteria manual.",
+    "fields_not_found": [
+      "design_criteria.design_storm_return_periods_years",
+      "design_criteria.required_hydrologic_hydraulic_software"
+    ]
+  },
+  "source": {
+    "document_url": "https://cot-wp-uploads.s3.amazonaws.com/wp-content/uploads/utilities/stormwater/Topeka+SW+Design+Handbook.pdf",
+    "landing_page_url": "https://www.topeka.gov/utilities/stormwater/index.php",
+    "retrieved_at": "2026-08-10T09:39:14.769Z",
+    "original_filename": "topeka-ks.pdf"
+  }
+}

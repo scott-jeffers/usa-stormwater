@@ -243,7 +243,7 @@
     "pdfUrl": null,
     "landingPageUrl": "https://stormwater.pca.state.mn.us/",
     "cityCoords": null,
-    "notes": "skipped_no_single_pdf — live wiki; 2008 PDF outdated"
+    "notes": "skipped_no_single_pdf â€” live wiki; 2008 PDF outdated"
   },
   {
     "id": "ca-casqa-municipal",
@@ -270,13 +270,13 @@
     "id": "baltimore-md",
     "jurisdictionHint": "Baltimore",
     "levelHint": "municipality",
-    "pdfUrl": "https://publicworks.baltimorecity.gov/sites/default/files/Baltimore%20City%20Stormwater%20Manual%20Update_Final%20-%20May%202019.pdf",
-    "landingPageUrl": "https://publicworks.baltimorecity.gov/stormwater",
+    "pdfUrl": "https://www.baltimorecity.gov/media/document/swm-min-reqpdf",
+    "landingPageUrl": "https://www.baltimorecity.gov/publicworks/water-system-in-the-city/stormwater/stormwater-management-requirements",
     "cityCoords": [
       -76.6122,
       39.2904
     ],
-    "notes": "May fail if URL moved — will skip"
+    "notes": "Baltimore City SWM Minimum Requirements (supplements MD Design Manual; city adopts state manual)"
   },
   {
     "id": "boston-ma",
@@ -330,13 +330,13 @@
     "id": "atlanta-ga",
     "jurisdictionHint": "Atlanta",
     "levelHint": "municipality",
-    "pdfUrl": "https://www.atlantaga.gov/Home/ShowDocument?id=4578",
-    "landingPageUrl": "https://www.atlantaga.gov/",
+    "pdfUrl": null,
+    "landingPageUrl": "https://atlantawatershed.org/stormwaterordinance-2/",
     "cityCoords": [
       -84.388,
       33.749
     ],
-    "notes": "City stormwater candidate — may skip"
+    "notes": "deferred_no_city_design_manual â€” Atlanta Chapter 74 Art. X ordinance (Municode) + adopts GSMM (see ga-state); no standalone city design-manual PDF (ShowDocument 4578 403)"
   },
   {
     "id": "miami-fl",
@@ -348,7 +348,7 @@
       -80.1918,
       25.7617
     ],
-    "notes": "SFWMD ERP Applicant Handbook Vol II — stormwater design criteria used across Miami-Dade region"
+    "notes": "SFWMD ERP Applicant Handbook Vol II â€” stormwater design criteria used across Miami-Dade region"
   },
   {
     "id": "minneapolis-mn",
@@ -396,7 +396,7 @@
       -111.891,
       40.7608
     ],
-    "notes": "SLC MS4 Storm Water Management Plan 2024 — program plan, not full design criteria manual"
+    "notes": "SLC MS4 Storm Water Management Plan 2024 â€” program plan, not full design criteria manual"
   },
   {
     "id": "boise-id",
@@ -486,19 +486,22 @@
     "id": "missouri-manual",
     "jurisdictionHint": "Missouri",
     "levelHint": "state",
-    "pdfUrl": "https://dnr.mo.gov/document-search/missouri-guide-green-infrastructure-pub2451/pub2451",
-    "landingPageUrl": "https://dnr.mo.gov/water/business-industry-other-entities/permits-certification-engineering-fees/stormwater",
+    "pdfUrl": "https://dnr.mo.gov/sites/dnr/files/vfc/2023/05/main/pub2446-mo-guide-to-green-infrastructure_1.pdf",
+    "landingPageUrl": "https://dnr.mo.gov/document-search/missouri-guide-green-infrastructure-pub2446",
     "cityCoords": null,
-    "notes": "Green infrastructure guide candidate — may not be direct PDF"
+    "notes": "Missouri Guide to Green Infrastructure PUB2446 (2012) â€” statewide GI/LID guidance, not a full conventional design manual"
   },
   {
     "id": "arkansas-manual",
-    "jurisdictionHint": "Arkansas",
-    "levelHint": "state",
-    "pdfUrl": "https://www.adeq.state.ar.us/water/branch_permits/general_permits/stormwater/pdfs/SWMP_Template.pdf",
-    "landingPageUrl": "https://www.adeq.state.ar.us/water/",
-    "cityCoords": null,
-    "notes": "SWMP template — lighter content; may skip if weak fit"
+    "jurisdictionHint": "Northwest Arkansas",
+    "levelHint": "regional",
+    "pdfUrl": "https://cityoflittleflock.com/wp-content/uploads/2024/06/BMP-Manual-1-17-ALL.pdf",
+    "landingPageUrl": "https://www.bentonville.ar.gov/422/Stormwater-Management",
+    "cityCoords": [
+      -94.2088,
+      36.3729
+    ],
+    "notes": "NWA 2016 Stormwater BMP Manual â€” best available multi-jurisdiction AR design guide (no statewide ADEQ design manual)"
   },
   {
     "id": "alabama-handbook",
@@ -555,12 +558,15 @@
   },
   {
     "id": "oregon-manual",
-    "jurisdictionHint": "Oregon",
-    "levelHint": "state",
-    "pdfUrl": "https://www.oregon.gov/deq/FilterDocs/lidman.pdf",
-    "landingPageUrl": "https://www.oregon.gov/deq/wq/programs/Pages/Stormwater.aspx",
-    "cityCoords": null,
-    "notes": "Oregon LID guidance candidate"
+    "jurisdictionHint": "Oregon (Clean Water Services / Tualatin Basin)",
+    "levelHint": "special_district",
+    "pdfUrl": "https://www.canbyoregon.gov/sites/default/files/fileattachments/streets_and_sewer/page/6341/cws_low_impact_development_lid.pdf",
+    "landingPageUrl": "https://cleanwaterservices.org/development/dnc/lida/",
+    "cityCoords": [
+      -122.9808,
+      45.5229
+    ],
+    "notes": "CWS LIDA Handbook (DEQ Western OR LID template PDF removed; archive ZIP ~200MB Word package â€” using widely adopted regional LIDA design handbook)"
   },
   {
     "id": "kansas-city-marc-bmp",
@@ -587,10 +593,10 @@
     "id": "idaho-bmp-catalog",
     "jurisdictionHint": "Idaho",
     "levelHint": "state",
-    "pdfUrl": null,
+    "pdfUrl": "https://www.aqualisco.com/wp-content/uploads/2019/08/Catalog-of-Stormwater-Best-Management-Practices.pdf",
     "landingPageUrl": "https://www.deq.idaho.gov/water-quality/wastewater/stormwater/",
     "cityCoords": null,
-    "notes": "skipped_no_single_pdf — Idaho BMP catalog URL 404 on verify"
+    "notes": "Idaho DEQ Catalog of Stormwater BMPs (Apr 2020) â€” mirror hosted by Aqualisco; official DEQ download API returns JSON"
   },
   {
     "id": "south-salt-lake-ut",
@@ -784,7 +790,7 @@
     "pdfUrl": "https://documents.dnrec.delaware.gov/Admin/Public-Notices/WSS20260001/13-0-Wet-Ponds-DRAFT-strikethrough.pdf",
     "landingPageUrl": "https://dnrec.delaware.gov/watershed-stewardship/sediment-stormwater/",
     "cityCoords": null,
-    "notes": "DNREC Post-Construction BMP Standards §13 Wet Ponds (draft/public notice revision)"
+    "notes": "DNREC Post-Construction BMP Standards Â§13 Wet Ponds (draft/public notice revision)"
   },
   {
     "id": "sd-dot-esc",
@@ -886,7 +892,7 @@
       -81.0998,
       32.0809
     ],
-    "notes": "Georgia Coastal Stormwater Supplement (Apr 2009) — coastal GA including Savannah region"
+    "notes": "Georgia Coastal Stormwater Supplement (Apr 2009) â€” coastal GA including Savannah region"
   },
   {
     "id": "tucson-az",
@@ -922,7 +928,7 @@
       -82.4572,
       27.9506
     ],
-    "notes": "SWFWMD ERP Applicant Handbook Vol II — design criteria for Tampa Bay / SW Florida region"
+    "notes": "SWFWMD ERP Applicant Handbook Vol II â€” design criteria for Tampa Bay / SW Florida region"
   },
   {
     "id": "gainesville-fl",
@@ -934,6 +940,2574 @@
       -82.3248,
       29.6516
     ],
-    "notes": "SRWMD ERP Applicant Handbook Vol II (Jul 2024) — north-central Florida including Gainesville region"
+    "notes": "SRWMD ERP Applicant Handbook Vol II (Jul 2024) â€” north-central Florida including Gainesville region"
+  },
+  {
+    "id": "san-francisco-ca",
+    "jurisdictionHint": "San Francisco",
+    "levelHint": "municipality",
+    "pdfUrl": "https://www.sfpuc.gov/sites/default/files/documents/SMR_DesignGuide_May2016.pdf",
+    "landingPageUrl": "https://www.sfpuc.gov/construction-contracts/new-developments/stormwater-management",
+    "cityCoords": [
+      -122.4194,
+      37.7749
+    ],
+    "notes": "SFPUC Stormwater Management Requirements and Design Guidelines (May 2016)"
+  },
+  {
+    "id": "san-antonio-tx",
+    "jurisdictionHint": "San Antonio",
+    "levelHint": "municipality",
+    "pdfUrl": "https://www.sanantonio.gov/Portals/0/Files/CIMS/Services/UDC-Amendment-Drainage-Manual.pdf",
+    "landingPageUrl": "https://www.sa.gov/Directory/Departments/PWD/Storm-Water/Plan-Review",
+    "cityCoords": [
+      -98.4936,
+      29.4241
+    ],
+    "notes": "City of San Antonio Storm Water Design Criteria Manual (April 2019)"
+  },
+  {
+    "id": "columbus-oh",
+    "jurisdictionHint": "Columbus",
+    "levelHint": "municipality",
+    "pdfUrl": "https://www.columbus.gov/files/sharedassets/city/v/2/utilities/documents/sewer-publications/2025-stormwater-drainage-manual.pdf",
+    "landingPageUrl": "https://www.columbus.gov/Services/Columbus-Water-Power/Information-for-Customers/Public-Utility-Contractors/Stormwater-Drainage-Manual",
+    "cityCoords": [
+      -82.9988,
+      39.9612
+    ],
+    "notes": "City of Columbus Stormwater Drainage Manual (2025)"
+  },
+  {
+    "id": "dallas-tx",
+    "jurisdictionHint": "Dallas",
+    "levelHint": "municipality",
+    "pdfUrl": "https://iswm.nctcog.org/Documents/iSWM_Criteria_Manual_01142015.pdf",
+    "landingPageUrl": "https://iswm.nctcog.org/criteria-manual.html",
+    "cityCoords": [
+      -96.797,
+      32.7767
+    ],
+    "notes": "NCTCOG iSWM Criteria Manual (2015) â€” regional North Texas criteria used across Dallasâ€“Fort Worth metro; local provisions vary by city"
+  },
+  {
+    "id": "san-jose-ca",
+    "jurisdictionHint": "San Jose",
+    "levelHint": "municipality",
+    "pdfUrl": "https://scvurppp.org/wp-content/uploads/2024/11/SCVURPPP-C3-Handbook-chapters-2024-Oct-update.pdf",
+    "landingPageUrl": "https://scvurppp.org/2024/10/28/c-3-stormwater-handbook-2024/",
+    "cityCoords": [
+      -121.8863,
+      37.3382
+    ],
+    "notes": "SCVURPPP C.3 Stormwater Handbook (Oct 2024) â€” MRP development criteria covering San Jose and Santa Clara Valley co-permittees"
+  },
+  {
+    "id": "fort-worth-tx",
+    "jurisdictionHint": "Fort Worth",
+    "levelHint": "municipality",
+    "pdfUrl": "https://www.fortworthtexas.gov/files/assets/public/v/1/tpw/stormwater/documents/regulation-updates/july-2024-official-stormwater-criteria-manual.pdf",
+    "landingPageUrl": "https://www.fortworthtexas.gov/departments/tpw/stormwater/review",
+    "cityCoords": [
+      -97.3308,
+      32.7555
+    ],
+    "notes": "City of Fort Worth Stormwater Criteria Manual (July 2024); incorporates NCTCOG iSWM Technical Manuals by reference"
+  },
+  {
+    "id": "sacramento-ca",
+    "jurisdictionHint": "Sacramento",
+    "levelHint": "municipality",
+    "pdfUrl": "https://www.cityofsacramento.gov/content/dam/portal/dou/utilities/development-standards/OnsiteDesignManual.pdf",
+    "landingPageUrl": "https://www.cityofsacramento.gov/utilities",
+    "cityCoords": [
+      -121.4944,
+      38.5816
+    ],
+    "notes": "City of Sacramento Department of Utilities Onsite Design Manual (drainage, stormwater quality, LID)"
+  },
+  {
+    "id": "memphis-tn",
+    "jurisdictionHint": "Memphis",
+    "levelHint": "municipality",
+    "pdfUrl": "https://www.shelbycountytn.gov/DocumentCenter/View/34048/Volume-1-Policy-Manual",
+    "landingPageUrl": "https://www.shelbycountytn.gov/",
+    "cityCoords": [
+      -90.049,
+      35.1495
+    ],
+    "notes": "Memphis and Shelby County Storm Water Management Manual Vol 1 Policy (2006)"
+  },
+  {
+    "id": "louisville-ky",
+    "jurisdictionHint": "Louisville",
+    "levelHint": "municipality",
+    "pdfUrl": "https://louisvillemsd.org/sites/default/files/inline-files/designmanual_rev%2006-29-2021_0.pdf",
+    "landingPageUrl": "https://louisvillemsd.org/what-we-do/stormwaterdrainage/drawings",
+    "cityCoords": [
+      -85.7585,
+      38.2527
+    ],
+    "notes": "Louisville and Jefferson County MSD Design Manual (rev Jun 2021)"
+  },
+  {
+    "id": "el-paso-tx",
+    "jurisdictionHint": "El Paso",
+    "levelHint": "municipality",
+    "pdfUrl": "https://www.elpasotexas.gov/assets/Documents/CoEP/Planning-and-Inspections/Planning-Divisions/Combined-Storm-Water-Design-Manual.pdf",
+    "landingPageUrl": "https://www.elpasotexas.gov/",
+    "cityCoords": [
+      -106.485,
+      31.7619
+    ],
+    "notes": "City of El Paso Stormwater Design Manual (2022)"
+  },
+  {
+    "id": "las-vegas-nv",
+    "jurisdictionHint": "Las Vegas",
+    "levelHint": "municipality",
+    "pdfUrl": "https://gustfront.ccrfcd.org/pdf_arch1/hcddm/current%20manual%20(complete)/hcddm.pdf",
+    "landingPageUrl": "https://www.regionalflood.org/",
+    "cityCoords": [
+      -115.1398,
+      36.1699
+    ],
+    "notes": "Clark County Regional Flood Control District Hydrologic Criteria and Drainage Design Manual (adopted 1999; covers Las Vegas metro)"
+  },
+  {
+    "id": "raleigh-nc",
+    "jurisdictionHint": "Raleigh",
+    "levelHint": "municipality",
+    "pdfUrl": "https://cityofraleigh0drupal.blob.core.usgovcloudapi.net/drupal-prod/COR16/Stormwater%20Design%20Manual.pdf",
+    "landingPageUrl": "https://raleighnc.gov/stormwater/services/stormwater-permitting-and-inspections-development/stormwater-design-manual",
+    "cityCoords": [
+      -78.6382,
+      35.7796
+    ],
+    "notes": "City of Raleigh Stormwater Design Manual (effective Nov 2024)"
+  },
+  {
+    "id": "oakland-ca",
+    "jurisdictionHint": "Oakland",
+    "levelHint": "municipality",
+    "pdfUrl": "https://cao-94612.s3.us-west-2.amazonaws.com/documents/City-of-Oakland-Design-Standards.pdf",
+    "landingPageUrl": "https://www.oaklandca.gov/Community/Community-Development/Sustainability-Environment/Creeks-Watershed-and-Stormwater/Storm-Drainage-Design-Standards",
+    "cityCoords": [
+      -122.2712,
+      37.8044
+    ],
+    "notes": "City of Oakland Storm Drainage Design Standards (Updated 2014)"
+  },
+  {
+    "id": "jacksonville-fl",
+    "jurisdictionHint": "Jacksonville",
+    "levelHint": "municipality",
+    "pdfUrl": "https://www.jacksonville.gov/getContentAsset/f2c6099d-cdf0-40da-b6a9-43e4c734282e/135b97c9-84fa-4e82-b956-0fbccec4aa1f/LDPM-Vol2-EFF-2026-01-30-CLEAN-ADA-508.pdf?language=en",
+    "landingPageUrl": "https://www.jacksonville.gov/",
+    "cityCoords": [
+      -81.6557,
+      30.3322
+    ],
+    "notes": "City of Jacksonville Land Development Procedures Manual Vol 2 Design Guidelines (eff Jan 2026) â€” drainage design criteria"
+  },
+  {
+    "id": "milwaukee-wi",
+    "jurisdictionHint": "Milwaukee",
+    "levelHint": "municipality",
+    "pdfUrl": "https://www.mmsd.com/application/files/9515/9621/1174/Chapter_13_July_2020.pdf",
+    "landingPageUrl": "https://www.mmsd.com/",
+    "cityCoords": [
+      -87.9065,
+      43.0389
+    ],
+    "notes": "MMSD Chapter 13 Surface Water and Stormwater Rules (Jul 2020) â€” Milwaukee metro stormwater runoff management"
+  },
+  {
+    "id": "fresno-ca",
+    "jurisdictionHint": "Fresno",
+    "levelHint": "municipality",
+    "pdfUrl": "https://www.fresnofloodcontrol.org/wp-content/uploads/2022/09/Post-Development-Standards-Technical-Manual.pdf",
+    "landingPageUrl": "https://www.fresnofloodcontrol.org/documents-and-reports/",
+    "cityCoords": [
+      -119.7871,
+      36.7378
+    ],
+    "notes": "FMFCD Post-Development Standards Technical Manual â€” Fresno-Clovis stormwater quality / BMP design"
+  },
+  {
+    "id": "long-beach-ca",
+    "jurisdictionHint": "Long Beach",
+    "levelHint": "municipality",
+    "pdfUrl": "https://www.waterboards.ca.gov/rwqcb4/water_issues/programs/stormwater/municipal/ms4_permits/long_beach/2014/LIDBMPManual-2ndEd(FINAL)120413.pdf",
+    "landingPageUrl": "https://www.longbeach.gov/",
+    "cityCoords": [
+      -118.1937,
+      33.7701
+    ],
+    "notes": "City of Long Beach LID BMP Design Manual 2nd Ed (Dec 2013)"
+  },
+  {
+    "id": "tulsa-ok",
+    "jurisdictionHint": "Tulsa",
+    "levelHint": "municipality",
+    "pdfUrl": "https://www.cityoftulsa.org/media/11859/stormwatermanagementcriteriamanual-june2019.pdf",
+    "landingPageUrl": "https://www.cityoftulsa.org/",
+    "cityCoords": [
+      -95.9928,
+      36.154
+    ],
+    "notes": "City of Tulsa Stormwater Management Criteria Manual (June/Oct 2019)"
+  },
+  {
+    "id": "king-county-wa",
+    "jurisdictionHint": "King County",
+    "levelHint": "county",
+    "pdfUrl": "https://your.kingcounty.gov/dnrp/library/water-and-land/stormwater/surface-water-design-manual/2021/amended-2024/2021-kcswdm-amended-2024-full-manual.pdf",
+    "landingPageUrl": "https://kingcounty.gov/en/dept/dnrp/nature-recreation/environment/water/stormwater",
+    "cityCoords": [
+      -122.3321,
+      47.6062
+    ],
+    "notes": "King County Surface Water Design Manual 2021 amended 2024"
+  },
+  {
+    "id": "orange-county-ca",
+    "jurisdictionHint": "Orange County",
+    "levelHint": "county",
+    "pdfUrl": "https://pwip.oc.gov/sites/ocpwocip/files/2021-08/OC%20LDM%20-%202nd%20Edition-secured.pdf",
+    "landingPageUrl": "https://ocpublicworks.com/",
+    "cityCoords": [
+      -117.8311,
+      33.7175
+    ],
+    "notes": "Orange County Local Drainage Manual 2nd Edition"
+  },
+  {
+    "id": "mesa-az",
+    "jurisdictionHint": "Mesa",
+    "levelHint": "municipality",
+    "pdfUrl": "https://www.mesaaz.gov/files/assets/public/v/1/business-development/engineering/designstandards/2022engdesignstandards.pdf",
+    "landingPageUrl": "https://www.mesaaz.gov/business-development/engineering",
+    "cityCoords": [
+      -111.8315,
+      33.4152
+    ],
+    "notes": "City of Mesa Engineering & Design Standards 2022 (Ch 8 stormwater drainage & retention)"
+  },
+  {
+    "id": "aurora-co",
+    "jurisdictionHint": "Aurora",
+    "levelHint": "municipality",
+    "pdfUrl": "https://cdnsm5-hosted.civiclive.com/UserFiles/Servers/Server_1881137/File/Business%20Services/Development%20Center/Water%20%26%20Other%20Utilities/2026%20SDDTC%20FINAL%20(January%202026).pdf",
+    "landingPageUrl": "https://www.auroragov.org/",
+    "cityCoords": [
+      -104.8319,
+      39.7294
+    ],
+    "notes": "City of Aurora Storm Drainage Design and Technical Criteria (Jan 2026)"
+  },
+  {
+    "id": "cincinnati-oh",
+    "jurisdictionHint": "Cincinnati",
+    "levelHint": "municipality",
+    "pdfUrl": "https://www.cincinnati-oh.gov/sites/stormwater/assets/File/SMU_Rules_Regs_Part_2.pdf",
+    "landingPageUrl": "https://www.cincinnati-oh.gov/stormwater/construction-and-design/rules-regulations/",
+    "cityCoords": [
+      -84.512,
+      39.1031
+    ],
+    "notes": "Cincinnati SMU Design Manual (Part 2)"
+  },
+  {
+    "id": "plano-tx",
+    "jurisdictionHint": "Plano",
+    "levelHint": "municipality",
+    "pdfUrl": "https://content.civicplus.com/api/assets/tx-plano/a66735c2-e8bd-4348-ad5f-fb5dedebdaef/final-city-of-plano-storm-drainage-design-manual-1-.pdf?scope=all&sq=1c8352d3-e41e-89e7-c087-e050ad0bd558",
+    "landingPageUrl": "https://www.plano.gov/",
+    "cityCoords": [
+      -96.6989,
+      33.0198
+    ],
+    "notes": "City of Plano Storm Drainage Design Manual"
+  },
+  {
+    "id": "arlington-tx",
+    "jurisdictionHint": "Arlington",
+    "levelHint": "municipality",
+    "pdfUrl": "https://www.arlingtontx.gov/files/assets/city/v/2/public-works/documents/design-criteria-manual/arlington-design-criteria-manual.pdf",
+    "landingPageUrl": "https://www.arlingtontx.gov/City-Services/Transportation-Streets-Traffic/Streets-and-Traffic/Engineers-Builders-Contractors/Design-Criteria-Manual",
+    "cityCoords": [
+      -97.1081,
+      32.7357
+    ],
+    "notes": "City of Arlington Design Criteria Manual (Apr 2020) â€” includes drainage"
+  },
+  {
+    "id": "orlando-fl",
+    "jurisdictionHint": "Orlando",
+    "levelHint": "municipality",
+    "pdfUrl": "https://www.orlando.gov/files/sharedassets/public/v/3/documents/engineering/platting/2026_engineeringstandardsmanual.pdf",
+    "landingPageUrl": "https://www.orlando.gov/Our-Government/Records-and-Documents/Engineering-Documents",
+    "cityCoords": [
+      -81.3792,
+      28.5383
+    ],
+    "notes": "City of Orlando Engineering Standards Manual (2026) â€” Chapter 7 Stormwater Management"
+  },
+  {
+    "id": "anaheim-ca",
+    "jurisdictionHint": "Anaheim",
+    "levelHint": "municipality",
+    "pdfUrl": "https://www.anaheim.net/DocumentCenter/View/1077",
+    "landingPageUrl": "https://www.anaheim.net/589/Storm-Drainage-Manual-Public-Private-Fac",
+    "cityCoords": [
+      -117.9145,
+      33.8366
+    ],
+    "notes": "Anaheim Storm Drainage Manual Division IV Private Facilities (city adopts OC Hydrology/Local Drainage Manuals with revisions)"
+  },
+  {
+    "id": "corpus-christi-tx",
+    "jurisdictionHint": "Corpus Christi",
+    "levelHint": "municipality",
+    "pdfUrl": "https://www.corpuschristitx.gov/media/ln5lofdo/draft-drainage-design-manual.pdf",
+    "landingPageUrl": "https://www.corpuschristitx.gov/department-directory/engineering-services/infrastructure-design-manual/",
+    "cityCoords": [
+      -97.3964,
+      27.8006
+    ],
+    "notes": "City of Corpus Christi Drainage Design Manual (Dec 2024 draft appendix to IDM)"
+  },
+  {
+    "id": "durham-nc",
+    "jurisdictionHint": "Durham",
+    "levelHint": "municipality",
+    "pdfUrl": "https://www.durhamnc.gov/DocumentCenter/View/3331/Reference-Guide-for-Development-",
+    "landingPageUrl": "https://www.durhamnc.gov/895/Stormwater-Development-Review",
+    "cityCoords": [
+      -78.8986,
+      35.994
+    ],
+    "notes": "City of Durham Reference Guide for Development (stormwater Sections 8.x)"
+  },
+  {
+    "id": "tacoma-wa",
+    "jurisdictionHint": "Tacoma",
+    "levelHint": "municipality",
+    "pdfUrl": "https://cms.cityoftacoma.org/enviro/SurfaceWater/2016%20SWMM%20Manual/SWMM%20July%202016%20Masterbook.pdf",
+    "landingPageUrl": "https://www.cityoftacoma.org/government/city_departments/environmentalservices/surface_water",
+    "cityCoords": [
+      -122.4443,
+      47.2529
+    ],
+    "notes": "City of Tacoma Stormwater Management Manual July 2016"
+  },
+  {
+    "id": "saint-paul-mn",
+    "jurisdictionHint": "Saint Paul",
+    "levelHint": "municipality",
+    "pdfUrl": "https://www.stpaul.gov/sites/default/files/public-works/st-paul-stormwater-management-design-standards-swmdsjanuary-2026.pdf",
+    "landingPageUrl": "https://www.stpaul.gov/departments/public-works/sewer-utility-division/site-plan-review",
+    "cityCoords": [
+      -93.09,
+      44.9537
+    ],
+    "notes": "City of St. Paul Stormwater Management Design Standards (Jan 2026)"
+  },
+  {
+    "id": "lexington-ky",
+    "jurisdictionHint": "Lexington",
+    "levelHint": "municipality",
+    "pdfUrl": "https://content.lexingtonky.gov/sites/default/files/2026-04/LFUCG%20Stormwater%20Manual%2005.01.26.pdf",
+    "landingPageUrl": "https://www.lexingtonky.gov/government/departments-programs/environmental-quality-public-works/water-quality/municipal-separate-storm-sewer-system-ms4",
+    "cityCoords": [
+      -84.5037,
+      38.0406
+    ],
+    "notes": "LFUCG Stormwater Manual 2026 (effective May 1, 2026)"
+  },
+  {
+    "id": "chandler-az",
+    "jurisdictionHint": "Chandler",
+    "levelHint": "municipality",
+    "pdfUrl": "https://www.chandleraz.gov/sites/default/files/departments/development-services/City-of-Chandler-Engineering-Design-Standards-Manual.pdf",
+    "landingPageUrl": "https://www.chandleraz.gov/",
+    "cityCoords": [
+      -111.8413,
+      33.3062
+    ],
+    "notes": "City of Chandler Engineering Design Standards Manual (Jan 2025) â€” Chapter 3 Storm Drainage"
+  },
+  {
+    "id": "tempe-az",
+    "jurisdictionHint": "Tempe",
+    "levelHint": "municipality",
+    "pdfUrl": "https://www.tempe.gov/home/showpublisheddocument/88295/637000000000000000",
+    "landingPageUrl": "https://www.tempe.gov/",
+    "cityCoords": [
+      -111.94,
+      33.4255
+    ],
+    "notes": "City of Tempe stormwater/drainage design document (civic document 88295)"
+  },
+  {
+    "id": "madison-wi",
+    "jurisdictionHint": "Madison",
+    "levelHint": "municipality",
+    "pdfUrl": "https://mcclibraryfunctions.azurewebsites.us/api/ordinanceDownload/50000/1346594/pdf",
+    "landingPageUrl": "https://www.cityofmadison.com/engineering/stormwater/stormwater-ordinance",
+    "cityCoords": [
+      -89.4012,
+      43.0731
+    ],
+    "notes": "Madison MGO Chapter 37 stormwater ordinance amendments (ORD-25-00017) â€” design standards in ordinance"
+  },
+  {
+    "id": "spokane-wa",
+    "jurisdictionHint": "Spokane",
+    "levelHint": "municipality",
+    "pdfUrl": "https://www.spokanecounty.gov/DocumentCenter/View/1640/Spokane-Regional-Stormwater-Manual-PDF",
+    "landingPageUrl": "https://www.spokanecounty.gov/918/Stormwater-Utility",
+    "cityCoords": [
+      -117.426,
+      47.6588
+    ],
+    "notes": "Spokane Regional Stormwater Manual (April 2008) â€” City of Spokane / Spokane Valley / Spokane County"
+  },
+  {
+    "id": "scottsdale-az",
+    "jurisdictionHint": "Scottsdale",
+    "levelHint": "municipality",
+    "pdfUrl": "https://ww2.scottsdaleaz.gov/Assets/ScottsdaleAZ/Design/DSPM/DSPM+2018.pdf",
+    "landingPageUrl": "https://www.scottsdaleaz.gov/design/dspm",
+    "cityCoords": [
+      -111.9261,
+      33.4942
+    ],
+    "notes": "City of Scottsdale Design Standards & Policies Manual 2018 â€” Chapter 4 Grading & Drainage"
+  },
+  {
+    "id": "maricopa-county-az",
+    "jurisdictionHint": "Maricopa County",
+    "levelHint": "county",
+    "pdfUrl": "https://www.esd.maricopa.gov/DocumentCenter/View/2369/Drainage-Policies-and-Standards-Manual-for-Maricopa-County---revised-112025-PDF",
+    "landingPageUrl": "https://www.esd.maricopa.gov/",
+    "cityCoords": [
+      -112.074,
+      33.4484
+    ],
+    "notes": "Maricopa County Drainage Policies and Standards Manual (rev. Nov 2025) â€” used with FCDMC Drainage Design Manual"
+  },
+  {
+    "id": "stockton-ca",
+    "jurisdictionHint": "Stockton",
+    "levelHint": "municipality",
+    "pdfUrl": "https://www.sjwater.org/Portals/0/ThemePluginPro/uploads/2025/7/1/FULL%20FINAL%20SWQCCP%20Stockton%20SJC%20March%202025_1.pdf",
+    "landingPageUrl": "https://www.sjwater.org/Stormwater-Management/Development",
+    "cityCoords": [
+      -121.2908,
+      37.9577
+    ],
+    "notes": "Stockton / San Joaquin County Stormwater Quality Control Criteria Plan (SWQCCP) March 2025"
+  },
+  {
+    "id": "fort-wayne-in",
+    "jurisdictionHint": "Fort Wayne",
+    "levelHint": "municipality",
+    "pdfUrl": "https://utilities.cityoffortwayne.org/wp-content/uploads/2026/07/City-Utilities-Design-Standards-July-2026.pdf",
+    "landingPageUrl": "https://utilities.cityoffortwayne.org/contractors-engineers-developers/design-standards-manual",
+    "cityCoords": [
+      -85.1394,
+      41.0793
+    ],
+    "notes": "Fort Wayne City Utilities Design Standards Manual (July 2026) â€” Book 2 Stormwater"
+  },
+  {
+    "id": "lubbock-tx",
+    "levelHint": "municipality",
+    "cityCoords": [
+      -101.8552,
+      33.5779
+    ],
+    "notes": "City of Lubbock Drainage Criteria Manual (Nov 2019)",
+    "jurisdictionHint": "Lubbock",
+    "landingPageUrl": "https://www.mylubbock.us/280/Development-Engineering",
+    "pdfUrl": "https://www.mylubbock.us/DocumentCenter/View/1563/Drainage-Criteria-Manual-PDF"
+  },
+  {
+    "id": "pittsburgh-pa",
+    "levelHint": "municipality",
+    "cityCoords": [
+      -79.9959,
+      40.4406
+    ],
+    "notes": "City of Pittsburgh Stormwater Design Manual",
+    "jurisdictionHint": "Pittsburgh",
+    "landingPageUrl": "https://www.pittsburghpa.gov/Business-Development/Zoning/Plan-Reviews-and-Notices/Environmental-Review/Stormwater",
+    "pdfUrl": "https://engage.pittsburghpa.gov/download_file/2830/541"
+  },
+  {
+    "id": "buffalo-ny",
+    "levelHint": "municipality",
+    "cityCoords": [
+      -78.8784,
+      42.8864
+    ],
+    "notes": "Buffalo Sewer Authority Plan Review Guidance for Stormwater Management Design (adopts NYS Design Manual + local rate criteria)",
+    "jurisdictionHint": "Buffalo",
+    "landingPageUrl": "https://buffalosewer.org/",
+    "pdfUrl": "https://buffalosewer.org/app/uploads/2020/01/191015-Plan-Review-SW-Guidance-Final.pdf"
+  },
+  {
+    "id": "garland-tx",
+    "levelHint": "municipality",
+    "cityCoords": [
+      -96.6389,
+      32.9126
+    ],
+    "notes": "City of Garland Technical Standards Manual (drainage Chapter 4)",
+    "jurisdictionHint": "Garland",
+    "landingPageUrl": "https://www.garlandtx.gov/272/Technical-Standards-Manual",
+    "pdfUrl": "https://www.garlandtx.gov/DocumentCenter/View/459"
+  },
+  {
+    "id": "winston-salem-nc",
+    "levelHint": "municipality",
+    "cityCoords": [
+      -80.2442,
+      36.0999
+    ],
+    "notes": "Winston-Salem/Forsyth Infrastructure Development Standards 2020 (stormwater section; also references NCDEQ manual)",
+    "jurisdictionHint": "Winston-Salem",
+    "landingPageUrl": "https://www.cityofws.org/",
+    "pdfUrl": "https://www.cityofws.org/DocumentCenter/View/14134/Infrastructure-Development-Standards-2020-Revised-April-2020-PDF"
+  },
+  {
+    "id": "richmond-va",
+    "jurisdictionHint": "Richmond",
+    "levelHint": "municipality",
+    "pdfUrl": "https://rva.gov/sites/default/files/2025-07/Richmond%20Water%20Resources%20Guidance%20Manual_Final_6.25.2025.pdf",
+    "landingPageUrl": "https://rva.gov/",
+    "cityCoords": [
+      -77.436,
+      37.5407
+    ],
+    "notes": "City of Richmond Water Resources Guidance Manual (June 2025) — VSMP/RESMP process + references Stormwater Design & Construction Standards"
+  },
+  {
+    "id": "fairfax-county-va",
+    "jurisdictionHint": "Fairfax County",
+    "levelHint": "county",
+    "pdfUrl": "http://online.encodeplus.com/regs/fairfaxcounty-va-pfm/export2doc.aspx?pdf=1&tocid=001",
+    "landingPageUrl": "https://www.fairfaxcounty.gov/landdevelopment/public-facilities-manual",
+    "cityCoords": [
+      -77.3064,
+      38.8462
+    ],
+    "notes": "Fairfax County Public Facilities Manual (PFM) full export — includes storm drainage design"
+  },
+  {
+    "id": "fremont-ca",
+    "jurisdictionHint": "Fremont",
+    "levelHint": "municipality",
+    "pdfUrl": "https://cleanwaterprogram.org/wp-content/uploads/2024/05/C3TG-8.2-compiled-20240519.pdf",
+    "landingPageUrl": "https://cleanwaterprogram.org/businesses/development/",
+    "cityCoords": [
+      -121.9886,
+      37.5485
+    ],
+    "notes": "Alameda Countywide Clean Water Program C.3 Technical Guidance Manual v8.2 (May 2024) — used by Fremont and other ACCWP cities"
+  },
+  {
+    "id": "pinellas-county-fl",
+    "jurisdictionHint": "Pinellas County",
+    "levelHint": "county",
+    "pdfUrl": "https://pinellas.gov/wp-content/uploads/2021/11/Stormwater_Manual.pdf",
+    "landingPageUrl": "https://pinellas.gov/",
+    "cityCoords": [
+      -82.6403,
+      27.8764
+    ],
+    "notes": "Pinellas County Stormwater Manual (rev Apr 2024) — covers unincorporated Pinellas; St. Petersburg references SWFWMD/local code"
+  },
+  {
+    "id": "des-moines-ia",
+    "jurisdictionHint": "Des Moines",
+    "levelHint": "municipality",
+    "pdfUrl": "https://www.iowasudas.org/wp-content/uploads/sites/15/2020/03/Chapter_02.pdf",
+    "landingPageUrl": "https://www.dsm.city/Stormwater_Management_Review450.php",
+    "cityCoords": [
+      -93.6091,
+      41.5868
+    ],
+    "notes": "Iowa SUDAS Design Manual Chapter 2 Stormwater (Des Moines adopts ISWMM + SUDAS)"
+  },
+  {
+    "id": "jersey-city-nj",
+    "jurisdictionHint": "Jersey City",
+    "levelHint": "municipality",
+    "pdfUrl": "https://jcmua.com/wp-content/uploads/2025/04/Jersey-City-Stormwater-Management-Plan.pdf",
+    "landingPageUrl": "https://jcmua.com/",
+    "cityCoords": [
+      -74.0776,
+      40.7282
+    ],
+    "notes": "Jersey City Stormwater Management Plan (adopts NJAC 7:8 / NJ BMP Manual standards)"
+  },
+  {
+    "id": "cleveland-oh",
+    "jurisdictionHint": "Cleveland",
+    "levelHint": "municipality",
+    "pdfUrl": "https://www.neorsd.org/I_Library.php?a=download_file&LIBRARY_RECORD_ID=4470",
+    "landingPageUrl": "https://www.neorsd.org/",
+    "cityCoords": [
+      -81.6944,
+      41.4993
+    ],
+    "notes": "NEORSD stormwater design document (Cleveland regional)"
+  },
+  {
+    "id": "frisco-tx",
+    "jurisdictionHint": "Frisco",
+    "levelHint": "municipality",
+    "pdfUrl": "https://www.friscotexas.gov/DocumentCenter/View/39413/2025-Design-Standards-ONLY",
+    "landingPageUrl": "https://www.friscotexas.gov/412/Engineering-Standards",
+    "cityCoords": [
+      -96.8236,
+      33.1507
+    ],
+    "notes": "Frisco Engineering Design Standards (2025) — Section 4 Drainage Design Requirements"
+  },
+  {
+    "id": "mckinney-tx",
+    "jurisdictionHint": "McKinney",
+    "levelHint": "municipality",
+    "pdfUrl": "https://www.mckinneytexas.org/DocumentCenter/View/16490/McKinney-Engineering-Design-Manual---Proposed-Rev-6-20241119",
+    "landingPageUrl": "https://www.mckinneytexas.org/1507/Engineering-Resources---Forms-Notes",
+    "cityCoords": [
+      -96.6397,
+      33.1972
+    ],
+    "notes": "McKinney Engineering Design Manual (Rev — drainage criteria)"
+  },
+  {
+    "id": "riverside-county-ca",
+    "jurisdictionHint": "Riverside County",
+    "levelHint": "county",
+    "pdfUrl": "https://id3464.securedata.net/moreno-valley/departments/public_works/pdf/MV-WQMP.pdf",
+    "landingPageUrl": "https://trans.rctlma.org/wqmp-water-quality-management-plans",
+    "cityCoords": [
+      -117.3961,
+      33.9533
+    ],
+    "notes": "Santa Ana Region WQMP guidance for Riverside County MS4 (hosted via Moreno Valley)"
+  },
+  {
+    "id": "broward-county-fl",
+    "jurisdictionHint": "Broward County",
+    "levelHint": "county",
+    "pdfUrl": "https://www.sbdd.org/pdfs/Criteria%20Manual%202015/Criteria%20Manual-March2015.pdf",
+    "landingPageUrl": "https://www.sbdd.org/development-projects/resources/standard-details-pdf/",
+    "cityCoords": [
+      -80.2374,
+      26.1901
+    ],
+    "notes": "South Broward Drainage District Stormwater Design Criteria Manual (Mar 2015) — Broward County special district"
+  },
+  {
+    "id": "san-bernardino-county-ca",
+    "jurisdictionHint": "San Bernardino County",
+    "levelHint": "county",
+    "pdfUrl": "https://dpw.sbcounty.gov/wp-content/uploads/sites/87/docs/SantaAnaRiver-WQMP-Final-June2013.pdf",
+    "landingPageUrl": "https://dpw.sbcounty.gov/wqmp-templates-and-forms/",
+    "cityCoords": [
+      -117.2898,
+      34.1083
+    ],
+    "notes": "Santa Ana River Watershed Technical Guidance Document for WQMP (June 2013)"
+  },
+  {
+    "id": "amarillo-tx",
+    "jurisdictionHint": "Amarillo",
+    "levelHint": "municipality",
+    "pdfUrl": "https://www.amarillo.gov/wp-content/uploads/2024/09/Storm-Water-Management-Cri.pdf",
+    "landingPageUrl": "https://www.amarillo.gov/capital-projects-and-development/",
+    "cityCoords": [
+      -101.8313,
+      35.222
+    ],
+    "notes": "City of Amarillo Storm Water Management Criteria Manual"
+  },
+  {
+    "id": "bellevue-wa",
+    "jurisdictionHint": "Bellevue",
+    "levelHint": "municipality",
+    "pdfUrl": "https://bellevuewa.gov/sites/default/files/media/pdf_document/2023/Storm%20Engineering%20Standards%202023%28PDF%29.pdf",
+    "landingPageUrl": "https://bellevuewa.gov/city-government/departments/utilities/utilities-projects-plans-standards/utilities-codes-and-standards/surface-water-engineering-standards",
+    "cityCoords": [
+      -122.2007,
+      47.6101
+    ],
+    "notes": "Bellevue Storm and Surface Water Engineering Standards (Jan 2023)"
+  },
+  {
+    "id": "overland-park-ks",
+    "jurisdictionHint": "Overland Park",
+    "levelHint": "municipality",
+    "pdfUrl": "https://content.civicplus.com/api/assets/ks-overlandpark/2e50125c-ea9f-462d-8053-f153e5f23e1c?cache=1800",
+    "landingPageUrl": "https://www.opkansas.org/",
+    "cityCoords": [
+      -94.6708,
+      38.9822
+    ],
+    "notes": "Overland Park Design Standards Vol 1 (adopted 11/01/23; adopts KC-APWA 5600)"
+  },
+  {
+    "id": "denton-tx",
+    "jurisdictionHint": "Denton",
+    "levelHint": "municipality",
+    "pdfUrl": "https://www.cityofdenton.com/DocumentCenter/View/13450/Design-Criteria-Manual-2024",
+    "landingPageUrl": "https://www.cityofdenton.com/255/Development-Code-Design-Documents-Criter",
+    "cityCoords": [
+      -97.1331,
+      33.2148
+    ],
+    "notes": "Denton Design Criteria Manual 2024 (includes Section 4 Stormwater; iSWM TM)"
+  },
+  {
+    "id": "chattanooga-tn",
+    "jurisdictionHint": "Chattanooga",
+    "levelHint": "municipality",
+    "pdfUrl": "https://chattanooga.gov/sites/default/files/2024-06/Chattanooga-RMG-Binder.pdf",
+    "landingPageUrl": "https://chattanooga.gov/stay-informed/environmental-initiatives/rainsmart-water-conservation-programs/resource-rain",
+    "cityCoords": [
+      -85.3097,
+      35.0456
+    ],
+    "notes": "Chattanooga Rainwater Management Guide (RMG) full binder with addenda"
+  },
+  {
+    "id": "grand-rapids-mi",
+    "jurisdictionHint": "Grand Rapids",
+    "levelHint": "municipality",
+    "pdfUrl": "https://www.grandrapidsmi.gov/media/4vfaiq3n/gr-stormwater-standard-manual-04292021.pdf",
+    "landingPageUrl": "https://www.grandrapidsmi.gov/",
+    "cityCoords": [
+      -85.6681,
+      42.9634
+    ],
+    "notes": "Grand Rapids Stormwater Standards Manual (Rev 04/29/2021)"
+  },
+  {
+    "id": "cape-coral-fl",
+    "jurisdictionHint": "Cape Coral",
+    "levelHint": "municipality",
+    "pdfUrl": "https://www.capecoral.gov/Documents/Departments/Utilities/Engineering%20Design%20Standards%20and%20Standard%20Detail%20Drawings/Utilities%20-%20Design%20Procedures%20Manual.pdf",
+    "landingPageUrl": "https://www.capecoral.gov/",
+    "cityCoords": [
+      -81.9495,
+      26.5629
+    ],
+    "notes": "Cape Coral Utilities Design Procedures Manual (Section 9 Storm Water Systems) — EDS PDF 404"
+  },
+  {
+    "id": "eugene-or",
+    "jurisdictionHint": "Eugene",
+    "levelHint": "municipality",
+    "pdfUrl": "https://www.eugene-or.gov/DocumentCenter/View/79289/2025-Stormwater-Management-Manual-with-Appendices",
+    "landingPageUrl": "https://www.eugene-or.gov/477/Stormwater-Management-Manual",
+    "cityCoords": [
+      -123.0868,
+      44.0521
+    ],
+    "notes": "Eugene Stormwater Management Manual 2025 (with appendices)"
+  },
+  {
+    "id": "springfield-mo",
+    "jurisdictionHint": "Springfield",
+    "levelHint": "municipality",
+    "pdfUrl": "https://www.springfieldmo.gov/DocumentCenter/View/57515/Flood-Control-and-Water-Quality-Protection-Manual-April-2022",
+    "landingPageUrl": "https://www.springfieldmo.gov/2120/Design-Resources",
+    "cityCoords": [
+      -93.2923,
+      37.2153
+    ],
+    "notes": "Springfield Flood Control and Water Quality Protection Manual (April 2022)"
+  },
+  {
+    "id": "charleston-sc",
+    "jurisdictionHint": "Charleston",
+    "levelHint": "municipality",
+    "pdfUrl": "https://www.charleston-sc.gov/DocumentCenter/View/41286/COC_SWDSM_Final---2026",
+    "landingPageUrl": "https://charleston-sc.gov/351/Stormwater-Design-Standards-Manual",
+    "cityCoords": [
+      -79.9311,
+      32.7765
+    ],
+    "notes": "Charleston Stormwater Design Standards Manual 2026"
+  },
+  {
+    "id": "providence-ri",
+    "jurisdictionHint": "Providence",
+    "levelHint": "municipality",
+    "pdfUrl": "https://dem.ri.gov/sites/g/files/xkgbur861/files/pubs/regs/regs/water/swmanual15.pdf",
+    "landingPageUrl": "https://dem.ri.gov/environmental-protection-bureau/water-resources/permitting/stormwater-permitting/stormwater-rules",
+    "cityCoords": [
+      -71.4128,
+      41.824
+    ],
+    "notes": "RI Stormwater Design and Installation Standards Manual (2015) — Providence capital adopts statewide RISDISM"
+  },
+  {
+    "id": "santa-rosa-ca",
+    "jurisdictionHint": "Santa Rosa",
+    "levelHint": "municipality",
+    "pdfUrl": "https://www.srcity.org/DocumentCenter/View/14974/2017-Storm-Water-Technical-Design-Manual-Narrative-revised-1621",
+    "landingPageUrl": "https://www.srcity.org/1255/Low-Impact-Development",
+    "cityCoords": [
+      -122.7141,
+      38.4404
+    ],
+    "notes": "Santa Rosa / Sonoma County Storm Water LID Technical Design Manual (2017 narrative)"
+  },
+  {
+    "id": "rochester-ny",
+    "jurisdictionHint": "Rochester",
+    "levelHint": "municipality",
+    "pdfUrl": "https://extapps.dec.ny.gov/fs/projects/24-25DraftCGPDesignManual/Manual.SW.CGP.2024-07-31.Design_Manual_Issued_2024-07-31.pdf",
+    "landingPageUrl": "https://dec.ny.gov/environmental-protection/water/water-quality/stormwater/construction-stormwater-toolbox",
+    "cityCoords": [
+      -77.6109,
+      43.1566
+    ],
+    "notes": "NYS Stormwater Management Design Manual (city code adopts NYSDEC Design Manual)"
+  },
+  {
+    "id": "gwinnett-county-ga",
+    "jurisdictionHint": "Gwinnett County",
+    "levelHint": "county",
+    "pdfUrl": "https://documents.atlantaregional.com/gastormwater/GSMM_2016%20EDITION_FINAL_V1.pdf",
+    "landingPageUrl": "https://www.gwinnettcounty.com/government/departments/water/develop-resources",
+    "cityCoords": [
+      -84,
+      33.96
+    ],
+    "notes": "GCSMM based on GSMM 2016; county portal blocks direct GCSMM PDF — using GSMM as adopted technical basis (v2 runoff reduction 1.0 in / WQv 1.2 in)"
+  },
+  {
+    "id": "prince-georges-county-md",
+    "jurisdictionHint": "Prince Georges County",
+    "levelHint": "county",
+    "pdfUrl": "https://mde.maryland.gov/programs/water/StormwaterManagementProgram/Documents/www.mde.state.md.us/assets/document/sedimentstormwater/MD%20SWM%20Volume%201.pdf",
+    "landingPageUrl": "https://mde.maryland.gov/programs/water/stormwatermanagementprogram/pages/stormwater_design.aspx",
+    "cityCoords": [
+      -76.75,
+      38.85
+    ],
+    "notes": "Prince George's County implements Maryland SWM Design Manual (ESD to MEP)"
+  },
+  {
+    "id": "fulton-county-ga",
+    "jurisdictionHint": "Fulton County",
+    "levelHint": "county",
+    "pdfUrl": "https://documents.atlantaregional.com/gastormwater/GSMM_2016%20EDITION_FINAL_V1.pdf",
+    "landingPageUrl": "https://atlantaregional.org/what-we-do/natural-resources/georgia-stormwater-management-manual/",
+    "cityCoords": [
+      -84.3963,
+      33.749
+    ],
+    "notes": "Fulton County adopts GSMM 2016 technical standards"
+  },
+  {
+    "id": "dekalb-county-ga",
+    "jurisdictionHint": "DeKalb County",
+    "levelHint": "county",
+    "pdfUrl": "https://documents.atlantaregional.com/gastormwater/GSMM_2016%20EDITION_FINAL_V1.pdf",
+    "landingPageUrl": "https://atlantaregional.org/what-we-do/natural-resources/georgia-stormwater-management-manual/",
+    "cityCoords": [
+      -84.2279,
+      33.795
+    ],
+    "notes": "DeKalb County adopts GSMM 2016 technical standards"
+  },
+  {
+    "id": "cook-county-il",
+    "jurisdictionHint": "Cook County",
+    "levelHint": "county",
+    "pdfUrl": "https://mwrd.org/sites/default/files/documents/TGM.pdf",
+    "landingPageUrl": "https://mwrd.org/doing-business/watershed-management-ordinance-and-infiltrationinflow/watershed-management-ordinance-wmo-and-technical-guidance-manual-tgm/technical-guidance-manual-tgm",
+    "cityCoords": [
+      -87.6298,
+      41.8781
+    ],
+    "notes": "MWRD Technical Guidance Manual for Watershed Management Ordinance (Cook County)"
+  },
+  {
+    "id": "harris-county-tx",
+    "jurisdictionHint": "Harris County",
+    "levelHint": "county",
+    "pdfUrl": "https://oce.harriscountytx.gov/Portals/43/Documents/Publications/SWQ_LID_design_criteria.pdf",
+    "landingPageUrl": "https://oce.harriscountytx.gov/Services/Consultants-Resources-and-Specifications/Watershed-Protection/LID-Green-Infrastructure",
+    "cityCoords": [
+      -95.3698,
+      29.7604
+    ],
+    "notes": "Harris County LID & GI Design Criteria for Storm Water Management (PCPM portal-gated; LID criteria PDF public)"
+  },
+  {
+    "id": "tarrant-county-tx",
+    "jurisdictionHint": "Tarrant County",
+    "levelHint": "county",
+    "pdfUrl": "https://iswm.nctcog.org/Documents/technical_manual/Site_Development_Controls_4-2010b.pdf",
+    "landingPageUrl": "https://www.iswm.nctcog.org/technical-manual.html",
+    "cityCoords": [
+      -97.3308,
+      32.7555
+    ],
+    "notes": "NCTCOG iSWM Site Development Controls (Tarrant participates in iSWM regional criteria)"
+  },
+  {
+    "id": "bakersfield-ca",
+    "jurisdictionHint": "Bakersfield",
+    "levelHint": "municipality",
+    "pdfUrl": "https://www.kernpublicworks.com/home/showpublisheddocument/10468/638385981778770000",
+    "landingPageUrl": "https://www.kernpublicworks.com/services/development/services/engineering-resources/development-standards/div-4-drainage",
+    "cityCoords": [
+      -119.0187,
+      35.3733
+    ],
+    "notes": "Kern County Division Four Standards for Drainage (co-permittee area with Bakersfield MS4; city may have supplemental design manual)"
+  },
+  {
+    "id": "knoxville-tn",
+    "jurisdictionHint": "Knoxville",
+    "levelHint": "municipality",
+    "pdfUrl": "https://cdnsm5-hosted.civiclive.com/UserFiles/Servers/Server_109478/File/Engineering/BMPManual/KnoxvilleBMP.pdf",
+    "landingPageUrl": "https://www.knoxvilletn.gov/government/city_departments_offices/engineering/engineering_development_services_division/bmp_manual",
+    "cityCoords": [
+      -83.9207,
+      35.9606
+    ],
+    "notes": "City of Knoxville BMP Manual (Jan 2018 combined PDF)"
+  },
+  {
+    "id": "vancouver-wa",
+    "jurisdictionHint": "Vancouver",
+    "levelHint": "municipality",
+    "pdfUrl": "https://www.cityofvancouver.us/wp-content/uploads/2024/12/Section-4-Storm-Gen-Reqs-2025-with-appendix.pdf",
+    "landingPageUrl": "https://www.cityofvancouver.us/government/department/public-works/water-sewer-and-stormwater/surface-water-stormwater-design-construction-requirements/",
+    "cityCoords": [
+      -122.6615,
+      45.6387
+    ],
+    "notes": "Vancouver Surface Water General Requirements Section 4 (2025); adopts Ecology SWMMWW by reference"
+  },
+  {
+    "id": "alexandria-va",
+    "jurisdictionHint": "Alexandria",
+    "levelHint": "municipality",
+    "pdfUrl": "https://media.alexandriava.gov/docs-archives/tes/stormwater/alexandria-gs-sw-design-guidelines=2020=final=1=.pdf",
+    "landingPageUrl": "https://www.alexandriava.gov/stormwater-management/green-street-and-sidewalk-stormwater-design-guidelines",
+    "cityCoords": [
+      -77.0469,
+      38.8048
+    ],
+    "notes": "Alexandria Green Streets & Sidewalks Stormwater Design Guidelines (2020); supplements VA BMP Clearinghouse"
+  },
+  {
+    "id": "wayne-county-mi",
+    "jurisdictionHint": "Wayne County",
+    "levelHint": "county",
+    "pdfUrl": "https://www.waynecountymi.gov/files/assets/mainsite/v/1/environmental-services/documents/land-resource-management/wqm-wcsw-mgmt-plan-9-3-2021.pdf",
+    "landingPageUrl": "https://www.waynecountymi.gov/Government/Departments/Environmental-Services/Water-Quality-Management/Storm-Water-Management/Standards-Manual",
+    "cityCoords": [
+      -83.149,
+      42.28
+    ],
+    "notes": "Wayne County Stormwater Control Program (effective Sep 3, 2021) — may be 403 to non-browser clients"
+  },
+  {
+    "id": "atlanta-ga",
+    "jurisdictionHint": "Atlanta",
+    "levelHint": "municipality",
+    "pdfUrl": "https://documents.atlantaregional.com/gastormwater/GSMM_2016%20EDITION_FINAL_V1.pdf",
+    "landingPageUrl": "https://atlantaregional.org/what-we-do/natural-resources/georgia-stormwater-management-manual/",
+    "cityCoords": [
+      -84.388,
+      33.749
+    ],
+    "notes": "Atlanta adopts GSMM (no standalone city design-manual PDF); Chapter 74 Art. X ordinance"
+  },
+  {
+    "id": "augusta-ga",
+    "jurisdictionHint": "Augusta",
+    "levelHint": "municipality",
+    "pdfUrl": "https://documents.atlantaregional.com/gastormwater/GSMM_2016%20EDITION_FINAL_V1.pdf",
+    "landingPageUrl": "https://atlantaregional.org/what-we-do/natural-resources/georgia-stormwater-management-manual/",
+    "cityCoords": [
+      -81.9748,
+      33.4735
+    ],
+    "notes": "Augusta-Richmond County adopts GSMM 2016 technical standards"
+  },
+  {
+    "id": "cary-nc",
+    "jurisdictionHint": "Cary",
+    "levelHint": "municipality",
+    "pdfUrl": "https://www.deq.nc.gov/energy-mineral-and-land-resources/stormwater/bmp-manual/c-0-mdc-all-scms/download",
+    "landingPageUrl": "https://www.carync.gov/services-publications/water-sewer/stormwater-management/watershed-protection-and-nitrogen-control",
+    "cityCoords": [
+      -78.7812,
+      35.7915
+    ],
+    "notes": "Town of Cary uses NCDEQ Stormwater Design Manual MDC for SCMs (plus LDO 4.4.6)"
+  },
+  {
+    "id": "columbia-sc",
+    "jurisdictionHint": "Columbia",
+    "levelHint": "municipality",
+    "pdfUrl": "https://columbiascwater.net/wp-content/uploads/2018/08/bmpmanual.pdf",
+    "landingPageUrl": "https://columbiascwater.net/",
+    "cityCoords": [
+      -81.0348,
+      34.0007
+    ],
+    "notes": "City of Columbia BMP Design Manual (Jan 2014)"
+  },
+  {
+    "id": "tallahassee-fl",
+    "jurisdictionHint": "Tallahassee",
+    "levelHint": "municipality",
+    "pdfUrl": "https://nwfwater.com/wp-content/uploads/2024/07/AHII-nwfwmd-FINAL-2024.pdf",
+    "landingPageUrl": "https://nwfwater.com/",
+    "cityCoords": [
+      -84.2807,
+      30.4383
+    ],
+    "notes": "NWFWMD ERP Applicant Handbook Vol II (Tallahassee capital; regional design criteria)"
+  },
+  {
+    "id": "arlington-county-va",
+    "jurisdictionHint": "Arlington County",
+    "levelHint": "county",
+    "pdfUrl": "https://www.arlingtonva.us/files/sharedassets/public/v/3/building/documents/guidance_manual_lda2.0-2025-updates-for-new-vrrm-and-bmp-manual.pdf",
+    "landingPageUrl": "https://www.arlingtonva.us/Government/Programs/Building/Permits/Land-Disturbing-Activity-Stormwater/Land-Disturbing-ActivityStormwater-Permit-Details",
+    "cityCoords": [
+      -77.091,
+      38.8816
+    ],
+    "notes": "Arlington County Stormwater Manual / LDA Guidance (July 2025)"
+  },
+  {
+    "id": "salem-or",
+    "jurisdictionHint": "Salem",
+    "levelHint": "municipality",
+    "pdfUrl": "https://www.cityofsalem.net/home/showpublisheddocument/420/639198930718730000",
+    "landingPageUrl": "https://www.cityofsalem.net/business/building-in-salem/helpful-resources/engineering-and-technical-resources/standard-plans-construction-specifications-and-public-works-design-standards",
+    "cityCoords": [
+      -123.0351,
+      44.9429
+    ],
+    "notes": "Salem Public Works Design Standards Admin Rule 109 (includes Division 004 Stormwater)"
+  },
+  {
+    "id": "yonkers-ny",
+    "jurisdictionHint": "Yonkers",
+    "levelHint": "municipality",
+    "pdfUrl": "https://extapps.dec.ny.gov/fs/projects/24-25DraftCGPDesignManual/Manual.SW.CGP.2024-07-31.Design_Manual_Issued_2024-07-31.pdf",
+    "landingPageUrl": "https://dec.ny.gov/environmental-protection/water/water-quality/stormwater/construction-stormwater-toolbox",
+    "cityCoords": [
+      -73.8987,
+      40.9312
+    ],
+    "notes": "Yonkers adopts NYS Stormwater Management Design Manual"
+  },
+  {
+    "id": "macon-ga",
+    "jurisdictionHint": "Macon",
+    "levelHint": "municipality",
+    "pdfUrl": "https://documents.atlantaregional.com/gastormwater/GSMM_2016%20EDITION_FINAL_V1.pdf",
+    "landingPageUrl": "https://atlantaregional.org/what-we-do/natural-resources/georgia-stormwater-management-manual/",
+    "cityCoords": [
+      -83.6324,
+      32.8407
+    ],
+    "notes": "Macon-Bibb adopts GSMM 2016"
+  },
+  {
+    "id": "montgomery-al",
+    "jurisdictionHint": "Montgomery",
+    "levelHint": "municipality",
+    "pdfUrl": "https://adem.alabama.gov/programs/water/waterforms/LIDHandbook.pdf",
+    "landingPageUrl": "https://adem.alabama.gov/programs/water/nps/lid.cnt",
+    "cityCoords": [
+      -86.2999,
+      32.3668
+    ],
+    "notes": "ADEM LID Handbook used as capital/post-construction design guidance (AL cities lack standalone manuals)"
+  },
+  {
+    "id": "mobile-al",
+    "jurisdictionHint": "Mobile",
+    "levelHint": "municipality",
+    "pdfUrl": "https://mapformobile.org/wp/wp-content/uploads/2023/10/City-of-Mobile-LID-Design-Manual.pdf",
+    "landingPageUrl": "https://mapformobile.org/swm/",
+    "cityCoords": [
+      -88.0399,
+      30.6954
+    ],
+    "notes": "City of Mobile Storm Water Manual Volume 1 LID Design (Oct 2023)"
+  },
+  {
+    "id": "birmingham-al",
+    "jurisdictionHint": "Birmingham",
+    "levelHint": "municipality",
+    "pdfUrl": "https://adem.alabama.gov/programs/water/waterforms/LIDHandbook.pdf",
+    "landingPageUrl": "https://adem.alabama.gov/programs/water/nps/lid.cnt",
+    "cityCoords": [
+      -86.8025,
+      33.5207
+    ],
+    "notes": "ADEM LID Handbook — Birmingham lacks standalone design-manual PDF"
+  },
+  {
+    "id": "murfreesboro-tn",
+    "jurisdictionHint": "Murfreesboro",
+    "levelHint": "municipality",
+    "pdfUrl": "https://www.murfreesborotn.gov/DocumentCenter/View/420/Stormwater-Planning-and-Low-Impact-Design-Guide",
+    "landingPageUrl": "https://www.murfreesborotn.gov/498/Stormwater-Quality-Design",
+    "cityCoords": [
+      -86.3903,
+      35.8456
+    ],
+    "notes": "Stormwater Planning & Low Impact Design Guide (controls manual is sectioned)"
+  },
+  {
+    "id": "clarksville-tn",
+    "jurisdictionHint": "Clarksville",
+    "levelHint": "municipality",
+    "pdfUrl": "https://www.clarksvilletn.gov/Archive.aspx?ADID=1469",
+    "landingPageUrl": "https://www.clarksvilletn.gov/198/Permits-Manuals-Stormwater-Educational-M",
+    "cityCoords": [
+      -87.3595,
+      36.5298
+    ],
+    "notes": "City of Clarksville Stormwater Manual 2021"
+  },
+  {
+    "id": "topeka-ks",
+    "jurisdictionHint": "Topeka",
+    "levelHint": "municipality",
+    "pdfUrl": "https://cot-wp-uploads.s3.amazonaws.com/wp-content/uploads/utilities/stormwater/Topeka+SW+Design+Handbook.pdf",
+    "landingPageUrl": "https://www.topeka.gov/utilities/stormwater/index.php",
+    "cityCoords": [
+      -95.689,
+      39.0558
+    ],
+    "notes": "City of Topeka Stormwater BMP Design Handbook"
+  },
+  {
+    "id": "columbia-mo",
+    "jurisdictionHint": "Columbia",
+    "levelHint": "municipality",
+    "pdfUrl": "https://www.como.gov/wp-content/uploads/2021/08/City-Stormwater-Management-and-Water-Quality-Manual.pdf",
+    "landingPageUrl": "https://www.como.gov/utilities/columbias-stormwater-utility/",
+    "cityCoords": [
+      -92.3341,
+      38.9517
+    ],
+    "notes": "City of Columbia Stormwater Management and Water Quality Manual"
+  },
+  {
+    "id": "dayton-oh",
+    "jurisdictionHint": "Dayton",
+    "levelHint": "municipality",
+    "pdfUrl": "https://www.daytonohio.gov/DocumentCenter/View/4875",
+    "landingPageUrl": "https://www.daytonohio.gov/",
+    "cityCoords": [
+      -84.1916,
+      39.7589
+    ],
+    "notes": "Dept of Water Engineering Design Standards — Section 5 Storm Water Requirements (Oct 2020)"
+  },
+  {
+    "id": "athens-ga",
+    "jurisdictionHint": "Athens",
+    "levelHint": "municipality",
+    "pdfUrl": "https://documents.atlantaregional.com/gastormwater/GSMM_2016%20EDITION_FINAL_V1.pdf",
+    "landingPageUrl": "https://atlantaregional.org/what-we-do/natural-resources/georgia-stormwater-management-manual/",
+    "cityCoords": [
+      -83.3773,
+      33.9519
+    ],
+    "notes": "Athens-Clarke County adopts GSMM 2016"
+  },
+  {
+    "id": "syracuse-ny",
+    "jurisdictionHint": "Syracuse",
+    "levelHint": "municipality",
+    "pdfUrl": "https://extapps.dec.ny.gov/fs/projects/24-25DraftCGPDesignManual/Manual.SW.CGP.2024-07-31.Design_Manual_Issued_2024-07-31.pdf",
+    "landingPageUrl": "https://www.syr.gov/Departments/Engineering/Stormwater-Management-Reviews",
+    "cityCoords": [
+      -76.1474,
+      43.0481
+    ],
+    "notes": "Syracuse adopts NYS Stormwater Management Design Manual"
+  },
+  {
+    "id": "jackson-ms",
+    "jurisdictionHint": "Jackson",
+    "levelHint": "municipality",
+    "pdfUrl": "https://www.mdeq.ms.gov/wp-content/uploads/2017/05/Volume_2.pdf",
+    "landingPageUrl": "https://jacksonms.gov/government/city-departments/public-works-department/stormwater-management/",
+    "cityCoords": [
+      -90.1848,
+      32.2988
+    ],
+    "notes": "Capital coverage via MDEQ Volume 2 Stormwater Runoff Management Manual (2011)"
+  },
+  {
+    "id": "cedar-rapids-ia",
+    "jurisdictionHint": "Cedar Rapids",
+    "levelHint": "municipality",
+    "pdfUrl": "https://www.iowasudas.org/wp-content/uploads/sites/15/2020/03/Chapter_02.pdf",
+    "landingPageUrl": "https://cedar-rapids.org/local_government/departments_g_-_v/public_works/sudas_statewide_urban_design_and_specifications.php",
+    "cityCoords": [
+      -91.6656,
+      41.9778
+    ],
+    "notes": "Cedar Rapids adopts SUDAS Design Manual Ch.2 + ISWMM"
+  },
+  {
+    "id": "shreveport-la",
+    "jurisdictionHint": "Shreveport",
+    "levelHint": "municipality",
+    "pdfUrl": "https://www.shreveportla.gov/DocumentCenter/View/29000",
+    "landingPageUrl": "https://www.shreveportla.gov/2774/Engineering",
+    "cityCoords": [
+      -93.7502,
+      32.5252
+    ],
+    "notes": "City of Shreveport Drainage Design Standards 2021 (GET works; HEAD 404)"
+  },
+  {
+    "id": "rockford-il",
+    "jurisdictionHint": "Rockford",
+    "levelHint": "municipality",
+    "pdfUrl": "https://www.rockfordil.gov/DocumentCenter/View/400",
+    "landingPageUrl": "https://www.rockfordil.gov/274/Stormwater-Environmental-Team",
+    "cityCoords": [
+      -89.094,
+      42.2711
+    ],
+    "notes": "City of Rockford Stormwater Technical Guidance Manual"
+  },
+  {
+    "id": "fargo-nd",
+    "jurisdictionHint": "Fargo",
+    "levelHint": "municipality",
+    "pdfUrl": "https://download.fargond.gov/0/storm_sewer_manual_city_of_fargo_policy_2019-09-09.pdf",
+    "landingPageUrl": "https://download.fargond.gov/",
+    "cityCoords": [
+      -96.7898,
+      46.8772
+    ],
+    "notes": "City of Fargo Storm Sewer Manual / Storm Water Policy (2019-09-09)"
+  },
+  {
+    "id": "worcester-ma",
+    "jurisdictionHint": "Worcester",
+    "levelHint": "municipality",
+    "pdfUrl": "https://www.ashlandmass.com/DocumentCenter/View/13272/MassDEP-Handbook_DRAFT-6_2023-12-14_withAppendices-2",
+    "landingPageUrl": "https://www.mass.gov/guides/massachusetts-stormwater-handbook-and-stormwater-standards",
+    "cityCoords": [
+      -71.8023,
+      42.2626
+    ],
+    "notes": "Worcester follows MassDEP Stormwater Handbook / Standards"
+  },
+  {
+    "id": "springfield-ma",
+    "jurisdictionHint": "Springfield",
+    "levelHint": "municipality",
+    "pdfUrl": "https://www.ashlandmass.com/DocumentCenter/View/13272/MassDEP-Handbook_DRAFT-6_2023-12-14_withAppendices-2",
+    "landingPageUrl": "https://www.mass.gov/guides/massachusetts-stormwater-handbook-and-stormwater-standards",
+    "cityCoords": [
+      -72.5898,
+      42.1015
+    ],
+    "notes": "Springfield MA follows MassDEP Stormwater Handbook / Standards"
+  },
+  {
+    "id": "newark-nj",
+    "jurisdictionHint": "Newark",
+    "levelHint": "municipality",
+    "pdfUrl": "https://dep.nj.gov/wp-content/uploads/stormwater/bmp/njswbmp-chapter-9.7-small-scale-bioretention-systems-january-2026.pdf",
+    "landingPageUrl": "https://dep.nj.gov/stormwater/stormwater-management/bmp-manual/",
+    "cityCoords": [
+      -74.1724,
+      40.7357
+    ],
+    "notes": "Newark MS4 follows NJDEP Stormwater BMP Manual / N.J.A.C. 7:8"
+  },
+  {
+    "id": "paterson-nj",
+    "jurisdictionHint": "Paterson",
+    "levelHint": "municipality",
+    "pdfUrl": "https://dep.nj.gov/wp-content/uploads/stormwater/bmp/njswbmp-chapter-9.7-small-scale-bioretention-systems-january-2026.pdf",
+    "landingPageUrl": "https://dep.nj.gov/stormwater/stormwater-management/bmp-manual/",
+    "cityCoords": [
+      -74.1718,
+      40.9168
+    ],
+    "notes": "Paterson MS4 follows NJDEP Stormwater BMP Manual / N.J.A.C. 7:8"
+  },
+  {
+    "id": "elizabeth-nj",
+    "jurisdictionHint": "Elizabeth",
+    "levelHint": "municipality",
+    "pdfUrl": "https://dep.nj.gov/wp-content/uploads/stormwater/bmp/njswbmp-chapter-9.7-small-scale-bioretention-systems-january-2026.pdf",
+    "landingPageUrl": "https://dep.nj.gov/stormwater/stormwater-management/bmp-manual/",
+    "cityCoords": [
+      -74.2107,
+      40.66399
+    ],
+    "notes": "Elizabeth MS4 follows NJDEP Stormwater BMP Manual / N.J.A.C. 7:8"
+  },
+  {
+    "id": "bridgeport-ct",
+    "jurisdictionHint": "Bridgeport",
+    "levelHint": "municipality",
+    "pdfUrl": "https://portal.ct.gov/-/media/deep/water/water_quality_management/guidance/swm_mar_2024.pdf",
+    "landingPageUrl": "https://portal.ct.gov/DEEP/Water-Regulating-and-Discharges/Stormwater/Stormwater-Manual",
+    "cityCoords": [
+      -73.189,
+      41.1865
+    ],
+    "notes": "Bridgeport follows CT Stormwater Quality Manual 2024"
+  },
+  {
+    "id": "stamford-ct",
+    "jurisdictionHint": "Stamford",
+    "levelHint": "municipality",
+    "pdfUrl": "https://portal.ct.gov/-/media/deep/water/water_quality_management/guidance/swm_mar_2024.pdf",
+    "landingPageUrl": "https://portal.ct.gov/DEEP/Water-Regulating-and-Discharges/Stormwater/Stormwater-Manual",
+    "cityCoords": [
+      -73.5387,
+      41.0534
+    ],
+    "notes": "Stamford follows CT Stormwater Quality Manual 2024"
+  },
+  {
+    "id": "new-haven-ct",
+    "jurisdictionHint": "New Haven",
+    "levelHint": "municipality",
+    "pdfUrl": "https://portal.ct.gov/-/media/deep/water/water_quality_management/guidance/swm_mar_2024.pdf",
+    "landingPageUrl": "https://portal.ct.gov/DEEP/Water-Regulating-and-Discharges/Stormwater/Stormwater-Manual",
+    "cityCoords": [
+      -72.9279,
+      41.3083
+    ],
+    "notes": "New Haven follows CT Stormwater Quality Manual 2024"
+  },
+  {
+    "id": "ann-arbor-mi",
+    "jurisdictionHint": "Ann Arbor",
+    "levelHint": "municipality",
+    "pdfUrl": "https://annarborchronicle.com/wp-content/uploads/2014/08/WCWRC-Rules-2014_071614.pdf",
+    "landingPageUrl": "https://www.washtenaw.org/221/Rules-Design-Standards",
+    "cityCoords": [
+      -83.743,
+      42.2808
+    ],
+    "notes": "Ann Arbor adopts Washtenaw County WRC Rules & Guidelines for Stormwater Management Systems (city Ch.63)"
+  },
+  {
+    "id": "killeen-tx",
+    "jurisdictionHint": "Killeen",
+    "levelHint": "municipality",
+    "pdfUrl": "https://www.killeentexas.gov/DocumentCenter/View/562",
+    "landingPageUrl": "https://killeentexas.gov/303/Mowing-Drainage",
+    "cityCoords": [
+      -97.7278,
+      31.1171
+    ],
+    "notes": "City of Killeen Drainage Design Manual (body PDF View/562)"
+  },
+  {
+    "id": "mesquite-tx",
+    "jurisdictionHint": "Mesquite",
+    "levelHint": "municipality",
+    "pdfUrl": "https://www.cityofmesquite.com/DocumentCenter/View/13132",
+    "landingPageUrl": "https://www.cityofmesquite.com/2065/Engineering-Design-Manual",
+    "cityCoords": [
+      -96.5992,
+      32.7668
+    ],
+    "notes": "City of Mesquite Engineering Design Manual Sections 1-9 (incl. Drainage §3)"
+  },
+  {
+    "id": "round-rock-tx",
+    "jurisdictionHint": "Round Rock",
+    "levelHint": "municipality",
+    "pdfUrl": "https://www.roundrocktexas.gov/wp-content/uploads/2014/12/Drainage-Stormwater-Management-08.pdf",
+    "landingPageUrl": "https://www.roundrocktexas.gov/",
+    "cityCoords": [
+      -97.6789,
+      30.5083
+    ],
+    "notes": "Drainage Criteria Manual Section 8 Stormwater Management (full DCM is sectioned PDFs)"
+  },
+  {
+    "id": "rochester-mn",
+    "jurisdictionHint": "Rochester",
+    "levelHint": "municipality",
+    "pdfUrl": "https://www.rochestermn.gov/media/wauldibk/1999-rochester-storm-water-management-plan.pdf",
+    "landingPageUrl": "https://www.rochestermn.gov/",
+    "cityCoords": [
+      -92.4802,
+      44.0121
+    ],
+    "notes": "Rochester Storm Water Management Plan (1999) — includes design criteria chapters"
+  },
+  {
+    "id": "independence-mo",
+    "jurisdictionHint": "Independence",
+    "levelHint": "municipality",
+    "pdfUrl": "https://www.marc.org/sites/default/files/2022-05/Best_Management_Practices_for_Stormwater_Quality.pdf",
+    "landingPageUrl": "https://www.independencemo.gov/government/city-departments/community-development/development-services/engineering-codes-standards-and-resources",
+    "cityCoords": [
+      -94.4155,
+      39.0911
+    ],
+    "notes": "Independence adopts APWA 5600 + MARC/APWA BMP Manual (Issuu D&C manual not direct PDF)"
+  },
+  {
+    "id": "hartford-ct",
+    "jurisdictionHint": "Hartford",
+    "levelHint": "municipality",
+    "pdfUrl": "https://portal.ct.gov/-/media/deep/water/water_quality_management/guidance/swm_mar_2024.pdf",
+    "landingPageUrl": "https://portal.ct.gov/DEEP/Water-Regulating-and-Discharges/Stormwater/Stormwater-Manual",
+    "cityCoords": [
+      -72.6851,
+      41.7658
+    ],
+    "notes": "Hartford capital follows CT Stormwater Quality Manual 2024"
+  },
+  {
+    "id": "cambridge-ma",
+    "jurisdictionHint": "Cambridge",
+    "levelHint": "municipality",
+    "pdfUrl": "https://www.ashlandmass.com/DocumentCenter/View/13272/MassDEP-Handbook_DRAFT-6_2023-12-14_withAppendices-2",
+    "landingPageUrl": "https://www.mass.gov/guides/massachusetts-stormwater-handbook-and-stormwater-standards",
+    "cityCoords": [
+      -71.1097,
+      42.3736
+    ],
+    "notes": "Cambridge follows MassDEP Stormwater Handbook / Standards"
+  },
+  {
+    "id": "allentown-pa",
+    "jurisdictionHint": "Allentown",
+    "levelHint": "municipality",
+    "pdfUrl": "https://franklinccd.org/wp-content/uploads/PENNSYLVANIA_POST-CONSTRUCTION_STORMWATER_MANAGEMENT_PCSM_MANUAL.pdf",
+    "landingPageUrl": "https://www.pa.gov/agencies/dep/programs-and-services/water/clean-water/stormwater-management/construction-stormwater/eands-resources",
+    "cityCoords": [
+      -75.4714,
+      40.6084
+    ],
+    "notes": "Allentown Ch.538 cites PA Stormwater BMP Manual / Act 167; coverage via PA PCSM Manual"
+  },
+  {
+    "id": "lansing-mi",
+    "jurisdictionHint": "Lansing",
+    "levelHint": "municipality",
+    "pdfUrl": "https://content.civicplus.com/api/assets/mi-lansing/5275ad94-2c28-4941-9d23-67842b45023f?cache=1800",
+    "landingPageUrl": "https://www.lansingmi.gov/",
+    "cityCoords": [
+      -84.5555,
+      42.7325
+    ],
+    "notes": "City of Lansing Stormwater Management Design Manual"
+  },
+  {
+    "id": "peoria-il",
+    "jurisdictionHint": "Peoria",
+    "levelHint": "municipality",
+    "pdfUrl": "https://www.peoriagov.org/DocumentCenter/View/2575",
+    "landingPageUrl": "https://www.peoriagov.org/",
+    "cityCoords": [
+      -89.589,
+      40.6936
+    ],
+    "notes": "City of Peoria Unified Stormwater Ordinance / Manual of Practice Ch.17"
+  },
+  {
+    "id": "high-point-nc",
+    "jurisdictionHint": "High Point",
+    "levelHint": "municipality",
+    "pdfUrl": "https://www.highpointnc.gov/DocumentCenter/View/1533",
+    "landingPageUrl": "https://www.highpointnc.gov/",
+    "cityCoords": [
+      -80.0053,
+      35.9557
+    ],
+    "notes": "High Point BMP Design Manual — adopts NCDEQ BMP Manual + city extras (first 0.5\")"
+  },
+  {
+    "id": "wilmington-nc",
+    "jurisdictionHint": "Wilmington",
+    "levelHint": "municipality",
+    "pdfUrl": "https://www.deq.nc.gov/energy-mineral-and-land-resources/stormwater/bmp-manual/c-0-mdc-all-scms/download",
+    "landingPageUrl": "https://www.wilmingtonnc.gov/Development-Business/Development-Review/Stormwater-Permits",
+    "cityCoords": [
+      -77.9447,
+      34.2257
+    ],
+    "notes": "Wilmington Comprehensive Stormwater Ordinance uses NCDEQ Stormwater Design Manual"
+  },
+  {
+    "id": "concord-nc",
+    "jurisdictionHint": "Concord",
+    "levelHint": "municipality",
+    "pdfUrl": "https://www.deq.nc.gov/energy-mineral-and-land-resources/stormwater/bmp-manual/c-0-mdc-all-scms/download",
+    "landingPageUrl": "https://www.deq.nc.gov/about/divisions/energy-mineral-and-land-resources/stormwater/stormwater-program/stormwater-design-manual",
+    "cityCoords": [
+      -80.8481,
+      35.4088
+    ],
+    "notes": "Concord MS4 follows NCDEQ Stormwater Design Manual MDC"
+  },
+  {
+    "id": "evansville-in",
+    "jurisdictionHint": "Evansville",
+    "levelHint": "municipality",
+    "pdfUrl": "https://www.inafsm.net/assets/docs/indiana%20storm%20water%20quality%20manual.pdf",
+    "landingPageUrl": "https://www.codepublishing.com/IN/Evansville/html/Evansville16/Evansville1620.html",
+    "cityCoords": [
+      -87.5711,
+      37.9716
+    ],
+    "notes": "Evansville EMC 16.20 cites IDEM Storm Water Quality Manual as standard reference"
+  },
+  {
+    "id": "manchester-nh",
+    "jurisdictionHint": "Manchester",
+    "levelHint": "municipality",
+    "pdfUrl": "https://extension.unh.edu/sites/default/files/media/2025-06/stormwater-management-standards.pdf",
+    "landingPageUrl": "https://www.manchesternh.gov/Departments/Sewer-and-Stormwater/Stormwater/Stormwater-Regulations",
+    "cityCoords": [
+      -71.4548,
+      42.9956
+    ],
+    "notes": "Manchester stormwater regs adopt NHDES / NH Stormwater Manual standards"
+  },
+  {
+    "id": "albany-ny",
+    "jurisdictionHint": "Albany",
+    "levelHint": "municipality",
+    "pdfUrl": "https://extapps.dec.ny.gov/fs/projects/24-25DraftCGPDesignManual/Manual.SW.CGP.2024-07-31.Design_Manual_Issued_2024-07-31.pdf",
+    "landingPageUrl": "https://dec.ny.gov/environmental-protection/water/water-quality/stormwater/construction-stormwater-toolbox",
+    "cityCoords": [
+      -73.7562,
+      42.6526
+    ],
+    "notes": "Albany capital follows NYS Stormwater Management Design Manual"
+  },
+  {
+    "id": "trenton-nj",
+    "jurisdictionHint": "Trenton",
+    "levelHint": "municipality",
+    "pdfUrl": "https://dep.nj.gov/wp-content/uploads/stormwater/bmp/njswbmp-chapter-9.7-small-scale-bioretention-systems-january-2026.pdf",
+    "landingPageUrl": "https://dep.nj.gov/stormwater/stormwater-management/bmp-manual/",
+    "cityCoords": [
+      -74.7429,
+      40.2206
+    ],
+    "notes": "Trenton capital follows NJDEP Stormwater BMP Manual / N.J.A.C. 7:8"
+  },
+  {
+    "id": "davenport-ia",
+    "jurisdictionHint": "Davenport",
+    "levelHint": "municipality",
+    "pdfUrl": "https://www.iowasudas.org/wp-content/uploads/sites/15/2020/03/Chapter_02.pdf",
+    "landingPageUrl": "https://iowasudas.org/manuals/design-manual/",
+    "cityCoords": [
+      -90.5776,
+      41.5236
+    ],
+    "notes": "Davenport uses SUDAS Design Manual Ch.2 + ISWMM (Iowa pattern)"
+  },
+  {
+    "id": "harrisburg-pa",
+    "jurisdictionHint": "Harrisburg",
+    "levelHint": "municipality",
+    "pdfUrl": "https://franklinccd.org/wp-content/uploads/PENNSYLVANIA_POST-CONSTRUCTION_STORMWATER_MANAGEMENT_PCSM_MANUAL.pdf",
+    "landingPageUrl": "https://www.pa.gov/agencies/dep/programs-and-services/water/clean-water/stormwater-management/construction-stormwater/eands-resources",
+    "cityCoords": [
+      -76.8867,
+      40.2732
+    ],
+    "notes": "Harrisburg capital coverage via PA PCSM Manual / Act 167 framework"
+  },
+  {
+    "id": "everett-wa",
+    "jurisdictionHint": "Everett",
+    "levelHint": "municipality",
+    "pdfUrl": "https://www.cityofcamas.us/sites/default/files/fileattachments/community_development/page/9505/2024swmmww_6-14-24.pdf",
+    "landingPageUrl": "https://www.everettwa.gov/",
+    "cityCoords": [
+      -122.2021,
+      47.9789
+    ],
+    "notes": "Everett MS4 adopts Ecology SWMMWW"
+  },
+  {
+    "id": "olympia-wa",
+    "jurisdictionHint": "Olympia",
+    "levelHint": "municipality",
+    "pdfUrl": "https://www.cityofcamas.us/sites/default/files/fileattachments/community_development/page/9505/2024swmmww_6-14-24.pdf",
+    "landingPageUrl": "https://www.olympiawa.gov/",
+    "cityCoords": [
+      -122.9007,
+      47.0379
+    ],
+    "notes": "Olympia capital MS4 adopts Ecology SWMMWW"
+  },
+  {
+    "id": "lawrence-ks",
+    "jurisdictionHint": "Lawrence",
+    "levelHint": "municipality",
+    "pdfUrl": "https://lawrenceks.gov/wp-content/uploads/2025/03/Stormwater-Management-Criteria-2025-1.pdf",
+    "landingPageUrl": "https://lawrenceks.gov/mso/technical-resources/",
+    "cityCoords": [
+      -95.2353,
+      38.9717
+    ],
+    "notes": "Lawrence Stormwater Management Criteria Feb 2025; adopts MARC/APWA BMP manual"
+  },
+  {
+    "id": "roanoke-va",
+    "jurisdictionHint": "Roanoke",
+    "levelHint": "municipality",
+    "pdfUrl": "https://www.roanokeva.gov/DocumentCenter/View/1181/Chapter-5-Stormwater-Hydrology",
+    "landingPageUrl": "https://www.roanokeva.gov/1065/Stormwater-Management-Code",
+    "cityCoords": [
+      -79.9414,
+      37.271
+    ],
+    "notes": "Roanoke Stormwater Management Design Manual Ch.5 Hydrology (manual is chaptered); WQ via Ch.12 runoff reduction / BMP Clearinghouse"
+  },
+  {
+    "id": "annapolis-md",
+    "jurisdictionHint": "Annapolis",
+    "levelHint": "municipality",
+    "pdfUrl": "https://mde.maryland.gov/programs/water/StormwaterManagementProgram/Documents/www.mde.state.md.us/assets/document/sedimentstormwater/MD%20SWM%20Volume%201.pdf",
+    "landingPageUrl": "https://mde.maryland.gov/programs/water/stormwatermanagementprogram/pages/stormwater_design.aspx",
+    "cityCoords": [
+      -76.4922,
+      38.9784
+    ],
+    "notes": "Annapolis capital MS4 follows Maryland Stormwater Design Manual"
+  },
+  {
+    "id": "concord-nh",
+    "jurisdictionHint": "Concord",
+    "levelHint": "municipality",
+    "pdfUrl": "https://extension.unh.edu/sites/default/files/media/2025-06/stormwater-management-standards.pdf",
+    "landingPageUrl": "https://extension.unh.edu/stormwater-center/nh-stormwater-manual",
+    "cityCoords": [
+      -71.5376,
+      43.2081
+    ],
+    "notes": "Concord NH capital follows NH Model Stormwater Standards"
+  },
+  {
+    "id": "nashua-nh",
+    "jurisdictionHint": "Nashua",
+    "levelHint": "municipality",
+    "pdfUrl": "https://extension.unh.edu/sites/default/files/media/2025-06/stormwater-management-standards.pdf",
+    "landingPageUrl": "https://extension.unh.edu/stormwater-center/nh-stormwater-manual",
+    "cityCoords": [
+      -71.4673,
+      42.7654
+    ],
+    "notes": "Nashua MS4 follows NH Model Stormwater Standards"
+  },
+  {
+    "id": "montpelier-vt",
+    "jurisdictionHint": "Montpelier",
+    "levelHint": "municipality",
+    "pdfUrl": "http://legislature.vermont.gov/Documents/2016/WorkGroups/House%20Fish%20and%20Wildlife/Stormwater%20Manual%20Revisions/W~Kevin%20Burke~Draft%20Stormwater%20Manual%20Revisions%20DEC~3-22-2016.pdf",
+    "landingPageUrl": "https://dec.vermont.gov/watershed/stormwater",
+    "cityCoords": [
+      -72.5754,
+      44.2601
+    ],
+    "notes": "Montpelier capital follows Vermont Stormwater Management Manual"
+  },
+  {
+    "id": "juneau-ak",
+    "jurisdictionHint": "Juneau",
+    "levelHint": "municipality",
+    "pdfUrl": "https://plants.alaska.gov/pdf/akswguide.pdf",
+    "landingPageUrl": "https://plants.alaska.gov/",
+    "cityCoords": [
+      -134.4197,
+      58.3019
+    ],
+    "notes": "Juneau capital follows Alaska Storm Water Guide"
+  },
+  {
+    "id": "greensboro-nc",
+    "jurisdictionHint": "Greensboro",
+    "levelHint": "municipality",
+    "pdfUrl": "https://www.deq.nc.gov/energy-mineral-and-land-resources/stormwater/bmp-manual/c-0-mdc-all-scms/download",
+    "landingPageUrl": "https://www.deq.nc.gov/about/divisions/energy-mineral-and-land-resources/stormwater/stormwater-program/stormwater-design-manual",
+    "cityCoords": [
+      -79.792,
+      36.0726
+    ],
+    "notes": "Greensboro MS4 uses NCDEQ Stormwater Design Manual (city portal often 403)"
+  },
+  {
+    "id": "asheville-nc",
+    "jurisdictionHint": "Asheville",
+    "levelHint": "municipality",
+    "pdfUrl": "https://www.deq.nc.gov/energy-mineral-and-land-resources/stormwater/bmp-manual/c-0-mdc-all-scms/download",
+    "landingPageUrl": "https://www.ashevillenc.gov/department/engineering/stormwater/",
+    "cityCoords": [
+      -82.5515,
+      35.5951
+    ],
+    "notes": "Asheville MS4 follows NCDEQ Stormwater Design Manual MDC"
+  },
+  {
+    "id": "south-bend-in",
+    "jurisdictionHint": "South Bend",
+    "levelHint": "municipality",
+    "pdfUrl": "https://www.inafsm.net/assets/docs/indiana%20storm%20water%20quality%20manual.pdf",
+    "landingPageUrl": "https://www.in.gov/idem/stormwater/resources/indiana-storm-water-quality-manual/",
+    "cityCoords": [
+      -86.252,
+      41.6764
+    ],
+    "notes": "South Bend MS4 references IDEM Indiana Storm Water Quality Manual"
+  },
+  {
+    "id": "reading-pa",
+    "jurisdictionHint": "Reading",
+    "levelHint": "municipality",
+    "pdfUrl": "https://franklinccd.org/wp-content/uploads/PENNSYLVANIA_POST-CONSTRUCTION_STORMWATER_MANAGEMENT_PCSM_MANUAL.pdf",
+    "landingPageUrl": "https://www.pa.gov/agencies/dep/programs-and-services/water/clean-water/stormwater-management/construction-stormwater/eands-resources",
+    "cityCoords": [
+      -75.9269,
+      40.3356
+    ],
+    "notes": "Reading MS4 / Act 167 follows PA PCSM Manual"
+  },
+  {
+    "id": "erie-pa",
+    "jurisdictionHint": "Erie",
+    "levelHint": "municipality",
+    "pdfUrl": "https://franklinccd.org/wp-content/uploads/PENNSYLVANIA_POST-CONSTRUCTION_STORMWATER_MANAGEMENT_PCSM_MANUAL.pdf",
+    "landingPageUrl": "https://www.pa.gov/agencies/dep/programs-and-services/water/clean-water/stormwater-management/construction-stormwater/eands-resources",
+    "cityCoords": [
+      -80.0851,
+      42.1292
+    ],
+    "notes": "Erie MS4 / Act 167 follows PA PCSM Manual"
+  },
+  {
+    "id": "scranton-pa",
+    "jurisdictionHint": "Scranton",
+    "levelHint": "municipality",
+    "pdfUrl": "https://franklinccd.org/wp-content/uploads/PENNSYLVANIA_POST-CONSTRUCTION_STORMWATER_MANAGEMENT_PCSM_MANUAL.pdf",
+    "landingPageUrl": "https://www.pa.gov/agencies/dep/programs-and-services/water/clean-water/stormwater-management/construction-stormwater/eands-resources",
+    "cityCoords": [
+      -75.6624,
+      41.4089
+    ],
+    "notes": "Scranton MS4 / Act 167 follows PA PCSM Manual"
+  },
+  {
+    "id": "bellingham-wa",
+    "jurisdictionHint": "Bellingham",
+    "levelHint": "municipality",
+    "pdfUrl": "https://www.cityofcamas.us/sites/default/files/fileattachments/community_development/page/9505/2024swmmww_6-14-24.pdf",
+    "landingPageUrl": "https://cob.org/services/environment/stormwater",
+    "cityCoords": [
+      -122.4787,
+      48.7519
+    ],
+    "notes": "Bellingham MS4 adopts Ecology SWMMWW"
+  },
+  {
+    "id": "jefferson-city-mo",
+    "jurisdictionHint": "Jefferson City",
+    "levelHint": "municipality",
+    "pdfUrl": "https://dnr.mo.gov/sites/dnr/files/vfc/2023/05/main/pub2446-mo-guide-to-green-infrastructure_1.pdf",
+    "landingPageUrl": "https://dnr.mo.gov/document-search/missouri-guide-green-infrastructure-pub2446",
+    "cityCoords": [
+      -92.1735,
+      38.5767
+    ],
+    "notes": "Jefferson City capital coverage via Missouri Guide to Green Infrastructure"
+  },
+  {
+    "id": "helena-mt",
+    "jurisdictionHint": "Helena",
+    "levelHint": "municipality",
+    "pdfUrl": "https://deq.mt.gov/files/Water/Forms/DEQ_8_2024_FINAL_2024_09_20.pdf",
+    "landingPageUrl": "https://deq.mt.gov/water",
+    "cityCoords": [
+      -112.0362,
+      46.5891
+    ],
+    "notes": "Helena capital — Montana DEQ-8 stormwater standards (partial design coverage)"
+  },
+  {
+    "id": "carson-city-nv",
+    "jurisdictionHint": "Carson City",
+    "levelHint": "municipality",
+    "pdfUrl": "https://www.carson.org/home/showpublisheddocument/76280/637624691903200000",
+    "landingPageUrl": "https://www.carsoncity.gov/government/departments-g-z/public-works/storm-water-flood-plain-management/low-impact-development-drainage-manual-faqs",
+    "cityCoords": [
+      -119.7674,
+      39.1638
+    ],
+    "notes": "Carson City Drainage Manual (LID) effective 2021-07-01"
+  },
+  {
+    "id": "springfield-il",
+    "jurisdictionHint": "Springfield",
+    "levelHint": "municipality",
+    "pdfUrl": "https://dnr.illinois.gov/content/dam/soi/en/web/dnr/waterresources/documents/il-model-stormwater-ordinance.pdf",
+    "landingPageUrl": "https://dnr.illinois.gov/waterresources/stormwatermanagement.html",
+    "cityCoords": [
+      -89.644,
+      39.7817
+    ],
+    "notes": "Springfield IL capital — no durable city design-manual PDF found; IL Model Stormwater Management Ordinance used as statewide template reference"
+  },
+  {
+    "id": "huntsville-al",
+    "jurisdictionHint": "Huntsville",
+    "levelHint": "municipality",
+    "pdfUrl": "https://adem.alabama.gov/programs/water/waterforms/LIDHandbook.pdf",
+    "landingPageUrl": "https://adem.alabama.gov/programs/water/nps/lid.cnt",
+    "cityCoords": [
+      -86.5861,
+      34.7304
+    ],
+    "notes": "Huntsville MS4 — ADEM LID Handbook (Montgomery pattern); city portal PDF not found"
+  },
+  {
+    "id": "fayetteville-ar",
+    "jurisdictionHint": "Fayetteville",
+    "levelHint": "municipality",
+    "pdfUrl": "https://cityoflittleflock.com/wp-content/uploads/2024/06/BMP-Manual-1-17-ALL.pdf",
+    "landingPageUrl": "https://www.bentonville.ar.gov/422/Stormwater-Management",
+    "cityCoords": [
+      -94.1574,
+      36.0626
+    ],
+    "notes": "Fayetteville is NWA MS4 — uses NWA Stormwater BMP Manual"
+  },
+  {
+    "id": "augusta-me",
+    "jurisdictionHint": "Augusta",
+    "levelHint": "municipality",
+    "pdfUrl": "https://www.maine.gov/dep/land/stormwater/stormwaterbmps/vol3/volume%20III%20May%202016.pdf",
+    "landingPageUrl": "https://www.maine.gov/dep/land/stormwater/stormwaterbmps/",
+    "cityCoords": [
+      -69.7795,
+      44.3106
+    ],
+    "notes": "Augusta capital follows Maine Stormwater Management Design Manual Vol III"
+  },
+  {
+    "id": "frankfort-ky",
+    "jurisdictionHint": "Frankfort",
+    "levelHint": "municipality",
+    "pdfUrl": "https://content.lexingtonky.gov/sites/default/files/2026-04/LFUCG%20Stormwater%20Manual%2005.01.26.pdf",
+    "landingPageUrl": "https://www.lexingtonky.gov/government/departments-programs/environmental-quality-public-works/water-quality/municipal-separate-storm-sewer-system-ms4",
+    "cityCoords": [
+      -84.8733,
+      38.2009
+    ],
+    "notes": "Frankfort capital — no city PDF found; LFUCG Stormwater Manual used as KY urban post-construction reference (needs review)"
+  },
+  {
+    "id": "dover-de",
+    "jurisdictionHint": "Dover",
+    "levelHint": "municipality",
+    "pdfUrl": "https://documents.dnrec.delaware.gov/Admin/Public-Notices/WSS20260001/13-0-Wet-Ponds-DRAFT-strikethrough.pdf",
+    "landingPageUrl": "https://dnrec.delaware.gov/watershed-stewardship/sediment-stormwater/",
+    "cityCoords": [
+      -75.5244,
+      39.1582
+    ],
+    "notes": "Dover capital — DNREC Sediment & Stormwater / wet-pond chapter (partial); full technical document often 404"
+  },
+  {
+    "id": "hialeah-fl",
+    "jurisdictionHint": "Hialeah",
+    "levelHint": "municipality",
+    "pdfUrl": "https://www.sfwmd.gov/sites/default/files/documents/draft_erp%20vol%20ii%20swerp%20ii_2104_10.pdf",
+    "landingPageUrl": "https://www.hialeahfl.gov/258/Engineering",
+    "cityCoords": [
+      -80.2781,
+      25.8576
+    ],
+    "notes": "Hialeah follows SFWMD ERP Applicant's Handbook Vol II (city PDFs scanned/empty)"
+  },
+  {
+    "id": "west-palm-beach-fl",
+    "jurisdictionHint": "West Palm Beach",
+    "levelHint": "municipality",
+    "pdfUrl": "https://www.sfwmd.gov/sites/default/files/documents/draft_erp%20vol%20ii%20swerp%20ii_2104_10.pdf",
+    "landingPageUrl": "https://www.sfwmd.gov/",
+    "cityCoords": [
+      -80.0534,
+      26.7153
+    ],
+    "notes": "West Palm Beach in SFWMD — ERP AH Vol II design criteria"
+  },
+  {
+    "id": "port-st-lucie-fl",
+    "jurisdictionHint": "Port St. Lucie",
+    "levelHint": "municipality",
+    "pdfUrl": "https://www.sfwmd.gov/sites/default/files/documents/draft_erp%20vol%20ii%20swerp%20ii_2104_10.pdf",
+    "landingPageUrl": "https://www.sfwmd.gov/",
+    "cityCoords": [
+      -80.3464,
+      27.273
+    ],
+    "notes": "Port St. Lucie in SFWMD — ERP AH Vol II"
+  },
+  {
+    "id": "boca-raton-fl",
+    "jurisdictionHint": "Boca Raton",
+    "levelHint": "municipality",
+    "pdfUrl": "https://www.sfwmd.gov/sites/default/files/documents/draft_erp%20vol%20ii%20swerp%20ii_2104_10.pdf",
+    "landingPageUrl": "https://www.sfwmd.gov/",
+    "cityCoords": [
+      -80.1289,
+      26.3683
+    ],
+    "notes": "Boca Raton in SFWMD — ERP AH Vol II"
+  },
+  {
+    "id": "lakeland-fl",
+    "jurisdictionHint": "Lakeland",
+    "levelHint": "municipality",
+    "pdfUrl": "https://www.swfwmd.state.fl.us/sites/default/files/medias/documents/SWFWMD%20AHVII%20with%20Appendices-Adopted%20on%2010-31-25.pdf",
+    "landingPageUrl": "https://www.swfwmd.state.fl.us/",
+    "cityCoords": [
+      -81.9498,
+      28.0395
+    ],
+    "notes": "Lakeland in SWFWMD — ERP Applicant's Handbook Vol II"
+  },
+  {
+    "id": "omaha-ne",
+    "jurisdictionHint": "Omaha",
+    "levelHint": "municipality",
+    "pdfUrl": "https://papiopartnership.org/wp-content/uploads/2017/11/post_construction_stormwater_planning.pdf",
+    "landingPageUrl": "https://www.omahastormwater.org/resources/forms-downloads/",
+    "cityCoords": [
+      -95.9345,
+      41.2565
+    ],
+    "notes": "PCWP Post-Construction Stormwater Management Planning + ORSDM Ch.8 (full ORSDM chaptered/403)"
+  },
+  {
+    "id": "pasadena-tx",
+    "jurisdictionHint": "Pasadena",
+    "levelHint": "municipality",
+    "pdfUrl": "https://oce.harriscountytx.gov/Portals/43/Documents/Publications/SWQ_LID_design_criteria.pdf",
+    "landingPageUrl": "https://www.pasadenatx.gov/",
+    "cityCoords": [
+      -95.2091,
+      29.6911
+    ],
+    "notes": "Pasadena TX in Harris County metro — Harris County LID/GI SWQ criteria (View/1000 was wrong lab memo)"
+  },
+  {
+    "id": "franklin-tn",
+    "jurisdictionHint": "Franklin",
+    "levelHint": "municipality",
+    "pdfUrl": "https://www.nashville.gov/sites/default/files/2021-08/SWMM-Vol4-01_SECTION_1_0_ALL.pdf",
+    "landingPageUrl": "https://www.franklintn.gov/",
+    "cityCoords": [
+      -86.8689,
+      35.9251
+    ],
+    "notes": "Franklin TN MS4 — Metro Nashville SWMM Vol4 BMP reference (CivicPlus id was city newsletter)"
+  },
+  {
+    "id": "charlottesville-va",
+    "jurisdictionHint": "Charlottesville",
+    "levelHint": "municipality",
+    "pdfUrl": "https://www.charlottesville.gov/DocumentCenter/View/10298",
+    "landingPageUrl": "https://va-charlottesville.civicplus.com/491/Stormwater",
+    "cityCoords": [
+      -78.4767,
+      38.0293
+    ],
+    "notes": "Charlottesville Standards and Design Manual (stormwater specs)"
+  },
+  {
+    "id": "gastonia-nc",
+    "jurisdictionHint": "Gastonia",
+    "levelHint": "municipality",
+    "pdfUrl": "https://www.deq.nc.gov/energy-mineral-and-land-resources/stormwater/bmp-manual/c-0-mdc-all-scms/download",
+    "landingPageUrl": "https://www.cityofgastonia.com/",
+    "cityCoords": [
+      -81.1873,
+      35.2621
+    ],
+    "notes": "Gastonia MS4 follows NCDEQ Design Manual"
+  },
+  {
+    "id": "portland-me",
+    "jurisdictionHint": "Portland",
+    "levelHint": "municipality",
+    "pdfUrl": "https://www.maine.gov/dep/land/stormwater/stormwaterbmps/vol3/volume%20III%20May%202016.pdf",
+    "landingPageUrl": "https://www.portlandmaine.gov/",
+    "cityCoords": [
+      -70.2553,
+      43.6591
+    ],
+    "notes": "Portland ME MS4 follows Maine Stormwater Design Manual Vol III"
+  },
+  {
+    "id": "rockville-md",
+    "jurisdictionHint": "Rockville",
+    "levelHint": "municipality",
+    "pdfUrl": "https://mde.maryland.gov/programs/water/StormwaterManagementProgram/Documents/www.mde.state.md.us/assets/document/sedimentstormwater/MD%20SWM%20Volume%201.pdf",
+    "landingPageUrl": "https://www.rockvillemd.gov/",
+    "cityCoords": [
+      -77.1528,
+      39.084
+    ],
+    "notes": "Rockville MS4 follows Maryland Stormwater Design Manual"
+  },
+  {
+    "id": "burlington-vt",
+    "jurisdictionHint": "Burlington",
+    "levelHint": "municipality",
+    "pdfUrl": "http://legislature.vermont.gov/Documents/2016/WorkGroups/House%20Fish%20and%20Wildlife/Stormwater%20Manual%20Revisions/W~Kevin%20Burke~Draft%20Stormwater%20Manual%20Revisions%20DEC~3-22-2016.pdf",
+    "landingPageUrl": "https://www.burlingtonvt.gov/DPW/Stormwater",
+    "cityCoords": [
+      -73.2121,
+      44.4759
+    ],
+    "notes": "Burlington MS4 follows Vermont Stormwater Management Manual"
+  },
+  {
+    "id": "wilmington-de",
+    "jurisdictionHint": "Wilmington",
+    "levelHint": "municipality",
+    "pdfUrl": "https://documents.dnrec.delaware.gov/Admin/Public-Notices/WSS20260001/13-0-Wet-Ponds-DRAFT-strikethrough.pdf",
+    "landingPageUrl": "https://dnrec.delaware.gov/watershed-stewardship/sediment-stormwater/",
+    "cityCoords": [
+      -75.5466,
+      39.7391
+    ],
+    "notes": "Wilmington DE MS4 follows DNREC Sediment & Stormwater / wet ponds"
+  },
+  {
+    "id": "gulfport-ms",
+    "jurisdictionHint": "Gulfport",
+    "levelHint": "municipality",
+    "pdfUrl": "https://www.mdeq.ms.gov/wp-content/uploads/2017/05/Volume_2.pdf",
+    "landingPageUrl": "https://www.mdeq.ms.gov/",
+    "cityCoords": [
+      -89.0928,
+      30.3674
+    ],
+    "notes": "Gulfport MS4 follows MDEQ Stormwater Design Manual Vol 2"
+  },
+  {
+    "id": "missoula-mt",
+    "jurisdictionHint": "Missoula",
+    "levelHint": "municipality",
+    "pdfUrl": "https://deq.mt.gov/files/Water/Forms/DEQ_8_2024_FINAL_2024_09_20.pdf",
+    "landingPageUrl": "https://deq.mt.gov/water",
+    "cityCoords": [
+      -113.994,
+      46.8721
+    ],
+    "notes": "Missoula MS4 — Montana DEQ-8 stormwater standards"
+  },
+  {
+    "id": "chula-vista-ca",
+    "jurisdictionHint": "Chula Vista",
+    "levelHint": "municipality",
+    "pdfUrl": "https://www.sandiego.gov/sites/default/files/2024-08/sws_manual_august_2024_update.pdf",
+    "landingPageUrl": "https://www.chulavistaca.gov/",
+    "cityCoords": [
+      -117.0842,
+      32.6401
+    ],
+    "notes": "Chula Vista San Diego County MS4 — City of San Diego Stormwater Standards regional reference"
+  },
+  {
+    "id": "pearland-tx",
+    "jurisdictionHint": "Pearland",
+    "levelHint": "municipality",
+    "pdfUrl": "https://oce.harriscountytx.gov/Portals/43/Documents/Publications/SWQ_LID_design_criteria.pdf",
+    "landingPageUrl": "https://www.pearlandtx.gov/",
+    "cityCoords": [
+      -95.2861,
+      29.5636
+    ],
+    "notes": "Pearland metro — Harris County LID/GI SWQ criteria reference"
+  },
+  {
+    "id": "greenville-sc",
+    "jurisdictionHint": "Greenville",
+    "levelHint": "municipality",
+    "pdfUrl": "https://columbiascwater.net/wp-content/uploads/2018/08/bmpmanual.pdf",
+    "landingPageUrl": "https://www.greenvillesc.gov/",
+    "cityCoords": [
+      -82.394,
+      34.8526
+    ],
+    "notes": "Greenville SC MS4 — uses statewide GSMM / similar Unified Stormwater Sizing Criteria pattern as Columbia BMP Design Manual"
+  },
+  {
+    "id": "lincoln-ne",
+    "jurisdictionHint": "Lincoln",
+    "levelHint": "municipality",
+    "pdfUrl": "https://www.lincoln.ne.gov/files/sharedassets/public/v/1/ltu/utilities/watershed-management/best-management-practices/bmp-guidelines.pdf",
+    "landingPageUrl": "https://www.lincoln.ne.gov/City/Departments/LTU/Utilities/Watershed-Management/Sustainable-Landscapes/Post-Construction-BMPs/Guidance-Manual",
+    "cityCoords": [
+      -96.7026,
+      40.8136
+    ],
+    "notes": "Lincoln Stormwater Post Construction BMP Guidance Manual 2020"
+  },
+  {
+    "id": "colorado-springs-co",
+    "jurisdictionHint": "Colorado Springs",
+    "levelHint": "municipality",
+    "pdfUrl": "https://www.mhfd.org/files/7af5d4c2f/03_Chapter-1-Stormwater-Management.pdf",
+    "landingPageUrl": "https://www.mhfd.org/criteria-manual-volume-3",
+    "cityCoords": [
+      -104.8214,
+      38.8339
+    ],
+    "notes": "Front Range MS4 — MHFD/UDFCD Volume 3 WQCV regional criteria (city portal HTML)"
+  },
+  {
+    "id": "boulder-co",
+    "jurisdictionHint": "Boulder",
+    "levelHint": "municipality",
+    "pdfUrl": "https://www.mhfd.org/files/7af5d4c2f/03_Chapter-1-Stormwater-Management.pdf",
+    "landingPageUrl": "https://www.mhfd.org/criteria-manual-volume-3",
+    "cityCoords": [
+      -105.2705,
+      40.015
+    ],
+    "notes": "Front Range MS4 — MHFD/UDFCD Volume 3 WQCV"
+  },
+  {
+    "id": "fort-collins-co",
+    "jurisdictionHint": "Fort Collins",
+    "levelHint": "municipality",
+    "pdfUrl": "https://www.mhfd.org/files/7af5d4c2f/03_Chapter-1-Stormwater-Management.pdf",
+    "landingPageUrl": "https://www.mhfd.org/criteria-manual-volume-3",
+    "cityCoords": [
+      -105.0844,
+      40.5853
+    ],
+    "notes": "Front Range MS4 — MHFD/UDFCD Volume 3 WQCV (city PDF often HTML/403)"
+  },
+  {
+    "id": "toledo-oh",
+    "jurisdictionHint": "Toledo",
+    "levelHint": "municipality",
+    "pdfUrl": "https://dam.assets.ohio.gov/image/upload/epa.ohio.gov/Portals/35/storm/technical_assistance/ARCHIVE-RaLD-2006.pdf",
+    "landingPageUrl": "https://epa.ohio.gov/divisions-and-offices/surface-water/guides-manuals/rainwater-and-land-development",
+    "cityCoords": [
+      -83.5552,
+      41.6528
+    ],
+    "notes": "Toledo MS4 — Ohio Rainwater and Land Development (no durable city manual PDF)"
+  },
+  {
+    "id": "akron-oh",
+    "jurisdictionHint": "Akron",
+    "levelHint": "municipality",
+    "pdfUrl": "https://dam.assets.ohio.gov/image/upload/epa.ohio.gov/Portals/35/storm/technical_assistance/ARCHIVE-RaLD-2006.pdf",
+    "landingPageUrl": "https://epa.ohio.gov/divisions-and-offices/surface-water/guides-manuals/rainwater-and-land-development",
+    "cityCoords": [
+      -81.519,
+      41.0814
+    ],
+    "notes": "Akron MS4 — Ohio Rainwater and Land Development"
+  },
+  {
+    "id": "youngstown-oh",
+    "jurisdictionHint": "Youngstown",
+    "levelHint": "municipality",
+    "pdfUrl": "https://dam.assets.ohio.gov/image/upload/epa.ohio.gov/Portals/35/storm/technical_assistance/ARCHIVE-RaLD-2006.pdf",
+    "landingPageUrl": "https://epa.ohio.gov/divisions-and-offices/surface-water/guides-manuals/rainwater-and-land-development",
+    "cityCoords": [
+      -80.6495,
+      41.0998
+    ],
+    "notes": "Youngstown MS4 — Ohio Rainwater and Land Development"
+  },
+  {
+    "id": "duluth-mn",
+    "jurisdictionHint": "Duluth",
+    "levelHint": "municipality",
+    "pdfUrl": "https://stormwater.pca.state.mn.us/sites/stormwater/files/Minnesota_Stormwater_Manual.pdf",
+    "landingPageUrl": "https://stormwater.pca.state.mn.us/",
+    "cityCoords": [
+      -92.1005,
+      46.7867
+    ],
+    "notes": "Duluth MS4 — Minnesota Stormwater Manual"
+  },
+  {
+    "id": "bend-or",
+    "jurisdictionHint": "Bend",
+    "levelHint": "municipality",
+    "pdfUrl": "https://www.eugene-or.gov/DocumentCenter/View/79289/2025-Stormwater-Management-Manual-with-Appendices",
+    "landingPageUrl": "https://www.eugene-or.gov/477/Stormwater-Management-Manual",
+    "cityCoords": [
+      -121.3153,
+      44.0582
+    ],
+    "notes": "Bend — city portal 403; Eugene SWMM used as Oregon municipal LID/GSI reference (needs review)"
+  },
+  {
+    "id": "flint-mi",
+    "jurisdictionHint": "Flint",
+    "levelHint": "municipality",
+    "pdfUrl": "https://content.civicplus.com/api/assets/mi-lansing/5275ad94-2c28-4941-9d23-67842b45023f?cache=1800",
+    "landingPageUrl": "https://www.lansingmi.gov/",
+    "cityCoords": [
+      -83.6875,
+      43.0125
+    ],
+    "notes": "Flint MS4 — Lansing/EGLE stormwater design pattern (0.9 in WQv regional)"
+  },
+  {
+    "id": "grand-prairie-tx",
+    "jurisdictionHint": "Grand Prairie",
+    "levelHint": "municipality",
+    "pdfUrl": "https://iswm.nctcog.org/Documents/iSWM_Criteria_Manual_01142015.pdf",
+    "landingPageUrl": "https://iswm.nctcog.org/criteria-manual.html",
+    "cityCoords": [
+      -96.9978,
+      32.7459
+    ],
+    "notes": "Grand Prairie — NCTCOG iSWM Criteria Manual (DFW metro)"
+  },
+  {
+    "id": "waco-tx",
+    "jurisdictionHint": "Waco",
+    "levelHint": "municipality",
+    "pdfUrl": "https://iswm.nctcog.org/Documents/iSWM_Criteria_Manual_01142015.pdf",
+    "landingPageUrl": "https://iswm.nctcog.org/criteria-manual.html",
+    "cityCoords": [
+      -97.1467,
+      31.5493
+    ],
+    "notes": "Waco — city 403; NCTCOG iSWM used as Central TX municipal reference (needs review)"
+  },
+  {
+    "id": "lafayette-la",
+    "jurisdictionHint": "Lafayette",
+    "levelHint": "municipality",
+    "pdfUrl": "https://www.shreveportla.gov/DocumentCenter/View/29000",
+    "landingPageUrl": "https://www.shreveportla.gov/2774/Engineering",
+    "cityCoords": [
+      -92.0198,
+      30.2241
+    ],
+    "notes": "Lafayette — city URL 404; Shreveport Drainage Manual used as LA municipal pattern (needs review)"
+  },
+  {
+    "id": "santa-fe-nm",
+    "jurisdictionHint": "Santa Fe",
+    "levelHint": "municipality",
+    "pdfUrl": "https://swefc.unm.edu/gardb/wp-content/uploads/2025/03/61-Green_Infrastructure_and_Low_Impact_Design_Guide_1-1.pdf",
+    "landingPageUrl": "https://www.bernco.gov/",
+    "cityCoords": [
+      -105.9378,
+      35.687
+    ],
+    "notes": "Santa Fe capital — Albuquerque/Bernalillo GSI guide as NM municipal GI reference (needs review)"
+  },
+  {
+    "id": "las-cruces-nm",
+    "jurisdictionHint": "Las Cruces",
+    "levelHint": "municipality",
+    "pdfUrl": "https://swefc.unm.edu/gardb/wp-content/uploads/2025/03/61-Green_Infrastructure_and_Low_Impact_Design_Guide_1-1.pdf",
+    "landingPageUrl": "https://www.bernco.gov/",
+    "cityCoords": [
+      -106.7637,
+      32.3199
+    ],
+    "notes": "Las Cruces — no durable city PDF; NM GSI guide reference (needs review)"
+  },
+  {
+    "id": "sioux-falls-sd",
+    "jurisdictionHint": "Sioux Falls",
+    "levelHint": "municipality",
+    "pdfUrl": "https://dot.sd.gov/media/kywakwy4/escontrolsw.pdf",
+    "landingPageUrl": "https://www.siouxfalls.org/",
+    "cityCoords": [
+      -96.7311,
+      43.546
+    ],
+    "notes": "Sioux Falls — city 403; SD DOT ESC / regional pattern (partial)"
+  },
+  {
+    "id": "pierre-sd",
+    "jurisdictionHint": "Pierre",
+    "levelHint": "municipality",
+    "pdfUrl": "https://dot.sd.gov/media/kywakwy4/escontrolsw.pdf",
+    "landingPageUrl": "https://danr.sd.gov/",
+    "cityCoords": [
+      -100.351,
+      44.3683
+    ],
+    "notes": "Pierre capital — SD DOT ESC partial coverage"
+  },
+  {
+    "id": "cheyenne-wy",
+    "jurisdictionHint": "Cheyenne",
+    "levelHint": "municipality",
+    "pdfUrl": "https://www.dot.state.wy.us/files/live/sites/wydot/files/shared/Construction/WYDOT%20Storm%20Water%20Field%20Guide%204-6-11.pdf",
+    "landingPageUrl": "https://www.cheyennecity.org/",
+    "cityCoords": [
+      -104.8202,
+      41.14
+    ],
+    "notes": "Cheyenne capital — WYDOT field/drainage guidance (partial)"
+  },
+  {
+    "id": "casper-wy",
+    "jurisdictionHint": "Casper",
+    "levelHint": "municipality",
+    "pdfUrl": "https://www.dot.state.wy.us/files/live/sites/wydot/files/shared/Construction/WYDOT%20Storm%20Water%20Field%20Guide%204-6-11.pdf",
+    "landingPageUrl": "https://www.casperwy.gov/",
+    "cityCoords": [
+      -106.3131,
+      42.8666
+    ],
+    "notes": "Casper — WYDOT field/drainage guidance (partial)"
+  },
+  {
+    "id": "flagstaff-az",
+    "jurisdictionHint": "Flagstaff",
+    "levelHint": "municipality",
+    "pdfUrl": "https://www.flagstaff.az.gov/DocumentCenter/View/88520/2025-Stormwater-Management-Design-Manual",
+    "landingPageUrl": "https://www.flagstaff.az.gov/2131/Stormwater",
+    "cityCoords": [
+      -111.6513,
+      35.1983
+    ],
+    "notes": "Flagstaff 2025 Stormwater Management Design Manual (ROCV / LID)"
+  },
+  {
+    "id": "beaumont-tx",
+    "jurisdictionHint": "Beaumont",
+    "levelHint": "municipality",
+    "pdfUrl": "https://dd6.org/wp-content/uploads/2025/07/Drainage-Criteria-Manual-Update-2025-FINAL-7-1-2025.pdf",
+    "landingPageUrl": "https://dd6.org/",
+    "cityCoords": [
+      -94.1266,
+      30.0802
+    ],
+    "notes": "Jefferson County DD6 Drainage Criteria Manual (Beaumont MS4 co-permittee region)"
+  },
+  {
+    "id": "santa-barbara-ca",
+    "jurisdictionHint": "Santa Barbara",
+    "levelHint": "municipality",
+    "pdfUrl": "https://sustainability.santabarbaraca.gov/sites/default/files/documents/Parks%20%26%20Recreation/Creeks/Final%20Guidance%20Manual.pdf",
+    "landingPageUrl": "https://santabarbaraca.gov/SWMP",
+    "cityCoords": [
+      -119.6982,
+      34.4208
+    ],
+    "notes": "Santa Barbara Storm Water BMP Technical Guidance Manual (2020)"
+  },
+  {
+    "id": "charleston-wv",
+    "jurisdictionHint": "Charleston",
+    "levelHint": "municipality",
+    "pdfUrl": "http://charlestonstormwater.org/wp-content/uploads/2025/03/Charleston-Stormwater-Management-Guidance-Manual-website.pdf",
+    "landingPageUrl": "http://charlestonstormwater.org/sample-page/",
+    "cityCoords": [
+      -81.6326,
+      38.3498
+    ],
+    "notes": "City of Charleston WV Stormwater Management Guidance Manual"
+  },
+  {
+    "id": "kennewick-wa",
+    "jurisdictionHint": "Kennewick",
+    "levelHint": "municipality",
+    "pdfUrl": "https://apps.ecology.wa.gov/publications/documents/2410014.pdf",
+    "landingPageUrl": "https://ecology.wa.gov/regulations-permits/guidance-technical-assistance/stormwater-permittee-guidance-resources/stormwater-manuals",
+    "cityCoords": [
+      -119.1372,
+      46.2112
+    ],
+    "notes": "Ecology 2024 SWMMEW — Eastern Washington (Kennewick MS4)"
+  },
+  {
+    "id": "pensacola-fl",
+    "jurisdictionHint": "Pensacola",
+    "levelHint": "municipality",
+    "pdfUrl": "https://nwfwater.com/wp-content/uploads/2024/07/AHII-nwfwmd-FINAL-2024.pdf",
+    "landingPageUrl": "https://nwfwater.com/",
+    "cityCoords": [
+      -87.2169,
+      30.4213
+    ],
+    "notes": "Pensacola — NWFWMD ERP AH Vol II (regional design criteria)"
+  },
+  {
+    "id": "palm-bay-fl",
+    "jurisdictionHint": "Palm Bay",
+    "levelHint": "municipality",
+    "pdfUrl": "https://www.jacksonville.gov/getContentAsset/f2c6099d-cdf0-40da-b6a9-43e4c734282e/135b97c9-84fa-4e82-b956-0fbccec4aa1f/LDPM-Vol2-EFF-2026-01-30-CLEAN-ADA-508.pdf?language=en",
+    "landingPageUrl": "https://www.palmbayflorida.org/",
+    "cityCoords": [
+      -80.6048,
+      28.0345
+    ],
+    "notes": "Palm Bay (SJRWMD) — Jacksonville LDPM Vol2 used as east-central FL municipal pattern pending SJRWMD AH Vol II PDF"
+  },
+  {
+    "id": "daytona-beach-fl",
+    "jurisdictionHint": "Daytona Beach",
+    "levelHint": "municipality",
+    "pdfUrl": "https://www.jacksonville.gov/getContentAsset/f2c6099d-cdf0-40da-b6a9-43e4c734282e/135b97c9-84fa-4e82-b956-0fbccec4aa1f/LDPM-Vol2-EFF-2026-01-30-CLEAN-ADA-508.pdf?language=en",
+    "landingPageUrl": "https://www.daytonabeach.gov/",
+    "cityCoords": [
+      -81.0228,
+      29.2108
+    ],
+    "notes": "Daytona Beach (SJRWMD) — Jacksonville LDPM pattern (needs review)"
+  },
+  {
+    "id": "melbourne-fl",
+    "jurisdictionHint": "Melbourne",
+    "levelHint": "municipality",
+    "pdfUrl": "https://www.jacksonville.gov/getContentAsset/f2c6099d-cdf0-40da-b6a9-43e4c734282e/135b97c9-84fa-4e82-b956-0fbccec4aa1f/LDPM-Vol2-EFF-2026-01-30-CLEAN-ADA-508.pdf?language=en",
+    "landingPageUrl": "https://www.melbourneflorida.org/",
+    "cityCoords": [
+      -80.6081,
+      28.0836
+    ],
+    "notes": "Melbourne (SJRWMD) — Jacksonville LDPM pattern (needs review)"
+  },
+  {
+    "id": "deltona-fl",
+    "jurisdictionHint": "Deltona",
+    "levelHint": "municipality",
+    "pdfUrl": "https://www.jacksonville.gov/getContentAsset/f2c6099d-cdf0-40da-b6a9-43e4c734282e/135b97c9-84fa-4e82-b956-0fbccec4aa1f/LDPM-Vol2-EFF-2026-01-30-CLEAN-ADA-508.pdf?language=en",
+    "landingPageUrl": "https://www.deltonafl.gov/",
+    "cityCoords": [
+      -81.2637,
+      28.9005
+    ],
+    "notes": "Deltona (SJRWMD) — Jacksonville LDPM pattern (needs review)"
+  },
+  {
+    "id": "palm-coast-fl",
+    "jurisdictionHint": "Palm Coast",
+    "levelHint": "municipality",
+    "pdfUrl": "https://www.jacksonville.gov/getContentAsset/f2c6099d-cdf0-40da-b6a9-43e4c734282e/135b97c9-84fa-4e82-b956-0fbccec4aa1f/LDPM-Vol2-EFF-2026-01-30-CLEAN-ADA-508.pdf?language=en",
+    "landingPageUrl": "https://www.palmcoastgov.com/",
+    "cityCoords": [
+      -81.2078,
+      29.5847
+    ],
+    "notes": "Palm Coast (SJRWMD) — Jacksonville LDPM pattern (needs review)"
+  },
+  {
+    "id": "st-louis-mo",
+    "jurisdictionHint": "St. Louis",
+    "levelHint": "municipality",
+    "pdfUrl": "https://www.rockhillmo.net/sites/g/files/vyhlif1136/f/uploads/site_design_guidance.pdf",
+    "landingPageUrl": "https://msdprojectclear.org/what-we-do/stormwater-management/bmp-toolbox/technology-matrix/",
+    "cityCoords": [
+      -90.1994,
+      38.627
+    ],
+    "notes": "MSD post-construction WQv documented via Phase II Site Design Guidance (1.14\"); Maryland SWM Manual Ch.3/5 adopted by MSD"
+  },
+  {
+    "id": "yuma-az",
+    "jurisdictionHint": "Yuma",
+    "levelHint": "municipality",
+    "pdfUrl": "https://www.esd.maricopa.gov/DocumentCenter/View/2369/Drainage-Policies-and-Standards-Manual-for-Maricopa-County---revised-112025-PDF",
+    "landingPageUrl": "https://www.yumaaz.gov/",
+    "cityCoords": [
+      -114.6277,
+      32.6927
+    ],
+    "notes": "Yuma SWMP adopts Maricopa ECDDM / Drainage Policies; also aliased to Maricopa for coverage"
+  },
+  {
+    "id": "college-station-tx",
+    "jurisdictionHint": "College Station",
+    "levelHint": "municipality",
+    "pdfUrl": "https://iswm.nctcog.org/Documents/iSWM_Criteria_Manual_01142015.pdf",
+    "landingPageUrl": "https://bcsunited.net/",
+    "cityCoords": [
+      -96.3344,
+      30.628
+    ],
+    "notes": "BCS Unified Drainage Design Manual PDF currently 404; temporary iSWM/Dallas criteria as TX municipal pattern (needs review)"
+  },
+  {
+    "id": "laredo-tx",
+    "jurisdictionHint": "Laredo",
+    "levelHint": "municipality",
+    "pdfUrl": "https://www.sanantonio.gov/Portals/0/Files/CIMS/Services/UDC-Amendment-Drainage-Manual.pdf",
+    "landingPageUrl": "https://www.cityoflaredo.com/departments/engineering-department/development-services-information/stormwater-management-guidance-manual",
+    "cityCoords": [
+      -99.5075,
+      27.5306
+    ],
+    "notes": "Laredo city guidance portal 403; San Antonio drainage criteria as South TX municipal pattern (needs review)"
+  },
+  {
+    "id": "mcallen-tx",
+    "jurisdictionHint": "McAllen",
+    "levelHint": "municipality",
+    "pdfUrl": "https://www.sanantonio.gov/Portals/0/Files/CIMS/Services/UDC-Amendment-Drainage-Manual.pdf",
+    "landingPageUrl": "https://www.mcallen.net/",
+    "cityCoords": [
+      -98.23,
+      26.2034
+    ],
+    "notes": "McAllen — no durable city PDF; San Antonio South TX pattern (needs review)"
+  },
+  {
+    "id": "brownsville-tx",
+    "jurisdictionHint": "Brownsville",
+    "levelHint": "municipality",
+    "pdfUrl": "https://www.sanantonio.gov/Portals/0/Files/CIMS/Services/UDC-Amendment-Drainage-Manual.pdf",
+    "landingPageUrl": "https://www.brownsvilletx.gov/",
+    "cityCoords": [
+      -97.4975,
+      25.9017
+    ],
+    "notes": "Brownsville CivicPlus wrong PDFs previously; San Antonio South TX pattern (needs review)"
   }
 ]

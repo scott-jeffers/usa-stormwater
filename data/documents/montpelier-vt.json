@@ -1,0 +1,61 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "City of Montpelier",
+    "jurisdiction_level": "municipality",
+    "state_code": "VT",
+    "document_title": "Vermont Stormwater Management Manual Volume I (capital MS4)",
+    "version_or_edition": "DRAFT March 1, 2016",
+    "adoption_or_effective_date": null,
+    "last_revised_date": "2016-03-01",
+    "relationship_to_state_manual": "adopts_state_manual_directly"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [
+      1,
+      10,
+      100
+    ],
+    "water_quality_volume_method": "WQv = (P)(Rv)(A) / 12, where P = 1.0 inch, Rv = 0.05 + 0.009(I), I = percent impervious, A = site area in acres.",
+    "peak_flow_calculation_method": [
+      "NRCS Runoff methods",
+      "Watershed Lag Method",
+      "TR-55",
+      "TR-20"
+    ],
+    "required_hydrologic_hydraulic_software": [
+      "TR-55",
+      "TR-20",
+      "HECRAS"
+    ],
+    "approved_bmp_categories": [
+      "Pre-Treatment Practices",
+      "Non-Structural Practices",
+      "Structural Stormwater Treatment Practices",
+      "Alternative Stormwater Treatment Practices"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "City of Montpelier capital MS4 follows Vermont Stormwater Management Manual",
+      "page_or_section": "Coverage note"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "WQv = (P)(Rv)(A) / 12, where P = 1.0 inch",
+      "page_or_section": "VSMM Vol I"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "medium",
+    "needs_human_review": true,
+    "review_notes": "Municipality coverage via Vermont Stormwater Management Manual draft/state standards.",
+    "fields_not_found": []
+  },
+  "source": {
+    "document_url": "http://legislature.vermont.gov/Documents/2016/WorkGroups/House%20Fish%20and%20Wildlife/Stormwater%20Manual%20Revisions/W~Kevin%20Burke~Draft%20Stormwater%20Manual%20Revisions%20DEC~3-22-2016.pdf",
+    "landing_page_url": "https://dec.vermont.gov/watershed/stormwater",
+    "retrieved_at": "2026-08-10T10:10:49.504Z",
+    "original_filename": "montpelier-vt.pdf"
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "Idaho",
+    "jurisdiction_level": "state",
+    "state_code": "ID",
+    "document_title": "Idaho Catalog of Storm Water Best Management Practices",
+    "version_or_edition": "April 2020",
+    "adoption_or_effective_date": "2020-04",
+    "last_revised_date": "2020-04",
+    "relationship_to_state_manual": "independent"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [1, 2, 10, 100],
+    "water_quality_volume_method": "Defer to local flood/WQ design standards when available; otherwise Table 5 guidance: capture first 1/2 inch of runoff (~70–80% of annual runoff volume) or first 1 inch (~90%) as water quality volume / first-flush treatment depth; alternatively require a specified pollutant-removal percentage (e.g., 80% suspended solids). WQv may also be tied to a design storm frequency (6-month, 1-year, or 2-year).",
+    "peak_flow_calculation_method": [
+      "Rational Method",
+      "NRCS TR-55",
+      "Continuous simulation (HSPF, HEC-HMS, SWMM)",
+      "Degree-day method (snowmelt)",
+      "HEC-HMS energy balance (rain-on-snow)"
+    ],
+    "required_hydrologic_hydraulic_software": [],
+    "approved_bmp_categories": [
+      "Site Design BMPs",
+      "Construction BMPs",
+      "Postconstruction BMPs",
+      "Storm Water Filters (biofiltration/bioinfiltration swales, filter strips, media filters, catch-basin inserts)",
+      "Infiltration Facilities (trenches, bioretention, porous pavement, vegetated roofs, planters)",
+      "Detention Facilities (wet ponds, extended detention, constructed wetlands, sedimentation basins, underground detention)",
+      "Other Structural Controls (oil/water separators, vortex separators, level spreaders)",
+      "Source Controls",
+      "Green Infrastructure / Low-Impact Development",
+      "Rainwater Harvesting and Reuse"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "State of Idaho Department of Environmental Quality",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.jurisdiction_level",
+      "excerpt": "The Idaho Catalog of Storm Water Best Management Practices provides technical guidance for construction site design and selecting storm water best management practices (BMPs) as well as information on permitting requirements for storm water discharges in Idaho.",
+      "page_or_section": "Section 1 Introduction, Page 1"
+    },
+    {
+      "field": "document_metadata.state_code",
+      "excerpt": "Idaho Department of Environmental Quality Water Quality Division 1410 N. Hilton Boise, ID 83706",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "Idaho Catalog of Storm Water Best Management Practices",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.version_or_edition",
+      "excerpt": "April 2020",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.adoption_or_effective_date",
+      "excerpt": "This 2020 BMP catalog provides updated information on storm water regulations and provides additional technical information on selected BMPs.",
+      "page_or_section": "Section 1.2 Catalog Updates, Page 2"
+    },
+    {
+      "field": "document_metadata.last_revised_date",
+      "excerpt": "April 2020",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.relationship_to_state_manual",
+      "excerpt": "This catalog contains voluntary controls that could be formally adopted by a jurisdiction to establish standards... it is not all-inclusive and should be used with other reference sources published by other agencies as appropriate based on local conditions and policies.",
+      "page_or_section": "Section 1 Introduction / 1.1 Goals and Objectives, Pages 1–2"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "While the most frequently used design for flood control and channel protection are the 2-, 10-, and 100-year storms... Table 5. Design storm frequencies... 1 year... 2 year... 10 year... 100 year Used for flood control protection from major storms",
+      "page_or_section": "Table 5 and Section 3.6.1, Pages 52–53"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "Use local design standards for flood control and water quality control. If local design standards are not available, Table 5 provides a summary... 1/2 to <1-inch rainfall Intended to capture 70%–80% of annual runoff volume... 1-inch rainfall Intended to capture 90% of annual runoff volume... jurisdictions specify a treatment volume, referred to as the water quality volume... first 1/2-inch, 1-inch, or other rainfall depth... or... 6-month, 1-year, or 2-year frequency storm... must have 80% of suspended solids removed",
+      "page_or_section": "Sections 3.6 / 3.6.2 and Table 5, Pages 52–53"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "The rational method and NRCS Technical Release-55 (TR-55) method are simple and widely used for performing single event design storm analysis... continuous simulation models... HSPF... HEC-HMS, and... SWMM... For rain-on-snow events, an energy balance approach using a computer model such as HEC-HMS is recommended... degree-day method",
+      "page_or_section": "Sections 3.6.3–3.6.3.2, Pages 53–59"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "3.5.1 Site Design BMPs... 3.5.2 Construction BMPs... 3.5.3 Postconstruction BMPs... Storm Water Filters... Infiltration Facilities... Detention Facilities... Other Structural Controls... Source control BMP",
+      "page_or_section": "Sections 3.5.1–3.5.3, Pages 19–28"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "medium",
+    "needs_human_review": true,
+    "review_notes": "April 2020 Idaho DEQ BMP catalog is voluntary statewide guidance that defers to local design standards; Table 5 and §3.6 supply default design-storm/WQv/hydrology methods when local standards are absent. Source text includes an explicit truncation marker ([... DOCUMENT TEXT TRUNCATED FOR LENGTH — middle sections omitted ...]) so many middle BMP fact sheets (roughly after rainwater harvesting design detail through later operational BMPs) were not available for review; TOC and early chapters plus §3.6 remain intact.",
+    "fields_not_found": [
+      "design_criteria.required_hydrologic_hydraulic_software"
+    ]
+  },
+  "source": {
+    "document_url": "https://www.aqualisco.com/wp-content/uploads/2019/08/Catalog-of-Stormwater-Best-Management-Practices.pdf",
+    "landing_page_url": "https://www.deq.idaho.gov/water-quality/wastewater/stormwater/",
+    "retrieved_at": "2026-08-10T07:09:00.000Z",
+    "original_filename": "idaho-bmp-catalog.pdf"
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "City of New Haven",
+    "jurisdiction_level": "municipality",
+    "state_code": "CT",
+    "document_title": "Connecticut Stormwater Quality Manual (city follows CT DEEP 2024 Manual)",
+    "version_or_edition": "2024 Edition",
+    "adoption_or_effective_date": "2024-03-30",
+    "last_revised_date": "2024-03-26",
+    "relationship_to_state_manual": "adopts_state_manual_directly"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [
+      2,
+      10,
+      100
+    ],
+    "water_quality_volume_method": "WQV = (P)(R)(A)/12 where P = 1.3 inches (90th percentile rainfall event), R = volumetric runoff coefficient = 0.05 + 0.009(I).",
+    "peak_flow_calculation_method": [
+      "NRCS Curve Number method",
+      "Graphical Peak Discharge Method",
+      "TR-20",
+      "Rational Formula"
+    ],
+    "required_hydrologic_hydraulic_software": [
+      "WinTR-55",
+      "HydroCAD",
+      "TR-20"
+    ],
+    "approved_bmp_categories": [
+      "Pretreatment BMPs",
+      "Infiltration BMPs",
+      "Filtering BMPs",
+      "Stormwater Pond BMPs",
+      "Stormwater Wetland BMPs",
+      "Water Quality Conveyance BMPs",
+      "Stormwater Reuse BMPs",
+      "Proprietary BMPs"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "City of New Haven follows CT Stormwater Quality Manual 2024",
+      "page_or_section": "Coverage note"
+    },
+    {
+      "field": "document_metadata.relationship_to_state_manual",
+      "excerpt": "adopts_state_manual_directly — CT DEEP 2024 Manual",
+      "page_or_section": "Coverage note"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "WQV = (P)(R)(A)/12 where P = 1.3 inches (90th percentile)",
+      "page_or_section": "CT Manual"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "medium",
+    "needs_human_review": true,
+    "review_notes": "Municipality coverage via CT Stormwater Quality Manual 2024 (same pattern as other CT cities without local manuals).",
+    "fields_not_found": []
+  },
+  "source": {
+    "document_url": "https://portal.ct.gov/-/media/deep/water/water_quality_management/guidance/swm_mar_2024.pdf",
+    "landing_page_url": "https://portal.ct.gov/DEEP/Water-Regulating-and-Discharges/Stormwater/Stormwater-Manual",
+    "retrieved_at": "2026-08-10T09:45:18.924Z",
+    "original_filename": "new-haven-ct.pdf"
+  }
+}

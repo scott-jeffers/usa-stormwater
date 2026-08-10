@@ -1,0 +1,165 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "Northwest Arkansas (NWA MS4s)",
+    "jurisdiction_level": "other",
+    "state_code": "AR",
+    "document_title": "Stormwater Pollution Prevention, Grading, and Erosion Control Best Management Practices Manual (NWA 2016 Stormwater BMP Manual)",
+    "version_or_edition": "Revised December 2016 / NWA 2016",
+    "adoption_or_effective_date": "2016-12",
+    "last_revised_date": null,
+    "relationship_to_state_manual": "independent"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [
+      2,
+      10,
+      25,
+      100
+    ],
+    "water_quality_volume_method": "No explicit post-construction Water Quality Volume (WQv) formula. Construction sediment traps sized by settling-velocity surface area: SA = FS(Q2/VS) with FS=2 and VS=0.00096 fps for 0.02 mm medium silt (SA ≈ 2080 sf per cfs of 2-year developed peak inflow; use 10-year peak when higher protection is warranted). Chemical treatment storage recommended at 1.5× the runoff volume of the 10-year, 24-hour storm. Retention/detention ponds sized to the host municipality’s design storm (or infiltration capacity in karst). LID Appendix B addresses rain gardens, bioretention, infiltration, and green rooftops qualitatively without a regional WQv equation.",
+    "peak_flow_calculation_method": [
+      "Rational Method",
+      "Hydrologic analysis (developed 2-year, 10-year, and 100-year peak discharges)",
+      "Pre-developed condition runoff methods for allowable discharge rates"
+    ],
+    "required_hydrologic_hydraulic_software": [],
+    "approved_bmp_categories": [
+      "Preserving Natural Vegetation / Buffer Zones",
+      "Wetland Preservation, Creation, and Re-creation",
+      "Floodway and Floodplain Controls",
+      "Dust Prevention and Control",
+      "Material Delivery, Storage, and Containment",
+      "Concrete Waste Management / Washouts",
+      "Saw-Cutting and Surfacing Pollution Prevention",
+      "Gross Solids and Solid Waste / Sanitary Service",
+      "Stabilized Construction Exit / Rumble Strips and Wheel Wash",
+      "Temporary and Permanent Seeding / Mulching / Sodding / Top-soiling",
+      "Nets and Blankets / PAM for Soil Erosion Protection",
+      "Surface Roughening / Gradient Terrace",
+      "Interceptor Dike and Swale / Grass-Lined and Reinforced Channels",
+      "Vegetated Strip / Diversionary Ditch / Pipe-Slope and Subsurface Drains",
+      "Level Spreader / Wattles / Check Dams / Brush Barrier / Gravel Filter Berm",
+      "Storm Drain Inlet Protection / Outlet Protection / Energy Dissipaters",
+      "Secondary Embedded Reinforced Perimeter Sediment Barrier",
+      "Sediment Trap / Temporary Sediment Pond",
+      "Retention / Detention Pond",
+      "De-watering / Turbidity Removal / Chemical Treatments / Filtration",
+      "Low-Impact Development – Rain Gardens / Bioretention / Grassed Swales",
+      "Low-Impact Development – Infiltration / Sand Filtration",
+      "Low-Impact Development – Green Rooftop / Impervious Area Reduction",
+      "Low-Impact Development – Cisterns and Rain Barrels / Undisturbed Water Body Buffer"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "Prepared by the Stormwater Compliance Group of Northwest Arkansas. This manual was written for the small Municipal Separate Stormwater Sewer Systems (MS4s) in Northwest Arkansas",
+      "page_or_section": "Executive Summary"
+    },
+    {
+      "field": "document_metadata.jurisdiction_level",
+      "excerpt": "serve as a common guidance document for the design and implementation of control measures for construction site runoff control and post-construction runoff controls",
+      "page_or_section": "Executive Summary"
+    },
+    {
+      "field": "document_metadata.state_code",
+      "excerpt": "Stormwater discharges from construction sites must not cause or contribute to violations of Arkansas’s surface water quality standards",
+      "page_or_section": "Introduction"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "STORMWATER POLLUTION PREVENTION, GRADING, AND EROSION CONTROL Best Management Practices Manual ... NWA 2016 Stormwater BMP Manual",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.version_or_edition",
+      "excerpt": "Revised December 2016 ... NWA 2016 Stormwater BMP Manual",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.adoption_or_effective_date",
+      "excerpt": "Revised December 2016",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.relationship_to_state_manual",
+      "excerpt": "ADEQ expects that the selection and implementation of appropriate BMPs outlined in this or equivalent manuals will result in compliance with water quality standards",
+      "page_or_section": "Introduction"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "The terrace should have enough capacity to handle the peak runoff expected from a 2-year, 24-hour design storm without overtopping.",
+      "page_or_section": "BMP 261: Gradient Terrace"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "Design capacity for the peak flow from a 10-year, 24-hour design storm for temporary facilities.",
+      "page_or_section": "BMP 301: Interceptor Dike and Swale"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "Temporary secondary containment facilities shall provide for a spill containment volume able to contain precipitation from a 25 year, 24 hour storm event, plus 10% of the total enclosed container volume",
+      "page_or_section": "BMP 123: Material Containment"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "These outlets must pass the peak runoff expected from the contributing drainage area for a 100-year storm.",
+      "page_or_section": "BMP 402: Temporary Sediment Pond"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "SA = FS(Q2/VS) where Q2 = Design inflow based on the peak discharge from the developed 2-year runoff event ... VS = 0.00096 fps ... SA = 2 x Q2/0.00096 or 2080 square feet per cfs of inflow.",
+      "page_or_section": "BMP 401: Sediment Trap"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "at a minimum the storage pond or other holding area should be sized to hold 1.5 times the runoff volume of the 10-year, 24-hour storm event.",
+      "page_or_section": "BMP 430: Chemical Treatments"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "Retention ponds should be sized to hold the entire design storm of the municipality that they are located in, or in more karstic areas, whatever the ground infiltration rate will support.",
+      "page_or_section": "BMP 410: Retention vs. Detention Ponds"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "If no hydrologic analysis is required, the Rational Method may be used.",
+      "page_or_section": "BMP 401: Sediment Trap"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "The diameter shall be the minimum necessary to pass the pre-developed 10-year peak flow (Q10). ... Emergency Overflow Spillway: Determine the required size and design of the emergency overflow spillway for the developed 100-year peak flow.",
+      "page_or_section": "BMP 402: Temporary Sediment Pond"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "Runoff rates shall be calculated using the methods for the pre-developed condition. If no hydrologic analysis is required for the site, the Rational Method may be used.",
+      "page_or_section": "BMP 430: Chemical Treatments"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Chapter 1: Prevention BMPs ... Chapter 2: Access and Source Control BMPs ... Chapter 3: Conveyance BMPs ... Chapter 4: Treatment BMPs ... Appendix B: Low Impact Development",
+      "page_or_section": "Table of Contents"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Bio-retention and grassed swales are common infiltration techniques. ... Rain gardens are landscaped bio-retention facilities ... Green Rooftop is a layer of vegetation, shrubs, or trees planted on rooftops to absorb stormwater runoff.",
+      "page_or_section": "Appendix B: Low-Impact Development"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "high",
+    "needs_human_review": false,
+    "review_notes": "Regional NWA MS4 construction/post-construction BMP guide (also branded for Little Flock ARR040035). Design storms of 2-, 10-, 25-, and 100-year (24-hour) appear throughout conveyance, containment, and sediment-pond criteria. No regional WQv equation; sediment-trap settling-area method and municipal detention standards are the primary quantitative WQ approaches. Rational Method is the fallback when a full hydrologic analysis is not required. No hydrologic/hydraulic software is mandated.",
+    "fields_not_found": [
+      "document_metadata.last_revised_date",
+      "design_criteria.required_hydrologic_hydraulic_software"
+    ]
+  },
+  "source": {
+    "document_url": "https://cityoflittleflock.com/wp-content/uploads/2024/06/BMP-Manual-1-17-ALL.pdf",
+    "landing_page_url": "https://www.bentonville.ar.gov/422/Stormwater-Management",
+    "retrieved_at": "2026-08-10T07:09:00.000Z",
+    "original_filename": "arkansas-manual.pdf"
+  }
+}

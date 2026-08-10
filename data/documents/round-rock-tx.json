@@ -1,0 +1,72 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "City of Round Rock",
+    "jurisdiction_level": "municipality",
+    "state_code": "TX",
+    "document_title": "Drainage Criteria Manual — Section 8 Stormwater Management",
+    "version_or_edition": "Section 8 (DCM published as separate section PDFs)",
+    "adoption_or_effective_date": null,
+    "last_revised_date": null,
+    "relationship_to_state_manual": "independent"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [
+      2,
+      10,
+      25
+    ],
+    "water_quality_volume_method": "On-site SWM ponds reduce post-development peaks to pre-development for the 2-, 10-, and 25-year storms at each discharge point (small ponds <25 ac drainage; large 25–64 ac; >64 ac treated as regional). Facilities may include detention, retention, extended detention, infiltration, and sedimentation ponds for peak control and water-quality benefits. Full DCM hydrology is in other section PDFs.",
+    "peak_flow_calculation_method": [
+      "On-site SWM pond peak-rate matching (2/10/25-year)",
+      "Detention pond storage determination (§8.4)",
+      "Regional Stormwater Management Program alternative"
+    ],
+    "required_hydrologic_hydraulic_software": [],
+    "approved_bmp_categories": [
+      "Detention ponds",
+      "Retention ponds",
+      "Extended detention",
+      "Infiltration ponds",
+      "Sedimentation ponds",
+      "Regional drainage improvements (RSMP)"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "Drainage Criteria Manual / City of Round Rock",
+      "page_or_section": "Section 8 header"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "SECTION 8– STORMWATER MANAGEMENT",
+      "page_or_section": "Title"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "On-site SWM ponds shall be designed to reduce post-development peak rates of discharge to existing pre-development peak rates of discharge for the 2, 10, and 25 year storm events",
+      "page_or_section": "§8.3.2"
+    },
+    {
+      "field": "document_metadata.relationship_to_state_manual",
+      "excerpt": "independent city Drainage Criteria Manual (sectioned)",
+      "page_or_section": "Coverage note"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "medium",
+    "needs_human_review": true,
+    "review_notes": "Only Section 8 ingested (7 pages); remaining DCM sections (policy, hydrology, storm drains) are separate city PDFs.",
+    "fields_not_found": [
+      "document_metadata.adoption_or_effective_date",
+      "document_metadata.last_revised_date",
+      "design_criteria.required_hydrologic_hydraulic_software"
+    ]
+  },
+  "source": {
+    "document_url": "https://www.roundrocktexas.gov/wp-content/uploads/2014/12/Drainage-Stormwater-Management-08.pdf",
+    "landing_page_url": "https://www.roundrocktexas.gov/",
+    "retrieved_at": "2026-08-10T09:54:53.508Z",
+    "original_filename": "round-rock-tx.pdf"
+  }
+}

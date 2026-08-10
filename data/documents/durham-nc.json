@@ -1,0 +1,95 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "City of Durham",
+    "jurisdiction_level": "municipality",
+    "state_code": "NC",
+    "document_title": "Reference Guide for Development",
+    "version_or_edition": null,
+    "adoption_or_effective_date": null,
+    "last_revised_date": null,
+    "relationship_to_state_manual": "independent"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [
+      100
+    ],
+    "water_quality_volume_method": "Stormwater quality and quantity facility design per Sections 8.x. SCM design standards in Section 8.3 plus City addendum to NC DEQ archived Stormwater BMP/Design Manual. BMPs include bioretention, vegetated water quality swales, sand filters with underground detention.",
+    "peak_flow_calculation_method": [
+      "Drainage criteria Section 8.1 / storm drainage, culverts, open channels, gutter spread",
+      "100-year storm flooding check for habitable structures",
+      "Peak flow calculations for stormwater quantity facilities"
+    ],
+    "required_hydrologic_hydraulic_software": [],
+    "approved_bmp_categories": [
+      "Bioretention",
+      "Vegetated water quality swales",
+      "Underground detention",
+      "Closed sand filter with underground detention",
+      "Silva Cell suspended pavement with bioretention"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "City of Durham Public Works Department",
+      "page_or_section": "Purpose"
+    },
+    {
+      "field": "document_metadata.jurisdiction_level",
+      "excerpt": "City of Durham",
+      "page_or_section": "Purpose"
+    },
+    {
+      "field": "document_metadata.state_code",
+      "excerpt": "North Carolina",
+      "page_or_section": "NC DEQ references"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "Reference Guide for Development",
+      "page_or_section": "Title"
+    },
+    {
+      "field": "document_metadata.relationship_to_state_manual",
+      "excerpt": "NC DEQ Archived Stormwater Design Manual",
+      "page_or_section": "Stormwater review criteria"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "habitable structure will be flooded or have water impounded against it during the 100-year storm event",
+      "page_or_section": "Drainage criteria"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "design of stormwater quality and/or quantity facilities",
+      "page_or_section": "Stormwater Services role"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "Storm Drainage / Culverts / Open Channels",
+      "page_or_section": "Section 8.0"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Bioretention Areas / Vegetated Water Quality Swales",
+      "page_or_section": "SCM list"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "medium",
+    "needs_human_review": true,
+    "review_notes": "Durham RGD; pair with City addendum to NC DEQ BMP manual for full SCM sizing.",
+    "fields_not_found": [
+      "document_metadata.version_or_edition",
+      "document_metadata.adoption_or_effective_date",
+      "document_metadata.last_revised_date",
+      "design_criteria.required_hydrologic_hydraulic_software"
+    ]
+  },
+  "source": {
+    "document_url": "https://www.durhamnc.gov/DocumentCenter/View/3331/Reference-Guide-for-Development-",
+    "landing_page_url": "https://www.durhamnc.gov/895/Stormwater-Development-Review",
+    "retrieved_at": "2026-08-10T08:08:51.648Z",
+    "original_filename": "durham-nc.pdf"
+  }
+}

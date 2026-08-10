@@ -1,0 +1,58 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "City of Helena",
+    "jurisdiction_level": "municipality",
+    "state_code": "MT",
+    "document_title": "Montana Circular DEQ-8 — Subdivision Storm Water Drainage Standards (capital)",
+    "version_or_edition": "2024 Edition",
+    "adoption_or_effective_date": "2024",
+    "last_revised_date": "2024",
+    "relationship_to_state_manual": "adopts_state_manual_directly"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [
+      2,
+      10,
+      100
+    ],
+    "water_quality_volume_method": "Initial Storm Water Facility must infiltrate, evapotranspire, and/or capture for reuse post-development runoff from the first 0.5 inches of rainfall on impervious areas (V = 0.5 × Aimp / 12). BMPs per Montana Post-Construction Storm Water BMP Design Manual may satisfy if they treat/remove 80% TSS.",
+    "peak_flow_calculation_method": [
+      "Rational Method",
+      "Modified Rational Method",
+      "TR-55 / SCS Curve Number Method",
+      "Storage-Indication Routing"
+    ],
+    "required_hydrologic_hydraulic_software": [],
+    "approved_bmp_categories": [
+      "Initial Storm Water Facility",
+      "Retention / Detention / Infiltration Facilities",
+      "Bioretention",
+      "Pre-treatment Facilities",
+      "Conveyance Structures"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "Helena capital MS4 follows Montana DEQ-8 stormwater standards",
+      "page_or_section": "Coverage note"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "first 0.5 inches of rainfall on impervious areas",
+      "page_or_section": "DEQ-8"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "medium",
+    "needs_human_review": true,
+    "review_notes": "DEQ-8 is subdivision stormwater drainage standards — partial design coverage for capital MS4.",
+    "fields_not_found": []
+  },
+  "source": {
+    "document_url": "https://deq.mt.gov/files/Water/Forms/DEQ_8_2024_FINAL_2024_09_20.pdf",
+    "landing_page_url": "https://deq.mt.gov/water",
+    "retrieved_at": "2026-08-10T10:10:49.504Z",
+    "original_filename": "helena-mt.pdf"
+  }
+}

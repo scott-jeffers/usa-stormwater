@@ -1,0 +1,52 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "City of Franklin",
+    "jurisdiction_level": "municipality",
+    "state_code": "TN",
+    "document_title": "Metro Nashville Stormwater Management Manual Volume 4 – BMPs (regional reference)",
+    "version_or_edition": "2021",
+    "adoption_or_effective_date": "2021",
+    "last_revised_date": "2021",
+    "relationship_to_state_manual": "unknown"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [],
+    "water_quality_volume_method": "No durable Franklin city design-manual PDF found (CivicPlus IDs returned newsletters). Using Metro Nashville SWMM Vol 4 as Middle Tennessee urban MS4 BMP reference: 80% TSS reduction of average annual urban pollutant load; small frequent storms typically <1.1 inches drive selection/sizing.",
+    "peak_flow_calculation_method": [],
+    "required_hydrologic_hydraulic_software": [],
+    "approved_bmp_categories": [
+      "Permanent / post-construction treatment practices",
+      "Swales",
+      "Sediment or detention ponds",
+      "Pervious pavers / permeable concrete",
+      "Infiltration BMPs",
+      "Vegetated filters"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "Franklin TN — coverage via Metro Nashville SWMM Vol4 as regional BMP reference (not a Franklin-adopted document)",
+      "page_or_section": "Coverage note"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "80% TSS reduction of an average annual urban pollutant load",
+      "page_or_section": "Nashville SWMM Vol4"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "low",
+    "needs_human_review": true,
+    "review_notes": "Placeholder using Nashville Vol4 — replace when Franklin publishes a local stormwater design standards PDF.",
+    "fields_not_found": [
+      "design_criteria.design_storm_return_periods_years"
+    ]
+  },
+  "source": {
+    "document_url": "https://www.nashville.gov/sites/default/files/2021-08/SWMM-Vol4-01_SECTION_1_0_ALL.pdf",
+    "landing_page_url": "https://www.franklintn.gov/",
+    "retrieved_at": "2026-08-10T10:27:43.524Z",
+    "original_filename": "franklin-tn.pdf"
+  }
+}

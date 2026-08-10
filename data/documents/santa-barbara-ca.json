@@ -1,0 +1,61 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "City of Santa Barbara",
+    "jurisdiction_level": "municipality",
+    "state_code": "CA",
+    "document_title": "Storm Water BMP Technical Guidance Manual",
+    "version_or_edition": "December 2020",
+    "adoption_or_effective_date": null,
+    "last_revised_date": "2020-12",
+    "relationship_to_state_manual": "independent"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [],
+    "water_quality_volume_method": "Tiered SWMP requirements by new/redeveloped impervious area. Tier 4: retain/prevent offsite discharge for storms up to the 95th percentile 24-hour rainfall event (currently 2.4\" for Santa Barbara); retain 1.2\" 24-hour for replaced impervious and 2.4\" for new impervious. Tier 3: peak runoff discharge rate and water quality treatment; volume reduction per Ch.6. Volume reduction that exceeds water quality treatment volume also satisfies treatment if BMPs treat runoff.",
+    "peak_flow_calculation_method": [
+      "Peak runoff discharge rate matching for Tier 3/4",
+      "BMP sizing worksheets (Ch.6)"
+    ],
+    "required_hydrologic_hydraulic_software": [],
+    "approved_bmp_categories": [
+      "Bioretention / planter boxes",
+      "Permeable pavement",
+      "Infiltration basins / trenches",
+      "Rain barrels / cisterns",
+      "Bioswales / vegetated BMPs",
+      "Dry extended detention",
+      "Other Ch.6 Storm Water Runoff BMPs"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "Storm Water BMP Technical Guidance Manual",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "95th percentile 24-hour rainfall event, which is currently 2.4\" for Santa Barbara",
+      "page_or_section": "§1.4 / Tier 4"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "retain the 1.2\", 24-hour rainfall event for all replaced impervious area and the 2.4\", 24-hour rainfall event for all new impervious area",
+      "page_or_section": "§6.2"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "high",
+    "needs_human_review": false,
+    "review_notes": null,
+    "fields_not_found": [
+      "design_criteria.design_storm_return_periods_years"
+    ]
+  },
+  "source": {
+    "document_url": "https://sustainability.santabarbaraca.gov/sites/default/files/documents/Parks%20%26%20Recreation/Creeks/Final%20Guidance%20Manual.pdf",
+    "landing_page_url": "https://santabarbaraca.gov/SWMP",
+    "retrieved_at": "2026-08-10T10:42:30.501Z",
+    "original_filename": "santa-barbara-ca.pdf"
+  }
+}

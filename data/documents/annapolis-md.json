@@ -1,0 +1,61 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "City of Annapolis",
+    "jurisdiction_level": "municipality",
+    "state_code": "MD",
+    "document_title": "Maryland Stormwater Design Manual (capital MS4 / ESD to the MEP)",
+    "version_or_edition": "Volume One",
+    "adoption_or_effective_date": null,
+    "last_revised_date": null,
+    "relationship_to_state_manual": "adopts_state_manual_directly"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [
+      1,
+      2,
+      10,
+      100
+    ],
+    "water_quality_volume_method": "WQv = (P)(Rv)(A)/12 with P = 1.0 in Eastern / 0.9 in Western Rainfall Zone; ESD to the MEP per Maryland Stormwater Design Manual (same framework as Baltimore).",
+    "peak_flow_calculation_method": [
+      "TR-55",
+      "TR-20"
+    ],
+    "required_hydrologic_hydraulic_software": [
+      "TR-20",
+      "TR-55"
+    ],
+    "approved_bmp_categories": [
+      "Stormwater Ponds",
+      "Stormwater Wetlands",
+      "Infiltration Practices",
+      "Filtering Systems",
+      "Open Channel Practices",
+      "Non-structural / ESD Practices"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "City of Annapolis capital MS4 follows Maryland Stormwater Design Manual",
+      "page_or_section": "Coverage note"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "WQv is calculated as (P)(Rv)(A)/12, where P is the rainfall depth (1.0 inch ... 0.9 inch ...)",
+      "page_or_section": "MD Design Manual Vol.1"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "medium",
+    "needs_human_review": true,
+    "review_notes": "Municipality coverage via Maryland Stormwater Design Manual (Baltimore pattern).",
+    "fields_not_found": []
+  },
+  "source": {
+    "document_url": "https://mde.maryland.gov/programs/water/StormwaterManagementProgram/Documents/www.mde.state.md.us/assets/document/sedimentstormwater/MD%20SWM%20Volume%201.pdf",
+    "landing_page_url": "https://mde.maryland.gov/programs/water/stormwatermanagementprogram/pages/stormwater_design.aspx",
+    "retrieved_at": "2026-08-10T10:10:49.504Z",
+    "original_filename": "annapolis-md.pdf"
+  }
+}

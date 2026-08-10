@@ -1,0 +1,105 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "City of Tacoma",
+    "jurisdiction_level": "municipality",
+    "state_code": "WA",
+    "document_title": "Stormwater Management Manual",
+    "version_or_edition": "July 2016 Edition",
+    "adoption_or_effective_date": null,
+    "last_revised_date": "2016-07",
+    "relationship_to_state_manual": "independent"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [
+      2,
+      10,
+      25,
+      100
+    ],
+    "water_quality_volume_method": "Minimum Requirement #6: Water Quality Treatment. Onsite stormwater management, flow control, and water quality treatment volumes/facilities per SWMM Minimum Requirements for new development and redevelopment.",
+    "peak_flow_calculation_method": [
+      "Minimum Requirements for New Development and Redevelopment (Chapter 3)",
+      "Flow control and conveyance design (Volume 3)",
+      "Infiltration facilities and detention for flow control"
+    ],
+    "required_hydrologic_hydraulic_software": [],
+    "approved_bmp_categories": [
+      "Onsite stormwater management BMPs",
+      "Water quality treatment facilities",
+      "Flow control / detention facilities",
+      "Infiltration facilities"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "City of Tacoma Environmental Services",
+      "page_or_section": "Title"
+    },
+    {
+      "field": "document_metadata.jurisdiction_level",
+      "excerpt": "City of Tacoma",
+      "page_or_section": "Title"
+    },
+    {
+      "field": "document_metadata.state_code",
+      "excerpt": "Tacoma WA",
+      "page_or_section": "Title"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "Stormwater Management Manual",
+      "page_or_section": "Title"
+    },
+    {
+      "field": "document_metadata.version_or_edition",
+      "excerpt": "July 2016 Edition",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.last_revised_date",
+      "excerpt": "July 2016",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.relationship_to_state_manual",
+      "excerpt": "Surface Water Management Manual",
+      "page_or_section": "Notice"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "Flow Control & Conveyance",
+      "page_or_section": "Volume 3"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "Minimum Requirement #6: Water Quality Treatment",
+      "page_or_section": "Section 3.4.6"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "Minimum Requirements for New Development and Redevelopment",
+      "page_or_section": "Chapter 3"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Infiltration Facilities / Detention",
+      "page_or_section": "Volume 3"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "high",
+    "needs_human_review": false,
+    "review_notes": "Tacoma SWMM July 2016; text truncated but Minimum Requirements structure clear. Newer editions may exist.",
+    "fields_not_found": [
+      "document_metadata.adoption_or_effective_date",
+      "design_criteria.required_hydrologic_hydraulic_software"
+    ]
+  },
+  "source": {
+    "document_url": "https://cms.cityoftacoma.org/enviro/SurfaceWater/2016%20SWMM%20Manual/SWMM%20July%202016%20Masterbook.pdf",
+    "landing_page_url": "https://www.cityoftacoma.org/government/city_departments/environmentalservices/surface_water",
+    "retrieved_at": "2026-08-10T08:08:51.648Z",
+    "original_filename": "tacoma-wa.pdf"
+  }
+}

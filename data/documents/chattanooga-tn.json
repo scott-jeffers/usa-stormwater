@@ -1,0 +1,101 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "City of Chattanooga",
+    "jurisdiction_level": "municipality",
+    "state_code": "TN",
+    "document_title": "Rainwater Management Guide (RMG)",
+    "version_or_edition": "December 1, 2014 edition with Addenda (Addendum 1 11/29/2017; Addendum 2 08/30/2019)",
+    "adoption_or_effective_date": "2014-12-01",
+    "last_revised_date": "2019-11-15",
+    "relationship_to_state_manual": "independent"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [],
+    "water_quality_volume_method": "Stay-On Volume (SOV) runoff reduction: entire City uses 1.0 inch of rainfall for SOV (required for ≥1 acre disturbance; may be based on impervious area). Performance standards also address water quality treatment and peak rate control; LID/green infrastructure preferred. Infeasibility pathways documented in RMG/addenda.",
+    "peak_flow_calculation_method": [
+      "Stay-On Volume (SOV) calculation",
+      "Stormwater management performance standards (Chapter 3)",
+      "BMP Excel Workbook / calculation methodologies (Chapter 7)",
+      "Peak rate control standards"
+    ],
+    "required_hydrologic_hydraulic_software": [],
+    "approved_bmp_categories": [
+      "Runoff reduction / Stay-On Volume practices",
+      "Green infrastructure / LID BMPs",
+      "Manufactured treatment devices (per Addendum 2)",
+      "Structural stormwater control measures"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "City of Chattanooga Rainwater Management Guide",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.jurisdiction_level",
+      "excerpt": "City of Chattanooga",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.state_code",
+      "excerpt": "Tennessee",
+      "page_or_section": "Title"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "Rainwater Management Guide",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.version_or_edition",
+      "excerpt": "Addendum 1 – 11/29/2017 / Addendum 2 – 08/30/2019",
+      "page_or_section": "TOC / Addenda"
+    },
+    {
+      "field": "document_metadata.adoption_or_effective_date",
+      "excerpt": "December 1, 2014 edition",
+      "page_or_section": "Addendum 1"
+    },
+    {
+      "field": "document_metadata.last_revised_date",
+      "excerpt": "Addendum 2, Revision 1 – 11/15/2019",
+      "page_or_section": "TOC"
+    },
+    {
+      "field": "document_metadata.relationship_to_state_manual",
+      "excerpt": "City RMG / NPDES MS4 Permit technical guidance",
+      "page_or_section": "Introduction"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "entire City of Chattanooga will use 1.0\" of rainfall for SOV",
+      "page_or_section": "Addendum 1"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "Stormwater Management Performance Standards",
+      "page_or_section": "Chapter 3"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Stay-On Volume (SOV) measures / stormwater management practices",
+      "page_or_section": "Addendum 1 / Chapter 5"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "high",
+    "needs_human_review": false,
+    "review_notes": "Full RMG binder with addenda; text truncated at ~1M chars.",
+    "fields_not_found": [
+      "design_criteria.design_storm_return_periods_years",
+      "design_criteria.required_hydrologic_hydraulic_software"
+    ]
+  },
+  "source": {
+    "document_url": "https://chattanooga.gov/sites/default/files/2024-06/Chattanooga-RMG-Binder.pdf",
+    "landing_page_url": "https://chattanooga.gov/stay-informed/environmental-initiatives/rainsmart-water-conservation-programs/resource-rain",
+    "retrieved_at": "2026-08-10T08:56:34.266Z",
+    "original_filename": "chattanooga-tn.pdf"
+  }
+}

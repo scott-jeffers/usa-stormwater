@@ -1,0 +1,98 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "City of Bakersfield",
+    "jurisdiction_level": "municipality",
+    "state_code": "CA",
+    "document_title": "Kern County Development Standards — Division Four: Standards for Drainage (metro co-permittee basis)",
+    "version_or_edition": "Division Four",
+    "adoption_or_effective_date": null,
+    "last_revised_date": null,
+    "relationship_to_state_manual": "independent"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [10, 100],
+    "water_quality_volume_method": "Drainage facilities designed for Intermediate Storm Design Discharge (ISDD ≈ 10-year) and Capital Storm Design Discharge (CSDD ≈ 100-year). Retention basins (sumps) and detention basins sized for design ponding depth/volume per Kern County standards; off-site CSDD/ISDD mitigation required for development.",
+    "peak_flow_calculation_method": [
+      "Capital Storm Design Discharge (CSDD / 100-year)",
+      "Intermediate Storm Design Discharge (ISDD / 10-year)",
+      "Kern County hydrology methods (per bulletin/standards)"
+    ],
+    "required_hydrologic_hydraulic_software": [],
+    "approved_bmp_categories": [
+      "Retention basins (sumps)",
+      "Detention / retardation basins",
+      "Closed conduit systems and catch basins",
+      "Culverts, bridges, at-grade crossings",
+      "Constructed channels",
+      "Street drainage"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "City of Bakersfield / Kern County metro drainage standards (Division Four)",
+      "page_or_section": "Coverage note"
+    },
+    {
+      "field": "document_metadata.jurisdiction_level",
+      "excerpt": "municipality — City of Bakersfield",
+      "page_or_section": "Coverage note"
+    },
+    {
+      "field": "document_metadata.state_code",
+      "excerpt": "County of Kern",
+      "page_or_section": "§402 definitions"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "STANDARDS FOR DRAINAGE",
+      "page_or_section": "Division Four header"
+    },
+    {
+      "field": "document_metadata.version_or_edition",
+      "excerpt": "Division Four",
+      "page_or_section": "Header"
+    },
+    {
+      "field": "document_metadata.relationship_to_state_manual",
+      "excerpt": "Kern County Development Standards Division Four",
+      "page_or_section": "Coverage note"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "Capital Storm Design Discharge (CSDD) ... referred to as the 100-year storm; Intermediate Storm Design Discharge (ISDD) ... referred to as the ten-year storm",
+      "page_or_section": "§402-1.04 / §402-1.17"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "RETENTION BASIN: is a terminal storm water facility for the storage of runoff. Commonly referred to as a sump.",
+      "page_or_section": "§402-1.24"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "CSDD and ISDD flows shall be calculated in accordance with the current Kern County",
+      "page_or_section": "§402-3"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Retention Basin Design; Detention Basin Design; Closed Conduit Systems, Catch Basins",
+      "page_or_section": "Division Four chapters"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "medium",
+    "needs_human_review": true,
+    "review_notes": "Kern County Division Four drainage standards used for Bakersfield metro / co-permittee coverage. City of Bakersfield may publish a separate Subdivision/Engineering Design Manual — prefer swapping if a durable city PDF is found.",
+    "fields_not_found": [
+      "document_metadata.adoption_or_effective_date",
+      "document_metadata.last_revised_date",
+      "design_criteria.required_hydrologic_hydraulic_software"
+    ]
+  },
+  "source": {
+    "document_url": "https://www.kernpublicworks.com/home/showpublisheddocument/10468/638385981778770000",
+    "landing_page_url": "https://www.kernpublicworks.com/services/development/services/engineering-resources/development-standards/div-4-drainage",
+    "retrieved_at": "2026-08-10T09:20:00.000Z",
+    "original_filename": "bakersfield-ca.pdf"
+  }
+}

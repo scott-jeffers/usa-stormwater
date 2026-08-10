@@ -1,0 +1,105 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "City of Baltimore",
+    "jurisdiction_level": "municipality",
+    "state_code": "MD",
+    "document_title": "Stormwater Management Minimum Requirements",
+    "version_or_edition": "October 2019",
+    "adoption_or_effective_date": "2019-10",
+    "last_revised_date": "2019-10",
+    "relationship_to_state_manual": "adopts_state_manual_directly"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [1, 10, 100],
+    "water_quality_volume_method": "Qualitative control uses water quality volume and recharge volume per the 2000 Maryland Stormwater Design Manual (Revised), with ESD to the MEP. New development: treat 1.0 inch. Redevelopment: treat 0.5 inch, or remove 50% of impervious area, or a combination. Quasi-redevelopment: redevelopment rules for existing impervious plus new-development rules for added impervious.",
+    "peak_flow_calculation_method": [
+      "Channel protection volume (CPv): 24-hour extended detention of the 1-year, 24-hour storm vs woods in good condition",
+      "Overbank flood protection (Q10): control 10-year peak vs existing conditions",
+      "Extreme flood (Q100): control 100-year peak vs existing conditions (required for inter-jurisdictional watersheds and noted flood hazard areas)"
+    ],
+    "required_hydrologic_hydraulic_software": [],
+    "approved_bmp_categories": [
+      "Environmental Site Design (ESD) practices (per MD Design Manual)",
+      "Structural practices (per MD Design Manual)",
+      "Alternative practices",
+      "Off-site treatment (same 8-digit watershed, within City)",
+      "Fee-in-lieu of treatment (DPW discretion after MEP)"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "Baltimore City DPW October 2019",
+      "page_or_section": "Page 1"
+    },
+    {
+      "field": "document_metadata.jurisdiction_level",
+      "excerpt": "Article 7, Division II of the City Code requires that land disturbance activities must have stormwater management plans approved by the Department of Public Works (DPW).",
+      "page_or_section": "Page 1"
+    },
+    {
+      "field": "document_metadata.state_code",
+      "excerpt": "comply with the 2000 Maryland Stormwater Design Manual (Revised)",
+      "page_or_section": "Page 1"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "Stormwater Management Minimum Requirements",
+      "page_or_section": "Page 1"
+    },
+    {
+      "field": "document_metadata.version_or_edition",
+      "excerpt": "Baltimore City DPW October 2019",
+      "page_or_section": "Page 1"
+    },
+    {
+      "field": "document_metadata.adoption_or_effective_date",
+      "excerpt": "Baltimore City DPW October 2019",
+      "page_or_section": "Page 1"
+    },
+    {
+      "field": "document_metadata.last_revised_date",
+      "excerpt": "Baltimore City DPW October 2019",
+      "page_or_section": "Page 1"
+    },
+    {
+      "field": "document_metadata.relationship_to_state_manual",
+      "excerpt": "The stormwater management plans must also comply with the 2000 Maryland Stormwater Design Manual (Revised)",
+      "page_or_section": "Page 1"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "Channel protection volume (CPV): 24-hour extended detention of a one-year storm... Overbank flood protection volume (Q10): control of the peak flow rate of a 10-year storm... Extreme flood volume (Q100): control of the peak flow rate of a 100-year storm",
+      "page_or_section": "Page 4"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "New development Treatment of 1.0 inch... Redevelopment Treatment of 0.5 inch; or 50% removal of impervious surface area; or Combination of both.",
+      "page_or_section": "Table 1, Page 5"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "CPV and Q10 are required in all areas, except if directly discharging to tidal areas. Q100 is required for inter-jurisdictional watershed and flood hazard areas noted in this document.",
+      "page_or_section": "Table 1, Page 5"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Proposed stormwater management must demonstrate ESD to the MEP... environmental site design (ESD) must be the first approach in stormwater management design, followed by structural practices then alternative practices.",
+      "page_or_section": "Page 4"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "high",
+    "needs_human_review": false,
+    "review_notes": "City supplement only (5 pages). Detailed BMP sizing is deferred to the Maryland Stormwater Design Manual (already ingested as md-state). Threshold: SWM required for sites exceeding 5,000 sq ft disturbance.",
+    "fields_not_found": [
+      "design_criteria.required_hydrologic_hydraulic_software"
+    ]
+  },
+  "source": {
+    "document_url": "https://www.baltimorecity.gov/media/document/swm-min-reqpdf",
+    "landing_page_url": "https://www.baltimorecity.gov/publicworks/water-system-in-the-city/stormwater/stormwater-management-requirements",
+    "retrieved_at": "2026-08-10T07:09:00.000Z",
+    "original_filename": "baltimore-md.pdf"
+  }
+}

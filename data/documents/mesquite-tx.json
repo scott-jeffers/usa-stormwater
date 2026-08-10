@@ -1,0 +1,76 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "City of Mesquite",
+    "jurisdiction_level": "municipality",
+    "state_code": "TX",
+    "document_title": "Engineering Design Manual — Section 3 Drainage Design Requirements",
+    "version_or_edition": "Engineering Design Manual Sections 1–9",
+    "adoption_or_effective_date": null,
+    "last_revised_date": null,
+    "relationship_to_state_manual": "independent"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [
+      25,
+      100
+    ],
+    "water_quality_volume_method": "Table 3-1: enclosed storm drains/inlets, roadside ditches, streets, culverts, channels, and detention/retention sized for 100-year (staged outlet for basins). Pedestrian bridges 25-year. Hydrology: Rational ≤200 ac; unit hydrograph / NCTCOG iSWM Hydrology Technical Manual for larger areas. Detention may be required per §3.9 / downstream assessment.",
+    "peak_flow_calculation_method": [
+      "Rational Method (≤200 acres)",
+      "NCTCOG iSWM Hydrology Technical Manual / unit hydrograph methods",
+      "Detention and retention facility design (§3.9)",
+      "Downstream assessments (§3.10)"
+    ],
+    "required_hydrologic_hydraulic_software": [],
+    "approved_bmp_categories": [
+      "Enclosed storm drain systems",
+      "Open channels",
+      "Detention / retention facilities",
+      "Best Management Practices (maintenance plans required)",
+      "Erosion and sediment controls (§3.11)"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "Engineering Design Manual of the City of Mesquite, Texas",
+      "page_or_section": "§1.1"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "SECTION 3 DRAINAGE DESIGN REQUIREMENTS",
+      "page_or_section": "§3"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "Table 3-1 ... Enclosed Storm Drain Systems and Inlets 100-year ... Detention and Retention Basins 100-year",
+      "page_or_section": "Table 3-1"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "current edition of the NCTCOG Integrated Stormwater Management (iSWM™) Hydrology Technical Manual",
+      "page_or_section": "§3.2"
+    },
+    {
+      "field": "document_metadata.relationship_to_state_manual",
+      "excerpt": "independent city engineering design manual",
+      "page_or_section": "Coverage note"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "medium",
+    "needs_human_review": true,
+    "review_notes": "Full EDM Sections 1–9 PDF; drainage criteria concentrated in §3. Edition date not clear on extract.",
+    "fields_not_found": [
+      "document_metadata.adoption_or_effective_date",
+      "document_metadata.last_revised_date",
+      "design_criteria.required_hydrologic_hydraulic_software"
+    ]
+  },
+  "source": {
+    "document_url": "https://www.cityofmesquite.com/DocumentCenter/View/13132",
+    "landing_page_url": "https://www.cityofmesquite.com/2065/Engineering-Design-Manual",
+    "retrieved_at": "2026-08-10T09:54:53.503Z",
+    "original_filename": "mesquite-tx.pdf"
+  }
+}

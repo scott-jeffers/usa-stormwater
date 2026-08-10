@@ -448,6 +448,54 @@ function SortableHeader({
   );
 }
 
+function PdfIcon({ className }: { className?: string }) {
+  return (
+    <svg
+      className={className}
+      viewBox="0 0 24 24"
+      fill="none"
+      aria-hidden="true"
+    >
+      <path
+        d="M14 2H7a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8l-5-6Z"
+        stroke="currentColor"
+        strokeWidth="1.75"
+        strokeLinejoin="round"
+      />
+      <path
+        d="M14 2v6h6"
+        stroke="currentColor"
+        strokeWidth="1.75"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <path
+        d="M8.5 13h7M8.5 16.5h5"
+        stroke="currentColor"
+        strokeWidth="1.75"
+        strokeLinecap="round"
+      />
+    </svg>
+  );
+}
+
+function PdfSourceLink({ href }: { href: string }) {
+  return (
+    <a
+      href={href}
+      target="_blank"
+      rel="noopener noreferrer"
+      title="Open source PDF"
+      aria-label="Open source PDF"
+      className="inline-flex shrink-0 items-center gap-1 rounded-md border border-slate-200/90 bg-mist/60 px-2 py-1 text-[11px] font-semibold tracking-wide text-slate-500 transition-colors hover:border-water/35 hover:bg-white hover:text-water-link focus:outline-none focus:ring-2 focus:ring-water/20"
+      onClick={(e) => e.stopPropagation()}
+    >
+      <PdfIcon className="h-3.5 w-3.5" />
+      PDF
+    </a>
+  );
+}
+
 function ManualRow({ record }: { record: ManualRecord }) {
   const { document_metadata, extraction_quality, source } = record.data;
   const sourceUrl = source.document_url ?? source.landing_page_url;
@@ -466,18 +514,7 @@ function ManualRow({ record }: { record: ManualRecord }) {
               {document_metadata.document_title}
             </div>
           </div>
-          {sourceUrl && (
-            <a
-              href={sourceUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-              title="Open source document"
-              className="shrink-0 text-xs font-medium text-slate-400 hover:text-water-link"
-              onClick={(e) => e.stopPropagation()}
-            >
-              PDF ↗
-            </a>
-          )}
+          {sourceUrl && <PdfSourceLink href={sourceUrl} />}
         </div>
       </td>
       <td className="px-4 py-3">
@@ -517,17 +554,7 @@ function ManualCard({ record }: { record: ManualRecord }) {
             {document_metadata.document_title}
           </p>
         </div>
-        {sourceUrl && (
-          <a
-            href={sourceUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            title="Open source document"
-            className="shrink-0 text-xs font-medium text-slate-400 hover:text-water-link"
-          >
-            PDF ↗
-          </a>
-        )}
+        {sourceUrl && <PdfSourceLink href={sourceUrl} />}
       </div>
 
       <div className="mt-3 flex flex-wrap gap-1.5">

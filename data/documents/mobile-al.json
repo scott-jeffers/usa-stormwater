@@ -1,0 +1,99 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "City of Mobile",
+    "jurisdiction_level": "municipality",
+    "state_code": "AL",
+    "document_title": "Storm Water Manual Volume 1: Low Impact Development Design",
+    "version_or_edition": "October 2023",
+    "adoption_or_effective_date": "2023-10-01",
+    "last_revised_date": "2023-10-01",
+    "relationship_to_state_manual": "independent"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [],
+    "water_quality_volume_method": "Optional LID water-quality practices (LID-WQPs) guidance for Mobile land development — nonstructural and structural LID practices to manage runoff volume and water quality (infiltration, vegetation, soils). Complements ADEM/Blue Book construction BMPs; Volume 2 BMP Design forthcoming.",
+    "peak_flow_calculation_method": [
+      "LID site planning and design process",
+      "Nonstructural and structural LID-WQPs"
+    ],
+    "required_hydrologic_hydraulic_software": [],
+    "approved_bmp_categories": [
+      "Nonstructural LID water-quality practices",
+      "Structural LID water-quality practices",
+      "Bioretention / vegetation-soil based practices",
+      "Infiltration-oriented LID"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "City of Mobile",
+      "page_or_section": "Cover / Map for Mobile"
+    },
+    {
+      "field": "document_metadata.jurisdiction_level",
+      "excerpt": "City of Mobile",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.state_code",
+      "excerpt": "Alabama",
+      "page_or_section": "Coverage"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "Volume 1: Low Impact Development Design",
+      "page_or_section": "TOC"
+    },
+    {
+      "field": "document_metadata.version_or_edition",
+      "excerpt": "October 2023",
+      "page_or_section": "Launch notice"
+    },
+    {
+      "field": "document_metadata.adoption_or_effective_date",
+      "excerpt": "October 2023",
+      "page_or_section": "Launch notice"
+    },
+    {
+      "field": "document_metadata.last_revised_date",
+      "excerpt": "October 2023",
+      "page_or_section": "Launch notice"
+    },
+    {
+      "field": "document_metadata.relationship_to_state_manual",
+      "excerpt": "City of Mobile’s Storm Water Manual Volume 1 LID Design",
+      "page_or_section": "About"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "What Are Water Quality Practices?; Advantages and Benefits of Stormwater LID-WQPs",
+      "page_or_section": "Ch. 1–2"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "Land Development Planning and Design Process",
+      "page_or_section": "Ch. 3"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "NONSTRUCTURAL LID-WQPS; LID Explained",
+      "page_or_section": "TOC"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "medium",
+    "needs_human_review": true,
+    "review_notes": "LID Volume 1 is optional guidance; full BMP design volume not yet published. Medium confidence for MS4 design criteria coverage.",
+    "fields_not_found": [
+      "design_criteria.design_storm_return_periods_years",
+      "design_criteria.required_hydrologic_hydraulic_software"
+    ]
+  },
+  "source": {
+    "document_url": "https://mapformobile.org/wp/wp-content/uploads/2023/10/City-of-Mobile-LID-Design-Manual.pdf",
+    "landing_page_url": "https://mapformobile.org/swm/",
+    "retrieved_at": "2026-08-10T09:29:55.327Z",
+    "original_filename": "mobile-al.pdf"
+  }
+}

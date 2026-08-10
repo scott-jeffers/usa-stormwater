@@ -1,0 +1,69 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "City of Killeen",
+    "jurisdiction_level": "municipality",
+    "state_code": "TX",
+    "document_title": "Drainage Design Manual",
+    "version_or_edition": "November 8, 2011 (with later chapter amendments)",
+    "adoption_or_effective_date": "2011-11-08",
+    "last_revised_date": null,
+    "relationship_to_state_manual": "independent"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [
+      25,
+      100
+    ],
+    "water_quality_volume_method": "Streets/curbs/inlets/storm sewers designed for 25-year; convey >25-year through 100-year in ROW/easements. Detention: pre-developed 25-year peaks shall not be increased; 100-year passed via emergency spillway without overtopping. Rational / Variable Rainfall Intensity ≤200 ac; SCS for larger.",
+    "peak_flow_calculation_method": [
+      "Rational Method",
+      "Variable Rainfall Intensity Method (≤200 acres)",
+      "SCS / HEC-HMS methods (larger areas)",
+      "NRCS hydrograph routing for detention ponds"
+    ],
+    "required_hydrologic_hydraulic_software": [],
+    "approved_bmp_categories": [
+      "Stormwater detention ponds",
+      "Retention / water quality controls",
+      "Storm sewers and inlets",
+      "Drainage channels"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "CITY OF KILLEEN DRAINAGE DESIGN MANUAL",
+      "page_or_section": "Title"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "Stormwater runoff peak flow rates for the 25- and 100-year frequency storms ... intercept, contain, and transport all runoff from the 25-year frequency storm",
+      "page_or_section": "§1.2 Drainage Policy"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "Pre-developed peak flows generated from the 25-year frequency storm shall not be increased ... 100-year storm event shall be passed from the detention facility through an emergency spillway",
+      "page_or_section": "§1.2.8 Stormwater Detention"
+    },
+    {
+      "field": "document_metadata.relationship_to_state_manual",
+      "excerpt": "independent city drainage design manual",
+      "page_or_section": "Coverage note"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "medium",
+    "needs_human_review": true,
+    "review_notes": "Body PDF; city also posts chapter amendments (2012/2013) that should be consulted for latest policy wording.",
+    "fields_not_found": [
+      "document_metadata.last_revised_date",
+      "design_criteria.required_hydrologic_hydraulic_software"
+    ]
+  },
+  "source": {
+    "document_url": "https://www.killeentexas.gov/DocumentCenter/View/562",
+    "landing_page_url": "https://killeentexas.gov/303/Mowing-Drainage",
+    "retrieved_at": "2026-08-10T09:54:53.498Z",
+    "original_filename": "killeen-tx.pdf"
+  }
+}

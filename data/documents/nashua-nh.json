@@ -1,0 +1,61 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "City of Nashua",
+    "jurisdiction_level": "municipality",
+    "state_code": "NH",
+    "document_title": "New Hampshire Model Stormwater Standards / NH Stormwater Manual",
+    "version_or_edition": "Draft: May, 2025",
+    "adoption_or_effective_date": null,
+    "last_revised_date": "2025-05",
+    "relationship_to_state_manual": "adopts_state_manual_directly"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [
+      1,
+      2,
+      10,
+      25,
+      50,
+      100
+    ],
+    "water_quality_volume_method": "WQV = (P)(Rv)(A) where P = 1 inch of rainfall, Rv = 0.05 + 0.9(I), A = total site area draining to the structure.",
+    "peak_flow_calculation_method": [
+      "TR-55"
+    ],
+    "required_hydrologic_hydraulic_software": [],
+    "approved_bmp_categories": [
+      "raingardens",
+      "bioretention systems",
+      "tree box filters",
+      "subsurface gravel wetlands",
+      "filtration practices",
+      "infiltration practices",
+      "swales",
+      "detention areas"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "City of Nashua MS4 follows NH Model Stormwater Standards",
+      "page_or_section": "Coverage note"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "WQV = (P)(Rv)(A) where P = 1 inch of rainfall",
+      "page_or_section": "NH Model Stormwater Standards"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "medium",
+    "needs_human_review": true,
+    "review_notes": "Municipality coverage via NH Model Stormwater Standards (Manchester pattern).",
+    "fields_not_found": []
+  },
+  "source": {
+    "document_url": "https://extension.unh.edu/sites/default/files/media/2025-06/stormwater-management-standards.pdf",
+    "landing_page_url": "https://extension.unh.edu/stormwater-center/nh-stormwater-manual",
+    "retrieved_at": "2026-08-10T10:10:49.504Z",
+    "original_filename": "nashua-nh.pdf"
+  }
+}

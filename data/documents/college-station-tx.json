@@ -1,0 +1,64 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "City of College Station",
+    "jurisdiction_level": "municipality",
+    "state_code": "TX",
+    "document_title": "iSWM Criteria Manual for Site Development and Construction",
+    "version_or_edition": "Revised January 2015 (December 2009 base)",
+    "adoption_or_effective_date": "2015-01",
+    "last_revised_date": "2015-01",
+    "relationship_to_state_manual": "adopts_state_manual_directly"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [
+      1,
+      25,
+      100
+    ],
+    "water_quality_volume_method": "Water Quality Protection Volume (WQv) based on 1.5 inches of rainfall (85th percentile storm), not a return-period storm. Option 2: treat WQv by reducing TSS from the development site for runoff from rainfalls up to 1.5 inches. Primary structural controls sized for WQv are expected to remove about 70–80% of annual average TSS load when designed per specifications. Methods to compute WQv referenced to Water Quality Technical Manual Section 1.2.",
+    "peak_flow_calculation_method": [
+      "Rational Method",
+      "SCS Unit Hydrograph Method",
+      "Streambank Protection: control 1-year, 24-hour storm (Streambank Protection Volume / SPV), including 24-hour extended detention option",
+      "Conveyance: 25-year, 24-hour storm",
+      "Flood Mitigation: 100-year, 24-hour storm",
+      "Downstream assessment required for streambank protection, conveyance, and flood mitigation"
+    ],
+    "required_hydrologic_hydraulic_software": [],
+    "approved_bmp_categories": [
+      "Bioretention",
+      "Enhanced swales (dry, wet, wetland)",
+      "Detention",
+      "Filter strips",
+      "Sand filters / filter boxes",
+      "Infiltration wells and trenches",
+      "Ponds",
+      "Porous surfaces",
+      "Green roofs",
+      "Rainwater harvesting",
+      "Wetlands",
+      "Submerged gravel wetlands",
+      "Alum treatment",
+      "Proprietary systems"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "College Station — BCS Drainage Design Manual PDF 404; temporary NCTCOG iSWM / Dallas criteria",
+      "page_or_section": "Coverage note"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "low",
+    "needs_human_review": true,
+    "review_notes": "Replace when bcsunited.net publishes a durable Drainage Design Manual PDF.",
+    "fields_not_found": []
+  },
+  "source": {
+    "document_url": "https://iswm.nctcog.org/Documents/iSWM_Criteria_Manual_01142015.pdf",
+    "landing_page_url": "https://bcsunited.net/",
+    "retrieved_at": "2026-08-10T10:44:44.192Z",
+    "original_filename": "college-station-tx.pdf"
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "City of Cambridge",
+    "jurisdiction_level": "municipality",
+    "state_code": "MA",
+    "document_title": "Massachusetts Stormwater Management Handbook (city follows MassDEP Standards)",
+    "version_or_edition": "Third Edition / 2023 draft handbook mirror",
+    "adoption_or_effective_date": null,
+    "last_revised_date": "2023-12",
+    "relationship_to_state_manual": "adopts_state_manual_directly"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [
+      2,
+      10,
+      100
+    ],
+    "water_quality_volume_method": "Required runoff depth multiplied by total post-construction impervious site area (MassDEP Stormwater Management Standards / Handbook).",
+    "peak_flow_calculation_method": [
+      "NRCS WinTR20",
+      "WinTR55 Small Watershed Hydrology Method"
+    ],
+    "required_hydrologic_hydraulic_software": [
+      "WinTR-20",
+      "WinTR-55"
+    ],
+    "approved_bmp_categories": [
+      "Non-Structural",
+      "Structural Pretreatment",
+      "Structural Treatment",
+      "Structural Conveyance",
+      "Structural Infiltration",
+      "Structural Other"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "City of Cambridge follows MassDEP Stormwater Handbook / Standards",
+      "page_or_section": "Coverage note"
+    },
+    {
+      "field": "document_metadata.relationship_to_state_manual",
+      "excerpt": "adopts_state_manual_directly — MassDEP Handbook",
+      "page_or_section": "Coverage note"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "calculated as the required runoff depth multiplied by the total post-construction impervious site area",
+      "page_or_section": "MassDEP Handbook"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "medium",
+    "needs_human_review": true,
+    "review_notes": "Municipality coverage via MassDEP handbook.",
+    "fields_not_found": [
+      "document_metadata.adoption_or_effective_date"
+    ]
+  },
+  "source": {
+    "document_url": "https://www.ashlandmass.com/DocumentCenter/View/13272/MassDEP-Handbook_DRAFT-6_2023-12-14_withAppendices-2",
+    "landing_page_url": "https://www.mass.gov/guides/massachusetts-stormwater-handbook-and-stormwater-standards",
+    "retrieved_at": "2026-08-10T09:54:53.530Z",
+    "original_filename": "cambridge-ma.pdf"
+  }
+}

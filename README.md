@@ -20,8 +20,9 @@ Open [http://localhost:3000](http://localhost:3000). No API keys required for th
 
 - The published site is a **static export**. Builds on Netlify need **no** environment variables.
 - Keep any local secrets in `.env.local` (gitignored). Never commit `.env` / `.env.local`.
-- Do **not** add `GEMINI_API_KEY` (or any AI key) in Netlify → Site settings → Environment variables.
+- Do **not** add `GEMINI_API_KEY`, `CURSOR_API_KEY`, or any AI key in Netlify → Site settings → Environment variables.
 - Never name a secret `NEXT_PUBLIC_*` — that prefix embeds the value in client JavaScript.
+- For the **automated pipeline** (local only), copy `.env.example` → `.env.local` and set `CURSOR_API_KEY` from [Cursor Dashboard → Integrations](https://cursor.com/dashboard/integrations).
 
 ## Operational flow (Cursor agents)
 
@@ -52,6 +53,55 @@ npm run prepare:queue
 ```
 
 This only downloads PDFs and extracts text. Structured extraction is always done by Cursor agents (resume-safe via `data/queue/progress.json`).
+
+## Automated pipeline (set and forget)
+
+After manuals are in the queue (and ideally many atlas JSON files exist), run the resume-safe automation pipeline. It tracks every stage in `data/pipeline/progress.json` and regenerates `data/pipeline/STATUS.md`.
+
+```bash
+# one-time: put CURSOR_API_KEY in .env.local (see .env.example)
+npm run pipeline:status          # bootstrap + show where you are
+npm run pipeline:run             # prepare → corpus → extract → verify → outline → draft
+npm run pipeline:corpus -- portland-or   # one manual, corpus only (preferred on Windows)
+npx tsx scripts/pipeline/run.ts --stage=corpus --dry-run portland-or
+npx tsx scripts/pipeline/run.ts --force portland-or
+```
+
+On Windows PowerShell, prefer the stage shortcuts (`pipeline:corpus`, etc.) or `npx tsx ... --stage=corpus` — bare `--flags` after `npm run` are often stripped.
+Stage shortcuts: `pipeline:corpus`, `pipeline:extract`, `pipeline:verify`, `pipeline:outline`, `pipeline:draft`.
+
+| Stage | What it does |
+|-------|----------------|
+| prepare | Download PDF to `samples/queue/` |
+| corpus | Per-page text + AI structure/chunks/tags → `data/corpus/{slug}/` (gitignored) |
+| extract | Atlas JSON from chunks → `data/documents/` |
+| verify | Fuzzy-match evidence excerpts against corpus |
+| outline | National outline → `data/national/outline.json` |
+| draft | Section drafts → `data/national/draft/{section_id}.json` |
+
+Crash mid-run? Re-run the same command — completed substeps are skipped. Existing `data/documents/` records are bootstrapped as `extract: done` so curated atlas data is not overwritten unless you pass `--force`.
+
+Model default: `composer-2.5-fast` (`PIPELINE_MODEL`). Delay between AI calls: `PIPELINE_DELAY_MS` (default 2000).
+
+## Finding missing manuals (coverage gaps)
+
+The ingest queue is hand-curated. To find jurisdictions that should have a stormwater manual but are not in the atlas yet (e.g. San Francisco):
+
+```bash
+npm run coverage:report
+# optional: only priority gaps
+npm run coverage:report -- --tier p1
+```
+
+Writes `data/coverage/REPORT.md` and `data/coverage/gaps.json`. Targets are top-100 cities, state capitals, and MS4 permittees under `data/coverage/`. Refresh those lists occasionally with:
+
+```bash
+npm run coverage:fetch-targets
+# optional: merge a local EPA/NMSA CSV export
+npm run coverage:fetch-targets -- --epa-csv=path/to/export.csv
+```
+
+Pick a P1 gap, add a manifest job with PDF + landing page URLs, then run `prepare:queue`.
 
 ## One-time Netlify setup (custom domain)
 
@@ -84,10 +134,16 @@ Do not paste API keys into Netlify env settings for this project.
 app/                    Next.js App Router (dashboard + detail)
 components/             Table, map, badges, evidence panel
 lib/schema.ts           Zod schema — agent output + UI
+lib/pipeline/           Pipeline types + resume progress store
 scripts/prepare.ts      Download + local PDF text extract
+scripts/pipeline/       Automated corpus → extract → outline → draft
 scripts/save.ts         Validate JSON → data/documents/
 data/documents/         Committed JSON "database"
 data/queue/             Manifest, progress, NOTES for the scrub
+data/pipeline/          Automation progress.json + STATUS.md
+data/corpus/            Per-manual pages/chunks (gitignored)
+data/national/          Outline + draft sections
+data/coverage/          Target jurisdictions + gap reports
 samples/                Local PDFs/text (gitignored)
 netlify.toml            Netlify build + publish config
 ```

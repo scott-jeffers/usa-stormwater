@@ -1,0 +1,56 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "City of Portland",
+    "jurisdiction_level": "municipality",
+    "state_code": "ME",
+    "document_title": "Maine Stormwater Management Design Manual, Volume III",
+    "version_or_edition": "May 2016",
+    "adoption_or_effective_date": null,
+    "last_revised_date": "2016-05-01",
+    "relationship_to_state_manual": "adopts_state_manual_directly"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [
+      1,
+      2,
+      10,
+      25
+    ],
+    "water_quality_volume_method": "Treat the first 1 inch of runoff from impervious surfaces and 0.4 inch from landscaped areas.",
+    "peak_flow_calculation_method": [
+      "Rational Method",
+      "SCS TR-20",
+      "SCS TR-55"
+    ],
+    "required_hydrologic_hydraulic_software": [
+      "TR-20",
+      "TR-55"
+    ],
+    "approved_bmp_categories": [
+      "Detention Basins",
+      "Wet Ponds",
+      "Vegetated Buffers",
+      "Infiltration / Filtration BMPs",
+      "LID Practices"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "City of Portland ME MS4 follows Maine Stormwater Design Manual Vol III",
+      "page_or_section": "Coverage note"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "medium",
+    "needs_human_review": true,
+    "review_notes": "Municipality coverage via Maine Vol III (Augusta pattern).",
+    "fields_not_found": []
+  },
+  "source": {
+    "document_url": "https://www.maine.gov/dep/land/stormwater/stormwaterbmps/vol3/volume%20III%20May%202016.pdf",
+    "landing_page_url": "https://www.portlandmaine.gov/",
+    "retrieved_at": "2026-08-10T10:27:43.524Z",
+    "original_filename": "portland-me.pdf"
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "City of Birmingham",
+    "jurisdiction_level": "municipality",
+    "state_code": "AL",
+    "document_title": "Low Impact Development Handbook for the State of Alabama (city uses ADEM LID guidance)",
+    "version_or_edition": "ADEM LID Handbook",
+    "adoption_or_effective_date": null,
+    "last_revised_date": null,
+    "relationship_to_state_manual": "adopts_state_manual_directly"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [],
+    "water_quality_volume_method": "Bioretention and other SCMs sized for the water quality / first-flush volume per ADEM LID Handbook design guidance. Practices include bioretention cells, constructed stormwater wetlands, swales, and related LID SCMs.",
+    "peak_flow_calculation_method": [
+      "ADEM LID Handbook hydrology appendix",
+      "SCM-specific design procedures"
+    ],
+    "required_hydrologic_hydraulic_software": [],
+    "approved_bmp_categories": [
+      "Bioretention (BRC)",
+      "Constructed stormwater wetlands (CSW)",
+      "Swales",
+      "Other LID SCMs per handbook"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "City of Birmingham uses ADEM LID Handbook",
+      "page_or_section": "Coverage note"
+    },
+    {
+      "field": "document_metadata.jurisdiction_level",
+      "excerpt": "municipality — City of Birmingham",
+      "page_or_section": "Coverage note"
+    },
+    {
+      "field": "document_metadata.state_code",
+      "excerpt": "Alabama",
+      "page_or_section": "ADEM"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "Low Impact Development Handbook",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.version_or_edition",
+      "excerpt": "ADEM LID Handbook",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.relationship_to_state_manual",
+      "excerpt": "adopts_state_manual_directly — ADEM LID",
+      "page_or_section": "Coverage note"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "bioretention is normally designed for the water quality or first flush",
+      "page_or_section": "Bioretention chapter"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "Appendix A: Stormwater Hydrology",
+      "page_or_section": "TOC"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Bioretention; Constructed Stormwater Wetlands",
+      "page_or_section": "TOC"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "medium",
+    "needs_human_review": true,
+    "review_notes": "No durable Birmingham city design-manual PDF; coverage via ADEM LID Handbook.",
+    "fields_not_found": [
+      "document_metadata.adoption_or_effective_date",
+      "document_metadata.last_revised_date",
+      "design_criteria.design_storm_return_periods_years",
+      "design_criteria.required_hydrologic_hydraulic_software"
+    ]
+  },
+  "source": {
+    "document_url": "https://adem.alabama.gov/programs/water/waterforms/LIDHandbook.pdf",
+    "landing_page_url": "https://adem.alabama.gov/programs/water/nps/lid.cnt",
+    "retrieved_at": "2026-08-10T09:29:55.327Z",
+    "original_filename": "birmingham-al.pdf"
+  }
+}

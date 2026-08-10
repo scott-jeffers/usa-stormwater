@@ -1,0 +1,110 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "Wayne County",
+    "jurisdiction_level": "county",
+    "state_code": "MI",
+    "document_title": "Wayne County Stormwater Control Program — Standards Manual",
+    "version_or_edition": "Effective September 3, 2021",
+    "adoption_or_effective_date": "2021-09-03",
+    "last_revised_date": "2021-09-03",
+    "relationship_to_state_manual": "independent"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [
+      2,
+      100
+    ],
+    "water_quality_volume_method": "First Flush / WQC: remove ≥80% TSS or limit peak TSS to 80 mg/L for the first 1.0 inch of rainfall. CPVC: infiltrate first 1.0 inch of rainfall where soils/groundwater permit. CPRC: store and release volume from a 1.9-inch storm over ≥48 hours.",
+    "peak_flow_calculation_method": [
+      "100-year flood control: ≤0.15 cfs/acre for drainage areas ≥100 acres",
+      "Variable release rate curve for areas <100 acres (0.15–1.0 cfs/acre)",
+      "Detention / retention systems with flow restrictors"
+    ],
+    "required_hydrologic_hydraulic_software": [],
+    "approved_bmp_categories": [
+      "Open detention basins",
+      "Retention basins",
+      "Underground detention",
+      "Bioretention",
+      "Water quality / infiltration systems",
+      "Pretreatment systems",
+      "Conveyance BMPs"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "Wayne County Stormwater Standards Manual",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.jurisdiction_level",
+      "excerpt": "Wayne County",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.state_code",
+      "excerpt": "Michigan",
+      "page_or_section": "Coverage"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "Wayne County Stormwater Standards Manual",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.version_or_edition",
+      "excerpt": "September 2021",
+      "page_or_section": "Footer"
+    },
+    {
+      "field": "document_metadata.adoption_or_effective_date",
+      "excerpt": "effective September 3, 2021",
+      "page_or_section": "Landing / cover program"
+    },
+    {
+      "field": "document_metadata.last_revised_date",
+      "excerpt": "September 2021",
+      "page_or_section": "Footer"
+    },
+    {
+      "field": "document_metadata.relationship_to_state_manual",
+      "excerpt": "Wayne County Stormwater Ordinance, Administrative Rules, and Standards Manual",
+      "page_or_section": "Introduction"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "100-year recurrence interval storm; 2-year recurrence interval storm",
+      "page_or_section": "Chapter 5"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "remove 80 percent or more of the total suspended solids (TSS) load ... first one (1) inch of rainfall",
+      "page_or_section": "§5.2"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "peak flow rate ... must not exceed 0.15 cfs/acre for a 100-year recurrence interval storm",
+      "page_or_section": "§5.1"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Detention Basins; Underground Detention; Bioretention; Water Quality/Infiltration Systems",
+      "page_or_section": "Chapter 8 TOC"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "high",
+    "needs_human_review": false,
+    "review_notes": null,
+    "fields_not_found": [
+      "design_criteria.required_hydrologic_hydraulic_software"
+    ]
+  },
+  "source": {
+    "document_url": "https://www.waynecountymi.gov/files/assets/mainsite/v/1/environmental-services/documents/land-resource-management/wqm-wcsw-mgmt-plan-9-3-2021.pdf",
+    "landing_page_url": "https://www.waynecountymi.gov/Government/Departments/Environmental-Services/Water-Quality-Management/Storm-Water-Management/Standards-Manual",
+    "retrieved_at": "2026-08-10T09:24:56.027Z",
+    "original_filename": "wayne-county-mi.pdf"
+  }
+}

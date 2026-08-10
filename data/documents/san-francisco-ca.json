@@ -1,0 +1,145 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "City of San Francisco",
+    "jurisdiction_level": "municipality",
+    "state_code": "CA",
+    "document_title": "San Francisco Stormwater Management Requirements and Design Guidelines",
+    "version_or_edition": "May 2016",
+    "adoption_or_effective_date": "2016-05-27",
+    "last_revised_date": "2016-05",
+    "relationship_to_state_manual": "independent"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [1, 2],
+    "water_quality_volume_method": "Combined sewer (Case 1, ≤50% existing impervious): maintain runoff rate and volume at or below pre-development for the 1- and 2-year, 24-hour storms. Combined sewer (Case 2, >50% impervious): reduce runoff rate and volume by 25% relative to pre-development for the 2-year, 24-hour storm (Modified Compliance may trade volume vs peak reductions). Separate sewer Large Projects (≥5,000 sf): SFPUC jurisdiction manage the 90th percentile 24-hour storm; Port jurisdiction manage the 85th percentile 24-hour storm. Separate sewer Small Projects (2,500–5,000 sf): implement at least one Site Design Measure and report runoff reduction via State Water Board SMARTS calculator.",
+    "peak_flow_calculation_method": [
+      "SFPUC electronic BMP Sizing Calculators (sites ≤5 acres or sub-watersheds ≤2 acres)",
+      "Santa Barbara Urban Hydrograph Method (basis of Combined Sewer Area BMP Sizing Calculator)",
+      "Hydrologic modeling required for larger/more complex projects"
+    ],
+    "required_hydrologic_hydraulic_software": [
+      "SFPUC BMP Sizing Calculators (combined and separate sewer spreadsheets)",
+      "State Water Board SMARTS calculator (separate sewer Small Projects)"
+    ],
+    "approved_bmp_categories": [
+      "Rainwater harvesting",
+      "Permeable pavement",
+      "Vegetated roof",
+      "Unlined bioretention / rain garden",
+      "Bioretention swales",
+      "Subsurface infiltration system / infiltration trench",
+      "Infiltration basin",
+      "Constructed wetland",
+      "Lined bioretention / flow-through planter",
+      "Detention tank",
+      "Detention pond",
+      "Wet pond",
+      "High-rate filtration (tree-box filters, media filters; separate sewer Large Projects, approval required)",
+      "Pretreatment: conveyance swales, vegetated buffer strips, swirl separators, drain inserts, water quality inlets (treatment train only)"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "City of San Francisco / San Francisco Public Utilities Commission / Port of San Francisco",
+      "page_or_section": "Acknowledgements / Title"
+    },
+    {
+      "field": "document_metadata.jurisdiction_level",
+      "excerpt": "Approximately 90 percent of San Francisco is served by a combined sewer system, with the remaining 10 percent served by separate storm sewer systems",
+      "page_or_section": "Chapter 3 / San Francisco's Stormwater Infrastructure"
+    },
+    {
+      "field": "document_metadata.state_code",
+      "excerpt": "staff from the counties of Contra Costa and Santa Clara, California",
+      "page_or_section": "Acknowledgements"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "stormwater management requirements and design guidelines",
+      "page_or_section": "Title pages"
+    },
+    {
+      "field": "document_metadata.version_or_edition",
+      "excerpt": "May 2016 Version - Updates and errata will be published as necessary",
+      "page_or_section": "Title page"
+    },
+    {
+      "field": "document_metadata.adoption_or_effective_date",
+      "excerpt": "The 2016 SMR performance requirements apply to projects with Preliminary SCPs submitted on or after May 27, 2016.",
+      "page_or_section": "Chapter 5 / Applicability Dates"
+    },
+    {
+      "field": "document_metadata.last_revised_date",
+      "excerpt": "May 2016 Version",
+      "page_or_section": "Title page"
+    },
+    {
+      "field": "document_metadata.relationship_to_state_manual",
+      "excerpt": "This document is an update of the 2010 San Francisco Stormwater Design Guidelines (Guidelines).",
+      "page_or_section": "Executive Summary / Introduction"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "Case 1: Projects with existing imperviousness of less than or equal to 50 percent must maintain a stormwater runoff rate and volume at or below pre-development conditions for the 1- and 2-year, 24-hour design storms.",
+      "page_or_section": "Chapter 5 / Combined Sewer Area Performance Requirements"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "Case 2: Projects with existing imperviousness of greater than 50 percent must reduce the stormwater runoff rate and volume by 25 percent relative to pre-development conditions for the 2-year, 24-hour design storm.",
+      "page_or_section": "Chapter 5 / Combined Sewer Area Performance Requirements"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "Projects within SFPUC jurisdiction must manage the 90th percentile, 24-hour storm / Projects within the Port's jurisdiction must manage the 85th percentile, 24-hour storm",
+      "page_or_section": "Chapter 6 / Table 3 Separate Sewer Area Performance Requirements"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "must reduce the stormwater runoff rate and volume by 25 percent relative to pre-development conditions for the 2-year, 24-hour design storm.",
+      "page_or_section": "Chapter 5 Case 2"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "Projects that are five acres or less, or with sub-watershed areas that are two acres or less, can use the SFPUC's electronic BMP Sizing Calculators to size BMPs. Larger, more complex development projects can use the BMP Sizing Calculators as planning tools, but must use modelling to prove compliance with the SMR.",
+      "page_or_section": "Chapter 4 Task 3B"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "Combined Sewer Area BMP Sizing Calculator Approach Using the Santa Barbara Urban Hydrograph Method",
+      "page_or_section": "Chapter 4 Task 3B"
+    },
+    {
+      "field": "design_criteria.required_hydrologic_hydraulic_software",
+      "excerpt": "The two calculator spreadsheets, one for combined sewer area projects and one for separate sewer area projects, are available on the SFPUC website at www.sfwater.org/smr.",
+      "page_or_section": "Chapter 4 Task 3B"
+    },
+    {
+      "field": "design_criteria.required_hydrologic_hydraulic_software",
+      "excerpt": "Submit estimated runoff reduction volume using the State Water Board SMARTS calculator",
+      "page_or_section": "Chapter 6 Table 3 Small Project"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "The required BMP Hierarchy prioritizes infiltration-based BMPs, rainwater harvesting, and vegetated roofs followed by lined bioretention (commonly known as a \"flow-through planter\").",
+      "page_or_section": "Executive Summary / What's New"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "1st Priority: Reduce Stormwater Runoff — Rainwater harvesting, Permeable pavement, Vegetated roof; 2nd Priority: Detain & Biotreat — Unlined bioretention, Subsurface infiltration, Bioretention swales, Infiltration basin, Constructed wetland, Lined bioretention; 3rd Priority: Detain — Detention tank, Wet pond, Detention pond",
+      "page_or_section": "Chapter 5 Figure 7 Combined Sewer Area BMP Hierarchy"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "high",
+    "needs_human_review": false,
+    "review_notes": "SFPUC/Port May 2016 SMR. Design storms emphasized for combined-sewer quantity control are 1- and 2-year 24-hour; separate-sewer Large Projects use 85th/90th percentile 24-hour storms rather than return-period WQv. Numeric percentile depths live in the BMP sizing calculators, not tabulated as inches in the main narrative.",
+    "fields_not_found": []
+  },
+  "source": {
+    "document_url": "https://www.sfpuc.gov/sites/default/files/documents/SMR_DesignGuide_May2016.pdf",
+    "landing_page_url": "https://www.sfpuc.gov/construction-contracts/new-developments/stormwater-management",
+    "retrieved_at": "2026-08-10T07:45:00.000Z",
+    "original_filename": "san-francisco-ca.pdf"
+  }
+}

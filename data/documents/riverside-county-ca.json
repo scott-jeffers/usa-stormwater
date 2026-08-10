@@ -1,0 +1,100 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "Riverside County",
+    "jurisdiction_level": "county",
+    "state_code": "CA",
+    "document_title": "Water Quality Management Plan — Santa Ana Region of Riverside County",
+    "version_or_edition": "Approved October 22, 2012",
+    "adoption_or_effective_date": "2012-10-22",
+    "last_revised_date": "2012-10-22",
+    "relationship_to_state_manual": "independent"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [],
+    "water_quality_volume_method": "Priority Development Projects must implement LID BMPs to infiltrate, evapotranspire, harvest/use, or biotreat runoff. Design Capture Volume (DCV) is based approximately on the 85th percentile 24-hour storm event (isohyetal map Exhibit A). Remaining DCV may be addressed with treatment-control BMPs; hydromodification criteria apply in the Santa Ana Region.",
+    "peak_flow_calculation_method": [
+      "Design Capture Volume (85th percentile 24-hour)",
+      "LID BMP sizing (area- and volume-based)",
+      "Hydromodification criteria for Santa Ana Region"
+    ],
+    "required_hydrologic_hydraulic_software": [],
+    "approved_bmp_categories": [
+      "LID BMPs (infiltration, biotreatment, harvest/use)",
+      "Self-retaining areas / site design BMPs",
+      "Treatment control BMPs for remaining DCV",
+      "Hydromodification control BMPs"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "County of Riverside / Santa Ana Region of Riverside County",
+      "page_or_section": "Cover / Co-Permittees"
+    },
+    {
+      "field": "document_metadata.jurisdiction_level",
+      "excerpt": "County of Riverside",
+      "page_or_section": "Co-Permittees"
+    },
+    {
+      "field": "document_metadata.state_code",
+      "excerpt": "Santa Ana Regional Water Quality Control Board",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "WATER QUALITY MANAGEMENT PLAN",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.version_or_edition",
+      "excerpt": "Date approved by the Santa Ana Regional Water Quality Control Board: October 22, 2012",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.adoption_or_effective_date",
+      "excerpt": "October 22, 2012",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.last_revised_date",
+      "excerpt": "October 22, 2012",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.relationship_to_state_manual",
+      "excerpt": "Order No. R8-2010-0033 MS4 WQMP",
+      "page_or_section": "Introduction"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "Design Capture Volume (DCV) / 85th percentile 24-hour storm event",
+      "page_or_section": "LID / Exhibit A"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "HYDROMODIFICATION CRITERIA FOR THE SANTA ANA REGION",
+      "page_or_section": "Section 3.6 / Figure 3-7"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Implement LID BMPs / LID BMP Design Handbook",
+      "page_or_section": "Section 3.4 / Exhibit C"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "high",
+    "needs_human_review": false,
+    "review_notes": "Santa Ana Region WQMP; Santa Margarita/Whitewater regions have separate guidance.",
+    "fields_not_found": [
+      "design_criteria.design_storm_return_periods_years",
+      "design_criteria.required_hydrologic_hydraulic_software"
+    ]
+  },
+  "source": {
+    "document_url": "https://id3464.securedata.net/moreno-valley/departments/public_works/pdf/MV-WQMP.pdf",
+    "landing_page_url": "https://trans.rctlma.org/wqmp-water-quality-management-plans",
+    "retrieved_at": "2026-08-10T08:45:22.876Z",
+    "original_filename": "riverside-county-ca.pdf"
+  }
+}

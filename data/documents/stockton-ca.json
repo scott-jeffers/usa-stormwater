@@ -1,0 +1,103 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "City of Stockton / San Joaquin County",
+    "jurisdiction_level": "special_district",
+    "state_code": "CA",
+    "document_title": "Stormwater Quality Control Criteria Plan (SWQCCP)",
+    "version_or_edition": "March 2025",
+    "adoption_or_effective_date": "2025-03",
+    "last_revised_date": "2025-03",
+    "relationship_to_state_manual": "independent"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [],
+    "water_quality_volume_method": "Priority Projects must meet Volume Reduction Requirement (VRR): reduce post-project runoff to at or below pre-project volumes for the 0.51-inch storm depth (average 85th percentile). VRR is independent of Stormwater Quality Design Volume (SQDV) / Stormwater Quality Design Flow (SQDF). Also apply site design, source, volume reduction, and treatment controls (bioretention, infiltration, extended detention, etc.).",
+    "peak_flow_calculation_method": [
+      "Volume Reduction Requirement hydrology (pre vs post for 0.51-inch storm)",
+      "SQDV / SQDF treatment sizing (Appendix T-0)",
+      "LID treatment control design worksheets"
+    ],
+    "required_hydrologic_hydraulic_software": [],
+    "approved_bmp_categories": [
+      "Site design controls",
+      "Source controls",
+      "Volume reduction measures (VRMs)",
+      "Bioretention",
+      "Infiltration basin / trench",
+      "Extended detention basin",
+      "Treatment controls"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "Stockton SJC",
+      "page_or_section": "Title"
+    },
+    {
+      "field": "document_metadata.jurisdiction_level",
+      "excerpt": "City of Stockton and San Joaquin County",
+      "page_or_section": "FAQ / applicability"
+    },
+    {
+      "field": "document_metadata.state_code",
+      "excerpt": "California",
+      "page_or_section": "Title"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "Stormwater Quality Control Criteria Plan",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.version_or_edition",
+      "excerpt": "March 2025",
+      "page_or_section": "Header"
+    },
+    {
+      "field": "document_metadata.adoption_or_effective_date",
+      "excerpt": "March 2025",
+      "page_or_section": "Header"
+    },
+    {
+      "field": "document_metadata.last_revised_date",
+      "excerpt": "March 2025",
+      "page_or_section": "Header"
+    },
+    {
+      "field": "document_metadata.relationship_to_state_manual",
+      "excerpt": "Regionwide Permit / Statewide Trash Amendments",
+      "page_or_section": "Background"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "project runoff volumes for the 0.51-inch storm depth, which is the average 85th",
+      "page_or_section": "Section 5.2 VRR"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "VRR is a separate and independent requirement from the Stormwater Quality Design Volume (SQDV)",
+      "page_or_section": "Section 5"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Bioretention / Infiltration Basin / Extended Detention Basin",
+      "page_or_section": "Chapter 6 fact sheets"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "high",
+    "needs_human_review": false,
+    "review_notes": "Joint Stockton/SJC SWQCCP March 2025 FULL FINAL.",
+    "fields_not_found": [
+      "design_criteria.design_storm_return_periods_years",
+      "design_criteria.required_hydrologic_hydraulic_software"
+    ]
+  },
+  "source": {
+    "document_url": "https://www.sjwater.org/Portals/0/ThemePluginPro/uploads/2025/7/1/FULL%20FINAL%20SWQCCP%20Stockton%20SJC%20March%202025_1.pdf",
+    "landing_page_url": "https://www.sjwater.org/Stormwater-Management/Development",
+    "retrieved_at": "2026-08-10T08:24:40.117Z",
+    "original_filename": "stockton-ca.pdf"
+  }
+}

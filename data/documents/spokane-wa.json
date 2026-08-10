@@ -1,0 +1,111 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "Spokane County / City of Spokane / City of Spokane Valley",
+    "jurisdiction_level": "special_district",
+    "state_code": "WA",
+    "document_title": "Spokane Regional Stormwater Manual",
+    "version_or_edition": "April 2008",
+    "adoption_or_effective_date": "2008-04",
+    "last_revised_date": "2008-04",
+    "relationship_to_state_manual": "deemed_equivalent_to_state_manual"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [
+      2,
+      10,
+      25,
+      100
+    ],
+    "water_quality_volume_method": "Basic Requirement No. 3 Water Quality Treatment: size treatment BMPs for the volume (or peak) equivalent of the 6-month NRCS Type II 24-hour water quality storm; 6-month precipitation ≈ 0.69 × 2-year precipitation. Flow control (Basic Requirement No. 4) and conveyance (Basic Requirement No. 5) apply per chapters 7–8.",
+    "peak_flow_calculation_method": [
+      "NRCS Type II 24-hour storms with regional isopluvial maps (2-, 10-, 25-, 100-year)",
+      "Flow control outflow structures (Chapter 7)",
+      "Natural and constructed conveyance systems (Chapter 8)"
+    ],
+    "required_hydrologic_hydraulic_software": [],
+    "approved_bmp_categories": [
+      "Basic treatment BMPs",
+      "Metals treatment BMPs",
+      "Phosphorus treatment BMPs",
+      "Bioinfiltration / biofiltration",
+      "Oil-water separators",
+      "Flow control / detention facilities"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "Spokane County, City of Spokane, City of Spokane Valley",
+      "page_or_section": "Title / prepared by"
+    },
+    {
+      "field": "document_metadata.jurisdiction_level",
+      "excerpt": "Spokane Regional Stormwater Manual",
+      "page_or_section": "Title"
+    },
+    {
+      "field": "document_metadata.state_code",
+      "excerpt": "Eastern Washington / SWMMEW",
+      "page_or_section": "Introduction"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "SPOKANE REGIONAL STORMWATER MANUAL",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.version_or_edition",
+      "excerpt": "APRIL 2008",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.adoption_or_effective_date",
+      "excerpt": "April 2008",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.last_revised_date",
+      "excerpt": "April 2008",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.relationship_to_state_manual",
+      "excerpt": "meets or exceeds applicable criteria from the Washington State Department of Ecology’s Stormwater Management Manual for Eastern Washington (SWMMEW)",
+      "page_or_section": "Introduction"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "2-year, 10-year, 25-year, 100-year, 24 hour Isopluvial Map",
+      "page_or_section": "Chapter 5 figures"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "treat the volume equivalent of the 6-month NRCS Type II 24-hour water quality",
+      "page_or_section": "Chapter 6"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "Basic Requirement No. 4 - Flow Control",
+      "page_or_section": "Chapter 2 / 7"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Basic Treatment / Metals Treatment / Phosphorus Treatment",
+      "page_or_section": "Chapter 6"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "high",
+    "needs_human_review": false,
+    "review_notes": "Regional 2008 SRSM still widely cited; confirm local adoption of Ecology SWMMEW updates.",
+    "fields_not_found": [
+      "design_criteria.required_hydrologic_hydraulic_software"
+    ]
+  },
+  "source": {
+    "document_url": "https://www.spokanecounty.gov/DocumentCenter/View/1640/Spokane-Regional-Stormwater-Manual-PDF",
+    "landing_page_url": "https://www.spokanecounty.gov/918/Stormwater-Utility",
+    "retrieved_at": "2026-08-10T08:24:40.117Z",
+    "original_filename": "spokane-wa.pdf"
+  }
+}

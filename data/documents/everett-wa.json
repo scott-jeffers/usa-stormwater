@@ -1,0 +1,65 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "City of Everett",
+    "jurisdiction_level": "municipality",
+    "state_code": "WA",
+    "document_title": "Stormwater Management Manual for Western Washington (Ecology 2024; city MS4)",
+    "version_or_edition": "2024 Edition",
+    "adoption_or_effective_date": "2024-07",
+    "last_revised_date": "2024-07",
+    "relationship_to_state_manual": "adopts_state_manual_directly"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [
+      2,
+      10,
+      25,
+      50,
+      100
+    ],
+    "water_quality_volume_method": "Adopts Ecology Stormwater Management Manual for Western Washington (SWMMWW) Minimum Requirements including runoff treatment and flow control. Local drainage manuals/ordinances typically supplement SWMMWW for city conditions; continuous simulation (WWHM/HSPF) sizes flow control.",
+    "peak_flow_calculation_method": [
+      "Continuous Simulation Models",
+      "WWHM / HSPF",
+      "Single Event Hydrograph Method",
+      "SBUH / SCS / NRCS methods (as allowed)"
+    ],
+    "required_hydrologic_hydraulic_software": [
+      "WWHM",
+      "HSPF"
+    ],
+    "approved_bmp_categories": [
+      "Flow Control BMPs",
+      "Runoff Treatment BMPs",
+      "LID BMPs",
+      "Source Control BMPs",
+      "Infiltration / bioretention"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "City of Everett MS4 follows Ecology SWMMWW",
+      "page_or_section": "Coverage note"
+    },
+    {
+      "field": "document_metadata.relationship_to_state_manual",
+      "excerpt": "adopts_state_manual_directly — Ecology SWMMWW 2024",
+      "page_or_section": "Coverage note"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "medium",
+    "needs_human_review": true,
+    "review_notes": "Municipality coverage via Ecology SWMMWW (Vancouver/Bellevue western WA pattern). Prefer city drainage manual if a durable public PDF is later found.",
+    "fields_not_found": [
+      "design_criteria.water_quality_volume_method"
+    ]
+  },
+  "source": {
+    "document_url": "https://www.cityofcamas.us/sites/default/files/fileattachments/community_development/page/9505/2024swmmww_6-14-24.pdf",
+    "landing_page_url": "https://www.everettwa.gov/",
+    "retrieved_at": "2026-08-10T10:02:27.846Z",
+    "original_filename": "everett-wa.pdf"
+  }
+}

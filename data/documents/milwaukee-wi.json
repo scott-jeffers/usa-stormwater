@@ -1,0 +1,101 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "Milwaukee Metropolitan Sewerage District",
+    "jurisdiction_level": "special_district",
+    "state_code": "WI",
+    "document_title": "Chapter 13 Surface Water and Stormwater",
+    "version_or_edition": "July 2020",
+    "adoption_or_effective_date": null,
+    "last_revised_date": "2020-07",
+    "relationship_to_state_manual": "independent"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [
+      2,
+      100
+    ],
+    "water_quality_volume_method": "Green infrastructure detention: 0.5 inch × net new impervious for sites 5,000 sf to ½ acre (MMSD Ch 13). Larger sites follow peak/volume match release criteria.",
+    "peak_flow_calculation_method": [
+      "Allowable release: 100-year ≤ 0.5 cfs/acre; 2-year ≤ 0.15 cfs/acre",
+      "Or volume matching alternative per Chapter 13"
+    ],
+    "required_hydrologic_hydraulic_software": [],
+    "approved_bmp_categories": [
+      "Green infrastructure",
+      "Detention",
+      "Volume control practices"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "Milwaukee Metropolitan Sewerage District",
+      "page_or_section": "Chapter 13"
+    },
+    {
+      "field": "document_metadata.jurisdiction_level",
+      "excerpt": "Metropolitan Sewerage District",
+      "page_or_section": "Chapter 13"
+    },
+    {
+      "field": "document_metadata.state_code",
+      "excerpt": "Wisconsin",
+      "page_or_section": "Chapter 13"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "Chapter 13 Surface Water and Stormwater",
+      "page_or_section": "Title"
+    },
+    {
+      "field": "document_metadata.version_or_edition",
+      "excerpt": "July 2020",
+      "page_or_section": "Header"
+    },
+    {
+      "field": "document_metadata.last_revised_date",
+      "excerpt": "July 2020",
+      "page_or_section": "Header"
+    },
+    {
+      "field": "document_metadata.relationship_to_state_manual",
+      "excerpt": "MMSD Chapter 13",
+      "page_or_section": "Title"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "100-year / 2-year",
+      "page_or_section": "Release rates"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "0.5 inch × net new impervious",
+      "page_or_section": "GI detention"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "0.5 cfs/ac / 0.15 cfs/ac",
+      "page_or_section": "Allowable release"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "green infrastructure / detention",
+      "page_or_section": "Chapter 13"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "high",
+    "needs_human_review": false,
+    "review_notes": "MMSD Ch 13 Jul 2020 regional criteria covering Milwaukee metro.",
+    "fields_not_found": [
+      "document_metadata.adoption_or_effective_date",
+      "design_criteria.required_hydrologic_hydraulic_software"
+    ]
+  },
+  "source": {
+    "document_url": "https://www.mmsd.com/application/files/9515/9621/1174/Chapter_13_July_2020.pdf",
+    "landing_page_url": "https://www.mmsd.com/",
+    "retrieved_at": "2026-08-10T08:10:00.000Z",
+    "original_filename": "milwaukee-wi.pdf"
+  }
+}

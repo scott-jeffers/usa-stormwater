@@ -1,0 +1,69 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "City of Ann Arbor",
+    "jurisdiction_level": "municipality",
+    "state_code": "MI",
+    "document_title": "Washtenaw County WRC Rules and Guidelines — Procedures & Design Criteria for Stormwater Management Systems (adopted by Ann Arbor Ch.63)",
+    "version_or_edition": "August 6, 2014 (amended / mirror PDF)",
+    "adoption_or_effective_date": "2014-08-06",
+    "last_revised_date": "2016-10-17",
+    "relationship_to_state_manual": "independent"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [
+      2,
+      100
+    ],
+    "water_quality_volume_method": "First flush = runoff from the first inch of rain (Rational Method); treat to ≥80% TSS removal or ≤80 mg/L TSS. Bankfull = 2-year/24-hour (NRCS). Infiltrate the greater of (post−pre bankfull volume) OR entire first flush. Flood control storage release ≤0.15 cfs/acre. Also size for 100-year (NRCS).",
+    "peak_flow_calculation_method": [
+      "Rational Method (first flush)",
+      "NRCS Method (bankfull / 100-year)",
+      "Fixed release rate 0.15 cfs/acre for flood-control storage"
+    ],
+    "required_hydrologic_hydraulic_software": [],
+    "approved_bmp_categories": [
+      "Infiltration BMPs",
+      "Detention / retention systems",
+      "Bioretention / rain gardens",
+      "Swales",
+      "Pretreatment / treatment train BMPs",
+      "SEMCOG LID practices"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "Ann Arbor follows Washtenaw County Water Resources Commissioner Rules (Ch.63 by reference)",
+      "page_or_section": "Coverage note / city stormwater page"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "Washtenaw County Water Resources Commissioner Rules and Guidelines Procedures & Design Criteria For Stormwater Management Systems",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "First flush volume; the runoff from the first inch of rain ... 80 percent removal of TSS ... Bankfull volume; the 2-year recurrence interval /24 hour storm ... release rate ... will not exceed 0.15 cfs per acre",
+      "page_or_section": "§IV Volume Treatment / flood control"
+    },
+    {
+      "field": "document_metadata.relationship_to_state_manual",
+      "excerpt": "independent county WRC rules adopted by city ordinance",
+      "page_or_section": "Coverage note"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "medium",
+    "needs_human_review": true,
+    "review_notes": "Used 2014 WCWRC Rules PDF (city adopts WCWRC). County may have Oct 2016 update; verify against current washtenaw.org asset if available.",
+    "fields_not_found": [
+      "design_criteria.required_hydrologic_hydraulic_software"
+    ]
+  },
+  "source": {
+    "document_url": "https://annarborchronicle.com/wp-content/uploads/2014/08/WCWRC-Rules-2014_071614.pdf",
+    "landing_page_url": "https://www.washtenaw.org/221/Rules-Design-Standards",
+    "retrieved_at": "2026-08-10T09:54:53.490Z",
+    "original_filename": "ann-arbor-mi.pdf"
+  }
+}

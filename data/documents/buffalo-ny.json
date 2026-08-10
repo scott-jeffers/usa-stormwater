@@ -1,0 +1,108 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "City of Buffalo / Buffalo Sewer Authority",
+    "jurisdiction_level": "municipality",
+    "state_code": "NY",
+    "document_title": "Plan Review Guidance for Stormwater Management Design",
+    "version_or_edition": "2019-10-15",
+    "adoption_or_effective_date": null,
+    "last_revised_date": "2019-10-15",
+    "relationship_to_state_manual": "adopts_state_manual_directly"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [
+      1,
+      2,
+      10,
+      25,
+      100
+    ],
+    "water_quality_volume_method": "Designs must follow the most recent New York State Stormwater Management Design Manual (WQv and RRv targets). Green Infrastructure hierarchy (Green Code 7.3.4): conservation → bioretention/swales/porous pavement → green/blue roofs/cisterns → off-site GI → subsurface infiltration → underground detention. Combined/storm-relief sewer connections: post-construction 25-year peak ≤ pre-construction 2-year peak (TR-55 + NYSMDM).",
+    "peak_flow_calculation_method": [
+      "Pre- and post-construction 1-, 10-, and 100-year storm calculations (storm-only connections)",
+      "TR-55 + NYSMDM for combined/storm-relief: 25-year post ≤ 2-year pre peak",
+      "WQv and RRv targets per NYSMDM"
+    ],
+    "required_hydrologic_hydraulic_software": [],
+    "approved_bmp_categories": [
+      "Conservation of natural areas",
+      "Bioretention / rain gardens / planters / bioswales",
+      "Filter strips / constructed wetlands / porous pavement",
+      "Green roof / blue roof / cisterns",
+      "Subsurface infiltration / underground retention",
+      "Underground detention"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "Buffalo Sewer Authority",
+      "page_or_section": "Title"
+    },
+    {
+      "field": "document_metadata.jurisdiction_level",
+      "excerpt": "City of Buffalo Code / Green Code",
+      "page_or_section": "Guidance"
+    },
+    {
+      "field": "document_metadata.state_code",
+      "excerpt": "New York State Stormwater Design Manual",
+      "page_or_section": "Criteria"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "Plan Review Guidance for Stormwater Management Design",
+      "page_or_section": "Title"
+    },
+    {
+      "field": "document_metadata.version_or_edition",
+      "excerpt": "191015 Plan Review SW Guidance",
+      "page_or_section": "Filename"
+    },
+    {
+      "field": "document_metadata.last_revised_date",
+      "excerpt": "191015",
+      "page_or_section": "Filename"
+    },
+    {
+      "field": "document_metadata.relationship_to_state_manual",
+      "excerpt": "All designs must follow the criteria and standards contained in the most recent version of the New York State Stormwater Design Manual",
+      "page_or_section": "Guidance"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "1-, 10-, and 100- year storm event / 25-year / 2-year",
+      "page_or_section": "SWPPP requirements"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "Water Quality Volume (WQv) and Runoff Reduction Volume (RRv) Targets",
+      "page_or_section": "SWPPP A.6"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "post-construction 25-year storm peak flows to the storm relief/ combined sewer system are less than or equal to pre-construction 2-year storm peak flows",
+      "page_or_section": "Combined sewer criteria"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Bio-retention /Rain Gardens / Porous Pavement / Underground detention",
+      "page_or_section": "Preference hierarchy"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "high",
+    "needs_human_review": false,
+    "review_notes": "Short BSA local guidance; design numbers come from NYSMDM + combined-sewer peak criterion.",
+    "fields_not_found": [
+      "document_metadata.adoption_or_effective_date",
+      "design_criteria.required_hydrologic_hydraulic_software"
+    ]
+  },
+  "source": {
+    "document_url": "https://buffalosewer.org/app/uploads/2020/01/191015-Plan-Review-SW-Guidance-Final.pdf",
+    "landing_page_url": "https://buffalosewer.org/",
+    "retrieved_at": "2026-08-10T08:30:22.061Z",
+    "original_filename": "buffalo-ny.pdf"
+  }
+}

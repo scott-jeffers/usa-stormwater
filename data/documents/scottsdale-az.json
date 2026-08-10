@@ -1,0 +1,110 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "City of Scottsdale",
+    "jurisdiction_level": "municipality",
+    "state_code": "AZ",
+    "document_title": "Design Standards & Policies Manual",
+    "version_or_edition": "2018",
+    "adoption_or_effective_date": "2018-02-20",
+    "last_revised_date": "2018",
+    "relationship_to_state_manual": "independent"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [
+      10,
+      25,
+      50,
+      100
+    ],
+    "water_quality_volume_method": "First Flush Volume V = CPA with P = 0.5 inches (converted to feet); retention of first flush encouraged if storage evacuated within 36 hours (Section 4-1.201). Broader stormwater storage requirements also referenced to SRC Chapter 37. Stormwater storage facilities designed primarily as detention facilities.",
+    "peak_flow_calculation_method": [
+      "Grading & Drainage Chapter 4 standards",
+      "100-year storm flooding / channel capacity criteria",
+      "Street drainage design storm table (10-/25/50-/100-year)",
+      "Detention / stormwater storage basin design"
+    ],
+    "required_hydrologic_hydraulic_software": [],
+    "approved_bmp_categories": [
+      "Stormwater storage / detention basins",
+      "Underground stormwater storage",
+      "First flush retention",
+      "Channel / wash conveyance"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "City of Scottsdale",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.jurisdiction_level",
+      "excerpt": "City of Scottsdale",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.state_code",
+      "excerpt": "Arizona / MAG",
+      "page_or_section": "Standards references"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "DESIGN STANDARDS & POLICIES MANUAL",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.version_or_edition",
+      "excerpt": "City of Scottsdale - 2018",
+      "page_or_section": "Header"
+    },
+    {
+      "field": "document_metadata.adoption_or_effective_date",
+      "excerpt": "effective Feb. 20, 2018",
+      "page_or_section": "DSPM landing page / DRB approval"
+    },
+    {
+      "field": "document_metadata.last_revised_date",
+      "excerpt": "2018",
+      "page_or_section": "Header"
+    },
+    {
+      "field": "document_metadata.relationship_to_state_manual",
+      "excerpt": "SRC, Chapter 37 Stormwater and Floodplain Management",
+      "page_or_section": "Chapter 4"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "10-YEAR 25/50-YEAR 100-YEAR",
+      "page_or_section": "Street drainage"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "P = the required precipitation depth of 0.5 inches, converted to feet",
+      "page_or_section": "First Flush Volume"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "Stormwater storage facilities shall be designed primarily as detention facilities",
+      "page_or_section": "4-1.201"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "STORMWATER STORAGE / DETENTION BASINS",
+      "page_or_section": "Chapter 4 TOC"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "medium",
+    "needs_human_review": true,
+    "review_notes": "DSPM 2018 truncated text extract; first-flush and storage criteria confirmed. Full Chapter 37 numeric storage may live in code.",
+    "fields_not_found": [
+      "design_criteria.required_hydrologic_hydraulic_software"
+    ]
+  },
+  "source": {
+    "document_url": "https://ww2.scottsdaleaz.gov/Assets/ScottsdaleAZ/Design/DSPM/DSPM+2018.pdf",
+    "landing_page_url": "https://www.scottsdaleaz.gov/design/dspm",
+    "retrieved_at": "2026-08-10T08:24:40.117Z",
+    "original_filename": "scottsdale-az.pdf"
+  }
+}

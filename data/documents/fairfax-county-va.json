@@ -1,0 +1,106 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "Fairfax County",
+    "jurisdiction_level": "county",
+    "state_code": "VA",
+    "document_title": "Public Facilities Manual (PFM)",
+    "version_or_edition": "2018 PFM (amendments through Oct 20, 2020 in export)",
+    "adoption_or_effective_date": null,
+    "last_revised_date": "2020-10-20",
+    "relationship_to_state_manual": "independent"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [
+      10,
+      100
+    ],
+    "water_quality_volume_method": "Chapter 6 Storm Drainage includes Policy on Detention of Stormwaters (6-0300), Stormwater Runoff Quality Control Criteria (6-0400), and Retention/Detention/BMP facilities (6-1300) including bioretention/rain gardens, pervious pavement, and trenches.",
+    "peak_flow_calculation_method": [
+      "Chapter 6 Storm Drainage — adequate drainage policy",
+      "Detention of stormwaters policy",
+      "Storm sewer / culvert / channel design",
+      "VDOT Drainage Manual references where applicable"
+    ],
+    "required_hydrologic_hydraulic_software": [],
+    "approved_bmp_categories": [
+      "Detention ponds",
+      "Extended detention",
+      "Retention facilities",
+      "Bioretention / rain gardens",
+      "Pervious pavement",
+      "Low impact development practices"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "FAIRFAX COUNTY'S PUBLIC FACILITIES MANUAL",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.jurisdiction_level",
+      "excerpt": "Fairfax County",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.state_code",
+      "excerpt": "Virginia",
+      "page_or_section": "PFM"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "PUBLIC FACILITIES MANUAL",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.version_or_edition",
+      "excerpt": "2018 PFM Foreword",
+      "page_or_section": "Foreword"
+    },
+    {
+      "field": "document_metadata.last_revised_date",
+      "excerpt": "amendments adopted by the Board through Oct. 20, 2020",
+      "page_or_section": "County PFM page"
+    },
+    {
+      "field": "document_metadata.relationship_to_state_manual",
+      "excerpt": "Fairfax County Public Facilities Manual",
+      "page_or_section": "Title"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "100-year floodplain limits / 10-Year Tree Canopy",
+      "page_or_section": "Chapter 6 / related"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "6-0400 STORMWATER RUNOFF QUALITY CONTROL CRITERIA",
+      "page_or_section": "Chapter 6"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "6-0300 POLICY ON DETENTION OF STORMWATERS",
+      "page_or_section": "Chapter 6"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "bioretention basins or rain gardens / Retention, Detention, and Best Management Practices",
+      "page_or_section": "6-1300"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "medium",
+    "needs_human_review": true,
+    "review_notes": "Large PFM export; Chapter 6 storm drainage confirmed. Pull numeric WQ depth from 6-0400 on review.",
+    "fields_not_found": [
+      "document_metadata.adoption_or_effective_date",
+      "design_criteria.required_hydrologic_hydraulic_software"
+    ]
+  },
+  "source": {
+    "document_url": "http://online.encodeplus.com/regs/fairfaxcounty-va-pfm/export2doc.aspx?pdf=1&tocid=001",
+    "landing_page_url": "https://www.fairfaxcounty.gov/landdevelopment/public-facilities-manual",
+    "retrieved_at": "2026-08-10T08:34:54.567Z",
+    "original_filename": "fairfax-county-va.pdf"
+  }
+}

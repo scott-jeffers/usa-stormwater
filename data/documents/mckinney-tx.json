@@ -1,0 +1,99 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "City of McKinney",
+    "jurisdiction_level": "municipality",
+    "state_code": "TX",
+    "document_title": "Engineering Design Manual",
+    "version_or_edition": "Engineering Design Manual (Rev. — DocumentCenter 16490)",
+    "adoption_or_effective_date": null,
+    "last_revised_date": null,
+    "relationship_to_state_manual": "independent"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [
+      5,
+      100
+    ],
+    "water_quality_volume_method": "Section 4 Stormwater Design Requirements cover detention basins and fully developed 100-year criteria. Section 8 Environmental Design Requirements include Post Construction Stormwater Quality Plan permanent controls and reference iSWM Technical Manual structural control screening.",
+    "peak_flow_calculation_method": [
+      "Fully developed 100-year design storm / water surface elevation",
+      "5-year and 100-year open-channel flows",
+      "Modified Rational Method detention pond design",
+      "iSWM Technical Manuals referenced for BMPs"
+    ],
+    "required_hydrologic_hydraulic_software": [],
+    "approved_bmp_categories": [
+      "Detention / retention facilities",
+      "iSWM structural controls / BMPs",
+      "Post-construction stormwater quality permanent controls"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "City of McKinney Engineering Department",
+      "page_or_section": "Title"
+    },
+    {
+      "field": "document_metadata.jurisdiction_level",
+      "excerpt": "City of McKinney",
+      "page_or_section": "Title"
+    },
+    {
+      "field": "document_metadata.state_code",
+      "excerpt": "Texas",
+      "page_or_section": "Title"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "Engineering Design Manual",
+      "page_or_section": "Title"
+    },
+    {
+      "field": "document_metadata.version_or_edition",
+      "excerpt": "Engineering Design Manual",
+      "page_or_section": "Title"
+    },
+    {
+      "field": "document_metadata.relationship_to_state_manual",
+      "excerpt": "City Engineering Design Manual / iSWM Technical Manuals",
+      "page_or_section": "References"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "fully developed 5-year and 100-year flows",
+      "page_or_section": "Section 4"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "Post Construction Stormwater Quality Plan - Permanent Controls / iSWM Technical Manual",
+      "page_or_section": "Section 8.4"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "Modified Rational Method Detention Pond Design",
+      "page_or_section": "Section 4.10 / figures"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "detention ponds and best management practices (BMPs)",
+      "page_or_section": "Section 4"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "medium",
+    "needs_human_review": true,
+    "review_notes": "Large EDM; adoption date unclear on title page; confirm which Rev is effective vs Proposed Rev 6.",
+    "fields_not_found": [
+      "document_metadata.adoption_or_effective_date",
+      "document_metadata.last_revised_date",
+      "design_criteria.required_hydrologic_hydraulic_software"
+    ]
+  },
+  "source": {
+    "document_url": "https://www.mckinneytexas.org/DocumentCenter/View/16490/McKinney-Engineering-Design-Manual---Proposed-Rev-6-20241119",
+    "landing_page_url": "https://www.mckinneytexas.org/1507/Engineering-Resources---Forms-Notes",
+    "retrieved_at": "2026-08-10T08:45:22.876Z",
+    "original_filename": "mckinney-tx.pdf"
+  }
+}

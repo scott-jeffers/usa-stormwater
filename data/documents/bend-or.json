@@ -1,0 +1,49 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "City of Bend",
+    "jurisdiction_level": "municipality",
+    "state_code": "OR",
+    "document_title": "Eugene Stormwater Management Manual (Oregon municipal reference)",
+    "version_or_edition": "2025",
+    "adoption_or_effective_date": "2025-07-01",
+    "last_revised_date": "2025-01-01",
+    "relationship_to_state_manual": "unknown"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [],
+    "water_quality_volume_method": "Bend city design-standards portal returns 403. Using Eugene SWMM as Oregon municipal stormwater quality / flow-control reference: pollution reduction facilities sized to Water Quality Design Storm; flood and flow control per municipal code pattern.",
+    "peak_flow_calculation_method": [
+      "Flood control design methodologies",
+      "Flow control methodologies",
+      "Water quality facility selection and design"
+    ],
+    "required_hydrologic_hydraulic_software": [],
+    "approved_bmp_categories": [
+      "Stormwater quality / pollution reduction facilities",
+      "Flow control facilities",
+      "Flood control facilities",
+      "Infiltration / UIC facilities"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "Bend — coverage via Eugene Stormwater Management Manual as Oregon municipal reference (not Bend-adopted)",
+      "page_or_section": "Coverage note"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "low",
+    "needs_human_review": true,
+    "review_notes": "Placeholder — replace when Bend publishes a durable public design-standards PDF.",
+    "fields_not_found": [
+      "design_criteria.design_storm_return_periods_years"
+    ]
+  },
+  "source": {
+    "document_url": "https://www.eugene-or.gov/DocumentCenter/View/79289/2025-Stormwater-Management-Manual-with-Appendices",
+    "landing_page_url": "https://www.bendoregon.gov/",
+    "retrieved_at": "2026-08-10T10:35:05.250Z",
+    "original_filename": "bend-or.pdf"
+  }
+}

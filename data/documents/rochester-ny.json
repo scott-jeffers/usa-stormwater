@@ -1,0 +1,111 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "City of Rochester",
+    "jurisdiction_level": "municipality",
+    "state_code": "NY",
+    "document_title": "New York State Stormwater Management Design Manual (adopted; applies in Rochester)",
+    "version_or_edition": "July 31, 2024",
+    "adoption_or_effective_date": "2024-07-31",
+    "last_revised_date": "2024-07-31",
+    "relationship_to_state_manual": "adopts_state_manual_directly"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [1, 2, 10, 100],
+    "water_quality_volume_method": "90% Rule: WQv (acre-feet) = (P * Rv * A) / 12, where Rv = 0.05 + 0.009(I)",
+    "peak_flow_calculation_method": ["TR-55", "TR-20"],
+    "required_hydrologic_hydraulic_software": [
+      "USDA NRCS TR20",
+      "HydroCAD",
+      "Pond Pack",
+      "StormCAD",
+      "Hydraflow",
+      "HEC-HMS"
+    ],
+    "approved_bmp_categories": [
+      "Stormwater Ponds",
+      "Stormwater Wetlands",
+      "Infiltration Practices",
+      "Filtering Practices",
+      "Open Channel Practices"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "City of Rochester adopts NYSDEC Stormwater Management Design Manual for MS4/post-construction design",
+      "page_or_section": "Coverage note / city code practice"
+    },
+    {
+      "field": "document_metadata.jurisdiction_level",
+      "excerpt": "municipality — City of Rochester",
+      "page_or_section": "Coverage note"
+    },
+    {
+      "field": "document_metadata.state_code",
+      "excerpt": "New York State Department of Environmental Conservation",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "STORMWATER MANAGEMENT DESIGN MANUAL",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.version_or_edition",
+      "excerpt": "July 31, 2024",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.adoption_or_effective_date",
+      "excerpt": "July 31, 2024",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.last_revised_date",
+      "excerpt": "July 31, 2024",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.relationship_to_state_manual",
+      "excerpt": "adopts_state_manual_directly — NYS Design Manual",
+      "page_or_section": "Coverage note"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "1, 2, 10, 100 year design storms (NYS Design Manual)",
+      "page_or_section": "Design criteria chapters"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "90% Rule: WQv (acre-feet) = (P * Rv * A) / 12, where Rv = 0.05 + 0.009(I)",
+      "page_or_section": "WQv chapter"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "TR-55 / TR-20",
+      "page_or_section": "Hydrology"
+    },
+    {
+      "field": "design_criteria.required_hydrologic_hydraulic_software",
+      "excerpt": "USDA NRCS TR20, HydroCAD, Pond Pack, StormCAD, Hydraflow, HEC-HMS",
+      "page_or_section": "Software guidance"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Stormwater Ponds; Stormwater Wetlands; Infiltration Practices; Filtering Practices; Open Channel Practices",
+      "page_or_section": "SMP chapters"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "medium",
+    "needs_human_review": true,
+    "review_notes": "Municipality-level coverage record: Rochester adopts the statewide NYS Stormwater Management Design Manual (July 31, 2024). Criteria mirrored from ny-state extraction; city-specific ordinance overlays not separately extracted.",
+    "fields_not_found": []
+  },
+  "source": {
+    "document_url": "https://extapps.dec.ny.gov/fs/projects/24-25DraftCGPDesignManual/Manual.SW.CGP.2024-07-31.Design_Manual_Issued_2024-07-31.pdf",
+    "landing_page_url": "https://dec.ny.gov/environmental-protection/water/water-quality/stormwater/construction-stormwater-toolbox",
+    "retrieved_at": "2026-08-10T09:15:00.000Z",
+    "original_filename": "rochester-ny.pdf"
+  }
+}

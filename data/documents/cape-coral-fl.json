@@ -1,0 +1,99 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "City of Cape Coral",
+    "jurisdiction_level": "municipality",
+    "state_code": "FL",
+    "document_title": "Utility Standards — Design Procedures Manual (Volume 1 of 4)",
+    "version_or_edition": "Adopted August 17, 2022",
+    "adoption_or_effective_date": "2022-08-17",
+    "last_revised_date": "2022-08-17",
+    "relationship_to_state_manual": "independent"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [],
+    "water_quality_volume_method": "Section 9 Storm Water Systems covers storm drain size/slope/depth, catch basins, and outfalls for utility infrastructure. Broader drainage design standards historically in Engineering Design Standards Section L (PDF currently 404); this utilities manual is conveyance-focused rather than full post-construction WQv criteria.",
+    "peak_flow_calculation_method": [
+      "Storm drain sizing criteria (Section 9.1–9.3)",
+      "Catch basin type and placement standards",
+      "Outfall design requirements"
+    ],
+    "required_hydrologic_hydraulic_software": [],
+    "approved_bmp_categories": [
+      "Storm drains / storm sewers",
+      "Catch basins / inlets",
+      "Outfalls"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "CITY OF CAPE CORAL",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.jurisdiction_level",
+      "excerpt": "CITY OF CAPE CORAL",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.state_code",
+      "excerpt": "Cape Coral, FL",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "UTILITY STANDARDS VOLUME 1 OF 4: DESIGN PROCEDURES MANUAL",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.version_or_edition",
+      "excerpt": "ADOPTED AUGUST 17, 2022",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.adoption_or_effective_date",
+      "excerpt": "AUGUST 17, 2022",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.last_revised_date",
+      "excerpt": "AUGUST 17, 2022",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.relationship_to_state_manual",
+      "excerpt": "City Utility Standards / Engineering Design Standards referenced",
+      "page_or_section": "Introduction"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "SECTION 9 - STORM WATER SYSTEMS",
+      "page_or_section": "Section 9"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "9.1 STORM DRAIN SIZE / 9.2 STORM DRAIN SLOPE",
+      "page_or_section": "Section 9"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "CATCH BASINS / OUTFALLS",
+      "page_or_section": "9.4–9.6"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "low",
+    "needs_human_review": true,
+    "review_notes": "Utilities conveyance standards only; full Engineering Design Standards Section L PDF was 404 — replace when available.",
+    "fields_not_found": [
+      "design_criteria.design_storm_return_periods_years",
+      "design_criteria.required_hydrologic_hydraulic_software"
+    ]
+  },
+  "source": {
+    "document_url": "https://www.capecoral.gov/Documents/Departments/Utilities/Engineering%20Design%20Standards%20and%20Standard%20Detail%20Drawings/Utilities%20-%20Design%20Procedures%20Manual.pdf",
+    "landing_page_url": "https://www.capecoral.gov/",
+    "retrieved_at": "2026-08-10T08:56:34.266Z",
+    "original_filename": "cape-coral-fl.pdf"
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "City of San Jose / Santa Clara Valley (SCVURPPP)",
+    "jurisdiction_level": "municipality",
+    "state_code": "CA",
+    "document_title": "C.3 Stormwater Handbook",
+    "version_or_edition": "October 2024",
+    "adoption_or_effective_date": "2024-10",
+    "last_revised_date": "2024-10",
+    "relationship_to_state_manual": "independent"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [],
+    "water_quality_volume_method": "MRP Provision C.3.d numeric sizing: volume-based treatment sized for stormwater quality volume equal to 80% of annual runoff using the California Stormwater BMP Handbook Approach adapted for Santa Clara Valley (continuous simulation sizing curves in Appendix B; recommended over WEF/URQM). Alternate MRP option: WEF Urban Runoff Quality Management volume capture coefficients. Flow-based treatment sized per MRP C.3.d (including 85th percentile hourly intensity ranking method). Bioretention and flow-through planters may use flow-, volume-, or combination sizing. Regulated Projects typically create/replace ≥5,000 sf impervious (≥10,000 sf detached single-family; ≥1 acre road reconstruction).",
+    "peak_flow_calculation_method": [
+      "MRP Provision C.3.d hydraulic sizing (flow-based, volume-based, or combination)",
+      "Bay Area Hydrology Model (BAHM 2023) for hydromodification management / flow duration control where HM applies",
+      "California Stormwater BMP Handbook Approach continuous simulation sizing curves (Santa Clara Valley rain gages)"
+    ],
+    "required_hydrologic_hydraulic_software": [
+      "Bay Area Hydrology Model (BAHM 2023) where hydromodification management sizing is required"
+    ],
+    "approved_bmp_categories": [
+      "Bioretention area",
+      "Flow-through planter box",
+      "Tree well filter",
+      "Infiltration trench",
+      "Subsurface infiltration system",
+      "Rainwater harvesting and reuse",
+      "Media filter (non-LID; Special Projects)",
+      "Extended detention basin (non-LID)",
+      "Pervious paving / self-treating and self-retaining areas",
+      "Green roofs (site design / treatment guidance)"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "Campbell • Cupertino • Los Altos • Los Altos Hills • Los Gatos • Milpitas • Monte Sereno • Mountain View • Palo Alto San José • Santa Clara • Sunnyvale • Santa Clara County • Santa Clara Valley Water District",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.jurisdiction_level",
+      "excerpt": "Member agencies (Co-permittees) include Campbell, Cupertino, Los Altos, Los Altos Hills, Los Gatos, Milpitas, Monte Sereno, Mountain View, Palo Alto, San Jose, Santa Clara, Saratoga, Sunnyvale, the County of Santa Clara, and Valley Water.",
+      "page_or_section": "Credits / Program background"
+    },
+    {
+      "field": "document_metadata.state_code",
+      "excerpt": "discharge stormwater to South San Francisco Bay",
+      "page_or_section": "Program background"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "C.3 Stormwater Handbook",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.version_or_edition",
+      "excerpt": "October 2024",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.adoption_or_effective_date",
+      "excerpt": "October 2024",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.last_revised_date",
+      "excerpt": "October 2024",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.relationship_to_state_manual",
+      "excerpt": "Guidance for Implementing Stormwater Requirements for New Development and Redevelopment Projects",
+      "page_or_section": "Cover / subtitle"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "Determine the stormwater quality volume equal to 80% of the annual runoff, in accordance with the methodology in Appendix D of the California Stormwater Best Management Practices Handbook (2003) using local rainfall data (known as the California BMP Handbook Approach).",
+      "page_or_section": "Chapter 5 Volume-Based Sizing Criteria"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "Volume-based treatment measures should be designed to treat the stormwater quality volume equal to 80% of the annual runoff from the site, using the sizing curves in Appendix B specific to Santa Clara Valley conditions.",
+      "page_or_section": "Chapter 5 Recommended Volume-Based Sizing Approach"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "A method of designing flow-based treatment controls that ranks long-term hourly rainfall intensities, selects the 85th percentile value",
+      "page_or_section": "Glossary / flow-based sizing"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "Bay Area Hydrology Model (BAHM 2023), developed by the Urban Runoff Program… The BAHM has been… sizing is in compliance with the MRP.",
+      "page_or_section": "Hydromodification / BAHM discussion"
+    },
+    {
+      "field": "design_criteria.required_hydrologic_hydraulic_software",
+      "excerpt": "The BAHM 2023 may be downloaded at:",
+      "page_or_section": "HM / BAHM section"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Bioretention area; Flow-through planter box; Tree well filter; Infiltration trench; Subsurface infiltration system; Rainwater harvesting and reuse; Media filter; Extended detention basin",
+      "page_or_section": "Table 5-1"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "high",
+    "needs_human_review": false,
+    "review_notes": "SCVURPPP C.3 Handbook is the shared MRP C.3 design guidance for San Jose and other Santa Clara Valley co-permittees. Design storms are provision C.3.d / HM criteria rather than classical return-period drainage design; return-period list left empty. BAHM required for HM where applicable, not for all C.3 treatment sizing.",
+    "fields_not_found": [
+      "design_criteria.design_storm_return_periods_years"
+    ]
+  },
+  "source": {
+    "document_url": "https://scvurppp.org/wp-content/uploads/2024/11/SCVURPPP-C3-Handbook-chapters-2024-Oct-update.pdf",
+    "landing_page_url": "https://scvurppp.org/2024/10/28/c-3-stormwater-handbook-2024/",
+    "retrieved_at": "2026-08-10T07:50:00.000Z",
+    "original_filename": "san-jose-ca.pdf"
+  }
+}

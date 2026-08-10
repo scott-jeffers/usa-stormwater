@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import { Fraunces, Source_Sans_3 } from "next/font/google";
 import { SiteHeader } from "@/components/SiteHeader";
 import "./globals.css";
@@ -67,7 +68,10 @@ function Footer() {
             Stormwater Atlas
           </span>{" "}
           — data extracted from public agency manuals for research reference
-          only; always verify against the current official document.
+          only; always verify against the current official document.{" "}
+          <Link href="/about/" className="text-water-link hover:underline">
+            About &amp; data API
+          </Link>
         </p>
         <p>stormwateratlas.com</p>
       </div>
