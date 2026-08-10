@@ -1,0 +1,153 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "City of Lacey",
+    "jurisdiction_level": "municipality",
+    "state_code": "WA",
+    "document_title": "City of Lacey 2010 Stormwater Design Manual",
+    "version_or_edition": "2010 (Chapters 1–5 excerpt)",
+    "adoption_or_effective_date": "2010",
+    "last_revised_date": null,
+    "relationship_to_state_manual": "deemed_equivalent_to_state_manual"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [2, 5, 10, 25, 50, 100],
+    "water_quality_volume_method": "Water Quality Design Storm Volume is the 91st percentile, 24-hour runoff volume calculated using WWHM with Thurston County enhancements (most current version). Water Quality Design Flow Rate is the flow rate at or below which 91% of the runoff volume (WWHM/Thurston) will be treated when preceding detention or when detention is not required; downstream of detention, use the full 2-year release rate from the detention facility. Treatment facility design criteria are assigned to achieve the applicable performance goal at that rate (e.g., 80% TSS removal).",
+    "peak_flow_calculation_method": [
+      "Western Washington Hydrology Model (WWHM) continuous simulation (default; Thurston County enhancements)",
+      "Calibrated continuous simulation based on EPA HSPF (prior City approval; large/complicated sites)",
+      "Santa Barbara Urban Hydrograph (SBUH)",
+      "NRCS TR-55",
+      "Rational Method (when no hydrologic analysis is otherwise required)"
+    ],
+    "required_hydrologic_hydraulic_software": [
+      "Western Washington Hydrology Model (WWHM) with Thurston County enhancements / WWHM3",
+      "EPA HSPF (calibrated continuous model; prior approval)"
+    ],
+    "approved_bmp_categories": [
+      "Construction ESC BMPs (preserving vegetation, buffer zones, seeding/mulching, silt fence, sediment trap/pond, inlet protection, chemical treatment/filtration)",
+      "Runoff conveyance and treatment BMPs (interceptor dike/swale, grass-lined channels, check dams, outlet protection)",
+      "LID site design BMPs (native vegetation, reduce effective impervious, full dispersion)",
+      "Roof downspout controls (infiltration, dispersion, perforated stub-outs)",
+      "Bioretention / permeable paving / vegetated (green) roofs",
+      "Detention ponds, tanks, vaults, and parking lot detention",
+      "Infiltration basins and trenches",
+      "Pre-treatment BMPs (pre-settling basin/wetvault, hydrodynamic devices)",
+      "Biofiltration swales and filter strips",
+      "Wetponds, wetvaults, stormwater treatment wetlands",
+      "Media filtration (sand filters, commercial media filters)",
+      "Oil control (catch basin inserts, oil/water separators)",
+      "Source control BMPs"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "City of Lacey 2010 Stormwater Design Manual",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.jurisdiction_level",
+      "excerpt": "minimum \"Core Requirements\" for development, redevelopment and road projects of all sizes within the City of Lacey",
+      "page_or_section": "Introduction, Page xv"
+    },
+    {
+      "field": "document_metadata.state_code",
+      "excerpt": "Washington State Department of Ecology Stormwater Management Manual for Western Washington (SMMWW)",
+      "page_or_section": "Introduction, Page xv"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "City of Lacey 2010 Stormwater Design Manual",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.version_or_edition",
+      "excerpt": "The City of Lacey 2010 Stormwater Design Manual (SDM) is a completely revised and updated replacement for the 1994 Drainage Design and Erosion Control Manual for Lacey.",
+      "page_or_section": "Introduction, Page xv"
+    },
+    {
+      "field": "document_metadata.adoption_or_effective_date",
+      "excerpt": "This manual has been adopted by local ordinance and has force of law.",
+      "page_or_section": "Introduction, Page xvi"
+    },
+    {
+      "field": "document_metadata.relationship_to_state_manual",
+      "excerpt": "The 2010 SDM is based on the 2005 edition of the Washington State Department of Ecology Stormwater Management Manual for Western Washington (SMMWW). In creating the 2010 SDM, the City of Lacey Department of Public Works has edited and reorganized Ecology's 2005 SMMWW for ease of use and local application.",
+      "page_or_section": "Introduction, Page xv"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "Table 5.4 Lacey Design Storm Volumes... 24-hour Rainfall Return Frequency (years) Precipitation (inches)... 2 2.80... 5 3.75... 10 4.35... 25 5.10... 50 5.65... 100 6.15",
+      "page_or_section": "Chapter 5, Table 5.4, Page 5-7"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "The WWHM computes the predevelopment 2- through 100-year flow frequency values and computes the post-development runoff 2- through 100-year flow frequency values from the outlet of the proposed stormwater facility.",
+      "page_or_section": "Chapter 5, Section 5.1.1, Page 5-3"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "Conveyance systems shall be designed, at a minimum, for the 10-year 24-hour event. Drains and culverts passing under public roads and arterial streets shall be designed for the 25-year event. Culverts for and bridges over natural channels shall be designed to convey the 100-year event.",
+      "page_or_section": "Chapter 5, Section 5.2.1, Page 5-10"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "Water Quality Design Storm Volume: the 91st percentile, 24-hour runoff volume calculated using WWHM with Thurston County enhancements, most current version.",
+      "page_or_section": "Chapter 1, Core Requirement #6, Page 1-18"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "The flow rate at or below which 91% of the runoff volume, as estimated by WWHM with Thurston County enhancements, most current version will be treated. Design criteria for treatment facilities are assigned to achieve the applicable performance goal at the water quality design flow rate (e.g., 80% TSS removal).",
+      "page_or_section": "Chapter 1, Core Requirement #6, Page 1-18"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "For the purpose of designing runoff treatment and flow control BMPs, the most current version of the Western Washington Hydrology Model (WWHM) with Thurston County enhancements is the standard requirement.... Alternatively, for very large or complicated sites, a calibrated continuous simulation hydrologic model based on the EPA's HSPF... may be used subject to prior approval of the City of Lacey.",
+      "page_or_section": "Chapter 5, Section 5.1, Pages 5-1 to 5-2"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "Approved single-event methods include Santa Barbara Urban Hydrograph (SBUH) and NRCS TR-55 methods.",
+      "page_or_section": "Chapter 5, Section 5.1, Page 5-2"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "If no hydrologic analysis is required for the site, the Rational Method may be used.",
+      "page_or_section": "Chapter 4, BMP C250 Sizing Criteria, Page 4-109"
+    },
+    {
+      "field": "design_criteria.required_hydrologic_hydraulic_software",
+      "excerpt": "Runoff and volume calculations shall be provided by the Western Washington Hydrology Model (WWHM) with Thurston County enhancements, most current version. The Thurston County version of the Western Washington Hydrology Model (WWHM3), has been modified to track and compute recharge",
+      "page_or_section": "Chapter 1, Core Requirement #7, Page 1-21"
+    },
+    {
+      "field": "design_criteria.required_hydrologic_hydraulic_software",
+      "excerpt": "WWHM is the default analysis method. The project engineer must obtain pre-approval to use alternative methods.",
+      "page_or_section": "Chapter 5, Page 5-1"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Chapter 6 - Flow Control Design... LID Site Design BMPs... Detention Facilities... Infiltration Facilities... Chapter 7 - Water Quality Treatment... Pre-Treatment BMPs... Biofiltration Facilities... Wetpool Facilities... Media Filtration Treatment BMPs... Oil Control Facilities",
+      "page_or_section": "Table of Contents, Pages v–vii"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "4.3 Standards and Specifications for ESC BMPs... 4.4 Runoff Conveyance and Treatment BMPs... BMP C233: Silt Fence... BMP C240: Sediment Trap... BMP C241: Temporary Sediment Pond",
+      "page_or_section": "Table of Contents, Chapter 4"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "high",
+    "needs_human_review": false,
+    "review_notes": "Source PDF is Chapters 1–5 only; Chapter 6–10 BMP design details appear in the TOC and cross-references but full BMP specification chapters are not in this text extract. Design storms, WQ/WWHM criteria, and hydrologic methods are fully supported in Chapters 1 and 5.",
+    "fields_not_found": [
+      "document_metadata.last_revised_date"
+    ]
+  },
+  "source": {
+    "document_url": "https://cityoflacey.org/wp-content/uploads/sites/3/2022/04/2010_lacey_stormwater_design_manual_chapters_1-5.pdf",
+    "landing_page_url": "https://cityoflacey.org/",
+    "retrieved_at": "2026-08-08T10:35:23.259Z",
+    "original_filename": "lacey-wa.pdf"
+  }
+}

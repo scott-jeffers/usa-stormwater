@@ -1,0 +1,148 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "Minnesota",
+    "jurisdiction_level": "state",
+    "state_code": "MN",
+    "document_title": "Minnesota Stormwater Manual",
+    "version_or_edition": "Version 2, January 2008",
+    "adoption_or_effective_date": "2008-01-01",
+    "last_revised_date": "2008-01-01",
+    "relationship_to_state_manual": "independent"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [
+      1,
+      2,
+      5,
+      10,
+      25,
+      100
+    ],
+    "water_quality_volume_method": "Unified sizing water quality volume (Vwq) based on rainfall depth representing 90% of annual runoff-producing events statewide (1.09 inches ± 0.04 inches) or 95% (1.46 inches ± 0.08 inches), with separate snowmelt Vwq computed for cold-climate sites and BMPs sized for the larger of rainfall or snowmelt volumes; framework also includes recharge (Vre), channel protection (Vcp), 10-year overbank flood (Vp10), and 100-year extreme flood (Vp100) criteria.",
+    "peak_flow_calculation_method": [
+      "Rational Method",
+      "NRCS Technical Release 55 (TR-55)",
+      "NRCS Technical Release 20 (TR-20)",
+      "SCS Type II 24-hour rainfall distribution"
+    ],
+    "required_hydrologic_hydraulic_software": [
+      "TR-55",
+      "TR-20",
+      "HEC-1",
+      "HEC-HMS",
+      "WinTR-55",
+      "HEC-RAS"
+    ],
+    "approved_bmp_categories": [
+      "Pollution Prevention",
+      "Better Site Design / Low Impact Development",
+      "Runoff Volume Minimization",
+      "Bioretention Practices",
+      "Filtration Practices",
+      "Infiltration Practices",
+      "Stormwater Ponds",
+      "Stormwater Wetlands",
+      "Temporary Construction Erosion and Sediment Control",
+      "Supplemental Pre- and Post-Treatment BMPs"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "Minnesota Stormwater Manual",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.jurisdiction_level",
+      "excerpt": "Published by the Minnesota Pollution Control Agency",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.state_code",
+      "excerpt": "St. Paul, MN 55155-4194",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "Minnesota Stormwater Manual",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.version_or_edition",
+      "excerpt": "Version 2. January 2008",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.adoption_or_effective_date",
+      "excerpt": "Version 2. January 2008",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.last_revised_date",
+      "excerpt": "Version 2. January 2008",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.relationship_to_state_manual",
+      "excerpt": "Created by the Minnesota Stormwater Steering Committee",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "1-Year design storm; 2-Year design storm; 5-Year design storm; 10-Year design storm; 25-Year design storm; 100-Year design storm",
+      "page_or_section": "Chapter 8, Section 3.1.1 Precipitation"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "The rainfall depth which represents 90% and 95% of runoff producing events was 1.09 inches (+/- 0.04 inches) and 1.46 inches (+/- 0.08 inches), respectively.",
+      "page_or_section": "Chapter 8, Section 3.2.2 Water Quality Event"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "designers must make two water quality volume computations: snowmelt and rainfall runoff. The BMP would then be sized for the larger of the two results.",
+      "page_or_section": "Chapter 8, Section 3.2.2 Water Quality Event"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "Unified Stormwater Sizing Criteria ... Recharge and Infiltration Criterion (Vre) ... Water Quality Criteria ... Channel Protection Criteria (Vcp) ... Overbank Flood Protection Criteria (Vp10) ... Extreme Flood Control Criteria (Vp100)",
+      "page_or_section": "Chapter 10 Table of Contents"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "The Rational Method is used to estimate peak runoff rates for very small sites. The simple equation for peak discharge is Q=CiA.",
+      "page_or_section": "Chapter 8, Section 3.2.4 Runoff Coefficient"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "Curve number tables are published in TR-55: Urban Hydrology for Small Watersheds",
+      "page_or_section": "Chapter 8, Section 3.2.5 Curve Numbers"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "The standard rainfall distribution used for urban areas in Minnesota for sizing and evaluation of BMPs (Chapter 10) is the Natural Resource Conservation Service's (NRCS) recommended SCS Type II rainfall distribution for urban areas.",
+      "page_or_section": "Chapter 8, Section 3.2.1 Rainfall Distribution"
+    },
+    {
+      "field": "design_criteria.required_hydrologic_hydraulic_software",
+      "excerpt": "TR-55 (original or DOS) ... HEC-1 ... HEC-HMS ... WinTR-20 (or TR-20) ... WinTR-55 ... HEC-RAS",
+      "page_or_section": "Chapter 8, Table 8.1 Modeling Tool Selection"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Pollution Prevention: Chapter 12-1 ... Better Site Design: Chapter 12-2 ... Bioretention Practices: Chapter 12-6 ... Filtration Practices: Chapter 12-7 ... Infiltration Practices: Chapter 12-8 ... Stormwater Ponds: Chapter 12-9 ... Stormwater Wetlands: Chapter 12-10",
+      "page_or_section": "Chapter 12 Table of Contents"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "high",
+    "needs_human_review": false,
+    "review_notes": null,
+    "fields_not_found": []
+  },
+  "source": {
+    "document_url": "https://stormwater.pca.state.mn.us/sites/stormwater/files/Minnesota_Stormwater_Manual.pdf",
+    "landing_page_url": "https://stormwater.pca.state.mn.us/the_minnesota_stormwater_manual_1st_and_2nd_versions",
+    "retrieved_at": "2026-08-08T01:30:00.000Z",
+    "original_filename": "mn-state-2008.pdf"
+  }
+}

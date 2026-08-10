@@ -1,0 +1,145 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "Alaska",
+    "jurisdiction_level": "state",
+    "state_code": "AK",
+    "document_title": "Alaska Storm Water Guide",
+    "version_or_edition": "December 2011",
+    "adoption_or_effective_date": "2011-12",
+    "last_revised_date": "2011-12",
+    "relationship_to_state_manual": "independent"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [1, 2, 5, 100],
+    "water_quality_volume_method": "Treat runoff from 90% of average-year storms (goal: 80% average annual post-development TSS reduction). WQv = (Rv) × (A) × (P) / 12, where P is the 90% cumulative frequency rainfall depth (~0.5–1.25 in by climatic region; Table 2-4). Where end-of-season snowmelt volume exceeds the 90% rainfall volume, size BMPs on meltwater instead.",
+    "peak_flow_calculation_method": [
+      "Rational Method",
+      "TR-55 (USDA 1986)",
+      "WinTR-20 / SCS methods",
+      "HEC-HMS",
+      "EPA SWMM"
+    ],
+    "required_hydrologic_hydraulic_software": [
+      "ILLUDAS",
+      "TR55-1986",
+      "WinTR55",
+      "WinTR20 SCS",
+      "HEC-HMS"
+    ],
+    "approved_bmp_categories": [
+      "Wet Pond",
+      "Extended Storage Pond / Dry ED Ponds",
+      "Dry Pond",
+      "Wet Vaults",
+      "Oil/Grit Separator",
+      "Dry Swale / Wet Swale",
+      "On-Lot Infiltration",
+      "Infiltration Basin",
+      "Infiltration Trench",
+      "Storm Water Wetland / Constructed Wetlands",
+      "Surface Sand Filters / Underground Filters / Filtering Practices",
+      "Bioretention",
+      "Filter Strips",
+      "Green Roofs",
+      "Rain Tank/Cistern",
+      "Permeable Pavers",
+      "Erosion and Sediment Control BMPs",
+      "Good Housekeeping BMPs",
+      "Low Impact Development / Environmental Site Design"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "Alaska Department of Environmental Conservation Division of Water",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.jurisdiction_level",
+      "excerpt": "This Guide was developed with support of a technical workgroup under the direction of the Alaska Department of Environmental Conservation.",
+      "page_or_section": "Preface, page i"
+    },
+    {
+      "field": "document_metadata.state_code",
+      "excerpt": "Anchorage, Alaska 99501",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "Alaska Storm Water Guide December 2011",
+      "page_or_section": "Title Page / running header"
+    },
+    {
+      "field": "document_metadata.version_or_edition",
+      "excerpt": "December 2011",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.adoption_or_effective_date",
+      "excerpt": "December 2011",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.last_revised_date",
+      "excerpt": "Alaska Storm Water Guide December 2011",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.relationship_to_state_manual",
+      "excerpt": "The concepts presented in this Guide are intended to be guidance for readers rather than stringent rules.",
+      "page_or_section": "Preface, page i"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "Provide 24 hours of extended detention of the runoff from the 1-year, 24-hour duration storm event... Provide peak discharge control of the 5-year storm event... Some jurisdictions may require peak discharge control for the 2-year storm event... Evaluate the effects of the 100-year storm",
+      "page_or_section": "Table 3-4, Unified sizing criteria, Section 3.3"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "Treat the runoff from 90% of the storms that occur in an average year. For Alaska, this equates to providing water quality treatment for the runoff resulting from a rainfall depth of 1.25 inches or less. The goal is to reduce average annual post-development TSS loadings by 80%. WQv = (Rv) × (A) × (P) / 12",
+      "page_or_section": "Table 3-4; Section 3.3.1"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "The rainfall depth associated with the 90 percent storm varies geographically across Alaska, but it typically ranges between 0.5 and 1.25 inches.",
+      "page_or_section": "Chapter 2, page 2-9"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "A partial list of hydrologic modeling software accepted by some Alaskan municipalities includes the following: ILLUDAS TR55-1986 WinTR553 WinTR20 SCS HEC-HMS Rational Method",
+      "page_or_section": "Section 3.2, page 3-5"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "Soil Conservation Service methods including TR-55... EPA SWMM",
+      "page_or_section": "Accepted Analytical Methods for Assessing Channel Protection / Flood Potential"
+    },
+    {
+      "field": "design_criteria.required_hydrologic_hydraulic_software",
+      "excerpt": "A partial list of hydrologic modeling software accepted by some Alaskan municipalities includes the following: ILLUDAS TR55-1986 WinTR553 WinTR20 SCS HEC-HMS",
+      "page_or_section": "Section 3.2, page 3-5"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Wet Pond... Extended Storage Pond... Dry Pond... Oil/Grit Separator... Dry Swale... On-Lot Infiltration... Infiltration Basin... Infiltration Trench... Storm Water Wetland... Surface Sand Filters... Bioretention... Filter Strips",
+      "page_or_section": "Table 5-1, Storm water treatment suitability matrix"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Bioretention... Infiltration... Filtering Practices... Dry ED Ponds... Constructed Wetlands... Wet Ponds... Green Roofs... Rain Tank/Cistern... Permeable Pavers... Dry Swale... Filter Strips... Underground",
+      "page_or_section": "Table 5-2, Section 5.4"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "high",
+    "needs_human_review": false,
+    "review_notes": "Statewide guidance (not binding code). Hydrologic software listed is accepted by some municipalities, not a statewide mandate. Unified sizing criteria and regional WQv depths are recommendations; local ordinances (e.g., Anchorage) may differ.",
+    "fields_not_found": []
+  },
+  "source": {
+    "document_url": "https://plants.alaska.gov/pdf/akswguide.pdf",
+    "landing_page_url": "https://plants.alaska.gov/",
+    "retrieved_at": "2026-08-08T10:16:00.000Z",
+    "original_filename": "ak-state.pdf"
+  }
+}

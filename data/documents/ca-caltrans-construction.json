@@ -1,0 +1,126 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "California Department of Transportation (Caltrans)",
+    "jurisdiction_level": "state",
+    "state_code": "CA",
+    "document_title": "Construction Site Best Management Practices (BMP) Manual",
+    "version_or_edition": "March 2024 (CTSW-RT-24-425.11.1)",
+    "adoption_or_effective_date": "2024-03-01",
+    "last_revised_date": "2024-03-01",
+    "relationship_to_state_manual": "adopts_state_manual_directly"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [
+      2
+    ],
+    "water_quality_volume_method": null,
+    "peak_flow_calculation_method": [
+      "Revised Universal Soil Loss Equation v2 (RUSLE2)"
+    ],
+    "required_hydrologic_hydraulic_software": [
+      "RUSLE2"
+    ],
+    "approved_bmp_categories": [
+      "Temporary Soil Stabilization",
+      "Temporary Sediment Control",
+      "Wind Erosion Control",
+      "Tracking Control",
+      "Non-Stormwater Management",
+      "Waste Management and Materials Pollution Control",
+      "Biofiltration Systems",
+      "Design Pollution Prevention Infiltration Areas",
+      "Infiltration Devices",
+      "Detention Devices",
+      "Traction Sand Traps",
+      "Dry Weather Flow Diversion",
+      "Full-capture Trash Devices",
+      "Media Filters",
+      "Multi-chamber Treatment Train",
+      "Wet Basins",
+      "Bioretention",
+      "Open Graded Friction Course",
+      "Porous Pavement"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "California Department of Transportation Division of Environmental Analysis, Storm Water Program",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.jurisdiction_level",
+      "excerpt": "California Department of Transportation",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.state_code",
+      "excerpt": "Sacramento, California 95814",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "Construction Site Best Management Practices (BMP) Manual",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.version_or_edition",
+      "excerpt": "March 2024 CTSW-RT-24-425.11.1",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.adoption_or_effective_date",
+      "excerpt": "Report Date: March 2024",
+      "page_or_section": "Caltrans Technical Report Documentation Page"
+    },
+    {
+      "field": "document_metadata.last_revised_date",
+      "excerpt": "Report Date: March 2024",
+      "page_or_section": "Caltrans Technical Report Documentation Page"
+    },
+    {
+      "field": "document_metadata.relationship_to_state_manual",
+      "excerpt": "construction projects with 1 acre or more of soil disturbance to comply with the CGP Order WQ 2022-0057-DWQ and amendments thereto",
+      "page_or_section": "Section 1.2.2, Page 1-2"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "A 2-year, 24-hour storm event has been used by many as a default event, but recent studies have shown that this may oversize the system",
+      "page_or_section": "Section 7.1.5 NS-5 Clear Water Diversion, Page 7-5"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "The equivalent sediment load may be calculated using the Revised Universal Soil Loss Equation, version 2 (RUSLE2) or another method approved by the Regional Water Board.",
+      "page_or_section": "Section 2.3.1 Surface Water Buffers, Page 2-7"
+    },
+    {
+      "field": "design_criteria.required_hydrologic_hydraulic_software",
+      "excerpt": "calculated using the Revised Universal Soil Loss Equation, version 2 (RUSLE2)",
+      "page_or_section": "Section 2.3.1 Surface Water Buffers, Page 2-7"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Caltrans Construction Site BMPs are divided into six categories, as shown in Table 2-1: Temporary Soil Stabilization, Temporary Sediment Control, Wind Erosion Control, Tracking Control, Non-Stormwater Management, Waste Management and Materials Pollution Control",
+      "page_or_section": "Section 2.2, Table 2-1, Pages 2-5 to 2-7"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Table 10-1. Approved TBMPs: Biofiltration Systems, Design Pollution Prevention Infiltration Areas, Infiltration Devices, Detention Devices, Traction Sand Traps, Dry Weather Flow Diversion, Full-capture Trash Devices, Media Filters, Multi-chamber Treatment Train, Wet Basins, Bioretention, Open Graded Friction Course, Porous Pavement (Non-Highway Facilities Only)",
+      "page_or_section": "Table 10-1, Section 10.2, Page 10-1"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "high",
+    "needs_human_review": false,
+    "review_notes": "Construction-phase BMP manual for Caltrans right-of-way projects. Post-construction TBMP sizing and water quality volume methods are in the Project Planning and Design Guide (PPDG), not this manual. RUSLE2 is required for surface-water-buffer equivalency; 2-year storm cited only as a common clear-water-diversion default.",
+    "fields_not_found": [
+      "design_criteria.water_quality_volume_method"
+    ]
+  },
+  "source": {
+    "document_url": "https://dot.ca.gov/-/media/dot-media/programs/construction/documents/environmental-compliance/construction-site-bmps_final-march-2024_a11y.pdf",
+    "landing_page_url": "https://dot.ca.gov/programs/construction/storm-water-and-water-pollution-control/manuals-and-handbooks",
+    "retrieved_at": "2026-08-08T01:30:00.000Z",
+    "original_filename": "ca-caltrans-construction.pdf"
+  }
+}

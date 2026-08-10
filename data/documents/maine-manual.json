@@ -1,0 +1,119 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "Maine",
+    "jurisdiction_level": "state",
+    "state_code": "ME",
+    "document_title": "Maine Stormwater Management Design Manual, Volume III – Technical Design Manual",
+    "version_or_edition": "May 2016",
+    "adoption_or_effective_date": null,
+    "last_revised_date": "2016-05-01",
+    "relationship_to_state_manual": "independent"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [
+      1,
+      2,
+      10,
+      25
+    ],
+    "water_quality_volume_method": "Treat the first 1 inch of runoff from impervious surfaces and 0.4 inch from landscaped areas.",
+    "peak_flow_calculation_method": [
+      "Rational Method",
+      "SCS TR-20",
+      "SCS TR-55"
+    ],
+    "required_hydrologic_hydraulic_software": [
+      "TR-20",
+      "TR-55"
+    ],
+    "approved_bmp_categories": [
+      "Detention Basins for Flooding Control",
+      "Wet Ponds",
+      "Vegetated Buffers",
+      "Infiltration BMPs",
+      "Filtration BMPs",
+      "Conveyance and Distribution Systems",
+      "Separator BMPs",
+      "LID Practices and Techniques"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "MAINE STORMWATER MANAGEMENT MANUAL",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.jurisdiction_level",
+      "excerpt": "MAINE DEPARTMENT OF ENVIRONMENTAL PROTECTION",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.state_code",
+      "excerpt": "Augusta, Maine 04333-0017",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "MAINE STORMWATER MANAGEMENT DESIGN MANUAL Volume III – Technical Design Manual",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.version_or_edition",
+      "excerpt": "MAY 2016",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.last_revised_date",
+      "excerpt": "This May 2016 edition supersedes these manuals",
+      "page_or_section": "Acknowledgments"
+    },
+    {
+      "field": "document_metadata.relationship_to_state_manual",
+      "excerpt": "This manual is intended to be a guidance document for the design and implementation of sound technical stormwater management systems",
+      "page_or_section": "Disclaimer"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "treat the first 1 inch of runoff from impervious surfaces",
+      "page_or_section": "Chapter 2.1"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "control the peak flow discharges from the 2, 10 and 25-year 24-hour storms",
+      "page_or_section": "Chapter 2.1"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "Stormwater management facilities must be designed to treat the first 1 inch of runoff from impervious surfaces and 0.4 inch from landscaped areas.",
+      "page_or_section": "Chapter 2.1"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "familiarity with the Rational Method, SCS TR-20 and SCS TR-55 methodology",
+      "page_or_section": "Chapter 2"
+    },
+    {
+      "field": "design_criteria.required_hydrologic_hydraulic_software",
+      "excerpt": "familiarity with the Rational Method, SCS TR-20 and SCS TR-55 methodology",
+      "page_or_section": "Chapter 2"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Chapter 3 Detention Basins for Flooding Control ... Chapter 6 Infiltration BMPs ... Chapter 7 Filtration BMPs ... Chapter 10 LID Practices and Techniques",
+      "page_or_section": "Table of Contents"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "high",
+    "needs_human_review": false,
+    "review_notes": null,
+    "fields_not_found": []
+  },
+  "source": {
+    "document_url": "https://www.maine.gov/dep/land/stormwater/stormwaterbmps/vol3/volume%20III%20May%202016.pdf",
+    "landing_page_url": "https://www.maine.gov/dep/land/stormwater/stormwaterbmps/",
+    "retrieved_at": "2026-08-08T00:57:16.365Z",
+    "original_filename": "maine-manual.extraction.json"
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "Salt Lake City",
+    "jurisdiction_level": "municipality",
+    "state_code": "UT",
+    "document_title": "Salt Lake City Municipal Separate Storm Sewer System (MS4) Storm Water Management Plan",
+    "version_or_edition": "December 2021, Version 2024.1",
+    "adoption_or_effective_date": "2021-12",
+    "last_revised_date": "2024",
+    "relationship_to_state_manual": "independent"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [100],
+    "water_quality_volume_method": "Retain on site less than or equal to the 80th percentile storm event (or predevelopment hydrologic condition, whichever is less) for new development ≥1 acre (or common plan ≥1 acre). Redevelopment that increases impervious area by more than 10% must retain the net increase in volume for events ≤ the 80th percentile storm. Detention: limit discharge to 0.2 cfs/acre during the 100-year storm for sites with >15,000 sq ft impervious.",
+    "peak_flow_calculation_method": [
+      "Rational Method (projects <1 acre)",
+      "SCS Curve Number method (projects ≥1 acre)"
+    ],
+    "required_hydrologic_hydraulic_software": [],
+    "approved_bmp_categories": [
+      "On-site Detention Facilities",
+      "Retention / Volume Reduction",
+      "Low Impact Development (LID)",
+      "Green Infrastructure (GI)",
+      "Structural Water Quality BMPs",
+      "Construction Site Erosion and Sediment Controls",
+      "Pollution Prevention / Good Housekeeping SOPs"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "SALT LAKE CITY MUNICIPAL SEPARATE STORM SEWER SYSTEM (MS4)",
+      "page_or_section": "Cover, Page 1"
+    },
+    {
+      "field": "document_metadata.jurisdiction_level",
+      "excerpt": "Permit for Discharge from Salt Lake City's Separate Storm Sewer System (MS4) Permit Number UTS000002",
+      "page_or_section": "Introduction"
+    },
+    {
+      "field": "document_metadata.state_code",
+      "excerpt": "Utah Pollutant Discharge Elimination System (UPDES) Permit... Utah Department of Environmental Quality (DEQ), Division of Water Quality (DWQ)",
+      "page_or_section": "Section 1.0"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "STORM WATER MANAGEMENT PLAN",
+      "page_or_section": "Cover, Page 1"
+    },
+    {
+      "field": "document_metadata.version_or_edition",
+      "excerpt": "December 2021, Version 2024.1",
+      "page_or_section": "Cover, Page 1"
+    },
+    {
+      "field": "document_metadata.adoption_or_effective_date",
+      "excerpt": "December 2021, Version 2024.1",
+      "page_or_section": "Cover, Page 1"
+    },
+    {
+      "field": "document_metadata.last_revised_date",
+      "excerpt": "Version 2024.1",
+      "page_or_section": "Cover, Page 1"
+    },
+    {
+      "field": "document_metadata.relationship_to_state_manual",
+      "excerpt": "The City's Storm Water Management Plan (SWMP) was developed to comply with the 2021 Municipal Separate Storm Sewer System (MS4) Utah Pollutant Discharge Elimination System (UPDES) Permit",
+      "page_or_section": "Section 1.0"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "Salt Lake City requires all commercial, industrial, and residential developments with impervious areas greater than 15,000 square feet to provide onsite detention facilities to limit the discharge to a pre-development rate of 0.2 cubic feet per second per acre during the 100-year storm.",
+      "page_or_section": "SWMP Summary / Section 7.1.2"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "requiring new and redevelopment sites greater than 1-acre (or part of a common plan of development collectively disturbing greater than or equal to 1-acre) to retain less than or equal to the 80th Percentile storm event, or a predevelopment hydrologic condition, whichever is less.",
+      "page_or_section": "SWMP Summary, Pages 11–12"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "If the redevelopment project increases the impervious area by more than 10%, the project will be required to manage rainfall on-site and retain the net increase in volume associated with the precipitation from all rainfall events less than or equal to the 80th percentile storm event.",
+      "page_or_section": "Section 7.1.2, Page 51"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "The SLC Design and Process Manual provides specific hydrologic methods (Rational Method for <1-acre projects and SCS Curve Number for all others) for calculating runoff volumes, and for determining the 80th Percentile Storm depth and associated water quality volume.",
+      "page_or_section": "Section 7.1.2, Page 51"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Salt Lake City will implement requirements for structural BMPs for on-site detention, retention, and water quality improvement, where applicable... The City requires the evaluation and inclusion of GI or LID control BMPs to meet these goals, where feasible.",
+      "page_or_section": "Section 7.1.2, Pages 50–51"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "The City allows for the use of any suitable BMP from the DWQ LID guidance manual (A Guide to Low Impact Development in Utah).",
+      "page_or_section": "Section 7.1.2, Page 51"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "medium",
+    "needs_human_review": true,
+    "review_notes": "Program plan (MS4 SWMP), not a full drainage design manual. Design criteria summarized from post-construction program text and references to the separate SLC Building Process & Design Manual / DWQ LID guide; numeric 80th-percentile rainfall depth and full BMP design specs live in those companion documents.",
+    "fields_not_found": [
+      "design_criteria.required_hydrologic_hydraulic_software",
+      "design_criteria.design_storm_return_periods_years (only 100-year detention criterion stated; 80th percentile is a percentile storm, not a return-period year)"
+    ]
+  },
+  "source": {
+    "document_url": "https://www.slcdocs.com/utilities/Stormwater/SaltLakeCity_MS4_UTS000002_SWMP_v2024.1.pdf",
+    "landing_page_url": "https://www.slc.gov/utilities/",
+    "retrieved_at": "2026-08-08T11:41:33.902Z",
+    "original_filename": "SaltLakeCity_MS4_UTS000002_SWMP_v2024.1.pdf"
+  }
+}

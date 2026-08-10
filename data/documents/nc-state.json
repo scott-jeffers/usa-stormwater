@@ -1,0 +1,106 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "North Carolina Department of Environmental Quality (NCDEQ)",
+    "jurisdiction_level": "state",
+    "state_code": "NC",
+    "document_title": "NCDEQ Stormwater Design Manual — C-0. Minimum Design Criteria for all SCMs",
+    "version_or_edition": "Revised: 1-3-2017",
+    "adoption_or_effective_date": "2017-01-03",
+    "last_revised_date": "2017-01-03",
+    "relationship_to_state_manual": "independent"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [
+      10
+    ],
+    "water_quality_volume_method": "Combined design volume of all SCMs must handle the required storm depth for the applicable stormwater program (depth varies by rule). Example: Rule 15A NCAC 02H .1021(6) requires a one-inch storm depth for runoff treatment in non-coastal HQW and ORW management zones. Design volume accounts for build-out runoff from all surfaces draining to the system; off-site drainage may be bypassed. Volume calculation methods are in Part B of the full manual (not in this chapter).",
+    "peak_flow_calculation_method": [],
+    "required_hydrologic_hydraulic_software": [],
+    "approved_bmp_categories": [
+      "Infiltration systems",
+      "Bioretention cells",
+      "Permeable pavement",
+      "Vegetated swales",
+      "Level spreader-filter strips",
+      "Berms",
+      "SCM-specific devices per Rules 15A NCAC 02H .1051–.1062 (Part C)"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "NCDEQ Stormwater BMP Manual",
+      "page_or_section": "Header, C-0"
+    },
+    {
+      "field": "document_metadata.jurisdiction_level",
+      "excerpt": "Rule 15A NCAC 2H .1050. MDC for All Stormwater Control Measures",
+      "page_or_section": "Important Links, Page 1"
+    },
+    {
+      "field": "document_metadata.state_code",
+      "excerpt": "NCDEQ Stormwater BMP Manual",
+      "page_or_section": "Header"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "C-0. Minimum Design Criteria for all SCMs",
+      "page_or_section": "Page 1"
+    },
+    {
+      "field": "document_metadata.version_or_edition",
+      "excerpt": "C-0. MDC for all SCMs 1 Revised: 1-3-2017",
+      "page_or_section": "Page header"
+    },
+    {
+      "field": "document_metadata.adoption_or_effective_date",
+      "excerpt": "Revised: 1-3-2017",
+      "page_or_section": "Page header"
+    },
+    {
+      "field": "document_metadata.last_revised_date",
+      "excerpt": "Revised: 1-3-2017",
+      "page_or_section": "Page header"
+    },
+    {
+      "field": "document_metadata.relationship_to_state_manual",
+      "excerpt": "This chapter contains Minimum Design Criteria (MDC) that apply to all Stormwater Control Measures (SCMs)... See Part C of this Manual for SCM-specific requirements.",
+      "page_or_section": "Design Objective, Page 1"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "The outlets of SCMs shall be designed so that they do not cause erosion immediately downslope of the discharge point during the peak flow from the 10-year storm event as shown by engineering calculations.",
+      "page_or_section": "GENERAL MDC 4: EROSION PROTECTION, Page 3"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "The combined design volume of all SCMs on the project shall be sufficient to handle the required storm depth... Rule 15A NCAC 02H .1021(6) requires that for projects designed to achieve runoff treatment, the required storm depth is one inch for non-coastal HQW and ORW management zones.",
+      "page_or_section": "GENERAL MDC 1. SIZING, Page 2"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Some SCMs that allow water to infiltrate include: infiltration systems, bioretention cells, permeable pavement, and depending upon native soils, vegetated swales, level spreader-filter strips, and berms.",
+      "page_or_section": "GENERAL MDC 2: CONTAMINATED SOILS, Page 2"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Every SCM shall follow the applicable device specific MDC pursuant to Rules .1051 through .1062 of this Section.",
+      "page_or_section": "GENERAL MDC 13, Page 6"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "medium",
+    "needs_human_review": true,
+    "review_notes": "Source is chapter C-0 only (MDC for all SCMs) of the multi-PDF NCDEQ Stormwater Design Manual. Required storm depth and SCM-specific MDC live in other parts/rules; this chapter states general sizing, outlet 10-year peak erosion protection, and lists example infiltrating SCM types. Peak-flow calculation methods and required software are not specified here (volume methods referred to Part B).",
+    "fields_not_found": [
+      "design_criteria.peak_flow_calculation_method",
+      "design_criteria.required_hydrologic_hydraulic_software"
+    ]
+  },
+  "source": {
+    "document_url": "https://www.deq.nc.gov/energy-mineral-and-land-resources/stormwater/bmp-manual/c-0-mdc-all-scms/download",
+    "landing_page_url": "https://www.deq.nc.gov/about/divisions/energy-mineral-and-land-resources/stormwater/stormwater-program/stormwater-design-manual",
+    "retrieved_at": "2026-08-08T10:16:00.000Z",
+    "original_filename": "nc-state.pdf"
+  }
+}

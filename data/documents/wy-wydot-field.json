@@ -1,0 +1,78 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "Wyoming Department of Transportation (WYDOT)",
+    "jurisdiction_level": "state",
+    "state_code": "WY",
+    "document_title": "Pollution Controls and Best Management Practices for Storm Water During Construction — Field Guide",
+    "version_or_edition": null,
+    "adoption_or_effective_date": null,
+    "last_revised_date": null,
+    "relationship_to_state_manual": "independent"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [],
+    "water_quality_volume_method": null,
+    "peak_flow_calculation_method": [],
+    "required_hydrologic_hydraulic_software": [],
+    "approved_bmp_categories": [
+      "Grading Techniques (Surface Roughening, Diversion Ditches, Slope Drains, Ditch Checks, Rock Check Dike, Vegetative Buffers)",
+      "Perimeter Control and Barriers (Silt Fence, Earthen Berm, Inlet Protection, Sediment Traps)",
+      "Vehicle Tracking Control Pads",
+      "Reclamation (Erosion Control Blankets, Hydraulic Mulch, Dry Mulch)",
+      "Materials, Equipment and Waste Handling (Bulk Storage, Equipment Management, Spill Prevention and Response)",
+      "Waste Management (Concrete Washout Areas, Saw Cutting, Portable Toilets)"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "WYOMING DEPARTMENT OF TRANSPORTATION",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.jurisdiction_level",
+      "excerpt": "This WYDOT Pocket Field Guide has been designed and developed to be used in the field for storm water management during construction",
+      "page_or_section": "Use of This Field Guide"
+    },
+    {
+      "field": "document_metadata.state_code",
+      "excerpt": "In Wyoming, the Department of Environmental Quality (DEQ) implements the storm water program under the Wyoming Pollutant Discharge Elimination System (WYPDES).",
+      "page_or_section": "Wyoming Storm Water Permit for Construction Activities"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "Pollution Controls and Best Management Practices for Storm Water During Construction FIELD GUIDE",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.relationship_to_state_manual",
+      "excerpt": "This Field Guide includes: WYDOT specifications from the Standard Specifications for Road and Bridge Construction, WYDOT standard details from the Temporary Erosion Control Measures for Storm Water Pollution Prevention – Standard Plan Sheets.",
+      "page_or_section": "Use of This Field Guide"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "BMPS FOR EROSION CONTROL GRADING TECHNIQUES... BMPS FOR SEDIMENT CONTROL PERIMETER CONTROL AND BARRIERS... VEHICLE TRACKING CONTROL PADS... BMPs FOR RECLAMATION... BMPs FOR MATERIALS, EQUIPMENT AND WASTE HANDLING... WASTE MANAGEMENT",
+      "page_or_section": "Table of Contents"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "medium",
+    "needs_human_review": true,
+    "review_notes": "Narrow construction-field pocket guide for BMP installation/inspection, not a hydrologic design manual. No design storm return periods, water quality volume method, peak-flow methods, or required modeling software appear in the text. Source PDF URL filename includes '4-6-11' (likely 2011-04-06) but no edition or effective date is stated in the extracted text, so dates were left null.",
+    "fields_not_found": [
+      "document_metadata.version_or_edition",
+      "document_metadata.adoption_or_effective_date",
+      "document_metadata.last_revised_date",
+      "design_criteria.design_storm_return_periods_years",
+      "design_criteria.water_quality_volume_method",
+      "design_criteria.peak_flow_calculation_method",
+      "design_criteria.required_hydrologic_hydraulic_software"
+    ]
+  },
+  "source": {
+    "document_url": "https://www.dot.state.wy.us/files/live/sites/wydot/files/shared/Construction/WYDOT%20Storm%20Water%20Field%20Guide%204-6-11.pdf",
+    "landing_page_url": "https://www.dot.state.wy.us/home/engineering_technical_programs/manuals_publications.html",
+    "retrieved_at": "2026-08-08T10:16:22.022Z",
+    "original_filename": "wy-wydot-field.pdf"
+  }
+}

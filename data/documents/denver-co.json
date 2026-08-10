@@ -1,0 +1,97 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "Urban Drainage and Flood Control District (Denver Metro)",
+    "jurisdiction_level": "special_district",
+    "state_code": "CO",
+    "document_title": "Urban Storm Drainage Criteria Manual Volume 3, Chapter 1: Stormwater Management and Planning",
+    "version_or_edition": "November 2015",
+    "adoption_or_effective_date": null,
+    "last_revised_date": null,
+    "relationship_to_state_manual": "independent"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [
+      2
+    ],
+    "water_quality_volume_method": "Water Quality Capture Volume (WQCV) based on runoff from 0.6 inches of precipitation within the UDFCD boundary, representing runoff from frequent storm events such as the 80th percentile storm; remaining runoff after volume reduction is treated through capture and slow release of the WQCV.",
+    "peak_flow_calculation_method": [],
+    "required_hydrologic_hydraulic_software": [],
+    "approved_bmp_categories": [
+      "Grass Buffers",
+      "Grass Swales",
+      "Bioretention (rain gardens)",
+      "Permeable Pavement",
+      "Green Roofs",
+      "Extended Detention Basins",
+      "Sand Filters",
+      "Constructed Wetland Ponds",
+      "Retention Ponds",
+      "Underground BMPs",
+      "Source Control BMPs"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "November 2015 Urban Drainage and Flood Control District",
+      "page_or_section": "Page 1-1, Chapter 1"
+    },
+    {
+      "field": "document_metadata.jurisdiction_level",
+      "excerpt": "Urban Drainage and Flood Control District",
+      "page_or_section": "Page 1-1, Chapter 1"
+    },
+    {
+      "field": "document_metadata.state_code",
+      "excerpt": "The Colorado Water Quality Control Act (25-8-101 et seq., CRS 1973, as amended)",
+      "page_or_section": "Section 3.2, Page 1-7"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "Urban Storm Drainage Criteria Manual Volume 3 Chapter 1 Stormwater Management and Planning",
+      "page_or_section": "Cover / Page 1-1"
+    },
+    {
+      "field": "document_metadata.version_or_edition",
+      "excerpt": "November 2015 Urban Drainage and Flood Control District",
+      "page_or_section": "Page 1-1, Chapter 1"
+    },
+    {
+      "field": "document_metadata.relationship_to_state_manual",
+      "excerpt": "UDFCD criteria are based on a Four Step Process focused on reducing runoff volumes, treating the remaining WQCV, stabilizing receiving drainageways and providing targeted source controls for post-construction operations at a site.",
+      "page_or_section": "Section 6.0 Conclusion, Page 1-19"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "EURV represents the difference between the developed and pre-developed runoff volume for the range of storms that produce runoff from pervious land surfaces (generally greater than the 2-year event).",
+      "page_or_section": "Common Stormwater Management Terms, Page 1-9"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "Water Quality Capture Volume (WQCV): This volume represents runoff from frequent storm events such as the 80th percentile storm. Within the UDFCD boundary, the WQCV is based on runoff from 0.6 inches of precipitation.",
+      "page_or_section": "Common Stormwater Management Terms, Page 1-9; Section 4.2, Page 1-17"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "permeable pavement systems with subsurface storage, bioretention, extended detention basins, sand filters, constructed wetland ponds, and retention ponds. Green roofs and some underground BMPs may also provide the WQCV",
+      "page_or_section": "Section 4.2, Page 1-17"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "medium",
+    "needs_human_review": true,
+    "review_notes": "Source is USDCM Volume 3 Chapter 1 only (planning and regulatory overview). WQCV (0.6 in.) and Four Step Process are explicit; peak flow calculation methods and required software appear in later chapters. Jurisdiction is UDFCD (Denver metro special district); document hosted at mhfd.org.",
+    "fields_not_found": [
+      "document_metadata.adoption_or_effective_date",
+      "document_metadata.last_revised_date",
+      "design_criteria.peak_flow_calculation_method",
+      "design_criteria.required_hydrologic_hydraulic_software"
+    ]
+  },
+  "source": {
+    "document_url": "https://www.mhfd.org/files/7af5d4c2f/03_Chapter-1-Stormwater-Management.pdf",
+    "landing_page_url": "https://www.mhfd.org/criteria-manual-volume-3",
+    "retrieved_at": "2026-08-08T00:55:00.000Z",
+    "original_filename": "denver-co.pdf"
+  }
+}

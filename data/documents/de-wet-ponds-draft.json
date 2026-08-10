@@ -1,0 +1,110 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "Delaware",
+    "jurisdiction_level": "state",
+    "state_code": "DE",
+    "document_title": "BMP Standards and Specifications — 13.0 Wet Ponds",
+    "version_or_edition": "Section 13.0 Wet Ponds (DRAFT strikethrough public-notice revision)",
+    "adoption_or_effective_date": null,
+    "last_revised_date": null,
+    "relationship_to_state_manual": "independent"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [
+      100
+    ],
+    "water_quality_volume_method": "Wet ED Ponds receive RPv credit by providing 48-hour extended detention of the Resource Protection Volume (RPv); Wet Quantity Management Ponds used solely for quantity management receive 0% RPv retention credit. Exact RPv depth/volume definition is deferred to the Delaware Sediment and Stormwater Regulations (not restated in this chapter).",
+    "peak_flow_calculation_method": [
+      "Site-adjusted runoff curve number (RCN) reflecting upland volume reduction when computing Cv and Fv",
+      "Outflow hydrograph peak discharge not exceeding five times the average discharge rate (for 48-hour RPv extended detention)"
+    ],
+    "required_hydrologic_hydraulic_software": [],
+    "approved_bmp_categories": [
+      "Wet Quantity Management Pond (13-A)",
+      "Wet Extended Detention (ED) Pond (13-B)"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "Wet Ponds constructed to meet regulatory stormwater management requirements in the State of Delaware shall be designed and constructed in accordance with the USDA NRCS Pond Code 378 as amended.",
+      "page_or_section": "Section 13.2 / 13.4"
+    },
+    {
+      "field": "document_metadata.jurisdiction_level",
+      "excerpt": "Wet Ponds constructed to meet regulatory stormwater management requirements in the State of Delaware",
+      "page_or_section": "Section 13.2"
+    },
+    {
+      "field": "document_metadata.state_code",
+      "excerpt": "design shall be provided to DNREC or their delegated Agency.",
+      "page_or_section": "Section 13.6, Liners"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "BMP Standards and Specifications Wet Ponds ... 13.0 Wet Ponds",
+      "page_or_section": "Header / Section 13.0"
+    },
+    {
+      "field": "document_metadata.version_or_edition",
+      "excerpt": "13.0 Wet Ponds",
+      "page_or_section": "Section 13.0; source PDF filename 13-0-Wet-Ponds-DRAFT-strikethrough.pdf"
+    },
+    {
+      "field": "document_metadata.relationship_to_state_manual",
+      "excerpt": "Additionally, Wet Quantity Management Ponds and Wet ED Ponds should be sized to manage the Conveyance Event and Flooding Event as required in accordance with the Delaware Sediment and Stormwater Regulations.",
+      "page_or_section": "Section 13.6"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "The total storage, including any ponding for larger flooding events (100-year storm) should not extend more than 5 feet above the permanent pool unless specific design enhancements to ensure side slope stability, safety, and maintenance are identified and approved.",
+      "page_or_section": "Section 13.6, Maximum Extended Detention Levels"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "A Wet ED Pond differs from a typical Wet Quantity Management Pond in that a Wet ED Pond provides 48-hour detention of all or a portion of the Resource Protection Volume (RPv).",
+      "page_or_section": "Section 13.0"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "Wet Quantity Management Ponds used solely for quantity management receive 0% retention credit (RPv) and 0% pollutant removal credit as outlined in Table 13.1a. Wet ED Ponds that provide 48-hour detention receive full credit for the portion of the RPv managed",
+      "page_or_section": "Section 13.1, Tables 13.1a–13.1b"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "For RPv compliance, a Wet ED Pond must provide 48 hours extended detention for the RPv runoff volume.",
+      "page_or_section": "Section 13.6 / Table 13.2"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "For treatment train designs where upland practices are utilized for treatment of the resource protection storm (RPv), designers can use a site-adjusted runoff curve number (RCN) that reflects the volume reduction of upland practices to compute the Cv and Fv that will be treated by the Wet Pond.",
+      "page_or_section": "Section 13.6"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "In order to simulate a base flow condition to the extent practicable, the peak discharge for the outflow hydrograph shall not exceed five times the average discharge rate.",
+      "page_or_section": "Section 13.6"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Design variants include: 13-A Wet Quantity Management Pond; 13-B Wet Extended Detention (ED) Pond",
+      "page_or_section": "Section 13.0"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "medium",
+    "needs_human_review": true,
+    "review_notes": "DRAFT public-notice chapter (source PDF: 13-0-Wet-Ponds-DRAFT-strikethrough.pdf) — not a final adopted manual by itself. Covers only Wet Ponds post-construction BMP standards. RPv/Cv/Fv event definitions and numeric depths are referenced to the Delaware Sediment and Stormwater Regulations rather than fully specified here; only the 100-year flooding-event storage limit is explicit. No required hydrologic/hydraulic software named. No adoption/effective date in text.",
+    "fields_not_found": [
+      "document_metadata.adoption_or_effective_date",
+      "document_metadata.last_revised_date",
+      "design_criteria.required_hydrologic_hydraulic_software"
+    ]
+  },
+  "source": {
+    "document_url": "https://documents.dnrec.delaware.gov/Admin/Public-Notices/WSS20260001/13-0-Wet-Ponds-DRAFT-strikethrough.pdf",
+    "landing_page_url": "https://dnrec.delaware.gov/watershed-stewardship/sediment-stormwater/",
+    "retrieved_at": "2026-08-08T10:16:22.022Z",
+    "original_filename": "de-wet-ponds-draft.pdf"
+  }
+}

@@ -1,7 +1,7 @@
 {
   "document_metadata": {
-    "jurisdiction_name": "Town of { your jurisdiction }",
-    "jurisdiction_level": "municipality",
+    "jurisdiction_name": "New Hampshire",
+    "jurisdiction_level": "state",
     "state_code": "NH",
     "document_title": "Model Stormwater Standards, 2025 update",
     "version_or_edition": "Draft: May, 2025",
@@ -37,13 +37,13 @@
   "evidence": [
     {
       "field": "document_metadata.jurisdiction_name",
-      "excerpt": "protect and safeguard the general health, safety, and welfare of the public in the Town of { your jurisdiction }",
-      "page_or_section": "ELEMENT A: Purpose and Goals, page 2"
+      "excerpt": "latest New Hampshire Stormwater Manual",
+      "page_or_section": "ELEMENT C, Section 2.a, page 2"
     },
     {
       "field": "document_metadata.jurisdiction_level",
-      "excerpt": "Town of { your jurisdiction }",
-      "page_or_section": "ELEMENT A: Purpose and Goals, page 2"
+      "excerpt": "as specified in the latest New Hampshire Stormwater Manual",
+      "page_or_section": "ELEMENT C, Section 2.a, page 2"
     },
     {
       "field": "document_metadata.state_code",
@@ -92,9 +92,9 @@
     }
   ],
   "extraction_quality": {
-    "confidence": "high",
-    "needs_human_review": false,
-    "review_notes": "The document is a template containing the placeholder '{ your jurisdiction }'. State code 'NH' was determined based on references to the New Hampshire Stormwater Manual and NH DES.",
+    "confidence": "medium",
+    "needs_human_review": true,
+    "review_notes": "Statewide model municipal standards template (placeholder towns). Stored as NH state guidance; municipalities fill in local name when adopting.",
     "fields_not_found": [
       "design_criteria.required_hydrologic_hydraulic_software"
     ]

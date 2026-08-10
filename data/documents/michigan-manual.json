@@ -1,0 +1,137 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "Michigan",
+    "jurisdiction_level": "state",
+    "state_code": "MI",
+    "document_title": "Michigan Nonpoint Source Best Management Practices Manual",
+    "version_or_edition": "Rev 2017.6.27",
+    "adoption_or_effective_date": "2017-06-27",
+    "last_revised_date": "2017-06-27",
+    "relationship_to_state_manual": "independent"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [
+      1,
+      2,
+      5,
+      10,
+      25,
+      50,
+      100
+    ],
+    "water_quality_volume_method": "Treatment of runoff produced by all storm events up to and including the 10 percent exceedance runoff-generating storm event (first flush volume); statewide 10% exceedance precipitation values range from 0.77 to 1.00 inches. A conservative alternative is treatment of 1.0 inches of runoff over the entire site.",
+    "peak_flow_calculation_method": [
+      "Presettlement hydrology unified sizing criteria",
+      "NOAA Precipitation Frequency Data Server (PFDS)"
+    ],
+    "required_hydrologic_hydraulic_software": [],
+    "approved_bmp_categories": [
+      "Prevention/Minimization/Infiltration",
+      "Treatment",
+      "Mitigation",
+      "Conveyance",
+      "Storage",
+      "Physical",
+      "Vegetative",
+      "Managerial",
+      "Porous pavement",
+      "Bio-retention cells",
+      "Rain gardens",
+      "Infiltration trench",
+      "Infiltration basin",
+      "Retention or detention basins",
+      "Constructed wetlands"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "Michigan Nonpoint Source Best Management Practices Manual",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.jurisdiction_level",
+      "excerpt": "Michigan Department of Environmental Quality",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.state_code",
+      "excerpt": "Michigan Nonpoint Source Best Management Practices Manual",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "Michigan Nonpoint Source Best Management Practices Manual ('BMP Manual')",
+      "page_or_section": "Page 3, Foreword"
+    },
+    {
+      "field": "document_metadata.version_or_edition",
+      "excerpt": "Rev 2017.6.27",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.adoption_or_effective_date",
+      "excerpt": "Rev 2017.6.27",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.last_revised_date",
+      "excerpt": "appropriate version number, based on the last revision date, placed in the lower right corner of each page",
+      "page_or_section": "Page 3, Foreword"
+    },
+    {
+      "field": "document_metadata.relationship_to_state_manual",
+      "excerpt": "BMPs developed specifically for use in Michigan",
+      "page_or_section": "Page 11"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "storms of 24-hour duration, with AEPs of 99.9%, 50%, 20%, 10%, 4%, 2%, and 1%; the corresponding average recurrence intervals of these AEPs are one (1), two (2), five (5), 10, 25, 50, and 100 years",
+      "page_or_section": "Page 13, Hydrology"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "Treatment of runoff produced by all storm events up to and including the 10 percent exceedance runoff-generating storm event... A conservative alternative is treatment of 1.0 inches of runoff over the entire site.",
+      "page_or_section": "Page 17, Unified Sizing Criteria"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "The recommended hydrologic baseline condition used in this manual is the presettlement hydrology of the site... Channel Protection – Maintain the calculated presettlement runoff volume and peak flow rate for all storm events up to the 2-year, 24-hour event.",
+      "page_or_section": "Pages 13, 17"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "recommended that such values be obtained from a published, recognized source, such as the National Oceanic and Atmospheric Administration's (NOAA) Precipitation Frequency Data Server (PFDS)",
+      "page_or_section": "Page 13, Hydrology"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "prevention/minimization, storage, treatment, conveyance, or mitigation",
+      "page_or_section": "Page 11, Storm Water BMPs"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "physical, vegetative, or managerial",
+      "page_or_section": "Page 11, Storm Water BMPs"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "infiltration trench, infiltration basin, bio-retention, or rain garden... retention or detention practices, such as basins, or constructed wetlands",
+      "page_or_section": "Page 10, Treatment Train Approach"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "medium",
+    "needs_human_review": true,
+    "review_notes": "This PDF is Part 1 (introductory/background, 31 pages); individual BMP design specifications are published separately on the MDEQ BMP web page.",
+    "fields_not_found": [
+      "design_criteria.required_hydrologic_hydraulic_software"
+    ]
+  },
+  "source": {
+    "document_url": "https://www.kalcounty.gov/DocumentCenter/View/2059/EGLE-Nonpoint-Source-Best-Management-Practices-Manual-PDF",
+    "landing_page_url": "https://www.michigan.gov/egle/about/organization/water-resources/stormwater/municipal",
+    "retrieved_at": "2026-08-08T00:55:00.000Z",
+    "original_filename": "michigan-manual.pdf"
+  }
+}

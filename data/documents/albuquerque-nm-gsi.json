@@ -1,0 +1,97 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "Bernalillo County",
+    "jurisdiction_level": "county",
+    "state_code": "NM",
+    "document_title": "Bernalillo County Green Stormwater Infrastructure Low Impact Design Strategies for Desert Communities",
+    "version_or_edition": "March 2025",
+    "adoption_or_effective_date": null,
+    "last_revised_date": null,
+    "relationship_to_state_manual": "independent"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [],
+    "water_quality_volume_method": "Bernalillo County Ordinance 2107-8 requires storm water treatment volumes of 90% storm capture for new development and 80% storm capture for redevelopment within site boundaries; this digest references the Design Process Manual (DPM) for detailed sizing and construction details.",
+    "peak_flow_calculation_method": [],
+    "required_hydrologic_hydraulic_software": [],
+    "approved_bmp_categories": [
+      "Bioswale",
+      "Infiltration Trench",
+      "Stormwater Curb Extension",
+      "Raised Median",
+      "Stormwater Tree Pit with Grate",
+      "Stormwater Planter Box",
+      "Pervious Pavement",
+      "Permeable Check Dam",
+      "Stacked Stone Erosion Control Basin (Zuni Bowl)",
+      "Stone Channel Plating",
+      "Contour Swale",
+      "Media Luna Flow Spreader"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "BERNALILLO COUNTY GREEN STORMWATER INFRASTRUCTURE LOW IMPACT DESIGN STRATEGIES FOR DESERT COMMUNITIES",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.jurisdiction_level",
+      "excerpt": "Bernalillo County approved and implemented Ordinance 2107-8 to address requirements specified in the Watershed Based MS4 permit",
+      "page_or_section": "Recap of BernCo Stormwater Quality Ordinance, Page 9"
+    },
+    {
+      "field": "document_metadata.state_code",
+      "excerpt": "Bernalillo County location within New Mexico state",
+      "page_or_section": "Context, Page 9"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "BERNALILLO COUNTY GREEN STORMWATER INFRASTRUCTURE LOW IMPACT DESIGN STRATEGIES FOR DESERT COMMUNITIES",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.version_or_edition",
+      "excerpt": "61-Green_Infrastructure_and_Low_Impact_Design_Guide_1-1.pdf",
+      "page_or_section": "Source URL (March 2025)"
+    },
+    {
+      "field": "document_metadata.relationship_to_state_manual",
+      "excerpt": "This document and others like it, while containing useful information regarding the implementation and the benefits of GI/LID interventions, are highly technical and cumbersome making them inaccessible to the general public.",
+      "page_or_section": "Introduction and Purpose, Page 6"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "storm water treatment volumes (90% storm for new development, 80% storm for redevelopment) must be addressed within the boundaries of a proposed site development/redevelopment plan",
+      "page_or_section": "Recap of BernCo Stormwater Quality Ordinance, Page 9"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "Previously developed guidelines for these practices have been developed for Bernalillo County and the City of Albuquerque such as the Bernalillo County Water Conservation Guidelines and the Design Process Manual (DPM)",
+      "page_or_section": "Introduction and Purpose, Page 6"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Bioswale, Infiltration Trench, Stormwater Curb Extension, Raised Median, Stormwater Tree Pit with Grate, Stormwater Planter Box, Pervious Pavement, Permeable Check Dam, Stacked Stone Erosion Control Basin \"Zuni Bowl\", Stone Channel Plating, Contour Swale, Media Luna Flow Spreader",
+      "page_or_section": "Table of Contents, Pages 4-5"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "medium",
+    "needs_human_review": true,
+    "review_notes": "Abbreviated GSI/LID digest for arid-climate implementation; references Bernalillo County Ordinance 2107-8 and DPM for quantitative design but does not include peak-flow methods, hydrologic software, or detailed storm sizing equations. Edition inferred from source PDF URL (March 2025).",
+    "fields_not_found": [
+      "document_metadata.adoption_or_effective_date",
+      "document_metadata.last_revised_date",
+      "design_criteria.design_storm_return_periods_years",
+      "design_criteria.peak_flow_calculation_method",
+      "design_criteria.required_hydrologic_hydraulic_software"
+    ]
+  },
+  "source": {
+    "document_url": "https://swefc.unm.edu/gardb/wp-content/uploads/2025/03/61-Green_Infrastructure_and_Low_Impact_Design_Guide_1-1.pdf",
+    "landing_page_url": "https://www.bernco.gov/",
+    "retrieved_at": "2026-08-08T01:05:00.000Z",
+    "original_filename": "albuquerque-nm-gsi.pdf"
+  }
+}

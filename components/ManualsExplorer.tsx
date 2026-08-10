@@ -4,14 +4,17 @@ import { Fragment, useMemo, useState } from "react";
 import Link from "next/link";
 import type { ManualRecord } from "@/lib/data";
 import { STATE_CODE_TO_NAME } from "@/lib/usStates";
-import { ConfidenceBadge, LevelBadge, NeedsReviewBadge } from "@/components/Badge";
-import { CoverageMap, type CityMarker } from "@/components/CoverageMap";
+import { ConfidenceBadge, LevelBadge, NeedsReviewBadge, StateBadge } from "@/components/Badge";
+import { CoverageMap, type LocalityMarker } from "@/components/CoverageMap";
 import { lookupCityCoordinates } from "@/lib/geoCenters";
 
 type SortKey = "jurisdiction" | "level" | "date" | "confidence";
 type SortDir = "asc" | "desc";
 
 const CONFIDENCE_RANK: Record<string, number> = { low: 0, medium: 1, high: 2 };
+
+const CONTROL =
+  "h-9 w-full rounded-md border border-slate-300 bg-white px-3 text-sm text-slate-900 focus:border-water focus:outline-none focus:ring-2 focus:ring-water/20";
 
 function formatDate(iso: string): string {
   try {
@@ -45,22 +48,37 @@ export function ManualsExplorer({ manuals }: { manuals: ManualRecord[] }) {
     return counts;
   }, [manuals]);
 
-  const cityMarkers: CityMarker[] = useMemo(() => {
-    const markers: CityMarker[] = [];
+  const localityMarkers: LocalityMarker[] = useMemo(() => {
+    const markers: LocalityMarker[] = [];
     for (const record of manuals) {
       const meta = record.data.document_metadata;
-      if (meta.jurisdiction_level !== "municipality" || !meta.state_code) continue;
+      const level = meta.jurisdiction_level;
+      if (
+        (level !== "municipality" &&
+          level !== "county" &&
+          level !== "special_district") ||
+        !meta.state_code
+      ) {
+        continue;
+      }
       const coordinates = lookupCityCoordinates(
         record.slug,
         meta.jurisdiction_name,
         meta.state_code
       );
       if (!coordinates) continue;
+      const kind =
+        level === "county"
+          ? "county"
+          : level === "special_district"
+            ? "special_district"
+            : "city";
       markers.push({
         slug: record.slug,
         name: meta.jurisdiction_name,
         stateCode: meta.state_code,
         coordinates,
+        kind,
       });
     }
     return markers;
@@ -183,7 +201,7 @@ export function ManualsExplorer({ manuals }: { manuals: ManualRecord[] }) {
 
   if (manuals.length === 0) {
     return (
-      <div className="rounded-lg border border-dashed border-slate-300 bg-white p-10 text-center text-slate-500">
+      <div className="rounded-xl border border-dashed border-slate-300 bg-white p-10 text-center text-slate-500">
         <p className="font-medium">No manuals ingested yet.</p>
         <p className="mt-1 text-sm">
           Run <code className="rounded bg-slate-100 px-1.5 py-0.5">npm run ingest -- path/to/manual.pdf</code>{" "}
@@ -200,179 +218,204 @@ export function ManualsExplorer({ manuals }: { manuals: ManualRecord[] }) {
         selectedState={stateFilter}
         onSelectState={(code) => {
           setStateFilter(code);
-          // Map filters by state only — clear search/level so city + state
-          // manuals in that state both remain visible.
           setSearch("");
           setLevelFilter("all");
         }}
-        cities={cityMarkers}
+        localities={localityMarkers}
       />
 
-      <div className="flex flex-wrap items-end gap-3 rounded-lg border border-slate-200 bg-white p-4">
-        <div className="flex-1 min-w-[200px]">
-          <label className="mb-1 block text-xs font-medium text-slate-500">
-            Search
-          </label>
-          <input
-            type="text"
-            value={search}
-            onChange={(e) => setSearch(e.target.value)}
-            placeholder="Jurisdiction or document title..."
-            className="w-full rounded-md border border-slate-300 px-3 py-1.5 text-sm focus:border-blue-500 focus:outline-none"
-          />
-        </div>
+      <div className="rounded-xl border border-slate-200/80 bg-white p-4 shadow-sm">
+        <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-4">
+          <div className="sm:col-span-2 lg:col-span-2">
+            <label className="mb-1 block text-xs font-medium text-slate-500">
+              Search
+            </label>
+            <input
+              type="text"
+              value={search}
+              onChange={(e) => setSearch(e.target.value)}
+              placeholder="Jurisdiction or document title..."
+              className={CONTROL}
+            />
+          </div>
 
-        <div>
-          <label className="mb-1 block text-xs font-medium text-slate-500">
-            Level
-          </label>
-          <select
-            value={levelFilter}
-            onChange={(e) => setLevelFilter(e.target.value)}
-            className="rounded-md border border-slate-300 px-3 py-1.5 text-sm capitalize focus:border-blue-500 focus:outline-none"
-          >
-            <option value="all">All levels</option>
-            {availableLevels.map((level) => (
-              <option key={level} value={level} className="capitalize">
-                {level.replace("_", " ")}
-              </option>
-            ))}
-          </select>
-        </div>
+          <div>
+            <label className="mb-1 block text-xs font-medium text-slate-500">
+              Level
+            </label>
+            <select
+              value={levelFilter}
+              onChange={(e) => setLevelFilter(e.target.value)}
+              className={`${CONTROL} capitalize`}
+            >
+              <option value="all">All levels</option>
+              {availableLevels.map((level) => (
+                <option key={level} value={level} className="capitalize">
+                  {level.replace("_", " ")}
+                </option>
+              ))}
+            </select>
+          </div>
 
-        <div>
-          <label className="mb-1 block text-xs font-medium text-slate-500">
-            State
-          </label>
-          <select
-            value={stateFilter ?? "all"}
-            onChange={(e) =>
-              setStateFilter(e.target.value === "all" ? null : e.target.value)
-            }
-            className="rounded-md border border-slate-300 px-3 py-1.5 text-sm focus:border-blue-500 focus:outline-none"
-          >
-            <option value="all">All states</option>
-            {availableStates.map((code) => (
-              <option key={code} value={code}>
-                {STATE_CODE_TO_NAME[code] ?? code} ({countsByState[code]})
-              </option>
-            ))}
-          </select>
-        </div>
+          <div>
+            <label className="mb-1 block text-xs font-medium text-slate-500">
+              State
+            </label>
+            <select
+              value={stateFilter ?? "all"}
+              onChange={(e) =>
+                setStateFilter(e.target.value === "all" ? null : e.target.value)
+              }
+              className={CONTROL}
+            >
+              <option value="all">All states</option>
+              {availableStates.map((code) => (
+                <option key={code} value={code}>
+                  {STATE_CODE_TO_NAME[code] ?? code} ({countsByState[code]})
+                </option>
+              ))}
+            </select>
+          </div>
 
-        <div>
-          <label className="mb-1 block text-xs font-medium text-slate-500">
-            Confidence
-          </label>
-          <select
-            value={confidenceFilter}
-            onChange={(e) => setConfidenceFilter(e.target.value)}
-            className="rounded-md border border-slate-300 px-3 py-1.5 text-sm capitalize focus:border-blue-500 focus:outline-none"
-          >
-            <option value="all">Any</option>
-            <option value="high">High</option>
-            <option value="medium">Medium</option>
-            <option value="low">Low</option>
-          </select>
-        </div>
+          <div>
+            <label className="mb-1 block text-xs font-medium text-slate-500">
+              Confidence
+            </label>
+            <select
+              value={confidenceFilter}
+              onChange={(e) => setConfidenceFilter(e.target.value)}
+              className={`${CONTROL} capitalize`}
+            >
+              <option value="all">Any</option>
+              <option value="high">High</option>
+              <option value="medium">Medium</option>
+              <option value="low">Low</option>
+            </select>
+          </div>
 
-        <label className="flex items-center gap-2 pb-1.5 text-sm text-slate-700">
-          <input
-            type="checkbox"
-            checked={needsReviewOnly}
-            onChange={(e) => setNeedsReviewOnly(e.target.checked)}
-            className="h-4 w-4 rounded border-slate-300 text-blue-600 focus:ring-blue-500"
-          />
-          Needs review only
-        </label>
+          <div className="flex flex-wrap items-end gap-x-4 gap-y-2 sm:col-span-2 lg:col-span-3">
+            <label className="flex h-9 items-center gap-2 text-sm text-slate-700">
+              <input
+                type="checkbox"
+                checked={needsReviewOnly}
+                onChange={(e) => setNeedsReviewOnly(e.target.checked)}
+                className="h-4 w-4 rounded border-slate-300 text-water focus:ring-water/30"
+              />
+              Needs review only
+            </label>
 
-        <label className="flex items-center gap-2 pb-1.5 text-sm text-slate-700">
-          <input
-            type="checkbox"
-            checked={groupByState}
-            onChange={(e) => setGroupByState(e.target.checked)}
-            className="h-4 w-4 rounded border-slate-300 text-blue-600 focus:ring-blue-500"
-          />
-          Group by state
-        </label>
+            <label className="flex h-9 items-center gap-2 text-sm text-slate-700">
+              <input
+                type="checkbox"
+                checked={groupByState}
+                onChange={(e) => setGroupByState(e.target.checked)}
+                className="h-4 w-4 rounded border-slate-300 text-water focus:ring-water/30"
+              />
+              Group by state
+            </label>
 
-        {hasActiveFilters && (
-          <button
-            type="button"
-            onClick={clearFilters}
-            className="pb-1.5 text-sm font-medium text-blue-700 hover:underline"
-          >
-            Clear filters
-          </button>
-        )}
+            {hasActiveFilters && (
+              <button
+                type="button"
+                onClick={clearFilters}
+                className="h-9 text-sm font-medium text-water-link hover:text-water-deep hover:underline"
+              >
+                Clear filters
+              </button>
+            )}
 
-        <div className="ml-auto pb-1.5 text-sm text-slate-500">
-          {sorted.length} of {manuals.length} manuals
+            <div className="ml-auto flex h-9 items-center text-sm text-slate-500">
+              {sorted.length} of {manuals.length} manuals
+            </div>
+          </div>
         </div>
       </div>
 
       {sorted.length === 0 ? (
-        <div className="rounded-lg border border-dashed border-slate-300 bg-white p-10 text-center text-slate-500">
+        <div className="rounded-xl border border-dashed border-slate-300 bg-white p-10 text-center text-slate-500">
           No manuals match the current filters.
         </div>
       ) : (
-        <div className="overflow-x-auto rounded-lg border border-slate-200 bg-white">
-          <table className="w-full min-w-[720px] text-left text-sm">
-            <thead className="border-b border-slate-200 bg-slate-50 text-xs uppercase text-slate-500">
-              <tr>
-                <SortableHeader
-                  label="Jurisdiction"
-                  active={sortKey === "jurisdiction"}
-                  dir={sortDir}
-                  onClick={() => toggleSort("jurisdiction")}
-                />
-                <SortableHeader
-                  label="Level"
-                  active={sortKey === "level"}
-                  dir={sortDir}
-                  onClick={() => toggleSort("level")}
-                />
-                <th className="px-4 py-3 font-medium">State</th>
-                <SortableHeader
-                  label="Date Processed"
-                  active={sortKey === "date"}
-                  dir={sortDir}
-                  onClick={() => toggleSort("date")}
-                />
-                <SortableHeader
-                  label="Confidence"
-                  active={sortKey === "confidence"}
-                  dir={sortDir}
-                  onClick={() => toggleSort("confidence")}
-                />
-                <th className="px-4 py-3 font-medium">Needs Review</th>
-              </tr>
-            </thead>
-            <tbody className="divide-y divide-slate-100">
-              {grouped
-                ? grouped.map(([code, records]) => (
-                    <Fragment key={code}>
-                      <tr className="bg-slate-50">
-                        <td
-                          colSpan={6}
-                          className="px-4 py-2 text-xs font-semibold uppercase text-slate-500"
-                        >
-                          {code === "__none__"
-                            ? "Unspecified state"
-                            : `${STATE_CODE_TO_NAME[code] ?? code} (${records.length})`}
-                        </td>
-                      </tr>
-                      {records.map((record) => (
-                        <ManualRow key={record.slug} record={record} />
-                      ))}
-                    </Fragment>
-                  ))
-                : sorted.map((record) => (
-                    <ManualRow key={record.slug} record={record} />
-                  ))}
-            </tbody>
-          </table>
-        </div>
+        <>
+          {/* Mobile card list */}
+          <div className="space-y-3 md:hidden">
+            {grouped
+              ? grouped.map(([code, records]) => (
+                  <div key={code} className="space-y-2">
+                    <div className="rounded-lg bg-mist/60 px-3 py-2 text-xs font-semibold uppercase tracking-wide text-water-deep">
+                      {code === "__none__"
+                        ? "Unspecified state"
+                        : `${STATE_CODE_TO_NAME[code] ?? code} (${records.length})`}
+                    </div>
+                    {records.map((record) => (
+                      <ManualCard key={record.slug} record={record} />
+                    ))}
+                  </div>
+                ))
+              : sorted.map((record) => (
+                  <ManualCard key={record.slug} record={record} />
+                ))}
+          </div>
+
+          {/* Desktop table */}
+          <div className="hidden overflow-x-auto rounded-xl border border-slate-200/80 bg-white shadow-sm md:block">
+            <table className="w-full min-w-[720px] text-left text-sm">
+              <thead className="border-b border-slate-200 bg-slate-50/80 text-xs uppercase tracking-wide text-slate-500">
+                <tr>
+                  <SortableHeader
+                    label="Jurisdiction"
+                    active={sortKey === "jurisdiction"}
+                    dir={sortDir}
+                    onClick={() => toggleSort("jurisdiction")}
+                  />
+                  <SortableHeader
+                    label="Level"
+                    active={sortKey === "level"}
+                    dir={sortDir}
+                    onClick={() => toggleSort("level")}
+                  />
+                  <th className="px-4 py-3 font-medium">State</th>
+                  <SortableHeader
+                    label="Date Processed"
+                    active={sortKey === "date"}
+                    dir={sortDir}
+                    onClick={() => toggleSort("date")}
+                  />
+                  <SortableHeader
+                    label="Confidence"
+                    active={sortKey === "confidence"}
+                    dir={sortDir}
+                    onClick={() => toggleSort("confidence")}
+                  />
+                  <th className="px-4 py-3 font-medium">Needs Review</th>
+                </tr>
+              </thead>
+              <tbody className="divide-y divide-slate-100">
+                {grouped
+                  ? grouped.map(([code, records]) => (
+                      <Fragment key={code}>
+                        <tr className="bg-mist/50">
+                          <td
+                            colSpan={6}
+                            className="px-4 py-2 text-xs font-semibold uppercase tracking-wide text-water-deep"
+                          >
+                            {code === "__none__"
+                              ? "Unspecified state"
+                              : `${STATE_CODE_TO_NAME[code] ?? code} (${records.length})`}
+                          </td>
+                        </tr>
+                        {records.map((record) => (
+                          <ManualRow key={record.slug} record={record} />
+                        ))}
+                      </Fragment>
+                    ))
+                  : sorted.map((record) => (
+                      <ManualRow key={record.slug} record={record} />
+                    ))}
+              </tbody>
+            </table>
+          </div>
+        </>
       )}
     </div>
   );
@@ -394,8 +437,8 @@ function SortableHeader({
       <button
         type="button"
         onClick={onClick}
-        className={`flex items-center gap-1 hover:text-slate-800 ${
-          active ? "text-slate-900" : ""
+        className={`flex items-center gap-1 hover:text-ink ${
+          active ? "text-ink" : ""
         }`}
       >
         {label}
@@ -409,13 +452,13 @@ function ManualRow({ record }: { record: ManualRecord }) {
   const { document_metadata, extraction_quality, source } = record.data;
   const sourceUrl = source.document_url ?? source.landing_page_url;
   return (
-    <tr className="hover:bg-slate-50">
+    <tr className="hover:bg-mist/30">
       <td className="px-4 py-3">
         <div className="flex items-start gap-2">
           <div className="min-w-0 flex-1">
             <Link
               href={`/${record.slug}`}
-              className="font-medium text-blue-700 hover:underline"
+              className="font-medium text-water-link hover:text-water-deep hover:underline"
             >
               {document_metadata.jurisdiction_name}
             </Link>
@@ -429,7 +472,7 @@ function ManualRow({ record }: { record: ManualRecord }) {
               target="_blank"
               rel="noopener noreferrer"
               title="Open source document"
-              className="shrink-0 text-xs font-medium text-slate-400 hover:text-blue-700"
+              className="shrink-0 text-xs font-medium text-slate-400 hover:text-water-link"
               onClick={(e) => e.stopPropagation()}
             >
               PDF ↗
@@ -440,11 +483,8 @@ function ManualRow({ record }: { record: ManualRecord }) {
       <td className="px-4 py-3">
         <LevelBadge level={document_metadata.jurisdiction_level} />
       </td>
-      <td className="px-4 py-3 text-slate-600">
-        {document_metadata.state_code
-          ? STATE_CODE_TO_NAME[document_metadata.state_code] ??
-            document_metadata.state_code
-          : "\u2014"}
+      <td className="px-4 py-3">
+        <StateBadge stateCode={document_metadata.state_code} showName />
       </td>
       <td className="px-4 py-3 text-slate-600">
         {formatDate(record.processedAt)}
@@ -456,5 +496,50 @@ function ManualRow({ record }: { record: ManualRecord }) {
         <NeedsReviewBadge needsReview={extraction_quality.needs_human_review} />
       </td>
     </tr>
+  );
+}
+
+function ManualCard({ record }: { record: ManualRecord }) {
+  const { document_metadata, extraction_quality, source } = record.data;
+  const sourceUrl = source.document_url ?? source.landing_page_url;
+
+  return (
+    <article className="rounded-xl border border-slate-200/80 bg-white p-4 shadow-sm">
+      <div className="flex items-start justify-between gap-3">
+        <div className="min-w-0">
+          <Link
+            href={`/${record.slug}`}
+            className="font-medium text-water-link hover:text-water-deep hover:underline"
+          >
+            {document_metadata.jurisdiction_name}
+          </Link>
+          <p className="mt-0.5 line-clamp-2 text-xs text-slate-500">
+            {document_metadata.document_title}
+          </p>
+        </div>
+        {sourceUrl && (
+          <a
+            href={sourceUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            title="Open source document"
+            className="shrink-0 text-xs font-medium text-slate-400 hover:text-water-link"
+          >
+            PDF ↗
+          </a>
+        )}
+      </div>
+
+      <div className="mt-3 flex flex-wrap gap-1.5">
+        <LevelBadge level={document_metadata.jurisdiction_level} />
+        <StateBadge stateCode={document_metadata.state_code} />
+        <ConfidenceBadge confidence={extraction_quality.confidence} />
+        <NeedsReviewBadge needsReview={extraction_quality.needs_human_review} />
+      </div>
+
+      <div className="mt-3 text-xs text-slate-500">
+        Processed {formatDate(record.processedAt)}
+      </div>
+    </article>
   );
 }

@@ -1,0 +1,117 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "City of Phoenix",
+    "jurisdiction_level": "municipality",
+    "state_code": "AZ",
+    "document_title": "City of Phoenix Stormwater Policies and Standards Manual",
+    "version_or_edition": "2nd Edition, April 2011",
+    "adoption_or_effective_date": "2011-04",
+    "last_revised_date": "2011-04",
+    "relationship_to_state_manual": "independent"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [
+      2,
+      10,
+      100
+    ],
+    "water_quality_volume_method": "Retain the 100-year, 2-hour storm on site; when retention is waived, meet First Flush by retaining or treating the first 0.5 inch of direct runoff (VFF = C × P × A / 12 with C = 1.00 and P = 0.5 inch).",
+    "peak_flow_calculation_method": [
+      "Rational Method",
+      "HEC-1",
+      "NRCS Type II distribution",
+      "Maricopa County Drainage Design Manual procedures"
+    ],
+    "required_hydrologic_hydraulic_software": [
+      "Phoenix-DDMSW (Drainage Design Management System for Windows)"
+    ],
+    "approved_bmp_categories": [
+      "On-Lot Retention Basins",
+      "Detention Facilities",
+      "Sediment Basins",
+      "Dry Wells",
+      "Open Channels",
+      "Storm Drains",
+      "Erosion Control Measures"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "City of Phoenix",
+      "page_or_section": "Cover / Section 1"
+    },
+    {
+      "field": "document_metadata.jurisdiction_level",
+      "excerpt": "City of Phoenix",
+      "page_or_section": "Cover / Section 1"
+    },
+    {
+      "field": "document_metadata.state_code",
+      "excerpt": "Arizona municipalities within the urbanized area were brought into the municipal stormwater permitting program through Phase II of the Federal stormwater program",
+      "page_or_section": "Section 3.4, Page 3-15"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "City of Phoenix Stormwater Policies and Standards Manual",
+      "page_or_section": "Table of Contents"
+    },
+    {
+      "field": "document_metadata.version_or_edition",
+      "excerpt": "2nd Edition April 2011",
+      "page_or_section": "Revisions, Page i"
+    },
+    {
+      "field": "document_metadata.adoption_or_effective_date",
+      "excerpt": "2nd Edition April 2011",
+      "page_or_section": "Revisions, Page i"
+    },
+    {
+      "field": "document_metadata.last_revised_date",
+      "excerpt": "Updated 4/2011",
+      "page_or_section": "Revisions, Page i"
+    },
+    {
+      "field": "document_metadata.relationship_to_state_manual",
+      "excerpt": "These policies, together with the Phoenix City Codes, the Phoenix Drainage Standards (Chapter 6), and the Maricopa County Drainage Design Manuals, define the criteria and procedures to be used for storm water management and drainage design in the City of Phoenix.",
+      "page_or_section": "Section 3.1, Page 3-13"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "Street Storm Drains 2-year... Storm Water Storage Facilities 100-year, 2-hour rainfall... Post-development peak discharges shall not exceed pre-development peak discharges for the 2-, 10-, and 100-year storm events.",
+      "page_or_section": "Table 6.2.1 and Section 6.8.3, Pages 6-55 to 6-89"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "All new developments shall make provisions to retain the storm water runoff from a 100-year, 2-hour duration storm... This minimum standard is \"First Flush\", and consists of retaining or treating the first 0.5 inch of direct runoff from a storm event.",
+      "page_or_section": "Sections 6.8.1 and 6.8.3, Pages 6-88 to 6-89"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "Peak discharges and runoff volumes shall be calculated in accordance with the procedures in the Drainage Design Manuals... Runoff calculations for the sizing of storm drain catch basin inlets and connector pipes shall be based on the Rational formula.",
+      "page_or_section": "Sections 3.3.1, 6.3.2, and 8.3, Pages 3-15, 6-59, 8-121"
+    },
+    {
+      "field": "design_criteria.required_hydrologic_hydraulic_software",
+      "excerpt": "The website contains the following documents relating to this manual: ... the City of Phoenix stormwater design software – Drainage Design Management System for Windows (Phoenix – DDMSW)",
+      "page_or_section": "Section 7 and Section 8.1, Pages 7-119 to 8-121"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "All new developments shall make provisions to retain the storm water runoff from a 100-year, 2-hour duration storm... Sedimentation basins as required per Section 6.10 shall be located at the upstream (inlet) end of stormwater storage facilities.",
+      "page_or_section": "Sections 6.8 and 6.10, Pages 6-88 to 6-90"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "high",
+    "needs_human_review": false,
+    "review_notes": "Phoenix manual clearly defines 100-year 2-hour retention, First Flush 0.5-inch policy, Rational/HEC-1 hydrology, and Phoenix-DDMSW as the city drainage software.",
+    "fields_not_found": []
+  },
+  "source": {
+    "document_url": "https://www.phoenix.gov/content/dam/phoenix/streetssite/documents/swpolicy.pdf",
+    "landing_page_url": "https://www.phoenix.gov/streets/stormwater",
+    "retrieved_at": "2026-08-08T01:05:00.000Z",
+    "original_filename": "phoenix-az.pdf"
+  }
+}

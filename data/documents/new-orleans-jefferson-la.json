@@ -1,0 +1,135 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "Orleans and Jefferson Parishes",
+    "jurisdiction_level": "county",
+    "state_code": "LA",
+    "document_title": "Stormwater BMP Guidance Tool: A Stormwater Best Management Practices Guide for Orleans and Jefferson Parishes",
+    "version_or_edition": "October 2010",
+    "adoption_or_effective_date": "2010-10",
+    "last_revised_date": "2010-10",
+    "relationship_to_state_manual": "independent"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [
+      10,
+      100
+    ],
+    "water_quality_volume_method": "No single parish-wide water quality volume is mandated. Guidance notes other cities require first-inch rainfall capture or matching pre-construction runoff volume, but recommends a minimum volume-reduction goal of matching average annual predevelopment evapotranspiration for Orleans/Jefferson redevelopment constraints. BMP sizing uses a water quality design volume; design storm depth can be back-calculated from that volume (d = V × 12 / [C × A × 43560], C = 0.05 + 0.9 × imp). Performance is evaluated via percent volume capture, with continuous simulation (e.g., EPA SWMM) preferred for accurate estimates.",
+    "peak_flow_calculation_method": [
+      "Rational Method",
+      "Unit hydrograph methods",
+      "SCS curve number method",
+      "SCS Type III dimensionless hyetograph (New Orleans area)",
+      "Continuous simulation (SWMM, HSPF)"
+    ],
+    "required_hydrologic_hydraulic_software": [],
+    "approved_bmp_categories": [
+      "Site Design BMPs",
+      "Biofiltration BMPs (Rain Gardens/Bioretention, Vegetated Swale Filter, Vegetated Filter Strip)",
+      "Permeable Pavement and Media Filtration BMPs (Porous Asphalt/Concrete/Pavers, Gravel Trenches, Sand Filters)",
+      "Building BMPs (Cistern/Rain Barrel, Planter Box, Green Roof)",
+      "Retention and Detention BMPs (Constructed Treatment Wetland, Wet Retention Basin, Dry Extended Detention Basin)"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "A Stormwater Best Management Practices Guide for Orleans and Jefferson Parishes",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.jurisdiction_level",
+      "excerpt": "Guide for Orleans and Jefferson Parishes",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.state_code",
+      "excerpt": "funded by a federal grant administered by the Louisiana Department of Environmental Quality (LDEQ)",
+      "page_or_section": "Acknowledgements"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "Stormwater BMP Guidance Tool A Stormwater Best Management Practices Guide for Orleans and Jefferson Parishes",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.version_or_edition",
+      "excerpt": "October, 2010",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.adoption_or_effective_date",
+      "excerpt": "October, 2010",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.last_revised_date",
+      "excerpt": "Bayou Land RC&D iv October 2010",
+      "page_or_section": "Acknowledgements footer"
+    },
+    {
+      "field": "document_metadata.relationship_to_state_manual",
+      "excerpt": "Bayou Land contracted Geosyntec Consultants to develop the guidance manual.",
+      "page_or_section": "Acknowledgements"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "Jefferson Parish requires that post-development runoff may not exceed that of the pre-construction state for the 10-year return event.",
+      "page_or_section": "Section 2.5.3 Local Regulations"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "the City of New Orleans specifies the 10-year, 24-hour rainfall event.",
+      "page_or_section": "Section 4.1, Design Storm Depth"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "discharged from a primary overflow structure at rates that do not exceed pre-development rates for storms up to the 100-year, 24-hr design storm.",
+      "page_or_section": "Section 3.5.3 Dry Extended Detention Basin"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "A number of cities in the United States require the collection of a specific volume of runoff such as the first inch of rainfall... A reasonable minimum goal for volume reduction would be to match the average annual predevelopment evapotranspiration volume for the site.",
+      "page_or_section": "Section 2.1.1 Volume Reduction Objective"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "The determination of the design storm depth for volume-based BMPs can be computed from the water quality storage volume (treatment plus retention)",
+      "page_or_section": "Section 4.1, Design Storm Depth / Equation 4-1"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "BMP capture efficiency (a.k.a., percent volume capture), described as the volumetric",
+      "page_or_section": "Section 4.1.3 Estimating Percent Volume Capture"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "Design flow rates are typically determined using unit hydrograph, rational method, or SCS curve number approaches for computing peak flow rates from the drainage area.",
+      "page_or_section": "Section 4.1, Flow-Based BMPs"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "These methods include the rational method for peak flows, and unit hydrographs and SCS curve number methods for losses and hydrographs... SCS dimensionless hyetographs (e.g., Type III for the New Orleans area)... Continuous models include the Storm Water Management Model (SWMM) and the Hydrologic Simulation Program - FORTRAN (HSPF)",
+      "page_or_section": "Section 4.1.2 Role of Modeling"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "3.1 Site Design BMPs... 3.2 Biofiltration BMPs... 3.3 Permeable Pavement and Media Filtration BMPs... 3.4 Building BMPs... 3.5 Retention and Detention BMPs",
+      "page_or_section": "Table of Contents / Chapter 3"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "medium",
+    "needs_human_review": true,
+    "review_notes": "Guidance tool for two parishes (county-level), not a binding design ordinance. No uniform WQv; cites City of New Orleans 10-year/24-hour and Jefferson Parish 10-year peak-match as local examples. SWMM/HSPF are evaluation tools, not required software.",
+    "fields_not_found": [
+      "design_criteria.required_hydrologic_hydraulic_software"
+    ]
+  },
+  "source": {
+    "document_url": "https://www.landcan.org/pdfs/Bayou_Land_Guidance_NO_BMP.176113438.pdf",
+    "landing_page_url": "https://deq.louisiana.gov/page/storm-water-protection",
+    "retrieved_at": "2026-08-08T10:20:00.000Z",
+    "original_filename": "new-orleans-jefferson-la.pdf"
+  }
+}

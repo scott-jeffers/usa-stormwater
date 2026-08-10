@@ -1,7 +1,6 @@
 /** @type {import('next').NextConfig} */
-const repoName = "usa-stormwater";
-const isGithubActions = process.env.GITHUB_ACTIONS === "true";
-
+// Static export for Netlify (publish directory: out). Custom domain is
+// configured in the Netlify dashboard — no GitHub Pages basePath needed.
 const nextConfig = {
   output: "export",
   agentRules: false,
@@ -12,12 +11,6 @@ const nextConfig = {
   turbopack: {
     root: __dirname,
   },
-  ...(isGithubActions
-    ? {
-        basePath: `/${repoName}`,
-        assetPrefix: `/${repoName}/`,
-      }
-    : {}),
 };
 
 module.exports = nextConfig;

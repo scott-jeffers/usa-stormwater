@@ -1,0 +1,121 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "Truckee Meadows (City of Reno, City of Sparks, and Washoe County)",
+    "jurisdiction_level": "municipality",
+    "state_code": "NV",
+    "document_title": "Truckee Meadows Structural Controls Design and Low Impact Development Manual",
+    "version_or_edition": "April 2015 Update",
+    "adoption_or_effective_date": "2015-04-23",
+    "last_revised_date": null,
+    "relationship_to_state_manual": "independent"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [
+      2,
+      5,
+      25,
+      100
+    ],
+    "water_quality_volume_method": "Volume-based BMPs sized using WQV = (P × RV × A) / 12, where P = 0.60 inches (90th percentile precipitation depth from Reno-Tahoe International Airport data) and RV = 0.05 + 0.009I (percent impervious). Flow-based BMPs sized using WQF = peak discharge from the 2-year storm via the Rational Method (Q = CIA).",
+    "peak_flow_calculation_method": [
+      "Rational Method",
+      "NRCS TR-55 Method",
+      "HEC-1"
+    ],
+    "required_hydrologic_hydraulic_software": [],
+    "approved_bmp_categories": [
+      "Vegetated Swales",
+      "Vegetated Buffer Strips",
+      "Infiltration Trenches",
+      "Infiltration Basins",
+      "Bioretention / Landscape Detention",
+      "Sedimentation Basins",
+      "Sand Filter Basins",
+      "Stormwater Ponds",
+      "Stormwater Wetlands",
+      "Surface Sand Filters",
+      "Underground Sand Filters",
+      "Porous Pavements",
+      "Hydrodynamic Separators",
+      "Wet Vaults",
+      "Catch Basin Inserts",
+      "Modular Wetlands",
+      "Media Filtration Systems",
+      "Rainwater Catchment",
+      "Green Roofs",
+      "Source Controls"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "City of Reno, City of Sparks, and Washoe County, Nevada",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.jurisdiction_level",
+      "excerpt": "City of Reno, City of Sparks, and Washoe County, Nevada",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.state_code",
+      "excerpt": "Reno, NV 89509",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "Truckee Meadows Structural Controls Design and Low Impact Development Manual",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.version_or_edition",
+      "excerpt": "April 2015 Update",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.adoption_or_effective_date",
+      "excerpt": "Date 4/23/15",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.relationship_to_state_manual",
+      "excerpt": "Implementation of the source control and structural treatment control BMPs in this Manual will reduce pollutant loads in stormwater runoff ... to meet National Pollutant Discharge Elimination System (NPDES) permit requirements.",
+      "page_or_section": "Section 1.1, Page 1-1"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "structures designed to detain runoff volumes for the 5, 25 or 100-year storm",
+      "page_or_section": "Section 3.3, Page 3-7"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "WQV = (P*RV*A)/12 ... P = 90th percentile precipitation depth (0.60 inches) ... When 'I' equals the rainfall intensity for the 2-year storm event, Q2 = WQF.",
+      "page_or_section": "Section 6.3.1–6.3.2, Pages 6-3 to 6-5"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "For drainage areas greater than 100 acres, peak flow rates should be estimated using the NRCS TR-55 Method or HEC-1.",
+      "page_or_section": "Section 6.3.1, Page 6-4"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "TC-10 Vegetated Swales ... TC-20 Infiltration Trenches ... TC-40 Sedimentation Basins ... TC-50 Stormwater Ponds ... TC-62 Porous Pavements ... MTC-10 Hydrodynamic Separators",
+      "page_or_section": "Section 6.8–6.9 Table of Contents, Pages ii–iii"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "high",
+    "needs_human_review": false,
+    "review_notes": "WQV (0.60 in) and WQF (2-year Rational) sizing criteria are explicit. Regional manual covers Reno, Sparks, and Washoe County under MS4 permit NVS000001.",
+    "fields_not_found": [
+      "document_metadata.last_revised_date",
+      "design_criteria.required_hydrologic_hydraulic_software"
+    ]
+  },
+  "source": {
+    "document_url": "https://www.reno.gov/Documents/Government/Departments/Public%20Works/Engineering%20Standards/Truckee%20Meadows%20Structural%20Controls%20Design%20and%20Low%20Impact%20Development%20Manual.pdf",
+    "landing_page_url": "https://www.reno.gov/",
+    "retrieved_at": "2026-08-08T01:30:00.000Z",
+    "original_filename": "reno-nv.pdf"
+  }
+}

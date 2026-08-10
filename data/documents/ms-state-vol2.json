@@ -1,0 +1,152 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "Mississippi",
+    "jurisdiction_level": "state",
+    "state_code": "MS",
+    "document_title": "Erosion Control, Sediment Control and Stormwater Management on Construction Sites and Urban Areas — Volume 2 Stormwater Runoff Management Manual",
+    "version_or_edition": "Published 2011",
+    "adoption_or_effective_date": "2011",
+    "last_revised_date": "2011",
+    "relationship_to_state_manual": "independent"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [
+      1,
+      2,
+      5,
+      10,
+      25,
+      50
+    ],
+    "water_quality_volume_method": "Capture and treat a water quality volume typically equal to the first 1 inch or first 1.5 inches of rainfall, sized with Schueler's Simple Method (Appendix A). Recommended BMP-specific treatment volumes include: wet detention — first 0.5 inch of runoff or 1.5 inches from impervious area; dry retention and constructed wetlands — first 1.0 inch of runoff or 2.5 inches from impervious area (whichever is greater for dry retention).",
+    "peak_flow_calculation_method": [
+      "SCS Runoff Curve Number Method",
+      "Short Cut Floodrouting Method (detention storage within method limits)"
+    ],
+    "required_hydrologic_hydraulic_software": [],
+    "approved_bmp_categories": [
+      "Planning (Conservation Easements, Open Space Design, Protection of Natural Features, Street Design, Urban Forestry, Redevelopment)",
+      "Site Design (Alternative Turnarounds, Eliminating Curbs and Gutters, Green Parking, Green Roofs, Narrower Residential Streets, Riparian/Forested Buffer)",
+      "Infiltration (Grassed Swales, Infiltration Basin, Infiltration Trench, Permeable Interlocking Concrete Pavement, Pervious Asphalt, Pervious Concrete)",
+      "Filtration (Bioretention/Rain Gardens, Catch Basin Inserts, Sand and Organic Filters, Vegetated Filter Strip)",
+      "Retention/Detention (Constructed Stormwater Wetland, Dry Detention Ponds, In-line Storage, Wet Pond)",
+      "Manufactured Stormwater Treatment Systems"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "Mississippi Department of Environmental Quality",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.jurisdiction_level",
+      "excerpt": "Volume 2 Stormwater Runoff Management Manual",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.state_code",
+      "excerpt": "Jackson, Mississippi",
+      "page_or_section": "Acknowledgments / Steering Committee"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "Erosion Control, Sediment Control and Stormwater Management on Construction Sites and Urban Areas Handbook for Volume 2 Stormwater Management... Volume 2 Stormwater Runoff Management Manual",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.version_or_edition",
+      "excerpt": "Published 2011",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.adoption_or_effective_date",
+      "excerpt": "Published 2011",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.last_revised_date",
+      "excerpt": "Published 2011",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.relationship_to_state_manual",
+      "excerpt": "Volume 2 – Stormwater Runoff Management Manual was created by adapting North Carolina's Stormwater Best Management Practices Manual (2007) with Mississippi-specific information where appropriate.",
+      "page_or_section": "Acknowledgments"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "the post-construction peak stormwater discharge rate must be reduced to no greater than the pre-construction peak stormwater discharge rate (usually for the 2-year, 24-hour storm).",
+      "page_or_section": "Chapter 1, Comparison of BMP Treatment Capabilities"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "grass swales are designed with a capacity to handle the peak flow rate from a 10-year storm, and fall below erosive velocities for a 2-year storm.",
+      "page_or_section": "Chapter 4, Grassed Swales"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "Designed for an extended detention time of 24 hours for the 1-year storm event.",
+      "page_or_section": "Additional Criteria, Constructed Wetland Systems"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "Detention basins and associated outflow structures should be designed to address the 2-year, 5-year, 10-year, 25-year, and 50-year, 24-hour storm events.",
+      "page_or_section": "Additional Criteria, Detention Practice Criteria"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "There will be a volume of stormwater that must be captured and treated prior to release (typically first 1 inch or first 1.5 inches of rainfall).",
+      "page_or_section": "Chapter 1, Comparison of BMP Treatment Capabilities"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "Compute the water quality volume (WQV) using Schueler's Simple Method, as described in Chapter 3 and summarized below",
+      "page_or_section": "Chapter 4, Sand and Organic Filters"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "Required volume: First 0.5 inch of runoff or 1.5 inches of runoff from impervious area.",
+      "page_or_section": "Additional Criteria, Wet Detention Systems"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "Required volume: first 1.0 inch of runoff or 2.5 inches from impervious areas, whichever is greater.",
+      "page_or_section": "Additional Criteria, Dry Retention Systems"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "Runoff volumes and rates may be calculated using the SCS Runoff Curve Number Method (see Appendix Volume, Appendix A, A-16).",
+      "page_or_section": "Additional Criteria, Detention Practice Criteria"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "Detention storage may be determined using the Short Cut Floodrouting Method for determining drainage areas and runoffs that fall with the method's limits.",
+      "page_or_section": "Additional Criteria, Detention Practice Criteria"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Infiltration... Grassed Swales... Infiltration Basin... Infiltration Trench... Filtration... Bioretention (Rain Gardens)... Sand and Organic Filters... Retention/Detention... Constructed Stormwater Wetland... Dry Detention Ponds... Wet Pond",
+      "page_or_section": "Table of Contents, Chapter 4"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Manufactured Stormwater Treatment Systems: These systems are recommended for use in commercial and industrial developments.",
+      "page_or_section": "Additional Criteria"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "high",
+    "needs_human_review": false,
+    "review_notes": "Volume 2 BMP design manual adapted from North Carolina 2007; Appendix A calculation details referenced but not fully present in this Volume 2 text extract. Treatment volumes vary by BMP type in Additional Criteria section.",
+    "fields_not_found": [
+      "design_criteria.required_hydrologic_hydraulic_software"
+    ]
+  },
+  "source": {
+    "document_url": "https://www.mdeq.ms.gov/wp-content/uploads/2017/05/Volume_2.pdf",
+    "landing_page_url": "https://www.mdeq.ms.gov/water/surface-water/nonpoint-source-pollution-program/stormwater-runoff-management-manual/",
+    "retrieved_at": "2026-08-08T10:20:00.000Z",
+    "original_filename": "ms-state-vol2.pdf"
+  }
+}

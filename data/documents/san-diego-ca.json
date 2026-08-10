@@ -1,0 +1,140 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "City of San Diego",
+    "jurisdiction_level": "municipality",
+    "state_code": "CA",
+    "document_title": "Stormwater Standards",
+    "version_or_edition": "August 2024 Edition",
+    "adoption_or_effective_date": "2024-08-15",
+    "last_revised_date": "2024-08",
+    "relationship_to_state_manual": "independent"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [2, 10, 100],
+    "water_quality_volume_method": "Design Capture Volume (DCV): retain onsite pollutants in runoff from the 24-hour, 85th percentile storm event (Figure B.1-1 or approved site-specific analysis). If full retention is not technically feasible, biofiltration for remaining volume (treat 1.5× DCV not retained, or flow-thru biofiltration holding ≥0.75× DCV not retained); otherwise flow-thru treatment (0.2 in/hr or 85th percentile hourly intensity × 2) plus alternative compliance.",
+    "peak_flow_calculation_method": [
+      "Continuous simulation hydrologic modeling",
+      "Approved Q2/Q10 regression equations",
+      "Rational method (runoff to BMPs)"
+    ],
+    "required_hydrologic_hydraulic_software": [
+      "San Diego Hydrology Model (SDHM)",
+      "EPA SWMM"
+    ],
+    "approved_bmp_categories": [
+      "Harvest and Use (HU-1: Cistern)",
+      "Infiltration (INF-1: Infiltration basin)",
+      "Bioretention (INF-2)",
+      "Permeable pavement (INF-3)",
+      "Dry Wells (INF-4)",
+      "Biofiltration with Partial Retention (PR-1)",
+      "Biofiltration (BF-1)",
+      "Nutrient Sensitive Media Design (BF-2)",
+      "Proprietary Biofiltration (BF-3)",
+      "Vegetated swales (FT-1)",
+      "Media filters (FT-2)",
+      "Sand filters (FT-3)",
+      "Dry extended detention basins (FT-4)",
+      "Proprietary flow-thru treatment control (FT-5)"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "THE CITY OF SAN DIEGO Stormwater Standards",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.jurisdiction_level",
+      "excerpt": "The City of San Diego (City) is required to adopt jurisdiction specific local BMP Design Manual",
+      "page_or_section": "Introduction / Purpose"
+    },
+    {
+      "field": "document_metadata.state_code",
+      "excerpt": "California Regional Water Quality Control Board for the San Diego Region (SDRWQCB)",
+      "page_or_section": "Purpose of the Storm Water Standards"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "Stormwater Standards",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.version_or_edition",
+      "excerpt": "The City of San Diego | Stormwater Standards | August 2024 Edition",
+      "page_or_section": "Header / Title"
+    },
+    {
+      "field": "document_metadata.adoption_or_effective_date",
+      "excerpt": "Effective date: August 15, 2024",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.last_revised_date",
+      "excerpt": "August 2024 Edition",
+      "page_or_section": "Title Page / Headers"
+    },
+    {
+      "field": "document_metadata.relationship_to_state_manual",
+      "excerpt": "Part 1 of the Stormwater Standards is the adaption of the Model BMP Design Manual to the specific... Standards is designated as the City of San Diego BMP Design Manual",
+      "page_or_section": "Introduction"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "For flow rates ranging from 10 percent, 30 percent or 50 percent of the pre-development 2-year runoff event (0.1Q2, 0.3Q2, or 0.5Q2) to the pre-development 10-year runoff event (Q10), the post-project discharge rates and durations must not exceed the pre-development rates and durations by more than 10 percent",
+      "page_or_section": "Section 6.3, Page 6-4"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "but below the 100-year water surface elevation, additional analysis is",
+      "page_or_section": "Section 1.6 / Hydromodification exemptions"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "Each PDP shall implement BMPs that are designed to retain (i.e. intercept, store, infiltrate, evaporate, and evapotranspire) onsite the pollutants contained in the volume of stormwater runoff produced from a 24-hour, 85th percentile storm event (Design Capture Volume (DCV))",
+      "page_or_section": "Section 2.2.1, Page 2-5"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "Biofiltration BMPs must be designed... and must be sized to: [a] Treat 1.5 times the DCV not reliably retained onsite, OR [b] Treat the DCV not reliably retained onsite with a flow-thru design that has a total volume... sized to hold at least 0.75 times the portion of the DCV not reliably retained onsite",
+      "page_or_section": "Section 2.2.1(a)(i), Page 2-5"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "Q2 and Q10 refer to flow rates determined based on either continuous simulation hydrologic modeling or the following approved regression equations",
+      "page_or_section": "Section 6.3, Page 6-4"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "used in the rational method) should be used to estimate the runoff draining to the BMP",
+      "page_or_section": "Chapter 5 / DMA sizing guidance"
+    },
+    {
+      "field": "design_criteria.required_hydrologic_hydraulic_software",
+      "excerpt": "through reporting of output from the San Diego Hydrology Model, or through other continuous simulation modeling meeting the criteria in Appendix G, as acceptable to the City Engineer",
+      "page_or_section": "Appendix B.4, Page B-28"
+    },
+    {
+      "field": "design_criteria.required_hydrologic_hydraulic_software",
+      "excerpt": "Three sets of continuous simulation runs were executed in the EPA SWMM using the default",
+      "page_or_section": "Appendix (SWMM continuous simulation)"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Retention Harvest and Use (HU) HU-1: Cistern; Retention Infiltration (INF) INF-1: Infiltration basin INF-2: Bioretention INF-3: Permeable pavement INF-4: Dry Wells; Partial Retention (PR) PR-1: Biofiltration with partial retention; Biofiltration (BF) BF-1: Biofiltration BF-2: Nutrient Sensitive Media Design BF-3: Proprietary Biofiltration; Flow-thru treatment control (FT) FT-1: Vegetated swales FT-2: Media filters FT-3: Sand filters FT-4: Dry extended detention basins FT-5: Proprietary flow-thru treatment control",
+      "page_or_section": "Section 5.5 / Table, Page 5-13"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "medium",
+    "needs_human_review": true,
+    "review_notes": "Local queue text is truncated relative to full ~786-page PDF; core pollutant-control DCV (85th percentile), hydromodification 0.1–0.5Q2 to Q10, and BMP category table are well supported. Appendix G software section body is incomplete in the local text—SDHM and EPA SWMM appear in sizing/appendix excerpts. 100-year appears mainly in floodplain/exemption context, not as pollutant-control design storm.",
+    "fields_not_found": []
+  },
+  "source": {
+    "document_url": "https://www.sandiego.gov/sites/default/files/2024-08/sws_manual_august_2024_update.pdf",
+    "landing_page_url": "https://www.sandiego.gov/stormwater",
+    "retrieved_at": "2026-08-08T10:35:15.140Z",
+    "original_filename": "san-diego-ca.pdf"
+  }
+}

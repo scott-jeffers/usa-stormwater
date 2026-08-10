@@ -1,0 +1,119 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "Boston Water and Sewer Commission",
+    "jurisdiction_level": "municipality",
+    "state_code": "MA",
+    "document_title": "2024 Stormwater Management Report",
+    "version_or_edition": "2024",
+    "adoption_or_effective_date": null,
+    "last_revised_date": "2024",
+    "relationship_to_state_manual": "independent"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [],
+    "water_quality_volume_method": "On-site retention/infiltration mandatory for all development or redevelopment: infiltrate a volume equal to 1 inch of rainfall × total impervious area for projects under 100,000 sf floor area; 1.25 inches of rainfall × total impervious area for projects at or above 100,000 sf floor area, prior to discharge to storm drain or combined sewer. Report states on-site infiltration removes total suspended solids but does not specify a TSS percent-removal target. Consent Decree BMP Recommendations Report also continues requiring priority BMPs to treat 1-inch of runoff from the site before MS4 discharge.",
+    "peak_flow_calculation_method": [],
+    "required_hydrologic_hydraulic_software": [],
+    "approved_bmp_categories": [
+      "On-site retention / infiltration devices",
+      "Particle separators / grit separators (parking and paved outdoor areas)",
+      "Green infrastructure / LID (bioretention, vegetative swales, infiltration basins, permeable pavers)",
+      "Subsurface gravel filters",
+      "Construction site structural and non-structural BMPs (SWPPP)"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "Boston Water & Sewer Commission 2024 Stormwater Management Report",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.jurisdiction_level",
+      "excerpt": "Discharges to the Boston Water and Sewer Commission’s (Commission) municipal separate storm sewer system (MS4)",
+      "page_or_section": "Section 1.1, Page 1-1"
+    },
+    {
+      "field": "document_metadata.state_code",
+      "excerpt": "Massachusetts Department of Environmental Protection (DEP)",
+      "page_or_section": "Section 1.1, Page 1-1"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "2024 Stormwater Management Report",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.version_or_edition",
+      "excerpt": "2024 Stormwater Management Report",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.last_revised_date",
+      "excerpt": "2024 Stormwater Management Report",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.relationship_to_state_manual",
+      "excerpt": "This requirement is consistent with the Department of Environmental Protection’s Stormwater Management Policy which establishes standards for stormwater management for development, and the Commission’s Stormwater BMP Guidance document.",
+      "page_or_section": "Section 3.5 / Section 7.5"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "A volume of runoff equal to one inch of rainfall multiplied by the total impervious area on site must be infiltrated prior to discharge to a storm drain or a combined sewer system for projects less than 100,000 square feet of floor area. For all projects which are at or above 100,000 square feet of floor area, the project must use a volume of runoff equal to 1.25 inches of rainfall multiplied by the total impervious area on site.",
+      "page_or_section": "Section 3.5 On-site Retention of Stormwater, Pages 3-7 to 3-8"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "On-site infiltration of stormwater serves to limit peak discharge rates, recharge groundwater, and remove total suspended solids in the flow.",
+      "page_or_section": "Section 3.5, Page 3-8"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "continue to require new development and redevelopment projects to incorporate priority BMPs with high pollutant removal rates to treat 1-inch of runoff from the site prior to discharging into the Commission’s MS4.",
+      "page_or_section": "Section 4.3 BMP Recommendations Report, Page 4-2"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "In 2024, the Commission approved installations of 301 infiltration devices.",
+      "page_or_section": "Section 3.5 / Table 3-4"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "the Commission may require developers to install particle separators on newly constructed storm drains that serve large outdoor parking areas.",
+      "page_or_section": "Section 3.5 Controls for New Parking Lots, Page 3-8"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "The Commission requires that developers install grit separators on all newly constructed storm drains that serve outdoor paved areas of 7,500 square feet in size or greater.",
+      "page_or_section": "Section 7.5.b, Page 7-4"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "design of bioretention and subservice infiltration along Coolidge Road in Brighton",
+      "page_or_section": "Section 4.6, Page 4-3"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "construction site operators, where applicable, are required to use and maintain appropriate structural and non-structural BMPs to minimize the discharge of pollutants from construction sites to the Commission’s MS4.",
+      "page_or_section": "Section 3.5, Page 3-6"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "medium",
+    "needs_human_review": true,
+    "review_notes": "This is an annual MS4/Consent Decree program report, not a design criteria manual. On-site retention inches (1.0 / 1.25 in × impervious) and TSS removal as a stated benefit are reported from Site Plan Requirements / Sewer Use Regulations as summarized herein; no design-storm return periods, hydrologic peak-flow methods, required software, or numeric TSS % removal target appear in this document. Prefer BWSC Requirements for Site Plans / Stormwater BMP Guidance for engineering criteria.",
+    "fields_not_found": [
+      "document_metadata.adoption_or_effective_date",
+      "design_criteria.design_storm_return_periods_years",
+      "design_criteria.peak_flow_calculation_method",
+      "design_criteria.required_hydrologic_hydraulic_software"
+    ]
+  },
+  "source": {
+    "document_url": "https://www.bwsc.org/sites/default/files/2025-02/Stormwater%20Management%20Report%202024.pdf",
+    "landing_page_url": "https://www.bwsc.org/builders-contractors/site-plan-requirements/storm-drain-requirements",
+    "retrieved_at": "2026-08-08T11:41:31.164Z",
+    "original_filename": "boston-ma.pdf"
+  }
+}

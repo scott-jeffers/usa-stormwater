@@ -1,6 +1,6 @@
 import { z } from "zod";
 
-/** Metadata about where the PDF came from — provided by the ingest CLI, not Gemini. */
+/** Metadata about where the PDF came from — provided by the prepare/save CLI or agent. */
 export const sourceSchema = z.object({
   document_url: z
     .string()
@@ -21,8 +21,8 @@ export const sourceSchema = z.object({
 });
 
 /**
- * Fields Gemini is asked to extract from the PDF text.
- * Source links are intentionally excluded — the model cannot know the download URL.
+ * Fields a Cursor agent extracts from the PDF text.
+ * Source links are intentionally excluded — pass them via CLI / agent source block.
  */
 export const extractionSchema = z.object({
   document_metadata: z.object({
@@ -91,7 +91,7 @@ const emptySource = {
   original_filename: null,
 };
 
-/** Full stored record: AI extraction + CLI-provided source links. */
+/** Full stored record: agent extraction + CLI/agent-provided source links. */
 export const stormwaterSchema = extractionSchema.extend({
   source: sourceSchema.default(emptySource),
 });

@@ -1,0 +1,127 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "District of Columbia",
+    "jurisdiction_level": "municipality",
+    "state_code": "DC",
+    "document_title": "District of Columbia Stormwater Management Guidebook",
+    "version_or_edition": "Appendices A–U, changes accepted July 29, 2013",
+    "adoption_or_effective_date": "2013-07-29",
+    "last_revised_date": null,
+    "relationship_to_state_manual": "independent"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [
+      2,
+      15,
+      100
+    ],
+    "water_quality_volume_method": "Stormwater Retention Volume (SWRv) is calculated as P/12 × Rv × SA, where P is a percentile rainfall depth that varies by project type (90th percentile, 1.2 inches for major land-disturbing activities; 80th percentile, 0.8 inches for major substantial improvements; 85th percentile, 1.0 inches for major substantial improvements in the Anacostia Waterfront Development Zone). In the AWDZ, Water Quality Treatment Volume (WQTv) uses the 95th percentile depth of 1.7 inches with the same formula.",
+    "peak_flow_calculation_method": [
+      "Urban Hydrology for Small Watersheds TR-55",
+      "Storage-Indication Routing",
+      "NRCS TR-55 Curve Number Method",
+      "Modified CN Method",
+      "Rational Method"
+    ],
+    "required_hydrologic_hydraulic_software": [
+      "HEC-1",
+      "WinTR-55",
+      "TR-20",
+      "SWMM"
+    ],
+    "approved_bmp_categories": [
+      "Green Roofs",
+      "Rainwater Harvesting",
+      "Simple Disconnection",
+      "Permeable Pavement Systems",
+      "Bioretention",
+      "Stormwater Filtering Systems",
+      "Stormwater Infiltration",
+      "Grass Channels",
+      "Dry Swales",
+      "Wet Swales",
+      "Stormwater Ponds",
+      "Stormwater Wetlands",
+      "Storage Practices",
+      "Proprietary Practices",
+      "Tree Planting",
+      "Tree Preservation"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "Public right-of-way (PROW) projects within the District of Columbia are owned and operated by",
+      "page_or_section": "Appendix B"
+    },
+    {
+      "field": "document_metadata.jurisdiction_level",
+      "excerpt": "The PROW occupy approximately 25 percent of the impervious area of the District of Columbia",
+      "page_or_section": "Appendix B"
+    },
+    {
+      "field": "document_metadata.state_code",
+      "excerpt": "Hydrologic Soil Groups approved for use in the District are contained in the Soil Survey of the District of Columbia Handbook.",
+      "page_or_section": "Appendix H, Page H-2"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "Stormwater Management Guidebook and the District of Columbia Department of",
+      "page_or_section": "Appendix B"
+    },
+    {
+      "field": "document_metadata.version_or_edition",
+      "excerpt": "FinalGuidebook_changes accepted_Appendices A-U_07_29_2013",
+      "page_or_section": "Source filename"
+    },
+    {
+      "field": "document_metadata.adoption_or_effective_date",
+      "excerpt": "FinalGuidebook_changes accepted_Appendices A-U_07_29_2013",
+      "page_or_section": "Source filename"
+    },
+    {
+      "field": "document_metadata.relationship_to_state_manual",
+      "excerpt": "DDOE's Stormwater Management Guidebook (SWMG)",
+      "page_or_section": "Appendix E"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "Detention is required to reduce the peak discharge rate from the 2-year storm event to the preproject peak discharge rate ... discharge rate from the 15-year storm event",
+      "page_or_section": "Appendix A, Design Examples"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "For major land-disturbing activities, the SWRv is based upon the 90th percentile depth (1.2 inches). ... SWRv = P/12 × Rv × SA ... the WQTv ... is based upon the 95th percentile depth (1.7 inches).",
+      "page_or_section": "Appendix A, Pages A-1 to A-3"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "Urban Hydrology for Small Watersheds TR-55 (TR-55) ... Storage-Indication Routing ... HEC-1, WinTR-55, TR-20, and SWMM Computer Models ... Rational Method (limited to sites under five acres)",
+      "page_or_section": "Appendix H, Page H-1"
+    },
+    {
+      "field": "design_criteria.required_hydrologic_hydraulic_software",
+      "excerpt": "HEC-1, WinTR-55, TR-20, and SWMM Computer Models",
+      "page_or_section": "Appendix H, Section H.4"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Green Roofs ... Rainwater Harvesting ... Permeable Pavement Systems - Enhanced ... Bioretention - Standard ... Stormwater Infiltration ... Stormwater Ponds ... Stormwater Wetlands ... Tree Planting ... Tree Preservation",
+      "page_or_section": "Appendix A, Page A-6"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "high",
+    "needs_human_review": false,
+    "review_notes": "Extracted from 2013 SWMG appendices A–U; main guidebook chapters were not in this PDF.",
+    "fields_not_found": [
+      "document_metadata.last_revised_date"
+    ]
+  },
+  "source": {
+    "document_url": "https://doee.dc.gov/sites/default/files/dc/sites/ddoe/page_content/attachments/FinalGuidebook_changes%20accepted_Appendices%20A-U_07_29_2013_compressed.pdf",
+    "landing_page_url": "https://doee.dc.gov/swguidebook",
+    "retrieved_at": "2026-08-08T01:00:00.000Z",
+    "original_filename": "dc-guidebook.pdf"
+  }
+}

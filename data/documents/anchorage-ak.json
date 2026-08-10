@@ -1,0 +1,162 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "Municipality of Anchorage",
+    "jurisdiction_level": "municipality",
+    "state_code": "AK",
+    "document_title": "Anchorage Stormwater Manual Volume 1 – Management and Design Criteria (Design Criteria Manual Chapter 2 – Drainage)",
+    "version_or_edition": "Version 1.0, DRAFT March 2015",
+    "adoption_or_effective_date": null,
+    "last_revised_date": "2015-03",
+    "relationship_to_state_manual": "independent"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [1, 2, 5, 10, 25, 50, 100],
+    "water_quality_volume_method": "Treat runoff from the first 0.52 inches of rainfall from a 24-hour event preceded by 48 hours of no precipitation (90th-percentile water quality storm) using Green Infrastructure (retention, infiltration, bioretention, evaporation, rainfall harvesting, and/or combinations). Volume estimated by Direct Determination Method or SWMM. Extended detention (when GI not used for WQ): detain post-development excess over pre-development for the 1-year, 24-hour storm for 6 hours. Oil/grit separator annual goals include 80% reduction of inorganic sediment ≥100 μm when traditional treatment is used.",
+    "peak_flow_calculation_method": [
+      "Rational Method",
+      "NRCS (SCS) Peak Flow Method (Tabular Method) / TR-55",
+      "NRCS (SCS) Tabular Hydrograph Method",
+      "Direct Determination Method (water quality volume)",
+      "USGS Regression Equations",
+      "Unit Hydrographs",
+      "Kinematic-Wave Method",
+      "Non-Linear Reservoir Method",
+      "SCS Type I, 24-hour rainfall distribution"
+    ],
+    "required_hydrologic_hydraulic_software": [
+      "SWMM (EPA)",
+      "HEC-HMS",
+      "HEC-RAS",
+      "PondPack",
+      "HY-8"
+    ],
+    "approved_bmp_categories": [
+      "Bioretention",
+      "Soakaway Pits",
+      "Infiltration Basins",
+      "Infiltration Trenches",
+      "Vegetative Swales",
+      "Pervious Pavement",
+      "Chamber Systems",
+      "Wet Ponds",
+      "Dry Ponds (enhanced)",
+      "Sedimentation Basins",
+      "Filter Strips",
+      "Constructed Wetlands",
+      "Canopy Cover/Vegetation Retention",
+      "Landscaped Depressions",
+      "Oil and Grit Separators (traditional treatment when GI infeasible)"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "MUNICIPALITY OF ANCHORAGE PROJECT MANAGEMENT & ENGINEERING DEPARTMENT",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.jurisdiction_level",
+      "excerpt": "MUNICIPALITY OF ANCHORAGE",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.state_code",
+      "excerpt": "State of Alaska 18 AAC 70 Water Quality Standards",
+      "page_or_section": "Section 1.4.2"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "ANCHORAGE STORMWATER MANUAL Volume 1 Management and Design Criteria (Design Criteria Manual Chapter 2 – Drainage)",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.version_or_edition",
+      "excerpt": "Version 1.0 DRAFT March 2015",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.last_revised_date",
+      "excerpt": "DRAFT March 2015",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.relationship_to_state_manual",
+      "excerpt": "Local and State Codes Related to Stormwater... Municipal Stormwater Policies",
+      "page_or_section": "Sections 1.4–1.5"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "Table 4.2-1: MOA Design Storm Depths... 10-year, 24-hour... 100-year, 24-hour... Extended Detention 1-year, 24-hour... Peak Flow Control 2-year, 24-hour... 10-year, 24-hour... 100-year, 24-hour",
+      "page_or_section": "Table 4.2-1, Page 4-4"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "100-Year: I=0.5484D-0.5283... 50-Year... 25-Year... 10-Year... 5-Year... 2-Year... 1-Year",
+      "page_or_section": "Figure 4.2-1 IDF Curve Equations, Page 4-2"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "Treatment must be provided for runoff generated from the first 0.52 inches of rainfall from a 24-hour rainfall event preceded by 48 hours of no precipitation.",
+      "page_or_section": "Section 3.2.2.1, Page 3-4"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "Water Quality Treatment 90th Percentile, 24-hour Green Infrastructure Water Quality Treatment 0.52 0.52",
+      "page_or_section": "Table 4.2-1, Page 4-4"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "Extended detention requires that applicable projects detain post-development project runoff in excess of the pre-development project runoff for the 1‐year, 24‐hour storm for a period of 6 hours.",
+      "page_or_section": "Section 3.2.2.2, Page 3-6"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "An 80 percent reduction of inorganic sediment particles equal to or greater than 100 μm.",
+      "page_or_section": "Section 6.6.16 Oil and Grit Separators, Page 6-130"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "4.5.2 Rational Method... 4.5.3 NRCS (SCS) Peak Flow Method (Tabular Method)... 4.5.4 USGS Regression Equations... 4.5.5 NRCS (SCS) Tabular Hydrograph Method",
+      "page_or_section": "Table of Contents / Chapter 4"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "The direct determination method or runoff volumes generated by SWMM are the only methods accepted by the MOA for estimating the volume of runoff required for water quality treatment through Green Infrastructure.",
+      "page_or_section": "Section 4.5.1, Page 4-16"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "Design storms for MOA drainage applications are based on an SCS Type I, 24-hour rainfall distribution",
+      "page_or_section": "Section 4.2.4, Page 4-5"
+    },
+    {
+      "field": "design_criteria.required_hydrologic_hydraulic_software",
+      "excerpt": "Table 4.8-1: Common Computer Models... SWMM... HEC-HMS... PondPack®... HEC-RAS... HY-8",
+      "page_or_section": "Table 4.8-1, Pages 4-28+"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Bioretention • Soakaway Pits • Infiltration Basins • Infiltration Trenches • Vegetative Swales • Pervious Pavement • Chamber Systems • Wet Ponds • Dry Ponds (if they are enhanced) • Sedimentation Basins • Filter Strips • Constructed Wetlands • Canopy Cover/Vegetation Retention • Landscaped Depressions",
+      "page_or_section": "Section 3.2.2.1, Page 3-4"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "For cases where green infrastructure is determined to be infeasible, water quality treatment may be achieved through traditional gray infrastructure such an oil and grit separator.",
+      "page_or_section": "Section 3.2.2.1, Page 3-5"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "high",
+    "needs_human_review": true,
+    "review_notes": "Source PDF is labeled DRAFT March 2015 (ASM Volume 1 / DCM Ch. 2). Confirm whether a later adopted edition supersedes this draft before relying on criteria operationally. Software listed are common models in Table 4.8-1, not an exclusive required list.",
+    "fields_not_found": [
+      "document_metadata.adoption_or_effective_date"
+    ]
+  },
+  "source": {
+    "document_url": "https://www.muni.org/departments/project_management/documents/2015%20draft%20asm%20volume%201%20-%20chapter%202%20dcm.pdf",
+    "landing_page_url": "https://www.muni.org/Departments/project_management/",
+    "retrieved_at": "2026-08-08T11:41:43.812Z",
+    "original_filename": "anchorage-ak.pdf"
+  }
+}

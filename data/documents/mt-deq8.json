@@ -1,0 +1,133 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "Montana",
+    "jurisdiction_level": "state",
+    "state_code": "MT",
+    "document_title": "Circular DEQ-8: Montana Standards for Subdivision Storm Water Drainage",
+    "version_or_edition": "2024 Edition",
+    "adoption_or_effective_date": "2024",
+    "last_revised_date": "2024",
+    "relationship_to_state_manual": "independent"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [2, 10, 100],
+    "water_quality_volume_method": "Initial Storm Water Facility must infiltrate, evapotranspire, and/or capture for reuse post-development runoff from the first 0.5 inches of rainfall on impervious areas (V = 0.5 × Aimp / 12). For Standard Plans, BMPs designed per the Montana Post-Construction Storm Water BMP Design Manual may satisfy this volume if they treat/remove 80% TSS. Simplified Plan retention may use 250 ft³ per 1,000 ft² impervious (min 750 ft³) or Appendix B for the 100-year storm.",
+    "peak_flow_calculation_method": [
+      "Rational Method",
+      "Modified Rational Method",
+      "TR-55 / SCS Curve Number Method",
+      "Storage-Indication Routing"
+    ],
+    "required_hydrologic_hydraulic_software": [],
+    "approved_bmp_categories": [
+      "Initial Storm Water Facility",
+      "Retention Facilities",
+      "Detention Facilities",
+      "Infiltration Facilities",
+      "Pre-treatment Facilities",
+      "Conveyance Structures (open channels, storm sewers, culverts)",
+      "Infiltration basins",
+      "Bioretention",
+      "Biofiltration swales",
+      "Extended detention basins",
+      "Wet detention basins",
+      "Proprietary treatment devices"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "MONTANA STANDARDS FOR SUBDIVISION STORM WATER DRAINAGE",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.jurisdiction_level",
+      "excerpt": "These standards, based on demonstrated technology, set forth the requirements for the design and preparation of plans and specifications of storm water drainage systems in subdivisions in the State of Montana.",
+      "page_or_section": "Foreword, page 2"
+    },
+    {
+      "field": "document_metadata.state_code",
+      "excerpt": "Montana Department of Environmental Quality (Department)",
+      "page_or_section": "Section 1.1"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "CIRCULAR DEQ-8 MONTANA STANDARDS FOR SUBDIVISION STORM WATER DRAINAGE",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.version_or_edition",
+      "excerpt": "2024 Edition",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.adoption_or_effective_date",
+      "excerpt": "These standards replace Department of Environmental Quality (DEQ) Circular DEQ-8, 2017 Edition.",
+      "page_or_section": "Foreword, page 2"
+    },
+    {
+      "field": "document_metadata.last_revised_date",
+      "excerpt": "2024 Edition",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.relationship_to_state_manual",
+      "excerpt": "The standards were developed by the Montana Department of Environmental Quality (Department) in compliance with Section 76-4-104, MCA, of the Sanitation in Subdivisions Act, and ARM 17.36.310.",
+      "page_or_section": "Section 1.1"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "Calculations showing peak flow, at the time of concentration from all offsite basins impacting the site for the following storm events: (1) a 2-year storm event; (2) a 10-year storm event; and (3) a 100-year storm event.",
+      "page_or_section": "Section 2.2.2.G, page 11–12"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "Standard Plans must demonstrate that the post-development runoff flowrate from the proposed subdivision will not exceed the pre-development runoff flowrate during the 2-year storm event... Standard plans must not allow inundation of buildings or drainfields during a 100-year storm event.",
+      "page_or_section": "Section 3.3, page 15"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "Storm drainage designs must include an Initial Storm Water Facility sized to infiltrate, evapotranspire, and/or capture for reuse the post-development runoff generated from the first 0.5 inches of rainfall on impervious areas.",
+      "page_or_section": "Section 3.4, page 15"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "The BMPs must be designed specifically for the treatment and removal of 80 percent total suspended solids (TSS) from storm water runoff.",
+      "page_or_section": "Section 3.4, page 16"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "The Rational Method may be used for calculating peak flow rate and volume of storm water runoff for areas less than 200 acres.",
+      "page_or_section": "Section 3.7.1, page 17"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "The Modified Rational Method uses the peak flow rate (Q) calculated using the Rational Method equation... Urban Hydrology for Small Watersheds TR-55 is based on the SCS Curve Number Method.",
+      "page_or_section": "Sections 3.7.2–3.7.3, pages 18–21"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "The BMPs may include infiltration basins, bioretention, biofiltration swales, extended detention basins, wet detention basins, and proprietary treatment devices.",
+      "page_or_section": "Section 3.4, page 16"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "5. RETENTION FACILITIES... 6. DETENTION FACILITIES... 7. INFILTRATION FACILITIES... 8. PRE-TREATMENT FACILITIES... 4. CONVEYANCE STRUCTURES",
+      "page_or_section": "Table of Contents"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "high",
+    "needs_human_review": false,
+    "review_notes": "Applies to subdivisions subject to Sanitation in Subdivisions Act review (ARM 17.36.310), not a general MS4/post-construction manual for all development. Computer models may be used (Section 2.6) but no specific software is required. Exact calendar effective date beyond '2024 Edition' not stated in text.",
+    "fields_not_found": [
+      "design_criteria.required_hydrologic_hydraulic_software"
+    ]
+  },
+  "source": {
+    "document_url": "https://deq.mt.gov/files/Water/Forms/DEQ_8_2024_FINAL_2024_09_20.pdf",
+    "landing_page_url": "https://deq.mt.gov/water",
+    "retrieved_at": "2026-08-08T10:16:00.000Z",
+    "original_filename": "mt-deq8.pdf"
+  }
+}

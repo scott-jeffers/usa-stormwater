@@ -1,0 +1,110 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "City of Wichita and Sedgwick County",
+    "jurisdiction_level": "municipality",
+    "state_code": "KS",
+    "document_title": "Stormwater Manual for the City of Wichita and Sedgwick County — Volume 2, Technical Guidance — Chapter 1 Overview of Integrated Site Design",
+    "version_or_edition": "Volume 2, Technical Guidance, Chapter 1",
+    "adoption_or_effective_date": null,
+    "last_revised_date": null,
+    "relationship_to_state_manual": "independent"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [
+      1,
+      2,
+      100
+    ],
+    "water_quality_volume_method": "Water Quality Protection Volume (WQv) is runoff from the 85th percentile rain event, identified as 1.2 inches of rainfall for Wichita/Sedgwick County (6-hour minimum dry interval). Treat WQv to remove 80% of TSS. Channel Protection Volume (CPv) is extended detention of the 1-year, 24-hour event (2.8 inches) for at least 24 hours centroid-to-centroid, or retain the pre-/post-development difference on-site.",
+    "peak_flow_calculation_method": [],
+    "required_hydrologic_hydraulic_software": [],
+    "approved_bmp_categories": [
+      "Preferred Site Design / non-structural practices (minimize impervious area, minimize soil disturbance, preserve natural areas, promote infiltration)",
+      "Structural stormwater controls — detention, filtration, or infiltration (detention and retention ponds, constructed wetlands, bioretention areas, infiltration trenches, engineered swales)"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "The Stormwater Manual for the City of Wichita and Sedgwick County consists of three volumes",
+      "page_or_section": "Section 1.1"
+    },
+    {
+      "field": "document_metadata.jurisdiction_level",
+      "excerpt": "consistent with the stormwater policies adopted by the City of Wichita and Sedgwick County",
+      "page_or_section": "Section 1.1"
+    },
+    {
+      "field": "document_metadata.state_code",
+      "excerpt": "City of Wichita and Sedgwick County",
+      "page_or_section": "Section 1.1"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "Volume 2 – Technical Guidance Manual... OVERVIEW OF INTEGRATED SITE DESIGN",
+      "page_or_section": "Chapter 1 cover / Section 1.1"
+    },
+    {
+      "field": "document_metadata.version_or_edition",
+      "excerpt": "Volume 2, Technical Guidance Page 1 - i... CHAPTER 1",
+      "page_or_section": "Chapter 1 header"
+    },
+    {
+      "field": "document_metadata.relationship_to_state_manual",
+      "excerpt": "the stormwater policies adopted by the City of Wichita and Sedgwick County (and presented in Volume 1), and the stormwater management and floodplain regulations for each jurisdiction.",
+      "page_or_section": "Section 1.1"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "The Channel Protection Volume (CPv) is the volume of temporary detention required to detain the development site runoff for the 1-year, 24-hour rain event (of 2.8\")",
+      "page_or_section": "Table 1-1 / Section 1.3.3"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "post-development peak discharges for the 2-year through 100-year, 24-hour rain events do not exceed pre-development values at the project boundary",
+      "page_or_section": "Table 1-1 Step 4 Flood Protection / Section 1.3.5"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "the site must be designed to safely pass or temporarily store the resulting flows from the full build-out 100-year storm event without flooding structures or other critical features.",
+      "page_or_section": "Section 1.3.4 On-Site Conveyance"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "The Water Quality Protection Volume (WQv) is the volume of runoff from the development as a result of the 85th percentile rain event. In the Wichita and Sedgwick County area, this is the 1.2 inch rain event. Water quality protection must be achieved by treating the WQv to remove 80% of the total suspended solids",
+      "page_or_section": "Table 1-1 Step 1 / Section 1.3.2"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "Based on a rainfall analysis, 1.2 inches of rainfall has been identified as the depth corresponding to the 85th percentile storm for the City of Wichita and Sedgwick County (using a 6-hour minimum dry interval to separate \"events\").",
+      "page_or_section": "Section 1.3.2"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "the controls consist of detention, filtration, or infiltration facilities that remove TSS from the runoff, and/or detain runoff for quantity control (CPv and floods). Examples include detention and retention ponds, constructed wetlands, bioretention areas, infiltration trenches, and engineered swales.",
+      "page_or_section": "Section 1.5"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Preferred Site Design\" (PSD)... site designs that minimize impervious areas, minimize disturbance of site soils, preserve natural areas, and promote infiltration",
+      "page_or_section": "Section 1.4"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "low",
+    "needs_human_review": true,
+    "review_notes": "Source PDF is Volume 2 Chapter 1 only (~10 pages overview). WQv (1.2 in / 85th percentile / 80% TSS), CPv (1-year 24-hr / 2.8 in), and flood peak matching (2- through 100-year) are stated, but hydrologic calculation methods, software, detailed BMP design criteria, and document dates are deferred to other volumes/chapters not in this extract. Intermediate return periods between 2 and 100 years are required by \"2-year through 100-year\" language but not individually listed here.",
+    "fields_not_found": [
+      "document_metadata.adoption_or_effective_date",
+      "document_metadata.last_revised_date",
+      "design_criteria.peak_flow_calculation_method",
+      "design_criteria.required_hydrologic_hydraulic_software"
+    ]
+  },
+  "source": {
+    "document_url": "https://www.wichita.gov/DocumentCenter/View/11104/Volume-2-03---Chapter-1-PDF",
+    "landing_page_url": "https://www.wichita.gov/631/Manuals-and-Policies",
+    "retrieved_at": "2026-08-08T10:20:00.000Z",
+    "original_filename": "wichita-ks-vol2.pdf"
+  }
+}

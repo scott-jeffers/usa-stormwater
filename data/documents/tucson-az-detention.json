@@ -1,0 +1,157 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "Pima County",
+    "jurisdiction_level": "county",
+    "state_code": "AZ",
+    "document_title": "Design Standards for Stormwater Detention and Retention",
+    "version_or_edition": "First Edition June 2014; Chapter 6 revised February 2015",
+    "adoption_or_effective_date": "2014-06",
+    "last_revised_date": "2015-02",
+    "relationship_to_state_manual": "independent"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [2, 10, 100],
+    "water_quality_volume_method": "First-flush retention: capture and retain runoff from 0.5 inch of rainfall on newly disturbed or impervious areas (85th percentile storm). Required volumes by land type from SCS Curve Number method (e.g., 1440 ft³/ac impervious on lower-permeability areas; 1815 ft³/ac on mapped riparian/higher-permeability areas).",
+    "peak_flow_calculation_method": [
+      "PC-Hydro",
+      "Pima County Technical Policy TECH-015 (Acceptable Methods for Determining Peak Discharges)",
+      "Pima County Technical Policy TECH-018 (Acceptable Model Parameterization)",
+      "City of Tucson Standards Manual for Drainage Design and Floodplain Management (where applicable)",
+      "HEC-HMS (basin routing)"
+    ],
+    "required_hydrologic_hydraulic_software": [
+      "PC-Hydro",
+      "PC-LID spreadsheet",
+      "HEC-HMS (Version 3.3 or higher acceptable for basin routing)"
+    ],
+    "approved_bmp_categories": [
+      "Detention Basins",
+      "Stormwater Harvesting Basins",
+      "Roadside Stormwater Harvesting Basins",
+      "Bioretention Basins",
+      "Retention within Detention Basins",
+      "Pervious Pavements (porous gravel, concrete grid, PICP, pervious concrete)",
+      "Dry Wells",
+      "Low Impact Development (LID) Practices"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "Pima County Regional Flood Control District",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.jurisdiction_level",
+      "excerpt": "runoff detention and retention systems are required for development in Pima County... management regulations throughout the jurisdictions of Pima County",
+      "page_or_section": "Section 1.1"
+    },
+    {
+      "field": "document_metadata.state_code",
+      "excerpt": "Tucson, AZ 85701-1791",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "Design Standards for Stormwater Detention and Retention",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.version_or_edition",
+      "excerpt": "First Edition June 2014... Chapter 6 Revised to Include Benefits of Multiple-Use Basins February 2015",
+      "page_or_section": "Revisions"
+    },
+    {
+      "field": "document_metadata.adoption_or_effective_date",
+      "excerpt": "First Edition June 2014",
+      "page_or_section": "Revisions / Cover"
+    },
+    {
+      "field": "document_metadata.last_revised_date",
+      "excerpt": "Chapter 6 Revised to Include Benefits of Multiple-Use Basins February 2015",
+      "page_or_section": "Revisions"
+    },
+    {
+      "field": "document_metadata.relationship_to_state_manual",
+      "excerpt": "Supplement to Title 16, Chapter 16.48, Runoff Detention Systems Floodplain and Erosion Hazard Management Ordinance",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "New development located within a Balanced Basin must provide sufficient detention to reduce the post-developed 2-, 10- and 100-year peak discharge rates to the pre-developed rates.",
+      "page_or_section": "Section 1.2"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "New development located within a Critical Basin must provide sufficient detention to reduce the post-developed 2-, 10- and 100-year peak discharge rates to 90% of the pre-developed peak discharge rates.",
+      "page_or_section": "Section 1.2"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "First-flush retention is defined as the capturing and retaining of the stormwater runoff volume from 0.5 inch of rainfall on all newly disturbed or impervious areas for new development or redevelopment",
+      "page_or_section": "Section 1.5, Page 5"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "The first-flush runoff volume is the volume of stormwater runoff from 0.5 inch of rainfall that is expected to discharge from impervious and disturbed areas. The 0.5-inch rainfall event is the 85th percentile storm event",
+      "page_or_section": "Section 2.1, Page 8"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "The first-flush runoff volumes required for retention by this Section were determined using the Soil Conservation Service (SCS) Curve Number method with a 0.5-inch rainfall event (Table 2.1).",
+      "page_or_section": "Section 2.2, Page 9"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "The pre-developed conditions peak discharge rates for each return period shall be established using the modeling methods described in the District's Technical Policy, TECH-015, Acceptable Methods for Determining Peak Discharges, and Technical Policy, TECH-018",
+      "page_or_section": "Section 3.2.1, Page 21"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "The solution to Equation 3.1 is the runoff volume reported in the PC-Hydro hydrograph report.",
+      "page_or_section": "Section 3.3"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "HEC-HMS is also acceptable software for basin routing.",
+      "page_or_section": "Section 3.4"
+    },
+    {
+      "field": "design_criteria.required_hydrologic_hydraulic_software",
+      "excerpt": "Volumes of each basin were calculated using the PC-LID spreadsheet.",
+      "page_or_section": "Section 2.2 Example, Page 12"
+    },
+    {
+      "field": "design_criteria.required_hydrologic_hydraulic_software",
+      "excerpt": "PC-Hydro – A semi-empirical rainfall-runoff model accepted in Pima County for predicting flood peaks",
+      "page_or_section": "Glossary"
+    },
+    {
+      "field": "design_criteria.required_hydrologic_hydraulic_software",
+      "excerpt": "HEC-HMS Version 3.3, or higher, with supporting documentation",
+      "page_or_section": "Documentation requirements"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "5.3 Stormwater Harvesting Basins... 5.4 Roadside Stormwater Harvesting Basins... 5.7 Bioretention Basin... 5.8 Retention within a Detention Basin... 5.9 Pervious Pavements... Porous Gravel... Concrete Grid Pavement... Permeable Interlocking Concrete Pavement... Pervious Concrete... 4.19 Dry Wells",
+      "page_or_section": "Table of Contents, Chapters 4–5"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "This manual introduces the use of Low Impact Development (LID) practices.",
+      "page_or_section": "Section 1.5"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "high",
+    "needs_human_review": false,
+    "review_notes": "Used by City of Tucson for detention/retention design; jurisdiction is Pima County Regional Flood Control District standards adopted for Tucson engineering code practice.",
+    "fields_not_found": []
+  },
+  "source": {
+    "document_url": "https://www.tucsonaz.gov/files/sharedassets/public/v/1/pdsd/documents/engineering-code/updated-retention-detention-manual.pdf",
+    "landing_page_url": "https://www.tucsonaz.gov/Departments/Planning-Development-Services/Codes/Engineering-Codes",
+    "retrieved_at": "2026-08-08T11:41:45.970Z",
+    "original_filename": "updated-retention-detention-manual.pdf"
+  }
+}

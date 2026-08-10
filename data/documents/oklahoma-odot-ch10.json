@@ -1,0 +1,106 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "Oklahoma Department of Transportation",
+    "jurisdiction_level": "state",
+    "state_code": "OK",
+    "document_title": "ODOT Roadway Drainage Manual, Chapter 10: Stormwater Drainage",
+    "version_or_edition": "November 2014",
+    "adoption_or_effective_date": null,
+    "last_revised_date": null,
+    "relationship_to_state_manual": "independent"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [
+      5,
+      10,
+      50,
+      100
+    ],
+    "water_quality_volume_method": "No statewide water quality volume sizing in Chapter 10; OPDES-regulated systems may require urban BMPs per local ordinances and HEC-22 Chapter 10 guidance when directed by ODOT Environmental Programs Division.",
+    "peak_flow_calculation_method": [
+      "Rational Method"
+    ],
+    "required_hydrologic_hydraulic_software": [
+      "HEC-22",
+      "FHWA Hydraulic Toolbox"
+    ],
+    "approved_bmp_categories": [
+      "Detention Basins",
+      "Storm Drainage Pipe Storage",
+      "Swales and Channels",
+      "Urban BMPs per HEC-22 Chapter 10 (when OPDES or local requirements apply)"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "ODOT ROADWAY DRAINAGE MANUAL November 2014 Chapter 10 STORMWATER DRAINAGE",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.jurisdiction_level",
+      "excerpt": "ODOT ROADWAY DRAINAGE MANUAL",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.state_code",
+      "excerpt": "Oklahoma Department of Transportation",
+      "page_or_section": "Throughout"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "Chapter 10 STORMWATER DRAINAGE",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.version_or_edition",
+      "excerpt": "ODOT Roadway Drainage Manual November 2014",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.relationship_to_state_manual",
+      "excerpt": "Chapter 7 \"Hydrology,\" discusses ODOT's practices with respect to hydrology. This section discusses the application of the hydrologic practices specifically to storm drainage systems.",
+      "page_or_section": "Section 10.8.1, Page 10.8-1"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "Freeways and Arterials on grade 10-year ... Freeways and Arterials at sag 50-year ... Local Road - 2 lanes on grade 5-year ... The review flood frequency is typically the 100-year return period.",
+      "page_or_section": "Figure 10.5-A and Section 10.8.3, Pages 10.5-1 and 10.8-1"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "ODOTs Environmental Programs Division will inform the designer if water quality practices are required, depending on local ordinances and regulations in specific project locations. HEC-22 (2), Chapter 10 provides an introduction to the types of BMPs that have been historically used to provide water quality benefits.",
+      "page_or_section": "Section 10.6.2, Page 10.6-1"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "The Rational Method is the most common method used for the design of storm drains when the peak-flow rate is desired. Its use should be limited to systems with drainage areas of 640 acres or less.",
+      "page_or_section": "Section 10.8.4, Page 10.8-1"
+    },
+    {
+      "field": "design_criteria.required_hydrologic_hydraulic_software",
+      "excerpt": "The hydraulic methodology in HEC-22 (2) for the hydraulic analysis and design of a storm drainage system has been adopted.",
+      "page_or_section": "Section 10.13.3, Page 10.13-3"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "The reduction of peak flows can be achieved by the storage of runoff in detention basins, storm drainage pipes, swales and channels and other detention storage facilities.",
+      "page_or_section": "Section 10.4.9, Page 10.4-4"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "high",
+    "needs_human_review": false,
+    "review_notes": "Chapter 10 is a roadway storm drain design chapter; flood frequencies and Rational/HEC-22 methods are explicit. Water quality BMPs are referenced but not sized in this chapter.",
+    "fields_not_found": [
+      "document_metadata.adoption_or_effective_date",
+      "document_metadata.last_revised_date"
+    ]
+  },
+  "source": {
+    "document_url": "https://oklahoma.gov/content/dam/ok/en/odot/documents/chapter-10-stormwater-drainage.pdf",
+    "landing_page_url": "https://oklahoma.gov/odot/business-center/pre-construction-design/roadway-design/support-units/oklahoma-roadway-drainage-manual.html",
+    "retrieved_at": "2026-08-08T01:30:00.000Z",
+    "original_filename": "oklahoma-odot-ch10.pdf"
+  }
+}

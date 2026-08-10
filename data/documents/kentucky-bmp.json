@@ -1,0 +1,123 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "Kentucky",
+    "jurisdiction_level": "state",
+    "state_code": "KY",
+    "document_title": "BMP Planning and Technical Specifications Manual for Construction Sites in Kentucky",
+    "version_or_edition": "Section 1",
+    "adoption_or_effective_date": null,
+    "last_revised_date": null,
+    "relationship_to_state_manual": "independent"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [
+      10,
+      100
+    ],
+    "water_quality_volume_method": "No statewide post-construction water quality volume formula in this section; Louisville-Jefferson County MSD requires erosion and sediment controls designed for 80% TSS removal using a 10-year, 24-hour storm event, and post-construction treatment controls include infiltration, filtration, and retention or detention facilities per LID principles.",
+    "peak_flow_calculation_method": [
+      "Hydrologic and hydraulic analysis for 100-year floodplain construction permits"
+    ],
+    "required_hydrologic_hydraulic_software": [],
+    "approved_bmp_categories": [
+      "Land Grading",
+      "Construction Exit",
+      "Temporary Diversion (Berm or Ditch)",
+      "Temporary and Permanent Seeding",
+      "Mulching and Sodding",
+      "Silt Fence",
+      "Brush, Rock, and Sediment Barriers",
+      "Erosion Control Blankets and Turf Reinforcement Mats",
+      "Sediment Traps",
+      "Sediment (Detention) Basins",
+      "Buffer Zones and Filter Strips",
+      "Rock-Lined and Grass-Lined Channels",
+      "Check Dams",
+      "Bioretention and Infiltration (post-construction)",
+      "Good Housekeeping and Spill Prevention"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "BMP Planning and Technical Specifications Manual for Construction Sites in Kentucky",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.jurisdiction_level",
+      "excerpt": "funding provided in part by a grant from the U.S. Environmental Protection Agency (EPA) through the Kentucky Division of Water (KDOW)",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.state_code",
+      "excerpt": "Kentucky Division of Water",
+      "page_or_section": "Technical Review Committee"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "BMP Planning and Technical Specifications Manual for Construction Sites in Kentucky",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.version_or_edition",
+      "excerpt": "KY BMP Manual Section 1",
+      "page_or_section": "Source filename"
+    },
+    {
+      "field": "document_metadata.relationship_to_state_manual",
+      "excerpt": "The manual is consistent with other Kentucky state and local guides that contain information on controlling polluted runoff from construction sites",
+      "page_or_section": "Chapter 1, Introduction"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "All erosion protection and sediment control (EPSC) measures must be designed and installed to accomplish an 80 percent design removal efficiency goal for total suspended solids, using a 10-year, 24-hour storm event design.",
+      "page_or_section": "Chapter 2, Louisville-Jefferson County MSD"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "proposed construction in the floodplain ... the 100-year floodplain of all streams in the Commonwealth",
+      "page_or_section": "Chapter 2, Section 2.6 Kentucky Floodplain Construction Permit"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "Treatment.controls.can.include.infiltration.devices.or.sites,.filtration.devices,.and.retention.or.detention.facilities.",
+      "page_or_section": "Chapter 3, Section 3.3 Post-Construction Stormwater Management"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "must be designed and installed to accomplish an 80 percent design removal efficiency goal for total suspended solids, using a 10-year, 24-hour storm event design",
+      "page_or_section": "Chapter 2, Louisville-Jefferson County MSD"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "hydrologic and hydraulic analysis must be performed ... determines the expected 100-year flood heights and the delineation of the floodway",
+      "page_or_section": "Chapter 2, Section 2.6 Kentucky Floodplain Construction Permit"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Silt Fence ... Sediment (Detention) Basins ... Buffer Zones ... Filter Strips ... Rock-Lined Ditches and Channels ... Grass-Lined Ditches and Channels",
+      "page_or_section": "Chapter 4 Table of Contents"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "directing runoff into bioretention and infiltration areas before it leaves the lot",
+      "page_or_section": "Chapter 3, Section 3.3 Post-Construction Stormwater Management"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "medium",
+    "needs_human_review": true,
+    "review_notes": "This PDF is KYTC BMP Manual Section 1 only—focused on construction-site BMP planning and technical specifications rather than statewide post-construction hydrologic sizing; local programs (MSD, LFUCG) carry additional quantitative standards.",
+    "fields_not_found": [
+      "document_metadata.adoption_or_effective_date",
+      "document_metadata.last_revised_date",
+      "design_criteria.required_hydrologic_hydraulic_software"
+    ]
+  },
+  "source": {
+    "document_url": "https://transportation.ky.gov/EnvironmentalAnalysis/Environmental%20Resources/KY%20BMP%20Manual%20Section%201.pdf",
+    "landing_page_url": "https://transportation.ky.gov/EnvironmentalAnalysis/Pages/default.aspx",
+    "retrieved_at": "2026-08-08T01:30:00.000Z",
+    "original_filename": "kentucky-bmp.pdf"
+  }
+}

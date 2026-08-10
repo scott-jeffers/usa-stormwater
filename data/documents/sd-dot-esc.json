@@ -1,0 +1,108 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "South Dakota Department of Transportation (SDDOT)",
+    "jurisdiction_level": "state",
+    "state_code": "SD",
+    "document_title": "Erosion and Sediment Control and Stormwater Management Course Manual",
+    "version_or_edition": "Revised October 2024",
+    "adoption_or_effective_date": null,
+    "last_revised_date": "2024-10",
+    "relationship_to_state_manual": "independent"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [
+      2
+    ],
+    "water_quality_volume_method": null,
+    "peak_flow_calculation_method": [],
+    "required_hydrologic_hydraulic_software": [],
+    "approved_bmp_categories": [
+      "Erosion Control BMPs (Temporary/Permanent Seeding, Mulch, Erosion Control Blanket, Flexible Channel Liner, Bonded Fiber Matrix)",
+      "Slope Flow Control / Stormwater Runoff Management (Diversion Berm, Diversion Swale, Pipe Slope Drain)",
+      "Slope and Channel Velocity Controls (Rock Check Dam, Rock Rip Rap, Wattles)",
+      "Outlet Protection",
+      "Sediment Control BMPs (Silt Fence, Inlet Protection, Perimeter Control, Sediment Trap, Sediment Basin)",
+      "Stabilized Construction Entrance/Exit",
+      "Dewatering Sediment Capture BMPs and Flocculants"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "The objective of the South Dakota Department of Transportation (SDDOT) Erosion and Sediment Control and Stormwater Management Course",
+      "page_or_section": "Page 1, Introduction"
+    },
+    {
+      "field": "document_metadata.jurisdiction_level",
+      "excerpt": "SDDOT's Construction activities fall under the provisions of the SDDANR General Permit for Stormwater Discharges Associated with Construction Activities... manage the NPDES in South Dakota.",
+      "page_or_section": "Page 4"
+    },
+    {
+      "field": "document_metadata.state_code",
+      "excerpt": "South Dakota Department of Transportation (SDDOT)",
+      "page_or_section": "Page 1"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "SDDOT Erosion and Sediment Control and Stormwater Management Course",
+      "page_or_section": "Page 1"
+    },
+    {
+      "field": "document_metadata.version_or_edition",
+      "excerpt": "EROSION & SEDIMENT CONTROL Revised October 2024",
+      "page_or_section": "Cover / Table of Contents"
+    },
+    {
+      "field": "document_metadata.last_revised_date",
+      "excerpt": "Revised October 2024",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.relationship_to_state_manual",
+      "excerpt": "The information in this training manual is intended for training purposes only and does not take precedence over the SDDOT Standard Specifications for Roads and Bridges, the SDDOT Materials Manual, or any SDDOT Policies and Procedures.",
+      "page_or_section": "Page 1"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "All sediment and erosion controls shall be selected, designed, and installed to function properly and withstand a 2 year/24-hour rain event.",
+      "page_or_section": "Page 4"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "The stormwater controls must be designed to function properly and withstand a 2-year, 24-hour precipitation event. See Appendix F for instructions to determine your construction site's precipitation for a 2-year, 24-hour event.",
+      "page_or_section": "Appendix B, SDDANR General Permit Section 3.2"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Erosion Control BMP's... Slope Flow Control/Stormwater Runoff Management... Slope Velocity Controls... Channel Surface Control... Channel Velocity Control... Outlet Protection... Sediment Control BMP's... Inlet Protection... Perimeter Control... Stabilized Entrance Protection",
+      "page_or_section": "Table of Contents, Chapter 3"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "1 Temporary Seeding... 7 Silt Fence... 10 Diversion Swale... 17 Sediment Trap (textile) 18 Sediment Basin... 22 Construction entrance/exit",
+      "page_or_section": "Appendix A, Table of BMP Types"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Sediment capture BMP's... Flocculants",
+      "page_or_section": "Table of Contents, Chapter 7 Dewatering"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "medium",
+    "needs_human_review": true,
+    "review_notes": "Construction ESC training course manual (Oct 2024), not a post-construction hydrologic design manual. Only explicit design storm is the 2-year/24-hour precipitation event for temporary ESC controls (manual + appended SDDANR CGP). No water quality volume sizing, peak-flow hydrology methods, or required modeling software found in the text.",
+    "fields_not_found": [
+      "document_metadata.adoption_or_effective_date",
+      "design_criteria.water_quality_volume_method",
+      "design_criteria.peak_flow_calculation_method",
+      "design_criteria.required_hydrologic_hydraulic_software"
+    ]
+  },
+  "source": {
+    "document_url": "https://dot.sd.gov/media/kywakwy4/escontrolsw.pdf",
+    "landing_page_url": "https://dot.sd.gov/Doing-Business/Environmental/Stormwater",
+    "retrieved_at": "2026-08-08T10:30:00.000Z",
+    "original_filename": "sd-dot-esc.pdf"
+  }
+}

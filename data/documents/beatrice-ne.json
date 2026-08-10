@@ -1,0 +1,166 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "City of Beatrice, Nebraska",
+    "jurisdiction_level": "municipality",
+    "state_code": "NE",
+    "document_title": "Drainage Criteria Manual",
+    "version_or_edition": "August 2020",
+    "adoption_or_effective_date": "2020-09-08",
+    "last_revised_date": "2020-08",
+    "relationship_to_state_manual": "independent"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [
+      2,
+      5,
+      10,
+      100
+    ],
+    "water_quality_volume_method": "Water Quality Control Volume (WQCV) for sites disturbing ≥1 acre: new development uses the 80th-percentile rainfall event; redevelopment uses the 70th-percentile. Beatrice is Region C (East): P = 0.83 in (80th) / 0.62 in (70th). WQCV = P × (0.05 + 0.009 × %impervious) × treatment drainage area (acres) × (1/12) × 43,560. Flow-based BMPs use Qwq from the NRCS CN procedure on the 80th-percentile 24-hour event with Tc = 5 minutes (impervious area only). WQCV drain-down typically 24–40 hours (up to 72 hours when stacked with flood control).",
+    "peak_flow_calculation_method": [
+      "Rational Method",
+      "NRCS unit hydrograph / Curve Number method",
+      "Modified Rational Method (not for storage facility design)"
+    ],
+    "required_hydrologic_hydraulic_software": [
+      "HY-8",
+      "Hydraulic Toolbox",
+      "HEC-RAS",
+      "HEC-HMS",
+      "Nebraska Department of Transportation Rational Method RMA Calculator"
+    ],
+    "approved_bmp_categories": [
+      "Vegetated Filter Strip",
+      "Grass Swale",
+      "Infiltration Trench",
+      "Infiltration Basin",
+      "Bioretention Basin",
+      "Media Filter",
+      "Sand Filter",
+      "Extended Dry Detention",
+      "Wet Detention Ponds",
+      "Stormwater Wetland",
+      "Underground Detention",
+      "Pervious Pavement",
+      "Proprietary Structural Treatment Controls",
+      "Green Roofs",
+      "Soil Conditioning",
+      "Construction Erosion and Sediment Control BMPs",
+      "Good Housekeeping BMPs"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "WHEREAS, the City of Beatrice (\"City\") became an MS4 Community",
+      "page_or_section": "Adoption Resolution"
+    },
+    {
+      "field": "document_metadata.jurisdiction_level",
+      "excerpt": "This manual applies within the corporate limits of the City and its extraterritorial jurisdiction.",
+      "page_or_section": "Page 1, Section 1.1"
+    },
+    {
+      "field": "document_metadata.state_code",
+      "excerpt": "BEATRICE, NEBRASKA",
+      "page_or_section": "Adoption Resolution"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "That the Drainage Criteria Manual, dated August 2020, marked as Exhibit \"A\"... be and is hereby adopted.",
+      "page_or_section": "Adoption Resolution, Section 1"
+    },
+    {
+      "field": "document_metadata.version_or_edition",
+      "excerpt": "Drainage Criteria Manual, dated August 2020",
+      "page_or_section": "Adoption Resolution"
+    },
+    {
+      "field": "document_metadata.adoption_or_effective_date",
+      "excerpt": "RESOLUTION PASSED AND ADOPTED this 8th day of September, 2020.",
+      "page_or_section": "Adoption Resolution"
+    },
+    {
+      "field": "document_metadata.last_revised_date",
+      "excerpt": "Drainage Criteria Manual, dated August 2020",
+      "page_or_section": "Adoption Resolution"
+    },
+    {
+      "field": "document_metadata.relationship_to_state_manual",
+      "excerpt": "Portions of the City of Lincoln Drainage Criteria Manual, the City of Omaha Regional Stormwater Design Criteria Manual was used in the development of this manual.",
+      "page_or_section": "Introduction / related manuals discussion"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "The minor drainage system design will be based on the 5-year (20% annual exceedance probability) design storm for residential areas and the 10-year (10% annual exceedance probability) design storm for",
+      "page_or_section": "Section 1.4 / minor drainage system"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "The 100-year return frequency storm (1% annual exceedance probability) shall be the major drainage system design storm for all new developments.",
+      "page_or_section": "Major drainage system criteria"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "Design storms equal to the 2-, 10- and 100-year frequency events shall be used in the design of detention and retention facilities.",
+      "page_or_section": "Detention / retention criteria"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "For new development sites that have a land disturbance of one acre or greater, the WQCV shall be based on the 80th percentile rainfall event, at a minimum.",
+      "page_or_section": "Page 107, Section 9.4.1"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "For redevelopment sites that have land disturbance of one acre or greater, the WQCV shall be based on the 70th percentile rainfall event, at a minimum.",
+      "page_or_section": "Page 107, Section 9.4.2"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "C (East) • Beatrice • Columbus • Fremont • Norfolk 0.83\" 0.62\"",
+      "page_or_section": "Page 108, Table 9-1"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "The Qwq is the peak runoff from the design water quality volume rainfall event. This peak runoff equivalent shall be calculated using the Natural Resources Conservation Service (NRCS) Curve Number (CN) procedure. The calculation is based on the 80th percentile rainfall event depth by region, a 24-hour duration storm event, and a time of concentration of 5 minutes.",
+      "page_or_section": "Page 109, Section 9.4.4.3"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "Peak runoff values shall be calculated by using either the rational method, NRCS unit hydrograph method, or rational or NRCS methodological software as appropriate.",
+      "page_or_section": "Hydrology / peak runoff criteria"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "The NRCS Curve Number method shall be used to develop inflow and outflow hydrographs for the design of storage facilities. The Rational Method or Modified Rational Method shall not be used for design of storage facilities.",
+      "page_or_section": "Detention / retention criteria"
+    },
+    {
+      "field": "design_criteria.required_hydrologic_hydraulic_software",
+      "excerpt": "Software available from the Federal Highway Administration such as HY-8 or Hydraulic Toolbox, the U.S. Army Corps of Engineers such as HEC-RAS or HEC-HMS, or state agencies such as the Nebraska Department of Transportation's Rational Method RMA Calculator are generally acceptable in their most recent versions",
+      "page_or_section": "Page 6, Section 1.6 Software"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Vegetated Filter Strip... Grass Swale... Infiltration Trench... Infiltration Basin... Bioretention Basin... Media Filter... Sand Filter... Extended Dry Detention... Wet Detention Ponds... Stormwater Wetland... Underground Detention... Pervious Pavement... Proprietary Structural Treatment Controls... Green Roofs... Soil Conditioning",
+      "page_or_section": "Page 113, Table 9-3"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Section 8.4 addresses Erosion and Sediment Control BMP, and Section 8.5 addresses Good Housekeeping BMPs.",
+      "page_or_section": "Chapter 8"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "high",
+    "needs_human_review": false,
+    "review_notes": "Municipal manual adopted Sept 8, 2020 (August 2020 edition). Aligns with Omaha/Lincoln/NDOT regional guidance for post-construction BMPs; WQCV depths for Beatrice are Region C East values in Table 9-1. Software list is \"generally acceptable\" examples, not exclusive mandates.",
+    "fields_not_found": []
+  },
+  "source": {
+    "document_url": "https://www.beatrice.ne.gov/media/400fdosn/drainage_criteria_manual.pdf",
+    "landing_page_url": "https://www.beatrice.ne.gov/",
+    "retrieved_at": "2026-08-08T10:30:00.000Z",
+    "original_filename": "beatrice-ne.pdf"
+  }
+}

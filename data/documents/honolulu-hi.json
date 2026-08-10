@@ -1,0 +1,124 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "City and County of Honolulu",
+    "jurisdiction_level": "municipality",
+    "state_code": "HI",
+    "document_title": "Rules Relating to Storm Drainage Standards",
+    "version_or_edition": "August 2017",
+    "adoption_or_effective_date": "2017-08",
+    "last_revised_date": "2017-08",
+    "relationship_to_state_manual": "independent"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [10, 50, 100],
+    "water_quality_volume_method": null,
+    "peak_flow_calculation_method": [
+      "Rational Method (Q = CIA) for drainage areas of 100 acres or less",
+      "Plate 6 Design Curves for Peak Discharge vs. Drainage Area (USGS flood-frequency / 100-year) for drainage areas greater than 100 acres"
+    ],
+    "required_hydrologic_hydraulic_software": [],
+    "approved_bmp_categories": [
+      "Closed conduits (storm drains)",
+      "Open channels",
+      "Roadway culverts and bridges",
+      "Low impact development best management practices (per separate Rules Relating to Water Quality)"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "Department of Planning and Permitting City and County of Honolulu Honolulu, Hawaii",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.jurisdiction_level",
+      "excerpt": "design of storm drainage facilities in the City and County of Honolulu",
+      "page_or_section": "Introduction"
+    },
+    {
+      "field": "document_metadata.state_code",
+      "excerpt": "Honolulu, Hawaii",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "STORM DRAINAGE STANDARDS",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.version_or_edition",
+      "excerpt": "AUGUST 2017",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.adoption_or_effective_date",
+      "excerpt": "This edition supersedes the Rules Relating to Storm Drainage Standards, January 2000 (Repealed August 16, 2017).",
+      "page_or_section": "Introduction"
+    },
+    {
+      "field": "document_metadata.last_revised_date",
+      "excerpt": "AUGUST 2017",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.relationship_to_state_manual",
+      "excerpt": "These standards have been prepared pursuant to Article 12, Chapter 14, Revised Ordinances of Honolulu, 1990 as amended",
+      "page_or_section": "Introduction"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "For drainage areas of 100 acres or less, Tm (recurrence interval) = 10 years, unless otherwise specified.",
+      "page_or_section": "Part I.A.1, Page 1"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "For drainage areas of 100 acres or less with sump, or tailwater effect and for the design of roadway culverts and bridges, Tm (recurrence interval) = 50 years.",
+      "page_or_section": "Part I.A.2, Page 1"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "For drainage areas greater than 100 acres and all streams... Tm (recurrence interval) = 100 years.",
+      "page_or_section": "Part I.A.3, Page 1"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "For drainage areas of 100 acres or less, the rational method shall be used.",
+      "page_or_section": "Part I.B.1, Page 1"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "The formula Q = CIA shall be used to determine quantities of flow rate",
+      "page_or_section": "Part I.C Rational Method, Page 2"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "Plate 6 titled, \"Design Curves for Peak Discharge vs. Drainage Area\" should be used to determine the 100-year peak discharge.",
+      "page_or_section": "Part I.B.2.a, Page 1"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "C. CLOSED CONDUITS... D. OPEN CHANNELS",
+      "page_or_section": "Table of Contents / Part II"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "New development and redevelopment projects shall also comply with the requirements in the Rules Relating to Water Quality to implement low impact development best management practices to reduce discharge of pollutants into the final receiving waters.",
+      "page_or_section": "Part II.A.13, Page 5"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "high",
+    "needs_human_review": false,
+    "review_notes": "Conveyance/hydrologic standards only. Water quality volume and LID BMP sizing are deferred to separate Rules Relating to Water Quality (not in this PDF).",
+    "fields_not_found": [
+      "design_criteria.water_quality_volume_method",
+      "design_criteria.required_hydrologic_hydraulic_software"
+    ]
+  },
+  "source": {
+    "document_url": "https://www.honolulu.gov/dpp/wp-content/uploads/sites/56/2024/07/rules-storm-drainage-standards.pdf",
+    "landing_page_url": "https://www.honolulu.gov/dpp/",
+    "retrieved_at": "2026-08-08T11:41:37.854Z",
+    "original_filename": "honolulu-hi.pdf"
+  }
+}

@@ -2,7 +2,7 @@
   "document_metadata": {
     "jurisdiction_name": "City of Austin",
     "jurisdiction_level": "municipality",
-    "state_code": null,
+    "state_code": "TX",
     "document_title": "ENVIRONMENTAL CRITERIA MANUAL",
     "version_or_edition": null,
     "adoption_or_effective_date": null,
@@ -38,6 +38,11 @@
       "page_or_section": "Section 1.3.0, Page 1"
     },
     {
+      "field": "document_metadata.state_code",
+      "excerpt": "library.municode.com/tx/austin",
+      "page_or_section": "Source landing page URL (Municipal Code Corporation, Texas / Austin)"
+    },
+    {
       "field": "document_metadata.document_title",
       "excerpt": "ENVIRONMENTAL CRITERIA MANUAL",
       "page_or_section": "Header, Page 1"
@@ -66,9 +71,8 @@
   "extraction_quality": {
     "confidence": "high",
     "needs_human_review": false,
-    "review_notes": "State code was left as null since Texas or TX is not explicitly written in the provided text. Return periods include 100-year from the floodplain references. Peak flow calculation methods are mentioned as being in the Drainage Criteria Manual, which is outside the scope of this document. No specific water quality volume method or hydraulic software was listed.",
+    "review_notes": "State code set to TX from the Municode landing path (/tx/austin) and filename; the ECM text excerpt did not spell out Texas. Return periods include 100-year from the floodplain references. Peak flow methods live in the separate Drainage Criteria Manual.",
     "fields_not_found": [
-      "document_metadata.state_code",
       "document_metadata.version_or_edition",
       "document_metadata.adoption_or_effective_date",
       "document_metadata.last_revised_date",

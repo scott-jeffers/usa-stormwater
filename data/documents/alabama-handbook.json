@@ -1,0 +1,146 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "Alabama",
+    "jurisdiction_level": "state",
+    "state_code": "AL",
+    "document_title": "Erosion Control, Sediment Control and Stormwater Management on Construction Sites and Urban Areas (The Blue Book)",
+    "version_or_edition": "July 2022, Volume 1, Revision No. 5",
+    "adoption_or_effective_date": "2022-07",
+    "last_revised_date": "2022-07",
+    "relationship_to_state_manual": "independent"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [
+      2,
+      5,
+      10,
+      25,
+      50,
+      100
+    ],
+    "water_quality_volume_method": "First-flush capture: the first 1 inch of runoff carries 90% of the pollution load from a storm (USGS, 1984); detention storage volume can be tied to a first flush capture of the initial 0.1 to 1 inch of runoff, with basin drawdown times of 30–40 hours for pollutant removal.",
+    "peak_flow_calculation_method": [
+      "NRCS runoff curve number (RCN) method",
+      "Rational method",
+      "TR-55, Urban Hydrology for Small Watersheds"
+    ],
+    "required_hydrologic_hydraulic_software": [
+      "USDA-NRCS Engineering Field Tools (EFT)"
+    ],
+    "approved_bmp_categories": [
+      "Site Preparation",
+      "Surface Stabilization",
+      "Runoff Conveyance",
+      "Sediment Control",
+      "Stormwater Management",
+      "Stream Protection",
+      "Bioretention Area",
+      "Porous Pavement",
+      "Stormwater Detention Basin"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "Alabama Soil and Water Conservation Committee",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.jurisdiction_level",
+      "excerpt": "in the State of Alabama",
+      "page_or_section": "Page ix, Introduction"
+    },
+    {
+      "field": "document_metadata.state_code",
+      "excerpt": "Montgomery, Alabama",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "Erosion Control, Sediment Control and Stormwater Management on Construction Sites and Urban Areas (The Blue Book)",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.version_or_edition",
+      "excerpt": "Volume 1... 2022... This major revision No. 5 of July 2022",
+      "page_or_section": "Title Page; Page ix"
+    },
+    {
+      "field": "document_metadata.adoption_or_effective_date",
+      "excerpt": "July 2022",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.last_revised_date",
+      "excerpt": "A concerted effort has been made to make the July 2022 Blue Book an accurate and comprehensive handbook",
+      "page_or_section": "Page i, Foreword"
+    },
+    {
+      "field": "document_metadata.relationship_to_state_manual",
+      "excerpt": "The Alabama Handbook for Erosion Control, Sediment Control and Stormwater Management on Construction Sites and Urban Areas (The Blue Book)",
+      "page_or_section": "Page ix"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "Temporary Construction Areas 2-year... Building Sites 5-year... Agricultural Land 10-year... Isolated Buildings 25-year... Urban areas, Residential, School, Industrial Areas, etc. 50-year",
+      "page_or_section": "Page 181, Table DV-1"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "The emergency spillway should be designed to pass at least the l00-year storm.",
+      "page_or_section": "Page 13, Chapter 2"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "the first flush equates to the first 1\" of runoff which carries 90% of the pollution load from a storm (USGS, 1984)",
+      "page_or_section": "Page 9, Chapter 2"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "The required storage volume of detention facilities can be tied to a first flush capture (i.e., the initial 0.1\" to 1\" of runoff).",
+      "page_or_section": "Page 12, Chapter 2"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "The peak rate of runoff should be determined using the Natural Resources Conservation Service runoff curve number (RCN) method or other equivalent methods.",
+      "page_or_section": "Page 181, Diversion"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "Rational method - A means of computing storm drainage flow rates, Q, by use of the formula",
+      "page_or_section": "Glossary"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "TR-55, Urban Hydrology for Small Watersheds",
+      "page_or_section": "References"
+    },
+    {
+      "field": "design_criteria.required_hydrologic_hydraulic_software",
+      "excerpt": "Software for the design of a diversion can be found in the USDA-NRCS Engineering Field Tools (EFT).",
+      "page_or_section": "Page 183, Diversion"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Site Preparation... Surface Stabilization... Runoff Conveyance... Sediment Control... Stormwater Management... Stream Protection",
+      "page_or_section": "Table of Contents, Pages vii–viii"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Bioretention Area (BA)... Porous Pavement (PP)... Stormwater Detention Basin (SDB)",
+      "page_or_section": "Table of Contents, Page viii"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "high",
+    "needs_human_review": false,
+    "review_notes": null,
+    "fields_not_found": []
+  },
+  "source": {
+    "document_url": "https://alabamasoilandwater.gov/wp-content/uploads/2022/08/20220801_HandBook_Vol_1.pdf",
+    "landing_page_url": "https://alabamasoilandwater.gov/alesc-bluebook/",
+    "retrieved_at": "2026-08-08T00:55:00.000Z",
+    "original_filename": "alabama-handbook.pdf"
+  }
+}

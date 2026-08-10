@@ -1,0 +1,128 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "West Virginia",
+    "jurisdiction_level": "state",
+    "state_code": "WV",
+    "document_title": "West Virginia Stormwater Management and Design Guidance Manual",
+    "version_or_edition": "November 2012",
+    "adoption_or_effective_date": null,
+    "last_revised_date": "2012-11-01",
+    "relationship_to_state_manual": "independent"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [
+      1,
+      2,
+      10
+    ],
+    "water_quality_volume_method": "Runoff Reduction Method: manage on-site runoff from a one-inch rainfall event (90th percentile; Treatment Volume Tv). Tv uses volumetric runoff coefficients (Rv) for impervious cover, managed turf/disturbed soils, and forest/open space land covers.",
+    "peak_flow_calculation_method": [
+      "Runoff Reduction Method with adjusted NRCS curve numbers (TR-55 Equations 2-1 through 2-4)",
+      "Rational Method",
+      "NRCS TR-55 single-event design storm methodology",
+      "Continuous simulation rainfall-runoff modeling"
+    ],
+    "required_hydrologic_hydraulic_software": [
+      "Design Compliance Spreadsheet",
+      "TR-55"
+    ],
+    "approved_bmp_categories": [
+      "Better Site Design Practices",
+      "Sheet Flow to Vegetated Filter Strips and Conservation Areas",
+      "Impervious Surface Disconnection",
+      "Bioretention",
+      "Permeable Pavement",
+      "Grass Swale",
+      "Infiltration",
+      "Regenerative Stormwater Conveyance System",
+      "Rainwater Harvesting",
+      "Vegetated Roofs",
+      "Filtration Practice",
+      "Stormwater Wetlands"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "West Virginia Stormwater Management and Design Guidance Manual",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.jurisdiction_level",
+      "excerpt": "West Virginia Department of Environmental Protection",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.state_code",
+      "excerpt": "West Virginia Stormwater Management",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "Stormwater Management and Design Guidance Manual",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.version_or_edition",
+      "excerpt": "November 2012",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.last_revised_date",
+      "excerpt": "November 2012",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.relationship_to_state_manual",
+      "excerpt": "manual will be used to implement stormwater management practices that will help to protect and restore water bodies",
+      "page_or_section": "Foreword"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "keep and manage on site the first one inch of rainfall from a 24-hour storm",
+      "page_or_section": "2.5"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "locally-required 2-year or 10-year or larger frequency storm event detention or peak flow standards",
+      "page_or_section": "3.4.4"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "90% of the annual rainfall events are one (1) inch or less. Therefore, the BMP Performance Goal is to manage on-site the runoff from a one-inch rainfall event",
+      "page_or_section": "3.2.2"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "utilizes the NRCS TR55 runoff equations 2-1 through 2-4 to derive a reduced curve number",
+      "page_or_section": "3.4.4"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "Another common modeling tool is the Rational Method",
+      "page_or_section": "3.4.1"
+    },
+    {
+      "field": "design_criteria.required_hydrologic_hydraulic_software",
+      "excerpt": "The Design Compliance Spreadsheet is a tool that integrates the runoff volume reduction methods",
+      "page_or_section": "3.4.5"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "4.2.3. Bioretention (BR) ... 4.2.4. Permeable Pavement (PP) ... 4.2.11. Stormwater Wetlands (SW)",
+      "page_or_section": "Table of Contents"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "high",
+    "needs_human_review": false,
+    "review_notes": null,
+    "fields_not_found": []
+  },
+  "source": {
+    "document_url": "https://apps.dep.wv.gov/Documents/DWWM/Stormwater/Design/West_Virginia_Stormwater_Management_and_Design_Guidance_Manual_FULL_November_2012-v2.pdf",
+    "landing_page_url": "https://dep.wv.gov/WWE/Programs/stormwater/MS4/Pages/StormwaterManagementDesignandGuidanceManual.aspx",
+    "retrieved_at": "2026-08-08T00:57:15.075Z",
+    "original_filename": "west-virginia-manual.extraction.json"
+  }
+}

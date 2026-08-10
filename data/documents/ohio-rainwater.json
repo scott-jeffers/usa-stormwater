@@ -1,0 +1,121 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "Ohio",
+    "jurisdiction_level": "state",
+    "state_code": "OH",
+    "document_title": "Rainwater and Land Development: Ohio's Standards for Stormwater Management, Land Development and Urban Stream Protection",
+    "version_or_edition": "Third Edition 2006",
+    "adoption_or_effective_date": "2006-12-01",
+    "last_revised_date": null,
+    "relationship_to_state_manual": "independent"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [
+      1,
+      2,
+      5,
+      10,
+      25,
+      50,
+      100
+    ],
+    "water_quality_volume_method": "Water quality volume (WQv) is the volume of runoff treated in a water quality pond, calculated as WQv (ac-ft) = C × 0.75 × A / 12 (Equation 1, adapted from ASCE/WEF Urban Runoff Quality Management), where C is the runoff coefficient from site imperviousness (Equation 2: C = 0.858i² – 0.78i + 0.773i + 0.04, with i = percent imperviousness / 100) and A is drainage area in acres—equivalent to treating runoff from 0.75 inch of precipitation. Ohio EPA NPDES permit requires 20% additional WQv capacity for sediment accumulation; extended detention volume equals WQv and is drawn down over 24–48 hours.",
+    "peak_flow_calculation_method": [
+      "NRCS Technical Release 55 (TR 55)",
+      "USGS empirical equations for small urban streams in Ohio (Sherwood 1986)",
+      "Manning's Equation"
+    ],
+    "required_hydrologic_hydraulic_software": [],
+    "approved_bmp_categories": [
+      "Reduction of Impervious Areas",
+      "Low Impact Development",
+      "Conservation Development",
+      "Wetland Setback",
+      "Stream Setback Area",
+      "Water Quality Ponds",
+      "Infiltration Trench",
+      "Sand & Organic Filter",
+      "Grass Filter",
+      "Bioretention Area",
+      "Grassed Swale",
+      "Level Spreader",
+      "Rock Lined Channel",
+      "Rock Outlet Protection",
+      "Diversion",
+      "Terrace",
+      "Subsurface Drainage"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "Rainwater and Land Development Ohio's Standards for Stormwater Management",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.jurisdiction_level",
+      "excerpt": "This book defines Ohio's standards and specifications for stormwater practices implemented during land development.",
+      "page_or_section": "Abstract"
+    },
+    {
+      "field": "document_metadata.state_code",
+      "excerpt": "Ohio Department of Natural Resources Division of Soil and Water Conservation Columbus, Ohio 43229-6605",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "Title: Rainwater and Land Development: Ohio's Standards for Stormwater Management, Land Development and Urban Stream Protection",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.version_or_edition",
+      "excerpt": "Third Edition 2006",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.adoption_or_effective_date",
+      "excerpt": "Date: December 2006",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.relationship_to_state_manual",
+      "excerpt": "This book defines Ohio's standards and specifications for stormwater practices implemented during land development.",
+      "page_or_section": "Abstract"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "Storm Event Return Interval (years) 2 5 10 25 50 100 ... 1-year 2-year 5-year 10-year 25-year 50-year 100-year",
+      "page_or_section": "Chapter 1, Table 1.1.2; Bioretention Design Checklist"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "The water quality volume (WQv) is the volume of runoff that is treated in a water quality pond. WQv (ac-ft) = C * 0.75 * A / 12 ... C = 0.858i² – 0.78i + 0.773i + 0.04 ... the Ohio EPA NPDES stormwater general permit for construction activities requires that the water quality volume be increased by 20% for capacity lost over time due to sediment accumulation.",
+      "page_or_section": "Chapter 2, Section 2.6"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "NRCS Technical Release 55 (TR 55) or other suitable method shall be used to determine ... peak discharges were estimated using empirical equations developed by the U.S. Geological Survey (Sherwood, 1986)",
+      "page_or_section": "Chapter 4; Chapter 1, Table 1.1.2"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "2.6 Water Quality Ponds; 2.7 Infiltration Trench; 2.8 Sand & Organic Filter; 2.9 Grass Filter; 3.0 Bioretention Area; 2.1 Reduction of Impervious Areas; 2.2 Low Impact Development; 2.3 Conservation Development",
+      "page_or_section": "Chapter 2 Table of Contents"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "high",
+    "needs_human_review": false,
+    "review_notes": null,
+    "fields_not_found": [
+      "document_metadata.last_revised_date",
+      "design_criteria.required_hydrologic_hydraulic_software"
+    ]
+  },
+  "source": {
+    "document_url": "https://dam.assets.ohio.gov/image/upload/epa.ohio.gov/Portals/35/storm/technical_assistance/ARCHIVE-RaLD-2006.pdf",
+    "landing_page_url": "https://epa.ohio.gov/divisions-and-offices/surface-water/guides-manuals/rainwater-and-land-development",
+    "retrieved_at": "2026-08-07T12:55:00.000Z",
+    "original_filename": "ohio-rainwater.pdf"
+  }
+}

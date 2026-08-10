@@ -1,0 +1,140 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "County of Los Angeles",
+    "jurisdiction_level": "county",
+    "state_code": "CA",
+    "document_title": "Low Impact Development Standards Manual",
+    "version_or_edition": "2025",
+    "adoption_or_effective_date": null,
+    "last_revised_date": null,
+    "relationship_to_state_manual": "independent"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [2, 5, 10, 25, 50],
+    "water_quality_volume_method": "Stormwater Quality Design Volume (SWQDv) from the greater of the 0.75-inch, 24-hour rain event or the 85th percentile, 24-hour rain event (LA County 85th percentile isohyetal map); Priority Development Projects must retain 100% of SWQDv on-site via infiltration, bioretention, and/or rainfall harvest and use. Flow-based alternative sizing: 0.2 in/hr intensity or 85th percentile hourly intensity × 2.",
+    "peak_flow_calculation_method": [
+      "MODRAT (Modified Rational Method)",
+      "Rational equation (Q = Cd × I × A)"
+    ],
+    "required_hydrologic_hydraulic_software": [
+      "HydroCalc",
+      "HEC-RAS"
+    ],
+    "approved_bmp_categories": [
+      "Bioretention (RET-1)",
+      "Infiltration Basin (RET-2)",
+      "Infiltration Trench (RET-3)",
+      "Dry Well (RET-4)",
+      "Permeable Pavement without an Underdrain (RET-5)",
+      "Rain Barrel/Cistern (RET-6)",
+      "Biofiltration (BIO-1)",
+      "Stormwater Planter (VEG-1)",
+      "Tree-well Filter (VEG-2)",
+      "Vegetated Swales (VEG-3)",
+      "Vegetated Filter Strip (VEG-4)",
+      "Sand Filters (T-1)",
+      "Constructed Wetlands (T-2)",
+      "Extended Detention Basin (T-3)",
+      "Wet Pond (T-4)",
+      "Permeable Pavement with an Underdrain (T-5)",
+      "Proprietary Treatment Control Measures (T-6)"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "The County of Los Angeles (County) has prepared this 2025 Low Impact Development (LID) Standards Manual",
+      "page_or_section": "Section 1.1, Page 1-1"
+    },
+    {
+      "field": "document_metadata.jurisdiction_level",
+      "excerpt": "guidance for the implementation of stormwater quality control measures in new development and redevelopment projects in unincorporated areas of the County",
+      "page_or_section": "Section 1.1, Page 1-1"
+    },
+    {
+      "field": "document_metadata.state_code",
+      "excerpt": "watersheds of Los Angeles and Ventura Counties (CAS004004, Order No. R4-2021-0105)",
+      "page_or_section": "Section 1.1, Page 1-1"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "Low Impact Development Standards Manual",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.version_or_edition",
+      "excerpt": "This 2025 LID Standards Manual is an update of the 2014 LID Standards Manual",
+      "page_or_section": "Section 1.1, Page 1-1"
+    },
+    {
+      "field": "document_metadata.relationship_to_state_manual",
+      "excerpt": "The 2025 LID Standards Manual supersedes the 2014 LID Standards Manual and addresses the following objectives and goals",
+      "page_or_section": "Section 1.1, Page 1-1"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "project applicants must conduct hydrology and hydraulic frequency analyses for LID, 2-, 5-, 10-, 25-, and 50-year storm events per the LACPW Hydraulic and Hydrology manuals",
+      "page_or_section": "Section 8.3, Page 8-1"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "The design storm, from which the SWQDv is calculated, is defined as the greater of the following: The 0.75-inch, 24-hour rain event; The 85th percentile, 24-hour rain event as determined from the Los Angeles County 85th percentile precipitation isohyetal map",
+      "page_or_section": "Section 6.2, Page 6-1"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "All Priority Development Projects must retain 100 percent of the SWQDv on-site through infiltration, bioretention, rainfall harvest and use, or a combination thereof",
+      "page_or_section": "Section 2.2 / Section 7"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "The maximum flow rate of runoff produced from a rainfall intensity of 0.2 inch of rainfall per hour, for each hour of a storm event; or The maximum flow rate of runoff produced by the 85th percentile hourly rainfall intensity ... multiplied by a factor of two",
+      "page_or_section": "Section 7.5, Page 7-16"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "The volume of stormwater runoff that must be retained at a project site is calculated using MODRAT",
+      "page_or_section": "Section 6.2, Page 6-1"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "Calculate the peak flow rate using the rational equation: Q = Cd × I × A",
+      "page_or_section": "Section 6.2.6, Page 6-3"
+    },
+    {
+      "field": "design_criteria.required_hydrologic_hydraulic_software",
+      "excerpt": "LACPW developed a hydrologic calculator (HydroCalc)... Use of this program is encouraged",
+      "page_or_section": "Section 6.3, Page 6-3"
+    },
+    {
+      "field": "design_criteria.required_hydrologic_hydraulic_software",
+      "excerpt": "analyze changes in flow velocity, flow volume, and depth/width of flow for all natural drainage systems using HEC-RAS",
+      "page_or_section": "Section 8.3, Page 8-1"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Retention-based stormwater quality control measures (RET-1 to RET-6); Biofiltration (BIO-1); Vegetation-based stormwater quality control measures (VEG-1 to VEG-4); Treatment based-stormwater quality control measures (T-1 to T-6)",
+      "page_or_section": "Section 7.2, Page 7-1"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Bioretention (RET-1)... Infiltration Basin (RET-2)... Infiltration Trench (RET-3)... Dry Well (RET-4)... Permeable Pavement without an Underdrain (RET-5)... Rain Barrel/Cistern (RET-6)... Biofiltration (BIO-1)... Stormwater Planter (VEG-1)... Tree-well Filter (VEG-2)... Vegetated Swales (VEG-3)... Vegetated Filter Strip (VEG-4)... Sand Filters (T-1)... Constructed Wetlands (T-2)... Extended Detention Basin (T-3)... Wet Pond (T-4)... Permeable Pavement with an Underdrain (T-5)... Proprietary Treatment Control Measures (T-6)",
+      "page_or_section": "Table 7-1, Pages 7-3–7-4"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "high",
+    "needs_human_review": false,
+    "review_notes": "County (unincorporated LA) 2025 LID Standards Manual. SWQDv and retention hierarchy are explicit. Page footers say March 2026; no single ordinance effective date found in extracted text. 100-year storms referenced elsewhere for receiving-water exemptions, not as SWQDv design storms.",
+    "fields_not_found": [
+      "document_metadata.adoption_or_effective_date",
+      "document_metadata.last_revised_date"
+    ]
+  },
+  "source": {
+    "document_url": "https://dpw.lacounty.gov/ldd/lddservices/docs/Low_Impact_Development_Standards_Manual.pdf",
+    "landing_page_url": "https://dpw.lacounty.gov/ldd/lddservices/LidIntro.htm",
+    "retrieved_at": "2026-08-08T10:35:19.381Z",
+    "original_filename": "los-angeles-ca.pdf"
+  }
+}

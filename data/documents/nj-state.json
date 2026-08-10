@@ -1,0 +1,134 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "New Jersey Department of Environmental Protection (NJDEP)",
+    "jurisdiction_level": "state",
+    "state_code": "NJ",
+    "document_title": "New Jersey Stormwater Best Management Practices Manual — Chapter 5 (Quantity and Quality Standards and Computations) and Chapter 9.7 (Small-Scale Bioretention Systems)",
+    "version_or_edition": "Chapter 5: July 2023; Chapter 9.7: January 2026",
+    "adoption_or_effective_date": "2023-07",
+    "last_revised_date": "2026-01",
+    "relationship_to_state_manual": "independent"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [2, 10, 100],
+    "water_quality_volume_method": "NJDEP Water Quality Design Storm (WQDS): 1.25 inches of rain falling nonuniformly over 2 hours (N.J.A.C. 7:8-5.5). NRCS methodology is used to compute WQDS runoff volume, peak rate, and hydrograph; BMPs such as small-scale bioretention must store/treat the entire WQDS volume.",
+    "peak_flow_calculation_method": [
+      "USDA NRCS methodology (NRCS Runoff Equation and Dimensionless Unit Hydrograph; NEH Part 630 Hydrology Chapters 7, 9, 10, 15, and 16)",
+      "NRCS Curve Number (CN) method"
+    ],
+    "required_hydrologic_hydraulic_software": [],
+    "approved_bmp_categories": [
+      "Small-scale green infrastructure BMPs (N.J.A.C. 7:8-5.2 Table 5-1 / 5-2)",
+      "Small-scale bioretention systems (rain gardens, stormwater planters, bioswales, tree pits)",
+      "Small-scale infiltration basins",
+      "Green roofs",
+      "Pervious paving systems",
+      "Grass swales",
+      "Cisterns",
+      "Green Infrastructure Manufactured Treatment Devices (Chapter 9.5)",
+      "Manufactured Treatment Devices (non-GI; Chapter 11.3)"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "New Jersey Stormwater Best Management Practices Manual July 2023",
+      "page_or_section": "Chapter 5 header"
+    },
+    {
+      "field": "document_metadata.jurisdiction_level",
+      "excerpt": "specifically required by the NJDEP Stormwater Management rules at N.J.A.C. 7:8 et seq.",
+      "page_or_section": "Chapter 5, Page 1"
+    },
+    {
+      "field": "document_metadata.state_code",
+      "excerpt": "New Jersey Stormwater Best Management Practices Manual",
+      "page_or_section": "Chapter 5 header"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "Chapter 5: Stormwater Management Quantity and Quality Standards and Computations... Green Infrastructure BMPs, Chapter 9.7: Small-Scale Bioretention Systems",
+      "page_or_section": "Chapter 5 title; Chapter 9.7 title"
+    },
+    {
+      "field": "document_metadata.version_or_edition",
+      "excerpt": "New Jersey Stormwater Best Management Practices Manual July 2023... New Jersey Stormwater Best Management Practices Manual January 2026",
+      "page_or_section": "Chapter 5 header; Chapter 9.7 header"
+    },
+    {
+      "field": "document_metadata.adoption_or_effective_date",
+      "excerpt": "New Jersey Stormwater Best Management Practices Manual July 2023",
+      "page_or_section": "Chapter 5 header"
+    },
+    {
+      "field": "document_metadata.last_revised_date",
+      "excerpt": "New Jersey Stormwater Best Management Practices Manual January 2026",
+      "page_or_section": "Chapter 9.7 header"
+    },
+    {
+      "field": "document_metadata.relationship_to_state_manual",
+      "excerpt": "New Jersey Stormwater Best Management Practices Manual... NJDEP Stormwater Management rules at N.J.A.C. 7:8 et seq.",
+      "page_or_section": "Chapter 5, Page 1"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "post-construction runoff hydrographs for the current and projected two-, 10- and 100-year storm events, as defined and determined pursuant to N.J.A.C. 7:8-5.7(c) and (d)",
+      "page_or_section": "Chapter 5, Stormwater Runoff Quantity Control Standards, Page 4"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "calculations involving the rainfall depths and intensities for the 2-, 10- and 100-year storm events",
+      "page_or_section": "Chapter 5, Page 3"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "For stormwater runoff quality control, N.J.A.C. 7:8-5.5 requires using 1.25 inches of rain falling nonuniformly in a 2-hour storm event, which is also known as the Water Quality Design Storm (WQDS).",
+      "page_or_section": "Chapter 5, Page 20–21"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "Minimum Storage Volume Entire Water Quality Design Storm Volume",
+      "page_or_section": "Chapter 9.7, Water Quality Mechanisms and Corresponding Criteria"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "the Stormwater Management rules at N.J.A.C. 7:8-5.7 allow only the methodology listed below... The USDA Natural Resources Conservation Service (NRCS) methodology, including the NRCS Runoff Equation and Dimensionless Unit Hydrograph as described in Chapters 7, 9, 10, 15 and 16, Part 630 Hydrology, National Engineering Handbook (NEH)",
+      "page_or_section": "Chapter 5, Pages 2–3"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "The key component of the NRCS runoff equation is the NRCS Curve Number (CN), which is based on soil permeability, surface cover, hydrologic condition and antecedent moisture.",
+      "page_or_section": "Chapter 5, NRCS Methodology section"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "green infrastructure BMPs listed in Table 5-1 or 5-2, as required by N.J.A.C.",
+      "page_or_section": "Chapter 5 example, ~Page 47 reference"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "9.7 SMALL-SCALE BIORETENTION SYSTEMS... The total suspended solids (TSS) removal rate is 80 - 90%",
+      "page_or_section": "Chapter 9.7 introduction"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Chapter 9.6: Pervious Paving Systems... Chapter 9.4: Green Roofs... Chapter 9.5 for Green Infrastructure MTDs... Chapter 9.1: Cisterns... small-scale infiltration basin... Grass swales are one of the green infrastructure BMPs listed in Table 5-1 of N.J.A.C. 7:8-5.2",
+      "page_or_section": "Chapter 5 cross-references; Chapter 9.7"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "medium",
+    "needs_human_review": true,
+    "review_notes": "Multi-chapter excerpt (Ch5 July 2023 calculations/standards + Ch9.7 Jan 2026 small-scale bioretention), not the full NJ BMP Manual. WQDS (1.25 in/2-hr) and quantity storms (2-/10-/100-year current and projected) are from Ch5; GI BMP inventory is incomplete relative to the full Chapter 9 series. N.J.A.C. 7:8-5.7 requires NRCS methodology but does not mandate a specific software package (HydroCAD appears only in worked examples). TR-55 is cited as superseded by NEH Part 630.",
+    "fields_not_found": [
+      "design_criteria.required_hydrologic_hydraulic_software",
+      "design_criteria.approved_bmp_categories (complete Chapter 9 GI catalog beyond practices named in this Ch5/9.7 excerpt)"
+    ]
+  },
+  "source": {
+    "document_url": "https://dep.nj.gov/wp-content/uploads/stormwater/bmp/njswbmp-chapter-9.7-small-scale-bioretention-systems-january-2026.pdf",
+    "landing_page_url": "https://dep.nj.gov/stormwater/stormwater-management/bmp-manual/",
+    "retrieved_at": "2026-08-08T10:25:00.000Z",
+    "original_filename": "nj-state.txt"
+  }
+}

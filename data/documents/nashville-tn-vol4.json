@@ -1,0 +1,120 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "Metropolitan Nashville and Davidson County",
+    "jurisdiction_level": "municipality",
+    "state_code": "TN",
+    "document_title": "Stormwater Management Manual Volume 4 – Best Management Practices",
+    "version_or_edition": "2021 (Section 1 Introduction only)",
+    "adoption_or_effective_date": "2021",
+    "last_revised_date": "2021",
+    "relationship_to_state_manual": "independent"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [],
+    "water_quality_volume_method": "Post-construction long-term BMP selection must meet Metro’s requirement of an 80% TSS reduction of an average annual urban pollutant load. Nonpoint-source pollution is most prevalent in runoff from small frequent storm events, typically less than 1.1 inches of rainfall; that fact was used in preparing selection, sizing, approach, and maintenance criteria in the BMP fact sheets. Stormwater quality management involves pollutant control, capture, and treatment for new development and redevelopment.",
+    "peak_flow_calculation_method": [],
+    "required_hydrologic_hydraulic_software": [],
+    "approved_bmp_categories": [
+      "Temporary BMPs (construction EP&SC / good housekeeping)",
+      "Permanent / post-construction treatment practices (PTP)",
+      "Erosion Prevention and Sediment Control (EP&SC / PESC)",
+      "Contractor activity BMPs (CP, TCP, ICP)",
+      "Swales",
+      "Sediment or detention ponds",
+      "Pervious pavers / permeable concrete",
+      "Grass-lined channels",
+      "Infiltration BMPs",
+      "Detention/retention facilities",
+      "Vegetated swales/filters",
+      "Source controls and perimeter/outfall controls"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "Metropolitan Nashville - Davidson County Stormwater Management Manual Volume 4 – Best Management Practices",
+      "page_or_section": "Section 1 cover, Page 1-1"
+    },
+    {
+      "field": "document_metadata.jurisdiction_level",
+      "excerpt": "for each type of BMP to be used in the Metropolitan Nashville and Davidson County (Metro) area",
+      "page_or_section": "Section 1.1, Page 1-1"
+    },
+    {
+      "field": "document_metadata.state_code",
+      "excerpt": "National Pollutant Discharge Elimination System (NPDES) Municipal Separate Storm Sewer System (MS4) permit issued by the Tennessee Department of Environment and Conservation (TDEC)",
+      "page_or_section": "Section 1.1, Page 1-1"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "Stormwater Management Manual Volume 4 – Best Management Practices",
+      "page_or_section": "Section 1 cover, Page 1-1"
+    },
+    {
+      "field": "document_metadata.version_or_edition",
+      "excerpt": "Volume 4 – Best Management Practices 2021",
+      "page_or_section": "Section 1 cover, Page 1-1"
+    },
+    {
+      "field": "document_metadata.adoption_or_effective_date",
+      "excerpt": "Volume 4 – Best Management Practices 2021... Any future release of this manual supersedes any and all previous manual releases. Each page is dated to indicate the release date.",
+      "page_or_section": "Section 1.1, Pages 1-1 to 1-2"
+    },
+    {
+      "field": "document_metadata.last_revised_date",
+      "excerpt": "Volume 4 – Best Management Practices 2021",
+      "page_or_section": "Section 1 cover, Page 1-1"
+    },
+    {
+      "field": "document_metadata.relationship_to_state_manual",
+      "excerpt": "It was prompted by requirements in Metropolitan Nashville and Davidson County’s National Pollutant Discharge Elimination System (NPDES) Municipal Separate Storm Sewer System (MS4) permit issued by the Tennessee Department of Environment and Conservation (TDEC).",
+      "page_or_section": "Section 1.1, Page 1-1"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "Long-term BMP selection must be based upon the ability to meet Metro’s requirement of an 80% TSS reduction of an average annual urban pollutant load.",
+      "page_or_section": "Section 1.6.1, Page 1-9"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "Nonpoint source pollution is most prevalent in runoff from small frequent storm events. Typically these events are less than 1.1-inches of rainfall and that fact was used in preparing the selection, sizing, approach, and maintenance criteria presented in the BMP fact sheets.",
+      "page_or_section": "Section 1.2, Page 1-2"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Temporary BMPs are intended to address construction activities while permanent BMPs address long-term stormwater management objectives / requirements.... Permanent BMPs may include swales, sediment or detention ponds, and a variety of other features.",
+      "page_or_section": "Section 1.5, Pages 1-7 to 1-8"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Use pervious materials, such as pervious pavers or permeable concrete, where possible. Use grass-lined channels where site conditions allow.",
+      "page_or_section": "Section 1.6.1, Page 1-9"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Selecting BMPs for Contractor Activities (Sections CP, TCP and ICP)... Selection of Erosion Prevention and Sediment Control (EP&SC) Activities (Sections TCP and PESC)... Selection of Permanent Treatment Practices (Sections PESC and PTP)",
+      "page_or_section": "Sections 1.6.3–1.6.5, Pages 1-11 to 1-16"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Infiltration BMPs may serve as groundwater recharge facilities, detention/retention areas may be created in landscaped areas of the project, and vegetated swales/filters may be used as roadside/median or parking lot median vegetated areas.",
+      "page_or_section": "Section 1.6.5, Page 1-17"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "low",
+    "needs_human_review": true,
+    "review_notes": "Source text is Volume 4 Section 1 introduction only (BMP selection overview). No numeric design-storm return periods, peak-flow calculation methods, or required software appear in this excerpt; hydrologic/design criteria live in other SWMM volumes/sections (e.g., Volumes 1–3 and BMP fact sheets). Re-extract when full Vol4 BMP fact sheets or Procedures/Theory volumes are available.",
+    "fields_not_found": [
+      "design_criteria.design_storm_return_periods_years",
+      "design_criteria.peak_flow_calculation_method",
+      "design_criteria.required_hydrologic_hydraulic_software"
+    ]
+  },
+  "source": {
+    "document_url": "https://www.nashville.gov/sites/default/files/2021-08/SWMM-Vol4-01_SECTION_1_0_ALL.pdf",
+    "landing_page_url": "https://www.nashville.gov/departments/water/developers/stormwater-review/stormwater-management-manual/best-management-practices",
+    "retrieved_at": "2026-08-08T10:35:25.202Z",
+    "original_filename": "nashville-tn-vol4.pdf"
+  }
+}

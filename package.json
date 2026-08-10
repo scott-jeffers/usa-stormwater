@@ -1,5 +1,5 @@
 {
-  "name": "usa-stormwater",
+  "name": "stormwater-atlas",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -7,34 +7,35 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint .",
-    "ingest": "tsx --env-file-if-exists=.env.local scripts/ingest.ts",
-    "overnight": "tsx --env-file-if-exists=.env.local scripts/overnight.ts"
+    "prepare:queue": "tsx scripts/prepare.ts",
+    "save": "tsx scripts/save.ts",
+    "overnight": "tsx scripts/prepare.ts",
+    "ingest": "tsx scripts/ingest.ts"
   },
   "dependencies": {
+    "d3-geo": "3.1.1",
     "next": "16.3.0",
     "react": "19.2.8",
     "react-dom": "19.2.8",
-    "zod": "4.4.3",
-    "@google/genai": "2.16.0",
-    "unpdf": "1.8.0",
     "react-simple-maps": "3.0.0",
-    "d3-geo": "3.1.1"
+    "unpdf": "1.8.0",
+    "zod": "4.4.3"
   },
   "overrides": {
     "d3-color": "3.1.0",
     "postcss": "8.5.26"
   },
   "devDependencies": {
-    "typescript": "5.7.3",
-    "tailwindcss": "4.3.3",
     "@tailwindcss/postcss": "4.3.3",
-    "postcss": "8.5.26",
-    "eslint": "9.39.5",
-    "eslint-config-next": "16.3.0",
     "@types/node": "22.14.0",
     "@types/react": "19.2.18",
     "@types/react-dom": "19.2.4",
     "@types/react-simple-maps": "3.0.6",
-    "tsx": "4.23.10"
+    "eslint": "9.39.5",
+    "eslint-config-next": "16.3.0",
+    "postcss": "8.5.26",
+    "tailwindcss": "4.3.3",
+    "tsx": "4.23.10",
+    "typescript": "5.7.3"
   }
 }

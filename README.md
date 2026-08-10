@@ -1,95 +1,93 @@
-# USA Stormwater Manual Extractor
+# Stormwater Atlas
 
-A zero-cost, one-stop shop for U.S. stormwater design manual requirements. A local CLI uses Google's free Gemini API to extract structured, evidence-cited data from PDF manuals; a statically-exported Next.js dashboard (hosted free on GitHub Pages) lets you search, filter, and browse everything that's been ingested.
+**[stormwateratlas.com](https://stormwateratlas.com)** — a zero-cost, one-stop shop for U.S. stormwater design manual requirements. **Cursor agents** extract structured, evidence-cited data from PDF manuals (no Gemini / cloud API key). A statically-exported Next.js dashboard on **Netlify** lets you search, filter, and browse everything that's been ingested.
 
 The project is intentionally split into two decoupled halves:
 
-1. **Local ingestion CLI** (`scripts/ingest.ts`) — runs only on your machine, reads a PDF, calls Gemini, validates the result, and writes a JSON file into `data/documents/`. This never runs in a browser or on a server, so there's no timeout risk from processing a large document.
-2. **Static web dashboard** (`app/`) — reads every JSON file in `data/documents/` at build time and renders a searchable, filterable, map-based dashboard plus a detail page per manual. It's exported as plain HTML/CSS/JS via `output: 'export'` and can be hosted for free on GitHub Pages.
+1. **Local prepare + Cursor extract** — download a PDF, extract plain text locally (`unpdf`), then have a Cursor agent write validated JSON into `data/documents/`.
+2. **Static web dashboard** (`app/`) — reads every JSON file in `data/documents/` at build time and renders a searchable, filterable, map-based dashboard plus a detail page per manual (`output: 'export'` → Netlify).
 
 ## Setup
 
-1. Install dependencies:
+```bash
+npm install
+npm run dev
+```
+
+Open [http://localhost:3000](http://localhost:3000). No API keys required for the site.
+
+## Secrets / API keys
+
+- The published site is a **static export**. Builds on Netlify need **no** environment variables.
+- Keep any local secrets in `.env.local` (gitignored). Never commit `.env` / `.env.local`.
+- Do **not** add `GEMINI_API_KEY` (or any AI key) in Netlify → Site settings → Environment variables.
+- Never name a secret `NEXT_PUBLIC_*` — that prefix embeds the value in client JavaScript.
+
+## Operational flow (Cursor agents)
+
+1. Add a job to `data/queue/manifest.json` (PDF URL + landing page + optional city coords), or use an existing pending id.
+2. Prepare local text (download + PDF extract, no AI):
 
    ```bash
-   npm install
+   npm run prepare:queue -- portland-or
+   # or prepare all pending:
+   npm run prepare:queue
    ```
 
-2. Get a free Gemini API key at [Google AI Studio](https://aistudio.google.com/app/apikey).
-
-3. Copy `.env.example` to `.env.local` and paste in your key:
+   Writes `samples/queue/<id>.pdf` and `samples/queue/<id>.txt` (gitignored).
+3. Ask Cursor to extract: read `samples/queue/<id>.txt` (and `lib/schema.ts`), write `data/documents/<id>.json` with verbatim evidence excerpts. Only report values explicitly in the text; leave missing fields null and list them in `fields_not_found`.
+4. Optional validate/save helper if the agent wrote a draft elsewhere:
 
    ```bash
-   cp .env.example .env.local
+   npm run save -- path/to/draft.json --slug=portland-or "--url=https://..." "--landing-page=https://..."
    ```
+5. For cities, add coords to `lib/cityCoords.generated.ts` so map dots appear.
+6. Commit and push `data/documents/` (and queue notes) when ready — Netlify redeploys from `main`.
 
-   ```env
-   GEMINI_API_KEY=your_free_google_ai_studio_key
-   ```
+## Overnight / batch download
 
-## Operational flow
+```bash
+npm run prepare:queue
+# same as: npm run overnight
+```
 
-1. Download a state/county/municipal stormwater manual PDF to your computer.
-2. Run the ingestion CLI, pointing it at the PDF:
+This only downloads PDFs and extracts text. Structured extraction is always done by Cursor agents (resume-safe via `data/queue/progress.json`).
 
-   ```bash
-   npm run ingest -- path/to/manual.pdf "--url=https://agency.gov/manual.pdf" "--landing-page=https://agency.gov/stormwater-manual"
-   ```
+## One-time Netlify setup (custom domain)
 
-   On Windows PowerShell, prefer the `--url=...` form (quoted) so flags are not stripped. `--url` / `--landing-page` are optional but recommended — they are stored on the record so the dashboard can link back to the official document.
+`netlify.toml` is already in the repo, so connecting GitHub is enough for builds.
 
-   This extracts the PDF's text, sends it to Gemini (`gemini-3.5-flash`) with a strict JSON schema, validates the response with Zod (retrying once on validation failure), and writes `data/documents/<slug>.json`. Expect this to take 1-2 minutes for a large manual — it's a single long-lived local Node process, not a web request, so there's no timeout to worry about.
-3. Review the new entry locally:
+1. In [Netlify](https://app.netlify.com): **Add new site → Import an existing project → GitHub** → select this repo.
+2. Confirm build settings (auto-detected from `netlify.toml`):
+   - **Build command:** `npm run build`
+   - **Publish directory:** `out`
+   - **Node version:** 22
+3. Deploy. You get a `*.netlify.app` URL immediately.
+4. **Domain management → Add custom domain** → `stormwateratlas.com` (and optionally `www`).
+5. At your domain registrar, use the DNS records Netlify shows (typically Netlify DNS nameservers, or an apex `A`/`ALIAS` + `www` `CNAME` to your Netlify site).
+6. Enable **HTTPS** (Netlify provisions the certificate automatically once DNS is verified).
+7. Push to `main` — each push rebuilds and publishes `https://stormwateratlas.com/`.
 
-   ```bash
-   npm run dev
-   ```
-
-   Open [http://localhost:3000](http://localhost:3000) and check the dashboard — search for the jurisdiction, open its detail page, and confirm each extracted field's evidence excerpt actually supports the value. If `needs_human_review` is true or `fields_not_found` is non-empty, double check those before trusting the entry.
-4. Once satisfied, commit and push:
-
-   ```bash
-   git add data/documents
-   git commit -m "Add <jurisdiction> manual"
-   git push
-   ```
-
-   Pushing to `main` triggers `.github/workflows/deploy.yml`, which rebuilds the static site and redeploys it to GitHub Pages automatically.
-
-## One-time GitHub Pages setup
-
-GitHub Pages needs to be told to deploy from GitHub Actions (this is a one-time repo setting, not something the workflow can do for you):
-
-1. On GitHub, go to the repo's **Settings → Pages**.
-2. Under **Build and deployment → Source**, select **GitHub Actions**.
-3. Push to `main` (or re-run the workflow manually from the **Actions** tab) — the site will publish at `https://<your-username>.github.io/usa-stormwater/`.
+Do not paste API keys into Netlify env settings for this project.
 
 ## Dashboard features
 
 - **Search** by jurisdiction name or document title.
-- **Filters** by jurisdiction level, state, confidence, and a "needs review only" toggle.
-- **Coverage map** — a clickable US map showing which states have been ingested; clicking a state is the same as picking it from the state filter.
-- **Group by state** — toggle the table between a flat sortable list and state-grouped sections.
-- **Detail pages** — every extracted field shown side-by-side with the verbatim excerpt and page/section it came from, plus links to the source PDF / agency page and to other ingested manuals in the same state.
+- **Filters** by jurisdiction level, state, confidence, and "needs review only".
+- **Coverage map** — clickable US map; city dots for municipalities with coords.
+- **Group by state** — flat table or state-grouped sections.
+- **Detail pages** — each field with verbatim evidence, source PDF / agency links, related manuals in-state.
 
 ## Project structure
 
 ```
-app/                    Next.js App Router pages (dashboard + detail view)
-components/             Shared React components (table, map, badges, evidence panel)
-lib/schema.ts           Zod schema — single source of truth for AI output + UI
-lib/data.ts             Reads/validates data/documents/*.json at build time
-lib/evidence.ts         Matches evidence entries back to schema fields
-lib/usStates.ts         US state / FIPS lookup tables for the coverage map
-scripts/ingest.ts       CLI-only ingestion script (never run in a browser)
-data/documents/         Committed JSON output — the "database"
-.github/workflows/      GitHub Actions static-site deploy to Pages
+app/                    Next.js App Router (dashboard + detail)
+components/             Table, map, badges, evidence panel
+lib/schema.ts           Zod schema — agent output + UI
+scripts/prepare.ts      Download + local PDF text extract
+scripts/save.ts         Validate JSON → data/documents/
+data/documents/         Committed JSON "database"
+data/queue/             Manifest, progress, NOTES for the scrub
+samples/                Local PDFs/text (gitignored)
+netlify.toml            Netlify build + publish config
 ```
-
-## Notes on model/SDK choices
-
-The Gemini API and its SDKs move fast. This project uses:
-
-- **`@google/genai`** — the current unified Google GenAI SDK (the older `@google/generative-ai` package is deprecated).
-- **`gemini-3.5-flash`** — the current GA flash model with a large free tier and long context window. If this model is retired in the future, update `MODEL` in `scripts/ingest.ts`.
-- **Zod's native `z.toJSONSchema()`** (Zod 4+) to convert `stormwaterSchema` into the OpenAPI-3-flavored schema Gemini's `responseSchema` expects, instead of the now-unmaintained `zod-to-json-schema` package.

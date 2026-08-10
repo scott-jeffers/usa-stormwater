@@ -1,0 +1,102 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "City of North Little Rock",
+    "jurisdiction_level": "municipality",
+    "state_code": "AR",
+    "document_title": "Stormwater Best Management Practices",
+    "version_or_edition": "2025",
+    "adoption_or_effective_date": "2025",
+    "last_revised_date": null,
+    "relationship_to_state_manual": "independent"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [],
+    "water_quality_volume_method": "Construction-focused manual; no post-construction water quality volume formula. Temporary sediment traps/basins sized for settling and storage zones of at least 70 CY/acre and 53 CY/acre of contributing drainage area, respectively, based on ½ inch of runoff volume over a 24-hour period. Site BMPs must be inspected every seven calendar days and within 24 hours of a rainfall event of 0.5 inches or greater.",
+    "peak_flow_calculation_method": [],
+    "required_hydrologic_hydraulic_software": [],
+    "approved_bmp_categories": [
+      "Mulch and Straw Cover",
+      "Rolled Erosion Control Practices (RECP)",
+      "Wetting / Dust Control",
+      "Outlet Protection",
+      "Inlet Protection",
+      "Silt Fence",
+      "Compost Socks",
+      "Sediment Basins / Sediment Traps",
+      "Construction Entrance/Exit",
+      "Runoff Control – Ditches and Check Dams",
+      "Concrete Washouts",
+      "Spill Prevention",
+      "Stockpile Management"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "City of North Little Rock ... A practical guide to protecting North Little Rock’s water ways",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.jurisdiction_level",
+      "excerpt": "as mandated by the City’s Municipal Separate Storm Sewer System (MS4) permit",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.state_code",
+      "excerpt": "Arkansas Department of Environmental Quality’s General Permit for Small MS4s",
+      "page_or_section": "Section 1.2"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "STORMWATER BEST MANAGEMENT PRACTICES",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.version_or_edition",
+      "excerpt": "City of North Little Rock2025",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.adoption_or_effective_date",
+      "excerpt": "City of North Little Rock2025",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.relationship_to_state_manual",
+      "excerpt": "This manual is issued under the authority of the City of North Little Rock’s Stormwater Ordinance (Chapter 14 of municipal code) and supports the City’s responsibilities as a regulated Municipal Separate Storm Sewer System (MS4)",
+      "page_or_section": "Section 1.2"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "Size traps to accommodate both a settling and storage zone with minimum volumes of 70 CY/acre and 53 CY/acre of contributing drainage area, respectively, based on ½” of runoff volume over a 24-hour period.",
+      "page_or_section": "Section 3.3.5 Sediment Basins"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "Sites must be inspected every seven calendar days and within 24 hours of a rainfall event of .5 inches or greater.",
+      "page_or_section": "Section 3.5 Inspection and Maintenance Guidelines"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "3.2 Erosion Control Practices ... 3.3 Sediment Control Practices ... 3.4 Good Housekeeping Measures ... Mulch & Straw Cover ... RECP ... Outlet Protection ... Inlet Protection ... Silt Fence ... Compost Socks ... Sediment Basins ... Construction Entrance ... Concrete Washouts",
+      "page_or_section": "Table of Contents; Sections 3.2–3.4"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "medium",
+    "needs_human_review": true,
+    "review_notes": "Construction-phase BMP manual for North Little Rock MS4 (Chapter 14). Explicitly states this edition focuses primarily on construction-phase controls; post-construction design storms, peak-flow methods, and hydrologic software are not specified. Sediment trap sizing uses ½-inch runoff over 24 hours; 0.5-inch rainfall is an inspection trigger, not a return-period design storm.",
+    "fields_not_found": [
+      "document_metadata.last_revised_date",
+      "design_criteria.design_storm_return_periods_years",
+      "design_criteria.peak_flow_calculation_method",
+      "design_criteria.required_hydrologic_hydraulic_software"
+    ]
+  },
+  "source": {
+    "document_url": "https://nlr.ar.gov/download/629/plans-and-specs/18083/nlr-stormwater-best-management-practices-v20251017.pdf",
+    "landing_page_url": "https://nlr.ar.gov/",
+    "retrieved_at": "2026-08-08T10:16:00.000Z",
+    "original_filename": "north-little-rock-ar.pdf"
+  }
+}

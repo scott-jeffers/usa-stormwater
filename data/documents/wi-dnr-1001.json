@@ -1,0 +1,119 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "Wisconsin Department of Natural Resources",
+    "jurisdiction_level": "state",
+    "state_code": "WI",
+    "document_title": "Wet Detention Pond (1001) — WDNR Technical Standard",
+    "version_or_edition": "10/07",
+    "adoption_or_effective_date": "2007-10",
+    "last_revised_date": "2007-10",
+    "relationship_to_state_manual": "independent"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [1, 2, 10, 100],
+    "water_quality_volume_method": "Permanent pool surface area sized from post-construction peak outflow during the 1-yr, 24-hour design storm and target particle settling velocity (Equation 1; 80%/60%/40% TSS via 3/6/12 micron particles). Active storage volume above the permanent pool sized with a hydrograph method (TR-55 / App. B) for the 1-yr, 24-hour storm. Demonstrates TSS reduction and peak-flow control per NR 151.12.",
+    "peak_flow_calculation_method": [
+      "NRCS Technical Release 55 (TR-55) hydrograph method",
+      "Runoff curve numbers (TR-55; cropland Table 1)"
+    ],
+    "required_hydrologic_hydraulic_software": [
+      "SLAMM",
+      "P8",
+      "DETPOND"
+    ],
+    "approved_bmp_categories": [
+      "Wet Detention Pond"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "Wisconsin Department of Natural Resources Technical Standard",
+      "page_or_section": "Page 1, header"
+    },
+    {
+      "field": "document_metadata.jurisdiction_level",
+      "excerpt": "This practice provides a method to demonstrate that a wet detention pond achieves the total suspended solids (TSS) reduction and peak flow control required by NR 151.12, Wis. Adm. Code",
+      "page_or_section": "Section III"
+    },
+    {
+      "field": "document_metadata.state_code",
+      "excerpt": "Wisconsin Department of Natural Resources",
+      "page_or_section": "Page 1"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "Wet Detention Pond (1001)",
+      "page_or_section": "Page 1, title"
+    },
+    {
+      "field": "document_metadata.version_or_edition",
+      "excerpt": "10/07",
+      "page_or_section": "Footer throughout"
+    },
+    {
+      "field": "document_metadata.adoption_or_effective_date",
+      "excerpt": "10/07",
+      "page_or_section": "Footer"
+    },
+    {
+      "field": "document_metadata.last_revised_date",
+      "excerpt": "Technical Standards are reviewed periodically and updated if needed... 10/07",
+      "page_or_section": "Page 1 footer note"
+    },
+    {
+      "field": "document_metadata.relationship_to_state_manual",
+      "excerpt": "Wisconsin Department of Natural Resources Technical Standard",
+      "page_or_section": "Page 1"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "the peak outflow during the 1-yr., 24-hour design storm... Design the outlet to control the proposed 2-yr., 24-hour discharge... Any storm up to the 10-yr., 24-hour design storm shall not flow backward... Design the spillway to safely pass peak flows produced by a 100-yr., 24-hour design storm",
+      "page_or_section": "Section V.B.1"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "The permanent pool surface area is sized based on the particle size and the peak outflow during the 1-yr., 24-hour design storm using Equation 1: Sa = 1.2 * (qo / vs)",
+      "page_or_section": "Section V.B.1.a.ii"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "Use a hydrograph-producing method, such as the one outlined in Natural Resources Conservation Service, Technical Release 55 (TR-55), to determine the storage volume for detention ponds.",
+      "page_or_section": "Section V.B.1.b"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "The post-development outflow shall not exceed pre-development peak flows for the 2-yr., 24-hour design storm. Use a hydrograph-producing method such as TR-55 for all runoff and flow calculations.",
+      "page_or_section": "Section V.B.1.h.v"
+    },
+    {
+      "field": "design_criteria.required_hydrologic_hydraulic_software",
+      "excerpt": "Pollutant loading models such as SLAMM, P8, DETPOND or equivalent methodology may also be used to evaluate the efficiency of the design in reducing TSS.",
+      "page_or_section": "Section III"
+    },
+    {
+      "field": "design_criteria.required_hydrologic_hydraulic_software",
+      "excerpt": "SLAMM and P8 are examples of models that may be used to verify that a detention pond design meets the desired total suspended solids reduction.",
+      "page_or_section": "Section X. Definitions — Approved Model"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Wet Detention Pond (1001)... A permanent pool of water with designed dimensions, inlets, outlets and storage capacity, constructed to collect, detain, treat and release stormwater runoff.",
+      "page_or_section": "Section I. Definition"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "medium",
+    "needs_human_review": true,
+    "review_notes": "Narrow WDNR Technical Standard 1001 for wet detention ponds only — not a full statewide stormwater design manual. Explicitly excludes flood-control design; local authorities may require peak control beyond the 2-yr, 24-hour storm. SLAMM/P8/DETPOND are approved optional models, not mandated for every design. Companion standards (1002–1004, 1064) and NR 151 govern broader post-construction requirements.",
+    "fields_not_found": [
+      "design_criteria.approved_bmp_categories (beyond wet detention pond — this standard covers only one practice)"
+    ]
+  },
+  "source": {
+    "document_url": "https://dnr.wisconsin.gov/sites/default/files/topic/Stormwater/1001WetDetentionPond.pdf",
+    "landing_page_url": "https://dnr.wisconsin.gov/topic/Stormwater",
+    "retrieved_at": "2026-08-08T10:16:00.000Z",
+    "original_filename": "wi-dnr-1001.pdf"
+  }
+}

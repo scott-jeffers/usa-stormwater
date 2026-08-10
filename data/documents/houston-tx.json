@@ -1,0 +1,145 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "City of Houston",
+    "jurisdiction_level": "municipality",
+    "state_code": "TX",
+    "document_title": "Infrastructure Design Manual Chapter 9 Stormwater Design and Water Quality Requirements",
+    "version_or_edition": "07-01-2022",
+    "adoption_or_effective_date": "2022-07-01",
+    "last_revised_date": "2022-07-01",
+    "relationship_to_state_manual": "independent"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [2, 5, 10, 25, 50, 100, 500],
+    "water_quality_volume_method": "At a minimum, permanent stormwater quality BMPs for new development and significant redevelopment must treat the first 1/2 inch of runoff (except as noted in the Stormwater Quality Guidance Manual or Minimum Design Criteria); LID features may also store/treat a water quality volume (WQv).",
+    "peak_flow_calculation_method": [
+      "Rational Method (drainage areas up to 200 acres; storm sewer projects up to 640 acres)",
+      "HCFCD H&H Manual methodology (areas greater than 640 acres)",
+      "Clark Unit Hydrograph Method (dynamic hydrograph modeling)",
+      "NRCS Dimensionless Unit Hydrograph (detention volume / static conditions)",
+      "Malcolm's Small Watershed Method (detention volume / static conditions)"
+    ],
+    "required_hydrologic_hydraulic_software": [
+      "HouStorm"
+    ],
+    "approved_bmp_categories": [
+      "Bioretention",
+      "Infiltration Trenches",
+      "Porous Pavement / Porous Paver Systems",
+      "Vegetated Swales (dry and wet)",
+      "Green Roof",
+      "Hard Roof",
+      "Rain Barrels",
+      "Detention ponds / stormwater detention basins"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "CITY OF HOUSTON Stormwater Design and Water Quality Requirements",
+      "page_or_section": "Header / Title, Page 9-0"
+    },
+    {
+      "field": "document_metadata.jurisdiction_level",
+      "excerpt": "Drainage criteria administered by the City of Houston and complemented by Harris County and the Harris County Flood Control District (HCFCD)",
+      "page_or_section": "Section 1, 9.1.02.A, Page 9-2"
+    },
+    {
+      "field": "document_metadata.state_code",
+      "excerpt": "Infiltration report of soil testing, signed and sealed by a Professional Engineer licensed in the State of Texas",
+      "page_or_section": "Section 1, 9.1.04.O, Page 9-7"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "Chapter 9 STORMWATER DESIGN AND WATER QUALITY REQUIREMENTS",
+      "page_or_section": "Title Page / Table of Contents, Page 9-0"
+    },
+    {
+      "field": "document_metadata.version_or_edition",
+      "excerpt": "07-01-2022",
+      "page_or_section": "Page footer throughout (e.g., Page 9-0)"
+    },
+    {
+      "field": "document_metadata.adoption_or_effective_date",
+      "excerpt": "07-01-2022",
+      "page_or_section": "Page footer throughout (e.g., Page 9-0)"
+    },
+    {
+      "field": "document_metadata.last_revised_date",
+      "excerpt": "07-01-2022",
+      "page_or_section": "Page footer throughout (e.g., Page 9-0)"
+    },
+    {
+      "field": "document_metadata.relationship_to_state_manual",
+      "excerpt": "Drainage criteria administered by the City of Houston and complemented by Harris County and the Harris County Flood Control District (HCFCD)",
+      "page_or_section": "Section 1, 9.1.02.A, Page 9-2"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "Table 9.1 – Rainfall Intensity Coefficients ... 2-year ... 5-year ... 10-year ... 25-year ... 50-year ... 100-year ... 500-year",
+      "page_or_section": "Section 2A, Table 9.1, Page 9-11"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "provides protection from Structural Flooding from a 100-year storm event... The Design Rainfall Event for sizing storm sewers in newly developed areas will be at minimum a 2-year rainfall event.",
+      "page_or_section": "Sections 9.1.02.A and 9.2.01.C.2, Pages 9-2 and 9-14"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "At a minimum, the system must be designed to treat the first 1/2 inch of runoff, except as noted in the SWQGM or the MDC.",
+      "page_or_section": "Section 9, 9.9.01.C.3, Page 9-46"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "The layer shall be designed to store at a minimum the water quality volume (WQv).",
+      "page_or_section": "Section 10, 9.10.01.B.3.b.(9), Page 9-51"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "Rational Method: The Rational Method will be used to estimate peak flows for individual drainage areas up to 200 acres in size, and for project areas up to 640 acres in size.",
+      "page_or_section": "Section 2A, 9.2.01.B.2.a, Page 9-12"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "Runoff Watershed Modeling: For areas greater than 640 acres, use the methodology specified in the HCFCD H&H Manual.",
+      "page_or_section": "Section 2A, 9.2.01.B.2.b, Page 9-12"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "Hydrograph Development Dynamic Conditions – For development of runoff hydrograph for use in dynamic modeling utilize Clark Unit Hydrograph Method. Hydrograph Development Static Conditions – For evaluation of detention volume the approved methodology for hydrograph development shall be based upon the NRCS Dimensionless Unit Hydrograph or Malcolm’s Small Watershed Method.",
+      "page_or_section": "Section 2A, 9.2.01.B.2.c–d, Page 9-12"
+    },
+    {
+      "field": "design_criteria.required_hydrologic_hydraulic_software",
+      "excerpt": "HouStorm shall be used to perform 2-year and inlet design analysis and design of storm drainage systems",
+      "page_or_section": "Section 2A, 9.2.01.A, Page 9-10"
+    },
+    {
+      "field": "design_criteria.required_hydrologic_hydraulic_software",
+      "excerpt": "HouStorm - The City of Houston’s version of The Texas Department of Transportation’s (TxDOT) software. The program is available from the City.",
+      "page_or_section": "Section 1, 9.1.03.F, Page 9-5"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Low Impact Development (LID) techniques that are considered acceptable for achieving detention are Bioretention, Infiltration Trenches, Porous Pavement, Vegetative Swales, Green Roof, Hard Roof, and Rain Barrels.",
+      "page_or_section": "Section 2A, 9.2.01.H.3.j, Page 9-31"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "BMP types include ponds, bio retention facilities, infiltration trenches, grass swales, and filter strips",
+      "page_or_section": "Section 8, 9.8.03.C, Page 9-43"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "high",
+    "needs_human_review": false,
+    "review_notes": "Chapter 9 (07-01-2022) clearly states City of Houston municipal design criteria, Atlas 14 IDF coefficients for 2–500 year events, Rational/HCFCD/Clark/NRCS/Malcolm hydrology, HouStorm software, first 1/2-inch WQ treatment, and LID BMP list. Complements HCFCD criteria but is an independent city IDM chapter, not a state manual adoption. A 3-year rainfall frequency is defined in 9.1.04.R but has no Table 9.1 intensity coefficients, so it was omitted from the return-period array.",
+    "fields_not_found": []
+  },
+  "source": {
+    "document_url": "https://www.houstonpermittingcenter.org/media/7596/download?inline=",
+    "landing_page_url": "https://www.houstonpermittingcenter.org/",
+    "retrieved_at": "2026-08-08T10:35:41.196Z",
+    "original_filename": "houston-tx.pdf"
+  }
+}

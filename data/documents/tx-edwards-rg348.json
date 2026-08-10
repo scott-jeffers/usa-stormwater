@@ -1,0 +1,125 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "Texas Commission on Environmental Quality",
+    "jurisdiction_level": "state",
+    "state_code": "TX",
+    "document_title": "Complying with the Edwards Aquifer Rules — Technical Guidance on Best Management Practices",
+    "version_or_edition": "RG-348, Revised July 2005 (errata March 28, 2009; addendum January 20, 2017)",
+    "adoption_or_effective_date": "2005-07-01",
+    "last_revised_date": "2017-01-20",
+    "relationship_to_state_manual": "independent"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [
+      100
+    ],
+    "water_quality_volume_method": "Permanent BMPs must remove at least 80% of the increase in TSS load from development; capture volume is sized from annual pollutant load (L = A × P × Rv × C × 0.226) and BMP-specific TSS removal efficiency.",
+    "peak_flow_calculation_method": [
+      "Rational Method"
+    ],
+    "required_hydrologic_hydraulic_software": [],
+    "approved_bmp_categories": [
+      "Retention/Irrigation",
+      "Extended Detention Basin",
+      "Grassy Swales",
+      "Vegetative Filter Strips",
+      "Sand Filter Systems",
+      "AquaLogic Cartridge Filter System",
+      "Wet Basins",
+      "Constructed Wetlands",
+      "Bioretention",
+      "Permeable Concrete",
+      "Wet Vaults",
+      "Silt Fence",
+      "Sediment Basins",
+      "Vegetative Buffers",
+      "Inlet Protection"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "Texas Commission on Environmental Quality",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.jurisdiction_level",
+      "excerpt": "The Edwards Aquifer rules are an effective mechanism we can use to protect this valuable resource. Found in Title 30 Texas Administrative Code Chapter 213",
+      "page_or_section": "Preface"
+    },
+    {
+      "field": "document_metadata.state_code",
+      "excerpt": "Texas Commission on Environmental Quality",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "Complying with the Edwards Aquifer Rules Technical Guidance on Best Management Practices",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.version_or_edition",
+      "excerpt": "RG-348 Revised July 2005 Includes Errata Sheet (March 28, 2009) and Addendum Sheet (Jan. 20, 2017).",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.adoption_or_effective_date",
+      "excerpt": "Revised July 2005",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.last_revised_date",
+      "excerpt": "Addendum Sheet (Jan. 20, 2017).",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.relationship_to_state_manual",
+      "excerpt": "The Edwards Aquifer Rules (30 TAC Chapter 213) regulate activities having the potential for polluting the Edwards Aquifer",
+      "page_or_section": "Chapter 3.1"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "Structural BMPs located in the floodplain should be constructed with the wall elevation of any basins or ponds higher than the elevation of the 100 year flood at that location.",
+      "page_or_section": "Chapter 3.1"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "The selected BMP or combination of BMPs must reduce the increase in total suspended solids (TSS) load associated with development by at least 80%.",
+      "page_or_section": "Chapter 3.1"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "Equation 3.1 L = A× P × Rv × C × 0.226",
+      "page_or_section": "Section 3.3.2"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "The runoff rate from the tributary area is calculated using the rational method as shown in Equation 3.4.",
+      "page_or_section": "Section 3.3.2"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Retention/Irrigation 100 ... Extended Detention Basin 75 ... Grassy Swales 70 ... Vegetative Filter Strips 85 ... Sand Filter Systems 89 ... Bioretention 89 ... Wet Basins 93 ... Constructed Wetlands 93 ... Permeable Concrete 89-100",
+      "page_or_section": "Table 3-1"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "1.4.3 Silt Fence ... 1.4.13 Sediment Basins ... 1.4.10 Vegetative Buffers ... 1.4.11 Inlet Protection",
+      "page_or_section": "Table of Contents, Chapter 1"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "high",
+    "needs_human_review": false,
+    "review_notes": "TCEQ RG-348 technical guidance implementing Edwards Aquifer rules (30 TAC Chapter 213) for eight central Texas counties. Primary permanent BMP list from Table 3-1; temporary construction BMPs from Chapter 1 included where commonly cited.",
+    "fields_not_found": [
+      "design_criteria.required_hydrologic_hydraulic_software"
+    ]
+  },
+  "source": {
+    "document_url": "https://www.tceq.texas.gov/downloads/publications/rg/complying-with-the-edwards-aquifer-rules-rg-348.pdf",
+    "landing_page_url": "https://www.tceq.texas.gov/publications/rg/rg-348",
+    "retrieved_at": "2026-08-08T00:52:06.514Z",
+    "original_filename": "tx-edwards-rg348.pdf"
+  }
+}

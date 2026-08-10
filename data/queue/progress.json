@@ -154,29 +154,44 @@
     "error": null
   },
   "portland-or": {
-    "status": "pending",
-    "updatedAt": "2026-08-07T21:23:16.192Z",
+    "status": "done",
+    "updatedAt": "2026-08-07T17:54:24.003Z",
+    "slug": "portland-or",
+    "chars": 791348,
+    "pages": 480,
     "error": null
   },
   "denver-co": {
-    "status": "pending",
-    "updatedAt": "2026-08-07T21:23:16.192Z",
+    "status": "done",
+    "updatedAt": "2026-08-08T00:55:00.000Z",
+    "slug": "denver-co",
+    "chars": 62153,
     "error": null
   },
   "va-state": {
-    "status": "skipped",
-    "updatedAt": "2026-08-07T11:44:09.344Z",
-    "error": "skipped_no_single_pdf — VA handbook is chapter/web EncodePlus, not one PDF"
+    "status": "done",
+    "updatedAt": "2026-08-08T10:25:00.000Z",
+    "error": null,
+    "slug": "va-state",
+    "chars": 185553,
+    "summary": "VA Handbook Ch8 (Jul 2013): Tv first 1-in rainfall, 1-yr/24-hr channel protection; approved BMP groups rooftop-to-basin plus MTDs. Chapter-only excerpt."
   },
   "nc-state": {
-    "status": "skipped",
-    "updatedAt": "2026-08-07T11:44:09.346Z",
-    "error": "skipped_no_single_pdf — NC design manual is chapter portal"
+    "status": "done",
+    "updatedAt": "2026-08-08T10:16:00.000Z",
+    "slug": "nc-state",
+    "chars": 14003,
+    "pages": 7,
+    "summary": "NCDEQ C-0 chapter: general MDC for all SCMs; program-specific storm depth (e.g. 1 in HQW/ORW) and 10-year outlet protection.",
+    "error": null
   },
   "nj-state": {
-    "status": "skipped",
-    "updatedAt": "2026-08-07T11:44:09.348Z",
-    "error": "skipped_no_single_pdf — NJ BMP manual is chapter PDFs"
+    "status": "done",
+    "updatedAt": "2026-08-08T10:25:00.000Z",
+    "error": null,
+    "slug": "nj-state",
+    "chars": 284606,
+    "summary": "NJ BMP Manual Ch5 (Jul 2023) + Ch9.7 (Jan 2026): WQDS 1.25-in/2-hr, quantity 2/10/100-yr via NRCS; small-scale bioretention GI. Multi-chapter excerpt."
   },
   "mn-state": {
     "status": "skipped",
@@ -184,13 +199,20 @@
     "error": "skipped_no_single_pdf — live wiki; 2008 PDF outdated"
   },
   "ca-casqa-municipal": {
-    "status": "skipped",
-    "updatedAt": "2026-08-07T11:44:09.351Z",
-    "error": "skipped_no_single_pdf — CASQA municipal handbook free but multi-file; Construction requires subscription"
+    "status": "done",
+    "updatedAt": "2026-08-08T01:30:00.000Z",
+    "slug": "ca-casqa-municipal",
+    "chars": 510166,
+    "pages": 300,
+    "summary": "CASQA 2003 municipal operations handbook with source-control fact sheets for fixed facilities and field programs plus treatment-control maintenance guidance.",
+    "error": null
   },
   "dc-guidebook": {
-    "status": "pending",
-    "updatedAt": "2026-08-07T21:23:16.192Z",
+    "status": "done",
+    "updatedAt": "2026-08-08T01:00:00.000Z",
+    "slug": "dc-guidebook",
+    "chars": 355458,
+    "pages": 231,
     "error": null
   },
   "baltimore-md": {
@@ -200,28 +222,37 @@
     "durationMs": 1031
   },
   "boston-ma": {
-    "status": "skipped",
-    "updatedAt": "2026-08-07T11:45:46.564Z",
-    "error": "HTTP 404 Not Found",
-    "durationMs": 791
+    "status": "done",
+    "updatedAt": "2026-08-08T11:44:13.400Z",
+    "chars": 325986,
+    "pages": 90,
+    "error": null,
+    "slug": "boston-ma",
+    "summary": "BWSC 2024 program report (needs_human_review): on-site infiltrate 1.0-in (<100k sf) / 1.25-in (≥100k sf) × impervious; TSS noted without % target."
   },
   "houston-tx": {
-    "status": "skipped",
-    "updatedAt": "2026-08-07T11:51:36.489Z",
-    "error": "fetch failed",
-    "durationMs": 304911
+    "status": "done",
+    "updatedAt": "2026-08-08T10:39:00.000Z",
+    "slug": "houston-tx",
+    "chars": 125042,
+    "pages": 73,
+    "error": null
   },
   "san-diego-ca": {
-    "status": "skipped",
-    "updatedAt": "2026-08-07T11:52:30.887Z",
-    "error": "HTTP 404 Not Found",
-    "durationMs": 9393
+    "status": "done",
+    "updatedAt": "2026-08-08T10:35:00.000Z",
+    "slug": "san-diego-ca",
+    "chars": 1454543,
+    "pages": 786,
+    "error": null
   },
   "los-angeles-ca": {
-    "status": "skipped",
-    "updatedAt": "2026-08-07T11:53:16.500Z",
-    "error": "HTTP 404 Not Found",
-    "durationMs": 600
+    "status": "done",
+    "updatedAt": "2026-08-08T10:35:00.000Z",
+    "slug": "los-angeles-ca",
+    "chars": 639701,
+    "pages": 475,
+    "error": null
   },
   "atlanta-ga": {
     "status": "skipped",
@@ -230,34 +261,57 @@
     "durationMs": 617
   },
   "miami-fl": {
-    "status": "skipped",
-    "updatedAt": "2026-08-07T11:54:47.132Z",
-    "error": "skipped_no_single_pdf — need verified city manual PDF"
+    "status": "done",
+    "updatedAt": "2026-08-08T10:50:00.000Z",
+    "slug": "miami-fl",
+    "chars": 104854,
+    "pages": 57,
+    "summary": "SFWMD ERP AH Vol II: 25-yr 3-day offsite discharge, 100-yr floors; WQ via AH Vol I plus District retention/exfiltration criteria.",
+    "error": null
   },
   "minneapolis-mn": {
-    "status": "skipped",
-    "updatedAt": "2026-08-07T11:54:47.136Z",
-    "error": "skipped_no_single_pdf — need verified city manual PDF"
+    "status": "done",
+    "updatedAt": "2026-08-08T10:35:00.000Z",
+    "slug": "minneapolis-mn",
+    "chars": 202034,
+    "pages": 104,
+    "error": null
   },
   "detroit-mi": {
-    "status": "skipped",
-    "updatedAt": "2026-08-07T11:54:47.139Z",
-    "error": "skipped_no_single_pdf"
+    "status": "done",
+    "updatedAt": "2026-08-08T10:50:00.000Z",
+    "slug": "detroit-mi",
+    "chars": 928405,
+    "pages": 494,
+    "summary": "Detroit DWSD 2025: retain/treat 90th-percentile 1.0-in WQv (80% TSS or ≤80 mg/L); 2-yr channel/infra protection; flood ≤0.15 cfs/ac 10-yr (<5ac) or 100-yr (≥5ac); Rational/Modified Rational/NRCS/SWMM; GSI BMPs.",
+    "error": null
   },
   "phoenix-az": {
-    "status": "skipped",
-    "updatedAt": "2026-08-07T11:54:47.142Z",
-    "error": "skipped_no_single_pdf"
+    "status": "done",
+    "updatedAt": "2026-08-08T01:05:00.000Z",
+    "slug": "phoenix-az",
+    "chars": 310268,
+    "pages": 144,
+    "summary": "Phoenix requires 100-year 2-hour on-site retention with First Flush (0.5 in) when waived; Rational and HEC-1 via Phoenix-DDMSW.",
+    "error": null
   },
   "salt-lake-city-ut": {
-    "status": "skipped",
-    "updatedAt": "2026-08-07T11:54:47.144Z",
-    "error": "skipped_no_single_pdf"
+    "status": "done",
+    "updatedAt": "2026-08-08T11:45:00.000Z",
+    "slug": "salt-lake-city-ut",
+    "chars": 825025,
+    "pages": 336,
+    "summary": "SLC MS4 SWMP: 0.2 cfs/ac 100-yr detention; 80th-percentile retention; Rational/<1ac and SCS CN methods via Design Manual.",
+    "error": null
   },
   "boise-id": {
-    "status": "skipped",
-    "updatedAt": "2026-08-07T11:54:47.146Z",
-    "error": "skipped_no_single_pdf"
+    "status": "done",
+    "updatedAt": "2026-08-08T01:05:00.000Z",
+    "slug": "boise-id",
+    "chars": 267689,
+    "pages": 149,
+    "summary": "Boise 2019 manual uses TR-55/Rational, 0.34-in water quality depth, 80% TSS removal, and infiltration/detention BMPs.",
+    "error": null
   },
   "albuquerque-nm": {
     "status": "skipped",
@@ -265,18 +319,29 @@
     "error": "skipped_no_single_pdf"
   },
   "honolulu-hi": {
-    "status": "skipped",
-    "updatedAt": "2026-08-07T11:54:47.156Z",
-    "error": "skipped_no_single_pdf"
+    "status": "done",
+    "updatedAt": "2026-08-08T11:44:13.400Z",
+    "chars": 41691,
+    "pages": 53,
+    "error": null,
+    "slug": "honolulu-hi",
+    "summary": "Honolulu Aug 2017 drainage standards: 10/50/100-yr recurrence; Rational ≤100 ac, USGS Plate 6 >100 ac; WQv in separate Water Quality rules."
   },
   "anchorage-ak": {
-    "status": "skipped",
-    "updatedAt": "2026-08-07T11:54:47.158Z",
-    "error": "skipped_no_single_pdf"
+    "status": "done",
+    "updatedAt": "2026-08-08T11:44:13.400Z",
+    "chars": 639073,
+    "pages": 337,
+    "error": null,
+    "slug": "anchorage-ak",
+    "summary": "MOA ASM Vol1 draft Mar 2015: WQ 0.52-in 90th-pctile GI; 1/10/100-yr peaks; Rational/NRCS/SWMM; bioretention–wetland BMPs."
   },
   "ohio-rainwater": {
-    "status": "pending",
-    "updatedAt": "2026-08-07T21:23:16.192Z",
+    "status": "done",
+    "updatedAt": "2026-08-07T12:55:00.000Z",
+    "slug": "ohio-rainwater",
+    "chars": 780855,
+    "pages": 400,
     "error": null
   },
   "wisconsin-technical": {
@@ -286,15 +351,21 @@
     "durationMs": 798
   },
   "michigan-manual": {
-    "status": "pending",
-    "updatedAt": "2026-08-07T21:23:16.192Z",
+    "status": "done",
+    "updatedAt": "2026-08-08T00:55:00.000Z",
+    "slug": "michigan-manual",
+    "chars": 63098,
+    "pages": 31,
     "error": null
   },
   "indiana-manual": {
-    "status": "skipped",
-    "updatedAt": "2026-08-07T11:57:04.467Z",
-    "error": "HTTP 404 ",
-    "durationMs": 403
+    "status": "done",
+    "updatedAt": "2026-08-08T01:30:00.000Z",
+    "slug": "indiana-manual",
+    "chars": 1388307,
+    "pages": 984,
+    "summary": "Indiana 2007 manual treats 0.5-in from impervious, 80% TSS removal, pre-dev peak matching, and 10/100-year storms via Rational/TR-55/TR-20.",
+    "error": null
   },
   "missouri-manual": {
     "status": "skipped",
@@ -309,24 +380,36 @@
     "durationMs": 800
   },
   "alabama-handbook": {
-    "status": "pending",
-    "updatedAt": "2026-08-07T21:23:16.192Z",
+    "status": "done",
+    "updatedAt": "2026-08-08T00:55:00.000Z",
+    "slug": "alabama-handbook",
+    "chars": 618660,
+    "pages": 409,
     "error": null
   },
   "south-carolina-manual": {
-    "status": "pending",
-    "updatedAt": "2026-08-07T21:23:16.192Z",
+    "status": "done",
+    "updatedAt": "2026-08-08T00:58:00.000Z",
+    "slug": "south-carolina-manual",
+    "chars": 256145,
+    "pages": 200,
     "error": null
   },
   "kentucky-bmp": {
-    "status": "skipped",
-    "updatedAt": "2026-08-07T12:00:51.887Z",
-    "error": "HTTP 404 NOT FOUND",
-    "durationMs": 626
+    "status": "done",
+    "updatedAt": "2026-08-08T01:30:00.000Z",
+    "slug": "kentucky-bmp",
+    "chars": 115385,
+    "pages": 43,
+    "summary": "Kentucky Section 1 BMP manual covers KPDES construction BMP planning, erosion/sediment controls, LID post-construction principles, and Louisville 10-year/80% TSS reference.",
+    "error": null
   },
   "west-virginia-manual": {
-    "status": "pending",
-    "updatedAt": "2026-08-07T21:23:16.192Z",
+    "status": "done",
+    "updatedAt": "2026-08-08T00:58:00.000Z",
+    "slug": "west-virginia-manual",
+    "chars": 1046714,
+    "pages": 502,
     "error": null
   },
   "delaware-esc": {
@@ -336,8 +419,11 @@
     "durationMs": 508
   },
   "maine-manual": {
-    "status": "pending",
-    "updatedAt": "2026-08-07T21:23:16.192Z",
+    "status": "done",
+    "updatedAt": "2026-08-08T00:58:00.000Z",
+    "slug": "maine-manual",
+    "chars": 304264,
+    "pages": 114,
     "error": null
   },
   "oregon-manual": {
@@ -347,18 +433,314 @@
     "durationMs": 440
   },
   "kansas-city-marc-bmp": {
-    "status": "pending",
-    "updatedAt": "2026-08-07T21:23:16.192Z",
+    "status": "done",
+    "updatedAt": "2026-08-08T01:00:00.000Z",
+    "slug": "kansas-city-marc-bmp",
+    "chars": 573360,
+    "pages": 334,
+    "summary": "MARC/APWA regional BMP manual using Level of Service and 1.37-inch WQv for Kansas City metro.",
     "error": null
   },
   "tx-edwards-rg348": {
-    "status": "pending",
-    "updatedAt": "2026-08-07T21:23:16.192Z",
+    "status": "done",
+    "updatedAt": "2026-08-08T01:00:00.000Z",
+    "slug": "tx-edwards-rg348",
+    "chars": 725119,
+    "pages": 415,
+    "summary": "TCEQ RG-348 Edwards Aquifer BMP guidance requiring 80% TSS load reduction from new impervious cover.",
     "error": null
   },
   "idaho-bmp-catalog": {
     "status": "skipped",
     "updatedAt": "2026-08-07T21:19:04.374Z",
     "error": "URL 404 on verify"
+  },
+  "south-salt-lake-ut": {
+    "status": "done",
+    "updatedAt": "2026-08-08T01:05:00.000Z",
+    "slug": "south-salt-lake-ut",
+    "chars": 25100,
+    "pages": 30,
+    "summary": "South Salt Lake uses 0.6-in 80th-percentile WQv, 100-year 24-hr storms, Rational/TR-55, and LID BMP appendix.",
+    "error": null
+  },
+  "hawaii-dot-pcbmp": {
+    "status": "done",
+    "updatedAt": "2026-08-08T01:05:00.000Z",
+    "slug": "hawaii-dot-pcbmp",
+    "chars": 317154,
+    "pages": 203,
+    "summary": "Hawaii DOT post-construction BMP manual sizing WQV from 1-inch 85th-percentile storm and WQFR via Rational Method at 0.4 in/hr.",
+    "error": null
+  },
+  "albuquerque-nm-gsi": {
+    "status": "done",
+    "updatedAt": "2026-08-08T01:05:00.000Z",
+    "slug": "albuquerque-nm-gsi",
+    "chars": 76153,
+    "pages": 27,
+    "summary": "Bernalillo County GSI/LID digest for desert communities citing Ordinance 2107-8 treatment volumes and standard construction details.",
+    "error": null
+  },
+  "ca-caltrans-construction": {
+    "status": "done",
+    "updatedAt": "2026-08-08T01:30:00.000Z",
+    "slug": "ca-caltrans-construction",
+    "chars": 491033,
+    "pages": 272,
+    "summary": "Caltrans March 2024 construction BMP manual with six temporary BMP categories, CGP/LTCGP minimums, RUSLE2 buffers, and approved post-construction TBMPs.",
+    "error": null
+  },
+  "mn-state-2008": {
+    "status": "done",
+    "updatedAt": "2026-08-08T01:30:00.000Z",
+    "slug": "mn-state-2008",
+    "chars": 1855198,
+    "pages": 885,
+    "summary": "Minnesota 2008 manual uses unified sizing (recharge, ~1.09-in WQv plus snowmelt, channel protection, 10- and 100-year floods) with TR-55/Rational and SCS Type II storms.",
+    "error": null
+  },
+  "bismarck-nd": {
+    "status": "done",
+    "updatedAt": "2026-08-08T01:30:00.000Z",
+    "slug": "bismarck-nd",
+    "chars": 302912,
+    "pages": 206,
+    "summary": "Bismarck 2018 manual limits post-construction peaks to existing rates for 2/5/10/100-year storms, treats first 0.5 in runoff, and requires NRCS CN hydrology.",
+    "error": null
+  },
+  "reno-nv": {
+    "status": "done",
+    "updatedAt": "2026-08-08T01:30:00.000Z",
+    "slug": "reno-nv",
+    "chars": 729025,
+    "pages": 353,
+    "summary": "Truckee Meadows 2015 manual sizes WQV from 0.60-in 90th-percentile storm and WQF from 2-year Rational Method across Reno, Sparks, and Washoe County.",
+    "error": null
+  },
+  "oklahoma-odot-ch10": {
+    "status": "done",
+    "updatedAt": "2026-08-08T01:30:00.000Z",
+    "slug": "oklahoma-odot-ch10",
+    "chars": 169960,
+    "pages": 126,
+    "summary": "ODOT Roadway Drainage Manual Ch. 10 (2014) uses 10-year pavement drainage, 50-year sag points, Rational Method peak flows, and HEC-22 storm sewer hydraulics.",
+    "error": null
+  },
+  "ak-state": {
+    "status": "done",
+    "updatedAt": "2026-08-08T10:16:00.000Z",
+    "slug": "ak-state",
+    "chars": 407608,
+    "pages": 239,
+    "summary": "Alaska Storm Water Guide (Dec 2011) uses 90% storm WQv (~0.5–1.25 in by region), unified 1/2/5/100-yr sizing, and municipal-accepted hydrology tools (Rational, TR-55, HEC-HMS).",
+    "error": null
+  },
+  "wi-dnr-1001": {
+    "status": "done",
+    "updatedAt": "2026-08-08T10:16:00.000Z",
+    "slug": "wi-dnr-1001",
+    "chars": 42326,
+    "pages": 19,
+    "summary": "WDNR Tech Standard 1001 (10/07) sizes wet detention ponds with 1-yr WQ pool/active storage, 2-yr peak match, and 100-yr emergency spillway; not a full statewide manual.",
+    "error": null
+  },
+  "mt-deq8": {
+    "status": "done",
+    "updatedAt": "2026-08-08T10:16:00.000Z",
+    "slug": "mt-deq8",
+    "chars": 96586,
+    "pages": 61,
+    "summary": "Montana DEQ-8 (2024) requires 0.5-in initial capture on impervious area, 2-yr post≤pre peaks, and 2/10/100-yr analysis using Rational, Modified Rational, or TR-55.",
+    "error": null
+  },
+  "billings-mt": {
+    "status": "done",
+    "updatedAt": "2026-08-08T10:16:00.000Z",
+    "slug": "billings-mt",
+    "chars": 419507,
+    "pages": 207,
+    "summary": "Montana 2017 MS4 post-construction guidance: 0.5-in RRV / 80% TSS, TR-55 RTF, and local 10/25/100-year flood control.",
+    "error": null
+  },
+  "north-little-rock-ar": {
+    "status": "done",
+    "updatedAt": "2026-08-08T10:16:00.000Z",
+    "slug": "north-little-rock-ar",
+    "chars": 46786,
+    "pages": 42,
+    "summary": "NLR 2025 construction BMP manual; sediment traps sized for 0.5-in/24-hr runoff; no post-construction design storms.",
+    "error": null
+  },
+  "ms-state-vol2": {
+    "status": "done",
+    "updatedAt": "2026-08-08T10:20:00.000Z",
+    "slug": "ms-state-vol2",
+    "chars": 427892,
+    "pages": 199,
+    "summary": "MDEQ 2011 Vol. 2 uses Schueler Simple Method WQv (typically 1–1.5 in rainfall), SCS Curve Number peaks, and BMP treatment volumes by practice type.",
+    "error": null
+  },
+  "new-orleans-jefferson-la": {
+    "status": "done",
+    "updatedAt": "2026-08-08T10:20:00.000Z",
+    "slug": "new-orleans-jefferson-la",
+    "chars": 243179,
+    "pages": 142,
+    "summary": "2010 Bayou Land BMP guidance for Orleans/Jefferson; cites NO 10-yr/24-hr and Jefferson 10-yr peak match; percent volume capture via SWMM.",
+    "error": null
+  },
+  "baton-rouge-la": {
+    "status": "done",
+    "updatedAt": "2026-08-08T10:20:00.000Z",
+    "slug": "baton-rouge-la",
+    "chars": 96659,
+    "pages": 62,
+    "summary": "EBR Parish 2007 Master Development Program stormwater BMPs; ten-year design storm baseline; detention/infiltration/filtration categories without quantified WQv.",
+    "error": null
+  },
+  "wichita-ks-vol2": {
+    "status": "done",
+    "updatedAt": "2026-08-08T10:20:00.000Z",
+    "slug": "wichita-ks-vol2",
+    "chars": 21713,
+    "pages": 10,
+    "summary": "Wichita/Sedgwick Vol.2 Ch.1 only: 1.2-in 85th-percentile WQv with 80% TSS; CPv 1-yr/2.8-in; flood peaks 2–100-yr. Needs review — intro chapter.",
+    "error": null
+  },
+  "wy-wydot-field": {
+    "status": "done",
+    "updatedAt": "2026-08-08T10:16:22.022Z",
+    "slug": "wy-wydot-field",
+    "chars": 38224,
+    "pages": 58,
+    "summary": "WYDOT construction stormwater field guide covering temporary erosion/sediment/housekeeping BMPs; no hydrologic design storms, WQv, or peak-flow methods in text.",
+    "error": null
+  },
+  "de-wet-ponds-draft": {
+    "status": "done",
+    "updatedAt": "2026-08-08T10:16:22.022Z",
+    "slug": "de-wet-ponds-draft",
+    "chars": 52609,
+    "pages": 22,
+    "summary": "DNREC draft §13 Wet Ponds: 48-hr RPv extended detention for Wet ED ponds, Cv/Fv per DE regs, 100-year storage height limit; draft/public-notice status.",
+    "error": null
+  },
+  "sd-dot-esc": {
+    "status": "done",
+    "updatedAt": "2026-08-08T10:30:00.000Z",
+    "slug": "sd-dot-esc",
+    "chars": 466813,
+    "pages": 218,
+    "summary": "SDDOT Oct 2024 ESC course: temporary controls sized to 2-year/24-hr; construction BMP categories; no post-construction WQv or peak-flow methods.",
+    "error": null
+  },
+  "ne-ndot-stf": {
+    "status": "done",
+    "updatedAt": "2026-08-08T10:30:00.000Z",
+    "slug": "ne-ndot-stf",
+    "chars": 77340,
+    "pages": 39,
+    "summary": "NDOT Ch3 (Apr 2018): WQV = first 0.5 in from new pavement, 80% TSS; WQV rate from 0.75-in/24-hr NRCS CN; STFs include filter strips through proprietary controls.",
+    "error": null
+  },
+  "beatrice-ne": {
+    "status": "done",
+    "updatedAt": "2026-08-08T10:30:00.000Z",
+    "slug": "beatrice-ne",
+    "chars": 324652,
+    "pages": 126,
+    "summary": "Beatrice Aug 2020 DCM: 5/10 minor, 100 major, 2/10/100 detention; Region C WQCV 0.83-in 80th / 0.62-in 70th; Rational/NRCS with HY-8/HEC tools.",
+    "error": null
+  },
+  "norfolk-va": {
+    "status": "done",
+    "updatedAt": "2026-08-08T10:35:00.000Z",
+    "slug": "norfolk-va",
+    "chars": 259853,
+    "pages": 156,
+    "summary": "Norfolk Rev 3 (7/1/2024): Part II B 1/2/10-yr + 10-yr drains/100-yr regional; VRRM 0.41 lb/ac/yr P; Rational/SCS/NRCS; Clearinghouse BMPs.",
+    "error": null
+  },
+  "chesapeake-va": {
+    "status": "done",
+    "updatedAt": "2026-08-08T10:35:00.000Z",
+    "slug": "chesapeake-va",
+    "chars": 75418,
+    "pages": 33,
+    "summary": "Chesapeake PFM Ch5 (12/16): 2–100-yr depths; 10/50-yr Rational by area; VRRM 10%/20% redev; acceptable HEC/SWMM/VRRM tools; Table 4.1 BMPs.",
+    "error": null
+  },
+  "lacey-wa": {
+    "status": "done",
+    "updatedAt": "2026-08-08T10:45:00.000Z",
+    "slug": "lacey-wa",
+    "chars": 570137,
+    "pages": 302,
+    "summary": "Lacey 2010 SDM Ch1-5: Ecology 2005-based; WWHM/Thurston 91st-pctile WQ; Table 5.4 2–100-yr; SBUH/TR-55/HSPF; LID/detention/infiltration/treatment BMPs.",
+    "error": null
+  },
+  "nashville-tn-vol4": {
+    "status": "done",
+    "updatedAt": "2026-08-08T10:45:00.000Z",
+    "slug": "nashville-tn-vol4",
+    "chars": 42512,
+    "pages": 18,
+    "summary": "Nashville SWMM Vol4 Sec1 intro only: 80% TSS / <1.1-in sizing context; temp/permanent BMP categories; needs_human_review — no return periods/methods in excerpt.",
+    "error": null
+  },
+  "charlotte-nc": {
+    "status": "done",
+    "updatedAt": "2026-08-08T10:50:00.000Z",
+    "slug": "charlotte-nc",
+    "chars": 184224,
+    "pages": 123,
+    "summary": "Charlotte-Mecklenburg Apr 2026 public-comment conveyance manual: design storms 10/25/50/100-yr (Table 2-1); Rational + NRCS Type II 6-hr; HEC/HydroCAD/StormCAD verify; WQv not in this manual (post-construction ordinances).",
+    "error": null
+  },
+  "savannah-ga-css": {
+    "status": "done",
+    "updatedAt": "2026-08-08T10:50:00.000Z",
+    "slug": "savannah-ga-css",
+    "chars": 1301381,
+    "pages": 542,
+    "summary": "GA Coastal Stormwater Supplement: 1.2-in RRv/first flush, 25-yr overbank and 100-yr extreme flood; SCS CN/TR-55 methods.",
+    "error": null
+  },
+  "tucson-az": {
+    "status": "done",
+    "updatedAt": "2026-08-08T11:45:00.000Z",
+    "slug": "tucson-az",
+    "chars": 766135,
+    "pages": 432,
+    "summary": "Tucson Drainage Manual: Flood Peak Estimator/TSMS/HEC-1; 2–100 yr storms; threshold retention and stormwater harvesting.",
+    "error": null
+  },
+  "tucson-az-detention": {
+    "status": "done",
+    "updatedAt": "2026-08-08T11:45:00.000Z",
+    "slug": "tucson-az-detention",
+    "chars": 215395,
+    "pages": 119,
+    "summary": "Pima County detention/retention: 0.5-in first flush (85th %ile); 2/10/100-yr peak match; PC-Hydro and HEC-HMS.",
+    "error": null
+  },
+  "tampa-fl": {
+    "status": "done",
+    "updatedAt": "2026-08-08T11:50:00.000Z",
+    "slug": "tampa-fl",
+    "chars": 162743,
+    "pages": 87,
+    "summary": "SWFWMD ERP AH Vol II: 25-yr open / 100-yr closed basin; 1-in wet detention or 0.5-in retention/filtration/exfiltration; NRCS FL Modified + SCS/Rational.",
+    "error": null
+  },
+  "gainesville-fl": {
+    "status": "done",
+    "updatedAt": "2026-08-08T11:50:00.000Z",
+    "slug": "gainesville-fl",
+    "chars": 112471,
+    "pages": 48,
+    "summary": "SRWMD ERP AH Vol II Jul 2024: 10-yr (ag) / 100-yr critical duration; WQ via Vol I + 72-hr recovery; Rational/NRCS/USGS; retention/detention/exfiltration BMPs.",
+    "error": null
   }
 }

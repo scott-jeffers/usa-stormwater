@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <rect width="64" height="64" rx="14" fill="#0b1c2c" />
+  <path
+    d="M32 12c8.837 0 16 6.86 16 16.5C48 40.5 32 52 32 52S16 40.5 16 28.5C16 18.86 23.163 12 32 12Z"
+    fill="url(#swa-drop)"
+  />
+  <path
+    d="M22 30c1.5 5 4.8 8.6 10 10"
+    stroke="#e8f2f5"
+    strokeWidth="2.5"
+    strokeLinecap="round"
+    opacity="0.7"
+  />
+  <defs>
+    <linearGradient id="swa-drop" x1="16" y1="12" x2="48" y2="52" gradientUnits="userSpaceOnUse">
+      <stop stopColor="#22d3ee" />
+      <stop offset="1" stopColor="#0e7490" />
+    </linearGradient>
+  </defs>
+</svg>

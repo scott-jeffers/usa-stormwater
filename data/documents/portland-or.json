@@ -1,0 +1,134 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "City of Portland",
+    "jurisdiction_level": "municipality",
+    "state_code": "OR",
+    "document_title": "Stormwater Management Manual",
+    "version_or_edition": "December 2020",
+    "adoption_or_effective_date": "2020-12",
+    "last_revised_date": "2020-12",
+    "relationship_to_state_manual": "independent"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [
+      2,
+      5,
+      10,
+      25,
+      100
+    ],
+    "water_quality_volume_method": "Achieve 70% TSS removal from runoff resulting from 90% of the average annual rainfall (1.61 inches over 24 hours, or 0.19 in/hr for a 5-minute time of concentration); the water quality design storm is sized for 90% of the average annual rainfall.",
+    "peak_flow_calculation_method": [
+      "Rational Method",
+      "Santa Barbara Urban Hydrograph (SBUH) Method",
+      "NRCS TR-55",
+      "HEC-HMS",
+      "HEC-1",
+      "EPA-SWMM",
+      "Continuous Simulation"
+    ],
+    "required_hydrologic_hydraulic_software": [
+      "Presumptive Approach Calculator (PAC)"
+    ],
+    "approved_bmp_categories": [
+      "Ecoroof",
+      "Permeable Pavement",
+      "Filter Strip",
+      "Driveway Center Strip",
+      "Green Street",
+      "Rain Garden",
+      "Basin",
+      "Planter",
+      "Surface Sand Filter",
+      "Grassy Swale",
+      "Wet Pond",
+      "Extended Wet Pond",
+      "Dry Pond",
+      "Sump",
+      "Drywell",
+      "Soakage Trench",
+      "Subsurface Sand Filter",
+      "Manufactured Stormwater Treatment Technologies (MSTT)",
+      "Structured Detention"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "City of Portland",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.jurisdiction_level",
+      "excerpt": "City of Portland",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.state_code",
+      "excerpt": "Portland, Oregon",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "Stormwater Management Manual",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.version_or_edition",
+      "excerpt": "December 2020",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.adoption_or_effective_date",
+      "excerpt": "December 2020",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.last_revised_date",
+      "excerpt": "December 2020",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.relationship_to_state_manual",
+      "excerpt": "The SWMM is a BES Administrative Rule and is authorized by Portland City Code Chapter 17.38.",
+      "page_or_section": "Page 1-5, Section 1.1"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "2 2.4 ... 5 2.9 ... 10 3.4 ... 25 3.8 ... 100 4.7",
+      "page_or_section": "Appendix A, Table A-9"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "70% removal of total suspended solids (TSS) is required from the runoff from 90% of the average annual rainfall (1.61 inches over 24 hours, or 0.19 in/hr for a time of concentration of 5-minutes).",
+      "page_or_section": "Page 1-19, Section 1.3.4"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "use either the Santa Barbara Urban Hydrograph (SBUH) Method, NRCS's TR-55, the Army Corps of Engineers' Hydrologic Modeling System (HEC-HMS) or HEC-1, or the Environmental Protection Agency's Storm Water Management Model (EPA-SWMM)",
+      "page_or_section": "Page 2-41, Section 2.5.3"
+    },
+    {
+      "field": "design_criteria.required_hydrologic_hydraulic_software",
+      "excerpt": "The Presumptive Approach can be used by design professionals to size green streets, planters, and basins using the Presumptive Approach Calculator (PAC), an online calculator maintained by BES.",
+      "page_or_section": "Page 2-36, Section 2.5.2"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Ecoroof ... Permeable Pavement ... Filter Strip ... Green Street ... Rain Garden ... Basin ... Planter ... Drywell ... Soakage Trench ... MSTT ... Structured Detention",
+      "page_or_section": "Page 2-34, Table 2-9"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "high",
+    "needs_human_review": false,
+    "review_notes": null,
+    "fields_not_found": []
+  },
+  "source": {
+    "document_url": "https://www.portland.gov/sites/default/files/policies/enb-4.01-stormwater-management-manual-december-2020.pdf",
+    "landing_page_url": "https://www.portland.gov/bes/stormwater/2020-stormwater-management-manual",
+    "retrieved_at": "2026-08-07T17:54:24.003Z",
+    "original_filename": "portland-or.pdf"
+  }
+}

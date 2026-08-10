@@ -1,0 +1,103 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "South Carolina",
+    "jurisdiction_level": "state",
+    "state_code": "SC",
+    "document_title": "South Carolina Stormwater Management BMP Handbook (BMP Field Manual)",
+    "version_or_edition": "July 31, 2005 (structural BMP sections; handbook sections revised through 2025)",
+    "adoption_or_effective_date": null,
+    "last_revised_date": "2005-07-31",
+    "relationship_to_state_manual": "independent"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [
+      1,
+      2,
+      10,
+      100
+    ],
+    "water_quality_volume_method": "Wet detention ponds: permanent pool volume equals 1 inch of runoff per impervious acre (0.5 inch for wet extended ponds with aquatic bench; 0.1 inch for micropool extended ponds). Dry detention lower stage detains the water quality volume for at least 24 hours.",
+    "peak_flow_calculation_method": [
+      "Hydrologic analysis for outlet structure sizing (water quality and quantity control)"
+    ],
+    "required_hydrologic_hydraulic_software": [],
+    "approved_bmp_categories": [
+      "Erosion Prevention BMPs",
+      "Sediment Control BMPs",
+      "Runoff Control and Conveyance BMPs",
+      "Low Impact Development (LID) BMPs",
+      "Structural Water Quality BMPs"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "South Carolina DHEC Storm Water Management BMP Handbook",
+      "page_or_section": "Wet Detention Ponds p.118"
+    },
+    {
+      "field": "document_metadata.jurisdiction_level",
+      "excerpt": "South Carolina Department of Environmental Services",
+      "page_or_section": "BMP Handbook landing page"
+    },
+    {
+      "field": "document_metadata.state_code",
+      "excerpt": "South Carolina DHEC",
+      "page_or_section": "Wet Detention Ponds p.118"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "Storm Water Management BMP Handbook",
+      "page_or_section": "Wet Detention Ponds p.118"
+    },
+    {
+      "field": "document_metadata.version_or_edition",
+      "excerpt": "July 31, 2005",
+      "page_or_section": "Wet Detention Ponds p.118"
+    },
+    {
+      "field": "document_metadata.last_revised_date",
+      "excerpt": "July 31, 2005",
+      "page_or_section": "Wet Detention Ponds p.118"
+    },
+    {
+      "field": "document_metadata.relationship_to_state_manual",
+      "excerpt": "SCDES BMP Handbook evaluates numerous Best Management Practices (BMPs)",
+      "page_or_section": "BMP Handbook landing page"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "Ponds shall be designed for the 2 and 10-year storms; The 100-year storm should not overtop the embankment",
+      "page_or_section": "Dry Detention Ponds"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "design permanent pool volume is equal to 1-inch of runoff per impervious acre on the site",
+      "page_or_section": "Wet Detention Ponds"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "Size the outlet structure for water quality control and water quantity control (based upon hydrologic",
+      "page_or_section": "Dry Detention Ponds"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Structural storm water quality controls are classified into the following categories: General Application Controls ... Limited Application Controls",
+      "page_or_section": "Structural Controls p.117"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "medium",
+    "needs_human_review": true,
+    "review_notes": "Main BMPFieldManual.pdf text is not machine-readable (custom font encoding). Extraction used readable section PDFs from the SC DES BMP Handbook (Wet/Dry Detention Ponds, Structural Controls). Peak-flow software/method details not found in readable sections.",
+    "fields_not_found": [
+      "design_criteria.required_hydrologic_hydraulic_software"
+    ]
+  },
+  "source": {
+    "document_url": "https://www.des.sc.gov/sites/des/files/Documents/BOW/Stormwater/BMP/BMPFieldManual.pdf",
+    "landing_page_url": "https://www.des.sc.gov/programs/bureau-water/stormwater/best-management-practices-bmps/bmp-handbook",
+    "retrieved_at": "2026-08-08T00:57:13.880Z",
+    "original_filename": "south-carolina-manual.extraction.json"
+  }
+}

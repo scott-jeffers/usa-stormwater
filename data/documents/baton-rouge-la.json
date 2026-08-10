@@ -1,0 +1,115 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "City of Baton Rouge / East Baton Rouge Parish",
+    "jurisdiction_level": "municipality",
+    "state_code": "LA",
+    "document_title": "Stormwater Best Management Practices for East Baton Rouge Parish — Master Development Program",
+    "version_or_edition": "July 2007",
+    "adoption_or_effective_date": "2007-07",
+    "last_revised_date": "2007-07",
+    "relationship_to_state_manual": "independent"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [
+      10
+    ],
+    "water_quality_volume_method": null,
+    "peak_flow_calculation_method": [
+      "Ten-year design storm runoff rate based on rainfall and land cover (method not further named)"
+    ],
+    "required_hydrologic_hydraulic_software": [],
+    "approved_bmp_categories": [
+      "Detention and Retention Systems (Dry Pond, Wet Pond, Pond Edge with Bulkhead, Pervious Paving with Manufactured Subsurface Storage)",
+      "Infiltration Systems (Pervious Paving, Pervious Paving with Aggregate Subsurface Storage, Infiltration Device, Cistern)",
+      "Filtration Systems (Bioswale, Stormwater Planter, Sand Filter Basin, Catch Basin Insert, Water Quality Wetlands, Rain Garden, Green Roof)",
+      "Construction Phase BMPs (Site Clearing, Erosion Control, Sediment Control, Water Runoff Control, Good Housekeeping)"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "City of Baton Rouge - Parish of East Baton Rouge",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.jurisdiction_level",
+      "excerpt": "City of Baton Rouge - Parish of East Baton Rouge",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.state_code",
+      "excerpt": "Made possible in part by grants from the Louisiana Department of Environmental Quality",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "Stormwater Best Management Practices for East Baton Rouge Parish - Master Development Program",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.version_or_edition",
+      "excerpt": "July 2007",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.adoption_or_effective_date",
+      "excerpt": "July 2007",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.last_revised_date",
+      "excerpt": "July 2007",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.relationship_to_state_manual",
+      "excerpt": "EAST BATON ROUGE MASTER DEVELOPMENT PROGRAM... City Parish Planning Commission",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "the pre-development runoff rate and volume for a minimum ten-year design storm should be calculated.",
+      "page_or_section": "Chapter 2, The Development Site"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "The rate of stormwater runoff, such as in cubic feet per second (cfs) is a factor of the ten-year design storm rainfall and the land cover over which it flows.",
+      "page_or_section": "Chapter 2, Runoff Rate and Volume"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "The rate of stormwater runoff, such as in cubic feet per second (cfs) is a factor of the ten-year design storm rainfall and the land cover over which it flows.",
+      "page_or_section": "Chapter 2, Runoff Rate and Volume"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Detention and Retention Systems... Infiltration Systems... Filtration Systems",
+      "page_or_section": "Chapter 5 / Table of Contents"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Dry Pond... Wet Pond... Pervious Paving... Infiltration Device... Cistern... Bioswale... Sand Filter Basin... Catch Basin Insert... Water Quality Wetlands... Rain Garden... Green Roof",
+      "page_or_section": "Table of Contents, Chapter 5"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Site Clearing BMPs... Erosion Control BMPs... Sediment Control BMPs... BMPs to Control Water Runoff... Good Housekeeping Measures",
+      "page_or_section": "Table of Contents, Chapter 3"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "medium",
+    "needs_human_review": true,
+    "review_notes": "Planning/BMP guidance appendix for EBR Master Development Program (July 2007). Explicitly requires calculating pre-development runoff for a minimum ten-year design storm, but does not define a quantified water quality volume, named hydrologic method (e.g., Rational/TR-55), or required software.",
+    "fields_not_found": [
+      "design_criteria.water_quality_volume_method",
+      "design_criteria.required_hydrologic_hydraulic_software"
+    ]
+  },
+  "source": {
+    "document_url": "https://www.brla.gov/DocumentCenter/View/2288/Appendix-K---Stormwater-BMPs-for-EBRP-Master-Development-Program-PDF",
+    "landing_page_url": "https://www.brla.gov/2693/Environmental-Landscape",
+    "retrieved_at": "2026-08-08T10:20:00.000Z",
+    "original_filename": "baton-rouge-la.pdf"
+  }
+}

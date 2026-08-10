@@ -1,0 +1,133 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "State of Hawaii Department of Transportation, Highways Division",
+    "jurisdiction_level": "state",
+    "state_code": "HI",
+    "document_title": "Storm Water Post-Construction Best Management Practices Manual",
+    "version_or_edition": "December 2021 (Revision No. 1)",
+    "adoption_or_effective_date": "2021-12-01",
+    "last_revised_date": "2021-12-01",
+    "relationship_to_state_manual": "independent"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [],
+    "water_quality_volume_method": "Volume-based treatment uses Water Quality Volume (WQV) = P × C × AT × 3630, where P is a 1-inch design storm runoff depth representing the statewide 85th-percentile 24-hour storm; C = 0.95 for impervious highway surfaces. Flow-based treatment uses Water Quality Flow Rate (WQFR) = C × i × AT with Rational Method rainfall intensity i = 0.4 in/hr maintainable for at least three hours.",
+    "peak_flow_calculation_method": [
+      "Rational Method"
+    ],
+    "required_hydrologic_hydraulic_software": [],
+    "approved_bmp_categories": [
+      "Vegetated Buffer Strip",
+      "Vegetated Swale",
+      "Enhanced Swale",
+      "Infiltration Trench",
+      "Infiltration Basin",
+      "Bioretention Facility",
+      "Permeable Pavement",
+      "Pocket Wetland",
+      "Rainwater Harvesting",
+      "Tree Box Filter",
+      "Wet Pond",
+      "Wet Extended Detention Pond",
+      "Sand Filter",
+      "Drain Inlet Filter",
+      "Modified Catch Basin",
+      "Oil and Grit Separator",
+      "Centrifugal Hydrodynamic Separator",
+      "Multi-Stage Hydrodynamic Separator",
+      "Source Control BMPs"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "State of Hawaii Department of Transportation Highways Division",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.jurisdiction_level",
+      "excerpt": "State of Hawaii Department of Transportation Highways Division",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.state_code",
+      "excerpt": "State of Hawaii Department of Transportation",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "Storm Water Post-Construction Best Management Practices Manual",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.version_or_edition",
+      "excerpt": "December 2021",
+      "page_or_section": "Title Page; Record of Revision"
+    },
+    {
+      "field": "document_metadata.adoption_or_effective_date",
+      "excerpt": "Revision No. 1 December 2021 Revised criteria for MS4 NPDES Permit areas",
+      "page_or_section": "Record of Revision"
+    },
+    {
+      "field": "document_metadata.last_revised_date",
+      "excerpt": "Revision No. 1 December 2021",
+      "page_or_section": "Record of Revision"
+    },
+    {
+      "field": "document_metadata.relationship_to_state_manual",
+      "excerpt": "Private construction projects located outside the DOT-HWYS right-of-way are considered to be in compliance with post-construction BMP requirements if the project complies with the storm water quality requirements of the applicable county.",
+      "page_or_section": "Section 3.1.3, Page 3-3"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "WQV = P x C x AT x 3630 Where WQV = Water Quality Volume (ft3) P = Design Storm Runoff Depth (inches) = 1 inch",
+      "page_or_section": "Section 7.3.1, Page 7-6"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "DOT-HWYS determined that a 1-inch runoff depth correctly models the volume required for post-construction BMP treatment.",
+      "page_or_section": "Section 7.2, Page 7-4"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "WQFR = C x i x AT Where WQFR = Water Quality Flow Rate (cfs) i = Rainfall Intensity (in/hr) = 0.4 in/hr",
+      "page_or_section": "Section 7.3.2, Page 7-7"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "Flow rate calculation shall be based upon the Rational Method as follows: WQFR = C x i x AT",
+      "page_or_section": "Section 7.3.2, Page 7-7"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "LID TREATMENT CONTROL BMPs: Vegetated Buffer Strip, Vegetated Swale, Enhanced Swale, Infiltration Trench, Infiltration Basin, Bioretention Facility, Permeable Pavement, Pocket Wetland, Rainwater Harvesting, Tree Box Filter",
+      "page_or_section": "Appendix A, Page v"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "TRADITIONAL NON-LID TREATMENT CONTROL BMPs: Wet Pond, Wet Extended Detention Pond, Sand Filter",
+      "page_or_section": "Appendix A, Page v"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "PROPRIETARY NON-LID TREATMENT CONTROL BMPs: Drain Inlet Filter, Modified Catch Basin, Oil and Grit Separator, Centrifugal Hydrodynamic Separator, Multi-Stage Hydrodynamic Separator",
+      "page_or_section": "Appendix A, Page v"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "high",
+    "needs_human_review": false,
+    "review_notes": "Full DOT-HWYS post-construction BMP manual with explicit WQV/WQFR sizing formulas, Required Treatment Area methodology, and detailed Appendix A BMP designs. Design storm is expressed as 85th-percentile 1-inch depth rather than a standard return-period event.",
+    "fields_not_found": [
+      "design_criteria.design_storm_return_periods_years",
+      "design_criteria.required_hydrologic_hydraulic_software"
+    ]
+  },
+  "source": {
+    "document_url": "https://www.stormwaterhawaii.com/wp-content/uploads/2022/07/PC-BMP-Manual_220210-FULL-v2.pdf",
+    "landing_page_url": "https://www.stormwaterhawaii.com/",
+    "retrieved_at": "2026-08-08T01:05:00.000Z",
+    "original_filename": "hawaii-dot-pcbmp.pdf"
+  }
+}

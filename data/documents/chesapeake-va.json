@@ -1,0 +1,176 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "City of Chesapeake",
+    "jurisdiction_level": "municipality",
+    "state_code": "VA",
+    "document_title": "Stormwater Management and Drainage Design",
+    "version_or_edition": "Revised December 2016",
+    "adoption_or_effective_date": null,
+    "last_revised_date": "2016-12",
+    "relationship_to_state_manual": "independent"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [2, 5, 10, 25, 50, 100],
+    "water_quality_volume_method": "Virginia Runoff Reduction Method (VRRM) with DEQ compliance spreadsheets: prevent a net increase in nonpoint source pollution for new development (post-development load shall not exceed predevelopment based on average land cover conditions); for redevelopment, achieve a 10% reduction when land disturbance is less than one acre and a 20% reduction when one acre or greater (Chesapeake Bay Preservation Area Designation and Management Regulations). Non-proprietary BMP pollutant removal efficiencies in Table 4.1 are based upon 1 inch of rainfall.",
+    "peak_flow_calculation_method": [
+      "Rational method (storm drainage HGL; <200 acres = 10-year, >200 acres = 50-year)",
+      "NRCS / SCS Type II 24-hour hydrographic methods (basins >200 acres or detention design)",
+      "NRCS runoff curve number / volumetric runoff coefficients"
+    ],
+    "required_hydrologic_hydraulic_software": [
+      "HEC-HMS",
+      "HEC-GeoHMS",
+      "TR-55",
+      "TR-20",
+      "Pond Pack",
+      "WMS / Watershed Modeling",
+      "HEC-RAS",
+      "EPA SWMM",
+      "FHWA HY-8",
+      "CulvertMaster",
+      "FlowMaster",
+      "Virginia Runoff Reduction Method (VRRM) Compliance Spreadsheet",
+      "HSPF"
+    ],
+    "approved_bmp_categories": [
+      "Rooftop Disconnection",
+      "Sheetflow to Vegetated Filter or Conserved Open Space",
+      "Grass Channel",
+      "Soil Amendments",
+      "Vegetated Roof",
+      "Rainwater Harvesting",
+      "Permeable Pavement",
+      "Infiltration",
+      "Bioretention / Urban Bioretention",
+      "Dry Swale",
+      "Wet Swale",
+      "Filtering Practice",
+      "Constructed Wetland",
+      "Wet Pond",
+      "Extended Detention Pond",
+      "Dry Detention (Virginia Stormwater Management BMP Clearinghouse)",
+      "Wet Detention (Virginia Stormwater Management BMP Clearinghouse)"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "the City's Stormwater Management Ordinance, Chapter 26 - Article X of the City of Chesapeake Code",
+      "page_or_section": "Section 5.4 B. Water Quality, Page 5-16"
+    },
+    {
+      "field": "document_metadata.jurisdiction_level",
+      "excerpt": "Stormwater, for both water quantity and quality, shall be designed in general by the criteria established herein, the City's Master Drainage Plan",
+      "page_or_section": "Section 5.0 GENERAL"
+    },
+    {
+      "field": "document_metadata.state_code",
+      "excerpt": "the Virginia Department of Transportation Drainage Manual and the Virginia Stormwater Management Handbook",
+      "page_or_section": "Section 5.0 GENERAL"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "CHAPTER 5 STORMWATER MANAGEMENT & DRAINAGE DESIGN",
+      "page_or_section": "Page 5-1"
+    },
+    {
+      "field": "document_metadata.version_or_edition",
+      "excerpt": "Revised 12/16 STORMWATER MANAGEMENT & DRAINAGE DESIGN",
+      "page_or_section": "Page headers"
+    },
+    {
+      "field": "document_metadata.last_revised_date",
+      "excerpt": "Revised 12/16",
+      "page_or_section": "Page headers"
+    },
+    {
+      "field": "document_metadata.relationship_to_state_manual",
+      "excerpt": "Stormwater, for both water quantity and quality, shall be designed in general by the criteria established herein, the City's Master Drainage Plan, the Virginia Department of Transportation Drainage Manual and the Virginia Stormwater Management Handbook. When there is a conflict between the Virginia Department of Transportation Drainage Manual, the Hampton Roads Planning District Commission Regional Construction Standards and these criteria, these criteria shall govern.",
+      "page_or_section": "Section 5.0 GENERAL A–B"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "24 Hour Rainfall Depths (NOAA's NWS)... 2-yr. 3.7\" 5-yr. 5.0\" 10-yr. 6.0\" 25-yr. 7.0\" 50-yr. 8.17\" 100 9.44\"",
+      "page_or_section": "Section 5.2 HYDROLOGY B, Page 5-5"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "Storm drainage systems including Hydraulic Grade Line, etc. shall be designed using the rational method, for the recurrence frequency as follows: 0 < 200 Acres = 10-year (07/01) > 200 Acres = 50-year",
+      "page_or_section": "Section 5.3 HYDRAULICS A.1, Page 5-7"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "The SWMM models developed for these drainage studies are specific design scenarios based on 2-, 5-, 10-, 25-, 50-, and 100 year rainfall events",
+      "page_or_section": "Section 5.3 HYDRAULICS A.2"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "All public detention systems shall be designed to withstand a 100 year storm without failure of the control structure or property damage.",
+      "page_or_section": "Detention criteria"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "Virginia's proposed Stormwater Management Program (VSMP) Permit Regulations (4 VAC 50-60 et seq.) include water quality and quantity requirements based, in part, on the \"Virginia Runoff Reduction Method\" (VRRM).",
+      "page_or_section": "Section 5.4 B. Water Quality"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "prevent a net increase in nonpoint source pollution Citywide from new development (i.e. the post development nonpoint source pollution runoff load cannot exceed the predevelopment load based on average land cover conditions) and achieve either a 10% or 20% reduction in nonpoint source pollution for redevelopment... A 10% reduction is required is when land disturbance is limited to less than one acre and a 20% reduction is required when land disturbance is one acre or greater.",
+      "page_or_section": "Section 5.4 C.1.b Design Criteria, Page 5-16"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "Table 4.1. BMP Pollutant Removal Efficiencies (March 1, 2011)... Removal of TP by Runoff Reduction (RR, as %) (based upon 1 inch of rainfall)",
+      "page_or_section": "Table 4.1, Pages 5-18–5-19"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "Storm drainage systems including Hydraulic Grade Line, etc. shall be designed using the rational method, for the recurrence frequency as follows",
+      "page_or_section": "Section 5.3 HYDRAULICS A.1"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "Where the drainage basin exceeds 200 acres or when a detention design is involved, hydrographic or other approved methods are to be used for design purposes. Hydrographs shall be based on a Soil Conservation Service (SCS) Type II, 24-hour duration storm.",
+      "page_or_section": "Section 5.2 HYDROLOGY B"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "drainage area maps including all offsite area, time of concentration and flow paths, imperviousness of the entire site and each watershed, NRCS runoff curve numbers or volumetric runoff coefficients, peak runoff rates, volumes and velocities",
+      "page_or_section": "Section 5.0 GENERAL C"
+    },
+    {
+      "field": "design_criteria.required_hydrologic_hydraulic_software",
+      "excerpt": "Acceptable methods for runoff analysis are tabulated below: Hydrology Software HEC-GeoHMS... HEC-HMS... TR-55... TR-20... Pond Pack... WMS... Watershed Modeling... Hydraulic Software HEC-RAS... EPA SWMM... FHWA HY-8... CulvertMaster... FlowMaster... Water Quality Software VA Runoff Reduction Method... HSPF",
+      "page_or_section": "Section 5.2 HYDROLOGY C, Pages 5-5–5-6"
+    },
+    {
+      "field": "design_criteria.required_hydrologic_hydraulic_software",
+      "excerpt": "The storwmwater design is based off of DEQ's (Virginia Runoff Reduction Method\" (VRRM). The VRRM is accompanied by two compliance spreadsheets.",
+      "page_or_section": "Section 5.4 Design Calculations 5.a, Page 5-19"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Table 4.1. BMP Pollutant Removal Efficiencies... Rooftop Disconnection... Sheetflow to Vegetated Filter or Conserved Open Space... Grass Channel... Soil Amendments... Vegetated Roof... Rainwater Harvesting... Permeable Pavement... Infiltration... Bioretention... Urban Bioretention... Dry Swale... Wet Swale... Filtering Practice... Constructed Wetland... Wet Pond... Extended Detention Pond",
+      "page_or_section": "Table 4.1, Pages 5-18–5-19"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Dry Detention Requirements shall meet the requirements of the Virginia Stormwater Management BMP Clearinghouse... Wet Detention Requirements shall meet the requirements of the Virginia Stormwater Management BMP Clearinghouse",
+      "page_or_section": "Detention requirements 19–20"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "high",
+    "needs_human_review": false,
+    "review_notes": "PFM Chapter 5 excerpt (Revised 12/16). City criteria govern over VDOT/HRPDC conflicts; also references Virginia Stormwater Management Handbook. Design-storm list from NOAA Atlas 14 depth table plus drainage/detention frequencies. Software list is the city's tabulated acceptable methods (not exclusive mandates); VRRM spreadsheets are required for nutrient compliance. adoption_or_effective_date not stated beyond 'Revised 12/16'.",
+    "fields_not_found": [
+      "document_metadata.adoption_or_effective_date"
+    ]
+  },
+  "source": {
+    "document_url": "https://www.cityofchesapeake.net/DocumentCenter/View/2455/Stormwater-Management-and-Drainage-Design-PDF",
+    "landing_page_url": "https://www.cityofchesapeake.net/",
+    "retrieved_at": "2026-08-08T10:27:34.715Z",
+    "original_filename": "chesapeake-va.pdf"
+  }
+}

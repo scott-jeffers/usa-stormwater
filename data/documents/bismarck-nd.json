@@ -1,0 +1,116 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "City of Bismarck",
+    "jurisdiction_level": "municipality",
+    "state_code": "ND",
+    "document_title": "Stormwater Design Standards Manual",
+    "version_or_edition": "Approved August 22, 2017; Effective January 1, 2018",
+    "adoption_or_effective_date": "2018-01-01",
+    "last_revised_date": null,
+    "relationship_to_state_manual": "independent"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [
+      2,
+      5,
+      10,
+      100
+    ],
+    "water_quality_volume_method": "Water quality volume (Vwq) determined per Reference 5-2; new development uses prescriptive BMP sizing (Reference 5-1); redevelopment and retrofit must treat the first 0.5 inches of runoff from impervious areas, or demonstrate 80% TSS removal on an average annual basis via an approved alternative BMP method.",
+    "peak_flow_calculation_method": [
+      "NRCS (SCS) Curve Number Method",
+      "NRCS Unit Hydrograph Methods"
+    ],
+    "required_hydrologic_hydraulic_software": [
+      "HydroCAD",
+      "InfoSWMM",
+      "XP-SWMM / XP-STORM",
+      "Storm & Sanitary Analysis (SSA)",
+      "Bentley CivilStorm",
+      "Civil 3D Hydrographs",
+      "HEC-HMS"
+    ],
+    "approved_bmp_categories": [
+      "Detention Basins",
+      "Infiltration BMPs",
+      "Filtration BMPs",
+      "Flow Through BMPs (proprietary mechanical treatment devices)"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "City of Bismarck Stormwater Design Standards Manual",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.jurisdiction_level",
+      "excerpt": "City of Bismarck, ND",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.state_code",
+      "excerpt": "City of Bismarck, ND",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "Stormwater Design Standards Manual",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.version_or_edition",
+      "excerpt": "Approved: August 22, 2017 Effective: January 1, 2018",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.adoption_or_effective_date",
+      "excerpt": "Effective: January 1, 2018",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.relationship_to_state_manual",
+      "excerpt": "The goal of this section is to provide guidance on the design, performance, and analysis requirements of the City of Bismarck regarding Post-Construction Peak Discharge Compliance.",
+      "page_or_section": "Section 4.0, Page 4-1"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "Post-Construction runoff resulting from the 2-, 5-, 10-, and 100-year 24-hour rainfall events shall not exceed the runoff rate of the existing conditions.",
+      "page_or_section": "Table 4-1, Page 4-1"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "Design BMPs to treat the first 0.5 inches of runoff from impervious areas. 80% Total Suspended Solids (TSS) removal on an average annual basis shall be achieved.",
+      "page_or_section": "Table 5-1, Page 5-1"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "NRCS (SCS) Curve Number (CN) Method, NRCS Unit Hydrograph Methods & Time of Concentration Methods. The Rational Method is not an accepted methodology for Peak Discharge Control Compliance.",
+      "page_or_section": "Section 4.4.1, Page 4-9"
+    },
+    {
+      "field": "design_criteria.required_hydrologic_hydraulic_software",
+      "excerpt": "1. HydroCAD 2. InfoSWMM 3. XP-SWMM / XP-STORM 4. Storm & Sanitary Analysis (SSA) 5. Bentley CivilStorm 6. Civil 3D Hydrographs 7. HEC-HMS",
+      "page_or_section": "Reference 4-4, Appendix 4"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "5.3.1 DETENTION BASINS ... 5.3.2 INFILTRATION BMPS ... 5.3.3 FLOW THROUGH BMPS",
+      "page_or_section": "Section 5.3, Pages 5-5 to 5-7"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "high",
+    "needs_human_review": false,
+    "review_notes": "Peak discharge storms, water quality requirements (0.5 in / 80% TSS), NRCS methods, and acceptable software are explicitly stated. Prescriptive Vwq sizing details are in appendix Reference 5-2, not reproduced in main text.",
+    "fields_not_found": [
+      "document_metadata.last_revised_date"
+    ]
+  },
+  "source": {
+    "document_url": "https://bismarcknd.gov/DocumentCenter/View/30244/Stormwater-Design-Standards-Manual-PDF",
+    "landing_page_url": "https://www.bismarcknd.gov/",
+    "retrieved_at": "2026-08-08T01:30:00.000Z",
+    "original_filename": "bismarck-nd.pdf"
+  }
+}

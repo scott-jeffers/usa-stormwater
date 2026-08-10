@@ -1,0 +1,120 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "Virginia Department of Environmental Quality (DEQ)",
+    "jurisdiction_level": "state",
+    "state_code": "VA",
+    "document_title": "Virginia Stormwater Management Handbook, Chapter 8 — BMP Overview and Selection Criteria",
+    "version_or_edition": "July 2013",
+    "adoption_or_effective_date": "2013-07",
+    "last_revised_date": "2013-07",
+    "relationship_to_state_manual": "independent"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [1, 100],
+    "water_quality_volume_method": "Treatment Volume (Tv) from impervious surfaces sized to at least the first 1 inch of rainfall for runoff volume reduction BMPs. Practices are designed to capture and treat the full Tv (filtering, swales/open channels, infiltration, and basins with permanent pools).",
+    "peak_flow_calculation_method": [],
+    "required_hydrologic_hydraulic_software": [],
+    "approved_bmp_categories": [
+      "Runoff volume reduction (vegetated roof, downspout disconnection, rainwater harvesting, soil compost amendments, sheet flow to vegetated filters or conserved open space)",
+      "Swales or open channels (grass channel, dry swale)",
+      "Filtering systems (filtering practices / sand filters, bioretention)",
+      "Infiltration practices (permeable pavement, infiltration practices, bioinfiltration)",
+      "Basins — ponds and wetlands (constructed wetlands, wet ponds, extended detention)",
+      "Manufactured Treatment Devices (MTDs) verified via Virginia Stormwater BMP Clearinghouse / DEQ",
+      "Treatment trains"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "both administered in Virginia through delegation to the DEQ",
+      "page_or_section": "Section 8.0 Introduction, Page 8-4"
+    },
+    {
+      "field": "document_metadata.jurisdiction_level",
+      "excerpt": "Virginia Stormwater Management Handbook, Chapter 8 July 2013",
+      "page_or_section": "Header throughout"
+    },
+    {
+      "field": "document_metadata.state_code",
+      "excerpt": "Virginia Stormwater Management Handbook",
+      "page_or_section": "Header"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "Chapter 8 BMP OVERVIEW AND SELECTION CRITERIA",
+      "page_or_section": "Page 8-1"
+    },
+    {
+      "field": "document_metadata.version_or_edition",
+      "excerpt": "Virginia Stormwater Management Handbook, Chapter 8 July 2013",
+      "page_or_section": "Header"
+    },
+    {
+      "field": "document_metadata.adoption_or_effective_date",
+      "excerpt": "July 2013",
+      "page_or_section": "Header"
+    },
+    {
+      "field": "document_metadata.last_revised_date",
+      "excerpt": "July 2013",
+      "page_or_section": "Header"
+    },
+    {
+      "field": "document_metadata.relationship_to_state_manual",
+      "excerpt": "Virginia Stormwater Management Handbook, Chapter 8... Complete standards and specifications for Virginia-approved post-construction BMPs and MTDs can be found on the Virginia BMP Clearinghouse web site",
+      "page_or_section": "Header; Section 8.3, Page 8-41"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "In Virginia, control of the 1-year 24-hour storm volume is considered the standard necessary to protect stream channel geomorphology",
+      "page_or_section": "Section 8.1.9, Page 8-11"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "protect, preserve, or otherwise manage the ultimate 100-year floodplain",
+      "page_or_section": "Section on aquatic buffers / floodplains"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "Generally, runoff volume reduction BMPs are designed to handle at least the Treatment Volume from impervious surfaces (first 1-inch of rainfall).",
+      "page_or_section": "Section 8.1.9, Page 8-11"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "The following practices are explicitly designed to capture and treat the full Treatment Volume (Tv) within dry or wet cells... The following practices capture and temporarily store the Treatment Volume (Tv) before passing it through a filter bed",
+      "page_or_section": "Sections 8.2.2.2–8.2.2.3, Pages 8-34–8-35"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "8.2.2. Approved Virginia Non-Proprietary Stormwater Control Measures... Runoff volume reduction... Swales or open channels... Filtering systems... Infiltration practices... Basins",
+      "page_or_section": "Section 8.2.2, Page 8-32"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Virginia allows the use of certain Manufactured Treatment Devices (MTDs) for which pollution removal performance has been verified and certified through by the Virginia Stormwater BMP Clearinghouse Committee and the DEQ.",
+      "page_or_section": "Section 8.2.2.6, Page 8-40"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "combined in a \"treatment train\" with one or more other BMPs to meet water quality requirements",
+      "page_or_section": "Section 8.2.2.7, Page 8-40"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "medium",
+    "needs_human_review": true,
+    "review_notes": "Chapter 8 only (July 2013 clearinghouse PDF) — BMP overview/selection, not the full Virginia Stormwater Management Handbook (EncodePlus). Treatment Volume (first 1-inch) and 1-year/24-hour channel protection are stated here; detailed hydrologic/peak-flow calculation methods and required software live in other handbook chapters and are not in this excerpt. 100-year appears mainly for floodplain setbacks and optional enlarged volume-reduction BMPs, not as a complete flood-control design chapter.",
+    "fields_not_found": [
+      "design_criteria.peak_flow_calculation_method",
+      "design_criteria.required_hydrologic_hydraulic_software",
+      "design_criteria.design_storm_return_periods_years (complete VSMP quantity/flood return periods beyond 1-year channel protection and 100-year floodplain references in this chapter)"
+    ]
+  },
+  "source": {
+    "document_url": "https://swbmpvwrrc.wp.prod.es.cloud.vt.edu/wp-content/uploads/2018/07/31_Chap-8_BMP-Overview-Selection.pdf",
+    "landing_page_url": "https://www.deq.virginia.gov/water/stormwater/stormwater-construction/handbooks",
+    "retrieved_at": "2026-08-08T10:25:00.000Z",
+    "original_filename": "va-state.txt"
+  }
+}

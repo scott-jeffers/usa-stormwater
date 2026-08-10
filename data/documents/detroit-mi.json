@@ -1,0 +1,153 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "City of Detroit",
+    "jurisdiction_level": "municipality",
+    "state_code": "MI",
+    "document_title": "Stormwater Management Design Manual",
+    "version_or_edition": "July 2025",
+    "adoption_or_effective_date": "2025-07",
+    "last_revised_date": "2025-07",
+    "relationship_to_state_manual": "independent"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [1, 2, 5, 10, 25, 50, 100],
+    "water_quality_volume_method": "Treat or retain the 90th-percentile annual non-exceedance storm (1.0 inch) over the Regulated Area: (1) remove 80% TSS from uncontrolled post-construction runoff during a 1.0-inch rain event, or (2) effluent TSS ≤80 mg/L, or (3) Volume Control—retain (infiltrate or store/reuse) 1.0 inch of runoff over the Regulated Area (meeting retention automatically satisfies TSS). MS4 Channel Protection also requires the larger of 1.0-inch retention or volume needed to limit 2-year/24-hour runoff to pre-development. Flood control: post-construction peak ≤0.15 cfs/acre for the 10-year/24-hour (<5 ac Regulated Area) or 100-year/24-hour (≥5 ac).",
+    "peak_flow_calculation_method": [
+      "Rational Method",
+      "Modified Rational Method",
+      "Simple Method (1-inch and 1.9-inch retention/extended detention volumes)",
+      "NRCS Curve Number Approach",
+      "Small Storm Hydrology",
+      "NRCS Midwest-Southeast (MSE) Type 3 rainfall distribution",
+      "EPA SWMM / SWMM-based hydrograph routing"
+    ],
+    "required_hydrologic_hydraulic_software": [
+      "EPA SWMM",
+      "HydroCAD",
+      "StormCAD",
+      "HEC-HMS",
+      "TR-55",
+      "TR-20"
+    ],
+    "approved_bmp_categories": [
+      "Detention Practices (basic detention basins, extended dry detention, extended wet detention)",
+      "Bioretention (including bioswales and tree box filters)",
+      "Infiltration Practices (infiltration basins and trenches)",
+      "Permeable Pavement (porous asphalt, pervious concrete, pervious pavers, grid pavement)",
+      "Rainwater Harvesting / Cisterns",
+      "Living Roofs and Walls (green roofs and walls)",
+      "Stormwater Wetlands",
+      "Manufactured Treatment Devices (hydrodynamic separators and filtering systems)",
+      "Trees for Stormwater Management / Green Space"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "The City of Detroit Water and Sewerage Department",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.jurisdiction_level",
+      "excerpt": "The City of Detroit's Stormwater Management Design Manual (Design Manual) encompasses the engineering methods and technical standards that Detroit's development community and property owners need",
+      "page_or_section": "Chapter 1, Page 1-1"
+    },
+    {
+      "field": "document_metadata.state_code",
+      "excerpt": "EGLE: Michigan Nonpoint Source Best Management Practices (BMP) Manual",
+      "page_or_section": "Chapter 1, Page 1-8"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "STORMWATER MANAGEMENT DESIGN MANUAL",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.version_or_edition",
+      "excerpt": "July 2025",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.adoption_or_effective_date",
+      "excerpt": "July 2025",
+      "page_or_section": "Title Page / Design Manual Edit History"
+    },
+    {
+      "field": "document_metadata.last_revised_date",
+      "excerpt": "July 2025 • Chapter 1: Pages 1-3, 1-5 • Chapter 2: Pages 2-6...",
+      "page_or_section": "Design Manual Edit History"
+    },
+    {
+      "field": "document_metadata.relationship_to_state_manual",
+      "excerpt": "Although this Design Manual is the only technical resource crafted specifically for Detroit's PCSWMO compliance, there are other stormwater management resources with a statewide perspective... The information contained within the manual is informational only and should not be construed as requirements for Detroit's PCSWMO.",
+      "page_or_section": "Chapter 1, Section 1.4, Pages 1-8 to 1-9"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "Table 4-1 Precipitation Depths* (inches) for Recurrence Interval (years) Duration 1 year 2 year 5 year 10 year 25 year 50 year 100 year",
+      "page_or_section": "Chapter 4, Table 4-1, Page 4-2"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "Post-construction peak flow rate shall not exceed the pre-development peak flow rate for the 2-year, 24-hour storm",
+      "page_or_section": "Chapter 2, Table 2-2, Page 2-5"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "Peak Flow < 5 acres Post-construction peak flow rate shall not exceed 0.15 cfs/acre for the 10-year, 24-hour storm... Peak Flow ≥ 5 acres ... 100-year, 24-hour storm",
+      "page_or_section": "Chapter 2, Table 2-3, Page 2-6"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "TSS Control (1) Remove 80% of the total suspended solids (TSS) projected to be in uncontrolled runoff from the Regulated Area in the post-construction condition during a 1.0-inch rain event, or; (2) Have an effluent TSS concentration of less than or equal to 80 mg/L ... or; (3) Satisfy the Volume Control requirement below; this automatically meets the TSS requirement. Volume Control Retain* the runoff volume generated by 1.0 inch over the Regulated Area",
+      "page_or_section": "Chapter 2, Table 2-1, Page 2-5"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "In combined sewer areas, regulated construction activities must treat the 90-percent annual non-exceedance storm (1.0 inch). This water quality volume must be treated to (1) remove 80 percent of the total suspended solids (TSS)... Water Quality Volume The volume of stormwater runoff generated by the 90th percentile storm over the Regulated Area of a Development Site (1.0 inch).",
+      "page_or_section": "Chapter 2, Pages 2-9 to 2-10"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "Volume Control: Retain and infiltrate the first one (1) inch of rainfall over the Regulated Area or retain and infiltrate the volume necessary to limit the 2-year/24-hour rainfall volume to existing pre-development conditions over the Regulated Area (choose option that results in the higher volume)",
+      "page_or_section": "Chapter 2, Table 2-4, Page 2-6"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "Table 4-5 Computational Methods... Rational Method, EPA SWMM, HydroCAD, StormCAD... Simple Method for 1-inch storm... Modified Rational Method... NRCS Curve Number Approach, EPA SWMM, HEC-HMS, TR-55, TR-20",
+      "page_or_section": "Chapter 4, Table 4-5, Page 4-9"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "For the Detroit area, a NRCS Midwest-Southeast (MSE) Type 3 rainfall distribution shall be used.",
+      "page_or_section": "Chapter 4, Section 4.1.3, Page 4-4"
+    },
+    {
+      "field": "design_criteria.required_hydrologic_hydraulic_software",
+      "excerpt": "Rational Method, EPA SWMM, HydroCAD, StormCAD, or other DWSD-approved model... NRCS Curve Number Approach, EPA SWMM, HEC-HMS, TR-55, TR-20, HydroCAD, StormCAD, or other DWSD-approved model",
+      "page_or_section": "Chapter 4, Table 4-5, Page 4-9"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Chapter 7 – Detention Practices... Chapter 8 – Bioretention... Chapter 9 – Infiltration Practices... Chapter 10 – Permeable Pavement... Chapter 11 – Water Harvesting... Chapter 12 – Green Roofs and Walls... Chapter 13 – Stormwater Wetlands... Chapter 14 – Manufactured Treatment Devices... Chapter 15 – Trees for Stormwater Management",
+      "page_or_section": "Chapter 1, Section 1.3 / Table of Contents, Pages 1-6 to 1-8"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Bioretention and Rain Gardens... Cisterns... Green Roofs... Permeable Pavements... Trees and Green Space",
+      "page_or_section": "Chapter 1, GSI Practice benefits table, Page 1-5"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "high",
+    "needs_human_review": false,
+    "review_notes": "Extracted from local samples/queue/detroit-mi.txt (OCR/extraction truncates after mid-manual with garbage bytes; Chapters 1–4 and TOC BMP chapters were available). Performance standards and hydrologic methods are explicit. SEMCOG LID / EGLE BMP manuals are referenced as informational only—not adopted as Detroit requirements.",
+    "fields_not_found": []
+  },
+  "source": {
+    "document_url": "https://detroitmi.gov/sites/detroitmi.localhost/files/2025-08/2025%20DWSD%20SW%20Design%20Manual.pdf",
+    "landing_page_url": "https://detroitmi.gov/document/stormwater-management-design-manual",
+    "retrieved_at": "2026-08-08T10:41:43.274Z",
+    "original_filename": "detroit-mi.pdf"
+  }
+}

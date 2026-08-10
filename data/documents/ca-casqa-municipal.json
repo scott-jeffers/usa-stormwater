@@ -1,0 +1,124 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "California",
+    "jurisdiction_level": "state",
+    "state_code": "CA",
+    "document_title": "Stormwater Best Management Practice Handbook — Municipal",
+    "version_or_edition": "January 2003 (Errata 9-04)",
+    "adoption_or_effective_date": "2003-01-01",
+    "last_revised_date": null,
+    "relationship_to_state_manual": "independent"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [],
+    "water_quality_volume_method": null,
+    "peak_flow_calculation_method": [],
+    "required_hydrologic_hydraulic_software": [],
+    "approved_bmp_categories": [
+      "Non-Stormwater Management",
+      "Vehicle and Equipment Management",
+      "Material and Waste Management",
+      "Building and Grounds Management",
+      "Over Water Activities",
+      "General Stormwater Management",
+      "Road and Street Maintenance",
+      "Plaza and Sidewalk Cleaning",
+      "Fountains and Pools Maintenance",
+      "Landscape Maintenance",
+      "Drainage System Maintenance",
+      "Water and Sewer Utility Maintenance",
+      "Infiltration Trench",
+      "Infiltration Basin",
+      "Retention/Irrigation",
+      "Wet Pond",
+      "Constructed Wetland",
+      "Extended Detention Basin",
+      "Vegetated Swale",
+      "Vegetated Buffer Strip",
+      "Bioretention",
+      "Media Filter",
+      "Water Quality Inlet",
+      "Multiple Systems",
+      "Manufactured Wetland",
+      "Manufactured Media Filter",
+      "Wet Vault",
+      "Vortex Separator",
+      "Manufactured Drain Inlet"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "California Stormwater Quality Association (CASQA)",
+      "page_or_section": "Acknowledgements, Page 1"
+    },
+    {
+      "field": "document_metadata.jurisdiction_level",
+      "excerpt": "Contributing agencies include: State Agencies California Department of Transportation California State Water Resources Control Board",
+      "page_or_section": "Acknowledgements, Pages 1-2"
+    },
+    {
+      "field": "document_metadata.state_code",
+      "excerpt": "January 2003 California Stormwater BMP Handbook",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "Stormwater Best Management Practice Handbook Municipal",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.version_or_edition",
+      "excerpt": "January 2003 California Stormwater BMP Handbook",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.adoption_or_effective_date",
+      "excerpt": "January 2003 California Stormwater BMP Handbook",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.relationship_to_state_manual",
+      "excerpt": "Federal and state programs require selected municipalities to reduce the discharge of pollutants in their stormwater discharges to the maximum extent practicable (MEP) using an array of control measures including BMPs.",
+      "page_or_section": "Section 1.1, Page 1-1"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Table 3-1 Municipal Fixed Facility BMPs: Non-Stormwater Management, Vehicle and Equipment Management, Material and Waste Management, Building and Grounds Management, Over Water Activities, General Stormwater Management",
+      "page_or_section": "Table 3-1, Page 3-1"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Table 3-2 Municipal Field Program BMPs: Road and Street Maintenance, Plaza and Sidewalk Cleaning, Fountains & Pools Maintenance, Landscape Maintenance, Drainage System Maintenance, Waste Handling and Disposal, Water and Sewer Utility Maintenance",
+      "page_or_section": "Table 3-2, Page 3-1"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Table 4-1 Treatment Control BMPs — Public Domain: Infiltration Trench, Infiltration Basin, Retention/Irrigation, Wet Pond, Constructed Wetland, Extended Detention Basin, Vegetated Swale, Vegetated Buffer Strip, Bioretention, Media Filter, Water Quality Inlet, Multiple Systems",
+      "page_or_section": "Table 4-1, Page 4-1"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Table 4-1 Treatment Control BMPs — Manufactured (Proprietary): MP-20 Wetland, MP-40 Media Filter, MP-50 Wet Vault, MP-51 Vortex Separator, MP-52 Drain Inlet",
+      "page_or_section": "Table 4-1, Page 4-1"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "high",
+    "needs_human_review": false,
+    "review_notes": "CASQA Municipal Handbook is an operations and maintenance guidance document for MS4 permittees, not a post-construction design manual. Design requirements for treatment BMPs are deferred to the separate New Development and Redevelopment Handbook.",
+    "fields_not_found": [
+      "document_metadata.last_revised_date",
+      "design_criteria.design_storm_return_periods_years",
+      "design_criteria.water_quality_volume_method",
+      "design_criteria.peak_flow_calculation_method",
+      "design_criteria.required_hydrologic_hydraulic_software"
+    ]
+  },
+  "source": {
+    "document_url": "https://www.casqa.org/wp-content/uploads/2022/12/BMP_Municipal_Complete.pdf",
+    "landing_page_url": "https://www.casqa.org/resources/bmp-handbooks/municipal-bmp-handbook",
+    "retrieved_at": "2026-08-08T01:30:00.000Z",
+    "original_filename": "ca-casqa-municipal.pdf"
+  }
+}

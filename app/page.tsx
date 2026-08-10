@@ -1,5 +1,6 @@
 import { getAllManuals } from "@/lib/data";
 import { ManualsExplorer } from "@/components/ManualsExplorer";
+import { isUsStateCode } from "@/lib/usStates";
 
 export default function HomePage() {
   const manuals = getAllManuals();
@@ -7,7 +8,7 @@ export default function HomePage() {
   const statesCovered = new Set(
     manuals
       .map((m) => m.data.document_metadata.state_code)
-      .filter((code): code is string => Boolean(code))
+      .filter(isUsStateCode)
   ).size;
 
   const needsReviewCount = manuals.filter(
@@ -15,52 +16,30 @@ export default function HomePage() {
   ).length;
 
   return (
-    <main className="space-y-6">
-      <header>
-        <h1 className="text-2xl font-semibold tracking-tight text-slate-900">
-          USA Stormwater Manual Extractor
+    <main className="space-y-8">
+      <header className="max-w-2xl space-y-2">
+        <h1 className="font-display text-2xl font-semibold tracking-tight text-ink sm:text-3xl">
+          Stormwater design rules, in one place
         </h1>
-        <p className="mt-1 text-sm text-slate-600">
-          A one-stop shop for U.S. stormwater design manual requirements,
-          extracted from source documents with cited evidence for every
-          field.
+        <p className="text-base leading-relaxed text-slate-600">
+          Browse U.S. state, county, and city manuals. Key requirements are
+          listed with the quote from the source document.
+        </p>
+        <p className="pt-1 text-sm text-slate-500">
+          {manuals.length} manuals · {statesCovered} states
+          {needsReviewCount > 0 ? (
+            <>
+              {" "}
+              ·{" "}
+              <span className="text-orange-600">
+                {needsReviewCount} need review
+              </span>
+            </>
+          ) : null}
         </p>
       </header>
 
-      <div className="grid grid-cols-1 gap-4 sm:grid-cols-3">
-        <StatCard label="Manuals ingested" value={manuals.length} />
-        <StatCard label="States covered" value={statesCovered} />
-        <StatCard
-          label="Needing human review"
-          value={needsReviewCount}
-          tone={needsReviewCount > 0 ? "warning" : "default"}
-        />
-      </div>
-
       <ManualsExplorer manuals={manuals} />
     </main>
-  );
-}
-
-function StatCard({
-  label,
-  value,
-  tone = "default",
-}: {
-  label: string;
-  value: number;
-  tone?: "default" | "warning";
-}) {
-  return (
-    <div className="rounded-lg border border-slate-200 bg-white p-4">
-      <div
-        className={`text-2xl font-semibold ${
-          tone === "warning" && value > 0 ? "text-orange-600" : "text-slate-900"
-        }`}
-      >
-        {value}
-      </div>
-      <div className="text-sm text-slate-500">{label}</div>
-    </div>
   );
 }

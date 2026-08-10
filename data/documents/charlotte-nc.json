@@ -1,0 +1,135 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "Charlotte-Mecklenburg",
+    "jurisdiction_level": "municipality",
+    "state_code": "NC",
+    "document_title": "Charlotte-Mecklenburg Stormwater Design Manual",
+    "version_or_edition": "April 2026 (public comment draft)",
+    "adoption_or_effective_date": null,
+    "last_revised_date": "2026-04",
+    "relationship_to_state_manual": "independent"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [2, 10, 25, 50, 100],
+    "water_quality_volume_method": null,
+    "peak_flow_calculation_method": [
+      "Rational Method (with frequency factor Cf, custom runoff coefficients, and custom rainfall intensities)",
+      "NRCS Method / Curve Number (TR-55; Type II center-weighted 6-hour storm unless otherwise specified)",
+      "Custom Charlotte-Mecklenburg precipitation tables (Appendix 2)"
+    ],
+    "required_hydrologic_hydraulic_software": [
+      "HEC software (City verification)",
+      "HydroCAD",
+      "StormCAD"
+    ],
+    "approved_bmp_categories": [
+      "Vegetated channels (turfgrass and native plant)",
+      "Armored channels (when vegetated not feasible)",
+      "Closed pipe systems",
+      "Culverts",
+      "Riprap aprons (energy dissipation)",
+      "Plunge pools (energy dissipation)"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "Charlotte-Mecklenburg Stormwater Design Manual",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.jurisdiction_level",
+      "excerpt": "This manual has been developed to assist in the design and evaluation of stormwater management facilities in the City of Charlotte, Charlotte ETJ, and Mecklenburg County.",
+      "page_or_section": "Chapter 1, Section 1.1, Page 6"
+    },
+    {
+      "field": "document_metadata.state_code",
+      "excerpt": "Figure 1-2. Stormwater conveyance structures in Charlotte, NC",
+      "page_or_section": "Chapter 1, Page 9"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "Charlotte-Mecklenburg Stormwater Design Manual",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.version_or_edition",
+      "excerpt": "April 2026",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.adoption_or_effective_date",
+      "excerpt": "A Certification of Adoption will be added when the final Design Manual is published.",
+      "page_or_section": "Certification of Adoption, Page 1"
+    },
+    {
+      "field": "document_metadata.last_revised_date",
+      "excerpt": "The goals of the 2026 update to this manual are to",
+      "page_or_section": "Chapter 1, Section 1.2, Page 7"
+    },
+    {
+      "field": "document_metadata.relationship_to_state_manual",
+      "excerpt": "Streamline information by focusing on City of Charlotte, Charlotte ETJ, and Mecklenburg County requirements",
+      "page_or_section": "Chapter 1, Section 1.2, Page 7"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "Table 2-1. Summary of design storm requirements... Channels ... 10-yr ... At sags on local streets 25-yr ... At sags on arterials and primary access streets 50-yr ... Primary access streets 100-yr ... Streets across regulated floodways 100-yr, 24-hr per FEMA",
+      "page_or_section": "Chapter 2, Table 2-1, Page 10"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "Table 2-3. Frequency factors Recurrence Interval (years) Cf 2 1 10 1 25 1.1 50 1.2 100 1.25",
+      "page_or_section": "Chapter 2, Table 2-3, Page 12"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "Either the Rational Method or the NRCS Method may be applied, with watershed sizes, appropriate applications, and necessary adjustments detailed in the table below.",
+      "page_or_section": "Chapter 2, Section 2.4, Page 11"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "The NRCS method should be based on a Type II, center-weighted storm with a duration of six hours.",
+      "page_or_section": "Chapter 2, Section 2.6"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "Note: For the NRCS method, use 6-hr durations unless otherwise specified.",
+      "page_or_section": "Chapter 2, Table 2-1 note, Page 10"
+    },
+    {
+      "field": "design_criteria.required_hydrologic_hydraulic_software",
+      "excerpt": "The City will typically use HEC software to verify designs submitted by the development community. In addition, the City may check designs using HydroCAD and StormCAD. Designers may use any software tools that are based on the methods described in this manual.",
+      "page_or_section": "Chapter 1, Section 1.3, Page 7"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Use vegetated channels whenever feasible • Implement armored channels only when a vegetated channel is not feasible",
+      "page_or_section": "Chapter 3, Table 3-1, Page 20"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "When designing vegetated channels, the designer may select either turfgrass or native plants.",
+      "page_or_section": "Chapter 3, Section 3.4, Page 21"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "riprap aprons should be used for closed pipe system outlets and for culverts that convey drainage ditches and streams with intermittent flows, and plunge pools should be used for culverts that convey streams with perennial flows.",
+      "page_or_section": "Summary of Technical Changes / Chapter 6"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "medium",
+    "needs_human_review": true,
+    "review_notes": "April 2026 public-comment draft (Certification of Adoption not yet published). Manual covers conveyance design (hydrology, channels, pipes, culverts, energy dissipators); post-construction water quality volume / SCM sizing is deferred to separate Post Construction Stormwater Ordinances/Regulations referenced in §1.7—not specified in this text. Software listed is City verification tooling; designers may use any method-based tools.",
+    "fields_not_found": [
+      "design_criteria.water_quality_volume_method"
+    ]
+  },
+  "source": {
+    "document_url": "https://www.charlottenc.gov/files/sharedassets/city/v/1/services/stormwater/documents/regulations/storm-water-design-manual/public-comment/charlotte-sw-design-manual-for-public-comment.pdf",
+    "landing_page_url": "https://www.charlottenc.gov/Services/Stormwater/Stormwater-Regulations/Storm-Water-Design-Manual",
+    "retrieved_at": "2026-08-08T10:41:44.548Z",
+    "original_filename": "charlotte-nc.pdf"
+  }
+}

@@ -1,0 +1,127 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "Mid-America Regional Council / Kansas City Metro APWA",
+    "jurisdiction_level": "special_district",
+    "state_code": "MO",
+    "document_title": "Manual of Best Management Practices For Stormwater Quality",
+    "version_or_edition": "Final, October 2012",
+    "adoption_or_effective_date": "2012-10-01",
+    "last_revised_date": null,
+    "relationship_to_state_manual": "unknown"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [
+      100
+    ],
+    "water_quality_volume_method": "Water Quality Volume (WQv) captures 90% of average annual runoff using the 1.37-inch Water Quality Storm for the Kansas City metropolitan area; WQv = P × Rv (Short-Cut Method) or P × weighted Rv (Small Storm Hydrology Method).",
+    "peak_flow_calculation_method": [
+      "Rational Method",
+      "SCS Curve Number Approach (TR-55)",
+      "Short-Cut Method",
+      "Small Storm Hydrology Method"
+    ],
+    "required_hydrologic_hydraulic_software": [],
+    "approved_bmp_categories": [
+      "Stream Buffers",
+      "Soil Preservation and Restoration",
+      "Bioretention",
+      "Rain Gardens",
+      "Filtration Basins",
+      "Infiltration Trenches",
+      "Permeable Pavement",
+      "Extended Detention Wetland",
+      "Sand Filter",
+      "Extended Wet Detention Basin",
+      "Native Vegetation Swale",
+      "Extended Dry Detention Basin",
+      "Proprietary Media Filtration",
+      "Hydro Dynamic Separation",
+      "Catch Basin Inserts",
+      "Baffle Boxes and Oil/Grit Separators",
+      "Vegetated Filter Strip",
+      "Green Roofs"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "The Kansas City Mid-America Regional Council (MARC) and the Kansas City Metro Chapter of the American Public Works Association (APWA) have developed this manual",
+      "page_or_section": "Executive Summary"
+    },
+    {
+      "field": "document_metadata.jurisdiction_level",
+      "excerpt": "Intended as a regional guidance document, this manual is a reference for BMP application and design.",
+      "page_or_section": "Section 1.4"
+    },
+    {
+      "field": "document_metadata.state_code",
+      "excerpt": "land development within the Kansas City Metropolitan Area and the MARC planning region",
+      "page_or_section": "Executive Summary"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "Manual of Best Management Practices For Stormwater Quality",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.version_or_edition",
+      "excerpt": "Final October 2012",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.adoption_or_effective_date",
+      "excerpt": "Final October 2012",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "Detention basins detain and manage releases from larger rainfall events―usually up to and including the 100-year return interval event",
+      "page_or_section": "Section 3.3"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "The Water Quality Storm for the Kansas City Metropolitan Area is 1.37 inches",
+      "page_or_section": "Section 6.1"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "WQv = P * Rv",
+      "page_or_section": "Section 6.2 Short-Cut Method"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "To size a conveyance BMP correctly, calculate the peak discharge for the Water Quality Storm using the Rational Method.",
+      "page_or_section": "Section 6.4"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "weighted curve number (CN) for predevelopment conditions using Technical Reference No. 55 (TR-55)",
+      "page_or_section": "Section 4.2"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "8.1 RAIN GARDENS ... 8.2 FILTRATION BASINS ... 8.3 INFILTRATION TRENCHES ... 8.4 BIORETENTION ... 8.5 PERMEABLE PAVEMENT ... 8.6 EXTENDED DETENTION WETLAND ... 8.7 SAND FILTER ... 8.8 EXTENDED WET DETENTION ... 8.9 NATIVE VEGETATION SWALE ... 8.10 EXTENDED DRY DETENTION BASIN",
+      "page_or_section": "Table of Contents, Section 8"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "5.1 STREAM BUFFERS ... 5.2 SOIL PRESERVATION AND RESTORATION ... 5.3 BIORETENTION",
+      "page_or_section": "Table of Contents, Section 5"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "high",
+    "needs_human_review": false,
+    "review_notes": "Regional MARC/APWA BMP manual for the Kansas City metropolitan area. Jurisdiction level coded as special_district because regional is not in schema. No required hydrologic software is mandated; computer software is optional for outlet sizing.",
+    "fields_not_found": [
+      "document_metadata.last_revised_date",
+      "design_criteria.required_hydrologic_hydraulic_software"
+    ]
+  },
+  "source": {
+    "document_url": "https://www.marc.org/sites/default/files/2022-05/Best_Management_Practices_for_Stormwater_Quality.pdf",
+    "landing_page_url": "https://www.marc.org/environment/environment-plans/stormwater-management",
+    "retrieved_at": "2026-08-08T00:52:04.640Z",
+    "original_filename": "kansas-city-marc-bmp.pdf"
+  }
+}

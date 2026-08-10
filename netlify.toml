@@ -1,0 +1,25 @@
+# Netlify — static Next.js export (output: "export" → ./out)
+# Connect this GitHub repo in Netlify; settings below are picked up automatically.
+
+[build]
+  command = "npm run build"
+  publish = "out"
+
+[build.environment]
+  NODE_VERSION = "22"
+  # Do NOT set GEMINI_API_KEY (or any AI keys) here. The site is a static
+  # export built from committed JSON in data/documents/ — no secrets needed.
+
+# Pretty URLs for trailingSlash: true static export
+[[redirects]]
+  from = "/*"
+  to = "/404.html"
+  status = 404
+
+# Security headers (static site)
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"

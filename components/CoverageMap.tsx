@@ -10,39 +10,69 @@ import { FIPS_TO_STATE_CODE, STATE_CODE_TO_NAME } from "@/lib/usStates";
 
 const GEO_URL = "https://cdn.jsdelivr.net/npm/us-atlas@3/states-10m.json";
 
-export interface CityMarker {
+// Brand-aligned choropleth (ink/water family)
+const MAP_FILLS = {
+  empty: "#e8eef2",
+  one: "#a5d4de",
+  few: "#5ab8c5",
+  many: "#0e7490",
+  selected: "#0b1c2c",
+  hover: "#155e75",
+  pressed: "#0b1c2c",
+  stroke: "#ffffff",
+  city: "#0f766e",
+  citySelected: "#0b1c2c",
+  county: "#0369a1",
+  countySelected: "#0b1c2c",
+  district: "#6366f1",
+  districtSelected: "#0b1c2c",
+  markerHalo: "#ffffff",
+};
+
+export type LocalityKind = "city" | "county" | "special_district";
+
+export interface LocalityMarker {
   slug: string;
   name: string;
   stateCode: string;
   coordinates: [number, number];
+  kind: LocalityKind;
 }
+
+/** @deprecated Prefer LocalityMarker — kept as an alias for older imports. */
+export type CityMarker = LocalityMarker;
 
 interface CoverageMapProps {
   counts: Record<string, number>;
   selectedState: string | null;
   onSelectState: (code: string | null) => void;
-  cities?: CityMarker[];
+  localities?: LocalityMarker[];
+  /** @deprecated Use `localities` */
+  cities?: LocalityMarker[];
 }
 
 function fillForCount(count: number, isSelected: boolean): string {
-  if (isSelected) return "#1d4ed8";
-  if (count === 0) return "#e2e8f0";
-  if (count === 1) return "#93c5fd";
-  if (count <= 3) return "#60a5fa";
-  return "#2563eb";
+  if (isSelected) return MAP_FILLS.selected;
+  if (count === 0) return MAP_FILLS.empty;
+  if (count === 1) return MAP_FILLS.one;
+  if (count <= 3) return MAP_FILLS.few;
+  return MAP_FILLS.many;
 }
 
 export function CoverageMap({
   counts,
   selectedState,
   onSelectState,
+  localities,
   cities = [],
 }: CoverageMapProps) {
+  const markers = localities ?? cities;
+
   return (
-    <div className="rounded-lg border border-slate-200 bg-white p-3">
+    <div className="rounded-xl border border-slate-200/80 bg-white p-3 shadow-sm sm:p-4">
       <p className="mb-2 text-xs text-slate-500">
-        Click a state (or city pin) to filter the list to that state. The map
-        stays at national scale.
+        Click a state or pin (city, county, or district) to filter the list.
+        The map stays at national scale.
       </p>
 
       <ComposableMap
@@ -75,23 +105,23 @@ export function CoverageMap({
                   style={{
                     default: {
                       fill: fillForCount(count, isSelected),
-                      stroke: "#ffffff",
+                      stroke: MAP_FILLS.stroke,
                       strokeWidth: 0.5,
                       outline: "none",
                       cursor: stateCode ? "pointer" : "default",
                     },
                     hover: {
                       fill: stateCode
-                        ? "#1d4ed8"
+                        ? MAP_FILLS.hover
                         : fillForCount(count, isSelected),
-                      stroke: "#ffffff",
+                      stroke: MAP_FILLS.stroke,
                       strokeWidth: 0.5,
                       outline: "none",
                       cursor: stateCode ? "pointer" : "default",
                     },
                     pressed: {
-                      fill: "#1e40af",
-                      stroke: "#ffffff",
+                      fill: MAP_FILLS.pressed,
+                      stroke: MAP_FILLS.stroke,
                       strokeWidth: 0.5,
                       outline: "none",
                     },
@@ -108,30 +138,87 @@ export function CoverageMap({
           }
         </Geographies>
 
-        {cities.map((city) => {
-          const isInSelectedState = selectedState === city.stateCode;
+        {markers.map((marker) => {
+          const isInSelectedState = selectedState === marker.stateCode;
+          const fill =
+            marker.kind === "county"
+              ? isInSelectedState
+                ? MAP_FILLS.countySelected
+                : MAP_FILLS.county
+              : marker.kind === "special_district"
+                ? isInSelectedState
+                  ? MAP_FILLS.districtSelected
+                  : MAP_FILLS.district
+                : isInSelectedState
+                  ? MAP_FILLS.citySelected
+                  : MAP_FILLS.city;
+
           return (
-            <Marker key={city.slug} coordinates={city.coordinates}>
+            <Marker key={marker.slug} coordinates={marker.coordinates}>
               <g
                 style={{ cursor: "pointer" }}
                 onClick={(e) => {
                   e.stopPropagation();
-                  // Same behavior as clicking the state: filter to everything
-                  // in that state (state + city manuals), no zoom.
                   onSelectState(
-                    isInSelectedState ? null : city.stateCode
+                    isInSelectedState ? null : marker.stateCode
                   );
                 }}
               >
                 <title>
-                  {city.name} — filter {STATE_CODE_TO_NAME[city.stateCode] ?? city.stateCode}
+                  {marker.name} — filter{" "}
+                  {STATE_CODE_TO_NAME[marker.stateCode] ?? marker.stateCode}
                 </title>
-                <circle
-                  r={4}
-                  fill={isInSelectedState ? "#115e59" : "#0f766e"}
-                  stroke="#ffffff"
-                  strokeWidth={1.25}
-                />
+                {marker.kind === "county" ? (
+                  <>
+                    <rect
+                      x={-5.5}
+                      y={-5.5}
+                      width={11}
+                      height={11}
+                      rx={1.5}
+                      fill={MAP_FILLS.markerHalo}
+                      opacity={0.95}
+                    />
+                    <rect
+                      x={-4}
+                      y={-4}
+                      width={8}
+                      height={8}
+                      rx={1}
+                      fill={fill}
+                      stroke={MAP_FILLS.markerHalo}
+                      strokeWidth={1.25}
+                    />
+                  </>
+                ) : marker.kind === "special_district" ? (
+                  <>
+                    <polygon
+                      points="0,-7.5 7.5,0 0,7.5 -7.5,0"
+                      fill={MAP_FILLS.markerHalo}
+                      opacity={0.95}
+                    />
+                    <polygon
+                      points="0,-5.5 5.5,0 0,5.5 -5.5,0"
+                      fill={fill}
+                      stroke={MAP_FILLS.markerHalo}
+                      strokeWidth={1.25}
+                    />
+                  </>
+                ) : (
+                  <>
+                    <circle
+                      r={6}
+                      fill={MAP_FILLS.markerHalo}
+                      opacity={0.9}
+                    />
+                    <circle
+                      r={4.25}
+                      fill={fill}
+                      stroke={MAP_FILLS.markerHalo}
+                      strokeWidth={1.5}
+                    />
+                  </>
+                )}
               </g>
             </Marker>
           );
@@ -141,23 +228,46 @@ export function CoverageMap({
       <div className="mt-2 flex flex-wrap items-center justify-between gap-2 text-xs text-slate-500">
         <div className="flex flex-wrap items-center gap-3">
           <span className="flex items-center gap-1">
-            <span className="inline-block h-3 w-3 rounded-sm bg-slate-200" />
+            <span
+              className="inline-block h-3 w-3 rounded-sm"
+              style={{ backgroundColor: MAP_FILLS.empty }}
+            />
             No manual yet
           </span>
           <span className="flex items-center gap-1">
-            <span className="inline-block h-3 w-3 rounded-sm bg-blue-400" />
+            <span
+              className="inline-block h-3 w-3 rounded-sm"
+              style={{ backgroundColor: MAP_FILLS.few }}
+            />
             State covered
           </span>
           <span className="flex items-center gap-1">
-            <span className="inline-block h-2 w-2 rounded-full bg-teal-700 ring-1 ring-white" />
+            <span
+              className="inline-block h-2.5 w-2.5 rounded-full ring-2 ring-white"
+              style={{ backgroundColor: MAP_FILLS.city }}
+            />
             City manual
+          </span>
+          <span className="flex items-center gap-1">
+            <span
+              className="inline-block h-2.5 w-2.5 rounded-sm ring-2 ring-white"
+              style={{ backgroundColor: MAP_FILLS.county }}
+            />
+            County manual
+          </span>
+          <span className="flex items-center gap-1">
+            <span
+              className="inline-block h-2.5 w-2.5 rotate-45 ring-2 ring-white"
+              style={{ backgroundColor: MAP_FILLS.district }}
+            />
+            Special district
           </span>
         </div>
         {selectedState && (
           <button
             type="button"
             onClick={() => onSelectState(null)}
-            className="font-medium text-blue-700 hover:underline"
+            className="font-medium text-water-link hover:text-water-deep hover:underline"
           >
             Clear map selection
           </button>

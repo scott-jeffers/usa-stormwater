@@ -1,0 +1,128 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "Indiana",
+    "jurisdiction_level": "state",
+    "state_code": "IN",
+    "document_title": "Indiana Storm Water Quality Manual",
+    "version_or_edition": "October 2007",
+    "adoption_or_effective_date": "2007-10-01",
+    "last_revised_date": null,
+    "relationship_to_state_manual": "independent"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [
+      10,
+      100
+    ],
+    "water_quality_volume_method": "Treat at least one-half inch of storm water runoff (water quality volume or storage) from impervious surfaces, targeting removal of at least 80% of total suspended solids on an annual average basis; post-development peak discharge rates and volumes should not exceed predevelopment levels.",
+    "peak_flow_calculation_method": [
+      "Rational Method",
+      "NRCS Technical Release 55 (TR 55)",
+      "NRCS Technical Release 20 (TR 20)"
+    ],
+    "required_hydrologic_hydraulic_software": [],
+    "approved_bmp_categories": [
+      "Vegetated Swales",
+      "Filter Strip",
+      "Filter Ridge",
+      "Riparian Buffer Zones",
+      "Sand Filters",
+      "Pervious Concrete Systems",
+      "Porous Asphalt Systems",
+      "Porous Paver Systems",
+      "Infiltration Trench",
+      "Infiltration Basin",
+      "Bioretention Systems",
+      "Dry Extended Detention Basins",
+      "Wet Detention Ponds",
+      "Sediment Forebay Ponds",
+      "Constructed Storm Water Wetlands",
+      "Subsurface Detention/Retention",
+      "Gravity Oil-Grit Separators",
+      "Hydrodynamic Separators",
+      "Catch Basin Inserts With Treatment Medium"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "INDIANA STORM WATER QUALITY MANUAL",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.jurisdiction_level",
+      "excerpt": "Published October 2007 by the Indiana Department of Environmental Management",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.state_code",
+      "excerpt": "Indianapolis, IN 46204-2251",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "INDIANA STORM WATER QUALITY MANUAL Planning and Specification Guide for Effective Erosion and Sediment Control and Post-Construction Water Quality",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.version_or_edition",
+      "excerpt": "Published October 2007",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.adoption_or_effective_date",
+      "excerpt": "Published October 2007",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.relationship_to_state_manual",
+      "excerpt": "This manual is a comprehensive resource of planning principles and standards that can be implemented as land is being developed.",
+      "page_or_section": "Preface"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "The two most commonly used storm events are the 10-year frequency, 24-hour duration event and the 100-year frequency, 24-hour duration event.",
+      "page_or_section": "Chapter 3, Storm Water Calculations"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "Storm water quality measures selected should be designed to treat at least one-half inch of storm water runoff (water quality volume or storage), at a minimum, from the impervious surfaces. Treatment goals should be targeted to remove at least 80 percent of the total suspended solids from runoff on an annual average basis",
+      "page_or_section": "Chapter 5, Performance Standards"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "The basic goal for development is to assure that post-development peak discharge rates and discharge volumes do not exceed the predevelopment levels.",
+      "page_or_section": "Chapter 5, Performance Standards"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "Some of the more common and acceptable methods are the rational method, Technical Release Numbers 55 and 20.",
+      "page_or_section": "Chapter 3, Storm Water Calculations"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Infiltration Trench ... Infiltration Basin ... Bioretention Systems ... Dry Extended Detention Basins ... Wet Detention Ponds ... Constructed Storm Water Wetlands",
+      "page_or_section": "Chapter 8 Table of Contents"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Pervious Concrete Systems ... Porous Asphalt Systems ... Porous Paver Systems ... Sand Filters ... Vegetated Swales",
+      "page_or_section": "Chapter 8 Table of Contents"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "high",
+    "needs_human_review": false,
+    "review_notes": null,
+    "fields_not_found": [
+      "document_metadata.last_revised_date",
+      "design_criteria.required_hydrologic_hydraulic_software"
+    ]
+  },
+  "source": {
+    "document_url": "https://www.inafsm.net/assets/docs/indiana%20storm%20water%20quality%20manual.pdf",
+    "landing_page_url": "https://www.in.gov/idem/stormwater/resources/indiana-storm-water-quality-manual/",
+    "retrieved_at": "2026-08-08T01:30:00.000Z",
+    "original_filename": "indiana-manual.pdf"
+  }
+}

@@ -1,0 +1,144 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "City of Tucson",
+    "jurisdiction_level": "municipality",
+    "state_code": "AZ",
+    "document_title": "Standards Manual for Drainage Design and Floodplain Management in Tucson, Arizona",
+    "version_or_edition": "December 1989 (Revised July 1998); Chapter IV revised April 1998",
+    "adoption_or_effective_date": "1989-12",
+    "last_revised_date": "1998-07",
+    "relationship_to_state_manual": "independent"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [2, 5, 10, 25, 50, 100],
+    "water_quality_volume_method": "Threshold Retention required in Balanced/Critical Basins per the Stormwater Detention/Retention Manual; Critical Basins require a 15% reduction of the 2-, 10-, and 100-year events. Stormwater harvesting may offset Threshold Retention volume (Design Policy #10).",
+    "peak_flow_calculation_method": [
+      "City of Tucson Flood Peak Estimator Procedure (basins ≤10 sq mi)",
+      "Tucson Stormwater Management Study (TSMS) hydrology (preferred where available)",
+      "HEC-1",
+      "Rational Formula"
+    ],
+    "required_hydrologic_hydraulic_software": [
+      "Stormwater System Planner (HEC-1 / AutoCAD mapping component for TSMS)"
+    ],
+    "approved_bmp_categories": [
+      "Detention/Retention Basins",
+      "Stormwater Harvesting",
+      "Stormwater-Infiltration Systems (Dry Wells)",
+      "Open Channels",
+      "Channel Stabilization and Hydraulic Structures",
+      "Storm Drains",
+      "Culverts",
+      "Street and Parking Lot Drainage"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "Prepared for City of Tucson Department of Transportation Engineering Division",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.jurisdiction_level",
+      "excerpt": "City of Tucson Department of Transportation, Engineering Division",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.state_code",
+      "excerpt": "STANDARDS MANUAL FOR DRAINAGE DESIGN AND FLOODPLAIN MANAGEMENT IN TUCSON, ARIZONA",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "STANDARDS MANUAL FOR DRAINAGE DESIGN AND FLOODPLAIN MANAGEMENT IN TUCSON, ARIZONA",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.version_or_edition",
+      "excerpt": "DECEMBER, 1989 (REVISED JULY, 1998)",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.adoption_or_effective_date",
+      "excerpt": "DECEMBER, 1989",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.last_revised_date",
+      "excerpt": "REVISED JULY, 1998... CHAPTER IV: CITY OF TUCSON METHOD FOR ESTIMATING FLOOD PEAKS AND FLOOD HYDROGRAPHS (REVISED APRIL, 1998)",
+      "page_or_section": "Title Page; Chapter IV"
+    },
+    {
+      "field": "document_metadata.relationship_to_state_manual",
+      "excerpt": "STANDARDS MANUAL FOR DRAINAGE DESIGN AND FLOODPLAIN MANAGEMENT IN TUCSON, ARIZONA... Prepared for City of Tucson",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "procedure for estimating 2-year, 5-year, 10-year, 25-year, 50-year, and 100-year flood peaks and flood hydrographs for watershed areas located within the City of Tucson",
+      "page_or_section": "Chapter IV, Section 4.1"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "Provide and describe Reservoir-Routing Calculation Sheets for each basin for the 2-year, 10-year, and 100-year design floods, at a minimum.",
+      "page_or_section": "Chapter II, Section 2.3.1.6 Basin Design"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "Compliance with these Threshold Retention requirements, which are described in the Stormwater Detention/Retention Manual, is now required... The volume utilized for stormwater harvesting may be used to offset the volume required for Threshold Retention. Stormwater harvesting has been added as Design Policy #10 in Chapter XIV",
+      "page_or_section": "October 24, 1997 Cover Letter"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "For those watersheds designated as Critical Basins, a 15% reduction in the 2-, 10-, and 100-year flow events will be required as a fair and equitable apportioning increment.",
+      "page_or_section": "October 24, 1997 Cover Letter"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "The City of Tucson Flood Peak Estimator Procedure shall be used to determine the design 100-year flood peak for drainage basins less than ten square miles in size.",
+      "page_or_section": "Chapter I, Design Policies — Chapter IV"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "it is the strong preference of the City of Tucson that TSMS peak discharges be used in lieu of the procedures presented herein, whenever and wherever it is practicable to do so.",
+      "page_or_section": "Chapter IV, Section 4.1"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "a City-approved hydrologic methodology (e.g., HEC-1) should be used to properly model the effects of any such controls.",
+      "page_or_section": "Chapter IV, Section 4.2"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "Using the Rational Formula, Q = CiA",
+      "page_or_section": "Chapter X, Storm Drains Example 10.2"
+    },
+    {
+      "field": "design_criteria.required_hydrologic_hydraulic_software",
+      "excerpt": "The TSMS hydrologic modeling was accomplished using the Stormwater System Planner, a software package which includes a database manager, the HEC-1 hydrologic model, and an AutoCAD mapping component.",
+      "page_or_section": "Conditions of Use, TSMS Hydrologic Data"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "CHAPTER VIII. OPEN-CHANNEL DESIGN... CHAPTER IX: Channel Stabilization and Hydraulic Structures... CHAPTER X: Storm Drains... CHAPTER XI: Culverts... CHAPTER XII: Street and Parking Lot Drainage... CHAPTER XIV. DETENTION/RETENTION BASINS... 14.5 Stormwater-Infiltration Systems",
+      "page_or_section": "Table of Contents"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Mayor and Council has directed the City Engineer's office to require new developments to utilize stormwater harvesting to the maximum extent reasonably possible.",
+      "page_or_section": "October 24, 1997 Cover Letter"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "high",
+    "needs_human_review": false,
+    "review_notes": "Numeric first-flush depth is defined in the companion Pima County/Tucson Detention and Retention Manual (tucson-az-detention), not as a standalone WQv formula in this drainage standards manual.",
+    "fields_not_found": []
+  },
+  "source": {
+    "document_url": "https://www.tucsonaz.gov/files/sharedassets/public/v/1/pdsd/documents/manuals/cot-drainage-manual-searchable.pdf",
+    "landing_page_url": "https://www.tucsonaz.gov/Departments/Planning-Development-Services/Codes/Engineering-Codes",
+    "retrieved_at": "2026-08-08T11:41:45.561Z",
+    "original_filename": "cot-drainage-manual-searchable.pdf"
+  }
+}

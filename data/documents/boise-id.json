@@ -1,0 +1,117 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "City of Boise",
+    "jurisdiction_level": "municipality",
+    "state_code": "ID",
+    "document_title": "2019 Boise Stormwater Design Manual",
+    "version_or_edition": "December 2019",
+    "adoption_or_effective_date": "2019-12",
+    "last_revised_date": "2019-12",
+    "relationship_to_state_manual": "independent"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [
+      2,
+      5,
+      10,
+      50,
+      100
+    ],
+    "water_quality_volume_method": "Treat storms up to 0.34-inch depth (City goal to fully treat at least 80% of annual storms); offsite discharges require 80% TSS removal; onsite infiltration systems retain the peak water quantity design volume.",
+    "peak_flow_calculation_method": [
+      "Rational Method",
+      "NRCS TR-55"
+    ],
+    "required_hydrologic_hydraulic_software": [],
+    "approved_bmp_categories": [
+      "Sand Filters",
+      "Biofiltration Swales and Grass Buffer Strips",
+      "Oil Separators",
+      "Catch Basin Inserts",
+      "Infiltration Swales",
+      "Infiltration Basins",
+      "Seepage Beds",
+      "Dry Detention Ponds",
+      "Wet Extended Detention Ponds",
+      "Evaporation Ponds",
+      "Permeable Interlocking Concrete Pavers (PICP)",
+      "Hydrodynamic Separators"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "within the jurisdiction of the city of Boise (City)",
+      "page_or_section": "Section 1.1, Page 1-1"
+    },
+    {
+      "field": "document_metadata.jurisdiction_level",
+      "excerpt": "within the jurisdiction of the city of Boise (City)",
+      "page_or_section": "Section 1.1, Page 1-1"
+    },
+    {
+      "field": "document_metadata.state_code",
+      "excerpt": "Idaho Department of Water Resources (IDWR)",
+      "page_or_section": "Section 2.5.C, Page 2-8"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "2019 Boise Stormwater Design Manual",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.version_or_edition",
+      "excerpt": "DECEMBER 2019",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.adoption_or_effective_date",
+      "excerpt": "DECEMBER 2019",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.last_revised_date",
+      "excerpt": "This MANUAL replaces the 2018 version of the MANUAL.",
+      "page_or_section": "Section 1.1, Page 1-1"
+    },
+    {
+      "field": "document_metadata.relationship_to_state_manual",
+      "excerpt": "The Stormwater Design Manual (MANUAL) defines minimum standards, requirements, and procedures for the design, permitting, construction,and maintenance of drainage systems within the jurisdiction of the city of Boise (City) in accordance withthe City's Stormwater Management and Discharge Control Ordinance (ORDINANCE), Title 10, Chapter 6",
+      "page_or_section": "Section 1.1, Page 1-1"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "pre- and post-development flow rate calculations for the 2, 5, 10, and 50-year storm events at sites less than10 acres... the 2, 5, 10, 50, and 100-year storm event are required at hillside development areas and sites greater than 10 acres",
+      "page_or_section": "Section 2.5.B, Page 2-6"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "Water quality treatment depth is based on the City's goal to fully treat at least 80% of the storms annually (i.e. 80% of daily storm events are estimated to have a depth of 0.34\" or less)... offsite stormwater discharges... require water quality treatment prior to discharge into the receiving drainage system to achieve an 80% reduction of Total Suspended Solids (TSS)",
+      "page_or_section": "Table 2-1 and Section 2.5.C, Pages 2-6 to 2-8"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "Calculation methodologies to determine the storm criteria include the Rational Method and the Natural Resources Conservation Service (NRCS) TR-55 method with a 24-hour design storm.",
+      "page_or_section": "Section 2.5, Page 2-5"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Sand Filter... Biofiltration Swale... Grass Buffer (Filter) Strip... Infiltration Swale... Infiltration Basin... Seepage Beds... Dry Detention Pond... Wet Extended Detention Pond... Evaporation Pond... Permeable Interlocking Concrete Pavers (PICP)",
+      "page_or_section": "Table 2-3 and Chapter 3.2, Pages 2-9 to 3-5"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "high",
+    "needs_human_review": false,
+    "review_notes": "Manual clearly states design storms, TR-55/Rational methods, 0.34-inch water quality depth with 80% TSS removal, and detailed BMP list in Table 2-3 and Chapter 3.",
+    "fields_not_found": [
+      "design_criteria.required_hydrologic_hydraulic_software"
+    ]
+  },
+  "source": {
+    "document_url": "https://www.partnersforcleanwater.org/media/1122/stormwaterdesignmanual12-2019.pdf",
+    "landing_page_url": "https://www.cityofboise.org/departments/public-works/stormwater-and-drainage-control",
+    "retrieved_at": "2026-08-08T01:05:00.000Z",
+    "original_filename": "boise-id.pdf"
+  }
+}

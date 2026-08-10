@@ -1,0 +1,123 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "Montana",
+    "jurisdiction_level": "state",
+    "state_code": "MT",
+    "document_title": "Montana Post-Construction Storm Water BMP Design Guidance Manual",
+    "version_or_edition": "First Edition, September 2017",
+    "adoption_or_effective_date": "2017-09",
+    "last_revised_date": null,
+    "relationship_to_state_manual": "independent"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [
+      2,
+      10,
+      25,
+      100
+    ],
+    "water_quality_volume_method": "Post-Construction Performance Standard (MS4 General Permit Part II.A.5.b.iii): infiltrate, evapotranspire, and/or capture for reuse the runoff from the first 0.5 inches of rainfall from a 24-hour storm preceded by 48 hours of no measurable precipitation (Runoff Reduction Volume, RRV = P×Rv×A/12 with P = 0.5 in and Rv = 0.05 + 0.9(I)). Remainder of that volume not reduced onsite (Runoff Treatment Volume) must be treated with BMPs expected to remove 80% TSS, or managed/treated offsite in the same subwatershed under MS4 offsite criteria.",
+    "peak_flow_calculation_method": [
+      "NRCS TR-55 Graphical Peak Discharge Method (adapted for Runoff Treatment Flow)",
+      "NRCS Runoff Curve Number method (TR-55 Chapter 2)"
+    ],
+    "required_hydrologic_hydraulic_software": [],
+    "approved_bmp_categories": [
+      "Infiltration Basin",
+      "Bioretention",
+      "Permeable Pavement Systems",
+      "Dispersion",
+      "Biofiltration Swale",
+      "Extended Detention Basin",
+      "Wet Detention Basin",
+      "Proprietary Treatment Devices"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "Montana Post-Construction Storm Water BMP Design Guidance Manual ... Produced for: Montana’s MS4 Municipalities",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.jurisdiction_level",
+      "excerpt": "In cooperation with: Montana Department of Environmental Quality",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.state_code",
+      "excerpt": "Montana’s General Permit for Storm Water Discharges Associated with Small Municipal Separate Storm Sewer Systems (MS4s): Permit Number MTR040000",
+      "page_or_section": "Section 1.1, Page 1-1"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "Montana Post-Construction Storm Water BMP Design Guidance Manual",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.version_or_edition",
+      "excerpt": "First Edition September 2017",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.adoption_or_effective_date",
+      "excerpt": "September 2017",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.relationship_to_state_manual",
+      "excerpt": "This manual is a guidance document... With the exception of referenced permit language, this manual does not convey requirements for storm water management practices in the state of Montana. However, it is expected that municipalities or other governing entities may adopt this manual",
+      "page_or_section": "Preface, Foreword"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "Generally, a 10- or 25-year return design storm is used to size storm drainage infrastructure and a 100-year return design storm is used to address upstream and downstream flooding",
+      "page_or_section": "Section 3.4 Flood Control, Page 3-4"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "P2 = 2-year, 24-hour rainfall (in) (refer to local jurisdiction for rainfall depths)",
+      "page_or_section": "Section 3.3, Equation 3-7, Page 3-3"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "infiltrate, evapotranspire, and/or capture for reuse the post-construction runoff generated from the first 0.5 inches of rainfall from a 24-hour storm preceded by 48 hours of no measurable precipitation... remainder... remove 80 percent total suspended solids (TSS)",
+      "page_or_section": "Section 1.3.1, Pages 1-2 to 1-3"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "RRV= PRvA/12 ... P = Water quality rainfall depth (use 0.5 inches) Rv = Dimensionless runoff coefficient, Rv = 0.05 + 0.9(I)",
+      "page_or_section": "Section 3.2.1, Equation 3-1, Page 3-1"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "This procedure relies on the volume of runoff computed using Equation 3-1 and uses an adaptation of the NRCS TR-55 Graphical Peak Discharge Method",
+      "page_or_section": "Section 3.3, Page 3-2"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "Determine the NRCS Runoff Curve Number (CN) using Equation 3-3, which is derived from the CN method described in Chapter 2 of TR-55",
+      "page_or_section": "Section 3.3 Step 1, Page 3-2"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Infiltration Basin ... Bioretention ... Permeable Pavement Systems ... Dispersion ... Biofiltration Swale ... Extended Detention Basin ... Wet Detention Basin ... Proprietary Treatment Devices",
+      "page_or_section": "Contents, Chapter 5"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "high",
+    "needs_human_review": false,
+    "review_notes": "Statewide MS4 post-construction guidance hosted by Billings for Montana’s MS4 municipalities (Billings, Bozeman, Butte, Great Falls, Helena, Kalispell, Missoula) with DEQ cooperation. 0.5-in RRV/80% TSS performance standard and TR-55 RTF method are explicit. Flood-control return periods are general (10/25/100) and deferred to local jurisdictions; no specific required software named.",
+    "fields_not_found": [
+      "document_metadata.last_revised_date",
+      "design_criteria.required_hydrologic_hydraulic_software"
+    ]
+  },
+  "source": {
+    "document_url": "https://mt-billingspublicworks.civicplus.com/DocumentCenter/View/119/Montana-Post-Construction-Storm-Water-Best-Management-Practices-BMP-Design-Guidance-Manual-PDF",
+    "landing_page_url": "https://www.billingsmt.gov/",
+    "retrieved_at": "2026-08-08T10:16:00.000Z",
+    "original_filename": "billings-mt.pdf"
+  }
+}

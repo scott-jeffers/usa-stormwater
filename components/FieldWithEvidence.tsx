@@ -36,7 +36,7 @@ export function FieldWithEvidence({
       </div>
       <div>
         {match ? (
-          <blockquote className="rounded-md border border-slate-200 bg-slate-50 px-3 py-2 text-xs text-slate-600">
+          <blockquote className="rounded-md border border-slate-200 border-l-4 border-l-water/40 bg-mist/40 px-3 py-2 text-xs text-slate-600">
             <p className="italic">&ldquo;{match.excerpt}&rdquo;</p>
             {match.page_or_section && (
               <p className="mt-1 font-medium text-slate-400">

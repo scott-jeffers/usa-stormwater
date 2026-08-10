@@ -68,3 +68,12 @@ export const STATE_CODE_TO_NAME: Record<string, string> = US_STATES.reduce(
   },
   {} as Record<string, string>
 );
+
+/** The 50 U.S. states only (excludes DC, PR, and other territories). */
+export const US_STATE_CODES = new Set(
+  US_STATES.filter((s) => s.code !== "DC" && s.code !== "PR").map((s) => s.code)
+);
+
+export function isUsStateCode(code: string | null | undefined): boolean {
+  return Boolean(code && US_STATE_CODES.has(code));
+}

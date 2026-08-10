@@ -1,0 +1,161 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "City of Norfolk",
+    "jurisdiction_level": "municipality",
+    "state_code": "VA",
+    "document_title": "Norfolk Stormwater Design and Construction Manual",
+    "version_or_edition": "Rev 3, July 1, 2024",
+    "adoption_or_effective_date": "2024-07-01",
+    "last_revised_date": "2024-07-01",
+    "relationship_to_state_manual": "independent"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [1, 2, 10, 100],
+    "water_quality_volume_method": "Virginia Runoff Reduction Method (VRRM) per Part II B / 9VAC25-875-590: new development total phosphorus load shall not exceed 0.41 pounds per acre per year. Redevelopment reducing P load at least 10% below predevelopment if disturbing greater than 2,500 square feet and less than one acre, or at least 20% if disturbing one acre or more. BMPs from the Virginia Stormwater BMP Clearinghouse; plan elevations include the water quality (1-inch) storm event plus 1-, 2-, and 10-year 24-hour storms (NOAA Atlas 14).",
+    "peak_flow_calculation_method": [
+      "Rational Method (≤20 acres)",
+      "Modified Rational Method (peak discharge only; ≤20 acres)",
+      "SCS Graphical Peak Discharge Method (peak discharge only; >20 acres)",
+      "SCS Tabular Method / runoff hydrograph (>20 acres)",
+      "NRCS synthetic 24-hour rainfall distribution with TR-55 and TR-20",
+      "U.S. Army Corps of Engineers hydrologic and hydraulic methods"
+    ],
+    "required_hydrologic_hydraulic_software": [
+      "Virginia Runoff Reduction Method (VRRM) Compliance Spreadsheet / worksheets"
+    ],
+    "approved_bmp_categories": [
+      "Manufactured Treatment Devices (Virginia DEQ BMP Clearinghouse MTDs)",
+      "Underground storage/detention",
+      "Extended Detention Pond",
+      "Wet Pond",
+      "Grass Channel",
+      "Rooftop (Impervious Surface) Disconnection",
+      "Sheet Flow to Vegetated Filter Strip/Conserved Open Space",
+      "Vegetated Roof",
+      "Rainwater Harvesting",
+      "Dry Swales",
+      "Wet Swales",
+      "Constructed Wetlands",
+      "Filtering Practices (non-cartridge)",
+      "Soil Compost Amendment",
+      "Permeable Pavement",
+      "Infiltration Practices",
+      "Bioretention (including Urban Bioretention)",
+      "Virginia Stormwater BMP Clearinghouse BMPs (Coastal Plain design considerations required where listed)"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "Compliance with this document is required to ensure the general health, safety, and welfare of the citizens of the City of Norfolk (City)",
+      "page_or_section": "Section 1.1 Purpose"
+    },
+    {
+      "field": "document_metadata.jurisdiction_level",
+      "excerpt": "CITY OF NORFOLK, VA STORMWATER DESIGN AND CONSTRUCTION MANUAL",
+      "page_or_section": "Header / Title"
+    },
+    {
+      "field": "document_metadata.state_code",
+      "excerpt": "CITY OF NORFOLK, VA",
+      "page_or_section": "Header"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "NORFOLK STORMWATER DESIGN AND CONSTRUCTION MANUAL",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.version_or_edition",
+      "excerpt": "Rev 3, July 1, 2024",
+      "page_or_section": "Page i / headers"
+    },
+    {
+      "field": "document_metadata.adoption_or_effective_date",
+      "excerpt": "The effective date of this design and construction manual is July 1, 2024.",
+      "page_or_section": "Section 1.1 Purpose"
+    },
+    {
+      "field": "document_metadata.last_revised_date",
+      "excerpt": "Rev 3, July 1, 2024",
+      "page_or_section": "Page i"
+    },
+    {
+      "field": "document_metadata.relationship_to_state_manual",
+      "excerpt": "In addition to the requirements specified in the Virginia Stormwater Management Handbook and the Virginia Stormwater BMP Clearinghouse, the following requirements must be complied with when designing stormwater management systems for new development and redevelopment projects in the City of Norfolk",
+      "page_or_section": "Section 5.3 City of Norfolk Design Criteria"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "The prescribed design storms are the one-year, two-year, and 10-year 24-hour storms using the site-specific rainfall precipitation frequency data recommended by the U.S. National Oceanic and Atmospheric Administration (NOAA) Atlas 14.",
+      "page_or_section": "Section 5.2.4 Design Storms and Hydraulic Methods"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "Table 5.3: Design Storms... On-Site Storm Drain System... Minor Storm Drain System... Major Trunk Line... Regional Storm Water Facility... Pump Station... 10-year",
+      "page_or_section": "Table 5.3, Page 5-37"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "A regional storm water facility shall allow a 100-year design storm to pass without flooding surrounding structures.",
+      "page_or_section": "Table 5.3 definitions, Page 5-37"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "The total phosphorus load of new development projects shall not exceed 0.41 pounds per acre per year, as calculated pursuant to 9VAC25-875-590. Please verify alignment with the latest approved Virginia Runoff Reduction Method (VRRM) criteria from DEQ.",
+      "page_or_section": "Section 5.2.1 New Development"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "For regulated land-disturbing activities defined as redevelopment that disturb greater than 2,500 square feet and less than one acre, the total phosphorus load shall be reduced at least 10% below the predevelopment total phosphorus load. For regulated land-disturbing activities defined as redevelopment that disturb greater than or equal to one acre, the total phosphorus load shall be reduced at least 20% below the predevelopment total phosphorus load.",
+      "page_or_section": "Section 5.2.2 Redevelopment"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "the following elevations for each BMP shall be provided: (i) water quality (1-inch) storm event; (ii) 1-, 2-, and 10-year 24-hour storm events (NOAA Atlas 14)",
+      "page_or_section": "Section 2.4.1 Stormwater Management Plan Contents"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "Table 5.1: Runoff Calculation Methods... Rational Method... Modified Rational Method (peak discharge only) ≤ 20 Acres... SCS Graphical Peak Discharge Method... SCS Tabular Method (runoff hydrograph) > 20 Acres",
+      "page_or_section": "Table 5.1, Page 5-37"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "The U.S. Department of Agriculture's Natural Resources Conservation Service (NRCS) synthetic 24-hour rainfall distribution and models, including, but not limited to TR-55 and TR-20; hydrologic and hydraulic methods developed by the U.S. Army Corps of Engineers; or other standard hydrologic and hydraulic methods, shall be used to conduct hydraulic analysis for projects subject to Part II B of the Regulations.",
+      "page_or_section": "Section 5.2.4"
+    },
+    {
+      "field": "design_criteria.required_hydrologic_hydraulic_software",
+      "excerpt": "1D - Virginia Runoff Reduction Method (VRRM) Worksheets All VRRM calculations shall be performed using the 2011 Virginia bmp Clearinghouse Standards. The most current version of the worksheets may be found at Guidance & VRRM | Virginia DEQ",
+      "page_or_section": "Plan checklist / VRRM worksheets"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Best Management Practices that are preferred on City property: 1. Manufactured Treatment Devices... 2. Underground storage/detention 3. Extended Detention Pond 4. Wet Pond 5. Grass Channel 6. Rooftop (Impervious Surface) Disconnection 7. Sheet Flow to Vegetated Filter Strip/Conserved Open Space 8. Vegetated Roof 9. Rainwater Harvesting 10. Dry Swales 11. Wet Swales 12. Constructed Wetlands 13. Filtering Practices",
+      "page_or_section": "Section 5.1, Pages 5-31–5-32"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Best Management Practices that will be accepted on a case-by-case basis on City property: 1. Soil Compost Amendment 2. Permeable Pavement 3. Infiltration Practices 4. Bioretention (including Urban Bioretention)",
+      "page_or_section": "Section 5.1, Page 5-32"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "The BMPs listed on the Virginia Stormwater BMP Clearinghouse on the DEQ website are approved for use as necessary to effectively reduce the phosphorus load and runoff volume in accordance with the Virginia Runoff Reduction Method. Where a BMP listed on the Virginia BMP Clearinghouse contains Coastal Plain design considerations, these considerations shall be employed",
+      "page_or_section": "Section 5.2.5"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "high",
+    "needs_human_review": false,
+    "review_notes": "Municipal VESMP design/construction manual (effective July 1, 2024, Rev 3) implementing Virginia Part II B with Norfolk-specific drainage criteria. Design storms include Part II B 1/2/10-year 24-hour events, 10-year storm-drain design (Table 5.3), and 100-year regional facility pass. VRRM spreadsheet/worksheets are the only clearly mandated software; other H&H methods allowed by Table 5.1 / NRCS/USACE language. Infiltration generally discouraged due to high groundwater.",
+    "fields_not_found": []
+  },
+  "source": {
+    "document_url": "https://norfolk.gov/DocumentCenter/View/88177/Norfolk-Design-and-Construction-Manual_7-01-2024",
+    "landing_page_url": "https://www.norfolk.gov/1499/Site-Plan-Review",
+    "retrieved_at": "2026-08-08T10:27:34.427Z",
+    "original_filename": "norfolk-va.pdf"
+  }
+}

@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getAllManuals, getManualBySlug } from "@/lib/data";
@@ -6,6 +7,7 @@ import {
   ConfidenceBadge,
   LevelBadge,
   NeedsReviewBadge,
+  StateBadge,
 } from "@/components/Badge";
 import { FieldWithEvidence } from "@/components/FieldWithEvidence";
 
@@ -22,6 +24,25 @@ export function generateStaticParams() {
   return manuals.map((manual) => ({ slug: manual.slug }));
 }
 
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ slug: string }>;
+}): Promise<Metadata> {
+  const { slug } = await params;
+  const manual = slug === PLACEHOLDER_SLUG ? undefined : getManualBySlug(slug);
+
+  if (!manual) {
+    return { title: "Manual" };
+  }
+
+  const { jurisdiction_name, document_title } = manual.data.document_metadata;
+  return {
+    title: jurisdiction_name,
+    description: document_title,
+  };
+}
+
 export default async function ManualDetailPage({
   params,
 }: {
@@ -33,11 +54,11 @@ export default async function ManualDetailPage({
     return (
       <main className="space-y-6">
         <nav className="text-sm text-slate-500">
-          <Link href="/" className="text-blue-700 hover:underline">
+          <Link href="/" className="font-medium text-water-link hover:text-water-deep hover:underline">
             &larr; Back to dashboard
           </Link>
         </nav>
-        <div className="rounded-lg border border-dashed border-slate-300 bg-white p-10 text-center text-slate-500">
+        <div className="rounded-xl border border-dashed border-slate-300 bg-white p-10 text-center text-slate-500">
           No manuals ingested yet. Run{" "}
           <code className="rounded bg-slate-100 px-1.5 py-0.5">
             npm run ingest -- path/to/manual.pdf
@@ -75,20 +96,21 @@ export default async function ManualDetailPage({
   return (
     <main className="space-y-6">
       <nav className="text-sm text-slate-500">
-        <Link href="/" className="text-blue-700 hover:underline">
+        <Link href="/" className="font-medium text-water-link hover:text-water-deep hover:underline">
           &larr; Back to dashboard
         </Link>
       </nav>
 
-      <header className="rounded-lg border border-slate-200 bg-white p-6">
+      <header className="overflow-hidden rounded-xl border border-slate-200/80 border-t-4 border-t-water bg-white p-6 shadow-sm">
         <div className="flex flex-wrap items-start justify-between gap-4">
           <div>
-            <h1 className="text-2xl font-semibold tracking-tight text-slate-900">
+            <h1 className="font-display text-2xl font-semibold tracking-tight text-ink sm:text-3xl">
               {meta.jurisdiction_name}
             </h1>
             <p className="mt-1 text-sm text-slate-600">{meta.document_title}</p>
             <div className="mt-3 flex flex-wrap gap-2">
               <LevelBadge level={meta.jurisdiction_level} />
+              <StateBadge stateCode={meta.state_code} showName />
               <ConfidenceBadge confidence={quality.confidence} />
               <NeedsReviewBadge needsReview={quality.needs_human_review} />
             </div>
@@ -99,7 +121,7 @@ export default async function ManualDetailPage({
                     href={source.document_url}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="font-medium text-blue-700 hover:underline"
+                    className="font-medium text-water-link hover:text-water-deep hover:underline"
                   >
                     Open source PDF ↗
                   </a>
@@ -109,7 +131,7 @@ export default async function ManualDetailPage({
                     href={source.landing_page_url}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="font-medium text-blue-700 hover:underline"
+                    className="font-medium text-water-link hover:text-water-deep hover:underline"
                   >
                     Official agency page ↗
                   </a>
@@ -150,7 +172,7 @@ export default async function ManualDetailPage({
             {relatedInState.map((m, i) => (
               <span key={m.slug}>
                 {i > 0 && ", "}
-                <Link href={`/${m.slug}`} className="text-blue-700 hover:underline">
+                <Link href={`/${m.slug}`} className="text-water-link hover:text-water-deep hover:underline">
                   {m.data.document_metadata.jurisdiction_name}
                 </Link>
               </span>
@@ -159,8 +181,8 @@ export default async function ManualDetailPage({
         )}
       </header>
 
-      <section className="rounded-lg border border-slate-200 bg-white p-6">
-        <h2 className="text-lg font-semibold text-slate-900">Document Metadata</h2>
+      <section className="rounded-xl border border-slate-200/80 bg-white p-6 shadow-sm">
+        <h2 className="font-display text-lg font-semibold text-ink">Document Metadata</h2>
         <div className="mt-2">
           <FieldWithEvidence
             label="Jurisdiction level"
@@ -207,8 +229,8 @@ export default async function ManualDetailPage({
         </div>
       </section>
 
-      <section className="rounded-lg border border-slate-200 bg-white p-6">
-        <h2 className="text-lg font-semibold text-slate-900">Design Criteria</h2>
+      <section className="rounded-xl border border-slate-200/80 bg-white p-6 shadow-sm">
+        <h2 className="font-display text-lg font-semibold text-ink">Design Criteria</h2>
         <div className="mt-2">
           <FieldWithEvidence
             label="Design storm return periods (years)"

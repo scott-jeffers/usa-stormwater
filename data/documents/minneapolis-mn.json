@@ -1,0 +1,146 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "City of Minneapolis",
+    "jurisdiction_level": "municipality",
+    "state_code": "MN",
+    "document_title": "Stormwater and Sanitary Sewer Guide",
+    "version_or_edition": "October 2017, Revision #2: February 2025",
+    "adoption_or_effective_date": "2017-10",
+    "last_revised_date": "2025-02",
+    "relationship_to_state_manual": "adopts_state_manual_directly"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [2, 10, 100],
+    "water_quality_volume_method": "Rate control: no increase in peak discharge over existing for 2-, 10-, and 100-year 24-hour events (NRCS MN MSE 3 distribution). Water quality: 70% TSS removal from a 1.25-inch storm event, plus receiving-water-specific TP reductions (Table 4-1). Volume control: capture and retain 1.1 inches of runoff from new and fully reconstructed impervious (new/redevelopment); linear projects retain the larger of 0.55 inches from new/reconstructed impervious or 1.1 inches from net impervious increase; drawdown ≤48 hours.",
+    "peak_flow_calculation_method": [
+      "NRCS/SCS curve number runoff methodology",
+      "XP-SWMM runoff methodology",
+      "NRCS MN MSE 3 storm distribution"
+    ],
+    "required_hydrologic_hydraulic_software": [
+      "HydroCAD",
+      "XP-SWMM",
+      "P8",
+      "WinSLAMM"
+    ],
+    "approved_bmp_categories": [
+      "Pond systems/detention basins",
+      "Infiltration cells (rain gardens)",
+      "Infiltration trenches",
+      "Filtration systems",
+      "Vegetated channels",
+      "Grit chambers",
+      "Oil/water separators",
+      "Green infrastructure"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "City of Minneapolis Stormwater and Sanitary Sewer Guide",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.jurisdiction_level",
+      "excerpt": "Developed by Minneapolis Public Works Surface Water and Sewers Division",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.state_code",
+      "excerpt": "a duly licensed professional engineer under the laws of the state of Minnesota",
+      "page_or_section": "Certification / Plan worksheets"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "Stormwater and Sanitary Sewer Guide",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.version_or_edition",
+      "excerpt": "October 2017 Revision #1: October 2021 Revision #2: February 2025",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.adoption_or_effective_date",
+      "excerpt": "Prepared by City of Minneapolis October 2017",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.last_revised_date",
+      "excerpt": "Revision #2: February 2025",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.relationship_to_state_manual",
+      "excerpt": "The City of Minneapolis considers the Minnesota Stormwater Manual, prepared by the MPCA, to be the City's approved design manual",
+      "page_or_section": "Section 4.3.1.8, Page 34"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "Rate control: No increase in the peak discharge over existing conditions for the 2-year, 10-year, and 100-year 24-hour storm event",
+      "page_or_section": "Section 4.3.1.1, Page 20"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "Table 4-3 City of Minneapolis design storm events—rainfall frequency depth Return Period Depth 2 years 2.8 inches 10 years 4.2 inches 100 years 7.5 inches",
+      "page_or_section": "Table 4-3, Page 31"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "Water quality: Seventy percent (70%) removal of total suspended solids (TSS) from a 1.25-inch storm event. Sites discharging to a lake, pond, or wetland listed in Table 4-1 must ALSO reduce total phosphorus (TP) load as specified in the table",
+      "page_or_section": "Section 4.3.1.2, Page 21"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "Capture and retain 1.1 inches of runoff from the new and fully reconstructed impervious surfaces within the disturbed area for sites without restrictions",
+      "page_or_section": "Section 4.3.1.3, Page 21"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "Capture and retain larger of 0.55 inches of runoff from the new and fully reconstructed impervious surfaces; or 1.1 inches of runoff from the net increase in impervious surfaces",
+      "page_or_section": "Section 4.3.1.3 B, Page 21"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "The draw down time for the required volume control amount shall be 48-hours or less",
+      "page_or_section": "Section 4.3.1.6, Page 27"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "The storm distribution for the above-identified storm events shall be the NRCS MN MSE 3",
+      "page_or_section": "Section 4.3.1.1, Page 20"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "The methods preferred by the City include: NRCS/SCS curve number runoff methodology; XP-SWMM runoff methodology",
+      "page_or_section": "Section 4.3.1.6, Page 26"
+    },
+    {
+      "field": "design_criteria.required_hydrologic_hydraulic_software",
+      "excerpt": "The hydrologic and hydraulic models accepted by the City of Minneapolis include: HydroCAD; XP-SWMM",
+      "page_or_section": "Section 4.3.1.6, Page 26"
+    },
+    {
+      "field": "design_criteria.required_hydrologic_hydraulic_software",
+      "excerpt": "The water quality models accepted by the City of Minneapolis include: P8 (version 2.4 or newer); WinSLAMM (version 9.4.0 or newer)",
+      "page_or_section": "Section 4.3.1.6, Page 26–27"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "A partial list of structural BMPs and devices includes pond systems/detention basins, infiltration cells (“rain gardens”), infiltration trenches, filtration systems, vegetated channels, grit chambers, and oil/water separators. BMPs that use the properties of vegetation or soil... are often referred to as “green infrastructure.”",
+      "page_or_section": "Glossary, Stormwater best management practices"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "high",
+    "needs_human_review": false,
+    "review_notes": "Municipal guide adopts MPCA Minnesota Stormwater Manual as the approved BMP design manual while stating city-specific rate, volume, and water-quality standards. Design storm depths in Table 4-3 are NOAA Atlas 14 values for HydroCAD/XP-SWMM.",
+    "fields_not_found": []
+  },
+  "source": {
+    "document_url": "https://www2.minneapolismn.gov/media/content-assets/www2-documents/government/Stormwater-and-Sanitary-Sewer-Guide.pdf",
+    "landing_page_url": "https://www2.minneapolismn.gov/",
+    "retrieved_at": "2026-08-08T10:35:20.744Z",
+    "original_filename": "minneapolis-mn.pdf"
+  }
+}

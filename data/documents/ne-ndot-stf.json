@@ -1,0 +1,140 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "Nebraska Department of Transportation (NDOT)",
+    "jurisdiction_level": "state",
+    "state_code": "NE",
+    "document_title": "Drainage Design and Erosion Control Manual, Chapter Three: Stormwater Treatment",
+    "version_or_edition": "April 2018 (dated April 20, 2018); replaces September 2013 chapter",
+    "adoption_or_effective_date": "2018-04-20",
+    "last_revised_date": "2018-04-20",
+    "relationship_to_state_manual": "independent"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [
+      2,
+      10,
+      100
+    ],
+    "water_quality_volume_method": "WQV is the first 1/2 inch of runoff from the Treatment Drainage Area (new pavement), WQV = 0.5 in × area (ft²) / 12. Target is ≥80% average annual TSS load reduction. Alternatively size to the WQV Discharge Rate: peak from a 0.75-inch, 24-hour rainfall using the NRCS Curve Number procedure (CN=98 pavement, Tc=5 min; Weighted Q preferred for mixed cover).",
+    "peak_flow_calculation_method": [
+      "NRCS Curve Number (CN) procedure",
+      "Weighted Q method of the CN procedure"
+    ],
+    "required_hydrologic_hydraulic_software": [],
+    "approved_bmp_categories": [
+      "Vegetated Filter Strips",
+      "Grass Swales",
+      "Infiltration Trench",
+      "Infiltration Basin",
+      "Bioretention",
+      "Media Filter",
+      "Extended Dry Detention",
+      "Wet Detention Pond",
+      "Stormwater Wetland",
+      "Pervious Pavement",
+      "Proprietary Structural Treatment Control",
+      "Other Reasonable Practices"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "This Chapter provides designers with the necessary guidance for incorporating Water Quality Stormwater Treatment Facilities (STF) into Nebraska Department of Transportation (NDOT)",
+      "page_or_section": "Page 3-1"
+    },
+    {
+      "field": "document_metadata.jurisdiction_level",
+      "excerpt": "The NDOT is a regulated MS4 and is required to meet the conditions of its National Pollutant Discharge Elimination System (NPDES) MS4 permit.",
+      "page_or_section": "Page 3-4, Section 2.A"
+    },
+    {
+      "field": "document_metadata.state_code",
+      "excerpt": "Nebraska Department of Transportation (NDOT)",
+      "page_or_section": "Page 3-1"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "NDOT – Drainage Design and Erosion Control Manual April 2018 Chapter Three: Stormwater Treatment",
+      "page_or_section": "Page 3-1"
+    },
+    {
+      "field": "document_metadata.version_or_edition",
+      "excerpt": "The information contained in Chapter Three: Stormwater Treatment, dated April 20, 2018... This chapter replaces Chapter Three: Stormwater Treatment, dated September 2013.",
+      "page_or_section": "Page 3-1"
+    },
+    {
+      "field": "document_metadata.adoption_or_effective_date",
+      "excerpt": "Chapter Three: Stormwater Treatment, dated April 20, 2018... The Nebraska Division of the FHWA approved this chapter for use on the National Highway System",
+      "page_or_section": "Page 3-1"
+    },
+    {
+      "field": "document_metadata.last_revised_date",
+      "excerpt": "Chapter Three: Stormwater Treatment, dated April 20, 2018",
+      "page_or_section": "Page 3-1"
+    },
+    {
+      "field": "document_metadata.relationship_to_state_manual",
+      "excerpt": "The NDOT's stormwater treatment program does not supersede a LPA's stormwater treatment program or act as a minimum standard, except when a LPA project is being constructed",
+      "page_or_section": "Page 3-4"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "Chapter One is used to define and direct the peak discharges of stormwater runoff during the highway Design Storms (2-year to 100-year storm events).",
+      "page_or_section": "Page 3-26, Section 7.A.7"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "A wet detention pond can be used to reduce the post-development discharge to that of the pre-development rate under the 2-year, 10-year and 100-year event storms",
+      "page_or_section": "Page 3-33, Section 7.C.8"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "The NDOT has determined that the WQV is the first one-half (½) inch of runoff from the Treatment Drainage Area... WQV = 0.5 inch x Treatment Drainage Area (ft2) /12",
+      "page_or_section": "Page 3-17, Section 6.A"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "This document recommends reducing the post development loadings of Total Suspended Solids (TSS) by a minimum of 80% of the average annual TSS loadings.",
+      "page_or_section": "Page 3-17, Section 6.A.2"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "The WQV Discharge Rate is the peak stormwater discharge generated by the water quality volume rainfall event using the Natural Resources Conservation Service (NRCS) Curve Number (CN) procedure. The water quality volume rainfall event is the 0.75 inch, 24-hour rainfall, assuming a CN value of 98 (pavement) and a Time of Concentration (Tc) of 5 minutes.",
+      "page_or_section": "Page 3-18, Section 6.B"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "To determine a WQV peak discharge for drainage areas greater than 5 acres, the NRCS CN procedure must be used. The designer can either assume the entire area is pavement with a CN value of 98 or use the weighted Q method of the CN procedure.",
+      "page_or_section": "Page 3-18, Section 6.B"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Storage practices such as extended-detention ponds... Filtration practices such as filter strips... Grassed swales... Bio-retention... Sand filters and... Infiltration practices such as infiltration basins and infiltration trenches",
+      "page_or_section": "Page 3-3, Section 1"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "7.C.1 Vegetated Filter Strips... 7.C.2 Grass Swales... 7.C.3 Infiltration Trench... 7.C.4 Infiltration Basin... 7.C.5 Bioretention... 7.C.6 Media Filter... 7.C.7 Extended Dry Detention... 7.C.8 Wet Detention Pond... 7.C.9 Stormwater Wetland",
+      "page_or_section": "Pages 3-29 to 3-34, Section 7.C"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "7.C.10 Pervious Pavement... 7.C.11 Proprietary Structural Treatment Control... 7.C.12 Other Reasonable Practices",
+      "page_or_section": "Section 7.C"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "high",
+    "needs_human_review": false,
+    "review_notes": "Extraction limited to Chapter 3 (Stormwater Treatment). Highway design-storm hydrology is referenced to Chapter One (2- to 100-year); only 2/10/100 are named explicitly in Ch3 (wet detention). No required modeling software named in this chapter.",
+    "fields_not_found": [
+      "design_criteria.required_hydrologic_hydraulic_software"
+    ]
+  },
+  "source": {
+    "document_url": "https://dot.nebraska.gov/media/fhpdgmi4/f-chapter-3-stormwater-treatment.pdf",
+    "landing_page_url": "https://dot.nebraska.gov/",
+    "retrieved_at": "2026-08-08T10:30:00.000Z",
+    "original_filename": "ne-ndot-stf.pdf"
+  }
+}
