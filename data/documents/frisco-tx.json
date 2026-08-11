@@ -43,11 +43,6 @@
       "page_or_section": "Title"
     },
     {
-      "field": "document_metadata.state_code",
-      "excerpt": "Texas",
-      "page_or_section": "Standards"
-    },
-    {
       "field": "document_metadata.document_title",
       "excerpt": "Engineering Standards / Design Standards",
       "page_or_section": "Cover / TOC"
@@ -59,8 +54,8 @@
     },
     {
       "field": "document_metadata.adoption_or_effective_date",
-      "excerpt": "revised as of October 28, 2025",
-      "page_or_section": "Engineering Standards page"
+      "excerpt": "Standards Table of Contents October 2025 TC-1 Table of Contents Part A ñ Design Standards Page SECTION 1 GENERAL REQUIREMENTS 1-1 1.01 Short Title ..................................................................................................................1-2 1.0",
+      "page_or_section": "p. 1"
     },
     {
       "field": "document_metadata.last_revised_date",
@@ -95,10 +90,11 @@
   ],
   "extraction_quality": {
     "confidence": "high",
-    "needs_human_review": false,
-    "review_notes": "Frisco 2025 Design Standards Part A; Section 4 drainage.",
+    "needs_human_review": true,
+    "review_notes": "Frisco 2025 Design Standards Part A; Section 4 drainage. Pipeline excerpt repair removed 1 unlocated citation(s).",
     "fields_not_found": [
-      "design_criteria.required_hydrologic_hydraulic_software"
+      "design_criteria.required_hydrologic_hydraulic_software",
+      "document_metadata.state_code"
     ]
   },
   "source": {

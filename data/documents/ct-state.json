@@ -52,11 +52,6 @@
       "page_or_section": "Cover Page"
     },
     {
-      "field": "document_metadata.state_code",
-      "excerpt": "CT DEEP",
-      "page_or_section": "Page 2"
-    },
-    {
       "field": "document_metadata.document_title",
       "excerpt": "Connecticut Stormwater Quality Manual",
       "page_or_section": "Cover Page"
@@ -109,9 +104,11 @@
   ],
   "extraction_quality": {
     "confidence": "high",
-    "needs_human_review": false,
-    "review_notes": "The document is the official Connecticut Stormwater Quality Manual, and all details, including the updated 1.3-inch water quality storm and NOAA Atlas 14 storm return periods, were extracted directly with matching exact citations.",
-    "fields_not_found": []
+    "needs_human_review": true,
+    "review_notes": "The document is the official Connecticut Stormwater Quality Manual, and all details, including the updated 1.3-inch water quality storm and NOAA Atlas 14 storm return periods, were extracted directly with matching exact citations. Pipeline excerpt repair removed 1 unlocated citation(s).",
+    "fields_not_found": [
+      "document_metadata.state_code"
+    ]
   },
   "source": {
     "document_url": "https://portal.ct.gov/-/media/deep/water/water_quality_management/guidance/swm_mar_2024.pdf",

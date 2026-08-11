@@ -2,7 +2,7 @@
 
 import { Fragment, useMemo, useState } from "react";
 import Link from "next/link";
-import type { ManualRecord } from "@/lib/data";
+import type { ManualListItem } from "@/lib/data";
 import { STATE_CODE_TO_NAME } from "@/lib/usStates";
 import { ConfidenceBadge, LevelBadge, NeedsReviewBadge, StateBadge } from "@/components/Badge";
 import { CoverageMap, type LocalityMarker } from "@/components/CoverageMap";
@@ -28,7 +28,7 @@ function formatDate(iso: string): string {
   }
 }
 
-export function ManualsExplorer({ manuals }: { manuals: ManualRecord[] }) {
+export function ManualsExplorer({ manuals }: { manuals: ManualListItem[] }) {
   const [search, setSearch] = useState("");
   const [levelFilter, setLevelFilter] = useState<string>("all");
   const [stateFilter, setStateFilter] = useState<string | null>(null);
@@ -41,7 +41,7 @@ export function ManualsExplorer({ manuals }: { manuals: ManualRecord[] }) {
   const countsByState = useMemo(() => {
     const counts: Record<string, number> = {};
     for (const record of manuals) {
-      const code = record.data.document_metadata.state_code;
+      const code = record.state_code;
       if (!code) continue;
       counts[code] = (counts[code] ?? 0) + 1;
     }
@@ -51,20 +51,19 @@ export function ManualsExplorer({ manuals }: { manuals: ManualRecord[] }) {
   const localityMarkers: LocalityMarker[] = useMemo(() => {
     const markers: LocalityMarker[] = [];
     for (const record of manuals) {
-      const meta = record.data.document_metadata;
-      const level = meta.jurisdiction_level;
+      const level = record.jurisdiction_level;
       if (
         (level !== "municipality" &&
           level !== "county" &&
           level !== "special_district") ||
-        !meta.state_code
+        !record.state_code
       ) {
         continue;
       }
       const coordinates = lookupCityCoordinates(
         record.slug,
-        meta.jurisdiction_name,
-        meta.state_code
+        record.jurisdiction_name,
+        record.state_code
       );
       if (!coordinates) continue;
       const kind =
@@ -75,8 +74,8 @@ export function ManualsExplorer({ manuals }: { manuals: ManualRecord[] }) {
             : "city";
       markers.push({
         slug: record.slug,
-        name: meta.jurisdiction_name,
-        stateCode: meta.state_code,
+        name: record.jurisdiction_name,
+        stateCode: record.state_code,
         coordinates,
         kind,
       });
@@ -87,7 +86,7 @@ export function ManualsExplorer({ manuals }: { manuals: ManualRecord[] }) {
   const availableLevels = useMemo(
     () =>
       Array.from(
-        new Set(manuals.map((r) => r.data.document_metadata.jurisdiction_level))
+        new Set(manuals.map((r) => r.jurisdiction_level))
       ).sort(),
     [manuals]
   );
@@ -100,27 +99,26 @@ export function ManualsExplorer({ manuals }: { manuals: ManualRecord[] }) {
   const filtered = useMemo(() => {
     const term = search.trim().toLowerCase();
     return manuals.filter((record) => {
-      const meta = record.data.document_metadata;
       if (
         term &&
-        !meta.jurisdiction_name.toLowerCase().includes(term) &&
-        !meta.document_title.toLowerCase().includes(term)
+        !record.jurisdiction_name.toLowerCase().includes(term) &&
+        !record.document_title.toLowerCase().includes(term)
       ) {
         return false;
       }
-      if (levelFilter !== "all" && meta.jurisdiction_level !== levelFilter) {
+      if (levelFilter !== "all" && record.jurisdiction_level !== levelFilter) {
         return false;
       }
-      if (stateFilter && meta.state_code !== stateFilter) {
+      if (stateFilter && record.state_code !== stateFilter) {
         return false;
       }
       if (
         confidenceFilter !== "all" &&
-        record.data.extraction_quality.confidence !== confidenceFilter
+        record.confidence !== confidenceFilter
       ) {
         return false;
       }
-      if (needsReviewOnly && !record.data.extraction_quality.needs_human_review) {
+      if (needsReviewOnly && !record.needs_human_review) {
         return false;
       }
       return true;
@@ -133,8 +131,8 @@ export function ManualsExplorer({ manuals }: { manuals: ManualRecord[] }) {
       switch (sortKey) {
         case "level":
           return (
-            a.data.document_metadata.jurisdiction_level.localeCompare(
-              b.data.document_metadata.jurisdiction_level
+            a.jurisdiction_level.localeCompare(
+              b.jurisdiction_level
             ) * dirMultiplier
           );
         case "date":
@@ -145,15 +143,15 @@ export function ManualsExplorer({ manuals }: { manuals: ManualRecord[] }) {
           );
         case "confidence":
           return (
-            (CONFIDENCE_RANK[a.data.extraction_quality.confidence] -
-              CONFIDENCE_RANK[b.data.extraction_quality.confidence]) *
+            (CONFIDENCE_RANK[a.confidence] -
+              CONFIDENCE_RANK[b.confidence]) *
             dirMultiplier
           );
         case "jurisdiction":
         default:
           return (
-            a.data.document_metadata.jurisdiction_name.localeCompare(
-              b.data.document_metadata.jurisdiction_name
+            a.jurisdiction_name.localeCompare(
+              b.jurisdiction_name
             ) * dirMultiplier
           );
       }
@@ -162,9 +160,9 @@ export function ManualsExplorer({ manuals }: { manuals: ManualRecord[] }) {
 
   const grouped = useMemo(() => {
     if (!groupByState) return null;
-    const groups = new Map<string, ManualRecord[]>();
+    const groups = new Map<string, ManualListItem[]>();
     for (const record of sorted) {
-      const code = record.data.document_metadata.state_code ?? "__none__";
+      const code = record.state_code ?? "__none__";
       if (!groups.has(code)) groups.set(code, []);
       groups.get(code)!.push(record);
     }
@@ -496,9 +494,8 @@ function PdfSourceLink({ href }: { href: string }) {
   );
 }
 
-function ManualRow({ record }: { record: ManualRecord }) {
-  const { document_metadata, extraction_quality, source } = record.data;
-  const sourceUrl = source.document_url ?? source.landing_page_url;
+function ManualRow({ record }: { record: ManualListItem }) {
+  const sourceUrl = record.document_url ?? record.landing_page_url;
   return (
     <tr className="hover:bg-mist/30">
       <td className="px-4 py-3">
@@ -508,37 +505,36 @@ function ManualRow({ record }: { record: ManualRecord }) {
               href={`/${record.slug}`}
               className="font-medium text-water-link hover:text-water-deep hover:underline"
             >
-              {document_metadata.jurisdiction_name}
+              {record.jurisdiction_name}
             </Link>
             <div className="text-xs text-slate-500">
-              {document_metadata.document_title}
+              {record.document_title}
             </div>
           </div>
           {sourceUrl && <PdfSourceLink href={sourceUrl} />}
         </div>
       </td>
       <td className="px-4 py-3">
-        <LevelBadge level={document_metadata.jurisdiction_level} />
+        <LevelBadge level={record.jurisdiction_level} />
       </td>
       <td className="px-4 py-3">
-        <StateBadge stateCode={document_metadata.state_code} showName />
+        <StateBadge stateCode={record.state_code} showName />
       </td>
       <td className="px-4 py-3 text-slate-600">
         {formatDate(record.processedAt)}
       </td>
       <td className="px-4 py-3">
-        <ConfidenceBadge confidence={extraction_quality.confidence} />
+        <ConfidenceBadge confidence={record.confidence} />
       </td>
       <td className="px-4 py-3">
-        <NeedsReviewBadge needsReview={extraction_quality.needs_human_review} />
+        <NeedsReviewBadge needsReview={record.needs_human_review} />
       </td>
     </tr>
   );
 }
 
-function ManualCard({ record }: { record: ManualRecord }) {
-  const { document_metadata, extraction_quality, source } = record.data;
-  const sourceUrl = source.document_url ?? source.landing_page_url;
+function ManualCard({ record }: { record: ManualListItem }) {
+  const sourceUrl = record.document_url ?? record.landing_page_url;
 
   return (
     <article className="rounded-xl border border-slate-200/80 bg-white p-4 shadow-sm">
@@ -548,20 +544,20 @@ function ManualCard({ record }: { record: ManualRecord }) {
             href={`/${record.slug}`}
             className="font-medium text-water-link hover:text-water-deep hover:underline"
           >
-            {document_metadata.jurisdiction_name}
+            {record.jurisdiction_name}
           </Link>
           <p className="mt-0.5 line-clamp-2 text-xs text-slate-500">
-            {document_metadata.document_title}
+            {record.document_title}
           </p>
         </div>
         {sourceUrl && <PdfSourceLink href={sourceUrl} />}
       </div>
 
       <div className="mt-3 flex flex-wrap gap-1.5">
-        <LevelBadge level={document_metadata.jurisdiction_level} />
-        <StateBadge stateCode={document_metadata.state_code} />
-        <ConfidenceBadge confidence={extraction_quality.confidence} />
-        <NeedsReviewBadge needsReview={extraction_quality.needs_human_review} />
+        <LevelBadge level={record.jurisdiction_level} />
+        <StateBadge stateCode={record.state_code} />
+        <ConfidenceBadge confidence={record.confidence} />
+        <NeedsReviewBadge needsReview={record.needs_human_review} />
       </div>
 
       <div className="mt-3 text-xs text-slate-500">

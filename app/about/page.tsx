@@ -38,6 +38,22 @@ export default function AboutPage() {
           design storms, water-quality methods, BMPs, and other fields — each
           with a cited excerpt and a link to the official PDF or agency page.
         </p>
+        <p className="mt-3">
+          Browse the{" "}
+          <Link
+            href="/national/"
+            className="font-medium text-water-link hover:underline"
+          >
+            U.S. Stormwater Practice Synthesis
+          </Link>{" "}
+          for an 18-chapter research synthesis with practice notes, criteria
+          guidance tables, and curated citations from Tier A anchors and the
+          broader atlas — provisional language for discussion, not a design
+          manual or adopted practice.
+          Data freshness follows the latest{" "}
+          <code className="rounded bg-mist px-1 text-xs">npm run export:data</code>{" "}
+          / site build.
+        </p>
       </Section>
 
       <Section title="For tools and AIs">
@@ -83,8 +99,24 @@ export default function AboutPage() {
                 desc="Field guide describing the JSON shape"
               />
               <EndpointRow
+                path="/data/national/outline.json"
+                desc="Practice synthesis outline (chapters/sections + prevalence)"
+              />
+              <EndpointRow
+                path="/data/national/drafts.json"
+                desc="Index of drafted synthesis sections"
+              />
+              <EndpointRow
+                path="/data/national/draft/{sectionId}.json"
+                desc="One drafted section (survey, recommendation, citations)"
+              />
+              <EndpointRow
                 path="/llms.txt"
                 desc="Short plain-text summary for AI agents"
+              />
+              <EndpointRow
+                path="/national/"
+                desc="Human-readable practice synthesis reader"
               />
             </tbody>
           </table>

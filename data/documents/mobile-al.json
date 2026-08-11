@@ -36,29 +36,24 @@
       "page_or_section": "Cover"
     },
     {
-      "field": "document_metadata.state_code",
-      "excerpt": "Alabama",
-      "page_or_section": "Coverage"
-    },
-    {
       "field": "document_metadata.document_title",
       "excerpt": "Volume 1: Low Impact Development Design",
       "page_or_section": "TOC"
     },
     {
       "field": "document_metadata.version_or_edition",
-      "excerpt": "October 2023",
-      "page_or_section": "Launch notice"
+      "excerpt": "Literature Review. EPA-841-B-00-005, October 2000. The remainder of this page is intentionally left blank.",
+      "page_or_section": "p. 28"
     },
     {
       "field": "document_metadata.adoption_or_effective_date",
-      "excerpt": "October 2023",
-      "page_or_section": "Launch notice"
+      "excerpt": "Literature Review. EPA-841-B-00-005, October 2000. The remainder of this page is intentionally left blank.",
+      "page_or_section": "p. 28"
     },
     {
       "field": "document_metadata.last_revised_date",
-      "excerpt": "October 2023",
-      "page_or_section": "Launch notice"
+      "excerpt": "Literature Review. EPA-841-B-00-005, October 2000. The remainder of this page is intentionally left blank.",
+      "page_or_section": "p. 28"
     },
     {
       "field": "document_metadata.relationship_to_state_manual",
@@ -77,17 +72,18 @@
     },
     {
       "field": "design_criteria.approved_bmp_categories",
-      "excerpt": "NONSTRUCTURAL LID-WQPS; LID Explained",
-      "page_or_section": "TOC"
+      "excerpt": "and design professionals. Chapter 4. Nonstructural LID‐WQPs (Guidance) − Chapter 4 explains the main categories of nonstructural LID‐WQPs and presents those that can be applied on land developments in the City. Chapter 5. Reserved Chapter 6. Structural LID‐WQP Design (Regulato",
+      "page_or_section": "p. 10"
     }
   ],
   "extraction_quality": {
     "confidence": "medium",
     "needs_human_review": true,
-    "review_notes": "LID Volume 1 is optional guidance; full BMP design volume not yet published. Medium confidence for MS4 design criteria coverage.",
+    "review_notes": "LID Volume 1 is optional guidance; full BMP design volume not yet published. Medium confidence for MS4 design criteria coverage. Pipeline excerpt repair removed 1 unlocated citation(s).",
     "fields_not_found": [
       "design_criteria.design_storm_return_periods_years",
-      "design_criteria.required_hydrologic_hydraulic_software"
+      "design_criteria.required_hydrologic_hydraulic_software",
+      "document_metadata.state_code"
     ]
   },
   "source": {

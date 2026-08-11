@@ -54,19 +54,14 @@
       "page_or_section": "Title Page"
     },
     {
-      "field": "document_metadata.state_code",
-      "excerpt": "Tennessee",
-      "page_or_section": "Title Page"
-    },
-    {
       "field": "document_metadata.document_title",
       "excerpt": "Tennessee Permanent Stormwater Management and Design Guidance Manual",
       "page_or_section": "Title Page"
     },
     {
       "field": "document_metadata.version_or_edition",
-      "excerpt": "First Edition",
-      "page_or_section": "Title Page"
+      "excerpt": "maintained to infiltrate, evapot the first inch of every rainfall event preceded by 72 hou of rainfall must be 100% managed with no stormwater site design and assessment purposes, this manual expre component and an overall volume, as discussed in deta Limitations to the applic",
+      "page_or_section": "p. 23"
     },
     {
       "field": "document_metadata.adoption_or_effective_date",
@@ -106,10 +101,11 @@
   ],
   "extraction_quality": {
     "confidence": "high",
-    "needs_human_review": false,
-    "review_notes": "All required properties were successfully extracted from the text. The document is the official state manual for Tennessee, published by TDEC in December 2014.",
+    "needs_human_review": true,
+    "review_notes": "All required properties were successfully extracted from the text. The document is the official state manual for Tennessee, published by TDEC in December 2014. Pipeline excerpt repair removed 1 unlocated citation(s).",
     "fields_not_found": [
-      "document_metadata.last_revised_date"
+      "document_metadata.last_revised_date",
+      "document_metadata.state_code"
     ]
   },
   "source": {

@@ -45,29 +45,9 @@
       "page_or_section": "Title"
     },
     {
-      "field": "document_metadata.state_code",
-      "excerpt": "Indiana",
-      "page_or_section": "Jurisdiction"
-    },
-    {
       "field": "document_metadata.document_title",
       "excerpt": "City Utilities Design Standards Manual",
       "page_or_section": "Cover"
-    },
-    {
-      "field": "document_metadata.version_or_edition",
-      "excerpt": "July 2026",
-      "page_or_section": "Header"
-    },
-    {
-      "field": "document_metadata.adoption_or_effective_date",
-      "excerpt": "July 2026",
-      "page_or_section": "Header"
-    },
-    {
-      "field": "document_metadata.last_revised_date",
-      "excerpt": "July 2026",
-      "page_or_section": "Header"
     },
     {
       "field": "document_metadata.relationship_to_state_manual",
@@ -98,9 +78,13 @@
   "extraction_quality": {
     "confidence": "medium",
     "needs_human_review": true,
-    "review_notes": "Large July 2026 manual (text truncated); WQv numeric depth may be in SW11.07 tables not fully captured.",
+    "review_notes": "Large July 2026 manual (text truncated); WQv numeric depth may be in SW11.07 tables not fully captured. Pipeline excerpt repair removed 4 unlocated citation(s).",
     "fields_not_found": [
-      "design_criteria.required_hydrologic_hydraulic_software"
+      "design_criteria.required_hydrologic_hydraulic_software",
+      "document_metadata.state_code",
+      "document_metadata.version_or_edition",
+      "document_metadata.adoption_or_effective_date",
+      "document_metadata.last_revised_date"
     ]
   },
   "source": {

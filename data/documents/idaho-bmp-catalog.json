@@ -10,7 +10,12 @@
     "relationship_to_state_manual": "independent"
   },
   "design_criteria": {
-    "design_storm_return_periods_years": [1, 2, 10, 100],
+    "design_storm_return_periods_years": [
+      1,
+      2,
+      10,
+      100
+    ],
     "water_quality_volume_method": "Defer to local flood/WQ design standards when available; otherwise Table 5 guidance: capture first 1/2 inch of runoff (~70–80% of annual runoff volume) or first 1 inch (~90%) as water quality volume / first-flush treatment depth; alternatively require a specified pollutant-removal percentage (e.g., 80% suspended solids). WQv may also be tied to a design storm frequency (6-month, 1-year, or 2-year).",
     "peak_flow_calculation_method": [
       "Rational Method",
@@ -56,8 +61,8 @@
     },
     {
       "field": "document_metadata.version_or_edition",
-      "excerpt": "April 2020",
-      "page_or_section": "Cover"
+      "excerpt": "No. 10. http://vwrrc.vt.edu/swc/april_22_2010_update/DCR_BMP_Spec_No_10_DRY_SWALE_Fi nal_Draft_v1-8_04132010.htm Washington State Department of Ecology. 2012. Stormwater Management Manual for Western Washington. Lacey, WA. Publ. 12-10-030. http://www.ecy.wa.gov/programs/w",
+      "page_or_section": "p. 131"
     },
     {
       "field": "document_metadata.adoption_or_effective_date",
@@ -66,8 +71,8 @@
     },
     {
       "field": "document_metadata.last_revised_date",
-      "excerpt": "April 2020",
-      "page_or_section": "Cover"
+      "excerpt": "No. 10. http://vwrrc.vt.edu/swc/april_22_2010_update/DCR_BMP_Spec_No_10_DRY_SWALE_Fi nal_Draft_v1-8_04132010.htm Washington State Department of Ecology. 2012. Stormwater Management Manual for Western Washington. Lacey, WA. Publ. 12-10-030. http://www.ecy.wa.gov/programs/w",
+      "page_or_section": "p. 131"
     },
     {
       "field": "document_metadata.relationship_to_state_manual",
@@ -91,8 +96,8 @@
     },
     {
       "field": "design_criteria.approved_bmp_categories",
-      "excerpt": "3.5.1 Site Design BMPs... 3.5.2 Construction BMPs... 3.5.3 Postconstruction BMPs... Storm Water Filters... Infiltration Facilities... Detention Facilities... Other Structural Controls... Source control BMP",
-      "page_or_section": "Sections 3.5.1–3.5.3, Pages 19–28"
+      "excerpt": "and limitation information as well as design parameters, construction guidelines, and operation and maintenance recommendations. The most important requirements for successful performance of treatment control postconstruction facilities are proper sizing and regular inspection",
+      "page_or_section": "p. 41"
     }
   ],
   "extraction_quality": {

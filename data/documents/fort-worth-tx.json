@@ -52,19 +52,9 @@
       "page_or_section": "Title"
     },
     {
-      "field": "document_metadata.version_or_edition",
-      "excerpt": "July, 2024",
-      "page_or_section": "Cover"
-    },
-    {
       "field": "document_metadata.adoption_or_effective_date",
       "excerpt": "This Stormwater Criteria Manual (\"Manual\") is adopted and becomes effective on July 15, 2024.",
       "page_or_section": "Adoption"
-    },
-    {
-      "field": "document_metadata.last_revised_date",
-      "excerpt": "July, 2024",
-      "page_or_section": "Cover"
     },
     {
       "field": "document_metadata.relationship_to_state_manual",
@@ -94,10 +84,12 @@
   ],
   "extraction_quality": {
     "confidence": "high",
-    "needs_human_review": false,
-    "review_notes": "Fort Worth July 2024 SCM; WQ Option 2 is iSWM-aligned but City notes WQ not currently required by CFW itself.",
+    "needs_human_review": true,
+    "review_notes": "Fort Worth July 2024 SCM; WQ Option 2 is iSWM-aligned but City notes WQ not currently required by CFW itself. Pipeline excerpt repair removed 2 unlocated citation(s).",
     "fields_not_found": [
-      "design_criteria.required_hydrologic_hydraulic_software"
+      "design_criteria.required_hydrologic_hydraulic_software",
+      "document_metadata.version_or_edition",
+      "document_metadata.last_revised_date"
     ]
   },
   "source": {

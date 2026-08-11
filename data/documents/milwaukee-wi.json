@@ -38,44 +38,24 @@
       "page_or_section": "Chapter 13"
     },
     {
-      "field": "document_metadata.state_code",
-      "excerpt": "Wisconsin",
-      "page_or_section": "Chapter 13"
-    },
-    {
       "field": "document_metadata.document_title",
       "excerpt": "Chapter 13 Surface Water and Stormwater",
       "page_or_section": "Title"
     },
     {
-      "field": "document_metadata.version_or_edition",
-      "excerpt": "July 2020",
-      "page_or_section": "Header"
-    },
-    {
-      "field": "document_metadata.last_revised_date",
-      "excerpt": "July 2020",
-      "page_or_section": "Header"
-    },
-    {
       "field": "document_metadata.relationship_to_state_manual",
-      "excerpt": "MMSD Chapter 13",
-      "page_or_section": "Title"
+      "excerpt": "unit that is violating this chapter. This action may include: stopping work on facilities under construction; stopping the design of facilities recommended by a facilities plan; deferring planning for sewerage system capacity expansion or relief; or placing a moratori",
+      "page_or_section": "p. 5"
     },
     {
       "field": "design_criteria.design_storm_return_periods_years",
-      "excerpt": "100-year / 2-year",
-      "page_or_section": "Release rates"
+      "excerpt": "outflow during the 1% probability (100-year) storm that is no more than 0.5 cubic feet per second multiplied by the area of the site in acres and a post-development peak outflow during the 50% probability (2-year) storm event that is no more than 0.15 cubic feet per second m",
+      "page_or_section": "p. 11"
     },
     {
       "field": "design_criteria.water_quality_volume_method",
-      "excerpt": "0.5 inch × net new impervious",
-      "page_or_section": "GI detention"
-    },
-    {
-      "field": "design_criteria.peak_flow_calculation_method",
-      "excerpt": "0.5 cfs/ac / 0.15 cfs/ac",
-      "page_or_section": "Allowable release"
+      "excerpt": "will add one-half acre or more of impervious surface, then a site development stormwater runoff management plan shall achieve either the allowable runoff release rate or the allowable runoff volume. (b) Requirement for redevelopment disturbing two acres or more If redevelop",
+      "page_or_section": "p. 12"
     },
     {
       "field": "design_criteria.approved_bmp_categories",
@@ -85,11 +65,15 @@
   ],
   "extraction_quality": {
     "confidence": "high",
-    "needs_human_review": false,
-    "review_notes": "MMSD Ch 13 Jul 2020 regional criteria covering Milwaukee metro.",
+    "needs_human_review": true,
+    "review_notes": "MMSD Ch 13 Jul 2020 regional criteria covering Milwaukee metro. Pipeline excerpt repair removed 4 unlocated citation(s).",
     "fields_not_found": [
       "document_metadata.adoption_or_effective_date",
-      "design_criteria.required_hydrologic_hydraulic_software"
+      "design_criteria.required_hydrologic_hydraulic_software",
+      "document_metadata.state_code",
+      "document_metadata.version_or_edition",
+      "document_metadata.last_revised_date",
+      "design_criteria.peak_flow_calculation_method"
     ]
   },
   "source": {

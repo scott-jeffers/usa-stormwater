@@ -50,27 +50,12 @@
     },
     {
       "field": "document_metadata.state_code",
-      "excerpt": "Albany, NY 12233",
-      "page_or_section": "Title Page"
+      "excerpt": "DAM SAFETY SECTION 50 WOLF ROAD ALBANY, NEW YORK 12233-3507 --- page 369 --- GUIDELINES FOR DESIGN OF DAMS TABLE OF CONTENTS SECTION TITLE PAGE Preface to the January 1 1989 Edition 1 Introduction 2 Gravity Dams Modification 2 Definitions 3 3 Hazard Classification 5 4 De",
+      "page_or_section": "pp. 363–370"
     },
     {
       "field": "document_metadata.document_title",
       "excerpt": "STORMWATER MANAGEMENT DESIGN MANUAL",
-      "page_or_section": "Title Page"
-    },
-    {
-      "field": "document_metadata.version_or_edition",
-      "excerpt": "July 31, 2024",
-      "page_or_section": "Title Page"
-    },
-    {
-      "field": "document_metadata.adoption_or_effective_date",
-      "excerpt": "July 31, 2024",
-      "page_or_section": "Title Page"
-    },
-    {
-      "field": "document_metadata.last_revised_date",
-      "excerpt": "July 31, 2024",
       "page_or_section": "Title Page"
     },
     {
@@ -85,8 +70,8 @@
     },
     {
       "field": "design_criteria.water_quality_volume_method",
-      "excerpt": "90% Rule: WQv (acre-feet) = (P * Rv * A) / 12",
-      "page_or_section": "Table 4.1"
+      "excerpt": "Water Quality Volume (WQv) 90% Rule: WQv (acre-feet) = (P ∙ Rv ∙ A) / 12 Rv = 0.05+0.009(I) I = Impervious Cover (Percent) P(inches) = 90% Rainfall Event Number (See Figure 4.1) 2 A = Contributing Area (acres) Runoff Reduction Volume (RRv) RRv (acre-feet) = Reduction of",
+      "page_or_section": "p. 43"
     },
     {
       "field": "design_criteria.peak_flow_calculation_method",
@@ -106,9 +91,13 @@
   ],
   "extraction_quality": {
     "confidence": "high",
-    "needs_human_review": false,
-    "review_notes": null,
-    "fields_not_found": []
+    "needs_human_review": true,
+    "review_notes": "Pipeline excerpt repair removed 3 unlocated citation(s).",
+    "fields_not_found": [
+      "document_metadata.version_or_edition",
+      "document_metadata.adoption_or_effective_date",
+      "document_metadata.last_revised_date"
+    ]
   },
   "source": {
     "document_url": "https://dec.ny.gov/fs/projects/24-25DraftCGPDesignManual/Manual.SW.CGP.2024-07-31.Design_Manual_Issued_2024-07-31.pdf",

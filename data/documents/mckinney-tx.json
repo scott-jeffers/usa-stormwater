@@ -40,11 +40,6 @@
       "page_or_section": "Title"
     },
     {
-      "field": "document_metadata.state_code",
-      "excerpt": "Texas",
-      "page_or_section": "Title"
-    },
-    {
       "field": "document_metadata.document_title",
       "excerpt": "Engineering Design Manual",
       "page_or_section": "Title"
@@ -76,18 +71,19 @@
     },
     {
       "field": "design_criteria.approved_bmp_categories",
-      "excerpt": "detention ponds and best management practices (BMPs)",
-      "page_or_section": "Section 4"
+      "excerpt": "Refer to the Rights-of-Way Management Ordinance (Section 90) and Rights-of-Way Construction and Permitting Procedures Manual available online at mckinneytexas.org. Contact the Public Works Department regarding ROW permits at row@mckinneytexas.org or (972)547-1033. ER",
+      "page_or_section": "p. 279"
     }
   ],
   "extraction_quality": {
     "confidence": "medium",
     "needs_human_review": true,
-    "review_notes": "Large EDM; adoption date unclear on title page; confirm which Rev is effective vs Proposed Rev 6.",
+    "review_notes": "Large EDM; adoption date unclear on title page; confirm which Rev is effective vs Proposed Rev 6. Pipeline excerpt repair removed 1 unlocated citation(s).",
     "fields_not_found": [
       "document_metadata.adoption_or_effective_date",
       "document_metadata.last_revised_date",
-      "design_criteria.required_hydrologic_hydraulic_software"
+      "design_criteria.required_hydrologic_hydraulic_software",
+      "document_metadata.state_code"
     ]
   },
   "source": {

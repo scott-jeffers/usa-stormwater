@@ -43,11 +43,6 @@
       "page_or_section": "Title"
     },
     {
-      "field": "document_metadata.state_code",
-      "excerpt": "Florida",
-      "page_or_section": "Title"
-    },
-    {
       "field": "document_metadata.document_title",
       "excerpt": "Land Development Procedures Manual Volume 2",
       "page_or_section": "Title"
@@ -64,13 +59,13 @@
     },
     {
       "field": "document_metadata.relationship_to_state_manual",
-      "excerpt": "LDPM Volume 2",
-      "page_or_section": "Title"
+      "excerpt": "Manual Effective January 2026 Page 3 Volume 2: Design Guidelines LAND DEVELOPEMENT PROCEDURE MANUAL REVISIONS Revision Number Sections Revised Effective Date 28 All manual sections reorganized, all of Sections 1, 3, 4 and 7 revised, Appendix 1 Revised, Appendix 3 deleted 07/13",
+      "page_or_section": "p. 3"
     },
     {
       "field": "design_criteria.design_storm_return_periods_years",
-      "excerpt": "3, 5, 10, 25, 50, 100-year 24-hour",
-      "page_or_section": "MSMP 2070 rainfall"
+      "excerpt": "in the flood plain. c. In the event a 100-year flood zone, as shown on current FIRM MAPS or delineated by the best available data, is to be filled, 6. Flood-Prone Areas a. Adequate drainage must be provided to accommodate storm water if flood-prone areas are filled. This could",
+      "page_or_section": "p. 76"
     },
     {
       "field": "design_criteria.water_quality_volume_method",
@@ -91,10 +86,11 @@
   "extraction_quality": {
     "confidence": "medium",
     "needs_human_review": true,
-    "review_notes": "Jacksonville LDPM Vol 2 effective Jan 2026. Confirm exact Table 3.7-1 WQ criteria from PDF.",
+    "review_notes": "Jacksonville LDPM Vol 2 effective Jan 2026. Confirm exact Table 3.7-1 WQ criteria from PDF. Pipeline excerpt repair removed 1 unlocated citation(s).",
     "fields_not_found": [
       "document_metadata.last_revised_date",
-      "design_criteria.required_hydrologic_hydraulic_software"
+      "design_criteria.required_hydrologic_hydraulic_software",
+      "document_metadata.state_code"
     ]
   },
   "source": {

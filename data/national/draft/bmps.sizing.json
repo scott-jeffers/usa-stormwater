@@ -1,0 +1,381 @@
+{
+  "section_id": "bmps.sizing",
+  "title": "Facility Sizing and Design Criteria",
+  "generated_at": "2026-08-11T03:43:21.057Z",
+  "model": "heuristic+editorial",
+  "editorial_status": "reviewed",
+  "practice_survey": "Permanent SCM sizing is usually tied to WQv or peak-flow criteria from the hydrology chapter. Drawdown windows, media depth, underdrains, and pretreatment appear repeatedly in design criteria. Construction ESC practices are often catalogued nearby but should not be credited as permanent treatment.",
+  "draft_recommendation": "Tie surface area, storage, and media depth to the WQv from the water-quality chapter. Meet drawdown and underdrain criteria appropriate to climate and soils. Provide pretreatment for sediment-laden inflows. Document infiltration rate, porosity, and orifice assumptions. Do not duplicate hydrology storms here—reference those chapters.",
+  "regional_variants": "Cold-climate underdrains and insulation; arid media and mulch specifications; coastal salt tolerance for plantings.",
+  "open_issues": "Default drawdown windows (24–72 h). Media specification: national minimums versus state BMP manuals.",
+  "guidance_tables": [
+    {
+      "id": "bmp-hierarchy-criteria",
+      "title": "SCM selection hierarchy",
+      "caption": "Draft national guidance grounded in atlas practice — not a design manual or adopted regulation.",
+      "columns": [
+        "Hierarchy step",
+        "Suggested national guidance",
+        "Atlas note"
+      ],
+      "rows": [
+        [
+          "1. Avoid / minimize",
+          "Reduce imperviousness and disconnect drainage before selecting structural SCMs",
+          "Hierarchy language common in GI/LID chapters"
+        ],
+        [
+          "2. Runoff reduction / retention",
+          "Prefer infiltration, harvesting, and volume reduction where soils and groundwater allow",
+          "52% of BMP-list manuals (154)"
+        ],
+        [
+          "3. Filtration / bioretention",
+          "Use bioretention and filtration for treatment when retention is limited",
+          "43% of BMP-list manuals (130)"
+        ],
+        [
+          "4. Detention / peak control",
+          "Use detention to meet channel and flood criteria after volume and treatment steps",
+          "61% of BMP-list manuals (182)"
+        ],
+        [
+          "5. Manufactured treatment",
+          "Allow MTDs conditionally with verification-program references; do not bypass hierarchy where infiltration is feasible",
+          "18% of BMP-list manuals (54)"
+        ]
+      ],
+      "row_citations": [
+        [],
+        [
+          "1",
+          "3",
+          "4",
+          "5",
+          "6"
+        ],
+        [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        [
+          "3",
+          "5",
+          "6",
+          "7",
+          "8"
+        ]
+      ]
+    }
+  ],
+  "recommendation_clauses": [
+    {
+      "id": "tie-to-wqv",
+      "number": "13.1",
+      "text": "Tie surface area, storage, and media depth to the WQv from the water-quality chapter.",
+      "citation_keys": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "confidence": "field_verified"
+    },
+    {
+      "id": "drawdown",
+      "number": "13.2",
+      "text": "Meet drawdown and underdrain criteria appropriate to climate and soils.",
+      "citation_keys": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "confidence": "editorial"
+    },
+    {
+      "id": "pretreatment",
+      "number": "13.3",
+      "text": "Provide pretreatment for sediment-laden inflows; document infiltration rate, porosity, and orifice assumptions.",
+      "citation_keys": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "confidence": "editorial"
+    }
+  ],
+  "citation_registry": [
+    {
+      "key": "1",
+      "slug": "ak-state",
+      "state_code": "AK",
+      "excerpt": "Primary Secondary Secondary Secondary Extended Storage Pond High Low Primary Secondary Secondary Secondary Wet Vaults Medium Lowa Primary Secondary Secondary Minor Detention Dry Pond High Low Secondary Minor Minor Minor Oversized Pipes High Low Minor Minor Minor Minor Oil/Grit",
+      "page_or_section": "pp. 180–181",
+      "confidence": "field_verified",
+      "field": "design_criteria.approved_bmp_categories"
+    },
+    {
+      "key": "2",
+      "slug": "alabama-handbook",
+      "state_code": "AL",
+      "excerpt": "3) modification of the surface drainage pattern, including the associated development of stormwater management facilities. Summary of Hazards Associated with Land Development On-site Land development clearly increases potential erosion and sediment hazards on-sit",
+      "page_or_section": "pp. 18–19",
+      "confidence": "field_verified",
+      "field": "design_criteria.approved_bmp_categories"
+    },
+    {
+      "key": "3",
+      "slug": "billings-mt",
+      "state_code": "MT",
+      "excerpt": "Infiltration Basin ... Bioretention ... Permeable Pavement Systems ... Dispersion ... Biofiltration Swale ... Extended Detention Basin ... Wet Detention Basin ... Proprietary Treatment Devices",
+      "page_or_section": "Contents, Chapter 5",
+      "confidence": "field_verified",
+      "field": "design_criteria.approved_bmp_categories"
+    },
+    {
+      "key": "4",
+      "slug": "ca-caltrans-construction",
+      "state_code": "CA",
+      "excerpt": "Caltrans Construction Site BMPs are divided into six categories, as shown in Table 2-1: Temporary Soil Stabilization, Temporary Sediment Control, Wind Erosion Control, Tracking Control, Non-Stormwater Management, Waste Management and Materials Pollution Control",
+      "page_or_section": "Section 2.2, Table 2-1, Pages 2-5 to 2-7",
+      "confidence": "field_verified",
+      "field": "design_criteria.approved_bmp_categories"
+    },
+    {
+      "key": "5",
+      "slug": "ca-casqa-municipal",
+      "state_code": "CA",
+      "excerpt": "Table 3-1 Municipal Fixed Facility BMPs: Non-Stormwater Management, Vehicle and Equipment Management, Material and Waste Management, Building and Grounds Management, Over Water Activities, General Stormwater Management",
+      "page_or_section": "Table 3-1, Page 3-1",
+      "confidence": "field_verified",
+      "field": "design_criteria.approved_bmp_categories"
+    },
+    {
+      "key": "6",
+      "slug": "ct-state",
+      "state_code": "CT",
+      "excerpt": "This Manual includes the following major categories and types of structural stormwater BMPs that are recommended for use in Connecticut, based on their primary function: Pretreatment BMPs, Infiltration BMPs, Filtering BMPs, Stormwater Pond BMPs, Stormwater Wetland BMPs, Water Quality Conveyance BMPs, Stormwater Reuse B",
+      "page_or_section": "Page 110-111, Functional Categories of Structural Stormwater BMPs",
+      "confidence": "field_verified",
+      "field": "design_criteria.approved_bmp_categories"
+    },
+    {
+      "key": "7",
+      "slug": "ga-state",
+      "state_code": "GA",
+      "excerpt": "Bioretention Basin; Bioslopes; Dry Wells; Infiltration Trenches; Organic Filters; Regenerative Stormwater Conveyance; Sand Filters; and Stormwater Planters/Tree Boxes",
+      "page_or_section": "199",
+      "confidence": "field_verified",
+      "field": "design_criteria.approved_bmp_categories"
+    },
+    {
+      "key": "8",
+      "slug": "hawaii-dot-pcbmp",
+      "state_code": "HI",
+      "excerpt": "LID TREATMENT CONTROL BMPs: Vegetated Buffer Strip, Vegetated Swale, Enhanced Swale, Infiltration Trench, Infiltration Basin, Bioretention Facility, Permeable Pavement, Pocket Wetland, Rainwater Harvesting, Tree Box Filter",
+      "page_or_section": "Appendix A, Page v",
+      "confidence": "field_verified",
+      "field": "design_criteria.approved_bmp_categories"
+    },
+    {
+      "key": "9",
+      "slug": "hawaii-dot-pcbmp",
+      "state_code": "HI",
+      "excerpt": ". • Underdrain System o If infiltration capacity is inadequate to meet required drawdown time, provide underdrain system consisting of central collector pipe and lateral feeder pipes to collect and discharge storm water runoff to the drainage syste",
+      "page_or_section": "pages 125-126",
+      "confidence": "corpus_pattern",
+      "field": "corpus_chunk"
+    },
+    {
+      "key": "10",
+      "slug": "ri-state",
+      "state_code": "RI",
+      "excerpt": "e. Dewatering can be accomplished with underdrain pipe systems that accommodate drawdown as shown in Figure 5-6. • In the absence of evidence of contamination, removed debris may be taken to a landfill or other permitted facility. Any oil or grease",
+      "page_or_section": "pages 113-114",
+      "confidence": "corpus_pattern",
+      "field": "corpus_chunk"
+    },
+    {
+      "key": "11",
+      "slug": "san-diego-ca",
+      "state_code": "CA",
+      "excerpt": "Standards | August 2024 Edition Part 1: BMP Design Manual Conceptual Design and Sizing Approach for Stormwater Pollutant Control Only To design biofiltration with partial retention and an underdrain for stormwater pollutant control only (no flow",
+      "page_or_section": "pages 406-406",
+      "confidence": "corpus_pattern",
+      "field": "corpus_chunk"
+    },
+    {
+      "key": "12",
+      "slug": "kansas-city-marc-bmp",
+      "state_code": "MO",
+      "excerpt": "vided at or near the discharge point of the underdrain system to permit a 40-hr drawdown time for the WQv. After placing the underdrain and aggregate and before placing the bioretention soil mixture (BSM), the bottom of the excavation shall be roto",
+      "page_or_section": "pages 124-124",
+      "confidence": "corpus_pattern",
+      "field": "corpus_chunk"
+    },
+    {
+      "key": "13",
+      "slug": "md-state",
+      "state_code": "MD",
+      "excerpt": "ther BMPs and often downstream detention is still needed to meet the Cpv and Qp sizing criteria. The construction sequence and specifications for each infiltration practice shall be followed, as outlined in Appendix B.2. Experience has shown that",
+      "page_or_section": "pages 111-111",
+      "confidence": "corpus_pattern",
+      "field": "corpus_chunk"
+    },
+    {
+      "key": "14",
+      "slug": "ny-state",
+      "state_code": "NY",
+      "excerpt": "dard Specification 713-01 for Roadside Mix or Specialty Planting Mix. 5.3.6.3.2 Sizing Criteria • The required WQv is to be provided above the top of the filter media. • Infiltration and filtration rain gardens shall be sized based on the princip",
+      "page_or_section": "pages 115-115",
+      "confidence": "corpus_pattern",
+      "field": "corpus_chunk"
+    },
+    {
+      "key": "15",
+      "slug": "wa-state-western",
+      "state_code": "WA",
+      "excerpt": "1. Determine the water quality design flow rate. See III-2.6 Sizing Your Runoff Treatment BMPs. 2. Determine the subgrade's long-term design infiltration rate. See V-5.4 Determining the Design Infiltration Rate of the Native So",
+      "page_or_section": "pages 898-898",
+      "confidence": "corpus_pattern",
+      "field": "corpus_chunk"
+    },
+    {
+      "key": "16",
+      "slug": "billings-mt",
+      "state_code": "MT",
+      "excerpt": "filters storm water runoff through plants, engineered soil media, and often an underdrain system. Cation Exchange Capacity (CEC): The total amount of positively charged elements that a soil can hold. This value is typically expressed in milliequival",
+      "page_or_section": "pages 147-149",
+      "confidence": "corpus_pattern",
+      "field": "corpus_chunk"
+    },
+    {
+      "key": "17",
+      "slug": "seattle-wa",
+      "state_code": "WA",
+      "excerpt": "-200 July 2021 Infiltrating Bioretention 5-83 Table 5.22 (continued). Pre-sized Sizing Factors and Equations for Infiltrating Bioretention Without Underdrains. Bioretention Configuration Average Ponding Depth Subgrade Soil Design Infiltration Rat",
+      "page_or_section": "pages 415-415",
+      "confidence": "corpus_pattern",
+      "field": "corpus_chunk"
+    },
+    {
+      "key": "18",
+      "slug": "west-virginia-manual",
+      "state_code": "WV",
+      "excerpt": "ing to Infiltration Rates Field Verified Infiltration rate (i) (in./hr.) Design Drawdown Time (td), (hrs.) Depth of Infiltration Sump1 (dIS) (in.) 0.52 48 12 0.25 48 6 0.1 48 2.43 1Depth of sump is the total depth with gravel. Effective depth of wa",
+      "page_or_section": "pages 212-213",
+      "confidence": "corpus_pattern",
+      "field": "corpus_chunk"
+    }
+  ],
+  "citations": [
+    {
+      "slug": "hawaii-dot-pcbmp",
+      "chunk_id": "hawaii-dot-pcbmp-c0132",
+      "page_or_section": "pages 125-126",
+      "excerpt": ". • Underdrain System o If infiltration capacity is inadequate to meet required drawdown time, provide underdrain system consisting of central collector pipe and lateral feeder pipes to collect and discharge storm water runoff to the drainage syste"
+    },
+    {
+      "slug": "ri-state",
+      "chunk_id": "ri-state-c0150",
+      "page_or_section": "pages 113-114",
+      "excerpt": "e. Dewatering can be accomplished with underdrain pipe systems that accommodate drawdown as shown in Figure 5-6. • In the absence of evidence of contamination, removed debris may be taken to a landfill or other permitted facility. Any oil or grease"
+    },
+    {
+      "slug": "san-diego-ca",
+      "chunk_id": "san-diego-ca-c0333",
+      "page_or_section": "pages 406-406",
+      "excerpt": "Standards | August 2024 Edition Part 1: BMP Design Manual Conceptual Design and Sizing Approach for Stormwater Pollutant Control Only To design biofiltration with partial retention and an underdrain for stormwater pollutant control only (no flow"
+    },
+    {
+      "slug": "kansas-city-marc-bmp",
+      "chunk_id": "kansas-city-marc-bmp-c0121",
+      "page_or_section": "pages 124-124",
+      "excerpt": "vided at or near the discharge point of the underdrain system to permit a 40-hr drawdown time for the WQv. After placing the underdrain and aggregate and before placing the bioretention soil mixture (BSM), the bottom of the excavation shall be roto"
+    },
+    {
+      "slug": "hawaii-dot-pcbmp",
+      "chunk_id": "hawaii-dot-pcbmp-c0135",
+      "page_or_section": "pages 131-132",
+      "excerpt": "ation as long as any flood risks are addressed (Caltrans 2013). Design Criteria SIZING PROCEDURE 1. Determine the Water Quality Volume (WQV). 2. If the permeable pavement is also designed as an infiltration facility, calculate the maximum storage"
+    },
+    {
+      "slug": "ri-state",
+      "chunk_id": "ri-state-c0163",
+      "page_or_section": "pages 133-133",
+      "excerpt": "e. • For designers using a TR-55 hydrologic/hydraulic model for filter facility sizing, an exfiltration outlet structure should be used with a constant velocity rate of exfiltration per Table 5-3. This rate is used in hydraulic routing to reflect"
+    },
+    {
+      "slug": "md-state",
+      "chunk_id": "md-state-c0047",
+      "page_or_section": "pages 111-111",
+      "excerpt": "ther BMPs and often downstream detention is still needed to meet the Cpv and Qp sizing criteria. The construction sequence and specifications for each infiltration practice shall be followed, as outlined in Appendix B.2. Experience has shown that"
+    },
+    {
+      "slug": "ny-state",
+      "chunk_id": "ny-state-c0086",
+      "page_or_section": "pages 115-115",
+      "excerpt": "dard Specification 713-01 for Roadside Mix or Specialty Planting Mix. 5.3.6.3.2 Sizing Criteria • The required WQv is to be provided above the top of the filter media. • Infiltration and filtration rain gardens shall be sized based on the princip"
+    },
+    {
+      "slug": "ny-state",
+      "chunk_id": "ny-state-c0090",
+      "page_or_section": "pages 119-120",
+      "excerpt": "dard Specification 713-01 for Roadside Mix or Specialty Planting Mix. 5.3.7.3.2 Sizing Criteria • The required WQv is to be provided above the top of the filter media. • Infiltration and filtration stormwater planters shall be sized based on the"
+    },
+    {
+      "slug": "wa-state-western",
+      "chunk_id": "wa-state-western-c0705",
+      "page_or_section": "pages 898-898",
+      "excerpt": "1. Determine the water quality design flow rate. See III-2.6 Sizing Your Runoff Treatment BMPs. 2. Determine the subgrade's long-term design infiltration rate. See V-5.4 Determining the Design Infiltration Rate of the Native So"
+    },
+    {
+      "slug": "billings-mt",
+      "chunk_id": "billings-mt-c0120",
+      "page_or_section": "pages 147-149",
+      "excerpt": "filters storm water runoff through plants, engineered soil media, and often an underdrain system. Cation Exchange Capacity (CEC): The total amount of positively charged elements that a soil can hold. This value is typically expressed in milliequival"
+    },
+    {
+      "slug": "seattle-wa",
+      "chunk_id": "seattle-wa-c0292",
+      "page_or_section": "pages 415-415",
+      "excerpt": "-200 July 2021 Infiltrating Bioretention 5-83 Table 5.22 (continued). Pre-sized Sizing Factors and Equations for Infiltrating Bioretention Without Underdrains. Bioretention Configuration Average Ponding Depth Subgrade Soil Design Infiltration Rat"
+    },
+    {
+      "slug": "seattle-wa",
+      "chunk_id": "seattle-wa-c0289",
+      "page_or_section": "pages 412-412",
+      "excerpt": "l 5-80 Infiltrating Bioretention July 2021 Table 5.21 (continued). On-site List Sizing for Infiltrating Bioretention with and Without Underdrains. Bioretention Configuration Average Ponding Depth Subgrade Soil Design Infiltration Rate Sizing Fact"
+    },
+    {
+      "slug": "west-virginia-manual",
+      "chunk_id": "west-virginia-manual-c0161",
+      "page_or_section": "pages 212-213",
+      "excerpt": "ing to Infiltration Rates Field Verified Infiltration rate (i) (in./hr.) Design Drawdown Time (td), (hrs.) Depth of Infiltration Sump1 (dIS) (in.) 0.52 48 12 0.25 48 6 0.1 48 2.43 1Depth of sump is the total depth with gravel. Effective depth of wa"
+    }
+  ],
+  "supporting_slugs": [
+    "hawaii-dot-pcbmp",
+    "ri-state",
+    "san-diego-ca",
+    "kansas-city-marc-bmp",
+    "md-state",
+    "ny-state",
+    "wa-state-western",
+    "billings-mt",
+    "seattle-wa",
+    "west-virginia-manual"
+  ]
+}

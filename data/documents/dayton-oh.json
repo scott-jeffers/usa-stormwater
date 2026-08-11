@@ -59,19 +59,15 @@
       "field": "design_criteria.approved_bmp_categories",
       "excerpt": "Section 5.4 Detention/Retention Basins ... post construction BMPs",
       "page_or_section": "§5.4 / §5.6"
-    },
-    {
-      "field": "document_metadata.relationship_to_state_manual",
-      "excerpt": "independent city standards; post-construction refs Ohio EPA CGP",
-      "page_or_section": "§5.6"
     }
   ],
   "extraction_quality": {
     "confidence": "medium",
     "needs_human_review": true,
-    "review_notes": "Section 5 only (11 pages); not a full multi-volume BMP design manual. HEAD 404 but GET works.",
+    "review_notes": "Section 5 only (11 pages); not a full multi-volume BMP design manual. HEAD 404 but GET works. Pipeline excerpt repair removed 1 unlocated citation(s).",
     "fields_not_found": [
-      "design_criteria.required_hydrologic_hydraulic_software"
+      "design_criteria.required_hydrologic_hydraulic_software",
+      "document_metadata.relationship_to_state_manual"
     ]
   },
   "source": {

@@ -45,13 +45,13 @@
     },
     {
       "field": "document_metadata.jurisdiction_level",
-      "excerpt": "City of Bismarck, ND",
-      "page_or_section": "Cover"
+      "excerpt": "Municipal Public Works Improvements Bismarck, North Dakota” available from the office of the City Engineer. Stormwater Management Plan (SWMP) A written document detailing stormwater runoff characteristics for a defined area and the management of that runoff to mitigate advers",
+      "page_or_section": "p. 15"
     },
     {
       "field": "document_metadata.state_code",
-      "excerpt": "City of Bismarck, ND",
-      "page_or_section": "Cover"
+      "excerpt": "Municipal Public Works Improvements Bismarck, North Dakota” available from the office of the City Engineer. Stormwater Management Plan (SWMP) A written document detailing stormwater runoff characteristics for a defined area and the management of that runoff to mitigate advers",
+      "page_or_section": "p. 15"
     },
     {
       "field": "document_metadata.document_title",
@@ -59,14 +59,9 @@
       "page_or_section": "Cover"
     },
     {
-      "field": "document_metadata.version_or_edition",
-      "excerpt": "Approved: August 22, 2017 Effective: January 1, 2018",
-      "page_or_section": "Cover"
-    },
-    {
       "field": "document_metadata.adoption_or_effective_date",
-      "excerpt": "Effective: January 1, 2018",
-      "page_or_section": "Cover"
+      "excerpt": "for activities constructed after January 1, 2018 that meet one or more of the following criteria: 1. Land disturbance greater than or equal to 3,000 square feet and less than 10,000 square feet, occurring on land with slopes of less than 12 percent; or",
+      "page_or_section": "p. 21"
     },
     {
       "field": "document_metadata.relationship_to_state_manual",
@@ -101,10 +96,11 @@
   ],
   "extraction_quality": {
     "confidence": "high",
-    "needs_human_review": false,
-    "review_notes": "Peak discharge storms, water quality requirements (0.5 in / 80% TSS), NRCS methods, and acceptable software are explicitly stated. Prescriptive Vwq sizing details are in appendix Reference 5-2, not reproduced in main text.",
+    "needs_human_review": true,
+    "review_notes": "Peak discharge storms, water quality requirements (0.5 in / 80% TSS), NRCS methods, and acceptable software are explicitly stated. Prescriptive Vwq sizing details are in appendix Reference 5-2, not reproduced in main text. Pipeline excerpt repair removed 1 unlocated citation(s).",
     "fields_not_found": [
-      "document_metadata.last_revised_date"
+      "document_metadata.last_revised_date",
+      "document_metadata.version_or_edition"
     ]
   },
   "source": {

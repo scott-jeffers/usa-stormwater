@@ -43,8 +43,8 @@
     },
     {
       "field": "document_metadata.state_code",
-      "excerpt": "Tacoma WA",
-      "page_or_section": "Title"
+      "excerpt": "--- page 5 --- City of Tacoma July 2016 SWMM P-2 Table of Contents 3.4.3 Minimum Requirement #3: Source Control of Pollution . . . . . . . . . . . . . . . . . . . 1-33 3.4.4 Minimum Requirement #4: Preservation of Natural Drainage Systems and Outfalls . . . . . .",
+      "page_or_section": "p. 5"
     },
     {
       "field": "document_metadata.document_title",
@@ -54,11 +54,6 @@
     {
       "field": "document_metadata.version_or_edition",
       "excerpt": "July 2016 Edition",
-      "page_or_section": "Cover"
-    },
-    {
-      "field": "document_metadata.last_revised_date",
-      "excerpt": "July 2016",
       "page_or_section": "Cover"
     },
     {
@@ -89,11 +84,12 @@
   ],
   "extraction_quality": {
     "confidence": "high",
-    "needs_human_review": false,
-    "review_notes": "Tacoma SWMM July 2016; text truncated but Minimum Requirements structure clear. Newer editions may exist.",
+    "needs_human_review": true,
+    "review_notes": "Tacoma SWMM July 2016; text truncated but Minimum Requirements structure clear. Newer editions may exist. Pipeline excerpt repair removed 1 unlocated citation(s).",
     "fields_not_found": [
       "document_metadata.adoption_or_effective_date",
-      "design_criteria.required_hydrologic_hydraulic_software"
+      "design_criteria.required_hydrologic_hydraulic_software",
+      "document_metadata.last_revised_date"
     ]
   },
   "source": {

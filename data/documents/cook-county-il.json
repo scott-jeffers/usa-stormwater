@@ -32,11 +32,6 @@
       "page_or_section": "TGM Introduction"
     },
     {
-      "field": "document_metadata.jurisdiction_level",
-      "excerpt": "Cook County",
-      "page_or_section": "TGM Introduction"
-    },
-    {
       "field": "document_metadata.state_code",
       "excerpt": "Metropolitan Water Reclamation District of Greater Chicago",
       "page_or_section": "TGM Introduction"
@@ -68,19 +63,20 @@
     },
     {
       "field": "design_criteria.approved_bmp_categories",
-      "excerpt": "Retention-based practices ... Flow-through practices ... vegetated swales, filter strips, or mechanical structures such as oil and grit separators",
-      "page_or_section": "Article 5 — Volume Control Practices"
+      "excerpt": "For mechanical flow-through practices, such as an oil and grit separator, an effective maintenance plan is based on performing frequent inspections. The rate at which these devices collect pollutants will vary from site to site, and therefore frequent inspections (onc",
+      "page_or_section": "p. 413"
     }
   ],
   "extraction_quality": {
     "confidence": "medium",
     "needs_human_review": true,
-    "review_notes": "Extracted from MWRD TGM PDF (538 pages; text truncated/encoding degraded for some symbols). Criteria focus on Article 5 volume control (1 inch) and detention release-rate matching. WMO amendments after TGM compile may add detail.",
+    "review_notes": "Extracted from MWRD TGM PDF (538 pages; text truncated/encoding degraded for some symbols). Criteria focus on Article 5 volume control (1 inch) and detention release-rate matching. WMO amendments after TGM compile may add detail. Pipeline excerpt repair removed 1 unlocated citation(s).",
     "fields_not_found": [
       "document_metadata.adoption_or_effective_date",
       "document_metadata.last_revised_date",
       "design_criteria.design_storm_return_periods_years",
-      "design_criteria.required_hydrologic_hydraulic_software"
+      "design_criteria.required_hydrologic_hydraulic_software",
+      "document_metadata.jurisdiction_level"
     ]
   },
   "source": {

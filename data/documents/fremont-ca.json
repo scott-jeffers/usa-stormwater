@@ -51,8 +51,8 @@
     },
     {
       "field": "document_metadata.version_or_edition",
-      "excerpt": "Version 8.2 / May 19, 2024",
-      "page_or_section": "Cover"
+      "excerpt": "builders, and project applicants Version 8.2 MEMBER AGENCIES: Alameda Albany Berkeley Dublin Emeryville Fremont Hayward Livermore Newark Oakland Piedmont Pleasanton San Leandro Union City County of Alameda Alameda County Flood Control and Water Conservation District Zone 7",
+      "page_or_section": "p. 1"
     },
     {
       "field": "document_metadata.adoption_or_effective_date",
@@ -80,11 +80,6 @@
       "page_or_section": "Chapter 9"
     },
     {
-      "field": "design_criteria.required_hydrologic_hydraulic_software",
-      "excerpt": "BAHM",
-      "page_or_section": "Appendix P / HM"
-    },
-    {
       "field": "design_criteria.approved_bmp_categories",
       "excerpt": "Bioretention/BioInfiltration Area",
       "page_or_section": "Section 8.1"
@@ -92,10 +87,11 @@
   ],
   "extraction_quality": {
     "confidence": "high",
-    "needs_human_review": false,
-    "review_notes": "ACCWP C.3 TG v8.2; covers Fremont and other Alameda County MRP cities (aliases).",
+    "needs_human_review": true,
+    "review_notes": "ACCWP C.3 TG v8.2; covers Fremont and other Alameda County MRP cities (aliases). Pipeline excerpt repair removed 1 unlocated citation(s).",
     "fields_not_found": [
-      "design_criteria.design_storm_return_periods_years"
+      "design_criteria.design_storm_return_periods_years",
+      "design_criteria.required_hydrologic_hydraulic_software"
     ]
   },
   "source": {

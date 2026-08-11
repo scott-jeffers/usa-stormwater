@@ -40,11 +40,6 @@
       "page_or_section": "Cover"
     },
     {
-      "field": "document_metadata.state_code",
-      "excerpt": "OKLAHOMA",
-      "page_or_section": "Title"
-    },
-    {
       "field": "document_metadata.document_title",
       "excerpt": "Stormwater Management Criteria Manual",
       "page_or_section": "Title"
@@ -88,10 +83,11 @@
   "extraction_quality": {
     "confidence": "medium",
     "needs_human_review": true,
-    "review_notes": "Tulsa SMCM 2019; confirm exact WQ sizing formulas from water quality control chapter.",
+    "review_notes": "Tulsa SMCM 2019; confirm exact WQ sizing formulas from water quality control chapter. Pipeline excerpt repair removed 1 unlocated citation(s).",
     "fields_not_found": [
       "document_metadata.adoption_or_effective_date",
-      "design_criteria.required_hydrologic_hydraulic_software"
+      "design_criteria.required_hydrologic_hydraulic_software",
+      "document_metadata.state_code"
     ]
   },
   "source": {

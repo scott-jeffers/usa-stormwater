@@ -11,8 +11,11 @@ The project is intentionally split into two decoupled halves:
 
 ```bash
 npm install
-npm run dev
+npm run export:data   # sync public/data/ after clone or data changes
+npm run dev           # Next.js only — does not re-export on every start
 ```
+
+When documents or national drafts change, either re-run `npm run export:data` or use `npm run dev:sync` (export + dev). Production builds still run `prebuild` → `export:data` automatically.
 
 Open [http://localhost:3000](http://localhost:3000). No API keys required for the site.
 
@@ -81,7 +84,7 @@ Stage shortcuts: `pipeline:corpus`, `pipeline:extract`, `pipeline:verify`, `pipe
 
 Crash mid-run? Re-run the same command — completed substeps are skipped. Existing `data/documents/` records are bootstrapped as `extract: done` so curated atlas data is not overwritten unless you pass `--force`.
 
-Model default: `composer-2.5-fast` (`PIPELINE_MODEL`). Delay between AI calls: `PIPELINE_DELAY_MS` (default 2000).
+By default the corpus stage runs **offline heuristics** when `CURSOR_API_KEY` is unset (`PIPELINE_LLM=heuristic`). Set `PIPELINE_LLM=cursor` and a key to use the Cursor SDK for richer structure/tagging. Model default when using the SDK: `composer-2.5-fast` (`PIPELINE_MODEL`). Delay between AI calls: `PIPELINE_DELAY_MS` (default 2000).
 
 ## Finding missing manuals (coverage gaps)
 

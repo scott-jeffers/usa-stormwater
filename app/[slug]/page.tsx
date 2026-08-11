@@ -8,8 +8,10 @@ import {
   LevelBadge,
   NeedsReviewBadge,
   StateBadge,
+  VerifyBadge,
 } from "@/components/Badge";
 import { FieldWithEvidence } from "@/components/FieldWithEvidence";
+import { getJurisdictionVerifyStatus } from "@/lib/pipeline/verifyReport";
 
 const PLACEHOLDER_SLUG = "_placeholder";
 
@@ -86,12 +88,16 @@ export default async function ManualDetailPage({
 
   const relatedInState = meta.state_code
     ? getAllManuals().filter(
-        (m) => m.slug !== slug && m.data.document_metadata.state_code === meta.state_code
+        (m) =>
+          m.slug !== slug &&
+          m.data.document_metadata.state_code === meta.state_code
       )
     : [];
+  // getAllManuals is cached; related list is a cheap in-memory filter.
 
   const fieldsNotFound = quality.fields_not_found;
   const primarySourceUrl = source.document_url ?? source.landing_page_url;
+  const verify = getJurisdictionVerifyStatus(slug);
 
   return (
     <main className="space-y-6">
@@ -113,6 +119,10 @@ export default async function ManualDetailPage({
               <StateBadge stateCode={meta.state_code} showName />
               <ConfidenceBadge confidence={quality.confidence} />
               <NeedsReviewBadge needsReview={quality.needs_human_review} />
+              <VerifyBadge
+                status={verify.status}
+                mismatchCount={verify.mismatchCount}
+              />
             </div>
             {(source.document_url || source.landing_page_url) && (
               <div className="mt-4 flex flex-wrap gap-3 text-sm">
@@ -147,6 +157,19 @@ export default async function ManualDetailPage({
             )}
           </div>
         </div>
+
+        {verify.status === "failed" && verify.failedFields.length > 0 && (
+          <div className="mt-4 rounded-md border border-rose-200 bg-rose-50 p-3 text-sm text-rose-900">
+            <p className="font-medium">
+              Corpus verify found citation mismatches for{" "}
+              {verify.mismatchCount} field
+              {verify.mismatchCount === 1 ? "" : "s"}.
+            </p>
+            <p className="mt-1 text-xs text-rose-800/90">
+              {verify.failedFields.join(", ")}
+            </p>
+          </div>
+        )}
 
         {quality.needs_human_review && (
           <div className="mt-4 rounded-md border border-orange-200 bg-orange-50 p-3 text-sm text-orange-800">

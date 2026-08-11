@@ -56,11 +56,6 @@
       "page_or_section": "Title page, page 1"
     },
     {
-      "field": "document_metadata.version_or_edition",
-      "excerpt": "Draft: May, 2025",
-      "page_or_section": "Title page, page 1"
-    },
-    {
       "field": "document_metadata.last_revised_date",
       "excerpt": "Last Edited: May 2025 1",
       "page_or_section": "Title page, page 1"
@@ -94,9 +89,10 @@
   "extraction_quality": {
     "confidence": "medium",
     "needs_human_review": true,
-    "review_notes": "Statewide model municipal standards template (placeholder towns). Stored as NH state guidance; municipalities fill in local name when adopting.",
+    "review_notes": "Statewide model municipal standards template (placeholder towns). Stored as NH state guidance; municipalities fill in local name when adopting. Pipeline excerpt repair removed 1 unlocated citation(s).",
     "fields_not_found": [
-      "design_criteria.required_hydrologic_hydraulic_software"
+      "design_criteria.required_hydrologic_hydraulic_software",
+      "document_metadata.version_or_edition"
     ]
   },
   "source": {

@@ -1023,7 +1023,7 @@
     "updatedAt": "2026-08-10T08:18:32.603Z",
     "chars": 344,
     "pages": 2,
-    "error": "Wrong PDF (Historic Preservation memo); need real Tempe drainage/stormwater manual URL"
+    "error": "EXCLUDED: no Tempe drainage design manual; PDF was Historic Preservation memo. Use Maricopa/Mesa/Chandler for AZ local practice."
   },
   "madison-wi": {
     "status": "done",

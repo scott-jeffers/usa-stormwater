@@ -10,7 +10,15 @@
     "relationship_to_state_manual": "independent"
   },
   "design_criteria": {
-    "design_storm_return_periods_years": [1, 2, 5, 10, 25, 50, 100],
+    "design_storm_return_periods_years": [
+      1,
+      2,
+      5,
+      10,
+      25,
+      50,
+      100
+    ],
     "water_quality_volume_method": "Treat or retain the 90th-percentile annual non-exceedance storm (1.0 inch) over the Regulated Area: (1) remove 80% TSS from uncontrolled post-construction runoff during a 1.0-inch rain event, or (2) effluent TSS ≤80 mg/L, or (3) Volume Control—retain (infiltrate or store/reuse) 1.0 inch of runoff over the Regulated Area (meeting retention automatically satisfies TSS). MS4 Channel Protection also requires the larger of 1.0-inch retention or volume needed to limit 2-year/24-hour runoff to pre-development. Flood control: post-construction peak ≤0.15 cfs/acre for the 10-year/24-hour (<5 ac Regulated Area) or 100-year/24-hour (≥5 ac).",
     "peak_flow_calculation_method": [
       "Rational Method",
@@ -61,16 +69,6 @@
       "field": "document_metadata.document_title",
       "excerpt": "STORMWATER MANAGEMENT DESIGN MANUAL",
       "page_or_section": "Title Page"
-    },
-    {
-      "field": "document_metadata.version_or_edition",
-      "excerpt": "July 2025",
-      "page_or_section": "Title Page"
-    },
-    {
-      "field": "document_metadata.adoption_or_effective_date",
-      "excerpt": "July 2025",
-      "page_or_section": "Title Page / Design Manual Edit History"
     },
     {
       "field": "document_metadata.last_revised_date",
@@ -134,15 +132,18 @@
     },
     {
       "field": "design_criteria.approved_bmp_categories",
-      "excerpt": "Bioretention and Rain Gardens... Cisterns... Green Roofs... Permeable Pavements... Trees and Green Space",
-      "page_or_section": "Chapter 1, GSI Practice benefits table, Page 1-5"
+      "excerpt": "Benefits Economic Benefits Bioretention and Rain Gardens Cisterns Green Roofs Permeable Pavements Trees and Green Space Remove Impervious Cover 1.3 Chapter Overview of This Design Manual The descriptions below provide an overview of each chapter in this Design Manual",
+      "page_or_section": "p. 10"
     }
   ],
   "extraction_quality": {
     "confidence": "high",
-    "needs_human_review": false,
-    "review_notes": "Extracted from local samples/queue/detroit-mi.txt (OCR/extraction truncates after mid-manual with garbage bytes; Chapters 1–4 and TOC BMP chapters were available). Performance standards and hydrologic methods are explicit. SEMCOG LID / EGLE BMP manuals are referenced as informational only—not adopted as Detroit requirements.",
-    "fields_not_found": []
+    "needs_human_review": true,
+    "review_notes": "Extracted from local samples/queue/detroit-mi.txt (OCR/extraction truncates after mid-manual with garbage bytes; Chapters 1–4 and TOC BMP chapters were available). Performance standards and hydrologic methods are explicit. SEMCOG LID / EGLE BMP manuals are referenced as informational only—not adopted as Detroit requirements. Pipeline excerpt repair removed 2 unlocated citation(s).",
+    "fields_not_found": [
+      "document_metadata.version_or_edition",
+      "document_metadata.adoption_or_effective_date"
+    ]
   },
   "source": {
     "document_url": "https://detroitmi.gov/sites/detroitmi.localhost/files/2025-08/2025%20DWSD%20SW%20Design%20Manual.pdf",

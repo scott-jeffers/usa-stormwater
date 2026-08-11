@@ -60,8 +60,8 @@
     },
     {
       "field": "document_metadata.version_or_edition",
-      "excerpt": "KY BMP Manual Section 1",
-      "page_or_section": "Source filename"
+      "excerpt": "Planning and Technical Specifications Manual \u0018 \u0018. Introduction This.Planning.and.Technical.Specifications.Manual.contains.information.on.Best. Management.Practices.(BMPs).for.preventing,.reducing,.and.controlling.erosion,.sediment,. and.pollutant.runoff.from.construction.sites.",
+      "page_or_section": "p. 5"
     },
     {
       "field": "document_metadata.relationship_to_state_manual",
@@ -77,11 +77,6 @@
       "field": "design_criteria.design_storm_return_periods_years",
       "excerpt": "proposed construction in the floodplain ... the 100-year floodplain of all streams in the Commonwealth",
       "page_or_section": "Chapter 2, Section 2.6 Kentucky Floodplain Construction Permit"
-    },
-    {
-      "field": "design_criteria.water_quality_volume_method",
-      "excerpt": "Treatment.controls.can.include.infiltration.devices.or.sites,.filtration.devices,.and.retention.or.detention.facilities.",
-      "page_or_section": "Chapter 3, Section 3.3 Post-Construction Stormwater Management"
     },
     {
       "field": "design_criteria.water_quality_volume_method",
@@ -107,11 +102,12 @@
   "extraction_quality": {
     "confidence": "medium",
     "needs_human_review": true,
-    "review_notes": "This PDF is KYTC BMP Manual Section 1 only—focused on construction-site BMP planning and technical specifications rather than statewide post-construction hydrologic sizing; local programs (MSD, LFUCG) carry additional quantitative standards.",
+    "review_notes": "This PDF is KYTC BMP Manual Section 1 only—focused on construction-site BMP planning and technical specifications rather than statewide post-construction hydrologic sizing; local programs (MSD, LFUCG) carry additional quantitative standards. Pipeline excerpt repair removed 1 unlocated citation(s).",
     "fields_not_found": [
       "document_metadata.adoption_or_effective_date",
       "document_metadata.last_revised_date",
-      "design_criteria.required_hydrologic_hydraulic_software"
+      "design_criteria.required_hydrologic_hydraulic_software",
+      "design_criteria.water_quality_volume_method"
     ]
   },
   "source": {

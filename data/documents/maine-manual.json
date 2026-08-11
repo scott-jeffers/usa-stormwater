@@ -59,11 +59,6 @@
       "page_or_section": "Title Page"
     },
     {
-      "field": "document_metadata.version_or_edition",
-      "excerpt": "MAY 2016",
-      "page_or_section": "Title Page"
-    },
-    {
       "field": "document_metadata.last_revised_date",
       "excerpt": "This May 2016 edition supersedes these manuals",
       "page_or_section": "Acknowledgments"
@@ -106,9 +101,11 @@
   ],
   "extraction_quality": {
     "confidence": "high",
-    "needs_human_review": false,
-    "review_notes": null,
-    "fields_not_found": []
+    "needs_human_review": true,
+    "review_notes": "Pipeline excerpt repair removed 1 unlocated citation(s).",
+    "fields_not_found": [
+      "document_metadata.version_or_edition"
+    ]
   },
   "source": {
     "document_url": "https://www.maine.gov/dep/land/stormwater/stormwaterbmps/vol3/volume%20III%20May%202016.pdf",

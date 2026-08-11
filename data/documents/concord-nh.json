@@ -37,8 +37,8 @@
   "evidence": [
     {
       "field": "document_metadata.jurisdiction_name",
-      "excerpt": "City of Concord MS4 follows NH Model Stormwater Standards",
-      "page_or_section": "Coverage note"
+      "excerpt": "USDA/NRCS hydrologic soil group, as follows: Hydrologic Group Rd (inches) A 0.40 B 0.25 C 0.10 D 0.00 Channel Protection Volume (CPV) If the 2-year, 24-hour post-development storm volume does not increase due to development then: control the 2-year, 24-hour post-development p",
+      "page_or_section": "pp. 10–11"
     },
     {
       "field": "design_criteria.water_quality_volume_method",

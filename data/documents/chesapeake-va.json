@@ -10,7 +10,14 @@
     "relationship_to_state_manual": "independent"
   },
   "design_criteria": {
-    "design_storm_return_periods_years": [2, 5, 10, 25, 50, 100],
+    "design_storm_return_periods_years": [
+      2,
+      5,
+      10,
+      25,
+      50,
+      100
+    ],
     "water_quality_volume_method": "Virginia Runoff Reduction Method (VRRM) with DEQ compliance spreadsheets: prevent a net increase in nonpoint source pollution for new development (post-development load shall not exceed predevelopment based on average land cover conditions); for redevelopment, achieve a 10% reduction when land disturbance is less than one acre and a 20% reduction when one acre or greater (Chesapeake Bay Preservation Area Designation and Management Regulations). Non-proprietary BMP pollutant removal efficiencies in Table 4.1 are based upon 1 inch of rainfall.",
     "peak_flow_calculation_method": [
       "Rational method (storm drainage HGL; <200 acres = 10-year, >200 acres = 50-year)",
@@ -140,8 +147,8 @@
     },
     {
       "field": "design_criteria.required_hydrologic_hydraulic_software",
-      "excerpt": "Acceptable methods for runoff analysis are tabulated below: Hydrology Software HEC-GeoHMS... HEC-HMS... TR-55... TR-20... Pond Pack... WMS... Watershed Modeling... Hydraulic Software HEC-RAS... EPA SWMM... FHWA HY-8... CulvertMaster... FlowMaster... Water Quality Software VA Runoff Reduction Method... HSPF",
-      "page_or_section": "Section 5.2 HYDROLOGY C, Pages 5-5–5-6"
+      "excerpt": "25-yr. 7.0” 50-yr. 8.17” 100 9.44” C. Acceptable methods for runoff analysis are tabulated below: Model Major Sys. Minor Sys. Hydrologic Hydraulic Water Quality Hydrology Software HEC-GeoHMS X X HEC-HMS X X TR-55 X TR-20 X Pond Pack X X X WMS X X Watershed Modeling X X Hydrauli",
+      "page_or_section": "p. 5"
     },
     {
       "field": "design_criteria.required_hydrologic_hydraulic_software",
@@ -150,8 +157,8 @@
     },
     {
       "field": "design_criteria.approved_bmp_categories",
-      "excerpt": "Table 4.1. BMP Pollutant Removal Efficiencies... Rooftop Disconnection... Sheetflow to Vegetated Filter or Conserved Open Space... Grass Channel... Soil Amendments... Vegetated Roof... Rainwater Harvesting... Permeable Pavement... Infiltration... Bioretention... Urban Bioretention... Dry Swale... Wet Swale... Filtering Practice... Constructed Wetland... Wet Pond... Extended Detention Pond",
-      "page_or_section": "Table 4.1, Pages 5-18–5-19"
+      "excerpt": "and/or maintenance. 4. Acceptable BMP Facilities: Post construction BMPs can be either Non-Proprietary BMPs or Proprietary/Manufactured BMPs. DEQ is currently evaluating Proprietary/Manufactured BMP’s for recommended efficiencies; there are no approved Proprietary/Man",
+      "page_or_section": "p. 18"
     },
     {
       "field": "design_criteria.approved_bmp_categories",

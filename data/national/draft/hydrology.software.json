@@ -1,0 +1,436 @@
+{
+  "section_id": "hydrology.software",
+  "title": "Approved Hydrologic and Hydraulic Software",
+  "generated_at": "2026-08-11T03:43:21.051Z",
+  "model": "heuristic+editorial",
+  "editorial_status": "reviewed",
+  "practice_survey": "Manuals rarely mandate a single product. They more often list acceptable tools that implement approved methods and can export reviewable inputs and outputs. Named families in the atlas frequently include HEC-HMS, EPA SWMM, HydroCAD, and HEC-RAS for open-channel or floodplain checks.",
+  "draft_recommendation": "Treat software as an allow-list of capabilities, not a single mandated product. Accept tools that implement approved hydrologic methods and export reproducible inputs and outputs. Require version disclosure and input files with submittals. Defer to more restrictive local agency lists.",
+  "regional_variants": null,
+  "open_issues": "Prescribe versus allow-list posture. How to handle proprietary and cloud-only tools in public-records submittals.",
+  "guidance_tables": [
+    {
+      "id": "software-criteria",
+      "title": "Software allow-list posture (capability, not a mandated product)",
+      "caption": "Draft national guidance grounded in atlas practice — not a design manual or adopted regulation.",
+      "columns": [
+        "Capability need",
+        "Suggested national guidance",
+        "Atlas note"
+      ],
+      "rows": [
+        [
+          "Event / watershed hydrology",
+          "Accept tools that implement approved methods and export reviewable inputs/outputs (e.g. HEC-HMS class)",
+          "29% of manuals with software lists (22)"
+        ],
+        [
+          "Urban runoff / LID continuous",
+          "Accept SWMM-class tools where continuous or multi-event simulation is required",
+          "17% of manuals with software lists (13)"
+        ],
+        [
+          "Site detention / pond routing",
+          "Accept HydroCAD-class or equivalent tools used by the review agency",
+          "21% of manuals with software lists (16)"
+        ],
+        [
+          "Open channel / floodplain",
+          "Accept HEC-RAS-class tools for conveyance and floodplain checks when required",
+          "13% of manuals with software lists (10)"
+        ],
+        [
+          "Submittal hygiene",
+          "Require version disclosure and native input files with the drainage report — do not mandate a single brand",
+          "Atlas lists named tools; product mandates are uncommon"
+        ]
+      ],
+      "row_citations": [
+        [
+          "1",
+          "3",
+          "5",
+          "9",
+          "11"
+        ],
+        [
+          "6",
+          "9",
+          "10",
+          "11",
+          "13"
+        ],
+        [
+          "2",
+          "4",
+          "5",
+          "8",
+          "11"
+        ],
+        [
+          "3",
+          "6",
+          "7",
+          "9",
+          "12"
+        ],
+        []
+      ]
+    }
+  ],
+  "recommendation_clauses": [
+    {
+      "id": "allow-list",
+      "number": "6.1",
+      "text": "Treat software as an allow-list of capabilities, not a single mandated product.",
+      "citation_keys": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "confidence": "editorial"
+    },
+    {
+      "id": "approved-tools",
+      "number": "6.2",
+      "text": "Accept tools that implement approved hydrologic methods and export reproducible inputs and outputs (HEC-HMS, SWMM, HydroCAD, and HEC-RAS class tools are frequently named).",
+      "citation_keys": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "confidence": "field_verified"
+    },
+    {
+      "id": "submittal-files",
+      "number": "6.3",
+      "text": "Require version disclosure and native input files with drainage-report submittals.",
+      "citation_keys": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "confidence": "editorial"
+    }
+  ],
+  "citation_registry": [
+    {
+      "key": "1",
+      "slug": "ak-state",
+      "state_code": "AK",
+      "excerpt": "A partial list of hydrologic modeling software accepted by some Alaskan municipalities includes the following: ILLUDAS TR55-1986 WinTR553 WinTR20 SCS HEC-HMS",
+      "page_or_section": "Section 3.2, page 3-5",
+      "confidence": "field_verified",
+      "field": "design_criteria.required_hydrologic_hydraulic_software"
+    },
+    {
+      "key": "2",
+      "slug": "ct-state",
+      "state_code": "CT",
+      "excerpt": "hydrologic analysis software such as WinTR-55... HydroCAD or similar software... TR-20... USGS and New Jersey Department of Environmental Protection Hantush Groundwater Mounding Spreadsheet",
+      "page_or_section": "Page 55, 59, 190",
+      "confidence": "field_verified",
+      "field": "design_criteria.required_hydrologic_hydraulic_software"
+    },
+    {
+      "key": "3",
+      "slug": "mn-state-2008",
+      "state_code": "MN",
+      "excerpt": "TR-55 (original or DOS) ... HEC-1 ... HEC-HMS ... WinTR-20 (or TR-20) ... WinTR-55 ... HEC-RAS",
+      "page_or_section": "Chapter 8, Table 8.1 Modeling Tool Selection",
+      "confidence": "field_verified",
+      "field": "design_criteria.required_hydrologic_hydraulic_software"
+    },
+    {
+      "key": "4",
+      "slug": "ny-bluebook",
+      "state_code": "NY",
+      "excerpt": "These data can be imported into HydroCAD, USDA NRCS TR20, and other computer models",
+      "page_or_section": "Page 1.5",
+      "confidence": "field_verified",
+      "field": "design_criteria.required_hydrologic_hydraulic_software"
+    },
+    {
+      "key": "5",
+      "slug": "ny-state",
+      "state_code": "NY",
+      "excerpt": "Hydraulic and hydrologic modeling software, such as USDA NRCS TR20, HydroCAD, Pond Pack, StormCAD, Hydraflow, and Hydrologic Engineering Center Hydrologic Modeling System (HEC-HMS) and others, shall be used",
+      "page_or_section": "Section 4.9",
+      "confidence": "field_verified",
+      "field": "design_criteria.required_hydrologic_hydraulic_software"
+    },
+    {
+      "key": "6",
+      "slug": "pa-state",
+      "state_code": "PA",
+      "excerpt": "HEC-RAS, International River Interface Cooperative (iRIC), or other software capable of performing a sediment transport analysis.",
+      "page_or_section": "Page 2-65",
+      "confidence": "field_verified",
+      "field": "design_criteria.required_hydrologic_hydraulic_software"
+    },
+    {
+      "key": "7",
+      "slug": "vt-state",
+      "state_code": "VT",
+      "excerpt": "The models TR-55 and TR-20 (or approved equivalent) will be used for determining peak discharge rates",
+      "page_or_section": "2-14",
+      "confidence": "field_verified",
+      "field": "design_criteria.required_hydrologic_hydraulic_software"
+    },
+    {
+      "key": "8",
+      "slug": "charlotte-nc",
+      "state_code": "NC",
+      "excerpt": "The City will typically use HEC software to verify designs submitted by the development community. In addition, the City may check designs using HydroCAD and StormCAD. Designers may use any software tools that are based on the methods described in this manual.",
+      "page_or_section": "Chapter 1, Section 1.3, Page 7",
+      "confidence": "field_verified",
+      "field": "design_criteria.required_hydrologic_hydraulic_software"
+    },
+    {
+      "key": "9",
+      "slug": "chesapeake-va",
+      "state_code": "VA",
+      "excerpt": "25-yr. 7.0” 50-yr. 8.17” 100 9.44” C. Acceptable methods for runoff analysis are tabulated below: Model Major Sys. Minor Sys. Hydrologic Hydraulic Water Quality Hydrology Software HEC-GeoHMS X X HEC-HMS X X TR-55 X TR-20 X Pond Pack X X X WMS X X Watershed Modeling X X Hydrauli",
+      "page_or_section": "p. 5",
+      "confidence": "field_verified",
+      "field": "design_criteria.required_hydrologic_hydraulic_software"
+    },
+    {
+      "key": "10",
+      "slug": "dc-guidebook",
+      "state_code": "DC",
+      "excerpt": "HEC-1, WinTR-55, TR-20, and SWMM Computer Models",
+      "page_or_section": "Appendix H, Section H.4",
+      "confidence": "field_verified",
+      "field": "design_criteria.required_hydrologic_hydraulic_software"
+    },
+    {
+      "key": "11",
+      "slug": "detroit-mi",
+      "state_code": "MI",
+      "excerpt": "Rational Method, EPA SWMM, HydroCAD, StormCAD, or other DWSD-approved model... NRCS Curve Number Approach, EPA SWMM, HEC-HMS, TR-55, TR-20, HydroCAD, StormCAD, or other DWSD-approved model",
+      "page_or_section": "Chapter 4, Table 4-5, Page 4-9",
+      "confidence": "field_verified",
+      "field": "design_criteria.required_hydrologic_hydraulic_software"
+    },
+    {
+      "key": "12",
+      "slug": "los-angeles-ca",
+      "state_code": "CA",
+      "excerpt": "LACPW developed a hydrologic calculator (HydroCalc)... Use of this program is encouraged",
+      "page_or_section": "Section 6.3, Page 6-3",
+      "confidence": "field_verified",
+      "field": "design_criteria.required_hydrologic_hydraulic_software"
+    },
+    {
+      "key": "13",
+      "slug": "minneapolis-mn",
+      "state_code": "MN",
+      "excerpt": "The hydrologic and hydraulic models accepted by the City of Minneapolis include: HydroCAD; XP-SWMM",
+      "page_or_section": "Section 4.3.1.6, Page 26",
+      "confidence": "field_verified",
+      "field": "design_criteria.required_hydrologic_hydraulic_software"
+    },
+    {
+      "key": "14",
+      "slug": "chesapeake-va",
+      "state_code": "VA",
+      "excerpt": "Minor Sys. Hydrologic Hydraulic Water Quality Hydrology Software HEC-GeoHMS X X HEC-HMS X X TR-55 X TR-20 X Pond Pack X X X WMS X X Watershed Modeling X X Hydraulic Software HEC-GoeRAS X X HEC-RAS X X WSPRO X X EPA SWMM X X X X X FHWA HY-8 (Culver",
+      "page_or_section": "pages 5-5",
+      "confidence": "corpus_pattern",
+      "field": "corpus_chunk"
+    },
+    {
+      "key": "15",
+      "slug": "mn-state-2008",
+      "state_code": "MN",
+      "excerpt": "infall-runoff simulation, reservoir & channel routing HEC-1 Medium No Yes -- -- HEC-HMS Medium Yes Yes -- -- WinTR-20 (or TR-20) Medium No Yes -- -- WinTR-55 Low No Yes -- -- HydroCAD Medium No No -- -- Hydraulic Models water surface profile deter",
+      "page_or_section": "pages 189-189",
+      "confidence": "corpus_pattern",
+      "field": "corpus_chunk"
+    },
+    {
+      "key": "16",
+      "slug": "idaho-bmp-catalog",
+      "state_code": "ID",
+      "excerpt": "ogram—Fortran (HSPF), Hydrologic Engineering Center Hydrologic Modeling System (HEC-HMS), and Storm Water Management Model (SWMM). EPA’s National Stormwater Calculator, released in 2012, uses the SWMM modeling engine combined with an interactive m",
+      "page_or_section": "pages 70-70",
+      "confidence": "corpus_pattern",
+      "field": "corpus_chunk"
+    },
+    {
+      "key": "17",
+      "slug": "detroit-mi",
+      "state_code": "MI",
+      "excerpt": "or hydrograph routing software (i.e. EPA SWMM, proprietary SWMM-based software, HEC-HMS, TR-20, HydroCAD, StormCAD, or similar) must be used. The Modified Rational Method employs a series of trapezoidal shaped hydrographs created from different st",
+      "page_or_section": "pages 104-104",
+      "confidence": "corpus_pattern",
+      "field": "corpus_chunk"
+    },
+    {
+      "key": "18",
+      "slug": "pa-state",
+      "state_code": "PA",
+      "excerpt": "ever, other available models for this approach include: HydroCAD, PondPack, EPA SWMM or other SWMM packages, TR-20, TR-55 and TR-55 based computer models, WinSLAMM, and others. DEP recommends to utilize a model with the most appropriate hydrolo",
+      "page_or_section": "pages 488-488",
+      "confidence": "corpus_pattern",
+      "field": "corpus_chunk"
+    },
+    {
+      "key": "19",
+      "slug": "minneapolis-mn",
+      "state_code": "MN",
+      "excerpt": "ment should be used. Table 4-2 Parameter guidance Precipitation HydroCAD and XP-SWMM Design storm events for HydroCAD and XPSWMM See Table 4-3: City of Minneapolis design storm events—rainfall frequency depth [24-hour storm event] P8 precipitat",
+      "page_or_section": "pages 41-41",
+      "confidence": "corpus_pattern",
+      "field": "corpus_chunk"
+    },
+    {
+      "key": "20",
+      "slug": "portland-or",
+      "state_code": "OR",
+      "excerpt": "Method, NRCS’s TR-55, the Army Corps of Engineers’ Hydrologic Modeling System (HEC-HMS) or HEC-1, or the Environmental Protection Agency’s Storm Water Management Model (EPA-SWMM). If sizing using continuous simulation, a minimum of 20 years of Po",
+      "page_or_section": "pages 101-101",
+      "confidence": "corpus_pattern",
+      "field": "corpus_chunk"
+    },
+    {
+      "key": "21",
+      "slug": "ny-state",
+      "state_code": "NY",
+      "excerpt": "rmCAD, Hydraflow, and Hydrologic Engineering Center Hydrologic Modeling System (HEC-HMS) and others, shall be used to extract rainfall frequency and duration data, for the project location, to create intensity-duration-frequency (IDF) curves, and",
+      "page_or_section": "pages 50-50",
+      "confidence": "corpus_pattern",
+      "field": "corpus_chunk"
+    },
+    {
+      "key": "22",
+      "slug": "philadelphia-pa",
+      "state_code": "PA",
+      "excerpt": "urve Number Method Any Moderate to high Yes (smaller sites) NRCS, TR-55, TR-20, HEC-HMS Infiltration loss models Constant Loss Any Moderate to high Yes (smaller sites) HEC-HMS Green-Ampt Any High No EPA SWMM, HEC-HMS Horton Any High No EPA SWMM PW",
+      "page_or_section": "pages 228-228",
+      "confidence": "corpus_pattern",
+      "field": "corpus_chunk"
+    },
+    {
+      "key": "23",
+      "slug": "lawrence-ks",
+      "state_code": "KS",
+      "excerpt": "he SWMM program is also available from the U.S. EPA Water Research website. The HEC-HMS and TR-55 packages are also available through the US Army Corps of Engineers Hydrologic Engineering Center Software website. 2. Acceptable manual methods shall",
+      "page_or_section": "pages 18-18",
+      "confidence": "corpus_pattern",
+      "field": "corpus_chunk"
+    },
+    {
+      "key": "24",
+      "slug": "columbus-oh",
+      "state_code": "OH",
+      "excerpt": "alculation, or using a computer model able to compute backwater curves, such as HEC-RAS or U.S. EPA SWMM. Demonstrate that the water elevation resulting from the 100-year storm event does not encroach into proposed or existing residential dwelling",
+      "page_or_section": "pages 171-171",
+      "confidence": "corpus_pattern",
+      "field": "corpus_chunk"
+    }
+  ],
+  "citations": [
+    {
+      "slug": "chesapeake-va",
+      "chunk_id": "chesapeake-va-c0007",
+      "page_or_section": "pages 5-5",
+      "excerpt": "Minor Sys. Hydrologic Hydraulic Water Quality Hydrology Software HEC-GeoHMS X X HEC-HMS X X TR-55 X TR-20 X Pond Pack X X X WMS X X Watershed Modeling X X Hydraulic Software HEC-GoeRAS X X HEC-RAS X X WSPRO X X EPA SWMM X X X X X FHWA HY-8 (Culver"
+    },
+    {
+      "slug": "mn-state-2008",
+      "chunk_id": "mn-state-2008-c0158",
+      "page_or_section": "pages 189-189",
+      "excerpt": "infall-runoff simulation, reservoir & channel routing HEC-1 Medium No Yes -- -- HEC-HMS Medium Yes Yes -- -- WinTR-20 (or TR-20) Medium No Yes -- -- WinTR-55 Low No Yes -- -- HydroCAD Medium No No -- -- Hydraulic Models water surface profile deter"
+    },
+    {
+      "slug": "idaho-bmp-catalog",
+      "chunk_id": "idaho-bmp-catalog-c0079",
+      "page_or_section": "pages 70-70",
+      "excerpt": "ogram—Fortran (HSPF), Hydrologic Engineering Center Hydrologic Modeling System (HEC-HMS), and Storm Water Management Model (SWMM). EPA’s National Stormwater Calculator, released in 2012, uses the SWMM modeling engine combined with an interactive m"
+    },
+    {
+      "slug": "detroit-mi",
+      "chunk_id": "detroit-mi-c0130",
+      "page_or_section": "pages 104-104",
+      "excerpt": "or hydrograph routing software (i.e. EPA SWMM, proprietary SWMM-based software, HEC-HMS, TR-20, HydroCAD, StormCAD, or similar) must be used. The Modified Rational Method employs a series of trapezoidal shaped hydrographs created from different st"
+    },
+    {
+      "slug": "pa-state",
+      "chunk_id": "pa-state-c0381",
+      "page_or_section": "pages 488-488",
+      "excerpt": "ever, other available models for this approach include: HydroCAD, PondPack, EPA SWMM or other SWMM packages, TR-20, TR-55 and TR-55 based computer models, WinSLAMM, and others. DEP recommends to utilize a model with the most appropriate hydrolo"
+    },
+    {
+      "slug": "minneapolis-mn",
+      "chunk_id": "minneapolis-mn-c0056",
+      "page_or_section": "pages 41-41",
+      "excerpt": "ment should be used. Table 4-2 Parameter guidance Precipitation HydroCAD and XP-SWMM Design storm events for HydroCAD and XPSWMM See Table 4-3: City of Minneapolis design storm events—rainfall frequency depth [24-hour storm event] P8 precipitat"
+    },
+    {
+      "slug": "minneapolis-mn",
+      "chunk_id": "minneapolis-mn-c0052",
+      "page_or_section": "pages 38-38",
+      "excerpt": "d hydraulic models accepted by the City of Minneapolis include: • HydroCAD • XP-SWMM These models contain several methodologies to compute runoff from precipitation. The methods preferred by the City include: • NRCS/SCS curve number runoff meth"
+    },
+    {
+      "slug": "portland-or",
+      "chunk_id": "portland-or-c0077",
+      "page_or_section": "pages 101-101",
+      "excerpt": "Method, NRCS’s TR-55, the Army Corps of Engineers’ Hydrologic Modeling System (HEC-HMS) or HEC-1, or the Environmental Protection Agency’s Storm Water Management Model (EPA-SWMM). If sizing using continuous simulation, a minimum of 20 years of Po"
+    },
+    {
+      "slug": "pa-state",
+      "chunk_id": "pa-state-c0387",
+      "page_or_section": "pages 494-494",
+      "excerpt": "e F-1). The second design storm volume management analysis is performed via EPA SWMM (Version 5.1; freeware) using a treatment train SCM (includes a green roof, permeable pavement and bioinfiltration; Example F-2). The third design storm volume"
+    },
+    {
+      "slug": "ny-state",
+      "chunk_id": "ny-state-c0037",
+      "page_or_section": "pages 50-50",
+      "excerpt": "rmCAD, Hydraflow, and Hydrologic Engineering Center Hydrologic Modeling System (HEC-HMS) and others, shall be used to extract rainfall frequency and duration data, for the project location, to create intensity-duration-frequency (IDF) curves, and"
+    },
+    {
+      "slug": "detroit-mi",
+      "chunk_id": "detroit-mi-c0136",
+      "page_or_section": "pages 111-111",
+      "excerpt": "raulic controls, and storage routing for the 10- and 100-year storms. HydroCAD, HEC-HMS, WinTR-55, WinTR-20, StormCAD, and other similar software packages are capable of performing required computations. Prior to selecting a model for a site plan"
+    },
+    {
+      "slug": "philadelphia-pa",
+      "chunk_id": "philadelphia-pa-c0224",
+      "page_or_section": "pages 228-228",
+      "excerpt": "urve Number Method Any Moderate to high Yes (smaller sites) NRCS, TR-55, TR-20, HEC-HMS Infiltration loss models Constant Loss Any Moderate to high Yes (smaller sites) HEC-HMS Green-Ampt Any High No EPA SWMM, HEC-HMS Horton Any High No EPA SWMM PW"
+    },
+    {
+      "slug": "lawrence-ks",
+      "chunk_id": "lawrence-ks-c0029",
+      "page_or_section": "pages 18-18",
+      "excerpt": "he SWMM program is also available from the U.S. EPA Water Research website. The HEC-HMS and TR-55 packages are also available through the US Army Corps of Engineers Hydrologic Engineering Center Software website. 2. Acceptable manual methods shall"
+    },
+    {
+      "slug": "columbus-oh",
+      "chunk_id": "columbus-oh-c0132",
+      "page_or_section": "pages 171-171",
+      "excerpt": "alculation, or using a computer model able to compute backwater curves, such as HEC-RAS or U.S. EPA SWMM. Demonstrate that the water elevation resulting from the 100-year storm event does not encroach into proposed or existing residential dwelling"
+    }
+  ],
+  "supporting_slugs": [
+    "chesapeake-va",
+    "mn-state-2008",
+    "idaho-bmp-catalog",
+    "detroit-mi",
+    "pa-state",
+    "minneapolis-mn",
+    "portland-or",
+    "ny-state",
+    "philadelphia-pa",
+    "lawrence-ks",
+    "columbus-oh"
+  ]
+}

@@ -1,0 +1,371 @@
+{
+  "section_id": "bmps.manufactured",
+  "title": "Manufactured / Proprietary Treatment Devices",
+  "generated_at": "2026-08-11T03:43:21.058Z",
+  "model": "heuristic+editorial",
+  "editorial_status": "reviewed",
+  "practice_survey": "Manufactured treatment devices appear in many approved-BMP lists and are commonly conditioned on independent verification (for example TAPE, NJCAT, or state lists). Agencies differ on offline versus online configurations and on whether MTDs may replace runoff-reduction steps.",
+  "draft_recommendation": "Allow manufactured devices conditionally with reference to recognized verification programs or state approval lists. Size for the water-quality peak or volume per manufacturer and agency rules. Require inspection access and O&M commitments. Do not use MTDs to bypass runoff-reduction hierarchy where infiltration is feasible. Prefer verified performance data over marketing claims.",
+  "regional_variants": "State approval lists differ; some localities ban proprietary devices or require offline configuration.",
+  "open_issues": "Which verification programs to cite nationally. Offline versus online configurations and bypass design.",
+  "guidance_tables": [
+    {
+      "id": "bmp-hierarchy-criteria",
+      "title": "SCM selection hierarchy",
+      "caption": "Draft national guidance grounded in atlas practice — not a design manual or adopted regulation.",
+      "columns": [
+        "Hierarchy step",
+        "Suggested national guidance",
+        "Atlas note"
+      ],
+      "rows": [
+        [
+          "1. Avoid / minimize",
+          "Reduce imperviousness and disconnect drainage before selecting structural SCMs",
+          "Hierarchy language common in GI/LID chapters"
+        ],
+        [
+          "2. Runoff reduction / retention",
+          "Prefer infiltration, harvesting, and volume reduction where soils and groundwater allow",
+          "52% of BMP-list manuals (154)"
+        ],
+        [
+          "3. Filtration / bioretention",
+          "Use bioretention and filtration for treatment when retention is limited",
+          "43% of BMP-list manuals (130)"
+        ],
+        [
+          "4. Detention / peak control",
+          "Use detention to meet channel and flood criteria after volume and treatment steps",
+          "61% of BMP-list manuals (182)"
+        ],
+        [
+          "5. Manufactured treatment",
+          "Allow MTDs conditionally with verification-program references; do not bypass hierarchy where infiltration is feasible",
+          "18% of BMP-list manuals (54)"
+        ]
+      ],
+      "row_citations": [
+        [],
+        [
+          "1",
+          "3",
+          "4",
+          "5",
+          "6"
+        ],
+        [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        [
+          "3",
+          "5",
+          "6",
+          "7",
+          "8"
+        ]
+      ]
+    }
+  ],
+  "recommendation_clauses": [
+    {
+      "id": "verification",
+      "number": "14.1",
+      "text": "Allow manufactured devices conditionally with reference to recognized verification programs or state approval lists.",
+      "citation_keys": [
+        "3",
+        "1",
+        "2",
+        "4"
+      ],
+      "confidence": "field_verified"
+    },
+    {
+      "id": "size-wq-peak",
+      "number": "14.2",
+      "text": "Size for the water-quality peak or volume per manufacturer and agency rules.",
+      "citation_keys": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "confidence": "editorial"
+    },
+    {
+      "id": "no-bypass-hierarchy",
+      "number": "14.3",
+      "text": "Do not use MTDs to bypass runoff-reduction hierarchy where infiltration is feasible; prefer verified performance data over marketing claims.",
+      "citation_keys": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "confidence": "editorial"
+    }
+  ],
+  "citation_registry": [
+    {
+      "key": "1",
+      "slug": "ak-state",
+      "state_code": "AK",
+      "excerpt": "Primary Secondary Secondary Secondary Extended Storage Pond High Low Primary Secondary Secondary Secondary Wet Vaults Medium Lowa Primary Secondary Secondary Minor Detention Dry Pond High Low Secondary Minor Minor Minor Oversized Pipes High Low Minor Minor Minor Minor Oil/Grit",
+      "page_or_section": "pp. 180–181",
+      "confidence": "field_verified",
+      "field": "design_criteria.approved_bmp_categories"
+    },
+    {
+      "key": "2",
+      "slug": "alabama-handbook",
+      "state_code": "AL",
+      "excerpt": "3) modification of the surface drainage pattern, including the associated development of stormwater management facilities. Summary of Hazards Associated with Land Development On-site Land development clearly increases potential erosion and sediment hazards on-sit",
+      "page_or_section": "pp. 18–19",
+      "confidence": "field_verified",
+      "field": "design_criteria.approved_bmp_categories"
+    },
+    {
+      "key": "3",
+      "slug": "billings-mt",
+      "state_code": "MT",
+      "excerpt": "Infiltration Basin ... Bioretention ... Permeable Pavement Systems ... Dispersion ... Biofiltration Swale ... Extended Detention Basin ... Wet Detention Basin ... Proprietary Treatment Devices",
+      "page_or_section": "Contents, Chapter 5",
+      "confidence": "field_verified",
+      "field": "design_criteria.approved_bmp_categories"
+    },
+    {
+      "key": "4",
+      "slug": "ca-caltrans-construction",
+      "state_code": "CA",
+      "excerpt": "Caltrans Construction Site BMPs are divided into six categories, as shown in Table 2-1: Temporary Soil Stabilization, Temporary Sediment Control, Wind Erosion Control, Tracking Control, Non-Stormwater Management, Waste Management and Materials Pollution Control",
+      "page_or_section": "Section 2.2, Table 2-1, Pages 2-5 to 2-7",
+      "confidence": "field_verified",
+      "field": "design_criteria.approved_bmp_categories"
+    },
+    {
+      "key": "5",
+      "slug": "ca-casqa-municipal",
+      "state_code": "CA",
+      "excerpt": "Table 3-1 Municipal Fixed Facility BMPs: Non-Stormwater Management, Vehicle and Equipment Management, Material and Waste Management, Building and Grounds Management, Over Water Activities, General Stormwater Management",
+      "page_or_section": "Table 3-1, Page 3-1",
+      "confidence": "field_verified",
+      "field": "design_criteria.approved_bmp_categories"
+    },
+    {
+      "key": "6",
+      "slug": "ct-state",
+      "state_code": "CT",
+      "excerpt": "This Manual includes the following major categories and types of structural stormwater BMPs that are recommended for use in Connecticut, based on their primary function: Pretreatment BMPs, Infiltration BMPs, Filtering BMPs, Stormwater Pond BMPs, Stormwater Wetland BMPs, Water Quality Conveyance BMPs, Stormwater Reuse B",
+      "page_or_section": "Page 110-111, Functional Categories of Structural Stormwater BMPs",
+      "confidence": "field_verified",
+      "field": "design_criteria.approved_bmp_categories"
+    },
+    {
+      "key": "7",
+      "slug": "ga-state",
+      "state_code": "GA",
+      "excerpt": "Bioretention Basin; Bioslopes; Dry Wells; Infiltration Trenches; Organic Filters; Regenerative Stormwater Conveyance; Sand Filters; and Stormwater Planters/Tree Boxes",
+      "page_or_section": "199",
+      "confidence": "field_verified",
+      "field": "design_criteria.approved_bmp_categories"
+    },
+    {
+      "key": "8",
+      "slug": "hawaii-dot-pcbmp",
+      "state_code": "HI",
+      "excerpt": "LID TREATMENT CONTROL BMPs: Vegetated Buffer Strip, Vegetated Swale, Enhanced Swale, Infiltration Trench, Infiltration Basin, Bioretention Facility, Permeable Pavement, Pocket Wetland, Rainwater Harvesting, Tree Box Filter",
+      "page_or_section": "Appendix A, Page v",
+      "confidence": "field_verified",
+      "field": "design_criteria.approved_bmp_categories"
+    },
+    {
+      "key": "9",
+      "slug": "pa-state",
+      "state_code": "PA",
+      "excerpt": "COMMON TYPES OF MTDs This Manual addresses the following general types of MTDs: manufactured filters, hydrodynamic separators, micro-bioretention, and manufactured FCDs. Manufactured filters are manufactured devices that contain granulated filter media",
+      "page_or_section": "pages 300-300",
+      "confidence": "corpus_pattern",
+      "field": "corpus_chunk"
+    },
+    {
+      "key": "10",
+      "slug": "detroit-mi",
+      "state_code": "MI",
+      "excerpt": "Stormwater Management Design Manual CHAPTER 14 – Manufactured Treatment Devices14-1 14. Manufactured Treatment Devices This chapter discusses manufactured treatment devices (MTDs), which are proprietary commercially avail",
+      "page_or_section": "pages 432-432",
+      "confidence": "corpus_pattern",
+      "field": "corpus_chunk"
+    },
+    {
+      "key": "11",
+      "slug": "hawaii-dot-pcbmp",
+      "state_code": "HI",
+      "excerpt": "new or existing drainage structures. These proprietary devices rely on various manufactured processes to achieve the required water quality treatment. A wide variety of proprietary BMPs exist, not all of which could be included here. The designer must",
+      "page_or_section": "pages 176-177",
+      "confidence": "corpus_pattern",
+      "field": "corpus_chunk"
+    },
+    {
+      "key": "12",
+      "slug": "billings-mt",
+      "state_code": "MT",
+      "excerpt": "anual September 2017 | A-3 Appendix A – Glossary Proprietary Treatment Devices: Manufactured devices used to treat storm water runoff through various processes which may include sedimentation, filtration, and sorption. These devices can provide treatme",
+      "page_or_section": "pages 151-151",
+      "confidence": "corpus_pattern",
+      "field": "corpus_chunk"
+    },
+    {
+      "key": "13",
+      "slug": "vt-state",
+      "state_code": "VT",
+      "excerpt": "atment Standards Section 4.0 4.1.5. Proprietary Devices Proprietary devices are manufactured systems that use proprietary settling, filtration, absorption/adsorption, vortex principles, vegetation, and other processes to provide stormwater treatment. T",
+      "page_or_section": "pages 53-54",
+      "confidence": "corpus_pattern",
+      "field": "corpus_chunk"
+    },
+    {
+      "key": "14",
+      "slug": "ct-state",
+      "state_code": "CT",
+      "excerpt": "horus Low Nitrogen Low Bacteria Low Description Proprietary stormwater BMPs are manufactured systems that use proprietary settling, filtration, absorption/adsorption, vortex principles, vegetation, and other processes to remove pollutants from stormwat",
+      "page_or_section": "pages 259-259",
+      "confidence": "corpus_pattern",
+      "field": "corpus_chunk"
+    },
+    {
+      "key": "15",
+      "slug": "tn-state",
+      "state_code": "TN",
+      "excerpt": "5.4.12 Manufactured/Proprietary Tre Manufactured or proprietary stormwater control measures are absorption/adsorption, vortex principles, vegetation, and oth management requiremen",
+      "page_or_section": "pages 274-274",
+      "confidence": "corpus_pattern",
+      "field": "corpus_chunk"
+    },
+    {
+      "key": "16",
+      "slug": "dc-guidebook",
+      "state_code": "DC",
+      "excerpt": "differentiate between a traditional stormwater BMP, a proprietary practice, or manufactured BMP, the term Manufactured Treatment Device (MTD) will be utilized for the class of practices that require an approval from DDOE. DDOE recognizes the value of",
+      "page_or_section": "pages 211-211",
+      "confidence": "corpus_pattern",
+      "field": "corpus_chunk"
+    },
+    {
+      "key": "17",
+      "slug": "ri-state",
+      "state_code": "RI",
+      "excerpt": "al when a LUHPPL is present. Figure 6-4 Deep Sump Catch Basin (MADEP, 2008) 6.6 PROPRIETARY DEVICES Many proprietary devices have been developed over the years in an attempt to provide cost-effective stormwater treatment, particularly for retrofit sit",
+      "page_or_section": "pages 170-171",
+      "confidence": "corpus_pattern",
+      "field": "corpus_chunk"
+    }
+  ],
+  "citations": [
+    {
+      "slug": "pa-state",
+      "chunk_id": "pa-state-c0239",
+      "page_or_section": "pages 300-300",
+      "excerpt": "COMMON TYPES OF MTDs This Manual addresses the following general types of MTDs: manufactured filters, hydrodynamic separators, micro-bioretention, and manufactured FCDs. Manufactured filters are manufactured devices that contain granulated filter media"
+    },
+    {
+      "slug": "detroit-mi",
+      "chunk_id": "detroit-mi-c0389",
+      "page_or_section": "pages 432-432",
+      "excerpt": "Stormwater Management Design Manual CHAPTER 14 – Manufactured Treatment Devices14-1 14. Manufactured Treatment Devices This chapter discusses manufactured treatment devices (MTDs), which are proprietary commercially avail"
+    },
+    {
+      "slug": "hawaii-dot-pcbmp",
+      "chunk_id": "hawaii-dot-pcbmp-c0161",
+      "page_or_section": "pages 176-177",
+      "excerpt": "new or existing drainage structures. These proprietary devices rely on various manufactured processes to achieve the required water quality treatment. A wide variety of proprietary BMPs exist, not all of which could be included here. The designer must"
+    },
+    {
+      "slug": "pa-state",
+      "chunk_id": "pa-state-c0240",
+      "page_or_section": "pages 301-303",
+      "excerpt": "386-0300-001 / January 28, 2023 / DRAFT / Page 3-223 Figure 3-63: Manufactured filter example Hydrodynamic Separators (HDSs) are manufactured devices that allow for the settling of particles from stormwater and the separation of floating"
+    },
+    {
+      "slug": "billings-mt",
+      "chunk_id": "billings-mt-c0122",
+      "page_or_section": "pages 151-151",
+      "excerpt": "anual September 2017 | A-3 Appendix A – Glossary Proprietary Treatment Devices: Manufactured devices used to treat storm water runoff through various processes which may include sedimentation, filtration, and sorption. These devices can provide treatme"
+    },
+    {
+      "slug": "vt-state",
+      "chunk_id": "vt-state-c0042",
+      "page_or_section": "pages 53-54",
+      "excerpt": "atment Standards Section 4.0 4.1.5. Proprietary Devices Proprietary devices are manufactured systems that use proprietary settling, filtration, absorption/adsorption, vortex principles, vegetation, and other processes to provide stormwater treatment. T"
+    },
+    {
+      "slug": "ct-state",
+      "chunk_id": "ct-state-c0238",
+      "page_or_section": "pages 259-259",
+      "excerpt": "horus Low Nitrogen Low Bacteria Low Description Proprietary stormwater BMPs are manufactured systems that use proprietary settling, filtration, absorption/adsorption, vortex principles, vegetation, and other processes to remove pollutants from stormwat"
+    },
+    {
+      "slug": "ct-state",
+      "chunk_id": "ct-state-c0130",
+      "page_or_section": "pages 121-121",
+      "excerpt": "tention performance criterion. Proprietary BMPs Proprietary stormwater BMPs are manufactured systems that use proprietary settling, filtration, absorption/adsorption, vortex principles, vegetation, and other processes to remove pollutants from stormwat"
+    },
+    {
+      "slug": "tn-state",
+      "chunk_id": "tn-state-c0261",
+      "page_or_section": "pages 274-274",
+      "excerpt": "5.4.12 Manufactured/Proprietary Tre Manufactured or proprietary stormwater control measures are absorption/adsorption, vortex principles, vegetation, and oth management requiremen"
+    },
+    {
+      "slug": "detroit-mi",
+      "chunk_id": "detroit-mi-c0057",
+      "page_or_section": "pages 12-12",
+      "excerpt": "-lying areas or along river corridors where water tables are high. Chapter 14 – Manufactured Treatment Devices This chapter describes the DWSD review and approval process for proprietary manufactured treatment devices, or MTDs. MTDs rely on a variety o"
+    },
+    {
+      "slug": "dc-guidebook",
+      "chunk_id": "dc-guidebook-c0123",
+      "page_or_section": "pages 211-211",
+      "excerpt": "differentiate between a traditional stormwater BMP, a proprietary practice, or manufactured BMP, the term Manufactured Treatment Device (MTD) will be utilized for the class of practices that require an approval from DDOE. DDOE recognizes the value of"
+    },
+    {
+      "slug": "billings-mt",
+      "chunk_id": "billings-mt-c0113",
+      "page_or_section": "pages 140-140",
+      "excerpt": "etary treatment devices are storm water BMPs that are commercially designed and manufactured by vendors. They may be used individually or with other BMPs as part of a treatment train, depending on the site constraints and storm water management objecti"
+    },
+    {
+      "slug": "hawaii-dot-pcbmp",
+      "chunk_id": "hawaii-dot-pcbmp-c0015",
+      "page_or_section": "pages 15-15",
+      "excerpt": "off. Such practices may include LID design features, source control methods, or manufactured devices designed to capture pollutants and is synonymous with the terms Permanent BMP (PBMP) and Permanent Post-construction BMP. PRETREATMENT – Treatment of s"
+    },
+    {
+      "slug": "ri-state",
+      "chunk_id": "ri-state-c0191",
+      "page_or_section": "pages 170-171",
+      "excerpt": "al when a LUHPPL is present. Figure 6-4 Deep Sump Catch Basin (MADEP, 2008) 6.6 PROPRIETARY DEVICES Many proprietary devices have been developed over the years in an attempt to provide cost-effective stormwater treatment, particularly for retrofit sit"
+    }
+  ],
+  "supporting_slugs": [
+    "pa-state",
+    "detroit-mi",
+    "hawaii-dot-pcbmp",
+    "billings-mt",
+    "vt-state",
+    "ct-state",
+    "tn-state",
+    "dc-guidebook",
+    "ri-state"
+  ]
+}

@@ -66,11 +66,6 @@
       "page_or_section": "Title Page; Page ix"
     },
     {
-      "field": "document_metadata.adoption_or_effective_date",
-      "excerpt": "July 2022",
-      "page_or_section": "Title Page"
-    },
-    {
       "field": "document_metadata.last_revised_date",
       "excerpt": "A concerted effort has been made to make the July 2022 Blue Book an accurate and comprehensive handbook",
       "page_or_section": "Page i, Foreword"
@@ -122,8 +117,8 @@
     },
     {
       "field": "design_criteria.approved_bmp_categories",
-      "excerpt": "Site Preparation... Surface Stabilization... Runoff Conveyance... Sediment Control... Stormwater Management... Stream Protection",
-      "page_or_section": "Table of Contents, Pages vii–viii"
+      "excerpt": "3) modification of the surface drainage pattern, including the associated development of stormwater management facilities. Summary of Hazards Associated with Land Development On-site Land development clearly increases potential erosion and sediment hazards on-sit",
+      "page_or_section": "pp. 18–19"
     },
     {
       "field": "design_criteria.approved_bmp_categories",
@@ -133,9 +128,11 @@
   ],
   "extraction_quality": {
     "confidence": "high",
-    "needs_human_review": false,
-    "review_notes": null,
-    "fields_not_found": []
+    "needs_human_review": true,
+    "review_notes": "Pipeline excerpt repair removed 1 unlocated citation(s).",
+    "fields_not_found": [
+      "document_metadata.adoption_or_effective_date"
+    ]
   },
   "source": {
     "document_url": "https://alabamasoilandwater.gov/wp-content/uploads/2022/08/20220801_HandBook_Vol_1.pdf",

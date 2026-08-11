@@ -75,11 +75,6 @@
       "page_or_section": "Title Page"
     },
     {
-      "field": "document_metadata.last_revised_date",
-      "excerpt": "appropriate version number, based on the last revision date, placed in the lower right corner of each page",
-      "page_or_section": "Page 3, Foreword"
-    },
-    {
       "field": "document_metadata.relationship_to_state_manual",
       "excerpt": "BMPs developed specifically for use in Michigan",
       "page_or_section": "Page 11"
@@ -106,26 +101,18 @@
     },
     {
       "field": "design_criteria.approved_bmp_categories",
-      "excerpt": "prevention/minimization, storage, treatment, conveyance, or mitigation",
-      "page_or_section": "Page 11, Storm Water BMPs"
-    },
-    {
-      "field": "design_criteria.approved_bmp_categories",
-      "excerpt": "physical, vegetative, or managerial",
-      "page_or_section": "Page 11, Storm Water BMPs"
-    },
-    {
-      "field": "design_criteria.approved_bmp_categories",
-      "excerpt": "infiltration trench, infiltration basin, bio-retention, or rain garden... retention or detention practices, such as basins, or constructed wetlands",
-      "page_or_section": "Page 10, Treatment Train Approach"
+      "excerpt": "practices as either physical/vegetative, or managerial. Some BMPs may not include certain elements, either because the elements don’t apply, or because no reliable information exists for a given practice.",
+      "page_or_section": "pp. 27–28"
     }
   ],
   "extraction_quality": {
     "confidence": "medium",
     "needs_human_review": true,
-    "review_notes": "This PDF is Part 1 (introductory/background, 31 pages); individual BMP design specifications are published separately on the MDEQ BMP web page.",
+    "review_notes": "This PDF is Part 1 (introductory/background, 31 pages); individual BMP design specifications are published separately on the MDEQ BMP web page. Pipeline excerpt repair removed 3 unlocated citation(s).",
     "fields_not_found": [
-      "design_criteria.required_hydrologic_hydraulic_software"
+      "design_criteria.required_hydrologic_hydraulic_software",
+      "document_metadata.last_revised_date",
+      "design_criteria.approved_bmp_categories"
     ]
   },
   "source": {

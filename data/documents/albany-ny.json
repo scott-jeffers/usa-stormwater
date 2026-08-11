@@ -45,8 +45,8 @@
     },
     {
       "field": "design_criteria.water_quality_volume_method",
-      "excerpt": "90% Rule: WQv (acre-feet) = (P * Rv * A) / 12",
-      "page_or_section": "Table 4.1"
+      "excerpt": "Water Quality Volume (WQv) 90% Rule: WQv (acre-feet) = (P ∙ Rv ∙ A) / 12 Rv = 0.05+0.009(I) I = Impervious Cover (Percent) P(inches) = 90% Rainfall Event Number (See Figure 4.1) 2 A = Contributing Area (acres) Runoff Reduction Volume (RRv) RRv (acre-feet) = Reduction of",
+      "page_or_section": "p. 43"
     }
   ],
   "extraction_quality": {

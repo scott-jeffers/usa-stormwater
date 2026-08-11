@@ -78,8 +78,8 @@
     },
     {
       "field": "design_criteria.peak_flow_calculation_method",
-      "excerpt": "The 'Rational Method' ... is used primarily for sewer design.",
-      "page_or_section": "Page V"
+      "excerpt": "of the rainfall event. It is used primarily for sewer design. For New York City areas of 10 square miles or less these assumptions are considered valid. For areas greater than 10 square miles, other modeling techniques may be more appropriate. Development Activity: Creation",
+      "page_or_section": "p. 8"
     },
     {
       "field": "design_criteria.required_hydrologic_hydraulic_software",

@@ -47,8 +47,8 @@
     },
     {
       "field": "document_metadata.state_code",
-      "excerpt": "VT Relay Service",
-      "page_or_section": "Title Page"
+      "excerpt": "Natural Resource Conservation Service (NRCS) methods for calculating runoff have been found to underestimate the volume and rate of runoff for rainfall events less than 2\". In order to adapt NRCS methods for the water quality storm, a modified Curve Number (CN) shall be",
+      "page_or_section": "p. 17"
     },
     {
       "field": "document_metadata.document_title",
@@ -77,8 +77,8 @@
     },
     {
       "field": "design_criteria.water_quality_volume_method",
-      "excerpt": "WQv = (P)(Rv)(A) / 12",
-      "page_or_section": "2-7"
+      "excerpt": "WQTS in acre- feet of storage: WQv = (P)(Rv)(A) 12 where: WQv = water quality treatment volume (acre-feet) P = 1.0 inch across Vermont Rv = volumetric runoff coefficient, equal to: [0.05 + 0.009(I)] I = whole number percent impervious of the site A = site area (in acres) In as",
+      "page_or_section": "p. 16"
     },
     {
       "field": "design_criteria.peak_flow_calculation_method",

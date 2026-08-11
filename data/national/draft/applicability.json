@@ -1,0 +1,225 @@
+{
+  "section_id": "applicability",
+  "title": "Applicability and Relationship to Permits and Local Codes",
+  "generated_at": "2026-08-11T03:43:21.046Z",
+  "model": "heuristic+editorial",
+  "editorial_status": "reviewed",
+  "practice_survey": "Manuals typically define when criteria apply to new development versus redevelopment, often with disturbed-area or impervious-cover thresholds tied to MS4 permits. About two-fifths of atlas corpora are tagged for applicability-style topics. Local codes frequently allow stricter thresholds than state minimums; exemptions (for example routine maintenance) appear widely but vary in scope.",
+  "draft_recommendation": "State when criteria apply to new development and redevelopment, including disturbed-area or impervious thresholds. Clarify how this guidance relates to NPDES MS4 permits, construction general permits, and local codes. Allow agencies to adopt stricter thresholds. List common exemptions carefully so they do not undermine water-quality goals.",
+  "regional_variants": "MS4 Phase I and Phase II programs often use different triggers. Some arid and cold-climate localities exempt small projects from retention but still require treatment or erosion controls.",
+  "open_issues": "Choose default national thresholds versus guidance-only ranges. Align the exemption list with typical MS4 permits without undercutting WQ goals.",
+  "guidance_tables": [
+    {
+      "id": "applicability-checklist",
+      "title": "Applicability checklist",
+      "caption": "Draft national guidance grounded in atlas practice — not a design manual or adopted regulation.",
+      "columns": [
+        "Topic",
+        "Suggested national guidance",
+        "Atlas note"
+      ],
+      "rows": [
+        [
+          "New development",
+          "State disturbed-area or impervious thresholds that trigger post-construction criteria",
+          "Applicability framing common in purpose/scope chapters"
+        ],
+        [
+          "Redevelopment",
+          "Define partial-site or reduced WQv rules for redevelopment; prefer net reduction where feasible",
+          "Redevelopment rules vary widely by MS4"
+        ],
+        [
+          "Exemptions",
+          "List exemptions narrowly (e.g. routine maintenance) so they do not undermine WQ goals",
+          "Exemption lists appear widely but differ in scope"
+        ],
+        [
+          "Stricter local codes",
+          "Allow agencies to adopt stricter thresholds than this guidance",
+          "Local codes frequently exceed state minimums"
+        ]
+      ]
+    }
+  ],
+  "citation_registry": [
+    {
+      "key": "1",
+      "slug": "wa-state-western",
+      "state_code": "WA",
+      "excerpt": "development and redevelopment projects meeting the Project Thresholds in I-3.3 Applicability of the Minimum Requirements shall create an operation and maintenance (O&M) manual for all BMPs used to meet I-3.4.6 MR6: Runoff Treatment, I-3.4.7 MR7: F",
+      "page_or_section": "pages 147-147",
+      "confidence": "corpus_pattern",
+      "field": "corpus_chunk"
+    },
+    {
+      "key": "2",
+      "slug": "ga-state",
+      "state_code": "GA",
+      "excerpt": "nning through long- term maintenance of stormwater management facilities. 4.2.2 Applicability It is recommended that the stormwater man- agement standards listed below be required for any new development or redevelopment site that meets one or more",
+      "page_or_section": "pages 116-116",
+      "confidence": "corpus_pattern",
+      "field": "corpus_chunk"
+    },
+    {
+      "key": "3",
+      "slug": "vt-state",
+      "state_code": "VT",
+      "excerpt": "Vermont Stormwater Treatment Standards Section 6.0 Project – New development, expansion, redevelopment and or existing impervious surface that the Secretary is considering for coverage under an individual or general permit or which has",
+      "page_or_section": "pages 216-216",
+      "confidence": "corpus_pattern",
+      "field": "corpus_chunk"
+    },
+    {
+      "key": "4",
+      "slug": "ri-state",
+      "state_code": "RI",
+      "excerpt": "he stormwater management requirements for redevelopment will be the same as for new development. The applicant, however, can meet those requirements either on-site or at an approved off-site location within the same watershed provided the applicant satisf",
+      "page_or_section": "pages 46-46",
+      "confidence": "corpus_pattern",
+      "field": "corpus_chunk"
+    },
+    {
+      "key": "5",
+      "slug": "mn-state-2008",
+      "state_code": "MN",
+      "excerpt": "120 Minnesota storMwater Manual Applicability: Waters of the U.S. Stormwater Relationship: Discharge of dredged or fill material into waters of the U.S. Rivers and Harbors Act, Section 10 Permit Progr",
+      "page_or_section": "pages 120-120",
+      "confidence": "corpus_pattern",
+      "field": "corpus_chunk"
+    },
+    {
+      "key": "6",
+      "slug": "west-virginia-manual",
+      "state_code": "WV",
+      "excerpt": "nation 4. Controlling Runoff from Construction Sites 5. Controlling Runoff from New Development and Redevelopment (once construction is complete) 6. Pollution Prevention and Good Housekeeping for Municipal Operations This Manual primarily provides guidanc",
+      "page_or_section": "pages 10-10",
+      "confidence": "corpus_pattern",
+      "field": "corpus_chunk"
+    },
+    {
+      "key": "7",
+      "slug": "billings-mt",
+      "state_code": "MT",
+      "excerpt": "he project owner and/or design professional are responsible for determining the applicable regulatory requirements and associated permits for each individual project.",
+      "page_or_section": "pages 17-17",
+      "confidence": "corpus_pattern",
+      "field": "corpus_chunk"
+    },
+    {
+      "key": "8",
+      "slug": "idaho-bmp-catalog",
+      "state_code": "ID",
+      "excerpt": "thority to obtain the permit application forms, design standards, and any other applicable requirements for the project site area. These requirements could include planning and building codes, flood control and water quality design standards, and s",
+      "page_or_section": "pages 31-31",
+      "confidence": "corpus_pattern",
+      "field": "corpus_chunk"
+    },
+    {
+      "key": "9",
+      "slug": "san-diego-ca",
+      "state_code": "CA",
+      "excerpt": "fect is to reduce the quantity of impervious area and fall below thresholds for applicability of stormwater requirements. When defining the project, the following questions must be considered: • What are the project activities? • Do they occur onsi",
+      "page_or_section": "pages 30-30",
+      "confidence": "corpus_pattern",
+      "field": "corpus_chunk"
+    }
+  ],
+  "citations": [
+    {
+      "slug": "wa-state-western",
+      "chunk_id": "wa-state-western-c0117",
+      "page_or_section": "pages 147-147",
+      "excerpt": "development and redevelopment projects meeting the Project Thresholds in I-3.3 Applicability of the Minimum Requirements shall create an operation and maintenance (O&M) manual for all BMPs used to meet I-3.4.6 MR6: Runoff Treatment, I-3.4.7 MR7: F"
+    },
+    {
+      "slug": "wa-state-western",
+      "chunk_id": "wa-state-western-c0061",
+      "page_or_section": "pages 85-85",
+      "excerpt": "l SWPPPs to include certain mandatory BMPs, including those BMPs identified as “applicable” to specific industrial activities in Volume IV of this manual. Industrial facil- ities with new development or redevelopment must also evaluate whether Flow"
+    },
+    {
+      "slug": "ga-state",
+      "chunk_id": "ga-state-c0177",
+      "page_or_section": "pages 116-116",
+      "excerpt": "nning through long- term maintenance of stormwater management facilities. 4.2.2 Applicability It is recommended that the stormwater man- agement standards listed below be required for any new development or redevelopment site that meets one or more"
+    },
+    {
+      "slug": "vt-state",
+      "chunk_id": "vt-state-c0166",
+      "page_or_section": "pages 216-216",
+      "excerpt": "Vermont Stormwater Treatment Standards Section 6.0 Project – New development, expansion, redevelopment and or existing impervious surface that the Secretary is considering for coverage under an individual or general permit or which has"
+    },
+    {
+      "slug": "ga-state",
+      "chunk_id": "ga-state-c0179",
+      "page_or_section": "pages 118-118",
+      "excerpt": "dards be adopt- ed for new development or redevelopment sites falling under the applicability criteria above. It is further recommended that these twelve (12) standards be adopted in whole to create a com- prehensive stormwater management approach."
+    },
+    {
+      "slug": "ri-state",
+      "chunk_id": "ri-state-c0093",
+      "page_or_section": "pages 46-46",
+      "excerpt": "he stormwater management requirements for redevelopment will be the same as for new development. The applicant, however, can meet those requirements either on-site or at an approved off-site location within the same watershed provided the applicant satisf"
+    },
+    {
+      "slug": "vt-state",
+      "chunk_id": "vt-state-c0001",
+      "page_or_section": "pages 8-8",
+      "excerpt": "ly mimic predevelopment conditions. In addition, this manual makes explicit the applicability of a range of site planning and green stormwater infrastructure (GSI) design practices for minimizing the generation of runoff from the developed portions"
+    },
+    {
+      "slug": "mn-state-2008",
+      "chunk_id": "mn-state-2008-c0094",
+      "page_or_section": "pages 120-120",
+      "excerpt": "120 Minnesota storMwater Manual Applicability: Waters of the U.S. Stormwater Relationship: Discharge of dredged or fill material into waters of the U.S. Rivers and Harbors Act, Section 10 Permit Progr"
+    },
+    {
+      "slug": "west-virginia-manual",
+      "chunk_id": "west-virginia-manual-c0007",
+      "page_or_section": "pages 10-10",
+      "excerpt": "nation 4. Controlling Runoff from Construction Sites 5. Controlling Runoff from New Development and Redevelopment (once construction is complete) 6. Pollution Prevention and Good Housekeeping for Municipal Operations This Manual primarily provides guidanc"
+    },
+    {
+      "slug": "billings-mt",
+      "chunk_id": "billings-mt-c0006",
+      "page_or_section": "pages 17-17",
+      "excerpt": "he project owner and/or design professional are responsible for determining the applicable regulatory requirements and associated permits for each individual project."
+    },
+    {
+      "slug": "idaho-bmp-catalog",
+      "chunk_id": "idaho-bmp-catalog-c0036",
+      "page_or_section": "pages 31-31",
+      "excerpt": "thority to obtain the permit application forms, design standards, and any other applicable requirements for the project site area. These requirements could include planning and building codes, flood control and water quality design standards, and s"
+    },
+    {
+      "slug": "billings-mt",
+      "chunk_id": "billings-mt-c0132",
+      "page_or_section": "pages 173-176",
+      "excerpt": "reatment Evaluation Form Template Page 1 CITY OF [NAME] [NAME OF DEPARTMENT, IF APPLICABLE] OFFSITE TREATMENT EVALUATION FORM Template Instructions: In accordance with the MS4 General Permit, each MS4 must develop criteria to be considered before a"
+    },
+    {
+      "slug": "san-diego-ca",
+      "chunk_id": "san-diego-ca-c0038",
+      "page_or_section": "pages 30-30",
+      "excerpt": "fect is to reduce the quantity of impervious area and fall below thresholds for applicability of stormwater requirements. When defining the project, the following questions must be considered: • What are the project activities? • Do they occur onsi"
+    },
+    {
+      "slug": "mn-state-2008",
+      "chunk_id": "mn-state-2008-c0110",
+      "page_or_section": "pages 133-133",
+      "excerpt": "egulatory Authority: Local Government Unit; DNR, Division of Waters (oversight) Applicability: All lakes greater than 25 acres (10 acres in Municipalities) and rivers with a drainage area two square miles or greater and their associated floodplains"
+    }
+  ],
+  "supporting_slugs": [
+    "wa-state-western",
+    "ga-state",
+    "vt-state",
+    "ri-state",
+    "mn-state-2008",
+    "west-virginia-manual",
+    "billings-mt",
+    "idaho-bmp-catalog",
+    "san-diego-ca"
+  ]
+}

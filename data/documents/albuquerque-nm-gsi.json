@@ -51,11 +51,6 @@
       "page_or_section": "Cover"
     },
     {
-      "field": "document_metadata.version_or_edition",
-      "excerpt": "61-Green_Infrastructure_and_Low_Impact_Design_Guide_1-1.pdf",
-      "page_or_section": "Source URL (March 2025)"
-    },
-    {
       "field": "document_metadata.relationship_to_state_manual",
       "excerpt": "This document and others like it, while containing useful information regarding the implementation and the benefits of GI/LID interventions, are highly technical and cumbersome making them inaccessible to the general public.",
       "page_or_section": "Introduction and Purpose, Page 6"
@@ -79,13 +74,14 @@
   "extraction_quality": {
     "confidence": "medium",
     "needs_human_review": true,
-    "review_notes": "Abbreviated GSI/LID digest for arid-climate implementation; references Bernalillo County Ordinance 2107-8 and DPM for quantitative design but does not include peak-flow methods, hydrologic software, or detailed storm sizing equations. Edition inferred from source PDF URL (March 2025).",
+    "review_notes": "Abbreviated GSI/LID digest for arid-climate implementation; references Bernalillo County Ordinance 2107-8 and DPM for quantitative design but does not include peak-flow methods, hydrologic software, or detailed storm sizing equations. Edition inferred from source PDF URL (March 2025). Pipeline excerpt repair removed 1 unlocated citation(s).",
     "fields_not_found": [
       "document_metadata.adoption_or_effective_date",
       "document_metadata.last_revised_date",
       "design_criteria.design_storm_return_periods_years",
       "design_criteria.peak_flow_calculation_method",
-      "design_criteria.required_hydrologic_hydraulic_software"
+      "design_criteria.required_hydrologic_hydraulic_software",
+      "document_metadata.version_or_edition"
     ]
   },
   "source": {

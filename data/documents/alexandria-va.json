@@ -37,24 +37,14 @@
       "page_or_section": "Cover"
     },
     {
-      "field": "document_metadata.state_code",
-      "excerpt": "Virginia",
-      "page_or_section": "Cover"
-    },
-    {
       "field": "document_metadata.document_title",
       "excerpt": "GREEN STREETS AND SIDEWALKS STORMWATER DESIGN GUIDELINES",
       "page_or_section": "Cover"
     },
     {
       "field": "document_metadata.version_or_edition",
-      "excerpt": "2020 Final",
-      "page_or_section": "Filename / coverage"
-    },
-    {
-      "field": "document_metadata.last_revised_date",
-      "excerpt": "2020",
-      "page_or_section": "Coverage"
+      "excerpt": "rvice_content/attachments/ BGI_Workshop_Final.pdf --- page 83 ---",
+      "page_or_section": "pp. 81–83"
     },
     {
       "field": "document_metadata.relationship_to_state_manual",
@@ -80,11 +70,13 @@
   "extraction_quality": {
     "confidence": "medium",
     "needs_human_review": true,
-    "review_notes": "ROW-focused green streets guidelines; site development still relies on full VA BMP Clearinghouse / VESMP. Not a complete city stormwater design manual.",
+    "review_notes": "ROW-focused green streets guidelines; site development still relies on full VA BMP Clearinghouse / VESMP. Not a complete city stormwater design manual. Pipeline excerpt repair removed 2 unlocated citation(s).",
     "fields_not_found": [
       "document_metadata.adoption_or_effective_date",
       "design_criteria.design_storm_return_periods_years",
-      "design_criteria.required_hydrologic_hydraulic_software"
+      "design_criteria.required_hydrologic_hydraulic_software",
+      "document_metadata.state_code",
+      "document_metadata.last_revised_date"
     ]
   },
   "source": {

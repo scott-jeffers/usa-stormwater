@@ -79,8 +79,8 @@
     },
     {
       "field": "design_criteria.design_storm_return_periods_years",
-      "excerpt": "the 1-year, 24-hour storm... 5-year recurrence interval... 2-year and 10-year... 25-year... 50-year (Qp50)... 100-year, 24-hour storm event",
-      "page_or_section": "Chapter 1- Section 4, Pages 3-4 of 7"
+      "excerpt": "a. Extended detention of the 1-year, 24-hour storm for a period of 24 hours using structural stormwater controls. It is known that the increase in runoff due to development can dramatically increase stream channel erosion. This standard is intended to reduce the freque",
+      "page_or_section": "p. 38"
     },
     {
       "field": "design_criteria.water_quality_volume_method",
@@ -99,8 +99,8 @@
     },
     {
       "field": "design_criteria.approved_bmp_categories",
-      "excerpt": "Non-structural BMPs... Stormwater Detention BMPs... Infiltration BMPs... Vegetative BMPs",
-      "page_or_section": "Chapter 1- Section 3, Page 8 of 10"
+      "excerpt": "8 of 10 October 28, 2009 manual. a. Non-structural BMPs. 1) Planning Procedures. Runoff problems can be addressed efficiently with sound planning procedures. Local master plans, comprehensive plans, and zoning ordinances can promote improved water quality in many ways, such a",
+      "page_or_section": "p. 33"
     }
   ],
   "extraction_quality": {

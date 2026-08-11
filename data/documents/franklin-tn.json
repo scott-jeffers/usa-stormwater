@@ -25,11 +25,6 @@
   },
   "evidence": [
     {
-      "field": "document_metadata.jurisdiction_name",
-      "excerpt": "Franklin TN — coverage via Metro Nashville SWMM Vol4 as regional BMP reference (not a Franklin-adopted document)",
-      "page_or_section": "Coverage note"
-    },
-    {
       "field": "design_criteria.water_quality_volume_method",
       "excerpt": "80% TSS reduction of an average annual urban pollutant load",
       "page_or_section": "Nashville SWMM Vol4"
@@ -38,9 +33,10 @@
   "extraction_quality": {
     "confidence": "low",
     "needs_human_review": true,
-    "review_notes": "Placeholder using Nashville Vol4 — replace when Franklin publishes a local stormwater design standards PDF.",
+    "review_notes": "Placeholder using Nashville Vol4 — replace when Franklin publishes a local stormwater design standards PDF. Pipeline excerpt repair removed 1 unlocated citation(s).",
     "fields_not_found": [
-      "design_criteria.design_storm_return_periods_years"
+      "design_criteria.design_storm_return_periods_years",
+      "document_metadata.jurisdiction_name"
     ]
   },
   "source": {

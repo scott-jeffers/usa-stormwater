@@ -1,0 +1,277 @@
+{
+  "version": 1,
+  "title": "U.S. Stormwater Practice Synthesis — Research Outline",
+  "generated_at": "2026-08-11T01:22:32.319Z",
+  "model": "heuristic",
+  "sections": [
+    {
+      "id": "intro",
+      "title": "Purpose, Scope, and How to Use This Synthesis",
+      "level": 1,
+      "parent_id": null,
+      "prevalence": 0.56,
+      "topic_tags": [
+        "general"
+      ],
+      "source_manual_count": 167,
+      "regional_notes": [],
+      "summary": "Frames this work as a synthesis of U.S. practice for research and committee review, not adopted regulation or a design manual."
+    },
+    {
+      "id": "applicability",
+      "title": "Applicability and Relationship to Permits and Local Codes",
+      "level": 1,
+      "parent_id": null,
+      "prevalence": 0.39,
+      "topic_tags": [
+        "general"
+      ],
+      "source_manual_count": 116,
+      "regional_notes": [
+        "ms4_vs_non_ms4"
+      ],
+      "summary": "When criteria apply (new development, redevelopment, thresholds) and how state/local manuals interact."
+    },
+    {
+      "id": "hydrology",
+      "title": "Hydrology and Design Storms",
+      "level": 1,
+      "parent_id": null,
+      "prevalence": 0.49,
+      "topic_tags": [
+        "hydrology"
+      ],
+      "source_manual_count": 295,
+      "regional_notes": [
+        "arid_west",
+        "coastal",
+        "cold_climate"
+      ],
+      "summary": "Return periods and storm definitions used for water quality, channel protection, and flood control."
+    },
+    {
+      "id": "hydrology.design-storms",
+      "title": "Design Storm Selection by Purpose",
+      "level": 2,
+      "parent_id": "hydrology",
+      "prevalence": 0.49,
+      "topic_tags": [
+        "hydrology"
+      ],
+      "source_manual_count": 295,
+      "regional_notes": [
+        "arid_west",
+        "humid_east"
+      ],
+      "summary": "Separate WQ, channel, detention, and flood storms; avoid collapsing all purposes into one number."
+    },
+    {
+      "id": "hydrology.methods",
+      "title": "Runoff and Peak-Flow Calculation Methods",
+      "level": 2,
+      "parent_id": "hydrology",
+      "prevalence": 0.46,
+      "topic_tags": [
+        "hydrology",
+        "peak_flow"
+      ],
+      "source_manual_count": 274,
+      "regional_notes": [],
+      "summary": "Rational Method, NRCS/TR-55, continuous simulation, and when each is required or allowed."
+    },
+    {
+      "id": "hydrology.software",
+      "title": "Approved Hydrologic and Hydraulic Software",
+      "level": 2,
+      "parent_id": "hydrology",
+      "prevalence": 0.32,
+      "topic_tags": [
+        "software",
+        "hydrology"
+      ],
+      "source_manual_count": 194,
+      "regional_notes": [],
+      "summary": "Tools commonly required or accepted for sizing and flood routing."
+    },
+    {
+      "id": "water-quality",
+      "title": "Water Quality Volume and Treatment",
+      "level": 1,
+      "parent_id": null,
+      "prevalence": 0.48,
+      "topic_tags": [
+        "water_quality"
+      ],
+      "source_manual_count": 286,
+      "regional_notes": [
+        "arid_west",
+        "cold_climate"
+      ],
+      "summary": "Sizing basis for water-quality capture/treatment and pollutant-removal expectations."
+    },
+    {
+      "id": "water-quality.sizing",
+      "title": "WQv / Treatment Volume Sizing Methods",
+      "level": 2,
+      "parent_id": "water-quality",
+      "prevalence": 0.48,
+      "topic_tags": [
+        "water_quality"
+      ],
+      "source_manual_count": 286,
+      "regional_notes": [
+        "arid_west"
+      ],
+      "summary": "Common approaches: first inch, 90th percentile, percent annual rainfall, TSS removal targets."
+    },
+    {
+      "id": "channel-flood",
+      "title": "Channel Protection, Detention, and Flood Control",
+      "level": 1,
+      "parent_id": null,
+      "prevalence": 0.46,
+      "topic_tags": [
+        "detention",
+        "peak_flow"
+      ],
+      "source_manual_count": 273,
+      "regional_notes": [
+        "arid_west",
+        "urban_infill"
+      ],
+      "summary": "Post-development peak matching, extended detention, and floodplain/channel criteria."
+    },
+    {
+      "id": "channel-flood.release",
+      "title": "Allowable Discharge and Release Rates",
+      "level": 2,
+      "parent_id": "channel-flood",
+      "prevalence": 0.46,
+      "topic_tags": [
+        "detention",
+        "peak_flow"
+      ],
+      "source_manual_count": 273,
+      "regional_notes": [],
+      "summary": "Pre- vs post-development peaks and site-specific release limits."
+    },
+    {
+      "id": "bmps",
+      "title": "Stormwater Control Measures (BMPs)",
+      "level": 1,
+      "parent_id": null,
+      "prevalence": 0.48,
+      "topic_tags": [
+        "bmp_sizing"
+      ],
+      "source_manual_count": 289,
+      "regional_notes": [
+        "karst",
+        "arid_west",
+        "cold_climate"
+      ],
+      "summary": "Approved practice categories, selection hierarchy, and sizing/design criteria."
+    },
+    {
+      "id": "bmps.selection",
+      "title": "BMP Selection and Treatment Trains",
+      "level": 2,
+      "parent_id": "bmps",
+      "prevalence": 0.48,
+      "topic_tags": [
+        "bmp_sizing"
+      ],
+      "source_manual_count": 289,
+      "regional_notes": [],
+      "summary": "How manuals prioritize infiltration, filtration, and proprietary devices."
+    },
+    {
+      "id": "bmps.sizing",
+      "title": "Facility Sizing and Design Criteria",
+      "level": 2,
+      "parent_id": "bmps",
+      "prevalence": 0.5,
+      "topic_tags": [
+        "bmp_sizing",
+        "water_quality"
+      ],
+      "source_manual_count": 288,
+      "regional_notes": [
+        "cold_climate",
+        "arid_west"
+      ],
+      "summary": "Geometry, media, drawdown, setbacks, and underdrain requirements by practice type."
+    },
+    {
+      "id": "bmps.manufactured",
+      "title": "Manufactured / Proprietary Treatment Devices",
+      "level": 2,
+      "parent_id": "bmps",
+      "prevalence": 0.48,
+      "topic_tags": [
+        "bmp_sizing"
+      ],
+      "source_manual_count": 289,
+      "regional_notes": [],
+      "summary": "Approval lists, verification programs, and when MTDs may substitute for GI."
+    },
+    {
+      "id": "construction-esc",
+      "title": "Construction Stormwater and ESC",
+      "level": 1,
+      "parent_id": null,
+      "prevalence": 0.55,
+      "topic_tags": [
+        "construction_esc"
+      ],
+      "source_manual_count": 297,
+      "regional_notes": [],
+      "summary": "Temporary controls during construction; often in separate manuals from post-construction."
+    },
+    {
+      "id": "om",
+      "title": "Inspection, Operations, and Maintenance",
+      "level": 1,
+      "parent_id": null,
+      "prevalence": 0.5,
+      "topic_tags": [
+        "om"
+      ],
+      "source_manual_count": 290,
+      "regional_notes": [],
+      "summary": "Long-term O&M obligations, inspection frequency, and enforcement hooks."
+    },
+    {
+      "id": "regional",
+      "title": "Regional and Site Constraints",
+      "level": 1,
+      "parent_id": null,
+      "prevalence": 0.49,
+      "topic_tags": [
+        "hydrology",
+        "bmp_sizing"
+      ],
+      "source_manual_count": 292,
+      "regional_notes": [
+        "arid_west",
+        "cold_climate",
+        "karst",
+        "coastal"
+      ],
+      "summary": "Where national defaults must fork: climate, soils, geology, and receiving-water sensitivity."
+    },
+    {
+      "id": "submittals",
+      "title": "Plan Submittal, Review, and Variances",
+      "level": 1,
+      "parent_id": null,
+      "prevalence": 0.25,
+      "topic_tags": [
+        "general"
+      ],
+      "source_manual_count": 75,
+      "regional_notes": [],
+      "summary": "Documentation expected for approval and paths for alternatives."
+    }
+  ]
+}

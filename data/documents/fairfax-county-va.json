@@ -43,24 +43,14 @@
       "page_or_section": "Cover"
     },
     {
-      "field": "document_metadata.state_code",
-      "excerpt": "Virginia",
-      "page_or_section": "PFM"
-    },
-    {
       "field": "document_metadata.document_title",
       "excerpt": "PUBLIC FACILITIES MANUAL",
       "page_or_section": "Cover"
     },
     {
-      "field": "document_metadata.version_or_edition",
-      "excerpt": "2018 PFM Foreword",
-      "page_or_section": "Foreword"
-    },
-    {
       "field": "document_metadata.last_revised_date",
-      "excerpt": "amendments adopted by the Board through Oct. 20, 2020",
-      "page_or_section": "County PFM page"
+      "excerpt": "PFM. Similarly, in 1978, the Board adopted a Zoning Ordinance which made specific reference to the requirements in this PFM. 1-0100.2 It is the County’s desire to encourage qualified professionals to seek new and better solutions to complicated technical problems. However, i",
+      "page_or_section": "p. 5"
     },
     {
       "field": "document_metadata.relationship_to_state_manual",
@@ -91,10 +81,12 @@
   "extraction_quality": {
     "confidence": "medium",
     "needs_human_review": true,
-    "review_notes": "Large PFM export; Chapter 6 storm drainage confirmed. Pull numeric WQ depth from 6-0400 on review.",
+    "review_notes": "Large PFM export; Chapter 6 storm drainage confirmed. Pull numeric WQ depth from 6-0400 on review. Pipeline excerpt repair removed 2 unlocated citation(s).",
     "fields_not_found": [
       "document_metadata.adoption_or_effective_date",
-      "design_criteria.required_hydrologic_hydraulic_software"
+      "design_criteria.required_hydrologic_hydraulic_software",
+      "document_metadata.state_code",
+      "document_metadata.version_or_edition"
     ]
   },
   "source": {

@@ -10,10 +10,21 @@
     "relationship_to_state_manual": "adopts_state_manual_directly"
   },
   "design_criteria": {
-    "design_storm_return_periods_years": [1, 2, 10, 100],
+    "design_storm_return_periods_years": [
+      1,
+      2,
+      10,
+      100
+    ],
     "water_quality_volume_method": "WQv is calculated as (P)(Rv)(A)/12, where P is the rainfall depth (1.0 inch in the Eastern Rainfall Zone, 0.9 inch in the Western Rainfall Zone), Rv is the volumetric runoff coefficient (0.05 + 0.009 * I), and A is the site area in acres.",
-    "peak_flow_calculation_method": ["TR-55", "TR-20"],
-    "required_hydrologic_hydraulic_software": ["TR-20", "TR-55"],
+    "peak_flow_calculation_method": [
+      "TR-55",
+      "TR-20"
+    ],
+    "required_hydrologic_hydraulic_software": [
+      "TR-20",
+      "TR-55"
+    ],
     "approved_bmp_categories": [
       "Stormwater Ponds",
       "Stormwater Wetlands",
@@ -31,8 +42,8 @@
     },
     {
       "field": "document_metadata.jurisdiction_level",
-      "excerpt": "Prince Georges County",
-      "page_or_section": "Coverage note"
+      "excerpt": "5.2 7.4 Montgomery 2.6 3.2 5.1 7.2 Prince George’s 2.7 3.3 5.3 7.4 Queen Anne’s 2.7 3.3 5.3 7.5 St. Mary’s 2.8 3.4 5.4 7.7 Somerset 2.9 3.5 5.6 8.1 Talbot 2.8 3.4 5.3 7.6 Washington 2.5 3.0 4.8 6.7 Wicomico 2.9 3.5 5.6 7.9 Worcester 3.0 3.6 5.6 8.1",
+      "page_or_section": "pp. 48–49"
     },
     {
       "field": "document_metadata.state_code",
@@ -43,11 +54,6 @@
       "field": "document_metadata.document_title",
       "excerpt": "Maryland Stormwater Design Manual",
       "page_or_section": "TOC-1"
-    },
-    {
-      "field": "document_metadata.version_or_edition",
-      "excerpt": "Volume One",
-      "page_or_section": "Cover"
     },
     {
       "field": "document_metadata.relationship_to_state_manual",
@@ -66,27 +72,28 @@
     },
     {
       "field": "design_criteria.peak_flow_calculation_method",
-      "excerpt": "TR-55 / TR-20",
-      "page_or_section": "Hydrology"
+      "excerpt": "computer program fps feet per second TR-55 Technical Release No. 55 Urban Unit Hydrology for Small Watersheds hf head above filter bed TSS total suspended solids HSG hydrologic soil group Vf filter bed volume Ia initial abstraction Vr volume of runoff I percent impervious cove",
+      "page_or_section": "pp. 36–38"
     },
     {
       "field": "design_criteria.required_hydrologic_hydraulic_software",
-      "excerpt": "TR-20, TR-55",
-      "page_or_section": "Software guidance"
+      "excerpt": "computer program fps feet per second TR-55 Technical Release No. 55 Urban Unit Hydrology for Small Watersheds hf head above filter bed TSS total suspended solids HSG hydrologic soil group Vf filter bed volume Ia initial abstraction Vr volume of runoff I percent impervious cove",
+      "page_or_section": "pp. 36–38"
     },
     {
       "field": "design_criteria.approved_bmp_categories",
-      "excerpt": "Stormwater Ponds; Stormwater Wetlands; Infiltration Practices; Filtering Systems; Open Channel Practices; Non-structural Practices",
-      "page_or_section": "BMP chapters"
+      "excerpt": "How to Use the Manual The Maryland Stormwater Design Manual is provided in two volumes. This first volume provides designers a general overview on how to size, design, select and locate BMPs at a new development site to comply with State stormwater performance standards. The",
+      "page_or_section": "p. 31"
     }
   ],
   "extraction_quality": {
     "confidence": "medium",
     "needs_human_review": true,
-    "review_notes": "County-level coverage using Maryland SWM Design Manual Volume 1 (ESD to MEP). Local Prince George's supplements not separately ingested.",
+    "review_notes": "County-level coverage using Maryland SWM Design Manual Volume 1 (ESD to MEP). Local Prince George's supplements not separately ingested. Pipeline excerpt repair removed 1 unlocated citation(s).",
     "fields_not_found": [
       "document_metadata.adoption_or_effective_date",
-      "document_metadata.last_revised_date"
+      "document_metadata.last_revised_date",
+      "document_metadata.version_or_edition"
     ]
   },
   "source": {

@@ -47,21 +47,6 @@
       "page_or_section": "Title Page"
     },
     {
-      "field": "document_metadata.version_or_edition",
-      "excerpt": "July 2007",
-      "page_or_section": "Title Page"
-    },
-    {
-      "field": "document_metadata.adoption_or_effective_date",
-      "excerpt": "July 2007",
-      "page_or_section": "Title Page"
-    },
-    {
-      "field": "document_metadata.last_revised_date",
-      "excerpt": "July 2007",
-      "page_or_section": "Title Page"
-    },
-    {
       "field": "document_metadata.relationship_to_state_manual",
       "excerpt": "EAST BATON ROUGE MASTER DEVELOPMENT PROGRAM... City Parish Planning Commission",
       "page_or_section": "Title Page"
@@ -88,8 +73,8 @@
     },
     {
       "field": "design_criteria.approved_bmp_categories",
-      "excerpt": "Dry Pond... Wet Pond... Pervious Paving... Infiltration Device... Cistern... Bioswale... Sand Filter Basin... Catch Basin Insert... Water Quality Wetlands... Rain Garden... Green Roof",
-      "page_or_section": "Table of Contents, Chapter 5"
+      "excerpt": "Pond Wet Pond Pond Edge with Bulkhead Pervious Paving with Manufactured Subsurface Storage Infiltration Systems Pervious Paving Pervious Paving with Aggregate Subsurface Storage Infiltration Device Cistern Filtration Systems Bioswale Stormwater Planter 1 Permeable Stormwater Pl",
+      "page_or_section": "p. 6"
     },
     {
       "field": "design_criteria.approved_bmp_categories",
@@ -100,10 +85,13 @@
   "extraction_quality": {
     "confidence": "medium",
     "needs_human_review": true,
-    "review_notes": "Planning/BMP guidance appendix for EBR Master Development Program (July 2007). Explicitly requires calculating pre-development runoff for a minimum ten-year design storm, but does not define a quantified water quality volume, named hydrologic method (e.g., Rational/TR-55), or required software.",
+    "review_notes": "Planning/BMP guidance appendix for EBR Master Development Program (July 2007). Explicitly requires calculating pre-development runoff for a minimum ten-year design storm, but does not define a quantified water quality volume, named hydrologic method (e.g., Rational/TR-55), or required software. Pipeline excerpt repair removed 3 unlocated citation(s).",
     "fields_not_found": [
       "design_criteria.water_quality_volume_method",
-      "design_criteria.required_hydrologic_hydraulic_software"
+      "design_criteria.required_hydrologic_hydraulic_software",
+      "document_metadata.version_or_edition",
+      "document_metadata.adoption_or_effective_date",
+      "document_metadata.last_revised_date"
     ]
   },
   "source": {

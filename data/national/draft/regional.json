@@ -1,0 +1,245 @@
+{
+  "section_id": "regional",
+  "title": "Regional and Site Constraints",
+  "generated_at": "2026-08-11T03:43:21.060Z",
+  "model": "heuristic+editorial",
+  "editorial_status": "reviewed",
+  "practice_survey": "Climate and geologic forks appear throughout U.S. manuals: arid West capture and infiltration rules, humid East multi-storm peak matching, cold-climate freeze-thaw detailing, coastal freeboard and salinity, and karst or high-groundwater infiltration limits. Presenting humid-East defaults as universal national numbers misrepresents practice.",
+  "draft_recommendation": "Treat regional variants as first-class content. Identify arid West, humid East, cold climate, coastal, and karst or high-groundwater packages for capture volume, infiltration feasibility, and plantings. Require designers to document which regional package applies. Prefer local and state manuals when they define climate-specific criteria.",
+  "regional_variants": "arid_west, humid_east, cold_climate, coastal, karst — each may change WQ depth, infiltration credit, freeze-thaw detailing, and outfall freeboard.",
+  "open_issues": "How many climate bands to publish. Map or lookup method for assigning a site to a band.",
+  "guidance_tables": [
+    {
+      "id": "regional-packages",
+      "title": "Regional design packages",
+      "caption": "Draft national guidance grounded in atlas practice — not a design manual or adopted regulation.",
+      "columns": [
+        "Package",
+        "Suggested national guidance",
+        "Atlas note"
+      ],
+      "rows": [
+        [
+          "Arid West",
+          "Larger capture/retention depths; document infiltration limits and dust/TSS emphasis",
+          "Capture-depth standards common in West manuals"
+        ],
+        [
+          "Humid East",
+          "Multi-storm peak matching and WQv depth/percentile standards",
+          "Default framing in many East/Midwest manuals"
+        ],
+        [
+          "Cold climate",
+          "Account for frozen ground, snowmelt, and underdrain/plant detailing",
+          "Freeze-thaw forks appear in northern manuals"
+        ],
+        [
+          "Coastal / karst / high GW",
+          "Limit infiltration credits; check tide, surge, and freeboard",
+          "Geologic and coastal constraints are first-class in many locals"
+        ]
+      ]
+    }
+  ],
+  "citation_registry": [
+    {
+      "key": "1",
+      "slug": "ca-casqa-municipal",
+      "state_code": "CA",
+      "excerpt": "ry, Association of Monterey Bay Area Governments, Woodward-Clyde, Central Coast Regional Water Quality Control Board. July, 1998, Revised by California Coastal Commission, February 2002. Orange County Stormwater Program http://www.ocwatersheds.com/",
+      "page_or_section": "pages 117-117",
+      "confidence": "corpus_pattern",
+      "field": "corpus_chunk"
+    },
+    {
+      "key": "2",
+      "slug": "indiana-manual",
+      "state_code": "IN",
+      "excerpt": "s of six inches for commercial uses such as automobiles with no truck traffic). Regional Adaptations \u0003 In cold climates, the base of the stone reservoir should be below the frost line or the system should be designed to facilitate drainage of storm",
+      "page_or_section": "pages 564-564",
+      "confidence": "corpus_pattern",
+      "field": "corpus_chunk"
+    },
+    {
+      "key": "3",
+      "slug": "ny-state",
+      "state_code": "NY",
+      "excerpt": "– Table 3.5 Watershed/Regional Selection Matrix SMP Group Sensitive Stream Aquifer Lakes Reservoir Estuary/Coastal Ponds Emphasize channel protection. Restrict in-stream practices. In trout",
+      "page_or_section": "pages 40-40",
+      "confidence": "corpus_pattern",
+      "field": "corpus_chunk"
+    },
+    {
+      "key": "4",
+      "slug": "ms-state-vol2",
+      "state_code": "MS",
+      "excerpt": "r recharge. Other design modifications may make this practice more effective in arid or cold climates. Partial Exfiltration In one design variation of the bioretention system, the underdrain is installed on only part of the bottom of the system",
+      "page_or_section": "pages 142-143",
+      "confidence": "corpus_pattern",
+      "field": "corpus_chunk"
+    },
+    {
+      "key": "5",
+      "slug": "billings-mt",
+      "state_code": "MT",
+      "excerpt": "ssee Permanent Stormwater and Design Guidance Manual. December 2014. 9. Atlanta Regional Council. Georgia Stormwater Management Manual: Volume 2 Technical Handbook. [book auth.] AECOM et al. Chapter 4: Stormwater Best Management Practices. Atlanta,",
+      "page_or_section": "pages 143-143",
+      "confidence": "corpus_pattern",
+      "field": "corpus_chunk"
+    },
+    {
+      "key": "6",
+      "slug": "mn-state-2008",
+      "state_code": "MN",
+      "excerpt": "for snow disposal sites. In Proceedings - Urban Drainage and Highway Runoff in Cold Climate, March 25-27, 2003, Riksgränsen, Sweden, pp.85-95. Wigington, P., C. Randall, And T. Grizzard. 1986. Accumulation of Selected Trace Metals in Soils of Urban Ru",
+      "page_or_section": "pages 816-816",
+      "confidence": "corpus_pattern",
+      "field": "corpus_chunk"
+    },
+    {
+      "key": "7",
+      "slug": "ct-state",
+      "state_code": "CT",
+      "excerpt": "t guidance in the Manual also incorporates and/or references information from a regional stormwater retrofit manual that has been developed for New England.  Updated section on the appropriate use of proprietary stormwater BMPs (Chapter 11 - Propr",
+      "page_or_section": "pages 11-11",
+      "confidence": "corpus_pattern",
+      "field": "corpus_chunk"
+    },
+    {
+      "key": "8",
+      "slug": "ca-caltrans-construction",
+      "state_code": "CA",
+      "excerpt": "roducts RUSLE2 Revised Universal Soil Loss Equation v2 RW Receiving Water RWQCB Regional Water Quality Control Board SMARTS Storm Water Multiple Application Reporting and Tracking System SS Settleable Solids SWMP Stormwater Management Program SWPPP",
+      "page_or_section": "pages 7-7",
+      "confidence": "corpus_pattern",
+      "field": "corpus_chunk"
+    },
+    {
+      "key": "9",
+      "slug": "norfolk-va",
+      "state_code": "VA",
+      "excerpt": "t. Slopes were calculated by applying the ArcGIS slope function to the Seamless Regional Digital Elevation Model documented in Appendix B of Hampton Roads Coastal Resources Technical Assistance Program Fiscal Year 2011-2012 3. The slope function in",
+      "page_or_section": "pages 86-87",
+      "confidence": "corpus_pattern",
+      "field": "corpus_chunk"
+    },
+    {
+      "key": "10",
+      "slug": "ga-state",
+      "state_code": "GA",
+      "excerpt": "ommunity must consider environ- mental factors such as flooding and hurricanes, regional factors such as proximity to the coast and presence of karst, and future growth condi- tions and patterns. In addition, a community must determine the best app",
+      "page_or_section": "pages 178-178",
+      "confidence": "corpus_pattern",
+      "field": "corpus_chunk"
+    },
+    {
+      "key": "11",
+      "slug": "west-virginia-manual",
+      "state_code": "WV",
+      "excerpt": "p slopes. However, longitudinal slopes of 10% or less are recommended. RSC-6.3. Cold Climate and Winter Performance Many different kinds of salting and sanding materials are applied in West Virginia during winter conditions. These can clog the sand/woo",
+      "page_or_section": "pages 293-293",
+      "confidence": "corpus_pattern",
+      "field": "corpus_chunk"
+    }
+  ],
+  "citations": [
+    {
+      "slug": "ca-casqa-municipal",
+      "chunk_id": "ca-casqa-municipal-c0113",
+      "page_or_section": "pages 117-117",
+      "excerpt": "ry, Association of Monterey Bay Area Governments, Woodward-Clyde, Central Coast Regional Water Quality Control Board. July, 1998, Revised by California Coastal Commission, February 2002. Orange County Stormwater Program http://www.ocwatersheds.com/"
+    },
+    {
+      "slug": "indiana-manual",
+      "chunk_id": "indiana-manual-c0317",
+      "page_or_section": "pages 564-564",
+      "excerpt": "s of six inches for commercial uses such as automobiles with no truck traffic). Regional Adaptations \u0003 In cold climates, the base of the stone reservoir should be below the frost line or the system should be designed to facilitate drainage of storm"
+    },
+    {
+      "slug": "ny-state",
+      "chunk_id": "ny-state-c0027",
+      "page_or_section": "pages 40-40",
+      "excerpt": "– Table 3.5 Watershed/Regional Selection Matrix SMP Group Sensitive Stream Aquifer Lakes Reservoir Estuary/Coastal Ponds Emphasize channel protection. Restrict in-stream practices. In trout"
+    },
+    {
+      "slug": "ms-state-vol2",
+      "chunk_id": "ms-state-vol2-c0123",
+      "page_or_section": "pages 142-143",
+      "excerpt": "r recharge. Other design modifications may make this practice more effective in arid or cold climates. Partial Exfiltration In one design variation of the bioretention system, the underdrain is installed on only part of the bottom of the system"
+    },
+    {
+      "slug": "billings-mt",
+      "chunk_id": "billings-mt-c0116",
+      "page_or_section": "pages 143-143",
+      "excerpt": "ssee Permanent Stormwater and Design Guidance Manual. December 2014. 9. Atlanta Regional Council. Georgia Stormwater Management Manual: Volume 2 Technical Handbook. [book auth.] AECOM et al. Chapter 4: Stormwater Best Management Practices. Atlanta,"
+    },
+    {
+      "slug": "indiana-manual",
+      "chunk_id": "indiana-manual-c0538",
+      "page_or_section": "pages 974-974",
+      "excerpt": "innesota Urban Small Sites BMP Manual, Stormwater Best Management Practices for Cold Climates, Prepared for Metropolitan Council by Barr Engineering. Metropolitan Washington Council of Governments, Schueler, Thomas R. 1992, March. A Current Assessment"
+    },
+    {
+      "slug": "mn-state-2008",
+      "chunk_id": "mn-state-2008-c0628",
+      "page_or_section": "pages 816-816",
+      "excerpt": "for snow disposal sites. In Proceedings - Urban Drainage and Highway Runoff in Cold Climate, March 25-27, 2003, Riksgränsen, Sweden, pp.85-95. Wigington, P., C. Randall, And T. Grizzard. 1986. Accumulation of Selected Trace Metals in Soils of Urban Ru"
+    },
+    {
+      "slug": "ct-state",
+      "chunk_id": "ct-state-c0016",
+      "page_or_section": "pages 11-11",
+      "excerpt": "t guidance in the Manual also incorporates and/or references information from a regional stormwater retrofit manual that has been developed for New England.  Updated section on the appropriate use of proprietary stormwater BMPs (Chapter 11 - Propr"
+    },
+    {
+      "slug": "billings-mt",
+      "chunk_id": "billings-mt-c0033",
+      "page_or_section": "pages 46-46",
+      "excerpt": "Selection of Post-Construction BMPs  Need for Planning: The implementation of regional BMPs requires substantial planning, financing, and permitting; each of which must be in place ahead of future projected growth. 4.5.3 Important Considerations"
+    },
+    {
+      "slug": "ca-caltrans-construction",
+      "chunk_id": "ca-caltrans-construction-c0006",
+      "page_or_section": "pages 7-7",
+      "excerpt": "roducts RUSLE2 Revised Universal Soil Loss Equation v2 RW Receiving Water RWQCB Regional Water Quality Control Board SMARTS Storm Water Multiple Application Reporting and Tracking System SS Settleable Solids SWMP Stormwater Management Program SWPPP"
+    },
+    {
+      "slug": "norfolk-va",
+      "chunk_id": "norfolk-va-c0114",
+      "page_or_section": "pages 86-87",
+      "excerpt": "t. Slopes were calculated by applying the ArcGIS slope function to the Seamless Regional Digital Elevation Model documented in Appendix B of Hampton Roads Coastal Resources Technical Assistance Program Fiscal Year 2011-2012 3. The slope function in"
+    },
+    {
+      "slug": "ga-state",
+      "chunk_id": "ga-state-c0234",
+      "page_or_section": "pages 178-178",
+      "excerpt": "ommunity must consider environ- mental factors such as flooding and hurricanes, regional factors such as proximity to the coast and presence of karst, and future growth condi- tions and patterns. In addition, a community must determine the best app"
+    },
+    {
+      "slug": "mn-state-2008",
+      "chunk_id": "mn-state-2008-c0315",
+      "page_or_section": "pages 368-368",
+      "excerpt": "ed sites Can be used for pre-treatment prior to other prac-• tices Suitable for cold climates if installed below frost• line Limitations Each type of unit has specific design constraints• and limitations for use Treatment may be reduced if frequent mai"
+    },
+    {
+      "slug": "west-virginia-manual",
+      "chunk_id": "west-virginia-manual-c0223",
+      "page_or_section": "pages 293-293",
+      "excerpt": "p slopes. However, longitudinal slopes of 10% or less are recommended. RSC-6.3. Cold Climate and Winter Performance Many different kinds of salting and sanding materials are applied in West Virginia during winter conditions. These can clog the sand/woo"
+    }
+  ],
+  "supporting_slugs": [
+    "ca-casqa-municipal",
+    "indiana-manual",
+    "ny-state",
+    "ms-state-vol2",
+    "billings-mt",
+    "mn-state-2008",
+    "ct-state",
+    "ca-caltrans-construction",
+    "norfolk-va",
+    "ga-state",
+    "west-virginia-manual"
+  ]
+}

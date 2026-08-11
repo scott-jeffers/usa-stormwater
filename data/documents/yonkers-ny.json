@@ -40,37 +40,22 @@
   "evidence": [
     {
       "field": "document_metadata.jurisdiction_name",
-      "excerpt": "City of Yonkers adopts NYSDEC Design Manual",
-      "page_or_section": "Coverage note"
+      "excerpt": "expected to increase by 10 to 20% (NYSDEC 2020). These adjustments should be factored into the design and construction of new stormwater management and control structures to ensure they sufficiently account for the effects of climate change, reducing future flood risk and pr",
+      "page_or_section": "p. 28"
     },
     {
       "field": "document_metadata.jurisdiction_level",
-      "excerpt": "municipality — City of Yonkers",
-      "page_or_section": "Coverage note"
+      "excerpt": "or other individual hired by the municipality Learn about the resources the local program has at its disposal. If government staff are being trained, develop a maintenance plan that is consistent with their knowledge and understanding. Be aware of equipment and materials o",
+      "page_or_section": "p. 323"
     },
     {
       "field": "document_metadata.state_code",
-      "excerpt": "Albany, NY 12233",
-      "page_or_section": "Title Page"
+      "excerpt": "DAM SAFETY SECTION 50 WOLF ROAD ALBANY, NEW YORK 12233-3507 --- page 369 --- GUIDELINES FOR DESIGN OF DAMS TABLE OF CONTENTS SECTION TITLE PAGE Preface to the January 1 1989 Edition 1 Introduction 2 Gravity Dams Modification 2 Definitions 3 3 Hazard Classification 5 4 De",
+      "page_or_section": "pp. 363–370"
     },
     {
       "field": "document_metadata.document_title",
       "excerpt": "STORMWATER MANAGEMENT DESIGN MANUAL",
-      "page_or_section": "Title Page"
-    },
-    {
-      "field": "document_metadata.version_or_edition",
-      "excerpt": "July 31, 2024",
-      "page_or_section": "Title Page"
-    },
-    {
-      "field": "document_metadata.adoption_or_effective_date",
-      "excerpt": "July 31, 2024",
-      "page_or_section": "Title Page"
-    },
-    {
-      "field": "document_metadata.last_revised_date",
-      "excerpt": "July 31, 2024",
       "page_or_section": "Title Page"
     },
     {
@@ -80,8 +65,8 @@
     },
     {
       "field": "design_criteria.water_quality_volume_method",
-      "excerpt": "90% Rule: WQv (acre-feet) = (P * Rv * A) / 12",
-      "page_or_section": "Table 4.1"
+      "excerpt": "Water Quality Volume (WQv) 90% Rule: WQv (acre-feet) = (P ∙ Rv ∙ A) / 12 Rv = 0.05+0.009(I) I = Impervious Cover (Percent) P(inches) = 90% Rainfall Event Number (See Figure 4.1) 2 A = Contributing Area (acres) Runoff Reduction Volume (RRv) RRv (acre-feet) = Reduction of",
+      "page_or_section": "p. 43"
     },
     {
       "field": "design_criteria.peak_flow_calculation_method",
@@ -100,15 +85,19 @@
     },
     {
       "field": "document_metadata.relationship_to_state_manual",
-      "excerpt": "adopts_state_manual_directly — NYS Design Manual",
-      "page_or_section": "Coverage note"
+      "excerpt": "urban stormwater runoff 2. To provide design standards on the most effective stormwater management approaches including: o Incorporation of runoff reduction achieved by infiltration, groundwater recharge, reuse, recycle, evaporation/evapotranspiration through the use of runoff",
+      "page_or_section": "p. 11"
     }
   ],
   "extraction_quality": {
     "confidence": "medium",
     "needs_human_review": true,
-    "review_notes": "Municipality coverage via NYS Stormwater Management Design Manual (same pattern as Rochester).",
-    "fields_not_found": []
+    "review_notes": "Municipality coverage via NYS Stormwater Management Design Manual (same pattern as Rochester). Pipeline excerpt repair removed 3 unlocated citation(s).",
+    "fields_not_found": [
+      "document_metadata.version_or_edition",
+      "document_metadata.adoption_or_effective_date",
+      "document_metadata.last_revised_date"
+    ]
   },
   "source": {
     "document_url": "https://extapps.dec.ny.gov/fs/projects/24-25DraftCGPDesignManual/Manual.SW.CGP.2024-07-31.Design_Manual_Issued_2024-07-31.pdf",

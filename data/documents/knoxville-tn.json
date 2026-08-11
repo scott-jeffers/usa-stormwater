@@ -42,11 +42,6 @@
       "page_or_section": "Cover"
     },
     {
-      "field": "document_metadata.state_code",
-      "excerpt": "Tennessee",
-      "page_or_section": "Cover"
-    },
-    {
       "field": "document_metadata.document_title",
       "excerpt": "Best Management Practices (BMP) Manual",
       "page_or_section": "Cover"
@@ -85,11 +80,12 @@
   "extraction_quality": {
     "confidence": "medium",
     "needs_human_review": true,
-    "review_notes": "Combined KnoxvilleBMP.pdf (Jan 2018). First-flush criteria from ordinance citations in manual; peak-rate return periods not fully tabulated in extracted text.",
+    "review_notes": "Combined KnoxvilleBMP.pdf (Jan 2018). First-flush criteria from ordinance citations in manual; peak-rate return periods not fully tabulated in extracted text. Pipeline excerpt repair removed 1 unlocated citation(s).",
     "fields_not_found": [
       "document_metadata.adoption_or_effective_date",
       "design_criteria.design_storm_return_periods_years",
-      "design_criteria.required_hydrologic_hydraulic_software"
+      "design_criteria.required_hydrologic_hydraulic_software",
+      "document_metadata.state_code"
     ]
   },
   "source": {

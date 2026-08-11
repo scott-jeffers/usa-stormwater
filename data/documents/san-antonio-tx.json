@@ -10,7 +10,16 @@
     "relationship_to_state_manual": "independent"
   },
   "design_criteria": {
-    "design_storm_return_periods_years": [1, 2, 5, 10, 25, 50, 100, 500],
+    "design_storm_return_periods_years": [
+      1,
+      2,
+      5,
+      10,
+      25,
+      50,
+      100,
+      500
+    ],
     "water_quality_volume_method": null,
     "peak_flow_calculation_method": [
       "Rational Method (Q = CIA) for drainage areas less than 200 acres",
@@ -61,11 +70,6 @@
       "page_or_section": "Cover"
     },
     {
-      "field": "document_metadata.last_revised_date",
-      "excerpt": "April 2019",
-      "page_or_section": "Cover"
-    },
-    {
       "field": "document_metadata.relationship_to_state_manual",
       "excerpt": "The purpose of this Storm Water Design Criteria Manual (SWDCM) is to provide the design engineer with the criteria necessary to design drainage facilities in and around the San Antonio area.",
       "page_or_section": "Chapter 1 Preface"
@@ -112,16 +116,17 @@
     },
     {
       "field": "design_criteria.approved_bmp_categories",
-      "excerpt": "4.10 Planning For LID",
-      "page_or_section": "Table of Contents"
+      "excerpt": "principles and practices for the planning, design, construction, maintenance, and management of drainage facilities. It is not the intent of this SWDCM to limit the design capabilities or engineering judgment of the design engineer. Should an error be found within the manu",
+      "page_or_section": "p. 24"
     }
   ],
   "extraction_quality": {
     "confidence": "medium",
     "needs_human_review": true,
-    "review_notes": "Ingested PDF (UDC-Amendment-Drainage-Manual.pdf) extracts primarily through Chapter 5 Hydrology (~52 pages). TOC references later chapters (detention, software, LID) that are not present in this file; water_quality_volume_method and a fuller BMP palette may live in those missing chapters or companion Atlas 14 amendments. Prefer full SWDCM PDF if republished.",
+    "review_notes": "Ingested PDF (UDC-Amendment-Drainage-Manual.pdf) extracts primarily through Chapter 5 Hydrology (~52 pages). TOC references later chapters (detention, software, LID) that are not present in this file; water_quality_volume_method and a fuller BMP palette may live in those missing chapters or companion Atlas 14 amendments. Prefer full SWDCM PDF if republished. Pipeline excerpt repair removed 1 unlocated citation(s).",
     "fields_not_found": [
-      "design_criteria.water_quality_volume_method"
+      "design_criteria.water_quality_volume_method",
+      "document_metadata.last_revised_date"
     ]
   },
   "source": {

@@ -36,24 +36,19 @@
       "page_or_section": "Coverage note"
     },
     {
-      "field": "document_metadata.state_code",
-      "excerpt": "Alabama",
-      "page_or_section": "ADEM"
-    },
-    {
       "field": "document_metadata.document_title",
       "excerpt": "Low Impact Development Handbook",
       "page_or_section": "Cover"
     },
     {
       "field": "document_metadata.version_or_edition",
-      "excerpt": "ADEM LID Handbook",
-      "page_or_section": "Cover"
+      "excerpt": "Conservation Committee. 2009. Alabama Handbook for Erosion Control, Sediment Control, and Stormwater Management on Construction Sites and Urban Areas. Montgomery, AL. Brown, R.A., W.F. Hunt, and S.G. Kennedy. 2009. Designing Bioretention with an Internal Water Storage (IWS) Lay",
+      "page_or_section": "p. 9"
     },
     {
       "field": "document_metadata.relationship_to_state_manual",
-      "excerpt": "adopts_state_manual_directly — ADEM LID guidance",
-      "page_or_section": "Coverage note"
+      "excerpt": "Environmental Services Branch for guidance at 334- 271-7700 or 1-800-533-2336. Trash Removal As needed In high traffiff c areas, frequent trash removal will befi necessary. Mulch removal from outlets As needed Mulch may collect in the outlet or overflrr ow during heavyfl ra",
+      "page_or_section": "p. 9"
     },
     {
       "field": "design_criteria.water_quality_volume_method",
@@ -74,12 +69,13 @@
   "extraction_quality": {
     "confidence": "medium",
     "needs_human_review": true,
-    "review_notes": "No durable Birmingham city design-manual PDF; coverage via ADEM LID Handbook.",
+    "review_notes": "No durable Birmingham city design-manual PDF; coverage via ADEM LID Handbook. Pipeline excerpt repair removed 1 unlocated citation(s).",
     "fields_not_found": [
       "document_metadata.adoption_or_effective_date",
       "document_metadata.last_revised_date",
       "design_criteria.design_storm_return_periods_years",
-      "design_criteria.required_hydrologic_hydraulic_software"
+      "design_criteria.required_hydrologic_hydraulic_software",
+      "document_metadata.state_code"
     ]
   },
   "source": {

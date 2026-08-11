@@ -21,7 +21,6 @@ import {
   type CorpusStructure,
   type ManifestJob,
 } from "../../lib/pipeline/types";
-import { samplesQueuePath } from "../lib/pdfText";
 import {
   loadCorpusPages,
   pagesTextSlice,
@@ -30,6 +29,13 @@ import {
   type CorpusPagesFile,
 } from "../lib/corpusPages";
 import { cursorJsonPrompt } from "../lib/cursorLlm";
+import {
+  buildHeuristicStructure,
+  tagChunksHeuristic,
+  useHeuristicLlm,
+} from "../lib/corpusHeuristic";
+import { loadEnvLocal } from "../lib/loadEnv";
+import { ensureJobPdf } from "./prepareStage";
 import { pipelineDelay } from "./shared";
 
 const structureAiSchema = corpusStructureSchema.omit({
@@ -144,10 +150,7 @@ async function runSubstepPages(
   store.setCorpusSubstep(job.id, "pages", "running");
   await store.save();
 
-  const pdfPath = samplesQueuePath(job.id, "pdf");
-  if (!existsSync(pdfPath)) {
-    throw new Error(`PDF missing: ${pdfPath}`);
-  }
+  const pdfPath = await ensureJobPdf(job);
   const file = await writeCorpusPages({
     slug,
     queueId: job.id,
@@ -187,13 +190,24 @@ async function runSubstepStructure(
   const pages = await loadCorpusPages(slug);
   if (!pages) throw new Error("pages.json missing");
 
-  const sample = samplePagesForStructure(pages.pages);
-  await pipelineDelay();
+  loadEnvLocal();
+  let structure: CorpusStructure;
 
-  const { data, model } = await cursorJsonPrompt({
-    name: `corpus-structure-${job.id}`,
-    schema: structureAiSchema,
-    prompt: `You are structuring a U.S. stormwater design manual for a research corpus.
+  if (useHeuristicLlm()) {
+    console.log(`[${job.id}] structure: heuristic (no Cursor API key)`);
+    structure = buildHeuristicStructure({
+      pages,
+      jurisdictionHint: job.jurisdictionHint,
+      levelHint: job.levelHint,
+    });
+  } else {
+    const sample = samplePagesForStructure(pages.pages);
+    await pipelineDelay();
+
+    const { data, model } = await cursorJsonPrompt({
+      name: `corpus-structure-${job.id}`,
+      schema: structureAiSchema,
+      prompt: `You are structuring a U.S. stormwater design manual for a research corpus.
 
 Queue id: ${job.id}
 Jurisdiction hint: ${job.jurisdictionHint}
@@ -210,13 +224,15 @@ From the page samples below, produce JSON with:
 
 Page samples:
 ${sample}`,
-  });
+    });
 
-  const structure: CorpusStructure = {
-    ...data,
-    model,
-    generated_at: new Date().toISOString(),
-  };
+    structure = {
+      ...data,
+      model,
+      generated_at: new Date().toISOString(),
+    };
+  }
+
   await mkdir(corpusDirFor(slug), { recursive: true });
   await writeFile(
     corpusStructurePath(slug),
@@ -254,20 +270,25 @@ async function runSubstepChunks(
   if (!pages) throw new Error("pages.json missing");
 
   let chunks: CorpusChunk[] = [];
-  try {
-    await pipelineDelay();
-    const tocSummary = structure.toc
-      .slice(0, 80)
-      .map(
-        (t) =>
-          `${t.id}: ${t.title} (p.${t.page_start}-${t.page_end ?? pages.total_pages})`
-      )
-      .join("\n");
+  loadEnvLocal();
+  if (useHeuristicLlm()) {
+    console.log(`[${job.id}] chunks: heuristic`);
+    chunks = heuristicChunks(pages, structure);
+  } else {
+    try {
+      await pipelineDelay();
+      const tocSummary = structure.toc
+        .slice(0, 80)
+        .map(
+          (t) =>
+            `${t.id}: ${t.title} (p.${t.page_start}-${t.page_end ?? pages.total_pages})`
+        )
+        .join("\n");
 
-    const { data } = await cursorJsonPrompt({
-      name: `corpus-chunks-${job.id}`,
-      schema: chunkPlanSchema,
-      prompt: `Plan text chunks for retrieval from this stormwater manual.
+      const { data } = await cursorJsonPrompt({
+        name: `corpus-chunks-${job.id}`,
+        schema: chunkPlanSchema,
+        prompt: `Plan text chunks for retrieval from this stormwater manual.
 Slug: ${slug}
 Total pages: ${pages.total_pages}
 
@@ -281,26 +302,29 @@ Rules:
 - chunk_id like "${slug}-c0001"
 - Use TOC section ids/titles when possible
 - Do not include full text — page ranges only`,
-    });
+      });
 
-    chunks = data.chunks.map((c) => {
-      const text = pagesTextSlice(pages.pages, c.page_start, c.page_end).trim();
-      return {
-        ...c,
-        text,
-        summary: null,
-        topic_tags: [],
-        contains_requirements: false,
-        requirement_types: [],
-        char_count: text.length,
-      };
-    }).filter((c) => c.char_count > 40);
-  } catch (error) {
-    console.warn(
-      `[${job.id}] AI chunk plan failed, using heuristic:`,
-      error instanceof Error ? error.message : error
-    );
-    chunks = heuristicChunks(pages, structure);
+      chunks = data.chunks
+        .map((c) => {
+          const text = pagesTextSlice(pages.pages, c.page_start, c.page_end).trim();
+          return {
+            ...c,
+            text,
+            summary: null,
+            topic_tags: [],
+            contains_requirements: false,
+            requirement_types: [],
+            char_count: text.length,
+          };
+        })
+        .filter((c) => c.char_count > 40);
+    } catch (error) {
+      console.warn(
+        `[${job.id}] AI chunk plan failed, using heuristic:`,
+        error instanceof Error ? error.message : error
+      );
+      chunks = heuristicChunks(pages, structure);
+    }
   }
 
   if (chunks.length === 0) {
@@ -341,21 +365,28 @@ async function runSubstepTagging(
   store.setCorpusSubstep(job.id, "tagging", "running");
   await store.save();
 
-  const BATCH = 8;
-  const updated = [...chunks];
-  for (let i = 0; i < updated.length; i += BATCH) {
-    const batch = updated.slice(i, i + BATCH);
-    const needs = batch.filter(
-      (c) => c.summary === null && c.topic_tags.length === 0
-    );
-    if (needs.length === 0) continue;
+  loadEnvLocal();
+  let updated = [...chunks];
 
-    await pipelineDelay();
-    try {
-      const { data } = await cursorJsonPrompt({
-        name: `corpus-tag-${job.id}-${i}`,
-        schema: tagBatchSchema,
-        prompt: `Tag stormwater manual chunks for retrieval.
+  if (useHeuristicLlm()) {
+    console.log(`[${job.id}] tagging: heuristic`);
+    updated = tagChunksHeuristic(updated);
+    await writeChunks(slug, updated);
+  } else {
+    const BATCH = 8;
+    for (let i = 0; i < updated.length; i += BATCH) {
+      const batch = updated.slice(i, i + BATCH);
+      const needs = batch.filter(
+        (c) => c.summary === null && c.topic_tags.length === 0
+      );
+      if (needs.length === 0) continue;
+
+      await pipelineDelay();
+      try {
+        const { data } = await cursorJsonPrompt({
+          name: `corpus-tag-${job.id}-${i}`,
+          schema: tagBatchSchema,
+          prompt: `Tag stormwater manual chunks for retrieval.
 
 For each chunk return: chunk_id, summary (1-2 sentences), topic_tags (short), contains_requirements (bool), requirement_types (e.g. design_storm, wqv, bmp_list, peak_flow, software, release_rate).
 
@@ -366,30 +397,36 @@ ${needs
       `### ${c.chunk_id} (${c.section_title}, p.${c.page_start}-${c.page_end})\n${c.text.slice(0, 2500)}`
   )
   .join("\n\n")}`,
-      });
+        });
 
-      const byId = new Map(data.tags.map((t) => [t.chunk_id, t]));
-      for (let j = 0; j < updated.length; j++) {
-        const tag = byId.get(updated[j].chunk_id);
-        if (!tag) continue;
-        updated[j] = {
-          ...updated[j],
-          summary: tag.summary,
-          topic_tags: tag.topic_tags,
-          contains_requirements: tag.contains_requirements,
-          requirement_types: tag.requirement_types,
-        };
+        const byId = new Map(data.tags.map((t) => [t.chunk_id, t]));
+        for (let j = 0; j < updated.length; j++) {
+          const tag = byId.get(updated[j].chunk_id);
+          if (!tag) continue;
+          updated[j] = {
+            ...updated[j],
+            summary: tag.summary,
+            topic_tags: tag.topic_tags,
+            contains_requirements: tag.contains_requirements,
+            requirement_types: tag.requirement_types,
+          };
+        }
+        await writeChunks(slug, updated);
+        console.log(
+          `[${job.id}] tagging: ${Math.min(i + BATCH, updated.length)}/${updated.length}`
+        );
+      } catch (error) {
+        console.warn(
+          `[${job.id}] tagging batch failed, falling back to heuristic for batch:`,
+          error instanceof Error ? error.message : error
+        );
+        for (let j = 0; j < updated.length; j++) {
+          if (updated[j].summary === null && updated[j].topic_tags.length === 0) {
+            updated[j] = tagChunksHeuristic([updated[j]])[0];
+          }
+        }
+        await writeChunks(slug, updated);
       }
-      await writeChunks(slug, updated);
-      console.log(
-        `[${job.id}] tagging: ${Math.min(i + BATCH, updated.length)}/${updated.length}`
-      );
-    } catch (error) {
-      console.warn(
-        `[${job.id}] tagging batch failed (continuing):`,
-        error instanceof Error ? error.message : error
-      );
-      // Leave untagged; still mark tagging done so pipeline can proceed
     }
   }
 

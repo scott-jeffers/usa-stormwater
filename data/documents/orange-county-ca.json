@@ -48,11 +48,6 @@
       "page_or_section": "Title"
     },
     {
-      "field": "document_metadata.version_or_edition",
-      "excerpt": "2nd Edition",
-      "page_or_section": "Cover"
-    },
-    {
       "field": "document_metadata.relationship_to_state_manual",
       "excerpt": "Orange County Drainage Area Management Plan (DAMP)",
       "page_or_section": "Purpose"
@@ -81,11 +76,12 @@
   "extraction_quality": {
     "confidence": "medium",
     "needs_human_review": true,
-    "review_notes": "OC Local Drainage Manual is hydraulics-focused; post-construction LID/WQ primarily in OC DAMP/TGD — consider adding TGD next.",
+    "review_notes": "OC Local Drainage Manual is hydraulics-focused; post-construction LID/WQ primarily in OC DAMP/TGD — consider adding TGD next. Pipeline excerpt repair removed 1 unlocated citation(s).",
     "fields_not_found": [
       "document_metadata.adoption_or_effective_date",
       "document_metadata.last_revised_date",
-      "design_criteria.required_hydrologic_hydraulic_software"
+      "design_criteria.required_hydrologic_hydraulic_software",
+      "document_metadata.version_or_edition"
     ]
   },
   "source": {

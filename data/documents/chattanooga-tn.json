@@ -38,11 +38,6 @@
       "page_or_section": "Cover"
     },
     {
-      "field": "document_metadata.state_code",
-      "excerpt": "Tennessee",
-      "page_or_section": "Title"
-    },
-    {
       "field": "document_metadata.document_title",
       "excerpt": "Rainwater Management Guide",
       "page_or_section": "Cover"
@@ -85,11 +80,12 @@
   ],
   "extraction_quality": {
     "confidence": "high",
-    "needs_human_review": false,
-    "review_notes": "Full RMG binder with addenda; text truncated at ~1M chars.",
+    "needs_human_review": true,
+    "review_notes": "Full RMG binder with addenda; text truncated at ~1M chars. Pipeline excerpt repair removed 1 unlocated citation(s).",
     "fields_not_found": [
       "design_criteria.design_storm_return_periods_years",
-      "design_criteria.required_hydrologic_hydraulic_software"
+      "design_criteria.required_hydrologic_hydraulic_software",
+      "document_metadata.state_code"
     ]
   },
   "source": {

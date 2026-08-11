@@ -62,18 +62,8 @@
     },
     {
       "field": "document_metadata.version_or_edition",
-      "excerpt": "Version 3.4",
-      "page_or_section": "Cover Page"
-    },
-    {
-      "field": "document_metadata.adoption_or_effective_date",
-      "excerpt": "Version 3.4 July 2026",
-      "page_or_section": "Cover Page"
-    },
-    {
-      "field": "document_metadata.last_revised_date",
-      "excerpt": "Version 3.4 July 2026",
-      "page_or_section": "Cover Page"
+      "excerpt": "alterations including the conversion of pervious areas to impervious cover without authorization from PWD. It does not require the property owner to construct the SMPs if the development project associated with the SMPs does not commence or if no earth disturbance take",
+      "page_or_section": "p. 76"
     },
     {
       "field": "document_metadata.relationship_to_state_manual",
@@ -103,10 +93,12 @@
   ],
   "extraction_quality": {
     "confidence": "high",
-    "needs_human_review": false,
-    "review_notes": null,
+    "needs_human_review": true,
+    "review_notes": "Pipeline excerpt repair removed 2 unlocated citation(s).",
     "fields_not_found": [
-      "design_criteria.required_hydrologic_hydraulic_software"
+      "design_criteria.required_hydrologic_hydraulic_software",
+      "document_metadata.adoption_or_effective_date",
+      "document_metadata.last_revised_date"
     ]
   },
   "source": {

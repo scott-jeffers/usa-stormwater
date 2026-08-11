@@ -39,8 +39,8 @@
     },
     {
       "field": "document_metadata.state_code",
-      "excerpt": "Arizona / ADEQ",
-      "page_or_section": "Change summary"
+      "excerpt": "drawing meets the requirements of Arizona Department of Environmental Quality’s rules R18-4-215, R18-9-602, and R18-9-704.” with the engineer’s signature and professional engineering license number under this statement. Each As-Built sheet must be sealed as “As-Built” by an",
+      "page_or_section": "p. 59"
     },
     {
       "field": "document_metadata.document_title",
@@ -51,11 +51,6 @@
       "field": "document_metadata.version_or_edition",
       "excerpt": "January 2025",
       "page_or_section": "Change Summary"
-    },
-    {
-      "field": "document_metadata.adoption_or_effective_date",
-      "excerpt": "effective January 27, 2025, all new (1st Review) improvement plan submittals",
-      "page_or_section": "Cover memo"
     },
     {
       "field": "document_metadata.last_revised_date",
@@ -86,10 +81,11 @@
   "extraction_quality": {
     "confidence": "medium",
     "needs_human_review": true,
-    "review_notes": "Chandler EDS Jan 2025; confirm numeric retention depth from Chapter 3 tables.",
+    "review_notes": "Chandler EDS Jan 2025; confirm numeric retention depth from Chapter 3 tables. Pipeline excerpt repair removed 1 unlocated citation(s).",
     "fields_not_found": [
       "design_criteria.design_storm_return_periods_years",
-      "design_criteria.required_hydrologic_hydraulic_software"
+      "design_criteria.required_hydrologic_hydraulic_software",
+      "document_metadata.adoption_or_effective_date"
     ]
   },
   "source": {

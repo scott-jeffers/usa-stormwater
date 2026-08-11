@@ -37,27 +37,23 @@
     },
     {
       "field": "document_metadata.document_title",
-      "excerpt": "Chapter 2: Stormwater",
-      "page_or_section": "SUDAS Design Manual"
+      "excerpt": "--- page 1 --- TOC Design Manual Chapter 2 - Stormwater Table of Contents Table of Contents i Revised: 2021 Edition Chapter 2 - Stormwater 2A General Information 2A-1--------------------------------General Information A. Concept…………………………………………………………………………... 1 B. Informin",
+      "page_or_section": "p. 1"
     },
     {
       "field": "design_criteria.water_quality_volume_method",
       "excerpt": "Water Quality Volume, WQv / Design Standards include ISWMM",
       "page_or_section": "SUDAS Ch.2 / Municode Ch.72"
-    },
-    {
-      "field": "document_metadata.relationship_to_state_manual",
-      "excerpt": "adopts_state_manual_directly — SUDAS + ISWMM",
-      "page_or_section": "Coverage note"
     }
   ],
   "extraction_quality": {
     "confidence": "medium",
     "needs_human_review": true,
-    "review_notes": "Same SUDAS Ch.2 PDF as Des Moines coverage pattern; city supplements and ISWMM also apply.",
+    "review_notes": "Same SUDAS Ch.2 PDF as Des Moines coverage pattern; city supplements and ISWMM also apply. Pipeline excerpt repair removed 1 unlocated citation(s).",
     "fields_not_found": [
       "document_metadata.last_revised_date",
-      "design_criteria.required_hydrologic_hydraulic_software"
+      "design_criteria.required_hydrologic_hydraulic_software",
+      "document_metadata.relationship_to_state_manual"
     ]
   },
   "source": {

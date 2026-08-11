@@ -216,7 +216,7 @@
     "pdfUrl": "https://swbmpvwrrc.wp.prod.es.cloud.vt.edu/wp-content/uploads/2018/07/31_Chap-8_BMP-Overview-Selection.pdf",
     "landingPageUrl": "https://www.deq.virginia.gov/water/stormwater/stormwater-construction/handbooks",
     "cityCoords": null,
-    "notes": "VA Stormwater Management Handbook Ch8 BMP Overview (2013 clearinghouse PDF)"
+    "notes": "VA Stormwater Management Handbook Ch8 BMP Overview (2013). Host PDF often TLS-fails; local samples/queue/va-state.pdf rebuilt from prepared text for corpus."
   },
   {
     "id": "nc-state",
@@ -231,10 +231,10 @@
     "id": "nj-state",
     "jurisdictionHint": "New Jersey",
     "levelHint": "state",
-    "pdfUrl": "https://dep.nj.gov/wp-content/uploads/stormwater/bmp/njswbmp-chapter-9.7-small-scale-bioretention-systems-january-2026.pdf",
+    "pdfUrl": "https://dep.nj.gov/wp-content/uploads/stormwater/bmp/njswbmp-chapter-5-stormwater-management-quantity-and-quality-standards-and-computations-january-2026.pdf",
     "landingPageUrl": "https://dep.nj.gov/stormwater/stormwater-management/bmp-manual/",
     "cityCoords": null,
-    "notes": "Prepared from DEP chapter PDFs (Ch5 + Ch9.7); direct fetch often bot-blocked"
+    "notes": "NJ BMP Manual Ch5 (qty/quality). DEP host often 403s automated fetch; local samples/queue/nj-state.pdf rebuilt from prepared text for corpus."
   },
   {
     "id": "mn-state",
@@ -1342,13 +1342,13 @@
     "id": "tempe-az",
     "jurisdictionHint": "Tempe",
     "levelHint": "municipality",
-    "pdfUrl": "https://www.tempe.gov/home/showpublisheddocument/88295/637000000000000000",
-    "landingPageUrl": "https://www.tempe.gov/",
+    "pdfUrl": null,
+    "landingPageUrl": "https://www.tempe.gov/government/public-works/water/stormwater/past-stormwater-reports",
     "cityCoords": [
       -111.94,
       33.4255
     ],
-    "notes": "City of Tempe stormwater/drainage design document (civic document 88295)"
+    "notes": "EXCLUDED from Tier A: no Tempe drainage/stormwater design manual located. Civic PDF 88295 was Historic Preservation/DBP memo (wrong). City publishes SWMP/MS4 annual reports only — use Maricopa County / Mesa / Chandler AZ manuals for regional practice."
   },
   {
     "id": "madison-wi",
@@ -1558,13 +1558,13 @@
     "id": "cleveland-oh",
     "jurisdictionHint": "Cleveland",
     "levelHint": "municipality",
-    "pdfUrl": "https://www.neorsd.org/I_Library.php?a=download_file&LIBRARY_RECORD_ID=4470",
+    "pdfUrl": "https://dam.assets.ohio.gov/image/upload/epa.ohio.gov/Portals/35/storm/technical_assistance/ARCHIVE-RaLD-2006.pdf",
     "landingPageUrl": "https://www.neorsd.org/",
     "cityCoords": [
       -81.6944,
       41.4993
     ],
-    "notes": "NEORSD stormwater design document (Cleveland regional)"
+    "notes": "Ohio EPA Rainwater and Land Development (archive PDF). NEORSD library link returned empty file."
   },
   {
     "id": "frisco-tx",
@@ -2248,7 +2248,7 @@
       -74.1724,
       40.7357
     ],
-    "notes": "Newark MS4 follows NJDEP Stormwater BMP Manual / N.J.A.C. 7:8"
+    "notes": "Newark MS4 follows NJDEP Stormwater BMP Manual / N.J.A.C. 7:8; corpus uses local nj-state Ch5 text PDF (DEP host bot-blocks)"
   },
   {
     "id": "paterson-nj",
@@ -2260,7 +2260,7 @@
       -74.1718,
       40.9168
     ],
-    "notes": "Paterson MS4 follows NJDEP Stormwater BMP Manual / N.J.A.C. 7:8"
+    "notes": "Paterson MS4 follows NJDEP Stormwater BMP Manual / N.J.A.C. 7:8; corpus uses local nj-state Ch5 text PDF (DEP host bot-blocks)"
   },
   {
     "id": "elizabeth-nj",
@@ -2272,7 +2272,7 @@
       -74.2107,
       40.66399
     ],
-    "notes": "Elizabeth MS4 follows NJDEP Stormwater BMP Manual / N.J.A.C. 7:8"
+    "notes": "Elizabeth MS4 follows NJDEP Stormwater BMP Manual / N.J.A.C. 7:8; corpus uses local nj-state Ch5 text PDF (DEP host bot-blocks)"
   },
   {
     "id": "bridgeport-ct",
@@ -2524,7 +2524,7 @@
       -74.7429,
       40.2206
     ],
-    "notes": "Trenton capital follows NJDEP Stormwater BMP Manual / N.J.A.C. 7:8"
+    "notes": "Trenton capital follows NJDEP Stormwater BMP Manual / N.J.A.C. 7:8; corpus uses local nj-state Ch5 text PDF (DEP host bot-blocks)"
   },
   {
     "id": "davenport-ia",
@@ -2770,13 +2770,13 @@
     "id": "carson-city-nv",
     "jurisdictionHint": "Carson City",
     "levelHint": "municipality",
-    "pdfUrl": "https://www.carson.org/home/showpublisheddocument/76280/637624691903200000",
+    "pdfUrl": "https://www.carsoncity.gov/home/showpublisheddocument/76280/637624691903200000",
     "landingPageUrl": "https://www.carsoncity.gov/government/departments-g-z/public-works/storm-water-flood-plain-management/low-impact-development-drainage-manual-faqs",
     "cityCoords": [
       -119.7674,
       39.1638
     ],
-    "notes": "Carson City Drainage Manual (LID) effective 2021-07-01"
+    "notes": "Carson City Drainage Manual (LID) effective 2021-07-01 (carsoncity.gov host; carson.org DNS dead)"
   },
   {
     "id": "springfield-il",

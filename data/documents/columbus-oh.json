@@ -10,7 +10,15 @@
     "relationship_to_state_manual": "independent"
   },
   "design_criteria": {
-    "design_storm_return_periods_years": [1, 2, 5, 10, 25, 50, 100],
+    "design_storm_return_periods_years": [
+      1,
+      2,
+      5,
+      10,
+      25,
+      50,
+      100
+    ],
     "water_quality_volume_method": "Post-construction stormwater quality controls sized to the Water Quality Volume (WQv) and Water Quality Flow (WQf) per Section 3.3 / 6.2.9, using Ohio EPA Construction General Permit post-construction criteria and Ohio Rainwater and Land Development Manual methods (more stringent of OEPA vs Columbus criteria applies). Combined-sewer discharges are exempt from Section 3.3 water quality controls unless separation/redirection is planned. Extended detention example: release 50% of WQv in 8 hours and 100% of WQv per design tables.",
     "peak_flow_calculation_method": [
       "Rational Method (peak flows; up to 200 acres)",
@@ -54,11 +62,6 @@
       "field": "document_metadata.document_title",
       "excerpt": "Stormwater Drainage Manual",
       "page_or_section": "Cover"
-    },
-    {
-      "field": "document_metadata.version_or_edition",
-      "excerpt": "June 2025",
-      "page_or_section": "Cover / List of Updates"
     },
     {
       "field": "document_metadata.adoption_or_effective_date",
@@ -117,16 +120,17 @@
     },
     {
       "field": "design_criteria.approved_bmp_categories",
-      "excerpt": "Dry Detention Pond; Wet Detention Pond; Constructed Wetland; Shallow Constructed Wetland; Parking Lot Storage; Infiltration basin; Vegetated Filter Strips; Underground Detention System; Permeable Pavement; Bioretention; Sand/Media Filter",
-      "page_or_section": "Table 3-2 Characterization of Post-Construction Stormwater Controls"
+      "excerpt": "Infrastructure Surface Controls Dry Detention Pond ● ● • OEPA CGP/Supplements • Columbus SWDM Wet Detention Pond ● ● • OEPA CGP/Supplements • Columbus SWDM Constructed Wetland ● ● • OEPA CGP/Supplements • Columbus SWDM Shallow Constructed Wetland ● ● • OEPA CGP/Supplements •",
+      "page_or_section": "pp. 109–110"
     }
   ],
   "extraction_quality": {
     "confidence": "high",
     "needs_human_review": true,
-    "review_notes": "June 2025 Columbus SWDM. Explicit WQv rainfall depth equation is deferred to OEPA CGP / Rainwater and Land Development Manual rather than restated as a single Columbus-only formula in Section 3.3. No named proprietary modeling package is mandated (methods are specified). Manual text: effective August 26, 2025.",
+    "review_notes": "June 2025 Columbus SWDM. Explicit WQv rainfall depth equation is deferred to OEPA CGP / Rainwater and Land Development Manual rather than restated as a single Columbus-only formula in Section 3.3. No named proprietary modeling package is mandated (methods are specified). Manual text: effective August 26, 2025. Pipeline excerpt repair removed 1 unlocated citation(s).",
     "fields_not_found": [
-      "design_criteria.required_hydrologic_hydraulic_software"
+      "design_criteria.required_hydrologic_hydraulic_software",
+      "document_metadata.version_or_edition"
     ]
   },
   "source": {

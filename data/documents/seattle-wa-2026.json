@@ -66,11 +66,6 @@
       "page_or_section": "Title Page"
     },
     {
-      "field": "document_metadata.adoption_or_effective_date",
-      "excerpt": "Effective: July 1, 2026",
-      "page_or_section": "Title Page"
-    },
-    {
       "field": "document_metadata.relationship_to_state_manual",
       "excerpt": "which Ecology has determined meets the requirements contained in the Phase I NPDES Municipal Stormwater Permit, with reference to the Stormwater Management Manual for Western Washington (SWMMWW)",
       "page_or_section": "1.1"
@@ -103,10 +98,11 @@
   ],
   "extraction_quality": {
     "confidence": "high",
-    "needs_human_review": false,
-    "review_notes": "All fields were successfully mapped based on direct, explicit text references. No interpolation or estimation was used.",
+    "needs_human_review": true,
+    "review_notes": "All fields were successfully mapped based on direct, explicit text references. No interpolation or estimation was used. Pipeline excerpt repair removed 1 unlocated citation(s).",
     "fields_not_found": [
-      "document_metadata.last_revised_date"
+      "document_metadata.last_revised_date",
+      "document_metadata.adoption_or_effective_date"
     ]
   },
   "source": {

@@ -16,6 +16,8 @@ import {
   type CorpusStructure,
 } from "../../lib/pipeline/types";
 import { cursorJsonPrompt } from "../lib/cursorLlm";
+import { buildHeuristicOutline, useHeuristicLlm } from "../lib/outlineHeuristic";
+import { loadEnvLocal } from "../lib/loadEnv";
 import { pipelineDelay } from "./shared";
 
 async function loadAllStructures(): Promise<
@@ -100,25 +102,35 @@ export async function runOutlineStage(
   });
 
   try {
-    const sampleManuals = structures
-      .slice(0, 40)
-      .map(({ slug, structure }) => {
-        const toc = structure.toc
-          .slice(0, 12)
-          .map((t) => `  - ${t.title}`)
-          .join("\n");
-        return `- ${slug} [${structure.document_scope}] ${structure.document_title_normalized}\n  topics: ${structure.topics_present.join(", ")}\n${toc}`;
-      })
-      .join("\n");
+    loadEnvLocal();
+    let outline;
+    let runId: string | undefined;
 
-    const stats = summarizeTopicCounts(structures);
+    if (useHeuristicLlm()) {
+      console.log(
+        `outline: heuristic from ${structures.length} corpus structures (no API key)`
+      );
+      outline = buildHeuristicOutline(structures);
+    } else {
+      const sampleManuals = structures
+        .slice(0, 40)
+        .map(({ slug, structure }) => {
+          const toc = structure.toc
+            .slice(0, 12)
+            .map((t) => `  - ${t.title}`)
+            .join("\n");
+          return `- ${slug} [${structure.document_scope}] ${structure.document_title_normalized}\n  topics: ${structure.topics_present.join(", ")}\n${toc}`;
+        })
+        .join("\n");
 
-    await pipelineDelay();
-    const { data, model, runId } = await cursorJsonPrompt({
-      name: "national-outline",
-      schema: nationalOutlineSchema.omit({ generated_at: true, model: true }),
-      retries: 2,
-      prompt: `You are drafting the outline for a proposed national U.S. stormwater design manual (ASCE committee strawman).
+      const stats = summarizeTopicCounts(structures);
+
+      await pipelineDelay();
+      const result = await cursorJsonPrompt({
+        name: "national-outline",
+        schema: nationalOutlineSchema.omit({ generated_at: true, model: true }),
+        retries: 2,
+        prompt: `You are drafting the outline for a proposed national U.S. stormwater design manual (ASCE committee strawman).
 
 Synthesize a chapter/section tree from practice across ${structures.length} jurisdiction manuals.
 
@@ -147,13 +159,14 @@ ${stats}
 
 Sample manuals:
 ${sampleManuals}`,
-    });
-
-    const outline = nationalOutlineSchema.parse({
-      ...data,
-      generated_at: new Date().toISOString(),
-      model,
-    });
+      });
+      runId = result.runId;
+      outline = nationalOutlineSchema.parse({
+        ...result.data,
+        generated_at: new Date().toISOString(),
+        model: result.model,
+      });
+    }
 
     await mkdir(NATIONAL_DIR, { recursive: true });
     await writeFile(OUTLINE_PATH, JSON.stringify(outline, null, 2) + "\n", "utf-8");
@@ -175,7 +188,7 @@ ${sampleManuals}`,
       completedAt: new Date().toISOString(),
       error: null,
       meta: {
-        model,
+        model: outline.model,
         runId,
         section_count: outline.sections.length,
         manuals: structures.length,
@@ -185,7 +198,7 @@ ${sampleManuals}`,
       stage: "outline",
       status: "done",
       sections: outline.sections.length,
-      model,
+      model: outline.model,
       runId,
     });
     console.log(

@@ -6,11 +6,18 @@
  * Writes under public/data/ (served at /data/ after Next build).
  */
 import { mkdir, rm, writeFile } from "node:fs/promises";
+import { existsSync, readFileSync } from "node:fs";
 import path from "node:path";
 import { getAllManuals } from "../lib/data";
+import {
+  getAllDraftSections,
+  getNationalOutline,
+} from "../lib/national";
 
 const PUBLIC_DATA = path.resolve(process.cwd(), "public/data");
 const MANUALS_DIR = path.join(PUBLIC_DATA, "manuals");
+const NATIONAL_DIR = path.join(PUBLIC_DATA, "national");
+const NATIONAL_DRAFT_DIR = path.join(NATIONAL_DIR, "draft");
 
 const SITE_ORIGIN = "https://stormwateratlas.com";
 
@@ -140,8 +147,12 @@ async function main() {
           one: "/data/manuals/{slug}.json",
           atlas: "/data/atlas.json",
           schema: "/data/schema.json",
+          national_outline: "/data/national/outline.json",
+          national_drafts: "/data/national/drafts.json",
+          national_draft_one: "/data/national/draft/{sectionId}.json",
           llms: "/llms.txt",
           about: "/about/",
+          national: "/national/",
         },
         record: FIELD_SCHEMA,
       },
@@ -151,8 +162,56 @@ async function main() {
     "utf8"
   );
 
+  const outline = getNationalOutline();
+  const drafts = getAllDraftSections();
+  await mkdir(NATIONAL_DRAFT_DIR, { recursive: true });
+  if (outline) {
+    await writeFile(
+      path.join(NATIONAL_DIR, "outline.json"),
+      JSON.stringify(outline, null, 2) + "\n",
+      "utf8"
+    );
+  }
+  await writeFile(
+    path.join(NATIONAL_DIR, "drafts.json"),
+    JSON.stringify(
+      {
+        generated_at: generatedAt,
+        count: drafts.length,
+        outline_title: outline?.title ?? null,
+        drafts: drafts.map((d) => ({
+          section_id: d.section_id,
+          title: d.title,
+          data_url: `${SITE_ORIGIN}/data/national/draft/${d.section_id}.json`,
+          page_url: `${SITE_ORIGIN}/national/${d.section_id}/`,
+        })),
+      },
+      null,
+      2
+    ) + "\n",
+    "utf8"
+  );
+  for (const draft of drafts) {
+    await writeFile(
+      path.join(NATIONAL_DRAFT_DIR, `${draft.section_id}.json`),
+      JSON.stringify(draft, null, 2) + "\n",
+      "utf8"
+    );
+  }
+
+  const tierAPath = path.resolve(process.cwd(), "data/national/tier-a-slugs.json");
+  if (existsSync(tierAPath)) {
+    await writeFile(
+      path.join(NATIONAL_DIR, "tier-a-slugs.json"),
+      readFileSync(tierAPath, "utf8"),
+      "utf8"
+    );
+  }
+
   console.log(
-    `export:data — wrote ${manuals.length} manuals to public/data/ (${generatedAt})`
+    `export:data — wrote ${manuals.length} manuals` +
+      (outline ? `, national outline + ${drafts.length} drafts` : "") +
+      ` to public/data/ (${generatedAt})`
   );
 }
 

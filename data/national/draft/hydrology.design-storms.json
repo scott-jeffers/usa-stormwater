@@ -1,0 +1,389 @@
+{
+  "section_id": "hydrology.design-storms",
+  "title": "Design Storm Selection by Purpose",
+  "generated_at": "2026-08-11T03:43:21.049Z",
+  "model": "heuristic+editorial",
+  "editorial_status": "reviewed",
+  "practice_survey": "Design storms are selected by purpose rather than collapsed into one number. Water-quality sizing is often a rainfall or runoff depth (or a percentile storm), while channel protection and detention use short-to-medium return periods, and flood conveyance commonly uses the 100-year event. Atlas extracts show 100-, 10-, and 2-year storms as the most frequently listed return periods among manuals that publish a list.",
+  "draft_recommendation": "Select storms by purpose: water quality (depth or percentile), channel/overbank protection (commonly in the 1–10 year range), detention or peak matching (commonly a 2–25 year suite, sometimes through 100), and flood/emergency conveyance (commonly 100-year with freeboard). Prefer NOAA Atlas 14 or successor precipitation where available. Document any climate adjustments required locally.",
+  "regional_variants": "Arid West manuals often emphasize retention of a larger capture depth. Humid East manuals emphasize multi-storm peak matching. Coastal projects may need tide or surge checks beyond inland Atlas 14 depths.",
+  "open_issues": "Whether to publish a single national WQ storm depth or climate-banded ranges. How to reference climate-change precipitation adjustments without prescribing one method.",
+  "guidance_tables": [
+    {
+      "id": "design-storm-criteria",
+      "title": "Design storms by purpose",
+      "caption": "Draft national guidance grounded in atlas practice — not a design manual or adopted regulation.",
+      "columns": [
+        "Design purpose",
+        "Suggested national guidance",
+        "Atlas note"
+      ],
+      "rows": [
+        [
+          "Water quality / treatment",
+          "Prefer a rainfall or runoff depth, or a percentile WQ storm — not a long return period alone",
+          "WQ method field present in 95% of all manuals (88% of Tier A)"
+        ],
+        [
+          "Channel / overbank protection",
+          "Commonly select a short return period in the 1–10 year range; document local channel criteria",
+          "2-yr: 64% of listing manuals (155). 10-yr: 74% of listing manuals (178)"
+        ],
+        [
+          "Peak matching / detention",
+          "Commonly use a 2–25 year suite (sometimes through 100-year); match pre-development peaks unless volume-based alternative applies",
+          "2-yr: 64% of listing manuals (155). 25-yr: 43% of listing manuals (104). 100-yr: 88% of listing manuals (212)"
+        ],
+        [
+          "Flood / emergency conveyance",
+          "Commonly design for the 100-year event with freeboard and a safe overflow path",
+          "100-yr: 88% of listing manuals (212)"
+        ]
+      ],
+      "row_citations": [
+        [
+          "1",
+          "2",
+          "3",
+          "5",
+          "6"
+        ],
+        [
+          "4"
+        ],
+        [
+          "4",
+          "7"
+        ],
+        [
+          "7"
+        ]
+      ]
+    }
+  ],
+  "recommendation_clauses": [
+    {
+      "id": "wq-storm",
+      "number": "4.1",
+      "text": "For water quality, prefer a rainfall or runoff depth or a percentile storm—not a long return period alone.",
+      "citation_keys": [
+        "1",
+        "2",
+        "3",
+        "5"
+      ],
+      "confidence": "field_verified"
+    },
+    {
+      "id": "channel-storm",
+      "number": "4.2",
+      "text": "For channel or overbank protection, commonly select a short return period in the 1–10 year range and document local channel criteria.",
+      "citation_keys": [
+        "4",
+        "7",
+        "1",
+        "2"
+      ],
+      "confidence": "field_verified"
+    },
+    {
+      "id": "detention-storm",
+      "number": "4.3",
+      "text": "For detention or peak matching, commonly use a 2–25 year suite (sometimes through 100-year).",
+      "citation_keys": [
+        "4",
+        "7",
+        "1",
+        "2"
+      ],
+      "confidence": "field_verified"
+    },
+    {
+      "id": "flood-storm",
+      "number": "4.4",
+      "text": "For flood or emergency conveyance, commonly design for the 100-year event with freeboard and a safe overflow path.",
+      "citation_keys": [
+        "4",
+        "7",
+        "1",
+        "2"
+      ],
+      "confidence": "field_verified"
+    },
+    {
+      "id": "precip-source",
+      "number": "4.5",
+      "text": "Prefer NOAA Atlas 14 or successor precipitation where available; document any climate adjustments required locally.",
+      "citation_keys": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "confidence": "corpus_pattern"
+    }
+  ],
+  "citation_registry": [
+    {
+      "key": "1",
+      "slug": "ak-state",
+      "state_code": "AK",
+      "excerpt": "Treat the runoff from 90% of the storms that occur in an average year. For Alaska, this equates to providing water quality treatment for the runoff resulting from a rainfall depth of 1.25 inches or less. The goal is to reduce average annual post-development TSS loadings by 80%. WQv = (Rv) × (A) × (P) / 12",
+      "page_or_section": "Table 3-4; Section 3.3.1",
+      "confidence": "field_verified",
+      "field": "design_criteria.water_quality_volume_method"
+    },
+    {
+      "key": "2",
+      "slug": "alabama-handbook",
+      "state_code": "AL",
+      "excerpt": "the first flush equates to the first 1\" of runoff which carries 90% of the pollution load from a storm (USGS, 1984)",
+      "page_or_section": "Page 9, Chapter 2",
+      "confidence": "field_verified",
+      "field": "design_criteria.water_quality_volume_method"
+    },
+    {
+      "key": "3",
+      "slug": "billings-mt",
+      "state_code": "MT",
+      "excerpt": "infiltrate, evapotranspire, and/or capture for reuse the post-construction runoff generated from the first 0.5 inches of rainfall from a 24-hour storm preceded by 48 hours of no measurable precipitation... remainder... remove 80 percent total suspended solids (TSS)",
+      "page_or_section": "Section 1.3.1, Pages 1-2 to 1-3",
+      "confidence": "field_verified",
+      "field": "design_criteria.water_quality_volume_method"
+    },
+    {
+      "key": "4",
+      "slug": "ca-caltrans-construction",
+      "state_code": "CA",
+      "excerpt": "A 2-year, 24-hour storm event has been used by many as a default event, but recent studies have shown that this may oversize the system",
+      "page_or_section": "Section 7.1.5 NS-5 Clear Water Diversion, Page 7-5",
+      "confidence": "field_verified",
+      "field": "design_criteria.design_storm_return_periods_years"
+    },
+    {
+      "key": "5",
+      "slug": "ct-state",
+      "state_code": "CT",
+      "excerpt": "WQV = (P)(R)(A)/12 where: WQV = water quality volume (cubic feet) P = 1.3 inches (90th percentile rainfall event) R = volumetric runoff coefficient = 0.05+0.009(I) I = post- development impervious area (percent) A = post-development total drainage area of site or design point (square feet)",
+      "page_or_section": "Page 46, Water Quality Volume Calculation",
+      "confidence": "field_verified",
+      "field": "design_criteria.water_quality_volume_method"
+    },
+    {
+      "key": "6",
+      "slug": "fl-fsesci-tier1",
+      "state_code": "FL",
+      "excerpt": "temporary (or permanent) sediment or wet detention basin providing 3,600 cubic feet of storage per acre drained must be provided",
+      "page_or_section": "Chapter 3, Page 103",
+      "confidence": "field_verified",
+      "field": "design_criteria.water_quality_volume_method"
+    },
+    {
+      "key": "7",
+      "slug": "ga-state",
+      "state_code": "GA",
+      "excerpt": "the 1-year, 25-year, and 100-year return intervals... 2-year through the 25-year return frequency storm events",
+      "page_or_section": "105, 112",
+      "confidence": "field_verified",
+      "field": "design_criteria.design_storm_return_periods_years"
+    },
+    {
+      "key": "8",
+      "slug": "maine-manual",
+      "state_code": "ME",
+      "excerpt": "ing stormwater management facilities, the designer usually selects one or more \"design storms\". The most common approach is to use a design storm that relates the rainfall intensity, duration, and frequency (return period). Intensity-duration-frequency",
+      "page_or_section": "pages 11-11",
+      "confidence": "corpus_pattern",
+      "field": "corpus_chunk"
+    },
+    {
+      "key": "9",
+      "slug": "mt-deq8",
+      "state_code": "MT",
+      "excerpt": "for volume made available through infiltration or designed outlet. The minimum design storm event for retention facilities is the 2-year 24- hour storm for standard plans and the 100-year 24-hour storm for simplified plans. The capacity of a retention",
+      "page_or_section": "pages 29-29",
+      "confidence": "corpus_pattern",
+      "field": "corpus_chunk"
+    },
+    {
+      "key": "10",
+      "slug": "ny-bluebook",
+      "state_code": "NY",
+      "excerpt": "except for the inlet opening at the top, or a Qp = the peak inflow rate for the design storm. (The mini- dewatering opening. There shall not be other holes, mum design storm will be a 10 year, 24 hour storm under leaks, rips, or perforations in the str",
+      "page_or_section": "pages 221-221",
+      "confidence": "corpus_pattern",
+      "field": "corpus_chunk"
+    },
+    {
+      "key": "11",
+      "slug": "ri-state",
+      "state_code": "RI",
+      "excerpt": "ention of the post- development runoff volume from the 1-year, 24-hour Type III design storm event. If a stormwater discharge is proposed within 200 feet of streams and any contiguous natural or vegetated wetlands in watersheds draining to cold-water f",
+      "page_or_section": "pages 58-58",
+      "confidence": "corpus_pattern",
+      "field": "corpus_chunk"
+    },
+    {
+      "key": "12",
+      "slug": "md-state",
+      "state_code": "MD",
+      "excerpt": "y subtracting the runoff treated by ESD practices from the total 1-year 24-hour design storm runoff. Table 5.3 was developed using the “Change in Runoff Curve Number Method” (McCuen, R., MDE, 1983) to determine goals for sizing ESD practices and reduci",
+      "page_or_section": "pages 165-165",
+      "confidence": "corpus_pattern",
+      "field": "corpus_chunk"
+    },
+    {
+      "key": "13",
+      "slug": "detroit-mi",
+      "state_code": "MI",
+      "excerpt": "same outlet structure as used for flood control. d. FLOOD CONTROL i. Determine Design Storm: 1. If the Regulated Area is less than 5 acres, the proposed design must limit the 10-Year, 24-Hour peak flow to 0.15 cfs/acre. 2. If the Regulated Area is equ",
+      "page_or_section": "pages 59-60",
+      "confidence": "corpus_pattern",
+      "field": "corpus_chunk"
+    },
+    {
+      "key": "14",
+      "slug": "mn-state-2008",
+      "state_code": "MN",
+      "excerpt": "d States for Durations from 30 Minutes to 24 Hours and Return Periods from 1 to 100 Years. U.S. Weather Bureau, Technical Publication 40. Huff and Angels, 1992. Bulletin 71. Midwest Climate Center. Metropolitan Council, 1995. Precipitation Frequenc",
+      "page_or_section": "pages 202-202",
+      "confidence": "corpus_pattern",
+      "field": "corpus_chunk"
+    },
+    {
+      "key": "15",
+      "slug": "pa-state",
+      "state_code": "PA",
+      "excerpt": "ons are incorporated in this Manual by using increased rainfall volumes for the design storms and more recent rainfall records with some accommodation for climate change when using continuous simulation. It is expected that future research will provide",
+      "page_or_section": "pages 26-26",
+      "confidence": "corpus_pattern",
+      "field": "corpus_chunk"
+    },
+    {
+      "key": "16",
+      "slug": "ct-state",
+      "state_code": "CT",
+      "excerpt": "Climate Change Considerations 549 Options Evaluated Stormwater Quantity Control Design Storm As described above, the Workgroup evaluated several alternative approaches for updating the stormwater quantity control design storm precipitation (24-hour des",
+      "page_or_section": "pages 556-556",
+      "confidence": "corpus_pattern",
+      "field": "corpus_chunk"
+    },
+    {
+      "key": "17",
+      "slug": "vt-state",
+      "state_code": "VT",
+      "excerpt": "𝑝𝑝 × 𝑃𝑃1𝑦𝑦𝑦𝑦 12 � Where: TV = maximum design volume (ft3) P1yr = 1 year design storm depth (inches) Where rooftop runoff can be routed to a permeable pavement system with available treatment capacity (Tv), the surplus treatment capacity can be",
+      "page_or_section": "pages 187-187",
+      "confidence": "corpus_pattern",
+      "field": "corpus_chunk"
+    },
+    {
+      "key": "18",
+      "slug": "las-vegas-nv",
+      "state_code": "NV",
+      "excerpt": "R 513 McCARRAN AIRPORT RAINFALL AREA 514 DEPTH-AREA REDUCTION CURVES 515 6-HOUR DESIGN STORM DISTRIBUTIONS 516 DEPTH-DURATION-FREQUENCY CURVES FOR McCARRAN AIRPORT RAINFALL AREA 517 TIME-INTENSITY-FREQUENCY CURVES FOR McCARRAN AIRPORT RAINFALL AREA 518",
+      "page_or_section": "pages 86-86",
+      "confidence": "corpus_pattern",
+      "field": "corpus_chunk"
+    }
+  ],
+  "citations": [
+    {
+      "slug": "maine-manual",
+      "chunk_id": "maine-manual-c0034",
+      "page_or_section": "pages 11-11",
+      "excerpt": "ing stormwater management facilities, the designer usually selects one or more \"design storms\". The most common approach is to use a design storm that relates the rainfall intensity, duration, and frequency (return period). Intensity-duration-frequency"
+    },
+    {
+      "slug": "mt-deq8",
+      "chunk_id": "mt-deq8-c0046",
+      "page_or_section": "pages 29-29",
+      "excerpt": "for volume made available through infiltration or designed outlet. The minimum design storm event for retention facilities is the 2-year 24- hour storm for standard plans and the 100-year 24-hour storm for simplified plans. The capacity of a retention"
+    },
+    {
+      "slug": "ny-bluebook",
+      "chunk_id": "ny-bluebook-c0187",
+      "page_or_section": "pages 221-221",
+      "excerpt": "except for the inlet opening at the top, or a Qp = the peak inflow rate for the design storm. (The mini- dewatering opening. There shall not be other holes, mum design storm will be a 10 year, 24 hour storm under leaks, rips, or perforations in the str"
+    },
+    {
+      "slug": "ri-state",
+      "chunk_id": "ri-state-c0105",
+      "page_or_section": "pages 58-58",
+      "excerpt": "ention of the post- development runoff volume from the 1-year, 24-hour Type III design storm event. If a stormwater discharge is proposed within 200 feet of streams and any contiguous natural or vegetated wetlands in watersheds draining to cold-water f"
+    },
+    {
+      "slug": "ri-state",
+      "chunk_id": "ri-state-c0381",
+      "page_or_section": "pages 437-437",
+      "excerpt": "Northeast Regional Climate Center. If a load estimate is desired for a specific design storm (e.g., 10-year 24-hour, Type III storm), the user can supply the relevant value of P derived from Table 3-1. Caution is required as EMCs vary as a function of"
+    },
+    {
+      "slug": "md-state",
+      "chunk_id": "md-state-c0082",
+      "page_or_section": "pages 165-165",
+      "excerpt": "y subtracting the runoff treated by ESD practices from the total 1-year 24-hour design storm runoff. Table 5.3 was developed using the “Change in Runoff Curve Number Method” (McCuen, R., MDE, 1983) to determine goals for sizing ESD practices and reduci"
+    },
+    {
+      "slug": "md-state",
+      "chunk_id": "md-state-c0083",
+      "page_or_section": "pages 166-166",
+      "excerpt": ".... Sizing Criteria o Cpv shall be based on the runoff from the 1-year 24-hour design storm calculated using the reduced RCN (see Table 5.3). If the reduced RCN for a drainage area reflects “woods in good condition”, then Cpv has been satisfied for th"
+    },
+    {
+      "slug": "detroit-mi",
+      "chunk_id": "detroit-mi-c0097",
+      "page_or_section": "pages 59-60",
+      "excerpt": "same outlet structure as used for flood control. d. FLOOD CONTROL i. Determine Design Storm: 1. If the Regulated Area is less than 5 acres, the proposed design must limit the 10-Year, 24-Hour peak flow to 0.15 cfs/acre. 2. If the Regulated Area is equ"
+    },
+    {
+      "slug": "mn-state-2008",
+      "chunk_id": "mn-state-2008-c0170",
+      "page_or_section": "pages 202-202",
+      "excerpt": "d States for Durations from 30 Minutes to 24 Hours and Return Periods from 1 to 100 Years. U.S. Weather Bureau, Technical Publication 40. Huff and Angels, 1992. Bulletin 71. Midwest Climate Center. Metropolitan Council, 1995. Precipitation Frequenc"
+    },
+    {
+      "slug": "mn-state-2008",
+      "chunk_id": "mn-state-2008-c0160",
+      "page_or_section": "pages 191-191",
+      "excerpt": "state are included in TP-40 and reproduced in Appendix B of this Manual: 1-Year design storm• 2-Year design storm• 5-Year design storm• 10-Year design storm• 25-Year design storm• 100-Year design storm• Design engineers typically make use of precipitat"
+    },
+    {
+      "slug": "pa-state",
+      "chunk_id": "pa-state-c0015",
+      "page_or_section": "pages 26-26",
+      "excerpt": "ons are incorporated in this Manual by using increased rainfall volumes for the design storms and more recent rainfall records with some accommodation for climate change when using continuous simulation. It is expected that future research will provide"
+    },
+    {
+      "slug": "ct-state",
+      "chunk_id": "ct-state-c0454",
+      "page_or_section": "pages 556-556",
+      "excerpt": "Climate Change Considerations 549 Options Evaluated Stormwater Quantity Control Design Storm As described above, the Workgroup evaluated several alternative approaches for updating the stormwater quantity control design storm precipitation (24-hour des"
+    },
+    {
+      "slug": "vt-state",
+      "chunk_id": "vt-state-c0142",
+      "page_or_section": "pages 187-187",
+      "excerpt": "𝑝𝑝 × 𝑃𝑃1𝑦𝑦𝑦𝑦 12 � Where: TV = maximum design volume (ft3) P1yr = 1 year design storm depth (inches) Where rooftop runoff can be routed to a permeable pavement system with available treatment capacity (Tv), the surplus treatment capacity can be"
+    },
+    {
+      "slug": "las-vegas-nv",
+      "chunk_id": "las-vegas-nv-c0120",
+      "page_or_section": "pages 86-86",
+      "excerpt": "R 513 McCARRAN AIRPORT RAINFALL AREA 514 DEPTH-AREA REDUCTION CURVES 515 6-HOUR DESIGN STORM DISTRIBUTIONS 516 DEPTH-DURATION-FREQUENCY CURVES FOR McCARRAN AIRPORT RAINFALL AREA 517 TIME-INTENSITY-FREQUENCY CURVES FOR McCARRAN AIRPORT RAINFALL AREA 518"
+    }
+  ],
+  "supporting_slugs": [
+    "maine-manual",
+    "mt-deq8",
+    "ny-bluebook",
+    "ri-state",
+    "md-state",
+    "detroit-mi",
+    "mn-state-2008",
+    "pa-state",
+    "ct-state",
+    "vt-state",
+    "las-vegas-nv"
+  ]
+}

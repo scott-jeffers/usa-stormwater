@@ -1,19 +1,15 @@
-import { getAllManuals } from "@/lib/data";
+import { getManualListItems } from "@/lib/data";
 import { ManualsExplorer } from "@/components/ManualsExplorer";
 import { isUsStateCode } from "@/lib/usStates";
 
 export default function HomePage() {
-  const manuals = getAllManuals();
+  const manuals = getManualListItems();
 
   const statesCovered = new Set(
-    manuals
-      .map((m) => m.data.document_metadata.state_code)
-      .filter(isUsStateCode)
+    manuals.map((m) => m.state_code).filter(isUsStateCode)
   ).size;
 
-  const needsReviewCount = manuals.filter(
-    (m) => m.data.extraction_quality.needs_human_review
-  ).length;
+  const needsReviewCount = manuals.filter((m) => m.needs_human_review).length;
 
   return (
     <main className="space-y-8">

@@ -47,21 +47,6 @@
       "page_or_section": "Cover"
     },
     {
-      "field": "document_metadata.version_or_edition",
-      "excerpt": "Effective Date: September 19, 2013",
-      "page_or_section": "Cover"
-    },
-    {
-      "field": "document_metadata.adoption_or_effective_date",
-      "excerpt": "Effective Date: September 19, 2013",
-      "page_or_section": "Cover"
-    },
-    {
-      "field": "document_metadata.last_revised_date",
-      "excerpt": "Approval Date: June 21, 2013",
-      "page_or_section": "Cover"
-    },
-    {
       "field": "document_metadata.relationship_to_state_manual",
       "excerpt": "NPDES No. CAS618036 MS4 Order R8-2010-0036",
       "page_or_section": "Cover"
@@ -84,11 +69,14 @@
   ],
   "extraction_quality": {
     "confidence": "high",
-    "needs_human_review": false,
-    "review_notes": "Santa Ana River Watershed TGD; Mojave has separate guidance.",
+    "needs_human_review": true,
+    "review_notes": "Santa Ana River Watershed TGD; Mojave has separate guidance. Pipeline excerpt repair removed 3 unlocated citation(s).",
     "fields_not_found": [
       "design_criteria.design_storm_return_periods_years",
-      "design_criteria.required_hydrologic_hydraulic_software"
+      "design_criteria.required_hydrologic_hydraulic_software",
+      "document_metadata.version_or_edition",
+      "document_metadata.adoption_or_effective_date",
+      "document_metadata.last_revised_date"
     ]
   },
   "source": {

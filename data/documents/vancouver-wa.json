@@ -90,8 +90,8 @@
     },
     {
       "field": "design_criteria.required_hydrologic_hydraulic_software",
-      "excerpt": "WWHM / HSPF per SWMMWW",
-      "page_or_section": "SWMMWW / coverage note"
+      "excerpt": "Manual for Western Washington (SWMMWW). 2. Minimum Requirement #2: Construction Stormwater Pollution Prevention Plan (SWPPP) – Discuss whether a SWPPP will be required for the project (full or abbreviated) due to the thresholds for hard surfaces and disturbed area. Submi",
+      "page_or_section": "p. 10"
     },
     {
       "field": "design_criteria.approved_bmp_categories",

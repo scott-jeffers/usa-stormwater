@@ -39,28 +39,8 @@
       "page_or_section": "Cover"
     },
     {
-      "field": "document_metadata.state_code",
-      "excerpt": "Virginia",
-      "page_or_section": "Cover"
-    },
-    {
       "field": "document_metadata.document_title",
       "excerpt": "STORMWATER MANUAL: A GUIDE TO STORMWATER REQUIREMENTS",
-      "page_or_section": "Cover"
-    },
-    {
-      "field": "document_metadata.version_or_edition",
-      "excerpt": "July 2025",
-      "page_or_section": "Cover"
-    },
-    {
-      "field": "document_metadata.adoption_or_effective_date",
-      "excerpt": "July 2025",
-      "page_or_section": "Cover"
-    },
-    {
-      "field": "document_metadata.last_revised_date",
-      "excerpt": "July 2025",
       "page_or_section": "Cover"
     },
     {
@@ -92,9 +72,13 @@
   "extraction_quality": {
     "confidence": "medium",
     "needs_human_review": true,
-    "review_notes": "County LDA guidance manual; numeric WQv depths primarily via VRRM/Handbook rather than restated inline.",
+    "review_notes": "County LDA guidance manual; numeric WQv depths primarily via VRRM/Handbook rather than restated inline. Pipeline excerpt repair removed 4 unlocated citation(s).",
     "fields_not_found": [
-      "design_criteria.design_storm_return_periods_years"
+      "design_criteria.design_storm_return_periods_years",
+      "document_metadata.state_code",
+      "document_metadata.version_or_edition",
+      "document_metadata.adoption_or_effective_date",
+      "document_metadata.last_revised_date"
     ]
   },
   "source": {

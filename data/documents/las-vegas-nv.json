@@ -41,24 +41,14 @@
       "page_or_section": "Title"
     },
     {
-      "field": "document_metadata.state_code",
-      "excerpt": "Nevada",
-      "page_or_section": "Title"
-    },
-    {
       "field": "document_metadata.document_title",
       "excerpt": "Hydrologic Criteria and Drainage Design Manual",
       "page_or_section": "Title"
     },
     {
       "field": "document_metadata.adoption_or_effective_date",
-      "excerpt": "adopted 1999",
-      "page_or_section": "Manifest / cover"
-    },
-    {
-      "field": "document_metadata.relationship_to_state_manual",
-      "excerpt": "HCDDM",
-      "page_or_section": "Title"
+      "excerpt": "--- page 7 --- Adopted August 12, 1999 HYDROLOGIC CRITERIA AND DRAINAGE DESIGN MANUAL 100 CLARK COUNTY REGIONAL FLOOD CONTROL DISTRICT HYDROLOGIC CRITERIA AND DRAINAGE DESIGN MANUAL SECTION 100 GENERAL PROVISIONS TABLE OF CONTENTS Page 101 TITLE 101 102 A",
+      "page_or_section": "p. 7"
     },
     {
       "field": "design_criteria.design_storm_return_periods_years",
@@ -84,11 +74,13 @@
   "extraction_quality": {
     "confidence": "medium",
     "needs_human_review": true,
-    "review_notes": "Clark County HCDDM covers Las Vegas metro flood/drainage criteria. Text extract truncated; confirm WQ BMP chapter if present.",
+    "review_notes": "Clark County HCDDM covers Las Vegas metro flood/drainage criteria. Text extract truncated; confirm WQ BMP chapter if present. Pipeline excerpt repair removed 2 unlocated citation(s).",
     "fields_not_found": [
       "document_metadata.version_or_edition",
       "document_metadata.last_revised_date",
-      "design_criteria.required_hydrologic_hydraulic_software"
+      "design_criteria.required_hydrologic_hydraulic_software",
+      "document_metadata.state_code",
+      "document_metadata.relationship_to_state_manual"
     ]
   },
   "source": {

@@ -2,7 +2,7 @@
  * Draft national manual sections from outline + corpus chunks (resumable).
  */
 import { mkdir, readdir, readFile, writeFile } from "node:fs/promises";
-import { existsSync } from "node:fs";
+import { existsSync, readFileSync } from "node:fs";
 import path from "node:path";
 import {
   CORPUS_DIR,
@@ -19,6 +19,9 @@ import {
   type NationalOutline,
 } from "../../lib/pipeline/types";
 import { cursorJsonPrompt } from "../lib/cursorLlm";
+import { retrieveScoredChunks } from "../lib/citationPicker";
+import { buildHeuristicDraft, useHeuristicLlm } from "../lib/draftHeuristic";
+import { loadEnvLocal } from "../lib/loadEnv";
 import { pipelineDelay } from "./shared";
 
 async function loadOutline(): Promise<NationalOutline | null> {
@@ -53,43 +56,28 @@ async function loadAllChunks(): Promise<
   return out;
 }
 
+function shouldPreserveEditorial(sectionId: string): boolean {
+  if (process.env.PIPELINE_FORCE_EDITORIAL === "1") return false;
+  const p = draftSectionPath(sectionId);
+  if (!existsSync(p)) return false;
+  try {
+    const raw = JSON.parse(readFileSync(p, "utf-8"));
+    if (raw.editorial_status === "reviewed") return true;
+    const model = String(raw.model ?? "");
+    return (
+      model.includes("committee-edit") || model.includes("editorial")
+    );
+  } catch {
+    return false;
+  }
+}
+
 function retrieveForSection(
   section: NationalOutline["sections"][number],
   all: Array<{ slug: string; chunk: CorpusChunk }>,
-  maxChunks = 18
-): Array<{ slug: string; chunk: CorpusChunk }> {
-  const tags = new Set(section.topic_tags.map((t) => t.toLowerCase()));
-  const titleWords = section.title
-    .toLowerCase()
-    .split(/\W+/)
-    .filter((w) => w.length > 3);
-
-  const scored = all.map((item) => {
-    let score = 0;
-    const hay = (
-      item.chunk.topic_tags.join(" ") +
-      " " +
-      (item.chunk.summary ?? "") +
-      " " +
-      item.chunk.section_title +
-      " " +
-      item.chunk.requirement_types.join(" ")
-    ).toLowerCase();
-    for (const t of tags) {
-      if (hay.includes(t) || item.chunk.topic_tags.some((x) => x.toLowerCase() === t))
-        score += 3;
-    }
-    for (const w of titleWords) {
-      if (hay.includes(w) || item.chunk.text.toLowerCase().includes(w)) score += 1;
-    }
-    if (item.chunk.contains_requirements) score += 1;
-    return { ...item, score };
-  });
-
-  return scored
-    .filter((s) => s.score > 0)
-    .sort((a, b) => b.score - a.score)
-    .slice(0, maxChunks);
+  maxChunks = 120
+): Array<{ slug: string; chunk: CorpusChunk; score: number }> {
+  return retrieveScoredChunks(section, all, maxChunks);
 }
 
 export async function runDraftStage(
@@ -129,6 +117,13 @@ export async function runDraftStage(
       noop += 1;
       continue;
     }
+    if (opts.force && shouldPreserveEditorial(section.id)) {
+      console.log(
+        `[draft] ${section.id}: preserving editorial draft (set PIPELINE_FORCE_EDITORIAL=1 to overwrite)`
+      );
+      noop += 1;
+      continue;
+    }
 
     if (opts.dryRun) {
       console.log(`dry-run draft → ${section.id}`);
@@ -148,28 +143,39 @@ export async function runDraftStage(
     });
 
     try {
-      const retrieved = retrieveForSection(section, allChunks);
-      const evidenceBlock =
-        retrieved.length === 0
-          ? "(No matching corpus chunks — draft from outline context only; note uncertainty.)"
-          : retrieved
-              .map(
-                ({ slug, chunk }) =>
-                  `### ${slug} / ${chunk.chunk_id} (p.${chunk.page_start}-${chunk.page_end})\n${chunk.summary ?? ""}\n${chunk.text.slice(0, 1800)}`
-              )
-              .join("\n\n");
+      loadEnvLocal();
+      const retrieved = retrieveForSection(section, allChunks, 120);
+      let draft;
+      let runId: string | undefined;
 
-      await pipelineDelay();
-      const { data, model, runId } = await cursorJsonPrompt({
-        name: `draft-${section.id}`,
-        schema: draftSectionSchema.omit({
-          generated_at: true,
-          model: true,
-          section_id: true,
-          title: true,
-        }),
-        retries: 2,
-        prompt: `Draft one section of a proposed national U.S. stormwater design manual (committee strawman).
+      if (useHeuristicLlm()) {
+        console.log(
+          `[draft] ${section.id}: heuristic (${retrieved.length} retrieved chunks)`
+        );
+        draft = buildHeuristicDraft({ section, retrieved });
+      } else {
+        const evidenceBlock =
+          retrieved.length === 0
+            ? "(No matching corpus chunks — draft from outline context only; note uncertainty.)"
+            : retrieved
+                .slice(0, 18)
+                .map(
+                  ({ slug, chunk }) =>
+                    `### ${slug} / ${chunk.chunk_id} (p.${chunk.page_start}-${chunk.page_end})\n${chunk.summary ?? ""}\n${chunk.text.slice(0, 1800)}`
+                )
+                .join("\n\n");
+
+        await pipelineDelay();
+        const result = await cursorJsonPrompt({
+          name: `draft-${section.id}`,
+          schema: draftSectionSchema.omit({
+            generated_at: true,
+            model: true,
+            section_id: true,
+            title: true,
+          }),
+          retries: 2,
+          prompt: `Draft one section of a proposed national U.S. stormwater design manual (committee strawman).
 
 Section id: ${section.id}
 Title: ${section.title}
@@ -188,15 +194,16 @@ Separate survey voice from recommendation voice. Prefer evidence from the excerp
 
 Evidence excerpts:
 ${evidenceBlock}`,
-      });
-
-      const draft = draftSectionSchema.parse({
-        ...data,
-        section_id: section.id,
-        title: section.title,
-        generated_at: new Date().toISOString(),
-        model,
-      });
+        });
+        runId = result.runId;
+        draft = draftSectionSchema.parse({
+          ...result.data,
+          section_id: section.id,
+          title: section.title,
+          generated_at: new Date().toISOString(),
+          model: result.model,
+        });
+      }
 
       await mkdir(DRAFT_DIR, { recursive: true });
       await writeFile(
@@ -210,7 +217,7 @@ ${evidenceBlock}`,
         completedAt: new Date().toISOString(),
         error: null,
         meta: {
-          model,
+          model: draft.model,
           runId,
           citations: draft.citations.length,
           supporting: draft.supporting_slugs.length,
@@ -220,7 +227,7 @@ ${evidenceBlock}`,
         stage: "draft",
         section_id: section.id,
         status: "done",
-        model,
+        model: draft.model,
         runId,
       });
       console.log(`[draft] ${section.id} DONE`);

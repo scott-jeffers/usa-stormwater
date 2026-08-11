@@ -33,23 +33,15 @@
       "Wetland / Stream setbacks"
     ]
   },
-  "evidence": [
-    {
-      "field": "document_metadata.jurisdiction_name",
-      "excerpt": "City of Cincinnati MS4 — Ohio Rainwater and Land Development standards",
-      "page_or_section": "Coverage note"
-    },
-    {
-      "field": "design_criteria.water_quality_volume_method",
-      "excerpt": "WQv (ac-ft) = C × 0.75 × A / 12",
-      "page_or_section": "Ohio RaLD"
-    }
-  ],
+  "evidence": [],
   "extraction_quality": {
     "confidence": "medium",
     "needs_human_review": true,
-    "review_notes": "Statewide Ohio manual used as MS4 post-construction reference when city PDF unavailable/empty.",
-    "fields_not_found": []
+    "review_notes": "Statewide Ohio manual used as MS4 post-construction reference when city PDF unavailable/empty. Pipeline excerpt repair removed 2 unlocated citation(s).",
+    "fields_not_found": [
+      "document_metadata.jurisdiction_name",
+      "design_criteria.water_quality_volume_method"
+    ]
   },
   "source": {
     "document_url": "https://dam.assets.ohio.gov/image/upload/epa.ohio.gov/Portals/35/storm/technical_assistance/ARCHIVE-RaLD-2006.pdf",

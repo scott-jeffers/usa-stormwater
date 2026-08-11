@@ -10,7 +10,10 @@
     "relationship_to_state_manual": "independent"
   },
   "design_criteria": {
-    "design_storm_return_periods_years": [1, 100],
+    "design_storm_return_periods_years": [
+      1,
+      100
+    ],
     "water_quality_volume_method": "Treatment Volume (Tv) from impervious surfaces sized to at least the first 1 inch of rainfall for runoff volume reduction BMPs. Practices are designed to capture and treat the full Tv (filtering, swales/open channels, infiltration, and basins with permanent pools).",
     "peak_flow_calculation_method": [],
     "required_hydrologic_hydraulic_software": [],
@@ -48,16 +51,6 @@
     {
       "field": "document_metadata.version_or_edition",
       "excerpt": "Virginia Stormwater Management Handbook, Chapter 8 July 2013",
-      "page_or_section": "Header"
-    },
-    {
-      "field": "document_metadata.adoption_or_effective_date",
-      "excerpt": "July 2013",
-      "page_or_section": "Header"
-    },
-    {
-      "field": "document_metadata.last_revised_date",
-      "excerpt": "July 2013",
       "page_or_section": "Header"
     },
     {
@@ -104,11 +97,13 @@
   "extraction_quality": {
     "confidence": "medium",
     "needs_human_review": true,
-    "review_notes": "Chapter 8 only (July 2013 clearinghouse PDF) — BMP overview/selection, not the full Virginia Stormwater Management Handbook (EncodePlus). Treatment Volume (first 1-inch) and 1-year/24-hour channel protection are stated here; detailed hydrologic/peak-flow calculation methods and required software live in other handbook chapters and are not in this excerpt. 100-year appears mainly for floodplain setbacks and optional enlarged volume-reduction BMPs, not as a complete flood-control design chapter.",
+    "review_notes": "Chapter 8 only (July 2013 clearinghouse PDF) — BMP overview/selection, not the full Virginia Stormwater Management Handbook (EncodePlus). Treatment Volume (first 1-inch) and 1-year/24-hour channel protection are stated here; detailed hydrologic/peak-flow calculation methods and required software live in other handbook chapters and are not in this excerpt. 100-year appears mainly for floodplain setbacks and optional enlarged volume-reduction BMPs, not as a complete flood-control design chapter. Pipeline excerpt repair removed 2 unlocated citation(s).",
     "fields_not_found": [
       "design_criteria.peak_flow_calculation_method",
       "design_criteria.required_hydrologic_hydraulic_software",
-      "design_criteria.design_storm_return_periods_years (complete VSMP quantity/flood return periods beyond 1-year channel protection and 100-year floodplain references in this chapter)"
+      "design_criteria.design_storm_return_periods_years (complete VSMP quantity/flood return periods beyond 1-year channel protection and 100-year floodplain references in this chapter)",
+      "document_metadata.adoption_or_effective_date",
+      "document_metadata.last_revised_date"
     ]
   },
   "source": {

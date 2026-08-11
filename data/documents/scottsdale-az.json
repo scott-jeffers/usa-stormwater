@@ -44,8 +44,8 @@
     },
     {
       "field": "document_metadata.state_code",
-      "excerpt": "Arizona / MAG",
-      "page_or_section": "Standards references"
+      "excerpt": "Contractors shall provide a valid Arizona Registrar of Contractors (ROC) license number. The permit and permit inspection card shall remain on site for inspection at all times. Failure to produce the required permits will result in immediate suspension of all work until the",
+      "page_or_section": "p. 38"
     },
     {
       "field": "document_metadata.document_title",
@@ -59,13 +59,8 @@
     },
     {
       "field": "document_metadata.adoption_or_effective_date",
-      "excerpt": "effective Feb. 20, 2018",
-      "page_or_section": "DSPM landing page / DRB approval"
-    },
-    {
-      "field": "document_metadata.last_revised_date",
-      "excerpt": "2018",
-      "page_or_section": "Header"
+      "excerpt": "of options are often most effective. All dust control measures shall be maintained as appropriate to effectively control dust. Materials: i. Watering ii. Stabilization with gravel or decomposed granite iii. Stabilization with recycled asphalt paving iv. Stabilizatio",
+      "page_or_section": "p. 84"
     },
     {
       "field": "document_metadata.relationship_to_state_manual",
@@ -96,9 +91,10 @@
   "extraction_quality": {
     "confidence": "medium",
     "needs_human_review": true,
-    "review_notes": "DSPM 2018 truncated text extract; first-flush and storage criteria confirmed. Full Chapter 37 numeric storage may live in code.",
+    "review_notes": "DSPM 2018 truncated text extract; first-flush and storage criteria confirmed. Full Chapter 37 numeric storage may live in code. Pipeline excerpt repair removed 1 unlocated citation(s).",
     "fields_not_found": [
-      "design_criteria.required_hydrologic_hydraulic_software"
+      "design_criteria.required_hydrologic_hydraulic_software",
+      "document_metadata.last_revised_date"
     ]
   },
   "source": {

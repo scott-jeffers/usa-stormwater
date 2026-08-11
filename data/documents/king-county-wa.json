@@ -40,16 +40,6 @@
       "page_or_section": "Title"
     },
     {
-      "field": "document_metadata.jurisdiction_level",
-      "excerpt": "King County",
-      "page_or_section": "Title"
-    },
-    {
-      "field": "document_metadata.state_code",
-      "excerpt": "WASHINGTON",
-      "page_or_section": "Title"
-    },
-    {
       "field": "document_metadata.document_title",
       "excerpt": "SURFACE WATER DESIGN MANUAL",
       "page_or_section": "Title"
@@ -102,9 +92,12 @@
   ],
   "extraction_quality": {
     "confidence": "high",
-    "needs_human_review": false,
-    "review_notes": "King County SWDM 2021/2024; text extract truncated but core requirements and WQ/flow-control structure clear.",
-    "fields_not_found": []
+    "needs_human_review": true,
+    "review_notes": "King County SWDM 2021/2024; text extract truncated but core requirements and WQ/flow-control structure clear. Pipeline excerpt repair removed 2 unlocated citation(s).",
+    "fields_not_found": [
+      "document_metadata.jurisdiction_level",
+      "document_metadata.state_code"
+    ]
   },
   "source": {
     "document_url": "https://your.kingcounty.gov/dnrp/library/water-and-land/stormwater/surface-water-design-manual/2021/amended-2024/2021-kcswdm-amended-2024-full-manual.pdf",

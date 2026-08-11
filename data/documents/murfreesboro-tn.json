@@ -38,11 +38,6 @@
       "page_or_section": "Cover"
     },
     {
-      "field": "document_metadata.version_or_edition",
-      "excerpt": "April, 2008",
-      "page_or_section": "Footer"
-    },
-    {
       "field": "design_criteria.water_quality_volume_method",
       "excerpt": "WQv = 1.2 * Rv * A / 12 ... 1.2 inches of rainfall has been identified as the average depth corresponding to the 85th percentile storm for the Middle Tennessee region",
       "page_or_section": "§1.2.2.1"
@@ -66,9 +61,10 @@
   "extraction_quality": {
     "confidence": "medium",
     "needs_human_review": true,
-    "review_notes": "Primary planning/LID guide (Apr 2008). Structural Controls Manual is published as separate CivicPlus DocumentCenter sections.",
+    "review_notes": "Primary planning/LID guide (Apr 2008). Structural Controls Manual is published as separate CivicPlus DocumentCenter sections. Pipeline excerpt repair removed 1 unlocated citation(s).",
     "fields_not_found": [
-      "design_criteria.required_hydrologic_hydraulic_software"
+      "design_criteria.required_hydrologic_hydraulic_software",
+      "document_metadata.version_or_edition"
     ]
   },
   "source": {

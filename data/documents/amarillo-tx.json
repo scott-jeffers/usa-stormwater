@@ -45,8 +45,8 @@
     },
     {
       "field": "document_metadata.state_code",
-      "excerpt": "Amarillo Texas",
-      "page_or_section": "Title"
+      "excerpt": "2-6 Depth-Duration-Frequency Data for Amarillo. Texas . . . . . . . . . . . . . . . . . . . 2-19 SECTION 3 STREET DRAINAGE . . . . . . . . . . . . . . . . . . . . . . . . . . .3-1 Minor Storm Runoff Allowable Street Use 3-6 3-2 Manning's Roughness Coefficients for Streets and G",
+      "page_or_section": "p. 13"
     },
     {
       "field": "document_metadata.document_title",
@@ -55,13 +55,8 @@
     },
     {
       "field": "document_metadata.version_or_edition",
-      "excerpt": "Posted on City of Amarillo Web Page 03/13/08",
-      "page_or_section": "Cover"
-    },
-    {
-      "field": "document_metadata.last_revised_date",
-      "excerpt": "03/13/08",
-      "page_or_section": "Cover"
+      "excerpt": "Management Criteria Manual CITY OF AMARILLO",
+      "page_or_section": "p. 2"
     },
     {
       "field": "document_metadata.relationship_to_state_manual",
@@ -92,10 +87,11 @@
   "extraction_quality": {
     "confidence": "medium",
     "needs_human_review": true,
-    "review_notes": "2008-posted criteria manual still hosted 2024; confirm current adoption status.",
+    "review_notes": "2008-posted criteria manual still hosted 2024; confirm current adoption status. Pipeline excerpt repair removed 1 unlocated citation(s).",
     "fields_not_found": [
       "document_metadata.adoption_or_effective_date",
-      "design_criteria.required_hydrologic_hydraulic_software"
+      "design_criteria.required_hydrologic_hydraulic_software",
+      "document_metadata.last_revised_date"
     ]
   },
   "source": {

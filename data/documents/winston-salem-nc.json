@@ -37,8 +37,8 @@
     },
     {
       "field": "document_metadata.state_code",
-      "excerpt": "N.C. / NCDEQ",
-      "page_or_section": "Standards"
+      "excerpt": "properties shall be coordinated with NCDEQ to determine the presence of wetlands and/or jurisdictional waters prior to final approval. COMPLETENESS CERTIFICATION: I, , PE have reviewed the attached plans prepared under my supervision. Furthermore, I certify that they, along wi",
+      "page_or_section": "p. 25"
     },
     {
       "field": "document_metadata.document_title",
@@ -49,11 +49,6 @@
       "field": "document_metadata.version_or_edition",
       "excerpt": "2020 Revised April 2020",
       "page_or_section": "Filename / cover"
-    },
-    {
-      "field": "document_metadata.last_revised_date",
-      "excerpt": "April 2020",
-      "page_or_section": "Filename"
     },
     {
       "field": "document_metadata.relationship_to_state_manual",
@@ -79,11 +74,12 @@
   "extraction_quality": {
     "confidence": "low",
     "needs_human_review": true,
-    "review_notes": "IDS is process/infrastructure-heavy; numeric post-construction criteria live mainly in Chapter 75 ordinance + NCDEQ manual. Consider supplementing with ordinance PDF later.",
+    "review_notes": "IDS is process/infrastructure-heavy; numeric post-construction criteria live mainly in Chapter 75 ordinance + NCDEQ manual. Consider supplementing with ordinance PDF later. Pipeline excerpt repair removed 1 unlocated citation(s).",
     "fields_not_found": [
       "document_metadata.adoption_or_effective_date",
       "design_criteria.design_storm_return_periods_years",
-      "design_criteria.required_hydrologic_hydraulic_software"
+      "design_criteria.required_hydrologic_hydraulic_software",
+      "document_metadata.last_revised_date"
     ]
   },
   "source": {

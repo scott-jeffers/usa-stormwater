@@ -10,9 +10,17 @@
     "relationship_to_state_manual": "adopts_state_manual_directly"
   },
   "design_criteria": {
-    "design_storm_return_periods_years": [1, 2, 10, 100],
+    "design_storm_return_periods_years": [
+      1,
+      2,
+      10,
+      100
+    ],
     "water_quality_volume_method": "90% Rule: WQv (acre-feet) = (P * Rv * A) / 12, where Rv = 0.05 + 0.009(I)",
-    "peak_flow_calculation_method": ["TR-55", "TR-20"],
+    "peak_flow_calculation_method": [
+      "TR-55",
+      "TR-20"
+    ],
     "required_hydrologic_hydraulic_software": [
       "USDA NRCS TR20",
       "HydroCAD",
@@ -37,8 +45,8 @@
     },
     {
       "field": "document_metadata.jurisdiction_level",
-      "excerpt": "municipality — City of Rochester",
-      "page_or_section": "Coverage note"
+      "excerpt": "or other individual hired by the municipality Learn about the resources the local program has at its disposal. If government staff are being trained, develop a maintenance plan that is consistent with their knowledge and understanding. Be aware of equipment and materials o",
+      "page_or_section": "p. 323"
     },
     {
       "field": "document_metadata.state_code",
@@ -51,24 +59,9 @@
       "page_or_section": "Title Page"
     },
     {
-      "field": "document_metadata.version_or_edition",
-      "excerpt": "July 31, 2024",
-      "page_or_section": "Title Page"
-    },
-    {
-      "field": "document_metadata.adoption_or_effective_date",
-      "excerpt": "July 31, 2024",
-      "page_or_section": "Title Page"
-    },
-    {
-      "field": "document_metadata.last_revised_date",
-      "excerpt": "July 31, 2024",
-      "page_or_section": "Title Page"
-    },
-    {
       "field": "document_metadata.relationship_to_state_manual",
-      "excerpt": "adopts_state_manual_directly — NYS Design Manual",
-      "page_or_section": "Coverage note"
+      "excerpt": "urban stormwater runoff 2. To provide design standards on the most effective stormwater management approaches including: o Incorporation of runoff reduction achieved by infiltration, groundwater recharge, reuse, recycle, evaporation/evapotranspiration through the use of runoff",
+      "page_or_section": "p. 11"
     },
     {
       "field": "design_criteria.design_storm_return_periods_years",
@@ -82,8 +75,8 @@
     },
     {
       "field": "design_criteria.peak_flow_calculation_method",
-      "excerpt": "TR-55 / TR-20",
-      "page_or_section": "Hydrology"
+      "excerpt": "computer program dt depth of trench TR-55 Technical Release No. 55 Urban Hydrology for Small Watersheds du dwelling units ts thickness of stone reservoir E sediment basin efficiency UIC Underground Injection Control ED extended detention USC Unified Soil Classification EPA En",
+      "page_or_section": "pp. 15–16"
     },
     {
       "field": "design_criteria.required_hydrologic_hydraulic_software",
@@ -99,8 +92,12 @@
   "extraction_quality": {
     "confidence": "medium",
     "needs_human_review": true,
-    "review_notes": "Municipality-level coverage record: Rochester adopts the statewide NYS Stormwater Management Design Manual (July 31, 2024). Criteria mirrored from ny-state extraction; city-specific ordinance overlays not separately extracted.",
-    "fields_not_found": []
+    "review_notes": "Municipality-level coverage record: Rochester adopts the statewide NYS Stormwater Management Design Manual (July 31, 2024). Criteria mirrored from ny-state extraction; city-specific ordinance overlays not separately extracted. Pipeline excerpt repair removed 3 unlocated citation(s).",
+    "fields_not_found": [
+      "document_metadata.version_or_edition",
+      "document_metadata.adoption_or_effective_date",
+      "document_metadata.last_revised_date"
+    ]
   },
   "source": {
     "document_url": "https://extapps.dec.ny.gov/fs/projects/24-25DraftCGPDesignManual/Manual.SW.CGP.2024-07-31.Design_Manual_Issued_2024-07-31.pdf",

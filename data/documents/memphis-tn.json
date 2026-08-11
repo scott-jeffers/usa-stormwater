@@ -39,18 +39,8 @@
       "page_or_section": "Title"
     },
     {
-      "field": "document_metadata.state_code",
-      "excerpt": "Tennessee",
-      "page_or_section": "Policy context"
-    },
-    {
       "field": "document_metadata.document_title",
       "excerpt": "Volume 1 Policies and Procedures",
-      "page_or_section": "Title"
-    },
-    {
-      "field": "document_metadata.version_or_edition",
-      "excerpt": "Volume 1",
       "page_or_section": "Title"
     },
     {
@@ -60,8 +50,8 @@
     },
     {
       "field": "design_criteria.design_storm_return_periods_years",
-      "excerpt": "10-year / 100-year",
-      "page_or_section": "Flood / drainage definitions"
+      "excerpt": "water with expected flows for the 10-year 24-hour storm event. The active path should be kept in pipes, ditches and streets. 2. Flood, flooded or flooding: A temporary condition of partial or complete inundation of normally dry land from the overflow of a watercourse. 3. Fl",
+      "page_or_section": "p. 40"
     },
     {
       "field": "design_criteria.water_quality_volume_method",
@@ -70,8 +60,8 @@
     },
     {
       "field": "design_criteria.peak_flow_calculation_method",
-      "excerpt": "detention is mandatory",
-      "page_or_section": "Policy"
+      "excerpt": "this manual. 2.4 Storm Water Quantity Detention Increased urbanization within Memphis and Shelby County has caused radical changes to the topography, ground cover, and minor storm water management systems within each drainage basin. These changes have adverse effects on the env",
+      "page_or_section": "p. 28"
     },
     {
       "field": "design_criteria.approved_bmp_categories",
@@ -82,11 +72,13 @@
   "extraction_quality": {
     "confidence": "medium",
     "needs_human_review": true,
-    "review_notes": "Volume 1 is policy-only. Volumes 2–3 contain methods and BMP design criteria; extract those next for fuller WQ/peak methods.",
+    "review_notes": "Volume 1 is policy-only. Volumes 2–3 contain methods and BMP design criteria; extract those next for fuller WQ/peak methods. Pipeline excerpt repair removed 2 unlocated citation(s).",
     "fields_not_found": [
       "document_metadata.adoption_or_effective_date",
       "document_metadata.last_revised_date",
-      "design_criteria.required_hydrologic_hydraulic_software"
+      "design_criteria.required_hydrologic_hydraulic_software",
+      "document_metadata.state_code",
+      "document_metadata.version_or_edition"
     ]
   },
   "source": {

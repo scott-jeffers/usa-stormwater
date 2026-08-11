@@ -56,11 +56,6 @@
       "page_or_section": "TOC-1"
     },
     {
-      "field": "document_metadata.version_or_edition",
-      "excerpt": "VOLUME ONE",
-      "page_or_section": "TOC-1"
-    },
-    {
       "field": "design_criteria.design_storm_return_periods_years",
       "excerpt": "Rainfall Depths Associated with the 1,2,10 and 100-year, 24-hour Storm Events",
       "page_or_section": "2.11, Table 2.2"
@@ -88,11 +83,12 @@
   ],
   "extraction_quality": {
     "confidence": "high",
-    "needs_human_review": false,
-    "review_notes": "Adoption and revision dates are not explicitly stated as full ISO dates in the provided text, so they were left null. TR-55 outputs carry 1997 and 1998 system dates but do not explicitly represent the legal publication/revision dates of the manual itself.",
+    "needs_human_review": true,
+    "review_notes": "Adoption and revision dates are not explicitly stated as full ISO dates in the provided text, so they were left null. TR-55 outputs carry 1997 and 1998 system dates but do not explicitly represent the legal publication/revision dates of the manual itself. Pipeline excerpt repair removed 1 unlocated citation(s).",
     "fields_not_found": [
       "document_metadata.adoption_or_effective_date",
-      "document_metadata.last_revised_date"
+      "document_metadata.last_revised_date",
+      "document_metadata.version_or_edition"
     ]
   },
   "source": {

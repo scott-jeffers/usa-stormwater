@@ -39,6 +39,46 @@ export function NeedsReviewBadge({ needsReview }: { needsReview: boolean }) {
   );
 }
 
+export function VerifyBadge({
+  status,
+  mismatchCount = 0,
+}: {
+  status: "passed" | "failed" | "skipped" | "pending" | "running" | "unknown";
+  mismatchCount?: number;
+}) {
+  if (status === "passed") {
+    return (
+      <span className="inline-flex items-center rounded-full bg-emerald-50 px-2.5 py-0.5 text-xs font-medium text-emerald-800 ring-1 ring-inset ring-emerald-700/15">
+        Citations verified
+      </span>
+    );
+  }
+  if (status === "failed") {
+    return (
+      <span className="inline-flex items-center rounded-full bg-rose-50 px-2.5 py-0.5 text-xs font-medium text-rose-800 ring-1 ring-inset ring-rose-700/15">
+        {mismatchCount > 0
+          ? `${mismatchCount} citation mismatch${mismatchCount === 1 ? "" : "es"}`
+          : "Citation mismatches"}
+      </span>
+    );
+  }
+  if (status === "skipped") {
+    return (
+      <span className="inline-flex items-center rounded-full bg-slate-100 px-2.5 py-0.5 text-xs font-medium text-slate-600 ring-1 ring-inset ring-slate-500/15">
+        Verify skipped
+      </span>
+    );
+  }
+  if (status === "running" || status === "pending") {
+    return (
+      <span className="inline-flex items-center rounded-full bg-amber-50 px-2.5 py-0.5 text-xs font-medium text-amber-900 ring-1 ring-inset ring-amber-700/15">
+        Verify {status}
+      </span>
+    );
+  }
+  return null;
+}
+
 const LEVEL_STYLES: Record<
   StormwaterData["document_metadata"]["jurisdiction_level"],
   string

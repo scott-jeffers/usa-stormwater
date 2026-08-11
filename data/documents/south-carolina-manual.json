@@ -42,22 +42,12 @@
     },
     {
       "field": "document_metadata.state_code",
-      "excerpt": "South Carolina DHEC",
-      "page_or_section": "Wet Detention Ponds p.118"
+      "excerpt": "construct across or along a stream to South Carolina Department of Environmental Services (SCDES). Temporary stream crossings require authorization. Refer to the US Army Corps of Engineers and SCDES nationwide 401 and 404 regulations for information on permit requirements. When",
+      "page_or_section": "pp. 106–107"
     },
     {
       "field": "document_metadata.document_title",
       "excerpt": "Storm Water Management BMP Handbook",
-      "page_or_section": "Wet Detention Ponds p.118"
-    },
-    {
-      "field": "document_metadata.version_or_edition",
-      "excerpt": "July 31, 2005",
-      "page_or_section": "Wet Detention Ponds p.118"
-    },
-    {
-      "field": "document_metadata.last_revised_date",
-      "excerpt": "July 31, 2005",
       "page_or_section": "Wet Detention Ponds p.118"
     },
     {
@@ -89,9 +79,11 @@
   "extraction_quality": {
     "confidence": "medium",
     "needs_human_review": true,
-    "review_notes": "Main BMPFieldManual.pdf text is not machine-readable (custom font encoding). Extraction used readable section PDFs from the SC DES BMP Handbook (Wet/Dry Detention Ponds, Structural Controls). Peak-flow software/method details not found in readable sections.",
+    "review_notes": "Main BMPFieldManual.pdf text is not machine-readable (custom font encoding). Extraction used readable section PDFs from the SC DES BMP Handbook (Wet/Dry Detention Ponds, Structural Controls). Peak-flow software/method details not found in readable sections. Pipeline excerpt repair removed 2 unlocated citation(s).",
     "fields_not_found": [
-      "design_criteria.required_hydrologic_hydraulic_software"
+      "design_criteria.required_hydrologic_hydraulic_software",
+      "document_metadata.version_or_edition",
+      "document_metadata.last_revised_date"
     ]
   },
   "source": {

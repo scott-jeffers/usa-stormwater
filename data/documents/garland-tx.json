@@ -43,11 +43,6 @@
       "page_or_section": "Title"
     },
     {
-      "field": "document_metadata.state_code",
-      "excerpt": "Texas",
-      "page_or_section": "Title"
-    },
-    {
       "field": "document_metadata.document_title",
       "excerpt": "Technical Standards Manual",
       "page_or_section": "Title"
@@ -86,11 +81,12 @@
   "extraction_quality": {
     "confidence": "medium",
     "needs_human_review": true,
-    "review_notes": "Large TSM; drainage Chapter 4 confirmed. Numeric detention volume formulas may need deeper pull.",
+    "review_notes": "Large TSM; drainage Chapter 4 confirmed. Numeric detention volume formulas may need deeper pull. Pipeline excerpt repair removed 1 unlocated citation(s).",
     "fields_not_found": [
       "document_metadata.version_or_edition",
       "document_metadata.last_revised_date",
-      "design_criteria.required_hydrologic_hydraulic_software"
+      "design_criteria.required_hydrologic_hydraulic_software",
+      "document_metadata.state_code"
     ]
   },
   "source": {

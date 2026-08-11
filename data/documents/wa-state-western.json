@@ -71,16 +71,6 @@
       "page_or_section": "page 5"
     },
     {
-      "field": "document_metadata.adoption_or_effective_date",
-      "excerpt": "July 2024",
-      "page_or_section": "Title Page"
-    },
-    {
-      "field": "document_metadata.last_revised_date",
-      "excerpt": "July 2024",
-      "page_or_section": "Title Page"
-    },
-    {
       "field": "document_metadata.relationship_to_state_manual",
       "excerpt": "Prepared by: Washington State Department of Ecology",
       "page_or_section": "Title Page"
@@ -108,10 +98,12 @@
   ],
   "extraction_quality": {
     "confidence": "high",
-    "needs_human_review": false,
-    "review_notes": "All requested fields populated accurately from standard available state manual context. Water quality volume calculation details were omitted from the provided text, leaving the water quality volume method null.",
+    "needs_human_review": true,
+    "review_notes": "All requested fields populated accurately from standard available state manual context. Water quality volume calculation details were omitted from the provided text, leaving the water quality volume method null. Pipeline excerpt repair removed 2 unlocated citation(s).",
     "fields_not_found": [
-      "design_criteria.water_quality_volume_method"
+      "design_criteria.water_quality_volume_method",
+      "document_metadata.adoption_or_effective_date",
+      "document_metadata.last_revised_date"
     ]
   },
   "source": {

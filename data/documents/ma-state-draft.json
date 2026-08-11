@@ -61,11 +61,6 @@
       "page_or_section": "Page ix"
     },
     {
-      "field": "document_metadata.last_revised_date",
-      "excerpt": "December 2023",
-      "page_or_section": "Page i"
-    },
-    {
       "field": "document_metadata.relationship_to_state_manual",
       "excerpt": "The Massachusetts Department of Environmental Protection (MassDEP) is responsible for implementing the Stormwater Management Standards under the Massachusetts Clean Waters Act, M.G.L. c. 21, §§ 26-53, and the Wetlands Protection Act, M.G.L. c. 131, § 40.",
       "page_or_section": "Page 1-1"
@@ -98,10 +93,11 @@
   ],
   "extraction_quality": {
     "confidence": "high",
-    "needs_human_review": false,
-    "review_notes": null,
+    "needs_human_review": true,
+    "review_notes": "Pipeline excerpt repair removed 1 unlocated citation(s).",
     "fields_not_found": [
-      "document_metadata.adoption_or_effective_date"
+      "document_metadata.adoption_or_effective_date",
+      "document_metadata.last_revised_date"
     ]
   },
   "source": {

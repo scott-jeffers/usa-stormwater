@@ -62,21 +62,6 @@
       "page_or_section": "Page 2 of 1086"
     },
     {
-      "field": "document_metadata.version_or_edition",
-      "excerpt": "July 2021",
-      "page_or_section": "Page 2 of 1086"
-    },
-    {
-      "field": "document_metadata.adoption_or_effective_date",
-      "excerpt": "Effective: 07/01/2021",
-      "page_or_section": "Page 2 of 1086"
-    },
-    {
-      "field": "document_metadata.last_revised_date",
-      "excerpt": "Publication: 03/23/2021",
-      "page_or_section": "Page 2 of 1086"
-    },
-    {
       "field": "document_metadata.relationship_to_state_manual",
       "excerpt": "Ecology has determined to meet the requirements contained in the Phase I NPDES Municipal Stormwater Permit, with reference to the Stormwater Management Manual for Western Washington (Ecology 2019).",
       "page_or_section": "Volume 1, Chapter 1, Page 1-1"
@@ -104,10 +89,13 @@
   ],
   "extraction_quality": {
     "confidence": "high",
-    "needs_human_review": false,
-    "review_notes": null,
+    "needs_human_review": true,
+    "review_notes": "Pipeline excerpt repair removed 3 unlocated citation(s).",
     "fields_not_found": [
-      "design_criteria.required_hydrologic_hydraulic_software"
+      "design_criteria.required_hydrologic_hydraulic_software",
+      "document_metadata.version_or_edition",
+      "document_metadata.adoption_or_effective_date",
+      "document_metadata.last_revised_date"
     ]
   },
   "source": {

@@ -31,8 +31,8 @@
   "evidence": [
     {
       "field": "document_metadata.jurisdiction_name",
-      "excerpt": "Stockton SJC",
-      "page_or_section": "Title"
+      "excerpt": "Agreement and Forms D-1: City of Stockton Stormwater Treatment Device Access and Maintenance Agreement Template D-2: Placeholder [Not in Use] D-3: SWQCP Owner’s Certification Statement D-4: County of San Joaquin Stormwater Treatment Device Access and Maintenance Agreement",
+      "page_or_section": "p. 4"
     },
     {
       "field": "document_metadata.jurisdiction_level",
@@ -40,29 +40,9 @@
       "page_or_section": "FAQ / applicability"
     },
     {
-      "field": "document_metadata.state_code",
-      "excerpt": "California",
-      "page_or_section": "Title"
-    },
-    {
       "field": "document_metadata.document_title",
       "excerpt": "Stormwater Quality Control Criteria Plan",
       "page_or_section": "Cover"
-    },
-    {
-      "field": "document_metadata.version_or_edition",
-      "excerpt": "March 2025",
-      "page_or_section": "Header"
-    },
-    {
-      "field": "document_metadata.adoption_or_effective_date",
-      "excerpt": "March 2025",
-      "page_or_section": "Header"
-    },
-    {
-      "field": "document_metadata.last_revised_date",
-      "excerpt": "March 2025",
-      "page_or_section": "Header"
     },
     {
       "field": "document_metadata.relationship_to_state_manual",
@@ -87,11 +67,15 @@
   ],
   "extraction_quality": {
     "confidence": "high",
-    "needs_human_review": false,
-    "review_notes": "Joint Stockton/SJC SWQCCP March 2025 FULL FINAL.",
+    "needs_human_review": true,
+    "review_notes": "Joint Stockton/SJC SWQCCP March 2025 FULL FINAL. Pipeline excerpt repair removed 4 unlocated citation(s).",
     "fields_not_found": [
       "design_criteria.design_storm_return_periods_years",
-      "design_criteria.required_hydrologic_hydraulic_software"
+      "design_criteria.required_hydrologic_hydraulic_software",
+      "document_metadata.state_code",
+      "document_metadata.version_or_edition",
+      "document_metadata.adoption_or_effective_date",
+      "document_metadata.last_revised_date"
     ]
   },
   "source": {

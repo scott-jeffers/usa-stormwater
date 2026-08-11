@@ -44,11 +44,6 @@
       "page_or_section": "Ordinance"
     },
     {
-      "field": "document_metadata.state_code",
-      "excerpt": "Wisconsin",
-      "page_or_section": "Ordinance"
-    },
-    {
       "field": "document_metadata.document_title",
       "excerpt": "Chapter 37 of the Madison General Ordinances",
       "page_or_section": "Title"
@@ -67,11 +62,6 @@
       "field": "document_metadata.last_revised_date",
       "excerpt": "Date: March 17, 2025",
       "page_or_section": "Ordinance file path"
-    },
-    {
-      "field": "document_metadata.relationship_to_state_manual",
-      "excerpt": "Chapter 37",
-      "page_or_section": "Ordinance"
     },
     {
       "field": "design_criteria.design_storm_return_periods_years",
@@ -97,9 +87,11 @@
   "extraction_quality": {
     "confidence": "medium",
     "needs_human_review": true,
-    "review_notes": "Ordinance amendment PDF rather than standalone design manual; design criteria live in Ch. 37 text. DSC webpage also cites 1–200yr rate control for large new impervious.",
+    "review_notes": "Ordinance amendment PDF rather than standalone design manual; design criteria live in Ch. 37 text. DSC webpage also cites 1–200yr rate control for large new impervious. Pipeline excerpt repair removed 2 unlocated citation(s).",
     "fields_not_found": [
-      "design_criteria.required_hydrologic_hydraulic_software"
+      "design_criteria.required_hydrologic_hydraulic_software",
+      "document_metadata.state_code",
+      "document_metadata.relationship_to_state_manual"
     ]
   },
   "source": {

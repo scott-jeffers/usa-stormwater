@@ -41,19 +41,14 @@
       "page_or_section": "Cover"
     },
     {
-      "field": "document_metadata.state_code",
-      "excerpt": "Texas",
-      "page_or_section": "Cover"
-    },
-    {
       "field": "document_metadata.document_title",
       "excerpt": "Drainage Criteria Manual",
       "page_or_section": "Cover"
     },
     {
       "field": "document_metadata.version_or_edition",
-      "excerpt": "November 2019",
-      "page_or_section": "Cover"
+      "excerpt": "is adopted and becomes effective on November 19, 2019. Freese and Nichols, Inc. coordinated the revisions to the 1997 criteria, along with Halff Associates Inc. and Hugo Reed and Associates, Inc. as part of the Stormwater Master Plan update. 1.1 DEFINITIONS The following defi",
+      "page_or_section": "p. 6"
     },
     {
       "field": "document_metadata.adoption_or_effective_date",
@@ -62,8 +57,8 @@
     },
     {
       "field": "document_metadata.last_revised_date",
-      "excerpt": "November 2019",
-      "page_or_section": "Cover"
+      "excerpt": "is adopted and becomes effective on November 19, 2019. Freese and Nichols, Inc. coordinated the revisions to the 1997 criteria, along with Halff Associates Inc. and Hugo Reed and Associates, Inc. as part of the Stormwater Master Plan update. 1.1 DEFINITIONS The following defi",
+      "page_or_section": "p. 6"
     },
     {
       "field": "document_metadata.relationship_to_state_manual",
@@ -94,9 +89,10 @@
   "extraction_quality": {
     "confidence": "medium",
     "needs_human_review": true,
-    "review_notes": "Lubbock DCM Nov 2019; playa-centric. Confirm Chapter 9 numeric WQ sizing if needed.",
+    "review_notes": "Lubbock DCM Nov 2019; playa-centric. Confirm Chapter 9 numeric WQ sizing if needed. Pipeline excerpt repair removed 1 unlocated citation(s).",
     "fields_not_found": [
-      "design_criteria.required_hydrologic_hydraulic_software"
+      "design_criteria.required_hydrologic_hydraulic_software",
+      "document_metadata.state_code"
     ]
   },
   "source": {

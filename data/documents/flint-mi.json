@@ -30,18 +30,14 @@
       "Filtration / detention SCMs"
     ]
   },
-  "evidence": [
-    {
-      "field": "document_metadata.jurisdiction_name",
-      "excerpt": "Flint — coverage via Lansing/EGLE stormwater design pattern (needs local confirmation)",
-      "page_or_section": "Coverage note"
-    }
-  ],
+  "evidence": [],
   "extraction_quality": {
     "confidence": "low",
     "needs_human_review": true,
-    "review_notes": "Placeholder using Lansing manual — replace with Flint city standards when found.",
-    "fields_not_found": []
+    "review_notes": "Placeholder using Lansing manual — replace with Flint city standards when found. Pipeline excerpt repair removed 1 unlocated citation(s).",
+    "fields_not_found": [
+      "document_metadata.jurisdiction_name"
+    ]
   },
   "source": {
     "document_url": "https://content.civicplus.com/api/assets/mi-lansing/5275ad94-2c28-4941-9d23-67842b45023f?cache=1800",

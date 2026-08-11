@@ -59,11 +59,6 @@
       "page_or_section": "Cover"
     },
     {
-      "field": "document_metadata.last_revised_date",
-      "excerpt": "March 2015",
-      "page_or_section": "Cover"
-    },
-    {
       "field": "document_metadata.relationship_to_state_manual",
       "excerpt": "Eleven minimum standards ... State of Rhode Island",
       "page_or_section": "Chapter 3"
@@ -75,8 +70,8 @@
     },
     {
       "field": "design_criteria.peak_flow_calculation_method",
-      "excerpt": "WQv / Rev / CPv sizing criteria",
-      "page_or_section": "Minimum standards"
+      "excerpt": "for Filter Strip Pretreatment Sizing................................................. 6-5 Table 7-1: Minimum Required Storage Volumes for Basins Used for Enhanced Pollutant Removal .........................................................................................",
+      "page_or_section": "p. 6"
     },
     {
       "field": "design_criteria.approved_bmp_categories",
@@ -87,10 +82,11 @@
   "extraction_quality": {
     "confidence": "medium",
     "needs_human_review": true,
-    "review_notes": "Statewide RISDISM used for Providence capital coverage; city may have additional local ordinance requirements.",
+    "review_notes": "Statewide RISDISM used for Providence capital coverage; city may have additional local ordinance requirements. Pipeline excerpt repair removed 1 unlocated citation(s).",
     "fields_not_found": [
       "design_criteria.design_storm_return_periods_years",
-      "design_criteria.required_hydrologic_hydraulic_software"
+      "design_criteria.required_hydrologic_hydraulic_software",
+      "document_metadata.last_revised_date"
     ]
   },
   "source": {

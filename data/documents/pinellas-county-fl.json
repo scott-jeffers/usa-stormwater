@@ -37,11 +37,6 @@
       "page_or_section": "Cover"
     },
     {
-      "field": "document_metadata.state_code",
-      "excerpt": "Florida",
-      "page_or_section": "Applicability"
-    },
-    {
       "field": "document_metadata.document_title",
       "excerpt": "STORMWATER MANUAL",
       "page_or_section": "Cover"
@@ -84,11 +79,12 @@
   ],
   "extraction_quality": {
     "confidence": "high",
-    "needs_human_review": false,
-    "review_notes": "Pinellas County Stormwater Manual Apr 2024.",
+    "needs_human_review": true,
+    "review_notes": "Pinellas County Stormwater Manual Apr 2024. Pipeline excerpt repair removed 1 unlocated citation(s).",
     "fields_not_found": [
       "design_criteria.design_storm_return_periods_years",
-      "design_criteria.required_hydrologic_hydraulic_software"
+      "design_criteria.required_hydrologic_hydraulic_software",
+      "document_metadata.state_code"
     ]
   },
   "source": {

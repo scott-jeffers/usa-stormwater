@@ -10,7 +10,11 @@
     "relationship_to_state_manual": "adopts_state_manual_directly"
   },
   "design_criteria": {
-    "design_storm_return_periods_years": [2, 10, 100],
+    "design_storm_return_periods_years": [
+      2,
+      10,
+      100
+    ],
     "water_quality_volume_method": "Rate control: no increase in peak discharge over existing for 2-, 10-, and 100-year 24-hour events (NRCS MN MSE 3 distribution). Water quality: 70% TSS removal from a 1.25-inch storm event, plus receiving-water-specific TP reductions (Table 4-1). Volume control: capture and retain 1.1 inches of runoff from new and fully reconstructed impervious (new/redevelopment); linear projects retain the larger of 0.55 inches from new/reconstructed impervious or 1.1 inches from net impervious increase; drawdown ≤48 hours.",
     "peak_flow_calculation_method": [
       "NRCS/SCS curve number runoff methodology",
@@ -63,11 +67,6 @@
     {
       "field": "document_metadata.adoption_or_effective_date",
       "excerpt": "Prepared by City of Minneapolis October 2017",
-      "page_or_section": "Title Page"
-    },
-    {
-      "field": "document_metadata.last_revised_date",
-      "excerpt": "Revision #2: February 2025",
       "page_or_section": "Title Page"
     },
     {
@@ -133,9 +132,11 @@
   ],
   "extraction_quality": {
     "confidence": "high",
-    "needs_human_review": false,
-    "review_notes": "Municipal guide adopts MPCA Minnesota Stormwater Manual as the approved BMP design manual while stating city-specific rate, volume, and water-quality standards. Design storm depths in Table 4-3 are NOAA Atlas 14 values for HydroCAD/XP-SWMM.",
-    "fields_not_found": []
+    "needs_human_review": true,
+    "review_notes": "Municipal guide adopts MPCA Minnesota Stormwater Manual as the approved BMP design manual while stating city-specific rate, volume, and water-quality standards. Design storm depths in Table 4-3 are NOAA Atlas 14 values for HydroCAD/XP-SWMM. Pipeline excerpt repair removed 1 unlocated citation(s).",
+    "fields_not_found": [
+      "document_metadata.last_revised_date"
+    ]
   },
   "source": {
     "document_url": "https://www2.minneapolismn.gov/media/content-assets/www2-documents/government/Stormwater-and-Sanitary-Sewer-Guide.pdf",

@@ -10,9 +10,17 @@
     "relationship_to_state_manual": "adopts_state_manual_directly"
   },
   "design_criteria": {
-    "design_storm_return_periods_years": [1, 2, 10, 25, 100],
+    "design_storm_return_periods_years": [
+      1,
+      2,
+      10,
+      25,
+      100
+    ],
     "water_quality_volume_method": "Sized to treat the runoff from 85% of the storms that occur in an average year, which equates to 1.2 inches of rainfall (Water Quality Volume, WQv), or the first 1.0 inch of rainfall using runoff reduction practices to the maximum extent practicable. If the entire 1.0 inch is reduced, the water quality volume may be waived. Otherwise, the remaining runoff from the 1.2-inch event must be treated to remove at least 80% of average annual TSS.",
-    "peak_flow_calculation_method": ["SCS Curve Number Method"],
+    "peak_flow_calculation_method": [
+      "SCS Curve Number Method"
+    ],
     "required_hydrologic_hydraulic_software": [],
     "approved_bmp_categories": [
       "Bioretention Basin",
@@ -73,11 +81,6 @@
       "page_or_section": "Title Page"
     },
     {
-      "field": "document_metadata.relationship_to_state_manual",
-      "excerpt": "GCSMM adopts GSMM 2016 technical standards (county PDF portal-gated)",
-      "page_or_section": "Coverage note"
-    },
-    {
       "field": "design_criteria.design_storm_return_periods_years",
       "excerpt": "the 1-year, 25-year, and 100-year return intervals... 2-year through the 25-year return frequency storm events",
       "page_or_section": "105, 112"
@@ -101,11 +104,12 @@
   "extraction_quality": {
     "confidence": "medium",
     "needs_human_review": true,
-    "review_notes": "Official GCSMM PDF is portal/HTML-gated. Criteria taken from GSMM 2016 (same technical basis Gwinnett publishes). Prefer swapping source to direct GCSMM PDF if a durable public URL appears.",
+    "review_notes": "Official GCSMM PDF is portal/HTML-gated. Criteria taken from GSMM 2016 (same technical basis Gwinnett publishes). Prefer swapping source to direct GCSMM PDF if a durable public URL appears. Pipeline excerpt repair removed 1 unlocated citation(s).",
     "fields_not_found": [
       "document_metadata.adoption_or_effective_date",
       "document_metadata.last_revised_date",
-      "design_criteria.required_hydrologic_hydraulic_software"
+      "design_criteria.required_hydrologic_hydraulic_software",
+      "document_metadata.relationship_to_state_manual"
     ]
   },
   "source": {

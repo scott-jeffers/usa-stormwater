@@ -38,11 +38,6 @@
       "page_or_section": "Section 1.3.0, Page 1"
     },
     {
-      "field": "document_metadata.state_code",
-      "excerpt": "library.municode.com/tx/austin",
-      "page_or_section": "Source landing page URL (Municipal Code Corporation, Texas / Austin)"
-    },
-    {
       "field": "document_metadata.document_title",
       "excerpt": "ENVIRONMENTAL CRITERIA MANUAL",
       "page_or_section": "Header, Page 1"
@@ -64,21 +59,22 @@
     },
     {
       "field": "design_criteria.approved_bmp_categories",
-      "excerpt": "SOS ponds",
-      "page_or_section": "Appendix Q-4, Page 10"
+      "excerpt": "[…] F. Detention Basins and Wet Ponds In-channel detention basins and in-channel wet ponds can be located within the Critical Water Quality Zone if the requirements of Sections 25-8-364 (Floodplain Modification), 25-7 (Drainage), and other provisions 25-8 Subchapter A are",
+      "page_or_section": "p. 4"
     }
   ],
   "extraction_quality": {
     "confidence": "high",
-    "needs_human_review": false,
-    "review_notes": "State code set to TX from the Municode landing path (/tx/austin) and filename; the ECM text excerpt did not spell out Texas. Return periods include 100-year from the floodplain references. Peak flow methods live in the separate Drainage Criteria Manual.",
+    "needs_human_review": true,
+    "review_notes": "State code set to TX from the Municode landing path (/tx/austin) and filename; the ECM text excerpt did not spell out Texas. Return periods include 100-year from the floodplain references. Peak flow methods live in the separate Drainage Criteria Manual. Pipeline excerpt repair removed 1 unlocated citation(s).",
     "fields_not_found": [
       "document_metadata.version_or_edition",
       "document_metadata.adoption_or_effective_date",
       "document_metadata.last_revised_date",
       "design_criteria.water_quality_volume_method",
       "design_criteria.peak_flow_calculation_method",
-      "design_criteria.required_hydrologic_hydraulic_software"
+      "design_criteria.required_hydrologic_hydraulic_software",
+      "document_metadata.state_code"
     ]
   },
   "source": {

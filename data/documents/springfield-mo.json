@@ -39,34 +39,14 @@
       "page_or_section": "Cover"
     },
     {
-      "field": "document_metadata.jurisdiction_level",
-      "excerpt": "Springfield",
-      "page_or_section": "Cover"
-    },
-    {
-      "field": "document_metadata.state_code",
-      "excerpt": "Missouri",
-      "page_or_section": "Title"
-    },
-    {
       "field": "document_metadata.document_title",
       "excerpt": "Flood Control and Water Quality Protection Manual",
       "page_or_section": "Cover"
     },
     {
-      "field": "document_metadata.version_or_edition",
-      "excerpt": "April 2022",
-      "page_or_section": "Headers"
-    },
-    {
       "field": "document_metadata.adoption_or_effective_date",
       "excerpt": "Adopted April 2022 / effective May 4, 2022",
       "page_or_section": "Cover / city notice"
-    },
-    {
-      "field": "document_metadata.last_revised_date",
-      "excerpt": "April 2022",
-      "page_or_section": "Cover"
     },
     {
       "field": "document_metadata.relationship_to_state_manual",
@@ -96,10 +76,14 @@
   ],
   "extraction_quality": {
     "confidence": "high",
-    "needs_human_review": false,
-    "review_notes": "Springfield FCWQP Manual April 2022.",
+    "needs_human_review": true,
+    "review_notes": "Springfield FCWQP Manual April 2022. Pipeline excerpt repair removed 4 unlocated citation(s).",
     "fields_not_found": [
-      "design_criteria.required_hydrologic_hydraulic_software"
+      "design_criteria.required_hydrologic_hydraulic_software",
+      "document_metadata.jurisdiction_level",
+      "document_metadata.state_code",
+      "document_metadata.version_or_edition",
+      "document_metadata.last_revised_date"
     ]
   },
   "source": {

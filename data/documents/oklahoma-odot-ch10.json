@@ -43,11 +43,6 @@
       "page_or_section": "Cover"
     },
     {
-      "field": "document_metadata.state_code",
-      "excerpt": "Oklahoma Department of Transportation",
-      "page_or_section": "Throughout"
-    },
-    {
       "field": "document_metadata.document_title",
       "excerpt": "Chapter 10 STORMWATER DRAINAGE",
       "page_or_section": "Cover"
@@ -90,11 +85,12 @@
   ],
   "extraction_quality": {
     "confidence": "high",
-    "needs_human_review": false,
-    "review_notes": "Chapter 10 is a roadway storm drain design chapter; flood frequencies and Rational/HEC-22 methods are explicit. Water quality BMPs are referenced but not sized in this chapter.",
+    "needs_human_review": true,
+    "review_notes": "Chapter 10 is a roadway storm drain design chapter; flood frequencies and Rational/HEC-22 methods are explicit. Water quality BMPs are referenced but not sized in this chapter. Pipeline excerpt repair removed 1 unlocated citation(s).",
     "fields_not_found": [
       "document_metadata.adoption_or_effective_date",
-      "document_metadata.last_revised_date"
+      "document_metadata.last_revised_date",
+      "document_metadata.state_code"
     ]
   },
   "source": {

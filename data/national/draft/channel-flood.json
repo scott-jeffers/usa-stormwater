@@ -1,0 +1,367 @@
+{
+  "section_id": "channel-flood",
+  "title": "Channel Protection, Detention, and Flood Control",
+  "generated_at": "2026-08-11T03:43:21.054Z",
+  "model": "heuristic+editorial",
+  "editorial_status": "reviewed",
+  "practice_survey": "Channel and flood criteria separate erosive-flow control from flood conveyance. Manuals that list return periods commonly include short storms for channel protection and the 100-year event for flood or emergency design. Coordination with floodplain managers and FEMA mapping is routine for larger conveyances.",
+  "draft_recommendation": "Separate channel-protection storms from flood conveyance. Limit post-development increases in erosive flows where stable channels are a goal. Size conveyance and freeboard for the flood design storm with emergency overflow paths. Coordinate with floodplain managers and FEMA mapping where applicable. Prefer local channel-stability methods when published.",
+  "regional_variants": "Arid ephemeral channels and coastal tidally influenced systems need region-specific velocity and freeboard checks.",
+  "open_issues": "Default channel-protection return period (1- versus 2- versus 10-year). National freeboard guidance versus deferral to local floodplain ordinances.",
+  "guidance_tables": [
+    {
+      "id": "design-storm-criteria",
+      "title": "Design storms by purpose",
+      "caption": "Draft national guidance grounded in atlas practice — not a design manual or adopted regulation.",
+      "columns": [
+        "Design purpose",
+        "Suggested national guidance",
+        "Atlas note"
+      ],
+      "rows": [
+        [
+          "Water quality / treatment",
+          "Prefer a rainfall or runoff depth, or a percentile WQ storm — not a long return period alone",
+          "WQ method field present in 95% of all manuals (88% of Tier A)"
+        ],
+        [
+          "Channel / overbank protection",
+          "Commonly select a short return period in the 1–10 year range; document local channel criteria",
+          "2-yr: 64% of listing manuals (155). 10-yr: 74% of listing manuals (178)"
+        ],
+        [
+          "Peak matching / detention",
+          "Commonly use a 2–25 year suite (sometimes through 100-year); match pre-development peaks unless volume-based alternative applies",
+          "2-yr: 64% of listing manuals (155). 25-yr: 43% of listing manuals (104). 100-yr: 88% of listing manuals (212)"
+        ],
+        [
+          "Flood / emergency conveyance",
+          "Commonly design for the 100-year event with freeboard and a safe overflow path",
+          "100-yr: 88% of listing manuals (212)"
+        ]
+      ],
+      "row_citations": [
+        [
+          "1",
+          "2",
+          "3",
+          "5",
+          "6"
+        ],
+        [
+          "4"
+        ],
+        [
+          "4",
+          "7"
+        ],
+        [
+          "7"
+        ]
+      ]
+    }
+  ],
+  "recommendation_clauses": [
+    {
+      "id": "separate-purposes",
+      "number": "9.1",
+      "text": "Separate channel-protection storms from flood conveyance; do not collapse both into one number.",
+      "citation_keys": [
+        "4",
+        "7",
+        "1",
+        "2"
+      ],
+      "confidence": "field_verified"
+    },
+    {
+      "id": "erosive-flows",
+      "number": "9.2",
+      "text": "Limit post-development increases in erosive flows where stable channels are a goal.",
+      "citation_keys": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "confidence": "editorial"
+    },
+    {
+      "id": "flood-freeboard",
+      "number": "9.3",
+      "text": "Size conveyance and freeboard for the flood design storm (commonly 100-year) with emergency overflow paths.",
+      "citation_keys": [
+        "4",
+        "7",
+        "1",
+        "2"
+      ],
+      "confidence": "field_verified"
+    },
+    {
+      "id": "floodplain-coord",
+      "number": "9.4",
+      "text": "Coordinate with floodplain managers and FEMA mapping where applicable.",
+      "citation_keys": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "confidence": "editorial"
+    }
+  ],
+  "citation_registry": [
+    {
+      "key": "1",
+      "slug": "ak-state",
+      "state_code": "AK",
+      "excerpt": "Treat the runoff from 90% of the storms that occur in an average year. For Alaska, this equates to providing water quality treatment for the runoff resulting from a rainfall depth of 1.25 inches or less. The goal is to reduce average annual post-development TSS loadings by 80%. WQv = (Rv) × (A) × (P) / 12",
+      "page_or_section": "Table 3-4; Section 3.3.1",
+      "confidence": "field_verified",
+      "field": "design_criteria.water_quality_volume_method"
+    },
+    {
+      "key": "2",
+      "slug": "alabama-handbook",
+      "state_code": "AL",
+      "excerpt": "the first flush equates to the first 1\" of runoff which carries 90% of the pollution load from a storm (USGS, 1984)",
+      "page_or_section": "Page 9, Chapter 2",
+      "confidence": "field_verified",
+      "field": "design_criteria.water_quality_volume_method"
+    },
+    {
+      "key": "3",
+      "slug": "billings-mt",
+      "state_code": "MT",
+      "excerpt": "infiltrate, evapotranspire, and/or capture for reuse the post-construction runoff generated from the first 0.5 inches of rainfall from a 24-hour storm preceded by 48 hours of no measurable precipitation... remainder... remove 80 percent total suspended solids (TSS)",
+      "page_or_section": "Section 1.3.1, Pages 1-2 to 1-3",
+      "confidence": "field_verified",
+      "field": "design_criteria.water_quality_volume_method"
+    },
+    {
+      "key": "4",
+      "slug": "ca-caltrans-construction",
+      "state_code": "CA",
+      "excerpt": "A 2-year, 24-hour storm event has been used by many as a default event, but recent studies have shown that this may oversize the system",
+      "page_or_section": "Section 7.1.5 NS-5 Clear Water Diversion, Page 7-5",
+      "confidence": "field_verified",
+      "field": "design_criteria.design_storm_return_periods_years"
+    },
+    {
+      "key": "5",
+      "slug": "ct-state",
+      "state_code": "CT",
+      "excerpt": "WQV = (P)(R)(A)/12 where: WQV = water quality volume (cubic feet) P = 1.3 inches (90th percentile rainfall event) R = volumetric runoff coefficient = 0.05+0.009(I) I = post- development impervious area (percent) A = post-development total drainage area of site or design point (square feet)",
+      "page_or_section": "Page 46, Water Quality Volume Calculation",
+      "confidence": "field_verified",
+      "field": "design_criteria.water_quality_volume_method"
+    },
+    {
+      "key": "6",
+      "slug": "fl-fsesci-tier1",
+      "state_code": "FL",
+      "excerpt": "temporary (or permanent) sediment or wet detention basin providing 3,600 cubic feet of storage per acre drained must be provided",
+      "page_or_section": "Chapter 3, Page 103",
+      "confidence": "field_verified",
+      "field": "design_criteria.water_quality_volume_method"
+    },
+    {
+      "key": "7",
+      "slug": "ga-state",
+      "state_code": "GA",
+      "excerpt": "the 1-year, 25-year, and 100-year return intervals... 2-year through the 25-year return frequency storm events",
+      "page_or_section": "105, 112",
+      "confidence": "field_verified",
+      "field": "design_criteria.design_storm_return_periods_years"
+    },
+    {
+      "key": "8",
+      "slug": "vt-state",
+      "state_code": "VT",
+      "excerpt": "pter 4.0 to meet the specified treatment standards for recharge, water quality, channel protection, overbank flood protection, and extreme flood control. Each of these standards and their exemptions are discussed in more detail in the following sections. Tab",
+      "page_or_section": "pages 11-11",
+      "confidence": "corpus_pattern",
+      "field": "corpus_chunk"
+    },
+    {
+      "key": "9",
+      "slug": "ri-state",
+      "state_code": "RI",
+      "excerpt": "Standards Manual Amended March 2015 as well as reduce the runoff volume for the channel protection volume, and to a lesser extent, overbank controls. • Rev = (1”)(F)(I)/12: Recharge is required at the site based on land use and soils. Use exfiltrating bioret",
+      "page_or_section": "pages 269-269",
+      "confidence": "corpus_pattern",
+      "field": "corpus_chunk"
+    },
+    {
+      "key": "10",
+      "slug": "west-virginia-manual",
+      "state_code": "WV",
+      "excerpt": "rmwater practices to provide peak rate control for larger storms for downstream channel protection and/or flood control. In West Virginia, this is likely to be a local stormwater standard or requirement. The Runoff Reduction Method allows for the annual Runo",
+      "page_or_section": "pages 55-55",
+      "confidence": "corpus_pattern",
+      "field": "corpus_chunk"
+    },
+    {
+      "key": "11",
+      "slug": "ga-state",
+      "state_code": "GA",
+      "excerpt": "lled through a combination of extended detention for the 1-year, 24-hour event (channel protection) and control of the 25-year peak rate for overbank flood protection. These design standards, therefore, are intended to be used in unison. This standard may be",
+      "page_or_section": "pages 121-121",
+      "confidence": "corpus_pattern",
+      "field": "corpus_chunk"
+    },
+    {
+      "key": "12",
+      "slug": "ma-state-draft",
+      "state_code": "MA",
+      "excerpt": "the water back into the ground. Infiltration practices typically cannot provide channel protection and overbank or extreme flood detention storage. Infiltration SCMs include: Exfiltrating Bioretention Areas and Rain Gardens, Dry Wells, Infiltration Basins, I",
+      "page_or_section": "pages 107-107",
+      "confidence": "corpus_pattern",
+      "field": "corpus_chunk"
+    },
+    {
+      "key": "13",
+      "slug": "ny-state",
+      "state_code": "NY",
+      "excerpt": "requires that projects meet three separate stormwater quantity criteria: 1. The Channel Protection (CPv) requirement is designed to protect stream channels from erosion. This is accomplished by providing 24 hours of extended detention for the 1-year, 24-hour",
+      "page_or_section": "pages 239-239",
+      "confidence": "corpus_pattern",
+      "field": "corpus_chunk"
+    },
+    {
+      "key": "14",
+      "slug": "md-state",
+      "state_code": "MD",
+      "excerpt": "Chapter 2. Unified Stormwater Sizing Criteria ...............Channel Protection Storage Volume 2.8 Section 2.3 Channel Protection Storage Volume Requirements (Cpv ) The method for determining the Cpv requirement is detailed in Appendix D.1",
+      "page_or_section": "pages 46-47",
+      "confidence": "corpus_pattern",
+      "field": "corpus_chunk"
+    },
+    {
+      "key": "15",
+      "slug": "mn-state-2008",
+      "state_code": "MN",
+      "excerpt": "ermit, so this is seldom a major factor in BMP selec- tion. Can the BMP provide channel protection?• BMPs must provide extended detention for long periods at sites where channel protection (Vcp) is required to protect streams, which means that only a short l",
+      "page_or_section": "pages 173-173",
+      "confidence": "corpus_pattern",
+      "field": "corpus_chunk"
+    },
+    {
+      "key": "16",
+      "slug": "indiana-manual",
+      "state_code": "IN",
+      "excerpt": "e of potential flood conditions resulting from development. They include stream channel protection, conveyance protection, peak runoff attenuation, and emergency outlet sizing. Percolation. The movement of water through soil. Percolation Rate. The rate, usua",
+      "page_or_section": "pages 729-729",
+      "confidence": "corpus_pattern",
+      "field": "corpus_chunk"
+    },
+    {
+      "key": "17",
+      "slug": "maine-manual",
+      "state_code": "ME",
+      "excerpt": "is evenly distributed between three ponds in series, the reduction may be 40%. Channel Protection Volume: Wet ponds must detain, above the permanent pool, a runoff volume equal to 1.0 inch times the subcatchment's impervious area plus 0.4 inch times the lan",
+      "page_or_section": "pages 21-21",
+      "confidence": "corpus_pattern",
+      "field": "corpus_chunk"
+    }
+  ],
+  "citations": [
+    {
+      "slug": "vt-state",
+      "chunk_id": "vt-state-c0006",
+      "page_or_section": "pages 11-11",
+      "excerpt": "pter 4.0 to meet the specified treatment standards for recharge, water quality, channel protection, overbank flood protection, and extreme flood control. Each of these standards and their exemptions are discussed in more detail in the following sections. Tab"
+    },
+    {
+      "slug": "ri-state",
+      "chunk_id": "ri-state-c0273",
+      "page_or_section": "pages 269-269",
+      "excerpt": "Standards Manual Amended March 2015 as well as reduce the runoff volume for the channel protection volume, and to a lesser extent, overbank controls. • Rev = (1”)(F)(I)/12: Recharge is required at the site based on land use and soils. Use exfiltrating bioret"
+    },
+    {
+      "slug": "west-virginia-manual",
+      "chunk_id": "west-virginia-manual-c0044",
+      "page_or_section": "pages 55-55",
+      "excerpt": "rmwater practices to provide peak rate control for larger storms for downstream channel protection and/or flood control. In West Virginia, this is likely to be a local stormwater standard or requirement. The Runoff Reduction Method allows for the annual Runo"
+    },
+    {
+      "slug": "ga-state",
+      "chunk_id": "ga-state-c0182",
+      "page_or_section": "pages 121-121",
+      "excerpt": "lled through a combination of extended detention for the 1-year, 24-hour event (channel protection) and control of the 25-year peak rate for overbank flood protection. These design standards, therefore, are intended to be used in unison. This standard may be"
+    },
+    {
+      "slug": "vt-state",
+      "chunk_id": "vt-state-c0018",
+      "page_or_section": "pages 23-23",
+      "excerpt": "st-development conditions in order to determine the required volume of overbank flood control storage.  For expansions of previously non-permitted projects, the site shall mean the expanded portion of the site including all areas within the limits of c"
+    },
+    {
+      "slug": "ma-state-draft",
+      "chunk_id": "ma-state-draft-c0077",
+      "page_or_section": "pages 107-107",
+      "excerpt": "the water back into the ground. Infiltration practices typically cannot provide channel protection and overbank or extreme flood detention storage. Infiltration SCMs include: Exfiltrating Bioretention Areas and Rain Gardens, Dry Wells, Infiltration Basins, I"
+    },
+    {
+      "slug": "ny-state",
+      "chunk_id": "ny-state-c0170",
+      "page_or_section": "pages 239-239",
+      "excerpt": "requires that projects meet three separate stormwater quantity criteria: 1. The Channel Protection (CPv) requirement is designed to protect stream channels from erosion. This is accomplished by providing 24 hours of extended detention for the 1-year, 24-hour"
+    },
+    {
+      "slug": "md-state",
+      "chunk_id": "md-state-c0011",
+      "page_or_section": "pages 46-47",
+      "excerpt": "Chapter 2. Unified Stormwater Sizing Criteria ...............Channel Protection Storage Volume 2.8 Section 2.3 Channel Protection Storage Volume Requirements (Cpv ) The method for determining the Cpv requirement is detailed in Appendix D.1"
+    },
+    {
+      "slug": "mn-state-2008",
+      "chunk_id": "mn-state-2008-c0145",
+      "page_or_section": "pages 173-173",
+      "excerpt": "ermit, so this is seldom a major factor in BMP selec- tion. Can the BMP provide channel protection?• BMPs must provide extended detention for long periods at sites where channel protection (Vcp) is required to protect streams, which means that only a short l"
+    },
+    {
+      "slug": "mn-state-2008",
+      "chunk_id": "mn-state-2008-c0647",
+      "page_or_section": "pages 841-841",
+      "excerpt": "aPPendiX M. estiMating CHannel ProteCtion storage voluMe 841 Step 5 Using TR-20, or equivalent, route the runoff through the pond and check to make sure that peak discharge for Vcp does not exceed twic"
+    },
+    {
+      "slug": "ny-state",
+      "chunk_id": "ny-state-c0035",
+      "page_or_section": "pages 48-48",
+      "excerpt": "at is CPv and WQv shall be treated separately). However, both water quality and channel protection storage may be provided in the same SMP. The Channel Protection Requirements may be waived if: • Reduction of the entire CPv is achieved at a site through runo"
+    },
+    {
+      "slug": "indiana-manual",
+      "chunk_id": "indiana-manual-c0426",
+      "page_or_section": "pages 729-729",
+      "excerpt": "e of potential flood conditions resulting from development. They include stream channel protection, conveyance protection, peak runoff attenuation, and emergency outlet sizing. Percolation. The movement of water through soil. Percolation Rate. The rate, usua"
+    },
+    {
+      "slug": "maine-manual",
+      "chunk_id": "maine-manual-c0045",
+      "page_or_section": "pages 21-21",
+      "excerpt": "is evenly distributed between three ponds in series, the reduction may be 40%. Channel Protection Volume: Wet ponds must detain, above the permanent pool, a runoff volume equal to 1.0 inch times the subcatchment's impervious area plus 0.4 inch times the lan"
+    },
+    {
+      "slug": "ri-state",
+      "chunk_id": "ri-state-c0106",
+      "page_or_section": "pages 59-59",
+      "excerpt": "d above, using the following equation: Vs = 0.65 * Vr where Vs = CPv = required channel protection storage volume; and Vr = runoff volume from 1-year, 24-hour Type III storm. • The CPv shall be released at roughly a uniform rate over a 24-hour duration (see"
+    }
+  ],
+  "supporting_slugs": [
+    "vt-state",
+    "ri-state",
+    "west-virginia-manual",
+    "ga-state",
+    "ma-state-draft",
+    "ny-state",
+    "md-state",
+    "mn-state-2008",
+    "indiana-manual",
+    "maine-manual"
+  ]
+}

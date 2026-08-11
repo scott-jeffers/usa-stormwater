@@ -10,7 +10,10 @@
     "relationship_to_state_manual": "independent"
   },
   "design_criteria": {
-    "design_storm_return_periods_years": [10, 100],
+    "design_storm_return_periods_years": [
+      10,
+      100
+    ],
     "water_quality_volume_method": "Drainage facilities designed for Intermediate Storm Design Discharge (ISDD ≈ 10-year) and Capital Storm Design Discharge (CSDD ≈ 100-year). Retention basins (sumps) and detention basins sized for design ponding depth/volume per Kern County standards; off-site CSDD/ISDD mitigation required for development.",
     "peak_flow_calculation_method": [
       "Capital Storm Design Discharge (CSDD / 100-year)",
@@ -30,13 +33,8 @@
   "evidence": [
     {
       "field": "document_metadata.jurisdiction_name",
-      "excerpt": "City of Bakersfield / Kern County metro drainage standards (Division Four)",
-      "page_or_section": "Coverage note"
-    },
-    {
-      "field": "document_metadata.jurisdiction_level",
-      "excerpt": "municipality — City of Bakersfield",
-      "page_or_section": "Coverage note"
+      "excerpt": "refers to the Department of the County of Kern with jurisdiction. 402.1.02 ALLUVIAL FAN: is a landform originating at an apex and characterized by high-velocity flows; active processes of erosion, sediment transport, and deposition; and unpredictable flow paths. 402-1.03",
+      "page_or_section": "p. 2"
     },
     {
       "field": "document_metadata.state_code",
@@ -82,11 +80,12 @@
   "extraction_quality": {
     "confidence": "medium",
     "needs_human_review": true,
-    "review_notes": "Kern County Division Four drainage standards used for Bakersfield metro / co-permittee coverage. City of Bakersfield may publish a separate Subdivision/Engineering Design Manual — prefer swapping if a durable city PDF is found.",
+    "review_notes": "Kern County Division Four drainage standards used for Bakersfield metro / co-permittee coverage. City of Bakersfield may publish a separate Subdivision/Engineering Design Manual — prefer swapping if a durable city PDF is found. Pipeline excerpt repair removed 1 unlocated citation(s).",
     "fields_not_found": [
       "document_metadata.adoption_or_effective_date",
       "document_metadata.last_revised_date",
-      "design_criteria.required_hydrologic_hydraulic_software"
+      "design_criteria.required_hydrologic_hydraulic_software",
+      "document_metadata.jurisdiction_level"
     ]
   },
   "source": {

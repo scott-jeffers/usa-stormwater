@@ -52,21 +52,6 @@
       "page_or_section": "Cover"
     },
     {
-      "field": "document_metadata.version_or_edition",
-      "excerpt": "Date Revised: January 10 2014",
-      "page_or_section": "Cover"
-    },
-    {
-      "field": "document_metadata.adoption_or_effective_date",
-      "excerpt": "January 10 2014",
-      "page_or_section": "Cover"
-    },
-    {
-      "field": "document_metadata.last_revised_date",
-      "excerpt": "January 10 2014",
-      "page_or_section": "Cover"
-    },
-    {
       "field": "document_metadata.relationship_to_state_manual",
       "excerpt": "Georgia Stormwater Management Manual (GSMM) will also be utilized",
       "page_or_section": "Ch. 1"
@@ -88,16 +73,19 @@
     },
     {
       "field": "design_criteria.design_storm_return_periods_years",
-      "excerpt": "1-year ... 2- through 100-year; Q25",
-      "page_or_section": "Ch. 1–2"
+      "excerpt": "Provide extended detention of the 1-year storm event released over a period of 24 hours to reduce bank-full flows and protect downstream channels from erosive velocities and unstable conditions. Overbank Flood Protection Provide peak discharge control of the 25-year storm e",
+      "page_or_section": "pp. 20–21"
     }
   ],
   "extraction_quality": {
     "confidence": "high",
-    "needs_human_review": false,
-    "review_notes": null,
+    "needs_human_review": true,
+    "review_notes": "Pipeline excerpt repair removed 3 unlocated citation(s).",
     "fields_not_found": [
-      "design_criteria.required_hydrologic_hydraulic_software"
+      "design_criteria.required_hydrologic_hydraulic_software",
+      "document_metadata.version_or_edition",
+      "document_metadata.adoption_or_effective_date",
+      "document_metadata.last_revised_date"
     ]
   },
   "source": {

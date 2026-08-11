@@ -10,7 +10,13 @@
     "relationship_to_state_manual": "independent"
   },
   "design_criteria": {
-    "design_storm_return_periods_years": [1, 2, 10, 25, 100],
+    "design_storm_return_periods_years": [
+      1,
+      2,
+      10,
+      25,
+      100
+    ],
     "water_quality_volume_method": "Runoff Reduction Volume (RRv) for the 85th percentile / first-flush event: reduce runoff from the 1.2-inch rainfall event (and the first 1.2 inches of larger events); RRv = (1.2 in.)(Rv)(A)/12 with Rv = 0.05 + 0.009(I). Within 1/2-mile of shellfish harvesting areas, target is the 90th percentile / 1.5-inch event. Remaining unreduced 1.2-inch runoff must be treated in practices providing ≥80% TSS reduction and reducing nitrogen and bacteria to the MEP. Aquatic Resource Protection Volume (ARPv): 24 hours extended detention of the 1-year, 24-hour storm.",
     "peak_flow_calculation_method": [
       "SCS Runoff Curve Number Method (NRCS, 1986)",
@@ -68,14 +74,9 @@
       "page_or_section": "Title Page"
     },
     {
-      "field": "document_metadata.adoption_or_effective_date",
-      "excerpt": "April 2009",
-      "page_or_section": "Title Page"
-    },
-    {
       "field": "document_metadata.relationship_to_state_manual",
-      "excerpt": "this CSS was developed. It builds on the wealth of information presented in the GSMM... In case of a conflict between information presented in this CSS and the GSMM, the information contained in this CSS should be",
-      "page_or_section": "Section 1.6 Relationship of the Supplement to the Georgia Stormwater Management Manual"
+      "excerpt": "This monitoring protocol provides information that can be used to evaluate the performance of green infrastructure and stormwater management practices in coastal Georgia. The protocol presents a simple, yet comprehensive monitoring approach that can be used to accurately ev",
+      "page_or_section": "p. 493"
     },
     {
       "field": "design_criteria.design_storm_return_periods_years",
@@ -104,11 +105,6 @@
     },
     {
       "field": "design_criteria.water_quality_volume_method",
-      "excerpt": "RRv = (1.2 in.)(Rv)(A) ÷ (12)... Rv = 0.05 + 0.009(I)",
-      "page_or_section": "Section 5.2 Calculating the Stormwater Runoff Volume Associated with the Stormwater Runoff Reduction Criteria"
-    },
-    {
-      "field": "design_criteria.water_quality_volume_method",
       "excerpt": "it should be intercepted and treated in one or more stormwater management practices that: (1) provide for at least an 80 percent reduction in TSS loads; and (2) reduce nitrogen and bacteria loads to the maximum extent practical.",
       "page_or_section": "Table 4.5 / SWM Criteria #2 Stormwater Quality Protection"
     },
@@ -126,30 +122,19 @@
       "field": "design_criteria.peak_flow_calculation_method",
       "excerpt": "The SCS Runoff Curve Number Method (NRCS, 1986) uses a combination of these factors to assign a runoff curve number",
       "page_or_section": "Section 5.4.2 Step 2"
-    },
-    {
-      "field": "design_criteria.peak_flow_calculation_method",
-      "excerpt": "Unit Peak Discharge for NRCS (SCS) Type II Rainfall Distribution... Unit Peak Discharge for NRCS (SCS) Type III Rainfall Distribution",
-      "page_or_section": "Figures 5.4–5.5"
-    },
-    {
-      "field": "design_criteria.approved_bmp_categories",
-      "excerpt": "7.8.1 Soil Restoration... 7.8.3 Green Roofs... 7.8.4 Permeable Pavements... 7.8.9 Rain Gardens... 7.8.13 Bioretention Areas... 7.8.14 Infiltration Practices... 7.8.15 Dry Swales",
-      "page_or_section": "Section 7.8 TOC / Green Infrastructure Practices"
-    },
-    {
-      "field": "design_criteria.approved_bmp_categories",
-      "excerpt": "8.6.1 Stormwater Ponds... 8.6.2 Stormwater Wetlands... 8.6.3 Bioretention Areas... 8.6.4 Filtration Practices... 8.6.5 Infiltration Practices... 8.6.6 Swales",
-      "page_or_section": "Section 8.6 TOC / Stormwater Management Practices"
     }
   ],
   "extraction_quality": {
     "confidence": "high",
-    "needs_human_review": false,
-    "review_notes": "Regional coastal Georgia supplement (facilitated by Chatham County–Savannah MPC), not a City of Savannah ordinance. Jurisdiction level coded as other because the CSS applies across the multi-county Coastal NPS Management Area and Area of Special Interest. Supplements the Georgia Stormwater Management Manual (GSMM); CSS controls on conflict—schema has no 'supplements' enum so relationship_to_state_manual is independent.",
+    "needs_human_review": true,
+    "review_notes": "Regional coastal Georgia supplement (facilitated by Chatham County–Savannah MPC), not a City of Savannah ordinance. Jurisdiction level coded as other because the CSS applies across the multi-county Coastal NPS Management Area and Area of Special Interest. Supplements the Georgia Stormwater Management Manual (GSMM); CSS controls on conflict—schema has no 'supplements' enum so relationship_to_state_manual is independent. Pipeline excerpt repair removed 5 unlocated citation(s).",
     "fields_not_found": [
       "document_metadata.last_revised_date",
-      "design_criteria.required_hydrologic_hydraulic_software"
+      "design_criteria.required_hydrologic_hydraulic_software",
+      "document_metadata.adoption_or_effective_date",
+      "design_criteria.water_quality_volume_method",
+      "design_criteria.peak_flow_calculation_method",
+      "design_criteria.approved_bmp_categories"
     ]
   },
   "source": {

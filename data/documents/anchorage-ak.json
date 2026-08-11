@@ -10,7 +10,15 @@
     "relationship_to_state_manual": "independent"
   },
   "design_criteria": {
-    "design_storm_return_periods_years": [1, 2, 5, 10, 25, 50, 100],
+    "design_storm_return_periods_years": [
+      1,
+      2,
+      5,
+      10,
+      25,
+      50,
+      100
+    ],
     "water_quality_volume_method": "Treat runoff from the first 0.52 inches of rainfall from a 24-hour event preceded by 48 hours of no precipitation (90th-percentile water quality storm) using Green Infrastructure (retention, infiltration, bioretention, evaporation, rainfall harvesting, and/or combinations). Volume estimated by Direct Determination Method or SWMM. Extended detention (when GI not used for WQ): detain post-development excess over pre-development for the 1-year, 24-hour storm for 6 hours. Oil/grit separator annual goals include 80% reduction of inorganic sediment ≥100 μm when traditional treatment is used.",
     "peak_flow_calculation_method": [
       "Rational Method",
@@ -91,8 +99,8 @@
     },
     {
       "field": "design_criteria.design_storm_return_periods_years",
-      "excerpt": "100-Year: I=0.5484D-0.5283... 50-Year... 25-Year... 10-Year... 5-Year... 2-Year... 1-Year",
-      "page_or_section": "Figure 4.2-1 IDF Curve Equations, Page 4-2"
+      "excerpt": "= Intensity (in/hr) D = Duration (hr) 100-Year: I=0.5484D-0.5283 50-Year: I=0.4976D-0.5257 25-Year: I=0.4465D-0.5226 10-Year: I=0.3814D-0.5174 5-Year: I=0.3308D-0.5120 2-Year: I=0.2590D-0.5010 1-Year: I=0.2155D-0.4911 100-Year IDF Curve 50-Year IDF Curve 25-Year IDF Curve 10-Ye",
+      "page_or_section": "pp. 56–57"
     },
     {
       "field": "design_criteria.water_quality_volume_method",
@@ -131,8 +139,8 @@
     },
     {
       "field": "design_criteria.required_hydrologic_hydraulic_software",
-      "excerpt": "Table 4.8-1: Common Computer Models... SWMM... HEC-HMS... PondPack®... HEC-RAS... HY-8",
-      "page_or_section": "Table 4.8-1, Pages 4-28+"
+      "excerpt": "Criteria March 2015 vii LIST OF TABLES Table 2.1-1: Summary of Urban Stormwater Pollutants ............................................................ 2-7 Table 3.2-1: Summary of Stormwater Standards and Requirements.......................................... 3-3 Table 4.",
+      "page_or_section": "p. 9"
     },
     {
       "field": "design_criteria.approved_bmp_categories",

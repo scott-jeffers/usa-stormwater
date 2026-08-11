@@ -30,26 +30,23 @@
   },
   "evidence": [
     {
-      "field": "document_metadata.jurisdiction_name",
-      "excerpt": "City of Wilmington Development Review Stormwater Permits cite NCDEQ Design Manual",
-      "page_or_section": "Coverage note"
-    },
-    {
       "field": "design_criteria.water_quality_volume_method",
       "excerpt": "combined design volume of all SCMs ... required storm depth ... one inch",
       "page_or_section": "NCDEQ C-0 GENERAL MDC 1"
     },
     {
       "field": "document_metadata.relationship_to_state_manual",
-      "excerpt": "adopts_state_manual_directly — NCDEQ MDC",
-      "page_or_section": "Coverage note"
+      "excerpt": "--- page 2 --- NCDEQ Stormwater BMP Manual ________________________________________________________________________________________________________ C-0. MDC for all SCMs 2 Revised: 1-3-2017 GENERAL MDC 1. SIZING. The design volume of SCMs shall take into",
+      "page_or_section": "p. 2"
     }
   ],
   "extraction_quality": {
     "confidence": "medium",
     "needs_human_review": true,
-    "review_notes": "Municipality coverage via NCDEQ Design Manual MDC (same pattern as Cary). City coastal ordinance may impose additional SA/ORW depths not fully extracted here.",
-    "fields_not_found": []
+    "review_notes": "Municipality coverage via NCDEQ Design Manual MDC (same pattern as Cary). City coastal ordinance may impose additional SA/ORW depths not fully extracted here. Pipeline excerpt repair removed 1 unlocated citation(s).",
+    "fields_not_found": [
+      "document_metadata.jurisdiction_name"
+    ]
   },
   "source": {
     "document_url": "https://www.deq.nc.gov/energy-mineral-and-land-resources/stormwater/bmp-manual/c-0-mdc-all-scms/download",

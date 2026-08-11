@@ -1,0 +1,344 @@
+{
+  "section_id": "channel-flood.release",
+  "title": "Allowable Discharge and Release Rates",
+  "generated_at": "2026-08-11T03:43:21.055Z",
+  "model": "heuristic+editorial",
+  "editorial_status": "reviewed",
+  "practice_survey": "Release-rate or peak-matching criteria typically require post-development peaks not to exceed pre-development for a specified storm suite, unless a regional facility provides equivalent control. Some manuals replace multi-storm peak matching with volume reduction or duration control, especially where LID retention is the primary standard.",
+  "draft_recommendation": "Match or reduce post-development peaks to pre-development for the specified storm suite unless a regional facility provides equivalent control. Document pre- versus post-hydrographs and routing assumptions. Avoid over-detention that worsens downstream peak timing without analysis. Allow alternative volume-based compliance where local manuals endorse it.",
+  "regional_variants": "Some manuals emphasize volume reduction or duration control over multi-storm peak matching. Arid regions may emphasize retention over release-rate matching.",
+  "open_issues": "Which storm suite belongs in national guidance. How to treat redevelopment sites with no reliable pre-development condition.",
+  "guidance_tables": [
+    {
+      "id": "release-rate-criteria",
+      "title": "Release-rate / peak-matching criteria",
+      "caption": "Draft national guidance grounded in atlas practice — not a design manual or adopted regulation.",
+      "columns": [
+        "Design purpose",
+        "Suggested national guidance",
+        "Atlas note"
+      ],
+      "rows": [
+        [
+          "Pre- vs post-development peaks",
+          "Match or reduce post-development peaks to pre-development for the specified storm suite unless a regional facility provides equivalent control",
+          "Common storm suite anchors: 2-yr 64% of listing manuals (155); 10-yr 74% of listing manuals (178); 100-yr 88% of listing manuals (212)"
+        ],
+        [
+          "Volume-based alternative",
+          "Allow duration or volume-reduction compliance where the local manual endorses it in lieu of multi-storm peak matching",
+          "Some GI manuals replace peak matching with retention standards"
+        ],
+        [
+          "Hydrograph documentation",
+          "Require pre/post hydrographs and routing assumptions in the drainage report",
+          "Submittal expectation across plan-review manuals"
+        ]
+      ],
+      "row_citations": [
+        [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6"
+        ],
+        [],
+        []
+      ]
+    }
+  ],
+  "recommendation_clauses": [
+    {
+      "id": "peak-match",
+      "number": "10.1",
+      "text": "Match or reduce post-development peaks to pre-development for the specified storm suite unless a regional facility provides equivalent control.",
+      "citation_keys": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "confidence": "field_verified"
+    },
+    {
+      "id": "hydrographs",
+      "number": "10.2",
+      "text": "Document pre- versus post-hydrographs and routing assumptions in the drainage report.",
+      "citation_keys": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "confidence": "editorial"
+    },
+    {
+      "id": "volume-alt",
+      "number": "10.3",
+      "text": "Allow alternative volume-based or duration-control compliance where local manuals endorse it.",
+      "citation_keys": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "confidence": "editorial"
+    }
+  ],
+  "citation_registry": [
+    {
+      "key": "1",
+      "slug": "ak-state",
+      "state_code": "AK",
+      "excerpt": "Provide 24 hours of extended detention of the runoff from the 1-year, 24-hour duration storm event... Provide peak discharge control of the 5-year storm event... Some jurisdictions may require peak discharge control for the 2-year storm event... Evaluate the effects of the 100-year storm",
+      "page_or_section": "Table 3-4, Unified sizing criteria, Section 3.3",
+      "confidence": "field_verified",
+      "field": "design_criteria.design_storm_return_periods_years"
+    },
+    {
+      "key": "2",
+      "slug": "alabama-handbook",
+      "state_code": "AL",
+      "excerpt": "Temporary Construction Areas 2-year... Building Sites 5-year... Agricultural Land 10-year... Isolated Buildings 25-year... Urban areas, Residential, School, Industrial Areas, etc. 50-year",
+      "page_or_section": "Page 181, Table DV-1",
+      "confidence": "field_verified",
+      "field": "design_criteria.design_storm_return_periods_years"
+    },
+    {
+      "key": "3",
+      "slug": "billings-mt",
+      "state_code": "MT",
+      "excerpt": "Generally, a 10- or 25-year return design storm is used to size storm drainage infrastructure and a 100-year return design storm is used to address upstream and downstream flooding",
+      "page_or_section": "Section 3.4 Flood Control, Page 3-4",
+      "confidence": "field_verified",
+      "field": "design_criteria.design_storm_return_periods_years"
+    },
+    {
+      "key": "4",
+      "slug": "ca-caltrans-construction",
+      "state_code": "CA",
+      "excerpt": "A 2-year, 24-hour storm event has been used by many as a default event, but recent studies have shown that this may oversize the system",
+      "page_or_section": "Section 7.1.5 NS-5 Clear Water Diversion, Page 7-5",
+      "confidence": "field_verified",
+      "field": "design_criteria.design_storm_return_periods_years"
+    },
+    {
+      "key": "5",
+      "slug": "ct-state",
+      "state_code": "CT",
+      "excerpt": "Control the 2-year, 24-hour post-development peak flow rate... Control the 10-year, 24-hour post-development peak flow rate... Potentially control the 100-year, 24-hour post-development peak flow rate",
+      "page_or_section": "Page 35, Table 4-1",
+      "confidence": "field_verified",
+      "field": "design_criteria.design_storm_return_periods_years"
+    },
+    {
+      "key": "6",
+      "slug": "fl-fsesci-tier1",
+      "state_code": "FL",
+      "excerpt": "peak runoff expected from the drainage area for a 10-year storm",
+      "page_or_section": "Chapter 3, Page 106",
+      "confidence": "field_verified",
+      "field": "design_criteria.design_storm_return_periods_years"
+    },
+    {
+      "key": "7",
+      "slug": "dc-guidebook",
+      "state_code": "DC",
+      "excerpt": "d will determine the site’s predevelopment peak rate of discharge, or allowable release rate, qo2, for the 2-year storm, whereas the preproject hydrology for the 15-year storm is based on existing conditions, and will determine the site’s preproject pe",
+      "page_or_section": "pages 94-95",
+      "confidence": "corpus_pattern",
+      "field": "corpus_chunk"
+    },
+    {
+      "key": "8",
+      "slug": "pa-state",
+      "state_code": "PA",
+      "excerpt": "ts are summarized in Table 3-75. Determination of ponding time, 1.2-inch/2-hour release rate, and 2-year/24-hour peak rate parameters are demonstrated in Figure 3-80 and Figure 3-81. Ponding time in the MRC SCM for the 10-, 50-, and 100-year/24-hour st",
+      "page_or_section": "pages 334-335",
+      "confidence": "corpus_pattern",
+      "field": "corpus_chunk"
+    },
+    {
+      "key": "9",
+      "slug": "maine-manual",
+      "state_code": "ME",
+      "excerpt": "needed for peak rate control.  The artificially high estimates could result in release rates higher than existing conditions, resulting in adverse effects downstream.  The method assumes that the rainfall intensity is uniform over the entire watershe",
+      "page_or_section": "pages 108-108",
+      "confidence": "corpus_pattern",
+      "field": "corpus_chunk"
+    },
+    {
+      "key": "10",
+      "slug": "seattle-wa",
+      "state_code": "WA",
+      "excerpt": "Stormwater Code Language References SMC 22.805.080.B.5 a. The post-development release rates shall be limited as follows: 1) The peak flow with a 50 percent annual probability (2-year recurrence flow) shall not exceed 0.07 cubic feet per second per ac",
+      "page_or_section": "pages 90-90",
+      "confidence": "corpus_pattern",
+      "field": "corpus_chunk"
+    },
+    {
+      "key": "11",
+      "slug": "alabama-handbook",
+      "state_code": "AL",
+      "excerpt": "expected from a 10-year 24-hour duration storm. Adjustments should be made for release rates from structures and other drainage facilities. Swales shall also be designed to comply with local stormwater ordinances and should be designed for greater cap",
+      "page_or_section": "pages 208-209",
+      "confidence": "corpus_pattern",
+      "field": "corpus_chunk"
+    },
+    {
+      "key": "12",
+      "slug": "vt-state",
+      "state_code": "VT",
+      "excerpt": "where the water is discharged. 2.2.4.1. Water Quality Peak Flow Calculation The peak rate of discharge for the water quality design storm is needed for the sizing of rate based treatment practices and off-line diversion structures. Conventional Natu",
+      "page_or_section": "pages 17-17",
+      "confidence": "corpus_pattern",
+      "field": "corpus_chunk"
+    },
+    {
+      "key": "13",
+      "slug": "ga-state",
+      "state_code": "GA",
+      "excerpt": "n for the 1-year, 24-hour event (channel protection) and control of the 25-year peak rate for overbank flood protection. These design standards, therefore, are intended to be used in unison. This standard may be adjusted by a local jurisdic- tion fo",
+      "page_or_section": "pages 121-121",
+      "confidence": "corpus_pattern",
+      "field": "corpus_chunk"
+    },
+    {
+      "key": "14",
+      "slug": "ri-state",
+      "state_code": "RI",
+      "excerpt": "ation (see example sizing calculations in Appendix D). To determine the average release rate, use the following equation: Average release rate = Vr / T where Vr = defined above; and T = extended detention time (24 hours). The CPv criterion can be waive",
+      "page_or_section": "pages 59-59",
+      "confidence": "corpus_pattern",
+      "field": "corpus_chunk"
+    },
+    {
+      "key": "15",
+      "slug": "flagstaff-az",
+      "state_code": "AZ",
+      "excerpt": "tical points for the storm runoff events and frequencies required. 11. Volumes, release rates, and locations for detention storage facilities and information on outlet works. This shall include design drawings, consisting of plan views, cross-sections,",
+      "page_or_section": "pages 28-28",
+      "confidence": "corpus_pattern",
+      "field": "corpus_chunk"
+    },
+    {
+      "key": "16",
+      "slug": "wa-state-western",
+      "state_code": "WA",
+      "excerpt": "and to such water pollution control struc- tures. Overflow rate Detention basin release rate divided by the surface area of the basin. It can be thought of as an average flow rate through the basin. Overtopping To flow over the limits of a containment",
+      "page_or_section": "pages 1297-1298",
+      "confidence": "corpus_pattern",
+      "field": "corpus_chunk"
+    },
+    {
+      "key": "17",
+      "slug": "mn-state-2008",
+      "state_code": "MN",
+      "excerpt": "0 or equivalent to route the 2-year storm through the Vcp orifice. Check 2-year peak rate of discharge. If discharge is equal to or less than pre-development discharge rates, then outlet sizing is complete. If not, then raise the elevation of the Vp",
+      "page_or_section": "pages 841-841",
+      "confidence": "corpus_pattern",
+      "field": "corpus_chunk"
+    }
+  ],
+  "citations": [
+    {
+      "slug": "dc-guidebook",
+      "chunk_id": "dc-guidebook-c0059",
+      "page_or_section": "pages 94-95",
+      "excerpt": "d will determine the site’s predevelopment peak rate of discharge, or allowable release rate, qo2, for the 2-year storm, whereas the preproject hydrology for the 15-year storm is based on existing conditions, and will determine the site’s preproject pe"
+    },
+    {
+      "slug": "pa-state",
+      "chunk_id": "pa-state-c0264",
+      "page_or_section": "pages 334-335",
+      "excerpt": "ts are summarized in Table 3-75. Determination of ponding time, 1.2-inch/2-hour release rate, and 2-year/24-hour peak rate parameters are demonstrated in Figure 3-80 and Figure 3-81. Ponding time in the MRC SCM for the 10-, 50-, and 100-year/24-hour st"
+    },
+    {
+      "slug": "maine-manual",
+      "chunk_id": "maine-manual-c0131",
+      "page_or_section": "pages 108-108",
+      "excerpt": "needed for peak rate control.  The artificially high estimates could result in release rates higher than existing conditions, resulting in adverse effects downstream.  The method assumes that the rainfall intensity is uniform over the entire watershe"
+    },
+    {
+      "slug": "seattle-wa",
+      "chunk_id": "seattle-wa-c0040",
+      "page_or_section": "pages 90-90",
+      "excerpt": "Stormwater Code Language References SMC 22.805.080.B.5 a. The post-development release rates shall be limited as follows: 1) The peak flow with a 50 percent annual probability (2-year recurrence flow) shall not exceed 0.07 cubic feet per second per ac"
+    },
+    {
+      "slug": "alabama-handbook",
+      "chunk_id": "alabama-handbook-c0136",
+      "page_or_section": "pages 208-209",
+      "excerpt": "expected from a 10-year 24-hour duration storm. Adjustments should be made for release rates from structures and other drainage facilities. Swales shall also be designed to comply with local stormwater ordinances and should be designed for greater cap"
+    },
+    {
+      "slug": "maine-manual",
+      "chunk_id": "maine-manual-c0031",
+      "page_or_section": "pages 8-8",
+      "excerpt": "harge rate of runoff as well as the total runoff volume needs to be controlled. Peak rates can be controlled by detention. As shown in Figures 2-1 and 2-2, to effectively control peak rates to pre-development levels, detention structures should be d"
+    },
+    {
+      "slug": "vt-state",
+      "chunk_id": "vt-state-c0012",
+      "page_or_section": "pages 17-17",
+      "excerpt": "where the water is discharged. 2.2.4.1. Water Quality Peak Flow Calculation The peak rate of discharge for the water quality design storm is needed for the sizing of rate based treatment practices and off-line diversion structures. Conventional Natu"
+    },
+    {
+      "slug": "alabama-handbook",
+      "chunk_id": "alabama-handbook-c0017",
+      "page_or_section": "pages 24-24",
+      "excerpt": "the storm event which is required to be controlled and the slower the allowable release rate, the greater the storage volume which will be required in the detention facility. The major drainage system comes into play when the capacity of the primary dr"
+    },
+    {
+      "slug": "ga-state",
+      "chunk_id": "ga-state-c0182",
+      "page_or_section": "pages 121-121",
+      "excerpt": "n for the 1-year, 24-hour event (channel protection) and control of the 25-year peak rate for overbank flood protection. These design standards, therefore, are intended to be used in unison. This standard may be adjusted by a local jurisdic- tion fo"
+    },
+    {
+      "slug": "ri-state",
+      "chunk_id": "ri-state-c0106",
+      "page_or_section": "pages 59-59",
+      "excerpt": "ation (see example sizing calculations in Appendix D). To determine the average release rate, use the following equation: Average release rate = Vr / T where Vr = defined above; and T = extended detention time (24 hours). The CPv criterion can be waive"
+    },
+    {
+      "slug": "flagstaff-az",
+      "chunk_id": "flagstaff-az-c0039",
+      "page_or_section": "pages 28-28",
+      "excerpt": "tical points for the storm runoff events and frequencies required. 11. Volumes, release rates, and locations for detention storage facilities and information on outlet works. This shall include design drawings, consisting of plan views, cross-sections,"
+    },
+    {
+      "slug": "vt-state",
+      "chunk_id": "vt-state-c0016",
+      "page_or_section": "pages 21-21",
+      "excerpt": "annel protection standard. 2.2.5.5. Time of Concentration In order to calculate peak rates for compliance with the Extended Detention and flow attenuation standards, the time of concentration must be determined for use with each modeled subcatchment"
+    },
+    {
+      "slug": "wa-state-western",
+      "chunk_id": "wa-state-western-c0966",
+      "page_or_section": "pages 1297-1298",
+      "excerpt": "and to such water pollution control struc- tures. Overflow rate Detention basin release rate divided by the surface area of the basin. It can be thought of as an average flow rate through the basin. Overtopping To flow over the limits of a containment"
+    },
+    {
+      "slug": "mn-state-2008",
+      "chunk_id": "mn-state-2008-c0647",
+      "page_or_section": "pages 841-841",
+      "excerpt": "0 or equivalent to route the 2-year storm through the Vcp orifice. Check 2-year peak rate of discharge. If discharge is equal to or less than pre-development discharge rates, then outlet sizing is complete. If not, then raise the elevation of the Vp"
+    }
+  ],
+  "supporting_slugs": [
+    "dc-guidebook",
+    "pa-state",
+    "maine-manual",
+    "seattle-wa",
+    "alabama-handbook",
+    "vt-state",
+    "ga-state",
+    "ri-state",
+    "flagstaff-az",
+    "wa-state-western",
+    "mn-state-2008"
+  ]
+}

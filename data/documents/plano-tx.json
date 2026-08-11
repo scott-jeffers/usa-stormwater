@@ -38,18 +38,13 @@
     },
     {
       "field": "document_metadata.state_code",
-      "excerpt": "NCTCOG / TCEQ",
-      "page_or_section": "References"
+      "excerpt": "Highway Research Program • NCTCOG: North Central Texas Council of Governments • NRCS: National Resources Conservation Service • TAC: Texas Administrative Code • TCEQ: Texas Commission on Environmental Quality • TxDOT: Texas Department of Transportation • USACE: Unite",
+      "page_or_section": "p. 20"
     },
     {
       "field": "document_metadata.document_title",
       "excerpt": "Stormwater Design Manual / Storm Drainage Design Manual",
       "page_or_section": "Title / purpose"
-    },
-    {
-      "field": "document_metadata.relationship_to_state_manual",
-      "excerpt": "NCTCOG",
-      "page_or_section": "References"
     },
     {
       "field": "design_criteria.design_storm_return_periods_years",
@@ -75,12 +70,13 @@
   "extraction_quality": {
     "confidence": "medium",
     "needs_human_review": true,
-    "review_notes": "Plano storm drainage design manual; edition date not prominent in extract.",
+    "review_notes": "Plano storm drainage design manual; edition date not prominent in extract. Pipeline excerpt repair removed 1 unlocated citation(s).",
     "fields_not_found": [
       "document_metadata.version_or_edition",
       "document_metadata.adoption_or_effective_date",
       "document_metadata.last_revised_date",
-      "design_criteria.required_hydrologic_hydraulic_software"
+      "design_criteria.required_hydrologic_hydraulic_software",
+      "document_metadata.relationship_to_state_manual"
     ]
   },
   "source": {

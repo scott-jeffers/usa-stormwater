@@ -15,6 +15,12 @@ export function SiteHeader() {
         </Link>
         <nav className="flex items-center gap-4 text-sm">
           <Link
+            href="/national/"
+            className="font-medium text-slate-600 transition-colors hover:text-water-link"
+          >
+            Practice synthesis
+          </Link>
+          <Link
             href="/about/"
             className="font-medium text-slate-600 transition-colors hover:text-water-link"
           >

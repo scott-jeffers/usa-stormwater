@@ -32,11 +32,6 @@
       "page_or_section": "Title"
     },
     {
-      "field": "document_metadata.jurisdiction_level",
-      "excerpt": "Jersey City",
-      "page_or_section": "Title"
-    },
-    {
       "field": "document_metadata.state_code",
       "excerpt": "N.J.A.C. 7:8",
       "page_or_section": "Standards"
@@ -70,13 +65,14 @@
   "extraction_quality": {
     "confidence": "medium",
     "needs_human_review": true,
-    "review_notes": "Municipal SWMP adopting NJAC 7:8; numeric sizing primarily in state BMP manual / local ordinance.",
+    "review_notes": "Municipal SWMP adopting NJAC 7:8; numeric sizing primarily in state BMP manual / local ordinance. Pipeline excerpt repair removed 1 unlocated citation(s).",
     "fields_not_found": [
       "document_metadata.version_or_edition",
       "document_metadata.adoption_or_effective_date",
       "document_metadata.last_revised_date",
       "design_criteria.design_storm_return_periods_years",
-      "design_criteria.required_hydrologic_hydraulic_software"
+      "design_criteria.required_hydrologic_hydraulic_software",
+      "document_metadata.jurisdiction_level"
     ]
   },
   "source": {

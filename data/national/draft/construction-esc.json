@@ -1,0 +1,230 @@
+{
+  "section_id": "construction-esc",
+  "title": "Construction Stormwater and ESC",
+  "generated_at": "2026-08-11T03:43:21.058Z",
+  "model": "heuristic+editorial",
+  "editorial_status": "reviewed",
+  "practice_survey": "Construction erosion and sediment control is nearly universal in stormwater programs but is often published as a separate handbook or CGP companion. Atlas corpora include many ESC-tagged manuals; those should not inflate post-construction BMP counts. Sequencing, perimeter controls, and inspection after qualifying rain events are standard themes.",
+  "draft_recommendation": "Keep construction ESC distinct from permanent SCMs. Require an ESC plan consistent with the construction general permit and local grading rules. Sequence grading to limit exposed area and stabilize promptly. Provide perimeter controls, inlet protection, and concrete-washout BMPs. Inspect after qualifying rain events and before final stabilization. Do not credit temporary ESC as permanent treatment.",
+  "regional_variants": "Arid dust control and cold-weather stabilization timing differ from humid-season ESC defaults.",
+  "open_issues": "How much ESC detail belongs in a post-construction national manual versus a pointer to CGP and state ESC handbooks.",
+  "guidance_tables": [
+    {
+      "id": "esc-checklist",
+      "title": "Construction ESC expectations",
+      "caption": "Draft national guidance grounded in atlas practice — not a design manual or adopted regulation.",
+      "columns": [
+        "Topic",
+        "Suggested national guidance",
+        "Atlas note"
+      ],
+      "rows": [
+        [
+          "Separate from permanent SCMs",
+          "Keep ESC distinct; do not credit temporary controls as permanent treatment",
+          "ESC often published as CGP companion handbooks"
+        ],
+        [
+          "Plan + sequencing",
+          "Require an ESC plan, limit exposed area, and stabilize promptly",
+          "Standard CGP / grading-permit theme"
+        ],
+        [
+          "Inspection",
+          "Inspect after qualifying rain events and before final stabilization",
+          "Nearly universal in construction stormwater programs"
+        ]
+      ]
+    }
+  ],
+  "citation_registry": [
+    {
+      "key": "1",
+      "slug": "pa-state",
+      "state_code": "PA",
+      "excerpt": "ean Water Act. DEP – Pennsylvania Department of Environmental Protection. E&S – Erosion and Sediment Control.",
+      "page_or_section": "pages 715-715",
+      "confidence": "corpus_pattern",
+      "field": "corpus_chunk"
+    },
+    {
+      "key": "2",
+      "slug": "west-virginia-manual",
+      "state_code": "WV",
+      "excerpt": "tained within easements and is below all habitable structures? E&S Has adequate erosion and sediment control plan been implemented upstream of the RSC System? Maintenance Has a permanent and direct maintenance access been provided to all sandstone",
+      "page_or_section": "pages 290-290",
+      "confidence": "corpus_pattern",
+      "field": "corpus_chunk"
+    },
+    {
+      "key": "3",
+      "slug": "ri-state",
+      "state_code": "RI",
+      "excerpt": "ient detail for construction of the proposed measures. Step 7 – Ensure that the erosion and sediment control (ESC) plan utilizes ESC practices that meet the minimum design criteria from Standard 10: temporary sediment trapping practices must be si",
+      "page_or_section": "pages 18-18",
+      "confidence": "corpus_pattern",
+      "field": "corpus_chunk"
+    },
+    {
+      "key": "4",
+      "slug": "arkansas-manual",
+      "state_code": "AR",
+      "excerpt": "P3: Storm Water Pollution Prevention Plan; a living document that indicates how erosion and sediment will be controlled through the use of various BMPs TESC: Temporary Erosion and Sediment Control TMDL: Total Maximum Daily Load TSS: Total Suspende",
+      "page_or_section": "pages 8-8",
+      "confidence": "corpus_pattern",
+      "field": "corpus_chunk"
+    },
+    {
+      "key": "5",
+      "slug": "vt-state",
+      "state_code": "VT",
+      "excerpt": "plicable requirements set forth in the Vermont Standards and Specifications for Erosion Prevention and Sediment Control.  Level spreaders temporarily sized and used to manage/control construction stormwater discharges shall be modified and stabil",
+      "page_or_section": "pages 93-93",
+      "confidence": "corpus_pattern",
+      "field": "corpus_chunk"
+    },
+    {
+      "key": "6",
+      "slug": "ca-casqa-municipal",
+      "state_code": "CA",
+      "excerpt": " Construction Site Runoff Control - Developing, implementing, and enforcing an erosion and sediment control program for construction activities that disturb one or more acres of land.  Pollution Prevention / Good Housekeeping for Municipal Opera",
+      "page_or_section": "pages 19-19",
+      "confidence": "corpus_pattern",
+      "field": "corpus_chunk"
+    },
+    {
+      "key": "7",
+      "slug": "hawaii-dot-pcbmp",
+      "state_code": "HI",
+      "excerpt": "ehabilitation or replacement ☐ e.4 Installation of Post-Construction BMPs ☐ e.5 Erosion and sediment control ☐ e.6 Rockfall mitigation ☐ f. Pedestrian walkways or bicycle paths ☐ g. Bridges or roads constructed above or below existing impervious a",
+      "page_or_section": "pages 74-75",
+      "confidence": "corpus_pattern",
+      "field": "corpus_chunk"
+    },
+    {
+      "key": "8",
+      "slug": "philadelphia-pa",
+      "state_code": "PA",
+      "excerpt": "nd PWD’s construction inspection process, identify common problems with SMP and Erosion and Sediment Control (E&S) construction, and prepare a Construction Certification Package and Record Drawings Chapter 6 – Post-Construction and Operations and",
+      "page_or_section": "pages 5-5",
+      "confidence": "corpus_pattern",
+      "field": "corpus_chunk"
+    },
+    {
+      "key": "9",
+      "slug": "ca-caltrans-construction",
+      "state_code": "CA",
+      "excerpt": "repared year-round to deploy soil stabilization and sediment control practices. Erosion may be caused during dry seasons by unseasonal rainfall, wind, and vehicle tracking. Keep the site stabilized year-round, and retain and maintain sediment trap",
+      "page_or_section": "pages 26-26",
+      "confidence": "corpus_pattern",
+      "field": "corpus_chunk"
+    },
+    {
+      "key": "10",
+      "slug": "ga-state",
+      "state_code": "GA",
+      "excerpt": "l design aids may be necessary depending on a local community’s requirements. • Erosion and Sediment Control – Controlling erosion and soil loss from construction areas and resultant downstream sedimentation. For more information on Erosion and Se",
+      "page_or_section": "pages 36-36",
+      "confidence": "corpus_pattern",
+      "field": "corpus_chunk"
+    }
+  ],
+  "citations": [
+    {
+      "slug": "pa-state",
+      "chunk_id": "pa-state-c0564",
+      "page_or_section": "pages 715-715",
+      "excerpt": "ean Water Act. DEP – Pennsylvania Department of Environmental Protection. E&S – Erosion and Sediment Control."
+    },
+    {
+      "slug": "west-virginia-manual",
+      "chunk_id": "west-virginia-manual-c0220",
+      "page_or_section": "pages 290-290",
+      "excerpt": "tained within easements and is below all habitable structures? E&S Has adequate erosion and sediment control plan been implemented upstream of the RSC System? Maintenance Has a permanent and direct maintenance access been provided to all sandstone"
+    },
+    {
+      "slug": "pa-state",
+      "chunk_id": "pa-state-c0010",
+      "page_or_section": "pages 21-21",
+      "excerpt": "urce discharges under the terms and conditions of an NPDES permit. Chapter 102 (Erosion and Sediment Control) establishes E&S, PCSM, and permit requirements for earth disturbance activities in Pennsylvania. The focus of this Manual is on PCSM, whi"
+    },
+    {
+      "slug": "ri-state",
+      "chunk_id": "ri-state-c0062",
+      "page_or_section": "pages 18-18",
+      "excerpt": "ient detail for construction of the proposed measures. Step 7 – Ensure that the erosion and sediment control (ESC) plan utilizes ESC practices that meet the minimum design criteria from Standard 10: temporary sediment trapping practices must be si"
+    },
+    {
+      "slug": "arkansas-manual",
+      "chunk_id": "arkansas-manual-c0016",
+      "page_or_section": "pages 8-8",
+      "excerpt": "P3: Storm Water Pollution Prevention Plan; a living document that indicates how erosion and sediment will be controlled through the use of various BMPs TESC: Temporary Erosion and Sediment Control TMDL: Total Maximum Daily Load TSS: Total Suspende"
+    },
+    {
+      "slug": "ri-state",
+      "chunk_id": "ri-state-c0097",
+      "page_or_section": "pages 50-50",
+      "excerpt": "th, safety, and welfare. 3.2.10 Minimum Standard 10: Construction Activity Soil Erosion, Runoff, Sedimentation, and Pollution Prevention Control Measure Requirements Soil Erosion and Sedimentation Control (SESC) measures must be utilized during th"
+    },
+    {
+      "slug": "vt-state",
+      "chunk_id": "vt-state-c0074",
+      "page_or_section": "pages 93-93",
+      "excerpt": "plicable requirements set forth in the Vermont Standards and Specifications for Erosion Prevention and Sediment Control.  Level spreaders temporarily sized and used to manage/control construction stormwater discharges shall be modified and stabil"
+    },
+    {
+      "slug": "ca-casqa-municipal",
+      "chunk_id": "ca-casqa-municipal-c0020",
+      "page_or_section": "pages 19-19",
+      "excerpt": " Construction Site Runoff Control - Developing, implementing, and enforcing an erosion and sediment control program for construction activities that disturb one or more acres of land.  Pollution Prevention / Good Housekeeping for Municipal Opera"
+    },
+    {
+      "slug": "hawaii-dot-pcbmp",
+      "chunk_id": "hawaii-dot-pcbmp-c0101",
+      "page_or_section": "pages 74-75",
+      "excerpt": "ehabilitation or replacement ☐ e.4 Installation of Post-Construction BMPs ☐ e.5 Erosion and sediment control ☐ e.6 Rockfall mitigation ☐ f. Pedestrian walkways or bicycle paths ☐ g. Bridges or roads constructed above or below existing impervious a"
+    },
+    {
+      "slug": "philadelphia-pa",
+      "chunk_id": "philadelphia-pa-c0001",
+      "page_or_section": "pages 5-5",
+      "excerpt": "nd PWD’s construction inspection process, identify common problems with SMP and Erosion and Sediment Control (E&S) construction, and prepare a Construction Certification Package and Record Drawings Chapter 6 – Post-Construction and Operations and"
+    },
+    {
+      "slug": "philadelphia-pa",
+      "chunk_id": "philadelphia-pa-c0039",
+      "page_or_section": "pages 35-35",
+      "excerpt": "Release Rate. In addition, all earth disturbance activity must comply with the Erosion and Sediment Control (E&S) requirements of the Pennsylvania Department of Environmental Protection (PA DEP), as specified in 25 Pa. Code §102.4 ☛ https://www.p"
+    },
+    {
+      "slug": "ca-caltrans-construction",
+      "chunk_id": "ca-caltrans-construction-c0035",
+      "page_or_section": "pages 26-26",
+      "excerpt": "repared year-round to deploy soil stabilization and sediment control practices. Erosion may be caused during dry seasons by unseasonal rainfall, wind, and vehicle tracking. Keep the site stabilized year-round, and retain and maintain sediment trap"
+    },
+    {
+      "slug": "ga-state",
+      "chunk_id": "ga-state-c0105",
+      "page_or_section": "pages 36-36",
+      "excerpt": "l design aids may be necessary depending on a local community’s requirements. • Erosion and Sediment Control – Controlling erosion and soil loss from construction areas and resultant downstream sedimentation. For more information on Erosion and Se"
+    },
+    {
+      "slug": "ga-state",
+      "chunk_id": "ga-state-c0164",
+      "page_or_section": "pages 100-101",
+      "excerpt": "$2,183 Driveway (asphalt) $2,800/lot $7,896/lot Driveway (paver) N/A $7,896/lot Erosion and sediment control $322/lot $625/lot Plantings $500/lot $650/lot Planning and design $401/lot $808/lot Road and curb $23,494 $102,500 Rain gardens $0 $575/lo"
+    }
+  ],
+  "supporting_slugs": [
+    "pa-state",
+    "west-virginia-manual",
+    "ri-state",
+    "arkansas-manual",
+    "vt-state",
+    "ca-casqa-municipal",
+    "hawaii-dot-pcbmp",
+    "philadelphia-pa",
+    "ca-caltrans-construction",
+    "ga-state"
+  ]
+}

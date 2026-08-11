@@ -10,7 +10,10 @@
     "relationship_to_state_manual": "independent"
   },
   "design_criteria": {
-    "design_storm_return_periods_years": [1, 2],
+    "design_storm_return_periods_years": [
+      1,
+      2
+    ],
     "water_quality_volume_method": "Combined sewer (Case 1, ≤50% existing impervious): maintain runoff rate and volume at or below pre-development for the 1- and 2-year, 24-hour storms. Combined sewer (Case 2, >50% impervious): reduce runoff rate and volume by 25% relative to pre-development for the 2-year, 24-hour storm (Modified Compliance may trade volume vs peak reductions). Separate sewer Large Projects (≥5,000 sf): SFPUC jurisdiction manage the 90th percentile 24-hour storm; Port jurisdiction manage the 85th percentile 24-hour storm. Separate sewer Small Projects (2,500–5,000 sf): implement at least one Site Design Measure and report runoff reduction via State Water Board SMARTS calculator.",
     "peak_flow_calculation_method": [
       "SFPUC electronic BMP Sizing Calculators (sites ≤5 acres or sub-watersheds ≤2 acres)",
@@ -60,19 +63,14 @@
       "page_or_section": "Title pages"
     },
     {
-      "field": "document_metadata.version_or_edition",
-      "excerpt": "May 2016 Version - Updates and errata will be published as necessary",
-      "page_or_section": "Title page"
-    },
-    {
       "field": "document_metadata.adoption_or_effective_date",
       "excerpt": "The 2016 SMR performance requirements apply to projects with Preliminary SCPs submitted on or after May 27, 2016.",
       "page_or_section": "Chapter 5 / Applicability Dates"
     },
     {
       "field": "document_metadata.last_revised_date",
-      "excerpt": "May 2016 Version",
-      "page_or_section": "Title page"
+      "excerpt": "of impervious surface. ʶ The 2016 version includes an option for eligible projects to comply with Modified Compliance requirements. This option was not available in the 2010 SMR. 6 Separate Sewer Area Performance Requirements Describes performance requirements specific to p",
+      "page_or_section": "p. 17"
     },
     {
       "field": "document_metadata.relationship_to_state_manual",
@@ -132,9 +130,11 @@
   ],
   "extraction_quality": {
     "confidence": "high",
-    "needs_human_review": false,
-    "review_notes": "SFPUC/Port May 2016 SMR. Design storms emphasized for combined-sewer quantity control are 1- and 2-year 24-hour; separate-sewer Large Projects use 85th/90th percentile 24-hour storms rather than return-period WQv. Numeric percentile depths live in the BMP sizing calculators, not tabulated as inches in the main narrative.",
-    "fields_not_found": []
+    "needs_human_review": true,
+    "review_notes": "SFPUC/Port May 2016 SMR. Design storms emphasized for combined-sewer quantity control are 1- and 2-year 24-hour; separate-sewer Large Projects use 85th/90th percentile 24-hour storms rather than return-period WQv. Numeric percentile depths live in the BMP sizing calculators, not tabulated as inches in the main narrative. Pipeline excerpt repair removed 1 unlocated citation(s).",
+    "fields_not_found": [
+      "document_metadata.version_or_edition"
+    ]
   },
   "source": {
     "document_url": "https://www.sfpuc.gov/sites/default/files/documents/SMR_DesignGuide_May2016.pdf",

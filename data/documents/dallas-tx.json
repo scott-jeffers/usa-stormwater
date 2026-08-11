@@ -10,7 +10,11 @@
     "relationship_to_state_manual": "independent"
   },
   "design_criteria": {
-    "design_storm_return_periods_years": [1, 25, 100],
+    "design_storm_return_periods_years": [
+      1,
+      25,
+      100
+    ],
     "water_quality_volume_method": "Water Quality Protection Volume (WQv) based on 1.5 inches of rainfall (85th percentile storm), not a return-period storm. Option 2: treat WQv by reducing TSS from the development site for runoff from rainfalls up to 1.5 inches. Primary structural controls sized for WQv are expected to remove about 70–80% of annual average TSS load when designed per specifications. Methods to compute WQv referenced to Water Quality Technical Manual Section 1.2.",
     "peak_flow_calculation_method": [
       "Rational Method",
@@ -111,8 +115,8 @@
     },
     {
       "field": "design_criteria.approved_bmp_categories",
-      "excerpt": "Bioretention; Enhanced swales (dry, wet, wetland); Alum treatment; Detention; Filter strips; Sand filters, filter boxes, etc; Infiltration wells and trenches; Ponds; Porous surfaces; Proprietary systems; Green roofs; Rainwater harvesting; Wetlands; Submerged gravel wetlands",
-      "page_or_section": "Recommended Stormwater Control Practices"
+      "excerpt": "secondary controls. • Bioretention • Enhanced swales (dry, wet, wetland) • Alum treatment • Detention • Filter strips • Sand filters, filter boxes, etc • Infiltration wells and trenches • Ponds • Porous surfaces • Proprietary systems • Green roofs • Rainwater harvesting • Wetl",
+      "page_or_section": "p. 29"
     }
   ],
   "extraction_quality": {

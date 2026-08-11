@@ -48,11 +48,6 @@
       "page_or_section": "Title"
     },
     {
-      "field": "document_metadata.version_or_edition",
-      "excerpt": "2nd edition",
-      "page_or_section": "Preface"
-    },
-    {
       "field": "document_metadata.adoption_or_effective_date",
       "excerpt": "LID requirements that went into effect on February 19, 2013",
       "page_or_section": "Preface"
@@ -85,11 +80,12 @@
   ],
   "extraction_quality": {
     "confidence": "high",
-    "needs_human_review": false,
-    "review_notes": "Long Beach LID BMP Design Manual 2nd ed.; primary post-construction WQ/LID criteria.",
+    "needs_human_review": true,
+    "review_notes": "Long Beach LID BMP Design Manual 2nd ed.; primary post-construction WQ/LID criteria. Pipeline excerpt repair removed 1 unlocated citation(s).",
     "fields_not_found": [
       "design_criteria.design_storm_return_periods_years",
-      "design_criteria.required_hydrologic_hydraulic_software"
+      "design_criteria.required_hydrologic_hydraulic_software",
+      "document_metadata.version_or_edition"
     ]
   },
   "source": {

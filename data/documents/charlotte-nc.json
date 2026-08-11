@@ -10,7 +10,13 @@
     "relationship_to_state_manual": "independent"
   },
   "design_criteria": {
-    "design_storm_return_periods_years": [2, 10, 25, 50, 100],
+    "design_storm_return_periods_years": [
+      2,
+      10,
+      25,
+      50,
+      100
+    ],
     "water_quality_volume_method": null,
     "peak_flow_calculation_method": [
       "Rational Method (with frequency factor Cf, custom runoff coefficients, and custom rainfall intensities)",
@@ -50,11 +56,6 @@
     {
       "field": "document_metadata.document_title",
       "excerpt": "Charlotte-Mecklenburg Stormwater Design Manual",
-      "page_or_section": "Title Page"
-    },
-    {
-      "field": "document_metadata.version_or_edition",
-      "excerpt": "April 2026",
       "page_or_section": "Title Page"
     },
     {
@@ -121,9 +122,10 @@
   "extraction_quality": {
     "confidence": "medium",
     "needs_human_review": true,
-    "review_notes": "April 2026 public-comment draft (Certification of Adoption not yet published). Manual covers conveyance design (hydrology, channels, pipes, culverts, energy dissipators); post-construction water quality volume / SCM sizing is deferred to separate Post Construction Stormwater Ordinances/Regulations referenced in §1.7—not specified in this text. Software listed is City verification tooling; designers may use any method-based tools.",
+    "review_notes": "April 2026 public-comment draft (Certification of Adoption not yet published). Manual covers conveyance design (hydrology, channels, pipes, culverts, energy dissipators); post-construction water quality volume / SCM sizing is deferred to separate Post Construction Stormwater Ordinances/Regulations referenced in §1.7—not specified in this text. Software listed is City verification tooling; designers may use any method-based tools. Pipeline excerpt repair removed 1 unlocated citation(s).",
     "fields_not_found": [
-      "design_criteria.water_quality_volume_method"
+      "design_criteria.water_quality_volume_method",
+      "document_metadata.version_or_edition"
     ]
   },
   "source": {

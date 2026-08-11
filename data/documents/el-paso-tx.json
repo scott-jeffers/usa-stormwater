@@ -43,24 +43,9 @@
       "page_or_section": "Title"
     },
     {
-      "field": "document_metadata.state_code",
-      "excerpt": "Texas",
-      "page_or_section": "Title"
-    },
-    {
       "field": "document_metadata.document_title",
       "excerpt": "Stormwater Design Manual",
       "page_or_section": "Title"
-    },
-    {
-      "field": "document_metadata.version_or_edition",
-      "excerpt": "2022",
-      "page_or_section": "Cover"
-    },
-    {
-      "field": "document_metadata.last_revised_date",
-      "excerpt": "2022",
-      "page_or_section": "Cover"
     },
     {
       "field": "document_metadata.relationship_to_state_manual",
@@ -69,8 +54,8 @@
     },
     {
       "field": "design_criteria.design_storm_return_periods_years",
-      "excerpt": "100-year / 50-year",
-      "page_or_section": "Design criteria"
+      "excerpt": "(on roadways of four lanes or more) 100-year Within curb height (maximum curb h=1½” below top of curb and 50 cfs max) Streets (Local Streets) 50-year One lane high and dry 100-year Within curb height (maximum curb h= 1½” below top of curb and 50 cfs max) Storm Drain System 10",
+      "page_or_section": "p. 12"
     },
     {
       "field": "design_criteria.water_quality_volume_method",
@@ -83,11 +68,6 @@
       "page_or_section": "Hydrology"
     },
     {
-      "field": "design_criteria.required_hydrologic_hydraulic_software",
-      "excerpt": "HEC-HMS",
-      "page_or_section": "Hydrology"
-    },
-    {
       "field": "design_criteria.approved_bmp_categories",
       "excerpt": "Bioretention",
       "page_or_section": "Section 14"
@@ -96,9 +76,13 @@
   "extraction_quality": {
     "confidence": "medium",
     "needs_human_review": true,
-    "review_notes": "El Paso SWDM 2022; Atlas 14 + Rational/HEC-HMS. Confirm exact street vs major conveyance return periods from tables.",
+    "review_notes": "El Paso SWDM 2022; Atlas 14 + Rational/HEC-HMS. Confirm exact street vs major conveyance return periods from tables. Pipeline excerpt repair removed 4 unlocated citation(s).",
     "fields_not_found": [
-      "document_metadata.adoption_or_effective_date"
+      "document_metadata.adoption_or_effective_date",
+      "document_metadata.state_code",
+      "document_metadata.version_or_edition",
+      "document_metadata.last_revised_date",
+      "design_criteria.required_hydrologic_hydraulic_software"
     ]
   },
   "source": {

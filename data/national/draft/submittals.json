@@ -1,0 +1,225 @@
+{
+  "section_id": "submittals",
+  "title": "Plan Submittal, Review, and Variances",
+  "generated_at": "2026-08-11T03:43:21.060Z",
+  "model": "heuristic+editorial",
+  "editorial_status": "reviewed",
+  "practice_survey": "Plan-review packages typically include a drainage report, plans and details, calculation sheets or model files, an O&M plan, and as-built or certification materials. Local agencies add checklists; digital submittal expectations are increasing but inconsistent.",
+  "draft_recommendation": "Require a reproducible, reviewable package: drainage report covering hydrology, WQv, SCM selection and sizing, and downstream impacts; plans showing drainage areas, SCM details, and access; model input and output files; O&M plan; and as-built or certification materials. Provide a national checklist baseline and allow local agencies to add items.",
+  "regional_variants": null,
+  "open_issues": "National checklist length versus deferral to local plan-review manuals. Digital submittal and model-file retention requirements.",
+  "guidance_tables": [
+    {
+      "id": "submittal-checklist",
+      "title": "Plan-review package checklist",
+      "caption": "Draft national guidance grounded in atlas practice — not a design manual or adopted regulation.",
+      "columns": [
+        "Deliverable",
+        "Suggested national guidance",
+        "Atlas note"
+      ],
+      "rows": [
+        [
+          "Drainage report",
+          "Cover hydrology, WQv, SCM selection/sizing, and downstream impacts",
+          "Nearly universal plan-review expectation"
+        ],
+        [
+          "Plans & details",
+          "Show drainage areas, SCM details, and maintenance access",
+          "Standard construction-document set"
+        ],
+        [
+          "Model files",
+          "Include native input/output files and version disclosure",
+          "Increasingly required for digital review"
+        ],
+        [
+          "O&M + as-builts",
+          "Include O&M plan and as-built/certification materials",
+          "Often tied to occupancy or bond release"
+        ]
+      ]
+    }
+  ],
+  "citation_registry": [
+    {
+      "key": "1",
+      "slug": "ga-state",
+      "state_code": "GA",
+      "excerpt": "This stage includes several items that should be identified in the Final Design Submittal Complete- ness Checklist (plan review application and fees, project narrative, stormwater management and erosion and sediment control construction draw- ings,",
+      "page_or_section": "pages 143-143",
+      "confidence": "corpus_pattern",
+      "field": "corpus_chunk"
+    },
+    {
+      "key": "2",
+      "slug": "chicago-il",
+      "state_code": "IL",
+      "excerpt": "Chicago Stormwater Ordinance Manual Appendix A A-1 Appendix A: Submittal Checklists The applicant should review this plan review checklist used by DOB. PLAN REVIEW CHECK LIST STORM SEWER AND SANITARY SEWER REQUIREMENTS: Ch II, 3.2.1",
+      "page_or_section": "pages 61-61",
+      "confidence": "corpus_pattern",
+      "field": "corpus_chunk"
+    },
+    {
+      "key": "3",
+      "slug": "ak-state",
+      "state_code": "AK",
+      "excerpt": "rdination with other local or state environmental permits) • Determine standard submittal requirements and develop plan review, construction and maintenance checklists to streamline project review • Determine the model for maintenance responsibility",
+      "page_or_section": "pages 103-104",
+      "confidence": "corpus_pattern",
+      "field": "corpus_chunk"
+    },
+    {
+      "key": "4",
+      "slug": "west-virginia-manual",
+      "state_code": "WV",
+      "excerpt": "val process when changes to an approved plan are desired. (3) A requirement for submittal of “as-built” certifications within 90 days of completion of a project. (4) A post-construction verification process to ensure that stormwater standards are be",
+      "page_or_section": "pages 35-36",
+      "confidence": "corpus_pattern",
+      "field": "corpus_chunk"
+    },
+    {
+      "key": "5",
+      "slug": "billings-mt",
+      "state_code": "MT",
+      "excerpt": "Post-Construction Stormwater Management Plan Review Checklist Template Page 1 DATE RECEIVED CITY OF [NAME] [NAME OF DEPARTMENT, IF APPLICABLE] POST-CONSTRUCTION STORMWATER MANAGEMENT PLAN REVIEW CHECKLIST NAME O",
+      "page_or_section": "pages 177-178",
+      "confidence": "corpus_pattern",
+      "field": "corpus_chunk"
+    },
+    {
+      "key": "6",
+      "slug": "raleigh-nc",
+      "state_code": "NC",
+      "excerpt": "tormwater conveyance systems also require inspection and as-built certification submittal to and acceptance by the Stormwater Division in the City of Raleigh’s Engineering Services Department (Raleigh Stormwater) prior to final inspection approval a",
+      "page_or_section": "pages 7-7",
+      "confidence": "corpus_pattern",
+      "field": "corpus_chunk"
+    },
+    {
+      "key": "7",
+      "slug": "missouri-manual",
+      "state_code": "MO",
+      "excerpt": "rmwater control measures were retained for further consideration. Conduct a pre-submittal meeting with local• regulatory and plan review personnel to discuss green infrastructure and any atypical design elements. Prepare and submit site plans for ap",
+      "page_or_section": "pages 58-58",
+      "confidence": "corpus_pattern",
+      "field": "corpus_chunk"
+    },
+    {
+      "key": "8",
+      "slug": "bellevue-wa",
+      "state_code": "WA",
+      "excerpt": "text font shall be “Simplex”. • All drawing units shall be English. D2-07.1(b) Submittals The AutoCAD files shall include all plans, profiles, notes, and details of the surface water improvements. All as-built sheets must be submitted both electron",
+      "page_or_section": "pages 55-55",
+      "confidence": "corpus_pattern",
+      "field": "corpus_chunk"
+    },
+    {
+      "key": "9",
+      "slug": "tn-state",
+      "state_code": "TN",
+      "excerpt": "_______________________________________ File Number: __________________ Date of Submittal: ____ Reviewer: ________________________ Review Date: ____ Project Meeting Chronology: _________________________ Type of Meeting: _________________________ Dat",
+      "page_or_section": "pages 363-365",
+      "confidence": "corpus_pattern",
+      "field": "corpus_chunk"
+    }
+  ],
+  "citations": [
+    {
+      "slug": "ga-state",
+      "chunk_id": "ga-state-c0203",
+      "page_or_section": "pages 143-143",
+      "excerpt": "This stage includes several items that should be identified in the Final Design Submittal Complete- ness Checklist (plan review application and fees, project narrative, stormwater management and erosion and sediment control construction draw- ings,"
+    },
+    {
+      "slug": "chicago-il",
+      "chunk_id": "chicago-il-c0080",
+      "page_or_section": "pages 61-61",
+      "excerpt": "Chicago Stormwater Ordinance Manual Appendix A A-1 Appendix A: Submittal Checklists The applicant should review this plan review checklist used by DOB. PLAN REVIEW CHECK LIST STORM SEWER AND SANITARY SEWER REQUIREMENTS: Ch II, 3.2.1"
+    },
+    {
+      "slug": "ak-state",
+      "chunk_id": "ak-state-c0121",
+      "page_or_section": "pages 103-104",
+      "excerpt": "rdination with other local or state environmental permits) • Determine standard submittal requirements and develop plan review, construction and maintenance checklists to streamline project review • Determine the model for maintenance responsibility"
+    },
+    {
+      "slug": "west-virginia-manual",
+      "chunk_id": "west-virginia-manual-c0028",
+      "page_or_section": "pages 35-36",
+      "excerpt": "val process when changes to an approved plan are desired. (3) A requirement for submittal of “as-built” certifications within 90 days of completion of a project. (4) A post-construction verification process to ensure that stormwater standards are be"
+    },
+    {
+      "slug": "west-virginia-manual",
+      "chunk_id": "west-virginia-manual-c0037",
+      "page_or_section": "pages 47-48",
+      "excerpt": "ion. Ellicott City, MD. Claytor, R.A. Presentation. 2006.Tips for Plan Review & Submittal. Massachusetts Association of Conservation Commissions Fall Conference. Pittsfield, MA. Hirschman, D. and Kosco, J. 2008. Managing Stormwater in Your Community"
+    },
+    {
+      "slug": "billings-mt",
+      "chunk_id": "billings-mt-c0133",
+      "page_or_section": "pages 177-178",
+      "excerpt": "Post-Construction Stormwater Management Plan Review Checklist Template Page 1 DATE RECEIVED CITY OF [NAME] [NAME OF DEPARTMENT, IF APPLICABLE] POST-CONSTRUCTION STORMWATER MANAGEMENT PLAN REVIEW CHECKLIST NAME O"
+    },
+    {
+      "slug": "billings-mt",
+      "chunk_id": "billings-mt-c0134",
+      "page_or_section": "pages 179-180",
+      "excerpt": "Post-Construction Stormwater Management Plan Review Checklist Template Page 3 Project Name: Applicant: Calculations and Design Documentation (Continued) Complete Incomplete N/A e. Existing and post-development p"
+    },
+    {
+      "slug": "raleigh-nc",
+      "chunk_id": "raleigh-nc-c0023",
+      "page_or_section": "pages 7-7",
+      "excerpt": "tormwater conveyance systems also require inspection and as-built certification submittal to and acceptance by the Stormwater Division in the City of Raleigh’s Engineering Services Department (Raleigh Stormwater) prior to final inspection approval a"
+    },
+    {
+      "slug": "missouri-manual",
+      "chunk_id": "missouri-manual-c0080",
+      "page_or_section": "pages 58-58",
+      "excerpt": "rmwater control measures were retained for further consideration. Conduct a pre-submittal meeting with local• regulatory and plan review personnel to discuss green infrastructure and any atypical design elements. Prepare and submit site plans for ap"
+    },
+    {
+      "slug": "ga-state",
+      "chunk_id": "ga-state-c0215",
+      "page_or_section": "pages 156-156",
+      "excerpt": "ce provisions are considered a requirement and not simply a ‘good idea’. • Plan Submittal Requirements, Review, and Approval Procedures: Include requirements for access easements, maintenance agreements and plans, etc., tailored for specific BMPs. T"
+    },
+    {
+      "slug": "bellevue-wa",
+      "chunk_id": "bellevue-wa-c0118",
+      "page_or_section": "pages 55-55",
+      "excerpt": "text font shall be “Simplex”. • All drawing units shall be English. D2-07.1(b) Submittals The AutoCAD files shall include all plans, profiles, notes, and details of the surface water improvements. All as-built sheets must be submitted both electron"
+    },
+    {
+      "slug": "tn-state",
+      "chunk_id": "tn-state-c0327",
+      "page_or_section": "pages 363-365",
+      "excerpt": "_______________________________________ File Number: __________________ Date of Submittal: ____ Reviewer: ________________________ Review Date: ____ Project Meeting Chronology: _________________________ Type of Meeting: _________________________ Dat"
+    },
+    {
+      "slug": "bellevue-wa",
+      "chunk_id": "bellevue-wa-c0103",
+      "page_or_section": "pages 39-39",
+      "excerpt": "FACE WATER ENGINEERING STANDARDS JANUARY 2023 D2-1 CHAPTER D2 – PLAN AND REPORT SUBMITTAL D2-01 GENERAL Following these standards to design the stormwater system will help ensure a timely review of the proposed project and keep review costs to a min"
+    },
+    {
+      "slug": "raleigh-nc",
+      "chunk_id": "raleigh-nc-c0100",
+      "page_or_section": "pages 57-57",
+      "excerpt": "y be required, such as buffer or land disturbance permitting.) 4.7.2 Permitting Submittal 4.7.2.1 Calculations Calculations, as described in multiple sections of this Chapter, must be submitted for new stormwater conveyance pipes (including replacem"
+    }
+  ],
+  "supporting_slugs": [
+    "ga-state",
+    "chicago-il",
+    "ak-state",
+    "west-virginia-manual",
+    "billings-mt",
+    "raleigh-nc",
+    "missouri-manual",
+    "bellevue-wa",
+    "tn-state"
+  ]
+}

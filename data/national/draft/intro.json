@@ -1,0 +1,221 @@
+{
+  "section_id": "intro",
+  "title": "Purpose, Scope, and How to Use This Synthesis",
+  "generated_at": "2026-08-11T03:43:21.044Z",
+  "model": "heuristic+editorial",
+  "editorial_status": "reviewed",
+  "practice_survey": "U.S. stormwater design manuals almost always open by stating purpose, audience, and how the manual relates to permits and local codes. Across this atlas (~299 manuals; ~76 Tier A anchors), roughly half of corpora carry general “purpose/scope” framing in their structure tags. This practice synthesis follows that pattern: it summarizes common practice for research and committee use, while making clear that state and local criteria control when they are more stringent.",
+  "draft_recommendation": "Use this synthesis as a survey of common U.S. post-construction practice, not as a design manual or regulation. Name the design purpose (water quality, channel protection, or flood control) before selecting criteria. Treat practice notes and guidance tables as evidence-backed starting points, and always cite the controlling state, regional, or MS4 manual for project decisions.",
+  "regional_variants": null,
+  "open_issues": "Confirm public-facing disclaimer language. Decide whether a short navigation flowchart belongs here or under submittals.",
+  "citation_registry": [
+    {
+      "key": "1",
+      "slug": "hawaii-dot-pcbmp",
+      "state_code": "HI",
+      "excerpt": "s of this manual to the maximum extent practicable (MEP). 1.3 APPLICABILITY The purpose of this manual is to provide procedures and guidelines to ensure that post- construction BMPs are considered and implemented, as applicable, throughout all phases of DOT-HWYS",
+      "page_or_section": "pages 20-20",
+      "confidence": "corpus_pattern",
+      "field": "corpus_chunk"
+    },
+    {
+      "key": "2",
+      "slug": "ri-state",
+      "state_code": "RI",
+      "excerpt": "general organization of the manual. The final section in this chapter explains how to use the manual. Chapter 2: Why Stormwater Matters - The Impacts of Development Chapter Two describes stormwater runoff and its impact on watershed hydrology, water",
+      "page_or_section": "pages 11-11",
+      "confidence": "corpus_pattern",
+      "field": "corpus_chunk"
+    },
+    {
+      "key": "3",
+      "slug": "west-virginia-manual",
+      "state_code": "WV",
+      "excerpt": "oN 1.2 West VIrgInIa storMWater ManageMent & desIgn guIdance Manual The primary purpose of this Manual is as a design resource to accompany the MS4 General Permit for stormwater discharges (Permit No. WV0116025). The MS4 General Permit specifies elements of a st",
+      "page_or_section": "pages 10-10",
+      "confidence": "corpus_pattern",
+      "field": "corpus_chunk"
+    },
+    {
+      "key": "4",
+      "slug": "mn-state-2008",
+      "state_code": "MN",
+      "excerpt": "120 Minnesota storMwater Manual Applicability: Waters of the U.S. Stormwater Relationship: Discharge of dredged or fill material into waters of the U.S. Rivers and Harbors Act, Section 10 Permit Program3.",
+      "page_or_section": "pages 120-120",
+      "confidence": "corpus_pattern",
+      "field": "corpus_chunk"
+    },
+    {
+      "key": "5",
+      "slug": "tn-state",
+      "state_code": "TN",
+      "excerpt": "ion 1.1 provides an overview of the permanent stormwa Section 1.2 addresses the purpose of this manual and its inte Section 1.3 outlines the permanent stormwater manageme Separate Storm Sewer System (MS4) permits and the section guidance on meeting these require",
+      "page_or_section": "pages 8-8",
+      "confidence": "corpus_pattern",
+      "field": "corpus_chunk"
+    },
+    {
+      "key": "6",
+      "slug": "pa-state",
+      "state_code": "PA",
+      "excerpt": ", peak rate management, and WQM functions. These stormwater functions and their applicability to this SCM are shown below. Function Mechanism Volume Management • Provides sustained ET. Groundwater Recharge • Not a considered a recharge SCM. Geomorpholog",
+      "page_or_section": "pages 282-282",
+      "confidence": "corpus_pattern",
+      "field": "corpus_chunk"
+    },
+    {
+      "key": "7",
+      "slug": "vt-state",
+      "state_code": "VT",
+      "excerpt": "groundwater recharge, overbank flood protection, and extreme flood control. The purpose of this manual is threefold:  To protect the waters of the State of Vermont from the adverse impacts of stormwater runoff.  To provide design guidance on the most effective",
+      "page_or_section": "pages 8-8",
+      "confidence": "corpus_pattern",
+      "field": "corpus_chunk"
+    },
+    {
+      "key": "8",
+      "slug": "ny-state",
+      "state_code": "NY",
+      "excerpt": "Chapter 1: Introduction to the Manual Section 1.1 Purpose of the Manual The purpose of this manual is threefold: 1. To protect the waters of the State of New York from the adverse impacts of urban stormwater runoff 2. To provide design standards on the most",
+      "page_or_section": "pages 11-11",
+      "confidence": "corpus_pattern",
+      "field": "corpus_chunk"
+    },
+    {
+      "key": "9",
+      "slug": "ct-state",
+      "state_code": "CT",
+      "excerpt": "reatment capacity. Table 13- 2 and Table 13- 3 provide a general summary of the applicability of different types of Pretreatments BMPs and can assist in selecting an appropriate pretreatment practice. Multiple pretreatment BMPs may be used, as necessary",
+      "page_or_section": "pages 235-236",
+      "confidence": "corpus_pattern",
+      "field": "corpus_chunk"
+    },
+    {
+      "key": "10",
+      "slug": "boise-id",
+      "state_code": "ID",
+      "excerpt": "specific site conditions. Section 1 describes the regulatory and jurisdictional scope for these design requirements. Section 2 presents the general requirements that apply to all sites that require a City drainage permit. Section 3 contains the",
+      "page_or_section": "pages 9-10",
+      "confidence": "corpus_pattern",
+      "field": "corpus_chunk"
+    },
+    {
+      "key": "11",
+      "slug": "ny-bluebook",
+      "state_code": "NY",
+      "excerpt": "SECTION 1—INTRODUCTION Purpose & Scope The purpose of this document is to provide minimum standards and specifications for meeting criteria set forth by the New York State Department of Environmenta",
+      "page_or_section": "pages 13-13",
+      "confidence": "corpus_pattern",
+      "field": "corpus_chunk"
+    },
+    {
+      "key": "12",
+      "slug": "flagstaff-az",
+      "state_code": "AZ",
+      "excerpt": "eer with guidance to the methods and procedures, their data requirements, their applicability, and their limitations. These methods and procedures can be applied using commonly available computer programs. The City Stormwater Section Director has the di",
+      "page_or_section": "pages 36-36",
+      "confidence": "corpus_pattern",
+      "field": "corpus_chunk"
+    }
+  ],
+  "citations": [
+    {
+      "slug": "hawaii-dot-pcbmp",
+      "chunk_id": "hawaii-dot-pcbmp-c0020",
+      "page_or_section": "pages 20-20",
+      "excerpt": "s of this manual to the maximum extent practicable (MEP). 1.3 APPLICABILITY The purpose of this manual is to provide procedures and guidelines to ensure that post- construction BMPs are considered and implemented, as applicable, throughout all phases of DOT-HWYS"
+    },
+    {
+      "slug": "ri-state",
+      "chunk_id": "ri-state-c0040",
+      "page_or_section": "pages 11-11",
+      "excerpt": "general organization of the manual. The final section in this chapter explains how to use the manual. Chapter 2: Why Stormwater Matters - The Impacts of Development Chapter Two describes stormwater runoff and its impact on watershed hydrology, water"
+    },
+    {
+      "slug": "west-virginia-manual",
+      "chunk_id": "west-virginia-manual-c0007",
+      "page_or_section": "pages 10-10",
+      "excerpt": "oN 1.2 West VIrgInIa storMWater ManageMent & desIgn guIdance Manual The primary purpose of this Manual is as a design resource to accompany the MS4 General Permit for stormwater discharges (Permit No. WV0116025). The MS4 General Permit specifies elements of a st"
+    },
+    {
+      "slug": "mn-state-2008",
+      "chunk_id": "mn-state-2008-c0094",
+      "page_or_section": "pages 120-120",
+      "excerpt": "120 Minnesota storMwater Manual Applicability: Waters of the U.S. Stormwater Relationship: Discharge of dredged or fill material into waters of the U.S. Rivers and Harbors Act, Section 10 Permit Program3."
+    },
+    {
+      "slug": "tn-state",
+      "chunk_id": "tn-state-c0001",
+      "page_or_section": "pages 8-8",
+      "excerpt": "ion 1.1 provides an overview of the permanent stormwa Section 1.2 addresses the purpose of this manual and its inte Section 1.3 outlines the permanent stormwater manageme Separate Storm Sewer System (MS4) permits and the section guidance on meeting these require"
+    },
+    {
+      "slug": "pa-state",
+      "chunk_id": "pa-state-c0226",
+      "page_or_section": "pages 282-282",
+      "excerpt": ", peak rate management, and WQM functions. These stormwater functions and their applicability to this SCM are shown below. Function Mechanism Volume Management • Provides sustained ET. Groundwater Recharge • Not a considered a recharge SCM. Geomorpholog"
+    },
+    {
+      "slug": "vt-state",
+      "chunk_id": "vt-state-c0001",
+      "page_or_section": "pages 8-8",
+      "excerpt": "groundwater recharge, overbank flood protection, and extreme flood control. The purpose of this manual is threefold:  To protect the waters of the State of Vermont from the adverse impacts of stormwater runoff.  To provide design guidance on the most effective"
+    },
+    {
+      "slug": "ny-state",
+      "chunk_id": "ny-state-c0001",
+      "page_or_section": "pages 11-11",
+      "excerpt": "Chapter 1: Introduction to the Manual Section 1.1 Purpose of the Manual The purpose of this manual is threefold: 1. To protect the waters of the State of New York from the adverse impacts of urban stormwater runoff 2. To provide design standards on the most"
+    },
+    {
+      "slug": "pa-state",
+      "chunk_id": "pa-state-c0144",
+      "page_or_section": "pages 176-176",
+      "excerpt": "gnored when analyzing rate control as it reduces the detention requirement. The applicability of the stormwater analysis methodologies to the Vegetated Conveyance SCM for volume management credit is presented in Table 3-30 below. Table 3-30: Applicabili"
+    },
+    {
+      "slug": "ct-state",
+      "chunk_id": "ct-state-c0225",
+      "page_or_section": "pages 235-236",
+      "excerpt": "reatment capacity. Table 13- 2 and Table 13- 3 provide a general summary of the applicability of different types of Pretreatments BMPs and can assist in selecting an appropriate pretreatment practice. Multiple pretreatment BMPs may be used, as necessary"
+    },
+    {
+      "slug": "boise-id",
+      "chunk_id": "boise-id-c0050",
+      "page_or_section": "pages 9-10",
+      "excerpt": "specific site conditions. Section 1 describes the regulatory and jurisdictional scope for these design requirements. Section 2 presents the general requirements that apply to all sites that require a City drainage permit. Section 3 contains the"
+    },
+    {
+      "slug": "ny-bluebook",
+      "chunk_id": "ny-bluebook-c0023",
+      "page_or_section": "pages 13-13",
+      "excerpt": "SECTION 1—INTRODUCTION Purpose & Scope The purpose of this document is to provide minimum standards and specifications for meeting criteria set forth by the New York State Department of Environmenta"
+    },
+    {
+      "slug": "flagstaff-az",
+      "chunk_id": "flagstaff-az-c0047",
+      "page_or_section": "pages 36-36",
+      "excerpt": "eer with guidance to the methods and procedures, their data requirements, their applicability, and their limitations. These methods and procedures can be applied using commonly available computer programs. The City Stormwater Section Director has the di"
+    },
+    {
+      "slug": "hawaii-dot-pcbmp",
+      "chunk_id": "hawaii-dot-pcbmp-c0022",
+      "page_or_section": "pages 21-21",
+      "excerpt": "to ensure that the latest revisions to this manual are being incorporated. 1.4 HOW TO USE THIS MANUAL This manual consists of the following sections: Section 1: ENVIRONMENTAL BACKGROUND AND INTRODUCTION. A general overview of the storm water regulat"
+    }
+  ],
+  "supporting_slugs": [
+    "hawaii-dot-pcbmp",
+    "ri-state",
+    "west-virginia-manual",
+    "mn-state-2008",
+    "tn-state",
+    "pa-state",
+    "vt-state",
+    "ny-state",
+    "ct-state",
+    "boise-id",
+    "ny-bluebook",
+    "flagstaff-az"
+  ]
+}

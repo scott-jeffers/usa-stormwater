@@ -1,0 +1,260 @@
+{
+  "section_id": "om",
+  "title": "Inspection, Operations, and Maintenance",
+  "generated_at": "2026-08-11T03:43:21.059Z",
+  "model": "heuristic+editorial",
+  "editorial_status": "reviewed",
+  "practice_survey": "Operation and maintenance requirements commonly appear as design deliverables: named responsible parties, inspection frequencies, and access provisions. Green infrastructure manuals emphasize vegetation, sediment removal, and underdrain maintenance. Bond release or occupancy is sometimes tied to as-built acceptance.",
+  "draft_recommendation": "Require an O&M plan naming the responsible party, inspection frequency, and performance indicators. Design for access (easements, ramps, cleanouts). Document vegetation, sediment removal, and underdrain maintenance for GI practices. Tie certificates of occupancy or bond release to as-built acceptance where local codes allow.",
+  "regional_variants": null,
+  "open_issues": "Minimum inspection frequencies by SCM type. Whether national language should address long-term funding mechanisms.",
+  "guidance_tables": [
+    {
+      "id": "om-checklist",
+      "title": "O&M design deliverables",
+      "caption": "Draft national guidance grounded in atlas practice — not a design manual or adopted regulation.",
+      "columns": [
+        "Topic",
+        "Suggested national guidance",
+        "Atlas note"
+      ],
+      "rows": [
+        [
+          "Responsible party",
+          "Name the long-term owner/operator and inspection frequency in an O&M plan",
+          "Common design-deliverable requirement"
+        ],
+        [
+          "Access",
+          "Design easements, ramps, and cleanouts for inspection and maintenance",
+          "Emphasized in GI manuals"
+        ],
+        [
+          "Acceptance",
+          "Tie occupancy or bond release to as-built acceptance where local codes allow",
+          "Varies by agency"
+        ]
+      ]
+    }
+  ],
+  "citation_registry": [
+    {
+      "key": "1",
+      "slug": "ct-state",
+      "state_code": "CT",
+      "excerpt": "nd sediment using a vacuum truck or other catch basin cleaning equipment.  The Operation and Maintenance (O&M) Plan should indicate the maximum allowable level of oil, sediment, and debris accumulation. These levels should be monitored during inspections to ensure",
+      "page_or_section": "pages 222-222",
+      "confidence": "corpus_pattern",
+      "field": "corpus_chunk"
+    },
+    {
+      "key": "2",
+      "slug": "hawaii-dot-pcbmp",
+      "state_code": "HI",
+      "excerpt": "in accordance with the construction specifications of the Post-Construction BMP O&M Plan. Inspections shall occur once per year at a minimum. During the first year after construction, post- construction BMPs shall be inspected after an exceeda",
+      "page_or_section": "pages 83-83",
+      "confidence": "corpus_pattern",
+      "field": "corpus_chunk"
+    },
+    {
+      "key": "3",
+      "slug": "ak-state",
+      "state_code": "AK",
+      "excerpt": "Chapter 5: Permanent Storm Water Management Controls 5.5 Maintenance Proper BMP operation and maintenance (O&M) is an important aspect in assuring the effectiveness of a BMP in mitigating storm water pollution. Routine maintenance or service also contributes to the",
+      "page_or_section": "pages 211-212",
+      "confidence": "corpus_pattern",
+      "field": "corpus_chunk"
+    },
+    {
+      "key": "4",
+      "slug": "wa-state-western",
+      "state_code": "WA",
+      "excerpt": "review and approval, local jurisdictions should consider a performance bond for operation and maintenance of BMPs at the site. Staff can enforce proper operation and main- tenance requirements during site inspections or in response to complaints about a site or BMP",
+      "page_or_section": "pages 148-148",
+      "confidence": "corpus_pattern",
+      "field": "corpus_chunk"
+    },
+    {
+      "key": "5",
+      "slug": "ga-state",
+      "state_code": "GA",
+      "excerpt": "ists of regular in- spections during construction as well as periodic (ongoing) operation and maintenance inspections at regular intervals after construction. Ensuring that the post-construction stormwater practice is built correctly (in accordance with the approve",
+      "page_or_section": "pages 145-145",
+      "confidence": "corpus_pattern",
+      "field": "corpus_chunk"
+    },
+    {
+      "key": "6",
+      "slug": "pa-state",
+      "state_code": "PA",
+      "excerpt": "K, Construction Inspection, Operation, and Maintenance. Table 3-4: SCM-Specific Operation and Maintenance Procedures STAGE ACTIVITY General • For general guidelines, see Appendix K. Post-Construction Establishment Period • Water weekly unless 0.25 inch of rainfall",
+      "page_or_section": "pages 111-111",
+      "confidence": "corpus_pattern",
+      "field": "corpus_chunk"
+    },
+    {
+      "key": "7",
+      "slug": "boise-id",
+      "state_code": "ID",
+      "excerpt": "2019 Boise Stormwater Design Manual2-15 Facility operators responsible for operation and maintenance shall conduct regularly scheduled inspections, clean, and maintain the system when necessary to ensure operation according to the original design. For above gr",
+      "page_or_section": "pages 25-25",
+      "confidence": "corpus_pattern",
+      "field": "corpus_chunk"
+    },
+    {
+      "key": "8",
+      "slug": "idaho-bmp-catalog",
+      "state_code": "ID",
+      "excerpt": "em Frequent, thorough, and consistent inspections are the key to the successful operation and maintenance of a storm water system. Inspections reveal the operational status of the system, identify needed maintenance actions, and provide information to update the O&",
+      "page_or_section": "pages 86-86",
+      "confidence": "corpus_pattern",
+      "field": "corpus_chunk"
+    },
+    {
+      "key": "9",
+      "slug": "chicago-il",
+      "state_code": "IL",
+      "excerpt": "Chicago Stormwater Ordinance Manual O & M Requirements 45 5.0 Operation and Maintenance Requirements 5.1 Introduction and Applicability Operations and maintenance (O&M) is essential for proper stormwater management. The BMPs and stormwater managem",
+      "page_or_section": "pages 51-51",
+      "confidence": "corpus_pattern",
+      "field": "corpus_chunk"
+    },
+    {
+      "key": "10",
+      "slug": "philadelphia-pa",
+      "state_code": "PA",
+      "excerpt": "ater Department (PWD) is required to periodically inspect and ensure the proper operation and maintenance of all stormwater management practices (SMPs) and associated drainage areas installed on private properties. 6.2.1 PWD Post-Construction Inspections PWD period",
+      "page_or_section": "pages 543-543",
+      "confidence": "corpus_pattern",
+      "field": "corpus_chunk"
+    },
+    {
+      "key": "11",
+      "slug": "raleigh-nc",
+      "state_code": "NC",
+      "excerpt": "O&M Manual, a recorded drainage easement for the purposes of SCM access, and an Operation and Maintenance Agreement shall be completed as part of the permitting process to ensure proper long-term maintenance of each SCM. 6.6.1 Operations and Maintenance Manual To p",
+      "page_or_section": "pages 100-100",
+      "confidence": "corpus_pattern",
+      "field": "corpus_chunk"
+    },
+    {
+      "key": "12",
+      "slug": "ma-state-draft",
+      "state_code": "MA",
+      "excerpt": "pter 2: The Massachusetts Stormwater Management Standards Page 2-41 Standard 9: Operation and Maintenance Plan Definition A long-term operation and maintenance plan shall be developed and implemented to ensure that the stormwater management system functions as desi",
+      "page_or_section": "pages 55-55",
+      "confidence": "corpus_pattern",
+      "field": "corpus_chunk"
+    },
+    {
+      "key": "13",
+      "slug": "tx-edwards-rg348",
+      "state_code": "TX",
+      "excerpt": "lan is provided on the following page. AQUALOGICTM STORMWATER FILTRATION SYSTEM OPERATION AND MAINTENANCE PLAN Maintenance Task Item Description of Maintenance/Repairs to be Performed(1) Typical Frequency(2) Basin and Inlet Visually inspect and note items which nee",
+      "page_or_section": "pages 332-332",
+      "confidence": "corpus_pattern",
+      "field": "corpus_chunk"
+    }
+  ],
+  "citations": [
+    {
+      "slug": "ct-state",
+      "chunk_id": "ct-state-c0214",
+      "page_or_section": "pages 222-222",
+      "excerpt": "nd sediment using a vacuum truck or other catch basin cleaning equipment.  The Operation and Maintenance (O&M) Plan should indicate the maximum allowable level of oil, sediment, and debris accumulation. These levels should be monitored during inspections to ensure"
+    },
+    {
+      "slug": "hawaii-dot-pcbmp",
+      "chunk_id": "hawaii-dot-pcbmp-c0107",
+      "page_or_section": "pages 83-83",
+      "excerpt": "in accordance with the construction specifications of the Post-Construction BMP O&M Plan. Inspections shall occur once per year at a minimum. During the first year after construction, post- construction BMPs shall be inspected after an exceeda"
+    },
+    {
+      "slug": "ak-state",
+      "chunk_id": "ak-state-c0178",
+      "page_or_section": "pages 211-212",
+      "excerpt": "Chapter 5: Permanent Storm Water Management Controls 5.5 Maintenance Proper BMP operation and maintenance (O&M) is an important aspect in assuring the effectiveness of a BMP in mitigating storm water pollution. Routine maintenance or service also contributes to the"
+    },
+    {
+      "slug": "wa-state-western",
+      "chunk_id": "wa-state-western-c0118",
+      "page_or_section": "pages 148-148",
+      "excerpt": "review and approval, local jurisdictions should consider a performance bond for operation and maintenance of BMPs at the site. Staff can enforce proper operation and main- tenance requirements during site inspections or in response to complaints about a site or BMP"
+    },
+    {
+      "slug": "ga-state",
+      "chunk_id": "ga-state-c0205",
+      "page_or_section": "pages 145-145",
+      "excerpt": "ists of regular in- spections during construction as well as periodic (ongoing) operation and maintenance inspections at regular intervals after construction. Ensuring that the post-construction stormwater practice is built correctly (in accordance with the approve"
+    },
+    {
+      "slug": "pa-state",
+      "chunk_id": "pa-state-c0090",
+      "page_or_section": "pages 111-111",
+      "excerpt": "K, Construction Inspection, Operation, and Maintenance. Table 3-4: SCM-Specific Operation and Maintenance Procedures STAGE ACTIVITY General • For general guidelines, see Appendix K. Post-Construction Establishment Period • Water weekly unless 0.25 inch of rainfall"
+    },
+    {
+      "slug": "boise-id",
+      "chunk_id": "boise-id-c0066",
+      "page_or_section": "pages 25-25",
+      "excerpt": "2019 Boise Stormwater Design Manual2-15 Facility operators responsible for operation and maintenance shall conduct regularly scheduled inspections, clean, and maintain the system when necessary to ensure operation according to the original design. For above gr"
+    },
+    {
+      "slug": "idaho-bmp-catalog",
+      "chunk_id": "idaho-bmp-catalog-c0100",
+      "page_or_section": "pages 86-86",
+      "excerpt": "em Frequent, thorough, and consistent inspections are the key to the successful operation and maintenance of a storm water system. Inspections reveal the operational status of the system, identify needed maintenance actions, and provide information to update the O&"
+    },
+    {
+      "slug": "chicago-il",
+      "chunk_id": "chicago-il-c0070",
+      "page_or_section": "pages 51-51",
+      "excerpt": "Chicago Stormwater Ordinance Manual O & M Requirements 45 5.0 Operation and Maintenance Requirements 5.1 Introduction and Applicability Operations and maintenance (O&M) is essential for proper stormwater management. The BMPs and stormwater managem"
+    },
+    {
+      "slug": "philadelphia-pa",
+      "chunk_id": "philadelphia-pa-c0444",
+      "page_or_section": "pages 543-543",
+      "excerpt": "ater Department (PWD) is required to periodically inspect and ensure the proper operation and maintenance of all stormwater management practices (SMPs) and associated drainage areas installed on private properties. 6.2.1 PWD Post-Construction Inspections PWD period"
+    },
+    {
+      "slug": "raleigh-nc",
+      "chunk_id": "raleigh-nc-c0134",
+      "page_or_section": "pages 100-100",
+      "excerpt": "O&M Manual, a recorded drainage easement for the purposes of SCM access, and an Operation and Maintenance Agreement shall be completed as part of the permitting process to ensure proper long-term maintenance of each SCM. 6.6.1 Operations and Maintenance Manual To p"
+    },
+    {
+      "slug": "ma-state-draft",
+      "chunk_id": "ma-state-draft-c0025",
+      "page_or_section": "pages 55-55",
+      "excerpt": "pter 2: The Massachusetts Stormwater Management Standards Page 2-41 Standard 9: Operation and Maintenance Plan Definition A long-term operation and maintenance plan shall be developed and implemented to ensure that the stormwater management system functions as desi"
+    },
+    {
+      "slug": "tx-edwards-rg348",
+      "chunk_id": "tx-edwards-rg348-c0240",
+      "page_or_section": "pages 332-332",
+      "excerpt": "lan is provided on the following page. AQUALOGICTM STORMWATER FILTRATION SYSTEM OPERATION AND MAINTENANCE PLAN Maintenance Task Item Description of Maintenance/Repairs to be Performed(1) Typical Frequency(2) Basin and Inlet Visually inspect and note items which nee"
+    },
+    {
+      "slug": "ct-state",
+      "chunk_id": "ct-state-c0054",
+      "page_or_section": "pages 43-43",
+      "excerpt": "CT DEEP Construction Stormwater General Permit. Standard 4 – Post- Construction Operation and Maintenance Perform long-term maintenance of structural stormwater management systems to ensure that they continue to function as designed and implement operational source"
+    }
+  ],
+  "supporting_slugs": [
+    "ct-state",
+    "hawaii-dot-pcbmp",
+    "ak-state",
+    "wa-state-western",
+    "ga-state",
+    "pa-state",
+    "boise-id",
+    "idaho-bmp-catalog",
+    "chicago-il",
+    "philadelphia-pa",
+    "raleigh-nc",
+    "ma-state-draft",
+    "tx-edwards-rg348"
+  ]
+}

@@ -49,23 +49,19 @@
       "field": "design_criteria.approved_bmp_categories",
       "excerpt": "Bioretention: Soil and plant-based stormwater management practices... structural (grass swales, terraces, retention and detention ponds, and others)",
       "page_or_section": "Definitions / Background"
-    },
-    {
-      "field": "document_metadata.relationship_to_state_manual",
-      "excerpt": "independent city manual; also references APWA/MARC BMP Manual",
-      "page_or_section": "Coverage note"
     }
   ],
   "extraction_quality": {
     "confidence": "medium",
     "needs_human_review": true,
-    "review_notes": "No clear edition date on cover of extracted text; quantity design storms need deeper Ch. 2/6 pass.",
+    "review_notes": "No clear edition date on cover of extracted text; quantity design storms need deeper Ch. 2/6 pass. Pipeline excerpt repair removed 1 unlocated citation(s).",
     "fields_not_found": [
       "document_metadata.version_or_edition",
       "document_metadata.adoption_or_effective_date",
       "document_metadata.last_revised_date",
       "design_criteria.design_storm_return_periods_years",
-      "design_criteria.required_hydrologic_hydraulic_software"
+      "design_criteria.required_hydrologic_hydraulic_software",
+      "document_metadata.relationship_to_state_manual"
     ]
   },
   "source": {

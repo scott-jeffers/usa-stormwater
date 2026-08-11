@@ -1,0 +1,485 @@
+{
+  "version": 1,
+  "generated_at": "2026-08-11T02:34:09.016Z",
+  "title": "Tier A national evidence anchors",
+  "policy": "National draft citations prefer these ~60–80 manuals. Chapter proxies are included for coverage but must not alone set national defaults. Tempe AZ and Atlanta GA are excluded (no standalone city design manuals).",
+  "excluded": [
+    {
+      "id": "tempe-az",
+      "reason": "No Tempe drainage/stormwater design manual located; civic PDF 88295 is Historic Preservation / DBP memo. City publishes SWMP/MS4 reports only."
+    },
+    {
+      "id": "atlanta-ga",
+      "reason": "Pipeline skipped — no standalone city design-manual PDF; Atlanta adopts GSMM (ga-state). Use ga-state for Georgia practice."
+    }
+  ],
+  "entries": [
+    {
+      "slug": "ak-state",
+      "state_code": "AK",
+      "rationale": "state_manual",
+      "needs_human_review": true
+    },
+    {
+      "slug": "alabama-handbook",
+      "state_code": "AL",
+      "rationale": "state_manual",
+      "needs_human_review": true
+    },
+    {
+      "slug": "arkansas-manual",
+      "state_code": "AR",
+      "rationale": "p1_metro",
+      "needs_human_review": false
+    },
+    {
+      "slug": "flagstaff-az",
+      "state_code": "AZ",
+      "rationale": "p1_metro",
+      "needs_human_review": false
+    },
+    {
+      "slug": "tucson-az",
+      "state_code": "AZ",
+      "rationale": "p1_metro",
+      "needs_human_review": false
+    },
+    {
+      "slug": "ca-caltrans-construction",
+      "state_code": "CA",
+      "rationale": "state_manual",
+      "needs_human_review": false
+    },
+    {
+      "slug": "ca-casqa-municipal",
+      "state_code": "CA",
+      "rationale": "state_manual",
+      "needs_human_review": false
+    },
+    {
+      "slug": "los-angeles-ca",
+      "state_code": "CA",
+      "rationale": "p1_metro",
+      "needs_human_review": false
+    },
+    {
+      "slug": "san-diego-ca",
+      "state_code": "CA",
+      "rationale": "p1_metro",
+      "needs_human_review": true
+    },
+    {
+      "slug": "san-francisco-ca",
+      "state_code": "CA",
+      "rationale": "p1_metro",
+      "needs_human_review": true
+    },
+    {
+      "slug": "denver-co",
+      "state_code": "CO",
+      "rationale": "p1_metro",
+      "needs_human_review": true
+    },
+    {
+      "slug": "ct-state",
+      "state_code": "CT",
+      "rationale": "state_manual",
+      "needs_human_review": true
+    },
+    {
+      "slug": "dc-guidebook",
+      "state_code": "DC",
+      "rationale": "p1_metro",
+      "needs_human_review": true
+    },
+    {
+      "slug": "de-wet-ponds-draft",
+      "state_code": "DE",
+      "rationale": "state_manual",
+      "needs_human_review": true,
+      "chapter_proxy": true,
+      "notes": "Chapter-only or partial PDF — do not use as sole national default."
+    },
+    {
+      "slug": "fl-fsesci-tier1",
+      "state_code": "FL",
+      "rationale": "state_manual",
+      "needs_human_review": true
+    },
+    {
+      "slug": "miami-fl",
+      "state_code": "FL",
+      "rationale": "p1_metro",
+      "needs_human_review": true
+    },
+    {
+      "slug": "ga-state",
+      "state_code": "GA",
+      "rationale": "state_manual",
+      "needs_human_review": false
+    },
+    {
+      "slug": "hawaii-dot-pcbmp",
+      "state_code": "HI",
+      "rationale": "state_manual",
+      "needs_human_review": false
+    },
+    {
+      "slug": "ia-state-ch1",
+      "state_code": "IA",
+      "rationale": "state_manual",
+      "needs_human_review": true,
+      "chapter_proxy": true,
+      "notes": "Chapter-only or partial PDF — do not use as sole national default."
+    },
+    {
+      "slug": "boise-id",
+      "state_code": "ID",
+      "rationale": "p1_metro",
+      "needs_human_review": false
+    },
+    {
+      "slug": "idaho-bmp-catalog",
+      "state_code": "ID",
+      "rationale": "state_manual",
+      "needs_human_review": true
+    },
+    {
+      "slug": "chicago-il",
+      "state_code": "IL",
+      "rationale": "p1_metro",
+      "needs_human_review": true
+    },
+    {
+      "slug": "indiana-manual",
+      "state_code": "IN",
+      "rationale": "state_manual",
+      "needs_human_review": false
+    },
+    {
+      "slug": "lawrence-ks",
+      "state_code": "KS",
+      "rationale": "regional_anchor",
+      "needs_human_review": false,
+      "notes": "Clean extraction; regional diversity anchor."
+    },
+    {
+      "slug": "kentucky-bmp",
+      "state_code": "KY",
+      "rationale": "state_manual",
+      "needs_human_review": true
+    },
+    {
+      "slug": "boston-ma",
+      "state_code": "MA",
+      "rationale": "p1_metro",
+      "needs_human_review": true
+    },
+    {
+      "slug": "ma-state-draft",
+      "state_code": "MA",
+      "rationale": "state_manual",
+      "needs_human_review": true
+    },
+    {
+      "slug": "baltimore-md",
+      "state_code": "MD",
+      "rationale": "p1_metro",
+      "needs_human_review": false
+    },
+    {
+      "slug": "md-state",
+      "state_code": "MD",
+      "rationale": "state_manual",
+      "needs_human_review": true
+    },
+    {
+      "slug": "maine-manual",
+      "state_code": "ME",
+      "rationale": "state_manual",
+      "needs_human_review": true
+    },
+    {
+      "slug": "detroit-mi",
+      "state_code": "MI",
+      "rationale": "p1_metro",
+      "needs_human_review": true
+    },
+    {
+      "slug": "michigan-manual",
+      "state_code": "MI",
+      "rationale": "state_manual",
+      "needs_human_review": true
+    },
+    {
+      "slug": "minneapolis-mn",
+      "state_code": "MN",
+      "rationale": "p1_metro",
+      "needs_human_review": true
+    },
+    {
+      "slug": "mn-state-2008",
+      "state_code": "MN",
+      "rationale": "state_manual",
+      "needs_human_review": false
+    },
+    {
+      "slug": "kansas-city-marc-bmp",
+      "state_code": "MO",
+      "rationale": "p1_metro",
+      "needs_human_review": false
+    },
+    {
+      "slug": "missouri-manual",
+      "state_code": "MO",
+      "rationale": "state_manual",
+      "needs_human_review": true
+    },
+    {
+      "slug": "ms-state-vol2",
+      "state_code": "MS",
+      "rationale": "state_manual",
+      "needs_human_review": true
+    },
+    {
+      "slug": "billings-mt",
+      "state_code": "MT",
+      "rationale": "state_manual",
+      "needs_human_review": false
+    },
+    {
+      "slug": "mt-deq8",
+      "state_code": "MT",
+      "rationale": "state_manual",
+      "needs_human_review": false
+    },
+    {
+      "slug": "charlotte-nc",
+      "state_code": "NC",
+      "rationale": "p1_metro",
+      "needs_human_review": true
+    },
+    {
+      "slug": "nc-state",
+      "state_code": "NC",
+      "rationale": "state_manual",
+      "needs_human_review": true
+    },
+    {
+      "slug": "raleigh-nc",
+      "state_code": "NC",
+      "rationale": "p1_metro",
+      "needs_human_review": true
+    },
+    {
+      "slug": "ne-ndot-stf",
+      "state_code": "NE",
+      "rationale": "state_manual",
+      "needs_human_review": false
+    },
+    {
+      "slug": "nh-state",
+      "state_code": "NH",
+      "rationale": "state_manual",
+      "needs_human_review": true
+    },
+    {
+      "slug": "nj-state",
+      "state_code": "NJ",
+      "rationale": "state_manual",
+      "needs_human_review": true,
+      "chapter_proxy": true,
+      "notes": "Chapter-only or partial PDF — do not use as sole national default."
+    },
+    {
+      "slug": "albuquerque-nm-gsi",
+      "state_code": "NM",
+      "rationale": "p1_metro",
+      "needs_human_review": true
+    },
+    {
+      "slug": "las-vegas-nv",
+      "state_code": "NV",
+      "rationale": "p1_metro",
+      "needs_human_review": true
+    },
+    {
+      "slug": "ny-bluebook",
+      "state_code": "NY",
+      "rationale": "state_manual",
+      "needs_human_review": false
+    },
+    {
+      "slug": "ny-state",
+      "state_code": "NY",
+      "rationale": "state_manual",
+      "needs_human_review": true
+    },
+    {
+      "slug": "columbus-oh",
+      "state_code": "OH",
+      "rationale": "p1_metro",
+      "needs_human_review": true
+    },
+    {
+      "slug": "ohio-rainwater",
+      "state_code": "OH",
+      "rationale": "state_manual",
+      "needs_human_review": true
+    },
+    {
+      "slug": "oklahoma-odot-ch10",
+      "state_code": "OK",
+      "rationale": "state_manual",
+      "needs_human_review": true,
+      "chapter_proxy": true,
+      "notes": "Chapter-only or partial PDF — do not use as sole national default."
+    },
+    {
+      "slug": "portland-or",
+      "state_code": "OR",
+      "rationale": "p1_metro",
+      "needs_human_review": true
+    },
+    {
+      "slug": "pa-state",
+      "state_code": "PA",
+      "rationale": "state_manual",
+      "needs_human_review": false
+    },
+    {
+      "slug": "philadelphia-pa",
+      "state_code": "PA",
+      "rationale": "p1_metro",
+      "needs_human_review": true
+    },
+    {
+      "slug": "ri-state",
+      "state_code": "RI",
+      "rationale": "state_manual",
+      "needs_human_review": false
+    },
+    {
+      "slug": "south-carolina-manual",
+      "state_code": "SC",
+      "rationale": "state_manual",
+      "needs_human_review": true
+    },
+    {
+      "slug": "sd-dot-esc",
+      "state_code": "SD",
+      "rationale": "state_manual",
+      "needs_human_review": true
+    },
+    {
+      "slug": "nashville-tn-vol4",
+      "state_code": "TN",
+      "rationale": "p1_metro",
+      "needs_human_review": true
+    },
+    {
+      "slug": "tn-state",
+      "state_code": "TN",
+      "rationale": "state_manual",
+      "needs_human_review": true
+    },
+    {
+      "slug": "austin-tx-ecm",
+      "state_code": "TX",
+      "rationale": "p1_metro",
+      "needs_human_review": true
+    },
+    {
+      "slug": "dallas-tx",
+      "state_code": "TX",
+      "rationale": "p1_metro",
+      "needs_human_review": true
+    },
+    {
+      "slug": "houston-tx",
+      "state_code": "TX",
+      "rationale": "p1_metro",
+      "needs_human_review": true
+    },
+    {
+      "slug": "san-antonio-tx",
+      "state_code": "TX",
+      "rationale": "p1_metro",
+      "needs_human_review": true
+    },
+    {
+      "slug": "tx-edwards-rg348",
+      "state_code": "TX",
+      "rationale": "state_manual",
+      "needs_human_review": false
+    },
+    {
+      "slug": "salt-lake-city-ut",
+      "state_code": "UT",
+      "rationale": "p1_metro",
+      "needs_human_review": true
+    },
+    {
+      "slug": "chesapeake-va",
+      "state_code": "VA",
+      "rationale": "p1_metro",
+      "needs_human_review": false
+    },
+    {
+      "slug": "norfolk-va",
+      "state_code": "VA",
+      "rationale": "p1_metro",
+      "needs_human_review": false
+    },
+    {
+      "slug": "va-state",
+      "state_code": "VA",
+      "rationale": "state_manual",
+      "needs_human_review": true,
+      "chapter_proxy": true,
+      "notes": "Chapter-only or partial PDF — do not use as sole national default."
+    },
+    {
+      "slug": "vt-state",
+      "state_code": "VT",
+      "rationale": "state_manual",
+      "needs_human_review": false
+    },
+    {
+      "slug": "bellevue-wa",
+      "state_code": "WA",
+      "rationale": "p1_metro",
+      "needs_human_review": false
+    },
+    {
+      "slug": "seattle-wa",
+      "state_code": "WA",
+      "rationale": "p1_metro",
+      "needs_human_review": true
+    },
+    {
+      "slug": "wa-state-western",
+      "state_code": "WA",
+      "rationale": "state_manual",
+      "needs_human_review": true
+    },
+    {
+      "slug": "wi-dnr-1001",
+      "state_code": "WI",
+      "rationale": "state_manual",
+      "needs_human_review": true
+    },
+    {
+      "slug": "west-virginia-manual",
+      "state_code": "WV",
+      "rationale": "state_manual",
+      "needs_human_review": false
+    },
+    {
+      "slug": "wy-wydot-field",
+      "state_code": "WY",
+      "rationale": "state_manual",
+      "needs_human_review": true
+    }
+  ]
+}

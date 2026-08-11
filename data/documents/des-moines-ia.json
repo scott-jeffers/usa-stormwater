@@ -41,24 +41,14 @@
       "page_or_section": "Title"
     },
     {
-      "field": "document_metadata.state_code",
-      "excerpt": "Iowa",
-      "page_or_section": "Title"
-    },
-    {
       "field": "document_metadata.document_title",
-      "excerpt": "Chapter 2: Stormwater",
-      "page_or_section": "Title"
+      "excerpt": "--- page 1 --- TOC Design Manual Chapter 2 - Stormwater Table of Contents Table of Contents i Revised: 2021 Edition Chapter 2 - Stormwater 2A General Information 2A-1--------------------------------General Information A. Concept…………………………………………………………………………... 1 B. Informin",
+      "page_or_section": "p. 1"
     },
     {
       "field": "document_metadata.version_or_edition",
       "excerpt": "Chapter_02.pdf SUDAS Design Manual",
       "page_or_section": "Source"
-    },
-    {
-      "field": "document_metadata.relationship_to_state_manual",
-      "excerpt": "SUDAS / ISWMM referenced by Des Moines",
-      "page_or_section": "City stormwater review page"
     },
     {
       "field": "design_criteria.design_storm_return_periods_years",
@@ -84,11 +74,13 @@
   "extraction_quality": {
     "confidence": "medium",
     "needs_human_review": true,
-    "review_notes": "SUDAS Ch.2 used as Des Moines design reference alongside ISWMM; consider adding ISWMM criteria chapter later.",
+    "review_notes": "SUDAS Ch.2 used as Des Moines design reference alongside ISWMM; consider adding ISWMM criteria chapter later. Pipeline excerpt repair removed 2 unlocated citation(s).",
     "fields_not_found": [
       "document_metadata.adoption_or_effective_date",
       "document_metadata.last_revised_date",
-      "design_criteria.required_hydrologic_hydraulic_software"
+      "design_criteria.required_hydrologic_hydraulic_software",
+      "document_metadata.state_code",
+      "document_metadata.relationship_to_state_manual"
     ]
   },
   "source": {

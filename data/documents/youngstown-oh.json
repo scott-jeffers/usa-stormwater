@@ -41,8 +41,8 @@
     },
     {
       "field": "design_criteria.water_quality_volume_method",
-      "excerpt": "WQv (ac-ft) = C × 0.75 × A / 12",
-      "page_or_section": "Ohio RaLD"
+      "excerpt": "for construction activities. WQv (ac-ft) = C * 0.7\u0018 * A / \u00182 (Equation \u0018) Where: C = runoff coefficient A = area draining into the BMP in acres The runoff coefficient, C, is calculated using the following equation or alternatively values provided in the current Ohio EPA NP",
+      "page_or_section": "p. 37"
     }
   ],
   "extraction_quality": {

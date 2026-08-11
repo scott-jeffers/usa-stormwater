@@ -1,0 +1,460 @@
+{
+  "section_id": "hydrology.methods",
+  "title": "Runoff and Peak-Flow Calculation Methods",
+  "generated_at": "2026-08-11T03:43:21.050Z",
+  "model": "heuristic+editorial",
+  "editorial_status": "reviewed",
+  "practice_survey": "Peak-flow and runoff methods in atlas extracts cluster into Rational Method for small catchments, NRCS/SCS curve-number and hydrograph methods for most site design, and continuous or multi-event models where volume control or complex routing is required. Unit hydrograph and Green-Ampt variants also appear. Local manuals often set maximum drainage areas for Rational Method.",
+  "draft_recommendation": "Match methods to site scale and purpose. Allow Rational Method only for small, largely impervious catchments with documented time-of-concentration limits. Use NRCS/SCS methods for most site design. Require continuous or multi-event simulation where permits demand runoff reduction or complex routing. Document CN, Tc, and rainfall distribution assumptions. Defer to stricter local method rules.",
+  "regional_variants": "Some West Coast and cold-climate manuals restrict Rational Method more tightly or require continuous simulation for LID volume credit.",
+  "open_issues": "National area limit for Rational Method. Whether continuous simulation is guidance or a requirement for volume-based standards.",
+  "guidance_tables": [
+    {
+      "id": "method-criteria",
+      "title": "When to use common peak-flow methods",
+      "caption": "Draft national guidance grounded in atlas practice — not a design manual or adopted regulation.",
+      "columns": [
+        "Method family",
+        "Suggested national guidance",
+        "Atlas note"
+      ],
+      "rows": [
+        [
+          "Rational Method",
+          "Allow for small, largely impervious catchments only; document Tc and intensity assumptions; respect local area limits",
+          "41% of manuals with methods (111)"
+        ],
+        [
+          "NRCS / SCS",
+          "Default for most site design; document CN, rainfall distribution, and Tc",
+          "64% of manuals with methods (174)"
+        ],
+        [
+          "Continuous / event models",
+          "Require where permits demand volume control, complex routing, or LID credit verification",
+          "14% of manuals with methods (38)"
+        ],
+        [
+          "Unit hydrograph / other",
+          "Allow when documented in the controlling jurisdiction manual",
+          "5% of manuals with methods (14)"
+        ]
+      ],
+      "row_citations": [
+        [
+          "1",
+          "2",
+          "4",
+          "6",
+          "7"
+        ],
+        [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        [
+          "1",
+          "7",
+          "9",
+          "10",
+          "11"
+        ],
+        [
+          "8",
+          "12",
+          "13",
+          "14",
+          "15"
+        ]
+      ]
+    }
+  ],
+  "recommendation_clauses": [
+    {
+      "id": "rational",
+      "number": "5.1",
+      "text": "Allow Rational Method only for small, largely impervious catchments with documented time-of-concentration and intensity assumptions.",
+      "citation_keys": [
+        "1",
+        "4",
+        "6",
+        "7"
+      ],
+      "confidence": "field_verified"
+    },
+    {
+      "id": "nrcs",
+      "number": "5.2",
+      "text": "Use NRCS/SCS methods for most site design; document CN, rainfall distribution, and Tc.",
+      "citation_keys": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "confidence": "field_verified"
+    },
+    {
+      "id": "continuous",
+      "number": "5.3",
+      "text": "Require continuous or multi-event simulation where permits demand runoff reduction or complex routing.",
+      "citation_keys": [
+        "1",
+        "7",
+        "11",
+        "2"
+      ],
+      "confidence": "field_verified"
+    },
+    {
+      "id": "local-stricter",
+      "number": "5.4",
+      "text": "Defer to stricter local method rules when they conflict with this guidance.",
+      "citation_keys": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "confidence": "editorial"
+    }
+  ],
+  "citation_registry": [
+    {
+      "key": "1",
+      "slug": "ak-state",
+      "state_code": "AK",
+      "excerpt": "A partial list of hydrologic modeling software accepted by some Alaskan municipalities includes the following: ILLUDAS TR55-1986 WinTR553 WinTR20 SCS HEC-HMS Rational Method",
+      "page_or_section": "Section 3.2, page 3-5",
+      "confidence": "field_verified",
+      "field": "design_criteria.peak_flow_calculation_method"
+    },
+    {
+      "key": "2",
+      "slug": "alabama-handbook",
+      "state_code": "AL",
+      "excerpt": "The peak rate of runoff should be determined using the Natural Resources Conservation Service runoff curve number (RCN) method or other equivalent methods.",
+      "page_or_section": "Page 181, Diversion",
+      "confidence": "field_verified",
+      "field": "design_criteria.peak_flow_calculation_method"
+    },
+    {
+      "key": "3",
+      "slug": "billings-mt",
+      "state_code": "MT",
+      "excerpt": "This procedure relies on the volume of runoff computed using Equation 3-1 and uses an adaptation of the NRCS TR-55 Graphical Peak Discharge Method",
+      "page_or_section": "Section 3.3, Page 3-2",
+      "confidence": "field_verified",
+      "field": "design_criteria.peak_flow_calculation_method"
+    },
+    {
+      "key": "4",
+      "slug": "ct-state",
+      "state_code": "CT",
+      "excerpt": "using a hydrologic/hydraulic routing model based on the NRCS Curve Number method (e.g., HydroCAD or similar software)... Graphical Peak Discharge Method... routing employed by TR-20... Rational Formula",
+      "page_or_section": "Page 59, Appendix D",
+      "confidence": "field_verified",
+      "field": "design_criteria.peak_flow_calculation_method"
+    },
+    {
+      "key": "5",
+      "slug": "ga-state",
+      "state_code": "GA",
+      "excerpt": "What is the SCS curve number for this sub-watershed",
+      "page_or_section": "154",
+      "confidence": "field_verified",
+      "field": "design_criteria.peak_flow_calculation_method"
+    },
+    {
+      "key": "6",
+      "slug": "hawaii-dot-pcbmp",
+      "state_code": "HI",
+      "excerpt": "Flow rate calculation shall be based upon the Rational Method as follows: WQFR = C x i x AT",
+      "page_or_section": "Section 7.3.2, Page 7-7",
+      "confidence": "field_verified",
+      "field": "design_criteria.peak_flow_calculation_method"
+    },
+    {
+      "key": "7",
+      "slug": "idaho-bmp-catalog",
+      "state_code": "ID",
+      "excerpt": "The rational method and NRCS Technical Release-55 (TR-55) method are simple and widely used for performing single event design storm analysis... continuous simulation models... HSPF... HEC-HMS, and... SWMM... For rain-on-snow events, an energy balance approach using a computer model such as HEC-HMS is recommended... de",
+      "page_or_section": "Sections 3.6.3–3.6.3.2, Pages 53–59",
+      "confidence": "field_verified",
+      "field": "design_criteria.peak_flow_calculation_method"
+    },
+    {
+      "key": "8",
+      "slug": "pa-state",
+      "state_code": "PA",
+      "excerpt": "Methods include the NRCS hydrologic soil-cover complex method, Green and Ampt equation, Snyder Unit Hydrograph, and WINSLAMM small storm hydrology method.",
+      "page_or_section": "Page 2-53",
+      "confidence": "field_verified",
+      "field": "design_criteria.peak_flow_calculation_method"
+    },
+    {
+      "key": "9",
+      "slug": "wa-state-western",
+      "state_code": "WA",
+      "excerpt": "Rational method",
+      "page_or_section": "Glossary, page 1303",
+      "confidence": "field_verified",
+      "field": "design_criteria.peak_flow_calculation_method"
+    },
+    {
+      "key": "10",
+      "slug": "west-virginia-manual",
+      "state_code": "WV",
+      "excerpt": "utilizes the NRCS TR55 runoff equations 2-1 through 2-4 to derive a reduced curve number",
+      "page_or_section": "3.4.4",
+      "confidence": "field_verified",
+      "field": "design_criteria.peak_flow_calculation_method"
+    },
+    {
+      "key": "11",
+      "slug": "chicago-il",
+      "state_code": "IL",
+      "excerpt": "Modified Rational Method to calculate the maximum volume of stormwater... Rational Method... hydrograph methods with regional rainfall data... HEC-1 and HEC-HMS... TR-20... TR-55... SWMM",
+      "page_or_section": "Pages 7, 15, 16, B-6, B-7",
+      "confidence": "field_verified",
+      "field": "design_criteria.peak_flow_calculation_method"
+    },
+    {
+      "key": "12",
+      "slug": "houston-tx",
+      "state_code": "TX",
+      "excerpt": "Rational Method: The Rational Method will be used to estimate peak flows for individual drainage areas up to 200 acres in size, and for project areas up to 640 acres in size.",
+      "page_or_section": "Section 2A, 9.2.01.B.2.a, Page 9-12",
+      "confidence": "field_verified",
+      "field": "design_criteria.peak_flow_calculation_method"
+    },
+    {
+      "key": "13",
+      "slug": "san-antonio-tx",
+      "state_code": "TX",
+      "excerpt": "For drainage areas less than 200 hundred (200) acres, the basis for computing runoff shall be the rational formula (as defined in Section 5.3) or some other method provided it is acceptable to the Director of TCI.",
+      "page_or_section": "Section 5.2.2",
+      "confidence": "field_verified",
+      "field": "design_criteria.peak_flow_calculation_method"
+    },
+    {
+      "key": "14",
+      "slug": "anchorage-ak",
+      "state_code": "AK",
+      "excerpt": "4.5.2 Rational Method... 4.5.3 NRCS (SCS) Peak Flow Method (Tabular Method)... 4.5.4 USGS Regression Equations... 4.5.5 NRCS (SCS) Tabular Hydrograph Method",
+      "page_or_section": "Table of Contents / Chapter 4",
+      "confidence": "field_verified",
+      "field": "design_criteria.peak_flow_calculation_method"
+    },
+    {
+      "key": "15",
+      "slug": "mesquite-tx",
+      "state_code": "TX",
+      "excerpt": "current edition of the NCTCOG Integrated Stormwater Management (iSWM™) Hydrology Technical Manual",
+      "page_or_section": "§3.2",
+      "confidence": "field_verified",
+      "field": "design_criteria.peak_flow_calculation_method"
+    },
+    {
+      "key": "16",
+      "slug": "detroit-mi",
+      "state_code": "MI",
+      "excerpt": "basin to the point of interest. The tc must be determined to be able to use the Rational Method to estimate peak flow for sizing storm sewer systems, or for applying unit hydrographs and NRCS curve number methods to generate and route runoff hydrog",
+      "page_or_section": "pages 98-98",
+      "confidence": "corpus_pattern",
+      "field": "corpus_chunk"
+    },
+    {
+      "key": "17",
+      "slug": "mt-deq8",
+      "state_code": "MT",
+      "excerpt": "hydrograph developed using one of the methods listed in this chapter (modified rational method or SCS Curve Number (TR-55)). Outflow values in this method must be based on a stage-discharge relationship for detention facility outlet structures and",
+      "page_or_section": "pages 23-23",
+      "confidence": "corpus_pattern",
+      "field": "corpus_chunk"
+    },
+    {
+      "key": "18",
+      "slug": "mn-state-2008",
+      "state_code": "MN",
+      "excerpt": "/or event hydrograph calculations only TR-55 (original or DOS) Low No Yes -- -- Rational Method (equation) Low No Yes -- -- Hydrologic Models rainfall-runoff simulation, reservoir & channel routing HEC-1 Medium No Yes -- -- HEC-HMS Medium Yes Yes -",
+      "page_or_section": "pages 189-189",
+      "confidence": "corpus_pattern",
+      "field": "corpus_chunk"
+    },
+    {
+      "key": "19",
+      "slug": "idaho-bmp-catalog",
+      "state_code": "ID",
+      "excerpt": "(IDF) curves can be used to acquire storm duration and intensity for use in the rational method. IDF curves for Idaho have been developed by ITD and are found in the Roadway Design Manual, Appendix B. NRCS TR-55 presents a single event hydrograph m",
+      "page_or_section": "pages 72-72",
+      "confidence": "corpus_pattern",
+      "field": "corpus_chunk"
+    },
+    {
+      "key": "20",
+      "slug": "las-vegas-nv",
+      "state_code": "NV",
+      "excerpt": "603.2 - SCS Curve Number Method 608 603.2.1 - CN Determination 609 604 MODIFIED RATIONAL FORMULA METHOD 610 604.1 - Methodology 610 604.2 - Assumptions 610 604.3 - Limitations on Methodology 611 604.4 - Rainfall Intensity 611 604.5 - Runoff Coeffic",
+      "page_or_section": "pages 124-126",
+      "confidence": "corpus_pattern",
+      "field": "corpus_chunk"
+    },
+    {
+      "key": "21",
+      "slug": "bellevue-wa",
+      "state_code": "WA",
+      "excerpt": "1 Acceptable Uses of Runoff Computation Methods TYPE OF COMPUTATION Allowed For Rational Method Single Hydrograph Method Ecology-Approved Continuous Simulation Model PEAK FLOW CONVEYANCE SIZING (DESIGN FLOWS) Tributary Areas < 10 acres (measured to",
+      "page_or_section": "pages 64-65",
+      "confidence": "corpus_pattern",
+      "field": "corpus_chunk"
+    },
+    {
+      "key": "22",
+      "slug": "west-virginia-manual",
+      "state_code": "WV",
+      "excerpt": "stem design are NRCS TR‐55 Curve Number (CN) methods (NRCS TR‐55, 1986) and the Rational Formula. The Rational Formula is highly sensitive to the time of concentration and rainfall intensity, and therefore should only be used with reliable Intensit",
+      "page_or_section": "pages 467-467",
+      "confidence": "corpus_pattern",
+      "field": "corpus_chunk"
+    },
+    {
+      "key": "23",
+      "slug": "wa-state-western",
+      "state_code": "WA",
+      "excerpt": "dvantages over the single event-based meth- ods such as the SCSUH, SBUH, or the Rational Method. HSPF is a continuous simulation model that is capable of simulating a wider range of hydrologic responses than the single event models. Single event mo",
+      "page_or_section": "pages 484-484",
+      "confidence": "corpus_pattern",
+      "field": "corpus_chunk"
+    },
+    {
+      "key": "24",
+      "slug": "ri-state",
+      "state_code": "RI",
+      "excerpt": "m events. This is more appropriate than the traditional NRCS CN Methods and the Rational Formula, which have been widely used for peak runoff calculations and drainage design. The traditional NRCS TR-55 CN methods are valuable for estimating peak d",
+      "page_or_section": "pages 57-57",
+      "confidence": "corpus_pattern",
+      "field": "corpus_chunk"
+    },
+    {
+      "key": "25",
+      "slug": "maine-manual",
+      "state_code": "ME",
+      "excerpt": "orate the SCS-TR-20 or HEC-1 procedures, or other routing methods. The Modified Rational Method, while not a true routing procedure, can be used for preliminary design of detention storage for watersheds up to 20 or 30 acres. 2.4 Hydrologic Data fo",
+      "page_or_section": "pages 15-15",
+      "confidence": "corpus_pattern",
+      "field": "corpus_chunk"
+    },
+    {
+      "key": "26",
+      "slug": "dc-guidebook",
+      "state_code": "DC",
+      "excerpt": "Storage-Indication Routing  HEC-1, WinTR-55, TR-20, and SWMM Computer Models  Rational Method (limited to sites under five acres) These methods are given as valid in principle, and are applicable to most stormwater management design situations in",
+      "page_or_section": "pages 93-93",
+      "confidence": "corpus_pattern",
+      "field": "corpus_chunk"
+    }
+  ],
+  "citations": [
+    {
+      "slug": "detroit-mi",
+      "chunk_id": "detroit-mi-c0126",
+      "page_or_section": "pages 98-98",
+      "excerpt": "basin to the point of interest. The tc must be determined to be able to use the Rational Method to estimate peak flow for sizing storm sewer systems, or for applying unit hydrographs and NRCS curve number methods to generate and route runoff hydrog"
+    },
+    {
+      "slug": "mt-deq8",
+      "chunk_id": "mt-deq8-c0038",
+      "page_or_section": "pages 23-23",
+      "excerpt": "hydrograph developed using one of the methods listed in this chapter (modified rational method or SCS Curve Number (TR-55)). Outflow values in this method must be based on a stage-discharge relationship for detention facility outlet structures and"
+    },
+    {
+      "slug": "mn-state-2008",
+      "chunk_id": "mn-state-2008-c0158",
+      "page_or_section": "pages 189-189",
+      "excerpt": "/or event hydrograph calculations only TR-55 (original or DOS) Low No Yes -- -- Rational Method (equation) Low No Yes -- -- Hydrologic Models rainfall-runoff simulation, reservoir & channel routing HEC-1 Medium No Yes -- -- HEC-HMS Medium Yes Yes -"
+    },
+    {
+      "slug": "idaho-bmp-catalog",
+      "chunk_id": "idaho-bmp-catalog-c0081",
+      "page_or_section": "pages 72-72",
+      "excerpt": "(IDF) curves can be used to acquire storm duration and intensity for use in the rational method. IDF curves for Idaho have been developed by ITD and are found in the Roadway Design Manual, Appendix B. NRCS TR-55 presents a single event hydrograph m"
+    },
+    {
+      "slug": "las-vegas-nv",
+      "chunk_id": "las-vegas-nv-c0127",
+      "page_or_section": "pages 124-126",
+      "excerpt": "603.2 - SCS Curve Number Method 608 603.2.1 - CN Determination 609 604 MODIFIED RATIONAL FORMULA METHOD 610 604.1 - Methodology 610 604.2 - Assumptions 610 604.3 - Limitations on Methodology 611 604.4 - Rainfall Intensity 611 604.5 - Runoff Coeffic"
+    },
+    {
+      "slug": "bellevue-wa",
+      "chunk_id": "bellevue-wa-c0124",
+      "page_or_section": "pages 64-65",
+      "excerpt": "1 Acceptable Uses of Runoff Computation Methods TYPE OF COMPUTATION Allowed For Rational Method Single Hydrograph Method Ecology-Approved Continuous Simulation Model PEAK FLOW CONVEYANCE SIZING (DESIGN FLOWS) Tributary Areas < 10 acres (measured to"
+    },
+    {
+      "slug": "mn-state-2008",
+      "chunk_id": "mn-state-2008-c0530",
+      "page_or_section": "pages 628-628",
+      "excerpt": "ge, and culvert sizing. Rainfall and watershed analysis using the SCS Method or Rational Method can be incorporated if the peak flow rate is not known. CulvertMaster is a proprietary model that can be obtained from Haestad Methods, Bentley Systems,"
+    },
+    {
+      "slug": "west-virginia-manual",
+      "chunk_id": "west-virginia-manual-c0350",
+      "page_or_section": "pages 467-467",
+      "excerpt": "stem design are NRCS TR‐55 Curve Number (CN) methods (NRCS TR‐55, 1986) and the Rational Formula. The Rational Formula is highly sensitive to the time of concentration and rainfall intensity, and therefore should only be used with reliable Intensit"
+    },
+    {
+      "slug": "wa-state-western",
+      "chunk_id": "wa-state-western-c0384",
+      "page_or_section": "pages 484-484",
+      "excerpt": "dvantages over the single event-based meth- ods such as the SCSUH, SBUH, or the Rational Method. HSPF is a continuous simulation model that is capable of simulating a wider range of hydrologic responses than the single event models. Single event mo"
+    },
+    {
+      "slug": "ri-state",
+      "chunk_id": "ri-state-c0104",
+      "page_or_section": "pages 57-57",
+      "excerpt": "m events. This is more appropriate than the traditional NRCS CN Methods and the Rational Formula, which have been widely used for peak runoff calculations and drainage design. The traditional NRCS TR-55 CN methods are valuable for estimating peak d"
+    },
+    {
+      "slug": "maine-manual",
+      "chunk_id": "maine-manual-c0038",
+      "page_or_section": "pages 15-15",
+      "excerpt": "orate the SCS-TR-20 or HEC-1 procedures, or other routing methods. The Modified Rational Method, while not a true routing procedure, can be used for preliminary design of detention storage for watersheds up to 20 or 30 acres. 2.4 Hydrologic Data fo"
+    },
+    {
+      "slug": "maine-manual",
+      "chunk_id": "maine-manual-c0136",
+      "page_or_section": "pages 113-113",
+      "excerpt": "documentation is not available. In an area where all soils have been mapped by SCS, the SCS runoff curve number method may offer more accurate results. USGS Regression Equations (for Maine) - USGS, 1975 The method gives peak discharges for un"
+    },
+    {
+      "slug": "dc-guidebook",
+      "chunk_id": "dc-guidebook-c0058",
+      "page_or_section": "pages 93-93",
+      "excerpt": "Storage-Indication Routing  HEC-1, WinTR-55, TR-20, and SWMM Computer Models  Rational Method (limited to sites under five acres) These methods are given as valid in principle, and are applicable to most stormwater management design situations in"
+    },
+    {
+      "slug": "las-vegas-nv",
+      "chunk_id": "las-vegas-nv-c0151",
+      "page_or_section": "pages 153-155",
+      "excerpt": "1999 HYDROLOGIC CRITERIA AND DRAINAGE DESIGN MANUAL 629 611.2 Example: Modified Rational Formula Method Problem: Utilize the information in Figure 606, to determine the peak flow from subbasin G at Node \"C\" for the 100-year storm. Solution: Step 1:"
+    }
+  ],
+  "supporting_slugs": [
+    "detroit-mi",
+    "mt-deq8",
+    "mn-state-2008",
+    "idaho-bmp-catalog",
+    "las-vegas-nv",
+    "bellevue-wa",
+    "west-virginia-manual",
+    "wa-state-western",
+    "ri-state",
+    "maine-manual",
+    "dc-guidebook"
+  ]
+}

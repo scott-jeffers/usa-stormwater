@@ -44,21 +44,18 @@
       "page_or_section": "Coverage note"
     },
     {
-      "field": "document_metadata.relationship_to_state_manual",
-      "excerpt": "adopts_state_manual_directly — CT DEEP 2024",
-      "page_or_section": "Coverage note"
-    },
-    {
       "field": "design_criteria.water_quality_volume_method",
-      "excerpt": "WQV = (P)(R)(A)/12 where P = 1.3 inches",
-      "page_or_section": "CT Manual"
+      "excerpt": "𝑊𝑊𝑊𝑊𝑊𝑊 = (𝑃𝑃)(𝑅𝑅)(𝐴𝐴) 12 where: WQV = water quality volume (cubic feet) P = 1.3 inches (90th percentile rainfall event) R = volumetric runoff coefficient = 0.05+0.009( I) I = post- development impervious area (percent) after application of non-structural LID site p",
+      "page_or_section": "p. 53"
     }
   ],
   "extraction_quality": {
     "confidence": "medium",
     "needs_human_review": true,
-    "review_notes": "Capital / municipal coverage via CT Stormwater Quality Manual 2024.",
-    "fields_not_found": []
+    "review_notes": "Capital / municipal coverage via CT Stormwater Quality Manual 2024. Pipeline excerpt repair removed 1 unlocated citation(s).",
+    "fields_not_found": [
+      "document_metadata.relationship_to_state_manual"
+    ]
   },
   "source": {
     "document_url": "https://portal.ct.gov/-/media/deep/water/water_quality_management/guidance/swm_mar_2024.pdf",

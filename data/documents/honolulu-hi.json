@@ -10,7 +10,11 @@
     "relationship_to_state_manual": "independent"
   },
   "design_criteria": {
-    "design_storm_return_periods_years": [10, 50, 100],
+    "design_storm_return_periods_years": [
+      10,
+      50,
+      100
+    ],
     "water_quality_volume_method": null,
     "peak_flow_calculation_method": [
       "Rational Method (Q = CIA) for drainage areas of 100 acres or less",
@@ -46,19 +50,9 @@
       "page_or_section": "Title Page"
     },
     {
-      "field": "document_metadata.version_or_edition",
-      "excerpt": "AUGUST 2017",
-      "page_or_section": "Title Page"
-    },
-    {
       "field": "document_metadata.adoption_or_effective_date",
       "excerpt": "This edition supersedes the Rules Relating to Storm Drainage Standards, January 2000 (Repealed August 16, 2017).",
       "page_or_section": "Introduction"
-    },
-    {
-      "field": "document_metadata.last_revised_date",
-      "excerpt": "AUGUST 2017",
-      "page_or_section": "Title Page"
     },
     {
       "field": "document_metadata.relationship_to_state_manual",
@@ -108,11 +102,13 @@
   ],
   "extraction_quality": {
     "confidence": "high",
-    "needs_human_review": false,
-    "review_notes": "Conveyance/hydrologic standards only. Water quality volume and LID BMP sizing are deferred to separate Rules Relating to Water Quality (not in this PDF).",
+    "needs_human_review": true,
+    "review_notes": "Conveyance/hydrologic standards only. Water quality volume and LID BMP sizing are deferred to separate Rules Relating to Water Quality (not in this PDF). Pipeline excerpt repair removed 2 unlocated citation(s).",
     "fields_not_found": [
       "design_criteria.water_quality_volume_method",
-      "design_criteria.required_hydrologic_hydraulic_software"
+      "design_criteria.required_hydrologic_hydraulic_software",
+      "document_metadata.version_or_edition",
+      "document_metadata.last_revised_date"
     ]
   },
   "source": {

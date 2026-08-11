@@ -111,15 +111,69 @@ export const draftCitationSchema = z.object({
   excerpt: z.string(),
 });
 
+export type DraftCitation = z.infer<typeof draftCitationSchema>;
+
+export const citationConfidenceSchema = z.enum([
+  "field_verified",
+  "corpus_pattern",
+  "editorial",
+]);
+
+export type CitationConfidence = z.infer<typeof citationConfidenceSchema>;
+
+export const citationRegistryEntrySchema = z.object({
+  key: z.string(),
+  slug: z.string(),
+  state_code: z.string().nullable(),
+  excerpt: z.string(),
+  page_or_section: z.string().nullable(),
+  confidence: citationConfidenceSchema,
+  /** Structured field path or "corpus_chunk" for pattern matches. */
+  field: z.string().optional(),
+});
+
+export type CitationRegistryEntry = z.infer<typeof citationRegistryEntrySchema>;
+
+export const recommendationClauseSchema = z.object({
+  id: z.string(),
+  number: z.string(),
+  text: z.string(),
+  citation_keys: z.array(z.string()),
+  confidence: citationConfidenceSchema,
+});
+
+export type RecommendationClause = z.infer<typeof recommendationClauseSchema>;
+
+export const guidanceTableSchema = z.object({
+  id: z.string(),
+  title: z.string(),
+  caption: z.string().nullable(),
+  columns: z.array(z.string()),
+  rows: z.array(z.array(z.string())),
+  /** Citation registry keys per row (parallel to rows); empty array if none. */
+  row_citations: z
+    .array(z.union([z.array(z.string()), z.null()]))
+    .optional()
+    .transform((rows) =>
+      rows ? rows.map((r) => (r == null ? [] : r)) : undefined
+    ),
+});
+
+export type GuidanceTable = z.infer<typeof guidanceTableSchema>;
+
 export const draftSectionSchema = z.object({
   section_id: z.string(),
   title: z.string(),
   generated_at: z.string(),
   model: z.string().optional(),
+  editorial_status: z.enum(["draft", "reviewed"]).optional(),
   practice_survey: z.string(),
   draft_recommendation: z.string(),
   regional_variants: z.string().nullable(),
   open_issues: z.string().nullable(),
+  guidance_tables: z.array(guidanceTableSchema).optional(),
+  recommendation_clauses: z.array(recommendationClauseSchema).optional(),
+  citation_registry: z.array(citationRegistryEntrySchema).optional(),
   citations: z.array(draftCitationSchema),
   supporting_slugs: z.array(z.string()),
 });

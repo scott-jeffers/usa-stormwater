@@ -73,11 +73,6 @@
       "page_or_section": "Cover"
     },
     {
-      "field": "document_metadata.adoption_or_effective_date",
-      "excerpt": "Date 4/23/15",
-      "page_or_section": "Cover"
-    },
-    {
       "field": "document_metadata.relationship_to_state_manual",
       "excerpt": "Implementation of the source control and structural treatment control BMPs in this Manual will reduce pollutant loads in stormwater runoff ... to meet National Pollutant Discharge Elimination System (NPDES) permit requirements.",
       "page_or_section": "Section 1.1, Page 1-1"
@@ -105,11 +100,12 @@
   ],
   "extraction_quality": {
     "confidence": "high",
-    "needs_human_review": false,
-    "review_notes": "WQV (0.60 in) and WQF (2-year Rational) sizing criteria are explicit. Regional manual covers Reno, Sparks, and Washoe County under MS4 permit NVS000001.",
+    "needs_human_review": true,
+    "review_notes": "WQV (0.60 in) and WQF (2-year Rational) sizing criteria are explicit. Regional manual covers Reno, Sparks, and Washoe County under MS4 permit NVS000001. Pipeline excerpt repair removed 1 unlocated citation(s).",
     "fields_not_found": [
       "document_metadata.last_revised_date",
-      "design_criteria.required_hydrologic_hydraulic_software"
+      "design_criteria.required_hydrologic_hydraulic_software",
+      "document_metadata.adoption_or_effective_date"
     ]
   },
   "source": {

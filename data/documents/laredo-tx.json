@@ -38,18 +38,14 @@
       "Low Impact Development (LID) planning referenced in manual TOC"
     ]
   },
-  "evidence": [
-    {
-      "field": "document_metadata.jurisdiction_name",
-      "excerpt": "Laredo — city stormwater guidance portal 403; San Antonio drainage criteria as South TX pattern",
-      "page_or_section": "Coverage note"
-    }
-  ],
+  "evidence": [],
   "extraction_quality": {
     "confidence": "low",
     "needs_human_review": true,
-    "review_notes": "South Texas municipal placeholder using San Antonio criteria — replace with city manual when available.",
-    "fields_not_found": []
+    "review_notes": "South Texas municipal placeholder using San Antonio criteria — replace with city manual when available. Pipeline excerpt repair removed 1 unlocated citation(s).",
+    "fields_not_found": [
+      "document_metadata.jurisdiction_name"
+    ]
   },
   "source": {
     "document_url": "https://www.sanantonio.gov/Portals/0/Files/CIMS/Services/UDC-Amendment-Drainage-Manual.pdf",

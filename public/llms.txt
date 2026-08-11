@@ -4,6 +4,7 @@
 
 Website: https://stormwateratlas.com/
 About & examples: https://stormwateratlas.com/about/
+Practice synthesis: https://stormwateratlas.com/national/
 
 ## Machine-readable data
 
@@ -11,15 +12,19 @@ About & examples: https://stormwateratlas.com/about/
 - One manual: https://stormwateratlas.com/data/manuals/{slug}.json
 - Full atlas dump: https://stormwateratlas.com/data/atlas.json
 - Field guide: https://stormwateratlas.com/data/schema.json
+- Practice synthesis outline: https://stormwateratlas.com/data/national/outline.json
 
 Each record includes jurisdiction metadata, design criteria (storm return periods, water-quality volume method, peak-flow methods, software, BMP categories), verbatim evidence excerpts with page/section, extraction confidence, and source PDF / agency URLs.
+
+The `/national/` reader is a **U.S. Stormwater Practice Synthesis** (research draft) — not a design manual or adopted regulation.
 
 ## Suggested uses
 
 - Compare design storms or BMP lists across states and cities
 - Look up a jurisdiction and return the cited quote for a field
 - Filter manuals that mention a method, software package, or BMP type
+- Browse synthesized practice guidance with atlas-backed citations
 
 ## Important
 
-Data is for research reference only. Always verify against the current official agency document linked in each record. Some extractions fields may need human review.
+Data is for research reference only. Always verify against the current official agency document linked in each record. Some extracted fields may need human review.

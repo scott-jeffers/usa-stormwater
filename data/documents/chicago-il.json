@@ -72,24 +72,9 @@
       "page_or_section": "Cover"
     },
     {
-      "field": "document_metadata.version_or_edition",
-      "excerpt": "August 2024",
-      "page_or_section": "Cover"
-    },
-    {
-      "field": "document_metadata.adoption_or_effective_date",
-      "excerpt": "August 2024",
-      "page_or_section": "Cover"
-    },
-    {
-      "field": "document_metadata.last_revised_date",
-      "excerpt": "August 2024",
-      "page_or_section": "Cover"
-    },
-    {
       "field": "document_metadata.relationship_to_state_manual",
-      "excerpt": "The purpose of this 'Stormwater Manual' (Manual) is to help applicants understand and comply with the Ordinance and accompanying Chapter III 'Requirements for Stormwater Management' of the 'Regulations for Sewer Construction and Stormwater Management' (Regulations).",
-      "page_or_section": "Page iv, Foreword"
+      "excerpt": "Introduction This Stormwater Manual (Manual) was created for developers, engineers and architects preparing development plans in the City of Chicago. The goals of the Manual are to provide the technical tools and guidelines necessary to comply with the Stormwater Ordinance an",
+      "page_or_section": "p. 7"
     },
     {
       "field": "design_criteria.design_storm_return_periods_years",
@@ -113,15 +98,19 @@
     },
     {
       "field": "design_criteria.approved_bmp_categories",
-      "excerpt": "Green Roofs... Rooftop Runoff BMPs (Planter Boxes, Rain Barrels and Cisterns)... Permeable Paving... Natural Landscaping... Vegetated Filter Strips... Bioinfiltration Systems... Drainage Swales... Infiltration Vault",
-      "page_or_section": "Page 36, Section 3.3.1"
+      "excerpt": "control and are discussed below. • Green Roofs • Rooftop Runoff BMPs (Planter Boxes, Rain Barrels and Cisterns) • Permeable Paving • Natural Landscaping • Vegetated Filter Strips • Bioinfiltration Systems • Drainage Swales • Infiltration Vault (also see Section 2.5.2)",
+      "page_or_section": "p. 42"
     }
   ],
   "extraction_quality": {
     "confidence": "high",
-    "needs_human_review": false,
-    "review_notes": "The document clearly defines the City of Chicago's independent stormwater manual, its return periods (2, 5, 10, 25, 100 years), its volume control target (0.5 inches of runoff or 15% impervious reduction), and its calculation methods (Rational, Modified Rational, and hydrograph models). All requested fields were successfully extracted with exact text evidence.",
-    "fields_not_found": []
+    "needs_human_review": true,
+    "review_notes": "The document clearly defines the City of Chicago's independent stormwater manual, its return periods (2, 5, 10, 25, 100 years), its volume control target (0.5 inches of runoff or 15% impervious reduction), and its calculation methods (Rational, Modified Rational, and hydrograph models). All requested fields were successfully extracted with exact text evidence. Pipeline excerpt repair removed 3 unlocated citation(s).",
+    "fields_not_found": [
+      "document_metadata.version_or_edition",
+      "document_metadata.adoption_or_effective_date",
+      "document_metadata.last_revised_date"
+    ]
   },
   "source": {
     "document_url": "https://www.chicago.gov/content/dam/city/depts/water/general/Engineering/SewerConstStormReq/2024StormwaterManual.pdf",

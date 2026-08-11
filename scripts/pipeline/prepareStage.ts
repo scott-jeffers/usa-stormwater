@@ -13,7 +13,7 @@ import type { ManifestJob } from "../../lib/pipeline/types";
 
 const DOWNLOAD_TIMEOUT_MS = 180_000;
 
-async function downloadPdf(url: string, destPath: string): Promise<void> {
+export async function downloadPdf(url: string, destPath: string): Promise<void> {
   const controller = new AbortController();
   const timer = setTimeout(() => controller.abort(), DOWNLOAD_TIMEOUT_MS);
   try {
@@ -35,13 +35,36 @@ async function downloadPdf(url: string, destPath: string): Promise<void> {
   }
 }
 
+/** Ensure samples/queue/{id}.pdf exists; download if needed. */
+export async function ensureJobPdf(job: ManifestJob): Promise<string> {
+  const pdfPath = samplesQueuePath(job.id, "pdf");
+  if (existsSync(pdfPath)) return pdfPath;
+  if (!job.pdfUrl) {
+    throw new Error(`PDF missing and no pdfUrl for ${job.id}`);
+  }
+  console.log(`[${job.id}] Downloading PDF...`);
+  await downloadPdf(job.pdfUrl, pdfPath);
+  return pdfPath;
+}
+
 export async function runPrepareStage(
   store: PipelineProgressStore,
   job: ManifestJob,
   opts: { force: boolean; dryRun: boolean }
 ): Promise<"done" | "skipped" | "failed" | "noop"> {
   const current = store.ensureJob(job.id).stages.prepare;
-  if (!opts.force && (current.status === "done" || current.status === "skipped")) {
+  const pdfPath = samplesQueuePath(job.id, "pdf");
+  const pdfMissing = !existsSync(pdfPath);
+
+  // Re-run prepare when bootstrapped "done" but PDF was never downloaded locally
+  if (
+    !opts.force &&
+    current.status === "done" &&
+    !pdfMissing
+  ) {
+    return "noop";
+  }
+  if (!opts.force && current.status === "skipped") {
     return "noop";
   }
 
@@ -60,7 +83,6 @@ export async function runPrepareStage(
     return "skipped";
   }
 
-  const pdfPath = samplesQueuePath(job.id, "pdf");
   if (opts.dryRun) {
     console.log(`[${job.id}] dry-run prepare → ${pdfPath}`);
     return "noop";
@@ -75,12 +97,7 @@ export async function runPrepareStage(
   await store.saveAndLog({ id: job.id, stage: "prepare", status: "running" });
 
   try {
-    if (!existsSync(pdfPath)) {
-      console.log(`[${job.id}] Downloading PDF...`);
-      await downloadPdf(job.pdfUrl, pdfPath);
-    } else {
-      console.log(`[${job.id}] Using existing PDF`);
-    }
+    await ensureJobPdf(job);
     store.setJobSlug(job.id, job.id);
     store.setStage(job.id, "prepare", {
       status: "done",

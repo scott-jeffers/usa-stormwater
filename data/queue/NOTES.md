@@ -314,7 +314,7 @@ Extraction is done by **Cursor agents** (not Gemini). After `npm run prepare:que
 - `albuquerque-nm`: superseded_by albuquerque-nm-gsi
 - `wisconsin-technical`: superseded_by wi-dnr-1001
 - `delaware-esc`: superseded_by de-wet-ponds-draft (partial wet-ponds coverage)
-- `tempe-az`: Wrong PDF (Historic Preservation memo); need real Tempe drainage/stormwater manual URL
+- `tempe-az`: EXCLUDED — no design manual found (PDF 88295 was Historic Preservation/DBP). City publishes SWMP/MS4 reports only. Use Maricopa County / Mesa / Chandler for AZ local practice.
 
 ## Coverage gaps (P1)
 

@@ -1,0 +1,653 @@
+{
+  "section_id": "hydrology",
+  "title": "Hydrology and Design Storms",
+  "generated_at": "2026-08-11T03:43:21.047Z",
+  "model": "heuristic+editorial",
+  "editorial_status": "reviewed",
+  "practice_survey": "Hydrology chapters in U.S. manuals almost always separate storms by purpose: water-quality or treatment capture, channel or overbank protection, and flood or emergency conveyance. Among manuals that list return periods (~81% of the atlas; ~91% of Tier A), the 100-, 10-, and 2-year events appear most often. Peak-flow methods are dominated by NRCS/SCS and Rational Method families, with continuous or event models required for more complex sites.",
+  "draft_recommendation": "Require designers to name the design purpose before selecting a storm or method. Present return periods and water-quality depths as guidance with jurisdiction footnotes; more-stringent local criteria control. Match methods to site scale—Rational with documented area limits, NRCS for most site design, continuous simulation where permits require volume control. Address arid West, coastal, and cold-climate forks explicitly. Use the child sections for storms, methods, and software detail.",
+  "regional_variants": "Arid West: larger capture depths and infiltration limits. Coastal: tide and surge interactions. Cold climate: frozen ground and snowmelt hydrographs. Karst and high groundwater may disallow infiltration assumptions.",
+  "open_issues": "Which return periods belong in a national MOP versus guidance-only. Single national WQ depth versus climate bands. Software: prescribe versus allow-list.",
+  "guidance_tables": [
+    {
+      "id": "design-storm-criteria",
+      "title": "Design storms by purpose",
+      "caption": "Draft national guidance grounded in atlas practice — not a design manual or adopted regulation.",
+      "columns": [
+        "Design purpose",
+        "Suggested national guidance",
+        "Atlas note"
+      ],
+      "rows": [
+        [
+          "Water quality / treatment",
+          "Prefer a rainfall or runoff depth, or a percentile WQ storm — not a long return period alone",
+          "WQ method field present in 95% of all manuals (88% of Tier A)"
+        ],
+        [
+          "Channel / overbank protection",
+          "Commonly select a short return period in the 1–10 year range; document local channel criteria",
+          "2-yr: 64% of listing manuals (155). 10-yr: 74% of listing manuals (178)"
+        ],
+        [
+          "Peak matching / detention",
+          "Commonly use a 2–25 year suite (sometimes through 100-year); match pre-development peaks unless volume-based alternative applies",
+          "2-yr: 64% of listing manuals (155). 25-yr: 43% of listing manuals (104). 100-yr: 88% of listing manuals (212)"
+        ],
+        [
+          "Flood / emergency conveyance",
+          "Commonly design for the 100-year event with freeboard and a safe overflow path",
+          "100-yr: 88% of listing manuals (212)"
+        ]
+      ],
+      "row_citations": [
+        [
+          "1",
+          "2",
+          "3",
+          "5",
+          "6"
+        ],
+        [
+          "4"
+        ],
+        [
+          "4",
+          "7"
+        ],
+        [
+          "7"
+        ]
+      ]
+    },
+    {
+      "id": "method-criteria",
+      "title": "When to use common peak-flow methods",
+      "caption": "Draft national guidance grounded in atlas practice — not a design manual or adopted regulation.",
+      "columns": [
+        "Method family",
+        "Suggested national guidance",
+        "Atlas note"
+      ],
+      "rows": [
+        [
+          "Rational Method",
+          "Allow for small, largely impervious catchments only; document Tc and intensity assumptions; respect local area limits",
+          "41% of manuals with methods (111)"
+        ],
+        [
+          "NRCS / SCS",
+          "Default for most site design; document CN, rainfall distribution, and Tc",
+          "64% of manuals with methods (174)"
+        ],
+        [
+          "Continuous / event models",
+          "Require where permits demand volume control, complex routing, or LID credit verification",
+          "14% of manuals with methods (38)"
+        ],
+        [
+          "Unit hydrograph / other",
+          "Allow when documented in the controlling jurisdiction manual",
+          "5% of manuals with methods (14)"
+        ]
+      ],
+      "row_citations": [
+        [
+          "8",
+          "9"
+        ],
+        [],
+        [
+          "9",
+          "15",
+          "16",
+          "19"
+        ],
+        [
+          "13",
+          "22",
+          "25",
+          "26",
+          "27"
+        ]
+      ]
+    },
+    {
+      "id": "software-criteria",
+      "title": "Software allow-list posture (capability, not a mandated product)",
+      "caption": "Draft national guidance grounded in atlas practice — not a design manual or adopted regulation.",
+      "columns": [
+        "Capability need",
+        "Suggested national guidance",
+        "Atlas note"
+      ],
+      "rows": [
+        [
+          "Event / watershed hydrology",
+          "Accept tools that implement approved methods and export reviewable inputs/outputs (e.g. HEC-HMS class)",
+          "29% of manuals with software lists (22)"
+        ],
+        [
+          "Urban runoff / LID continuous",
+          "Accept SWMM-class tools where continuous or multi-event simulation is required",
+          "17% of manuals with software lists (13)"
+        ],
+        [
+          "Site detention / pond routing",
+          "Accept HydroCAD-class or equivalent tools used by the review agency",
+          "21% of manuals with software lists (16)"
+        ],
+        [
+          "Open channel / floodplain",
+          "Accept HEC-RAS-class tools for conveyance and floodplain checks when required",
+          "13% of manuals with software lists (10)"
+        ],
+        [
+          "Submittal hygiene",
+          "Require version disclosure and native input files with the drainage report — do not mandate a single brand",
+          "Atlas lists named tools; product mandates are uncommon"
+        ]
+      ],
+      "row_citations": [
+        [
+          "10",
+          "12",
+          "18",
+          "21"
+        ],
+        [
+          "18",
+          "20",
+          "21",
+          "24"
+        ],
+        [
+          "11",
+          "12",
+          "17",
+          "21"
+        ],
+        [
+          "10",
+          "14",
+          "18",
+          "23"
+        ],
+        []
+      ]
+    }
+  ],
+  "recommendation_clauses": [
+    {
+      "id": "purpose-first",
+      "number": "3.1",
+      "text": "Require designers to name the design purpose (water quality, channel protection, peak matching, or flood conveyance) before selecting a storm or method.",
+      "citation_keys": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "confidence": "editorial"
+    },
+    {
+      "id": "storms-by-purpose",
+      "number": "3.2",
+      "text": "Present return periods and water-quality depths as guidance with jurisdiction footnotes; more-stringent local criteria control.",
+      "citation_keys": [
+        "4",
+        "7",
+        "1",
+        "2"
+      ],
+      "confidence": "field_verified"
+    },
+    {
+      "id": "methods-by-scale",
+      "number": "3.3",
+      "text": "Match methods to site scale—Rational with documented area limits, NRCS for most site design, continuous simulation where permits require volume control.",
+      "citation_keys": [
+        "8",
+        "9",
+        "13",
+        "15"
+      ],
+      "confidence": "field_verified"
+    },
+    {
+      "id": "regional-forks",
+      "number": "3.4",
+      "text": "Address arid West, coastal, and cold-climate forks explicitly; karst and high groundwater may disallow infiltration assumptions.",
+      "citation_keys": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "confidence": "editorial"
+    }
+  ],
+  "citation_registry": [
+    {
+      "key": "1",
+      "slug": "ak-state",
+      "state_code": "AK",
+      "excerpt": "Treat the runoff from 90% of the storms that occur in an average year. For Alaska, this equates to providing water quality treatment for the runoff resulting from a rainfall depth of 1.25 inches or less. The goal is to reduce average annual post-development TSS loadings by 80%. WQv = (Rv) × (A) × (P) / 12",
+      "page_or_section": "Table 3-4; Section 3.3.1",
+      "confidence": "field_verified",
+      "field": "design_criteria.water_quality_volume_method"
+    },
+    {
+      "key": "2",
+      "slug": "alabama-handbook",
+      "state_code": "AL",
+      "excerpt": "the first flush equates to the first 1\" of runoff which carries 90% of the pollution load from a storm (USGS, 1984)",
+      "page_or_section": "Page 9, Chapter 2",
+      "confidence": "field_verified",
+      "field": "design_criteria.water_quality_volume_method"
+    },
+    {
+      "key": "3",
+      "slug": "billings-mt",
+      "state_code": "MT",
+      "excerpt": "infiltrate, evapotranspire, and/or capture for reuse the post-construction runoff generated from the first 0.5 inches of rainfall from a 24-hour storm preceded by 48 hours of no measurable precipitation... remainder... remove 80 percent total suspended solids (TSS)",
+      "page_or_section": "Section 1.3.1, Pages 1-2 to 1-3",
+      "confidence": "field_verified",
+      "field": "design_criteria.water_quality_volume_method"
+    },
+    {
+      "key": "4",
+      "slug": "ca-caltrans-construction",
+      "state_code": "CA",
+      "excerpt": "A 2-year, 24-hour storm event has been used by many as a default event, but recent studies have shown that this may oversize the system",
+      "page_or_section": "Section 7.1.5 NS-5 Clear Water Diversion, Page 7-5",
+      "confidence": "field_verified",
+      "field": "design_criteria.design_storm_return_periods_years"
+    },
+    {
+      "key": "5",
+      "slug": "ct-state",
+      "state_code": "CT",
+      "excerpt": "WQV = (P)(R)(A)/12 where: WQV = water quality volume (cubic feet) P = 1.3 inches (90th percentile rainfall event) R = volumetric runoff coefficient = 0.05+0.009(I) I = post- development impervious area (percent) A = post-development total drainage area of site or design point (square feet)",
+      "page_or_section": "Page 46, Water Quality Volume Calculation",
+      "confidence": "field_verified",
+      "field": "design_criteria.water_quality_volume_method"
+    },
+    {
+      "key": "6",
+      "slug": "fl-fsesci-tier1",
+      "state_code": "FL",
+      "excerpt": "temporary (or permanent) sediment or wet detention basin providing 3,600 cubic feet of storage per acre drained must be provided",
+      "page_or_section": "Chapter 3, Page 103",
+      "confidence": "field_verified",
+      "field": "design_criteria.water_quality_volume_method"
+    },
+    {
+      "key": "7",
+      "slug": "ga-state",
+      "state_code": "GA",
+      "excerpt": "the 1-year, 25-year, and 100-year return intervals... 2-year through the 25-year return frequency storm events",
+      "page_or_section": "105, 112",
+      "confidence": "field_verified",
+      "field": "design_criteria.design_storm_return_periods_years"
+    },
+    {
+      "key": "8",
+      "slug": "hawaii-dot-pcbmp",
+      "state_code": "HI",
+      "excerpt": "Flow rate calculation shall be based upon the Rational Method as follows: WQFR = C x i x AT",
+      "page_or_section": "Section 7.3.2, Page 7-7",
+      "confidence": "field_verified",
+      "field": "design_criteria.peak_flow_calculation_method"
+    },
+    {
+      "key": "9",
+      "slug": "idaho-bmp-catalog",
+      "state_code": "ID",
+      "excerpt": "The rational method and NRCS Technical Release-55 (TR-55) method are simple and widely used for performing single event design storm analysis... continuous simulation models... HSPF... HEC-HMS, and... SWMM... For rain-on-snow events, an energy balance approach using a computer model such as HEC-HMS is recommended... de",
+      "page_or_section": "Sections 3.6.3–3.6.3.2, Pages 53–59",
+      "confidence": "field_verified",
+      "field": "design_criteria.peak_flow_calculation_method"
+    },
+    {
+      "key": "10",
+      "slug": "mn-state-2008",
+      "state_code": "MN",
+      "excerpt": "TR-55 (original or DOS) ... HEC-1 ... HEC-HMS ... WinTR-20 (or TR-20) ... WinTR-55 ... HEC-RAS",
+      "page_or_section": "Chapter 8, Table 8.1 Modeling Tool Selection",
+      "confidence": "field_verified",
+      "field": "design_criteria.required_hydrologic_hydraulic_software"
+    },
+    {
+      "key": "11",
+      "slug": "ny-bluebook",
+      "state_code": "NY",
+      "excerpt": "These data can be imported into HydroCAD, USDA NRCS TR20, and other computer models",
+      "page_or_section": "Page 1.5",
+      "confidence": "field_verified",
+      "field": "design_criteria.required_hydrologic_hydraulic_software"
+    },
+    {
+      "key": "12",
+      "slug": "ny-state",
+      "state_code": "NY",
+      "excerpt": "Hydraulic and hydrologic modeling software, such as USDA NRCS TR20, HydroCAD, Pond Pack, StormCAD, Hydraflow, and Hydrologic Engineering Center Hydrologic Modeling System (HEC-HMS) and others, shall be used",
+      "page_or_section": "Section 4.9",
+      "confidence": "field_verified",
+      "field": "design_criteria.required_hydrologic_hydraulic_software"
+    },
+    {
+      "key": "13",
+      "slug": "pa-state",
+      "state_code": "PA",
+      "excerpt": "Methods include the NRCS hydrologic soil-cover complex method, Green and Ampt equation, Snyder Unit Hydrograph, and WINSLAMM small storm hydrology method.",
+      "page_or_section": "Page 2-53",
+      "confidence": "field_verified",
+      "field": "design_criteria.peak_flow_calculation_method"
+    },
+    {
+      "key": "14",
+      "slug": "vt-state",
+      "state_code": "VT",
+      "excerpt": "The models TR-55 and TR-20 (or approved equivalent) will be used for determining peak discharge rates",
+      "page_or_section": "2-14",
+      "confidence": "field_verified",
+      "field": "design_criteria.required_hydrologic_hydraulic_software"
+    },
+    {
+      "key": "15",
+      "slug": "wa-state-western",
+      "state_code": "WA",
+      "excerpt": "Rational method",
+      "page_or_section": "Glossary, page 1303",
+      "confidence": "field_verified",
+      "field": "design_criteria.peak_flow_calculation_method"
+    },
+    {
+      "key": "16",
+      "slug": "west-virginia-manual",
+      "state_code": "WV",
+      "excerpt": "utilizes the NRCS TR55 runoff equations 2-1 through 2-4 to derive a reduced curve number",
+      "page_or_section": "3.4.4",
+      "confidence": "field_verified",
+      "field": "design_criteria.peak_flow_calculation_method"
+    },
+    {
+      "key": "17",
+      "slug": "charlotte-nc",
+      "state_code": "NC",
+      "excerpt": "The City will typically use HEC software to verify designs submitted by the development community. In addition, the City may check designs using HydroCAD and StormCAD. Designers may use any software tools that are based on the methods described in this manual.",
+      "page_or_section": "Chapter 1, Section 1.3, Page 7",
+      "confidence": "field_verified",
+      "field": "design_criteria.required_hydrologic_hydraulic_software"
+    },
+    {
+      "key": "18",
+      "slug": "chesapeake-va",
+      "state_code": "VA",
+      "excerpt": "25-yr. 7.0” 50-yr. 8.17” 100 9.44” C. Acceptable methods for runoff analysis are tabulated below: Model Major Sys. Minor Sys. Hydrologic Hydraulic Water Quality Hydrology Software HEC-GeoHMS X X HEC-HMS X X TR-55 X TR-20 X Pond Pack X X X WMS X X Watershed Modeling X X Hydrauli",
+      "page_or_section": "p. 5",
+      "confidence": "field_verified",
+      "field": "design_criteria.required_hydrologic_hydraulic_software"
+    },
+    {
+      "key": "19",
+      "slug": "chicago-il",
+      "state_code": "IL",
+      "excerpt": "Modified Rational Method to calculate the maximum volume of stormwater... Rational Method... hydrograph methods with regional rainfall data... HEC-1 and HEC-HMS... TR-20... TR-55... SWMM",
+      "page_or_section": "Pages 7, 15, 16, B-6, B-7",
+      "confidence": "field_verified",
+      "field": "design_criteria.peak_flow_calculation_method"
+    },
+    {
+      "key": "20",
+      "slug": "dc-guidebook",
+      "state_code": "DC",
+      "excerpt": "HEC-1, WinTR-55, TR-20, and SWMM Computer Models",
+      "page_or_section": "Appendix H, Section H.4",
+      "confidence": "field_verified",
+      "field": "design_criteria.required_hydrologic_hydraulic_software"
+    },
+    {
+      "key": "21",
+      "slug": "detroit-mi",
+      "state_code": "MI",
+      "excerpt": "Rational Method, EPA SWMM, HydroCAD, StormCAD, or other DWSD-approved model... NRCS Curve Number Approach, EPA SWMM, HEC-HMS, TR-55, TR-20, HydroCAD, StormCAD, or other DWSD-approved model",
+      "page_or_section": "Chapter 4, Table 4-5, Page 4-9",
+      "confidence": "field_verified",
+      "field": "design_criteria.required_hydrologic_hydraulic_software"
+    },
+    {
+      "key": "22",
+      "slug": "houston-tx",
+      "state_code": "TX",
+      "excerpt": "Rational Method: The Rational Method will be used to estimate peak flows for individual drainage areas up to 200 acres in size, and for project areas up to 640 acres in size.",
+      "page_or_section": "Section 2A, 9.2.01.B.2.a, Page 9-12",
+      "confidence": "field_verified",
+      "field": "design_criteria.peak_flow_calculation_method"
+    },
+    {
+      "key": "23",
+      "slug": "los-angeles-ca",
+      "state_code": "CA",
+      "excerpt": "LACPW developed a hydrologic calculator (HydroCalc)... Use of this program is encouraged",
+      "page_or_section": "Section 6.3, Page 6-3",
+      "confidence": "field_verified",
+      "field": "design_criteria.required_hydrologic_hydraulic_software"
+    },
+    {
+      "key": "24",
+      "slug": "minneapolis-mn",
+      "state_code": "MN",
+      "excerpt": "The hydrologic and hydraulic models accepted by the City of Minneapolis include: HydroCAD; XP-SWMM",
+      "page_or_section": "Section 4.3.1.6, Page 26",
+      "confidence": "field_verified",
+      "field": "design_criteria.required_hydrologic_hydraulic_software"
+    },
+    {
+      "key": "25",
+      "slug": "san-antonio-tx",
+      "state_code": "TX",
+      "excerpt": "For drainage areas less than 200 hundred (200) acres, the basis for computing runoff shall be the rational formula (as defined in Section 5.3) or some other method provided it is acceptable to the Director of TCI.",
+      "page_or_section": "Section 5.2.2",
+      "confidence": "field_verified",
+      "field": "design_criteria.peak_flow_calculation_method"
+    },
+    {
+      "key": "26",
+      "slug": "anchorage-ak",
+      "state_code": "AK",
+      "excerpt": "4.5.2 Rational Method... 4.5.3 NRCS (SCS) Peak Flow Method (Tabular Method)... 4.5.4 USGS Regression Equations... 4.5.5 NRCS (SCS) Tabular Hydrograph Method",
+      "page_or_section": "Table of Contents / Chapter 4",
+      "confidence": "field_verified",
+      "field": "design_criteria.peak_flow_calculation_method"
+    },
+    {
+      "key": "27",
+      "slug": "mesquite-tx",
+      "state_code": "TX",
+      "excerpt": "current edition of the NCTCOG Integrated Stormwater Management (iSWM™) Hydrology Technical Manual",
+      "page_or_section": "§3.2",
+      "confidence": "field_verified",
+      "field": "design_criteria.peak_flow_calculation_method"
+    },
+    {
+      "key": "28",
+      "slug": "pa-state",
+      "state_code": "PA",
+      "excerpt": "tained in 25 Pa. Code § 102.8(g)(3), the PCSM Plan preparer has two options: 1. Design storm analysis approach; and 2. Storm of record approach. Peak rate management analysis requires the use of a unit hydrograph-based hydrologic model in conjunction w",
+      "page_or_section": "pages 60-60",
+      "confidence": "corpus_pattern",
+      "field": "corpus_chunk"
+    },
+    {
+      "key": "29",
+      "slug": "mn-state-2008",
+      "state_code": "MN",
+      "excerpt": "state are included in TP-40 and reproduced in Appendix B of this Manual: 1-Year design storm• 2-Year design storm• 5-Year design storm• 10-Year design storm• 25-Year design storm• 100-Year design storm• Design engineers typically make use of precipitat",
+      "page_or_section": "pages 191-191",
+      "confidence": "corpus_pattern",
+      "field": "corpus_chunk"
+    },
+    {
+      "key": "30",
+      "slug": "ct-state",
+      "state_code": "CT",
+      "excerpt": "Climate Change Considerations 549 Options Evaluated Stormwater Quantity Control Design Storm As described above, the Workgroup evaluated several alternative approaches for updating the stormwater quantity control design storm precipitation (24-hour des",
+      "page_or_section": "pages 556-556",
+      "confidence": "corpus_pattern",
+      "field": "corpus_chunk"
+    },
+    {
+      "key": "31",
+      "slug": "ma-state-draft",
+      "state_code": "MA",
+      "excerpt": "n multiply that value by a scaling factor of 0.9. Steps to Obtain Site-Specific Design Storm Depths 1) Navigate to NOAA Atlas 14: https://hdsc.nws.noaa.gov/hdsc/pfds/ (Nationwide) or https://hdsc.nws.noaa.gov/hdsc/pfds/pfds_map_cont.html?bkmrk=ma (Mass",
+      "page_or_section": "pages 162-164",
+      "confidence": "corpus_pattern",
+      "field": "corpus_chunk"
+    },
+    {
+      "key": "32",
+      "slug": "flagstaff-az",
+      "state_code": "AZ",
+      "excerpt": "2025 STORMWATER MANAGEMENT DESIGN MANUAL February 2025 Page 12 • Identify design storm recurrence intervals • Discussion and justification of other criteria or calculation methods used that are not presented in or referenced by this Manual • Summ",
+      "page_or_section": "pages 24-25",
+      "confidence": "corpus_pattern",
+      "field": "corpus_chunk"
+    },
+    {
+      "key": "33",
+      "slug": "ak-state",
+      "state_code": "AK",
+      "excerpt": "ruction phases and afterwards. 1.1.2.1 New Development Management Measure 1. By design or performance a. After construction has been completed and the site is permanently stabilized, reduce the average annual total suspended solid (TSS) loadings",
+      "page_or_section": "pages 23-23",
+      "confidence": "corpus_pattern",
+      "field": "corpus_chunk"
+    },
+    {
+      "key": "34",
+      "slug": "alabama-handbook",
+      "state_code": "AL",
+      "excerpt": "street gutters and ditches, storm sewers, culverts, and open channels which are designed to prevent inconvenience and minor property damages from relatively frequent storm events. Of course, the most effective strategy for flood control at this l",
+      "page_or_section": "pages 24-24",
+      "confidence": "corpus_pattern",
+      "field": "corpus_chunk"
+    },
+    {
+      "key": "35",
+      "slug": "akron-oh",
+      "state_code": "OH",
+      "excerpt": "(Pond) addressing issues such as: • Ponds must incorporate emergency spillways designed to safely convey flows exceeding design storm flows. • Outlet structures should be built to withstand floatation and incorporate anti-vortex and debris or tr",
+      "page_or_section": "pages 40-40",
+      "confidence": "corpus_pattern",
+      "field": "corpus_chunk"
+    },
+    {
+      "key": "36",
+      "slug": "albany-ny",
+      "state_code": "NY",
+      "excerpt": "standard SMPs with RRv capacity. The objective is to replicate pre-development hydrology and provide groundwater recharge by maintaining pre-construction infiltration, peak runoff flow, discharge volume, as well as minimizing concentrated flow by u",
+      "page_or_section": "pages 30-30",
+      "confidence": "corpus_pattern",
+      "field": "corpus_chunk"
+    }
+  ],
+  "citations": [
+    {
+      "slug": "pa-state",
+      "chunk_id": "pa-state-c0048",
+      "page_or_section": "pages 60-60",
+      "excerpt": "tained in 25 Pa. Code § 102.8(g)(3), the PCSM Plan preparer has two options: 1. Design storm analysis approach; and 2. Storm of record approach. Peak rate management analysis requires the use of a unit hydrograph-based hydrologic model in conjunction w"
+    },
+    {
+      "slug": "mn-state-2008",
+      "chunk_id": "mn-state-2008-c0160",
+      "page_or_section": "pages 191-191",
+      "excerpt": "state are included in TP-40 and reproduced in Appendix B of this Manual: 1-Year design storm• 2-Year design storm• 5-Year design storm• 10-Year design storm• 25-Year design storm• 100-Year design storm• Design engineers typically make use of precipitat"
+    },
+    {
+      "slug": "pa-state",
+      "chunk_id": "pa-state-c0015",
+      "page_or_section": "pages 26-26",
+      "excerpt": "ons are incorporated in this Manual by using increased rainfall volumes for the design storms and more recent rainfall records with some accommodation for climate change when using continuous simulation. It is expected that future research will provide"
+    },
+    {
+      "slug": "ct-state",
+      "chunk_id": "ct-state-c0454",
+      "page_or_section": "pages 556-556",
+      "excerpt": "Climate Change Considerations 549 Options Evaluated Stormwater Quantity Control Design Storm As described above, the Workgroup evaluated several alternative approaches for updating the stormwater quantity control design storm precipitation (24-hour des"
+    },
+    {
+      "slug": "ma-state-draft",
+      "chunk_id": "ma-state-draft-c0132",
+      "page_or_section": "pages 162-164",
+      "excerpt": "n multiply that value by a scaling factor of 0.9. Steps to Obtain Site-Specific Design Storm Depths 1) Navigate to NOAA Atlas 14: https://hdsc.nws.noaa.gov/hdsc/pfds/ (Nationwide) or https://hdsc.nws.noaa.gov/hdsc/pfds/pfds_map_cont.html?bkmrk=ma (Mass"
+    },
+    {
+      "slug": "flagstaff-az",
+      "chunk_id": "flagstaff-az-c0036",
+      "page_or_section": "pages 24-25",
+      "excerpt": "2025 STORMWATER MANAGEMENT DESIGN MANUAL February 2025 Page 12 • Identify design storm recurrence intervals • Discussion and justification of other criteria or calculation methods used that are not presented in or referenced by this Manual • Summ"
+    },
+    {
+      "slug": "ak-state",
+      "chunk_id": "ak-state-c0021",
+      "page_or_section": "pages 23-23",
+      "excerpt": "ruction phases and afterwards. 1.1.2.1 New Development Management Measure 1. By design or performance a. After construction has been completed and the site is permanently stabilized, reduce the average annual total suspended solid (TSS) loadings"
+    },
+    {
+      "slug": "ak-state",
+      "chunk_id": "ak-state-c0037",
+      "page_or_section": "pages 31-31",
+      "excerpt": "year, 6-hour rain event (before and after the project is completed). One of the design criteria for projects using oil and grit separators, is that to obtain an ADEC letter of non-objection for discharge to storm sewers, an applicant must demonst"
+    },
+    {
+      "slug": "alabama-handbook",
+      "chunk_id": "alabama-handbook-c0017",
+      "page_or_section": "pages 24-24",
+      "excerpt": "street gutters and ditches, storm sewers, culverts, and open channels which are designed to prevent inconvenience and minor property damages from relatively frequent storm events. Of course, the most effective strategy for flood control at this l"
+    },
+    {
+      "slug": "alabama-handbook",
+      "chunk_id": "alabama-handbook-c0018",
+      "page_or_section": "pages 25-25",
+      "excerpt": "for use as best management practices for nonpoint source pollution control. The design criteria of these practices for this purpose, however, are often different. The primary design strategy for pollution removal is to maximize the detention time"
+    },
+    {
+      "slug": "akron-oh",
+      "chunk_id": "akron-oh-c0045",
+      "page_or_section": "pages 40-40",
+      "excerpt": "(Pond) addressing issues such as: • Ponds must incorporate emergency spillways designed to safely convey flows exceeding design storm flows. • Outlet structures should be built to withstand floatation and incorporate anti-vortex and debris or tr"
+    },
+    {
+      "slug": "albany-ny",
+      "chunk_id": "albany-ny-c0017",
+      "page_or_section": "pages 30-30",
+      "excerpt": "standard SMPs with RRv capacity. The objective is to replicate pre-development hydrology and provide groundwater recharge by maintaining pre-construction infiltration, peak runoff flow, discharge volume, as well as minimizing concentrated flow by u"
+    },
+    {
+      "slug": "akron-oh",
+      "chunk_id": "akron-oh-c0009",
+      "page_or_section": "pages 6-6",
+      "excerpt": "tions or programs. Intended Audience This book should prove most useful to site designers as they attempt to maintain the integrity of Ohio’s rivers, creeks and lakes. Additionally local officials, agency staff, planners, and the public will find"
+    },
+    {
+      "slug": "albany-ny",
+      "chunk_id": "albany-ny-c0014",
+      "page_or_section": "pages 27-27",
+      "excerpt": "amage and loss of ecological species. Guidance related to climate resilient SMP design will be made available in a future version of the Design Manual. At this time, the following guidance documents have been issued by the NYSDEC and can be found"
+    }
+  ],
+  "supporting_slugs": [
+    "pa-state",
+    "mn-state-2008",
+    "ct-state",
+    "ma-state-draft",
+    "flagstaff-az",
+    "ak-state",
+    "alabama-handbook",
+    "akron-oh",
+    "albany-ny"
+  ]
+}

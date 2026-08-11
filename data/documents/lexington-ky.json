@@ -41,29 +41,9 @@
       "page_or_section": "Manual"
     },
     {
-      "field": "document_metadata.state_code",
-      "excerpt": "Kentucky",
-      "page_or_section": "Jurisdiction"
-    },
-    {
       "field": "document_metadata.document_title",
       "excerpt": "STORMWATER MANUAL",
       "page_or_section": "Title"
-    },
-    {
-      "field": "document_metadata.version_or_edition",
-      "excerpt": "May 1, 2026",
-      "page_or_section": "Header"
-    },
-    {
-      "field": "document_metadata.adoption_or_effective_date",
-      "excerpt": "May 1, 2026",
-      "page_or_section": "Effective date"
-    },
-    {
-      "field": "document_metadata.last_revised_date",
-      "excerpt": "May 1, 2026",
-      "page_or_section": "Header"
     },
     {
       "field": "document_metadata.relationship_to_state_manual",
@@ -93,10 +73,14 @@
   ],
   "extraction_quality": {
     "confidence": "high",
-    "needs_human_review": false,
-    "review_notes": "LFUCG Stormwater Manual 2026 effective May 1, 2026.",
+    "needs_human_review": true,
+    "review_notes": "LFUCG Stormwater Manual 2026 effective May 1, 2026. Pipeline excerpt repair removed 4 unlocated citation(s).",
     "fields_not_found": [
-      "design_criteria.required_hydrologic_hydraulic_software"
+      "design_criteria.required_hydrologic_hydraulic_software",
+      "document_metadata.state_code",
+      "document_metadata.version_or_edition",
+      "document_metadata.adoption_or_effective_date",
+      "document_metadata.last_revised_date"
     ]
   },
   "source": {

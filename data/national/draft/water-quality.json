@@ -1,0 +1,462 @@
+{
+  "section_id": "water-quality",
+  "title": "Water Quality Volume and Treatment",
+  "generated_at": "2026-08-11T03:43:21.052Z",
+  "model": "heuristic+editorial",
+  "editorial_status": "reviewed",
+  "practice_survey": "Water-quality volume or treatment criteria appear in a large share of atlas manuals (field populated in roughly half overall and a majority of Tier A). Common framings include a fixed rainfall or runoff depth, a percentile storm, pollutant-load reduction targets, and retention-first hierarchies before manufactured treatment. Numeric depths and methods vary by climate and permit program.",
+  "draft_recommendation": "Define water-quality volume (or equivalent treatment volume) with an explicit rainfall or runoff basis and clear new versus redevelopment rules. Prefer retention and runoff reduction before treatment-only BMPs where soils and groundwater allow. Publish presumed pollutant-removal rates only as guidance with jurisdiction footnotes. Apply the stricter of this guidance or the controlling MS4 or state manual.",
+  "regional_variants": "Arid West often uses larger capture depths or retention standards. Cold climates adjust for frozen soils and snowmelt. Coastal and karst settings may limit infiltration credits.",
+  "open_issues": "Single national WQ depth versus climate bands. Whether nutrient criteria belong in the MOP. Relationship to CGP and MS4 minimum measures.",
+  "guidance_tables": [
+    {
+      "id": "wq-sizing-criteria",
+      "title": "Water-quality sizing basis options",
+      "caption": "Draft national guidance grounded in atlas practice — not a design manual or adopted regulation.",
+      "columns": [
+        "Sizing basis",
+        "Suggested national guidance",
+        "Atlas note"
+      ],
+      "rows": [
+        [
+          "Fixed depth (e.g. first inch / capture depth)",
+          "State an explicit rainfall or runoff depth for WQv; differentiate new vs redevelopment",
+          "WQ method field present in 95% of manuals (88% Tier A)"
+        ],
+        [
+          "Percentile / statistical storm",
+          "Allow a documented percentile storm (e.g. 90th) where climate data support it",
+          "Common Tier A framing alongside depth standards"
+        ],
+        [
+          "Load-based / performance",
+          "Allow pollutant-load or performance targets when the controlling permit uses them; couple to verified BMP rates",
+          "Less universal than depth/percentile; verify locally"
+        ],
+        [
+          "Retention hierarchy",
+          "Prefer retention / runoff reduction before treatment-only BMPs where soils and groundwater allow",
+          "Hierarchy language widespread in GI/LID manuals"
+        ]
+      ],
+      "row_citations": [
+        [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        []
+      ]
+    },
+    {
+      "id": "wq-exemplars",
+      "title": "Tier A water-quality method exemplars",
+      "caption": "Truncated atlas field text from Tier A manuals — verify against source PDFs before design use.",
+      "columns": [
+        "Slug",
+        "State",
+        "Method summary"
+      ],
+      "rows": [
+        [
+          "alabama-handbook",
+          "AL",
+          "First-flush capture: the first 1 inch of runoff carries 90% of the pollution load from a storm (USGS, 1984); detentio…"
+        ],
+        [
+          "ak-state",
+          "AK",
+          "Treat runoff from 90% of average-year storms (goal: 80% average annual post-development TSS reduction). WQv = (Rv) × …"
+        ],
+        [
+          "albuquerque-nm-gsi",
+          "NM",
+          "Bernalillo County Ordinance 2107-8 requires storm water treatment volumes of 90% storm capture for new development an…"
+        ],
+        [
+          "boston-ma",
+          "MA",
+          "On-site retention/infiltration mandatory for all development or redevelopment: infiltrate a volume equal to 1 inch of…"
+        ],
+        [
+          "baltimore-md",
+          "MD",
+          "Qualitative control uses water quality volume and recharge volume per the 2000 Maryland Stormwater Design Manual (Rev…"
+        ],
+        [
+          "bellevue-wa",
+          "WA",
+          "Implements Ecology DOE Manual-aligned Minimum Requirements #1–#9 for new/redevelopment (site plans, construction SWPP…"
+        ]
+      ],
+      "row_citations": [
+        [
+          "2"
+        ],
+        [
+          "1"
+        ],
+        [
+          "6"
+        ],
+        [
+          "9"
+        ],
+        [
+          "7"
+        ],
+        [
+          "8"
+        ]
+      ]
+    }
+  ],
+  "recommendation_clauses": [
+    {
+      "id": "define-wqv",
+      "number": "7.1",
+      "text": "Define water-quality volume (or equivalent treatment volume) with an explicit rainfall or runoff basis and clear new versus redevelopment rules.",
+      "citation_keys": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "confidence": "field_verified"
+    },
+    {
+      "id": "retention-first",
+      "number": "7.2",
+      "text": "Prefer retention and runoff reduction before treatment-only BMPs where soils and groundwater allow.",
+      "citation_keys": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "confidence": "editorial"
+    },
+    {
+      "id": "removal-rates",
+      "number": "7.3",
+      "text": "Publish presumed pollutant-removal rates only as guidance with jurisdiction footnotes.",
+      "citation_keys": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "confidence": "corpus_pattern"
+    },
+    {
+      "id": "stricter-controls",
+      "number": "7.4",
+      "text": "Apply the stricter of this guidance or the controlling MS4 or state manual.",
+      "citation_keys": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "confidence": "editorial"
+    }
+  ],
+  "citation_registry": [
+    {
+      "key": "1",
+      "slug": "ak-state",
+      "state_code": "AK",
+      "excerpt": "Treat the runoff from 90% of the storms that occur in an average year. For Alaska, this equates to providing water quality treatment for the runoff resulting from a rainfall depth of 1.25 inches or less. The goal is to reduce average annual post-development TSS loadings by 80%. WQv = (Rv) × (A) × (P) / 12",
+      "page_or_section": "Table 3-4; Section 3.3.1",
+      "confidence": "field_verified",
+      "field": "design_criteria.water_quality_volume_method"
+    },
+    {
+      "key": "2",
+      "slug": "alabama-handbook",
+      "state_code": "AL",
+      "excerpt": "the first flush equates to the first 1\" of runoff which carries 90% of the pollution load from a storm (USGS, 1984)",
+      "page_or_section": "Page 9, Chapter 2",
+      "confidence": "field_verified",
+      "field": "design_criteria.water_quality_volume_method"
+    },
+    {
+      "key": "3",
+      "slug": "billings-mt",
+      "state_code": "MT",
+      "excerpt": "infiltrate, evapotranspire, and/or capture for reuse the post-construction runoff generated from the first 0.5 inches of rainfall from a 24-hour storm preceded by 48 hours of no measurable precipitation... remainder... remove 80 percent total suspended solids (TSS)",
+      "page_or_section": "Section 1.3.1, Pages 1-2 to 1-3",
+      "confidence": "field_verified",
+      "field": "design_criteria.water_quality_volume_method"
+    },
+    {
+      "key": "4",
+      "slug": "ct-state",
+      "state_code": "CT",
+      "excerpt": "WQV = (P)(R)(A)/12 where: WQV = water quality volume (cubic feet) P = 1.3 inches (90th percentile rainfall event) R = volumetric runoff coefficient = 0.05+0.009(I) I = post- development impervious area (percent) A = post-development total drainage area of site or design point (square feet)",
+      "page_or_section": "Page 46, Water Quality Volume Calculation",
+      "confidence": "field_verified",
+      "field": "design_criteria.water_quality_volume_method"
+    },
+    {
+      "key": "5",
+      "slug": "fl-fsesci-tier1",
+      "state_code": "FL",
+      "excerpt": "temporary (or permanent) sediment or wet detention basin providing 3,600 cubic feet of storage per acre drained must be provided",
+      "page_or_section": "Chapter 3, Page 103",
+      "confidence": "field_verified",
+      "field": "design_criteria.water_quality_volume_method"
+    },
+    {
+      "key": "6",
+      "slug": "albuquerque-nm-gsi",
+      "state_code": "NM",
+      "excerpt": "storm water treatment volumes (90% storm for new development, 80% storm for redevelopment) must be addressed within the boundaries of a proposed site development/redevelopment plan",
+      "page_or_section": "Recap of BernCo Stormwater Quality Ordinance, Page 9",
+      "confidence": "field_verified",
+      "field": "design_criteria.water_quality_volume_method"
+    },
+    {
+      "key": "7",
+      "slug": "baltimore-md",
+      "state_code": "MD",
+      "excerpt": "New development Treatment of 1.0 inch... Redevelopment Treatment of 0.5 inch; or 50% removal of impervious surface area; or Combination of both.",
+      "page_or_section": "Table 1, Page 5",
+      "confidence": "field_verified",
+      "field": "design_criteria.water_quality_volume_method"
+    },
+    {
+      "key": "8",
+      "slug": "bellevue-wa",
+      "state_code": "WA",
+      "excerpt": "MINIMUM REQUIREMENT #6 - RUNOFF TREATMENT / #5 - ON-SITE STORMWATER MANAGEMENT",
+      "page_or_section": "D1-04.2",
+      "confidence": "field_verified",
+      "field": "design_criteria.water_quality_volume_method"
+    },
+    {
+      "key": "9",
+      "slug": "boston-ma",
+      "state_code": "MA",
+      "excerpt": "A volume of runoff equal to one inch of rainfall multiplied by the total impervious area on site must be infiltrated prior to discharge to a storm drain or a combined sewer system for projects less than 100,000 square feet of floor area. For all projects which are at or above 100,000 square feet of floor area, the proj",
+      "page_or_section": "Section 3.5 On-site Retention of Stormwater, Pages 3-7 to 3-8",
+      "confidence": "field_verified",
+      "field": "design_criteria.water_quality_volume_method"
+    },
+    {
+      "key": "10",
+      "slug": "vt-state",
+      "state_code": "VT",
+      "excerpt": "ture and treat the portion of runoff containing the majority of pollutants. The water quality volume (WQv) is the volume of runoff resulting from the 90th percentile rainfall event, which is equivalent to the first inch of rainfall. Achievement of the WQTS wit",
+      "page_or_section": "pages 16-16",
+      "confidence": "corpus_pattern",
+      "field": "corpus_chunk"
+    },
+    {
+      "key": "11",
+      "slug": "idaho-bmp-catalog",
+      "state_code": "ID",
+      "excerpt": ". Nationally, many jurisdictions specify a treatment volume, referred to as the water quality volume, designed to capture the first flush component of the storm water runoff. This is achieved by specifying a rainfall amount (e.g., first 1/2-inch, 1-inch, or ot",
+      "page_or_section": "pages 69-69",
+      "confidence": "corpus_pattern",
+      "field": "corpus_chunk"
+    },
+    {
+      "key": "12",
+      "slug": "ohio-rainwater",
+      "state_code": "OH",
+      "excerpt": "ng Treatment Volume In most cases flows into the sand filter are limited to the water quality volume (WQv). Therefore other measures may be necessary to meet flood control detention requirements either (\u0018) by diverting all runoff exceeding the water quality vo",
+      "page_or_section": "pages 59-59",
+      "confidence": "corpus_pattern",
+      "field": "corpus_chunk"
+    },
+    {
+      "key": "13",
+      "slug": "ri-state",
+      "state_code": "RI",
+      "excerpt": "AND PERFORMANCE CRITERIA 3-14 surface (i.e., 1 inch of runoff) (CWP, 2007). The water quality volume requirement may be waived or reduced by applying the LID Stormwater Credit outlined in Section 4.6 of this document. The WQv is calculated using the following",
+      "page_or_section": "pages 55-55",
+      "confidence": "corpus_pattern",
+      "field": "corpus_chunk"
+    },
+    {
+      "key": "14",
+      "slug": "hawaii-dot-pcbmp",
+      "state_code": "HI",
+      "excerpt": "ention facilities. Sizing of volume-based facilities is based upon the required Water Quality Volume (WQV) which is calculated using the following formula. The WQV volume is based on a 1-inch Design Storm Runoff Depth (P) representing the 85th percentile, 24-h",
+      "page_or_section": "pages 56-56",
+      "confidence": "corpus_pattern",
+      "field": "corpus_chunk"
+    },
+    {
+      "key": "15",
+      "slug": "md-state",
+      "state_code": "MD",
+      "excerpt": "Chapter 2. Unified Stormwater Sizing Criteria ...............................Water Quality Volume 2.4 Basis for Determining Water Quality Treatment Volume As a basis for design, the following assumptions may be made: \"\u0003 Measuring Impervious Cover: the measu",
+      "page_or_section": "pages 42-42",
+      "confidence": "corpus_pattern",
+      "field": "corpus_chunk"
+    },
+    {
+      "key": "16",
+      "slug": "ny-state",
+      "state_code": "NY",
+      "excerpt": "e defined, and sub-catchments are delineated, the designer should calculate the water quality volume. This initial calculation of WQv may have to be revised after runoff reduction techniques are applied. Step 3: Apply Runoff Reduction Techniques and Standard S",
+      "page_or_section": "pages 41-41",
+      "confidence": "corpus_pattern",
+      "field": "corpus_chunk"
+    },
+    {
+      "key": "17",
+      "slug": "ga-state",
+      "state_code": "GA",
+      "excerpt": "xpressed in terms of engineering design criteria through specifica- tion of the water quality volume (WQv), which is equal to the runoff generated on a site from 1.2 inches of rainfall. The WQV must be treated to the 80% TSS removal performance goal. This stan",
+      "page_or_section": "pages 120-120",
+      "confidence": "corpus_pattern",
+      "field": "corpus_chunk"
+    },
+    {
+      "key": "18",
+      "slug": "west-virginia-manual",
+      "state_code": "WV",
+      "excerpt": "st day modeled in 1977) n = End day of modeling (Last day modeled in 2007) Tv = Treatment Volume of the cistern, assuming the Tv applies to a drainage area that is only the rooftop draining to the system. The spreadsheet calculations should always be inclu",
+      "page_or_section": "pages 328-328",
+      "confidence": "corpus_pattern",
+      "field": "corpus_chunk"
+    },
+    {
+      "key": "19",
+      "slug": "mn-state-2008",
+      "state_code": "MN",
+      "excerpt": "eotechnical professional. Step 4: Compute runoff control volumes. Calculate the Water Quality Volume (Vwq), Channel Protection Volume (Vcp), Overbank Flood Protection Volume (Vp10), and the Extreme Flood Volume (Vp100). Details on the Uni- fied Stormwater Sizi",
+      "page_or_section": "pages 395-395",
+      "confidence": "corpus_pattern",
+      "field": "corpus_chunk"
+    },
+    {
+      "key": "20",
+      "slug": "ak-state",
+      "state_code": "AK",
+      "excerpt": "Alaska Storm Water Guide December 2011 1-20 Chapter 1: Overview of Storm Water Regulations 1.2.4 Contained Water Discharge Permits A waste disposal general permit (Permit Number",
+      "page_or_section": "pages 33-33",
+      "confidence": "corpus_pattern",
+      "field": "corpus_chunk"
+    }
+  ],
+  "citations": [
+    {
+      "slug": "vt-state",
+      "chunk_id": "vt-state-c0011",
+      "page_or_section": "pages 16-16",
+      "excerpt": "ture and treat the portion of runoff containing the majority of pollutants. The water quality volume (WQv) is the volume of runoff resulting from the 90th percentile rainfall event, which is equivalent to the first inch of rainfall. Achievement of the WQTS wit"
+    },
+    {
+      "slug": "idaho-bmp-catalog",
+      "chunk_id": "idaho-bmp-catalog-c0078",
+      "page_or_section": "pages 69-69",
+      "excerpt": ". Nationally, many jurisdictions specify a treatment volume, referred to as the water quality volume, designed to capture the first flush component of the storm water runoff. This is achieved by specifying a rainfall amount (e.g., first 1/2-inch, 1-inch, or ot"
+    },
+    {
+      "slug": "ohio-rainwater",
+      "chunk_id": "ohio-rainwater-c0062",
+      "page_or_section": "pages 59-59",
+      "excerpt": "ng Treatment Volume In most cases flows into the sand filter are limited to the water quality volume (WQv). Therefore other measures may be necessary to meet flood control detention requirements either (\u0018) by diverting all runoff exceeding the water quality vo"
+    },
+    {
+      "slug": "ri-state",
+      "chunk_id": "ri-state-c0102",
+      "page_or_section": "pages 55-55",
+      "excerpt": "AND PERFORMANCE CRITERIA 3-14 surface (i.e., 1 inch of runoff) (CWP, 2007). The water quality volume requirement may be waived or reduced by applying the LID Stormwater Credit outlined in Section 4.6 of this document. The WQv is calculated using the following"
+    },
+    {
+      "slug": "hawaii-dot-pcbmp",
+      "chunk_id": "hawaii-dot-pcbmp-c0077",
+      "page_or_section": "pages 56-56",
+      "excerpt": "ention facilities. Sizing of volume-based facilities is based upon the required Water Quality Volume (WQV) which is calculated using the following formula. The WQV volume is based on a 1-inch Design Storm Runoff Depth (P) representing the 85th percentile, 24-h"
+    },
+    {
+      "slug": "vt-state",
+      "chunk_id": "vt-state-c0091",
+      "page_or_section": "pages 117-117",
+      "excerpt": "rage of the WQv).  The permanent pool volume of a wet swale may be included in water quality volume calculations.  The bioretention soil depth of dry swales may be reduced to 12” on a case-by-case basis as demonstrated by the designer that 24” is not feasibl"
+    },
+    {
+      "slug": "md-state",
+      "chunk_id": "md-state-c0008",
+      "page_or_section": "pages 42-42",
+      "excerpt": "Chapter 2. Unified Stormwater Sizing Criteria ...............................Water Quality Volume 2.4 Basis for Determining Water Quality Treatment Volume As a basis for design, the following assumptions may be made: \"\u0003 Measuring Impervious Cover: the measu"
+    },
+    {
+      "slug": "ny-state",
+      "chunk_id": "ny-state-c0028",
+      "page_or_section": "pages 41-41",
+      "excerpt": "e defined, and sub-catchments are delineated, the designer should calculate the water quality volume. This initial calculation of WQv may have to be revised after runoff reduction techniques are applied. Step 3: Apply Runoff Reduction Techniques and Standard S"
+    },
+    {
+      "slug": "ga-state",
+      "chunk_id": "ga-state-c0181",
+      "page_or_section": "pages 120-120",
+      "excerpt": "xpressed in terms of engineering design criteria through specifica- tion of the water quality volume (WQv), which is equal to the runoff generated on a site from 1.2 inches of rainfall. The WQV must be treated to the 80% TSS removal performance goal. This stan"
+    },
+    {
+      "slug": "ny-state",
+      "chunk_id": "ny-state-c0163",
+      "page_or_section": "pages 230-230",
+      "excerpt": "recycle, and/or evaporation/evapotranspiration of 100% of the post-development water quality volume to replicate pre-development hydrology. Runoff control techniques provide treatment in a distributed manner before runoff reaches the collection system, by mai"
+    },
+    {
+      "slug": "west-virginia-manual",
+      "chunk_id": "west-virginia-manual-c0252",
+      "page_or_section": "pages 328-328",
+      "excerpt": "st day modeled in 1977) n = End day of modeling (Last day modeled in 2007) Tv = Treatment Volume of the cistern, assuming the Tv applies to a drainage area that is only the rooftop draining to the system. The spreadsheet calculations should always be inclu"
+    },
+    {
+      "slug": "mn-state-2008",
+      "chunk_id": "mn-state-2008-c0340",
+      "page_or_section": "pages 395-395",
+      "excerpt": "eotechnical professional. Step 4: Compute runoff control volumes. Calculate the Water Quality Volume (Vwq), Channel Protection Volume (Vcp), Overbank Flood Protection Volume (Vp10), and the Extreme Flood Volume (Vp100). Details on the Uni- fied Stormwater Sizi"
+    },
+    {
+      "slug": "mn-state-2008",
+      "chunk_id": "mn-state-2008-c0450",
+      "page_or_section": "pages 511-511",
+      "excerpt": "torage requirements and to set the elevation of the wetland pool elevation, the water quality volume, the extended detention volume (if applicable), the channel protection volume, etc. The proportion of surface area recommended to place in the various depth zo"
+    },
+    {
+      "slug": "ak-state",
+      "chunk_id": "ak-state-c0040",
+      "page_or_section": "pages 33-33",
+      "excerpt": "Alaska Storm Water Guide December 2011 1-20 Chapter 1: Overview of Storm Water Regulations 1.2.4 Contained Water Discharge Permits A waste disposal general permit (Permit Number"
+    }
+  ],
+  "supporting_slugs": [
+    "vt-state",
+    "idaho-bmp-catalog",
+    "ohio-rainwater",
+    "ri-state",
+    "hawaii-dot-pcbmp",
+    "md-state",
+    "ny-state",
+    "ga-state",
+    "west-virginia-manual",
+    "mn-state-2008",
+    "ak-state"
+  ]
+}

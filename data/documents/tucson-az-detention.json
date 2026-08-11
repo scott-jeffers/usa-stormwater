@@ -10,7 +10,11 @@
     "relationship_to_state_manual": "independent"
   },
   "design_criteria": {
-    "design_storm_return_periods_years": [2, 10, 100],
+    "design_storm_return_periods_years": [
+      2,
+      10,
+      100
+    ],
     "water_quality_volume_method": "First-flush retention: capture and retain runoff from 0.5 inch of rainfall on newly disturbed or impervious areas (85th percentile storm). Required volumes by land type from SCS Curve Number method (e.g., 1440 ft³/ac impervious on lower-permeability areas; 1815 ft³/ac on mapped riparian/higher-permeability areas).",
     "peak_flow_calculation_method": [
       "PC-Hydro",
@@ -48,8 +52,8 @@
     },
     {
       "field": "document_metadata.state_code",
-      "excerpt": "Tucson, AZ 85701-1791",
-      "page_or_section": "Cover"
+      "excerpt": "Design and Floodplain Management in Tucson, Arizona; or c. Other methods accepted by the Floodplain Administrator. 2. When flow crosses a sidewalk or other paved pedestrian pathway, a scupper or other conveyance to prohibit overtopping of the 10-year design discharge shall be",
+      "page_or_section": "pp. 44–45"
     },
     {
       "field": "document_metadata.document_title",
@@ -133,8 +137,8 @@
     },
     {
       "field": "design_criteria.approved_bmp_categories",
-      "excerpt": "5.3 Stormwater Harvesting Basins... 5.4 Roadside Stormwater Harvesting Basins... 5.7 Bioretention Basin... 5.8 Retention within a Detention Basin... 5.9 Pervious Pavements... Porous Gravel... Concrete Grid Pavement... Permeable Interlocking Concrete Pavement... Pervious Concrete... 4.19 Dry Wells",
-      "page_or_section": "Table of Contents, Chapters 4–5"
+      "excerpt": "Design Standards for Stormwater Detention and Retention for Pima County 53 6. To allow for inspection and maintenance, LID practices shall be legally and physically accessible. 7. Upon completion of construction of all LID practices, an As-built Certification s",
+      "page_or_section": "p. 65"
     },
     {
       "field": "design_criteria.approved_bmp_categories",

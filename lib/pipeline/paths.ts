@@ -4,6 +4,7 @@ export const PIPELINE_DIR = path.resolve(process.cwd(), "data/pipeline");
 export const PROGRESS_PATH = path.join(PIPELINE_DIR, "progress.json");
 export const RUN_LOG_PATH = path.join(PIPELINE_DIR, "run-log.jsonl");
 export const STATUS_PATH = path.join(PIPELINE_DIR, "STATUS.md");
+export const VERIFY_PATH = path.join(PIPELINE_DIR, "VERIFY.md");
 
 export const CORPUS_DIR = path.resolve(process.cwd(), "data/corpus");
 export const NATIONAL_DIR = path.resolve(process.cwd(), "data/national");

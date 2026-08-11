@@ -30,13 +30,13 @@
   "evidence": [
     {
       "field": "document_metadata.jurisdiction_name",
-      "excerpt": "City of Greensboro MS4 uses NCDEQ Stormwater Design Manual",
-      "page_or_section": "Coverage note"
+      "excerpt": "--- page 2 --- NCDEQ Stormwater BMP Manual ________________________________________________________________________________________________________ C-0. MDC for all SCMs 2 Revised: 1-3-2017 GENERAL MDC 1. SIZING. The design volume of SCMs shall take into",
+      "page_or_section": "p. 2"
     },
     {
       "field": "document_metadata.relationship_to_state_manual",
-      "excerpt": "adopts_state_manual_directly — NCDEQ MDC",
-      "page_or_section": "Coverage note"
+      "excerpt": "--- page 2 --- NCDEQ Stormwater BMP Manual ________________________________________________________________________________________________________ C-0. MDC for all SCMs 2 Revised: 1-3-2017 GENERAL MDC 1. SIZING. The design volume of SCMs shall take into",
+      "page_or_section": "p. 2"
     }
   ],
   "extraction_quality": {

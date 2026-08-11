@@ -62,8 +62,8 @@
     },
     {
       "field": "document_metadata.jurisdiction_level",
-      "excerpt": "municipality — Augusta",
-      "page_or_section": "Coverage note"
+      "excerpt": "and Flooding (Right Photo Source: Augusta Chronicle / Photo by Cindy Blanchard) Figure 2.1-6 Hydrograph under Pre- and Post-Development Conditions (Source: Schueler, 1992) STREAM FLOW RATE TIME Changes in stream hydrology as a result of urbanization (Schueler, 1992) Pre-dev",
+      "page_or_section": "pp. 20–21"
     },
     {
       "field": "document_metadata.state_code",
@@ -79,11 +79,6 @@
       "field": "document_metadata.version_or_edition",
       "excerpt": "2016 EDITION",
       "page_or_section": "Title Page"
-    },
-    {
-      "field": "document_metadata.relationship_to_state_manual",
-      "excerpt": "adopts_state_manual_directly — GSMM 2016",
-      "page_or_section": "Coverage note"
     },
     {
       "field": "design_criteria.design_storm_return_periods_years",
@@ -109,11 +104,12 @@
   "extraction_quality": {
     "confidence": "medium",
     "needs_human_review": true,
-    "review_notes": "Municipality coverage via GSMM 2016; replace with Augusta-specific manual if a durable public PDF appears.",
+    "review_notes": "Municipality coverage via GSMM 2016; replace with Augusta-specific manual if a durable public PDF appears. Pipeline excerpt repair removed 1 unlocated citation(s).",
     "fields_not_found": [
       "document_metadata.adoption_or_effective_date",
       "document_metadata.last_revised_date",
-      "design_criteria.required_hydrologic_hydraulic_software"
+      "design_criteria.required_hydrologic_hydraulic_software",
+      "document_metadata.relationship_to_state_manual"
     ]
   },
   "source": {

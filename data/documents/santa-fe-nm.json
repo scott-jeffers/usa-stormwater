@@ -20,19 +20,14 @@
       "Harvest and use"
     ]
   },
-  "evidence": [
-    {
-      "field": "document_metadata.jurisdiction_name",
-      "excerpt": "City of Santa Fe — coverage via Albuquerque/Bernalillo GSI guide (needs local confirmation)",
-      "page_or_section": "Coverage note"
-    }
-  ],
+  "evidence": [],
   "extraction_quality": {
     "confidence": "low",
     "needs_human_review": true,
-    "review_notes": "Regional NM GI placeholder — replace with city drainage criteria when found.",
+    "review_notes": "Regional NM GI placeholder — replace with city drainage criteria when found. Pipeline excerpt repair removed 1 unlocated citation(s).",
     "fields_not_found": [
-      "design_criteria.design_storm_return_periods_years"
+      "design_criteria.design_storm_return_periods_years",
+      "document_metadata.jurisdiction_name"
     ]
   },
   "source": {

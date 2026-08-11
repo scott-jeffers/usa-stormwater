@@ -31,8 +31,8 @@
   "evidence": [
     {
       "field": "document_metadata.jurisdiction_name",
-      "excerpt": "Springfield IL capital — no durable city design-manual PDF found; using Illinois Model Stormwater Management Ordinance",
-      "page_or_section": "Coverage note"
+      "excerpt": "Local Government, may be granted using criteria more permissive than the requirements contained in this ordinance. F. In a flood-prone area or a regulatory floodplain (without a mapped regulatory floodway) where the tributary drainage area is 640 acres or more, a variance",
+      "page_or_section": "p. 57"
     },
     {
       "field": "design_criteria.water_quality_volume_method",
