@@ -1,7 +1,7 @@
 {
   "document_metadata": {
-    "jurisdiction_name": "Suwannee River Water Management District / Gainesville (north-central Florida)",
-    "jurisdiction_level": "county",
+    "jurisdiction_name": "City of Gainesville (SRWMD criteria)",
+    "jurisdiction_level": "municipality",
     "state_code": "FL",
     "document_title": "Environmental Resource Permit Applicant's Handbook Volume II (Design Requirements for Stormwater Treatment and Management Systems)",
     "version_or_edition": "Effective July 2024",
@@ -10,7 +10,11 @@
     "relationship_to_state_manual": "independent"
   },
   "design_criteria": {
-    "design_storm_return_periods_years": [10, 25, 100],
+    "design_storm_return_periods_years": [
+      10,
+      25,
+      100
+    ],
     "water_quality_volume_method": "Minimum State water quality treatment requirements are those in statewide ERP Applicant's Handbook Volume I; Volume II requires all systems to recover treatment volumes within 72 hours (retention may use only percolation and evaporation; detention with filtration needs a safety factor of two). Quantity retention in closed basins is post- minus pre-development runoff for the 100-year critical event (max one-day duration). Flood storage recovery: one-half of total volume within seven days and total volume within 30 days after each design storm.",
     "peak_flow_calculation_method": [
       "Pre- and post-development runoff hydrographs with detention/retention routing (stage-storage-discharge)",
@@ -143,7 +147,7 @@
   "extraction_quality": {
     "confidence": "high",
     "needs_human_review": true,
-    "review_notes": "Regional SRWMD ERP Applicant's Handbook Vol II (north-central Florida; Gainesville/Alachua is within district rainfall tables). Not a City of Gainesville municipal manual. Numeric first-flush inch depths live primarily in statewide AH Volume I; Vol II specifies recovery times, design storms (10-yr ag/recreation; 100-yr critical duration otherwise; Appendix B includes 10/25/100-yr depths), and BMP design. Jurisdiction coded as county per task guidance. Section 2.7 states no specified computer-model list.",
+    "review_notes": "Municipal map coverage via SRWMD ERP AH Vol II. Canonical special_district record: fl-srwmd-erp-ah2. Previously mislabeled as county; reclassified to municipality proxy. Regional SRWMD ERP Applicant's Handbook Vol II (north-central Florida; Gainesville/Alachua is within district rainfall tables). Not a City of Gainesville municipal manual. Numeric first-flush inch depths live primarily in statewide AH Volume I; Vol II specifies recovery times, design storms (10-yr ag/recreation; 100-yr critical duration otherwise; Appendix B includes 10/25/100-yr depths), and BMP design. Jurisdiction coded as county per task guidance. Section 2.7 states no specified computer-model list.",
     "fields_not_found": [
       "design_criteria.required_hydrologic_hydraulic_software"
     ]

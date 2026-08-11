@@ -1,6 +1,6 @@
 {
   "document_metadata": {
-    "jurisdiction_name": "City of Tallahassee",
+    "jurisdiction_name": "City of Tallahassee (NWFWMD criteria)",
     "jurisdiction_level": "municipality",
     "state_code": "FL",
     "document_title": "NWFWMD Environmental Resource Permit Applicant’s Handbook Volume II (design standards)",
@@ -93,7 +93,7 @@
   "extraction_quality": {
     "confidence": "medium",
     "needs_human_review": true,
-    "review_notes": "Capital coverage via NWFWMD ERP AH Vol II (regional design criteria). City operating-permit checklists not separately ingested.",
+    "review_notes": "Municipal map coverage via NWFWMD ERP AH Vol II. Canonical special_district record: fl-nwfwmd-erp-ah2. Capital coverage via NWFWMD ERP AH Vol II (regional design criteria). City operating-permit checklists not separately ingested.",
     "fields_not_found": [
       "design_criteria.required_hydrologic_hydraulic_software"
     ]

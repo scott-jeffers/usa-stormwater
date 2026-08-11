@@ -281,6 +281,10 @@ export interface ManifestJob {
   landingPageUrl: string | null;
   cityCoords: [number, number] | null;
   notes?: string;
+  /** Optional: dot | dep_deq — statewide agency manuals */
+  agencyHint?: "dot" | "dep_deq" | null;
+  /** Optional: full_manual | drainage | construction_esc | post_construction */
+  scopeHint?: string | null;
 }
 
 export interface PipelineCliOptions {

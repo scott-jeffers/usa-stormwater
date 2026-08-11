@@ -1,0 +1,68 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "Louisiana",
+    "jurisdiction_level": "state",
+    "state_code": "LA",
+    "document_title": "LADOTD Hydraulics Manual",
+    "version_or_edition": null,
+    "adoption_or_effective_date": null,
+    "last_revised_date": null,
+    "relationship_to_state_manual": "independent",
+    "issuing_agency_category": "dot"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [
+      2,
+      5,
+      10,
+      25,
+      50,
+      100
+    ],
+    "water_quality_volume_method": null,
+    "peak_flow_calculation_method": [
+      "Rational Method",
+      "NRCS / SCS Curve Number (TR-55)"
+    ],
+    "required_hydrologic_hydraulic_software": [],
+    "approved_bmp_categories": []
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "Louisiana",
+      "page_or_section": "Title / header"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "LADOTD Hydraulics Manual",
+      "page_or_section": "Title / header"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "---- 1 – 2 1.3.1 Determination of 25 or 50 Year Frequency ------------------------------------ 1 – 2 1.3.2 Other Conditions to",
+      "page_or_section": null
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "--------------------------- 3 – 2 3.4.3 Rational Method ------------------------------------------------------------------- 3 –",
+      "page_or_section": null
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "medium",
+    "needs_human_review": true,
+    "review_notes": "Heuristic agency extract from prepared text. LADOTD Hydraulics Manual (2011)",
+    "fields_not_found": [
+      "design_criteria.water_quality_volume_method",
+      "design_criteria.required_hydrologic_hydraulic_software",
+      "design_criteria.approved_bmp_categories"
+    ]
+  },
+  "source": {
+    "document_url": "https://dotd.la.gov/media/gyzjm1fu/hydraulics-manual.pdf",
+    "landing_page_url": "https://dotd.la.gov/about/office-of-project-delivery/engineering/public-works/hydraulics/",
+    "retrieved_at": "2026-08-11T17:59:10.560Z",
+    "original_filename": "la-ladotd-drainage.pdf"
+  }
+}

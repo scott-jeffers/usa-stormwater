@@ -1,0 +1,1982 @@
+/**
+ * One-shot seed for data/agency-targets/registry.json.
+ * Run: npx tsx scripts/seed-agency-registry.ts
+ */
+import { writeFileSync, mkdirSync } from "node:fs";
+import path from "node:path";
+import { US_STATES } from "../lib/usStates";
+
+type Scope =
+  | "full_manual"
+  | "drainage"
+  | "construction_esc"
+  | "post_construction";
+
+interface ExpectedManual {
+  id: string;
+  title: string;
+  scope: Scope;
+  landing_page_url: string | null;
+  search_queries: string[];
+  /** Existing manifest/document slugs that partially or fully satisfy this expectation */
+  known_slugs: string[];
+  /** True when known_slugs are chapter/partial proxies, not full manuals */
+  partial?: boolean;
+}
+
+interface AgencyEntry {
+  state_code: string;
+  agency_category: "dot" | "dep_deq";
+  agency_name: string;
+  agency_abbrev: string;
+  domains: string[];
+  expected_manuals: ExpectedManual[];
+  notes: string | null;
+}
+
+/** Curated overrides keyed by `${state}:${category}` */
+const OVERRIDES: Record<
+  string,
+  Partial<AgencyEntry> & {
+    expected_manuals?: ExpectedManual[];
+  }
+> = {
+  "AL:dep_deq": {
+    agency_name: "Alabama Soil & Water Conservation Committee / ADEM",
+    agency_abbrev: "ADEM",
+    domains: ["alabamasoilandwater.gov", "adem.alabama.gov"],
+    expected_manuals: [
+      {
+        id: "al-handbook",
+        title: "Alabama Handbook for Erosion Control (Blue Book)",
+        scope: "full_manual",
+        landing_page_url: "https://alabamasoilandwater.gov/alesc-bluebook/",
+        search_queries: [
+          "Alabama Blue Book stormwater handbook",
+          "site:alabamasoilandwater.gov handbook stormwater",
+        ],
+        known_slugs: ["alabama-handbook"],
+      },
+    ],
+  },
+  "AL:dot": {
+    agency_name: "Alabama Department of Transportation",
+    agency_abbrev: "ALDOT",
+    domains: ["dot.state.al.us", "aldot.gov"],
+    expected_manuals: [
+      {
+        id: "al-aldot-drainage",
+        title: "ALDOT Drainage Manual / Stormwater Design Guidance",
+        scope: "drainage",
+        landing_page_url: null,
+        search_queries: [
+          "ALDOT drainage manual stormwater",
+          "site:dot.state.al.us drainage manual filetype:pdf",
+        ],
+        known_slugs: [],
+      },
+    ],
+  },
+  "AK:dep_deq": {
+    agency_name: "Alaska Department of Environmental Conservation",
+    agency_abbrev: "ADEC",
+    domains: ["dec.alaska.gov", "plants.alaska.gov"],
+    expected_manuals: [
+      {
+        id: "ak-sw-guide",
+        title: "Alaska Storm Water Guide",
+        scope: "full_manual",
+        landing_page_url: "https://plants.alaska.gov/",
+        search_queries: ["Alaska Storm Water Guide PDF"],
+        known_slugs: ["ak-state"],
+      },
+    ],
+  },
+  "AK:dot": {
+    agency_name: "Alaska Department of Transportation & Public Facilities",
+    agency_abbrev: "DOT&PF",
+    domains: ["dot.alaska.gov"],
+    expected_manuals: [
+      {
+        id: "ak-dot-drainage",
+        title: "Alaska DOT&PF Drainage Manual",
+        scope: "drainage",
+        landing_page_url: null,
+        search_queries: [
+          "Alaska DOTPF drainage manual stormwater",
+          "site:dot.alaska.gov drainage manual filetype:pdf",
+        ],
+        known_slugs: [],
+      },
+    ],
+  },
+  "AZ:dep_deq": {
+    agency_name: "Arizona Department of Environmental Quality",
+    agency_abbrev: "ADEQ",
+    domains: ["azdeq.gov"],
+    expected_manuals: [
+      {
+        id: "az-adeq-stormwater",
+        title: "ADEQ Stormwater Design / BMP Guidance",
+        scope: "full_manual",
+        landing_page_url: "https://www.azdeq.gov/node/515",
+        search_queries: [
+          "ADEQ stormwater BMP manual",
+          "Arizona statewide stormwater design manual",
+        ],
+        known_slugs: [],
+      },
+    ],
+    notes: "No statewide ADEQ design manual cataloged; cities (Tucson, Flagstaff) used as proxies",
+  },
+  "AZ:dot": {
+    agency_name: "Arizona Department of Transportation",
+    agency_abbrev: "ADOT",
+    domains: ["azdot.gov"],
+    expected_manuals: [
+      {
+        id: "az-adot-drainage",
+        title: "ADOT Highway Drainage Design Manual / Stormwater",
+        scope: "drainage",
+        landing_page_url: null,
+        search_queries: [
+          "ADOT drainage design manual",
+          "site:azdot.gov stormwater drainage manual filetype:pdf",
+        ],
+        known_slugs: [],
+      },
+    ],
+  },
+  "AR:dep_deq": {
+    agency_name: "Arkansas Department of Environmental Quality / DEQ",
+    agency_abbrev: "ADEQ",
+    domains: ["adeq.state.ar.us", "adeq.state.ar.us"],
+    expected_manuals: [
+      {
+        id: "ar-adeq-stormwater",
+        title: "ADEQ Statewide Stormwater Design Manual",
+        scope: "full_manual",
+        landing_page_url: null,
+        search_queries: [
+          "Arkansas ADEQ stormwater design manual",
+          "Arkansas statewide BMP manual",
+        ],
+        known_slugs: ["arkansas-manual"],
+        partial: true,
+      },
+    ],
+    notes: "NWA regional manual used as proxy; no statewide ADEQ design manual confirmed",
+  },
+  "AR:dot": {
+    agency_name: "Arkansas Department of Transportation",
+    agency_abbrev: "ARDOT",
+    domains: ["ardot.gov"],
+    expected_manuals: [
+      {
+        id: "ar-ardot-drainage",
+        title: "ARDOT Drainage Manual",
+        scope: "drainage",
+        landing_page_url: null,
+        search_queries: [
+          "ARDOT drainage manual",
+          "site:ardot.gov drainage stormwater filetype:pdf",
+        ],
+        known_slugs: [],
+      },
+    ],
+  },
+  "CA:dep_deq": {
+    agency_name: "California State Water Resources Control Board / CASQA",
+    agency_abbrev: "SWRCB",
+    domains: ["waterboards.ca.gov", "casqa.org"],
+    expected_manuals: [
+      {
+        id: "ca-casqa-municipal",
+        title: "CASQA Municipal BMP Handbook",
+        scope: "full_manual",
+        landing_page_url:
+          "https://www.casqa.org/resources/bmp-handbooks/municipal-bmp-handbook",
+        search_queries: ["CASQA Municipal BMP Handbook PDF"],
+        known_slugs: ["ca-casqa-municipal"],
+      },
+    ],
+  },
+  "CA:dot": {
+    agency_name: "California Department of Transportation (Caltrans)",
+    agency_abbrev: "Caltrans",
+    domains: ["dot.ca.gov"],
+    expected_manuals: [
+      {
+        id: "ca-caltrans-construction",
+        title: "Caltrans Construction Site BMPs Manual",
+        scope: "construction_esc",
+        landing_page_url:
+          "https://dot.ca.gov/programs/construction/storm-water-and-water-pollution-control/manuals-and-handbooks",
+        search_queries: [
+          "Caltrans construction site BMPs manual",
+          "Caltrans Highway Design Manual stormwater",
+        ],
+        known_slugs: ["ca-caltrans-construction"],
+        partial: true,
+      },
+      {
+        id: "ca-caltrans-project-planning",
+        title: "Caltrans Project Planning and Design Guide / Stormwater",
+        scope: "post_construction",
+        landing_page_url:
+          "https://dot.ca.gov/programs/construction/storm-water-and-water-pollution-control/manuals-and-handbooks",
+        search_queries: [
+          "Caltrans Project Planning and Design Guide stormwater PDF",
+          "site:dot.ca.gov stormwater project planning filetype:pdf",
+        ],
+        known_slugs: [],
+      },
+    ],
+    notes: "Catalog has construction BMPs only; full drainage/PPDG still needed",
+  },
+  "CO:dep_deq": {
+    agency_name: "Colorado Department of Public Health & Environment",
+    agency_abbrev: "CDPHE",
+    domains: ["cdphe.colorado.gov"],
+    expected_manuals: [
+      {
+        id: "co-cdphe-stormwater",
+        title: "Colorado Statewide Stormwater / MS4 Design Guidance",
+        scope: "full_manual",
+        landing_page_url: null,
+        search_queries: [
+          "Colorado CDPHE stormwater design manual",
+          "UDFCD USDCM stormwater criteria",
+        ],
+        known_slugs: [],
+      },
+    ],
+    notes: "Often covered by UDFCD/USDCM regional manuals rather than CDPHE",
+  },
+  "CO:dot": {
+    agency_name: "Colorado Department of Transportation",
+    agency_abbrev: "CDOT",
+    domains: ["codot.gov"],
+    expected_manuals: [
+      {
+        id: "co-cdot-drainage",
+        title: "CDOT Drainage Design Manual",
+        scope: "drainage",
+        landing_page_url: null,
+        search_queries: [
+          "CDOT drainage design manual",
+          "site:codot.gov drainage manual filetype:pdf",
+        ],
+        known_slugs: [],
+      },
+    ],
+  },
+  "CT:dep_deq": {
+    agency_name: "Connecticut Department of Energy and Environmental Protection",
+    agency_abbrev: "CT DEEP",
+    domains: ["portal.ct.gov"],
+    expected_manuals: [
+      {
+        id: "ct-deep-manual",
+        title: "Connecticut Stormwater Quality Manual",
+        scope: "full_manual",
+        landing_page_url:
+          "https://portal.ct.gov/DEEP/Water-Regulating-and-Discharges/Stormwater/Stormwater-Manual",
+        search_queries: ["Connecticut Stormwater Quality Manual PDF"],
+        known_slugs: ["ct-state"],
+      },
+    ],
+  },
+  "CT:dot": {
+    agency_name: "Connecticut Department of Transportation",
+    agency_abbrev: "CTDOT",
+    domains: ["portal.ct.gov"],
+    expected_manuals: [
+      {
+        id: "ct-ctdot-drainage",
+        title: "CTDOT Drainage Manual",
+        scope: "drainage",
+        landing_page_url: null,
+        search_queries: [
+          "CTDOT drainage manual",
+          "Connecticut DOT drainage design manual filetype:pdf",
+        ],
+        known_slugs: [],
+      },
+    ],
+  },
+  "DE:dep_deq": {
+    agency_name: "Delaware DNREC",
+    agency_abbrev: "DNREC",
+    domains: ["dnrec.delaware.gov", "documents.dnrec.delaware.gov"],
+    expected_manuals: [
+      {
+        id: "de-dnrec-postcon",
+        title: "DNREC Post-Construction Stormwater BMP Standards",
+        scope: "post_construction",
+        landing_page_url:
+          "https://dnrec.delaware.gov/watershed-stewardship/sediment-stormwater/",
+        search_queries: [
+          "Delaware DNREC post-construction BMP standards",
+          "Delaware ESC Handbook stormwater",
+        ],
+        known_slugs: ["delaware-esc", "de-wet-ponds-draft"],
+        partial: true,
+      },
+    ],
+    notes: "ESC handbook + wet-ponds draft §13; full post-construction standards still needed",
+  },
+  "DE:dot": {
+    agency_name: "Delaware Department of Transportation",
+    agency_abbrev: "DelDOT",
+    domains: ["deldot.gov"],
+    expected_manuals: [
+      {
+        id: "de-deldot-drainage",
+        title: "DelDOT Drainage Design Manual",
+        scope: "drainage",
+        landing_page_url: null,
+        search_queries: [
+          "DelDOT drainage design manual",
+          "site:deldot.gov drainage stormwater filetype:pdf",
+        ],
+        known_slugs: [],
+      },
+    ],
+  },
+  "DC:dep_deq": {
+    agency_name: "District of Columbia DOEE",
+    agency_abbrev: "DOEE",
+    domains: ["doee.dc.gov"],
+    expected_manuals: [
+      {
+        id: "dc-guidebook",
+        title: "DC Stormwater Management Guidebook",
+        scope: "full_manual",
+        landing_page_url: null,
+        search_queries: ["DC Stormwater Management Guidebook PDF"],
+        known_slugs: ["dc-guidebook"],
+      },
+    ],
+  },
+  "DC:dot": {
+    agency_name: "District Department of Transportation",
+    agency_abbrev: "DDOT",
+    domains: ["ddot.dc.gov"],
+    expected_manuals: [
+      {
+        id: "dc-ddot-stormwater",
+        title: "DDOT Stormwater / Green Infrastructure Design Guidance",
+        scope: "drainage",
+        landing_page_url: null,
+        search_queries: [
+          "DDOT stormwater design guidance",
+          "DDOT green infrastructure manual",
+        ],
+        known_slugs: [],
+      },
+    ],
+  },
+  "FL:dep_deq": {
+    agency_name: "Florida Department of Environmental Protection",
+    agency_abbrev: "FDEP",
+    domains: ["floridadep.gov"],
+    expected_manuals: [
+      {
+        id: "fl-fdep-design",
+        title: "Florida Stormwater Erosion and Sedimentation Control / Design Manual",
+        scope: "full_manual",
+        landing_page_url: "https://floridadep.gov/dear/florida-stormwater-erosion",
+        search_queries: [
+          "Florida DEP stormwater design manual",
+          "FSESCI manual Florida",
+        ],
+        known_slugs: ["fl-fsesci-tier1"],
+        partial: true,
+      },
+    ],
+    notes: "FSESCI Tier I is inspector-focused; full DEP post-construction design manual still needed",
+  },
+  "FL:dot": {
+    agency_name: "Florida Department of Transportation",
+    agency_abbrev: "FDOT",
+    domains: ["fdot.gov"],
+    expected_manuals: [
+      {
+        id: "fl-fdot-drainage",
+        title: "FDOT Drainage Manual",
+        scope: "drainage",
+        landing_page_url: null,
+        search_queries: [
+          "FDOT Drainage Manual",
+          "site:fdot.gov Drainage Manual filetype:pdf",
+        ],
+        known_slugs: [],
+      },
+    ],
+  },
+  "GA:dep_deq": {
+    agency_name: "Georgia Environmental Protection Division / Atlanta Regional Commission",
+    agency_abbrev: "GA EPD",
+    domains: ["epd.georgia.gov", "atlantaregional.org"],
+    expected_manuals: [
+      {
+        id: "ga-gsmm",
+        title: "Georgia Stormwater Management Manual (GSMM)",
+        scope: "full_manual",
+        landing_page_url:
+          "https://atlantaregional.org/what-we-do/natural-resources/georgia-stormwater-management-manual/",
+        search_queries: ["Georgia Stormwater Management Manual GSMM PDF"],
+        known_slugs: ["ga-state"],
+      },
+    ],
+  },
+  "GA:dot": {
+    agency_name: "Georgia Department of Transportation",
+    agency_abbrev: "GDOT",
+    domains: ["dot.ga.gov"],
+    expected_manuals: [
+      {
+        id: "ga-gdot-drainage",
+        title: "GDOT Drainage Manual / Stormwater Design",
+        scope: "drainage",
+        landing_page_url: null,
+        search_queries: [
+          "GDOT drainage manual",
+          "site:dot.ga.gov drainage design manual filetype:pdf",
+        ],
+        known_slugs: [],
+      },
+    ],
+  },
+  "HI:dep_deq": {
+    agency_name: "Hawaii Department of Health / Clean Water Branch",
+    agency_abbrev: "HIDOH",
+    domains: ["health.hawaii.gov"],
+    expected_manuals: [
+      {
+        id: "hi-doh-stormwater",
+        title: "Hawaii DOH Stormwater BMP / Design Guidance",
+        scope: "full_manual",
+        landing_page_url: null,
+        search_queries: [
+          "Hawaii Department of Health stormwater BMP manual",
+          "Hawaii statewide stormwater design manual",
+        ],
+        known_slugs: [],
+      },
+    ],
+    notes: "Primary statewide design coverage is via Hawaii DOT PCBMP manual",
+  },
+  "HI:dot": {
+    agency_name: "Hawaii Department of Transportation Highways",
+    agency_abbrev: "HDOT",
+    domains: ["stormwaterhawaii.com", "hidot.hawaii.gov"],
+    expected_manuals: [
+      {
+        id: "hi-dot-pcbmp",
+        title: "Hawaii DOT Post-Construction BMP Manual",
+        scope: "post_construction",
+        landing_page_url: "https://www.stormwaterhawaii.com/",
+        search_queries: ["Hawaii DOT post-construction BMP manual"],
+        known_slugs: ["hawaii-dot-pcbmp"],
+      },
+    ],
+  },
+  "ID:dep_deq": {
+    agency_name: "Idaho Department of Environmental Quality",
+    agency_abbrev: "IDEQ",
+    domains: ["deq.idaho.gov"],
+    expected_manuals: [
+      {
+        id: "id-deq-catalog",
+        title: "Idaho DEQ Catalog of Stormwater BMPs",
+        scope: "full_manual",
+        landing_page_url:
+          "https://www.deq.idaho.gov/water-quality/wastewater/stormwater/",
+        search_queries: ["Idaho DEQ Catalog of Stormwater BMPs"],
+        known_slugs: ["idaho-bmp-catalog"],
+        partial: true,
+      },
+    ],
+    notes: "Catalog via third-party mirror; official DEQ download API returns JSON",
+  },
+  "ID:dot": {
+    agency_name: "Idaho Transportation Department",
+    agency_abbrev: "ITD",
+    domains: ["itd.idaho.gov"],
+    expected_manuals: [
+      {
+        id: "id-itd-drainage",
+        title: "ITD Drainage Manual",
+        scope: "drainage",
+        landing_page_url: null,
+        search_queries: [
+          "ITD drainage manual",
+          "Idaho Transportation Department stormwater manual",
+        ],
+        known_slugs: [],
+      },
+    ],
+  },
+  "IL:dep_deq": {
+    agency_name: "Illinois Environmental Protection Agency",
+    agency_abbrev: "IEPA",
+    domains: ["epa.illinois.gov"],
+    expected_manuals: [
+      {
+        id: "il-iepa-stormwater",
+        title: "Illinois Statewide Stormwater / BMP Design Manual",
+        scope: "full_manual",
+        landing_page_url: null,
+        search_queries: [
+          "Illinois IEPA stormwater design manual",
+          "Illinois Urban Manual stormwater",
+        ],
+        known_slugs: [],
+      },
+    ],
+    notes: "No IEPA statewide design manual in catalog; cities used as proxies",
+  },
+  "IL:dot": {
+    agency_name: "Illinois Department of Transportation",
+    agency_abbrev: "IDOT",
+    domains: ["idot.illinois.gov"],
+    expected_manuals: [
+      {
+        id: "il-idot-drainage",
+        title: "IDOT Drainage Manual / Bureau of Design",
+        scope: "drainage",
+        landing_page_url: null,
+        search_queries: [
+          "IDOT drainage manual",
+          "site:idot.illinois.gov drainage design manual filetype:pdf",
+        ],
+        known_slugs: [],
+      },
+    ],
+  },
+  "IN:dep_deq": {
+    agency_name: "Indiana Department of Environmental Management",
+    agency_abbrev: "IDEM",
+    domains: ["in.gov"],
+    expected_manuals: [
+      {
+        id: "in-idem-manual",
+        title: "Indiana Storm Water Quality Manual",
+        scope: "full_manual",
+        landing_page_url:
+          "https://www.in.gov/idem/stormwater/resources/indiana-storm-water-quality-manual/",
+        search_queries: ["Indiana Storm Water Quality Manual IDEM"],
+        known_slugs: ["indiana-manual"],
+        partial: true,
+      },
+    ],
+    notes: "Only Chapter 1 ingested",
+  },
+  "IN:dot": {
+    agency_name: "Indiana Department of Transportation",
+    agency_abbrev: "INDOT",
+    domains: ["in.gov"],
+    expected_manuals: [
+      {
+        id: "in-indot-drainage",
+        title: "INDOT Drainage Design Manual",
+        scope: "drainage",
+        landing_page_url: null,
+        search_queries: [
+          "INDOT drainage design manual",
+          "site:in.gov INDOT drainage manual filetype:pdf",
+        ],
+        known_slugs: [],
+      },
+    ],
+  },
+  "IA:dep_deq": {
+    agency_name: "Iowa Department of Natural Resources",
+    agency_abbrev: "Iowa DNR",
+    domains: ["iowadnr.gov"],
+    expected_manuals: [
+      {
+        id: "ia-iswmm",
+        title: "Iowa Stormwater Management Manual (ISWMM)",
+        scope: "full_manual",
+        landing_page_url:
+          "https://www.iowadnr.gov/environmental-protection/water-quality/stormwater-program/iswmm-manual",
+        search_queries: ["Iowa Stormwater Management Manual ISWMM"],
+        known_slugs: ["ia-state-ch1"],
+        partial: true,
+      },
+    ],
+    notes: "Chapter-based portal; only Ch1 PDF ingested",
+  },
+  "IA:dot": {
+    agency_name: "Iowa Department of Transportation",
+    agency_abbrev: "Iowa DOT",
+    domains: ["iowadot.gov"],
+    expected_manuals: [
+      {
+        id: "ia-dot-drainage",
+        title: "Iowa DOT Drainage Design Manual",
+        scope: "drainage",
+        landing_page_url: null,
+        search_queries: [
+          "Iowa DOT drainage design manual",
+          "site:iowadot.gov drainage stormwater filetype:pdf",
+        ],
+        known_slugs: [],
+      },
+    ],
+  },
+  "KS:dep_deq": {
+    agency_name: "Kansas Department of Health and Environment",
+    agency_abbrev: "KDHE",
+    domains: ["kdhe.ks.gov"],
+    expected_manuals: [
+      {
+        id: "ks-kdhe-stormwater",
+        title: "KDHE Stormwater / BMP Design Manual",
+        scope: "full_manual",
+        landing_page_url: null,
+        search_queries: [
+          "KDHE stormwater design manual",
+          "Kansas statewide stormwater BMP manual",
+        ],
+        known_slugs: [],
+      },
+    ],
+  },
+  "KS:dot": {
+    agency_name: "Kansas Department of Transportation",
+    agency_abbrev: "KDOT",
+    domains: ["ksdot.org"],
+    expected_manuals: [
+      {
+        id: "ks-kdot-drainage",
+        title: "KDOT Drainage Design Manual",
+        scope: "drainage",
+        landing_page_url: null,
+        search_queries: [
+          "KDOT drainage design manual",
+          "site:ksdot.org drainage manual filetype:pdf",
+        ],
+        known_slugs: [],
+      },
+    ],
+  },
+  "KY:dep_deq": {
+    agency_name: "Kentucky Energy and Environment Cabinet / Division of Water",
+    agency_abbrev: "KY DOW",
+    domains: ["eec.ky.gov"],
+    expected_manuals: [
+      {
+        id: "ky-dow-stormwater",
+        title: "Kentucky Stormwater Design Manual",
+        scope: "full_manual",
+        landing_page_url: null,
+        search_queries: [
+          "Kentucky Division of Water stormwater design manual",
+          "Kentucky BMP manual stormwater",
+        ],
+        known_slugs: [],
+      },
+    ],
+    notes: "Primary cataloged KY manual is KYTC BMP Section 1 (DOT)",
+  },
+  "KY:dot": {
+    agency_name: "Kentucky Transportation Cabinet",
+    agency_abbrev: "KYTC",
+    domains: ["transportation.ky.gov"],
+    expected_manuals: [
+      {
+        id: "ky-kytc-bmp",
+        title: "KYTC BMP Manual",
+        scope: "construction_esc",
+        landing_page_url:
+          "https://transportation.ky.gov/EnvironmentalAnalysis/Pages/default.aspx",
+        search_queries: ["KYTC BMP Manual stormwater"],
+        known_slugs: ["kentucky-bmp"],
+        partial: true,
+      },
+      {
+        id: "ky-kytc-drainage",
+        title: "KYTC Drainage Manual",
+        scope: "drainage",
+        landing_page_url: null,
+        search_queries: [
+          "KYTC drainage manual",
+          "site:transportation.ky.gov drainage design filetype:pdf",
+        ],
+        known_slugs: [],
+      },
+    ],
+  },
+  "LA:dep_deq": {
+    agency_name: "Louisiana Department of Environmental Quality",
+    agency_abbrev: "LDEQ",
+    domains: ["deq.louisiana.gov"],
+    expected_manuals: [
+      {
+        id: "la-ldeq-stormwater",
+        title: "LDEQ Stormwater Design / BMP Manual",
+        scope: "full_manual",
+        landing_page_url: "https://deq.louisiana.gov/page/storm-water-protection",
+        search_queries: [
+          "Louisiana DEQ stormwater design manual",
+          "LDEQ stormwater BMP guidance",
+        ],
+        known_slugs: [],
+      },
+    ],
+    notes: "No statewide LDEQ design manual in catalog; parish/city proxies only",
+  },
+  "LA:dot": {
+    agency_name: "Louisiana Department of Transportation and Development",
+    agency_abbrev: "LADOTD",
+    domains: ["dotd.la.gov"],
+    expected_manuals: [
+      {
+        id: "la-ladotd-drainage",
+        title: "LADOTD Hydraulics Manual / Stormwater",
+        scope: "drainage",
+        landing_page_url: null,
+        search_queries: [
+          "LADOTD hydraulics manual",
+          "Louisiana DOTD drainage design manual filetype:pdf",
+        ],
+        known_slugs: [],
+      },
+    ],
+  },
+  "ME:dep_deq": {
+    agency_name: "Maine Department of Environmental Protection",
+    agency_abbrev: "Maine DEP",
+    domains: ["maine.gov"],
+    expected_manuals: [
+      {
+        id: "me-dep-bmp",
+        title: "Maine Stormwater BMP Manual",
+        scope: "full_manual",
+        landing_page_url: "https://www.maine.gov/dep/land/stormwater/stormwaterbmps/",
+        search_queries: ["Maine Stormwater BMP Manual Volume III"],
+        known_slugs: ["maine-manual"],
+      },
+    ],
+  },
+  "ME:dot": {
+    agency_name: "Maine Department of Transportation",
+    agency_abbrev: "MaineDOT",
+    domains: ["maine.gov"],
+    expected_manuals: [
+      {
+        id: "me-dot-drainage",
+        title: "MaineDOT Drainage Design Guide",
+        scope: "drainage",
+        landing_page_url: null,
+        search_queries: [
+          "MaineDOT drainage design",
+          "Maine DOT stormwater manual filetype:pdf",
+        ],
+        known_slugs: [],
+      },
+    ],
+  },
+  "MD:dep_deq": {
+    agency_name: "Maryland Department of the Environment",
+    agency_abbrev: "MDE",
+    domains: ["mde.maryland.gov"],
+    expected_manuals: [
+      {
+        id: "md-mde-swm",
+        title: "Maryland Stormwater Design Manual",
+        scope: "full_manual",
+        landing_page_url:
+          "https://mde.maryland.gov/programs/water/stormwatermanagementprogram/pages/stormwater_design.aspx",
+        search_queries: ["Maryland Stormwater Design Manual MDE"],
+        known_slugs: ["md-state"],
+      },
+    ],
+  },
+  "MD:dot": {
+    agency_name: "Maryland Department of Transportation / SHA",
+    agency_abbrev: "MDOT SHA",
+    domains: ["roads.maryland.gov", "mdot.maryland.gov"],
+    expected_manuals: [
+      {
+        id: "md-sha-drainage",
+        title: "MDOT SHA Drainage Manual / Stormwater Design",
+        scope: "drainage",
+        landing_page_url: null,
+        search_queries: [
+          "MDOT SHA drainage manual",
+          "Maryland SHA stormwater design criteria filetype:pdf",
+        ],
+        known_slugs: [],
+      },
+    ],
+  },
+  "MA:dep_deq": {
+    agency_name: "Massachusetts Department of Environmental Protection",
+    agency_abbrev: "MassDEP",
+    domains: ["mass.gov"],
+    expected_manuals: [
+      {
+        id: "ma-massdep-handbook",
+        title: "Massachusetts Stormwater Handbook",
+        scope: "full_manual",
+        landing_page_url:
+          "https://www.mass.gov/guides/massachusetts-stormwater-handbook-and-stormwater-standards",
+        search_queries: ["MassDEP Stormwater Handbook PDF"],
+        known_slugs: ["ma-state-draft"],
+        partial: true,
+      },
+    ],
+    notes: "2023 draft via municipal mirror; final MassDEP handbook preferred",
+  },
+  "MA:dot": {
+    agency_name: "Massachusetts Department of Transportation",
+    agency_abbrev: "MassDOT",
+    domains: ["mass.gov"],
+    expected_manuals: [
+      {
+        id: "ma-massdot-drainage",
+        title: "MassDOT Drainage / Stormwater Design Guidance",
+        scope: "drainage",
+        landing_page_url: null,
+        search_queries: [
+          "MassDOT drainage design manual",
+          "Massachusetts DOT stormwater BMP manual",
+        ],
+        known_slugs: [],
+      },
+    ],
+  },
+  "MI:dep_deq": {
+    agency_name: "Michigan EGLE",
+    agency_abbrev: "EGLE",
+    domains: ["michigan.gov"],
+    expected_manuals: [
+      {
+        id: "mi-egle-bmp",
+        title: "EGLE Nonpoint Source BMP Manual",
+        scope: "full_manual",
+        landing_page_url:
+          "https://www.michigan.gov/egle/about/organization/water-resources/stormwater/municipal",
+        search_queries: ["EGLE Nonpoint Source Best Management Practices Manual"],
+        known_slugs: ["michigan-manual"],
+        partial: true,
+      },
+    ],
+    notes: "Only intro chapter ingested via municipal mirror",
+  },
+  "MI:dot": {
+    agency_name: "Michigan Department of Transportation",
+    agency_abbrev: "MDOT",
+    domains: ["michigan.gov"],
+    expected_manuals: [
+      {
+        id: "mi-mdot-drainage",
+        title: "MDOT Drainage Manual",
+        scope: "drainage",
+        landing_page_url: null,
+        search_queries: [
+          "MDOT drainage manual",
+          "Michigan DOT drainage design guide filetype:pdf",
+        ],
+        known_slugs: [],
+      },
+    ],
+  },
+  "MN:dep_deq": {
+    agency_name: "Minnesota Pollution Control Agency",
+    agency_abbrev: "MPCA",
+    domains: ["pca.state.mn.us", "stormwater.pca.state.mn.us"],
+    expected_manuals: [
+      {
+        id: "mn-pca-manual",
+        title: "Minnesota Stormwater Manual",
+        scope: "full_manual",
+        landing_page_url: "https://stormwater.pca.state.mn.us/",
+        search_queries: ["Minnesota Stormwater Manual MPCA PDF"],
+        known_slugs: ["mn-state-2008", "mn-state"],
+        partial: true,
+      },
+    ],
+    notes: "Live wiki; 2008 static PDF outdated; mn-state skipped (no single PDF)",
+  },
+  "MN:dot": {
+    agency_name: "Minnesota Department of Transportation",
+    agency_abbrev: "MnDOT",
+    domains: ["dot.state.mn.us"],
+    expected_manuals: [
+      {
+        id: "mn-mndot-drainage",
+        title: "MnDOT Drainage Manual",
+        scope: "drainage",
+        landing_page_url: null,
+        search_queries: [
+          "MnDOT drainage manual",
+          "site:dot.state.mn.us drainage design manual filetype:pdf",
+        ],
+        known_slugs: [],
+      },
+    ],
+  },
+  "MS:dep_deq": {
+    agency_name: "Mississippi Department of Environmental Quality",
+    agency_abbrev: "MDEQ",
+    domains: ["mdeq.ms.gov"],
+    expected_manuals: [
+      {
+        id: "ms-mdeq-vol2",
+        title: "MDEQ Stormwater Runoff Management Manual",
+        scope: "full_manual",
+        landing_page_url:
+          "https://www.mdeq.ms.gov/water/surface-water/nonpoint-source-pollution-program/stormwater-runoff-management-manual/",
+        search_queries: ["MDEQ Stormwater Runoff Management Manual Volume"],
+        known_slugs: ["ms-state-vol2"],
+        partial: true,
+      },
+    ],
+    notes: "Volume 2 only; Volume 1 / complete set still needed",
+  },
+  "MS:dot": {
+    agency_name: "Mississippi Department of Transportation",
+    agency_abbrev: "MDOT",
+    domains: ["mdot.ms.gov"],
+    expected_manuals: [
+      {
+        id: "ms-mdot-drainage",
+        title: "MDOT Drainage Design Manual",
+        scope: "drainage",
+        landing_page_url: null,
+        search_queries: [
+          "Mississippi MDOT drainage manual",
+          "site:mdot.ms.gov drainage stormwater filetype:pdf",
+        ],
+        known_slugs: [],
+      },
+    ],
+  },
+  "MO:dep_deq": {
+    agency_name: "Missouri Department of Natural Resources",
+    agency_abbrev: "MoDNR",
+    domains: ["dnr.mo.gov"],
+    expected_manuals: [
+      {
+        id: "mo-dnr-gi",
+        title: "Missouri Guide to Green Infrastructure",
+        scope: "full_manual",
+        landing_page_url:
+          "https://dnr.mo.gov/document-search/missouri-guide-green-infrastructure-pub2446",
+        search_queries: ["Missouri Guide to Green Infrastructure PUB2446"],
+        known_slugs: ["missouri-manual"],
+        partial: true,
+      },
+    ],
+    notes: "GI/LID guidance only — not a full conventional design manual",
+  },
+  "MO:dot": {
+    agency_name: "Missouri Department of Transportation",
+    agency_abbrev: "MoDOT",
+    domains: ["modot.org"],
+    expected_manuals: [
+      {
+        id: "mo-modot-drainage",
+        title: "MoDOT Engineering Policy Guide / Drainage",
+        scope: "drainage",
+        landing_page_url: null,
+        search_queries: [
+          "MoDOT drainage design",
+          "Missouri DOT stormwater design manual filetype:pdf",
+        ],
+        known_slugs: [],
+      },
+    ],
+  },
+  "MT:dep_deq": {
+    agency_name: "Montana Department of Environmental Quality",
+    agency_abbrev: "MT DEQ",
+    domains: ["deq.mt.gov"],
+    expected_manuals: [
+      {
+        id: "mt-deq8",
+        title: "Montana DEQ-8 Subdivision Storm Water Standards",
+        scope: "full_manual",
+        landing_page_url: "https://deq.mt.gov/water",
+        search_queries: ["Montana DEQ-8 storm water drainage"],
+        known_slugs: ["mt-deq8", "billings-mt"],
+        partial: true,
+      },
+    ],
+    notes: "DEQ-8 is subdivision-focused; MS4 post-construction hosted by Billings",
+  },
+  "MT:dot": {
+    agency_name: "Montana Department of Transportation",
+    agency_abbrev: "MDT",
+    domains: ["mdt.mt.gov"],
+    expected_manuals: [
+      {
+        id: "mt-mdt-drainage",
+        title: "MDT Drainage Design Manual",
+        scope: "drainage",
+        landing_page_url: null,
+        search_queries: [
+          "MDT drainage design manual",
+          "Montana DOT stormwater manual filetype:pdf",
+        ],
+        known_slugs: [],
+      },
+    ],
+  },
+  "NE:dep_deq": {
+    agency_name: "Nebraska Department of Environment and Energy",
+    agency_abbrev: "NDEE",
+    domains: ["dee.ne.gov"],
+    expected_manuals: [
+      {
+        id: "ne-ndee-stormwater",
+        title: "Nebraska Stormwater Design Manual",
+        scope: "full_manual",
+        landing_page_url: null,
+        search_queries: [
+          "Nebraska NDEE stormwater design manual",
+          "Nebraska statewide BMP manual stormwater",
+        ],
+        known_slugs: [],
+      },
+    ],
+  },
+  "NE:dot": {
+    agency_name: "Nebraska Department of Transportation",
+    agency_abbrev: "NDOT",
+    domains: ["dot.nebraska.gov"],
+    expected_manuals: [
+      {
+        id: "ne-ndot-stf",
+        title: "NDOT Drainage Design and Erosion Control Manual",
+        scope: "drainage",
+        landing_page_url: "https://dot.nebraska.gov/",
+        search_queries: [
+          "NDOT Drainage Design and Erosion Control Manual",
+          "Nebraska DOT stormwater treatment chapter",
+        ],
+        known_slugs: ["ne-ndot-stf"],
+        partial: true,
+      },
+    ],
+    notes: "Chapter 3 Stormwater Treatment only",
+  },
+  "NV:dep_deq": {
+    agency_name: "Nevada Division of Environmental Protection",
+    agency_abbrev: "NDEP",
+    domains: ["ndep.nv.gov"],
+    expected_manuals: [
+      {
+        id: "nv-ndep-stormwater",
+        title: "NDEP Stormwater Design / BMP Manual",
+        scope: "full_manual",
+        landing_page_url: null,
+        search_queries: [
+          "Nevada NDEP stormwater design manual",
+          "Nevada statewide stormwater BMP",
+        ],
+        known_slugs: [],
+      },
+    ],
+  },
+  "NV:dot": {
+    agency_name: "Nevada Department of Transportation",
+    agency_abbrev: "NDOT",
+    domains: ["dot.nv.gov"],
+    expected_manuals: [
+      {
+        id: "nv-ndot-drainage",
+        title: "NDOT Drainage Manual",
+        scope: "drainage",
+        landing_page_url: null,
+        search_queries: [
+          "Nevada NDOT drainage manual",
+          "site:dot.nv.gov drainage design filetype:pdf",
+        ],
+        known_slugs: [],
+      },
+    ],
+  },
+  "NH:dep_deq": {
+    agency_name: "New Hampshire DES / UNH Stormwater Center",
+    agency_abbrev: "NHDES",
+    domains: ["des.nh.gov", "extension.unh.edu"],
+    expected_manuals: [
+      {
+        id: "nh-manual",
+        title: "New Hampshire Stormwater Manual",
+        scope: "full_manual",
+        landing_page_url:
+          "https://extension.unh.edu/stormwater-center/nh-stormwater-manual",
+        search_queries: ["New Hampshire Stormwater Manual standards PDF"],
+        known_slugs: ["nh-state"],
+      },
+    ],
+  },
+  "NH:dot": {
+    agency_name: "New Hampshire Department of Transportation",
+    agency_abbrev: "NHDOT",
+    domains: ["dot.nh.gov"],
+    expected_manuals: [
+      {
+        id: "nh-nhdot-drainage",
+        title: "NHDOT Drainage Design Manual",
+        scope: "drainage",
+        landing_page_url: null,
+        search_queries: [
+          "NHDOT drainage design manual",
+          "New Hampshire DOT stormwater manual filetype:pdf",
+        ],
+        known_slugs: [],
+      },
+    ],
+  },
+  "NJ:dep_deq": {
+    agency_name: "New Jersey Department of Environmental Protection",
+    agency_abbrev: "NJDEP",
+    domains: ["dep.nj.gov"],
+    expected_manuals: [
+      {
+        id: "nj-dep-bmp",
+        title: "New Jersey Stormwater BMP Manual",
+        scope: "full_manual",
+        landing_page_url:
+          "https://dep.nj.gov/stormwater/stormwater-management/bmp-manual/",
+        search_queries: ["NJDEP Stormwater BMP Manual"],
+        known_slugs: ["nj-state"],
+        partial: true,
+      },
+    ],
+    notes: "Ch5 only; DEP host often 403s automated fetch",
+  },
+  "NJ:dot": {
+    agency_name: "New Jersey Department of Transportation",
+    agency_abbrev: "NJDOT",
+    domains: ["nj.gov"],
+    expected_manuals: [
+      {
+        id: "nj-njdot-drainage",
+        title: "NJDOT Drainage Design Manual",
+        scope: "drainage",
+        landing_page_url: null,
+        search_queries: [
+          "NJDOT drainage design manual",
+          "New Jersey DOT stormwater design criteria filetype:pdf",
+        ],
+        known_slugs: [],
+      },
+    ],
+  },
+  "NM:dep_deq": {
+    agency_name: "New Mexico Environment Department",
+    agency_abbrev: "NMED",
+    domains: ["env.nm.gov"],
+    expected_manuals: [
+      {
+        id: "nm-nmed-stormwater",
+        title: "NMED Stormwater Design Manual",
+        scope: "full_manual",
+        landing_page_url: null,
+        search_queries: [
+          "New Mexico NMED stormwater design manual",
+          "New Mexico statewide stormwater BMP",
+        ],
+        known_slugs: [],
+      },
+    ],
+  },
+  "NM:dot": {
+    agency_name: "New Mexico Department of Transportation",
+    agency_abbrev: "NMDOT",
+    domains: ["dot.nm.gov"],
+    expected_manuals: [
+      {
+        id: "nm-nmdot-drainage",
+        title: "NMDOT Drainage Design Manual",
+        scope: "drainage",
+        landing_page_url: null,
+        search_queries: [
+          "NMDOT drainage design manual",
+          "site:dot.nm.gov drainage stormwater filetype:pdf",
+        ],
+        known_slugs: [],
+      },
+    ],
+  },
+  "NY:dep_deq": {
+    agency_name: "New York State Department of Environmental Conservation",
+    agency_abbrev: "NYSDEC",
+    domains: ["dec.ny.gov"],
+    expected_manuals: [
+      {
+        id: "ny-dec-design",
+        title: "NYSDEC Stormwater Management Design Manual",
+        scope: "full_manual",
+        landing_page_url:
+          "https://dec.ny.gov/environmental-protection/water/water-quality/stormwater/construction-stormwater-toolbox",
+        search_queries: ["NYSDEC Stormwater Management Design Manual"],
+        known_slugs: ["ny-state", "ny-bluebook"],
+      },
+    ],
+  },
+  "NY:dot": {
+    agency_name: "New York State Department of Transportation",
+    agency_abbrev: "NYSDOT",
+    domains: ["dot.ny.gov"],
+    expected_manuals: [
+      {
+        id: "ny-nysdot-drainage",
+        title: "NYSDOT Highway Design Manual / Drainage",
+        scope: "drainage",
+        landing_page_url: null,
+        search_queries: [
+          "NYSDOT Highway Design Manual drainage",
+          "New York DOT stormwater design manual filetype:pdf",
+        ],
+        known_slugs: [],
+      },
+    ],
+  },
+  "NC:dep_deq": {
+    agency_name: "North Carolina Department of Environmental Quality",
+    agency_abbrev: "NCDEQ",
+    domains: ["deq.nc.gov"],
+    expected_manuals: [
+      {
+        id: "nc-deq-design",
+        title: "NCDEQ Stormwater Design Manual",
+        scope: "full_manual",
+        landing_page_url:
+          "https://www.deq.nc.gov/about/divisions/energy-mineral-and-land-resources/stormwater/stormwater-program/stormwater-design-manual",
+        search_queries: ["NCDEQ Stormwater Design Manual MDC"],
+        known_slugs: ["nc-state"],
+        partial: true,
+      },
+    ],
+    notes: "Part C-0 MDC chapter only; full multi-part portal manual still needed",
+  },
+  "NC:dot": {
+    agency_name: "North Carolina Department of Transportation",
+    agency_abbrev: "NCDOT",
+    domains: ["ncdot.gov"],
+    expected_manuals: [
+      {
+        id: "nc-ncdot-drainage",
+        title: "NCDOT Guidelines for Drainage Studies / Stormwater",
+        scope: "drainage",
+        landing_page_url: null,
+        search_queries: [
+          "NCDOT drainage guidelines stormwater",
+          "site:ncdot.gov drainage design manual filetype:pdf",
+        ],
+        known_slugs: [],
+      },
+    ],
+  },
+  "ND:dep_deq": {
+    agency_name: "North Dakota Department of Environmental Quality",
+    agency_abbrev: "NDDEQ",
+    domains: ["deq.nd.gov"],
+    expected_manuals: [
+      {
+        id: "nd-deq-stormwater",
+        title: "North Dakota Stormwater Design Manual",
+        scope: "full_manual",
+        landing_page_url: null,
+        search_queries: [
+          "North Dakota DEQ stormwater design manual",
+          "North Dakota statewide stormwater BMP",
+        ],
+        known_slugs: [],
+      },
+    ],
+  },
+  "ND:dot": {
+    agency_name: "North Dakota Department of Transportation",
+    agency_abbrev: "NDDOT",
+    domains: ["dot.nd.gov"],
+    expected_manuals: [
+      {
+        id: "nd-nddot-drainage",
+        title: "NDDOT Drainage Design Manual",
+        scope: "drainage",
+        landing_page_url: null,
+        search_queries: [
+          "NDDOT drainage design manual",
+          "site:dot.nd.gov drainage stormwater filetype:pdf",
+        ],
+        known_slugs: [],
+      },
+    ],
+  },
+  "OH:dep_deq": {
+    agency_name: "Ohio EPA",
+    agency_abbrev: "Ohio EPA",
+    domains: ["epa.ohio.gov"],
+    expected_manuals: [
+      {
+        id: "oh-rainwater",
+        title: "Ohio Rainwater and Land Development Manual",
+        scope: "full_manual",
+        landing_page_url:
+          "https://epa.ohio.gov/divisions-and-offices/surface-water/guides-manuals/rainwater-and-land-development",
+        search_queries: ["Ohio Rainwater and Land Development Manual PDF"],
+        known_slugs: ["ohio-rainwater"],
+      },
+    ],
+  },
+  "OH:dot": {
+    agency_name: "Ohio Department of Transportation",
+    agency_abbrev: "ODOT",
+    domains: ["transportation.ohio.gov"],
+    expected_manuals: [
+      {
+        id: "oh-odot-drainage",
+        title: "ODOT Location and Design Manual / Drainage",
+        scope: "drainage",
+        landing_page_url: null,
+        search_queries: [
+          "ODOT Location and Design Manual drainage",
+          "Ohio DOT drainage design manual filetype:pdf",
+        ],
+        known_slugs: [],
+      },
+    ],
+  },
+  "OK:dep_deq": {
+    agency_name: "Oklahoma Department of Environmental Quality",
+    agency_abbrev: "ODEQ",
+    domains: ["deq.ok.gov"],
+    expected_manuals: [
+      {
+        id: "ok-odeq-stormwater",
+        title: "Oklahoma DEQ Stormwater Design Manual",
+        scope: "full_manual",
+        landing_page_url: null,
+        search_queries: [
+          "Oklahoma DEQ stormwater design manual",
+          "Oklahoma statewide stormwater BMP manual",
+        ],
+        known_slugs: [],
+      },
+    ],
+  },
+  "OK:dot": {
+    agency_name: "Oklahoma Department of Transportation",
+    agency_abbrev: "ODOT",
+    domains: ["oklahoma.gov"],
+    expected_manuals: [
+      {
+        id: "ok-odot-drainage",
+        title: "ODOT Roadway Drainage Manual",
+        scope: "drainage",
+        landing_page_url:
+          "https://oklahoma.gov/odot/business-center/pre-construction-design/roadway-design/support-units/oklahoma-roadway-drainage-manual.html",
+        search_queries: ["ODOT Roadway Drainage Manual Chapter stormwater"],
+        known_slugs: ["oklahoma-odot-ch10"],
+        partial: true,
+      },
+    ],
+    notes: "Chapter 10 only",
+  },
+  "OR:dep_deq": {
+    agency_name: "Oregon Department of Environmental Quality",
+    agency_abbrev: "ODEQ",
+    domains: ["oregon.gov"],
+    expected_manuals: [
+      {
+        id: "or-deq-stormwater",
+        title: "Oregon DEQ Stormwater Design / LID Template",
+        scope: "full_manual",
+        landing_page_url: null,
+        search_queries: [
+          "Oregon DEQ stormwater design manual",
+          "Oregon DEQ LID handbook template",
+        ],
+        known_slugs: ["oregon-manual"],
+        partial: true,
+      },
+    ],
+    notes: "DEQ Western OR LID template removed; CWS LIDA handbook used as regional proxy",
+  },
+  "OR:dot": {
+    agency_name: "Oregon Department of Transportation",
+    agency_abbrev: "ODOT",
+    domains: ["oregon.gov"],
+    expected_manuals: [
+      {
+        id: "or-odot-drainage",
+        title: "ODOT Hydraulics Manual / Stormwater",
+        scope: "drainage",
+        landing_page_url: null,
+        search_queries: [
+          "ODOT Hydraulics Manual",
+          "Oregon DOT stormwater design guide filetype:pdf",
+        ],
+        known_slugs: [],
+      },
+    ],
+  },
+  "PA:dep_deq": {
+    agency_name: "Pennsylvania Department of Environmental Protection",
+    agency_abbrev: "PA DEP",
+    domains: ["pa.gov", "dep.pa.gov"],
+    expected_manuals: [
+      {
+        id: "pa-dep-pcsm",
+        title: "Pennsylvania Post-Construction Stormwater Management Manual",
+        scope: "full_manual",
+        landing_page_url:
+          "https://www.pa.gov/agencies/dep/programs-and-services/water/clean-water/stormwater-management/construction-stormwater/eands-resources",
+        search_queries: ["Pennsylvania PCSM Manual DEP"],
+        known_slugs: ["pa-state"],
+      },
+    ],
+  },
+  "PA:dot": {
+    agency_name: "Pennsylvania Department of Transportation",
+    agency_abbrev: "PennDOT",
+    domains: ["penndot.gov", "dot.state.pa.us"],
+    expected_manuals: [
+      {
+        id: "pa-penndot-drainage",
+        title: "PennDOT Drainage Manual / Pub 584",
+        scope: "drainage",
+        landing_page_url: null,
+        search_queries: [
+          "PennDOT Drainage Manual Pub 584",
+          "Pennsylvania DOT stormwater design manual filetype:pdf",
+        ],
+        known_slugs: [],
+      },
+    ],
+  },
+  "RI:dep_deq": {
+    agency_name: "Rhode Island DEM / CRMC",
+    agency_abbrev: "RIDEM",
+    domains: ["dem.ri.gov", "crmc.ri.gov"],
+    expected_manuals: [
+      {
+        id: "ri-stormwater",
+        title: "Rhode Island Stormwater Design and Installation Standards Manual",
+        scope: "full_manual",
+        landing_page_url: "https://www.crmc.ri.gov/policy/stormwater.html",
+        search_queries: ["Rhode Island Stormwater Design and Installation Standards Manual"],
+        known_slugs: ["ri-state"],
+      },
+    ],
+  },
+  "RI:dot": {
+    agency_name: "Rhode Island Department of Transportation",
+    agency_abbrev: "RIDOT",
+    domains: ["dot.ri.gov"],
+    expected_manuals: [
+      {
+        id: "ri-ridot-drainage",
+        title: "RIDOT Drainage Design Manual",
+        scope: "drainage",
+        landing_page_url: null,
+        search_queries: [
+          "RIDOT drainage design manual",
+          "Rhode Island DOT stormwater manual filetype:pdf",
+        ],
+        known_slugs: [],
+      },
+    ],
+  },
+  "SC:dep_deq": {
+    agency_name: "South Carolina Department of Environmental Services",
+    agency_abbrev: "SCDES",
+    domains: ["des.sc.gov"],
+    expected_manuals: [
+      {
+        id: "sc-bmp",
+        title: "South Carolina BMP Handbook / Field Manual",
+        scope: "full_manual",
+        landing_page_url:
+          "https://www.des.sc.gov/programs/bureau-water/stormwater/best-management-practices-bmps/bmp-handbook",
+        search_queries: ["South Carolina BMP Field Manual stormwater"],
+        known_slugs: ["south-carolina-manual"],
+      },
+    ],
+  },
+  "SC:dot": {
+    agency_name: "South Carolina Department of Transportation",
+    agency_abbrev: "SCDOT",
+    domains: ["scdot.org"],
+    expected_manuals: [
+      {
+        id: "sc-scdot-drainage",
+        title: "SCDOT Hydraulic Design / Stormwater Manual",
+        scope: "drainage",
+        landing_page_url: null,
+        search_queries: [
+          "SCDOT hydraulic design manual",
+          "South Carolina DOT stormwater design filetype:pdf",
+        ],
+        known_slugs: [],
+      },
+    ],
+  },
+  "SD:dep_deq": {
+    agency_name: "South Dakota Department of Agriculture and Natural Resources",
+    agency_abbrev: "SD DANR",
+    domains: ["danr.sd.gov"],
+    expected_manuals: [
+      {
+        id: "sd-danr-stormwater",
+        title: "South Dakota Stormwater Design Manual",
+        scope: "full_manual",
+        landing_page_url: null,
+        search_queries: [
+          "South Dakota DANR stormwater design manual",
+          "South Dakota statewide stormwater BMP",
+        ],
+        known_slugs: [],
+      },
+    ],
+  },
+  "SD:dot": {
+    agency_name: "South Dakota Department of Transportation",
+    agency_abbrev: "SDDOT",
+    domains: ["dot.sd.gov"],
+    expected_manuals: [
+      {
+        id: "sd-dot-esc",
+        title: "SDDOT Erosion and Sediment Control / Stormwater Manual",
+        scope: "construction_esc",
+        landing_page_url: "https://dot.sd.gov/Doing-Business/Environmental/Stormwater",
+        search_queries: ["SDDOT ESC stormwater management course manual"],
+        known_slugs: ["sd-dot-esc"],
+      },
+    ],
+  },
+  "TN:dep_deq": {
+    agency_name: "Tennessee Department of Environment and Conservation",
+    agency_abbrev: "TDEC",
+    domains: ["tn.gov"],
+    expected_manuals: [
+      {
+        id: "tn-tdec-manual",
+        title: "Tennessee Permanent Stormwater Management Design Guidance Manual",
+        scope: "full_manual",
+        landing_page_url:
+          "https://www.tn.gov/environment/program-areas/wr-water-resources/stormwater.html",
+        search_queries: ["Tennessee Permanent Stormwater Management Design Guidance Manual"],
+        known_slugs: ["tn-state"],
+      },
+    ],
+  },
+  "TN:dot": {
+    agency_name: "Tennessee Department of Transportation",
+    agency_abbrev: "TDOT",
+    domains: ["tn.gov"],
+    expected_manuals: [
+      {
+        id: "tn-tdot-drainage",
+        title: "TDOT Drainage Manual",
+        scope: "drainage",
+        landing_page_url: null,
+        search_queries: [
+          "TDOT drainage manual",
+          "Tennessee DOT drainage design manual filetype:pdf",
+        ],
+        known_slugs: [],
+      },
+    ],
+  },
+  "TX:dep_deq": {
+    agency_name: "Texas Commission on Environmental Quality",
+    agency_abbrev: "TCEQ",
+    domains: ["tceq.texas.gov"],
+    expected_manuals: [
+      {
+        id: "tx-tceq-edwards",
+        title: "TCEQ Edwards Aquifer Technical Guidance (RG-348)",
+        scope: "full_manual",
+        landing_page_url: "https://www.tceq.texas.gov/publications/rg/rg-348",
+        search_queries: ["TCEQ RG-348 Edwards Aquifer"],
+        known_slugs: ["tx-edwards-rg348"],
+        partial: true,
+      },
+    ],
+    notes: "Edwards Aquifer regional guidance only — not a statewide design manual",
+  },
+  "TX:dot": {
+    agency_name: "Texas Department of Transportation",
+    agency_abbrev: "TxDOT",
+    domains: ["txdot.gov"],
+    expected_manuals: [
+      {
+        id: "tx-txdot-hydraulic",
+        title: "TxDOT Hydraulic Design Manual",
+        scope: "drainage",
+        landing_page_url: null,
+        search_queries: [
+          "TxDOT Hydraulic Design Manual",
+          "site:txdot.gov Hydraulic Design Manual filetype:pdf",
+        ],
+        known_slugs: [],
+      },
+    ],
+  },
+  "UT:dep_deq": {
+    agency_name: "Utah Department of Environmental Quality",
+    agency_abbrev: "UDEQ",
+    domains: ["deq.utah.gov"],
+    expected_manuals: [
+      {
+        id: "ut-udeq-stormwater",
+        title: "Utah Stormwater Design Manual",
+        scope: "full_manual",
+        landing_page_url: null,
+        search_queries: [
+          "Utah DEQ stormwater design manual",
+          "Utah statewide stormwater BMP manual",
+        ],
+        known_slugs: [],
+      },
+    ],
+  },
+  "UT:dot": {
+    agency_name: "Utah Department of Transportation",
+    agency_abbrev: "UDOT",
+    domains: ["udot.utah.gov"],
+    expected_manuals: [
+      {
+        id: "ut-udot-drainage",
+        title: "UDOT Drainage Manual",
+        scope: "drainage",
+        landing_page_url: null,
+        search_queries: [
+          "UDOT drainage manual",
+          "site:udot.utah.gov drainage design filetype:pdf",
+        ],
+        known_slugs: [],
+      },
+    ],
+  },
+  "VT:dep_deq": {
+    agency_name: "Vermont Department of Environmental Conservation",
+    agency_abbrev: "VT DEC",
+    domains: ["dec.vermont.gov"],
+    expected_manuals: [
+      {
+        id: "vt-vsmm",
+        title: "Vermont Stormwater Management Manual (VSMM)",
+        scope: "full_manual",
+        landing_page_url: "https://dec.vermont.gov/watershed/stormwater",
+        search_queries: ["Vermont Stormwater Management Manual VSMM"],
+        known_slugs: ["vt-state"],
+        partial: true,
+      },
+    ],
+    notes: "Draft 2016 revisions; verify against current DEC edition",
+  },
+  "VT:dot": {
+    agency_name: "Vermont Agency of Transportation",
+    agency_abbrev: "VTrans",
+    domains: ["vtrans.vermont.gov"],
+    expected_manuals: [
+      {
+        id: "vt-vtrans-drainage",
+        title: "VTrans Hydraulics Manual / Stormwater",
+        scope: "drainage",
+        landing_page_url: null,
+        search_queries: [
+          "VTrans hydraulics manual",
+          "Vermont Agency of Transportation drainage design filetype:pdf",
+        ],
+        known_slugs: [],
+      },
+    ],
+  },
+  "VA:dep_deq": {
+    agency_name: "Virginia Department of Environmental Quality",
+    agency_abbrev: "VA DEQ",
+    domains: ["deq.virginia.gov"],
+    expected_manuals: [
+      {
+        id: "va-deq-handbook",
+        title: "Virginia Stormwater Management Handbook",
+        scope: "full_manual",
+        landing_page_url:
+          "https://www.deq.virginia.gov/water/stormwater/stormwater-construction/handbooks",
+        search_queries: [
+          "Virginia Stormwater Management Handbook DEQ",
+          "VA DEQ BMP Clearinghouse",
+        ],
+        known_slugs: ["va-state"],
+        partial: true,
+      },
+    ],
+    notes: "Ch8 BMP Overview only; full handbook / Clearinghouse specs needed",
+  },
+  "VA:dot": {
+    agency_name: "Virginia Department of Transportation",
+    agency_abbrev: "VDOT",
+    domains: ["virginiadot.org"],
+    expected_manuals: [
+      {
+        id: "va-vdot-drainage",
+        title: "VDOT Drainage Manual",
+        scope: "drainage",
+        landing_page_url: null,
+        search_queries: [
+          "VDOT Drainage Manual",
+          "site:virginiadot.org Drainage Manual filetype:pdf",
+        ],
+        known_slugs: [],
+      },
+    ],
+    notes: "Frequently cited by VA cities but not cataloged as standalone source",
+  },
+  "WA:dep_deq": {
+    agency_name: "Washington State Department of Ecology",
+    agency_abbrev: "Ecology",
+    domains: ["ecology.wa.gov"],
+    expected_manuals: [
+      {
+        id: "wa-swmmww",
+        title: "Stormwater Management Manual for Western Washington (SWMMWW)",
+        scope: "full_manual",
+        landing_page_url:
+          "https://www.ecology.wa.gov/regulations-permits/guidance-technical-assistance/stormwater-permittee-guidance-resources/stormwater-manuals",
+        search_queries: ["SWMMWW Ecology Stormwater Management Manual"],
+        known_slugs: ["wa-state-western"],
+      },
+    ],
+  },
+  "WA:dot": {
+    agency_name: "Washington State Department of Transportation",
+    agency_abbrev: "WSDOT",
+    domains: ["wsdot.wa.gov"],
+    expected_manuals: [
+      {
+        id: "wa-wsdot-hr",
+        title: "WSDOT Highway Runoff Manual",
+        scope: "drainage",
+        landing_page_url: null,
+        search_queries: [
+          "WSDOT Highway Runoff Manual",
+          "site:wsdot.wa.gov Highway Runoff Manual filetype:pdf",
+        ],
+        known_slugs: [],
+      },
+    ],
+  },
+  "WV:dep_deq": {
+    agency_name: "West Virginia Department of Environmental Protection",
+    agency_abbrev: "WVDEP",
+    domains: ["dep.wv.gov"],
+    expected_manuals: [
+      {
+        id: "wv-dep-manual",
+        title: "West Virginia Stormwater Management and Design Guidance Manual",
+        scope: "full_manual",
+        landing_page_url:
+          "https://dep.wv.gov/WWE/Programs/stormwater/MS4/Pages/StormwaterManagementDesignandGuidanceManual.aspx",
+        search_queries: ["West Virginia Stormwater Management and Design Guidance Manual"],
+        known_slugs: ["west-virginia-manual"],
+      },
+    ],
+  },
+  "WV:dot": {
+    agency_name: "West Virginia Division of Highways",
+    agency_abbrev: "WVDOH",
+    domains: ["transportation.wv.gov"],
+    expected_manuals: [
+      {
+        id: "wv-wvdoh-drainage",
+        title: "WVDOH Drainage Manual",
+        scope: "drainage",
+        landing_page_url: null,
+        search_queries: [
+          "WVDOH drainage manual",
+          "West Virginia DOH stormwater design filetype:pdf",
+        ],
+        known_slugs: [],
+      },
+    ],
+  },
+  "WI:dep_deq": {
+    agency_name: "Wisconsin Department of Natural Resources",
+    agency_abbrev: "WDNR",
+    domains: ["dnr.wisconsin.gov"],
+    expected_manuals: [
+      {
+        id: "wi-dnr-postcon",
+        title: "WDNR Post-Construction Stormwater Technical Standards",
+        scope: "full_manual",
+        landing_page_url: "https://dnr.wisconsin.gov/topic/Stormwater",
+        search_queries: ["WDNR Technical Standard 1001 stormwater"],
+        known_slugs: ["wi-dnr-1001", "wisconsin-technical"],
+        partial: true,
+      },
+    ],
+    notes: "Individual tech standards, not a single full statewide manual book",
+  },
+  "WI:dot": {
+    agency_name: "Wisconsin Department of Transportation",
+    agency_abbrev: "WisDOT",
+    domains: ["wisconsindot.gov"],
+    expected_manuals: [
+      {
+        id: "wi-wisdot-drainage",
+        title: "WisDOT Facilities Development Manual / Drainage",
+        scope: "drainage",
+        landing_page_url: null,
+        search_queries: [
+          "WisDOT Facilities Development Manual drainage",
+          "Wisconsin DOT stormwater design manual filetype:pdf",
+        ],
+        known_slugs: [],
+      },
+    ],
+  },
+  "WY:dep_deq": {
+    agency_name: "Wyoming Department of Environmental Quality",
+    agency_abbrev: "WYDEQ",
+    domains: ["deq.wyoming.gov"],
+    expected_manuals: [
+      {
+        id: "wy-deq-stormwater",
+        title: "Wyoming DEQ Stormwater Design Manual",
+        scope: "full_manual",
+        landing_page_url: null,
+        search_queries: [
+          "Wyoming DEQ stormwater design manual",
+          "Wyoming statewide stormwater BMP",
+        ],
+        known_slugs: [],
+      },
+    ],
+  },
+  "WY:dot": {
+    agency_name: "Wyoming Department of Transportation",
+    agency_abbrev: "WYDOT",
+    domains: ["dot.state.wy.us"],
+    expected_manuals: [
+      {
+        id: "wy-wydot-field",
+        title: "WYDOT Storm Water Field Guide",
+        scope: "construction_esc",
+        landing_page_url:
+          "https://www.dot.state.wy.us/home/engineering_technical_programs/manuals_publications.html",
+        search_queries: ["WYDOT Storm Water Field Guide"],
+        known_slugs: ["wy-wydot-field"],
+      },
+    ],
+  },
+};
+
+const DEFAULT_DOT_ABBREV: Record<string, string> = {};
+const DEFAULT_ENV_ABBREV: Record<string, string> = {};
+
+function defaultDot(stateCode: string, stateName: string): AgencyEntry {
+  const key = `${stateCode}:dot`;
+  const o = OVERRIDES[key];
+  if (o?.agency_name && o.expected_manuals) {
+    return {
+      state_code: stateCode,
+      agency_category: "dot",
+      agency_name: o.agency_name,
+      agency_abbrev: o.agency_abbrev ?? `${stateCode}DOT`,
+      domains: o.domains ?? [],
+      expected_manuals: o.expected_manuals,
+      notes: o.notes ?? null,
+    };
+  }
+  return {
+    state_code: stateCode,
+    agency_category: "dot",
+    agency_name: `${stateName} Department of Transportation`,
+    agency_abbrev: DEFAULT_DOT_ABBREV[stateCode] ?? `${stateCode}DOT`,
+    domains: [],
+    expected_manuals: [
+      {
+        id: `${stateCode.toLowerCase()}-dot-drainage`,
+        title: `${stateName} DOT Drainage / Stormwater Manual`,
+        scope: "drainage",
+        landing_page_url: null,
+        search_queries: [
+          `${stateName} DOT drainage manual stormwater`,
+          `${stateName} Department of Transportation drainage design manual filetype:pdf`,
+        ],
+        known_slugs: [],
+      },
+    ],
+    notes: null,
+  };
+}
+
+function defaultDep(stateCode: string, stateName: string): AgencyEntry {
+  const key = `${stateCode}:dep_deq`;
+  const o = OVERRIDES[key];
+  if (o?.agency_name && o.expected_manuals) {
+    return {
+      state_code: stateCode,
+      agency_category: "dep_deq",
+      agency_name: o.agency_name,
+      agency_abbrev: o.agency_abbrev ?? "DEP",
+      domains: o.domains ?? [],
+      expected_manuals: o.expected_manuals,
+      notes: o.notes ?? null,
+    };
+  }
+  return {
+    state_code: stateCode,
+    agency_category: "dep_deq",
+    agency_name: `${stateName} environmental / water quality agency`,
+    agency_abbrev: DEFAULT_ENV_ABBREV[stateCode] ?? "DEP",
+    domains: [],
+    expected_manuals: [
+      {
+        id: `${stateCode.toLowerCase()}-state-manual`,
+        title: `${stateName} Stormwater Design Manual`,
+        scope: "full_manual",
+        landing_page_url: null,
+        search_queries: [
+          `${stateName} stormwater design manual`,
+          `${stateName} DEP DEQ stormwater BMP manual filetype:pdf`,
+        ],
+        known_slugs: [],
+      },
+    ],
+    notes: null,
+  };
+}
+
+const agencies: AgencyEntry[] = [];
+for (const s of US_STATES) {
+  if (s.code === "PR") continue;
+  agencies.push(defaultDep(s.code, s.name));
+  agencies.push(defaultDot(s.code, s.name));
+}
+
+agencies.sort(
+  (a, b) =>
+    a.state_code.localeCompare(b.state_code) ||
+    a.agency_category.localeCompare(b.agency_category)
+);
+
+const outDir = path.resolve(process.cwd(), "data/agency-targets");
+mkdirSync(outDir, { recursive: true });
+const registry = {
+  version: 1,
+  generated_at: new Date().toISOString(),
+  title: "Statewide agency stormwater manuals (DOT + DEP/DEQ/DNR)",
+  agencies,
+};
+writeFileSync(
+  path.join(outDir, "registry.json"),
+  JSON.stringify(registry, null, 2) + "\n",
+  "utf-8"
+);
+console.log(`Wrote ${agencies.length} agency entries to data/agency-targets/registry.json`);

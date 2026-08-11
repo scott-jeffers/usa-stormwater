@@ -1,0 +1,73 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "North Dakota",
+    "jurisdiction_level": "state",
+    "state_code": "ND",
+    "document_title": "NDDOT Design Manual Chapter V",
+    "version_or_edition": null,
+    "adoption_or_effective_date": null,
+    "last_revised_date": null,
+    "relationship_to_state_manual": "independent",
+    "issuing_agency_category": "dot"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [
+      2,
+      10,
+      25,
+      50,
+      100,
+      500
+    ],
+    "water_quality_volume_method": null,
+    "peak_flow_calculation_method": [
+      "Rational Method",
+      "HEC-HMS",
+      "HEC-RAS",
+      "USGS regression equations"
+    ],
+    "required_hydrologic_hydraulic_software": [
+      "HEC-HMS",
+      "HEC-RAS",
+      "HY-8"
+    ],
+    "approved_bmp_categories": []
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "North Dakota",
+      "page_or_section": "Title / header"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "NDDOT Design Manual Chapter V",
+      "page_or_section": "Title / header"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "). 10. Type of precipitation. V–01.03.2 100-Year Frequency Discharges for 100 year frequencies and associated water surface elev",
+      "page_or_section": null
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "Drainage Systems Section 3: Appendix A: Rational Method Runoff Coefficients Section 3: Appendix B: Time of Concentration of Smal",
+      "page_or_section": null
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "medium",
+    "needs_human_review": true,
+    "review_notes": "Heuristic agency extract from prepared text. NDDOT Design Manual Chapter V — Hydraulic Studies and Drainage Design",
+    "fields_not_found": [
+      "design_criteria.water_quality_volume_method",
+      "design_criteria.approved_bmp_categories"
+    ]
+  },
+  "source": {
+    "document_url": "https://www.dot.nd.gov/sites/www/files/documents/Design/Chapter%205.pdf",
+    "landing_page_url": "https://www.dot.nd.gov/construction-and-planning/construction-and-contractor-resources/design-manual",
+    "retrieved_at": "2026-08-11T17:59:10.627Z",
+    "original_filename": "nd-nddot-drainage.pdf"
+  }
+}

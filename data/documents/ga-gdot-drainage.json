@@ -1,0 +1,71 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "Georgia",
+    "jurisdiction_level": "state",
+    "state_code": "GA",
+    "document_title": "GDOT Drainage Design Policy Manual",
+    "version_or_edition": null,
+    "adoption_or_effective_date": null,
+    "last_revised_date": null,
+    "relationship_to_state_manual": "independent",
+    "issuing_agency_category": "dot"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [
+      2,
+      10,
+      25,
+      100,
+      500
+    ],
+    "water_quality_volume_method": null,
+    "peak_flow_calculation_method": [
+      "Rational Method",
+      "NRCS / SCS Curve Number (TR-55)",
+      "TR-20",
+      "HEC-HMS",
+      "USGS regression equations"
+    ],
+    "required_hydrologic_hydraulic_software": [
+      "HEC-HMS"
+    ],
+    "approved_bmp_categories": []
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "Georgia",
+      "page_or_section": "Title / header"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "GDOT Drainage Design Policy Manual",
+      "page_or_section": "Title / header"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "latory standard also referred to as the 100-year flood. Bent – A substructure unit supporting the superstructure. It is usually",
+      "page_or_section": null
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "Curve Numbers 1.0 11/25/24 Appendix C. Rational Method Runoff Coefficients 1.0 11/25/24 Drainage Design Policy Manual Rev 1.1 L",
+      "page_or_section": null
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "medium",
+    "needs_human_review": true,
+    "review_notes": "Heuristic agency extract from prepared text. GDOT Drainage Design Policy Manual",
+    "fields_not_found": [
+      "design_criteria.water_quality_volume_method",
+      "design_criteria.approved_bmp_categories"
+    ]
+  },
+  "source": {
+    "document_url": "https://www.dot.ga.gov/PartnerSmart/DesignManuals/Drainage/Drainage%20Design%20Policy%20Manual.pdf",
+    "landing_page_url": "http://www.dot.ga.gov/GDOT/Pages/designmanualssoftware.aspx",
+    "retrieved_at": "2026-08-11T17:59:10.570Z",
+    "original_filename": "ga-gdot-drainage.pdf"
+  }
+}

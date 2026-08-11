@@ -5,7 +5,8 @@
     "levelHint": "state",
     "pdfUrl": "https://mde.maryland.gov/programs/water/StormwaterManagementProgram/Documents/www.mde.state.md.us/assets/document/sedimentstormwater/MD%20SWM%20Volume%201.pdf",
     "landingPageUrl": "https://mde.maryland.gov/programs/water/stormwatermanagementprogram/pages/stormwater_design.aspx",
-    "cityCoords": null
+    "cityCoords": null,
+    "agencyHint": "dep_deq"
   },
   {
     "id": "pa-state",
@@ -13,7 +14,8 @@
     "levelHint": "state",
     "pdfUrl": "https://franklinccd.org/wp-content/uploads/PENNSYLVANIA_POST-CONSTRUCTION_STORMWATER_MANAGEMENT_PCSM_MANUAL.pdf",
     "landingPageUrl": "https://www.pa.gov/agencies/dep/programs-and-services/water/clean-water/stormwater-management/construction-stormwater/eands-resources",
-    "cityCoords": null
+    "cityCoords": null,
+    "agencyHint": "dep_deq"
   },
   {
     "id": "philadelphia-pa",
@@ -32,7 +34,8 @@
     "levelHint": "state",
     "pdfUrl": "https://documents.atlantaregional.com/gastormwater/GSMM_2016%20EDITION_FINAL_V1.pdf",
     "landingPageUrl": "https://atlantaregional.org/what-we-do/natural-resources/georgia-stormwater-management-manual/",
-    "cityCoords": null
+    "cityCoords": null,
+    "agencyHint": "dep_deq"
   },
   {
     "id": "ct-state",
@@ -40,7 +43,8 @@
     "levelHint": "state",
     "pdfUrl": "https://portal.ct.gov/-/media/deep/water/water_quality_management/guidance/swm_mar_2024.pdf",
     "landingPageUrl": "https://portal.ct.gov/DEEP/Water-Regulating-and-Discharges/Stormwater/Stormwater-Manual",
-    "cityCoords": null
+    "cityCoords": null,
+    "agencyHint": "dep_deq"
   },
   {
     "id": "ny-state",
@@ -48,7 +52,8 @@
     "levelHint": "state",
     "pdfUrl": "https://dec.ny.gov/fs/projects/24-25DraftCGPDesignManual/Manual.SW.CGP.2024-07-31.Design_Manual_Issued_2024-07-31.pdf",
     "landingPageUrl": "https://dec.ny.gov/environmental-protection/water/water-quality/stormwater/construction-stormwater-toolbox",
-    "cityCoords": null
+    "cityCoords": null,
+    "agencyHint": "dep_deq"
   },
   {
     "id": "ny-bluebook",
@@ -57,7 +62,8 @@
     "pdfUrl": "https://www.dec.ny.gov/fs/docs/pdf/erosionsediment_bluebook.pdf",
     "landingPageUrl": "https://dec.ny.gov/environmental-protection/water/water-quality/stormwater/construction-stormwater-toolbox",
     "cityCoords": null,
-    "notes": "NYS Standards and Specifications for Erosion and Sediment Control (Blue Book)"
+    "notes": "NYS Standards and Specifications for Erosion and Sediment Control (Blue Book)",
+    "agencyHint": "dep_deq"
   },
   {
     "id": "tn-state",
@@ -65,7 +71,8 @@
     "levelHint": "state",
     "pdfUrl": "https://lewisburgtn.gov/wp-content/uploads/2022/11/Permanent-Stormwater-Management-Design-Guidance-Manual.pdf",
     "landingPageUrl": "https://www.tn.gov/environment/program-areas/wr-water-resources/stormwater.html",
-    "cityCoords": null
+    "cityCoords": null,
+    "agencyHint": "dep_deq"
   },
   {
     "id": "ri-state",
@@ -73,7 +80,8 @@
     "levelHint": "state",
     "pdfUrl": "https://services.statescape.com/RegsText/StaticDownloads/90765_156853.pdf",
     "landingPageUrl": "https://www.crmc.ri.gov/policy/stormwater.html",
-    "cityCoords": null
+    "cityCoords": null,
+    "agencyHint": "dep_deq"
   },
   {
     "id": "vt-state",
@@ -82,7 +90,8 @@
     "pdfUrl": "http://legislature.vermont.gov/Documents/2016/WorkGroups/House%20Fish%20and%20Wildlife/Stormwater%20Manual%20Revisions/W~Kevin%20Burke~Draft%20Stormwater%20Manual%20Revisions%20DEC~3-22-2016.pdf",
     "landingPageUrl": "https://dec.vermont.gov/watershed/stormwater",
     "cityCoords": null,
-    "notes": "Draft VSMM Vol I circulated publicly; verify against current DEC edition if available"
+    "notes": "Draft VSMM Vol I circulated publicly; verify against current DEC edition if available",
+    "agencyHint": "dep_deq"
   },
   {
     "id": "nh-state",
@@ -90,7 +99,8 @@
     "levelHint": "state",
     "pdfUrl": "https://extension.unh.edu/sites/default/files/media/2025-06/stormwater-management-standards.pdf",
     "landingPageUrl": "https://extension.unh.edu/stormwater-center/nh-stormwater-manual",
-    "cityCoords": null
+    "cityCoords": null,
+    "agencyHint": "dep_deq"
   },
   {
     "id": "wa-state-western",
@@ -99,7 +109,8 @@
     "pdfUrl": "https://www.cityofcamas.us/sites/default/files/fileattachments/community_development/page/9505/2024swmmww_6-14-24.pdf",
     "landingPageUrl": "https://www.ecology.wa.gov/regulations-permits/guidance-technical-assistance/stormwater-permittee-guidance-resources/stormwater-manuals",
     "cityCoords": null,
-    "notes": "Ecology 2024 SWMMWW mirrored by Camas; official Ecology download also available"
+    "notes": "Ecology 2024 SWMMWW mirrored by Camas; official Ecology download also available",
+    "agencyHint": "dep_deq"
   },
   {
     "id": "fl-fsesci-tier1",
@@ -108,7 +119,8 @@
     "pdfUrl": "https://www.mywaltonfl.gov/DocumentCenter/View/32627/FSESCI-TIER-I-Manual-062918",
     "landingPageUrl": "https://floridadep.gov/dear/florida-stormwater-erosion",
     "cityCoords": null,
-    "notes": "FSESCI Tier I inspector manual (public mirror)"
+    "notes": "FSESCI Tier I inspector manual (public mirror)",
+    "agencyHint": "dep_deq"
   },
   {
     "id": "ma-state-draft",
@@ -117,7 +129,8 @@
     "pdfUrl": "https://www.ashlandmass.com/DocumentCenter/View/13272/MassDEP-Handbook_DRAFT-6_2023-12-14_withAppendices-2",
     "landingPageUrl": "https://www.mass.gov/guides/massachusetts-stormwater-handbook-and-stormwater-standards",
     "cityCoords": null,
-    "notes": "2023 draft handbook with appendices (municipal mirror of MassDEP draft)"
+    "notes": "2023 draft handbook with appendices (municipal mirror of MassDEP draft)",
+    "agencyHint": "dep_deq"
   },
   {
     "id": "ia-state-ch1",
@@ -126,7 +139,8 @@
     "pdfUrl": "https://www.iowadnr.gov/media/7380/download?inline=",
     "landingPageUrl": "https://www.iowadnr.gov/environmental-protection/water-quality/stormwater-program/iswmm-manual",
     "cityCoords": null,
-    "notes": "ISWMM Chapter 1 general information (chapter-based manual; no single full PDF)"
+    "notes": "ISWMM Chapter 1 general information (chapter-based manual; no single full PDF)",
+    "agencyHint": "dep_deq"
   },
   {
     "id": "nyc-ny",
@@ -216,7 +230,8 @@
     "pdfUrl": "https://swbmpvwrrc.wp.prod.es.cloud.vt.edu/wp-content/uploads/2018/07/31_Chap-8_BMP-Overview-Selection.pdf",
     "landingPageUrl": "https://www.deq.virginia.gov/water/stormwater/stormwater-construction/handbooks",
     "cityCoords": null,
-    "notes": "VA Stormwater Management Handbook Ch8 BMP Overview (2013). Host PDF often TLS-fails; local samples/queue/va-state.pdf rebuilt from prepared text for corpus."
+    "notes": "VA Stormwater Management Handbook Ch8 BMP Overview (2013). Host PDF often TLS-fails; local samples/queue/va-state.pdf rebuilt from prepared text for corpus.",
+    "agencyHint": "dep_deq"
   },
   {
     "id": "nc-state",
@@ -225,7 +240,8 @@
     "pdfUrl": "https://www.deq.nc.gov/energy-mineral-and-land-resources/stormwater/bmp-manual/c-0-mdc-all-scms/download",
     "landingPageUrl": "https://www.deq.nc.gov/about/divisions/energy-mineral-and-land-resources/stormwater/stormwater-program/stormwater-design-manual",
     "cityCoords": null,
-    "notes": "NC Stormwater Design Manual Part C-0 MDC for all SCMs (chapter PDF; full manual is portal)"
+    "notes": "NC Stormwater Design Manual Part C-0 MDC for all SCMs (chapter PDF; full manual is portal)",
+    "agencyHint": "dep_deq"
   },
   {
     "id": "nj-state",
@@ -234,7 +250,8 @@
     "pdfUrl": "https://dep.nj.gov/wp-content/uploads/stormwater/bmp/njswbmp-chapter-5-stormwater-management-quantity-and-quality-standards-and-computations-january-2026.pdf",
     "landingPageUrl": "https://dep.nj.gov/stormwater/stormwater-management/bmp-manual/",
     "cityCoords": null,
-    "notes": "NJ BMP Manual Ch5 (qty/quality). DEP host often 403s automated fetch; local samples/queue/nj-state.pdf rebuilt from prepared text for corpus."
+    "notes": "NJ BMP Manual Ch5 (qty/quality). DEP host often 403s automated fetch; local samples/queue/nj-state.pdf rebuilt from prepared text for corpus.",
+    "agencyHint": "dep_deq"
   },
   {
     "id": "mn-state",
@@ -243,7 +260,8 @@
     "pdfUrl": null,
     "landingPageUrl": "https://stormwater.pca.state.mn.us/",
     "cityCoords": null,
-    "notes": "skipped_no_single_pdf â€” live wiki; 2008 PDF outdated"
+    "notes": "skipped_no_single_pdf â€” live wiki; 2008 PDF outdated",
+    "agencyHint": "dep_deq"
   },
   {
     "id": "ca-casqa-municipal",
@@ -252,7 +270,8 @@
     "pdfUrl": "https://www.casqa.org/wp-content/uploads/2022/12/BMP_Municipal_Complete.pdf",
     "landingPageUrl": "https://www.casqa.org/resources/bmp-handbooks/municipal-bmp-handbook",
     "cityCoords": null,
-    "notes": "CASQA Municipal BMP Handbook complete PDF"
+    "notes": "CASQA Municipal BMP Handbook complete PDF",
+    "agencyHint": "dep_deq"
   },
   {
     "id": "dc-guidebook",
@@ -264,7 +283,8 @@
       -77.0369,
       38.9072
     ],
-    "notes": "2013 SWMG appendices A-U; prefer full 2020 guidebook when direct PDF returns"
+    "notes": "2013 SWMG appendices A-U; prefer full 2020 guidebook when direct PDF returns",
+    "agencyHint": "dep_deq"
   },
   {
     "id": "baltimore-md",
@@ -453,7 +473,8 @@
     "pdfUrl": "https://dam.assets.ohio.gov/image/upload/epa.ohio.gov/Portals/35/storm/technical_assistance/ARCHIVE-RaLD-2006.pdf",
     "landingPageUrl": "https://epa.ohio.gov/divisions-and-offices/surface-water/guides-manuals/rainwater-and-land-development",
     "cityCoords": null,
-    "notes": "2006 Rainwater and Land Development full archive PDF"
+    "notes": "2006 Rainwater and Land Development full archive PDF",
+    "agencyHint": "dep_deq"
   },
   {
     "id": "wisconsin-technical",
@@ -462,7 +483,8 @@
     "pdfUrl": "https://dnr.wisconsin.gov/sites/default/files/topic/Stormwater/PostConstructionTechStandard1001.pdf",
     "landingPageUrl": "https://dnr.wisconsin.gov/topic/Stormwater",
     "cityCoords": null,
-    "notes": "WDNR post-construction technical standard (not full manual book)"
+    "notes": "WDNR post-construction technical standard (not full manual book)",
+    "agencyHint": "dep_deq"
   },
   {
     "id": "michigan-manual",
@@ -471,7 +493,8 @@
     "pdfUrl": "https://www.kalcounty.gov/DocumentCenter/View/2059/EGLE-Nonpoint-Source-Best-Management-Practices-Manual-PDF",
     "landingPageUrl": "https://www.michigan.gov/egle/about/organization/water-resources/stormwater/municipal",
     "cityCoords": null,
-    "notes": "EGLE NPS BMP Manual intro (municipal mirror)"
+    "notes": "EGLE NPS BMP Manual intro (municipal mirror)",
+    "agencyHint": "dep_deq"
   },
   {
     "id": "indiana-manual",
@@ -480,7 +503,8 @@
     "pdfUrl": "https://www.inafsm.net/assets/docs/indiana%20storm%20water%20quality%20manual.pdf",
     "landingPageUrl": "https://www.in.gov/idem/stormwater/resources/indiana-storm-water-quality-manual/",
     "cityCoords": null,
-    "notes": "Chapter 1 only of IDEM stormwater quality manual"
+    "notes": "Chapter 1 only of IDEM stormwater quality manual",
+    "agencyHint": "dep_deq"
   },
   {
     "id": "missouri-manual",
@@ -489,7 +513,8 @@
     "pdfUrl": "https://dnr.mo.gov/sites/dnr/files/vfc/2023/05/main/pub2446-mo-guide-to-green-infrastructure_1.pdf",
     "landingPageUrl": "https://dnr.mo.gov/document-search/missouri-guide-green-infrastructure-pub2446",
     "cityCoords": null,
-    "notes": "Missouri Guide to Green Infrastructure PUB2446 (2012) â€” statewide GI/LID guidance, not a full conventional design manual"
+    "notes": "Missouri Guide to Green Infrastructure PUB2446 (2012) â€” statewide GI/LID guidance, not a full conventional design manual",
+    "agencyHint": "dep_deq"
   },
   {
     "id": "arkansas-manual",
@@ -510,7 +535,8 @@
     "pdfUrl": "https://alabamasoilandwater.gov/wp-content/uploads/2022/08/20220801_HandBook_Vol_1.pdf",
     "landingPageUrl": "https://alabamasoilandwater.gov/alesc-bluebook/",
     "cityCoords": null,
-    "notes": "Alabama Blue Book Vol I 2022"
+    "notes": "Alabama Blue Book Vol I 2022",
+    "agencyHint": "dep_deq"
   },
   {
     "id": "south-carolina-manual",
@@ -519,7 +545,8 @@
     "pdfUrl": "https://www.des.sc.gov/sites/des/files/Documents/BOW/Stormwater/BMP/BMPFieldManual.pdf",
     "landingPageUrl": "https://www.des.sc.gov/programs/bureau-water/stormwater/best-management-practices-bmps/bmp-handbook",
     "cityCoords": null,
-    "notes": "SC DES BMP Field Manual"
+    "notes": "SC DES BMP Field Manual",
+    "agencyHint": "dep_deq"
   },
   {
     "id": "kentucky-bmp",
@@ -528,7 +555,9 @@
     "pdfUrl": "https://transportation.ky.gov/EnvironmentalAnalysis/Environmental%20Resources/KY%20BMP%20Manual%20Section%201.pdf",
     "landingPageUrl": "https://transportation.ky.gov/EnvironmentalAnalysis/Pages/default.aspx",
     "cityCoords": null,
-    "notes": "KYTC BMP Manual Section 1"
+    "notes": "KYTC BMP Manual Section 1",
+    "agencyHint": "dot",
+    "scopeHint": "construction_esc"
   },
   {
     "id": "west-virginia-manual",
@@ -536,7 +565,8 @@
     "levelHint": "state",
     "pdfUrl": "https://apps.dep.wv.gov/Documents/DWWM/Stormwater/Design/West_Virginia_Stormwater_Management_and_Design_Guidance_Manual_FULL_November_2012-v2.pdf",
     "landingPageUrl": "https://dep.wv.gov/WWE/Programs/stormwater/MS4/Pages/StormwaterManagementDesignandGuidanceManual.aspx",
-    "cityCoords": null
+    "cityCoords": null,
+    "agencyHint": "dep_deq"
   },
   {
     "id": "delaware-esc",
@@ -545,7 +575,8 @@
     "pdfUrl": "https://documents.dnrec.delaware.gov/swc/Drainage/Documents/Sediment%20and%20Stormwater%20Program/Delaware%20ESC%20Handbook%202019.pdf",
     "landingPageUrl": "https://dnrec.delaware.gov/watershed-stewardship/sediment-stormwater/",
     "cityCoords": null,
-    "notes": "Delaware ESC Handbook 2019 candidate"
+    "notes": "Delaware ESC Handbook 2019 candidate",
+    "agencyHint": "dep_deq"
   },
   {
     "id": "maine-manual",
@@ -554,7 +585,8 @@
     "pdfUrl": "https://www.maine.gov/dep/land/stormwater/stormwaterbmps/vol3/volume%20III%20May%202016.pdf",
     "landingPageUrl": "https://www.maine.gov/dep/land/stormwater/stormwaterbmps/",
     "cityCoords": null,
-    "notes": "Maine Stormwater BMP Manual Volume III May 2016"
+    "notes": "Maine Stormwater BMP Manual Volume III May 2016",
+    "agencyHint": "dep_deq"
   },
   {
     "id": "oregon-manual",
@@ -587,7 +619,8 @@
     "pdfUrl": "https://www.tceq.texas.gov/downloads/publications/rg/complying-with-the-edwards-aquifer-rules-rg-348.pdf",
     "landingPageUrl": "https://www.tceq.texas.gov/publications/rg/rg-348",
     "cityCoords": null,
-    "notes": "TCEQ RG-348 Edwards Aquifer BMP technical guidance"
+    "notes": "TCEQ RG-348 Edwards Aquifer BMP technical guidance",
+    "agencyHint": "dep_deq"
   },
   {
     "id": "idaho-bmp-catalog",
@@ -596,7 +629,8 @@
     "pdfUrl": "https://www.aqualisco.com/wp-content/uploads/2019/08/Catalog-of-Stormwater-Best-Management-Practices.pdf",
     "landingPageUrl": "https://www.deq.idaho.gov/water-quality/wastewater/stormwater/",
     "cityCoords": null,
-    "notes": "Idaho DEQ Catalog of Stormwater BMPs (Apr 2020) â€” mirror hosted by Aqualisco; official DEQ download API returns JSON"
+    "notes": "Idaho DEQ Catalog of Stormwater BMPs (Apr 2020) â€” mirror hosted by Aqualisco; official DEQ download API returns JSON",
+    "agencyHint": "dep_deq"
   },
   {
     "id": "south-salt-lake-ut",
@@ -616,7 +650,9 @@
     "levelHint": "state",
     "pdfUrl": "https://www.stormwaterhawaii.com/wp-content/uploads/2022/07/PC-BMP-Manual_220210-FULL-v2.pdf",
     "landingPageUrl": "https://www.stormwaterhawaii.com/",
-    "cityCoords": null
+    "cityCoords": null,
+    "agencyHint": "dot",
+    "scopeHint": "construction_esc"
   },
   {
     "id": "albuquerque-nm-gsi",
@@ -636,7 +672,9 @@
     "levelHint": "state",
     "pdfUrl": "https://dot.ca.gov/-/media/dot-media/programs/construction/documents/environmental-compliance/construction-site-bmps_final-march-2024_a11y.pdf",
     "landingPageUrl": "https://dot.ca.gov/programs/construction/storm-water-and-water-pollution-control/manuals-and-handbooks",
-    "cityCoords": null
+    "cityCoords": null,
+    "agencyHint": "dot",
+    "scopeHint": "construction_esc"
   },
   {
     "id": "mn-state-2008",
@@ -645,7 +683,8 @@
     "pdfUrl": "https://stormwater.pca.state.mn.us/sites/stormwater/files/Minnesota_Stormwater_Manual.pdf",
     "landingPageUrl": "https://stormwater.pca.state.mn.us/the_minnesota_stormwater_manual_1st_and_2nd_versions",
     "cityCoords": null,
-    "notes": "Minnesota Stormwater Manual v2.0 2008 static PDF"
+    "notes": "Minnesota Stormwater Manual v2.0 2008 static PDF",
+    "agencyHint": "dep_deq"
   },
   {
     "id": "bismarck-nd",
@@ -676,7 +715,9 @@
     "levelHint": "state",
     "pdfUrl": "https://oklahoma.gov/content/dam/ok/en/odot/documents/chapter-10-stormwater-drainage.pdf",
     "landingPageUrl": "https://oklahoma.gov/odot/business-center/pre-construction-design/roadway-design/support-units/oklahoma-roadway-drainage-manual.html",
-    "cityCoords": null
+    "cityCoords": null,
+    "agencyHint": "dot",
+    "scopeHint": "drainage"
   },
   {
     "id": "ak-state",
@@ -685,7 +726,8 @@
     "pdfUrl": "https://plants.alaska.gov/pdf/akswguide.pdf",
     "landingPageUrl": "https://plants.alaska.gov/",
     "cityCoords": null,
-    "notes": "Alaska Storm Water Guide"
+    "notes": "Alaska Storm Water Guide",
+    "agencyHint": "dep_deq"
   },
   {
     "id": "wi-dnr-1001",
@@ -694,7 +736,8 @@
     "pdfUrl": "https://dnr.wisconsin.gov/sites/default/files/topic/Stormwater/1001WetDetentionPond.pdf",
     "landingPageUrl": "https://dnr.wisconsin.gov/topic/Stormwater",
     "cityCoords": null,
-    "notes": "WDNR Technical Standard 1001 Wet Detention Pond (not full statewide manual)"
+    "notes": "WDNR Technical Standard 1001 Wet Detention Pond (not full statewide manual)",
+    "agencyHint": "dep_deq"
   },
   {
     "id": "mt-deq8",
@@ -703,7 +746,8 @@
     "pdfUrl": "https://deq.mt.gov/files/Water/Forms/DEQ_8_2024_FINAL_2024_09_20.pdf",
     "landingPageUrl": "https://deq.mt.gov/water",
     "cityCoords": null,
-    "notes": "Montana DEQ-8 Montana Standards for Storm Water Pollution Prevention"
+    "notes": "Montana DEQ-8 Montana Standards for Storm Water Pollution Prevention",
+    "agencyHint": "dep_deq"
   },
   {
     "id": "billings-mt",
@@ -736,7 +780,8 @@
     "pdfUrl": "https://www.mdeq.ms.gov/wp-content/uploads/2017/05/Volume_2.pdf",
     "landingPageUrl": "https://www.mdeq.ms.gov/water/surface-water/nonpoint-source-pollution-program/stormwater-runoff-management-manual/",
     "cityCoords": null,
-    "notes": "MDEQ Volume 2 Stormwater Runoff Management Manual (2011)"
+    "notes": "MDEQ Volume 2 Stormwater Runoff Management Manual (2011)",
+    "agencyHint": "dep_deq"
   },
   {
     "id": "new-orleans-jefferson-la",
@@ -781,7 +826,9 @@
     "pdfUrl": "https://www.dot.state.wy.us/files/live/sites/wydot/files/shared/Construction/WYDOT%20Storm%20Water%20Field%20Guide%204-6-11.pdf",
     "landingPageUrl": "https://www.dot.state.wy.us/home/engineering_technical_programs/manuals_publications.html",
     "cityCoords": null,
-    "notes": "WYDOT Storm Water Field Guide (construction BMPs)"
+    "notes": "WYDOT Storm Water Field Guide (construction BMPs)",
+    "agencyHint": "dot",
+    "scopeHint": "construction_esc"
   },
   {
     "id": "de-wet-ponds-draft",
@@ -790,7 +837,8 @@
     "pdfUrl": "https://documents.dnrec.delaware.gov/Admin/Public-Notices/WSS20260001/13-0-Wet-Ponds-DRAFT-strikethrough.pdf",
     "landingPageUrl": "https://dnrec.delaware.gov/watershed-stewardship/sediment-stormwater/",
     "cityCoords": null,
-    "notes": "DNREC Post-Construction BMP Standards Â§13 Wet Ponds (draft/public notice revision)"
+    "notes": "DNREC Post-Construction BMP Standards Â§13 Wet Ponds (draft/public notice revision)",
+    "agencyHint": "dep_deq"
   },
   {
     "id": "sd-dot-esc",
@@ -799,7 +847,9 @@
     "pdfUrl": "https://dot.sd.gov/media/kywakwy4/escontrolsw.pdf",
     "landingPageUrl": "https://dot.sd.gov/Doing-Business/Environmental/Stormwater",
     "cityCoords": null,
-    "notes": "SDDOT Erosion and Sediment Control and Stormwater Management Course Manual"
+    "notes": "SDDOT Erosion and Sediment Control and Stormwater Management Course Manual",
+    "agencyHint": "dot",
+    "scopeHint": "construction_esc"
   },
   {
     "id": "ne-ndot-stf",
@@ -808,7 +858,9 @@
     "pdfUrl": "https://dot.nebraska.gov/media/fhpdgmi4/f-chapter-3-stormwater-treatment.pdf",
     "landingPageUrl": "https://dot.nebraska.gov/",
     "cityCoords": null,
-    "notes": "NDOT Drainage Design and Erosion Control Manual Ch3 Stormwater Treatment"
+    "notes": "NDOT Drainage Design and Erosion Control Manual Ch3 Stormwater Treatment",
+    "agencyHint": "dot",
+    "scopeHint": "drainage"
   },
   {
     "id": "beatrice-ne",
@@ -3509,5 +3561,547 @@
       25.9017
     ],
     "notes": "Brownsville CivicPlus wrong PDFs previously; San Antonio South TX pattern (needs review)"
+  },
+  {
+    "id": "fl-fdot-drainage",
+    "jurisdictionHint": "Florida",
+    "levelHint": "state",
+    "agencyHint": "dot",
+    "scopeHint": "drainage",
+    "pdfUrl": "https://fdotwww.blob.core.windows.net/sitefinity/docs/default-source/roadway/drainage/files/drainagemanual2025.pdf",
+    "landingPageUrl": "https://www.fdot.gov/roadway/drainage/drainage-history",
+    "cityCoords": null,
+    "notes": "FDOT Drainage Manual January 2025"
+  },
+  {
+    "id": "pa-penndot-drainage",
+    "jurisdictionHint": "Pennsylvania",
+    "levelHint": "state",
+    "agencyHint": "dot",
+    "scopeHint": "drainage",
+    "pdfUrl": "https://www.pa.gov/content/dam/copapwp-pagov/en/penndot/documents/public/pubsforms/publications/pub-584/june%202022-change%201.pdf",
+    "landingPageUrl": "https://www.pa.gov/agencies/penndot/programs-and-doing-business/environment/hydrology-and-hydraulics",
+    "cityCoords": null,
+    "notes": "PennDOT Drainage Manual Pub 584 (March 2015 Edition, Change No. 1 June 2022)"
+  },
+  {
+    "id": "nc-ncdot-drainage",
+    "jurisdictionHint": "North Carolina",
+    "levelHint": "state",
+    "agencyHint": "dot",
+    "scopeHint": "drainage",
+    "pdfUrl": "https://connect.ncdot.gov/resources/hydro/DrainageStudiesGuidelines/2022%20Guidelines%20for%20Drainage%20Studies%20and%20Hydraulic%20Design.pdf",
+    "landingPageUrl": "https://connect.ncdot.gov/resources/hydro/Pages/DrainageStudiesGuidelines.aspx",
+    "cityCoords": null,
+    "notes": "NCDOT Guidelines for Drainage Studies and Hydraulic Design (2022 archived PDF; live guidance is web-based)"
+  },
+  {
+    "id": "az-adot-drainage",
+    "jurisdictionHint": "Arizona",
+    "levelHint": "state",
+    "agencyHint": "dot",
+    "scopeHint": "drainage",
+    "pdfUrl": "https://azdot.gov/sites/default/files/2019/07/2014_adot_hydrology_manual.pdf",
+    "landingPageUrl": "https://azdot.gov/business/engineering-and-construction/roadway-engineering/drainage-design/manuals-drainage-design",
+    "cityCoords": null,
+    "notes": "ADOT Highway Drainage Design Manual Vol 2 Hydrology (2014). Companion Hydraulics volume also available."
+  },
+  {
+    "id": "oh-odot-drainage",
+    "jurisdictionHint": "Ohio",
+    "levelHint": "state",
+    "agencyHint": "dot",
+    "scopeHint": "drainage",
+    "pdfUrl": "https://dam.assets.ohio.gov/image/upload/transportation.ohio.gov/hydraulic/ld2/archive/2022-07-LD2.pdf",
+    "landingPageUrl": "https://www.transportation.ohio.gov/working/publications/location-design-vol-2-jump",
+    "cityCoords": null,
+    "notes": "ODOT Location & Design Manual Volume 2 Drainage Design (July 2022 archive PDF; live manual is web)"
+  },
+  {
+    "id": "ca-caltrans-project-planning",
+    "jurisdictionHint": "California",
+    "levelHint": "state",
+    "agencyHint": "dot",
+    "scopeHint": "post_construction",
+    "pdfUrl": "https://dot.ca.gov/-/media/dot-media/programs/design/documents/ppdg_final-ada-a11y.pdf",
+    "landingPageUrl": "https://dot.ca.gov/programs/design/manual-project-planning-design-guide",
+    "cityCoords": null,
+    "notes": "Caltrans Stormwater Quality Handbooks — Project Planning and Design Guide (June 2023)"
+  },
+  {
+    "id": "va-vdot-drainage",
+    "jurisdictionHint": "Virginia",
+    "levelHint": "state",
+    "agencyHint": "dot",
+    "scopeHint": "drainage",
+    "pdfUrl": "https://www.vdot.virginia.gov/media/vdotvirginiagov/doing-business/technical-guidance-and-support/technical-guidance-documents/location-and-design/migrated/drainagemanual/Drain-Manual-Chapter-11_acc07072026.pdf",
+    "landingPageUrl": "https://www.vdot.virginia.gov/doing-business/technical-guidance-and-support/technical-guidance-documents/drainage-manual/",
+    "cityCoords": null,
+    "notes": "VDOT Drainage Manual Chapter 11 Stormwater Management (July 2026). Full combined PDF ~161MB deferred."
+  },
+  {
+    "id": "il-iepa-stormwater",
+    "jurisdictionHint": "Illinois",
+    "levelHint": "state",
+    "agencyHint": "dep_deq",
+    "scopeHint": "full_manual",
+    "pdfUrl": "http://www.aiswcd.org/wp-content/uploads/2013/06/IUM_June20131.pdf",
+    "landingPageUrl": "https://aiswcd.org/illinois-urban-manual/",
+    "cityCoords": null,
+    "notes": "Illinois Urban Manual (June 2013 PDF compilation via AISWCD; IEPA/partner statewide BMP reference)"
+  },
+  {
+    "id": "wa-wsdot-hr",
+    "jurisdictionHint": "Washington",
+    "levelHint": "state",
+    "agencyHint": "dot",
+    "scopeHint": "drainage",
+    "pdfUrl": "https://www.wsdot.wa.gov/publications/fulltext/hydraulics/hrm/chap3_2014.pdf",
+    "landingPageUrl": "https://wsdot.wa.gov/engineering-standards/all-manuals-and-standards/manuals/highway-runoff-manual",
+    "cityCoords": null,
+    "notes": "WSDOT Highway Runoff Manual Ch3 Minimum Requirements (2014). Full HRM PDF ~240MB deferred."
+  },
+  {
+    "id": "ct-ctdot-drainage",
+    "jurisdictionHint": "Connecticut",
+    "levelHint": "state",
+    "agencyHint": "dot",
+    "scopeHint": "drainage",
+    "pdfUrl": "https://portal.ct.gov/dot/-/media/dot/drainage/ctdot-drainage-full-pdf.pdf",
+    "landingPageUrl": "https://portal.ct.gov/dot/bureaus/engineering-and-construction/engineering/facilities-and-transit/soils-foundation-hydraulics-and-drainage",
+    "cityCoords": null,
+    "notes": "CTDOT Drainage Manual — full PDF"
+  },
+  {
+    "id": "sc-scdot-drainage",
+    "jurisdictionHint": "South Carolina",
+    "levelHint": "state",
+    "agencyHint": "dot",
+    "scopeHint": "drainage",
+    "pdfUrl": "https://www.scdot.org/content/dam/scdot-legacy/business/pdf/stormwater/SCDOT_SWQDM.pdf",
+    "landingPageUrl": "https://www.scdot.org/",
+    "cityCoords": null,
+    "notes": "SCDOT Stormwater Quality Design Manual (SWQDM)"
+  },
+  {
+    "id": "md-sha-drainage",
+    "jurisdictionHint": "Maryland",
+    "levelHint": "state",
+    "agencyHint": "dot",
+    "scopeHint": "drainage",
+    "pdfUrl": "https://roads.maryland.gov/ohd2/MDOTSHADrainageManual.pdf",
+    "landingPageUrl": "https://roads.maryland.gov/",
+    "cityCoords": null,
+    "notes": "MDOT SHA Drainage Manual"
+  },
+  {
+    "id": "ut-udot-drainage",
+    "jurisdictionHint": "Utah",
+    "levelHint": "state",
+    "agencyHint": "dot",
+    "scopeHint": "drainage",
+    "pdfUrl": "https://drive.google.com/uc?export=download&id=1sxmhKziSdENiN03kQUhUlu8xyAHMdJol",
+    "landingPageUrl": "https://connect.udot.utah.gov/docs/drainage-design-manual-of-instruction/",
+    "cityCoords": null,
+    "notes": "UDOT Drainage Design Manual of Instruction (Google Drive export)"
+  },
+  {
+    "id": "al-aldot-drainage",
+    "jurisdictionHint": "Alabama",
+    "levelHint": "state",
+    "agencyHint": "dot",
+    "scopeHint": "drainage",
+    "pdfUrl": "https://www.dot.state.al.us/publications/Design/pdf/HydraulicManualDraft.pdf",
+    "landingPageUrl": "https://www.dot.state.al.us/publications/Design/HydraulicResources.html",
+    "cityCoords": null,
+    "notes": "ALDOT Hydraulic Manual (Draft)"
+  },
+  {
+    "id": "tx-txdot-hydraulic",
+    "jurisdictionHint": "Texas",
+    "levelHint": "state",
+    "agencyHint": "dot",
+    "scopeHint": "drainage",
+    "pdfUrl": "https://www.txdot.gov/content/dam/txdotoms/des/hyd/hyd.pdf",
+    "landingPageUrl": "https://www.txdot.gov/manuals/des/hyd/index.html",
+    "cityCoords": null,
+    "notes": "TxDOT Hydraulic Design Manual (revised Sept 2019)"
+  },
+  {
+    "id": "mn-mndot-drainage",
+    "jurisdictionHint": "Minnesota",
+    "levelHint": "state",
+    "agencyHint": "dot",
+    "scopeHint": "drainage",
+    "pdfUrl": "https://edocs-public.dot.state.mn.us/edocs_public/DMResultSet/download?docId=26996068",
+    "landingPageUrl": "https://www.dot.state.mn.us/bridge/hydraulics/drainage-manual-2000.html",
+    "cityCoords": null,
+    "notes": "MnDOT Drainage Manual (2000) — complete published PDF"
+  },
+  {
+    "id": "la-ladotd-drainage",
+    "jurisdictionHint": "Louisiana",
+    "levelHint": "state",
+    "agencyHint": "dot",
+    "scopeHint": "drainage",
+    "pdfUrl": "https://dotd.la.gov/media/gyzjm1fu/hydraulics-manual.pdf",
+    "landingPageUrl": "https://dotd.la.gov/about/office-of-project-delivery/engineering/public-works/hydraulics/",
+    "cityCoords": null,
+    "notes": "LADOTD Hydraulics Manual (2011)"
+  },
+  {
+    "id": "vt-vtrans-drainage",
+    "jurisdictionHint": "Vermont",
+    "levelHint": "state",
+    "agencyHint": "dot",
+    "scopeHint": "drainage",
+    "pdfUrl": "https://vtrans.vermont.gov/sites/aot/files/highway/documents/structures/VTrans%20Hydraulics%20Manual.pdf",
+    "landingPageUrl": "https://vtrans.vermont.gov/highway/structures-hydraulics/hydraulics/designcriteria-standards",
+    "cityCoords": null,
+    "notes": "VTrans Hydraulics Manual (May 28, 2015)"
+  },
+  {
+    "id": "nj-njdot-drainage",
+    "jurisdictionHint": "New Jersey",
+    "levelHint": "state",
+    "agencyHint": "dot",
+    "scopeHint": "drainage",
+    "pdfUrl": "https://www.nj.gov/transportation/eng/documents/SEM/pdf/DrainageDesignManual2006s.pdf",
+    "landingPageUrl": "https://dot.nj.gov/transportation/eng/documents/RDM/",
+    "cityCoords": null,
+    "notes": "NJDOT Drainage Design Manual (August 2006)"
+  },
+  {
+    "id": "wv-wvdoh-drainage",
+    "jurisdictionHint": "West Virginia",
+    "levelHint": "state",
+    "agencyHint": "dot",
+    "scopeHint": "drainage",
+    "pdfUrl": "https://transportation.wv.gov/highways/engineering/Manuals/Drainage/WVDOH%202007%20Drainage%20Manual%20with%20Addendum%209-23-13.pdf",
+    "landingPageUrl": "https://transportation.wv.gov/highways/engineering/Pages/Manuals.aspx",
+    "cityCoords": null,
+    "notes": "WVDOH Drainage Manual 3rd Ed. (2007) with Addendum 9-23-13"
+  },
+  {
+    "id": "ga-gdot-drainage",
+    "jurisdictionHint": "Georgia",
+    "levelHint": "state",
+    "agencyHint": "dot",
+    "scopeHint": "drainage",
+    "pdfUrl": "https://www.dot.ga.gov/PartnerSmart/DesignManuals/Drainage/Drainage%20Design%20Policy%20Manual.pdf",
+    "landingPageUrl": "http://www.dot.ga.gov/GDOT/Pages/designmanualssoftware.aspx",
+    "cityCoords": null,
+    "notes": "GDOT Drainage Design Policy Manual"
+  },
+  {
+    "id": "ma-massdot-drainage",
+    "jurisdictionHint": "Massachusetts",
+    "levelHint": "state",
+    "agencyHint": "dot",
+    "scopeHint": "drainage",
+    "pdfUrl": "https://www.acecma.org/wp-content/uploads/MassDOT_StormwaterDesignGuide_FINAL_508c.pdf",
+    "landingPageUrl": "https://www.mass.gov/info-details/stormwater-management-unit",
+    "cityCoords": null,
+    "notes": "MassDOT Stormwater Design Guide 2023 Edition (ACEC-MA mirror; mass.gov download often 403 to bots)"
+  },
+  {
+    "id": "de-deldot-drainage",
+    "jurisdictionHint": "Delaware",
+    "levelHint": "state",
+    "agencyHint": "dot",
+    "scopeHint": "drainage",
+    "pdfUrl": "https://deldot.gov/Publications/manuals/road_design/pdfs/06_drainage_stormwater_mgmt.pdf",
+    "landingPageUrl": "https://roaddesignmanual.deldot.gov/index.php/Home",
+    "cityCoords": null,
+    "notes": "DelDOT Road Design Manual Ch.6 Drainage and Stormwater Management"
+  },
+  {
+    "id": "in-indot-drainage",
+    "jurisdictionHint": "Indiana",
+    "levelHint": "state",
+    "agencyHint": "dot",
+    "scopeHint": "drainage",
+    "pdfUrl": "https://www.in.gov/dot/div/contracts/design/Part%202/Chapter%20203%20-%20Hydraulics%20and%20Drainage%20Design.pdf",
+    "landingPageUrl": "https://www.in.gov/indot/design-manual/",
+    "cityCoords": null,
+    "notes": "INDOT Design Manual Chapter 203 — Hydraulics and Drainage Design"
+  },
+  {
+    "id": "mi-mdot-drainage",
+    "jurisdictionHint": "Michigan",
+    "levelHint": "state",
+    "agencyHint": "dot",
+    "scopeHint": "drainage",
+    "pdfUrl": "https://www.michigan.gov/mdot/-/media/Project/Websites/MDOT/Business/Design/Drainage-Manual/MDOT-MS4-Chap-07-Drainage-Manual.pdf",
+    "landingPageUrl": "https://www.michigan.gov/mdot/business/design/drainage-manual",
+    "cityCoords": null,
+    "notes": "MDOT Drainage Manual Chapter 7 — Road Storm Drainage Systems"
+  },
+  {
+    "id": "or-odot-drainage",
+    "jurisdictionHint": "Oregon",
+    "levelHint": "state",
+    "agencyHint": "dot",
+    "scopeHint": "drainage",
+    "pdfUrl": "https://www.oregon.gov/odot/hydraulics/Docs_Hydraulics_Manual/Hydraulics-13.pdf",
+    "landingPageUrl": "https://www.oregon.gov/odot/hydraulics/pages/hydraulics-manual.aspx",
+    "cityCoords": null,
+    "notes": "ODOT Hydraulics Manual Chapter 13 — Storm Drainage (2014)"
+  },
+  {
+    "id": "wi-wisdot-drainage",
+    "jurisdictionHint": "Wisconsin",
+    "levelHint": "state",
+    "agencyHint": "dot",
+    "scopeHint": "drainage",
+    "pdfUrl": "https://wisconsindot.gov/rdwy/fdm/fd-13-10.pdf",
+    "landingPageUrl": "https://wisconsindot.gov/pages/doing-bus/eng-consultants/cnslt-rsrces/rdwy/fdm.aspx",
+    "cityCoords": null,
+    "notes": "WisDOT FDM Chapter 13 Drainage — Section 13-10 Hydrology"
+  },
+  {
+    "id": "tn-tdot-drainage",
+    "jurisdictionHint": "Tennessee",
+    "levelHint": "state",
+    "agencyHint": "dot",
+    "scopeHint": "drainage",
+    "pdfUrl": "https://www.tn.gov/content/dam/tn/tdot/engineering-production-support/documents/drainage_manual/DM-Chapter_07.pdf",
+    "landingPageUrl": "https://www.tn.gov/tdot/state-engineering-technical-training/production-support/design-standards/drainage-manual.html",
+    "cityCoords": null,
+    "notes": "TDOT Drainage Manual Chapter 7 — Storm Drainage Systems"
+  },
+  {
+    "id": "ny-nysdot-drainage",
+    "jurisdictionHint": "New York",
+    "levelHint": "state",
+    "agencyHint": "dot",
+    "scopeHint": "drainage",
+    "pdfUrl": "https://www.dot.ny.gov/divisions/engineering/design/dqab/hdm/hdm-repository/chapt_08.pdf",
+    "landingPageUrl": "https://www.dot.ny.gov/divisions/engineering/design/dqab/hdm/chapter-8",
+    "cityCoords": null,
+    "notes": "NYSDOT Highway Design Manual Chapter 8 — Highway Drainage"
+  },
+  {
+    "id": "ky-kytc-drainage",
+    "jurisdictionHint": "Kentucky",
+    "levelHint": "state",
+    "agencyHint": "dot",
+    "scopeHint": "drainage",
+    "pdfUrl": "https://transportation.ky.gov/Highway-Design/Drainage%20Manual/DR%20100%20Introduction%20(Draft).pdf",
+    "landingPageUrl": "https://transportation.ky.gov/Highway-Design/Pages/Drainage.aspx",
+    "cityCoords": null,
+    "notes": "KYTC Drainage Guidance Manual — DR-100 Introduction (chapter set)"
+  },
+  {
+    "id": "mt-mdt-drainage",
+    "jurisdictionHint": "Montana",
+    "levelHint": "state",
+    "agencyHint": "dot",
+    "scopeHint": "drainage",
+    "pdfUrl": "https://www.mdt.mt.gov/other/webdata/external/hydraulics/manuals/Chapter-09-Hydrology.pdf",
+    "landingPageUrl": "https://mdt.mt.gov/publications/manuals.aspx",
+    "cityCoords": null,
+    "notes": "MDT Hydraulics Manual Chapter 9 — Hydrology"
+  },
+  {
+    "id": "ak-dot-drainage",
+    "jurisdictionHint": "Alaska",
+    "levelHint": "state",
+    "agencyHint": "dot",
+    "scopeHint": "drainage",
+    "pdfUrl": "https://dot.alaska.gov/stwddes/desbridge/assets/pdf/hwydrnman/hwydrncover.pdf",
+    "landingPageUrl": "https://dot.alaska.gov/stwddes/desbridge/hwy_drainage_manual.shtml",
+    "cityCoords": null,
+    "notes": "Alaska Highway Drainage Manual — cover/TOC chapter proxy (manual is chaptered PDFs)"
+  },
+  {
+    "id": "co-cwcb-floodplain-stormwater",
+    "jurisdictionHint": "Colorado",
+    "levelHint": "state",
+    "agencyHint": "dep_deq",
+    "scopeHint": "full_manual",
+    "pdfUrl": "https://dnrweblink.state.co.us/CWCB/0/edoc/211428/Chapter%2015.pdf",
+    "landingPageUrl": "https://cwcb.colorado.gov/public-information/technical-tools/floodplain-stormwater-criteria-manual",
+    "cityCoords": null,
+    "notes": "CWCB Floodplain and Stormwater Criteria Manual Ch15 Storm Drainage Water Quality (statewide DNR; CDPHE is permit-only)"
+  },
+  {
+    "id": "dc-ddot-stormwater",
+    "jurisdictionHint": "District of Columbia",
+    "levelHint": "state",
+    "agencyHint": "dot",
+    "scopeHint": "drainage",
+    "pdfUrl": "https://ddot.dc.gov/sites/default/files/dc/sites/ddot/publication/attachments/2014-Final%20DDOT%20Green%20Infrastructure%20Standards.pdf",
+    "landingPageUrl": "https://ddot.dc.gov/GreenInfrastructure",
+    "cityCoords": null,
+    "notes": "DDOT Green Infrastructure Standards (2014)"
+  },
+  {
+    "id": "ia-dot-drainage",
+    "jurisdictionHint": "Iowa",
+    "levelHint": "state",
+    "agencyHint": "dot",
+    "scopeHint": "drainage",
+    "pdfUrl": "https://documents.iowa.gov/Home/Download/9592853",
+    "landingPageUrl": "https://iowadot.gov/design-manual/chapter-4-drainage",
+    "cityCoords": null,
+    "notes": "Iowa DOT Design Manual Ch4 Drainage — §4A-01 intro (chapter set)"
+  },
+  {
+    "id": "id-itd-drainage",
+    "jurisdictionHint": "Idaho",
+    "levelHint": "state",
+    "agencyHint": "dot",
+    "scopeHint": "drainage",
+    "pdfUrl": "https://apps.itd.idaho.gov/apps/manuals/roadwaydesign/files/RoadwayDesign600.pdf",
+    "landingPageUrl": "https://apps.itd.idaho.gov/apps/manuals/roadwaydesign/files/Roadwaydesignprintable.pdf",
+    "cityCoords": null,
+    "notes": "ITD Roadway Design Manual Section 600 Hydraulics"
+  },
+  {
+    "id": "il-idot-drainage",
+    "jurisdictionHint": "Illinois",
+    "levelHint": "state",
+    "agencyHint": "dot",
+    "scopeHint": "drainage",
+    "pdfUrl": "https://public.powerdms.com/IDOT/documents/2084523",
+    "landingPageUrl": "https://idot.illinois.gov/doing-business/industry-marketplace/bridges-and-structures-services/specific-scope-of-services.html",
+    "cityCoords": null,
+    "notes": "IDOT Drainage Manual (July 2011) via PowerDMS"
+  },
+  {
+    "id": "ks-kdot-drainage",
+    "jurisdictionHint": "Kansas",
+    "levelHint": "state",
+    "agencyHint": "dot",
+    "scopeHint": "drainage",
+    "pdfUrl": "https://www.ksdot.gov/home/showpublisheddocument/858/638942965857170000",
+    "landingPageUrl": "https://www.ksdot.gov/doing-business/design-consultants/design-resources/drainage-design-manual",
+    "cityCoords": null,
+    "notes": "KDOT Drainage Design Manual (May 2023) Section 1"
+  },
+  {
+    "id": "me-dot-drainage",
+    "jurisdictionHint": "Maine",
+    "levelHint": "state",
+    "agencyHint": "dot",
+    "scopeHint": "drainage",
+    "pdfUrl": "https://www.maine.gov/tools/whatsnew/attach.php?id=816916&an=1",
+    "landingPageUrl": "https://www.maine.gov/dot/programs-services/highway/highway-engineering",
+    "cityCoords": null,
+    "notes": "MaineDOT Highway Program §7 Drainage Design Practices & Procedures (2021)"
+  },
+  {
+    "id": "nd-nddot-drainage",
+    "jurisdictionHint": "North Dakota",
+    "levelHint": "state",
+    "agencyHint": "dot",
+    "scopeHint": "drainage",
+    "pdfUrl": "https://www.dot.nd.gov/sites/www/files/documents/Design/Chapter%205.pdf",
+    "landingPageUrl": "https://www.dot.nd.gov/construction-and-planning/construction-and-contractor-resources/design-manual",
+    "cityCoords": null,
+    "notes": "NDDOT Design Manual Chapter V — Hydraulic Studies and Drainage Design"
+  },
+  {
+    "id": "nh-nhdot-drainage",
+    "jurisdictionHint": "New Hampshire",
+    "levelHint": "state",
+    "agencyHint": "dot",
+    "scopeHint": "drainage",
+    "pdfUrl": "https://www.dot.nh.gov/sites/g/files/ehbemt811/files/inline-documents/manual-drainage-design.pdf",
+    "landingPageUrl": "https://www.dot.nh.gov/doing-business-nhdot/engineers-consultants/highway-design-manual",
+    "cityCoords": null,
+    "notes": "NHDOT Manual on Drainage Design for Highways"
+  },
+  {
+    "id": "nm-nmdot-drainage",
+    "jurisdictionHint": "New Mexico",
+    "levelHint": "state",
+    "agencyHint": "dot",
+    "scopeHint": "drainage",
+    "pdfUrl": "https://api.realfile.rtsclients.com/PublicFiles/f260a66b364d453e91ff9b3fedd494dc/ae005670-a671-480e-9c33-0e37cf2f6b82/Drainage%20Design%20Manual%202018.pdf",
+    "landingPageUrl": "https://www.dot.nm.gov/infrastructure/program-management/drainage-design/",
+    "cityCoords": null,
+    "notes": "NMDOT Drainage Design Manual (July 2018)"
+  },
+  {
+    "id": "ri-ridot-drainage",
+    "jurisdictionHint": "Rhode Island",
+    "levelHint": "state",
+    "agencyHint": "dot",
+    "scopeHint": "drainage",
+    "pdfUrl": "https://www.dot.ri.gov/EnvironmentalDivision/docs/Stormwater/Linearstormwatermanual.pdf",
+    "landingPageUrl": "https://www.dot.ri.gov/EnvironmentalDivision/Office_of_Stormwater.php",
+    "cityCoords": null,
+    "notes": "RIDOT Linear Stormwater Manual (February 2019)"
+  },
+  {
+    "id": "lancaster-pa",
+    "jurisdictionHint": "Lancaster",
+    "levelHint": "municipality",
+    "pdfUrl": "https://www.cityoflancasterpa.gov/wp-content/uploads/2021/01/2024-6-21_Lancaster-SW-Guidance-Manual_FINAL.pdf",
+    "landingPageUrl": "https://www.cityoflancasterpa.gov/stormwater-information/green-infrastructure/",
+    "cityCoords": [
+      -76.3055,
+      40.0379
+    ],
+    "notes": "City of Lancaster Green Infrastructure Design Manual (Final June 2024); companion SWMF fee/credit manual is lancaster-pa-swmf"
+  },
+  {
+    "id": "lancaster-pa-swmf",
+    "jurisdictionHint": "Lancaster",
+    "levelHint": "municipality",
+    "pdfUrl": "https://www.cityoflancasterpa.gov/wp-content/uploads/2020/10/SWMF-Policies-and-Procedures-2023.pdf",
+    "landingPageUrl": "https://www.cityoflancasterpa.gov/stormwater-information/",
+    "cityCoords": [
+      -76.3055,
+      40.0379
+    ],
+    "notes": "City of Lancaster SWMF Policies and Procedures Manual (amended Feb 2023); companion GI Design Manual is lancaster-pa"
+  },
+  {
+    "id": "fl-sjrwmd-erp-ah2",
+    "jurisdictionHint": "St. Johns River Water Management District",
+    "levelHint": "special_district",
+    "pdfUrl": "https://aws.sjrwmd.com/SJRWMD/permitting/SJRWMD_Applicants_Handbook_Volume_II_6-28-24.pdf",
+    "landingPageUrl": "https://www.sjrwmd.com/",
+    "cityCoords": null,
+    "notes": "SJRWMD ERP Applicant's Handbook Volume II (June 28, 2024)"
+  },
+  {
+    "id": "fl-nwfwmd-erp-ah2",
+    "jurisdictionHint": "Northwest Florida Water Management District",
+    "levelHint": "special_district",
+    "pdfUrl": "https://nwfwater.com/wp-content/uploads/2024/07/AHII-nwfwmd-FINAL-2024.pdf",
+    "landingPageUrl": "https://nwfwater.com/",
+    "cityCoords": null,
+    "notes": "NWFWMD ERP Applicant's Handbook Volume II (June 28, 2024)"
+  },
+  {
+    "id": "fl-sfwmd-erp-ah2",
+    "jurisdictionHint": "South Florida Water Management District",
+    "levelHint": "special_district",
+    "pdfUrl": "https://www.sfwmd.gov/sites/default/files/documents/swerp_applicants_handbook_vol_ii.pdf",
+    "landingPageUrl": "https://www.sfwmd.gov/",
+    "cityCoords": null,
+    "notes": "SFWMD ERP Applicant's Handbook Volume II (canonical district)"
+  },
+  {
+    "id": "fl-swfwmd-erp-ah2",
+    "jurisdictionHint": "Southwest Florida Water Management District",
+    "levelHint": "special_district",
+    "pdfUrl": "https://www.swfwmd.state.fl.us/sites/default/files/medias/documents/draftswfwmd-erpapplicanthandbook-volume-ii.pdf",
+    "landingPageUrl": "https://www.swfwmd.state.fl.us/business/epermitting/rules",
+    "cityCoords": null,
+    "notes": "SWFWMD ERP Applicant's Handbook Volume II (canonical district)"
+  },
+  {
+    "id": "fl-srwmd-erp-ah2",
+    "jurisdictionHint": "Suwannee River Water Management District",
+    "levelHint": "special_district",
+    "pdfUrl": "http://www.srwmd.state.fl.us/DocumentCenter/View/19233",
+    "landingPageUrl": "https://www.srwmd.state.fl.us/",
+    "cityCoords": null,
+    "notes": "SRWMD ERP Applicant's Handbook Volume II (canonical district)"
   }
 ]

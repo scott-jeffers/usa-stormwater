@@ -1,0 +1,75 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "Rhode Island",
+    "jurisdiction_level": "state",
+    "state_code": "RI",
+    "document_title": "RIDOT Linear Stormwater Manual",
+    "version_or_edition": null,
+    "adoption_or_effective_date": null,
+    "last_revised_date": null,
+    "relationship_to_state_manual": "independent",
+    "issuing_agency_category": "dot"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [
+      10,
+      100
+    ],
+    "water_quality_volume_method": "Water Quality Volume (WQV): The volume of the first inch of runoff from impervious surfaces (WQV = 1-inch X impervious area)",
+    "peak_flow_calculation_method": [],
+    "required_hydrologic_hydraulic_software": [],
+    "approved_bmp_categories": [
+      "Bioretention",
+      "Infiltration Basin",
+      "Infiltration Trench",
+      "Extended Detention",
+      "Sand Filter",
+      "Vegetated Swale",
+      "Filter Strip",
+      "Oil/Grit Separator",
+      "Retention Basin"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "Rhode Island",
+      "page_or_section": "Title / header"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "RIDOT Linear Stormwater Manual",
+      "page_or_section": "Title / header"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "foot per second. o Maximum velocity for 10-year design storm: 3 feet per second o If velocities are greater than the maximum ve",
+      "page_or_section": null
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "Water Quality Volume (WQV): The volume of the first inch of runoff from impervious surfaces (WQV = 1-inch X impervious area)",
+      "page_or_section": null
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Bioretention, Infiltration Basin, Infiltration Trench, Extended Detention",
+      "page_or_section": null
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "medium",
+    "needs_human_review": true,
+    "review_notes": "Heuristic agency extract from prepared text. RIDOT Linear Stormwater Manual (February 2019)",
+    "fields_not_found": [
+      "design_criteria.peak_flow_calculation_method",
+      "design_criteria.required_hydrologic_hydraulic_software"
+    ]
+  },
+  "source": {
+    "document_url": "https://www.dot.ri.gov/EnvironmentalDivision/docs/Stormwater/Linearstormwatermanual.pdf",
+    "landing_page_url": "https://www.dot.ri.gov/EnvironmentalDivision/Office_of_Stormwater.php",
+    "retrieved_at": "2026-08-11T17:59:10.642Z",
+    "original_filename": "ri-ridot-drainage.pdf"
+  }
+}

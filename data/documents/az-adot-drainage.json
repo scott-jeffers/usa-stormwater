@@ -1,0 +1,77 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "Arizona Department of Transportation (ADOT)",
+    "jurisdiction_level": "state",
+    "state_code": "AZ",
+    "document_title": "Highway Drainage Design Manual — Hydrology (Volume 2)",
+    "version_or_edition": "Second Edition, 2014",
+    "adoption_or_effective_date": null,
+    "last_revised_date": null,
+    "relationship_to_state_manual": "independent",
+    "issuing_agency_category": "dot"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [
+      2,
+      5,
+      10,
+      25,
+      50,
+      100,
+      500
+    ],
+    "water_quality_volume_method": null,
+    "peak_flow_calculation_method": [
+      "Rational Method",
+      "NRCS / SCS Curve Number (TR-55)",
+      "HEC-HMS"
+    ],
+    "required_hydrologic_hydraulic_software": [
+      "HEC-HMS"
+    ],
+    "approved_bmp_categories": [
+      "Retention Basin"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "Arizona Department of Transportation (ADOT)",
+      "page_or_section": "Title / header"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "Highway Drainage Design Manual — Hydrology (Volume 2)",
+      "page_or_section": "Title / header"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "...... 11-6 Figure 11-5 Data Points and 100-year Peak Discharge Relation for R1 .................................... 11-7 Figure",
+      "page_or_section": null
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "s. The two analytic methods are: 1. The Rational Method. Used for uniform drainage areas that are less than 160 acres in size. 2",
+      "page_or_section": null
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Retention Basin",
+      "page_or_section": null
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "medium",
+    "needs_human_review": true,
+    "review_notes": "Heuristic agency extract from prepared text. ADOT Highway Drainage Design Manual Vol 2 Hydrology (2014). Companion Hydraulics volume also available.",
+    "fields_not_found": [
+      "design_criteria.water_quality_volume_method"
+    ]
+  },
+  "source": {
+    "document_url": "https://azdot.gov/sites/default/files/2019/07/2014_adot_hydrology_manual.pdf",
+    "landing_page_url": "https://azdot.gov/business/engineering-and-construction/roadway-engineering/drainage-design/manuals-drainage-design",
+    "retrieved_at": "2026-08-11T17:21:06.007Z",
+    "original_filename": "az-adot-drainage.pdf"
+  }
+}

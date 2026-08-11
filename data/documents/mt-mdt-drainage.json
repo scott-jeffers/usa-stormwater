@@ -1,0 +1,74 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "Montana",
+    "jurisdiction_level": "state",
+    "state_code": "MT",
+    "document_title": "MDT Hydraulics Manual Chapter 9",
+    "version_or_edition": null,
+    "adoption_or_effective_date": null,
+    "last_revised_date": null,
+    "relationship_to_state_manual": "independent",
+    "issuing_agency_category": "dot"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [
+      2,
+      5,
+      10,
+      25,
+      50,
+      100,
+      500
+    ],
+    "water_quality_volume_method": null,
+    "peak_flow_calculation_method": [
+      "Rational Method",
+      "NRCS / SCS Curve Number (TR-55)",
+      "TR-20",
+      "HEC-HMS",
+      "USGS regression equations"
+    ],
+    "required_hydrologic_hydraulic_software": [
+      "HEC-HMS",
+      "EPA SWMM"
+    ],
+    "approved_bmp_categories": []
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "Montana",
+      "page_or_section": "Title / header"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "MDT Hydraulics Manual Chapter 9",
+      "page_or_section": "Title / header"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "ff. 2. Base Flood. Another term for the 100-year event. 3. Depression/Retention Storage. The natural depression within a watersh",
+      "page_or_section": null
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "ydrologic method for the site (e.g. the rational method is intended for small urban basins). Hydrology 9-5 Hydraulics Manual Jul",
+      "page_or_section": null
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "medium",
+    "needs_human_review": true,
+    "review_notes": "Heuristic agency extract from prepared text. MDT Hydraulics Manual Chapter 9 — Hydrology",
+    "fields_not_found": [
+      "design_criteria.water_quality_volume_method",
+      "design_criteria.approved_bmp_categories"
+    ]
+  },
+  "source": {
+    "document_url": "https://www.mdt.mt.gov/other/webdata/external/hydraulics/manuals/Chapter-09-Hydrology.pdf",
+    "landing_page_url": "https://mdt.mt.gov/publications/manuals.aspx",
+    "retrieved_at": "2026-08-11T17:59:10.604Z",
+    "original_filename": "mt-mdt-drainage.pdf"
+  }
+}

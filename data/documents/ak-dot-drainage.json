@@ -1,0 +1,50 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "Alaska",
+    "jurisdiction_level": "state",
+    "state_code": "AK",
+    "document_title": "Alaska Highway Drainage Manual",
+    "version_or_edition": null,
+    "adoption_or_effective_date": null,
+    "last_revised_date": null,
+    "relationship_to_state_manual": "independent",
+    "issuing_agency_category": "dot"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [],
+    "water_quality_volume_method": null,
+    "peak_flow_calculation_method": [],
+    "required_hydrologic_hydraulic_software": [],
+    "approved_bmp_categories": []
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "Alaska",
+      "page_or_section": "Title / header"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "Alaska Highway Drainage Manual",
+      "page_or_section": "Title / header"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "medium",
+    "needs_human_review": true,
+    "review_notes": "Heuristic agency extract from prepared text. Alaska Highway Drainage Manual — cover/TOC chapter proxy (manual is chaptered PDFs)",
+    "fields_not_found": [
+      "design_criteria.design_storm_return_periods_years",
+      "design_criteria.peak_flow_calculation_method",
+      "design_criteria.water_quality_volume_method",
+      "design_criteria.required_hydrologic_hydraulic_software",
+      "design_criteria.approved_bmp_categories"
+    ]
+  },
+  "source": {
+    "document_url": "https://dot.alaska.gov/stwddes/desbridge/assets/pdf/hwydrnman/hwydrncover.pdf",
+    "landing_page_url": "https://dot.alaska.gov/stwddes/desbridge/hwy_drainage_manual.shtml",
+    "retrieved_at": "2026-08-11T17:59:10.606Z",
+    "original_filename": "ak-dot-drainage.pdf"
+  }
+}

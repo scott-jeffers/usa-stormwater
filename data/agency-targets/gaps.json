@@ -1,0 +1,933 @@
+{
+  "generatedAt": "2026-08-11T17:59:42.340Z",
+  "filters": {
+    "category": "all",
+    "state": null
+  },
+  "summary": {
+    "expected": 104,
+    "covered": 82,
+    "partial": 0,
+    "gaps": 0,
+    "byCategory": {
+      "dot": 0,
+      "dep_deq": 0
+    },
+    "byReason": {
+      "missing": 0,
+      "manifest_only": 0,
+      "partial": 0,
+      "skipped": 0,
+      "superseded": 3,
+      "unavailable": 19,
+      "covered": 82
+    },
+    "referenced_but_not_cataloged": 129
+  },
+  "gaps": [],
+  "referenced_but_not_cataloged": [
+    {
+      "state_code": "VA",
+      "agency_category": "dep_deq",
+      "citing_slug": "arlington-county-va",
+      "citation_text": "Virginia Stormwater BMP Clearinghouse",
+      "field": "design_criteria.approved_bmp_categories"
+    },
+    {
+      "state_code": "MA",
+      "agency_category": "dep_deq",
+      "citing_slug": "boston-ma",
+      "citation_text": "Massachusetts Department of Environmental Protection (DEP)",
+      "field": "document_metadata.state_code"
+    },
+    {
+      "state_code": "NV",
+      "agency_category": "dot",
+      "citing_slug": "carson-city-nv",
+      "citation_text": "Carson City Drainage Manual (Low Impact Development)",
+      "field": "document_title"
+    },
+    {
+      "state_code": "NV",
+      "agency_category": "dot",
+      "citing_slug": "carson-city-nv",
+      "citation_text": "Carson City Drainage Manual Revised: 7/1/2021",
+      "field": "document_metadata.document_title"
+    },
+    {
+      "state_code": "NC",
+      "agency_category": "dep_deq",
+      "citing_slug": "charlotte-nc",
+      "citation_text": "Charlotte-Mecklenburg Stormwater Design Manual",
+      "field": "document_title"
+    },
+    {
+      "state_code": "NC",
+      "agency_category": "dep_deq",
+      "citing_slug": "charlotte-nc",
+      "citation_text": "Charlotte-Mecklenburg Stormwater Design Manual",
+      "field": "document_metadata.jurisdiction_name"
+    },
+    {
+      "state_code": "NC",
+      "agency_category": "dep_deq",
+      "citing_slug": "charlotte-nc",
+      "citation_text": "Charlotte-Mecklenburg Stormwater Design Manual",
+      "field": "document_metadata.document_title"
+    },
+    {
+      "state_code": "VA",
+      "agency_category": "dep_deq",
+      "citing_slug": "alexandria-va",
+      "citation_text": "ROW-focused green streets guidelines; site development still relies on full VA BMP Clearinghouse / VESMP. Not a complete city stormwater design manual. Pipeline excerpt repair removed 2 unlocated cita",
+      "field": "review_notes"
+    },
+    {
+      "state_code": "VA",
+      "agency_category": "dep_deq",
+      "citing_slug": "alexandria-va",
+      "citation_text": "supplement the Virginia BMP Clearinghouse standards and specifications",
+      "field": "document_metadata.relationship_to_state_manual"
+    },
+    {
+      "state_code": "VA",
+      "agency_category": "dep_deq",
+      "citing_slug": "alexandria-va",
+      "citation_text": "Virginia BMP Clearinghouse standards and specifications",
+      "field": "design_criteria.peak_flow_calculation_method"
+    },
+    {
+      "state_code": "PA",
+      "agency_category": "dep_deq",
+      "citing_slug": "allentown-pa",
+      "citation_text": "Pennsylvania Post-Construction Stormwater Management (PCSM) Manual (city Ch.538 cites PA Stormwater BMP Manual / Act 167)",
+      "field": "document_title"
+    },
+    {
+      "state_code": "PA",
+      "agency_category": "dep_deq",
+      "citing_slug": "allentown-pa",
+      "citation_text": "DRAFT / Page 1-3 1.1 OVERVIEW OF PCSM MANUAL This PCSM Manual establishes DEP-approved procedures for conducting PCSM stormwater analyses and provides SCM standards that can be used for regulatory com",
+      "field": "document_metadata.relationship_to_state_manual"
+    },
+    {
+      "state_code": "CA",
+      "agency_category": "dot",
+      "citing_slug": "anaheim-ca",
+      "citation_text": "Drainage Manual for Public and Private Drainage Facilities — Division IV Private Storm Drainage Facilities Requirements",
+      "field": "document_title"
+    },
+    {
+      "state_code": "CA",
+      "agency_category": "dot",
+      "citing_slug": "anaheim-ca",
+      "citation_text": "DRAINAGE MANUAL FOR PUBLIC AND PRIVATE DRAINAGE FACILITIES DIVISION IV",
+      "field": "document_metadata.document_title"
+    },
+    {
+      "state_code": "MD",
+      "agency_category": "dep_deq",
+      "citing_slug": "annapolis-md",
+      "citation_text": "Maryland Stormwater Design Manual (capital MS4 / ESD to the MEP)",
+      "field": "document_title"
+    },
+    {
+      "state_code": "MD",
+      "agency_category": "dep_deq",
+      "citing_slug": "annapolis-md",
+      "citation_text": "Municipality coverage via Maryland Stormwater Design Manual (Baltimore pattern).",
+      "field": "review_notes"
+    },
+    {
+      "state_code": "MD",
+      "agency_category": "dep_deq",
+      "citing_slug": "annapolis-md",
+      "citation_text": "City of Annapolis capital MS4 follows Maryland Stormwater Design Manual",
+      "field": "document_metadata.jurisdiction_name"
+    },
+    {
+      "state_code": "ME",
+      "agency_category": "dep_deq",
+      "citing_slug": "augusta-me",
+      "citation_text": "City of Augusta capital MS4 follows Maine Stormwater Design Manual Vol III",
+      "field": "document_metadata.jurisdiction_name"
+    },
+    {
+      "state_code": "MD",
+      "agency_category": "dep_deq",
+      "citing_slug": "baltimore-md",
+      "citation_text": "City supplement only (5 pages). Detailed BMP sizing is deferred to the Maryland Stormwater Design Manual (already ingested as md-state). Threshold: SWM required for sites exceeding 5,000 sq ft disturb",
+      "field": "review_notes"
+    },
+    {
+      "state_code": "MD",
+      "agency_category": "dep_deq",
+      "citing_slug": "baltimore-md",
+      "citation_text": "comply with the 2000 Maryland Stormwater Design Manual (Revised)",
+      "field": "document_metadata.state_code"
+    },
+    {
+      "state_code": "MD",
+      "agency_category": "dep_deq",
+      "citing_slug": "baltimore-md",
+      "citation_text": "The stormwater management plans must also comply with the 2000 Maryland Stormwater Design Manual (Revised)",
+      "field": "document_metadata.relationship_to_state_manual"
+    },
+    {
+      "state_code": "NE",
+      "agency_category": "dot",
+      "citing_slug": "beatrice-ne",
+      "citation_text": "Municipal manual adopted Sept 8, 2020 (August 2020 edition). Aligns with Omaha/Lincoln/NDOT regional guidance for post-construction BMPs; WQCV depths for Beatrice are Region C East values in Table 9-1",
+      "field": "review_notes"
+    },
+    {
+      "state_code": "WA",
+      "agency_category": "dot",
+      "citing_slug": "bellingham-wa",
+      "citation_text": "Municipality coverage via Ecology SWMMWW (Everett/Olympia pattern). City may publish a local drainage manual separately.",
+      "field": "review_notes"
+    },
+    {
+      "state_code": "ID",
+      "agency_category": "dep_deq",
+      "citing_slug": "boise-id",
+      "citation_text": "2019 Boise Stormwater Design Manual",
+      "field": "document_title"
+    },
+    {
+      "state_code": "ID",
+      "agency_category": "dep_deq",
+      "citing_slug": "boise-id",
+      "citation_text": "2019 Boise Stormwater Design Manual",
+      "field": "document_metadata.document_title"
+    },
+    {
+      "state_code": "ID",
+      "agency_category": "dep_deq",
+      "citing_slug": "boise-id",
+      "citation_text": "The Stormwater Design Manual (MANUAL) defines minimum standards, requirements, and procedures for the design, permitting, construction,and maintenance of drainage systems within the jurisdiction of th",
+      "field": "document_metadata.relationship_to_state_manual"
+    },
+    {
+      "state_code": "NY",
+      "agency_category": "dep_deq",
+      "citing_slug": "buffalo-ny",
+      "citation_text": "New York State Stormwater Design Manual",
+      "field": "document_metadata.state_code"
+    },
+    {
+      "state_code": "NY",
+      "agency_category": "dep_deq",
+      "citing_slug": "buffalo-ny",
+      "citation_text": "All designs must follow the criteria and standards contained in the most recent version of the New York State Stormwater Design Manual",
+      "field": "document_metadata.relationship_to_state_manual"
+    },
+    {
+      "state_code": "VA",
+      "agency_category": "dep_deq",
+      "citing_slug": "charlottesville-va",
+      "citation_text": "latest Virginia Stormwater BMP Clearinghouse Standards and Specifications and DEQ Stormwater Management Handbook",
+      "field": "design_criteria.water_quality_volume_method"
+    },
+    {
+      "state_code": "VA",
+      "agency_category": "dot",
+      "citing_slug": "chesapeake-va",
+      "citation_text": "PFM Chapter 5 excerpt (Revised 12/16). City criteria govern over VDOT/HRPDC conflicts; also references Virginia Stormwater Management Handbook. Design-storm list from NOAA Atlas 14 depth table plus dr",
+      "field": "review_notes"
+    },
+    {
+      "state_code": "VA",
+      "agency_category": "dot",
+      "citing_slug": "chesapeake-va",
+      "citation_text": "the Virginia Department of Transportation Drainage Manual and the Virginia Stormwater Management Handbook",
+      "field": "document_metadata.state_code"
+    },
+    {
+      "state_code": "VA",
+      "agency_category": "dot",
+      "citing_slug": "chesapeake-va",
+      "citation_text": "Stormwater, for both water quantity and quality, shall be designed in general by the criteria established herein, the City's Master Drainage Plan, the Virginia Department of Transportation Drainage Ma",
+      "field": "document_metadata.relationship_to_state_manual"
+    },
+    {
+      "state_code": "VA",
+      "agency_category": "dep_deq",
+      "citing_slug": "chesapeake-va",
+      "citation_text": "The storwmwater design is based off of DEQ's (Virginia Runoff Reduction Method\" (VRRM). The VRRM is accompanied by two compliance spreadsheets.",
+      "field": "design_criteria.required_hydrologic_hydraulic_software"
+    },
+    {
+      "state_code": "VA",
+      "agency_category": "dep_deq",
+      "citing_slug": "chesapeake-va",
+      "citation_text": "and/or maintenance. 4. Acceptable BMP Facilities: Post construction BMPs can be either Non-Proprietary BMPs or Proprietary/Manufactured BMPs. DEQ is currently evaluating Proprietary/Manufactured BMP’s",
+      "field": "design_criteria.approved_bmp_categories"
+    },
+    {
+      "state_code": "VA",
+      "agency_category": "dep_deq",
+      "citing_slug": "chesapeake-va",
+      "citation_text": "Dry Detention Requirements shall meet the requirements of the Virginia Stormwater Management BMP Clearinghouse... Wet Detention Requirements shall meet the requirements of the Virginia Stormwater Mana",
+      "field": "design_criteria.approved_bmp_categories"
+    },
+    {
+      "state_code": "OH",
+      "agency_category": "dot",
+      "citing_slug": "columbus-oh",
+      "citation_text": "Stormwater Drainage Manual",
+      "field": "document_title"
+    },
+    {
+      "state_code": "OH",
+      "agency_category": "dot",
+      "citing_slug": "columbus-oh",
+      "citation_text": "Columbus Stormwater Drainage Manual June 2025 / Division of Sewerage and Drainage",
+      "field": "document_metadata.jurisdiction_name"
+    },
+    {
+      "state_code": "OH",
+      "agency_category": "dot",
+      "citing_slug": "columbus-oh",
+      "citation_text": "Columbus Stormwater Drainage Manual June 2025 / Division of Sewerage and Drainage",
+      "field": "document_metadata.jurisdiction_level"
+    },
+    {
+      "state_code": "OH",
+      "agency_category": "dot",
+      "citing_slug": "columbus-oh",
+      "citation_text": "Stormwater Drainage Manual",
+      "field": "document_metadata.document_title"
+    },
+    {
+      "state_code": "OH",
+      "agency_category": "dot",
+      "citing_slug": "columbus-oh",
+      "citation_text": "Effective August 26, 2025, the 2024 Stormwater Drainage Manual and the 1994 Erosion",
+      "field": "document_metadata.adoption_or_effective_date"
+    },
+    {
+      "state_code": "OH",
+      "agency_category": "dot",
+      "citing_slug": "columbus-oh",
+      "citation_text": "Stormwater Drainage Manual List of Updates June 2025",
+      "field": "document_metadata.last_revised_date"
+    },
+    {
+      "state_code": "TX",
+      "agency_category": "dep_deq",
+      "citing_slug": "corpus-christi-tx",
+      "citation_text": "Corpus Christi DDM Dec 2024 labeled draft appendix to IDM.",
+      "field": "review_notes"
+    },
+    {
+      "state_code": "MI",
+      "agency_category": "dep_deq",
+      "citing_slug": "detroit-mi",
+      "citation_text": "Extracted from local samples/queue/detroit-mi.txt (OCR/extraction truncates after mid-manual with garbage bytes; Chapters 1–4 and TOC BMP chapters were available). Performance standards and hydrologic",
+      "field": "review_notes"
+    },
+    {
+      "state_code": "MI",
+      "agency_category": "dep_deq",
+      "citing_slug": "detroit-mi",
+      "citation_text": "EGLE: Michigan Nonpoint Source Best Management Practices (BMP) Manual",
+      "field": "document_metadata.state_code"
+    },
+    {
+      "state_code": "DE",
+      "agency_category": "dep_deq",
+      "citing_slug": "dover-de",
+      "citation_text": "City of Dover capital MS4 follows DNREC Sediment and Stormwater standards",
+      "field": "document_metadata.jurisdiction_name"
+    },
+    {
+      "state_code": "NC",
+      "agency_category": "dep_deq",
+      "citing_slug": "durham-nc",
+      "citation_text": "Durham RGD; pair with City addendum to NC DEQ BMP manual for full SCM sizing.",
+      "field": "review_notes"
+    },
+    {
+      "state_code": "NC",
+      "agency_category": "dep_deq",
+      "citing_slug": "durham-nc",
+      "citation_text": "NC DEQ references",
+      "field": "document_metadata.state_code.page"
+    },
+    {
+      "state_code": "NC",
+      "agency_category": "dep_deq",
+      "citing_slug": "durham-nc",
+      "citation_text": "NC DEQ Archived Stormwater Design Manual",
+      "field": "document_metadata.relationship_to_state_manual"
+    },
+    {
+      "state_code": "TX",
+      "agency_category": "dep_deq",
+      "citing_slug": "el-paso-tx",
+      "citation_text": "Stormwater Design Manual",
+      "field": "document_title"
+    },
+    {
+      "state_code": "TX",
+      "agency_category": "dep_deq",
+      "citing_slug": "el-paso-tx",
+      "citation_text": "City of El Paso Stormwater Design Manual",
+      "field": "document_metadata.jurisdiction_name"
+    },
+    {
+      "state_code": "TX",
+      "agency_category": "dep_deq",
+      "citing_slug": "el-paso-tx",
+      "citation_text": "Stormwater Design Manual",
+      "field": "document_metadata.document_title"
+    },
+    {
+      "state_code": "TX",
+      "agency_category": "dep_deq",
+      "citing_slug": "el-paso-tx",
+      "citation_text": "Stormwater Design Manual",
+      "field": "document_metadata.relationship_to_state_manual"
+    },
+    {
+      "state_code": "PA",
+      "agency_category": "dep_deq",
+      "citing_slug": "erie-pa",
+      "citation_text": "DRAFT / Page 1-3 1.1 OVERVIEW OF PCSM MANUAL This PCSM Manual establishes DEP-approved procedures for conducting PCSM stormwater analyses and provides SCM standards that can be used for regulatory com",
+      "field": "document_metadata.relationship_to_state_manual"
+    },
+    {
+      "state_code": "WA",
+      "agency_category": "dot",
+      "citing_slug": "everett-wa",
+      "citation_text": "Municipality coverage via Ecology SWMMWW (Vancouver/Bellevue western WA pattern). Prefer city drainage manual if a durable public PDF is later found.",
+      "field": "review_notes"
+    },
+    {
+      "state_code": "AR",
+      "agency_category": "dep_deq",
+      "citing_slug": "fayetteville-ar",
+      "citation_text": "NWA Stormwater BMP Manual (Fayetteville MS4 / Northwest Arkansas)",
+      "field": "document_title"
+    },
+    {
+      "state_code": "AR",
+      "agency_category": "dep_deq",
+      "citing_slug": "fayetteville-ar",
+      "citation_text": "Municipality coverage via Northwest Arkansas regional BMP Manual.",
+      "field": "review_notes"
+    },
+    {
+      "state_code": "AR",
+      "agency_category": "dep_deq",
+      "citing_slug": "fayetteville-ar",
+      "citation_text": "City of Fayetteville is an NWA MS4 using the regional Stormwater BMP Manual",
+      "field": "document_metadata.jurisdiction_name"
+    },
+    {
+      "state_code": "SC",
+      "agency_category": "dep_deq",
+      "citing_slug": "greenville-sc",
+      "citation_text": "Placeholder using Columbia SC BMP manual as SC municipal GSMM pattern — replace with Greenville city manual when found.",
+      "field": "review_notes"
+    },
+    {
+      "state_code": "PA",
+      "agency_category": "dep_deq",
+      "citing_slug": "harrisburg-pa",
+      "citation_text": "DRAFT / Page 1-3 1.1 OVERVIEW OF PCSM MANUAL This PCSM Manual establishes DEP-approved procedures for conducting PCSM stormwater analyses and provides SCM standards that can be used for regulatory com",
+      "field": "document_metadata.relationship_to_state_manual"
+    },
+    {
+      "state_code": "TX",
+      "agency_category": "dot",
+      "citing_slug": "houston-tx",
+      "citation_text": "HouStorm - The City of Houston’s version of The Texas Department of Transportation’s (TxDOT) software. The program is available from the City.",
+      "field": "design_criteria.required_hydrologic_hydraulic_software"
+    },
+    {
+      "state_code": "NJ",
+      "agency_category": "dep_deq",
+      "citing_slug": "jersey-city-nj",
+      "citation_text": "Municipal SWMP adopting NJAC 7:8; numeric sizing primarily in state BMP manual / local ordinance. Pipeline excerpt repair removed 1 unlocated citation(s).",
+      "field": "review_notes"
+    },
+    {
+      "state_code": "WA",
+      "agency_category": "dep_deq",
+      "citing_slug": "lacey-wa",
+      "citation_text": "City of Lacey 2010 Stormwater Design Manual",
+      "field": "document_title"
+    },
+    {
+      "state_code": "WA",
+      "agency_category": "dep_deq",
+      "citing_slug": "lacey-wa",
+      "citation_text": "City of Lacey 2010 Stormwater Design Manual",
+      "field": "document_metadata.jurisdiction_name"
+    },
+    {
+      "state_code": "WA",
+      "agency_category": "dep_deq",
+      "citing_slug": "lacey-wa",
+      "citation_text": "City of Lacey 2010 Stormwater Design Manual",
+      "field": "document_metadata.document_title"
+    },
+    {
+      "state_code": "WA",
+      "agency_category": "dep_deq",
+      "citing_slug": "lacey-wa",
+      "citation_text": "The City of Lacey 2010 Stormwater Design Manual (SDM) is a completely revised and updated replacement for the 1994 Drainage Design and Erosion Control Manual for Lacey.",
+      "field": "document_metadata.version_or_edition"
+    },
+    {
+      "state_code": "LA",
+      "agency_category": "dot",
+      "citing_slug": "lafayette-la",
+      "citation_text": "Lafayette — coverage via Shreveport Drainage Manual as LA municipal pattern",
+      "field": "document_metadata.jurisdiction_name"
+    },
+    {
+      "state_code": "MI",
+      "agency_category": "dep_deq",
+      "citing_slug": "lansing-mi",
+      "citation_text": "Extracted from Lansing Stormwater Management Design Manual PDF text; truncated tables/layout noise; EGLE 0.9\" WQv is clear.",
+      "field": "review_notes"
+    },
+    {
+      "state_code": "MI",
+      "agency_category": "dep_deq",
+      "citing_slug": "lansing-mi",
+      "citation_text": "producing storms, which for the Lansing area has been designated by EGLE to be 0.9 inches of rainfall",
+      "field": "design_criteria.water_quality_volume_method"
+    },
+    {
+      "state_code": "KS",
+      "agency_category": "dep_deq",
+      "citing_slug": "lawrence-ks",
+      "citation_text": "City's adopted BMP manual. [Mid-America Regional Council and APWA Manual of Best Management Practices for Stormwater Quality - Sept. 2003 and subsequent updates]",
+      "field": "design_criteria.water_quality_volume_method"
+    },
+    {
+      "state_code": "MN",
+      "agency_category": "dep_deq",
+      "citing_slug": "minneapolis-mn",
+      "citation_text": "Municipal guide adopts MPCA Minnesota Stormwater Manual as the approved BMP design manual while stating city-specific rate, volume, and water-quality standards. Design storm depths in Table 4-3 are NO",
+      "field": "review_notes"
+    },
+    {
+      "state_code": "MN",
+      "agency_category": "dep_deq",
+      "citing_slug": "minneapolis-mn",
+      "citation_text": "The City of Minneapolis considers the Minnesota Stormwater Manual, prepared by the MPCA, to be the City's approved design manual",
+      "field": "document_metadata.relationship_to_state_manual"
+    },
+    {
+      "state_code": "VA",
+      "agency_category": "dep_deq",
+      "citing_slug": "norfolk-va",
+      "citation_text": "In addition to the requirements specified in the Virginia Stormwater Management Handbook and the Virginia Stormwater BMP Clearinghouse, the following requirements must be complied with when designing ",
+      "field": "document_metadata.relationship_to_state_manual"
+    },
+    {
+      "state_code": "VA",
+      "agency_category": "dep_deq",
+      "citing_slug": "norfolk-va",
+      "citation_text": "The total phosphorus load of new development projects shall not exceed 0.41 pounds per acre per year, as calculated pursuant to 9VAC25-875-590. Please verify alignment with the latest approved Virgini",
+      "field": "design_criteria.water_quality_volume_method"
+    },
+    {
+      "state_code": "VA",
+      "agency_category": "dep_deq",
+      "citing_slug": "norfolk-va",
+      "citation_text": "1D - Virginia Runoff Reduction Method (VRRM) Worksheets All VRRM calculations shall be performed using the 2011 Virginia bmp Clearinghouse Standards. The most current version of the worksheets may be ",
+      "field": "design_criteria.required_hydrologic_hydraulic_software"
+    },
+    {
+      "state_code": "VA",
+      "agency_category": "dep_deq",
+      "citing_slug": "norfolk-va",
+      "citation_text": "The BMPs listed on the Virginia Stormwater BMP Clearinghouse on the DEQ website are approved for use as necessary to effectively reduce the phosphorus load and runoff volume in accordance with the Vir",
+      "field": "design_criteria.approved_bmp_categories"
+    },
+    {
+      "state_code": "AR",
+      "agency_category": "dep_deq",
+      "citing_slug": "north-little-rock-ar",
+      "citation_text": "Construction-phase BMP manual for North Little Rock MS4 (Chapter 14). Explicitly states this edition focuses primarily on construction-phase controls; post-construction design storms, peak-flow method",
+      "field": "review_notes"
+    },
+    {
+      "state_code": "WA",
+      "agency_category": "dot",
+      "citing_slug": "olympia-wa",
+      "citation_text": "Municipality coverage via Ecology SWMMWW (Vancouver/Bellevue western WA pattern). Prefer city drainage manual if a durable public PDF is later found.",
+      "field": "review_notes"
+    },
+    {
+      "state_code": "NE",
+      "agency_category": "dep_deq",
+      "citing_slug": "omaha-ne",
+      "citation_text": "Chapter 8 of the Omaha Regional Stormwater Design Manual provides information about BMPs",
+      "field": "document_metadata.document_title"
+    },
+    {
+      "state_code": "PA",
+      "agency_category": "dep_deq",
+      "citing_slug": "pittsburgh-pa",
+      "citation_text": "Stormwater Design Manual",
+      "field": "document_title"
+    },
+    {
+      "state_code": "PA",
+      "agency_category": "dep_deq",
+      "citing_slug": "pittsburgh-pa",
+      "citation_text": "Pittsburgh Stormwater Design Manual; 2-inch / 95th percentile volume control confirmed.",
+      "field": "review_notes"
+    },
+    {
+      "state_code": "PA",
+      "agency_category": "dep_deq",
+      "citing_slug": "pittsburgh-pa",
+      "citation_text": "STORMWATER DESIGN MANUAL",
+      "field": "document_metadata.document_title"
+    },
+    {
+      "state_code": "TX",
+      "agency_category": "dot",
+      "citing_slug": "plano-tx",
+      "citation_text": "Highway Research Program • NCTCOG: North Central Texas Council of Governments • NRCS: National Resources Conservation Service • TAC: Texas Administrative Code • TCEQ: Texas Commission on Environmental",
+      "field": "document_metadata.state_code"
+    },
+    {
+      "state_code": "TX",
+      "agency_category": "dep_deq",
+      "citing_slug": "plano-tx",
+      "citation_text": "Stormwater Design Manual / Storm Drainage Design Manual",
+      "field": "document_metadata.document_title"
+    },
+    {
+      "state_code": "ME",
+      "agency_category": "dep_deq",
+      "citing_slug": "portland-me",
+      "citation_text": "City of Portland ME MS4 follows Maine Stormwater Design Manual Vol III",
+      "field": "document_metadata.jurisdiction_name"
+    },
+    {
+      "state_code": "NC",
+      "agency_category": "dep_deq",
+      "citing_slug": "raleigh-nc",
+      "citation_text": "Stormwater Design Manual",
+      "field": "document_title"
+    },
+    {
+      "state_code": "NC",
+      "agency_category": "dep_deq",
+      "citing_slug": "raleigh-nc",
+      "citation_text": "Raleigh SDM effective Nov 2, 2024; adopts/modifies NCDEQ SCM guidance. Confirm exact return-period list from hydrology chapter. Pipeline excerpt repair removed 5 unlocated citation(s).",
+      "field": "review_notes"
+    },
+    {
+      "state_code": "NC",
+      "agency_category": "dep_deq",
+      "citing_slug": "raleigh-nc",
+      "citation_text": "City of Raleigh Stormwater Design Manual",
+      "field": "document_metadata.jurisdiction_name"
+    },
+    {
+      "state_code": "NC",
+      "agency_category": "dep_deq",
+      "citing_slug": "raleigh-nc",
+      "citation_text": "Stormwater Design Manual",
+      "field": "document_metadata.document_title"
+    },
+    {
+      "state_code": "NC",
+      "agency_category": "dep_deq",
+      "citing_slug": "raleigh-nc",
+      "citation_text": "NCDEQ SCM Design Manual",
+      "field": "document_metadata.relationship_to_state_manual"
+    },
+    {
+      "state_code": "PA",
+      "agency_category": "dep_deq",
+      "citing_slug": "reading-pa",
+      "citation_text": "DRAFT / Page 1-3 1.1 OVERVIEW OF PCSM MANUAL This PCSM Manual establishes DEP-approved procedures for conducting PCSM stormwater analyses and provides SCM standards that can be used for regulatory com",
+      "field": "document_metadata.relationship_to_state_manual"
+    },
+    {
+      "state_code": "VA",
+      "agency_category": "dep_deq",
+      "citing_slug": "richmond-va",
+      "citation_text": "Virginia Department of Environmental Quality (DEQ)",
+      "field": "document_metadata.state_code"
+    },
+    {
+      "state_code": "NY",
+      "agency_category": "dep_deq",
+      "citing_slug": "rochester-ny",
+      "citation_text": "City of Rochester adopts NYSDEC Stormwater Management Design Manual for MS4/post-construction design",
+      "field": "document_metadata.jurisdiction_name"
+    },
+    {
+      "state_code": "MD",
+      "agency_category": "dep_deq",
+      "citing_slug": "rockville-md",
+      "citation_text": "Maryland Stormwater Design Manual (city MS4 / ESD)",
+      "field": "document_title"
+    },
+    {
+      "state_code": "MD",
+      "agency_category": "dep_deq",
+      "citing_slug": "rockville-md",
+      "citation_text": "City of Rockville MS4 follows Maryland Stormwater Design Manual",
+      "field": "document_metadata.jurisdiction_name"
+    },
+    {
+      "state_code": "CA",
+      "agency_category": "dep_deq",
+      "citing_slug": "san-jose-ca",
+      "citation_text": "C.3 Stormwater Handbook",
+      "field": "document_title"
+    },
+    {
+      "state_code": "PA",
+      "agency_category": "dep_deq",
+      "citing_slug": "scranton-pa",
+      "citation_text": "DRAFT / Page 1-3 1.1 OVERVIEW OF PCSM MANUAL This PCSM Manual establishes DEP-approved procedures for conducting PCSM stormwater analyses and provides SCM standards that can be used for regulatory com",
+      "field": "document_metadata.relationship_to_state_manual"
+    },
+    {
+      "state_code": "UT",
+      "agency_category": "dep_deq",
+      "citing_slug": "south-salt-lake-ut",
+      "citation_text": "South Salt Lake Stormwater Design Manual",
+      "field": "document_title"
+    },
+    {
+      "state_code": "UT",
+      "agency_category": "dep_deq",
+      "citing_slug": "south-salt-lake-ut",
+      "citation_text": "STORMWATER DESIGN MANUAL",
+      "field": "document_metadata.document_title"
+    },
+    {
+      "state_code": "IL",
+      "agency_category": "dep_deq",
+      "citing_slug": "springfield-il",
+      "citation_text": "Placeholder statewide model ordinance — replace when City of Springfield publishes a local drainage/stormwater design manual PDF.",
+      "field": "review_notes"
+    },
+    {
+      "state_code": "MO",
+      "agency_category": "dep_deq",
+      "citing_slug": "st-louis-mo",
+      "citation_text": "MSD relies upon Chapters 3 and 4 of the Maryland Department of the Environment’s (MDE), April 2000, Stormwater Design Manual",
+      "field": "document_metadata.document_title"
+    },
+    {
+      "state_code": "KS",
+      "agency_category": "dep_deq",
+      "citing_slug": "topeka-ks",
+      "citation_text": "independent — aligns with MARC/APWA BMP Manual and TMC 13.35",
+      "field": "document_metadata.relationship_to_state_manual"
+    },
+    {
+      "state_code": "NJ",
+      "agency_category": "dep_deq",
+      "citing_slug": "trenton-nj",
+      "citation_text": "New Jersey Stormwater BMP Manual / N.J.A.C. 7:8 (capital MS4)",
+      "field": "document_title"
+    },
+    {
+      "state_code": "NJ",
+      "agency_category": "dep_deq",
+      "citing_slug": "trenton-nj",
+      "citation_text": "Municipality coverage via NJDEP BMP Manual (Newark/Paterson pattern).",
+      "field": "review_notes"
+    },
+    {
+      "state_code": "NJ",
+      "agency_category": "dep_deq",
+      "citing_slug": "trenton-nj",
+      "citation_text": "City of Trenton MS4 follows NJDEP Stormwater BMP Manual",
+      "field": "document_metadata.jurisdiction_name"
+    },
+    {
+      "state_code": "NJ",
+      "agency_category": "dep_deq",
+      "citing_slug": "trenton-nj",
+      "citation_text": "N.J.A.C. 7:8-5.5 / NJDEP BMP Manual",
+      "field": "design_criteria.water_quality_volume_method.page"
+    },
+    {
+      "state_code": "DE",
+      "agency_category": "dep_deq",
+      "citing_slug": "wilmington-de",
+      "citation_text": "City of Wilmington DE MS4 follows DNREC Sediment and Stormwater standards",
+      "field": "document_metadata.jurisdiction_name"
+    },
+    {
+      "state_code": "NC",
+      "agency_category": "dep_deq",
+      "citing_slug": "winston-salem-nc",
+      "citation_text": "IDS is process/infrastructure-heavy; numeric post-construction criteria live mainly in Chapter 75 ordinance + NCDEQ manual. Consider supplementing with ordinance PDF later. Pipeline excerpt repair rem",
+      "field": "review_notes"
+    },
+    {
+      "state_code": "NC",
+      "agency_category": "dep_deq",
+      "citing_slug": "winston-salem-nc",
+      "citation_text": "properties shall be coordinated with NCDEQ to determine the presence of wetlands and/or jurisdictional waters prior to final approval. COMPLETENESS CERTIFICATION: I, , PE have reviewed the attached pl",
+      "field": "document_metadata.state_code"
+    },
+    {
+      "state_code": "NC",
+      "agency_category": "dep_deq",
+      "citing_slug": "winston-salem-nc",
+      "citation_text": "most current standards of the Land Quality Section of the NCDEQ",
+      "field": "document_metadata.relationship_to_state_manual"
+    },
+    {
+      "state_code": "NC",
+      "agency_category": "dep_deq",
+      "citing_slug": "winston-salem-nc",
+      "citation_text": "Stormwater Management Permit / NCDEQ",
+      "field": "design_criteria.approved_bmp_categories"
+    },
+    {
+      "state_code": "NY",
+      "agency_category": "dep_deq",
+      "citing_slug": "yonkers-ny",
+      "citation_text": "expected to increase by 10 to 20% (NYSDEC 2020). These adjustments should be factored into the design and construction of new stormwater management and control structures to ensure they sufficiently a",
+      "field": "document_metadata.jurisdiction_name"
+    },
+    {
+      "state_code": "OR",
+      "agency_category": "dep_deq",
+      "citing_slug": "oregon-manual",
+      "citation_text": "strict water quality regulations set for the Tualatin River basin by the Oregon Department of Environmental Quality (DEQ).",
+      "field": "document_metadata.state_code"
+    },
+    {
+      "state_code": "CA",
+      "agency_category": "dot",
+      "citing_slug": "orange-county-ca",
+      "citation_text": "Orange County Local Drainage Manual",
+      "field": "document_title"
+    },
+    {
+      "state_code": "CA",
+      "agency_category": "dot",
+      "citing_slug": "orange-county-ca",
+      "citation_text": "OC Local Drainage Manual is hydraulics-focused; post-construction LID/WQ primarily in OC DAMP/TGD — consider adding TGD next. Pipeline excerpt repair removed 1 unlocated citation(s).",
+      "field": "review_notes"
+    },
+    {
+      "state_code": "CA",
+      "agency_category": "dot",
+      "citing_slug": "orange-county-ca",
+      "citation_text": "County of Orange / Orange County Local Drainage Manual",
+      "field": "document_metadata.jurisdiction_name"
+    },
+    {
+      "state_code": "CA",
+      "agency_category": "dot",
+      "citing_slug": "orange-county-ca",
+      "citation_text": "Orange County Local Drainage Manual",
+      "field": "document_metadata.document_title"
+    },
+    {
+      "state_code": "KY",
+      "agency_category": "dep_deq",
+      "citing_slug": "kentucky-bmp",
+      "citation_text": "This PDF is KYTC BMP Manual Section 1 only—focused on construction-site BMP planning and technical specifications rather than statewide post-construction hydrologic sizing; local programs (MSD, LFUCG)",
+      "field": "review_notes"
+    },
+    {
+      "state_code": "MO",
+      "agency_category": "dep_deq",
+      "citing_slug": "kansas-city-marc-bmp",
+      "citation_text": "Regional MARC/APWA BMP manual for the Kansas City metropolitan area. Jurisdiction level coded as special_district because regional is not in schema. No required hydrologic software is mandated; comput",
+      "field": "review_notes"
+    },
+    {
+      "state_code": "MT",
+      "agency_category": "dep_deq",
+      "citing_slug": "billings-mt",
+      "citation_text": "Statewide MS4 post-construction guidance hosted by Billings for Montana’s MS4 municipalities (Billings, Bozeman, Butte, Great Falls, Helena, Kalispell, Missoula) with DEQ cooperation. 0.5-in RRV/80% T",
+      "field": "review_notes"
+    },
+    {
+      "state_code": "NY",
+      "agency_category": "dep_deq",
+      "citing_slug": "nyc-ny",
+      "citation_text": "meeting the NYC SWM criteria does not obviate the need for a full review of and compliance with NYSDEC SWMDM requirements, as applicable.",
+      "field": "document_metadata.relationship_to_state_manual"
+    },
+    {
+      "state_code": "AR",
+      "agency_category": "dep_deq",
+      "citing_slug": "arkansas-manual",
+      "citation_text": "Stormwater Pollution Prevention, Grading, and Erosion Control Best Management Practices Manual (NWA 2016 Stormwater BMP Manual)",
+      "field": "document_title"
+    },
+    {
+      "state_code": "AR",
+      "agency_category": "dep_deq",
+      "citing_slug": "arkansas-manual",
+      "citation_text": "STORMWATER POLLUTION PREVENTION, GRADING, AND EROSION CONTROL Best Management Practices Manual ... NWA 2016 Stormwater BMP Manual",
+      "field": "document_metadata.document_title"
+    },
+    {
+      "state_code": "AR",
+      "agency_category": "dep_deq",
+      "citing_slug": "arkansas-manual",
+      "citation_text": "Revised December 2016 ... NWA 2016 Stormwater BMP Manual",
+      "field": "document_metadata.version_or_edition"
+    },
+    {
+      "state_code": "MD",
+      "agency_category": "dep_deq",
+      "citing_slug": "prince-georges-county-md",
+      "citation_text": "Maryland Stormwater Design Manual (county implements ESD to MEP)",
+      "field": "document_title"
+    },
+    {
+      "state_code": "MD",
+      "agency_category": "dep_deq",
+      "citing_slug": "prince-georges-county-md",
+      "citation_text": "Maryland Stormwater Design Manual",
+      "field": "document_metadata.document_title"
+    },
+    {
+      "state_code": "MD",
+      "agency_category": "dep_deq",
+      "citing_slug": "prince-georges-county-md",
+      "citation_text": "How to Use the Manual The Maryland Stormwater Design Manual is provided in two volumes. This first volume provides designers a general overview on how to size, design, select and locate BMPs at a new ",
+      "field": "design_criteria.approved_bmp_categories"
+    },
+    {
+      "state_code": "UT",
+      "agency_category": "dep_deq",
+      "citing_slug": "salt-lake-city-ut",
+      "citation_text": "Utah Pollutant Discharge Elimination System (UPDES) Permit... Utah Department of Environmental Quality (DEQ), Division of Water Quality (DWQ)",
+      "field": "document_metadata.state_code"
+    },
+    {
+      "state_code": "HI",
+      "agency_category": "dep_deq",
+      "citing_slug": "hawaii-dot-pcbmp",
+      "citation_text": "Full DOT-HWYS post-construction BMP manual with explicit WQV/WQFR sizing formulas, Required Treatment Area methodology, and detailed Appendix A BMP designs. Design storm is expressed as 85th-percentil",
+      "field": "review_notes"
+    },
+    {
+      "state_code": "WY",
+      "agency_category": "dep_deq",
+      "citing_slug": "wy-wydot-field",
+      "citation_text": "In Wyoming, the Department of Environmental Quality (DEQ) implements the storm water program under the Wyoming Pollutant Discharge Elimination System (WYPDES).",
+      "field": "document_metadata.state_code"
+    }
+  ]
+}

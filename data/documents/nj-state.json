@@ -7,10 +7,15 @@
     "version_or_edition": "Chapter 5: July 2023; Chapter 9.7: January 2026",
     "adoption_or_effective_date": "2023-07",
     "last_revised_date": "2026-01",
-    "relationship_to_state_manual": "independent"
+    "relationship_to_state_manual": "independent",
+    "issuing_agency_category": "dep_deq"
   },
   "design_criteria": {
-    "design_storm_return_periods_years": [2, 10, 100],
+    "design_storm_return_periods_years": [
+      2,
+      10,
+      100
+    ],
     "water_quality_volume_method": "NJDEP Water Quality Design Storm (WQDS): 1.25 inches of rain falling nonuniformly over 2 hours (N.J.A.C. 7:8-5.5). NRCS methodology is used to compute WQDS runoff volume, peak rate, and hydrograph; BMPs such as small-scale bioretention must store/treat the entire WQDS volume.",
     "peak_flow_calculation_method": [
       "USDA NRCS methodology (NRCS Runoff Equation and Dimensionless Unit Hydrograph; NEH Part 630 Hydrology Chapters 7, 9, 10, 15, and 16)",

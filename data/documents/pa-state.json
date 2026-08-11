@@ -7,7 +7,8 @@
     "version_or_edition": "January 28, 2023 / DRAFT",
     "adoption_or_effective_date": null,
     "last_revised_date": "2023-01-28",
-    "relationship_to_state_manual": "independent"
+    "relationship_to_state_manual": "independent",
+    "issuing_agency_category": "dep_deq"
   },
   "design_criteria": {
     "design_storm_return_periods_years": [

@@ -1,0 +1,66 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "Maine",
+    "jurisdiction_level": "state",
+    "state_code": "ME",
+    "document_title": "MaineDOT Highway Program §7 Drainage Design Practices & Procedures",
+    "version_or_edition": null,
+    "adoption_or_effective_date": null,
+    "last_revised_date": null,
+    "relationship_to_state_manual": "independent",
+    "issuing_agency_category": "dot"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [
+      10,
+      50,
+      100
+    ],
+    "water_quality_volume_method": null,
+    "peak_flow_calculation_method": [
+      "Rational Method",
+      "USGS regression equations"
+    ],
+    "required_hydrologic_hydraulic_software": [
+      "HydroCAD"
+    ],
+    "approved_bmp_categories": []
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "Maine",
+      "page_or_section": "Title / header"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "MaineDOT Highway Program §7 Drainage Design Practices & Procedures",
+      "page_or_section": "Title / header"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "(the one percent) the return period is 100 years. (Hydraulic Engineering Circular (HEC) 17) The recommended design shall be bas",
+      "page_or_section": null
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "vaporated, infiltrated, and stored. The Rational Method uses the runoff coefficient, C, to capture these losses, C = percent of",
+      "page_or_section": null
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "medium",
+    "needs_human_review": true,
+    "review_notes": "Heuristic agency extract from prepared text. MaineDOT Highway Program §7 Drainage Design Practices & Procedures (2021)",
+    "fields_not_found": [
+      "design_criteria.water_quality_volume_method",
+      "design_criteria.approved_bmp_categories"
+    ]
+  },
+  "source": {
+    "document_url": "https://www.maine.gov/tools/whatsnew/attach.php?id=816916&an=1",
+    "landing_page_url": "https://www.maine.gov/dot/programs-services/highway/highway-engineering",
+    "retrieved_at": "2026-08-11T17:59:10.624Z",
+    "original_filename": "me-dot-drainage.pdf"
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "Idaho",
+    "jurisdiction_level": "state",
+    "state_code": "ID",
+    "document_title": "ITD Roadway Design Manual Section 600 Hydraulics",
+    "version_or_edition": null,
+    "adoption_or_effective_date": null,
+    "last_revised_date": null,
+    "relationship_to_state_manual": "independent",
+    "issuing_agency_category": "dot"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [
+      10,
+      25,
+      50,
+      100,
+      500
+    ],
+    "water_quality_volume_method": null,
+    "peak_flow_calculation_method": [
+      "Rational Method",
+      "NRCS / SCS Curve Number (TR-55)",
+      "USGS regression equations"
+    ],
+    "required_hydrologic_hydraulic_software": [
+      "HY-8"
+    ],
+    "approved_bmp_categories": []
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "Idaho",
+      "page_or_section": "Title / header"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "ITD Roadway Design Manual Section 600 Hydraulics",
+      "page_or_section": "Title / header"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "y Methods 625.00- Design Floods 625.01- 100-Year Flood 625.02- Scour Review Flood 630.00- Permits 630.01- Joint Application for",
+      "page_or_section": null
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "10 square miles • NRCS TR-55 Method. • Rational Method. Is generally used for storm sewer design and is limited to small waters",
+      "page_or_section": null
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "medium",
+    "needs_human_review": true,
+    "review_notes": "Heuristic agency extract from prepared text. ITD Roadway Design Manual Section 600 Hydraulics",
+    "fields_not_found": [
+      "design_criteria.water_quality_volume_method",
+      "design_criteria.approved_bmp_categories"
+    ]
+  },
+  "source": {
+    "document_url": "https://apps.itd.idaho.gov/apps/manuals/roadwaydesign/files/RoadwayDesign600.pdf",
+    "landing_page_url": "https://apps.itd.idaho.gov/apps/manuals/roadwaydesign/files/Roadwaydesignprintable.pdf",
+    "retrieved_at": "2026-08-11T17:59:10.617Z",
+    "original_filename": "id-itd-drainage.pdf"
+  }
+}

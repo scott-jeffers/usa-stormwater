@@ -1,0 +1,82 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "Delaware",
+    "jurisdiction_level": "state",
+    "state_code": "DE",
+    "document_title": "DelDOT Road Design Manual Ch.6 Drainage and Stormwater Management",
+    "version_or_edition": null,
+    "adoption_or_effective_date": null,
+    "last_revised_date": null,
+    "relationship_to_state_manual": "independent",
+    "issuing_agency_category": "dot"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [
+      2,
+      5,
+      10,
+      25,
+      50,
+      100,
+      500
+    ],
+    "water_quality_volume_method": null,
+    "peak_flow_calculation_method": [
+      "Rational Method",
+      "NRCS / SCS Curve Number (TR-55)",
+      "TR-20",
+      "HEC-HMS",
+      "HEC-RAS"
+    ],
+    "required_hydrologic_hydraulic_software": [
+      "HEC-HMS",
+      "HEC-RAS",
+      "PondPack"
+    ],
+    "approved_bmp_categories": [
+      "Bioretention",
+      "Filter Strip"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "Delaware",
+      "page_or_section": "Title / header"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "DelDOT Road Design Manual Ch.6 Drainage and Stormwater Management",
+      "page_or_section": "Title / header"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "http://msc.fema.gov), if available, for 100-year flood plain location and elevation; • Existing drainage facilities with design",
+      "page_or_section": null
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "ds of hydrological analysis include the Rational Method; TR-20 Project Formulation Hydrology Program System; TR- 55 Urban Hydrol",
+      "page_or_section": null
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Bioretention, Filter Strip",
+      "page_or_section": null
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "medium",
+    "needs_human_review": true,
+    "review_notes": "Heuristic agency extract from prepared text. DelDOT Road Design Manual Ch.6 Drainage and Stormwater Management",
+    "fields_not_found": [
+      "design_criteria.water_quality_volume_method"
+    ]
+  },
+  "source": {
+    "document_url": "https://deldot.gov/Publications/manuals/road_design/pdfs/06_drainage_stormwater_mgmt.pdf",
+    "landing_page_url": "https://roaddesignmanual.deldot.gov/index.php/Home",
+    "retrieved_at": "2026-08-11T17:59:10.579Z",
+    "original_filename": "de-deldot-drainage.pdf"
+  }
+}

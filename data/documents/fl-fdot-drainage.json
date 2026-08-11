@@ -1,0 +1,70 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "Florida Department of Transportation (FDOT)",
+    "jurisdiction_level": "state",
+    "state_code": "FL",
+    "document_title": "FDOT Drainage Manual",
+    "version_or_edition": "January 2025",
+    "adoption_or_effective_date": null,
+    "last_revised_date": null,
+    "relationship_to_state_manual": "independent",
+    "issuing_agency_category": "dot"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [
+      2,
+      5,
+      10,
+      25,
+      50,
+      100,
+      500
+    ],
+    "water_quality_volume_method": null,
+    "peak_flow_calculation_method": [
+      "Rational Method",
+      "HEC-RAS"
+    ],
+    "required_hydrologic_hydraulic_software": [
+      "HEC-RAS"
+    ],
+    "approved_bmp_categories": []
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "Florida Department of Transportation (FDOT)",
+      "page_or_section": "Title / header"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "FDOT Drainage Manual",
+      "page_or_section": "Title / header"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "dian, and Interceptor Ditches or Swales 10-year Outfalls 25-year Canals 25-year Temporary Roadside and Median Ditches or Swales",
+      "page_or_section": null
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "sion Equations developed by the USGS b. Rational Equation for drainage areas up to 600 acres c. For outfalls from stormwater man",
+      "page_or_section": null
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "medium",
+    "needs_human_review": true,
+    "review_notes": "Heuristic agency extract from prepared text. FDOT Drainage Manual January 2025",
+    "fields_not_found": [
+      "design_criteria.water_quality_volume_method",
+      "design_criteria.approved_bmp_categories"
+    ]
+  },
+  "source": {
+    "document_url": "https://fdotwww.blob.core.windows.net/sitefinity/docs/default-source/roadway/drainage/files/drainagemanual2025.pdf",
+    "landing_page_url": "https://www.fdot.gov/roadway/drainage/drainage-history",
+    "retrieved_at": "2026-08-11T17:21:05.990Z",
+    "original_filename": "fl-fdot-drainage.pdf"
+  }
+}

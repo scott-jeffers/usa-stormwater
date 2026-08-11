@@ -7,7 +7,8 @@
     "version_or_edition": "2016 Edition",
     "adoption_or_effective_date": null,
     "last_revised_date": null,
-    "relationship_to_state_manual": "independent"
+    "relationship_to_state_manual": "independent",
+    "issuing_agency_category": "dep_deq"
   },
   "design_criteria": {
     "design_storm_return_periods_years": [

@@ -7,10 +7,15 @@
     "version_or_edition": "2024 Edition",
     "adoption_or_effective_date": "2024",
     "last_revised_date": "2024",
-    "relationship_to_state_manual": "independent"
+    "relationship_to_state_manual": "independent",
+    "issuing_agency_category": "dep_deq"
   },
   "design_criteria": {
-    "design_storm_return_periods_years": [2, 10, 100],
+    "design_storm_return_periods_years": [
+      2,
+      10,
+      100
+    ],
     "water_quality_volume_method": "Initial Storm Water Facility must infiltrate, evapotranspire, and/or capture for reuse post-development runoff from the first 0.5 inches of rainfall on impervious areas (V = 0.5 × Aimp / 12). For Standard Plans, BMPs designed per the Montana Post-Construction Storm Water BMP Design Manual may satisfy this volume if they treat/remove 80% TSS. Simplified Plan retention may use 250 ft³ per 1,000 ft² impervious (min 750 ft³) or Appendix B for the 100-year storm.",
     "peak_flow_calculation_method": [
       "Rational Method",

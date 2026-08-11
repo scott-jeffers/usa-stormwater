@@ -1,0 +1,72 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "Kentucky",
+    "jurisdiction_level": "state",
+    "state_code": "KY",
+    "document_title": "KYTC Drainage Guidance Manual",
+    "version_or_edition": null,
+    "adoption_or_effective_date": null,
+    "last_revised_date": null,
+    "relationship_to_state_manual": "independent",
+    "issuing_agency_category": "dot"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [
+      100
+    ],
+    "water_quality_volume_method": null,
+    "peak_flow_calculation_method": [
+      "NRCS / SCS Curve Number (TR-55)",
+      "HEC-RAS"
+    ],
+    "required_hydrologic_hydraulic_software": [
+      "HydroCAD",
+      "HEC-RAS"
+    ],
+    "approved_bmp_categories": [
+      "Detention Basin",
+      "Retention Basin"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "Kentucky",
+      "page_or_section": "Title / header"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "KYTC Drainage Guidance Manual",
+      "page_or_section": "Title / header"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "loodplain.  The predicted value of the 100-year (or “base”) flood serves as the present engineering standard for evaluating flo",
+      "page_or_section": null
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "ational Resources Conservation Service (NRCS) NRCS has developed hydrologic and hydraulic-related programs, such as the TR-5",
+      "page_or_section": null
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Detention Basin, Retention Basin",
+      "page_or_section": null
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "medium",
+    "needs_human_review": true,
+    "review_notes": "Heuristic agency extract from prepared text. KYTC Drainage Guidance Manual — DR-100 Introduction (chapter set)",
+    "fields_not_found": [
+      "design_criteria.water_quality_volume_method"
+    ]
+  },
+  "source": {
+    "document_url": "https://transportation.ky.gov/Highway-Design/Drainage%20Manual/DR%20100%20Introduction%20(Draft).pdf",
+    "landing_page_url": "https://transportation.ky.gov/Highway-Design/Pages/Drainage.aspx",
+    "retrieved_at": "2026-08-11T17:59:10.602Z",
+    "original_filename": "ky-kytc-drainage.pdf"
+  }
+}

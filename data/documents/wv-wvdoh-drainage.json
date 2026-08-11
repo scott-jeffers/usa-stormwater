@@ -1,0 +1,77 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "West Virginia",
+    "jurisdiction_level": "state",
+    "state_code": "WV",
+    "document_title": "WVDOH Drainage Manual 3rd Ed.",
+    "version_or_edition": null,
+    "adoption_or_effective_date": null,
+    "last_revised_date": null,
+    "relationship_to_state_manual": "independent",
+    "issuing_agency_category": "dot"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [
+      2,
+      5,
+      10,
+      25,
+      50,
+      100,
+      500
+    ],
+    "water_quality_volume_method": null,
+    "peak_flow_calculation_method": [
+      "Rational Method",
+      "NRCS / SCS Curve Number (TR-55)",
+      "TR-20",
+      "HEC-HMS",
+      "HEC-RAS",
+      "Modified Rational Method"
+    ],
+    "required_hydrologic_hydraulic_software": [
+      "HydroCAD",
+      "HEC-HMS",
+      "HEC-RAS",
+      "HY-8"
+    ],
+    "approved_bmp_categories": []
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "West Virginia",
+      "page_or_section": "Title / header"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "WVDOH Drainage Manual 3rd Ed.",
+      "page_or_section": "Title / header"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "nage structures shall be designed for a 10-year flood (exceedence probability of 10 percent). PAGE 2-2 ADDENDUM 1 2/2012 CHA",
+      "page_or_section": null
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "ment through clearly stated reasons and rationale for specific design decisions. 3.4 RESPONSIBILITY The designer is responsible",
+      "page_or_section": null
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "medium",
+    "needs_human_review": true,
+    "review_notes": "Heuristic agency extract from prepared text. WVDOH Drainage Manual 3rd Ed. (2007) with Addendum 9-23-13",
+    "fields_not_found": [
+      "design_criteria.water_quality_volume_method",
+      "design_criteria.approved_bmp_categories"
+    ]
+  },
+  "source": {
+    "document_url": "https://transportation.wv.gov/highways/engineering/Manuals/Drainage/WVDOH%202007%20Drainage%20Manual%20with%20Addendum%209-23-13.pdf",
+    "landing_page_url": "https://transportation.wv.gov/highways/engineering/Pages/Manuals.aspx",
+    "retrieved_at": "2026-08-11T17:59:28.857Z",
+    "original_filename": "wv-wvdoh-drainage.pdf"
+  }
+}

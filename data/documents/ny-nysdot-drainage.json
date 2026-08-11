@@ -1,0 +1,71 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "New York",
+    "jurisdiction_level": "state",
+    "state_code": "NY",
+    "document_title": "NYSDOT Highway Design Manual Chapter 8",
+    "version_or_edition": null,
+    "adoption_or_effective_date": null,
+    "last_revised_date": null,
+    "relationship_to_state_manual": "independent",
+    "issuing_agency_category": "dot"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [
+      2,
+      25,
+      50,
+      100,
+      500
+    ],
+    "water_quality_volume_method": null,
+    "peak_flow_calculation_method": [
+      "Rational Method",
+      "NRCS / SCS Curve Number (TR-55)",
+      "TR-20",
+      "HEC-HMS",
+      "USGS regression equations"
+    ],
+    "required_hydrologic_hydraulic_software": [
+      "HEC-HMS"
+    ],
+    "approved_bmp_categories": []
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "New York",
+      "page_or_section": "Title / header"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "NYSDOT Highway Design Manual Chapter 8",
+      "page_or_section": "Title / header"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "lustrates the flood hazard area and the 100 year flood plain. HIGHWAY DRAINAGE 8-13 Exhibit 8-2 Flood Hazard Area From FEMA 480",
+      "page_or_section": null
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "f Runoff Coefficient (C) for Use in the Rational Method ........................................ 26 Exhibit 8-5 k Values for Var",
+      "page_or_section": null
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "medium",
+    "needs_human_review": true,
+    "review_notes": "Heuristic agency extract from prepared text. NYSDOT Highway Design Manual Chapter 8 — Highway Drainage",
+    "fields_not_found": [
+      "design_criteria.water_quality_volume_method",
+      "design_criteria.approved_bmp_categories"
+    ]
+  },
+  "source": {
+    "document_url": "https://www.dot.ny.gov/divisions/engineering/design/dqab/hdm/hdm-repository/chapt_08.pdf",
+    "landing_page_url": "https://www.dot.ny.gov/divisions/engineering/design/dqab/hdm/chapter-8",
+    "retrieved_at": "2026-08-11T17:59:10.600Z",
+    "original_filename": "ny-nysdot-drainage.pdf"
+  }
+}

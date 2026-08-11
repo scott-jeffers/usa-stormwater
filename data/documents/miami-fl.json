@@ -1,7 +1,7 @@
 {
   "document_metadata": {
-    "jurisdiction_name": "South Florida Water Management District / Miami-Dade",
-    "jurisdiction_level": "county",
+    "jurisdiction_name": "City of Miami / Miami-Dade (SFWMD criteria)",
+    "jurisdiction_level": "municipality",
     "state_code": "FL",
     "document_title": "Environmental Resource Permit Applicant's Handbook Volume II For Use Within the Geographic Limits of the South Florida Water Management District",
     "version_or_edition": "AH Vol. II (6/28/24)",
@@ -10,7 +10,11 @@
     "relationship_to_state_manual": "independent"
   },
   "design_criteria": {
-    "design_storm_return_periods_years": [5, 25, 100],
+    "design_storm_return_periods_years": [
+      5,
+      25,
+      100
+    ],
     "water_quality_volume_method": "Water quality treatment volumes and pollutant load-reduction requirements are set forth in ERP Applicant's Handbook Volume I; Volume II adds SFWMD-specific retention/detention criteria (e.g., commercial/industrial projects provide a minimum of 20% of the AH Vol. I load reduction in a retention BMP; exfiltration trenches sized for AH Vol. I water quality requirements exfiltrated over one hour prior to overflow; treatment volume in retention/exfiltration systems is not discharged to surface waters).",
     "peak_flow_calculation_method": [
       "Pre- and post-development runoff hydrographs with detention routing (stage-storage-discharge)",
@@ -138,7 +142,7 @@
   "extraction_quality": {
     "confidence": "high",
     "needs_human_review": true,
-    "review_notes": "Regional SFWMD ERP Applicant's Handbook Vol II (not a Miami city-only ordinance). Jurisdiction coded as county per task guidance to reflect Miami-Dade regional coverage; SFWMD is a water management district. Numeric WQ treatment depths live primarily in AH Vol. I (referenced throughout Vol. II).",
+    "review_notes": "Municipal map coverage via SFWMD ERP AH Vol II. Canonical special_district record: fl-sfwmd-erp-ah2. Previously mislabeled as county; reclassified to municipality proxy. Regional SFWMD ERP Applicant's Handbook Vol II (not a Miami city-only ordinance). Jurisdiction coded as county per task guidance to reflect Miami-Dade regional coverage; SFWMD is a water management district. Numeric WQ treatment depths live primarily in AH Vol. I (referenced throughout Vol. II).",
     "fields_not_found": [
       "design_criteria.required_hydrologic_hydraulic_software"
     ]

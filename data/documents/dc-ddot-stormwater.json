@@ -1,0 +1,72 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "District of Columbia",
+    "jurisdiction_level": "state",
+    "state_code": "DC",
+    "document_title": "DDOT Green Infrastructure Standards",
+    "version_or_edition": null,
+    "adoption_or_effective_date": null,
+    "last_revised_date": null,
+    "relationship_to_state_manual": "independent",
+    "issuing_agency_category": "dot"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [
+      2
+    ],
+    "water_quality_volume_method": null,
+    "peak_flow_calculation_method": [
+      "NRCS / SCS Curve Number (TR-55)"
+    ],
+    "required_hydrologic_hydraulic_software": [],
+    "approved_bmp_categories": [
+      "Bioretention",
+      "Infiltration Basin",
+      "Filter Strip",
+      "Permeable Pavement",
+      "Retention Basin"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "District of Columbia",
+      "page_or_section": "Title / header"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "DDOT Green Infrastructure Standards",
+      "page_or_section": "Title / header"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "2-year design storms referenced",
+      "page_or_section": null
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "ands viii. Soil boundary lines based on NRCS Hydrologic Soil Group (A, B, C, D, Urban Land) ix. Hot spots (gas stations, con",
+      "page_or_section": null
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Bioretention, Infiltration Basin, Filter Strip, Permeable Pavement",
+      "page_or_section": null
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "medium",
+    "needs_human_review": true,
+    "review_notes": "Heuristic agency extract from prepared text. DDOT Green Infrastructure Standards (2014)",
+    "fields_not_found": [
+      "design_criteria.water_quality_volume_method",
+      "design_criteria.required_hydrologic_hydraulic_software"
+    ]
+  },
+  "source": {
+    "document_url": "https://ddot.dc.gov/sites/default/files/dc/sites/ddot/publication/attachments/2014-Final%20DDOT%20Green%20Infrastructure%20Standards.pdf",
+    "landing_page_url": "https://ddot.dc.gov/GreenInfrastructure",
+    "retrieved_at": "2026-08-11T17:59:10.614Z",
+    "original_filename": "dc-ddot-stormwater.pdf"
+  }
+}

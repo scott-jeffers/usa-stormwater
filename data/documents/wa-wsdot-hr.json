@@ -1,0 +1,59 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "Washington State Department of Transportation (WSDOT)",
+    "jurisdiction_level": "state",
+    "state_code": "WA",
+    "document_title": "Highway Runoff Manual M 31-16 — Chapter 3 Minimum Requirements",
+    "version_or_edition": "April 2014 (M 31-16.04)",
+    "adoption_or_effective_date": null,
+    "last_revised_date": null,
+    "relationship_to_state_manual": "independent",
+    "issuing_agency_category": "dot"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [
+      2,
+      25,
+      50,
+      100
+    ],
+    "water_quality_volume_method": null,
+    "peak_flow_calculation_method": [],
+    "required_hydrologic_hydraulic_software": [],
+    "approved_bmp_categories": []
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "Washington State Department of Transportation (WSDOT)",
+      "page_or_section": "Title / header"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "Highway Runoff Manual M 31-16 — Chapter 3 Minimum Requirements",
+      "page_or_section": "Title / header"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "auses a 0.1 cfs or more increase in the 100-year recurrence interval flow? Chapter 3 Minimum Requirements WSDOT Highway Runoff M",
+      "page_or_section": null
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "medium",
+    "needs_human_review": true,
+    "review_notes": "Heuristic agency extract from prepared text. WSDOT Highway Runoff Manual Ch3 Minimum Requirements (2014). Full HRM PDF ~240MB deferred.",
+    "fields_not_found": [
+      "design_criteria.peak_flow_calculation_method",
+      "design_criteria.water_quality_volume_method",
+      "design_criteria.required_hydrologic_hydraulic_software",
+      "design_criteria.approved_bmp_categories"
+    ]
+  },
+  "source": {
+    "document_url": "https://www.wsdot.wa.gov/publications/fulltext/hydraulics/hrm/chap3_2014.pdf",
+    "landing_page_url": "https://wsdot.wa.gov/engineering-standards/all-manuals-and-standards/manuals/highway-runoff-manual",
+    "retrieved_at": "2026-08-11T17:21:06.028Z",
+    "original_filename": "wa-wsdot-hr.pdf"
+  }
+}

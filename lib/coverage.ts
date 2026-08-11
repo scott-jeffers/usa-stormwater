@@ -30,6 +30,8 @@ export interface ManifestJob {
   landingPageUrl: string | null;
   cityCoords: [number, number] | null;
   notes?: string;
+  agencyHint?: "dot" | "dep_deq" | null;
+  scopeHint?: string | null;
 }
 
 export interface ProgressEntry {

@@ -1,0 +1,76 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "Utah",
+    "jurisdiction_level": "state",
+    "state_code": "UT",
+    "document_title": "UDOT Drainage Design Manual of Instruction",
+    "version_or_edition": null,
+    "adoption_or_effective_date": null,
+    "last_revised_date": null,
+    "relationship_to_state_manual": "independent",
+    "issuing_agency_category": "dot"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [
+      10,
+      25,
+      50,
+      100
+    ],
+    "water_quality_volume_method": null,
+    "peak_flow_calculation_method": [
+      "Rational Method",
+      "NRCS / SCS Curve Number (TR-55)"
+    ],
+    "required_hydrologic_hydraulic_software": [
+      "HY-8"
+    ],
+    "approved_bmp_categories": [
+      "Infiltration Basin",
+      "Infiltration Trench",
+      "Detention Basin",
+      "Retention Basin"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "Utah",
+      "page_or_section": "Title / header"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "UDOT Drainage Design Manual of Instruction",
+      "page_or_section": "Title / header"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "he Department’s drainage system for the 10 year storm event must not exceed 0.2 cu ft/sec/acre of developed area. Size the stor",
+      "page_or_section": null
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "........................... 4-2 4.2.3.3 Rational Method ........................................................................",
+      "page_or_section": null
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Infiltration Basin, Infiltration Trench, Detention Basin, Retention Basin",
+      "page_or_section": null
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "medium",
+    "needs_human_review": true,
+    "review_notes": "Heuristic agency extract from prepared text. UDOT Drainage Design Manual of Instruction (Google Drive export)",
+    "fields_not_found": [
+      "design_criteria.water_quality_volume_method"
+    ]
+  },
+  "source": {
+    "document_url": "https://drive.google.com/uc?export=download&id=1sxmhKziSdENiN03kQUhUlu8xyAHMdJol",
+    "landing_page_url": "https://connect.udot.utah.gov/docs/drainage-design-manual-of-instruction/",
+    "retrieved_at": "2026-08-11T17:59:10.541Z",
+    "original_filename": "ut-udot-drainage.pdf"
+  }
+}

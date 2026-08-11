@@ -1,0 +1,63 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "Iowa",
+    "jurisdiction_level": "state",
+    "state_code": "IA",
+    "document_title": "Iowa DOT Design Manual Ch4 Drainage",
+    "version_or_edition": null,
+    "adoption_or_effective_date": null,
+    "last_revised_date": null,
+    "relationship_to_state_manual": "independent",
+    "issuing_agency_category": "dot"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [
+      10,
+      100
+    ],
+    "water_quality_volume_method": null,
+    "peak_flow_calculation_method": [],
+    "required_hydrologic_hydraulic_software": [],
+    "approved_bmp_categories": [
+      "Detention Basin"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "Iowa",
+      "page_or_section": "Title / header"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "Iowa DOT Design Manual Ch4 Drainage",
+      "page_or_section": "Title / header"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "d in any year (often referred to as the 10 year storm). Minor systems consists of curbs, gutters, inlets, pipe and other condui",
+      "page_or_section": null
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Detention Basin",
+      "page_or_section": null
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "medium",
+    "needs_human_review": true,
+    "review_notes": "Heuristic agency extract from prepared text. Iowa DOT Design Manual Ch4 Drainage — §4A-01 intro (chapter set)",
+    "fields_not_found": [
+      "design_criteria.peak_flow_calculation_method",
+      "design_criteria.water_quality_volume_method",
+      "design_criteria.required_hydrologic_hydraulic_software"
+    ]
+  },
+  "source": {
+    "document_url": "https://documents.iowa.gov/Home/Download/9592853",
+    "landing_page_url": "https://iowadot.gov/design-manual/chapter-4-drainage",
+    "retrieved_at": "2026-08-11T17:59:10.615Z",
+    "original_filename": "ia-dot-drainage.pdf"
+  }
+}

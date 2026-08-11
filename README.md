@@ -106,6 +106,32 @@ npm run coverage:fetch-targets -- --epa-csv=path/to/export.csv
 
 Pick a P1 gap, add a manifest job with PDF + landing page URLs, then run `prepare:queue`.
 
+## Agency manuals (DOT + DEP/DEQ)
+
+Coverage above is **jurisdiction-centric** (cities/capitals). To find missing **statewide agency** manuals (DOT drainage manuals, DEP/DEQ design handbooks):
+
+```bash
+npm run agency:report
+npm run agency:report -- --category dot
+npm run agency:report -- --state VA
+
+npm run agency:discover -- --state TX --category dot
+npm run agency:discover -- --limit 10 --dry-run
+```
+
+Writes `data/agency-targets/REPORT.md`, `gaps.json`, and (for discover) `candidates.json`. Review candidates, then add approved URLs to `data/queue/manifest.json` with optional `agencyHint` (`dot` | `dep_deq`) and `scopeHint`. Do **not** auto-ingest.
+
+Cursor agents: use the project skill `.cursor/skills/agency-manual-discovery/SKILL.md` for the state-by-state research loop.
+
+Backfill agency tags on existing documents:
+
+```bash
+npm run agency:backfill -- --dry-run
+npm run agency:backfill
+```
+
+DOT manuals show an amber highway badge in the dashboard; filter with **Agency → DOT**.
+
 ## One-time Netlify setup (custom domain)
 
 `netlify.toml` is already in the repo, so connecting GitHub is enough for builds.
@@ -126,7 +152,7 @@ Do not paste API keys into Netlify env settings for this project.
 ## Dashboard features
 
 - **Search** by jurisdiction name or document title.
-- **Filters** by jurisdiction level, state, confidence, and "needs review only".
+- **Filters** by jurisdiction level, agency (DOT / DEP·DEQ), state, confidence, and "needs review only".
 - **Coverage map** — clickable US map; city dots for municipalities with coords.
 - **Group by state** — flat table or state-grouped sections.
 - **Detail pages** — each field with verbatim evidence, source PDF / agency links, related manuals in-state.

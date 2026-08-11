@@ -1,0 +1,107 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "Northwest Florida Water Management District (NWFWMD)",
+    "jurisdiction_level": "special_district",
+    "state_code": "FL",
+    "document_title": "Environmental Resource Permit Applicant's Handbook Volume II (Northwest Florida Water Management District)",
+    "version_or_edition": "June 28, 2024",
+    "adoption_or_effective_date": "2024-06-28",
+    "last_revised_date": "2024-06-28",
+    "relationship_to_state_manual": "adopts_state_manual_directly"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [
+      10,
+      100
+    ],
+    "water_quality_volume_method": "NWFWMD ERP AH Vol II stormwater quality criteria (Parts II/IV/V) including retention system treatment volume and additional quality standards. Quantity/flood criteria include 10-year floodplain storage and 100-year floodway conveyance limits.",
+    "peak_flow_calculation_method": [
+      "Stormwater quantity rate and volume controls (Part III)",
+      "Retention / detention routing",
+      "Floodplain / floodway conveyance checks"
+    ],
+    "required_hydrologic_hydraulic_software": [],
+    "approved_bmp_categories": [
+      "Retention systems",
+      "Detention systems",
+      "On-line and off-line stormwater systems",
+      "Stormwater quantity / flood control facilities"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "Northwest Florida Water Management District (NWFWMD)",
+      "page_or_section": "Title / district handbook"
+    },
+    {
+      "field": "document_metadata.jurisdiction_level",
+      "excerpt": "Florida water management district (ERP Applicant's Handbook Volume II)",
+      "page_or_section": "Chapter 62-330, F.A.C. / district handbook"
+    },
+    {
+      "field": "document_metadata.state_code",
+      "excerpt": "Northwest Florida Water Management District",
+      "page_or_section": "Title"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "ENVIRONMENTAL RESOURCE PERMIT APPLICANT’S HANDBOOK VOLUME II",
+      "page_or_section": "Title"
+    },
+    {
+      "field": "document_metadata.version_or_edition",
+      "excerpt": "June 28, 2024",
+      "page_or_section": "Footer"
+    },
+    {
+      "field": "document_metadata.adoption_or_effective_date",
+      "excerpt": "June 28, 2024",
+      "page_or_section": "Footer"
+    },
+    {
+      "field": "document_metadata.last_revised_date",
+      "excerpt": "June 28, 2024",
+      "page_or_section": "Footer"
+    },
+    {
+      "field": "document_metadata.relationship_to_state_manual",
+      "excerpt": "Chapter 62-330, F.A.C. ERP stormwater design",
+      "page_or_section": "Introduction"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "Design Criteria and Guidelines for Retention Systems ... Treatment Volume",
+      "page_or_section": "Part V §5.0"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "Stormwater Quantity: Rate and Volume Controls",
+      "page_or_section": "Part III"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Retention Systems; On-Line and Off-line Stormwater Systems",
+      "page_or_section": "TOC"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "10-year floodplain ... 100-year flood elevation",
+      "page_or_section": "§3.4"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "medium",
+    "needs_human_review": true,
+    "review_notes": "Canonical NWFWMD ERP AH Vol II special_district record. City proxies tallahassee-fl / pensacola-fl remain for municipal map coverage.",
+    "fields_not_found": [
+      "design_criteria.required_hydrologic_hydraulic_software"
+    ]
+  },
+  "source": {
+    "document_url": "https://nwfwater.com/wp-content/uploads/2024/07/AHII-nwfwmd-FINAL-2024.pdf",
+    "landing_page_url": "https://nwfwater.com/",
+    "retrieved_at": "2026-08-11T18:38:36.246Z",
+    "original_filename": "fl-nwfwmd-erp-ah2.pdf"
+  }
+}

@@ -1,7 +1,7 @@
 {
   "document_metadata": {
-    "jurisdiction_name": "Southwest Florida Water Management District / Tampa Bay",
-    "jurisdiction_level": "county",
+    "jurisdiction_name": "City of Tampa (SWFWMD criteria)",
+    "jurisdiction_level": "municipality",
     "state_code": "FL",
     "document_title": "Environmental Resource Permit Applicant's Handbook Volume II — Design Requirements for Stormwater Treatment and Management Systems: Water Quality and Water Quantity",
     "version_or_edition": "Effective June 1, 2018 (draft text with NEW DATE markers)",
@@ -10,7 +10,10 @@
     "relationship_to_state_manual": "independent"
   },
   "design_criteria": {
-    "design_storm_return_periods_years": [25, 100],
+    "design_storm_return_periods_years": [
+      25,
+      100
+    ],
     "water_quality_volume_method": "District Vol. II criteria work with statewide ERP Applicant's Handbook Volume I performance standards: wet detention sized for one inch of runoff from the contributing area; retention, effluent filtration, or exfiltration sized for one-half inch of runoff (or, for several BMP types, treat runoff from the first one inch of rainfall, with an option for drainage areas under 100 acres of the first one-half inch of runoff). Treatment volume must again be available within 72 hours (only the portion recoverable in 36 hours may count toward quantity storage). Direct OFW discharges require 50% more treatment volume than the selected system.",
     "peak_flow_calculation_method": [
       "Historic peak discharge or legally allowable discharge (open basins)",
@@ -151,7 +154,7 @@
   "extraction_quality": {
     "confidence": "medium",
     "needs_human_review": true,
-    "review_notes": "Regional SWFWMD ERP Applicant's Handbook Vol II (Tampa Bay / SW Florida WMD), not a City of Tampa municipal manual. Source PDF appears draft (DRAFT/NEW DATE OCR artifacts and duplicated text). Numeric WQ depths also defer heavily to statewide AH Volume I; Vol II retains classic one-inch wet detention / half-inch retention-filtration-exfiltration sizing plus OFW +50%. Jurisdiction coded as county per task guidance.",
+    "review_notes": "Municipal map coverage via SWFWMD ERP AH Vol II. Canonical special_district record: fl-swfwmd-erp-ah2. Previously mislabeled as county; reclassified to municipality proxy. Regional SWFWMD ERP Applicant's Handbook Vol II (Tampa Bay / SW Florida WMD), not a City of Tampa municipal manual. Source PDF appears draft (DRAFT/NEW DATE OCR artifacts and duplicated text). Numeric WQ depths also defer heavily to statewide AH Volume I; Vol II retains classic one-inch wet detention / half-inch retention-filtration-exfiltration sizing plus OFW +50%. Jurisdiction coded as county per task guidance.",
     "fields_not_found": [
       "design_criteria.required_hydrologic_hydraulic_software"
     ]

@@ -1,0 +1,68 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "Alabama",
+    "jurisdiction_level": "state",
+    "state_code": "AL",
+    "document_title": "ALDOT Hydraulic Manual",
+    "version_or_edition": null,
+    "adoption_or_effective_date": null,
+    "last_revised_date": null,
+    "relationship_to_state_manual": "independent",
+    "issuing_agency_category": "dot"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [
+      10,
+      50,
+      100
+    ],
+    "water_quality_volume_method": null,
+    "peak_flow_calculation_method": [
+      "Rational Method",
+      "NRCS / SCS Curve Number (TR-55)",
+      "HEC-RAS"
+    ],
+    "required_hydrologic_hydraulic_software": [
+      "HEC-RAS",
+      "HY-8"
+    ],
+    "approved_bmp_categories": []
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "Alabama",
+      "page_or_section": "Title / header"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "ALDOT Hydraulic Manual",
+      "page_or_section": "Title / header"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "ease the water surface elevation of the 100-year flood to more than the local ordinance requirement at any point within the comm",
+      "page_or_section": null
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "............................... 4-8 The Rational Method ........................................................................",
+      "page_or_section": null
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "medium",
+    "needs_human_review": true,
+    "review_notes": "Heuristic agency extract from prepared text. ALDOT Hydraulic Manual (Draft)",
+    "fields_not_found": [
+      "design_criteria.water_quality_volume_method",
+      "design_criteria.approved_bmp_categories"
+    ]
+  },
+  "source": {
+    "document_url": "https://www.dot.state.al.us/publications/Design/pdf/HydraulicManualDraft.pdf",
+    "landing_page_url": "https://www.dot.state.al.us/publications/Design/HydraulicResources.html",
+    "retrieved_at": "2026-08-11T17:59:10.548Z",
+    "original_filename": "al-aldot-drainage.pdf"
+  }
+}

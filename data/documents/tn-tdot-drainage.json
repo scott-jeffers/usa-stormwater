@@ -1,0 +1,63 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "Tennessee",
+    "jurisdiction_level": "state",
+    "state_code": "TN",
+    "document_title": "TDOT Drainage Manual Chapter 7",
+    "version_or_edition": null,
+    "adoption_or_effective_date": null,
+    "last_revised_date": null,
+    "relationship_to_state_manual": "independent",
+    "issuing_agency_category": "dot"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [
+      10,
+      50
+    ],
+    "water_quality_volume_method": null,
+    "peak_flow_calculation_method": [
+      "Rational Method"
+    ],
+    "required_hydrologic_hydraulic_software": [],
+    "approved_bmp_categories": []
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "Tennessee",
+      "page_or_section": "Title / header"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "TDOT Drainage Manual Chapter 7",
+      "page_or_section": "Title / header"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "quency Criteria See Section Gutter Flow 10-year1,2 Spread on Roadway 7.03.2 Inlet Spacing 10-year1,2 Spread on Roadway 7.03.3.7",
+      "page_or_section": null
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "gutter is typically evaluated using the Rational Method (see Chapter 4 of this Manual) and the spread is determined by examining",
+      "page_or_section": null
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "medium",
+    "needs_human_review": true,
+    "review_notes": "Heuristic agency extract from prepared text. TDOT Drainage Manual Chapter 7 — Storm Drainage Systems",
+    "fields_not_found": [
+      "design_criteria.water_quality_volume_method",
+      "design_criteria.required_hydrologic_hydraulic_software",
+      "design_criteria.approved_bmp_categories"
+    ]
+  },
+  "source": {
+    "document_url": "https://www.tn.gov/content/dam/tn/tdot/engineering-production-support/documents/drainage_manual/DM-Chapter_07.pdf",
+    "landing_page_url": "https://www.tn.gov/tdot/state-engineering-technical-training/production-support/design-standards/drainage-manual.html",
+    "retrieved_at": "2026-08-11T17:59:10.596Z",
+    "original_filename": "tn-tdot-drainage.pdf"
+  }
+}

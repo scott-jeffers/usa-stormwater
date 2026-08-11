@@ -7,7 +7,8 @@
     "version_or_edition": "March 2024 (CTSW-RT-24-425.11.1)",
     "adoption_or_effective_date": "2024-03-01",
     "last_revised_date": "2024-03-01",
-    "relationship_to_state_manual": "adopts_state_manual_directly"
+    "relationship_to_state_manual": "adopts_state_manual_directly",
+    "issuing_agency_category": "dot"
   },
   "design_criteria": {
     "design_storm_return_periods_years": [

@@ -1,0 +1,80 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "New Jersey",
+    "jurisdiction_level": "state",
+    "state_code": "NJ",
+    "document_title": "NJDOT Drainage Design Manual",
+    "version_or_edition": null,
+    "adoption_or_effective_date": null,
+    "last_revised_date": null,
+    "relationship_to_state_manual": "independent",
+    "issuing_agency_category": "dot"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [
+      2,
+      5,
+      10,
+      25,
+      50,
+      100
+    ],
+    "water_quality_volume_method": null,
+    "peak_flow_calculation_method": [
+      "Rational Method",
+      "NRCS / SCS Curve Number (TR-55)",
+      "TR-20",
+      "HEC-HMS",
+      "Modified Rational Method"
+    ],
+    "required_hydrologic_hydraulic_software": [
+      "HEC-HMS"
+    ],
+    "approved_bmp_categories": [
+      "Bioretention",
+      "Detention Basin",
+      "Retention Basin"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "New Jersey",
+      "page_or_section": "Title / header"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "NJDOT Drainage Design Manual",
+      "page_or_section": "Title / header"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "Hazard Area Design Flood, which is the 100-year peak discharge increased by 25 percent. State Adopted Flood Studies can be obta",
+      "page_or_section": null
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "a Hydrologic Method‡ Less than 20 Acres Rational Formula or Modified Rational Method Less than 5 Square Miles NRCS* TR-55 Method",
+      "page_or_section": null
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Bioretention, Detention Basin, Retention Basin",
+      "page_or_section": null
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "medium",
+    "needs_human_review": true,
+    "review_notes": "Heuristic agency extract from prepared text. NJDOT Drainage Design Manual (August 2006)",
+    "fields_not_found": [
+      "design_criteria.water_quality_volume_method"
+    ]
+  },
+  "source": {
+    "document_url": "https://www.nj.gov/transportation/eng/documents/SEM/pdf/DrainageDesignManual2006s.pdf",
+    "landing_page_url": "https://dot.nj.gov/transportation/eng/documents/RDM/",
+    "retrieved_at": "2026-08-11T17:59:10.565Z",
+    "original_filename": "nj-njdot-drainage.pdf"
+  }
+}

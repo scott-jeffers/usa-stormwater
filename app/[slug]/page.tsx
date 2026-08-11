@@ -9,9 +9,11 @@ import {
   NeedsReviewBadge,
   StateBadge,
   VerifyBadge,
+  AgencyBadge,
 } from "@/components/Badge";
 import { FieldWithEvidence } from "@/components/FieldWithEvidence";
 import { getJurisdictionVerifyStatus } from "@/lib/pipeline/verifyReport";
+import { inferAgencyCategory, normalizeAgencyCategory } from "@/lib/agencyTypes";
 
 const PLACEHOLDER_SLUG = "_placeholder";
 
@@ -98,6 +100,13 @@ export default async function ManualDetailPage({
   const fieldsNotFound = quality.fields_not_found;
   const primarySourceUrl = source.document_url ?? source.landing_page_url;
   const verify = getJurisdictionVerifyStatus(slug);
+  const agencyCategory =
+    normalizeAgencyCategory(meta.issuing_agency_category) ??
+    inferAgencyCategory({
+      slug,
+      jurisdictionName: meta.jurisdiction_name,
+      documentTitle: meta.document_title,
+    });
 
   return (
     <main className="space-y-6">
@@ -116,6 +125,7 @@ export default async function ManualDetailPage({
             <p className="mt-1 text-sm text-slate-600">{meta.document_title}</p>
             <div className="mt-3 flex flex-wrap gap-2">
               <LevelBadge level={meta.jurisdiction_level} />
+              <AgencyBadge category={agencyCategory} />
               <StateBadge stateCode={meta.state_code} showName />
               <ConfidenceBadge confidence={quality.confidence} />
               <NeedsReviewBadge needsReview={quality.needs_human_review} />

@@ -1,0 +1,87 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "City of Lancaster",
+    "jurisdiction_level": "municipality",
+    "state_code": "PA",
+    "document_title": "Stormwater Management Fee (SWMF) Policies and Procedures Manual",
+    "version_or_edition": "Amended February 2023 (originally February 27, 2014)",
+    "adoption_or_effective_date": "2014-03-17",
+    "last_revised_date": "2023-02",
+    "relationship_to_state_manual": "adopts_state_manual_directly"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [],
+    "water_quality_volume_method": "SWMF volume-control / GI credits are available for practices that eliminate stormwater runoff from the site for all storms up to and including a one-inch storm and encourage infiltration (where soils allow) or reuse of captured stormwater. Structural facilities must be consistent with the Pennsylvania Stormwater BMP Manual (PA DEP 363-0300-002). Design sizing for development projects is in the companion Green Infrastructure Design Manual (lancaster-pa) and City Code Chapter 260.",
+    "peak_flow_calculation_method": [],
+    "required_hydrologic_hydraulic_software": [],
+    "approved_bmp_categories": [
+      "Pervious pavement with infiltration bed",
+      "Rain garden / bioretention",
+      "Dry well / seepage pit",
+      "Subsurface infiltration bed",
+      "Infiltration trench",
+      "Infiltration basin",
+      "Cistern / runoff capture and reuse",
+      "Green roof",
+      "Wet pond / retention basin",
+      "Dry extended detention basin",
+      "Constructed wetland",
+      "Vegetated swale",
+      "Tree trench",
+      "Proprietary water quality filters and hydrodynamic devices"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "CITY OF LANCASTER, PENNSYLVANIA STORMWATER MANAGEMENT FEE (SWMF) POLICIES AND PROCEDURES MANUAL",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "POLICIES AND PROCEDURES MANUAL",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.version_or_edition",
+      "excerpt": "Prepared for City of Lancaster Department of Public Works February 27, 2014 ... Amended February 2023",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.adoption_or_effective_date",
+      "excerpt": "Ordinance No. 1-2014 adopted by Lancaster City Council on February 25, 2014 and with an effective date of March 17, 2014",
+      "page_or_section": "Section 1.0 Introduction"
+    },
+    {
+      "field": "document_metadata.relationship_to_state_manual",
+      "excerpt": "Credits may be available for Best Management Practices (BMP) implemented ... in a manner consistent with the design criteria set forth in the Pennsylvania Stormwater Best Management Practices Manual (PA DEP Document No. 363-0300-002), as amended",
+      "page_or_section": "Section 6.3 Eligible Credit Allowance"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "SWMF credits are available to all properties that implement GI practices which eliminate stormwater runoff from the site for all storms up to and including a one-inch storm and encourages infiltration (where soils are appropriate for infiltration practices), or reuse of captured stormwater.",
+      "page_or_section": "Section 6.5 Structural Credits Calculations"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Table 6-2. Structural Stormwater Management Facilities — Peak Rate/Water Quality (constructed wetland, wet pond, dry extended detention, vegetated swale, proprietary filters...) and Volume Controls/GI (pervious pavement, rain garden/bioretention, dry well, subsurface infiltration, cistern, green roof...)",
+      "page_or_section": "Table 6-2"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "medium",
+    "needs_human_review": true,
+    "review_notes": "Fee/credit policy manual (not primary design criteria). Companion design manual is lancaster-pa (Green Infrastructure Design Manual, June 2024). Peak-flow and software fields not specified here.",
+    "fields_not_found": [
+      "design_criteria.design_storm_return_periods_years",
+      "design_criteria.peak_flow_calculation_method",
+      "design_criteria.required_hydrologic_hydraulic_software"
+    ]
+  },
+  "source": {
+    "document_url": "https://www.cityoflancasterpa.gov/wp-content/uploads/2020/10/SWMF-Policies-and-Procedures-2023.pdf",
+    "landing_page_url": "https://www.cityoflancasterpa.gov/stormwater-information/",
+    "retrieved_at": "2026-08-11T18:45:00.000Z",
+    "original_filename": "SWMF-Policies-and-Procedures-2023.pdf"
+  }
+}

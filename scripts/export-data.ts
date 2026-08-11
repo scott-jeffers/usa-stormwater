@@ -8,7 +8,7 @@
 import { mkdir, rm, writeFile } from "node:fs/promises";
 import { existsSync, readFileSync } from "node:fs";
 import path from "node:path";
-import { getAllManuals } from "../lib/data";
+import { getAllManuals, revisionDateFromMetadata } from "../lib/data";
 import {
   getAllDraftSections,
   getNationalOutline,
@@ -35,6 +35,8 @@ const FIELD_SCHEMA = {
     last_revised_date: "string | null",
     relationship_to_state_manual:
       "enum: independent | adopts_state_manual_directly | deemed_equivalent_to_state_manual | unknown",
+    issuing_agency_category:
+      "enum: dot | dep_deq | dnr | other | null — statewide agency manuals",
   },
   design_criteria: {
     design_storm_return_periods_years: "number[] — e.g. [2, 10, 25, 100]",
@@ -88,6 +90,7 @@ async function main() {
         landing_page_url: source.landing_page_url,
       },
       processed_at: record.processedAt,
+      revised_at: revisionDateFromMetadata(record.data.document_metadata),
       detail_url: `${SITE_ORIGIN}/${record.slug}/`,
       data_url: `${SITE_ORIGIN}/data/manuals/${record.slug}.json`,
     };

@@ -1,0 +1,50 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "Minnesota",
+    "jurisdiction_level": "state",
+    "state_code": "MN",
+    "document_title": "MnDOT Drainage Manual",
+    "version_or_edition": null,
+    "adoption_or_effective_date": null,
+    "last_revised_date": null,
+    "relationship_to_state_manual": "independent",
+    "issuing_agency_category": "dot"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [],
+    "water_quality_volume_method": null,
+    "peak_flow_calculation_method": [],
+    "required_hydrologic_hydraulic_software": [],
+    "approved_bmp_categories": []
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "Minnesota",
+      "page_or_section": "Title / header"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "MnDOT Drainage Manual",
+      "page_or_section": "Title / header"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "medium",
+    "needs_human_review": true,
+    "review_notes": "Heuristic agency extract from prepared text. MnDOT Drainage Manual (2000) — complete published PDF",
+    "fields_not_found": [
+      "design_criteria.design_storm_return_periods_years",
+      "design_criteria.peak_flow_calculation_method",
+      "design_criteria.water_quality_volume_method",
+      "design_criteria.required_hydrologic_hydraulic_software",
+      "design_criteria.approved_bmp_categories"
+    ]
+  },
+  "source": {
+    "document_url": "https://edocs-public.dot.state.mn.us/edocs_public/DMResultSet/download?docId=26996068",
+    "landing_page_url": "https://www.dot.state.mn.us/bridge/hydraulics/drainage-manual-2000.html",
+    "retrieved_at": "2026-08-11T17:59:10.554Z",
+    "original_filename": "mn-mndot-drainage.pdf"
+  }
+}

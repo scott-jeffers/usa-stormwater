@@ -349,6 +349,8 @@ export const GENERATED_CITY_CENTERS: Record<string, [number, number]> = {
   "davenport-ia": [-90.5776, 41.5236],
   "harrisburg": [-76.8867, 40.2732],
   "harrisburg-pa": [-76.8867, 40.2732],
+  "lancaster-pa": [-76.3055, 40.0379],
+  "lancaster-pa-swmf": [-76.3055, 40.0379],
   "everett": [-122.2021, 47.9789],
   "everett-wa": [-122.2021, 47.9789],
   "olympia": [-122.9007, 47.0379],

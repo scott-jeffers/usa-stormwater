@@ -1,0 +1,81 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "Massachusetts",
+    "jurisdiction_level": "state",
+    "state_code": "MA",
+    "document_title": "MassDOT Stormwater Design Guide 2023 Edition",
+    "version_or_edition": null,
+    "adoption_or_effective_date": null,
+    "last_revised_date": null,
+    "relationship_to_state_manual": "independent",
+    "issuing_agency_category": "dot"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [
+      5,
+      10,
+      25,
+      100
+    ],
+    "water_quality_volume_method": "Water Quality Volume vii MassDOT Stormwater Design Guide | Preface Preface Purpose and Scope As presented herein by the Massachusetts Department of Transportation, Highway Division (MassDOT), the Stormwater Design Guide",
+    "peak_flow_calculation_method": [
+      "NRCS / SCS Curve Number (TR-55)",
+      "TR-20"
+    ],
+    "required_hydrologic_hydraulic_software": [],
+    "approved_bmp_categories": [
+      "Bioretention",
+      "Infiltration Basin",
+      "Filter Strip",
+      "Permeable Pavement",
+      "Oil/Grit Separator",
+      "Detention Basin"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "Massachusetts",
+      "page_or_section": "Title / header"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "MassDOT Stormwater Design Guide 2023 Edition",
+      "page_or_section": "Title / header"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "easures (SCMs) that, based on more than 25 years of experience, are supported and promoted by MassDOT to meet regulatory requir",
+      "page_or_section": null
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "Pollutant Discharge Elimination System NRCS Natural Resources Conservation Service O&M Operation and Maintenance ORW Outsta",
+      "page_or_section": null
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "Water Quality Volume vii MassDOT Stormwater Design Guide | Preface Preface Purpose and Scope As presented herein by the Massachusetts Department of Transportation, Highway Division (MassDOT), the Stormwater Design Guide",
+      "page_or_section": null
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Bioretention, Infiltration Basin, Filter Strip, Permeable Pavement",
+      "page_or_section": null
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "medium",
+    "needs_human_review": true,
+    "review_notes": "Heuristic agency extract from prepared text. MassDOT Stormwater Design Guide 2023 Edition (ACEC-MA mirror; mass.gov download often 403 to bots)",
+    "fields_not_found": [
+      "design_criteria.required_hydrologic_hydraulic_software"
+    ]
+  },
+  "source": {
+    "document_url": "https://www.acecma.org/wp-content/uploads/MassDOT_StormwaterDesignGuide_FINAL_508c.pdf",
+    "landing_page_url": "https://www.mass.gov/info-details/stormwater-management-unit",
+    "retrieved_at": "2026-08-11T17:59:10.573Z",
+    "original_filename": "ma-massdot-drainage.pdf"
+  }
+}

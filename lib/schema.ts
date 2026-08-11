@@ -52,6 +52,13 @@ export const extractionSchema = z.object({
       "deemed_equivalent_to_state_manual",
       "unknown",
     ]),
+    issuing_agency_category: z
+      .enum(["dot", "dep_deq", "dnr", "other"])
+      .nullable()
+      .optional()
+      .describe(
+        "Issuing agency type when the manual is from DOT, DEP/DEQ, DNR, etc.; null/omit for typical city/county manuals"
+      ),
   }),
   design_criteria: z.object({
     design_storm_return_periods_years: z.array(z.number()),

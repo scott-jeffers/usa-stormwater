@@ -1,0 +1,161 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "Suwannee River Water Management District (SRWMD)",
+    "jurisdiction_level": "special_district",
+    "state_code": "FL",
+    "document_title": "Environmental Resource Permit Applicant's Handbook Volume II (Design Requirements for Stormwater Treatment and Management Systems)",
+    "version_or_edition": "Effective July 2024",
+    "adoption_or_effective_date": "2024-07",
+    "last_revised_date": "2024-07",
+    "relationship_to_state_manual": "adopts_state_manual_directly"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [
+      10,
+      25,
+      100
+    ],
+    "water_quality_volume_method": "Minimum State water quality treatment requirements are those in statewide ERP Applicant's Handbook Volume I; Volume II requires all systems to recover treatment volumes within 72 hours (retention may use only percolation and evaporation; detention with filtration needs a safety factor of two). Quantity retention in closed basins is post- minus pre-development runoff for the 100-year critical event (max one-day duration). Flood storage recovery: one-half of total volume within seven days and total volume within 30 days after each design storm.",
+    "peak_flow_calculation_method": [
+      "Pre- and post-development runoff hydrographs with detention/retention routing (stage-storage-discharge)",
+      "Rational Method",
+      "Natural Resources Conservation Service (NRCS) method",
+      "USGS regression equations",
+      "SCS Type II distribution on average antecedent moisture conditions",
+      "Peak Rate Factor (K') method (conservative post-development K'=484)"
+    ],
+    "required_hydrologic_hydraulic_software": [],
+    "approved_bmp_categories": [
+      "Retention ponds",
+      "Dry detention ponds",
+      "Exfiltration trench systems",
+      "Wet detention ponds",
+      "Swale systems",
+      "Vegetated natural buffers",
+      "Borrow pits and ponds",
+      "Dams and impoundments",
+      "Sensitive karst area BMPs"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "Suwannee River Water Management District (SRWMD)",
+      "page_or_section": "Title / district handbook"
+    },
+    {
+      "field": "document_metadata.jurisdiction_level",
+      "excerpt": "Florida water management district (ERP Applicant's Handbook Volume II)",
+      "page_or_section": "Chapter 62-330, F.A.C. / district handbook"
+    },
+    {
+      "field": "document_metadata.state_code",
+      "excerpt": "Incorporated by Reference in Rules 62-330.010 and 40B-400.091, F.A.C.",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "ENVIRONMENTAL RESOURCE PERMIT APPLICANT'S HANDBOOK VOLUME II (DESIGN REQUIREMENTS FOR STORMWATER TREATMENT AND MANAGEMENT SYSTEMS)",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.version_or_edition",
+      "excerpt": "Effective July 2024",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.adoption_or_effective_date",
+      "excerpt": "Effective July 2024",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.last_revised_date",
+      "excerpt": "Effective July 2024",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.relationship_to_state_manual",
+      "excerpt": "This Volume provides specific, detailed information to meet the water quality system and quantity design requirements of stormwater management systems. ... Both Applicant's Handbook Volumes I and II are adopted by reference in Chapter 62-330, F.A.C.",
+      "page_or_section": "Section 1.1.1 Introduction"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "For projects which serve exclusively agricultural, forest, conservation, or recreational land uses, a design storm with a 10-year, 24-hour rainfall depth with SCS type II distribution ... shall be used. For projects which serve all other land uses, a design storm with 100-year critical duration rainfall depth with SCS type II distribution ... shall be used.",
+      "page_or_section": "Section 3.2 Design Storms"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "The applicant shall analyze the 100-year frequency (one percent annual chance) analysis of the 1-, 2-, 4-, 8-, and 24-hour durations for all stormwater systems.",
+      "page_or_section": "Section 3.2 Design Storms"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "For Alachua, Bradford, Dixie, Gilchrist, Lafayette, Levy, and Taylor counties: Frequency (years) ... 10 ... 25 ... 100",
+      "page_or_section": "Appendix B – Design Storms"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "All stormwater management systems must be designed to provide minimum State water quality treatment requirements as set forth in Applicant's Handbook Volume I.",
+      "page_or_section": "Section 4.3 State Water Quality Standards"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "All stormwater management systems shall be designed to recover treatment volumes within 72 hours. For retention systems, only percolation and evaporation may be used to reduce storage and treatment volumes in the system.",
+      "page_or_section": "Section 4.4 Recovery"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "The required retention volume is the post-development runoff volume less the pre-development runoff volume for the 100-year critical event with a maximum duration of one day.",
+      "page_or_section": "Section 3.3 Discharge Rates and Volumes (closed basin)"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "One-half of the total volume within seven days following the end of each design storm event, and 2. The total volume within 30 days following the end of each design storm event.",
+      "page_or_section": "Section 3.4 Recovery"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "There are several equations available for calculating discharge including, but not limited to, the Rational Method, Natural Resources Conservation Service (NRCS) method, and USGS regression equations.",
+      "page_or_section": "Section 3.3.1 Methodologies for Calculating Discharge"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "A peak discharge analysis typically consists of generating pre-development and post-development runoff hydrographs, routing the post-development hydrograph through a detention or retention basin, and sizing an overflow structure to control post-development discharges at or below pre-development discharge.",
+      "page_or_section": "Section 3.3.1"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "The Peak Rate Factor reflects the effect of watershed storage on the hydrograph shape ... The most conservative approach is to use a K' = 484 for post-development.",
+      "page_or_section": "Section 3.3.1"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "a design storm with a 10-year, 24-hour rainfall depth with SCS type II distribution falling on average antecedent moisture conditions shall be used.",
+      "page_or_section": "Section 3.2 Design Storms"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "The Best Management Practices (BMP)s below are the most frequently used BMPs in this District.",
+      "page_or_section": "Part V – Best Management Practices"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "5.1 Retention Pond ... 5.2 Dry Detention Pond ... 5.3 Exfiltration Trench Systems ... 5.4 Wet Detention Pond ... 5.5 Swale System ... 5.6 Vegetated Natural Buffers ... 5.7 Borrow Pits and Ponds ... 5.8 Dams and Impoundments ... 5.9 Sensitive Karst Area",
+      "page_or_section": "Table of Contents / Part V"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "high",
+    "needs_human_review": true,
+    "review_notes": "Canonical SRWMD ERP AH Vol II special_district record. City proxy gainesville-fl remains for municipal map coverage.",
+    "fields_not_found": [
+      "design_criteria.required_hydrologic_hydraulic_software"
+    ]
+  },
+  "source": {
+    "document_url": "http://www.srwmd.state.fl.us/DocumentCenter/View/19233",
+    "landing_page_url": "https://www.srwmd.state.fl.us/",
+    "retrieved_at": "2026-08-11T18:38:36.245Z",
+    "original_filename": "fl-srwmd-erp-ah2.pdf"
+  }
+}

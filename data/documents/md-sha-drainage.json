@@ -1,0 +1,75 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "Maryland",
+    "jurisdiction_level": "state",
+    "state_code": "MD",
+    "document_title": "MDOT SHA Drainage Manual",
+    "version_or_edition": null,
+    "adoption_or_effective_date": null,
+    "last_revised_date": null,
+    "relationship_to_state_manual": "independent",
+    "issuing_agency_category": "dot"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [
+      2,
+      10,
+      25,
+      50
+    ],
+    "water_quality_volume_method": "Water Quality Volume Maryland Department of Transportation Chapter 1: Introduction P a g e | 1-10 State Highway Administration September 2023 Table 1-3: Symbols SYMBOL DEFINITION UNITS A Area of cross section of flow ft2",
+    "peak_flow_calculation_method": [
+      "Rational Method",
+      "NRCS / SCS Curve Number (TR-55)",
+      "TR-20",
+      "HEC-RAS"
+    ],
+    "required_hydrologic_hydraulic_software": [
+      "HydroCAD",
+      "HEC-RAS",
+      "HY-8"
+    ],
+    "approved_bmp_categories": []
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "Maryland",
+      "page_or_section": "Title / header"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "MDOT SHA Drainage Manual",
+      "page_or_section": "Title / header"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "ame 4% storm would be referred to as a “25-year storm”. With this nomenclature, the meaning is still the same: Maryland Departm",
+      "page_or_section": null
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": ".............................. 2-11 2.7 Rational Method ........................................................................",
+      "page_or_section": null
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "Water Quality Volume Maryland Department of Transportation Chapter 1: Introduction P a g e | 1-10 State Highway Administration September 2023 Table 1-3: Symbols SYMBOL DEFINITION UNITS A Area of cross section of flow ft2",
+      "page_or_section": null
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "medium",
+    "needs_human_review": true,
+    "review_notes": "Heuristic agency extract from prepared text. MDOT SHA Drainage Manual",
+    "fields_not_found": [
+      "design_criteria.approved_bmp_categories"
+    ]
+  },
+  "source": {
+    "document_url": "https://roads.maryland.gov/ohd2/MDOTSHADrainageManual.pdf",
+    "landing_page_url": "https://roads.maryland.gov/",
+    "retrieved_at": "2026-08-11T17:59:10.538Z",
+    "original_filename": "md-sha-drainage.pdf"
+  }
+}

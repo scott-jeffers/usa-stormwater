@@ -1,6 +1,6 @@
 {
   "document_metadata": {
-    "jurisdiction_name": "City of Pensacola",
+    "jurisdiction_name": "City of Pensacola (NWFWMD criteria)",
     "jurisdiction_level": "municipality",
     "state_code": "FL",
     "document_title": "NWFWMD Environmental Resource Permit Applicant’s Handbook Volume II (design standards)",
@@ -43,7 +43,7 @@
   "extraction_quality": {
     "confidence": "medium",
     "needs_human_review": true,
-    "review_notes": "Regional NWFWMD AH Vol II for Pensacola MS4 — confirm city-specific amendments.",
+    "review_notes": "Municipal map coverage via NWFWMD ERP AH Vol II. Canonical special_district record: fl-nwfwmd-erp-ah2. Regional NWFWMD AH Vol II for Pensacola MS4 — confirm city-specific amendments.",
     "fields_not_found": []
   },
   "source": {

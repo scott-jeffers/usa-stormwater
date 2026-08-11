@@ -1,0 +1,168 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "Southwest Florida Water Management District (SWFWMD)",
+    "jurisdiction_level": "special_district",
+    "state_code": "FL",
+    "document_title": "Environmental Resource Permit Applicant's Handbook Volume II — Design Requirements for Stormwater Treatment and Management Systems: Water Quality and Water Quantity",
+    "version_or_edition": "Effective June 1, 2018 (draft text with NEW DATE markers)",
+    "adoption_or_effective_date": "2018-06-01",
+    "last_revised_date": "2018-06-01",
+    "relationship_to_state_manual": "adopts_state_manual_directly"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [
+      25,
+      100
+    ],
+    "water_quality_volume_method": "District Vol. II criteria work with statewide ERP Applicant's Handbook Volume I performance standards: wet detention sized for one inch of runoff from the contributing area; retention, effluent filtration, or exfiltration sized for one-half inch of runoff (or, for several BMP types, treat runoff from the first one inch of rainfall, with an option for drainage areas under 100 acres of the first one-half inch of runoff). Treatment volume must again be available within 72 hours (only the portion recoverable in 36 hours may count toward quantity storage). Direct OFW discharges require 50% more treatment volume than the selected system.",
+    "peak_flow_calculation_method": [
+      "Historic peak discharge or legally allowable discharge (open basins)",
+      "NRCS Type II Florida Modified 24-hour rainfall distribution with AMC II on SWFWMD 24-hour/25-year (open) or 24-hour/100-year (closed) rainfall maps",
+      "Soil Conservation Service / NRCS National Engineering Handbook Section 4 hydrology methods",
+      "Rainfall minus losses and storage",
+      "Rational method (projects less than 10 acres total contributing area)",
+      "USDA-SCS TR-55 Urban Hydrology for Small Watersheds / Technical Paper No. 149 (infiltration)"
+    ],
+    "required_hydrologic_hydraulic_software": [],
+    "approved_bmp_categories": [
+      "Wet detention systems",
+      "Detention with effluent filtration (manmade underdrains)",
+      "On-line retention treatment systems",
+      "Off-line retention treatment systems",
+      "Underground exfiltration treatment systems",
+      "Dry grassed swales / sediment-oil-grease pretreatment",
+      "Sensitive karst area stormwater systems"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "Southwest Florida Water Management District (SWFWMD)",
+      "page_or_section": "Title / district handbook"
+    },
+    {
+      "field": "document_metadata.jurisdiction_level",
+      "excerpt": "Florida water management district (ERP Applicant's Handbook Volume II)",
+      "page_or_section": "Chapter 62-330, F.A.C. / district handbook"
+    },
+    {
+      "field": "document_metadata.state_code",
+      "excerpt": "administration of Chapter 62-330, Florida Administrative Code (F.A.C.).",
+      "page_or_section": "Section 1.0 Introduction"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "ENVIRONMENTAL RESOURCE PERMIT APPLICANT'S HANDBOOK VOLUME II DESIGN REQUIREMENTS FOR STORMWATER TREATMENT AND MANAGEMENT SYSTEMS WATER QUALITY AND WATER QUANTITY",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.version_or_edition",
+      "excerpt": "EFFECTIVE June 1, 2018NEW DATE",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.adoption_or_effective_date",
+      "excerpt": "EFFECTIVE June 1, 2018",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.last_revised_date",
+      "excerpt": "EFFECTIVE June 1, 2018",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.relationship_to_state_manual",
+      "excerpt": "Each Water Management District has adopted an ERP Applicant's Handbook Volume II ... District-specific design and performance criteria for stormwater quantity or, flood control systems, design criteria for stormwater quality systems",
+      "page_or_section": "Section 1.0 Introduction"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "off-site discharges and peak stages for the existing and developed conditions shall be computed using the Southwest Florida Water Management District's 24-hour, 25-year rainfall maps and the Natural Resources Conservation Service type II Florida Modified 24-hour rainfall distribution",
+      "page_or_section": "Section 3.1 Discharges"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "the required retention volume shall be the post-development runoff volume less the pre-development runoff volume computed using the Southwest Florida Water Management District's 24-hour/100-year rainfall map",
+      "page_or_section": "Section 3.1 Discharges (closed basin)"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "the proposed stormwater management system shall not be required to account for storm events less frequent than the 25-year event for the rate of discharge in an open basin or the 100-year event for the volume of discharge in a closed basin.",
+      "page_or_section": "Section 3.1.e"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "The required water quality system must have treatment capacity for one inch of runoff if wet detention is used, or one-half inch of runoff if retention, effluent filtration or exfiltration is used, from the total developed site and contributing offsite area.",
+      "page_or_section": "Section 3.5 / water quality capacity"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "A wet detention treatment system shall be designed to meet the stormwater quality treatment criteria specified in Part II of Volume I.treat one inch of runoff from the contributing area.",
+      "page_or_section": "Section 4.1.a Wet Detention Systems"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "treat the runoff from the first one inch of rainfall; or as an option for projects or project subunits with drainage areas less than 100 acres, the first one-half inch of runoff.",
+      "page_or_section": "Section 4.1.b Detention with Effluent Filtration"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "Projects discharging directly into Outstanding Florida Waters (OFW) shall be required to provide treatment for a volume 50 percent more than required for the selected treatment system",
+      "page_or_section": "Section 4.1.f"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "Total treatment volume shall again be available within 72 hours, however, only that volume which can again be available within 36 hours may be counted as part of the volume required for water quantity storage",
+      "page_or_section": "Section 4.1.c On-line Retention"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "historic discharge, which is the peak rate at which runoff leaves a parcel of land by gravity under existing site conditions, or the legally allowable discharge at the time of permit application",
+      "page_or_section": "Section 3.1.a"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "The Natural Resource Conservation Service Type II Florida Modified rainfall distribution will be used unless the applicant demonstrates that a different distribution better characterizes the actual rainfall distribution",
+      "page_or_section": "Section 6.3 Rainfall Distribution"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "Soil Conservation Service design methods (see, for example, U.S. Department of Agriculture, Soil Conservation Service, \"National Engineering Handbook, Section 4, Hydrology.\"",
+      "page_or_section": "Section 6.7 Runoff"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "Rational method, for systems serving projects of less than 10 acres total contributing area.",
+      "page_or_section": "Section 6.7.c"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "a. Wet Detention Systems ... b. Detention with Effluent Filtration System (Manmade Underdrains) ... c. On-line Treatment Systems ... d. Off-line Treatment Systems ... e. Underground Exfiltration Systems",
+      "page_or_section": "Part IV Table of Contents / Section 4.1"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Normally, a dry grassed swale system designed for detention of the first one-fourth inch of runoff with an overall depth of no more than 4 inches will satisfy the requirement for prior removal of sediment, oils and greases.",
+      "page_or_section": "Section 4.1.a.3"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Especially iIn sensitive karst areas, stormwater management systems must be designed and",
+      "page_or_section": "Section 5.10 Sensitive Karst Areas"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "medium",
+    "needs_human_review": true,
+    "review_notes": "Canonical SWFWMD ERP AH Vol II special_district record. City proxies (tampa-fl, lakeland-fl) remain for municipal map coverage.",
+    "fields_not_found": [
+      "design_criteria.required_hydrologic_hydraulic_software"
+    ]
+  },
+  "source": {
+    "document_url": "https://www.swfwmd.state.fl.us/sites/default/files/medias/documents/draftswfwmd-erpapplicanthandbook-volume-ii.pdf",
+    "landing_page_url": "https://www.swfwmd.state.fl.us/business/epermitting/rules",
+    "retrieved_at": "2026-08-11T18:38:36.244Z",
+    "original_filename": "fl-swfwmd-erp-ah2.pdf"
+  }
+}

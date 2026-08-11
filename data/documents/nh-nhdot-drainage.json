@@ -1,0 +1,76 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "New Hampshire",
+    "jurisdiction_level": "state",
+    "state_code": "NH",
+    "document_title": "NHDOT Manual on Drainage Design for Highways",
+    "version_or_edition": null,
+    "adoption_or_effective_date": null,
+    "last_revised_date": null,
+    "relationship_to_state_manual": "independent",
+    "issuing_agency_category": "dot"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [
+      2,
+      10,
+      25,
+      50,
+      100
+    ],
+    "water_quality_volume_method": null,
+    "peak_flow_calculation_method": [
+      "Rational Method",
+      "NRCS / SCS Curve Number (TR-55)",
+      "TR-20",
+      "HEC-HMS",
+      "HEC-RAS",
+      "Modified Rational Method"
+    ],
+    "required_hydrologic_hydraulic_software": [
+      "HydroCAD",
+      "HEC-HMS",
+      "HEC-RAS",
+      "HY-8",
+      "StormCAD"
+    ],
+    "approved_bmp_categories": []
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "New Hampshire",
+      "page_or_section": "Title / header"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "NHDOT Manual on Drainage Design for Highways",
+      "page_or_section": "Title / header"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "ping now represents something less than 100 year and generally becomes less accurate with the increasing frequency and intensity",
+      "page_or_section": null
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "............................ 3-10 3.2.1 Rational Method.........................................................................",
+      "page_or_section": null
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "medium",
+    "needs_human_review": true,
+    "review_notes": "Heuristic agency extract from prepared text. NHDOT Manual on Drainage Design for Highways",
+    "fields_not_found": [
+      "design_criteria.water_quality_volume_method",
+      "design_criteria.approved_bmp_categories"
+    ]
+  },
+  "source": {
+    "document_url": "https://www.dot.nh.gov/sites/g/files/ehbemt811/files/inline-documents/manual-drainage-design.pdf",
+    "landing_page_url": "https://www.dot.nh.gov/doing-business-nhdot/engineers-consultants/highway-design-manual",
+    "retrieved_at": "2026-08-11T17:59:10.631Z",
+    "original_filename": "nh-nhdot-drainage.pdf"
+  }
+}

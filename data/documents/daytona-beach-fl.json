@@ -41,7 +41,7 @@
   "extraction_quality": {
     "confidence": "low",
     "needs_human_review": true,
-    "review_notes": "Placeholder pending durable SJRWMD AH Vol II or city design-manual PDF.",
+    "review_notes": "Canonical SJRWMD special_district record: fl-sjrwmd-erp-ah2. Placeholder pending durable SJRWMD AH Vol II or city design-manual PDF.",
     "fields_not_found": []
   },
   "source": {

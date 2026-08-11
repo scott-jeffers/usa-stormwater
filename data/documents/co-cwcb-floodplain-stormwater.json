@@ -1,0 +1,60 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "Colorado",
+    "jurisdiction_level": "state",
+    "state_code": "CO",
+    "document_title": "CWCB Floodplain and Stormwater Criteria Manual Ch15 Storm Drainage Water Quality",
+    "version_or_edition": null,
+    "adoption_or_effective_date": null,
+    "last_revised_date": null,
+    "relationship_to_state_manual": "independent",
+    "issuing_agency_category": "dep_deq"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [],
+    "water_quality_volume_method": null,
+    "peak_flow_calculation_method": [],
+    "required_hydrologic_hydraulic_software": [],
+    "approved_bmp_categories": [
+      "Bioretention",
+      "Extended Detention",
+      "Sand Filter",
+      "Constructed Wetland",
+      "Detention Basin"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "Colorado",
+      "page_or_section": "Title / header"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "CWCB Floodplain and Stormwater Criteria Manual Ch15 Storm Drainage Water Quality",
+      "page_or_section": "Title / header"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Bioretention, Extended Detention, Sand Filter, Constructed Wetland",
+      "page_or_section": null
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "medium",
+    "needs_human_review": true,
+    "review_notes": "Heuristic agency extract from prepared text. CWCB Floodplain and Stormwater Criteria Manual Ch15 Storm Drainage Water Quality (statewide DNR; CDPHE is permit-only)",
+    "fields_not_found": [
+      "design_criteria.design_storm_return_periods_years",
+      "design_criteria.peak_flow_calculation_method",
+      "design_criteria.water_quality_volume_method",
+      "design_criteria.required_hydrologic_hydraulic_software"
+    ]
+  },
+  "source": {
+    "document_url": "https://dnrweblink.state.co.us/CWCB/0/edoc/211428/Chapter%2015.pdf",
+    "landing_page_url": "https://cwcb.colorado.gov/public-information/technical-tools/floodplain-stormwater-criteria-manual",
+    "retrieved_at": "2026-08-11T17:59:10.610Z",
+    "original_filename": "co-cwcb-floodplain-stormwater.pdf"
+  }
+}

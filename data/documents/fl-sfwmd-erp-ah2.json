@@ -1,0 +1,156 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "South Florida Water Management District (SFWMD)",
+    "jurisdiction_level": "special_district",
+    "state_code": "FL",
+    "document_title": "Environmental Resource Permit Applicant's Handbook Volume II For Use Within the Geographic Limits of the South Florida Water Management District",
+    "version_or_edition": "AH Vol. II (6/28/24)",
+    "adoption_or_effective_date": "2024-06-28",
+    "last_revised_date": "2024-06-28",
+    "relationship_to_state_manual": "adopts_state_manual_directly"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [
+      5,
+      25,
+      100
+    ],
+    "water_quality_volume_method": "Water quality treatment volumes and pollutant load-reduction requirements are set forth in ERP Applicant's Handbook Volume I; Volume II adds SFWMD-specific retention/detention criteria (e.g., commercial/industrial projects provide a minimum of 20% of the AH Vol. I load reduction in a retention BMP; exfiltration trenches sized for AH Vol. I water quality requirements exfiltrated over one hour prior to overflow; treatment volume in retention/exfiltration systems is not discharged to surface waters).",
+    "peak_flow_calculation_method": [
+      "Pre- and post-development runoff hydrographs with detention routing (stage-storage-discharge)",
+      "SCS Peak Rate Factor (K') method",
+      "NRCS National Engineering Handbook Section 4, Part 630, Chapter 10 (peak factors)",
+      "Rational method (for water quality retention/detention)"
+    ],
+    "required_hydrologic_hydraulic_software": [],
+    "approved_bmp_categories": [
+      "Retention systems (depressional areas, shallow landscaped areas, vegetated swales)",
+      "Dry retention/detention",
+      "Wet detention",
+      "Exfiltration trench (underground)",
+      "Above Ground Impoundment (AGI)",
+      "Grassed waterways / spreader swales"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "South Florida Water Management District (SFWMD)",
+      "page_or_section": "Title / district handbook"
+    },
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "South Florida Water Management District (SFWMD)",
+      "page_or_section": "Title / district handbook"
+    },
+    {
+      "field": "document_metadata.jurisdiction_level",
+      "excerpt": "Florida water management district (ERP Applicant's Handbook Volume II)",
+      "page_or_section": "Chapter 62-330, F.A.C. / district handbook"
+    },
+    {
+      "field": "document_metadata.state_code",
+      "excerpt": "South Florida Water Management District Clerk's Office, 3301 Gun Club Road, West Palm Beach, FL 33406",
+      "page_or_section": "Section 4.1.1 / references"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "ENVIRONMENTAL RESOURCE PERMIT APPLICANT'S HANDBOOK VOLUME II FOR USE WITHIN THE GEOGRAPHIC LIMITS OF THE SOUTH FLORIDA WATER MANAGEMENT DISTRICT",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.version_or_edition",
+      "excerpt": "AH VOL. II (6/28/24)",
+      "page_or_section": "Header / Title Page"
+    },
+    {
+      "field": "document_metadata.adoption_or_effective_date",
+      "excerpt": "EFFECTIVE JUNE 28, 2024",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.last_revised_date",
+      "excerpt": "EFFECTIVE JUNE 28, 2024",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.relationship_to_state_manual",
+      "excerpt": "This Volume provides specific, detailed stormwater quality and quantity design and performance criteria for SWM systems regulated by the District through the ERP program authorized under Part IV of Chapter 373, F.S.",
+      "page_or_section": "Section 1.0 Introduction"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "Unless otherwise specified by previous Agency permits, criteria, or Appendix A to this Volume, a 25-year, 3-day storm event shall be used in computing off-site discharge rates.",
+      "page_or_section": "Section 3.2 Design Storm"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "Building floors shall be at or above the 100-year flood elevations... Both tidal flooding and the 100-year, 3-day storm event shall be considered in determining elevations.",
+      "page_or_section": "Section 3.3 Flood Protection of Building Floors"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "Road crown: Frequency: 5-year... Parking lots: Frequency: 5-year",
+      "page_or_section": "Section 3.4 Flood Protection of Roads and Parking Lots"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "Commercial or industrial zoned projects shall provide a minimum of 20% of the load reduction required by AH Vol. I in a retention BMP or a separate containment system designed to prevent discharge.",
+      "page_or_section": "Section 4.1.1 Land Use and Coverage Criteria"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "Systems shall be designed for the water quality requirements set forth in AH Vol. I, exfiltrated over one hour for retention purposes, prior to overflow, and based on test data for the site.",
+      "page_or_section": "Section 4.3 Underground Exfiltration Trench Systems"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "Unlike detention basins, the treatment volume for retention systems is not discharged to surface waters.",
+      "page_or_section": "Section 5.2.1 Retention System Description"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "An acceptable historic peak discharge analysis typically consists of generating pre-development and post-development runoff hydrographs, routing the post-development hydrograph through a detention basin, and sizing an overflow structure to control post-development discharges at or below pre-development rates.",
+      "page_or_section": "Section 3.2.1 Methodologies"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "Historic peak discharge calculations must make proper use of the SCS Peak Rate Factor or K' Factor.",
+      "page_or_section": "Section 3.2.1 Methodologies"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "The usual methods of computation are as follows: (a) Rainfall minus losses and storage. (b) U.S. Department of Agriculture, Natural Resources Conservation Service, \"National Engineering Handbook, Section 4, Part 630, Chapter 10 – 2004.\" ... (c) Rational method, for water quality retention/detention purposes.",
+      "page_or_section": "Section 5.6.6 Runoff"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Examples of retention systems include: (a) Man-made or natural depressional areas... (b) Shallow landscaped areas designed to store stormwater; and (c) Vegetated swales with swale blocks or raised inlets.",
+      "page_or_section": "Section 5.2.1 Retention System"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Wet detention systems... Dry retention/detention areas... Exfiltration trench systems",
+      "page_or_section": "Sections 5.2.3, 5.3, 5.5"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "\"Above Ground Impoundment (AGI)\" – a type of dam... Appendix B AGIs... Appendix C Exfiltration System Trench Design",
+      "page_or_section": "Section 2.1.1; Appendices"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "high",
+    "needs_human_review": true,
+    "review_notes": "Canonical SFWMD ERP AH Vol II special_district record. City proxies (miami-fl, etc.) remain for municipal map coverage.",
+    "fields_not_found": [
+      "design_criteria.required_hydrologic_hydraulic_software"
+    ]
+  },
+  "source": {
+    "document_url": "https://www.sfwmd.gov/sites/default/files/documents/swerp_applicants_handbook_vol_ii.pdf",
+    "landing_page_url": "https://www.sfwmd.gov/",
+    "retrieved_at": "2026-08-11T18:38:36.243Z",
+    "original_filename": "fl-sfwmd-erp-ah2.pdf"
+  }
+}

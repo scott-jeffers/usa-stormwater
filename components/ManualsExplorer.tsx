@@ -4,7 +4,7 @@ import { Fragment, useMemo, useState } from "react";
 import Link from "next/link";
 import type { ManualListItem } from "@/lib/data";
 import { STATE_CODE_TO_NAME } from "@/lib/usStates";
-import { ConfidenceBadge, LevelBadge, NeedsReviewBadge, StateBadge } from "@/components/Badge";
+import { ConfidenceBadge, LevelBadge, NeedsReviewBadge, StateBadge, AgencyBadge } from "@/components/Badge";
 import { CoverageMap, type LocalityMarker } from "@/components/CoverageMap";
 import { lookupCityCoordinates } from "@/lib/geoCenters";
 
@@ -16,21 +16,63 @@ const CONFIDENCE_RANK: Record<string, number> = { low: 0, medium: 1, high: 2 };
 const CONTROL =
   "h-9 w-full rounded-md border border-slate-300 bg-white px-3 text-sm text-slate-900 focus:border-water focus:outline-none focus:ring-2 focus:ring-water/20";
 
-function formatDate(iso: string): string {
-  try {
-    return new Date(iso).toLocaleDateString(undefined, {
+function formatManualDate(value: string | null | undefined): string {
+  if (!value) return "—";
+  const trimmed = value.trim();
+  // Bare year from edition fallback (e.g. "2014")
+  if (/^\d{4}$/.test(trimmed)) return trimmed;
+
+  const ym = /^(\d{4})-(\d{2})$/.exec(trimmed);
+  if (ym) {
+    const d = new Date(Number(ym[1]), Number(ym[2]) - 1, 1);
+    return d.toLocaleDateString(undefined, { year: "numeric", month: "short" });
+  }
+  const ymd = /^(\d{4})-(\d{2})-(\d{2})/.exec(trimmed);
+  if (ymd) {
+    const d = new Date(
+      Number(ymd[1]),
+      Number(ymd[2]) - 1,
+      Number(ymd[3])
+    );
+    return d.toLocaleDateString(undefined, {
       year: "numeric",
       month: "short",
       day: "numeric",
     });
-  } catch {
-    return iso;
   }
+  try {
+    const d = new Date(value);
+    if (!Number.isNaN(d.getTime())) {
+      return d.toLocaleDateString(undefined, {
+        year: "numeric",
+        month: "short",
+        day: "numeric",
+      });
+    }
+  } catch {
+    /* fall through */
+  }
+  return value;
+}
+
+/** Sort key for revision dates; null/unparseable → NaN (sorted last). */
+function revisionSortTime(value: string | null | undefined): number {
+  if (!value) return Number.NaN;
+  const trimmed = value.trim();
+  if (/^\d{4}$/.test(trimmed)) return Date.UTC(Number(trimmed), 0, 1);
+  const ym = /^(\d{4})-(\d{2})$/.exec(trimmed);
+  if (ym) return Date.UTC(Number(ym[1]), Number(ym[2]) - 1, 1);
+  const ymd = /^(\d{4})-(\d{2})-(\d{2})/.exec(trimmed);
+  if (ymd)
+    return Date.UTC(Number(ymd[1]), Number(ymd[2]) - 1, Number(ymd[3]));
+  const t = new Date(value).getTime();
+  return Number.isNaN(t) ? Number.NaN : t;
 }
 
 export function ManualsExplorer({ manuals }: { manuals: ManualListItem[] }) {
   const [search, setSearch] = useState("");
   const [levelFilter, setLevelFilter] = useState<string>("all");
+  const [agencyFilter, setAgencyFilter] = useState<string>("all");
   const [stateFilter, setStateFilter] = useState<string | null>(null);
   const [confidenceFilter, setConfidenceFilter] = useState<string>("all");
   const [needsReviewOnly, setNeedsReviewOnly] = useState(false);
@@ -109,6 +151,18 @@ export function ManualsExplorer({ manuals }: { manuals: ManualListItem[] }) {
       if (levelFilter !== "all" && record.jurisdiction_level !== levelFilter) {
         return false;
       }
+      if (agencyFilter === "dot") {
+        if (record.issuing_agency_category !== "dot") return false;
+      } else if (agencyFilter === "dep_deq") {
+        if (
+          record.issuing_agency_category !== "dep_deq" &&
+          record.issuing_agency_category !== "dnr"
+        ) {
+          return false;
+        }
+      } else if (agencyFilter === "none") {
+        if (record.issuing_agency_category) return false;
+      }
       if (stateFilter && record.state_code !== stateFilter) {
         return false;
       }
@@ -123,7 +177,15 @@ export function ManualsExplorer({ manuals }: { manuals: ManualListItem[] }) {
       }
       return true;
     });
-  }, [manuals, search, levelFilter, stateFilter, confidenceFilter, needsReviewOnly]);
+  }, [
+    manuals,
+    search,
+    levelFilter,
+    agencyFilter,
+    stateFilter,
+    confidenceFilter,
+    needsReviewOnly,
+  ]);
 
   const sorted = useMemo(() => {
     const dirMultiplier = sortDir === "asc" ? 1 : -1;
@@ -135,12 +197,16 @@ export function ManualsExplorer({ manuals }: { manuals: ManualListItem[] }) {
               b.jurisdiction_level
             ) * dirMultiplier
           );
-        case "date":
-          return (
-            (new Date(a.processedAt).getTime() -
-              new Date(b.processedAt).getTime()) *
-            dirMultiplier
-          );
+        case "date": {
+          const aT = revisionSortTime(a.revisedAt);
+          const bT = revisionSortTime(b.revisedAt);
+          const aMissing = Number.isNaN(aT);
+          const bMissing = Number.isNaN(bT);
+          if (aMissing && bMissing) return 0;
+          if (aMissing) return 1;
+          if (bMissing) return -1;
+          return (aT - bT) * dirMultiplier;
+        }
         case "confidence":
           return (
             (CONFIDENCE_RANK[a.confidence] -
@@ -185,6 +251,7 @@ export function ManualsExplorer({ manuals }: { manuals: ManualListItem[] }) {
   function clearFilters() {
     setSearch("");
     setLevelFilter("all");
+    setAgencyFilter("all");
     setStateFilter(null);
     setConfidenceFilter("all");
     setNeedsReviewOnly(false);
@@ -193,6 +260,7 @@ export function ManualsExplorer({ manuals }: { manuals: ManualListItem[] }) {
   const hasActiveFilters =
     search !== "" ||
     levelFilter !== "all" ||
+    agencyFilter !== "all" ||
     stateFilter !== null ||
     confidenceFilter !== "all" ||
     needsReviewOnly;
@@ -252,6 +320,22 @@ export function ManualsExplorer({ manuals }: { manuals: ManualListItem[] }) {
                   {level.replace("_", " ")}
                 </option>
               ))}
+            </select>
+          </div>
+
+          <div>
+            <label className="mb-1 block text-xs font-medium text-slate-500">
+              Agency
+            </label>
+            <select
+              value={agencyFilter}
+              onChange={(e) => setAgencyFilter(e.target.value)}
+              className={CONTROL}
+            >
+              <option value="all">All agencies</option>
+              <option value="dot">DOT</option>
+              <option value="dep_deq">DEP / DEQ</option>
+              <option value="none">No agency tag</option>
             </select>
           </div>
 
@@ -374,7 +458,7 @@ export function ManualsExplorer({ manuals }: { manuals: ManualListItem[] }) {
                   />
                   <th className="px-4 py-3 font-medium">State</th>
                   <SortableHeader
-                    label="Date Processed"
+                    label="Revised"
                     active={sortKey === "date"}
                     dir={sortDir}
                     onClick={() => toggleSort("date")}
@@ -515,13 +599,16 @@ function ManualRow({ record }: { record: ManualListItem }) {
         </div>
       </td>
       <td className="px-4 py-3">
-        <LevelBadge level={record.jurisdiction_level} />
+        <div className="flex flex-wrap gap-1.5">
+          <LevelBadge level={record.jurisdiction_level} />
+          <AgencyBadge category={record.issuing_agency_category} />
+        </div>
       </td>
       <td className="px-4 py-3">
         <StateBadge stateCode={record.state_code} showName />
       </td>
       <td className="px-4 py-3 text-slate-600">
-        {formatDate(record.processedAt)}
+        {formatManualDate(record.revisedAt)}
       </td>
       <td className="px-4 py-3">
         <ConfidenceBadge confidence={record.confidence} />
@@ -555,13 +642,14 @@ function ManualCard({ record }: { record: ManualListItem }) {
 
       <div className="mt-3 flex flex-wrap gap-1.5">
         <LevelBadge level={record.jurisdiction_level} />
+        <AgencyBadge category={record.issuing_agency_category} />
         <StateBadge stateCode={record.state_code} />
         <ConfidenceBadge confidence={record.confidence} />
         <NeedsReviewBadge needsReview={record.needs_human_review} />
       </div>
 
       <div className="mt-3 text-xs text-slate-500">
-        Processed {formatDate(record.processedAt)}
+        Revised {formatManualDate(record.revisedAt)}
       </div>
     </article>
   );

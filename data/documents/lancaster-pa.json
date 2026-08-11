@@ -1,0 +1,84 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "City of Lancaster",
+    "jurisdiction_level": "municipality",
+    "state_code": "PA",
+    "document_title": "City of Lancaster Green Infrastructure Design Manual",
+    "version_or_edition": "Final June 2024 (Revision 2.0)",
+    "adoption_or_effective_date": "2024-06",
+    "last_revised_date": "2024-06",
+    "relationship_to_state_manual": "independent"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [2, 10, 25, 50, 100],
+    "water_quality_volume_method": "At least the first 1.25 inches of runoff from new impervious surfaces shall be permanently removed (reuse, evaporation, transpiration, and infiltration). Retention volume VRT is the larger of that 1.25-inch volume or the change in runoff volume from the 2-year/24-hour storm.",
+    "peak_flow_calculation_method": [
+      "NRCS Curve Number Method",
+      "Rational Method",
+      "Modified Rational Method",
+      "WinTR-55 / TR-55",
+      "HEC-HMS"
+    ],
+    "required_hydrologic_hydraulic_software": [],
+    "approved_bmp_categories": [
+      "Bioretention/Bioinfiltration",
+      "Porous Pavement",
+      "Green Roofs",
+      "Subsurface Infiltration",
+      "Cisterns",
+      "Naturalized Basins",
+      "Stormwater Wetlands"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "City of Lancaster Green Infrastructure Design Manual",
+      "page_or_section": "Cover / revision history"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "GREEN INFRASTRUCTURE DESIGN MANUAL Final June 2024",
+      "page_or_section": "Cover"
+    },
+    {
+      "field": "document_metadata.version_or_edition",
+      "excerpt": "Revisions to support adoption of the City's updated 2022 Stormwater Management Ordinance — October 2023 (draft) June 2024 (final)",
+      "page_or_section": "Revision history"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "At least the first one and a quarter inch (1.25\") of runoff from new impervious surfaces shall be permanently removed from the runoff flow, that is, it shall not be released into the surface Waters of the Commonwealth or Combined Sewer System. Removal options include reuse, evaporation, transpiration and infiltration.",
+      "page_or_section": "Section 2.3.1 Volume Control"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "For the 2, 10, 25, 50, and 100-year storm events, the post-development peak discharge rates will follow the applicable release rate map. (SWM Ordinance §260-304.B).",
+      "page_or_section": "Section 2.3.2 Rate Control"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "The NRCS Curve Number Method is the preferred method used to estimate site stormwater runoff from a given storm. ... project sites less than 25 acres may be sized for capacity using the Rational Method.",
+      "page_or_section": "Chapter 4 Methodology"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "This includes bioretention, porous pavement, green roofs, cisterns for reuse, naturalized basins and stormwater wetlands.",
+      "page_or_section": "Chapter 3 / Chapter 5 BMP guidance"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "high",
+    "needs_human_review": true,
+    "review_notes": "Extracted from City of Lancaster GI Design Manual Final June 2024 PDF. Companion fee/credit policy: lancaster-pa-swmf (SWMF Policies and Procedures Manual, amended Feb 2023).",
+    "fields_not_found": [
+      "design_criteria.required_hydrologic_hydraulic_software"
+    ]
+  },
+  "source": {
+    "document_url": "https://www.cityoflancasterpa.gov/wp-content/uploads/2021/01/2024-6-21_Lancaster-SW-Guidance-Manual_FINAL.pdf",
+    "landing_page_url": "https://www.cityoflancasterpa.gov/stormwater-information/green-infrastructure/",
+    "retrieved_at": "2026-08-11T18:15:00.000Z",
+    "original_filename": "2024-6-21_Lancaster-SW-Guidance-Manual_FINAL.pdf"
+  }
+}

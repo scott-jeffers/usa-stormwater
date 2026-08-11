@@ -1,0 +1,84 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "Ohio Department of Transportation (ODOT)",
+    "jurisdiction_level": "state",
+    "state_code": "OH",
+    "document_title": "Location & Design Manual, Volume 2 — Drainage Design",
+    "version_or_edition": "July 2022",
+    "adoption_or_effective_date": null,
+    "last_revised_date": null,
+    "relationship_to_state_manual": "independent",
+    "issuing_agency_category": "dot"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [
+      2,
+      5,
+      10,
+      25,
+      50,
+      100,
+      500
+    ],
+    "water_quality_volume_method": "Water Quality Volume WSE Water Surface Elevation Reference Documents AASHTO Model Drainage Manual (2005) AASHTO Drainage Manual Volume 1 - Policy (2014) Highway Hydrology (FHWA Hydraulic Design Series No",
+    "peak_flow_calculation_method": [
+      "Rational Method",
+      "HEC-RAS",
+      "USGS regression equations"
+    ],
+    "required_hydrologic_hydraulic_software": [
+      "HEC-RAS"
+    ],
+    "approved_bmp_categories": [
+      "Infiltration Basin",
+      "Extended Detention",
+      "Filter Strip",
+      "Detention Basin",
+      "Retention Basin"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "Ohio Department of Transportation (ODOT)",
+      "page_or_section": "Title / header"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "Location & Design Manual, Volume 2 — Drainage Design",
+      "page_or_section": "Title / header"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "atory standard also referred to as the \"100-year flood\" or the “1% AEP flood.” The base flood is the national standard used by t",
+      "page_or_section": null
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "and ground cover, which is used in the Rational formula to determine the amount of a rainfall which is directed to streams and",
+      "page_or_section": null
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "Water Quality Volume WSE Water Surface Elevation Reference Documents AASHTO Model Drainage Manual (2005) AASHTO Drainage Manual Volume 1 - Policy (2014) Highway Hydrology (FHWA Hydraulic Design Series No",
+      "page_or_section": null
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Infiltration Basin, Extended Detention, Filter Strip, Detention Basin",
+      "page_or_section": null
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "medium",
+    "needs_human_review": true,
+    "review_notes": "Heuristic agency extract from prepared text. ODOT Location & Design Manual Volume 2 Drainage Design (July 2022 archive PDF; live manual is web)",
+    "fields_not_found": []
+  },
+  "source": {
+    "document_url": "https://dam.assets.ohio.gov/image/upload/transportation.ohio.gov/hydraulic/ld2/archive/2022-07-LD2.pdf",
+    "landing_page_url": "https://www.transportation.ohio.gov/working/publications/location-design-vol-2-jump",
+    "retrieved_at": "2026-08-11T17:21:06.010Z",
+    "original_filename": "oh-odot-drainage.pdf"
+  }
+}

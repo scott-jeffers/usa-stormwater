@@ -1,0 +1,71 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "South Carolina",
+    "jurisdiction_level": "state",
+    "state_code": "SC",
+    "document_title": "SCDOT Stormwater Quality Design Manual",
+    "version_or_edition": null,
+    "adoption_or_effective_date": null,
+    "last_revised_date": null,
+    "relationship_to_state_manual": "independent",
+    "issuing_agency_category": "dot"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [
+      10,
+      100
+    ],
+    "water_quality_volume_method": "water quality volume",
+    "peak_flow_calculation_method": [],
+    "required_hydrologic_hydraulic_software": [],
+    "approved_bmp_categories": [
+      "Bioretention",
+      "Infiltration Trench",
+      "Wet Pond",
+      "Dry Pond",
+      "Filter Strip"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "South Carolina",
+      "page_or_section": "Title / header"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "SCDOT Stormwater Quality Design Manual",
+      "page_or_section": "Title / header"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "(TSS) for disturbed conditions for the 10-year, 24-hour storm event. When selecting Standard SCDOT BMPs with an applicable SCD",
+      "page_or_section": null
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "water quality volume",
+      "page_or_section": null
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Bioretention, Infiltration Trench, Wet Pond, Dry Pond",
+      "page_or_section": null
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "medium",
+    "needs_human_review": true,
+    "review_notes": "Heuristic agency extract from prepared text. SCDOT Stormwater Quality Design Manual (SWQDM)",
+    "fields_not_found": [
+      "design_criteria.peak_flow_calculation_method",
+      "design_criteria.required_hydrologic_hydraulic_software"
+    ]
+  },
+  "source": {
+    "document_url": "https://www.scdot.org/content/dam/scdot-legacy/business/pdf/stormwater/SCDOT_SWQDM.pdf",
+    "landing_page_url": "https://www.scdot.org/",
+    "retrieved_at": "2026-08-11T17:59:10.535Z",
+    "original_filename": "sc-scdot-drainage.pdf"
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "St. Johns River Water Management District (SJRWMD)",
+    "jurisdiction_level": "special_district",
+    "state_code": "FL",
+    "document_title": "Environmental Resource Permit Applicant's Handbook Volume II (St. Johns River Water Management District)",
+    "version_or_edition": "June 28, 2024",
+    "adoption_or_effective_date": null,
+    "last_revised_date": null,
+    "relationship_to_state_manual": "adopts_state_manual_directly"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [
+      5,
+      10,
+      25,
+      100
+    ],
+    "water_quality_volume_method": "Minimum state water quality treatment and performance standards are those in statewide ERP Applicant's Handbook Volume I; SJRWMD Volume II provides District-specific design/performance standards for water quality and quantity, erosion/sediment control, and BMP criteria within SJRWMD geographic limits (Part IV Stormwater Quality).",
+    "peak_flow_calculation_method": [
+      "Rational Method",
+      "NRCS / SCS Curve Number (TR-55)",
+      "Modified Rational Method"
+    ],
+    "required_hydrologic_hydraulic_software": [],
+    "approved_bmp_categories": [
+      "Wet Pond",
+      "Vegetated Swale",
+      "Detention Basin",
+      "Retention Basin"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "St. Johns River Water Management District",
+      "page_or_section": "Title / header"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "SJRWMD ERP Applicant's Handbook Volume II",
+      "page_or_section": "Title / header"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "ting centerline road grade is above the 10-year flood elevation, and provided that no increase in upstream flooding is caused.",
+      "page_or_section": null
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "e in 40C-4.091(1)(e)). (b) The modified rational method (see Appendix C of this Volume, incorporated by reference in 40C-4.091(1",
+      "page_or_section": null
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Wet Pond, Vegetated Swale, Detention Basin, Retention Basin",
+      "page_or_section": null
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "Design and performance standards and criteria for water quality and quantity ... Part IV - Stormwater Quality",
+      "page_or_section": "Introduction / Part IV"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "medium",
+    "needs_human_review": true,
+    "review_notes": "Canonical SJRWMD ERP AH Vol II special_district record. Heuristic bootstrap extract; needs human review. East-FL city placeholders point here.",
+    "fields_not_found": [
+      "design_criteria.required_hydrologic_hydraulic_software"
+    ]
+  },
+  "source": {
+    "document_url": "https://aws.sjrwmd.com/SJRWMD/permitting/SJRWMD_Applicants_Handbook_Volume_II_6-28-24.pdf",
+    "landing_page_url": "https://www.sjrwmd.com/",
+    "retrieved_at": "2026-08-11T18:39:24.874Z",
+    "original_filename": "fl-sjrwmd-erp-ah2.pdf"
+  }
+}

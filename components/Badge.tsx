@@ -213,3 +213,56 @@ export function StateBadge({
     </span>
   );
 }
+
+const AGENCY_STYLES: Record<"dot" | "dep_deq" | "other", string> = {
+  dot: "bg-amber-50 text-amber-900 ring-amber-700/20",
+  dep_deq: "bg-emerald-50 text-emerald-900 ring-emerald-700/20",
+  other: "bg-slate-100 text-slate-700 ring-slate-500/15",
+};
+
+function HighwayIcon({ className }: { className?: string }) {
+  return (
+    <svg viewBox="0 0 16 16" className={className} aria-hidden="true">
+      <path
+        fill="currentColor"
+        d="M3 1.5h10l1.5 13h-13L3 1.5zm1.2 1.5-.9 8h1.4l.2-1.5h2.4L7.1 11h1.4l.2-1.5h2.4l.2 1.5h1.4l-.9-8H4.2zm1.1 2h1.35l.15 1.2H5.45L5.3 5zm3.9 0H12.2l-.15 1.2H9.05L9.2 5zM5.15 8h1.5l.15 1.2H5.3L5.15 8zm3.95 0H12l-.15 1.2H9.25L9.1 8z"
+      />
+    </svg>
+  );
+}
+
+function LeafIcon({ className }: { className?: string }) {
+  return (
+    <svg viewBox="0 0 16 16" className={className} aria-hidden="true">
+      <path
+        fill="currentColor"
+        d="M13.5 2.5c-3.5-.2-6.8 1.2-8.6 3.8C3.2 8.5 2.8 11 3.5 13c1.8-.4 3.5-1.5 4.6-3.1.4.9.6 1.9.5 2.9h1.5c.2-1.8 0-3.6-.7-5.2 1.8-1.3 4-1.9 6.1-1.7V2.5z"
+      />
+    </svg>
+  );
+}
+
+/** Agency-type badge — DOT gets a distinct highway icon. */
+export function AgencyBadge({
+  category,
+}: {
+  category: "dot" | "dep_deq" | "dnr" | "other" | null | undefined;
+}) {
+  if (!category) return null;
+  const key = category === "dnr" ? "dep_deq" : category;
+  if (key !== "dot" && key !== "dep_deq" && key !== "other") return null;
+
+  const label =
+    key === "dot" ? "DOT" : key === "dep_deq" ? "DEP / DEQ" : "Agency";
+  const Icon = key === "dot" ? HighwayIcon : LeafIcon;
+
+  return (
+    <span
+      className={`inline-flex items-center gap-1 rounded-full px-2.5 py-0.5 text-xs font-medium ring-1 ring-inset ${AGENCY_STYLES[key]}`}
+      title={label}
+    >
+      <Icon className="h-3 w-3 shrink-0" />
+      {label}
+    </span>
+  );
+}

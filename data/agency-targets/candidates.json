@@ -1,0 +1,1418 @@
+{
+  "generatedAt": "2026-08-11T17:30:51.405Z",
+  "filters": {
+    "category": "dep_deq",
+    "state": null,
+    "dryRun": false,
+    "skipValidate": false,
+    "limit": 20
+  },
+  "count": 20,
+  "results": [
+    {
+      "state_code": "AZ",
+      "agency_category": "dep_deq",
+      "agency_abbrev": "ADEQ",
+      "expected_id": "az-adeq-stormwater",
+      "expected_title": "ADEQ Stormwater Design / BMP Guidance",
+      "reason": "missing",
+      "landing_page_url": "https://www.azdeq.gov/node/515",
+      "domains": [
+        "azdeq.gov"
+      ],
+      "candidates": [
+        {
+          "url": "https://azdot.gov/business/environmental-planning/water-resources/manuals-and-agreements-water-resources",
+          "title_guess": "Manuals and Agreements - Water Resources | Department of ... - ADOT",
+          "source": "search",
+          "confidence": "low",
+          "fetch_ok": null
+        },
+        {
+          "url": "https://azdot.gov/sites/default/files/2019/06/maintenance-and-facilities-best-management-practices-manual.pdf",
+          "title_guess": "PDF ADOT Maintenance and Facilities BMP Manual",
+          "source": "search",
+          "confidence": "low",
+          "fetch_ok": true
+        },
+        {
+          "url": "https://azdeq.gov/Stormwater",
+          "title_guess": "What is Stormwater? | ADEQ - azdeq.gov",
+          "source": "search",
+          "confidence": "medium",
+          "fetch_ok": null
+        },
+        {
+          "url": "https://adeq.state.ar.us/water/permits/npdes/stormwater/",
+          "title_guess": "General Stormwater Permits | DEQ",
+          "source": "search",
+          "confidence": "medium",
+          "fetch_ok": null
+        },
+        {
+          "url": "https://www.casqa.org/resources/bmp-handbooks",
+          "title_guess": "BMP Handbooks - California Stormwater Quality Association",
+          "source": "search",
+          "confidence": "medium",
+          "fetch_ok": null
+        },
+        {
+          "url": "https://azdot.gov/sites/default/files/2024-11/2023ADOT_SWMPupdate.pdf",
+          "title_guess": "PDF Stormwater Management Plan - Adot",
+          "source": "search",
+          "confidence": "medium",
+          "fetch_ok": true
+        },
+        {
+          "url": "https://www.azwater.gov/sites/default/files/SS8-99Detention_Retention.PDF",
+          "title_guess": "PDF State Standard for Stormwater Detention/Retention",
+          "source": "search",
+          "confidence": "medium",
+          "fetch_ok": false,
+          "error": "HTTP 403"
+        },
+        {
+          "url": "https://www.azwater.gov/floodplain-management/forms",
+          "title_guess": "Arizona Model Ordinances &amp; Standards | Arizona Department of Water ...",
+          "source": "search",
+          "confidence": "low",
+          "fetch_ok": null
+        }
+      ]
+    },
+    {
+      "state_code": "CO",
+      "agency_category": "dep_deq",
+      "agency_abbrev": "CDPHE",
+      "expected_id": "co-cdphe-stormwater",
+      "expected_title": "Colorado Statewide Stormwater / MS4 Design Guidance",
+      "reason": "missing",
+      "landing_page_url": null,
+      "domains": [
+        "cdphe.colorado.gov"
+      ],
+      "candidates": [
+        {
+          "url": "https://cwcb.colorado.gov/public-information/technical-tools/floodplain-stormwater-criteria-manual",
+          "title_guess": "Floodplain Stormwater &amp; Criteria Manual | DNR CWCB - Colorado",
+          "source": "search",
+          "confidence": "medium",
+          "fetch_ok": null
+        },
+        {
+          "url": "https://spl.cde.state.co.us/artemis/nrmonos/nr38c862006internet/",
+          "title_guess": "Colorado floodplain and stormwater criteria manual.",
+          "source": "search",
+          "confidence": "medium",
+          "fetch_ok": null
+        },
+        {
+          "url": "https://www.codot.gov/programs/environmental/water-quality/stormwater-management-plans-swmps",
+          "title_guess": "Stormwater Management Plans (SWMPs) - Colorado Department of Transportation",
+          "source": "search",
+          "confidence": "medium",
+          "fetch_ok": null
+        },
+        {
+          "url": "https://hermes.cde.state.co.us/islandora/object/co:18245/datastream/OBJ/view",
+          "title_guess": "Chapter 4 StormwaterManagementPlan_61802",
+          "source": "search",
+          "confidence": "medium",
+          "fetch_ok": null
+        },
+        {
+          "url": "https://www.denvergov.org/files/assets/public/v/3/doti/documents/standards/pwes-005.1-storm_drainage_design_and_technical_criteria.pdf",
+          "title_guess": "PDF Denver Storm Drainage Design and Technical Criteria Manual",
+          "source": "search",
+          "confidence": "medium",
+          "fetch_ok": true
+        },
+        {
+          "url": "https://www.waterboards.ca.gov/rwqcb2/water_issues/programs/stormwater/muni/nrdc/urban%20storm%20drainage%20criteria%20manual.pdf",
+          "title_guess": "PDF http://www.udfcd.org/downloads/down_critmanual.htm",
+          "source": "search",
+          "confidence": "medium",
+          "fetch_ok": true
+        },
+        {
+          "url": "https://mhfd.org/files/650ef8104/USDCM_Volume_1_March_2024_Alt-Text+%282%29.pdf",
+          "title_guess": "PDF Urban Storm Drainage Volume 1 - mhfd.org",
+          "source": "search",
+          "confidence": "low",
+          "fetch_ok": true
+        },
+        {
+          "url": "https://mhfd.org/criteria-manual-volume-1",
+          "title_guess": "Criteria Manual Volume 1 - MHFD",
+          "source": "search",
+          "confidence": "low",
+          "fetch_ok": null
+        }
+      ]
+    },
+    {
+      "state_code": "HI",
+      "agency_category": "dep_deq",
+      "agency_abbrev": "HIDOH",
+      "expected_id": "hi-doh-stormwater",
+      "expected_title": "Hawaii DOH Stormwater BMP / Design Guidance",
+      "reason": "missing",
+      "landing_page_url": null,
+      "domains": [
+        "health.hawaii.gov"
+      ],
+      "candidates": [
+        {
+          "url": "https://www.stormwaterhawaii.com/wp-content/uploads/2021/09/Permanent-BMP-Manual-8-11-15-Update-8-12-21.pdf",
+          "title_guess": "PDF Storm Water Permanent Best Management Practices Manual",
+          "source": "search",
+          "confidence": "high",
+          "fetch_ok": true
+        },
+        {
+          "url": "https://www.honolulu.gov/dpp/wp-content/uploads/sites/56/2024/07/cch-sw-bmp-manual-construction.pdf",
+          "title_guess": "PDF City and County of Honolulu Storm Water Best Management Practice Manual",
+          "source": "search",
+          "confidence": "low",
+          "fetch_ok": true
+        },
+        {
+          "url": "https://hidot.hawaii.gov/wp-content/uploads/2015/05/Appx-E.1.A-HDOT-Highways-PBMP-Manual-April-2015-1.pdf",
+          "title_guess": "PDF Storm Water Permanent Best Management Practices Manual",
+          "source": "search",
+          "confidence": "medium",
+          "fetch_ok": true
+        },
+        {
+          "url": "https://www.honolulu.gov/dpp/wp-content/uploads/sites/56/2024/07/sw-bmp-guide-new-re-development.pdf",
+          "title_guess": "PDF Storm Water Bmp Guide for New and Redevelopment",
+          "source": "search",
+          "confidence": "low",
+          "fetch_ok": true
+        },
+        {
+          "url": "https://www.stormwaterhawaii.com/wp-content/uploads/2022/07/PC-BMP-Manual_220718-FULL.pdf",
+          "title_guess": "PDF Storm Water Post-Construction Best Management Practices Manual",
+          "source": "search",
+          "confidence": "high",
+          "fetch_ok": true
+        },
+        {
+          "url": "https://www.stormwaterhawaii.com/",
+          "title_guess": "Storm Water Hawaii - Hawaii Department of Transportation, Highways ...",
+          "source": "search",
+          "confidence": "medium",
+          "fetch_ok": null
+        },
+        {
+          "url": "https://records.hawaiicounty.gov/WebLink/1/doc/135101/Page14.aspx",
+          "title_guess": "COM 0074.037 2024-2026 - records.hawaiicounty.gov",
+          "source": "search",
+          "confidence": "medium",
+          "fetch_ok": null
+        },
+        {
+          "url": "https://files.hawaii.gov/dlnr/cwrm/planning/hsrar_handbook.pdf",
+          "title_guess": "PDF Final Handbook Stormwater R&amp;R BMP in Hawaii",
+          "source": "search",
+          "confidence": "high",
+          "fetch_ok": true
+        }
+      ]
+    },
+    {
+      "state_code": "KS",
+      "agency_category": "dep_deq",
+      "agency_abbrev": "KDHE",
+      "expected_id": "ks-kdhe-stormwater",
+      "expected_title": "KDHE Stormwater / BMP Design Manual",
+      "reason": "missing",
+      "landing_page_url": null,
+      "domains": [
+        "kdhe.ks.gov"
+      ],
+      "candidates": [
+        {
+          "url": "https://www.kdhe.ks.gov/756/Stormwater-Programs",
+          "title_guess": "Stormwater Programs | KDHE, KS",
+          "source": "search",
+          "confidence": "medium",
+          "fetch_ok": null
+        },
+        {
+          "url": "https://www.kdhe.ks.gov/757/Construction-Stormwater",
+          "title_guess": "NPDES Construction Stormwater Program | KDHE, KS",
+          "source": "search",
+          "confidence": "medium",
+          "fetch_ok": null
+        },
+        {
+          "url": "https://www.ksdot.gov/programs/stormwater-management/stormwater-control-measure-manual",
+          "title_guess": "Stormwater Control Measure Manual | Kansas Department Of Transportation",
+          "source": "search",
+          "confidence": "medium",
+          "fetch_ok": null
+        },
+        {
+          "url": "https://www.ksdot.gov/programs/stormwater-management/construction-stormwater-and-pollution-control",
+          "title_guess": "Construction Stormwater and Pollution Control | Kansas Department Of ...",
+          "source": "search",
+          "confidence": "medium",
+          "fetch_ok": null
+        },
+        {
+          "url": "https://www.wycokck.org/Departments/Public-Works/Environmental-Services/Stormwater-Runoff-Management/Stormwater-Regulations-Permits-Development-and-Certifications",
+          "title_guess": "Stormwater Regulations, Permits, Development &amp; Certifications",
+          "source": "search",
+          "confidence": "medium",
+          "fetch_ok": null
+        },
+        {
+          "url": "https://www.ksdot.gov/Home/Components/StaffDirectory/StaffDirectory/368/480?widgetId=2072",
+          "title_guess": "Stormwater Control Measure Manual | Kansas Department Of Transportation",
+          "source": "search",
+          "confidence": "medium",
+          "fetch_ok": null
+        },
+        {
+          "url": "https://www.kcwater.us/wp-content/uploads/2020/08/Manual-of-Best-Management-Practices-for-Stormwater-Quality.pdf",
+          "title_guess": "PDF APWA BMP Manual - MAR08 - KC Water",
+          "source": "search",
+          "confidence": "high",
+          "fetch_ok": true
+        },
+        {
+          "url": "https://www.portland.gov/sites/default/files/policies/enb-4.01-stormwater-management-manual-december-2020.pdf",
+          "title_guess": "portland-or",
+          "source": "reference",
+          "confidence": "high",
+          "fetch_ok": true
+        }
+      ]
+    },
+    {
+      "state_code": "KY",
+      "agency_category": "dep_deq",
+      "agency_abbrev": "KY DOW",
+      "expected_id": "ky-dow-stormwater",
+      "expected_title": "Kentucky Stormwater Design Manual",
+      "reason": "missing",
+      "landing_page_url": null,
+      "domains": [
+        "eec.ky.gov"
+      ],
+      "candidates": [
+        {
+          "url": "https://transportation.ky.gov/Stormwater/Pages/Technical-Resources.aspx",
+          "title_guess": "Technical-Resources | KYTC - Kentucky",
+          "source": "search",
+          "confidence": "medium",
+          "fetch_ok": null
+        },
+        {
+          "url": "https://eec.ky.gov/Environmental-Protection/Water/PermitCert/KPDES/Documents/KYG20_SWQMP_Guidance.pdf",
+          "title_guess": "PDF Kentucky Division of Water",
+          "source": "search",
+          "confidence": "medium",
+          "fetch_ok": true
+        },
+        {
+          "url": "https://hcky.org/DocumentCenter/View/380/Stormwater-Manual-2015-Revised-2011-PDF",
+          "title_guess": "Stormwater Manual - hcky.org",
+          "source": "search",
+          "confidence": "medium",
+          "fetch_ok": null
+        },
+        {
+          "url": "https://www.lexingtonky.gov/government/departments-programs/environmental-quality-public-works/water-quality/stormwater-storm-sewer-system",
+          "title_guess": "Stormwater and storm sewer system - City of Lexington, Kentucky",
+          "source": "search",
+          "confidence": "medium",
+          "fetch_ok": null
+        },
+        {
+          "url": "https://www.hkywater.org/DocumentCenter/View/120/Technical-Storm-Water-Manual-PDF",
+          "title_guess": "Technical Storm Water Manual",
+          "source": "search",
+          "confidence": "medium",
+          "fetch_ok": null
+        },
+        {
+          "url": "https://eec.ky.gov/Environmental-Protection/Water/PermitCert/KPDES/Documents/SWPPPPermitPage.pdf",
+          "title_guess": "PDF Stormwater Pollution Prevention Plan Best Management Practices Plan",
+          "source": "search",
+          "confidence": "medium",
+          "fetch_ok": true
+        },
+        {
+          "url": "https://www.bgky.org/stormwater/bmp",
+          "title_guess": "Stormwater Best Management Practices Manual - Bowling Green, Kentucky",
+          "source": "search",
+          "confidence": "medium",
+          "fetch_ok": null
+        },
+        {
+          "url": "https://shelbyvillekentucky.com/191/Stormwater-Best-Management-Practices-Man",
+          "title_guess": "Stormwater Best Management Practices Manual | Shelbyville, KY",
+          "source": "search",
+          "confidence": "medium",
+          "fetch_ok": null
+        }
+      ]
+    },
+    {
+      "state_code": "LA",
+      "agency_category": "dep_deq",
+      "agency_abbrev": "LDEQ",
+      "expected_id": "la-ldeq-stormwater",
+      "expected_title": "LDEQ Stormwater Design / BMP Manual",
+      "reason": "missing",
+      "landing_page_url": "https://deq.louisiana.gov/page/storm-water-protection",
+      "domains": [
+        "deq.louisiana.gov"
+      ],
+      "candidates": [
+        {
+          "url": "https://www.landcan.org/pdfs/Bayou_Land_Guidance_NO_BMP.176113438.pdf",
+          "title_guess": "Bayou_Land_Guidance_NO_BMP.176113438.pdf",
+          "source": "landing_page",
+          "confidence": "medium",
+          "fetch_ok": true
+        },
+        {
+          "url": "http://www.dnr.louisiana.gov/assets/docs/coastal/interagencyaff/nonpoint/BMP-Publication-Urban-Final.pdf",
+          "title_guess": "BMP-Publication-Urban-Final.pdf",
+          "source": "landing_page",
+          "confidence": "medium",
+          "fetch_ok": false,
+          "error": "Not a PDF (%PDF magic missing)"
+        },
+        {
+          "url": "https://www.epa.gov/sites/default/files/2015-11/documents/msgp_monitoring_guide.pdf",
+          "title_guess": "msgp_monitoring_guide.pdf",
+          "source": "landing_page",
+          "confidence": "medium",
+          "fetch_ok": true
+        },
+        {
+          "url": "https://deq.louisiana.gov/assets/docs/Water/WIFIAProgramFactSheet.pdf",
+          "title_guess": "WIFIAProgramFactSheet.pdf",
+          "source": "landing_page",
+          "confidence": "medium",
+          "fetch_ok": true
+        },
+        {
+          "url": "https://deq.louisiana.gov/assets/docs/Water/Stormwater/MS4_Technical_Assistance_Bulletin.pdf",
+          "title_guess": "MS4_Technical_Assistance_Bulletin.pdf",
+          "source": "landing_page",
+          "confidence": "high",
+          "fetch_ok": true
+        },
+        {
+          "url": "https://deq.louisiana.gov/assets/docs/Stormwater_Presentations/FundingResources_Brown.pdf",
+          "title_guess": "FundingResources_Brown.pdf",
+          "source": "landing_page",
+          "confidence": "high",
+          "fetch_ok": true
+        },
+        {
+          "url": "https://deq.louisiana.gov/assets/docs/Stormwater_Presentations/StateRevolvingLoan_Templet.pdf",
+          "title_guess": "StateRevolvingLoan_Templet.pdf",
+          "source": "landing_page",
+          "confidence": "high",
+          "fetch_ok": true
+        },
+        {
+          "url": "https://deq.louisiana.gov/assets/docs/Stormwater_Presentations/Barksdale_Airforce_Base_Traweek.pdf",
+          "title_guess": "Barksdale_Airforce_Base_Traweek.pdf",
+          "source": "landing_page",
+          "confidence": "high",
+          "fetch_ok": true
+        }
+      ]
+    },
+    {
+      "state_code": "ND",
+      "agency_category": "dep_deq",
+      "agency_abbrev": "NDDEQ",
+      "expected_id": "nd-deq-stormwater",
+      "expected_title": "North Dakota Stormwater Design Manual",
+      "reason": "missing",
+      "landing_page_url": null,
+      "domains": [
+        "deq.nd.gov"
+      ],
+      "candidates": [
+        {
+          "url": "https://www.dot.nd.gov/construction-and-planning/stormwater-management",
+          "title_guess": "Stormwater Management - NDDOT",
+          "source": "search",
+          "confidence": "medium",
+          "fetch_ok": null
+        },
+        {
+          "url": "https://www.dot.nd.gov/construction-and-planning/construction-and-contractor-resources/design-manual",
+          "title_guess": "Design Manual - NDDOT",
+          "source": "search",
+          "confidence": "medium",
+          "fetch_ok": null
+        },
+        {
+          "url": "https://deq.nd.gov/publications/wq/2_NDPDES/Stormwater/Construction/NDR11per20200401F.pdf",
+          "title_guess": "PDF North Dakota Department of Environmental Quality",
+          "source": "search",
+          "confidence": "high",
+          "fetch_ok": true
+        },
+        {
+          "url": "https://deq.nd.gov/WQ/2_NDPDES_Permits/8_Stormwater/StW.aspx",
+          "title_guess": "Stormwater - deq.nd.gov",
+          "source": "search",
+          "confidence": "medium",
+          "fetch_ok": null
+        },
+        {
+          "url": "https://regs.stormwaterworld.com/states/nd",
+          "title_guess": "North Dakota Stormwater Regulations | Stormwater Directory",
+          "source": "search",
+          "confidence": "medium",
+          "fetch_ok": null
+        },
+        {
+          "url": "https://www.stormwaterpermit.org/north-dakota",
+          "title_guess": "Stormwater Permit in North Dakota",
+          "source": "search",
+          "confidence": "medium",
+          "fetch_ok": null
+        },
+        {
+          "url": "https://www.dec.ny.gov/fs/docs/pdf/erosionsediment_bluebook.pdf",
+          "title_guess": "ny-bluebook",
+          "source": "reference",
+          "confidence": "low",
+          "fetch_ok": true
+        },
+        {
+          "url": "https://dec.ny.gov/environmental-protection/water/water-quality/stormwater/construction-stormwater-toolbox",
+          "title_guess": "ny-bluebook",
+          "source": "reference",
+          "confidence": "medium",
+          "fetch_ok": null
+        }
+      ]
+    },
+    {
+      "state_code": "NE",
+      "agency_category": "dep_deq",
+      "agency_abbrev": "NDEE",
+      "expected_id": "ne-ndee-stormwater",
+      "expected_title": "Nebraska Stormwater Design Manual",
+      "reason": "missing",
+      "landing_page_url": null,
+      "domains": [
+        "dee.ne.gov"
+      ],
+      "candidates": [
+        {
+          "url": "https://dwee.nebraska.gov/permitting/online-general-permit/construction-storm-water",
+          "title_guess": "Construction Storm Water | DWEE NE",
+          "source": "search",
+          "confidence": "medium",
+          "fetch_ok": null
+        },
+        {
+          "url": "https://www.lincoln.ne.gov/files/sharedassets/public/v/3/ltu/utilities/watershed-management/requirements-and-procedures/ndee-ner210000.pdf",
+          "title_guess": "PDF NDEE Permit NER210000 - Lincoln, Nebraska",
+          "source": "search",
+          "confidence": "high",
+          "fetch_ok": true
+        },
+        {
+          "url": "https://norfolkne.gov/assets/site/documentcentral/stormwater/stormwatermanagementplan/constructionstormwatermanagementprogramdraft20241205.pdf",
+          "title_guess": "PDF City of Norfolk CSW Manual",
+          "source": "search",
+          "confidence": "high",
+          "fetch_ok": false,
+          "error": "fetch failed"
+        },
+        {
+          "url": "https://dwee.nebraska.gov/resources-services/laws-regulations/rules-and-regulations",
+          "title_guess": "Rules and Regulations | DWEE NE - dwee.nebraska.gov",
+          "source": "search",
+          "confidence": "medium",
+          "fetch_ok": null
+        },
+        {
+          "url": "https://dot.nebraska.gov/business-center/design-consultant/rd-manuals/",
+          "title_guess": "Roadway Design Manuals - NDOT - Nebraska Department of Transportation",
+          "source": "search",
+          "confidence": "medium",
+          "fetch_ok": null
+        },
+        {
+          "url": "https://dot.nebraska.gov/business-center/environment/stormwater/",
+          "title_guess": "Stormwater Management - NDOT - Nebraska Department of Transportation",
+          "source": "search",
+          "confidence": "medium",
+          "fetch_ok": null
+        },
+        {
+          "url": "https://dot.nebraska.gov/business-center/environment/environmental-guidance-library/",
+          "title_guess": "Environmental Guidance Library - NDOT - Nebraska Department of ...",
+          "source": "search",
+          "confidence": "medium",
+          "fetch_ok": null
+        },
+        {
+          "url": "https://www.lincoln.ne.gov/files/sharedassets/public/v/1/ltu/utilities/watershed-management/best-management-practices/bmp-guidelines.pdf",
+          "title_guess": "PDF Stormwater Post Construction Best Management Practices (BMP) Guidance ...",
+          "source": "search",
+          "confidence": "medium",
+          "fetch_ok": true
+        }
+      ]
+    },
+    {
+      "state_code": "NM",
+      "agency_category": "dep_deq",
+      "agency_abbrev": "NMED",
+      "expected_id": "nm-nmed-stormwater",
+      "expected_title": "NMED Stormwater Design Manual",
+      "reason": "missing",
+      "landing_page_url": null,
+      "domains": [
+        "env.nm.gov"
+      ],
+      "candidates": [
+        {
+          "url": "https://www.env.nm.gov/surface-water-quality/point-source-regulation-section/",
+          "title_guess": "Point Source Regulation - New Mexico Environment Department",
+          "source": "search",
+          "confidence": "low",
+          "fetch_ok": null
+        },
+        {
+          "url": "https://regs.stormwaterworld.com/states/nm",
+          "title_guess": "New Mexico Stormwater Regulations | Stormwater Directory",
+          "source": "search",
+          "confidence": "medium",
+          "fetch_ok": null
+        },
+        {
+          "url": "https://www.dot.nm.gov/infrastructure/engineering-publications/design-manual/",
+          "title_guess": "Design Manual - NMDOT - New Mexico",
+          "source": "search",
+          "confidence": "medium",
+          "fetch_ok": null
+        },
+        {
+          "url": "https://gpstormwater.org/resources-by-state/new-mexico/",
+          "title_guess": "New Mexico Stormwater Resources",
+          "source": "search",
+          "confidence": "medium",
+          "fetch_ok": null
+        },
+        {
+          "url": "https://www.env.nm.gov/wp-content/uploads/sites/5/2017/08/RecommendedStandardsforWaterFacilities.pdf",
+          "title_guess": "PDF New Mexico Environment Department",
+          "source": "search",
+          "confidence": "low",
+          "fetch_ok": true
+        },
+        {
+          "url": "https://proswppp.com/new-mexico-swppp-requirements/",
+          "title_guess": "New Mexico SWPPP Requirements: 2026 Guide for Contractors",
+          "source": "search",
+          "confidence": "low",
+          "fetch_ok": null
+        },
+        {
+          "url": "https://cityrulelookup.com/states/new-mexico/environmental/stormwater",
+          "title_guess": "New Mexico Stormwater Management (2026) | CityRuleLookup",
+          "source": "search",
+          "confidence": "medium",
+          "fetch_ok": null
+        },
+        {
+          "url": "https://www.env.nm.gov/opf/wp-content/uploads/sites/13/2026/05/NMED-Rebuttal-Exhibit-7-Stormwater-Best-Management-Practices-Design-Guide-V1-EPA_600_R-04_121.pdf",
+          "title_guess": "PDF Stormwater Best Management Practice Design Guide:",
+          "source": "search",
+          "confidence": "high",
+          "fetch_ok": true
+        }
+      ]
+    },
+    {
+      "state_code": "NV",
+      "agency_category": "dep_deq",
+      "agency_abbrev": "NDEP",
+      "expected_id": "nv-ndep-stormwater",
+      "expected_title": "NDEP Stormwater Design / BMP Manual",
+      "reason": "missing",
+      "landing_page_url": null,
+      "domains": [
+        "ndep.nv.gov"
+      ],
+      "candidates": [
+        {
+          "url": "https://www.dot.nv.gov/doing-business/about-ndot/ndot-divisions/stormwater/resources-documents",
+          "title_guess": "Resources/Documents | Nevada Department of Transportation",
+          "source": "search",
+          "confidence": "medium",
+          "fetch_ok": null
+        },
+        {
+          "url": "https://ndep.nv.gov/water/water-pollution-control/resources/publications-technical-guidance",
+          "title_guess": "Publications &amp; Technical Guidance | NDEP - Nevada",
+          "source": "search",
+          "confidence": "medium",
+          "fetch_ok": null
+        },
+        {
+          "url": "https://www.clarkcountynv.gov/government/departments/water_quality/stormwater-regulatory-program",
+          "title_guess": "Welcome to Clark County, NV",
+          "source": "search",
+          "confidence": "medium",
+          "fetch_ok": null
+        },
+        {
+          "url": "https://geohub-ndot.hub.arcgis.com/pages/ndot-divisions-hydraulics",
+          "title_guess": "Hydraulics | NDOT GeoHub",
+          "source": "search",
+          "confidence": "low",
+          "fetch_ok": null
+        },
+        {
+          "url": "https://stormwatervegas.clarkcountynv.gov/",
+          "title_guess": "Clark County, Nevada - Stormwater",
+          "source": "search",
+          "confidence": "medium",
+          "fetch_ok": null
+        },
+        {
+          "url": "https://ndep.nv.gov/water/rivers-streams-lakes/bmp-nv-bmp-handbook",
+          "title_guess": "Nevada Best Management Practices Handbook - Online Toolbox",
+          "source": "search",
+          "confidence": "medium",
+          "fetch_ok": null
+        },
+        {
+          "url": "https://ndep.nv.gov/water/water-pollution-control/permitting/stormwater-discharge-permits",
+          "title_guess": "Stormwater Discharge Permits | NDEP - Nevada",
+          "source": "search",
+          "confidence": "medium",
+          "fetch_ok": null
+        },
+        {
+          "url": "https://regs.stormwaterworld.com/states/nv",
+          "title_guess": "Nevada Stormwater Regulations | Stormwater Directory",
+          "source": "search",
+          "confidence": "medium",
+          "fetch_ok": null
+        }
+      ]
+    },
+    {
+      "state_code": "OK",
+      "agency_category": "dep_deq",
+      "agency_abbrev": "ODEQ",
+      "expected_id": "ok-odeq-stormwater",
+      "expected_title": "Oklahoma DEQ Stormwater Design Manual",
+      "reason": "missing",
+      "landing_page_url": null,
+      "domains": [
+        "deq.ok.gov"
+      ],
+      "candidates": [
+        {
+          "url": "https://oklahoma.gov/deq/divisions/water-quality/wastewater-stormwater/stormwater.html",
+          "title_guess": "Stormwater - Oklahoma.gov",
+          "source": "search",
+          "confidence": "medium",
+          "fetch_ok": null
+        },
+        {
+          "url": "https://oklahoma.gov/odot/business-center/pre-construction-design/roadway-design/support-units/oklahoma-roadway-drainage-manual.html",
+          "title_guess": "Roadway Drainage Design Manual - Oklahoma.gov",
+          "source": "search",
+          "confidence": "medium",
+          "fetch_ok": null
+        },
+        {
+          "url": "https://www.odot.org/roadway/Rdy-rdydev.htm",
+          "title_guess": "Roadway&#x27;s Special Projects Branch - Oklahoma Department of Transportation",
+          "source": "search",
+          "confidence": "medium",
+          "fetch_ok": null
+        },
+        {
+          "url": "https://www.ou.edu/okh2o/resources/low-impact-development/general-lid-and-stormwater-regulation",
+          "title_guess": "General LID and Stormwater Regulation - The University of Oklahoma",
+          "source": "search",
+          "confidence": "medium",
+          "fetch_ok": null
+        },
+        {
+          "url": "https://www.okc.gov/Infrastructure-Development/Public-Works/Storm-Water-Quality",
+          "title_guess": "Storm Water Quality - City of OKC",
+          "source": "search",
+          "confidence": "low",
+          "fetch_ok": null
+        },
+        {
+          "url": "https://www.okc.gov/files/assets/city/v/1/public-works/documents/bmp-2018.pdf",
+          "title_guess": "PDF STORM WATER QUALITY BEST MANAGEMENT PRACTICES MANUAL 2018 for ...",
+          "source": "search",
+          "confidence": "medium",
+          "fetch_ok": true
+        },
+        {
+          "url": "https://oklahoma.gov/content/dam/ok/en/odot/programs-and-projects/projects/environmental/clean-water/stormwater/pdfs/BMP%20Catalog.pdf",
+          "title_guess": "PDF BEST MANAGEMENT PRACTICE CATALOG - Oklahoma.gov",
+          "source": "search",
+          "confidence": "high",
+          "fetch_ok": true
+        },
+        {
+          "url": "https://www.aqualisco.com/wp-content/uploads/2019/08/Oklahoma-City-Best-Management-Practices-Manual.pdf",
+          "title_guess": "PDF Best Management Practices Manual - AQUALIS",
+          "source": "search",
+          "confidence": "high",
+          "fetch_ok": true
+        }
+      ]
+    },
+    {
+      "state_code": "SD",
+      "agency_category": "dep_deq",
+      "agency_abbrev": "SD DANR",
+      "expected_id": "sd-danr-stormwater",
+      "expected_title": "South Dakota Stormwater Design Manual",
+      "reason": "missing",
+      "landing_page_url": null,
+      "domains": [
+        "danr.sd.gov"
+      ],
+      "candidates": [
+        {
+          "url": "https://danr.sd.gov/OfficeOfWater/SurfaceWaterQuality/stormwater/default.aspx",
+          "title_guess": "STORMWATER - South Dakota",
+          "source": "search",
+          "confidence": "medium",
+          "fetch_ok": null
+        },
+        {
+          "url": "https://danr.sd.gov/officeofwater/surfacewaterquality/stormwater/StormWaterConstruction.aspx",
+          "title_guess": "Stormwater Construction - South Dakota",
+          "source": "search",
+          "confidence": "medium",
+          "fetch_ok": null
+        },
+        {
+          "url": "https://dot.sd.gov/doing-business/engineering-design-services/forms-manuals/",
+          "title_guess": "Manuals - South Dakota Department of Transportation",
+          "source": "search",
+          "confidence": "medium",
+          "fetch_ok": null
+        },
+        {
+          "url": "https://dot.sd.gov/doing-business/environmental/stormwater",
+          "title_guess": "Stormwater - South Dakota Department of Transportation",
+          "source": "search",
+          "confidence": "medium",
+          "fetch_ok": null
+        },
+        {
+          "url": "https://dotfiles.sd.gov/wqep/WQEPM.pdf",
+          "title_guess": "PDF Water Quality Enhancement Program Design Manual",
+          "source": "search",
+          "confidence": "high",
+          "fetch_ok": true
+        },
+        {
+          "url": "https://dot.sd.gov/media/kywakwy4/escontrolsw.pdf",
+          "title_guess": "PDF ESC 2025 Manual only - dot.sd.gov",
+          "source": "search",
+          "confidence": "medium",
+          "fetch_ok": true
+        },
+        {
+          "url": "https://www.siouxfalls.gov/files/assets/public/v/1/planning-and-development/utility/water/stormwater/storm_water_master_plan_vol2.pdf",
+          "title_guess": "PDF Stormwater BMP Master Plan",
+          "source": "search",
+          "confidence": "medium",
+          "fetch_ok": true
+        },
+        {
+          "url": "https://regs.stormwaterworld.com/states/sd",
+          "title_guess": "South Dakota Stormwater Regulations | Stormwater Directory",
+          "source": "search",
+          "confidence": "medium",
+          "fetch_ok": null
+        }
+      ]
+    },
+    {
+      "state_code": "UT",
+      "agency_category": "dep_deq",
+      "agency_abbrev": "UDEQ",
+      "expected_id": "ut-udeq-stormwater",
+      "expected_title": "Utah Stormwater Design Manual",
+      "reason": "missing",
+      "landing_page_url": null,
+      "domains": [
+        "deq.utah.gov"
+      ],
+      "candidates": [
+        {
+          "url": "https://geodata.geology.utah.gov/pages/download.php?direct=1&noattach=true&ref=61105&ext=pdf",
+          "title_guess": "PDF UDOT Stormwater Quality Design Manual - Utah",
+          "source": "search",
+          "confidence": "medium",
+          "fetch_ok": null
+        },
+        {
+          "url": "https://connect.udot.utah.gov/business/contractor-stormwater-resources/construction-longterm-stormwater-management/",
+          "title_guess": "Construction and Long-Term Stormwater Management - UDOT",
+          "source": "search",
+          "confidence": "medium",
+          "fetch_ok": null
+        },
+        {
+          "url": "https://sslc.gov/DocumentCenter/View/1116/SSL-Stormwater-Design-Manual-PDF",
+          "title_guess": "Stormwater Design Manual",
+          "source": "search",
+          "confidence": "medium",
+          "fetch_ok": null
+        },
+        {
+          "url": "https://www.ogdencity.gov/DocumentCenter/View/32547/R2410_OgdenCityStormWaterDesignManual",
+          "title_guess": "Ogden City Storm Water Design Manual (Swdm)",
+          "source": "search",
+          "confidence": "medium",
+          "fetch_ok": null
+        },
+        {
+          "url": "https://connect.udot.utah.gov/docs/drainage-design-manual-of-instruction/",
+          "title_guess": "Drainage Design Manual of Instruction | UDOT",
+          "source": "search",
+          "confidence": "medium",
+          "fetch_ok": null
+        },
+        {
+          "url": "https://www.apwa.org/wp-content/uploads/sites/64/2025/08/BMP-Manual-State-of-Utah_USWAC_V2.0.pdf",
+          "title_guess": "PDF Preferred List of Stormwater Best Management Practices (BMP)",
+          "source": "search",
+          "confidence": "high",
+          "fetch_ok": false,
+          "error": "HTTP 403"
+        },
+        {
+          "url": "https://msd.utah.gov/DocumentCenter/View/1340/Stormwater-Construction-BMP-Manual",
+          "title_guess": "PreferredBMPList USWAC - msd.utah.gov",
+          "source": "search",
+          "confidence": "medium",
+          "fetch_ok": null
+        },
+        {
+          "url": "https://cms9files.revize.com/mapletonut/Stormwater/2025%20Update/BMP%20Manual.pdf",
+          "title_guess": "PDF BMP Manual - cms9files.revize.com",
+          "source": "search",
+          "confidence": "high",
+          "fetch_ok": true
+        }
+      ]
+    },
+    {
+      "state_code": "WY",
+      "agency_category": "dep_deq",
+      "agency_abbrev": "WYDEQ",
+      "expected_id": "wy-deq-stormwater",
+      "expected_title": "Wyoming DEQ Stormwater Design Manual",
+      "reason": "missing",
+      "landing_page_url": null,
+      "domains": [
+        "deq.wyoming.gov"
+      ],
+      "candidates": [
+        {
+          "url": "https://deq.wyoming.gov/water-quality/wypdes/discharge-permitting/storm-water-permitting/",
+          "title_guess": "Storm Water Permitting - Wyoming Department of Environmental Quality",
+          "source": "search",
+          "confidence": "medium",
+          "fetch_ok": null
+        },
+        {
+          "url": "https://www.dot.state.wy.us/files/live/sites/wydot/files/shared/Construction/WYDOT%20Storm%20Water%20Field%20Guide%204-6-11.pdf",
+          "title_guess": "PDF WYDOT BMP Field Guide - Wyoming Department of Transportation",
+          "source": "search",
+          "confidence": "medium",
+          "fetch_ok": true
+        },
+        {
+          "url": "https://deq.wyoming.gov/water-quality/wypdes/discharge-permitting/storm-water-permitting/large-and-small-construction-general-permit/",
+          "title_guess": "Large and Small Construction General Permit - Wyoming Department of ...",
+          "source": "search",
+          "confidence": "medium",
+          "fetch_ok": null
+        },
+        {
+          "url": "https://regs.stormwaterworld.com/states/wy",
+          "title_guess": "Wyoming Stormwater Regulations | Stormwater Directory",
+          "source": "search",
+          "confidence": "medium",
+          "fetch_ok": null
+        },
+        {
+          "url": "http://wwcb.state.wy.us/PDF/RulesAndRegulations/DEQ%20Chapter%2012.pdf",
+          "title_guess": "PDF F:&#92;COMMON&#92;Rules&#92;2006&#92;DEQ&#92;Water Quality&#92;ch12.PDF",
+          "source": "search",
+          "confidence": "low",
+          "fetch_ok": true
+        },
+        {
+          "url": "https://deq.wyoming.gov/water-quality/wypdes/discharge-permitting/storm-water-permitting/general-industrial-storm-water/",
+          "title_guess": "General Industrial Storm Water - Wyoming Department of Environmental ...",
+          "source": "search",
+          "confidence": "medium",
+          "fetch_ok": null
+        },
+        {
+          "url": "https://wsfd.wyo.gov/forest-management/bmp-s",
+          "title_guess": "Forestry Division - BMP&#x27;s - Wyoming",
+          "source": "search",
+          "confidence": "medium",
+          "fetch_ok": null
+        },
+        {
+          "url": "https://www.stormwaterpermit.org/wyoming",
+          "title_guess": "Stormwater Permit in Wyoming",
+          "source": "search",
+          "confidence": "medium",
+          "fetch_ok": null
+        }
+      ]
+    },
+    {
+      "state_code": "AR",
+      "agency_category": "dep_deq",
+      "agency_abbrev": "ADEQ",
+      "expected_id": "ar-adeq-stormwater",
+      "expected_title": "ADEQ Statewide Stormwater Design Manual",
+      "reason": "partial",
+      "landing_page_url": null,
+      "domains": [
+        "adeq.state.ar.us",
+        "adeq.state.ar.us"
+      ],
+      "candidates": [
+        {
+          "url": "https://adeq.state.ar.us/water/permits/npdes/stormwater/",
+          "title_guess": "General Stormwater Permits | DEQ - Arkansas Department of Energy and ...",
+          "source": "search",
+          "confidence": "medium",
+          "fetch_ok": null
+        },
+        {
+          "url": "https://adeq.state.ar.us/water/permits/npdes/stormwater/pdfs/construction/arr150000_final_permit_signed_ajy.pdf",
+          "title_guess": "PDF Operator of Facilities with Stormwater Discharges Associated with ...",
+          "source": "search",
+          "confidence": "high",
+          "fetch_ok": true
+        },
+        {
+          "url": "https://www.rogersar.gov/1193/Stormwater",
+          "title_guess": "STORMWATER | Rogers, AR - Official Website",
+          "source": "search",
+          "confidence": "medium",
+          "fetch_ok": null
+        },
+        {
+          "url": "https://media.ark.org/ardot/Erosion-and-Sediment-Control-Manual-12-6-16-Current-1.pdf",
+          "title_guess": "PDF Arkansas State Highway and Transportation Department",
+          "source": "search",
+          "confidence": "medium",
+          "fetch_ok": true
+        },
+        {
+          "url": "https://www.littlerock.gov/city-administration/board-of-directors/meeting-agenda/AGENDA%20-%20WEB%20-%2011-19-2024/Stormwater%20Manual%20Exhibit%20A.pdf",
+          "title_guess": "PDF Stormwater Management and Drainage Manual",
+          "source": "search",
+          "confidence": "high",
+          "fetch_ok": true
+        },
+        {
+          "url": "https://agriculture.arkansas.gov/forests/forest-management/best-management-practices-water-quality/",
+          "title_guess": "Best Management Practices - Water Quality - Arkansas Department of ...",
+          "source": "search",
+          "confidence": "low",
+          "fetch_ok": null
+        },
+        {
+          "url": "https://www.uaex.uada.edu/environment-nature/water/quality/forest-bmps.aspx",
+          "title_guess": "Arkansas Forestry Best Management Practices (BMPs) for Water Quality",
+          "source": "search",
+          "confidence": "low",
+          "fetch_ok": null
+        },
+        {
+          "url": "https://www.landcan.org/pdfs/ArkansasBMPbook.pdf",
+          "title_guess": "PDF ARkANSAS FORESTRY COMMISSION",
+          "source": "search",
+          "confidence": "low",
+          "fetch_ok": true
+        }
+      ]
+    },
+    {
+      "state_code": "FL",
+      "agency_category": "dep_deq",
+      "agency_abbrev": "FDEP",
+      "expected_id": "fl-fdep-design",
+      "expected_title": "Florida Stormwater Erosion and Sedimentation Control / Design Manual",
+      "reason": "partial",
+      "landing_page_url": "https://floridadep.gov/dear/florida-stormwater-erosion",
+      "domains": [
+        "floridadep.gov"
+      ],
+      "candidates": [
+        {
+          "url": "https://floridadep.gov/sites/default/files/css/css_7KdW7jBdGG09tjcmti-3a2LSrG058-PfYfqLXtKCJkM.css?delta=0&amp;language=en&amp;theme=basic&amp;include=eJx1y9EKwjAMheEX6ppHGkkbZ7BtSpKhe3tFBvPGu3P4-QhdCmxNCdvicTQZWypqDEX71MEjPJNqeBjOldBMdFnIGGuxvVPiV3zQA6rtE1s-b-pcBeEmLdhywRmiI827hvpTJsM1c6m_Za3HwC5lPRH8T1_phwd3IHR-A2yQUQw",
+          "title_guess": "css_7KdW7jBdGG09tjcmti-3a2LSrG058-PfYfqLXtKCJkM.css",
+          "source": "landing_page",
+          "confidence": "medium",
+          "fetch_ok": null
+        },
+        {
+          "url": "https://floridadep.gov/sites/default/files/css/css__JOnjQ4mBG3Qbc93qE40XBKcG-F9pudV-NFm4kXgIFo.css?delta=3&amp;language=en&amp;theme=basic&amp;include=eJx1y9EKwjAMheEX6ppHGkkbZ7BtSpKhe3tFBvPGu3P4-QhdCmxNCdvicTQZWypqDEX71MEjPJNqeBjOldBMdFnIGGuxvVPiV3zQA6rtE1s-b-pcBeEmLdhywRmiI827hvpTJsM1c6m_Za3HwC5lPRH8T1_phwd3IHR-A2yQUQw",
+          "title_guess": "css__JOnjQ4mBG3Qbc93qE40XBKcG-F9pudV-NFm4kXgIFo.css",
+          "source": "landing_page",
+          "confidence": "medium",
+          "fetch_ok": null
+        },
+        {
+          "url": "https://floridadep.gov/sites/default/files/css/css_LJVbz476StzfryQd89pIoD5NlhZ9_Wxuo46iwFmCKwg.css?delta=5&amp;language=en&amp;theme=basic&amp;include=eJx1y9EKwjAMheEX6ppHGkkbZ7BtSpKhe3tFBvPGu3P4-QhdCmxNCdvicTQZWypqDEX71MEjPJNqeBjOldBMdFnIGGuxvVPiV3zQA6rtE1s-b-pcBeEmLdhywRmiI827hvpTJsM1c6m_Za3HwC5lPRH8T1_phwd3IHR-A2yQUQw",
+          "title_guess": "css_LJVbz476StzfryQd89pIoD5NlhZ9_Wxuo46iwFmCKwg.css",
+          "source": "landing_page",
+          "confidence": "medium",
+          "fetch_ok": null
+        },
+        {
+          "url": "https://www.fsesci.com/downloads",
+          "title_guess": "downloads",
+          "source": "landing_page",
+          "confidence": "medium",
+          "fetch_ok": null
+        },
+        {
+          "url": "https://www.fsesci.com/downloads/",
+          "title_guess": null,
+          "source": "landing_page",
+          "confidence": "medium",
+          "fetch_ok": null
+        },
+        {
+          "url": "https://floridadep.gov/water/submerged-lands-environmental-resources-coordination/content/erp-stormwater",
+          "title_guess": "ERP Stormwater - Florida Department of Environmental Protection",
+          "source": "search",
+          "confidence": "medium",
+          "fetch_ok": null
+        },
+        {
+          "url": "https://floridadep.gov/water/engineering-hydrology-geology/content/erp-stormwater-resource-center",
+          "title_guess": "ERP Stormwater Resource Center - Florida Department of Environmental ...",
+          "source": "search",
+          "confidence": "medium",
+          "fetch_ok": null
+        },
+        {
+          "url": "https://www.fdot.gov/roadway/drainage/design-guide",
+          "title_guess": "Drainage Design Guide - Florida Department of Transportation",
+          "source": "search",
+          "confidence": "medium",
+          "fetch_ok": null
+        }
+      ]
+    },
+    {
+      "state_code": "IA",
+      "agency_category": "dep_deq",
+      "agency_abbrev": "Iowa DNR",
+      "expected_id": "ia-iswmm",
+      "expected_title": "Iowa Stormwater Management Manual (ISWMM)",
+      "reason": "partial",
+      "landing_page_url": "https://www.iowadnr.gov/environmental-protection/water-quality/stormwater-program/iswmm-manual",
+      "domains": [
+        "iowadnr.gov"
+      ],
+      "candidates": [
+        {
+          "url": "https://www.iowadnr.gov/sites/default/files/css/css__EwzFzH75RPVDZqJVlY-Jl9656aDloz5_1SszVP35r8.css?delta=0&amp;language=en&amp;theme=wildrose&amp;include=eJxtjm1OxDAMRC-UbY4UuclQovqjig2lnJ6sBNoV8M9-ejOauqP1sFG6NmisbHXPT3eqP8KAH6be31GCVkb-DUrrfjBdqdpAVhtC3D-R8BHcdc9tvB3Ey_eb3GonLjLrqdyJ5xfToBNugqWazPY54z_xL1riFYLklwckr-RIZ-c2zJE3tpX45nFNdXtwgTtt8AdRa0-5uRYRWISUTrqJDZ15_wLLZHnb",
+          "title_guess": "css__EwzFzH75RPVDZqJVlY-Jl9656aDloz5_1SszVP35r8.css",
+          "source": "landing_page",
+          "confidence": "medium",
+          "fetch_ok": null
+        },
+        {
+          "url": "https://www.iowadnr.gov/sites/default/files/css/css_Cus1x9rMBQ6L7uzyjX6M24jXXxuxdSDaXSKbdKXhHHk.css?delta=1&amp;language=en&amp;theme=wildrose&amp;include=eJxtjm1OxDAMRC-UbY4UuclQovqjig2lnJ6sBNoV8M9-ejOauqP1sFG6NmisbHXPT3eqP8KAH6be31GCVkb-DUrrfjBdqdpAVhtC3D-R8BHcdc9tvB3Ey_eb3GonLjLrqdyJ5xfToBNugqWazPY54z_xL1riFYLklwckr-RIZ-c2zJE3tpX45nFNdXtwgTtt8AdRa0-5uRYRWISUTrqJDZ15_wLLZHnb",
+          "title_guess": "css_Cus1x9rMBQ6L7uzyjX6M24jXXxuxdSDaXSKbdKXhHHk.css",
+          "source": "landing_page",
+          "confidence": "medium",
+          "fetch_ok": null
+        },
+        {
+          "url": "https://www.iowadnr.gov/media/7379/download?inline",
+          "title_guess": "download",
+          "source": "landing_page",
+          "confidence": "medium",
+          "fetch_ok": null
+        },
+        {
+          "url": "https://www.iowadnr.gov/media/7380/download?inline",
+          "title_guess": "download",
+          "source": "landing_page",
+          "confidence": "medium",
+          "fetch_ok": null
+        },
+        {
+          "url": "https://www.iowadnr.gov/media/7655/download?inline",
+          "title_guess": "download",
+          "source": "landing_page",
+          "confidence": "medium",
+          "fetch_ok": null
+        },
+        {
+          "url": "https://www.iowadnr.gov/media/7366/download?inline",
+          "title_guess": "download",
+          "source": "landing_page",
+          "confidence": "medium",
+          "fetch_ok": null
+        },
+        {
+          "url": "https://www.iowadnr.gov/media/7418/download?inline",
+          "title_guess": "download",
+          "source": "landing_page",
+          "confidence": "medium",
+          "fetch_ok": null
+        },
+        {
+          "url": "https://www.iowadnr.gov/media/7414/download?inline",
+          "title_guess": "download",
+          "source": "landing_page",
+          "confidence": "medium",
+          "fetch_ok": null
+        }
+      ]
+    },
+    {
+      "state_code": "ID",
+      "agency_category": "dep_deq",
+      "agency_abbrev": "IDEQ",
+      "expected_id": "id-deq-catalog",
+      "expected_title": "Idaho DEQ Catalog of Stormwater BMPs",
+      "reason": "partial",
+      "landing_page_url": "https://www.deq.idaho.gov/water-quality/wastewater/stormwater/",
+      "domains": [
+        "deq.idaho.gov"
+      ],
+      "candidates": [
+        {
+          "url": "https://www2.deq.idaho.gov/admin/LEIA/api/document/download/14821",
+          "title_guess": "14821",
+          "source": "landing_page",
+          "confidence": "medium",
+          "fetch_ok": null
+        },
+        {
+          "url": "https://www2.deq.idaho.gov/admin/LEIA/api/document/download/14968",
+          "title_guess": "14968",
+          "source": "landing_page",
+          "confidence": "medium",
+          "fetch_ok": null
+        },
+        {
+          "url": "https://www2.deq.idaho.gov/admin/LEIA/api/document/download/16509",
+          "title_guess": "16509",
+          "source": "landing_page",
+          "confidence": "medium",
+          "fetch_ok": null
+        },
+        {
+          "url": "https://www.deq.idaho.gov/water-quality/wastewater/stormwater/",
+          "title_guess": "Stormwater - Idaho Department of Environmental Quality",
+          "source": "search",
+          "confidence": "medium",
+          "fetch_ok": null
+        },
+        {
+          "url": "https://inspectapedia.com/exterior/Stormwater-Management-ID.pdf",
+          "title_guess": "PDF Catalog of Stormwater Best Management Practices for Idaho Cities and ...",
+          "source": "search",
+          "confidence": "high",
+          "fetch_ok": true
+        },
+        {
+          "url": "https://www2.deq.idaho.gov/water/swpag/?type=source&id=114",
+          "title_guess": "Idaho Department of Environmental Quality",
+          "source": "search",
+          "confidence": "medium",
+          "fetch_ok": null
+        },
+        {
+          "url": "https://www.harmonydesigninc.com/projects/idaho-deq-catalog-of-stormwater-best-management-practices",
+          "title_guess": "Idaho DEQ Catalog of Stormwater Best Management Practices",
+          "source": "search",
+          "confidence": "medium",
+          "fetch_ok": null
+        },
+        {
+          "url": "https://www2.deq.idaho.gov/admin/LEIA/api/document/download/14835",
+          "title_guess": "Idaho Pollutant Discharge Elimination System",
+          "source": "search",
+          "confidence": "medium",
+          "fetch_ok": null
+        }
+      ]
+    },
+    {
+      "state_code": "IL",
+      "agency_category": "dep_deq",
+      "agency_abbrev": "IEPA",
+      "expected_id": "il-iepa-stormwater",
+      "expected_title": "Illinois Statewide Stormwater / BMP Design Manual",
+      "reason": "partial",
+      "landing_page_url": null,
+      "domains": [
+        "epa.illinois.gov"
+      ],
+      "candidates": [
+        {
+          "url": "https://epa.illinois.gov/topics/forms/water-permits/storm-water.html",
+          "title_guess": "Storm Water Requirements - Illinois",
+          "source": "search",
+          "confidence": "medium",
+          "fetch_ok": null
+        },
+        {
+          "url": "https://illinoisurbanmanual.org/",
+          "title_guess": "Illinois Urban Manual",
+          "source": "search",
+          "confidence": "medium",
+          "fetch_ok": null
+        },
+        {
+          "url": "https://illinoisurbanmanual.org/resources/",
+          "title_guess": "Resources - Illinois Urban Manual",
+          "source": "search",
+          "confidence": "medium",
+          "fetch_ok": null
+        },
+        {
+          "url": "https://illinoisgroundwork.org/resources/illinois-stormwater-regulations/",
+          "title_guess": "Illinois Regulations",
+          "source": "search",
+          "confidence": "medium",
+          "fetch_ok": null
+        },
+        {
+          "url": "https://epa.illinois.gov/content/dam/soi/en/web/epa/topics/water-quality/watershed-management/excess-nutrients/documents/urban-stormwater-working-group/uswg-presentation-mcpartlan-101320.pdf",
+          "title_guess": "PDF Illinois Urban Manual",
+          "source": "search",
+          "confidence": "high",
+          "fetch_ok": true
+        },
+        {
+          "url": "https://illinoisurbanmanual.org/standard-drawings/",
+          "title_guess": "Illinois Urban Manual",
+          "source": "search",
+          "confidence": "medium",
+          "fetch_ok": null
+        },
+        {
+          "url": "https://dnr.illinois.gov/content/dam/soi/en/web/dnr/waterresources/documents/il-model-stormwater-ordinance.pdf",
+          "title_guess": "PDF Model Stormwater Management Ordinance - September 2015",
+          "source": "search",
+          "confidence": "high",
+          "fetch_ok": true
+        },
+        {
+          "url": "http://www.aiswcd.org/wp-content/uploads/2013/06/IUM_June20131.pdf",
+          "title_guess": "PDF Illinois Urban Manual - AISWCD",
+          "source": "search",
+          "confidence": "high",
+          "fetch_ok": true
+        }
+      ]
+    },
+    {
+      "state_code": "IN",
+      "agency_category": "dep_deq",
+      "agency_abbrev": "IDEM",
+      "expected_id": "in-idem-manual",
+      "expected_title": "Indiana Storm Water Quality Manual",
+      "reason": "partial",
+      "landing_page_url": "https://www.in.gov/idem/stormwater/resources/indiana-storm-water-quality-manual/",
+      "domains": [
+        "in.gov"
+      ],
+      "candidates": [
+        {
+          "url": "https://www.in.gov/dA/7c44b827c8/stormwater_manual_toc.pdf?language_id=1",
+          "title_guess": "stormwater_manual_toc.pdf",
+          "source": "landing_page",
+          "confidence": "high",
+          "fetch_ok": true
+        },
+        {
+          "url": "https://www.in.gov/dA/bf96a5a0d7/stormwater_manual_chap_01.pdf?language_id=1",
+          "title_guess": "stormwater_manual_chap_01.pdf",
+          "source": "landing_page",
+          "confidence": "high",
+          "fetch_ok": true
+        },
+        {
+          "url": "https://www.in.gov/dA/bac6886e45/stormwater_manual_chap_02.pdf?language_id=1",
+          "title_guess": "stormwater_manual_chap_02.pdf",
+          "source": "landing_page",
+          "confidence": "high",
+          "fetch_ok": true
+        },
+        {
+          "url": "https://www.in.gov/dA/1501e5a28d/stormwater_manual_chap_03.pdf?language_id=1",
+          "title_guess": "stormwater_manual_chap_03.pdf",
+          "source": "landing_page",
+          "confidence": "high",
+          "fetch_ok": true
+        },
+        {
+          "url": "https://www.in.gov/dA/2d1ab885b8/stormwater_manual_chap_04.pdf?language_id=1",
+          "title_guess": "stormwater_manual_chap_04.pdf",
+          "source": "landing_page",
+          "confidence": "high",
+          "fetch_ok": true
+        },
+        {
+          "url": "https://www.in.gov/dA/45106ba9df/stormwater_manual_chap_05.pdf?language_id=1",
+          "title_guess": "stormwater_manual_chap_05.pdf",
+          "source": "landing_page",
+          "confidence": "high",
+          "fetch_ok": true
+        },
+        {
+          "url": "https://www.in.gov/dA/5ddc901410/stormwater_manual_chap_06.pdf?language_id=1",
+          "title_guess": "stormwater_manual_chap_06.pdf",
+          "source": "landing_page",
+          "confidence": "high",
+          "fetch_ok": true
+        },
+        {
+          "url": "https://www.in.gov/dA/2ccc840195/stormwater_manual_chap_07.pdf?language_id=1",
+          "title_guess": "stormwater_manual_chap_07.pdf",
+          "source": "landing_page",
+          "confidence": "high",
+          "fetch_ok": true
+        }
+      ]
+    }
+  ]
+}

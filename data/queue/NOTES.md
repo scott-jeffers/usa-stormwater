@@ -1,6 +1,6 @@
 # Overnight queue notes
 
-Updated: 2026-08-10T10:40:39.268Z
+Updated: 2026-08-11T18:42:38.785Z
 
 Extraction is done by **Cursor agents** (not Gemini). After `npm run prepare:queue`, ask Cursor to read `samples/queue/<id>.txt` and write `data/documents/<id>.json` matching `lib/schema.ts`, then `npm run save -- samples/queue/<id>.extraction.json --slug=<id>` (or have the agent write the document JSON directly).
 
@@ -8,19 +8,15 @@ Extraction is done by **Cursor agents** (not Gemini). After `npm run prepare:que
 
 | Status | Count |
 |--------|------:|
-| done | 283 |
-| prepared (awaiting agent) | 5 |
-| pending | 6 |
-| skipped | 5 |
+| done | 345 |
+| prepared (awaiting agent) | 0 |
+| pending | 4 |
+| skipped | 6 |
 | deferred | 0 |
 
 ## Ready for Cursor extract
 
-- `flagstaff-az` — text ready for Cursor agent
-- `beaumont-tx` — text ready for Cursor agent
-- `santa-barbara-ca` — text ready for Cursor agent
-- `charleston-wv` — text ready for Cursor agent
-- `kennewick-wa` — text ready for Cursor agent
+_none_
 
 ## Worked
 
@@ -307,6 +303,68 @@ Extraction is done by **Cursor agents** (not Gemini). After `npm run prepare:que
 - `pierre-sd` → `pierre-sd`
 - `cheyenne-wy` → `cheyenne-wy`
 - `casper-wy` → `casper-wy`
+- `flagstaff-az` → `flagstaff-az`
+- `beaumont-tx` → `beaumont-tx`
+- `santa-barbara-ca` → `santa-barbara-ca`
+- `charleston-wv` → `charleston-wv`
+- `kennewick-wa` → `kennewick-wa`
+- `pensacola-fl` → `pensacola-fl`
+- `palm-bay-fl` → `palm-bay-fl`
+- `daytona-beach-fl` → `daytona-beach-fl`
+- `melbourne-fl` → `melbourne-fl`
+- `deltona-fl` → `deltona-fl`
+- `palm-coast-fl` → `palm-coast-fl`
+- `st-louis-mo` → `st-louis-mo`
+- `yuma-az` → `yuma-az`
+- `college-station-tx` → `college-station-tx`
+- `laredo-tx` → `laredo-tx`
+- `mcallen-tx` → `mcallen-tx`
+- `brownsville-tx` → `brownsville-tx`
+- `fl-fdot-drainage` → `fl-fdot-drainage`
+- `pa-penndot-drainage` → `pa-penndot-drainage`
+- `nc-ncdot-drainage` → `nc-ncdot-drainage`
+- `az-adot-drainage` → `az-adot-drainage`
+- `oh-odot-drainage` → `oh-odot-drainage`
+- `ca-caltrans-project-planning` → `ca-caltrans-project-planning`
+- `va-vdot-drainage` → `va-vdot-drainage`
+- `il-iepa-stormwater` → `il-iepa-stormwater`
+- `wa-wsdot-hr` → `wa-wsdot-hr`
+- `ct-ctdot-drainage` → `ct-ctdot-drainage`
+- `sc-scdot-drainage` → `sc-scdot-drainage`
+- `md-sha-drainage` → `md-sha-drainage`
+- `ut-udot-drainage` → `ut-udot-drainage`
+- `al-aldot-drainage` → `al-aldot-drainage`
+- `tx-txdot-hydraulic` → `tx-txdot-hydraulic`
+- `mn-mndot-drainage` → `mn-mndot-drainage`
+- `la-ladotd-drainage` → `la-ladotd-drainage`
+- `nj-njdot-drainage` → `nj-njdot-drainage`
+- `wv-wvdoh-drainage` → `wv-wvdoh-drainage`
+- `ga-gdot-drainage` → `ga-gdot-drainage`
+- `ma-massdot-drainage` → `ma-massdot-drainage`
+- `de-deldot-drainage` → `de-deldot-drainage`
+- `in-indot-drainage` → `in-indot-drainage`
+- `mi-mdot-drainage` → `mi-mdot-drainage`
+- `or-odot-drainage` → `or-odot-drainage`
+- `wi-wisdot-drainage` → `wi-wisdot-drainage`
+- `tn-tdot-drainage` → `tn-tdot-drainage`
+- `ny-nysdot-drainage` → `ny-nysdot-drainage`
+- `ky-kytc-drainage` → `ky-kytc-drainage`
+- `mt-mdt-drainage` → `mt-mdt-drainage`
+- `ak-dot-drainage` → `ak-dot-drainage`
+- `co-cwcb-floodplain-stormwater` → `co-cwcb-floodplain-stormwater`
+- `dc-ddot-stormwater` → `dc-ddot-stormwater`
+- `ia-dot-drainage` → `ia-dot-drainage`
+- `id-itd-drainage` → `id-itd-drainage`
+- `il-idot-drainage` → `il-idot-drainage`
+- `ks-kdot-drainage` → `ks-kdot-drainage`
+- `me-dot-drainage` → `me-dot-drainage`
+- `nd-nddot-drainage` → `nd-nddot-drainage`
+- `nh-nhdot-drainage` → `nh-nhdot-drainage`
+- `nm-nmdot-drainage` → `nm-nmdot-drainage`
+- `ri-ridot-drainage` → `ri-ridot-drainage`
+- `lancaster-pa` → `lancaster-pa`
+- `lancaster-pa-swmf` → `lancaster-pa-swmf`
+- `fl-sjrwmd-erp-ah2` → `fl-sjrwmd-erp-ah2`
 
 ## Skipped
 
@@ -314,28 +372,10 @@ Extraction is done by **Cursor agents** (not Gemini). After `npm run prepare:que
 - `albuquerque-nm`: superseded_by albuquerque-nm-gsi
 - `wisconsin-technical`: superseded_by wi-dnr-1001
 - `delaware-esc`: superseded_by de-wet-ponds-draft (partial wet-ponds coverage)
-- `tempe-az`: EXCLUDED — no design manual found (PDF 88295 was Historic Preservation/DBP). City publishes SWMP/MS4 reports only. Use Maricopa County / Mesa / Chandler for AZ local practice.
+- `tempe-az`: EXCLUDED: no Tempe drainage design manual; PDF was Historic Preservation memo. Use Maricopa/Mesa/Chandler for AZ local practice.
+- `vt-vtrans-drainage`: HTTP 403 Forbidden
 
 ## Coverage gaps (P1)
 
-- **St. Louis, MO** — not_in_manifest → suggested `st-louis-mo` (top100, ms4_phase1)
-- **Laredo, TX** — not_in_manifest → suggested `laredo-tx` (top100, ms4_phase1)
-- **Brownsville, TX** — not_in_manifest → suggested `brownsville-tx` (ms4_phase1)
-- **McAllen, TX** — not_in_manifest → suggested `mcallen-tx` (ms4_phase1)
-- **College Station, TX** — not_in_manifest → suggested `college-station-tx` (ms4_phase1)
-- **Palm Bay, FL** — no_document → suggested `palm-bay-fl` (ms4_phase1)
-- **Beaumont, TX** — no_document → suggested `beaumont-tx` (ms4_phase1)
-- **Charleston, WV** — no_document → suggested `charleston-wv` (capital, ms4_phase2)
+- **Hillsborough County, FL** — not_in_manifest → suggested `hillsborough-county-fl` (ms4_phase1)
 _Full report: `data/coverage/REPORT.md` (run `npm run coverage:report`)._
-
-## Overnight tick 22b (2026-08-10)
-- Prepared+extracted: Flagstaff 2025 SWMDM (ROCV = impervious × 1"); Beaumont DD6 Drainage Criteria (Atlas 14 detention); Santa Barbara BMP Guide (95th pct / 2.4"); Charleston WV Guidance Manual (first 1"); Kennewick via Ecology 2024 SWMMEW (6-mo WQ storm)
-- Regional: Pensacola → NWFWMD AH Vol II; Palm Bay / Daytona / Melbourne / Deltona / Palm Coast → Jacksonville LDPM pattern (SJRWMD AH Vol II still 403)
-- Still hard: St. Louis MSD, Laredo / McAllen / Brownsville / College Station (no durable city PDF), Yuma (no good alias)
-
-## Overnight tick 23 (2026-08-10)
-- St. Louis: MSD WQv 1.14" via Site Design Guidance (Maryland SWM Manual Ch.3/5)
-- Yuma: alias + doc via Maricopa Drainage Policies (city SWMP adopts Maricopa ECDDM); first flush 0.5"
-- Laredo / McAllen / Brownsville: low-conf San Antonio South TX pattern (city PDFs 403/wrong)
-- College Station: low-conf iSWM/Dallas (BCS Drainage_2020.pdf 404)
-- Plateau for genuine city PDFs on remaining TX RGV + BCS portal

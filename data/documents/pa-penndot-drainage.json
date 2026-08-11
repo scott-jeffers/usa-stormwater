@@ -1,0 +1,78 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "Pennsylvania Department of Transportation (PennDOT)",
+    "jurisdiction_level": "state",
+    "state_code": "PA",
+    "document_title": "PennDOT Drainage Manual (Publication 584)",
+    "version_or_edition": "March 2015 Edition, Change No. 1 (June 2022)",
+    "adoption_or_effective_date": null,
+    "last_revised_date": null,
+    "relationship_to_state_manual": "independent",
+    "issuing_agency_category": "dot"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [
+      10
+    ],
+    "water_quality_volume_method": null,
+    "peak_flow_calculation_method": [
+      "Rational Method",
+      "NRCS / SCS Curve Number (TR-55)",
+      "HEC-HMS"
+    ],
+    "required_hydrologic_hydraulic_software": [
+      "HEC-HMS"
+    ],
+    "approved_bmp_categories": [
+      "Bioretention",
+      "Infiltration Trench",
+      "Wet Pond",
+      "Dry Pond",
+      "Extended Detention",
+      "Vegetated Swale",
+      "Filter Strip",
+      "Detention Basin"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "Pennsylvania Department of Transportation (PennDOT)",
+      "page_or_section": "Title / header"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "PennDOT Drainage Manual (Publication 584)",
+      "page_or_section": "Title / header"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "............. 7A - 6 7A.7(a) Composite 10-year storm in Region 5 (Metric). ...................................................",
+      "page_or_section": null
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "............................. 7 - 16 I. Rational Method ........................................................................",
+      "page_or_section": null
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Bioretention, Infiltration Trench, Wet Pond, Dry Pond",
+      "page_or_section": null
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "medium",
+    "needs_human_review": true,
+    "review_notes": "Heuristic agency extract from prepared text. PennDOT Drainage Manual Pub 584 (March 2015 Edition, Change No. 1 June 2022)",
+    "fields_not_found": [
+      "design_criteria.water_quality_volume_method"
+    ]
+  },
+  "source": {
+    "document_url": "https://www.pa.gov/content/dam/copapwp-pagov/en/penndot/documents/public/pubsforms/publications/pub-584/june%202022-change%201.pdf",
+    "landing_page_url": "https://www.pa.gov/agencies/penndot/programs-and-doing-business/environment/hydrology-and-hydraulics",
+    "retrieved_at": "2026-08-11T17:21:05.997Z",
+    "original_filename": "pa-penndot-drainage.pdf"
+  }
+}
