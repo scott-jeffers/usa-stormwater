@@ -60,12 +60,12 @@ export function NationalDraftExplorer({
         <h1 className="font-display text-3xl font-semibold tracking-tight text-ink sm:text-4xl">
           U.S. Stormwater Practice Synthesis
         </h1>
-        <p className="max-w-2xl text-base leading-relaxed text-slate-600">
+        <p className="max-w-2xl text-base leading-relaxed text-fg-secondary">
           A research synthesis of common U.S. post-construction stormwater
           criteria from this atlas — not a design manual, and not adopted
           regulation or local code.
         </p>
-        <p className="text-sm text-slate-500">
+        <p className="text-sm text-fg-muted">
           {sections.filter((s) => s.has_draft).length} chapters
           {reviewedCount > 0 ? ` · ${reviewedCount} editorially reviewed` : ""}
           {generatedAt
@@ -74,19 +74,19 @@ export function NationalDraftExplorer({
         </p>
       </header>
 
-      <details className="rounded-xl border border-slate-200/80 bg-white shadow-sm open:shadow">
+      <details className="rounded-xl border border-edge/80 bg-surface shadow-sm open:shadow">
         <summary className="cursor-pointer list-none px-5 py-3.5 text-sm font-medium text-ink marker:content-none sm:px-6">
           <span className="inline-flex items-center gap-2">
-            <span className="text-slate-400">▸</span>
+            <span className="text-fg-subtle">▸</span>
             How this draft was built
           </span>
         </summary>
-        <div className="border-t border-slate-100 px-1 pb-1 sm:px-2">
+        <div className="border-t border-edge px-1 pb-1 sm:px-2">
           <NationalPipelineProgress status={pipelineStatus} />
         </div>
       </details>
 
-      <div className="rounded-xl border border-amber-200/80 bg-amber-50/80 px-4 py-3 text-sm text-amber-950">
+      <div className="rounded-xl border border-amber-200/80 bg-amber-50/80 px-4 py-3 text-sm text-amber-950 dark:border-amber-500/30 dark:bg-amber-950/40 dark:text-amber-100">
         Practice notes describe what manuals commonly contain. Guidance clauses
         are provisional synthesis for discussion — not adopted criteria. Verify
         every citation against the linked jurisdiction manual before design use.
@@ -102,12 +102,12 @@ export function NationalDraftExplorer({
           value={query}
           onChange={(e) => setQuery(e.target.value)}
           placeholder="Search titles, surveys, recommendations…"
-          className="w-full rounded-xl border border-slate-200 bg-white px-4 py-2.5 text-sm text-ink shadow-sm outline-none ring-water/30 placeholder:text-slate-400 focus:ring-2"
+          className="w-full rounded-xl border border-edge bg-surface px-4 py-2.5 text-sm text-ink shadow-sm outline-none ring-water/30 placeholder:text-fg-subtle focus:ring-2"
         />
         {!query && (
           <nav
             aria-label="Section contents"
-            className="flex flex-wrap gap-x-3 gap-y-1 text-xs text-slate-500"
+            className="flex flex-wrap gap-x-3 gap-y-1 text-xs text-fg-muted"
           >
             {sections
               .filter((s) => s.level === 1)
@@ -129,7 +129,7 @@ export function NationalDraftExplorer({
           <li key={section.id} id={`toc-${section.id}`}>
             <Link
               href={`/national/${section.id}/`}
-              className="block rounded-xl border border-slate-200/80 bg-white px-4 py-3 shadow-sm transition hover:border-water/40 hover:bg-mist/40"
+              className="block rounded-xl border border-edge/80 bg-surface px-4 py-3 shadow-sm transition hover:border-water/40 hover:bg-mist/40"
               style={{
                 marginLeft: `${Math.max(0, section.level - 1) * 1.25}rem`,
               }}
@@ -140,18 +140,18 @@ export function NationalDraftExplorer({
                 </h2>
                 <div className="flex flex-wrap items-center gap-2 text-xs">
                   {section.editorial_status === "reviewed" ? (
-                    <span className="rounded-full bg-emerald-50 px-2 py-0.5 font-medium text-emerald-800 ring-1 ring-inset ring-emerald-700/15">
+                    <span className="rounded-full bg-emerald-50 px-2 py-0.5 font-medium text-emerald-800 ring-1 ring-inset ring-emerald-700/15 dark:bg-emerald-950/50 dark:text-emerald-300 dark:ring-emerald-400/20">
                       Reviewed
                     </span>
                   ) : section.has_draft ? (
-                    <span className="rounded-full bg-amber-50 px-2 py-0.5 font-medium text-amber-900 ring-1 ring-inset ring-amber-700/15">
+                    <span className="rounded-full bg-amber-50 px-2 py-0.5 font-medium text-amber-900 ring-1 ring-inset ring-amber-700/15 dark:bg-amber-950/50 dark:text-amber-200 dark:ring-amber-400/20">
                       Draft
                     </span>
                   ) : (
-                    <span className="text-slate-400">Outline only</span>
+                    <span className="text-fg-subtle">Outline only</span>
                   )}
                   {section.citation_count > 0 && (
-                    <span className="text-slate-500">
+                    <span className="text-fg-muted">
                       {section.citation_count} citations
                     </span>
                   )}
@@ -160,7 +160,7 @@ export function NationalDraftExplorer({
               {section.prevalence != null && (
                 <div className="mt-2 flex items-center gap-2">
                   <div
-                    className="h-1.5 flex-1 max-w-[12rem] overflow-hidden rounded-full bg-slate-100"
+                    className="h-1.5 flex-1 max-w-[12rem] overflow-hidden rounded-full bg-surface-muted"
                     role="img"
                     aria-label={`Topic prevalence ${(section.prevalence * 100).toFixed(0)} percent`}
                   >
@@ -169,24 +169,24 @@ export function NationalDraftExplorer({
                       style={{ width: `${Math.round(section.prevalence * 100)}%` }}
                     />
                   </div>
-                  <span className="text-xs text-slate-500">
+                  <span className="text-xs text-fg-muted">
                     {(section.prevalence * 100).toFixed(0)}% tagged
                   </span>
                 </div>
               )}
               {section.summary && (
-                <p className="mt-1 text-sm leading-relaxed text-slate-600">
+                <p className="mt-1 text-sm leading-relaxed text-fg-secondary">
                   {section.summary}
                 </p>
               )}
-              <p className="mt-1 font-mono text-[11px] text-slate-400">
+              <p className="mt-1 font-mono text-[11px] text-fg-subtle">
                 {section.id}
               </p>
             </Link>
           </li>
         ))}
         {filtered.length === 0 && (
-          <li className="rounded-xl border border-dashed border-slate-300 bg-white/60 px-4 py-8 text-center text-sm text-slate-500">
+          <li className="rounded-xl border border-dashed border-edge-strong bg-surface/60 px-4 py-8 text-center text-sm text-fg-muted">
             No sections match “{query}”.
           </li>
         )}

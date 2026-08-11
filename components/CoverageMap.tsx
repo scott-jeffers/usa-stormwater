@@ -1,5 +1,6 @@
 "use client";
 
+import { useSyncExternalStore } from "react";
 import {
   ComposableMap,
   Geographies,
@@ -10,8 +11,7 @@ import { FIPS_TO_STATE_CODE, STATE_CODE_TO_NAME } from "@/lib/usStates";
 
 const GEO_URL = "https://cdn.jsdelivr.net/npm/us-atlas@3/states-10m.json";
 
-// Brand-aligned choropleth (ink/water family)
-const MAP_FILLS = {
+const MAP_FILLS_LIGHT = {
   empty: "#e8eef2",
   one: "#a5d4de",
   few: "#5ab8c5",
@@ -27,6 +27,24 @@ const MAP_FILLS = {
   district: "#6366f1",
   districtSelected: "#0b1c2c",
   markerHalo: "#ffffff",
+};
+
+const MAP_FILLS_DARK = {
+  empty: "#1a2a36",
+  one: "#1f5f6e",
+  few: "#2a8a9a",
+  many: "#22d3ee",
+  selected: "#e8f2f5",
+  hover: "#67e8f9",
+  pressed: "#e8f2f5",
+  stroke: "#0a1219",
+  city: "#5eead4",
+  citySelected: "#e8f2f5",
+  county: "#38bdf8",
+  countySelected: "#e8f2f5",
+  district: "#a5b4fc",
+  districtSelected: "#e8f2f5",
+  markerHalo: "#111b24",
 };
 
 export type LocalityKind = "city" | "county" | "special_district";
@@ -51,12 +69,39 @@ interface CoverageMapProps {
   cities?: LocalityMarker[];
 }
 
-function fillForCount(count: number, isSelected: boolean): string {
-  if (isSelected) return MAP_FILLS.selected;
-  if (count === 0) return MAP_FILLS.empty;
-  if (count === 1) return MAP_FILLS.one;
-  if (count <= 3) return MAP_FILLS.few;
-  return MAP_FILLS.many;
+function subscribeDarkMode(onStoreChange: () => void) {
+  const root = document.documentElement;
+  const observer = new MutationObserver(onStoreChange);
+  observer.observe(root, { attributes: true, attributeFilter: ["class"] });
+  return () => observer.disconnect();
+}
+
+function getDarkModeSnapshot() {
+  return document.documentElement.classList.contains("dark");
+}
+
+function getDarkModeServerSnapshot() {
+  return false;
+}
+
+function useDarkMode(): boolean {
+  return useSyncExternalStore(
+    subscribeDarkMode,
+    getDarkModeSnapshot,
+    getDarkModeServerSnapshot
+  );
+}
+
+function fillForCount(
+  fills: typeof MAP_FILLS_LIGHT,
+  count: number,
+  isSelected: boolean
+): string {
+  if (isSelected) return fills.selected;
+  if (count === 0) return fills.empty;
+  if (count === 1) return fills.one;
+  if (count <= 3) return fills.few;
+  return fills.many;
 }
 
 export function CoverageMap({
@@ -67,10 +112,12 @@ export function CoverageMap({
   cities = [],
 }: CoverageMapProps) {
   const markers = localities ?? cities;
+  const dark = useDarkMode();
+  const MAP_FILLS = dark ? MAP_FILLS_DARK : MAP_FILLS_LIGHT;
 
   return (
-    <div className="rounded-xl border border-slate-200/80 bg-white p-3 shadow-sm sm:p-4">
-      <p className="mb-2 text-xs text-slate-500">
+    <div className="rounded-xl border border-edge/80 bg-surface p-3 shadow-sm sm:p-4">
+      <p className="mb-2 text-xs text-fg-muted">
         Click a state or pin (city, county, or district) to filter the list.
         The map stays at national scale.
       </p>
@@ -104,7 +151,7 @@ export function CoverageMap({
                   }}
                   style={{
                     default: {
-                      fill: fillForCount(count, isSelected),
+                      fill: fillForCount(MAP_FILLS, count, isSelected),
                       stroke: MAP_FILLS.stroke,
                       strokeWidth: 0.5,
                       outline: "none",
@@ -113,7 +160,7 @@ export function CoverageMap({
                     hover: {
                       fill: stateCode
                         ? MAP_FILLS.hover
-                        : fillForCount(count, isSelected),
+                        : fillForCount(MAP_FILLS, count, isSelected),
                       stroke: MAP_FILLS.stroke,
                       strokeWidth: 0.5,
                       outline: "none",
@@ -225,7 +272,7 @@ export function CoverageMap({
         })}
       </ComposableMap>
 
-      <div className="mt-2 flex flex-wrap items-center justify-between gap-2 text-xs text-slate-500">
+      <div className="mt-2 flex flex-wrap items-center justify-between gap-2 text-xs text-fg-muted">
         <div className="flex flex-wrap items-center gap-3">
           <span className="flex items-center gap-1">
             <span
@@ -243,21 +290,21 @@ export function CoverageMap({
           </span>
           <span className="flex items-center gap-1">
             <span
-              className="inline-block h-2.5 w-2.5 rounded-full ring-2 ring-white"
+              className="inline-block h-2.5 w-2.5 rounded-full ring-2 ring-surface"
               style={{ backgroundColor: MAP_FILLS.city }}
             />
             City manual
           </span>
           <span className="flex items-center gap-1">
             <span
-              className="inline-block h-2.5 w-2.5 rounded-sm ring-2 ring-white"
+              className="inline-block h-2.5 w-2.5 rounded-sm ring-2 ring-surface"
               style={{ backgroundColor: MAP_FILLS.county }}
             />
             County manual
           </span>
           <span className="flex items-center gap-1">
             <span
-              className="inline-block h-2.5 w-2.5 rotate-45 ring-2 ring-white"
+              className="inline-block h-2.5 w-2.5 rotate-45 ring-2 ring-surface"
               style={{ backgroundColor: MAP_FILLS.district }}
             />
             Special district
@@ -267,7 +314,7 @@ export function CoverageMap({
           <button
             type="button"
             onClick={() => onSelectState(null)}
-            className="inline-flex h-9 shrink-0 items-center justify-center rounded-md border border-water/30 bg-white px-3.5 text-sm font-medium text-water-link shadow-sm transition-colors hover:border-water hover:bg-mist hover:text-water-deep focus:outline-none focus:ring-2 focus:ring-water/20"
+            className="inline-flex h-9 shrink-0 items-center justify-center rounded-md border border-water/30 bg-surface px-3.5 text-sm font-medium text-water-link shadow-sm transition-colors hover:border-water hover:bg-mist hover:text-water-deep focus:outline-none focus:ring-2 focus:ring-water/20"
           >
             Clear map selection
           </button>

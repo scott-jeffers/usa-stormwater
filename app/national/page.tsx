@@ -27,7 +27,7 @@ export default function NationalIndexPage() {
         <h1 className="font-display text-3xl font-semibold text-ink">
           U.S. Stormwater Practice Synthesis
         </h1>
-        <p className="text-slate-600">
+        <p className="text-fg-secondary">
           No outline or draft sections found yet. Run{" "}
           <code className="rounded bg-mist px-1.5 py-0.5 text-water-deep">
             npm run pipeline:outline

@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { Fraunces, Source_Sans_3 } from "next/font/google";
 import { SiteHeader } from "@/components/SiteHeader";
+import { THEME_BOOT_SCRIPT } from "@/lib/theme";
 import "./globals.css";
 
 const display = Fraunces({
@@ -47,8 +48,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${display.variable} ${sans.variable}`}>
-      <body className="min-h-screen font-sans text-slate-900 antialiased">
+    <html lang="en" className={`${display.variable} ${sans.variable}`} suppressHydrationWarning>
+      <head>
+        <script dangerouslySetInnerHTML={{ __html: THEME_BOOT_SCRIPT }} />
+      </head>
+      <body className="min-h-screen font-sans text-foreground antialiased">
         <SiteHeader />
         <div className="mx-auto flex min-h-[calc(100vh-3.5rem)] max-w-6xl flex-col px-4 py-8 sm:px-6 lg:px-8">
           <div className="flex-1">{children}</div>
@@ -61,10 +65,10 @@ export default function RootLayout({
 
 function Footer() {
   return (
-    <footer className="mt-16 border-t border-slate-200/80 pt-6 pb-2 text-xs text-slate-400">
+    <footer className="mt-16 border-t border-edge/80 pt-6 pb-2 text-xs text-fg-subtle">
       <div className="flex flex-wrap items-center justify-between gap-2">
         <p>
-          <span className="font-display font-semibold text-slate-500">
+          <span className="font-display font-semibold text-fg-muted">
             Stormwater Atlas
           </span>{" "}
           — data extracted from public agency manuals for research reference

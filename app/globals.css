@@ -1,8 +1,19 @@
 @import "tailwindcss";
 
+@custom-variant dark (&:where(.dark, .dark *));
+
 :root {
+  color-scheme: light;
   --background: #f1f5f9;
   --foreground: #0f172a;
+  --surface: #ffffff;
+  --surface-muted: #f8fafc;
+  --edge: #e2e8f0;
+  --edge-strong: #cbd5e1;
+  --fg-secondary: #475569;
+  --fg-muted: #64748b;
+  --fg-subtle: #94a3b8;
+  --fg-faint: #cbd5e1;
   --ink: #0b1c2c;
   --water: #0e7490;
   --water-deep: #155e75;
@@ -10,12 +21,55 @@
   --mist: #e8f2f5;
   --mist-strong: #d0e8ef;
   --cyan-bright: #22d3ee;
+  --code: #0b1c2c;
+  --code-fg: #f1f5f9;
+  --body-glow-a: #dbeafe;
+  --body-glow-b: #cffafe;
+  --body-top: #f8fafc;
+  --body-bottom: #eef2f7;
+}
+
+.dark {
+  color-scheme: dark;
+  --background: #0a1219;
+  --foreground: #e2e8f0;
+  --surface: #111b24;
+  --surface-muted: #162230;
+  --edge: #243447;
+  --edge-strong: #334155;
+  --fg-secondary: #94a3b8;
+  --fg-muted: #7c8c9e;
+  --fg-subtle: #64748b;
+  --fg-faint: #475569;
+  --ink: #e8f2f5;
+  --water: #22d3ee;
+  --water-deep: #67e8f9;
+  --water-link: #5eead4;
+  --mist: #132a36;
+  --mist-strong: #1a3a4a;
+  --cyan-bright: #67e8f9;
+  --code: #060d14;
+  --code-fg: #e2e8f0;
+  --body-glow-a: #0c2744;
+  --body-glow-b: #0a3a3f;
+  --body-top: #0b1520;
+  --body-bottom: #0a1219;
 }
 
 @theme inline {
   --font-sans: var(--font-source-sans), ui-sans-serif, system-ui, sans-serif;
   --font-display: var(--font-fraunces), ui-serif, Georgia, "Times New Roman",
     serif;
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-surface: var(--surface);
+  --color-surface-muted: var(--surface-muted);
+  --color-edge: var(--edge);
+  --color-edge-strong: var(--edge-strong);
+  --color-fg-secondary: var(--fg-secondary);
+  --color-fg-muted: var(--fg-muted);
+  --color-fg-subtle: var(--fg-subtle);
+  --color-fg-faint: var(--fg-faint);
   --color-ink: var(--ink);
   --color-water: var(--water);
   --color-water-deep: var(--water-deep);
@@ -23,12 +77,14 @@
   --color-mist: var(--mist);
   --color-mist-strong: var(--mist-strong);
   --color-cyan-bright: var(--cyan-bright);
+  --color-code: var(--code);
+  --color-code-fg: var(--code-fg);
 }
 
 body {
   background:
-    radial-gradient(120% 80% at 10% -10%, #dbeafe 0%, transparent 55%),
-    radial-gradient(90% 60% at 100% 0%, #cffafe 0%, transparent 45%),
-    linear-gradient(180deg, #f8fafc 0%, var(--background) 40%, #eef2f7 100%);
+    radial-gradient(120% 80% at 10% -10%, var(--body-glow-a) 0%, transparent 55%),
+    radial-gradient(90% 60% at 100% 0%, var(--body-glow-b) 0%, transparent 45%),
+    linear-gradient(180deg, var(--body-top) 0%, var(--background) 40%, var(--body-bottom) 100%);
   color: var(--foreground);
 }

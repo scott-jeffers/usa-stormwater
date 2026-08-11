@@ -1,8 +1,9 @@
 import Link from "next/link";
+import { ThemeToggle } from "@/components/ThemeToggle";
 
 export function SiteHeader() {
   return (
-    <header className="sticky top-0 z-40 border-b border-slate-200/80 bg-white/80 backdrop-blur-md">
+    <header className="sticky top-0 z-40 border-b border-edge/80 bg-surface/80 backdrop-blur-md">
       <div className="mx-auto flex h-14 max-w-6xl items-center justify-between gap-4 px-4 sm:px-6 lg:px-8">
         <Link
           href="/"
@@ -13,19 +14,20 @@ export function SiteHeader() {
             Stormwater Atlas
           </span>
         </Link>
-        <nav className="flex items-center gap-4 text-sm">
+        <nav className="flex items-center gap-3 text-sm sm:gap-4">
           <Link
             href="/national/"
-            className="font-medium text-slate-600 transition-colors hover:text-water-link"
+            className="font-medium text-fg-secondary transition-colors hover:text-water-link"
           >
             Practice synthesis
           </Link>
           <Link
             href="/about/"
-            className="font-medium text-slate-600 transition-colors hover:text-water-link"
+            className="font-medium text-fg-secondary transition-colors hover:text-water-link"
           >
             About
           </Link>
+          <ThemeToggle />
         </nav>
       </div>
     </header>

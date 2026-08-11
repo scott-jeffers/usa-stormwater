@@ -57,14 +57,14 @@ export default async function ManualDetailPage({
   if (slug === PLACEHOLDER_SLUG) {
     return (
       <main className="space-y-6">
-        <nav className="text-sm text-slate-500">
+        <nav className="text-sm text-fg-muted">
           <Link href="/" className="font-medium text-water-link hover:text-water-deep hover:underline">
             &larr; Back to dashboard
           </Link>
         </nav>
-        <div className="rounded-xl border border-dashed border-slate-300 bg-white p-10 text-center text-slate-500">
+        <div className="rounded-xl border border-dashed border-edge-strong bg-surface p-10 text-center text-fg-muted">
           No manuals ingested yet. Run{" "}
-          <code className="rounded bg-slate-100 px-1.5 py-0.5">
+          <code className="rounded bg-surface-muted px-1.5 py-0.5">
             npm run ingest -- path/to/manual.pdf
           </code>{" "}
           to add the first one.
@@ -110,19 +110,19 @@ export default async function ManualDetailPage({
 
   return (
     <main className="space-y-6">
-      <nav className="text-sm text-slate-500">
+      <nav className="text-sm text-fg-muted">
         <Link href="/" className="font-medium text-water-link hover:text-water-deep hover:underline">
           &larr; Back to dashboard
         </Link>
       </nav>
 
-      <header className="overflow-hidden rounded-xl border border-slate-200/80 border-t-4 border-t-water bg-white p-6 shadow-sm">
+      <header className="overflow-hidden rounded-xl border border-edge/80 border-t-4 border-t-water bg-surface p-6 shadow-sm">
         <div className="flex flex-wrap items-start justify-between gap-4">
           <div>
             <h1 className="font-display text-2xl font-semibold tracking-tight text-ink sm:text-3xl">
               {meta.jurisdiction_name}
             </h1>
-            <p className="mt-1 text-sm text-slate-600">{meta.document_title}</p>
+            <p className="mt-1 text-sm text-fg-secondary">{meta.document_title}</p>
             <div className="mt-3 flex flex-wrap gap-2">
               <LevelBadge level={meta.jurisdiction_level} />
               <AgencyBadge category={agencyCategory} />
@@ -159,30 +159,30 @@ export default async function ManualDetailPage({
               </div>
             )}
             {!primarySourceUrl && (
-              <p className="mt-3 text-xs text-slate-400">
+              <p className="mt-3 text-xs text-fg-subtle">
                 No source URL recorded. Re-ingest with{" "}
-                <code className="rounded bg-slate-100 px-1">--url</code> and/or{" "}
-                <code className="rounded bg-slate-100 px-1">--landing-page</code>.
+                <code className="rounded bg-surface-muted px-1">--url</code> and/or{" "}
+                <code className="rounded bg-surface-muted px-1">--landing-page</code>.
               </p>
             )}
           </div>
         </div>
 
         {verify.status === "failed" && verify.failedFields.length > 0 && (
-          <div className="mt-4 rounded-md border border-rose-200 bg-rose-50 p-3 text-sm text-rose-900">
+          <div className="mt-4 rounded-md border border-rose-200 bg-rose-50 p-3 text-sm text-rose-900 dark:border-rose-500/30 dark:bg-rose-950/40 dark:text-rose-100">
             <p className="font-medium">
               Corpus verify found citation mismatches for{" "}
               {verify.mismatchCount} field
               {verify.mismatchCount === 1 ? "" : "s"}.
             </p>
-            <p className="mt-1 text-xs text-rose-800/90">
+            <p className="mt-1 text-xs text-rose-800/90 dark:text-rose-200/90">
               {verify.failedFields.join(", ")}
             </p>
           </div>
         )}
 
         {quality.needs_human_review && (
-          <div className="mt-4 rounded-md border border-orange-200 bg-orange-50 p-3 text-sm text-orange-800">
+          <div className="mt-4 rounded-md border border-orange-200 bg-orange-50 p-3 text-sm text-orange-800 dark:border-orange-500/30 dark:bg-orange-950/40 dark:text-orange-100">
             <p className="font-medium">This extraction needs human review.</p>
             {quality.review_notes && (
               <p className="mt-1">{quality.review_notes}</p>
@@ -191,15 +191,15 @@ export default async function ManualDetailPage({
         )}
 
         {fieldsNotFound.length > 0 && (
-          <div className="mt-3 text-xs text-slate-500">
-            <span className="font-medium text-slate-600">Fields not found in document: </span>
+          <div className="mt-3 text-xs text-fg-muted">
+            <span className="font-medium text-fg-secondary">Fields not found in document: </span>
             {fieldsNotFound.join(", ")}
           </div>
         )}
 
         {relatedInState.length > 0 && (
-          <div className="mt-4 border-t border-slate-100 pt-3 text-xs text-slate-500">
-            <span className="font-medium text-slate-600">
+          <div className="mt-4 border-t border-edge pt-3 text-xs text-fg-muted">
+            <span className="font-medium text-fg-secondary">
               Other manuals in {STATE_CODE_TO_NAME[meta.state_code!] ?? meta.state_code}:{" "}
             </span>
             {relatedInState.map((m, i) => (
@@ -214,7 +214,7 @@ export default async function ManualDetailPage({
         )}
       </header>
 
-      <section className="rounded-xl border border-slate-200/80 bg-white p-6 shadow-sm">
+      <section className="rounded-xl border border-edge/80 bg-surface p-6 shadow-sm">
         <h2 className="font-display text-lg font-semibold text-ink">Document Metadata</h2>
         <div className="mt-2">
           <FieldWithEvidence
@@ -262,7 +262,7 @@ export default async function ManualDetailPage({
         </div>
       </section>
 
-      <section className="rounded-xl border border-slate-200/80 bg-white p-6 shadow-sm">
+      <section className="rounded-xl border border-edge/80 bg-surface p-6 shadow-sm">
         <h2 className="font-display text-lg font-semibold text-ink">Design Criteria</h2>
         <div className="mt-2">
           <FieldWithEvidence

@@ -5,9 +5,10 @@ const CONFIDENCE_STYLES: Record<
   StormwaterData["extraction_quality"]["confidence"],
   string
 > = {
-  high: "bg-emerald-50 text-emerald-800 ring-emerald-700/15",
-  medium: "bg-amber-50 text-amber-900 ring-amber-700/15",
-  low: "bg-rose-50 text-rose-800 ring-rose-700/15",
+  high: "bg-emerald-50 text-emerald-800 ring-emerald-700/15 dark:bg-emerald-950/50 dark:text-emerald-300 dark:ring-emerald-400/20",
+  medium:
+    "bg-amber-50 text-amber-900 ring-amber-700/15 dark:bg-amber-950/50 dark:text-amber-200 dark:ring-amber-400/20",
+  low: "bg-rose-50 text-rose-800 ring-rose-700/15 dark:bg-rose-950/50 dark:text-rose-300 dark:ring-rose-400/20",
 };
 
 export function ConfidenceBadge({
@@ -27,13 +28,13 @@ export function ConfidenceBadge({
 export function NeedsReviewBadge({ needsReview }: { needsReview: boolean }) {
   if (!needsReview) {
     return (
-      <span className="inline-flex items-center rounded-full bg-slate-100 px-2.5 py-0.5 text-xs font-medium text-slate-600 ring-1 ring-inset ring-slate-500/15">
+      <span className="inline-flex items-center rounded-full bg-surface-muted px-2.5 py-0.5 text-xs font-medium text-fg-secondary ring-1 ring-inset ring-edge-strong/40">
         No
       </span>
     );
   }
   return (
-    <span className="inline-flex items-center rounded-full bg-orange-50 px-2.5 py-0.5 text-xs font-medium text-orange-800 ring-1 ring-inset ring-orange-600/15">
+    <span className="inline-flex items-center rounded-full bg-orange-50 px-2.5 py-0.5 text-xs font-medium text-orange-800 ring-1 ring-inset ring-orange-600/15 dark:bg-orange-950/50 dark:text-orange-200 dark:ring-orange-400/20">
       Needs review
     </span>
   );
@@ -48,14 +49,14 @@ export function VerifyBadge({
 }) {
   if (status === "passed") {
     return (
-      <span className="inline-flex items-center rounded-full bg-emerald-50 px-2.5 py-0.5 text-xs font-medium text-emerald-800 ring-1 ring-inset ring-emerald-700/15">
+      <span className="inline-flex items-center rounded-full bg-emerald-50 px-2.5 py-0.5 text-xs font-medium text-emerald-800 ring-1 ring-inset ring-emerald-700/15 dark:bg-emerald-950/50 dark:text-emerald-300 dark:ring-emerald-400/20">
         Citations verified
       </span>
     );
   }
   if (status === "failed") {
     return (
-      <span className="inline-flex items-center rounded-full bg-rose-50 px-2.5 py-0.5 text-xs font-medium text-rose-800 ring-1 ring-inset ring-rose-700/15">
+      <span className="inline-flex items-center rounded-full bg-rose-50 px-2.5 py-0.5 text-xs font-medium text-rose-800 ring-1 ring-inset ring-rose-700/15 dark:bg-rose-950/50 dark:text-rose-300 dark:ring-rose-400/20">
         {mismatchCount > 0
           ? `${mismatchCount} citation mismatch${mismatchCount === 1 ? "" : "es"}`
           : "Citation mismatches"}
@@ -64,14 +65,14 @@ export function VerifyBadge({
   }
   if (status === "skipped") {
     return (
-      <span className="inline-flex items-center rounded-full bg-slate-100 px-2.5 py-0.5 text-xs font-medium text-slate-600 ring-1 ring-inset ring-slate-500/15">
+      <span className="inline-flex items-center rounded-full bg-surface-muted px-2.5 py-0.5 text-xs font-medium text-fg-secondary ring-1 ring-inset ring-edge-strong/40">
         Verify skipped
       </span>
     );
   }
   if (status === "running" || status === "pending") {
     return (
-      <span className="inline-flex items-center rounded-full bg-amber-50 px-2.5 py-0.5 text-xs font-medium text-amber-900 ring-1 ring-inset ring-amber-700/15">
+      <span className="inline-flex items-center rounded-full bg-amber-50 px-2.5 py-0.5 text-xs font-medium text-amber-900 ring-1 ring-inset ring-amber-700/15 dark:bg-amber-950/50 dark:text-amber-200 dark:ring-amber-400/20">
         Verify {status}
       </span>
     );
@@ -84,11 +85,14 @@ const LEVEL_STYLES: Record<
   string
 > = {
   state: "bg-mist text-water-deep ring-water/25",
-  county: "bg-cyan-50 text-cyan-900 ring-cyan-700/20",
-  municipality: "bg-teal-50 text-teal-900 ring-teal-700/20",
-  special_district: "bg-sky-50 text-sky-900 ring-sky-700/20",
-  tribal: "bg-slate-100 text-ink ring-ink/15",
-  other: "bg-slate-100 text-slate-700 ring-slate-500/15",
+  county:
+    "bg-cyan-50 text-cyan-900 ring-cyan-700/20 dark:bg-cyan-950/45 dark:text-cyan-200 dark:ring-cyan-400/25",
+  municipality:
+    "bg-teal-50 text-teal-900 ring-teal-700/20 dark:bg-teal-950/45 dark:text-teal-200 dark:ring-teal-400/25",
+  special_district:
+    "bg-sky-50 text-sky-900 ring-sky-700/20 dark:bg-sky-950/45 dark:text-sky-200 dark:ring-sky-400/25",
+  tribal: "bg-surface-muted text-ink ring-ink/15",
+  other: "bg-surface-muted text-fg-secondary ring-edge-strong/40",
 };
 
 const LEVEL_LABELS: Record<
@@ -198,7 +202,7 @@ export function StateBadge({
   showName?: boolean;
 }) {
   if (!stateCode) {
-    return <span className="text-slate-400">{"\u2014"}</span>;
+    return <span className="text-fg-subtle">{"\u2014"}</span>;
   }
 
   const name = STATE_CODE_TO_NAME[stateCode] ?? stateCode;
@@ -215,9 +219,10 @@ export function StateBadge({
 }
 
 const AGENCY_STYLES: Record<"dot" | "dep_deq" | "other", string> = {
-  dot: "bg-amber-50 text-amber-900 ring-amber-700/20",
-  dep_deq: "bg-emerald-50 text-emerald-900 ring-emerald-700/20",
-  other: "bg-slate-100 text-slate-700 ring-slate-500/15",
+  dot: "bg-amber-50 text-amber-900 ring-amber-700/20 dark:bg-amber-950/50 dark:text-amber-200 dark:ring-amber-400/25",
+  dep_deq:
+    "bg-emerald-50 text-emerald-900 ring-emerald-700/20 dark:bg-emerald-950/50 dark:text-emerald-300 dark:ring-emerald-400/25",
+  other: "bg-surface-muted text-fg-secondary ring-edge-strong/40",
 };
 
 function HighwayIcon({ className }: { className?: string }) {

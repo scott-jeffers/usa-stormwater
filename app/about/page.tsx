@@ -21,7 +21,7 @@ export default function AboutPage() {
         <h1 className="font-display text-3xl font-semibold tracking-tight text-ink sm:text-4xl">
           About Stormwater Atlas
         </h1>
-        <p className="text-base leading-relaxed text-slate-600">
+        <p className="text-base leading-relaxed text-fg-secondary">
           A national atlas of U.S. stormwater design manual requirements.
           Criteria are extracted from public agency documents and paired with
           the exact quote that supports each field.
@@ -61,7 +61,7 @@ export default function AboutPage() {
           The same database is published as static JSON. No API key, no
           signup. Fetch over HTTPS from any script, agent, or notebook.
         </p>
-        <p className="mt-3 text-sm text-slate-500">
+        <p className="mt-3 text-sm text-fg-muted">
           Discovery file for crawlers:{" "}
           <a
             href="/llms.txt"
@@ -73,15 +73,15 @@ export default function AboutPage() {
       </Section>
 
       <Section title="Endpoints">
-        <div className="overflow-x-auto rounded-xl border border-slate-200/80 bg-white shadow-sm">
+        <div className="overflow-x-auto rounded-xl border border-edge/80 bg-surface shadow-sm">
           <table className="w-full min-w-[520px] text-left text-sm">
-            <thead className="border-b border-slate-200 bg-slate-50/80 text-xs uppercase tracking-wide text-slate-500">
+            <thead className="border-b border-edge bg-surface-muted/80 text-xs uppercase tracking-wide text-fg-muted">
               <tr>
                 <th className="px-4 py-3 font-medium">URL</th>
                 <th className="px-4 py-3 font-medium">What you get</th>
               </tr>
             </thead>
-            <tbody className="divide-y divide-slate-100 text-slate-700">
+            <tbody className="divide-y divide-edge text-fg-secondary">
               <EndpointRow
                 path="/data/manuals.json"
                 desc="Lightweight index of every manual (slug, state, title, confidence, links)"
@@ -121,7 +121,7 @@ export default function AboutPage() {
             </tbody>
           </table>
         </div>
-        <p className="mt-3 text-sm text-slate-500">
+        <p className="mt-3 text-sm text-fg-muted">
           Base URL:{" "}
           <code className="rounded bg-mist px-1.5 py-0.5 text-water-deep">
             {BASE}
@@ -163,7 +163,7 @@ console.log(tx100.map((m) => m.document_metadata.jurisdiction_name));`}</CodeBlo
         <h3 className="mt-6 font-display text-base font-semibold text-ink">
           Prompts for an AI agent
         </h3>
-        <ul className="mt-2 list-disc space-y-2 pl-5 text-sm text-slate-700">
+        <ul className="mt-2 list-disc space-y-2 pl-5 text-sm text-fg-secondary">
           <li>
             “Fetch <code className="rounded bg-mist px-1">/data/atlas.json</code>{" "}
             and compare design storm return periods for Texas vs California
@@ -210,7 +210,7 @@ function Section({
   return (
     <section className="space-y-3">
       <h2 className="font-display text-xl font-semibold text-ink">{title}</h2>
-      <div className="text-base leading-relaxed text-slate-600">{children}</div>
+      <div className="text-base leading-relaxed text-fg-secondary">{children}</div>
     </section>
   );
 }
@@ -232,14 +232,14 @@ function EndpointRow({ path, desc }: { path: string; desc: string }) {
           path
         )}
       </td>
-      <td className="px-4 py-3 align-top text-slate-600">{desc}</td>
+      <td className="px-4 py-3 align-top text-fg-secondary">{desc}</td>
     </tr>
   );
 }
 
 function CodeBlock({ children }: { children: string }) {
   return (
-    <pre className="mt-2 overflow-x-auto rounded-xl border border-slate-200/80 bg-ink px-4 py-3 text-xs leading-relaxed text-slate-100 sm:text-sm">
+    <pre className="mt-2 overflow-x-auto rounded-xl border border-edge/80 bg-code px-4 py-3 text-xs leading-relaxed text-code-fg sm:text-sm">
       <code>{children}</code>
     </pre>
   );

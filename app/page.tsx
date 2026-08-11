@@ -17,16 +17,16 @@ export default function HomePage() {
         <h1 className="font-display text-2xl font-semibold tracking-tight text-ink sm:text-3xl">
           Stormwater design rules, in one place
         </h1>
-        <p className="text-base leading-relaxed text-slate-600">
+        <p className="text-base leading-relaxed text-fg-secondary">
           Browse U.S. state, county, and city manuals.
         </p>
-        <p className="pt-1 text-sm text-slate-500">
+        <p className="pt-1 text-sm text-fg-muted">
           {manuals.length} manuals · {statesCovered} states
           {needsReviewCount > 0 ? (
             <>
               {" "}
               ·{" "}
-              <span className="text-orange-600">
+              <span className="text-orange-600 dark:text-orange-400">
                 {needsReviewCount} need review
               </span>
             </>

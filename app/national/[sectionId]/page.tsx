@@ -67,7 +67,7 @@ export default async function NationalSectionPage({
 
   if (sectionId === PLACEHOLDER) {
     return (
-      <main className="rounded-xl border border-dashed border-slate-300 bg-white p-10 text-center text-slate-500">
+      <main className="rounded-xl border border-dashed border-edge-strong bg-surface p-10 text-center text-fg-muted">
         No national draft sections yet.
       </main>
     );
@@ -102,7 +102,7 @@ export default async function NationalSectionPage({
 
   return (
     <main className="space-y-8">
-      <nav className="flex flex-wrap items-center gap-x-2 gap-y-1 text-sm text-slate-500">
+      <nav className="flex flex-wrap items-center gap-x-2 gap-y-1 text-sm text-fg-muted">
         <Link
           href="/national/"
           className="font-medium text-water-link hover:text-water-deep hover:underline"
@@ -122,19 +122,19 @@ export default async function NationalSectionPage({
         )}
       </nav>
 
-      <header className="overflow-hidden rounded-xl border border-slate-200/80 border-t-4 border-t-water bg-white p-6 shadow-sm">
-        <p className="font-mono text-xs text-slate-400">{sectionId}</p>
+      <header className="overflow-hidden rounded-xl border border-edge/80 border-t-4 border-t-water bg-surface p-6 shadow-sm">
+        <p className="font-mono text-xs text-fg-subtle">{sectionId}</p>
         <h1 className="mt-1 font-display text-2xl font-semibold tracking-tight text-ink sm:text-3xl">
           {title}
         </h1>
         {meta?.summary && (
-          <p className="mt-3 text-sm leading-relaxed text-slate-600">
+          <p className="mt-3 text-sm leading-relaxed text-fg-secondary">
             {meta.summary}
           </p>
         )}
-        <div className="mt-3 flex flex-wrap items-center gap-3 text-xs text-slate-500">
+        <div className="mt-3 flex flex-wrap items-center gap-3 text-xs text-fg-muted">
           {draft?.editorial_status === "reviewed" && (
-            <span className="rounded-full bg-emerald-50 px-2.5 py-0.5 font-medium text-emerald-800 ring-1 ring-inset ring-emerald-700/15">
+            <span className="rounded-full bg-emerald-50 px-2.5 py-0.5 font-medium text-emerald-800 ring-1 ring-inset ring-emerald-700/15 dark:bg-emerald-950/50 dark:text-emerald-300 dark:ring-emerald-400/20">
               Reviewed
             </span>
           )}
@@ -155,12 +155,12 @@ export default async function NationalSectionPage({
       </header>
 
       {!draft ? (
-        <p className="rounded-xl border border-dashed border-slate-300 bg-white p-6 text-sm text-slate-500">
+        <p className="rounded-xl border border-dashed border-edge-strong bg-surface p-6 text-sm text-fg-muted">
           Outline entry only — no draft JSON for this section yet.
         </p>
       ) : (
         <div className="space-y-6">
-          <div className="rounded-xl border border-amber-200/80 bg-amber-50/80 px-4 py-3 text-sm text-amber-950">
+          <div className="rounded-xl border border-amber-200/80 bg-amber-50/80 px-4 py-3 text-sm text-amber-950 dark:border-amber-500/30 dark:bg-amber-950/40 dark:text-amber-100">
             Provisional practice synthesis for discussion — not a design manual
             or adopted regulation. Controlling state, regional, and MS4 criteria
             apply when more stringent. Verify citations against the linked
@@ -178,14 +178,14 @@ export default async function NationalSectionPage({
               {draft.guidance_tables.map((table) => (
                 <SectionBlock key={table.id} title={table.title} tone="neutral">
                   {table.caption && (
-                    <p className="mb-3 text-xs leading-relaxed text-slate-500">
+                    <p className="mb-3 text-xs leading-relaxed text-fg-muted">
                       {table.caption}
                     </p>
                   )}
                   <div className="overflow-x-auto">
                     <table className="w-full min-w-[20rem] border-collapse text-left text-sm">
                       <thead>
-                        <tr className="border-b border-slate-200 text-xs uppercase tracking-wide text-slate-500">
+                        <tr className="border-b border-edge text-xs uppercase tracking-wide text-fg-muted">
                           {table.columns.map((col) => (
                             <th key={col} className="px-2 py-2 font-medium">
                               {col}
@@ -197,7 +197,7 @@ export default async function NationalSectionPage({
                         {table.rows.map((row, ri) => (
                           <tr
                             key={`${table.id}-r${ri}`}
-                            className="border-b border-slate-100"
+                            className="border-b border-edge"
                           >
                             {row.map((cell, ci) => {
                               const isAtlasNote =
@@ -207,7 +207,7 @@ export default async function NationalSectionPage({
                               return (
                                 <td
                                   key={`${table.id}-r${ri}-c${ci}`}
-                                  className="px-2 py-2 text-slate-700"
+                                  className="px-2 py-2 text-fg-secondary"
                                 >
                                   {cell}
                                   {isAtlasNote && keys && keys.length > 0 && (
@@ -272,7 +272,7 @@ export default async function NationalSectionPage({
 
           {draft.citation_registry && draft.citation_registry.length > 0 ? (
             <SectionBlock title="References" tone="neutral">
-              <p className="mb-3 text-xs text-slate-500">
+              <p className="mb-3 text-xs text-fg-muted">
                 Numbered footnotes for guidance clauses and atlas notes.
                 Field-verified entries come from structured atlas evidence;
                 corpus-pattern entries are keyword-matched excerpts.
@@ -287,9 +287,9 @@ export default async function NationalSectionPage({
                     <li
                       key={ref.key}
                       id={`ref-${ref.key}`}
-                      className="scroll-mt-24 rounded-lg border border-slate-200 border-l-4 border-l-water/40 bg-mist/40 px-3 py-2"
+                      className="scroll-mt-24 rounded-lg border border-edge border-l-4 border-l-water/40 bg-mist/40 px-3 py-2"
                     >
-                      <div className="flex flex-wrap items-center gap-x-2 gap-y-1 text-xs text-slate-500">
+                      <div className="flex flex-wrap items-center gap-x-2 gap-y-1 text-xs text-fg-muted">
                         <span className="font-mono font-semibold text-water-deep">
                           [{ref.key}]
                         </span>
@@ -308,7 +308,7 @@ export default async function NationalSectionPage({
                         <ConfidenceBadge confidence={ref.confidence} />
                         {isChapterProxy(ref.slug) && (
                           <span
-                            className="rounded-full bg-amber-50 px-2 py-0.5 font-medium text-amber-900 ring-1 ring-inset ring-amber-700/15"
+                            className="rounded-full bg-amber-50 px-2 py-0.5 font-medium text-amber-900 ring-1 ring-inset ring-amber-700/15 dark:bg-amber-950/50 dark:text-amber-200 dark:ring-amber-400/20"
                             title="Partial or chapter-only PDF"
                           >
                             Chapter proxy
@@ -318,7 +318,7 @@ export default async function NationalSectionPage({
                           <span>{ref.page_or_section}</span>
                         )}
                       </div>
-                      <blockquote className="mt-1 text-sm italic leading-relaxed text-slate-700">
+                      <blockquote className="mt-1 text-sm italic leading-relaxed text-fg-secondary">
                         “{ref.excerpt}”
                       </blockquote>
                     </li>
@@ -329,7 +329,7 @@ export default async function NationalSectionPage({
           ) : (
             <SectionBlock title="Citations" tone="neutral">
               {enriched.length === 0 ? (
-                <p className="text-sm text-slate-500">No citations recorded.</p>
+                <p className="text-sm text-fg-muted">No citations recorded.</p>
               ) : (
                 <div className="space-y-5">
                   {citationsByState.map(({ state, label, items }, stateIdx) => (
@@ -340,11 +340,11 @@ export default async function NationalSectionPage({
                     >
                       <summary className="cursor-pointer list-none text-sm font-medium text-ink marker:content-none">
                         <span className="inline-flex items-center gap-2">
-                          <span className="text-slate-400 group-open:rotate-90 transition">
+                          <span className="text-fg-subtle group-open:rotate-90 transition">
                             ▸
                           </span>
                           {label}
-                          <span className="font-normal text-slate-400">
+                          <span className="font-normal text-fg-subtle">
                             ({items.length})
                           </span>
                         </span>
@@ -353,9 +353,9 @@ export default async function NationalSectionPage({
                         {items.map((c, i) => (
                           <li
                             key={`${c.slug}-${c.chunk_id}-${i}`}
-                            className="rounded-lg border border-slate-200 border-l-4 border-l-water/40 bg-mist/40 px-3 py-2"
+                            className="rounded-lg border border-edge border-l-4 border-l-water/40 bg-mist/40 px-3 py-2"
                           >
-                            <div className="flex flex-wrap items-center gap-x-2 gap-y-1 text-xs text-slate-500">
+                            <div className="flex flex-wrap items-center gap-x-2 gap-y-1 text-xs text-fg-muted">
                               <Link
                                 href={`/${c.slug}/`}
                                 className="font-medium text-water-link hover:underline"
@@ -374,7 +374,7 @@ export default async function NationalSectionPage({
                               />
                               {c.chapterProxy && (
                                 <span
-                                  className="rounded-full bg-amber-50 px-2 py-0.5 font-medium text-amber-900 ring-1 ring-inset ring-amber-700/15"
+                                  className="rounded-full bg-amber-50 px-2 py-0.5 font-medium text-amber-900 ring-1 ring-inset ring-amber-700/15 dark:bg-amber-950/50 dark:text-amber-200 dark:ring-amber-400/20"
                                   title="Partial or chapter-only PDF — do not use alone as a national default"
                                 >
                                   Chapter proxy
@@ -384,7 +384,7 @@ export default async function NationalSectionPage({
                                 <span>{c.page_or_section}</span>
                               )}
                             </div>
-                            <blockquote className="mt-1 text-sm italic leading-relaxed text-slate-700">
+                            <blockquote className="mt-1 text-sm italic leading-relaxed text-fg-secondary">
                               “{c.excerpt}”
                             </blockquote>
                           </li>
@@ -399,7 +399,7 @@ export default async function NationalSectionPage({
 
           {draft.supporting_slugs.length > 0 && (
             <SectionBlock title="Supporting jurisdictions" tone="neutral">
-              <p className="mb-2 text-sm text-slate-600">
+              <p className="mb-2 text-sm text-fg-secondary">
                 {draft.supporting_slugs.length} jurisdictions cited in this
                 section
                 {meta?.source_manual_count != null
@@ -422,7 +422,7 @@ export default async function NationalSectionPage({
         </div>
       )}
 
-      <nav className="flex flex-wrap justify-between gap-4 border-t border-slate-200 pt-6 text-sm">
+      <nav className="flex flex-wrap justify-between gap-4 border-t border-edge pt-6 text-sm">
         {prev ? (
           <Link
             href={`/national/${prev.id}/`}
@@ -525,7 +525,7 @@ function ConfidenceBadge({
   if (confidence === "field_verified") {
     return (
       <span
-        className="rounded-full bg-emerald-50 px-2 py-0.5 text-[10px] font-medium uppercase tracking-wide text-emerald-800 ring-1 ring-inset ring-emerald-700/15"
+        className="rounded-full bg-emerald-50 px-2 py-0.5 text-[10px] font-medium uppercase tracking-wide text-emerald-800 ring-1 ring-inset ring-emerald-700/15 dark:bg-emerald-950/50 dark:text-emerald-300 dark:ring-emerald-400/20"
         title="Backed by structured atlas field evidence"
       >
         Field-verified
@@ -535,7 +535,7 @@ function ConfidenceBadge({
   if (confidence === "corpus_pattern") {
     return (
       <span
-        className="rounded-full bg-slate-100 px-2 py-0.5 text-[10px] font-medium uppercase tracking-wide text-slate-600 ring-1 ring-inset ring-slate-500/15"
+        className="rounded-full bg-surface-muted px-2 py-0.5 text-[10px] font-medium uppercase tracking-wide text-fg-secondary ring-1 ring-inset ring-edge-strong/40"
         title="Backed by keyword-matched corpus excerpts"
       >
         Corpus pattern
@@ -544,7 +544,7 @@ function ConfidenceBadge({
   }
   return (
     <span
-      className="rounded-full bg-amber-50 px-2 py-0.5 text-[10px] font-medium uppercase tracking-wide text-amber-900 ring-1 ring-inset ring-amber-700/20"
+      className="rounded-full bg-amber-50 px-2 py-0.5 text-[10px] font-medium uppercase tracking-wide text-amber-900 ring-1 ring-inset ring-amber-700/20 dark:bg-amber-950/50 dark:text-amber-200 dark:ring-amber-400/20"
       title="Editorial synthesis — not a direct field match"
     >
       Editorial
@@ -563,18 +563,18 @@ function SectionBlock({
 }) {
   if (tone === "emphasis") {
     return (
-      <section className="rounded-xl border border-water/30 bg-gradient-to-br from-water/5 to-white p-6 shadow-sm ring-1 ring-water/10">
+      <section className="rounded-xl border border-water/30 bg-gradient-to-br from-water/5 to-surface p-6 shadow-sm ring-1 ring-water/10">
         <h2 className="font-display text-lg font-semibold text-water-deep">
           {title}
         </h2>
-        <div className="mt-3 text-sm text-slate-800">{children}</div>
+        <div className="mt-3 text-sm text-foreground">{children}</div>
       </section>
     );
   }
   return (
-    <section className="rounded-xl border border-slate-200/80 bg-white p-6 shadow-sm">
+    <section className="rounded-xl border border-edge/80 bg-surface p-6 shadow-sm">
       <h2 className="font-display text-lg font-semibold text-ink">{title}</h2>
-      <div className="mt-3 text-sm text-slate-700">{children}</div>
+      <div className="mt-3 text-sm text-fg-secondary">{children}</div>
     </section>
   );
 }
