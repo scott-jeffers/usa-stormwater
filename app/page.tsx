@@ -15,7 +15,7 @@ export default function HomePage() {
     <main className="space-y-8">
       <header className="max-w-2xl space-y-2">
         <h1 className="font-display text-2xl font-semibold tracking-tight text-ink sm:text-3xl">
-          Stormwater design rules, in one place
+          Stormwater design manuals, in one place
         </h1>
         <p className="text-base leading-relaxed text-fg-secondary">
           Browse U.S. state, county, and city manuals.
