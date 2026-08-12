@@ -1,6 +1,7 @@
 "use client";
 
 import { useSyncExternalStore } from "react";
+import { useRouter } from "next/navigation";
 import {
   ComposableMap,
   Geographies,
@@ -113,13 +114,14 @@ export function CoverageMap({
 }: CoverageMapProps) {
   const markers = localities ?? cities;
   const dark = useDarkMode();
+  const router = useRouter();
   const MAP_FILLS = dark ? MAP_FILLS_DARK : MAP_FILLS_LIGHT;
 
   return (
     <div className="rounded-xl border border-edge/80 bg-surface p-3 shadow-sm sm:p-4">
       <p className="mb-2 text-xs text-fg-muted">
-        Click a state or pin (city, county, or district) to filter the list.
-        The map stays at national scale.
+        Click a state to filter the list. Click a pin (city, county, or district)
+        to open that manual. The map stays at national scale.
       </p>
 
       <ComposableMap
@@ -206,14 +208,11 @@ export function CoverageMap({
                 style={{ cursor: "pointer" }}
                 onClick={(e) => {
                   e.stopPropagation();
-                  onSelectState(
-                    isInSelectedState ? null : marker.stateCode
-                  );
+                  router.push(`/${marker.slug}`);
                 }}
               >
                 <title>
-                  {marker.name} — filter{" "}
-                  {STATE_CODE_TO_NAME[marker.stateCode] ?? marker.stateCode}
+                  {marker.name} — open manual
                 </title>
                 {marker.kind === "county" ? (
                   <>

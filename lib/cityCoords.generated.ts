@@ -23,6 +23,7 @@ export const GENERATED_CITY_CENTERS: Record<string, [number, number]> = {
   "district-of-columbia": [-77.0369, 38.9072],
   "kansas-city": [-94.5786, 39.0997],
   "kansas-city-marc-bmp": [-94.5786, 39.0997],
+  "tahoe-trpa-bmp": [-120.0442, 38.9399],
   "boise": [-116.2146, 43.615],
   "boise-id": [-116.2146, 43.615],
   "phoenix": [-112.074, 33.4484],

@@ -40,6 +40,21 @@ const DOCUMENTS_DIR = path.resolve(process.cwd(), "data/documents");
 let cachedManuals: ManualRecord[] | undefined;
 let cachedSlugMap: Map<string, ManualRecord> | undefined;
 let cachedListItems: ManualListItem[] | undefined;
+let cachedDocumentsSignature: string | undefined;
+
+function documentsCacheSignature(): string {
+  const files = listManualFiles();
+  let maxMtime = 0;
+  for (const file of files) {
+    try {
+      const st = statSync(path.join(DOCUMENTS_DIR, file));
+      if (st.mtimeMs > maxMtime) maxMtime = st.mtimeMs;
+    } catch {
+      /* skip */
+    }
+  }
+  return `${files.length}:${maxMtime}`;
+}
 
 function listManualFiles(): string[] {
   try {
@@ -79,7 +94,15 @@ function loadManualFromPath(filePath: string, slug: string): ManualRecord | null
 }
 
 function ensureManualsCache(): void {
-  if (cachedManuals !== undefined && cachedSlugMap !== undefined) return;
+  const signature = documentsCacheSignature();
+  if (
+    cachedManuals !== undefined &&
+    cachedSlugMap !== undefined &&
+    cachedDocumentsSignature === signature
+  ) {
+    return;
+  }
+  cachedDocumentsSignature = signature;
 
   const files = listManualFiles();
   const records: ManualRecord[] = [];
@@ -107,6 +130,7 @@ export function clearManualsCache(): void {
   cachedManuals = undefined;
   cachedSlugMap = undefined;
   cachedListItems = undefined;
+  cachedDocumentsSignature = undefined;
 }
 
 export function getAllManuals(): ManualRecord[] {

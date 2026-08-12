@@ -1,6 +1,6 @@
 # Overnight queue notes
 
-Updated: 2026-08-11T18:42:38.785Z
+Updated: 2026-08-12T22:48:17.461Z
 
 Extraction is done by **Cursor agents** (not Gemini). After `npm run prepare:queue`, ask Cursor to read `samples/queue/<id>.txt` and write `data/documents/<id>.json` matching `lib/schema.ts`, then `npm run save -- samples/queue/<id>.extraction.json --slug=<id>` (or have the agent write the document JSON directly).
 
@@ -8,15 +8,15 @@ Extraction is done by **Cursor agents** (not Gemini). After `npm run prepare:que
 
 | Status | Count |
 |--------|------:|
-| done | 345 |
-| prepared (awaiting agent) | 0 |
+| done | 346 |
+| prepared (awaiting agent) | 1 |
 | pending | 4 |
 | skipped | 6 |
 | deferred | 0 |
 
 ## Ready for Cursor extract
 
-_none_
+- `pa-bmp-2006` — text ready for Cursor agent
 
 ## Worked
 
@@ -365,6 +365,7 @@ _none_
 - `lancaster-pa` → `lancaster-pa`
 - `lancaster-pa-swmf` → `lancaster-pa-swmf`
 - `fl-sjrwmd-erp-ah2` → `fl-sjrwmd-erp-ah2`
+- `tahoe-trpa-bmp` → `tahoe-trpa-bmp`
 
 ## Skipped
 

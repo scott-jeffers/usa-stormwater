@@ -1,0 +1,121 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "Pennsylvania",
+    "jurisdiction_level": "state",
+    "state_code": "PA",
+    "document_title": "Pennsylvania Stormwater Best Management Practices Manual",
+    "version_or_edition": "363-0300-002 / December 30, 2006",
+    "adoption_or_effective_date": "2006-12-30",
+    "last_revised_date": null,
+    "relationship_to_state_manual": "independent",
+    "issuing_agency_category": "dep_deq"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [
+      1,
+      2,
+      100
+    ],
+    "water_quality_volume_method": "Volume Control Guideline 1 (CG-1): do not increase post-development total runoff volume for storms ≤ 2-year/24-hour. Volume Control Guideline 2 (CG-2, sites ≤1 ac without storage facilities): capture first 2 inches from new impervious; permanently remove first 1.0 inch (reuse, evaporation, transpiration, infiltration), with at least 0.5 inch infiltrated where possible. Water quality performance goal: 85% reduction in TSS and total phosphorus loads and 50% reduction in NO3-N solute loads vs. post-development land use.",
+    "peak_flow_calculation_method": [
+      "Rational Method",
+      "SCS (NRCS) Unit Hydrograph Method",
+      "Runoff Curve Number Method",
+      "Small Storm Hydrology Method"
+    ],
+    "required_hydrologic_hydraulic_software": [
+      "WIN TR-20",
+      "WIN TR-55",
+      "Storm Water Management Model (SWMM)"
+    ],
+    "approved_bmp_categories": [
+      "Non-Structural Site Design BMPs",
+      "Pervious Pavement with Infiltration Bed",
+      "Infiltration Basin",
+      "Subsurface Infiltration Bed",
+      "Infiltration Trench",
+      "Rain Garden / Bioretention",
+      "Dry Well / Seepage Pit",
+      "Constructed Filter",
+      "Vegetated Swale",
+      "Vegetated Filter Strip",
+      "Infiltration Berm & Retentive Grading",
+      "Vegetated Roof",
+      "Runoff Capture & Reuse",
+      "Constructed Wetland",
+      "Wet Pond / Retention Basin",
+      "Dry Extended Detention Basin",
+      "Water Quality Filters & Hydrodynamic Devices",
+      "Riparian Buffer Restoration",
+      "Landscape Restoration",
+      "Floodplain Restoration",
+      "Level Spreader"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "TITLE: Pennsylvania Stormwater Best Management Practices Manual",
+      "page_or_section": "Page i"
+    },
+    {
+      "field": "document_metadata.version_or_edition",
+      "excerpt": "363-0300-002 / December 30, 2006",
+      "page_or_section": "Title Page"
+    },
+    {
+      "field": "document_metadata.adoption_or_effective_date",
+      "excerpt": "EFFECTIVE DATE: December 30, 2006",
+      "page_or_section": "Page i"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "Do not increase the post-development total runoff volume for all storms equal to or less than the 2-year/24-hour event.",
+      "page_or_section": "Chapter 3, Section 3.3.3 Volume Control Guideline 1"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "Do not increase the peak rate of discharge for the 1-year through 100-year events (at minimum)",
+      "page_or_section": "Chapter 3, Section 3.4 Peak Rate Control Guideline"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "Stormwater facilities shall be sized to capture at least the first two inches (2\") of runoff from all contributing impervious surfaces. At least the first one inch (1.0\") of runoff from new impervious surfaces shall be permanently removed from the runoff flow",
+      "page_or_section": "Chapter 3, Section 3.3.4 Volume Control Guideline 2"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "Achieve an 85 percent reduction in post-development particulate associated pollutant load (as represented by Total Suspended Solids), an 85 percent reduction in post-development total phosphorus loads, and a 50 percent reduction in post-development solute loads (as represented by NO3-N)",
+      "page_or_section": "Chapter 3, Section 3.5 Water Quality Control Guideline"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "8.3.1 The Rational Method ... 8.3.2 SCS (NRCS) Unit Hydrograph Method",
+      "page_or_section": "Chapter 8 Table of Contents"
+    },
+    {
+      "field": "design_criteria.required_hydrologic_hydraulic_software",
+      "excerpt": "8.4.2 SCS/NRCS Models: WIN TR-20 and WIN TR-55 ... 8.4.4 Storm Water Management Model (SWMM)",
+      "page_or_section": "Chapter 8 Table of Contents"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "6.4 Volume/Peak Rate Reduction by Infiltration BMPs ... 6.5 Volume/Peak Rate Reduction BMPs ... 6.6 Runoff Quality/Peak Rate BMPs",
+      "page_or_section": "Chapter 6 Table of Contents"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "high",
+    "needs_human_review": false,
+    "review_notes": "PA DEP technical guidance 363-0300-002 (Dec 2006). Superseded in intent by the PCSM Manual (pa-state) but still cited by municipalities and Act 167 ordinances. PDF from Wrightstown municipal mirror; official eLibrary folder docId 7876 blocks automated PDFProvider fetch.",
+    "fields_not_found": [
+      "document_metadata.last_revised_date"
+    ]
+  },
+  "source": {
+    "document_url": "https://www.wrightstownpa.org/media/1993/pennsylvania_stormwater_best_management_practices_manual.pdf",
+    "landing_page_url": "https://greenport.pa.gov/elibrary/GetFolder?FolderID=1368916",
+    "retrieved_at": "2026-08-12T22:49:00.790Z",
+    "original_filename": "tmp-pa-bmp-2006.json"
+  }
+}

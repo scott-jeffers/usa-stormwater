@@ -4103,5 +4103,28 @@
     "landingPageUrl": "https://www.srwmd.state.fl.us/",
     "cityCoords": null,
     "notes": "SRWMD ERP Applicant's Handbook Volume II (canonical district)"
+  },
+  {
+    "id": "tahoe-trpa-bmp",
+    "jurisdictionHint": "Lake Tahoe Region",
+    "levelHint": "regional",
+    "pdfUrl": "https://tahoebmp.org/Documents/BMPHandbook/BMP_Handbook.pdf",
+    "landingPageUrl": "https://tahoebmp.org/bmphandbook.aspx",
+    "cityCoords": [
+      -120.0442,
+      38.9399
+    ],
+    "notes": "TRPA BMP Handbook (May 2014 complete PDF). Bi-state CA/NV Lake Tahoe Region stormwater BMP design guidance.",
+    "agencyHint": "dep_deq"
+  },
+  {
+    "id": "pa-bmp-2006",
+    "jurisdictionHint": "Pennsylvania",
+    "levelHint": "state",
+    "pdfUrl": "https://www.wrightstownpa.org/media/1993/pennsylvania_stormwater_best_management_practices_manual.pdf",
+    "landingPageUrl": "https://greenport.pa.gov/elibrary/GetFolder?FolderID=1368916",
+    "cityCoords": null,
+    "notes": "PA DEP Stormwater BMP Manual 363-0300-002 (Dec 2006). eLibrary docId 7876; Wrightstown municipal mirror — greenport PDFProvider blocks automated fetch.",
+    "agencyHint": "dep_deq"
   }
 ]

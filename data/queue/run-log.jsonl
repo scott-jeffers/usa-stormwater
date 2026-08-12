@@ -292,3 +292,5 @@
 {"ts":"2026-08-11T17:58:41.036Z","id":"ri-ridot-drainage","status":"prepared","detail":"Text ready at samples/queue/ri-ridot-drainage.txt","chars":353459,"pages":196}
 {"ts":"2026-08-11T18:14:01.349Z","id":"lancaster-pa","status":"prepared","detail":"Text ready at samples/queue/lancaster-pa.txt","chars":594965,"pages":290}
 {"ts":"2026-08-11T18:39:01.053Z","id":"fl-sjrwmd-erp-ah2","status":"prepared","detail":"Text ready at samples/queue/fl-sjrwmd-erp-ah2.txt","chars":315145,"pages":188}
+{"ts":"2026-08-12T22:42:57.936Z","id":"tahoe-trpa-bmp","status":"prepared","detail":"Text ready at samples/queue/tahoe-trpa-bmp.txt","chars":1359641,"pages":736}
+{"ts":"2026-08-12T22:48:17.435Z","id":"pa-bmp-2006","status":"prepared","detail":"Text ready at samples/queue/pa-bmp-2006.txt","chars":1295592,"pages":639}
