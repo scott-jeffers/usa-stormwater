@@ -34,11 +34,6 @@
   },
   "evidence": [
     {
-      "field": "document_metadata.jurisdiction_name",
-      "excerpt": "Utah",
-      "page_or_section": "Title / header"
-    },
-    {
       "field": "document_metadata.document_title",
       "excerpt": "UDOT Drainage Design Manual of Instruction",
       "page_or_section": "Title / header"
@@ -55,16 +50,47 @@
     },
     {
       "field": "design_criteria.approved_bmp_categories",
-      "excerpt": "Infiltration Basin, Infiltration Trench, Detention Basin, Retention Basin",
-      "page_or_section": null
+      "excerpt": "storage volume. • Do not include infiltration or evapotranspiration losses when sizing the detention basin. 8.2.6 Hydraulic Analysis • Route inflow hydrographs with stage-storage and stage-discharge curves to determine detention basin volumes and discharge rates as follows",
+      "page_or_section": "pp. 54–56"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "Ensure that the 100 year, 24 hour storm event can be drained from the detention basin within 72 hours, excluding stormwater ponded at a micro pool.",
+      "page_or_section": "Chapter 8, Section 8.2.3.1 Outlet Structure"
+    },
+    {
+      "field": "design_parameters.shwt_separation_inches",
+      "excerpt": "Provide at least 4 ft from the bottom of basins to the seasonal high groundwater elevation.",
+      "page_or_section": "Chapter 8, Section 8.2.2.1 Grading"
+    },
+    {
+      "field": "design_parameters.swale_longitudinal_slope_percent",
+      "excerpt": "Provide a minimum longitudinal slope of 0.5 percent.",
+      "page_or_section": "Chapter 6, Section 6.2.4 Constructed Channels (roadside and median ditches; chapter 6.1 also lists swales)"
+    },
+    {
+      "field": "practice_mentions.infiltration_basin",
+      "excerpt": "The Department will not allow any connection if the Department’s drainage system depends entirely on subsurface infiltration such as infiltration trenches, infiltration basins, dry wells, sumps or similar features.",
+      "page_or_section": "Chapter 2, Section 2.8.2.3"
+    },
+    {
+      "field": "practice_mentions.infiltration_trench",
+      "excerpt": "The Department will not allow any connection if the Department’s drainage system depends entirely on subsurface infiltration such as infiltration trenches, infiltration basins, dry wells, sumps or similar features.",
+      "page_or_section": "Chapter 2, Section 2.8.2.3"
+    },
+    {
+      "field": "practice_mentions.swale",
+      "excerpt": "Channels are natural or constructed conveyances for water and include rivers, streams, roadside and median ditches, swales and irrigation flows.",
+      "page_or_section": "Chapter 6, Section 6.1 INTRODUCTION"
     }
   ],
   "extraction_quality": {
     "confidence": "medium",
     "needs_human_review": true,
-    "review_notes": "Heuristic agency extract from prepared text. UDOT Drainage Design Manual of Instruction (Google Drive export)",
+    "review_notes": "Heuristic agency extract from prepared text. UDOT Drainage Design Manual of Instruction (Google Drive export) Pipeline excerpt repair removed 1 unlocated citation(s).",
     "fields_not_found": [
-      "design_criteria.water_quality_volume_method"
+      "design_criteria.water_quality_volume_method",
+      "document_metadata.jurisdiction_name"
     ]
   },
   "source": {
@@ -72,5 +98,47 @@
     "landing_page_url": "https://connect.udot.utah.gov/docs/drainage-design-manual-of-instruction/",
     "retrieved_at": "2026-08-11T17:59:10.541Z",
     "original_filename": "ut-udot-drainage.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": null,
+    "max_drawdown_hours": 72,
+    "shwt_separation_inches": 48,
+    "bioretention_media_depth_min_inches": null,
+    "bioretention_ponding_depth_inches": null,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": null,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": null,
+    "length_to_width_ratio": null,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": 0.5,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "infiltration_basin",
+      "infiltration_trench",
+      "swale"
+    ],
+    "enriched_at": "2026-08-13T10:27:12.653Z",
+    "enrich_model": "composer-2.5:run-72168d8a-95d7-4bc1-9036-abbe4cc0442d",
+    "enrich_notes": "Stormwater quality sizing and BMP criteria are delegated to the UDOT Stormwater Quality Design Manual (Ch. 5, 6, 8). Offsite connections are prohibited when UDOT’s system relies entirely on subsurface infiltration (infiltration trenches, infiltration basins, dry wells). Detention basin chapter addresses flood-control detention with optional WQ features (forebays, micro pools).",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "wqv_depth_inches",
+      "bioretention_media_depth_min_inches",
+      "bioretention_ponding_depth_inches",
+      "permeable_pavement_storage_depth_inches",
+      "design_infiltration_rate_in_per_hr",
+      "permanent_pool_depth_inches",
+      "ed_drain_time_hours",
+      "length_to_width_ratio",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

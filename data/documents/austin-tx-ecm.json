@@ -61,6 +61,31 @@
       "field": "design_criteria.approved_bmp_categories",
       "excerpt": "[…] F. Detention Basins and Wet Ponds In-channel detention basins and in-channel wet ponds can be located within the Critical Water Quality Zone if the requirements of Sections 25-8-364 (Floodplain Modification), 25-7 (Drainage), and other provisions 25-8 Subchapter A are",
       "page_or_section": "p. 4"
+    },
+    {
+      "field": "practice_mentions.bioretention",
+      "excerpt": "vegetative filter strips, rain gardens, biofiltration ponds, and areas used for irrigation or infiltration of stormwater are allowed within the Critical Water Quality Zone",
+      "page_or_section": "1.5.3 H. Green Water Quality Controls (page 5)"
+    },
+    {
+      "field": "practice_mentions.infiltration_basin",
+      "excerpt": "areas used for irrigation or infiltration of stormwater are allowed within the Critical Water Quality Zone",
+      "page_or_section": "1.5.3 H. Green Water Quality Controls (page 5)"
+    },
+    {
+      "field": "practice_mentions.wet_pond",
+      "excerpt": "In-channel detention basins and in-channel wet ponds can be located within the Critical Water Quality Zone",
+      "page_or_section": "1.5.3 F. Detention Basins and Wet Ponds (page 4)"
+    },
+    {
+      "field": "practice_mentions.permeable_pavement",
+      "excerpt": "porous pavement designed in accordance with Section 1.6.7 of this manual, limited to only pedestrian walkways and multi-use trails",
+      "page_or_section": "1.8.1 C. Impervious cover calculations exclude (page 8)"
+    },
+    {
+      "field": "practice_mentions.sand_filter",
+      "excerpt": "If the entire site is treated with sedimentation/sand filtration or an equivalent level of water quality control",
+      "page_or_section": "OPTION 1 WORKSHEET / INSTRUCTIONS (pages 12-14)"
     }
   ],
   "extraction_quality": {
@@ -82,5 +107,52 @@
     "landing_page_url": "https://library.municode.com/tx/austin/codes/environmental_criteria_manual",
     "retrieved_at": "2026-08-07T11:43:24.317Z",
     "original_filename": "austin-tx-ecm.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": null,
+    "max_drawdown_hours": null,
+    "shwt_separation_inches": null,
+    "bioretention_media_depth_min_inches": null,
+    "bioretention_ponding_depth_inches": null,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": null,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": null,
+    "length_to_width_ratio": null,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "bioretention",
+      "infiltration_basin",
+      "permeable_pavement",
+      "sand_filter",
+      "wet_pond"
+    ],
+    "enriched_at": "2026-08-13T07:31:07.078Z",
+    "enrich_model": "composer-2.5:run-9773fc8b-3a2d-431d-98d1-7e42e753e409",
+    "enrich_notes": "Provided corpus emphasizes Critical Water Quality Zone setbacks, floodplain modification, pollutant load species, impervious-cover exclusions, and Barton Springs Zone mitigation worksheets—not BMP sizing. Rain gardens, biofiltration ponds, vegetative filter strips, infiltration/irrigation areas, detention/wet ponds, and porous pavement (ECM 1.6.7) are named; numeric design criteria are pointed to ECM Section 1.6.9.3 Control Measure Design, which is not in the excerpts.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "wqv_depth_inches",
+      "max_drawdown_hours",
+      "shwt_separation_inches",
+      "bioretention_media_depth_min_inches",
+      "bioretention_ponding_depth_inches",
+      "permeable_pavement_storage_depth_inches",
+      "design_infiltration_rate_in_per_hr",
+      "permanent_pool_depth_inches",
+      "ed_drain_time_hours",
+      "length_to_width_ratio",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "swale_longitudinal_slope_percent",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

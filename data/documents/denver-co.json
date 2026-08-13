@@ -75,6 +75,56 @@
       "field": "design_criteria.approved_bmp_categories",
       "excerpt": "permeable pavement systems with subsurface storage, bioretention, extended detention basins, sand filters, constructed wetland ponds, and retention ponds. Green roofs and some underground BMPs may also provide the WQCV",
       "page_or_section": "Section 4.2, Page 1-17"
+    },
+    {
+      "field": "practice_mentions",
+      "excerpt": "bioretention, extended detention basins, sand filters, constructed wetland ponds, and retention ponds.",
+      "page_or_section": "p19"
+    },
+    {
+      "field": "design_parameters.wqv_depth_inches",
+      "excerpt": "Within the UDFCD boundary, the WQCV is based on runoff from 0.6 inches of precipitation.",
+      "page_or_section": "Chapter 1, page 11, Common Stormwater Management Terms (WQCV definition)"
+    },
+    {
+      "field": "practice_mentions.bioretention",
+      "excerpt": "Bioretention (rain gardens): The use of distributed on-site vegetated features such as rain gardens can help maintain natural drainage patterns",
+      "page_or_section": "Chapter 1, Section 4.1, page 17"
+    },
+    {
+      "field": "practice_mentions.permeable_pavement",
+      "excerpt": "Permeable Pavement: The use of various permeable pavement techniques as alternatives to paved areas can significantly reduce site imperviousness.",
+      "page_or_section": "Chapter 1, Section 4.1, page 17"
+    },
+    {
+      "field": "practice_mentions.green_roof",
+      "excerpt": "Green Roofs: Green roofs can be used to decrease imperviousness associated with buildings and structures.",
+      "page_or_section": "Chapter 1, Section 4.1, page 17"
+    },
+    {
+      "field": "practice_mentions.swale",
+      "excerpt": "Grass Swales: Like grass buffers, use of grass swales instead of storm sewers slows runoff and promotes infiltration",
+      "page_or_section": "Chapter 1, Section 4.1, page 17"
+    },
+    {
+      "field": "practice_mentions.extended_detention",
+      "excerpt": "including permeable pavement systems with subsurface storage, bioretention, extended detention basins, sand filters, constructed wetland ponds, and retention ponds.",
+      "page_or_section": "Chapter 1, Section 4.2, page 19"
+    },
+    {
+      "field": "practice_mentions.sand_filter",
+      "excerpt": "extended detention basins, sand filters, constructed wetland ponds, and retention ponds.",
+      "page_or_section": "Chapter 1, Section 4.2, page 19"
+    },
+    {
+      "field": "practice_mentions.constructed_wetland",
+      "excerpt": "sand filters, constructed wetland ponds, and retention ponds.",
+      "page_or_section": "Chapter 1, Section 4.2, page 19"
+    },
+    {
+      "field": "practice_mentions.wet_pond",
+      "excerpt": "constructed wetland ponds, and retention ponds.",
+      "page_or_section": "Chapter 1, Section 4.2, page 19"
     }
   ],
   "extraction_quality": {
@@ -93,5 +143,54 @@
     "landing_page_url": "https://www.mhfd.org/criteria-manual-volume-3",
     "retrieved_at": "2026-08-08T00:55:00.000Z",
     "original_filename": "denver-co.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": 0.6,
+    "max_drawdown_hours": null,
+    "shwt_separation_inches": null,
+    "bioretention_media_depth_min_inches": null,
+    "bioretention_ponding_depth_inches": null,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": null,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": null,
+    "length_to_width_ratio": null,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "bioretention",
+      "constructed_wetland",
+      "extended_detention",
+      "green_roof",
+      "permeable_pavement",
+      "sand_filter",
+      "swale",
+      "wet_pond"
+    ],
+    "enriched_at": "2026-08-13T08:06:26.338Z",
+    "enrich_model": "composer-2.5:run-dd1b5ebd-a834-4a44-96c2-91ec4b5fd52c",
+    "enrich_notes": "Chapter 1 is planning/regulatory only; WQCV tied to 0.6 in. precipitation within UDFCD. Detailed BMP sizing, drawdown, media depths, and infiltration rates are deferred to Chapters 2–5 and 3 (WQCV calculation).",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "max_drawdown_hours",
+      "shwt_separation_inches",
+      "bioretention_media_depth_min_inches",
+      "bioretention_ponding_depth_inches",
+      "permeable_pavement_storage_depth_inches",
+      "design_infiltration_rate_in_per_hr",
+      "permanent_pool_depth_inches",
+      "ed_drain_time_hours",
+      "length_to_width_ratio",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "swale_longitudinal_slope_percent",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

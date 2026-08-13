@@ -65,6 +65,31 @@
       "field": "design_criteria.approved_bmp_categories",
       "excerpt": "green roofs and rain gardens",
       "page_or_section": "Section 2.2.a"
+    },
+    {
+      "field": "wqv_depth_inches",
+      "excerpt": "stormwater facilities shall capture at least the first two (2) inches of runoff",
+      "page_or_section": "Atlas context — Volume Control (Section 2.2.a)"
+    },
+    {
+      "field": "shwt_separation_inches",
+      "excerpt": "must show at least 2 ft. of separation (measured from the bottom of the basin, or underdrain, if present) from the seasonal high groundwater level table",
+      "page_or_section": "page 62 — Groundwater"
+    },
+    {
+      "field": "shwt_separation_inches",
+      "excerpt": "The bottom underdrain invert elevation of the infiltrating BMPs must not be within two (2) feet of bedrock or the seasonal high groundwater.",
+      "page_or_section": "page 89 — Section 4.2.a.ii"
+    },
+    {
+      "field": "length_to_width_ratio",
+      "excerpt": "Basins must have a length-to-width ratio of at least 2:1 to the extent possible.",
+      "page_or_section": "page 125 — Ponds and Wet Basins, General B"
+    },
+    {
+      "field": "mtd_verification_program",
+      "excerpt": "filtration technologies must demonstrate pollutant removal performance at an equivalent level required by New Jersey Corporation for Advanced Technology (NJCAT) certification and the Technology Assessment Protocol-Ecology (TAPE) developed by the Washington State Department of Ecology",
+      "page_or_section": "page 146 — Section 4.4 filtration / manufactured treatment"
     }
   ],
   "extraction_quality": {
@@ -84,5 +109,53 @@
     "landing_page_url": "https://www.pittsburghpa.gov/Business-Development/Zoning/Plan-Reviews-and-Notices/Environmental-Review/Stormwater",
     "retrieved_at": "2026-08-10T08:30:22.061Z",
     "original_filename": "pittsburgh-pa.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": 2,
+    "max_drawdown_hours": null,
+    "shwt_separation_inches": 24,
+    "bioretention_media_depth_min_inches": null,
+    "bioretention_ponding_depth_inches": null,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": null,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": null,
+    "length_to_width_ratio": 2,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": "NJCAT; TAPE",
+    "practice_mentions": [
+      "bioretention",
+      "constructed_wetland",
+      "extended_detention",
+      "green_roof",
+      "infiltration_basin",
+      "manufactured_treatment",
+      "permeable_pavement",
+      "sand_filter",
+      "swale",
+      "wet_pond"
+    ],
+    "enriched_at": "2026-08-13T09:47:34.341Z",
+    "enrich_model": "composer-2.5:run-fe7968c8-dc9d-44f3-9b6d-b3d65e4099ce",
+    "enrich_notes": "Atlas/review context states volume control captures the first 2 inches of runoff (95th percentile); not repeated in corpus chunks. Infiltration BMPs are infeasible where tested rates are below 0.2 in/hr (Section 3.4 reference). Wet pond/wetland temporary storage typically drains in less than 72 hours; pool zone standing depth is 2–6 ft (8 ft max)—not a single permanent-pool design depth. Table 3.4 lists roof slope >8% as a green-roof siting constraint, not a design slope.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "max_drawdown_hours",
+      "bioretention_media_depth_min_inches",
+      "bioretention_ponding_depth_inches",
+      "permeable_pavement_storage_depth_inches",
+      "design_infiltration_rate_in_per_hr",
+      "permanent_pool_depth_inches",
+      "ed_drain_time_hours",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "swale_longitudinal_slope_percent",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent"
+    ]
   }
 }

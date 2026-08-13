@@ -73,6 +73,16 @@
       "field": "design_criteria.approved_bmp_categories",
       "excerpt": "Grate inlets are allowed on private property",
       "page_or_section": "Section 1.D"
+    },
+    {
+      "field": "design_parameters.wqv_depth_inches",
+      "excerpt": "Onsite inlets in sump condition shall be designed to capture Q25.",
+      "page_or_section": "Section 1 – Design Criteria D.1.b, page 3"
+    },
+    {
+      "field": "practice_mentions",
+      "excerpt": "This section presents special drainage design requirements for private storm drains within the City of Anaheim.",
+      "page_or_section": "Section 1 – Design Criteria, page 3"
     }
   ],
   "extraction_quality": {
@@ -91,5 +101,46 @@
     "landing_page_url": "https://www.anaheim.net/589/Storm-Drainage-Manual-Public-Private-Fac",
     "retrieved_at": "2026-08-10T08:05:33.346Z",
     "original_filename": "anaheim-ca.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": null,
+    "max_drawdown_hours": null,
+    "shwt_separation_inches": null,
+    "bioretention_media_depth_min_inches": null,
+    "bioretention_ponding_depth_inches": null,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": null,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": null,
+    "length_to_width_ratio": null,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [],
+    "enriched_at": "2026-08-13T07:24:41.300Z",
+    "enrich_model": "composer-2.5:run-f761353c-88f9-4b85-a1af-01f2a871cec9",
+    "enrich_notes": "Division IV (Aug 2005) covers private storm drainage only: recurrence (10-year minimum in defined Santa Ana tributary cases), pipe diameters, manhole spacing, sump grate inlets (Q25 design; 100-year habitable-area protection with 100% grate clog; ≥1.0 ft freeboard for emergency overflow), sump pumps (Q25), and plastic pipe limits. No water-quality volume depth, SCM/BMP sizing, infiltration, or canonical treatment practice criteria appear in these excerpts; atlas notes WQv/BMPs via Orange County Hydrology Manual and Local Drainage Manual with Anaheim revisions.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "wqv_depth_inches",
+      "max_drawdown_hours",
+      "shwt_separation_inches",
+      "bioretention_media_depth_min_inches",
+      "bioretention_ponding_depth_inches",
+      "permeable_pavement_storage_depth_inches",
+      "design_infiltration_rate_in_per_hr",
+      "permanent_pool_depth_inches",
+      "ed_drain_time_hours",
+      "length_to_width_ratio",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "swale_longitudinal_slope_percent",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

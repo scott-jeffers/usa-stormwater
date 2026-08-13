@@ -90,6 +90,41 @@
       "field": "design_criteria.approved_bmp_categories",
       "excerpt": "Water Quality SCMs",
       "page_or_section": "Section 2.7 / 3.13"
+    },
+    {
+      "field": "design_parameters.wqv_depth_inches",
+      "excerpt": "The design storm depth corresponding to the WQE is 0.60 inches for the Denver metropolitan region.",
+      "page_or_section": "§3 definitions (page 89, aurora-co-c0125)"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "FSD is based on detaining the EURV and releasing it over approximately 72 hours (unless reduced time required in airport zone).",
+      "page_or_section": "§10.4 Full Spectrum Detention (page 208, aurora-co-c0231)"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "Zone 2 ranges from 12 to 32 hours depending on the type of SCM and must drain 97% of the EURV and WQCV within 72 hours",
+      "page_or_section": "§10.4 (page 210, aurora-co-c0231)"
+    },
+    {
+      "field": "design_parameters.shwt_separation_inches",
+      "excerpt": "The bottom of the detention facility storage area must be at least 2 feet above the seasonal high groundwater elevation.",
+      "page_or_section": "§10.9.1 Grading Requirements (page 222, aurora-co-c0243)"
+    },
+    {
+      "field": "design_parameters.mtd_verification_program",
+      "excerpt": "Performance must be verified through Technology Assessment Protocol–Ecology (TAPE) with the HRMF having achieved a General Use Level Designation (GULD) for Basic Treatment.",
+      "page_or_section": "Table 11-3 MTDs (page 245, aurora-co-c0263)"
+    },
+    {
+      "field": "practice_mentions.extended_detention",
+      "excerpt": "Zone 1 provides the WQCV and is released over the drain time (12 to 40 hours) corresponding to the type of SCM.",
+      "page_or_section": "§10.4 Figure 10-2 narrative (page 209, aurora-co-c0231)"
+    },
+    {
+      "field": "practice_mentions.bioretention",
+      "excerpt": "Impervious Area < 2 acres: water quality via infiltration/filtration SCM; no EDB. Use bioretention, sand filter, or permeable pavement.",
+      "page_or_section": "Table 11-1 (page 239, aurora-co-c0258)"
     }
   ],
   "extraction_quality": {
@@ -105,5 +140,53 @@
     "landing_page_url": "https://www.auroragov.org/",
     "retrieved_at": "2026-08-10T08:03:22.623Z",
     "original_filename": "aurora-co.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": 0.6,
+    "max_drawdown_hours": 72,
+    "shwt_separation_inches": 24,
+    "bioretention_media_depth_min_inches": null,
+    "bioretention_ponding_depth_inches": null,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": null,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": null,
+    "length_to_width_ratio": null,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": "TAPE",
+    "practice_mentions": [
+      "bioretention",
+      "constructed_wetland",
+      "extended_detention",
+      "green_roof",
+      "infiltration_basin",
+      "manufactured_treatment",
+      "permeable_pavement",
+      "sand_filter",
+      "swale",
+      "wet_pond"
+    ],
+    "enriched_at": "2026-08-13T07:30:39.241Z",
+    "enrich_model": "composer-2.5:run-a2d38eee-77cd-4bf0-9609-c4dd37397f18",
+    "enrich_notes": "CoA nests WQCV in EURV and 100-year FSD per MHFD Vol. 2 Ch. 12. WQCV sizing uses regression with WQE 0.60 in. (80th percentile). Zone 1 WQCV drain 12–40 hr by SCM type; Zone 2 EURV 12–32 hr; 97% of WQCV+EURV within 72 hr except airport zones (FAA 48 hr, DEN 40 hr within 10,000 ft). Detention storage bottom min 2 ft above seasonal high groundwater. New constructed wetland and retention ponds prohibited; EDB requires ≥2 impervious acres. Tier 2 sites <2 ac impervious: bioretention, sand filter, or permeable pavement only (no EDB). Detailed SCM dimensions referenced to MHFD Vol. 3 Ch. 4 fact sheets and workbooks.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "bioretention_media_depth_min_inches",
+      "bioretention_ponding_depth_inches",
+      "permeable_pavement_storage_depth_inches",
+      "design_infiltration_rate_in_per_hr",
+      "permanent_pool_depth_inches",
+      "ed_drain_time_hours",
+      "length_to_width_ratio",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "swale_longitudinal_slope_percent",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent"
+    ]
   }
 }

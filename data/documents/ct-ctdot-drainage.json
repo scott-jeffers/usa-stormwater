@@ -30,11 +30,6 @@
   },
   "evidence": [
     {
-      "field": "document_metadata.jurisdiction_name",
-      "excerpt": "Connecticut",
-      "page_or_section": "Title / header"
-    },
-    {
       "field": "document_metadata.document_title",
       "excerpt": "CTDOT Drainage Manual",
       "page_or_section": "Title / header"
@@ -53,15 +48,56 @@
       "field": "design_criteria.approved_bmp_categories",
       "excerpt": "Wet Pond, Dry Pond, Detention Basin",
       "page_or_section": null
+    },
+    {
+      "field": "design_parameters.wqv_depth_inches",
+      "excerpt": "the recommended WQV... is equivalent to the runoff associated with the first one-inch of rainfall",
+      "page_or_section": "10.11.3 / page 551"
+    },
+    {
+      "field": "design_parameters.wqv_depth_inches",
+      "excerpt": "P = design precipitation, inches (1\" for water quality storm)",
+      "page_or_section": "Appendix 11.C / page 673"
+    },
+    {
+      "field": "design_parameters.ed_drain_time_hours",
+      "excerpt": "The WQV should be detained and released over a period of 24 h.",
+      "page_or_section": "10.11.3 / page 551"
+    },
+    {
+      "field": "design_parameters.shwt_separation_inches",
+      "excerpt": "there should be at least 1.5 m (5 ft) between the bottom of the facility to the seasonable high water table",
+      "page_or_section": "10.13.1 / page 562"
+    },
+    {
+      "field": "design_parameters.design_infiltration_rate_in_per_hr",
+      "excerpt": "Infiltration rates of greater than 25 mm/h (1 in/h) are preferred for infiltration facilities.",
+      "page_or_section": "10.13.2 / page 563"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "A maximum detention time of 72 h is recommended.",
+      "page_or_section": "10.13.3 / page 566"
+    },
+    {
+      "field": "design_parameters.permanent_pool_depth_inches",
+      "excerpt": "Basin depth should be between 1.5 and 3.0 m (5 and 10 ft)",
+      "page_or_section": "10.12.3 / page 557"
+    },
+    {
+      "field": "design_parameters.length_to_width_ratio",
+      "excerpt": "The length-to-width ratio should be at least 3:1.",
+      "page_or_section": "10.12.3 / page 557"
     }
   ],
   "extraction_quality": {
     "confidence": "medium",
     "needs_human_review": true,
-    "review_notes": "Heuristic agency extract from prepared text. CTDOT Drainage Manual — full PDF",
+    "review_notes": "Heuristic agency extract from prepared text. CTDOT Drainage Manual — full PDF Pipeline excerpt repair removed 1 unlocated citation(s).",
     "fields_not_found": [
       "design_criteria.water_quality_volume_method",
-      "design_criteria.required_hydrologic_hydraulic_software"
+      "design_criteria.required_hydrologic_hydraulic_software",
+      "document_metadata.jurisdiction_name"
     ]
   },
   "source": {
@@ -69,5 +105,46 @@
     "landing_page_url": "https://portal.ct.gov/dot/bureaus/engineering-and-construction/engineering/facilities-and-transit/soils-foundation-hydraulics-and-drainage",
     "retrieved_at": "2026-08-11T17:59:10.530Z",
     "original_filename": "ct-ctdot-drainage.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": 1,
+    "max_drawdown_hours": 72,
+    "shwt_separation_inches": 60,
+    "bioretention_media_depth_min_inches": null,
+    "bioretention_ponding_depth_inches": null,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": 1,
+    "permanent_pool_depth_inches": 60,
+    "ed_drain_time_hours": 24,
+    "length_to_width_ratio": 3,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "extended_detention",
+      "infiltration_basin",
+      "infiltration_trench",
+      "manufactured_treatment",
+      "swale",
+      "wet_pond"
+    ],
+    "enriched_at": "2026-08-13T08:00:07.044Z",
+    "enrich_model": "composer-2.5:run-f17f6d0e-708c-4101-9873-57244d0496b7",
+    "enrich_notes": "WQV follows Connecticut Stormwater Quality Manual first-inch runoff; CTDOT routes WQV with 24 h release for detention basins. Infiltration BMPs require 5 ft to SHWT/bedrock; WQV infiltrate within 48 h (trenches/basins); trench max detention 72 h. Wet detention permanent pool 5–10 ft depth, L:W ≥3:1. Minimum preferred infiltration 1 in/h; subsoil exfiltration figure cites 7 mm/h. Quantity control: 2-, 10-, 25-year peaks to predevelopment; pass 100-year.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "bioretention_media_depth_min_inches",
+      "bioretention_ponding_depth_inches",
+      "permeable_pavement_storage_depth_inches",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "swale_longitudinal_slope_percent",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

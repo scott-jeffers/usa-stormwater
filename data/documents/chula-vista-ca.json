@@ -37,6 +37,31 @@
       "field": "document_metadata.jurisdiction_name",
       "excerpt": "Chula Vista — San Diego County MS4; coverage via City of San Diego Stormwater Standards as regional reference",
       "page_or_section": "Coverage note"
+    },
+    {
+      "field": "design_parameters.shwt_separation_inches",
+      "excerpt": "The depth to seasonally high groundwater tables (normal high depth during the wet season) beneath the base of any infiltration BMP must be greater than 10 feet for full infiltration BMPs to be allowed.",
+      "page_or_section": "Appendix C.2.2.2, page 272"
+    },
+    {
+      "field": "design_parameters.length_to_width_ratio",
+      "excerpt": "Basin length to width ratio is ≥ 2:1 (L:W).",
+      "page_or_section": "Appendix E dry extended detention, page 439"
+    },
+    {
+      "field": "design_parameters.mtd_verification_program",
+      "excerpt": "An active General Use Level Designation for Basic Treatment, Phosphorus Treatment or Enhanced Treatment under the Washington State Technology Acceptance Protocol-Ecology program is the preferred method",
+      "page_or_section": "Appendix B.6, page 257"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "maximum 36-hour drawdown time for the aggregate storage layer, with surface ponding no greater than a maximum 24-hour drawdown",
+      "page_or_section": "Appendix E INF-2 bioretention, page 386"
+    },
+    {
+      "field": "design_parameters.ed_drain_time_hours",
+      "excerpt": "Surface ponding drawdown time is between 24 and 96 hours.",
+      "page_or_section": "Appendix E dry extended detention, page 439"
     }
   ],
   "extraction_quality": {
@@ -50,5 +75,54 @@
     "landing_page_url": "https://www.chulavistaca.gov/",
     "retrieved_at": "2026-08-10T10:27:43.524Z",
     "original_filename": "chula-vista-ca.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": null,
+    "max_drawdown_hours": null,
+    "shwt_separation_inches": 120,
+    "bioretention_media_depth_min_inches": null,
+    "bioretention_ponding_depth_inches": null,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": null,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": null,
+    "length_to_width_ratio": 2,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": "TAPE",
+    "practice_mentions": [
+      "bioretention",
+      "extended_detention",
+      "green_roof",
+      "infiltration_basin",
+      "infiltration_trench",
+      "manufactured_treatment",
+      "permeable_pavement",
+      "sand_filter",
+      "swale",
+      "wet_pond"
+    ],
+    "enriched_at": "2026-08-13T07:52:55.245Z",
+    "enrich_model": "composer-2.5:run-d393e0b7-368c-47d2-bb5c-696112fb03fb",
+    "enrich_notes": "Chula Vista proxy uses San Diego County Stormwater Standards (August 2024). Pollutant control sizing is DCV from 24-hour 85th percentile rainfall (Appendix B), not a fixed inch WQV depth in excerpts. Bioretention and permeable pavement cite max 36-hour aggregate drawdown (24-hour surface ponding for bioretention); dry extended detention surface ponding drawdown 24–96 hours. Full infiltration requires seasonally high groundwater more than 10 ft below BMP base (Appendix C.2.2.2). Proprietary BMPs prefer Washington State TAPE General Use Level Designation.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "wqv_depth_inches",
+      "max_drawdown_hours",
+      "bioretention_media_depth_min_inches",
+      "bioretention_ponding_depth_inches",
+      "permeable_pavement_storage_depth_inches",
+      "design_infiltration_rate_in_per_hr",
+      "permanent_pool_depth_inches",
+      "ed_drain_time_hours",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "swale_longitudinal_slope_percent",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent"
+    ]
   }
 }

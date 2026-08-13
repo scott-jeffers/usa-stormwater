@@ -49,6 +49,31 @@
       "field": "document_metadata.relationship_to_state_manual",
       "excerpt": "independent city drainage design manual",
       "page_or_section": "Coverage note"
+    },
+    {
+      "field": "practice_mentions.extended_detention",
+      "excerpt": "SWM facilities such as detention, retention, extended detention, infiltration, and sedimentation ponds",
+      "page_or_section": "8.1 GENERAL, page 8-1"
+    },
+    {
+      "field": "practice_mentions.swale",
+      "excerpt": "Residential lots may drain to a side lot swale or flume only if such feature drains directly to public right-of-way",
+      "page_or_section": "1.2.10 Lot Grading, page 1-10"
+    },
+    {
+      "field": "design_parameters.wqv_depth_inches",
+      "excerpt": "No water-quality rainfall or runoff depth (inches) stated; design storms referenced as 25- and 100-year frequency",
+      "page_or_section": "1.2.2 General, page 1-1"
+    },
+    {
+      "field": "design_parameters.ed_drain_time_hours",
+      "excerpt": "Extended detention named among pond types; no drain or drawdown time in hours given",
+      "page_or_section": "8.1 GENERAL, page 8-1"
+    },
+    {
+      "field": "design_parameters.design_infiltration_rate_in_per_hr",
+      "excerpt": "Minimum infiltration rates for the four soils groups are: A 0.30–0.45; B 0.15–0.30; C 0.05–0.15; D 0.00–0.05 (inch/hour)",
+      "page_or_section": "Section 2, Table context page 2-18"
     }
   ],
   "extraction_quality": {
@@ -65,5 +90,51 @@
     "landing_page_url": "https://killeentexas.gov/303/Mowing-Drainage",
     "retrieved_at": "2026-08-10T09:54:53.498Z",
     "original_filename": "killeen-tx.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": null,
+    "max_drawdown_hours": null,
+    "shwt_separation_inches": null,
+    "bioretention_media_depth_min_inches": null,
+    "bioretention_ponding_depth_inches": null,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": null,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": null,
+    "length_to_width_ratio": null,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "extended_detention",
+      "infiltration_basin",
+      "swale",
+      "wet_pond"
+    ],
+    "enriched_at": "2026-08-13T08:47:07.333Z",
+    "enrich_model": "composer-2.5:run-4deea722-5137-4215-aa13-0374ced79523",
+    "enrich_notes": "Corpus is largely drainage policy, hydrology, and partial Ch. 8/9; Section 8.3 SWM pond performance/outlet criteria (TOC 8-2–8-7) is not in excerpts. Peak-control focus: 25-year no peak increase with detention; 100-year via emergency spillway without overtopping. No explicit WQv runoff depth or SCM sizing depths/drawdown times. Table 2-7 soil-group minimum infiltration ranges (in/hr) are for SCS curve numbers, not a stated facility design exfiltration rate. Side-lot swales/flumes allowed with routing limits; trapezoidal vegetated channel min bottom width 4 ft is labeled drainage channel, not swale width. Atlas notes 2012/2013 chapter amendments may supersede wording.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "wqv_depth_inches",
+      "max_drawdown_hours",
+      "shwt_separation_inches",
+      "bioretention_media_depth_min_inches",
+      "bioretention_ponding_depth_inches",
+      "permeable_pavement_storage_depth_inches",
+      "design_infiltration_rate_in_per_hr",
+      "permanent_pool_depth_inches",
+      "ed_drain_time_hours",
+      "length_to_width_ratio",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "swale_longitudinal_slope_percent",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

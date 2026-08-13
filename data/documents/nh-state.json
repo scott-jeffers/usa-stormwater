@@ -85,6 +85,16 @@
       "field": "design_criteria.approved_bmp_categories",
       "excerpt": "SCMs (such as raingardens, bioretention systems, tree box filters, and similar stormwater management landscaping techniques)",
       "page_or_section": "ELEMENT C, Section 1.b, page 2"
+    },
+    {
+      "field": "design_parameters.wqv_depth_inches",
+      "excerpt": "P = 1 inch of rainfall",
+      "page_or_section": "Table 1, page 10"
+    },
+    {
+      "field": "design_parameters.wqv_depth_inches",
+      "excerpt": "onsite retention of the first 1-inch of rainfall based on hydrologic soil group (HSG)",
+      "page_or_section": "Element C.2.a, page 4"
     }
   ],
   "extraction_quality": {
@@ -101,5 +111,53 @@
     "landing_page_url": "https://extension.unh.edu/stormwater-center/nh-stormwater-manual",
     "retrieved_at": "2026-08-07T11:30:42.897Z",
     "original_filename": "nh-state.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": 1,
+    "max_drawdown_hours": null,
+    "shwt_separation_inches": null,
+    "bioretention_media_depth_min_inches": null,
+    "bioretention_ponding_depth_inches": null,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": null,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": null,
+    "length_to_width_ratio": null,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "bioretention",
+      "constructed_wetland",
+      "extended_detention",
+      "infiltration_basin",
+      "manufactured_treatment",
+      "sand_filter",
+      "swale"
+    ],
+    "enriched_at": "2026-08-13T09:24:15.089Z",
+    "enrich_model": "composer-2.5:run-be624ebf-1cc2-47a0-aea4-ef7f04476182",
+    "enrich_notes": "Model municipal template references NH Stormwater Manual and UNH Stormwater Center for BMP sizing and pollutant removal; Table 1 gives WQV/GRV formulas only. WPS requires onsite retention of first 1 inch by HSG via UNH tool.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "max_drawdown_hours",
+      "shwt_separation_inches",
+      "bioretention_media_depth_min_inches",
+      "bioretention_ponding_depth_inches",
+      "permeable_pavement_storage_depth_inches",
+      "design_infiltration_rate_in_per_hr",
+      "permanent_pool_depth_inches",
+      "ed_drain_time_hours",
+      "length_to_width_ratio",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "swale_longitudinal_slope_percent",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

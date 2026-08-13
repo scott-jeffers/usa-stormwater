@@ -50,6 +50,41 @@
       "field": "design_criteria.peak_flow_calculation_method",
       "excerpt": "sion Equations developed by the USGS b. Rational Equation for drainage areas up to 600 acres c. For outfalls from stormwater man",
       "page_or_section": null
+    },
+    {
+      "field": "design_parameters.shwt_separation_inches",
+      "excerpt": "The minimum ditch bottom elevation is one foot above the estimated seasonal high groundwater elevation for maintainability.",
+      "page_or_section": "Section 2.4.4 Channel Bottom, page 2-4"
+    },
+    {
+      "field": "design_parameters.permanent_pool_depth_inches",
+      "excerpt": "With facilities designed to be wet, provide a minimum permanent pool depth of six feet to minimize aquatic growth.",
+      "page_or_section": "Section 5.4.4.2 item 4, page 5-12"
+    },
+    {
+      "field": "design_parameters.swale_bottom_width_inches",
+      "excerpt": "The minimum channel bottom width is five feet to accommodate mitered end sections",
+      "page_or_section": "Section 2.4.4 Channel Bottom, page 2-3"
+    },
+    {
+      "field": "design_parameters.swale_longitudinal_slope_percent",
+      "excerpt": "Provide a minimum physical slope of 0.0005 feet/feet for all conveyance ditches.",
+      "page_or_section": "Section 2.4.2 Slope, page 2-2"
+    },
+    {
+      "field": "practice_mentions.swale",
+      "excerpt": "Roadside, Median, and Interceptor Ditches or Swales",
+      "page_or_section": "Table 2.1, page 2-1"
+    },
+    {
+      "field": "practice_mentions.bioretention",
+      "excerpt": "Bioretention Systems (landscaped areas or planters, rain gardens, stormwater trees)",
+      "page_or_section": "Table 5-1, page 5-7"
+    },
+    {
+      "field": "practice_mentions.wet_pond",
+      "excerpt": "Retention Pond ... Littoral Zone (Wet detention ponds)",
+      "page_or_section": "Table 5-1, page 5-7"
     }
   ],
   "extraction_quality": {
@@ -66,5 +101,49 @@
     "landing_page_url": "https://www.fdot.gov/roadway/drainage/drainage-history",
     "retrieved_at": "2026-08-11T17:21:05.990Z",
     "original_filename": "fl-fdot-drainage.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": null,
+    "max_drawdown_hours": null,
+    "shwt_separation_inches": 12,
+    "bioretention_media_depth_min_inches": null,
+    "bioretention_ponding_depth_inches": null,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": null,
+    "permanent_pool_depth_inches": 72,
+    "ed_drain_time_hours": null,
+    "length_to_width_ratio": null,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": 60,
+    "swale_longitudinal_slope_percent": 0.05,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "bioretention",
+      "extended_detention",
+      "infiltration_trench",
+      "manufactured_treatment",
+      "swale",
+      "wet_pond"
+    ],
+    "enriched_at": "2026-08-13T08:14:23.452Z",
+    "enrich_model": "composer-2.5:run-c0531fe7-6bcf-427a-acbe-abe56d75ac8b",
+    "enrich_notes": "FDOT January 2025 Drainage Manual excerpts emphasize roadway drainage, open channels, storm sewers, and Chapter 5 BMP tables. Closed-basin retention must recover so half the volume is available in seven days and the full volume in 30 days (Section 5.4.1.2.2); not mapped to max_drawdown_hours without an explicit hour value. Wet pond fencing variances reference permanent design water depth of two feet or greater. French drain/exfiltration guidance requires invert above water table and prohibits use in well-field zones with less than 30 days travel time; no design infiltration rate or trench storage depth stated. Regulatory design references Chapter 14-86 F.A.C. and NRCS/unit hydrograph methods; no WQv rainfall depth in provided text.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "wqv_depth_inches",
+      "max_drawdown_hours",
+      "bioretention_media_depth_min_inches",
+      "bioretention_ponding_depth_inches",
+      "permeable_pavement_storage_depth_inches",
+      "design_infiltration_rate_in_per_hr",
+      "ed_drain_time_hours",
+      "length_to_width_ratio",
+      "wetland_detention_hours",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

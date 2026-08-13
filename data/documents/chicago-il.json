@@ -100,6 +100,46 @@
       "field": "design_criteria.approved_bmp_categories",
       "excerpt": "control and are discussed below. • Green Roofs • Rooftop Runoff BMPs (Planter Boxes, Rain Barrels and Cisterns) • Permeable Paving • Natural Landscaping • Vegetated Filter Strips • Bioinfiltration Systems • Drainage Swales • Infiltration Vault (also see Section 2.5.2)",
       "page_or_section": "p. 42"
+    },
+    {
+      "field": "design_parameters.design_infiltration_rate_in_per_hr",
+      "excerpt": "subsoil infiltration rates are 0.5 inches per hour or greater",
+      "page_or_section": "3.2.1 Practicability of Infiltration BMPs, page 33"
+    },
+    {
+      "field": "design_parameters.shwt_separation_inches",
+      "excerpt": "The high groundwater table must be at least 2 feet below the bottom of all proposed infiltration BMP",
+      "page_or_section": "3.2.1, page 33"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "Dry bottom basins must be capable of draining within 72 hours of a storm event",
+      "page_or_section": "Appendix A RATE CONTROL BMPS — Detention Basins, page 62"
+    },
+    {
+      "field": "design_parameters.ed_drain_time_hours",
+      "excerpt": "Dry bottom basins must be capable of draining within 72 hours of a storm event",
+      "page_or_section": "Ch III, 3.2 / Appendix A, page 62"
+    },
+    {
+      "field": "design_parameters.permanent_pool_depth_inches",
+      "excerpt": "Wet detention basins without vegetation shall be at least 3 feet deep",
+      "page_or_section": "Appendix A, page 63"
+    },
+    {
+      "field": "design_parameters.bioretention_media_depth_min_inches",
+      "excerpt": "The growing medium soil must be a mix of 40% sand, 30% topsoil and 30% compost. The soil must be at least 2 feet deep",
+      "page_or_section": "Appendix C Bioinfiltration Minimum Design Requirements, page 84"
+    },
+    {
+      "field": "design_parameters.bioretention_ponding_depth_inches",
+      "excerpt": "The design of a bioinfiltration facility shall allow no more than 12 inches of depressional ponding in the vegetated area",
+      "page_or_section": "Appendix C, page 84"
+    },
+    {
+      "field": "design_parameters.design_infiltration_rate_in_per_hr",
+      "excerpt": "The underlying soil shall have a permeability of 0.5 in/hr or greater",
+      "page_or_section": "Appendix C Bioinfiltration, page 84"
     }
   ],
   "extraction_quality": {
@@ -117,5 +157,48 @@
     "landing_page_url": "https://www.chicago.gov/city/en/depts/water.html",
     "retrieved_at": "2026-08-07T21:21:20.846Z",
     "original_filename": "chicago-il.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": null,
+    "max_drawdown_hours": 72,
+    "shwt_separation_inches": 24,
+    "bioretention_media_depth_min_inches": 24,
+    "bioretention_ponding_depth_inches": 12,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": 0.5,
+    "permanent_pool_depth_inches": 36,
+    "ed_drain_time_hours": 72,
+    "length_to_width_ratio": null,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "bioretention",
+      "constructed_wetland",
+      "extended_detention",
+      "green_roof",
+      "infiltration_basin",
+      "permeable_pavement",
+      "swale",
+      "wet_pond"
+    ],
+    "enriched_at": "2026-08-13T07:52:20.283Z",
+    "enrich_model": "composer-2.5:run-cc99b248-b583-46de-a9bc-a38c59d6f518",
+    "enrich_notes": "Volume control in excerpts emphasizes 15% impervious reduction and worksheet 1-inch storm volumes; no explicit half-inch WQv depth in corpus. SHWT separation is 2 ft (24 in) below BMP bottom, or 3.5 ft (42 in) for combined sewer / underdrains. Bioinfiltration drain within 5 days (120 hr); permeable aggregate underdrain systems within 48 hr. Green roof max slopes: extensive 25%, intensive 10%. Swale longitudinal slope range 0.5–2.5% stated as a range.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "wqv_depth_inches",
+      "permeable_pavement_storage_depth_inches",
+      "length_to_width_ratio",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "swale_longitudinal_slope_percent",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

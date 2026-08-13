@@ -60,6 +60,46 @@
       "field": "design_criteria.water_quality_volume_method",
       "excerpt": "Design and performance standards and criteria for water quality and quantity ... Part IV - Stormwater Quality",
       "page_or_section": "Introduction / Part IV"
+    },
+    {
+      "field": "max_drawdown_hours",
+      "excerpt": "The retention system must provide the capacity for the appropriate treatment volume of stormwater specified in section 5.2 within 72 hours following a storm event",
+      "page_or_section": "5.3 Recovery Time, page 40"
+    },
+    {
+      "field": "max_drawdown_hours",
+      "excerpt": "The system should be designed to provide for the drawdown of the appropriate treatment volume specified in section 6.2 within 72 hours following a storm event.",
+      "page_or_section": "6.3 Recovery Time, page 42"
+    },
+    {
+      "field": "max_drawdown_hours",
+      "excerpt": "Swale systems must provide the capacity for the specified treatment volume of stormwater and contain no contiguous areas of standing or flowing water within 72 hours following the storm event",
+      "page_or_section": "9.3 Recovery Time, page 59"
+    },
+    {
+      "field": "shwt_separation_inches",
+      "excerpt": "The exfiltration trench system must be designed so that the invert elevation of the trench is at least two feet above the seasonal high ground water table elevation",
+      "page_or_section": "7.8 Ground Water Table, page 51"
+    },
+    {
+      "field": "practice_mentions",
+      "excerpt": "Examples of retention systems include: ... Pervious concrete with continuous curb",
+      "page_or_section": "5.1 Description, page 38"
+    },
+    {
+      "field": "practice_mentions",
+      "excerpt": "7.0 Exfiltration Trench Design and Performance Criteria",
+      "page_or_section": "Part V, page 47"
+    },
+    {
+      "field": "practice_mentions",
+      "excerpt": "9.0 Swale Systems Design and Performance Criteria",
+      "page_or_section": "Part V, page 57"
+    },
+    {
+      "field": "practice_mentions",
+      "excerpt": "8.0 Wet Detention Design and Performance Criteria ... permanently wet ponds",
+      "page_or_section": "8.1 Description, page 52"
     }
   ],
   "extraction_quality": {
@@ -75,5 +115,50 @@
     "landing_page_url": "https://www.sjrwmd.com/",
     "retrieved_at": "2026-08-11T18:39:24.874Z",
     "original_filename": "fl-sjrwmd-erp-ah2.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": null,
+    "max_drawdown_hours": 72,
+    "shwt_separation_inches": 24,
+    "bioretention_media_depth_min_inches": null,
+    "bioretention_ponding_depth_inches": null,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": null,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": null,
+    "length_to_width_ratio": null,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "infiltration_basin",
+      "infiltration_trench",
+      "permeable_pavement",
+      "swale",
+      "wet_pond"
+    ],
+    "enriched_at": "2026-08-13T08:16:47.297Z",
+    "enrich_model": "composer-2.5:run-f201dab4-bdc0-4801-9cec-2ac943bd093d",
+    "enrich_notes": "Treatment volume sizing references ERP Applicant's Handbook Volume I (sections 8.3 and 9.0); no WQv depth in inches in Vol II excerpts. Retention, underdrain, exfiltration trench, and swale share 72-hour treatment-volume recovery under average AMC; optional safety factor example uses 36-hour drawdown. System-wide quantity recovery for detention/retention storage is 14 days (3.2.7); wet detention draws down volume above permanent pool within 14 days. Exfiltration trench invert must be at least 2 ft above seasonal high groundwater (7.8). Swale geometry: top width-to-depth ≥ 6:1 or side slopes ≥ 3:1 (H:V).",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "wqv_depth_inches",
+      "bioretention_media_depth_min_inches",
+      "bioretention_ponding_depth_inches",
+      "permeable_pavement_storage_depth_inches",
+      "design_infiltration_rate_in_per_hr",
+      "permanent_pool_depth_inches",
+      "ed_drain_time_hours",
+      "length_to_width_ratio",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "swale_longitudinal_slope_percent",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

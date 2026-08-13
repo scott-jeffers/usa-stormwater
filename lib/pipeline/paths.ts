@@ -10,6 +10,19 @@ export const CORPUS_DIR = path.resolve(process.cwd(), "data/corpus");
 export const NATIONAL_DIR = path.resolve(process.cwd(), "data/national");
 export const OUTLINE_PATH = path.join(NATIONAL_DIR, "outline.json");
 export const DRAFT_DIR = path.join(NATIONAL_DIR, "draft");
+export const PRACTICES_DIR = path.join(NATIONAL_DIR, "practices");
+export const ENRICH_PROGRESS_PATH = path.join(
+  PIPELINE_DIR,
+  "enrich-parameters-progress.json"
+);
+
+export function practiceMatrixPath(practiceKey: string): string {
+  return path.join(PRACTICES_DIR, `${practiceKey}.matrix.json`);
+}
+
+export function practiceSynthesisPath(practiceKey: string): string {
+  return path.join(PRACTICES_DIR, `${practiceKey}.json`);
+}
 
 export const QUEUE_DIR = path.resolve(process.cwd(), "data/queue");
 export const MANIFEST_PATH = path.join(QUEUE_DIR, "manifest.json");

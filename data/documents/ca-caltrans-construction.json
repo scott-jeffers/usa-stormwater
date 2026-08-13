@@ -108,6 +108,41 @@
       "field": "design_criteria.approved_bmp_categories",
       "excerpt": "Table 10-1. Approved TBMPs: Biofiltration Systems, Design Pollution Prevention Infiltration Areas, Infiltration Devices, Detention Devices, Traction Sand Traps, Dry Weather Flow Diversion, Full-capture Trash Devices, Media Filters, Multi-chamber Treatment Train, Wet Basins, Bioretention, Open Graded Friction Course, Porous Pavement (Non-Highway Facilities Only)",
       "page_or_section": "Table 10-1, Section 10.2, Page 10-1"
+    },
+    {
+      "field": "fields_not_found",
+      "excerpt": "based on 0.5 inches of runoff volume over a 24-hour",
+      "page_or_section": "p90"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "The water quality outlet should be designed to drain the basin within 24 to 96 hours (also referred to as drawdown time; the 24-hour limit is specified to provide adequate settling time; the 96-hour limit is specified to avoid vector control concerns).",
+      "page_or_section": "SC-2 Sediment/Desilting Basin, pages 82-83"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "With a drawdown time of 40 hours, the equation becomes:",
+      "page_or_section": "SC-2 Sediment/Desilting Basin, page 83"
+    },
+    {
+      "field": "practice_mentions.bioretention",
+      "excerpt": "Bioretention • Drain time does not exceed 96 hours after end of rain event",
+      "page_or_section": "Section 10.4 TBMP Maintenance Indicators, page 237"
+    },
+    {
+      "field": "practice_mentions.permeable_pavement",
+      "excerpt": "Porous Pavement (Non-Highway Facilities Only)",
+      "page_or_section": "Table 10-1 Approved TBMPs, page 233"
+    },
+    {
+      "field": "practice_mentions.sand_filter",
+      "excerpt": "Drain time does not exceed 72 hours (in the filter chamber for Delaware Sand Filter)",
+      "page_or_section": "Section 10.4 Media Filters, page 237"
+    },
+    {
+      "field": "practice_mentions.swale",
+      "excerpt": "There is more than 70 percent background coverage of vegetation in swale invert and swale side slope",
+      "page_or_section": "Section 10.4 Biofiltration Systems, page 236"
     }
   ],
   "extraction_quality": {
@@ -123,5 +158,54 @@
     "landing_page_url": "https://dot.ca.gov/programs/construction/storm-water-and-water-pollution-control/manuals-and-handbooks",
     "retrieved_at": "2026-08-08T01:30:00.000Z",
     "original_filename": "ca-caltrans-construction.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": null,
+    "max_drawdown_hours": 96,
+    "shwt_separation_inches": null,
+    "bioretention_media_depth_min_inches": null,
+    "bioretention_ponding_depth_inches": null,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": null,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": null,
+    "length_to_width_ratio": null,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "bioretention",
+      "extended_detention",
+      "infiltration_basin",
+      "manufactured_treatment",
+      "permeable_pavement",
+      "sand_filter",
+      "swale",
+      "wet_pond"
+    ],
+    "enriched_at": "2026-08-13T07:42:58.530Z",
+    "enrich_model": "composer-2.5:run-e256142f-c55f-4982-acf7-39915d208b44",
+    "enrich_notes": "Construction-phase BMP manual; post-construction TBMP sizing and water-quality volume methods are deferred to the Project Planning and Design Guide (PPDG). Temporary Sediment/Desilting Basin (SC-2) specifies water-quality outlet drawdown between 24 and 96 hours (40 hours used only as an equation example). Section 10 lists approved TBMPs and maintenance drain/standing-water thresholds (often 72 or 96 hours) without design-depth or infiltration-rate criteria in these excerpts.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "wqv_depth_inches",
+      "shwt_separation_inches",
+      "bioretention_media_depth_min_inches",
+      "bioretention_ponding_depth_inches",
+      "permeable_pavement_storage_depth_inches",
+      "design_infiltration_rate_in_per_hr",
+      "permanent_pool_depth_inches",
+      "ed_drain_time_hours",
+      "length_to_width_ratio",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "swale_longitudinal_slope_percent",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

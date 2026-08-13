@@ -64,6 +64,51 @@
       "field": "design_criteria.approved_bmp_categories",
       "excerpt": "Bioretention, Wet Pond, Extended Detention, Filter Strip",
       "page_or_section": null
+    },
+    {
+      "field": "design_parameters.wqv_depth_inches",
+      "excerpt": "the product of the \"Target Rainfall Event\" (1.00 inch), the site area (acres), and the site Rv from the VRRM",
+      "page_or_section": "Chapter 11, 11.5.6 / page 80 (c0116)"
+    },
+    {
+      "field": "design_parameters.wqv_depth_inches",
+      "excerpt": "The first flush, or water quality volume (WQV) is generally defined as the first one-half inch of runoff from impervious surfaces.",
+      "page_or_section": "Chapter 11, 11.7.1 Water Quality / page 119 (c0138)"
+    },
+    {
+      "field": "design_parameters.permanent_pool_depth_inches",
+      "excerpt": "3:1 length-to-width ratio*; wedge shaped (wider at the outlet); permanent pool depth to 3' max, if possible",
+      "page_or_section": "Table 11-7 Summary of Design Criteria for Dry and Wet Basins / pages 116-117 (c0137)"
+    },
+    {
+      "field": "design_parameters.length_to_width_ratio",
+      "excerpt": "Shape 3:1 length-to-width ratio; wedge shaped (wider at the outlet)",
+      "page_or_section": "Table 11-7 Summary of Design Criteria for Dry and Wet Basins / page 116 (c0137)"
+    },
+    {
+      "field": "design_parameters.ed_drain_time_hours",
+      "excerpt": "Extended Detention Level 1 specifies 24-hours or less draw down for the average Tv time, while the Extended Detention Level 2 design requires an average Tv draw down time of 36 hours.",
+      "page_or_section": "Chapter 11, 11.5.6 / page 80 (c0116)"
+    },
+    {
+      "field": "design_parameters.ed_drain_time_hours",
+      "excerpt": "Extended Detention Basins and Enhanced Extended Detention Basins require a 30 hour drawdown time for the required WQV.",
+      "page_or_section": "Chapter 11, 11.6.2 / page 110 (c0132)"
+    },
+    {
+      "field": "design_parameters.ed_drain_time_hours",
+      "excerpt": "The brim drawdown requirement for water quality for extended detention design is 30 hours.",
+      "page_or_section": "Chapter 11, 11.7.4 Detention Time / page 121 (c0139)"
+    },
+    {
+      "field": "practice_mentions.extended_detention",
+      "excerpt": "SWM wet ponds and extended detention ponds that are not covered by the Impounding Structure Regulations",
+      "page_or_section": "11.3.5 Impounding Facilities / page 9 (c0030)"
+    },
+    {
+      "field": "practice_mentions.manufactured_treatment",
+      "excerpt": "Manufactured Treatment Devices (MTDs) or proprietary BMPs accepted by DEQ may be utilized, when accepted by VDOT",
+      "page_or_section": "Chapter 11 / page 16 (c0049)"
     }
   ],
   "extraction_quality": {
@@ -79,5 +124,53 @@
     "landing_page_url": "https://www.vdot.virginia.gov/doing-business/technical-guidance-and-support/technical-guidance-documents/drainage-manual/",
     "retrieved_at": "2026-08-11T17:21:06.018Z",
     "original_filename": "va-vdot-drainage.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": 1,
+    "max_drawdown_hours": null,
+    "shwt_separation_inches": null,
+    "bioretention_media_depth_min_inches": null,
+    "bioretention_ponding_depth_inches": null,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": null,
+    "permanent_pool_depth_inches": 36,
+    "ed_drain_time_hours": null,
+    "length_to_width_ratio": 3,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "bioretention",
+      "constructed_wetland",
+      "extended_detention",
+      "infiltration_basin",
+      "manufactured_treatment",
+      "permeable_pavement",
+      "sand_filter",
+      "swale",
+      "wet_pond"
+    ],
+    "enriched_at": "2026-08-13T10:28:47.071Z",
+    "enrich_model": "composer-2.5:run-deaac8ee-f46e-4960-986b-e2e9531d1fe4",
+    "enrich_notes": "Chapter 11 references VRRM (Target Rainfall Event 1.00 inch for Tv) and older Part V Article 4 text defining WQV as the first 0.5 inch of runoff from impervious surfaces (Table 11-1 framework). Extended-detention drawdown times vary by standard: ED Level 1 ≤24 hr average Tv; ED Level 2 36 hr; Extended/Enhanced ED basins 30 hr WQV brim drawdown. Example problems assume depth to seasonal high groundwater and bedrock >6 ft (site suitability), not a minimum SHWT separation for SCM design. Detailed bioretention, permeable pavement, swale geometry, and infiltration rate criteria are deferred to VDOT BMP Design Manual of Practice, Virginia Stormwater BMP Clearinghouse, and VSWMH v1.2. MTDs require DEQ acceptance and VDOT approval via product lists; no TAPE/NJCAT-style program name in excerpts.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "max_drawdown_hours",
+      "shwt_separation_inches",
+      "bioretention_media_depth_min_inches",
+      "bioretention_ponding_depth_inches",
+      "permeable_pavement_storage_depth_inches",
+      "design_infiltration_rate_in_per_hr",
+      "ed_drain_time_hours",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "swale_longitudinal_slope_percent",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

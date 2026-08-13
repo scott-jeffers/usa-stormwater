@@ -46,8 +46,8 @@
     },
     {
       "field": "design_criteria.peak_flow_calculation_method",
-      "excerpt": "......................... F-10 F.4.2 Operational Costs .........................................................................",
-      "page_or_section": null
+      "excerpt": "depending on the site conditions. F.4.2 Operational Costs Operational costs will be a function of the number of rain events in the specific location. The rainfall frequency can be determined by the report, “Monthly Station Climate Summaries, 1971-2000” provided by the Depar",
+      "page_or_section": "p. 273"
     },
     {
       "field": "design_criteria.water_quality_volume_method",
@@ -58,6 +58,46 @@
       "field": "design_criteria.approved_bmp_categories",
       "excerpt": "Bioretention, Infiltration Basin, Infiltration Trench, Sand Filter",
       "page_or_section": null
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "Infiltrate WQV, or portion thereof within a maximum of 96 hours.",
+      "page_or_section": "Table B-2 / Appendix B, page 125"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "with a maximum 96-hour drawdown time",
+      "page_or_section": "Design Elements – Infiltration Basin, page 128"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "with a maximum 96-hour drawdown time? Longer drawdown times may be allowable",
+      "page_or_section": "Design Elements – Bioretention, page 179"
+    },
+    {
+      "field": "design_parameters.shwt_separation_inches",
+      "excerpt": "Separation from seasonally high water table > 5 ft., or less as justified by adequate groundwater information or RWQCB concurrence.",
+      "page_or_section": "Table B-2, page 125"
+    },
+    {
+      "field": "design_parameters.shwt_separation_inches",
+      "excerpt": "Separation from seasonally high water table > 5 ft, or less as justified",
+      "page_or_section": "Table B-4 Detention Device, page 136"
+    },
+    {
+      "field": "design_parameters.bioretention_media_depth_min_inches",
+      "excerpt": "Is the media layer at least 18 in deep with a subsurface drainage layer at least 12 inches deep?",
+      "page_or_section": "Design Elements – Bioretention, page 179"
+    },
+    {
+      "field": "design_parameters.length_to_width_ratio",
+      "excerpt": "Flow-path-to-width ratio of at least 2:1 recommended.",
+      "page_or_section": "Table B-4, page 136"
+    },
+    {
+      "field": "design_parameters.length_to_width_ratio",
+      "excerpt": "a length to width ratio of 2:1 should be provided for the sedimentation chamber",
+      "page_or_section": "Table B-8 Media Filters, page 166"
     }
   ],
   "extraction_quality": {
@@ -73,5 +113,52 @@
     "landing_page_url": "https://dot.ca.gov/programs/design/manual-project-planning-design-guide",
     "retrieved_at": "2026-08-11T17:21:06.014Z",
     "original_filename": "ca-caltrans-project-planning.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": null,
+    "max_drawdown_hours": 96,
+    "shwt_separation_inches": 60,
+    "bioretention_media_depth_min_inches": 18,
+    "bioretention_ponding_depth_inches": null,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": null,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": null,
+    "length_to_width_ratio": 2,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "bioretention",
+      "extended_detention",
+      "infiltration_basin",
+      "infiltration_trench",
+      "manufactured_treatment",
+      "permeable_pavement",
+      "sand_filter",
+      "swale",
+      "wet_pond"
+    ],
+    "enriched_at": "2026-08-13T07:43:44.459Z",
+    "enrich_model": "composer-2.5:run-c8ec7b06-0037-4a7c-bb9a-363a781f823a",
+    "enrich_notes": "WQV/WQF sizing referenced throughout; no explicit WQV rainfall depth in inches in excerpts. Infiltration siting cites soil infiltration ≥0.5 in/hr and max 2.5 in/hr (not mapped to single design_infiltration_rate). Detention outlets: max 96 hr empty with 40–48 hr recommended; Austin Sand Filter 24 hr; Delaware Filter 40–48 hr. Bioretention subsurface drainage layer min 12 in (separate from media). Infiltration trench max depth ≤13 ft. Biofiltration strip max length ≤100 ft.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "wqv_depth_inches",
+      "bioretention_ponding_depth_inches",
+      "permeable_pavement_storage_depth_inches",
+      "design_infiltration_rate_in_per_hr",
+      "permanent_pool_depth_inches",
+      "ed_drain_time_hours",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "swale_longitudinal_slope_percent",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

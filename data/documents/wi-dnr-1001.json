@@ -61,6 +61,26 @@
       "field": "design_criteria.water_quality_volume_method",
       "excerpt": "States Department of Agriculture, Natural Resources Conservation Service, Washington, D.C. 1986. NRCS Bulletin No. WI-210-8-16 (Sept. 12, 1988) amended the TR-55 routing graph for Type II storms to include flows outside the original range.",
       "page_or_section": "p. 11"
+    },
+    {
+      "field": "practice_mentions.wet_pond",
+      "excerpt": "Appendix A—Calculation of Preliminary Permanent Pool Surface Area for TSS Reduction",
+      "page_or_section": "Appendix A, page 10"
+    },
+    {
+      "field": "design_parameters.wqv_depth_inches",
+      "excerpt": "Table 2 provides a summary of the 1-year, 24-hour rainfall totals",
+      "page_or_section": "Appendix B, page 12"
+    },
+    {
+      "field": "design_parameters.permanent_pool_depth_inches",
+      "excerpt": "Appendix C—Pond Geometry",
+      "page_or_section": "Appendix C, pages 14–16 (no depth values in provided text)"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "Approximate Detention Basin Routing for Type II Storms",
+      "page_or_section": "Appendix B, page 11 (routing curves only; no drawdown hours)"
     }
   ],
   "extraction_quality": {
@@ -84,5 +104,48 @@
     "landing_page_url": "https://dnr.wisconsin.gov/topic/Stormwater",
     "retrieved_at": "2026-08-08T10:16:00.000Z",
     "original_filename": "wi-dnr-1001.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": null,
+    "max_drawdown_hours": null,
+    "shwt_separation_inches": null,
+    "bioretention_media_depth_min_inches": null,
+    "bioretention_ponding_depth_inches": null,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": null,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": null,
+    "length_to_width_ratio": null,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "wet_pond"
+    ],
+    "enriched_at": "2026-08-13T10:33:23.115Z",
+    "enrich_model": "composer-2.5:run-ef12b446-7eba-4633-b45d-abb8ce6319be",
+    "enrich_notes": "WDNR Technical Standard 1001 covers wet detention ponds only. Permanent pool minimum surface area is percent of watershed by land use/impervious (Appendix A) for 80%/60% TSS via particle settling; active storage above permanent pool uses TR-55/App. B hydrograph routing for the 1-year, 24-hour storm. County 1-yr 24-hr rainfall totals are 1.9–2.6 in (Tables 2–3). Synthetic/clay liners (Types A–C); liner must extend above permanent pool to the 2-year, 24-hour elevation. Provided Appendix C pond geometry pages contain no extractable numeric geometry in this corpus.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "wqv_depth_inches",
+      "max_drawdown_hours",
+      "shwt_separation_inches",
+      "bioretention_media_depth_min_inches",
+      "bioretention_ponding_depth_inches",
+      "permeable_pavement_storage_depth_inches",
+      "design_infiltration_rate_in_per_hr",
+      "permanent_pool_depth_inches",
+      "ed_drain_time_hours",
+      "length_to_width_ratio",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "swale_longitudinal_slope_percent",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

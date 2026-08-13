@@ -104,6 +104,11 @@
       "field": "design_criteria.approved_bmp_categories",
       "excerpt": "Bioretention Basin; Bioslopes; Dry Wells; Infiltration Trenches; Organic Filters; Regenerative Stormwater Conveyance; Sand Filters; and Stormwater Planters/Tree Boxes",
       "page_or_section": "199"
+    },
+    {
+      "field": "design_parameters.wqv_depth_inches",
+      "excerpt": "Sized to treat the runoff from 85% of the storms that occur in an average year, which equates to 1.2 inches of rainfall (Water Quality Volume, WQv)",
+      "page_or_section": "Atlas context / WQv method"
     }
   ],
   "extraction_quality": {
@@ -121,5 +126,56 @@
     "landing_page_url": "https://atlantaregional.org/what-we-do/natural-resources/georgia-stormwater-management-manual/",
     "retrieved_at": "2026-08-10T09:24:56.027Z",
     "original_filename": "atlanta-ga.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": 1.2,
+    "max_drawdown_hours": null,
+    "shwt_separation_inches": null,
+    "bioretention_media_depth_min_inches": null,
+    "bioretention_ponding_depth_inches": null,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": null,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": null,
+    "length_to_width_ratio": null,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "bioretention",
+      "constructed_wetland",
+      "extended_detention",
+      "green_roof",
+      "infiltration_trench",
+      "manufactured_treatment",
+      "permeable_pavement",
+      "sand_filter",
+      "swale",
+      "wet_pond"
+    ],
+    "enriched_at": "2026-08-13T07:28:55.433Z",
+    "enrich_model": "composer-2.5:run-45f7d681-6cb9-48cc-8353-e78d2ddb634a",
+    "enrich_notes": "City adopts Georgia Stormwater Management Manual (GSMM 2016); Chapter 74 Art. X. WQv sized for 85% of average-year storms (1.2 in rainfall); first 1.0 in may be addressed via runoff-reduction BMPs to maximum extent practicable with possible WQv waiver if fully reduced; otherwise remaining runoff from 1.2-in event treated for ≥80% average annual TSS removal. No durable standalone Atlanta design-manual PDF in atlas; numeric SCM sizing not in provided text.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "max_drawdown_hours",
+      "shwt_separation_inches",
+      "bioretention_media_depth_min_inches",
+      "bioretention_ponding_depth_inches",
+      "permeable_pavement_storage_depth_inches",
+      "design_infiltration_rate_in_per_hr",
+      "permanent_pool_depth_inches",
+      "ed_drain_time_hours",
+      "length_to_width_ratio",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "swale_longitudinal_slope_percent",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

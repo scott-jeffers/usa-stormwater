@@ -38,6 +38,46 @@
       "field": "design_criteria.water_quality_volume_method",
       "excerpt": "10-year critical duration storm shall be used as a minimum for the design of storm sewers, storm inlets, and minor swales",
       "page_or_section": "IL Model Ordinance §506"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "The basin must be designed to dewater within 72 hours following the end of the 100-year critical duration storm event.",
+      "page_or_section": "504.0 Detention Facilities / 17.A (ORDINANCE COMMENTARY p.32)"
+    },
+    {
+      "field": "design_parameters.shwt_separation_inches",
+      "excerpt": "The bottom of the infiltration basin must be at least four (4) feet above the seasonal high groundwater elevation.",
+      "page_or_section": "504.0 Detention Facilities / 17.F (ORDINANCE COMMENTARY p.33)"
+    },
+    {
+      "field": "design_parameters.design_infiltration_rate_in_per_hr",
+      "excerpt": "The underlying soils must have an infiltration rate of at least 0.5 inches per hour as determined by an engineer.",
+      "page_or_section": "504.0 Detention Facilities / 17.B (ORDINANCE COMMENTARY p.32)"
+    },
+    {
+      "field": "design_parameters.shwt_separation_inches",
+      "excerpt": "A minimum depth of 24 inches between the bottom of the facility and the infiltration horizon",
+      "page_or_section": "505.0 Non-Structural BMPs / 2.A (ORDINANCE COMMENTARY p.33)"
+    },
+    {
+      "field": "practice_mentions.infiltration_basin",
+      "excerpt": "Infiltration basins may be used as detention facilities subject to the following:",
+      "page_or_section": "504.0 Detention Facilities / 17 (p.32-33)"
+    },
+    {
+      "field": "practice_mentions.swale",
+      "excerpt": "The 10-year critical duration storm shall be used as a minimum for the design of storm sewers, storm inlets, and minor swales.",
+      "page_or_section": "506.0 Stormwater Conveyance Systems / 1.A (p.34)"
+    },
+    {
+      "field": "practice_mentions.permeable_pavement",
+      "excerpt": "For new permeable pavement, designers should use one-half of the measured infiltration rate during design",
+      "page_or_section": "402.0 / 8.D (ORDINANCE COMMENTARY p.24)"
+    },
+    {
+      "field": "practice_mentions.green_roof",
+      "excerpt": "Approaches may include green roofs, naturalized detention facilities, trees and tree boxes, rain gardens, vegetated swales",
+      "page_or_section": "Green Infrastructure definition (p.13)"
     }
   ],
   "extraction_quality": {
@@ -51,5 +91,53 @@
     "landing_page_url": "https://dnr.illinois.gov/waterresources/stormwatermanagement.html",
     "retrieved_at": "2026-08-10T10:18:37.456Z",
     "original_filename": "springfield-il.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": null,
+    "max_drawdown_hours": 72,
+    "shwt_separation_inches": 48,
+    "bioretention_media_depth_min_inches": null,
+    "bioretention_ponding_depth_inches": null,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": 0.5,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": null,
+    "length_to_width_ratio": null,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "bioretention",
+      "constructed_wetland",
+      "extended_detention",
+      "green_roof",
+      "infiltration_basin",
+      "infiltration_trench",
+      "permeable_pavement",
+      "swale",
+      "wet_pond"
+    ],
+    "enriched_at": "2026-08-13T10:13:54.811Z",
+    "enrich_model": "composer-2.5:run-39f8de7a-c10d-4388-8384-368266366a42",
+    "enrich_notes": "Source is IDNR/OWR Model Stormwater Management Ordinance (Springfield placeholder). BMP design details defer to Illinois Urban Manual (Oct 2013). Appendix A credits use 0.25 inch runoff depth for non-structural volume reduction, not stated as a standalone WQV design depth. Infiltration BMPs require 24 inches minimum between facility bottom and infiltration horizon (505.2.A), distinct from 4 ft seasonal high groundwater separation for infiltration basins.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "wqv_depth_inches",
+      "bioretention_media_depth_min_inches",
+      "bioretention_ponding_depth_inches",
+      "permeable_pavement_storage_depth_inches",
+      "permanent_pool_depth_inches",
+      "ed_drain_time_hours",
+      "length_to_width_ratio",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "swale_longitudinal_slope_percent",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

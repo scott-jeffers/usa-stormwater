@@ -36,6 +36,21 @@
       "field": "design_criteria.water_quality_volume_method",
       "excerpt": "Water Quality Capture Volume (WQCV) based on runoff from 0.6 inches",
       "page_or_section": "USDCM Vol.3"
+    },
+    {
+      "field": "design_parameters.wqv_depth_inches",
+      "excerpt": "Within the UDFCD boundary, the WQCV is based on runoff from 0.6 inches of precipitation.",
+      "page_or_section": "Chapter 1, Common Stormwater Management Terms, page 11"
+    },
+    {
+      "field": "practice_mentions.bioretention",
+      "excerpt": "Bioretention (rain gardens): The use of distributed on-site vegetated features such as rain gardens can help maintain natural drainage patterns",
+      "page_or_section": "Chapter 1, Step 1, page 17"
+    },
+    {
+      "field": "practice_mentions.permeable_pavement",
+      "excerpt": "permeable pavement systems, bioretention, extended detention basins, sand filters, constructed wetland ponds, and retention ponds",
+      "page_or_section": "Chapter 1, Section 4.2, page 19"
     }
   ],
   "extraction_quality": {
@@ -49,5 +64,55 @@
     "landing_page_url": "https://coloradosprings.gov/",
     "retrieved_at": "2026-08-10T10:35:05.250Z",
     "original_filename": "colorado-springs-co.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": 0.6,
+    "max_drawdown_hours": null,
+    "shwt_separation_inches": null,
+    "bioretention_media_depth_min_inches": null,
+    "bioretention_ponding_depth_inches": null,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": null,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": null,
+    "length_to_width_ratio": null,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "bioretention",
+      "constructed_wetland",
+      "extended_detention",
+      "green_roof",
+      "manufactured_treatment",
+      "permeable_pavement",
+      "sand_filter",
+      "swale",
+      "wet_pond"
+    ],
+    "enriched_at": "2026-08-13T07:56:21.473Z",
+    "enrich_model": "composer-2.5:run-ac7f43af-7b6e-4532-871f-2df877a02c3c",
+    "enrich_notes": "Corpus is USDCM Vol. 3 Chapter 1 (planning/regulatory). WQCV defined as runoff from 0.6 in. precipitation within UDFCD boundary (~80th percentile storm). Step 2 BMPs named; detailed sizing/dimensions referenced in Chapters 3–5, not in these excerpts.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "max_drawdown_hours",
+      "shwt_separation_inches",
+      "bioretention_media_depth_min_inches",
+      "bioretention_ponding_depth_inches",
+      "permeable_pavement_storage_depth_inches",
+      "design_infiltration_rate_in_per_hr",
+      "permanent_pool_depth_inches",
+      "ed_drain_time_hours",
+      "length_to_width_ratio",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "swale_longitudinal_slope_percent",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

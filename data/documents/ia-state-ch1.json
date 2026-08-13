@@ -102,6 +102,26 @@
       "field": "design_criteria.approved_bmp_categories",
       "excerpt": "8 of 10 October 28, 2009 manual. a. Non-structural BMPs. 1) Planning Procedures. Runoff problems can be addressed efficiently with sound planning procedures. Local master plans, comprehensive plans, and zoning ordinances can promote improved water quality in many ways, such a",
       "page_or_section": "p. 33"
+    },
+    {
+      "field": "fields_not_found",
+      "excerpt": "Extended detention of the 1-year, 24-hour storm for a period of 24 hours using structural stormwater controls.",
+      "page_or_section": "p38"
+    },
+    {
+      "field": "design_parameters.wqv_depth_inches",
+      "excerpt": "The design rainfall event that is recommended for computing the WQv is 1.25 inches and is equal to the 90% cumulative frequency rainfall depth for the area.",
+      "page_or_section": "C1-S4 Stormwater Management Criteria, page 2 of 7 (ia-state-ch1-c0039)"
+    },
+    {
+      "field": "design_parameters.wqv_depth_inches",
+      "excerpt": "A statewide WQv of 1.25 inches is recommended for use or jurisdictions can use a similar value derived from an analysis of local historical rainfall",
+      "page_or_section": "C1-S4 Stormwater Management Criteria, page 2-3 of 7 (ia-state-ch1-c0039)"
+    },
+    {
+      "field": "design_parameters.ed_drain_time_hours",
+      "excerpt": "Extended detention of the 1-year, 24-hour storm for a period of 24 hours using structural stormwater controls.",
+      "page_or_section": "C1-S4 Stream channel protection guideline #3a, page 3 of 7 (ia-state-ch1-c0040)"
     }
   ],
   "extraction_quality": {
@@ -118,5 +138,54 @@
     "landing_page_url": "https://www.iowadnr.gov/environmental-protection/water-quality/stormwater-program/iswmm-manual",
     "retrieved_at": "2026-08-07T11:37:16.121Z",
     "original_filename": "ia-state-ch1.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": 1.25,
+    "max_drawdown_hours": null,
+    "shwt_separation_inches": null,
+    "bioretention_media_depth_min_inches": null,
+    "bioretention_ponding_depth_inches": null,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": null,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": 24,
+    "length_to_width_ratio": null,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "bioretention",
+      "constructed_wetland",
+      "extended_detention",
+      "green_roof",
+      "infiltration_basin",
+      "infiltration_trench",
+      "permeable_pavement",
+      "swale",
+      "wet_pond"
+    ],
+    "enriched_at": "2026-08-13T08:37:41.067Z",
+    "enrich_model": "composer-2.5:run-822a5d0a-88a2-47d4-b7cd-ef3249c31e9c",
+    "enrich_notes": "Chapter 1 proxy cites statewide WQv design rainfall 1.25 in (90% cumulative frequency) and minimum 0.2 in/ac WQv for drainage areas under 15% impervious; Cpv requires 24-hour extended detention of the 1-year 24-hour storm. Structural BMP sizing details are deferred to Chapter 4.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "max_drawdown_hours",
+      "shwt_separation_inches",
+      "bioretention_media_depth_min_inches",
+      "bioretention_ponding_depth_inches",
+      "permeable_pavement_storage_depth_inches",
+      "design_infiltration_rate_in_per_hr",
+      "permanent_pool_depth_inches",
+      "length_to_width_ratio",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "swale_longitudinal_slope_percent",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

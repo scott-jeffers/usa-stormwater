@@ -73,6 +73,81 @@
       "field": "document_metadata.relationship_to_state_manual",
       "excerpt": "independent city stormwater management manual",
       "page_or_section": "Coverage note"
+    },
+    {
+      "field": "design_parameters.wqv_depth_inches",
+      "excerpt": "WQv = (1.11\") (Rv) (A) / 12",
+      "page_or_section": "Appendix J, page 129"
+    },
+    {
+      "field": "design_parameters.wqv_depth_inches",
+      "excerpt": "WQv = (1.11\") (0.62) (3.0ac)",
+      "page_or_section": "Appendix J, page 129"
+    },
+    {
+      "field": "design_parameters.bioretention_media_depth_min_inches",
+      "excerpt": "The planting soil bed must be at least 4 feet deep.",
+      "page_or_section": "Chapter 9.7.2, page 320"
+    },
+    {
+      "field": "design_parameters.bioretention_ponding_depth_inches",
+      "excerpt": "The maximum ponding depth in bioretention areas is 6 inches.",
+      "page_or_section": "Chapter 9.7.2, page 320"
+    },
+    {
+      "field": "design_parameters.design_infiltration_rate_in_per_hr",
+      "excerpt": "The soil must have an infiltration rate of at least 0.5 inches per hour",
+      "page_or_section": "Chapter 9.7.2, page 320"
+    },
+    {
+      "field": "design_parameters.design_infiltration_rate_in_per_hr",
+      "excerpt": "Soil infiltration rate of 0.5 in/hr or greater required",
+      "page_or_section": "Chapter 9.9, page 332"
+    },
+    {
+      "field": "design_parameters.ed_drain_time_hours",
+      "excerpt": "The outlet is sized to detain the water quality volume for 24 hours.",
+      "page_or_section": "Chapter 9.5.1, page 299"
+    },
+    {
+      "field": "design_parameters.ed_drain_time_hours",
+      "excerpt": "water is detained above the permanent pool and released over 24 - 48 hours",
+      "page_or_section": "Chapter 9.5.1, page 299"
+    },
+    {
+      "field": "design_parameters.length_to_width_ratio",
+      "excerpt": "Design the pond with a minimum length to width ratio of 3:1",
+      "page_or_section": "Chapter 9.5.2, page 299"
+    },
+    {
+      "field": "design_parameters.length_to_width_ratio",
+      "excerpt": "length to width ratio of 2:1",
+      "page_or_section": "Chapter 9.7.2, page 320"
+    },
+    {
+      "field": "design_parameters.permeable_pavement_storage_depth_inches",
+      "excerpt": "The layer must have a minimum depth of nine inches.",
+      "page_or_section": "Chapter 9.13.3, page 358"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "drain the entire treatment volume in less than 24 hours",
+      "page_or_section": "Appendix J, page 122"
+    },
+    {
+      "field": "design_parameters.shwt_separation_inches",
+      "excerpt": "minimum of 2 feet",
+      "page_or_section": "Chapter 9.7.2, page 321 (bottom of bioretention to seasonally high water table)"
+    },
+    {
+      "field": "design_parameters.shwt_separation_inches",
+      "excerpt": "at least 4 feet between the bottom of the infiltration trench and the elevation of the seasonally high water table",
+      "page_or_section": "Chapter 9.9.2, page 334"
+    },
+    {
+      "field": "design_parameters.swale_bottom_width_inches",
+      "excerpt": "Bottom widths must be between 2-8 feet wide.",
+      "page_or_section": "Chapter 9.10.2, page 341"
     }
   ],
   "extraction_quality": {
@@ -86,5 +161,51 @@
     "landing_page_url": "https://www.clarksvilletn.gov/198/Permits-Manuals-Stormwater-Educational-M",
     "retrieved_at": "2026-08-10T09:39:14.764Z",
     "original_filename": "clarksville-tn.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": 1.11,
+    "max_drawdown_hours": null,
+    "shwt_separation_inches": null,
+    "bioretention_media_depth_min_inches": 48,
+    "bioretention_ponding_depth_inches": 6,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": 0.5,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": 24,
+    "length_to_width_ratio": null,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "bioretention",
+      "constructed_wetland",
+      "extended_detention",
+      "infiltration_trench",
+      "manufactured_treatment",
+      "permeable_pavement",
+      "sand_filter",
+      "swale",
+      "wet_pond"
+    ],
+    "enriched_at": "2026-08-13T07:54:14.600Z",
+    "enrich_model": "composer-2.5:run-3fe3fe1b-b48f-43c9-92e3-d6409fedb44c",
+    "enrich_notes": "WQv rainfall depth 1.11 in per WQv = (1.11)(Rv)(A)/12. Bioretention: 48 h filter drain time, k=0.5 ft/day; SHWT min 2 ft below facility bottom; L:W 2:1. Ponds: L:W 3:1, max pond depth 8 ft; wet ED release 24–48 h; micropool WQv detention 24 h; Appendix J pond drains treatment volume in <24 h. Infiltration trench: SHWT 4 ft min, dewater WQv in 24–48 h. Permeable pavement: reservoir min 9 in, typical 2–4 ft, drain in 48 h. Swales: bottom 2–8 ft, max ponding <48 h, dry swale SHWT >3 ft below bottom. Proprietary devices reference Metro Nashville list, not TAPE/NJCAT.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "max_drawdown_hours",
+      "shwt_separation_inches",
+      "permeable_pavement_storage_depth_inches",
+      "permanent_pool_depth_inches",
+      "length_to_width_ratio",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "swale_longitudinal_slope_percent",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

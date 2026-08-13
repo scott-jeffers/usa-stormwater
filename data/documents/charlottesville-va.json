@@ -45,6 +45,21 @@
       "field": "design_criteria.design_storm_return_periods_years",
       "excerpt": "post-development 10% AEP 24-hour storm event ... 1% AEP storm event shall be utilized as a check storm",
       "page_or_section": "§5.3.1.1–5.3.1.2"
+    },
+    {
+      "field": "design_parameters.bioretention_media_depth_min_inches",
+      "excerpt": "The standard minimum filter bed depth ranges from 24 to 36 inches (uncompacted) for Level 1 and Level 2 designs, respectively (18 to 24 inches for rain gardens or micro-bioretention).",
+      "page_or_section": "Chapter 10: Trees and Landscape pg. 190 (10.2.2.1 Bioretention Planting Soils)"
+    },
+    {
+      "field": "practice_mentions.permeable_pavement",
+      "excerpt": "A maximum 8% longitudinal slope shall be applied to the system unless otherwise approved. Subgrade slopes greater than 3% should include check dams or baffles.",
+      "page_or_section": "Chapter 5: Stormwater Management pg. 111 (5.5.1 Permeable interlocking concrete pavers)"
+    },
+    {
+      "field": "practice_mentions.bioretention",
+      "excerpt": "If underdrains are proposed, the maximum stone depth permitted to be used in the quality calculations is 18 inches.",
+      "page_or_section": "Chapter 5: Stormwater Management pg. 110 (Green Stormwater Infrastructure — Bioretention)"
     }
   ],
   "extraction_quality": {
@@ -60,5 +75,55 @@
     "landing_page_url": "https://va-charlottesville.civicplus.com/491/Stormwater",
     "retrieved_at": "2026-08-10T10:27:43.524Z",
     "original_filename": "charlottesville-va.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": null,
+    "max_drawdown_hours": null,
+    "shwt_separation_inches": null,
+    "bioretention_media_depth_min_inches": 18,
+    "bioretention_ponding_depth_inches": null,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": null,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": null,
+    "length_to_width_ratio": null,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "bioretention",
+      "constructed_wetland",
+      "extended_detention",
+      "green_roof",
+      "infiltration_basin",
+      "manufactured_treatment",
+      "permeable_pavement",
+      "swale",
+      "wet_pond"
+    ],
+    "enriched_at": "2026-08-13T07:50:02.040Z",
+    "enrich_model": "composer-2.5:run-558cd6e1-c736-41b0-b5bc-2093f34c74f9",
+    "enrich_notes": "City defers water-quality sizing to Virginia BMP Clearinghouse and DEQ Handbook; local text adds GSI preferences, underdrain spacing (10 ft), max 18 in stone counted toward quality for underdrained planters/bioretention, permeable pavers max 8% longitudinal slope and subgrade >3% needs check dams/baffles, and bioretention filter bed depth tiers (18–24 in rain garden/micro; 24–36 in Level 1/2).",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "wqv_depth_inches",
+      "max_drawdown_hours",
+      "shwt_separation_inches",
+      "bioretention_ponding_depth_inches",
+      "permeable_pavement_storage_depth_inches",
+      "design_infiltration_rate_in_per_hr",
+      "permanent_pool_depth_inches",
+      "ed_drain_time_hours",
+      "length_to_width_ratio",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "swale_longitudinal_slope_percent",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

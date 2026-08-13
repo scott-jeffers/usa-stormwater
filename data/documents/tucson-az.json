@@ -10,7 +10,14 @@
     "relationship_to_state_manual": "independent"
   },
   "design_criteria": {
-    "design_storm_return_periods_years": [2, 5, 10, 25, 50, 100],
+    "design_storm_return_periods_years": [
+      2,
+      5,
+      10,
+      25,
+      50,
+      100
+    ],
     "water_quality_volume_method": "Threshold Retention required in Balanced/Critical Basins per the Stormwater Detention/Retention Manual; Critical Basins require a 15% reduction of the 2-, 10-, and 100-year events. Stormwater harvesting may offset Threshold Retention volume (Design Policy #10).",
     "peak_flow_calculation_method": [
       "City of Tucson Flood Peak Estimator Procedure (basins ≤10 sq mi)",
@@ -127,6 +134,56 @@
       "field": "design_criteria.approved_bmp_categories",
       "excerpt": "Mayor and Council has directed the City Engineer's office to require new developments to utilize stormwater harvesting to the maximum extent reasonably possible.",
       "page_or_section": "October 24, 1997 Cover Letter"
+    },
+    {
+      "field": "fields_not_found",
+      "excerpt": "have a minimum vertical separation of 75 feet from the invert of the infiltration",
+      "page_or_section": "p336"
+    },
+    {
+      "field": "design_parameters.wqv_depth_inches",
+      "excerpt": "Compliance with these Threshold Retention requirements, which are described in the Stormwater Detention/Retention Manual, is now required.",
+      "page_or_section": "Chapter IV letter, page 5 (tucson-az-c0013)"
+    },
+    {
+      "field": "design_parameters.shwt_separation_inches",
+      "excerpt": "shall have a minimum vertical separation of 75 feet from the invert of the infiltration system to the elevation of the static ground-water table.",
+      "page_or_section": "XIV. Detention/Retention Basins, 14.5 Stormwater-Infiltration Systems, item 3 (tucson-az-c0287)"
+    },
+    {
+      "field": "design_parameters.shwt_separation_inches",
+      "excerpt": "shall have a minimum vertical separation of 125 feet from the invert of the infiltration system to the elevation of the static ground-water table.",
+      "page_or_section": "XIV. Detention/Retention Basins, 14.5 Stormwater-Infiltration Systems, item 4 (tucson-az-c0287)"
+    },
+    {
+      "field": "design_parameters.design_infiltration_rate_in_per_hr",
+      "excerpt": "the rate of drainage shall be based on the results of a standard percolation test and a factor of safety of two (i.e., divide the field-test percolation rate by two).",
+      "page_or_section": "XIV. Detention/Retention Basins, 14.5 item 9 (tucson-az-c0288)"
+    },
+    {
+      "field": "design_parameters.ed_drain_time_hours",
+      "excerpt": "required to drain the basin in the time required (refer to Section 3.5 in Tucson Development Standard 10-01.0)",
+      "page_or_section": "XIV. Detention/Retention Basins, 14.5 item 9 (tucson-az-c0288)"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "Pumping the retained water into a street for periods longer than four hours is normally not acceptable",
+      "page_or_section": "XIV. Detention/Retention Basins, Design Policy (tucson-az-c0284)"
+    },
+    {
+      "field": "practice_mentions.swale",
+      "excerpt": "limited to, lined and unlined channels, drainage swales, streets and alleys",
+      "page_or_section": "II. Report Formats, 2.3.1.6 (tucson-az-c0124)"
+    },
+    {
+      "field": "practice_mentions.extended_detention",
+      "excerpt": "DETENTION BASIN is a type of flood-control system which employs a reservoir as a means of delaying the downstream progress of floodwaters in a controlled manner.",
+      "page_or_section": "Glossary (tucson-az-c0090)"
+    },
+    {
+      "field": "practice_mentions.infiltration_trench",
+      "excerpt": "Detention/retention systems which utilize a method of subsurface disposal (i.e., dry wells, engineered basin floors, trenches, etc.)",
+      "page_or_section": "XIV. 14.5 Stormwater-Infiltration Systems (tucson-az-c0287)"
     }
   ],
   "extraction_quality": {
@@ -140,5 +197,51 @@
     "landing_page_url": "https://www.tucsonaz.gov/Departments/Planning-Development-Services/Codes/Engineering-Codes",
     "retrieved_at": "2026-08-08T11:41:45.561Z",
     "original_filename": "cot-drainage-manual-searchable.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": null,
+    "max_drawdown_hours": null,
+    "shwt_separation_inches": null,
+    "bioretention_media_depth_min_inches": null,
+    "bioretention_ponding_depth_inches": null,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": null,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": null,
+    "length_to_width_ratio": null,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "extended_detention",
+      "infiltration_basin",
+      "infiltration_trench",
+      "swale"
+    ],
+    "enriched_at": "2026-08-13T10:25:01.272Z",
+    "enrich_model": "composer-2.5:run-38ce7ed0-fe1c-4987-8518-9ee451e51d5f",
+    "enrich_notes": "Threshold Retention volumes and numeric first-flush/WQv depth are referenced to Tucson Development Standard 10-01.0 (Stormwater Detention/Retention Manual), not defined numerically in these drainage-standards excerpts. Stormwater-infiltration (dry wells, engineered basin floors, trenches) specifies 75 ft or 125 ft minimum vertical separation from static groundwater (land-use dependent), percolation rate divided by two for design, and drain times per Manual Section 3.5—not quoted here in hours. Critical Basins require 15% reduction of 2-, 10-, and 100-year events. Pumping retained water to streets longer than four hours is normally not acceptable.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "wqv_depth_inches",
+      "max_drawdown_hours",
+      "shwt_separation_inches",
+      "bioretention_media_depth_min_inches",
+      "bioretention_ponding_depth_inches",
+      "permeable_pavement_storage_depth_inches",
+      "design_infiltration_rate_in_per_hr",
+      "permanent_pool_depth_inches",
+      "ed_drain_time_hours",
+      "length_to_width_ratio",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "swale_longitudinal_slope_percent",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

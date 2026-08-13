@@ -103,6 +103,56 @@
       "field": "design_criteria.approved_bmp_categories",
       "excerpt": "The five groups of structural BMPs include (1) Wet Vegetated Treatment Systems (WVTS), (2) Infiltration Practices, (3) Filtering Systems, (4) Green Roofs, and (5) Open Channel Practices.",
       "page_or_section": "Section 1.3, Page 1-5"
+    },
+    {
+      "field": "design_parameters.wqv_depth_inches",
+      "excerpt": "WQv = (1\")(I) / 12 ... use 1.2 inches for the Water Quality Storm that produces 1 inch of runoff from impervious surfaces",
+      "page_or_section": "Appendix D / Atlas context"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "Maximum dewatering time of 48 hours",
+      "page_or_section": "5.3 STORMWATER INFILTRATION PRACTICES, page 103"
+    },
+    {
+      "field": "design_parameters.shwt_separation_inches",
+      "excerpt": "Separation from seasonal high groundwater table and bedrock of at least 3 feet except for strictly residential land uses, for which it may be reduced to 2 feet",
+      "page_or_section": "5.3, page 103"
+    },
+    {
+      "field": "design_parameters.bioretention_media_depth_min_inches",
+      "excerpt": "A 24\" to 48\" deep planting soil bed (depending on requirements of proposed vegetation)",
+      "page_or_section": "5.5.4 Treatment, page 132"
+    },
+    {
+      "field": "design_parameters.bioretention_ponding_depth_inches",
+      "excerpt": "a 6\" to 9\" deep surface ponding area",
+      "page_or_section": "5.5.4 Treatment, page 132"
+    },
+    {
+      "field": "design_parameters.design_infiltration_rate_in_per_hr",
+      "excerpt": "Minimum soil infiltration rate of 0.5 inches per hour",
+      "page_or_section": "5.3 FEASIBILITY, page 103"
+    },
+    {
+      "field": "design_parameters.ed_drain_time_hours",
+      "excerpt": "ED storage volume shall not exceed 50% of the WQv and shall drain over 24 hours",
+      "page_or_section": "5.2 WVTS, page 87"
+    },
+    {
+      "field": "design_parameters.length_to_width_ratio",
+      "excerpt": "For a Shallow WVTS: Minimum flowpath of 2:1 (length to width)",
+      "page_or_section": "5.2 GEOMETRY, page 88"
+    },
+    {
+      "field": "design_parameters.swale_bottom_width_inches",
+      "excerpt": "Swales shall be designed with a bottom width no greater than 8 ft ... but no less than 2 ft",
+      "page_or_section": "5.7.4 Treatment, page 148"
+    },
+    {
+      "field": "design_parameters.swale_longitudinal_slope_percent",
+      "excerpt": "Open channels shall have a maximum longitudinal slope of 4%, without check dams",
+      "page_or_section": "5.7.1, page 147"
     }
   ],
   "extraction_quality": {
@@ -116,5 +166,45 @@
     "landing_page_url": "https://www.crmc.ri.gov/policy/stormwater.html",
     "retrieved_at": "2026-08-07T11:28:15.873Z",
     "original_filename": "ri-state.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": 1,
+    "max_drawdown_hours": 48,
+    "shwt_separation_inches": 36,
+    "bioretention_media_depth_min_inches": 24,
+    "bioretention_ponding_depth_inches": 9,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": 0.5,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": 24,
+    "length_to_width_ratio": 2,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": 24,
+    "swale_longitudinal_slope_percent": 4,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "bioretention",
+      "extended_detention",
+      "green_roof",
+      "infiltration_basin",
+      "infiltration_trench",
+      "permeable_pavement",
+      "sand_filter",
+      "swale"
+    ],
+    "enriched_at": "2026-08-13T09:54:52.011Z",
+    "enrich_model": "composer-2.5:run-0af15d53-0c8e-421b-9baf-a4d7021742c1",
+    "enrich_notes": "WQv sizing uses 1 inch runoff from impervious area (Atlas: 1.2 in rainfall storm producing 1 in runoff). SHGT separation is 3 ft (36 in) generally; 2 ft (24 in) for strictly residential infiltration/permeable paving per Section 5.3/5.4. Bioretention planting soil 24–48 in (12 in case-by-case); ponding zone 6–9 in. Gravel WVTS minimum flowpath L:W is 1:1. Green roof slope limits in Table 5-8: extensive ≤20%, intensive ≤6%. TAP/TARP acronyms appear in glossary only, not as MTD verification requirement.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "permeable_pavement_storage_depth_inches",
+      "permanent_pool_depth_inches",
+      "wetland_detention_hours",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

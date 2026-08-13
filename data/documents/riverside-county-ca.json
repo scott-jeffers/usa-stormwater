@@ -80,6 +80,51 @@
       "field": "design_criteria.approved_bmp_categories",
       "excerpt": "Implement LID BMPs / LID BMP Design Handbook",
       "page_or_section": "Section 3.4 / Exhibit C"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "a maximum Drawdown Time of 72 hours has been established",
+      "page_or_section": "Chapter 2, page 38 / Appendix VII reference"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "A 72-hour drawn down is usually recommended.",
+      "page_or_section": "Transportation Project Guidance, page 149"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "drawdown period, not to exceed 72 hours?",
+      "page_or_section": "Table 5.3 Infiltration Basins, page 182"
+    },
+    {
+      "field": "design_parameters.shwt_separation_inches",
+      "excerpt": "the bottom of the BMP is less than 10 feet above the \"historic high groundwater mark\"",
+      "page_or_section": "Chapter 2.4.5, page 37"
+    },
+    {
+      "field": "design_parameters.shwt_separation_inches",
+      "excerpt": "Groundwater separation should be at least 10 feet from the basin invert to the measured ground water elevation.",
+      "page_or_section": "Transportation Project Guidance, page 149"
+    },
+    {
+      "field": "design_parameters.shwt_separation_inches",
+      "excerpt": "seasonal high groundwater mark shallower than 10 feet?",
+      "page_or_section": "Table D.1 Infiltration Feasibility, page 108"
+    },
+    {
+      "field": "design_parameters.design_infiltration_rate_in_per_hr",
+      "excerpt": "the minimum long-term post-development infiltration rate must be at least 0.83 inches per hour (5ft * 12 / 72 hours = 0.83 inches/hour)",
+      "page_or_section": "Chapter 2, page 38"
+    },
+    {
+      "field": "design_parameters.design_infiltration_rate_in_per_hr",
+      "excerpt": "tested pre-development infiltration rates must be greater than 1.6 inches per hour",
+      "page_or_section": "Chapter 2, page 38"
+    },
+    {
+      "field": "design_parameters.design_infiltration_rate_in_per_hr",
+      "excerpt": "If the average 'in-situ' tested infiltration rate for the site is less than 1.6 inches per hour, LID Infiltration BMPs ... shall not be used.",
+      "page_or_section": "Chapter 2, page 38"
     }
   ],
   "extraction_quality": {
@@ -96,5 +141,52 @@
     "landing_page_url": "https://trans.rctlma.org/wqmp-water-quality-management-plans",
     "retrieved_at": "2026-08-10T08:45:22.876Z",
     "original_filename": "riverside-county-ca.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": null,
+    "max_drawdown_hours": 72,
+    "shwt_separation_inches": 120,
+    "bioretention_media_depth_min_inches": null,
+    "bioretention_ponding_depth_inches": null,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": 0.83,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": null,
+    "length_to_width_ratio": null,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "bioretention",
+      "constructed_wetland",
+      "extended_detention",
+      "green_roof",
+      "infiltration_basin",
+      "infiltration_trench",
+      "permeable_pavement",
+      "swale"
+    ],
+    "enriched_at": "2026-08-13T09:56:10.502Z",
+    "enrich_model": "composer-2.5:run-6f1a74ba-f7f4-485f-b21c-f57899377bd0",
+    "enrich_notes": "DCV is based on approximately the 85th percentile 24-hour storm (Exhibit A isohyetal map), not a fixed inch depth in these excerpts. Infiltration BMP feasibility requires average in-situ tested rate greater than 1.6 in/hr (factor of safety 2); typical infiltration basin depth cited as 5 ft for the 0.83 in/hr minimum. Biotreatment applies where KSAT < 0.3 in/hr. Detailed BMP sizing is deferred to the LID BMP Design Handbook (2011).",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "wqv_depth_inches",
+      "bioretention_media_depth_min_inches",
+      "bioretention_ponding_depth_inches",
+      "permeable_pavement_storage_depth_inches",
+      "permanent_pool_depth_inches",
+      "ed_drain_time_hours",
+      "length_to_width_ratio",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "swale_longitudinal_slope_percent",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

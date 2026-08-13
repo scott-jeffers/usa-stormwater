@@ -64,6 +64,71 @@
       "field": "design_criteria.approved_bmp_categories",
       "excerpt": "Bioretention; Constructed Stormwater Wetlands",
       "page_or_section": "TOC"
+    },
+    {
+      "field": "design_parameters.wqv_depth_inches",
+      "excerpt": "Bioretention is normally designed for the water quality or \"first flush\" event, typically the first 1\"-1.5\" of rainfall",
+      "page_or_section": "Chapter 4.1 Bioretention, page 7"
+    },
+    {
+      "field": "design_parameters.wqv_depth_inches",
+      "excerpt": "A BRC is designed to hold approximately the first inch of runoff (first flush) from the entire drainage area.",
+      "page_or_section": "Chapter 4.1 Bioretention Design Guidance, page 36"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "A properly designed BRC will drawdown in <96 hours.",
+      "page_or_section": "Chapter 4.1 Bioretention, page 8"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "BRCs should completely drain within 48 - 96 hours for the design rainfall volume captured.",
+      "page_or_section": "Chapter 4.1 Bioretention, page 38"
+    },
+    {
+      "field": "design_parameters.shwt_separation_inches",
+      "excerpt": "the seasonally high water table is at least 2' from the bottom of the cell",
+      "page_or_section": "Chapter 4.1 Bioretention, page 32"
+    },
+    {
+      "field": "design_parameters.shwt_separation_inches",
+      "excerpt": "the seasonally high water table should be a minimum of 2' below the permeable pavement base",
+      "page_or_section": "Chapter 4.3 Permeable Pavement, page 80"
+    },
+    {
+      "field": "design_parameters.bioretention_media_depth_min_inches",
+      "excerpt": "Media depths above the underdrain layer must be at least 3' to use IWS",
+      "page_or_section": "Chapter 4.1 Bioretention, page 35"
+    },
+    {
+      "field": "design_parameters.bioretention_media_depth_min_inches",
+      "excerpt": "Bioretention Media 36 or pollutant dependent",
+      "page_or_section": "Table 4.1.5, page 40"
+    },
+    {
+      "field": "design_parameters.bioretention_ponding_depth_inches",
+      "excerpt": "Ponding depths should be no more than 12\" for safety reasons.",
+      "page_or_section": "Chapter 4.1 Bioretention Design Guidance, page 36"
+    },
+    {
+      "field": "design_parameters.permeable_pavement_storage_depth_inches",
+      "excerpt": "The subbase layer ... typically ranges from 2 – 4' deep, but can be a minimum of 9\".",
+      "page_or_section": "Chapter 4.3 Permeable Pavement (PC Components), page 82"
+    },
+    {
+      "field": "design_parameters.wetland_detention_hours",
+      "excerpt": "still retains stormwater within the wetland for a minimum of 48 hours",
+      "page_or_section": "Chapter 4.2 Constructed Stormwater Wetlands, page 57"
+    },
+    {
+      "field": "design_parameters.swale_longitudinal_slope_percent",
+      "excerpt": "The longitudinal slope should not exceed 5% where possible.",
+      "page_or_section": "Chapter 4.4 Swales, page 94"
+    },
+    {
+      "field": "design_parameters.permanent_pool_depth_inches",
+      "excerpt": "18 - 36\" Max allowable height (h)",
+      "page_or_section": "Chapter 4.2 CSW Cross Section, page 57"
     }
   ],
   "extraction_quality": {
@@ -83,5 +148,44 @@
     "landing_page_url": "https://adem.alabama.gov/programs/water/nps/lid.cnt",
     "retrieved_at": "2026-08-10T09:29:55.327Z",
     "original_filename": "montgomery-al.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": 1,
+    "max_drawdown_hours": 96,
+    "shwt_separation_inches": 24,
+    "bioretention_media_depth_min_inches": 36,
+    "bioretention_ponding_depth_inches": 12,
+    "permeable_pavement_storage_depth_inches": 9,
+    "design_infiltration_rate_in_per_hr": null,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": null,
+    "length_to_width_ratio": null,
+    "wetland_detention_hours": 48,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": 5,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "bioretention",
+      "constructed_wetland",
+      "green_roof",
+      "permeable_pavement",
+      "swale"
+    ],
+    "enriched_at": "2026-08-13T09:15:59.342Z",
+    "enrich_model": "composer-2.5:run-7ec5d4ee-f70e-4173-9574-afeb5f231e40",
+    "enrich_notes": "Montgomery coverage follows ADEM LID Handbook. WQ treatment references first-flush rainfall (~1–1.5 in) and BRC sizing for ~first inch of runoff. BRC drawdown criteria span 48 h (surface) to 96 h (full cell). CSW temporary-pool drawdown target is 2–5 days (not mapped to ed_drain_time_hours). PP subbase/reservoir minimum depth 9 in; PA subbase often 18–36 in.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "design_infiltration_rate_in_per_hr",
+      "permanent_pool_depth_inches",
+      "ed_drain_time_hours",
+      "length_to_width_ratio",
+      "swale_bottom_width_inches",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

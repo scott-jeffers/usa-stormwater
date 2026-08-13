@@ -83,6 +83,36 @@
       "field": "design_criteria.approved_bmp_categories",
       "excerpt": "Bio-retention /Rain Gardens / Porous Pavement / Underground detention",
       "page_or_section": "Preference hierarchy"
+    },
+    {
+      "field": "practice_mentions.bioretention",
+      "excerpt": "Bio-retention /Rain Gardens, Stormwater Planters, Vegetated Swale (bio-swale), Filter Strips, Constructed Wetlands, Porous Pavement",
+      "page_or_section": "buffalo-ny-c0001 | page 1"
+    },
+    {
+      "field": "practice_mentions.green_roof",
+      "excerpt": "Green Roof, Blue Roof, Cisterns",
+      "page_or_section": "buffalo-ny-c0001 | page 1"
+    },
+    {
+      "field": "practice_mentions.infiltration_basin",
+      "excerpt": "Tier 5 Subsurface infiltration or underground retention",
+      "page_or_section": "buffalo-ny-c0001 | page 1"
+    },
+    {
+      "field": "enrich_notes",
+      "excerpt": "All designs must follow the criteria and standards contained in the most recent version of the New York State Stormwater Design Manual.",
+      "page_or_section": "buffalo-ny-c0001 | page 1"
+    },
+    {
+      "field": "enrich_notes",
+      "excerpt": "6. Water Quality Volume (WQv) and Runoff Reduction Volume (RRv) Targets",
+      "page_or_section": "buffalo-ny-c0002 | page 2"
+    },
+    {
+      "field": "enrich_notes",
+      "excerpt": "post-construction 25-year storm peak flows to the storm relief/ combined sewer system are less than or equal to pre-construction 2-year storm peak flows",
+      "page_or_section": "buffalo-ny-c0003 | page 3"
     }
   ],
   "extraction_quality": {
@@ -100,5 +130,53 @@
     "landing_page_url": "https://buffalosewer.org/",
     "retrieved_at": "2026-08-10T08:30:22.061Z",
     "original_filename": "buffalo-ny.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": null,
+    "max_drawdown_hours": null,
+    "shwt_separation_inches": null,
+    "bioretention_media_depth_min_inches": null,
+    "bioretention_ponding_depth_inches": null,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": null,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": null,
+    "length_to_width_ratio": null,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "bioretention",
+      "constructed_wetland",
+      "green_roof",
+      "infiltration_basin",
+      "permeable_pavement",
+      "swale"
+    ],
+    "enriched_at": "2026-08-13T07:41:07.986Z",
+    "enrich_model": "composer-2.5:run-ab7bcb5d-d5ad-4396-91ee-5cd8d7f996fc",
+    "enrich_notes": "Buffalo BSA plan review defers design criteria to the most recent New York State Stormwater Design Manual (NYSMDM) for WQv and RRv; this document lists GI hierarchy (Green Code 7.3.4), limiting factors (contaminated soils, high groundwater, shallow bedrock, poor infiltration), and combined-sewer peak criterion (post-construction 25-year ≤ pre-construction 2-year via TR-55 + NYSMDM) but does not state numeric SCM sizing parameters.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "wqv_depth_inches",
+      "max_drawdown_hours",
+      "shwt_separation_inches",
+      "bioretention_media_depth_min_inches",
+      "bioretention_ponding_depth_inches",
+      "permeable_pavement_storage_depth_inches",
+      "design_infiltration_rate_in_per_hr",
+      "permanent_pool_depth_inches",
+      "ed_drain_time_hours",
+      "length_to_width_ratio",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "swale_longitudinal_slope_percent",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

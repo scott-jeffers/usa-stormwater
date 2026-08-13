@@ -28,6 +28,36 @@
       "field": "design_criteria.water_quality_volume_method",
       "excerpt": "80% TSS reduction of an average annual urban pollutant load",
       "page_or_section": "Nashville SWMM Vol4"
+    },
+    {
+      "field": "practice_mentions.swale",
+      "excerpt": "Permanent BMPs may include swales, sediment or detention ponds, and a variety of other features.",
+      "page_or_section": "1.5 Temporary and Permanent BMPs, page 1-7"
+    },
+    {
+      "field": "practice_mentions.swale",
+      "excerpt": "Significant offsite flows (especially concentrated flows) that drain onto disturbed areas or slopes should be controlled through use of continuous berms, earth dikes, drainage swales, and lined ditches",
+      "page_or_section": "1.6.4.3 Site Perimeter, page 1-14"
+    },
+    {
+      "field": "practice_mentions.extended_detention",
+      "excerpt": "Permanent BMPs may include swales, sediment or detention ponds, and a variety of other features.",
+      "page_or_section": "1.5 Temporary and Permanent BMPs, page 1-7"
+    },
+    {
+      "field": "practice_mentions.extended_detention",
+      "excerpt": "Metro's detention policies address this issue for new development.",
+      "page_or_section": "1.3.1.2 Stream and Channel Erosion, page 1-3"
+    },
+    {
+      "field": "practice_mentions.wet_pond",
+      "excerpt": "Excavate permanent stormwater detention ponds early in the project, use them as sedimentation ponds during construction",
+      "page_or_section": "1.6.4.5 Internal Erosion, page 1-15"
+    },
+    {
+      "field": "enrich_notes",
+      "excerpt": "Typically these events are less than 1.1-inches of rainfall and that fact was used in preparing the selection, sizing, approach, and maintenance criteria presented in the BMP fact sheets.",
+      "page_or_section": "1.2 Stormwater Quality and Quantity Management, page 1-2"
     }
   ],
   "extraction_quality": {
@@ -44,5 +74,50 @@
     "landing_page_url": "https://www.franklintn.gov/",
     "retrieved_at": "2026-08-10T10:27:43.524Z",
     "original_filename": "franklin-tn.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": null,
+    "max_drawdown_hours": null,
+    "shwt_separation_inches": null,
+    "bioretention_media_depth_min_inches": null,
+    "bioretention_ponding_depth_inches": null,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": null,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": null,
+    "length_to_width_ratio": null,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "extended_detention",
+      "swale",
+      "wet_pond"
+    ],
+    "enriched_at": "2026-08-13T08:21:57.954Z",
+    "enrich_model": "composer-2.5:run-3f981524-fba3-493c-83f1-faa4173a47fc",
+    "enrich_notes": "Provided excerpts cover Metro Nashville SWMM Vol. 4 Section 1 (introduction, stormwater quality context, EP&SC, temporary/permanent BMP overview) only; BMP fact sheets with facility-specific design dimensions are not in the corpus. Franklin placeholder uses Nashville Vol. 4 as regional reference. Small frequent storms described as typically less than 1.1 inches of rainfall for sizing context—not stated as a numeric WQv design depth.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "wqv_depth_inches",
+      "max_drawdown_hours",
+      "shwt_separation_inches",
+      "bioretention_media_depth_min_inches",
+      "bioretention_ponding_depth_inches",
+      "permeable_pavement_storage_depth_inches",
+      "design_infiltration_rate_in_per_hr",
+      "permanent_pool_depth_inches",
+      "ed_drain_time_hours",
+      "length_to_width_ratio",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "swale_longitudinal_slope_percent",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

@@ -87,6 +87,66 @@
       "field": "document_metadata.relationship_to_state_manual",
       "excerpt": "urban stormwater runoff 2. To provide design standards on the most effective stormwater management approaches including: o Incorporation of runoff reduction achieved by infiltration, groundwater recharge, reuse, recycle, evaporation/evapotranspiration through the use of runoff",
       "page_or_section": "p. 11"
+    },
+    {
+      "field": "design_parameters.wqv_depth_inches",
+      "excerpt": "90th percentile rainfall 1.20 inches (Section 4.2)",
+      "page_or_section": "Chapter 7, Table 7.1"
+    },
+    {
+      "field": "design_parameters.wqv_depth_inches",
+      "excerpt": "WATER QUALITY VOLUME (WQV) - The volume of stormwater runoff, generated from the 90th percentile rain event",
+      "page_or_section": "Glossary"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "Provide a mechanism that can completely drain the pond in 24 hrs",
+      "page_or_section": "Fact Sheet: Wet Pond (P-2), TREATMENT"
+    },
+    {
+      "field": "design_parameters.shwt_separation_inches",
+      "excerpt": "Min 2 ft separation to seasonal high-water table or bedrock",
+      "page_or_section": "Fact Sheet: Infiltration Bioretention (F-5)"
+    },
+    {
+      "field": "design_parameters.shwt_separation_inches",
+      "excerpt": "Provide a 2' separation distance to water table.",
+      "page_or_section": "Table 3.5 Watershed/Regional Selection Matrix, Ponds"
+    },
+    {
+      "field": "design_parameters.bioretention_media_depth_min_inches",
+      "excerpt": "Depth of filter media shall be 30 inches min and 48 inches max",
+      "page_or_section": "Fact Sheet: Infiltration Bioretention (F-4), TREATMENT"
+    },
+    {
+      "field": "design_parameters.bioretention_ponding_depth_inches",
+      "excerpt": "Max ponding is 12 inches (WQv) and 18 inches (Extreme Flood)",
+      "page_or_section": "Fact Sheet: Infiltration Bioretention (F-4), TREATMENT"
+    },
+    {
+      "field": "design_parameters.design_infiltration_rate_in_per_hr",
+      "excerpt": "Underlying soils shall have an min. infiltration rate of 0.50 inch/hr",
+      "page_or_section": "Fact Sheet: Infiltration Bioretention (F-4), FEASIBILITY"
+    },
+    {
+      "field": "design_parameters.ed_drain_time_hours",
+      "excerpt": "Size outlet structure to detain WQv for 24 hrs (12 hrs to trout waters)",
+      "page_or_section": "Fact Sheet: Wet Pond (P-2), FEASIBILITY"
+    },
+    {
+      "field": "design_parameters.length_to_width_ratio",
+      "excerpt": "Min. flow path of 1.5:1 (length to relative width) from all inlet points to the outflow points across the pond",
+      "page_or_section": "Fact Sheet: Wet Pond (P-2), TREATMENT"
+    },
+    {
+      "field": "design_parameters.swale_bottom_width_inches",
+      "excerpt": "Bottom width shall be a min of 2 ft and a max of 8 ft",
+      "page_or_section": "Fact Sheet: Dry Swale (O-1), TREATMENT"
+    },
+    {
+      "field": "design_parameters.swale_longitudinal_slope_percent",
+      "excerpt": "Channel slope shall be 0.50% min and 4.0% max",
+      "page_or_section": "Fact Sheet: Dry Swale (O-1), TREATMENT"
     }
   ],
   "extraction_quality": {
@@ -104,5 +164,48 @@
     "landing_page_url": "https://dec.ny.gov/environmental-protection/water/water-quality/stormwater/construction-stormwater-toolbox",
     "retrieved_at": "2026-08-10T09:29:55.327Z",
     "original_filename": "yonkers-ny.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": 1.2,
+    "max_drawdown_hours": 24,
+    "shwt_separation_inches": 24,
+    "bioretention_media_depth_min_inches": 30,
+    "bioretention_ponding_depth_inches": 12,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": 0.5,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": 24,
+    "length_to_width_ratio": 1.5,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": 24,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "bioretention",
+      "constructed_wetland",
+      "extended_detention",
+      "green_roof",
+      "infiltration_basin",
+      "infiltration_trench",
+      "permeable_pavement",
+      "sand_filter",
+      "swale",
+      "wet_pond"
+    ],
+    "enriched_at": "2026-08-13T10:37:04.034Z",
+    "enrich_model": "composer-2.5:run-51f1b519-de76-445e-ac85-4059538dc368",
+    "enrich_notes": "WQv uses 90th percentile rainfall depth 1.20 in (Ch. 7 example). Common SHWT separation is 2 ft (24 in); sole-source aquifer and some infiltration contexts require 4 ft (48 in). Rain gardens specify 12–18 in min filter media by variant; standard infiltration/filtration bioretention require 30 in min media. Infiltration feasibility threshold fc ≥ 0.50 in/hr; pond outlets detain WQv 24 hr (12 hr trout waters). Dry swale channel slope 0.50%–4.0% (single canonical slope value not specified).",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "permeable_pavement_storage_depth_inches",
+      "permanent_pool_depth_inches",
+      "wetland_detention_hours",
+      "swale_longitudinal_slope_percent",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

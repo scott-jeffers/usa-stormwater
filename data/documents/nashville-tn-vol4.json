@@ -99,6 +99,31 @@
       "field": "design_criteria.approved_bmp_categories",
       "excerpt": "Infiltration BMPs may serve as groundwater recharge facilities, detention/retention areas may be created in landscaped areas of the project, and vegetated swales/filters may be used as roadside/median or parking lot median vegetated areas.",
       "page_or_section": "Section 1.6.5, Page 1-17"
+    },
+    {
+      "field": "design_parameters.wqv_depth_inches",
+      "excerpt": "Typically these events are less than 1.1-inches of rainfall and that fact was used in preparing the selection, sizing, approach, and maintenance criteria presented in the BMP fact sheets.",
+      "page_or_section": "Section 1.2, page 1-2"
+    },
+    {
+      "field": "practice_mentions.swale",
+      "excerpt": "Permanent BMPs may include swales, sediment or detention ponds, and a variety of other features.",
+      "page_or_section": "Section 1.5, page 1-7"
+    },
+    {
+      "field": "practice_mentions.swale",
+      "excerpt": "Significant offsite flows (especially concentrated flows) that drain onto disturbed areas or slopes should be controlled through use of continuous berms, earth dikes, drainage swales, and lined ditches",
+      "page_or_section": "Section 1.6.4.3, page 1-14"
+    },
+    {
+      "field": "practice_mentions.extended_detention",
+      "excerpt": "Excavate permanent stormwater detention ponds early in the project, use them as sedimentation ponds during construction",
+      "page_or_section": "Section 1.6.4.5, page 1-15"
+    },
+    {
+      "field": "practice_mentions.extended_detention",
+      "excerpt": "Metro's detention policies address this issue for new development.",
+      "page_or_section": "Section 1.3.1.2, page 1-4"
     }
   ],
   "extraction_quality": {
@@ -116,5 +141,49 @@
     "landing_page_url": "https://www.nashville.gov/departments/water/developers/stormwater-review/stormwater-management-manual/best-management-practices",
     "retrieved_at": "2026-08-08T10:35:25.202Z",
     "original_filename": "nashville-tn-vol4.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": null,
+    "max_drawdown_hours": null,
+    "shwt_separation_inches": null,
+    "bioretention_media_depth_min_inches": null,
+    "bioretention_ponding_depth_inches": null,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": null,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": null,
+    "length_to_width_ratio": null,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "extended_detention",
+      "swale"
+    ],
+    "enriched_at": "2026-08-13T09:19:41.594Z",
+    "enrich_model": "composer-2.5:run-6a3d0271-7e5e-4275-bd28-0a57efe56b84",
+    "enrich_notes": "Corpus is Volume 4 Section 1 (introduction and EP&SC overview) only. Text states small frequent storms are typically less than 1.1 inches of rainfall and that fact informed BMP fact sheet selection, sizing, and maintenance criteria, but no explicit WQv design depth or other SCM sizing numbers appear. Numeric design criteria are referenced as living in BMP fact sheets elsewhere in Vol. 4 and in Volumes 1–3.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "wqv_depth_inches",
+      "max_drawdown_hours",
+      "shwt_separation_inches",
+      "bioretention_media_depth_min_inches",
+      "bioretention_ponding_depth_inches",
+      "permeable_pavement_storage_depth_inches",
+      "design_infiltration_rate_in_per_hr",
+      "permanent_pool_depth_inches",
+      "ed_drain_time_hours",
+      "length_to_width_ratio",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "swale_longitudinal_slope_percent",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

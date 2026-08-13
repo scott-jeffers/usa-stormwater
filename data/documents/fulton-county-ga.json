@@ -99,6 +99,26 @@
       "field": "design_criteria.approved_bmp_categories",
       "excerpt": "Bioretention Basin; Bioslopes; Dry Wells; Infiltration Trenches",
       "page_or_section": "199"
+    },
+    {
+      "field": "design_parameters.wqv_depth_inches",
+      "excerpt": "the water quality volume (WQv), which is equal to the runoff generated on a site from 1.2 inches of rainfall",
+      "page_or_section": "VOL 1, Standard #4 – Water Quality, page 120"
+    },
+    {
+      "field": "design_parameters.wqv_depth_inches",
+      "excerpt": "this equates to treating storm events of 1.2 inches or less, as well as the first 1.2 inches of runoff for all larger storm events",
+      "page_or_section": "VOL 1, Standard #4 – Water Quality, page 120"
+    },
+    {
+      "field": "design_parameters.ed_drain_time_hours",
+      "excerpt": "24-hour extended detention storage of the 1-year, 24-hour return frequency storm event",
+      "page_or_section": "VOL 1, Standard #5 – Stream Channel Protection, page 120"
+    },
+    {
+      "field": "design_parameters.ed_drain_time_hours",
+      "excerpt": "The first method of providing stream bank protection is the extended detention of the 1-year, 24-hour storm for a period of 24 hours using BMPs.",
+      "page_or_section": "VOL 1, Standard #5 – Stream Channel Protection, page 120"
     }
   ],
   "extraction_quality": {
@@ -117,5 +137,52 @@
     "landing_page_url": "https://atlantaregional.org/what-we-do/natural-resources/georgia-stormwater-management-manual/",
     "retrieved_at": "2026-08-10T09:15:00.000Z",
     "original_filename": "fulton-county-ga.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": 1.2,
+    "max_drawdown_hours": null,
+    "shwt_separation_inches": null,
+    "bioretention_media_depth_min_inches": null,
+    "bioretention_ponding_depth_inches": null,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": null,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": 24,
+    "length_to_width_ratio": null,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "bioretention",
+      "constructed_wetland",
+      "extended_detention",
+      "green_roof",
+      "permeable_pavement",
+      "swale",
+      "wet_pond"
+    ],
+    "enriched_at": "2026-08-13T08:24:29.023Z",
+    "enrich_model": "composer-2.5:run-666e6f24-3995-4ce7-aea0-ef77fe89736c",
+    "enrich_notes": "WQv is defined as runoff from 1.2 inches of rainfall (85% of average-year storms); RRV is 1.0 inch runoff reduction per Standard #3. Stream channel protection uses 24-hour extended detention of the 1-year, 24-hour storm (CPv). Bioretention cul-de-sac islands require underdrain and/or overflow (Vol. 2 §4.2 cited, not in excerpt). Permanent stormwater infiltration basins prohibited in high pollution susceptibility groundwater recharge areas.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "max_drawdown_hours",
+      "shwt_separation_inches",
+      "bioretention_media_depth_min_inches",
+      "bioretention_ponding_depth_inches",
+      "permeable_pavement_storage_depth_inches",
+      "design_infiltration_rate_in_per_hr",
+      "permanent_pool_depth_inches",
+      "length_to_width_ratio",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "swale_longitudinal_slope_percent",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

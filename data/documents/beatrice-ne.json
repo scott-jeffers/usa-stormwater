@@ -149,18 +149,113 @@
       "field": "design_criteria.approved_bmp_categories",
       "excerpt": "Section 8.4 addresses Erosion and Sediment Control BMP, and Section 8.5 addresses Good Housekeeping BMPs.",
       "page_or_section": "Chapter 8"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "For facilities that function just for water quality control, the WQCV will be stored for a duration between 24 and 40 hours.",
+      "page_or_section": "9.4.4.4, page 122"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "In this case, the facility shall be drained within 72 hours.",
+      "page_or_section": "9.4.4.4, page 122"
+    },
+    {
+      "field": "design_parameters.wqv_depth_inches",
+      "excerpt": "The methodology for calculating the Water Quality Control Volume (WQCV) and/or Water Quality Volume Discharge Rate (Qwq) is based on average daily rainfall data applied to three zones across the state (Table 9-1).",
+      "page_or_section": "Chapter 9 Design Criteria, page 118"
+    },
+    {
+      "field": "design_parameters.design_infiltration_rate_in_per_hr",
+      "excerpt": "Infiltration tests shall be done to determine the local infiltration rates if infiltration is a critical part of the Structural BMP facility.",
+      "page_or_section": "9.4.4.4, page 122"
+    },
+    {
+      "field": "practice_mentions.bioretention",
+      "excerpt": "Bioretention Basin",
+      "page_or_section": "Table 9-3, page 113"
+    },
+    {
+      "field": "practice_mentions.swale",
+      "excerpt": "Grass Swale",
+      "page_or_section": "Table 9-3, page 113"
+    },
+    {
+      "field": "practice_mentions.permeable_pavement",
+      "excerpt": "Pervious Pavement",
+      "page_or_section": "Table 9-3, page 113"
+    },
+    {
+      "field": "practice_mentions.manufactured_treatment",
+      "excerpt": "Proprietary Structural Treatment Controls",
+      "page_or_section": "Table 9-3, page 113"
     }
   ],
   "extraction_quality": {
     "confidence": "high",
-    "needs_human_review": false,
-    "review_notes": "Municipal manual adopted Sept 8, 2020 (August 2020 edition). Aligns with Omaha/Lincoln/NDOT regional guidance for post-construction BMPs; WQCV depths for Beatrice are Region C East values in Table 9-1. Software list is \"generally acceptable\" examples, not exclusive mandates.",
-    "fields_not_found": []
+    "needs_human_review": true,
+    "review_notes": "Municipal manual adopted Sept 8, 2020 (August 2020 edition). Aligns with Omaha/Lincoln/NDOT regional guidance for post-construction BMPs; WQCV depths for Beatrice are Region C East values in Table 9-1. Software list is \"generally acceptable\" examples, not exclusive mandates. Pipeline excerpt repair removed 1 unlocated citation(s).",
+    "fields_not_found": [
+      "design_parameters.wqv_depth_inches"
+    ]
   },
   "source": {
     "document_url": "https://www.beatrice.ne.gov/media/400fdosn/drainage_criteria_manual.pdf",
     "landing_page_url": "https://www.beatrice.ne.gov/",
     "retrieved_at": "2026-08-08T10:30:00.000Z",
     "original_filename": "beatrice-ne.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": null,
+    "max_drawdown_hours": null,
+    "shwt_separation_inches": null,
+    "bioretention_media_depth_min_inches": null,
+    "bioretention_ponding_depth_inches": null,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": null,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": null,
+    "length_to_width_ratio": null,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "bioretention",
+      "constructed_wetland",
+      "extended_detention",
+      "green_roof",
+      "infiltration_basin",
+      "infiltration_trench",
+      "manufactured_treatment",
+      "permeable_pavement",
+      "sand_filter",
+      "swale",
+      "wet_pond"
+    ],
+    "enriched_at": "2026-08-13T07:33:44.146Z",
+    "enrich_model": "composer-2.5:run-4122e60f-2076-4b34-9dfd-033e6c2fb727",
+    "enrich_notes": "Chapter 9 sizes all listed BMPs to WQCV or Qwq (Section 9.4); detailed geometry and media depths are delegated to Omaha, Lincoln, NDOR, and UDFCD manuals (Section 9.6). WQCV release/storage duration is stated as 24–40 hours for water-quality-only facilities and drain within 72 hours when flood-control volumes are stacked (9.4.4.4). Qwq uses NRCS CN on the 80th-percentile regional rainfall depth, 24-hour storm, Tc = 5 minutes, impervious area only (9.4.4.3). Table 9-1 rainfall depths by region are referenced but not reproduced in the supplied excerpts.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "wqv_depth_inches",
+      "max_drawdown_hours",
+      "shwt_separation_inches",
+      "bioretention_media_depth_min_inches",
+      "bioretention_ponding_depth_inches",
+      "permeable_pavement_storage_depth_inches",
+      "design_infiltration_rate_in_per_hr",
+      "permanent_pool_depth_inches",
+      "ed_drain_time_hours",
+      "length_to_width_ratio",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "swale_longitudinal_slope_percent",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

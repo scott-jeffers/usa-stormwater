@@ -87,6 +87,36 @@
       "field": "design_criteria.approved_bmp_categories",
       "excerpt": "Sediment capture BMP's... Flocculants",
       "page_or_section": "Table of Contents, Chapter 7 Dewatering"
+    },
+    {
+      "field": "practice_mentions.swale",
+      "excerpt": "they improve the efficiency of other sediment controls, such as vegetated swales, filter strips, or infiltration devices",
+      "page_or_section": "sd-dot-esc-c0017, page 16, Slope Flow Control"
+    },
+    {
+      "field": "practice_mentions.swale",
+      "excerpt": "Check dams – are small dams constructed in an open channel, swale, or ditch.",
+      "page_or_section": "sd-dot-esc-c0018, page 17, Channel Velocity Control"
+    },
+    {
+      "field": "practice_mentions.swale",
+      "excerpt": "structural stormwater management practices such as stormwater ponds, open vegetated swales, natural depressions to allow infiltration of runoff onsite",
+      "page_or_section": "sd-dot-esc-c0122, page 95, 5.3 SWPPP Post-Construction Stormwater Management"
+    },
+    {
+      "field": "practice_mentions.wet_pond",
+      "excerpt": "structural stormwater management practices such as stormwater ponds, open vegetated swales, natural depressions to allow infiltration of runoff onsite",
+      "page_or_section": "sd-dot-esc-c0122, page 95"
+    },
+    {
+      "field": "practice_mentions.infiltration_basin",
+      "excerpt": "natural depressions to allow infiltration of runoff onsite",
+      "page_or_section": "sd-dot-esc-c0122, page 95"
+    },
+    {
+      "field": "design_parameters.swale_longitudinal_slope_percent",
+      "excerpt": "Check dams are generally placed in areas where the slope is 6% or greater combined with a large drainage area",
+      "page_or_section": "sd-dot-esc-c0018, page 17 — contextual only; not a required swale design slope"
     }
   ],
   "extraction_quality": {
@@ -105,5 +135,50 @@
     "landing_page_url": "https://dot.sd.gov/Doing-Business/Environmental/Stormwater",
     "retrieved_at": "2026-08-08T10:30:00.000Z",
     "original_filename": "sd-dot-esc.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": null,
+    "max_drawdown_hours": null,
+    "shwt_separation_inches": null,
+    "bioretention_media_depth_min_inches": null,
+    "bioretention_ponding_depth_inches": null,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": null,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": null,
+    "length_to_width_ratio": null,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "infiltration_basin",
+      "swale",
+      "wet_pond"
+    ],
+    "enriched_at": "2026-08-13T10:08:38.283Z",
+    "enrich_model": "composer-2.5:run-d7c288d2-3c4d-4a53-b673-90dbceb2f947",
+    "enrich_notes": "SDDOT erosion and sediment control training manual (Oct 2024) with appended SD DANR construction general permit. Focus is temporary construction BMPs, SWPPP, inspections, and dewatering (53 mg/L TSS limit). Post-construction section names stormwater ponds, open vegetated swales, and infiltration conceptually but gives no sizing depths, drawdown times, infiltration rates, or WQv. Check dams referenced where channel slope is 6% or greater (placement condition, not swale design slope). Level spreader at zero percent grade. No TAPE/NJCAT or manufactured-treatment programs.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "wqv_depth_inches",
+      "max_drawdown_hours",
+      "shwt_separation_inches",
+      "bioretention_media_depth_min_inches",
+      "bioretention_ponding_depth_inches",
+      "permeable_pavement_storage_depth_inches",
+      "design_infiltration_rate_in_per_hr",
+      "permanent_pool_depth_inches",
+      "ed_drain_time_hours",
+      "length_to_width_ratio",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "swale_longitudinal_slope_percent",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

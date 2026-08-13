@@ -1,0 +1,130 @@
+{
+  "version": 1,
+  "practice_key": "constructed_wetland",
+  "practice_label": "Constructed Wetland",
+  "generated_at": "2026-08-13T10:40:14.166Z",
+  "model": "composer-2.5:run-c630d875-52d1-41d7-aaa6-1924f1842f9d",
+  "editorial_status": "draft",
+  "national_baseline": "Among Tier A manuals that mention constructed wetlands, explicit facility sizing is sparse compared with site-wide water-quality and drainage criteria that jurisdictions apply across BMP types. Where permanent pool depth is stated (n=10), the modal value is 36 inches with a reported range of 18–96 inches; the median is 42 inches, so a shallow permanent zone near 3 ft is the most frequently cited anchor, though several manuals specify deeper pools. Length-to-width guidance appears in 17 manuals with mode and median of 2:1 and a range from 0.3:1 to 3:1, suggesting elongated basins are commonly recommended but not uniform. Wetland-specific detention time is rarely numerified (n=3); where given, values cluster around 24–48 hours with mode 24 hours—too few sources to treat as a national facility standard. Site-wide context in the same manual set commonly references water-quality volume depths near 1 inch (n=30, mode 1, range 0.37–1.61), maximum drawdown times often centered on 48–72 hours (n=36, mode 72, median 48, range 4–120), and separation from seasonal high water table frequently at 24 inches mode with median 36 inches (n=36, range 12–120)—these describe jurisdiction sizing assumptions rather than constructed-wetland geometry alone.",
+  "regional_modifiers": [
+    {
+      "id": "cold_climate",
+      "title": "Cold climate and shorter seasons",
+      "text": "Northern and mountain jurisdictions sometimes specify longer drawdown allowances (e.g., up to 120 hours in Mississippi’s manual entry in the matrix) or tighter drawdown in arid-mountain cities (24 hours in Flagstaff and Seattle site-wide entries). Permanent pool depth where stated often remains near 36 inches (Chicago, Detroit, Minnesota, Idaho catalog), with Vermont at 48 inches. SHWT separation in cold-state samples includes 36 inches (Minnesota, Montana DEQ, Vermont) and 60 inches in Portland and western Washington—reflecting frost and groundwater variability rather than a single wetland depth rule.",
+      "states": [
+        "MN",
+        "MT",
+        "VT",
+        "WA",
+        "OR",
+        "ID",
+        "ME"
+      ],
+      "citation_slugs": [
+        "mn-state-2008",
+        "mt-deq8",
+        "vt-state",
+        "wa-state-western",
+        "portland-or",
+        "idaho-bmp-catalog",
+        "maine-manual",
+        "billings-mt"
+      ]
+    },
+    {
+      "id": "coastal_high_water_table",
+      "title": "Coastal and high water table",
+      "text": "Coastal and low-lying manuals in the matrix often show smaller SHWT separation values (12 inches in Chesapeake, Virginia; Raleigh, North Carolina; Maine; Montana DEQ8; New Jersey chapter proxy) alongside site-wide drawdown of 48 hours in several mid-Atlantic and New England entries. Permanent pool depth where specified includes 96 inches in Chesapeake, Virginia and Hawaii DOT PCBMP—contrasting with the 36-inch mode elsewhere and indicating deep pools where manuals explicitly size wetland pools in flood-prone or island contexts.",
+      "states": [
+        "VA",
+        "NC",
+        "ME",
+        "NJ",
+        "HI",
+        "MD"
+      ],
+      "citation_slugs": [
+        "chesapeake-va",
+        "raleigh-nc",
+        "maine-manual",
+        "mt-deq8",
+        "nj-state",
+        "hawaii-dot-pcbmp",
+        "md-state",
+        "norfolk-va"
+      ]
+    },
+    {
+      "id": "karst_and_restricted_drainage",
+      "title": "Karst, Edwards, and restrictive subsurface",
+      "text": "Where Edwards-region guidance appears, SHWT separation is 48 inches (Texas Edwards RG348) and length-to-width ratio is 1:1 in that slug—distinct from the 2:1 modal ratio in the broader set. Ohio rainwater manual lists 48 inches SHWT separation and 2:1 length-to-width. These entries suggest localized separation and shape requirements tied to sensitive groundwater settings rather than the 24-inch modal site-wide separation.",
+      "states": [
+        "TX",
+        "OH"
+      ],
+      "citation_slugs": [
+        "tx-edwards-rg348",
+        "ohio-rainwater"
+      ]
+    },
+    {
+      "id": "arid_and_desert",
+      "title": "Arid and desert site-wide context",
+      "text": "Arid jurisdictions in the matrix report among the lowest site-wide WQv depth values (Las Vegas 0.37 inches) and mixed drawdown (Las Vegas 72 hours; Flagstaff 24 hours). Denver lists 0.6 inches WQv depth site-wide. Constructed-wetland-specific permanent pool and detention fields remain largely unstated in these slugs; arid modifiers here reflect jurisdiction volume and drawdown context, not established wetland pool depth consensus.",
+      "states": [
+        "NV",
+        "AZ",
+        "CO"
+      ],
+      "citation_slugs": [
+        "las-vegas-nv",
+        "flagstaff-az",
+        "denver-co"
+      ]
+    }
+  ],
+  "open_issues": "Permanent pool depth, length-to-width ratio, and wetland detention hours have low extraction counts (n=10, 17, and 3 respectively among manuals mentioning the practice), so numeric facility baselines are not yet established nationally from Tier A text alone. Wetland_detention_hours at n=3 cannot support committee-level numeric adoption. Site-wide WQv depth, max drawdown, and SHWT separation are widely documented but are jurisdiction-wide sizing context and may not map one-to-one to constructed wetland cells; 45–42 manuals lack WQv or wetland-specific numerics in the scanned set. Extreme drawdown values (4 hours Florida FSESCI Tier 1; 120 hours Mississippi) and SHWT span (12–120 inches) indicate unresolved regional policy spread without a single consensus facility standard. Chapter proxies and state drafts in the matrix add uncertainty for cross-manual comparison.",
+  "matrix_summary": "For constructed wetland in Tier A manuals (46 of 76 mention the practice): site-wide WQv depth n=30, mode 1 in, range 0.37–1.61; site-wide max drawdown n=36, mode 72 h, median 48 h, range 4–120; site-wide SHWT separation n=36, mode 24 in, median 36 in, range 12–120. Practice-specific fields: permanent pool depth n=10, mode 36 in, range 18–96; length-to-width n=17, mode 2, range 0.3–3; wetland detention hours n=3, mode 24 h, range 24–48.",
+  "supporting_slugs": [
+    "ak-state",
+    "alabama-handbook",
+    "arkansas-manual",
+    "bellevue-wa",
+    "ca-casqa-municipal",
+    "chesapeake-va",
+    "chicago-il",
+    "columbus-oh",
+    "ct-state",
+    "dallas-tx",
+    "dc-guidebook",
+    "denver-co",
+    "detroit-mi",
+    "ga-state",
+    "hawaii-dot-pcbmp",
+    "ia-state-ch1",
+    "idaho-bmp-catalog",
+    "indiana-manual",
+    "kansas-city-marc-bmp",
+    "los-angeles-ca",
+    "ma-state-draft",
+    "maine-manual",
+    "md-state",
+    "michigan-manual",
+    "minneapolis-mn",
+    "missouri-manual",
+    "mn-state-2008",
+    "ms-state-vol2",
+    "nc-state",
+    "ne-ndot-stf",
+    "nh-state",
+    "norfolk-va",
+    "ny-bluebook",
+    "ny-state",
+    "ohio-rainwater",
+    "pa-state",
+    "raleigh-nc",
+    "san-francisco-ca",
+    "seattle-wa",
+    "south-carolina-manual"
+  ]
+}

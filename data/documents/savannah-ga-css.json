@@ -122,6 +122,36 @@
       "field": "design_criteria.peak_flow_calculation_method",
       "excerpt": "The SCS Runoff Curve Number Method (NRCS, 1986) uses a combination of these factors to assign a runoff curve number",
       "page_or_section": "Section 5.4.2 Step 2"
+    },
+    {
+      "field": "design_parameters.practice_mentions.bioretention",
+      "excerpt": "Complex Monitoring Situation (e.g., bioretention areas, dry swales)",
+      "page_or_section": "Appendix C, Table C.4, page 498"
+    },
+    {
+      "field": "design_parameters.practice_mentions.wet_pond",
+      "excerpt": "Simple Monitoring Situation (e.g., wet pond)",
+      "page_or_section": "Appendix C, Table C.4, page 498"
+    },
+    {
+      "field": "design_parameters.practice_mentions.swale",
+      "excerpt": "Complex Monitoring Situation (e.g., bioretention areas, dry swales)",
+      "page_or_section": "Appendix C, Table C.4, page 498"
+    },
+    {
+      "field": "design_parameters.practice_mentions.green_roof",
+      "excerpt": "Nonstructural stormwater management practices include, but are not limited to, ... green roofs, vegetated filter strips and rain gardens.",
+      "page_or_section": "Appendix D, Section 2.0 Definitions, page 520"
+    },
+    {
+      "field": "design_parameters.practice_mentions.extended_detention",
+      "excerpt": "“Extended Detention” means the temporary storage of stormwater runoff in a stormwater management practice for an extended period of time, typically 24 hours or greater.",
+      "page_or_section": "Appendix D, Section 2.0 Definitions, page 518"
+    },
+    {
+      "field": "design_parameters.practice_mentions.infiltration_basin",
+      "excerpt": "several groups of green infrastructure and stormwater management practices are not well represented in either of them, including bioretention areas, infiltration practices",
+      "page_or_section": "Appendix C, C.1 Introduction, page 493"
     }
   ],
   "extraction_quality": {
@@ -142,5 +172,53 @@
     "landing_page_url": "https://epd.georgia.gov/watershed-protection-branch/storm-water/georgia-epd-coastal-stormwater-supplement-stormwater",
     "retrieved_at": "2026-08-08T10:41:49.492Z",
     "original_filename": "savannah-ga-css.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": null,
+    "max_drawdown_hours": null,
+    "shwt_separation_inches": null,
+    "bioretention_media_depth_min_inches": null,
+    "bioretention_ponding_depth_inches": null,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": null,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": null,
+    "length_to_width_ratio": null,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "bioretention",
+      "extended_detention",
+      "green_roof",
+      "infiltration_basin",
+      "swale",
+      "wet_pond"
+    ],
+    "enriched_at": "2026-08-13T10:06:07.317Z",
+    "enrich_model": "composer-2.5:run-319583a2-9467-4e78-a015-ebd74847b8be",
+    "enrich_notes": "Provided corpus is Appendix A habitat table, Appendix C monitoring protocol, and Appendix D model ordinance—not BMP design chapters. Runoff reduction and treatment criteria reference the CSS/GSMM by edition without restating rainfall depths or facility dimensions in these excerpts. Extended Detention is defined qualitatively (storage for an extended period, typically 24 hours or greater) without a mandated drawdown rate for a specific SCM.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "wqv_depth_inches",
+      "max_drawdown_hours",
+      "shwt_separation_inches",
+      "bioretention_media_depth_min_inches",
+      "bioretention_ponding_depth_inches",
+      "permeable_pavement_storage_depth_inches",
+      "design_infiltration_rate_in_per_hr",
+      "permanent_pool_depth_inches",
+      "ed_drain_time_hours",
+      "length_to_width_ratio",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "swale_longitudinal_slope_percent",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

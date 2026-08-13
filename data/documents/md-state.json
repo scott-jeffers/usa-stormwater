@@ -80,6 +80,46 @@
       "field": "design_criteria.approved_bmp_categories",
       "excerpt": "Acceptable BMP groups are:\n- Stormwater Ponds\n- Stormwater Wetlands\n- Infiltration Practices\n- Filtering Systems\n- Open Channel Practices\n- Non-structural Practices",
       "page_or_section": "1.16, Section 1.3.1"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "ED 24 hour drawdown of the water quality volume",
+      "page_or_section": "Table 1.3, Section 1.6 (page 36)"
+    },
+    {
+      "field": "design_parameters.ed_drain_time_hours",
+      "excerpt": "The water quality requirement can be met by providing a 24 hour drawdown of a portion of the water quality volume (WQv)",
+      "page_or_section": "Chapter 2, Section 2.4 (page 42)"
+    },
+    {
+      "field": "design_parameters.ed_drain_time_hours",
+      "excerpt": "Cpv = 24 hour (12 hour in USE III and IV watersheds) extended detention of post-developed one-year, 24 hour storm event.",
+      "page_or_section": "Table 2.1, Chapter 2 (page 39)"
+    },
+    {
+      "field": "design_parameters.shwt_separation_inches",
+      "excerpt": "filter bed inverts shall be separated at least four feet vertically (two feet on the lower Eastern shore) from the seasonal high water table.",
+      "page_or_section": "Chapter 5, Micro-bioretention (page 245)"
+    },
+    {
+      "field": "design_parameters.bioretention_media_depth_min_inches",
+      "excerpt": "Bioretention systems (F-6) shall consist of the following treatment components: A 2½ to 4 foot deep planting soil bed",
+      "page_or_section": "Chapter 3.4.5 Filtering (page 121)"
+    },
+    {
+      "field": "design_parameters.bioretention_ponding_depth_inches",
+      "excerpt": "a 12\" deep surface ponding area.",
+      "page_or_section": "Chapter 3.4.5 Filtering (page 121)"
+    },
+    {
+      "field": "design_parameters.length_to_width_ratio",
+      "excerpt": "Flowpaths of 1.5:1 (length relative to width) and irregular shapes are recommended.",
+      "page_or_section": "Section 3.1.4 Pond Treatment Criteria (page 92)"
+    },
+    {
+      "field": "design_parameters.wqv_depth_inches",
+      "excerpt": "P= rainfall depth in inches and is equal to 1.0\" in the Eastern Rainfall Zone and 0.9\" in the Western Rainfall Zone",
+      "page_or_section": "Table 2.1, Chapter 2 (page 39)"
     }
   ],
   "extraction_quality": {
@@ -97,5 +137,49 @@
     "landing_page_url": "https://mde.maryland.gov/programs/water/stormwatermanagementprogram/pages/stormwater_design.aspx",
     "retrieved_at": "2026-08-07T10:44:00.000Z",
     "original_filename": "md-swm-volume-1.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": null,
+    "max_drawdown_hours": 24,
+    "shwt_separation_inches": 48,
+    "bioretention_media_depth_min_inches": 30,
+    "bioretention_ponding_depth_inches": 12,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": null,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": 24,
+    "length_to_width_ratio": 1.5,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "bioretention",
+      "constructed_wetland",
+      "extended_detention",
+      "infiltration_basin",
+      "infiltration_trench",
+      "sand_filter",
+      "swale",
+      "wet_pond"
+    ],
+    "enriched_at": "2026-08-13T09:07:22.073Z",
+    "enrich_model": "composer-2.5:run-378c926d-4065-4b00-a279-303cdf84a659",
+    "enrich_notes": "WQv rainfall P is zone-specific (1.0 in Eastern Rainfall Zone, 0.9 in Western); no single wqv_depth_inches reported. SHWT separation also stated as 24 in (2 ft) on lower Eastern Shore for micro-bioretention and enhanced filters. Cpv extended detention is 12 h in USE III and IV watersheds vs 24 h elsewhere. F-6 filter drain times: 1.67 days (sand), 2.0 days (bioretention)—not converted to hours here. Infiltration BMPs (I-1, I-2) require WQv to infiltrate over a two-day period (48 h) but not mapped to max_drawdown_hours without inference.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "wqv_depth_inches",
+      "permeable_pavement_storage_depth_inches",
+      "design_infiltration_rate_in_per_hr",
+      "permanent_pool_depth_inches",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "swale_longitudinal_slope_percent",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

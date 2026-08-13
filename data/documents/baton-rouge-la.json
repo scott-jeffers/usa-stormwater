@@ -80,6 +80,61 @@
       "field": "design_criteria.approved_bmp_categories",
       "excerpt": "Site Clearing BMPs... Erosion Control BMPs... Sediment Control BMPs... BMPs to Control Water Runoff... Good Housekeeping Measures",
       "page_or_section": "Table of Contents, Chapter 3"
+    },
+    {
+      "field": "permeable_pavement_storage_depth_inches",
+      "excerpt": "The soil excavated for the four-feet of subsurface storage system was used as fill under the building.",
+      "page_or_section": "STORMWATER MANAGEMENT PLANNING PROCESS, page 30"
+    },
+    {
+      "field": "design_infiltration_rate_in_per_hr",
+      "excerpt": "pervious concrete which allows water to drain off the parking surface at a rate more rapid than any storm (up to 50 inches per hour)",
+      "page_or_section": "STORMWATER MANAGEMENT PLANNING PROCESS, page 30"
+    },
+    {
+      "field": "practice_mentions.extended_detention",
+      "excerpt": "Dry ponds, also known as detention ponds, are designed to hold water for a minimum time and then completely drain.",
+      "page_or_section": "CHAPTER 5 STORMWATER BMPs, Dry Pond, page 38"
+    },
+    {
+      "field": "practice_mentions.wet_pond",
+      "excerpt": "Wet ponds, also known as stormwater ponds or retention / detention ponds, are permanent bodies of water.",
+      "page_or_section": "CHAPTER 5 STORMWATER BMPs, Wet Pond, page 38"
+    },
+    {
+      "field": "practice_mentions.permeable_pavement",
+      "excerpt": "Pervious concrete was designed for all the parking spaces.",
+      "page_or_section": "STORMWATER MANAGEMENT PLANNING PROCESS, page 30"
+    },
+    {
+      "field": "practice_mentions.bioretention",
+      "excerpt": "Rain Gardens are depressed landscaped areas that detain and treat stormwater runoff.",
+      "page_or_section": "FILTRATION SYSTEMS, Rain Garden, page 49"
+    },
+    {
+      "field": "practice_mentions.swale",
+      "excerpt": "Bioswales act as filtration devices in place of typical swales.",
+      "page_or_section": "FILTRATION SYSTEMS, Bioswale, page 44"
+    },
+    {
+      "field": "practice_mentions.sand_filter",
+      "excerpt": "Sand Filter Basins are designed as a two chambered device with the first chamber designed for the settlement of large particles",
+      "page_or_section": "FILTRATION SYSTEMS, Sand Filter Basin, page 47"
+    },
+    {
+      "field": "practice_mentions.constructed_wetland",
+      "excerpt": "Constructed wetlands provide for a progressive cleaning of stormwater before it drains into surface water.",
+      "page_or_section": "FILTRATION SYSTEMS, Water Quality Wetlands, page 49"
+    },
+    {
+      "field": "practice_mentions.green_roof",
+      "excerpt": "Green roofs are designed to intercept rainwater that falls on a roof, allowing plants to filter and uptake the water.",
+      "page_or_section": "FILTRATION SYSTEMS, Green Roof, page 50"
+    },
+    {
+      "field": "practice_mentions.manufactured_treatment",
+      "excerpt": "Catch Basin Inserts are manufactured devices used to capture settlement and debris from stormwater before flowing through the system.",
+      "page_or_section": "FILTRATION SYSTEMS, Catch Basin Insert, page 48"
     }
   ],
   "extraction_quality": {
@@ -99,5 +154,55 @@
     "landing_page_url": "https://www.brla.gov/2693/Environmental-Landscape",
     "retrieved_at": "2026-08-08T10:20:00.000Z",
     "original_filename": "baton-rouge-la.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": null,
+    "max_drawdown_hours": null,
+    "shwt_separation_inches": null,
+    "bioretention_media_depth_min_inches": null,
+    "bioretention_ponding_depth_inches": null,
+    "permeable_pavement_storage_depth_inches": 48,
+    "design_infiltration_rate_in_per_hr": 50,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": null,
+    "length_to_width_ratio": null,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "bioretention",
+      "constructed_wetland",
+      "extended_detention",
+      "green_roof",
+      "infiltration_basin",
+      "manufactured_treatment",
+      "permeable_pavement",
+      "sand_filter",
+      "swale",
+      "wet_pond"
+    ],
+    "enriched_at": "2026-08-13T07:32:56.898Z",
+    "enrich_model": "composer-2.5:run-f37fb2d5-70b5-4348-a4c3-974930aad68a",
+    "enrich_notes": "Manual is planning/BMP overview (July 2007); requires pre-development runoff for a minimum ten-year design storm but does not define WQV depth or hydrologic method. Stormwater planters specify 18 in sandy loam topsoil and 4–12 in reservoir depth (planter, not mapped to single bioretention fields). Water Quality Wetland diagram labels open water 3–7 ft, deep marsh 1.5–3 ft, shallow marsh 0.5–1.5 ft, wet meadow 0–6 in (ecological zones, not a single wet-pond design depth). Pervious paving aggregate sub-base noted as 40% void space; no required SHWT separation or drawdown hours stated numerically.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "wqv_depth_inches",
+      "max_drawdown_hours",
+      "shwt_separation_inches",
+      "bioretention_media_depth_min_inches",
+      "bioretention_ponding_depth_inches",
+      "permanent_pool_depth_inches",
+      "ed_drain_time_hours",
+      "length_to_width_ratio",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "swale_longitudinal_slope_percent",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

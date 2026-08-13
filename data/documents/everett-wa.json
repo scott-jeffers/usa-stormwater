@@ -46,6 +46,41 @@
       "field": "document_metadata.relationship_to_state_manual",
       "excerpt": "adopts_state_manual_directly — Ecology SWMMWW 2024",
       "page_or_section": "Coverage note"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "Document that the maximum ponded depth from the infiltration BMP can infiltrate through the infiltration BMP surface within 48 hours.",
+      "page_or_section": "Volume V - Chapter 5 - Page 823"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "In most cases, UIC wells are designed to completely drain ponded runoff within 48 to 72 hours after flow to the UIC well has stopped.",
+      "page_or_section": "Volume I - Chapter 4 - Page 166"
+    },
+    {
+      "field": "design_parameters.shwt_separation_inches",
+      "excerpt": "The base of BMP T7.10: Infiltration Ponds or BMP T7.20: Infiltration Trenches shall be ≥ 5 feet above the seasonal high-water mark, bedrock (or hardpan) or other low permeability layer.",
+      "page_or_section": "Volume V - Chapter 5 - Page 823"
+    },
+    {
+      "field": "design_parameters.shwt_separation_inches",
+      "excerpt": "A 5-foot separation between the bottom of the well and the top of the groundwater is required, unless a demonstrative approach confirms that a separation of 3 feet will meet the nonendangerment standard.",
+      "page_or_section": "Volume I - Chapter 4 - Page 166"
+    },
+    {
+      "field": "design_parameters.bioretention_media_depth_min_inches",
+      "excerpt": "The \"Default\" and \"Custom\" BSM depth must be 18 inches to provide Runoff Treatment and good growing conditions for selected plants.",
+      "page_or_section": "Volume V - Chapter 5 - Page 921"
+    },
+    {
+      "field": "design_parameters.design_infiltration_rate_in_per_hr",
+      "excerpt": "Appropriate field testing indicates soils have a measured (a.k.a. initial) native soil saturated hydraulic conductivity (Ksat) less than 0.3 inches per hour.",
+      "page_or_section": "Volume V - Chapter 5 - Page 835"
+    },
+    {
+      "field": "practice_mentions.bioretention",
+      "excerpt": "runoff from these types of landscaped areas should be directed to bioretention, biofiltration, or constructed wetland BMPs prior to discharge to UIC wells.",
+      "page_or_section": "Volume I - Chapter 4 - Page 171"
     }
   ],
   "extraction_quality": {
@@ -61,5 +96,52 @@
     "landing_page_url": "https://www.everettwa.gov/",
     "retrieved_at": "2026-08-10T10:02:27.846Z",
     "original_filename": "everett-wa.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": null,
+    "max_drawdown_hours": 48,
+    "shwt_separation_inches": 60,
+    "bioretention_media_depth_min_inches": 18,
+    "bioretention_ponding_depth_inches": null,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": null,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": null,
+    "length_to_width_ratio": null,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "bioretention",
+      "constructed_wetland",
+      "green_roof",
+      "infiltration_basin",
+      "infiltration_trench",
+      "permeable_pavement",
+      "swale",
+      "wet_pond"
+    ],
+    "enriched_at": "2026-08-13T08:12:10.259Z",
+    "enrich_model": "composer-2.5:run-b6dcfcfc-48be-4641-81c6-b4787f7abfa9",
+    "enrich_notes": "Corpus is SWMMWW (Ecology 2024) via Everett adoption; UIC drawdown cited as 48–72 hr while infiltration BMPs require 48 hr ponded drawdown. SHWT separation varies by BMP (e.g. 12 in permeable pavement gravel base, 36 in larger bioretention, 60 in general infiltration/UIC presumptive); 60 in reflects repeated 5 ft minimum above seasonal high groundwater for infiltration ponds/trenches and UIC. Native-soil thresholds include 0.3 in/hr infeasibility and long-term design up to 3 in/hr; BSM design Ksat 12 in/hr is bioretention-specific. Permeable pavement cites 6 in and 12 in sand treatment layers, not aggregate storage depth. Wet pond excerpt gives >8 ft as max depth concern, not permanent pool design depth.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "wqv_depth_inches",
+      "bioretention_ponding_depth_inches",
+      "permeable_pavement_storage_depth_inches",
+      "design_infiltration_rate_in_per_hr",
+      "permanent_pool_depth_inches",
+      "ed_drain_time_hours",
+      "length_to_width_ratio",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "swale_longitudinal_slope_percent",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

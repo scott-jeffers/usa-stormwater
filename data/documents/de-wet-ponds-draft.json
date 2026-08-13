@@ -90,6 +90,51 @@
       "field": "design_criteria.approved_bmp_categories",
       "excerpt": "Design variants include: 13-A Wet Quantity Management Pond; 13-B Wet Extended Detention (ED) Pond",
       "page_or_section": "Section 13.0"
+    },
+    {
+      "field": "design_parameters.ed_drain_time_hours",
+      "excerpt": "a Wet ED Pond must provide 48 hours extended detention for the RPv runoff volume",
+      "page_or_section": "13.6 / page 11"
+    },
+    {
+      "field": "design_parameters.ed_drain_time_hours",
+      "excerpt": "Wet ED Ponds that provide 48-hour detention receive full credit",
+      "page_or_section": "13.1 / page 3"
+    },
+    {
+      "field": "design_parameters.permanent_pool_depth_inches",
+      "excerpt": "Minimum depth = 4'; maximum depth = 8'",
+      "page_or_section": "13.6 Table 13.2 / page 5"
+    },
+    {
+      "field": "design_parameters.permanent_pool_depth_inches",
+      "excerpt": "The minimum depth to prevent the permanent pool area from being overtaken by undesirable vegetation is 4 feet",
+      "page_or_section": "13.6 / page 12"
+    },
+    {
+      "field": "design_parameters.length_to_width_ratio",
+      "excerpt": "The forebay should have a length to width ratio of 2:1 or greater",
+      "page_or_section": "13.5 / page 10"
+    },
+    {
+      "field": "design_parameters.length_to_width_ratio",
+      "excerpt": "The total length of the flow path ... should be a minimum ratio of 2:1",
+      "page_or_section": "13.6 / page 12"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "a diameter capable of draining the Wet Pond within 24 hours",
+      "page_or_section": "13.6 / page 14"
+    },
+    {
+      "field": "design_parameters.shwt_separation_inches",
+      "excerpt": "the seasonal high groundwater table is two feet or more below the proposed Wet Pond invert",
+      "page_or_section": "13.3 / page 8"
+    },
+    {
+      "field": "design_parameters.design_infiltration_rate_in_per_hr",
+      "excerpt": "INF = Monthly infiltration loss (assume 7.2 @ 0.01 inch/hour)",
+      "page_or_section": "13.6 Equation 13.1 / page 11"
     }
   ],
   "extraction_quality": {
@@ -107,5 +152,43 @@
     "landing_page_url": "https://dnrec.delaware.gov/watershed-stewardship/sediment-stormwater/",
     "retrieved_at": "2026-08-08T10:16:22.022Z",
     "original_filename": "de-wet-ponds-draft.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": null,
+    "max_drawdown_hours": 24,
+    "shwt_separation_inches": 24,
+    "bioretention_media_depth_min_inches": null,
+    "bioretention_ponding_depth_inches": null,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": 0.01,
+    "permanent_pool_depth_inches": 48,
+    "ed_drain_time_hours": 48,
+    "length_to_width_ratio": 2,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "extended_detention",
+      "wet_pond"
+    ],
+    "enriched_at": "2026-08-13T08:04:21.359Z",
+    "enrich_model": "composer-2.5:run-0f8db6d9-7b4e-4fd9-9710-7bf9318b5cf0",
+    "enrich_notes": "DRAFT DE Chapter 13 wet ponds only; RPv/Cv/Fv numeric depths deferred to Delaware Sediment and Stormwater Regulations. Wet ED Pond requires 48-hr RPv detention. Permanent pool 4–8 ft (48–96 in). Forebay L:W ≥2:1; main pond flow-path L:W ≥2:1. Infiltration >1.0 in/hr at invert with SHWT ≥2 ft below invert triggers alternative BMP. Water balance uses 0.01 in/hr infiltration and 24 in minimum reservoir.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "wqv_depth_inches",
+      "bioretention_media_depth_min_inches",
+      "bioretention_ponding_depth_inches",
+      "permeable_pavement_storage_depth_inches",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "swale_longitudinal_slope_percent",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

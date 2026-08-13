@@ -66,6 +66,16 @@
       "field": "design_criteria.approved_bmp_categories",
       "excerpt": "Stormwater Detention / Stormwater Treatment Facilities",
       "page_or_section": "5608 / Section C"
+    },
+    {
+      "field": "design_parameters.wqv_depth_inches",
+      "excerpt": "WQv = P x Rv where P = 1.37 inches and Rv = 0.05 + 0.09(I)",
+      "page_or_section": "Page 67 / Appendix B.2.12 example (c0074)"
+    },
+    {
+      "field": "design_parameters.swale_longitudinal_slope_percent",
+      "excerpt": "Natural conveyance swales shall have an average minimum longitudinal slope of 2% measured from the beginning of the swale to the discharge point",
+      "page_or_section": "Section II.B.2.c.v, Page 10 (c0030)"
     }
   ],
   "extraction_quality": {
@@ -85,5 +95,53 @@
     "landing_page_url": "https://www.opkansas.org/",
     "retrieved_at": "2026-08-10T08:48:28.515Z",
     "original_filename": "overland-park-ks.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": 1.37,
+    "max_drawdown_hours": null,
+    "shwt_separation_inches": null,
+    "bioretention_media_depth_min_inches": null,
+    "bioretention_ponding_depth_inches": null,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": null,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": null,
+    "length_to_width_ratio": null,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": 2,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "bioretention",
+      "constructed_wetland",
+      "extended_detention",
+      "infiltration_basin",
+      "infiltration_trench",
+      "sand_filter",
+      "swale",
+      "wet_pond"
+    ],
+    "enriched_at": "2026-08-13T09:36:12.908Z",
+    "enrich_model": "composer-2.5:run-d6b161ce-7c87-41a3-84e0-85f4bc90a7c7",
+    "enrich_notes": "Volume I adopts KC-APWA Section 5600 (conveyance/detention) and the October 2012 MARC/APWA BMP Manual for stormwater treatment by reference; most numeric BMP criteria are not restated in city amendments. City text adds setbacks (e.g., 20 ft from WQv pool to residential structures for infiltration facilities), rain-garden drainage area limit of 1 acre, natural conveyance swale sizing (10% storm, 2% min slope, 6 ft/s max velocity), and detention release-rate policy. Appendix dog-kennel example cites BMP Manual WQv with P = 1.37 in and infiltration trench retention time 48–72 h in example equations only.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "max_drawdown_hours",
+      "shwt_separation_inches",
+      "bioretention_media_depth_min_inches",
+      "bioretention_ponding_depth_inches",
+      "permeable_pavement_storage_depth_inches",
+      "design_infiltration_rate_in_per_hr",
+      "permanent_pool_depth_inches",
+      "ed_drain_time_hours",
+      "length_to_width_ratio",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

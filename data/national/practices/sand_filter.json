@@ -1,0 +1,129 @@
+{
+  "version": 1,
+  "practice_key": "sand_filter",
+  "practice_label": "Sand Filter",
+  "generated_at": "2026-08-13T10:43:41.480Z",
+  "model": "composer-2.5:run-a6e80882-948a-4131-bd23-27275278efcb",
+  "editorial_status": "draft",
+  "national_baseline": "Among Tier A manuals that mention sand filters, numeric guidance is often tied to site-wide water-quality volume (WQv), drawdown, and seasonal high water table (SHWT) separation rather than sand-bed thickness or underdrain details stated uniformly for the practice. Where WQV depth is specified (n=30), the mode is 1 inch with a median of 1 inch and a range of 0.37–1.61 inches—typical of temperate jurisdictions using roughly 1 inch of runoff capture for sizing context. Maximum ponding or facility drawdown limits appear in 36 manuals with a mode of 72 hours, median 48 hours, and range 4–120 hours; 48- and 72-hour values are common in eastern and midwestern sources, while shorter limits (e.g., 24–30 hours) show up in several western and some eastern programs. SHWT separation (n=36) has a mode of 24 inches, median 36 inches, and range 12–120 inches, reflecting wide geologic and programmatic variation rather than a single national sand-filter invert rule. Sand filter is referenced in 46 of 76 scanned Tier A manuals; extracted numerics describe jurisdiction sizing context, not a consolidated national sand-filter cross-section standard.",
+  "regional_modifiers": [
+    {
+      "id": "cold_climate",
+      "title": "Cold climate and frost",
+      "text": "Northern and mountain jurisdictions often pair sand-filter discussion with longer drawdown allowances or moderate SHWT separations. Examples in the matrix include Minnesota (WQv 1.25 inches, drawdown 48 hours, SHWT 36 inches), Maine (WQv 1 inch, drawdown 48 hours, SHWT 12 inches), Montana (drawdown 72 hours, SHWT 36 or 12 inches depending on source), and Vermont (WQv 1 inch, drawdown 48 hours, SHWT 36 inches). These values sit within the overall ranges and do not establish a separate cold-climate numeric baseline for sand filter media depth.",
+      "states": [
+        "ME",
+        "MN",
+        "MT",
+        "VT"
+      ],
+      "citation_slugs": [
+        "maine-manual",
+        "minneapolis-mn",
+        "mn-state-2008",
+        "billings-mt",
+        "mt-deq8",
+        "vt-state"
+      ]
+    },
+    {
+      "id": "coastal_high_shwt",
+      "title": "Coastal plains and high water table",
+      "text": "Where manuals specify relatively shallow SHWT separation, sand filters and infiltration-related practices are often constrained by clearance to groundwater. Matrix entries at 12 inches include Chesapeake, Virginia; Raleigh, North Carolina; Maine; Montana DEQ; and New Jersey (chapter proxy). Mid-Atlantic and Gulf examples also use 24–48 inches (e.g., Houston 48 inches, Maryland state 48 inches). These site-wide separations inform feasibility and invert setting; they are not practice-specific filter bed depths.",
+      "states": [
+        "VA",
+        "NC",
+        "ME",
+        "MT",
+        "NJ",
+        "TX",
+        "MD"
+      ],
+      "citation_slugs": [
+        "chesapeake-va",
+        "raleigh-nc",
+        "maine-manual",
+        "mt-deq8",
+        "nj-state",
+        "houston-tx",
+        "md-state"
+      ]
+    },
+    {
+      "id": "karst",
+      "title": "Karst and sensitive groundwater",
+      "text": "Karst-related guidance in the matrix is sparse for sand filter as a distinct practice. Texas Edwards RG-348 lists SHWT separation of 48 inches among site-wide parameters where sand filter may be discussed alongside other BMPs. A karst-specific numeric baseline for sand filter design is not yet established from Tier A extractions alone.",
+      "states": [
+        "TX"
+      ],
+      "citation_slugs": [
+        "tx-edwards-rg348"
+      ]
+    },
+    {
+      "id": "arid",
+      "title": "Arid and semi-arid",
+      "text": "Arid jurisdictions show wider spread on WQV depth and drawdown. Las Vegas lists WQV 0.37 inches and drawdown 72 hours with SHWT 24 inches; Flagstaff uses WQV 1 inch, drawdown 24 hours; Albuquerque GSI specifies drawdown 96 hours and SHWT 36 inches. Denver (WQv 0.6 inches) and Los Angeles / Caltrans-related entries (72–96 hours drawdown) further illustrate low-rainfall sizing context rather than a unified arid sand-filter spec.",
+      "states": [
+        "NV",
+        "AZ",
+        "NM",
+        "CO",
+        "CA"
+      ],
+      "citation_slugs": [
+        "las-vegas-nv",
+        "flagstaff-az",
+        "albuquerque-nm-gsi",
+        "denver-co",
+        "los-angeles-ca",
+        "ca-casqa-municipal",
+        "ca-caltrans-construction"
+      ]
+    }
+  ],
+  "open_issues": "Nearly half of scanned Tier A manuals lack extracted values for each site-wide field (WQv depth missing in 45 of 76; drawdown and SHWT missing in 38 of 76), so consensus reflects mentioning jurisdictions, not full national coverage. Extracted numbers are labeled site-wide and may come from general BMP or pond chapters rather than sand-filter-specific sections—committee discussion should not treat them as adopted filter media depth, underdrain detail, or maintenance frequency. No matrix fields capture sand bed thickness, filtration rate, underdrain spacing, or pretreatment requirements; practice-specific numerics for sand filter are not yet established. Extreme drawdown values (e.g., 4 hours in Florida FSESCI Tier 1, 120 hours in Mississippi) and SHWT up to 120 inches (San Diego) widen ranges without clear tie to sand filter alone. Tier A-only scope excludes Tier B manuals that may contain additional sand filter detail.",
+  "matrix_summary": "For sand filter–mentioning Tier A manuals, WQV depth (n=30) modes at 1 inch (median 1, range 0.37–1.61); max drawdown hours (n=36) modes at 72 (median 48, range 4–120); SHWT separation (n=36) modes at 24 inches (median 36, range 12–120)—all as site-wide jurisdiction context, with substantial missing data across the 76-manual pool.",
+  "supporting_slugs": [
+    "ak-state",
+    "arkansas-manual",
+    "austin-tx-ecm",
+    "bellevue-wa",
+    "boise-id",
+    "boston-ma",
+    "ca-caltrans-construction",
+    "ca-casqa-municipal",
+    "chesapeake-va",
+    "columbus-oh",
+    "ct-state",
+    "dallas-tx",
+    "dc-guidebook",
+    "denver-co",
+    "ga-state",
+    "hawaii-dot-pcbmp",
+    "idaho-bmp-catalog",
+    "indiana-manual",
+    "kansas-city-marc-bmp",
+    "las-vegas-nv",
+    "los-angeles-ca",
+    "ma-state-draft",
+    "maine-manual",
+    "md-state",
+    "minneapolis-mn",
+    "missouri-manual",
+    "mn-state-2008",
+    "ms-state-vol2",
+    "ne-ndot-stf",
+    "nh-state",
+    "norfolk-va",
+    "ny-state",
+    "ohio-rainwater",
+    "philadelphia-pa",
+    "portland-or",
+    "raleigh-nc",
+    "ri-state",
+    "san-diego-ca",
+    "san-francisco-ca",
+    "seattle-wa"
+  ]
+}

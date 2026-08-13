@@ -83,6 +83,51 @@
       "field": "design_criteria.approved_bmp_categories",
       "excerpt": "Bioretention/BioInfiltration Area",
       "page_or_section": "Section 8.1"
+    },
+    {
+      "field": "max_drawdown_hours",
+      "excerpt": "Treatment measures should drain completely within 72 hours to effectively suppress mosquito production",
+      "page_or_section": "Chapter 10 / page 147"
+    },
+    {
+      "field": "max_drawdown_hours",
+      "excerpt": "so that the bioretention area empties over two days",
+      "page_or_section": "Section 8.1 / page 92"
+    },
+    {
+      "field": "shwt_separation_inches",
+      "excerpt": "If there is at least a 5-foot separation between the bottom of the facility and the seasonal high groundwater level",
+      "page_or_section": "Section 8.1 / page 96"
+    },
+    {
+      "field": "shwt_separation_inches",
+      "excerpt": "There should be at least a 10-foot separation between the bottom of the trench and the seasonal high groundwater level",
+      "page_or_section": "Section 8.4 / page 113"
+    },
+    {
+      "field": "bioretention_media_depth_min_inches",
+      "excerpt": "The BSM layer should be at least 18 inches deep.",
+      "page_or_section": "Section 8.1 / page 96"
+    },
+    {
+      "field": "design_infiltration_rate_in_per_hr",
+      "excerpt": "filters through the biotreatment soil at a rate of 5 inches per hour (the design surface loading rate for bioretention facilities)",
+      "page_or_section": "Section 7.1.3 / page 73"
+    },
+    {
+      "field": "design_infiltration_rate_in_per_hr",
+      "excerpt": "A long-term minimum percolation rate of 5 inches per hour is required",
+      "page_or_section": "Section 8.1 / page 96"
+    },
+    {
+      "field": "ed_drain_time_hours",
+      "excerpt": "detain the stormwater runoff from a water quality design storm for a minimum of 48 hours",
+      "page_or_section": "Glossary / page 9"
+    },
+    {
+      "field": "ed_drain_time_hours",
+      "excerpt": "sized to capture the required water quality volume over at least a 48-hour period",
+      "page_or_section": "Section 8.5 / page 116"
     }
   ],
   "extraction_quality": {
@@ -99,5 +144,52 @@
     "landing_page_url": "https://cleanwaterprogram.org/businesses/development/",
     "retrieved_at": "2026-08-10T08:34:54.567Z",
     "original_filename": "fremont-ca.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": null,
+    "max_drawdown_hours": 72,
+    "shwt_separation_inches": 60,
+    "bioretention_media_depth_min_inches": 18,
+    "bioretention_ponding_depth_inches": null,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": 5,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": 48,
+    "length_to_width_ratio": null,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "bioretention",
+      "constructed_wetland",
+      "extended_detention",
+      "green_roof",
+      "infiltration_trench",
+      "manufactured_treatment",
+      "permeable_pavement",
+      "sand_filter",
+      "swale",
+      "wet_pond"
+    ],
+    "enriched_at": "2026-08-13T08:22:18.160Z",
+    "enrich_model": "composer-2.5:run-1f038c9c-c6be-477c-bdc4-8d9872caaae0",
+    "enrich_notes": "WQv is volume-based (WEF/ASCE); bioretention ponding recommended 6–12 in (Ch 7); native soil min often 0.5 in/hr (trenches, pervious); infiltration trench SHWT min 10 ft (120 in); bioretention empties over two days (~48 h); glossary bioinfiltration references 1.6 in/hr in situ conductivity threshold.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "wqv_depth_inches",
+      "bioretention_ponding_depth_inches",
+      "permeable_pavement_storage_depth_inches",
+      "permanent_pool_depth_inches",
+      "length_to_width_ratio",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "swale_longitudinal_slope_percent",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

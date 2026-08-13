@@ -97,6 +97,51 @@
       "field": "design_criteria.approved_bmp_categories",
       "excerpt": "2.6 Water Quality Ponds; 2.7 Infiltration Trench; 2.8 Sand & Organic Filter; 2.9 Grass Filter; 3.0 Bioretention Area; 2.1 Reduction of Impervious Areas; 2.2 Low Impact Development; 2.3 Conservation Development",
       "page_or_section": "Chapter 2 Table of Contents"
+    },
+    {
+      "field": "design_parameters.wqv_depth_inches",
+      "excerpt": "P = 0.75 inch precipitation depth",
+      "page_or_section": "CHAPTER 2 Bioretention Design Checklist, page 83"
+    },
+    {
+      "field": "design_parameters.wqv_depth_inches",
+      "excerpt": "WQv (ac-ft) = C * 0.75 * A / 12 (Equation 1)",
+      "page_or_section": "CHAPTER 2 Water Quality Volume, pages 37 / 376"
+    },
+    {
+      "field": "design_parameters.shwt_separation_inches",
+      "excerpt": "leave at least 4 feet between the seasonal high-water table or bedrock and the trench bottom",
+      "page_or_section": "2.7 Infiltration Trench, page 51"
+    },
+    {
+      "field": "design_parameters.shwt_separation_inches",
+      "excerpt": "a minimum 4ft of separation required between the water table and the bioretention practice",
+      "page_or_section": "2.10 Bioretention, page 77"
+    },
+    {
+      "field": "design_parameters.bioretention_media_depth_min_inches",
+      "excerpt": "ds = planting soil depth (2.5 feet minimum)",
+      "page_or_section": "2.10 Bioretention Design Checklist, page 84"
+    },
+    {
+      "field": "design_parameters.length_to_width_ratio",
+      "excerpt": "minimum recommended width of the landscaped ponded area shall be 10 feet, with the length generally exceeding 2:1 (length:width)",
+      "page_or_section": "2.10 Bioretention, page 80"
+    },
+    {
+      "field": "design_parameters.ed_drain_time_hours",
+      "excerpt": "draw down the extended detention volume over a 48-hour period (dry ED); over a 24-hour period (wet ED)",
+      "page_or_section": "Dry/Wet Extended Detention Basin, pages 40–41 / 377–378"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "Ohio EPA requires ... minimum drawdown time of 40 hours (bioretention); drained over a 24-48 hour period (ponds)",
+      "page_or_section": "CHAPTER 2 ponds and bioretention, pages 37 / 79"
+    },
+    {
+      "field": "design_parameters.design_infiltration_rate_in_per_hr",
+      "excerpt": "Soil infiltration rates within the trench must be between 0.52 and 2.5 inches per hour",
+      "page_or_section": "2.7 Infiltration Trench, page 50"
     }
   ],
   "extraction_quality": {
@@ -114,5 +159,53 @@
     "landing_page_url": "https://epa.ohio.gov/divisions-and-offices/surface-water/guides-manuals/rainwater-and-land-development",
     "retrieved_at": "2026-08-07T12:55:00.000Z",
     "original_filename": "ohio-rainwater.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": 0.75,
+    "max_drawdown_hours": null,
+    "shwt_separation_inches": 48,
+    "bioretention_media_depth_min_inches": 30,
+    "bioretention_ponding_depth_inches": null,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": null,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": null,
+    "length_to_width_ratio": 2,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "bioretention",
+      "constructed_wetland",
+      "extended_detention",
+      "green_roof",
+      "infiltration_basin",
+      "infiltration_trench",
+      "permeable_pavement",
+      "sand_filter",
+      "swale",
+      "wet_pond"
+    ],
+    "enriched_at": "2026-08-13T09:32:16.147Z",
+    "enrich_model": "composer-2.5:run-1a454c51-3425-40b5-9d5a-312abedf78bb",
+    "enrich_notes": "WQv uses 0.75 in precipitation depth (Equation 1 / checklist P=0.75 inch). OCR in source often replaces digits with placeholder characters; values above follow clear manual intent (e.g. 48 hr dry ED, 24 hr wet ED, 40 hr bioretention min drawdown). Infiltration trench soils must be 0.52–2.5 in/hr (range, no single design rate). Permanent pool mean depth 3–6 ft (wet ED) and wetland pool 6–18 in general range are not reduced to one scalar.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "max_drawdown_hours",
+      "bioretention_ponding_depth_inches",
+      "permeable_pavement_storage_depth_inches",
+      "design_infiltration_rate_in_per_hr",
+      "permanent_pool_depth_inches",
+      "ed_drain_time_hours",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "swale_longitudinal_slope_percent",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

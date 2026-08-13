@@ -82,6 +82,21 @@
       "field": "design_criteria.approved_bmp_categories",
       "excerpt": "The reduction of peak flows can be achieved by the storage of runoff in detention basins, storm drainage pipes, swales and channels and other detention storage facilities.",
       "page_or_section": "Section 10.4.9, Page 10.4-4"
+    },
+    {
+      "field": "practice_mentions.extended_detention",
+      "excerpt": "The reduction of peak flows can be achieved by the storage of runoff in detention basins, storm drainage pipes, swales and channels and other detention storage facilities.",
+      "page_or_section": "10.4.9 Detention Storage, page 18"
+    },
+    {
+      "field": "practice_mentions.swale",
+      "excerpt": "The reduction of peak flows can be achieved by the storage of runoff in detention basins, storm drainage pipes, swales and channels and other detention storage facilities.",
+      "page_or_section": "10.4.9 Detention Storage, page 18"
+    },
+    {
+      "field": "enrich_notes",
+      "excerpt": "HEC-22 (2), Chapter 10 provides an introduction to the types of BMPs that have been historically used to provide water quality benefits.",
+      "page_or_section": "10.6.3 Inverted Siphons, page 22"
     }
   ],
   "extraction_quality": {
@@ -99,5 +114,49 @@
     "landing_page_url": "https://oklahoma.gov/odot/business-center/pre-construction-design/roadway-design/support-units/oklahoma-roadway-drainage-manual.html",
     "retrieved_at": "2026-08-08T01:30:00.000Z",
     "original_filename": "oklahoma-odot-ch10.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": null,
+    "max_drawdown_hours": null,
+    "shwt_separation_inches": null,
+    "bioretention_media_depth_min_inches": null,
+    "bioretention_ponding_depth_inches": null,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": null,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": null,
+    "length_to_width_ratio": null,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "extended_detention",
+      "swale"
+    ],
+    "enriched_at": "2026-08-13T09:32:46.689Z",
+    "enrich_model": "composer-2.5:run-edad79f4-6c0a-4d2e-ad0e-40546896452a",
+    "enrich_notes": "Chapter 10 covers storm drain hydrology (Rational Method, max 640 acres), inlet spacing, pipe sizing, and HGL per HEC-22; peak-flow detention may use basins, pipe storage, swales, and channels (Section 10.4.9) with detail in Chapter 12. Water-quality BMP types are referenced via FHWA HEC-22 Chapter 10 only; no WQV depth or SCM sizing parameters appear in the provided excerpts.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "wqv_depth_inches",
+      "max_drawdown_hours",
+      "shwt_separation_inches",
+      "bioretention_media_depth_min_inches",
+      "bioretention_ponding_depth_inches",
+      "permeable_pavement_storage_depth_inches",
+      "design_infiltration_rate_in_per_hr",
+      "permanent_pool_depth_inches",
+      "ed_drain_time_hours",
+      "length_to_width_ratio",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "swale_longitudinal_slope_percent",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

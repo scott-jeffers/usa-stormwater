@@ -65,6 +65,26 @@
       "field": "design_criteria.approved_bmp_categories",
       "excerpt": "Stormwater Storage and Detention",
       "page_or_section": "Section 3.9"
+    },
+    {
+      "field": "design_parameters.swale_longitudinal_slope_percent",
+      "excerpt": "The bottom of the basin shall have a minimum grade of 1%, although swales may have minimum grades of 0.5%.",
+      "page_or_section": "Section 3.9.2 Pond and Spillway Geometry, page 3-26 (page 64)"
+    },
+    {
+      "field": "practice_mentions.extended_detention",
+      "excerpt": "Dry detention basins are sized to temporarily store the volume of runoff required to provide flood protection up to the flood mitigation storm, if required.",
+      "page_or_section": "Section 3.9.2, page 3-26 (page 64)"
+    },
+    {
+      "field": "practice_mentions.swale",
+      "excerpt": "The Engineer may utilize swales to redirect flows.",
+      "page_or_section": "Section 1.5.3 Site Grading Plans, page 1-11 (page 23)"
+    },
+    {
+      "field": "practice_mentions.wet_pond",
+      "excerpt": "Easements for stormwater controls, including detention basins, sediment traps, and retention ponds, shall be negotiated between the City and the developer",
+      "page_or_section": "Section 1.5.3 Other Stormwater Facilities, page 1-13 (page 25)"
     }
   ],
   "extraction_quality": {
@@ -84,5 +104,49 @@
     "landing_page_url": "https://www.plano.gov/",
     "retrieved_at": "2026-08-10T08:03:22.623Z",
     "original_filename": "plano-tx.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": null,
+    "max_drawdown_hours": null,
+    "shwt_separation_inches": null,
+    "bioretention_media_depth_min_inches": null,
+    "bioretention_ponding_depth_inches": null,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": null,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": null,
+    "length_to_width_ratio": null,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": 0.5,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "extended_detention",
+      "swale",
+      "wet_pond"
+    ],
+    "enriched_at": "2026-08-13T09:48:01.897Z",
+    "enrich_model": "composer-2.5:run-9f75b2d9-dd8b-4018-8068-16f51e94c798",
+    "enrich_notes": "Provided excerpts emphasize storm drainage, easements, inlets, channels, and dry detention pond geometry (Section 3.9.2). No explicit WQv runoff depth, infiltration rates, bioretention/permeable pavement/green roof specs, or manufactured-treatment verification programs appear. P2 is defined as 2-year 24-hour rainfall (4.1 in)—rainfall depth, not WQv treatment depth.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "wqv_depth_inches",
+      "max_drawdown_hours",
+      "shwt_separation_inches",
+      "bioretention_media_depth_min_inches",
+      "bioretention_ponding_depth_inches",
+      "permeable_pavement_storage_depth_inches",
+      "design_infiltration_rate_in_per_hr",
+      "permanent_pool_depth_inches",
+      "ed_drain_time_hours",
+      "length_to_width_ratio",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

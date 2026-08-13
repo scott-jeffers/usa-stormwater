@@ -28,6 +28,41 @@
       "field": "document_metadata.jurisdiction_name",
       "excerpt": "City of Pierre — partial coverage via SDDOT ESC/stormwater course manual (city design PDF 403)",
       "page_or_section": "Coverage note"
+    },
+    {
+      "field": "practice_mentions.swale",
+      "excerpt": "they improve the efficiency of other sediment controls, such as vegetated swales, filter strips, or infiltration devices",
+      "page_or_section": "page 16, Slope Flow Control/Stormwater Runoff Management"
+    },
+    {
+      "field": "practice_mentions.swale",
+      "excerpt": "Check Dams – are small dams constructed in an open channel, swale, or ditch.",
+      "page_or_section": "page 17, Channel Velocity Control"
+    },
+    {
+      "field": "practice_mentions.swale",
+      "excerpt": "structural stormwater management practices such as stormwater ponds, open vegetated swales, natural depressions to allow infiltration of runoff onsite",
+      "page_or_section": "page 95, 5.3 SWPPP Contents – Post-Construction Stormwater Management"
+    },
+    {
+      "field": "practice_mentions.wet_pond",
+      "excerpt": "A diversion ditch is constructed to divert the stormwater runoff away from a slope or active construction area and into a stabilized outlet or a sediment trap or pond.",
+      "page_or_section": "page 16"
+    },
+    {
+      "field": "practice_mentions.wet_pond",
+      "excerpt": "structural stormwater management practices such as stormwater ponds, open vegetated swales",
+      "page_or_section": "page 95, Post-Construction Stormwater Management"
+    },
+    {
+      "field": "practice_mentions.infiltration_basin",
+      "excerpt": "vegetated swales, filter strips, or infiltration devices, which depend on sheet flow to operate properly",
+      "page_or_section": "page 16, Level Spreader"
+    },
+    {
+      "field": "practice_mentions.infiltration_basin",
+      "excerpt": "natural depressions to allow infiltration of runoff onsite",
+      "page_or_section": "page 95, Post-Construction Stormwater Management"
     }
   ],
   "extraction_quality": {
@@ -43,5 +78,50 @@
     "landing_page_url": "https://danr.sd.gov/",
     "retrieved_at": "2026-08-10T10:35:05.250Z",
     "original_filename": "pierre-sd.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": null,
+    "max_drawdown_hours": null,
+    "shwt_separation_inches": null,
+    "bioretention_media_depth_min_inches": null,
+    "bioretention_ponding_depth_inches": null,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": null,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": null,
+    "length_to_width_ratio": null,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "infiltration_basin",
+      "swale",
+      "wet_pond"
+    ],
+    "enriched_at": "2026-08-13T09:46:34.505Z",
+    "enrich_model": "composer-2.5:run-e4658f2d-c0cb-422c-95df-e34e9efc12b9",
+    "enrich_notes": "SDDOT/DANR construction ESC and SWPPP course material tied to the South Dakota construction general permit. Excerpts cover erosion/sediment BMPs, SWPPP, inspection, dewatering (53 mg/L TSS limit), and post-construction narrative (ponds, vegetated swales, onsite infiltration) without numeric SCM sizing, WQv depth, drawdown, or media dimensions.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "wqv_depth_inches",
+      "max_drawdown_hours",
+      "shwt_separation_inches",
+      "bioretention_media_depth_min_inches",
+      "bioretention_ponding_depth_inches",
+      "permeable_pavement_storage_depth_inches",
+      "design_infiltration_rate_in_per_hr",
+      "permanent_pool_depth_inches",
+      "ed_drain_time_hours",
+      "length_to_width_ratio",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "swale_longitudinal_slope_percent",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

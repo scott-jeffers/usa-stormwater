@@ -129,6 +129,51 @@
       "field": "design_criteria.approved_bmp_categories",
       "excerpt": "Manufactured Stormwater Treatment Systems: These systems are recommended for use in commercial and industrial developments.",
       "page_or_section": "Additional Criteria"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "Infiltration devices must be able to completely dewater within 5 days.",
+      "page_or_section": "Chapter 4 Infiltration, page 106 (4-75)"
+    },
+    {
+      "field": "design_parameters.shwt_separation_inches",
+      "excerpt": "bioretention areas require a minimum depth to groundwater of 2 feet",
+      "page_or_section": "Introduction, page 13 (1-8)"
+    },
+    {
+      "field": "design_parameters.shwt_separation_inches",
+      "excerpt": "provide significant separation distance (2 to 5 feet) from the bottom of the infiltration basin and the seasonally high groundwater table",
+      "page_or_section": "Chapter 4 Infiltration Basin, page 106 (4-75)"
+    },
+    {
+      "field": "design_parameters.shwt_separation_inches",
+      "excerpt": "the seasonal high water table must be at least 2 ft below the base of the permeable pavement or gravel storage layer",
+      "page_or_section": "PICP Design Criteria, page 115 (4-84)"
+    },
+    {
+      "field": "design_parameters.shwt_separation_inches",
+      "excerpt": "Basin floor should be at least three feet above the seasonal high groundwater table elevation",
+      "page_or_section": "Additional Criteria Dry Retention, page 196 (4-165)"
+    },
+    {
+      "field": "design_parameters.design_infiltration_rate_in_per_hr",
+      "excerpt": "underlying soils must have an infiltration rate of 0.52 inch per hour or greater",
+      "page_or_section": "Infiltration Trench, page 110 (4-79)"
+    },
+    {
+      "field": "design_parameters.length_to_width_ratio",
+      "excerpt": "Average flow path through the basin should have a length-to-width ratio of at least 3:1",
+      "page_or_section": "Additional Criteria Dry Retention, page 196 (4-165)"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "Water must then drain to a level 24 inches below the surface of the cell within 48 hours (maximum)",
+      "page_or_section": "Bioretention Drainage Considerations, page 138 (4-107)"
+    },
+    {
+      "field": "design_parameters.design_infiltration_rate_in_per_hr",
+      "excerpt": "If in situ soil permeability is less than 2 inches/hour, the bioretention facility will likely have an underdrain system",
+      "page_or_section": "Bioretention Step 6, page 138 (4-107)"
     }
   ],
   "extraction_quality": {
@@ -145,5 +190,53 @@
     "landing_page_url": "https://www.mdeq.ms.gov/water/surface-water/nonpoint-source-pollution-program/stormwater-runoff-management-manual/",
     "retrieved_at": "2026-08-08T10:20:00.000Z",
     "original_filename": "ms-state-vol2.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": null,
+    "max_drawdown_hours": 120,
+    "shwt_separation_inches": 24,
+    "bioretention_media_depth_min_inches": null,
+    "bioretention_ponding_depth_inches": null,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": 0.52,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": null,
+    "length_to_width_ratio": 3,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "bioretention",
+      "constructed_wetland",
+      "extended_detention",
+      "green_roof",
+      "infiltration_basin",
+      "infiltration_trench",
+      "permeable_pavement",
+      "sand_filter",
+      "swale",
+      "wet_pond"
+    ],
+    "enriched_at": "2026-08-13T09:17:21.213Z",
+    "enrich_model": "composer-2.5:run-90d89601-1a91-424c-99b8-8f9ee34cc584",
+    "enrich_notes": "MS Vol. 2 (NC 2007 adaptation). Treatment volumes are BMP-specific in Additional Criteria (e.g., dry retention: first 1.0 in runoff or 2.5 in from impervious; wet detention per atlas context not fully in excerpt). SHWT separation often stated as 2–5 ft for infiltration; 2 ft minimum cited for bioretention GW; dry retention basin floor ≥3 ft above SHWT (36 in). Bioretention: max 12 h surface ponding; ponded volume must drain so water is 24 in below surface within 48 h max. Grassed channel WQ sizing uses ~10 min travel time (flow-based, not volume). PICP/pervious: SHWT ≥2 ft below storage/base; slopes >2% need extra design; long-term surface infiltration cited >1 in/hr when clogged. Infiltration soils must be ≥0.52 in/hr (field verified). Green roof: slopes >20° need support systems (degrees, not %).",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "wqv_depth_inches",
+      "bioretention_media_depth_min_inches",
+      "bioretention_ponding_depth_inches",
+      "permeable_pavement_storage_depth_inches",
+      "permanent_pool_depth_inches",
+      "ed_drain_time_hours",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "swale_longitudinal_slope_percent",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

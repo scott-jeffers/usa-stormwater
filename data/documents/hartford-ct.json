@@ -47,6 +47,51 @@
       "field": "design_criteria.water_quality_volume_method",
       "excerpt": "𝑊𝑊𝑊𝑊𝑊𝑊 = (𝑃𝑃)(𝑅𝑅)(𝐴𝐴) 12 where: WQV = water quality volume (cubic feet) P = 1.3 inches (90th percentile rainfall event) R = volumetric runoff coefficient = 0.05+0.009( I) I = post- development impervious area (percent) after application of non-structural LID site p",
       "page_or_section": "p. 53"
+    },
+    {
+      "field": "design_parameters.wqv_depth_inches",
+      "excerpt": "P = 1.3 inches (90th percentile rainfall event)",
+      "page_or_section": "Chapter 4, page 53"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "Bioretention system should completely drain in 48 hours or less after the end of the design storm",
+      "page_or_section": "Chapter 13 – Bioretention, page 320"
+    },
+    {
+      "field": "design_parameters.shwt_separation_inches",
+      "excerpt": "For infiltration systems, at least 3 feet of separation is recommended",
+      "page_or_section": "Chapter 10, page 194"
+    },
+    {
+      "field": "design_parameters.bioretention_media_depth_min_inches",
+      "excerpt": "Engineered bioretention soil media should have a depth of 24 to 48 inches",
+      "page_or_section": "Chapter 13 – Bioretention, page 320"
+    },
+    {
+      "field": "design_parameters.bioretention_ponding_depth_inches",
+      "excerpt": "Maximum for water quality storm: 12 inches",
+      "page_or_section": "Chapter 13 – Bioretention, page 320"
+    },
+    {
+      "field": "design_parameters.design_infiltration_rate_in_per_hr",
+      "excerpt": "design infiltration rate used for system sizing and drain time analysis should be equal to 50% of the slowest observed field infiltration rate of the underlying soils or 0.5 inches per hour",
+      "page_or_section": "Chapter 13 – Bioretention, page 320"
+    },
+    {
+      "field": "design_parameters.ed_drain_time_hours",
+      "excerpt": "The detention basin should completely drain within 48 hours after the end of a storm",
+      "page_or_section": "Chapter 13 – Dry Extended Detention Basin, page 467"
+    },
+    {
+      "field": "design_parameters.swale_bottom_width_inches",
+      "excerpt": "Bottom Width Minimum: 2 feet",
+      "page_or_section": "Chapter 13 – Wet Water Quality Swale, page 421"
+    },
+    {
+      "field": "design_parameters.green_roof_slope_percent",
+      "excerpt": "Green Roof Ground Slope Not Applicable (max 20% roof slope)",
+      "page_or_section": "Chapter 8, Table 8-3, page 140"
     }
   ],
   "extraction_quality": {
@@ -62,5 +107,49 @@
     "landing_page_url": "https://portal.ct.gov/DEEP/Water-Regulating-and-Discharges/Stormwater/Stormwater-Manual",
     "retrieved_at": "2026-08-10T09:54:53.524Z",
     "original_filename": "hartford-ct.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": 1.3,
+    "max_drawdown_hours": 48,
+    "shwt_separation_inches": 36,
+    "bioretention_media_depth_min_inches": 24,
+    "bioretention_ponding_depth_inches": 12,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": 0.5,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": 48,
+    "length_to_width_ratio": null,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": 24,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": 20,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "bioretention",
+      "constructed_wetland",
+      "extended_detention",
+      "green_roof",
+      "infiltration_basin",
+      "infiltration_trench",
+      "manufactured_treatment",
+      "permeable_pavement",
+      "sand_filter",
+      "swale",
+      "wet_pond"
+    ],
+    "enriched_at": "2026-08-13T08:32:24.185Z",
+    "enrich_model": "composer-2.5:run-edd0cd95-59e4-41f0-9660-3fe2523a7059",
+    "enrich_notes": "Connecticut Stormwater Quality Manual (2024); Hartford follows CT DEEP. WQV uses P=1.3 in (90th percentile), R=0.05+0.009(I). Infiltration suitability threshold 0.3 in/hr; bioretention sizing uses 0.5 in/hr media design rate or 50% field rate. SHGT separation: 3 ft (36 in) recommended for infiltration BMP bottoms; 1 ft above SHGT for unlined filtering systems; 2 ft reduction allowed in limited cases.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "permeable_pavement_storage_depth_inches",
+      "permanent_pool_depth_inches",
+      "length_to_width_ratio",
+      "wetland_detention_hours",
+      "swale_longitudinal_slope_percent",
+      "green_roof_media_depth_inches",
+      "mtd_verification_program"
+    ]
   }
 }

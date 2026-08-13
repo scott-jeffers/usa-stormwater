@@ -114,6 +114,41 @@
       "field": "design_criteria.approved_bmp_categories",
       "excerpt": "PROPRIETARY NON-LID TREATMENT CONTROL BMPs: Drain Inlet Filter, Modified Catch Basin, Oil and Grit Separator, Centrifugal Hydrodynamic Separator, Multi-Stage Hydrodynamic Separator",
       "page_or_section": "Appendix A, Page v"
+    },
+    {
+      "field": "design_parameters.wqv_depth_inches",
+      "excerpt": "P = Design Storm Runoff Depth (inches) = 1 inch",
+      "page_or_section": "7.3.1 Volume-Based Water Quality Control, page 56"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "Maximum drawdown time (t): 48 hours",
+      "page_or_section": "Infiltration Trench Design Criteria, A-22"
+    },
+    {
+      "field": "design_parameters.shwt_separation_inches",
+      "excerpt": "Maintain at least 3 feet clearance between the bottom of the infiltration trench and the seasonally high groundwater table",
+      "page_or_section": "Infiltration Trench, A-22"
+    },
+    {
+      "field": "design_parameters.bioretention_media_depth_min_inches",
+      "excerpt": "Planting media depth (dm): 2 to 4 feet (typical)",
+      "page_or_section": "Bioretention Facility Design Criteria, A-35"
+    },
+    {
+      "field": "design_parameters.bioretention_ponding_depth_inches",
+      "excerpt": "Maximum ponding depth (dp): 6 inches (typ.)",
+      "page_or_section": "Bioretention Facility Design Criteria, A-35"
+    },
+    {
+      "field": "design_parameters.permanent_pool_depth_inches",
+      "excerpt": "The maximum depth of the permanent pool should not exceed 8 feet (DOEE 2020).",
+      "page_or_section": "Wet Pond Design Criteria, A-67"
+    },
+    {
+      "field": "design_parameters.length_to_width_ratio",
+      "excerpt": "A flow path having a minimum length-to-width ratio of 1.5:1 shall be provided for wet ponds (DOEE 2020).",
+      "page_or_section": "Wet Pond Additional Design Parameters, A-68"
     }
   ],
   "extraction_quality": {
@@ -130,5 +165,50 @@
     "landing_page_url": "https://www.stormwaterhawaii.com/",
     "retrieved_at": "2026-08-08T01:05:00.000Z",
     "original_filename": "hawaii-dot-pcbmp.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": 1,
+    "max_drawdown_hours": 48,
+    "shwt_separation_inches": 36,
+    "bioretention_media_depth_min_inches": 24,
+    "bioretention_ponding_depth_inches": 6,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": null,
+    "permanent_pool_depth_inches": 96,
+    "ed_drain_time_hours": null,
+    "length_to_width_ratio": 1.5,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "bioretention",
+      "constructed_wetland",
+      "extended_detention",
+      "infiltration_basin",
+      "infiltration_trench",
+      "manufactured_treatment",
+      "permeable_pavement",
+      "sand_filter",
+      "swale",
+      "wet_pond"
+    ],
+    "enriched_at": "2026-08-13T08:33:01.558Z",
+    "enrich_model": "composer-2.5:run-b263bdbd-82a6-4f4f-a85a-276a89b01746",
+    "enrich_notes": "Volume sizing uses WQV = P × C × AT × 3630 with P = 1 inch (85th-percentile 24-hr runoff depth) and C = 0.95 for impervious highway surfaces when I = 100%. Infiltration BMPs use 48-hr maximum drawdown, FS = 2, and 3 ft minimum separation to seasonally high groundwater. Wet pond permanent pool volume equals full WQV; wet ED splits 50% permanent pool / 50% detention above pool. Pretreatment forebay commonly 10% WQV (25% for sand filter).",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "permeable_pavement_storage_depth_inches",
+      "design_infiltration_rate_in_per_hr",
+      "ed_drain_time_hours",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "swale_longitudinal_slope_percent",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

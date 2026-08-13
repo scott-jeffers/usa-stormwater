@@ -37,6 +37,56 @@
       "field": "design_criteria.water_quality_volume_method",
       "excerpt": "90th percentile storm of 1.2 inches",
       "page_or_section": "LFUCG Stormwater Manual"
+    },
+    {
+      "field": "design_parameters.wqv_depth_inches",
+      "excerpt": "The 90th percentile storm in Fayette County is 1.2 inches. The WQV is determined by multiplying 1.2 inches times the impervious area.",
+      "page_or_section": "10.2.2 / page 138"
+    },
+    {
+      "field": "design_parameters.wqv_depth_inches",
+      "excerpt": "Multiply 1.2 inches times the total impervious area (rooftops, parking lots, sidewalks, and driveways)",
+      "page_or_section": "1.7.3 / page 23"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "Drain Time: Maximum drain time (i.e., ponding) is 24 hours.",
+      "page_or_section": "10.3.2 Bioretention / page 140"
+    },
+    {
+      "field": "design_parameters.bioretention_media_depth_min_inches",
+      "excerpt": "Provide a planting soil bed with a minimum width of 4 feet and a minimum depth of 4 feet (including a 12-inch sand bed).",
+      "page_or_section": "10.3.2 Design Criteria / page 141"
+    },
+    {
+      "field": "design_parameters.bioretention_ponding_depth_inches",
+      "excerpt": "Grade the top of the planting soil bed to provide a shallow ponding area with a maximum depth of 6 inches.",
+      "page_or_section": "10.3.2 Design Criteria / page 141"
+    },
+    {
+      "field": "design_parameters.design_infiltration_rate_in_per_hr",
+      "excerpt": "An underdrain shall be provided if the underlying soils have an infiltration rate of less than 0.5 inches per hour.",
+      "page_or_section": "10.3.2 / page 140"
+    },
+    {
+      "field": "design_parameters.design_infiltration_rate_in_per_hr",
+      "excerpt": "Infiltration basins may be used in locations that have at least 5 feet of soil, with a permeability of at least 0.5 inches/hour underlying the device.",
+      "page_or_section": "10.3.5 Design Criteria / page 149"
+    },
+    {
+      "field": "design_parameters.ed_drain_time_hours",
+      "excerpt": "Design the extended detention outlet so that the \"design\" WQV requires a maximum of 24 hours to discharge.",
+      "page_or_section": "10.6.2 / page 166"
+    },
+    {
+      "field": "design_parameters.wetland_detention_hours",
+      "excerpt": "Design the extended detention outlet so that a maximum of 24 hours would be required to release the design WQV.",
+      "page_or_section": "10.9.2 / page 173"
+    },
+    {
+      "field": "design_parameters.green_roof_media_depth_inches",
+      "excerpt": "Vegetated Roofs Soil area x soil depth x 0.18. Maximum soil depth for calculation purposes shall be 12 inches.",
+      "page_or_section": "Table 1-7 / page 23"
     }
   ],
   "extraction_quality": {
@@ -50,5 +100,49 @@
     "landing_page_url": "https://www.lexingtonky.gov/government/departments-programs/environmental-quality-public-works/water-quality/municipal-separate-storm-sewer-system-ms4",
     "retrieved_at": "2026-08-10T10:18:37.456Z",
     "original_filename": "frankfort-ky.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": 1.2,
+    "max_drawdown_hours": 24,
+    "shwt_separation_inches": null,
+    "bioretention_media_depth_min_inches": 48,
+    "bioretention_ponding_depth_inches": 6,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": 0.5,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": 24,
+    "length_to_width_ratio": null,
+    "wetland_detention_hours": 24,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": 12,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "bioretention",
+      "constructed_wetland",
+      "extended_detention",
+      "green_roof",
+      "infiltration_basin",
+      "infiltration_trench",
+      "manufactured_treatment",
+      "permeable_pavement",
+      "swale",
+      "wet_pond"
+    ],
+    "enriched_at": "2026-08-13T08:21:28.369Z",
+    "enrich_model": "composer-2.5:run-fb1be22c-599b-406e-abd1-ee52eeddd265",
+    "enrich_notes": "Frankfort placeholder uses LFUCG (Lexington-Fayette) manual. WQV = 1.2 in × impervious area (90th percentile); runoff reduction credit 0.8 in × impervious. Underdrain required when native soil infiltration < 0.5 in/hr (most GI); tree trenches use < 2 in/hr. Bioretention planting bed min 4 ft depth (includes 12 in sand bed); ponding max 6 in; surface ponding drain max 24 h, full media drawdown max 3 days. Permeable pavement stone porosity 0.4; drain time per industry standard. Infiltration basins need ≥5 ft permeable soil at ≥0.5 in/hr above seasonal high water table (no numeric SHWT setback in inches). Wet pond L:W min 3:1; constructed wetland L:W min 2:1; bioretention L:W min 2:1 when width >10 ft.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "shwt_separation_inches",
+      "permeable_pavement_storage_depth_inches",
+      "permanent_pool_depth_inches",
+      "length_to_width_ratio",
+      "swale_bottom_width_inches",
+      "swale_longitudinal_slope_percent",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

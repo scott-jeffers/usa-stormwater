@@ -44,18 +44,128 @@
       "field": "design_criteria.water_quality_volume_method",
       "excerpt": "WQv is calculated as (P)(Rv)(A)/12, where P is the rainfall depth (1.0 inch ... 0.9 inch ...)",
       "page_or_section": "MD Design Manual Vol.1"
+    },
+    {
+      "field": "design_parameters.wqv_depth_inches",
+      "excerpt": "P= rainfall depth in inches and is equal to 1.0\" in the Eastern Rainfall Zone and 0.9\" in the Western Rainfall Zone",
+      "page_or_section": "Chapter 2, Table 2.1 / Section 2.0, page 39"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "ED 24 hour drawdown of the water quality volume",
+      "page_or_section": "Table 1.3 Symbols, page 36"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "The water quality requirement can be met by providing a 24 hour drawdown of a portion of the water quality volume (WQv)",
+      "page_or_section": "Chapter 2, Section 2.4, page 42"
+    },
+    {
+      "field": "design_parameters.ed_drain_time_hours",
+      "excerpt": "Extended Detention for Water Quality Volume: ... a 24 hour drawdown of a portion of the water quality volume (WQv)",
+      "page_or_section": "Chapter 2, Section 2.4, page 42"
+    },
+    {
+      "field": "design_parameters.shwt_separation_inches",
+      "excerpt": "filter bed inverts shall be separated at least four feet vertically (two feet on the lower Eastern shore) from the seasonal high water table",
+      "page_or_section": "Chapter 5, Micro-bioretention, page 245"
+    },
+    {
+      "field": "design_parameters.shwt_separation_inches",
+      "excerpt": "The invert of the stone reservoir shall be separated at least four feet (two feet on the lower Eastern Shore) from the seasonal high water table",
+      "page_or_section": "Chapter 5, Enhanced Filters, page 261"
+    },
+    {
+      "field": "design_parameters.bioretention_media_depth_min_inches",
+      "excerpt": "Bioretention systems (F-6) shall consist of the following treatment components: A 2½ to 4 foot deep planting soil bed",
+      "page_or_section": "Chapter 3, Section 3.4.5, page 121"
+    },
+    {
+      "field": "design_parameters.bioretention_media_depth_min_inches",
+      "excerpt": "Filter beds shall be between 24 and 48 inches deep",
+      "page_or_section": "Chapter 5, Micro-bioretention, page 245"
+    },
+    {
+      "field": "design_parameters.bioretention_ponding_depth_inches",
+      "excerpt": "a 12\" deep surface ponding area",
+      "page_or_section": "Chapter 3, Filtering Systems, page 121"
+    },
+    {
+      "field": "design_parameters.bioretention_ponding_depth_inches",
+      "excerpt": "Temporary storage of the ESDv may be provided above the facility with a surface ponding depth of 12 inches or less",
+      "page_or_section": "Chapter 5, Micro-bioretention, page 245"
+    },
+    {
+      "field": "design_parameters.length_to_width_ratio",
+      "excerpt": "Flowpaths of 1.5:1 (length relative to width) and irregular shapes are recommended",
+      "page_or_section": "Chapter 3, Section 3.1.4 Pond Treatment Criteria, page 92"
+    },
+    {
+      "field": "practice_mentions.extended_detention",
+      "excerpt": "Cpv = 24 hour (12 hour in USE III and IV watersheds) extended detention of post-developed one-year, 24 hour storm event",
+      "page_or_section": "Chapter 2, Table 2.1, page 39"
+    },
+    {
+      "field": "practice_mentions.infiltration_basin",
+      "excerpt": "I-2 infiltration basin ... capture and temporarily store the WQv before allowing it to infiltrate into the soil over a two day period",
+      "page_or_section": "Chapter 2, Section 2.7, page 76"
     }
   ],
   "extraction_quality": {
     "confidence": "medium",
     "needs_human_review": true,
-    "review_notes": "Municipality coverage via Maryland Stormwater Design Manual (Baltimore pattern).",
-    "fields_not_found": []
+    "review_notes": "Municipality coverage via Maryland Stormwater Design Manual (Baltimore pattern). Pipeline excerpt repair removed 1 unlocated citation(s).",
+    "fields_not_found": [
+      "design_parameters.wqv_depth_inches"
+    ]
   },
   "source": {
     "document_url": "https://mde.maryland.gov/programs/water/StormwaterManagementProgram/Documents/www.mde.state.md.us/assets/document/sedimentstormwater/MD%20SWM%20Volume%201.pdf",
     "landing_page_url": "https://mde.maryland.gov/programs/water/stormwatermanagementprogram/pages/stormwater_design.aspx",
     "retrieved_at": "2026-08-10T10:10:49.504Z",
     "original_filename": "annapolis-md.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": 1,
+    "max_drawdown_hours": 24,
+    "shwt_separation_inches": 48,
+    "bioretention_media_depth_min_inches": 30,
+    "bioretention_ponding_depth_inches": 12,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": null,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": 24,
+    "length_to_width_ratio": 1.5,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "bioretention",
+      "constructed_wetland",
+      "extended_detention",
+      "infiltration_basin",
+      "infiltration_trench",
+      "sand_filter",
+      "swale",
+      "wet_pond"
+    ],
+    "enriched_at": "2026-08-13T07:26:15.241Z",
+    "enrich_model": "composer-2.5:run-70df81c0-1532-4a50-adb4-5ea127df07cf",
+    "enrich_notes": "WQv rainfall P is 1.0 in Eastern Rainfall Zone and 0.9 in Western Rainfall Zone (Annapolis follows Maryland statewide criteria; atlas cites Eastern 1.0 in). SHWT separation is 4 ft (48 in) minimum for micro-bioretention and enhanced-filter reservoir inverts, with 2 ft (24 in) on the lower Eastern Shore. Rain gardens require location at least 2 ft above seasonal high water table with 6 in max surface ponding; micro-bioretention allows up to 12 in ponding and filter beds 24–48 in deep. Infiltration practices (I-1, I-2) must infiltrate WQv over a two-day period (48 h), distinct from 24 h ED drawdown for WQv in ponds/wetlands. Cpv extended detention is 24 h (12 h in USE III and IV watersheds). Filter permeability k is given in ft/day (e.g., bioretention soil 0.5 ft/day), not as design infiltration in in/hr. Deep permanent pool areas are defined as four feet or greater; aquatic bench max depth is 18 in below normal pool.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "permeable_pavement_storage_depth_inches",
+      "design_infiltration_rate_in_per_hr",
+      "permanent_pool_depth_inches",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "swale_longitudinal_slope_percent",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

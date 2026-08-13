@@ -37,6 +37,71 @@
       "field": "document_metadata.jurisdiction_name",
       "excerpt": "City of Burlington MS4 follows Vermont Stormwater Management Manual",
       "page_or_section": "Coverage note"
+    },
+    {
+      "field": "design_parameters.wqv_depth_inches",
+      "excerpt": "P = 1.0 inch across Vermont",
+      "page_or_section": "Section 2.2.4 WQTS, page 16"
+    },
+    {
+      "field": "design_parameters.wqv_depth_inches",
+      "excerpt": "equivalent to the first inch of rainfall",
+      "page_or_section": "Section 2.2.4 WQTS, page 16"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "Maximum dewatering time of 48 hours",
+      "page_or_section": "Dry Swale Design Summary, page 111"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "Maximum dewatering time for Tv of 48 hours",
+      "page_or_section": "Infiltration Design Summary, page 124"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "(2 days or 48 hours is the recommended maximum tf for bioretention)",
+      "page_or_section": "Section 4.3.1 Bioretention, page 104"
+    },
+    {
+      "field": "design_parameters.bioretention_media_depth_min_inches",
+      "excerpt": "Filter Bed Depth 24-48 inches",
+      "page_or_section": "Bioretention Design Summary, page 97"
+    },
+    {
+      "field": "design_parameters.bioretention_ponding_depth_inches",
+      "excerpt": "Max. Ponding Depth 12 inches",
+      "page_or_section": "Bioretention Design Summary, page 97"
+    },
+    {
+      "field": "design_parameters.design_infiltration_rate_in_per_hr",
+      "excerpt": "Infiltration rate of 0.2 in/hr or greater if exfiltrating",
+      "page_or_section": "Bioretention Design Summary, page 97"
+    },
+    {
+      "field": "design_parameters.design_infiltration_rate_in_per_hr",
+      "excerpt": "infiltration rate (fc) of at least 0.2 inches per hour",
+      "page_or_section": "Section 4.3.1.2 Bioretention Feasibility, page 101"
+    },
+    {
+      "field": "design_parameters.ed_drain_time_hours",
+      "excerpt": "ED storage volume shall not exceed 50% of the WQv and shall drain over 24 hours",
+      "page_or_section": "Shallow Wetland Design Summary, page 147"
+    },
+    {
+      "field": "design_parameters.ed_drain_time_hours",
+      "excerpt": "ED storage volume shall not exceed 50% of the WQv and shall drain over 24 hours",
+      "page_or_section": "Wet Pond Design Summary, page 159"
+    },
+    {
+      "field": "design_parameters.swale_bottom_width_inches",
+      "excerpt": "Swales shall have a bottom width between two and eight feet",
+      "page_or_section": "Section 4.3.2.5, page 117"
+    },
+    {
+      "field": "design_parameters.swale_longitudinal_slope_percent",
+      "excerpt": "Open channels constructed without check dams shall have a maximum longitudinal slope of 2%",
+      "page_or_section": "Section 4.3.2.2, page 114"
     }
   ],
   "extraction_quality": {
@@ -50,5 +115,49 @@
     "landing_page_url": "https://www.burlingtonvt.gov/DPW/Stormwater",
     "retrieved_at": "2026-08-10T10:27:43.524Z",
     "original_filename": "burlington-vt.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": 1,
+    "max_drawdown_hours": 48,
+    "shwt_separation_inches": null,
+    "bioretention_media_depth_min_inches": 24,
+    "bioretention_ponding_depth_inches": 12,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": 0.2,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": 24,
+    "length_to_width_ratio": null,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": 24,
+    "swale_longitudinal_slope_percent": 2,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "bioretention",
+      "constructed_wetland",
+      "extended_detention",
+      "green_roof",
+      "infiltration_basin",
+      "infiltration_trench",
+      "permeable_pavement",
+      "sand_filter",
+      "swale",
+      "wet_pond"
+    ],
+    "enriched_at": "2026-08-13T07:42:15.190Z",
+    "enrich_model": "composer-2.5:run-c000a672-837e-4649-aee0-5b34dfd3a3c8",
+    "enrich_notes": "WQv uses P=1.0 in and Rv=0.05+0.009(I); 90th percentile event described as first inch of rainfall; minimum 0.2 watershed-inch WQV for low impervious pervious runoff. SHGWT separation is conditional (1 ft, 2 ft, or 3 ft by CDA/impervious and infiltration scope)—not a single manual-wide inch value. Channel Protection extended detention release: 12 h to cold-water fisheries, 24 h to warm-water fisheries (CPv, not ED drain above pool). Bioretention filter bed 24–48 in required; 12 in allowed case-by-case. Swale max longitudinal slope 6% with check dams; wet swale pool often <6 in deep.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "shwt_separation_inches",
+      "permeable_pavement_storage_depth_inches",
+      "permanent_pool_depth_inches",
+      "length_to_width_ratio",
+      "wetland_detention_hours",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

@@ -69,6 +69,71 @@
       "field": "design_criteria.approved_bmp_categories",
       "excerpt": "detention / channels / storm drains",
       "page_or_section": "Design chapters"
+    },
+    {
+      "field": "design_parameters.wqv_depth_inches",
+      "excerpt": "The MOP uses 0.37 inches for the Las Vegas Valley for the average rain fall depth",
+      "page_or_section": "Section 1207 / page 468"
+    },
+    {
+      "field": "design_parameters.ed_drain_time_hours",
+      "excerpt": "Calculations for sizing water quality capture volumes for detention basins should use the maximized detention volume calculation (per Water Environment Federation [WEF] Manual of Practice [MOP] No. 23), a 24-hr drain time",
+      "page_or_section": "Section 1207.1 / page 468"
+    },
+    {
+      "field": "design_parameters.ed_drain_time_hours",
+      "excerpt": "EDBs should detain a WQCV for a minimum of 24 hours and up to a maximum of 48 hours",
+      "page_or_section": "Section 1207 / page 468"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "The outflow structure should be sized to allow for complete drawdown of the water quality volume in 72 hours",
+      "page_or_section": "Section 1503.12.5 / page 575"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "The maximum infiltration or dewatering time is 72 hours",
+      "page_or_section": "Section 1503.13.5 / page 579"
+    },
+    {
+      "field": "design_parameters.shwt_separation_inches",
+      "excerpt": "The water table should be at least 2 feet below the bottom of the trench",
+      "page_or_section": "Section 1503.13.5 / page 578"
+    },
+    {
+      "field": "design_parameters.length_to_width_ratio",
+      "excerpt": "For areas longer than 20 ft, the depressed landscape should be twice as long as they are wide",
+      "page_or_section": "Section 1503.6.5 / page 551"
+    },
+    {
+      "field": "design_parameters.swale_longitudinal_slope_percent",
+      "excerpt": "Tributary Area (ac) Swale Slope ≤ 0.5 ≤ 1%",
+      "page_or_section": "Section 1503.4.5 Design Criteria / page 547"
+    },
+    {
+      "field": "practice_mentions.extended_detention",
+      "excerpt": "incorporating extended detention basins (EDBs) within the regional detention basins",
+      "page_or_section": "Section 1207 / page 468"
+    },
+    {
+      "field": "practice_mentions.swale",
+      "excerpt": "Landscape swales are typically located in parks, parkways, private landscaped areas",
+      "page_or_section": "Section 1503.4.3 / page 547"
+    },
+    {
+      "field": "practice_mentions.sand_filter",
+      "excerpt": "tf = Design filter bed drain time or the time required for the WQCV to pass through the filter in hrs (Max: 48 hours)",
+      "page_or_section": "Section 1500 sand filter / page 561"
+    },
+    {
+      "field": "practice_mentions.infiltration_trench",
+      "excerpt": "An infiltration trench is a shallow excavation (generally 2 to 10 feet in depth)",
+      "page_or_section": "Section 1503.13.1 / page 577"
+    },
+    {
+      "field": "practice_mentions.infiltration_basin",
+      "excerpt": "Infiltration basins are not allowed in areas of shallow groundwater or poor permeability soils",
+      "page_or_section": "Section 1503.12.5 / page 575"
     }
   ],
   "extraction_quality": {
@@ -88,5 +153,46 @@
     "landing_page_url": "https://www.regionalflood.org/",
     "retrieved_at": "2026-08-10T08:10:00.000Z",
     "original_filename": "las-vegas-nv.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": 0.37,
+    "max_drawdown_hours": 72,
+    "shwt_separation_inches": 24,
+    "bioretention_media_depth_min_inches": null,
+    "bioretention_ponding_depth_inches": null,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": null,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": 24,
+    "length_to_width_ratio": 2,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": 1,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "extended_detention",
+      "infiltration_basin",
+      "infiltration_trench",
+      "sand_filter",
+      "swale"
+    ],
+    "enriched_at": "2026-08-13T08:56:42.753Z",
+    "enrich_model": "composer-2.5:run-60255ebd-2a91-4f06-9cd8-8578b4d79771",
+    "enrich_notes": "Corpus is policy/plan submittal fragments plus Section 1207 regional EDB/WQCV (MOP 23, 0.37 in Las Vegas rainfall depth, 24–48 hr EDB detention) and Section 1500 BMP excerpts. On-site dry extended detention requires full WQV drawdown in 72 hr with ≤50% in first 24 hr. Infiltration trench: 0.5 in impervious runoff volume basis, 2 ft SHWT separation, 72 hr max dewatering, 0.3 in/hr minimum obtainable rate (0.5 in/hr stated for infiltration basins). Depressed landscaping (not mapped to bioretention) gives 6–12 in ponding and L:W=2. Landscape swale table: slope ≤1%, depth max 9 in. EDB outlet guidance references Denver UDFCD (2008). Porous pavement and full infiltration basin design pages not in excerpt.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "bioretention_media_depth_min_inches",
+      "bioretention_ponding_depth_inches",
+      "permeable_pavement_storage_depth_inches",
+      "design_infiltration_rate_in_per_hr",
+      "permanent_pool_depth_inches",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

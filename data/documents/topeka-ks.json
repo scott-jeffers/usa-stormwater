@@ -62,6 +62,21 @@
       "field": "document_metadata.relationship_to_state_manual",
       "excerpt": "independent — aligns with MARC/APWA BMP Manual and TMC 13.35",
       "page_or_section": "§1.4 / §3.3"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "For dry detention BMPs not designed for extended detention, the design shall allow for discharge of at least 80 percent of the detention storage volume within 24 hours after the peak or center of mass of the inflow has entered the detention basin.",
+      "page_or_section": "Chapter 4, page 4-11 (Section 7.d)"
+    },
+    {
+      "field": "design_parameters.shwt_separation_inches",
+      "excerpt": "There must be more than three (3) feet of separation distance from the bottom of the BMP to the elevation of the seasonally saturated soils or the top of bedrock.",
+      "page_or_section": "Chapter 3, page 3-7 (Policy 3.a.iv)"
+    },
+    {
+      "field": "design_parameters.permanent_pool_depth_inches",
+      "excerpt": "The minimum normal depth of water before the introduction of excess stormwater shall be four feet plus a sedimentation allowance of not less than 5 years accumulation.",
+      "page_or_section": "Chapter 4, page 4-12 (Section 4.3.2.1.b)"
     }
   ],
   "extraction_quality": {
@@ -78,5 +93,55 @@
     "landing_page_url": "https://www.topeka.gov/utilities/stormwater/index.php",
     "retrieved_at": "2026-08-10T09:39:14.769Z",
     "original_filename": "topeka-ks.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": null,
+    "max_drawdown_hours": 24,
+    "shwt_separation_inches": 36,
+    "bioretention_media_depth_min_inches": null,
+    "bioretention_ponding_depth_inches": null,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": null,
+    "permanent_pool_depth_inches": 48,
+    "ed_drain_time_hours": null,
+    "length_to_width_ratio": null,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "bioretention",
+      "constructed_wetland",
+      "extended_detention",
+      "green_roof",
+      "infiltration_basin",
+      "infiltration_trench",
+      "manufactured_treatment",
+      "permeable_pavement",
+      "sand_filter",
+      "swale",
+      "wet_pond"
+    ],
+    "enriched_at": "2026-08-13T10:22:50.612Z",
+    "enrich_model": "composer-2.5:run-928ec91d-ccd0-40bb-952f-4e10d9894082",
+    "enrich_notes": "Stormwater quality sizing uses MARC/APWA Level of Service (Value Ratings, Table 3-1), not a fixed WQv rainfall depth in this handbook. Detailed BMP dimensions and many infiltration design rates are deferred to the MARC/APWA BMP Manual. Topeka requires underdrain for bioretention and permeable pavement; full infiltration without underdrain needs in-situ infiltration between 1.0 and 11 in/hr and >3 ft separation to seasonally saturated soils/bedrock.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "wqv_depth_inches",
+      "bioretention_media_depth_min_inches",
+      "bioretention_ponding_depth_inches",
+      "permeable_pavement_storage_depth_inches",
+      "design_infiltration_rate_in_per_hr",
+      "ed_drain_time_hours",
+      "length_to_width_ratio",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "swale_longitudinal_slope_percent",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

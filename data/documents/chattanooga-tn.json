@@ -76,6 +76,51 @@
       "field": "design_criteria.approved_bmp_categories",
       "excerpt": "Stay-On Volume (SOV) measures / stormwater management practices",
       "page_or_section": "Addendum 1 / Chapter 5"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "If standing water is observed or measured after 72 hours, this will be considered a clear sign that the SCM is not functioning properly",
+      "page_or_section": "Chapter 8, page 7"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "All underdrain systems must discharge the water quality volume (WQv) between 48 and 72 hours.",
+      "page_or_section": "RMG Page 5.3.5-14"
+    },
+    {
+      "field": "design_parameters.shwt_separation_inches",
+      "excerpt": "High permanent groundwater table (< 2 feet to water table from bottom of proposed SCM)",
+      "page_or_section": "Chapter 8 – Site Infeasibilities, page 5"
+    },
+    {
+      "field": "design_parameters.shwt_separation_inches",
+      "excerpt": "the depth from the base of a proposed infiltration SOV management strategy to seasonal high groundwater or other limiting layer is less than 2 feet",
+      "page_or_section": "Chapter 3, page 44"
+    },
+    {
+      "field": "design_parameters.green_roof_media_depth_inches",
+      "excerpt": "the green roof must be designed with a minimum media depth of 2½ inches.",
+      "page_or_section": "RMG Page 5.3.8-8"
+    },
+    {
+      "field": "design_parameters.green_roof_media_depth_inches",
+      "excerpt": "2 to 6 inches of engineered growing media with high mineral content",
+      "page_or_section": "RMG Page 5.3.8-4"
+    },
+    {
+      "field": "design_parameters.green_roof_slope_percent",
+      "excerpt": "For green roofs situated atop roofs with slopes greater than 1.5 percent, battens should be incorporated",
+      "page_or_section": "RMG Page 5.3.8-8"
+    },
+    {
+      "field": "design_parameters.mtd_verification_program",
+      "excerpt": "proprietary, man-made devices meeting NJCAT verification (www.njcat.org) and using 3.1\" storm.",
+      "page_or_section": "Chapter 8, page 5"
+    },
+    {
+      "field": "design_parameters.mtd_verification_program",
+      "excerpt": "proprietary, man-made devices must have NJCAT verification (www.njcat.org) and use 3.1\" of rainfall for design purposes.",
+      "page_or_section": "Addendum Chapter 5 comments, page 8"
     }
   ],
   "extraction_quality": {
@@ -93,5 +138,51 @@
     "landing_page_url": "https://chattanooga.gov/stay-informed/environmental-initiatives/rainsmart-water-conservation-programs/resource-rain",
     "retrieved_at": "2026-08-10T08:56:34.266Z",
     "original_filename": "chattanooga-tn.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": null,
+    "max_drawdown_hours": 72,
+    "shwt_separation_inches": 24,
+    "bioretention_media_depth_min_inches": null,
+    "bioretention_ponding_depth_inches": null,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": null,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": null,
+    "length_to_width_ratio": null,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": 2.5,
+    "green_roof_slope_percent": 1.5,
+    "mtd_verification_program": "NJCAT",
+    "practice_mentions": [
+      "bioretention",
+      "constructed_wetland",
+      "extended_detention",
+      "green_roof",
+      "infiltration_basin",
+      "infiltration_trench",
+      "manufactured_treatment",
+      "permeable_pavement",
+      "swale"
+    ],
+    "enriched_at": "2026-08-13T07:50:40.813Z",
+    "enrich_model": "composer-2.5:run-f5bc763f-b4a2-4b53-a988-73cfcd15aa79",
+    "enrich_notes": "Stay-On Volume (SOV) is the city's runoff-reduction framework; atlas context cites 1.0 in. citywide but that value does not appear in the supplied excerpts. Infeasibility uses infiltration <0.5 in/hr and high groundwater <2 ft below SCM bottom. Alternate infeasibility treatment: modified GI at 2.1 in. storm, extended detention at 3.1 in., or NJCAT devices at 3.1 in. with ≥80% TSS. WQv underdrain discharge window 48–72 hr (Ch. 5 swale/bioretention underdrain text). Green roof growing media stated as 2–6 in.; SOV credit requires minimum 2.5 in. media. Infiltration berm ponding depth limited to 6 in. or less (not mapped to bioretention ponding field).",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "wqv_depth_inches",
+      "bioretention_media_depth_min_inches",
+      "bioretention_ponding_depth_inches",
+      "permeable_pavement_storage_depth_inches",
+      "design_infiltration_rate_in_per_hr",
+      "permanent_pool_depth_inches",
+      "ed_drain_time_hours",
+      "length_to_width_ratio",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "swale_longitudinal_slope_percent"
+    ]
   }
 }

@@ -43,6 +43,41 @@
       "field": "document_metadata.relationship_to_state_manual",
       "excerpt": "City of Lincoln Drainage Criteria Manual provides additional information ... Chapter 8 - Stormwater Best Management Practices",
       "page_or_section": "Introduction"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "Water should remain on site for less than 48 hours to prevent mosquito breeding.",
+      "page_or_section": "3.1 Bioretention, page 22"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "Another key element of the infiltration basin is having enough area to maintain a shallow pool that will infiltrate within 48 hours or less.",
+      "page_or_section": "3.7 Infiltration Basin, page 52"
+    },
+    {
+      "field": "design_parameters.shwt_separation_inches",
+      "excerpt": "Allow 3 ft buffer between bed bottom and seasonal high groundwater table and 2 ft buffer for rock.",
+      "page_or_section": "3.7 Infiltration Basin, page 54"
+    },
+    {
+      "field": "design_parameters.shwt_separation_inches",
+      "excerpt": "The bottom of the swale should be at least three feet above groundwater in order to prevent the swale bottom from remaining too wet.",
+      "page_or_section": "3.5 Grassed Swale, page 43"
+    },
+    {
+      "field": "design_parameters.design_infiltration_rate_in_per_hr",
+      "excerpt": "Requires soils that allow at least two inches of infiltration per hour.",
+      "page_or_section": "3.8 Infiltration Planter, page 58"
+    },
+    {
+      "field": "design_parameters.design_infiltration_rate_in_per_hr",
+      "excerpt": "An underdrain system may be required where soils beneath paving system do not allow adequate infiltration (more than two inches per hour).",
+      "page_or_section": "3.11 Permeable Pavement, page 71"
+    },
+    {
+      "field": "design_parameters.green_roof_slope_percent",
+      "excerpt": "The maximum slope for a green roof is about 25 percent.",
+      "page_or_section": "3.6 Green Roof, page 48"
     }
   ],
   "extraction_quality": {
@@ -56,5 +91,54 @@
     "landing_page_url": "https://www.lincoln.ne.gov/City/Departments/LTU/Utilities/Watershed-Management/Sustainable-Landscapes/Post-Construction-BMPs/Guidance-Manual",
     "retrieved_at": "2026-08-10T10:35:05.250Z",
     "original_filename": "lincoln-ne.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": null,
+    "max_drawdown_hours": 48,
+    "shwt_separation_inches": 36,
+    "bioretention_media_depth_min_inches": null,
+    "bioretention_ponding_depth_inches": null,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": 2,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": null,
+    "length_to_width_ratio": null,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": 25,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "bioretention",
+      "constructed_wetland",
+      "extended_detention",
+      "green_roof",
+      "infiltration_basin",
+      "infiltration_trench",
+      "manufactured_treatment",
+      "permeable_pavement",
+      "sand_filter",
+      "swale",
+      "wet_pond"
+    ],
+    "enriched_at": "2026-08-13T08:58:22.031Z",
+    "enrich_model": "composer-2.5:run-1c255325-17b6-4cb1-a506-82a5a89708d3",
+    "enrich_notes": "WQv rainfall depth is referenced to City Drainage Criteria Manual Chapter 8 / Municipal Code 28.03, not stated in this BMP toolbox. Rain garden (bioretention-like) gives ponding 4–6 in typical and max 6 in; grassed swale bottom width is 2–8 ft (range only). Infiltration planter standing water up to 12 h; rain garden ponding limit 3 days. Hydrodynamic separators are listed; no third-party MTD verification program named.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "wqv_depth_inches",
+      "bioretention_media_depth_min_inches",
+      "bioretention_ponding_depth_inches",
+      "permeable_pavement_storage_depth_inches",
+      "permanent_pool_depth_inches",
+      "ed_drain_time_hours",
+      "length_to_width_ratio",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "swale_longitudinal_slope_percent",
+      "green_roof_media_depth_inches",
+      "mtd_verification_program"
+    ]
   }
 }

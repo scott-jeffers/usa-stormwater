@@ -77,6 +77,66 @@
       "field": "design_criteria.approved_bmp_categories",
       "excerpt": "Structural Stormwater Treatment Practices for Meeting Water Quality",
       "page_or_section": "Chapter Five"
+    },
+    {
+      "field": "design_parameters.wqv_depth_inches",
+      "excerpt": "use 1.2 inches for the Water Quality Storm that produces 1 inch of runoff from impervious surfaces",
+      "page_or_section": "Appendix D, pages 271-272"
+    },
+    {
+      "field": "design_parameters.wqv_depth_inches",
+      "excerpt": "Compute WQv = (1”)(1.1 ac)/12”/ft",
+      "page_or_section": "Appendix D, page 272"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "Maximum dewatering time of 48 hours.",
+      "page_or_section": "Section 5.3, page 103"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "(2 days is the maximum tf for bioretention)",
+      "page_or_section": "Section 5.5.4, page 132"
+    },
+    {
+      "field": "design_parameters.shwt_separation_inches",
+      "excerpt": "Separation from seasonal high groundwater table and bedrock of at least 3 feet except for strictly residential land uses, for which it may be reduced to 2 feet.",
+      "page_or_section": "Section 5.3, page 103"
+    },
+    {
+      "field": "design_parameters.bioretention_media_depth_min_inches",
+      "excerpt": "A 24” to 48” deep planting soil bed (depending on requirements of proposed vegetation)",
+      "page_or_section": "Section 5.5.4, page 132"
+    },
+    {
+      "field": "design_parameters.bioretention_ponding_depth_inches",
+      "excerpt": "a 6” to 9” deep surface ponding area",
+      "page_or_section": "Section 5.5.4, page 132"
+    },
+    {
+      "field": "design_parameters.design_infiltration_rate_in_per_hr",
+      "excerpt": "Minimum soil infiltration rate of 0.5 inches per hour.",
+      "page_or_section": "Section 5.3, page 103"
+    },
+    {
+      "field": "design_parameters.ed_drain_time_hours",
+      "excerpt": "ED storage volume shall not exceed 50% of the WQv and shall drain over 24 hours.",
+      "page_or_section": "Section 5.2, pages 87-88"
+    },
+    {
+      "field": "design_parameters.length_to_width_ratio",
+      "excerpt": "For a Shallow WVTS: Minimum flowpath of 2:1 (length to width).",
+      "page_or_section": "Section 5.2, page 88"
+    },
+    {
+      "field": "design_parameters.swale_bottom_width_inches",
+      "excerpt": "Swales shall be designed with a bottom width no greater than 8 ft to avoid potential gullying and channel braiding, but no less than 2 ft.",
+      "page_or_section": "Section 5.7.4, page 148"
+    },
+    {
+      "field": "design_parameters.swale_longitudinal_slope_percent",
+      "excerpt": "Open channels shall have a maximum longitudinal slope of 4%, without check dams.",
+      "page_or_section": "Section 5.7.1, page 147"
     }
   ],
   "extraction_quality": {
@@ -94,5 +154,46 @@
     "landing_page_url": "https://dem.ri.gov/environmental-protection-bureau/water-resources/permitting/stormwater-permitting/stormwater-rules",
     "retrieved_at": "2026-08-10T09:06:14.926Z",
     "original_filename": "providence-ri.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": 1,
+    "max_drawdown_hours": 48,
+    "shwt_separation_inches": 36,
+    "bioretention_media_depth_min_inches": 24,
+    "bioretention_ponding_depth_inches": 9,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": 0.5,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": 24,
+    "length_to_width_ratio": 2,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": 24,
+    "swale_longitudinal_slope_percent": 4,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "bioretention",
+      "constructed_wetland",
+      "extended_detention",
+      "green_roof",
+      "infiltration_basin",
+      "infiltration_trench",
+      "permeable_pavement",
+      "sand_filter",
+      "swale"
+    ],
+    "enriched_at": "2026-08-13T09:50:52.963Z",
+    "enrich_model": "composer-2.5:run-c32be17a-82e1-47fa-b7aa-13848ea43728",
+    "enrich_notes": "Water quality storm uses 1.2 in rainfall producing 1 in impervious runoff (Appendix D). SHGT separation is 3 ft (36 in) generally, 2 ft (24 in) for strictly residential infiltration/permeable paving; WVTS at LUHPPL cites 3 ft to water table. Bioretention planting soil 24–48 in (12 in case-by-case); ponding zone 6–9 in (examples use 9 in). Dry swale: 30 in soil bed, ≤12 in average ponding. WVTS Shallow L:W 2:1; Gravel WVTS 1:1. Green roof slopes ≤20% extensive / ≤6% intensive; no explicit media depths in excerpts. TAP acronym only; no MTD verification program named for manufactured devices.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "permeable_pavement_storage_depth_inches",
+      "permanent_pool_depth_inches",
+      "wetland_detention_hours",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

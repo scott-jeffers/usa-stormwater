@@ -28,6 +28,31 @@
       "field": "document_metadata.jurisdiction_name",
       "excerpt": "City of Sioux Falls — partial coverage via SDDOT ESC/stormwater course manual (city design PDF 403)",
       "page_or_section": "Coverage note"
+    },
+    {
+      "field": "practice_mentions.swale",
+      "excerpt": "open vegetated swales, natural depressions to allow infiltration of runoff onsite",
+      "page_or_section": "5.3 SWPPP Contents / page 95"
+    },
+    {
+      "field": "practice_mentions.swale",
+      "excerpt": "they improve the efficiency of other sediment controls, such as vegetated swales, filter strips, or infiltration devices",
+      "page_or_section": "Slope Flow Control / page 16"
+    },
+    {
+      "field": "practice_mentions.swale",
+      "excerpt": "Check dams – are small dams constructed in an open channel, swale, or ditch.",
+      "page_or_section": "Channel Velocity Control / page 17"
+    },
+    {
+      "field": "practice_mentions.wet_pond",
+      "excerpt": "structural stormwater management practices such as stormwater ponds, open vegetated swales",
+      "page_or_section": "5.3 Post-Construction Stormwater Management / page 95"
+    },
+    {
+      "field": "design_parameters.swale_longitudinal_slope_percent",
+      "excerpt": "Check dams are generally placed in areas where the slope is 6% or greater",
+      "page_or_section": "Channel Velocity Control / page 17"
     }
   ],
   "extraction_quality": {
@@ -43,5 +68,49 @@
     "landing_page_url": "https://danr.sd.gov/",
     "retrieved_at": "2026-08-10T10:35:05.250Z",
     "original_filename": "sioux-falls-sd.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": null,
+    "max_drawdown_hours": null,
+    "shwt_separation_inches": null,
+    "bioretention_media_depth_min_inches": null,
+    "bioretention_ponding_depth_inches": null,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": null,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": null,
+    "length_to_width_ratio": null,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "swale",
+      "wet_pond"
+    ],
+    "enriched_at": "2026-08-13T10:10:35.062Z",
+    "enrich_model": "composer-2.5:run-cea31b98-162e-4bc1-baf8-3db7ebb8913e",
+    "enrich_notes": "Corpus is SDDOT erosion/sediment control and construction general permit material (SWPPP, inspections, dewatering). Post-construction stormwater is referenced only generically (stormwater ponds, open vegetated swales, infiltration/natural depressions) without numeric SCM sizing, WQv depth, drawdown, or media depths. Check dam text cites 6% channel/slope threshold and 50-foot natural buffer; neither maps to requested design parameter fields.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "wqv_depth_inches",
+      "max_drawdown_hours",
+      "shwt_separation_inches",
+      "bioretention_media_depth_min_inches",
+      "bioretention_ponding_depth_inches",
+      "permeable_pavement_storage_depth_inches",
+      "design_infiltration_rate_in_per_hr",
+      "permanent_pool_depth_inches",
+      "ed_drain_time_hours",
+      "length_to_width_ratio",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "swale_longitudinal_slope_percent",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

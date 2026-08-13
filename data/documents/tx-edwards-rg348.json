@@ -107,6 +107,36 @@
       "field": "design_criteria.approved_bmp_categories",
       "excerpt": "1.4.3 Silt Fence ... 1.4.13 Sediment Basins ... 1.4.10 Vegetative Buffers ... 1.4.11 Inlet Protection",
       "page_or_section": "Table of Contents, Chapter 1"
+    },
+    {
+      "field": "design_parameters.shwt_separation_inches",
+      "excerpt": "The seasonal high water table should be at least 4 feet below the surface.",
+      "page_or_section": "3.2.4 Grassy Swales / page 3-11"
+    },
+    {
+      "field": "design_parameters.ed_drain_time_hours",
+      "excerpt": "The outflow structure should be sized to allow for complete drawdown of the water quality volume in 48 hours.",
+      "page_or_section": "3.4.5 Extended Detention Basins / page 3-49"
+    },
+    {
+      "field": "design_parameters.length_to_width_ratio",
+      "excerpt": "The minimum length to width ratio should be 1.0. Higher ratios are recommended.",
+      "page_or_section": "3.4.9 Wet Basins / page 3-66"
+    },
+    {
+      "field": "design_parameters.swale_longitudinal_slope_percent",
+      "excerpt": "the channel slope should be at least 0.5% and no greater than 2.5%",
+      "page_or_section": "Errata 3.4.5 Grassy Swales / page 326"
+    },
+    {
+      "field": "design_parameters.wqv_depth_inches",
+      "excerpt": "From Table 3-5, one can see that 0.86 corresponds to a rainfall depth of 1.46 inches.",
+      "page_or_section": "6.3.2 example / page 318"
+    },
+    {
+      "field": "design_parameters.design_infiltration_rate_in_per_hr",
+      "excerpt": "infiltration rates of less than 0.5 inch/hour",
+      "page_or_section": "3.2.1 Introduction / page 3-5"
     }
   ],
   "extraction_quality": {
@@ -122,5 +152,51 @@
     "landing_page_url": "https://www.tceq.texas.gov/publications/rg/rg-348",
     "retrieved_at": "2026-08-08T00:52:06.514Z",
     "original_filename": "tx-edwards-rg348.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": null,
+    "max_drawdown_hours": null,
+    "shwt_separation_inches": 48,
+    "bioretention_media_depth_min_inches": null,
+    "bioretention_ponding_depth_inches": null,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": null,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": 48,
+    "length_to_width_ratio": 1,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": 2.5,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "bioretention",
+      "constructed_wetland",
+      "extended_detention",
+      "manufactured_treatment",
+      "permeable_pavement",
+      "sand_filter",
+      "swale",
+      "wet_pond"
+    ],
+    "enriched_at": "2026-08-13T10:26:15.710Z",
+    "enrich_model": "composer-2.5:run-fce11202-f4af-4db8-9cf5-e1f96daa960a",
+    "enrich_notes": "WQV rainfall depth is site-specific via Table 3-5 fraction F (examples: 1.46 in, 2.60 in); storage sized with 20% sediment allowance. Infiltration basins/trenches excluded in most of the area; sites with infiltration <0.5 in/hr precluded. Wet vault sizing uses 1.1 in/hr rainfall intensity (not WQV depth).",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "wqv_depth_inches",
+      "max_drawdown_hours",
+      "bioretention_media_depth_min_inches",
+      "bioretention_ponding_depth_inches",
+      "permeable_pavement_storage_depth_inches",
+      "design_infiltration_rate_in_per_hr",
+      "permanent_pool_depth_inches",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

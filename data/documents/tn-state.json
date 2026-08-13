@@ -98,6 +98,61 @@
       "field": "design_criteria.approved_bmp_categories",
       "excerpt": "5.4.1 Dry Detention\n5.4.2 Wet Ponds\n5.4.3 Vegetated Swale (Water Quality Swale)\n5.4.4 Managed Vegetated Areas\n5.4.5 Filter Strips\n5.4.6 Bioretention\n5.4.6a Urban Bioretention\n5.4.7 Infiltration Areas\n5.4.8 Permeable Pavement\n5.4.9 Green Roofs\n5.4.10 Rainwater Harvesting\n5.4.11 Stormwater Treatment Wetlands\n5.4.12 Manufactured/Proprietary Treatment Devices",
       "page_or_section": "Chapter 5, Section 5.4"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "A Dry Detention Basin relies on maximum 24-hour detention of stormwater runoff after each rain event.",
+      "page_or_section": "Chapter 1, Table 1.2 overview (tn-state-c0020)"
+    },
+    {
+      "field": "design_parameters.ed_drain_time_hours",
+      "excerpt": "An Extended Detention Basin relies on 72-hour detention of stormwater runoff after each rain event.",
+      "page_or_section": "Chapter 1, Table 1.2 overview (tn-state-c0020)"
+    },
+    {
+      "field": "design_parameters.shwt_separation_inches",
+      "excerpt": "A separation distance of 2 feet is required between the excavated Bioretention area and the seasonally",
+      "page_or_section": "5.4.6 Bioretention, Depth to Water Table (tn-state-c0176)"
+    },
+    {
+      "field": "design_parameters.shwt_separation_inches",
+      "excerpt": "Depth: 2 feet to water table / bedrock",
+      "page_or_section": "5.4.6 Bioretention, Site Constraints (tn-state-c0174)"
+    },
+    {
+      "field": "design_parameters.bioretention_media_depth_min_inches",
+      "excerpt": "Min. filter media depth: 18-24 inches. Recommended maximum: 36 inches",
+      "page_or_section": "5.4.6 Bioretention, Key Design Criteria (tn-state-c0174)"
+    },
+    {
+      "field": "design_parameters.bioretention_media_depth_min_inches",
+      "excerpt": "The standard minimum filter should be 24 inches for bioretention cells, and 18 to 24 inches for rain gardens or micro-",
+      "page_or_section": "5.4.6 Bioretention, Depth (tn-state-c0179)"
+    },
+    {
+      "field": "design_parameters.bioretention_ponding_depth_inches",
+      "excerpt": "Ponding depth: 6-12 inches",
+      "page_or_section": "5.4.6 Bioretention, Key Design Criteria (tn-state-c0174)"
+    },
+    {
+      "field": "design_parameters.design_infiltration_rate_in_per_hr",
+      "excerpt": "Media permeability: ≤ 0.5in/h or needs underdrain",
+      "page_or_section": "5.4.6 Bioretention, Site Constraints (tn-state-c0174)"
+    },
+    {
+      "field": "design_parameters.design_infiltration_rate_in_per_hr",
+      "excerpt": "underdrain is needed if the measured permeability of the underlying ... 0.5 inches per hour.",
+      "page_or_section": "5.4.6 Bioretention, Soils (tn-state-c0176)"
+    },
+    {
+      "field": "design_parameters.length_to_width_ratio",
+      "excerpt": "Length of shortest flow path/length: 0.3",
+      "page_or_section": "5.4.6 Bioretention, Key Design Criteria (tn-state-c0174)"
+    },
+    {
+      "field": "design_parameters.swale_longitudinal_slope_percent",
+      "excerpt": "A minimum slope of 0.5% must be maintained to ensu",
+      "page_or_section": "Appendix B, Grass Channel (tn-state-c0313)"
     }
   ],
   "extraction_quality": {
@@ -114,5 +169,50 @@
     "landing_page_url": "https://www.tn.gov/environment/program-areas/wr-water-resources/stormwater.html",
     "retrieved_at": "2026-08-07T11:27:05.531Z",
     "original_filename": "tn-state.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": null,
+    "max_drawdown_hours": 24,
+    "shwt_separation_inches": 24,
+    "bioretention_media_depth_min_inches": 18,
+    "bioretention_ponding_depth_inches": null,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": 0.5,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": 72,
+    "length_to_width_ratio": 0.3,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": 0.5,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "bioretention",
+      "constructed_wetland",
+      "extended_detention",
+      "green_roof",
+      "infiltration_basin",
+      "manufactured_treatment",
+      "permeable_pavement",
+      "sand_filter",
+      "swale",
+      "wet_pond"
+    ],
+    "enriched_at": "2026-08-13T10:21:08.950Z",
+    "enrich_model": "composer-2.5:run-f423f3a0-2b59-4339-9ea9-09ddd3ae70cd",
+    "enrich_notes": "TN manual (Dec 2014): dry detention cites 24 h max detention; extended detention 72 h. Bioretention filter media min 18–24 in (18 used as minimum), ponding 6–12 in (range only). Seasonal high water table separation 2 ft (24 in) for bioretention. Native/filter media permeability threshold 0.5 in/hr triggers underdrain. Shortest flow-path ratio 0.3 in bioretention key criteria. Grass channel karst appendix minimum longitudinal slope 0.5%.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "wqv_depth_inches",
+      "bioretention_ponding_depth_inches",
+      "permeable_pavement_storage_depth_inches",
+      "permanent_pool_depth_inches",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

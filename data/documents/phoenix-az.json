@@ -100,6 +100,46 @@
       "field": "design_criteria.approved_bmp_categories",
       "excerpt": "All new developments shall make provisions to retain the storm water runoff from a 100-year, 2-hour duration storm... Sedimentation basins as required per Section 6.10 shall be located at the upstream (inlet) end of stormwater storage facilities.",
       "page_or_section": "Sections 6.8 and 6.10, Pages 6-88 to 6-90"
+    },
+    {
+      "field": "design_parameters.wqv_depth_inches",
+      "excerpt": "retaining or treating the first 0.5 inch of direct runoff from a storm event",
+      "page_or_section": "6.8.3 First Flush, page 89"
+    },
+    {
+      "field": "design_parameters.wqv_depth_inches",
+      "excerpt": "P = first 0.5 inch of direct runoff",
+      "page_or_section": "6.8.3 First Flush, page 89"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "the stored runoff shall be emptied completely from the facility within 36 hours after the runoff event has ended",
+      "page_or_section": "6.8.10 Basin Drain Time, page 92"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "shall drain the 100-year (design) storm water storage volume within 36 hours, but not less than 24 hours",
+      "page_or_section": "6.8.10 Basin Drain Time, page 92"
+    },
+    {
+      "field": "design_parameters.swale_bottom_width_inches",
+      "excerpt": "minimum bottom widths shall be four feet for ditches adjacent and parallel to streets or access roads",
+      "page_or_section": "6.6.19 Ditches and Swales, page 87"
+    },
+    {
+      "field": "practice_mentions.swale",
+      "excerpt": "Roadside ditches and swales that are intended to convey 100-year flows less than 100 cfs shall be no deeper than two feet",
+      "page_or_section": "6.6.19 Ditches and Swales, page 87"
+    },
+    {
+      "field": "practice_mentions.extended_detention",
+      "excerpt": "In the special case when a detention facility is allowed, the requirement to retain the 100-year, 2-hour runoff volume may be waived",
+      "page_or_section": "6.8.3 First Flush, page 89"
+    },
+    {
+      "field": "practice_mentions.infiltration_basin",
+      "excerpt": "Required retention basin volume shall be obtained by using the following equation",
+      "page_or_section": "6.8.4 Retention Volume, page 90"
     }
   ],
   "extraction_quality": {
@@ -113,5 +153,47 @@
     "landing_page_url": "https://www.phoenix.gov/streets/stormwater",
     "retrieved_at": "2026-08-08T01:05:00.000Z",
     "original_filename": "phoenix-az.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": 0.5,
+    "max_drawdown_hours": 36,
+    "shwt_separation_inches": null,
+    "bioretention_media_depth_min_inches": null,
+    "bioretention_ponding_depth_inches": null,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": null,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": null,
+    "length_to_width_ratio": null,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": 48,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "extended_detention",
+      "infiltration_basin",
+      "swale"
+    ],
+    "enriched_at": "2026-08-13T09:44:37.571Z",
+    "enrich_model": "composer-2.5:run-1c6406d7-28e9-4231-b6ba-1dba05febb5c",
+    "enrich_notes": "Phoenix primary retention is 100-year 2-hour storm volume (V=C×P×A/12); First Flush uses C=1.0 and P=0.5 inch when retention is waived. Storage basins must drain fully within 36 hours (bleed-off primary outlet sized for 24–36 hr). Roadside ditches/swales for <100 cfs 100-year flows max 2 ft deep; min bottom width 4 ft parallel to streets. Parking lot ponding max 6 in.; street ponding max 0.5 ft where allowed.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "shwt_separation_inches",
+      "bioretention_media_depth_min_inches",
+      "bioretention_ponding_depth_inches",
+      "permeable_pavement_storage_depth_inches",
+      "design_infiltration_rate_in_per_hr",
+      "permanent_pool_depth_inches",
+      "ed_drain_time_hours",
+      "length_to_width_ratio",
+      "wetland_detention_hours",
+      "swale_longitudinal_slope_percent",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

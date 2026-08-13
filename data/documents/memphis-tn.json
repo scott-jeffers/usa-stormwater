@@ -67,6 +67,41 @@
       "field": "design_criteria.approved_bmp_categories",
       "excerpt": "detention / water quality BMPs",
       "page_or_section": "Policy"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "Detention storage volume necessary to meet the requirements of the two preceeding subsections shall be drained within 72 hours.",
+      "page_or_section": "6.6.4 Drawdown; Page 6-14"
+    },
+    {
+      "field": "design_parameters.length_to_width_ratio",
+      "excerpt": "Length to width ratio of at least 4:1",
+      "page_or_section": "6.7.2 Dry and Wet Detention Design Criteria; Page 6-18"
+    },
+    {
+      "field": "design_parameters.permanent_pool_depth_inches",
+      "excerpt": "Maximum permanent pool depth of no more than 12 feet unless recirculated with an aerator or fountain",
+      "page_or_section": "6.7.2 Dry and Wet Detention Design Criteria; Page 6-18"
+    },
+    {
+      "field": "design_parameters.wqv_depth_inches",
+      "excerpt": "Bleed down or \"live\" storage volume of the first 0.5 to 1.0 inches of runoff",
+      "page_or_section": "6.7.2 Dry and Wet Detention Design Criteria; Page 6-18"
+    },
+    {
+      "field": "design_parameters.ed_drain_time_hours",
+      "excerpt": "residence time of 12 to 24 hours for dry ponds and 24 to 60 hours for wet ponds",
+      "page_or_section": "6.7.2 Dry and Wet Detention Design Criteria; Page 6-18"
+    },
+    {
+      "field": "practice_mentions.swale",
+      "excerpt": "grass swales may be utilized; however, they must be approved by the city or county engineer",
+      "page_or_section": "6.1.3.1 Street Drainage Improvements; Page 6-5"
+    },
+    {
+      "field": "practice_mentions.manufactured_treatment",
+      "excerpt": "In-ground pre-manufactured water quality units will be evaluated on a case-by-case basis",
+      "page_or_section": "7.1.2.5 PCRC Plan Review Information; Page 7-4"
     }
   ],
   "extraction_quality": {
@@ -86,5 +121,55 @@
     "landing_page_url": "https://www.shelbycountytn.gov/",
     "retrieved_at": "2026-08-10T08:10:00.000Z",
     "original_filename": "memphis-tn.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": null,
+    "max_drawdown_hours": 72,
+    "shwt_separation_inches": null,
+    "bioretention_media_depth_min_inches": null,
+    "bioretention_ponding_depth_inches": null,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": null,
+    "permanent_pool_depth_inches": 144,
+    "ed_drain_time_hours": null,
+    "length_to_width_ratio": 4,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "bioretention",
+      "constructed_wetland",
+      "extended_detention",
+      "green_roof",
+      "infiltration_basin",
+      "infiltration_trench",
+      "manufactured_treatment",
+      "permeable_pavement",
+      "sand_filter",
+      "swale",
+      "wet_pond"
+    ],
+    "enriched_at": "2026-08-13T09:08:16.738Z",
+    "enrich_model": "composer-2.5:run-727e3ee1-ba52-43ed-b80c-a4c60511dc36",
+    "enrich_notes": "Volume 1 policy only; WQ BMPs encouraged not required. WQ dry/wet detention cites bleed-down of first 0.5–1.0 in runoff with residence 12–24 h (dry) and 24–60 h (wet)—ranges not mapped to single canonical fields. Detention quantity drawdown is 72 h (Section 6.6.4). Permanent pool max 12 ft (144 in). Length:width at least 4:1 for WQ dry/wet detention. BMP design detail deferred to Volumes 2–3.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "wqv_depth_inches",
+      "shwt_separation_inches",
+      "bioretention_media_depth_min_inches",
+      "bioretention_ponding_depth_inches",
+      "permeable_pavement_storage_depth_inches",
+      "design_infiltration_rate_in_per_hr",
+      "ed_drain_time_hours",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "swale_longitudinal_slope_percent",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

@@ -1,0 +1,140 @@
+{
+  "version": 1,
+  "practice_key": "manufactured_treatment",
+  "practice_label": "Manufactured Treatment Device",
+  "generated_at": "2026-08-13T10:42:39.636Z",
+  "model": "composer-2.5:run-21133007-265c-47a8-8d25-711e7159a0bb",
+  "editorial_status": "draft",
+  "national_baseline": "Among Tier A manuals that mention manufactured treatment devices, numeric guidance for this practice is largely expressed through site-wide water-quality volume (WQv), drawdown, and seasonal high water table (SHWT) separation requirements that apply to the development or BMP portfolio—not as device-specific depth, detention, or setback numbers for the unit itself. Where WQv depth is stated (n=30), the mode and median are both 1 inch, with reported values from about 0.37 to 1.61 inches across jurisdictions such as Boston, Baltimore, Chesapeake, Detroit, and many state manuals. Maximum drawdown time appears in 36 manuals with a mode of 72 hours and median of 48 hours, spanning roughly 4 to 120 hours (e.g., Florida FSESCI Tier 1 at 4 hours, Mississippi at 120 hours, and many manuals at 48 or 72 hours). SHWT separation is documented in 36 manuals with a mode of 24 inches and median of 36 inches, over a range of 12 to 120 inches. Committee discussion should treat these figures as the temperate, Type II–ish jurisdictional sizing context in which MTDs are typically sized and credited, pending practice-specific baselines where manuals do not isolate MTD geometry or hydraulics.",
+  "regional_modifiers": [
+    {
+      "id": "cold_climate",
+      "title": "Cold climate and shorter seasons",
+      "text": "Northern and mountain jurisdictions often pair WQv near 1 to 1.25 inches (e.g., Minneapolis 1.25, Iowa chapter proxy 1.25, Maine and Michigan state guidance at 1 inch) with drawdown commonly at 48 hours (Minnesota state 2008, Maine, Vermont, Washington western) or 72 hours (Montana Billings, Montana DEQ-8, Nebraska NDOT STF). SHWT separation frequently sits at 36 inches (Minnesota, Idaho BMP catalog, Missouri MARC, Montana Billings) though Montana DEQ-8 lists 12 inches. Cold-climate MTD siting and maintenance access may need to align with these longer or stricter site-wide rules even when the device is proprietary.",
+      "states": [
+        "MN",
+        "ME",
+        "MI",
+        "VT",
+        "WA",
+        "MT",
+        "ID",
+        "IA",
+        "NH"
+      ],
+      "citation_slugs": [
+        "minneapolis-mn",
+        "mn-state-2008",
+        "maine-manual",
+        "michigan-manual",
+        "vt-state",
+        "wa-state-western",
+        "billings-mt",
+        "mt-deq8",
+        "idaho-bmp-catalog",
+        "ia-state-ch1",
+        "nh-state",
+        "kansas-city-marc-bmp"
+      ]
+    },
+    {
+      "id": "coastal_high_shwt",
+      "title": "Coastal and high water table",
+      "text": "Coastal and low-lying manuals sometimes specify tighter SHWT separation at 12 inches (Chesapeake VA, Raleigh NC, Maine, Montana DEQ-8, New Jersey chapter proxy) while others use 24 to 48 inches in the same regions (Norfolk-adjacent Chesapeake drawdown 48 hours; Maryland state 48 inches SHWT; Houston 48 inches). WQv remains commonly 1 inch in Chesapeake, Norfolk, and Baltimore contexts. MTD installations in these areas inherit site-wide separation minima that may constrain vault depth and infiltration assumptions more than device-rated performance alone.",
+      "states": [
+        "VA",
+        "NC",
+        "ME",
+        "NJ",
+        "MD",
+        "TX"
+      ],
+      "citation_slugs": [
+        "chesapeake-va",
+        "raleigh-nc",
+        "maine-manual",
+        "nj-state",
+        "md-state",
+        "houston-tx",
+        "norfolk-va",
+        "baltimore-md"
+      ]
+    },
+    {
+      "id": "arid",
+      "title": "Arid and semi-arid",
+      "text": "Arid jurisdictions show wider spread on site-wide WQv and drawdown: Las Vegas lists 0.37 inch WQv with 72-hour drawdown and 24-inch SHWT; Flagstaff uses 1 inch WQv, 24-hour drawdown; Denver 0.6 inch WQv; Albuquerque GSI 96-hour drawdown with 36-inch SHWT. California municipal and Caltrans construction manuals cite 72 to 96-hour drawdown. MTD sizing in these climates should be read against lower WQv depths and sometimes longer drawdown targets at the site scale rather than a single national MTD hydraulic standard.",
+      "states": [
+        "NV",
+        "AZ",
+        "CO",
+        "NM",
+        "CA"
+      ],
+      "citation_slugs": [
+        "las-vegas-nv",
+        "flagstaff-az",
+        "denver-co",
+        "albuquerque-nm-gsi",
+        "ca-casqa-municipal",
+        "ca-caltrans-construction",
+        "los-angeles-ca"
+      ]
+    },
+    {
+      "id": "karst_sensitive",
+      "title": "Karst and Edwards-related groundwater",
+      "text": "Where karst or sensitive aquifer guidance appears in the matrix, SHWT separation can reach 48 inches (Texas Edwards RG-348, Ohio rainwater manual, Houston), contrasting with 12-inch minima elsewhere. WQv and drawdown in those slugs align with broader state or city values (e.g., Ohio 0.75 inch WQv, 48-inch separation). MTD projects in karst-influenced jurisdictions may face stricter vertical separation context without a distinct MTD-only numeric baseline in Tier A extracts.",
+      "states": [
+        "TX",
+        "OH"
+      ],
+      "citation_slugs": [
+        "tx-edwards-rg348",
+        "houston-tx",
+        "ohio-rainwater"
+      ]
+    }
+  ],
+  "open_issues": "Tier A coverage mentions manufactured treatment in 37 of 76 scanned manuals, but nearly half of the pool lacks extracted numeric values for WQv depth (45 missing), drawdown (38 missing), and SHWT separation (38 missing), so national numeric consensus for MTD-specific design—treatment flow path, internal storage, maintenance frequency, and independent verification—is not established from this matrix. Site-wide mode values (1 inch WQv, 72-hour drawdown mode with 48-hour median, 24-inch SHWT mode with 36-inch median) describe jurisdictional stormwater sizing context, not verified facility specifications for proprietary devices. Extreme drawdown outliers (4 hours in Florida FSESCI Tier 1, 120 hours in Mississippi) and SHWT span (12 to 120 inches, including San Diego 120 inches) indicate regional policy divergence that the synthesis does not resolve into a single MTD design envelope. Chapter proxies and draft manuals in the extract set add uncertainty for committees seeking adopted language.",
+  "matrix_summary": "From Tier A manuals mentioning manufactured treatment (37/76), extracted site-wide numerics show WQv depth n=30 with mode and median 1 inch (range 0.37–1.61 in.), max drawdown n=36 with mode 72 hours and median 48 hours (range 4–120 hr), and SHWT separation n=36 with mode 24 in. and median 36 in. (range 12–120 in.); these counts reflect jurisdictional sizing context cited alongside MTD practice mentions, not a unified national standard for device geometry or performance.",
+  "supporting_slugs": [
+    "ak-state",
+    "arkansas-manual",
+    "billings-mt",
+    "boise-id",
+    "boston-ma",
+    "ca-caltrans-construction",
+    "ca-casqa-municipal",
+    "chesapeake-va",
+    "ct-state",
+    "dallas-tx",
+    "dc-guidebook",
+    "detroit-mi",
+    "hawaii-dot-pcbmp",
+    "idaho-bmp-catalog",
+    "indiana-manual",
+    "kansas-city-marc-bmp",
+    "los-angeles-ca",
+    "ma-state-draft",
+    "maine-manual",
+    "minneapolis-mn",
+    "missouri-manual",
+    "mn-state-2008",
+    "mt-deq8",
+    "nh-state",
+    "nj-state",
+    "norfolk-va",
+    "pa-state",
+    "philadelphia-pa",
+    "portland-or",
+    "raleigh-nc",
+    "san-diego-ca",
+    "san-francisco-ca",
+    "seattle-wa",
+    "south-carolina-manual",
+    "tn-state",
+    "tx-edwards-rg348",
+    "va-state"
+  ]
+}

@@ -59,6 +59,46 @@
       "field": "design_criteria.approved_bmp_categories",
       "excerpt": "Bioretention, Infiltration Trench, Wet Pond, Dry Pond",
       "page_or_section": null
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "The outlet structure should be designed to convey the appropriate design flow and dewater the basin completely within 48 hours after the end of each event.",
+      "page_or_section": "Chapter 14, §14.15 / page 799"
+    },
+    {
+      "field": "design_parameters.ed_drain_time_hours",
+      "excerpt": "The outlet structure should be designed to convey the appropriate design flow and dewater the basin completely within 48 hours after the end of each event.",
+      "page_or_section": "Chapter 14, §14.15 / page 799"
+    },
+    {
+      "field": "design_parameters.shwt_separation_inches",
+      "excerpt": "Min. 24 in. between bottom and bedrock/seasonal high groundwater table if designed as infiltration system",
+      "page_or_section": "Figure 14.2 Vegetated Swale Summary / page 760"
+    },
+    {
+      "field": "design_parameters.design_infiltration_rate_in_per_hr",
+      "excerpt": "Under the vegetated surface layer is approximately 24 in. of permeable soil (minimum 0.5 in/hr infiltration rate) containing a high level of organic matter.",
+      "page_or_section": "Chapter 14, Vegetated Swale / page 760"
+    },
+    {
+      "field": "design_parameters.length_to_width_ratio",
+      "excerpt": "The minimum flow length to width ratio is 2:1.",
+      "page_or_section": "Chapter 12, Sediment Basin / page 658"
+    },
+    {
+      "field": "design_parameters.swale_bottom_width_inches",
+      "excerpt": "Bottom width 2-8 ft",
+      "page_or_section": "Figure 14.2 Vegetated Swale Summary / page 760"
+    },
+    {
+      "field": "design_parameters.shwt_separation_inches",
+      "excerpt": "Min. 24 in. between bottom and bedrock/seasonal high GWT",
+      "page_or_section": "Figure 14.9 Infiltration Berm Summary / page 765"
+    },
+    {
+      "field": "design_parameters.length_to_width_ratio",
+      "excerpt": "A reduction of 25 m3 (350 ft3) per total contributing hectare (acre) may be utilized for basins with length to width ratios of 4:1 or greater.",
+      "page_or_section": "Chapter 12, Sediment Basin / page 658"
     }
   ],
   "extraction_quality": {
@@ -74,5 +114,50 @@
     "landing_page_url": "https://www.pa.gov/agencies/penndot/programs-and-doing-business/environment/hydrology-and-hydraulics",
     "retrieved_at": "2026-08-11T17:21:05.997Z",
     "original_filename": "pa-penndot-drainage.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": null,
+    "max_drawdown_hours": 48,
+    "shwt_separation_inches": 24,
+    "bioretention_media_depth_min_inches": null,
+    "bioretention_ponding_depth_inches": null,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": 0.5,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": 48,
+    "length_to_width_ratio": 2,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": 24,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "bioretention",
+      "constructed_wetland",
+      "extended_detention",
+      "infiltration_basin",
+      "infiltration_trench",
+      "manufactured_treatment",
+      "permeable_pavement",
+      "swale",
+      "wet_pond"
+    ],
+    "enriched_at": "2026-08-13T09:37:53.875Z",
+    "enrich_model": "composer-2.5:run-b4d29efd-c873-49ac-8593-f8765cbca79d",
+    "enrich_notes": "PennDOT Pub 584 Ch.14 gives SCM summary sheets; Ch.12 sediment basins use 2:1 min L:W and 4–7 day dewatering (days, not WQV depth). Wet pond permanent pool sized as 3×WQV (volume, no inch depth in excerpts). SHWT/limiting zone often cited as 24 in or 2 ft from infiltration interface. BUD allows max 72 hr drawdown separately from general 48 hr outlet dewatering.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "wqv_depth_inches",
+      "bioretention_media_depth_min_inches",
+      "bioretention_ponding_depth_inches",
+      "permeable_pavement_storage_depth_inches",
+      "permanent_pool_depth_inches",
+      "wetland_detention_hours",
+      "swale_longitudinal_slope_percent",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

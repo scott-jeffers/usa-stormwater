@@ -1,0 +1,39 @@
+Stormwater Atlas
+https://stormwateratlas.com
+
+Copyright (c) 2026 Scott Jeffers
+
+This repository contains multiple kinds of material, licensed as follows.
+
+1. Software
+
+   Original source code (including app/, components/, lib/, scripts/, and
+   related configuration) is licensed under the MIT License. See LICENSE.
+
+2. Original dataset
+
+   Original structured data created for this project — including the
+   compilation in data/documents/, national outline and drafts, schemas,
+   summaries, and other original annotations — is licensed under Creative
+   Commons Attribution 4.0 International (CC BY 4.0):
+
+   https://creativecommons.org/licenses/by/4.0/
+
+   You must give appropriate credit to Stormwater Atlas
+   (https://stormwateratlas.com) when you reuse this dataset.
+
+3. Third-party excerpts and source manuals
+
+   Verbatim excerpts quoted in evidence fields, and the underlying
+   stormwater design manuals themselves, remain the copyright of the
+   issuing federal, state, tribal, or local agencies (or other rights
+   holders). Those materials are not licensed under MIT or CC BY 4.0.
+
+   Short excerpts are included as citations to the source manuals. Source
+   PDFs are not redistributed in this repository. Consult the original
+   agency document for official requirements.
+
+4. Not official regulatory text
+
+   Stormwater Atlas is a research and reference aid. It is not a substitute
+   for the adopted ordinance, permit, or design manual of any jurisdiction.

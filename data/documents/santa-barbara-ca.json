@@ -42,6 +42,71 @@
       "field": "design_criteria.water_quality_volume_method",
       "excerpt": "retain the 1.2\", 24-hour rainfall event for all replaced impervious area and the 2.4\", 24-hour rainfall event for all new impervious area",
       "page_or_section": "§6.2"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "Design drawdown time hrs 72",
+      "page_or_section": "Table 6-23, page 147"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "Drawdown time of gravel drainage layer hrs 72 (maximum)",
+      "page_or_section": "Table 6-28, page 166"
+    },
+    {
+      "field": "design_parameters.bioretention_media_depth_min_inches",
+      "excerpt": "Planting soil depth feet 2 minimum; 3 preferred",
+      "page_or_section": "Table 6-3, page 81"
+    },
+    {
+      "field": "design_parameters.bioretention_media_depth_min_inches",
+      "excerpt": "Planting soil depth shall be a minimum of 2 feet",
+      "page_or_section": "Section 6.6.1.3, page 81"
+    },
+    {
+      "field": "design_parameters.bioretention_ponding_depth_inches",
+      "excerpt": "Minimum/maximum ponding depth inches 3 minimum (6 preferred) /12 maximum",
+      "page_or_section": "Table 6-3, page 81"
+    },
+    {
+      "field": "design_parameters.permanent_pool_depth_inches",
+      "excerpt": "Depth without sediment storage feet 4 (first cell minimum)",
+      "page_or_section": "Table 6-49, page 218"
+    },
+    {
+      "field": "design_parameters.ed_drain_time_hours",
+      "excerpt": "Drawdown time for extended detention (over permanent pool) hours 48",
+      "page_or_section": "Table 6-49, page 218"
+    },
+    {
+      "field": "design_parameters.ed_drain_time_hours",
+      "excerpt": "A drawdown time of 36 to 48 hours shall be provided for the water quality design volume, Vwq",
+      "page_or_section": "Section 6.10.3, page 243"
+    },
+    {
+      "field": "design_parameters.length_to_width_ratio",
+      "excerpt": "The forebay shall be designed with a minimum length to width ratio of 2:1",
+      "page_or_section": "Section 6.7.3, page 148"
+    },
+    {
+      "field": "design_parameters.wqv_depth_inches",
+      "excerpt": "one-inch, 24-hr storm event ... or ... 2.4 inch, 24-hr storm event",
+      "page_or_section": "Appendix D Bioretention Worksheet, page 284"
+    },
+    {
+      "field": "design_parameters.design_infiltration_rate_in_per_hr",
+      "excerpt": "infiltration rate measured be between 0.05 and 2.4 in/hr",
+      "page_or_section": "Section 4.4, page 53"
+    },
+    {
+      "field": "design_parameters.permeable_pavement_storage_depth_inches",
+      "excerpt": "Minimum 3\" for walkways and patios, and 12\" for vehicular areas",
+      "page_or_section": "Table 6-28, page 166"
+    },
+    {
+      "field": "design_parameters.shwt_separation_inches",
+      "excerpt": "Groundwater separation must be at least 5 feet between bottom of the basin, trench, or dry well and the measured seasonally high groundwater surface elevation",
+      "page_or_section": "Section 6.7, page 146"
     }
   ],
   "extraction_quality": {
@@ -57,5 +122,51 @@
     "landing_page_url": "https://santabarbaraca.gov/SWMP",
     "retrieved_at": "2026-08-10T10:42:30.501Z",
     "original_filename": "santa-barbara-ca.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": null,
+    "max_drawdown_hours": 72,
+    "shwt_separation_inches": null,
+    "bioretention_media_depth_min_inches": 24,
+    "bioretention_ponding_depth_inches": 3,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": null,
+    "permanent_pool_depth_inches": 48,
+    "ed_drain_time_hours": 48,
+    "length_to_width_ratio": 2,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "bioretention",
+      "constructed_wetland",
+      "extended_detention",
+      "green_roof",
+      "infiltration_basin",
+      "infiltration_trench",
+      "manufactured_treatment",
+      "permeable_pavement",
+      "sand_filter",
+      "swale"
+    ],
+    "enriched_at": "2026-08-13T10:04:36.500Z",
+    "enrich_model": "composer-2.5:run-2a545aa7-b654-4852-825a-29e8e0080fa2",
+    "enrich_notes": "Infiltration suitability range 0.05–2.4 in/hr (field measured); kdesign from measured rate divided by safety factor F per Appendix D. Tiered sizing uses 1-inch and 2.4-inch 24-hr storm volumes in Appendix D worksheets. Bioretention drawdown of planting soil is 48 hr; infiltration BMP design drawdown is 72 hr; permeable pavement gravel layer drawdown max 72 hr. SHWT separation is 2 ft (with underdrains) or 5 ft (without) for bioretention and permeable pavement; infiltration BMPs require 5 ft to SHWT at basin/trench/dry well bottom.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "wqv_depth_inches",
+      "shwt_separation_inches",
+      "permeable_pavement_storage_depth_inches",
+      "design_infiltration_rate_in_per_hr",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "swale_longitudinal_slope_percent",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

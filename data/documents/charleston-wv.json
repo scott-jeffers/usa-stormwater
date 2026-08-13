@@ -42,6 +42,81 @@
       "field": "design_criteria.water_quality_volume_method",
       "excerpt": "manage on-site the first 1-inch of rainfall from an average 24-hour storm preceded by 48 hours of no measurable precipitation",
       "page_or_section": "Ch.6 Post Construction"
+    },
+    {
+      "field": "design_parameters.wqv_depth_inches",
+      "excerpt": "Volume Control (3) (i.e. Infiltration) 1 inch",
+      "page_or_section": "Table 2-4, page 39"
+    },
+    {
+      "field": "design_parameters.wqv_depth_inches",
+      "excerpt": "requires the first one (1) inch of rainfall to be managed",
+      "page_or_section": "Section 6.6.7, page 152"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "The maximum drain time for the entire storage volume (surface, planting soil, and gravel if used) is 48 hours.",
+      "page_or_section": "Section 6.6.6, Table 6-6.1 procedure step 3, page 151"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "The maximum drain down time for the entire storage volume is 48 hours.",
+      "page_or_section": "Section 6.7.6, page 161"
+    },
+    {
+      "field": "design_parameters.bioretention_media_depth_min_inches",
+      "excerpt": "Minimum depth of 24 in.; 36 in. recommended; (18 in. if an infiltration sump is used )",
+      "page_or_section": "Table 6-6.3, page 153"
+    },
+    {
+      "field": "design_parameters.bioretention_media_depth_min_inches",
+      "excerpt": "Minimum Filter Media Depth • 18 inches",
+      "page_or_section": "Table 6-12.3, page 202"
+    },
+    {
+      "field": "design_parameters.bioretention_ponding_depth_inches",
+      "excerpt": "Typical Ponding Depth* 6 – 12 inches ... *Note pond depth may not exceed 18 inches",
+      "page_or_section": "Table 6-6.1, page 151"
+    },
+    {
+      "field": "design_parameters.design_infiltration_rate_in_per_hr",
+      "excerpt": "Use the Infiltration Design for tested infiltration rates > 0.5 in. per hr.",
+      "page_or_section": "Table 6-6.2, page 152"
+    },
+    {
+      "field": "design_parameters.design_infiltration_rate_in_per_hr",
+      "excerpt": "Minimum Soil Infiltration Rate • 0.5 in./hr. (or use underdrain)",
+      "page_or_section": "Table 6-12.3, page 202"
+    },
+    {
+      "field": "design_parameters.ed_drain_time_hours",
+      "excerpt": "outlets have been designed to detain stormwater runoff for some minimum time (e.g., 48 hours)",
+      "page_or_section": "Section 6.13.1, page 205"
+    },
+    {
+      "field": "design_parameters.swale_longitudinal_slope_percent",
+      "excerpt": "Longitudinal slope is no greater than 4% (check dams may be used to reduce the effective slope)",
+      "page_or_section": "Section 6.4.8 Minimum Swale Criteria, page 136"
+    },
+    {
+      "field": "design_parameters.swale_longitudinal_slope_percent",
+      "excerpt": "maximum slope of four (4) percent",
+      "page_or_section": "Section 6.4.6 step 2, page 134"
+    },
+    {
+      "field": "design_parameters.green_roof_media_depth_inches",
+      "excerpt": "Extensive green roofs that have a growing media at least four (4) inches thick",
+      "page_or_section": "Section 6.9.6 step 3, page 178"
+    },
+    {
+      "field": "design_parameters.green_roof_media_depth_inches",
+      "excerpt": "Soil media ≥ 4”",
+      "page_or_section": "Table 6-9.1, page 178"
+    },
+    {
+      "field": "design_parameters.swale_bottom_width_inches",
+      "excerpt": "Bottom Width 2-8 feet",
+      "page_or_section": "Table 6-4.1, page 134"
     }
   ],
   "extraction_quality": {
@@ -57,5 +132,49 @@
     "landing_page_url": "http://charlestonstormwater.org/sample-page/",
     "retrieved_at": "2026-08-10T10:42:30.501Z",
     "original_filename": "charleston-wv.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": 1,
+    "max_drawdown_hours": 48,
+    "shwt_separation_inches": null,
+    "bioretention_media_depth_min_inches": 18,
+    "bioretention_ponding_depth_inches": null,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": 0.5,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": 48,
+    "length_to_width_ratio": null,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": 4,
+    "green_roof_media_depth_inches": 4,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "bioretention",
+      "constructed_wetland",
+      "extended_detention",
+      "green_roof",
+      "manufactured_treatment",
+      "permeable_pavement",
+      "sand_filter",
+      "swale",
+      "wet_pond"
+    ],
+    "enriched_at": "2026-08-13T07:48:59.778Z",
+    "enrich_model": "composer-2.5:run-d0dbf0d2-cc46-4f55-b285-46d677fe03b1",
+    "enrich_notes": "WQv is 1 inch volume control (Table 2-4; Ch. 6). Bioretention filter media minimum 24 in. in Table 6-6.3 (18 in. only with infiltration sump); ponding typical 6–12 in., max 18 in. Infiltration-design threshold 0.5 in/hr (0.25 in/hr cited for infiltration sump at underdrain invert). Swale bottom width given as 2–8 ft range, not a single design width. Permeable pavement reservoir depth is site-variable (40% porosity for No. 57 stone); max drain 48 hr. Detention basins defer to external manuals; example minimum detain time 48 hr.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "shwt_separation_inches",
+      "bioretention_ponding_depth_inches",
+      "permeable_pavement_storage_depth_inches",
+      "permanent_pool_depth_inches",
+      "length_to_width_ratio",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

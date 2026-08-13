@@ -74,6 +74,11 @@
       "field": "design_criteria.approved_bmp_categories",
       "excerpt": "stormwater quantity and water quality / detention/retention",
       "page_or_section": "Plan requirements"
+    },
+    {
+      "field": "practice_mentions.swale",
+      "excerpt": "Storm drainage facility: any kind of natural or man-made structure, such as a sewer, ditch, creek, river, lake, swale, or any other facility that stormwater or runoff may flow through",
+      "page_or_section": "Glossary, page 6"
     }
   ],
   "extraction_quality": {
@@ -92,5 +97,48 @@
     "landing_page_url": "https://rva.gov/",
     "retrieved_at": "2026-08-10T08:34:54.567Z",
     "original_filename": "richmond-va.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": null,
+    "max_drawdown_hours": null,
+    "shwt_separation_inches": null,
+    "bioretention_media_depth_min_inches": null,
+    "bioretention_ponding_depth_inches": null,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": null,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": null,
+    "length_to_width_ratio": null,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "swale"
+    ],
+    "enriched_at": "2026-08-13T09:55:35.027Z",
+    "enrich_model": "composer-2.5:run-943a2b2b-ff4c-4929-82ed-a6ac1cf923c0",
+    "enrich_notes": "Excerpts are glossary, permit thresholds, CBPA/RMA/IDA process, and plan review checklists. Stormwater design criteria are delegated to the Virginia Stormwater Management Handbook (VSMH), Runoff Reduction Method/spreadsheet, and City Stormwater Management Design and Construction Standards Manual—not reproduced here. Water quality volume is defined qualitatively only. Highly permeable soils for RMA mapping use ≥6 in/hr permeability in any part of the profile to 72 in (soil classification, not SCM design infiltration rate).",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "wqv_depth_inches",
+      "max_drawdown_hours",
+      "shwt_separation_inches",
+      "bioretention_media_depth_min_inches",
+      "bioretention_ponding_depth_inches",
+      "permeable_pavement_storage_depth_inches",
+      "design_infiltration_rate_in_per_hr",
+      "permanent_pool_depth_inches",
+      "ed_drain_time_hours",
+      "length_to_width_ratio",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "swale_longitudinal_slope_percent",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

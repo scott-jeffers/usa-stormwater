@@ -95,6 +95,91 @@
       "field": "design_criteria.approved_bmp_categories",
       "excerpt": "Pre-Treatment Practices, Non-Structural Practices, Structural Stormwater Treatment Practices",
       "page_or_section": "Table of Contents"
+    },
+    {
+      "field": "design_parameters.wqv_depth_inches",
+      "excerpt": "P = 1.0 inch across Vermont",
+      "page_or_section": "Section 2.2.4 WQTS, page 16"
+    },
+    {
+      "field": "design_parameters.wqv_depth_inches",
+      "excerpt": "equivalent to the first inch of rainfall",
+      "page_or_section": "Section 2.2.4, page 16"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "Maximum dewatering time for Tv of 48 hours",
+      "page_or_section": "Section 4.3.3.1 Design Summary, page 124"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "Dry Swale Dewatering Maximum dewatering time of 48 hours",
+      "page_or_section": "Section 4.3.2.1, page 111"
+    },
+    {
+      "field": "design_parameters.shwt_separation_inches",
+      "excerpt": "Vertical separation by at least three feet from the seasonally high groundwater table (SHGWT)",
+      "page_or_section": "Section 4.3.3.1, page 124"
+    },
+    {
+      "field": "design_parameters.shwt_separation_inches",
+      "excerpt": "minimum 3 foot separation to SHGWT from the bottom of the practice",
+      "page_or_section": "Section 4.3.1.2 Bioretention Feasibility, page 101"
+    },
+    {
+      "field": "design_parameters.bioretention_media_depth_min_inches",
+      "excerpt": "Filter Bed Depth 24-48 inches",
+      "page_or_section": "Bioretention Design Summary, page 97"
+    },
+    {
+      "field": "design_parameters.bioretention_ponding_depth_inches",
+      "excerpt": "Max. Ponding Depth 12 inches",
+      "page_or_section": "Bioretention Design Summary, page 97"
+    },
+    {
+      "field": "design_parameters.design_infiltration_rate_in_per_hr",
+      "excerpt": "Infiltration rate of 0.2 in/hr or greater if exfiltrating",
+      "page_or_section": "Bioretention Design Summary, page 97"
+    },
+    {
+      "field": "design_parameters.design_infiltration_rate_in_per_hr",
+      "excerpt": "infiltration rate (fc) of at least 0.2 inches per hour",
+      "page_or_section": "Section 4.3.1.2, page 101"
+    },
+    {
+      "field": "design_parameters.permanent_pool_depth_inches",
+      "excerpt": "deep water zones with a depth equal to or greater than four feet",
+      "page_or_section": "Section 4.3.6.5 Wet Pond Treatment, page 167"
+    },
+    {
+      "field": "design_parameters.ed_drain_time_hours",
+      "excerpt": "ED storage volume shall not exceed 50% of the WQv and shall drain over 24 hours",
+      "page_or_section": "Section 4.3.5 Design Summary, page 147"
+    },
+    {
+      "field": "design_parameters.ed_drain_time_hours",
+      "excerpt": "12 hours of extended detention is required ... 24 hours of extended detention is required",
+      "page_or_section": "Section 2.2.5.2 Extended Detention Method, page 19"
+    },
+    {
+      "field": "design_parameters.length_to_width_ratio",
+      "excerpt": "Geometry (length to width ratio) 3:1 or more",
+      "page_or_section": "Section 4.3.6.1 Wet Pond Design Summary, page 159"
+    },
+    {
+      "field": "design_parameters.length_to_width_ratio",
+      "excerpt": "The minimum length to width ratio for a shallow treatment wetland is 2:1",
+      "page_or_section": "Section 4.3.5.1, page 150"
+    },
+    {
+      "field": "design_parameters.swale_bottom_width_inches",
+      "excerpt": "Swales shall have a bottom width between two and eight feet",
+      "page_or_section": "Section 4.3.2.5, page 117"
+    },
+    {
+      "field": "design_parameters.swale_longitudinal_slope_percent",
+      "excerpt": "Open channels constructed without check dams shall have a maximum longitudinal slope of 2%",
+      "page_or_section": "Section 4.3.2.2, page 114"
     }
   ],
   "extraction_quality": {
@@ -108,5 +193,46 @@
     "landing_page_url": "https://dec.vermont.gov/watershed/stormwater",
     "retrieved_at": "2026-08-07T11:29:27.033Z",
     "original_filename": "vt-state.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": 1,
+    "max_drawdown_hours": 48,
+    "shwt_separation_inches": 36,
+    "bioretention_media_depth_min_inches": 24,
+    "bioretention_ponding_depth_inches": 12,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": 0.2,
+    "permanent_pool_depth_inches": 48,
+    "ed_drain_time_hours": 24,
+    "length_to_width_ratio": 3,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": 24,
+    "swale_longitudinal_slope_percent": 2,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "bioretention",
+      "constructed_wetland",
+      "extended_detention",
+      "green_roof",
+      "infiltration_basin",
+      "infiltration_trench",
+      "permeable_pavement",
+      "sand_filter",
+      "swale",
+      "wet_pond"
+    ],
+    "enriched_at": "2026-08-13T10:30:00.163Z",
+    "enrich_model": "composer-2.5:run-04344fd1-11a2-45d2-9bba-38e073f0f471",
+    "enrich_notes": "WQv uses P=1.0 inch (90th percentile / first inch). Minimum 0.2 watershed inches WQV for low-impervious pervious areas. SHGWT separation is tiered for bioretention/dry swale/filtering when infiltrating >WQv: 36 in (3 ft) default, 24 in if CDA ≤1 ac and >50% impervious, 12 in if CDA ≤1 ac and ≤50% impervious. Infiltration trenches/basins require 36 in to SHGWT/bedrock (12 in for qualifying dry wells). Channel protection extended detention: 12 h cold-water fisheries, 24 h warm-water. Shallow surface treatment wetland minimum flowpath 2:1; gravel wetland 1:1; wet pond 3:1. Bioretention filter drain time recommended max 48 h.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "permeable_pavement_storage_depth_inches",
+      "wetland_detention_hours",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

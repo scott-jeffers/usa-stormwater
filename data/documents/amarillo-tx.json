@@ -82,6 +82,26 @@
       "field": "design_criteria.approved_bmp_categories",
       "excerpt": "Detention and Retention",
       "page_or_section": "1.3.15"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "The maximum ponding time recommended is 72 hours.",
+      "page_or_section": "9.7.1 Infiltration Basin, Section 9, page 9-30"
+    },
+    {
+      "field": "design_parameters.design_infiltration_rate_in_per_hr",
+      "excerpt": "The soils must have an infiltration rate of 0.27 inches/hour or greater to be considered for an infiltration basin.",
+      "page_or_section": "9.7.1 Infiltration Basin, Section 9, page 9-30"
+    },
+    {
+      "field": "design_parameters.shwt_separation_inches",
+      "excerpt": "The seasonally high water table should be 1 to 2 feet below the bottom of the swale.",
+      "page_or_section": "9.7.3 Vegetated Swales, Section 9, page 9-33"
+    },
+    {
+      "field": "design_parameters.swale_longitudinal_slope_percent",
+      "excerpt": "The grade of the channel should be as flat as possible, and should not exceed 2 percent.",
+      "page_or_section": "9.7.3 Vegetated Swales, Section 9, page 9-33"
     }
   ],
   "extraction_quality": {
@@ -99,5 +119,47 @@
     "landing_page_url": "https://www.amarillo.gov/capital-projects-and-development/",
     "retrieved_at": "2026-08-10T08:48:28.515Z",
     "original_filename": "amarillo-tx.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": null,
+    "max_drawdown_hours": 72,
+    "shwt_separation_inches": 12,
+    "bioretention_media_depth_min_inches": null,
+    "bioretention_ponding_depth_inches": null,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": 0.27,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": null,
+    "length_to_width_ratio": null,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": 2,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "extended_detention",
+      "infiltration_basin",
+      "infiltration_trench",
+      "swale"
+    ],
+    "enriched_at": "2026-08-13T07:24:19.269Z",
+    "enrich_model": "composer-2.5:run-2f43ba3b-20d2-46b9-b972-437e7b3bfbd8",
+    "enrich_notes": "Manual emphasizes detention/retention, playas, and Section 9 BMPs. Infiltration basins require soil infiltration ≥0.27 in/hr and max ponding 72 hr (dm=f×TP). Parking-lot detention: max 7 in ponding, drain ≤30 min; property-line swales allow up to 6 in temporary ponding. No explicit WQv rainfall depth; hydrology uses Rational Method with 2–100-year intensities. Combination detention/infiltration spillway crest tied to three-day (72 hr) infiltration capacity.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "wqv_depth_inches",
+      "bioretention_media_depth_min_inches",
+      "bioretention_ponding_depth_inches",
+      "permeable_pavement_storage_depth_inches",
+      "permanent_pool_depth_inches",
+      "ed_drain_time_hours",
+      "length_to_width_ratio",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

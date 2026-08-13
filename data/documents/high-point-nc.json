@@ -45,6 +45,36 @@
       "field": "design_criteria.water_quality_volume_method",
       "excerpt": "must control the first 1” of rainfall ... Additional BMPs ... control the first ½” of rainfall",
       "page_or_section": "Introduction"
+    },
+    {
+      "field": "design_parameters.wqv_depth_inches",
+      "excerpt": "All WS-IV water supply watersheds using the high-density option must control the first 1\" of rainfall on any site that exceeds 24% built-upon area.",
+      "page_or_section": "INTRODUCTION, page 2"
+    },
+    {
+      "field": "design_parameters.wqv_depth_inches",
+      "excerpt": "In the lower Randleman watershed, any site that exceeds 12% built-upon area must control the first 1\" of rainfall.",
+      "page_or_section": "INTRODUCTION, page 2"
+    },
+    {
+      "field": "practice_mentions.wet_pond",
+      "excerpt": "In addition to North Carolina Division of Water Quality BMP Manual, Chapter 10, Wet Detention Basin, the City of High Point requires the following additional wet detention basin design elements:",
+      "page_or_section": "INTRODUCTION, page 2"
+    },
+    {
+      "field": "practice_mentions.extended_detention",
+      "excerpt": "Additional BMPs include natural infiltration areas, dry detention ponds, and infiltration trenches.",
+      "page_or_section": "INTRODUCTION, page 2"
+    },
+    {
+      "field": "practice_mentions.infiltration_trench",
+      "excerpt": "Additional BMPs include natural infiltration areas, dry detention ponds, and infiltration trenches.",
+      "page_or_section": "INTRODUCTION, page 2"
+    },
+    {
+      "field": "practice_mentions.infiltration_basin",
+      "excerpt": "Additional BMPs include natural infiltration areas, dry detention ponds, and infiltration trenches.",
+      "page_or_section": "INTRODUCTION, page 2"
     }
   ],
   "extraction_quality": {
@@ -58,5 +88,50 @@
     "landing_page_url": "https://www.highpointnc.gov/",
     "retrieved_at": "2026-08-10T10:02:27.846Z",
     "original_filename": "high-point-nc.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": 1,
+    "max_drawdown_hours": null,
+    "shwt_separation_inches": null,
+    "bioretention_media_depth_min_inches": null,
+    "bioretention_ponding_depth_inches": null,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": null,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": null,
+    "length_to_width_ratio": null,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "extended_detention",
+      "infiltration_basin",
+      "infiltration_trench",
+      "wet_pond"
+    ],
+    "enriched_at": "2026-08-13T08:34:46.687Z",
+    "enrich_model": "composer-2.5:run-0c96bfe6-64a2-4ce0-a4e0-81a3e01911bb",
+    "enrich_notes": "Adopts NC DWQ Stormwater BMP Manual jurisdiction-wide. WS-IV high-density: first 1 inch rainfall and 85% TSS where BUA exceeds 24% (12% in lower Randleman). City additional BMPs for BUA between 6% and those thresholds require control of first 0.5 inch via natural infiltration areas, dry detention ponds, infiltration trenches, or other BMPs controlling first 0.5 inch. Wet detention per NC DWQ Ch. 10 plus city extras: principal spillway 10-year pre-development (post ≤ pre for 10-year); emergency spillway 100-year; minimum 1 ft between principal and emergency spillway elevations; minimum 1 ft freeboard from 100-year pool to dam crest; minimum 2 ft between emergency spillway and dam top. Principal spillway barrel minimum 15 inches diameter. Not a standalone numeric design chapter—detailed SCM parameters deferred to NC DWQ manual except wet detention spillway/freeboard items above.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "max_drawdown_hours",
+      "shwt_separation_inches",
+      "bioretention_media_depth_min_inches",
+      "bioretention_ponding_depth_inches",
+      "permeable_pavement_storage_depth_inches",
+      "design_infiltration_rate_in_per_hr",
+      "permanent_pool_depth_inches",
+      "ed_drain_time_hours",
+      "length_to_width_ratio",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "swale_longitudinal_slope_percent",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

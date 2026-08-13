@@ -88,6 +88,36 @@
       "field": "design_criteria.approved_bmp_categories",
       "excerpt": "Examples include grass swales, filter strips, constructed wetlands, rain gardens and other bioretention practices. ... wet ponds, dry basins, or multi-chamber catch basins ... infiltration basins, subsurface trenches and pervious pavements. Chapter 6 practices include Green Roofs, Cisterns/Storage Tanks, Rain Gardens, Infiltration Trenches, Dry wells, Pervious Pavements, Tree Box and Tree Vault, Bioretention, Bioswales (Vegetative Swales), Filter strips, Wet Ponds, Constructed Wetlands.",
       "page_or_section": "Chapter 3, Section 3.1; Chapter 6"
+    },
+    {
+      "field": "design_parameters.ed_drain_time_hours",
+      "excerpt": "Extended Dry Detention Basin: any detention facility, vegetated with native plants, designed to permit no permanent impoundment of water but designed to detain the water quality volume for 40 hours.",
+      "page_or_section": "Appendix A | page 238"
+    },
+    {
+      "field": "design_parameters.ed_drain_time_hours",
+      "excerpt": "Extended Wet Detention Basin: any detention facility designed to include a permanent pool and designed to detain the water quality volume for 40 hours.",
+      "page_or_section": "Appendix A | page 238"
+    },
+    {
+      "field": "design_parameters.permanent_pool_depth_inches",
+      "excerpt": "Minimum average depths of 6 to 8 feet help provide long term storage capacity for sediment.",
+      "page_or_section": "Chapter 6 | page 211"
+    },
+    {
+      "field": "design_parameters.wqv_depth_inches",
+      "excerpt": "Research in Milwaukee, WI (Pitt, 1999) demonstrates rains between 0.5 and 1.5 inches are responsible for about 75 percent of the runoff pollutant discharges",
+      "page_or_section": "Chapter 5 | page 145"
+    },
+    {
+      "field": "design_parameters.shwt_separation_inches",
+      "excerpt": "Even for those compounds with low contamination potential from surface infiltration, the depth to the groundwater must be considered if it is shallow (1 m or less in a sandy soil).",
+      "page_or_section": "Chapter 5 | page 149"
+    },
+    {
+      "field": "design_parameters.bioretention_media_depth_min_inches",
+      "excerpt": "Depth of amended soils is critical where specific infiltration volumes are assumed as part of stormwater control measure performance.",
+      "page_or_section": "Chapter 6 | page 161"
     }
   ],
   "extraction_quality": {
@@ -105,5 +135,57 @@
     "landing_page_url": "https://dnr.mo.gov/document-search/missouri-guide-green-infrastructure-pub2446",
     "retrieved_at": "2026-08-10T07:09:00.000Z",
     "original_filename": "missouri-manual.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": null,
+    "max_drawdown_hours": null,
+    "shwt_separation_inches": null,
+    "bioretention_media_depth_min_inches": null,
+    "bioretention_ponding_depth_inches": null,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": null,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": 40,
+    "length_to_width_ratio": null,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "bioretention",
+      "constructed_wetland",
+      "extended_detention",
+      "green_roof",
+      "infiltration_basin",
+      "infiltration_trench",
+      "manufactured_treatment",
+      "permeable_pavement",
+      "sand_filter",
+      "swale",
+      "wet_pond"
+    ],
+    "enriched_at": "2026-08-13T09:13:56.493Z",
+    "enrich_model": "composer-2.5:run-c3536682-e8e6-474e-a4ac-5c0fa0f21f82",
+    "enrich_notes": "Missouri PUB2446 is GI guidance, not a sizing manual. Appendix A defines Extended Dry Detention and Extended Wet Detention basins as detaining the water quality volume for 40 hours. Page 145 cites literature that 0.5–1.5 inch rains drive most pollutant mass (not a mandated WQv depth). Wet pond siting cites minimum average depths of 6–8 ft (ambiguous for a single permanent_pool_depth_inches). Constructed wetland zones: open water >18 in, low marsh 6–18 in, high marsh up to 6 in. SHWT: infiltration may be inappropriate if groundwater shallow (1 m or less in sandy soil) per Table 5.4 footnote—not a design separation requirement in inches.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "wqv_depth_inches",
+      "max_drawdown_hours",
+      "shwt_separation_inches",
+      "bioretention_media_depth_min_inches",
+      "bioretention_ponding_depth_inches",
+      "permeable_pavement_storage_depth_inches",
+      "design_infiltration_rate_in_per_hr",
+      "permanent_pool_depth_inches",
+      "length_to_width_ratio",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "swale_longitudinal_slope_percent",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

@@ -33,11 +33,6 @@
   },
   "evidence": [
     {
-      "field": "document_metadata.jurisdiction_name",
-      "excerpt": "Maryland",
-      "page_or_section": "Title / header"
-    },
-    {
       "field": "document_metadata.document_title",
       "excerpt": "MDOT SHA Drainage Manual",
       "page_or_section": "Title / header"
@@ -56,14 +51,30 @@
       "field": "design_criteria.water_quality_volume_method",
       "excerpt": "Water Quality Volume Maryland Department of Transportation Chapter 1: Introduction P a g e | 1-10 State Highway Administration September 2023 Table 1-3: Symbols SYMBOL DEFINITION UNITS A Area of cross section of flow ft2",
       "page_or_section": null
+    },
+    {
+      "field": "practice_mentions.swale",
+      "excerpt": "Roadside, Median, and Interceptor ditches or swales 10-year 9 inches below edge of shoulder",
+      "page_or_section": "Table 3-1, Section 3.4 (page 3-5)"
+    },
+    {
+      "field": "practice_mentions.swale",
+      "excerpt": "Shallow Concentrated Flow is flow in swales, rills, and gullies that are assumed to not have a well-defined / regular channel shape.",
+      "page_or_section": "Section 2.5.4 (page 2-9)"
+    },
+    {
+      "field": "practice_mentions.swale",
+      "excerpt": "Grate Inlet. A drainage inlet composed of a grate in the roadway section or in the roadside swale or channel.",
+      "page_or_section": "Section 5.1.4 Definitions (page 5-2)"
     }
   ],
   "extraction_quality": {
     "confidence": "medium",
     "needs_human_review": true,
-    "review_notes": "Heuristic agency extract from prepared text. MDOT SHA Drainage Manual",
+    "review_notes": "Heuristic agency extract from prepared text. MDOT SHA Drainage Manual Pipeline excerpt repair removed 1 unlocated citation(s).",
     "fields_not_found": [
-      "design_criteria.approved_bmp_categories"
+      "design_criteria.approved_bmp_categories",
+      "document_metadata.jurisdiction_name"
     ]
   },
   "source": {
@@ -71,5 +82,48 @@
     "landing_page_url": "https://roads.maryland.gov/",
     "retrieved_at": "2026-08-11T17:59:10.538Z",
     "original_filename": "md-sha-drainage.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": null,
+    "max_drawdown_hours": null,
+    "shwt_separation_inches": null,
+    "bioretention_media_depth_min_inches": null,
+    "bioretention_ponding_depth_inches": null,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": null,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": null,
+    "length_to_width_ratio": null,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "swale"
+    ],
+    "enriched_at": "2026-08-13T09:06:37.112Z",
+    "enrich_model": "composer-2.5:run-8c319f30-bf33-41a1-b2e7-a9fbefafa335",
+    "enrich_notes": "Excerpts are highway drainage (hydrology, channels, culverts, storm drains), not MD SWM BMP sizing. Stormwater Management is referenced externally (1.6). Roadside/median interceptor ditches or swales use 10-year design frequency with 9 in freeboard below shoulder (Table 3-1). Shallow concentrated flow in swales uses NEH velocities; no SCM drawdown, WQV depth, infiltration design rate, or BMP media depths in corpus.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "wqv_depth_inches",
+      "max_drawdown_hours",
+      "shwt_separation_inches",
+      "bioretention_media_depth_min_inches",
+      "bioretention_ponding_depth_inches",
+      "permeable_pavement_storage_depth_inches",
+      "design_infiltration_rate_in_per_hr",
+      "permanent_pool_depth_inches",
+      "ed_drain_time_hours",
+      "length_to_width_ratio",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "swale_longitudinal_slope_percent",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

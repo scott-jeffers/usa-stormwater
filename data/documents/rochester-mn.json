@@ -49,6 +49,46 @@
       "field": "document_metadata.relationship_to_state_manual",
       "excerpt": "independent city storm water management plan",
       "page_or_section": "Preface"
+    },
+    {
+      "field": "design_parameters.wqv_depth_inches",
+      "excerpt": "the City has selected the 1-year, 6-hour storm event as the criteria for sizing the water quality (permanent pool) volume for treatment ponds. For the Rochester area, this event is equal to 1.8 inches of rainfall.",
+      "page_or_section": "6.3 Design Criteria for Water Quality, page 91"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "Infiltration trenches should be designed for a maximum of 6 days holding time.",
+      "page_or_section": "10.4 Infiltration, page 135"
+    },
+    {
+      "field": "design_parameters.design_infiltration_rate_in_per_hr",
+      "excerpt": "Soils within the site should have the capacity to infiltrate 0.25 to 0.3 inches / hour to be effective in operation.",
+      "page_or_section": "10.4 Infiltration, page 117 (corpus page 134)"
+    },
+    {
+      "field": "design_parameters.shwt_separation_inches",
+      "excerpt": "recommends a separation distance of 2 to 4 feet between the bottom of the structure and the seasonally high water table.",
+      "page_or_section": "10.4 Infiltration, page 118"
+    },
+    {
+      "field": "practice_mentions.wet_pond",
+      "excerpt": "Wet detention basins are the most effective means of removing sediment and the pollutants associated with it",
+      "page_or_section": "6.3 Design Criteria for Water Quality, page 91"
+    },
+    {
+      "field": "practice_mentions.infiltration_basin",
+      "excerpt": "These practices include the use of grass swales, infiltration trenches and infiltration ponds.",
+      "page_or_section": "10.4 Infiltration, page 117"
+    },
+    {
+      "field": "practice_mentions.infiltration_trench",
+      "excerpt": "Infiltration ponds and trenches operate much like an on-site waste water treatment system.",
+      "page_or_section": "10.4 Infiltration, page 117"
+    },
+    {
+      "field": "practice_mentions.swale",
+      "excerpt": "Runoff should be pre-treated by a sedimentation pond or grassed swale before discharging to an infiltration structure.",
+      "page_or_section": "10.4 Infiltration, page 135"
     }
   ],
   "extraction_quality": {
@@ -64,5 +104,49 @@
     "landing_page_url": "https://www.rochestermn.gov/",
     "retrieved_at": "2026-08-10T09:54:53.513Z",
     "original_filename": "rochester-mn.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": 1.8,
+    "max_drawdown_hours": 144,
+    "shwt_separation_inches": null,
+    "bioretention_media_depth_min_inches": null,
+    "bioretention_ponding_depth_inches": null,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": null,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": null,
+    "length_to_width_ratio": null,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "infiltration_basin",
+      "infiltration_trench",
+      "swale",
+      "wet_pond"
+    ],
+    "enriched_at": "2026-08-13T09:57:07.370Z",
+    "enrich_model": "composer-2.5:run-c1a41be9-5338-432f-8d26-baad987711d9",
+    "enrich_notes": "Water-quality permanent pool volume is sized to the 1-year, 6-hour storm (1.8 in rainfall); Figure 6-5 gives runoff depth by curve number, not a single runoff depth. Wet detention discussed for sediment/pollutant removal with 24–48+ hour detention context, not a single wetland_detention_hours design value. Infiltration soils must infiltrate 0.25–0.3 in/hr (range, no single design rate). EPA OWTS-style SHWT separation stated as 2–4 ft (range). Infiltration trench maximum holding time 6 days (144 h). No bioretention, permeable pavement, green roof, sand filter, manufactured treatment, or explicit extended-detention drain time in excerpts.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "shwt_separation_inches",
+      "bioretention_media_depth_min_inches",
+      "bioretention_ponding_depth_inches",
+      "permeable_pavement_storage_depth_inches",
+      "design_infiltration_rate_in_per_hr",
+      "permanent_pool_depth_inches",
+      "ed_drain_time_hours",
+      "length_to_width_ratio",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "swale_longitudinal_slope_percent",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

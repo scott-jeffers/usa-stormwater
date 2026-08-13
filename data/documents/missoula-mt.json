@@ -33,6 +33,46 @@
       "field": "document_metadata.jurisdiction_name",
       "excerpt": "City of Missoula MS4 follows Montana DEQ-8 standards",
       "page_or_section": "Coverage note"
+    },
+    {
+      "field": "max_drawdown_hours",
+      "excerpt": "Retention facilities should be designed to infiltrate, evapotranspire, and/or capture for reuse storm water and to hold runoff no more than 72 hours.",
+      "page_or_section": "5.1 GENERAL, page 29"
+    },
+    {
+      "field": "max_drawdown_hours",
+      "excerpt": "Detention facilities should be designed to infiltrate, evapotranspire, and/or capture for reuse storm water and to hold runoff no more than 72 hours.",
+      "page_or_section": "6.1 GENERAL, page 31"
+    },
+    {
+      "field": "max_drawdown_hours",
+      "excerpt": "Infiltration facilities must: ... D. Be sized to drain within 48 hours;",
+      "page_or_section": "7.2 DESIGNS, page 34"
+    },
+    {
+      "field": "shwt_separation_inches",
+      "excerpt": "For detention facilities that have a minimum one-foot separation from the bottom of the facility to the seasonally high groundwater or bedrock layer",
+      "page_or_section": "6.2 DESIGN, page 31"
+    },
+    {
+      "field": "shwt_separation_inches",
+      "excerpt": "Be constructed two feet above a limiting layer;",
+      "page_or_section": "7.2 DESIGNS (infiltration), page 34"
+    },
+    {
+      "field": "design_infiltration_rate_in_per_hr",
+      "excerpt": "The measured infiltration must be divided by a safety factor of 2.0 to arrive at the design infiltration rate.",
+      "page_or_section": "Appendix A, page 39-40"
+    },
+    {
+      "field": "practice_mentions.bioretention",
+      "excerpt": "The BMPs may include infiltration basins, bioretention, biofiltration swales, extended detention basins, wet detention basins, and proprietary treatment devices.",
+      "page_or_section": "Section 3 (standard plans BMPs), page 16"
+    },
+    {
+      "field": "practice_mentions.permeable_pavement",
+      "excerpt": "Permeable pavement systems and dispersion BMPs are not allowed as the initial storm water facility.",
+      "page_or_section": "Section 3, page 16"
     }
   ],
   "extraction_quality": {
@@ -46,5 +86,53 @@
     "landing_page_url": "https://deq.mt.gov/water",
     "retrieved_at": "2026-08-10T10:27:43.524Z",
     "original_filename": "missoula-mt.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": null,
+    "max_drawdown_hours": 72,
+    "shwt_separation_inches": 12,
+    "bioretention_media_depth_min_inches": null,
+    "bioretention_ponding_depth_inches": null,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": null,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": null,
+    "length_to_width_ratio": null,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "bioretention",
+      "extended_detention",
+      "infiltration_basin",
+      "infiltration_trench",
+      "manufactured_treatment",
+      "permeable_pavement",
+      "swale",
+      "wet_pond"
+    ],
+    "enriched_at": "2026-08-13T09:13:14.517Z",
+    "enrich_model": "composer-2.5:run-6850f362-3e07-4cea-b7d1-b5d020bb3243",
+    "enrich_notes": "Montana DEQ-8 (Sanitation Act subdivisions): Initial Storm Water Facility volume is referenced via Chapter 3/Section 3.4 but the 0.5-inch WQv depth is not in these excerpts. Standard-plan BMPs may follow Montana Post-Construction Storm Water BMP Design Manual (Sept 2017) for 80% TSS; permeable pavement and dispersion BMPs are not allowed as the initial facility. Infiltration requires 24 in (2 ft) above a limiting layer at the infiltrative surface—broader than the 12 in SHWT/bedrock separation for detention; retention requires pond bottom 12 in above any limiting layer. Infiltration facilities must drain within 48 hours; retention and detention should not hold runoff more than 72 hours. Design infiltration rate is measured rate ÷ 2.0 safety factor per Appendix A; Table 3 rates are not included in excerpts.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "wqv_depth_inches",
+      "bioretention_media_depth_min_inches",
+      "bioretention_ponding_depth_inches",
+      "permeable_pavement_storage_depth_inches",
+      "design_infiltration_rate_in_per_hr",
+      "permanent_pool_depth_inches",
+      "ed_drain_time_hours",
+      "length_to_width_ratio",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "swale_longitudinal_slope_percent",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

@@ -90,6 +90,56 @@
       "field": "design_criteria.approved_bmp_categories",
       "excerpt": "Infiltration Systems ... Evapotranspiration (ET) Systems ... Reuse Systems ... Filtration Systems ... Detention Systems",
       "page_or_section": "Page CONTENTS"
+    },
+    {
+      "field": "design_parameters.wqv_depth_inches",
+      "excerpt": "In New York City, the 90th percentile rain event is 1.5 inches of rainfall (see NYS SWMDM).",
+      "page_or_section": "Chapter 2, page 2-13"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "MAX. Drawdown time Surface = 24hr Total = 48hr",
+      "page_or_section": "Table 4.2, page 4-17 (Bioretention)"
+    },
+    {
+      "field": "design_parameters.shwt_separation_inches",
+      "excerpt": "Vertical separation from groundwater / bedrock 3' MIN",
+      "page_or_section": "Table 4.2, page 4-17"
+    },
+    {
+      "field": "design_parameters.bioretention_media_depth_min_inches",
+      "excerpt": "Planting/filter media depth 2.5' MIN 4' MAX",
+      "page_or_section": "Table 4.2 Bioretention, page 4-17"
+    },
+    {
+      "field": "design_parameters.bioretention_ponding_depth_inches",
+      "excerpt": "Surface ponding depth 12\" MAX",
+      "page_or_section": "Table 4.2 Bioretention, page 4-17"
+    },
+    {
+      "field": "design_parameters.permeable_pavement_storage_depth_inches",
+      "excerpt": "Stone base depth ... Porous pavement ... 12\" MIN",
+      "page_or_section": "Table 4.2 continued, page 4-18"
+    },
+    {
+      "field": "design_parameters.design_infiltration_rate_in_per_hr",
+      "excerpt": "MIN. infiltration rate of underlying soils 0.5 in/hr",
+      "page_or_section": "Table 4.2, page 4-17"
+    },
+    {
+      "field": "design_parameters.ed_drain_time_hours",
+      "excerpt": "MAX. Drawdown time Temp. Storage Area = 48hr",
+      "page_or_section": "Table 4.5 Constructed Wetland / Wet Basin, page 4-29"
+    },
+    {
+      "field": "design_parameters.swale_bottom_width_inches",
+      "excerpt": "bottom width minimum of 2' and no greater than 6'",
+      "page_or_section": "Section 4.10 Vegetated swale supplementary criteria, page 4-97"
+    },
+    {
+      "field": "design_parameters.green_roof_media_depth_inches",
+      "excerpt": "Planting/filter media depth ... Green roof 4\" MIN",
+      "page_or_section": "Table 4.3, page 4-21"
     }
   ],
   "extraction_quality": {
@@ -105,5 +155,48 @@
     "landing_page_url": "https://www.nyc.gov/site/dep/water/unified-stormwater-rule.page",
     "retrieved_at": "2026-08-07T11:38:32.226Z",
     "original_filename": "nyc-ny.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": 1.5,
+    "max_drawdown_hours": 48,
+    "shwt_separation_inches": 36,
+    "bioretention_media_depth_min_inches": 30,
+    "bioretention_ponding_depth_inches": 12,
+    "permeable_pavement_storage_depth_inches": 12,
+    "design_infiltration_rate_in_per_hr": 0.5,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": 48,
+    "length_to_width_ratio": null,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": 24,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": 4,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "bioretention",
+      "constructed_wetland",
+      "extended_detention",
+      "green_roof",
+      "infiltration_basin",
+      "infiltration_trench",
+      "manufactured_treatment",
+      "permeable_pavement",
+      "sand_filter",
+      "swale",
+      "wet_pond"
+    ],
+    "enriched_at": "2026-08-13T09:30:05.370Z",
+    "enrich_model": "composer-2.5:run-95bd30d8-e950-4142-9953-a525fae55bc6",
+    "enrich_notes": "NYC WQv uses 90th percentile rainfall of 1.5 in (not runoff depth alone). Vertical separation 3 ft MIN (4 ft in sole source aquifers). Bioretention planting/filter media 2.5 ft MIN (4 ft MAX infiltration); filtration tables show 2.5 ft MIN. Surface ponding 12 in MAX (infiltration bioretention); filtration bioretention 6–12 in; ET rain gardens 3 in MAX. Drawdown: ponding areas generally within 24 hr (dry basin surface 48 hr); infiltration bioretention surface 24 hr / total 48 hr. Detention temp storage drawdown 48 hr (72 hr detention tank; blue roof 24 hr). Porous pavement stone base 12 in MIN. Green roof media 4 in MIN (6 in preferred). Swale bottom width 2–6 ft; bottom slope 0.5–4%; flow depth 4 in MAX when credited for WQv.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "permanent_pool_depth_inches",
+      "length_to_width_ratio",
+      "wetland_detention_hours",
+      "swale_longitudinal_slope_percent",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

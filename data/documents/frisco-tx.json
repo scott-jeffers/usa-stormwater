@@ -86,6 +86,46 @@
       "field": "design_criteria.approved_bmp_categories",
       "excerpt": "Detention/Retention Facility Design / Stormwater Quality Treatment",
       "page_or_section": "Section 4.09 / 4.18"
+    },
+    {
+      "field": "design_parameters.wqv_depth_inches",
+      "excerpt": "Stormwater quality volume is based on the first one-inch (1\") of rainfall.",
+      "page_or_section": "Section 4.18.A.1 / Page 4-32"
+    },
+    {
+      "field": "design_parameters.wqv_depth_inches",
+      "excerpt": "The water quality volume is calculated by using the one-inch (1\") rainfall event",
+      "page_or_section": "Section 4.18.B / Page 4-33"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "Outfall shall include a pond drain with headwall and gate valve allowing for fully drained pond within a 24-hour period",
+      "page_or_section": "Section 4.18.C.1.e / Page 4-34"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "Drain time shall not exceed forty-eight (48) hours.",
+      "page_or_section": "Section 4.18.C.2.e / Page 4-36"
+    },
+    {
+      "field": "design_parameters.bioretention_ponding_depth_inches",
+      "excerpt": "The maximum ponding depth is twelve inches (12\") above finished grade and contained within the biofiltration system.",
+      "page_or_section": "Section 4.18.C.2.d / Page 4-36"
+    },
+    {
+      "field": "design_parameters.bioretention_media_depth_min_inches",
+      "excerpt": "df = Filter bed depth (ft) 2.5 feet minimum",
+      "page_or_section": "Section 4.18.C.2.j / Page 4-37"
+    },
+    {
+      "field": "design_parameters.ed_drain_time_hours",
+      "excerpt": "t = Drain time (seconds) Orifice sized for 24-48 hours of detention",
+      "page_or_section": "Section 4.18.C.1.h / Page 4-35"
+    },
+    {
+      "field": "design_parameters.ed_drain_time_hours",
+      "excerpt": "tf = Design filter bed drain time (days) 2 days maximum",
+      "page_or_section": "Section 4.18.C.2.j / Page 4-37"
     }
   ],
   "extraction_quality": {
@@ -102,5 +142,45 @@
     "landing_page_url": "https://www.friscotexas.gov/412/Engineering-Standards",
     "retrieved_at": "2026-08-10T08:45:22.876Z",
     "original_filename": "frisco-tx.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": 1,
+    "max_drawdown_hours": 48,
+    "shwt_separation_inches": null,
+    "bioretention_media_depth_min_inches": 30,
+    "bioretention_ponding_depth_inches": 12,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": null,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": 48,
+    "length_to_width_ratio": null,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "bioretention",
+      "extended_detention",
+      "manufactured_treatment"
+    ],
+    "enriched_at": "2026-08-13T08:23:31.107Z",
+    "enrich_model": "composer-2.5:run-5c1dabdb-d77c-4545-8c29-e9fe7508e612",
+    "enrich_notes": "Frisco Engineering Standards Section 4.18 (Oct 2025): WQv from first 1 in rainfall (Rv=0.05+0.009I; WQV=1.0*Rv*A/12 acre-ft). Approved BMPs: extended detention (dry/wet pond per Section 4.09), biofiltration, mechanical separators; 80% TSS target. Extended detention: min 3 in WQ orifice; maintenance pond drain within 24 h; WQ orifice sized for 24–48 h detention. Wet pond: normal-pool WQ outfall, 5 ft littoral shelf 1 ft below normal pool. Biofiltration: max 5 ac per system; max 12 in ponding; drain ≤48 h; min 2.5 ft filter bed; 2-day max filter drain in sizing equation; underdrain and overflow (100-yr, opening ≥3 in above grade). Mechanical separators: iSWM WQ Manual §1.4 for peak WQ flow; 90% floatables; 250 µm sizing; RC manholes. No explicit SHWT separation, infiltration rate in/hr, permeable pavement, green roof, constructed wetland, or swale design dimensions in excerpts.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "shwt_separation_inches",
+      "permeable_pavement_storage_depth_inches",
+      "design_infiltration_rate_in_per_hr",
+      "permanent_pool_depth_inches",
+      "length_to_width_ratio",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "swale_longitudinal_slope_percent",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

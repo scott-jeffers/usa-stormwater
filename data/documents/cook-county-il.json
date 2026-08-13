@@ -65,6 +65,36 @@
       "field": "design_criteria.approved_bmp_categories",
       "excerpt": "For mechanical flow-through practices, such as an oil and grit separator, an effective maintenance plan is based on performing frequent inspections. The rate at which these devices collect pollutants will vary from site to site, and therefore frequent inspections (onc",
       "page_or_section": "p. 413"
+    },
+    {
+      "field": "practice_mentions.swale",
+      "excerpt": "For grassed swales that serve as overland flow routes, regular mowing should be performed to keep grass at an optimum height (less than six inches).",
+      "page_or_section": "Article 7 Maintenance, pages 412-412 (c0048)"
+    },
+    {
+      "field": "practice_mentions.permeable_pavement",
+      "excerpt": "Without proper maintenance, the void spaces in porous pavement and infiltration basins may become clogged with sediment, reducing their effectiveness.",
+      "page_or_section": "Article 7 Maintenance, pages 413-413 (c0049)"
+    },
+    {
+      "field": "practice_mentions.infiltration_basin",
+      "excerpt": "Without proper maintenance, the void spaces in porous pavement and infiltration basins may become clogged with sediment, reducing their effectiveness.",
+      "page_or_section": "Article 7 Maintenance, pages 413-413 (c0049)"
+    },
+    {
+      "field": "practice_mentions.infiltration_trench",
+      "excerpt": "For infiltration trenches and basins, the use of a mulch layer above the infiltration practice will work like a filter for the sediment transported by stormwater runoff.",
+      "page_or_section": "Article 7 Maintenance, pages 413-413 (c0049)"
+    },
+    {
+      "field": "practice_mentions.manufactured_treatment",
+      "excerpt": "For mechanical flow-through practices, such as an oil and grit separator, an effective maintenance plan is based on performing frequent inspections.",
+      "page_or_section": "Article 7 Maintenance, pages 413-413 (c0049)"
+    },
+    {
+      "field": "practice_mentions.bioretention",
+      "excerpt": "The letter will encourage the property owner to correct the condition and will provide information about the Village's cost-sharing programs for lateral rehabilitation, sump repair and installation, rain garden construction, and storm sewer extension.",
+      "page_or_section": "Appendix D Sample PSP, pages 509-509 (c0108)"
     }
   ],
   "extraction_quality": {
@@ -84,5 +114,53 @@
     "landing_page_url": "https://mwrd.org/doing-business/watershed-management-ordinance-and-infiltrationinflow/watershed-management-ordinance-wmo-and-technical-guidance-manual-tgm/technical-guidance-manual-tgm",
     "retrieved_at": "2026-08-10T09:19:00.000Z",
     "original_filename": "cook-county-il.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": null,
+    "max_drawdown_hours": null,
+    "shwt_separation_inches": null,
+    "bioretention_media_depth_min_inches": null,
+    "bioretention_ponding_depth_inches": null,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": null,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": null,
+    "length_to_width_ratio": null,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "bioretention",
+      "infiltration_basin",
+      "infiltration_trench",
+      "manufactured_treatment",
+      "permeable_pavement",
+      "swale"
+    ],
+    "enriched_at": "2026-08-13T07:59:16.198Z",
+    "enrich_model": "composer-2.5:run-b3a09755-37fd-44df-9cad-f2595a0ac126",
+    "enrich_notes": "Provided corpus excerpts cover Article 6 I/I control, LTOMP/PSP, and Article 7 maintenance—not Article 5 volume-control sizing criteria. BMP types appear mainly in maintenance narrative (porous pavement, infiltration basins/trenches, grassed swales, oil/grit separators). No explicit numeric SCM design parameters (WQv depth, drawdown, media depths, infiltration rates, etc.) in these pages. Monitoring-well spacing for volume control facilities references a numeric interval but text is encoding-corrupted in excerpt.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "wqv_depth_inches",
+      "max_drawdown_hours",
+      "shwt_separation_inches",
+      "bioretention_media_depth_min_inches",
+      "bioretention_ponding_depth_inches",
+      "permeable_pavement_storage_depth_inches",
+      "design_infiltration_rate_in_per_hr",
+      "permanent_pool_depth_inches",
+      "ed_drain_time_hours",
+      "length_to_width_ratio",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "swale_longitudinal_slope_percent",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

@@ -85,6 +85,36 @@
       "field": "design_criteria.approved_bmp_categories",
       "excerpt": "This volume covers four primary functional categories of stormwater BMPs: On-site stormwater management, Flow control BMPs, Water quality treatment BMPs, Conveyance BMPs",
       "page_or_section": "Volume 3, Chapter 2, Page 2-1"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "The surface pool drawdown time shall be a maximum of 24 hours",
+      "page_or_section": "Volume 3, Section 5.4.4 Infiltrating Bioretention, page 402 (5-70)"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "Pool Drawdown Time: The surface pool drawdown time for maximum ponding depth shall be less than 24 hours after water has ceased being added to the BMP.",
+      "page_or_section": "Appendix D, Section D-8.1, page 779 (D-17)"
+    },
+    {
+      "field": "design_parameters.bioretention_ponding_depth_inches",
+      "excerpt": "The average ponding depth shall be no less than 2 inches. The ponding depth shall be no more than 12 inches.",
+      "page_or_section": "Volume 3, Section 5.4.4 Ponding Area, page 402"
+    },
+    {
+      "field": "design_parameters.design_infiltration_rate_in_per_hr",
+      "excerpt": "Infiltration Trenches 5 5 ... Infiltrating Bioretention without underdrain 0.6 0.6 ... Infiltrating Bioretention with underdrain 0.3",
+      "page_or_section": "Table 3.3 Minimum Measured Infiltration Rates, page 294"
+    },
+    {
+      "field": "design_parameters.shwt_separation_inches",
+      "excerpt": "Minimum Vertical Separation (ft) Groundwater ... Infiltrating Bioretention without Underdrain ... Wet Season ... 3 ... Dry Season ... 8",
+      "page_or_section": "Appendix D Comprehensive Subsurface Investigation, page 768 (D-6)"
+    },
+    {
+      "field": "design_parameters.mtd_verification_program",
+      "excerpt": "Proprietary and Emerging Water Quality Treatment Technologies — refer to Section 5.8.11",
+      "page_or_section": "Volume 3, Section 3.5.2.4 Basic Treatment, page 309"
     }
   ],
   "extraction_quality": {
@@ -103,5 +133,57 @@
     "landing_page_url": "https://www.seattle.gov/sdci/codes/codes-we-enforce-(a-z)/stormwater-code",
     "retrieved_at": "2026-08-07T11:39:56.302Z",
     "original_filename": "seattle-wa.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": null,
+    "max_drawdown_hours": 24,
+    "shwt_separation_inches": null,
+    "bioretention_media_depth_min_inches": null,
+    "bioretention_ponding_depth_inches": null,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": null,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": null,
+    "length_to_width_ratio": null,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "bioretention",
+      "constructed_wetland",
+      "extended_detention",
+      "green_roof",
+      "infiltration_basin",
+      "infiltration_trench",
+      "manufactured_treatment",
+      "permeable_pavement",
+      "sand_filter",
+      "swale",
+      "wet_pond"
+    ],
+    "enriched_at": "2026-08-13T10:10:04.051Z",
+    "enrich_model": "composer-2.5:run-1532e353-8a47-4a36-868b-de5bf91de0b9",
+    "enrich_notes": "Seattle WQv is defined via continuous simulation (91% of runoff volume), not as an inch depth in the provided excerpts. Bioretention ponding: average depth not less than 2 in, maximum 12 in (6 in max in some ROW). Minimum measured infiltration rates in Table 3.3 (e.g., 5 in/hr trenches, 0.6 in/hr infiltrating bioretention without underdrain, 0.3 in/hr with underdrain); design rate is corrected measured rate per Appendix D, not a fixed manual value. Vertical separation to groundwater is BMP- and season-specific in Appendix D (e.g., 1–8 ft), with separate 10 ft and 15 ft investigation thresholds in Section 3.2. Infiltration trenches/drywells require site measured rate at least 5 in/hr for On-site List (Section 2.5). Proprietary technologies referenced without naming TAPE/NJCAT.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "wqv_depth_inches",
+      "shwt_separation_inches",
+      "bioretention_media_depth_min_inches",
+      "bioretention_ponding_depth_inches",
+      "permeable_pavement_storage_depth_inches",
+      "design_infiltration_rate_in_per_hr",
+      "permanent_pool_depth_inches",
+      "ed_drain_time_hours",
+      "length_to_width_ratio",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "swale_longitudinal_slope_percent",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

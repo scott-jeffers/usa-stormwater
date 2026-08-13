@@ -24,7 +24,14 @@ export default function AboutPage() {
         <p className="text-base leading-relaxed text-fg-secondary">
           A national atlas of U.S. stormwater design manual requirements.
           Criteria are extracted from public agency documents and paired with
-          the exact quote that supports each field.
+          the exact quote that supports each field. Source code is on{" "}
+          <a
+            href="https://github.com/scott-jeffers/usa-stormwater"
+            className="font-medium text-water-link hover:underline"
+          >
+            GitHub
+          </a>
+          .
         </p>
       </header>
 

@@ -38,6 +38,31 @@
       "field": "document_metadata.relationship_to_state_manual",
       "excerpt": "--- page 2 --- NCDEQ Stormwater BMP Manual ________________________________________________________________________________________________________ C-0. MDC for all SCMs 2 Revised: 1-3-2017 GENERAL MDC 1. SIZING. The design volume of SCMs shall take into",
       "page_or_section": "p. 2"
+    },
+    {
+      "field": "design_parameters.wqv_depth_inches",
+      "excerpt": "Rule 15A NCAC 02H .1021(6) requires that for projects designed to achieve runoff treatment, the required storm depth is one inch for non-coastal HQW and ORW management zones.",
+      "page_or_section": "GENERAL MDC 1. SIZING., page 2"
+    },
+    {
+      "field": "practice_mentions.bioretention",
+      "excerpt": "Some SCMs that allow water to infiltrate include: infiltration systems, bioretention cells, permeable pavement",
+      "page_or_section": "GENERAL MDC 2: CONTAMINATED SOILS., page 2"
+    },
+    {
+      "field": "practice_mentions.infiltration_basin",
+      "excerpt": "Some SCMs that allow water to infiltrate include: infiltration systems, bioretention cells, permeable pavement",
+      "page_or_section": "GENERAL MDC 2: CONTAMINATED SOILS., page 2"
+    },
+    {
+      "field": "practice_mentions.permeable_pavement",
+      "excerpt": "Some SCMs that allow water to infiltrate include: infiltration systems, bioretention cells, permeable pavement",
+      "page_or_section": "GENERAL MDC 2: CONTAMINATED SOILS., page 2"
+    },
+    {
+      "field": "practice_mentions.swale",
+      "excerpt": "and depending upon native soils, vegetated swales, level spreader-filter strips, and berms.",
+      "page_or_section": "GENERAL MDC 2: CONTAMINATED SOILS., page 2"
     }
   ],
   "extraction_quality": {
@@ -53,5 +78,50 @@
     "landing_page_url": "https://www.wilmingtonnc.gov/Development-Business/Development-Review/Stormwater-Permits",
     "retrieved_at": "2026-08-10T10:02:27.846Z",
     "original_filename": "wilmington-nc.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": 1,
+    "max_drawdown_hours": null,
+    "shwt_separation_inches": null,
+    "bioretention_media_depth_min_inches": null,
+    "bioretention_ponding_depth_inches": null,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": null,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": null,
+    "length_to_width_ratio": null,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "bioretention",
+      "infiltration_basin",
+      "permeable_pavement",
+      "swale"
+    ],
+    "enriched_at": "2026-08-13T10:35:03.167Z",
+    "enrich_model": "composer-2.5:run-f83db882-a551-44be-b2c7-5d386cf554fb",
+    "enrich_notes": "Corpus is NCDEQ Stormwater BMP Manual C-0 general MDC only (pages 2–7). Device-specific MDC under Rules 15A NCAC 02H .1051–.1062 and Part C are referenced but not excerpted. Required storm depth varies by program; excerpt cites 1 inch for non-coastal HQW/ORW runoff treatment under .1021(6). Wilmington coastal SA/ORW depths may differ per local ordinance. GENERAL MDC 6 requires drawdown capability but no maximum hours. Wet ponds and wetlands mentioned for maintenance pumping only.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "max_drawdown_hours",
+      "shwt_separation_inches",
+      "bioretention_media_depth_min_inches",
+      "bioretention_ponding_depth_inches",
+      "permeable_pavement_storage_depth_inches",
+      "design_infiltration_rate_in_per_hr",
+      "permanent_pool_depth_inches",
+      "ed_drain_time_hours",
+      "length_to_width_ratio",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "swale_longitudinal_slope_percent",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

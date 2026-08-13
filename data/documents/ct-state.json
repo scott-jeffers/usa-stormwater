@@ -101,6 +101,56 @@
       "field": "design_criteria.approved_bmp_categories",
       "excerpt": "This Manual includes the following major categories and types of structural stormwater BMPs that are recommended for use in Connecticut, based on their primary function: Pretreatment BMPs, Infiltration BMPs, Filtering BMPs, Stormwater Pond BMPs, Stormwater Wetland BMPs, Water Quality Conveyance BMPs, Stormwater Reuse BMPs, Proprietary BMPs, Other BMPs and BMP Accessories",
       "page_or_section": "Page 110-111, Functional Categories of Structural Stormwater BMPs"
+    },
+    {
+      "field": "design_parameters.wqv_depth_inches",
+      "excerpt": "P = 1.3 inches (90th percentile rainfall event)",
+      "page_or_section": "Chapter 4, page 53"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "Bioretention system should completely drain in 48 hours or less after the end of the design storm",
+      "page_or_section": "Chapter 13 – Bioretention, page 320"
+    },
+    {
+      "field": "design_parameters.shwt_separation_inches",
+      "excerpt": "For infiltration systems, at least 3 feet of separation is recommended",
+      "page_or_section": "Chapter 10, page 194"
+    },
+    {
+      "field": "design_parameters.bioretention_media_depth_min_inches",
+      "excerpt": "Engineered bioretention soil media should have a depth of 24 to 48 inches",
+      "page_or_section": "Chapter 13 – Bioretention, page 320"
+    },
+    {
+      "field": "design_parameters.bioretention_ponding_depth_inches",
+      "excerpt": "Maximum for water quality storm: 12 inches",
+      "page_or_section": "Chapter 13 – Bioretention, page 320"
+    },
+    {
+      "field": "design_parameters.design_infiltration_rate_in_per_hr",
+      "excerpt": "0.5 inches per hour (1.0 feet per day) for the bioretention soil media, whichever value is lower",
+      "page_or_section": "Chapter 13 – Bioretention, page 320"
+    },
+    {
+      "field": "design_parameters.ed_drain_time_hours",
+      "excerpt": "The detention basin should completely drain within 48 hours after the end of a storm",
+      "page_or_section": "Chapter 13 – Dry Extended Detention Basin, page 467"
+    },
+    {
+      "field": "design_parameters.swale_bottom_width_inches",
+      "excerpt": "Bottom Width Minimum: 2 feet",
+      "page_or_section": "Chapter 13 – Wet Water Quality Swale, page 421"
+    },
+    {
+      "field": "design_parameters.swale_longitudinal_slope_percent",
+      "excerpt": "BMPs such as water quality swales and permeable pavement is restricted to slopes of approximately 5% or less",
+      "page_or_section": "Chapter 8, page 135"
+    },
+    {
+      "field": "design_parameters.green_roof_slope_percent",
+      "excerpt": "Green Roof Ground Slope Not Applicable (max 20% roof slope)",
+      "page_or_section": "Table 8-3, page 140"
     }
   ],
   "extraction_quality": {
@@ -116,5 +166,48 @@
     "landing_page_url": "https://portal.ct.gov/DEEP/Water-Regulating-and-Discharges/Stormwater/Stormwater-Manual",
     "retrieved_at": "2026-08-07T11:22:12.135Z",
     "original_filename": "ct-state.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": 1.3,
+    "max_drawdown_hours": 48,
+    "shwt_separation_inches": 36,
+    "bioretention_media_depth_min_inches": 24,
+    "bioretention_ponding_depth_inches": 12,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": 0.5,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": 48,
+    "length_to_width_ratio": null,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": 24,
+    "swale_longitudinal_slope_percent": 5,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": 20,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "bioretention",
+      "constructed_wetland",
+      "extended_detention",
+      "green_roof",
+      "infiltration_basin",
+      "infiltration_trench",
+      "manufactured_treatment",
+      "permeable_pavement",
+      "sand_filter",
+      "swale",
+      "wet_pond"
+    ],
+    "enriched_at": "2026-08-13T08:00:42.354Z",
+    "enrich_model": "composer-2.5:run-318ae098-e9a9-4150-985a-7fa3a8ae15a0",
+    "enrich_notes": "WQV uses P=1.3 in (90th percentile); runoff coefficient R=0.05+0.009(I). Infiltration suitability threshold 0.3 in/hr (HSG A/B); pretreatment required if soil infiltration >8.3 in/hr. SHGT: 36 in (3 ft) recommended below infiltration system bottom; reducible to 24 in (2 ft) in limited cases; unlined filtering systems min 12 in (1 ft) above SHGT. QPA requires ≥18 in depth to SHGT. Bioretention trees min 30 in media depth; media design permeability 0.5 in/hr (1.0 ft/day). ED basins require ≥24 h detention storage; full drawdown ≤48 h. Table 8-7 notes >48 h extended detention for bacteria at ponds/wetlands—not assigned to wetland_detention_hours.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "permeable_pavement_storage_depth_inches",
+      "permanent_pool_depth_inches",
+      "length_to_width_ratio",
+      "wetland_detention_hours",
+      "green_roof_media_depth_inches",
+      "mtd_verification_program"
+    ]
   }
 }

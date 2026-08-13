@@ -72,6 +72,86 @@
       "field": "design_criteria.approved_bmp_categories",
       "excerpt": "stormwater detention / Best Management Practices (BMPs)",
       "page_or_section": "Introduction"
+    },
+    {
+      "field": "design_parameters.wqv_depth_inches",
+      "excerpt": "Therefore, the WQV is based on the runoff from a 1 inch rainfall.",
+      "page_or_section": "Chapter 10, Section 2.1 Water Quality Volume, page 290"
+    },
+    {
+      "field": "design_parameters.wqv_depth_inches",
+      "excerpt": "Redevelopment projects where the previous development was not required to meet the water quality requirement shall meet a reduced WQV based on the runoff from a 0.5-inch rainfall",
+      "page_or_section": "Chapter 10, page 288"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "The required drain time for bioretention is 12-72 hours.",
+      "page_or_section": "Chapter 10, Section 13.3.5, page 335"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "tf = maximum drain time (days) (use 3 days for the 72-hour max drain time requirement)",
+      "page_or_section": "Chapter 10, Section 13.3.3, page 334"
+    },
+    {
+      "field": "design_parameters.shwt_separation_inches",
+      "excerpt": "Bioretention storage should be located at least two feet above the seasonal high level of the water table.",
+      "page_or_section": "Chapter 10, Section 13.3.1, page 333"
+    },
+    {
+      "field": "design_parameters.shwt_separation_inches",
+      "excerpt": "Pervious pavement storage should be located at least two feet above the seasonal high level of the water table.",
+      "page_or_section": "Chapter 10, Section 10.4, page 319"
+    },
+    {
+      "field": "design_parameters.bioretention_media_depth_min_inches",
+      "excerpt": "The bioretention soil mix filter bed thickness (df) shall be a minimum of 24 inches for pollutant removal and plant health in bioretention with an underdrain. The bioretention soil mix filter bed thickness (df) shall be a minimum of 12 inches for bioretention without an underdrain.",
+      "page_or_section": "Chapter 10, Section 13.3.4, page 334"
+    },
+    {
+      "field": "design_parameters.bioretention_ponding_depth_inches",
+      "excerpt": "The preferred ponding depth is 12 inches and the maximum allowed is 18 inches.",
+      "page_or_section": "Chapter 10, Section 13.3.3, page 334"
+    },
+    {
+      "field": "design_parameters.permeable_pavement_storage_depth_inches",
+      "excerpt": "The thickness of the rock storage shall be a minimum of 6 inches when no underdrain is used and 9 inches when an underdrain is used.",
+      "page_or_section": "Chapter 10, Section 10.3, page 319"
+    },
+    {
+      "field": "design_parameters.design_infiltration_rate_in_per_hr",
+      "excerpt": "underdrains shall be provided if the existing subgrade infiltration rate is less than 0.5 inches/hour",
+      "page_or_section": "Chapter 10, Section 10.4, page 319"
+    },
+    {
+      "field": "design_parameters.design_infiltration_rate_in_per_hr",
+      "excerpt": "In-service pervious pavement shall have a minimum infiltration rate of 10 inches/hour",
+      "page_or_section": "Chapter 10, Section 10.3, page 319"
+    },
+    {
+      "field": "design_parameters.permanent_pool_depth_inches",
+      "excerpt": "To minimize the potential of algae growth, a minimum permanent pool depth of 6 feet must be provided.",
+      "page_or_section": "Chapter 10, Section 15.3, page 350"
+    },
+    {
+      "field": "design_parameters.ed_drain_time_hours",
+      "excerpt": "designing a functional outlet to release the WQV over a 24-hour drain time is practically impossible",
+      "page_or_section": "Chapter 10, Section 5.1.4, page 296"
+    },
+    {
+      "field": "design_parameters.length_to_width_ratio",
+      "excerpt": "The basin length to width ratio should be between 2:1 and 4:1. The minimum allowable ratio is 1:1.",
+      "page_or_section": "Chapter 10, Section 16.4, page 356"
+    },
+    {
+      "field": "design_parameters.wetland_detention_hours",
+      "excerpt": "Design the outlet works to release the WQV in 22 to 28 hours.",
+      "page_or_section": "Chapter 10, Section 16.4, page 356"
+    },
+    {
+      "field": "design_parameters.mtd_verification_program",
+      "excerpt": "Pollutant removal efficiency of the system shall be certified by an independent certification program including but not limited to: U.S. EPA Technology Verification Program, State of Washington Technology Assessment Protocol - Ecology (TAPE), the Technology Acceptance Reciprocity Partnership Protocol (TARP), New Jersey Corporation for Advance Technology (NJCAT) or the State of Maryland Proprietary Practice acceptance program.",
+      "page_or_section": "Chapter 10, Section 19.4, page 368"
     }
   ],
   "extraction_quality": {
@@ -91,5 +171,43 @@
     "landing_page_url": "https://www.springfieldmo.gov/2120/Design-Resources",
     "retrieved_at": "2026-08-10T09:06:14.926Z",
     "original_filename": "springfield-mo.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": 1,
+    "max_drawdown_hours": 72,
+    "shwt_separation_inches": 24,
+    "bioretention_media_depth_min_inches": 12,
+    "bioretention_ponding_depth_inches": 18,
+    "permeable_pavement_storage_depth_inches": 6,
+    "design_infiltration_rate_in_per_hr": 0.5,
+    "permanent_pool_depth_inches": 72,
+    "ed_drain_time_hours": 24,
+    "length_to_width_ratio": 2,
+    "wetland_detention_hours": 22,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": "U.S. EPA Technology Verification Program; TAPE; TARP; NJCAT; Maryland Proprietary Practice acceptance program",
+    "practice_mentions": [
+      "bioretention",
+      "constructed_wetland",
+      "extended_detention",
+      "green_roof",
+      "manufactured_treatment",
+      "permeable_pavement",
+      "swale",
+      "wet_pond"
+    ],
+    "enriched_at": "2026-08-13T10:14:59.712Z",
+    "enrich_model": "composer-2.5:run-6ee04ecd-bcca-4ac4-9ed5-ba3abac57a80",
+    "enrich_notes": "WQV uses 1-inch rainfall for new development; redevelopment may use 0.5-inch on redeveloped impervious area. Bioretention filter media minimum is 24 inches with underdrain. Rock storage minimum is 9 inches when underdrain is used. In-service pervious pavement minimum infiltration is 10 in/hr. Extended wet detention WQV drain time is approximately 12–15 hours. Constructed wetland WQV release is 22–28 hours; length:width recommended 2:1 to 4:1 (minimum 1:1).",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "swale_bottom_width_inches",
+      "swale_longitudinal_slope_percent",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent"
+    ]
   }
 }

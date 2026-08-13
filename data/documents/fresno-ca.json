@@ -92,6 +92,46 @@
       "field": "design_criteria.approved_bmp_categories",
       "excerpt": "Bioretention (LID-1) SWQDV / Infiltration Basin (LID-2) SWQDV",
       "page_or_section": "Table 5-1"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "Bioretention areas are sized such that the SWQDV must be completely infiltrated within 96 hours.",
+      "page_or_section": "LID-1 Bioretention Sizing, C-5"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "t = Maximum drawdown time (max 96 hrs) [hr];",
+      "page_or_section": "LID-1 Bioretention Sizing, C-6"
+    },
+    {
+      "field": "design_parameters.shwt_separation_inches",
+      "excerpt": "The depth to groundwater beneath the project site during the wet season may preclude infiltration if less than 10 feet of separation exists between the infiltration surface and the seasonal high groundwater or mounded groundwater levels.",
+      "page_or_section": "Section 3 Considerations Groundwater, page 27"
+    },
+    {
+      "field": "design_parameters.bioretention_media_depth_min_inches",
+      "excerpt": "The planting soil depth must be a minimum of two feet, but three feet is preferred.",
+      "page_or_section": "LID-1 Bioretention Geometry, C-4"
+    },
+    {
+      "field": "design_parameters.bioretention_ponding_depth_inches",
+      "excerpt": "Bioretention areas must be sized to capture and retain the SWQDV with an 18- inch maximum ponding depth.",
+      "page_or_section": "LID-1 Bioretention Geometry, C-4"
+    },
+    {
+      "field": "design_parameters.bioretention_ponding_depth_inches",
+      "excerpt": "d = Ponding depth (max 1.5 ft) [ft];",
+      "page_or_section": "LID-1 Bioretention Sizing, C-5"
+    },
+    {
+      "field": "design_parameters.ed_drain_time_hours",
+      "excerpt": "For extended detention wet ponds, the outlet structure should be designed to provide a 96-hour drawdown time for the SWQDV above the permanent pool.",
+      "page_or_section": "T-9 Wet Pond Outlet Structure, C-174"
+    },
+    {
+      "field": "design_parameters.swale_bottom_width_inches",
+      "excerpt": "The minimum width of the vegetated swale bottom is two feet to allow for ease of mowing.",
+      "page_or_section": "T-4 Vegetated Swales Geometry, C-102"
     }
   ],
   "extraction_quality": {
@@ -109,5 +149,52 @@
     "landing_page_url": "https://www.fresnofloodcontrol.org/documents-and-reports/",
     "retrieved_at": "2026-08-10T07:50:51.242Z",
     "original_filename": "fresno-ca.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": null,
+    "max_drawdown_hours": 96,
+    "shwt_separation_inches": 120,
+    "bioretention_media_depth_min_inches": 24,
+    "bioretention_ponding_depth_inches": 18,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": null,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": 96,
+    "length_to_width_ratio": null,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": 24,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "bioretention",
+      "constructed_wetland",
+      "extended_detention",
+      "green_roof",
+      "infiltration_basin",
+      "infiltration_trench",
+      "manufactured_treatment",
+      "permeable_pavement",
+      "sand_filter",
+      "swale",
+      "wet_pond"
+    ],
+    "enriched_at": "2026-08-13T08:22:54.018Z",
+    "enrich_model": "composer-2.5:run-fcd4c405-3f27-428b-843b-e49559289838",
+    "enrich_notes": "SWQDV sizing is volume-based (85th percentile 24-hour storm per atlas/Section 5); no fixed WQv depth in inches in excerpts. Site feasibility uses minimum corrected in-situ infiltration ≥0.5 in/hr; design f_design is calculated from field tests (F_testing 0.25 bioretention, 0.5 basin/trench/dry well). Groundwater: infiltration precluded if <10 ft separation from infiltration surface to seasonal high GW. ED basin bottom ≥2 ft above seasonal high GW. Permeable pavement without underdrain requires ≥3 ft undisturbed medium below base rock to impervious layer. Swale longitudinal slope 1–6% (range, no single design percent). Proprietary devices (T-11) require FMFCD approval; no TAPE/NJCAT named.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "wqv_depth_inches",
+      "permeable_pavement_storage_depth_inches",
+      "design_infiltration_rate_in_per_hr",
+      "permanent_pool_depth_inches",
+      "length_to_width_ratio",
+      "wetland_detention_hours",
+      "swale_longitudinal_slope_percent",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

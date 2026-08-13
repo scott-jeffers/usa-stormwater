@@ -43,6 +43,51 @@
       "field": "design_criteria.water_quality_volume_method",
       "excerpt": "for construction activities. WQv (ac-ft) = C * 0.7\u0018 * A / \u00182 (Equation \u0018) Where: C = runoff coefficient A = area draining into the BMP in acres The runoff coefficient, C, is calculated using the following equation or alternatively values provided in the current Ohio EPA NP",
       "page_or_section": "p. 37"
+    },
+    {
+      "field": "design_parameters.wqv_depth_inches",
+      "excerpt": "WQv (ac-ft) = C * 0.75 * A / 12",
+      "page_or_section": "CHAPTER 2, pages 37, 376"
+    },
+    {
+      "field": "design_parameters.wqv_depth_inches",
+      "excerpt": "P = 0.75 inch precipitation depth",
+      "page_or_section": "Bioretention Design Checklist, page 83"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "Drain times in excess of 72 hours should be avoided to prevent mosquito-breeding habitat from forming.",
+      "page_or_section": "2.7 Infiltration Trench, page 51"
+    },
+    {
+      "field": "design_parameters.shwt_separation_inches",
+      "excerpt": "a minimum 4ft of separation required between the water table and the bioretention practice",
+      "page_or_section": "2.10 Bioretention, page 77"
+    },
+    {
+      "field": "design_parameters.shwt_separation_inches",
+      "excerpt": "leave at least 4 feet between the seasonal high-water table or bedrock and the trench bottom",
+      "page_or_section": "2.7 Infiltration Trench, page 51"
+    },
+    {
+      "field": "design_parameters.bioretention_media_depth_min_inches",
+      "excerpt": "ds = planting soil depth (2.5 feet minimum)",
+      "page_or_section": "Bioretention sizing, page 84"
+    },
+    {
+      "field": "design_parameters.length_to_width_ratio",
+      "excerpt": "the length generally exceeding 2:1 (length:width)",
+      "page_or_section": "2.10 Bioretention, pages 80, 84"
+    },
+    {
+      "field": "design_parameters.ed_drain_time_hours",
+      "excerpt": "draw down the extended detention volume over a 48-hour period",
+      "page_or_section": "Dry Extended Detention Basin, page 40"
+    },
+    {
+      "field": "design_parameters.ed_drain_time_hours",
+      "excerpt": "draw down the extended detention volume over a 24-hour period",
+      "page_or_section": "Wet Extended Detention Basin, page 41"
     }
   ],
   "extraction_quality": {
@@ -56,5 +101,51 @@
     "landing_page_url": "https://epa.ohio.gov/divisions-and-offices/surface-water/guides-manuals/rainwater-and-land-development",
     "retrieved_at": "2026-08-10T10:35:05.250Z",
     "original_filename": "cleveland-oh.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": 0.75,
+    "max_drawdown_hours": 72,
+    "shwt_separation_inches": 48,
+    "bioretention_media_depth_min_inches": 30,
+    "bioretention_ponding_depth_inches": null,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": null,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": null,
+    "length_to_width_ratio": 2,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "bioretention",
+      "constructed_wetland",
+      "extended_detention",
+      "green_roof",
+      "infiltration_trench",
+      "permeable_pavement",
+      "sand_filter",
+      "swale",
+      "wet_pond"
+    ],
+    "enriched_at": "2026-08-13T07:55:09.769Z",
+    "enrich_model": "composer-2.5:run-7e6f991a-6fd5-4866-bf97-d93cf74a6db9",
+    "enrich_notes": "Ohio statewide Rainwater and Land Development manual used as Cleveland MS4 proxy. WQv uses 0.75 in precipitation depth; Ohio EPA NPDES requires +20% WQv for sediment. Extended-detention drawdown is 48 h (dry ED basin outlet) vs 24 h (wet ED and wetland ED above permanent pool); general pond WQv storage cited as 24–48 h. Bioretention: min 40 h drawdown (Ohio EPA); full practice drain often 40–72 h. Infiltration trench: infiltrate WQv in 24–48 h; avoid drain >72 h. Sand filter: 40 h total design drawdown. Infiltration trench soil K: 0.52–2.5 in/hr (site tests). Wet permanent pool mean depth 3–6 ft; wetland pool depths often 6–18 in (avg 6–12 in). Bioretention ponding generally <6 in, may be up to 12 in.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "bioretention_ponding_depth_inches",
+      "permeable_pavement_storage_depth_inches",
+      "design_infiltration_rate_in_per_hr",
+      "permanent_pool_depth_inches",
+      "ed_drain_time_hours",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "swale_longitudinal_slope_percent",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

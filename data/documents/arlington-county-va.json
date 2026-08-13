@@ -67,6 +67,61 @@
       "field": "design_criteria.approved_bmp_categories",
       "excerpt": "Virginia Stormwater BMP Clearinghouse",
       "page_or_section": "Facility Design Considerations"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "provided they are designed to drawdown within 24 hours",
+      "page_or_section": "2.9 Requirements for Single Family Residences Built Separately, page 38"
+    },
+    {
+      "field": "design_parameters.permeable_pavement_storage_depth_inches",
+      "excerpt": "Obtain Level I permeable pavement credit for pavement designs with the twelve (12) inches of stone storage and no underdrain",
+      "page_or_section": "Section 2.9, page 38"
+    },
+    {
+      "field": "design_parameters.design_infiltration_rate_in_per_hr",
+      "excerpt": "in soils that do not percolate at a rate >0.5 inch hour",
+      "page_or_section": "Section 2.9, page 38"
+    },
+    {
+      "field": "design_parameters.bioretention_media_depth_min_inches",
+      "excerpt": "Obtain Level 1 urban bioretention (planter box) credit for designs utilizing only 18\" of soil media",
+      "page_or_section": "Section 2.9, page 38"
+    },
+    {
+      "field": "design_parameters.bioretention_ponding_depth_inches",
+      "excerpt": "The maximum height from the top of mulch elevation to the top of the planter box wall shall not exceed 15 inches",
+      "page_or_section": "Urban Bioretention (Planter Box), page 31"
+    },
+    {
+      "field": "design_parameters.permeable_pavement_storage_depth_inches",
+      "excerpt": "PICP: 2 in. depth of No. 8 stone above 4 inches of No. 57",
+      "page_or_section": "Material Specifications for Permeable Pavements, page 24"
+    },
+    {
+      "field": "practice_mentions.permeable_pavement",
+      "excerpt": "The slope of the surface of the permeable pavement systems shall be from 1 to 10 percent",
+      "page_or_section": "2.2.4 Permeable Pavement, page 22"
+    },
+    {
+      "field": "practice_mentions.bioretention",
+      "excerpt": "Bioretention facilities may not be constructed on slopes steeper than 15 percent",
+      "page_or_section": "2.2.4 Bioretention, page 28"
+    },
+    {
+      "field": "practice_mentions.green_roof",
+      "excerpt": "All of the design specifications are taken from the Handbook 8.31. P-FIL-02",
+      "page_or_section": "Vegetated Roof, page 22"
+    },
+    {
+      "field": "practice_mentions.infiltration_trench",
+      "excerpt": "The maximum length or width of an infiltration trench is 16 feet or less for SFD infill project",
+      "page_or_section": "Infiltration Practices, page 25"
+    },
+    {
+      "field": "practice_mentions.extended_detention",
+      "excerpt": "2.9.5.3 Detention tanks",
+      "page_or_section": "Alternative Compliance Option, page 44"
     }
   ],
   "extraction_quality": {
@@ -86,5 +141,47 @@
     "landing_page_url": "https://www.arlingtonva.us/Government/Programs/Building/Permits/Land-Disturbing-Activity-Stormwater/Land-Disturbing-ActivityStormwater-Permit-Details",
     "retrieved_at": "2026-08-10T09:29:55.327Z",
     "original_filename": "arlington-county-va.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": null,
+    "max_drawdown_hours": 24,
+    "shwt_separation_inches": null,
+    "bioretention_media_depth_min_inches": 18,
+    "bioretention_ponding_depth_inches": 15,
+    "permeable_pavement_storage_depth_inches": 12,
+    "design_infiltration_rate_in_per_hr": 0.5,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": null,
+    "length_to_width_ratio": null,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "bioretention",
+      "extended_detention",
+      "green_roof",
+      "infiltration_trench",
+      "permeable_pavement"
+    ],
+    "enriched_at": "2026-08-13T07:27:19.993Z",
+    "enrich_model": "composer-2.5:run-b7bcb5a6-017b-4184-bc38-41cecc7fd7bf",
+    "enrich_notes": "County adopts Virginia Stormwater Management Handbook specs (P-FIL-02 through P-FIL-07) with local clarifications; WQV depths and most BMP sizing are in VRRM/Handbook rather than restated. Level I SFD options: 12 in stone storage permeable pavement with 24 hr drawdown when infiltration ≤0.5 in/hr; Level 1 urban bioretention with 18 in filter media. Permeable pavement surface slope 1–10%, adjacent slopes max 20%; artificial turf/other surfaces require 5 gal/min/ft² acceptance rate.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "wqv_depth_inches",
+      "shwt_separation_inches",
+      "permanent_pool_depth_inches",
+      "ed_drain_time_hours",
+      "length_to_width_ratio",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "swale_longitudinal_slope_percent",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

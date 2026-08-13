@@ -65,6 +65,56 @@
       "field": "design_criteria.approved_bmp_categories",
       "excerpt": "Selection of LID Mitigative Measures and BMPs",
       "page_or_section": "Section 5.3"
+    },
+    {
+      "field": "max_drawdown_hours",
+      "excerpt": "An infiltration basin allows retained runoff to percolate into the underlying soils in 48 hours or less.",
+      "page_or_section": "5.4.2.1 Infiltration basin, page 66"
+    },
+    {
+      "field": "max_drawdown_hours",
+      "excerpt": "Allowable ponding is limited by the requirement to drawdown ponded water within 48 hours following a storm event.",
+      "page_or_section": "5.4.2.2 Infiltration trench, page 66"
+    },
+    {
+      "field": "max_drawdown_hours",
+      "excerpt": "Tdrawdown = drawdown time for stored runoff (hrs), default is 48 hours",
+      "page_or_section": "Table 5-6, pages 75-75"
+    },
+    {
+      "field": "bioretention_ponding_depth_inches",
+      "excerpt": "up to 1.5 ft of allowable ponding above the ammended soil layer.",
+      "page_or_section": "5.4.2.3 Bioretention with no Underdrain, page 66"
+    },
+    {
+      "field": "design_infiltration_rate_in_per_hr",
+      "excerpt": "Pdesign = design percolation rate into amended soil layer (in/hr), default 2.5 in/hr",
+      "page_or_section": "Table 5-6 Bioretention with underdrain, pages 75-75"
+    },
+    {
+      "field": "design_infiltration_rate_in_per_hr",
+      "excerpt": "Amended soil design percolation = 2.5 in/hr",
+      "page_or_section": "Case Study 2 Application of Bioretention with Underdrains, page 73"
+    },
+    {
+      "field": "ed_drain_time_hours",
+      "excerpt": "Tdrawdown = drawdown time for stored runoff (hrs), default is 48 hours",
+      "page_or_section": "Table 5-6 Constructed wetland / Extended wet detention / Dry extended detention, pages 75-75"
+    },
+    {
+      "field": "wetland_detention_hours",
+      "excerpt": "Biotreated volume is a function of the HRT for the facility (default is 48 hours for capture of frequent storms in the wet season)",
+      "page_or_section": "Constructed wetland bullet, page 73"
+    },
+    {
+      "field": "practice_mentions",
+      "excerpt": "Infiltration BMPs - Infiltration trench, infiltration basin, bioretention with no underdrain, drywell, permeable pavement, and underground infiltration",
+      "page_or_section": "5.4 Evaluation of LID BMPs, page 59"
+    },
+    {
+      "field": "practice_mentions",
+      "excerpt": "Biotreatment BMPs – Bioretention with underdrain, vegetated swale, vegetated filter strip, dry extended detention basin, wet detention basin, constructed wetland, and proprietary biotreatment.",
+      "page_or_section": "5.4 Evaluation of LID BMPs, page 59"
     }
   ],
   "extraction_quality": {
@@ -84,5 +134,53 @@
     "landing_page_url": "https://dpw.sbcounty.gov/wqmp-templates-and-forms/",
     "retrieved_at": "2026-08-10T08:48:28.515Z",
     "original_filename": "san-bernardino-county-ca.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": null,
+    "max_drawdown_hours": 48,
+    "shwt_separation_inches": null,
+    "bioretention_media_depth_min_inches": null,
+    "bioretention_ponding_depth_inches": 18,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": 2.5,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": 48,
+    "length_to_width_ratio": null,
+    "wetland_detention_hours": 48,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "bioretention",
+      "constructed_wetland",
+      "extended_detention",
+      "green_roof",
+      "infiltration_basin",
+      "infiltration_trench",
+      "manufactured_treatment",
+      "permeable_pavement",
+      "sand_filter",
+      "swale",
+      "wet_pond"
+    ],
+    "enriched_at": "2026-08-13T10:01:53.830Z",
+    "enrich_model": "composer-2.5:run-e56466ab-6049-4a6c-97d9-838060ea8ac2",
+    "enrich_notes": "Priority projects must retain/treat Design Capture Volume (DCV) via LID; performance tied to P6 mean storm depths in Table 5-8 for harvest-and-use infeasibility thresholds (0.70–2.30 in), not stated as a single jurisdiction WQv depth. Infiltration BMP design rate is field-measured rate divided by safety factor (must be ≥2.0 and <9). Default 2.5 in/hr applies to amended-soil percolation for bioretention with underdrain sizing (Table 5-6). Residential case study cites <0.3 in/hr underlying soils as infiltration infeasibility example. Infiltration basin, trench, and bioretention without underdrain require 48-hour drawdown/percolation limits where stated.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "wqv_depth_inches",
+      "shwt_separation_inches",
+      "bioretention_media_depth_min_inches",
+      "permeable_pavement_storage_depth_inches",
+      "permanent_pool_depth_inches",
+      "length_to_width_ratio",
+      "swale_bottom_width_inches",
+      "swale_longitudinal_slope_percent",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

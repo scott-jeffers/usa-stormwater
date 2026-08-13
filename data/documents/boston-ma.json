@@ -97,6 +97,41 @@
       "field": "design_criteria.approved_bmp_categories",
       "excerpt": "construction site operators, where applicable, are required to use and maintain appropriate structural and non-structural BMPs to minimize the discharge of pollutants from construction sites to the Commission’s MS4.",
       "page_or_section": "Section 3.5, Page 3-6"
+    },
+    {
+      "field": "design_parameters.wqv_depth_inches",
+      "excerpt": "A volume of runoff equal to one inch of rainfall multiplied by the total impervious area on site must be infiltrated prior to discharge",
+      "page_or_section": "3.2 SEWER SYSTEM OVERFLOW CONTROL AND RESPONSE, page 27"
+    },
+    {
+      "field": "design_parameters.wqv_depth_inches",
+      "excerpt": "For all projects which are at or above 100,000 square feet of floor area, the project must use a volume of runoff equal to 1.25 inches of rainfall multiplied by the total impervious area on site",
+      "page_or_section": "3.2 SEWER SYSTEM OVERFLOW CONTROL AND RESPONSE, page 27"
+    },
+    {
+      "field": "practice_mentions.bioretention",
+      "excerpt": "rain gardens and vegetative swales, infiltration basins, and paving materials and permeable surfaces",
+      "page_or_section": "4.9 BOSTON COMPLETE STREETS INITIATIVE, page 45"
+    },
+    {
+      "field": "practice_mentions.swale",
+      "excerpt": "rain gardens and vegetative swales, infiltration basins, and paving materials and permeable surfaces",
+      "page_or_section": "4.9 BOSTON COMPLETE STREETS INITIATIVE, page 45"
+    },
+    {
+      "field": "practice_mentions.infiltration_basin",
+      "excerpt": "rain gardens and vegetative swales, infiltration basins, and paving materials and permeable surfaces",
+      "page_or_section": "4.9 BOSTON COMPLETE STREETS INITIATIVE, page 45"
+    },
+    {
+      "field": "practice_mentions.permeable_pavement",
+      "excerpt": "rain gardens and vegetative swales, infiltration basins, and paving materials and permeable surfaces",
+      "page_or_section": "4.9 BOSTON COMPLETE STREETS INITIATIVE, page 45"
+    },
+    {
+      "field": "practice_mentions.manufactured_treatment",
+      "excerpt": "the Commission may require developers to install particle separators on newly constructed storm drains that serve large outdoor parking areas",
+      "page_or_section": "3.2 SEWER SYSTEM OVERFLOW CONTROL AND RESPONSE, page 27"
     }
   ],
   "extraction_quality": {
@@ -115,5 +150,52 @@
     "landing_page_url": "https://www.bwsc.org/builders-contractors/site-plan-requirements/storm-drain-requirements",
     "retrieved_at": "2026-08-08T11:41:31.164Z",
     "original_filename": "boston-ma.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": 1,
+    "max_drawdown_hours": null,
+    "shwt_separation_inches": null,
+    "bioretention_media_depth_min_inches": null,
+    "bioretention_ponding_depth_inches": null,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": null,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": null,
+    "length_to_width_ratio": null,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "bioretention",
+      "infiltration_basin",
+      "manufactured_treatment",
+      "permeable_pavement",
+      "sand_filter",
+      "swale"
+    ],
+    "enriched_at": "2026-08-13T07:39:27.762Z",
+    "enrich_model": "composer-2.5:run-cb177b5b-866b-4b57-9187-933d1f1801f6",
+    "enrich_notes": "2024 MS4 annual report, not a design manual; references Site Plan Requirements, Sewer Use Regulations, and Stormwater BMP Guidance for engineering criteria. On-site retention uses rainfall depth × impervious area: 1.0 in (<100,000 sf floor area) and 1.25 in (≥100,000 sf)—both explicit on page 27; scalar wqv_depth_inches set to 1.0 as the stated base requirement. No numeric TSS removal target, drawdown, infiltration rate, or SCM sizing dimensions in corpus. Consent Decree context cites treating 1-inch runoff before MS4 discharge (atlas summary).",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "max_drawdown_hours",
+      "shwt_separation_inches",
+      "bioretention_media_depth_min_inches",
+      "bioretention_ponding_depth_inches",
+      "permeable_pavement_storage_depth_inches",
+      "design_infiltration_rate_in_per_hr",
+      "permanent_pool_depth_inches",
+      "ed_drain_time_hours",
+      "length_to_width_ratio",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "swale_longitudinal_slope_percent",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

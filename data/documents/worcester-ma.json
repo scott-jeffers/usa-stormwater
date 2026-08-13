@@ -48,6 +48,66 @@
       "field": "design_criteria.water_quality_volume_method",
       "excerpt": "calculated as the required runoff depth multiplied by the total post-construction impervious site area",
       "page_or_section": "MassDEP Handbook"
+    },
+    {
+      "field": "design_parameters.wqv_depth_inches",
+      "excerpt": "Required WQv is at least 1.0 inch times the total impervious area of the post-development site.",
+      "page_or_section": "Table 2-4d / page 2-33"
+    },
+    {
+      "field": "design_parameters.wqv_depth_inches",
+      "excerpt": "Media Filters must be sized to treat the water quality volume (1.0 inch)",
+      "page_or_section": "Appendix A Media Filters / A-102"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "conduct drawdown analysis to ensure the design volume from impervious area will infiltrate over 3-days based on Step 3 \"Drawdown within 72 Hours\".",
+      "page_or_section": "Chapter 6 / page 6-36"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "Computations must reflect drawdown within the 72-hour period for whatever volume is directed to the recharge practice.",
+      "page_or_section": "Chapter 6 Step 3 / page 6-36"
+    },
+    {
+      "field": "design_parameters.shwt_separation_inches",
+      "excerpt": "Distance from bottom of SCM to SHGW9 2-ft",
+      "page_or_section": "Table 2.5 setback table / page 2-55"
+    },
+    {
+      "field": "design_parameters.shwt_separation_inches",
+      "excerpt": "Grass channels and dry water quality swales must be at least 2 feet above seasonal high groundwater.",
+      "page_or_section": "Table 2-4d / page 2-33"
+    },
+    {
+      "field": "design_parameters.shwt_separation_inches",
+      "excerpt": "Provide minimum of two feet of separation between the bed bottom and the seasonal high groundwater elevation",
+      "page_or_section": "Appendix A Porous Pavement / A-158"
+    },
+    {
+      "field": "design_parameters.bioretention_media_depth_min_inches",
+      "excerpt": "The depth of the soil media must be between 2 to 4 feet.",
+      "page_or_section": "Appendix A Bioretention / A-72"
+    },
+    {
+      "field": "design_parameters.bioretention_media_depth_min_inches",
+      "excerpt": "the bioretention area must have a soil media with a depth of at least 30 inches to create anoxic conditions",
+      "page_or_section": "Appendix A Bioretention / A-72"
+    },
+    {
+      "field": "design_parameters.design_infiltration_rate_in_per_hr",
+      "excerpt": "The minimum acceptable final soil infiltration rate is 0.01 inches per hour.",
+      "page_or_section": "Appendix A Infiltration Basin / A-142"
+    },
+    {
+      "field": "design_parameters.ed_drain_time_hours",
+      "excerpt": "Water levels in the extended detention wetlands may increase by as much as three feet after a storm, and return gradually to normal within 24 hours of the rain event.",
+      "page_or_section": "Appendix A Extended Detention Wetlands / A-86"
+    },
+    {
+      "field": "design_parameters.ed_drain_time_hours",
+      "excerpt": "For design purposes, use 72 hours to evaluate dewatering, using the storm that produces 1.0 inch of runoff",
+      "page_or_section": "Appendix A Media Filters / A-102"
     }
   ],
   "extraction_quality": {
@@ -63,5 +123,52 @@
     "landing_page_url": "https://www.mass.gov/guides/massachusetts-stormwater-handbook-and-stormwater-standards",
     "retrieved_at": "2026-08-10T09:45:18.895Z",
     "original_filename": "worcester-ma.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": 1,
+    "max_drawdown_hours": 72,
+    "shwt_separation_inches": 24,
+    "bioretention_media_depth_min_inches": 24,
+    "bioretention_ponding_depth_inches": null,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": 0.01,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": 24,
+    "length_to_width_ratio": null,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "bioretention",
+      "constructed_wetland",
+      "extended_detention",
+      "green_roof",
+      "infiltration_basin",
+      "infiltration_trench",
+      "manufactured_treatment",
+      "permeable_pavement",
+      "sand_filter",
+      "swale",
+      "wet_pond"
+    ],
+    "enriched_at": "2026-08-13T10:35:42.864Z",
+    "enrich_model": "composer-2.5:run-7bd9d5d9-b22e-4581-b100-e2d5e71a179f",
+    "enrich_notes": "Massachusetts Stormwater Handbook (Worcester follows MassDEP). WQv = 1.0 in × post-development impervious area. Infiltration and many SCMs require 2 ft SHGW separation (24 in); porous pavement bed bottom also 2 ft. Recharge/infiltration drawdown within 72 hours. Bioretention soil media 2–4 ft (30 in if TMDL nitrogen). Extended detention wetland pool may rise ~3 ft and return within 24 hr. Min acceptable infiltration basin soil rate 0.01 in/hr; rapid soils >2.4 in/hr trigger stricter pretreatment. Porous pavement: max slope 5%, subbase ≥40% voids, 2 ft SHGW separation.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "bioretention_ponding_depth_inches",
+      "permeable_pavement_storage_depth_inches",
+      "permanent_pool_depth_inches",
+      "length_to_width_ratio",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "swale_longitudinal_slope_percent",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

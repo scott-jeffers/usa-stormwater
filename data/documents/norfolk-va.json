@@ -10,7 +10,12 @@
     "relationship_to_state_manual": "independent"
   },
   "design_criteria": {
-    "design_storm_return_periods_years": [1, 2, 10, 100],
+    "design_storm_return_periods_years": [
+      1,
+      2,
+      10,
+      100
+    ],
     "water_quality_volume_method": "Virginia Runoff Reduction Method (VRRM) per Part II B / 9VAC25-875-590: new development total phosphorus load shall not exceed 0.41 pounds per acre per year. Redevelopment reducing P load at least 10% below predevelopment if disturbing greater than 2,500 square feet and less than one acre, or at least 20% if disturbing one acre or more. BMPs from the Virginia Stormwater BMP Clearinghouse; plan elevations include the water quality (1-inch) storm event plus 1-, 2-, and 10-year 24-hour storms (NOAA Atlas 14).",
     "peak_flow_calculation_method": [
       "Rational Method (≤20 acres)",
@@ -144,6 +149,61 @@
       "field": "design_criteria.approved_bmp_categories",
       "excerpt": "The BMPs listed on the Virginia Stormwater BMP Clearinghouse on the DEQ website are approved for use as necessary to effectively reduce the phosphorus load and runoff volume in accordance with the Virginia Runoff Reduction Method. Where a BMP listed on the Virginia BMP Clearinghouse contains Coastal Plain design considerations, these considerations shall be employed",
       "page_or_section": "Section 5.2.5"
+    },
+    {
+      "field": "design_parameters.wqv_depth_inches",
+      "excerpt": "the following elevations for each BMP shall be provided: (i) water quality (1-inch) storm event; (ii) 1-, 2-, and 10-year 24-hour storm events (NOAA Atlas 14)",
+      "page_or_section": "Section 2.4.1 / PAGE 2-23"
+    },
+    {
+      "field": "practice_mentions.manufactured_treatment",
+      "excerpt": "Manufactured Treatment Devices ... Please refer to the DEQ BMP Clearinghouse website for the most up to date list of approved MTD's.",
+      "page_or_section": "Section 5.1 / PAGE 5-30"
+    },
+    {
+      "field": "practice_mentions.extended_detention",
+      "excerpt": "3. Extended Detention Pond ... 15. Dry Extended Detention Ponds – No modification",
+      "page_or_section": "Section 5.1; Appendix 4A"
+    },
+    {
+      "field": "practice_mentions.wet_pond",
+      "excerpt": "4. Wet Pond ... 14. Wet Ponds – Table 14.2",
+      "page_or_section": "Section 5.1; Appendix 4A"
+    },
+    {
+      "field": "practice_mentions.swale",
+      "excerpt": "10. Dry Swales ... 11. Wet Swales ... A shallow swale may be necessary",
+      "page_or_section": "Section 5.1; Section 2.3.1.2"
+    },
+    {
+      "field": "practice_mentions.green_roof",
+      "excerpt": "8. Vegetated Roof ... 5. Vegetated Roofs – No modification",
+      "page_or_section": "Section 5.1; Appendix 4A"
+    },
+    {
+      "field": "practice_mentions.bioretention",
+      "excerpt": "4. Bioretention (including Urban Bioretention) ... all bioretention and infiltration practices proposed in the City of Norfolk must incorporate an appropriately sized underdrain.",
+      "page_or_section": "Section 5.1; Appendix 4A"
+    },
+    {
+      "field": "practice_mentions.permeable_pavement",
+      "excerpt": "7. Permeable Pavement – All practices proposed in the City of Norfolk shall incorporate an appropriately sized underdrain",
+      "page_or_section": "Appendix 4A"
+    },
+    {
+      "field": "practice_mentions.infiltration_basin",
+      "excerpt": "3. Infiltration Practices ... Infiltration practices are generally discouraged in the City of Norfolk due to the presence of a high ground water table",
+      "page_or_section": "Section 5.1"
+    },
+    {
+      "field": "practice_mentions.constructed_wetland",
+      "excerpt": "12. Constructed Wetlands ... 13. Constructed Wetlands – No modification",
+      "page_or_section": "Section 5.1; Appendix 4A"
+    },
+    {
+      "field": "practice_mentions.sand_filter",
+      "excerpt": "Enhance sand filter media with a layer of organic matter.",
+      "page_or_section": "Appendix (Structural BMP / bacteria guidance)"
     }
   ],
   "extraction_quality": {
@@ -157,5 +217,56 @@
     "landing_page_url": "https://www.norfolk.gov/1499/Site-Plan-Review",
     "retrieved_at": "2026-08-08T10:27:34.427Z",
     "original_filename": "norfolk-va.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": 1,
+    "max_drawdown_hours": null,
+    "shwt_separation_inches": null,
+    "bioretention_media_depth_min_inches": null,
+    "bioretention_ponding_depth_inches": null,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": null,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": null,
+    "length_to_width_ratio": null,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "bioretention",
+      "constructed_wetland",
+      "extended_detention",
+      "green_roof",
+      "infiltration_basin",
+      "manufactured_treatment",
+      "permeable_pavement",
+      "sand_filter",
+      "swale",
+      "wet_pond"
+    ],
+    "enriched_at": "2026-08-13T09:26:29.363Z",
+    "enrich_model": "composer-2.5:run-a51f560a-79e4-4819-b1fd-23b8a55104be",
+    "enrich_notes": "Norfolk Rev 3 (July 1, 2024) implements Part II B / VRRM (0.41 lb P/ac/yr new dev); BMP detail is largely via Virginia Stormwater BMP Clearinghouse Handbook. City requires underdrains for permeable pavement, bioretention, infiltration, dry swales, and filtering practices; Level 2 subsoil testing for bioretention and dry swales; site-specific encased falling-head infiltration testing. Infiltration generally discouraged due to high groundwater. MTDs must be on DEQ Clearinghouse list at plan approval—not TAPE/NJCAT by name in excerpts.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "max_drawdown_hours",
+      "shwt_separation_inches",
+      "bioretention_media_depth_min_inches",
+      "bioretention_ponding_depth_inches",
+      "permeable_pavement_storage_depth_inches",
+      "design_infiltration_rate_in_per_hr",
+      "permanent_pool_depth_inches",
+      "ed_drain_time_hours",
+      "length_to_width_ratio",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "swale_longitudinal_slope_percent",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

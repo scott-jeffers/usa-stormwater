@@ -62,6 +62,76 @@
       "field": "design_criteria.approved_bmp_categories",
       "excerpt": "Bioretention, Infiltration Basin, Filter Strip, Permeable Pavement",
       "page_or_section": null
+    },
+    {
+      "field": "design_parameters.wqv_depth_inches",
+      "excerpt": "The designer should use a WQV equal to 1.0 inches times the IA of the post-development project site when a discharge is: • From LUHPPLs • In soils with Rapid Infiltration Rates (i.e., saturated hydraulic conductivity >2.4 in/hr)",
+      "page_or_section": "Chapter 2, MassDOT Evaluation Method (page 42)"
+    },
+    {
+      "field": "design_parameters.wqv_depth_inches",
+      "excerpt": "Designers should use the TSS reductions table found within the Massachusetts Stormwater Handbook to demonstrate 80% TSS reduction for a Water Quality Volume (WQV) equal to 0.5 inches times the Impervious Area (IA).",
+      "page_or_section": "Chapter 2, MassDOT Evaluation Method (page 42)"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "All infiltration SCMs and pretreatment basins/sumps should dewater within 72 hours so that standing water doe",
+      "page_or_section": "Section 4.8.2 Pretreatment and Design Criteria (page 137)"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "Groundwater levels for SCMs designed to be dry should allow the SCM to drain between storm events (typically a 72-hour drawdown period)",
+      "page_or_section": "Section 3.3.3.2 Site Evaluation (page 86)"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "The design drawdown period should be 72 hours or less",
+      "page_or_section": "Section 4.1.2 Sediment Forebay (page 96)"
+    },
+    {
+      "field": "design_parameters.shwt_separation_inches",
+      "excerpt": "The SHWT is a minimum of two feet below the proposed bottom surface of the SCM",
+      "page_or_section": "Section 4.8.1 Soils and Siting Criteria (page 137)"
+    },
+    {
+      "field": "design_parameters.shwt_separation_inches",
+      "excerpt": "Vertical separation to SHWT should be a minimum of two feet above seasonal high groundwater and two to four feet above bedrock.",
+      "page_or_section": "Table 4-2 Pavement Disconnection / QPA (page 100)"
+    },
+    {
+      "field": "design_parameters.shwt_separation_inches",
+      "excerpt": "Unless upstream of a wet SCM, bottom of forebay should be a minimum of two feet above the seasonal high water table (SHWT)",
+      "page_or_section": "Section 4.1.2 Sediment Forebay (page 96)"
+    },
+    {
+      "field": "design_parameters.design_infiltration_rate_in_per_hr",
+      "excerpt": "The infiltration rate of soils under the elevation of the SCM bottom is ≥ 0.17 inches per hour, or site-specific geotechnical investigations of this soil layer indicate the full storage volume will infiltrate within 72 hours",
+      "page_or_section": "Section 4.8.1 Soils and Siting Criteria (page 137)"
+    },
+    {
+      "field": "design_parameters.ed_drain_time_hours",
+      "excerpt": "An extended dry detention basin is a surface impoundment designed to detain the WQV and/or DSV for a duration of 24 to 72 hours.",
+      "page_or_section": "Section 4.5.1 Extended Dry Detention Basin (page 121)"
+    },
+    {
+      "field": "design_parameters.ed_drain_time_hours",
+      "excerpt": "WQV and/or DSV drawdown is 24 – 72 hours. Minimum 24 hours allows time for coarse and finer particulates to settle.",
+      "page_or_section": "Section 4.5.1 Extended Dry Detention Basin (page 122)"
+    },
+    {
+      "field": "design_parameters.length_to_width_ratio",
+      "excerpt": "Design characteristics common to all wetland types: • Length to width ratio: ≥ 2:1",
+      "page_or_section": "Section 4.3.1 Constructed Stormwater Wetland (page 111)"
+    },
+    {
+      "field": "design_parameters.wetland_detention_hours",
+      "excerpt": "The detention time should be between 12-24 hours and water levels should return gradually to normal within 24 hours of the rain event.",
+      "page_or_section": "Section 4.3.1 Extended detention wetland description (page 111)"
+    },
+    {
+      "field": "design_parameters.wetland_detention_hours",
+      "excerpt": "Extended DetentionB Not Allowed 24 – 72 hoursC 24 – 72 hours 24 – 72 hoursC",
+      "page_or_section": "Table 4-3 Constructed Stormwater Wetlands (page 113)"
     }
   ],
   "extraction_quality": {
@@ -77,5 +147,46 @@
     "landing_page_url": "https://www.mass.gov/info-details/stormwater-management-unit",
     "retrieved_at": "2026-08-11T17:59:10.573Z",
     "original_filename": "ma-massdot-drainage.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": 0.5,
+    "max_drawdown_hours": 72,
+    "shwt_separation_inches": 24,
+    "bioretention_media_depth_min_inches": null,
+    "bioretention_ponding_depth_inches": null,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": 0.17,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": 72,
+    "length_to_width_ratio": 2,
+    "wetland_detention_hours": 24,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "bioretention",
+      "constructed_wetland",
+      "extended_detention",
+      "infiltration_basin",
+      "permeable_pavement",
+      "wet_pond"
+    ],
+    "enriched_at": "2026-08-13T09:01:43.160Z",
+    "enrich_model": "composer-2.5:run-6dc9754e-c73a-4a02-b5dc-db6651d3e521",
+    "enrich_notes": "MassDOT WQV depth is 0.5 in × IA for standard 80% TSS compliance; 1.0 in × IA is required for LUHPPLs, soils with saturated hydraulic conductivity >2.4 in/hr, Zone II/IWPA, and listed Critical Areas. Rapid infiltration threshold (>2.4 in/hr) triggers additional pretreatment but is not the design infiltration rate. Porous pavement reservoir course depth is sized to store WQV/ReV/DSV in void space (not a fixed inch depth); layer thicknesses include choker 4–8 in, filter 8–12+ in, filter blanket ≥3 in, total ≥65% of frost depth. Extended dry detention drawdown/detention is 24–72 h (minimum 24 h for brimful WQV/DSV). Extended detention wetland hydraulic detention is 12–24 h. CSW Table 4-3 assumes 1 in WQV depth for zone allocation (0.5 in case adjusts forebay WQV %). Sediment forebay sizing uses ≥0.1 in × contributing IA acreage.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "bioretention_media_depth_min_inches",
+      "bioretention_ponding_depth_inches",
+      "permeable_pavement_storage_depth_inches",
+      "permanent_pool_depth_inches",
+      "swale_bottom_width_inches",
+      "swale_longitudinal_slope_percent",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

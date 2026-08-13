@@ -117,6 +117,26 @@
       "field": "design_criteria.approved_bmp_categories",
       "excerpt": "riprap aprons should be used for closed pipe system outlets and for culverts that convey drainage ditches and streams with intermittent flows, and plunge pools should be used for culverts that convey streams with perennial flows.",
       "page_or_section": "Summary of Technical Changes / Chapter 6"
+    },
+    {
+      "field": "practice_mentions.swale",
+      "excerpt": "NCDEQ Stormwater Design Manual: C-11. Treatment Swale.",
+      "page_or_section": "Chapter 3 | Channels | 3.11 References (page 40)"
+    },
+    {
+      "field": "practice_mentions.swale",
+      "excerpt": "Ekka, S & Hunt, W. (2020). Swale Terminology for Urban Stormwater Treatment.",
+      "page_or_section": "Chapter 3 | Channels | 3.11 References (page 40)"
+    },
+    {
+      "field": "enrich_notes",
+      "excerpt": "Detention: Unless otherwise approved by Storm Water Services, stormwater detention effect from stormwater control measures, ponds, or reservoirs must not be taken into account when calculating flows from an existing drainage area to a stormwater conveyance design.",
+      "page_or_section": "Chapter 2 | Hydrology | 2.3 Hydrologic Considerations (page 11)"
+    },
+    {
+      "field": "enrich_notes",
+      "excerpt": "Design of SCMs",
+      "page_or_section": "Chapter 2 | Hydrology | Table 2-2 Allowable uses for NRCS Method (page 11)"
     }
   ],
   "extraction_quality": {
@@ -133,5 +153,48 @@
     "landing_page_url": "https://www.charlottenc.gov/Services/Stormwater/Stormwater-Regulations/Storm-Water-Design-Manual",
     "retrieved_at": "2026-08-08T10:41:44.548Z",
     "original_filename": "charlotte-nc.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": null,
+    "max_drawdown_hours": null,
+    "shwt_separation_inches": null,
+    "bioretention_media_depth_min_inches": null,
+    "bioretention_ponding_depth_inches": null,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": null,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": null,
+    "length_to_width_ratio": null,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "swale"
+    ],
+    "enriched_at": "2026-08-13T07:49:35.306Z",
+    "enrich_model": "composer-2.5:run-f9d45efb-fc73-448e-8c3c-92fe840f2586",
+    "enrich_notes": "Corpus is the Charlotte-Mecklenburg Stormwater Design Manual conveyance draft (hydrology, vegetated/armored channels, closed pipes, culverts, energy dissipators). Atlas notes post-construction water quality volume and SCM sizing are deferred to separate Post Construction Stormwater Ordinances referenced in §1.7—not present in these excerpts. Table 2-2 allows NRCS for design of SCMs, but no SCM numeric sizing criteria appear. Channel Table 3-1 gives 2 ft preferred bottom width and 2–7% longitudinal slope for channels, not labeled as treatment swales.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "wqv_depth_inches",
+      "max_drawdown_hours",
+      "shwt_separation_inches",
+      "bioretention_media_depth_min_inches",
+      "bioretention_ponding_depth_inches",
+      "permeable_pavement_storage_depth_inches",
+      "design_infiltration_rate_in_per_hr",
+      "permanent_pool_depth_inches",
+      "ed_drain_time_hours",
+      "length_to_width_ratio",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "swale_longitudinal_slope_percent",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

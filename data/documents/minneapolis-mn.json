@@ -128,6 +128,56 @@
       "field": "design_criteria.approved_bmp_categories",
       "excerpt": "A partial list of structural BMPs and devices includes pond systems/detention basins, infiltration cells (“rain gardens”), infiltration trenches, filtration systems, vegetated channels, grit chambers, and oil/water separators. BMPs that use the properties of vegetation or soil... are often referred to as “green infrastructure.”",
       "page_or_section": "Glossary, Stormwater best management practices"
+    },
+    {
+      "field": "design_parameters.wqv_depth_inches",
+      "excerpt": "Water quality: Seventy percent (70%) removal of total suspended solids (TSS) from a 1.25-inch storm event.",
+      "page_or_section": "4.3.1.3 Volume control, page 33"
+    },
+    {
+      "field": "design_parameters.shwt_separation_inches",
+      "excerpt": "With less than three (3) feet of separation distance from the bottom of the infiltration system to the elevation of the seasonally saturated soils or the top of bedrock.",
+      "page_or_section": "4.3.1.3 C Restrictions, page 34"
+    },
+    {
+      "field": "practice_mentions.bioretention",
+      "excerpt": "infiltration cells (\"rain gardens\")... bio-retention areas",
+      "page_or_section": "Glossary / Section 8.2.1, pages 11, 94"
+    },
+    {
+      "field": "practice_mentions.infiltration_trench",
+      "excerpt": "infiltration trenches",
+      "page_or_section": "Glossary; Section 8.2.1, pages 11, 94"
+    },
+    {
+      "field": "practice_mentions.permeable_pavement",
+      "excerpt": "Porous pavement (pervious concrete, porous asphalt, or porous pavers)",
+      "page_or_section": "Section 8.2.1, page 94"
+    },
+    {
+      "field": "practice_mentions.swale",
+      "excerpt": "Vegetated swales... dry or wet swales",
+      "page_or_section": "Glossary; Section 8.2.1, pages 11, 94"
+    },
+    {
+      "field": "practice_mentions.sand_filter",
+      "excerpt": "Sand filters",
+      "page_or_section": "Section 8.2.1, page 94"
+    },
+    {
+      "field": "practice_mentions.wet_pond",
+      "excerpt": "pond systems/detention basins... Water quality ponds and wetlands",
+      "page_or_section": "Glossary; Section 8.2.1, pages 11, 94"
+    },
+    {
+      "field": "practice_mentions.extended_detention",
+      "excerpt": "Detention Basins... pond systems/detention basins",
+      "page_or_section": "Appendix inspection examples; glossary, pages 11, 97"
+    },
+    {
+      "field": "practice_mentions.manufactured_treatment",
+      "excerpt": "Proprietary Device... oil/water separators... hydrodynamic separators",
+      "page_or_section": "Glossary; Appendix B form; pre-treatment, pages 11, 101"
     }
   ],
   "extraction_quality": {
@@ -143,5 +193,54 @@
     "landing_page_url": "https://www2.minneapolismn.gov/",
     "retrieved_at": "2026-08-08T10:35:20.744Z",
     "original_filename": "minneapolis-mn.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": 1.25,
+    "max_drawdown_hours": null,
+    "shwt_separation_inches": 36,
+    "bioretention_media_depth_min_inches": null,
+    "bioretention_ponding_depth_inches": null,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": null,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": null,
+    "length_to_width_ratio": null,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "bioretention",
+      "constructed_wetland",
+      "extended_detention",
+      "infiltration_trench",
+      "manufactured_treatment",
+      "permeable_pavement",
+      "sand_filter",
+      "swale",
+      "wet_pond"
+    ],
+    "enriched_at": "2026-08-13T09:12:26.786Z",
+    "enrich_model": "composer-2.5:run-28e57762-3bcd-44b3-9ea1-c2ac77c66db4",
+    "enrich_notes": "City ordinance standards in excerpts: 70% TSS from a 1.25-inch storm; volume retention 1.1 inches (new/redev) or larger of 0.55/1.1 inches (linear). Infiltration restricted where native rate exceeds 8.3 in/hr unless amended below 8.3 in/hr; minimum 3 ft separation to seasonally saturated soils/bedrock. BMP sizing/design details refer to MPCA Minnesota Stormwater Manual; Table 4-8 design infiltration rates not included in corpus. Rain garden O&M triggers action if standing water remains 72 hours after a storm (maintenance, not a stated design drawdown standard in excerpts).",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "max_drawdown_hours",
+      "bioretention_media_depth_min_inches",
+      "bioretention_ponding_depth_inches",
+      "permeable_pavement_storage_depth_inches",
+      "design_infiltration_rate_in_per_hr",
+      "permanent_pool_depth_inches",
+      "ed_drain_time_hours",
+      "length_to_width_ratio",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "swale_longitudinal_slope_percent",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

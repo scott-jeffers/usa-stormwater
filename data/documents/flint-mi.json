@@ -30,7 +30,33 @@
       "Filtration / detention SCMs"
     ]
   },
-  "evidence": [],
+  "evidence": [
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "Storage facilities are to fully drain the surface water component within 48 hours following a storm event. The entire cross section should be drained within 72 hours.",
+      "page_or_section": "ENGINEERING STANDARDS / Stormwater Storage, page 18"
+    },
+    {
+      "field": "design_parameters.ed_drain_time_hours",
+      "excerpt": "Storage facilities are to fully drain the surface water component within 48 hours following a storm event.",
+      "page_or_section": "ENGINEERING STANDARDS / Stormwater Storage, page 18"
+    },
+    {
+      "field": "design_parameters.shwt_separation_inches",
+      "excerpt": "Depth from bottom of facility to groundwater table … 2 foot minimum",
+      "page_or_section": "Table 4 Infiltration Facility Design Criteria; Table 5 Detention Pond (Dry Pond, Constructed Wetland), pages 19–20"
+    },
+    {
+      "field": "design_parameters.design_infiltration_rate_in_per_hr",
+      "excerpt": "Soil Permeability/Infiltration Rate … 0.5 inches/hr. minimum",
+      "page_or_section": "Table 4 Infiltration Facility Design Criteria, page 19"
+    },
+    {
+      "field": "design_parameters.permanent_pool_depth_inches",
+      "excerpt": "Maximum Depth … 1.5 feet wet depth without safety fencing",
+      "page_or_section": "Table 5 Detention Pond Design Criteria (Wet Pond), page 20"
+    }
+  ],
   "extraction_quality": {
     "confidence": "low",
     "needs_human_review": true,
@@ -44,5 +70,53 @@
     "landing_page_url": "https://www.cityofflint.com/",
     "retrieved_at": "2026-08-10T10:35:05.250Z",
     "original_filename": "flint-mi.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": null,
+    "max_drawdown_hours": 72,
+    "shwt_separation_inches": 24,
+    "bioretention_media_depth_min_inches": null,
+    "bioretention_ponding_depth_inches": null,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": 0.5,
+    "permanent_pool_depth_inches": 18,
+    "ed_drain_time_hours": 48,
+    "length_to_width_ratio": null,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "bioretention",
+      "constructed_wetland",
+      "extended_detention",
+      "green_roof",
+      "infiltration_basin",
+      "infiltration_trench",
+      "manufactured_treatment",
+      "permeable_pavement",
+      "sand_filter",
+      "swale",
+      "wet_pond"
+    ],
+    "enriched_at": "2026-08-13T08:19:26.906Z",
+    "enrich_model": "composer-2.5:run-41574a71-106c-4399-b22e-fea75654b878",
+    "enrich_notes": "Corpus is Lansing Stormwater Design Manual (Flint proxy). WQv depth referenced via Table 1 but Table 1 not in excerpts. Infiltration swale bottom width given as 2–8 ft and bottom slope as 1%–6% (no single design number). Wet/constructed wetland max wet depth 1.5 ft applies without safety fencing; greater depths may be authorized with fencing. Channel protection cites 2-year 24-hour storm in infiltration narrative but no numeric WQv rainfall depth in provided pages.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "wqv_depth_inches",
+      "bioretention_media_depth_min_inches",
+      "bioretention_ponding_depth_inches",
+      "permeable_pavement_storage_depth_inches",
+      "length_to_width_ratio",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "swale_longitudinal_slope_percent",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

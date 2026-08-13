@@ -31,11 +31,6 @@
   },
   "evidence": [
     {
-      "field": "document_metadata.jurisdiction_name",
-      "excerpt": "New Mexico",
-      "page_or_section": "Title / header"
-    },
-    {
       "field": "document_metadata.document_title",
       "excerpt": "NMDOT Drainage Design Manual",
       "page_or_section": "Title / header"
@@ -49,15 +44,51 @@
       "field": "design_criteria.peak_flow_calculation_method",
       "excerpt": ".............................. 4—79 404 NRCS Simplified Peak Discharge Method ..............................................",
       "page_or_section": null
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "Drain Time Rural and Urban - must drain in less than 96 hours (a)",
+      "page_or_section": "Table 207-1 Criteria for Detention and Retention Ponds, page 2-14"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "Retention ponds must be designed to drain completely in 96 hours.",
+      "page_or_section": "Section 506.7 Retention Storage Facilities, page 5-124"
+    },
+    {
+      "field": "design_parameters.ed_drain_time_hours",
+      "excerpt": "Drain Time Rural and Urban - must drain in less than 96 hours (a)",
+      "page_or_section": "Table 207-1 DETENTION PONDS, page 2-14"
+    },
+    {
+      "field": "design_parameters.ed_drain_time_hours",
+      "excerpt": "The pond must drain via infiltration in less than 96 hours to meet the New Mexico Office of the State Engineer water rights requirements.",
+      "page_or_section": "Section 701 MS4, page 7-10"
+    },
+    {
+      "field": "practice_mentions.wet_pond",
+      "excerpt": "Retention storage facilities which may have a permanent pool (wet pond) are often discouraged",
+      "page_or_section": "Section 506.7, page 5-123"
+    },
+    {
+      "field": "practice_mentions.swale",
+      "excerpt": "Gutter sections can be categorized as conventional or shallow swale type as illustrated in Figure 504-1.",
+      "page_or_section": "Section 504.2.1 Curb and Gutter, page 5-56"
+    },
+    {
+      "field": "practice_mentions.extended_detention",
+      "excerpt": "DETENTION PONDS (Non-Jurisdictional) ... Drain Time Rural and Urban - must drain in less than 96 hours",
+      "page_or_section": "Table 207-1, page 2-14"
     }
   ],
   "extraction_quality": {
     "confidence": "medium",
     "needs_human_review": true,
-    "review_notes": "Heuristic agency extract from prepared text. NMDOT Drainage Design Manual (July 2018)",
+    "review_notes": "Heuristic agency extract from prepared text. NMDOT Drainage Design Manual (July 2018) Pipeline excerpt repair removed 1 unlocated citation(s).",
     "fields_not_found": [
       "design_criteria.water_quality_volume_method",
-      "design_criteria.approved_bmp_categories"
+      "design_criteria.approved_bmp_categories",
+      "document_metadata.jurisdiction_name"
     ]
   },
   "source": {
@@ -65,5 +96,48 @@
     "landing_page_url": "https://www.dot.nm.gov/infrastructure/program-management/drainage-design/",
     "retrieved_at": "2026-08-11T17:59:10.635Z",
     "original_filename": "nm-nmdot-drainage.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": null,
+    "max_drawdown_hours": 96,
+    "shwt_separation_inches": null,
+    "bioretention_media_depth_min_inches": null,
+    "bioretention_ponding_depth_inches": null,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": null,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": 96,
+    "length_to_width_ratio": null,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "extended_detention",
+      "swale",
+      "wet_pond"
+    ],
+    "enriched_at": "2026-08-13T09:26:06.602Z",
+    "enrich_model": "composer-2.5:run-e03cdb86-07d2-4a47-865b-90b93c43f27c",
+    "enrich_notes": "MS4 stormwater quality uses location-specific 80th/90th percentile rainfall depths (Table 207-2, Table 701-1), not a single statewide WQv depth. Albuquerque 90th percentile explicitly 0.615 in per EPA/Kosco direction. Detention and retention (non-jurisdictional) both require drain/infiltrate-evaporate in less than 96 hours; Section 701 ties retention pond drain to NMOSE water rights. GI/LID referenced; no numeric BMP sizing for bioretention, permeable pavement, or MTD verification in excerpts.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "wqv_depth_inches",
+      "shwt_separation_inches",
+      "bioretention_media_depth_min_inches",
+      "bioretention_ponding_depth_inches",
+      "permeable_pavement_storage_depth_inches",
+      "design_infiltration_rate_in_per_hr",
+      "permanent_pool_depth_inches",
+      "length_to_width_ratio",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "swale_longitudinal_slope_percent",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

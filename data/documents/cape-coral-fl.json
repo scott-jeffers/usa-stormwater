@@ -79,6 +79,16 @@
       "field": "design_criteria.approved_bmp_categories",
       "excerpt": "CATCH BASINS / OUTFALLS",
       "page_or_section": "9.4–9.6"
+    },
+    {
+      "field": "practice_mentions.swale",
+      "excerpt": "If the mains are placed beneath a swale, the depth of cover may be reduced to 30\" below the finished grade of the swale.",
+      "page_or_section": "Section 2.1 GENERAL, page 11"
+    },
+    {
+      "field": "practice_mentions.swale",
+      "excerpt": "If inlet is located at the bottom of the swale the two front bleed downs will be filled with grout. If the inlet is located in the bank of the swale, the 2 side bleed downs will be filled with grout.",
+      "page_or_section": "Section 9.4 CATCH BASINS, page 59"
     }
   ],
   "extraction_quality": {
@@ -95,5 +105,48 @@
     "landing_page_url": "https://www.capecoral.gov/",
     "retrieved_at": "2026-08-10T08:56:34.266Z",
     "original_filename": "cape-coral-fl.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": null,
+    "max_drawdown_hours": null,
+    "shwt_separation_inches": null,
+    "bioretention_media_depth_min_inches": null,
+    "bioretention_ponding_depth_inches": null,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": null,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": null,
+    "length_to_width_ratio": null,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "swale"
+    ],
+    "enriched_at": "2026-08-13T07:45:33.370Z",
+    "enrich_model": "composer-2.5:run-8540d1b3-5fb2-46b0-b750-fc9ee83085fa",
+    "enrich_notes": "Corpus is City of Cape Coral Utilities Design Procedures Manual (Volume 1): potable, irrigation, wastewater, force main, and Section 9 storm water systems for utility storm drain replacement/conveyance. Section 9 gives storm drain upsizing rules, preferred pipe slope 0.25% and minimum 0.10%, minimum cover 2.2 ft below edge of pavement, catch basin grate/bleeder elevations, and outfall 2-foot sump; no post-construction WQv depth, infiltration SCM sizing, drawdown, or seasonal high water table separation criteria. Swale references are for utility pipe cover (30 in below finished swale grade) and catch basin placement at swale bottom/bank, not vegetated swale BMP design dimensions.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "wqv_depth_inches",
+      "max_drawdown_hours",
+      "shwt_separation_inches",
+      "bioretention_media_depth_min_inches",
+      "bioretention_ponding_depth_inches",
+      "permeable_pavement_storage_depth_inches",
+      "design_infiltration_rate_in_per_hr",
+      "permanent_pool_depth_inches",
+      "ed_drain_time_hours",
+      "length_to_width_ratio",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "swale_longitudinal_slope_percent",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

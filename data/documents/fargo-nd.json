@@ -55,6 +55,41 @@
       "field": "document_metadata.relationship_to_state_manual",
       "excerpt": "Storm Water Discharge and Treatment Policy 2019 10 features. Flow-Through Treatment devices such as “Defenders ™” shall provide as a minimum 80 percent removal of sediment with a particle size distribution equivalent to the standard OK- 110 at a feed concentration of 300 mg/L",
       "page_or_section": "p. 10"
+    },
+    {
+      "field": "design_parameters.wqv_depth_inches",
+      "excerpt": "Infiltration Water Quality Volume (Vwq) = 0.5 inches from impervious area.",
+      "page_or_section": "Appendix C, page 9"
+    },
+    {
+      "field": "design_parameters.wqv_depth_inches",
+      "excerpt": "Size devices to treat the first 0.5 inches of runoff from impervious area.",
+      "page_or_section": "Appendix C, page 9"
+    },
+    {
+      "field": "practice_mentions.extended_detention",
+      "excerpt": "Dry Detention Ponds (w/Extended Detention) Extended Detention / Water Quality Volume (Vwqed) = 1800 cu-ft per impervious acre draining to pond.",
+      "page_or_section": "Appendix C, page 9"
+    },
+    {
+      "field": "practice_mentions.wet_pond",
+      "excerpt": "Wet Detention Ponds Water Quality Volume (Vwq) = 1800 cu-ft per impervious acre draining to the pond.",
+      "page_or_section": "Appendix C, page 9"
+    },
+    {
+      "field": "practice_mentions.manufactured_treatment",
+      "excerpt": "Flow-Through Treatment Devices Size devices to treat the first 0.5 inches of runoff from impervious area.",
+      "page_or_section": "Appendix C, page 9"
+    },
+    {
+      "field": "practice_mentions.bioretention",
+      "excerpt": "The volume captured in rain gardens, or passed through biofilters with under drains, would be grouped with infiltration for water quality treatment.",
+      "page_or_section": "Appendix C, page 9"
+    },
+    {
+      "field": "practice_mentions.swale",
+      "excerpt": "Construction of \"rain gardens\", \"grassy swales\", and other methods of achieving water quality are encouraged and will be evaluated on a case-by-case basis.",
+      "page_or_section": "Appendix B, page 8"
     }
   ],
   "extraction_quality": {
@@ -70,5 +105,52 @@
     "landing_page_url": "https://download.fargond.gov/",
     "retrieved_at": "2026-08-10T09:45:18.892Z",
     "original_filename": "fargo-nd.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": 0.5,
+    "max_drawdown_hours": null,
+    "shwt_separation_inches": null,
+    "bioretention_media_depth_min_inches": null,
+    "bioretention_ponding_depth_inches": null,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": null,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": null,
+    "length_to_width_ratio": null,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "bioretention",
+      "extended_detention",
+      "infiltration_basin",
+      "manufactured_treatment",
+      "swale",
+      "wet_pond"
+    ],
+    "enriched_at": "2026-08-13T08:13:24.568Z",
+    "enrich_model": "composer-2.5:run-875dd375-fa54-4d97-b99b-6e4b5074d693",
+    "enrich_notes": "Appendix C (MS4): wet detention Vwq = 1800 cu-ft per impervious acre with Vwq drawdown minimum 12 hours; extended detention Vwqed = 1800 cu-ft per impervious acre with drawdown minimum 24 hours and maximum 72 hours; infiltration Vwq = 0.5 in from impervious with discharge through soil/filter within 48 hours; flow-through devices sized for first 0.5 in from impervious. Appendix D regional wet pond minimum 15 acre-ft (avg bottom width 100 ft); dry pond 7.5 acre-ft (min bottom width 100 ft). Quantity: sites >3 ac limited to 1 cfs/ac; 1–3 ac per release-rate table.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "max_drawdown_hours",
+      "shwt_separation_inches",
+      "bioretention_media_depth_min_inches",
+      "bioretention_ponding_depth_inches",
+      "permeable_pavement_storage_depth_inches",
+      "design_infiltration_rate_in_per_hr",
+      "permanent_pool_depth_inches",
+      "ed_drain_time_hours",
+      "length_to_width_ratio",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "swale_longitudinal_slope_percent",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

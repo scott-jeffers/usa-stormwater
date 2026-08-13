@@ -117,6 +117,51 @@
       "field": "design_criteria.approved_bmp_categories",
       "excerpt": "secondary controls. • Bioretention • Enhanced swales (dry, wet, wetland) • Alum treatment • Detention • Filter strips • Sand filters, filter boxes, etc • Infiltration wells and trenches • Ponds • Porous surfaces • Proprietary systems • Green roofs • Rainwater harvesting • Wetl",
       "page_or_section": "p. 29"
+    },
+    {
+      "field": "design_parameters.wqv_depth_inches",
+      "excerpt": "The Water Quality Protection Volume (WQv) is the runoff from the first 1.5 inches of rainfall.",
+      "page_or_section": "page 29 / Section 3.2.3"
+    },
+    {
+      "field": "design_parameters.wqv_depth_inches",
+      "excerpt": "Treat the Water Quality Protection Volume by reducing total suspended solids from the development site for runoff resulting from rainfall of 1.5 inches (85th percentile storm).",
+      "page_or_section": "page 28 / Section 3.2.3"
+    },
+    {
+      "field": "design_parameters.design_infiltration_rate_in_per_hr",
+      "excerpt": "Infiltration Trenches Infiltration rate > 0.5 inch/hr",
+      "page_or_section": "Table 3.20 Soils, page 62"
+    },
+    {
+      "field": "design_parameters.design_infiltration_rate_in_per_hr",
+      "excerpt": "Modular Porous Paver Systems Infiltration rate > 0.5 inch/hr",
+      "page_or_section": "Table 3.20 Soils, page 62"
+    },
+    {
+      "field": "design_parameters.permanent_pool_depth_inches",
+      "excerpt": "Wet Pond Limit maximum normal pool depth to about 4 ft (dugout)",
+      "page_or_section": "Table 3.19 Physiographic Factors, pages 60-61"
+    },
+    {
+      "field": "practice_mentions.bioretention",
+      "excerpt": "Bioretention Areas Bioretention Areas 80% P S S -",
+      "page_or_section": "Table 3.6, page 30"
+    },
+    {
+      "field": "practice_mentions.swale",
+      "excerpt": "Enhanced Swales 80% P S S S",
+      "page_or_section": "Table 3.6, page 31"
+    },
+    {
+      "field": "practice_mentions.extended_detention",
+      "excerpt": "Detention, Extended Dry 65% S P P P",
+      "page_or_section": "Table 3.6, page 31"
+    },
+    {
+      "field": "practice_mentions.manufactured_treatment",
+      "excerpt": "Third-party sources could include Technology Acceptance Reciprocity Partnership, Technology Assessment Protocol – Ecology, or others.",
+      "page_or_section": "Table 3.2 footnote, page 112 TriSWM Appendix"
     }
   ],
   "extraction_quality": {
@@ -132,5 +177,54 @@
     "landing_page_url": "https://iswm.nctcog.org/criteria-manual.html",
     "retrieved_at": "2026-08-10T07:50:00.000Z",
     "original_filename": "dallas-tx.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": 1.5,
+    "max_drawdown_hours": null,
+    "shwt_separation_inches": null,
+    "bioretention_media_depth_min_inches": null,
+    "bioretention_ponding_depth_inches": null,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": 0.5,
+    "permanent_pool_depth_inches": 48,
+    "ed_drain_time_hours": null,
+    "length_to_width_ratio": null,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "bioretention",
+      "constructed_wetland",
+      "extended_detention",
+      "green_roof",
+      "infiltration_trench",
+      "manufactured_treatment",
+      "permeable_pavement",
+      "sand_filter",
+      "swale",
+      "wet_pond"
+    ],
+    "enriched_at": "2026-08-13T08:00:59.178Z",
+    "enrich_model": "composer-2.5:run-f89df759-d147-47b6-a3ef-404e873845b2",
+    "enrich_notes": "WQv is runoff from the first 1.5 inches of rainfall (85th percentile storm); hydrology in Water Quality Technical Manual Section 1.2. Primary structural controls sized for WQv are presumed to remove 70–80% annual average TSS when built per Site Development Controls Technical Manual specs. This Criteria Manual is screening/suitability tables; dimensional BMP criteria are largely in companion technical manuals. Practice-specific depth-to-water-table values appear in tables (often 2 ft for bioretention/detention/sand filters; 1–4 ft for infiltration practices) but no single site-wide SHWT separation is stated. Proprietary systems may cite third-party verification examples including Technology Acceptance Reciprocity Partnership and Technology Assessment Protocol – Ecology.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "max_drawdown_hours",
+      "shwt_separation_inches",
+      "bioretention_media_depth_min_inches",
+      "bioretention_ponding_depth_inches",
+      "permeable_pavement_storage_depth_inches",
+      "ed_drain_time_hours",
+      "length_to_width_ratio",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "swale_longitudinal_slope_percent",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

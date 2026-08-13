@@ -78,6 +78,26 @@
       "field": "design_criteria.approved_bmp_categories",
       "excerpt": "Detention Facilities / Post-Construction Water Quality Control",
       "page_or_section": "4.9 / 4.13"
+    },
+    {
+      "field": "design_parameters.wqv_depth_inches",
+      "excerpt": "\"Water Quality\" Criteria based on a volume of 1.5 inches of rainfall, not storm frequency",
+      "page_or_section": "Table 4.3-A, Section 4.3 Design Storms, page 34"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "Outlet structures shall be designed to provide a minimum dewatering time of 36 hours and a maximum dewatering time of 72 hours.",
+      "page_or_section": "Section 4.13.4 Construction Erosion and Sediment Control Requirements, page 73"
+    },
+    {
+      "field": "practice_mentions.extended_detention",
+      "excerpt": "For water quality, refer to Section 2.2.3 for design of extended detention outlets.",
+      "page_or_section": "Section 4.9.6 Outlet Structures for Detention Facilities, page 66"
+    },
+    {
+      "field": "practice_mentions.swale",
+      "excerpt": "Open channels, including all natural or improved channels, swales, and ditches shall be designed for the \"Flood Mitigation\" storm event.",
+      "page_or_section": "Section 4.6.3 Open Channels, page 55"
     }
   ],
   "extraction_quality": {
@@ -95,5 +115,47 @@
     "landing_page_url": "https://www.cityofdenton.com/255/Development-Code-Design-Documents-Criter",
     "retrieved_at": "2026-08-10T08:56:34.266Z",
     "original_filename": "denton-tx.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": 1.5,
+    "max_drawdown_hours": 72,
+    "shwt_separation_inches": null,
+    "bioretention_media_depth_min_inches": null,
+    "bioretention_ponding_depth_inches": null,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": null,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": null,
+    "length_to_width_ratio": null,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "extended_detention",
+      "swale"
+    ],
+    "enriched_at": "2026-08-13T08:06:03.237Z",
+    "enrich_model": "composer-2.5:run-69144dfc-6092-4987-ab19-7640c0a62a0b",
+    "enrich_notes": "Water Quality storm is defined as 1.5 inches of rainfall volume (Table 4.3-A), not a frequency event. WQ compliance may infiltrate the water quality volume or remove 80% TSS from Water Quality storm discharge (Section 4.2.3). Detention outlet design references iSWM Hydraulics TM Section 2.2.3 for extended detention outlets (Section 4.9.6). Construction sediment basins require outlet dewatering between 36 and 72 hours (Section 4.13.4). Open channel design includes swales designed for Flood Mitigation storm (Section 4.6.3).",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "shwt_separation_inches",
+      "bioretention_media_depth_min_inches",
+      "bioretention_ponding_depth_inches",
+      "permeable_pavement_storage_depth_inches",
+      "design_infiltration_rate_in_per_hr",
+      "permanent_pool_depth_inches",
+      "ed_drain_time_hours",
+      "length_to_width_ratio",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "swale_longitudinal_slope_percent",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

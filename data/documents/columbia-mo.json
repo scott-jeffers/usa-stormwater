@@ -49,6 +49,31 @@
       "field": "design_criteria.approved_bmp_categories",
       "excerpt": "Bioretention: Soil and plant-based stormwater management practices... structural (grass swales, terraces, retention and detention ponds, and others)",
       "page_or_section": "Definitions / Background"
+    },
+    {
+      "field": "design_parameters.wqv_depth_inches",
+      "excerpt": "water quality storm, 1.3 inches, which constitutes 90% of the average annual rainfall in central Missouri",
+      "page_or_section": "Appendix A, A.1 Overview"
+    },
+    {
+      "field": "design_parameters.bioretention_media_depth_min_inches",
+      "excerpt": "Excavation Depth = 3 feet minimum, Bottom Sand Layer = 6\", Soil Depth = 27 inches, Mulch Depth = 3 inches",
+      "page_or_section": "Appendix A, A.2.1 Design Criteria"
+    },
+    {
+      "field": "design_parameters.bioretention_ponding_depth_inches",
+      "excerpt": "construct the rain garden such that a flat, 6\" ponding area, the same size as the bottom of the basin",
+      "page_or_section": "Appendix A, A.2.1 Design Criteria item 8"
+    },
+    {
+      "field": "design_parameters.green_roof_media_depth_inches",
+      "excerpt": "An extensive vegetated roof, a minimum of 3\" thick, may be used for buildings",
+      "page_or_section": "Chapter 6, 6.8.3 Small Area BMP"
+    },
+    {
+      "field": "design_parameters.design_infiltration_rate_in_per_hr",
+      "excerpt": "The design infiltration rate shall be 20% of the rate determined by the soils report",
+      "page_or_section": "Chapter 6, 6.8.2 B. KCBMP Sections 8.1-8.3 item 1"
     }
   ],
   "extraction_quality": {
@@ -69,5 +94,53 @@
     "landing_page_url": "https://www.como.gov/utilities/columbias-stormwater-utility/",
     "retrieved_at": "2026-08-10T09:39:14.773Z",
     "original_filename": "columbia-mo.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": 1.3,
+    "max_drawdown_hours": null,
+    "shwt_separation_inches": null,
+    "bioretention_media_depth_min_inches": 27,
+    "bioretention_ponding_depth_inches": 6,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": null,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": null,
+    "length_to_width_ratio": null,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": 3,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "bioretention",
+      "constructed_wetland",
+      "extended_detention",
+      "green_roof",
+      "infiltration_basin",
+      "infiltration_trench",
+      "permeable_pavement",
+      "sand_filter",
+      "swale",
+      "wet_pond"
+    ],
+    "enriched_at": "2026-08-13T07:56:56.605Z",
+    "enrich_model": "composer-2.5:run-dfd70589-0f67-4a4f-8f8e-d69875b2945d",
+    "enrich_notes": "WQv tied to Water Quality Storm (≤90% of annual 24-hr runoff volume); Appendix A assigns 1.3 in rainfall depth for central Missouri. Rain garden criteria map to small-area bioretention (27 in planting soil, 6 in ponding). Design infiltration is 20% of soils-report rate (no fixed in/hr). KCBMP referenced for porous pavement and infiltration; Ch. 6 defers to KCBMP on conflicts.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "max_drawdown_hours",
+      "shwt_separation_inches",
+      "permeable_pavement_storage_depth_inches",
+      "design_infiltration_rate_in_per_hr",
+      "permanent_pool_depth_inches",
+      "ed_drain_time_hours",
+      "length_to_width_ratio",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "swale_longitudinal_slope_percent",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

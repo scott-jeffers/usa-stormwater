@@ -38,18 +38,69 @@
       "field": "design_criteria.water_quality_volume_method",
       "excerpt": "pollutant load approach, coupling volume and water quality management",
       "page_or_section": "PA PCSM Manual"
+    },
+    {
+      "field": "design_parameters.shwt_separation_inches",
+      "excerpt": "A minimum two-foot separation distance from an infiltration SCM bottom to a limiting zone, including the SHWT, is generally necessary.",
+      "page_or_section": "Appendix B.8 / Page B-31"
+    },
+    {
+      "field": "design_parameters.shwt_separation_inches",
+      "excerpt": "Non-infiltration SCMs should generally be used ... where a two-foot separation distance from the bottom of the SCM to a limiting zone (e.g., SHWT, bedrock) is not met",
+      "page_or_section": "Section 3.5.4 Infiltration Trench / Page 3-135"
+    },
+    {
+      "field": "design_parameters.bioretention_media_depth_min_inches",
+      "excerpt": "Soil media depth should be at least 18 inches.",
+      "page_or_section": "Section 3.4.6 Vegetated Conveyance / Page 3-96"
+    },
+    {
+      "field": "design_parameters.bioretention_media_depth_min_inches",
+      "excerpt": "Table 3-90 ... 3.6.1 Bioretention ... Soil Media Depth Min. 18 in",
+      "page_or_section": "Section 3.9.2 Table 3-90 / Page 3-310"
+    },
+    {
+      "field": "design_parameters.bioretention_ponding_depth_inches",
+      "excerpt": "Table 3-90 ... 3.6.1 Bioretention ... Maximum Ponding/Storage Depth ... 2 ft",
+      "page_or_section": "Section 3.9.2 Table 3-90 / Page 3-310"
+    },
+    {
+      "field": "design_parameters.permanent_pool_depth_inches",
+      "excerpt": "Permanent pool should be a minimum of five feet deep.",
+      "page_or_section": "Section 3.8.1 Wet Basin / Page 3-286"
+    },
+    {
+      "field": "design_parameters.length_to_width_ratio",
+      "excerpt": "The length to width ratio of the basin should be a minimum of 2:1 to avoid short circuiting.",
+      "page_or_section": "Section 3.8.1 Wet Basin / Page 3-286"
+    },
+    {
+      "field": "design_parameters.length_to_width_ratio",
+      "excerpt": "Length to width ratio should be at least two to one.",
+      "page_or_section": "Section 3.6.6 Engineered Stormwater Treatment Wetland / Page 3-205"
+    },
+    {
+      "field": "design_parameters.green_roof_media_depth_inches",
+      "excerpt": "Table 3-90 ... 3.6.2 Green Roof ... Min. 3 in (Typically, lightweight growing material.)",
+      "page_or_section": "Section 3.9.2 Table 3-90 / Page 3-310"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "Drawdown time to native soil surface (i.e., bottom of storage) is limited to 72 hours.",
+      "page_or_section": "Section 3.5.4 Infiltration Trench / Page 3-135 (SCM-specific; no single site-wide max reported)"
     }
   ],
   "extraction_quality": {
     "confidence": "medium",
     "needs_human_review": true,
-    "review_notes": "No standalone Allentown design-manual PDF found; municipality coverage via PA PCSM Manual referenced by city ordinance.",
+    "review_notes": "No standalone Allentown design-manual PDF found; municipality coverage via PA PCSM Manual referenced by city ordinance. Pipeline excerpt repair removed 1 unlocated citation(s).",
     "fields_not_found": [
       "document_metadata.version_or_edition",
       "document_metadata.adoption_or_effective_date",
       "document_metadata.last_revised_date",
       "design_criteria.design_storm_return_periods_years",
-      "design_criteria.required_hydrologic_hydraulic_software"
+      "design_criteria.required_hydrologic_hydraulic_software",
+      "design_parameters.shwt_separation_inches"
     ]
   },
   "source": {
@@ -57,5 +108,51 @@
     "landing_page_url": "https://www.pa.gov/agencies/dep/programs-and-services/water/clean-water/stormwater-management/construction-stormwater/eands-resources",
     "retrieved_at": "2026-08-10T09:54:53.533Z",
     "original_filename": "allentown-pa.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": null,
+    "max_drawdown_hours": null,
+    "shwt_separation_inches": 24,
+    "bioretention_media_depth_min_inches": 18,
+    "bioretention_ponding_depth_inches": 24,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": null,
+    "permanent_pool_depth_inches": 60,
+    "ed_drain_time_hours": null,
+    "length_to_width_ratio": 2,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": 3,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "bioretention",
+      "constructed_wetland",
+      "extended_detention",
+      "green_roof",
+      "infiltration_basin",
+      "infiltration_trench",
+      "manufactured_treatment",
+      "permeable_pavement",
+      "swale",
+      "wet_pond"
+    ],
+    "enriched_at": "2026-08-13T07:23:47.438Z",
+    "enrich_model": "composer-2.5:run-ffdcf1e0-7ff7-424a-afba-150c82fddbc3",
+    "enrich_notes": "PA PCSM Manual (Act 167 / Ch.538 reference): pollutant-load WQM; infiltration SCMs generally require 2 ft SHWT separation; bioretention/bioinfiltration min 18 in filter media; wet basin min 5 ft permanent pool sized to 1.2 in/2 hr runoff; infiltration marginal soil thresholds 0.25–0.4 in/hr cited for SCM selection not a universal design rate.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "wqv_depth_inches",
+      "max_drawdown_hours",
+      "permeable_pavement_storage_depth_inches",
+      "design_infiltration_rate_in_per_hr",
+      "ed_drain_time_hours",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "swale_longitudinal_slope_percent",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

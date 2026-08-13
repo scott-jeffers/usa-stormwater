@@ -46,6 +46,21 @@
       "field": "design_criteria.water_quality_volume_method",
       "excerpt": "runoff reduction method will be utilized. A water quality compliance worksheet ... 9VAC25-870-65",
       "page_or_section": "Ch.12 §12.3"
+    },
+    {
+      "field": "design_parameters.wqv_depth_inches",
+      "excerpt": "Water quality control is required as well and is discussed in Chapter 12.",
+      "page_or_section": "5.2.3 Stormwater Management Facilities, page 2"
+    },
+    {
+      "field": "design_parameters.mtd_verification_program",
+      "excerpt": "The primary design references are: • VDOT Drainage Manual • VA SWM Handbook • BMP Clearinghouse • BMP Compliance Worksheet",
+      "page_or_section": "5.1 References, page 1"
+    },
+    {
+      "field": "design_parameters.ed_drain_time_hours",
+      "excerpt": "Channel protection and flood protection shall be addressed in accordance with the criteria set forth in Section 9VAC25-870-66 of the Stormwater Mangement Regulations.",
+      "page_or_section": "5.2.3.1 New Development, page 2"
     }
   ],
   "extraction_quality": {
@@ -59,5 +74,46 @@
     "landing_page_url": "https://www.roanokeva.gov/1065/Stormwater-Management-Code",
     "retrieved_at": "2026-08-10T10:10:49.504Z",
     "original_filename": "roanoke-va.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": null,
+    "max_drawdown_hours": null,
+    "shwt_separation_inches": null,
+    "bioretention_media_depth_min_inches": null,
+    "bioretention_ponding_depth_inches": null,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": null,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": null,
+    "length_to_width_ratio": null,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [],
+    "enriched_at": "2026-08-13T09:56:36.386Z",
+    "enrich_model": "composer-2.5:run-58f05a24-60a2-4583-ab64-7a2781a7c88a",
+    "enrich_notes": "Corpus is Chapter 5 hydrology (design storm frequencies, tc/travel time, rational/SCS methods) plus appendices 5B–5C soil/rainfall references. Water quality BMP sizing and practice-specific criteria are deferred to Chapter 12, Virginia BMP Clearinghouse, VA SWM Handbook, and 9VAC25-870-65/66; no explicit WQv depth, drawdown, infiltration design rate, or SCM dimensional parameters appear in supplied excerpts.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "wqv_depth_inches",
+      "max_drawdown_hours",
+      "shwt_separation_inches",
+      "bioretention_media_depth_min_inches",
+      "bioretention_ponding_depth_inches",
+      "permeable_pavement_storage_depth_inches",
+      "design_infiltration_rate_in_per_hr",
+      "permanent_pool_depth_inches",
+      "ed_drain_time_hours",
+      "length_to_width_ratio",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "swale_longitudinal_slope_percent",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

@@ -73,6 +73,21 @@
       "field": "design_criteria.approved_bmp_categories",
       "excerpt": "Refer to the Rights-of-Way Management Ordinance (Section 90) and Rights-of-Way Construction and Permitting Procedures Manual available online at mckinneytexas.org. Contact the Public Works Department regarding ROW permits at row@mckinneytexas.org or (972)547-1033. ER",
       "page_or_section": "p. 279"
+    },
+    {
+      "field": "practice_mentions.bioretention",
+      "excerpt": "1. Bioretention Area- maintenance as listed in iSWM revision 2014",
+      "page_or_section": "Appendix B PCSWQP Checklist 2, page 270"
+    },
+    {
+      "field": "practice_mentions.swale",
+      "excerpt": "2. Enhanced Swale- maintenance as listed iSWM Revised 2014",
+      "page_or_section": "Appendix B PCSWQP Checklist 2, page 270"
+    },
+    {
+      "field": "practice_mentions.swale",
+      "excerpt": "Drainage System – Includes streets, alleys, storm drains, drainage channels, culverts, bridges, overflow swales, and any other facility",
+      "page_or_section": "Appendix A A-4, page 254"
     }
   ],
   "extraction_quality": {
@@ -91,5 +106,49 @@
     "landing_page_url": "https://www.mckinneytexas.org/1507/Engineering-Resources---Forms-Notes",
     "retrieved_at": "2026-08-10T08:45:22.876Z",
     "original_filename": "mckinney-tx.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": null,
+    "max_drawdown_hours": null,
+    "shwt_separation_inches": null,
+    "bioretention_media_depth_min_inches": null,
+    "bioretention_ponding_depth_inches": null,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": null,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": null,
+    "length_to_width_ratio": null,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "bioretention",
+      "swale"
+    ],
+    "enriched_at": "2026-08-13T09:06:12.051Z",
+    "enrich_model": "composer-2.5:run-827292a6-489c-4da6-8329-2316d948d3e1",
+    "enrich_notes": "Provided excerpts are Appendix A definitions, Appendix B checklists, and Appendix C general notes. PCSWQP checklist names Bioretention Area and Enhanced Swale with maintenance per iSWM Revised 2014; no numeric BMP sizing, WQv depth, drawdown, or infiltration criteria appear in this corpus. Atlas cites Section 4 detention and Section 8 PCSWQP/iSWM screening—not included in excerpts.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "wqv_depth_inches",
+      "max_drawdown_hours",
+      "shwt_separation_inches",
+      "bioretention_media_depth_min_inches",
+      "bioretention_ponding_depth_inches",
+      "permeable_pavement_storage_depth_inches",
+      "design_infiltration_rate_in_per_hr",
+      "permanent_pool_depth_inches",
+      "ed_drain_time_hours",
+      "length_to_width_ratio",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "swale_longitudinal_slope_percent",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

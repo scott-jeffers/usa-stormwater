@@ -36,6 +36,61 @@
       "field": "design_criteria.water_quality_volume_method",
       "excerpt": "treat the first 1 inch of runoff",
       "page_or_section": "Harris County LID/GI Design Criteria"
+    },
+    {
+      "field": "design_parameters.wqv_depth_inches",
+      "excerpt": "P = depth of runoff to treat (1\" under these guidelines)",
+      "page_or_section": "3.5.2 Sizing a Bioretention System, page 15"
+    },
+    {
+      "field": "design_parameters.wqv_depth_inches",
+      "excerpt": "treatment of the first 1\" of runoff",
+      "page_or_section": "Table 6 / 3.5.1 Requirements, page 14"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "For LID projects, the goal is to drain within 72 hours, unless pre-existing conditions are shown to take longer.",
+      "page_or_section": "Part II § Detention, page 7"
+    },
+    {
+      "field": "design_parameters.bioretention_media_depth_min_inches",
+      "excerpt": "The Engineered Soil Media depth should be determined based on the mature root depth of the selected vegetation, (typically between 18 and 24 inches).",
+      "page_or_section": "1.5.2 Engineered Soil Media, page 31"
+    },
+    {
+      "field": "design_parameters.bioretention_ponding_depth_inches",
+      "excerpt": "Maximum surface ponding depth of 2ft for the 2yr event and 4ft for the 100yr event.",
+      "page_or_section": "Table 6 Surface Ponding, page 14"
+    },
+    {
+      "field": "design_parameters.bioretention_ponding_depth_inches",
+      "excerpt": "surface ponding does not exceed 24 hours",
+      "page_or_section": "1.5.1 Design Considerations, page 30"
+    },
+    {
+      "field": "design_parameters.design_infiltration_rate_in_per_hr",
+      "excerpt": "meet Harris County minimum 30\"/hour Infiltration rate requirements, of bioretention media",
+      "page_or_section": "Appendix B, page 42"
+    },
+    {
+      "field": "practice_mentions.bioretention",
+      "excerpt": "Bioretention & Engineered Soil",
+      "page_or_section": "Table 1 Acceptable LID IMPs, page 7"
+    },
+    {
+      "field": "practice_mentions.swale",
+      "excerpt": "Vegetated Swale",
+      "page_or_section": "Table 1 Acceptable LID IMPs, page 7"
+    },
+    {
+      "field": "practice_mentions.permeable_pavement",
+      "excerpt": "Permeable Pavement",
+      "page_or_section": "Table 1 / 1.6 Permeable Pavement Systems, pages 7, 33"
+    },
+    {
+      "field": "practice_mentions.green_roof",
+      "excerpt": "1.9 Green Roof",
+      "page_or_section": "page 35"
     }
   ],
   "extraction_quality": {
@@ -51,5 +106,46 @@
     "landing_page_url": "https://www.pearlandtx.gov/",
     "retrieved_at": "2026-08-10T10:27:43.524Z",
     "original_filename": "pearland-tx.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": 1,
+    "max_drawdown_hours": 72,
+    "shwt_separation_inches": null,
+    "bioretention_media_depth_min_inches": 18,
+    "bioretention_ponding_depth_inches": 24,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": 30,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": null,
+    "length_to_width_ratio": null,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "bioretention",
+      "green_roof",
+      "permeable_pavement",
+      "swale"
+    ],
+    "enriched_at": "2026-08-13T09:41:40.056Z",
+    "enrich_model": "composer-2.5:run-66e8a281-6d48-4ff7-a397-705deae69aec",
+    "enrich_notes": "Harris County Pearland LID criteria: WQv uses P=1 inch; bioretention sizing uses Df typically 1.5–2.0 ft and ponding H in feet; infiltration design requires safety factor of 2 on media rate; Appendix B as-built test requires minimum 30 in/hr media infiltration; surface ponding must not exceed 24 hours (bioretention/permeable pavement); LID detention goal drain within 72 hours; 2-yr event max bioretention surface ponding 2 ft (100-yr 4 ft).",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "shwt_separation_inches",
+      "permeable_pavement_storage_depth_inches",
+      "permanent_pool_depth_inches",
+      "ed_drain_time_hours",
+      "length_to_width_ratio",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "swale_longitudinal_slope_percent",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

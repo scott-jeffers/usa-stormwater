@@ -103,6 +103,46 @@
       "field": "design_criteria.approved_bmp_categories",
       "excerpt": "Infiltration Basin ... Bioretention ... Permeable Pavement Systems ... Dispersion ... Biofiltration Swale ... Extended Detention Basin ... Wet Detention Basin ... Proprietary Treatment Devices",
       "page_or_section": "Contents, Chapter 5"
+    },
+    {
+      "field": "max_drawdown_hours",
+      "excerpt": "The recommended maximum drawdown time for the design volume is 72 hours.",
+      "page_or_section": "5.2 Infiltration Basin, page 50"
+    },
+    {
+      "field": "shwt_separation_inches",
+      "excerpt": "A minimum vertical distance of 3 feet is recommended between the bottom of the infiltration basin and the seasonal high water table or bedrock layer",
+      "page_or_section": "5.2 Infiltration Basin, page 51"
+    },
+    {
+      "field": "bioretention_media_depth_min_inches",
+      "excerpt": "Soil media is typically composed of a mixture of sand and organic matter, and ranges in depth from 18 to 36 inches.",
+      "page_or_section": "5.3 Bioretention, page 68"
+    },
+    {
+      "field": "permeable_pavement_storage_depth_inches",
+      "excerpt": "A minimum depth of 6 inches is recommended; however, the depth of this layer will vary depending on the expected traffic loading",
+      "page_or_section": "5.4 Permeable Pavement Systems – Open-Graded Subbase Reservoir, page 83"
+    },
+    {
+      "field": "ed_drain_time_hours",
+      "excerpt": "An EDB has a minimum 48-hour drain time for the RTV, facilitating the removal of TSS",
+      "page_or_section": "5.7 Extended Detention Basin, page 116"
+    },
+    {
+      "field": "ed_drain_time_hours",
+      "excerpt": "A minimum 48-hour drain time for the RTV facilitates the removal of TSS.",
+      "page_or_section": "5.8 Wet Detention Basin, page 128"
+    },
+    {
+      "field": "shwt_separation_inches",
+      "excerpt": "a minimum vertical distance of 3 feet is recommended between the bottom of the facility and the seasonally high groundwater table or bedrock for full and partial infiltration sections",
+      "page_or_section": "5.3 Bioretention Site Selection, page 61"
+    },
+    {
+      "field": "practice_mentions",
+      "excerpt": "Section 5.2 – Infiltration Basin ... Section 5.9 – Proprietary Treatment Devices",
+      "page_or_section": "Chapter 5 introduction, page 47"
     }
   ],
   "extraction_quality": {
@@ -119,5 +159,49 @@
     "landing_page_url": "https://www.billingsmt.gov/",
     "retrieved_at": "2026-08-08T10:16:00.000Z",
     "original_filename": "billings-mt.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": null,
+    "max_drawdown_hours": 72,
+    "shwt_separation_inches": 36,
+    "bioretention_media_depth_min_inches": 18,
+    "bioretention_ponding_depth_inches": null,
+    "permeable_pavement_storage_depth_inches": 6,
+    "design_infiltration_rate_in_per_hr": null,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": 48,
+    "length_to_width_ratio": null,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "bioretention",
+      "extended_detention",
+      "infiltration_basin",
+      "manufactured_treatment",
+      "permeable_pavement",
+      "swale",
+      "wet_pond"
+    ],
+    "enriched_at": "2026-08-13T07:36:36.773Z",
+    "enrich_model": "composer-2.5:run-0c0c710c-1125-4ba9-a6ee-9fff386f4d5e",
+    "enrich_notes": "Montana MS4 manual (Billings-hosted) uses 0.5-in RRV per atlas/permits but that depth is not stated in these excerpts. Infiltration basin max drawdown 72 h; EDB and WDB RTV drain time 48 h. SHWT separation commonly 3 ft (36 in) for infiltration bioretention and PICP subbase; 1 ft with liner; biofiltration swale bottom 1 ft. Bioretention filter media 18–36 in deep; PICP open-graded subbase minimum 6 in. Biofiltration swale longitudinal slope must be less than 5%. Dispersion and proprietary devices are covered but not mapped to wetland/green roof/trench/sand filter.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "wqv_depth_inches",
+      "bioretention_ponding_depth_inches",
+      "design_infiltration_rate_in_per_hr",
+      "permanent_pool_depth_inches",
+      "length_to_width_ratio",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "swale_longitudinal_slope_percent",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

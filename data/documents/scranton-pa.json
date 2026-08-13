@@ -33,14 +33,75 @@
       "field": "document_metadata.relationship_to_state_manual",
       "excerpt": "DRAFT / Page 1-3 1.1 OVERVIEW OF PCSM MANUAL This PCSM Manual establishes DEP-approved procedures for conducting PCSM stormwater analyses and provides SCM standards that can be used for regulatory compliance under Chapter 102. These procedures and standards may be applied to he",
       "page_or_section": "p. 12"
+    },
+    {
+      "field": "design_parameters.shwt_separation_inches",
+      "excerpt": "A minimum two-foot separation distance from an infiltration SCM bottom to a limiting zone, including the SHWT, is generally necessary.",
+      "page_or_section": "Appendix B.8 / page B-31"
+    },
+    {
+      "field": "design_parameters.shwt_separation_inches",
+      "excerpt": "Distance Above SHWT 2 ft",
+      "page_or_section": "Table 3-90 / page 388"
+    },
+    {
+      "field": "design_parameters.bioretention_media_depth_min_inches",
+      "excerpt": "Soil Media Depth Min. ... Min. 18 in",
+      "page_or_section": "Table 3-90 (3.5.1 Bioinfiltration, 3.6.1 Bioretention) / page 388"
+    },
+    {
+      "field": "design_parameters.bioretention_media_depth_min_inches",
+      "excerpt": "Soil media depth should be at least 18 inches.",
+      "page_or_section": "Section 3.4.6 Vegetated Conveyance / page 174"
+    },
+    {
+      "field": "design_parameters.bioretention_ponding_depth_inches",
+      "excerpt": "Maximum Ponding/Storage Depth ... 2 ft",
+      "page_or_section": "Table 3-90 (3.6.1 Bioretention) / page 388"
+    },
+    {
+      "field": "design_parameters.permeable_pavement_storage_depth_inches",
+      "excerpt": "Permeable pavement materials with greater than or equal to one foot of storage underneath are considered permeable pavement systems with underground storage",
+      "page_or_section": "Section 3.5.3 / page 204"
+    },
+    {
+      "field": "design_parameters.permanent_pool_depth_inches",
+      "excerpt": "Permanent pool should be a minimum of five feet deep.",
+      "page_or_section": "Section 3.8.1 Wet Basin / page 364"
+    },
+    {
+      "field": "design_parameters.ed_drain_time_hours",
+      "excerpt": "Temporary pool should draw down to the permanent pool elevation within three days.",
+      "page_or_section": "Section 3.8.1 Wet Basin / page 364"
+    },
+    {
+      "field": "design_parameters.length_to_width_ratio",
+      "excerpt": "Length to width ratio should be at least two to one.",
+      "page_or_section": "Section 3.6.6 Engineered Stormwater Treatment Wetland / page 283"
+    },
+    {
+      "field": "design_parameters.length_to_width_ratio",
+      "excerpt": "The length to width ratio of the basin should be a minimum of 2:1 to avoid short circuiting.",
+      "page_or_section": "Section 3.8.1 Wet Basin / page 364"
+    },
+    {
+      "field": "design_parameters.green_roof_media_depth_inches",
+      "excerpt": "Soil Media Depth Min. ... Min. 3 in",
+      "page_or_section": "Table 3-90 (3.6.2 Green Roof) / page 388"
+    },
+    {
+      "field": "design_parameters.ed_drain_time_hours",
+      "excerpt": "Maximum Ponding Time ... 72 hrs",
+      "page_or_section": "Table 3-90 (3.8.2 Naturalized Detention Basin) / page 388"
     }
   ],
   "extraction_quality": {
     "confidence": "medium",
     "needs_human_review": true,
-    "review_notes": "Municipality coverage via PA PCSM Manual (Allentown/Harrisburg pattern).",
+    "review_notes": "Municipality coverage via PA PCSM Manual (Allentown/Harrisburg pattern). Pipeline excerpt repair removed 1 unlocated citation(s).",
     "fields_not_found": [
-      "design_criteria.design_storm_return_periods_years"
+      "design_criteria.design_storm_return_periods_years",
+      "design_parameters.shwt_separation_inches"
     ]
   },
   "source": {
@@ -48,5 +109,49 @@
     "landing_page_url": "https://www.pa.gov/agencies/dep/programs-and-services/water/clean-water/stormwater-management/construction-stormwater/eands-resources",
     "retrieved_at": "2026-08-10T10:10:49.504Z",
     "original_filename": "scranton-pa.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": null,
+    "max_drawdown_hours": null,
+    "shwt_separation_inches": 24,
+    "bioretention_media_depth_min_inches": 18,
+    "bioretention_ponding_depth_inches": 24,
+    "permeable_pavement_storage_depth_inches": 12,
+    "design_infiltration_rate_in_per_hr": null,
+    "permanent_pool_depth_inches": 60,
+    "ed_drain_time_hours": 72,
+    "length_to_width_ratio": 2,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": 3,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "bioretention",
+      "constructed_wetland",
+      "extended_detention",
+      "green_roof",
+      "infiltration_basin",
+      "infiltration_trench",
+      "manufactured_treatment",
+      "permeable_pavement",
+      "swale",
+      "wet_pond"
+    ],
+    "enriched_at": "2026-08-13T10:08:08.374Z",
+    "enrich_model": "composer-2.5:run-08b3b1f7-90d5-47ce-ad13-95211ad59e52",
+    "enrich_notes": "PA PCSM Manual (Act 167); Scranton follows state PCSM guidance. WQ sizing uses 1.2-inch/2-hour rainfall for permanent pool and MRC examples; infiltration suitability thresholds cite 0.25 and 0.4 in/hr (classification, not a single design rate). Table 3-90 consolidates ponding times (often 72–96 hr), media mins, and 2 ft SHWT separation for infiltration SCMs.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "wqv_depth_inches",
+      "max_drawdown_hours",
+      "design_infiltration_rate_in_per_hr",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "swale_longitudinal_slope_percent",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

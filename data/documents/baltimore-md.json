@@ -10,7 +10,11 @@
     "relationship_to_state_manual": "adopts_state_manual_directly"
   },
   "design_criteria": {
-    "design_storm_return_periods_years": [1, 10, 100],
+    "design_storm_return_periods_years": [
+      1,
+      10,
+      100
+    ],
     "water_quality_volume_method": "Qualitative control uses water quality volume and recharge volume per the 2000 Maryland Stormwater Design Manual (Revised), with ESD to the MEP. New development: treat 1.0 inch. Redevelopment: treat 0.5 inch, or remove 50% of impervious area, or a combination. Quasi-redevelopment: redevelopment rules for existing impervious plus new-development rules for added impervious.",
     "peak_flow_calculation_method": [
       "Channel protection volume (CPv): 24-hour extended detention of the 1-year, 24-hour storm vs woods in good condition",
@@ -86,6 +90,21 @@
       "field": "design_criteria.approved_bmp_categories",
       "excerpt": "Proposed stormwater management must demonstrate ESD to the MEP... environmental site design (ESD) must be the first approach in stormwater management design, followed by structural practices then alternative practices.",
       "page_or_section": "Page 4"
+    },
+    {
+      "field": "design_parameters.wqv_depth_inches",
+      "excerpt": "New development Treatment of 1.0 inch",
+      "page_or_section": "Table 1, page 5 (baltimore-md-c0005)"
+    },
+    {
+      "field": "design_parameters.wqv_depth_inches",
+      "excerpt": "Redevelopment Treatment of 0.5 inch; or 50% removal of impervious surface area; or Combination of both.",
+      "page_or_section": "Table 1, page 5 (baltimore-md-c0005)"
+    },
+    {
+      "field": "design_parameters.ed_drain_time_hours",
+      "excerpt": "Channel protection volume (CPV): 24-hour extended detention of a one-year storm, 24- hour storm event comparing proposed conditions to the site in woods in good condition.",
+      "page_or_section": "page 4 (baltimore-md-c0004)"
     }
   ],
   "extraction_quality": {
@@ -101,5 +120,44 @@
     "landing_page_url": "https://www.baltimorecity.gov/publicworks/water-system-in-the-city/stormwater/stormwater-management-requirements",
     "retrieved_at": "2026-08-10T07:09:00.000Z",
     "original_filename": "baltimore-md.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": 1,
+    "max_drawdown_hours": null,
+    "shwt_separation_inches": null,
+    "bioretention_media_depth_min_inches": null,
+    "bioretention_ponding_depth_inches": null,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": null,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": 24,
+    "length_to_width_ratio": null,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [],
+    "enriched_at": "2026-08-13T07:32:23.463Z",
+    "enrich_model": "composer-2.5:run-eccc3ded-9fdc-445d-8d66-7866d8442c37",
+    "enrich_notes": "Five-page City DPW supplement; qualitative control uses WQv and recharge volume per the 2000 Maryland Stormwater Design Manual (Revised). Table 1 also requires redevelopment treatment of 0.5 inch WQv (or 50% impervious removal or combination). Quasi-redevelopment splits rules between existing and added impervious. BMP sizing and SCM numeric criteria are deferred to the Maryland manual and MDE technical memos; ESD to MEP is required before structural or alternative practices, off-site treatment, or fee-in-lieu.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "max_drawdown_hours",
+      "shwt_separation_inches",
+      "bioretention_media_depth_min_inches",
+      "bioretention_ponding_depth_inches",
+      "permeable_pavement_storage_depth_inches",
+      "design_infiltration_rate_in_per_hr",
+      "permanent_pool_depth_inches",
+      "length_to_width_ratio",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "swale_longitudinal_slope_percent",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

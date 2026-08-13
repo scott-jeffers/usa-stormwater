@@ -10,7 +10,13 @@
     "relationship_to_state_manual": "independent"
   },
   "design_criteria": {
-    "design_storm_return_periods_years": [2, 5, 10, 25, 50],
+    "design_storm_return_periods_years": [
+      2,
+      5,
+      10,
+      25,
+      50
+    ],
     "water_quality_volume_method": "Stormwater Quality Design Volume (SWQDv) from the greater of the 0.75-inch, 24-hour rain event or the 85th percentile, 24-hour rain event (LA County 85th percentile isohyetal map); Priority Development Projects must retain 100% of SWQDv on-site via infiltration, bioretention, and/or rainfall harvest and use. Flow-based alternative sizing: 0.2 in/hr intensity or 85th percentile hourly intensity × 2.",
     "peak_flow_calculation_method": [
       "MODRAT (Modified Rational Method)",
@@ -120,6 +126,41 @@
       "field": "design_criteria.approved_bmp_categories",
       "excerpt": "Bioretention (RET-1)... Infiltration Basin (RET-2)... Infiltration Trench (RET-3)... Dry Well (RET-4)... Permeable Pavement without an Underdrain (RET-5)... Rain Barrel/Cistern (RET-6)... Biofiltration (BIO-1)... Stormwater Planter (VEG-1)... Tree-well Filter (VEG-2)... Vegetated Swales (VEG-3)... Vegetated Filter Strip (VEG-4)... Sand Filters (T-1)... Constructed Wetlands (T-2)... Extended Detention Basin (T-3)... Wet Pond (T-4)... Permeable Pavement with an Underdrain (T-5)... Proprietary Treatment Control Measures (T-6)",
       "page_or_section": "Table 7-1, Pages 7-3–7-4"
+    },
+    {
+      "field": "fields_not_found",
+      "excerpt": "may preclude infiltration if less than 5 to 10 feet of separation exists between the infiltration surface and the seasonal high groundwater",
+      "page_or_section": "p23"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "Bioretention areas must completely drain within 96 hours.",
+      "page_or_section": "Appendix D RET-1, D-6"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "The base of the gravel drainage layer should have no slope and a maximum drawdown time of 96 hours.",
+      "page_or_section": "Appendix D RET-1 Geometry, D-4"
+    },
+    {
+      "field": "design_parameters.bioretention_media_depth_min_inches",
+      "excerpt": "The planting soil depth must be a minimum of two feet, but three feet is preferred.",
+      "page_or_section": "Appendix D RET-1 Geometry, D-4"
+    },
+    {
+      "field": "design_parameters.bioretention_ponding_depth_inches",
+      "excerpt": "Bioretention areas must be sized to capture and retain the SWQDv with an 18-inch maximum ponding depth.",
+      "page_or_section": "Appendix D RET-1 Geometry, D-4"
+    },
+    {
+      "field": "design_parameters.length_to_width_ratio",
+      "excerpt": "The sediment forebay must be designed with a minimum length-to-width ratio of 2:1",
+      "page_or_section": "Appendix D RET-2 Geometry, D-17"
+    },
+    {
+      "field": "design_parameters.swale_bottom_width_inches",
+      "excerpt": "The minimum width of the vegetated swale bottom is two feet to allow for ease of mowing.",
+      "page_or_section": "Appendix D VEG-3 Geometry, D-87"
     }
   ],
   "extraction_quality": {
@@ -136,5 +177,52 @@
     "landing_page_url": "https://dpw.lacounty.gov/ldd/lddservices/LidIntro.htm",
     "retrieved_at": "2026-08-08T10:35:19.381Z",
     "original_filename": "los-angeles-ca.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": null,
+    "max_drawdown_hours": 96,
+    "shwt_separation_inches": null,
+    "bioretention_media_depth_min_inches": 24,
+    "bioretention_ponding_depth_inches": 18,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": null,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": null,
+    "length_to_width_ratio": 2,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": 24,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "bioretention",
+      "constructed_wetland",
+      "extended_detention",
+      "infiltration_basin",
+      "infiltration_trench",
+      "manufactured_treatment",
+      "permeable_pavement",
+      "sand_filter",
+      "swale",
+      "wet_pond"
+    ],
+    "enriched_at": "2026-08-13T09:00:11.039Z",
+    "enrich_model": "composer-2.5:run-43ae97e9-3bbb-4e02-b718-c3d8ee85ac94",
+    "enrich_notes": "SWQDv sizing referenced in Section 6 (not in excerpts). Retention BMPs require corrected in-situ infiltration ≥0.3 in/hr (GMED GS 200.1); design fdesign is site-specific. Groundwater: 5–10 ft separation range cited for infiltration feasibility; ED basins require basin bottom ≥2 ft above seasonal high groundwater. Biofiltration appendix example uses max ponding 1.5 ft and 96 hr drawdown limit. Proprietary devices require LACPW approval only—no named third-party verification program in text.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "wqv_depth_inches",
+      "shwt_separation_inches",
+      "permeable_pavement_storage_depth_inches",
+      "design_infiltration_rate_in_per_hr",
+      "permanent_pool_depth_inches",
+      "ed_drain_time_hours",
+      "wetland_detention_hours",
+      "swale_longitudinal_slope_percent",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

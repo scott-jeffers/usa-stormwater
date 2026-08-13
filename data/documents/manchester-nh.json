@@ -44,6 +44,31 @@
       "field": "design_criteria.water_quality_volume_method",
       "excerpt": "WQV = (P)(Rv)(A) where P = 1 inch of rainfall",
       "page_or_section": "NH Model Stormwater Standards"
+    },
+    {
+      "field": "design_parameters.wqv_depth_inches",
+      "excerpt": "WQV = (P)(Rv)(A) P = 1 inch of rainfall",
+      "page_or_section": "Table 1. Stormwater Infrastructure Design Criteria, pages 10-11"
+    },
+    {
+      "field": "design_parameters.wqv_depth_inches",
+      "excerpt": "onsite retention of the first 1-inch of rainfall based on hydrologic soil group (HSG)",
+      "page_or_section": "Element C.2.a, page 4"
+    },
+    {
+      "field": "practice_mentions.bioretention",
+      "excerpt": "enhanced stormwater SCMs (such as raingardens, bioretention systems, tree box filters, and similar stormwater management landscaping techniques)",
+      "page_or_section": "Element C.1.b, page 3"
+    },
+    {
+      "field": "practice_mentions.swale",
+      "excerpt": "GIS files containing the coordinates of all stormwater infrastructure elements (e.g. catch basins, swales, detention/bioretention areas, piping)",
+      "page_or_section": "Element D.1.d, page 5"
+    },
+    {
+      "field": "practice_mentions.constructed_wetland",
+      "excerpt": "subsurface gravel wetlands for water quality treatment is preferred",
+      "page_or_section": "Element C.2.b, page 4"
     }
   ],
   "extraction_quality": {
@@ -57,5 +82,53 @@
     "landing_page_url": "https://www.manchesternh.gov/Departments/Sewer-and-Stormwater/Stormwater/Stormwater-Regulations",
     "retrieved_at": "2026-08-10T10:02:27.846Z",
     "original_filename": "manchester-nh.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": 1,
+    "max_drawdown_hours": null,
+    "shwt_separation_inches": null,
+    "bioretention_media_depth_min_inches": null,
+    "bioretention_ponding_depth_inches": null,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": null,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": null,
+    "length_to_width_ratio": null,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "bioretention",
+      "constructed_wetland",
+      "extended_detention",
+      "infiltration_basin",
+      "infiltration_trench",
+      "sand_filter",
+      "swale"
+    ],
+    "enriched_at": "2026-08-13T09:04:20.670Z",
+    "enrich_model": "composer-2.5:run-d0f7bc11-24e4-4c86-9cc2-4fa9ff6a94d3",
+    "enrich_notes": "Manchester adopts NH Model Stormwater Standards (May 2025 draft). WQV uses P=1 inch per Table 1; WPS requires first 1-inch onsite retention by HSG (page 4). SCM sizing references UNH Stormwater Center tool and NH Stormwater Manual for BMP-specific design—not reproduced in these excerpts. GRV recharge depths by HSG (A 0.40, B 0.25, C 0.10, D 0.00 in) are recharge volumes, not WQV depth.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "max_drawdown_hours",
+      "shwt_separation_inches",
+      "bioretention_media_depth_min_inches",
+      "bioretention_ponding_depth_inches",
+      "permeable_pavement_storage_depth_inches",
+      "design_infiltration_rate_in_per_hr",
+      "permanent_pool_depth_inches",
+      "ed_drain_time_hours",
+      "length_to_width_ratio",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "swale_longitudinal_slope_percent",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

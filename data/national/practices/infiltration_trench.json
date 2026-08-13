@@ -1,0 +1,153 @@
+{
+  "version": 1,
+  "practice_key": "infiltration_trench",
+  "practice_label": "Infiltration Trench",
+  "generated_at": "2026-08-13T10:42:17.776Z",
+  "model": "composer-2.5:run-d653a62a-bcfd-44df-b829-f42112de0ff0",
+  "editorial_status": "draft",
+  "national_baseline": "Among Tier A manuals that mention infiltration trenches, numeric guidance is sparse for practice-specific facility dimensions; the extracted numbers cluster around jurisdiction-wide water-quality and drawdown context rather than a uniform trench cross-section standard. Where manuals state a design infiltration rate for sizing, 17 sources report values with a mode and median of 0.5 in/hr and a range from 0.01 to 2.41 in/hr—useful as a screening assumption in temperate settings with moderate soils, not as a national design constant. Site-wide water-quality volume depth appears in 30 manuals with mode 1 inch, median 1 inch, and range 0.37–1.61 inches; maximum ponding or drawdown time appears in 36 manuals with mode 72 hours, median 48 hours, and range 4–120 hours; separation from seasonal high water table appears in 36 manuals with mode 24 inches, median 36 inches, and range 12–120 inches. Committee discussion should treat these as overlapping jurisdictional sizing and siting guardrails when trenches are used to meet volume or infiltration performance, while recognizing that 45 of 76 scanned manuals lack extracted WQv depth, 38 lack drawdown hours, 38 lack SHWT separation, and 23 of 41 mentioning manuals lack a stated design infiltration rate—so a single numeric national baseline for trench geometry is not yet established from this matrix alone.",
+  "regional_modifiers": [
+    {
+      "id": "cold_climate",
+      "title": "Cold climate and slower drainage",
+      "text": "Drawdown expectations split between shorter windows (e.g., 24–48 hours in ID boise-id, ME maine-manual, MN mn-state-2008, VT vt-state, WA seattle-wa, WA wa-state-western) and longer allowances (72 hours in MA ma-state-draft, MT billings-mt, MT mt-deq8, NE ne-ndot-stf, NJ nj-state; 96 hours in NM albuquerque-nm-gsi, CA ca-caltrans-construction, CA los-angeles-ca; 120 hours in MS ms-state-vol2). SHWT separation spans 12 inches (ME maine-manual, MT mt-deq8) to 60 inches (WA bellevue-wa, OR portland-or, WA wa-state-western), with many northern and interior manuals at 24–36 inches (CT ct-state, IN indiana-manual, MN minneapolis-mn, MN mn-state-2008, MO kansas-city-marc-bmp). Design infiltration rates as low as 0.01–0.0208 in/hr (MA ma-state-draft, MO kansas-city-marc-bmp) and 0.2 in/hr (VT vt-state) contrast with 2–2.41 in/hr (OR portland-or, ME maine-manual), signaling that cold or conservative soil assumptions materially change trench sizing relative to the 0.5 in/hr modal temperate screening value.",
+      "states": [
+        "ID",
+        "ME",
+        "MN",
+        "VT",
+        "WA",
+        "MA",
+        "MT",
+        "NE",
+        "NJ",
+        "NM",
+        "CA",
+        "MS",
+        "CT",
+        "IN",
+        "MO",
+        "OR"
+      ],
+      "citation_slugs": [
+        "boise-id",
+        "maine-manual",
+        "mn-state-2008",
+        "vt-state",
+        "seattle-wa",
+        "wa-state-western",
+        "ma-state-draft",
+        "billings-mt",
+        "mt-deq8",
+        "ne-ndot-stf",
+        "nj-state",
+        "albuquerque-nm-gsi",
+        "ca-caltrans-construction",
+        "los-angeles-ca",
+        "ms-state-vol2",
+        "ct-state",
+        "indiana-manual",
+        "minneapolis-mn",
+        "kansas-city-marc-bmp",
+        "portland-or"
+      ]
+    },
+    {
+      "id": "coastal_high_wtable",
+      "title": "Coastal and high water table",
+      "text": "Several Atlantic and Gulf jurisdictions pair relatively tight SHWT separation with moderate drawdown: VA chesapeake-va lists 12 inches separation with 48-hour drawdown; NC raleigh-nc lists 12 inches separation; NJ nj-state lists 12 inches (chapter proxy); ME maine-manual lists 12 inches separation with 48-hour drawdown. TX houston-tx uses 48 inches SHWT separation with 48-hour drawdown and 0.5 in/hr design infiltration; MD md-state uses 48 inches separation with 24-hour drawdown. WQv depth in coastal cities often clusters at 1 inch (MD baltimore-md, VA chesapeake-va, VA norfolk-va) with TX houston-tx at 0.5 inches. These combinations imply trench feasibility is often governed by vertical clearance to saturated conditions rather than by a distinct trench depth standard in the matrix.",
+      "states": [
+        "VA",
+        "NC",
+        "NJ",
+        "ME",
+        "TX",
+        "MD"
+      ],
+      "citation_slugs": [
+        "chesapeake-va",
+        "raleigh-nc",
+        "nj-state",
+        "maine-manual",
+        "houston-tx",
+        "md-state",
+        "baltimore-md",
+        "norfolk-va"
+      ]
+    },
+    {
+      "id": "arid",
+      "title": "Arid and low precipitations",
+      "text": "Arid manuals still cite site-wide volume and timing numbers but with notable low-end WQv depth and mixed drawdown: NV las-vegas-nv reports 0.37 inches WQv depth and 72-hour max drawdown with 24 inches SHWT separation; AZ flagstaff-az reports 1 inch WQv depth, 24-hour max drawdown; CO denver-co reports 0.6 inches WQv depth. NM albuquerque-nm-gsi sets 96-hour max drawdown, 36 inches SHWT separation, and 0.1 in/hr design infiltration—well below the 0.5 in/hr mode—so trench sizing in arid contexts may rely on conservative infiltration and longer drain times rather than the temperate modal pair of 48–72 hours and 0.5 in/hr.",
+      "states": [
+        "NV",
+        "AZ",
+        "CO",
+        "NM"
+      ],
+      "citation_slugs": [
+        "las-vegas-nv",
+        "flagstaff-az",
+        "denver-co",
+        "albuquerque-nm-gsi"
+      ]
+    },
+    {
+      "id": "karst_sensitive",
+      "title": "Karst and fractured aquifer caution",
+      "text": "The matrix does not isolate karst-specific trench depth or drawdown standards; the only clearly karst-referenced slug with SHWT separation is TX tx-edwards-rg348 at 48 inches, alongside TX houston-tx and TX dallas-tx WQv depths of 0.5 and 1.5 inches respectively and 0.5 in/hr design infiltration at houston-tx and dallas-tx. Numeric baseline for infiltration trench design in karst is therefore not established in this Tier A extract beyond general SHWT separation values shared with non-karst manuals.",
+      "states": [
+        "TX"
+      ],
+      "citation_slugs": [
+        "tx-edwards-rg348",
+        "houston-tx",
+        "dallas-tx"
+      ]
+    }
+  ],
+  "open_issues": "Practice-specific trench geometry (length, width, rock reservoir depth, underdrain details) is largely absent from the numeric matrix; only jurisdiction site-wide WQv depth, drawdown, SHWT separation, and sporadic design infililation rates were extracted. Design infiltration rate has n=17 with high spread (0.01–2.41 in/hr), so the 0.5 in/hr mode is a weak national anchor. Max drawdown ranges from 4 hours (FL fl-fsesci-tier1) to 120 hours (MS ms-state-vol2), indicating inconsistent definitions or storm/climate framing across manuals. SHWT separation mode is 24 inches but median 36 inches, with an upper tail to 120 inches (CA san-diego-ca), so siting rules dominate but are not harmonized. Nearly half of scanned Tier A manuals lack extracted values for the three site-wide fields, and a majority of manuals mentioning the practice lack design infiltration rate—limiting committee confidence in a single numeric synthesis for infiltration trench alone versus general infiltration BMP context.",
+  "matrix_summary": "For infiltration_trench in Tier A manuals (41 of 76 mention the practice): site-wide wqv_depth_inches n=30, mode=1, median=1, range 0.37–1.61; max_drawdown_hours n=36, mode=72, median=48, range 4–120; shwt_separation_inches n=36, mode=24, median=36, range 12–120; design_infiltration_rate_in_per_hr n=17, mode=0.5, median=0.5, range 0.01–2.41—with substantial missing data for each field.",
+  "supporting_slugs": [
+    "ak-state",
+    "albuquerque-nm-gsi",
+    "bellevue-wa",
+    "ca-casqa-municipal",
+    "ct-state",
+    "dallas-tx",
+    "dc-guidebook",
+    "detroit-mi",
+    "ga-state",
+    "hawaii-dot-pcbmp",
+    "houston-tx",
+    "ia-state-ch1",
+    "idaho-bmp-catalog",
+    "indiana-manual",
+    "kansas-city-marc-bmp",
+    "las-vegas-nv",
+    "los-angeles-ca",
+    "ma-state-draft",
+    "maine-manual",
+    "md-state",
+    "miami-fl",
+    "michigan-manual",
+    "minneapolis-mn",
+    "missouri-manual",
+    "mn-state-2008",
+    "ms-state-vol2",
+    "mt-deq8",
+    "ne-ndot-stf",
+    "ny-state",
+    "ohio-rainwater",
+    "pa-state",
+    "portland-or",
+    "ri-state",
+    "san-francisco-ca",
+    "seattle-wa",
+    "south-carolina-manual",
+    "tucson-az",
+    "va-state",
+    "vt-state",
+    "wa-state-western"
+  ]
+}

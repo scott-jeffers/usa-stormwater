@@ -112,6 +112,71 @@
       "field": "design_criteria.approved_bmp_categories",
       "excerpt": "4.2.3. Bioretention (BR) ... 4.2.4. Permeable Pavement (PP) ... 4.2.11. Stormwater Wetlands (SW)",
       "page_or_section": "Table of Contents"
+    },
+    {
+      "field": "design_parameters.wqv_depth_inches",
+      "excerpt": "manage on-site runoff from a one-inch rainfall event",
+      "page_or_section": "Atlas context / reducing one inch of rainfall"
+    },
+    {
+      "field": "design_parameters.wqv_depth_inches",
+      "excerpt": "100% of that needed to meet the one inch performance standard",
+      "page_or_section": "Table BR-1 footnote 2, BR.5"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "Water infiltrates into the underlying soil within 48 hours.",
+      "page_or_section": "Table 3.1 / Table BR-1 Level 2"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "The underdrain should be sized so that the Bioretention practice fully drains within 48 hours.",
+      "page_or_section": "BR-4.10, BR.25"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "td = design drain time of sump = 48 hours",
+      "page_or_section": "Design Example 6.2, Equation PP-2, page 424"
+    },
+    {
+      "field": "design_parameters.shwt_separation_inches",
+      "excerpt": "A separation distance of 2 feet is required between the bottom of the excavated Bioretention area and the seasonally high ground water table.",
+      "page_or_section": "BR-3, BR.9"
+    },
+    {
+      "field": "design_parameters.shwt_separation_inches",
+      "excerpt": "a minimum vertical distance of 2 feet must be provided between the bottom of the Permeable Pavement installation ... and the seasonal high water table.",
+      "page_or_section": "PP feasibility, PP.9"
+    },
+    {
+      "field": "design_parameters.bioretention_media_depth_min_inches",
+      "excerpt": "Soil Media = 18\" min. - Section BR-4.8 & Table BR-1",
+      "page_or_section": "Figure BR-2 schematic, BR.4"
+    },
+    {
+      "field": "design_parameters.bioretention_media_depth_min_inches",
+      "excerpt": "Minimum Filter Media Depth 18 in.",
+      "page_or_section": "Residential Rain Garden design table, BR.54"
+    },
+    {
+      "field": "design_parameters.design_infiltration_rate_in_per_hr",
+      "excerpt": "Use the Infiltration Design for tested infiltration rates > 0.5 in. per hr.",
+      "page_or_section": "Table BR-1 Level 2, BR.5"
+    },
+    {
+      "field": "design_parameters.design_infiltration_rate_in_per_hr",
+      "excerpt": "Underdrains are needed if the measured permeability of the underlying soils is less than 0.5 inches per hour.",
+      "page_or_section": "BR-3, BR.9"
+    },
+    {
+      "field": "design_parameters.swale_longitudinal_slope_percent",
+      "excerpt": "Grass Swale ... Max Slope5 ... 4%17",
+      "page_or_section": "Table 3.6 BMP Screening, page 67"
+    },
+    {
+      "field": "design_parameters.bioretention_ponding_depth_inches",
+      "excerpt": "Ponding Depth = 6\" – 18\" - Section BR-4.6",
+      "page_or_section": "Figure BR-2, BR.4 (range only; no single value assigned)"
     }
   ],
   "extraction_quality": {
@@ -125,5 +190,51 @@
     "landing_page_url": "https://dep.wv.gov/WWE/Programs/stormwater/MS4/Pages/StormwaterManagementDesignandGuidanceManual.aspx",
     "retrieved_at": "2026-08-08T00:57:15.075Z",
     "original_filename": "west-virginia-manual.extraction.json"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": 1,
+    "max_drawdown_hours": 48,
+    "shwt_separation_inches": 24,
+    "bioretention_media_depth_min_inches": 18,
+    "bioretention_ponding_depth_inches": null,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": 0.5,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": null,
+    "length_to_width_ratio": null,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": 4,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "bioretention",
+      "constructed_wetland",
+      "extended_detention",
+      "green_roof",
+      "infiltration_basin",
+      "infiltration_trench",
+      "permeable_pavement",
+      "sand_filter",
+      "swale",
+      "wet_pond"
+    ],
+    "enriched_at": "2026-08-13T10:33:03.752Z",
+    "enrich_model": "composer-2.5:run-da032df4-5d83-4f73-a63a-fca2ed1cf42a",
+    "enrich_notes": "Runoff Reduction Method targets Treatment Volume (Tv) from a one-inch rainfall event (90th percentile). Bioretention Level 1 vs Level 2 ties media depth (1.5–2.0 ft) and 48-hour drain to runoff reduction credits (60% vs 100%). Ponding depth is stated as 6–18 in. (not a single design number). Permeable pavement 2:1 in Table 3.6 is run-on impervious area to permeable pavement area, not facility length-to-width. Dry extended detention and wet pond specs are excluded from runoff reduction chapter but referenced for peak control.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "bioretention_ponding_depth_inches",
+      "permeable_pavement_storage_depth_inches",
+      "permanent_pool_depth_inches",
+      "ed_drain_time_hours",
+      "length_to_width_ratio",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

@@ -75,6 +75,26 @@
       "field": "design_criteria.approved_bmp_categories",
       "excerpt": "Retention Basin Design; Detention Basin Design; Closed Conduit Systems, Catch Basins",
       "page_or_section": "Division Four chapters"
+    },
+    {
+      "field": "max_drawdown_hours",
+      "excerpt": "Retention basins shall not be permitted unless it can be demonstrated, to the satisfaction of the Director, that the basin will completely drain the design volume within seven (7) days.",
+      "page_or_section": "Sec. 408-8.01, CHAPTER VIII (page 16)"
+    },
+    {
+      "field": "practice_mentions.infiltration_basin",
+      "excerpt": "RETENTION BASIN: is a terminal storm water facility for the storage of runoff. Commonly referred to as a sump.",
+      "page_or_section": "Sec. 402-1.24 Definitions (page 4)"
+    },
+    {
+      "field": "practice_mentions.extended_detention",
+      "excerpt": "DETENTION BASIN: is a storm water facility designed to affect flood hydrograph peak attenuation.",
+      "page_or_section": "Sec. 402-1.11 Definitions (page 3)"
+    },
+    {
+      "field": "practice_mentions.extended_detention",
+      "excerpt": "The design flow into the basin shall be the ISDD five-day runoff hydrograph.",
+      "page_or_section": "Sec. 409-1, CHAPTER IX (page 17)"
     }
   ],
   "extraction_quality": {
@@ -93,5 +113,48 @@
     "landing_page_url": "https://www.kernpublicworks.com/services/development/services/engineering-resources/development-standards/div-4-drainage",
     "retrieved_at": "2026-08-10T09:20:00.000Z",
     "original_filename": "bakersfield-ca.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": null,
+    "max_drawdown_hours": 168,
+    "shwt_separation_inches": null,
+    "bioretention_media_depth_min_inches": null,
+    "bioretention_ponding_depth_inches": null,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": null,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": null,
+    "length_to_width_ratio": null,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "extended_detention",
+      "infiltration_basin"
+    ],
+    "enriched_at": "2026-08-13T07:32:08.064Z",
+    "enrich_model": "composer-2.5:run-cb9b975c-43cb-497d-b296-1fef7d7645a0",
+    "enrich_notes": "Kern County Division Four focuses on flood/quantity (ISDD ≈ 10-year, CSDD ≈ 100-year). Retention (sump) volume uses ISDD five-day rainfall from NOAA Atlas 14 Vol. 6 per Engineering Bulletin 11-02, not a separate WQv depth in inches. Detention/retardation basins follow ISDD five-day hydrograph; LID BMPs and manufactured treatment are not addressed in the provided excerpts.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "wqv_depth_inches",
+      "shwt_separation_inches",
+      "bioretention_media_depth_min_inches",
+      "bioretention_ponding_depth_inches",
+      "permeable_pavement_storage_depth_inches",
+      "design_infiltration_rate_in_per_hr",
+      "permanent_pool_depth_inches",
+      "ed_drain_time_hours",
+      "length_to_width_ratio",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "swale_longitudinal_slope_percent",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

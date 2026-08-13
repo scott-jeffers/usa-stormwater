@@ -80,6 +80,36 @@
       "field": "design_criteria.approved_bmp_categories",
       "excerpt": "Dry Detention Pond / Underground Detention",
       "page_or_section": "Tables 3.22-3.23"
+    },
+    {
+      "field": "design_parameters.wqv_depth_inches",
+      "excerpt": "The Water Quality Protection Volume (WQv) is the runoff from the first 1.5 inches of rainfall.",
+      "page_or_section": "3.5.3.1 Water Quality Protection Volume, page 49"
+    },
+    {
+      "field": "design_parameters.wqv_depth_inches",
+      "excerpt": "Option 2: Treat the Water Quality Protection Volume (WQV) by reducing total suspended solids from the Development site for runoff resulting from rainfalls of up to 1.5 inches (85th percentile storm)",
+      "page_or_section": "Table 3.2, page 39"
+    },
+    {
+      "field": "design_parameters.design_infiltration_rate_in_per_hr",
+      "excerpt": "Infiltration Trenches Infiltration rate > 0.5 inch/hr",
+      "page_or_section": "Table 3.29 Soils, pages 118-119"
+    },
+    {
+      "field": "design_parameters.permanent_pool_depth_inches",
+      "excerpt": "Wet Pond Limit maximum normal pool depth to about 4 ft (dugout)",
+      "page_or_section": "Table 3.28 Physiographic Factors, page 117"
+    },
+    {
+      "field": "design_parameters.ed_drain_time_hours",
+      "excerpt": "The release rate for both the WQv and SPv shall discharge the ED volume in a period of 24 hours or longer.",
+      "page_or_section": "3.8.3.3 Outlet Structures, page 99"
+    },
+    {
+      "field": "design_parameters.swale_longitudinal_slope_percent",
+      "excerpt": "Enhanced Swales ... Site Slope 4% max",
+      "page_or_section": "Table 3.26 Site Applicability, page 113"
     }
   ],
   "extraction_quality": {
@@ -97,5 +127,52 @@
     "landing_page_url": "https://www.fortworthtexas.gov/departments/tpw/stormwater/review",
     "retrieved_at": "2026-08-10T08:10:00.000Z",
     "original_filename": "fort-worth-tx.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": 1.5,
+    "max_drawdown_hours": null,
+    "shwt_separation_inches": null,
+    "bioretention_media_depth_min_inches": null,
+    "bioretention_ponding_depth_inches": null,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": 0.5,
+    "permanent_pool_depth_inches": 48,
+    "ed_drain_time_hours": 24,
+    "length_to_width_ratio": null,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": 4,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "bioretention",
+      "constructed_wetland",
+      "extended_detention",
+      "green_roof",
+      "infiltration_trench",
+      "manufactured_treatment",
+      "permeable_pavement",
+      "sand_filter",
+      "swale",
+      "wet_pond"
+    ],
+    "enriched_at": "2026-08-13T08:20:51.496Z",
+    "enrich_model": "composer-2.5:run-a74afe15-fdb8-49d6-92eb-c01901f242e3",
+    "enrich_notes": "City Stormwater Criteria Manual (July 2024) references NCTCOG iSWM Technical Manuals for WQV methods, site design, and Site Development Controls design criteria; water quality Option 2 is documented but not currently required by Fort Worth (TRWD or others may require). BMP numeric sizing beyond screening tables is largely by reference.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "max_drawdown_hours",
+      "shwt_separation_inches",
+      "bioretention_media_depth_min_inches",
+      "bioretention_ponding_depth_inches",
+      "permeable_pavement_storage_depth_inches",
+      "length_to_width_ratio",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

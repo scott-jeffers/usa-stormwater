@@ -125,6 +125,51 @@
       "field": "design_criteria.approved_bmp_categories",
       "excerpt": "Bioretention Area (BA)... Porous Pavement (PP)... Stormwater Detention Basin (SDB)",
       "page_or_section": "Table of Contents, Page viii"
+    },
+    {
+      "field": "fields_not_found",
+      "excerpt": "to control volume of the first flush (first ½ inch to 1 inch) runoff.",
+      "page_or_section": "p33"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "It is believed that basin drawdown times between 30-40 hours will result in significant pollutant removal.",
+      "page_or_section": "Chapter 2, page 25"
+    },
+    {
+      "field": "design_parameters.shwt_separation_inches",
+      "excerpt": "A distance of 2 feet between the bottom of the bioretention basin and the seasonal high-water table is recommended.",
+      "page_or_section": "Bioretention Area Design Criteria, page 309"
+    },
+    {
+      "field": "design_parameters.bioretention_media_depth_min_inches",
+      "excerpt": "The planting soil layer should have a minimum depth of 2 feet.",
+      "page_or_section": "Bioretention Area Facility Specifications, page 310"
+    },
+    {
+      "field": "design_parameters.bioretention_ponding_depth_inches",
+      "excerpt": "The planned ponding depth above the facility bottom should be 6 inches.",
+      "page_or_section": "Bioretention Area Facility Specifications, page 310"
+    },
+    {
+      "field": "design_parameters.length_to_width_ratio",
+      "excerpt": "Wherever possible, sites should have a minimum length to width ratio of 2:1.",
+      "page_or_section": "Bioretention Area Facility Specifications, page 310"
+    },
+    {
+      "field": "design_parameters.design_infiltration_rate_in_per_hr",
+      "excerpt": "In-situ soils should have an infiltration rate greater than 1\" per hour for a no-underdrain bioretention area design.",
+      "page_or_section": "Bioretention Area Design Criteria, page 309"
+    },
+    {
+      "field": "design_parameters.wqv_depth_inches",
+      "excerpt": "The required storage volume of detention facilities can be tied to a first flush capture (i.e., the initial 0.1\" to 1\" of runoff).",
+      "page_or_section": "Chapter 2, page 25"
+    },
+    {
+      "field": "design_parameters.permeable_pavement_storage_depth_inches",
+      "excerpt": "The stone reservoir should be designed so that it can be drained within 72 hours",
+      "page_or_section": "Porous Pavement Stone Reservoir, page 305"
     }
   ],
   "extraction_quality": {
@@ -140,5 +185,47 @@
     "landing_page_url": "https://alabamasoilandwater.gov/alesc-bluebook/",
     "retrieved_at": "2026-08-08T00:55:00.000Z",
     "original_filename": "alabama-handbook.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": null,
+    "max_drawdown_hours": 40,
+    "shwt_separation_inches": 24,
+    "bioretention_media_depth_min_inches": 24,
+    "bioretention_ponding_depth_inches": 6,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": 1,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": null,
+    "length_to_width_ratio": 2,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "bioretention",
+      "constructed_wetland",
+      "extended_detention",
+      "permeable_pavement",
+      "swale",
+      "wet_pond"
+    ],
+    "enriched_at": "2026-08-13T07:20:57.260Z",
+    "enrich_model": "composer-2.5:run-0e83f65b-d234-4dda-b223-c584e9a0cf8a",
+    "enrich_notes": "First-flush / WQ storage is tied to initial 0.1 to 1 inch of runoff (Chapter 2); first 1 inch cited for 90% pollution load (USGS). NPS control cites basin drawdown 30–40 hours for pollutant removal. Bioretention: 2 ft SHWT separation, 2 ft planting soil, 6 in ponding, L:W ≥ 2:1, in-situ infiltration > 1 in/hr for no-underdrain. Porous pavement stone reservoir must drain within 72 hours; SHWT below reservoir bottom (no inch separation stated). Grass swale excerpt gives 0.25 ft freeboard and <1% slope exception, not bottom width or design longitudinal slope.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "wqv_depth_inches",
+      "permeable_pavement_storage_depth_inches",
+      "permanent_pool_depth_inches",
+      "ed_drain_time_hours",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "swale_longitudinal_slope_percent",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

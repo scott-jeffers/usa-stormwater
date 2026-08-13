@@ -30,6 +30,46 @@
       "field": "document_metadata.jurisdiction_name",
       "excerpt": "Bend — coverage via Eugene Stormwater Management Manual as Oregon municipal reference (not Bend-adopted)",
       "page_or_section": "Coverage note"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "When sized for flood control, infiltration facilities must infiltrate the Flood Control Design Storm Event within 30 hours.",
+      "page_or_section": "2.2.2 Infiltration Facilities, page 34"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "The required drawdown time for Drywells is 30 hours.",
+      "page_or_section": "2.3.16 Drywell, page 72"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "The required drawdown time for Soakage Trenches is 30 hours.",
+      "page_or_section": "2.3.17 Soakage Trench, page 74"
+    },
+    {
+      "field": "design_parameters.shwt_separation_inches",
+      "excerpt": "The bottom of the Drywell shall be at least 5 feet above the seasonal high groundwater table unless DEQ-approved pretreatment is provided.",
+      "page_or_section": "2.3.16 Drywell, page 73"
+    },
+    {
+      "field": "design_parameters.shwt_separation_inches",
+      "excerpt": "The bottom of the Soakage Trench drain rock layer shall be no less than 5 feet above seasonally high groundwater unless DEQ-approved pretreatment is provided.",
+      "page_or_section": "2.3.17 Soakage Trench, page 75"
+    },
+    {
+      "field": "design_parameters.design_infiltration_rate_in_per_hr",
+      "excerpt": "A maximum infiltration rate of 2.5 inches per hour shall be allowed for design of extended filtration facilities based on the assumed infiltration rate through the growing medium.",
+      "page_or_section": "2.4.2 Presumptive Approach, page 77"
+    },
+    {
+      "field": "design_parameters.permanent_pool_depth_inches",
+      "excerpt": "The maximum depth of the pond shall not exceed 4 feet.",
+      "page_or_section": "2.3.8 Ponds Design Requirements, page 51"
+    },
+    {
+      "field": "design_parameters.length_to_width_ratio",
+      "excerpt": "The minimum length-to-width ratio is 3:1, at the maximum water surface elevation.",
+      "page_or_section": "2.3.8 Ponds Design Requirements, page 51"
     }
   ],
   "extraction_quality": {
@@ -45,5 +85,52 @@
     "landing_page_url": "https://www.bendoregon.gov/",
     "retrieved_at": "2026-08-10T10:35:05.250Z",
     "original_filename": "bend-or.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": null,
+    "max_drawdown_hours": 30,
+    "shwt_separation_inches": 60,
+    "bioretention_media_depth_min_inches": null,
+    "bioretention_ponding_depth_inches": null,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": 2.5,
+    "permanent_pool_depth_inches": 48,
+    "ed_drain_time_hours": null,
+    "length_to_width_ratio": 3,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "bioretention",
+      "extended_detention",
+      "green_roof",
+      "infiltration_basin",
+      "infiltration_trench",
+      "manufactured_treatment",
+      "permeable_pavement",
+      "sand_filter",
+      "swale",
+      "wet_pond"
+    ],
+    "enriched_at": "2026-08-13T07:35:58.748Z",
+    "enrich_model": "composer-2.5:run-49999a63-735f-41e8-9cb1-968b9029e118",
+    "enrich_notes": "Corpus is Eugene SWMM 2025 used as Bend proxy. WQ sizing references Water Quality Design Storm volume (e.g., permanent pool = 2× WQDS runoff) but no WQ rainfall depth in inches in excerpts. Infiltration unsuitability cites groundwater <6 ft below surface (site constraint, not a universal SHWT separation for all BMPs). Drywell/soakage require 5 ft clearance above seasonal high groundwater (60 in). Drawdown 30 hr stated for infiltration (flood control), drywells, and soakage trenches. Presumptive extended filtration caps assumed infiltration through growing medium at 2.5 in/hr. Pond max depth 4 ft; min L:W 3:1 at max water surface.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "wqv_depth_inches",
+      "bioretention_media_depth_min_inches",
+      "bioretention_ponding_depth_inches",
+      "permeable_pavement_storage_depth_inches",
+      "ed_drain_time_hours",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "swale_longitudinal_slope_percent",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

@@ -65,6 +65,41 @@
       "field": "design_criteria.approved_bmp_categories",
       "excerpt": "Underground Retention and Infiltration/Filtration Systems",
       "page_or_section": "Section 7.8"
+    },
+    {
+      "field": "design_parameters.wqv_depth_inches",
+      "excerpt": "Water Quality Volume means for Construction Activity, one and one-tenth (1.1) inches of runoff from the sum of the new and Fully Reconstructed Impervious Surfaces",
+      "page_or_section": "SECTION 2 Definitions, page 6"
+    },
+    {
+      "field": "design_parameters.wqv_depth_inches",
+      "excerpt": "Water Quality Volume (ft3) = New and Fully Reconstructed Impervious Surfaces (ft2) x 1.1(in) x 1/12 (ft/in)",
+      "page_or_section": "SECTION 5.3 Volume Control, page 15"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "Applicants must design the infiltration system to discharge all Stormwater ... through the uppermost soil surface or engineered media surface within 48 hours.",
+      "page_or_section": "SECTION 7.6 Infiltration Practices, page 31"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "Applicants must design the filtration system to discharge all Stormwater ... through the uppermost soil surface or engineered media surface within 48 hours.",
+      "page_or_section": "SECTION 7.7 Filtration Practices, page 32"
+    },
+    {
+      "field": "design_parameters.shwt_separation_inches",
+      "excerpt": "With less than three (3) feet of separation distance from the bottom of the infiltration system to the elevation of the seasonally saturated soils or the top of bedrock.",
+      "page_or_section": "SECTION 5.3.3 Volume Control, page 16"
+    },
+    {
+      "field": "design_parameters.shwt_separation_inches",
+      "excerpt": "Applicants must employ appropriate onsite testing to ensure a minimum of three (3) feet of separation between the seasonally saturated soils (or from bedrock) and the bottom of the proposed filtration system.",
+      "page_or_section": "SECTION 7.7 Filtration Practices, page 32"
+    },
+    {
+      "field": "design_parameters.permanent_pool_depth_inches",
+      "excerpt": "Permanent pool: 3-10', Minimum average: 4'",
+      "page_or_section": "APPENDIX C Stormwater Management Plan Checklist, Ponds, page 49"
     }
   ],
   "extraction_quality": {
@@ -84,5 +119,52 @@
     "landing_page_url": "https://www.stpaul.gov/departments/public-works/sewer-utility-division/site-plan-review",
     "retrieved_at": "2026-08-10T08:08:51.648Z",
     "original_filename": "saint-paul-mn.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": 1.1,
+    "max_drawdown_hours": 48,
+    "shwt_separation_inches": 36,
+    "bioretention_media_depth_min_inches": null,
+    "bioretention_ponding_depth_inches": null,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": null,
+    "permanent_pool_depth_inches": 48,
+    "ed_drain_time_hours": null,
+    "length_to_width_ratio": null,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "bioretention",
+      "green_roof",
+      "infiltration_basin",
+      "infiltration_trench",
+      "manufactured_treatment",
+      "permeable_pavement",
+      "sand_filter",
+      "swale",
+      "wet_pond"
+    ],
+    "enriched_at": "2026-08-13T10:00:06.547Z",
+    "enrich_model": "composer-2.5:run-d1a5c0a0-8f61-4d55-8d76-56cb62074af1",
+    "enrich_notes": "WQv is 1.1 in on new and fully reconstructed impervious area. Infiltration and filtration must draw down through the uppermost surface within 48 h. Minimum 3 ft (36 in) separation to seasonally saturated soils or bedrock for infiltration and filtration; pervious pavement is not an acceptable infiltration/WQ BMP. Pond checklist cites permanent pool depth 3–10 ft with minimum average 4 ft (48 in). Field infiltration rates are halved for design; native rates above 8.3 in/hr trigger restrictions—not a mandated design rate. Detailed BMP sizing defers to Minnesota Stormwater Manual Section 7.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "bioretention_media_depth_min_inches",
+      "bioretention_ponding_depth_inches",
+      "permeable_pavement_storage_depth_inches",
+      "design_infiltration_rate_in_per_hr",
+      "ed_drain_time_hours",
+      "length_to_width_ratio",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "swale_longitudinal_slope_percent",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

@@ -84,6 +84,31 @@
       "field": "design_criteria.approved_bmp_categories",
       "excerpt": "Structural Controls / Detention/Retention Basin",
       "page_or_section": "Chapters 7–9"
+    },
+    {
+      "field": "practice_mentions.bioretention",
+      "excerpt": "Bioretention Areas — Shallow stormwater basins or landscaped areas which utilize engineered soils and vegetation to capture and treat stormwater runoff.",
+      "page_or_section": "Table 9-1, page 9-2 (lubbock-tx-c0119)"
+    },
+    {
+      "field": "practice_mentions.extended_detention",
+      "excerpt": "Detention — May include Dry Detention Basins or Multi-Purpose Detention Areas. Dry Detention Basins are surface facilities intended to provide for the temporary storage of stormwater runoff",
+      "page_or_section": "Table 9-1, page 9-2"
+    },
+    {
+      "field": "practice_mentions.infiltration_trench",
+      "excerpt": "Infiltration Trenches — Excavated trenches filled with stone aggregate used to capture and allow infiltration of stormwater runoff into the surrounding soils",
+      "page_or_section": "Table 9-1, page 9-2"
+    },
+    {
+      "field": "practice_mentions.sand_filter",
+      "excerpt": "Sand Filters — Multi-chamber structures designed to treat stormwater runoff through filtration, using a sand bed as its primary filter media.",
+      "page_or_section": "Table 9-1, page 9-2"
+    },
+    {
+      "field": "practice_mentions.swale",
+      "excerpt": "Enhanced Swales — Vegetated open channels that are explicitly designed and constructed to capture and treat stormwater runoff within dry or wet cells formed by check dams or other means.",
+      "page_or_section": "Table 9-1, page 9-2"
     }
   ],
   "extraction_quality": {
@@ -100,5 +125,52 @@
     "landing_page_url": "https://www.mylubbock.us/280/Development-Engineering",
     "retrieved_at": "2026-08-10T08:30:22.061Z",
     "original_filename": "lubbock-tx.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": null,
+    "max_drawdown_hours": null,
+    "shwt_separation_inches": null,
+    "bioretention_media_depth_min_inches": null,
+    "bioretention_ponding_depth_inches": null,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": null,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": null,
+    "length_to_width_ratio": null,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "bioretention",
+      "extended_detention",
+      "infiltration_trench",
+      "sand_filter",
+      "swale"
+    ],
+    "enriched_at": "2026-08-13T09:01:11.731Z",
+    "enrich_model": "composer-2.5:run-3edf844e-259a-4796-a304-579e4e10df06",
+    "enrich_notes": "Chapter 9 Table 9-1 names post-construction structural controls and cites iSWMTM (April 2010, revised September 2014) as source; provided excerpts contain BMP descriptions only, no Lubbock-specific numeric WQ or SCM sizing. Detention includes dry detention and multi-purpose detention; retention basins reference Chapter 6 initial conditions (not in corpus). Playa-centric flood criteria (100-year street depth 12 in., channel min bottom 10 ft) are not mapped to requested SCM parameter keys.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "wqv_depth_inches",
+      "max_drawdown_hours",
+      "shwt_separation_inches",
+      "bioretention_media_depth_min_inches",
+      "bioretention_ponding_depth_inches",
+      "permeable_pavement_storage_depth_inches",
+      "design_infiltration_rate_in_per_hr",
+      "permanent_pool_depth_inches",
+      "ed_drain_time_hours",
+      "length_to_width_ratio",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "swale_longitudinal_slope_percent",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

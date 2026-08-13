@@ -26,6 +26,16 @@
       "field": "document_metadata.jurisdiction_name",
       "excerpt": "disturb an acre or more to obtain coverage under the general construction storm water permit and to develop a plan to ensure that storm water runoff from the project is clean enough to discharge to surface waters without causing or contributing to water quality concerns. In",
       "page_or_section": "p. 2"
+    },
+    {
+      "field": "practice_mentions.swale",
+      "excerpt": "Ditch Checks are designed to provide erosion control within man-made storm water conveyances such as ditches, channels, and swales.",
+      "page_or_section": "DITCH CHECKS, page 17"
+    },
+    {
+      "field": "practice_mentions.swale",
+      "excerpt": "Erosion Control Blankets Installed Running Along the Direction Of the Flow In This Swale.",
+      "page_or_section": "EROSION CONTROL BLANKETS (continued), page 43"
     }
   ],
   "extraction_quality": {
@@ -41,5 +51,48 @@
     "landing_page_url": "https://www.dot.state.wy.us/",
     "retrieved_at": "2026-08-10T10:35:05.250Z",
     "original_filename": "casper-wy.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": null,
+    "max_drawdown_hours": null,
+    "shwt_separation_inches": null,
+    "bioretention_media_depth_min_inches": null,
+    "bioretention_ponding_depth_inches": null,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": null,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": null,
+    "length_to_width_ratio": null,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "swale"
+    ],
+    "enriched_at": "2026-08-13T07:47:06.420Z",
+    "enrich_model": "composer-2.5:run-776882dd-33af-442f-b591-6d1d6f0783b3",
+    "enrich_notes": "Source is WYDOT Pollution Controls and BMPs for Storm Water During Construction (field guide), focused on temporary erosion/sediment control, vehicle tracking, reclamation, and spill/waste handling—not post-construction SCM sizing. Swales appear only as conveyances for ditch checks and erosion blankets; no design depths, drawdown times, WQV, infiltration rates, or other numeric stormwater facility parameters are stated.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "wqv_depth_inches",
+      "max_drawdown_hours",
+      "shwt_separation_inches",
+      "bioretention_media_depth_min_inches",
+      "bioretention_ponding_depth_inches",
+      "permeable_pavement_storage_depth_inches",
+      "design_infiltration_rate_in_per_hr",
+      "permanent_pool_depth_inches",
+      "ed_drain_time_hours",
+      "length_to_width_ratio",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "swale_longitudinal_slope_percent",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

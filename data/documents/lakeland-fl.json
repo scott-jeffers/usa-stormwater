@@ -39,6 +39,31 @@
       "field": "design_criteria.peak_flow_calculation_method",
       "excerpt": "24-hour, 25-year rainfall maps and the Natural Resources Conservation Service type II Florida Modified 24-hour rainfall distribution",
       "page_or_section": "SWFWMD AH Vol II §3"
+    },
+    {
+      "field": "design_parameters.shwt_separation_inches",
+      "excerpt": "The seasonal high water level must be at least one foot below the center line of the perforated pipe",
+      "page_or_section": "4.1.b.2, page 23"
+    },
+    {
+      "field": "design_parameters.shwt_separation_inches",
+      "excerpt": "The seasonal high water level must be at least one foot below the bottom of the exfiltration pipe",
+      "page_or_section": "4.1.e.3, page 24"
+    },
+    {
+      "field": "design_parameters.permanent_pool_depth_inches",
+      "excerpt": "Credit for the PPV is limited to a maximum depth of 8 feet",
+      "page_or_section": "4.1.a.3, page 22"
+    },
+    {
+      "field": "design_parameters.ed_drain_time_hours",
+      "excerpt": "The total detention volume shall again be available within 36 hours",
+      "page_or_section": "4.1.b.4, page 23"
+    },
+    {
+      "field": "design_parameters.ed_drain_time_hours",
+      "excerpt": "sized to discharge ½ inch of detention runoff (mixing volume) from the contributing area in 24 hours",
+      "page_or_section": "4.1.a.3, page 22"
     }
   ],
   "extraction_quality": {
@@ -52,5 +77,50 @@
     "landing_page_url": "https://www.swfwmd.state.fl.us/",
     "retrieved_at": "2026-08-10T10:18:37.456Z",
     "original_filename": "lakeland-fl.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": null,
+    "max_drawdown_hours": null,
+    "shwt_separation_inches": 12,
+    "bioretention_media_depth_min_inches": null,
+    "bioretention_ponding_depth_inches": null,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": null,
+    "permanent_pool_depth_inches": 96,
+    "ed_drain_time_hours": 36,
+    "length_to_width_ratio": null,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "constructed_wetland",
+      "extended_detention",
+      "infiltration_trench",
+      "sand_filter",
+      "swale",
+      "wet_pond"
+    ],
+    "enriched_at": "2026-08-13T08:51:52.202Z",
+    "enrich_model": "composer-2.5:run-1fa8670a-a10b-4adb-90c2-d21acee739ef",
+    "enrich_notes": "Treatment volume sizing references Volume I performance standards (not a fixed WQV depth in these excerpts). Wet detention: PPV max credit 8 ft; mixing drawdown ½ in. in 24 hr; overflow max 10 in. above control. Recovery: 36 hr (detention with effluent filtration), 72 hr (on-line/off-line retention and underground exfiltration; only 36 hr volume counts toward quantity). Exfiltration design rate divided by safety factor 2.0. Pretreatment swale: first ¼ in. runoff, max 4 in. overall depth.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "wqv_depth_inches",
+      "max_drawdown_hours",
+      "bioretention_media_depth_min_inches",
+      "bioretention_ponding_depth_inches",
+      "permeable_pavement_storage_depth_inches",
+      "design_infiltration_rate_in_per_hr",
+      "length_to_width_ratio",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "swale_longitudinal_slope_percent",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

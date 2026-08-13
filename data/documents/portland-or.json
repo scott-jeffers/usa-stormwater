@@ -112,6 +112,46 @@
       "field": "design_criteria.approved_bmp_categories",
       "excerpt": "Ecoroof ... Permeable Pavement ... Filter Strip ... Green Street ... Rain Garden ... Basin ... Planter ... Drywell ... Soakage Trench ... MSTT ... Structured Detention",
       "page_or_section": "Page 2-34, Table 2-9"
+    },
+    {
+      "field": "design_parameters.wqv_depth_inches",
+      "excerpt": "70% removal of total suspended solids (TSS) is required from the runoff from 90% of the average annual rainfall (1.61 inches over 24 hours",
+      "page_or_section": "Chapter 1, page 30 (portland-or-c0018)"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "the drawdown time to the reference point must not exceed 30 hours",
+      "page_or_section": "Chapter 2, page 102 (portland-or-c0078)"
+    },
+    {
+      "field": "design_parameters.shwt_separation_inches",
+      "excerpt": "minimum separation distance of 5 ft between the bottom of the facility and the seasonal high groundwater level",
+      "page_or_section": "Chapter 1, page 28 (portland-or-c0017)"
+    },
+    {
+      "field": "design_parameters.bioretention_ponding_depth_inches",
+      "excerpt": "Ponding depth: 12 inches",
+      "page_or_section": "Chapter 3 Rain Garden, page 139 (portland-or-c0099)"
+    },
+    {
+      "field": "design_parameters.bioretention_media_depth_min_inches",
+      "excerpt": "Amend the soil with 3 inches of compost, blend to a depth of 12 inches below grade.",
+      "page_or_section": "Chapter 3 Rain Garden, page 139 (portland-or-c0099)"
+    },
+    {
+      "field": "design_parameters.design_infiltration_rate_in_per_hr",
+      "excerpt": "BES requires a minimum design infiltration rate of 2 in/hr unless otherwise approved",
+      "page_or_section": "Chapter 3 Drywells, page 168 (portland-or-c0107)"
+    },
+    {
+      "field": "design_parameters.ed_drain_time_hours",
+      "excerpt": "Wet ponds and extended wet ponds (the top of the permanent pool)... drawdown time to the reference point must not exceed 30 hours",
+      "page_or_section": "Chapter 2, page 102 (portland-or-c0078)"
+    },
+    {
+      "field": "design_parameters.swale_bottom_width_inches",
+      "excerpt": "Grassy swales on private property: Minimum bottom width: 2 ft (must be flat)",
+      "page_or_section": "Chapter 3, page 194 (portland-or-c0118)"
     }
   ],
   "extraction_quality": {
@@ -127,5 +167,49 @@
     "landing_page_url": "https://www.portland.gov/bes/stormwater/2020-stormwater-management-manual",
     "retrieved_at": "2026-08-07T17:54:24.003Z",
     "original_filename": "portland-or.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": 1.61,
+    "max_drawdown_hours": 30,
+    "shwt_separation_inches": 60,
+    "bioretention_media_depth_min_inches": 12,
+    "bioretention_ponding_depth_inches": 12,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": 2,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": 30,
+    "length_to_width_ratio": null,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": 24,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "bioretention",
+      "extended_detention",
+      "green_roof",
+      "infiltration_basin",
+      "infiltration_trench",
+      "manufactured_treatment",
+      "permeable_pavement",
+      "sand_filter",
+      "swale",
+      "wet_pond"
+    ],
+    "enriched_at": "2026-08-13T09:49:54.279Z",
+    "enrich_model": "composer-2.5:run-80093678-7f1c-4357-a6ce-41a2619ec147",
+    "enrich_notes": "Portland WQ standard is 70% TSS from runoff for 90% of average annual rainfall (1.61 in/24 hr). Level 1 quantity storm is 10-year 24-hr (3.4 in). Infiltration required at tested/design rate ≥2 in/hr unless exceptions. Multiple facility types share 30-hr max drawdown and 5-ft (60 in) SHGW separation. Rain garden sizing factor 0.10 footprint; ponding 12 in. Grassy swale private minimum bottom width 2 ft. MSTTs use BES approved list, not a named third-party verification program in excerpt.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "permeable_pavement_storage_depth_inches",
+      "permanent_pool_depth_inches",
+      "length_to_width_ratio",
+      "wetland_detention_hours",
+      "swale_longitudinal_slope_percent",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

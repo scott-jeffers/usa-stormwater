@@ -84,6 +84,31 @@
       "field": "design_criteria.approved_bmp_categories",
       "excerpt": "retention systems, detention systems",
       "page_or_section": "Definitions / criteria"
+    },
+    {
+      "field": "design_parameters.swale_longitudinal_slope_percent",
+      "excerpt": "The minimum longitudinal slope for roadways and roadway swales shall be 0.3% or 0.003 feet per foot.",
+      "page_or_section": "3.7.1 ROADWAY AND SWALE GRADING, page 27"
+    },
+    {
+      "field": "practice_mentions.swale",
+      "excerpt": "Swale means a man-made trench that: (a) Has a top width-to-depth ratio of the cross-section equal to or greater than 6:1...",
+      "page_or_section": "2.2 DEFINITIONS, page 19"
+    },
+    {
+      "field": "practice_mentions.infiltration_trench",
+      "excerpt": "Exfiltration Trench means an underground drainage system that has the capacity to store and percolate stormwater runoff into the ground water.",
+      "page_or_section": "2.2 DEFINITIONS, page 15"
+    },
+    {
+      "field": "practice_mentions.extended_detention",
+      "excerpt": "Detention means a system designed to store and retain stormwater with controlled discharge to a lake or receiving body of water.",
+      "page_or_section": "2.2 DEFINITIONS, page 14"
+    },
+    {
+      "field": "practice_mentions.permeable_pavement",
+      "excerpt": "Semi-impervious means land surfaces that partially restrict the penetration of water; such as porous concrete and asphalt pavements, gravel, limerock, and certain compacted soils.",
+      "page_or_section": "2.2 DEFINITIONS, page 19"
     }
   ],
   "extraction_quality": {
@@ -100,5 +125,50 @@
     "landing_page_url": "https://www.sbdd.org/development-projects/resources/standard-details-pdf/",
     "retrieved_at": "2026-08-10T08:45:22.876Z",
     "original_filename": "broward-county-fl.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": null,
+    "max_drawdown_hours": null,
+    "shwt_separation_inches": null,
+    "bioretention_media_depth_min_inches": null,
+    "bioretention_ponding_depth_inches": null,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": null,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": null,
+    "length_to_width_ratio": null,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": 0.3,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "extended_detention",
+      "infiltration_trench",
+      "permeable_pavement",
+      "swale"
+    ],
+    "enriched_at": "2026-08-13T07:40:30.836Z",
+    "enrich_model": "composer-2.5:run-2238f9bb-3751-4faa-bf28-93d062aaadfa",
+    "enrich_notes": "SBDD defers soil storage and water-quality computations to SFWMD Environmental Resource Permit Applicant's Handbook; excerpt cites percolation/K-factor for exfiltration trenches but no numeric in/hr design rate. Dry detention/retention and swale inverts must be at least 1 ft above basin control elevation (CWE), not stated as seasonal high water table separation. Level of service: 10-year 3-day for roads/parking; 100-year 3-day for building finished floors.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "wqv_depth_inches",
+      "max_drawdown_hours",
+      "shwt_separation_inches",
+      "bioretention_media_depth_min_inches",
+      "bioretention_ponding_depth_inches",
+      "permeable_pavement_storage_depth_inches",
+      "design_infiltration_rate_in_per_hr",
+      "permanent_pool_depth_inches",
+      "ed_drain_time_hours",
+      "length_to_width_ratio",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

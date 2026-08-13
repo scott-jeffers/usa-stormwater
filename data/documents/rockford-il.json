@@ -71,6 +71,31 @@
       "field": "document_metadata.relationship_to_state_manual",
       "excerpt": "independent city technical manual (supplements Stormwater Ordinance)",
       "page_or_section": "Introduction"
+    },
+    {
+      "field": "design_parameters.practice_mentions.bioretention",
+      "excerpt": "Utilize bio-retention methods and rain gardens to infiltrate stormwater",
+      "page_or_section": "T2-02(j), page 20"
+    },
+    {
+      "field": "design_parameters.practice_mentions.infiltration_trench",
+      "excerpt": "Utilize stormwater infiltration methods such as porous and permeable pavements and infiltration trenches",
+      "page_or_section": "T2-02(j), page 20"
+    },
+    {
+      "field": "design_parameters.practice_mentions.permeable_pavement",
+      "excerpt": "porous and permeable pavements and infiltration trenches",
+      "page_or_section": "T2-02(j), page 20"
+    },
+    {
+      "field": "design_parameters.practice_mentions.swale",
+      "excerpt": "Grass or vegetated swales, channels or flow paths should be left undisturbed",
+      "page_or_section": "T2-02(j), page 19"
+    },
+    {
+      "field": "enrich_notes.release_rate",
+      "excerpt": "The design runoff rate for a development shall be the lesser of: ... 2. 0.2 cfs/acre of development.",
+      "page_or_section": "T2-02(e), page 17"
     }
   ],
   "extraction_quality": {
@@ -84,5 +109,51 @@
     "landing_page_url": "https://www.rockfordil.gov/274/Stormwater-Environmental-Team",
     "retrieved_at": "2026-08-10T09:45:18.887Z",
     "original_filename": "rockford-il.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": null,
+    "max_drawdown_hours": null,
+    "shwt_separation_inches": null,
+    "bioretention_media_depth_min_inches": null,
+    "bioretention_ponding_depth_inches": null,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": null,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": null,
+    "length_to_width_ratio": null,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "bioretention",
+      "infiltration_trench",
+      "permeable_pavement",
+      "swale"
+    ],
+    "enriched_at": "2026-08-13T09:58:04.492Z",
+    "enrich_model": "composer-2.5:run-0c66429f-2e7a-47de-b206-1bf211fbfb86",
+    "enrich_notes": "Quantity standard is peak release ≤ lesser of existing rate or 0.2 cfs/acre (100-year); minor system 10-year, major 100-year; ISWS Bulletin 70 Northwest for rainfall. BMP design defers to Illinois Urban Manual (June 2013). Sediment basin excerpt specifies ≥10-hour hold and max outflow 0.065 cfs per acre-inch of runoff for construction sediment control—not mapped to SCM drawdown fields.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "wqv_depth_inches",
+      "max_drawdown_hours",
+      "shwt_separation_inches",
+      "bioretention_media_depth_min_inches",
+      "bioretention_ponding_depth_inches",
+      "permeable_pavement_storage_depth_inches",
+      "design_infiltration_rate_in_per_hr",
+      "permanent_pool_depth_inches",
+      "ed_drain_time_hours",
+      "length_to_width_ratio",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "swale_longitudinal_slope_percent",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

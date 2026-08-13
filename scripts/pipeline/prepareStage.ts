@@ -10,6 +10,7 @@ import {
 } from "../lib/pdfText";
 import type { PipelineProgressStore } from "../../lib/pipeline/progress";
 import type { ManifestJob } from "../../lib/pipeline/types";
+import { isPermanentHttpError } from "./shared";
 
 const DOWNLOAD_TIMEOUT_MS = 180_000;
 
@@ -67,6 +68,24 @@ export async function runPrepareStage(
   if (!opts.force && current.status === "skipped") {
     return "noop";
   }
+  if (
+    !opts.force &&
+    current.status === "failed" &&
+    isPermanentHttpError(current.error ?? "")
+  ) {
+    store.setStage(job.id, "prepare", {
+      status: "skipped",
+      error: `http_404: ${current.error}`,
+      completedAt: new Date().toISOString(),
+    });
+    await store.saveAndLog({
+      id: job.id,
+      stage: "prepare",
+      status: "skipped",
+      detail: current.error,
+    });
+    return "skipped";
+  }
 
   if (!job.pdfUrl) {
     store.setStage(job.id, "prepare", {
@@ -113,18 +132,21 @@ export async function runPrepareStage(
     return "done";
   } catch (error) {
     const message = error instanceof Error ? error.message : String(error);
+    const permanent = isPermanentHttpError(message);
     store.setStage(job.id, "prepare", {
-      status: "failed",
-      error: message,
+      status: permanent ? "skipped" : "failed",
+      error: permanent ? `http_404: ${message}` : message,
       completedAt: new Date().toISOString(),
     });
     await store.saveAndLog({
       id: job.id,
       stage: "prepare",
-      status: "failed",
+      status: permanent ? "skipped" : "failed",
       detail: message,
     });
-    console.error(`[${job.id}] prepare failed: ${message}`);
-    return "failed";
+    console.error(
+      `[${job.id}] prepare ${permanent ? "skipped (dead URL)" : "failed"}: ${message}`
+    );
+    return permanent ? "skipped" : "failed";
   }
 }

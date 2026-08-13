@@ -42,6 +42,46 @@
       "field": "design_criteria.water_quality_volume_method",
       "excerpt": "Pwqs = Cwqs * P2yr24hr",
       "page_or_section": "Equation 4.1"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "The maximum allowable surface pool drawdown time is 72 hours after cessation of flow to the BMP.",
+      "page_or_section": "Chapter 6, Page 597 (BMP F6.23 Bioretention)"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "UIC wells are designed to completely drain ponded runoff within 48 to 72 hours after flow to the UIC well has stopped.",
+      "page_or_section": "Chapter 5, Page 362"
+    },
+    {
+      "field": "design_parameters.shwt_separation_inches",
+      "excerpt": "The base of BMP F6.21: Infiltration Ponds or BMP F6.22: Infiltration Trenches shall be ≥ 5 feet above the seasonal high-water mark",
+      "page_or_section": "Chapter 6, Page 538 (SSC-5)"
+    },
+    {
+      "field": "design_parameters.shwt_separation_inches",
+      "excerpt": "The minimum vertical separation is 5 feet between the base of a UIC well and the highest elevation between the seasonal high groundwater table",
+      "page_or_section": "Chapter 5, Page 362"
+    },
+    {
+      "field": "design_parameters.bioretention_media_depth_min_inches",
+      "excerpt": "The \"Default\" and \"Custom\" BSM depth must be 18 inches to provide Runoff Treatment and good growing conditions",
+      "page_or_section": "Chapter 6, Page 599"
+    },
+    {
+      "field": "design_parameters.bioretention_ponding_depth_inches",
+      "excerpt": "The maximum recommended ponding depth is 12 inches.",
+      "page_or_section": "Chapter 6, Page 597"
+    },
+    {
+      "field": "design_parameters.design_infiltration_rate_in_per_hr",
+      "excerpt": "They are not generally appropriate for sites that have a design infiltration rate less than 0.3 inches per hour.",
+      "page_or_section": "Chapter 6, Page 406"
+    },
+    {
+      "field": "design_parameters.design_infiltration_rate_in_per_hr",
+      "excerpt": "field testing indicates potential bioretention sites have a measured (a.k.a. initial) native soil saturated hydraulic conductivity less than 0.30 inches per hour.",
+      "page_or_section": "Chapter 6, Page 574"
     }
   ],
   "extraction_quality": {
@@ -55,5 +95,51 @@
     "landing_page_url": "https://ecology.wa.gov/regulations-permits/guidance-technical-assistance/stormwater-permittee-guidance-resources/stormwater-manuals",
     "retrieved_at": "2026-08-10T10:42:30.501Z",
     "original_filename": "kennewick-wa.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": null,
+    "max_drawdown_hours": 72,
+    "shwt_separation_inches": 60,
+    "bioretention_media_depth_min_inches": 18,
+    "bioretention_ponding_depth_inches": 12,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": 0.3,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": null,
+    "length_to_width_ratio": null,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "bioretention",
+      "constructed_wetland",
+      "extended_detention",
+      "infiltration_basin",
+      "infiltration_trench",
+      "permeable_pavement",
+      "sand_filter",
+      "swale",
+      "wet_pond"
+    ],
+    "enriched_at": "2026-08-13T08:45:45.740Z",
+    "enrich_model": "composer-2.5:run-baee814b-11d2-44ec-a48a-94caa74bc51e",
+    "enrich_notes": "WQv sizing referenced as 6-month 24-hour storm (Chapter 4); no inch depth in excerpts. Bioretention BSM design Ksat 12 in/hr (end-of-life) with safety factor 4 for larger sites. SHWT separation also 36 in (3 ft) with mounding analysis; 12 in for small bioretention/rain gardens; 180 in (15 ft) for deep drywells. UIC ponded drawdown 48–72 hr. Native soil runoff-treatment layer min 18 in (12 in under some permeable pavement). Permeable pavement min slope 1–2%; treatment sand layers 6 in or 12 in. Infiltration swale storage depth typically ≤12 in.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "wqv_depth_inches",
+      "permeable_pavement_storage_depth_inches",
+      "permanent_pool_depth_inches",
+      "ed_drain_time_hours",
+      "length_to_width_ratio",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "swale_longitudinal_slope_percent",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

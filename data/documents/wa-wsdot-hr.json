@@ -37,6 +37,41 @@
       "field": "design_criteria.design_storm_return_periods_years",
       "excerpt": "auses a 0.1 cfs or more increase in the 100-year recurrence interval flow? Chapter 3 Minimum Requirements WSDOT Highway Runoff M",
       "page_or_section": null
+    },
+    {
+      "field": "design_parameters.wqv_depth_inches",
+      "excerpt": "No water-quality rainfall/runoff depth in inches (e.g. 1.0 in.) stated; western volume-based wetpool uses \"91st percentile, 24-hour runoff volume as calculated by MGSFlood.\"",
+      "page_or_section": "Table 3-3, page 3-17"
+    },
+    {
+      "field": "design_parameters.shwt_separation_inches",
+      "excerpt": "Do not place flow control BMPs or the live storage portion of a combination flow control/runoff treatment BMP below the seasonal high water table.",
+      "page_or_section": "Section 3-3.6.4 Guidelines, page 3-24"
+    },
+    {
+      "field": "design_parameters.ed_drain_time_hours",
+      "excerpt": "Size treatment facility or facilities using the full 2-year release rate from the detention facility, under postdeveloped conditions for each TDA.",
+      "page_or_section": "Table 3-3, page 3-17"
+    },
+    {
+      "field": "practice_mentions.wet_pond",
+      "excerpt": "Volume-based (on-line) Wetpool – Size the wetpool to store the 91st percentile, 24-hour runoff volume as calculated by MGSFlood.",
+      "page_or_section": "Table 3-3, page 3-17"
+    },
+    {
+      "field": "practice_mentions.constructed_wetland",
+      "excerpt": "Refer to Section 5-4.1.4 for additional information on the Constructed Stormwater Treatment Wetland (see BMP RT.13).",
+      "page_or_section": "Section 3-3.7, page 3-29"
+    },
+    {
+      "field": "practice_mentions.permeable_pavement",
+      "excerpt": "Model pervious pavement as grass in this analysis.",
+      "page_or_section": "Section 3-3.6.4 Guidelines, page 3-24"
+    },
+    {
+      "field": "practice_mentions.extended_detention",
+      "excerpt": "Flow-based: downstream of flow control facility — Size treatment facility or facilities using the full 2-year release rate from the detention facility.",
+      "page_or_section": "Table 3-3, page 3-17"
     }
   ],
   "extraction_quality": {
@@ -55,5 +90,52 @@
     "landing_page_url": "https://wsdot.wa.gov/engineering-standards/all-manuals-and-standards/manuals/highway-runoff-manual",
     "retrieved_at": "2026-08-11T17:21:06.028Z",
     "original_filename": "wa-wsdot-hr.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": null,
+    "max_drawdown_hours": null,
+    "shwt_separation_inches": null,
+    "bioretention_media_depth_min_inches": null,
+    "bioretention_ponding_depth_inches": null,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": null,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": null,
+    "length_to_width_ratio": null,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "constructed_wetland",
+      "extended_detention",
+      "infiltration_basin",
+      "permeable_pavement",
+      "wet_pond"
+    ],
+    "enriched_at": "2026-08-13T10:30:51.120Z",
+    "enrich_model": "composer-2.5:run-77ecf14c-73d7-4177-bc06-a66ce449fb99",
+    "enrich_notes": "Chapter 3 defines minimum requirements and sizing frameworks (Tables 3-3 western WA: 91% annual average runoff for flow-based treatment; wetpool sized to 91st percentile 24-hour runoff via MGSFlood; downstream-of-detention uses full 2-year release rate. Table 3-4 eastern WA: 6-month long-duration volume and 6-month short-duration peak for flow-based sizing). Explicit inch-depth WQV, drawdown hours, SHWT separation distance, and BMP detail dimensions are not in this chapter proxy text—refer to Chapters 4–5. Flow control guidance prohibits live storage below seasonal high water table without stating a minimum separation in inches.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "wqv_depth_inches",
+      "max_drawdown_hours",
+      "shwt_separation_inches",
+      "bioretention_media_depth_min_inches",
+      "bioretention_ponding_depth_inches",
+      "permeable_pavement_storage_depth_inches",
+      "design_infiltration_rate_in_per_hr",
+      "permanent_pool_depth_inches",
+      "ed_drain_time_hours",
+      "length_to_width_ratio",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "swale_longitudinal_slope_percent",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

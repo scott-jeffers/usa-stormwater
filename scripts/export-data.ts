@@ -6,7 +6,7 @@
  * Writes under public/data/ (served at /data/ after Next build).
  */
 import { mkdir, rm, writeFile } from "node:fs/promises";
-import { existsSync, readFileSync } from "node:fs";
+import { existsSync, readFileSync, readdirSync } from "node:fs";
 import path from "node:path";
 import { getAllManuals, revisionDateFromMetadata } from "../lib/data";
 import {
@@ -44,6 +44,31 @@ const FIELD_SCHEMA = {
     peak_flow_calculation_method: "string[]",
     required_hydrologic_hydraulic_software: "string[]",
     approved_bmp_categories: "string[]",
+  },
+  design_parameters: {
+    optional: true,
+    wqv_depth_inches: "number | null — site-wide WQ depth (not practice-specific)",
+    max_drawdown_hours: "number | null — site-wide drawdown",
+    shwt_separation_inches: "number | null — site-wide SHWT separation",
+    bioretention_media_depth_min_inches: "number | null",
+    bioretention_ponding_depth_inches: "number | null",
+    permeable_pavement_storage_depth_inches: "number | null",
+    design_infiltration_rate_in_per_hr: "number | null",
+    permanent_pool_depth_inches: "number | null",
+    ed_drain_time_hours: "number | null",
+    length_to_width_ratio: "number | null",
+    wetland_detention_hours: "number | null",
+    swale_bottom_width_inches: "number | null",
+    swale_longitudinal_slope_percent: "number | null",
+    green_roof_media_depth_inches: "number | null",
+    green_roof_slope_percent: "number | null",
+    mtd_verification_program: "string | null — TAPE, NJCAT, etc.",
+    practice_mentions: "string[] — canonical keys from data/ontology/bmp-aliases.json",
+    enriched_at: "string | null",
+    enrich_model: "string | null",
+    enrich_notes: "string | null",
+    enrich_schema_version: "number — bump when parameter catalog changes",
+    fields_not_found: "string[]",
   },
   evidence: [
     {
@@ -153,9 +178,12 @@ async function main() {
           national_outline: "/data/national/outline.json",
           national_drafts: "/data/national/drafts.json",
           national_draft_one: "/data/national/draft/{sectionId}.json",
+          national_practices: "/data/national/practices.json",
+          national_practice_one: "/data/national/practices/{practiceKey}.json",
           llms: "/llms.txt",
           about: "/about/",
           national: "/national/",
+          national_practices_page: "/national/practices/",
         },
         record: FIELD_SCHEMA,
       },
@@ -202,6 +230,45 @@ async function main() {
     );
   }
 
+  const practicesSrc = path.resolve(process.cwd(), "data/national/practices");
+  const practicesOut = path.join(NATIONAL_DIR, "practices");
+  let practiceCount = 0;
+  if (existsSync(practicesSrc)) {
+    await mkdir(practicesOut, { recursive: true });
+    const practiceFiles = readdirSync(practicesSrc).filter((f) =>
+      f.endsWith(".json")
+    );
+    for (const f of practiceFiles) {
+      await writeFile(
+        path.join(practicesOut, f),
+        readFileSync(path.join(practicesSrc, f), "utf8"),
+        "utf8"
+      );
+      practiceCount += 1;
+    }
+    const synthIndex = practiceFiles
+      .filter((f) => !f.endsWith(".matrix.json"))
+      .map((f) => f.replace(/\.json$/, ""));
+    await writeFile(
+      path.join(NATIONAL_DIR, "practices.json"),
+      JSON.stringify(
+        {
+          generated_at: generatedAt,
+          count: synthIndex.length,
+          practices: synthIndex.map((id) => ({
+            practice_key: id,
+            data_url: `${SITE_ORIGIN}/data/national/practices/${id}.json`,
+            matrix_url: `${SITE_ORIGIN}/data/national/practices/${id}.matrix.json`,
+            page_url: `${SITE_ORIGIN}/national/practices/${id}/`,
+          })),
+        },
+        null,
+        2
+      ) + "\n",
+      "utf8"
+    );
+  }
+
   const tierAPath = path.resolve(process.cwd(), "data/national/tier-a-slugs.json");
   if (existsSync(tierAPath)) {
     await writeFile(
@@ -214,6 +281,7 @@ async function main() {
   console.log(
     `export:data — wrote ${manuals.length} manuals` +
       (outline ? `, national outline + ${drafts.length} drafts` : "") +
+      (practiceCount ? `, ${practiceCount} practice files` : "") +
       ` to public/data/ (${generatedAt})`
   );
 }

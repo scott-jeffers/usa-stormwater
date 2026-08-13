@@ -129,6 +129,36 @@
       "field": "design_criteria.approved_bmp_categories",
       "excerpt": "Primary Secondary Secondary Secondary Extended Storage Pond High Low Primary Secondary Secondary Secondary Wet Vaults Medium Lowa Primary Secondary Secondary Minor Detention Dry Pond High Low Secondary Minor Minor Minor Oversized Pipes High Low Minor Minor Minor Minor Oil/Grit",
       "page_or_section": "pp. 180–181"
+    },
+    {
+      "field": "design_parameters.ed_drain_time_hours",
+      "excerpt": "Provide 24 hours of extended detention of the runoff from the 1-year, 24-hour duration storm event",
+      "page_or_section": "Table 3-4 Unified sizing criteria, pages 78-79"
+    },
+    {
+      "field": "design_parameters.green_roof_slope_percent",
+      "excerpt": "Green roofs can be installed on building roofs with slopes up to 25 percent.",
+      "page_or_section": "Green Roof Design Adaptation for Alaska, page 200"
+    },
+    {
+      "field": "design_parameters.wqv_depth_inches",
+      "excerpt": "P = design rainfall depth (90% cumulative frequency depth) (~ 0.5 to 1.25 inches)",
+      "page_or_section": "Table 3-4, pages 78-79"
+    },
+    {
+      "field": "practice_mentions.bioretention",
+      "excerpt": "Bioretention cells, commonly known as rain gardens, are relatively small-scale, landscaped depressions",
+      "page_or_section": "Section 5.2 LID, page 182"
+    },
+    {
+      "field": "practice_mentions.extended_detention",
+      "excerpt": "Dry ED Ponds",
+      "page_or_section": "Table 5-2, page 185"
+    },
+    {
+      "field": "practice_mentions.manufactured_treatment",
+      "excerpt": "demonstrate that the proposed oil and grit separator(s) has (have) the ability to remove at least 50 percent of TSS particles larger than 20 microns",
+      "page_or_section": "Chapter 1, page 31"
     }
   ],
   "extraction_quality": {
@@ -144,5 +174,55 @@
     "landing_page_url": "https://plants.alaska.gov/",
     "retrieved_at": "2026-08-08T10:16:00.000Z",
     "original_filename": "ak-state.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": null,
+    "max_drawdown_hours": null,
+    "shwt_separation_inches": null,
+    "bioretention_media_depth_min_inches": null,
+    "bioretention_ponding_depth_inches": null,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": null,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": 24,
+    "length_to_width_ratio": null,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": 25,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "bioretention",
+      "constructed_wetland",
+      "extended_detention",
+      "green_roof",
+      "infiltration_basin",
+      "manufactured_treatment",
+      "permeable_pavement",
+      "sand_filter",
+      "swale",
+      "wet_pond"
+    ],
+    "enriched_at": "2026-08-13T07:19:20.432Z",
+    "enrich_model": "composer-2.5:run-8ec1dec9-a739-4844-b9b0-6fe2e15bbc88",
+    "enrich_notes": "WQv uses regional 90% storm or end-of-season snowmelt depth (examples: 1.25 in coastal rainfall, 0.5 in interior rainfall, 1.2 in interior meltwater; Table 3-4 cites ~0.5–1.25 in and up to 1.25–1.75 in in wet climates). Channel protection Cpv requires 24 h extended detention of 1-year, 24-hour runoff. Soil infiltration classes: high ≥0.5 in/hr, moderate 0.1–0.5 in/hr, low <0.1 in/hr; extreme-design note gives acceptable infiltration 1–4 in/hr for high-rainfall infiltration. Bioretention Alaska adaptations include 12 in filter depth with 9 in underdrain layer under permafrost extreme design. Infiltration: 25 ft setback from roadways/foundations; excavation not within 3 ft of permafrost. Wet pond: low-flow orifice at least 6 in below typical ice layer; minimum 1% pipe slope.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "wqv_depth_inches",
+      "max_drawdown_hours",
+      "shwt_separation_inches",
+      "bioretention_media_depth_min_inches",
+      "bioretention_ponding_depth_inches",
+      "permeable_pavement_storage_depth_inches",
+      "design_infiltration_rate_in_per_hr",
+      "permanent_pool_depth_inches",
+      "length_to_width_ratio",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "swale_longitudinal_slope_percent",
+      "green_roof_media_depth_inches",
+      "mtd_verification_program"
+    ]
   }
 }

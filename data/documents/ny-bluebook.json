@@ -94,6 +94,36 @@
       "field": "design_criteria.approved_bmp_categories",
       "excerpt": "ESC practices are categorized as vegetative and/or structural controls.",
       "page_or_section": "Page 2.2"
+    },
+    {
+      "field": "design_parameters.wqv_depth_inches",
+      "excerpt": "refer to NYS Stormwater Management Design Manual, Chapters 3 and 5",
+      "page_or_section": "page 21, SITE PLANNING"
+    },
+    {
+      "field": "design_parameters.infiltration_basin",
+      "excerpt": "implementation of standard stormwater treatment practices such as infiltration basins and others",
+      "page_or_section": "page 33, Design Process for ESC Plans"
+    },
+    {
+      "field": "practice_mentions.swale",
+      "excerpt": "Energy dissipation with check dams, drop structures, and possibly turf reinforcement in swales and ditches",
+      "page_or_section": "page 30, Site Improvements Stage"
+    },
+    {
+      "field": "practice_mentions.swale",
+      "excerpt": "Perimeter Dike/Swale Divert runoff Drainage area ≤ 5 Ac.",
+      "page_or_section": "Table 2.2, page 37"
+    },
+    {
+      "field": "practice_mentions.constructed_wetland",
+      "excerpt": "embankments and grading for wetland restoration projects",
+      "page_or_section": "page 32, Water Resources Projects"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "sediment traps and basins should have their temporary storage dewatered over a 48 hour period",
+      "page_or_section": "page 5.10, Dewatering Drawdown (sediment control—not assigned to SCM max drawdown field)"
     }
   ],
   "extraction_quality": {
@@ -109,5 +139,50 @@
     "landing_page_url": "https://dec.ny.gov/environmental-protection/water/water-quality/stormwater/construction-stormwater-toolbox",
     "retrieved_at": "2026-08-07T21:19:23.959Z",
     "original_filename": "ny-bluebook.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": null,
+    "max_drawdown_hours": null,
+    "shwt_separation_inches": null,
+    "bioretention_media_depth_min_inches": null,
+    "bioretention_ponding_depth_inches": null,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": null,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": null,
+    "length_to_width_ratio": null,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "constructed_wetland",
+      "infiltration_basin",
+      "swale"
+    ],
+    "enriched_at": "2026-08-13T09:27:43.924Z",
+    "enrich_model": "composer-2.5:run-c4ce276f-3637-4a66-b05a-70dcb9f0194b",
+    "enrich_notes": "Document is NYS erosion and sediment control (Bluebook), not the NYS Stormwater Management Design Manual. Post-construction runoff reduction, WQV, and BMP sizing are deferred to that manual (Ch. 3 and 5). Excerpts mention infiltration/filtration facilities during construction sequencing, perimeter and interceptor swales, wetland restoration as project type, and sediment-trap dewatering (48 hr minimum, up to 7 days for high-fines soils)—not mapped SCM design parameters. Construction road guidance prefers routes where seasonal water table is deeper than 18 inches (road siting, not BMP SHWT separation). Subsurface drain standard uses 1 inch removed in 24 hours drainage coefficient.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "wqv_depth_inches",
+      "max_drawdown_hours",
+      "shwt_separation_inches",
+      "bioretention_media_depth_min_inches",
+      "bioretention_ponding_depth_inches",
+      "permeable_pavement_storage_depth_inches",
+      "design_infiltration_rate_in_per_hr",
+      "permanent_pool_depth_inches",
+      "ed_drain_time_hours",
+      "length_to_width_ratio",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "swale_longitudinal_slope_percent",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

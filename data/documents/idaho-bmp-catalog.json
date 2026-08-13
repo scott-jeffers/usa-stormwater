@@ -99,6 +99,41 @@
       "field": "design_criteria.approved_bmp_categories",
       "excerpt": "and limitation information as well as design parameters, construction guidelines, and operation and maintenance recommendations. The most important requirements for successful performance of treatment control postconstruction facilities are proper sizing and regular inspection",
       "page_or_section": "p. 41"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "The maximum drawdown time for the flooded depth should be within 72 hours after flow ceases.",
+      "page_or_section": "3.10.2.2 Existing Systems, page 136"
+    },
+    {
+      "field": "design_parameters.design_infiltration_rate_in_per_hr",
+      "excerpt": "An acceptable infiltration rate should be greater than 0.4 inches per hour.",
+      "page_or_section": "3.5.1.5 Conveyance, page 37"
+    },
+    {
+      "field": "design_parameters.design_infiltration_rate_in_per_hr",
+      "excerpt": "Site-specific testing should be conducted to demonstrate site infiltration rates of at least 0.4 inches per hour.",
+      "page_or_section": "3.5.3.1 Treatment Controls, page 42"
+    },
+    {
+      "field": "design_parameters.shwt_separation_inches",
+      "excerpt": "Min. Ground Water Separation 3 feet",
+      "page_or_section": "BMP 23 Extended Detention Basin, page 216 (Figure 60)"
+    },
+    {
+      "field": "design_parameters.ed_drain_time_hours",
+      "excerpt": "The pond outlet is designed to detain the volume of the water quality design storm runoff for a minimum time (usually 48 hours)",
+      "page_or_section": "BMP 23 Extended Detention Basin, page 216"
+    },
+    {
+      "field": "design_parameters.length_to_width_ratio",
+      "excerpt": "A length-to-width ratio of at least 1.5:1 is recommended to prevent short circuiting.",
+      "page_or_section": "BMP 24 Constructed Wetlands, page 227"
+    },
+    {
+      "field": "design_parameters.permanent_pool_depth_inches",
+      "excerpt": "The surface area for the wetland can then be calculated by dividing this volume by 3-feet average water depth.",
+      "page_or_section": "BMP 24 Constructed Wetlands, page 227"
     }
   ],
   "extraction_quality": {
@@ -114,5 +149,52 @@
     "landing_page_url": "https://www.deq.idaho.gov/water-quality/wastewater/stormwater/",
     "retrieved_at": "2026-08-10T07:09:00.000Z",
     "original_filename": "idaho-bmp-catalog.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": null,
+    "max_drawdown_hours": 72,
+    "shwt_separation_inches": 36,
+    "bioretention_media_depth_min_inches": null,
+    "bioretention_ponding_depth_inches": null,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": 0.4,
+    "permanent_pool_depth_inches": 36,
+    "ed_drain_time_hours": 48,
+    "length_to_width_ratio": 1.5,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "bioretention",
+      "constructed_wetland",
+      "extended_detention",
+      "green_roof",
+      "infiltration_basin",
+      "infiltration_trench",
+      "manufactured_treatment",
+      "permeable_pavement",
+      "sand_filter",
+      "swale",
+      "wet_pond"
+    ],
+    "enriched_at": "2026-08-13T08:38:34.025Z",
+    "enrich_model": "composer-2.5:run-a14166eb-f65c-4c68-a8b7-4bc2a7985f05",
+    "enrich_notes": "Idaho catalog defers WQv to local standards; provided excerpts give bioinfiltration swale 72-h drawdown, infiltration minimum 0.4 in/hr, ED basin 3 ft GW separation and ~48 h WQ detention, constructed wetland L:W ≥1.5 and 3 ft average depth for sizing. Middle BMP fact sheets truncated in source.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "wqv_depth_inches",
+      "bioretention_media_depth_min_inches",
+      "bioretention_ponding_depth_inches",
+      "permeable_pavement_storage_depth_inches",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "swale_longitudinal_slope_percent",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

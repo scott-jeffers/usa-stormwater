@@ -74,11 +74,6 @@
       "page_or_section": "Title Page"
     },
     {
-      "field": "document_metadata.version_or_edition",
-      "excerpt": "may 2014",
-      "page_or_section": "Title Page"
-    },
-    {
       "field": "design_criteria.design_storm_return_periods_years",
       "excerpt": "The design storm for parcel-based BMPs at Lake Tahoe is the 20-yr/1-hr rainfall event, approximately 1 inch of water falling in 1 hour.",
       "page_or_section": "Introduction, Page 16"
@@ -112,14 +107,55 @@
       "field": "design_criteria.approved_bmp_categories",
       "excerpt": "4.1 Hydrologic Source Control ... 4.2 Pollutant Source Control ... 4.3 Stormwater Collection and Conveyance ... 4.4 Stormwater Treatment ... 4.5 Temporary BMPs for Construction",
       "page_or_section": "Chapter 4: BMP Toolkit Table of Contents"
+    },
+    {
+      "field": "design_parameters.wqv_depth_inches",
+      "excerpt": "the 20-yr/1-hr rainfall event, approximately 1 inch of water falling in 1 hour",
+      "page_or_section": "Introduction, page 15 (tahoe-trpa-bmp-c0050)"
+    },
+    {
+      "field": "design_parameters.wqv_depth_inches",
+      "excerpt": "For a small site this will be based on the 20-yr/1-hr storm.",
+      "page_or_section": "CHAPTER 2 Site Analysis, page 2-25 (tahoe-trpa-bmp-c0126)"
+    },
+    {
+      "field": "design_parameters.shwt_separation_inches",
+      "excerpt": "The bottom of infiltration trenches or drywells shall be a minimum of one foot above the seasonal high water table.",
+      "page_or_section": "CHAPTER 2 Site Analysis, page 2-3 / Code 60.4.6.A.1 (tahoe-trpa-bmp-c0106)"
+    },
+    {
+      "field": "design_parameters.shwt_separation_inches",
+      "excerpt": "Depth to seasonal high groundwater, bedrock, or a restrictive layer shall be at least 1 foot below the bottom of the trench.",
+      "page_or_section": "4.1-c Infiltration Trench, page 19 (tahoe-trpa-bmp-c0169)"
+    },
+    {
+      "field": "practice_mentions.permeable_pavement",
+      "excerpt": "depth to seasonal high groundwater, bedrock, or any impermeable layer is at least 3 feet below the underlying base course",
+      "page_or_section": "4.1-a Pervious Pavement DESIGN CONSIDERATIONS (tahoe-trpa-bmp-c0157)"
+    },
+    {
+      "field": "practice_mentions.bioretention",
+      "excerpt": "Alternative Names: Small Vegetated Basin, Infiltration Garden, Bio-Retention Garden",
+      "page_or_section": "4.1-f Rain Garden, page 37 (tahoe-trpa-bmp-c0180)"
+    },
+    {
+      "field": "practice_mentions.extended_detention",
+      "excerpt": "Alternative Names: Dry Pond, Extended Detention Basin, Detention Basin, Sediment Basin",
+      "page_or_section": "4.4-c Dry Basin, page 17 (tahoe-trpa-bmp-c0317)"
+    },
+    {
+      "field": "design_parameters.fields_not_found.design_infiltration_rate_in_per_hr",
+      "excerpt": "Not appropriate for soils with infiltration rates less than 1\"/hr",
+      "page_or_section": "4.1-b Infiltration Basin / 4.1-f Rain Garden (threshold only, not design rate)"
     }
   ],
   "extraction_quality": {
     "confidence": "high",
-    "needs_human_review": false,
-    "review_notes": "Bi-state Lake Tahoe Region (CA/NV) TRPA BMP Handbook. state_code CA used for atlas mapping; jurisdiction spans both California and Nevada shorelines. Large combined PDF (736 pages); prepared text truncated at 750k chars. Individual chapters on tahoebmp.org may be newer (e.g., Ch5 Dec 2024) than the bundled complete PDF (May 2014).",
+    "needs_human_review": true,
+    "review_notes": "Bi-state Lake Tahoe Region (CA/NV) TRPA BMP Handbook. state_code CA used for atlas mapping; jurisdiction spans both California and Nevada shorelines. Large combined PDF (736 pages); prepared text truncated at 750k chars. Individual chapters on tahoebmp.org may be newer (e.g., Ch5 Dec 2024) than the bundled complete PDF (May 2014). Pipeline excerpt repair removed 1 unlocated citation(s).",
     "fields_not_found": [
-      "document_metadata.last_revised_date"
+      "document_metadata.last_revised_date",
+      "document_metadata.version_or_edition"
     ]
   },
   "source": {
@@ -127,5 +163,51 @@
     "landing_page_url": "https://tahoebmp.org/bmphandbook.aspx",
     "retrieved_at": "2026-08-12T22:44:57.055Z",
     "original_filename": "tmp-tahoe-trpa-bmp.json"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": 1,
+    "max_drawdown_hours": null,
+    "shwt_separation_inches": 12,
+    "bioretention_media_depth_min_inches": null,
+    "bioretention_ponding_depth_inches": null,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": null,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": null,
+    "length_to_width_ratio": null,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "bioretention",
+      "extended_detention",
+      "infiltration_basin",
+      "infiltration_trench",
+      "permeable_pavement",
+      "swale"
+    ],
+    "enriched_at": "2026-08-13T10:18:25.406Z",
+    "enrich_model": "composer-2.5:run-9b858480-071e-4e43-98b6-c3f48a26705e",
+    "enrich_notes": "Parcel BMP sizing uses 20-yr/1-hr storm (~1 in in 1 hr), not a separate WQv label. Infiltration BMPs cite Ksat slow below 1 in/hr and CHP/percolation for site design; no single handbook design infiltration rate. SHWT: 1 ft minimum below bottom of infiltration trenches or drywells (TRPA Code 60.4.6.A.1). Vegetated swales for site slopes ≤5%; not extracted as swale longitudinal slope design value.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "max_drawdown_hours",
+      "bioretention_media_depth_min_inches",
+      "bioretention_ponding_depth_inches",
+      "permeable_pavement_storage_depth_inches",
+      "design_infiltration_rate_in_per_hr",
+      "permanent_pool_depth_inches",
+      "ed_drain_time_hours",
+      "length_to_width_ratio",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "swale_longitudinal_slope_percent",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

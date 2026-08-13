@@ -1,0 +1,139 @@
+{
+  "version": 1,
+  "practice_key": "bioretention",
+  "practice_label": "Bioretention",
+  "generated_at": "2026-08-13T10:39:39.246Z",
+  "model": "composer-2.5:run-cc3a30a1-46d8-4733-8e1d-6e0c89588f1a",
+  "editorial_status": "draft",
+  "national_baseline": "Among Tier A manuals that mention bioretention, facility-oriented numeric guidance is partial but recurring. Minimum bioretention media depth is the best-populated practice-specific parameter (n=21): mode and median both sit at 24 inches, with reported minima spanning 12–48 inches. Surface ponding depth is less frequently specified (n=15); where stated, mode and median are 12 inches, with a reported span of 3–24 inches. Design infiltration rates for sizing appear in 20 manuals, clustering at 0.5 in/hr (mode and median), though extracted values range from 0.01 to 2.41 in/hr. Separately, many jurisdictions publish site-wide water-quality volume depth (n=30, mode 1 inch, median 1 inch, range 0.37–1.61 inches), maximum drawdown time (n=36, mode 72 hours, median 48 hours, range 4–120 hours), and seasonal high water table separation (n=36, mode 24 inches, median 36 inches, range 12–120 inches); these figures describe broader stormwater sizing and siting context rather than bioretention cell cross-sections alone. For temperate, Type II–ish design discussions, a workable synthesis anchor is 24 inches minimum filter media, about 12 inches allowable ponding where manuals give a ponding cap, and 0.5 in/hr as the most common stated design infiltration rate—always overlaid on local WQv, drawdown, and SHWT requirements where the matrix provides them.",
+  "regional_modifiers": [
+    {
+      "id": "cold_climate",
+      "title": "Cold climate and freeze–thaw",
+      "text": "Northern and mountain Tier A sources often pair 24–48 hour drawdown expectations with SHWT separations of 12–36 inches and media minima of 18–30 inches (e.g., Maine 18-inch media and 12-inch SHWT; Minnesota 30-inch media and 36-inch SHWT; Montana 18-inch media with 12- or 36-inch SHWT; Vermont 24-inch media and 36-inch SHWT). Pacific Northwest entries include Oregon 12-inch minimum media with 30-hour drawdown and 60-inch SHWT separation, and Washington western 18-inch media with 48-hour drawdown and 60-inch SHWT. Cold-climate committees should treat drawdown and SHWT as jurisdiction-specific overlays rather than a single national bioretention facility standard.",
+      "states": [
+        "ME",
+        "MN",
+        "MT",
+        "VT",
+        "OR",
+        "WA"
+      ],
+      "citation_slugs": [
+        "maine-manual",
+        "mn-state-2008",
+        "billings-mt",
+        "mt-deq8",
+        "vt-state",
+        "portland-or",
+        "wa-state-western"
+      ]
+    },
+    {
+      "id": "coastal_high_wt",
+      "title": "Coastal plains and high seasonal water table",
+      "text": "Where manuals emphasize shallow groundwater or coastal constraints, SHWT separation values in the matrix drop to 12 inches (Virginia Chesapeake, Maine, Montana DEQ-8, New Jersey chapter proxy, North Carolina Raleigh) or rise to 48 inches (Maryland state, Texas Houston, Ohio rainwater). Drawdown times of 24–48 hours appear frequently in Mid-Atlantic and Gulf-adjacent listings. Facility ponding caps of 6–12 inches show up in several of these manuals. Design infiltration rates still often cite 0.5 in/hr, but siting separation dominates the numeric spread (12–120 inches across all Tier A extractions).",
+      "states": [
+        "VA",
+        "ME",
+        "MT",
+        "NJ",
+        "NC",
+        "MD",
+        "TX",
+        "OH",
+        "AL",
+        "RI",
+        "HI"
+      ],
+      "citation_slugs": [
+        "chesapeake-va",
+        "maine-manual",
+        "mt-deq8",
+        "nj-state",
+        "raleigh-nc",
+        "md-state",
+        "houston-tx",
+        "ohio-rainwater",
+        "alabama-handbook",
+        "ri-state",
+        "hawaii-dot-pcbmp"
+      ]
+    },
+    {
+      "id": "arid_semiarid",
+      "title": "Arid and semi-arid Southwest",
+      "text": "Southwest Tier A values illustrate wide spread on site-wide WQv depth (Nevada Las Vegas 0.37 inches; Arizona Flagstaff 1 inch; Texas Dallas 1.5 inches) and drawdown (Arizona Flagstaff 24 hours; Nevada Las Vegas 72 hours; New Mexico Albuquerque 96 hours). Stated design infiltration rates include 0.1 in/hr (Albuquerque GSI) versus 0.5 in/hr in several Texas and inland western entries. SHWT separation is commonly 24–36 inches where extracted. Bioretention-specific media and ponding depths are sparsely populated in these rows relative to eastern manuals; arid design discussions should not assume eastern 24-inch media / 12-inch ponding defaults without checking local Tier A text.",
+      "states": [
+        "NV",
+        "AZ",
+        "TX",
+        "NM",
+        "CO"
+      ],
+      "citation_slugs": [
+        "las-vegas-nv",
+        "flagstaff-az",
+        "dallas-tx",
+        "albuquerque-nm-gsi",
+        "denver-co",
+        "houston-tx"
+      ]
+    },
+    {
+      "id": "karst_sensitive",
+      "title": "Karst and fractured-bedrock caution",
+      "text": "The matrix contains limited karst-specific bioretention numerics. Texas Edwards RG-348 lists 48-inch SHWT separation alongside other Gulf/Southcentral siting values. Most other manuals do not isolate karst in extracted bioretention fields. Where karst applies, committees should treat SHWT separation and infiltration design rate (matrix range 0.01–2.41 in/hr for stated design rates) as site-verified inputs rather than inferring a national karst bioretention baseline from this Tier A pool.",
+      "states": [
+        "TX"
+      ],
+      "citation_slugs": [
+        "tx-edwards-rg348"
+      ]
+    }
+  ],
+  "open_issues": "Bioretention ponding depth (n=15, 45 missing among mentioning manuals) and minimum media depth (n=21, 38 missing) lack numeric consensus strong enough to call a national facility standard; site-wide WQv depth, drawdown, and SHWT are better populated but are jurisdiction sizing context, not uniform cell specs. Design infiltration rate extractions span three orders of magnitude at the low end (0.01–0.0208 in/hr vs. 0.5 in/hr mode), suggesting mixed definitions (native soil, amended media, conservative defaults) that the matrix does not disaggregate. Florida FSESCI Tier 1 reports 4-hour max drawdown as an outlier within the 4–120 hour site-wide range. San Diego’s 120-inch SHWT separation and Philadelphia’s 3-inch ponding depth illustrate tail values that resist a single temperate default. No Tier A numeric field in this extract set defines underdrain, overflow, or pretreatment as universal bioretention requirements.",
+  "matrix_summary": "For bioretention in Tier A manuals (60 of 76 mention the practice), practice-specific numerics are led by minimum media depth (n=21, mode 24 in, median 24 in, range 12–48 in) and design infiltration rate (n=20, mode 0.5 in/hr, median 0.5 in/hr, range 0.01–2.41 in/hr), while ponding depth remains thinly reported (n=15, mode 12 in, median 12 in, range 3–24 in). Site-wide WQv depth (n=30, mode 1 in), max drawdown hours (n=36, mode 72 h, median 48 h, range 4–120 h), and SHWT separation (n=36, mode 24 in, median 36 in, range 12–120 in) describe broader jurisdictional stormwater context; modes and ranges reflect extracted manual values, not an adopted national standard.",
+  "supporting_slugs": [
+    "ak-state",
+    "alabama-handbook",
+    "albuquerque-nm-gsi",
+    "arkansas-manual",
+    "austin-tx-ecm",
+    "bellevue-wa",
+    "billings-mt",
+    "boise-id",
+    "boston-ma",
+    "ca-caltrans-construction",
+    "ca-casqa-municipal",
+    "chesapeake-va",
+    "chicago-il",
+    "columbus-oh",
+    "ct-state",
+    "dallas-tx",
+    "dc-guidebook",
+    "denver-co",
+    "detroit-mi",
+    "flagstaff-az",
+    "ga-state",
+    "hawaii-dot-pcbmp",
+    "houston-tx",
+    "ia-state-ch1",
+    "idaho-bmp-catalog",
+    "indiana-manual",
+    "kansas-city-marc-bmp",
+    "kentucky-bmp",
+    "los-angeles-ca",
+    "ma-state-draft",
+    "maine-manual",
+    "md-state",
+    "michigan-manual",
+    "minneapolis-mn",
+    "missouri-manual",
+    "mn-state-2008",
+    "ms-state-vol2",
+    "mt-deq8",
+    "nc-state",
+    "ne-ndot-stf"
+  ]
+}

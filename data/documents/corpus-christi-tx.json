@@ -82,6 +82,66 @@
       "field": "design_criteria.approved_bmp_categories",
       "excerpt": "Detention Basin Design / Stormwater Retention",
       "page_or_section": "Chapter 7"
+    },
+    {
+      "field": "design_parameters.wqv_depth_inches",
+      "excerpt": "the water quality control volume (WQCV) that is recommended for control is the first half inch (0.5 inches) of runoff from the basin tributary to the BMP",
+      "page_or_section": "Chapter 11 – 11.4.3 Water Quality Control Volume; page 178"
+    },
+    {
+      "field": "design_parameters.wqv_depth_inches",
+      "excerpt": "The water quality control volume shall be detained over at least a 24-hour period, and preferably for longer.",
+      "page_or_section": "Chapter 11 – 11.4.3; page 178"
+    },
+    {
+      "field": "design_parameters.shwt_separation_inches",
+      "excerpt": "A minimum of 3 feet between the bottom of the infiltration trench and the groundwater table is recommended.",
+      "page_or_section": "Chapter 11 – 11.4.4.7 Infiltration Trenches; page 205"
+    },
+    {
+      "field": "design_parameters.shwt_separation_inches",
+      "excerpt": "Minimum of 3 feet between stone reservoir level and seasonally high-water table.",
+      "page_or_section": "Chapter 11 – 11.4.4.8 Porous Pavement; page 210"
+    },
+    {
+      "field": "design_parameters.ed_drain_time_hours",
+      "excerpt": "A 40-hour drain time for the WQCV is recommended to remove a significant portion of fine particulates and provide stream bank erosion control.",
+      "page_or_section": "Chapter 11 – 11.4.4.1 Extended Dry Detention Basins; page 179"
+    },
+    {
+      "field": "practice_mentions.extended_detention",
+      "excerpt": "Extended dry detention (EDD) basins are designed to completely empty at some time after storm water runoff ends.",
+      "page_or_section": "Chapter 11 – 11.4.4.1; page 179"
+    },
+    {
+      "field": "practice_mentions.sand_filter",
+      "excerpt": "Final sand bed depth shall be at least 18 inches.",
+      "page_or_section": "Chapter 11 – 11.4.4.6 Sand Filters; page 201"
+    },
+    {
+      "field": "practice_mentions.infiltration_trench",
+      "excerpt": "The soil infiltration rate shall be between 0.5 and 2.4 inches per hour.",
+      "page_or_section": "Chapter 11 – 11.4.4.7; page 205"
+    },
+    {
+      "field": "practice_mentions.permeable_pavement",
+      "excerpt": "Stone reservoir shall be designed to completely drain within a maximum of 2 to 3 days after design storm event",
+      "page_or_section": "Chapter 11 – 11.4.4.8; page 210"
+    },
+    {
+      "field": "practice_mentions.constructed_wetland",
+      "excerpt": "The detention facility shall have at least a 24 hour drain period for the design storm.",
+      "page_or_section": "Chapter 11 – 11.4.4.3 Constructed Wetlands; page 187"
+    },
+    {
+      "field": "practice_mentions.bioretention",
+      "excerpt": "Installation of Rain Gardens & Bioretention Areas",
+      "page_or_section": "Chapter 11 – nonstructural BMP list; page 177"
+    },
+    {
+      "field": "practice_mentions.swale",
+      "excerpt": "5-year design storm must be contained in roadside swales",
+      "page_or_section": "Chapter 2 – 2.7.1 Streets and Roadways; page 17"
     }
   ],
   "extraction_quality": {
@@ -98,5 +158,53 @@
     "landing_page_url": "https://www.corpuschristitx.gov/department-directory/engineering-services/infrastructure-design-manual/",
     "retrieved_at": "2026-08-10T08:08:51.648Z",
     "original_filename": "corpus-christi-tx.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": 0.5,
+    "max_drawdown_hours": null,
+    "shwt_separation_inches": 36,
+    "bioretention_media_depth_min_inches": null,
+    "bioretention_ponding_depth_inches": null,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": null,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": 40,
+    "length_to_width_ratio": null,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "bioretention",
+      "constructed_wetland",
+      "extended_detention",
+      "infiltration_trench",
+      "manufactured_treatment",
+      "permeable_pavement",
+      "sand_filter",
+      "swale",
+      "wet_pond"
+    ],
+    "enriched_at": "2026-08-13T07:59:34.197Z",
+    "enrich_model": "composer-2.5:run-2dc6dbd9-b558-4fa8-b180-95a2cfb717e7",
+    "enrich_notes": "WQCV is defined as the first 0.5 inch of tributary runoff (Chapter 11.4.3), with minimum 24-hour detention of that volume. Extended dry detention recommends 40-hour WQCV drain time. Infiltration trenches and porous pavement both recommend 3 ft minimum separation from groundwater/seasonal high water table. Porous pavement reservoir drain is stated as 2–3 days maximum (not a single hour value). Sand filters require at least 18 inches sand bed depth. Infiltration trench soil infiltration suitability range is 0.5–2.4 in/hr; porous pavement requires soil rate >0.27 in/hr and design rate at half of measured rate (no single numeric design rate).",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "max_drawdown_hours",
+      "bioretention_media_depth_min_inches",
+      "bioretention_ponding_depth_inches",
+      "permeable_pavement_storage_depth_inches",
+      "design_infiltration_rate_in_per_hr",
+      "permanent_pool_depth_inches",
+      "length_to_width_ratio",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "swale_longitudinal_slope_percent",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

@@ -61,6 +61,31 @@
       "field": "document_metadata.relationship_to_state_manual",
       "excerpt": "independent city drainage design standards",
       "page_or_section": "Coverage note"
+    },
+    {
+      "field": "practice_mentions.extended_detention",
+      "excerpt": "Section 9 Stormwater Detention 9-1 ... 9.3 Minimum Requirements for Detention Basin Design",
+      "page_or_section": "Table of Contents / Section 9"
+    },
+    {
+      "field": "practice_mentions.permeable_pavement",
+      "excerpt": "Examples of green infrastructure ... permeable pavement, green roofs, bioswales/stormwater parks",
+      "page_or_section": "Section 11.2 Green Infrastructure Types, page 317"
+    },
+    {
+      "field": "practice_mentions.green_roof",
+      "excerpt": "Examples of green infrastructure ... permeable pavement, green roofs, bioswales/stormwater parks",
+      "page_or_section": "Section 11.2 Green Infrastructure Types, page 317"
+    },
+    {
+      "field": "practice_mentions.swale",
+      "excerpt": "Inlets can be placed in roadside ditches, grass or lined swales, parking or pavement area depressions",
+      "page_or_section": "Section 4.4 Inlet Placement, page 78"
+    },
+    {
+      "field": "practice_mentions.bioretention",
+      "excerpt": "rain gardens/bioretention, cisterns and rainfall harvesting devices, subsurface infiltration",
+      "page_or_section": "Section 11.2 Green Infrastructure Types, page 317"
     }
   ],
   "extraction_quality": {
@@ -76,5 +101,52 @@
     "landing_page_url": "https://www.shreveportla.gov/2774/Engineering",
     "retrieved_at": "2026-08-10T09:45:18.880Z",
     "original_filename": "shreveport-la.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": null,
+    "max_drawdown_hours": null,
+    "shwt_separation_inches": null,
+    "bioretention_media_depth_min_inches": null,
+    "bioretention_ponding_depth_inches": null,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": null,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": null,
+    "length_to_width_ratio": null,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "bioretention",
+      "extended_detention",
+      "green_roof",
+      "permeable_pavement",
+      "swale"
+    ],
+    "enriched_at": "2026-08-13T10:10:21.747Z",
+    "enrich_model": "composer-2.5:run-871e7d38-d391-4f9a-8c31-745039cfd27f",
+    "enrich_notes": "Provided excerpts include Section 9 stormwater detention (TOC and section titles only; no numeric basin criteria in corpus). Section 11 Green Infrastructure lists example GI types (permeable pavement, green roofs, bioswales, rain gardens/bioretention, subsurface infiltration) with EPA descriptive text but no local numeric design parameters. Hydrology excerpt limits Rational Method to sites 200 acres or less. Atlas context indicates WQ/control via detention peak-matching for 10-, 25-, and 100-year storms rather than a stated WQv rainfall depth; Table 2-1 frequencies are not included in corpus excerpts.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "wqv_depth_inches",
+      "max_drawdown_hours",
+      "shwt_separation_inches",
+      "bioretention_media_depth_min_inches",
+      "bioretention_ponding_depth_inches",
+      "permeable_pavement_storage_depth_inches",
+      "design_infiltration_rate_in_per_hr",
+      "permanent_pool_depth_inches",
+      "ed_drain_time_hours",
+      "length_to_width_ratio",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "swale_longitudinal_slope_percent",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

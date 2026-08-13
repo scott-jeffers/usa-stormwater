@@ -83,6 +83,31 @@
       "field": "design_criteria.approved_bmp_categories",
       "excerpt": "Retention basins / Detention Basin Requirements",
       "page_or_section": "Standards 6.10.x"
+    },
+    {
+      "field": "design_parameters.wqv_depth_inches",
+      "excerpt": "The first flush is defined as the first one-half (1/2) inch of direct runoff from the contributing drainage basin.",
+      "page_or_section": "Glossary, page 151"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "Analysis confirming basin draining within 36 hours of the end of the design precipitation event is required.",
+      "page_or_section": "6.14.3 Additional Report Requirements, page 131"
+    },
+    {
+      "field": "practice_mentions.swale",
+      "excerpt": "Interceptor channels (and other low impact development techniques, such as: bioswales, microbasins) may be required/needed",
+      "page_or_section": "page 140"
+    },
+    {
+      "field": "practice_mentions.permeable_pavement",
+      "excerpt": "Section 323 allows for the use of pervious concrete. Per Section 323 pervious concrete \"is usually part of a water management system used to reduce runoff rates and volumes\"",
+      "page_or_section": "Summary of Changes 6th Edition Draft, Section 2.7.4, page 195"
+    },
+    {
+      "field": "practice_mentions.infiltration_basin",
+      "excerpt": "SECTION 6: RETENTION BASINS ... Have stormwater storage and first flush requirements been met?",
+      "page_or_section": "Checklist 1, page 157"
     }
   ],
   "extraction_quality": {
@@ -99,5 +124,48 @@
     "landing_page_url": "https://www.esd.maricopa.gov/",
     "retrieved_at": "2026-08-10T08:24:40.117Z",
     "original_filename": "maricopa-county-az.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": 0.5,
+    "max_drawdown_hours": 36,
+    "shwt_separation_inches": null,
+    "bioretention_media_depth_min_inches": null,
+    "bioretention_ponding_depth_inches": null,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": null,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": null,
+    "length_to_width_ratio": null,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "infiltration_basin",
+      "permeable_pavement",
+      "swale"
+    ],
+    "enriched_at": "2026-08-13T09:04:46.625Z",
+    "enrich_model": "composer-2.5:run-608b9b73-87f4-47c6-9606-0ef8f91719c5",
+    "enrich_notes": "First flush WQ volume is 0.5 in direct runoff (glossary; aligns with Policy 3.6.6 in atlas). Retention/storage reports must show basin draining within 36 h after the design precipitation event (6.14.3). Minimum design storm for new development retention is 100-year, 2-hour per Standard 6.10.2 (atlas); rainfall depth not in excerpts. Appendix E/F and Standards 6.10.x (drain time, permeability, drywells) referenced in revision history but numeric SCM criteria largely absent from provided pages.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "shwt_separation_inches",
+      "bioretention_media_depth_min_inches",
+      "bioretention_ponding_depth_inches",
+      "permeable_pavement_storage_depth_inches",
+      "design_infiltration_rate_in_per_hr",
+      "permanent_pool_depth_inches",
+      "ed_drain_time_hours",
+      "length_to_width_ratio",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "swale_longitudinal_slope_percent",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

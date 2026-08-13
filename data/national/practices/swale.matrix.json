@@ -1,0 +1,3233 @@
+{
+  "version": 1,
+  "practice_key": "swale",
+  "practice_label": "Vegetated Swale",
+  "generated_at": "2026-08-13T10:43:42.726Z",
+  "tier_a_only": true,
+  "manuals_with_practice": 70,
+  "manuals_scanned": 76,
+  "numeric_fields": [
+    {
+      "field": "wqv_depth_inches",
+      "label": "Site water-quality depth (not practice-specific)",
+      "unit": "inches",
+      "values": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        0.5,
+        1.25,
+        1,
+        1.61,
+        0.37,
+        1.3,
+        1.5,
+        1.2,
+        1,
+        1,
+        1,
+        1,
+        1.37,
+        0.5,
+        1,
+        1.2,
+        1,
+        0.75,
+        1.2,
+        1.5,
+        1,
+        1,
+        0.6,
+        1,
+        1
+      ],
+      "min": 0.37,
+      "max": 1.61,
+      "mode": 1,
+      "median": 1,
+      "count": 30,
+      "missing_count": 45,
+      "cells": [
+        {
+          "slug": "alabama-handbook",
+          "state_code": "AL",
+          "jurisdiction_name": "Alabama",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "ak-state",
+          "state_code": "AK",
+          "jurisdiction_name": "Alaska",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "albuquerque-nm-gsi",
+          "state_code": "NM",
+          "jurisdiction_name": "Bernalillo County",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "boston-ma",
+          "state_code": "MA",
+          "jurisdiction_name": "Boston Water and Sewer Commission",
+          "value": 1,
+          "chapter_proxy": false,
+          "excerpt": "A volume of runoff equal to one inch of rainfall multiplied by the total impervious area on site must be infiltrated prior to discharge"
+        },
+        {
+          "slug": "ca-casqa-municipal",
+          "state_code": "CA",
+          "jurisdiction_name": "California",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "ca-caltrans-construction",
+          "state_code": "CA",
+          "jurisdiction_name": "California Department of Transportation (Caltrans)",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "charlotte-nc",
+          "state_code": "NC",
+          "jurisdiction_name": "Charlotte-Mecklenburg",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "austin-tx-ecm",
+          "state_code": "TX",
+          "jurisdiction_name": "City of Austin",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "baltimore-md",
+          "state_code": "MD",
+          "jurisdiction_name": "City of Baltimore",
+          "value": 1,
+          "chapter_proxy": false,
+          "excerpt": "New development Treatment of 1.0 inch"
+        },
+        {
+          "slug": "bellevue-wa",
+          "state_code": "WA",
+          "jurisdiction_name": "City of Bellevue",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "boise-id",
+          "state_code": "ID",
+          "jurisdiction_name": "City of Boise",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "chesapeake-va",
+          "state_code": "VA",
+          "jurisdiction_name": "City of Chesapeake",
+          "value": 1,
+          "chapter_proxy": false,
+          "excerpt": "Removal of TP by Runoff Reduction (RR, as %) (based upon 1 inch of rainfall)"
+        },
+        {
+          "slug": "chicago-il",
+          "state_code": "IL",
+          "jurisdiction_name": "City of Chicago",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "columbus-oh",
+          "state_code": "OH",
+          "jurisdiction_name": "City of Columbus",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "detroit-mi",
+          "state_code": "MI",
+          "jurisdiction_name": "City of Detroit",
+          "value": 1,
+          "chapter_proxy": false,
+          "excerpt": "Retention volume based on 1 inch of rainfall on the Regulated Area"
+        },
+        {
+          "slug": "flagstaff-az",
+          "state_code": "AZ",
+          "jurisdiction_name": "City of Flagstaff",
+          "value": 1,
+          "chapter_proxy": false,
+          "excerpt": "Low Impact Development Runoff Capture Volume (ROCV): Impervious Surface Area (sq ft) × 1 inch = ROCV."
+        },
+        {
+          "slug": "houston-tx",
+          "state_code": "TX",
+          "jurisdiction_name": "City of Houston",
+          "value": 0.5,
+          "chapter_proxy": false,
+          "excerpt": "permanent stormwater quality BMPs for new development and significant redevelopment must treat the first 1/2 inch of runoff"
+        },
+        {
+          "slug": "lawrence-ks",
+          "state_code": "KS",
+          "jurisdiction_name": "City of Lawrence",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "miami-fl",
+          "state_code": "FL",
+          "jurisdiction_name": "City of Miami / Miami-Dade (SFWMD criteria)",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "minneapolis-mn",
+          "state_code": "MN",
+          "jurisdiction_name": "City of Minneapolis",
+          "value": 1.25,
+          "chapter_proxy": false,
+          "excerpt": "Water quality: Seventy percent (70%) removal of total suspended solids (TSS) from a 1.25-inch storm event."
+        },
+        {
+          "slug": "norfolk-va",
+          "state_code": "VA",
+          "jurisdiction_name": "City of Norfolk",
+          "value": 1,
+          "chapter_proxy": false,
+          "excerpt": "the following elevations for each BMP shall be provided: (i) water quality (1-inch) storm event; (ii) 1-, 2-, and 10-year 24-hour storm events (NOAA Atlas 14)"
+        },
+        {
+          "slug": "portland-or",
+          "state_code": "OR",
+          "jurisdiction_name": "City of Portland",
+          "value": 1.61,
+          "chapter_proxy": false,
+          "excerpt": "70% removal of total suspended solids (TSS) is required from the runoff from 90% of the average annual rainfall (1.61 inches over 24 hours"
+        },
+        {
+          "slug": "raleigh-nc",
+          "state_code": "NC",
+          "jurisdiction_name": "City of Raleigh",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "san-antonio-tx",
+          "state_code": "TX",
+          "jurisdiction_name": "City of San Antonio",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "san-diego-ca",
+          "state_code": "CA",
+          "jurisdiction_name": "City of San Diego",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "san-francisco-ca",
+          "state_code": "CA",
+          "jurisdiction_name": "City of San Francisco",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "seattle-wa",
+          "state_code": "WA",
+          "jurisdiction_name": "City of Seattle",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "tucson-az",
+          "state_code": "AZ",
+          "jurisdiction_name": "City of Tucson",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "las-vegas-nv",
+          "state_code": "NV",
+          "jurisdiction_name": "Clark County Regional Flood Control District",
+          "value": 0.37,
+          "chapter_proxy": false,
+          "excerpt": "The MOP uses 0.37 inches for the Las Vegas Valley for the average rain fall depth"
+        },
+        {
+          "slug": "ct-state",
+          "state_code": "CT",
+          "jurisdiction_name": "Connecticut",
+          "value": 1.3,
+          "chapter_proxy": false,
+          "excerpt": "P = 1.3 inches (90th percentile rainfall event)"
+        },
+        {
+          "slug": "los-angeles-ca",
+          "state_code": "CA",
+          "jurisdiction_name": "County of Los Angeles",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "dallas-tx",
+          "state_code": "TX",
+          "jurisdiction_name": "Dallas / North Central Texas (iSWM)",
+          "value": 1.5,
+          "chapter_proxy": false,
+          "excerpt": "The Water Quality Protection Volume (WQv) is the runoff from the first 1.5 inches of rainfall."
+        },
+        {
+          "slug": "de-wet-ponds-draft",
+          "state_code": "DE",
+          "jurisdiction_name": "Delaware",
+          "value": null,
+          "chapter_proxy": true,
+          "excerpt": null
+        },
+        {
+          "slug": "dc-guidebook",
+          "state_code": "DC",
+          "jurisdiction_name": "District of Columbia",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "fl-fsesci-tier1",
+          "state_code": "FL",
+          "jurisdiction_name": "Florida",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "ga-state",
+          "state_code": "GA",
+          "jurisdiction_name": "Georgia",
+          "value": 1.2,
+          "chapter_proxy": false,
+          "excerpt": "the water quality volume (WQv), which is equal to the runoff generated on a site from 1.2 inches of rainfall"
+        },
+        {
+          "slug": "idaho-bmp-catalog",
+          "state_code": "ID",
+          "jurisdiction_name": "Idaho",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "indiana-manual",
+          "state_code": "IN",
+          "jurisdiction_name": "Indiana",
+          "value": 1,
+          "chapter_proxy": false,
+          "excerpt": "Water Quality Volume (WQV). The volume of runoff generated by one inch of rainfall on a site."
+        },
+        {
+          "slug": "ia-state-ch1",
+          "state_code": "IA",
+          "jurisdiction_name": "Iowa",
+          "value": 1.25,
+          "chapter_proxy": true,
+          "excerpt": "The design rainfall event that is recommended for computing the WQv is 1.25 inches and is equal to the 90% cumulative frequency rainfall depth for the area."
+        },
+        {
+          "slug": "kentucky-bmp",
+          "state_code": "KY",
+          "jurisdiction_name": "Kentucky",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "maine-manual",
+          "state_code": "ME",
+          "jurisdiction_name": "Maine",
+          "value": 1,
+          "chapter_proxy": false,
+          "excerpt": "An underdrained soil filter must detain and filter a runoff volume equal to 1.0 inch times the subcatchment's impervious area plus 0.4 inch times the subcatchment's landscaped developed area."
+        },
+        {
+          "slug": "md-state",
+          "state_code": "MD",
+          "jurisdiction_name": "Maryland",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "ma-state-draft",
+          "state_code": "MA",
+          "jurisdiction_name": "Massachusetts",
+          "value": 1,
+          "chapter_proxy": false,
+          "excerpt": "Required WQv is at least 1.0 inch times the total impervious area of the post-development site."
+        },
+        {
+          "slug": "nashville-tn-vol4",
+          "state_code": "TN",
+          "jurisdiction_name": "Metropolitan Nashville and Davidson County",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "michigan-manual",
+          "state_code": "MI",
+          "jurisdiction_name": "Michigan",
+          "value": 1,
+          "chapter_proxy": false,
+          "excerpt": "A conservative alternative is treatment of 1.0 inches of runoff over the entire site."
+        },
+        {
+          "slug": "kansas-city-marc-bmp",
+          "state_code": "MO",
+          "jurisdiction_name": "Mid-America Regional Council / Kansas City Metro APWA",
+          "value": 1.37,
+          "chapter_proxy": false,
+          "excerpt": "In the greater Kansas City Metropolitian area, the Water Quality Storm is the 1.37' rain event."
+        },
+        {
+          "slug": "mn-state-2008",
+          "state_code": "MN",
+          "jurisdiction_name": "Minnesota",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "ms-state-vol2",
+          "state_code": "MS",
+          "jurisdiction_name": "Mississippi",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "missouri-manual",
+          "state_code": "MO",
+          "jurisdiction_name": "Missouri",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "billings-mt",
+          "state_code": "MT",
+          "jurisdiction_name": "Montana",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "mt-deq8",
+          "state_code": "MT",
+          "jurisdiction_name": "Montana",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "ne-ndot-stf",
+          "state_code": "NE",
+          "jurisdiction_name": "Nebraska Department of Transportation (NDOT)",
+          "value": 0.5,
+          "chapter_proxy": false,
+          "excerpt": "The NDOT has determined that the WQV is the first one-half (½) inch of runoff from the Treatment Drainage Area"
+        },
+        {
+          "slug": "nh-state",
+          "state_code": "NH",
+          "jurisdiction_name": "New Hampshire",
+          "value": 1,
+          "chapter_proxy": false,
+          "excerpt": "P = 1 inch of rainfall"
+        },
+        {
+          "slug": "nj-state",
+          "state_code": "NJ",
+          "jurisdiction_name": "New Jersey Department of Environmental Protection (NJDEP)",
+          "value": null,
+          "chapter_proxy": true,
+          "excerpt": null
+        },
+        {
+          "slug": "ny-bluebook",
+          "state_code": "NY",
+          "jurisdiction_name": "New York State",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "ny-state",
+          "state_code": "NY",
+          "jurisdiction_name": "New York State",
+          "value": 1.2,
+          "chapter_proxy": false,
+          "excerpt": "90th percentile rainfall 1.20 inches (Section 4.2)"
+        },
+        {
+          "slug": "nc-state",
+          "state_code": "NC",
+          "jurisdiction_name": "North Carolina Department of Environmental Quality (NCDEQ)",
+          "value": 1,
+          "chapter_proxy": false,
+          "excerpt": "Rule 15A NCAC 02H .1021(6) requires that for projects designed to achieve runoff treatment, the required storm depth is one inch for non-coastal HQW and ORW management zones."
+        },
+        {
+          "slug": "arkansas-manual",
+          "state_code": "AR",
+          "jurisdiction_name": "Northwest Arkansas (NWA MS4s)",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "ohio-rainwater",
+          "state_code": "OH",
+          "jurisdiction_name": "Ohio",
+          "value": 0.75,
+          "chapter_proxy": false,
+          "excerpt": "P = 0.75 inch precipitation depth"
+        },
+        {
+          "slug": "oklahoma-odot-ch10",
+          "state_code": "OK",
+          "jurisdiction_name": "Oklahoma Department of Transportation",
+          "value": null,
+          "chapter_proxy": true,
+          "excerpt": null
+        },
+        {
+          "slug": "pa-state",
+          "state_code": "PA",
+          "jurisdiction_name": "Pennsylvania",
+          "value": 1.2,
+          "chapter_proxy": false,
+          "excerpt": "Permanent pool volume should hold the runoff generated by 1.2-inch/2-hour rainfall over the contributing drainage area."
+        },
+        {
+          "slug": "philadelphia-pa",
+          "state_code": "PA",
+          "jurisdiction_name": "Philadelphia",
+          "value": 1.5,
+          "chapter_proxy": false,
+          "excerpt": "The Water Quality requirement stipulates infiltration of the first 1.5 inches of runoff from all directly connected impervious areas (DCIA)"
+        },
+        {
+          "slug": "ri-state",
+          "state_code": "RI",
+          "jurisdiction_name": "Rhode Island",
+          "value": 1,
+          "chapter_proxy": false,
+          "excerpt": "WQv = (1\")(I) / 12 ... use 1.2 inches for the Water Quality Storm that produces 1 inch of runoff from impervious surfaces"
+        },
+        {
+          "slug": "salt-lake-city-ut",
+          "state_code": "UT",
+          "jurisdiction_name": "Salt Lake City",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "south-carolina-manual",
+          "state_code": "SC",
+          "jurisdiction_name": "South Carolina",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "sd-dot-esc",
+          "state_code": "SD",
+          "jurisdiction_name": "South Dakota Department of Transportation (SDDOT)",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "hawaii-dot-pcbmp",
+          "state_code": "HI",
+          "jurisdiction_name": "State of Hawaii Department of Transportation, Highways Division",
+          "value": 1,
+          "chapter_proxy": false,
+          "excerpt": "P = Design Storm Runoff Depth (inches) = 1 inch"
+        },
+        {
+          "slug": "tn-state",
+          "state_code": "TN",
+          "jurisdiction_name": "Tennessee Department of Environment and Conservation",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "tx-edwards-rg348",
+          "state_code": "TX",
+          "jurisdiction_name": "Texas Commission on Environmental Quality",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "denver-co",
+          "state_code": "CO",
+          "jurisdiction_name": "Urban Drainage and Flood Control District (Denver Metro)",
+          "value": 0.6,
+          "chapter_proxy": false,
+          "excerpt": "Within the UDFCD boundary, the WQCV is based on runoff from 0.6 inches of precipitation."
+        },
+        {
+          "slug": "vt-state",
+          "state_code": "VT",
+          "jurisdiction_name": "Vermont",
+          "value": 1,
+          "chapter_proxy": false,
+          "excerpt": "P = 1.0 inch across Vermont"
+        },
+        {
+          "slug": "va-state",
+          "state_code": "VA",
+          "jurisdiction_name": "Virginia Department of Environmental Quality (DEQ)",
+          "value": null,
+          "chapter_proxy": true,
+          "excerpt": null
+        },
+        {
+          "slug": "wa-state-western",
+          "state_code": "WA",
+          "jurisdiction_name": "Washington",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "west-virginia-manual",
+          "state_code": "WV",
+          "jurisdiction_name": "West Virginia",
+          "value": 1,
+          "chapter_proxy": false,
+          "excerpt": "manage on-site runoff from a one-inch rainfall event"
+        },
+        {
+          "slug": "wi-dnr-1001",
+          "state_code": "WI",
+          "jurisdiction_name": "Wisconsin Department of Natural Resources",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "wy-wydot-field",
+          "state_code": "WY",
+          "jurisdiction_name": "Wyoming Department of Transportation (WYDOT)",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        }
+      ]
+    },
+    {
+      "field": "max_drawdown_hours",
+      "label": "Max drawdown / dewatering time",
+      "unit": "hours",
+      "values": [
+        40,
+        96,
+        72,
+        96,
+        48,
+        48,
+        72,
+        72,
+        24,
+        48,
+        30,
+        24,
+        72,
+        48,
+        96,
+        4,
+        72,
+        24,
+        48,
+        24,
+        72,
+        40,
+        48,
+        120,
+        72,
+        72,
+        72,
+        72,
+        72,
+        48,
+        72,
+        48,
+        24,
+        48,
+        48,
+        48
+      ],
+      "min": 4,
+      "max": 120,
+      "mode": 72,
+      "median": 48,
+      "count": 36,
+      "missing_count": 38,
+      "cells": [
+        {
+          "slug": "alabama-handbook",
+          "state_code": "AL",
+          "jurisdiction_name": "Alabama",
+          "value": 40,
+          "chapter_proxy": false,
+          "excerpt": "It is believed that basin drawdown times between 30-40 hours will result in significant pollutant removal."
+        },
+        {
+          "slug": "ak-state",
+          "state_code": "AK",
+          "jurisdiction_name": "Alaska",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "albuquerque-nm-gsi",
+          "state_code": "NM",
+          "jurisdiction_name": "Bernalillo County",
+          "value": 96,
+          "chapter_proxy": false,
+          "excerpt": "Requires permeable soils for infiltration in under 96 hours."
+        },
+        {
+          "slug": "boston-ma",
+          "state_code": "MA",
+          "jurisdiction_name": "Boston Water and Sewer Commission",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "ca-casqa-municipal",
+          "state_code": "CA",
+          "jurisdiction_name": "California",
+          "value": 72,
+          "chapter_proxy": false,
+          "excerpt": "ensure that the basin dewaters completely (recommended 72 hour residence time or less)"
+        },
+        {
+          "slug": "ca-caltrans-construction",
+          "state_code": "CA",
+          "jurisdiction_name": "California Department of Transportation (Caltrans)",
+          "value": 96,
+          "chapter_proxy": false,
+          "excerpt": "The water quality outlet should be designed to drain the basin within 24 to 96 hours (also referred to as drawdown time; the 24-hour limit is specified to provide adequate settling time; the 96-hour limit is specified to avoid vector control concerns)."
+        },
+        {
+          "slug": "charlotte-nc",
+          "state_code": "NC",
+          "jurisdiction_name": "Charlotte-Mecklenburg",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "austin-tx-ecm",
+          "state_code": "TX",
+          "jurisdiction_name": "City of Austin",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "baltimore-md",
+          "state_code": "MD",
+          "jurisdiction_name": "City of Baltimore",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "bellevue-wa",
+          "state_code": "WA",
+          "jurisdiction_name": "City of Bellevue",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "boise-id",
+          "state_code": "ID",
+          "jurisdiction_name": "City of Boise",
+          "value": 48,
+          "chapter_proxy": false,
+          "excerpt": "Infiltration facilities are required to empty within 48 hours following design storm events"
+        },
+        {
+          "slug": "chesapeake-va",
+          "state_code": "VA",
+          "jurisdiction_name": "City of Chesapeake",
+          "value": 48,
+          "chapter_proxy": false,
+          "excerpt": "detention facilities must be designed to return to a water surface elevation that will provide 90% of the design event storage capacity within 48 hours"
+        },
+        {
+          "slug": "chicago-il",
+          "state_code": "IL",
+          "jurisdiction_name": "City of Chicago",
+          "value": 72,
+          "chapter_proxy": false,
+          "excerpt": "Dry bottom basins must be capable of draining within 72 hours of a storm event"
+        },
+        {
+          "slug": "columbus-oh",
+          "state_code": "OH",
+          "jurisdiction_name": "City of Columbus",
+          "value": 72,
+          "chapter_proxy": false,
+          "excerpt": "Areas of facilities outside the permanent pool shall be designed to drain completely toward the outlet or permanent pool within 72 hours of a precipitation event."
+        },
+        {
+          "slug": "detroit-mi",
+          "state_code": "MI",
+          "jurisdiction_name": "City of Detroit",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "flagstaff-az",
+          "state_code": "AZ",
+          "jurisdiction_name": "City of Flagstaff",
+          "value": 24,
+          "chapter_proxy": false,
+          "excerpt": "ROCV requirement may be met by (1) retaining the minimum ROCV for ≥24 hours"
+        },
+        {
+          "slug": "houston-tx",
+          "state_code": "TX",
+          "jurisdiction_name": "City of Houston",
+          "value": 48,
+          "chapter_proxy": false,
+          "excerpt": "design the bioretention area to empty within 48 hours"
+        },
+        {
+          "slug": "lawrence-ks",
+          "state_code": "KS",
+          "jurisdiction_name": "City of Lawrence",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "miami-fl",
+          "state_code": "FL",
+          "jurisdiction_name": "City of Miami / Miami-Dade (SFWMD criteria)",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "minneapolis-mn",
+          "state_code": "MN",
+          "jurisdiction_name": "City of Minneapolis",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "norfolk-va",
+          "state_code": "VA",
+          "jurisdiction_name": "City of Norfolk",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "portland-or",
+          "state_code": "OR",
+          "jurisdiction_name": "City of Portland",
+          "value": 30,
+          "chapter_proxy": false,
+          "excerpt": "the drawdown time to the reference point must not exceed 30 hours"
+        },
+        {
+          "slug": "raleigh-nc",
+          "state_code": "NC",
+          "jurisdiction_name": "City of Raleigh",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "san-antonio-tx",
+          "state_code": "TX",
+          "jurisdiction_name": "City of San Antonio",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "san-diego-ca",
+          "state_code": "CA",
+          "jurisdiction_name": "City of San Diego",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "san-francisco-ca",
+          "state_code": "CA",
+          "jurisdiction_name": "City of San Francisco",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "seattle-wa",
+          "state_code": "WA",
+          "jurisdiction_name": "City of Seattle",
+          "value": 24,
+          "chapter_proxy": false,
+          "excerpt": "The surface pool drawdown time shall be a maximum of 24 hours"
+        },
+        {
+          "slug": "tucson-az",
+          "state_code": "AZ",
+          "jurisdiction_name": "City of Tucson",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "las-vegas-nv",
+          "state_code": "NV",
+          "jurisdiction_name": "Clark County Regional Flood Control District",
+          "value": 72,
+          "chapter_proxy": false,
+          "excerpt": "The outflow structure should be sized to allow for complete drawdown of the water quality volume in 72 hours"
+        },
+        {
+          "slug": "ct-state",
+          "state_code": "CT",
+          "jurisdiction_name": "Connecticut",
+          "value": 48,
+          "chapter_proxy": false,
+          "excerpt": "Bioretention system should completely drain in 48 hours or less after the end of the design storm"
+        },
+        {
+          "slug": "los-angeles-ca",
+          "state_code": "CA",
+          "jurisdiction_name": "County of Los Angeles",
+          "value": 96,
+          "chapter_proxy": false,
+          "excerpt": "Bioretention areas must completely drain within 96 hours."
+        },
+        {
+          "slug": "dallas-tx",
+          "state_code": "TX",
+          "jurisdiction_name": "Dallas / North Central Texas (iSWM)",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "de-wet-ponds-draft",
+          "state_code": "DE",
+          "jurisdiction_name": "Delaware",
+          "value": 24,
+          "chapter_proxy": true,
+          "excerpt": "a diameter capable of draining the Wet Pond within 24 hours"
+        },
+        {
+          "slug": "dc-guidebook",
+          "state_code": "DC",
+          "jurisdiction_name": "District of Columbia",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "fl-fsesci-tier1",
+          "state_code": "FL",
+          "jurisdiction_name": "Florida",
+          "value": 4,
+          "chapter_proxy": false,
+          "excerpt": "The simplest approach to sizing the treatment cell is to multiply the allowable discharge flow rate by the desired drawdown time. A 4-hour drawdown time allows 1 batch per cell per 8-hour work period, given 1 hour of flocculation followed by 2 hours of settling."
+        },
+        {
+          "slug": "ga-state",
+          "state_code": "GA",
+          "jurisdiction_name": "Georgia",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "idaho-bmp-catalog",
+          "state_code": "ID",
+          "jurisdiction_name": "Idaho",
+          "value": 72,
+          "chapter_proxy": false,
+          "excerpt": "The maximum drawdown time for the flooded depth should be within 72 hours after flow ceases."
+        },
+        {
+          "slug": "indiana-manual",
+          "state_code": "IN",
+          "jurisdiction_name": "Indiana",
+          "value": 24,
+          "chapter_proxy": false,
+          "excerpt": "The pond should contain a low-flow drain with an adjustable gate valve allowing for gradual discharge. Recommended drawdown is 24 hours."
+        },
+        {
+          "slug": "ia-state-ch1",
+          "state_code": "IA",
+          "jurisdiction_name": "Iowa",
+          "value": null,
+          "chapter_proxy": true,
+          "excerpt": null
+        },
+        {
+          "slug": "kentucky-bmp",
+          "state_code": "KY",
+          "jurisdiction_name": "Kentucky",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "maine-manual",
+          "state_code": "ME",
+          "jurisdiction_name": "Maine",
+          "value": 48,
+          "chapter_proxy": false,
+          "excerpt": "A filter basin must drain dry in no less than 24 and no more than 48 hours."
+        },
+        {
+          "slug": "md-state",
+          "state_code": "MD",
+          "jurisdiction_name": "Maryland",
+          "value": 24,
+          "chapter_proxy": false,
+          "excerpt": "ED 24 hour drawdown of the water quality volume"
+        },
+        {
+          "slug": "ma-state-draft",
+          "state_code": "MA",
+          "jurisdiction_name": "Massachusetts",
+          "value": 72,
+          "chapter_proxy": false,
+          "excerpt": "conduct drawdown analysis to ensure the design volume from impervious area will infiltrate over 3-days based on Step 3 \"Drawdown within 72 Hours\"."
+        },
+        {
+          "slug": "nashville-tn-vol4",
+          "state_code": "TN",
+          "jurisdiction_name": "Metropolitan Nashville and Davidson County",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "michigan-manual",
+          "state_code": "MI",
+          "jurisdiction_name": "Michigan",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "kansas-city-marc-bmp",
+          "state_code": "MO",
+          "jurisdiction_name": "Mid-America Regional Council / Kansas City Metro APWA",
+          "value": 40,
+          "chapter_proxy": false,
+          "excerpt": "A cap with an orifice or an in-line orifice fitting shall be provided at or near the discharge point of the underdrain system to permit a 40-hr drawdown time for the WQv."
+        },
+        {
+          "slug": "mn-state-2008",
+          "state_code": "MN",
+          "jurisdiction_name": "Minnesota",
+          "value": 48,
+          "chapter_proxy": false,
+          "excerpt": "(48 hours is the REQUIRED maximum tf for bioretention under the CGP)"
+        },
+        {
+          "slug": "ms-state-vol2",
+          "state_code": "MS",
+          "jurisdiction_name": "Mississippi",
+          "value": 120,
+          "chapter_proxy": false,
+          "excerpt": "Infiltration devices must be able to completely dewater within 5 days."
+        },
+        {
+          "slug": "missouri-manual",
+          "state_code": "MO",
+          "jurisdiction_name": "Missouri",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "billings-mt",
+          "state_code": "MT",
+          "jurisdiction_name": "Montana",
+          "value": 72,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "mt-deq8",
+          "state_code": "MT",
+          "jurisdiction_name": "Montana",
+          "value": 72,
+          "chapter_proxy": false,
+          "excerpt": "Retention facilities should be designed to infiltrate, evapotranspire, and/or capture for reuse storm water and to hold runoff no more than 72 hours."
+        },
+        {
+          "slug": "ne-ndot-stf",
+          "state_code": "NE",
+          "jurisdiction_name": "Nebraska Department of Transportation (NDOT)",
+          "value": 72,
+          "chapter_proxy": false,
+          "excerpt": "constricted by an outlet structure to produce low flow rates calculated to delay the drawdown of the basin over a 24 to 48 hour (72 hour maximum) period"
+        },
+        {
+          "slug": "nh-state",
+          "state_code": "NH",
+          "jurisdiction_name": "New Hampshire",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "nj-state",
+          "state_code": "NJ",
+          "jurisdiction_name": "New Jersey Department of Environmental Protection (NJDEP)",
+          "value": 72,
+          "chapter_proxy": true,
+          "excerpt": "The capacity of the underdrain must be sufficient to allow the system to drain within 72 hours"
+        },
+        {
+          "slug": "ny-bluebook",
+          "state_code": "NY",
+          "jurisdiction_name": "New York State",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "ny-state",
+          "state_code": "NY",
+          "jurisdiction_name": "New York State",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "nc-state",
+          "state_code": "NC",
+          "jurisdiction_name": "North Carolina Department of Environmental Quality (NCDEQ)",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "arkansas-manual",
+          "state_code": "AR",
+          "jurisdiction_name": "Northwest Arkansas (NWA MS4s)",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "ohio-rainwater",
+          "state_code": "OH",
+          "jurisdiction_name": "Ohio",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "oklahoma-odot-ch10",
+          "state_code": "OK",
+          "jurisdiction_name": "Oklahoma Department of Transportation",
+          "value": null,
+          "chapter_proxy": true,
+          "excerpt": null
+        },
+        {
+          "slug": "pa-state",
+          "state_code": "PA",
+          "jurisdiction_name": "Pennsylvania",
+          "value": 72,
+          "chapter_proxy": false,
+          "excerpt": "Drawdown time to native soil surface (i.e., bottom of storage) is limited to 72 hours."
+        },
+        {
+          "slug": "philadelphia-pa",
+          "state_code": "PA",
+          "jurisdiction_name": "Philadelphia",
+          "value": 72,
+          "chapter_proxy": false,
+          "excerpt": "The maximum allowable drain down time is 72 hours after the 24-hour storm event."
+        },
+        {
+          "slug": "ri-state",
+          "state_code": "RI",
+          "jurisdiction_name": "Rhode Island",
+          "value": 48,
+          "chapter_proxy": false,
+          "excerpt": "Maximum dewatering time of 48 hours"
+        },
+        {
+          "slug": "salt-lake-city-ut",
+          "state_code": "UT",
+          "jurisdiction_name": "Salt Lake City",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "south-carolina-manual",
+          "state_code": "SC",
+          "jurisdiction_name": "South Carolina",
+          "value": 72,
+          "chapter_proxy": false,
+          "excerpt": "gradually exfiltrates through the bottom and sides of the trench into the subsoil over a maximum period of 72 hours (three days)"
+        },
+        {
+          "slug": "sd-dot-esc",
+          "state_code": "SD",
+          "jurisdiction_name": "South Dakota Department of Transportation (SDDOT)",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "hawaii-dot-pcbmp",
+          "state_code": "HI",
+          "jurisdiction_name": "State of Hawaii Department of Transportation, Highways Division",
+          "value": 48,
+          "chapter_proxy": false,
+          "excerpt": "Maximum drawdown time (t): 48 hours"
+        },
+        {
+          "slug": "tn-state",
+          "state_code": "TN",
+          "jurisdiction_name": "Tennessee Department of Environment and Conservation",
+          "value": 24,
+          "chapter_proxy": false,
+          "excerpt": "A Dry Detention Basin relies on maximum 24-hour detention of stormwater runoff after each rain event."
+        },
+        {
+          "slug": "tx-edwards-rg348",
+          "state_code": "TX",
+          "jurisdiction_name": "Texas Commission on Environmental Quality",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "denver-co",
+          "state_code": "CO",
+          "jurisdiction_name": "Urban Drainage and Flood Control District (Denver Metro)",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "vt-state",
+          "state_code": "VT",
+          "jurisdiction_name": "Vermont",
+          "value": 48,
+          "chapter_proxy": false,
+          "excerpt": "Maximum dewatering time for Tv of 48 hours"
+        },
+        {
+          "slug": "va-state",
+          "state_code": "VA",
+          "jurisdiction_name": "Virginia Department of Environmental Quality (DEQ)",
+          "value": null,
+          "chapter_proxy": true,
+          "excerpt": null
+        },
+        {
+          "slug": "wa-state-western",
+          "state_code": "WA",
+          "jurisdiction_name": "Washington",
+          "value": 48,
+          "chapter_proxy": false,
+          "excerpt": "Document that the maximum ponded depth from the infiltration BMP can infiltrate through the infiltration BMP surface within 48 hours."
+        },
+        {
+          "slug": "west-virginia-manual",
+          "state_code": "WV",
+          "jurisdiction_name": "West Virginia",
+          "value": 48,
+          "chapter_proxy": false,
+          "excerpt": "Water infiltrates into the underlying soil within 48 hours."
+        },
+        {
+          "slug": "wi-dnr-1001",
+          "state_code": "WI",
+          "jurisdiction_name": "Wisconsin Department of Natural Resources",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "wy-wydot-field",
+          "state_code": "WY",
+          "jurisdiction_name": "Wyoming Department of Transportation (WYDOT)",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        }
+      ]
+    },
+    {
+      "field": "shwt_separation_inches",
+      "label": "SHWT separation",
+      "unit": "inches",
+      "values": [
+        24,
+        36,
+        60,
+        36,
+        12,
+        24,
+        24,
+        48,
+        36,
+        60,
+        12,
+        120,
+        24,
+        36,
+        24,
+        36,
+        36,
+        12,
+        48,
+        24,
+        36,
+        36,
+        24,
+        36,
+        12,
+        24,
+        48,
+        24,
+        24,
+        36,
+        36,
+        24,
+        48,
+        36,
+        60,
+        24
+      ],
+      "min": 12,
+      "max": 120,
+      "mode": 24,
+      "median": 36,
+      "count": 36,
+      "missing_count": 38,
+      "cells": [
+        {
+          "slug": "alabama-handbook",
+          "state_code": "AL",
+          "jurisdiction_name": "Alabama",
+          "value": 24,
+          "chapter_proxy": false,
+          "excerpt": "A distance of 2 feet between the bottom of the bioretention basin and the seasonal high-water table is recommended."
+        },
+        {
+          "slug": "ak-state",
+          "state_code": "AK",
+          "jurisdiction_name": "Alaska",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "albuquerque-nm-gsi",
+          "state_code": "NM",
+          "jurisdiction_name": "Bernalillo County",
+          "value": 36,
+          "chapter_proxy": false,
+          "excerpt": "Bottom of trench should be at least 3' above seasonal high water table"
+        },
+        {
+          "slug": "boston-ma",
+          "state_code": "MA",
+          "jurisdiction_name": "Boston Water and Sewer Commission",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "ca-casqa-municipal",
+          "state_code": "CA",
+          "jurisdiction_name": "California",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "ca-caltrans-construction",
+          "state_code": "CA",
+          "jurisdiction_name": "California Department of Transportation (Caltrans)",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "charlotte-nc",
+          "state_code": "NC",
+          "jurisdiction_name": "Charlotte-Mecklenburg",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "austin-tx-ecm",
+          "state_code": "TX",
+          "jurisdiction_name": "City of Austin",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "baltimore-md",
+          "state_code": "MD",
+          "jurisdiction_name": "City of Baltimore",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "bellevue-wa",
+          "state_code": "WA",
+          "jurisdiction_name": "City of Bellevue",
+          "value": 60,
+          "chapter_proxy": false,
+          "excerpt": "General - The base of all infiltrating BMPs shall be at least 5 feet (with reductions allowed for certain smaller BMPs) above the seasonal high-water mark"
+        },
+        {
+          "slug": "boise-id",
+          "state_code": "ID",
+          "jurisdiction_name": "City of Boise",
+          "value": 36,
+          "chapter_proxy": false,
+          "excerpt": "for all infiltration facilities, except seepage beds, a minimum 3‘ vertical separation distance from the bottom of the infiltration facility to the seasonal high ground water table"
+        },
+        {
+          "slug": "chesapeake-va",
+          "state_code": "VA",
+          "jurisdiction_name": "City of Chesapeake",
+          "value": 12,
+          "chapter_proxy": false,
+          "excerpt": "projected seasonal high water table will be a minimum of 12\" below proposed flow line"
+        },
+        {
+          "slug": "chicago-il",
+          "state_code": "IL",
+          "jurisdiction_name": "City of Chicago",
+          "value": 24,
+          "chapter_proxy": false,
+          "excerpt": "The high groundwater table must be at least 2 feet below the bottom of all proposed infiltration BMP"
+        },
+        {
+          "slug": "columbus-oh",
+          "state_code": "OH",
+          "jurisdiction_name": "City of Columbus",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "detroit-mi",
+          "state_code": "MI",
+          "jurisdiction_name": "City of Detroit",
+          "value": 24,
+          "chapter_proxy": false,
+          "excerpt": "Groundwater level at least 2 vertical feet below the bottom of potential infiltration BMP?"
+        },
+        {
+          "slug": "flagstaff-az",
+          "state_code": "AZ",
+          "jurisdiction_name": "City of Flagstaff",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "houston-tx",
+          "state_code": "TX",
+          "jurisdiction_name": "City of Houston",
+          "value": 48,
+          "chapter_proxy": false,
+          "excerpt": "Locate bottom of facility at least 4 feet above seasonal high water table elevation"
+        },
+        {
+          "slug": "lawrence-ks",
+          "state_code": "KS",
+          "jurisdiction_name": "City of Lawrence",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "miami-fl",
+          "state_code": "FL",
+          "jurisdiction_name": "City of Miami / Miami-Dade (SFWMD criteria)",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "minneapolis-mn",
+          "state_code": "MN",
+          "jurisdiction_name": "City of Minneapolis",
+          "value": 36,
+          "chapter_proxy": false,
+          "excerpt": "With less than three (3) feet of separation distance from the bottom of the infiltration system to the elevation of the seasonally saturated soils or the top of bedrock."
+        },
+        {
+          "slug": "norfolk-va",
+          "state_code": "VA",
+          "jurisdiction_name": "City of Norfolk",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "portland-or",
+          "state_code": "OR",
+          "jurisdiction_name": "City of Portland",
+          "value": 60,
+          "chapter_proxy": false,
+          "excerpt": "minimum separation distance of 5 ft between the bottom of the facility and the seasonal high groundwater level"
+        },
+        {
+          "slug": "raleigh-nc",
+          "state_code": "NC",
+          "jurisdiction_name": "City of Raleigh",
+          "value": 12,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "san-antonio-tx",
+          "state_code": "TX",
+          "jurisdiction_name": "City of San Antonio",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "san-diego-ca",
+          "state_code": "CA",
+          "jurisdiction_name": "City of San Diego",
+          "value": 120,
+          "chapter_proxy": false,
+          "excerpt": "The depth to seasonally high groundwater tables (normal high depth during the wet season) beneath the base of any infiltration BMP must be greater than 10 feet for full infiltration BMPs to be allowed."
+        },
+        {
+          "slug": "san-francisco-ca",
+          "state_code": "CA",
+          "jurisdiction_name": "City of San Francisco",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "seattle-wa",
+          "state_code": "WA",
+          "jurisdiction_name": "City of Seattle",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "tucson-az",
+          "state_code": "AZ",
+          "jurisdiction_name": "City of Tucson",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "las-vegas-nv",
+          "state_code": "NV",
+          "jurisdiction_name": "Clark County Regional Flood Control District",
+          "value": 24,
+          "chapter_proxy": false,
+          "excerpt": "The water table should be at least 2 feet below the bottom of the trench"
+        },
+        {
+          "slug": "ct-state",
+          "state_code": "CT",
+          "jurisdiction_name": "Connecticut",
+          "value": 36,
+          "chapter_proxy": false,
+          "excerpt": "For infiltration systems, at least 3 feet of separation is recommended"
+        },
+        {
+          "slug": "los-angeles-ca",
+          "state_code": "CA",
+          "jurisdiction_name": "County of Los Angeles",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "dallas-tx",
+          "state_code": "TX",
+          "jurisdiction_name": "Dallas / North Central Texas (iSWM)",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "de-wet-ponds-draft",
+          "state_code": "DE",
+          "jurisdiction_name": "Delaware",
+          "value": 24,
+          "chapter_proxy": true,
+          "excerpt": "the seasonal high groundwater table is two feet or more below the proposed Wet Pond invert"
+        },
+        {
+          "slug": "dc-guidebook",
+          "state_code": "DC",
+          "jurisdiction_name": "District of Columbia",
+          "value": 24,
+          "chapter_proxy": false,
+          "excerpt": "If the seasonally high water table is determined to be less than two feet from the bottom of the proposed BMP, infiltration may not be appropriate."
+        },
+        {
+          "slug": "fl-fsesci-tier1",
+          "state_code": "FL",
+          "jurisdiction_name": "Florida",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "ga-state",
+          "state_code": "GA",
+          "jurisdiction_name": "Georgia",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "idaho-bmp-catalog",
+          "state_code": "ID",
+          "jurisdiction_name": "Idaho",
+          "value": 36,
+          "chapter_proxy": false,
+          "excerpt": "Min. Ground Water Separation 3 feet"
+        },
+        {
+          "slug": "indiana-manual",
+          "state_code": "IN",
+          "jurisdiction_name": "Indiana",
+          "value": 36,
+          "chapter_proxy": false,
+          "excerpt": "The bottom of the bioretention area should be three feet or more above the seasonal high water table"
+        },
+        {
+          "slug": "ia-state-ch1",
+          "state_code": "IA",
+          "jurisdiction_name": "Iowa",
+          "value": null,
+          "chapter_proxy": true,
+          "excerpt": null
+        },
+        {
+          "slug": "kentucky-bmp",
+          "state_code": "KY",
+          "jurisdiction_name": "Kentucky",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "maine-manual",
+          "state_code": "ME",
+          "jurisdiction_name": "Maine",
+          "value": 12,
+          "chapter_proxy": false,
+          "excerpt": "The bottom of the constructed basin, including any underdrain soil filters should be one (1) foot above the seasonal high groundwater table"
+        },
+        {
+          "slug": "md-state",
+          "state_code": "MD",
+          "jurisdiction_name": "Maryland",
+          "value": 48,
+          "chapter_proxy": false,
+          "excerpt": "filter bed inverts shall be separated at least four feet vertically (two feet on the lower Eastern shore) from the seasonal high water table."
+        },
+        {
+          "slug": "ma-state-draft",
+          "state_code": "MA",
+          "jurisdiction_name": "Massachusetts",
+          "value": 24,
+          "chapter_proxy": false,
+          "excerpt": "Distance from bottom of SCM to SHGW 2-ft"
+        },
+        {
+          "slug": "nashville-tn-vol4",
+          "state_code": "TN",
+          "jurisdiction_name": "Metropolitan Nashville and Davidson County",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "michigan-manual",
+          "state_code": "MI",
+          "jurisdiction_name": "Michigan",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "kansas-city-marc-bmp",
+          "state_code": "MO",
+          "jurisdiction_name": "Mid-America Regional Council / Kansas City Metro APWA",
+          "value": 36,
+          "chapter_proxy": false,
+          "excerpt": "verification that the location of bedrock and the seasonal high groundwater table are not closer than three feet from the sub-grade."
+        },
+        {
+          "slug": "mn-state-2008",
+          "state_code": "MN",
+          "jurisdiction_name": "Minnesota",
+          "value": 36,
+          "chapter_proxy": false,
+          "excerpt": "requires a minimum distance of three feet between the bottom of an infiltrating BMP and the seasonally saturated water table"
+        },
+        {
+          "slug": "ms-state-vol2",
+          "state_code": "MS",
+          "jurisdiction_name": "Mississippi",
+          "value": 24,
+          "chapter_proxy": false,
+          "excerpt": "bioretention areas require a minimum depth to groundwater of 2 feet"
+        },
+        {
+          "slug": "missouri-manual",
+          "state_code": "MO",
+          "jurisdiction_name": "Missouri",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "billings-mt",
+          "state_code": "MT",
+          "jurisdiction_name": "Montana",
+          "value": 36,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "mt-deq8",
+          "state_code": "MT",
+          "jurisdiction_name": "Montana",
+          "value": 12,
+          "chapter_proxy": false,
+          "excerpt": "B. Be constructed such that the bottom of the facility is one foot above any limiting layer."
+        },
+        {
+          "slug": "ne-ndot-stf",
+          "state_code": "NE",
+          "jurisdiction_name": "Nebraska Department of Transportation (NDOT)",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "nh-state",
+          "state_code": "NH",
+          "jurisdiction_name": "New Hampshire",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "nj-state",
+          "state_code": "NJ",
+          "jurisdiction_name": "New Jersey Department of Environmental Protection (NJDEP)",
+          "value": 12,
+          "chapter_proxy": true,
+          "excerpt": "The seasonal high water table (SHWT) must be at least 1 foot below the bottom of the gravel layer"
+        },
+        {
+          "slug": "ny-bluebook",
+          "state_code": "NY",
+          "jurisdiction_name": "New York State",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "ny-state",
+          "state_code": "NY",
+          "jurisdiction_name": "New York State",
+          "value": 24,
+          "chapter_proxy": false,
+          "excerpt": "Tree trenches and tree pits with more than one tree per pit shall have a 2 ft min. separation to the seasonal high water table and bedrock"
+        },
+        {
+          "slug": "nc-state",
+          "state_code": "NC",
+          "jurisdiction_name": "North Carolina Department of Environmental Quality (NCDEQ)",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "arkansas-manual",
+          "state_code": "AR",
+          "jurisdiction_name": "Northwest Arkansas (NWA MS4s)",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "ohio-rainwater",
+          "state_code": "OH",
+          "jurisdiction_name": "Ohio",
+          "value": 48,
+          "chapter_proxy": false,
+          "excerpt": "leave at least 4 feet between the seasonal high-water table or bedrock and the trench bottom"
+        },
+        {
+          "slug": "oklahoma-odot-ch10",
+          "state_code": "OK",
+          "jurisdiction_name": "Oklahoma Department of Transportation",
+          "value": null,
+          "chapter_proxy": true,
+          "excerpt": null
+        },
+        {
+          "slug": "pa-state",
+          "state_code": "PA",
+          "jurisdiction_name": "Pennsylvania",
+          "value": 24,
+          "chapter_proxy": false,
+          "excerpt": "A minimum two-foot separation distance from an infiltration SCM bottom to a limiting zone, including the SHWT, is generally necessary."
+        },
+        {
+          "slug": "philadelphia-pa",
+          "state_code": "PA",
+          "jurisdiction_name": "Philadelphia",
+          "value": 24,
+          "chapter_proxy": false,
+          "excerpt": "A two-foot separation between the infiltration interface (SMP bottom elevation) and the regularly occurring seasonally high-water table must be maintained."
+        },
+        {
+          "slug": "ri-state",
+          "state_code": "RI",
+          "jurisdiction_name": "Rhode Island",
+          "value": 36,
+          "chapter_proxy": false,
+          "excerpt": "Separation from seasonal high groundwater table and bedrock of at least 3 feet except for strictly residential land uses, for which it may be reduced to 2 feet"
+        },
+        {
+          "slug": "salt-lake-city-ut",
+          "state_code": "UT",
+          "jurisdiction_name": "Salt Lake City",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "south-carolina-manual",
+          "state_code": "SC",
+          "jurisdiction_name": "South Carolina",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "sd-dot-esc",
+          "state_code": "SD",
+          "jurisdiction_name": "South Dakota Department of Transportation (SDDOT)",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "hawaii-dot-pcbmp",
+          "state_code": "HI",
+          "jurisdiction_name": "State of Hawaii Department of Transportation, Highways Division",
+          "value": 36,
+          "chapter_proxy": false,
+          "excerpt": "Maintain at least 3 feet clearance between the bottom of the infiltration trench and the seasonally high groundwater table"
+        },
+        {
+          "slug": "tn-state",
+          "state_code": "TN",
+          "jurisdiction_name": "Tennessee Department of Environment and Conservation",
+          "value": 24,
+          "chapter_proxy": false,
+          "excerpt": "A separation distance of 2 feet is required between the excavated Bioretention area and the seasonally"
+        },
+        {
+          "slug": "tx-edwards-rg348",
+          "state_code": "TX",
+          "jurisdiction_name": "Texas Commission on Environmental Quality",
+          "value": 48,
+          "chapter_proxy": false,
+          "excerpt": "The seasonal high water table should be at least 4 feet below the surface."
+        },
+        {
+          "slug": "denver-co",
+          "state_code": "CO",
+          "jurisdiction_name": "Urban Drainage and Flood Control District (Denver Metro)",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "vt-state",
+          "state_code": "VT",
+          "jurisdiction_name": "Vermont",
+          "value": 36,
+          "chapter_proxy": false,
+          "excerpt": "Vertical separation by at least three feet from the seasonally high groundwater table (SHGWT)"
+        },
+        {
+          "slug": "va-state",
+          "state_code": "VA",
+          "jurisdiction_name": "Virginia Department of Environmental Quality (DEQ)",
+          "value": null,
+          "chapter_proxy": true,
+          "excerpt": null
+        },
+        {
+          "slug": "wa-state-western",
+          "state_code": "WA",
+          "jurisdiction_name": "Washington",
+          "value": 60,
+          "chapter_proxy": false,
+          "excerpt": "The base of BMP T7.10: Infiltration Ponds or BMP T7.20: Infiltration Trenches shall be ≥ 5 feet above the seasonal high-water mark, bedrock (or hardpan) or other low permeability layer. A separation down to 3 feet may be considered"
+        },
+        {
+          "slug": "west-virginia-manual",
+          "state_code": "WV",
+          "jurisdiction_name": "West Virginia",
+          "value": 24,
+          "chapter_proxy": false,
+          "excerpt": "A separation distance of 2 feet is required between the bottom of the excavated Bioretention area and the seasonally high ground water table."
+        },
+        {
+          "slug": "wi-dnr-1001",
+          "state_code": "WI",
+          "jurisdiction_name": "Wisconsin Department of Natural Resources",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "wy-wydot-field",
+          "state_code": "WY",
+          "jurisdiction_name": "Wyoming Department of Transportation (WYDOT)",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        }
+      ]
+    },
+    {
+      "field": "swale_bottom_width_inches",
+      "label": "Swale bottom width",
+      "unit": "inches",
+      "values": [
+        24,
+        24,
+        24,
+        24,
+        24,
+        24,
+        24,
+        24
+      ],
+      "min": 24,
+      "max": 24,
+      "mode": 24,
+      "median": 24,
+      "count": 8,
+      "missing_count": 62,
+      "cells": [
+        {
+          "slug": "alabama-handbook",
+          "state_code": "AL",
+          "jurisdiction_name": "Alabama",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "ak-state",
+          "state_code": "AK",
+          "jurisdiction_name": "Alaska",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "albuquerque-nm-gsi",
+          "state_code": "NM",
+          "jurisdiction_name": "Bernalillo County",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "boston-ma",
+          "state_code": "MA",
+          "jurisdiction_name": "Boston Water and Sewer Commission",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "ca-casqa-municipal",
+          "state_code": "CA",
+          "jurisdiction_name": "California",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "ca-caltrans-construction",
+          "state_code": "CA",
+          "jurisdiction_name": "California Department of Transportation (Caltrans)",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "charlotte-nc",
+          "state_code": "NC",
+          "jurisdiction_name": "Charlotte-Mecklenburg",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "bellevue-wa",
+          "state_code": "WA",
+          "jurisdiction_name": "City of Bellevue",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "boise-id",
+          "state_code": "ID",
+          "jurisdiction_name": "City of Boise",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "chesapeake-va",
+          "state_code": "VA",
+          "jurisdiction_name": "City of Chesapeake",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "chicago-il",
+          "state_code": "IL",
+          "jurisdiction_name": "City of Chicago",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "columbus-oh",
+          "state_code": "OH",
+          "jurisdiction_name": "City of Columbus",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "detroit-mi",
+          "state_code": "MI",
+          "jurisdiction_name": "City of Detroit",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "flagstaff-az",
+          "state_code": "AZ",
+          "jurisdiction_name": "City of Flagstaff",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "houston-tx",
+          "state_code": "TX",
+          "jurisdiction_name": "City of Houston",
+          "value": 24,
+          "chapter_proxy": false,
+          "excerpt": "Bottom width shall be 2 feet wide minimum or 6 feet wide max"
+        },
+        {
+          "slug": "lawrence-ks",
+          "state_code": "KS",
+          "jurisdiction_name": "City of Lawrence",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "miami-fl",
+          "state_code": "FL",
+          "jurisdiction_name": "City of Miami / Miami-Dade (SFWMD criteria)",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "minneapolis-mn",
+          "state_code": "MN",
+          "jurisdiction_name": "City of Minneapolis",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "norfolk-va",
+          "state_code": "VA",
+          "jurisdiction_name": "City of Norfolk",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "portland-or",
+          "state_code": "OR",
+          "jurisdiction_name": "City of Portland",
+          "value": 24,
+          "chapter_proxy": false,
+          "excerpt": "Grassy swales on private property: Minimum bottom width: 2 ft (must be flat)"
+        },
+        {
+          "slug": "raleigh-nc",
+          "state_code": "NC",
+          "jurisdiction_name": "City of Raleigh",
+          "value": 24,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "san-diego-ca",
+          "state_code": "CA",
+          "jurisdiction_name": "City of San Diego",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "san-francisco-ca",
+          "state_code": "CA",
+          "jurisdiction_name": "City of San Francisco",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "seattle-wa",
+          "state_code": "WA",
+          "jurisdiction_name": "City of Seattle",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "tucson-az",
+          "state_code": "AZ",
+          "jurisdiction_name": "City of Tucson",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "las-vegas-nv",
+          "state_code": "NV",
+          "jurisdiction_name": "Clark County Regional Flood Control District",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "ct-state",
+          "state_code": "CT",
+          "jurisdiction_name": "Connecticut",
+          "value": 24,
+          "chapter_proxy": false,
+          "excerpt": "Bottom Width Minimum: 2 feet"
+        },
+        {
+          "slug": "los-angeles-ca",
+          "state_code": "CA",
+          "jurisdiction_name": "County of Los Angeles",
+          "value": 24,
+          "chapter_proxy": false,
+          "excerpt": "The minimum width of the vegetated swale bottom is two feet to allow for ease of mowing."
+        },
+        {
+          "slug": "dallas-tx",
+          "state_code": "TX",
+          "jurisdiction_name": "Dallas / North Central Texas (iSWM)",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "dc-guidebook",
+          "state_code": "DC",
+          "jurisdiction_name": "District of Columbia",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "fl-fsesci-tier1",
+          "state_code": "FL",
+          "jurisdiction_name": "Florida",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "ga-state",
+          "state_code": "GA",
+          "jurisdiction_name": "Georgia",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "idaho-bmp-catalog",
+          "state_code": "ID",
+          "jurisdiction_name": "Idaho",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "indiana-manual",
+          "state_code": "IN",
+          "jurisdiction_name": "Indiana",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "ia-state-ch1",
+          "state_code": "IA",
+          "jurisdiction_name": "Iowa",
+          "value": null,
+          "chapter_proxy": true,
+          "excerpt": null
+        },
+        {
+          "slug": "kentucky-bmp",
+          "state_code": "KY",
+          "jurisdiction_name": "Kentucky",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "maine-manual",
+          "state_code": "ME",
+          "jurisdiction_name": "Maine",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "md-state",
+          "state_code": "MD",
+          "jurisdiction_name": "Maryland",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "ma-state-draft",
+          "state_code": "MA",
+          "jurisdiction_name": "Massachusetts",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "nashville-tn-vol4",
+          "state_code": "TN",
+          "jurisdiction_name": "Metropolitan Nashville and Davidson County",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "kansas-city-marc-bmp",
+          "state_code": "MO",
+          "jurisdiction_name": "Mid-America Regional Council / Kansas City Metro APWA",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "mn-state-2008",
+          "state_code": "MN",
+          "jurisdiction_name": "Minnesota",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "ms-state-vol2",
+          "state_code": "MS",
+          "jurisdiction_name": "Mississippi",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "missouri-manual",
+          "state_code": "MO",
+          "jurisdiction_name": "Missouri",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "billings-mt",
+          "state_code": "MT",
+          "jurisdiction_name": "Montana",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "mt-deq8",
+          "state_code": "MT",
+          "jurisdiction_name": "Montana",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "ne-ndot-stf",
+          "state_code": "NE",
+          "jurisdiction_name": "Nebraska Department of Transportation (NDOT)",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "nh-state",
+          "state_code": "NH",
+          "jurisdiction_name": "New Hampshire",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "nj-state",
+          "state_code": "NJ",
+          "jurisdiction_name": "New Jersey Department of Environmental Protection (NJDEP)",
+          "value": null,
+          "chapter_proxy": true,
+          "excerpt": null
+        },
+        {
+          "slug": "ny-bluebook",
+          "state_code": "NY",
+          "jurisdiction_name": "New York State",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "ny-state",
+          "state_code": "NY",
+          "jurisdiction_name": "New York State",
+          "value": 24,
+          "chapter_proxy": false,
+          "excerpt": "Bottom width shall be a min of 2 ft and a max of 8 ft"
+        },
+        {
+          "slug": "nc-state",
+          "state_code": "NC",
+          "jurisdiction_name": "North Carolina Department of Environmental Quality (NCDEQ)",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "arkansas-manual",
+          "state_code": "AR",
+          "jurisdiction_name": "Northwest Arkansas (NWA MS4s)",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "ohio-rainwater",
+          "state_code": "OH",
+          "jurisdiction_name": "Ohio",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "oklahoma-odot-ch10",
+          "state_code": "OK",
+          "jurisdiction_name": "Oklahoma Department of Transportation",
+          "value": null,
+          "chapter_proxy": true,
+          "excerpt": null
+        },
+        {
+          "slug": "pa-state",
+          "state_code": "PA",
+          "jurisdiction_name": "Pennsylvania",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "philadelphia-pa",
+          "state_code": "PA",
+          "jurisdiction_name": "Philadelphia",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "ri-state",
+          "state_code": "RI",
+          "jurisdiction_name": "Rhode Island",
+          "value": 24,
+          "chapter_proxy": false,
+          "excerpt": "Swales shall be designed with a bottom width no greater than 8 ft ... but no less than 2 ft"
+        },
+        {
+          "slug": "salt-lake-city-ut",
+          "state_code": "UT",
+          "jurisdiction_name": "Salt Lake City",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "south-carolina-manual",
+          "state_code": "SC",
+          "jurisdiction_name": "South Carolina",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "sd-dot-esc",
+          "state_code": "SD",
+          "jurisdiction_name": "South Dakota Department of Transportation (SDDOT)",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "hawaii-dot-pcbmp",
+          "state_code": "HI",
+          "jurisdiction_name": "State of Hawaii Department of Transportation, Highways Division",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "tn-state",
+          "state_code": "TN",
+          "jurisdiction_name": "Tennessee Department of Environment and Conservation",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "tx-edwards-rg348",
+          "state_code": "TX",
+          "jurisdiction_name": "Texas Commission on Environmental Quality",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "denver-co",
+          "state_code": "CO",
+          "jurisdiction_name": "Urban Drainage and Flood Control District (Denver Metro)",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "vt-state",
+          "state_code": "VT",
+          "jurisdiction_name": "Vermont",
+          "value": 24,
+          "chapter_proxy": false,
+          "excerpt": "Swales shall have a bottom width between two and eight feet"
+        },
+        {
+          "slug": "va-state",
+          "state_code": "VA",
+          "jurisdiction_name": "Virginia Department of Environmental Quality (DEQ)",
+          "value": null,
+          "chapter_proxy": true,
+          "excerpt": null
+        },
+        {
+          "slug": "wa-state-western",
+          "state_code": "WA",
+          "jurisdiction_name": "Washington",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "west-virginia-manual",
+          "state_code": "WV",
+          "jurisdiction_name": "West Virginia",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "wy-wydot-field",
+          "state_code": "WY",
+          "jurisdiction_name": "Wyoming Department of Transportation (WYDOT)",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        }
+      ]
+    },
+    {
+      "field": "swale_longitudinal_slope_percent",
+      "label": "Swale longitudinal slope",
+      "unit": "percent",
+      "values": [
+        2,
+        0.5,
+        5,
+        1,
+        5,
+        4,
+        0.5,
+        2.5,
+        2,
+        4
+      ],
+      "min": 0.5,
+      "max": 5,
+      "mode": 0.5,
+      "median": 2.25,
+      "count": 10,
+      "missing_count": 59,
+      "cells": [
+        {
+          "slug": "alabama-handbook",
+          "state_code": "AL",
+          "jurisdiction_name": "Alabama",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "ak-state",
+          "state_code": "AK",
+          "jurisdiction_name": "Alaska",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "albuquerque-nm-gsi",
+          "state_code": "NM",
+          "jurisdiction_name": "Bernalillo County",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "boston-ma",
+          "state_code": "MA",
+          "jurisdiction_name": "Boston Water and Sewer Commission",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "ca-casqa-municipal",
+          "state_code": "CA",
+          "jurisdiction_name": "California",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "ca-caltrans-construction",
+          "state_code": "CA",
+          "jurisdiction_name": "California Department of Transportation (Caltrans)",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "charlotte-nc",
+          "state_code": "NC",
+          "jurisdiction_name": "Charlotte-Mecklenburg",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "bellevue-wa",
+          "state_code": "WA",
+          "jurisdiction_name": "City of Bellevue",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "boise-id",
+          "state_code": "ID",
+          "jurisdiction_name": "City of Boise",
+          "value": 2,
+          "chapter_proxy": false,
+          "excerpt": "Recommended maximum grade for slope swales is 1% to 2%."
+        },
+        {
+          "slug": "chesapeake-va",
+          "state_code": "VA",
+          "jurisdiction_name": "City of Chesapeake",
+          "value": 0.5,
+          "chapter_proxy": false,
+          "excerpt": "minimum grade of .5%"
+        },
+        {
+          "slug": "chicago-il",
+          "state_code": "IL",
+          "jurisdiction_name": "City of Chicago",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "columbus-oh",
+          "state_code": "OH",
+          "jurisdiction_name": "City of Columbus",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "detroit-mi",
+          "state_code": "MI",
+          "jurisdiction_name": "City of Detroit",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "flagstaff-az",
+          "state_code": "AZ",
+          "jurisdiction_name": "City of Flagstaff",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "houston-tx",
+          "state_code": "TX",
+          "jurisdiction_name": "City of Houston",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "lawrence-ks",
+          "state_code": "KS",
+          "jurisdiction_name": "City of Lawrence",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "miami-fl",
+          "state_code": "FL",
+          "jurisdiction_name": "City of Miami / Miami-Dade (SFWMD criteria)",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "minneapolis-mn",
+          "state_code": "MN",
+          "jurisdiction_name": "City of Minneapolis",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "norfolk-va",
+          "state_code": "VA",
+          "jurisdiction_name": "City of Norfolk",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "portland-or",
+          "state_code": "OR",
+          "jurisdiction_name": "City of Portland",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "raleigh-nc",
+          "state_code": "NC",
+          "jurisdiction_name": "City of Raleigh",
+          "value": 5,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "san-diego-ca",
+          "state_code": "CA",
+          "jurisdiction_name": "City of San Diego",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "san-francisco-ca",
+          "state_code": "CA",
+          "jurisdiction_name": "City of San Francisco",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "seattle-wa",
+          "state_code": "WA",
+          "jurisdiction_name": "City of Seattle",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "tucson-az",
+          "state_code": "AZ",
+          "jurisdiction_name": "City of Tucson",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "las-vegas-nv",
+          "state_code": "NV",
+          "jurisdiction_name": "Clark County Regional Flood Control District",
+          "value": 1,
+          "chapter_proxy": false,
+          "excerpt": "Tributary Area (ac) Swale Slope ≤ 0.5 ≤ 1%"
+        },
+        {
+          "slug": "ct-state",
+          "state_code": "CT",
+          "jurisdiction_name": "Connecticut",
+          "value": 5,
+          "chapter_proxy": false,
+          "excerpt": "BMPs such as water quality swales and permeable pavement is restricted to slopes of approximately 5% or less"
+        },
+        {
+          "slug": "los-angeles-ca",
+          "state_code": "CA",
+          "jurisdiction_name": "County of Los Angeles",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "dallas-tx",
+          "state_code": "TX",
+          "jurisdiction_name": "Dallas / North Central Texas (iSWM)",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "dc-guidebook",
+          "state_code": "DC",
+          "jurisdiction_name": "District of Columbia",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "fl-fsesci-tier1",
+          "state_code": "FL",
+          "jurisdiction_name": "Florida",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "ga-state",
+          "state_code": "GA",
+          "jurisdiction_name": "Georgia",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "idaho-bmp-catalog",
+          "state_code": "ID",
+          "jurisdiction_name": "Idaho",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "indiana-manual",
+          "state_code": "IN",
+          "jurisdiction_name": "Indiana",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "ia-state-ch1",
+          "state_code": "IA",
+          "jurisdiction_name": "Iowa",
+          "value": null,
+          "chapter_proxy": true,
+          "excerpt": null
+        },
+        {
+          "slug": "kentucky-bmp",
+          "state_code": "KY",
+          "jurisdiction_name": "Kentucky",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "maine-manual",
+          "state_code": "ME",
+          "jurisdiction_name": "Maine",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "md-state",
+          "state_code": "MD",
+          "jurisdiction_name": "Maryland",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "ma-state-draft",
+          "state_code": "MA",
+          "jurisdiction_name": "Massachusetts",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "nashville-tn-vol4",
+          "state_code": "TN",
+          "jurisdiction_name": "Metropolitan Nashville and Davidson County",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "kansas-city-marc-bmp",
+          "state_code": "MO",
+          "jurisdiction_name": "Mid-America Regional Council / Kansas City Metro APWA",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "mn-state-2008",
+          "state_code": "MN",
+          "jurisdiction_name": "Minnesota",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "ms-state-vol2",
+          "state_code": "MS",
+          "jurisdiction_name": "Mississippi",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "missouri-manual",
+          "state_code": "MO",
+          "jurisdiction_name": "Missouri",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "billings-mt",
+          "state_code": "MT",
+          "jurisdiction_name": "Montana",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "mt-deq8",
+          "state_code": "MT",
+          "jurisdiction_name": "Montana",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "ne-ndot-stf",
+          "state_code": "NE",
+          "jurisdiction_name": "Nebraska Department of Transportation (NDOT)",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "nh-state",
+          "state_code": "NH",
+          "jurisdiction_name": "New Hampshire",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "nj-state",
+          "state_code": "NJ",
+          "jurisdiction_name": "New Jersey Department of Environmental Protection (NJDEP)",
+          "value": 10,
+          "chapter_proxy": true,
+          "excerpt": "In sloped-bottom systems, the maximum longitudinal slope is 10%"
+        },
+        {
+          "slug": "ny-bluebook",
+          "state_code": "NY",
+          "jurisdiction_name": "New York State",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "ny-state",
+          "state_code": "NY",
+          "jurisdiction_name": "New York State",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "nc-state",
+          "state_code": "NC",
+          "jurisdiction_name": "North Carolina Department of Environmental Quality (NCDEQ)",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "arkansas-manual",
+          "state_code": "AR",
+          "jurisdiction_name": "Northwest Arkansas (NWA MS4s)",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "ohio-rainwater",
+          "state_code": "OH",
+          "jurisdiction_name": "Ohio",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "oklahoma-odot-ch10",
+          "state_code": "OK",
+          "jurisdiction_name": "Oklahoma Department of Transportation",
+          "value": null,
+          "chapter_proxy": true,
+          "excerpt": null
+        },
+        {
+          "slug": "pa-state",
+          "state_code": "PA",
+          "jurisdiction_name": "Pennsylvania",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "philadelphia-pa",
+          "state_code": "PA",
+          "jurisdiction_name": "Philadelphia",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "ri-state",
+          "state_code": "RI",
+          "jurisdiction_name": "Rhode Island",
+          "value": 4,
+          "chapter_proxy": false,
+          "excerpt": "Open channels shall have a maximum longitudinal slope of 4%, without check dams"
+        },
+        {
+          "slug": "salt-lake-city-ut",
+          "state_code": "UT",
+          "jurisdiction_name": "Salt Lake City",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "south-carolina-manual",
+          "state_code": "SC",
+          "jurisdiction_name": "South Carolina",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "sd-dot-esc",
+          "state_code": "SD",
+          "jurisdiction_name": "South Dakota Department of Transportation (SDDOT)",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "hawaii-dot-pcbmp",
+          "state_code": "HI",
+          "jurisdiction_name": "State of Hawaii Department of Transportation, Highways Division",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "tn-state",
+          "state_code": "TN",
+          "jurisdiction_name": "Tennessee Department of Environment and Conservation",
+          "value": 0.5,
+          "chapter_proxy": false,
+          "excerpt": "A minimum slope of 0.5% must be maintained to ensu"
+        },
+        {
+          "slug": "tx-edwards-rg348",
+          "state_code": "TX",
+          "jurisdiction_name": "Texas Commission on Environmental Quality",
+          "value": 2.5,
+          "chapter_proxy": false,
+          "excerpt": "the channel slope should be at least 0.5% and no greater than 2.5%"
+        },
+        {
+          "slug": "denver-co",
+          "state_code": "CO",
+          "jurisdiction_name": "Urban Drainage and Flood Control District (Denver Metro)",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "vt-state",
+          "state_code": "VT",
+          "jurisdiction_name": "Vermont",
+          "value": 2,
+          "chapter_proxy": false,
+          "excerpt": "Open channels constructed without check dams shall have a maximum longitudinal slope of 2%"
+        },
+        {
+          "slug": "va-state",
+          "state_code": "VA",
+          "jurisdiction_name": "Virginia Department of Environmental Quality (DEQ)",
+          "value": null,
+          "chapter_proxy": true,
+          "excerpt": null
+        },
+        {
+          "slug": "wa-state-western",
+          "state_code": "WA",
+          "jurisdiction_name": "Washington",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        },
+        {
+          "slug": "west-virginia-manual",
+          "state_code": "WV",
+          "jurisdiction_name": "West Virginia",
+          "value": 4,
+          "chapter_proxy": false,
+          "excerpt": "Grass Swale ... Max Slope5 ... 4%17"
+        },
+        {
+          "slug": "wy-wydot-field",
+          "state_code": "WY",
+          "jurisdiction_name": "Wyoming Department of Transportation (WYDOT)",
+          "value": null,
+          "chapter_proxy": false,
+          "excerpt": null
+        }
+      ]
+    }
+  ],
+  "mentioning_slugs": [
+    "ak-state",
+    "alabama-handbook",
+    "albuquerque-nm-gsi",
+    "arkansas-manual",
+    "bellevue-wa",
+    "billings-mt",
+    "boise-id",
+    "boston-ma",
+    "ca-caltrans-construction",
+    "ca-casqa-municipal",
+    "charlotte-nc",
+    "chesapeake-va",
+    "chicago-il",
+    "columbus-oh",
+    "ct-state",
+    "dallas-tx",
+    "dc-guidebook",
+    "denver-co",
+    "detroit-mi",
+    "fl-fsesci-tier1",
+    "flagstaff-az",
+    "ga-state",
+    "hawaii-dot-pcbmp",
+    "houston-tx",
+    "ia-state-ch1",
+    "idaho-bmp-catalog",
+    "indiana-manual",
+    "kansas-city-marc-bmp",
+    "kentucky-bmp",
+    "las-vegas-nv",
+    "lawrence-ks",
+    "los-angeles-ca",
+    "ma-state-draft",
+    "maine-manual",
+    "md-state",
+    "miami-fl",
+    "minneapolis-mn",
+    "missouri-manual",
+    "mn-state-2008",
+    "ms-state-vol2",
+    "mt-deq8",
+    "nashville-tn-vol4",
+    "nc-state",
+    "ne-ndot-stf",
+    "nh-state",
+    "nj-state",
+    "norfolk-va",
+    "ny-bluebook",
+    "ny-state",
+    "ohio-rainwater",
+    "oklahoma-odot-ch10",
+    "pa-state",
+    "philadelphia-pa",
+    "portland-or",
+    "raleigh-nc",
+    "ri-state",
+    "salt-lake-city-ut",
+    "san-diego-ca",
+    "san-francisco-ca",
+    "sd-dot-esc",
+    "seattle-wa",
+    "south-carolina-manual",
+    "tn-state",
+    "tucson-az",
+    "tx-edwards-rg348",
+    "va-state",
+    "vt-state",
+    "wa-state-western",
+    "west-virginia-manual",
+    "wy-wydot-field"
+  ],
+  "notes": [
+    "Scoped to Tier A manuals only.",
+    "70 of 76 manuals mention practice_key=swale (design_parameters.practice_mentions or BMP text).",
+    "Numeric consensus uses mode/range of extracted values — not an adopted national standard.",
+    "Site-wide fields (WQv, drawdown, SHWT) are jurisdiction sizing context, not practice facility specs.",
+    "wqv_depth_inches [site-wide]: n=30 mode=1 range=0.37–1.61 (missing=45 in pool of 76)",
+    "max_drawdown_hours [site-wide]: n=36 mode=72 range=4–120 (missing=38 in pool of 76)",
+    "shwt_separation_inches [site-wide]: n=36 mode=24 range=12–120 (missing=38 in pool of 76)",
+    "swale_bottom_width_inches: n=8 mode=24 range=24–24 (missing=62 in pool of 70)",
+    "swale_longitudinal_slope_percent: n=10 mode=0.5 range=0.5–5 (missing=59 in pool of 70)"
+  ]
+}

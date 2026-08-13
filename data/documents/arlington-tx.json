@@ -81,6 +81,41 @@
       "field": "design_criteria.approved_bmp_categories",
       "excerpt": "Detention/Retention Ponds",
       "page_or_section": "Drainage criteria"
+    },
+    {
+      "field": "design_parameters.wqv_depth_inches",
+      "excerpt": "detain the first 1-inch of runoff from the drainage area to be released over at least 24 hours but not more than 48 hours",
+      "page_or_section": "Section 5.9 Stormwater Storage Facility, page 5-34 (114)"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "Dry storage facilities must be designed to release their full capacity over at least 24 hours but not more than 48 hours",
+      "page_or_section": "Section 5.9 Stormwater Storage Facility, page 5-34 (114)"
+    },
+    {
+      "field": "design_parameters.ed_drain_time_hours",
+      "excerpt": "Dry storage facilities must be designed to release their full capacity over at least 24 hours but not more than 48 hours",
+      "page_or_section": "Section 5.9 Stormwater Storage Facility, page 5-34 (114)"
+    },
+    {
+      "field": "design_parameters.ed_drain_time_hours",
+      "excerpt": "detain the first 1-inch of runoff from the drainage area to be released over at least 24 hours but not more than 48 hours",
+      "page_or_section": "Section 5.9 Stormwater Storage Facility, page 5-34 (114)"
+    },
+    {
+      "field": "design_parameters.permanent_pool_depth_inches",
+      "excerpt": "The pond shall be a minimum of 4 feet deep",
+      "page_or_section": "Section 5.9.C Retention ponds and amenity ponds, page 5-34 (114)"
+    },
+    {
+      "field": "design_parameters.swale_longitudinal_slope_percent",
+      "excerpt": "minimum vegetated swale slope is 2%",
+      "page_or_section": "Section 5.7.5.F Flumes and Vegetated Swales, page 5-26 (106)"
+    },
+    {
+      "field": "design_parameters.swale_longitudinal_slope_percent",
+      "excerpt": "Vegetated swale - maximum grade is 2%",
+      "page_or_section": "Section 5.10.3.D Allowable Post-Construction BMPs, page 5-37 (117)"
     }
   ],
   "extraction_quality": {
@@ -97,5 +132,48 @@
     "landing_page_url": "https://www.arlingtontx.gov/City-Services/Transportation-Streets-Traffic/Streets-and-Traffic/Engineers-Builders-Contractors/Design-Criteria-Manual",
     "retrieved_at": "2026-08-10T08:03:22.623Z",
     "original_filename": "arlington-tx.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": 1,
+    "max_drawdown_hours": 48,
+    "shwt_separation_inches": null,
+    "bioretention_media_depth_min_inches": null,
+    "bioretention_ponding_depth_inches": null,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": null,
+    "permanent_pool_depth_inches": 48,
+    "ed_drain_time_hours": 48,
+    "length_to_width_ratio": null,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": 2,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "bioretention",
+      "extended_detention",
+      "infiltration_trench",
+      "permeable_pavement",
+      "swale",
+      "wet_pond"
+    ],
+    "enriched_at": "2026-08-13T07:27:49.740Z",
+    "enrich_model": "composer-2.5:run-e17a4a33-be6f-4875-b234-93ea530e863c",
+    "enrich_notes": "Post-construction BMP numeric criteria in Section 5.9–5.10; detailed BMP sizing defers to NCTCOG iSWM Technical Manual. WQ credit ties forebay detention of first 1 in. runoff to 24–48 h release. Retention/amenity ponds minimum permanent depth 4 ft. Vegetated swales capped at 2% grade; minimum vegetated swale slope 2% in flume/swale section.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "shwt_separation_inches",
+      "bioretention_media_depth_min_inches",
+      "bioretention_ponding_depth_inches",
+      "permeable_pavement_storage_depth_inches",
+      "design_infiltration_rate_in_per_hr",
+      "length_to_width_ratio",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

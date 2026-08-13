@@ -39,6 +39,26 @@
       "field": "design_criteria.water_quality_volume_method",
       "excerpt": "First Flush: retain or treat the first 0.5 inches of direct runoff",
       "page_or_section": "Maricopa Drainage Policies 3.6.6"
+    },
+    {
+      "field": "design_parameters.wqv_depth_inches",
+      "excerpt": "The first flush is defined as the first one-half (1/2) inch of direct runoff from the contributing drainage basin.",
+      "page_or_section": "Glossary, page 151"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "Analysis confirming basin draining within 36 hours of the end of the design precipitation event is required.",
+      "page_or_section": "6.14.3 Additional Report Requirements item 4, page 131"
+    },
+    {
+      "field": "practice_mentions.swale",
+      "excerpt": "Interceptor channels (and other low impact development techniques, such as: bioswales, microbasins) may be required/needed to collect offsite flow into an onsite channel.",
+      "page_or_section": "Section 7.2 / page 140"
+    },
+    {
+      "field": "practice_mentions.permeable_pavement",
+      "excerpt": "2.7.4 Pervious Concrete ... pervious concrete \"is usually part of a water management system used to reduce runoff rates and volumes from on-grade surfaces such as patios, walkways, driveways, fire lanes, and parking spaces\"",
+      "page_or_section": "Summary of Changes 6th Edition Draft, page 195"
     }
   ],
   "extraction_quality": {
@@ -52,5 +72,47 @@
     "landing_page_url": "https://www.yumaaz.gov/",
     "retrieved_at": "2026-08-10T10:44:44.192Z",
     "original_filename": "yuma-az.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": 0.5,
+    "max_drawdown_hours": 36,
+    "shwt_separation_inches": null,
+    "bioretention_media_depth_min_inches": null,
+    "bioretention_ponding_depth_inches": null,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": null,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": null,
+    "length_to_width_ratio": null,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "permeable_pavement",
+      "swale"
+    ],
+    "enriched_at": "2026-08-13T10:38:34.927Z",
+    "enrich_model": "composer-2.5:run-01ada31c-662b-4c95-a9c6-46612b27ea57",
+    "enrich_notes": "Corpus defines First Flush as the first 0.5 inch of direct runoff (Glossary). Hydrology report checklist requires retention basin drain analysis within 36 hours after the design precipitation event. Retention basin checklist references jurisdiction-specific max depth and first-flush documentation but numeric SCM dimensions, SHWT separation, and infiltration rates are not in these excerpts (revision history references Standard 6.10.10–6.10.13 without criteria text).",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "shwt_separation_inches",
+      "bioretention_media_depth_min_inches",
+      "bioretention_ponding_depth_inches",
+      "permeable_pavement_storage_depth_inches",
+      "design_infiltration_rate_in_per_hr",
+      "permanent_pool_depth_inches",
+      "ed_drain_time_hours",
+      "length_to_width_ratio",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "swale_longitudinal_slope_percent",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

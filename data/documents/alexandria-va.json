@@ -65,6 +65,41 @@
       "field": "design_criteria.approved_bmp_categories",
       "excerpt": "Urban Bioretention; Permeable Pavement",
       "page_or_section": "TOC"
+    },
+    {
+      "field": "design_parameters.shwt_separation_inches",
+      "excerpt": "the bottom of the the soil underneath the proposed bioretention must be at least 2 feet above bedrock or the seasonal high groundwater table",
+      "page_or_section": "3.1 PLANNING FOR STORMWATER, page 31"
+    },
+    {
+      "field": "design_parameters.design_infiltration_rate_in_per_hr",
+      "excerpt": "Soil infiltration tests must demonstrate that at least ½ inch of water can percolate into the soil per hour",
+      "page_or_section": "3.1 PLANNING FOR STORMWATER, page 31"
+    },
+    {
+      "field": "design_parameters.wqv_depth_inches",
+      "excerpt": "Runoff from a storm with the 90th percentile rainfall depth of 1 inch",
+      "page_or_section": "3.1 PLANNING FOR STORMWATER, page 31"
+    },
+    {
+      "field": "design_parameters.wqv_depth_inches",
+      "excerpt": "The first ½ inch of runoff from the total impervious area of the site as per the City's Water Quality Volume Default",
+      "page_or_section": "3.1 PLANNING FOR STORMWATER, page 31"
+    },
+    {
+      "field": "design_parameters.bioretention_ponding_depth_inches",
+      "excerpt": "PONDING DEPTH DOES NOT EXCEED 1 FOOT",
+      "page_or_section": "DETAIL 10 Green Alley, DESIGN NOTES 1, page 62"
+    },
+    {
+      "field": "design_parameters.permeable_pavement_storage_depth_inches",
+      "excerpt": "RESERVOIR LAYER 9\" MIN. SEE DESIGN NOTE 2",
+      "page_or_section": "DETAIL 10 Green Alley, page 62"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "meet the design dewatering time for the facility",
+      "page_or_section": "Maintenance / sand wicks, page 46"
     }
   ],
   "extraction_quality": {
@@ -84,5 +119,46 @@
     "landing_page_url": "https://www.alexandriava.gov/stormwater-management/green-street-and-sidewalk-stormwater-design-guidelines",
     "retrieved_at": "2026-08-10T09:24:56.027Z",
     "original_filename": "alexandria-va.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": null,
+    "max_drawdown_hours": null,
+    "shwt_separation_inches": 24,
+    "bioretention_media_depth_min_inches": null,
+    "bioretention_ponding_depth_inches": 12,
+    "permeable_pavement_storage_depth_inches": 9,
+    "design_infiltration_rate_in_per_hr": 0.5,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": null,
+    "length_to_width_ratio": null,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "bioretention",
+      "permeable_pavement",
+      "swale"
+    ],
+    "enriched_at": "2026-08-13T07:22:57.546Z",
+    "enrich_model": "composer-2.5:run-72639132-0ba6-4a86-bae2-7e6f16f0f7fa",
+    "enrich_notes": "Document supplements Virginia BMP Clearinghouse for ROW urban bioretention and permeable pavement; dual WQ sizing cited (VSMP 90th-percentile 1-inch rainfall vs. City first 0.5 inch runoff from TIA). Alexandria defaults to HSG D and underdrains; permeable pavement prohibited where longitudinal slope exceeds 5%; lined systems min 2% bottom slope. Frost penetration 24 inches per building code referenced for permeable pavement freeze-thaw.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "wqv_depth_inches",
+      "max_drawdown_hours",
+      "bioretention_media_depth_min_inches",
+      "permanent_pool_depth_inches",
+      "ed_drain_time_hours",
+      "length_to_width_ratio",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "swale_longitudinal_slope_percent",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

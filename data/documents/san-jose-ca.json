@@ -103,6 +103,66 @@
       "field": "design_criteria.approved_bmp_categories",
       "excerpt": "Bioretention area; Flow-through planter box; Tree well filter; Infiltration trench; Subsurface infiltration system; Rainwater harvesting and reuse; Media filter; Extended detention basin",
       "page_or_section": "Table 5-1"
+    },
+    {
+      "field": "design_parameters.bioretention_media_depth_min_inches",
+      "excerpt": "Bioretention areas should have a minimum BSM depth of 18 inches.",
+      "page_or_section": "Chapter 6, page 104"
+    },
+    {
+      "field": "design_parameters.design_infiltration_rate_in_per_hr",
+      "excerpt": "A minimum long term infiltration rate of 5 inches per hour is required",
+      "page_or_section": "Chapter 6 bioretention, page 104"
+    },
+    {
+      "field": "design_parameters.ed_drain_time_hours",
+      "excerpt": "the outlet should be sized with a drawdown time of 48 hours for the design water quality volume",
+      "page_or_section": "Chapter 6 extended detention, page 135"
+    },
+    {
+      "field": "design_parameters.ed_drain_time_hours",
+      "excerpt": "sized to capture the required water quality volume with a 48-hour detention time",
+      "page_or_section": "Chapter 6 extended detention, page 134"
+    },
+    {
+      "field": "design_parameters.length_to_width_ratio",
+      "excerpt": "The extended detention basin should have a length to width ratio of at least 1.5:1.",
+      "page_or_section": "Chapter 6, page 135"
+    },
+    {
+      "field": "design_parameters.mtd_verification_program",
+      "excerpt": "The product must be certified by the Washington State Technical Assessment Protocol – Ecology (TAPE) program",
+      "page_or_section": "Chapter 6 tree well filters, page 115"
+    },
+    {
+      "field": "design_parameters.shwt_separation_inches",
+      "excerpt": "A 10-foot separation between the bottom of the trench and seasonal high groundwater levels is required",
+      "page_or_section": "Chapter 6 infiltration trench, page 121"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "Trenches may be designed to provide temporary storage of storm water, but should drain within 72 hours.",
+      "page_or_section": "Chapter 6 infiltration trench, page 121"
+    },
+    {
+      "field": "practice_mentions.bioretention",
+      "excerpt": "Bioretention areas, or \"rain gardens,\" function as soil and plant-based filtration measures",
+      "page_or_section": "Chapter 6.1, page 101"
+    },
+    {
+      "field": "practice_mentions.extended_detention",
+      "excerpt": "Extended detention ponds (a.k.a. dry ponds or dry extended detention basins)",
+      "page_or_section": "Chapter 6.8, page 134"
+    },
+    {
+      "field": "practice_mentions.green_roof",
+      "excerpt": "Green roofs listed as site design measure in Table 2-1",
+      "page_or_section": "Chapter 2, page 33"
+    },
+    {
+      "field": "practice_mentions.swale",
+      "excerpt": "Vegetated swales are no longer considered stand-alone LID treatment systems in the MRP.",
+      "page_or_section": "Glossary, page xxi"
     }
   ],
   "extraction_quality": {
@@ -118,5 +178,49 @@
     "landing_page_url": "https://scvurppp.org/2024/10/28/c-3-stormwater-handbook-2024/",
     "retrieved_at": "2026-08-10T07:50:00.000Z",
     "original_filename": "san-jose-ca.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": null,
+    "max_drawdown_hours": null,
+    "shwt_separation_inches": null,
+    "bioretention_media_depth_min_inches": 18,
+    "bioretention_ponding_depth_inches": null,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": 5,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": 48,
+    "length_to_width_ratio": 1.5,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": "TAPE",
+    "practice_mentions": [
+      "bioretention",
+      "extended_detention",
+      "green_roof",
+      "infiltration_trench",
+      "manufactured_treatment",
+      "permeable_pavement",
+      "swale"
+    ],
+    "enriched_at": "2026-08-13T10:03:49.166Z",
+    "enrich_model": "composer-2.5:run-17c09d0e-b391-44e3-93bd-884df79f3b4d",
+    "enrich_notes": "Volume-based treatment is sized for stormwater quality volume equal to 80% of annual runoff (California BMP Handbook Approach / Appendix B), not a single rainfall depth in inches. SHWT separation is stated as 5 ft (planters, pervious pavement, cisterns) or 10 ft (infiltration trench, subsurface infiltration drain rock)—no single handbook minimum. Drawdown limits include 48 h (extended detention WQV), 72 h (infiltration trenches/exfiltration), 48–72 h (subsurface galleries), and five days (general mosquito guidance).",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "wqv_depth_inches",
+      "max_drawdown_hours",
+      "shwt_separation_inches",
+      "bioretention_ponding_depth_inches",
+      "permeable_pavement_storage_depth_inches",
+      "permanent_pool_depth_inches",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "swale_longitudinal_slope_percent",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent"
+    ]
   }
 }

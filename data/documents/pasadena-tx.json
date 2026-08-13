@@ -36,6 +36,41 @@
       "field": "design_criteria.water_quality_volume_method",
       "excerpt": "treat the first 1 inch of runoff",
       "page_or_section": "Harris County LID/GI Design Criteria"
+    },
+    {
+      "field": "design_parameters.wqv_depth_inches",
+      "excerpt": "P = depth of runoff to treat (1\" under these guidelines)",
+      "page_or_section": "3.5.2 Sizing a Bioretention System, page 15"
+    },
+    {
+      "field": "design_parameters.wqv_depth_inches",
+      "excerpt": "treatment of the first 1\" of runoff",
+      "page_or_section": "Table 6 / 3.5.1 Requirements, page 14"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "Ponding duration not to exceed 24 hours",
+      "page_or_section": "Table 6 Surface Ponding, page 14"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "The Bioretention system should be designed so that surface ponding does not exceed 24 hours",
+      "page_or_section": "1.5 Bioretention Systems, page 30"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "must be designed to incorporate an underdrain/subsurface detention or retention system with the capacity to drain the surface of the system within 24 hours",
+      "page_or_section": "1.6.1 Underdrain, page 34"
+    },
+    {
+      "field": "design_parameters.design_infiltration_rate_in_per_hr",
+      "excerpt": "meet Harris County minimum 30\"/hour Infiltration rate requirements",
+      "page_or_section": "Appendix B, page 42"
+    },
+    {
+      "field": "design_parameters.design_infiltration_rate_in_per_hr",
+      "excerpt": "must provide a minimum safety factor of 2",
+      "page_or_section": "3.5.3 Engineered Soil Media, page 15"
     }
   ],
   "extraction_quality": {
@@ -51,5 +86,50 @@
     "landing_page_url": "https://www.pasadenatx.gov/",
     "retrieved_at": "2026-08-10T10:27:43.524Z",
     "original_filename": "pasadena-tx.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": 1,
+    "max_drawdown_hours": 24,
+    "shwt_separation_inches": null,
+    "bioretention_media_depth_min_inches": null,
+    "bioretention_ponding_depth_inches": null,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": 30,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": null,
+    "length_to_width_ratio": null,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "bioretention",
+      "extended_detention",
+      "green_roof",
+      "infiltration_trench",
+      "permeable_pavement",
+      "swale"
+    ],
+    "enriched_at": "2026-08-13T09:40:22.302Z",
+    "enrich_model": "composer-2.5:run-280f7a09-1e71-452d-9d90-bd42252bb97f",
+    "enrich_notes": "Harris County LID criteria: Vwq uses P=1 in; engineered soil design uses safety factor of 2 on infiltration rate. LID detention goal drain within 72 hours (general detention bullet). Bioretention surface ponding 2 ft (2-yr) and 4 ft (100-yr) in Table 6; general narrative 12–24 in ponding. Media depth typically 1.5–2.0 ft (sizing) and 18–24 in (vegetation); lifts max 12 in. Permeable pavement surface drain within 24 h; underdrain/storage may use impermeable liner. Extensive green roof growth media stated as 4–8 in (range). Appendix B infiltrometer pass/fail uses media-depth-specific drawdown minutes, not site hours.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "shwt_separation_inches",
+      "bioretention_media_depth_min_inches",
+      "bioretention_ponding_depth_inches",
+      "permeable_pavement_storage_depth_inches",
+      "permanent_pool_depth_inches",
+      "ed_drain_time_hours",
+      "length_to_width_ratio",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "swale_longitudinal_slope_percent",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

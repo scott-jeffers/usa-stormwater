@@ -48,6 +48,36 @@
       "field": "design_criteria.water_quality_volume_method",
       "excerpt": "retaining the required minimum ROCV for a minimum of 24 hours, (2) treating the discharge from the 2-year storm",
       "page_or_section": "§6.2 policy 14"
+    },
+    {
+      "field": "design_parameters.wqv_depth_inches",
+      "excerpt": "Low Impact Development Runoff Capture Volume (ROCV): Impervious Surface Area (sq ft) × 1 inch = ROCV.",
+      "page_or_section": "Atlas context (WQv method)"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "ROCV requirement may be met by (1) retaining the minimum ROCV for ≥24 hours",
+      "page_or_section": "Atlas context (WQv method)"
+    },
+    {
+      "field": "practice_mentions.extended_detention",
+      "excerpt": "EXTENDED DETENTION – A basin designed for retention and detention. The retention portion of the basin is below the basin outlet that holds water and allows infiltration or has an underdrain system that filters water.",
+      "page_or_section": "DEFINITIONS, page 8"
+    },
+    {
+      "field": "practice_mentions.swale",
+      "excerpt": "The gutter flow from the street section must be conveyed into a receiving channel, roadside swale, or other approved means.",
+      "page_or_section": "5.3.3.4 Curb and Gutter Terminations, page 37"
+    },
+    {
+      "field": "practice_mentions.bioretention",
+      "excerpt": "The order of preference for open channels and swales shall be: 1. The use of natural bio-filters to promote infiltration and water quality treatment.",
+      "page_or_section": "5.3.7.7 Channel Linings, page 61"
+    },
+    {
+      "field": "practice_mentions.infiltration_basin",
+      "excerpt": "RETENTION BASIN – is a stormwater storage facility which reduces runoff and is drained by subsurface infiltration or reuse instead of a positive outlet.",
+      "page_or_section": "DEFINITIONS, page 10"
     }
   ],
   "extraction_quality": {
@@ -61,5 +91,49 @@
     "landing_page_url": "https://www.flagstaff.az.gov/2131/Stormwater",
     "retrieved_at": "2026-08-10T10:42:30.501Z",
     "original_filename": "flagstaff-az.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": 1,
+    "max_drawdown_hours": 24,
+    "shwt_separation_inches": null,
+    "bioretention_media_depth_min_inches": null,
+    "bioretention_ponding_depth_inches": null,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": null,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": null,
+    "length_to_width_ratio": null,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "bioretention",
+      "extended_detention",
+      "infiltration_basin",
+      "swale"
+    ],
+    "enriched_at": "2026-08-13T08:18:56.025Z",
+    "enrich_model": "composer-2.5:run-b3d983cd-3a94-4e8b-a67d-a396a01d83e8",
+    "enrich_notes": "Corpus excerpts emphasize hydraulics, drainage reporting (ROCV/LID calculations referenced in drainage plans), and channel/swale preferences; BMP sizing and infiltration criteria are deferred to the City of Flagstaff LID Guidance Manual per atlas context. WQv is Runoff Capture Volume (ROCV): impervious area × 1 inch, with option to retain ROCV ≥24 hours, treat 2-year storm discharge, or combine.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "shwt_separation_inches",
+      "bioretention_media_depth_min_inches",
+      "bioretention_ponding_depth_inches",
+      "permeable_pavement_storage_depth_inches",
+      "design_infiltration_rate_in_per_hr",
+      "permanent_pool_depth_inches",
+      "ed_drain_time_hours",
+      "length_to_width_ratio",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "swale_longitudinal_slope_percent",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

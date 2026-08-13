@@ -41,6 +41,41 @@
       "field": "document_metadata.document_title",
       "excerpt": "MSD relies upon Chapters 3 and 4 of the Maryland Department of the Environment’s (MDE), April 2000, Stormwater Design Manual",
       "page_or_section": "Site Design Guidance"
+    },
+    {
+      "field": "design_parameters.wqv_depth_inches",
+      "excerpt": "MSD rules and regulations require the use of BMPs to treat a water quality volume of runoff from 1.14 inches of rainfall.",
+      "page_or_section": "page 14, Table 3 / Post-Construction Structural BMPs"
+    },
+    {
+      "field": "practice_mentions.bioretention",
+      "excerpt": "Bioretention",
+      "page_or_section": "page 14, Table 3 Stormwater Filtering System"
+    },
+    {
+      "field": "practice_mentions.permeable_pavement",
+      "excerpt": "Permeable Pavement",
+      "page_or_section": "page 14, Table 3 Alternative Surface Materials"
+    },
+    {
+      "field": "practice_mentions.green_roof",
+      "excerpt": "Green Roof",
+      "page_or_section": "page 14, Table 3 Alternative Surface Materials"
+    },
+    {
+      "field": "practice_mentions.swale",
+      "excerpt": "Dry Swale • Wet Swale",
+      "page_or_section": "page 14, Table 3 Open Channel Systems"
+    },
+    {
+      "field": "practice_mentions.manufactured_treatment",
+      "excerpt": "Hydrodynamic Separator Devices • MSD Approved Devices",
+      "page_or_section": "page 14, Table 3"
+    },
+    {
+      "field": "practice_mentions.extended_detention",
+      "excerpt": "Micropool Extended-Detention (ED) Ponds ... Wet ED Ponds ... ED Shallow Wetland",
+      "page_or_section": "page 14, Table 3"
     }
   ],
   "extraction_quality": {
@@ -54,5 +89,57 @@
     "landing_page_url": "https://msdprojectclear.org/what-we-do/stormwater-management/bmp-toolbox/technology-matrix/",
     "retrieved_at": "2026-08-10T10:44:44.192Z",
     "original_filename": "st-louis-mo.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": 1.14,
+    "max_drawdown_hours": null,
+    "shwt_separation_inches": null,
+    "bioretention_media_depth_min_inches": null,
+    "bioretention_ponding_depth_inches": null,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": null,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": null,
+    "length_to_width_ratio": null,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "bioretention",
+      "constructed_wetland",
+      "extended_detention",
+      "green_roof",
+      "infiltration_basin",
+      "infiltration_trench",
+      "manufactured_treatment",
+      "permeable_pavement",
+      "sand_filter",
+      "swale",
+      "wet_pond"
+    ],
+    "enriched_at": "2026-08-13T10:15:22.919Z",
+    "enrich_model": "composer-2.5:run-991f19f2-5139-44ad-b4c9-0c6465c3099d",
+    "enrich_notes": "MSD requires BMPs to treat WQv from 1.14 in rainfall; structural BMP design defers to Maryland Stormwater Design Manual (2000) Ch. 3–4. WQv also defined as storage for 90th-percentile daily rainfall per MSD Rules 4.080.02. Infiltration basin DA ≤10 ac, trench ≤5 ac; open-channel/swale BMPs ≤5 ac DA; ponds ≥10 ac; wetlands ≥25 ac. Channel protection: extended detention for 1-year 24-hour event. Example appendix shows WQv in cu ft only, not depth.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "max_drawdown_hours",
+      "shwt_separation_inches",
+      "bioretention_media_depth_min_inches",
+      "bioretention_ponding_depth_inches",
+      "permeable_pavement_storage_depth_inches",
+      "design_infiltration_rate_in_per_hr",
+      "permanent_pool_depth_inches",
+      "ed_drain_time_hours",
+      "length_to_width_ratio",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "swale_longitudinal_slope_percent",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

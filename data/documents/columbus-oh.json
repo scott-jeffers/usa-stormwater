@@ -122,6 +122,21 @@
       "field": "design_criteria.approved_bmp_categories",
       "excerpt": "Infrastructure Surface Controls Dry Detention Pond ● ● • OEPA CGP/Supplements • Columbus SWDM Wet Detention Pond ● ● • OEPA CGP/Supplements • Columbus SWDM Constructed Wetland ● ● • OEPA CGP/Supplements • Columbus SWDM Shallow Constructed Wetland ● ● • OEPA CGP/Supplements •",
       "page_or_section": "pp. 109–110"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "Areas of facilities outside the permanent pool shall be designed to drain completely toward the outlet or permanent pool within 72 hours of a precipitation event.",
+      "page_or_section": "Section 3.1 j.i (pages 106-107)"
+    },
+    {
+      "field": "design_parameters.ed_drain_time_hours",
+      "excerpt": "For extended detention, release 50% WQv in 8 hours and release 100% WQv in 24 hours",
+      "page_or_section": "Table 3-4, Section 3.4.10 (page 140)"
+    },
+    {
+      "field": "design_parameters.length_to_width_ratio",
+      "excerpt": "The minimum length-to-width ratio for a constructed wetland shall be 3:1.",
+      "page_or_section": "Section 3.4.9.1 item 2 (page 132)"
     }
   ],
   "extraction_quality": {
@@ -138,5 +153,53 @@
     "landing_page_url": "https://www.columbus.gov/Services/Columbus-Water-Power/Information-for-Customers/Public-Utility-Contractors/Stormwater-Drainage-Manual",
     "retrieved_at": "2026-08-10T07:45:00.000Z",
     "original_filename": "columbus-oh.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": null,
+    "max_drawdown_hours": 72,
+    "shwt_separation_inches": null,
+    "bioretention_media_depth_min_inches": null,
+    "bioretention_ponding_depth_inches": null,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": null,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": 24,
+    "length_to_width_ratio": 3,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "bioretention",
+      "constructed_wetland",
+      "extended_detention",
+      "green_roof",
+      "infiltration_basin",
+      "permeable_pavement",
+      "sand_filter",
+      "swale",
+      "wet_pond"
+    ],
+    "enriched_at": "2026-08-13T07:58:16.302Z",
+    "enrich_model": "composer-2.5:run-b0d7e1a5-3030-44d7-abdd-2ee779a5cbf6",
+    "enrich_notes": "WQv rainfall depth is not restated in Columbus Section 3.3; sizing references OEPA CGP and Ohio Rainwater and Land Development Manual. Shallow constructed wetlands Table 3-4 specifies minimum length-to-width 2:1 (3:1 preferred); full constructed wetlands Section 3.4.9.1 require minimum 3:1. Extended-detention release criteria also specify 50% WQv in 8 hours (Table 3-4). Wet detention open-water depths are 4–12 ft average (range, not a single design depth). Bioretention filter media depth deferred to Supplemental Specification 1604 (not in excerpts).",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "wqv_depth_inches",
+      "shwt_separation_inches",
+      "bioretention_media_depth_min_inches",
+      "bioretention_ponding_depth_inches",
+      "permeable_pavement_storage_depth_inches",
+      "design_infiltration_rate_in_per_hr",
+      "permanent_pool_depth_inches",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "swale_longitudinal_slope_percent",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

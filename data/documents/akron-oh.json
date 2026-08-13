@@ -43,6 +43,46 @@
       "field": "design_criteria.water_quality_volume_method",
       "excerpt": "for construction activities. WQv (ac-ft) = C * 0.7\u0018 * A / \u00182 (Equation \u0018) Where: C = runoff coefficient A = area draining into the BMP in acres The runoff coefficient, C, is calculated using the following equation or alternatively values provided in the current Ohio EPA NP",
       "page_or_section": "p. 37"
+    },
+    {
+      "field": "design_parameters.wqv_depth_inches",
+      "excerpt": "P = 0.75 inch precipitation depth",
+      "page_or_section": "CHAPTER 2 Bioretention Design Checklist, page 83"
+    },
+    {
+      "field": "design_parameters.wqv_depth_inches",
+      "excerpt": "WQv (ac-ft) = C * 0.75 * A / 12 (Equation 1)",
+      "page_or_section": "CHAPTER 2 Water Quality Volume, pages 37/376"
+    },
+    {
+      "field": "design_parameters.shwt_separation_inches",
+      "excerpt": "a minimum 4ft of separation required between the water table and the bioretention practice",
+      "page_or_section": "CHAPTER 2 Bioretention, page 77"
+    },
+    {
+      "field": "design_parameters.bioretention_media_depth_min_inches",
+      "excerpt": "ds = planting soil depth (2.5 feet minimum)",
+      "page_or_section": "CHAPTER 2 Bioretention, page 84"
+    },
+    {
+      "field": "design_parameters.bioretention_ponding_depth_inches",
+      "excerpt": "may be designed up to 12 inches provided ponding will not damage plant materials",
+      "page_or_section": "CHAPTER 2 Bioretention, page 80"
+    },
+    {
+      "field": "design_parameters.ed_drain_time_hours",
+      "excerpt": "draw down the extended detention volume over a 48-hour period",
+      "page_or_section": "Dry Extended Detention Basin – Design Criteria, page 40/377"
+    },
+    {
+      "field": "design_parameters.length_to_width_ratio",
+      "excerpt": "length generally exceeding 2:1 (length:width)",
+      "page_or_section": "CHAPTER 2 Bioretention, pages 80/84"
+    },
+    {
+      "field": "design_parameters.ed_drain_time_hours",
+      "excerpt": "drained over a 24-48 hour period",
+      "page_or_section": "Water Quality Volume (all pond configurations), page 37"
     }
   ],
   "extraction_quality": {
@@ -56,5 +96,50 @@
     "landing_page_url": "https://epa.ohio.gov/divisions-and-offices/surface-water/guides-manuals/rainwater-and-land-development",
     "retrieved_at": "2026-08-10T10:35:05.250Z",
     "original_filename": "akron-oh.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": 0.75,
+    "max_drawdown_hours": null,
+    "shwt_separation_inches": 48,
+    "bioretention_media_depth_min_inches": 30,
+    "bioretention_ponding_depth_inches": 12,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": null,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": 48,
+    "length_to_width_ratio": 2,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "bioretention",
+      "constructed_wetland",
+      "extended_detention",
+      "green_roof",
+      "infiltration_trench",
+      "permeable_pavement",
+      "sand_filter",
+      "swale",
+      "wet_pond"
+    ],
+    "enriched_at": "2026-08-13T07:20:05.565Z",
+    "enrich_model": "composer-2.5:run-ad0e03bc-5dc9-42d5-9399-1dfde814ccf9",
+    "enrich_notes": "Ohio WQv uses P=0.75 in (WQv ac-ft = C × 0.75 × A / 12); Ohio EPA requires +20% WQv for sediment. Extended-detention drawdown varies by pond type (dry ED 48 h; wet ED 24 h; general WQv pond language 24–48 h). Infiltration trench: soil Ks 0.5–2.0 in/hr, WQv drain 24–48 h, ≥24 in clearance from SHWT to trench bottom. Bioretention: ≥40 h drawdown (Ohio EPA), 2.5 ft min planting soil, ponding generally <6 in up to 12 in, 4 ft min SHWT separation required (2 ft recommended). Wet permanent pool mean depth 3–6 ft; wetland pool depths often 6–18 in (avg 6–12 in). Sand filter design drawdown 40 h total.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "max_drawdown_hours",
+      "permeable_pavement_storage_depth_inches",
+      "design_infiltration_rate_in_per_hr",
+      "permanent_pool_depth_inches",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "swale_longitudinal_slope_percent",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

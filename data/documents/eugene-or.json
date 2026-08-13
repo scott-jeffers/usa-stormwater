@@ -72,6 +72,66 @@
       "field": "design_criteria.approved_bmp_categories",
       "excerpt": "Stormwater quality / oil control / flow control / flood control facilities",
       "page_or_section": "Chapter 1 TOC"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "When sized for flood control, infiltration facilities must infiltrate the Flood Control Design Storm Event within 30 hours.",
+      "page_or_section": "2.2.2 Infiltration Facilities, page 34"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "The required drawdown time for Drywells is 30 hours.",
+      "page_or_section": "2.3.16 Drywell Design Requirements, page 72"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "The required drawdown time for Soakage Trenches is 30 hours.",
+      "page_or_section": "2.3.17 Soakage Trench, page 74"
+    },
+    {
+      "field": "design_parameters.shwt_separation_inches",
+      "excerpt": "The bottom of the Drywell shall be at least 5 feet above the seasonal high groundwater table unless DEQ-approved pretreatment is provided.",
+      "page_or_section": "2.3.16 Drywell, page 73"
+    },
+    {
+      "field": "design_parameters.shwt_separation_inches",
+      "excerpt": "The bottom of the Soakage Trench drain rock layer shall be no less than 5 feet above seasonally high groundwater unless DEQ-approved pretreatment is provided.",
+      "page_or_section": "2.3.17 Soakage Trench, page 75"
+    },
+    {
+      "field": "design_parameters.design_infiltration_rate_in_per_hr",
+      "excerpt": "A maximum infiltration rate of 2.5 inches per hour shall be allowed for design of extended filtration facilities based on the assumed infiltration rate through the growing medium.",
+      "page_or_section": "2.4.2 Presumptive Approach, page 77"
+    },
+    {
+      "field": "design_parameters.permanent_pool_depth_inches",
+      "excerpt": "The maximum depth of the pond shall not exceed 4 feet.",
+      "page_or_section": "2.3.8 Ponds Design Requirements, page 51"
+    },
+    {
+      "field": "design_parameters.length_to_width_ratio",
+      "excerpt": "The minimum length-to-width ratio is 3:1, at the maximum water surface elevation.",
+      "page_or_section": "2.3.8 Ponds Design Requirements, page 51"
+    },
+    {
+      "field": "practice_mentions.swale",
+      "excerpt": "Flow-rate-based facility design: Swales, filter strips, oil/water separators, and proprietary treatment systems shall be sized to treat a rate of flow draining through them.",
+      "page_or_section": "1.7.2, page 20"
+    },
+    {
+      "field": "practice_mentions.bioretention",
+      "excerpt": "Combination Flow-Rate-Volume-Based Facility: A stormwater management facility such as a rain garden, planter, sand filter, soakage trench or drywell",
+      "page_or_section": "1.4 DEFINITIONS, page 7"
+    },
+    {
+      "field": "practice_mentions.permeable_pavement",
+      "excerpt": "Contained Planters, Eco roofs, Permeable Pavements, and Tree Credits are impervious area reduction techniques.",
+      "page_or_section": "2.2.1, page 34"
+    },
+    {
+      "field": "practice_mentions.manufactured_treatment",
+      "excerpt": "Mechanical treatment facilities, if utilized must be selected from the list of approved proprietary treatment technologies",
+      "page_or_section": "2.2.4, page 34"
     }
   ],
   "extraction_quality": {
@@ -90,5 +150,52 @@
     "landing_page_url": "https://www.eugene-or.gov/477/Stormwater-Management-Manual",
     "retrieved_at": "2026-08-10T09:06:14.926Z",
     "original_filename": "eugene-or.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": null,
+    "max_drawdown_hours": 30,
+    "shwt_separation_inches": 60,
+    "bioretention_media_depth_min_inches": null,
+    "bioretention_ponding_depth_inches": null,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": 2.5,
+    "permanent_pool_depth_inches": 48,
+    "ed_drain_time_hours": null,
+    "length_to_width_ratio": 3,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "bioretention",
+      "extended_detention",
+      "green_roof",
+      "infiltration_basin",
+      "infiltration_trench",
+      "manufactured_treatment",
+      "permeable_pavement",
+      "sand_filter",
+      "swale",
+      "wet_pond"
+    ],
+    "enriched_at": "2026-08-13T08:11:04.418Z",
+    "enrich_model": "composer-2.5:run-6475e387-122b-4624-a36f-8a2ef8919a82",
+    "enrich_notes": "Water quality sizing uses Water Quality Design Storm (Appendix L referenced, not in excerpts); permanent pool volume = 2× WQ design storm runoff volume. Infiltration suitability thresholds: <2 in/hr, bedrock <5 ft, groundwater <6 ft below surface, slope >10%. NRCS A/B presumed ≥2 in/hr; C/D <2 in/hr. Drywell/soakage minimum measured rate 0.5 in/hr; optimal >2 in/hr. Swale O&M expects drain within 48 hours after storm (maintenance criterion, separate from 30 hr flood-control drawdown for infiltration/drywell/soakage). Soakage trench drain rock layer minimum 12 in deep; trench minimum width 12 in.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "wqv_depth_inches",
+      "bioretention_media_depth_min_inches",
+      "bioretention_ponding_depth_inches",
+      "permeable_pavement_storage_depth_inches",
+      "ed_drain_time_hours",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "swale_longitudinal_slope_percent",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

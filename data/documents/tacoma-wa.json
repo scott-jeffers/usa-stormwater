@@ -80,6 +80,31 @@
       "field": "design_criteria.approved_bmp_categories",
       "excerpt": "Infiltration Facilities / Detention",
       "page_or_section": "Volume 3"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "Document that the water quality design storm volume (indicated by WWHM) can infiltrate through the infiltration basin surface within 48 hours.",
+      "page_or_section": "Volume 5, Section 7.6.4.2 Drawdown Time"
+    },
+    {
+      "field": "design_parameters.shwt_separation_inches",
+      "excerpt": "A minimum of one foot of separation is required from the bottom of the drywell to the seasonal high groundwater table.",
+      "page_or_section": "Volume 3, BMP L602.b, Section 2.3.3.5"
+    },
+    {
+      "field": "design_parameters.shwt_separation_inches",
+      "excerpt": "A minimum of one foot of separation is required between the lowest elevation of the rain garden soil or any underlying gravel infiltration layer and the seasonal high groundwater elevation or other impermeable layer.",
+      "page_or_section": "Volume 6, Section 2.2.2.1.2.2 Groundwater Separation"
+    },
+    {
+      "field": "design_parameters.design_infiltration_rate_in_per_hr",
+      "excerpt": "Design (long-term) infiltration rates up to 3 inches/hour can be considered if the infiltration receptor is not a sole-source aquifer",
+      "page_or_section": "Volume 5, Section 7.6.4.1 Infiltration Rates"
+    },
+    {
+      "field": "design_parameters.design_infiltration_rate_in_per_hr",
+      "excerpt": "if the measured infiltration rate is at least 8 inches per hour.",
+      "page_or_section": "Volume 3, Section 2.5.3 Design Criteria (perforated stub-outs in fill)"
     }
   ],
   "extraction_quality": {
@@ -97,5 +122,55 @@
     "landing_page_url": "https://www.cityoftacoma.org/government/city_departments/environmentalservices/surface_water",
     "retrieved_at": "2026-08-10T08:08:51.648Z",
     "original_filename": "tacoma-wa.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": null,
+    "max_drawdown_hours": 48,
+    "shwt_separation_inches": 12,
+    "bioretention_media_depth_min_inches": null,
+    "bioretention_ponding_depth_inches": null,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": 3,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": null,
+    "length_to_width_ratio": null,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "bioretention",
+      "constructed_wetland",
+      "extended_detention",
+      "green_roof",
+      "infiltration_basin",
+      "infiltration_trench",
+      "manufactured_treatment",
+      "permeable_pavement",
+      "sand_filter",
+      "swale",
+      "wet_pond"
+    ],
+    "enriched_at": "2026-08-13T10:17:57.596Z",
+    "enrich_model": "composer-2.5:run-27e7aa1f-e354-4602-b58d-ec3706f18dab",
+    "enrich_notes": "SHWT separation varies by BMP: 12 in (1 ft) rain gardens, drywells, small bioretention, L604 trenches; 36 in (3 ft) larger bioretention; 60 in (5 ft) base of infiltration basins/trenches with possible 36 in alternative. Design infiltration: long-term up to 3 in/hr for treatment; measured initial ≤9 in/hr; fill stub-outs require ≥8 in/hr measured; rain garden infeasibility if native Ksat <0.30 in/hr. Bioretention swale ponding typically 6–12 in (range, not single design minimum). WQ volume sizing referenced via WWHM, no inch depth in excerpts.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "wqv_depth_inches",
+      "bioretention_media_depth_min_inches",
+      "bioretention_ponding_depth_inches",
+      "permeable_pavement_storage_depth_inches",
+      "permanent_pool_depth_inches",
+      "ed_drain_time_hours",
+      "length_to_width_ratio",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "swale_longitudinal_slope_percent",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

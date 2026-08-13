@@ -141,6 +141,26 @@
       "field": "design_criteria.approved_bmp_categories",
       "excerpt": "4.3 Standards and Specifications for ESC BMPs... 4.4 Runoff Conveyance and Treatment BMPs... BMP C233: Silt Fence... BMP C240: Sediment Trap... BMP C241: Temporary Sediment Pond",
       "page_or_section": "Table of Contents, Chapter 4"
+    },
+    {
+      "field": "design_parameters.permanent_pool_depth_inches",
+      "excerpt": "Permanent pool depth of 3 feet is maintained the constructed wetland or wet pond",
+      "page_or_section": "2B-24 Stormwater Treatment checklist (lacey-wa-c0138)"
+    },
+    {
+      "field": "design_parameters.length_to_width_ratio",
+      "excerpt": "3 to 1 length to width treatment ratio included",
+      "page_or_section": "2B-24 Stormwater Treatment checklist (lacey-wa-c0138)"
+    },
+    {
+      "field": "design_parameters.swale_bottom_width_inches",
+      "excerpt": "Minimum swale width is 2 feet, maximum swale width is 10 feet",
+      "page_or_section": "2B-24 Stormwater Treatment checklist (lacey-wa-c0138)"
+    },
+    {
+      "field": "design_parameters.green_roof_media_depth_inches",
+      "excerpt": "Green Roof — 3-8 inches soil medium; > 8 inches soil medium",
+      "page_or_section": "Table 5.3 LID Techniques Represented in WWHM3, Section 5.1.1 (lacey-wa-c0252)"
     }
   ],
   "extraction_quality": {
@@ -156,5 +176,54 @@
     "landing_page_url": "https://cityoflacey.org/",
     "retrieved_at": "2026-08-08T10:35:23.259Z",
     "original_filename": "lacey-wa.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": null,
+    "max_drawdown_hours": null,
+    "shwt_separation_inches": null,
+    "bioretention_media_depth_min_inches": null,
+    "bioretention_ponding_depth_inches": null,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": null,
+    "permanent_pool_depth_inches": 36,
+    "ed_drain_time_hours": null,
+    "length_to_width_ratio": 3,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": 24,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": 3,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "bioretention",
+      "constructed_wetland",
+      "extended_detention",
+      "green_roof",
+      "infiltration_basin",
+      "infiltration_trench",
+      "manufactured_treatment",
+      "permeable_pavement",
+      "sand_filter",
+      "swale",
+      "wet_pond"
+    ],
+    "enriched_at": "2026-08-13T08:50:35.553Z",
+    "enrich_model": "composer-2.5:run-e05aa384-a0eb-4bff-9242-cc607ae49d9b",
+    "enrich_notes": "WQv is defined as 91st-percentile 24-hour runoff volume via WWHM/Thurston County, not as a fixed rainfall depth in inches. Infiltration waiver cites native pre-developed soils with infiltration rate less than 0.5 in/hr (Section 1.3 / flow control), not a facility design infiltration rate. Green roof WWHM table lists 3–8 in and >8 in soil medium categories. Treatment swale checklist gives min width 2 ft, max width 10 ft, max flow depth 2 in, max velocity 1.5 fps, flow line slope 1–4%, min flow length 50 ft. Chapters 6–7 BMP numeric specs largely absent from this extract (TOC/forms only).",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "wqv_depth_inches",
+      "max_drawdown_hours",
+      "shwt_separation_inches",
+      "bioretention_media_depth_min_inches",
+      "bioretention_ponding_depth_inches",
+      "permeable_pavement_storage_depth_inches",
+      "design_infiltration_rate_in_per_hr",
+      "ed_drain_time_hours",
+      "wetland_detention_hours",
+      "swale_longitudinal_slope_percent",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

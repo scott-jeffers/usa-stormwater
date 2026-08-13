@@ -76,6 +76,86 @@
       "field": "design_criteria.approved_bmp_categories",
       "excerpt": "bioretention basins or rain gardens / Retention, Detention, and Best Management Practices",
       "page_or_section": "6-1300"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "Facilities must be designed to dewater completely within 48 hours.",
+      "page_or_section": "§ 6-1303 (Infiltration Practices), page 146"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "Facilities must be designed to dewater completely within 24 hours.",
+      "page_or_section": "§ 6-1304.2H (Permeable Pavement), page 152"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "The treatment volume must drain through the filter section in 24 hours.",
+      "page_or_section": "§ 6-1307.5C (Bioretention), page 165"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "The facility must drain completely within 48 hours after the water quality volume has been captured by the filter section.",
+      "page_or_section": "§ 6-1307.6D (Bioretention), page 166"
+    },
+    {
+      "field": "design_parameters.shwt_separation_inches",
+      "excerpt": "The depth between the bottom of the facility and groundwater table or bedrock must be a minimum of 4 feet for infiltration facilities",
+      "page_or_section": "§ 6-1303, page 146"
+    },
+    {
+      "field": "design_parameters.shwt_separation_inches",
+      "excerpt": "The bottom of the facility must be a minimum of 4 feet above the groundwater table and bedrock for facilities designed to provide infiltration and a minimum of 2 feet above the groundwater table and bedrock for all other facilities",
+      "page_or_section": "§ 6-1304.2G (Permeable Pavement), page 152"
+    },
+    {
+      "field": "design_parameters.shwt_separation_inches",
+      "excerpt": "The depth between the bottom of the facility and groundwater table or bedrock must be a minimum of 4 feet for bioretention basins and a minimum of 2 feet for bioretention filters",
+      "page_or_section": "§ 6-1307, page 164"
+    },
+    {
+      "field": "design_parameters.shwt_separation_inches",
+      "excerpt": "The depth between the bottom of the gravel underdrain and the groundwater table or bedrock must be a minimum of 2 feet",
+      "page_or_section": "§ 6-1308.4E (Vegetated Swales), page 175"
+    },
+    {
+      "field": "design_parameters.design_infiltration_rate_in_per_hr",
+      "excerpt": "A coefficient of permeability of 1.5 inches/hour for the soil media must be used for sizing calculations.",
+      "page_or_section": "§ 6-1307.5C (Bioretention), page 165"
+    },
+    {
+      "field": "design_parameters.design_infiltration_rate_in_per_hr",
+      "excerpt": "Underdrains must be provided for all infiltration facilities on marginal soils (field measured infiltration rates 0.5 -1.0 in./hr.)",
+      "page_or_section": "§ 6-1303, page 146"
+    },
+    {
+      "field": "design_parameters.bioretention_media_depth_min_inches",
+      "excerpt": "If large trees and shrubs are to be installed, soil depths must be increased to a minimum of 4 feet.",
+      "page_or_section": "§ 6-1307, page 164"
+    },
+    {
+      "field": "design_parameters.bioretention_ponding_depth_inches",
+      "excerpt": "hf = maximum ponding depth (ft.)",
+      "page_or_section": "§ 6-1307.5B (Bioretention filter drain time equation), page 165"
+    },
+    {
+      "field": "design_parameters.green_roof_media_depth_inches",
+      "excerpt": "Extensive systems are shallow systems, having a growth media depth of 2-6 inches",
+      "page_or_section": "§ 6-1309.1A (Vegetated Roofs), page 179"
+    },
+    {
+      "field": "design_parameters.green_roof_media_depth_inches",
+      "excerpt": "Intensive systems have a growth media depth of 6 inches or greater",
+      "page_or_section": "§ 6-1309.1A (Vegetated Roofs), page 179"
+    },
+    {
+      "field": "design_parameters.length_to_width_ratio",
+      "excerpt": "a computation of the ratio of the shortest flow path to overall length of the facility",
+      "page_or_section": "§ 6-1307.12D (Bioretention plan submission), page 171"
+    },
+    {
+      "field": "design_parameters.mtd_verification_program",
+      "excerpt": "Approvals from the Virginia Department of Environmental Quality (DEQ);",
+      "page_or_section": "§ 6-0402.3B (Manufactured BMPs), page 108"
     }
   ],
   "extraction_quality": {
@@ -94,5 +174,58 @@
     "landing_page_url": "https://www.fairfaxcounty.gov/landdevelopment/public-facilities-manual",
     "retrieved_at": "2026-08-10T08:34:54.567Z",
     "original_filename": "fairfax-county-va.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": null,
+    "max_drawdown_hours": null,
+    "shwt_separation_inches": null,
+    "bioretention_media_depth_min_inches": null,
+    "bioretention_ponding_depth_inches": null,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": null,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": null,
+    "length_to_width_ratio": null,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "bioretention",
+      "constructed_wetland",
+      "extended_detention",
+      "green_roof",
+      "infiltration_basin",
+      "infiltration_trench",
+      "manufactured_treatment",
+      "permeable_pavement",
+      "sand_filter",
+      "swale",
+      "wet_pond"
+    ],
+    "enriched_at": "2026-08-13T08:12:45.985Z",
+    "enrich_model": "composer-2.5:run-01f88a7d-2b56-44cd-9fa5-20fb01540556",
+    "enrich_notes": "Fairfax PFM defers treatment/WQ volume sizing to Virginia Stormwater Design Specifications (P-FIL/BAS); provided excerpts do not state a WQV rainfall depth in inches. Facility dewatering is explicitly 48 hours for infiltration gravel storage, bioretention facilities overall, and bioretention gravel layer after WQ capture; 24 hours for permeable pavement with infiltration and for bioretention filter-section drain (treatment volume through filter). SHWT/bedrock separation is 4 feet (48 in) for infiltration facilities, bioretention basins, and permeable pavement with infiltration; 2 feet (24 in) for bioretention filters, permeable pavement without infiltration focus, and dry swale underdrain bottom. Bioretention sizing uses soil media permeability 1.5 in/hr; marginal infiltration soils cited as 0.5–1.0 in/hr field measured. Bioretention soil depth with large trees/shrubs minimum 4 ft; otherwise per P-FIL-05. Extensive vegetated roofs: growth media 2–6 in; intensive ≥6 in. Manufactured BMPs reference Virginia BMP Clearinghouse and DEQ approvals, not TAPE/NJCAT by name.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "wqv_depth_inches",
+      "max_drawdown_hours",
+      "shwt_separation_inches",
+      "bioretention_media_depth_min_inches",
+      "bioretention_ponding_depth_inches",
+      "permeable_pavement_storage_depth_inches",
+      "design_infiltration_rate_in_per_hr",
+      "permanent_pool_depth_inches",
+      "ed_drain_time_hours",
+      "length_to_width_ratio",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "swale_longitudinal_slope_percent",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

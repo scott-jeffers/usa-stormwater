@@ -71,6 +71,26 @@
       "field": "design_criteria.approved_bmp_categories",
       "excerpt": "Local Detention Basins / Water Quality Vegetated Swale",
       "page_or_section": "Chapter 7 / Figure 6-9"
+    },
+    {
+      "field": "design_parameters.swale_longitudinal_slope_percent",
+      "excerpt": "the maximum bed slope should not be more than 6 percent, unless check dams are used",
+      "page_or_section": "Chapter 6 – Open Channels, 6.4.2.3.2 Water Quality Vegetated Swales (page 6-12)"
+    },
+    {
+      "field": "practice_mentions.swale",
+      "excerpt": "water quality vegetated swales are designed in accordance with the Water Quality Management Plan (WQMP) Technical Guidance Document (TGD)",
+      "page_or_section": "Chapter 6, 6.4.2.3.2"
+    },
+    {
+      "field": "practice_mentions.extended_detention",
+      "excerpt": "Perforated risers are a special case of orifice flow that can be used to obtain extended detention times.",
+      "page_or_section": "Chapter 7 – Local Detention Basins, 7.4.3.7 (page 7-21)"
+    },
+    {
+      "field": "practice_mentions.wet_pond",
+      "excerpt": "the water quality retention volume (e.g., volume for infiltration and wet pond volume) shall be provided in addition to the volume designated for flood storage",
+      "page_or_section": "Chapter 7, 7.2.8 Conjunctive Use of Detention Facilities (page 7-9)"
     }
   ],
   "extraction_quality": {
@@ -89,5 +109,49 @@
     "landing_page_url": "https://ocpublicworks.com/",
     "retrieved_at": "2026-08-10T08:03:22.623Z",
     "original_filename": "orange-county-ca.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": null,
+    "max_drawdown_hours": null,
+    "shwt_separation_inches": null,
+    "bioretention_media_depth_min_inches": null,
+    "bioretention_ponding_depth_inches": null,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": null,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": null,
+    "length_to_width_ratio": null,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": 6,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "extended_detention",
+      "swale",
+      "wet_pond"
+    ],
+    "enriched_at": "2026-08-13T09:34:22.943Z",
+    "enrich_model": "composer-2.5:run-41f40649-c3d1-42d1-aa57-cbca6dc12f22",
+    "enrich_notes": "OC Local Drainage Manual defers WQ BMP sizing to OC DAMP/WQMP TGD (e.g. BIO-2 vegetated swale). LDM Ch.7 covers local flood detention; WQ retention/wet-pond volume is additive per DAMP. Only explicit swale slope cap (6% max bed slope) appears in LDM text; perforated risers noted for extended detention without drain-time hours.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "wqv_depth_inches",
+      "max_drawdown_hours",
+      "shwt_separation_inches",
+      "bioretention_media_depth_min_inches",
+      "bioretention_ponding_depth_inches",
+      "permeable_pavement_storage_depth_inches",
+      "design_infiltration_rate_in_per_hr",
+      "permanent_pool_depth_inches",
+      "ed_drain_time_hours",
+      "length_to_width_ratio",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

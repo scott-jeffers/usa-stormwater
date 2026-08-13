@@ -44,6 +44,31 @@
       "field": "design_criteria.water_quality_volume_method",
       "excerpt": "WQV = (P)(Rv)(A) where P = 1 inch of rainfall",
       "page_or_section": "NH Model Stormwater Standards"
+    },
+    {
+      "field": "design_parameters.wqv_depth_inches",
+      "excerpt": "WQV = (P)(Rv)(A) P = 1 inch of rainfall",
+      "page_or_section": "Table 1, page 10"
+    },
+    {
+      "field": "design_parameters.wqv_depth_inches",
+      "excerpt": "onsite retention of the first 1-inch of rainfall based on hydrologic soil group (HSG)",
+      "page_or_section": "Element C.2.a, page 4"
+    },
+    {
+      "field": "practice_mentions.bioretention",
+      "excerpt": "raingardens, bioretention systems, tree box filters",
+      "page_or_section": "Element C.1.b, page 3"
+    },
+    {
+      "field": "practice_mentions.constructed_wetland",
+      "excerpt": "subsurface gravel wetlands",
+      "page_or_section": "Element C.2.b, page 4"
+    },
+    {
+      "field": "practice_mentions.swale",
+      "excerpt": "catch basins, swales, detention/bioretention areas",
+      "page_or_section": "Element D.1.d, page 5"
     }
   ],
   "extraction_quality": {
@@ -57,5 +82,52 @@
     "landing_page_url": "https://extension.unh.edu/stormwater-center/nh-stormwater-manual",
     "retrieved_at": "2026-08-10T10:10:49.504Z",
     "original_filename": "nashua-nh.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": 1,
+    "max_drawdown_hours": null,
+    "shwt_separation_inches": null,
+    "bioretention_media_depth_min_inches": null,
+    "bioretention_ponding_depth_inches": null,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": null,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": null,
+    "length_to_width_ratio": null,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "bioretention",
+      "constructed_wetland",
+      "extended_detention",
+      "infiltration_basin",
+      "sand_filter",
+      "swale"
+    ],
+    "enriched_at": "2026-08-13T09:19:08.359Z",
+    "enrich_model": "composer-2.5:run-fec4f250-c6d2-4fed-9df1-31046b1245c2",
+    "enrich_notes": "WQV uses P = 1 inch explicitly in Table 1; WPS cites onsite retention of the first 1-inch of rainfall by HSG. BMP sizing and pollutant removal (90% TSS, 60% TN/TP) defer to NH Stormwater Manual and UNH Stormwater Center; excerpts contain no SCM dimensional or drawdown criteria.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "max_drawdown_hours",
+      "shwt_separation_inches",
+      "bioretention_media_depth_min_inches",
+      "bioretention_ponding_depth_inches",
+      "permeable_pavement_storage_depth_inches",
+      "design_infiltration_rate_in_per_hr",
+      "permanent_pool_depth_inches",
+      "ed_drain_time_hours",
+      "length_to_width_ratio",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "swale_longitudinal_slope_percent",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

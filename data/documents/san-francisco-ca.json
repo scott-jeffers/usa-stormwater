@@ -126,6 +126,36 @@
       "field": "design_criteria.approved_bmp_categories",
       "excerpt": "1st Priority: Reduce Stormwater Runoff — Rainwater harvesting, Permeable pavement, Vegetated roof; 2nd Priority: Detain & Biotreat — Unlined bioretention, Subsurface infiltration, Bioretention swales, Infiltration basin, Constructed wetland, Lined bioretention; 3rd Priority: Detain — Detention tank, Wet pond, Detention pond",
       "page_or_section": "Chapter 5 Figure 7 Combined Sewer Area BMP Hierarchy"
+    },
+    {
+      "field": "fields_not_found",
+      "excerpt": "percentile, 24-hour storm. This storm translates to a rainfall depth of approximately 0.63",
+      "page_or_section": "p88"
+    },
+    {
+      "field": "design_parameters.bioretention_ponding_depth_inches",
+      "excerpt": "Appendix A: BMP Fact Sheets is another valuable design tool that provides guidance on BMP design parameters, such as the ponding depth, media depth, and maximum drawdown times.",
+      "page_or_section": "Chapter 4, Task 3C Design BMPs (pages 68-69)"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "provides guidance on BMP design parameters, such as the ponding depth, media depth, and maximum drawdown times.",
+      "page_or_section": "Chapter 4, Task 3C Design BMPs (pages 68-69)"
+    },
+    {
+      "field": "design_parameters.wqv_depth_inches",
+      "excerpt": "Projects within SFPUC jurisdiction must manage the 90th percentile, 24-hour storm • Projects within the Port's jurisdiction must manage the 85th percentile, 24-hour storm",
+      "page_or_section": "Table 3, Separate Sewer Area Performance (page 85)"
+    },
+    {
+      "field": "design_parameters.shwt_separation_inches",
+      "excerpt": "Limitations of infiltration-based BMPs, including set-back distances and depth to groundwater, were updated, and references to the new Appendix C: Criteria for Infiltration-Based BMPs were added.",
+      "page_or_section": "Appendix A Changes (page 19)"
+    },
+    {
+      "field": "design_parameters.mtd_verification_program",
+      "excerpt": "projects may be able to incorporate high-rate filtration BMPs (e.g. tree-box filters and media filters) into their site design pending approval by the SFPUC or Port.",
+      "page_or_section": "Chapter 6 Separate Sewer Area (pages 91-92)"
     }
   ],
   "extraction_quality": {
@@ -141,5 +171,57 @@
     "landing_page_url": "https://www.sfpuc.gov/construction-contracts/new-developments/stormwater-management",
     "retrieved_at": "2026-08-10T07:45:00.000Z",
     "original_filename": "san-francisco-ca.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": null,
+    "max_drawdown_hours": null,
+    "shwt_separation_inches": null,
+    "bioretention_media_depth_min_inches": null,
+    "bioretention_ponding_depth_inches": null,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": null,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": null,
+    "length_to_width_ratio": null,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "bioretention",
+      "constructed_wetland",
+      "extended_detention",
+      "green_roof",
+      "infiltration_basin",
+      "infiltration_trench",
+      "manufactured_treatment",
+      "permeable_pavement",
+      "swale",
+      "wet_pond"
+    ],
+    "enriched_at": "2026-08-13T10:03:10.393Z",
+    "enrich_model": "composer-2.5:run-ebff62ae-cea3-45f5-94bd-3d853e377d39",
+    "enrich_notes": "Provided corpus is mostly regulatory overview, BMP hierarchies, and Table 1 definitions; it references Appendix A for ponding depth, media depth, and maximum drawdown times but does not tabulate numeric values. Separate-sewer large projects size to 90th/85th percentile 24-hour storms (SFPUC/Port); combined-sewer cases use 1- and 2-year 24-hour storm performance—no explicit WQv depth in inches in these excerpts. Infiltration criteria are pointed to Appendix C without numeric separation or design infiltration rate here.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "wqv_depth_inches",
+      "max_drawdown_hours",
+      "shwt_separation_inches",
+      "bioretention_media_depth_min_inches",
+      "bioretention_ponding_depth_inches",
+      "permeable_pavement_storage_depth_inches",
+      "design_infiltration_rate_in_per_hr",
+      "permanent_pool_depth_inches",
+      "ed_drain_time_hours",
+      "length_to_width_ratio",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "swale_longitudinal_slope_percent",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

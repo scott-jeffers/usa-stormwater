@@ -47,6 +47,51 @@
       "field": "design_criteria.water_quality_volume_method",
       "excerpt": "WQDS: 1.25 inches of rain falling nonuniformly over 2 hours",
       "page_or_section": "N.J.A.C. 7:8-5.5 / Ch.5"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "The capacity of the underdrain must be sufficient to allow the system to drain within 72 hours",
+      "page_or_section": "Green Infrastructure BMPs, Chapter 9.7, page 74 (paterson-nj-c0092)"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "If the small-scale bioretention system with underdrain is installed in an area subject to pedestrian traffic, the drain time should be reduced to 24 hours",
+      "page_or_section": "Green Infrastructure BMPs, Chapter 9.7, page 74 (paterson-nj-c0092)"
+    },
+    {
+      "field": "design_parameters.shwt_separation_inches",
+      "excerpt": "The seasonal high water table (SHWT) must be at least 1 foot below the bottom of the gravel layer",
+      "page_or_section": "Green Infrastructure BMPs, Chapter 9.7, page 74 (paterson-nj-c0092)"
+    },
+    {
+      "field": "design_parameters.shwt_separation_inches",
+      "excerpt": "the elevation difference between the basin bottom and the SHWT is 5 ft, which is greater than the 2 ft mimimum separation requirement",
+      "page_or_section": "Chapter 9.7 Example 3, page 87 (paterson-nj-c0105)"
+    },
+    {
+      "field": "design_parameters.bioretention_media_depth_min_inches",
+      "excerpt": "Since the soil bed must support the growth of the tree, the minimum depth of 18 inches may not be sufficient",
+      "page_or_section": "Green Infrastructure BMPs, Chapter 9.7, page 79 (paterson-nj-c0097)"
+    },
+    {
+      "field": "design_parameters.bioretention_ponding_depth_inches",
+      "excerpt": "The water depth above the soil bed should not exceed the maximum design depth of 12 inches",
+      "page_or_section": "Green Infrastructure BMPs, Chapter 9.7, page 81 (paterson-nj-c0099)"
+    },
+    {
+      "field": "design_parameters.bioretention_ponding_depth_inches",
+      "excerpt": "For the WQDS, the maximum depth of runoff is 18 inches at the down-gradient end of a sloped-bottom system",
+      "page_or_section": "Green Infrastructure BMPs, Chapter 9.7, page 79 (paterson-nj-c0097)"
+    },
+    {
+      "field": "design_parameters.swale_longitudinal_slope_percent",
+      "excerpt": "In sloped-bottom systems, the maximum longitudinal slope is 10%",
+      "page_or_section": "Green Infrastructure BMPs, Chapter 9.7, page 79 (paterson-nj-c0097)"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "The 72 hour maximum has not been exceeded, meaning the procedure may be continued",
+      "page_or_section": "Chapter 5, page 44 (paterson-nj-c0054)"
     }
   ],
   "extraction_quality": {
@@ -62,5 +107,46 @@
     "landing_page_url": "https://dep.nj.gov/stormwater/stormwater-management/bmp-manual/",
     "retrieved_at": "2026-08-10T09:45:18.908Z",
     "original_filename": "paterson-nj.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": null,
+    "max_drawdown_hours": 72,
+    "shwt_separation_inches": 12,
+    "bioretention_media_depth_min_inches": 18,
+    "bioretention_ponding_depth_inches": 12,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": null,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": null,
+    "length_to_width_ratio": null,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": 10,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "bioretention",
+      "infiltration_basin",
+      "manufactured_treatment",
+      "swale"
+    ],
+    "enriched_at": "2026-08-13T09:41:05.985Z",
+    "enrich_model": "composer-2.5:run-994da52c-591e-42d2-bd02-b49db54a133f",
+    "enrich_notes": "Atlas WQDS 1.25 in is not stated in excerpts. SHWT: 1 ft below gravel layer (underdrain bioretention); Example 3 cites 2 ft minimum separation for infiltration rain garden. Bioretention swale WQDS max runoff depth 18 in at down-gradient end (distinct from 12 in max ponding above soil bed in planter example). Pedestrian areas: 24 hr drain time for underdrain bioretention vs 72 hr general maximum. Infiltration period cap 72 hr referenced in Chapter 5 mounding examples.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "wqv_depth_inches",
+      "permeable_pavement_storage_depth_inches",
+      "design_infiltration_rate_in_per_hr",
+      "permanent_pool_depth_inches",
+      "ed_drain_time_hours",
+      "length_to_width_ratio",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

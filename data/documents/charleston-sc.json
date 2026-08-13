@@ -76,6 +76,46 @@
       "field": "design_criteria.approved_bmp_categories",
       "excerpt": "permanent construction stormwater management practices / BMPs",
       "page_or_section": "Introduction"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "The infiltration device shall be designed to completely drain of water within 72 hours.",
+      "page_or_section": "Section 3.10.4 / page 97"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "Permeable pavement systems shall be designed to completely drain within 72 hours.",
+      "page_or_section": "Section 3.12.2 / page 101"
+    },
+    {
+      "field": "design_parameters.shwt_separation_inches",
+      "excerpt": "The bottom of the infiltration practice shall be at least 0.5 feet above the seasonal high water table",
+      "page_or_section": "Section 3.10.4 / page 97"
+    },
+    {
+      "field": "design_parameters.shwt_separation_inches",
+      "excerpt": "a standard separation distance of at least 0.5 feet between the seasonally high groundwater table ... and the bottom invert of the filter strip",
+      "page_or_section": "Section 3.12.13.1 / page 106"
+    },
+    {
+      "field": "design_parameters.wqv_depth_inches",
+      "excerpt": "Tier Rainfall Depth (inches) I – Green Infrastructure 1.0 ... III – Detention Practices 2.8",
+      "page_or_section": "Table 3, TPD 8 / page 240"
+    },
+    {
+      "field": "design_parameters.ed_drain_time_hours",
+      "excerpt": "detain the stormwater runoff for a slow release over at least 24-hours and no more than 72 hours",
+      "page_or_section": "Section 3.12.12 / page 105"
+    },
+    {
+      "field": "design_parameters.design_infiltration_rate_in_per_hr",
+      "excerpt": "The maximum infiltration rate that can be used for design purposes is 3.0 inches per hour.",
+      "page_or_section": "TPD 9 / page 244"
+    },
+    {
+      "field": "design_parameters.mtd_verification_program",
+      "excerpt": "Pre-fabricated or proprietary treatment devices are approved on a case-by-case basis if adequate removal efficiency can be demonstrated. Provide pollutant removal efficiency data from a third-party testing company.",
+      "page_or_section": "Appendix E checklist / page 187"
     }
   ],
   "extraction_quality": {
@@ -93,5 +133,56 @@
     "landing_page_url": "https://charleston-sc.gov/351/Stormwater-Design-Standards-Manual",
     "retrieved_at": "2026-08-10T09:06:14.926Z",
     "original_filename": "charleston-sc.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": null,
+    "max_drawdown_hours": 72,
+    "shwt_separation_inches": 6,
+    "bioretention_media_depth_min_inches": null,
+    "bioretention_ponding_depth_inches": null,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": null,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": null,
+    "length_to_width_ratio": null,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "bioretention",
+      "constructed_wetland",
+      "extended_detention",
+      "green_roof",
+      "infiltration_basin",
+      "infiltration_trench",
+      "manufactured_treatment",
+      "permeable_pavement",
+      "sand_filter",
+      "swale",
+      "wet_pond"
+    ],
+    "enriched_at": "2026-08-13T07:48:35.642Z",
+    "enrich_model": "composer-2.5:run-9983e43b-0567-4c6e-9604-9510185ce267",
+    "enrich_notes": "Water quality sizing uses a tiered 24-hour rainfall depth (Table 3): Tier I GI 1.0 in, Tier I near shellfish beds 1.5 in, Tier II GI with underdrain 2.0 in, Tier III detention 2.8 in, Tier IV pass-through sized to peak flow from 2.8 in. Appendix E checklist cites wet ponds for first 0.5 in of runoff and dry ponds for first 1.0 in, with minimum 24-hour release. Many BMP detail dimensions defer to Low Impact Development in Coastal South Carolina: A Planning and Design Guide (Ellis et al. 2014). Infiltration soils require field rate ≥0.5 in/hr; design rate uses minimum FOS 2 (half field measured); maximum design infiltration rate is 3.0 in/hr unless design exception. Extended detention and wetland release windows are 24–72 hours. Dry/grass swale channels described as typically 4–18 inches deep (depth, not bottom width).",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "wqv_depth_inches",
+      "bioretention_media_depth_min_inches",
+      "bioretention_ponding_depth_inches",
+      "permeable_pavement_storage_depth_inches",
+      "design_infiltration_rate_in_per_hr",
+      "permanent_pool_depth_inches",
+      "ed_drain_time_hours",
+      "length_to_width_ratio",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "swale_longitudinal_slope_percent",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

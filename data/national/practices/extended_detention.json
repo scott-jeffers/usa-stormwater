@@ -1,0 +1,128 @@
+{
+  "version": 1,
+  "practice_key": "extended_detention",
+  "practice_label": "Extended Detention",
+  "generated_at": "2026-08-13T10:40:48.378Z",
+  "model": "composer-2.5:run-51dbf61e-1fa6-4e79-ac36-47a83fed08fd",
+  "editorial_status": "draft",
+  "national_baseline": "Among Tier A manuals that mention extended detention, site-wide water-quality volume depth is most often cited at 1 inch (n=30, median 1, range 0.37–1.61 inches), reflecting jurisdiction-level sizing rather than a single facility storage depth. Site-wide maximum drawdown time clusters at 72 hours as the mode with a median of 48 hours (n=36, range 4–120 hours). Seasonal high water table separation for pond-type BMPs is frequently 24 inches at the mode but 36 inches at the median (n=36, range 12–120 inches), again as site-wide context. Where manuals specify extended-detention drain or drawdown time for the practice itself, the mode is 24 hours with median 40 hours (n=25, range 24–72 hours). Basin geometry guidance is thin but when present favors a length-to-width ratio of 2 (n=19, median 2, range 0.3–3). These figures describe extracted manual language, not an adopted national standard.",
+  "regional_modifiers": [
+    {
+      "id": "cold_climate",
+      "title": "Cold climate and shorter drawdown windows",
+      "text": "Several northern and mountain jurisdictions pair extended detention with shorter site-wide maximum drawdown or practice drain times than the 72-hour site-wide mode—for example 24-hour caps at flagstaff-az and seattle-wa for site-wide max drawdown, and 24-hour ed_drain_time_hours at ak-state, mn-state-2008, ma-state-draft, md-state, and vt-state. Minnesota site-wide WQv depth is 1.25 inches (minneapolis-mn, ia-state-ch1 proxy context) versus the 1-inch mode elsewhere.",
+      "states": [
+        "AK",
+        "AZ",
+        "MA",
+        "MD",
+        "MN",
+        "MT",
+        "VT",
+        "WA"
+      ],
+      "citation_slugs": [
+        "ak-state",
+        "flagstaff-az",
+        "ma-state-draft",
+        "md-state",
+        "minneapolis-mn",
+        "mn-state-2008",
+        "seattle-wa",
+        "vt-state"
+      ]
+    },
+    {
+      "id": "coastal_high_water_table",
+      "title": "Coastal and high water table — tighter SHWT separation",
+      "text": "Site-wide seasonal high water table separation drops to 12 inches in several manuals (chesapeake-va, raleigh-nc, maine-manual, mt-deq8, nj-state chapter proxy), below the 24-inch mode. Texas coastal sizing includes 48-inch separation at houston-tx and tx-edwards-rg348 where cited.",
+      "states": [
+        "ME",
+        "MT",
+        "NJ",
+        "NC",
+        "TX",
+        "VA"
+      ],
+      "citation_slugs": [
+        "chesapeake-va",
+        "houston-tx",
+        "maine-manual",
+        "mt-deq8",
+        "nj-state",
+        "raleigh-nc",
+        "tx-edwards-rg348"
+      ]
+    },
+    {
+      "id": "karst_sensitive",
+      "title": "Karst-sensitive groundwater (Edwards-related citations)",
+      "text": "Texas Edwards-related guidance in the matrix lists 48-inch SHWT separation, 48-hour ed_drain_time_hours, and a length-to-width ratio of 1 at tx-edwards-rg348—distinct from the 2:1 mode where geometry is specified.",
+      "states": [
+        "TX"
+      ],
+      "citation_slugs": [
+        "tx-edwards-rg348"
+      ]
+    },
+    {
+      "id": "arid_west",
+      "title": "Arid West — shallow WQv and mixed drawdown",
+      "text": "Las Vegas site-wide WQv depth is 0.37 inches with 72-hour max drawdown and 24-inch SHWT separation (las-vegas-nv). Denver site-wide WQv is 0.6 inches (denver-co). Albuquerque site-wide max drawdown is 96 hours (albuquerque-nm-gsi). Practice ed_drain_time at las-vegas-nv is 24 hours.",
+      "states": [
+        "CO",
+        "NM",
+        "NV"
+      ],
+      "citation_slugs": [
+        "albuquerque-nm-gsi",
+        "denver-co",
+        "las-vegas-nv"
+      ]
+    }
+  ],
+  "open_issues": "Roughly half of Tier A manuals lack extractable numerics for key site-wide fields (WQv depth missing in 45 of 76; max drawdown and SHWT each missing in 38 of 76). Extended-detention-specific ed_drain_time_hours is documented in only 25 of 60 mentioning manuals (missing 32), and length-to-width ratio in only 19 (missing 40), so geometry and facility drain-time baselines are not yet established numerically at national scale. Site-wide drawdown ranges from 4 hours (fl-fsesci-tier1) to 120 hours (ms-state-vol2), and SHWT from 12 to 120 inches (san-diego-ca), indicating strong regional divergence not fully captured in a single temperate default. Several values rely on chapter_proxy extractions (ia-state-ch1, de-wet-ponds-draft, nj-state, va-state). Whether site-wide WQv and drawdown limits map one-to-one to extended detention basin design versus broader stormwater programs remains an interpretive gap for synthesis.",
+  "matrix_summary": "For extended detention in Tier A manuals (60 of 76 mention the practice): site-wide WQv depth mode 1 inch (n=30, 0.37–1.61); site-wide max drawdown mode 72 h, median 48 h (n=36, 4–120); site-wide SHWT separation mode 24 in., median 36 in. (n=36, 12–120); practice ed_drain_time mode 24 h, median 40 h (n=25, 24–72); length-to-width ratio mode and median 2 (n=19, 0.3–3).",
+  "supporting_slugs": [
+    "ak-state",
+    "alabama-handbook",
+    "arkansas-manual",
+    "bellevue-wa",
+    "billings-mt",
+    "boise-id",
+    "ca-caltrans-construction",
+    "ca-casqa-municipal",
+    "chesapeake-va",
+    "chicago-il",
+    "columbus-oh",
+    "ct-state",
+    "dallas-tx",
+    "de-wet-ponds-draft",
+    "denver-co",
+    "detroit-mi",
+    "flagstaff-az",
+    "ga-state",
+    "hawaii-dot-pcbmp",
+    "houston-tx",
+    "ia-state-ch1",
+    "idaho-bmp-catalog",
+    "indiana-manual",
+    "kansas-city-marc-bmp",
+    "kentucky-bmp",
+    "las-vegas-nv",
+    "lawrence-ks",
+    "los-angeles-ca",
+    "ma-state-draft",
+    "maine-manual",
+    "md-state",
+    "miami-fl",
+    "michigan-manual",
+    "minneapolis-mn",
+    "missouri-manual",
+    "mn-state-2008",
+    "ms-state-vol2",
+    "mt-deq8",
+    "nashville-tn-vol4",
+    "ne-ndot-stf"
+  ]
+}

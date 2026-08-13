@@ -36,6 +36,46 @@
       "field": "document_metadata.jurisdiction_name",
       "excerpt": "City of Daytona Beach (SJRWMD) — coverage via Jacksonville LDPM Vol 2 pattern",
       "page_or_section": "Coverage note"
+    },
+    {
+      "field": "max_drawdown_hours",
+      "excerpt": "Standing water must be recovered within 72 hours.",
+      "page_or_section": "Section 4.3 Grassed Conveyance Swales, Recovery (page 109)"
+    },
+    {
+      "field": "max_drawdown_hours",
+      "excerpt": "All standing water must be recovered through surface discharge or percolation in less than 72 hours under SHWL conditions",
+      "page_or_section": "Section 4.3, Recovery Requirements (page 110)"
+    },
+    {
+      "field": "max_drawdown_hours",
+      "excerpt": "Surface ponding area must be recovered within 72 hours.",
+      "page_or_section": "Section 4.4 Shallow Bioretention, Recovery (page 121)"
+    },
+    {
+      "field": "shwt_separation_inches",
+      "excerpt": "Shallow Water Table: To receive pollutant-load-reduction credits, the SHWL should be at least 6 inches below the bottom of the grassed conveyance swale.",
+      "page_or_section": "Section 4.3, Implementation Considerations (page 109)"
+    },
+    {
+      "field": "shwt_separation_inches",
+      "excerpt": "Shallow Water Table: SHWL should be a minimum of 6 inches below the bottom of the planting media or nutrient- sorption layer.",
+      "page_or_section": "Section 4.4 Shallow Bioretention (page 121)"
+    },
+    {
+      "field": "shwt_separation_inches",
+      "excerpt": "SHWL – Must be at least 0.5 foot below the bottom of the surface ponding area.",
+      "page_or_section": "Section 4.4.1 General, Physical Constraints (page 123)"
+    },
+    {
+      "field": "swale_bottom_width_inches",
+      "excerpt": "Recommended bottom width of 2 to 8 feet.",
+      "page_or_section": "Section 4.3 Design Criteria (page 109)"
+    },
+    {
+      "field": "swale_bottom_width_inches",
+      "excerpt": "the swale should have an approximately trapezoidal shape with a bottom width of at least 2 feet to allow mowing.",
+      "page_or_section": "Section 4.3 Sizing Requirements (page 112)"
     }
   ],
   "extraction_quality": {
@@ -49,5 +89,49 @@
     "landing_page_url": "https://www.sjrwmd.com/documents/permitting/",
     "retrieved_at": "2026-08-10T10:42:30.501Z",
     "original_filename": "daytona-beach-fl.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": null,
+    "max_drawdown_hours": 72,
+    "shwt_separation_inches": 6,
+    "bioretention_media_depth_min_inches": null,
+    "bioretention_ponding_depth_inches": null,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": null,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": null,
+    "length_to_width_ratio": null,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": 24,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "bioretention",
+      "green_roof",
+      "permeable_pavement",
+      "swale",
+      "wet_pond"
+    ],
+    "enriched_at": "2026-08-13T08:02:09.195Z",
+    "enrich_model": "composer-2.5:run-7e7d181c-e2b7-4323-aa9d-e484ea0a985e",
+    "enrich_notes": "Corpus is City of Jacksonville LDPM Vol. 2 (Jan 2026) used as east-central Florida municipal proxy for Daytona Beach; SJRWMD ERP stormwater quality (e.g., 3-year/1-hour percolation requirements for swales) is referenced throughout. Pond infiltration design uses double-ring infiltrometer at basin bottom with safety factor of 2 (Section 3.7). Swale design infiltration is capped at half field-measured rate (ASTM D3385-09); example uses FS=2 yielding 12 in/hr from 36 in/hr field rate—site-specific, not a manual default rate. Pervious pavement maintenance triggered when installed test rate is below 1.5 in/hr. Wet detention sizing example cites ERP Applicant's Handbook (March 2010 draft) residence-time equations.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "wqv_depth_inches",
+      "bioretention_media_depth_min_inches",
+      "bioretention_ponding_depth_inches",
+      "permeable_pavement_storage_depth_inches",
+      "design_infiltration_rate_in_per_hr",
+      "permanent_pool_depth_inches",
+      "ed_drain_time_hours",
+      "length_to_width_ratio",
+      "wetland_detention_hours",
+      "swale_longitudinal_slope_percent",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

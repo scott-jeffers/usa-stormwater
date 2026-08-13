@@ -47,6 +47,46 @@
       "field": "document_metadata.relationship_to_state_manual",
       "excerpt": "independent — metro APWA 5600 + MARC BMP standards",
       "page_or_section": "Coverage note"
+    },
+    {
+      "field": "design_parameters.wqv_depth_inches",
+      "excerpt": "In the greater Kansas City Metropolitian area, the Water Quality Storm is the 1.37' rain event.",
+      "page_or_section": "Section 3.3 / page 29"
+    },
+    {
+      "field": "design_parameters.wqv_depth_inches",
+      "excerpt": "Example: Design a rain garden to treat runoff from the water quality rainfall event for the Kansas City Metropolitan Area (1.37 inches)",
+      "page_or_section": "Section 8.1.7 / page 110"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "A cap with an orifice or an in-line orifice fitting shall be provided at or near the discharge point of the underdrain system to permit a 40-hr drawdown time for the WQv.",
+      "page_or_section": "Section 8.4 / page 124"
+    },
+    {
+      "field": "design_parameters.ed_drain_time_hours",
+      "excerpt": "Capture volume shall be sized to treat the WQv and discharge over a period of 40 hours.",
+      "page_or_section": "Section 8.10.5 / page 212"
+    },
+    {
+      "field": "design_parameters.wetland_detention_hours",
+      "excerpt": "captures the water quality volume (WQv) and releases it over a 40-hour period.",
+      "page_or_section": "Section 8.6.1 / page 147"
+    },
+    {
+      "field": "design_parameters.shwt_separation_inches",
+      "excerpt": "verification that the location of bedrock and the seasonal high groundwater table are not closer than three feet from the sub-grade.",
+      "page_or_section": "Section 8.5.5.1 / page 143"
+    },
+    {
+      "field": "design_parameters.permeable_pavement_storage_depth_inches",
+      "excerpt": "A minimum thickness of 12 inches should be used for the aggregate base.",
+      "page_or_section": "Section 8.5.7.4 / page 145"
+    },
+    {
+      "field": "design_parameters.permanent_pool_depth_inches",
+      "excerpt": "being shallower (approximately 18 inches maximum depth in an EDW main pool versus 6 to 12 feet maximum depth in a EWDB main pool).",
+      "page_or_section": "Section 8.6.1 / page 147"
     }
   ],
   "extraction_quality": {
@@ -63,5 +103,50 @@
     "landing_page_url": "https://www.independencemo.gov/government/city-departments/community-development/development-services/engineering-codes-standards-and-resources",
     "retrieved_at": "2026-08-10T09:54:53.517Z",
     "original_filename": "independence-mo.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": 1.37,
+    "max_drawdown_hours": 40,
+    "shwt_separation_inches": 36,
+    "bioretention_media_depth_min_inches": null,
+    "bioretention_ponding_depth_inches": null,
+    "permeable_pavement_storage_depth_inches": 12,
+    "design_infiltration_rate_in_per_hr": null,
+    "permanent_pool_depth_inches": 18,
+    "ed_drain_time_hours": 40,
+    "length_to_width_ratio": null,
+    "wetland_detention_hours": 40,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "bioretention",
+      "constructed_wetland",
+      "extended_detention",
+      "green_roof",
+      "infiltration_trench",
+      "manufactured_treatment",
+      "permeable_pavement",
+      "sand_filter",
+      "swale",
+      "wet_pond"
+    ],
+    "enriched_at": "2026-08-13T08:41:05.877Z",
+    "enrich_model": "composer-2.5:run-54760371-af5d-40ee-8445-4cae16cb47c0",
+    "enrich_notes": "KC metro Water Quality Storm is 1.37 inches (WQv captures 90% of average annual runoff). Rain gardens use 12–24 inch amended soil mix and max 6 inch ponding (Section 8.1); bioretention underdrain sized for 40-hour WQv drawdown. Permeable pavement: min 12-inch aggregate base; drawdown design may use 0.5 in/day unless site testing shows higher. EDW permanent pool zones include <6 inch and <18 inch microtopography; EDW main pool max ~18 inches vs EWDB 6–12 ft.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "bioretention_media_depth_min_inches",
+      "bioretention_ponding_depth_inches",
+      "design_infiltration_rate_in_per_hr",
+      "length_to_width_ratio",
+      "swale_bottom_width_inches",
+      "swale_longitudinal_slope_percent",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

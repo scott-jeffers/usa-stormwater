@@ -38,6 +38,31 @@
       "field": "design_criteria.water_quality_volume_method",
       "excerpt": "ENVIRONMENTAL RESOURCE PERMIT APPLICANT’S HANDBOOK VOLUME II",
       "page_or_section": "Title"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "The retention system must provide the capacity for the appropriate treatment volume of stormwater specified in Section 5.2 of this Volume within 72 hours following a storm event assuming average antecedent moisture conditions.",
+      "page_or_section": "5.0.3 Recovery Time, page 36"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "The system shall be designed to recover the required treatment volume of stormwater runoff within 72 hours following a storm event assuming average antecedent moisture conditions.",
+      "page_or_section": "5.1.3 Recovery Time, page 40"
+    },
+    {
+      "field": "design_parameters.shwt_separation_inches",
+      "excerpt": "The exfiltration trench system shall be designed so that the invert elevation of the trench is at least two feet above the seasonal high ground water table elevation",
+      "page_or_section": "5.1.8 Ground Water Table, page 42"
+    },
+    {
+      "field": "design_parameters.length_to_width_ratio",
+      "excerpt": "The average length to width ratio of the pond must be at least 2:1.",
+      "page_or_section": "5.2.8 Pond Configuration, page 50"
+    },
+    {
+      "field": "design_parameters.ed_drain_time_hours",
+      "excerpt": "The outfall structure shall be designed to drawdown one-half the required treatment volume between 48 and 60 hours.",
+      "page_or_section": "5.2.3 Recovery Time, page 43"
     }
   ],
   "extraction_quality": {
@@ -51,5 +76,51 @@
     "landing_page_url": "https://nwfwater.com/",
     "retrieved_at": "2026-08-10T10:42:30.501Z",
     "original_filename": "pensacola-fl.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": null,
+    "max_drawdown_hours": 72,
+    "shwt_separation_inches": 24,
+    "bioretention_media_depth_min_inches": null,
+    "bioretention_ponding_depth_inches": null,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": null,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": null,
+    "length_to_width_ratio": 2,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "bioretention",
+      "infiltration_basin",
+      "infiltration_trench",
+      "permeable_pavement",
+      "sand_filter",
+      "swale",
+      "wet_pond"
+    ],
+    "enriched_at": "2026-08-13T09:42:11.095Z",
+    "enrich_model": "composer-2.5:run-fb5235f1-6f40-4015-ac3c-0de2d518d671",
+    "enrich_notes": "Treatment volume sizing references NWFWMD ERP AH Volume I Sections 8.3 and 9 (efficiency-based), not a fixed WQv depth in inches. Wet detention drawdown for half the treatment volume is specified as 48–60 hours (single hour value not given). Exfiltration safety factor may require half the design infiltration rate or 36-hour drawdown when factor of two is applied. Appendix B-2 filter criteria include 2 ft separation above gravel pack and 6 in. average gravel-pack thickness (not mapped to canonical numeric fields). Swale sizing references 3-year, 1-hour storm infiltration, not bottom width or longitudinal slope percent.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "wqv_depth_inches",
+      "bioretention_media_depth_min_inches",
+      "bioretention_ponding_depth_inches",
+      "permeable_pavement_storage_depth_inches",
+      "design_infiltration_rate_in_per_hr",
+      "permanent_pool_depth_inches",
+      "ed_drain_time_hours",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "swale_longitudinal_slope_percent",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

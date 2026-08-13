@@ -72,6 +72,31 @@
       "field": "design_criteria.approved_bmp_categories",
       "excerpt": "Retention/Detention Facilities",
       "page_or_section": "Chapter 7"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "return pond to designed ponding elevation within 72 hours of rain events",
+      "page_or_section": "Section 7.06 maintenance, page 99 (orlando-fl-c0140)"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "pond to drawdown to designed elevation within 72 hours or prolonged wetness is evident",
+      "page_or_section": "Section 7.06 Underdrain Maintenance, page 99"
+    },
+    {
+      "field": "design_parameters.shwt_separation_inches",
+      "excerpt": "minimum of two feet (2') between the bottom of the base to a standing surface water condition or seasonal high groundwater table",
+      "page_or_section": "Section 7.05.01 A, page 89 (orlando-fl-c0130)"
+    },
+    {
+      "field": "practice_mentions.swale",
+      "excerpt": "A grass swale is defined as a trench which: a. Has a top width-to-depth ratio of the cross-section equal to or greater than 12:1",
+      "page_or_section": "Section 7.05.05 Open Channel Design, page 96"
+    },
+    {
+      "field": "practice_mentions.wet_pond",
+      "excerpt": "Dry detention is not allowed. Wet detention shall be constructed in accordance with the requirements of SJRWMD",
+      "page_or_section": "Section 7.04.01, page 85 (orlando-fl-c0126)"
     }
   ],
   "extraction_quality": {
@@ -90,5 +115,47 @@
     "landing_page_url": "https://www.orlando.gov/Our-Government/Records-and-Documents/Engineering-Documents",
     "retrieved_at": "2026-08-10T08:05:33.346Z",
     "original_filename": "orlando-fl.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": null,
+    "max_drawdown_hours": 72,
+    "shwt_separation_inches": 24,
+    "bioretention_media_depth_min_inches": null,
+    "bioretention_ponding_depth_inches": null,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": null,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": null,
+    "length_to_width_ratio": null,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "swale",
+      "wet_pond"
+    ],
+    "enriched_at": "2026-08-13T09:35:29.548Z",
+    "enrich_model": "composer-2.5:run-f6b99159-f939-44ba-b437-1455f6b3b506",
+    "enrich_notes": "Chapter 7.04.01 defers pollution abatement and wet detention design to SJRWMD/SFWMD ERP criteria; Orlando prohibits dry detention and will not waive SJRWMD littoral zone in exchange for extra permanent pool volume. Numeric WQv depths and BMP sizing are not stated in these ESM excerpts.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "wqv_depth_inches",
+      "bioretention_media_depth_min_inches",
+      "bioretention_ponding_depth_inches",
+      "permeable_pavement_storage_depth_inches",
+      "design_infiltration_rate_in_per_hr",
+      "permanent_pool_depth_inches",
+      "ed_drain_time_hours",
+      "length_to_width_ratio",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "swale_longitudinal_slope_percent",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

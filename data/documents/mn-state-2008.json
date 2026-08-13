@@ -132,6 +132,61 @@
       "field": "design_criteria.approved_bmp_categories",
       "excerpt": "Pollution Prevention: Chapter 12-1 ... Better Site Design: Chapter 12-2 ... Bioretention Practices: Chapter 12-6 ... Filtration Practices: Chapter 12-7 ... Infiltration Practices: Chapter 12-8 ... Stormwater Ponds: Chapter 12-9 ... Stormwater Wetlands: Chapter 12-10",
       "page_or_section": "Chapter 12 Table of Contents"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "(48 hours is the REQUIRED maximum tf for bioretention under the CGP)",
+      "page_or_section": "Chapter 12-6 bioretention, page 397"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "the CGP requires that the water quality volume (see Chapter 10) be drawn down within 48 hours",
+      "page_or_section": "Chapter 12 bioretention infiltration/recharge, page 375"
+    },
+    {
+      "field": "design_parameters.shwt_separation_inches",
+      "excerpt": "requires a minimum distance of three feet between the bottom of an infiltrating BMP and the seasonally saturated water table",
+      "page_or_section": "Chapter 7, page 174"
+    },
+    {
+      "field": "design_parameters.shwt_separation_inches",
+      "excerpt": "A minimum of 3 feet of separation between the bottom of the bioretention practice and seasonally saturated soils (or from bedrock) is REQUIRED",
+      "page_or_section": "Chapter 12-6 bioretention, page 397"
+    },
+    {
+      "field": "design_parameters.bioretention_media_depth_min_inches",
+      "excerpt": "Facility filter media depth must be at least 2.5 feet deep",
+      "page_or_section": "Chapter 12 bioretention, page 375"
+    },
+    {
+      "field": "design_parameters.bioretention_media_depth_min_inches",
+      "excerpt": "the recommended depth of the prepared soil is 30 inches",
+      "page_or_section": "Chapter 12-6 bioretention, page 388"
+    },
+    {
+      "field": "design_parameters.permanent_pool_depth_inches",
+      "excerpt": "It is REQUIRED that permanent pool depths be a minimum of three feet and maximum of 10 feet at the deepest points",
+      "page_or_section": "Chapter 12-9 stormwater ponds, page 470"
+    },
+    {
+      "field": "design_parameters.ed_drain_time_hours",
+      "excerpt": "It is HIGHLY RECOMMENDED that the Vcp be released over a minimum 24 hour period",
+      "page_or_section": "Chapter 12-9 stormwater ponds, page 470"
+    },
+    {
+      "field": "design_parameters.wqv_depth_inches",
+      "excerpt": "Vwq equals 0.5 or 1.0 inch of runoff per impervious acre, depending on the receiving stream designation",
+      "page_or_section": "Chapter 12-9 stormwater ponds, page 470"
+    },
+    {
+      "field": "design_parameters.design_infiltration_rate_in_per_hr",
+      "excerpt": "Preferably, facilities of this type should have infiltration rates of 1\"/hr or greater",
+      "page_or_section": "Chapter 12 bioretention infiltration/recharge, page 375"
+    },
+    {
+      "field": "design_parameters.design_infiltration_rate_in_per_hr",
+      "excerpt": "Native soils with f>=0.2 in/hr",
+      "page_or_section": "Table 7.8, page 182"
     }
   ],
   "extraction_quality": {
@@ -145,5 +200,51 @@
     "landing_page_url": "https://stormwater.pca.state.mn.us/the_minnesota_stormwater_manual_1st_and_2nd_versions",
     "retrieved_at": "2026-08-08T01:30:00.000Z",
     "original_filename": "mn-state-2008.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": null,
+    "max_drawdown_hours": 48,
+    "shwt_separation_inches": 36,
+    "bioretention_media_depth_min_inches": 30,
+    "bioretention_ponding_depth_inches": null,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": null,
+    "permanent_pool_depth_inches": 36,
+    "ed_drain_time_hours": 24,
+    "length_to_width_ratio": null,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "bioretention",
+      "constructed_wetland",
+      "extended_detention",
+      "infiltration_basin",
+      "infiltration_trench",
+      "manufactured_treatment",
+      "sand_filter",
+      "swale",
+      "wet_pond"
+    ],
+    "enriched_at": "2026-08-13T09:14:55.464Z",
+    "enrich_model": "composer-2.5:run-1f7202e9-db1f-4fe2-92e6-f0495c84b21a",
+    "enrich_notes": "WQv runoff depth is stated as 0.5 or 1.0 inch per impervious acre (pond sizing) and 0.2 watershed-inch minimum for non-pond pre-treatment—no single canonical wqv_depth_inches. Design infiltration appears as ≥0.2 in/hr (infiltration trench soils, Table 7.8) and preferably ≥1 in/hr (infiltration/recharge bioretention)—not unified to one field value. Permanent pool depth field uses REQUIRED minimum 3 ft at deepest points; max 10 ft (8 ft recommended for phosphorus). max_drawdown_hours reflects CGP/required 48 hr WQ drawdown for bioretention and infiltration/recharge facilities.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "wqv_depth_inches",
+      "bioretention_ponding_depth_inches",
+      "permeable_pavement_storage_depth_inches",
+      "design_infiltration_rate_in_per_hr",
+      "length_to_width_ratio",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "swale_longitudinal_slope_percent",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

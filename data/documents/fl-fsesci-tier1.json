@@ -59,6 +59,26 @@
       "field": "design_criteria.approved_bmp_categories",
       "excerpt": "Chapter 3: Temporary BMPs for Erosion and Sedimentation Control ... Chapter 4: BMPs—Vegetation for Erosion Control ... Chapter 5: BMPs for Dewatering",
       "page_or_section": "Contents"
+    },
+    {
+      "field": "fields_not_found",
+      "excerpt": "0.5-inch or greater storm event. The Construction Generic Permit (CGP) defines a storm event as",
+      "page_or_section": "p18"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "The simplest approach to sizing the treatment cell is to multiply the allowable discharge flow rate by the desired drawdown time. A 4-hour drawdown time allows 1 batch per cell per 8-hour work period, given 1 hour of flocculation followed by 2 hours of settling.",
+      "page_or_section": "Chapter 5: BMPs for Dewatering, page 200"
+    },
+    {
+      "field": "practice_mentions.swale",
+      "excerpt": "A small, temporary dam constructed across a swale or stormwater conveyance channel.",
+      "page_or_section": "Section 3.8 Temporary Check Dam, page 117"
+    },
+    {
+      "field": "practice_mentions.wet_pond",
+      "excerpt": "Runoff calculations for a 10-year frequency storm.",
+      "page_or_section": "Sediment basin submission requirements, page 116"
     }
   ],
   "extraction_quality": {
@@ -79,5 +99,48 @@
     "landing_page_url": "https://floridadep.gov/dear/florida-stormwater-erosion",
     "retrieved_at": "2026-08-07T11:34:24.793Z",
     "original_filename": "fl-fsesci-tier1.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": null,
+    "max_drawdown_hours": 4,
+    "shwt_separation_inches": null,
+    "bioretention_media_depth_min_inches": null,
+    "bioretention_ponding_depth_inches": null,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": null,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": null,
+    "length_to_width_ratio": null,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "swale",
+      "wet_pond"
+    ],
+    "enriched_at": "2026-08-13T08:15:05.258Z",
+    "enrich_model": "composer-2.5:run-5035799b-cc45-433a-8ce4-48726d516669",
+    "enrich_notes": "Corpus is from the Florida Stormwater Erosion and Sedimentation Control Inspectors Manual (temporary erosion/sediment and construction dewatering BMPs). It does not define post-construction WQv rainfall depth in inches; atlas WQv (3,600 cf/ac) is not stated in these excerpts. USDA Table 2.2 lists soil permeability class ranges (in/hr) for planning only, not a single SCM design infiltration rate. Sediment basin review requires 10-year storm runoff calculations; turbidity discharge limit 29 NTU over background (Ch. 5).",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "wqv_depth_inches",
+      "shwt_separation_inches",
+      "bioretention_media_depth_min_inches",
+      "bioretention_ponding_depth_inches",
+      "permeable_pavement_storage_depth_inches",
+      "design_infiltration_rate_in_per_hr",
+      "permanent_pool_depth_inches",
+      "ed_drain_time_hours",
+      "length_to_width_ratio",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "swale_longitudinal_slope_percent",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

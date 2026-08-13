@@ -122,6 +122,36 @@
       "field": "design_criteria.approved_bmp_categories",
       "excerpt": "7.C.10 Pervious Pavement... 7.C.11 Proprietary Structural Treatment Control... 7.C.12 Other Reasonable Practices",
       "page_or_section": "Section 7.C"
+    },
+    {
+      "field": "design_parameters.wqv_depth_inches",
+      "excerpt": "The NDOT has determined that the WQV is the first one-half (½) inch of runoff from the Treatment Drainage Area",
+      "page_or_section": "Chapter Three, Section 6.A, Page 3-17"
+    },
+    {
+      "field": "design_parameters.wqv_depth_inches",
+      "excerpt": "WQV = 0.5 inch x Treatment Drainage Area (ft2) /12",
+      "page_or_section": "Chapter Three, Section 6.A, Page 3-17"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "constricted by an outlet structure to produce low flow rates calculated to delay the drawdown of the basin over a 24 to 48 hour (72 hour maximum) period",
+      "page_or_section": "Chapter Three, Section 7.C.7 Extended Dry Detention, Page 3-32"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "Similarly, detention basins designed to detain runoff for less than 72 hours",
+      "page_or_section": "Chapter Three, Section 2.C.1, Page 3-5"
+    },
+    {
+      "field": "design_parameters.design_infiltration_rate_in_per_hr",
+      "excerpt": "Recommended in soils with a minimum infiltration rate of 0.5 in/h",
+      "page_or_section": "Chapter Three, Section 7.C.3 Infiltration Trench, Page 3-30"
+    },
+    {
+      "field": "design_parameters.design_infiltration_rate_in_per_hr",
+      "excerpt": "Recommended in soils with a minimum infiltration rate of 0.5 in/h.",
+      "page_or_section": "Chapter Three, Section 7.C.4 Infiltration Basin, Page 3-31"
     }
   ],
   "extraction_quality": {
@@ -137,5 +167,53 @@
     "landing_page_url": "https://dot.nebraska.gov/",
     "retrieved_at": "2026-08-08T10:30:00.000Z",
     "original_filename": "ne-ndot-stf.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": 0.5,
+    "max_drawdown_hours": 72,
+    "shwt_separation_inches": null,
+    "bioretention_media_depth_min_inches": null,
+    "bioretention_ponding_depth_inches": null,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": 0.5,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": null,
+    "length_to_width_ratio": null,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "bioretention",
+      "constructed_wetland",
+      "extended_detention",
+      "infiltration_basin",
+      "infiltration_trench",
+      "permeable_pavement",
+      "sand_filter",
+      "swale",
+      "wet_pond"
+    ],
+    "enriched_at": "2026-08-13T09:21:21.480Z",
+    "enrich_model": "composer-2.5:run-794082a1-4141-4f47-b6ac-158695fc36ae",
+    "enrich_notes": "WQV is the first 0.5 inch of runoff from new pavement (Treatment Drainage Area); alternate sizing uses 0.75-inch, 24-hour WQV discharge (CN=98, Tc=5 min). Infiltration trench/basin minimum soil infiltration 0.5 in/h stated in Chapter 3 summaries; detailed dimensions refer to Appendix P STF Design Guides (not in excerpt). Grass swale ditch slopes 0.5–6% (longitudinal); side slopes no greater than 1:3. Extended dry detention drawdown cited as 24–48 hours with 72-hour maximum.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "shwt_separation_inches",
+      "bioretention_media_depth_min_inches",
+      "bioretention_ponding_depth_inches",
+      "permeable_pavement_storage_depth_inches",
+      "permanent_pool_depth_inches",
+      "ed_drain_time_hours",
+      "length_to_width_ratio",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "swale_longitudinal_slope_percent",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

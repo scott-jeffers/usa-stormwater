@@ -31,7 +31,33 @@
       "Infiltration wells and trenches"
     ]
   },
-  "evidence": [],
+  "evidence": [
+    {
+      "field": "design_parameters.wqv_depth_inches",
+      "excerpt": "The Water Quality Protection Volume (WQv) is the runoff from the first 1.5 inches of rainfall.",
+      "page_or_section": "3.2.3 Option 2, page 29"
+    },
+    {
+      "field": "design_parameters.wqv_depth_inches",
+      "excerpt": "Treat the Water Quality Protection Volume ... for runoff resulting from rainfall of 1.5 inches (85th percentile storm).",
+      "page_or_section": "3.2.3 Option 2, page 28"
+    },
+    {
+      "field": "design_parameters.design_infiltration_rate_in_per_hr",
+      "excerpt": "Infiltration Trenches Infiltration rate > 0.5 inch/hr",
+      "page_or_section": "Table 3.20 Soils, page 62"
+    },
+    {
+      "field": "design_parameters.permanent_pool_depth_inches",
+      "excerpt": "Wet Pond Limit maximum normal pool depth to about 4 ft (dugout)",
+      "page_or_section": "Table 3.19 Physiographic Factors, page 61"
+    },
+    {
+      "field": "design_parameters.mtd_verification_program",
+      "excerpt": "Third-party sources could include Technology Acceptance Reciprocity Partnership, Technology Assessment Protocol – Ecology, or others.",
+      "page_or_section": "Table 3.2 footnote, TriSWM Appendix page 112"
+    }
+  ],
   "extraction_quality": {
     "confidence": "low",
     "needs_human_review": true,
@@ -45,5 +71,53 @@
     "landing_page_url": "https://iswm.nctcog.org/criteria-manual.html",
     "retrieved_at": "2026-08-10T10:35:05.250Z",
     "original_filename": "waco-tx.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": 1.5,
+    "max_drawdown_hours": null,
+    "shwt_separation_inches": null,
+    "bioretention_media_depth_min_inches": null,
+    "bioretention_ponding_depth_inches": null,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": 0.5,
+    "permanent_pool_depth_inches": 48,
+    "ed_drain_time_hours": null,
+    "length_to_width_ratio": null,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": "Technology Acceptance Reciprocity Partnership; Technology Assessment Protocol – Ecology",
+    "practice_mentions": [
+      "bioretention",
+      "constructed_wetland",
+      "extended_detention",
+      "green_roof",
+      "infiltration_trench",
+      "manufactured_treatment",
+      "permeable_pavement",
+      "sand_filter",
+      "swale",
+      "wet_pond"
+    ],
+    "enriched_at": "2026-08-13T10:31:22.258Z",
+    "enrich_model": "composer-2.5:run-d06cbbd4-6d13-460b-b964-95f170b55a9a",
+    "enrich_notes": "Criteria Manual defers facility-specific design dimensions to the Site Development Controls Technical Manual. Table 3.17/3.4 list practice-specific depth-to-water-table values (often 2 ft; infiltration trenches 4 ft in site applicability; enhanced swales 1 ft below WT; reservoir/aquifer notes 2–4 ft). Minimum soil infiltration >0.5 in/hr applies to infiltration trenches, drywells, soakage trenches, and modular porous pavers.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "max_drawdown_hours",
+      "shwt_separation_inches",
+      "bioretention_media_depth_min_inches",
+      "bioretention_ponding_depth_inches",
+      "permeable_pavement_storage_depth_inches",
+      "ed_drain_time_hours",
+      "length_to_width_ratio",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "swale_longitudinal_slope_percent",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent"
+    ]
   }
 }

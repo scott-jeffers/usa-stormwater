@@ -33,11 +33,6 @@
   },
   "evidence": [
     {
-      "field": "document_metadata.jurisdiction_name",
-      "excerpt": "Georgia",
-      "page_or_section": "Title / header"
-    },
-    {
       "field": "document_metadata.document_title",
       "excerpt": "GDOT Drainage Design Policy Manual",
       "page_or_section": "Title / header"
@@ -51,15 +46,36 @@
       "field": "design_criteria.peak_flow_calculation_method",
       "excerpt": "Curve Numbers 1.0 11/25/24 Appendix C. Rational Method Runoff Coefficients 1.0 11/25/24 Drainage Design Policy Manual Rev 1.1 L",
       "page_or_section": null
+    },
+    {
+      "field": "practice_mentions.swale",
+      "excerpt": "Swale – A broad channel for the conveyance and temporary storage of runoff.",
+      "page_or_section": "Acronyms and Definitions, page xxxviii"
+    },
+    {
+      "field": "practice_mentions.swale",
+      "excerpt": "Concentrated flow includes flows in gutters, pipes, swales, channels, and streams.",
+      "page_or_section": "Chapter 3. Hydrology, page 3-3"
+    },
+    {
+      "field": "practice_mentions.permeable_pavement",
+      "excerpt": "Drainage Pavement Course – A type of pavement surface such as Open Graded Friction Course, (OGFC), which has specialized characteristics such as higher permeability and friction.",
+      "page_or_section": "Acronyms and Definitions, page xxxi"
+    },
+    {
+      "field": "design_parameters.wqv_depth_inches",
+      "excerpt": "Table 3.1 lists Water Quality under Rational Method applications; no water-quality rainfall/runoff depth in inches is stated.",
+      "page_or_section": "Chapter 3. Hydrology, page 3-5"
     }
   ],
   "extraction_quality": {
     "confidence": "medium",
     "needs_human_review": true,
-    "review_notes": "Heuristic agency extract from prepared text. GDOT Drainage Design Policy Manual",
+    "review_notes": "Heuristic agency extract from prepared text. GDOT Drainage Design Policy Manual Pipeline excerpt repair removed 1 unlocated citation(s).",
     "fields_not_found": [
       "design_criteria.water_quality_volume_method",
-      "design_criteria.approved_bmp_categories"
+      "design_criteria.approved_bmp_categories",
+      "document_metadata.jurisdiction_name"
     ]
   },
   "source": {
@@ -67,5 +83,49 @@
     "landing_page_url": "http://www.dot.ga.gov/GDOT/Pages/designmanualssoftware.aspx",
     "retrieved_at": "2026-08-11T17:59:10.570Z",
     "original_filename": "ga-gdot-drainage.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": null,
+    "max_drawdown_hours": null,
+    "shwt_separation_inches": null,
+    "bioretention_media_depth_min_inches": null,
+    "bioretention_ponding_depth_inches": null,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": null,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": null,
+    "length_to_width_ratio": null,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "permeable_pavement",
+      "swale"
+    ],
+    "enriched_at": "2026-08-13T08:24:55.298Z",
+    "enrich_model": "composer-2.5:run-f3a19b11-cd57-4523-968a-d541b7d0b889",
+    "enrich_notes": "Excerpts are GDOT highway drainage policy (hydrology, pipes, channels, bridges), not GSMM BMP sizing. Table 3.1 lists Water Quality as a Rational Method application without a WQv depth. GSMM is referenced as additional criteria online. OGFC is noted for permeability; Tc minimum is 5 minutes (not a drawdown field).",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "wqv_depth_inches",
+      "max_drawdown_hours",
+      "shwt_separation_inches",
+      "bioretention_media_depth_min_inches",
+      "bioretention_ponding_depth_inches",
+      "permeable_pavement_storage_depth_inches",
+      "design_infiltration_rate_in_per_hr",
+      "permanent_pool_depth_inches",
+      "ed_drain_time_hours",
+      "length_to_width_ratio",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "swale_longitudinal_slope_percent",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

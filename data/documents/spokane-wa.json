@@ -77,6 +77,56 @@
       "field": "design_criteria.approved_bmp_categories",
       "excerpt": "Basic Treatment / Metals Treatment / Phosphorus Treatment",
       "page_or_section": "Chapter 6"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "Detention and infiltration facilities shall have a minimum subgrade infiltration rate of 0.15 inches/hour and drain completely within 72 hours after a storm event.",
+      "page_or_section": "Chapter 7 – 7.8.3 Drawdown Time"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "The facility shall drain within 72 hours of a storm event.",
+      "page_or_section": "Appendix 3B Standard Notes item 12"
+    },
+    {
+      "field": "design_parameters.shwt_separation_inches",
+      "excerpt": "For a pond or swale with no infiltrative structure, the separation shall be a minimum of 4.5 ft below the pond bottom, to allow for a 6-inch treatment zone and 48 inches of subgrade infiltrative soil.",
+      "page_or_section": "Appendix 4A / Chapter 7.5.2 Limiting Layer"
+    },
+    {
+      "field": "design_parameters.bioretention_media_depth_min_inches",
+      "excerpt": "Treatment Zone—The layer of soil in a bio-infiltration swale where water quality treatment occurs. It consists of sod installed over medium- to well-draining soil at least 6 inches thick underlain by a subgrade infiltration layer at least 48 inches thick.",
+      "page_or_section": "Glossary page xxii"
+    },
+    {
+      "field": "design_parameters.bioretention_ponding_depth_inches",
+      "excerpt": "Use a treatment depth of 6 inches",
+      "page_or_section": "Appendix 6A – Example Calculation: Bio-Infiltration Swale"
+    },
+    {
+      "field": "design_parameters.design_infiltration_rate_in_per_hr",
+      "excerpt": "Detention and infiltration facilities shall have a minimum subgrade infiltration rate of 0.15 inches/hour and drain completely within 72 hours after a storm event.",
+      "page_or_section": "Chapter 7 – 7.8.3 Drawdown Time"
+    },
+    {
+      "field": "design_parameters.bioretention_media_depth_min_inches",
+      "excerpt": "The facility subgrade shall be a medium- to well-draining material, with a minimum thickness of 48 inches and a minimum infiltration rate of 0.15 in/hr.",
+      "page_or_section": "Appendix 3B Standard Notes item 12"
+    },
+    {
+      "field": "design_parameters.swale_longitudinal_slope_percent",
+      "excerpt": "The drainage facility bottom shall slope away from the pond inlet and toward the control structure at 1% for a maximum distance of 20 feet.",
+      "page_or_section": "Chapter 7 – 7.8 (roadside swale)"
+    },
+    {
+      "field": "design_parameters.mtd_verification_program",
+      "excerpt": "The TRC established the conditional use level designation (CULD) for emerging technologies that have a considerable amount of performance data but the data were not collected per the TAPE protocol.",
+      "page_or_section": "Chapter 6 – 6.29 (Manufactured Treatment)"
+    },
+    {
+      "field": "design_parameters.mtd_verification_program",
+      "excerpt": "The field data must meet the statistical goals set out in the TAPE guidelines (Appendix D).",
+      "page_or_section": "Chapter 6 – Conditional Use Level Designation"
     }
   ],
   "extraction_quality": {
@@ -95,5 +145,46 @@
     "landing_page_url": "https://www.spokanecounty.gov/918/Stormwater-Utility",
     "retrieved_at": "2026-08-10T08:24:40.117Z",
     "original_filename": "spokane-wa.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": null,
+    "max_drawdown_hours": 72,
+    "shwt_separation_inches": 54,
+    "bioretention_media_depth_min_inches": 6,
+    "bioretention_ponding_depth_inches": 6,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": 0.15,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": null,
+    "length_to_width_ratio": null,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": 1,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": "TAPE",
+    "practice_mentions": [
+      "bioretention",
+      "extended_detention",
+      "infiltration_basin",
+      "manufactured_treatment",
+      "swale",
+      "wet_pond"
+    ],
+    "enriched_at": "2026-08-13T10:13:24.705Z",
+    "enrich_model": "composer-2.5:run-83cb99f7-c646-491e-9047-89697d12cedd",
+    "enrich_notes": "WQv sizing references 6-month NRCS Type II 24-hour storm (Atlas); no explicit rainfall depth in inches in excerpts. Treatment zone infiltration minimum 0.25–0.50 in/hr cited separately for WQ facilities (Std. Notes item 12). Limiting-layer separation 4.5 ft below pond bottom is to bedrock/GW/limiting layer, not SHWT by name. Bio-infiltration mapped from manual term bio-infiltration swale/pond.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "wqv_depth_inches",
+      "permeable_pavement_storage_depth_inches",
+      "permanent_pool_depth_inches",
+      "ed_drain_time_hours",
+      "length_to_width_ratio",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent"
+    ]
   }
 }

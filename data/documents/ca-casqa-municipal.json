@@ -102,6 +102,36 @@
       "field": "design_criteria.approved_bmp_categories",
       "excerpt": "Table 4-1 Treatment Control BMPs — Manufactured (Proprietary): MP-20 Wetland, MP-40 Media Filter, MP-50 Wet Vault, MP-51 Vortex Separator, MP-52 Drain Inlet",
       "page_or_section": "Table 4-1, Page 4-1"
+    },
+    {
+      "field": "practice_mentions",
+      "excerpt": "TC-32 Bioretention",
+      "page_or_section": "p203"
+    },
+    {
+      "field": "design_parameters.ed_drain_time_hours",
+      "excerpt": "detain the stormwater runoff from a water quality design storm for some minimum time (e.g., 72 hours) to allow particles and associated pollutants to settle",
+      "page_or_section": "Extended Detention Basin TC-22, page 191/247"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "ensure that the basin dewaters completely (recommended 72 hour residence time or less)",
+      "page_or_section": "Extended Detention Basin TC-22, page 191/247"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "recommended infiltration rate of 72 hours or less",
+      "page_or_section": "TC-11 Infiltration Basin, page 178/234"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "maintain storage capacity within 2/3 of the design treatment volume and 72-hour exfiltration rate limit",
+      "page_or_section": "TC-10 Infiltration Trench, page 174/230"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "whether the facility is draining completely within 72 hr",
+      "page_or_section": "TC-40 Media Filter, page 208/218"
     }
   ],
   "extraction_quality": {
@@ -121,5 +151,54 @@
     "landing_page_url": "https://www.casqa.org/resources/bmp-handbooks/municipal-bmp-handbook",
     "retrieved_at": "2026-08-08T01:30:00.000Z",
     "original_filename": "ca-casqa-municipal.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": null,
+    "max_drawdown_hours": 72,
+    "shwt_separation_inches": null,
+    "bioretention_media_depth_min_inches": null,
+    "bioretention_ponding_depth_inches": null,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": null,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": 72,
+    "length_to_width_ratio": null,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "bioretention",
+      "constructed_wetland",
+      "extended_detention",
+      "infiltration_basin",
+      "infiltration_trench",
+      "manufactured_treatment",
+      "sand_filter",
+      "swale",
+      "wet_pond"
+    ],
+    "enriched_at": "2026-08-13T07:44:36.276Z",
+    "enrich_model": "composer-2.5:run-28b94601-9ede-48f2-befc-12e49b2016eb",
+    "enrich_notes": "CASQA Municipal Handbook Section 4 is inspection and maintenance only; design requirements are deferred to the New Development and Redevelopment BMP Handbook. Explicit numerics in excerpts are mostly 72-hour drain, residence, or exfiltration limits used as O&M performance checks. TC-40 media filter maintenance cites 18 in. and 12 in. overall media depths and 2 in. surface removal—not mapped to bioretention filter media design fields.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "wqv_depth_inches",
+      "shwt_separation_inches",
+      "bioretention_media_depth_min_inches",
+      "bioretention_ponding_depth_inches",
+      "permeable_pavement_storage_depth_inches",
+      "design_infiltration_rate_in_per_hr",
+      "permanent_pool_depth_inches",
+      "length_to_width_ratio",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "swale_longitudinal_slope_percent",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

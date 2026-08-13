@@ -1,0 +1,125 @@
+{
+  "version": 1,
+  "practice_key": "permeable_pavement",
+  "practice_label": "Permeable Pavement",
+  "generated_at": "2026-08-13T10:43:12.612Z",
+  "model": "composer-2.5:run-9368a819-0c3d-4042-bc2e-26e402d5c9f6",
+  "editorial_status": "draft",
+  "national_baseline": "Among Tier A manuals that mention permeable pavement, jurisdiction-level water-quality volume (WQv) depth is most often cited at 1 inch (n=30, median 1, range 0.37–1.61), reflecting site-wide sizing context rather than a pavement-layer specification. Site-wide maximum drawdown time clusters at 72 hours as the mode (n=36, median 48, range 4–120), while seasonal high water table (SHWT) separation is commonly 24 inches at the mode (n=36, median 36, range 12–120)—again as jurisdictional infiltration-practice context, not a universal pavement cross-section. Practice-specific storage depth under permeable pavement is not yet numerically well established: only five manuals report values (mode 4 inches, median 9, range 4–18). Where design infiltration rate is stated for this practice (n=20), the mode and median are both 0.5 in/hr (range 0.01–2.41). Committee discussion should treat these figures as extracted consensus from manuals, not an adopted national standard.",
+  "regional_modifiers": [
+    {
+      "id": "cold_climate",
+      "title": "Cold climate and frost",
+      "text": "Cold-region manuals still cite site-wide drawdown and SHWT values that diverge from the 72-hour and 24-inch modes—for example 48-hour drawdown in ME, MN, VT, and WA western state guidance, and SHWT separations of 12 inches in ME and MT DEQ guidance versus 36–60 inches in MN, Bellevue WA, and Portland OR contexts. Design infiltration rates span from 0.2 in/hr (VT) to 2.41 in/hr (ME), so frost and seasonal infiltration assumptions should be read from each cited source rather than from a single temperate default.",
+      "states": [
+        "ME",
+        "MN",
+        "MT",
+        "VT",
+        "WA",
+        "OR",
+        "ID"
+      ],
+      "citation_slugs": [
+        "maine-manual",
+        "mn-state-2008",
+        "mt-deq8",
+        "vt-state",
+        "wa-state-western",
+        "portland-or",
+        "boise-id",
+        "idaho-bmp-catalog"
+      ]
+    },
+    {
+      "id": "coastal_high_wt",
+      "title": "Coastal and high water table",
+      "text": "Coastal and humid jurisdictions often specify tighter SHWT separation (12 inches in Chesapeake VA and Raleigh NC) or longer drawdown allowances (120 hours in MS). Houston TX pairs 48-inch SHWT separation with 9 inches of reported permeable pavement storage depth and 0.5 in/hr design infiltration—useful regional contrast to inland mode values but not transferable as national facility specs.",
+      "states": [
+        "VA",
+        "NC",
+        "MS",
+        "TX"
+      ],
+      "citation_slugs": [
+        "chesapeake-va",
+        "raleigh-nc",
+        "ms-state-vol2",
+        "houston-tx",
+        "tx-edwards-rg348"
+      ]
+    },
+    {
+      "id": "arid",
+      "title": "Arid and semi-arid",
+      "text": "Arid manuals show the widest spread in site-wide WQv depth (Las Vegas NV 0.37 inches) and drawdown (Flagstaff AZ 24 hours; Albuquerque NM GSI 96 hours). Design infiltration is often conservative (Albuquerque 0.1 in/hr) relative to the 0.5 in/hr mode, reflecting low native infiltration and jurisdictional caution rather than a single arid pavement design rate.",
+      "states": [
+        "NV",
+        "AZ",
+        "NM"
+      ],
+      "citation_slugs": [
+        "las-vegas-nv",
+        "flagstaff-az",
+        "albuquerque-nm-gsi"
+      ]
+    },
+    {
+      "id": "karst_sensitive",
+      "title": "Karst and shallow rock",
+      "text": "Where karst or Edwards aquifer protection appears in the matrix, SHWT or separation guidance tends toward 48 inches (TX Edwards RG348) alongside typical 0.5 in/hr design rates in several Gulf and mid-Atlantic sources. Numeric sample size for practice-specific storage remains too small (n=5) to define a karst-specific pavement storage baseline from Tier A extracts alone.",
+      "states": [
+        "TX"
+      ],
+      "citation_slugs": [
+        "tx-edwards-rg348",
+        "houston-tx",
+        "alabama-handbook"
+      ]
+    }
+  ],
+  "open_issues": "Permeable pavement storage depth is reported in only five Tier A manuals (mode 4 inches, range 4–18), so a national numeric baseline for aggregate reservoir thickness is not established. Design infiltration rate shows high dispersion (0.01–2.41 in/hr) with many missing values (32 of 53 mentioning manuals), including chapter-proxy entries that may not be practice-specific. Site-wide WQv, drawdown, and SHWT fields are frequently absent (45, 38, and 38 missing respectively among 76 scanned) and must not be mistaken for permeable pavement layer requirements. Florida FSESCI Tier 1 lists 4-hour max drawdown as an outlier relative to the 72-hour mode. No matrix fields address maintenance triggers, clogging recovery, or structural loading as numeric consensus.",
+  "matrix_summary": "Tier A scans show permeable pavement mentioned in 53 of 76 manuals. Jurisdiction-level WQv depth modes at 1 inch (n=30), max drawdown at 72 hours (n=36, median 48), and SHWT separation at 24 inches mode with 36-inch median (n=36). Practice-specific storage depth lacks breadth (n=5, mode 4, median 9 inches). Stated design infiltration rates center on 0.5 in/hr (n=20, mode and median 0.5, range 0.01–2.41).",
+  "supporting_slugs": [
+    "ak-state",
+    "alabama-handbook",
+    "albuquerque-nm-gsi",
+    "arkansas-manual",
+    "austin-tx-ecm",
+    "bellevue-wa",
+    "billings-mt",
+    "boise-id",
+    "boston-ma",
+    "ca-caltrans-construction",
+    "chesapeake-va",
+    "chicago-il",
+    "columbus-oh",
+    "ct-state",
+    "dallas-tx",
+    "dc-guidebook",
+    "denver-co",
+    "detroit-mi",
+    "ga-state",
+    "hawaii-dot-pcbmp",
+    "houston-tx",
+    "ia-state-ch1",
+    "idaho-bmp-catalog",
+    "indiana-manual",
+    "kansas-city-marc-bmp",
+    "los-angeles-ca",
+    "ma-state-draft",
+    "maine-manual",
+    "michigan-manual",
+    "minneapolis-mn",
+    "missouri-manual",
+    "ms-state-vol2",
+    "mt-deq8",
+    "nc-state",
+    "ne-ndot-stf",
+    "norfolk-va",
+    "ny-state",
+    "ohio-rainwater",
+    "pa-state",
+    "philadelphia-pa"
+  ]
+}

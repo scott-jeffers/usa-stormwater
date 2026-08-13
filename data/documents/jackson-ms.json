@@ -52,6 +52,46 @@
       "field": "document_metadata.relationship_to_state_manual",
       "excerpt": "the peak rate of runoff and volume of runoff increase. These effects are caused by 1) a reduction in the opportunity for infiltration, evaporation, transpiration, and depression storage; 2) an increase in the amount of imperviousness; and 3) modification of the surfac",
       "page_or_section": "p. 7"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "Infiltration devices must be able to completely dewater within 5 days.",
+      "page_or_section": "Chapter 4 Infiltration, page 4-75 (page 106)"
+    },
+    {
+      "field": "design_parameters.shwt_separation_inches",
+      "excerpt": "Designers always need to provide significant separation distance (2 to 5 feet) from the bottom of the infiltration basin and the seasonally high groundwater table",
+      "page_or_section": "Chapter 4 Infiltration Basin, page 4-75 (page 106)"
+    },
+    {
+      "field": "design_parameters.shwt_separation_inches",
+      "excerpt": "bioretention areas require a minimum depth to groundwater of 2 feet",
+      "page_or_section": "Introduction Table 1-2 discussion, page 1-8 (page 13)"
+    },
+    {
+      "field": "design_parameters.shwt_separation_inches",
+      "excerpt": "the seasonal high water table must be at least 2 ft below the base of the permeable pavement or gravel storage layer",
+      "page_or_section": "PICP Design Criteria, page 4-84 (page 115)"
+    },
+    {
+      "field": "design_parameters.design_infiltration_rate_in_per_hr",
+      "excerpt": "underlying soils must have an infiltration rate of 0.52 inch per hour or greater",
+      "page_or_section": "Infiltration Trench Soils/Topography, page 4-79 (page 110)"
+    },
+    {
+      "field": "design_parameters.ed_drain_time_hours",
+      "excerpt": "Contain areas of standing water for no more than 3 days following a storm event.",
+      "page_or_section": "Dry Retention Systems Additional Criteria, page 4-165 (page 196)"
+    },
+    {
+      "field": "design_parameters.length_to_width_ratio",
+      "excerpt": "Average flow path through the basin should have a length-to-width ratio of at least 3:1.",
+      "page_or_section": "Dry Retention Systems Additional Criteria, page 4-165 (page 196)"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "Water shall pond above the cell for a maximum of 12 hours. Water must then drain to a level 24 inches below the surface of the cell within 48 hours (maximum)",
+      "page_or_section": "Bioretention Drainage Considerations, page 4-107 (page 138)"
     }
   ],
   "extraction_quality": {
@@ -67,5 +107,52 @@
     "landing_page_url": "https://jacksonms.gov/government/city-departments/public-works-department/stormwater-management/",
     "retrieved_at": "2026-08-10T09:39:14.788Z",
     "original_filename": "jackson-ms.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": null,
+    "max_drawdown_hours": 120,
+    "shwt_separation_inches": 24,
+    "bioretention_media_depth_min_inches": null,
+    "bioretention_ponding_depth_inches": null,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": 0.52,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": 72,
+    "length_to_width_ratio": 3,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "bioretention",
+      "constructed_wetland",
+      "extended_detention",
+      "green_roof",
+      "infiltration_basin",
+      "infiltration_trench",
+      "permeable_pavement",
+      "sand_filter",
+      "swale",
+      "wet_pond"
+    ],
+    "enriched_at": "2026-08-13T08:42:06.834Z",
+    "enrich_model": "composer-2.5:run-c75a4bc5-2c73-4303-85a6-0ce17fd171ce",
+    "enrich_notes": "Corpus is MDEQ Vol. 2 (state manual used for Jackson MS coverage). Infiltration dewatering is 5 days; SHWT separation commonly 2 ft minimum (24 in). Infiltration trench minimum soil rate 0.52 in/hr. Dry retention/detention: 3-day max standing water, 3:1 L:W. Bioretention drawdown: 12 h max ponding, 48 h max to drain ponded volume; 2 ft min groundwater for bioretention siting. Swales: 1–2% longitudinal slope recommended, <4%; 2 ft above groundwater for dry/grassed swale. Green roofs: slope limit stated as 20 degrees (not percent). No explicit general WQV depth, bioretention media/ponding depths, permeable base storage depth, or MTD verification program in excerpts.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "wqv_depth_inches",
+      "bioretention_media_depth_min_inches",
+      "bioretention_ponding_depth_inches",
+      "permeable_pavement_storage_depth_inches",
+      "permanent_pool_depth_inches",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "swale_longitudinal_slope_percent",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

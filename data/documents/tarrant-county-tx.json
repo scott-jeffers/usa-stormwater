@@ -83,6 +83,66 @@
       "field": "design_criteria.approved_bmp_categories",
       "excerpt": "8.0 Inlets 9.0 Pipe Systems 10.0 Dry Detention / Extended Detention Dry Basins 11.0 Multi-Purpose Detention Areas 12.0 Underground Detention 13.0 Filter Strip 14.0 Organic Filter 15.0 Planter Boxes 16.0 Sand Filters 17.0 Underground Sand Filter 18.0 Gravity (Oil Grit) Separato",
       "page_or_section": "p. 1"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "tf = design filter bed drain time (days) (2.0 days or 48 hours is recommended maximum)",
+      "page_or_section": "Bioretention SD-37, page 49"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "Given that a bioretention facility is typically designed to completely drain over 48 hours",
+      "page_or_section": "Bioretention SD-31, page 43"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "this method should be used only for bioretention areas, filter facilities, and infiltration trenches where the drawdown time is ≥ 24 hours",
+      "page_or_section": "Overview SD-26, page 38"
+    },
+    {
+      "field": "design_parameters.shwt_separation_inches",
+      "excerpt": "Minimum Depth to Water Table – A separation distance of 2 feet recommended between the bottom of the bioretention facility and the elevation of the seasonally high water table.",
+      "page_or_section": "Bioretention SD-32, page 44"
+    },
+    {
+      "field": "design_parameters.bioretention_media_depth_min_inches",
+      "excerpt": "df = filter bed depth (2.5 feet minimum)",
+      "page_or_section": "Bioretention SD-37, page 49"
+    },
+    {
+      "field": "design_parameters.bioretention_ponding_depth_inches",
+      "excerpt": "hf = average height of water above filter bed (ft) (typically 3 inches, which is half of the 6-inch ponding depth)",
+      "page_or_section": "Bioretention SD-37, page 49"
+    },
+    {
+      "field": "design_parameters.design_infiltration_rate_in_per_hr",
+      "excerpt": "Infiltration rate > 0.5 inch/hr",
+      "page_or_section": "Table 5.1.3-1 Structural Control Screening Matrix, page 23"
+    },
+    {
+      "field": "design_parameters.permanent_pool_depth_inches",
+      "excerpt": "Limit maximum normal pool depth to about 4 feet (dugout)",
+      "page_or_section": "Table 5.1.3-1 Structural Control Screening Matrix, page 23"
+    },
+    {
+      "field": "design_parameters.ed_drain_time_hours",
+      "excerpt": "the water quality orifice is sized to release this extended detention volume in 24 hours",
+      "page_or_section": "Stormwater Ponds SD-160, page 172"
+    },
+    {
+      "field": "design_parameters.ed_drain_time_hours",
+      "excerpt": "released over a period of 24 hours",
+      "page_or_section": "Stormwater Wetlands SD-194, page 206"
+    },
+    {
+      "field": "design_parameters.length_to_width_ratio",
+      "excerpt": "Assume a roughly 2 to 1 rectangular shape.",
+      "page_or_section": "Stormwater Control Design Examples SD-237, page 249"
+    },
+    {
+      "field": "design_parameters.wetland_detention_hours",
+      "excerpt": "part of the water quality treatment volume is provided as extended detention above the surface of the marsh and released over a period of 24 hours",
+      "page_or_section": "Stormwater Wetlands SD-194, page 206"
     }
   ],
   "extraction_quality": {
@@ -100,5 +160,48 @@
     "landing_page_url": "https://www.iswm.nctcog.org/technical-manual.html",
     "retrieved_at": "2026-08-10T09:20:00.000Z",
     "original_filename": "tarrant-county-tx.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": null,
+    "max_drawdown_hours": 48,
+    "shwt_separation_inches": 24,
+    "bioretention_media_depth_min_inches": 30,
+    "bioretention_ponding_depth_inches": 6,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": 0.5,
+    "permanent_pool_depth_inches": 48,
+    "ed_drain_time_hours": 24,
+    "length_to_width_ratio": 2,
+    "wetland_detention_hours": 24,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "bioretention",
+      "constructed_wetland",
+      "extended_detention",
+      "green_roof",
+      "infiltration_trench",
+      "manufactured_treatment",
+      "permeable_pavement",
+      "sand_filter",
+      "swale",
+      "wet_pond"
+    ],
+    "enriched_at": "2026-08-13T10:20:25.661Z",
+    "enrich_model": "composer-2.5:run-fa0ac926-cfa2-473c-a681-1f15e6ecbbda",
+    "enrich_notes": "NCTCOG iSWM Site Development Controls; WQv sizing referenced but rainfall depth for WQv not stated in excerpts. Bioretention filter drain uses k=0.5 ft/day in examples (not mapped to in/hr field). Pond/wetland aquifer notes cite 2–4 ft SHWT separation in places; bioretention cites 2 ft recommended. ED release commonly 24 h; cold-water/stream habitat cases may use 12 h WQv-ED. Proprietary BMPs require manufacturer data and independent third-party verification without naming TAPE/NJCAT.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "wqv_depth_inches",
+      "permeable_pavement_storage_depth_inches",
+      "swale_bottom_width_inches",
+      "swale_longitudinal_slope_percent",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

@@ -67,6 +67,56 @@
       "field": "design_criteria.approved_bmp_categories",
       "excerpt": "Infiltration Basin, Extended Detention, Filter Strip, Detention Basin",
       "page_or_section": null
+    },
+    {
+      "field": "design_parameters.wqv_depth_inches",
+      "excerpt": "Ohio EPA determined that the WQV precipitation depth of 0.90 inches is the appropriate depth for sizing BMPs",
+      "page_or_section": "1111.4 / page 112"
+    },
+    {
+      "field": "design_parameters.shwt_separation_inches",
+      "excerpt": "The invert of the structure must be at least 4 feet above the seasonal high-water table and any impervious layer.",
+      "page_or_section": "1113.6 / page 139"
+    },
+    {
+      "field": "design_parameters.bioretention_media_depth_min_inches",
+      "excerpt": "Bioretention Planting Soil Layer: Provide 30 inches of bioretention planting soil.",
+      "page_or_section": "1113.5.3 / page 136"
+    },
+    {
+      "field": "design_parameters.bioretention_ponding_depth_inches",
+      "excerpt": "Limit the maximum depth to 12 inches measured from the final grade of the bioretention cell",
+      "page_or_section": "1113.5.3 / page 135-136"
+    },
+    {
+      "field": "design_parameters.ed_drain_time_hours",
+      "excerpt": "The WQV is discharged over a 48-hour time frame.",
+      "page_or_section": "1113.3 / page 127"
+    },
+    {
+      "field": "design_parameters.ed_drain_time_hours",
+      "excerpt": "Provide an outlet structure that fully drains the WQV in 48 hours or more.",
+      "page_or_section": "1113.3.1.1 / page 128"
+    },
+    {
+      "field": "design_parameters.length_to_width_ratio",
+      "excerpt": "Use a length to width ratio of at least 3:1 to prevent short-circuiting.",
+      "page_or_section": "1113.4 Retention Basin / page 132"
+    },
+    {
+      "field": "design_parameters.length_to_width_ratio",
+      "excerpt": "Use a length to width ratio of 3:1.",
+      "page_or_section": "1113.6.2 Infiltration Basin / page 141"
+    },
+    {
+      "field": "design_parameters.wetland_detention_hours",
+      "excerpt": "Size the wetland to provide storage for the WQV for a time frame of at least 24 hours, above the permanent pool",
+      "page_or_section": "1113.7 / page 142"
+    },
+    {
+      "field": "design_parameters.bioretention_ponding_depth_inches",
+      "excerpt": "Maximum 12\" Ponding Allowed",
+      "page_or_section": "Figure 1113-5 / page 214"
     }
   ],
   "extraction_quality": {
@@ -80,5 +130,48 @@
     "landing_page_url": "https://www.transportation.ohio.gov/working/publications/location-design-vol-2-jump",
     "retrieved_at": "2026-08-11T17:21:06.010Z",
     "original_filename": "oh-odot-drainage.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": 0.9,
+    "max_drawdown_hours": null,
+    "shwt_separation_inches": 48,
+    "bioretention_media_depth_min_inches": 30,
+    "bioretention_ponding_depth_inches": 12,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": null,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": 48,
+    "length_to_width_ratio": 3,
+    "wetland_detention_hours": 24,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "bioretention",
+      "constructed_wetland",
+      "extended_detention",
+      "infiltration_basin",
+      "infiltration_trench",
+      "manufactured_treatment",
+      "swale",
+      "wet_pond"
+    ],
+    "enriched_at": "2026-08-13T09:31:22.755Z",
+    "enrich_model": "composer-2.5:run-69327247-bb90-435f-b5e2-1a2f19b43770",
+    "enrich_notes": "WQV sizing uses P=0.90 in with WQV=RV*P*A/12 (RV=0.05+0.9*i). Extended detention sizes WQV+20% sediment allowance; WQV drains ≥48 hr with ≤50% released in first 16 hr. Retention basin EDV (100% WQV) drains ≥24 hr with ≤50% in first 8 hr. Infiltration feasibility requires surface infiltration >0.50 and ≤2.4 in/hr; invert ≥4 ft above seasonal high water table; trench WQV drain ≤48 hr; basin WQV drain ≤24 hr (design equation uses t=24 hr, SF=1.5, k from Table 1113-5). Bioretention: min cell area 5% of impervious tributary area; water table/bedrock ≥1 ft below cell invert; 30 in planting soil plus aggregate layers; underdrain outlet ≥2 ft below final soil surface. Constructed wetland: WQV detained ≥24 hr above permanent pool; dry-weather depth 0.5–2 ft; forebay 7% volume at 3–6 ft depth. Wet extended detention/retention full storage depth typically 3–6 ft. Manufactured systems listed as WQ-only BMP without verification program named.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "max_drawdown_hours",
+      "permeable_pavement_storage_depth_inches",
+      "design_infiltration_rate_in_per_hr",
+      "permanent_pool_depth_inches",
+      "swale_bottom_width_inches",
+      "swale_longitudinal_slope_percent",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

@@ -37,11 +37,6 @@
   },
   "evidence": [
     {
-      "field": "document_metadata.jurisdiction_name",
-      "excerpt": "Texas",
-      "page_or_section": "Title / header"
-    },
-    {
       "field": "document_metadata.document_title",
       "excerpt": "TxDOT Hydraulic Design Manual",
       "page_or_section": "Title / header"
@@ -60,14 +55,35 @@
       "field": "design_criteria.approved_bmp_categories",
       "excerpt": "Detention Basin, Retention Basin",
       "page_or_section": null
+    },
+    {
+      "field": "practice_mentions.extended_detention",
+      "excerpt": "Measures intended to mitigate storm water quantity and quality problems are termed “best management practices” (BMPs). These measures include detention and retention ponds which delay storm water flow and trap sediment",
+      "page_or_section": "Chapter 13, Section 1, Hydraulic Design Manual 13-2"
+    },
+    {
+      "field": "practice_mentions.extended_detention",
+      "excerpt": "storm water detention and retention systems to reduce peak runoff rates and improve water quality",
+      "page_or_section": "Chapter 13, Section 1, Hydraulic Design Manual 13-2"
+    },
+    {
+      "field": "practice_mentions.permeable_pavement",
+      "excerpt": "Alternatively, a permeable asphalt surface may be considered under load conditions that warrant its use. Typically, the asphalt layer lies on top of an aggregate drainage layer",
+      "page_or_section": "Chapter 15, Storm Surge and Drawdown Protection, Hydraulic Design Manual 15-84"
+    },
+    {
+      "field": "design_parameters.design_infiltration_rate_in_per_hr",
+      "excerpt": "f = infiltration capacity (in./hr.) Ks = saturated hydraulic conductivity (permeability) (in./hr.)",
+      "page_or_section": "Chapter 4, Section 13 Hydrograph Method, Green and Ampt, Hydraulic Design Manual 4-99"
     }
   ],
   "extraction_quality": {
     "confidence": "medium",
     "needs_human_review": true,
-    "review_notes": "Heuristic agency extract from prepared text. TxDOT Hydraulic Design Manual (revised Sept 2019)",
+    "review_notes": "Heuristic agency extract from prepared text. TxDOT Hydraulic Design Manual (revised Sept 2019) Pipeline excerpt repair removed 1 unlocated citation(s).",
     "fields_not_found": [
-      "design_criteria.water_quality_volume_method"
+      "design_criteria.water_quality_volume_method",
+      "document_metadata.jurisdiction_name"
     ]
   },
   "source": {
@@ -75,5 +91,49 @@
     "landing_page_url": "https://www.txdot.gov/manuals/des/hyd/index.html",
     "retrieved_at": "2026-08-11T17:59:10.553Z",
     "original_filename": "tx-txdot-hydraulic.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": null,
+    "max_drawdown_hours": null,
+    "shwt_separation_inches": null,
+    "bioretention_media_depth_min_inches": null,
+    "bioretention_ponding_depth_inches": null,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": null,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": null,
+    "length_to_width_ratio": null,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "extended_detention",
+      "permeable_pavement"
+    ],
+    "enriched_at": "2026-08-13T10:26:44.615Z",
+    "enrich_model": "composer-2.5:run-eead6b4f-6bb4-4e84-a95b-58457ab03331",
+    "enrich_notes": "Corpus is TxDOT Hydraulic Design Manual (9/2019) hydrology, storm drains, and Ch. 13 storm water management—not detailed SCM sizing. BMPs cited generically (detention/retention ponds, sediment controls). Green-Ampt defines Ks and f in in./hr. without a single design infiltration criterion. Coastal section discusses permeable asphalt and aggregate drainage layers without storage depth. No WQv depth, drawdown times, bioretention/swale/green-roof dimensions, or MTD verification programs in supplied excerpts.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "wqv_depth_inches",
+      "max_drawdown_hours",
+      "shwt_separation_inches",
+      "bioretention_media_depth_min_inches",
+      "bioretention_ponding_depth_inches",
+      "permeable_pavement_storage_depth_inches",
+      "design_infiltration_rate_in_per_hr",
+      "permanent_pool_depth_inches",
+      "ed_drain_time_hours",
+      "length_to_width_ratio",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "swale_longitudinal_slope_percent",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

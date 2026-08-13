@@ -51,6 +51,56 @@
       "field": "document_metadata.last_revised_date",
       "excerpt": "--- page 135 --- Appendix A A-1 October 2010 APPENDIX A Stakeholder Survey Response Summary 1 INTRODUCTION An online survey was created to help guide the development of this document. The goal of the survey was to identify stakeholder’s priorities regarding stormwater man",
       "page_or_section": "p. 135"
+    },
+    {
+      "field": "practice_mentions.swale",
+      "excerpt": "Answer Answer Description A Vegetated swales",
+      "page_or_section": "Appendix A Table A-2, page 138"
+    },
+    {
+      "field": "practice_mentions.bioretention",
+      "excerpt": "F Bioretention G Rain gardens",
+      "page_or_section": "Appendix A Table A-2, page 138"
+    },
+    {
+      "field": "practice_mentions.permeable_pavement",
+      "excerpt": "C Permeable pavement",
+      "page_or_section": "Appendix A Table A-2, page 138"
+    },
+    {
+      "field": "practice_mentions.sand_filter",
+      "excerpt": "K Sand filters",
+      "page_or_section": "Appendix A Table A-2, page 138"
+    },
+    {
+      "field": "practice_mentions.extended_detention",
+      "excerpt": "L Extended detention basins",
+      "page_or_section": "Appendix A Table A-2, page 138"
+    },
+    {
+      "field": "practice_mentions.infiltration_basin",
+      "excerpt": "M Infiltration Basins",
+      "page_or_section": "Appendix A Table A-2, page 138"
+    },
+    {
+      "field": "practice_mentions.wet_pond",
+      "excerpt": "N Retention basins/wet ponds",
+      "page_or_section": "Appendix A Table A-2, page 138"
+    },
+    {
+      "field": "practice_mentions.constructed_wetland",
+      "excerpt": "I Pocket wetlands",
+      "page_or_section": "Appendix A Table A-2, page 138"
+    },
+    {
+      "field": "practice_mentions.manufactured_treatment",
+      "excerpt": "J Hydrodynamic separators",
+      "page_or_section": "Appendix A Table A-2, page 138"
+    },
+    {
+      "field": "fields_not_found.shwt_separation_inches",
+      "excerpt": "water table elevations",
+      "page_or_section": "Appendix A §1.5 / Table A-3, page 139"
     }
   ],
   "extraction_quality": {
@@ -74,5 +124,56 @@
     "landing_page_url": "https://deq.louisiana.gov/page/storm-water-protection",
     "retrieved_at": "2026-08-08T10:20:00.000Z",
     "original_filename": "new-orleans-jefferson-la.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": null,
+    "max_drawdown_hours": null,
+    "shwt_separation_inches": null,
+    "bioretention_media_depth_min_inches": null,
+    "bioretention_ponding_depth_inches": null,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": null,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": null,
+    "length_to_width_ratio": null,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "bioretention",
+      "constructed_wetland",
+      "extended_detention",
+      "infiltration_basin",
+      "manufactured_treatment",
+      "permeable_pavement",
+      "sand_filter",
+      "swale",
+      "wet_pond"
+    ],
+    "enriched_at": "2026-08-13T09:22:20.501Z",
+    "enrich_model": "composer-2.5:run-573df926-de20-41e1-b9fb-5cdbcc04ed1e",
+    "enrich_notes": "Provided corpus is Appendix A stakeholder survey only (pages 135–142); no BMP design numeric criteria. Atlas notes no parish-wide WQv depth and volume-based sizing elsewhere in the manual—not in these excerpts. Survey cites water table as a top implementation constraint but gives no SHWT separation distance.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "wqv_depth_inches",
+      "max_drawdown_hours",
+      "shwt_separation_inches",
+      "bioretention_media_depth_min_inches",
+      "bioretention_ponding_depth_inches",
+      "permeable_pavement_storage_depth_inches",
+      "design_infiltration_rate_in_per_hr",
+      "permanent_pool_depth_inches",
+      "ed_drain_time_hours",
+      "length_to_width_ratio",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "swale_longitudinal_slope_percent",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

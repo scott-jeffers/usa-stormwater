@@ -46,6 +46,36 @@
       "field": "design_criteria.water_quality_volume_method",
       "excerpt": "Treat the first 1 inch of runoff from impervious surfaces and 0.4 inch from landscaped areas",
       "page_or_section": "Maine Vol III"
+    },
+    {
+      "field": "design_parameters.wqv_depth_inches",
+      "excerpt": "An underdrained soil filter must detain and filter a runoff volume equal to 1.0 inch times the subcatchment's impervious area plus 0.4 inch times the subcatchment's landscaped developed area.",
+      "page_or_section": "Chapter 7.1, page 50"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "A filter basin must drain dry in no less than 24 and no more than 48 hours.",
+      "page_or_section": "Chapter 7.1, page 50"
+    },
+    {
+      "field": "design_parameters.bioretention_media_depth_min_inches",
+      "excerpt": "The soil filter over the gravel underdrain pipe bedding must be at least 18 inches deep and must extend across the entire filter area.",
+      "page_or_section": "Chapter 7.2, page 58"
+    },
+    {
+      "field": "design_parameters.bioretention_ponding_depth_inches",
+      "excerpt": "The peak water quality storage depth should not exceed 6 inches over a bioretention basin filter.",
+      "page_or_section": "Chapter 7.2, page 57"
+    },
+    {
+      "field": "design_parameters.length_to_width_ratio",
+      "excerpt": "Provide a long and narrow basin shape, with a minimum 2:1 length to width ratio (3:1 is best).",
+      "page_or_section": "Chapter 4 Wet Ponds, page 22"
+    },
+    {
+      "field": "design_parameters.green_roof_slope_percent",
+      "excerpt": "A minimum slope of 2% is considered normal for extensive and simple intensive greening.",
+      "page_or_section": "Chapter 7.6, page 77"
     }
   ],
   "extraction_quality": {
@@ -59,5 +89,52 @@
     "landing_page_url": "https://www.maine.gov/dep/land/stormwater/stormwaterbmps/",
     "retrieved_at": "2026-08-10T10:18:37.456Z",
     "original_filename": "augusta-me.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": 1,
+    "max_drawdown_hours": 48,
+    "shwt_separation_inches": null,
+    "bioretention_media_depth_min_inches": 18,
+    "bioretention_ponding_depth_inches": 6,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": null,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": null,
+    "length_to_width_ratio": 2,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": 2,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "bioretention",
+      "constructed_wetland",
+      "extended_detention",
+      "green_roof",
+      "infiltration_basin",
+      "infiltration_trench",
+      "manufactured_treatment",
+      "permeable_pavement",
+      "sand_filter",
+      "swale",
+      "wet_pond"
+    ],
+    "enriched_at": "2026-08-13T07:30:04.085Z",
+    "enrich_model": "composer-2.5:run-c8ea5725-b38d-4be8-8adf-e597ca65693c",
+    "enrich_notes": "WQv sizing is explicit as 1.0 inch on impervious plus 0.4 inch on landscaped developed area (Atlas and Ch. 7.1/7.2/7.4). SHWT separation is stated as 12 inches (1 foot) for detention basins, bioretention, and subsurface sand filters, and 18 inches for grassed underdrained soil filters—no single manual-wide minimum was applied. Gravel wetland target detention is a 24–48 hour range. Pervious surface text gives infiltration bounds (<2.41 in/hr, >0.04 in/hr) and 1 inch+ storage capacity, not a single storage section depth. Proprietary systems use Maine DEP approval letters (Appendix B), not TAPE/NJCAT by name.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "shwt_separation_inches",
+      "permeable_pavement_storage_depth_inches",
+      "design_infiltration_rate_in_per_hr",
+      "permanent_pool_depth_inches",
+      "ed_drain_time_hours",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "swale_longitudinal_slope_percent",
+      "green_roof_media_depth_inches",
+      "mtd_verification_program"
+    ]
   }
 }

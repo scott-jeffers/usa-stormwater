@@ -36,7 +36,7 @@ import {
 } from "../lib/corpusHeuristic";
 import { loadEnvLocal } from "../lib/loadEnv";
 import { ensureJobPdf } from "./prepareStage";
-import { pipelineDelay } from "./shared";
+import { isPermanentHttpError, pipelineDelay } from "./shared";
 
 const structureAiSchema = corpusStructureSchema.omit({
   model: true,
@@ -513,6 +513,24 @@ export async function runCorpusStage(
   const current = store.ensureJob(job.id).stages.corpus;
   if (!opts.force && current.status === "done") return "noop";
   if (!opts.force && current.status === "skipped") return "skipped";
+  if (
+    !opts.force &&
+    current.status === "failed" &&
+    isPermanentHttpError(current.error ?? "")
+  ) {
+    store.setStage(job.id, "corpus", {
+      status: "skipped",
+      error: `http_404: ${current.error}`,
+      completedAt: new Date().toISOString(),
+    });
+    await store.saveAndLog({
+      id: job.id,
+      stage: "corpus",
+      status: "skipped",
+      detail: current.error,
+    });
+    return "skipped";
+  }
 
   const slug = store.ensureJob(job.id).slug ?? job.id;
   store.setJobSlug(job.id, slug);
@@ -555,18 +573,21 @@ export async function runCorpusStage(
         );
       }
     }
+    const permanent = isPermanentHttpError(message);
     store.setStage(job.id, "corpus", {
-      status: "failed",
-      error: message,
+      status: permanent ? "skipped" : "failed",
+      error: permanent ? `http_404: ${message}` : message,
       completedAt: new Date().toISOString(),
     });
     await store.saveAndLog({
       id: job.id,
       stage: "corpus",
-      status: "failed",
+      status: permanent ? "skipped" : "failed",
       detail: message,
     });
-    console.error(`[${job.id}] corpus failed: ${message}`);
-    return "failed";
+    console.error(
+      `[${job.id}] corpus ${permanent ? "skipped (dead URL)" : "failed"}: ${message}`
+    );
+    return permanent ? "skipped" : "failed";
   }
 }

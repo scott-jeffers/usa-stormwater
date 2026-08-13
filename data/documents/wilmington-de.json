@@ -30,6 +30,31 @@
       "field": "document_metadata.jurisdiction_name",
       "excerpt": "City of Wilmington DE MS4 follows DNREC Sediment and Stormwater standards",
       "page_or_section": "Coverage note"
+    },
+    {
+      "field": "design_parameters.ed_drain_time_hours",
+      "excerpt": "a Wet ED Pond must provide 48 hours extended detention for the RPv runoff volume",
+      "page_or_section": "13.6 Wet Pond Design Criteria (page 11); Table 13.2 summary (page 5)"
+    },
+    {
+      "field": "design_parameters.permanent_pool_depth_inches",
+      "excerpt": "Minimum depth = 4'; maximum depth = 8'",
+      "page_or_section": "13.2 Table 13.2 Design Criteria Geometry (page 5); 13.6 Permanent Pool Depth (page 12)"
+    },
+    {
+      "field": "design_parameters.length_to_width_ratio",
+      "excerpt": "The forebay should have a length to width ratio of 2:1 or greater",
+      "page_or_section": "13.5 Wet Pond Pretreatment Criteria (page 10)"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "a diameter capable of draining the Wet Pond within 24 hours",
+      "page_or_section": "13.6 Pond Drain (page 14)"
+    },
+    {
+      "field": "design_parameters.shwt_separation_inches",
+      "excerpt": "the seasonal high groundwater table is two feet or more below the proposed Wet Pond invert",
+      "page_or_section": "13.3 Wet Pond Feasibility Criteria – Soils (page 8)"
     }
   ],
   "extraction_quality": {
@@ -43,5 +68,44 @@
     "landing_page_url": "https://dnrec.delaware.gov/watershed-stewardship/sediment-stormwater/",
     "retrieved_at": "2026-08-10T10:27:43.524Z",
     "original_filename": "wilmington-de.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": null,
+    "max_drawdown_hours": 24,
+    "shwt_separation_inches": 24,
+    "bioretention_media_depth_min_inches": null,
+    "bioretention_ponding_depth_inches": null,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": null,
+    "permanent_pool_depth_inches": 48,
+    "ed_drain_time_hours": 48,
+    "length_to_width_ratio": 2,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "extended_detention",
+      "wet_pond"
+    ],
+    "enriched_at": "2026-08-13T10:34:45.744Z",
+    "enrich_model": "composer-2.5:run-6c2f7b27-4f58-4510-af40-535376cf6d39",
+    "enrich_notes": "Wilmington DE wet-pond chapter (DNREC pattern): Wet ED Ponds require 48-hour extended detention of RPv for credit; permanent pool min 4 ft (max 8 ft); forebay L:W ≥2:1; RPv/WQv inch depth not stated in this chapter (see DE Sediment and Stormwater Regulations).",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "wqv_depth_inches",
+      "bioretention_media_depth_min_inches",
+      "bioretention_ponding_depth_inches",
+      "permeable_pavement_storage_depth_inches",
+      "design_infiltration_rate_in_per_hr",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "swale_longitudinal_slope_percent",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

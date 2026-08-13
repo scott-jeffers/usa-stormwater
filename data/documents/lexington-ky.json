@@ -69,6 +69,66 @@
       "field": "design_criteria.approved_bmp_categories",
       "excerpt": "GREEN INFRASTRUCTURE PRACTICES / extended detention basins",
       "page_or_section": "Table 1-7 / Chapter 10"
+    },
+    {
+      "field": "design_parameters.wqv_depth_inches",
+      "excerpt": "The 90th percentile storm in Fayette County is 1.2 inches. The WQV is determined by multiplying 1.2 inches times the impervious area.",
+      "page_or_section": "10.2.2 / page 138"
+    },
+    {
+      "field": "design_parameters.wqv_depth_inches",
+      "excerpt": "Multiply 1.2 inches times the total impervious area",
+      "page_or_section": "1.7.3 / page 23"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "Drain Time: Maximum drain time (i.e., ponding) is 24 hours.",
+      "page_or_section": "10.3.2 Bioretention / page 140"
+    },
+    {
+      "field": "design_parameters.bioretention_media_depth_min_inches",
+      "excerpt": "Provide a planting soil bed with a minimum width of 4 feet and a minimum depth of 4 feet (including a 12-inch sand bed).",
+      "page_or_section": "10.3.2 Design Criteria / page 141"
+    },
+    {
+      "field": "design_parameters.bioretention_ponding_depth_inches",
+      "excerpt": "Grade the top of the planting soil bed to provide a shallow ponding area with a maximum depth of 6 inches.",
+      "page_or_section": "10.3.2 Design Criteria / page 141"
+    },
+    {
+      "field": "design_parameters.design_infiltration_rate_in_per_hr",
+      "excerpt": "An underdrain shall be provided if the underlying soils have an infiltration rate of less than 0.5 inches per hour.",
+      "page_or_section": "10.3.2 / page 140"
+    },
+    {
+      "field": "design_parameters.design_infiltration_rate_in_per_hr",
+      "excerpt": "Infiltration basins may be used in locations that have at least 5 feet of soil, with a permeability of at least 0.5 inches/hour underlying the device.",
+      "page_or_section": "10.3.5 Design Criteria / page 149"
+    },
+    {
+      "field": "design_parameters.ed_drain_time_hours",
+      "excerpt": "Design the extended detention outlet so that the \"design\" WQV requires a maximum of 24 hours to discharge.",
+      "page_or_section": "10.6.2 Design Criteria / page 166"
+    },
+    {
+      "field": "design_parameters.length_to_width_ratio",
+      "excerpt": "Provide a minimum length to width ratio of 3:1 or provide gabion baffles",
+      "page_or_section": "10.7.2 Design Criteria / page 168"
+    },
+    {
+      "field": "design_parameters.length_to_width_ratio",
+      "excerpt": "For widths greater than 10 feet, maintain at least a 2:1 length to width ratio.",
+      "page_or_section": "10.3.2 / page 141"
+    },
+    {
+      "field": "design_parameters.wetland_detention_hours",
+      "excerpt": "Design the extended detention outlet so that a maximum of 24 hours would be required to release the design WQV.",
+      "page_or_section": "10.9.2 Design Criteria / page 173"
+    },
+    {
+      "field": "design_parameters.green_roof_media_depth_inches",
+      "excerpt": "Vegetated Roofs Soil area x soil depth x 0.18. Maximum soil depth for calculation purposes shall be 12 inches.",
+      "page_or_section": "Table 1-7 / page 23"
     }
   ],
   "extraction_quality": {
@@ -88,5 +148,48 @@
     "landing_page_url": "https://www.lexingtonky.gov/government/departments-programs/environmental-quality-public-works/water-quality/municipal-separate-storm-sewer-system-ms4",
     "retrieved_at": "2026-08-10T08:18:32.603Z",
     "original_filename": "lexington-ky.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": 1.2,
+    "max_drawdown_hours": 24,
+    "shwt_separation_inches": null,
+    "bioretention_media_depth_min_inches": 48,
+    "bioretention_ponding_depth_inches": 6,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": 0.5,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": 24,
+    "length_to_width_ratio": 3,
+    "wetland_detention_hours": 24,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": 12,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "bioretention",
+      "constructed_wetland",
+      "extended_detention",
+      "green_roof",
+      "infiltration_basin",
+      "infiltration_trench",
+      "manufactured_treatment",
+      "permeable_pavement",
+      "swale",
+      "wet_pond"
+    ],
+    "enriched_at": "2026-08-13T08:57:46.740Z",
+    "enrich_model": "composer-2.5:run-29e6f8ea-ca7b-4d08-b0b4-4dfb1be62301",
+    "enrich_notes": "Runoff reduction design volume is 0.8 inches × impervious area (Section 1.7.4). Bioretention total soil-media drawdown may take up to 3 days (72 hours) in addition to 24-hour surface ponding limit. Bioretention requires at least 2:1 length-to-width ratio when filter width exceeds 10 feet; constructed wetlands require at least 2:1. Wet pond permanent pool average depth is 3–6 ft (36–72 in), max 8 ft; ED/wetland marsh permanent pools are stated as 6–12 in. Tree trenches require underdrain if native infiltration is less than 2 in/hr (other GI uses 0.5 in/hr threshold).",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "shwt_separation_inches",
+      "permeable_pavement_storage_depth_inches",
+      "permanent_pool_depth_inches",
+      "swale_bottom_width_inches",
+      "swale_longitudinal_slope_percent",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

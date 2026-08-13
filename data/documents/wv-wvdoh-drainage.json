@@ -57,6 +57,31 @@
       "field": "design_criteria.peak_flow_calculation_method",
       "excerpt": "ment through clearly stated reasons and rationale for specific design decisions. 3.4 RESPONSIBILITY The designer is responsible",
       "page_or_section": null
+    },
+    {
+      "field": "design_parameters.wqv_depth_inches",
+      "excerpt": "Drainage facilities shall be designed to accommodate the discharge for the minimum specified design storm criteria. Table 4-2 presents the minimum criteria",
+      "page_or_section": "Chapter 4, Section 4.3.1 / Table 4-2 Design Storm Criteria"
+    },
+    {
+      "field": "practice_mentions",
+      "excerpt": "some roadway projects may require stormwater detention analysis. (See Chapter 10 and Chapter 9 respectively, for criteria).",
+      "page_or_section": "Chapter 2, Section 2.4.2 Legal Considerations"
+    },
+    {
+      "field": "design_parameters.design_infiltration_rate_in_per_hr",
+      "excerpt": "Soil permeability",
+      "page_or_section": "Chapter 1, Section 1.3 General Drainage Considerations"
+    },
+    {
+      "field": "practice_mentions",
+      "excerpt": "surface infiltration and storage (ponds, wetlands).",
+      "page_or_section": "Chapter 4, Section 4.2.7 Evaluation of Runoff Factors"
+    },
+    {
+      "field": "enrich_notes",
+      "excerpt": "9 Stormwater Management ... HEC-22, Urban Drainage Design Manual, 2009",
+      "page_or_section": "Chapter 1, Table 1-3 List of Recommended Publications"
     }
   ],
   "extraction_quality": {
@@ -73,5 +98,46 @@
     "landing_page_url": "https://transportation.wv.gov/highways/engineering/Pages/Manuals.aspx",
     "retrieved_at": "2026-08-11T17:59:28.857Z",
     "original_filename": "wv-wvdoh-drainage.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": null,
+    "max_drawdown_hours": null,
+    "shwt_separation_inches": null,
+    "bioretention_media_depth_min_inches": null,
+    "bioretention_ponding_depth_inches": null,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": null,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": null,
+    "length_to_width_ratio": null,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [],
+    "enriched_at": "2026-08-13T10:35:54.022Z",
+    "enrich_model": "composer-2.5:run-ba932616-ce40-41ef-96eb-089443334473",
+    "enrich_notes": "Provided excerpts cover Chapters 1–4 (introduction, policy, documentation, hydrology) plus TOC references to Chapter 9 Stormwater Management; no Chapter 9 BMP design text is included. Atlas WQv method is null and approved BMPs none. Manual cites HEC-22 (2009) for storm drainage and stormwater management; karst-adjusted hydrology (Table 4-1) and design storm return periods (Table 4-2) are present but are not WQv depth or SCM sizing criteria.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "wqv_depth_inches",
+      "max_drawdown_hours",
+      "shwt_separation_inches",
+      "bioretention_media_depth_min_inches",
+      "bioretention_ponding_depth_inches",
+      "permeable_pavement_storage_depth_inches",
+      "design_infiltration_rate_in_per_hr",
+      "permanent_pool_depth_inches",
+      "ed_drain_time_hours",
+      "length_to_width_ratio",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "swale_longitudinal_slope_percent",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

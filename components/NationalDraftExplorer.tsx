@@ -24,12 +24,14 @@ export function NationalDraftExplorer({
   model: _model,
   sections,
   pipelineStatus,
+  practiceCount = 0,
 }: {
   outlineTitle: string;
   generatedAt: string | null;
   model: string | null;
   sections: NationalSectionIndexItem[];
   pipelineStatus: PipelineStatusSummary | null;
+  practiceCount?: number;
 }) {
   const [query, setQuery] = useState("");
 
@@ -68,6 +70,9 @@ export function NationalDraftExplorer({
         <p className="text-sm text-fg-muted">
           {sections.filter((s) => s.has_draft).length} chapters
           {reviewedCount > 0 ? ` · ${reviewedCount} editorially reviewed` : ""}
+          {practiceCount > 0
+            ? ` · ${practiceCount} practice criteria`
+            : ""}
           {generatedAt
             ? ` · ${new Date(generatedAt).toLocaleDateString()}`
             : ""}
@@ -92,6 +97,33 @@ export function NationalDraftExplorer({
         every citation against the linked jurisdiction manual before design use.
       </div>
 
+      <Link
+        href="/national/practices/"
+        className="block rounded-xl border border-edge/80 bg-surface px-4 py-3 shadow-sm transition hover:border-water/40 hover:bg-mist/40"
+      >
+        <div className="flex flex-wrap items-baseline justify-between gap-2">
+          <h2 className="font-display text-base font-semibold text-ink sm:text-lg">
+            Practice Criteria (SCMs / BMPs)
+          </h2>
+          <div className="flex flex-wrap items-center gap-2 text-xs">
+            <span className="rounded-full bg-amber-50 px-2 py-0.5 font-medium text-amber-900 ring-1 ring-inset ring-amber-700/15 dark:bg-amber-950/50 dark:text-amber-200 dark:ring-amber-400/20">
+              Draft
+            </span>
+            {practiceCount > 0 && (
+              <span className="text-fg-muted">
+                {practiceCount} practices
+              </span>
+            )}
+          </div>
+        </div>
+        <p className="mt-1 text-sm leading-relaxed text-fg-secondary">
+          National baseline and regional modifiers for bioretention, permeable
+          pavement, swales, wet ponds, and related controls — cross-state
+          criteria matrices from atlas parameters.
+        </p>
+        <p className="mt-1 font-mono text-[11px] text-fg-subtle">practices</p>
+      </Link>
+
       <div className="sticky top-0 z-10 -mx-1 space-y-3 bg-mist/90 px-1 py-3 backdrop-blur-sm">
         <label className="sr-only" htmlFor="national-search">
           Search draft sections
@@ -109,6 +141,12 @@ export function NationalDraftExplorer({
             aria-label="Section contents"
             className="flex flex-wrap gap-x-3 gap-y-1 text-xs text-fg-muted"
           >
+            <Link
+              href="/national/practices/"
+              className="font-medium text-water-deep hover:underline"
+            >
+              Practice Criteria
+            </Link>
             {sections
               .filter((s) => s.level === 1)
               .map((s) => (
@@ -160,13 +198,15 @@ export function NationalDraftExplorer({
               {section.prevalence != null && (
                 <div className="mt-2 flex items-center gap-2">
                   <div
-                    className="h-1.5 flex-1 max-w-[12rem] overflow-hidden rounded-full bg-surface-muted"
+                    className="h-1.5 max-w-[12rem] flex-1 overflow-hidden rounded-full bg-surface-muted"
                     role="img"
                     aria-label={`Topic prevalence ${(section.prevalence * 100).toFixed(0)} percent`}
                   >
                     <span
                       className="block h-full bg-water/70"
-                      style={{ width: `${Math.round(section.prevalence * 100)}%` }}
+                      style={{
+                        width: `${Math.round(section.prevalence * 100)}%`,
+                      }}
                     />
                   </div>
                   <span className="text-xs text-fg-muted">

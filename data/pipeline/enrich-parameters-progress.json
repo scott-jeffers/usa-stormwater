@@ -1,0 +1,4958 @@
+{
+  "version": 1,
+  "updated_at": "2026-08-13T10:46:31.958Z",
+  "slugs": {
+    "ak-state": {
+      "status": "done",
+      "updated_at": "2026-08-13T07:19:20.434Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "ed_drain_time_hours",
+        "green_roof_slope_percent",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "alabama-handbook": {
+      "status": "done",
+      "updated_at": "2026-08-13T07:20:57.262Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "max_drawdown_hours",
+        "shwt_separation_inches",
+        "bioretention_media_depth_min_inches",
+        "bioretention_ponding_depth_inches",
+        "design_infiltration_rate_in_per_hr",
+        "length_to_width_ratio",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "arkansas-manual": {
+      "status": "done",
+      "updated_at": "2026-08-13T07:26:49.895Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "flagstaff-az": {
+      "status": "done",
+      "updated_at": "2026-08-13T08:18:56.027Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "wqv_depth_inches",
+        "max_drawdown_hours",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "tucson-az": {
+      "status": "done",
+      "updated_at": "2026-08-13T10:25:01.274Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "ca-caltrans-construction": {
+      "status": "done",
+      "updated_at": "2026-08-13T07:42:58.532Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "max_drawdown_hours",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "ca-casqa-municipal": {
+      "status": "done",
+      "updated_at": "2026-08-13T07:44:36.278Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "max_drawdown_hours",
+        "ed_drain_time_hours",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "los-angeles-ca": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:00:11.042Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "max_drawdown_hours",
+        "bioretention_media_depth_min_inches",
+        "bioretention_ponding_depth_inches",
+        "length_to_width_ratio",
+        "swale_bottom_width_inches",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "ak-dot-drainage": {
+      "status": "done",
+      "updated_at": "2026-08-13T07:18:57.313Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [],
+      "schema_version": 2
+    },
+    "akron-oh": {
+      "status": "done",
+      "updated_at": "2026-08-13T07:20:05.567Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "wqv_depth_inches",
+        "shwt_separation_inches",
+        "bioretention_media_depth_min_inches",
+        "bioretention_ponding_depth_inches",
+        "ed_drain_time_hours",
+        "length_to_width_ratio",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "al-aldot-drainage": {
+      "status": "done",
+      "updated_at": "2026-08-13T07:20:36.044Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "albany-ny": {
+      "status": "done",
+      "updated_at": "2026-08-13T07:21:44.006Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "wqv_depth_inches",
+        "shwt_separation_inches",
+        "bioretention_media_depth_min_inches",
+        "bioretention_ponding_depth_inches",
+        "design_infiltration_rate_in_per_hr",
+        "ed_drain_time_hours",
+        "length_to_width_ratio",
+        "swale_bottom_width_inches",
+        "swale_longitudinal_slope_percent",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "albuquerque-nm-gsi": {
+      "status": "done",
+      "updated_at": "2026-08-13T07:22:26.206Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "max_drawdown_hours",
+        "shwt_separation_inches",
+        "design_infiltration_rate_in_per_hr",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "alexandria-va": {
+      "status": "done",
+      "updated_at": "2026-08-13T07:22:57.549Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "shwt_separation_inches",
+        "bioretention_ponding_depth_inches",
+        "permeable_pavement_storage_depth_inches",
+        "design_infiltration_rate_in_per_hr",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "allentown-pa": {
+      "status": "done",
+      "updated_at": "2026-08-13T07:23:47.441Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "shwt_separation_inches",
+        "bioretention_media_depth_min_inches",
+        "bioretention_ponding_depth_inches",
+        "permanent_pool_depth_inches",
+        "length_to_width_ratio",
+        "green_roof_media_depth_inches",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "amarillo-tx": {
+      "status": "done",
+      "updated_at": "2026-08-13T07:24:19.272Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "max_drawdown_hours",
+        "shwt_separation_inches",
+        "design_infiltration_rate_in_per_hr",
+        "swale_longitudinal_slope_percent",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "anaheim-ca": {
+      "status": "done",
+      "updated_at": "2026-08-13T07:24:41.302Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [],
+      "schema_version": 2
+    },
+    "anchorage-ak": {
+      "status": "done",
+      "updated_at": "2026-08-13T07:25:22.302Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "wqv_depth_inches",
+        "bioretention_media_depth_min_inches",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "ann-arbor-mi": {
+      "status": "done",
+      "updated_at": "2026-08-13T07:25:51.482Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "wqv_depth_inches",
+        "max_drawdown_hours",
+        "shwt_separation_inches",
+        "bioretention_ponding_depth_inches",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "annapolis-md": {
+      "status": "done",
+      "updated_at": "2026-08-13T07:26:15.243Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "wqv_depth_inches",
+        "max_drawdown_hours",
+        "shwt_separation_inches",
+        "bioretention_media_depth_min_inches",
+        "bioretention_ponding_depth_inches",
+        "ed_drain_time_hours",
+        "length_to_width_ratio",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "arlington-county-va": {
+      "status": "done",
+      "updated_at": "2026-08-13T07:27:19.995Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "max_drawdown_hours",
+        "bioretention_media_depth_min_inches",
+        "bioretention_ponding_depth_inches",
+        "permeable_pavement_storage_depth_inches",
+        "design_infiltration_rate_in_per_hr",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "arlington-tx": {
+      "status": "done",
+      "updated_at": "2026-08-13T07:27:49.742Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "wqv_depth_inches",
+        "max_drawdown_hours",
+        "permanent_pool_depth_inches",
+        "ed_drain_time_hours",
+        "swale_longitudinal_slope_percent",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "asheville-nc": {
+      "status": "done",
+      "updated_at": "2026-08-13T07:28:14.606Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "wqv_depth_inches",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "athens-ga": {
+      "status": "done",
+      "updated_at": "2026-08-13T07:28:44.430Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "wqv_depth_inches",
+        "ed_drain_time_hours",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "atlanta-ga": {
+      "status": "done",
+      "updated_at": "2026-08-13T07:28:55.435Z",
+      "error": null,
+      "source": "atlas_only",
+      "model": "composer-2.5",
+      "filled": [
+        "wqv_depth_inches",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "augusta-ga": {
+      "status": "done",
+      "updated_at": "2026-08-13T07:29:18.922Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "wqv_depth_inches",
+        "ed_drain_time_hours",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "augusta-me": {
+      "status": "done",
+      "updated_at": "2026-08-13T07:30:04.087Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "wqv_depth_inches",
+        "max_drawdown_hours",
+        "bioretention_media_depth_min_inches",
+        "bioretention_ponding_depth_inches",
+        "length_to_width_ratio",
+        "green_roof_slope_percent",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "aurora-co": {
+      "status": "done",
+      "updated_at": "2026-08-13T07:30:39.242Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "wqv_depth_inches",
+        "max_drawdown_hours",
+        "shwt_separation_inches",
+        "mtd_verification_program",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "austin-tx-ecm": {
+      "status": "done",
+      "updated_at": "2026-08-13T07:31:07.080Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "az-adot-drainage": {
+      "status": "done",
+      "updated_at": "2026-08-13T07:31:34.901Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [],
+      "schema_version": 2
+    },
+    "bakersfield-ca": {
+      "status": "done",
+      "updated_at": "2026-08-13T07:32:08.067Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "max_drawdown_hours",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "baltimore-md": {
+      "status": "done",
+      "updated_at": "2026-08-13T07:32:23.465Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "wqv_depth_inches",
+        "ed_drain_time_hours"
+      ],
+      "schema_version": 2
+    },
+    "baton-rouge-la": {
+      "status": "done",
+      "updated_at": "2026-08-13T07:32:56.900Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "permeable_pavement_storage_depth_inches",
+        "design_infiltration_rate_in_per_hr",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "beatrice-ne": {
+      "status": "done",
+      "updated_at": "2026-08-13T07:33:44.148Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "beaumont-tx": {
+      "status": "done",
+      "updated_at": "2026-08-13T07:34:10.754Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "bellevue-wa": {
+      "status": "done",
+      "updated_at": "2026-08-13T07:34:41.263Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "shwt_separation_inches",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "bellingham-wa": {
+      "status": "done",
+      "updated_at": "2026-08-13T07:35:24.354Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "max_drawdown_hours",
+        "shwt_separation_inches",
+        "bioretention_media_depth_min_inches",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "bend-or": {
+      "status": "done",
+      "updated_at": "2026-08-13T07:35:58.750Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "max_drawdown_hours",
+        "shwt_separation_inches",
+        "design_infiltration_rate_in_per_hr",
+        "permanent_pool_depth_inches",
+        "length_to_width_ratio",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "billings-mt": {
+      "status": "done",
+      "updated_at": "2026-08-13T07:36:36.775Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "max_drawdown_hours",
+        "shwt_separation_inches",
+        "bioretention_media_depth_min_inches",
+        "permeable_pavement_storage_depth_inches",
+        "ed_drain_time_hours",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "birmingham-al": {
+      "status": "done",
+      "updated_at": "2026-08-13T07:37:19.584Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "wqv_depth_inches",
+        "max_drawdown_hours",
+        "shwt_separation_inches",
+        "bioretention_media_depth_min_inches",
+        "bioretention_ponding_depth_inches",
+        "permeable_pavement_storage_depth_inches",
+        "design_infiltration_rate_in_per_hr",
+        "wetland_detention_hours",
+        "swale_longitudinal_slope_percent",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "bismarck-nd": {
+      "status": "done",
+      "updated_at": "2026-08-13T07:37:48.470Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "shwt_separation_inches",
+        "design_infiltration_rate_in_per_hr",
+        "length_to_width_ratio",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "boca-raton-fl": {
+      "status": "done",
+      "updated_at": "2026-08-13T07:38:26.044Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "wqv_depth_inches",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "boise-id": {
+      "status": "done",
+      "updated_at": "2026-08-13T07:38:46.694Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "max_drawdown_hours",
+        "shwt_separation_inches",
+        "permeable_pavement_storage_depth_inches",
+        "swale_longitudinal_slope_percent",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "boston-ma": {
+      "status": "done",
+      "updated_at": "2026-08-13T07:39:27.763Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "wqv_depth_inches",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "boulder-co": {
+      "status": "done",
+      "updated_at": "2026-08-13T07:39:44.352Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "wqv_depth_inches",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "bridgeport-ct": {
+      "status": "done",
+      "updated_at": "2026-08-13T07:40:02.114Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "wqv_depth_inches",
+        "max_drawdown_hours",
+        "shwt_separation_inches",
+        "bioretention_media_depth_min_inches",
+        "bioretention_ponding_depth_inches",
+        "design_infiltration_rate_in_per_hr",
+        "ed_drain_time_hours",
+        "swale_bottom_width_inches",
+        "green_roof_slope_percent",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "broward-county-fl": {
+      "status": "done",
+      "updated_at": "2026-08-13T07:40:30.837Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "swale_longitudinal_slope_percent",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "brownsville-tx": {
+      "status": "done",
+      "updated_at": "2026-08-13T07:40:46.650Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [],
+      "schema_version": 2
+    },
+    "buffalo-ny": {
+      "status": "done",
+      "updated_at": "2026-08-13T07:41:07.988Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "burlington-vt": {
+      "status": "done",
+      "updated_at": "2026-08-13T07:42:15.192Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "wqv_depth_inches",
+        "max_drawdown_hours",
+        "bioretention_media_depth_min_inches",
+        "bioretention_ponding_depth_inches",
+        "design_infiltration_rate_in_per_hr",
+        "ed_drain_time_hours",
+        "swale_bottom_width_inches",
+        "swale_longitudinal_slope_percent",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "ca-caltrans-project-planning": {
+      "status": "done",
+      "updated_at": "2026-08-13T07:43:44.461Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "max_drawdown_hours",
+        "shwt_separation_inches",
+        "bioretention_media_depth_min_inches",
+        "length_to_width_ratio",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "cambridge-ma": {
+      "status": "done",
+      "updated_at": "2026-08-13T07:45:07.812Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "wqv_depth_inches",
+        "max_drawdown_hours",
+        "shwt_separation_inches",
+        "bioretention_media_depth_min_inches",
+        "design_infiltration_rate_in_per_hr",
+        "ed_drain_time_hours",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "cape-coral-fl": {
+      "status": "done",
+      "updated_at": "2026-08-13T07:45:33.372Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "carson-city-nv": {
+      "status": "done",
+      "updated_at": "2026-08-13T07:46:22.398Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "max_drawdown_hours",
+        "shwt_separation_inches",
+        "design_infiltration_rate_in_per_hr",
+        "ed_drain_time_hours",
+        "length_to_width_ratio",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "cary-nc": {
+      "status": "done",
+      "updated_at": "2026-08-13T07:46:45.729Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "wqv_depth_inches",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "casper-wy": {
+      "status": "done",
+      "updated_at": "2026-08-13T07:47:06.421Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "cedar-rapids-ia": {
+      "status": "done",
+      "updated_at": "2026-08-13T07:47:29.517Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "wqv_depth_inches",
+        "ed_drain_time_hours",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "chandler-az": {
+      "status": "done",
+      "updated_at": "2026-08-13T07:47:54.722Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "max_drawdown_hours",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "charleston-sc": {
+      "status": "done",
+      "updated_at": "2026-08-13T07:48:35.645Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "max_drawdown_hours",
+        "shwt_separation_inches",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "charleston-wv": {
+      "status": "done",
+      "updated_at": "2026-08-13T07:48:59.780Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "wqv_depth_inches",
+        "max_drawdown_hours",
+        "bioretention_media_depth_min_inches",
+        "design_infiltration_rate_in_per_hr",
+        "ed_drain_time_hours",
+        "swale_longitudinal_slope_percent",
+        "green_roof_media_depth_inches",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "charlotte-nc": {
+      "status": "done",
+      "updated_at": "2026-08-13T07:49:35.308Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "charlottesville-va": {
+      "status": "done",
+      "updated_at": "2026-08-13T07:50:02.043Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "bioretention_media_depth_min_inches",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "chattanooga-tn": {
+      "status": "done",
+      "updated_at": "2026-08-13T07:50:40.815Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "max_drawdown_hours",
+        "shwt_separation_inches",
+        "green_roof_media_depth_inches",
+        "green_roof_slope_percent",
+        "mtd_verification_program",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "chesapeake-va": {
+      "status": "done",
+      "updated_at": "2026-08-13T07:51:12.935Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "wqv_depth_inches",
+        "max_drawdown_hours",
+        "shwt_separation_inches",
+        "permanent_pool_depth_inches",
+        "ed_drain_time_hours",
+        "swale_longitudinal_slope_percent",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "cheyenne-wy": {
+      "status": "done",
+      "updated_at": "2026-08-13T07:51:31.903Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "chicago-il": {
+      "status": "done",
+      "updated_at": "2026-08-13T07:52:20.285Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "max_drawdown_hours",
+        "shwt_separation_inches",
+        "bioretention_media_depth_min_inches",
+        "bioretention_ponding_depth_inches",
+        "design_infiltration_rate_in_per_hr",
+        "permanent_pool_depth_inches",
+        "ed_drain_time_hours",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "chula-vista-ca": {
+      "status": "done",
+      "updated_at": "2026-08-13T07:52:55.247Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "shwt_separation_inches",
+        "length_to_width_ratio",
+        "mtd_verification_program",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "cincinnati-oh": {
+      "status": "done",
+      "updated_at": "2026-08-13T07:53:31.935Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "clarksville-tn": {
+      "status": "done",
+      "updated_at": "2026-08-13T07:54:14.603Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "wqv_depth_inches",
+        "bioretention_media_depth_min_inches",
+        "bioretention_ponding_depth_inches",
+        "design_infiltration_rate_in_per_hr",
+        "ed_drain_time_hours",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "cleveland-oh": {
+      "status": "done",
+      "updated_at": "2026-08-13T07:55:09.771Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "wqv_depth_inches",
+        "max_drawdown_hours",
+        "shwt_separation_inches",
+        "bioretention_media_depth_min_inches",
+        "length_to_width_ratio",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "co-cwcb-floodplain-stormwater": {
+      "status": "done",
+      "updated_at": "2026-08-13T07:55:26.025Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "college-station-tx": {
+      "status": "done",
+      "updated_at": "2026-08-13T07:56:01.566Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "wqv_depth_inches",
+        "design_infiltration_rate_in_per_hr",
+        "permanent_pool_depth_inches",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "colorado-springs-co": {
+      "status": "done",
+      "updated_at": "2026-08-13T07:56:21.475Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "wqv_depth_inches",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "columbia-mo": {
+      "status": "done",
+      "updated_at": "2026-08-13T07:56:56.607Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "wqv_depth_inches",
+        "bioretention_media_depth_min_inches",
+        "bioretention_ponding_depth_inches",
+        "green_roof_media_depth_inches",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "columbia-sc": {
+      "status": "done",
+      "updated_at": "2026-08-13T07:57:34.113Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "wqv_depth_inches",
+        "max_drawdown_hours",
+        "permanent_pool_depth_inches",
+        "ed_drain_time_hours",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "columbus-oh": {
+      "status": "done",
+      "updated_at": "2026-08-13T07:58:16.304Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "max_drawdown_hours",
+        "ed_drain_time_hours",
+        "length_to_width_ratio",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "concord-nc": {
+      "status": "done",
+      "updated_at": "2026-08-13T07:58:37.482Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "wqv_depth_inches",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "concord-nh": {
+      "status": "done",
+      "updated_at": "2026-08-13T07:58:47.182Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "wqv_depth_inches",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "cook-county-il": {
+      "status": "done",
+      "updated_at": "2026-08-13T07:59:16.200Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "corpus-christi-tx": {
+      "status": "done",
+      "updated_at": "2026-08-13T07:59:34.199Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "wqv_depth_inches",
+        "shwt_separation_inches",
+        "ed_drain_time_hours",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "ct-ctdot-drainage": {
+      "status": "done",
+      "updated_at": "2026-08-13T08:00:07.046Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "wqv_depth_inches",
+        "max_drawdown_hours",
+        "shwt_separation_inches",
+        "design_infiltration_rate_in_per_hr",
+        "permanent_pool_depth_inches",
+        "ed_drain_time_hours",
+        "length_to_width_ratio",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "ct-state": {
+      "status": "done",
+      "updated_at": "2026-08-13T08:00:42.357Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "wqv_depth_inches",
+        "max_drawdown_hours",
+        "shwt_separation_inches",
+        "bioretention_media_depth_min_inches",
+        "bioretention_ponding_depth_inches",
+        "design_infiltration_rate_in_per_hr",
+        "ed_drain_time_hours",
+        "swale_bottom_width_inches",
+        "swale_longitudinal_slope_percent",
+        "green_roof_slope_percent",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "dallas-tx": {
+      "status": "done",
+      "updated_at": "2026-08-13T08:00:59.180Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "wqv_depth_inches",
+        "design_infiltration_rate_in_per_hr",
+        "permanent_pool_depth_inches",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "davenport-ia": {
+      "status": "done",
+      "updated_at": "2026-08-13T08:01:23.293Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "wqv_depth_inches",
+        "ed_drain_time_hours",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "dayton-oh": {
+      "status": "done",
+      "updated_at": "2026-08-13T08:01:47.759Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "permanent_pool_depth_inches",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "daytona-beach-fl": {
+      "status": "done",
+      "updated_at": "2026-08-13T08:02:09.198Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "max_drawdown_hours",
+        "shwt_separation_inches",
+        "swale_bottom_width_inches",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "dc-ddot-stormwater": {
+      "status": "done",
+      "updated_at": "2026-08-13T08:02:44.895Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "wqv_depth_inches",
+        "shwt_separation_inches",
+        "bioretention_media_depth_min_inches",
+        "bioretention_ponding_depth_inches",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "dc-guidebook": {
+      "status": "done",
+      "updated_at": "2026-08-13T08:03:21.479Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "shwt_separation_inches",
+        "design_infiltration_rate_in_per_hr",
+        "green_roof_media_depth_inches",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "de-deldot-drainage": {
+      "status": "done",
+      "updated_at": "2026-08-13T08:03:52.396Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "ed_drain_time_hours",
+        "length_to_width_ratio",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "de-wet-ponds-draft": {
+      "status": "done",
+      "updated_at": "2026-08-13T08:04:21.361Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "max_drawdown_hours",
+        "shwt_separation_inches",
+        "design_infiltration_rate_in_per_hr",
+        "permanent_pool_depth_inches",
+        "ed_drain_time_hours",
+        "length_to_width_ratio",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "dekalb-county-ga": {
+      "status": "done",
+      "updated_at": "2026-08-13T08:04:44.728Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "wqv_depth_inches",
+        "ed_drain_time_hours",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "deltona-fl": {
+      "status": "done",
+      "updated_at": "2026-08-13T08:05:36.868Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "max_drawdown_hours",
+        "shwt_separation_inches",
+        "swale_bottom_width_inches",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "denton-tx": {
+      "status": "done",
+      "updated_at": "2026-08-13T08:06:03.240Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "wqv_depth_inches",
+        "max_drawdown_hours",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "denver-co": {
+      "status": "done",
+      "updated_at": "2026-08-13T08:06:26.342Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "wqv_depth_inches",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "des-moines-ia": {
+      "status": "done",
+      "updated_at": "2026-08-13T08:06:48.327Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "wqv_depth_inches",
+        "ed_drain_time_hours",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "detroit-mi": {
+      "status": "done",
+      "updated_at": "2026-08-13T08:07:09.480Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "wqv_depth_inches",
+        "shwt_separation_inches",
+        "bioretention_ponding_depth_inches",
+        "permanent_pool_depth_inches",
+        "ed_drain_time_hours",
+        "length_to_width_ratio",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "dover-de": {
+      "status": "done",
+      "updated_at": "2026-08-13T08:07:37.579Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "max_drawdown_hours",
+        "shwt_separation_inches",
+        "design_infiltration_rate_in_per_hr",
+        "permanent_pool_depth_inches",
+        "ed_drain_time_hours",
+        "length_to_width_ratio",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "duluth-mn": {
+      "status": "done",
+      "updated_at": "2026-08-13T08:08:18.463Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "max_drawdown_hours",
+        "shwt_separation_inches",
+        "bioretention_media_depth_min_inches",
+        "permanent_pool_depth_inches",
+        "ed_drain_time_hours",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "durham-nc": {
+      "status": "done",
+      "updated_at": "2026-08-13T08:08:44.874Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "wqv_depth_inches",
+        "shwt_separation_inches",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "el-paso-tx": {
+      "status": "done",
+      "updated_at": "2026-08-13T08:09:13.095Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "max_drawdown_hours",
+        "shwt_separation_inches",
+        "ed_drain_time_hours",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "elizabeth-nj": {
+      "status": "done",
+      "updated_at": "2026-08-13T08:10:06.088Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "max_drawdown_hours",
+        "bioretention_media_depth_min_inches",
+        "swale_longitudinal_slope_percent",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "erie-pa": {
+      "status": "done",
+      "updated_at": "2026-08-13T08:10:46.213Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "shwt_separation_inches",
+        "bioretention_media_depth_min_inches",
+        "bioretention_ponding_depth_inches",
+        "permanent_pool_depth_inches",
+        "ed_drain_time_hours",
+        "length_to_width_ratio",
+        "green_roof_media_depth_inches",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "eugene-or": {
+      "status": "done",
+      "updated_at": "2026-08-13T08:11:04.420Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "max_drawdown_hours",
+        "shwt_separation_inches",
+        "design_infiltration_rate_in_per_hr",
+        "permanent_pool_depth_inches",
+        "length_to_width_ratio",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "evansville-in": {
+      "status": "done",
+      "updated_at": "2026-08-13T08:11:24.227Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "wqv_depth_inches",
+        "max_drawdown_hours",
+        "shwt_separation_inches",
+        "bioretention_media_depth_min_inches",
+        "length_to_width_ratio",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "everett-wa": {
+      "status": "done",
+      "updated_at": "2026-08-13T08:12:10.262Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "max_drawdown_hours",
+        "shwt_separation_inches",
+        "bioretention_media_depth_min_inches",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "fairfax-county-va": {
+      "status": "done",
+      "updated_at": "2026-08-13T08:12:45.988Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "fargo-nd": {
+      "status": "done",
+      "updated_at": "2026-08-13T08:13:24.570Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "wqv_depth_inches",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "fayetteville-ar": {
+      "status": "done",
+      "updated_at": "2026-08-13T08:13:54.323Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "fl-fdot-drainage": {
+      "status": "done",
+      "updated_at": "2026-08-13T08:14:23.454Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "shwt_separation_inches",
+        "permanent_pool_depth_inches",
+        "swale_bottom_width_inches",
+        "swale_longitudinal_slope_percent",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "fl-fsesci-tier1": {
+      "status": "done",
+      "updated_at": "2026-08-13T08:15:05.260Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "max_drawdown_hours",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "fl-nwfwmd-erp-ah2": {
+      "status": "done",
+      "updated_at": "2026-08-13T08:15:34.844Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "max_drawdown_hours",
+        "shwt_separation_inches",
+        "length_to_width_ratio",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "fl-sfwmd-erp-ah2": {
+      "status": "done",
+      "updated_at": "2026-08-13T08:16:07.190Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "fl-sjrwmd-erp-ah2": {
+      "status": "done",
+      "updated_at": "2026-08-13T08:16:47.299Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "max_drawdown_hours",
+        "shwt_separation_inches",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "fl-srwmd-erp-ah2": {
+      "status": "done",
+      "updated_at": "2026-08-13T08:17:26.723Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "max_drawdown_hours",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "fl-swfwmd-erp-ah2": {
+      "status": "done",
+      "updated_at": "2026-08-13T08:18:18.695Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "max_drawdown_hours",
+        "shwt_separation_inches",
+        "permanent_pool_depth_inches",
+        "ed_drain_time_hours",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "flint-mi": {
+      "status": "done",
+      "updated_at": "2026-08-13T08:19:26.908Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "max_drawdown_hours",
+        "shwt_separation_inches",
+        "design_infiltration_rate_in_per_hr",
+        "permanent_pool_depth_inches",
+        "ed_drain_time_hours",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "fort-collins-co": {
+      "status": "done",
+      "updated_at": "2026-08-13T08:19:54.657Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "wqv_depth_inches",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "fort-wayne-in": {
+      "status": "done",
+      "updated_at": "2026-08-13T08:20:17.040Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "wqv_depth_inches",
+        "max_drawdown_hours",
+        "bioretention_media_depth_min_inches",
+        "bioretention_ponding_depth_inches",
+        "design_infiltration_rate_in_per_hr",
+        "permanent_pool_depth_inches",
+        "wetland_detention_hours",
+        "swale_bottom_width_inches",
+        "swale_longitudinal_slope_percent",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "fort-worth-tx": {
+      "status": "done",
+      "updated_at": "2026-08-13T08:20:51.498Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "wqv_depth_inches",
+        "design_infiltration_rate_in_per_hr",
+        "permanent_pool_depth_inches",
+        "ed_drain_time_hours",
+        "swale_longitudinal_slope_percent",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "frankfort-ky": {
+      "status": "done",
+      "updated_at": "2026-08-13T08:21:28.371Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "wqv_depth_inches",
+        "max_drawdown_hours",
+        "bioretention_media_depth_min_inches",
+        "bioretention_ponding_depth_inches",
+        "design_infiltration_rate_in_per_hr",
+        "ed_drain_time_hours",
+        "wetland_detention_hours",
+        "green_roof_media_depth_inches",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "franklin-tn": {
+      "status": "done",
+      "updated_at": "2026-08-13T08:21:57.956Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "fremont-ca": {
+      "status": "done",
+      "updated_at": "2026-08-13T08:22:18.162Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "max_drawdown_hours",
+        "shwt_separation_inches",
+        "bioretention_media_depth_min_inches",
+        "design_infiltration_rate_in_per_hr",
+        "ed_drain_time_hours",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "fresno-ca": {
+      "status": "done",
+      "updated_at": "2026-08-13T08:22:54.020Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "max_drawdown_hours",
+        "shwt_separation_inches",
+        "bioretention_media_depth_min_inches",
+        "bioretention_ponding_depth_inches",
+        "ed_drain_time_hours",
+        "swale_bottom_width_inches",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "frisco-tx": {
+      "status": "done",
+      "updated_at": "2026-08-13T08:23:31.110Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "wqv_depth_inches",
+        "max_drawdown_hours",
+        "bioretention_media_depth_min_inches",
+        "bioretention_ponding_depth_inches",
+        "ed_drain_time_hours",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "fulton-county-ga": {
+      "status": "done",
+      "updated_at": "2026-08-13T08:24:29.026Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "wqv_depth_inches",
+        "ed_drain_time_hours",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "ga-gdot-drainage": {
+      "status": "done",
+      "updated_at": "2026-08-13T08:24:55.300Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "ga-state": {
+      "status": "done",
+      "updated_at": "2026-08-13T08:25:15.909Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "wqv_depth_inches",
+        "ed_drain_time_hours",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "gainesville-fl": {
+      "status": "done",
+      "updated_at": "2026-08-13T08:25:52.834Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "garland-tx": {
+      "status": "done",
+      "updated_at": "2026-08-13T08:26:31.543Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "wqv_depth_inches",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "gastonia-nc": {
+      "status": "done",
+      "updated_at": "2026-08-13T08:26:54.197Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "wqv_depth_inches",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "grand-prairie-tx": {
+      "status": "done",
+      "updated_at": "2026-08-13T08:27:29.899Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "wqv_depth_inches",
+        "design_infiltration_rate_in_per_hr",
+        "permanent_pool_depth_inches",
+        "mtd_verification_program",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "grand-rapids-mi": {
+      "status": "done",
+      "updated_at": "2026-08-13T08:27:46.893Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "wqv_depth_inches",
+        "max_drawdown_hours",
+        "ed_drain_time_hours",
+        "swale_longitudinal_slope_percent",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "greensboro-nc": {
+      "status": "done",
+      "updated_at": "2026-08-13T08:28:06.376Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "wqv_depth_inches",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "greenville-sc": {
+      "status": "done",
+      "updated_at": "2026-08-13T08:28:37.926Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "wqv_depth_inches",
+        "max_drawdown_hours",
+        "permanent_pool_depth_inches",
+        "ed_drain_time_hours",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "gulfport-ms": {
+      "status": "done",
+      "updated_at": "2026-08-13T08:29:24.430Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "wqv_depth_inches",
+        "max_drawdown_hours",
+        "shwt_separation_inches",
+        "design_infiltration_rate_in_per_hr",
+        "ed_drain_time_hours",
+        "length_to_width_ratio",
+        "swale_longitudinal_slope_percent",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "gwinnett-county-ga": {
+      "status": "done",
+      "updated_at": "2026-08-13T08:29:50.758Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "wqv_depth_inches",
+        "ed_drain_time_hours",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "harris-county-tx": {
+      "status": "done",
+      "updated_at": "2026-08-13T08:30:32.714Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "wqv_depth_inches",
+        "max_drawdown_hours",
+        "bioretention_media_depth_min_inches",
+        "design_infiltration_rate_in_per_hr",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "harrisburg-pa": {
+      "status": "done",
+      "updated_at": "2026-08-13T08:31:35.970Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "wqv_depth_inches",
+        "max_drawdown_hours",
+        "shwt_separation_inches",
+        "bioretention_media_depth_min_inches",
+        "bioretention_ponding_depth_inches",
+        "permeable_pavement_storage_depth_inches",
+        "permanent_pool_depth_inches",
+        "ed_drain_time_hours",
+        "length_to_width_ratio",
+        "swale_bottom_width_inches",
+        "green_roof_media_depth_inches",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "hartford-ct": {
+      "status": "done",
+      "updated_at": "2026-08-13T08:32:24.188Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "wqv_depth_inches",
+        "max_drawdown_hours",
+        "shwt_separation_inches",
+        "bioretention_media_depth_min_inches",
+        "bioretention_ponding_depth_inches",
+        "design_infiltration_rate_in_per_hr",
+        "ed_drain_time_hours",
+        "swale_bottom_width_inches",
+        "green_roof_slope_percent",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "hawaii-dot-pcbmp": {
+      "status": "done",
+      "updated_at": "2026-08-13T08:33:01.560Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "wqv_depth_inches",
+        "max_drawdown_hours",
+        "shwt_separation_inches",
+        "bioretention_media_depth_min_inches",
+        "bioretention_ponding_depth_inches",
+        "permanent_pool_depth_inches",
+        "length_to_width_ratio",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "helena-mt": {
+      "status": "done",
+      "updated_at": "2026-08-13T08:33:50.518Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "max_drawdown_hours",
+        "shwt_separation_inches",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "hialeah-fl": {
+      "status": "done",
+      "updated_at": "2026-08-13T08:34:26.113Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "wqv_depth_inches",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "high-point-nc": {
+      "status": "done",
+      "updated_at": "2026-08-13T08:34:46.689Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "wqv_depth_inches",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "honolulu-hi": {
+      "status": "done",
+      "updated_at": "2026-08-13T08:35:08.100Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "houston-tx": {
+      "status": "done",
+      "updated_at": "2026-08-13T08:36:14.894Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "wqv_depth_inches",
+        "max_drawdown_hours",
+        "shwt_separation_inches",
+        "bioretention_ponding_depth_inches",
+        "permeable_pavement_storage_depth_inches",
+        "design_infiltration_rate_in_per_hr",
+        "ed_drain_time_hours",
+        "swale_bottom_width_inches",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "huntsville-al": {
+      "status": "done",
+      "updated_at": "2026-08-13T08:37:05.583Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "wqv_depth_inches",
+        "max_drawdown_hours",
+        "shwt_separation_inches",
+        "bioretention_media_depth_min_inches",
+        "bioretention_ponding_depth_inches",
+        "permeable_pavement_storage_depth_inches",
+        "wetland_detention_hours",
+        "swale_longitudinal_slope_percent",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "ia-dot-drainage": {
+      "status": "done",
+      "updated_at": "2026-08-13T08:37:14.312Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [],
+      "schema_version": 2
+    },
+    "ia-state-ch1": {
+      "status": "done",
+      "updated_at": "2026-08-13T08:37:41.069Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "wqv_depth_inches",
+        "ed_drain_time_hours",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "id-itd-drainage": {
+      "status": "done",
+      "updated_at": "2026-08-13T08:38:05.441Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [],
+      "schema_version": 2
+    },
+    "idaho-bmp-catalog": {
+      "status": "done",
+      "updated_at": "2026-08-13T08:38:34.028Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "max_drawdown_hours",
+        "shwt_separation_inches",
+        "design_infiltration_rate_in_per_hr",
+        "permanent_pool_depth_inches",
+        "ed_drain_time_hours",
+        "length_to_width_ratio",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "il-idot-drainage": {
+      "status": "done",
+      "updated_at": "2026-08-13T08:39:04.905Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "il-iepa-stormwater": {
+      "status": "done",
+      "updated_at": "2026-08-13T08:39:43.644Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "permanent_pool_depth_inches",
+        "length_to_width_ratio",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "in-indot-drainage": {
+      "status": "done",
+      "updated_at": "2026-08-13T08:40:29.884Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "max_drawdown_hours",
+        "shwt_separation_inches",
+        "design_infiltration_rate_in_per_hr",
+        "ed_drain_time_hours",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "independence-mo": {
+      "status": "done",
+      "updated_at": "2026-08-13T08:41:05.879Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "wqv_depth_inches",
+        "max_drawdown_hours",
+        "shwt_separation_inches",
+        "permeable_pavement_storage_depth_inches",
+        "permanent_pool_depth_inches",
+        "ed_drain_time_hours",
+        "wetland_detention_hours",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "indiana-manual": {
+      "status": "done",
+      "updated_at": "2026-08-13T08:41:27.599Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "wqv_depth_inches",
+        "max_drawdown_hours",
+        "shwt_separation_inches",
+        "bioretention_media_depth_min_inches",
+        "length_to_width_ratio",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "jackson-ms": {
+      "status": "done",
+      "updated_at": "2026-08-13T08:42:06.837Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "max_drawdown_hours",
+        "shwt_separation_inches",
+        "design_infiltration_rate_in_per_hr",
+        "ed_drain_time_hours",
+        "length_to_width_ratio",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "jacksonville-fl": {
+      "status": "done",
+      "updated_at": "2026-08-13T08:42:43.159Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "max_drawdown_hours",
+        "shwt_separation_inches",
+        "swale_bottom_width_inches",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "jefferson-city-mo": {
+      "status": "done",
+      "updated_at": "2026-08-13T08:43:16.027Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "ed_drain_time_hours",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "jersey-city-nj": {
+      "status": "done",
+      "updated_at": "2026-08-13T08:43:48.845Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "max_drawdown_hours",
+        "shwt_separation_inches",
+        "bioretention_ponding_depth_inches",
+        "design_infiltration_rate_in_per_hr",
+        "length_to_width_ratio",
+        "wetland_detention_hours",
+        "mtd_verification_program",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "juneau-ak": {
+      "status": "done",
+      "updated_at": "2026-08-13T08:44:30.199Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "wqv_depth_inches",
+        "ed_drain_time_hours",
+        "green_roof_slope_percent",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "kansas-city-marc-bmp": {
+      "status": "done",
+      "updated_at": "2026-08-13T08:45:07.241Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "wqv_depth_inches",
+        "max_drawdown_hours",
+        "shwt_separation_inches",
+        "permeable_pavement_storage_depth_inches",
+        "design_infiltration_rate_in_per_hr",
+        "permanent_pool_depth_inches",
+        "ed_drain_time_hours",
+        "wetland_detention_hours",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "kennewick-wa": {
+      "status": "done",
+      "updated_at": "2026-08-13T08:45:45.743Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "max_drawdown_hours",
+        "shwt_separation_inches",
+        "bioretention_media_depth_min_inches",
+        "bioretention_ponding_depth_inches",
+        "design_infiltration_rate_in_per_hr",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "kentucky-bmp": {
+      "status": "done",
+      "updated_at": "2026-08-13T08:46:21.822Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "killeen-tx": {
+      "status": "done",
+      "updated_at": "2026-08-13T08:47:07.335Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "king-county-wa": {
+      "status": "done",
+      "updated_at": "2026-08-13T08:47:49.269Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "max_drawdown_hours",
+        "shwt_separation_inches",
+        "bioretention_ponding_depth_inches",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "knoxville-tn": {
+      "status": "done",
+      "updated_at": "2026-08-13T08:48:37.924Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "wqv_depth_inches",
+        "max_drawdown_hours",
+        "shwt_separation_inches",
+        "design_infiltration_rate_in_per_hr",
+        "permanent_pool_depth_inches",
+        "ed_drain_time_hours",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "ks-kdot-drainage": {
+      "status": "done",
+      "updated_at": "2026-08-13T08:49:01.749Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "ky-kytc-drainage": {
+      "status": "done",
+      "updated_at": "2026-08-13T08:49:34.411Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "la-ladotd-drainage": {
+      "status": "done",
+      "updated_at": "2026-08-13T08:50:01.984Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "lacey-wa": {
+      "status": "done",
+      "updated_at": "2026-08-13T08:50:35.556Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "permanent_pool_depth_inches",
+        "length_to_width_ratio",
+        "swale_bottom_width_inches",
+        "green_roof_media_depth_inches",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "lafayette-la": {
+      "status": "done",
+      "updated_at": "2026-08-13T08:51:00.725Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "lakeland-fl": {
+      "status": "done",
+      "updated_at": "2026-08-13T08:51:52.204Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "shwt_separation_inches",
+        "permanent_pool_depth_inches",
+        "ed_drain_time_hours",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "lancaster-pa-swmf": {
+      "status": "done",
+      "updated_at": "2026-08-13T08:52:17.954Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "wqv_depth_inches",
+        "length_to_width_ratio",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "lancaster-pa": {
+      "status": "done",
+      "updated_at": "2026-08-13T08:53:00.989Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "bioretention_media_depth_min_inches",
+        "bioretention_ponding_depth_inches",
+        "length_to_width_ratio",
+        "green_roof_media_depth_inches",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "lansing-mi": {
+      "status": "done",
+      "updated_at": "2026-08-13T08:53:44.553Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "max_drawdown_hours",
+        "shwt_separation_inches",
+        "design_infiltration_rate_in_per_hr",
+        "permanent_pool_depth_inches",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "laredo-tx": {
+      "status": "done",
+      "updated_at": "2026-08-13T10:46:31.957Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [],
+      "schema_version": 2
+    },
+    "las-cruces-nm": {
+      "status": "done",
+      "updated_at": "2026-08-13T08:55:39.389Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "max_drawdown_hours",
+        "shwt_separation_inches",
+        "bioretention_media_depth_min_inches",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "las-vegas-nv": {
+      "status": "done",
+      "updated_at": "2026-08-13T08:56:42.755Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "wqv_depth_inches",
+        "max_drawdown_hours",
+        "shwt_separation_inches",
+        "ed_drain_time_hours",
+        "length_to_width_ratio",
+        "swale_longitudinal_slope_percent",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "lawrence-ks": {
+      "status": "done",
+      "updated_at": "2026-08-13T08:57:09.874Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "lexington-ky": {
+      "status": "done",
+      "updated_at": "2026-08-13T08:57:46.742Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "wqv_depth_inches",
+        "max_drawdown_hours",
+        "bioretention_media_depth_min_inches",
+        "bioretention_ponding_depth_inches",
+        "design_infiltration_rate_in_per_hr",
+        "ed_drain_time_hours",
+        "length_to_width_ratio",
+        "wetland_detention_hours",
+        "green_roof_media_depth_inches",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "lincoln-ne": {
+      "status": "done",
+      "updated_at": "2026-08-13T08:58:22.033Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "max_drawdown_hours",
+        "shwt_separation_inches",
+        "design_infiltration_rate_in_per_hr",
+        "green_roof_slope_percent",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "long-beach-ca": {
+      "status": "done",
+      "updated_at": "2026-08-13T08:59:01.824Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "wqv_depth_inches",
+        "max_drawdown_hours",
+        "shwt_separation_inches",
+        "bioretention_media_depth_min_inches",
+        "bioretention_ponding_depth_inches",
+        "design_infiltration_rate_in_per_hr",
+        "length_to_width_ratio",
+        "swale_bottom_width_inches",
+        "swale_longitudinal_slope_percent",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "louisville-ky": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:00:45.303Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "max_drawdown_hours",
+        "shwt_separation_inches",
+        "bioretention_media_depth_min_inches",
+        "bioretention_ponding_depth_inches",
+        "design_infiltration_rate_in_per_hr",
+        "permanent_pool_depth_inches",
+        "ed_drain_time_hours",
+        "length_to_width_ratio",
+        "swale_longitudinal_slope_percent",
+        "green_roof_media_depth_inches",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "lubbock-tx": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:01:11.733Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "ma-massdot-drainage": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:01:43.162Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "wqv_depth_inches",
+        "max_drawdown_hours",
+        "shwt_separation_inches",
+        "design_infiltration_rate_in_per_hr",
+        "ed_drain_time_hours",
+        "length_to_width_ratio",
+        "wetland_detention_hours",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "ma-state-draft": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:02:21.680Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "wqv_depth_inches",
+        "max_drawdown_hours",
+        "shwt_separation_inches",
+        "bioretention_media_depth_min_inches",
+        "design_infiltration_rate_in_per_hr",
+        "ed_drain_time_hours",
+        "wetland_detention_hours",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "macon-ga": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:02:47.659Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "wqv_depth_inches",
+        "ed_drain_time_hours",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "madison-wi": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:03:25.386Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "wqv_depth_inches",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "maine-manual": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:04:02.142Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "wqv_depth_inches",
+        "max_drawdown_hours",
+        "shwt_separation_inches",
+        "bioretention_media_depth_min_inches",
+        "bioretention_ponding_depth_inches",
+        "design_infiltration_rate_in_per_hr",
+        "length_to_width_ratio",
+        "wetland_detention_hours",
+        "green_roof_slope_percent",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "manchester-nh": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:04:20.673Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "wqv_depth_inches",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "maricopa-county-az": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:04:46.627Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "wqv_depth_inches",
+        "max_drawdown_hours",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "mcallen-tx": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:05:50.305Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [],
+      "schema_version": 2
+    },
+    "mckinney-tx": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:06:12.054Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "md-sha-drainage": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:06:37.114Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "md-state": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:07:22.075Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "max_drawdown_hours",
+        "shwt_separation_inches",
+        "bioretention_media_depth_min_inches",
+        "bioretention_ponding_depth_inches",
+        "ed_drain_time_hours",
+        "length_to_width_ratio",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "me-dot-drainage": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:07:39.296Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [],
+      "schema_version": 2
+    },
+    "melbourne-fl": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:08:02.091Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "wqv_depth_inches",
+        "max_drawdown_hours",
+        "shwt_separation_inches",
+        "swale_bottom_width_inches",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "memphis-tn": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:08:16.740Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "max_drawdown_hours",
+        "permanent_pool_depth_inches",
+        "length_to_width_ratio",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "mesa-az": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:08:43.880Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "mesquite-tx": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:09:12.017Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "mi-mdot-drainage": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:09:35.043Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "miami-fl": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:10:18.473Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "michigan-manual": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:11:35.987Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "wqv_depth_inches",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "milwaukee-wi": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:11:46.748Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "wqv_depth_inches",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "minneapolis-mn": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:12:26.788Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "wqv_depth_inches",
+        "shwt_separation_inches",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "missoula-mt": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:13:14.519Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "max_drawdown_hours",
+        "shwt_separation_inches",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "missouri-manual": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:13:56.495Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "ed_drain_time_hours",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "mn-mndot-drainage": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:14:12.135Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [],
+      "schema_version": 2
+    },
+    "mn-state-2008": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:14:55.467Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "max_drawdown_hours",
+        "shwt_separation_inches",
+        "bioretention_media_depth_min_inches",
+        "permanent_pool_depth_inches",
+        "ed_drain_time_hours",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "mobile-al": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:15:15.858Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "wqv_depth_inches",
+        "max_drawdown_hours",
+        "permeable_pavement_storage_depth_inches",
+        "swale_longitudinal_slope_percent",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "montgomery-al": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:15:59.344Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "wqv_depth_inches",
+        "max_drawdown_hours",
+        "shwt_separation_inches",
+        "bioretention_media_depth_min_inches",
+        "bioretention_ponding_depth_inches",
+        "permeable_pavement_storage_depth_inches",
+        "wetland_detention_hours",
+        "swale_longitudinal_slope_percent",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "montpelier-vt": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:16:34.422Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "wqv_depth_inches",
+        "max_drawdown_hours",
+        "shwt_separation_inches",
+        "bioretention_media_depth_min_inches",
+        "bioretention_ponding_depth_inches",
+        "design_infiltration_rate_in_per_hr",
+        "permanent_pool_depth_inches",
+        "ed_drain_time_hours",
+        "swale_bottom_width_inches",
+        "swale_longitudinal_slope_percent",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "ms-state-vol2": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:17:21.215Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "max_drawdown_hours",
+        "shwt_separation_inches",
+        "design_infiltration_rate_in_per_hr",
+        "length_to_width_ratio",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "mt-deq8": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:18:03.947Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "max_drawdown_hours",
+        "shwt_separation_inches",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "mt-mdt-drainage": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:18:21.358Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "murfreesboro-tn": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:18:46.243Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "wqv_depth_inches",
+        "max_drawdown_hours",
+        "ed_drain_time_hours",
+        "swale_bottom_width_inches",
+        "swale_longitudinal_slope_percent",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "nashua-nh": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:19:08.361Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "wqv_depth_inches",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "nashville-tn-vol4": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:19:41.597Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "nc-ncdot-drainage": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:20:04.788Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "nc-state": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:20:27.739Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "wqv_depth_inches",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "nd-nddot-drainage": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:20:49.427Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "ne-ndot-stf": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:21:21.483Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "wqv_depth_inches",
+        "max_drawdown_hours",
+        "design_infiltration_rate_in_per_hr",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "new-haven-ct": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:22:02.079Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "wqv_depth_inches",
+        "max_drawdown_hours",
+        "shwt_separation_inches",
+        "bioretention_media_depth_min_inches",
+        "bioretention_ponding_depth_inches",
+        "design_infiltration_rate_in_per_hr",
+        "ed_drain_time_hours",
+        "swale_bottom_width_inches",
+        "green_roof_slope_percent",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "new-orleans-jefferson-la": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:22:20.503Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "newark-nj": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:23:20.986Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "max_drawdown_hours",
+        "bioretention_media_depth_min_inches",
+        "swale_longitudinal_slope_percent",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "nh-nhdot-drainage": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:23:52.731Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "nh-state": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:24:15.091Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "wqv_depth_inches",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "nj-njdot-drainage": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:24:46.179Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "wqv_depth_inches",
+        "max_drawdown_hours",
+        "ed_drain_time_hours",
+        "swale_bottom_width_inches",
+        "swale_longitudinal_slope_percent",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "nj-state": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:25:36.024Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "max_drawdown_hours",
+        "shwt_separation_inches",
+        "bioretention_media_depth_min_inches",
+        "swale_longitudinal_slope_percent",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "nm-nmdot-drainage": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:26:06.605Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "max_drawdown_hours",
+        "ed_drain_time_hours",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "norfolk-va": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:26:29.366Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "wqv_depth_inches",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "north-little-rock-ar": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:27:05.915Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "ny-bluebook": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:27:43.926Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "ny-nysdot-drainage": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:28:14.490Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "ny-state": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:29:07.434Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "wqv_depth_inches",
+        "shwt_separation_inches",
+        "bioretention_media_depth_min_inches",
+        "bioretention_ponding_depth_inches",
+        "design_infiltration_rate_in_per_hr",
+        "ed_drain_time_hours",
+        "length_to_width_ratio",
+        "swale_bottom_width_inches",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "nyc-ny": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:30:05.372Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "wqv_depth_inches",
+        "max_drawdown_hours",
+        "shwt_separation_inches",
+        "bioretention_media_depth_min_inches",
+        "bioretention_ponding_depth_inches",
+        "permeable_pavement_storage_depth_inches",
+        "design_infiltration_rate_in_per_hr",
+        "ed_drain_time_hours",
+        "swale_bottom_width_inches",
+        "green_roof_media_depth_inches",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "oakland-ca": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:30:39.634Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "max_drawdown_hours",
+        "ed_drain_time_hours",
+        "swale_bottom_width_inches",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "oh-odot-drainage": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:31:22.756Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "wqv_depth_inches",
+        "shwt_separation_inches",
+        "bioretention_media_depth_min_inches",
+        "bioretention_ponding_depth_inches",
+        "ed_drain_time_hours",
+        "length_to_width_ratio",
+        "wetland_detention_hours",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "ohio-rainwater": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:32:16.149Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "wqv_depth_inches",
+        "shwt_separation_inches",
+        "bioretention_media_depth_min_inches",
+        "length_to_width_ratio",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "oklahoma-odot-ch10": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:32:46.691Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "olympia-wa": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:33:13.011Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "max_drawdown_hours",
+        "bioretention_media_depth_min_inches",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "omaha-ne": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:33:37.149Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "wqv_depth_inches",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "or-odot-drainage": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:33:51.147Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [],
+      "schema_version": 2
+    },
+    "orange-county-ca": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:34:22.945Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "swale_longitudinal_slope_percent",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "oregon-manual": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:35:01.258Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "max_drawdown_hours",
+        "shwt_separation_inches",
+        "bioretention_media_depth_min_inches",
+        "bioretention_ponding_depth_inches",
+        "permanent_pool_depth_inches",
+        "ed_drain_time_hours",
+        "green_roof_media_depth_inches",
+        "green_roof_slope_percent",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "orlando-fl": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:35:29.550Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "max_drawdown_hours",
+        "shwt_separation_inches",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "overland-park-ks": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:36:12.910Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "wqv_depth_inches",
+        "swale_longitudinal_slope_percent",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "pa-bmp-2006": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:37:03.453Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "wqv_depth_inches",
+        "max_drawdown_hours",
+        "shwt_separation_inches",
+        "bioretention_media_depth_min_inches",
+        "bioretention_ponding_depth_inches",
+        "design_infiltration_rate_in_per_hr",
+        "length_to_width_ratio",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "pa-penndot-drainage": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:37:53.878Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "max_drawdown_hours",
+        "shwt_separation_inches",
+        "design_infiltration_rate_in_per_hr",
+        "ed_drain_time_hours",
+        "length_to_width_ratio",
+        "swale_bottom_width_inches",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "pa-state": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:38:43.566Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "wqv_depth_inches",
+        "max_drawdown_hours",
+        "shwt_separation_inches",
+        "bioretention_media_depth_min_inches",
+        "bioretention_ponding_depth_inches",
+        "permeable_pavement_storage_depth_inches",
+        "permanent_pool_depth_inches",
+        "ed_drain_time_hours",
+        "length_to_width_ratio",
+        "green_roof_media_depth_inches",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "palm-bay-fl": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:39:20.628Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "max_drawdown_hours",
+        "shwt_separation_inches",
+        "swale_bottom_width_inches",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "palm-coast-fl": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:40:04.190Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "max_drawdown_hours",
+        "shwt_separation_inches",
+        "swale_bottom_width_inches",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "pasadena-tx": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:40:22.304Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "wqv_depth_inches",
+        "max_drawdown_hours",
+        "design_infiltration_rate_in_per_hr",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "paterson-nj": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:41:05.988Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "max_drawdown_hours",
+        "shwt_separation_inches",
+        "bioretention_media_depth_min_inches",
+        "bioretention_ponding_depth_inches",
+        "swale_longitudinal_slope_percent",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "pearland-tx": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:41:40.058Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "wqv_depth_inches",
+        "max_drawdown_hours",
+        "bioretention_media_depth_min_inches",
+        "bioretention_ponding_depth_inches",
+        "design_infiltration_rate_in_per_hr",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "pensacola-fl": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:42:11.097Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "max_drawdown_hours",
+        "shwt_separation_inches",
+        "length_to_width_ratio",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "peoria-il": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:42:39.159Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "max_drawdown_hours",
+        "shwt_separation_inches",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "philadelphia-pa": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:44:08.043Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "wqv_depth_inches",
+        "max_drawdown_hours",
+        "shwt_separation_inches",
+        "bioretention_media_depth_min_inches",
+        "bioretention_ponding_depth_inches",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "phoenix-az": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:44:37.572Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "wqv_depth_inches",
+        "max_drawdown_hours",
+        "swale_bottom_width_inches",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "pierre-sd": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:46:34.507Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "pinellas-county-fl": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:47:14.936Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "max_drawdown_hours",
+        "bioretention_media_depth_min_inches",
+        "swale_bottom_width_inches",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "pittsburgh-pa": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:47:34.343Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "wqv_depth_inches",
+        "shwt_separation_inches",
+        "length_to_width_ratio",
+        "mtd_verification_program",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "plano-tx": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:48:01.899Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "swale_longitudinal_slope_percent",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "port-st-lucie-fl": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:48:32.726Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "wqv_depth_inches",
+        "max_drawdown_hours",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "portland-me": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:49:22.844Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "wqv_depth_inches",
+        "max_drawdown_hours",
+        "shwt_separation_inches",
+        "bioretention_media_depth_min_inches",
+        "bioretention_ponding_depth_inches",
+        "length_to_width_ratio",
+        "green_roof_slope_percent",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "portland-or": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:49:54.281Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "wqv_depth_inches",
+        "max_drawdown_hours",
+        "shwt_separation_inches",
+        "bioretention_media_depth_min_inches",
+        "bioretention_ponding_depth_inches",
+        "design_infiltration_rate_in_per_hr",
+        "ed_drain_time_hours",
+        "swale_bottom_width_inches",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "prince-georges-county-md": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:50:12.217Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "wqv_depth_inches",
+        "max_drawdown_hours",
+        "shwt_separation_inches",
+        "bioretention_media_depth_min_inches",
+        "bioretention_ponding_depth_inches",
+        "ed_drain_time_hours",
+        "length_to_width_ratio",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "providence-ri": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:50:52.965Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "wqv_depth_inches",
+        "max_drawdown_hours",
+        "shwt_separation_inches",
+        "bioretention_media_depth_min_inches",
+        "bioretention_ponding_depth_inches",
+        "design_infiltration_rate_in_per_hr",
+        "ed_drain_time_hours",
+        "length_to_width_ratio",
+        "swale_bottom_width_inches",
+        "swale_longitudinal_slope_percent",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "raleigh-nc": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:51:25.413Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "shwt_separation_inches",
+        "ed_drain_time_hours",
+        "length_to_width_ratio",
+        "swale_bottom_width_inches",
+        "swale_longitudinal_slope_percent",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "reading-pa": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:52:16.259Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "wqv_depth_inches",
+        "max_drawdown_hours",
+        "shwt_separation_inches",
+        "bioretention_media_depth_min_inches",
+        "permeable_pavement_storage_depth_inches",
+        "permanent_pool_depth_inches",
+        "ed_drain_time_hours",
+        "length_to_width_ratio",
+        "green_roof_media_depth_inches",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "reno-nv": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:52:54.338Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "wqv_depth_inches",
+        "max_drawdown_hours",
+        "shwt_separation_inches",
+        "bioretention_media_depth_min_inches",
+        "design_infiltration_rate_in_per_hr",
+        "ed_drain_time_hours",
+        "length_to_width_ratio",
+        "swale_longitudinal_slope_percent",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "ri-ridot-drainage": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:54:02.091Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "max_drawdown_hours",
+        "bioretention_media_depth_min_inches",
+        "bioretention_ponding_depth_inches",
+        "permeable_pavement_storage_depth_inches",
+        "design_infiltration_rate_in_per_hr",
+        "swale_bottom_width_inches",
+        "swale_longitudinal_slope_percent",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "ri-state": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:54:52.013Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "wqv_depth_inches",
+        "max_drawdown_hours",
+        "shwt_separation_inches",
+        "bioretention_media_depth_min_inches",
+        "bioretention_ponding_depth_inches",
+        "design_infiltration_rate_in_per_hr",
+        "ed_drain_time_hours",
+        "length_to_width_ratio",
+        "swale_bottom_width_inches",
+        "swale_longitudinal_slope_percent",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "richmond-va": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:55:35.028Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "riverside-county-ca": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:56:10.503Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "max_drawdown_hours",
+        "shwt_separation_inches",
+        "design_infiltration_rate_in_per_hr",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "roanoke-va": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:56:36.387Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [],
+      "schema_version": 2
+    },
+    "rochester-mn": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:57:07.372Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "wqv_depth_inches",
+        "max_drawdown_hours",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "rochester-ny": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:57:43.276Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "wqv_depth_inches",
+        "shwt_separation_inches",
+        "bioretention_media_depth_min_inches",
+        "bioretention_ponding_depth_inches",
+        "design_infiltration_rate_in_per_hr",
+        "ed_drain_time_hours",
+        "length_to_width_ratio",
+        "swale_bottom_width_inches",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "rockford-il": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:58:04.494Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "rockville-md": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:58:26.854Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "wqv_depth_inches",
+        "max_drawdown_hours",
+        "shwt_separation_inches",
+        "bioretention_media_depth_min_inches",
+        "bioretention_ponding_depth_inches",
+        "ed_drain_time_hours",
+        "length_to_width_ratio",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "round-rock-tx": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:59:00.574Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "sacramento-ca": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:59:34.875Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "max_drawdown_hours",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "saint-paul-mn": {
+      "status": "done",
+      "updated_at": "2026-08-13T10:00:06.549Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "wqv_depth_inches",
+        "max_drawdown_hours",
+        "shwt_separation_inches",
+        "permanent_pool_depth_inches",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "salem-or": {
+      "status": "done",
+      "updated_at": "2026-08-13T10:00:39.590Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "max_drawdown_hours",
+        "shwt_separation_inches",
+        "design_infiltration_rate_in_per_hr",
+        "wetland_detention_hours",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "salt-lake-city-ut": {
+      "status": "done",
+      "updated_at": "2026-08-13T10:01:06.620Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "san-antonio-tx": {
+      "status": "done",
+      "updated_at": "2026-08-13T10:01:34.198Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [],
+      "schema_version": 2
+    },
+    "san-bernardino-county-ca": {
+      "status": "done",
+      "updated_at": "2026-08-13T10:01:53.832Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "max_drawdown_hours",
+        "bioretention_ponding_depth_inches",
+        "design_infiltration_rate_in_per_hr",
+        "ed_drain_time_hours",
+        "wetland_detention_hours",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "san-diego-ca": {
+      "status": "done",
+      "updated_at": "2026-08-13T10:02:45.924Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "shwt_separation_inches",
+        "length_to_width_ratio",
+        "mtd_verification_program",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "san-francisco-ca": {
+      "status": "done",
+      "updated_at": "2026-08-13T10:03:10.394Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "san-jose-ca": {
+      "status": "done",
+      "updated_at": "2026-08-13T10:03:49.168Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "bioretention_media_depth_min_inches",
+        "design_infiltration_rate_in_per_hr",
+        "ed_drain_time_hours",
+        "length_to_width_ratio",
+        "mtd_verification_program",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "santa-barbara-ca": {
+      "status": "done",
+      "updated_at": "2026-08-13T10:04:36.502Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "max_drawdown_hours",
+        "bioretention_media_depth_min_inches",
+        "bioretention_ponding_depth_inches",
+        "permanent_pool_depth_inches",
+        "ed_drain_time_hours",
+        "length_to_width_ratio",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "santa-fe-nm": {
+      "status": "done",
+      "updated_at": "2026-08-13T10:05:11.883Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "max_drawdown_hours",
+        "shwt_separation_inches",
+        "bioretention_media_depth_min_inches",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "santa-rosa-ca": {
+      "status": "done",
+      "updated_at": "2026-08-13T10:05:37.135Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "wqv_depth_inches",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "savannah-ga-css": {
+      "status": "done",
+      "updated_at": "2026-08-13T10:06:07.319Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "sc-scdot-drainage": {
+      "status": "done",
+      "updated_at": "2026-08-13T10:06:49.030Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "max_drawdown_hours",
+        "ed_drain_time_hours",
+        "swale_longitudinal_slope_percent",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "scottsdale-az": {
+      "status": "done",
+      "updated_at": "2026-08-13T10:07:15.168Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "wqv_depth_inches",
+        "max_drawdown_hours",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "scranton-pa": {
+      "status": "done",
+      "updated_at": "2026-08-13T10:08:08.376Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "shwt_separation_inches",
+        "bioretention_media_depth_min_inches",
+        "bioretention_ponding_depth_inches",
+        "permeable_pavement_storage_depth_inches",
+        "permanent_pool_depth_inches",
+        "ed_drain_time_hours",
+        "length_to_width_ratio",
+        "green_roof_media_depth_inches",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "sd-dot-esc": {
+      "status": "done",
+      "updated_at": "2026-08-13T10:08:38.286Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "seattle-wa-2026": {
+      "status": "done",
+      "updated_at": "2026-08-13T10:09:24.328Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "max_drawdown_hours",
+        "bioretention_media_depth_min_inches",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "seattle-wa": {
+      "status": "done",
+      "updated_at": "2026-08-13T10:10:04.052Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "max_drawdown_hours",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "shreveport-la": {
+      "status": "done",
+      "updated_at": "2026-08-13T10:10:21.748Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "sioux-falls-sd": {
+      "status": "done",
+      "updated_at": "2026-08-13T10:10:35.064Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "south-bend-in": {
+      "status": "done",
+      "updated_at": "2026-08-13T10:11:25.900Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "wqv_depth_inches",
+        "max_drawdown_hours",
+        "shwt_separation_inches",
+        "bioretention_media_depth_min_inches",
+        "length_to_width_ratio",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "south-carolina-manual": {
+      "status": "done",
+      "updated_at": "2026-08-13T10:12:07.482Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "max_drawdown_hours",
+        "design_infiltration_rate_in_per_hr",
+        "ed_drain_time_hours",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "south-salt-lake-ut": {
+      "status": "done",
+      "updated_at": "2026-08-13T10:12:57.121Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "wqv_depth_inches",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "spokane-wa": {
+      "status": "done",
+      "updated_at": "2026-08-13T10:13:24.707Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "max_drawdown_hours",
+        "shwt_separation_inches",
+        "bioretention_media_depth_min_inches",
+        "bioretention_ponding_depth_inches",
+        "design_infiltration_rate_in_per_hr",
+        "swale_longitudinal_slope_percent",
+        "mtd_verification_program",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "springfield-il": {
+      "status": "done",
+      "updated_at": "2026-08-13T10:13:54.813Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "max_drawdown_hours",
+        "shwt_separation_inches",
+        "design_infiltration_rate_in_per_hr",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "springfield-ma": {
+      "status": "done",
+      "updated_at": "2026-08-13T10:14:12.037Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "wqv_depth_inches",
+        "max_drawdown_hours",
+        "shwt_separation_inches",
+        "bioretention_media_depth_min_inches",
+        "design_infiltration_rate_in_per_hr",
+        "ed_drain_time_hours",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "springfield-mo": {
+      "status": "done",
+      "updated_at": "2026-08-13T10:14:59.715Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "wqv_depth_inches",
+        "max_drawdown_hours",
+        "shwt_separation_inches",
+        "bioretention_media_depth_min_inches",
+        "bioretention_ponding_depth_inches",
+        "permeable_pavement_storage_depth_inches",
+        "design_infiltration_rate_in_per_hr",
+        "permanent_pool_depth_inches",
+        "ed_drain_time_hours",
+        "length_to_width_ratio",
+        "wetland_detention_hours",
+        "mtd_verification_program",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "st-louis-mo": {
+      "status": "done",
+      "updated_at": "2026-08-13T10:15:22.921Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "wqv_depth_inches",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "stamford-ct": {
+      "status": "done",
+      "updated_at": "2026-08-13T10:15:59.699Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "wqv_depth_inches",
+        "max_drawdown_hours",
+        "shwt_separation_inches",
+        "bioretention_media_depth_min_inches",
+        "bioretention_ponding_depth_inches",
+        "design_infiltration_rate_in_per_hr",
+        "ed_drain_time_hours",
+        "swale_bottom_width_inches",
+        "green_roof_slope_percent",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "stockton-ca": {
+      "status": "done",
+      "updated_at": "2026-08-13T10:16:22.541Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "wqv_depth_inches",
+        "shwt_separation_inches",
+        "bioretention_media_depth_min_inches",
+        "bioretention_ponding_depth_inches",
+        "ed_drain_time_hours",
+        "length_to_width_ratio",
+        "wetland_detention_hours",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "syracuse-ny": {
+      "status": "done",
+      "updated_at": "2026-08-13T10:17:11.886Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "wqv_depth_inches",
+        "shwt_separation_inches",
+        "bioretention_media_depth_min_inches",
+        "bioretention_ponding_depth_inches",
+        "design_infiltration_rate_in_per_hr",
+        "ed_drain_time_hours",
+        "length_to_width_ratio",
+        "swale_bottom_width_inches",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "tacoma-wa": {
+      "status": "done",
+      "updated_at": "2026-08-13T10:17:57.597Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "max_drawdown_hours",
+        "shwt_separation_inches",
+        "design_infiltration_rate_in_per_hr",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "tahoe-trpa-bmp": {
+      "status": "done",
+      "updated_at": "2026-08-13T10:18:25.408Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "wqv_depth_inches",
+        "shwt_separation_inches",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "tallahassee-fl": {
+      "status": "done",
+      "updated_at": "2026-08-13T10:18:56.772Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "max_drawdown_hours",
+        "shwt_separation_inches",
+        "length_to_width_ratio",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "tampa-fl": {
+      "status": "done",
+      "updated_at": "2026-08-13T10:19:41.127Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "shwt_separation_inches",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "tarrant-county-tx": {
+      "status": "done",
+      "updated_at": "2026-08-13T10:20:25.663Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "max_drawdown_hours",
+        "shwt_separation_inches",
+        "bioretention_media_depth_min_inches",
+        "bioretention_ponding_depth_inches",
+        "design_infiltration_rate_in_per_hr",
+        "permanent_pool_depth_inches",
+        "ed_drain_time_hours",
+        "length_to_width_ratio",
+        "wetland_detention_hours",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "tn-state": {
+      "status": "done",
+      "updated_at": "2026-08-13T10:21:08.952Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "max_drawdown_hours",
+        "shwt_separation_inches",
+        "bioretention_media_depth_min_inches",
+        "design_infiltration_rate_in_per_hr",
+        "ed_drain_time_hours",
+        "length_to_width_ratio",
+        "swale_longitudinal_slope_percent",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "tn-tdot-drainage": {
+      "status": "done",
+      "updated_at": "2026-08-13T10:21:33.771Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [],
+      "schema_version": 2
+    },
+    "toledo-oh": {
+      "status": "done",
+      "updated_at": "2026-08-13T10:22:24.065Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "wqv_depth_inches",
+        "bioretention_media_depth_min_inches",
+        "length_to_width_ratio",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "topeka-ks": {
+      "status": "done",
+      "updated_at": "2026-08-13T10:22:50.613Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "max_drawdown_hours",
+        "shwt_separation_inches",
+        "permanent_pool_depth_inches",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "trenton-nj": {
+      "status": "done",
+      "updated_at": "2026-08-13T10:23:49.196Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "wqv_depth_inches",
+        "max_drawdown_hours",
+        "shwt_separation_inches",
+        "bioretention_media_depth_min_inches",
+        "bioretention_ponding_depth_inches",
+        "swale_longitudinal_slope_percent",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "tucson-az-detention": {
+      "status": "done",
+      "updated_at": "2026-08-13T10:24:21.871Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "wqv_depth_inches",
+        "bioretention_media_depth_min_inches",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "tulsa-ok": {
+      "status": "done",
+      "updated_at": "2026-08-13T10:25:27.798Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "tx-edwards-rg348": {
+      "status": "done",
+      "updated_at": "2026-08-13T10:26:15.712Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "shwt_separation_inches",
+        "ed_drain_time_hours",
+        "length_to_width_ratio",
+        "swale_longitudinal_slope_percent",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "tx-txdot-hydraulic": {
+      "status": "done",
+      "updated_at": "2026-08-13T10:26:44.617Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "ut-udot-drainage": {
+      "status": "done",
+      "updated_at": "2026-08-13T10:27:12.654Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "max_drawdown_hours",
+        "shwt_separation_inches",
+        "swale_longitudinal_slope_percent",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "va-state": {
+      "status": "done",
+      "updated_at": "2026-08-13T10:27:54.348Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "design_infiltration_rate_in_per_hr",
+        "permanent_pool_depth_inches",
+        "ed_drain_time_hours",
+        "wetland_detention_hours",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "va-vdot-drainage": {
+      "status": "done",
+      "updated_at": "2026-08-13T10:28:47.072Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "wqv_depth_inches",
+        "permanent_pool_depth_inches",
+        "length_to_width_ratio",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "vancouver-wa": {
+      "status": "done",
+      "updated_at": "2026-08-13T10:29:17.766Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "shwt_separation_inches",
+        "bioretention_ponding_depth_inches",
+        "design_infiltration_rate_in_per_hr",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "vt-state": {
+      "status": "done",
+      "updated_at": "2026-08-13T10:30:00.165Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "wqv_depth_inches",
+        "max_drawdown_hours",
+        "shwt_separation_inches",
+        "bioretention_media_depth_min_inches",
+        "bioretention_ponding_depth_inches",
+        "design_infiltration_rate_in_per_hr",
+        "permanent_pool_depth_inches",
+        "ed_drain_time_hours",
+        "length_to_width_ratio",
+        "swale_bottom_width_inches",
+        "swale_longitudinal_slope_percent",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "wa-state-western": {
+      "status": "done",
+      "updated_at": "2026-08-13T10:30:23.283Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "max_drawdown_hours",
+        "shwt_separation_inches",
+        "bioretention_media_depth_min_inches",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "wa-wsdot-hr": {
+      "status": "done",
+      "updated_at": "2026-08-13T10:30:51.123Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "waco-tx": {
+      "status": "done",
+      "updated_at": "2026-08-13T10:31:22.260Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "wqv_depth_inches",
+        "design_infiltration_rate_in_per_hr",
+        "permanent_pool_depth_inches",
+        "mtd_verification_program",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "wayne-county-mi": {
+      "status": "done",
+      "updated_at": "2026-08-13T10:31:39.034Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "wqv_depth_inches",
+        "shwt_separation_inches",
+        "bioretention_ponding_depth_inches",
+        "permanent_pool_depth_inches",
+        "ed_drain_time_hours",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "west-palm-beach-fl": {
+      "status": "done",
+      "updated_at": "2026-08-13T10:32:10.467Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "wqv_depth_inches",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "west-virginia-manual": {
+      "status": "done",
+      "updated_at": "2026-08-13T10:33:03.754Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "wqv_depth_inches",
+        "max_drawdown_hours",
+        "shwt_separation_inches",
+        "bioretention_media_depth_min_inches",
+        "design_infiltration_rate_in_per_hr",
+        "swale_longitudinal_slope_percent",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "wi-dnr-1001": {
+      "status": "done",
+      "updated_at": "2026-08-13T10:33:23.117Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "wi-wisdot-drainage": {
+      "status": "done",
+      "updated_at": "2026-08-13T10:33:57.256Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "wichita-ks-vol2": {
+      "status": "done",
+      "updated_at": "2026-08-13T10:34:18.813Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "wqv_depth_inches",
+        "ed_drain_time_hours",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "wilmington-de": {
+      "status": "done",
+      "updated_at": "2026-08-13T10:34:45.747Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "max_drawdown_hours",
+        "shwt_separation_inches",
+        "permanent_pool_depth_inches",
+        "ed_drain_time_hours",
+        "length_to_width_ratio",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "wilmington-nc": {
+      "status": "done",
+      "updated_at": "2026-08-13T10:35:03.169Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "wqv_depth_inches",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "winston-salem-nc": {
+      "status": "done",
+      "updated_at": "2026-08-13T10:35:24.563Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "worcester-ma": {
+      "status": "done",
+      "updated_at": "2026-08-13T10:35:42.866Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "wqv_depth_inches",
+        "max_drawdown_hours",
+        "shwt_separation_inches",
+        "bioretention_media_depth_min_inches",
+        "design_infiltration_rate_in_per_hr",
+        "ed_drain_time_hours",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "wv-wvdoh-drainage": {
+      "status": "done",
+      "updated_at": "2026-08-13T10:35:54.024Z",
+      "error": null,
+      "source": "queue_txt",
+      "model": "composer-2.5",
+      "filled": [],
+      "schema_version": 2
+    },
+    "wy-wydot-field": {
+      "status": "done",
+      "updated_at": "2026-08-13T10:36:26.944Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "yonkers-ny": {
+      "status": "done",
+      "updated_at": "2026-08-13T10:37:04.036Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "wqv_depth_inches",
+        "max_drawdown_hours",
+        "shwt_separation_inches",
+        "bioretention_media_depth_min_inches",
+        "bioretention_ponding_depth_inches",
+        "design_infiltration_rate_in_per_hr",
+        "ed_drain_time_hours",
+        "length_to_width_ratio",
+        "swale_bottom_width_inches",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "youngstown-oh": {
+      "status": "done",
+      "updated_at": "2026-08-13T10:38:05.222Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "wqv_depth_inches",
+        "max_drawdown_hours",
+        "shwt_separation_inches",
+        "bioretention_media_depth_min_inches",
+        "ed_drain_time_hours",
+        "length_to_width_ratio",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    },
+    "yuma-az": {
+      "status": "done",
+      "updated_at": "2026-08-13T10:38:34.929Z",
+      "error": null,
+      "source": "corpus",
+      "model": "composer-2.5",
+      "filled": [
+        "wqv_depth_inches",
+        "max_drawdown_hours",
+        "practice_mentions"
+      ],
+      "schema_version": 2
+    }
+  }
+}

@@ -77,6 +77,51 @@
       "field": "design_criteria.approved_bmp_categories",
       "excerpt": "Porous Pavement ... Green Roof ... Infiltration Planter/Rain Garden ... Flow-Through Planter ... LIDA Swale ... Vegetated Filter Strip ... Vegetated Swale ... Extended Dry Basin ... Constructed Water Quality Wetland ... proprietary facility may be appropriate.",
       "page_or_section": "Table of Contents / Table 2: LIDA Fact Sheet Table, Pages 3 & 20–21; Chapter 3 §3.2, Page 19"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "At a minimum, the detention basin must accommodate the water quality design storm and be sized for a 48 hour drawdown time.",
+      "page_or_section": "Extended Dry Basin Design Factors, page 51"
+    },
+    {
+      "field": "design_parameters.ed_drain_time_hours",
+      "excerpt": "Extended Dry Basin ... 2-cell design, 48-hour draw-down",
+      "page_or_section": "Table 2, page 20"
+    },
+    {
+      "field": "design_parameters.ed_drain_time_hours",
+      "excerpt": "be sized for a 48 hour drawdown time",
+      "page_or_section": "Constructed Water Quality Wetland Design Factors, page 55"
+    },
+    {
+      "field": "design_parameters.shwt_separation_inches",
+      "excerpt": "seasonal high water table is at least 10 feet beneath the facility's bottom or drain rock layer",
+      "page_or_section": "Porous Pavement Application & Limitations, page 22"
+    },
+    {
+      "field": "design_parameters.bioretention_ponding_depth_inches",
+      "excerpt": "Diagram labels 3\" (ponding zone above growing medium)",
+      "page_or_section": "Infiltration Planter/Rain Garden, page 30"
+    },
+    {
+      "field": "design_parameters.bioretention_media_depth_min_inches",
+      "excerpt": "Growing medium ... 9\"",
+      "page_or_section": "Infiltration Planter/Rain Garden diagram, page 30"
+    },
+    {
+      "field": "design_parameters.permanent_pool_depth_inches",
+      "excerpt": "The minimum width of the bottom of the extended dry basin is 4 feet, and the permanent pool depth is 0.4 feet and covers the entire bottom of the basin.",
+      "page_or_section": "Extended Dry Basin Geometry/Slopes, page 51"
+    },
+    {
+      "field": "design_parameters.green_roof_media_depth_inches",
+      "excerpt": "a maximum 6-inch layer of soil",
+      "page_or_section": "Glossary eco-roof, page 68"
+    },
+    {
+      "field": "design_parameters.green_roof_slope_percent",
+      "excerpt": "green roof technology, for roofs with 1:3 pitch or flatter",
+      "page_or_section": "Table 2 / Green Roof fact sheet, page 20"
     }
   ],
   "extraction_quality": {
@@ -94,5 +139,46 @@
     "landing_page_url": "https://cleanwaterservices.org/development/dnc/lida/",
     "retrieved_at": "2026-08-10T07:09:00.000Z",
     "original_filename": "oregon-manual.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": null,
+    "max_drawdown_hours": 48,
+    "shwt_separation_inches": 120,
+    "bioretention_media_depth_min_inches": 9,
+    "bioretention_ponding_depth_inches": 3,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": null,
+    "permanent_pool_depth_inches": 4.8,
+    "ed_drain_time_hours": 48,
+    "length_to_width_ratio": null,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": 6,
+    "green_roof_slope_percent": 33.33,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "bioretention",
+      "constructed_wetland",
+      "extended_detention",
+      "green_roof",
+      "manufactured_treatment",
+      "permeable_pavement",
+      "swale"
+    ],
+    "enriched_at": "2026-08-13T09:35:01.256Z",
+    "enrich_model": "composer-2.5:run-01b5063b-de4b-413f-ad22-6a13fda6a69b",
+    "enrich_notes": "Handbook defers WQV rainfall depth and hydrology to Clean Water Services Design and Construction Standards Chapter 4. LIDA sizing uses 0.06× contributing impervious area for infiltration planters, flow-through planters, LIDA swales, and vegetated filter strips when native infiltration is assumed <2 in/hr. Porous pavement and green roofs are 1:1 impervious credits. Extended dry basins and constructed water quality wetlands require minimum detention volume of 1×WQV with 48-hour drawdown; orifice sizing uses Q=WQV/(48×60×60). Infiltration planter diagram labels 3 in ponding and 9 in growing medium; porous pavement requires SHWT ≥10 ft below bottom/drain rock. Glossary cites max 6 in eco-roof soil; green roof fact sheet allows roofs at 1:3 pitch or flatter.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "wqv_depth_inches",
+      "permeable_pavement_storage_depth_inches",
+      "design_infiltration_rate_in_per_hr",
+      "length_to_width_ratio",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "swale_longitudinal_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

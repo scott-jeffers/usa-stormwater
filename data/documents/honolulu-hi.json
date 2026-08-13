@@ -98,6 +98,21 @@
       "field": "design_criteria.approved_bmp_categories",
       "excerpt": "New development and redevelopment projects shall also comply with the requirements in the Rules Relating to Water Quality to implement low impact development best management practices to reduce discharge of pollutants into the final receiving waters.",
       "page_or_section": "Part II.A.13, Page 5"
+    },
+    {
+      "field": "practice_mentions.swale",
+      "excerpt": "Where sump conditions exist, a safety measure such as an overflow swale shall be provided to prevent flooding of adjacent lots",
+      "page_or_section": "PART II A. GENERAL CONDITIONS §5, page 9"
+    },
+    {
+      "field": "design_parameters.wqv_depth_inches",
+      "excerpt": "New development and redevelopment projects shall also comply with the requirements in the Rules Relating to Water Quality to implement low impact development best management practices",
+      "page_or_section": "PART II B. DESIGN COMPUTATIONS, page 10"
+    },
+    {
+      "field": "design_parameters.ed_drain_time_hours",
+      "excerpt": "Detention volume and discharge rate.",
+      "page_or_section": "PART II B. DESIGN COMPUTATIONS (interim measures data), page 11"
     }
   ],
   "extraction_quality": {
@@ -116,5 +131,48 @@
     "landing_page_url": "https://www.honolulu.gov/dpp/",
     "retrieved_at": "2026-08-08T11:41:37.854Z",
     "original_filename": "honolulu-hi.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": null,
+    "max_drawdown_hours": null,
+    "shwt_separation_inches": null,
+    "bioretention_media_depth_min_inches": null,
+    "bioretention_ponding_depth_inches": null,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": null,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": null,
+    "length_to_width_ratio": null,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "swale"
+    ],
+    "enriched_at": "2026-08-13T08:35:08.098Z",
+    "enrich_model": "composer-2.5:run-dd7ff023-270e-4cb1-978a-0eaa9fc1ccca",
+    "enrich_notes": "Document is Rules Relating to Storm Drainage Standards (conveyance/hydrology: recurrence 10/50/100 yr, rational method, Manning pipes/channels). Water-quality volume and LID BMP sizing are explicitly deferred to separate Rules Relating to Water Quality. Interim drainage may require detention volume and discharge rate but no SCM drawdown or WQv depth is stated here.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "wqv_depth_inches",
+      "max_drawdown_hours",
+      "shwt_separation_inches",
+      "bioretention_media_depth_min_inches",
+      "bioretention_ponding_depth_inches",
+      "permeable_pavement_storage_depth_inches",
+      "design_infiltration_rate_in_per_hr",
+      "permanent_pool_depth_inches",
+      "ed_drain_time_hours",
+      "length_to_width_ratio",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "swale_longitudinal_slope_percent",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

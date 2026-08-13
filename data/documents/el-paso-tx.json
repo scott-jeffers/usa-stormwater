@@ -71,6 +71,31 @@
       "field": "design_criteria.approved_bmp_categories",
       "excerpt": "Bioretention",
       "page_or_section": "Section 14"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "All storm water storage shall drain within 72 hours through infiltration, gravity outlet, or mechanical means.",
+      "page_or_section": "SECTION 2, General Design Notes item 9, page 13"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "The pond must drain down within 72 hours, either by infiltration or by means of an outlet.",
+      "page_or_section": "9.6 DRAIN TIME, page 45"
+    },
+    {
+      "field": "design_parameters.shwt_separation_inches",
+      "excerpt": "The lowest elevation of a basin cannot be less than 2 feet above the highest elevation of the ground water table.",
+      "page_or_section": "General Design Notes item 18, page 14-15"
+    },
+    {
+      "field": "design_parameters.ed_drain_time_hours",
+      "excerpt": "The pond must drain down within 72 hours, either by infiltration or by means of an outlet.",
+      "page_or_section": "9.6 DRAIN TIME, page 45"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "Bioretention basins are designed to infiltrate collected water within 24 hours.",
+      "page_or_section": "14.2.4 Bioretention Basin Design, page 63"
     }
   ],
   "extraction_quality": {
@@ -90,5 +115,48 @@
     "landing_page_url": "https://www.elpasotexas.gov/",
     "retrieved_at": "2026-08-10T08:10:00.000Z",
     "original_filename": "el-paso-tx.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": null,
+    "max_drawdown_hours": 72,
+    "shwt_separation_inches": 24,
+    "bioretention_media_depth_min_inches": null,
+    "bioretention_ponding_depth_inches": null,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": null,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": 72,
+    "length_to_width_ratio": null,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "bioretention",
+      "extended_detention",
+      "infiltration_basin",
+      "swale"
+    ],
+    "enriched_at": "2026-08-13T08:09:13.093Z",
+    "enrich_model": "composer-2.5:run-801f26c8-b19f-4139-9db4-f1853e330685",
+    "enrich_notes": "El Paso SWDM May 2022 draft emphasizes quantity (100-year 24-hr retention with 30% safety factor; HEC-HMS routing). Section 14 sizes bioretention for ~0.5–1 in storm from impervious area (goal, not fixed WQv). Basin PI shall not exceed 8; infiltration not used for retention pond volume sizing. Drywells prohibited.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "wqv_depth_inches",
+      "bioretention_media_depth_min_inches",
+      "bioretention_ponding_depth_inches",
+      "permeable_pavement_storage_depth_inches",
+      "design_infiltration_rate_in_per_hr",
+      "permanent_pool_depth_inches",
+      "length_to_width_ratio",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "swale_longitudinal_slope_percent",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

@@ -76,6 +76,76 @@
       "field": "design_criteria.approved_bmp_categories",
       "excerpt": "INFILTRATION BMPS",
       "page_or_section": "Section 4.4"
+    },
+    {
+      "field": "design_parameters.wqv_depth_inches",
+      "excerpt": "The volume of runoff produced from a 0.75‐inch storm event.",
+      "page_or_section": "Section 3.1.3 / page 21"
+    },
+    {
+      "field": "design_parameters.wqv_depth_inches",
+      "excerpt": "Vdesign (cu ft) = 0.0625 (ft) x Catchment Area (sq ft)",
+      "page_or_section": "Appendix B Calculating Size Requirements / page 81"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "The hydraulic conductivity (Ksat) of the subsurface layers is sufficient to ensure the maximum drawdown time of 48 hours.",
+      "page_or_section": "Section 4.4.3 / page 40"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "Infiltration facilities must be sized to completely infiltrate the design capture volume within 48 hours.",
+      "page_or_section": "Appendix B / page 81"
+    },
+    {
+      "field": "design_parameters.shwt_separation_inches",
+      "excerpt": "A minimum of five feet of separation to the seasonal (December through April) high ground water level and mounded groundwater level is required.",
+      "page_or_section": "Section 4.2 Groundwater Considerations / page 30"
+    },
+    {
+      "field": "design_parameters.bioretention_media_depth_min_inches",
+      "excerpt": "biofiltration BMPs shall be constructed with a minimum planting soil depth of 2 feet (3 feet preferred)",
+      "page_or_section": "Section 4.6.3 / page 50"
+    },
+    {
+      "field": "design_parameters.bioretention_media_depth_min_inches",
+      "excerpt": "Media Depth feet 2 (min) 8 (max)",
+      "page_or_section": "Infiltration BMP Design Criteria table / page 82-83"
+    },
+    {
+      "field": "design_parameters.bioretention_ponding_depth_inches",
+      "excerpt": "Ponding Depth inch 18 (maximum)c",
+      "page_or_section": "Infiltration BMP Design Criteria table / page 82"
+    },
+    {
+      "field": "design_parameters.bioretention_ponding_depth_inches",
+      "excerpt": "Max Ponding/Flow Depth inch 18",
+      "page_or_section": "Biofiltration BMP Design Criteria / page 87"
+    },
+    {
+      "field": "design_parameters.design_infiltration_rate_in_per_hr",
+      "excerpt": "A target long‐term Ksat,media of 5 in/hr is recommended for non‐proprietary amended soil media.",
+      "page_or_section": "Appendix B Biofiltration Step 2 / page 89"
+    },
+    {
+      "field": "design_parameters.design_infiltration_rate_in_per_hr",
+      "excerpt": "Soil Media Infiltration Rate in/hr 5 (max)",
+      "page_or_section": "Biofiltration BMP Design Criteria / page 87"
+    },
+    {
+      "field": "design_parameters.length_to_width_ratio",
+      "excerpt": "Sediment forebay has a minimum length to width ratio of 2:1",
+      "page_or_section": "Section 4.4.3 / page 40"
+    },
+    {
+      "field": "design_parameters.swale_bottom_width_inches",
+      "excerpt": "Swales shall be constructed with a bottom width between 2‐ and 10‐feet.",
+      "page_or_section": "Section 4.6.3 / page 50"
+    },
+    {
+      "field": "design_parameters.swale_longitudinal_slope_percent",
+      "excerpt": "Slope in Flow Direction % … Vegetated Swale … 2% (min) 33% (max)",
+      "page_or_section": "Biofiltration BMP Design Criteria / page 87"
     }
   ],
   "extraction_quality": {
@@ -93,5 +163,44 @@
     "landing_page_url": "https://www.longbeach.gov/",
     "retrieved_at": "2026-08-10T08:03:22.623Z",
     "original_filename": "long-beach-ca.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": 0.75,
+    "max_drawdown_hours": 48,
+    "shwt_separation_inches": 60,
+    "bioretention_media_depth_min_inches": 24,
+    "bioretention_ponding_depth_inches": 18,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": 5,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": null,
+    "length_to_width_ratio": 2,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": 24,
+    "swale_longitudinal_slope_percent": 2,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "bioretention",
+      "infiltration_basin",
+      "infiltration_trench",
+      "manufactured_treatment",
+      "permeable_pavement",
+      "swale"
+    ],
+    "enriched_at": "2026-08-13T08:59:01.822Z",
+    "enrich_model": "composer-2.5:run-48400961-4339-4136-9be4-b217d34ab134",
+    "enrich_notes": "WQV tied to 0.75 in storm and/or 85th-percentile 24-hr volume with 48–72 hr drawdown per WEF/ASCE; infiltration BMPs use 48 hr drawdown and FS 3 (FS 6 if boring only); biofiltration capture is 1.5× WQV with 48 hr surface / 96 hr underdrain drain; capture-and-use may use 72 hr (3 day) drawdown for 0.75 in sizing.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "permeable_pavement_storage_depth_inches",
+      "permanent_pool_depth_inches",
+      "ed_drain_time_hours",
+      "wetland_detention_hours",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

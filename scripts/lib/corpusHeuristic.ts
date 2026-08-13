@@ -274,6 +274,6 @@ export function useHeuristicLlm(): boolean {
   const mode = (process.env.PIPELINE_LLM ?? "").trim().toLowerCase();
   if (mode === "heuristic" || mode === "offline" || mode === "local") return true;
   if (mode === "cursor" || mode === "sdk") return false;
-  const key = process.env.CURSOR_API_KEY?.trim();
-  return !key;
+  // Default offline when unset. overnight:go forces PIPELINE_LLM=cursor unless --heuristic.
+  return true;
 }

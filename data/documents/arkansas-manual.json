@@ -145,6 +145,61 @@
       "field": "design_criteria.approved_bmp_categories",
       "excerpt": "Bio-retention and grassed swales are common infiltration techniques. ... Rain gardens are landscaped bio-retention facilities ... Green Rooftop is a layer of vegetation, shrubs, or trees planted on rooftops to absorb stormwater runoff.",
       "page_or_section": "Appendix B: Low-Impact Development"
+    },
+    {
+      "field": "practice_mentions",
+      "excerpt": "Rain gardens are landscaped bio-retention facilities that soak up runoff displaced by the impervious",
+      "page_or_section": "p98"
+    },
+    {
+      "field": "practice_mentions.bioretention",
+      "excerpt": "Bio-retention and grassed swales are common infiltration techniques.",
+      "page_or_section": "Appendix B, B.1.2 Infiltration Techniques (page xcvii)"
+    },
+    {
+      "field": "practice_mentions.bioretention",
+      "excerpt": "Rain gardens are landscaped bio-retention facilities that soak up runoff displaced by the impervious area of a structure.",
+      "page_or_section": "Appendix B, Rain Gardens (page xcviii)"
+    },
+    {
+      "field": "practice_mentions.swale",
+      "excerpt": "Bio-retention and grassed swales are common infiltration techniques.",
+      "page_or_section": "Appendix B, B.1.2 (page xcvii)"
+    },
+    {
+      "field": "practice_mentions.green_roof",
+      "excerpt": "Green Rooftop is a layer of vegetation, shrubs, or trees planted on rooftops to absorb stormwater runoff.",
+      "page_or_section": "Appendix B, B.1.3 Impervious Surface Area Reduction (page xcviii)"
+    },
+    {
+      "field": "practice_mentions.sand_filter",
+      "excerpt": "In areas where local soils do not readily support infiltration, sand filtration systems can be used to discharge treated stormwater to a stream or storm sewer.",
+      "page_or_section": "Appendix B, B.1.2 (page xcvii–xcviii)"
+    },
+    {
+      "field": "practice_mentions.permeable_pavement",
+      "excerpt": "Provide an overflow lot utilizing grass or alternative pavers for peak demand parking.",
+      "page_or_section": "Appendix B, Green Parking (page xcviii)"
+    },
+    {
+      "field": "practice_mentions.extended_detention",
+      "excerpt": "Detention ponds should also be designed to the standards of the municipality that they are located in",
+      "page_or_section": "BMP 410, Design and Installation Specifications (page lxxxiii)"
+    },
+    {
+      "field": "practice_mentions.wet_pond",
+      "excerpt": "Retention ponds hold water back. Detention ponds temporarily contain water, or slow release it into drainage ways.",
+      "page_or_section": "BMP 410 (page lxxxii–lxxxiii)"
+    },
+    {
+      "field": "practice_mentions.manufactured_treatment",
+      "excerpt": "One example of a de-watering BMP is a manufactured enclosed filter bag placed on a pervious pavement or material",
+      "page_or_section": "BMP 420 De-watering (page lxxxiii)"
+    },
+    {
+      "field": "practice_mentions.constructed_wetland",
+      "excerpt": "BMP 103: Wetland Preservation, Creations, and Re-creation",
+      "page_or_section": "Chapter 1 Preventative BMPs (page xiii)"
     }
   ],
   "extraction_quality": {
@@ -161,5 +216,57 @@
     "landing_page_url": "https://www.bentonville.ar.gov/422/Stormwater-Management",
     "retrieved_at": "2026-08-10T07:09:00.000Z",
     "original_filename": "arkansas-manual.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": null,
+    "max_drawdown_hours": null,
+    "shwt_separation_inches": null,
+    "bioretention_media_depth_min_inches": null,
+    "bioretention_ponding_depth_inches": null,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": null,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": null,
+    "length_to_width_ratio": null,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "bioretention",
+      "constructed_wetland",
+      "extended_detention",
+      "green_roof",
+      "infiltration_basin",
+      "manufactured_treatment",
+      "permeable_pavement",
+      "sand_filter",
+      "swale",
+      "wet_pond"
+    ],
+    "enriched_at": "2026-08-13T07:26:49.891Z",
+    "enrich_model": "composer-2.5:run-b4eec31e-d9a5-4269-bc05-123fa95c2305",
+    "enrich_notes": "NWA 2016 manual excerpts are construction ESC–focused; post-construction WQv depth and SCM sizing numerics are deferred to host municipalities or qualitative LID in Appendix B. Retention/detention ponds sized to municipal design storms; karst areas by infiltration support. Sediment pond divider and maintenance markers use 12 in. references; rain gardens require 10 ft minimum setback from structures (120 in.), not SHWT. Green rooftops cite 17 lb/sf live-load threshold for structural engineer review, not growing-media depth.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "wqv_depth_inches",
+      "max_drawdown_hours",
+      "shwt_separation_inches",
+      "bioretention_media_depth_min_inches",
+      "bioretention_ponding_depth_inches",
+      "permeable_pavement_storage_depth_inches",
+      "design_infiltration_rate_in_per_hr",
+      "permanent_pool_depth_inches",
+      "ed_drain_time_hours",
+      "length_to_width_ratio",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "swale_longitudinal_slope_percent",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

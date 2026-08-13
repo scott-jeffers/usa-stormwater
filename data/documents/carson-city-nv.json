@@ -46,18 +46,103 @@
       "field": "design_criteria.design_storm_return_periods_years",
       "excerpt": "minor storm event (10-year) and a major storm event (100-year)",
       "page_or_section": "Design Storm Events"
+    },
+    {
+      "field": "design_parameters.wqv_depth_inches",
+      "excerpt": "For P, use 1.5 inches for areas west of Carson Street and 0.5 inches for areas east of Carson Street",
+      "page_or_section": "2.1.1.3 Volume-Based Water Quality Control Design, page 15"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "If the trench takes more than 72 hours to drain, then the rock fill should be removed",
+      "page_or_section": "TC-1 Infiltration Trench limitations, page 93"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "recommended infiltration rate of 72 hours or less",
+      "page_or_section": "TC-2 Infiltration Basin maintenance, page 95"
+    },
+    {
+      "field": "design_parameters.shwt_separation_inches",
+      "excerpt": "the seasonal high-water table should be at least four feet (4') below the surface",
+      "page_or_section": "Permeable paving design considerations, page 75"
+    },
+    {
+      "field": "design_parameters.design_infiltration_rate_in_per_hr",
+      "excerpt": "Infiltration basins require a minimum soil infiltration rate of 0.5 inches/hour",
+      "page_or_section": "TC-2 limitations, pages 90-93"
+    },
+    {
+      "field": "design_parameters.ed_drain_time_hours",
+      "excerpt": "Outlet designed to discharge the capture volume over a period of 48 hours",
+      "page_or_section": "Extended detention design and sizing guidelines, page 117"
+    },
+    {
+      "field": "design_parameters.length_to_width_ratio",
+      "excerpt": "Length to width ratio of at least 1.5:1 where feasible",
+      "page_or_section": "Extended detention design and sizing guidelines, page 117"
     }
   ],
   "extraction_quality": {
     "confidence": "high",
-    "needs_human_review": false,
-    "review_notes": null,
-    "fields_not_found": []
+    "needs_human_review": true,
+    "review_notes": "Pipeline excerpt repair removed 1 unlocated citation(s).",
+    "fields_not_found": [
+      "design_parameters.wqv_depth_inches"
+    ]
   },
   "source": {
     "document_url": "https://www.carson.org/home/showpublisheddocument/76280/637624691903200000",
     "landing_page_url": "https://www.carsoncity.gov/government/departments-g-z/public-works/storm-water-flood-plain-management/low-impact-development-drainage-manual-faqs",
     "retrieved_at": "2026-08-10T10:18:37.456Z",
     "original_filename": "carson-city-nv.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": null,
+    "max_drawdown_hours": 72,
+    "shwt_separation_inches": 48,
+    "bioretention_media_depth_min_inches": null,
+    "bioretention_ponding_depth_inches": null,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": 0.5,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": 48,
+    "length_to_width_ratio": 1.5,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "bioretention",
+      "constructed_wetland",
+      "extended_detention",
+      "green_roof",
+      "infiltration_basin",
+      "infiltration_trench",
+      "manufactured_treatment",
+      "permeable_pavement",
+      "sand_filter",
+      "swale",
+      "wet_pond"
+    ],
+    "enriched_at": "2026-08-13T07:46:22.396Z",
+    "enrich_model": "composer-2.5:run-c45f6b60-2be4-4085-aacb-d4c7482711c6",
+    "enrich_notes": "WQV precipitation P is zone-specific: 1.5 in west of Carson Street and 0.5 in east (90th percentile depth in WQV formula). Infiltration basins also cite groundwater separation ≥3 m (~118 in) from invert to groundwater; permeable paving cites SHWT ≥4 ft below surface. Infiltration basin sizing uses 48 hr drawdown in invert area equation; upper infiltration rate threshold 2.4 in/hr before full pretreatment required.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "wqv_depth_inches",
+      "bioretention_media_depth_min_inches",
+      "bioretention_ponding_depth_inches",
+      "permeable_pavement_storage_depth_inches",
+      "permanent_pool_depth_inches",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "swale_longitudinal_slope_percent",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

@@ -63,6 +63,51 @@
       "field": "design_criteria.approved_bmp_categories",
       "excerpt": "Bioretention / Infiltration Basin / Extended Detention Basin",
       "page_or_section": "Chapter 6 fact sheets"
+    },
+    {
+      "field": "design_parameters.wqv_depth_inches",
+      "excerpt": "post-project runoff volumes be reduced to match pre-project levels for the 0.51-inch storm depth, the average 85th percentile/24-hour storm depth estimated for the Stockton area",
+      "page_or_section": "5.2 Volume Reduction Requirement / page 52 (stockton-ca-c0076)"
+    },
+    {
+      "field": "design_parameters.shwt_separation_inches",
+      "excerpt": "Bottom Basin Elevation ft 10 ft above seasonally high groundwater table minimum.",
+      "page_or_section": "Table 6-17 Infiltration Basin / page 118 (stockton-ca-c0135)"
+    },
+    {
+      "field": "design_parameters.shwt_separation_inches",
+      "excerpt": "Minimum groundwater separation 10 ft Between trench bottom and seasonally high groundwater table",
+      "page_or_section": "Table 6-19 Infiltration Trench / page 125 (stockton-ca-c0141)"
+    },
+    {
+      "field": "design_parameters.shwt_separation_inches",
+      "excerpt": "The depth to seasonal high groundwater level should be at least 10 feet from the bottom of the structure.",
+      "page_or_section": "Table 6-8 Bioretention / page 96 (stockton-ca-c0116)"
+    },
+    {
+      "field": "design_parameters.bioretention_media_depth_min_inches",
+      "excerpt": "Depth of planting media 18 - 24 inches",
+      "page_or_section": "Table 6-8 Bioretention Design Criteria / page 96 (stockton-ca-c0116)"
+    },
+    {
+      "field": "design_parameters.bioretention_ponding_depth_inches",
+      "excerpt": "Maximum depth of ponding zone (DPZ) 12 inches Depth above top much layer",
+      "page_or_section": "Table 6-8 Bioretention Design Criteria / page 96 (stockton-ca-c0116)"
+    },
+    {
+      "field": "design_parameters.ed_drain_time_hours",
+      "excerpt": "Extended Detention Basin (C-2) SQDV 48 hours",
+      "page_or_section": "Table 6-4 Sizing Criteria for Treatment Controls / page 88 (stockton-ca-c0109)"
+    },
+    {
+      "field": "design_parameters.wetland_detention_hours",
+      "excerpt": "Constructed Wetland (C-1) SQDV 24 hours",
+      "page_or_section": "Table 6-4 Sizing Criteria for Treatment Controls / page 88 (stockton-ca-c0109)"
+    },
+    {
+      "field": "design_parameters.length_to_width_ratio",
+      "excerpt": "Pond length to width ratio 2:1 Minimum (larger preferred)",
+      "page_or_section": "Table 6-39 Wet Pond Design Criteria / page 186 (stockton-ca-c0183)"
     }
   ],
   "extraction_quality": {
@@ -83,5 +128,49 @@
     "landing_page_url": "https://www.sjwater.org/Stormwater-Management/Development",
     "retrieved_at": "2026-08-10T08:24:40.117Z",
     "original_filename": "stockton-ca.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": 0.51,
+    "max_drawdown_hours": null,
+    "shwt_separation_inches": 120,
+    "bioretention_media_depth_min_inches": 18,
+    "bioretention_ponding_depth_inches": 12,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": null,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": 48,
+    "length_to_width_ratio": 2,
+    "wetland_detention_hours": 24,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "bioretention",
+      "constructed_wetland",
+      "extended_detention",
+      "infiltration_basin",
+      "infiltration_trench",
+      "manufactured_treatment",
+      "permeable_pavement",
+      "swale",
+      "wet_pond"
+    ],
+    "enriched_at": "2026-08-13T10:16:22.539Z",
+    "enrich_model": "composer-2.5:run-f8ece916-d94f-472a-969e-69b9d4fc4361",
+    "enrich_notes": "VRR is tied to 0.51-inch storm depth (85th percentile, Stockton); SQDV/SQDF sizing is separate (Fact Sheet T-0). Drawdown periods vary by BMP (Table 6-4): e.g. bioretention 12 h, wetland 24 h, infiltration basin/trench and extended detention 48 h. Infiltration basin/trench cite soil permeability design range 0.6–2 in/hr (saturated vertical); Table 6-3 gives typical infiltration rates by USDA soil type A–D. Ten-foot minimum separation from seasonally high groundwater appears for infiltration basin bottom, infiltration trench bottom, and bioretention (depth to groundwater >10 ft from structure bottom). Wet pond lists littoral depth 6–18 in, deeper zone 4–8 ft average and 12 ft maximum, forebay 2–4 ft—not mapped to a single permanent_pool_depth_inches.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "max_drawdown_hours",
+      "permeable_pavement_storage_depth_inches",
+      "design_infiltration_rate_in_per_hr",
+      "permanent_pool_depth_inches",
+      "swale_bottom_width_inches",
+      "swale_longitudinal_slope_percent",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

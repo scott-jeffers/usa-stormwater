@@ -66,6 +66,36 @@
       "field": "design_criteria.approved_bmp_categories",
       "excerpt": "Stormwater Control Measures",
       "page_or_section": "SCM chapters"
+    },
+    {
+      "field": "shwt_separation_inches",
+      "excerpt": "The depth to the SHWT shall be a minimum of 12 inches measured from the lowest ground surface elevation.",
+      "page_or_section": "6.5.9 Level Spreader – Filter Strip (LS-FS), page 6-22"
+    },
+    {
+      "field": "ed_drain_time_hours",
+      "excerpt": "If not designing for nutrient removal credit, maximum drawdown time is 2 days.",
+      "page_or_section": "6.5.12 Dry Pond, page 6-25"
+    },
+    {
+      "field": "length_to_width_ratio",
+      "excerpt": "A minimum flow length to width ratio (L:W) shall be 3:1.",
+      "page_or_section": "6.5.4 Stormwater Wetland, page 6-16"
+    },
+    {
+      "field": "length_to_width_ratio",
+      "excerpt": "If designing for nutrient removal credit, the flow length to pond width ratio (L:W) shall be 3:1.",
+      "page_or_section": "6.5.12 Dry Pond, page 6-25"
+    },
+    {
+      "field": "swale_bottom_width_inches",
+      "excerpt": "Minimum swale bottom width of 2 feet.",
+      "page_or_section": "6.5.2 Bioretention pretreatment, page 6-12"
+    },
+    {
+      "field": "swale_longitudinal_slope_percent",
+      "excerpt": "Vegetated Swale: maximum longitudinal slope of 5%, 2% preferred.",
+      "page_or_section": "6.5.2 Bioretention pretreatment, page 6-12"
     }
   ],
   "extraction_quality": {
@@ -86,5 +116,52 @@
     "landing_page_url": "https://raleighnc.gov/stormwater/services/stormwater-permitting-and-inspections-development/stormwater-design-manual",
     "retrieved_at": "2026-08-10T08:10:00.000Z",
     "original_filename": "raleigh-nc.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": null,
+    "max_drawdown_hours": null,
+    "shwt_separation_inches": 12,
+    "bioretention_media_depth_min_inches": null,
+    "bioretention_ponding_depth_inches": null,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": null,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": 48,
+    "length_to_width_ratio": 3,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": 24,
+    "swale_longitudinal_slope_percent": 5,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "bioretention",
+      "constructed_wetland",
+      "extended_detention",
+      "green_roof",
+      "infiltration_basin",
+      "manufactured_treatment",
+      "permeable_pavement",
+      "sand_filter",
+      "swale",
+      "wet_pond"
+    ],
+    "enriched_at": "2026-08-13T09:51:25.411Z",
+    "enrich_model": "composer-2.5:run-63c980d4-1b31-44bb-966a-8e3227c9ddc3",
+    "enrich_notes": "Raleigh SDM (Sept 2024) adds city requirements atop NCDEQ SCM MDCs; many numeric limits defer to NCDEQ chapters. Table 5.1 lists compliance design storms (1.34 in runoff volume match, 1 in nitrogen/SNAP) but does not label either as WQv rainfall depth. Wet pond release described as 2–5 days (not a single max drawdown hour). Bioretention pretreatment vegetated swale: max slope 5% (2% preferred), min bottom width 2 ft, check dams min 6 in. Wet pond/wetland permanent pool within 6 in of SHWT or liner per acre thresholds (25 ac wet pond, 10 ac wetland).",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "wqv_depth_inches",
+      "max_drawdown_hours",
+      "bioretention_media_depth_min_inches",
+      "bioretention_ponding_depth_inches",
+      "permeable_pavement_storage_depth_inches",
+      "design_infiltration_rate_in_per_hr",
+      "permanent_pool_depth_inches",
+      "wetland_detention_hours",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

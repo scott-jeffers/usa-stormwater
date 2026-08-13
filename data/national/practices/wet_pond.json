@@ -1,0 +1,138 @@
+{
+  "version": 1,
+  "practice_key": "wet_pond",
+  "practice_label": "Wet Pond",
+  "generated_at": "2026-08-13T10:44:47.328Z",
+  "model": "composer-2.5:run-1eb79022-97d5-4b0b-b466-02e0341c54ac",
+  "editorial_status": "draft",
+  "national_baseline": "Among Tier A manuals that mention wet ponds (58 of 76 scanned), numeric guidance is sparse for facility-specific permanent pool geometry but more common for site-wide water-quality volume and drainage timing context. Jurisdiction-level water-quality volume depth clusters around 1 inch (n=30, mode=1, median=1 inch, range 0.37–1.61 inches)—this sizes the contributing watershed context, not the pond’s permanent pool. Site-wide maximum drawdown time most often appears as 72 hours (n=36, mode=72, median=48 hours, range 4–120 hours), while seasonal high water table separation is most frequently 24 inches (n=36, mode=24, median=36 inches, range 12–120 inches), again as siting and sizing context rather than a single national wet-pond cross-section. Where manuals state wet-pond facility parameters, extended detention drain time mode is 24 hours (n=23, median 40 hours, range 24–72 hours), length-to-width ratio mode is 2 (n=18, median 2, range 0.3–3), and permanent pool depth mode is 36 inches (n=10 only, median 42 inches, range 18–96 inches)—so a temperate, Type II–ish baseline for shape and ED timing is emerging numerically, but permanent pool depth is not yet firmly established nationwide.",
+  "regional_modifiers": [
+    {
+      "id": "cold_climate",
+      "title": "Cold climate and northern states",
+      "text": "Northern and cold-climate manuals often align extended detention drain time with a 24-hour mode (e.g., Alaska, Minnesota, Vermont, Maryland, Massachusetts draft) while site-wide drawdown spans 24–72 hours (Seattle 24, Portland 30, Minnesota 48, Billings and Montana DEQ 72). Seasonal high water table separation commonly falls at 24–36 inches (Minnesota 36, Maine 12, Vermont 36, Washington western 60). Permanent pool depth where stated includes 36 inches in Chicago, Detroit, Idaho BMP catalog, and Minnesota 2008. Baseline ED timing leans shorter (24 h) relative to the national site-wide drawdown mode of 72 h.",
+      "states": [
+        "AK",
+        "ME",
+        "MN",
+        "MT",
+        "VT",
+        "WA",
+        "ID",
+        "IL",
+        "MI"
+      ],
+      "citation_slugs": [
+        "ak-state",
+        "me-maine-manual",
+        "mn-state-2008",
+        "mt-billings-mt",
+        "mt-deq8",
+        "wa-seattle-wa",
+        "wa-state-western",
+        "id-idaho-bmp-catalog",
+        "il-chicago-il",
+        "mi-detroit-mi"
+      ]
+    },
+    {
+      "id": "coastal_high_wt",
+      "title": "Coastal and high water table",
+      "text": "Coastal and high water table jurisdictions frequently specify tighter seasonal high water table separation—12 inches appears in Chesapeake Virginia, Raleigh North Carolina, Maine, New Jersey state proxy, and Montana DEQ8—while Houston and Ohio rainwater use 48 inches and San Diego specifies 120 inches. Drawdown and ED times vary (Chesapeake 48 h drawdown and ED; Florida FSESCI Tier 1 site-wide drawdown as low as 4 hours). Length-to-width ratios of 2–3 appear in several eastern manuals. These values reflect siting constraints and local hydrogeology rather than a uniform pond depth standard.",
+      "states": [
+        "VA",
+        "NC",
+        "ME",
+        "NJ",
+        "MT",
+        "TX",
+        "OH",
+        "CA",
+        "FL"
+      ],
+      "citation_slugs": [
+        "va-chesapeake-va",
+        "nc-raleigh-nc",
+        "me-maine-manual",
+        "nj-nj-state",
+        "mt-deq8",
+        "tx-houston-tx",
+        "oh-ohio-rainwater",
+        "ca-san-diego-ca",
+        "fl-fl-fsesci-tier1"
+      ]
+    },
+    {
+      "id": "karst",
+      "title": "Karst and Edwards-related guidance",
+      "text": "Texas Edwards-related guidance (RG348) lists 48-inch seasonal high water table separation, 48-hour extended detention drain time, and a length-to-width ratio of 1—tighter geometry and explicit separation compared to the national L:W mode of 2. This is the primary karst-linked numeric cluster in the Tier A wet-pond matrix.",
+      "states": [
+        "TX"
+      ],
+      "citation_slugs": [
+        "tx-tx-edwards-rg348"
+      ]
+    },
+    {
+      "id": "arid",
+      "title": "Arid and semi-arid West",
+      "text": "Arid jurisdictions show lower site-wide water-quality volume depths (Las Vegas 0.37 inches, Denver 0.6 inches, Flagstaff 1 inch) and mixed drawdown standards (Flagstaff 24 h, Las Vegas 72 h, Albuquerque GSI 96 h). Seasonal high water table separation is often 24–36 inches (Las Vegas 24, Albuquerque 36). Permanent pool depth is rarely stated in these extracts; facility-specific pool depth baseline remains numerically thin in the arid subset.",
+      "states": [
+        "NV",
+        "CO",
+        "AZ",
+        "NM"
+      ],
+      "citation_slugs": [
+        "nv-las-vegas-nv",
+        "co-denver-co",
+        "az-flagstaff-az",
+        "nm-albuquerque-nm-gsi"
+      ]
+    }
+  ],
+  "open_issues": "Permanent pool depth is reported in only 10 of 58 mentioning manuals (mode 36 inches, range 18–96 inches), so national facility depth consensus is not established. Site-wide WQv depth, max drawdown hours, and SHWT separation are often documented without clear distinction from wet-pond permanent pool, ED zone, or embankment specs—synthesis treats them as jurisdiction sizing context but cross-manual comparability is limited. Max drawdown spans 4–120 hours (Florida Tier 1 low end vs Mississippi 120 hours), and length-to-width ratio spans 0.3–3 (Tennessee outlier vs Ohio, Detroit, Raleigh at 3), indicating regional policy drivers not captured in a single national number. Roughly 38–46 manuals per field lack extracted numerics; modes reflect Tier A extraction consensus, not an adopted standard. Extended detention drain time (n=23) and L:W (n=18) have modest sample sizes relative to 58 practice mentions.",
+  "matrix_summary": "Tier A wet-pond mentions: 58 of 76 manuals. Site-wide context: WQv depth n=30, mode 1 inch (0.37–1.61); max drawdown n=36, mode 72 h, median 48 h (4–120); SHWT separation n=36, mode 24 in, median 36 in (12–120). Facility-oriented fields: permanent pool depth n=10, mode 36 in (18–96); ED drain time n=23, mode 24 h, median 40 h (24–72); length-to-width n=18, mode 2 (0.3–3). Low n or wide ranges mean several baselines are directional only until more manuals yield consistent facility-level numerics.",
+  "supporting_slugs": [
+    "ak-state",
+    "alabama-handbook",
+    "arkansas-manual",
+    "austin-tx-ecm",
+    "bellevue-wa",
+    "billings-mt",
+    "boise-id",
+    "ca-caltrans-construction",
+    "ca-casqa-municipal",
+    "chesapeake-va",
+    "chicago-il",
+    "columbus-oh",
+    "ct-state",
+    "dallas-tx",
+    "dc-guidebook",
+    "de-wet-ponds-draft",
+    "denver-co",
+    "detroit-mi",
+    "fl-fsesci-tier1",
+    "ga-state",
+    "hawaii-dot-pcbmp",
+    "ia-state-ch1",
+    "idaho-bmp-catalog",
+    "indiana-manual",
+    "kansas-city-marc-bmp",
+    "lawrence-ks",
+    "los-angeles-ca",
+    "ma-state-draft",
+    "maine-manual",
+    "md-state",
+    "miami-fl",
+    "michigan-manual",
+    "minneapolis-mn",
+    "missouri-manual",
+    "mn-state-2008",
+    "ms-state-vol2",
+    "mt-deq8",
+    "nc-state",
+    "ne-ndot-stf",
+    "norfolk-va"
+  ]
+}

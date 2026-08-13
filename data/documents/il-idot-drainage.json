@@ -31,11 +31,6 @@
   },
   "evidence": [
     {
-      "field": "document_metadata.jurisdiction_name",
-      "excerpt": "Illinois",
-      "page_or_section": "Title / header"
-    },
-    {
       "field": "document_metadata.document_title",
       "excerpt": "IDOT Drainage Manual",
       "page_or_section": "Title / header"
@@ -54,14 +49,50 @@
       "field": "design_criteria.approved_bmp_categories",
       "excerpt": "Detention Basin",
       "page_or_section": null
+    },
+    {
+      "field": "practice_mentions.extended_detention",
+      "excerpt": "detention basin, retention basin, aggregate filter and manufactured devices",
+      "page_or_section": "Chapter 8, Section 8-306 Best Management Practices, page 482"
+    },
+    {
+      "field": "practice_mentions.swale",
+      "excerpt": "vegetated swales and buffers",
+      "page_or_section": "Chapter 8, Section 8-306 Best Management Practices, page 482"
+    },
+    {
+      "field": "practice_mentions.wet_pond",
+      "excerpt": "Retention facilities are designed to contain a permanent pool of water.",
+      "page_or_section": "Chapter 12, Section 12-001 Types, page 649"
+    },
+    {
+      "field": "practice_mentions.manufactured_treatment",
+      "excerpt": "manufactured devices",
+      "page_or_section": "Chapter 8, Section 8-306 Best Management Practices, page 482"
+    },
+    {
+      "field": "enrich_notes",
+      "excerpt": "The designer should establish pollutant removal goals then design BMPs that achieve those goals. The U.S. Environmental Protection Agency’s National Menu of Storm Water Best Management Practices ... the Illinois Urban Manual (IEPA/USDA, NRCS; latest version), and IDOT BDE Manual, Chapter 59",
+      "page_or_section": "Chapter 8, Section 8-306, page 482"
+    },
+    {
+      "field": "enrich_notes",
+      "excerpt": "a grade of at least 0.3 percent should be provided on all roadside ditches. Grades in the range of 0.4 percent to 0.6 percent are usually more desirable.",
+      "page_or_section": "Chapter 9, Section 9-302 Considerations, page 501"
+    },
+    {
+      "field": "enrich_notes",
+      "excerpt": "excavation should be limited to areas outside of the channel bank(s) and above the ground water table and/or the normal water elevation in the stream (or pool) (1 foot minimum is desirable).",
+      "page_or_section": "Chapter 3, Section 3-403.01, page 165"
     }
   ],
   "extraction_quality": {
     "confidence": "medium",
     "needs_human_review": true,
-    "review_notes": "Heuristic agency extract from prepared text. IDOT Drainage Manual (July 2011) via PowerDMS",
+    "review_notes": "Heuristic agency extract from prepared text. IDOT Drainage Manual (July 2011) via PowerDMS Pipeline excerpt repair removed 1 unlocated citation(s).",
     "fields_not_found": [
-      "design_criteria.water_quality_volume_method"
+      "design_criteria.water_quality_volume_method",
+      "document_metadata.jurisdiction_name"
     ]
   },
   "source": {
@@ -69,5 +100,51 @@
     "landing_page_url": "https://idot.illinois.gov/doing-business/industry-marketplace/bridges-and-structures-services/specific-scope-of-services.html",
     "retrieved_at": "2026-08-11T17:59:10.621Z",
     "original_filename": "il-idot-drainage.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": null,
+    "max_drawdown_hours": null,
+    "shwt_separation_inches": null,
+    "bioretention_media_depth_min_inches": null,
+    "bioretention_ponding_depth_inches": null,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": null,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": null,
+    "length_to_width_ratio": null,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "extended_detention",
+      "manufactured_treatment",
+      "swale",
+      "wet_pond"
+    ],
+    "enriched_at": "2026-08-13T08:39:04.902Z",
+    "enrich_model": "composer-2.5:run-3dc6aa85-aa6c-469e-8a8d-d71d628ae3e4",
+    "enrich_notes": "Excerpts are IDOT highway drainage policy (Ch 1–2, 6–9, 12) and storm-sewer utility separation, not site SCM sizing. Chapter 12 defines detention vs retention and linear oversizing; BMP list (8-306) points to Illinois Urban Manual and BDE Ch 59 for BMP design. Roadside ditch minimum longitudinal grade 0.3% (0.4–0.6% preferred) applies to ditches, not explicitly to vegetated swales. Floodplain storage excavation cites 1 ft minimum above groundwater/normal pool (3-403.01)—not SHWT separation for infiltration SCMs.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "wqv_depth_inches",
+      "max_drawdown_hours",
+      "shwt_separation_inches",
+      "bioretention_media_depth_min_inches",
+      "bioretention_ponding_depth_inches",
+      "permeable_pavement_storage_depth_inches",
+      "design_infiltration_rate_in_per_hr",
+      "permanent_pool_depth_inches",
+      "ed_drain_time_hours",
+      "length_to_width_ratio",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "swale_longitudinal_slope_percent",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

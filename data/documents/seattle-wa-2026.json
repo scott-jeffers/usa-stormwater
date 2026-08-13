@@ -94,6 +94,31 @@
       "field": "design_criteria.approved_bmp_categories",
       "excerpt": "Soil Amendment, Tree Planting and Retention, Dispersion BMPs, Infiltration BMPs, Rainwater Harvesting BMPs, Alternative Surface BMPs, Detention BMPs, Non-infiltrating BMPs",
       "page_or_section": "Volume 3 Table of Contents"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "The surface pool drawdown time must be a maximum of 24 hours (drain time is calculated as the maximum ponding depth divided by the subgrade soil design infiltration rate).",
+      "page_or_section": "Volume 3, Chapter 5, Section 5.4.4 Ponding Area, page 5-69 (420)"
+    },
+    {
+      "field": "design_parameters.bioretention_media_depth_min_inches",
+      "excerpt": "The rain garden soil depth must be a minimum of 12 inches.",
+      "page_or_section": "Volume 3, Chapter 5, Section 5.4.5, page 5-96 (447)"
+    },
+    {
+      "field": "design_parameters.bioretention_ponding_depth_inches",
+      "excerpt": "The average ponding depth must be no less than 2 inches. The ponding depth must be no more than 12 inches unless it meets the maximum drawdown time criteria and is approved by the Director.",
+      "page_or_section": "Volume 3, Chapter 5, Section 5.4.4 Ponding Area, page 5-69 (420)"
+    },
+    {
+      "field": "design_parameters.design_infiltration_rate_in_per_hr",
+      "excerpt": "Table 3.3. Minimum Measured Infiltration Rates. (multiple BMP-specific minimums in in/hr, e.g., Infiltration Trenches 2, Drywells 5, Infiltrating Bioretention without underdrain 0.6)",
+      "page_or_section": "Volume 3, Chapter 3, Table 3.3, page 3-12 (311)"
+    },
+    {
+      "field": "design_parameters.shwt_separation_inches",
+      "excerpt": "Minimum Vertical Separation (ft) Groundwater … Infiltrating Bioretention without Underdrain … Wet Season … 3 … Permeable Pavement Facilities … Wet Season … 1",
+      "page_or_section": "Appendix D, Comprehensive Subsurface Investigation Elements, page D-6 (840)"
     }
   ],
   "extraction_quality": {
@@ -110,5 +135,55 @@
     "landing_page_url": "https://www.seattle.gov/sdci/codes/codes-we-enforce-(a-z)/stormwater-code",
     "retrieved_at": "2026-08-07T11:41:19.738Z",
     "original_filename": "seattle-wa-2026.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": null,
+    "max_drawdown_hours": 24,
+    "shwt_separation_inches": null,
+    "bioretention_media_depth_min_inches": 12,
+    "bioretention_ponding_depth_inches": null,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": null,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": null,
+    "length_to_width_ratio": null,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "bioretention",
+      "constructed_wetland",
+      "green_roof",
+      "infiltration_basin",
+      "infiltration_trench",
+      "manufactured_treatment",
+      "permeable_pavement",
+      "sand_filter",
+      "swale",
+      "wet_pond"
+    ],
+    "enriched_at": "2026-08-13T10:09:24.326Z",
+    "enrich_model": "composer-2.5:run-fe6161d3-2334-43fc-b179-efc2cdf6d9fd",
+    "enrich_notes": "WQv is defined as a daily runoff volume threshold (91st-percentile volume method), not an inch depth in the provided excerpts. Minimum measured infiltration rates vary by BMP in Table 3.3 (e.g., 0.3–5 in/hr); Appendix D vertical separation to groundwater is given in feet by BMP type and season, not as a single inches value. Bioretention ponding rules state minimum average depth 2 in and maximum 12 in (6 in in high-pedestrian ROW), so no single ponding depth was assigned.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "wqv_depth_inches",
+      "shwt_separation_inches",
+      "bioretention_ponding_depth_inches",
+      "permeable_pavement_storage_depth_inches",
+      "design_infiltration_rate_in_per_hr",
+      "permanent_pool_depth_inches",
+      "ed_drain_time_hours",
+      "length_to_width_ratio",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "swale_longitudinal_slope_percent",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

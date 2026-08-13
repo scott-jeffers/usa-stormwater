@@ -88,6 +88,36 @@
       "field": "design_criteria.approved_bmp_categories",
       "excerpt": "Basic Water Quality Menu",
       "page_or_section": "Section 6.1.1"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "The maximum allowable drawdown time of the water storage area is 24 hours.",
+      "page_or_section": "Appendix C.2.6.1 Minimum Design Requirements (C-77)"
+    },
+    {
+      "field": "design_parameters.bioretention_ponding_depth_inches",
+      "excerpt": "The water storage area, containing the minimum required storage volume, shall be 6-12 inches deep at overflow",
+      "page_or_section": "Appendix C.2.6.1 (C-77)"
+    },
+    {
+      "field": "design_parameters.bioretention_ponding_depth_inches",
+      "excerpt": "The designed depth of ponding (6\" minimum to 12\" maximum) must be considered in light of the drawdown time requirement",
+      "page_or_section": "Appendix C.2.6.1 (C-77)"
+    },
+    {
+      "field": "design_parameters.shwt_separation_inches",
+      "excerpt": "MIN. 1' ABOVE SEASONAL HIGH GROUNDWATER TABLE, SEE SECTION C.2.2.2",
+      "page_or_section": "Appendix C Figure C.2.2.A–D (C-53 to C-56)"
+    },
+    {
+      "field": "design_parameters.shwt_separation_inches",
+      "excerpt": "Where the minimum vertical separation of 1 foot to the seasonal high water table, bedrock, or other impervious layer would not be achieved below bioretention",
+      "page_or_section": "Appendix C bioretention suitability (C-76)"
+    },
+    {
+      "field": "design_parameters.design_infiltration_rate_in_per_hr",
+      "excerpt": "12 inches per hour is the initial uncorrected rate for both standard and high performance BSMs. A corrected design rate of 3 inches per hour is used where the drainage area to the bioretention device exceeds any of the following... A corrected design rate of 6 inches per hour is used if the contributing drainage area does not exceed any of the above-listed areas",
+      "page_or_section": "Section 5.2.1 Design Infiltration Rate – Bioretention and Permeable Pavement (5-48)"
     }
   ],
   "extraction_quality": {
@@ -104,5 +134,55 @@
     "landing_page_url": "https://kingcounty.gov/en/dept/dnrp/nature-recreation/environment/water/stormwater",
     "retrieved_at": "2026-08-10T08:03:22.623Z",
     "original_filename": "king-county-wa.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": null,
+    "max_drawdown_hours": 24,
+    "shwt_separation_inches": 12,
+    "bioretention_media_depth_min_inches": null,
+    "bioretention_ponding_depth_inches": 6,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": null,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": null,
+    "length_to_width_ratio": null,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "bioretention",
+      "constructed_wetland",
+      "extended_detention",
+      "green_roof",
+      "infiltration_basin",
+      "infiltration_trench",
+      "manufactured_treatment",
+      "permeable_pavement",
+      "sand_filter",
+      "swale",
+      "wet_pond"
+    ],
+    "enriched_at": "2026-08-13T08:47:49.266Z",
+    "enrich_model": "composer-2.5:run-8fc44862-bdf0-4ec6-a149-bc968e370e16",
+    "enrich_notes": "King County sizes WQ via Core Requirement #8 and Chapter 6 menus; excerpts emphasize continuous simulation/WWHM rather than a single WQv depth. Bioretention flow-control BMP uses region/soil-specific equivalent storage depths (e.g. 0.6–1.9 in till), distinct from a manual WQv inch depth. Infiltration Section 5.2.1 also requires 3 ft (36 in) or 5 ft (60 in) separation to max wet-season groundwater depending on mounding analysis; Appendix C trench/drywell figures show min 1 ft (12 in) above seasonal high groundwater. BSM corrected design infiltration rates of 3 and 6 in/hr and initial 12 in/hr uncorrected are both explicit for bioretention/permeable pavement LID.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "wqv_depth_inches",
+      "bioretention_media_depth_min_inches",
+      "permeable_pavement_storage_depth_inches",
+      "design_infiltration_rate_in_per_hr",
+      "permanent_pool_depth_inches",
+      "ed_drain_time_hours",
+      "length_to_width_ratio",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "swale_longitudinal_slope_percent",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

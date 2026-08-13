@@ -34,6 +34,71 @@
       "field": "document_metadata.jurisdiction_name",
       "excerpt": "City of Gulfport MS4 follows MDEQ Volume 2",
       "page_or_section": "Coverage note"
+    },
+    {
+      "field": "design_parameters.wqv_depth_inches",
+      "excerpt": "Required volume: first 1.0 inch of runoff or 2.5 inches from impervious areas, whichever is greater.",
+      "page_or_section": "Retention/Detention, Dry Retention Systems, page 196 (4-165)"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "Infiltration devices must be able to completely dewater within 5 days.",
+      "page_or_section": "Infiltration, Length Width Depth and Geometry, page 106 (4-75)"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "Water must then drain to a level 24 inches below the surface of the cell within 48 hours (maximum)",
+      "page_or_section": "Filtration, Bioretention Drainage Considerations, page 138 (4-107)"
+    },
+    {
+      "field": "design_parameters.shwt_separation_inches",
+      "excerpt": "bioretention areas require a minimum depth to groundwater of 2 feet",
+      "page_or_section": "Introduction, page 13 (1-8)"
+    },
+    {
+      "field": "design_parameters.shwt_separation_inches",
+      "excerpt": "provide significant separation distance (2 to 5 feet) from the bottom of the infiltration basin and the seasonally high groundwater table",
+      "page_or_section": "Infiltration Basin Groundwater, page 106 (4-75)"
+    },
+    {
+      "field": "design_parameters.shwt_separation_inches",
+      "excerpt": "the seasonal high water table must be at least 2 ft below the base of the permeable pavement or gravel storage layer",
+      "page_or_section": "PICP Design Criteria, page 115 (4-84)"
+    },
+    {
+      "field": "design_parameters.shwt_separation_inches",
+      "excerpt": "Basin floor should be at least three feet above the seasonal high groundwater table elevation",
+      "page_or_section": "Dry Retention Systems, page 196 (4-165)"
+    },
+    {
+      "field": "design_parameters.design_infiltration_rate_in_per_hr",
+      "excerpt": "underlying soils must have an infiltration rate of 0.52 inch per hour or greater",
+      "page_or_section": "Infiltration Trench Soils/Topography, page 110 (4-79)"
+    },
+    {
+      "field": "design_parameters.design_infiltration_rate_in_per_hr",
+      "excerpt": "If in situ soil permeability is less than 2 inches/hour, the bioretention facility will likely have an underdrain system",
+      "page_or_section": "Filtration, Bioretention Step 6, page 138 (4-107)"
+    },
+    {
+      "field": "design_parameters.ed_drain_time_hours",
+      "excerpt": "Discharge one-half the appropriate treatment volume of stormwater specified above between 24-30 hours following a storm event",
+      "page_or_section": "Dry Retention Systems, page 196 (4-165)"
+    },
+    {
+      "field": "design_parameters.ed_drain_time_hours",
+      "excerpt": "Contain areas of standing water for no more than 3 days following a storm event",
+      "page_or_section": "Dry Retention Systems, page 196 (4-165)"
+    },
+    {
+      "field": "design_parameters.length_to_width_ratio",
+      "excerpt": "Average flow path through the basin should have a length-to-width ratio of at least 3:1",
+      "page_or_section": "Dry Retention Systems, page 196 (4-165)"
+    },
+    {
+      "field": "design_parameters.swale_longitudinal_slope_percent",
+      "excerpt": "Grassed swales should be used on sites with relatively flat slopes of less than 4 percent slope; 1 to 2 percent slope is recommended",
+      "page_or_section": "Infiltration, Grassed Swale Slope, page 96 (4-65)"
     }
   ],
   "extraction_quality": {
@@ -47,5 +112,50 @@
     "landing_page_url": "https://www.mdeq.ms.gov/",
     "retrieved_at": "2026-08-10T10:27:43.524Z",
     "original_filename": "gulfport-ms.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": 1,
+    "max_drawdown_hours": 120,
+    "shwt_separation_inches": 24,
+    "bioretention_media_depth_min_inches": null,
+    "bioretention_ponding_depth_inches": null,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": 0.52,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": 24,
+    "length_to_width_ratio": 3,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": 2,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "bioretention",
+      "constructed_wetland",
+      "extended_detention",
+      "green_roof",
+      "infiltration_basin",
+      "infiltration_trench",
+      "permeable_pavement",
+      "sand_filter",
+      "swale",
+      "wet_pond"
+    ],
+    "enriched_at": "2026-08-13T08:29:24.429Z",
+    "enrich_model": "composer-2.5:run-30cbd341-52a3-444a-8308-96e8ceeaf115",
+    "enrich_notes": "MDEQ Vol. 2 (Gulfport/Jackson pattern). Dry retention WQV: first 1.0 in runoff or 2.5 in from impervious. SHWT separation commonly 2 ft (24 in); dry retention basin floor ≥3 ft (36 in) above SHWT. Bioretention: max 12 h surface ponding, drain ponded volume within 48 h; underdrain if native soil <2 in/hr. Infiltration devices: dewater within 5 days; soils ≥0.52 in/hr for trenches. ED dry retention: discharge half treatment volume in 24–30 h; standing water ≤3 days; L:W ≥3:1. Grassed swales: 1–2% longitudinal slope recommended, <4% max. Green roofs: slopes >20° need retention systems (degrees only in text). PICP/permeable: SHWT ≥2 ft below storage base; slopes >2% need extra design.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "bioretention_media_depth_min_inches",
+      "bioretention_ponding_depth_inches",
+      "permeable_pavement_storage_depth_inches",
+      "permanent_pool_depth_inches",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

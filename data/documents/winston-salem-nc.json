@@ -69,6 +69,31 @@
       "field": "design_criteria.approved_bmp_categories",
       "excerpt": "Stormwater Management Permit / NCDEQ",
       "page_or_section": "Section VI / checklist"
+    },
+    {
+      "field": "practice_mentions.swale",
+      "excerpt": "Identify and label all proposed and existing stormwater conveyance systems including but not limited to storm drainage inlets, catch basins, junction boxes etc. ... (Indicate type and size of conveyance, e.g. storm drainage pipe, grass swale, diversion berms etc.)",
+      "page_or_section": "VI-23 / Checklist 4"
+    },
+    {
+      "field": "practice_mentions.swale",
+      "excerpt": "All ditches and swales shall be indicated on the drawings complete with spot elevations, slopes, typical sections and liner materials.",
+      "page_or_section": "IV-6 / Storm Drain System"
+    },
+    {
+      "field": "practice_mentions.extended_detention",
+      "excerpt": "Acceptable mitigation alternatives include on-site detention to reduce post construction runoff rates and volumes and natural channel stabilization measures to control channel degradation.",
+      "page_or_section": "VI-17 / Checklist 2"
+    },
+    {
+      "field": "design_parameters.ed_drain_time_hours",
+      "excerpt": "Include tables of results comparing pre and post development peak discharges and increases as well as routed discharges and drawdown times for applicable storm events",
+      "page_or_section": "VI-18 / Checklist 3 General Items"
+    },
+    {
+      "field": "design_parameters.shwt_separation_inches",
+      "excerpt": "A sealed geotechnical engineering analysis report including details of subsurface exploration which shows the investigation of the location of the seasonally high groundwater elevation if this elevation is required to be ascertained per the North Carolina Division of Environmental Quality (NCDEQ) Stormwater Design Manual.",
+      "page_or_section": "VI-18 / Checklist 3"
     }
   ],
   "extraction_quality": {
@@ -87,5 +112,49 @@
     "landing_page_url": "https://www.cityofws.org/",
     "retrieved_at": "2026-08-10T08:30:22.061Z",
     "original_filename": "winston-salem-nc.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": null,
+    "max_drawdown_hours": null,
+    "shwt_separation_inches": null,
+    "bioretention_media_depth_min_inches": null,
+    "bioretention_ponding_depth_inches": null,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": null,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": null,
+    "length_to_width_ratio": null,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "extended_detention",
+      "swale"
+    ],
+    "enriched_at": "2026-08-13T10:35:24.561Z",
+    "enrich_model": "composer-2.5:run-01f20c54-b1ae-42ce-baf4-ed83255963a4",
+    "enrich_notes": "Infrastructure Development Standards (April 2020) emphasize permit workflow, storm drain system standards (NCDOT drainage guidelines, 15 in. min pipe), and post-construction checklists referencing City Code Chapter 75 and the NCDEQ Stormwater Design Manual for SCM sizing, geotechnical SHWT, and low-density guidance. No explicit numeric SCM design parameters (WQv depth, media depths, drawdown hours, infiltration rates) appear in the provided excerpts.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "wqv_depth_inches",
+      "max_drawdown_hours",
+      "shwt_separation_inches",
+      "bioretention_media_depth_min_inches",
+      "bioretention_ponding_depth_inches",
+      "permeable_pavement_storage_depth_inches",
+      "design_infiltration_rate_in_per_hr",
+      "permanent_pool_depth_inches",
+      "ed_drain_time_hours",
+      "length_to_width_ratio",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "swale_longitudinal_slope_percent",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

@@ -83,6 +83,41 @@
       "field": "design_criteria.approved_bmp_categories",
       "excerpt": "Detention & Retention / Low Impact Development (LID) Design",
       "page_or_section": "TOC Sections 3.10 / 7.2"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "the soil is shown to allow a maximum draw down time of 48 hours",
+      "page_or_section": "Section 3.10 Detention & Retention, page 17"
+    },
+    {
+      "field": "practice_mentions.bioretention",
+      "excerpt": "Bioretention planters",
+      "page_or_section": "Section 7.2 Low Impact Development (LID) Design, page 33"
+    },
+    {
+      "field": "practice_mentions.green_roof",
+      "excerpt": "Green Roofs",
+      "page_or_section": "Section 7.2 Low Impact Development (LID) Design, page 33"
+    },
+    {
+      "field": "practice_mentions.permeable_pavement",
+      "excerpt": "Porous Pavement/Pervious surfaces",
+      "page_or_section": "Section 7.2 Low Impact Development (LID) Design, page 33"
+    },
+    {
+      "field": "practice_mentions.permeable_pavement",
+      "excerpt": "Green roofs, pervious pavement, gravel, pavers with pervious base and joints shall be considered entirely pervious",
+      "page_or_section": "Section 3.1.1 Onsite Project Storage Method, page 8"
+    },
+    {
+      "field": "practice_mentions.extended_detention",
+      "excerpt": "For projects that include onsite dry detention areas",
+      "page_or_section": "Section 3.1.3 Onsite Computer Model, page 9"
+    },
+    {
+      "field": "practice_mentions.wet_pond",
+      "excerpt": "For onsite detention areas that include a permanent pool, the starting HGL for each pipe segment connected to the pool, is the permanent pool water surface elevation",
+      "page_or_section": "Section 3.1.3 Onsite Computer Model, page 9"
     }
   ],
   "extraction_quality": {
@@ -99,5 +134,51 @@
     "landing_page_url": "https://www.cityofsacramento.gov/utilities",
     "retrieved_at": "2026-08-10T08:10:00.000Z",
     "original_filename": "sacramento-ca.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": null,
+    "max_drawdown_hours": 48,
+    "shwt_separation_inches": null,
+    "bioretention_media_depth_min_inches": null,
+    "bioretention_ponding_depth_inches": null,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": null,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": null,
+    "length_to_width_ratio": null,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "bioretention",
+      "extended_detention",
+      "green_roof",
+      "permeable_pavement",
+      "wet_pond"
+    ],
+    "enriched_at": "2026-08-13T09:59:34.873Z",
+    "enrich_model": "composer-2.5:run-7659777f-debf-4c8b-aecd-b6767d37feab",
+    "enrich_notes": "Stormwater quality sizing and LID detail are delegated to the SQDM (Appendix D worksheet, Chapter 5); this manual sets retention-pond drawdown (48 h), gravel porosity (40%), detention/retention and LID trigger thresholds, and treats green roofs and pervious pavement as fully pervious for impervious-area accounting.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "wqv_depth_inches",
+      "shwt_separation_inches",
+      "bioretention_media_depth_min_inches",
+      "bioretention_ponding_depth_inches",
+      "permeable_pavement_storage_depth_inches",
+      "design_infiltration_rate_in_per_hr",
+      "permanent_pool_depth_inches",
+      "ed_drain_time_hours",
+      "length_to_width_ratio",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "swale_longitudinal_slope_percent",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

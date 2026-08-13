@@ -86,6 +86,46 @@
       "field": "design_criteria.approved_bmp_categories",
       "excerpt": "STORMWATER STORAGE / DETENTION BASINS",
       "page_or_section": "Chapter 4 TOC"
+    },
+    {
+      "field": "design_parameters.wqv_depth_inches",
+      "excerpt": "P = the required precipitation depth of 0.5 inches, converted to feet",
+      "page_or_section": "GRADING & DRAINAGE 4-1.201, page 186"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "positive outflow pipe that can drain the facility within 36 hours",
+      "page_or_section": "STORMWATER STORAGE 4-1.201 Rating 1, page 184"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "The applicant can illustrate the basin(s) will drain within 36 hours",
+      "page_or_section": "STORMWATER STORAGE 4-1.201 Rating 2, page 184"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "Retention of the first flush volume is encouraged, if the stormwater storage facility will be fully evacuated within 36 hours",
+      "page_or_section": "Section 4-1.201 First Flush, page 187"
+    },
+    {
+      "field": "practice_mentions.extended_detention",
+      "excerpt": "Stormwater storage facilities shall be designed primarily as detention facilities.",
+      "page_or_section": "STORMWATER STORAGE 4-1.201 GENERALLY, page 184"
+    },
+    {
+      "field": "practice_mentions.extended_detention",
+      "excerpt": "Rating 1 – Detention Basins",
+      "page_or_section": "Section 4-1.201, page 184"
+    },
+    {
+      "field": "practice_mentions.infiltration_basin",
+      "excerpt": "Rating 2 – Retention Basins Utilizing Basin Floor Percolation",
+      "page_or_section": "Section 4-1.201, page 184"
+    },
+    {
+      "field": "practice_mentions.swale",
+      "excerpt": "Refer to Figure 4-1.3, Typical Cross Section for Roadside Swales",
+      "page_or_section": "Section 4-1.204, page 195"
     }
   ],
   "extraction_quality": {
@@ -102,5 +142,48 @@
     "landing_page_url": "https://www.scottsdaleaz.gov/design/dspm",
     "retrieved_at": "2026-08-10T08:24:40.117Z",
     "original_filename": "scottsdale-az.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": 0.5,
+    "max_drawdown_hours": 36,
+    "shwt_separation_inches": null,
+    "bioretention_media_depth_min_inches": null,
+    "bioretention_ponding_depth_inches": null,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": null,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": null,
+    "length_to_width_ratio": null,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "extended_detention",
+      "infiltration_basin",
+      "swale"
+    ],
+    "enriched_at": "2026-08-13T10:07:15.167Z",
+    "enrich_model": "composer-2.5:run-8d475cd2-d5d3-440b-abf7-04cac73aed1f",
+    "enrich_notes": "First flush WQ storage uses V=CPA with P=0.5 in; retention encouraged if fully evacuated within 36 h (Section 4-1.201). Primary preference is detention basins with positive outflow draining within 36 h; retention via basin-floor percolation is secondary (Rating 2) with same 36 h drain requirement and FCDMC double-ring infiltrometer testing. Full-storage facility drain times stated as generally 12–24 h (design guidance, not ED-specific). Parking-lot storage max water depth 6 in. Outflow invert typically 3 in above basin floor. Broader volume requirements referenced to SRC Chapter 37 (not in excerpt).",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "shwt_separation_inches",
+      "bioretention_media_depth_min_inches",
+      "bioretention_ponding_depth_inches",
+      "permeable_pavement_storage_depth_inches",
+      "design_infiltration_rate_in_per_hr",
+      "permanent_pool_depth_inches",
+      "ed_drain_time_hours",
+      "length_to_width_ratio",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "swale_longitudinal_slope_percent",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

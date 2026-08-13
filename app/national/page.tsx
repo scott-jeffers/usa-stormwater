@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { getNationalReaderIndex } from "@/lib/national";
+import { getAllPracticeSyntheses } from "@/lib/practices";
 import { getPipelineStatusSummary } from "@/lib/pipeline/statusSummary";
 import { NationalDraftExplorer } from "@/components/NationalDraftExplorer";
 import { NationalPipelineProgress } from "@/components/NationalPipelineProgress";
@@ -52,6 +53,7 @@ export default function NationalIndexPage() {
         generatedAt={outline?.generated_at ?? null}
         model={outline?.model ?? null}
         pipelineStatus={pipelineStatus}
+        practiceCount={getAllPracticeSyntheses().length}
         sections={sections.map((s) => ({
           id: s.id,
           title: s.title,

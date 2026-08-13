@@ -56,6 +56,36 @@
       "field": "document_metadata.relationship_to_state_manual",
       "excerpt": "independent city LID / planning guide",
       "page_or_section": "Coverage note"
+    },
+    {
+      "field": "design_parameters.wqv_depth_inches",
+      "excerpt": "1.2 inches of rainfall has been identified as the average depth corresponding to the 85th percentile storm for the Middle Tennessee region.",
+      "page_or_section": "1.2.2.1 Water Quality Protection Volume, page 18"
+    },
+    {
+      "field": "design_parameters.wqv_depth_inches",
+      "excerpt": "WQv = 1.2 * Rv * A / 12",
+      "page_or_section": "1.2.2.1, page 18"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "The water quality treatment requirement can be met by providing a 24-hour drawdown of a portion of WQv in a stormwater pond or wetland system",
+      "page_or_section": "1.2.2.1, page 18"
+    },
+    {
+      "field": "design_parameters.ed_drain_time_hours",
+      "excerpt": "providing a 24-hour drawdown of a portion of WQv in a stormwater pond or wetland system (as described in Chapter 5). Referred to as water quality ED (extended detention)",
+      "page_or_section": "1.2.2.1, page 18"
+    },
+    {
+      "field": "design_parameters.swale_bottom_width_inches",
+      "excerpt": "The bottom width shall be a maximum of 6 feet.",
+      "page_or_section": "1.2.2.2 Volume Reduction Method #3: Enhanced Swales, page 22"
+    },
+    {
+      "field": "design_parameters.swale_longitudinal_slope_percent",
+      "excerpt": "The channel slope shall be 3 percent or less",
+      "page_or_section": "1.2.2.2 Enhanced Swales, page 22"
     }
   ],
   "extraction_quality": {
@@ -72,5 +102,53 @@
     "landing_page_url": "https://www.murfreesborotn.gov/498/Stormwater-Quality-Design",
     "retrieved_at": "2026-08-10T09:39:14.757Z",
     "original_filename": "murfreesboro-tn.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": 1.2,
+    "max_drawdown_hours": 24,
+    "shwt_separation_inches": null,
+    "bioretention_media_depth_min_inches": null,
+    "bioretention_ponding_depth_inches": null,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": null,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": 24,
+    "length_to_width_ratio": null,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": 72,
+    "swale_longitudinal_slope_percent": 3,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "bioretention",
+      "constructed_wetland",
+      "extended_detention",
+      "green_roof",
+      "infiltration_basin",
+      "infiltration_trench",
+      "manufactured_treatment",
+      "permeable_pavement",
+      "sand_filter",
+      "swale",
+      "wet_pond"
+    ],
+    "enriched_at": "2026-08-13T09:18:46.241Z",
+    "enrich_model": "composer-2.5:run-d80ce919-3f36-448c-8a50-591e55160106",
+    "enrich_notes": "WQv rainfall depth 1.2 in (85th percentile, Middle Tennessee); formula WQv = 1.2 * Rv * A / 12. Water quality extended detention: 24-hour drawdown of portion of WQv in pond or wetland (Chapter 5). Enhanced swale volume-reduction criteria: bottom width maximum 6 ft, channel slope 3% or less, WQ storm velocity ≤1.0 ft/s, minimum residence time 5 min. Atlas: SPv = controlled release of 3.1-inch storm over 24 hours (not in provided chapter excerpts). Structural BMP detail referenced to Chapter 5 / separate Structural Controls Manual.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "shwt_separation_inches",
+      "bioretention_media_depth_min_inches",
+      "bioretention_ponding_depth_inches",
+      "permeable_pavement_storage_depth_inches",
+      "design_infiltration_rate_in_per_hr",
+      "permanent_pool_depth_inches",
+      "length_to_width_ratio",
+      "wetland_detention_hours",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

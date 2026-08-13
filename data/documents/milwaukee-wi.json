@@ -61,6 +61,36 @@
       "field": "design_criteria.approved_bmp_categories",
       "excerpt": "green infrastructure / detention",
       "page_or_section": "Chapter 13"
+    },
+    {
+      "field": "design_parameters.wqv_depth_inches",
+      "excerpt": "the development or redevelopment shall include green infrastructure with a detention volume equal to one-half inch multiplied by the area of the net new impervious surface",
+      "page_or_section": "13.302(3)(c)1, page 12"
+    },
+    {
+      "field": "practice_mentions.bioretention",
+      "excerpt": "Rain garden 4.4 gallons per square foot",
+      "page_or_section": "13.303(4)(b) table, page 16"
+    },
+    {
+      "field": "practice_mentions.swale",
+      "excerpt": "Bioswale 7.5 gallons per square foot",
+      "page_or_section": "13.303(4)(b) table, page 16"
+    },
+    {
+      "field": "practice_mentions.permeable_pavement",
+      "excerpt": "Porous pavement 3.0 gallons per square foot",
+      "page_or_section": "13.303(4)(b) table, page 16"
+    },
+    {
+      "field": "practice_mentions.green_roof",
+      "excerpt": "Green roof 1.0 gallon per square foot",
+      "page_or_section": "13.303(4)(b) table, page 16"
+    },
+    {
+      "field": "practice_mentions.constructed_wetland",
+      "excerpt": "Constructed wetlands 8.3 gallons per square foot",
+      "page_or_section": "13.303(4)(b) table, page 16"
     }
   ],
   "extraction_quality": {
@@ -81,5 +111,54 @@
     "landing_page_url": "https://www.mmsd.com/",
     "retrieved_at": "2026-08-10T08:10:00.000Z",
     "original_filename": "milwaukee-wi.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": 0.5,
+    "max_drawdown_hours": null,
+    "shwt_separation_inches": null,
+    "bioretention_media_depth_min_inches": null,
+    "bioretention_ponding_depth_inches": null,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": null,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": null,
+    "length_to_width_ratio": null,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "bioretention",
+      "constructed_wetland",
+      "extended_detention",
+      "green_roof",
+      "infiltration_basin",
+      "permeable_pavement",
+      "swale",
+      "wet_pond"
+    ],
+    "enriched_at": "2026-08-13T09:11:46.745Z",
+    "enrich_model": "composer-2.5:run-3072f7a1-9fa7-4f79-b8e8-7a1b9327b002",
+    "enrich_notes": "MMSD Ch 13 (Jul 2020): GI detention for 5,000 sf to ½ acre net new impervious is 0.5 in × net new impervious area (sec. 13.302(3)(c)). Detention credit table (13.303(4)(b)): Bioswale 7.5 gal/sf, Constructed wetlands 8.3, Green roof 1.0, Porous pavement 3.0, Rain garden 4.4 gal/sf. GI construction per WI DNR post-construction standards URL cited in sec. 13.303(4)(c). Larger sites (≥½ acre new impervious) use allowable release rate or volume match, not the 0.5 in GI rule.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "max_drawdown_hours",
+      "shwt_separation_inches",
+      "bioretention_media_depth_min_inches",
+      "bioretention_ponding_depth_inches",
+      "permeable_pavement_storage_depth_inches",
+      "design_infiltration_rate_in_per_hr",
+      "permanent_pool_depth_inches",
+      "ed_drain_time_hours",
+      "length_to_width_ratio",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "swale_longitudinal_slope_percent",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

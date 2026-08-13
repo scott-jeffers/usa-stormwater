@@ -40,11 +40,6 @@
   },
   "evidence": [
     {
-      "field": "document_metadata.jurisdiction_name",
-      "excerpt": "Delaware",
-      "page_or_section": "Title / header"
-    },
-    {
       "field": "document_metadata.document_title",
       "excerpt": "DelDOT Road Design Manual Ch.6 Drainage and Stormwater Management",
       "page_or_section": "Title / header"
@@ -61,16 +56,52 @@
     },
     {
       "field": "design_criteria.approved_bmp_categories",
-      "excerpt": "Bioretention, Filter Strip",
-      "page_or_section": null
+      "excerpt": "program HEC-RAS is recommended. iii. Filter strips, biofiltration swales, bioretention areas and infiltration ditches are designed using DURMM, DNREC’s green technology computer model based on a combination of computer routines from TR-22 and TR-55. b. Pavement (Storm) Drainag",
+      "page_or_section": "p. 7"
+    },
+    {
+      "field": "design_parameters.ed_drain_time_hours",
+      "excerpt": "it allows the pre-development flow to slowly be released over a 24-hr period into the outfall channel while a permanent pool of water is retained in the pond",
+      "page_or_section": "6.11.3.3 OUTLET HYDRAULICS, page 66"
+    },
+    {
+      "field": "design_parameters.ed_drain_time_hours",
+      "excerpt": "Vs is to be released over a 24-hr period",
+      "page_or_section": "Attachment B Example Problem, page 108"
+    },
+    {
+      "field": "design_parameters.length_to_width_ratio",
+      "excerpt": "assume a trapezoidal shape with a length (in the direction of flow) to width ratio of 2:1 or greater",
+      "page_or_section": "Attachment B Example Problem, page 108"
+    },
+    {
+      "field": "design_parameters.length_to_width_ratio",
+      "excerpt": "desired between length to width of at least 2:1 as selected in the example",
+      "page_or_section": "Attachment B Example Problem, page 109"
+    },
+    {
+      "field": "practice_mentions.bioretention",
+      "excerpt": "Filter strips, biofiltration swales, bioretention areas and infiltration ditches are designed using DURMM",
+      "page_or_section": "6.4 Step 3 Hydraulics, page 7"
+    },
+    {
+      "field": "practice_mentions.swale",
+      "excerpt": "a runoff velocity of 1 fps for the design storm",
+      "page_or_section": "6.12.2 BIOFILTRATION, page 68"
+    },
+    {
+      "field": "practice_mentions.wet_pond",
+      "excerpt": "Wet ponds are to have a forebay to act as a sediment trap and two ten foot (10 ft) wide safety benches",
+      "page_or_section": "6.10.5 / checklist, page 63"
     }
   ],
   "extraction_quality": {
     "confidence": "medium",
     "needs_human_review": true,
-    "review_notes": "Heuristic agency extract from prepared text. DelDOT Road Design Manual Ch.6 Drainage and Stormwater Management",
+    "review_notes": "Heuristic agency extract from prepared text. DelDOT Road Design Manual Ch.6 Drainage and Stormwater Management Pipeline excerpt repair removed 1 unlocated citation(s).",
     "fields_not_found": [
-      "design_criteria.water_quality_volume_method"
+      "design_criteria.water_quality_volume_method",
+      "document_metadata.jurisdiction_name"
     ]
   },
   "source": {
@@ -78,5 +109,51 @@
     "landing_page_url": "https://roaddesignmanual.deldot.gov/index.php/Home",
     "retrieved_at": "2026-08-11T17:59:10.579Z",
     "original_filename": "de-deldot-drainage.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": null,
+    "max_drawdown_hours": null,
+    "shwt_separation_inches": null,
+    "bioretention_media_depth_min_inches": null,
+    "bioretention_ponding_depth_inches": null,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": null,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": 24,
+    "length_to_width_ratio": 2,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "bioretention",
+      "extended_detention",
+      "infiltration_basin",
+      "infiltration_trench",
+      "swale",
+      "wet_pond"
+    ],
+    "enriched_at": "2026-08-13T08:03:52.395Z",
+    "enrich_model": "composer-2.5:run-0a732b03-3a1e-4a45-bec6-fae4610132cf",
+    "enrich_notes": "Chapter 6 defers detailed green-BMP sizing to DNREC DURMM and Green Technology manual; DelDOT excerpts cite practices qualitatively and wet-extended-detention pond procedure (Figure 6-30) with 24-hr release. Filter strips and biofiltration swales are discussed; numeric WQV depth and bioretention media depths are not in these excerpts.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "wqv_depth_inches",
+      "max_drawdown_hours",
+      "shwt_separation_inches",
+      "bioretention_media_depth_min_inches",
+      "bioretention_ponding_depth_inches",
+      "permeable_pavement_storage_depth_inches",
+      "design_infiltration_rate_in_per_hr",
+      "permanent_pool_depth_inches",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "swale_longitudinal_slope_percent",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

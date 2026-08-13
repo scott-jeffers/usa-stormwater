@@ -81,6 +81,31 @@
       "field": "design_criteria.approved_bmp_categories",
       "excerpt": "FLOW CONTROL - DETENTION FACILITIES / INFILTRATION SYSTEMS",
       "page_or_section": "D6 / D7"
+    },
+    {
+      "field": "design_parameters.shwt_separation_inches",
+      "excerpt": "General - The base of all infiltrating BMPs shall be at least 5 feet (with reductions allowed for certain smaller BMPs) above the seasonal high-water mark",
+      "page_or_section": "D5-03.2.3 Step 3, page 187"
+    },
+    {
+      "field": "design_parameters.shwt_separation_inches",
+      "excerpt": "Bioretention – 1 foot or 3-foot minimum separation from the bottom of a bioretention installation, depending upon the drainage area size",
+      "page_or_section": "D5-03.2.3, page 188"
+    },
+    {
+      "field": "design_parameters.shwt_separation_inches",
+      "excerpt": "Permeable Pavement – 1-foot below the bottom of the base course for a permeable pavement (per BMP T5.15 – Infeasibility Criteria in the DOE Manual).",
+      "page_or_section": "D5-03.2.3, page 188"
+    },
+    {
+      "field": "design_parameters.design_infiltration_rate_in_per_hr",
+      "excerpt": "For portions of the site where the measured infiltration rate is less than 0.3 inches per hour, no further infiltration feasibility evaluation is required.",
+      "page_or_section": "D5-03.2.4, page 189"
+    },
+    {
+      "field": "design_parameters.design_infiltration_rate_in_per_hr",
+      "excerpt": "In no case shall the design infiltration rate exceed 10 inches per hour.",
+      "page_or_section": "Appendix D10.2.3, page 310"
     }
   ],
   "extraction_quality": {
@@ -97,5 +122,56 @@
     "landing_page_url": "https://bellevuewa.gov/city-government/departments/utilities/utilities-projects-plans-standards/utilities-codes-and-standards/surface-water-engineering-standards",
     "retrieved_at": "2026-08-10T08:48:28.515Z",
     "original_filename": "bellevue-wa.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": null,
+    "max_drawdown_hours": null,
+    "shwt_separation_inches": 60,
+    "bioretention_media_depth_min_inches": null,
+    "bioretention_ponding_depth_inches": null,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": null,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": null,
+    "length_to_width_ratio": null,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "bioretention",
+      "constructed_wetland",
+      "extended_detention",
+      "green_roof",
+      "infiltration_basin",
+      "infiltration_trench",
+      "permeable_pavement",
+      "sand_filter",
+      "swale",
+      "wet_pond"
+    ],
+    "enriched_at": "2026-08-13T07:34:41.260Z",
+    "enrich_model": "composer-2.5:run-f07fc923-fca2-4e5d-977d-d471a98ef003",
+    "enrich_notes": "Bellevue 2023 standards defer detailed BMP sizing to Ecology DOE Manual (Vol III–V); local text emphasizes infiltration feasibility (PIT testing, correction factors), vertical separation by BMP type (general 5 ft to SHGW with 1–3 ft reductions for bioretention, permeable pavement, downspout infiltration), measured rate <0.3 in/hr infeasibility, design infiltration rate capped at 10 in/hr, rain garden/bioretention minimum 5% of tributary area, and Table 5.4 MR #5–7 BMP applicability.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "wqv_depth_inches",
+      "max_drawdown_hours",
+      "bioretention_media_depth_min_inches",
+      "bioretention_ponding_depth_inches",
+      "permeable_pavement_storage_depth_inches",
+      "design_infiltration_rate_in_per_hr",
+      "permanent_pool_depth_inches",
+      "ed_drain_time_hours",
+      "length_to_width_ratio",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "swale_longitudinal_slope_percent",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

@@ -33,6 +33,36 @@
       "field": "document_metadata.jurisdiction_name",
       "excerpt": "Lafayette — coverage via Shreveport Drainage Manual as LA municipal pattern",
       "page_or_section": "Coverage note"
+    },
+    {
+      "field": "practice_mentions.extended_detention",
+      "excerpt": "Section 9 Stormwater Detention 9-1 ... 9.3 Minimum Requirements for Detention Basin Design",
+      "page_or_section": "Section 9 / page 6 TOC"
+    },
+    {
+      "field": "practice_mentions.bioretention",
+      "excerpt": "rain gardens/bioretention",
+      "page_or_section": "Section 11.2 / page 317"
+    },
+    {
+      "field": "practice_mentions.permeable_pavement",
+      "excerpt": "permeable pavement, green roofs, bioswales/stormwater parks",
+      "page_or_section": "Section 11.2 / page 317"
+    },
+    {
+      "field": "practice_mentions.green_roof",
+      "excerpt": "permeable pavement, green roofs, bioswales/stormwater parks",
+      "page_or_section": "Section 11.2 / page 317"
+    },
+    {
+      "field": "practice_mentions.swale",
+      "excerpt": "Inlets can be placed in roadside ditches, grass or lined swales",
+      "page_or_section": "Section 4.4 / page 78"
+    },
+    {
+      "field": "practice_mentions.infiltration_basin",
+      "excerpt": "subsurface infiltration",
+      "page_or_section": "Section 11.2 / page 317"
     }
   ],
   "extraction_quality": {
@@ -46,5 +76,53 @@
     "landing_page_url": "https://www.lafayettela.gov/",
     "retrieved_at": "2026-08-10T10:35:05.250Z",
     "original_filename": "lafayette-la.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": null,
+    "max_drawdown_hours": null,
+    "shwt_separation_inches": null,
+    "bioretention_media_depth_min_inches": null,
+    "bioretention_ponding_depth_inches": null,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": null,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": null,
+    "length_to_width_ratio": null,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "bioretention",
+      "extended_detention",
+      "green_roof",
+      "infiltration_basin",
+      "permeable_pavement",
+      "swale"
+    ],
+    "enriched_at": "2026-08-13T08:51:00.723Z",
+    "enrich_model": "composer-2.5:run-4fec4055-0812-4d17-a3c0-120c3a058b64",
+    "enrich_notes": "Corpus is largely Shreveport Drainage Design Manual (Lafayette proxy): conveyance, hydrology, detention section TOC, and Section 11 GI narrative. No explicit WQv depth, drawdown, SHWT separation, or dimensional SCM design criteria in supplied excerpts; Section 9 body numeric criteria not included.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "wqv_depth_inches",
+      "max_drawdown_hours",
+      "shwt_separation_inches",
+      "bioretention_media_depth_min_inches",
+      "bioretention_ponding_depth_inches",
+      "permeable_pavement_storage_depth_inches",
+      "design_infiltration_rate_in_per_hr",
+      "permanent_pool_depth_inches",
+      "ed_drain_time_hours",
+      "length_to_width_ratio",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "swale_longitudinal_slope_percent",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

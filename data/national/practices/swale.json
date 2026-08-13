@@ -1,0 +1,129 @@
+{
+  "version": 1,
+  "practice_key": "swale",
+  "practice_label": "Vegetated Swale",
+  "generated_at": "2026-08-13T10:44:13.528Z",
+  "model": "composer-2.5:run-8b3841c2-a1e0-4bba-a283-5e459897d765",
+  "editorial_status": "draft",
+  "national_baseline": "Among Tier A manuals that mention vegetated swales (70 of 76 scanned), swale-specific geometry is thinly numerically specified, while many manuals still report site-wide water-quality and groundwater context that applies jurisdiction-wide rather than as swale facility dimensions. Where jurisdictions state a water-quality volume (WQv) design depth for stormwater sizing, extracted values cluster at 1 inch (n=30, median 1, range 0.37–1.61 inches); Houston and Nebraska DOT cite 0.5 inch, Las Vegas 0.37 inch, Minneapolis and Iowa chapter proxy 1.25 inches, Connecticut 1.3 inches, Georgia and New York and Pennsylvania state 1.2 inches, Dallas and Philadelphia 1.5 inches, Kansas City MARC 1.37 inches, Portland 1.61 inches, and Denver 0.6 inch. Site-wide maximum ponding or drawdown times where reported show mode 72 hours and median 48 hours (n=36, range 4–120 hours), with frequent values of 48 and 72 hours and outliers including Florida FSESCI Tier 1 at 4 hours and Mississippi Vol. 2 at 120 hours. Seasonal high water table (SHWT) separation where stated is often 24 inches (mode, n=36) with median 36 inches and range 12–120 inches. Swale bottom width appears in only eight manuals, all at 24 inches. Longitudinal slope is reported in ten manuals with mode 0.5 percent, median 2.25 percent, and range 0.5–5 percent (New Jersey chapter proxy lists 10 percent). Committee discussion should treat WQv depth, drawdown, and SHWT as jurisdictional baseline context unless a manual explicitly ties those numbers to swale design; for swale geometry itself, bottom width at 24 inches is the only narrow numeric consensus, and slope baseline is not yet stable given low n and spread from 0.5 to 5 percent.",
+  "regional_modifiers": [
+    {
+      "id": "cold_climate",
+      "title": "Cold climate and slower drawdown",
+      "text": "Northern and cold-climate sources sometimes allow longer drawdown or alternate infiltration expectations in frozen soils; Minnesota state (48 hours), Maine (48 hours), Montana Billings and DEQ-8 (72 hours drawdown; SHWT 36 and 12 inches respectively), and Vermont (48 hours drawdown, 36 inches SHWT, 24-inch bottom width, 2 percent slope) illustrate mixed site-wide timing and separation without swale-only depth specs. WQv depth where given remains near 1 inch in Minneapolis (1.25), Maine, Michigan manuals, and Vermont.",
+      "states": [
+        "ME",
+        "MI",
+        "MN",
+        "MT",
+        "VT"
+      ],
+      "citation_slugs": [
+        "maine-manual",
+        "michigan-manual",
+        "minneapolis-mn",
+        "mn-state-2008",
+        "billings-mt",
+        "mt-deq8",
+        "vt-state"
+      ]
+    },
+    {
+      "id": "coastal_high_wt",
+      "title": "Coastal and high water table",
+      "text": "Coastal and humid jurisdictions often specify shorter drawdown or tighter SHWT separation. Chesapeake, Virginia cites 48-hour drawdown and 12-inch SHWT separation alongside 0.5 percent swale slope; Norfolk and Baltimore report 1-inch WQv context. Raleigh, North Carolina uses 12-inch SHWT separation, 5 percent longitudinal slope, and 24-inch bottom width. Maine lists 12-inch SHWT separation. New Jersey chapter proxy cites 12-inch separation and 10 percent slope. These values reflect site-wide constraints more than a uniform swale cross-section standard.",
+      "states": [
+        "VA",
+        "MD",
+        "NC",
+        "ME",
+        "NJ"
+      ],
+      "citation_slugs": [
+        "chesapeake-va",
+        "norfolk-va",
+        "baltimore-md",
+        "raleigh-nc",
+        "maine-manual",
+        "nj-state"
+      ]
+    },
+    {
+      "id": "karst_edwards",
+      "title": "Karst and Edwards-related guidance",
+      "text": "Texas Edwards RG-348 reports 48-inch SHWT separation and 2.5 percent swale longitudinal slope within the matrix; Houston and Dallas provide WQv context at 0.5 and 1.5 inches and Houston specifies 24-inch bottom width with 48-hour drawdown and 48-inch separation. Karst-specific swale depth is not numerically established in the Tier A extract beyond these site-wide and slope entries.",
+      "states": [
+        "TX"
+      ],
+      "citation_slugs": [
+        "tx-edwards-rg348",
+        "houston-tx",
+        "dallas-tx"
+      ]
+    },
+    {
+      "id": "arid_west",
+      "title": "Arid and semi-arid West",
+      "text": "Arid jurisdictions show wider spread in site-wide WQv depth and drawdown. Las Vegas lists 0.37-inch WQv depth, 72-hour drawdown, 24-inch SHWT separation, and 1 percent swale slope. Flagstaff uses 1-inch WQv context and 24-hour drawdown. Denver cites 0.6-inch WQv depth. Albuquerque GSI specifies 96-hour drawdown and 36-inch SHWT separation. Boise and Idaho BMP catalog pair 48- and 72-hour drawdown with 36-inch separation and 2 percent slope where swale slope is given.",
+      "states": [
+        "NV",
+        "AZ",
+        "CO",
+        "NM",
+        "ID"
+      ],
+      "citation_slugs": [
+        "las-vegas-nv",
+        "flagstaff-az",
+        "denver-co",
+        "albuquerque-nm-gsi",
+        "boise-id",
+        "idaho-bmp-catalog"
+      ]
+    }
+  ],
+  "open_issues": "Swale-specific numeric design is sparse: bottom width has n=8 (all 24 inches) and longitudinal slope n=10 (mode 0.5 percent, median 2.25 percent, range 0.5–5 percent, with one chapter proxy at 10 percent), so neither slope nor side slopes, depth of flow, vegetation, or check dam spacing has an established national numeric baseline in Tier A extracts. WQv depth (n=30, missing 45), max drawdown hours (n=36, missing 38), and SHWT separation (n=36, missing 38) are predominantly site-wide fields; their application to vegetated swales versus ponds or bioretention is often unstated. Drawdown ranges from 4 hours (Florida FSESCI Tier 1) to 120 hours (Mississippi Vol. 2), and SHWT separation from 12 inches (Chesapeake, Raleigh, Maine, Montana DEQ-8, New Jersey proxy) to 120 inches (San Diego), limiting a single temperate default without regional qualification. No matrix field captures swale side slope, Manning n, length, or treatment volume credited specifically to swales.",
+  "matrix_summary": "Tier A coverage: 70 of 76 manuals mention vegetated swales. Site-wide WQv depth: n=30, mode 1 inch, median 1 inch, range 0.37–1.61 inches. Site-wide max drawdown: n=36, mode 72 hours, median 48 hours, range 4–120 hours. Site-wide SHWT separation: n=36, mode 24 inches, median 36 inches, range 12–120 inches. Swale bottom width: n=8, mode and sole value 24 inches. Swale longitudinal slope: n=10, mode 0.5 percent, median 2.25 percent, range 0.5–5 percent (plus NJ chapter proxy 10 percent). Practice-specific consensus is strongest for 24-inch bottom width; slope and hydrologic context remain fragmented.",
+  "supporting_slugs": [
+    "ak-state",
+    "alabama-handbook",
+    "albuquerque-nm-gsi",
+    "arkansas-manual",
+    "bellevue-wa",
+    "billings-mt",
+    "boise-id",
+    "boston-ma",
+    "ca-caltrans-construction",
+    "ca-casqa-municipal",
+    "charlotte-nc",
+    "chesapeake-va",
+    "chicago-il",
+    "columbus-oh",
+    "ct-state",
+    "dallas-tx",
+    "dc-guidebook",
+    "denver-co",
+    "detroit-mi",
+    "fl-fsesci-tier1",
+    "flagstaff-az",
+    "ga-state",
+    "hawaii-dot-pcbmp",
+    "houston-tx",
+    "ia-state-ch1",
+    "idaho-bmp-catalog",
+    "indiana-manual",
+    "kansas-city-marc-bmp",
+    "kentucky-bmp",
+    "las-vegas-nv",
+    "lawrence-ks",
+    "los-angeles-ca",
+    "ma-state-draft",
+    "maine-manual",
+    "md-state",
+    "miami-fl",
+    "minneapolis-mn",
+    "missouri-manual",
+    "mn-state-2008",
+    "ms-state-vol2"
+  ]
+}

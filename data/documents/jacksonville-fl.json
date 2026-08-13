@@ -81,6 +81,46 @@
       "field": "design_criteria.approved_bmp_categories",
       "excerpt": "wet detention",
       "page_or_section": "Table 3.7-1"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "Standing water must be recovered within 72 hours.",
+      "page_or_section": "Section 4.3 / page 109"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "All standing water must be recovered through surface discharge or percolation in less than 72 hours under SHWL conditions",
+      "page_or_section": "Section 4.3 / page 113"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "Surface ponding area must be recovered within 72 hours.",
+      "page_or_section": "Section 4.4 / page 125"
+    },
+    {
+      "field": "design_parameters.shwt_separation_inches",
+      "excerpt": "Shallow Water Table: To receive pollutant-load-reduction credits, the SHWL should be at least 6 inches below the bottom of the grassed conveyance swale.",
+      "page_or_section": "Section 4.3 / page 109"
+    },
+    {
+      "field": "design_parameters.shwt_separation_inches",
+      "excerpt": "Shallow Water Table: SHWL should be a minimum of 6 inches below the bottom of the planting media or nutrient- sorption layer.",
+      "page_or_section": "Section 4.4 / page 125"
+    },
+    {
+      "field": "design_parameters.shwt_separation_inches",
+      "excerpt": "SHWL – Must be at least 0.5 foot below the bottom of the surface ponding area.",
+      "page_or_section": "Section 4.4.2 / page 127"
+    },
+    {
+      "field": "design_parameters.swale_bottom_width_inches",
+      "excerpt": "Recommended bottom width of 2 to 8 feet.",
+      "page_or_section": "Section 4.3 / page 109"
+    },
+    {
+      "field": "design_parameters.swale_bottom_width_inches",
+      "excerpt": "the swale should have an approximately trapezoidal shape with a bottom width of at least 2 feet to allow mowing.",
+      "page_or_section": "Section 4.3 Sizing / page 112"
     }
   ],
   "extraction_quality": {
@@ -98,5 +138,49 @@
     "landing_page_url": "https://www.jacksonville.gov/",
     "retrieved_at": "2026-08-10T08:10:00.000Z",
     "original_filename": "jacksonville-fl.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": null,
+    "max_drawdown_hours": 72,
+    "shwt_separation_inches": 6,
+    "bioretention_media_depth_min_inches": null,
+    "bioretention_ponding_depth_inches": null,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": null,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": null,
+    "length_to_width_ratio": null,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": 24,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "bioretention",
+      "green_roof",
+      "permeable_pavement",
+      "swale",
+      "wet_pond"
+    ],
+    "enriched_at": "2026-08-13T08:42:43.157Z",
+    "enrich_model": "composer-2.5:run-9ee1324c-85fc-47ce-8576-49e70660ec40",
+    "enrich_notes": "LDPM Vol 2 (Jan 2026) Section 4.3 grassed swales: 72 h recovery, 2–8 ft bottom width (min 2 ft), 0.5–3% longitudinal slope, design infiltration ≤ half field rate (ASTM D3385); SHWL 6 in below swale bottom for WQ credits; BMPTRAINS assumes SHWL ≥24 in below swale bottom. Section 4.4 shallow bioretention: 72 h ponding recovery, SHWL ≥6 in below planting media, ≥0.5 ft below surface ponding area; tributary typically ≤2 ac. Section 4.5 pervious pavement: maintenance if surface rate <1.5 in/hr. Section 3.8 underdrain if groundwater <20 in below gutter/EOP. Wet detention design example uses 1 in and 2.5 in treatment depths and residence time in days—not city Table 3.7-1 WQv in corpus. Pond infiltration design uses safety factor 2 on double-ring tests.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "wqv_depth_inches",
+      "bioretention_media_depth_min_inches",
+      "bioretention_ponding_depth_inches",
+      "permeable_pavement_storage_depth_inches",
+      "design_infiltration_rate_in_per_hr",
+      "permanent_pool_depth_inches",
+      "ed_drain_time_hours",
+      "length_to_width_ratio",
+      "wetland_detention_hours",
+      "swale_longitudinal_slope_percent",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

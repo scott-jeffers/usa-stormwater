@@ -164,6 +164,36 @@
       "field": "design_criteria.approved_bmp_categories",
       "excerpt": "Dry Detention Requirements shall meet the requirements of the Virginia Stormwater Management BMP Clearinghouse... Wet Detention Requirements shall meet the requirements of the Virginia Stormwater Management BMP Clearinghouse",
       "page_or_section": "Detention requirements 19–20"
+    },
+    {
+      "field": "design_parameters.wqv_depth_inches",
+      "excerpt": "Removal of TP by Runoff Reduction (RR, as %) (based upon 1 inch of rainfall)",
+      "page_or_section": "Table 4.1, page 5-18"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "detention facilities must be designed to return to a water surface elevation that will provide 90% of the design event storage capacity within 48 hours",
+      "page_or_section": "5.4 STORMWATER MANAGEMENT, page 5-13"
+    },
+    {
+      "field": "design_parameters.shwt_separation_inches",
+      "excerpt": "projected seasonal high water table will be a minimum of 12\" below proposed flow line",
+      "page_or_section": "5.4 Dry Detention Requirements e., page 5-14"
+    },
+    {
+      "field": "design_parameters.permanent_pool_depth_inches",
+      "excerpt": "Minimum normal water depth for public facilities shall be 8 feet",
+      "page_or_section": "5.4 Wet Detention Requirements b., page 5-15"
+    },
+    {
+      "field": "design_parameters.ed_drain_time_hours",
+      "excerpt": "provide 90% of the design event storage capacity within 48 hours of the beginning of a 24 hour SCS 10-year storm",
+      "page_or_section": "5.4 STORMWATER MANAGEMENT item 3, page 5-13"
+    },
+    {
+      "field": "design_parameters.swale_longitudinal_slope_percent",
+      "excerpt": "minimum grade of .5%",
+      "page_or_section": "5.3 C. Ditches, Channels, & Swales item 3, page 5-11"
     }
   ],
   "extraction_quality": {
@@ -179,5 +209,51 @@
     "landing_page_url": "https://www.cityofchesapeake.net/",
     "retrieved_at": "2026-08-08T10:27:34.715Z",
     "original_filename": "chesapeake-va.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": 1,
+    "max_drawdown_hours": 48,
+    "shwt_separation_inches": 12,
+    "bioretention_media_depth_min_inches": null,
+    "bioretention_ponding_depth_inches": null,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": null,
+    "permanent_pool_depth_inches": 96,
+    "ed_drain_time_hours": 48,
+    "length_to_width_ratio": null,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": 0.5,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "bioretention",
+      "constructed_wetland",
+      "extended_detention",
+      "green_roof",
+      "infiltration_basin",
+      "manufactured_treatment",
+      "permeable_pavement",
+      "sand_filter",
+      "swale",
+      "wet_pond"
+    ],
+    "enriched_at": "2026-08-13T07:51:12.933Z",
+    "enrich_model": "composer-2.5:run-22a68933-0fd9-4e7c-8d1a-ef5ae882555d",
+    "enrich_notes": "Chapter 5 (Revised 12/16) defers BMP sizing to Virginia Stormwater Management BMP Clearinghouse and VRRM spreadsheets; city adds wet/dry detention geometry, 48-hour detention recovery, and coastal-plain wet-pond removal adjustments in Table 4.1 footnotes. No proprietary/manufactured BMPs approved at time of text. Grass-channel dry detention requires 12 in SHWT clearance below flow line.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "bioretention_media_depth_min_inches",
+      "bioretention_ponding_depth_inches",
+      "permeable_pavement_storage_depth_inches",
+      "design_infiltration_rate_in_per_hr",
+      "length_to_width_ratio",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

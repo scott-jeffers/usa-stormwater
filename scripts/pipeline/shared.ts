@@ -30,6 +30,11 @@ export function shouldRunStage(
   return status === "pending" || status === "failed";
 }
 
+/** Dead PDF URLs should not retry every overnight pass. */
+export function isPermanentHttpError(message: string): boolean {
+  return /\bHTTP 404\b/i.test(message) || /\bHTTP 410\b/i.test(message);
+}
+
 export async function pipelineDelay(): Promise<void> {
   loadEnvLocal();
   const ms = Number(process.env.PIPELINE_DELAY_MS ?? "2000");

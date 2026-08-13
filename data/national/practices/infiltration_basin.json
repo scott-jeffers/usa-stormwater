@@ -1,0 +1,143 @@
+{
+  "version": 1,
+  "practice_key": "infiltration_basin",
+  "practice_label": "Infiltration Basin",
+  "generated_at": "2026-08-13T10:41:49.211Z",
+  "model": "composer-2.5:run-122b4001-b77c-4810-b9b6-c99e21ce26fc",
+  "editorial_status": "draft",
+  "national_baseline": "Among Tier A manuals that mention infiltration basins (56 of 76 scanned), numeric guidance is sparse for facility-specific design infiltration rates but more common for jurisdiction-level water-quality volume (WQv) depth, drawdown time, and seasonal high water table (SHWT) separation used when sizing and siting infiltration. For temperate / Type II–ish contexts, extracted site-wide WQv depth centers on 1 inch (n=30, mode=1, median=1, range 0.37–1.61 in.). Site-wide maximum drawdown time most often appears as 72 hours (n=36, mode=72, median=48, range 4–120 hr), with many manuals also specifying 48 or 24 hours. Site-wide SHWT separation commonly lists 24 inches (n=36, mode=24, median=36, range 12–120 in.), with 36 inches also frequent. Where manuals state a design infiltration rate for the practice, the mode and median are both 0.5 in/hr (n=15, range 0.01–2.41 in/hr); this baseline is not yet established numerically across the full mention set because 40 of 56 mentioning manuals lack an extracted rate. Committee discussion should treat WQv depth, drawdown, and SHWT values as jurisdiction sizing and siting context rather than dimensional facility specs for the basin alone.",
+  "regional_modifiers": [
+    {
+      "id": "cold_climate",
+      "title": "Cold climate and frost",
+      "text": "Northern and cold-region manuals often pair 48-hour drawdown with 36-inch SHWT separation and WQv depths near 1–1.25 inches. Minnesota (minneapolis-mn, mn-state-2008), Maine (maine-manual), Vermont (vt-state), Montana (billings-mt, mt-deq8), and Idaho (boise-id, idaho-bmp-catalog) appear in the matrix with these combinations; drawdown spans 24–72 hours and SHWT 12–60 inches, so cold-climate committees should not assume a single national drawdown or separation without local manual review.",
+      "states": [
+        "MN",
+        "ME",
+        "VT",
+        "MT",
+        "ID",
+        "WA"
+      ],
+      "citation_slugs": [
+        "minneapolis-mn",
+        "mn-state-2008",
+        "maine-manual",
+        "vt-state",
+        "billings-mt",
+        "mt-deq8",
+        "boise-id",
+        "idaho-bmp-catalog",
+        "wa-state-western",
+        "bellevue-wa"
+      ]
+    },
+    {
+      "id": "coastal_high_wt",
+      "title": "Coastal and high water table",
+      "text": "Coastal and low-lying jurisdictions sometimes specify shorter SHWT separation (12 inches) or longer drawdown allowances. Chesapeake, VA (chesapeake-va) lists 12-inch SHWT separation with 48-hour drawdown; Raleigh, NC (raleigh-nc) and New Jersey proxy (nj-state) show 12-inch separation; Maine (maine-manual) also lists 12 inches. Conversely, Bellevue and western Washington (bellevue-wa, wa-state-western) require 60-inch separation. Mississippi (ms-state-vol2) allows up to 120-hour drawdown. High water table and tidal influence drive wide separation range (12–120 in.) in the matrix.",
+      "states": [
+        "VA",
+        "NC",
+        "NJ",
+        "ME",
+        "WA",
+        "MS",
+        "MD",
+        "DC"
+      ],
+      "citation_slugs": [
+        "chesapeake-va",
+        "raleigh-nc",
+        "nj-state",
+        "maine-manual",
+        "bellevue-wa",
+        "wa-state-western",
+        "ms-state-vol2",
+        "md-state",
+        "dc-guidebook",
+        "norfolk-va"
+      ]
+    },
+    {
+      "id": "karst",
+      "title": "Karst and vulnerable groundwater",
+      "text": "Karst-sensitive guidance in the matrix includes Texas Edwards-related separation (tx-edwards-rg348: 48-inch SHWT) and wide scatter in design infiltration rates where stated. Pennsylvania and mid-Atlantic entries often use 24-inch SHWT (pa-state, philadelphia-pa) with 72-hour drawdown. Committees in karst areas should weigh separation and infiltration testing requirements from state manuals rather than the 24-inch mode alone.",
+      "states": [
+        "TX",
+        "PA",
+        "VA",
+        "WV"
+      ],
+      "citation_slugs": [
+        "tx-edwards-rg348",
+        "pa-state",
+        "philadelphia-pa",
+        "va-state",
+        "west-virginia-manual",
+        "houston-tx"
+      ]
+    },
+    {
+      "id": "arid",
+      "title": "Arid and semi-arid",
+      "text": "Arid jurisdictions show lower WQv depth and variable drawdown. Las Vegas, NV (las-vegas-nv) reports 0.37-inch WQv depth and 72-hour drawdown with 24-inch SHWT separation. Flagstaff, AZ (flagstaff-az) specifies 24-hour drawdown with 1-inch WQv. Denver, CO (denver-co) lists 0.6-inch WQv. Albuquerque GSI (albuquerque-nm-gsi) uses 96-hour drawdown and 36-inch separation. Design infiltration rate extraction remains thin (n=15 overall); arid sites should not extrapolate the 0.5 in/hr mode without local soils data.",
+      "states": [
+        "NV",
+        "AZ",
+        "CO",
+        "NM"
+      ],
+      "citation_slugs": [
+        "las-vegas-nv",
+        "flagstaff-az",
+        "denver-co",
+        "albuquerque-nm-gsi"
+      ]
+    }
+  ],
+  "open_issues": "Nearly half of Tier A manuals lack extracted site-wide WQv depth (45 missing), drawdown (38 missing), or SHWT separation (38 missing), so national numeric consensus is incomplete. Design infiltration rate for infiltration basins is reported in only 15 manuals (40 missing among the 56 that mention the practice), with extreme outliers (0.01–2.41 in/hr) that may reflect chapter proxies, conservative defaults, or regional soil assumptions rather than a single design value. Site-wide WQv, drawdown, and SHWT fields are jurisdiction sizing context—not confirmed as infiltration basin facility dimensions—so synthesis cannot yet tie these numbers to internal ponding depth, freeboard, or bottom area without manual-specific interpretation. Florida (fl-fsesci-tier1) lists 4-hour drawdown versus a 72-hour mode elsewhere, highlighting protocol differences (e.g., wet detention vs infiltration framing) that Tier A extraction may not fully disaggregate. Committee discussion should flag where chapter_proxy slugs apply and where practice-specific criteria need re-scoping in source manuals.",
+  "matrix_summary": "For infiltration basin (Tier A, 56/76 manuals mention the practice): site-wide WQv depth n=30, mode 1 in., median 1 in., range 0.37–1.61 in.; max drawdown n=36, mode 72 hr, median 48 hr, range 4–120 hr; SHWT separation n=36, mode 24 in., median 36 in., range 12–120 in.; design infiltration rate n=15, mode and median 0.5 in/hr, range 0.01–2.41 in/hr. Modes summarize extracted values, not an adopted national standard.",
+  "supporting_slugs": [
+    "ak-state",
+    "arkansas-manual",
+    "austin-tx-ecm",
+    "bellevue-wa",
+    "billings-mt",
+    "boise-id",
+    "boston-ma",
+    "ca-caltrans-construction",
+    "ca-casqa-municipal",
+    "chesapeake-va",
+    "chicago-il",
+    "columbus-oh",
+    "ct-state",
+    "dc-guidebook",
+    "detroit-mi",
+    "flagstaff-az",
+    "ga-state",
+    "hawaii-dot-pcbmp",
+    "ia-state-ch1",
+    "idaho-bmp-catalog",
+    "indiana-manual",
+    "kansas-city-marc-bmp",
+    "las-vegas-nv",
+    "los-angeles-ca",
+    "ma-state-draft",
+    "maine-manual",
+    "md-state",
+    "miami-fl",
+    "michigan-manual",
+    "missouri-manual",
+    "mn-state-2008",
+    "ms-state-vol2",
+    "mt-deq8",
+    "nc-state",
+    "ne-ndot-stf",
+    "nh-state",
+    "nj-state",
+    "norfolk-va",
+    "ny-bluebook",
+    "ny-state"
+  ]
+}

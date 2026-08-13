@@ -92,6 +92,36 @@
       "field": "design_criteria.approved_bmp_categories",
       "excerpt": "5.3.1 DETENTION BASINS ... 5.3.2 INFILTRATION BMPS ... 5.3.3 FLOW THROUGH BMPS",
       "page_or_section": "Section 5.3, Pages 5-5 to 5-7"
+    },
+    {
+      "field": "design_parameters.shwt_separation_inches",
+      "excerpt": "Are separated from seasonal high groundwater levels by greater than 5 feet",
+      "page_or_section": "5.3.2 INFILTRATION BMPS, Page 5-6"
+    },
+    {
+      "field": "design_parameters.design_infiltration_rate_in_per_hr",
+      "excerpt": "Located on sites with soils that drain freely and infiltrate 1 inches per hour or greater",
+      "page_or_section": "5.3.2 INFILTRATION BMPS, Page 5-6"
+    },
+    {
+      "field": "design_parameters.length_to_width_ratio",
+      "excerpt": "Minimum length to width ratio is 3:1 as measured along the flow path from inlet to outlet",
+      "page_or_section": "5.3.1 DETENTION BASINS, Page 5-5"
+    },
+    {
+      "field": "practice_mentions.extended_detention",
+      "excerpt": "Dry Detention Basins (w/Extended Detention)",
+      "page_or_section": "PCSMP Checklist SM-05, Section 5.2.2"
+    },
+    {
+      "field": "practice_mentions.manufactured_treatment",
+      "excerpt": "Flow Through BMPs are defined as proprietary mechanical treatment devices",
+      "page_or_section": "5.3.3 FLOW THROUGH BMPS, Page 5-6"
+    },
+    {
+      "field": "practice_mentions.swale",
+      "excerpt": "For above ground infiltration facilities (e.g., swales, basins)",
+      "page_or_section": "Page 3-14"
     }
   ],
   "extraction_quality": {
@@ -108,5 +138,50 @@
     "landing_page_url": "https://www.bismarcknd.gov/",
     "retrieved_at": "2026-08-08T01:30:00.000Z",
     "original_filename": "bismarck-nd.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": null,
+    "max_drawdown_hours": null,
+    "shwt_separation_inches": 60,
+    "bioretention_media_depth_min_inches": null,
+    "bioretention_ponding_depth_inches": null,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": 1,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": null,
+    "length_to_width_ratio": 3,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "extended_detention",
+      "infiltration_basin",
+      "manufactured_treatment",
+      "sand_filter",
+      "swale",
+      "wet_pond"
+    ],
+    "enriched_at": "2026-08-13T07:37:48.469Z",
+    "enrich_model": "composer-2.5:run-8415b34d-2458-4926-b50a-83f3138eb81f",
+    "enrich_notes": "Vwq sizing is in Appendix Reference 5-2 (not excerpted). Redevelopment 0.5 in / 80% TSS is atlas context only—not in corpus. Infiltration sites require ≥1 in/hr and >5 ft to SHWT; filtration/underdrain when <1 in/hr or within 5 ft of SHWT. WQ detention basins: 2 in min orifice, 3:1 L:W, forebay ≥10% area and 1 ft dead storage (dry). Drawdown compliance uses Reference 5-1/5-3; endpoint defined as within 3 in of lowest outlet. Flow-through devices need manufacturer certification vs Table 5-1.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "wqv_depth_inches",
+      "max_drawdown_hours",
+      "bioretention_media_depth_min_inches",
+      "bioretention_ponding_depth_inches",
+      "permeable_pavement_storage_depth_inches",
+      "permanent_pool_depth_inches",
+      "ed_drain_time_hours",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "swale_longitudinal_slope_percent",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

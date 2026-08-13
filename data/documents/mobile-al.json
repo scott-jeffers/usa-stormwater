@@ -74,6 +74,66 @@
       "field": "design_criteria.approved_bmp_categories",
       "excerpt": "and design professionals. Chapter 4. Nonstructural LID‐WQPs (Guidance) − Chapter 4 explains the main categories of nonstructural LID‐WQPs and presents those that can be applied on land developments in the City. Chapter 5. Reserved Chapter 6. Structural LID‐WQP Design (Regulato",
       "page_or_section": "p. 10"
+    },
+    {
+      "field": "design_parameters.wqv_depth_inches",
+      "excerpt": "Water quality storm is, in the City of Mobile, Alabama, 1.2 inches over a 24‐hour period preceded by a 72‐hour antecedent dry period.",
+      "page_or_section": "Appendix A, Page A-3"
+    },
+    {
+      "field": "design_parameters.wqv_depth_inches",
+      "excerpt": "P = rainfall for the water quality storm (P = 1.2 inches)",
+      "page_or_section": "6.5 Bioretention, Page 6.5-13"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "the design must ensure that the WQV is still discharged from the bioretention area within 48 hours",
+      "page_or_section": "6.5 Bioretention, Page 6.5-7"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "Should completely drain within 48 hours after a rainfall event",
+      "page_or_section": "6.9 Infiltration Basin, Page 6.9-1"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "Permeable pavement systems should be designed to completely drain within 48 hours",
+      "page_or_section": "6.10 Permeable Pavement, Page 6.10-1"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "The soil shall have an infiltration rate between 0.5 in/hr and 11 in/hr to support full drawdown within 48 hours after a storm event",
+      "page_or_section": "6.8 Dry Bioswale, Page 6.8-7"
+    },
+    {
+      "field": "design_parameters.permeable_pavement_storage_depth_inches",
+      "excerpt": "The total thickness of the reservoir layer ... shall not be less than nine (9) inches.",
+      "page_or_section": "6.10 Permeable Pavement, Page 6.10-10"
+    },
+    {
+      "field": "design_parameters.swale_longitudinal_slope_percent",
+      "excerpt": "Slope must not exceed 4% (1% to 2% is recommended).",
+      "page_or_section": "6.7 Wet Bioswale, Page 6.7-10"
+    },
+    {
+      "field": "practice_mentions.bioretention",
+      "excerpt": "Bioretention areas are LID‐WQPs that capture and infiltrate (or temporarily store) the water quality volume (WQV)",
+      "page_or_section": "6.5 Bioretention, Page 6.5-2"
+    },
+    {
+      "field": "practice_mentions.swale",
+      "excerpt": "Maximum ponding in the wet bioswale is 18 inches.",
+      "page_or_section": "6.7 Wet Bioswale, Page 6.7-10"
+    },
+    {
+      "field": "practice_mentions.constructed_wetland",
+      "excerpt": "Engineered wetlands cannot be used for extended detention",
+      "page_or_section": "6.11 Engineered Wetland, Page 6.11-3"
+    },
+    {
+      "field": "practice_mentions.manufactured_treatment",
+      "excerpt": "LID‐MTDs ... Varies by MTD",
+      "page_or_section": "Table 6.4, Page 6-5"
     }
   ],
   "extraction_quality": {
@@ -91,5 +151,49 @@
     "landing_page_url": "https://mapformobile.org/swm/",
     "retrieved_at": "2026-08-10T09:29:55.327Z",
     "original_filename": "mobile-al.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": 1.2,
+    "max_drawdown_hours": 48,
+    "shwt_separation_inches": null,
+    "bioretention_media_depth_min_inches": null,
+    "bioretention_ponding_depth_inches": null,
+    "permeable_pavement_storage_depth_inches": 9,
+    "design_infiltration_rate_in_per_hr": null,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": null,
+    "length_to_width_ratio": null,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": 4,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "bioretention",
+      "constructed_wetland",
+      "infiltration_basin",
+      "manufactured_treatment",
+      "permeable_pavement",
+      "swale"
+    ],
+    "enriched_at": "2026-08-13T09:15:15.856Z",
+    "enrich_model": "composer-2.5:run-e134c999-ffc7-4b62-875d-fa2f022ed112",
+    "enrich_notes": "City defines water quality storm as 1.2 in over 24 h (72 h antecedent dry). WQV sizing uses 1.2Rv with Rv = 0.05 + 0.009(I). Native uncompacted soil without underdrain requires infiltration between 0.5 and 11 in/hr. SHWT separation varies by practice in text: 6 ft bottom-to-SHWT for bioretention, urban bioretention, and infiltration basin; 2 ft for dry bioswale and permeable pavement; wet bioswale feasibility table lists no minimum. Engineered wetlands cannot be used for extended detention; pocket/shallow wetland pool elevation tied within 6 in of SHWT. Permeable pavement reservoir minimum 9 in; underdrain outlets sized for 36–48 h reservoir drawdown. Wet bioswale max ponding 18 in (practice-specific, not mapped to bioretention_ponding field).",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "shwt_separation_inches",
+      "bioretention_media_depth_min_inches",
+      "bioretention_ponding_depth_inches",
+      "design_infiltration_rate_in_per_hr",
+      "permanent_pool_depth_inches",
+      "ed_drain_time_hours",
+      "length_to_width_ratio",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

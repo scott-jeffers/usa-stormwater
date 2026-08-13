@@ -31,6 +31,51 @@
       "field": "document_metadata.jurisdiction_name",
       "excerpt": "City of Duluth MS4 follows Minnesota Stormwater Manual",
       "page_or_section": "Coverage note"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "48 hours is the REQUIRED maximum tf for bioretention under the CGP",
+      "page_or_section": "Chapter 12-6 bioretention, page 397"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "infiltration devices that drain effectively in 48 hours",
+      "page_or_section": "Chapter 6, page 164"
+    },
+    {
+      "field": "design_parameters.shwt_separation_inches",
+      "excerpt": "requires a minimum distance of three feet between the bottom of an infiltrating BMP and the seasonally saturated water table",
+      "page_or_section": "Chapter 7, page 174"
+    },
+    {
+      "field": "design_parameters.shwt_separation_inches",
+      "excerpt": "A minimum of 3 feet of separation between the bottom of the bioretention practice and seasonally saturated soils (or from bedrock) is REQUIRED",
+      "page_or_section": "Chapter 12-6 bioretention, page 397"
+    },
+    {
+      "field": "design_parameters.bioretention_media_depth_min_inches",
+      "excerpt": "the recommended depth of the prepared soil is 30 inches",
+      "page_or_section": "Chapter 12-6 bioretention, page 388"
+    },
+    {
+      "field": "design_parameters.bioretention_media_depth_min_inches",
+      "excerpt": "Facility filter media depth must be at least 2.5 feet deep",
+      "page_or_section": "Chapter 12 bioretention variants, page 375"
+    },
+    {
+      "field": "design_parameters.permanent_pool_depth_inches",
+      "excerpt": "It is REQUIRED that permanent pool depths be a minimum of three feet and maximum of 10 feet at the deepest points",
+      "page_or_section": "Chapter 12-9 Stormwater Ponds, page 470"
+    },
+    {
+      "field": "design_parameters.ed_drain_time_hours",
+      "excerpt": "It is HIGHLY RECOMMENDED that the Vcp be released over a minimum 24 hour period",
+      "page_or_section": "Chapter 12-9 Stormwater Ponds, page 470"
+    },
+    {
+      "field": "design_parameters.wqv_depth_inches",
+      "excerpt": "Vwq equals 0.5 or 1.0 inch of runoff per impervious acre, depending on the receiving stream designation",
+      "page_or_section": "Chapter 12-9 Stormwater Ponds, page 470"
     }
   ],
   "extraction_quality": {
@@ -44,5 +89,51 @@
     "landing_page_url": "https://stormwater.pca.state.mn.us/",
     "retrieved_at": "2026-08-10T10:35:05.250Z",
     "original_filename": "duluth-mn.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": null,
+    "max_drawdown_hours": 48,
+    "shwt_separation_inches": 36,
+    "bioretention_media_depth_min_inches": 30,
+    "bioretention_ponding_depth_inches": null,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": null,
+    "permanent_pool_depth_inches": 36,
+    "ed_drain_time_hours": 24,
+    "length_to_width_ratio": null,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "bioretention",
+      "constructed_wetland",
+      "extended_detention",
+      "infiltration_basin",
+      "infiltration_trench",
+      "manufactured_treatment",
+      "sand_filter",
+      "swale",
+      "wet_pond"
+    ],
+    "enriched_at": "2026-08-13T08:08:18.460Z",
+    "enrich_model": "composer-2.5:run-12228bf4-da4e-41c9-b8e6-d0e39d55ede1",
+    "enrich_notes": "Minnesota manual (Duluth MS4 context): WQV sizing explicitly 0.5 or 1.0 inch runoff per impervious acre by receiving stream (not a single value). CGP/bioretention requires filter bed drain within 48 hours; 3 ft SHWT separation for infiltrating BMPs; bioretention filter media 30 in recommended (2.5 ft minimum for infiltration/recharge variant). Pond permanent pool min depth 3 ft, max 10 ft; Vcp release over minimum 24 hours. Preferred in-situ infiltration ≥1 in/hr for recharge bioretention; infiltration trench soils ≥0.2 in/hr in Table 7.8.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "wqv_depth_inches",
+      "bioretention_ponding_depth_inches",
+      "permeable_pavement_storage_depth_inches",
+      "design_infiltration_rate_in_per_hr",
+      "length_to_width_ratio",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "swale_longitudinal_slope_percent",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

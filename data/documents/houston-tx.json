@@ -121,6 +121,61 @@
       "field": "design_criteria.approved_bmp_categories",
       "excerpt": "BMP types include ponds, bio retention facilities, infiltration trenches, grass swales, and filter strips",
       "page_or_section": "Section 8, 9.8.03.C, Page 9-43"
+    },
+    {
+      "field": "design_parameters.wqv_depth_inches",
+      "excerpt": "permanent stormwater quality BMPs for new development and significant redevelopment must treat the first 1/2 inch of runoff",
+      "page_or_section": "Atlas context / WQv method"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "design the bioretention area to empty within 48 hours",
+      "page_or_section": "9.10.01.B.1.b.(3), page 9-47"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "All detention facilities must completely drain out of property within 48 hours",
+      "page_or_section": "9.2.01.H.5.a.(7), page 9-33"
+    },
+    {
+      "field": "design_parameters.shwt_separation_inches",
+      "excerpt": "Locate bottom of facility at least 4 feet above seasonal high water table elevation",
+      "page_or_section": "9.10.01.B.2.b.(9), page 9-49"
+    },
+    {
+      "field": "design_parameters.bioretention_ponding_depth_inches",
+      "excerpt": "Depth of ponding limited to a maximum of 6 inches",
+      "page_or_section": "9.10.01.B.1.b.(1), page 9-47"
+    },
+    {
+      "field": "design_parameters.bioretention_ponding_depth_inches",
+      "excerpt": "6\" MAX PONDED WATER DEPTH",
+      "page_or_section": "Figure 9.7, page 9-66"
+    },
+    {
+      "field": "design_parameters.permeable_pavement_storage_depth_inches",
+      "excerpt": "The layer must have a minimum depth of nine inches",
+      "page_or_section": "9.10.01.B.3.b.(9), page 9-51"
+    },
+    {
+      "field": "design_parameters.design_infiltration_rate_in_per_hr",
+      "excerpt": "In-situ subsoil shall have a minimum infiltration rate of 0.5 inches per hour",
+      "page_or_section": "9.10.01.B.2.b.(1), page 9-48"
+    },
+    {
+      "field": "design_parameters.design_infiltration_rate_in_per_hr",
+      "excerpt": "Infiltration rates less than 0.5 inches per hour will require a subsurface drainage system",
+      "page_or_section": "9.10.01.B.1.b.(6), page 9-47"
+    },
+    {
+      "field": "design_parameters.ed_drain_time_hours",
+      "excerpt": "The layer shall be designed to drain completely in 48 hours",
+      "page_or_section": "9.10.01.B.3.b.(9) Reservoir Layer, page 9-51"
+    },
+    {
+      "field": "design_parameters.swale_bottom_width_inches",
+      "excerpt": "Bottom width shall be 2 feet wide minimum or 6 feet wide max",
+      "page_or_section": "9.10.01.B.4.b.(3) Dry Swale, page 9-52"
     }
   ],
   "extraction_quality": {
@@ -138,5 +193,45 @@
     "landing_page_url": "https://www.houstonpermittingcenter.org/",
     "retrieved_at": "2026-08-08T10:35:41.196Z",
     "original_filename": "houston-tx.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": 0.5,
+    "max_drawdown_hours": 48,
+    "shwt_separation_inches": 48,
+    "bioretention_media_depth_min_inches": null,
+    "bioretention_ponding_depth_inches": 6,
+    "permeable_pavement_storage_depth_inches": 9,
+    "design_infiltration_rate_in_per_hr": 0.5,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": 48,
+    "length_to_width_ratio": null,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": 24,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "bioretention",
+      "extended_detention",
+      "green_roof",
+      "infiltration_trench",
+      "permeable_pavement",
+      "swale"
+    ],
+    "enriched_at": "2026-08-13T08:36:14.892Z",
+    "enrich_model": "composer-2.5:run-371f4425-06c5-44ae-ac52-8b5b5251c7f4",
+    "enrich_notes": "WQv 0.5 in from Atlas context (first 1/2 inch treatment). Infiltration trench SHWT: 4 ft clearance (48 in). Porous pavement reservoir min 9 in; typical 2–4 ft not mapped to a single design number. Swale slope given as 1–6% range only. Green roof: 1 in membrane pond test and 33% storage credit cap; no media depth. Dry/wet swale WQ flow depth <4 in is treatment depth, not bottom width. Private detention must drain within 48 h (9.2.01.H.5.a.(7)).",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "bioretention_media_depth_min_inches",
+      "permanent_pool_depth_inches",
+      "length_to_width_ratio",
+      "wetland_detention_hours",
+      "swale_longitudinal_slope_percent",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

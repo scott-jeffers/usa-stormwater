@@ -74,6 +74,36 @@
       "field": "design_criteria.approved_bmp_categories",
       "excerpt": "infiltration BMPs / Structural Best Management Practices",
       "page_or_section": "Design Process / Green Book"
+    },
+    {
+      "field": "design_parameters.wqv_depth_inches",
+      "excerpt": "This storm is approximately equivalent to 1 inch of rain (1.00 inch for Michigan Climatic Zone 8 per DEQ memo",
+      "page_or_section": "Part 3, II. STANDARDS A. Water Quality, page 21"
+    },
+    {
+      "field": "design_parameters.wqv_depth_inches",
+      "excerpt": "Treat the runoff generated from 1 inch of rain over the project site (i.e. the 90% annual non-exceedance storm)",
+      "page_or_section": "Table 1 – Minimum Required Stormwater Standards, page 20"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "Extended detention is defined as holding the stormwater runoff volume and releasing it gradually over a period of 24 hours with a drawdown time no greater than 72 hours.",
+      "page_or_section": "Part 3, II. STANDARDS A. Water Quality, page 21"
+    },
+    {
+      "field": "design_parameters.ed_drain_time_hours",
+      "excerpt": "Extended Detention of the 2-year, 24-hour storm for a period of 24 hours resulting in a drawdown time no greater than 72 hours.",
+      "page_or_section": "Table 1 / Part 3 Channel Protection, page 20"
+    },
+    {
+      "field": "design_parameters.ed_drain_time_hours",
+      "excerpt": "Simply using a lower extended detention release rate will violate the 72 hour drawdown time requirement.",
+      "page_or_section": "Part 4, Extended Detention, page 47"
+    },
+    {
+      "field": "design_parameters.swale_longitudinal_slope_percent",
+      "excerpt": "Vegetated Swale Provide a 20-foot minimum length at a maximum slope of 2% with a 1-foot high check dam",
+      "page_or_section": "Part 3, II. STANDARDS D. Pretreatment, page 24"
     }
   ],
   "extraction_quality": {
@@ -92,5 +122,54 @@
     "landing_page_url": "https://www.grandrapidsmi.gov/",
     "retrieved_at": "2026-08-10T08:56:34.266Z",
     "original_filename": "grand-rapids-mi.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": 1,
+    "max_drawdown_hours": 72,
+    "shwt_separation_inches": null,
+    "bioretention_media_depth_min_inches": null,
+    "bioretention_ponding_depth_inches": null,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": null,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": 72,
+    "length_to_width_ratio": null,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": 2,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "bioretention",
+      "constructed_wetland",
+      "extended_detention",
+      "green_roof",
+      "infiltration_basin",
+      "infiltration_trench",
+      "manufactured_treatment",
+      "permeable_pavement",
+      "sand_filter",
+      "swale",
+      "wet_pond"
+    ],
+    "enriched_at": "2026-08-13T08:27:46.890Z",
+    "enrich_model": "composer-2.5:run-f1429bc4-d3d8-45fb-906b-24bb1572f205",
+    "enrich_notes": "Water quality treated as 1 inch (90% annual non-exceedance; 1.00 in Zone 8). Channel protection alternative: extended detention with 24-hour detention period and drawdown not greater than 72 hours. Design infiltration is field rate divided by 2, capped by Table 5 texture classes; soils below 0.24 in/hr design rate unsuitable for infiltration BMPs. Detailed BMP dimensions refer to City Green Infrastructure Standards (Green Book), not in this corpus. Coldwater stream policy: detention times max 12 hours for detention ponds.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "shwt_separation_inches",
+      "bioretention_media_depth_min_inches",
+      "bioretention_ponding_depth_inches",
+      "permeable_pavement_storage_depth_inches",
+      "design_infiltration_rate_in_per_hr",
+      "permanent_pool_depth_inches",
+      "length_to_width_ratio",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

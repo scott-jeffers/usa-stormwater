@@ -39,6 +39,61 @@
       "field": "design_criteria.water_quality_volume_method",
       "excerpt": "Wet detention volume shall be provided for the first inch of runoff",
       "page_or_section": "SFWMD Vol II water quality criteria"
+    },
+    {
+      "field": "design_parameters.wqv_depth_inches",
+      "excerpt": "Wet detention volume shall be provided for the first inch of runoff from the developed project, or the total runoff of 2.5 inches times the percentage of imperviousness, whichever is greater.",
+      "page_or_section": "4.2.1 Volumetric Requirements, page 17"
+    },
+    {
+      "field": "design_parameters.wqv_depth_inches",
+      "excerpt": "The required water quality system for one inch of runoff detention or one half inch of runoff retention in the master system for the total developed site.",
+      "page_or_section": "3.9 Minimum Drainage (b)(1)(a), page 14"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "Residential projects shall have systems with the calculated ability to discharge by surface flow or subsurface percolation at least 3/8 inch per day during or subsequent to the storm of the allowable discharge frequency and duration, so that lowering of the water surface elevations within the water management system to the maximum depth compatible with the environmental protection or other constraints as described in 3.10, will occur in 12 days or less.",
+      "page_or_section": "3.9 Minimum Drainage (a), page 14"
+    },
+    {
+      "field": "practice_mentions.swale",
+      "excerpt": "Onsite works such as swales and dikes shall be used to allow the passage of drainage from offsite areas to downstream areas.",
+      "page_or_section": "3.8 Offsite Lands, page 14"
+    },
+    {
+      "field": "practice_mentions.swale",
+      "excerpt": "Retention, detention, or both retention and detention in the overall system, including swales, lakes, canals, greenways, etc.",
+      "page_or_section": "4.2.1 Volumetric Requirements (a), page 17"
+    },
+    {
+      "field": "practice_mentions.swale",
+      "excerpt": "Vegetated swales with swale blocks or raised inlets.",
+      "page_or_section": "5.3.1 Description, page 26"
+    },
+    {
+      "field": "practice_mentions.infiltration_trench",
+      "excerpt": "The individual sites must provide the remainder (2.5\" x % impervious - one inch) which may be in exfiltration trench.",
+      "page_or_section": "3.9 Minimum Drainage (b)(1)(a), page 14"
+    },
+    {
+      "field": "practice_mentions.infiltration_trench",
+      "excerpt": "1 hour (parking lots served by exfiltration systems)",
+      "page_or_section": "3.5 Flood Protection of Roads and Parking Lots (a), page 13"
+    },
+    {
+      "field": "practice_mentions.wet_pond",
+      "excerpt": "Wet detention volume shall be provided for the first inch of runoff from the developed project",
+      "page_or_section": "4.2.1 Volumetric Requirements, page 17"
+    },
+    {
+      "field": "practice_mentions.extended_detention",
+      "excerpt": "Dry retention/detention areas shall have mechanisms for returning the groundwater level in the area to the control elevation. The bleed-down rate for these systems is the same as in section 5.2.(a), herein.",
+      "page_or_section": "5.3.3 Dry Retention/Detention Areas (a), page 26"
+    },
+    {
+      "field": "practice_mentions.infiltration_basin",
+      "excerpt": "Man-made or natural depressional areas where the basin bottom is graded flat and turf is established to promote infiltration and stabilize the basin slopes",
+      "page_or_section": "5.3.1 Description, page 26"
     }
   ],
   "extraction_quality": {
@@ -52,5 +107,50 @@
     "landing_page_url": "https://www.sfwmd.gov/",
     "retrieved_at": "2026-08-10T10:18:37.456Z",
     "original_filename": "port-st-lucie-fl.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": 1,
+    "max_drawdown_hours": 288,
+    "shwt_separation_inches": null,
+    "bioretention_media_depth_min_inches": null,
+    "bioretention_ponding_depth_inches": null,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": null,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": null,
+    "length_to_width_ratio": null,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "extended_detention",
+      "infiltration_basin",
+      "infiltration_trench",
+      "swale",
+      "wet_pond"
+    ],
+    "enriched_at": "2026-08-13T09:48:32.724Z",
+    "enrich_model": "composer-2.5:run-ff6468f8-9824-49b8-8f4c-78f3074ba97a",
+    "enrich_notes": "SFWMD ERP AH Vol II (Aug 2014) applies via municipality. WQ wet detention: first 1 in of runoff or 2.5 in × % impervious (greater). Master-planned commercial subdivisions: 1 in detention or 0.5 in retention in master system; remainder (2.5×% impervious − 1 in) may be exfiltration trench on lots; master cannot use exfiltration trench. Residential minimum drainage: ≥3/8 in/day surface or subsurface discharge so WSEL lowers within 12 days. Detention/control excavations max 6 ft below natural ground. Subsurface exfiltration per applicant test data; Dade County DER M and FDOT cited as references.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "shwt_separation_inches",
+      "bioretention_media_depth_min_inches",
+      "bioretention_ponding_depth_inches",
+      "permeable_pavement_storage_depth_inches",
+      "design_infiltration_rate_in_per_hr",
+      "permanent_pool_depth_inches",
+      "ed_drain_time_hours",
+      "length_to_width_ratio",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "swale_longitudinal_slope_percent",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

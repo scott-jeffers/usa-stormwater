@@ -69,6 +69,26 @@
       "field": "design_criteria.approved_bmp_categories",
       "excerpt": "Detention Practices / stormwater facilities",
       "page_or_section": "2G"
+    },
+    {
+      "field": "design_parameters.wqv_depth_inches",
+      "excerpt": "For Iowa, this equates to providing water quality treatment for the runoff resulting from a rainfall depth of 1.25 inches or less.",
+      "page_or_section": "2A-1 D. Unified Sizing Criteria, Table 2A-1.01 (page 9)"
+    },
+    {
+      "field": "design_parameters.ed_drain_time_hours",
+      "excerpt": "Provide 24 hours of extended detention of the runoff from the 1 year 24 hour duration storm event to reduce bank-full flows",
+      "page_or_section": "2A-1 D. Unified Sizing Criteria, Table 2A-1.01 Channel Protection Storage Volume, Cpv (page 9)"
+    },
+    {
+      "field": "practice_mentions.extended_detention",
+      "excerpt": "Channel Protection Storage Volume, Cpv ... Provide 24 hours of extended detention",
+      "page_or_section": "Table 2A-1.01 (page 9)"
+    },
+    {
+      "field": "practice_mentions.swale",
+      "excerpt": "Open Channel Flow - Swales and Ditches: 1) Describe swale and ditch design.",
+      "page_or_section": "2A-4 Project Drainage Report, 4.d (page 22)"
     }
   ],
   "extraction_quality": {
@@ -88,5 +108,47 @@
     "landing_page_url": "https://www.dsm.city/Stormwater_Management_Review450.php",
     "retrieved_at": "2026-08-10T08:41:07.399Z",
     "original_filename": "des-moines-ia.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": 1.25,
+    "max_drawdown_hours": null,
+    "shwt_separation_inches": null,
+    "bioretention_media_depth_min_inches": null,
+    "bioretention_ponding_depth_inches": null,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": null,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": 24,
+    "length_to_width_ratio": null,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "extended_detention",
+      "swale"
+    ],
+    "enriched_at": "2026-08-13T08:06:48.324Z",
+    "enrich_model": "composer-2.5:run-7fb81107-407e-496e-b8b5-2ed957ae7590",
+    "enrich_notes": "SUDAS Ch.2 defines unified sizing (WQv 1.25 in rainfall depth for Iowa, Cpv 24 hr extended detention) but defers post-construction water-quality BMP dimensions to Iowa Stormwater Management Manual (ISWMM). Excerpts cover conveyance, detention release rates, and open-channel/swale reporting requirements—not SCM detail criteria.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "max_drawdown_hours",
+      "shwt_separation_inches",
+      "bioretention_media_depth_min_inches",
+      "bioretention_ponding_depth_inches",
+      "permeable_pavement_storage_depth_inches",
+      "design_infiltration_rate_in_per_hr",
+      "permanent_pool_depth_inches",
+      "length_to_width_ratio",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "swale_longitudinal_slope_percent",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

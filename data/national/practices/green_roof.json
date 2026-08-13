@@ -1,0 +1,122 @@
+{
+  "version": 1,
+  "practice_key": "green_roof",
+  "practice_label": "Green Roof",
+  "generated_at": "2026-08-13T10:41:17.519Z",
+  "model": "composer-2.5:run-5bacbade-0e1c-45db-ae8e-eb3feec035ee",
+  "editorial_status": "draft",
+  "national_baseline": "Among Tier A manuals that mention green roofs (36 of 76 scanned), numeric guidance for green-roof-specific facility parameters is sparse: media depth appears in only two jurisdictions (both 3 inches), and maximum slope in only three (2–25 percent, with mode 2 percent). Jurisdiction-wide water-quality volume depth where cited clusters around 1 inch (n=30, mode=1, median=1, range 0.37–1.61 inches)—context for site sizing, not a green-roof media specification. Site-wide maximum drawdown times are commonly 48–72 hours (n=36, mode=72, median=48, range 4–120 hours). Seasonal high water table separation where stated is often 24–36 inches (n=36, mode=24, median=36, range 12–120 inches), again as general groundwater context rather than a roof assembly detail. For temperate, Type II–style assumptions, committees should treat green roof design as qualitatively supported in many manuals but numerically anchored mainly by broad jurisdictional stormwater sizing defaults until more manuals publish explicit roof-specific depths, slopes, and drawdown expectations.",
+  "regional_modifiers": [
+    {
+      "id": "cold_climate",
+      "title": "Cold climate and freeze–thaw",
+      "text": "Northern and cold-state manuals still cite site-wide drawdown and SHWT values (e.g., ME 48 h drawdown and 12 in SHWT; MN 36 in SHWT; VT 48 h drawdown and 36 in SHWT; MI Detroit 24 in SHWT) without establishing green-roof media depth or slope beyond the sparse national sample. AK lists 25 percent maximum slope—among the few explicit slope values. Cold-climate committees should not infer insulation, drainage layer, or anti-icing requirements from these site-wide numbers alone.",
+      "states": [
+        "AK",
+        "ME",
+        "MI",
+        "MN",
+        "VT"
+      ],
+      "citation_slugs": [
+        "ak-state",
+        "maine-manual",
+        "detroit-mi",
+        "minneapolis-mn",
+        "mn-state-2008",
+        "vt-state"
+      ]
+    },
+    {
+      "id": "coastal_high_wt",
+      "title": "Coastal and high water table",
+      "text": "Coastal and humid jurisdictions often specify tighter SHWT separation (e.g., VA Chesapeake 12 in; NC Raleigh 12 in; ME 12 in) or longer drawdown in some Gulf and South Atlantic contexts (MS 120 h; FL Tier 1 4 h as an outlier). TX Houston and MD state use 48 in SHWT. These values reflect local groundwater and sizing programs, not verified green-roof profile depths; coastal modifiers should emphasize verifying structural loading, wind uplift, and salt exposure separately from matrix SHWT modes.",
+      "states": [
+        "VA",
+        "NC",
+        "ME",
+        "MS",
+        "FL",
+        "TX",
+        "MD"
+      ],
+      "citation_slugs": [
+        "chesapeake-va",
+        "raleigh-nc",
+        "maine-manual",
+        "ms-state-vol2",
+        "fl-fsesci-tier1",
+        "houston-tx",
+        "md-state"
+      ]
+    },
+    {
+      "id": "arid_west",
+      "title": "Arid and semi-arid West",
+      "text": "Arid jurisdictions show wider spread in site-wide WQv depth (NV Las Vegas 0.37 in; AZ Flagstaff 1 in; CO Denver 0.6 in) and drawdown (AZ Flagstaff 24 h; NV 72 h). NM Albuquerque cites 96 h drawdown and 36 in SHWT. None of these establish green-roof media depth beyond the two-manual 3 in consensus nationally; arid design discussion should stress irrigation, fire, and evapotranspiration limits rather than extrapolating from low WQv depth entries.",
+      "states": [
+        "NV",
+        "AZ",
+        "CO",
+        "NM"
+      ],
+      "citation_slugs": [
+        "las-vegas-nv",
+        "flagstaff-az",
+        "denver-co",
+        "albuquerque-nm-gsi"
+      ]
+    },
+    {
+      "id": "karst",
+      "title": "Karst and sensitive groundwater",
+      "text": "The matrix includes TX Edwards (tx-edwards-rg348) with 48 in SHWT separation alongside other site-wide values; no additional green-roof-specific karst separation or infiltration prohibition is numerically extracted in this Tier A set. Karst modifiers should note that baseline green-roof numeric specs are not yet established for karst beyond general SHWT context.",
+      "states": [
+        "TX"
+      ],
+      "citation_slugs": [
+        "tx-edwards-rg348"
+      ]
+    }
+  ],
+  "open_issues": "Green-roof-specific numeric baseline is not yet established: media depth is documented in only two manuals (both 3 inches, n=2); maximum slope appears in only three (2–25 percent, n=3). Forty-five of 76 Tier A manuals lack extracted WQv depth, and 34 of 36 green-roof-mentioning manuals lack media depth—so committees cannot treat mode values as national design standards. Site-wide WQv, drawdown, and SHWT fields must not be read as green-roof layer thickness or roof drain time without manual-specific green roof chapters. Wide drawdown range (4–120 hours) and SHWT range (12–120 inches) include chapter proxies and pond-oriented language that may not apply to extensive roofs. Tier A coverage is mention-weighted (36/76) rather than design-parameter-complete for this practice.",
+  "matrix_summary": "In Tier A manuals mentioning green_roof (36/76), site-wide WQv depth (n=30) modes at 1 inch (0.37–1.61 in); site-wide max drawdown (n=36) modes at 72 h with median 48 h (4–120 h); site-wide SHWT separation (n=36) modes at 24 in with median 36 in (12–120 in). Practice-specific green_roof_media_depth_inches is n=2 (3 in only); green_roof_slope_percent is n=3 (mode 2%, range 2–25%). These counts describe extracted numeric consensus, not an adopted national standard.",
+  "supporting_slugs": [
+    "ak-state",
+    "arkansas-manual",
+    "bellevue-wa",
+    "chesapeake-va",
+    "chicago-il",
+    "columbus-oh",
+    "ct-state",
+    "dallas-tx",
+    "dc-guidebook",
+    "denver-co",
+    "detroit-mi",
+    "ga-state",
+    "houston-tx",
+    "ia-state-ch1",
+    "idaho-bmp-catalog",
+    "kansas-city-marc-bmp",
+    "ma-state-draft",
+    "maine-manual",
+    "missouri-manual",
+    "ms-state-vol2",
+    "nj-state",
+    "norfolk-va",
+    "ny-state",
+    "ohio-rainwater",
+    "pa-state",
+    "philadelphia-pa",
+    "portland-or",
+    "raleigh-nc",
+    "ri-state",
+    "san-diego-ca",
+    "san-francisco-ca",
+    "seattle-wa",
+    "tn-state",
+    "va-state",
+    "vt-state",
+    "west-virginia-manual"
+  ]
+}

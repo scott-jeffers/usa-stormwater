@@ -75,6 +75,61 @@
       "field": "design_criteria.approved_bmp_categories",
       "excerpt": "ST-01 Dry Detention Basin; ST-02 Wet Detention Basin; ST-03 Infiltration Systems",
       "page_or_section": "ST section"
+    },
+    {
+      "field": "design_parameters.wqv_depth_inches",
+      "excerpt": "The first flush is defined as a volume equaling the first one-half inch of direct runoff from the entire contributing on-site drainage basin.",
+      "page_or_section": "Chapter 9 glossary, page 77 (knoxville-tn-c0123)"
+    },
+    {
+      "field": "design_parameters.wqv_depth_inches",
+      "excerpt": "Minimum infiltration storage is generally required to be the first flush volume (the first 0.5\" of stormwater runoff from the entire contributing area).",
+      "page_or_section": "ST-03, page 417 (knoxville-tn-c0424)"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "Drawdown should occur within 72 hours using a safety factor of 2.0 to account for wet-weather water table conditions.",
+      "page_or_section": "ST-03, page 417 (knoxville-tn-c0424)"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "The first flush volume shall be released slowly over a minimum period of 24 hours, with a maximum drain time of 72 hours",
+      "page_or_section": "ST-10, page 479 (knoxville-tn-c0475)"
+    },
+    {
+      "field": "design_parameters.shwt_separation_inches",
+      "excerpt": "An infiltration basin or trench must have at least 3 feet separation from seasonal high groundwater and at least 4 feet separation from bedrock.",
+      "page_or_section": "ST-03, page 417 (knoxville-tn-c0424)"
+    },
+    {
+      "field": "design_parameters.shwt_separation_inches",
+      "excerpt": "Bottom of the infiltration trench should be located at least 3 feet above the seasonal high groundwater table.",
+      "page_or_section": "ST-03, page 422 (knoxville-tn-c0429)"
+    },
+    {
+      "field": "design_parameters.design_infiltration_rate_in_per_hr",
+      "excerpt": "The recommended minimum infiltration rate is at least 0.5 inches per hour",
+      "page_or_section": "ST-03, page 417 (knoxville-tn-c0424)"
+    },
+    {
+      "field": "design_parameters.design_infiltration_rate_in_per_hr",
+      "excerpt": "The allowable infiltration rate is 0.5 inches per hour, although an infiltration rate of 1 inch per hour is highly recommended.",
+      "page_or_section": "ST-03, page 418 (knoxville-tn-c0425)"
+    },
+    {
+      "field": "design_parameters.permanent_pool_depth_inches",
+      "excerpt": "Wet detention basin, Permanent pool = 0.5\" per impervious acre",
+      "page_or_section": "Table 4-5, page 42 (knoxville-tn-c0089)"
+    },
+    {
+      "field": "design_parameters.ed_drain_time_hours",
+      "excerpt": "Extended detention – ... provide for its gradual (attenuated) release over a minimum of 24 hours and no more than 72 hours",
+      "page_or_section": "Chapter 9 glossary, page 77 (knoxville-tn-c0123)"
+    },
+    {
+      "field": "design_parameters.ed_drain_time_hours",
+      "excerpt": "with a maximum drain time of 72 hours to allow the detention volume to be recovered prior to the next rainfall",
+      "page_or_section": "ST-10 First Flush Release Rate, page 479 (knoxville-tn-c0475)"
     }
   ],
   "extraction_quality": {
@@ -93,5 +148,50 @@
     "landing_page_url": "https://www.knoxvilletn.gov/government/city_departments_offices/engineering/engineering_development_services_division/bmp_manual",
     "retrieved_at": "2026-08-10T09:24:56.027Z",
     "original_filename": "knoxville-tn.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": 0.5,
+    "max_drawdown_hours": 72,
+    "shwt_separation_inches": 36,
+    "bioretention_media_depth_min_inches": null,
+    "bioretention_ponding_depth_inches": null,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": 0.5,
+    "permanent_pool_depth_inches": 0.5,
+    "ed_drain_time_hours": 72,
+    "length_to_width_ratio": null,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "constructed_wetland",
+      "extended_detention",
+      "infiltration_basin",
+      "infiltration_trench",
+      "manufactured_treatment",
+      "permeable_pavement",
+      "sand_filter",
+      "swale",
+      "wet_pond"
+    ],
+    "enriched_at": "2026-08-13T08:48:37.922Z",
+    "enrich_model": "composer-2.5:run-c9e88a1d-9e28-4914-9751-62df34e1bdce",
+    "enrich_notes": "First flush / WQv is 0.5 inch direct runoff (Ch. 9 glossary; ST-03; ordinance per atlas). First-flush release min 24 h, max 72 h (ST-10; extended detention definition). Infiltration: min rate 0.5 in/hr, drawdown within 72 h, 3 ft (36 in) SHWT separation (ST-03). Table 4-5 cites 1 inch held 24 h and 0.5 inch permanent pool per impervious acre for wet detention variants. Knoxville clay limits infiltration applicability. Underground detention ST-08 requires special permission.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "bioretention_media_depth_min_inches",
+      "bioretention_ponding_depth_inches",
+      "permeable_pavement_storage_depth_inches",
+      "length_to_width_ratio",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "swale_longitudinal_slope_percent",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

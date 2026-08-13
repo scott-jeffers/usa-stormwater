@@ -78,6 +78,36 @@
       "field": "design_criteria.approved_bmp_categories",
       "excerpt": "Detention Ponds",
       "page_or_section": "TOC"
+    },
+    {
+      "field": "practice_mentions.swale",
+      "excerpt": "Open Channels and Swales ... Facilities shall be designed to convey the flood produced by the regulatory 1% (100- year) storm with one (1) foot of freeboard.",
+      "page_or_section": "Stormwater Policy & Standards / page 310 (tulsa-ok-c0050)"
+    },
+    {
+      "field": "practice_mentions.swale",
+      "excerpt": "A swale shall be designed within the overland drainage easement. The swale shall be sized to convey the regulatory 1% (100-year) flow rate under fully urbanized conditions",
+      "page_or_section": "Stormwater Policy & Standards / page 310 (tulsa-ok-c0050)"
+    },
+    {
+      "field": "practice_mentions.extended_detention",
+      "excerpt": "The peak flows from development shall be controlled by on-site detention, or by regional detention identified in the adopted City master drainage plans",
+      "page_or_section": "Executive Summary Administrative Provisions / page 101 (tulsa-ok-c0017)"
+    },
+    {
+      "field": "practice_mentions.bioretention",
+      "excerpt": "post-construction storm water controls such as ponds, wetlands, bioswales, or rain gardens, if known, should be defined.",
+      "page_or_section": "Construction Phase Stormwater Pollution Prevention / page 1005 (tulsa-ok-c0158)"
+    },
+    {
+      "field": "practice_mentions.wet_pond",
+      "excerpt": "For wet ponds, A. The bottom area will normally be inundated.",
+      "page_or_section": "Maintenance and Design / page 1206 (tulsa-ok-c0165)"
+    },
+    {
+      "field": "practice_mentions.constructed_wetland",
+      "excerpt": "The use of wetlands for treatment of urban runoff water quality has been shown to be effective (Chapter 1000).",
+      "page_or_section": "Maintenance and Design / page 1207 (tulsa-ok-c0166)"
     }
   ],
   "extraction_quality": {
@@ -95,5 +125,52 @@
     "landing_page_url": "https://www.cityoftulsa.org/",
     "retrieved_at": "2026-08-10T08:03:22.623Z",
     "original_filename": "tulsa-ok.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": null,
+    "max_drawdown_hours": null,
+    "shwt_separation_inches": null,
+    "bioretention_media_depth_min_inches": null,
+    "bioretention_ponding_depth_inches": null,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": null,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": null,
+    "length_to_width_ratio": null,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "bioretention",
+      "constructed_wetland",
+      "extended_detention",
+      "swale",
+      "wet_pond"
+    ],
+    "enriched_at": "2026-08-13T10:25:27.796Z",
+    "enrich_model": "composer-2.5:run-97d9749c-c4d3-492f-874e-3bdf37ce37f4",
+    "enrich_notes": "Excerpts are largely TOC, policy, hydrology (rational/SCS), channels, storm sewer, construction SWP3, and maintenance. Chapter 1100 Low Impact Development is listed in the TOC but no LID/BMP sizing chapter text was provided. Detention freeboard table references excavated ponds >18-inches and 1 ft freeboard but no WQv depth, drawdown times, infiltration rates, or bioretention/permeable pavement design depths.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "wqv_depth_inches",
+      "max_drawdown_hours",
+      "shwt_separation_inches",
+      "bioretention_media_depth_min_inches",
+      "bioretention_ponding_depth_inches",
+      "permeable_pavement_storage_depth_inches",
+      "design_infiltration_rate_in_per_hr",
+      "permanent_pool_depth_inches",
+      "ed_drain_time_hours",
+      "length_to_width_ratio",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "swale_longitudinal_slope_percent",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

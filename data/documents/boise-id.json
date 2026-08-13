@@ -98,6 +98,46 @@
       "field": "design_criteria.approved_bmp_categories",
       "excerpt": "infiltration of water quality volume Biofiltration Swale 80% Pretreatment for offsite discharges; sediment forebay included or flow path lengthened for additional sediment removal Grass Buffer (Filter) Strip 85% Pretreatment for offsite discharges; removal rate based on 150’ b",
       "page_or_section": "p. 19"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "Infiltration facilities are required to empty within 48 hours following design storm events",
+      "page_or_section": "Section 2.5.C Water Quality Design Criteria, page 18"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "Infiltration basins do not maintain a permanent pool between storm events and should drain within 48 hours after a design storm event.",
+      "page_or_section": "Section 3.2.E.2 Infiltration Basin, page 58"
+    },
+    {
+      "field": "design_parameters.shwt_separation_inches",
+      "excerpt": "for all infiltration facilities, except seepage beds, a minimum 3‘ vertical separation distance from the bottom of the infiltration facility to the seasonal high ground water table",
+      "page_or_section": "Section 3.2.E Setbacks and Separation Distances, page 54"
+    },
+    {
+      "field": "design_parameters.shwt_separation_inches",
+      "excerpt": "a minimum 3’ vertical separation distance from the bottom of the sand filter and the seasonal high ground water table",
+      "page_or_section": "Section 3.2 (Sand Filters), page 34"
+    },
+    {
+      "field": "design_parameters.permeable_pavement_storage_depth_inches",
+      "excerpt": "Open graded base reservoir (4” minimum thickness) shall conform to ASTM No. 57 stone",
+      "page_or_section": "Section 3.2.G PICP, page 76"
+    },
+    {
+      "field": "design_parameters.swale_longitudinal_slope_percent",
+      "excerpt": "Recommended maximum grade for slope swales is 1% to 2%.",
+      "page_or_section": "Section 3.2.E.1 Infiltration Swales Design, page 56"
+    },
+    {
+      "field": "design_parameters.design_infiltration_rate_in_per_hr",
+      "excerpt": "For design purposes, PICP surface area is 100% permeable. Design infiltration rate is ten inches per hour per square foot of paver area.",
+      "page_or_section": "Section 3.2.G PICP Design Criteria, page 76"
+    },
+    {
+      "field": "design_parameters.bioretention_media_depth_min_inches",
+      "excerpt": "BSM shall achieve a long-term, in-place infiltration rate of 5 inches/hour minimum, 8 inches/hour maximum.",
+      "page_or_section": "Appendix C BSM Requirements, page 95"
     }
   ],
   "extraction_quality": {
@@ -113,5 +153,51 @@
     "landing_page_url": "https://www.cityofboise.org/departments/public-works/stormwater-and-drainage-control",
     "retrieved_at": "2026-08-08T01:05:00.000Z",
     "original_filename": "boise-id.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": null,
+    "max_drawdown_hours": 48,
+    "shwt_separation_inches": 36,
+    "bioretention_media_depth_min_inches": null,
+    "bioretention_ponding_depth_inches": null,
+    "permeable_pavement_storage_depth_inches": 4,
+    "design_infiltration_rate_in_per_hr": null,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": null,
+    "length_to_width_ratio": null,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": 2,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "bioretention",
+      "extended_detention",
+      "infiltration_basin",
+      "manufactured_treatment",
+      "permeable_pavement",
+      "sand_filter",
+      "swale",
+      "wet_pond"
+    ],
+    "enriched_at": "2026-08-13T07:38:46.692Z",
+    "enrich_model": "composer-2.5:run-827e6e34-9681-40f2-8afc-14ab2bc0e4de",
+    "enrich_notes": "Off-site discharges require 80% TSS removal (Table 2-3). Rational Method peak flows use 0.34 in/hr for 1 hr (intensity, not WQV depth in excerpts). Infiltration must empty within 48 hr (mosquito/quantity). SHWT: 3 ft (36 in) bottom-to-SHWT for most infiltration; seepage beds 10 ft (reducible to 5 ft with sand pretreatment); PICP sub-base to SHWT 2 ft (24 in); sand filters 3 ft to SHWT. BSM long-term infiltration 5–8 in/hr (Appendix C). PICP design infiltration stated as 10 in/hr. Swale bottom permeable soil ≥0.5 in/hr; sand window min 18 in ASTM C-33.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "wqv_depth_inches",
+      "bioretention_media_depth_min_inches",
+      "bioretention_ponding_depth_inches",
+      "design_infiltration_rate_in_per_hr",
+      "permanent_pool_depth_inches",
+      "ed_drain_time_hours",
+      "length_to_width_ratio",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

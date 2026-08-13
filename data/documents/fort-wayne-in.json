@@ -73,6 +73,61 @@
       "field": "design_criteria.approved_bmp_categories",
       "excerpt": "Wet Extended Detention Basins / Bioretention Basins / Constructed Wetlands",
       "page_or_section": "SW11.14–SW11.17"
+    },
+    {
+      "field": "design_parameters.wqv_depth_inches",
+      "excerpt": "P = Water quality storm, 1-inch rainfall",
+      "page_or_section": "SW11.07 / page 200"
+    },
+    {
+      "field": "design_parameters.wqv_depth_inches",
+      "excerpt": "prevent any of the runoff from the initial 1-inch rainfall from leaving the site",
+      "page_or_section": "SW11.06 / page 199"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "The draw-down time for the WQv must be 12 to 48 hours to meet the required stormwater quality imperative.",
+      "page_or_section": "SW11.07 / page 200"
+    },
+    {
+      "field": "design_parameters.bioretention_media_depth_min_inches",
+      "excerpt": "Planting soil bed depth ≥ 4 feet",
+      "page_or_section": "Figure SW11.23 / page 223"
+    },
+    {
+      "field": "design_parameters.bioretention_media_depth_min_inches",
+      "excerpt": "stormwater to infiltrate through at least 18-inches of soil or media prior to entering the underdrain",
+      "page_or_section": "SW11.16 / page 222"
+    },
+    {
+      "field": "design_parameters.bioretention_ponding_depth_inches",
+      "excerpt": "Max water quality pool depth: 6 inches. Typical ponding depth: 6-18 inches.",
+      "page_or_section": "Figure SW11.23 / page 223"
+    },
+    {
+      "field": "design_parameters.design_infiltration_rate_in_per_hr",
+      "excerpt": "Infiltration rate ≥ 0.5 inches/hr.",
+      "page_or_section": "Figure SW11.23 Bioretention Engineered Planting Soil Mix / page 223"
+    },
+    {
+      "field": "design_parameters.permanent_pool_depth_inches",
+      "excerpt": "Average Permanent Pool Depth: ≥ 4 ft",
+      "page_or_section": "Figure SW11.18 Wet Extended Detention Basin / page 215"
+    },
+    {
+      "field": "design_parameters.wetland_detention_hours",
+      "excerpt": "Detention Time Approximately 48-hours for the water quality volume",
+      "page_or_section": "Figure SW11.25 Constructed Wetlands / page 226"
+    },
+    {
+      "field": "design_parameters.swale_bottom_width_inches",
+      "excerpt": "Dimensions: Flat bottom (not V-bottom) 2' - 8' wide",
+      "page_or_section": "Figure SW11.16 Water Quality Swale / page 212"
+    },
+    {
+      "field": "design_parameters.swale_longitudinal_slope_percent",
+      "excerpt": "Longitudinal Slope: Max. 4%, 0% slope less than 25'",
+      "page_or_section": "Figure SW11.16 / page 212"
     }
   ],
   "extraction_quality": {
@@ -92,5 +147,46 @@
     "landing_page_url": "https://utilities.cityoffortwayne.org/contractors-engineers-developers/design-standards-manual",
     "retrieved_at": "2026-08-10T08:24:40.117Z",
     "original_filename": "fort-wayne-in.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": 1,
+    "max_drawdown_hours": 48,
+    "shwt_separation_inches": null,
+    "bioretention_media_depth_min_inches": 48,
+    "bioretention_ponding_depth_inches": 6,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": 0.5,
+    "permanent_pool_depth_inches": 48,
+    "ed_drain_time_hours": null,
+    "length_to_width_ratio": null,
+    "wetland_detention_hours": 48,
+    "swale_bottom_width_inches": 24,
+    "swale_longitudinal_slope_percent": 4,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "bioretention",
+      "constructed_wetland",
+      "extended_detention",
+      "infiltration_basin",
+      "manufactured_treatment",
+      "permeable_pavement",
+      "swale",
+      "wet_pond"
+    ],
+    "enriched_at": "2026-08-13T08:20:17.038Z",
+    "enrich_model": "composer-2.5:run-bf3735ec-ce0f-43db-b2f4-ee66fd72520c",
+    "enrich_notes": "WQv uses P=1 inch (Reduced Runoff and Volume Based methods). WQv draw-down 12–48 hr (SW11.07). SHWT setback varies: 2 ft (many BMPs), 3 ft (water quality swale), 4 ft (permeable pavement, retention basin eligibility). Bioretention also requires ≥18 in soil/media infiltration path before underdrain for WQ credit; filter media infiltration ≥0.5 in/hr; dewatering 24–72 hr. Swale WQv ponding cap 12 in for 1 in WQv; soil infiltration >1 in/hr without underdrain. Proprietary units sized on 0.3 in rainfall SCS rate (SW11.08). Forebay length:width ≥3:1.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "shwt_separation_inches",
+      "permeable_pavement_storage_depth_inches",
+      "ed_drain_time_hours",
+      "length_to_width_ratio",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

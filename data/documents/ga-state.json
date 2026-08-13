@@ -105,6 +105,31 @@
       "field": "design_criteria.approved_bmp_categories",
       "excerpt": "Bioretention Basin; Bioslopes; Dry Wells; Infiltration Trenches; Organic Filters; Regenerative Stormwater Conveyance; Sand Filters; and Stormwater Planters/Tree Boxes",
       "page_or_section": "199"
+    },
+    {
+      "field": "fields_not_found",
+      "excerpt": "tion is the extended detention of the 1-year, 24-hour storm for a period of 24 hours using BMPs.",
+      "page_or_section": "p120"
+    },
+    {
+      "field": "design_parameters.wqv_depth_inches",
+      "excerpt": "the water quality volume (WQv), which is equal to the runoff generated on a site from 1.2 inches of rainfall",
+      "page_or_section": "VOL 1 page 120, STANDARD #4 – WATER QUALITY"
+    },
+    {
+      "field": "design_parameters.wqv_depth_inches",
+      "excerpt": "this equates to treating storm events of 1.2 inches or less, as well as the first 1.2 inches of runoff for all larger storm events",
+      "page_or_section": "VOL 1 page 120"
+    },
+    {
+      "field": "design_parameters.ed_drain_time_hours",
+      "excerpt": "24-hour extended detention storage of the 1-year, 24-hour return frequency storm event",
+      "page_or_section": "VOL 1 page 120, STANDARD #5 – STREAM CHANNEL PROTECTION"
+    },
+    {
+      "field": "design_parameters.ed_drain_time_hours",
+      "excerpt": "The first method of providing stream bank protection is the extended detention of the 1-year, 24-hour storm for a period of 24 hours using BMPs.",
+      "page_or_section": "VOL 1 page 120"
     }
   ],
   "extraction_quality": {
@@ -122,5 +147,54 @@
     "landing_page_url": "https://atlantaregional.org/what-we-do/natural-resources/georgia-stormwater-management-manual/",
     "retrieved_at": "2026-08-07T11:19:40.289Z",
     "original_filename": "ga-state.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": 1.2,
+    "max_drawdown_hours": null,
+    "shwt_separation_inches": null,
+    "bioretention_media_depth_min_inches": null,
+    "bioretention_ponding_depth_inches": null,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": null,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": 24,
+    "length_to_width_ratio": null,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "bioretention",
+      "constructed_wetland",
+      "extended_detention",
+      "green_roof",
+      "infiltration_basin",
+      "permeable_pavement",
+      "sand_filter",
+      "swale",
+      "wet_pond"
+    ],
+    "enriched_at": "2026-08-13T08:25:15.907Z",
+    "enrich_model": "composer-2.5:run-9e7cee04-0e41-47e9-853f-32036c0b5cfd",
+    "enrich_notes": "Volume 1 standards: runoff reduction targets first 1.0 inch on site; WQv equals runoff from 1.2 inches when full 1.0 inch RRV is not achieved. Channel protection uses 24-hour extended detention of 1-year 24-hour storm. Coastal flat terrain notes high water table within a few feet of surface but no numeric SHWT setback in these excerpts. BMP detail dimensions referenced to Volume 2 Section 4.2 (bioretention).",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "max_drawdown_hours",
+      "shwt_separation_inches",
+      "bioretention_media_depth_min_inches",
+      "bioretention_ponding_depth_inches",
+      "permeable_pavement_storage_depth_inches",
+      "design_infiltration_rate_in_per_hr",
+      "permanent_pool_depth_inches",
+      "length_to_width_ratio",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "swale_longitudinal_slope_percent",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

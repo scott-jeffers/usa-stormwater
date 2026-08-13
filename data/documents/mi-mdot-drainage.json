@@ -26,11 +26,6 @@
   },
   "evidence": [
     {
-      "field": "document_metadata.jurisdiction_name",
-      "excerpt": "Michigan",
-      "page_or_section": "Title / header"
-    },
-    {
       "field": "document_metadata.document_title",
       "excerpt": "MDOT Drainage Manual Chapter 7",
       "page_or_section": "Title / header"
@@ -49,15 +44,31 @@
       "field": "design_criteria.approved_bmp_categories",
       "excerpt": "Detention Basin",
       "page_or_section": null
+    },
+    {
+      "field": "practice_mentions.extended_detention",
+      "excerpt": "Reduction of peak flows can be achieved by the storage of runoff in detention basins, storm sewer pipes, swales or channels, and other detention storage facilities.",
+      "page_or_section": "7.3.5 Detention Storage, page 11"
+    },
+    {
+      "field": "practice_mentions.swale",
+      "excerpt": "It is preferable to slope median areas and inside shoulders to a center swale to prevent drainage from the median area from running across the pavement.",
+      "page_or_section": "7.4.3.2 Roadside and Median Channels, page 15"
+    },
+    {
+      "field": "practice_mentions.swale",
+      "excerpt": "Shallow swale sections at the edge of the roadway pavement or shoulder offer advantages over curbed sections where curbs are not needed for traffic control.",
+      "page_or_section": "7.4.3.5 Curb and Gutter, page 16"
     }
   ],
   "extraction_quality": {
     "confidence": "medium",
     "needs_human_review": true,
-    "review_notes": "Heuristic agency extract from prepared text. MDOT Drainage Manual Chapter 7 — Road Storm Drainage Systems",
+    "review_notes": "Heuristic agency extract from prepared text. MDOT Drainage Manual Chapter 7 — Road Storm Drainage Systems Pipeline excerpt repair removed 1 unlocated citation(s).",
     "fields_not_found": [
       "design_criteria.water_quality_volume_method",
-      "design_criteria.required_hydrologic_hydraulic_software"
+      "design_criteria.required_hydrologic_hydraulic_software",
+      "document_metadata.jurisdiction_name"
     ]
   },
   "source": {
@@ -65,5 +76,49 @@
     "landing_page_url": "https://www.michigan.gov/mdot/business/design/drainage-manual",
     "retrieved_at": "2026-08-11T17:59:10.586Z",
     "original_filename": "mi-mdot-drainage.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": null,
+    "max_drawdown_hours": null,
+    "shwt_separation_inches": null,
+    "bioretention_media_depth_min_inches": null,
+    "bioretention_ponding_depth_inches": null,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": null,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": null,
+    "length_to_width_ratio": null,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "extended_detention",
+      "swale"
+    ],
+    "enriched_at": "2026-08-13T09:09:35.041Z",
+    "enrich_model": "composer-2.5:run-ade6fae7-a610-43a1-a515-ce371ff7f565",
+    "enrich_notes": "Chapter 7 excerpt is road storm drainage (inlets, gutters, detention policy); SCM sizing criteria deferred to Chapter 8 Stormwater Storage Facilities. Detention storage and swales/channels named without numeric BMP design parameters in supplied pages.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "wqv_depth_inches",
+      "max_drawdown_hours",
+      "shwt_separation_inches",
+      "bioretention_media_depth_min_inches",
+      "bioretention_ponding_depth_inches",
+      "permeable_pavement_storage_depth_inches",
+      "design_infiltration_rate_in_per_hr",
+      "permanent_pool_depth_inches",
+      "ed_drain_time_hours",
+      "length_to_width_ratio",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "swale_longitudinal_slope_percent",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

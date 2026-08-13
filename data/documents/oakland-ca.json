@@ -55,6 +55,36 @@
       "field": "design_criteria.approved_bmp_categories",
       "excerpt": "................................ 5 3.6. Detention Facilities..................................................................................................... 5 4. TAILWATER ELEVATIONS IN FLOOD ZONES & DESIGN DISCHARGE FREQUENCIES ..............................................",
       "page_or_section": "p. 3"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "The facility shall be designed such that the water surface returns to its original elevation within 48 hours, after the cessation of a 100-year, 24-hour rainstorm over the contributory watershed.",
+      "page_or_section": "3.5 Retention Facilities, page 8"
+    },
+    {
+      "field": "design_parameters.ed_drain_time_hours",
+      "excerpt": "The detention pond shall be designed such that the water surface returns to its base or starting elevation within 24 hours after the cessation of a 24-hour, 100-year storm.",
+      "page_or_section": "3.6 Detention Facilities, page 9"
+    },
+    {
+      "field": "design_parameters.ed_drain_time_hours",
+      "excerpt": "Be certain that the detention basin returns to the starting elevation within 24 hours of the end of the 100-year storm event.",
+      "page_or_section": "3.6 Detention Facilities, page 10"
+    },
+    {
+      "field": "design_parameters.swale_bottom_width_inches",
+      "excerpt": "Minimum bottom width for open channels with established vegetated bottoms and sides shall be no less than four (4) feet.",
+      "page_or_section": "3.2 Conveyance Facilities Minimum Requirements, page 7"
+    },
+    {
+      "field": "practice_mentions.bioretention",
+      "excerpt": "builders and developers are encouraged to employ concepts of bio-retention, swales, pervious pavers, rain barrels, cisterns, tree wells",
+      "page_or_section": "3.6.1 Design Procedure, page 9"
+    },
+    {
+      "field": "practice_mentions.swale",
+      "excerpt": "Commonly utilized storm water quality control measures shown in the Alameda Countywide Clean Water Program (C.3 Requirements) such as pervious ground cover, grassy swales, tree wells, rain gardens, infiltration, retention",
+      "page_or_section": "3.1 General Standards, page 6"
     }
   ],
   "extraction_quality": {
@@ -76,5 +106,50 @@
     "landing_page_url": "https://www.oaklandca.gov/Community/Community-Development/Sustainability-Environment/Creeks-Watershed-and-Stormwater/Storm-Drainage-Design-Standards",
     "retrieved_at": "2026-08-10T08:10:00.000Z",
     "original_filename": "oakland-ca.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": null,
+    "max_drawdown_hours": 48,
+    "shwt_separation_inches": null,
+    "bioretention_media_depth_min_inches": null,
+    "bioretention_ponding_depth_inches": null,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": null,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": 24,
+    "length_to_width_ratio": null,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": 48,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "bioretention",
+      "constructed_wetland",
+      "extended_detention",
+      "infiltration_basin",
+      "permeable_pavement",
+      "swale"
+    ],
+    "enriched_at": "2026-08-13T09:30:39.632Z",
+    "enrich_model": "composer-2.5:run-b93f0716-6deb-4584-9b6d-de6115cd741b",
+    "enrich_notes": "Oakland 2014 Storm Drainage Design Standards emphasize peak flow reduction up to 25% and detention; stormwater quality (WQv) sizing is by reference to Alameda Countywide Clean Water Program C.3 Technical Guidance, not numeric WQ depth in this manual. Retention basins (no surface outflow) must dewater to original elevation within 48 hours after a 100-year, 24-hour storm; detention ponds must return to base elevation within 24 hours after a 100-year, 24-hour storm. Parking-lot detention ponding depth cap is 4 inches (not mapped to bioretention ponding). Minimum vegetated open-channel bottom width is 4 ft (48 in); engineered swale velocities for C.3 are in external C.3 Guidance.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "wqv_depth_inches",
+      "shwt_separation_inches",
+      "bioretention_media_depth_min_inches",
+      "bioretention_ponding_depth_inches",
+      "permeable_pavement_storage_depth_inches",
+      "design_infiltration_rate_in_per_hr",
+      "permanent_pool_depth_inches",
+      "length_to_width_ratio",
+      "wetland_detention_hours",
+      "swale_longitudinal_slope_percent",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

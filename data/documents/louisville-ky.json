@@ -55,6 +55,66 @@
       "field": "design_criteria.water_quality_volume_method",
       "excerpt": "stormwater quality",
       "page_or_section": "Chapter 10"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "Detention basins shall be fully discharged, or return to normal pool elevation in the case of wet basins, within 36 hours after the storm event",
+      "page_or_section": "10.3.8.2 g"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "For mosquito control, BMPs must be designed to have no ponding or standing water within 36 hours of a rainfall event.",
+      "page_or_section": "18.2.3.9"
+    },
+    {
+      "field": "design_parameters.shwt_separation_inches",
+      "excerpt": "Where a high water table occurs (vertically) within two feet of the plane of infiltration (bottom of BMP), infiltration shall not be considered",
+      "page_or_section": "18.2.3.5"
+    },
+    {
+      "field": "design_parameters.shwt_separation_inches",
+      "excerpt": "The groundwater table shall be at least 2 feet, preferably 4 feet, below the bottom of the rain garden or bioswale.",
+      "page_or_section": "18.4.1.2"
+    },
+    {
+      "field": "design_parameters.bioretention_media_depth_min_inches",
+      "excerpt": "Minimum engineered soil depth is 36 inches.",
+      "page_or_section": "18.4.1.3.9"
+    },
+    {
+      "field": "design_parameters.bioretention_ponding_depth_inches",
+      "excerpt": "typical ponding depth is 4 inches minimum to 12 inches",
+      "page_or_section": "Table 18.3"
+    },
+    {
+      "field": "design_parameters.design_infiltration_rate_in_per_hr",
+      "excerpt": "The minimum average infiltration rate for all infiltrating practices shall be 0.5 inches/hour.",
+      "page_or_section": "18.2.3.4"
+    },
+    {
+      "field": "design_parameters.permanent_pool_depth_inches",
+      "excerpt": "Retention basins (permanent pools basins or wet basins) shall have a minimum depth of 5'.",
+      "page_or_section": "10.3.8.1 i"
+    },
+    {
+      "field": "design_parameters.ed_drain_time_hours",
+      "excerpt": "Detention basins shall be fully discharged, or return to normal pool elevation in the case of wet basins, within 36 hours after the storm event",
+      "page_or_section": "10.3.8.2 g"
+    },
+    {
+      "field": "design_parameters.length_to_width_ratio",
+      "excerpt": "basins must have a length to width ratio of at least 2:1, with 3:1 preferred.",
+      "page_or_section": "18.4.4.3.2 Conveyance"
+    },
+    {
+      "field": "design_parameters.swale_longitudinal_slope_percent",
+      "excerpt": "For bioswales, minimum slope of 1% unless an underdrain is installed.",
+      "page_or_section": "Table 18.3 Longitudinal Slope"
+    },
+    {
+      "field": "design_parameters.green_roof_media_depth_inches",
+      "excerpt": "Extensive roofs have soil depths of six inches or less that is designed to support dense, low growing, drought tolerant vegetation.",
+      "page_or_section": "18 Definitions"
     }
   ],
   "extraction_quality": {
@@ -76,5 +136,47 @@
     "landing_page_url": "https://louisvillemsd.org/what-we-do/stormwaterdrainage/drawings",
     "retrieved_at": "2026-08-10T08:10:00.000Z",
     "original_filename": "louisville-ky.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": null,
+    "max_drawdown_hours": 36,
+    "shwt_separation_inches": 24,
+    "bioretention_media_depth_min_inches": 36,
+    "bioretention_ponding_depth_inches": 4,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": 0.5,
+    "permanent_pool_depth_inches": 60,
+    "ed_drain_time_hours": 36,
+    "length_to_width_ratio": 2,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": 1,
+    "green_roof_media_depth_inches": 6,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "bioretention",
+      "constructed_wetland",
+      "extended_detention",
+      "green_roof",
+      "infiltration_basin",
+      "infiltration_trench",
+      "manufactured_treatment",
+      "permeable_pavement",
+      "swale",
+      "wet_pond"
+    ],
+    "enriched_at": "2026-08-13T09:00:45.301Z",
+    "enrich_model": "composer-2.5:run-7f53f0fc-236e-459a-ab2f-913312b1d0d4",
+    "enrich_notes": "WQv sizing uses VR/RE volume steps in Ch. 18; excerpt lacks explicit WQ rainfall depth in inches. Bioretention ponding stated as 4–12 in typical; min media 36 in. SHWT min 2 ft (24 in) below infiltration plane/bottom; 4 ft preferred for rain gardens. Green roof glossary: extensive soil ≤6 in. Permeable paver base depth sized to VR—no fixed inch depth in excerpt. Constructed wetland zones 0–6 in and 6–12 in shallow/deep marsh—not permanent pool depth for wet pond.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "wqv_depth_inches",
+      "permeable_pavement_storage_depth_inches",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

@@ -39,6 +39,56 @@
       "field": "document_metadata.jurisdiction_name",
       "excerpt": "City of Portland ME MS4 follows Maine Stormwater Design Manual Vol III",
       "page_or_section": "Coverage note"
+    },
+    {
+      "field": "design_parameters.wqv_depth_inches",
+      "excerpt": "An underdrained soil filter must detain and filter a runoff volume equal to 1.0 inch times the subcatchment's impervious area plus 0.4 inch times the subcatchment's landscaped developed area.",
+      "page_or_section": "Chapter 7.1, page 50"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "A filter basin must drain dry in no less than 24 and no more than 48 hours.",
+      "page_or_section": "Chapter 7.1, page 50"
+    },
+    {
+      "field": "design_parameters.shwt_separation_inches",
+      "excerpt": "The bottom of the constructed basin, including any underdrain soil filters should be one (1) foot above the seasonal high groundwater table",
+      "page_or_section": "Chapter 3, page 16"
+    },
+    {
+      "field": "design_parameters.shwt_separation_inches",
+      "excerpt": "The bottom of the underdrained soil filter should be a minimum of 18 inches above the seasonal high groundwater table or bedrock",
+      "page_or_section": "Chapter 7.1, page 50"
+    },
+    {
+      "field": "design_parameters.bioretention_media_depth_min_inches",
+      "excerpt": "The soil filter over the gravel underdrain pipe bedding must be at least 18 inches deep",
+      "page_or_section": "Chapter 7.2, page 58"
+    },
+    {
+      "field": "design_parameters.bioretention_ponding_depth_inches",
+      "excerpt": "The peak water quality storage depth should not exceed 6 inches over a bioretention basin filter.",
+      "page_or_section": "Chapter 7.2, page 57"
+    },
+    {
+      "field": "design_parameters.length_to_width_ratio",
+      "excerpt": "Provide a long and narrow basin shape, with a minimum 2:1 length to width ratio (3:1 is best).",
+      "page_or_section": "Chapter 4 Wetponds, page 22"
+    },
+    {
+      "field": "design_parameters.green_roof_slope_percent",
+      "excerpt": "Roof Slope: A minimum slope of 2% is considered normal for extensive and simple intensive greening.",
+      "page_or_section": "Chapter 7.6, page 77"
+    },
+    {
+      "field": "design_parameters.wetland_detention_hours",
+      "excerpt": "The target detention time for the treatment volume should be between 24 to 48 hours.",
+      "page_or_section": "Chapter 7.4 Gravel Wetlands, page 70"
+    },
+    {
+      "field": "design_parameters.design_infiltration_rate_in_per_hr",
+      "excerpt": "Recommended infiltration should be less than 2.41 inches per hour but great enough that one inch of stored precipitation infiltrates in 24 hours (i.e. >0.04 inches per hour).",
+      "page_or_section": "Chapter 7.7 Manmade Pervious Surfaces, page 84"
     }
   ],
   "extraction_quality": {
@@ -52,5 +102,51 @@
     "landing_page_url": "https://www.portlandmaine.gov/",
     "retrieved_at": "2026-08-10T10:27:43.524Z",
     "original_filename": "portland-me.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": 1,
+    "max_drawdown_hours": 48,
+    "shwt_separation_inches": 12,
+    "bioretention_media_depth_min_inches": 18,
+    "bioretention_ponding_depth_inches": 6,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": null,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": null,
+    "length_to_width_ratio": 2,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": 2,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "bioretention",
+      "constructed_wetland",
+      "extended_detention",
+      "green_roof",
+      "infiltration_basin",
+      "infiltration_trench",
+      "manufactured_treatment",
+      "permeable_pavement",
+      "sand_filter",
+      "swale",
+      "wet_pond"
+    ],
+    "enriched_at": "2026-08-13T09:49:22.842Z",
+    "enrich_model": "composer-2.5:run-229c97cd-4c87-48c6-8897-2be2b5fded9c",
+    "enrich_notes": "WQv sizing uses 1.0 inch over impervious area plus 0.4 inch over landscaped/developed vegetated area (Volume III Ch. 7). Underdrained vegetated soil filters require 18 inches minimum separation from seasonal high water table or bedrock; many other BMPs specify 1 foot (12 inches). Filter and gravel-wetland drawdown targets are 24–48 hours; detention basins should be dry within 2–3 days. Wet pond plug-flow shape minimum L:W is 2:1 (3:1 preferred). Pervious surfaces cite infiltration test bounds (<2.41 in/hr and >0.04 in/hr) and 8-inch minimum pretreatment filter layer; proprietary pretreatment uses Maine DEP Appendix B approval letters, not TAPE/NJCAT.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "permeable_pavement_storage_depth_inches",
+      "design_infiltration_rate_in_per_hr",
+      "permanent_pool_depth_inches",
+      "ed_drain_time_hours",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "swale_longitudinal_slope_percent",
+      "green_roof_media_depth_inches",
+      "mtd_verification_program"
+    ]
   }
 }

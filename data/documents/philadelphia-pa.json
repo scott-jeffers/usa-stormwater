@@ -89,6 +89,46 @@
       "field": "design_criteria.approved_bmp_categories",
       "excerpt": "This chapter consists of guidance and requirements for the following SMPs: Section 4.1 – Bioinfiltration/Bioretention Section 4.2 – Porous Surfaces Section 4.3 – Green Roofs Section 4.4 – Subsurface Infiltration Section 4.5 – Cisterns Section 4.6 – Blue Roofs Section 4.7 – Ponds and Wet Basins Section 4.8 – Subsurface Detention Section 4.9 – Media Filters Section 4.14 – Blue-Green Roofs Section 4.15 – Drainage Wells",
       "page_or_section": "Chapter 4, Section 4.0.2, Page 2"
+    },
+    {
+      "field": "design_parameters.wqv_depth_inches",
+      "excerpt": "The Water Quality requirement stipulates infiltration of the first 1.5 inches of runoff from all directly connected impervious areas (DCIA)",
+      "page_or_section": "Section 1.2.1 / page 37"
+    },
+    {
+      "field": "design_parameters.wqv_depth_inches",
+      "excerpt": "R = 1.5 inches runoff depth",
+      "page_or_section": "Chapter 3 Step 4 / page 210"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "The maximum allowable drain down time is 72 hours after the 24-hour storm event.",
+      "page_or_section": "Section 4.1.3 General design standards / page 263"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "Design the SMP(s) to ensure drain down time is no more than 72 hours based on the tested infiltration rate",
+      "page_or_section": "Chapter 3 Step 5a / page 210"
+    },
+    {
+      "field": "design_parameters.shwt_separation_inches",
+      "excerpt": "A two-foot separation between the infiltration interface (SMP bottom elevation) and the regularly occurring seasonally high-water table must be maintained.",
+      "page_or_section": "Section 3.3 Step 3 / page 206"
+    },
+    {
+      "field": "design_parameters.shwt_separation_inches",
+      "excerpt": "The SMP must be located at least two feet above any poorly infiltrating soils, seasonal high groundwater table, bedrock, or any other limiting zone.",
+      "page_or_section": "Section 4.1.3 item 6b / page 263"
+    },
+    {
+      "field": "design_parameters.bioretention_media_depth_min_inches",
+      "excerpt": "The planting soil medium must have a minimum depth of two feet.",
+      "page_or_section": "Section 4.1.3 item 21 / page 265"
+    },
+    {
+      "field": "design_parameters.bioretention_ponding_depth_inches",
+      "excerpt": "The minimum allowable ponding depth below the lowest outlet device is three inches.",
+      "page_or_section": "Section 4.1.3 item 11 / page 264"
     }
   ],
   "extraction_quality": {
@@ -106,5 +146,50 @@
     "landing_page_url": "https://water.phila.gov/development/stormwater-plan-review/manual/",
     "retrieved_at": "2026-08-07T11:00:41.804Z",
     "original_filename": "philadelphia-smgm.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": 1.5,
+    "max_drawdown_hours": 72,
+    "shwt_separation_inches": 24,
+    "bioretention_media_depth_min_inches": 24,
+    "bioretention_ponding_depth_inches": 3,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": null,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": null,
+    "length_to_width_ratio": null,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "bioretention",
+      "green_roof",
+      "infiltration_basin",
+      "manufactured_treatment",
+      "permeable_pavement",
+      "sand_filter",
+      "swale",
+      "wet_pond"
+    ],
+    "enriched_at": "2026-08-13T09:44:08.041Z",
+    "enrich_model": "composer-2.5:run-bf9911e3-ad1a-481c-b671-96f52a62bf2a",
+    "enrich_notes": "WQv is 1.5 in over DCIA; dynamic bioinfiltration may use 1 in static storage if routing shows full 1.5 in managed. Media filters use 2 in/hr for sand/soil surface-area sizing and min 18 in filter media depth (distinct from 24 in bioretention planting soil). Soils >10 in/hr require amendments. DCIA:footprint loading max 16:1 bioinfiltration/bioretention, 10:1 subsurface infiltration. Glossary lists TAPE, NJCAT, TARP but excerpts do not tie them to MTD approval.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "permeable_pavement_storage_depth_inches",
+      "design_infiltration_rate_in_per_hr",
+      "permanent_pool_depth_inches",
+      "ed_drain_time_hours",
+      "length_to_width_ratio",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "swale_longitudinal_slope_percent",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

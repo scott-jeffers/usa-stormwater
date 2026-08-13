@@ -47,6 +47,46 @@
       "field": "design_criteria.water_quality_volume_method",
       "excerpt": "WQDS: 1.25 inches of rain falling nonuniformly over 2 hours",
       "page_or_section": "N.J.A.C. 7:8-5.5 / Ch.5"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "The capacity of the underdrain must be sufficient to allow the system to drain within 72 hours",
+      "page_or_section": "Green Infrastructure BMPs, Chapter 9.7: Small-Scale Bioretention Systems (Page 74 / c0092)"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "If the bioretention system fails to drain the Water Quality Design Storm within 72 hours, corrective action must be taken",
+      "page_or_section": "Chapter 9.7: Small-Scale Bioretention Systems, Maintenance (Page 49 / c0117)"
+    },
+    {
+      "field": "design_parameters.bioretention_media_depth_min_inches",
+      "excerpt": "the minimum depth of 18 inches may not be sufficient",
+      "page_or_section": "Chapter 9.7, Stormwater Tree Pit (Page 22 / c0097)"
+    },
+    {
+      "field": "design_parameters.swale_longitudinal_slope_percent",
+      "excerpt": "In sloped-bottom systems, the maximum longitudinal slope is 10%.",
+      "page_or_section": "Chapter 9.7, Bioretention Swale (Page 22 / c0097)"
+    },
+    {
+      "field": "design_parameters.shwt_separation_inches",
+      "excerpt": "The seasonal high water table (SHWT) must be at least 1 foot below the bottom of the gravel layer.",
+      "page_or_section": "Chapter 9.7, underdrain requirements (Page 74 / c0092)"
+    },
+    {
+      "field": "design_parameters.shwt_separation_inches",
+      "excerpt": "which is greater than the 2 ft minimum separation requirement.",
+      "page_or_section": "Chapter 9.7, Example 3 Step 4 (Page 34 / c0105)"
+    },
+    {
+      "field": "design_parameters.bioretention_ponding_depth_inches",
+      "excerpt": "the water depth above the soil bed should not exceed the maximum design depth of 12 inches",
+      "page_or_section": "Chapter 9.7, Example 1 (Page 23 / c0099)"
+    },
+    {
+      "field": "design_parameters.bioretention_ponding_depth_inches",
+      "excerpt": "For the WQDS, the maximum depth of runoff is 18 inches at the down-gradient end of a sloped-bottom system",
+      "page_or_section": "Chapter 9.7, Bioretention Swale (Page 22 / c0097)"
     }
   ],
   "extraction_quality": {
@@ -62,5 +102,48 @@
     "landing_page_url": "https://dep.nj.gov/stormwater/stormwater-management/bmp-manual/",
     "retrieved_at": "2026-08-10T09:45:18.912Z",
     "original_filename": "elizabeth-nj.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": null,
+    "max_drawdown_hours": 72,
+    "shwt_separation_inches": null,
+    "bioretention_media_depth_min_inches": 18,
+    "bioretention_ponding_depth_inches": null,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": null,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": null,
+    "length_to_width_ratio": null,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": 10,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "bioretention",
+      "infiltration_basin",
+      "manufactured_treatment",
+      "swale"
+    ],
+    "enriched_at": "2026-08-13T08:10:06.086Z",
+    "enrich_model": "composer-2.5:run-c6e55858-e0c7-4b59-8188-3ff83926a6d7",
+    "enrich_notes": "WQDS is referenced throughout for sizing but the 1.25-inch WQDS rainfall depth is not stated in these excerpts. SHWT separation is explicitly 1 ft below the gravel layer (underdrain bioretention) and 2 ft minimum between basin/soil-bed bottom and SHWT in infiltration examples—single canonical value not unified here. Surface ponding limits include 12 in max above soil bed (planter boxes) and 18 in max runoff depth at the down-gradient end of sloped bioretention swales for WQDS. Underdrain bioretention must drain within 72 hr (24 hr where subject to pedestrian traffic). Example recharge/design rates (e.g., 1, 1.1, 1.5 in/hr) are site-specific, often half tested Ksat.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "wqv_depth_inches",
+      "shwt_separation_inches",
+      "bioretention_ponding_depth_inches",
+      "permeable_pavement_storage_depth_inches",
+      "design_infiltration_rate_in_per_hr",
+      "permanent_pool_depth_inches",
+      "ed_drain_time_hours",
+      "length_to_width_ratio",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

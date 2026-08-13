@@ -294,3 +294,7 @@
 {"ts":"2026-08-11T18:39:01.053Z","id":"fl-sjrwmd-erp-ah2","status":"prepared","detail":"Text ready at samples/queue/fl-sjrwmd-erp-ah2.txt","chars":315145,"pages":188}
 {"ts":"2026-08-12T22:42:57.936Z","id":"tahoe-trpa-bmp","status":"prepared","detail":"Text ready at samples/queue/tahoe-trpa-bmp.txt","chars":1359641,"pages":736}
 {"ts":"2026-08-12T22:48:17.435Z","id":"pa-bmp-2006","status":"prepared","detail":"Text ready at samples/queue/pa-bmp-2006.txt","chars":1295592,"pages":639}
+{"ts":"2026-08-13T06:01:40.386Z","id":"fl-nwfwmd-erp-ah2","status":"prepared","detail":"Text ready at samples/queue/fl-nwfwmd-erp-ah2.txt","chars":203796,"pages":100}
+{"ts":"2026-08-13T06:01:41.320Z","id":"fl-sfwmd-erp-ah2","status":"prepared","detail":"Text ready at samples/queue/fl-sfwmd-erp-ah2.txt","chars":104854,"pages":57}
+{"ts":"2026-08-13T06:01:43.074Z","id":"fl-swfwmd-erp-ah2","status":"prepared","detail":"Text ready at samples/queue/fl-swfwmd-erp-ah2.txt","chars":162743,"pages":87}
+{"ts":"2026-08-13T06:01:47.084Z","id":"fl-srwmd-erp-ah2","status":"prepared","detail":"Text ready at samples/queue/fl-srwmd-erp-ah2.txt","chars":112471,"pages":48}

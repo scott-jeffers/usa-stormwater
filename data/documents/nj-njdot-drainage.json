@@ -38,11 +38,6 @@
   },
   "evidence": [
     {
-      "field": "document_metadata.jurisdiction_name",
-      "excerpt": "New Jersey",
-      "page_or_section": "Title / header"
-    },
-    {
       "field": "document_metadata.document_title",
       "excerpt": "NJDOT Drainage Design Manual",
       "page_or_section": "Title / header"
@@ -59,16 +54,52 @@
     },
     {
       "field": "design_criteria.approved_bmp_categories",
-      "excerpt": "Bioretention, Detention Basin, Retention Basin",
-      "page_or_section": null
+      "excerpt": "for the effects of infiltration, detention storage, evapo-transpiration, surface retention, flow routing and interception. The product of C and the average rainfall intensity (I) is the rainfall excess of runoff per acre. The runoff coefficient should be weighted to reflec",
+      "page_or_section": "pp. 17–18"
+    },
+    {
+      "field": "design_parameters.wqv_depth_inches",
+      "excerpt": "B. 1 1/4 inch of rainfall falling uniformly in two hours.",
+      "page_or_section": "12.2 Methodology, page 82"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "The basin must be designed so that the design runoff volume is completely infiltrated within 72 hours of the end of the storm.",
+      "page_or_section": "11.2 Methodology, page 76"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "The BMP structure must drain in less than 72 hours.",
+      "page_or_section": "11.2 Methodology, page 77"
+    },
+    {
+      "field": "design_parameters.ed_drain_time_hours",
+      "excerpt": "Beginning at the time of peak storage within the pond, no more than 90% of the total storm volume shall be released over a 24-hour period",
+      "page_or_section": "12.3 Water Quality Treatment Facilities, page 83"
+    },
+    {
+      "field": "design_parameters.swale_bottom_width_inches",
+      "excerpt": "Trapezoidal swale bottom widths should be no less than 2 feet",
+      "page_or_section": "12.3, page 83"
+    },
+    {
+      "field": "design_parameters.swale_longitudinal_slope_percent",
+      "excerpt": "The slope of the swale shall not be less than 0.5 percent",
+      "page_or_section": "12.3, page 83"
+    },
+    {
+      "field": "design_parameters.design_infiltration_rate_in_per_hr",
+      "excerpt": "The BMP must have a minimum Permeability of 0.2 to 0.5 inches per hour",
+      "page_or_section": "11.2 Methodology, page 77"
     }
   ],
   "extraction_quality": {
     "confidence": "medium",
     "needs_human_review": true,
-    "review_notes": "Heuristic agency extract from prepared text. NJDOT Drainage Design Manual (August 2006)",
+    "review_notes": "Heuristic agency extract from prepared text. NJDOT Drainage Design Manual (August 2006) Pipeline excerpt repair removed 1 unlocated citation(s).",
     "fields_not_found": [
-      "design_criteria.water_quality_volume_method"
+      "design_criteria.water_quality_volume_method",
+      "document_metadata.jurisdiction_name"
     ]
   },
   "source": {
@@ -76,5 +107,51 @@
     "landing_page_url": "https://dot.nj.gov/transportation/eng/documents/RDM/",
     "retrieved_at": "2026-08-11T17:59:10.565Z",
     "original_filename": "nj-njdot-drainage.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": 1.25,
+    "max_drawdown_hours": 72,
+    "shwt_separation_inches": null,
+    "bioretention_media_depth_min_inches": null,
+    "bioretention_ponding_depth_inches": null,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": null,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": 24,
+    "length_to_width_ratio": null,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": 24,
+    "swale_longitudinal_slope_percent": 0.5,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "bioretention",
+      "constructed_wetland",
+      "extended_detention",
+      "infiltration_basin",
+      "infiltration_trench",
+      "manufactured_treatment",
+      "sand_filter",
+      "swale",
+      "wet_pond"
+    ],
+    "enriched_at": "2026-08-13T09:24:46.176Z",
+    "enrich_model": "composer-2.5:run-97583701-8715-4fba-86dd-73557f7dc6a4",
+    "enrich_notes": "NJDOT defers detailed BMP sizing to the NJDEP Stormwater BMP Manual (Sections 11–12). This excerpt gives WQ storm options (1.25 in in 2 hr), infiltration drawdown (72 hr), groundwater-recharge permeability range (0.2–0.5 in/hr, not a single design rate), extended-detention release over 24 hr, and vegetated/biofilter swale geometry (min 0.5% slope, 2 ft bottom width). Manufactured devices must be NJDEP-certified (Table 12-1); no TAPE/NJCAT program name.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "shwt_separation_inches",
+      "bioretention_media_depth_min_inches",
+      "bioretention_ponding_depth_inches",
+      "permeable_pavement_storage_depth_inches",
+      "design_infiltration_rate_in_per_hr",
+      "permanent_pool_depth_inches",
+      "length_to_width_ratio",
+      "wetland_detention_hours",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

@@ -52,6 +52,56 @@
       "field": "design_criteria.approved_bmp_categories",
       "excerpt": "Bioretention, Infiltration Basin, Filter Strip, Permeable Pavement",
       "page_or_section": null
+    },
+    {
+      "field": "design_parameters.wqv_depth_inches",
+      "excerpt": "The reservoir layer is an open graded stone, typically #2, #3, or #57 stone, under the choker layer, for meeting the 1.2 inch retention volume requirement",
+      "page_or_section": "33.14.4.3 Permeable Pavement Base Design"
+    },
+    {
+      "field": "design_parameters.wqv_depth_inches",
+      "excerpt": "Tree space with expanded soil volume will serve as a method of capturing and retaining the required 1.2 inches of stormwater in accordance with DDOE requirements",
+      "page_or_section": "47.7.6 Stormwater Retention and Treatment Volume"
+    },
+    {
+      "field": "design_parameters.shwt_separation_inches",
+      "excerpt": "Bottom of permeable pavement system must be located at least two feet above the seasonally high water table",
+      "page_or_section": "33.14.4.6 Limitations"
+    },
+    {
+      "field": "design_parameters.shwt_separation_inches",
+      "excerpt": "Bottom of bioretention must be located at least two feet above the seasonally high water table",
+      "page_or_section": "33.14.5.7 Limitations"
+    },
+    {
+      "field": "design_parameters.bioretention_media_depth_min_inches",
+      "excerpt": "The soil profile within Basins, Curb Extensions, Planters and Bioswales shall consist of 18 to 36 inches of Bioretention Soil",
+      "page_or_section": "33.14.5.2 Bioretention Cross Section"
+    },
+    {
+      "field": "design_parameters.bioretention_media_depth_min_inches",
+      "excerpt": "Areas with trees shall contain a minimum of 24\" inches of soil, 30\" preferred",
+      "page_or_section": "33.14.5.2 Bioretention Cross Section"
+    },
+    {
+      "field": "design_parameters.bioretention_ponding_depth_inches",
+      "excerpt": "The maximum allowed ponding depth in bioretention is 18 inches",
+      "page_or_section": "33.14.5.4 Allowable Ponding Depths"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "Drawdown time for 1.2 inches of runoff volume over the contributing drainage area shall be 24 hours minimum and 48 hours maximum",
+      "page_or_section": "33.14.4.4 Stormwater Conveyance and Retention"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "Design for drawdown time of 72 hours maximum for the 1.2 inches of runoff volume (to the maximum extent practicable) over the contributing drainage",
+      "page_or_section": "33.14.5.5 Bioretention Sizing and Hydraulic Design"
+    },
+    {
+      "field": "design_parameters.permeable_pavement_storage_depth_inches",
+      "excerpt": "with a minimum of 6\" where above tree soil volume, and a minimum of 4\" otherwise",
+      "page_or_section": "33.14.4.3 Pedestrian Use Permeable Pavement Systems"
     }
   ],
   "extraction_quality": {
@@ -68,5 +118,46 @@
     "landing_page_url": "https://ddot.dc.gov/GreenInfrastructure",
     "retrieved_at": "2026-08-11T17:59:10.614Z",
     "original_filename": "dc-ddot-stormwater.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": 1.2,
+    "max_drawdown_hours": null,
+    "shwt_separation_inches": 24,
+    "bioretention_media_depth_min_inches": 18,
+    "bioretention_ponding_depth_inches": 18,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": null,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": null,
+    "length_to_width_ratio": null,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "bioretention",
+      "permeable_pavement",
+      "swale"
+    ],
+    "enriched_at": "2026-08-13T08:02:44.892Z",
+    "enrich_model": "composer-2.5:run-23999ba1-0159-41e1-9794-689b4cb12a24",
+    "enrich_notes": "Retention sizing references 1.2 inches of runoff/stormwater per DDOE MEP. Drawdown limits are practice-specific: permeable pavement 24–48 hours for 1.2 inches; bioretention 72 hours maximum for 1.2 inches. Pedestrian permeable aggregate base minimum depths 4 inches (general) or 6 inches (above tree soil / infiltration cases). Bioretention filter soil 18–36 inches (24 minimum with trees). NRCS table gives infiltration thresholds (>0.5, 0.14–0.5, <0.14 in/hr) for underdrain requirements, not a single design infiltration rate.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "max_drawdown_hours",
+      "permeable_pavement_storage_depth_inches",
+      "design_infiltration_rate_in_per_hr",
+      "permanent_pool_depth_inches",
+      "ed_drain_time_hours",
+      "length_to_width_ratio",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "swale_longitudinal_slope_percent",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

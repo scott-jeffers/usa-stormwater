@@ -99,6 +99,26 @@
       "field": "design_criteria.approved_bmp_categories",
       "excerpt": "Bioretention Basin; Bioslopes; Dry Wells; Infiltration Trenches; Organic Filters; Regenerative Stormwater Conveyance; Sand Filters; and Stormwater Planters/Tree Boxes",
       "page_or_section": "199"
+    },
+    {
+      "field": "design_parameters.wqv_depth_inches",
+      "excerpt": "the water quality volume (WQv), which is equal to the runoff generated on a site from 1.2 inches of rainfall",
+      "page_or_section": "Vol 1, Standard #4 – Water Quality, page 120"
+    },
+    {
+      "field": "design_parameters.wqv_depth_inches",
+      "excerpt": "this equates to treating storm events of 1.2 inches or less, as well as the first 1.2 inches of runoff for all larger storm events",
+      "page_or_section": "Vol 1, Standard #4 – Water Quality, page 120"
+    },
+    {
+      "field": "design_parameters.ed_drain_time_hours",
+      "excerpt": "24-hour extended detention storage of the 1-year, 24-hour return frequency storm event",
+      "page_or_section": "Vol 1, Standard #5 – Stream Channel Protection, page 120"
+    },
+    {
+      "field": "design_parameters.ed_drain_time_hours",
+      "excerpt": "The first method of providing stream bank protection is the extended detention of the 1-year, 24-hour storm for a period of 24 hours using BMPs",
+      "page_or_section": "Vol 1, Standard #5 – Stream Channel Protection, page 120"
     }
   ],
   "extraction_quality": {
@@ -117,5 +137,55 @@
     "landing_page_url": "https://atlantaregional.org/what-we-do/natural-resources/georgia-stormwater-management-manual/",
     "retrieved_at": "2026-08-10T09:24:56.027Z",
     "original_filename": "augusta-ga.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": 1.2,
+    "max_drawdown_hours": null,
+    "shwt_separation_inches": null,
+    "bioretention_media_depth_min_inches": null,
+    "bioretention_ponding_depth_inches": null,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": null,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": 24,
+    "length_to_width_ratio": null,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "bioretention",
+      "constructed_wetland",
+      "extended_detention",
+      "green_roof",
+      "infiltration_trench",
+      "manufactured_treatment",
+      "permeable_pavement",
+      "sand_filter",
+      "swale",
+      "wet_pond"
+    ],
+    "enriched_at": "2026-08-13T07:29:18.920Z",
+    "enrich_model": "composer-2.5:run-78e79928-e536-4597-acc9-d93b820f0606",
+    "enrich_notes": "Augusta adopts GSMM 2016. WQv = runoff from 1.2 in rainfall (85% of average-year storms); runoff reduction targets first 1.0 in on-site. Channel protection uses 24-hr extended detention of 1-yr 24-hr storm. Corpus is Vol.1 (standards, BSD, O&M); BMP numeric specs referenced to Vol.2 Ch.4 not included in excerpts.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "max_drawdown_hours",
+      "shwt_separation_inches",
+      "bioretention_media_depth_min_inches",
+      "bioretention_ponding_depth_inches",
+      "permeable_pavement_storage_depth_inches",
+      "design_infiltration_rate_in_per_hr",
+      "permanent_pool_depth_inches",
+      "length_to_width_ratio",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "swale_longitudinal_slope_percent",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

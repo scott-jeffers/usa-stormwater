@@ -95,6 +95,66 @@
       "field": "design_criteria.approved_bmp_categories",
       "excerpt": "The types of BMPs that this manual refers to are: Flow Control BMPs, Runoff Treatment BMPs, LID BMPs, Source Control BMPs, Construction BMPs.",
       "page_or_section": "Volume I - Chapter 1 - Page 71"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "Document that the maximum ponded depth from the infiltration BMP can infiltrate through the infiltration BMP surface within 48 hours.",
+      "page_or_section": "Volume V - Chapter 5 - Page 823 (SSC-4 Soil Infiltration Rate/Drawdown Time)"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "In most cases, UIC wells are designed to completely drain ponded runoff within 48 to 72 hours after flow to the UIC well has stopped.",
+      "page_or_section": "Volume I - Chapter 4 - Page 166"
+    },
+    {
+      "field": "design_parameters.shwt_separation_inches",
+      "excerpt": "The base of BMP T7.10: Infiltration Ponds or BMP T7.20: Infiltration Trenches shall be ≥ 5 feet above the seasonal high-water mark, bedrock (or hardpan) or other low permeability layer. A separation down to 3 feet may be considered",
+      "page_or_section": "Volume V - Chapter 5 - Page 823 (SSC-5)"
+    },
+    {
+      "field": "design_parameters.shwt_separation_inches",
+      "excerpt": "A 5-foot separation between the bottom of the well and the top of the groundwater is required, unless a demonstrative approach confirms that a separation of 3 feet will meet the nonendangerment standard.",
+      "page_or_section": "Volume I - Chapter 4 - Page 166"
+    },
+    {
+      "field": "design_parameters.bioretention_media_depth_min_inches",
+      "excerpt": "The \"Default\" and \"Custom\" BSM depth must be 18 inches to provide Runoff Treatment and good growing conditions for selected plants.",
+      "page_or_section": "Volume V - Chapter 5 - Page 921"
+    },
+    {
+      "field": "design_parameters.shwt_separation_inches",
+      "excerpt": "If the high water table extends to within five (5) feet of the bottom of an infiltration BMP, the site is seldom suitable.",
+      "page_or_section": "Volume III - Chapter 1 - Page 478"
+    },
+    {
+      "field": "design_parameters.design_infiltration_rate_in_per_hr",
+      "excerpt": "They are not generally appropriate for sites that have a design infiltration rate less than 0.3 inches per hour.",
+      "page_or_section": "Volume III - Chapter 1 - Page 478"
+    },
+    {
+      "field": "design_parameters.design_infiltration_rate_in_per_hr",
+      "excerpt": "Design (long-term) infiltration rates up to 3 in/hr can also be considered",
+      "page_or_section": "Volume V - Chapter 5 - Page 822 (SSC-4)"
+    },
+    {
+      "field": "design_parameters.bioretention_media_depth_min_inches",
+      "excerpt": "Use an initial saturated hydraulic conductivity (Ksat)for the Bioretention Soil Mix (BSM) of 12 in/hr.",
+      "page_or_section": "Volume V - Chapter 5 - Page 910"
+    },
+    {
+      "field": "design_parameters.permanent_pool_depth_inches",
+      "excerpt": "Deep ponds (greater than 8 feet) may stratify during summer",
+      "page_or_section": "Volume III - Chapter 1 - Page 478"
+    },
+    {
+      "field": "design_parameters.permeable_pavement_storage_depth_inches",
+      "excerpt": "The permeable pavement design includes a 6\" layer of sand that meets the size gradation (by weight) given in Table V-7.1: Sand Medium Specification.",
+      "page_or_section": "Volume V - Chapter 5 - Page 838"
+    },
+    {
+      "field": "design_parameters.swale_longitudinal_slope_percent",
+      "excerpt": "biofiltration swales are usually situated on sites with slopes of less than 6%, although greater slopes can be considered.",
+      "page_or_section": "Volume III - Chapter 1 - Page 478"
     }
   ],
   "extraction_quality": {
@@ -112,5 +172,53 @@
     "landing_page_url": "https://www.ecology.wa.gov/regulations-permits/guidance-technical-assistance/stormwater-permittee-guidance-resources/stormwater-manuals",
     "retrieved_at": "2026-08-07T11:33:14.322Z",
     "original_filename": "wa-state-western.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": null,
+    "max_drawdown_hours": 48,
+    "shwt_separation_inches": 60,
+    "bioretention_media_depth_min_inches": 18,
+    "bioretention_ponding_depth_inches": null,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": null,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": null,
+    "length_to_width_ratio": null,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "bioretention",
+      "constructed_wetland",
+      "extended_detention",
+      "infiltration_basin",
+      "infiltration_trench",
+      "permeable_pavement",
+      "sand_filter",
+      "swale",
+      "wet_pond"
+    ],
+    "enriched_at": "2026-08-13T10:30:23.281Z",
+    "enrich_model": "composer-2.5:run-15fcaecd-6c82-4db6-b1d9-efa1f41386a1",
+    "enrich_notes": "Manual cites multiple SHWT separations by practice: 5 ft (60 in) default for infiltration ponds/trenches and UIC presumptive rule; 3 ft (36 in) may be allowed with analysis; permeable pavement and small rain gardens use 1 ft (12 in) to restriction layer; bioretention uses 1 ft or 3 ft by contributing area thresholds. UIC drawdown stated as 48–72 hours. Site infeasibility for infiltration when native design rate < 0.3 in/hr; long-term design rates up to 3 in/hr and BSM design Ksat 12 in/hr are referenced but no single mandated design infiltration rate. Wet pond permanent pool: deep ponds > 8 ft may stratify (maximum guidance, not minimum pool depth). Permeable pavement treatment sand layers 6 in (basic) and 12 in (basic + metals) are treatment layers, not a named storage depth.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "wqv_depth_inches",
+      "bioretention_ponding_depth_inches",
+      "permeable_pavement_storage_depth_inches",
+      "design_infiltration_rate_in_per_hr",
+      "permanent_pool_depth_inches",
+      "ed_drain_time_hours",
+      "length_to_width_ratio",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "swale_longitudinal_slope_percent",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

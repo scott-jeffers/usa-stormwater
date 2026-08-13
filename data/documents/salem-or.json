@@ -74,6 +74,36 @@
       "field": "design_criteria.design_storm_return_periods_years",
       "excerpt": "100-year floodway",
       "page_or_section": "Easements"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "All stormwater managed by the rain garden must drain from the storage reservoir (bottom of drain rock) within 48 hours after a design storm event ends.",
+      "page_or_section": "Section 4.6(b)(2)-Rain Garden, page 112"
+    },
+    {
+      "field": "design_parameters.shwt_separation_inches",
+      "excerpt": "Infiltration or partial infiltration facilities are prohibited on sites with less than 3 ft of vertical separation between the bottom of the facility (i.e., bottom of drain rock layer) and seasonal high ground water elevation.",
+      "page_or_section": "Table 4-1, page 93"
+    },
+    {
+      "field": "design_parameters.design_infiltration_rate_in_per_hr",
+      "excerpt": "If on-site infiltration testing demonstrates the design infiltration rate of the soil is 0.5 inch/hour or greater, the stormwater facility (GSI) shall be designed as an infiltration facility",
+      "page_or_section": "Section 4.4(a), page 95"
+    },
+    {
+      "field": "design_parameters.wetland_detention_hours",
+      "excerpt": "For stormwater treatment, the wet portion or permanent pool of the wetland shall have a residence time of at least 36 hours, calculated as the treatment design storm volume divided by the average facility outflow rate.",
+      "page_or_section": "Section 4.6(b)(7) Treatment Wetlands, page 124"
+    },
+    {
+      "field": "design_parameters.design_infiltration_rate_in_per_hr",
+      "excerpt": "The design infiltration rate must be 0.5 inches per hour or greater.",
+      "page_or_section": "Section 4.6(d)(2) Private System, page 109"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "The minimum drawdown time for a soakage trench, leach line, or manufactured chamber technology for the applicable design storm event is 48 hours.",
+      "page_or_section": "Section 4.6(b)(4) Subsurface Infiltration, page 119"
     }
   ],
   "extraction_quality": {
@@ -92,5 +122,51 @@
     "landing_page_url": "https://www.cityofsalem.net/business/building-in-salem/helpful-resources/engineering-and-technical-resources/standard-plans-construction-specifications-and-public-works-design-standards",
     "retrieved_at": "2026-08-10T09:29:55.327Z",
     "original_filename": "salem-or.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": null,
+    "max_drawdown_hours": 48,
+    "shwt_separation_inches": 36,
+    "bioretention_media_depth_min_inches": null,
+    "bioretention_ponding_depth_inches": null,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": 0.5,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": null,
+    "length_to_width_ratio": null,
+    "wetland_detention_hours": 36,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "bioretention",
+      "constructed_wetland",
+      "extended_detention",
+      "green_roof",
+      "infiltration_trench",
+      "manufactured_treatment",
+      "permeable_pavement",
+      "swale"
+    ],
+    "enriched_at": "2026-08-13T10:00:39.588Z",
+    "enrich_model": "composer-2.5:run-4ee8a37b-532e-4440-91c8-54602e9f157d",
+    "enrich_notes": "Water quality sizing uses the water quality design storm (Atlas: NSRR ≈ 80% of average annual runoff volume); no WQv depth in inches in excerpts. Native-soil design infiltration rate = measured rate ÷ 2 (factor of safety 2.0); partial/ lined rain gardens use growing media design rate of 3 in/hr. Infiltration infeasible if SHWT separation < 3 ft (Table 4-1); subsurface infiltration prohibited if SHWT within 5 ft of facility bottom. Simplified soakage trench depth 30 in; drywell max drawdown 12 hr when full. Green roofs: 50% of green roof area may be subtracted from impervious area for flow control.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "wqv_depth_inches",
+      "bioretention_media_depth_min_inches",
+      "bioretention_ponding_depth_inches",
+      "permeable_pavement_storage_depth_inches",
+      "permanent_pool_depth_inches",
+      "ed_drain_time_hours",
+      "length_to_width_ratio",
+      "swale_bottom_width_inches",
+      "swale_longitudinal_slope_percent",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

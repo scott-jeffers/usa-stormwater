@@ -44,6 +44,76 @@
       "field": "design_criteria.water_quality_volume_method",
       "excerpt": "WQv = (P)(Rv)(A) / 12, where P = 1.0 inch",
       "page_or_section": "VSMM Vol I"
+    },
+    {
+      "field": "design_parameters.wqv_depth_inches",
+      "excerpt": "P = 1.0 inch across Vermont",
+      "page_or_section": "Section 2.2.4 WQTS, page 16"
+    },
+    {
+      "field": "design_parameters.wqv_depth_inches",
+      "excerpt": "equivalent to the first inch of rainfall",
+      "page_or_section": "Section 2.2.4 WQTS, page 16"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "Maximum dewatering time of 48 hours",
+      "page_or_section": "Section 4.3.2 Dry Swales Design Summary, page 111"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "Maximum dewatering time for Tv of 48 hours",
+      "page_or_section": "Section 4.3.3 Infiltration Design Summary, page 124"
+    },
+    {
+      "field": "design_parameters.shwt_separation_inches",
+      "excerpt": "Vertical separation by at least three feet from the seasonally high groundwater table (SHGWT)",
+      "page_or_section": "Section 4.3.3 Infiltration Design Summary, page 124"
+    },
+    {
+      "field": "design_parameters.shwt_separation_inches",
+      "excerpt": "minimum 3 foot separation to SHGWT from the bottom of the practice",
+      "page_or_section": "Section 4.3.1 Bioretention Feasibility, page 101"
+    },
+    {
+      "field": "design_parameters.bioretention_media_depth_min_inches",
+      "excerpt": "Filter Bed Depth 24-48 inches",
+      "page_or_section": "Section 4.3.1 Bioretention Design Summary, page 97"
+    },
+    {
+      "field": "design_parameters.bioretention_ponding_depth_inches",
+      "excerpt": "Max. Ponding Depth 12 inches",
+      "page_or_section": "Section 4.3.1 Bioretention Design Summary, page 97"
+    },
+    {
+      "field": "design_parameters.design_infiltration_rate_in_per_hr",
+      "excerpt": "Infiltration rate of 0.2 in/hr or greater if exfiltrating",
+      "page_or_section": "Section 4.3.1 Bioretention Design Summary, page 97"
+    },
+    {
+      "field": "design_parameters.permanent_pool_depth_inches",
+      "excerpt": "depth equal to or greater than four feet, but not more than eight feet",
+      "page_or_section": "Section 4.3.6 Wet Pond Treatment, page 167"
+    },
+    {
+      "field": "design_parameters.ed_drain_time_hours",
+      "excerpt": "ED storage volume shall not exceed 50% of the WQv and shall drain over 24 hours",
+      "page_or_section": "Section 4.3.5 Treatment Wetland Design Summary, page 147"
+    },
+    {
+      "field": "design_parameters.ed_drain_time_hours",
+      "excerpt": "12 hours of extended detention is required and if a stormwater discharge is to a warm water fish habitat, 24 hours of extended detention is required",
+      "page_or_section": "Section 2.2.5.2 Extended Detention Method, page 19"
+    },
+    {
+      "field": "design_parameters.swale_bottom_width_inches",
+      "excerpt": "Swales shall have a bottom width between two and eight feet",
+      "page_or_section": "Section 4.3.2 Dry Swale Treatment, page 117"
+    },
+    {
+      "field": "design_parameters.swale_longitudinal_slope_percent",
+      "excerpt": "Open channels constructed without check dams shall have a maximum longitudinal slope of 2%",
+      "page_or_section": "Section 4.3.2 Dry Swale Feasibility, page 114"
     }
   ],
   "extraction_quality": {
@@ -57,5 +127,47 @@
     "landing_page_url": "https://dec.vermont.gov/watershed/stormwater",
     "retrieved_at": "2026-08-10T10:10:49.504Z",
     "original_filename": "montpelier-vt.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": 1,
+    "max_drawdown_hours": 48,
+    "shwt_separation_inches": 36,
+    "bioretention_media_depth_min_inches": 24,
+    "bioretention_ponding_depth_inches": 12,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": 0.2,
+    "permanent_pool_depth_inches": 48,
+    "ed_drain_time_hours": 24,
+    "length_to_width_ratio": null,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": 24,
+    "swale_longitudinal_slope_percent": 2,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "bioretention",
+      "constructed_wetland",
+      "extended_detention",
+      "green_roof",
+      "infiltration_basin",
+      "infiltration_trench",
+      "permeable_pavement",
+      "sand_filter",
+      "swale",
+      "wet_pond"
+    ],
+    "enriched_at": "2026-08-13T09:16:34.420Z",
+    "enrich_model": "composer-2.5:run-25fd7c26-4253-4114-8b13-4fbe49237fa9",
+    "enrich_notes": "WQv uses P=1.0 inch statewide; minimum 0.2 watershed inches on low-impervious sites. SHGWT separation varies by practice and CDA (1 ft/12 in, 2 ft/24 in, or 3 ft/36 in). Channel Protection extended detention release is 12 h (cold-water fisheries) or 24 h (warm-water). Length:width minima include wet pond 3:1, shallow wetland 2:1, gravel wetland 1:1. Bioretention filter drain time recommended max 48 h (2 days).",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "permeable_pavement_storage_depth_inches",
+      "length_to_width_ratio",
+      "wetland_detention_hours",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

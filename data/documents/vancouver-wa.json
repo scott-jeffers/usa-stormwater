@@ -102,6 +102,31 @@
       "field": "design_criteria.design_storm_return_periods_years",
       "excerpt": "SWMMWW design storms 2/10/25/50/100",
       "page_or_section": "SWMMWW / coverage note"
+    },
+    {
+      "field": "design_parameters.shwt_separation_inches",
+      "excerpt": "The base of infiltration facilities shall be a minimum of five (5) feet above seasonal high water or an impermeable layer",
+      "page_or_section": "Section 4-5.10 Infiltration Facility Setbacks (4-35)"
+    },
+    {
+      "field": "design_parameters.shwt_separation_inches",
+      "excerpt": "The base of roof downspout infiltration systems shall be a minimum of five (5) feet above seasonal high water or an impermeable layer",
+      "page_or_section": "Section 4-10.02 General Protections/Setbacks (4-48)"
+    },
+    {
+      "field": "design_parameters.bioretention_ponding_depth_inches",
+      "excerpt": "Maximum ponding level in all facilities is 1 foot.",
+      "page_or_section": "Section 4-7.01 Bioretention Areas (4-42)"
+    },
+    {
+      "field": "design_parameters.design_infiltration_rate_in_per_hr",
+      "excerpt": "The maximum allowed design infiltration rate is 250 inches/hour.",
+      "page_or_section": "Section 4-5.08 Infiltration Design Rates (4-34)"
+    },
+    {
+      "field": "design_parameters.design_infiltration_rate_in_per_hr",
+      "excerpt": "An assumed twelve (12) inches per hour infiltration rate may be used for bioretention soil mixes (BSM) that meet the requirements of the Stormwater Manual.",
+      "page_or_section": "Section 4-7.01 Bioretention Areas (4-41)"
     }
   ],
   "extraction_quality": {
@@ -115,5 +140,55 @@
     "landing_page_url": "https://www.cityofvancouver.us/government/department/public-works/water-sewer-and-stormwater/surface-water-stormwater-design-construction-requirements/",
     "retrieved_at": "2026-08-10T09:24:56.027Z",
     "original_filename": "vancouver-wa.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": null,
+    "max_drawdown_hours": null,
+    "shwt_separation_inches": 60,
+    "bioretention_media_depth_min_inches": null,
+    "bioretention_ponding_depth_inches": 12,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": 250,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": null,
+    "length_to_width_ratio": null,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "bioretention",
+      "constructed_wetland",
+      "extended_detention",
+      "green_roof",
+      "infiltration_basin",
+      "infiltration_trench",
+      "manufactured_treatment",
+      "permeable_pavement",
+      "sand_filter",
+      "swale",
+      "wet_pond"
+    ],
+    "enriched_at": "2026-08-13T10:29:17.764Z",
+    "enrich_model": "composer-2.5:run-0f0222eb-0b17-48d8-b02f-f38945d207a0",
+    "enrich_notes": "Vancouver Section 4 (2025) supplements SWMMWW; WQv depth, media depths, ED drawdown, and most BMP sizing criteria are by reference to Ecology Stormwater Manual Vol. III/V. Local numeric highlights: infiltration base minimum 5 ft (60 in) to seasonal high water with possible 3 ft reduction per mounding analysis; maximum allowed design infiltration rate 250 in/hr with Table D-3 correction factors (base CF 2); bioretention may use assumed 12 in/hr for qualifying BSM in WWHM2012/MGS Flood; max ponding 1 ft (12 in); marginal site infiltration threshold <2 in/hr triggers PE design for small-project downspout systems.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "wqv_depth_inches",
+      "max_drawdown_hours",
+      "bioretention_media_depth_min_inches",
+      "permeable_pavement_storage_depth_inches",
+      "permanent_pool_depth_inches",
+      "ed_drain_time_hours",
+      "length_to_width_ratio",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "swale_longitudinal_slope_percent",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

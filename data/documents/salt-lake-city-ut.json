@@ -10,7 +10,9 @@
     "relationship_to_state_manual": "independent"
   },
   "design_criteria": {
-    "design_storm_return_periods_years": [100],
+    "design_storm_return_periods_years": [
+      100
+    ],
     "water_quality_volume_method": "Retain on site less than or equal to the 80th percentile storm event (or predevelopment hydrologic condition, whichever is less) for new development ≥1 acre (or common plan ≥1 acre). Redevelopment that increases impervious area by more than 10% must retain the net increase in volume for events ≤ the 80th percentile storm. Detention: limit discharge to 0.2 cfs/acre during the 100-year storm for sites with >15,000 sq ft impervious.",
     "peak_flow_calculation_method": [
       "Rational Method (projects <1 acre)",
@@ -97,6 +99,26 @@
       "field": "design_criteria.approved_bmp_categories",
       "excerpt": "The City allows for the use of any suitable BMP from the DWQ LID guidance manual (A Guide to Low Impact Development in Utah).",
       "page_or_section": "Section 7.1.2, Page 51"
+    },
+    {
+      "field": "design_parameters.wqv_depth_inches",
+      "excerpt": "site-specific calculations of the design storm runoff volumes for the 80th percentile storm event depth",
+      "page_or_section": "salt-lake-city-ut-c0070, page 51 (ENFORCEMENT)"
+    },
+    {
+      "field": "design_parameters.ed_drain_time_hours",
+      "excerpt": "limit the discharge to a pre-development rate of 0.2 cubic feet per second per acre during the 100-year storm",
+      "page_or_section": "salt-lake-city-ut-c0024, page 11 (Long-Term Storm Water Management)"
+    },
+    {
+      "field": "practice_mentions.swale",
+      "excerpt": "structural BMPs such as grass swales and detention basins",
+      "page_or_section": "salt-lake-city-ut-c0073, page 54 (BMP 18)"
+    },
+    {
+      "field": "practice_mentions.extended_detention",
+      "excerpt": "provide onsite detention facilities to limit the discharge to a pre-development rate of 0.2 cubic feet per second per acre during the 100-year storm",
+      "page_or_section": "salt-lake-city-ut-c0024, page 11"
     }
   ],
   "extraction_quality": {
@@ -113,5 +135,49 @@
     "landing_page_url": "https://www.slc.gov/utilities/",
     "retrieved_at": "2026-08-08T11:41:33.902Z",
     "original_filename": "SaltLakeCity_MS4_UTS000002_SWMP_v2024.1.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": null,
+    "max_drawdown_hours": null,
+    "shwt_separation_inches": null,
+    "bioretention_media_depth_min_inches": null,
+    "bioretention_ponding_depth_inches": null,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": null,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": null,
+    "length_to_width_ratio": null,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "extended_detention",
+      "swale"
+    ],
+    "enriched_at": "2026-08-13T10:01:06.618Z",
+    "enrich_model": "composer-2.5:run-c39dbd46-b73d-460f-887f-e0477e6d7675",
+    "enrich_notes": "Corpus is the MS4 SWMP, not the SLC Building Process & Design Manual or DWQ LID guide. Retention is tied to the 80th-percentile storm depth and WQV methods are delegated to the Design Manual; no inch-depth for that storm appears here. Detention applies above 15,000 sq ft impervious at 0.2 cfs/acre (100-year). LID/GI from DWQ manual when feasible; no SCM sizing tables in excerpts.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "wqv_depth_inches",
+      "max_drawdown_hours",
+      "shwt_separation_inches",
+      "bioretention_media_depth_min_inches",
+      "bioretention_ponding_depth_inches",
+      "permeable_pavement_storage_depth_inches",
+      "design_infiltration_rate_in_per_hr",
+      "permanent_pool_depth_inches",
+      "ed_drain_time_hours",
+      "length_to_width_ratio",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "swale_longitudinal_slope_percent",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

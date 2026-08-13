@@ -55,6 +55,81 @@
       "field": "design_criteria.approved_bmp_categories",
       "excerpt": "Bioretention, Infiltration Basin, Infiltration Trench, Extended Detention",
       "page_or_section": null
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "Maximum allowable temporary ponding time is 48 hours.",
+      "page_or_section": "Section 2.3.5 – Bioretention Swale, page 131"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "fully dewater within 48 hours after a storm event.",
+      "page_or_section": "Section 2.3.5 – Bioretention Swale, page 133"
+    },
+    {
+      "field": "design_parameters.bioretention_media_depth_min_inches",
+      "excerpt": "Engineered soil media shall be 2-4 feet deep planting soil",
+      "page_or_section": "Section 2.3.5 – Bioretention Basin, page 99"
+    },
+    {
+      "field": "design_parameters.bioretention_media_depth_min_inches",
+      "excerpt": "Engineered soil media shall have a depth of 24 inches to 48 inches",
+      "page_or_section": "Section 2.3.5 – Bioretention Swale, page 133"
+    },
+    {
+      "field": "design_parameters.bioretention_ponding_depth_inches",
+      "excerpt": "the system shall allow 6-12 inches of ponding.",
+      "page_or_section": "Section 2.3.5 – Bioretention Basin, page 99"
+    },
+    {
+      "field": "design_parameters.bioretention_ponding_depth_inches",
+      "excerpt": "12 inches of ponding depth allowed.",
+      "page_or_section": "Section 2.3.5 – Bioretention Swale, page 131"
+    },
+    {
+      "field": "design_parameters.bioretention_ponding_depth_inches",
+      "excerpt": "Maximum for WQV: 12 inches at longitudinal mid-point of swale",
+      "page_or_section": "Section 2.3.5 – Bioretention Swale, page 133"
+    },
+    {
+      "field": "design_parameters.permeable_pavement_storage_depth_inches",
+      "excerpt": "Reservoir Course o Thickness: 4 inches; Increase thickness of reservoir course as needed",
+      "page_or_section": "Section 2.3.4 – Porous Pavement with Storage, page 89"
+    },
+    {
+      "field": "design_parameters.design_infiltration_rate_in_per_hr",
+      "excerpt": "Use a design infiltration rate of 0.52 inches per hour if a loam surface layer is used.",
+      "page_or_section": "Section 2.3.5 – Bioretention Curb Inlet Planter, page 111"
+    },
+    {
+      "field": "design_parameters.design_infiltration_rate_in_per_hr",
+      "excerpt": "Construct in locations where in-situ infiltration rates of underlying soils exceed 0.5 inches per hour.",
+      "page_or_section": "Section 2.3.3 – Underground Infiltration System, page 66"
+    },
+    {
+      "field": "design_parameters.swale_bottom_width_inches",
+      "excerpt": "Bottom width no greater than 8 feet, but no less than 2 feet.",
+      "page_or_section": "Section 2.3.5 – Bioretention Swale, page 131"
+    },
+    {
+      "field": "design_parameters.swale_bottom_width_inches",
+      "excerpt": "Minimum: 2 feet",
+      "page_or_section": "Section 2.3.5 – Bioretention Swale, page 133"
+    },
+    {
+      "field": "design_parameters.swale_longitudinal_slope_percent",
+      "excerpt": "Bioretention swales shall have a maximum longitudinal slope of 2% without check dams",
+      "page_or_section": "Section 2.3.5 – Bioretention Swale, page 133"
+    },
+    {
+      "field": "design_parameters.shwt_separation_inches",
+      "excerpt": "There is at least 18 inches of separation to groundwater.",
+      "page_or_section": "Section 2.1.4 Pretreatment Vegetated Filter Strip, page 38"
+    },
+    {
+      "field": "design_parameters.shwt_separation_inches",
+      "excerpt": "Bottom of crushed stone reservoir shall be at least 3 feet above SHGT and bedrock.",
+      "page_or_section": "Section 2.3.3 – Underground Infiltration System, page 66"
     }
   ],
   "extraction_quality": {
@@ -71,5 +146,48 @@
     "landing_page_url": "https://www.dot.ri.gov/EnvironmentalDivision/Office_of_Stormwater.php",
     "retrieved_at": "2026-08-11T17:59:10.642Z",
     "original_filename": "ri-ridot-drainage.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": null,
+    "max_drawdown_hours": 48,
+    "shwt_separation_inches": null,
+    "bioretention_media_depth_min_inches": 24,
+    "bioretention_ponding_depth_inches": 12,
+    "permeable_pavement_storage_depth_inches": 4,
+    "design_infiltration_rate_in_per_hr": 0.52,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": null,
+    "length_to_width_ratio": null,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": 24,
+    "swale_longitudinal_slope_percent": 2,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "bioretention",
+      "constructed_wetland",
+      "extended_detention",
+      "infiltration_basin",
+      "infiltration_trench",
+      "permeable_pavement",
+      "sand_filter",
+      "swale"
+    ],
+    "enriched_at": "2026-08-13T09:54:02.089Z",
+    "enrich_model": "composer-2.5:run-7ee64bc6-2a3d-4de5-9dd6-7f48111306ef",
+    "enrich_notes": "WQV sizing is referenced (75% WQV in bioretention, WQV orifice 4–8 in below organic soil in gravel wetland) but no explicit WQV rainfall depth in inches in excerpts. SHGT separation varies: 18 in (filter strip/pretreatment), 36 in (3 ft) for many infiltration/bioretention tops or reservoir bottoms. Design infiltration: half field-derived rate or RI Rules values; 0.52 in/hr explicit for loam surface layer; 0.5 in/hr minimum in-situ to use infiltration STUs; do not use infiltration STUs if >8.3 in/hr. Bioretention ponding 6–12 in (basins/planters); swale max WQV ponding 12 in at mid-point. Porous pavement reservoir minimum 4 in (increase as needed). Gravel wetland optional extended detention when inline—no drain time given.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "wqv_depth_inches",
+      "shwt_separation_inches",
+      "permanent_pool_depth_inches",
+      "ed_drain_time_hours",
+      "length_to_width_ratio",
+      "wetland_detention_hours",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

@@ -25,7 +25,7 @@ Open [http://localhost:3000](http://localhost:3000). No API keys required for th
 - Keep any local secrets in `.env.local` (gitignored). Never commit `.env` / `.env.local`.
 - Do **not** add `GEMINI_API_KEY`, `CURSOR_API_KEY`, or any AI key in Netlify → Site settings → Environment variables.
 - Never name a secret `NEXT_PUBLIC_*` — that prefix embeds the value in client JavaScript.
-- For the **automated pipeline** (local only), copy `.env.example` → `.env.local` and set `CURSOR_API_KEY` from [Cursor Dashboard → Integrations](https://cursor.com/dashboard/integrations).
+- For local Cursor SDK automation, run `npm run pipeline:cursor-login` once (paid Cursor account browser login). No Integrations API key required.
 
 ## Operational flow (Cursor agents)
 
@@ -62,13 +62,41 @@ This only downloads PDFs and extracts text. Structured extraction is always done
 After manuals are in the queue (and ideally many atlas JSON files exist), run the resume-safe automation pipeline. It tracks every stage in `data/pipeline/progress.json` and regenerates `data/pipeline/STATUS.md`.
 
 ```bash
-# one-time: put CURSOR_API_KEY in .env.local (see .env.example)
+# one-time: npm run pipeline:cursor-login  (paid Cursor account, browser sign-in)
 npm run pipeline:status          # bootstrap + show where you are
 npm run pipeline:run             # prepare → corpus → extract → verify → outline → draft
 npm run pipeline:corpus -- portland-or   # one manual, corpus only (preferred on Windows)
 npx tsx scripts/pipeline/run.ts --stage=corpus --dry-run portland-or
 npx tsx scripts/pipeline/run.ts --force portland-or
 ```
+
+### Practice parameters (overnight enrich)
+
+Leave-running Cursor enrich → bioretention + permeable pavement matrices → export:
+
+```powershell
+npm run pipeline:cursor-login   # once
+npm run overnight:enrich
+# offline fallback: npx tsx scripts/pipeline/overnight-enrich.ts --heuristic
+```
+
+Fills missing / stale (schema v1) / heuristic `design_parameters`, rebuilds bioretention + permeable pavement, writes `data/pipeline/OVERNIGHT.md`. Resume-safe. Morning: `/national/practices/bioretention/`, `/national/practices/permeable_pavement/`.
+
+### Full overnight go (the sleep command)
+
+One leave-running command over the **existing** queue only (never auto-adds manuals). Uses **Cursor** (`composer-2.5` by default) for enrich + practice synthesis — same account/usage pool as the IDE, not a separate API product.
+
+```powershell
+npm run pipeline:cursor-login   # once, browser; skip if already logged in
+npm run overnight:go            # then sleep
+# offline fallback: npx tsx scripts/pipeline/overnight-go.ts --heuristic
+```
+
+Runs prepare → pipeline → repair-excerpts → force-verify → schema-v2 enrich → matrix/synthesize for every canonical practice → export. Status: `data/pipeline/GO.md`. Resume-safe — re-run the same command after a crash.
+
+Hard-fail: missing Cursor login, enrich failures, export failure, practice matrix/synth failure. Pipeline/verify leftover failures (exit 2) are **warnings**, not overnight hard-fails. Dead PDF URLs (HTTP 404/410) are skipped, not retried. Existing `data/documents/` extracts are **not** `--force` overwritten.
+
+Morning checks: `data/pipeline/GO.md` should show Cursor `enrich_model` (not `heuristic`); practice matrices should differ by practice-specific fields (ponding, pool depth, swale slope, etc.), not just the same WQv/drawdown/SHWT stats.
 
 On Windows PowerShell, prefer the stage shortcuts (`pipeline:corpus`, etc.) or `npx tsx ... --stage=corpus` — bare `--flags` after `npm run` are often stripped.
 Stage shortcuts: `pipeline:corpus`, `pipeline:extract`, `pipeline:verify`, `pipeline:outline`, `pipeline:draft`.
@@ -84,7 +112,7 @@ Stage shortcuts: `pipeline:corpus`, `pipeline:extract`, `pipeline:verify`, `pipe
 
 Crash mid-run? Re-run the same command — completed substeps are skipped. Existing `data/documents/` records are bootstrapped as `extract: done` so curated atlas data is not overwritten unless you pass `--force`.
 
-By default the corpus stage runs **offline heuristics** when `CURSOR_API_KEY` is unset (`PIPELINE_LLM=heuristic`). Set `PIPELINE_LLM=cursor` and a key to use the Cursor SDK for richer structure/tagging. Model default when using the SDK: `composer-2.5-fast` (`PIPELINE_MODEL`). Delay between AI calls: `PIPELINE_DELAY_MS` (default 2000).
+By default the corpus stage runs **offline heuristics** (`PIPELINE_LLM=heuristic`). `npm run overnight:go` forces Cursor unless you pass `--heuristic`. For a one-off richer corpus/tagging pass, set `PIPELINE_LLM=cursor` after `pipeline:cursor-login`. Model default: `composer-2.5` (`PIPELINE_MODEL`). Delay between AI calls: `PIPELINE_DELAY_MS` (default 2000).
 
 ## Finding missing manuals (coverage gaps)
 
@@ -176,3 +204,7 @@ data/coverage/          Target jurisdictions + gap reports
 samples/                Local PDFs/text (gitignored)
 netlify.toml            Netlify build + publish config
 ```
+
+## License
+
+Software is [MIT](LICENSE). Original structured data is [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Verbatim excerpts and source manuals remain copyright of the issuing agencies. See [NOTICE](NOTICE) for the split, attribution, and the reminder that this atlas is a research aid — not official regulatory text.

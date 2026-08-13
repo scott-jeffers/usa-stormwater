@@ -137,6 +137,36 @@
       "field": "design_criteria.approved_bmp_categories",
       "excerpt": "\"Above Ground Impoundment (AGI)\" – a type of dam... Appendix B AGIs... Appendix C Exfiltration System Trench Design",
       "page_or_section": "Section 2.1.1; Appendices"
+    },
+    {
+      "field": "practice_mentions.extended_detention",
+      "excerpt": "\"Retention/detention area (dry)\" – Water storage area with bottom elevation at least 1.0-feet above the control elevation",
+      "page_or_section": "2.1.13, page 8"
+    },
+    {
+      "field": "practice_mentions.wet_pond",
+      "excerpt": "\"Wet detention systems\" – Permanently wet ponds which are designed to slowly release collected stormwater runoff through an outlet structure.",
+      "page_or_section": "2.1.17, page 8"
+    },
+    {
+      "field": "practice_mentions.infiltration_basin",
+      "excerpt": "Man-made or natural depressional areas where the basin bottom is graded flat and vegetation is established to promote infiltration",
+      "page_or_section": "5.2.1(a), page 28"
+    },
+    {
+      "field": "practice_mentions.bioretention",
+      "excerpt": "Shallow landscaped areas designed to store stormwater",
+      "page_or_section": "5.2.1(b), page 28"
+    },
+    {
+      "field": "practice_mentions.swale",
+      "excerpt": "Vegetated swales with swale blocks or raised inlets.",
+      "page_or_section": "5.2.1(c), page 28"
+    },
+    {
+      "field": "practice_mentions.infiltration_trench",
+      "excerpt": "Minimum pipe diameter: 12.0-inch diameter. (b) Minimum trench width: 3.0 feet.",
+      "page_or_section": "5.5.2, pages 32-33"
     }
   ],
   "extraction_quality": {
@@ -152,5 +182,53 @@
     "landing_page_url": "https://www.sfwmd.gov/",
     "retrieved_at": "2026-08-11T18:38:36.243Z",
     "original_filename": "fl-sfwmd-erp-ah2.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": null,
+    "max_drawdown_hours": null,
+    "shwt_separation_inches": null,
+    "bioretention_media_depth_min_inches": null,
+    "bioretention_ponding_depth_inches": null,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": null,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": null,
+    "length_to_width_ratio": null,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "bioretention",
+      "extended_detention",
+      "infiltration_basin",
+      "infiltration_trench",
+      "swale",
+      "wet_pond"
+    ],
+    "enriched_at": "2026-08-13T08:16:07.188Z",
+    "enrich_model": "composer-2.5:run-62a051a5-bcc0-49a3-8d7d-fe6fddf3935f",
+    "enrich_notes": "Volume II defines dry vs wet retention/detention (dry bottom ≥1.0 ft above control elevation; wet bottom lower than 1.0 ft above control). Retention and exfiltration trench treatment volumes are not discharged to surface waters. Exfiltration trenches: minimum 12-inch pipe, 3.0-ft trench width, filter wrap, inlet sumps. Residential minimum drainage cites 0.375 in/day discharge capability and lowering SWM stages within 12 days (not mapped to schema hour fields). Parking lots with exfiltration trenches use 5-year, 1-hour flood criteria; other parking lots use 1-day duration. Subsurface infiltration reviewed from applicant test data only; no universal design in/hr rate in excerpts. WQ treatment volumes referenced to AH Vol I, not numerically stated here.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "wqv_depth_inches",
+      "max_drawdown_hours",
+      "shwt_separation_inches",
+      "bioretention_media_depth_min_inches",
+      "bioretention_ponding_depth_inches",
+      "permeable_pavement_storage_depth_inches",
+      "design_infiltration_rate_in_per_hr",
+      "permanent_pool_depth_inches",
+      "ed_drain_time_hours",
+      "length_to_width_ratio",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "swale_longitudinal_slope_percent",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

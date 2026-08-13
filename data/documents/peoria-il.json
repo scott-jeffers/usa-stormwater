@@ -48,6 +48,36 @@
       "field": "design_criteria.peak_flow_calculation_method",
       "excerpt": "10-year 0.08 100-year 0.30 ... 1-year release rate ... not be greater than 0.08 cfs/acre",
       "page_or_section": "Section Three, Article II.B Release Rates"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "Stormwater shall not be allowed to stand more than seventy-two (72) hours over eighty (80) percent of the dry basin's bottom area for the maximum design event.",
+      "page_or_section": "Section Three, Article III. – Detention System Design Criteria, Infiltration Practices (page 56)"
+    },
+    {
+      "field": "design_parameters.shwt_separation_inches",
+      "excerpt": "The bottom of infiltration basins or trenches shall be a minimum of three (3) feet above the seasonally high groundwater and bedrock level if practicable.",
+      "page_or_section": "Section Three, Article III. – Detention System Design Criteria, Infiltration Practices (page 56)"
+    },
+    {
+      "field": "design_parameters.wqv_depth_inches",
+      "excerpt": "Water Quality Volume means the volume necessary to collect 100 percent of the runoff generated from a specified event.",
+      "page_or_section": "Section One, Article I. Definitions, item 120 (page 17)"
+    },
+    {
+      "field": "practice_mentions.bioretention",
+      "excerpt": "Bioretention areas are landscaping features adapted to provide on-site treatment of storm water runoff.",
+      "page_or_section": "Section Three, Article I. D. Infiltrating Runoff On-Site (page 46)"
+    },
+    {
+      "field": "practice_mentions.constructed_wetland",
+      "excerpt": "Storm water wetlands (a.k.a. constructed wetlands) are structural practices similar to wet detention ponds that incorporate wetland plants into the design.",
+      "page_or_section": "Section Three, Article I. C. (page 45)"
+    },
+    {
+      "field": "practice_mentions.swale",
+      "excerpt": "These BMPs shall be designed to follow criteria in the Illinois Urban Manual.",
+      "page_or_section": "Section Three, Article II. H. Vegetated Filter Strips and Swales (page 50)"
     }
   ],
   "extraction_quality": {
@@ -61,5 +91,55 @@
     "landing_page_url": "https://www.peoriagov.org/",
     "retrieved_at": "2026-08-10T10:02:27.846Z",
     "original_filename": "peoria-il.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": null,
+    "max_drawdown_hours": 72,
+    "shwt_separation_inches": 36,
+    "bioretention_media_depth_min_inches": null,
+    "bioretention_ponding_depth_inches": null,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": null,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": null,
+    "length_to_width_ratio": null,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "bioretention",
+      "constructed_wetland",
+      "extended_detention",
+      "infiltration_basin",
+      "infiltration_trench",
+      "manufactured_treatment",
+      "permeable_pavement",
+      "sand_filter",
+      "swale",
+      "wet_pond"
+    ],
+    "enriched_at": "2026-08-13T09:42:39.157Z",
+    "enrich_model": "composer-2.5:run-e09d51f2-00ff-4e62-af7d-b5be11a1e20b",
+    "enrich_notes": "Water Quality Volume is defined as 100% of runoff from a specified event with minimum 24-hour detention from 1-year HWL (detention) or 2-year HWL (certain BMPs) until complete drainage; no WQ rainfall depth in inches is stated in the excerpts. Swales and filter strips defer to Illinois Urban Manual. Infiltration BMPs reference Illinois Urban Manual; max standing 72 hours on 80% of dry basin bottom; 3 ft SHWT separation for infiltration basin/trench bottoms.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "wqv_depth_inches",
+      "bioretention_media_depth_min_inches",
+      "bioretention_ponding_depth_inches",
+      "permeable_pavement_storage_depth_inches",
+      "design_infiltration_rate_in_per_hr",
+      "permanent_pool_depth_inches",
+      "ed_drain_time_hours",
+      "length_to_width_ratio",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "swale_longitudinal_slope_percent",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

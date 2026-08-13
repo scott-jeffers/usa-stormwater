@@ -134,6 +134,56 @@
       "field": "design_criteria.approved_bmp_categories",
       "excerpt": "Benefits Economic Benefits Bioretention and Rain Gardens Cisterns Green Roofs Permeable Pavements Trees and Green Space Remove Impervious Cover 1.3 Chapter Overview of This Design Manual The descriptions below provide an overview of each chapter in this Design Manual",
       "page_or_section": "p. 10"
+    },
+    {
+      "field": "design_parameters.wqv_depth_inches",
+      "excerpt": "Retention volume based on 1 inch of rainfall on the Regulated Area",
+      "page_or_section": "2-43, Chapter 2"
+    },
+    {
+      "field": "design_parameters.wqv_depth_inches",
+      "excerpt": "fee in-lieu for any of the following required SCM volumes: retention (1.0inch volume control)",
+      "page_or_section": "2-13, Chapter 2"
+    },
+    {
+      "field": "design_parameters.shwt_separation_inches",
+      "excerpt": "Groundwater level at least 2 vertical feet below the bottom of potential infiltration BMP?",
+      "page_or_section": "2-43, Chapter 2"
+    },
+    {
+      "field": "design_parameters.shwt_separation_inches",
+      "excerpt": "Two feet is the minimum allowable distance but may reduce the performance of the practice.",
+      "page_or_section": "8-25, Chapter 8 – Depth to Groundwater (from bottom of practice)"
+    },
+    {
+      "field": "design_parameters.bioretention_ponding_depth_inches",
+      "excerpt": "maximum allowable surface ponding depth of 12 inches",
+      "page_or_section": "2-47, Chapter 2"
+    },
+    {
+      "field": "design_parameters.bioretention_ponding_depth_inches",
+      "excerpt": "The most common depth of the surface ponding layer ... is 12 inches, which corresponds to the maximum allowable ponding depth",
+      "page_or_section": "8-18, Chapter 8"
+    },
+    {
+      "field": "design_parameters.ed_drain_time_hours",
+      "excerpt": "Extended detention includes a 48-hour discharge of the runoff volume generated from 1.9 inches of rainfall.",
+      "page_or_section": "2-11, Appendix 2A area"
+    },
+    {
+      "field": "design_parameters.ed_drain_time_hours",
+      "excerpt": "The extended detention hydraulic control shall be designed to provide a drawdown time of 48 hours for the VED.",
+      "page_or_section": "2-44, Chapter 2"
+    },
+    {
+      "field": "design_parameters.permanent_pool_depth_inches",
+      "excerpt": "Depth of permanent pool Minimum of 3 feet",
+      "page_or_section": "7-32, Table 7 – Extended Wet Detention"
+    },
+    {
+      "field": "design_parameters.length_to_width_ratio",
+      "excerpt": "Length to width ratio Minimum of 3:1 for extended dry detention practices",
+      "page_or_section": "7-33, Chapter 7 Layout table"
     }
   ],
   "extraction_quality": {
@@ -150,5 +200,50 @@
     "landing_page_url": "https://detroitmi.gov/document/stormwater-management-design-manual",
     "retrieved_at": "2026-08-08T10:41:43.274Z",
     "original_filename": "detroit-mi.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": 1,
+    "max_drawdown_hours": null,
+    "shwt_separation_inches": 24,
+    "bioretention_media_depth_min_inches": null,
+    "bioretention_ponding_depth_inches": 12,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": null,
+    "permanent_pool_depth_inches": 36,
+    "ed_drain_time_hours": 48,
+    "length_to_width_ratio": 3,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "bioretention",
+      "constructed_wetland",
+      "extended_detention",
+      "infiltration_basin",
+      "infiltration_trench",
+      "manufactured_treatment",
+      "permeable_pavement",
+      "swale",
+      "wet_pond"
+    ],
+    "enriched_at": "2026-08-13T08:07:09.477Z",
+    "enrich_model": "composer-2.5:run-2d6097bc-03bc-4436-8f2a-0e8bbb4a84a1",
+    "enrich_notes": "WQv/retention is explicitly 1.0 inch on the Regulated Area. Extended detention (onsite alternative) uses VED with 48-hour drawdown and 1.9-inch rainfall basis for discharge volume. Minimum groundwater separation is stated as 2 feet (24 in) from bottom of infiltrating practices/BMPs; 4 feet is recommended for bioretention and permeable pavement performance. Bioretention counts up to 12-inch surface ponding toward VR; pipeless bioretention requires design infiltration ≥0.50 in/hr (measured ≥1.0 in/hr). Underdrains required when measured in-situ infiltration <1.0 in/hr (design <0.5 in/hr). Permeable aggregate storage has separate minimum depths (4 in pedestrian, 8 in vehicle). Excerpts lack green-roof chapter detail and named MTD verification programs (TAPE/NJCAT).",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "max_drawdown_hours",
+      "bioretention_media_depth_min_inches",
+      "permeable_pavement_storage_depth_inches",
+      "design_infiltration_rate_in_per_hr",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "swale_longitudinal_slope_percent",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

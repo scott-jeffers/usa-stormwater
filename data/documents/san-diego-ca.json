@@ -10,7 +10,11 @@
     "relationship_to_state_manual": "independent"
   },
   "design_criteria": {
-    "design_storm_return_periods_years": [2, 10, 100],
+    "design_storm_return_periods_years": [
+      2,
+      10,
+      100
+    ],
     "water_quality_volume_method": "Design Capture Volume (DCV): retain onsite pollutants in runoff from the 24-hour, 85th percentile storm event (Figure B.1-1 or approved site-specific analysis). If full retention is not technically feasible, biofiltration for remaining volume (treat 1.5× DCV not retained, or flow-thru biofiltration holding ≥0.75× DCV not retained); otherwise flow-thru treatment (0.2 in/hr or 85th percentile hourly intensity × 2) plus alternative compliance.",
     "peak_flow_calculation_method": [
       "Continuous simulation hydrologic modeling",
@@ -123,6 +127,36 @@
       "field": "design_criteria.approved_bmp_categories",
       "excerpt": "Retention Harvest and Use (HU) HU-1: Cistern; Retention Infiltration (INF) INF-1: Infiltration basin INF-2: Bioretention INF-3: Permeable pavement INF-4: Dry Wells; Partial Retention (PR) PR-1: Biofiltration with partial retention; Biofiltration (BF) BF-1: Biofiltration BF-2: Nutrient Sensitive Media Design BF-3: Proprietary Biofiltration; Flow-thru treatment control (FT) FT-1: Vegetated swales FT-2: Media filters FT-3: Sand filters FT-4: Dry extended detention basins FT-5: Proprietary flow-thru treatment control",
       "page_or_section": "Section 5.5 / Table, Page 5-13"
+    },
+    {
+      "field": "fields_not_found",
+      "excerpt": "runoff produced from a 24-hour, 85th percentile storm event (Design Capture Volume (DCV)). The 24-hour, 85th percentile storm event shall be based on Figure B.1-1 in Appendix B",
+      "page_or_section": "p56"
+    },
+    {
+      "field": "design_parameters.shwt_separation_inches",
+      "excerpt": "The depth to seasonally high groundwater tables (normal high depth during the wet season) beneath the base of any infiltration BMP must be greater than 10 feet for full infiltration BMPs to be allowed.",
+      "page_or_section": "Appendix C.2.2.2, page C-9"
+    },
+    {
+      "field": "design_parameters.length_to_width_ratio",
+      "excerpt": "Basin length to width ratio is ≥ 2:1 (L:W).",
+      "page_or_section": "Appendix E FT-4 Dry Extended Detention, page E-112"
+    },
+    {
+      "field": "design_parameters.mtd_verification_program",
+      "excerpt": "An active General Use Level Designation for Basic Treatment, Phosphorus Treatment or Enhanced Treatment under the Washington State Technology Acceptance Protocol-Ecology program is the preferred method of demonstrating that the performance standard is met.",
+      "page_or_section": "Appendix B Table B.6-4 / Selecting Proprietary BMPs, page B-91"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "maximum 36-hour drawdown time for the aggregate storage layer, with surface ponding no greater than a maximum 24-hour drawdown",
+      "page_or_section": "Appendix E INF-2 Bioretention, page E-59 (multiple SCM-specific limits; no single site-wide value extracted)"
+    },
+    {
+      "field": "design_parameters.ed_drain_time_hours",
+      "excerpt": "Surface ponding drawdown time is between 24 and 96 hours.",
+      "page_or_section": "Appendix E FT-4, page E-112 (range only)"
     }
   ],
   "extraction_quality": {
@@ -136,5 +170,53 @@
     "landing_page_url": "https://www.sandiego.gov/stormwater",
     "retrieved_at": "2026-08-08T10:35:15.140Z",
     "original_filename": "san-diego-ca.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": null,
+    "max_drawdown_hours": null,
+    "shwt_separation_inches": 120,
+    "bioretention_media_depth_min_inches": null,
+    "bioretention_ponding_depth_inches": null,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": null,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": null,
+    "length_to_width_ratio": 2,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": "Washington State Technology Acceptance Protocol-Ecology (TAPE)",
+    "practice_mentions": [
+      "bioretention",
+      "extended_detention",
+      "green_roof",
+      "infiltration_basin",
+      "manufactured_treatment",
+      "permeable_pavement",
+      "sand_filter",
+      "swale",
+      "wet_pond"
+    ],
+    "enriched_at": "2026-08-13T10:02:45.922Z",
+    "enrich_model": "composer-2.5:run-a20bbd3c-b0e0-4656-bf94-4376e439bcac",
+    "enrich_notes": "DCV sizing uses site-specific 85th-percentile 24-hour depth (Appendix B examples use 0.5–0.6 in, not a fixed WQV depth). Bioretention INF-2 cites max 36 h aggregate and 24 h surface ponding drawdown; permeable pavement INF-3 cites max 36 h drawdown (optional up to 96 h with capture adjustment). Full infiltration requires >10 ft to seasonal high groundwater (120 in). Proprietary BMPs prefer TAPE General Use Level Designation; Pilot/Conditional not acceptable.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "wqv_depth_inches",
+      "max_drawdown_hours",
+      "bioretention_media_depth_min_inches",
+      "bioretention_ponding_depth_inches",
+      "permeable_pavement_storage_depth_inches",
+      "design_infiltration_rate_in_per_hr",
+      "permanent_pool_depth_inches",
+      "ed_drain_time_hours",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "swale_longitudinal_slope_percent",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent"
+    ]
   }
 }

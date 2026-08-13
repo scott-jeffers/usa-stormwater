@@ -78,6 +78,41 @@
       "field": "design_criteria.approved_bmp_categories",
       "excerpt": "Sheet BR – Bioretention Cell... Sheet BS – Bioswale... Sheet RG – Rain Garden... Sheet TB – Tree Box Filters... Sheet VS – Vegetated Strips",
       "page_or_section": "Appendix A, Page 15"
+    },
+    {
+      "field": "design_parameters.wqv_depth_inches",
+      "excerpt": "80th Percentile: 0.6 inches",
+      "page_or_section": "Chapter 3, §3.1 80th Percentile Volume, page 6"
+    },
+    {
+      "field": "design_parameters.wqv_depth_inches",
+      "excerpt": "Percentile Precipitation Depth\n80th Percentile: 0.6 inches",
+      "page_or_section": "Chapter 4, §4.1 80th Percentile Volume, page 9"
+    },
+    {
+      "field": "practice_mentions.bioretention",
+      "excerpt": "Sheet BR – Bioretention Cell ... Sheet RG – Rain Garden",
+      "page_or_section": "Appendix A Post Construction BMPs, page 18"
+    },
+    {
+      "field": "practice_mentions.swale",
+      "excerpt": "Sheet BS – Bioswale ... Sheet VS – Vegetated Strips",
+      "page_or_section": "Appendix A Post Construction BMPs, page 18"
+    },
+    {
+      "field": "practice_mentions.manufactured_treatment",
+      "excerpt": "Sheet TB – Tree Box Filters",
+      "page_or_section": "Appendix A Post Construction BMPs, page 18"
+    },
+    {
+      "field": "practice_mentions.extended_detention",
+      "excerpt": "LID BMP ApplicationsRetained Volume\nDetention Pond Retention Pond",
+      "page_or_section": "Figure 3-1 Design Process Flowchart for New Development, page 8"
+    },
+    {
+      "field": "practice_mentions.wet_pond",
+      "excerpt": "Detention Pond Retention Pond",
+      "page_or_section": "Figure 3-1 / Figure 4-1 flowcharts, pages 8 and 11"
     }
   ],
   "extraction_quality": {
@@ -96,5 +131,51 @@
     "landing_page_url": "https://sslc.gov/",
     "retrieved_at": "2026-08-08T01:05:00.000Z",
     "original_filename": "south-salt-lake-ut.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": 0.6,
+    "max_drawdown_hours": null,
+    "shwt_separation_inches": null,
+    "bioretention_media_depth_min_inches": null,
+    "bioretention_ponding_depth_inches": null,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": null,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": null,
+    "length_to_width_ratio": null,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "bioretention",
+      "extended_detention",
+      "manufactured_treatment",
+      "swale",
+      "wet_pond"
+    ],
+    "enriched_at": "2026-08-13T10:12:57.119Z",
+    "enrich_model": "composer-2.5:run-89586ea7-b4a5-4e33-a340-3d60b41a9dcb",
+    "enrich_notes": "Volume control uses 80th percentile precipitation depth d80 = 0.6 in with V80 = RV × d80 × A (Reese or NRCS soil-group RV). Site hydrology uses 100-year 24-hour storm; allowable discharge 0.2 cfs/acre. Appendix A lists post-construction BMP sheets (BR, BS, RG, TB, VS) but appendix body pages in corpus are blank—no facility sizing parameters extracted. Geotechnical report must highlight infiltration rate for onsite retention; no numeric design infiltration rate stated.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "max_drawdown_hours",
+      "shwt_separation_inches",
+      "bioretention_media_depth_min_inches",
+      "bioretention_ponding_depth_inches",
+      "permeable_pavement_storage_depth_inches",
+      "design_infiltration_rate_in_per_hr",
+      "permanent_pool_depth_inches",
+      "ed_drain_time_hours",
+      "length_to_width_ratio",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "swale_longitudinal_slope_percent",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

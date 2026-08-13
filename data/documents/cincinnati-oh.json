@@ -48,5 +48,51 @@
     "landing_page_url": "https://epa.ohio.gov/divisions-and-offices/surface-water/guides-manuals/rainwater-and-land-development",
     "retrieved_at": "2026-08-10T10:35:05.250Z",
     "original_filename": "cincinnati-oh.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": null,
+    "max_drawdown_hours": null,
+    "shwt_separation_inches": null,
+    "bioretention_media_depth_min_inches": null,
+    "bioretention_ponding_depth_inches": null,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": null,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": null,
+    "length_to_width_ratio": null,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "constructed_wetland",
+      "extended_detention",
+      "infiltration_basin",
+      "wet_pond"
+    ],
+    "enriched_at": "2026-08-13T07:53:31.933Z",
+    "enrich_model": "composer-2.5:run-7c517b5f-00dd-42b8-b52e-6fa300d8e3a9",
+    "enrich_notes": "Corpus pages 1–136 contain no extractable text (empty OCR). Atlas notes Ohio WQv uses 0.75 in precipitation (C×0.75×A/12), 20% additional WQv for sediment per Ohio EPA NPDES, and extended-detention drawdown 24–48 hours; those values are not in the source excerpts and are not reported as numeric fields. Approved BMP categories: Water Quality Ponds, Infiltration/Filtration, LID/Conservation Development, Wetland/Stream setbacks.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "wqv_depth_inches",
+      "max_drawdown_hours",
+      "shwt_separation_inches",
+      "bioretention_media_depth_min_inches",
+      "bioretention_ponding_depth_inches",
+      "permeable_pavement_storage_depth_inches",
+      "design_infiltration_rate_in_per_hr",
+      "permanent_pool_depth_inches",
+      "ed_drain_time_hours",
+      "length_to_width_ratio",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "swale_longitudinal_slope_percent",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

@@ -65,6 +65,26 @@
       "field": "design_criteria.approved_bmp_categories",
       "excerpt": "Retention Basins / Low Impact Development (LID) Landscape",
       "page_or_section": "Sections 808 / 1112"
+    },
+    {
+      "field": "practice_mentions.bioretention",
+      "excerpt": "Suggested “tools” highlighted in the toolkit include: Green Streets, Vegetated Swales, Bioretention, Permeable Paving, Constructed Wetlands, Infiltration & Underdrains, Green Roofs, Rainwater Harvesting.",
+      "page_or_section": "Section 1112, page 211"
+    },
+    {
+      "field": "practice_mentions.swale",
+      "excerpt": "Vegetated Swales",
+      "page_or_section": "Section 1112.2, page 211"
+    },
+    {
+      "field": "enrich_notes (drywell infiltration, not mapped to in/hr field)",
+      "excerpt": "Such drywells shall have a minimum infiltration rate after de-rating of 0.1 cfs",
+      "page_or_section": "806.21.2.6, page 152"
+    },
+    {
+      "field": "enrich_notes (drawdown time unspecified)",
+      "excerpt": "If the infiltrometer tests and associated calculations do not demonstrate that direct percolation can drain the storage system within the required time, other means of disposal shall be installed",
+      "page_or_section": "806.21.2.5, page 152"
     }
   ],
   "extraction_quality": {
@@ -84,5 +104,53 @@
     "landing_page_url": "https://www.mesaaz.gov/business-development/engineering",
     "retrieved_at": "2026-08-10T08:03:22.623Z",
     "original_filename": "mesa-az.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": null,
+    "max_drawdown_hours": null,
+    "shwt_separation_inches": null,
+    "bioretention_media_depth_min_inches": null,
+    "bioretention_ponding_depth_inches": null,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": null,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": null,
+    "length_to_width_ratio": null,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "bioretention",
+      "constructed_wetland",
+      "green_roof",
+      "infiltration_basin",
+      "permeable_pavement",
+      "swale"
+    ],
+    "enriched_at": "2026-08-13T09:08:43.878Z",
+    "enrich_model": "composer-2.5:run-d503a5fb-1245-46b2-b4d3-bef2869f462f",
+    "enrich_notes": "Corpus includes Ch. 8 §806.21.2 direct percolation and drywell supplement (0.1 cfs de-rated minimum for dual-chamber drywells; ADEQ 100-ft setback from groundwater wells) but not Section 806 retention depth/volume tables cited in Atlas. LID numeric criteria deferred to external Mesa LID Toolkit per §1112.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "wqv_depth_inches",
+      "max_drawdown_hours",
+      "shwt_separation_inches",
+      "bioretention_media_depth_min_inches",
+      "bioretention_ponding_depth_inches",
+      "permeable_pavement_storage_depth_inches",
+      "design_infiltration_rate_in_per_hr",
+      "permanent_pool_depth_inches",
+      "ed_drain_time_hours",
+      "length_to_width_ratio",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "swale_longitudinal_slope_percent",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

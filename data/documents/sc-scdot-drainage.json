@@ -48,18 +48,54 @@
       "page_or_section": null
     },
     {
-      "field": "design_criteria.approved_bmp_categories",
-      "excerpt": "Bioretention, Infiltration Trench, Wet Pond, Dry Pond",
-      "page_or_section": null
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "store and release the first ½ inch of runoff from the entire Project site over a minimum period of 24 hours",
+      "page_or_section": "3.3.3.1 Design Removal Efficiency Goal/Performance Standard, page 3-8"
+    },
+    {
+      "field": "design_parameters.ed_drain_time_hours",
+      "excerpt": "Design permanent water quality structures not having a permanent pool elevation (dry structures) to store and release the first one (1) inch of runoff from the Project site over a minimum period of 24 hours.",
+      "page_or_section": "3.3.3.1, page 3-8"
+    },
+    {
+      "field": "design_parameters.swale_longitudinal_slope_percent",
+      "excerpt": "vegetated channels and swales with a slope less than or equal to 1% may be 75 feet long",
+      "page_or_section": "5.1 Post-Construction BMP Policy, page 5-1"
+    },
+    {
+      "field": "practice_mentions.wet_pond",
+      "excerpt": "Design permanent water quality ponds and detention structures having a permanent pool elevation to store and release the first ½ inch of runoff",
+      "page_or_section": "3.3.3.1, page 3-8"
+    },
+    {
+      "field": "practice_mentions.extended_detention",
+      "excerpt": "Dry stormwater ponds are constructed stormwater basins that do not have a permanent pool of water.",
+      "page_or_section": "Table 2, page 5-4"
+    },
+    {
+      "field": "practice_mentions.infiltration_trench",
+      "excerpt": "Design permanent water quality infiltration practices to accommodate, at a minimum, the first one (1) inch of runoff from impervious areas",
+      "page_or_section": "3.3.3.1, page 3-8"
+    },
+    {
+      "field": "practice_mentions.manufactured_treatment",
+      "excerpt": "Design MTDs to treat at a minimum the peak flow rate of the stormwater runoff from the 1.8-inch, 1-year, 24-hour storm event",
+      "page_or_section": "3.3.3.1, page 3-8"
+    },
+    {
+      "field": "design_parameters.wqv_depth_inches",
+      "excerpt": "retain the first 1½ inches of runoff from built-upon portions of the Project",
+      "page_or_section": "3.3.3.1 shellfish beds, page 3-8"
     }
   ],
   "extraction_quality": {
     "confidence": "medium",
     "needs_human_review": true,
-    "review_notes": "Heuristic agency extract from prepared text. SCDOT Stormwater Quality Design Manual (SWQDM)",
+    "review_notes": "Heuristic agency extract from prepared text. SCDOT Stormwater Quality Design Manual (SWQDM) Pipeline excerpt repair removed 1 unlocated citation(s).",
     "fields_not_found": [
       "design_criteria.peak_flow_calculation_method",
-      "design_criteria.required_hydrologic_hydraulic_software"
+      "design_criteria.required_hydrologic_hydraulic_software",
+      "design_criteria.approved_bmp_categories"
     ]
   },
   "source": {
@@ -67,5 +103,50 @@
     "landing_page_url": "https://www.scdot.org/",
     "retrieved_at": "2026-08-11T17:59:10.535Z",
     "original_filename": "sc-scdot-drainage.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": null,
+    "max_drawdown_hours": 24,
+    "shwt_separation_inches": null,
+    "bioretention_media_depth_min_inches": null,
+    "bioretention_ponding_depth_inches": null,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": null,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": 24,
+    "length_to_width_ratio": null,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": 1,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "bioretention",
+      "extended_detention",
+      "infiltration_trench",
+      "manufactured_treatment",
+      "swale",
+      "wet_pond"
+    ],
+    "enriched_at": "2026-08-13T10:06:49.028Z",
+    "enrich_model": "composer-2.5:run-ceea39b0-82a9-4fb0-b8aa-4090e1e2b3eb",
+    "enrich_notes": "SCDOT uses practice-specific runoff capture depths (0.5 in permanent-pool ponds, 1.0 in dry/detention and infiltration, 1.5 in near shellfish) rather than one global WQv depth in the provided excerpts. Appendix E/F design tables are referenced but not included in corpus. MTD design cites SC-M-815-13, not TAPE/NJCAT.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "wqv_depth_inches",
+      "shwt_separation_inches",
+      "bioretention_media_depth_min_inches",
+      "bioretention_ponding_depth_inches",
+      "permeable_pavement_storage_depth_inches",
+      "design_infiltration_rate_in_per_hr",
+      "permanent_pool_depth_inches",
+      "length_to_width_ratio",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

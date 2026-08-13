@@ -64,6 +64,51 @@
       "field": "design_criteria.approved_bmp_categories",
       "excerpt": "Roof Runoff & Impervious Surfaces 3.2 Vegetated Filter Strip 3.3 Vegetated Swale 3.4 Rainwater Harvesting 3.5 Bioretention Systems 3.5.1 Requirements 3.5.2 Sizing a Bioretention system 3.5.3 Engineered Soil Media 3.5.4 Underdrain 3.5.5 Observation/Cleanout Pipe 3.5.6 Positive O",
       "page_or_section": "p. 2"
+    },
+    {
+      "field": "design_parameters.wqv_depth_inches",
+      "excerpt": "P = depth of runoff to treat (1\" under these guidelines)",
+      "page_or_section": "3.5.2 Sizing a Bioretention System, page 15"
+    },
+    {
+      "field": "design_parameters.wqv_depth_inches",
+      "excerpt": "treatment of the first 1\" of runoff",
+      "page_or_section": "Table 6 / 3.5.1 Requirements, page 14"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "Ponding duration not to exceed 24 hours.",
+      "page_or_section": "Table 6 Surface Ponding, page 14"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "designed so that surface ponding does not exceed 24 hours",
+      "page_or_section": "1.5 Bioretention Systems, page 30"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "capacity to drain the surface of the system within 24 hours",
+      "page_or_section": "1.6.1 Underdrain, page 34"
+    },
+    {
+      "field": "design_parameters.bioretention_media_depth_min_inches",
+      "excerpt": "Engineered Soil Media depth should be determined ... (typically between 18 and 24 inches).",
+      "page_or_section": "1.5.2 Engineered Soil Media, page 31"
+    },
+    {
+      "field": "design_parameters.bioretention_media_depth_min_inches",
+      "excerpt": "Df = engineered soil media depth in Feet (typically 1.5 – 2.0)",
+      "page_or_section": "3.5.2 Sizing a Bioretention System, page 15"
+    },
+    {
+      "field": "design_parameters.design_infiltration_rate_in_per_hr",
+      "excerpt": "meet Harris County minimum 30\"/hour Infiltration rate requirements",
+      "page_or_section": "Appendix B, page 42"
+    },
+    {
+      "field": "design_parameters.design_infiltration_rate_in_per_hr",
+      "excerpt": "must provide a minimum safety factor of 2",
+      "page_or_section": "3.5.3 Engineered Soil Media, page 15"
     }
   ],
   "extraction_quality": {
@@ -84,5 +129,47 @@
     "landing_page_url": "https://oce.harriscountytx.gov/Services/Consultants-Resources-and-Specifications/Watershed-Protection/LID-Green-Infrastructure",
     "retrieved_at": "2026-08-10T09:18:00.000Z",
     "original_filename": "harris-county-tx.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": 1,
+    "max_drawdown_hours": 24,
+    "shwt_separation_inches": null,
+    "bioretention_media_depth_min_inches": 18,
+    "bioretention_ponding_depth_inches": null,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": 30,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": null,
+    "length_to_width_ratio": null,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "bioretention",
+      "green_roof",
+      "permeable_pavement",
+      "swale"
+    ],
+    "enriched_at": "2026-08-13T08:30:32.712Z",
+    "enrich_model": "composer-2.5:run-35380dbe-fc77-462b-8e98-6ed65ceb7ed0",
+    "enrich_notes": "WQv uses P = 1 inch runoff depth (Vwq = P/12 × A). LID detention features target drain within 72 hours unless pre-existing conditions take longer. Bioretention Table 6 lists max surface ponding 2 ft (2-yr) and 4 ft (100-yr); general text cites ~12–24 in ponding with max duration 24 h. Engineered media Df typically 1.5–2.0 ft; appendix media depth guidance 18–24 in. Design infiltration uses safety factor 2; Appendix B as-built minimum 30 in/hr. Permeable pavement must drain surface within 24 h. Extensive green roofs cite 4–8 in growth media (range, no single design depth). Tree box filters and storm water planters reference bioretention criteria.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "shwt_separation_inches",
+      "bioretention_ponding_depth_inches",
+      "permeable_pavement_storage_depth_inches",
+      "permanent_pool_depth_inches",
+      "ed_drain_time_hours",
+      "length_to_width_ratio",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "swale_longitudinal_slope_percent",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

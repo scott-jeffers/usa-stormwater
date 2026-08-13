@@ -144,6 +144,26 @@
       "field": "design_criteria.approved_bmp_categories",
       "excerpt": "This manual introduces the use of Low Impact Development (LID) practices.",
       "page_or_section": "Section 1.5"
+    },
+    {
+      "field": "design_parameters.wqv_depth_inches",
+      "excerpt": "First-flush retention is defined as the capturing and retaining of the stormwater runoff volume from 0.5 inch of rainfall on all newly disturbed or impervious areas",
+      "page_or_section": "Section 1.5 / page 17"
+    },
+    {
+      "field": "design_parameters.wqv_depth_inches",
+      "excerpt": "The first-flush runoff volume is the volume of stormwater runoff from 0.5 inch of rainfall that is expected to discharge from impervious and disturbed areas. The 0.5-inch rainfall event is the 85th percentile storm event",
+      "page_or_section": "Section 2.1 / page 20"
+    },
+    {
+      "field": "design_parameters.bioretention_media_depth_min_inches",
+      "excerpt": "The constructed soil medium shall be 16 inches to 36 inches deep.",
+      "page_or_section": "Section 5.7 Bioretention Basin / page 71"
+    },
+    {
+      "field": "design_parameters.bioretention_ponding_depth_inches",
+      "excerpt": "The bioretention basin shall have a flat-topped surface that is depressed a minimum of 6 inches and a maximum of 12 inches below adjacent finished grade.",
+      "page_or_section": "Section 5.7 / page 71"
     }
   ],
   "extraction_quality": {
@@ -157,5 +177,49 @@
     "landing_page_url": "https://www.tucsonaz.gov/Departments/Planning-Development-Services/Codes/Engineering-Codes",
     "retrieved_at": "2026-08-08T11:41:45.970Z",
     "original_filename": "updated-retention-detention-manual.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": 0.5,
+    "max_drawdown_hours": null,
+    "shwt_separation_inches": null,
+    "bioretention_media_depth_min_inches": 16,
+    "bioretention_ponding_depth_inches": null,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": null,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": null,
+    "length_to_width_ratio": null,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "bioretention",
+      "extended_detention",
+      "permeable_pavement",
+      "swale"
+    ],
+    "enriched_at": "2026-08-13T10:24:21.869Z",
+    "enrich_model": "composer-2.5:run-f8027483-f701-467d-bf91-85a9864fef99",
+    "enrich_notes": "First-flush retention uses 0.5-inch rainfall (85th percentile); Table 2.1 gives retention volumes (e.g., 1440 ft³/ac impervious lower-permeability, 1815 ft³/ac riparian). Bioretention surface depression is 6–12 inches below grade (min and max both stated). Bioretention gravel subbase 6–24 inches; engineered medium void space assumed 30%. Stormwater/roadside/non-contributing harvesting basins: max storage depth 9 inches, min freeboard 3 inches. Retention within detention basins: max 9 inches below lowest outlet. Dry wells: design percolation Pd=Pr/Dr (in/hr), 10-ft minimum from water table/impermeable layer to injection screen base; not a single fixed infiltration rate. Pervious pavement analyzed as disturbed, not impervious; no section storage depth in excerpts.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "max_drawdown_hours",
+      "shwt_separation_inches",
+      "bioretention_ponding_depth_inches",
+      "permeable_pavement_storage_depth_inches",
+      "design_infiltration_rate_in_per_hr",
+      "permanent_pool_depth_inches",
+      "ed_drain_time_hours",
+      "length_to_width_ratio",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "swale_longitudinal_slope_percent",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

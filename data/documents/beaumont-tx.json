@@ -48,6 +48,26 @@
       "field": "design_criteria.peak_flow_calculation_method",
       "excerpt": "hypothetical 24-hr, 10-year, 25-year, 50-year, and 100-year storm rainfall distribution based on the Atlas 14 report",
       "page_or_section": "Hydrologic Design Criteria"
+    },
+    {
+      "field": "practice_mentions.extended_detention",
+      "excerpt": "A detention facility is designed to store the increased runoff while releasing discharges continuously at acceptable rates through flow-limiting outlet structures",
+      "page_or_section": "10. On-Site Detention and Retention Criteria, page 28"
+    },
+    {
+      "field": "practice_mentions.wet_pond",
+      "excerpt": "A retention facility, often designed to have a permanent pool, is designed to store runoff and release it after the passage of peak flows.",
+      "page_or_section": "10.1 General, page 28"
+    },
+    {
+      "field": "practice_mentions.swale",
+      "excerpt": "E. Curb cut overflow and swale overflow.",
+      "page_or_section": "7.3 Design Schematics, page 24"
+    },
+    {
+      "field": "practice_mentions.swale",
+      "excerpt": "A swale ditch is to be constructed just beyond the outside edge of the maintenance berm to convey water to downspouts",
+      "page_or_section": "10.5 District Maintenance of Subdivision Detention Basins, page 30"
     }
   ],
   "extraction_quality": {
@@ -61,5 +81,50 @@
     "landing_page_url": "https://dd6.org/",
     "retrieved_at": "2026-08-10T10:42:30.501Z",
     "original_filename": "beaumont-tx.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": null,
+    "max_drawdown_hours": null,
+    "shwt_separation_inches": null,
+    "bioretention_media_depth_min_inches": null,
+    "bioretention_ponding_depth_inches": null,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": null,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": null,
+    "length_to_width_ratio": null,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "extended_detention",
+      "swale",
+      "wet_pond"
+    ],
+    "enriched_at": "2026-08-13T07:34:10.752Z",
+    "enrich_model": "composer-2.5:run-4524396f-7f82-4795-930d-3625f5ac84e7",
+    "enrich_notes": "Jefferson County DD6 Drainage Criteria Manual (July 2025) emphasizes net-zero increase in runoff for impervious additions greater than 0.25 acres, on-site detention with flow-limiting outlets, and retention (often with permanent pool). Atlas 14 rainfall referenced for master drainage plans. Provided excerpts contain peak-flow, outfall, and conveyance criteria—not post-construction WQv depth or SCM sizing parameters. City of Beaumont MS4 standards may apply separately where more restrictive.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "wqv_depth_inches",
+      "max_drawdown_hours",
+      "shwt_separation_inches",
+      "bioretention_media_depth_min_inches",
+      "bioretention_ponding_depth_inches",
+      "permeable_pavement_storage_depth_inches",
+      "design_infiltration_rate_in_per_hr",
+      "permanent_pool_depth_inches",
+      "ed_drain_time_hours",
+      "length_to_width_ratio",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "swale_longitudinal_slope_percent",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

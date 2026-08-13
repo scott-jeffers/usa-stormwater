@@ -29,11 +29,6 @@
   },
   "evidence": [
     {
-      "field": "document_metadata.jurisdiction_name",
-      "excerpt": "Louisiana",
-      "page_or_section": "Title / header"
-    },
-    {
       "field": "document_metadata.document_title",
       "excerpt": "LADOTD Hydraulics Manual",
       "page_or_section": "Title / header"
@@ -47,16 +42,22 @@
       "field": "design_criteria.peak_flow_calculation_method",
       "excerpt": "--------------------------- 3 – 2 3.4.3 Rational Method ------------------------------------------------------------------- 3 –",
       "page_or_section": null
+    },
+    {
+      "field": "practice_mentions.swale",
+      "excerpt": "profiles of ground elevations ... whether gutter (or swale ditch) grades are low enough to provide for drainage",
+      "page_or_section": "2.6.3 Plan / Profile Sheets (page 29)"
     }
   ],
   "extraction_quality": {
     "confidence": "medium",
     "needs_human_review": true,
-    "review_notes": "Heuristic agency extract from prepared text. LADOTD Hydraulics Manual (2011)",
+    "review_notes": "Heuristic agency extract from prepared text. LADOTD Hydraulics Manual (2011) Pipeline excerpt repair removed 1 unlocated citation(s).",
     "fields_not_found": [
       "design_criteria.water_quality_volume_method",
       "design_criteria.required_hydrologic_hydraulic_software",
-      "design_criteria.approved_bmp_categories"
+      "design_criteria.approved_bmp_categories",
+      "document_metadata.jurisdiction_name"
     ]
   },
   "source": {
@@ -64,5 +65,48 @@
     "landing_page_url": "https://dotd.la.gov/about/office-of-project-delivery/engineering/public-works/hydraulics/",
     "retrieved_at": "2026-08-11T17:59:10.560Z",
     "original_filename": "la-ladotd-drainage.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": null,
+    "max_drawdown_hours": null,
+    "shwt_separation_inches": null,
+    "bioretention_media_depth_min_inches": null,
+    "bioretention_ponding_depth_inches": null,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": null,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": null,
+    "length_to_width_ratio": null,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "swale"
+    ],
+    "enriched_at": "2026-08-13T08:50:01.982Z",
+    "enrich_model": "composer-2.5:run-736cf637-9fea-4c57-be89-b7f00d0148c1",
+    "enrich_notes": "Provided excerpts are preface, table of contents, NRCS peak-runoff soil groups, cross-drain headwater limits, and bridge scour—not stormwater BMP/SCM sizing chapters. No WQv depth, drawdown, SHWT separation, or canonical BMP dimension criteria appear in this corpus. NRCS Table 3-B.6-1 lists hydrologic soil group water-transmission ranges (e.g. Group A >0.30 in/hr) for runoff estimation, not an explicit SCM design infiltration rate.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "wqv_depth_inches",
+      "max_drawdown_hours",
+      "shwt_separation_inches",
+      "bioretention_media_depth_min_inches",
+      "bioretention_ponding_depth_inches",
+      "permeable_pavement_storage_depth_inches",
+      "design_infiltration_rate_in_per_hr",
+      "permanent_pool_depth_inches",
+      "ed_drain_time_hours",
+      "length_to_width_ratio",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "swale_longitudinal_slope_percent",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

@@ -55,6 +55,26 @@
       "field": "document_metadata.relationship_to_state_manual",
       "excerpt": "independent city engineering design manual",
       "page_or_section": "Coverage note"
+    },
+    {
+      "field": "design_parameters.swale_longitudinal_slope_percent",
+      "excerpt": "All earthen drainage swales draining areas less than one cumulative acre shall have a 2% minimum slope. ... All paved drainage swales shall have a 1% minimum slope.",
+      "page_or_section": "Section 3.1.14, Drainage Design Requirements 3-3 (mesquite-tx-c0065)"
+    },
+    {
+      "field": "practice_mentions.swale",
+      "excerpt": "Drop inlets shall only be located to collect water on non-paved areas where it is not practical to use a headwall, such as swales.",
+      "page_or_section": "Section 3.4, Drainage Design Requirements 3-18 (mesquite-tx-c0078)"
+    },
+    {
+      "field": "practice_mentions.extended_detention",
+      "excerpt": "Detention Basin – A dry basin or depression constructed to temporarily store stormwater runoff and discharge the water over time at a reduced rate than would have otherwise occurred.",
+      "page_or_section": "Section 9 Definitions, 9-2 (mesquite-tx-c0171)"
+    },
+    {
+      "field": "practice_mentions.extended_detention",
+      "excerpt": "Detention/Retention Facilities and Levees – An easement must encompass the entire facility plus 15 feet on all sides measured from the top of bank.",
+      "page_or_section": "Section 1.8.8.E, General Design Requirements 1-8 (mesquite-tx-c0008)"
     }
   ],
   "extraction_quality": {
@@ -72,5 +92,49 @@
     "landing_page_url": "https://www.cityofmesquite.com/2065/Engineering-Design-Manual",
     "retrieved_at": "2026-08-10T09:54:53.503Z",
     "original_filename": "mesquite-tx.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": null,
+    "max_drawdown_hours": null,
+    "shwt_separation_inches": null,
+    "bioretention_media_depth_min_inches": null,
+    "bioretention_ponding_depth_inches": null,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": null,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": null,
+    "length_to_width_ratio": null,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "extended_detention",
+      "swale"
+    ],
+    "enriched_at": "2026-08-13T09:09:12.015Z",
+    "enrich_model": "composer-2.5:run-746b3e8f-8410-46d1-9444-9868430b5fb0",
+    "enrich_notes": "Provided excerpts are mostly Section 1, roadway (Section 2), partial Section 3 (lot grading, inlets, open channels, erosion BMPs §3.11), utilities, and definitions—not Table 3-1 design storms or detailed SCM sizing. Swale grading: earthen drainage swales under 1 ac require 2% minimum longitudinal slope; paved drainage swales 1%; side/back yards 1%. No WQv depth, infiltration rates, drawdown times, or bioretention/permeable/green-roof/wetland/manufactured-treatment design numbers in corpus. Detention/retention referenced for easements and as approved facility type; Detention Basin defined as dry temporary storage with delayed release.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "wqv_depth_inches",
+      "max_drawdown_hours",
+      "shwt_separation_inches",
+      "bioretention_media_depth_min_inches",
+      "bioretention_ponding_depth_inches",
+      "permeable_pavement_storage_depth_inches",
+      "design_infiltration_rate_in_per_hr",
+      "permanent_pool_depth_inches",
+      "ed_drain_time_hours",
+      "length_to_width_ratio",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "swale_longitudinal_slope_percent",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

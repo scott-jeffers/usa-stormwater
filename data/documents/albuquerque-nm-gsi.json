@@ -69,6 +69,46 @@
       "field": "design_criteria.approved_bmp_categories",
       "excerpt": "Bioswale, Infiltration Trench, Stormwater Curb Extension, Raised Median, Stormwater Tree Pit with Grate, Stormwater Planter Box, Pervious Pavement, Permeable Check Dam, Stacked Stone Erosion Control Basin \"Zuni Bowl\", Stone Channel Plating, Contour Swale, Media Luna Flow Spreader",
       "page_or_section": "Table of Contents, Pages 4-5"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "Requires permeable soils for infiltration in under 96 hours.",
+      "page_or_section": "Glossary / Infiltration Trench, page 26"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "Intended to release water into the soil within 96 hours.",
+      "page_or_section": "Glossary / Passive Rainwater Harvesting, page 26"
+    },
+    {
+      "field": "design_parameters.shwt_separation_inches",
+      "excerpt": "Bottom of trench should be at least 3' above seasonal high water table",
+      "page_or_section": "Infiltration Trench 3.0 DPM DETAIL 3.0, page 9"
+    },
+    {
+      "field": "design_parameters.design_infiltration_rate_in_per_hr",
+      "excerpt": "If native soils have a minimum infiltration rate of < 0.1 inches per hour, supplemental drainage systems may be required.",
+      "page_or_section": "Pervious Pavement DPM DETAIL 9.0, page 18"
+    },
+    {
+      "field": "practice_mentions.swale",
+      "excerpt": "Bioswales are linear stormwater management features used to convey, slow, and treat runoff",
+      "page_or_section": "Bioswale 1.0, page 7"
+    },
+    {
+      "field": "practice_mentions.infiltration_trench",
+      "excerpt": "TYPE 2 INFILTRATION TRENCH CONCENTRATED INLET",
+      "page_or_section": "Infiltration Trench 3.0, page 9"
+    },
+    {
+      "field": "practice_mentions.permeable_pavement",
+      "excerpt": "Pervious pavement refers to a wide variety of surfaces... that effectively treat, detains, and infiltrates stormwater runoff",
+      "page_or_section": "Pervious Pavement 9.0, page 18"
+    },
+    {
+      "field": "practice_mentions.bioretention",
+      "excerpt": "Bioretention See 'Bioinfiltration.' which is more accurate for a New Mexico context.",
+      "page_or_section": "Glossary DPM DETAIL 14.0, page 25"
     }
   ],
   "extraction_quality": {
@@ -89,5 +129,48 @@
     "landing_page_url": "https://www.bernco.gov/",
     "retrieved_at": "2026-08-08T01:05:00.000Z",
     "original_filename": "albuquerque-nm-gsi.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": null,
+    "max_drawdown_hours": 96,
+    "shwt_separation_inches": 36,
+    "bioretention_media_depth_min_inches": null,
+    "bioretention_ponding_depth_inches": null,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": 0.1,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": null,
+    "length_to_width_ratio": null,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "bioretention",
+      "infiltration_trench",
+      "permeable_pavement",
+      "swale"
+    ],
+    "enriched_at": "2026-08-13T07:22:26.204Z",
+    "enrich_model": "composer-2.5:run-85904939-74e1-4cc6-9008-a89d215ceb5b",
+    "enrich_notes": "Bernalillo County GSI digest emphasizes desert bioinfiltration (bioswales/rain gardens) with supplemental irrigation; quantitative WQV sizing deferred to Ordinance 2107-8 and DPM. Infiltration practices reference 96-hour drawdown/infiltration timing and 3 ft SHWT clearance for trenches. Permeable pavement cites 0.1 in/hr native soil threshold for supplemental drainage; base/sub-base layer mins (4 in, 6 in) are separate components, not a single storage depth.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "wqv_depth_inches",
+      "bioretention_media_depth_min_inches",
+      "bioretention_ponding_depth_inches",
+      "permeable_pavement_storage_depth_inches",
+      "permanent_pool_depth_inches",
+      "ed_drain_time_hours",
+      "length_to_width_ratio",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "swale_longitudinal_slope_percent",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

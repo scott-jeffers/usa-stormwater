@@ -51,6 +51,26 @@
       "field": "design_criteria.water_quality_volume_method",
       "excerpt": "Treat runoff from 90% of average-year storms",
       "page_or_section": "Alaska Storm Water Guide"
+    },
+    {
+      "field": "design_parameters.wqv_depth_inches",
+      "excerpt": "the rainfall depth associated with 90 percent of the runoff producing storms is 1.25 inches",
+      "page_or_section": "Chapter 2, Box 1 Example 1 (Coastal Climatic Region), page 59"
+    },
+    {
+      "field": "design_parameters.wqv_depth_inches",
+      "excerpt": "P = design rainfall depth (90% cumulative frequency depth) (~ 0.5 to 1.25 inches)",
+      "page_or_section": "Table 3-4 Unified sizing criteria, page 78"
+    },
+    {
+      "field": "design_parameters.ed_drain_time_hours",
+      "excerpt": "Provide 24 hours of extended detention of the runoff from the 1-year, 24-hour duration storm event",
+      "page_or_section": "Table 3-4 Channel Protection Storage Volume Cpv, page 78"
+    },
+    {
+      "field": "design_parameters.green_roof_slope_percent",
+      "excerpt": "Green roofs can be installed on building roofs with slopes up to 25 percent.",
+      "page_or_section": "Chapter 5 Green Roof Design Adaptation for Alaska, page 200"
     }
   ],
   "extraction_quality": {
@@ -64,5 +84,54 @@
     "landing_page_url": "https://plants.alaska.gov/",
     "retrieved_at": "2026-08-10T10:10:49.504Z",
     "original_filename": "juneau-ak.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": 1.25,
+    "max_drawdown_hours": null,
+    "shwt_separation_inches": null,
+    "bioretention_media_depth_min_inches": null,
+    "bioretention_ponding_depth_inches": null,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": null,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": 24,
+    "length_to_width_ratio": null,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": 25,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "bioretention",
+      "constructed_wetland",
+      "extended_detention",
+      "green_roof",
+      "infiltration_basin",
+      "manufactured_treatment",
+      "permeable_pavement",
+      "sand_filter",
+      "swale",
+      "wet_pond"
+    ],
+    "enriched_at": "2026-08-13T08:44:30.196Z",
+    "enrich_model": "composer-2.5:run-2bba3978-fca6-4462-a82a-294c45b41242",
+    "enrich_notes": "WQv uses P from local 90% storm or snowmelt analysis; Coastal/Southeast example uses 1.25 in rainfall (Interior examples use 0.5 in rain or 1.2 in melt). Unified sizing also cites P roughly 0.5–1.25 in and annual rainfall note up to 1.25–1.75 in. Juneau aligns with Coastal region feasibility tables. Oil/grit separators need 50% TSS removal for particles >20 µm under 2-year, 6-hour event (ADEC non-objection), not a numeric MTD verification program.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "max_drawdown_hours",
+      "shwt_separation_inches",
+      "bioretention_media_depth_min_inches",
+      "bioretention_ponding_depth_inches",
+      "permeable_pavement_storage_depth_inches",
+      "design_infiltration_rate_in_per_hr",
+      "permanent_pool_depth_inches",
+      "length_to_width_ratio",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "swale_longitudinal_slope_percent",
+      "green_roof_media_depth_inches",
+      "mtd_verification_program"
+    ]
   }
 }

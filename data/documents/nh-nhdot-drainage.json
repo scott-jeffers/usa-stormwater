@@ -56,6 +56,36 @@
       "field": "design_criteria.peak_flow_calculation_method",
       "excerpt": "............................ 3-10 3.2.1 Rational Method.........................................................................",
       "page_or_section": null
+    },
+    {
+      "field": "practice_mentions.swale",
+      "excerpt": "Treatment swales are designed to promote sedimentation and infiltration by providing a minimum hydraulic residence time within the channel under design flow conditions.",
+      "page_or_section": "Section 4.0.3 Open Channel Treatment Practices, 4-6"
+    },
+    {
+      "field": "practice_mentions.swale",
+      "excerpt": "the NHDES Stormwater Manuals are used for design considerations and maintenance requirements.",
+      "page_or_section": "Section 4.0.3, 4-6"
+    },
+    {
+      "field": "practice_mentions.bioretention",
+      "excerpt": "Where stormwater can be temporarily impounded safely, such as open space areas, and some parking lot areas, or LID rain gardens; an inlet grate can be used effectively to slowly release water",
+      "page_or_section": "Section 4.0.15 Hydraulic Analysis of Pavement Inlets, 4-33"
+    },
+    {
+      "field": "practice_mentions.permeable_pavement",
+      "excerpt": "Porous pavement consists of pervious asphalt or concrete surfacing with several feet of free draining granular soil installed below the pavement to provide treatment to the infiltrating surface water.",
+      "page_or_section": "Section 4.0.23 Other Underdrain Applications, 4-53"
+    },
+    {
+      "field": "practice_mentions.wet_pond",
+      "excerpt": "Water Treatment Ponds – Some treatment ponds utilize underdrain between pond segments to collect water infiltrating through the soil.",
+      "page_or_section": "Section 4.0.23 Other Underdrain Applications, 4-53"
+    },
+    {
+      "field": "design_parameters.design_infiltration_rate_in_per_hr",
+      "excerpt": "Note: These values are approximate references. If needed, contact the NHDOT Geotechnical Section for site specific design infiltration rates.",
+      "page_or_section": "Table 0.a Hydrologic Soil Group Descriptions, 3-9"
     }
   ],
   "extraction_quality": {
@@ -72,5 +102,51 @@
     "landing_page_url": "https://www.dot.nh.gov/doing-business-nhdot/engineers-consultants/highway-design-manual",
     "retrieved_at": "2026-08-11T17:59:10.631Z",
     "original_filename": "nh-nhdot-drainage.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": null,
+    "max_drawdown_hours": null,
+    "shwt_separation_inches": null,
+    "bioretention_media_depth_min_inches": null,
+    "bioretention_ponding_depth_inches": null,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": null,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": null,
+    "length_to_width_ratio": null,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "bioretention",
+      "permeable_pavement",
+      "swale",
+      "wet_pond"
+    ],
+    "enriched_at": "2026-08-13T09:23:52.728Z",
+    "enrich_model": "composer-2.5:run-9098e2b1-14eb-465c-a758-fd49442b8457",
+    "enrich_notes": "NHDOT highway drainage manual; water-quality treatment swales reference minimum hydraulic residence time under design flow but give no numeric WQv depth, drawdown, or swale geometry. BMP design criteria are deferred to NHDES Stormwater Manuals. HSG Table 0.a lists approximate minimum infiltration rate ranges (in/hr) by soil group—not a single SCM design infiltration rate. Porous pavement described qualitatively as several feet of free-draining granular soil below surfacing with no storage depth in inches.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "wqv_depth_inches",
+      "max_drawdown_hours",
+      "shwt_separation_inches",
+      "bioretention_media_depth_min_inches",
+      "bioretention_ponding_depth_inches",
+      "permeable_pavement_storage_depth_inches",
+      "design_infiltration_rate_in_per_hr",
+      "permanent_pool_depth_inches",
+      "ed_drain_time_hours",
+      "length_to_width_ratio",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "swale_longitudinal_slope_percent",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

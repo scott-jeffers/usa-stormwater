@@ -36,6 +36,61 @@
       "field": "document_metadata.jurisdiction_name",
       "excerpt": "City of Melbourne (SJRWMD) — coverage via Jacksonville LDPM Vol 2 pattern",
       "page_or_section": "Coverage note"
+    },
+    {
+      "field": "design_parameters.wqv_depth_inches",
+      "excerpt": "Treatment Volume 1-inch runoff: TV = (10 ac x 1 inch) / 12 = 0.83 acre-feet",
+      "page_or_section": "Section 4.3 Design Example / page 118 (LDPM Vol 2)"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "Standing water must be recovered within 72 hours.",
+      "page_or_section": "Section 4.3 Grassed Conveyance Swales / page 105"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "All standing water must be recovered through surface discharge or percolation in less than 72 hours under SHWL conditions",
+      "page_or_section": "Section 4.3 Recovery Requirements / page 110"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "Surface ponding area must be recovered within 72 hours.",
+      "page_or_section": "Section 4.4 Shallow Bioretention / page 121"
+    },
+    {
+      "field": "design_parameters.shwt_separation_inches",
+      "excerpt": "Shallow Water Table: To receive pollutant-load-reduction credits, the SHWL should be at least 6 inches below the bottom of the grassed conveyance swale.",
+      "page_or_section": "Section 4.3 / page 105"
+    },
+    {
+      "field": "design_parameters.shwt_separation_inches",
+      "excerpt": "SHWL should be a minimum of 6 inches below the bottom of the planting media or nutrient- sorption layer.",
+      "page_or_section": "Section 4.4 Shallow Bioretention / page 121"
+    },
+    {
+      "field": "design_parameters.shwt_separation_inches",
+      "excerpt": "SHWL – Must be at least 0.5 foot below the bottom of the surface ponding area.",
+      "page_or_section": "Section 4.4.1 Physical Constraints / page 123"
+    },
+    {
+      "field": "design_parameters.swale_bottom_width_inches",
+      "excerpt": "Recommended bottom width of 2 to 8 feet.",
+      "page_or_section": "Section 4.3 Design Criteria / page 105"
+    },
+    {
+      "field": "design_parameters.swale_bottom_width_inches",
+      "excerpt": "the swale should have an approximately trapezoidal shape with a bottom width of at least 2 feet to allow mowing.",
+      "page_or_section": "Section 4.3 Sizing Requirements / page 108"
+    },
+    {
+      "field": "practice_mentions.swale",
+      "excerpt": "Longitudinal slope between 0.5 percent and 3 percent.",
+      "page_or_section": "Section 4.3 Design Criteria / page 105"
+    },
+    {
+      "field": "practice_mentions.permeable_pavement",
+      "excerpt": "If the pervious pavement system infiltration rates measured using the installed testing device are less than 1.5 inches per hour, maintenance must be performed",
+      "page_or_section": "Section 4.5 Maintenance Requirements / page 136"
     }
   ],
   "extraction_quality": {
@@ -49,5 +104,47 @@
     "landing_page_url": "https://www.sjrwmd.com/documents/permitting/",
     "retrieved_at": "2026-08-10T10:42:30.501Z",
     "original_filename": "melbourne-fl.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": 1,
+    "max_drawdown_hours": 72,
+    "shwt_separation_inches": 6,
+    "bioretention_media_depth_min_inches": null,
+    "bioretention_ponding_depth_inches": null,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": null,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": null,
+    "length_to_width_ratio": null,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": 24,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "bioretention",
+      "permeable_pavement",
+      "swale",
+      "wet_pond"
+    ],
+    "enriched_at": "2026-08-13T09:08:02.089Z",
+    "enrich_model": "composer-2.5:run-c87c8733-c7c9-4e53-89aa-b121495d7169",
+    "enrich_notes": "Corpus is Jacksonville LDPM Vol 2 (Jan 2026) as east-central FL municipal proxy for Melbourne; SJRWMD 3-year/1-hour storm and net-improvement framing appear in swale/wet-detention examples. Swale longitudinal slope is explicitly 0.5–3% (no single design value). Bioretention SHWL also stated as 0.5 ft below surface ponding area (6 in). Pervious pavement maintenance threshold 1.5 in/hr surface infiltration; Figure 4.5-4 references SHWL within 24 in of reservoir bottom for capture modeling. Basin infiltration design uses safety factor of 2 on double-ring infiltrometer (Section 3.7). Green roof listed as LID strategy only—no numeric roof criteria in excerpts.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "bioretention_media_depth_min_inches",
+      "bioretention_ponding_depth_inches",
+      "permeable_pavement_storage_depth_inches",
+      "design_infiltration_rate_in_per_hr",
+      "permanent_pool_depth_inches",
+      "ed_drain_time_hours",
+      "length_to_width_ratio",
+      "wetland_detention_hours",
+      "swale_longitudinal_slope_percent",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

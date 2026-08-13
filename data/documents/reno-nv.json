@@ -96,6 +96,51 @@
       "field": "design_criteria.approved_bmp_categories",
       "excerpt": "TC-10 Vegetated Swales ... TC-20 Infiltration Trenches ... TC-40 Sedimentation Basins ... TC-50 Stormwater Ponds ... TC-62 Porous Pavements ... MTC-10 Hydrodynamic Separators",
       "page_or_section": "Section 6.8–6.9 Table of Contents, Pages ii–iii"
+    },
+    {
+      "field": "design_parameters.wqv_depth_inches",
+      "excerpt": "P = 90th percentile precipitation depth (0.60 inches)",
+      "page_or_section": "Section 6.3.2, page 6-4"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "To avoid mosquito breeding, t should not exceed 168 hours, or 7 days.",
+      "page_or_section": "TC-21 Infiltration Basin, page 6-42"
+    },
+    {
+      "field": "design_parameters.shwt_separation_inches",
+      "excerpt": "The seasonal high water table should be more than 4 feet below the ground surface",
+      "page_or_section": "TC-62 Porous Pavements siting, page 6-90"
+    },
+    {
+      "field": "design_parameters.bioretention_media_depth_min_inches",
+      "excerpt": "18\" min depth well mixed combination of Clean Sand (50-65%), Certified Compost or Peat Moss (5-20%), and Topsoil (20-30%)",
+      "page_or_section": "Design Guidance Worksheet TC-30, page 315"
+    },
+    {
+      "field": "design_parameters.bioretention_ponding_depth_inches",
+      "excerpt": "Maximum recommended ponding depth is 12 inches and minimum ponding depth is 6 inches",
+      "page_or_section": "TC-30 Landscape Detention, page 6-48"
+    },
+    {
+      "field": "design_parameters.design_infiltration_rate_in_per_hr",
+      "excerpt": "Minimum acceptable hydraulic conductivity is 0.5 in/hr (120 min/in) as tested with a minimum of three in-hole conductivity tests.",
+      "page_or_section": "Infiltration Basin design criteria, page 6-42"
+    },
+    {
+      "field": "design_parameters.ed_drain_time_hours",
+      "excerpt": "Target drain time, t. (48 hour min., 168 hour max.)",
+      "page_or_section": "Design Guidance Worksheet TC-40, page 316"
+    },
+    {
+      "field": "design_parameters.length_to_width_ratio",
+      "excerpt": "Detention basin length to width ratio (minimum L:W = 2:1)",
+      "page_or_section": "Design Guidance Worksheet TC-40, page 316"
+    },
+    {
+      "field": "design_parameters.swale_longitudinal_slope_percent",
+      "excerpt": "Low flow channels should be designed with a minimum continuous grade of 0.5 percent.",
+      "page_or_section": "Section 4.7 / vector control, page 4-24"
     }
   ],
   "extraction_quality": {
@@ -113,5 +158,49 @@
     "landing_page_url": "https://www.reno.gov/",
     "retrieved_at": "2026-08-08T01:30:00.000Z",
     "original_filename": "reno-nv.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": 0.6,
+    "max_drawdown_hours": 168,
+    "shwt_separation_inches": 48,
+    "bioretention_media_depth_min_inches": 18,
+    "bioretention_ponding_depth_inches": null,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": 0.5,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": 48,
+    "length_to_width_ratio": 2,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": 0.5,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "bioretention",
+      "constructed_wetland",
+      "extended_detention",
+      "green_roof",
+      "infiltration_basin",
+      "infiltration_trench",
+      "permeable_pavement",
+      "sand_filter",
+      "swale",
+      "wet_pond"
+    ],
+    "enriched_at": "2026-08-13T09:52:54.336Z",
+    "enrich_model": "composer-2.5:run-fe4d731c-213e-495b-be84-05b1d0689c0d",
+    "enrich_notes": "WQV sizing uses P=0.60 in and RV=0.05+0.009I (Section 6.3.2). Bioretention ponding DWQV is 6 in minimum and 12 in maximum (TC-30 worksheet and Section 6.8.3 narrative). Infiltration basin max drain time t must not exceed 168 h via t=WQV/(0.5(Kh/12)*A) with Kh minimum 0.5 in/hr. Porous pavement SHWT >4 ft; slopes up to 5% (blocks) or 15% (pavers) per type. ED sedimentation basins detain WQV minimum 48 h (up to 168 h max per TC-40).",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "bioretention_ponding_depth_inches",
+      "permeable_pavement_storage_depth_inches",
+      "permanent_pool_depth_inches",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

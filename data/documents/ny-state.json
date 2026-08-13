@@ -88,6 +88,46 @@
       "field": "design_criteria.approved_bmp_categories",
       "excerpt": "Acceptable practices are divided into five groups, including: I. Stormwater Ponds... II. Stormwater Wetlands... III. Infiltration Practices... IV. Filtering Practices... V. Open Channel Practices",
       "page_or_section": "Section 3.3.1"
+    },
+    {
+      "field": "design_parameters.wqv_depth_inches",
+      "excerpt": "90th percentile rainfall 1.20 inches (Section 4.2)",
+      "page_or_section": "Chapter 7, Table 7.1, page 7-1"
+    },
+    {
+      "field": "design_parameters.shwt_separation_inches",
+      "excerpt": "Tree trenches and tree pits with more than one tree per pit shall have a 2 ft min. separation to the seasonal high water table and bedrock",
+      "page_or_section": "Section 5.3.3.1, page 5-38 area"
+    },
+    {
+      "field": "design_parameters.bioretention_media_depth_min_inches",
+      "excerpt": "Infiltration rain gardens shall have a 12 inch minimum and 18 inch maximum filter media depth",
+      "page_or_section": "Fact Sheet: Rain Garden (RR-6), page 5-60"
+    },
+    {
+      "field": "design_parameters.bioretention_ponding_depth_inches",
+      "excerpt": "Maximum ponding depth shall be 12 inches during the WQv event and 18 inches during the Extreme Flood event",
+      "page_or_section": "Fact Sheet: Rain Garden (RR-6), page 5-60"
+    },
+    {
+      "field": "design_parameters.design_infiltration_rate_in_per_hr",
+      "excerpt": "Infiltration rain gardens shall have underlying soils with an infiltration rate greater than or equal to 0.50 inch/hr",
+      "page_or_section": "Fact Sheet: Rain Garden (RR-6), page 5-60"
+    },
+    {
+      "field": "design_parameters.ed_drain_time_hours",
+      "excerpt": "Size outlet structure to detain WQv for 24 hrs (12 hrs to trout waters)",
+      "page_or_section": "Fact Sheet: Wet Pond (P-2), page 6-15"
+    },
+    {
+      "field": "design_parameters.length_to_width_ratio",
+      "excerpt": "Min. flow path of 1.5:1 (length to relative width) from all inlet points to the outflow points across the pond",
+      "page_or_section": "Fact Sheet: Wet Pond (P-2), page 6-15"
+    },
+    {
+      "field": "design_parameters.swale_bottom_width_inches",
+      "excerpt": "Bottom width shall be a min of 2 ft and a max of 8 ft",
+      "page_or_section": "Fact Sheet: Dry Swale (O-1), page 6-77"
     }
   ],
   "extraction_quality": {
@@ -105,5 +145,48 @@
     "landing_page_url": "https://dec.ny.gov/environmental-protection/water/water-quality/stormwater/construction-stormwater-toolbox",
     "retrieved_at": "2026-08-07T11:24:29.820Z",
     "original_filename": "ny-state.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": 1.2,
+    "max_drawdown_hours": null,
+    "shwt_separation_inches": 24,
+    "bioretention_media_depth_min_inches": 12,
+    "bioretention_ponding_depth_inches": 12,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": 0.5,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": 24,
+    "length_to_width_ratio": 1.5,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": 24,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "bioretention",
+      "constructed_wetland",
+      "green_roof",
+      "infiltration_basin",
+      "infiltration_trench",
+      "permeable_pavement",
+      "sand_filter",
+      "swale",
+      "wet_pond"
+    ],
+    "enriched_at": "2026-08-13T09:29:07.432Z",
+    "enrich_model": "composer-2.5:run-7155a008-72b8-4f5e-bcde-f4804d418e3c",
+    "enrich_notes": "WQv uses 90th-percentile rainfall P (example 1.20 in). WQv extended detention is 24 hr (12 hr in trout waters). SHWT separation commonly 2 ft (4 ft sole-source aquifer for some practices). Rain garden infiltration filter media 12–18 in; SMP bioretention 30–48 in. Micropool depth 3–8 ft is not the same as permanent-pool depth. Infiltration feasibility threshold 0.50 in/hr cited throughout; pond liner soils fc ≤ 0.014 in/hr.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "max_drawdown_hours",
+      "permeable_pavement_storage_depth_inches",
+      "permanent_pool_depth_inches",
+      "wetland_detention_hours",
+      "swale_longitudinal_slope_percent",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

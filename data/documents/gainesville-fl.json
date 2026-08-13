@@ -142,6 +142,31 @@
       "field": "design_criteria.approved_bmp_categories",
       "excerpt": "5.1 Retention Pond ... 5.2 Dry Detention Pond ... 5.3 Exfiltration Trench Systems ... 5.4 Wet Detention Pond ... 5.5 Swale System ... 5.6 Vegetated Natural Buffers ... 5.7 Borrow Pits and Ponds ... 5.8 Dams and Impoundments ... 5.9 Sensitive Karst Area",
       "page_or_section": "Table of Contents / Part V"
+    },
+    {
+      "field": "practice_mentions.swale",
+      "excerpt": "Swales shall be used for water quality treatment with a maximum slope of three-to-one (3:1) and erosion shall be controlled with grass or other equivalent method.",
+      "page_or_section": "5.7.2 Criteria / page 11 (gainesville-fl-c0087)"
+    },
+    {
+      "field": "practice_mentions.wet_pond",
+      "excerpt": "Wet detention systems are permanently wet ponds which are designed to slowly release collected stormwater runoff through an outlet structure.",
+      "page_or_section": "5.4.1 Description / page 26 (gainesville-fl-c0101)"
+    },
+    {
+      "field": "practice_mentions.extended_detention",
+      "excerpt": "5.2 Dry Detention Pond Design Criteria and Guidelines",
+      "page_or_section": "PART V – BEST MANAGEMENT PRACTICES / page 3 TOC"
+    },
+    {
+      "field": "practice_mentions.infiltration_trench",
+      "excerpt": "5.3 Exfiltration Trench Systems Design Criteria and Guidelines",
+      "page_or_section": "PART V – BEST MANAGEMENT PRACTICES / page 3 TOC"
+    },
+    {
+      "field": "design_parameters.permanent_pool_depth_inches",
+      "excerpt": "The permanent pool shall be sized to provide at least a 14-day residence time based upon average wet season rainfall (rainfall occurring over the wetest four months of an average year). Additional permanent pool volume is required for wet detention systems which directly discharge to OFWs. The maximum depth of th",
+      "page_or_section": "5.4.3 Permanent Pool / page 26 (truncated; no numeric depth in excerpt)"
     }
   ],
   "extraction_quality": {
@@ -157,5 +182,51 @@
     "landing_page_url": "https://www.srwmd.state.fl.us/",
     "retrieved_at": "2026-08-08T11:46:29.939Z",
     "original_filename": "gainesville-fl.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": null,
+    "max_drawdown_hours": null,
+    "shwt_separation_inches": null,
+    "bioretention_media_depth_min_inches": null,
+    "bioretention_ponding_depth_inches": null,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": null,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": null,
+    "length_to_width_ratio": null,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "extended_detention",
+      "infiltration_trench",
+      "swale",
+      "wet_pond"
+    ],
+    "enriched_at": "2026-08-13T08:25:52.831Z",
+    "enrich_model": "composer-2.5:run-d6a75e8d-255e-4d86-ab04-6539d1f1bbef",
+    "enrich_notes": "Provided corpus is mostly TOC repeats (page 3) plus partial BMP text. Wet detention §5.4.3 states permanent pool sizing by 14-day residence time (wet-season rainfall) but truncates before maximum depth. Sensitive karst §5.9.3 gives 3 ft soil over limestone and 10 ft max vertical staging—not mapped to SHWT separation or permanent pool depth fields. WQV inch depths and 72-hour treatment-volume recovery are referenced in atlas notes (Vol I / Vol II) but not stated numerically in these excerpts.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "wqv_depth_inches",
+      "max_drawdown_hours",
+      "shwt_separation_inches",
+      "bioretention_media_depth_min_inches",
+      "bioretention_ponding_depth_inches",
+      "permeable_pavement_storage_depth_inches",
+      "design_infiltration_rate_in_per_hr",
+      "permanent_pool_depth_inches",
+      "ed_drain_time_hours",
+      "length_to_width_ratio",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "swale_longitudinal_slope_percent",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

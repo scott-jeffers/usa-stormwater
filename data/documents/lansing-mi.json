@@ -48,6 +48,36 @@
       "field": "design_criteria.design_storm_return_periods_years",
       "excerpt": "Channel Protection Up to and including the 2-year 24-hour; Collection System 10-year / 50-year 24-hour",
       "page_or_section": "Performance criteria table"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "Storage facilities are to fully drain the surface water component within 48 hours following a storm event.",
+      "page_or_section": "ENGINEERING STANDARDS – Stormwater Storage, page 18"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "The entire cross section should be drained within 72 hours.",
+      "page_or_section": "ENGINEERING STANDARDS – Stormwater Storage, page 18"
+    },
+    {
+      "field": "design_parameters.shwt_separation_inches",
+      "excerpt": "Depth from bottom of facility to groundwater table … 2 foot minimum",
+      "page_or_section": "Table 4 Infiltration Facility Design Criteria, page 19"
+    },
+    {
+      "field": "design_parameters.shwt_separation_inches",
+      "excerpt": "Depth from bottom of facility to groundwater table … 2 foot minimum",
+      "page_or_section": "Table 5 Detention Pond Design Criteria (Dry Pond; Constructed Wetland), page 20"
+    },
+    {
+      "field": "design_parameters.design_infiltration_rate_in_per_hr",
+      "excerpt": "Soil Permeability/Infiltration Rate … 0.5 inches/hr. minimum",
+      "page_or_section": "Table 4 Infiltration Facility Design Criteria, page 19"
+    },
+    {
+      "field": "design_parameters.permanent_pool_depth_inches",
+      "excerpt": "Maximum Depth … Wet Pond … 1.5 feet wet depth without safety fencing",
+      "page_or_section": "Table 5 Detention Pond Design Criteria, page 20"
     }
   ],
   "extraction_quality": {
@@ -63,5 +93,53 @@
     "landing_page_url": "https://www.lansingmi.gov/",
     "retrieved_at": "2026-08-10T10:02:27.846Z",
     "original_filename": "lansing-mi.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": null,
+    "max_drawdown_hours": 48,
+    "shwt_separation_inches": 24,
+    "bioretention_media_depth_min_inches": null,
+    "bioretention_ponding_depth_inches": null,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": 0.5,
+    "permanent_pool_depth_inches": 18,
+    "ed_drain_time_hours": null,
+    "length_to_width_ratio": null,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "bioretention",
+      "constructed_wetland",
+      "green_roof",
+      "infiltration_basin",
+      "infiltration_trench",
+      "manufactured_treatment",
+      "permeable_pavement",
+      "sand_filter",
+      "swale",
+      "wet_pond"
+    ],
+    "enriched_at": "2026-08-13T08:53:44.551Z",
+    "enrich_model": "composer-2.5:run-e4417ede-4468-4751-a1ad-f93670995608",
+    "enrich_notes": "Detailed BMP sizing defers to Michigan LID Manual ch. 6–7; corpus gives Table 4 infiltration and Table 5 pond criteria plus site-wide storage drain times (48 h surface / 72 h full section). Water-quality treatment volume depth (e.g. 0.9 in) referenced via Table 1 but Table 1 text not in excerpts. Infiltration swale bottom width 2–8 ft and bottom slope 1–6% are ranges, not single design numbers.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "wqv_depth_inches",
+      "bioretention_media_depth_min_inches",
+      "bioretention_ponding_depth_inches",
+      "permeable_pavement_storage_depth_inches",
+      "ed_drain_time_hours",
+      "length_to_width_ratio",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "swale_longitudinal_slope_percent",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

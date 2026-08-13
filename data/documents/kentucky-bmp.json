@@ -98,6 +98,36 @@
       "field": "design_criteria.approved_bmp_categories",
       "excerpt": "directing runoff into bioretention and infiltration areas before it leaves the lot",
       "page_or_section": "Chapter 3, Section 3.3 Post-Construction Stormwater Management"
+    },
+    {
+      "field": "practice_mentions.swale",
+      "excerpt": "Many BMPs can serve both functions if designed and implemented properly (i.e. a grassy swale can filter runoff while directing it away from a denuded area).",
+      "page_or_section": "Section 3 / page 23 (kentucky-bmp-c0023)"
+    },
+    {
+      "field": "practice_mentions.swale",
+      "excerpt": "Ditches, swales, berms, dikes, or pipes can be used to channel flow away from disturbed areas.",
+      "page_or_section": "Section 3 / page 24 (kentucky-bmp-c0024)"
+    },
+    {
+      "field": "practice_mentions.extended_detention",
+      "excerpt": "4.7.2 Sediment (Detention) Basins — Trap sediment by collecting it in a basin and slowly discharging it. Required for disturbed drainage areas of more than 10 acres.",
+      "page_or_section": "Section 4 BMP table / page 40 (kentucky-bmp-c0053)"
+    },
+    {
+      "field": "practice_mentions.extended_detention",
+      "excerpt": "Detention basins, if used, must be constructed first and must perform as sediment basins until the contributing drainage area is seeded and stabilized.",
+      "page_or_section": "Section 3.6 Standard Notes / page 33 (kentucky-bmp-c0033)"
+    },
+    {
+      "field": "enrich_notes",
+      "excerpt": "Traps and basins are sized to provide 3,600 cubic feet of total storage per disturbed acre.",
+      "page_or_section": "Case Study KYTC phasing / page 17-18 (kentucky-bmp-c0018)"
+    },
+    {
+      "field": "enrich_notes",
+      "excerpt": "All EPSC measures must be designed and installed to accomplish an 80 percent design removal efficiency goal for total suspended solids, using a 10-year, 24-hour storm event design.",
+      "page_or_section": "Section 2.2 MSD / page 11 (kentucky-bmp-c0012)"
     }
   ],
   "extraction_quality": {
@@ -116,5 +146,49 @@
     "landing_page_url": "https://transportation.ky.gov/EnvironmentalAnalysis/Pages/default.aspx",
     "retrieved_at": "2026-08-08T01:30:00.000Z",
     "original_filename": "kentucky-bmp.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": null,
+    "max_drawdown_hours": null,
+    "shwt_separation_inches": null,
+    "bioretention_media_depth_min_inches": null,
+    "bioretention_ponding_depth_inches": null,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": null,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": null,
+    "length_to_width_ratio": null,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "extended_detention",
+      "swale"
+    ],
+    "enriched_at": "2026-08-13T08:46:21.820Z",
+    "enrich_model": "composer-2.5:run-9e1839cf-897d-4f94-a081-63daa3804b7c",
+    "enrich_notes": "Kentucky Construction Site BMP Manual (Section 1) focuses on construction-phase erosion and sediment control, not statewide post-construction hydrologic sizing. Louisville-Jefferson County MSD requires EPSC for 80% TSS removal using a 10-year, 24-hour storm (MSD Design Manual referenced, not detailed here). KYTC DDA approach sizes traps/basins to 3,600 cubic feet total storage per disturbed acre; sediment detention basins required when disturbed drainage area exceeds 10 acres. No explicit WQv depth, infiltration design rate, bioretention media/ponding depths, or other post-construction SCM numeric standards appear in these excerpts.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "wqv_depth_inches",
+      "max_drawdown_hours",
+      "shwt_separation_inches",
+      "bioretention_media_depth_min_inches",
+      "bioretention_ponding_depth_inches",
+      "permeable_pavement_storage_depth_inches",
+      "design_infiltration_rate_in_per_hr",
+      "permanent_pool_depth_inches",
+      "ed_drain_time_hours",
+      "length_to_width_ratio",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "swale_longitudinal_slope_percent",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

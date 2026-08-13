@@ -40,6 +40,36 @@
       "field": "design_criteria.water_quality_volume_method",
       "excerpt": "water quality volume based on water quality rain events that occur roughly 90% of the time",
       "page_or_section": "PUB2446"
+    },
+    {
+      "field": "design_parameters.ed_drain_time_hours",
+      "excerpt": "Extended Dry Detention Basin: any detention facility, vegetated with native plants, designed to permit no permanent impoundment of water but designed to detain the water quality volume for 40 hours.",
+      "page_or_section": "Appendix A, page 238"
+    },
+    {
+      "field": "design_parameters.ed_drain_time_hours",
+      "excerpt": "Extended Wet Detention Basin: any detention facility designed to include a permanent pool and designed to detain the water quality volume for 40 hours.",
+      "page_or_section": "Appendix A, page 238"
+    },
+    {
+      "field": "design_parameters.permanent_pool_depth_inches",
+      "excerpt": "Minimum average depths of 6 to 8 feet help provide long term storage capacity for sediment.",
+      "page_or_section": "Chapter 6, page 211"
+    },
+    {
+      "field": "design_parameters.shwt_separation_inches",
+      "excerpt": "Even for those compounds with low contamination potential from surface infiltration, the depth to the groundwater must be considered if it is shallow (1 m or less in a sandy soil).",
+      "page_or_section": "Chapter 5, page 149"
+    },
+    {
+      "field": "practice_mentions.constructed_wetland",
+      "excerpt": "Open water zone: Greater than 18 inches deep... Low marsh zone: 6 to 18 inches deep... High marsh zone: Up to 6 inches deep",
+      "page_or_section": "Chapter 6, page 229"
+    },
+    {
+      "field": "practice_mentions.bioretention",
+      "excerpt": "Depth of amended soils is critical where specific infiltration volumes are assumed as part of stormwater control measure performance.",
+      "page_or_section": "Chapter 6, page 161-162"
     }
   ],
   "extraction_quality": {
@@ -53,5 +83,57 @@
     "landing_page_url": "https://dnr.mo.gov/document-search/missouri-guide-green-infrastructure-pub2446",
     "retrieved_at": "2026-08-10T10:10:49.504Z",
     "original_filename": "jefferson-city-mo.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": null,
+    "max_drawdown_hours": null,
+    "shwt_separation_inches": null,
+    "bioretention_media_depth_min_inches": null,
+    "bioretention_ponding_depth_inches": null,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": null,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": 40,
+    "length_to_width_ratio": null,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "bioretention",
+      "constructed_wetland",
+      "extended_detention",
+      "green_roof",
+      "infiltration_basin",
+      "infiltration_trench",
+      "manufactured_treatment",
+      "permeable_pavement",
+      "sand_filter",
+      "swale",
+      "wet_pond"
+    ],
+    "enriched_at": "2026-08-13T08:43:16.024Z",
+    "enrich_model": "composer-2.5:run-b7e52080-ba63-40f3-bda0-dedf4e6ef01d",
+    "enrich_notes": "Missouri GI guide (PUB2446); glossary defines extended dry/wet detention as detaining water quality volume for 40 hours. Wet pond siting cites 6–8 ft minimum average depth (range, not mapped to single permanent_pool_depth_inches). Constructed wetland zones: open water >18 in, low marsh 6–18 in, high marsh up to 6 in. Infiltration guidance references shallow groundwater ≤1 m (sandy soil) and seasonal high water table limits; no design infiltration rate or SHWT separation in inches. Milwaukee citation: 0.5–1.5 in rains for pollutant mass, not a WQv depth standard in this text.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "wqv_depth_inches",
+      "max_drawdown_hours",
+      "shwt_separation_inches",
+      "bioretention_media_depth_min_inches",
+      "bioretention_ponding_depth_inches",
+      "permeable_pavement_storage_depth_inches",
+      "design_infiltration_rate_in_per_hr",
+      "permanent_pool_depth_inches",
+      "length_to_width_ratio",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "swale_longitudinal_slope_percent",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

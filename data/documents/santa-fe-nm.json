@@ -20,7 +20,33 @@
       "Harvest and use"
     ]
   },
-  "evidence": [],
+  "evidence": [
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "Requires permeable soils for infiltration in under 96 hours.",
+      "page_or_section": "Glossary — Infiltration Trench (page 26)"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "Intended to release water into the soil within 96 hours.",
+      "page_or_section": "Glossary — Passive Rainwater Harvesting (page 26)"
+    },
+    {
+      "field": "design_parameters.shwt_separation_inches",
+      "excerpt": "Bottom of trench should be at least 3' above seasonal high water table",
+      "page_or_section": "Type 2 Infiltration Trench DPM Detail 3.0 (page 9)"
+    },
+    {
+      "field": "design_parameters.bioretention_media_depth_min_inches",
+      "excerpt": "18\" minimum depth of planting soil mix, for low plantings only, and 24\" minimum for trees",
+      "page_or_section": "Stormwater Planter Box DPM Detail 8.1 (page 16)"
+    },
+    {
+      "field": "design_parameters.bioretention_media_depth_min_inches",
+      "excerpt": "18\" minumum depth shown for planting soil mix for low plantings only, minimum depth for tree plantings should be increased To 24\"",
+      "page_or_section": "Stormwater Curb Extension DPM Detail 5.1 (page 11)"
+    }
+  ],
   "extraction_quality": {
     "confidence": "low",
     "needs_human_review": true,
@@ -35,5 +61,49 @@
     "landing_page_url": "https://www.bernco.gov/",
     "retrieved_at": "2026-08-10T10:35:05.250Z",
     "original_filename": "santa-fe-nm.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": null,
+    "max_drawdown_hours": 96,
+    "shwt_separation_inches": 36,
+    "bioretention_media_depth_min_inches": 18,
+    "bioretention_ponding_depth_inches": null,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": null,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": null,
+    "length_to_width_ratio": null,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "bioretention",
+      "green_roof",
+      "infiltration_trench",
+      "permeable_pavement",
+      "swale"
+    ],
+    "enriched_at": "2026-08-13T10:05:11.881Z",
+    "enrich_model": "composer-2.5:run-bb11d078-69d4-476e-ad2d-28430a8deb37",
+    "enrich_notes": "Santa Fe proxy uses Albuquerque/Bernalillo GSI/LID Guide; arid-context emphasis on bioinfiltration vs retention, 96-hour infiltration/dewatering norm, and SHWT separation for subsurface trenches. No explicit WQv depth or NM DOT-style numeric sizing in excerpts.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "wqv_depth_inches",
+      "bioretention_ponding_depth_inches",
+      "permeable_pavement_storage_depth_inches",
+      "design_infiltration_rate_in_per_hr",
+      "permanent_pool_depth_inches",
+      "ed_drain_time_hours",
+      "length_to_width_ratio",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "swale_longitudinal_slope_percent",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

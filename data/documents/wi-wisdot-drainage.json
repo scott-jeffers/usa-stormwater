@@ -37,11 +37,6 @@
   },
   "evidence": [
     {
-      "field": "document_metadata.jurisdiction_name",
-      "excerpt": "Wisconsin",
-      "page_or_section": "Title / header"
-    },
-    {
       "field": "document_metadata.document_title",
       "excerpt": "WisDOT FDM Chapter 13 Drainage",
       "page_or_section": "Title / header"
@@ -60,14 +55,30 @@
       "field": "design_criteria.approved_bmp_categories",
       "excerpt": "Detention Basin",
       "page_or_section": null
+    },
+    {
+      "field": "practice_mentions.extended_detention",
+      "excerpt": "For projects anticipating the need for detention ponds for peak rate control only (not TS 4 or other required stormwater treatment purpose), contact the Bureau of Project Development Statewide Drainage Engineer(s) prior to design.",
+      "page_or_section": "FDM 13-10 Section 10.1 General, page 14"
+    },
+    {
+      "field": "practice_mentions.extended_detention",
+      "excerpt": "For stormwater ponds or features required for treatment reference this subsection for the hydraulic methods described within but also reference FDM Chapter 10 and inquire with the Bureau of Technical Services Statewide Stormwater Engineer for the appropriate pollutant removal requirements.",
+      "page_or_section": "FDM 13-10 Section 10.1 General, page 14"
+    },
+    {
+      "field": "design_parameters (context)",
+      "excerpt": "Stormwater Facilities - - Customary Method - -",
+      "page_or_section": "Table 5.1 Hydrologic Method Selection, page 8"
     }
   ],
   "extraction_quality": {
     "confidence": "medium",
     "needs_human_review": true,
-    "review_notes": "Heuristic agency extract from prepared text. WisDOT FDM Chapter 13 Drainage — Section 13-10 Hydrology",
+    "review_notes": "Heuristic agency extract from prepared text. WisDOT FDM Chapter 13 Drainage — Section 13-10 Hydrology Pipeline excerpt repair removed 1 unlocated citation(s).",
     "fields_not_found": [
-      "design_criteria.water_quality_volume_method"
+      "design_criteria.water_quality_volume_method",
+      "document_metadata.jurisdiction_name"
     ]
   },
   "source": {
@@ -75,5 +86,48 @@
     "landing_page_url": "https://wisconsindot.gov/pages/doing-bus/eng-consultants/cnslt-rsrces/rdwy/fdm.aspx",
     "retrieved_at": "2026-08-11T17:59:10.591Z",
     "original_filename": "wi-wisdot-drainage.pdf"
+  },
+  "design_parameters": {
+    "wqv_depth_inches": null,
+    "max_drawdown_hours": null,
+    "shwt_separation_inches": null,
+    "bioretention_media_depth_min_inches": null,
+    "bioretention_ponding_depth_inches": null,
+    "permeable_pavement_storage_depth_inches": null,
+    "design_infiltration_rate_in_per_hr": null,
+    "permanent_pool_depth_inches": null,
+    "ed_drain_time_hours": null,
+    "length_to_width_ratio": null,
+    "wetland_detention_hours": null,
+    "swale_bottom_width_inches": null,
+    "swale_longitudinal_slope_percent": null,
+    "green_roof_media_depth_inches": null,
+    "green_roof_slope_percent": null,
+    "mtd_verification_program": null,
+    "practice_mentions": [
+      "extended_detention"
+    ],
+    "enriched_at": "2026-08-13T10:33:57.254Z",
+    "enrich_model": "composer-2.5:run-05f74bbe-00ed-450d-b372-b1437d72185a",
+    "enrich_notes": "Provided corpus is FDM 13-10 Hydrology (design frequency, peak runoff methods, drainage area). Stormwater ponds for treatment defer pollutant requirements to FDM Chapter 10 and Bureau of Technical Services Statewide Stormwater Engineer; detention for peak rate control requires coordination with BPD Statewide Drainage Engineers. No explicit SCM dimensional or WQv depth criteria in these excerpts.",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "wqv_depth_inches",
+      "max_drawdown_hours",
+      "shwt_separation_inches",
+      "bioretention_media_depth_min_inches",
+      "bioretention_ponding_depth_inches",
+      "permeable_pavement_storage_depth_inches",
+      "design_infiltration_rate_in_per_hr",
+      "permanent_pool_depth_inches",
+      "ed_drain_time_hours",
+      "length_to_width_ratio",
+      "wetland_detention_hours",
+      "swale_bottom_width_inches",
+      "swale_longitudinal_slope_percent",
+      "green_roof_media_depth_inches",
+      "green_roof_slope_percent",
+      "mtd_verification_program"
+    ]
   }
 }

@@ -1,0 +1,140 @@
+{
+  "version": 1,
+  "title": "Canonical BMP / SCM / LID practice keys",
+  "description": "Map localized stormwater practice names to national keys for matrix aggregation and practice synthesis.",
+  "practices": {
+    "bioretention": {
+      "label": "Bioretention",
+      "aliases": [
+        "bioretention",
+        "bio-retention",
+        "bioretention cell",
+        "bioretention cells",
+        "bioretention basin",
+        "bioretention facility",
+        "bioretention system",
+        "bioretention systems",
+        "rain garden",
+        "rain gardens",
+        "raingarden",
+        "raingardens",
+        "micro-bioretention",
+        "microbioretention",
+        "biofilter",
+        "biofiltration",
+        "bioinfiltration",
+        "stormwater planter",
+        "stormwater planters",
+        "tree box filter",
+        "tree box filters",
+        "tree filter box"
+      ]
+    },
+    "permeable_pavement": {
+      "label": "Permeable Pavement",
+      "aliases": [
+        "permeable pavement",
+        "pervious pavement",
+        "porous pavement",
+        "permeable paving",
+        "pervious concrete",
+        "porous concrete",
+        "permeable interlocking",
+        "porous asphalt",
+        "pervious asphalt"
+      ]
+    },
+    "infiltration_trench": {
+      "label": "Infiltration Trench",
+      "aliases": [
+        "infiltration trench",
+        "infiltration trenches",
+        "infiltration gallery",
+        "exfiltration trench"
+      ]
+    },
+    "infiltration_basin": {
+      "label": "Infiltration Basin",
+      "aliases": [
+        "infiltration basin",
+        "infiltration basins",
+        "infiltration pond"
+      ]
+    },
+    "extended_detention": {
+      "label": "Extended Detention",
+      "aliases": [
+        "extended detention",
+        "dry extended detention",
+        "extended dry detention",
+        "dry pond",
+        "dry detention"
+      ]
+    },
+    "wet_pond": {
+      "label": "Wet Pond",
+      "aliases": [
+        "wet pond",
+        "wet ponds",
+        "retention pond",
+        "wet detention",
+        "stormwater wetland pond"
+      ]
+    },
+    "constructed_wetland": {
+      "label": "Constructed Wetland",
+      "aliases": [
+        "constructed wetland",
+        "constructed wetlands",
+        "stormwater wetland",
+        "stormwater wetlands"
+      ]
+    },
+    "swale": {
+      "label": "Vegetated Swale",
+      "aliases": [
+        "vegetated swale",
+        "grass swale",
+        "grassed swale",
+        "bioswale",
+        "bio-swale",
+        "water quality swale",
+        "enhanced swale",
+        "dry swale",
+        "wet swale"
+      ]
+    },
+    "green_roof": {
+      "label": "Green Roof",
+      "aliases": [
+        "green roof",
+        "green roofs",
+        "vegetated roof",
+        "living roof",
+        "ecoroof"
+      ]
+    },
+    "sand_filter": {
+      "label": "Sand Filter",
+      "aliases": [
+        "sand filter",
+        "sand filters",
+        "surface sand filter",
+        "underground sand filter",
+        "media filter"
+      ]
+    },
+    "manufactured_treatment": {
+      "label": "Manufactured Treatment Device",
+      "aliases": [
+        "manufactured treatment",
+        "proprietary bmp",
+        "proprietary device",
+        "hydrodynamic separator",
+        "mtd",
+        "tape",
+        "njcat"
+      ]
+    }
+  }
+}
