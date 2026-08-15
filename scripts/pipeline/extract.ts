@@ -166,7 +166,7 @@ ${job.scopeHint ? `- scope hint: ${job.scopeHint}` : ""}
 ${structureNote}
 
 Schema fields:
-document_metadata: jurisdiction_name, jurisdiction_level (state|county|municipality|special_district|tribal|other), state_code, document_title, version_or_edition, adoption_or_effective_date, last_revised_date, relationship_to_state_manual, issuing_agency_category (dot|dep_deq|dnr|other|null — set for statewide DOT/DEP/DEQ/DNR manuals; null for typical city/county)
+document_metadata: jurisdiction_name, jurisdiction_level (state|county|municipality|special_district|tribal|federal|other), state_code (2-letter or null; null for federal), document_title, version_or_edition, adoption_or_effective_date, last_revised_date, relationship_to_state_manual, issuing_agency_category (dot|dep_deq|dnr|other|null — set for statewide DOT/DEP/DEQ/DNR manuals; other for FHWA/federal; null for typical city/county)
 design_criteria: design_storm_return_periods_years (number[]), water_quality_volume_method, peak_flow_calculation_method (string[]), required_hydrologic_hydraulic_software (string[]), approved_bmp_categories (string[])
 evidence: [{ field, excerpt, page_or_section }]
 extraction_quality: confidence (high|medium|low), needs_human_review, review_notes, fields_not_found

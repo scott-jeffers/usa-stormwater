@@ -4126,5 +4126,71 @@
     "cityCoords": null,
     "notes": "PA DEP Stormwater BMP Manual 363-0300-002 (Dec 2006). eLibrary docId 7876; Wrightstown municipal mirror — greenport PDFProvider blocks automated fetch.",
     "agencyHint": "dep_deq"
+  },
+  {
+    "id": "prescott-valley-az",
+    "jurisdictionHint": "Prescott Valley, AZ",
+    "levelHint": "municipality",
+    "pdfUrl": "https://www.prescottvalley-az.gov/Documents/Departments/Public%20Works/TOPV%20DrainagePoliciesStandards%202025-02-10.pdf",
+    "landingPageUrl": "https://www.prescottvalley-az.gov/departments/public_works/index.php",
+    "cityCoords": [
+      -112.3157,
+      34.61
+    ],
+    "notes": "Town of Prescott Valley Uniform Drainage Policies and Standards Manual (2025-02-10). Stormwater program: https://www.prescottvalley-az.gov/departments/public_works/stormwater_management_program/index.php"
+  },
+  {
+    "id": "fhwa-hec-22",
+    "jurisdictionHint": "Federal Highway Administration",
+    "levelHint": "federal",
+    "pdfUrl": "https://www.fhwa.dot.gov/engineering/hydraulics/pubs/hif24006.pdf",
+    "landingPageUrl": "https://www.fhwa.dot.gov/engineering/hydraulics/highwaydrain/drainage.cfm",
+    "cityCoords": null,
+    "notes": "FHWA HEC-22 Urban Drainage Design Manual, 4th ed. (Feb 2024). National guidance — jurisdiction_level federal, state_code null, issuing_agency_category other."
+  },
+  {
+    "id": "fhwa-hds-4",
+    "jurisdictionHint": "Federal Highway Administration",
+    "levelHint": "federal",
+    "pdfUrl": "https://www.fhwa.dot.gov/engineering/hydraulics/pubs/08090/HDS4_608.pdf",
+    "landingPageUrl": "https://www.fhwa.dot.gov/engineering/hydraulics/highwaydrain/drainage.cfm",
+    "cityCoords": null,
+    "notes": "FHWA HDS-4 Introduction to Highway Hydraulics (Jun 2008). National guidance — jurisdiction_level federal, state_code null, issuing_agency_category other."
+  },
+  {
+    "id": "fhwa-hec-14",
+    "jurisdictionHint": "Federal Highway Administration",
+    "levelHint": "federal",
+    "pdfUrl": "https://www.fhwa.dot.gov/engineering/hydraulics/pubs/06086/hec14.pdf",
+    "landingPageUrl": "https://www.fhwa.dot.gov/engineering/hydraulics/highwaydrain/drainage.cfm",
+    "cityCoords": null,
+    "notes": "FHWA HEC-14 Energy Dissipators, 3rd ed. (Jul 2006). National guidance — jurisdiction_level federal, state_code null, issuing_agency_category other."
+  },
+  {
+    "id": "fhwa-hec-15",
+    "jurisdictionHint": "Federal Highway Administration",
+    "levelHint": "federal",
+    "pdfUrl": "https://www.fhwa.dot.gov/engineering/hydraulics/pubs/05114/05114.pdf",
+    "landingPageUrl": "https://www.fhwa.dot.gov/engineering/hydraulics/highwaydrain/drainage.cfm",
+    "cityCoords": null,
+    "notes": "FHWA HEC-15 Roadside Channels, 3rd ed. (Sep 2005). National guidance — jurisdiction_level federal, state_code null, issuing_agency_category other."
+  },
+  {
+    "id": "fhwa-hec-24",
+    "jurisdictionHint": "Federal Highway Administration",
+    "levelHint": "federal",
+    "pdfUrl": "https://www.fhwa.dot.gov/engineering/hydraulics/pubs/hec/hec24.pdf",
+    "landingPageUrl": "https://www.fhwa.dot.gov/engineering/hydraulics/highwaydrain/drainage.cfm",
+    "cityCoords": null,
+    "notes": "FHWA HEC-24 Highway Stormwater Pump Station Design (Feb 2001). National guidance — jurisdiction_level federal, state_code null, issuing_agency_category other."
+  },
+  {
+    "id": "fhwa-hec-21",
+    "jurisdictionHint": "Federal Highway Administration",
+    "levelHint": "federal",
+    "pdfUrl": "https://www.fhwa.dot.gov/engineering/hydraulics/pubs/hec/hec21.pdf",
+    "landingPageUrl": "https://www.fhwa.dot.gov/engineering/hydraulics/highwaydrain/drainage.cfm",
+    "cityCoords": null,
+    "notes": "FHWA HEC-21 Design of Bridge Deck Drainage (May 1993). National guidance — jurisdiction_level federal, state_code null, issuing_agency_category other."
   }
 ]

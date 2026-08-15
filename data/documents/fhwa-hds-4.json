@@ -1,0 +1,120 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "Federal Highway Administration",
+    "jurisdiction_level": "federal",
+    "state_code": null,
+    "document_title": "HDS-4 Introduction to Highway Hydraulics",
+    "version_or_edition": "June 2008",
+    "adoption_or_effective_date": null,
+    "last_revised_date": "2008-06",
+    "relationship_to_state_manual": "independent",
+    "issuing_agency_category": "other"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [
+      10,
+      50
+    ],
+    "water_quality_volume_method": null,
+    "peak_flow_calculation_method": [
+      "Rational Method",
+      "regional regression equations",
+      "statistical analysis of gaged streamflow data",
+      "rainfall intensity-duration-frequency (IDF) analysis",
+      "USGS rural regression equations",
+      "USGS urban regression equations"
+    ],
+    "required_hydrologic_hydraulic_software": [
+      "National Streamflow Statistics (NSS) program",
+      "HEC-RAS",
+      "HY-8"
+    ],
+    "approved_bmp_categories": []
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "In a series of studies by the USGS, in cooperation with the Federal Highway Administration (FHWA) and various other agencies",
+      "page_or_section": "page 39, Section 2.6.2"
+    },
+    {
+      "field": "document_metadata.jurisdiction_level",
+      "excerpt": "a single seven-parameter regression equation was developed for nationwide application",
+      "page_or_section": "page 39, Section 2.6.3"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "nomographs for solution of Equation 6.1, for both uniform and for the more complex geometry created by composite cross slopes, are provided in HEC-22 (Brown et al. 2008)",
+      "page_or_section": "page 117, Chapter 6"
+    },
+    {
+      "field": "document_metadata.issuing_agency_category",
+      "excerpt": "These same procedures are implemented by the FHWA computer program HY-8.",
+      "page_or_section": "page 167, Chapter 9"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "Most state highway agencies consider a 10-year frequency storm as the minimum for design of storm drains. Storm drains in sag locations are typically checked for the 50-year frequency storm.",
+      "page_or_section": "page 141, Section 8.2.2 Pipe Sizing"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "When gaged data are not available, estimates are made by empirical equations (e.g., Rational Method) or by regional regression equations.",
+      "page_or_section": "page 27, Section 2.2 STORM RUNOFF"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "When gaged data of adequate length and quality are available, statistical analysis of the flow record can be used to estimate flood peaks for various return periods.",
+      "page_or_section": "page 27, Section 2.2 STORM RUNOFF"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "Point rainfall data are used to derive intensity-duration-frequency curves necessary in hydrologic analysis (e.g., as required in the Rational Method; see Section 2.5).",
+      "page_or_section": "page 28, Section 2.4 RAINFALL INTENSITY-DURATION-FREQUENCY ANALYSIS"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "The resulting set of equations, referred to as the USGS rural regression equations, were developed primarily for unregulated, natural, nonurbanized watersheds.",
+      "page_or_section": "page 39, Section 2.6.2"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "To estimate peak discharge in urban areas, equations were developed that modify the rural peak discharge computed as described above.",
+      "page_or_section": "page 39, Section 2.6.3 Urban Regression Equations"
+    },
+    {
+      "field": "design_criteria.required_hydrologic_hydraulic_software",
+      "excerpt": "the USGS compiled all statewide and metropolitan area regression equations into a computer program titled the National Streamflow Statistics (NSS) program.",
+      "page_or_section": "page 39, Section 2.6.4"
+    },
+    {
+      "field": "design_criteria.required_hydrologic_hydraulic_software",
+      "excerpt": "Although computer programs (such as HEC-RAS) are commonly used to compute water surface profiles",
+      "page_or_section": "page 101, Section 4.7.3 Standard Step Procedure"
+    },
+    {
+      "field": "design_criteria.required_hydrologic_hydraulic_software",
+      "excerpt": "These same procedures are implemented by the FHWA computer program HY-8.",
+      "page_or_section": "page 167, Chapter 9"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "medium",
+    "needs_human_review": true,
+    "review_notes": "Title/edition corrected from FHWA Highway Drainage publications list (HDS-4, June 2008). Extractor had labeled this HEC-22 because HDS-4 cites that circular. Design storm return periods reflect typical state highway agency practice cited in the manual, not a single FHWA-mandated frequency. No explicit water quality volume method or approved BMP category list in supplied hydrology excerpts.",
+    "fields_not_found": [
+      "document_metadata.version_or_edition",
+      "document_metadata.adoption_or_effective_date",
+      "document_metadata.last_revised_date",
+      "document_metadata.relationship_to_state_manual",
+      "design_criteria.water_quality_volume_method",
+      "design_criteria.approved_bmp_categories"
+    ]
+  },
+  "source": {
+    "document_url": "https://www.fhwa.dot.gov/engineering/hydraulics/pubs/08090/HDS4_608.pdf",
+    "landing_page_url": "https://www.fhwa.dot.gov/engineering/hydraulics/highwaydrain/drainage.cfm",
+    "retrieved_at": "2026-08-14T15:28:50.930Z",
+    "original_filename": "fhwa-hds-4.pdf"
+  }
+}

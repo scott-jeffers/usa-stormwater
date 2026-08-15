@@ -1,0 +1,111 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "Federal Highway Administration",
+    "jurisdiction_level": "federal",
+    "state_code": null,
+    "document_title": "HEC-21 Design of Bridge Deck Drainage",
+    "version_or_edition": "May 1993",
+    "adoption_or_effective_date": null,
+    "last_revised_date": "1993-05",
+    "relationship_to_state_manual": "independent",
+    "issuing_agency_category": "other"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [
+      2,
+      5,
+      10,
+      50
+    ],
+    "water_quality_volume_method": null,
+    "peak_flow_calculation_method": [
+      "Rational Method"
+    ],
+    "required_hydrologic_hydraulic_software": [
+      "HYDRAIN",
+      "HYDRO"
+    ],
+    "approved_bmp_categories": [
+      "retention ponds",
+      "detention ponds"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "Data from the NWS have been incorporated into the HYDRO computer program of the HYDRAIN (Young and Krolak, 1992) software package supported by the Federal Highway Administration (FHWA).",
+      "page_or_section": "107"
+    },
+    {
+      "field": "document_metadata.jurisdiction_level",
+      "excerpt": "software package supported by the Federal Highway Administration (FHWA).",
+      "page_or_section": "107"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "List of Tables for HEC 21-Design of Bridge Deck Drainage",
+      "page_or_section": "126"
+    },
+    {
+      "field": "document_metadata.version_or_edition",
+      "excerpt": "Chapter 9 : HEC 21 Bridge Deck Drainage Method",
+      "page_or_section": "49"
+    },
+    {
+      "field": "document_metadata.relationship_to_state_manual",
+      "excerpt": "This manual takes the viewpoint that inlets are designed not to clog.",
+      "page_or_section": "106"
+    },
+    {
+      "field": "document_metadata.issuing_agency_category",
+      "excerpt": "Federal Highway Administration, Hydraulic Design of Energy Dissipators for Culverts and Channels, HEC-14, Washington, D.C., 1983.",
+      "page_or_section": "136"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "Functional Class of Roadway ... Frequency (Return Period--years) Interstate ... 10 ... Major Collectors and Arterials ... 10 ... Minor Collectors and Arterials ... 5 ... Local Streets ... 2 ... Depressed Interstate Drained by Pumping Stations ... 50",
+      "page_or_section": "105-106"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "The Rational Method is presented as the conventional method for determining peak runoff rate for bridge decks.",
+      "page_or_section": "105"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "For all cases, the Rational Method design approach is used.",
+      "page_or_section": "49"
+    },
+    {
+      "field": "design_criteria.required_hydrologic_hydraulic_software",
+      "excerpt": "The IDF curve can be obtained from HYDRO in the HYDRAIN software using the latitude and longitude coordinates of the site.",
+      "page_or_section": "92"
+    },
+    {
+      "field": "design_criteria.required_hydrologic_hydraulic_software",
+      "excerpt": "Data from the NWS have been incorporated into the HYDRO computer program of the HYDRAIN (Young and Krolak, 1992) software package supported by the Federal Highway Administration (FHWA).",
+      "page_or_section": "107"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Retention and detention ponds, with or without permanent pools, can be provided to attenuate peak flows or provide quiescent conditions to settle out particulates.",
+      "page_or_section": "104"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "medium",
+    "needs_human_review": true,
+    "review_notes": "Title/edition from FHWA Highway Drainage publications list (HEC-21, May 1993). Corpus focuses on bridge deck drainage, not site-scale stormwater BMP design. water_quality_volume_method not addressed in provided text.",
+    "fields_not_found": [
+      "document_metadata.adoption_or_effective_date",
+      "document_metadata.last_revised_date",
+      "design_criteria.water_quality_volume_method"
+    ]
+  },
+  "source": {
+    "document_url": "https://www.fhwa.dot.gov/engineering/hydraulics/pubs/hec/hec21.pdf",
+    "landing_page_url": "https://www.fhwa.dot.gov/engineering/hydraulics/highwaydrain/drainage.cfm",
+    "retrieved_at": "2026-08-14T15:31:48.895Z",
+    "original_filename": "fhwa-hec-21.pdf"
+  }
+}

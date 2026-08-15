@@ -41,6 +41,7 @@ export const corpusStructureSchema = z.object({
     "municipality",
     "special_district",
     "tribal",
+    "federal",
     "other",
   ]),
   state_code: z.string().nullable(),

@@ -1,0 +1,120 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "Federal Highway Administration",
+    "jurisdiction_level": "federal",
+    "state_code": null,
+    "document_title": "HEC-15 Design of Roadside Channels with Flexible Linings",
+    "version_or_edition": "3rd edition",
+    "adoption_or_effective_date": null,
+    "last_revised_date": "2005-09",
+    "relationship_to_state_manual": "independent",
+    "issuing_agency_category": "other"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [
+      2,
+      5,
+      10
+    ],
+    "water_quality_volume_method": null,
+    "peak_flow_calculation_method": [
+      "Manning's equation combined with the continuity equation for normal flow depth at design discharge"
+    ],
+    "required_hydrologic_hydraulic_software": [],
+    "approved_bmp_categories": [
+      "vegetation",
+      "rock riprap",
+      "wire-enclosed riprap (gabions)",
+      "turf reinforcement mats",
+      "erosion control blankets",
+      "gravel mulch",
+      "composite linings",
+      "rigid linings (concrete, asphaltic concrete)"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "FHWA (1998) provides detailed design guidance for selecting geotextiles as a riprap filter material.",
+      "page_or_section": "6.4.3 Riprap Filter Design, page 109"
+    },
+    {
+      "field": "document_metadata.jurisdiction_level",
+      "excerpt": "FHWA (1998) provides detailed design guidance for selecting geotextiles as a riprap filter material.",
+      "page_or_section": "6.4.3 Riprap Filter Design, page 109"
+    },
+    {
+      "field": "document_metadata.adoption_or_effective_date",
+      "excerpt": "The manual was dated October 1975.",
+      "page_or_section": "document scope (not in excerpt body)"
+    },
+    {
+      "field": "document_metadata.relationship_to_state_manual",
+      "excerpt": "The design method presented in this circular is based on the concept of maximum permissible tractive force.",
+      "page_or_section": "Chapter 2: Design Concepts, page 27"
+    },
+    {
+      "field": "document_metadata.issuing_agency_category",
+      "excerpt": "FHWA (1998) provides detailed design guidance for selecting geotextiles as a riprap filter material.",
+      "page_or_section": "6.4.3 Riprap Filter Design, page 109"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "Design flow rates for permanent roadside and median drainage channel linings usually have a 5 or 10-year return period. A lower return period flow is allowable if a transitional lining is to be used, typically the mean annual storm (approximately a 2-year return period, i.e., 50 percent probability of occurrence in a year).",
+      "page_or_section": "2.3.1 Design Discharge Frequency, pages 33-33"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "The condition of uniform flow in a channel at a known discharge is computed using the Manning's equation combined with the continuity equation:",
+      "page_or_section": "2.1.2 Normal Flow Depth, page 27"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "Design Discharge: Discharge at a specific location defined by an appropriate return period to be used for design purposes.",
+      "page_or_section": "Glossary, page 10"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Vegetative linings consist of seeded or sodded grasses placed in and along the channel",
+      "page_or_section": "1.4.1.1 Vegetation, page 17"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Rock riprap is placed on a filter blanket or prepared slope to form a well-graded mass with a minimum of voids",
+      "page_or_section": "1.4.1.3 Rock Riprap, page 19"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Wire-enclosed riprap (gabions) is a wire container or enclosure structure that binds units of the riprap lining together.",
+      "page_or_section": "1.4.1.4 Wire-Enclosed Riprap, pages 20-21"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "A TRM is a non-degradable RECP composed of UV stabilized synthetic fibers, filaments, netting and/or wire mesh processed into a three-dimensional matrix.",
+      "page_or_section": "1.4.1 Turf Reinforcement, pages 20-21"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Erosion Control Blanket (ECB): A degradable material, composed primarily of processed natural organic materials, manufactured or fabricated into rolls designed to reduce soil erosion",
+      "page_or_section": "Glossary, page 10"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "medium",
+    "needs_human_review": true,
+    "review_notes": "Title/edition from FHWA Highway Drainage publications list (HEC-15 3rd ed., September 2005). Extractor had used the 1975 first-edition date. Manual focuses on channel lining shear stress design, not water-quality volume or specified hydrologic software.",
+    "fields_not_found": [
+      "document_metadata.document_title",
+      "document_metadata.version_or_edition",
+      "document_metadata.last_revised_date",
+      "design_criteria.water_quality_volume_method",
+      "design_criteria.required_hydrologic_hydraulic_software"
+    ]
+  },
+  "source": {
+    "document_url": "https://www.fhwa.dot.gov/engineering/hydraulics/pubs/05114/05114.pdf",
+    "landing_page_url": "https://www.fhwa.dot.gov/engineering/hydraulics/highwaydrain/drainage.cfm",
+    "retrieved_at": "2026-08-14T15:30:40.301Z",
+    "original_filename": "fhwa-hec-15.pdf"
+  }
+}

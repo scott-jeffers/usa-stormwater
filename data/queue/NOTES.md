@@ -1,6 +1,6 @@
 # Overnight queue notes
 
-Updated: 2026-08-13T07:17:37.373Z
+Updated: 2026-08-14T15:24:57.900Z
 
 Extraction is done by **Cursor agents** (not Gemini). After `npm run prepare:queue`, ask Cursor to read `samples/queue/<id>.txt` and write `data/documents/<id>.json` matching `lib/schema.ts`, then `npm run save -- samples/queue/<id>.extraction.json --slug=<id>` (or have the agent write the document JSON directly).
 
@@ -9,7 +9,7 @@ Extraction is done by **Cursor agents** (not Gemini). After `npm run prepare:que
 | Status | Count |
 |--------|------:|
 | done | 347 |
-| prepared (awaiting agent) | 4 |
+| prepared (awaiting agent) | 11 |
 | pending | 0 |
 | skipped | 6 |
 | deferred | 0 |
@@ -20,6 +20,13 @@ Extraction is done by **Cursor agents** (not Gemini). After `npm run prepare:que
 - `fl-sfwmd-erp-ah2` — text ready for Cursor agent
 - `fl-swfwmd-erp-ah2` — text ready for Cursor agent
 - `fl-srwmd-erp-ah2` — text ready for Cursor agent
+- `prescott-valley-az` — text ready for Cursor agent
+- `fhwa-hec-22` — text ready for Cursor agent
+- `fhwa-hds-4` — text ready for Cursor agent
+- `fhwa-hec-14` — text ready for Cursor agent
+- `fhwa-hec-15` — text ready for Cursor agent
+- `fhwa-hec-24` — text ready for Cursor agent
+- `fhwa-hec-21` — text ready for Cursor agent
 
 ## Worked
 

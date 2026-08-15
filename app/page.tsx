@@ -18,7 +18,7 @@ export default function HomePage() {
           Stormwater design manuals, in one place
         </h1>
         <p className="text-base leading-relaxed text-fg-secondary">
-          Browse U.S. state, county, and city manuals.
+          Browse U.S. federal, state, county, and city manuals.
         </p>
         <p className="pt-1 text-sm text-fg-muted">
           {manuals.length} manuals · {statesCovered} states

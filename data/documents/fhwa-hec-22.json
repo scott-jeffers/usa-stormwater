@@ -1,0 +1,175 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "Federal Highway Administration",
+    "jurisdiction_level": "federal",
+    "state_code": null,
+    "document_title": "HEC-22 Urban Drainage Design Manual",
+    "version_or_edition": "4th edition",
+    "adoption_or_effective_date": null,
+    "last_revised_date": "2024-02",
+    "relationship_to_state_manual": "independent",
+    "issuing_agency_category": "other"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [
+      2,
+      10,
+      25,
+      50,
+      100
+    ],
+    "water_quality_volume_method": "First-flush / water quality volume (WQV) commonly estimated as: the first 0.5 inch of runoff from impervious area; the first 0.5 inch of runoff from the entire catchment; or the first 1.0 inch of rainfall resulting in runoff from the entire catchment; also V_WQv = Q A = (R_V P) A",
+    "peak_flow_calculation_method": [
+      "Rational Method",
+      "Statistical analysis (log-Pearson type III)",
+      "NRCS (SCS) peak flow method",
+      "USGS rural regression equations",
+      "USGS nationwide urban regression equations (three-parameter or seven-parameter)",
+      "Unit hydrograph methods"
+    ],
+    "required_hydrologic_hydraulic_software": [
+      "HEC-HMS",
+      "SWMM",
+      "WinTR-20",
+      "WinTR-55",
+      "NSS"
+    ],
+    "approved_bmp_categories": [
+      "detention basins",
+      "retention basins",
+      "water quality control facilities",
+      "best management practices (BMPs)",
+      "infiltration trenches",
+      "infiltration basins",
+      "stormwater quantity and quality control facilities (detention or retention ponds)"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "This chapter condenses information from Highway Hydrology, Hydraulic Design Series 2 (HDS-2) (FHWA 2002).",
+      "page_or_section": "Chapter 4, page 53"
+    },
+    {
+      "field": "document_metadata.jurisdiction_level",
+      "excerpt": "Federal, State, and local regulations often guide the quality and quantity of the discharge.",
+      "page_or_section": "Section 3.1, page 47"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "Table of Contents HEC-22, 4th edition",
+      "page_or_section": "page 10"
+    },
+    {
+      "field": "document_metadata.version_or_edition",
+      "excerpt": "HEC-22, 4th edition Chapter 3 - System Planning",
+      "page_or_section": "page 47"
+    },
+    {
+      "field": "document_metadata.issuing_agency_category",
+      "excerpt": "Consult HDS-2 (FHWA 2002) for additional information on these methods.",
+      "page_or_section": "Section 4.2.1, page 55"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "The minor system is typically designed to carry runoff from an intermediate design storm event such as the 0.1 annual exceedance probability (AEP) (10-year return period) event.",
+      "page_or_section": "Section 3.2, page 47"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "The major system usually carries stormwater during larger, more infrequent storm events, such as the 0.04, 0.02, and 0.01 AEP storms.",
+      "page_or_section": "Section 3.2, page 47"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "A common criterion would be to regulate the 0.5, 0.1, and 0.01 AEP events.",
+      "page_or_section": "Section 10.1.1 Design Events, page 180"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "engineers estimate first flush volume as: • The first 0.5 inch of runoff of impervious area. • The first 0.5 inch of runoff of the entire catchment area. • The first 1.0 inch of rainfall resulting in runoff from the entire catchment area.",
+      "page_or_section": "Section 11.1, page 231"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "Engineers estimate the water quality volume using: V WQ Q A (R P)A= = (11.2)",
+      "page_or_section": "Section 11.3.2.1, page 268"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "One of the most used approaches for the calculation of peak flow from small areas is the Rational Method",
+      "page_or_section": "Section 4.2.2, page 55"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "The log-Pearson type III distribution is a three-parameter gamma distribution with a logarithmic transform of the independent variable. Designers use it widely for flood analyses",
+      "page_or_section": "Section 4.2.1 Statistical Analysis, page 55"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "The NRCS (SCS) peak flow method is another approach that calculates peak flow as a function of drainage basin area, potential watershed storage, and the time of concentration.",
+      "page_or_section": "Section 4.2 Peak Flow, page 55"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "Designers can adapt a rural peak flow for urban conditions with the three-parameter or seven-parameter nationwide urban regression equations developed by USGS. NSS can calculate peak flows with both versions.",
+      "page_or_section": "Section 4.2.3.2 Urban Equations, page 64"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "4.3.1 Unit Hydrograph Methods A unit hydrograph is the direct runoff hydrograph resulting from a unit volume of excess rainfall.",
+      "page_or_section": "Section 4.3.1, page 64"
+    },
+    {
+      "field": "design_criteria.required_hydrologic_hydraulic_software",
+      "excerpt": "Application of hydrograph methods often necessitates computer programs such as the Hydrologic Engineering Center Hydrologic Modeling System (HEC-HMS), the Stormwater Management Model (SWMM), WinTR-20, WinTR-55, among others",
+      "page_or_section": "Section 4.3 Design Hydrographs, page 64"
+    },
+    {
+      "field": "design_criteria.required_hydrologic_hydraulic_software",
+      "excerpt": "NSS can calculate peak flows with both versions.",
+      "page_or_section": "Section 4.2.3.2 Urban Equations, page 64"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "storm drainage systems often rely on detention or retention basins and other best management practices (BMPs) for the control of discharge quantity and quality.",
+      "page_or_section": "Section 3.1, page 47"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "These components include curbs, gutters, ditches, inlets, access holes, pipes and other conduits, open channels, pumps, detention basins, water quality control facilities, etc.",
+      "page_or_section": "Section 3.2, page 47"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Stormwater quantity and quality control facilities are either detention or retention ponds.",
+      "page_or_section": "Chapter 10, page 180"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "There are three basic trench systems: complete exfiltration, partial exfiltration, and water quality exfiltration.",
+      "page_or_section": "Section 11.3.2.1, page 268"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "An infiltration basin impounds stormwater flow and gradually exfiltrates it through the floor of an excavated area.",
+      "page_or_section": "Section 11.3.2.2 Infiltration Basins, page 269"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "medium",
+    "needs_human_review": true,
+    "review_notes": "Excerpts are overview/reference material; design storm return periods include multiple contexts (minor/major systems vs. detention regulatory examples). Document full title, adoption dates, and relationship to state manuals not stated in provided chunks. HEC-22 does not mandate a single required software list—programs are cited as commonly used, not exclusively required.",
+    "fields_not_found": [
+      "document_metadata.adoption_or_effective_date",
+      "document_metadata.last_revised_date",
+      "document_metadata.relationship_to_state_manual"
+    ]
+  },
+  "source": {
+    "document_url": "https://www.fhwa.dot.gov/engineering/hydraulics/pubs/hif24006.pdf",
+    "landing_page_url": "https://www.fhwa.dot.gov/engineering/hydraulics/highwaydrain/drainage.cfm",
+    "retrieved_at": "2026-08-14T15:27:59.389Z",
+    "original_filename": "fhwa-hec-22.pdf"
+  }
+}

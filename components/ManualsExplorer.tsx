@@ -4,7 +4,7 @@ import { Fragment, useMemo, useState } from "react";
 import Link from "next/link";
 import type { ManualListItem } from "@/lib/data";
 import { STATE_CODE_TO_NAME } from "@/lib/usStates";
-import { ConfidenceBadge, LevelBadge, NeedsReviewBadge, StateBadge, AgencyBadge } from "@/components/Badge";
+import { ConfidenceBadge, LevelBadge, LEVEL_LABELS, NeedsReviewBadge, StateBadge, AgencyBadge } from "@/components/Badge";
 import { CoverageMap, type LocalityMarker } from "@/components/CoverageMap";
 import { lookupCityCoordinates } from "@/lib/geoCenters";
 
@@ -163,7 +163,11 @@ export function ManualsExplorer({ manuals }: { manuals: ManualListItem[] }) {
       } else if (agencyFilter === "none") {
         if (record.issuing_agency_category) return false;
       }
-      if (stateFilter && record.state_code !== stateFilter) {
+      if (
+        stateFilter &&
+        record.state_code !== stateFilter &&
+        record.jurisdiction_level !== "federal"
+      ) {
         return false;
       }
       if (
@@ -290,6 +294,25 @@ export function ManualsExplorer({ manuals }: { manuals: ManualListItem[] }) {
         localities={localityMarkers}
       />
 
+      <Link
+        href="/federal/"
+        className="block rounded-xl border border-indigo-200/80 bg-indigo-50/50 px-4 py-3 shadow-sm transition hover:border-indigo-300 hover:bg-indigo-50 dark:border-indigo-500/30 dark:bg-indigo-950/30 dark:hover:bg-indigo-950/50"
+      >
+        <div className="flex flex-wrap items-baseline justify-between gap-2">
+          <h2 className="font-display text-base font-semibold text-ink sm:text-lg">
+            Federal drainage guidance
+          </h2>
+          <span className="text-xs text-fg-muted">
+            {manuals.filter((m) => m.jurisdiction_level === "federal").length}{" "}
+            manuals
+          </span>
+        </div>
+        <p className="mt-1 text-sm leading-relaxed text-fg-secondary">
+          FHWA HEC/HDS circulars and other national hydraulic design manuals —
+          guidance, not local regulation.
+        </p>
+      </Link>
+
       <div className="rounded-xl border border-edge/80 bg-surface p-4 shadow-sm">
         <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-4">
           <div className="sm:col-span-2 lg:col-span-2">
@@ -316,8 +339,8 @@ export function ManualsExplorer({ manuals }: { manuals: ManualListItem[] }) {
             >
               <option value="all">All levels</option>
               {availableLevels.map((level) => (
-                <option key={level} value={level} className="capitalize">
-                  {level.replace("_", " ")}
+                <option key={level} value={level}>
+                  {LEVEL_LABELS[level] ?? level.replace("_", " ")}
                 </option>
               ))}
             </select>
@@ -426,7 +449,7 @@ export function ManualsExplorer({ manuals }: { manuals: ManualListItem[] }) {
                   <div key={code} className="space-y-2">
                     <div className="rounded-lg bg-mist/60 px-3 py-2 text-xs font-semibold uppercase tracking-wide text-water-deep">
                       {code === "__none__"
-                        ? "Unspecified state"
+                        ? "Federal / unspecified"
                         : `${STATE_CODE_TO_NAME[code] ?? code} (${records.length})`}
                     </div>
                     {records.map((record) => (
@@ -482,7 +505,7 @@ export function ManualsExplorer({ manuals }: { manuals: ManualListItem[] }) {
                             className="px-4 py-2 text-xs font-semibold uppercase tracking-wide text-water-deep"
                           >
                             {code === "__none__"
-                              ? "Unspecified state"
+                              ? "Federal / unspecified"
                               : `${STATE_CODE_TO_NAME[code] ?? code} (${records.length})`}
                           </td>
                         </tr>

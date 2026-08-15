@@ -6,6 +6,7 @@ import { STATE_CODE_TO_NAME } from "@/lib/usStates";
 import {
   ConfidenceBadge,
   LevelBadge,
+  LEVEL_LABELS,
   NeedsReviewBadge,
   StateBadge,
   VerifyBadge,
@@ -95,6 +96,14 @@ export default async function ManualDetailPage({
           m.data.document_metadata.state_code === meta.state_code
       )
     : [];
+  const relatedFederal =
+    meta.jurisdiction_level === "federal"
+      ? getAllManuals().filter(
+          (m) =>
+            m.slug !== slug &&
+            m.data.document_metadata.jurisdiction_level === "federal"
+        )
+      : [];
   // getAllManuals is cached; related list is a cheap in-memory filter.
 
   const fieldsNotFound = quality.fields_not_found;
@@ -197,6 +206,21 @@ export default async function ManualDetailPage({
           </div>
         )}
 
+        {relatedFederal.length > 0 && (
+          <div className="mt-4 border-t border-edge pt-3 text-xs text-fg-muted">
+            <span className="font-medium text-fg-secondary">
+              Other federal manuals:{" "}
+            </span>
+            {relatedFederal.map((m, i) => (
+              <span key={m.slug}>
+                {i > 0 && ", "}
+                <Link href={`/${m.slug}`} className="text-water-link hover:text-water-deep hover:underline">
+                  {m.data.document_metadata.document_title}
+                </Link>
+              </span>
+            ))}
+          </div>
+        )}
         {relatedInState.length > 0 && (
           <div className="mt-4 border-t border-edge pt-3 text-xs text-fg-muted">
             <span className="font-medium text-fg-secondary">
@@ -220,7 +244,7 @@ export default async function ManualDetailPage({
           <FieldWithEvidence
             label="Jurisdiction level"
             fieldPath="document_metadata.jurisdiction_level"
-            value={<span className="capitalize">{meta.jurisdiction_level.replace("_", " ")}</span>}
+            value={LEVEL_LABELS[meta.jurisdiction_level]}
             evidence={evidence}
             fieldsNotFound={fieldsNotFound}
           />

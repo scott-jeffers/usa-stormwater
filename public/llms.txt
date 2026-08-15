@@ -4,6 +4,7 @@
 
 Website: https://stormwateratlas.com/
 About & examples: https://stormwateratlas.com/about/
+Federal drainage guidance: https://stormwateratlas.com/federal/
 Practice synthesis: https://stormwateratlas.com/national/
 
 ## Machine-readable data

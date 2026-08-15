@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-13T07:18:47.818Z",
+  "updatedAt": "2026-08-14T15:32:48.901Z",
   "jobs": {
     "md-state": {
       "id": "md-state",
@@ -21620,6 +21620,433 @@
             "failed_fields": [],
             "evidence_count": 12
           }
+        }
+      }
+    },
+    "prescott-valley-az": {
+      "id": "prescott-valley-az",
+      "slug": "prescott-valley-az",
+      "stages": {
+        "prepare": {
+          "status": "done",
+          "updatedAt": "2026-08-14T15:25:38.491Z",
+          "startedAt": null,
+          "completedAt": "2026-08-14T15:25:38.488Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "corpus": {
+          "status": "done",
+          "updatedAt": "2026-08-14T15:25:41.459Z",
+          "startedAt": "2026-08-14T15:25:38.504Z",
+          "completedAt": "2026-08-14T15:25:41.458Z",
+          "error": null,
+          "substeps": {
+            "pages": "done",
+            "structure": "done",
+            "chunks": "done",
+            "tagging": "done",
+            "manifest": "done"
+          },
+          "meta": {
+            "pages": 290,
+            "chars": 590475,
+            "chunks": 250,
+            "scope": "esc_construction_only"
+          }
+        },
+        "extract": {
+          "status": "done",
+          "updatedAt": "2026-08-14T15:27:09.421Z",
+          "startedAt": "2026-08-14T15:26:24.122Z",
+          "completedAt": "2026-08-14T15:27:09.421Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "model": "composer-2.5",
+            "runId": "run-841e6b14-997e-4765-95d8-4513f6b596a1",
+            "slug": "prescott-valley-az",
+            "confidence": "high",
+            "path": "C:\\Users\\smj46\\Code\\USA-Stormwater\\data\\documents/prescott-valley-az.json"
+          }
+        },
+        "verify": {
+          "status": "pending",
+          "updatedAt": "2026-08-14T15:25:38.491Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {},
+          "meta": {}
+        }
+      }
+    },
+    "fhwa-hec-22": {
+      "id": "fhwa-hec-22",
+      "slug": "fhwa-hec-22",
+      "stages": {
+        "prepare": {
+          "status": "done",
+          "updatedAt": "2026-08-14T15:25:38.491Z",
+          "startedAt": null,
+          "completedAt": "2026-08-14T15:25:38.488Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "corpus": {
+          "status": "done",
+          "updatedAt": "2026-08-14T15:25:44.129Z",
+          "startedAt": "2026-08-14T15:25:41.469Z",
+          "completedAt": "2026-08-14T15:25:44.129Z",
+          "error": null,
+          "substeps": {
+            "pages": "done",
+            "structure": "done",
+            "chunks": "done",
+            "tagging": "done",
+            "manifest": "done"
+          },
+          "meta": {
+            "pages": 313,
+            "chars": 635872,
+            "chunks": 274,
+            "scope": "hydrology_only"
+          }
+        },
+        "extract": {
+          "status": "done",
+          "updatedAt": "2026-08-14T15:27:59.403Z",
+          "startedAt": "2026-08-14T15:27:09.434Z",
+          "completedAt": "2026-08-14T15:27:59.403Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "model": "composer-2.5",
+            "runId": "run-9cc71aa0-071f-4cf6-a49c-ae253f8602e8",
+            "slug": "fhwa-hec-22",
+            "confidence": "medium",
+            "path": "C:\\Users\\smj46\\Code\\USA-Stormwater\\data\\documents/fhwa-hec-22.json"
+          }
+        },
+        "verify": {
+          "status": "pending",
+          "updatedAt": "2026-08-14T15:25:38.491Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {},
+          "meta": {}
+        }
+      }
+    },
+    "fhwa-hds-4": {
+      "id": "fhwa-hds-4",
+      "slug": "fhwa-hds-4",
+      "stages": {
+        "prepare": {
+          "status": "done",
+          "updatedAt": "2026-08-14T15:25:38.491Z",
+          "startedAt": null,
+          "completedAt": "2026-08-14T15:25:38.488Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "corpus": {
+          "status": "done",
+          "updatedAt": "2026-08-14T15:25:45.609Z",
+          "startedAt": "2026-08-14T15:25:44.138Z",
+          "completedAt": "2026-08-14T15:25:45.609Z",
+          "error": null,
+          "substeps": {
+            "pages": "done",
+            "structure": "done",
+            "chunks": "done",
+            "tagging": "done",
+            "manifest": "done"
+          },
+          "meta": {
+            "pages": 203,
+            "chars": 323070,
+            "chunks": 163,
+            "scope": "hydrology_only"
+          }
+        },
+        "extract": {
+          "status": "done",
+          "updatedAt": "2026-08-14T15:28:50.940Z",
+          "startedAt": "2026-08-14T15:27:59.419Z",
+          "completedAt": "2026-08-14T15:28:50.940Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "model": "composer-2.5",
+            "runId": "run-80bccd72-84c7-481b-bd3d-c998ccecae43",
+            "slug": "fhwa-hds-4",
+            "confidence": "medium",
+            "path": "C:\\Users\\smj46\\Code\\USA-Stormwater\\data\\documents/fhwa-hds-4.json"
+          }
+        },
+        "verify": {
+          "status": "pending",
+          "updatedAt": "2026-08-14T15:25:38.491Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {},
+          "meta": {}
+        }
+      }
+    },
+    "fhwa-hec-14": {
+      "id": "fhwa-hec-14",
+      "slug": "fhwa-hec-14",
+      "stages": {
+        "prepare": {
+          "status": "done",
+          "updatedAt": "2026-08-14T15:25:38.491Z",
+          "startedAt": null,
+          "completedAt": "2026-08-14T15:25:38.488Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "corpus": {
+          "status": "done",
+          "updatedAt": "2026-08-14T15:25:47.565Z",
+          "startedAt": "2026-08-14T15:25:45.619Z",
+          "completedAt": "2026-08-14T15:25:47.565Z",
+          "error": null,
+          "substeps": {
+            "pages": "done",
+            "structure": "done",
+            "chunks": "done",
+            "tagging": "done",
+            "manifest": "done"
+          },
+          "meta": {
+            "pages": 287,
+            "chars": 458175,
+            "chunks": 212,
+            "scope": "full_manual"
+          }
+        },
+        "extract": {
+          "status": "done",
+          "updatedAt": "2026-08-14T15:32:48.901Z",
+          "startedAt": "2026-08-14T15:32:02.060Z",
+          "completedAt": "2026-08-14T15:32:48.900Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "model": "composer-2.5",
+            "runId": "run-d9918d53-1a9f-45f2-a4a5-37fe2a6e7d24",
+            "slug": "fhwa-hec-14",
+            "confidence": "low",
+            "path": "C:\\Users\\smj46\\Code\\USA-Stormwater\\data\\documents/fhwa-hec-14.json"
+          }
+        },
+        "verify": {
+          "status": "pending",
+          "updatedAt": "2026-08-14T15:25:38.491Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {},
+          "meta": {}
+        }
+      }
+    },
+    "fhwa-hec-15": {
+      "id": "fhwa-hec-15",
+      "slug": "fhwa-hec-15",
+      "stages": {
+        "prepare": {
+          "status": "done",
+          "updatedAt": "2026-08-14T15:25:38.491Z",
+          "startedAt": null,
+          "completedAt": "2026-08-14T15:25:38.488Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "corpus": {
+          "status": "done",
+          "updatedAt": "2026-08-14T15:25:49.030Z",
+          "startedAt": "2026-08-14T15:25:47.576Z",
+          "completedAt": "2026-08-14T15:25:49.030Z",
+          "error": null,
+          "substeps": {
+            "pages": "done",
+            "structure": "done",
+            "chunks": "done",
+            "tagging": "done",
+            "manifest": "done"
+          },
+          "meta": {
+            "pages": 154,
+            "chars": 264545,
+            "chunks": 136,
+            "scope": "full_manual"
+          }
+        },
+        "extract": {
+          "status": "done",
+          "updatedAt": "2026-08-14T15:30:40.311Z",
+          "startedAt": "2026-08-14T15:29:54.706Z",
+          "completedAt": "2026-08-14T15:30:40.311Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "model": "composer-2.5",
+            "runId": "run-cfb6202d-7e07-44b6-8345-710ad44ced17",
+            "slug": "fhwa-hec-15",
+            "confidence": "medium",
+            "path": "C:\\Users\\smj46\\Code\\USA-Stormwater\\data\\documents/fhwa-hec-15.json"
+          }
+        },
+        "verify": {
+          "status": "pending",
+          "updatedAt": "2026-08-14T15:25:38.491Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {},
+          "meta": {}
+        }
+      }
+    },
+    "fhwa-hec-24": {
+      "id": "fhwa-hec-24",
+      "slug": "fhwa-hec-24",
+      "stages": {
+        "prepare": {
+          "status": "done",
+          "updatedAt": "2026-08-14T15:25:38.491Z",
+          "startedAt": null,
+          "completedAt": "2026-08-14T15:25:38.488Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "corpus": {
+          "status": "done",
+          "updatedAt": "2026-08-14T15:25:50.429Z",
+          "startedAt": "2026-08-14T15:25:49.042Z",
+          "completedAt": "2026-08-14T15:25:50.429Z",
+          "error": null,
+          "substeps": {
+            "pages": "done",
+            "structure": "done",
+            "chunks": "done",
+            "tagging": "done",
+            "manifest": "done"
+          },
+          "meta": {
+            "pages": 221,
+            "chars": 335983,
+            "chunks": 207,
+            "scope": "hydrology_only"
+          }
+        },
+        "extract": {
+          "status": "done",
+          "updatedAt": "2026-08-14T15:31:17.564Z",
+          "startedAt": "2026-08-14T15:30:40.329Z",
+          "completedAt": "2026-08-14T15:31:17.564Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "model": "composer-2.5",
+            "runId": "run-18872043-a1b9-420a-b716-ac613cd2fb72",
+            "slug": "fhwa-hec-24",
+            "confidence": "medium",
+            "path": "C:\\Users\\smj46\\Code\\USA-Stormwater\\data\\documents/fhwa-hec-24.json"
+          }
+        },
+        "verify": {
+          "status": "pending",
+          "updatedAt": "2026-08-14T15:25:38.491Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {},
+          "meta": {}
+        }
+      }
+    },
+    "fhwa-hec-21": {
+      "id": "fhwa-hec-21",
+      "slug": "fhwa-hec-21",
+      "stages": {
+        "prepare": {
+          "status": "done",
+          "updatedAt": "2026-08-14T15:25:38.491Z",
+          "startedAt": null,
+          "completedAt": "2026-08-14T15:25:38.488Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "corpus": {
+          "status": "done",
+          "updatedAt": "2026-08-14T15:25:51.036Z",
+          "startedAt": "2026-08-14T15:25:50.440Z",
+          "completedAt": "2026-08-14T15:25:51.036Z",
+          "error": null,
+          "substeps": {
+            "pages": "done",
+            "structure": "done",
+            "chunks": "done",
+            "tagging": "done",
+            "manifest": "done"
+          },
+          "meta": {
+            "pages": 138,
+            "chars": 157230,
+            "chunks": 36,
+            "scope": "full_manual"
+          }
+        },
+        "extract": {
+          "status": "done",
+          "updatedAt": "2026-08-14T15:31:48.909Z",
+          "startedAt": "2026-08-14T15:31:17.577Z",
+          "completedAt": "2026-08-14T15:31:48.908Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "model": "composer-2.5",
+            "runId": "run-c5a859a6-f79e-4544-9268-fbab7346852a",
+            "slug": "fhwa-hec-21",
+            "confidence": "medium",
+            "path": "C:\\Users\\smj46\\Code\\USA-Stormwater\\data\\documents/fhwa-hec-21.json"
+          }
+        },
+        "verify": {
+          "status": "pending",
+          "updatedAt": "2026-08-14T15:25:38.491Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {},
+          "meta": {}
         }
       }
     }

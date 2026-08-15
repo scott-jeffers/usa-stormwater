@@ -27,7 +27,7 @@ const FIELD_SCHEMA = {
   document_metadata: {
     jurisdiction_name: "string — agency or place name",
     jurisdiction_level:
-      "enum: state | county | municipality | special_district | tribal | other",
+      "enum: state | county | municipality | special_district | tribal | federal | other",
     state_code: "string | null — 2-letter USPS code",
     document_title: "string",
     version_or_edition: "string | null",

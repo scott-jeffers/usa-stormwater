@@ -190,7 +190,7 @@ export function buildHeuristicStructure(opts: {
     });
   }
 
-  const level = (["state", "county", "municipality", "special_district", "tribal", "other"] as const).includes(
+  const level = (["state", "county", "municipality", "special_district", "tribal", "federal", "other"] as const).includes(
     opts.levelHint as CorpusStructure["jurisdiction_level"]
   )
     ? (opts.levelHint as CorpusStructure["jurisdiction_level"])
@@ -199,11 +199,13 @@ export function buildHeuristicStructure(opts: {
   const stateMatch = headText.match(/\b([A-Z]{2})\b/);
   const stateFromHint = opts.jurisdictionHint.match(/,\s*([A-Z]{2})\b/);
   const state_code =
-    stateFromHint?.[1] ??
-    (/\bOregon\b/i.test(headText) ? "OR" : null) ??
-    (stateMatch && ["OR", "WA", "CA", "TX", "NY", "FL"].includes(stateMatch[1])
-      ? stateMatch[1]
-      : null);
+    level === "federal"
+      ? null
+      : stateFromHint?.[1] ??
+        (/\bOregon\b/i.test(headText) ? "OR" : null) ??
+        (stateMatch && ["OR", "WA", "CA", "TX", "NY", "FL"].includes(stateMatch[1])
+          ? stateMatch[1]
+          : null);
 
   const titleLine =
     headText

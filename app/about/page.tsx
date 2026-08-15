@@ -41,23 +41,30 @@ export default function AboutPage() {
           <Link href="/" className="font-medium text-water-link hover:underline">
             homepage map and table
           </Link>{" "}
-          to find a state, county, or city manual. Open a jurisdiction to see
+          to find a federal, state, county, or city manual. Open a jurisdiction to see
           design storms, water-quality methods, BMPs, and other fields — each
           with a cited excerpt and a link to the official PDF or agency page.
         </p>
         <p className="mt-3">
-          Browse the{" "}
+          Browse{" "}
+          <Link
+            href="/federal/"
+            className="font-medium text-water-link hover:underline"
+          >
+            federal drainage guidance
+          </Link>{" "}
+          (FHWA hydraulic circulars) separately from adopted state and local
+          manuals. The{" "}
           <Link
             href="/national/"
             className="font-medium text-water-link hover:underline"
           >
             U.S. Stormwater Practice Synthesis
           </Link>{" "}
-          for an 18-chapter research synthesis with practice notes, criteria
-          guidance tables, and curated citations from Tier A anchors and the
-          broader atlas — provisional language for discussion, not a design
-          manual or adopted practice.
-          Data freshness follows the latest{" "}
+          is an 18-chapter research draft with practice notes, criteria
+          guidance tables, and curated citations — provisional language for
+          discussion, not a design manual or adopted practice. Data freshness
+          follows the latest{" "}
           <code className="rounded bg-mist px-1 text-xs">npm run export:data</code>{" "}
           / site build.
         </p>

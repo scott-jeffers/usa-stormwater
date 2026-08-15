@@ -18,7 +18,7 @@ const sans = Source_Sans_3({
 const SITE_URL = "https://stormwateratlas.com";
 const SITE_NAME = "Stormwater Atlas";
 const DESCRIPTION =
-  "Browse U.S. stormwater design manuals in one place. Key requirements from state, county, and city documents—with the source quote for every field.";
+  "Browse U.S. stormwater design manuals in one place. Key requirements from federal, state, county, and city documents—with the source quote for every field.";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),

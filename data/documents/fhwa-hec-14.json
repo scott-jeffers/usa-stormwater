@@ -1,0 +1,81 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "Federal Highway Administration",
+    "jurisdiction_level": "federal",
+    "state_code": null,
+    "document_title": "HEC-14 Hydraulic Design of Energy Dissipators for Culverts and Channels",
+    "version_or_edition": "3rd edition",
+    "adoption_or_effective_date": null,
+    "last_revised_date": "2006-07",
+    "relationship_to_state_manual": "independent",
+    "issuing_agency_category": "other"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [],
+    "water_quality_volume_method": null,
+    "peak_flow_calculation_method": [],
+    "required_hydrologic_hydraulic_software": [
+      "HEC-RAS",
+      "HY8",
+      "BCAP"
+    ],
+    "approved_bmp_categories": []
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "Schall, James D., Everitt V. Richardson, and Johnny L. Morris, 2001. “Introduction to Highway Hydraulics,” Hydraulic Design Series Number 4 (HDS 4), Federal Highway Administration, FHWA-NHI-01-019, August.",
+      "page_or_section": "page 287"
+    },
+    {
+      "field": "document_metadata.jurisdiction_level",
+      "excerpt": "The purpose of this circular is to provide design procedures for energy dissipator designs for highway applications.",
+      "page_or_section": "page 14, CHAPTER 1"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "The purpose of this circular is to provide design procedures for energy dissipator designs for highway applications.",
+      "page_or_section": "page 14, CHAPTER 1"
+    },
+    {
+      "field": "document_metadata.relationship_to_state_manual",
+      "excerpt": "Most of the information presented has been taken from the literature and adapted, where necessary, to fit highway needs.",
+      "page_or_section": "page 14, §1.1"
+    },
+    {
+      "field": "document_metadata.issuing_agency_category",
+      "excerpt": "HY8 (FHWA culvert analysis software)",
+      "page_or_section": "page 117"
+    },
+    {
+      "field": "design_criteria.required_hydrologic_hydraulic_software",
+      "excerpt": "They should be checked by computing the water surface profile using a standard step method computer program, like HEC-RAS (USACE, 2002).",
+      "page_or_section": "page 51, §4.3"
+    },
+    {
+      "field": "design_criteria.required_hydrologic_hydraulic_software",
+      "excerpt": "(This can be calculated using BCAP (Hotchkiss et al. 2004), HY8 (FHWA culvert analysis software), or other calculation tool to determine the depth entering the runout section.)",
+      "page_or_section": "page 117"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "low",
+    "needs_human_review": true,
+    "review_notes": "Title/edition from FHWA Highway Drainage publications list (HEC-14 3rd ed., July 2006). Corpus covers energy dissipator hydraulics (outlet velocity, scour, dissipator selection), not jurisdiction-wide stormwater design storms or WQ volume methods.",
+    "fields_not_found": [
+      "document_metadata.version_or_edition",
+      "document_metadata.adoption_or_effective_date",
+      "document_metadata.last_revised_date",
+      "design_criteria.design_storm_return_periods_years",
+      "design_criteria.water_quality_volume_method",
+      "design_criteria.peak_flow_calculation_method",
+      "design_criteria.approved_bmp_categories"
+    ]
+  },
+  "source": {
+    "document_url": "https://www.fhwa.dot.gov/engineering/hydraulics/pubs/06086/hec14.pdf",
+    "landing_page_url": "https://www.fhwa.dot.gov/engineering/hydraulics/highwaydrain/drainage.cfm",
+    "retrieved_at": "2026-08-14T15:32:48.891Z",
+    "original_filename": "fhwa-hec-14.pdf"
+  }
+}

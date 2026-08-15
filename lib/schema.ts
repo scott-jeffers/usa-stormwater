@@ -33,6 +33,7 @@ export const extractionSchema = z.object({
       "municipality",
       "special_district",
       "tribal",
+      "federal",
       "other",
     ]),
     state_code: z

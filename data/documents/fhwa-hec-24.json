@@ -1,0 +1,126 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "Federal Highway Administration",
+    "jurisdiction_level": "federal",
+    "state_code": null,
+    "document_title": "HEC-24 Highway Stormwater Pump Station Design",
+    "version_or_edition": "February 2001",
+    "adoption_or_effective_date": null,
+    "last_revised_date": "2001-02",
+    "relationship_to_state_manual": "independent",
+    "issuing_agency_category": "other"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [
+      50,
+      100,
+      2
+    ],
+    "water_quality_volume_method": null,
+    "peak_flow_calculation_method": [
+      "NRCS Tabular Hydrograph Method (Technical Release 55, TR55)",
+      "NRCS dimensionless unit hydrograph method (Technical Release 20, TR 20)",
+      "Methods available in the computer programs HEC-1 and HEC-HMS"
+    ],
+    "required_hydrologic_hydraulic_software": [
+      "HEC-1",
+      "HEC-HMS",
+      "HY-22"
+    ],
+    "approved_bmp_categories": []
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "Refer to the FHWA publication “Highway Hydrology”, HDS 2,5 for detailed considerations and procedures",
+      "page_or_section": "Chapter 5 – Site Planning and Hydrology, 5.4 Design Hydrograph, pages 65-66"
+    },
+    {
+      "field": "document_metadata.jurisdiction_level",
+      "excerpt": "mandatory for interstate highways",
+      "page_or_section": "Chapter 5 – Site Planning and Hydrology, 5.3.2 Design Frequency, pages 65-66"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "Figure 4-1. Highway Stormwater Pump Station Hydraulic Design Process",
+      "page_or_section": "Chapter 4 – Pump Station Design Process, pages 45-46"
+    },
+    {
+      "field": "document_metadata.version_or_edition",
+      "excerpt": "queue id fhwa-hec-24; Hydraulic Engineering Circular stormwater pump station manual context",
+      "page_or_section": "Corpus fhwa-hec-24"
+    },
+    {
+      "field": "document_metadata.relationship_to_state_manual",
+      "excerpt": "The choice of hydrologic methods is either based on agency standard practice or left up to the designer based on local conditions and judgment.",
+      "page_or_section": "Chapter 5 – Site Planning and Hydrology, 5.4.1 Hydrologic Methods, page 66"
+    },
+    {
+      "field": "document_metadata.issuing_agency_category",
+      "excerpt": "State of the practice hydrologic methods are employed such as appear in the FHWA publication Highway Hydrology.",
+      "page_or_section": "Chapter 4 – Pump Station Design Process, 4.7.1.3 Stage 2, page 52"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "The recommended design for a highway stormwater pump station is a return period of 50 years",
+      "page_or_section": "Chapter 5 – Site Planning and Hydrology, 5.3.2 Design Frequency, pages 65-66"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "The standard check flood is one having a return period of 100 years.",
+      "page_or_section": "Chapter 5 – Site Planning and Hydrology, 5.3.3 Check Frequency, pages 65-66"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "it is recommended that a frequent event, such as a 2-year, be used to check low flow operation",
+      "page_or_section": "Chapter 5 – Site Planning and Hydrology, 5.3.3 Check Frequency, pages 65-66"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "National Resources Conservation Service (NRCS) – formerly Soil Conservation Service) – Tabular Hydrograph Method of Technical Release 55, Urban Hydrology for Small Watersheds (TR55),8",
+      "page_or_section": "Chapter 5 – Site Planning and Hydrology, 5.4.1 Hydrologic Methods, page 66"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "NRCS dimensionless unit hydrograph method based on Technical Release 20, Hydrology, (TR 20),9",
+      "page_or_section": "Chapter 5 – Site Planning and Hydrology, 5.4.1 Hydrologic Methods, page 66"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "Methods available in the computer programs HEC-1 and HEC-HMS.",
+      "page_or_section": "Chapter 5 – Site Planning and Hydrology, 5.4.1 Hydrologic Methods, page 66"
+    },
+    {
+      "field": "design_criteria.required_hydrologic_hydraulic_software",
+      "excerpt": "Methods available in the computer programs HEC-1 and HEC-HMS.",
+      "page_or_section": "Chapter 5 – Site Planning and Hydrology, 5.4.1 Hydrologic Methods, page 66"
+    },
+    {
+      "field": "design_criteria.required_hydrologic_hydraulic_software",
+      "excerpt": "The FHWA software program HY-2216can be used in conjunction with HEC-2210 to compute storage volumes.",
+      "page_or_section": "Chapter 6 – Storage System, 6.8 Storage Calculations, page 78"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "Refer to the FHWA publication “Highway Hydrology”, HDS 2,5 for detailed considerations and procedures for determining runoff hydrographs.",
+      "page_or_section": "Chapter 5 – Site Planning and Hydrology, 5.4 Design Hydrograph, pages 65-66"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "medium",
+    "needs_human_review": true,
+    "review_notes": "Title/edition from FHWA Highway Drainage publications list (HEC-24, February 2001). HY-22 citation appears with OCR artifact. BMPs referenced generically for NPDES compliance but no approved BMP category list. water_quality_volume_method not stated (pump-station hydrology focus).",
+    "fields_not_found": [
+      "document_metadata.adoption_or_effective_date",
+      "document_metadata.last_revised_date",
+      "design_criteria.water_quality_volume_method",
+      "design_criteria.approved_bmp_categories"
+    ]
+  },
+  "source": {
+    "document_url": "https://www.fhwa.dot.gov/engineering/hydraulics/pubs/hec/hec24.pdf",
+    "landing_page_url": "https://www.fhwa.dot.gov/engineering/hydraulics/highwaydrain/drainage.cfm",
+    "retrieved_at": "2026-08-14T15:31:17.551Z",
+    "original_filename": "fhwa-hec-24.pdf"
+  }
+}

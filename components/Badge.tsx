@@ -92,10 +92,12 @@ const LEVEL_STYLES: Record<
   special_district:
     "bg-sky-50 text-sky-900 ring-sky-700/20 dark:bg-sky-950/45 dark:text-sky-200 dark:ring-sky-400/25",
   tribal: "bg-surface-muted text-ink ring-ink/15",
+  federal:
+    "bg-indigo-50 text-indigo-900 ring-indigo-700/20 dark:bg-indigo-950/45 dark:text-indigo-200 dark:ring-indigo-400/25",
   other: "bg-surface-muted text-fg-secondary ring-edge-strong/40",
 };
 
-const LEVEL_LABELS: Record<
+export const LEVEL_LABELS: Record<
   StormwaterData["document_metadata"]["jurisdiction_level"],
   string
 > = {
@@ -104,6 +106,7 @@ const LEVEL_LABELS: Record<
   municipality: "City",
   special_district: "Special District",
   tribal: "Tribal",
+  federal: "Federal",
   other: "Other",
 };
 
@@ -160,6 +163,16 @@ function LevelIcon({
         <path
           fill="currentColor"
           d="M8 1.5 3 5v9h3.5V9h3v5H13V5L8 1.5z"
+        />
+      </svg>
+    );
+  }
+  if (level === "federal") {
+    return (
+      <svg viewBox="0 0 16 16" className={common} aria-hidden="true">
+        <path
+          fill="currentColor"
+          d="M8 1.5 2 4v1.5h12V4L8 1.5zM3 6.5V14h1.5V8h2v6H8V8h2v6h1.5V8H13v6h1.5V6.5H3z"
         />
       </svg>
     );

@@ -1,0 +1,168 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "Town of Prescott Valley",
+    "jurisdiction_level": "municipality",
+    "state_code": "AZ",
+    "document_title": "Uniform Drainage Policies and Standards Manual",
+    "version_or_edition": null,
+    "adoption_or_effective_date": null,
+    "last_revised_date": "2025-02-10",
+    "relationship_to_state_manual": "independent",
+    "issuing_agency_category": null
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [
+      2,
+      10,
+      25,
+      50,
+      100
+    ],
+    "water_quality_volume_method": "First flush: retain or treat the first 0.5 inches of direct runoff from a storm event; green infrastructure/LID in Appendix B may meet requirements if equivalent volume and performance are achieved.",
+    "peak_flow_calculation_method": [
+      "Hierarchy: Town Master Drainage Plan, ADMS/ADMPs, or approved flood insurance studies; then adjacent property drainage plans; otherwise procedures in this Manual (Section 6.3)",
+      "Rational Method for peak discharges (areas ≤160 acres, Tc ≤60 min)",
+      "Unit hydrograph method via HEC-HMS with 24-hour frequency storm (PFDS/Table 6-3); Green and Ampt rainfall losses for HMS"
+    ],
+    "required_hydrologic_hydraulic_software": [
+      "HEC-HMS (most recent version)",
+      "HEC-RAS (most recent version)",
+      "HY-8 (most recent version)",
+      "EPA-SWMM (most recent version)",
+      "FLO-2D (most recent version, or as approved by FEMA for an FIS study)",
+      "XP Storm (most recent version, or as approved by FEMA for an FIS study)"
+    ],
+    "approved_bmp_categories": [
+      "Best Management Practices (BMP)",
+      "green infrastructure",
+      "low impact development",
+      "stormwater harvesting basins",
+      "sediment traps",
+      "curb openings",
+      "stormwater pollution prevention practices meeting first flush"
+    ]
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "Town of Prescott Valley Uniform Drainage Policies and Standards Manual",
+      "page_or_section": "page 21"
+    },
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "Uniform Drainage Policies and Standards Manual",
+      "page_or_section": "page 21"
+    },
+    {
+      "field": "document_metadata.last_revised_date",
+      "excerpt": "WEST Consultants, Inc. 10 10-Feb-25",
+      "page_or_section": "page 21"
+    },
+    {
+      "field": "document_metadata.relationship_to_state_manual",
+      "excerpt": "The hydrology for the Town is based on the methods in the Drainage Design Manual for Yavapai County (Yavapai County, 2015).",
+      "page_or_section": "Section 6.3, page 69"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "Post-development peak discharges may not exceed pre-development peak discharges for the 2-, 10-, and 100-year storm events for the design of detention basins.",
+      "page_or_section": "Standard 6.9.3, page 164"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "Runoff Coefficients by Storm Frequency 2- to 10-year 25-year 50-year 100-year",
+      "page_or_section": "Table 6-5, page 78"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "All new developments shall make provisions to retain the stormwater runoff from a 100-year, 2-hour duration storm.",
+      "page_or_section": "Standard 6.9.1, page 164"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "a. 10-year: One 12-foot dry lane each direction, and flow depth shall not exceed curb height. b. 100-year: Maximum flow depth between curbs < 8 inches.",
+      "page_or_section": "Standard 6.4.3, page 144"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "The minimum level of control for new development at which stormwater pollution prevention practices must be put in place is called the “first flush.” This consists of retaining or treating the first 0.5 inches of direct runoff from a storm event.",
+      "page_or_section": "Policy 3.5.6, page 29"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "These green infrastructure techniques may be used to meet the first flush volume requirements if equivalent volume and performances are achieved.",
+      "page_or_section": "Policy 3.5.6, page 29"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "The following is the preferred order of hierarchy for obtaining peak discharges and runoff volumes",
+      "page_or_section": "Policy 3.4.1, page 28"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "peak discharges and runoff volumes shall be calculated in accordance with the procedures in this Manual.",
+      "page_or_section": "Policy 3.4.1, page 28"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "The Rational Method, as presented herein, can be used to estimate peak discharges... for small, uniform drainage areas that are not larger than 160 acres in size.",
+      "page_or_section": "Section 6.3.3.1, page 72"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "Drainage areas that do not meet the above conditions will require the use of the unit hydrograph method implemented through the HEC-HMS Program",
+      "page_or_section": "Section 6.3.3.2, page 73"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "The design storm for synthetic unit hydrograph calculation methods shall be a 24-hour duration \"frequency storm\" distribution as defined by the HEC-HMS program.",
+      "page_or_section": "Section 6.3.1, page 69"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "One method shall be used to estimate rainfall losses: the Green and Ampt Method.",
+      "page_or_section": "Section 6.3.4, page 83"
+    },
+    {
+      "field": "design_criteria.required_hydrologic_hydraulic_software",
+      "excerpt": "1D Hydrology – HEC-HMS (most recent version) 1D Hydraulics – HEC-RAS (most recent version), HY-8 (most recent version), and EPA-SWMM (most recent version)",
+      "page_or_section": "Section 6.12, page 175"
+    },
+    {
+      "field": "design_criteria.required_hydrologic_hydraulic_software",
+      "excerpt": "2D Hydrology – HEC-RAS (most recent version). FLO-2D (most recent version, or as approved by FEMA for an FIS study) 2D Hydraulics – HEC-RAS (most recent version). FLO-2D ... XP Storm ... EPA-SWMM",
+      "page_or_section": "Section 6.12, page 175"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Stormwater Pollution Prevention is to be addressed through the use of Best Management Practices (BMP) to the maximum extent practicable",
+      "page_or_section": "Policy 3.5.5, page 29"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "The Town encourages the use of green infrastructure and low impact development techniques",
+      "page_or_section": "Policy 3.5.6, page 29"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Street design may also consider green stormwater infrastructure practices including stormwater harvesting basins, sediment traps, and curb openings.",
+      "page_or_section": "Section 3.8, page 33"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "high",
+    "needs_human_review": false,
+    "review_notes": "Corpus is Appendix A excerpts mis-tagged in chunk IDs; hydrology/detention content is clearly from main manual Sections 3–6 and Appendix B. Facility-specific return periods beyond cited standards may exist in uncited sections.",
+    "fields_not_found": [
+      "document_metadata.version_or_edition",
+      "document_metadata.adoption_or_effective_date",
+      "document_metadata.issuing_agency_category"
+    ]
+  },
+  "source": {
+    "document_url": "https://www.prescottvalley-az.gov/Documents/Departments/Public%20Works/TOPV%20DrainagePoliciesStandards%202025-02-10.pdf",
+    "landing_page_url": "https://www.prescottvalley-az.gov/departments/public_works/index.php",
+    "retrieved_at": "2026-08-14T15:27:09.408Z",
+    "original_filename": "prescott-valley-az.pdf"
+  }
+}

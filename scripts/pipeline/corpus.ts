@@ -217,7 +217,7 @@ Total pages: ${pages.total_pages}
 From the page samples below, produce JSON with:
 - document_scope: one of full_manual | chapter_only | volume_only | esc_construction_only | bmp_catalog_only | hydrology_only | other
 - document_title_normalized
-- jurisdiction_name, jurisdiction_level, state_code (2-letter or null)
+- jurisdiction_name, jurisdiction_level (state|county|municipality|special_district|tribal|federal|other), state_code (2-letter or null)
 - topics_present: short topic tags (e.g. hydrology, water_quality, bmp_sizing, construction_esc, detention, om)
 - toc: array of { id, title, level, page_start, page_end } covering major sections (estimate page_end from next section or total pages)
 - quality_flags: e.g. scanned_pages, missing_toc, chapter_only, truncated_sample
