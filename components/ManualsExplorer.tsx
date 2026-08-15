@@ -163,11 +163,7 @@ export function ManualsExplorer({ manuals }: { manuals: ManualListItem[] }) {
       } else if (agencyFilter === "none") {
         if (record.issuing_agency_category) return false;
       }
-      if (
-        stateFilter &&
-        record.state_code !== stateFilter &&
-        record.jurisdiction_level !== "federal"
-      ) {
+      if (stateFilter && record.state_code !== stateFilter) {
         return false;
       }
       if (
