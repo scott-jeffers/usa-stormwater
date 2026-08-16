@@ -1,6 +1,6 @@
 # Stormwater Atlas
 
-> U.S. stormwater design manual requirements in one place — structured, evidence-cited JSON anyone (or any AI) can fetch. No API key.
+> U.S. stormwater design manual requirements in one place — an ongoing open project with structured, evidence-cited JSON anyone (or any AI) can fetch. No API key.
 
 Website: https://stormwateratlas.com/
 About & examples: https://stormwateratlas.com/about/
@@ -29,3 +29,7 @@ The `/national/` reader is a **U.S. Stormwater Practice Synthesis** (research dr
 ## Important
 
 Data is for research reference only. Always verify against the current official agency document linked in each record. Some extracted fields may need human review.
+
+The `needs_human_review` flag in JSON means an automated extraction had low confidence or incomplete citations — compare excerpts to the official PDF; it is not a volunteer review program. See https://stormwateratlas.com/about/#needs-review
+
+Open-source community project (actively developed). MIT license: https://github.com/scott-jeffers/usa-stormwater

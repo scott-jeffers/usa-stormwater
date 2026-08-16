@@ -192,9 +192,17 @@ export default async function ManualDetailPage({
 
         {quality.needs_human_review && (
           <div className="mt-4 rounded-md border border-orange-200 bg-orange-50 p-3 text-sm text-orange-800 dark:border-orange-500/30 dark:bg-orange-950/40 dark:text-orange-100">
-            <p className="font-medium">This extraction needs human review.</p>
+            <p className="font-medium">
+              This extraction is flagged for quality review.
+            </p>
+            <p className="mt-1 text-orange-800/90 dark:text-orange-200/90">
+              Compare each cited field to the official PDF before relying on it.{" "}
+              <Link href="/about/#needs-review" className="font-medium underline">
+                What this means
+              </Link>
+            </p>
             {quality.review_notes && (
-              <p className="mt-1">{quality.review_notes}</p>
+              <p className="mt-2">{quality.review_notes}</p>
             )}
           </div>
         )}

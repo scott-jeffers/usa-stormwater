@@ -22,9 +22,32 @@ export default function AboutPage() {
           About Stormwater Atlas
         </h1>
         <p className="text-base leading-relaxed text-fg-secondary">
-          A national atlas of U.S. stormwater design manual requirements.
-          Criteria are extracted from public agency documents and paired with
-          the exact quote that supports each field. Source code is on{" "}
+          An ongoing open project to index and compare U.S. stormwater design
+          manual requirements. Criteria are extracted from public agency
+          documents and paired with the exact quote that supports each field.
+          New manuals, corrected extractions, and schema updates land
+          regularly — coverage and quality are still improving. Source code is
+          on{" "}
+          <a
+            href="https://github.com/scott-jeffers/usa-stormwater"
+            className="font-medium text-water-link hover:underline"
+          >
+            GitHub
+          </a>{" "}
+          (MIT); contributions welcome.
+        </p>
+      </header>
+
+      <Section title="Ongoing development">
+        <p>
+          Stormwater Atlas is <strong>actively under development</strong>, not a
+          finished reference product. Manuals are added from a public queue;
+          many records are automated first drafts flagged for quality review.
+          Treat the site as a living dataset — always confirm critical values
+          against the linked official PDF.
+        </p>
+        <p className="mt-3">
+          Currently maintained on{" "}
           <a
             href="https://github.com/scott-jeffers/usa-stormwater"
             className="font-medium text-water-link hover:underline"
@@ -33,7 +56,23 @@ export default function AboutPage() {
           </a>
           .
         </p>
-      </header>
+      </Section>
+
+      <Section title="Purpose">
+        <p>
+          Stormwater Atlas is a <strong>research and comparison tool</strong>.
+          Use it to find what different jurisdictions&apos; manuals say about
+          design storms, water-quality volume methods, peak-flow approaches,
+          BMP categories, and related criteria — without reading hundreds of
+          PDFs. Each value is paired with a cited excerpt and a link to the
+          official agency document.
+        </p>
+        <p className="mt-3">
+          It is <strong>not</strong> adopted regulation and not a substitute
+          for the controlling manual, ordinance, or engineer of record. Always
+          open the linked official PDF before design or permitting decisions.
+        </p>
+      </Section>
 
       <Section title="For people">
         <p>
@@ -148,6 +187,89 @@ export default function AboutPage() {
         </p>
       </Section>
 
+      <Section title="Attribution and linking">
+        <p>
+          You may link to Stormwater Atlas without asking first. A short credit
+          is appreciated but not required. Prefer the project name in public
+          copy; individual maintainer credit is optional.
+        </p>
+        <p className="mt-3 text-sm text-fg-muted">
+          Suggested attribution line (project only):
+        </p>
+        <blockquote className="mt-2 rounded-xl border border-edge/80 bg-mist/40 px-4 py-3 text-sm italic text-fg-secondary">
+          Stormwater Atlas — national index of stormwater design manual criteria
+          with cited excerpts.{" "}
+          <a href={BASE} className="text-water-link not-italic hover:underline">
+            {BASE}
+          </a>
+        </blockquote>
+        <p className="mt-3 text-sm text-fg-muted">
+          Suggested blurb for resource pages:
+        </p>
+        <blockquote className="mt-2 rounded-xl border border-edge/80 bg-mist/40 px-4 py-3 text-sm text-fg-secondary">
+          <a href={BASE} className="font-medium text-water-link hover:underline">
+            Stormwater Atlas
+          </a>{" "}
+          is a free, open reference for comparing stormwater design manual
+          requirements across U.S. federal, state, county, and city
+          jurisdictions. Key fields are paired with verbatim excerpts and
+          links to official agency PDFs. The database is under active
+          development — use it as a research aid and always verify against the
+          current official document.
+        </blockquote>
+      </Section>
+
+      <Section title="Needs review flag" id="needs-review">
+        <p>
+          Many records show a <strong>Needs review</strong> badge or an orange
+          banner on the manual page. This is an <strong>extraction quality
+          flag</strong>, not a public volunteer program.
+        </p>
+        <p className="mt-3">
+          Records are flagged when automated extraction from the source PDF had
+          low or medium confidence, ambiguous wording, missing fields, or
+          citation checks that did not fully pass. The flag means:{" "}
+          <em>compare the cited excerpt to the official PDF before you rely on
+          this field.</em>
+        </p>
+        <p className="mt-3">
+          <strong>How to check a record yourself:</strong>
+        </p>
+        <ol className="mt-2 list-decimal space-y-2 pl-5 text-sm">
+          <li>Open the manual page and note any populated design-criteria fields.</li>
+          <li>
+            Read the quoted excerpt under each field and confirm it supports the
+            value shown.
+          </li>
+          <li>
+            Open the linked official PDF or agency page and verify against the
+            current adopted text (edition, date, and section).
+          </li>
+          <li>
+            Check <em>Fields not found in document</em> — those criteria were not
+            located in the extracted text and may still exist elsewhere in the
+            manual.
+          </li>
+        </ol>
+        <p className="mt-3">
+          There is no in-site correction form yet. To report a fix, open an
+          issue on{" "}
+          <a
+            href="https://github.com/scott-jeffers/usa-stormwater"
+            className="font-medium text-water-link hover:underline"
+          >
+            GitHub
+          </a>{" "}
+          with the manual slug, field name, and the correct excerpt or page
+          reference from the official document.
+        </p>
+        <p className="mt-3 text-sm text-fg-muted">
+          Use the homepage filter <strong>Needs review only</strong> to browse
+          flagged records, or filter by <strong>Confidence: High</strong> for
+          extractions that passed without the review flag.
+        </p>
+      </Section>
+
       <Section title="Examples">
         <h3 className="font-display text-base font-semibold text-ink">
           Fetch the index
@@ -205,9 +327,14 @@ console.log(tx100.map((m) => m.document_metadata.jurisdiction_name));`}</CodeBlo
         <p>
           Extractions are a research aid, not a substitute for the controlling
           manual, ordinance, or engineer of record. Always open the linked
-          official document before design or permitting decisions. Some records
-          are flagged for human review when the source was ambiguous or
-          incomplete.
+          official document before design or permitting decisions.
+        </p>
+        <p className="mt-3">
+          See{" "}
+          <a href="#needs-review" className="font-medium text-water-link hover:underline">
+            Needs review flag
+          </a>{" "}
+          for what the quality badges mean and how to verify a record.
         </p>
       </Section>
     </main>
@@ -216,13 +343,15 @@ console.log(tx100.map((m) => m.document_metadata.jurisdiction_name));`}</CodeBlo
 
 function Section({
   title,
+  id,
   children,
 }: {
   title: string;
+  id?: string;
   children: React.ReactNode;
 }) {
   return (
-    <section className="space-y-3">
+    <section id={id} className="scroll-mt-20 space-y-3">
       <h2 className="font-display text-xl font-semibold text-ink">{title}</h2>
       <div className="text-base leading-relaxed text-fg-secondary">{children}</div>
     </section>
