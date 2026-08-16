@@ -16,12 +16,6 @@ export function SiteHeader() {
         </Link>
         <nav className="flex items-center gap-3 text-sm sm:gap-4">
           <Link
-            href="/federal/"
-            className="font-medium text-fg-secondary transition-colors hover:text-water-link"
-          >
-            Federal
-          </Link>
-          <Link
             href="/national/"
             className="font-medium text-fg-secondary transition-colors hover:text-water-link"
           >

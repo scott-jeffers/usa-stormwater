@@ -1,5 +1,6 @@
 import { getManualListItems } from "@/lib/data";
 import { ManualsExplorer } from "@/components/ManualsExplorer";
+import { FederalGuidanceCard } from "@/components/FederalGuidanceCard";
 import { isUsStateCode } from "@/lib/usStates";
 
 export default function HomePage() {
@@ -10,6 +11,9 @@ export default function HomePage() {
   ).size;
 
   const needsReviewCount = manuals.filter((m) => m.needs_human_review).length;
+  const federalCount = manuals.filter(
+    (m) => m.jurisdiction_level === "federal"
+  ).length;
 
   return (
     <main className="space-y-8">
@@ -35,6 +39,8 @@ export default function HomePage() {
       </header>
 
       <ManualsExplorer manuals={manuals} />
+
+      <FederalGuidanceCard count={federalCount} />
     </main>
   );
 }
