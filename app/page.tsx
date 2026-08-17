@@ -1,4 +1,3 @@
-import Link from "next/link";
 import { getManualListItems } from "@/lib/data";
 import { ManualsExplorer } from "@/components/ManualsExplorer";
 import { FederalGuidanceCard } from "@/components/FederalGuidanceCard";
@@ -11,9 +10,6 @@ export default function HomePage() {
     manuals.map((m) => m.state_code).filter(isUsStateCode)
   ).size;
 
-  const highConfidenceCount = manuals.filter(
-    (m) => m.confidence === "high" && !m.needs_human_review
-  ).length;
   const federalCount = manuals.filter(
     (m) => m.jurisdiction_level === "federal"
   ).length;
@@ -29,16 +25,6 @@ export default function HomePage() {
         </p>
         <p className="pt-1 text-sm text-fg-muted">
           {manuals.length} manuals · {statesCovered} states
-          {highConfidenceCount > 0 ? (
-            <> · {highConfidenceCount} high-confidence extractions</>
-          ) : null}
-        </p>
-        <p className="text-xs text-fg-muted">
-          Automated extractions with cited excerpts — always verify against the{" "}
-          <Link href="/about/#needs-review" className="text-water-link hover:underline">
-            official PDF
-          </Link>
-          .
         </p>
       </header>
 
