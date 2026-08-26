@@ -1,0 +1,182 @@
+{
+  "document_metadata": {
+    "jurisdiction_name": "Mississippi",
+    "jurisdiction_level": "state",
+    "state_code": "MS",
+    "document_title": "MDOT Drainage Manual",
+    "version_or_edition": "November 2025",
+    "adoption_or_effective_date": null,
+    "last_revised_date": "November 2025",
+    "relationship_to_state_manual": "independent",
+    "issuing_agency_category": "dot"
+  },
+  "design_criteria": {
+    "design_storm_return_periods_years": [
+      2,
+      5,
+      10,
+      20,
+      25,
+      50,
+      100,
+      200,
+      500
+    ],
+    "water_quality_volume_method": null,
+    "peak_flow_calculation_method": [
+      "USGS rural regression equations (StreamStats/NSS)",
+      "Rational Method",
+      "NRCS Curve Number (Hydrograph) Method",
+      "WMS and HEC-HMS",
+      "Transposition of Streamflow Records",
+      "NRCS Unit Hydrograph",
+      "Snyder Unit Hydrograph"
+    ],
+    "required_hydrologic_hydraulic_software": [
+      "USGS StreamStats",
+      "USGS NSS",
+      "FHWA Hydraulic Toolbox",
+      "WMS",
+      "HEC-HMS"
+    ],
+    "approved_bmp_categories": []
+  },
+  "evidence": [
+    {
+      "field": "document_metadata.document_title",
+      "excerpt": "MDOT Drainage Manual November 2025",
+      "page_or_section": "pages 14-14, chunk ms-mdot-drainage-c0020"
+    },
+    {
+      "field": "document_metadata.version_or_edition",
+      "excerpt": "MDOT Drainage Manual November 2025",
+      "page_or_section": "pages 14-14"
+    },
+    {
+      "field": "document_metadata.last_revised_date",
+      "excerpt": "MDOT Drainage Manual November 2025",
+      "page_or_section": "pages 14-14"
+    },
+    {
+      "field": "document_metadata.jurisdiction_name",
+      "excerpt": "StreamStats is not recommended for use in the Mississippi Delta region.",
+      "page_or_section": "page 22, Section 1.4.3 Hydrographs"
+    },
+    {
+      "field": "document_metadata.issuing_agency_category",
+      "excerpt": "MDOT design standards accommodate most design locations by sizing the opening with the design flood",
+      "page_or_section": "page 19, Section 1.3.2.6"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "The check flood should, at a minimum, be the 1% (base) flood. A super flood or superstorm, such as the 0.2% flood, may be used",
+      "page_or_section": "page 19, Section 1.3.3"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "it is commonly assumed that the 10-year rainfall will produce the 10-year flood",
+      "page_or_section": "pages 19-20, Section 1.3.4"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "It provides peak flows that have recurrence intervals of 2, 5, 20, 25, 50, 200, and 500",
+      "page_or_section": "page 22, Section 1.4.3 Hydrographs"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "The typical design frequency is 10 years.",
+      "page_or_section": "page 241, Section 4.8.2 Design Frequency"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "For major sag points on Interstate, freeways, and arterial highways, the design frequency should be 50 years.",
+      "page_or_section": "page 241, Section 4.8.2 Design Frequency"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "The check flood frequency is typically the 100-year return period.",
+      "page_or_section": "page 241, Section 4.8.3 Check Flood Frequency"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "Rational Method (Section 1.7). Provides peak runoff rates for small urban and rural watersheds less than 200 acres.",
+      "page_or_section": "page 22, Section 1.4.3 Hydrographs"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "NRCS Curve Number (Hydrograph) Method (Section 1.8). This method can be used for the estimation of stormwater runoff peak rates and the generation of hydrographs",
+      "page_or_section": "page 22, Section 1.4.3 Hydrographs"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "StreamStats (Section 1.6). This is a web-based application located on USGS’s website",
+      "page_or_section": "page 22, Section 1.4.3 Hydrographs"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "WMS and HEC-HMS. Are software tools similar to StreamStats that use terrain data to compile parameters for hydrologic models.",
+      "page_or_section": "page 22, Section 1.4.3 Hydrographs"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "Transposition of Streamflow Records. Discharge records from nearby gauged locations can be transposed to estimate discharges",
+      "page_or_section": "page 22, Section 1.4.3 Hydrographs"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "If they are not available, the NRCS Unit Hydrograph can be used. Another option is the Snyder Unit Hydrograph, which is contained in the USACE HEC-HMS software.",
+      "page_or_section": "page 22, Section 1.4.3 Hydrographs"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "The Rational Method is the most common method used for the design of storm drains when the peak-flow rate is desired.",
+      "page_or_section": "page 241, Section 4.8.4 Rational Method"
+    },
+    {
+      "field": "design_criteria.required_hydrologic_hydraulic_software",
+      "excerpt": "included in the USGS StreamStats and USGS NSS software, with USGS StreamStats being the preferred alternative.",
+      "page_or_section": "page 22, Section 1.4.3 Hydrographs"
+    },
+    {
+      "field": "design_criteria.required_hydrologic_hydraulic_software",
+      "excerpt": "The FHWA Hydraulic Toolbox software contains this method.",
+      "page_or_section": "page 22, Section 1.4.3 Hydrographs"
+    },
+    {
+      "field": "design_criteria.required_hydrologic_hydraulic_software",
+      "excerpt": "WMS and HEC-HMS. Are software tools similar to StreamStats that use terrain data to compile parameters for hydrologic models.",
+      "page_or_section": "page 22, Section 1.4.3 Hydrographs"
+    },
+    {
+      "field": "design_criteria.required_hydrologic_hydraulic_software",
+      "excerpt": "Software tools, such as the HEC-HMS computer program, may also be used.",
+      "page_or_section": "pages 51-52, Section 1.8.2 Curve Number"
+    },
+    {
+      "field": "design_criteria.required_hydrologic_hydraulic_software",
+      "excerpt": "Alternatively, FHWA’s Hydraulic Toolbox v.5.1 or later has a Rational Method Calculator",
+      "page_or_section": "page 41, Section 1.7.6.3 Sheet-Flow Travel Time"
+    },
+    {
+      "field": "design_criteria.required_hydrologic_hydraulic_software",
+      "excerpt": "a. using the FHWA Hydraulic Toolbox, Channel Analysis, which contains both circular and rectangular sections; or",
+      "page_or_section": "page 286, Section 4.14.2 Design Procedures"
+    }
+  ],
+  "extraction_quality": {
+    "confidence": "medium",
+    "needs_human_review": true,
+    "review_notes": "Excerpts cite check/design/review floods and storm-drain frequencies but do not include Figure 1.3-A or Figure 4.5-A numeric design-frequency tables. No explicit water-quality volume method or enumerated approved BMP category list in provided text. adoption_or_effective_date not stated.",
+    "fields_not_found": [
+      "document_metadata.adoption_or_effective_date",
+      "design_criteria.water_quality_volume_method",
+      "design_criteria.approved_bmp_categories"
+    ]
+  },
+  "source": {
+    "document_url": "https://mdot.ms.gov/documents/Roadway%20Design/Standards/Manuals/MDOT%20Roadway%20Design%20Drainage%20Manual%20-%20NOVEMBER%202025.pdf",
+    "landing_page_url": "https://mdot.ms.gov/RoadwayDesign/Standards/Manuals.aspx",
+    "retrieved_at": "2026-08-26T05:25:08.312Z",
+    "original_filename": "ms-mdot-drainage.pdf"
+  }
+}

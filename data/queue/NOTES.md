@@ -1,6 +1,6 @@
 # Overnight queue notes
 
-Updated: 2026-08-14T15:24:57.900Z
+Updated: 2026-08-26T05:23:56.201Z
 
 Extraction is done by **Cursor agents** (not Gemini). After `npm run prepare:queue`, ask Cursor to read `samples/queue/<id>.txt` and write `data/documents/<id>.json` matching `lib/schema.ts`, then `npm run save -- samples/queue/<id>.extraction.json --slug=<id>` (or have the agent write the document JSON directly).
 
@@ -8,8 +8,8 @@ Extraction is done by **Cursor agents** (not Gemini). After `npm run prepare:que
 
 | Status | Count |
 |--------|------:|
-| done | 347 |
-| prepared (awaiting agent) | 11 |
+| done | 354 |
+| prepared (awaiting agent) | 5 |
 | pending | 0 |
 | skipped | 6 |
 | deferred | 0 |
@@ -20,13 +20,7 @@ Extraction is done by **Cursor agents** (not Gemini). After `npm run prepare:que
 - `fl-sfwmd-erp-ah2` — text ready for Cursor agent
 - `fl-swfwmd-erp-ah2` — text ready for Cursor agent
 - `fl-srwmd-erp-ah2` — text ready for Cursor agent
-- `prescott-valley-az` — text ready for Cursor agent
-- `fhwa-hec-22` — text ready for Cursor agent
-- `fhwa-hds-4` — text ready for Cursor agent
-- `fhwa-hec-14` — text ready for Cursor agent
-- `fhwa-hec-15` — text ready for Cursor agent
-- `fhwa-hec-24` — text ready for Cursor agent
-- `fhwa-hec-21` — text ready for Cursor agent
+- `ms-mdot-drainage` — text ready for Cursor agent
 
 ## Worked
 
@@ -377,6 +371,13 @@ Extraction is done by **Cursor agents** (not Gemini). After `npm run prepare:que
 - `fl-sjrwmd-erp-ah2` → `fl-sjrwmd-erp-ah2`
 - `tahoe-trpa-bmp` → `tahoe-trpa-bmp`
 - `pa-bmp-2006` → `pa-bmp-2006`
+- `prescott-valley-az` → `prescott-valley-az`
+- `fhwa-hec-22` → `fhwa-hec-22`
+- `fhwa-hds-4` → `fhwa-hds-4`
+- `fhwa-hec-14` → `fhwa-hec-14`
+- `fhwa-hec-15` → `fhwa-hec-15`
+- `fhwa-hec-24` → `fhwa-hec-24`
+- `fhwa-hec-21` → `fhwa-hec-21`
 
 ## Skipped
 

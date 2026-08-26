@@ -305,3 +305,4 @@
 {"ts":"2026-08-14T15:24:55.429Z","id":"fhwa-hec-15","status":"prepared","detail":"Text ready at samples/queue/fhwa-hec-15.txt","chars":264698,"pages":154}
 {"ts":"2026-08-14T15:24:57.058Z","id":"fhwa-hec-24","status":"prepared","detail":"Text ready at samples/queue/fhwa-hec-24.txt","chars":336203,"pages":221}
 {"ts":"2026-08-14T15:24:57.895Z","id":"fhwa-hec-21","status":"prepared","detail":"Text ready at samples/queue/fhwa-hec-21.txt","chars":157365,"pages":138}
+{"ts":"2026-08-26T05:23:56.151Z","id":"ms-mdot-drainage","status":"prepared","detail":"Text ready at samples/queue/ms-mdot-drainage.txt","chars":438111,"pages":302}

@@ -218,6 +218,7 @@
     "nd-nddot-drainage": "dot",
     "nh-nhdot-drainage": "dot",
     "nm-nmdot-drainage": "dot",
+    "ms-mdot-drainage": "dot",
     "ri-ridot-drainage": "dot"
   },
   "citation_patterns": {

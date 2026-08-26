@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-14T15:32:48.901Z",
+  "updatedAt": "2026-08-26T05:25:08.323Z",
   "jobs": {
     "md-state": {
       "id": "md-state",
@@ -22042,6 +22042,67 @@
         "verify": {
           "status": "pending",
           "updatedAt": "2026-08-14T15:25:38.491Z",
+          "startedAt": null,
+          "completedAt": null,
+          "error": null,
+          "substeps": {},
+          "meta": {}
+        }
+      }
+    },
+    "ms-mdot-drainage": {
+      "id": "ms-mdot-drainage",
+      "slug": "ms-mdot-drainage",
+      "stages": {
+        "prepare": {
+          "status": "done",
+          "updatedAt": "2026-08-26T05:24:18.893Z",
+          "startedAt": null,
+          "completedAt": "2026-08-26T05:24:18.891Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "bootstrapped": true
+          }
+        },
+        "corpus": {
+          "status": "done",
+          "updatedAt": "2026-08-26T05:24:21.043Z",
+          "startedAt": "2026-08-26T05:24:18.899Z",
+          "completedAt": "2026-08-26T05:24:21.043Z",
+          "error": null,
+          "substeps": {
+            "pages": "done",
+            "structure": "done",
+            "chunks": "done",
+            "tagging": "done",
+            "manifest": "done"
+          },
+          "meta": {
+            "pages": 302,
+            "chars": 437810,
+            "chunks": 218,
+            "scope": "esc_construction_only"
+          }
+        },
+        "extract": {
+          "status": "done",
+          "updatedAt": "2026-08-26T05:25:08.323Z",
+          "startedAt": "2026-08-26T05:24:31.066Z",
+          "completedAt": "2026-08-26T05:25:08.323Z",
+          "error": null,
+          "substeps": {},
+          "meta": {
+            "model": "composer-2.5",
+            "runId": "run-c11d06db-a995-4c8c-9735-3b2b1682e4e6",
+            "slug": "ms-mdot-drainage",
+            "confidence": "medium",
+            "path": "C:\\Users\\smj46\\Code\\USA-Stormwater\\data\\documents/ms-mdot-drainage.json"
+          }
+        },
+        "verify": {
+          "status": "pending",
+          "updatedAt": "2026-08-26T05:24:18.893Z",
           "startedAt": null,
           "completedAt": null,
           "error": null,

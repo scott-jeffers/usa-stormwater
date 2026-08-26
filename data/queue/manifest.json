@@ -4192,5 +4192,16 @@
     "landingPageUrl": "https://www.fhwa.dot.gov/engineering/hydraulics/highwaydrain/drainage.cfm",
     "cityCoords": null,
     "notes": "FHWA HEC-21 Design of Bridge Deck Drainage (May 1993). National guidance — jurisdiction_level federal, state_code null, issuing_agency_category other."
+  },
+  {
+    "id": "ms-mdot-drainage",
+    "jurisdictionHint": "Mississippi",
+    "levelHint": "state",
+    "agencyHint": "dot",
+    "scopeHint": "drainage",
+    "pdfUrl": "https://mdot.ms.gov/documents/Roadway%20Design/Standards/Manuals/MDOT%20Roadway%20Design%20Drainage%20Manual%20-%20NOVEMBER%202025.pdf",
+    "landingPageUrl": "https://mdot.ms.gov/RoadwayDesign/Standards/Manuals.aspx",
+    "cityCoords": null,
+    "notes": "MDOT Roadway Design Drainage Manual (November 2025)"
   }
 ]

@@ -1,6 +1,6 @@
 # Pipeline status
 
-Updated: 2026-08-14T15:32:48.901Z
+Updated: 2026-08-26T05:25:08.323Z
 
 Resume with: `npm run pipeline:run` or `npm run pipeline:status`
 
@@ -8,10 +8,10 @@ Resume with: `npm run pipeline:run` or `npm run pipeline:status`
 
 | Stage | done | running | pending | failed | skipped |
 |-------|-----:|--------:|--------:|-------:|--------:|
-| prepare | 356 | 0 | 0 | 0 | 7 |
-| corpus | 355 | 0 | 0 | 0 | 8 |
-| extract | 356 | 0 | 0 | 0 | 7 |
-| verify | 349 | 0 | 7 | 0 | 7 |
+| prepare | 357 | 0 | 0 | 0 | 7 |
+| corpus | 356 | 0 | 0 | 0 | 8 |
+| extract | 357 | 0 | 0 | 0 | 7 |
+| verify | 349 | 0 | 8 | 0 | 7 |
 
 ## Global stages
 
