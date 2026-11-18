@@ -1,6 +1,8 @@
 import { existsSync, readdirSync, readFileSync, statSync } from "node:fs";
 import path from "node:path";
 import { stormwaterSchema, type StormwaterData } from "./schema";
+import { coverageBasisFor, type CoverageBasis } from "./sharedManuals";
+import { getEvidenceQa } from "./qa/load";
 import {
   inferAgencyCategory,
   normalizeAgencyCategory,
@@ -33,6 +35,10 @@ export interface ManualListItem {
   revisedAt: string | null;
   /** Resolved agency category (schema field or inferred). */
   issuing_agency_category: AgencyCategory | null;
+  /** How the jurisdiction is covered (data/coverage/shared-manuals.json). */
+  coverage_basis: CoverageBasis | "own";
+  /** Strict citation check result (data/qa/evidence.json). */
+  citation_status: "passed" | "warnings" | "failed" | null;
 }
 
 const DOCUMENTS_DIR = path.resolve(process.cwd(), "data/documents");
@@ -275,6 +281,8 @@ function toListItem(record: ManualRecord): ManualListItem {
     processedAt: record.processedAt,
     revisedAt,
     issuing_agency_category,
+    coverage_basis: coverageBasisFor(record.slug),
+    citation_status: getEvidenceQa(record.slug)?.status ?? null,
   };
 }
 

@@ -298,3 +298,27 @@ export function AgencyBadge({
     </span>
   );
 }
+
+/** Shown for records that use another body's manual (hidden for own manuals). */
+export function CoverageBadge({
+  basis,
+}: {
+  basis: "own" | "issuer" | "state_manual" | "regional_manual" | "stand_in";
+}) {
+  if (basis === "own" || basis === "issuer") return null;
+  if (basis === "stand_in") {
+    return (
+      <span
+        title="Another jurisdiction's manual is shown as a placeholder"
+        className="inline-flex items-center rounded-full bg-amber-50 px-2.5 py-0.5 text-xs font-medium text-amber-900 ring-1 ring-inset ring-amber-700/20 dark:bg-amber-950/50 dark:text-amber-200 dark:ring-amber-400/20"
+      >
+        Stand-in
+      </span>
+    );
+  }
+  return (
+    <span className="inline-flex items-center rounded-full bg-surface-muted px-2.5 py-0.5 text-xs font-medium text-fg-secondary ring-1 ring-inset ring-edge-strong/40">
+      {basis === "state_manual" ? "State manual" : "Regional manual"}
+    </span>
+  );
+}

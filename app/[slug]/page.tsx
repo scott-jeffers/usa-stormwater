@@ -14,6 +14,7 @@ import {
 } from "@/components/Badge";
 import { FieldWithEvidence } from "@/components/FieldWithEvidence";
 import { getEvidenceQa } from "@/lib/qa/load";
+import { getSharedInfo, BASIS_LABELS } from "@/lib/sharedManuals";
 import { NUMERIC_PARAM_FIELDS } from "@/lib/practices/fields";
 import { inferAgencyCategory, normalizeAgencyCategory } from "@/lib/agencyTypes";
 
@@ -84,7 +85,6 @@ export default async function ManualDetailPage({
   const { data } = manual;
   const {
     document_metadata: meta,
-    design_criteria: criteria,
     evidence,
     extraction_quality: quality,
     source,
@@ -117,8 +117,38 @@ export default async function ManualDetailPage({
     pdfUrl: source.document_url,
     slug,
   };
-  const failedQa = qa ? qa.excerpts.filter((x) => x.status === "fail") : [];
-  const dp = data.design_parameters as Record<string, unknown> | undefined;
+  // Records sharing one source PDF show the representative's values, so
+  // the same manual can't give different answers on different pages.
+  const shared = getSharedInfo(slug);
+  const repManual =
+    shared && !shared.isRepresentative ? getManualBySlug(shared.representative) : null;
+  const designData = repManual?.data ?? data;
+  const designSlug = repManual?.slug ?? slug;
+  const designQa = repManual ? getEvidenceQa(designSlug) : qa;
+  const designEv = {
+    evidence: designData.evidence,
+    fieldsNotFound: designData.extraction_quality.fields_not_found,
+    qa: designQa,
+    pdfUrl: designData.source.document_url,
+    slug: designSlug,
+  };
+  const criteria = designData.design_criteria;
+  const ownFails = (qa?.excerpts ?? []).filter(
+    (x) => x.status === "fail" && (!repManual || x.field.startsWith("document_metadata."))
+  );
+  const designFails = repManual
+    ? (designQa?.excerpts ?? []).filter(
+        (x) => x.status === "fail" && !x.field.startsWith("document_metadata.")
+      )
+    : [];
+  const failedQa = [...ownFails, ...designFails];
+  const shownStatus =
+    failedQa.length > 0
+      ? "failed"
+      : qa?.status === "warnings" || designQa?.status === "warnings"
+        ? "warnings"
+        : (designQa ?? qa)?.status ?? "unknown";
+  const dp = designData.design_parameters as Record<string, unknown> | undefined;
   const paramRows = NUMERIC_PARAM_FIELDS.filter(
     (f) => typeof dp?.[f.field] === "number"
   );
@@ -151,10 +181,18 @@ export default async function ManualDetailPage({
               <StateBadge stateCode={meta.state_code} showName />
               <ConfidenceBadge confidence={quality.confidence} />
               <NeedsReviewBadge needsReview={quality.needs_human_review} />
-              <VerifyBadge
-                status={qa?.status ?? "unknown"}
-                mismatchCount={failedQa.length}
-              />
+              <VerifyBadge status={shownStatus} mismatchCount={failedQa.length} />
+              {shared && shared.basis !== "issuer" && (
+                <span
+                  className={`inline-flex items-center rounded-full px-2.5 py-0.5 text-xs font-medium ring-1 ring-inset ${
+                    shared.basis === "stand_in"
+                      ? "bg-amber-50 text-amber-900 ring-amber-700/20 dark:bg-amber-950/50 dark:text-amber-200 dark:ring-amber-400/20"
+                      : "bg-surface-muted text-fg-secondary ring-edge-strong/40"
+                  }`}
+                >
+                  {BASIS_LABELS[shared.basis]}
+                </span>
+              )}
             </div>
             {(source.document_url || source.landing_page_url) && (
               <div className="mt-4 flex flex-wrap gap-3 text-sm">
@@ -190,6 +228,63 @@ export default async function ManualDetailPage({
           </div>
         </div>
 
+        {shared && repManual && (
+          <div
+            className={`mt-4 rounded-md border p-3 text-sm ${
+              shared.basis === "stand_in"
+                ? "border-amber-200 bg-amber-50 text-amber-900 dark:border-amber-500/30 dark:bg-amber-950/40 dark:text-amber-100"
+                : "border-edge bg-mist/40 text-fg-secondary"
+            }`}
+          >
+            {shared.basis === "stand_in" ? (
+              <>
+                <p className="font-medium">
+                  Stand-in: no {meta.jurisdiction_name} manual has been added yet.
+                </p>
+                <p className="mt-1">
+                  The design values below come from{" "}
+                  <Link href={`/${repManual.slug}/`} className="font-medium underline">
+                    {shared.group.issuer}
+                  </Link>{" "}
+                  and are shown only as a placeholder. They may not apply in{" "}
+                  {meta.jurisdiction_name}.
+                </p>
+              </>
+            ) : (
+              <p>
+                {meta.jurisdiction_name} uses the{" "}
+                {shared.basis === "state_manual" ? "state" : "regional"} manual published by{" "}
+                <strong>{shared.group.issuer}</strong>. The design values below come from{" "}
+                <Link href={`/${repManual.slug}/`} className="font-medium underline">
+                  that manual&rsquo;s record
+                </Link>
+                , shared with {shared.others.length} other record
+                {shared.others.length === 1 ? "" : "s"}. Check for local amendments before
+                relying on them.
+              </p>
+            )}
+            {shared.note && <p className="mt-1 text-xs opacity-90">{shared.note}</p>}
+          </div>
+        )}
+        {shared && shared.isRepresentative && (
+          <p className="mt-4 text-xs text-fg-muted">
+            This manual is also the source for:{" "}
+            {shared.others.map((o, i) => {
+              const other = getManualBySlug(o.slug);
+              return (
+                <span key={o.slug}>
+                  {i > 0 && ", "}
+                  <Link href={`/${o.slug}/`} className="text-water-link hover:underline">
+                    {other?.data.document_metadata.jurisdiction_name ?? o.slug}
+                  </Link>
+                  {o.basis === "stand_in" && " (stand-in)"}
+                </span>
+              );
+            })}
+            .
+          </p>
+        )}
+
         {failedQa.length > 0 && (
           <div className="mt-4 rounded-md border border-rose-200 bg-rose-50 p-3 text-sm text-rose-900 dark:border-rose-500/30 dark:bg-rose-950/40 dark:text-rose-100">
             <p className="font-medium">
@@ -223,10 +318,10 @@ export default async function ManualDetailPage({
           </div>
         )}
 
-        {fieldsNotFound.length > 0 && (
+        {designEv.fieldsNotFound.length > 0 && (
           <div className="mt-3 text-xs text-fg-muted">
             <span className="font-medium text-fg-secondary">Fields not found in document: </span>
-            {fieldsNotFound.join(", ")}
+            {designEv.fieldsNotFound.join(", ")}
           </div>
         )}
 
@@ -306,6 +401,15 @@ export default async function ManualDetailPage({
 
       <section className="rounded-xl border border-edge/80 bg-surface p-6 shadow-sm">
         <h2 className="font-display text-lg font-semibold text-ink">Design Criteria</h2>
+        {repManual && (
+          <p className="mt-1 text-xs text-fg-muted">
+            From the{" "}
+            <Link href={`/${repManual.slug}/`} className="underline">
+              {repManual.data.document_metadata.document_title}
+            </Link>{" "}
+            record.
+          </p>
+        )}
         <div className="mt-2">
           <FieldWithEvidence
             label="Design storm return periods (years)"
@@ -317,13 +421,13 @@ export default async function ManualDetailPage({
                     .join(", ")
                 : null
             }
-            {...ev}
+            {...designEv}
           />
           <FieldWithEvidence
             label="Water quality volume method"
             fieldPath="design_criteria.water_quality_volume_method"
             value={criteria.water_quality_volume_method}
-            {...ev}
+            {...designEv}
           />
           <FieldWithEvidence
             label="Peak flow calculation method(s)"
@@ -333,7 +437,7 @@ export default async function ManualDetailPage({
                 ? criteria.peak_flow_calculation_method.join(", ")
                 : null
             }
-            {...ev}
+            {...designEv}
           />
           <FieldWithEvidence
             label="Hydrologic/hydraulic software"
@@ -343,7 +447,7 @@ export default async function ManualDetailPage({
                 ? criteria.required_hydrologic_hydraulic_software.join(", ")
                 : null
             }
-            {...ev}
+            {...designEv}
           />
           <FieldWithEvidence
             label="Approved BMP categories"
@@ -353,7 +457,7 @@ export default async function ManualDetailPage({
                 ? criteria.approved_bmp_categories.join(", ")
                 : null
             }
-            {...ev}
+            {...designEv}
           />
         </div>
       </section>
@@ -372,7 +476,7 @@ export default async function ManualDetailPage({
                 label={f.label}
                 fieldPath={`design_parameters.${f.field}`}
                 value={`${dp![f.field] as number} ${f.unit}`}
-                {...ev}
+                {...designEv}
                 fieldsNotFound={[]}
               />
             ))}

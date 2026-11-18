@@ -1,0 +1,1107 @@
+{
+  "version": 1,
+  "policy": "One record per source document. The representative's extracted values are shown for every member; members keep their own metadata. 'stand_in' members use another jurisdiction's manual as a placeholder and do not count as covered.",
+  "bases": {
+    "issuer": "The issuing agency's own record",
+    "state_manual": "Jurisdiction uses its state's manual",
+    "regional_manual": "Jurisdiction uses a manual from a regional body it belongs to",
+    "stand_in": "Another jurisdiction's manual used as a placeholder; counted as a coverage gap"
+  },
+  "groups": [
+    {
+      "id": "ak-storm-water-guide",
+      "issuer": "Alaska DEC",
+      "representative": "ak-state",
+      "document_urls": [
+        "https://plants.alaska.gov/pdf/akswguide.pdf"
+      ],
+      "members": [
+        {
+          "slug": "ak-state",
+          "basis": "issuer"
+        },
+        {
+          "slug": "juneau-ak",
+          "basis": "state_manual"
+        }
+      ]
+    },
+    {
+      "id": "bernalillo-gsi",
+      "issuer": "Bernalillo County",
+      "representative": "albuquerque-nm-gsi",
+      "document_urls": [
+        "https://swefc.unm.edu/gardb/wp-content/uploads/2025/03/61-Green_Infrastructure_and_Low_Impact_Design_Guide_1-1.pdf"
+      ],
+      "members": [
+        {
+          "slug": "albuquerque-nm-gsi",
+          "basis": "issuer"
+        },
+        {
+          "slug": "las-cruces-nm",
+          "basis": "stand_in",
+          "note": "Bernalillo County guidance used as a placeholder for Las Cruces (Do\u00f1a Ana County)."
+        },
+        {
+          "slug": "santa-fe-nm",
+          "basis": "stand_in",
+          "note": "Bernalillo County guidance used as a placeholder for Santa Fe."
+        }
+      ]
+    },
+    {
+      "id": "arkansas-swppp",
+      "issuer": "Arkansas",
+      "representative": "arkansas-manual",
+      "document_urls": [
+        "https://cityoflittleflock.com/wp-content/uploads/2024/06/BMP-Manual-1-17-ALL.pdf"
+      ],
+      "members": [
+        {
+          "slug": "arkansas-manual",
+          "basis": "issuer"
+        },
+        {
+          "slug": "fayetteville-ar",
+          "basis": "state_manual"
+        }
+      ]
+    },
+    {
+      "id": "columbia-sc-bmp",
+      "issuer": "City of Columbia, SC",
+      "representative": "columbia-sc",
+      "document_urls": [
+        "https://columbiascwater.net/wp-content/uploads/2018/08/bmpmanual.pdf"
+      ],
+      "members": [
+        {
+          "slug": "columbia-sc",
+          "basis": "issuer"
+        },
+        {
+          "slug": "greenville-sc",
+          "basis": "stand_in",
+          "note": "Columbia's BMP manual used as a placeholder for Greenville."
+        }
+      ]
+    },
+    {
+      "id": "ct-swqm-2024",
+      "issuer": "CT DEEP",
+      "representative": "ct-state",
+      "document_urls": [
+        "https://portal.ct.gov/-/media/deep/water/water_quality_management/guidance/swm_mar_2024.pdf"
+      ],
+      "members": [
+        {
+          "slug": "ct-state",
+          "basis": "issuer"
+        },
+        {
+          "slug": "bridgeport-ct",
+          "basis": "state_manual"
+        },
+        {
+          "slug": "hartford-ct",
+          "basis": "state_manual"
+        },
+        {
+          "slug": "new-haven-ct",
+          "basis": "state_manual"
+        },
+        {
+          "slug": "stamford-ct",
+          "basis": "state_manual"
+        }
+      ]
+    },
+    {
+      "id": "nctcog-iswm",
+      "issuer": "North Central Texas Council of Governments (iSWM)",
+      "representative": "dallas-tx",
+      "document_urls": [
+        "https://iswm.nctcog.org/Documents/iSWM_Criteria_Manual_01142015.pdf"
+      ],
+      "members": [
+        {
+          "slug": "dallas-tx",
+          "basis": "regional_manual"
+        },
+        {
+          "slug": "grand-prairie-tx",
+          "basis": "regional_manual"
+        },
+        {
+          "slug": "college-station-tx",
+          "basis": "stand_in",
+          "note": "College Station (Brazos Valley) is outside the NCTCOG iSWM region; placeholder."
+        },
+        {
+          "slug": "waco-tx",
+          "basis": "stand_in",
+          "note": "Waco is outside the NCTCOG iSWM region; placeholder."
+        }
+      ]
+    },
+    {
+      "id": "de-wet-ponds-draft",
+      "issuer": "Delaware DNREC",
+      "representative": "de-wet-ponds-draft",
+      "document_urls": [
+        "https://documents.dnrec.delaware.gov/Admin/Public-Notices/WSS20260001/13-0-Wet-Ponds-DRAFT-strikethrough.pdf"
+      ],
+      "members": [
+        {
+          "slug": "de-wet-ponds-draft",
+          "basis": "issuer",
+          "note": "Only the draft Wet Ponds chapter is ingested, not the full Delaware manual."
+        },
+        {
+          "slug": "wilmington-de",
+          "basis": "state_manual",
+          "note": "Only the draft Wet Ponds chapter of the state manual is ingested."
+        },
+        {
+          "slug": "dover-de",
+          "basis": "state_manual",
+          "note": "Only the draft Wet Ponds chapter of the state manual is ingested."
+        }
+      ]
+    },
+    {
+      "id": "mhfd-usdcm",
+      "issuer": "Mile High Flood District (MHFD)",
+      "representative": "denver-co",
+      "document_urls": [
+        "https://www.mhfd.org/files/7af5d4c2f/03_Chapter-1-Stormwater-Management.pdf"
+      ],
+      "members": [
+        {
+          "slug": "denver-co",
+          "basis": "regional_manual"
+        },
+        {
+          "slug": "boulder-co",
+          "basis": "regional_manual"
+        },
+        {
+          "slug": "fort-collins-co",
+          "basis": "stand_in",
+          "note": "Fort Collins publishes its own Stormwater Criteria Manual; MHFD chapter used as a placeholder."
+        },
+        {
+          "slug": "colorado-springs-co",
+          "basis": "stand_in",
+          "note": "Colorado Springs publishes its own Drainage Criteria Manual; MHFD chapter used as a placeholder."
+        }
+      ]
+    },
+    {
+      "id": "iowa-sudas-ch2",
+      "issuer": "Iowa SUDAS",
+      "representative": "des-moines-ia",
+      "document_urls": [
+        "https://www.iowasudas.org/wp-content/uploads/sites/15/2020/03/Chapter_02.pdf"
+      ],
+      "members": [
+        {
+          "slug": "des-moines-ia",
+          "basis": "regional_manual"
+        },
+        {
+          "slug": "cedar-rapids-ia",
+          "basis": "regional_manual"
+        },
+        {
+          "slug": "davenport-ia",
+          "basis": "regional_manual"
+        }
+      ]
+    },
+    {
+      "id": "eugene-swmm",
+      "issuer": "City of Eugene",
+      "representative": "eugene-or",
+      "document_urls": [
+        "https://www.eugene-or.gov/DocumentCenter/View/79289/2025-Stormwater-Management-Manual-with-Appendices"
+      ],
+      "members": [
+        {
+          "slug": "eugene-or",
+          "basis": "issuer"
+        },
+        {
+          "slug": "bend-or",
+          "basis": "stand_in",
+          "note": "Eugene's manual used as a placeholder for Bend."
+        }
+      ]
+    },
+    {
+      "id": "nwfwmd-erp-ah2",
+      "issuer": "Northwest Florida WMD",
+      "representative": "fl-nwfwmd-erp-ah2",
+      "document_urls": [
+        "https://nwfwater.com/wp-content/uploads/2024/07/AHII-nwfwmd-FINAL-2024.pdf"
+      ],
+      "members": [
+        {
+          "slug": "fl-nwfwmd-erp-ah2",
+          "basis": "issuer"
+        },
+        {
+          "slug": "tallahassee-fl",
+          "basis": "regional_manual"
+        },
+        {
+          "slug": "pensacola-fl",
+          "basis": "regional_manual"
+        }
+      ]
+    },
+    {
+      "id": "gsmm-2016",
+      "issuer": "Atlanta Regional Commission / Georgia (GSMM)",
+      "representative": "ga-state",
+      "document_urls": [
+        "https://documents.atlantaregional.com/gastormwater/GSMM_2016%20EDITION_FINAL_V1.pdf"
+      ],
+      "members": [
+        {
+          "slug": "ga-state",
+          "basis": "issuer"
+        },
+        {
+          "slug": "atlanta-ga",
+          "basis": "state_manual"
+        },
+        {
+          "slug": "dekalb-county-ga",
+          "basis": "state_manual"
+        },
+        {
+          "slug": "augusta-ga",
+          "basis": "state_manual"
+        },
+        {
+          "slug": "athens-ga",
+          "basis": "state_manual"
+        },
+        {
+          "slug": "fulton-county-ga",
+          "basis": "state_manual"
+        },
+        {
+          "slug": "gwinnett-county-ga",
+          "basis": "state_manual"
+        },
+        {
+          "slug": "macon-ga",
+          "basis": "state_manual"
+        }
+      ]
+    },
+    {
+      "id": "srwmd-erp-ah2",
+      "issuer": "Suwannee River WMD",
+      "representative": "fl-srwmd-erp-ah2",
+      "document_urls": [
+        "http://www.srwmd.state.fl.us/DocumentCenter/View/19233"
+      ],
+      "members": [
+        {
+          "slug": "fl-srwmd-erp-ah2",
+          "basis": "issuer"
+        },
+        {
+          "slug": "gainesville-fl",
+          "basis": "regional_manual"
+        }
+      ]
+    },
+    {
+      "id": "harris-county-lid",
+      "issuer": "Harris County",
+      "representative": "harris-county-tx",
+      "document_urls": [
+        "https://oce.harriscountytx.gov/Portals/43/Documents/Publications/SWQ_LID_design_criteria.pdf"
+      ],
+      "members": [
+        {
+          "slug": "harris-county-tx",
+          "basis": "issuer"
+        },
+        {
+          "slug": "pasadena-tx",
+          "basis": "stand_in",
+          "note": "Harris County LID criteria used as a placeholder for Pasadena's own drainage criteria."
+        },
+        {
+          "slug": "pearland-tx",
+          "basis": "stand_in",
+          "note": "Harris County LID criteria used as a placeholder for Pearland (mostly Brazoria County)."
+        }
+      ]
+    },
+    {
+      "id": "adem-lid-handbook",
+      "issuer": "Alabama DEM (ADEM)",
+      "representative": "huntsville-al",
+      "document_urls": [
+        "https://adem.alabama.gov/programs/water/waterforms/LIDHandbook.pdf"
+      ],
+      "members": [
+        {
+          "slug": "huntsville-al",
+          "basis": "state_manual",
+          "note": "ADEM's statewide LID handbook stands in for a city design manual."
+        },
+        {
+          "slug": "birmingham-al",
+          "basis": "state_manual",
+          "note": "ADEM's statewide LID handbook stands in for a city design manual."
+        },
+        {
+          "slug": "montgomery-al",
+          "basis": "state_manual",
+          "note": "ADEM's statewide LID handbook stands in for a city design manual."
+        }
+      ]
+    },
+    {
+      "id": "marc-apwa-bmp",
+      "issuer": "Mid-America Regional Council (MARC/APWA)",
+      "representative": "kansas-city-marc-bmp",
+      "document_urls": [
+        "https://www.marc.org/sites/default/files/2022-05/Best_Management_Practices_for_Stormwater_Quality.pdf"
+      ],
+      "members": [
+        {
+          "slug": "kansas-city-marc-bmp",
+          "basis": "issuer"
+        },
+        {
+          "slug": "independence-mo",
+          "basis": "regional_manual"
+        }
+      ]
+    },
+    {
+      "id": "indiana-swqm",
+      "issuer": "Indiana",
+      "representative": "indiana-manual",
+      "document_urls": [
+        "https://www.inafsm.net/assets/docs/indiana%20storm%20water%20quality%20manual.pdf"
+      ],
+      "members": [
+        {
+          "slug": "indiana-manual",
+          "basis": "issuer"
+        },
+        {
+          "slug": "south-bend-in",
+          "basis": "state_manual"
+        },
+        {
+          "slug": "evansville-in",
+          "basis": "state_manual"
+        }
+      ]
+    },
+    {
+      "id": "jacksonville-ldpm-v2",
+      "issuer": "City of Jacksonville",
+      "representative": "jacksonville-fl",
+      "document_urls": [
+        "https://www.jacksonville.gov/getContentAsset/f2c6099d-cdf0-40da-b6a9-43e4c734282e/135b97c9-84fa-4e82-b956-0fbccec4aa1f/LDPM-Vol2-EFF-2026-01-30-CLEAN-ADA-508.pdf?language=en"
+      ],
+      "members": [
+        {
+          "slug": "jacksonville-fl",
+          "basis": "issuer"
+        },
+        {
+          "slug": "deltona-fl",
+          "basis": "stand_in",
+          "note": "Jacksonville's Land Development Procedures Manual used as a placeholder."
+        },
+        {
+          "slug": "palm-bay-fl",
+          "basis": "stand_in",
+          "note": "Jacksonville's Land Development Procedures Manual used as a placeholder."
+        },
+        {
+          "slug": "melbourne-fl",
+          "basis": "stand_in",
+          "note": "Jacksonville's Land Development Procedures Manual used as a placeholder."
+        },
+        {
+          "slug": "palm-coast-fl",
+          "basis": "stand_in",
+          "note": "Jacksonville's Land Development Procedures Manual used as a placeholder."
+        },
+        {
+          "slug": "daytona-beach-fl",
+          "basis": "stand_in",
+          "note": "Jacksonville's Land Development Procedures Manual used as a placeholder."
+        }
+      ]
+    },
+    {
+      "id": "lansing-swdm",
+      "issuer": "City of Lansing",
+      "representative": "lansing-mi",
+      "document_urls": [
+        "https://content.civicplus.com/api/assets/mi-lansing/5275ad94-2c28-4941-9d23-67842b45023f?cache=1800"
+      ],
+      "members": [
+        {
+          "slug": "lansing-mi",
+          "basis": "issuer"
+        },
+        {
+          "slug": "flint-mi",
+          "basis": "stand_in",
+          "note": "Lansing's manual used as a placeholder for Flint."
+        }
+      ]
+    },
+    {
+      "id": "lexington-swm",
+      "issuer": "Lexington-Fayette Urban County",
+      "representative": "lexington-ky",
+      "document_urls": [
+        "https://content.lexingtonky.gov/sites/default/files/2026-04/LFUCG%20Stormwater%20Manual%2005.01.26.pdf"
+      ],
+      "members": [
+        {
+          "slug": "lexington-ky",
+          "basis": "issuer"
+        },
+        {
+          "slug": "frankfort-ky",
+          "basis": "stand_in",
+          "note": "Lexington's manual used as a placeholder for Frankfort."
+        }
+      ]
+    },
+    {
+      "id": "massdep-handbook-draft",
+      "issuer": "MassDEP",
+      "representative": "ma-state-draft",
+      "document_urls": [
+        "https://www.ashlandmass.com/DocumentCenter/View/13272/MassDEP-Handbook_DRAFT-6_2023-12-14_withAppendices-2"
+      ],
+      "members": [
+        {
+          "slug": "ma-state-draft",
+          "basis": "issuer"
+        },
+        {
+          "slug": "worcester-ma",
+          "basis": "state_manual"
+        },
+        {
+          "slug": "springfield-ma",
+          "basis": "state_manual"
+        },
+        {
+          "slug": "cambridge-ma",
+          "basis": "state_manual"
+        }
+      ]
+    },
+    {
+      "id": "maine-vol3",
+      "issuer": "Maine DEP",
+      "representative": "maine-manual",
+      "document_urls": [
+        "https://www.maine.gov/dep/land/stormwater/stormwaterbmps/vol3/volume%20III%20May%202016.pdf"
+      ],
+      "members": [
+        {
+          "slug": "maine-manual",
+          "basis": "issuer"
+        },
+        {
+          "slug": "augusta-me",
+          "basis": "state_manual"
+        },
+        {
+          "slug": "portland-me",
+          "basis": "state_manual"
+        }
+      ]
+    },
+    {
+      "id": "maricopa-dpsm",
+      "issuer": "Maricopa County",
+      "representative": "maricopa-county-az",
+      "document_urls": [
+        "https://www.esd.maricopa.gov/DocumentCenter/View/2369/Drainage-Policies-and-Standards-Manual-for-Maricopa-County---revised-112025-PDF"
+      ],
+      "members": [
+        {
+          "slug": "maricopa-county-az",
+          "basis": "issuer"
+        },
+        {
+          "slug": "yuma-az",
+          "basis": "stand_in",
+          "note": "Maricopa County's manual used as a placeholder for Yuma (Yuma County)."
+        }
+      ]
+    },
+    {
+      "id": "md-swdm",
+      "issuer": "Maryland MDE",
+      "representative": "md-state",
+      "document_urls": [
+        "https://mde.maryland.gov/programs/water/StormwaterManagementProgram/Documents/www.mde.state.md.us/assets/document/sedimentstormwater/MD%20SWM%20Volume%201.pdf"
+      ],
+      "members": [
+        {
+          "slug": "md-state",
+          "basis": "issuer"
+        },
+        {
+          "slug": "rockville-md",
+          "basis": "state_manual"
+        },
+        {
+          "slug": "prince-georges-county-md",
+          "basis": "state_manual"
+        },
+        {
+          "slug": "annapolis-md",
+          "basis": "state_manual"
+        }
+      ]
+    },
+    {
+      "id": "sfwmd-erp-ah2",
+      "issuer": "South Florida WMD",
+      "representative": "fl-sfwmd-erp-ah2",
+      "document_urls": [
+        "https://www.sfwmd.gov/sites/default/files/documents/swerp_applicants_handbook_vol_ii.pdf"
+      ],
+      "members": [
+        {
+          "slug": "fl-sfwmd-erp-ah2",
+          "basis": "issuer"
+        },
+        {
+          "slug": "miami-fl",
+          "basis": "regional_manual"
+        }
+      ]
+    },
+    {
+      "id": "missouri-gi-guide",
+      "issuer": "Missouri DNR",
+      "representative": "missouri-manual",
+      "document_urls": [
+        "https://dnr.mo.gov/sites/dnr/files/vfc/2023/05/main/pub2446-mo-guide-to-green-infrastructure_1.pdf"
+      ],
+      "members": [
+        {
+          "slug": "missouri-manual",
+          "basis": "issuer"
+        },
+        {
+          "slug": "jefferson-city-mo",
+          "basis": "state_manual"
+        }
+      ]
+    },
+    {
+      "id": "mn-swm-2008",
+      "issuer": "Minnesota PCA",
+      "representative": "mn-state-2008",
+      "document_urls": [
+        "https://stormwater.pca.state.mn.us/sites/stormwater/files/Minnesota_Stormwater_Manual.pdf"
+      ],
+      "members": [
+        {
+          "slug": "mn-state-2008",
+          "basis": "issuer"
+        },
+        {
+          "slug": "duluth-mn",
+          "basis": "state_manual"
+        }
+      ]
+    },
+    {
+      "id": "ms-vol2",
+      "issuer": "Mississippi DEQ",
+      "representative": "ms-state-vol2",
+      "document_urls": [
+        "https://www.mdeq.ms.gov/wp-content/uploads/2017/05/Volume_2.pdf"
+      ],
+      "members": [
+        {
+          "slug": "ms-state-vol2",
+          "basis": "issuer"
+        },
+        {
+          "slug": "jackson-ms",
+          "basis": "state_manual"
+        },
+        {
+          "slug": "gulfport-ms",
+          "basis": "state_manual"
+        }
+      ]
+    },
+    {
+      "id": "mt-deq8",
+      "issuer": "Montana DEQ",
+      "representative": "mt-deq8",
+      "document_urls": [
+        "https://deq.mt.gov/files/Water/Forms/DEQ_8_2024_FINAL_2024_09_20.pdf"
+      ],
+      "members": [
+        {
+          "slug": "mt-deq8",
+          "basis": "issuer"
+        },
+        {
+          "slug": "helena-mt",
+          "basis": "state_manual"
+        },
+        {
+          "slug": "missoula-mt",
+          "basis": "state_manual"
+        }
+      ]
+    },
+    {
+      "id": "nashville-swmm-v4",
+      "issuer": "Metro Nashville",
+      "representative": "nashville-tn-vol4",
+      "document_urls": [
+        "https://www.nashville.gov/sites/default/files/2021-08/SWMM-Vol4-01_SECTION_1_0_ALL.pdf"
+      ],
+      "members": [
+        {
+          "slug": "nashville-tn-vol4",
+          "basis": "issuer"
+        },
+        {
+          "slug": "franklin-tn",
+          "basis": "stand_in",
+          "note": "Nashville's manual used as a placeholder for Franklin."
+        }
+      ]
+    },
+    {
+      "id": "ncdeq-c0",
+      "issuer": "NC DEQ",
+      "representative": "nc-state",
+      "document_urls": [
+        "https://www.deq.nc.gov/energy-mineral-and-land-resources/stormwater/bmp-manual/c-0-mdc-all-scms/download"
+      ],
+      "members": [
+        {
+          "slug": "nc-state",
+          "basis": "issuer"
+        },
+        {
+          "slug": "wilmington-nc",
+          "basis": "state_manual"
+        },
+        {
+          "slug": "concord-nc",
+          "basis": "state_manual"
+        },
+        {
+          "slug": "cary-nc",
+          "basis": "state_manual"
+        },
+        {
+          "slug": "greensboro-nc",
+          "basis": "state_manual"
+        },
+        {
+          "slug": "gastonia-nc",
+          "basis": "state_manual"
+        },
+        {
+          "slug": "asheville-nc",
+          "basis": "state_manual"
+        }
+      ]
+    },
+    {
+      "id": "nh-model-standards",
+      "issuer": "New Hampshire",
+      "representative": "nh-state",
+      "document_urls": [
+        "https://extension.unh.edu/sites/default/files/media/2025-06/stormwater-management-standards.pdf"
+      ],
+      "members": [
+        {
+          "slug": "nh-state",
+          "basis": "issuer"
+        },
+        {
+          "slug": "nashua-nh",
+          "basis": "state_manual"
+        },
+        {
+          "slug": "concord-nh",
+          "basis": "state_manual"
+        },
+        {
+          "slug": "manchester-nh",
+          "basis": "state_manual"
+        }
+      ]
+    },
+    {
+      "id": "nj-bmp-manual-partial",
+      "issuer": "NJDEP",
+      "representative": "nj-state",
+      "document_urls": [
+        "https://dep.nj.gov/wp-content/uploads/stormwater/bmp/njswbmp-chapter-9.7-small-scale-bioretention-systems-january-2026.pdf"
+      ],
+      "members": [
+        {
+          "slug": "nj-state",
+          "basis": "issuer",
+          "note": "Only Chapters 5 and 9.7 of the NJ BMP Manual are ingested."
+        },
+        {
+          "slug": "elizabeth-nj",
+          "basis": "state_manual",
+          "note": "Only Chapters 5 and 9.7 of the state BMP Manual are ingested."
+        },
+        {
+          "slug": "paterson-nj",
+          "basis": "state_manual",
+          "note": "Only Chapters 5 and 9.7 of the state BMP Manual are ingested."
+        },
+        {
+          "slug": "newark-nj",
+          "basis": "state_manual",
+          "note": "Only Chapters 5 and 9.7 of the state BMP Manual are ingested."
+        },
+        {
+          "slug": "trenton-nj",
+          "basis": "state_manual",
+          "note": "Only Chapters 5 and 9.7 of the state BMP Manual are ingested."
+        }
+      ]
+    },
+    {
+      "id": "ohio-rld",
+      "issuer": "Ohio DNR / EPA (Rainwater and Land Development)",
+      "representative": "ohio-rainwater",
+      "document_urls": [
+        "https://dam.assets.ohio.gov/image/upload/epa.ohio.gov/Portals/35/storm/technical_assistance/ARCHIVE-RaLD-2006.pdf"
+      ],
+      "members": [
+        {
+          "slug": "ohio-rainwater",
+          "basis": "issuer"
+        },
+        {
+          "slug": "cincinnati-oh",
+          "basis": "state_manual"
+        },
+        {
+          "slug": "akron-oh",
+          "basis": "state_manual"
+        },
+        {
+          "slug": "toledo-oh",
+          "basis": "state_manual"
+        },
+        {
+          "slug": "youngstown-oh",
+          "basis": "state_manual"
+        },
+        {
+          "slug": "cleveland-oh",
+          "basis": "state_manual"
+        }
+      ]
+    },
+    {
+      "id": "pa-pcsm",
+      "issuer": "Pennsylvania DEP",
+      "representative": "pa-state",
+      "document_urls": [
+        "https://franklinccd.org/wp-content/uploads/PENNSYLVANIA_POST-CONSTRUCTION_STORMWATER_MANAGEMENT_PCSM_MANUAL.pdf"
+      ],
+      "members": [
+        {
+          "slug": "pa-state",
+          "basis": "issuer"
+        },
+        {
+          "slug": "erie-pa",
+          "basis": "state_manual"
+        },
+        {
+          "slug": "scranton-pa",
+          "basis": "state_manual"
+        },
+        {
+          "slug": "harrisburg-pa",
+          "basis": "state_manual"
+        },
+        {
+          "slug": "reading-pa",
+          "basis": "state_manual"
+        },
+        {
+          "slug": "allentown-pa",
+          "basis": "state_manual"
+        }
+      ]
+    },
+    {
+      "id": "san-antonio-swdcm",
+      "issuer": "City of San Antonio",
+      "representative": "san-antonio-tx",
+      "document_urls": [
+        "https://www.sanantonio.gov/Portals/0/Files/CIMS/Services/UDC-Amendment-Drainage-Manual.pdf"
+      ],
+      "members": [
+        {
+          "slug": "san-antonio-tx",
+          "basis": "issuer"
+        },
+        {
+          "slug": "brownsville-tx",
+          "basis": "stand_in",
+          "note": "San Antonio's manual used as a placeholder."
+        },
+        {
+          "slug": "laredo-tx",
+          "basis": "stand_in",
+          "note": "San Antonio's manual used as a placeholder."
+        },
+        {
+          "slug": "mcallen-tx",
+          "basis": "stand_in",
+          "note": "San Antonio's manual used as a placeholder."
+        }
+      ]
+    },
+    {
+      "id": "san-diego-sws",
+      "issuer": "City of San Diego",
+      "representative": "san-diego-ca",
+      "document_urls": [
+        "https://www.sandiego.gov/sites/default/files/2024-08/sws_manual_august_2024_update.pdf"
+      ],
+      "members": [
+        {
+          "slug": "san-diego-ca",
+          "basis": "issuer"
+        },
+        {
+          "slug": "chula-vista-ca",
+          "basis": "stand_in",
+          "note": "City of San Diego standards used as a placeholder for Chula Vista's own BMP Design Manual."
+        }
+      ]
+    },
+    {
+      "id": "sddot-esc-course",
+      "issuer": "South Dakota DOT",
+      "representative": "sd-dot-esc",
+      "document_urls": [
+        "https://dot.sd.gov/media/kywakwy4/escontrolsw.pdf"
+      ],
+      "members": [
+        {
+          "slug": "sd-dot-esc",
+          "basis": "issuer"
+        },
+        {
+          "slug": "pierre-sd",
+          "basis": "stand_in",
+          "note": "SDDOT construction ESC course manual used as a placeholder; not a city design manual."
+        },
+        {
+          "slug": "sioux-falls-sd",
+          "basis": "stand_in",
+          "note": "SDDOT construction ESC course manual used as a placeholder; Sioux Falls publishes its own design standards."
+        }
+      ]
+    },
+    {
+      "id": "shreveport-dds",
+      "issuer": "City of Shreveport",
+      "representative": "shreveport-la",
+      "document_urls": [
+        "https://www.shreveportla.gov/DocumentCenter/View/29000"
+      ],
+      "members": [
+        {
+          "slug": "shreveport-la",
+          "basis": "issuer"
+        },
+        {
+          "slug": "lafayette-la",
+          "basis": "stand_in",
+          "note": "Shreveport's standards used as a placeholder for Lafayette."
+        }
+      ]
+    },
+    {
+      "id": "swfwmd-erp-ah2",
+      "issuer": "Southwest Florida WMD",
+      "representative": "fl-swfwmd-erp-ah2",
+      "document_urls": [
+        "https://www.swfwmd.state.fl.us/sites/default/files/medias/documents/draftswfwmd-erpapplicanthandbook-volume-ii.pdf"
+      ],
+      "members": [
+        {
+          "slug": "fl-swfwmd-erp-ah2",
+          "basis": "issuer"
+        },
+        {
+          "slug": "tampa-fl",
+          "basis": "regional_manual"
+        }
+      ]
+    },
+    {
+      "id": "vt-swmm-vol1",
+      "issuer": "Vermont DEC",
+      "representative": "vt-state",
+      "document_urls": [
+        "http://legislature.vermont.gov/Documents/2016/WorkGroups/House%20Fish%20and%20Wildlife/Stormwater%20Manual%20Revisions/W~Kevin%20Burke~Draft%20Stormwater%20Manual%20Revisions%20DEC~3-22-2016.pdf"
+      ],
+      "members": [
+        {
+          "slug": "vt-state",
+          "basis": "issuer"
+        },
+        {
+          "slug": "montpelier-vt",
+          "basis": "state_manual"
+        },
+        {
+          "slug": "burlington-vt",
+          "basis": "state_manual"
+        }
+      ]
+    },
+    {
+      "id": "wa-swmmww",
+      "issuer": "Washington Ecology",
+      "representative": "wa-state-western",
+      "document_urls": [
+        "https://www.cityofcamas.us/sites/default/files/fileattachments/community_development/page/9505/2024swmmww_6-14-24.pdf"
+      ],
+      "members": [
+        {
+          "slug": "wa-state-western",
+          "basis": "issuer",
+          "note": "Copy hosted by the City of Camas."
+        },
+        {
+          "slug": "everett-wa",
+          "basis": "state_manual"
+        },
+        {
+          "slug": "olympia-wa",
+          "basis": "state_manual"
+        },
+        {
+          "slug": "bellingham-wa",
+          "basis": "state_manual"
+        }
+      ]
+    },
+    {
+      "id": "sfwmd-erp-ah2-draft",
+      "issuer": "South Florida WMD (draft handbook)",
+      "representative": "west-palm-beach-fl",
+      "document_urls": [
+        "https://www.sfwmd.gov/sites/default/files/documents/draft_erp%20vol%20ii%20swerp%20ii_2104_10.pdf"
+      ],
+      "members": [
+        {
+          "slug": "west-palm-beach-fl",
+          "basis": "regional_manual"
+        },
+        {
+          "slug": "boca-raton-fl",
+          "basis": "regional_manual"
+        },
+        {
+          "slug": "hialeah-fl",
+          "basis": "regional_manual"
+        },
+        {
+          "slug": "port-st-lucie-fl",
+          "basis": "regional_manual"
+        }
+      ]
+    },
+    {
+      "id": "wydot-field-guide",
+      "issuer": "Wyoming DOT",
+      "representative": "wy-wydot-field",
+      "document_urls": [
+        "https://www.dot.state.wy.us/files/live/sites/wydot/files/shared/Construction/WYDOT%20Storm%20Water%20Field%20Guide%204-6-11.pdf"
+      ],
+      "members": [
+        {
+          "slug": "wy-wydot-field",
+          "basis": "issuer"
+        },
+        {
+          "slug": "cheyenne-wy",
+          "basis": "stand_in",
+          "note": "WYDOT construction field guide used as a placeholder; not a city design manual."
+        },
+        {
+          "slug": "casper-wy",
+          "basis": "stand_in",
+          "note": "WYDOT construction field guide used as a placeholder; not a city design manual."
+        }
+      ]
+    },
+    {
+      "id": "nys-swdm-2024",
+      "issuer": "NYSDEC",
+      "representative": "ny-state",
+      "document_urls": [
+        "https://dec.ny.gov/fs/projects/24-25DraftCGPDesignManual/Manual.SW.CGP.2024-07-31.Design_Manual_Issued_2024-07-31.pdf",
+        "https://extapps.dec.ny.gov/fs/projects/24-25DraftCGPDesignManual/Manual.SW.CGP.2024-07-31.Design_Manual_Issued_2024-07-31.pdf"
+      ],
+      "members": [
+        {
+          "slug": "ny-state",
+          "basis": "issuer"
+        },
+        {
+          "slug": "albany-ny",
+          "basis": "state_manual"
+        },
+        {
+          "slug": "rochester-ny",
+          "basis": "state_manual"
+        },
+        {
+          "slug": "syracuse-ny",
+          "basis": "state_manual"
+        },
+        {
+          "slug": "yonkers-ny",
+          "basis": "state_manual"
+        }
+      ]
+    }
+  ]
+}

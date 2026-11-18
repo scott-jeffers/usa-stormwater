@@ -4,7 +4,7 @@ import { Fragment, useMemo, useState } from "react";
 import Link from "next/link";
 import type { ManualListItem } from "@/lib/data";
 import { STATE_CODE_TO_NAME } from "@/lib/usStates";
-import { ConfidenceBadge, LevelBadge, LEVEL_LABELS, NeedsReviewBadge, StateBadge, AgencyBadge } from "@/components/Badge";
+import { ConfidenceBadge, LevelBadge, LEVEL_LABELS, NeedsReviewBadge, StateBadge, AgencyBadge, CoverageBadge } from "@/components/Badge";
 import { CoverageMap, type LocalityMarker } from "@/components/CoverageMap";
 import { lookupCityCoordinates } from "@/lib/geoCenters";
 
@@ -76,6 +76,7 @@ export function ManualsExplorer({ manuals }: { manuals: ManualListItem[] }) {
   const [stateFilter, setStateFilter] = useState<string | null>(null);
   const [confidenceFilter, setConfidenceFilter] = useState<string>("all");
   const [needsReviewOnly, setNeedsReviewOnly] = useState(false);
+  const [coverageFilter, setCoverageFilter] = useState<string>("all");
   const [groupByState, setGroupByState] = useState(false);
   const [sortKey, setSortKey] = useState<SortKey>("jurisdiction");
   const [sortDir, setSortDir] = useState<SortDir>("asc");
@@ -175,6 +176,21 @@ export function ManualsExplorer({ manuals }: { manuals: ManualListItem[] }) {
       if (needsReviewOnly && !record.needs_human_review) {
         return false;
       }
+      if (coverageFilter === "own" && !["own", "issuer"].includes(record.coverage_basis)) {
+        return false;
+      }
+      if (
+        coverageFilter === "shared" &&
+        !["state_manual", "regional_manual"].includes(record.coverage_basis)
+      ) {
+        return false;
+      }
+      if (coverageFilter === "stand_in" && record.coverage_basis !== "stand_in") {
+        return false;
+      }
+      if (coverageFilter === "no_stand_in" && record.coverage_basis === "stand_in") {
+        return false;
+      }
       return true;
     });
   }, [
@@ -185,6 +201,7 @@ export function ManualsExplorer({ manuals }: { manuals: ManualListItem[] }) {
     stateFilter,
     confidenceFilter,
     needsReviewOnly,
+    coverageFilter,
   ]);
 
   const sorted = useMemo(() => {
@@ -255,6 +272,7 @@ export function ManualsExplorer({ manuals }: { manuals: ManualListItem[] }) {
     setStateFilter(null);
     setConfidenceFilter("all");
     setNeedsReviewOnly(false);
+    setCoverageFilter("all");
   }
 
   const hasActiveFilters =
@@ -263,6 +281,7 @@ export function ManualsExplorer({ manuals }: { manuals: ManualListItem[] }) {
     agencyFilter !== "all" ||
     stateFilter !== null ||
     confidenceFilter !== "all" ||
+    coverageFilter !== "all" ||
     needsReviewOnly;
 
   if (manuals.length === 0) {
@@ -375,7 +394,25 @@ export function ManualsExplorer({ manuals }: { manuals: ManualListItem[] }) {
             </select>
           </div>
 
-          <div className="flex flex-wrap items-end gap-x-4 gap-y-2 sm:col-span-2 lg:col-span-3">
+          <div>
+            <label htmlFor="filter-coverage" className="mb-1 block text-xs font-medium text-fg-muted">
+              Coverage
+            </label>
+            <select
+              id="filter-coverage"
+              value={coverageFilter}
+              onChange={(e) => setCoverageFilter(e.target.value)}
+              className={CONTROL}
+            >
+              <option value="all">All records</option>
+              <option value="own">Own manual</option>
+              <option value="shared">Uses state / regional manual</option>
+              <option value="stand_in">Stand-ins only</option>
+              <option value="no_stand_in">Hide stand-ins</option>
+            </select>
+          </div>
+
+          <div className="flex flex-wrap items-end gap-x-4 gap-y-2 sm:col-span-2 lg:col-span-4">
             <label className="flex h-9 items-center gap-2 text-sm text-fg-secondary">
               <input
                 type="checkbox"
@@ -602,6 +639,7 @@ function ManualRow({ record }: { record: ManualListItem }) {
         <div className="flex flex-wrap gap-1.5">
           <LevelBadge level={record.jurisdiction_level} />
           <AgencyBadge category={record.issuing_agency_category} />
+          <CoverageBadge basis={record.coverage_basis} />
         </div>
       </td>
       <td className="px-4 py-3">
@@ -643,6 +681,7 @@ function ManualCard({ record }: { record: ManualListItem }) {
       <div className="mt-3 flex flex-wrap gap-1.5">
         <LevelBadge level={record.jurisdiction_level} />
         <AgencyBadge category={record.issuing_agency_category} />
+        <CoverageBadge basis={record.coverage_basis} />
         <StateBadge stateCode={record.state_code} />
         <ConfidenceBadge confidence={record.confidence} />
         <NeedsReviewBadge needsReview={record.needs_human_review} />

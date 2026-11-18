@@ -51,3 +51,30 @@ test("evidence field normalization", () => {
   assert.equal(normalizeEvidenceField("enrich_notes (drawdown time unspecified)"), "design_parameters.enrich_notes");
   assert.equal(normalizeEvidenceField("design_criteria.approved_bmp_categories"), "design_criteria.approved_bmp_categories");
 });
+
+test("shared-manual groups: complete, consistent, one group per record", async () => {
+  const { loadSharedManuals } = await import("../lib/sharedManuals");
+  const shared = loadSharedManuals()!;
+  const docs = new Map(
+    files.map((f) => [f.slice(0, -5), JSON.parse(readFileSync(path.join(DIR, f), "utf-8"))])
+  );
+  const seen = new Map<string, string>();
+  for (const g of shared.groups) {
+    assert.ok(g.members.some((m) => m.slug === g.representative), `${g.id}: representative not a member`);
+    for (const m of g.members) {
+      assert.ok(docs.has(m.slug), `${g.id}: unknown slug ${m.slug}`);
+      assert.ok(!seen.has(m.slug), `${m.slug} is in ${seen.get(m.slug)} and ${g.id}`);
+      seen.set(m.slug, g.id);
+      const url = docs.get(m.slug).source.document_url;
+      assert.ok(g.document_urls.includes(url), `${m.slug}: its document_url is not listed in ${g.id}`);
+    }
+  }
+  // every PDF used by 2+ records must be covered by a group
+  const byUrl = new Map<string, string[]>();
+  for (const [slug, d] of docs) {
+    const u = d.source.document_url;
+    if (u) byUrl.set(u, [...(byUrl.get(u) ?? []), slug]);
+  }
+  const missing = [...byUrl.values()].filter((ss) => ss.length > 1 && ss.some((s) => !seen.has(s)));
+  assert.deepEqual(missing, [], "records share a PDF but are not in data/coverage/shared-manuals.json");
+});
