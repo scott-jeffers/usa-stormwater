@@ -121,7 +121,9 @@ export default async function ManualDetailPage({
   // the same manual can't give different answers on different pages.
   const shared = getSharedInfo(slug);
   const repManual =
-    shared && !shared.isRepresentative ? getManualBySlug(shared.representative) : null;
+    shared && !shared.isRepresentative && shared.representative !== slug
+      ? getManualBySlug(shared.representative)
+      : null;
   const designData = repManual?.data ?? data;
   const designSlug = repManual?.slug ?? slug;
   const designQa = repManual ? getEvidenceQa(designSlug) : qa;
@@ -261,6 +263,33 @@ export default async function ManualDetailPage({
                 , shared with {shared.others.length} other record
                 {shared.others.length === 1 ? "" : "s"}. Check for local amendments before
                 relying on them.
+              </p>
+            )}
+            {shared.note && <p className="mt-1 text-xs opacity-90">{shared.note}</p>}
+          </div>
+        )}
+        {shared && !repManual && !shared.isRepresentative && (
+          <div
+            className={`mt-4 rounded-md border p-3 text-sm ${
+              shared.basis === "stand_in"
+                ? "border-amber-200 bg-amber-50 text-amber-900 dark:border-amber-500/30 dark:bg-amber-950/40 dark:text-amber-100"
+                : "border-edge bg-mist/40 text-fg-secondary"
+            }`}
+          >
+            {shared.basis === "stand_in" ? (
+              <p>
+                <span className="font-medium">
+                  Stand-in: no {meta.jurisdiction_name} manual has been added yet.
+                </span>{" "}
+                This record shows a document from {shared.group.issuer} as a placeholder; it
+                may not apply here.
+              </p>
+            ) : (
+              <p>
+                {meta.jurisdiction_name} is covered by a{" "}
+                {shared.basis === "state_manual" ? "state" : "regional"} manual published by{" "}
+                <strong>{shared.group.issuer}</strong>. Check for local amendments before relying
+                on it.
               </p>
             )}
             {shared.note && <p className="mt-1 text-xs opacity-90">{shared.note}</p>}

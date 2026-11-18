@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "policy": "One record per source document. The representative's extracted values are shown for every member; members keep their own metadata. 'stand_in' members use another jurisdiction's manual as a placeholder and do not count as covered.",
+  "policy": "One record per source document. The representative's extracted values are shown for every member; members keep their own metadata. 'stand_in' members use another jurisdiction's manual as a placeholder and do not count as covered. 'records' lists single records whose source is a state or regional manual (or a placeholder) without a shared PDF.",
   "bases": {
     "issuer": "The issuing agency's own record",
     "state_manual": "Jurisdiction uses its state's manual",
@@ -1102,6 +1102,37 @@
           "basis": "state_manual"
         }
       ]
+    }
+  ],
+  "records": [
+    {
+      "slug": "providence-ri",
+      "basis": "state_manual",
+      "issuer": "Rhode Island DEM / CRMC",
+      "note": "The statewide RI Stormwater Design and Installation Standards Manual applies in Providence."
+    },
+    {
+      "slug": "lakeland-fl",
+      "basis": "regional_manual",
+      "issuer": "Southwest Florida WMD",
+      "note": "SWFWMD ERP Applicant's Handbook Volume II; Lakeland's own criteria PDF was not available."
+    },
+    {
+      "slug": "kennewick-wa",
+      "basis": "state_manual",
+      "issuer": "Washington Ecology",
+      "note": "Stormwater Management Manual for Eastern Washington; confirm local amendments."
+    },
+    {
+      "slug": "tarrant-county-tx",
+      "basis": "regional_manual",
+      "issuer": "North Central Texas Council of Governments (iSWM)"
+    },
+    {
+      "slug": "springfield-il",
+      "basis": "stand_in",
+      "issuer": "Illinois (model ordinance)",
+      "note": "A statewide model ordinance template used as a placeholder; not Springfield's adopted manual."
     }
   ]
 }

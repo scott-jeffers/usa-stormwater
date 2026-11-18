@@ -4,6 +4,7 @@
  */
 import { existsSync, readdirSync, readFileSync } from "node:fs";
 import path from "node:path";
+import { coverageBasisFor } from "./sharedManuals";
 import { getAllManuals, type ManualRecord } from "./data";
 
 export type CoverageTier = "queue" | "p1" | "p2" | "p3";
@@ -71,7 +72,7 @@ export interface CoverageGap {
   jurisdiction: string;
   state_code: string;
   tier: CoverageTier;
-  reason: GapReason;
+  reason: GapReason | "stand_in_only";
   sources: TargetSourceTag[];
   suggestedSlug: string;
   notes: string;
@@ -95,7 +96,14 @@ export interface CoverageReport {
   generatedAt: string;
   summary: {
     targets: number;
+    /** Covered by a manual (own, or an adopted state/regional manual). */
     covered: number;
+    /** Covered by the jurisdiction's own manual. */
+    coveredOwn: number;
+    /** Covered by a state or regional manual the jurisdiction uses. */
+    coveredAdopted: number;
+    /** Only another jurisdiction's manual as a placeholder (counted as a gap). */
+    standIn: number;
     gaps: number;
     byTier: Record<CoverageTier, number>;
     queueGaps: number;
@@ -107,7 +115,16 @@ export interface CoverageReport {
     state_code: string;
     sources: TargetSourceTag[];
     slugs: string[];
+    basis: "own" | "adopted";
   }>;
+}
+
+/** Best coverage basis among a target's matching records. */
+function coverageOf(slugs: string[]): "own" | "adopted" | "stand_in" {
+  const bases = slugs.map((s) => coverageBasisFor(s));
+  if (bases.some((b) => b === "own" || b === "issuer")) return "own";
+  if (bases.some((b) => b === "state_manual" || b === "regional_manual")) return "adopted";
+  return "stand_in";
 }
 
 const COVERAGE_DIR = path.resolve(process.cwd(), "data/coverage");
@@ -640,13 +657,35 @@ export function findCoverageGaps(
     const hit = matchTarget(target, index, aliases);
     const tier = assignTier(target);
 
-    if (hit?.hasLocalityDoc) {
+    const coverOrGap = (slugs: string[]): boolean => {
+      const basis = coverageOf(slugs);
+      if (basis === "stand_in") {
+        gaps.push({
+          jurisdiction: target.name,
+          state_code: target.state_code,
+          tier,
+          reason: "stand_in_only",
+          sources: target.sources,
+          suggestedSlug: slugs[0] ?? suggestSlug(target.name, target.state_code),
+          notes: `Only a stand-in (another jurisdiction's manual): ${slugs.join(", ")}`,
+          population: target.population,
+          rank: target.rank,
+          manifestId: target.manifestId ?? null,
+        });
+        return false;
+      }
       covered.push({
         jurisdiction: target.name,
         state_code: target.state_code,
         sources: target.sources,
-        slugs: hit.slugs,
+        slugs,
+        basis,
       });
+      return true;
+    };
+
+    if (hit?.hasLocalityDoc) {
+      coverOrGap(hit.slugs);
       continue;
     }
 
@@ -659,12 +698,7 @@ export function findCoverageGaps(
         // if any linked manifest id has a doc, treat as covered when the
         // document isn't state-level-only. Conservative: if hasLocalityDoc
         // is false but a doc exists for the job, check that job's file.
-        covered.push({
-          jurisdiction: target.name,
-          state_code: target.state_code,
-          sources: target.sources,
-          slugs: hit.manifestIds.filter((id) => docs.has(id)),
-        });
+        coverOrGap(hit.manifestIds.filter((id) => docs.has(id)));
         continue;
       }
 
@@ -771,6 +805,9 @@ export function buildCoverageReport(opts?: {
     summary: {
       targets: targets.length,
       covered: covered.length,
+      coveredOwn: covered.filter((c) => c.basis === "own").length,
+      coveredAdopted: covered.filter((c) => c.basis === "adopted").length,
+      standIn: allGaps.filter((g) => g.reason === "stand_in_only").length,
       gaps: allGaps.length,
       byTier,
       queueGaps: queueGaps.length,
@@ -806,7 +843,10 @@ export function renderCoverageMarkdown(report: CoverageReport): string {
   lines.push("| Metric | Count |");
   lines.push("|--------|------:|");
   lines.push(`| Targets checked | ${report.summary.targets} |`);
-  lines.push(`| Covered (locality doc) | ${report.summary.covered} |`);
+  lines.push(`| Covered — own manual | ${report.summary.coveredOwn} |`);
+  lines.push(`| Covered — uses state/regional manual | ${report.summary.coveredAdopted} |`);
+  lines.push(`| **Covered (total)** | **${report.summary.covered}** |`);
+  lines.push(`| Stand-in only (counted as gap) | ${report.summary.standIn} |`);
   lines.push(`| Gaps (all tiers) | ${report.summary.gaps} |`);
   lines.push(`| P1 gaps | ${report.summary.byTier.p1} |`);
   lines.push(`| P2 gaps | ${report.summary.byTier.p2} |`);

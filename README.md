@@ -148,7 +148,7 @@ npm run coverage:report
 npm run coverage:report -- --tier p1
 ```
 
-Writes `data/coverage/REPORT.md` and `data/coverage/gaps.json`. Targets are top-100 cities, state capitals, and MS4 permittees under `data/coverage/`. Refresh those lists occasionally with:
+Writes `data/coverage/REPORT.md` and `data/coverage/gaps.json`. Coverage is split into **own manual**, **uses a state/regional manual**, and **stand-in** (another jurisdiction's manual used as a placeholder — counted as a gap). Those labels come from `data/coverage/shared-manuals.json`, which also groups records that share one PDF so the site shows one set of values per source document; a test fails if a newly shared PDF isn't grouped there. Targets are top-100 cities, state capitals, and MS4 permittees under `data/coverage/`. Refresh those lists occasionally with:
 
 ```bash
 npm run coverage:fetch-targets

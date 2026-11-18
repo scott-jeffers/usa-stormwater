@@ -10,6 +10,12 @@ export default function HomePage() {
     manuals.map((m) => m.state_code).filter(isUsStateCode)
   ).size;
 
+  // Records that share one PDF count once as a source manual.
+  const sourceManuals = new Set(
+    manuals.map((m) => m.document_url ?? m.landing_page_url ?? m.slug)
+  ).size;
+  const standIns = manuals.filter((m) => m.coverage_basis === "stand_in").length;
+
   const federalCount = manuals.filter(
     (m) => m.jurisdiction_level === "federal"
   ).length;
@@ -24,7 +30,16 @@ export default function HomePage() {
           Browse U.S. federal, state, county, and city manuals.
         </p>
         <p className="pt-1 text-sm text-fg-muted">
-          {manuals.length} manuals · {statesCovered} states
+          {sourceManuals} source manuals · {manuals.length} jurisdiction records ·{" "}
+          {statesCovered} states
+          {standIns > 0 && (
+            <>
+              {" "}
+              · <span title="Records that show another jurisdiction's manual as a placeholder">
+                {standIns} stand-ins
+              </span>
+            </>
+          )}
         </p>
       </header>
 

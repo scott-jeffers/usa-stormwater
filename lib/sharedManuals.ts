@@ -42,11 +42,23 @@ export const sharedManualsFileSchema = z.object({
         .min(2),
     })
   ),
+  /** Single records whose source is a state/regional manual or placeholder. */
+  records: z
+    .array(
+      z.object({
+        slug: z.string(),
+        basis: coverageBasisSchema.exclude(["issuer"]),
+        issuer: z.string(),
+        note: z.string().optional(),
+      })
+    )
+    .default([]),
 });
 export type SharedManualsFile = z.infer<typeof sharedManualsFileSchema>;
 export type SharedGroup = SharedManualsFile["groups"][number];
 
 export interface SharedInfo {
+  /** For single records, a one-member pseudo-group (no representative page). */
   group: SharedGroup;
   basis: CoverageBasis;
   note: string | null;
@@ -83,6 +95,23 @@ function buildMap(): Map<string, SharedInfo> {
           .map((o) => ({ slug: o.slug, basis: o.basis })),
       });
     }
+  }
+  for (const r of loadSharedManuals()?.records ?? []) {
+    if (map.has(r.slug)) continue;
+    map.set(r.slug, {
+      group: {
+        id: `record:${r.slug}`,
+        issuer: r.issuer,
+        representative: r.slug,
+        document_urls: [],
+        members: [{ slug: r.slug, basis: r.basis }],
+      },
+      basis: r.basis,
+      note: r.note ?? null,
+      isRepresentative: false,
+      representative: r.slug,
+      others: [],
+    });
   }
   return map;
 }

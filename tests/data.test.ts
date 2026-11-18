@@ -69,6 +69,10 @@ test("shared-manual groups: complete, consistent, one group per record", async (
       assert.ok(g.document_urls.includes(url), `${m.slug}: its document_url is not listed in ${g.id}`);
     }
   }
+  for (const r of shared.records) {
+    assert.ok(docs.has(r.slug), `records: unknown slug ${r.slug}`);
+    assert.ok(!seen.has(r.slug), `${r.slug} is listed both as a record and in ${seen.get(r.slug)}`);
+  }
   // every PDF used by 2+ records must be covered by a group
   const byUrl = new Map<string, string[]>();
   for (const [slug, d] of docs) {

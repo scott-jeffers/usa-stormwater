@@ -1,18 +1,436 @@
 {
-  "generatedAt": "2026-08-10T10:45:05.063Z",
+  "generatedAt": "2026-11-18T12:09:40.230Z",
   "summary": {
     "targets": 309,
-    "covered": 309,
-    "gaps": 0,
+    "covered": 280,
+    "coveredOwn": 189,
+    "coveredAdopted": 91,
+    "standIn": 28,
+    "gaps": 29,
     "byTier": {
       "queue": 0,
-      "p1": 0,
-      "p2": 0,
+      "p1": 21,
+      "p2": 8,
       "p3": 0
     },
-    "queueGaps": 5
+    "queueGaps": 6
   },
-  "gaps": [],
+  "gaps": [
+    {
+      "jurisdiction": "Hillsborough County",
+      "state_code": "FL",
+      "tier": "p1",
+      "reason": "not_in_manifest",
+      "sources": [
+        "ms4_phase1"
+      ],
+      "suggestedSlug": "hillsborough-county-fl",
+      "notes": "Not in manifest",
+      "population": 1459762,
+      "rank": null,
+      "manifestId": null
+    },
+    {
+      "jurisdiction": "Colorado Springs",
+      "state_code": "CO",
+      "tier": "p1",
+      "reason": "stand_in_only",
+      "sources": [
+        "top50",
+        "ms4_phase1"
+      ],
+      "suggestedSlug": "colorado-springs-co",
+      "notes": "Only a stand-in (another jurisdiction's manual): colorado-springs-co",
+      "population": 478961,
+      "rank": 39,
+      "manifestId": null
+    },
+    {
+      "jurisdiction": "Chula Vista",
+      "state_code": "CA",
+      "tier": "p1",
+      "reason": "stand_in_only",
+      "sources": [
+        "top100",
+        "ms4_phase1"
+      ],
+      "suggestedSlug": "chula-vista-ca",
+      "notes": "Only a stand-in (another jurisdiction's manual): chula-vista-ca",
+      "population": 275487,
+      "rank": 75,
+      "manifestId": null
+    },
+    {
+      "jurisdiction": "Laredo",
+      "state_code": "TX",
+      "tier": "p1",
+      "reason": "stand_in_only",
+      "sources": [
+        "top100",
+        "ms4_phase1"
+      ],
+      "suggestedSlug": "laredo-tx",
+      "notes": "Only a stand-in (another jurisdiction's manual): laredo-tx",
+      "population": 255205,
+      "rank": 79,
+      "manifestId": null
+    },
+    {
+      "jurisdiction": "Sioux Falls",
+      "state_code": "SD",
+      "tier": "p1",
+      "reason": "stand_in_only",
+      "sources": [
+        "ms4_phase1"
+      ],
+      "suggestedSlug": "sioux-falls-sd",
+      "notes": "Only a stand-in (another jurisdiction's manual): sioux-falls-sd",
+      "population": 192517,
+      "rank": null,
+      "manifestId": null
+    },
+    {
+      "jurisdiction": "Brownsville",
+      "state_code": "TX",
+      "tier": "p1",
+      "reason": "stand_in_only",
+      "sources": [
+        "ms4_phase1"
+      ],
+      "suggestedSlug": "brownsville-tx",
+      "notes": "Only a stand-in (another jurisdiction's manual): brownsville-tx",
+      "population": 186738,
+      "rank": null,
+      "manifestId": null
+    },
+    {
+      "jurisdiction": "Fort Collins",
+      "state_code": "CO",
+      "tier": "p1",
+      "reason": "stand_in_only",
+      "sources": [
+        "ms4_phase1"
+      ],
+      "suggestedSlug": "fort-collins-co",
+      "notes": "Only a stand-in (another jurisdiction's manual): fort-collins-co",
+      "population": 169810,
+      "rank": null,
+      "manifestId": null
+    },
+    {
+      "jurisdiction": "Pasadena",
+      "state_code": "TX",
+      "tier": "p1",
+      "reason": "stand_in_only",
+      "sources": [
+        "ms4_phase1"
+      ],
+      "suggestedSlug": "pasadena-tx",
+      "notes": "Only a stand-in (another jurisdiction's manual): pasadena-tx",
+      "population": 151950,
+      "rank": null,
+      "manifestId": null
+    },
+    {
+      "jurisdiction": "McAllen",
+      "state_code": "TX",
+      "tier": "p1",
+      "reason": "stand_in_only",
+      "sources": [
+        "ms4_phase1"
+      ],
+      "suggestedSlug": "mcallen-tx",
+      "notes": "Only a stand-in (another jurisdiction's manual): mcallen-tx",
+      "population": 142210,
+      "rank": null,
+      "manifestId": null
+    },
+    {
+      "jurisdiction": "Waco",
+      "state_code": "TX",
+      "tier": "p1",
+      "reason": "stand_in_only",
+      "sources": [
+        "ms4_phase1"
+      ],
+      "suggestedSlug": "waco-tx",
+      "notes": "Only a stand-in (another jurisdiction's manual): waco-tx",
+      "population": 138486,
+      "rank": null,
+      "manifestId": null
+    },
+    {
+      "jurisdiction": "Pearland",
+      "state_code": "TX",
+      "tier": "p1",
+      "reason": "stand_in_only",
+      "sources": [
+        "ms4_phase1"
+      ],
+      "suggestedSlug": "pearland-tx",
+      "notes": "Only a stand-in (another jurisdiction's manual): pearland-tx",
+      "population": 125990,
+      "rank": null,
+      "manifestId": null
+    },
+    {
+      "jurisdiction": "Lafayette",
+      "state_code": "LA",
+      "tier": "p1",
+      "reason": "stand_in_only",
+      "sources": [
+        "ms4_phase1"
+      ],
+      "suggestedSlug": "lafayette-la",
+      "notes": "Only a stand-in (another jurisdiction's manual): lafayette-la",
+      "population": 121374,
+      "rank": null,
+      "manifestId": null
+    },
+    {
+      "jurisdiction": "College Station",
+      "state_code": "TX",
+      "tier": "p1",
+      "reason": "stand_in_only",
+      "sources": [
+        "ms4_phase1"
+      ],
+      "suggestedSlug": "college-station-tx",
+      "notes": "Only a stand-in (another jurisdiction's manual): college-station-tx",
+      "population": 120511,
+      "rank": null,
+      "manifestId": null
+    },
+    {
+      "jurisdiction": "Palm Bay",
+      "state_code": "FL",
+      "tier": "p1",
+      "reason": "stand_in_only",
+      "sources": [
+        "ms4_phase1"
+      ],
+      "suggestedSlug": "palm-bay-fl",
+      "notes": "Only a stand-in (another jurisdiction's manual): palm-bay-fl",
+      "population": 119760,
+      "rank": null,
+      "manifestId": null
+    },
+    {
+      "jurisdiction": "Springfield",
+      "state_code": "IL",
+      "tier": "p1",
+      "reason": "stand_in_only",
+      "sources": [
+        "capital",
+        "ms4_phase1"
+      ],
+      "suggestedSlug": "springfield-il",
+      "notes": "Only a stand-in (another jurisdiction's manual): springfield-il",
+      "population": 114394,
+      "rank": null,
+      "manifestId": null
+    },
+    {
+      "jurisdiction": "Las Cruces",
+      "state_code": "NM",
+      "tier": "p1",
+      "reason": "stand_in_only",
+      "sources": [
+        "ms4_phase1"
+      ],
+      "suggestedSlug": "las-cruces-nm",
+      "notes": "Only a stand-in (another jurisdiction's manual): las-cruces-nm",
+      "population": 111385,
+      "rank": null,
+      "manifestId": null
+    },
+    {
+      "jurisdiction": "Bend",
+      "state_code": "OR",
+      "tier": "p1",
+      "reason": "stand_in_only",
+      "sources": [
+        "ms4_phase1"
+      ],
+      "suggestedSlug": "bend-or",
+      "notes": "Only a stand-in (another jurisdiction's manual): bend-or",
+      "population": 102059,
+      "rank": null,
+      "manifestId": null
+    },
+    {
+      "jurisdiction": "Santa Fe",
+      "state_code": "NM",
+      "tier": "p1",
+      "reason": "stand_in_only",
+      "sources": [
+        "capital",
+        "ms4_phase2"
+      ],
+      "suggestedSlug": "santa-fe-nm",
+      "notes": "Only a stand-in (another jurisdiction's manual): santa-fe-nm",
+      "population": 87505,
+      "rank": null,
+      "manifestId": null
+    },
+    {
+      "jurisdiction": "Cheyenne",
+      "state_code": "WY",
+      "tier": "p1",
+      "reason": "stand_in_only",
+      "sources": [
+        "capital",
+        "ms4_phase2"
+      ],
+      "suggestedSlug": "cheyenne-wy",
+      "notes": "Only a stand-in (another jurisdiction's manual): cheyenne-wy",
+      "population": 65132,
+      "rank": null,
+      "manifestId": null
+    },
+    {
+      "jurisdiction": "Frankfort",
+      "state_code": "KY",
+      "tier": "p1",
+      "reason": "stand_in_only",
+      "sources": [
+        "capital",
+        "ms4_phase2"
+      ],
+      "suggestedSlug": "frankfort-ky",
+      "notes": "Only a stand-in (another jurisdiction's manual): frankfort-ky",
+      "population": null,
+      "rank": null,
+      "manifestId": null
+    },
+    {
+      "jurisdiction": "Pierre",
+      "state_code": "SD",
+      "tier": "p1",
+      "reason": "stand_in_only",
+      "sources": [
+        "capital",
+        "ms4_phase2"
+      ],
+      "suggestedSlug": "pierre-sd",
+      "notes": "Only a stand-in (another jurisdiction's manual): pierre-sd",
+      "population": null,
+      "rank": null,
+      "manifestId": null
+    },
+    {
+      "jurisdiction": "Deltona",
+      "state_code": "FL",
+      "tier": "p2",
+      "reason": "stand_in_only",
+      "sources": [
+        "ms4_phase2"
+      ],
+      "suggestedSlug": "deltona-fl",
+      "notes": "Only a stand-in (another jurisdiction's manual): deltona-fl",
+      "population": 93692,
+      "rank": null,
+      "manifestId": null
+    },
+    {
+      "jurisdiction": "Palm Coast",
+      "state_code": "FL",
+      "tier": "p2",
+      "reason": "stand_in_only",
+      "sources": [
+        "ms4_phase2"
+      ],
+      "suggestedSlug": "palm-coast-fl",
+      "notes": "Only a stand-in (another jurisdiction's manual): palm-coast-fl",
+      "population": 89258,
+      "rank": null,
+      "manifestId": null
+    },
+    {
+      "jurisdiction": "Melbourne",
+      "state_code": "FL",
+      "tier": "p2",
+      "reason": "stand_in_only",
+      "sources": [
+        "ms4_phase2"
+      ],
+      "suggestedSlug": "melbourne-fl",
+      "notes": "Only a stand-in (another jurisdiction's manual): melbourne-fl",
+      "population": 84678,
+      "rank": null,
+      "manifestId": null
+    },
+    {
+      "jurisdiction": "Franklin",
+      "state_code": "TN",
+      "tier": "p2",
+      "reason": "stand_in_only",
+      "sources": [
+        "ms4_phase2"
+      ],
+      "suggestedSlug": "franklin-tn",
+      "notes": "Only a stand-in (another jurisdiction's manual): franklin-tn",
+      "population": 83454,
+      "rank": null,
+      "manifestId": null
+    },
+    {
+      "jurisdiction": "Flint",
+      "state_code": "MI",
+      "tier": "p2",
+      "reason": "stand_in_only",
+      "sources": [
+        "ms4_phase2"
+      ],
+      "suggestedSlug": "flint-mi",
+      "notes": "Only a stand-in (another jurisdiction's manual): flint-mi",
+      "population": 81252,
+      "rank": null,
+      "manifestId": null
+    },
+    {
+      "jurisdiction": "Daytona Beach",
+      "state_code": "FL",
+      "tier": "p2",
+      "reason": "stand_in_only",
+      "sources": [
+        "ms4_phase2"
+      ],
+      "suggestedSlug": "daytona-beach-fl",
+      "notes": "Only a stand-in (another jurisdiction's manual): daytona-beach-fl",
+      "population": 72647,
+      "rank": null,
+      "manifestId": null
+    },
+    {
+      "jurisdiction": "Greenville",
+      "state_code": "SC",
+      "tier": "p2",
+      "reason": "stand_in_only",
+      "sources": [
+        "ms4_phase2"
+      ],
+      "suggestedSlug": "greenville-sc",
+      "notes": "Only a stand-in (another jurisdiction's manual): greenville-sc",
+      "population": 72095,
+      "rank": null,
+      "manifestId": null
+    },
+    {
+      "jurisdiction": "Casper",
+      "state_code": "WY",
+      "tier": "p2",
+      "reason": "stand_in_only",
+      "sources": [
+        "ms4_phase2"
+      ],
+      "suggestedSlug": "casper-wy",
+      "notes": "Only a stand-in (another jurisdiction's manual): casper-wy",
+      "population": 59038,
+      "rank": null,
+      "manifestId": null
+    }
+  ],
   "queueGaps": [
     {
       "id": "mn-state",
@@ -56,7 +474,16 @@
       "levelHint": "municipality",
       "status": "skipped",
       "reason": "skipped",
-      "notes": "Wrong PDF (Historic Preservation memo); need real Tempe drainage/stormwater manual URL",
+      "notes": "EXCLUDED: no Tempe drainage design manual; PDF was Historic Preservation memo. Use Maricopa/Mesa/Chandler for AZ local practice.",
+      "hasDocument": false
+    },
+    {
+      "id": "vt-vtrans-drainage",
+      "jurisdictionHint": "Vermont",
+      "levelHint": "state",
+      "status": "skipped",
+      "reason": "skipped",
+      "notes": "HTTP 403 Forbidden",
       "hasDocument": false
     }
   ]

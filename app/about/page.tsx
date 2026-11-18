@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { loadEvidenceQa } from "@/lib/qa/load";
+import { buildCoverageReport } from "@/lib/coverage";
 
 export const metadata: Metadata = {
   title: "About",
@@ -27,6 +28,7 @@ function qaTotals() {
 
 export default function AboutPage() {
   const qa = qaTotals();
+  const coverage = buildCoverageReport().summary;
   return (
     <main className="mx-auto max-w-3xl space-y-12">
       <header className="space-y-3">
@@ -234,6 +236,24 @@ export default function AboutPage() {
           development — use it as a research aid and always verify against the
           current official document.
         </blockquote>
+      </Section>
+
+      <Section title="Coverage" id="coverage">
+        <p>
+          The atlas tracks {coverage.targets} target jurisdictions: the 100 largest cities,
+          every state capital, and major MS4 permittees. Of those,{" "}
+          <strong>{coverage.coveredOwn}</strong> have their own manual in the atlas and{" "}
+          <strong>{coverage.coveredAdopted}</strong> use a state or regional manual that is in
+          the atlas (for example, Georgia cities and the Georgia Stormwater Management
+          Manual).
+        </p>
+        <p className="mt-3">
+          <strong>{coverage.standIn}</strong> are shown with a <em>stand-in</em>: another
+          jurisdiction&rsquo;s manual used as a placeholder until their own is added. Stand-ins
+          are labelled on every page and are counted as gaps, not coverage.
+          {coverage.gaps - coverage.standIn > 0 &&
+            ` ${coverage.gaps - coverage.standIn} more have no manual yet.`}
+        </p>
       </Section>
 
       <Section title="How citations are checked" id="verification">
