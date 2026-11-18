@@ -1,0 +1,2918 @@
+{
+ "version": 1,
+ "generated_at": "2026-11-18T14:52:04.875Z",
+ "urls": {
+  "https://dot.alaska.gov/stwddes/desbridge/assets/pdf/hwydrnman/hwydrncover.pdf": {
+   "url": "https://dot.alaska.gov/stwddes/desbridge/assets/pdf/hwydrnman/hwydrncover.pdf",
+   "slugs": [
+    "ak-dot-drainage"
+   ],
+   "checked_at": "2026-11-18T14:49:40.376Z",
+   "status": null,
+   "last_modified": null,
+   "etag": null,
+   "length": null,
+   "error": "fetch failed"
+  },
+  "https://plants.alaska.gov/pdf/akswguide.pdf": {
+   "url": "https://plants.alaska.gov/pdf/akswguide.pdf",
+   "slugs": [
+    "ak-state",
+    "juneau-ak"
+   ],
+   "checked_at": "2026-11-18T14:49:50.918Z",
+   "status": null,
+   "last_modified": null,
+   "etag": null,
+   "length": null,
+   "error": "fetch failed"
+  },
+  "https://dam.assets.ohio.gov/image/upload/epa.ohio.gov/Portals/35/storm/technical_assistance/ARCHIVE-RaLD-2006.pdf": {
+   "url": "https://dam.assets.ohio.gov/image/upload/epa.ohio.gov/Portals/35/storm/technical_assistance/ARCHIVE-RaLD-2006.pdf",
+   "slugs": [
+    "akron-oh",
+    "cincinnati-oh",
+    "cleveland-oh",
+    "ohio-rainwater",
+    "toledo-oh",
+    "youngstown-oh"
+   ],
+   "checked_at": "2026-11-18T14:50:01.411Z",
+   "status": 200,
+   "last_modified": "Fri, 02 Aug 2024 15:17:52 GMT",
+   "etag": "\"2c338c475691a73cea108208a30661b5\"",
+   "length": "59410801"
+  },
+  "https://www.dot.state.al.us/publications/Design/pdf/HydraulicManualDraft.pdf": {
+   "url": "https://www.dot.state.al.us/publications/Design/pdf/HydraulicManualDraft.pdf",
+   "slugs": [
+    "al-aldot-drainage"
+   ],
+   "checked_at": "2026-11-18T14:50:01.656Z",
+   "status": 500,
+   "last_modified": null,
+   "etag": null,
+   "length": "39162"
+  },
+  "https://alabamasoilandwater.gov/wp-content/uploads/2022/08/20220801_HandBook_Vol_1.pdf": {
+   "url": "https://alabamasoilandwater.gov/wp-content/uploads/2022/08/20220801_HandBook_Vol_1.pdf",
+   "slugs": [
+    "alabama-handbook"
+   ],
+   "checked_at": "2026-11-18T14:50:01.769Z",
+   "status": 200,
+   "last_modified": "Mon, 01 Aug 2022 13:01:44 GMT",
+   "etag": null,
+   "length": "26507884"
+  },
+  "https://extapps.dec.ny.gov/fs/projects/24-25DraftCGPDesignManual/Manual.SW.CGP.2024-07-31.Design_Manual_Issued_2024-07-31.pdf": {
+   "url": "https://extapps.dec.ny.gov/fs/projects/24-25DraftCGPDesignManual/Manual.SW.CGP.2024-07-31.Design_Manual_Issued_2024-07-31.pdf",
+   "slugs": [
+    "albany-ny",
+    "rochester-ny",
+    "syracuse-ny",
+    "yonkers-ny"
+   ],
+   "checked_at": "2026-11-18T14:50:01.946Z",
+   "status": 200,
+   "last_modified": "Tue, 23 Jul 2024 14:04:04 GMT",
+   "etag": "\"1385569-61deaa25fbd00\"",
+   "length": "20469097"
+  },
+  "https://swefc.unm.edu/gardb/wp-content/uploads/2025/03/61-Green_Infrastructure_and_Low_Impact_Design_Guide_1-1.pdf": {
+   "url": "https://swefc.unm.edu/gardb/wp-content/uploads/2025/03/61-Green_Infrastructure_and_Low_Impact_Design_Guide_1-1.pdf",
+   "slugs": [
+    "albuquerque-nm-gsi",
+    "las-cruces-nm",
+    "santa-fe-nm"
+   ],
+   "checked_at": "2026-11-18T14:50:02.227Z",
+   "status": 200,
+   "last_modified": "Tue, 04 Mar 2025 18:57:28 GMT",
+   "etag": null,
+   "length": "5076716"
+  },
+  "https://media.alexandriava.gov/docs-archives/tes/stormwater/alexandria-gs-sw-design-guidelines=2020=final=1=.pdf": {
+   "url": "https://media.alexandriava.gov/docs-archives/tes/stormwater/alexandria-gs-sw-design-guidelines=2020=final=1=.pdf",
+   "slugs": [
+    "alexandria-va"
+   ],
+   "checked_at": "2026-11-18T14:50:02.750Z",
+   "status": 200,
+   "last_modified": "Thu, 09 Sep 2021 19:38:11 GMT",
+   "etag": "W/\"fd6f0d8fb65b4c059d0023b5fc72cb56\"",
+   "length": null
+  },
+  "https://franklinccd.org/wp-content/uploads/PENNSYLVANIA_POST-CONSTRUCTION_STORMWATER_MANAGEMENT_PCSM_MANUAL.pdf": {
+   "url": "https://franklinccd.org/wp-content/uploads/PENNSYLVANIA_POST-CONSTRUCTION_STORMWATER_MANAGEMENT_PCSM_MANUAL.pdf",
+   "slugs": [
+    "allentown-pa",
+    "erie-pa",
+    "harrisburg-pa",
+    "pa-state",
+    "reading-pa",
+    "scranton-pa"
+   ],
+   "checked_at": "2026-11-18T14:50:02.977Z",
+   "status": 200,
+   "last_modified": "Fri, 06 Sep 2024 12:01:20 GMT",
+   "etag": "\"66daef10-1b48a3d\"",
+   "length": "28609085"
+  },
+  "https://www.amarillo.gov/wp-content/uploads/2024/09/Storm-Water-Management-Cri.pdf": {
+   "url": "https://www.amarillo.gov/wp-content/uploads/2024/09/Storm-Water-Management-Cri.pdf",
+   "slugs": [
+    "amarillo-tx"
+   ],
+   "checked_at": "2026-11-18T14:50:03.155Z",
+   "status": 200,
+   "last_modified": "Tue, 26 Nov 2024 21:31:30 GMT",
+   "etag": "\"67463e32-10a2158\"",
+   "length": "17441112"
+  },
+  "https://www.anaheim.net/DocumentCenter/View/1077": {
+   "url": "https://www.anaheim.net/DocumentCenter/View/1077",
+   "slugs": [
+    "anaheim-ca"
+   ],
+   "checked_at": "2026-11-18T14:50:03.354Z",
+   "status": 403,
+   "last_modified": null,
+   "etag": null,
+   "length": null
+  },
+  "https://www.muni.org/departments/project_management/documents/2015%20draft%20asm%20volume%201%20-%20chapter%202%20dcm.pdf": {
+   "url": "https://www.muni.org/departments/project_management/documents/2015%20draft%20asm%20volume%201%20-%20chapter%202%20dcm.pdf",
+   "slugs": [
+    "anchorage-ak"
+   ],
+   "checked_at": "2026-11-18T14:50:03.726Z",
+   "status": 404,
+   "last_modified": null,
+   "etag": null,
+   "length": null
+  },
+  "https://annarborchronicle.com/wp-content/uploads/2014/08/WCWRC-Rules-2014_071614.pdf": {
+   "url": "https://annarborchronicle.com/wp-content/uploads/2014/08/WCWRC-Rules-2014_071614.pdf",
+   "slugs": [
+    "ann-arbor-mi"
+   ],
+   "checked_at": "2026-11-18T14:50:04.030Z",
+   "status": 200,
+   "last_modified": "Tue, 29 Oct 2019 22:48:27 GMT",
+   "etag": "\"75f0dee5f4a5a14ce781cb9850d19275\"",
+   "length": "5937406"
+  },
+  "https://mde.maryland.gov/programs/water/StormwaterManagementProgram/Documents/www.mde.state.md.us/assets/document/sedimentstormwater/MD%20SWM%20Volume%201.pdf": {
+   "url": "https://mde.maryland.gov/programs/water/StormwaterManagementProgram/Documents/www.mde.state.md.us/assets/document/sedimentstormwater/MD%20SWM%20Volume%201.pdf",
+   "slugs": [
+    "annapolis-md",
+    "md-state",
+    "prince-georges-county-md",
+    "rockville-md"
+   ],
+   "checked_at": "2026-11-18T14:50:04.207Z",
+   "status": 200,
+   "last_modified": "Mon, 10 Jan 2022 18:56:02 GMT",
+   "etag": "\"{6EBCE281-7127-4E26-9FBC-A57CD271A6D8},3\"",
+   "length": "11974379"
+  },
+  "https://cityoflittleflock.com/wp-content/uploads/2024/06/BMP-Manual-1-17-ALL.pdf": {
+   "url": "https://cityoflittleflock.com/wp-content/uploads/2024/06/BMP-Manual-1-17-ALL.pdf",
+   "slugs": [
+    "arkansas-manual",
+    "fayetteville-ar"
+   ],
+   "checked_at": "2026-11-18T14:50:04.983Z",
+   "status": 200,
+   "last_modified": "Wed, 19 Jun 2024 23:28:20 GMT",
+   "etag": "\"66736994-5c2ba6\"",
+   "length": "6040486"
+  },
+  "https://www.arlingtonva.us/files/sharedassets/public/v/3/building/documents/guidance_manual_lda2.0-2025-updates-for-new-vrrm-and-bmp-manual.pdf": {
+   "url": "https://www.arlingtonva.us/files/sharedassets/public/v/3/building/documents/guidance_manual_lda2.0-2025-updates-for-new-vrrm-and-bmp-manual.pdf",
+   "slugs": [
+    "arlington-county-va"
+   ],
+   "checked_at": "2026-11-18T14:50:05.239Z",
+   "status": 200,
+   "last_modified": "Wed, 16 Sep 2026 19:25:04 GMT",
+   "etag": "\"9f6b38b7-7a05-4c3d-987d-ac305cf3c1c0\"",
+   "length": "1620795"
+  },
+  "https://www.arlingtontx.gov/files/assets/city/v/2/public-works/documents/design-criteria-manual/arlington-design-criteria-manual.pdf": {
+   "url": "https://www.arlingtontx.gov/files/assets/city/v/2/public-works/documents/design-criteria-manual/arlington-design-criteria-manual.pdf",
+   "slugs": [
+    "arlington-tx"
+   ],
+   "checked_at": "2026-11-18T14:50:06.694Z",
+   "status": 200,
+   "last_modified": "Fri, 21 Mar 2025 07:44:53 GMT",
+   "etag": "\"6c29ff27-5c05-4ade-8124-e0630ec90a1d\"",
+   "length": "2913243"
+  },
+  "https://www.deq.nc.gov/energy-mineral-and-land-resources/stormwater/bmp-manual/c-0-mdc-all-scms/download": {
+   "url": "https://www.deq.nc.gov/energy-mineral-and-land-resources/stormwater/bmp-manual/c-0-mdc-all-scms/download",
+   "slugs": [
+    "asheville-nc",
+    "cary-nc",
+    "concord-nc",
+    "gastonia-nc",
+    "greensboro-nc",
+    "nc-state",
+    "wilmington-nc"
+   ],
+   "checked_at": "2026-11-18T14:50:07.210Z",
+   "status": 200,
+   "last_modified": "Wed, 04 Jan 2017 23:17:21 GMT",
+   "etag": "\"8421-91170-1483571841-359223\"",
+   "length": null
+  },
+  "https://documents.atlantaregional.com/gastormwater/GSMM_2016%20EDITION_FINAL_V1.pdf": {
+   "url": "https://documents.atlantaregional.com/gastormwater/GSMM_2016%20EDITION_FINAL_V1.pdf",
+   "slugs": [
+    "athens-ga",
+    "atlanta-ga",
+    "augusta-ga",
+    "dekalb-county-ga",
+    "fulton-county-ga",
+    "ga-state",
+    "gwinnett-county-ga",
+    "macon-ga"
+   ],
+   "checked_at": "2026-11-18T14:50:07.912Z",
+   "status": 200,
+   "last_modified": "Wed, 02 Mar 2016 14:59:00 GMT",
+   "etag": "\"0d271d9474d11:0\"",
+   "length": "32359075"
+  },
+  "https://www.maine.gov/dep/land/stormwater/stormwaterbmps/vol3/volume%20III%20May%202016.pdf": {
+   "url": "https://www.maine.gov/dep/land/stormwater/stormwaterbmps/vol3/volume%20III%20May%202016.pdf",
+   "slugs": [
+    "augusta-me",
+    "maine-manual",
+    "portland-me"
+   ],
+   "checked_at": "2026-11-18T14:50:08.132Z",
+   "status": 200,
+   "last_modified": "Fri, 06 Apr 2018 18:50:36 GMT",
+   "etag": "\"50afc5-5693288165701\"",
+   "length": "5287877"
+  },
+  "https://cdnsm5-hosted.civiclive.com/UserFiles/Servers/Server_1881137/File/Business%20Services/Development%20Center/Water%20%26%20Other%20Utilities/2026%20SDDTC%20FINAL%20(January%202026).pdf": {
+   "url": "https://cdnsm5-hosted.civiclive.com/UserFiles/Servers/Server_1881137/File/Business%20Services/Development%20Center/Water%20%26%20Other%20Utilities/2026%20SDDTC%20FINAL%20(January%202026).pdf",
+   "slugs": [
+    "aurora-co"
+   ],
+   "checked_at": "2026-11-18T14:50:08.470Z",
+   "status": 200,
+   "last_modified": "Wed, 18 Nov 2026 14:50:08 GMT",
+   "etag": null,
+   "length": null
+  },
+  "https://mcclibraryfunctions.azurewebsites.us/api/ordinanceDownload/15306/905455/pdf": {
+   "url": "https://mcclibraryfunctions.azurewebsites.us/api/ordinanceDownload/15306/905455/pdf",
+   "slugs": [
+    "austin-tx-ecm"
+   ],
+   "checked_at": "2026-11-18T14:50:08.988Z",
+   "status": 404,
+   "last_modified": null,
+   "etag": null,
+   "length": null
+  },
+  "https://azdot.gov/sites/default/files/2019/07/2014_adot_hydrology_manual.pdf": {
+   "url": "https://azdot.gov/sites/default/files/2019/07/2014_adot_hydrology_manual.pdf",
+   "slugs": [
+    "az-adot-drainage"
+   ],
+   "checked_at": "2026-11-18T14:50:09.180Z",
+   "status": 403,
+   "last_modified": null,
+   "etag": null,
+   "length": "5818"
+  },
+  "https://www.kernpublicworks.com/home/showpublisheddocument/10468/638385981778770000": {
+   "url": "https://www.kernpublicworks.com/home/showpublisheddocument/10468/638385981778770000",
+   "slugs": [
+    "bakersfield-ca"
+   ],
+   "checked_at": "2026-11-18T14:50:09.401Z",
+   "status": 403,
+   "last_modified": null,
+   "etag": null,
+   "length": "438"
+  },
+  "https://www.baltimorecity.gov/media/document/swm-min-reqpdf": {
+   "url": "https://www.baltimorecity.gov/media/document/swm-min-reqpdf",
+   "slugs": [
+    "baltimore-md"
+   ],
+   "checked_at": "2026-11-18T14:50:09.891Z",
+   "status": 200,
+   "last_modified": "Fri, 19 Jan 2024 19:42:29 GMT",
+   "etag": "\"24f6ed06c9d060376c07719fa86b86ea\"",
+   "length": "387628"
+  },
+  "https://www.brla.gov/DocumentCenter/View/2288/Appendix-K---Stormwater-BMPs-for-EBRP-Master-Development-Program-PDF": {
+   "url": "https://www.brla.gov/DocumentCenter/View/2288/Appendix-K---Stormwater-BMPs-for-EBRP-Master-Development-Program-PDF",
+   "slugs": [
+    "baton-rouge-la"
+   ],
+   "checked_at": "2026-11-18T14:50:10.532Z",
+   "status": 200,
+   "last_modified": null,
+   "etag": null,
+   "length": "1708107"
+  },
+  "https://www.beatrice.ne.gov/media/400fdosn/drainage_criteria_manual.pdf": {
+   "url": "https://www.beatrice.ne.gov/media/400fdosn/drainage_criteria_manual.pdf",
+   "slugs": [
+    "beatrice-ne"
+   ],
+   "checked_at": "2026-11-18T14:50:10.843Z",
+   "status": 200,
+   "last_modified": "Tue, 18 Aug 2026 07:55:26 GMT",
+   "etag": "W/\"1dd2ee6edd34637\"",
+   "length": null
+  },
+  "https://dd6.org/wp-content/uploads/2025/07/Drainage-Criteria-Manual-Update-2025-FINAL-7-1-2025.pdf": {
+   "url": "https://dd6.org/wp-content/uploads/2025/07/Drainage-Criteria-Manual-Update-2025-FINAL-7-1-2025.pdf",
+   "slugs": [
+    "beaumont-tx"
+   ],
+   "checked_at": "2026-11-18T14:50:11.423Z",
+   "status": 200,
+   "last_modified": "Thu, 10 Jul 2025 16:04:00 GMT",
+   "etag": "\"686fe470-6eb8ff\"",
+   "length": "7256319"
+  },
+  "https://bellevuewa.gov/sites/default/files/media/pdf_document/2023/Storm%20Engineering%20Standards%202023%28PDF%29.pdf": {
+   "url": "https://bellevuewa.gov/sites/default/files/media/pdf_document/2023/Storm%20Engineering%20Standards%202023%28PDF%29.pdf",
+   "slugs": [
+    "bellevue-wa"
+   ],
+   "checked_at": "2026-11-18T14:50:11.638Z",
+   "status": 200,
+   "last_modified": "Thu, 26 Jan 2023 18:23:09 GMT",
+   "etag": null,
+   "length": "5664885"
+  },
+  "https://www.cityofcamas.us/sites/default/files/fileattachments/community_development/page/9505/2024swmmww_6-14-24.pdf": {
+   "url": "https://www.cityofcamas.us/sites/default/files/fileattachments/community_development/page/9505/2024swmmww_6-14-24.pdf",
+   "slugs": [
+    "bellingham-wa",
+    "everett-wa",
+    "olympia-wa",
+    "wa-state-western"
+   ],
+   "checked_at": "2026-11-18T14:50:11.861Z",
+   "status": 200,
+   "last_modified": "Mon, 04 Nov 2024 16:56:35 GMT",
+   "etag": "\"1b2686b-626192ad960d8\"",
+   "length": "28469355"
+  },
+  "https://www.eugene-or.gov/DocumentCenter/View/79289/2025-Stormwater-Management-Manual-with-Appendices": {
+   "url": "https://www.eugene-or.gov/DocumentCenter/View/79289/2025-Stormwater-Management-Manual-with-Appendices",
+   "slugs": [
+    "bend-or",
+    "eugene-or"
+   ],
+   "checked_at": "2026-11-18T14:50:12.037Z",
+   "status": 403,
+   "last_modified": null,
+   "etag": null,
+   "length": null
+  },
+  "https://mt-billingspublicworks.civicplus.com/DocumentCenter/View/119/Montana-Post-Construction-Storm-Water-Best-Management-Practices-BMP-Design-Guidance-Manual-PDF": {
+   "url": "https://mt-billingspublicworks.civicplus.com/DocumentCenter/View/119/Montana-Post-Construction-Storm-Water-Best-Management-Practices-BMP-Design-Guidance-Manual-PDF",
+   "slugs": [
+    "billings-mt"
+   ],
+   "checked_at": "2026-11-18T14:50:12.414Z",
+   "status": 404,
+   "last_modified": null,
+   "etag": null,
+   "length": "76503"
+  },
+  "https://adem.alabama.gov/programs/water/waterforms/LIDHandbook.pdf": {
+   "url": "https://adem.alabama.gov/programs/water/waterforms/LIDHandbook.pdf",
+   "slugs": [
+    "birmingham-al",
+    "huntsville-al",
+    "montgomery-al"
+   ],
+   "checked_at": "2026-11-18T14:50:12.612Z",
+   "status": 200,
+   "last_modified": "Thu, 21 Nov 2024 20:58:50 GMT",
+   "etag": "\"673f9f0a-111c388\"",
+   "length": "17941384"
+  },
+  "https://bismarcknd.gov/DocumentCenter/View/30244/Stormwater-Design-Standards-Manual-PDF": {
+   "url": "https://bismarcknd.gov/DocumentCenter/View/30244/Stormwater-Design-Standards-Manual-PDF",
+   "slugs": [
+    "bismarck-nd"
+   ],
+   "checked_at": "2026-11-18T14:50:12.744Z",
+   "status": 200,
+   "last_modified": "Wed, 18 Nov 2026 14:50:13 GMT",
+   "etag": null,
+   "length": "7523067"
+  },
+  "https://www.sfwmd.gov/sites/default/files/documents/draft_erp%20vol%20ii%20swerp%20ii_2104_10.pdf": {
+   "url": "https://www.sfwmd.gov/sites/default/files/documents/draft_erp%20vol%20ii%20swerp%20ii_2104_10.pdf",
+   "slugs": [
+    "boca-raton-fl",
+    "hialeah-fl",
+    "port-st-lucie-fl",
+    "west-palm-beach-fl"
+   ],
+   "checked_at": "2026-11-18T14:50:13.692Z",
+   "status": 200,
+   "last_modified": "Sat, 15 Oct 2016 17:42:39 GMT",
+   "etag": null,
+   "length": "1033724"
+  },
+  "https://www.partnersforcleanwater.org/media/1122/stormwaterdesignmanual12-2019.pdf": {
+   "url": "https://www.partnersforcleanwater.org/media/1122/stormwaterdesignmanual12-2019.pdf",
+   "slugs": [
+    "boise-id"
+   ],
+   "checked_at": "2026-11-18T14:50:13.925Z",
+   "status": 200,
+   "last_modified": "Tue, 24 Mar 2026 20:57:17 GMT",
+   "etag": "\"8f5daccd0bbdc1:0\"",
+   "length": "8733707"
+  },
+  "https://www.bwsc.org/sites/default/files/2025-02/Stormwater%20Management%20Report%202024.pdf": {
+   "url": "https://www.bwsc.org/sites/default/files/2025-02/Stormwater%20Management%20Report%202024.pdf",
+   "slugs": [
+    "boston-ma"
+   ],
+   "checked_at": "2026-11-18T14:50:14.448Z",
+   "status": 200,
+   "last_modified": "Fri, 28 Feb 2025 19:01:20 GMT",
+   "etag": "\"67c20800-6c2371\"",
+   "length": "7086961"
+  },
+  "https://www.mhfd.org/files/7af5d4c2f/03_Chapter-1-Stormwater-Management.pdf": {
+   "url": "https://www.mhfd.org/files/7af5d4c2f/03_Chapter-1-Stormwater-Management.pdf",
+   "slugs": [
+    "boulder-co",
+    "colorado-springs-co",
+    "denver-co",
+    "fort-collins-co"
+   ],
+   "checked_at": "2026-11-18T14:50:14.637Z",
+   "status": 200,
+   "last_modified": "Wed, 07 Aug 2024 17:10:42 GMT",
+   "etag": "\"7e25f93fdc7abb2d715e599f468e1a30\"",
+   "length": "2050353"
+  },
+  "https://portal.ct.gov/-/media/deep/water/water_quality_management/guidance/swm_mar_2024.pdf": {
+   "url": "https://portal.ct.gov/-/media/deep/water/water_quality_management/guidance/swm_mar_2024.pdf",
+   "slugs": [
+    "bridgeport-ct",
+    "ct-state",
+    "hartford-ct",
+    "new-haven-ct",
+    "stamford-ct"
+   ],
+   "checked_at": "2026-11-18T14:50:15.125Z",
+   "status": 200,
+   "last_modified": "Wed, 27 Mar 2024 14:39:26 GMT",
+   "etag": "070cca7e503f4573a5b5345f8dac3ad2",
+   "length": "33487305"
+  },
+  "https://www.sbdd.org/pdfs/Criteria%20Manual%202015/Criteria%20Manual-March2015.pdf": {
+   "url": "https://www.sbdd.org/pdfs/Criteria%20Manual%202015/Criteria%20Manual-March2015.pdf",
+   "slugs": [
+    "broward-county-fl"
+   ],
+   "checked_at": "2026-11-18T14:50:15.723Z",
+   "status": 200,
+   "last_modified": "Mon, 15 Apr 2019 15:58:46 GMT",
+   "etag": "\"3a5d04-58693ba4272f5\"",
+   "length": "3824900"
+  },
+  "https://www.sanantonio.gov/Portals/0/Files/CIMS/Services/UDC-Amendment-Drainage-Manual.pdf": {
+   "url": "https://www.sanantonio.gov/Portals/0/Files/CIMS/Services/UDC-Amendment-Drainage-Manual.pdf",
+   "slugs": [
+    "brownsville-tx",
+    "laredo-tx",
+    "san-antonio-tx"
+   ],
+   "checked_at": "2026-11-18T14:50:16.020Z",
+   "status": 200,
+   "last_modified": null,
+   "etag": null,
+   "length": "45743"
+  },
+  "https://buffalosewer.org/app/uploads/2020/01/191015-Plan-Review-SW-Guidance-Final.pdf": {
+   "url": "https://buffalosewer.org/app/uploads/2020/01/191015-Plan-Review-SW-Guidance-Final.pdf",
+   "slugs": [
+    "buffalo-ny"
+   ],
+   "checked_at": "2026-11-18T14:50:20.573Z",
+   "status": 200,
+   "last_modified": "Thu, 30 Jan 2020 15:51:04 GMT",
+   "etag": "\"5e32fb68-e79f\"",
+   "length": "59295"
+  },
+  "http://legislature.vermont.gov/Documents/2016/WorkGroups/House%20Fish%20and%20Wildlife/Stormwater%20Manual%20Revisions/W~Kevin%20Burke~Draft%20Stormwater%20Manual%20Revisions%20DEC~3-22-2016.pdf": {
+   "url": "http://legislature.vermont.gov/Documents/2016/WorkGroups/House%20Fish%20and%20Wildlife/Stormwater%20Manual%20Revisions/W~Kevin%20Burke~Draft%20Stormwater%20Manual%20Revisions%20DEC~3-22-2016.pdf",
+   "slugs": [
+    "burlington-vt",
+    "montpelier-vt",
+    "vt-state"
+   ],
+   "checked_at": "2026-11-18T14:50:20.807Z",
+   "status": 200,
+   "last_modified": "Tue, 22 Mar 2016 19:02:02 GMT",
+   "etag": "\"65da5c-52ea7d9337e80\"",
+   "length": "6675036"
+  },
+  "https://dot.ca.gov/-/media/dot-media/programs/construction/documents/environmental-compliance/construction-site-bmps_final-march-2024_a11y.pdf": {
+   "url": "https://dot.ca.gov/-/media/dot-media/programs/construction/documents/environmental-compliance/construction-site-bmps_final-march-2024_a11y.pdf",
+   "slugs": [
+    "ca-caltrans-construction"
+   ],
+   "checked_at": "2026-11-18T14:50:21.147Z",
+   "status": 200,
+   "last_modified": "Mon, 12 May 2025 21:24:10 GMT",
+   "etag": null,
+   "length": "17220871"
+  },
+  "https://dot.ca.gov/-/media/dot-media/programs/design/documents/ppdg_final-ada-a11y.pdf": {
+   "url": "https://dot.ca.gov/-/media/dot-media/programs/design/documents/ppdg_final-ada-a11y.pdf",
+   "slugs": [
+    "ca-caltrans-project-planning"
+   ],
+   "checked_at": "2026-11-18T14:50:21.701Z",
+   "status": 200,
+   "last_modified": "Tue, 14 Oct 2025 20:28:53 GMT",
+   "etag": null,
+   "length": "16741103"
+  },
+  "https://www.casqa.org/wp-content/uploads/2022/12/BMP_Municipal_Complete.pdf": {
+   "url": "https://www.casqa.org/wp-content/uploads/2022/12/BMP_Municipal_Complete.pdf",
+   "slugs": [
+    "ca-casqa-municipal"
+   ],
+   "checked_at": "2026-11-18T14:50:22.205Z",
+   "status": 200,
+   "last_modified": "Mon, 18 Nov 2024 18:34:43 GMT",
+   "etag": "\"673b88c3-318f9b\"",
+   "length": "3248027"
+  },
+  "https://www.ashlandmass.com/DocumentCenter/View/13272/MassDEP-Handbook_DRAFT-6_2023-12-14_withAppendices-2": {
+   "url": "https://www.ashlandmass.com/DocumentCenter/View/13272/MassDEP-Handbook_DRAFT-6_2023-12-14_withAppendices-2",
+   "slugs": [
+    "cambridge-ma",
+    "ma-state-draft",
+    "springfield-ma",
+    "worcester-ma"
+   ],
+   "checked_at": "2026-11-18T14:50:22.570Z",
+   "status": 404,
+   "last_modified": null,
+   "etag": null,
+   "length": "109565"
+  },
+  "https://www.capecoral.gov/Documents/Departments/Utilities/Engineering%20Design%20Standards%20and%20Standard%20Detail%20Drawings/Utilities%20-%20Design%20Procedures%20Manual.pdf": {
+   "url": "https://www.capecoral.gov/Documents/Departments/Utilities/Engineering%20Design%20Standards%20and%20Standard%20Detail%20Drawings/Utilities%20-%20Design%20Procedures%20Manual.pdf",
+   "slugs": [
+    "cape-coral-fl"
+   ],
+   "checked_at": "2026-11-18T14:50:22.845Z",
+   "status": 200,
+   "last_modified": "Mon, 27 Apr 2026 19:08:17 GMT",
+   "etag": "\"937e4c3479d6dc1:0\"",
+   "length": "1792086"
+  },
+  "https://www.carson.org/home/showpublisheddocument/76280/637624691903200000": {
+   "url": "https://www.carson.org/home/showpublisheddocument/76280/637624691903200000",
+   "slugs": [
+    "carson-city-nv"
+   ],
+   "checked_at": "2026-11-18T14:50:23.160Z",
+   "status": null,
+   "last_modified": null,
+   "etag": null,
+   "length": null,
+   "error": "fetch failed"
+  },
+  "https://www.dot.state.wy.us/files/live/sites/wydot/files/shared/Construction/WYDOT%20Storm%20Water%20Field%20Guide%204-6-11.pdf": {
+   "url": "https://www.dot.state.wy.us/files/live/sites/wydot/files/shared/Construction/WYDOT%20Storm%20Water%20Field%20Guide%204-6-11.pdf",
+   "slugs": [
+    "casper-wy",
+    "cheyenne-wy",
+    "wy-wydot-field"
+   ],
+   "checked_at": "2026-11-18T14:50:23.241Z",
+   "status": 200,
+   "last_modified": "Wed, 26 Jul 2017 14:26:11 GMT",
+   "etag": "\"af360231-5321-4c4f-a354-59905f6e32ec-1501079171899\"",
+   "length": "5476364"
+  },
+  "https://www.iowasudas.org/wp-content/uploads/sites/15/2020/03/Chapter_02.pdf": {
+   "url": "https://www.iowasudas.org/wp-content/uploads/sites/15/2020/03/Chapter_02.pdf",
+   "slugs": [
+    "cedar-rapids-ia",
+    "davenport-ia",
+    "des-moines-ia"
+   ],
+   "checked_at": "2026-11-18T14:50:23.634Z",
+   "status": 200,
+   "last_modified": "Fri, 19 Dec 2025 14:49:27 GMT",
+   "etag": "\"2df457243e955e89477dbec17b896f75\"",
+   "length": "8286380"
+  },
+  "https://www.chandleraz.gov/sites/default/files/departments/development-services/City-of-Chandler-Engineering-Design-Standards-Manual.pdf": {
+   "url": "https://www.chandleraz.gov/sites/default/files/departments/development-services/City-of-Chandler-Engineering-Design-Standards-Manual.pdf",
+   "slugs": [
+    "chandler-az"
+   ],
+   "checked_at": "2026-11-18T14:50:23.995Z",
+   "status": 200,
+   "last_modified": "Fri, 05 Dec 2025 00:36:09 GMT",
+   "etag": "\"693228f9-6644a9\"",
+   "length": "6702249"
+  },
+  "https://www.charleston-sc.gov/DocumentCenter/View/41286/COC_SWDSM_Final---2026": {
+   "url": "https://www.charleston-sc.gov/DocumentCenter/View/41286/COC_SWDSM_Final---2026",
+   "slugs": [
+    "charleston-sc"
+   ],
+   "checked_at": "2026-11-18T14:50:24.675Z",
+   "status": 404,
+   "last_modified": null,
+   "etag": null,
+   "length": "88376"
+  },
+  "http://charlestonstormwater.org/wp-content/uploads/2025/03/Charleston-Stormwater-Management-Guidance-Manual-website.pdf": {
+   "url": "http://charlestonstormwater.org/wp-content/uploads/2025/03/Charleston-Stormwater-Management-Guidance-Manual-website.pdf",
+   "slugs": [
+    "charleston-wv"
+   ],
+   "checked_at": "2026-11-18T14:50:24.963Z",
+   "status": 200,
+   "last_modified": "Fri, 07 Mar 2025 20:09:47 GMT",
+   "etag": "\"cc0838-13f1ea5-62fc6345065bf\"",
+   "length": "20913829"
+  },
+  "https://www.charlottenc.gov/files/sharedassets/city/v/1/services/stormwater/documents/regulations/storm-water-design-manual/public-comment/charlotte-sw-design-manual-for-public-comment.pdf": {
+   "url": "https://www.charlottenc.gov/files/sharedassets/city/v/1/services/stormwater/documents/regulations/storm-water-design-manual/public-comment/charlotte-sw-design-manual-for-public-comment.pdf",
+   "slugs": [
+    "charlotte-nc"
+   ],
+   "checked_at": "2026-11-18T14:50:25.174Z",
+   "status": 404,
+   "last_modified": null,
+   "etag": null,
+   "length": "105498"
+  },
+  "https://www.charlottesville.gov/DocumentCenter/View/10298": {
+   "url": "https://www.charlottesville.gov/DocumentCenter/View/10298",
+   "slugs": [
+    "charlottesville-va"
+   ],
+   "checked_at": "2026-11-18T14:50:25.574Z",
+   "status": 404,
+   "last_modified": null,
+   "etag": null,
+   "length": "93066"
+  },
+  "https://chattanooga.gov/sites/default/files/2024-06/Chattanooga-RMG-Binder.pdf": {
+   "url": "https://chattanooga.gov/sites/default/files/2024-06/Chattanooga-RMG-Binder.pdf",
+   "slugs": [
+    "chattanooga-tn"
+   ],
+   "checked_at": "2026-11-18T14:50:25.763Z",
+   "status": 200,
+   "last_modified": "Tue, 17 Nov 2026 15:45:11 GMT",
+   "etag": "\"6afc7687-267a0f2\"",
+   "length": "40345842"
+  },
+  "https://www.cityofchesapeake.net/DocumentCenter/View/2455/Stormwater-Management-and-Drainage-Design-PDF": {
+   "url": "https://www.cityofchesapeake.net/DocumentCenter/View/2455/Stormwater-Management-and-Drainage-Design-PDF",
+   "slugs": [
+    "chesapeake-va"
+   ],
+   "checked_at": "2026-11-18T14:50:26.517Z",
+   "status": 404,
+   "last_modified": null,
+   "etag": null,
+   "length": "91783"
+  },
+  "https://www.chicago.gov/content/dam/city/depts/water/general/Engineering/SewerConstStormReq/2024StormwaterManual.pdf": {
+   "url": "https://www.chicago.gov/content/dam/city/depts/water/general/Engineering/SewerConstStormReq/2024StormwaterManual.pdf",
+   "slugs": [
+    "chicago-il"
+   ],
+   "checked_at": "2026-11-18T14:50:27.632Z",
+   "status": 403,
+   "last_modified": null,
+   "etag": null,
+   "length": "497"
+  },
+  "https://www.sandiego.gov/sites/default/files/2024-08/sws_manual_august_2024_update.pdf": {
+   "url": "https://www.sandiego.gov/sites/default/files/2024-08/sws_manual_august_2024_update.pdf",
+   "slugs": [
+    "chula-vista-ca",
+    "san-diego-ca"
+   ],
+   "checked_at": "2026-11-18T14:50:27.939Z",
+   "status": 200,
+   "last_modified": "Wed, 14 Aug 2024 18:17:55 GMT",
+   "etag": "\"66bcf4d3-15abad4\"",
+   "length": "22723284"
+  },
+  "https://www.clarksvilletn.gov/Archive.aspx?ADID=1469": {
+   "url": "https://www.clarksvilletn.gov/Archive.aspx?ADID=1469",
+   "slugs": [
+    "clarksville-tn"
+   ],
+   "checked_at": "2026-11-18T14:50:28.332Z",
+   "status": 200,
+   "last_modified": null,
+   "etag": null,
+   "length": "6359812"
+  },
+  "https://dnrweblink.state.co.us/CWCB/0/edoc/211428/Chapter%2015.pdf": {
+   "url": "https://dnrweblink.state.co.us/CWCB/0/edoc/211428/Chapter%2015.pdf",
+   "slugs": [
+    "co-cwcb-floodplain-stormwater"
+   ],
+   "checked_at": "2026-11-18T14:50:29.616Z",
+   "status": 200,
+   "last_modified": null,
+   "etag": null,
+   "length": "1956"
+  },
+  "https://iswm.nctcog.org/Documents/iSWM_Criteria_Manual_01142015.pdf": {
+   "url": "https://iswm.nctcog.org/Documents/iSWM_Criteria_Manual_01142015.pdf",
+   "slugs": [
+    "college-station-tx",
+    "dallas-tx",
+    "grand-prairie-tx",
+    "waco-tx"
+   ],
+   "checked_at": "2026-11-18T14:50:29.979Z",
+   "status": 200,
+   "last_modified": "Fri, 17 Feb 2023 21:53:33 GMT",
+   "etag": "\"0x8DB11316A03D4B9\"",
+   "length": "3255270"
+  },
+  "https://www.como.gov/wp-content/uploads/2021/08/City-Stormwater-Management-and-Water-Quality-Manual.pdf": {
+   "url": "https://www.como.gov/wp-content/uploads/2021/08/City-Stormwater-Management-and-Water-Quality-Manual.pdf",
+   "slugs": [
+    "columbia-mo"
+   ],
+   "checked_at": "2026-11-18T14:50:30.053Z",
+   "status": 200,
+   "last_modified": "Thu, 05 Aug 2021 19:57:55 GMT",
+   "etag": "\"3a9210-5c8d555be3ed3\"",
+   "length": "3838480"
+  },
+  "https://columbiascwater.net/wp-content/uploads/2018/08/bmpmanual.pdf": {
+   "url": "https://columbiascwater.net/wp-content/uploads/2018/08/bmpmanual.pdf",
+   "slugs": [
+    "columbia-sc",
+    "greenville-sc"
+   ],
+   "checked_at": "2026-11-18T14:50:30.611Z",
+   "status": 200,
+   "last_modified": "Sun, 20 Feb 2022 04:45:12 GMT",
+   "etag": "\"e6577-5d86bc7fe8600\"",
+   "length": "943479"
+  },
+  "https://www.columbus.gov/files/sharedassets/city/v/2/utilities/documents/sewer-publications/2025-stormwater-drainage-manual.pdf": {
+   "url": "https://www.columbus.gov/files/sharedassets/city/v/2/utilities/documents/sewer-publications/2025-stormwater-drainage-manual.pdf",
+   "slugs": [
+    "columbus-oh"
+   ],
+   "checked_at": "2026-11-18T14:50:30.823Z",
+   "status": 200,
+   "last_modified": "Tue, 26 Aug 2025 15:10:01 GMT",
+   "etag": "\"bc9b5970-a0ee-4936-8709-f4bd0da1685f\"",
+   "length": "3775874"
+  },
+  "https://extension.unh.edu/sites/default/files/media/2025-06/stormwater-management-standards.pdf": {
+   "url": "https://extension.unh.edu/sites/default/files/media/2025-06/stormwater-management-standards.pdf",
+   "slugs": [
+    "concord-nh",
+    "manchester-nh",
+    "nashua-nh",
+    "nh-state"
+   ],
+   "checked_at": "2026-11-18T14:50:31.321Z",
+   "status": 200,
+   "last_modified": "Mon, 09 Jun 2025 14:21:21 GMT",
+   "etag": "\"4aadb-637244b4d0ba8\"",
+   "length": "305883"
+  },
+  "https://mwrd.org/sites/default/files/documents/TGM.pdf": {
+   "url": "https://mwrd.org/sites/default/files/documents/TGM.pdf",
+   "slugs": [
+    "cook-county-il"
+   ],
+   "checked_at": "2026-11-18T14:50:31.872Z",
+   "status": 200,
+   "last_modified": "Mon, 13 Nov 2023 04:34:37 GMT",
+   "etag": null,
+   "length": "56344056"
+  },
+  "https://www.corpuschristitx.gov/media/ln5lofdo/draft-drainage-design-manual.pdf": {
+   "url": "https://www.corpuschristitx.gov/media/ln5lofdo/draft-drainage-design-manual.pdf",
+   "slugs": [
+    "corpus-christi-tx"
+   ],
+   "checked_at": "2026-11-18T14:50:32.078Z",
+   "status": 200,
+   "last_modified": "Mon, 17 Aug 2026 06:49:03 GMT",
+   "etag": "\"1dd2e147df6dd1f\"",
+   "length": "8537247"
+  },
+  "https://portal.ct.gov/dot/-/media/dot/drainage/ctdot-drainage-full-pdf.pdf": {
+   "url": "https://portal.ct.gov/dot/-/media/dot/drainage/ctdot-drainage-full-pdf.pdf",
+   "slugs": [
+    "ct-ctdot-drainage"
+   ],
+   "checked_at": "2026-11-18T14:50:32.401Z",
+   "status": 200,
+   "last_modified": "Wed, 18 Jun 2025 15:22:57 GMT",
+   "etag": "cfa9352915f341b9b9dba79790bca957",
+   "length": "14898068"
+  },
+  "https://www.daytonohio.gov/DocumentCenter/View/4875": {
+   "url": "https://www.daytonohio.gov/DocumentCenter/View/4875",
+   "slugs": [
+    "dayton-oh"
+   ],
+   "checked_at": "2026-11-18T14:50:32.808Z",
+   "status": 404,
+   "last_modified": null,
+   "etag": null,
+   "length": "101328"
+  },
+  "https://aws.sjrwmd.com/SJRWMD/permitting/SJRWMD_Applicants_Handbook_Volume_II_6-28-24.pdf": {
+   "url": "https://aws.sjrwmd.com/SJRWMD/permitting/SJRWMD_Applicants_Handbook_Volume_II_6-28-24.pdf",
+   "slugs": [
+    "daytona-beach-fl",
+    "deltona-fl",
+    "fl-sjrwmd-erp-ah2",
+    "melbourne-fl",
+    "palm-bay-fl",
+    "palm-coast-fl"
+   ],
+   "checked_at": "2026-11-18T14:50:33.209Z",
+   "status": 200,
+   "last_modified": "Wed, 22 Jan 2025 21:51:12 GMT",
+   "etag": "\"e7b247b6361e66b408b8e48701585318-1\"",
+   "length": "11410342"
+  },
+  "https://ddot.dc.gov/sites/default/files/dc/sites/ddot/publication/attachments/2014-Final%20DDOT%20Green%20Infrastructure%20Standards.pdf": {
+   "url": "https://ddot.dc.gov/sites/default/files/dc/sites/ddot/publication/attachments/2014-Final%20DDOT%20Green%20Infrastructure%20Standards.pdf",
+   "slugs": [
+    "dc-ddot-stormwater"
+   ],
+   "checked_at": "2026-11-18T14:50:33.487Z",
+   "status": 200,
+   "last_modified": "Wed, 20 Jul 2016 13:20:03 GMT",
+   "etag": null,
+   "length": "5199937"
+  },
+  "https://doee.dc.gov/sites/default/files/dc/sites/ddoe/page_content/attachments/FinalGuidebook_changes%20accepted_Appendices%20A-U_07_29_2013_compressed.pdf": {
+   "url": "https://doee.dc.gov/sites/default/files/dc/sites/ddoe/page_content/attachments/FinalGuidebook_changes%20accepted_Appendices%20A-U_07_29_2013_compressed.pdf",
+   "slugs": [
+    "dc-guidebook"
+   ],
+   "checked_at": "2026-11-18T14:50:33.613Z",
+   "status": 200,
+   "last_modified": "Wed, 31 Jul 2013 20:54:23 GMT",
+   "etag": null,
+   "length": "9551144"
+  },
+  "https://deldot.gov/Publications/manuals/road_design/pdfs/06_drainage_stormwater_mgmt.pdf": {
+   "url": "https://deldot.gov/Publications/manuals/road_design/pdfs/06_drainage_stormwater_mgmt.pdf",
+   "slugs": [
+    "de-deldot-drainage"
+   ],
+   "checked_at": "2026-11-18T14:50:33.731Z",
+   "status": 206,
+   "last_modified": null,
+   "etag": null,
+   "length": "1656914"
+  },
+  "https://documents.dnrec.delaware.gov/Admin/Public-Notices/WSS20260001/13-0-Wet-Ponds-DRAFT-strikethrough.pdf": {
+   "url": "https://documents.dnrec.delaware.gov/Admin/Public-Notices/WSS20260001/13-0-Wet-Ponds-DRAFT-strikethrough.pdf",
+   "slugs": [
+    "de-wet-ponds-draft",
+    "dover-de",
+    "wilmington-de"
+   ],
+   "checked_at": "2026-11-18T14:50:34.187Z",
+   "status": 200,
+   "last_modified": "Tue, 06 Jan 2026 20:43:53 GMT",
+   "etag": "\"b6664-647be3bd84ce4\"",
+   "length": "747108"
+  },
+  "https://www.cityofdenton.com/DocumentCenter/View/13450/Design-Criteria-Manual-2024": {
+   "url": "https://www.cityofdenton.com/DocumentCenter/View/13450/Design-Criteria-Manual-2024",
+   "slugs": [
+    "denton-tx"
+   ],
+   "checked_at": "2026-11-18T14:50:34.450Z",
+   "status": 403,
+   "last_modified": null,
+   "etag": null,
+   "length": null
+  },
+  "https://detroitmi.gov/sites/detroitmi.localhost/files/2025-08/2025%20DWSD%20SW%20Design%20Manual.pdf": {
+   "url": "https://detroitmi.gov/sites/detroitmi.localhost/files/2025-08/2025%20DWSD%20SW%20Design%20Manual.pdf",
+   "slugs": [
+    "detroit-mi"
+   ],
+   "checked_at": "2026-11-18T14:50:34.910Z",
+   "status": 403,
+   "last_modified": null,
+   "etag": null,
+   "length": "5947"
+  },
+  "https://stormwater.pca.state.mn.us/sites/stormwater/files/Minnesota_Stormwater_Manual.pdf": {
+   "url": "https://stormwater.pca.state.mn.us/sites/stormwater/files/Minnesota_Stormwater_Manual.pdf",
+   "slugs": [
+    "duluth-mn",
+    "mn-state-2008"
+   ],
+   "checked_at": "2026-11-18T14:50:35.112Z",
+   "status": 200,
+   "last_modified": "Wed, 23 Oct 2024 18:29:38 GMT",
+   "etag": null,
+   "length": "24322655"
+  },
+  "https://www.durhamnc.gov/DocumentCenter/View/3331/Reference-Guide-for-Development-": {
+   "url": "https://www.durhamnc.gov/DocumentCenter/View/3331/Reference-Guide-for-Development-",
+   "slugs": [
+    "durham-nc"
+   ],
+   "checked_at": "2026-11-18T14:50:35.384Z",
+   "status": 403,
+   "last_modified": null,
+   "etag": null,
+   "length": null
+  },
+  "https://www.elpasotexas.gov/assets/Documents/CoEP/Planning-and-Inspections/Planning-Divisions/Combined-Storm-Water-Design-Manual.pdf": {
+   "url": "https://www.elpasotexas.gov/assets/Documents/CoEP/Planning-and-Inspections/Planning-Divisions/Combined-Storm-Water-Design-Manual.pdf",
+   "slugs": [
+    "el-paso-tx"
+   ],
+   "checked_at": "2026-11-18T14:50:35.612Z",
+   "status": 200,
+   "last_modified": "Wed, 18 May 2022 17:26:04 GMT",
+   "etag": "\"8ad095-5df4c8d426300\"",
+   "length": "9097365"
+  },
+  "https://dep.nj.gov/wp-content/uploads/stormwater/bmp/njswbmp-chapter-9.7-small-scale-bioretention-systems-january-2026.pdf": {
+   "url": "https://dep.nj.gov/wp-content/uploads/stormwater/bmp/njswbmp-chapter-9.7-small-scale-bioretention-systems-january-2026.pdf",
+   "slugs": [
+    "elizabeth-nj",
+    "newark-nj",
+    "nj-state",
+    "paterson-nj",
+    "trenton-nj"
+   ],
+   "checked_at": "2026-11-18T14:50:35.759Z",
+   "status": 200,
+   "last_modified": "Fri, 16 Jan 2026 17:19:36 GMT",
+   "etag": "\"696a7328-4fe300\"",
+   "length": "5235456"
+  },
+  "https://www.inafsm.net/assets/docs/indiana%20storm%20water%20quality%20manual.pdf": {
+   "url": "https://www.inafsm.net/assets/docs/indiana%20storm%20water%20quality%20manual.pdf",
+   "slugs": [
+    "evansville-in",
+    "indiana-manual",
+    "south-bend-in"
+   ],
+   "checked_at": "2026-11-18T14:50:36.046Z",
+   "status": 200,
+   "last_modified": "Thu, 02 Nov 2017 19:08:45 GMT",
+   "etag": "W/\"f1f2b7-55d04b7980940\"",
+   "length": null
+  },
+  "http://online.encodeplus.com/regs/fairfaxcounty-va-pfm/export2doc.aspx?pdf=1&tocid=001": {
+   "url": "http://online.encodeplus.com/regs/fairfaxcounty-va-pfm/export2doc.aspx?pdf=1&tocid=001",
+   "slugs": [
+    "fairfax-county-va"
+   ],
+   "checked_at": "2026-11-18T14:50:36.634Z",
+   "status": 200,
+   "last_modified": null,
+   "etag": null,
+   "length": "25982117"
+  },
+  "https://download.fargond.gov/0/storm_sewer_manual_city_of_fargo_policy_2019-09-09.pdf": {
+   "url": "https://download.fargond.gov/0/storm_sewer_manual_city_of_fargo_policy_2019-09-09.pdf",
+   "slugs": [
+    "fargo-nd"
+   ],
+   "checked_at": "2026-11-18T14:50:36.828Z",
+   "status": 404,
+   "last_modified": null,
+   "etag": "W/\"24-U/XrPG5JYRZawK8kTRqQ/QK9IcU\"",
+   "length": "36"
+  },
+  "https://www.fhwa.dot.gov/engineering/hydraulics/pubs/08090/HDS4_608.pdf": {
+   "url": "https://www.fhwa.dot.gov/engineering/hydraulics/pubs/08090/HDS4_608.pdf",
+   "slugs": [
+    "fhwa-hds-4"
+   ],
+   "checked_at": "2026-11-18T14:50:37.057Z",
+   "status": 200,
+   "last_modified": "Wed, 04 Feb 2015 15:59:14 GMT",
+   "etag": "\"075a0859340d01:0\"",
+   "length": "4138821"
+  },
+  "https://www.fhwa.dot.gov/engineering/hydraulics/pubs/06086/hec14.pdf": {
+   "url": "https://www.fhwa.dot.gov/engineering/hydraulics/pubs/06086/hec14.pdf",
+   "slugs": [
+    "fhwa-hec-14"
+   ],
+   "checked_at": "2026-11-18T14:50:37.394Z",
+   "status": 200,
+   "last_modified": "Thu, 20 Jul 2017 16:45:31 GMT",
+   "etag": "\"80c76299771d31:0\"",
+   "length": "3742749"
+  },
+  "https://www.fhwa.dot.gov/engineering/hydraulics/pubs/05114/05114.pdf": {
+   "url": "https://www.fhwa.dot.gov/engineering/hydraulics/pubs/05114/05114.pdf",
+   "slugs": [
+    "fhwa-hec-15"
+   ],
+   "checked_at": "2026-11-18T14:50:37.648Z",
+   "status": 200,
+   "last_modified": "Tue, 27 Jan 2015 17:57:40 GMT",
+   "etag": "\"02d4bd5a3ad01:0\"",
+   "length": "6375945"
+  },
+  "https://www.fhwa.dot.gov/engineering/hydraulics/pubs/hec/hec21.pdf": {
+   "url": "https://www.fhwa.dot.gov/engineering/hydraulics/pubs/hec/hec21.pdf",
+   "slugs": [
+    "fhwa-hec-21"
+   ],
+   "checked_at": "2026-11-18T14:50:37.901Z",
+   "status": 200,
+   "last_modified": "Wed, 16 Mar 2005 20:14:21 GMT",
+   "etag": "\"804c3ebd642ac51:0\"",
+   "length": "2393201"
+  },
+  "https://www.fhwa.dot.gov/engineering/hydraulics/pubs/hif24006.pdf": {
+   "url": "https://www.fhwa.dot.gov/engineering/hydraulics/pubs/hif24006.pdf",
+   "slugs": [
+    "fhwa-hec-22"
+   ],
+   "checked_at": "2026-11-18T14:50:38.154Z",
+   "status": 200,
+   "last_modified": "Mon, 11 Mar 2024 14:26:05 GMT",
+   "etag": "\"34872fdc073da1:0\"",
+   "length": "12932642"
+  },
+  "https://www.fhwa.dot.gov/engineering/hydraulics/pubs/hec/hec24.pdf": {
+   "url": "https://www.fhwa.dot.gov/engineering/hydraulics/pubs/hec/hec24.pdf",
+   "slugs": [
+    "fhwa-hec-24"
+   ],
+   "checked_at": "2026-11-18T14:50:38.420Z",
+   "status": 200,
+   "last_modified": "Mon, 19 Mar 2001 20:19:40 GMT",
+   "etag": "\"0561aedb1b0c01:0\"",
+   "length": "2871805"
+  },
+  "https://fdotwww.blob.core.windows.net/sitefinity/docs/default-source/roadway/drainage/files/drainagemanual2025.pdf": {
+   "url": "https://fdotwww.blob.core.windows.net/sitefinity/docs/default-source/roadway/drainage/files/drainagemanual2025.pdf",
+   "slugs": [
+    "fl-fdot-drainage"
+   ],
+   "checked_at": "2026-11-18T14:50:38.649Z",
+   "status": 200,
+   "last_modified": "Wed, 01 Apr 2026 22:57:14 GMT",
+   "etag": "0x8DE9042042D4398",
+   "length": "3454616"
+  },
+  "https://www.mywaltonfl.gov/DocumentCenter/View/32627/FSESCI-TIER-I-Manual-062918": {
+   "url": "https://www.mywaltonfl.gov/DocumentCenter/View/32627/FSESCI-TIER-I-Manual-062918",
+   "slugs": [
+    "fl-fsesci-tier1"
+   ],
+   "checked_at": "2026-11-18T14:50:38.803Z",
+   "status": 404,
+   "last_modified": null,
+   "etag": null,
+   "length": "94209"
+  },
+  "https://nwfwater.com/wp-content/uploads/2024/07/AHII-nwfwmd-FINAL-2024.pdf": {
+   "url": "https://nwfwater.com/wp-content/uploads/2024/07/AHII-nwfwmd-FINAL-2024.pdf",
+   "slugs": [
+    "fl-nwfwmd-erp-ah2",
+    "pensacola-fl",
+    "tallahassee-fl"
+   ],
+   "checked_at": "2026-11-18T14:50:39.059Z",
+   "status": 200,
+   "last_modified": "Fri, 19 Jul 2024 17:45:09 GMT",
+   "etag": "\"669aa625-49a403\"",
+   "length": "4826115"
+  },
+  "https://www.sfwmd.gov/sites/default/files/documents/swerp_applicants_handbook_vol_ii.pdf": {
+   "url": "https://www.sfwmd.gov/sites/default/files/documents/swerp_applicants_handbook_vol_ii.pdf",
+   "slugs": [
+    "fl-sfwmd-erp-ah2",
+    "miami-fl"
+   ],
+   "checked_at": "2026-11-18T14:50:39.306Z",
+   "status": 200,
+   "last_modified": "Fri, 10 Jul 2026 12:37:51 GMT",
+   "etag": null,
+   "length": "665335"
+  },
+  "http://www.srwmd.state.fl.us/DocumentCenter/View/19233": {
+   "url": "http://www.srwmd.state.fl.us/DocumentCenter/View/19233",
+   "slugs": [
+    "fl-srwmd-erp-ah2",
+    "gainesville-fl"
+   ],
+   "checked_at": "2026-11-18T14:50:39.518Z",
+   "status": 404,
+   "last_modified": null,
+   "etag": null,
+   "length": "84883"
+  },
+  "https://www.swfwmd.state.fl.us/sites/default/files/medias/documents/draftswfwmd-erpapplicanthandbook-volume-ii.pdf": {
+   "url": "https://www.swfwmd.state.fl.us/sites/default/files/medias/documents/draftswfwmd-erpapplicanthandbook-volume-ii.pdf",
+   "slugs": [
+    "fl-swfwmd-erp-ah2",
+    "tampa-fl"
+   ],
+   "checked_at": "2026-11-18T14:50:40.132Z",
+   "status": 206,
+   "last_modified": "Wed, 28 Jun 2023 16:28:33 GMT",
+   "etag": "\"649c5fb1-971c1b\"",
+   "length": "9903131"
+  },
+  "https://www.flagstaff.az.gov/DocumentCenter/View/88520/2025-Stormwater-Management-Design-Manual": {
+   "url": "https://www.flagstaff.az.gov/DocumentCenter/View/88520/2025-Stormwater-Management-Design-Manual",
+   "slugs": [
+    "flagstaff-az"
+   ],
+   "checked_at": "2026-11-18T14:50:40.595Z",
+   "status": 404,
+   "last_modified": null,
+   "etag": null,
+   "length": "106632"
+  },
+  "https://content.civicplus.com/api/assets/mi-lansing/5275ad94-2c28-4941-9d23-67842b45023f?cache=1800": {
+   "url": "https://content.civicplus.com/api/assets/mi-lansing/5275ad94-2c28-4941-9d23-67842b45023f?cache=1800",
+   "slugs": [
+    "flint-mi",
+    "lansing-mi"
+   ],
+   "checked_at": "2026-11-18T14:50:40.861Z",
+   "status": 200,
+   "last_modified": null,
+   "etag": "W/\"0\"",
+   "length": "1022512"
+  },
+  "https://utilities.cityoffortwayne.org/wp-content/uploads/2026/07/City-Utilities-Design-Standards-July-2026.pdf": {
+   "url": "https://utilities.cityoffortwayne.org/wp-content/uploads/2026/07/City-Utilities-Design-Standards-July-2026.pdf",
+   "slugs": [
+    "fort-wayne-in"
+   ],
+   "checked_at": "2026-11-18T14:50:41.163Z",
+   "status": 200,
+   "last_modified": "Fri, 17 Jul 2026 17:05:40 GMT",
+   "etag": "\"6a5a60e4-1b3d77e\"",
+   "length": "28563326"
+  },
+  "https://www.fortworthtexas.gov/files/assets/public/v/1/tpw/stormwater/documents/regulation-updates/july-2024-official-stormwater-criteria-manual.pdf": {
+   "url": "https://www.fortworthtexas.gov/files/assets/public/v/1/tpw/stormwater/documents/regulation-updates/july-2024-official-stormwater-criteria-manual.pdf",
+   "slugs": [
+    "fort-worth-tx"
+   ],
+   "checked_at": "2026-11-18T14:50:41.322Z",
+   "status": 200,
+   "last_modified": "Thu, 27 Feb 2025 09:25:39 GMT",
+   "etag": "\"96c4ae06-6e68-4357-bd9a-29462bc91f8c\"",
+   "length": "18544817"
+  },
+  "https://franklincounty.ky.gov/wp-content/uploads/2018/11/2017-Stormwater-Procedures-Manual-ADOPTED.pdf": {
+   "url": "https://franklincounty.ky.gov/wp-content/uploads/2018/11/2017-Stormwater-Procedures-Manual-ADOPTED.pdf",
+   "slugs": [
+    "frankfort-ky"
+   ],
+   "checked_at": "2026-11-18T14:50:41.616Z",
+   "status": 200,
+   "last_modified": "Fri, 30 Jan 2026 20:19:28 GMT",
+   "etag": null,
+   "length": "2818143"
+  },
+  "https://www.nashville.gov/sites/default/files/2021-08/SWMM-Vol4-01_SECTION_1_0_ALL.pdf": {
+   "url": "https://www.nashville.gov/sites/default/files/2021-08/SWMM-Vol4-01_SECTION_1_0_ALL.pdf",
+   "slugs": [
+    "franklin-tn",
+    "nashville-tn-vol4"
+   ],
+   "checked_at": "2026-11-18T14:50:41.995Z",
+   "status": 200,
+   "last_modified": "Fri, 27 Aug 2021 14:05:46 GMT",
+   "etag": null,
+   "length": "503494"
+  },
+  "https://cleanwaterprogram.org/wp-content/uploads/2024/05/C3TG-8.2-compiled-20240519.pdf": {
+   "url": "https://cleanwaterprogram.org/wp-content/uploads/2024/05/C3TG-8.2-compiled-20240519.pdf",
+   "slugs": [
+    "fremont-ca"
+   ],
+   "checked_at": "2026-11-18T14:50:42.374Z",
+   "status": 200,
+   "last_modified": "Sun, 19 May 2024 23:02:52 GMT",
+   "etag": null,
+   "length": "24204853"
+  },
+  "https://www.fresnofloodcontrol.org/wp-content/uploads/2022/09/Post-Development-Standards-Technical-Manual.pdf": {
+   "url": "https://www.fresnofloodcontrol.org/wp-content/uploads/2022/09/Post-Development-Standards-Technical-Manual.pdf",
+   "slugs": [
+    "fresno-ca"
+   ],
+   "checked_at": "2026-11-18T14:50:42.618Z",
+   "status": 200,
+   "last_modified": "Mon, 09 Dec 2024 21:32:15 GMT",
+   "etag": "\"675761df-5d75c4\"",
+   "length": "6124996"
+  },
+  "https://www.friscotexas.gov/DocumentCenter/View/39413/2025-Design-Standards-ONLY": {
+   "url": "https://www.friscotexas.gov/DocumentCenter/View/39413/2025-Design-Standards-ONLY",
+   "slugs": [
+    "frisco-tx"
+   ],
+   "checked_at": "2026-11-18T14:50:42.995Z",
+   "status": 200,
+   "last_modified": "Wed, 18 Nov 2026 14:50:43 GMT",
+   "etag": null,
+   "length": "7994497"
+  },
+  "https://www.dot.ga.gov/PartnerSmart/DesignManuals/Drainage/Drainage%20Design%20Policy%20Manual.pdf": {
+   "url": "https://www.dot.ga.gov/PartnerSmart/DesignManuals/Drainage/Drainage%20Design%20Policy%20Manual.pdf",
+   "slugs": [
+    "ga-gdot-drainage"
+   ],
+   "checked_at": "2026-11-18T14:50:43.317Z",
+   "status": 200,
+   "last_modified": "Thu, 03 Apr 2025 18:47:12 GMT",
+   "etag": "\"{4B749D15-679B-4CA2-8ECC-D10078338FA7},2\"",
+   "length": "4659796"
+  },
+  "https://www.garlandtx.gov/DocumentCenter/View/459": {
+   "url": "https://www.garlandtx.gov/DocumentCenter/View/459",
+   "slugs": [
+    "garland-tx"
+   ],
+   "checked_at": "2026-11-18T14:50:43.942Z",
+   "status": 404,
+   "last_modified": null,
+   "etag": null,
+   "length": "124452"
+  },
+  "https://www.grandrapidsmi.gov/media/4vfaiq3n/gr-stormwater-standard-manual-04292021.pdf": {
+   "url": "https://www.grandrapidsmi.gov/media/4vfaiq3n/gr-stormwater-standard-manual-04292021.pdf",
+   "slugs": [
+    "grand-rapids-mi"
+   ],
+   "checked_at": "2026-11-18T14:50:44.222Z",
+   "status": 200,
+   "last_modified": "Tue, 18 Aug 2026 07:41:35 GMT",
+   "etag": "W/\"1dd2ee4fe84b5ec\"",
+   "length": null
+  },
+  "https://www.mdeq.ms.gov/wp-content/uploads/2017/05/Volume_2.pdf": {
+   "url": "https://www.mdeq.ms.gov/wp-content/uploads/2017/05/Volume_2.pdf",
+   "slugs": [
+    "gulfport-ms",
+    "jackson-ms",
+    "ms-state-vol2"
+   ],
+   "checked_at": "2026-11-18T14:50:44.466Z",
+   "status": 200,
+   "last_modified": "Tue, 17 Nov 2020 16:34:16 GMT",
+   "etag": "\"3ed508-5b45010cff200\"",
+   "length": "4117768"
+  },
+  "https://oce.harriscountytx.gov/Portals/43/Documents/Publications/SWQ_LID_design_criteria.pdf": {
+   "url": "https://oce.harriscountytx.gov/Portals/43/Documents/Publications/SWQ_LID_design_criteria.pdf",
+   "slugs": [
+    "harris-county-tx",
+    "pasadena-tx",
+    "pearland-tx"
+   ],
+   "checked_at": "2026-11-18T14:50:44.598Z",
+   "status": 200,
+   "last_modified": "Fri, 11 Apr 2025 20:46:00 GMT",
+   "etag": "\"0f477bb22abdb1:0\"",
+   "length": "1781602"
+  },
+  "https://www.stormwaterhawaii.com/wp-content/uploads/2022/07/PC-BMP-Manual_220210-FULL-v2.pdf": {
+   "url": "https://www.stormwaterhawaii.com/wp-content/uploads/2022/07/PC-BMP-Manual_220210-FULL-v2.pdf",
+   "slugs": [
+    "hawaii-dot-pcbmp"
+   ],
+   "checked_at": "2026-11-18T14:50:45.098Z",
+   "status": 200,
+   "last_modified": "Thu, 07 Jul 2022 02:44:10 GMT",
+   "etag": null,
+   "length": "6947023"
+  },
+  "https://deq.mt.gov/files/Water/Forms/DEQ_8_2024_FINAL_2024_09_20.pdf": {
+   "url": "https://deq.mt.gov/files/Water/Forms/DEQ_8_2024_FINAL_2024_09_20.pdf",
+   "slugs": [
+    "helena-mt",
+    "missoula-mt",
+    "mt-deq8"
+   ],
+   "checked_at": "2026-11-18T14:50:45.482Z",
+   "status": 200,
+   "last_modified": "Fri, 20 Sep 2024 15:54:00 GMT",
+   "etag": "\"0dce04e75bdb1:0\"",
+   "length": "1076855"
+  },
+  "https://www.highpointnc.gov/DocumentCenter/View/1533": {
+   "url": "https://www.highpointnc.gov/DocumentCenter/View/1533",
+   "slugs": [
+    "high-point-nc"
+   ],
+   "checked_at": "2026-11-18T14:50:45.902Z",
+   "status": 200,
+   "last_modified": "Wed, 18 Nov 2026 14:50:46 GMT",
+   "etag": null,
+   "length": "127838"
+  },
+  "https://www.honolulu.gov/dpp/wp-content/uploads/sites/56/2024/07/rules-storm-drainage-standards.pdf": {
+   "url": "https://www.honolulu.gov/dpp/wp-content/uploads/sites/56/2024/07/rules-storm-drainage-standards.pdf",
+   "slugs": [
+    "honolulu-hi"
+   ],
+   "checked_at": "2026-11-18T14:50:46.692Z",
+   "status": 200,
+   "last_modified": "Wed, 17 Jul 2024 18:03:29 GMT",
+   "etag": "\"66980771-56b51c\"",
+   "length": "5682460"
+  },
+  "https://www.houstonpermittingcenter.org/media/7596/download?inline=": {
+   "url": "https://www.houstonpermittingcenter.org/media/7596/download?inline=",
+   "slugs": [
+    "houston-tx"
+   ],
+   "checked_at": "2026-11-18T14:50:47.102Z",
+   "status": 200,
+   "last_modified": "Mon, 31 Jul 2023 03:52:19 GMT",
+   "etag": null,
+   "length": "2064003"
+  },
+  "https://documents.iowa.gov/Home/Download/9592853": {
+   "url": "https://documents.iowa.gov/Home/Download/9592853",
+   "slugs": [
+    "ia-dot-drainage"
+   ],
+   "checked_at": "2026-11-18T14:50:47.503Z",
+   "status": 522,
+   "last_modified": null,
+   "etag": null,
+   "length": "7261"
+  },
+  "https://www.iowadnr.gov/media/7380/download?inline=": {
+   "url": "https://www.iowadnr.gov/media/7380/download?inline=",
+   "slugs": [
+    "ia-state-ch1"
+   ],
+   "checked_at": "2026-11-18T14:51:07.207Z",
+   "status": 200,
+   "last_modified": "Thu, 20 Feb 2025 21:40:15 GMT",
+   "etag": null,
+   "length": "634040"
+  },
+  "https://apps.itd.idaho.gov/apps/manuals/roadwaydesign/files/RoadwayDesign600.pdf": {
+   "url": "https://apps.itd.idaho.gov/apps/manuals/roadwaydesign/files/RoadwayDesign600.pdf",
+   "slugs": [
+    "id-itd-drainage"
+   ],
+   "checked_at": "2026-11-18T14:51:08.180Z",
+   "status": 200,
+   "last_modified": "Thu, 08 Aug 2013 17:44:22 GMT",
+   "etag": "\"3313d2ea5e94ce1:0\"",
+   "length": "959961"
+  },
+  "https://www.aqualisco.com/wp-content/uploads/2019/08/Catalog-of-Stormwater-Best-Management-Practices.pdf": {
+   "url": "https://www.aqualisco.com/wp-content/uploads/2019/08/Catalog-of-Stormwater-Best-Management-Practices.pdf",
+   "slugs": [
+    "idaho-bmp-catalog"
+   ],
+   "checked_at": "2026-11-18T14:51:08.581Z",
+   "status": 200,
+   "last_modified": "Wed, 26 Nov 2025 10:15:44 GMT",
+   "etag": "\"6926d350-2156f08\"",
+   "length": "34959112"
+  },
+  "https://public.powerdms.com/IDOT/documents/2084523": {
+   "url": "https://public.powerdms.com/IDOT/documents/2084523",
+   "slugs": [
+    "il-idot-drainage"
+   ],
+   "checked_at": "2026-11-18T14:51:08.860Z",
+   "status": 200,
+   "last_modified": null,
+   "etag": "\"a7d213ed1b626c6f2564e058ef73de0474d32d8eb92c85072dbbd3081e7996bb\"",
+   "length": "0"
+  },
+  "http://www.aiswcd.org/wp-content/uploads/2013/06/IUM_June20131.pdf": {
+   "url": "http://www.aiswcd.org/wp-content/uploads/2013/06/IUM_June20131.pdf",
+   "slugs": [
+    "il-iepa-stormwater"
+   ],
+   "checked_at": "2026-11-18T14:51:09.275Z",
+   "status": 200,
+   "last_modified": "Mon, 23 Feb 2026 21:47:08 GMT",
+   "etag": "\"685350f5da5dc1:0\"",
+   "length": "1173070"
+  },
+  "https://www.in.gov/dot/div/contracts/design/Part%202/Chapter%20203%20-%20Hydraulics%20and%20Drainage%20Design.pdf": {
+   "url": "https://www.in.gov/dot/div/contracts/design/Part%202/Chapter%20203%20-%20Hydraulics%20and%20Drainage%20Design.pdf",
+   "slugs": [
+    "in-indot-drainage"
+   ],
+   "checked_at": "2026-11-18T14:51:09.449Z",
+   "status": 200,
+   "last_modified": "Fri, 20 Mar 2026 17:13:14 GMT",
+   "etag": "\"4db11c-64d77cce0de80\"",
+   "length": "5091612"
+  },
+  "https://www.marc.org/sites/default/files/2022-05/Best_Management_Practices_for_Stormwater_Quality.pdf": {
+   "url": "https://www.marc.org/sites/default/files/2022-05/Best_Management_Practices_for_Stormwater_Quality.pdf",
+   "slugs": [
+    "independence-mo",
+    "kansas-city-marc-bmp"
+   ],
+   "checked_at": "2026-11-18T14:51:09.682Z",
+   "status": 200,
+   "last_modified": "Mon, 02 May 2022 18:33:56 GMT",
+   "etag": "\"abf90e-5de0ba2822d00\"",
+   "length": "11270414"
+  },
+  "https://www.jacksonville.gov/getContentAsset/f2c6099d-cdf0-40da-b6a9-43e4c734282e/135b97c9-84fa-4e82-b956-0fbccec4aa1f/LDPM-Vol2-EFF-2026-01-30-CLEAN-ADA-508.pdf?language=en": {
+   "url": "https://www.jacksonville.gov/getContentAsset/f2c6099d-cdf0-40da-b6a9-43e4c734282e/135b97c9-84fa-4e82-b956-0fbccec4aa1f/LDPM-Vol2-EFF-2026-01-30-CLEAN-ADA-508.pdf?language=en",
+   "slugs": [
+    "jacksonville-fl"
+   ],
+   "checked_at": "2026-11-18T14:51:09.900Z",
+   "status": 200,
+   "last_modified": "Thu, 28 May 2026 19:58:26 GMT",
+   "etag": "\"639155807061382332\"",
+   "length": "6105289"
+  },
+  "https://dnr.mo.gov/sites/dnr/files/vfc/2023/05/main/pub2446-mo-guide-to-green-infrastructure_1.pdf": {
+   "url": "https://dnr.mo.gov/sites/dnr/files/vfc/2023/05/main/pub2446-mo-guide-to-green-infrastructure_1.pdf",
+   "slugs": [
+    "jefferson-city-mo",
+    "missouri-manual"
+   ],
+   "checked_at": "2026-11-18T14:51:10.100Z",
+   "status": 200,
+   "last_modified": "Wed, 24 May 2023 20:21:34 GMT",
+   "etag": null,
+   "length": "18646851"
+  },
+  "https://jcmua.com/wp-content/uploads/2025/04/Jersey-City-Stormwater-Management-Plan.pdf": {
+   "url": "https://jcmua.com/wp-content/uploads/2025/04/Jersey-City-Stormwater-Management-Plan.pdf",
+   "slugs": [
+    "jersey-city-nj"
+   ],
+   "checked_at": "2026-11-18T14:51:10.282Z",
+   "status": 200,
+   "last_modified": "Wed, 16 Apr 2025 23:49:33 GMT",
+   "etag": "\"6800420d-35b02fe\"",
+   "length": "56296190"
+  },
+  "https://apps.ecology.wa.gov/publications/documents/2410014.pdf": {
+   "url": "https://apps.ecology.wa.gov/publications/documents/2410014.pdf",
+   "slugs": [
+    "kennewick-wa"
+   ],
+   "checked_at": "2026-11-18T14:51:10.413Z",
+   "status": 200,
+   "last_modified": null,
+   "etag": null,
+   "length": "58916519"
+  },
+  "https://transportation.ky.gov/EnvironmentalAnalysis/Environmental%20Resources/KY%20BMP%20Manual%20Section%201.pdf": {
+   "url": "https://transportation.ky.gov/EnvironmentalAnalysis/Environmental%20Resources/KY%20BMP%20Manual%20Section%201.pdf",
+   "slugs": [
+    "kentucky-bmp"
+   ],
+   "checked_at": "2026-11-18T14:51:10.990Z",
+   "status": 200,
+   "last_modified": "Thu, 08 Jun 2017 14:15:19 GMT",
+   "etag": "\"{7B32BEE5-D3D7-4F8D-88D7-A5ADFE92D267},5\"",
+   "length": "5037081"
+  },
+  "https://www.killeentexas.gov/DocumentCenter/View/562": {
+   "url": "https://www.killeentexas.gov/DocumentCenter/View/562",
+   "slugs": [
+    "killeen-tx"
+   ],
+   "checked_at": "2026-11-18T14:51:11.451Z",
+   "status": 404,
+   "last_modified": null,
+   "etag": null,
+   "length": "105248"
+  },
+  "https://your.kingcounty.gov/dnrp/library/water-and-land/stormwater/surface-water-design-manual/2021/amended-2024/2021-kcswdm-amended-2024-full-manual.pdf": {
+   "url": "https://your.kingcounty.gov/dnrp/library/water-and-land/stormwater/surface-water-design-manual/2021/amended-2024/2021-kcswdm-amended-2024-full-manual.pdf",
+   "slugs": [
+    "king-county-wa"
+   ],
+   "checked_at": "2026-11-18T14:51:11.780Z",
+   "status": 200,
+   "last_modified": "Wed, 13 Nov 2024 22:31:41 GMT",
+   "etag": "\"eadaf0cf1b36db1:0\"",
+   "length": "30938067"
+  },
+  "https://cdnsm5-hosted.civiclive.com/UserFiles/Servers/Server_109478/File/Engineering/BMPManual/KnoxvilleBMP.pdf": {
+   "url": "https://cdnsm5-hosted.civiclive.com/UserFiles/Servers/Server_109478/File/Engineering/BMPManual/KnoxvilleBMP.pdf",
+   "slugs": [
+    "knoxville-tn"
+   ],
+   "checked_at": "2026-11-18T14:51:12.077Z",
+   "status": 200,
+   "last_modified": "Wed, 18 Nov 2026 14:51:12 GMT",
+   "etag": null,
+   "length": null
+  },
+  "https://www.ksdot.gov/home/showpublisheddocument/858/638942965857170000": {
+   "url": "https://www.ksdot.gov/home/showpublisheddocument/858/638942965857170000",
+   "slugs": [
+    "ks-kdot-drainage"
+   ],
+   "checked_at": "2026-11-18T14:51:12.568Z",
+   "status": 403,
+   "last_modified": null,
+   "etag": null,
+   "length": "466"
+  },
+  "https://transportation.ky.gov/Highway-Design/Drainage%20Manual/DR%20100%20Introduction%20(Draft).pdf": {
+   "url": "https://transportation.ky.gov/Highway-Design/Drainage%20Manual/DR%20100%20Introduction%20(Draft).pdf",
+   "slugs": [
+    "ky-kytc-drainage"
+   ],
+   "checked_at": "2026-11-18T14:51:12.964Z",
+   "status": 200,
+   "last_modified": "Mon, 08 Jan 2024 21:32:17 GMT",
+   "etag": "\"{44A5FE6E-E6A3-45DD-BC06-C160052CFFEC},7\"",
+   "length": "1125084"
+  },
+  "https://dotd.la.gov/media/gyzjm1fu/hydraulics-manual.pdf": {
+   "url": "https://dotd.la.gov/media/gyzjm1fu/hydraulics-manual.pdf",
+   "slugs": [
+    "la-ladotd-drainage"
+   ],
+   "checked_at": "2026-11-18T14:51:13.439Z",
+   "status": 200,
+   "last_modified": "Tue, 08 Apr 2025 06:20:51 GMT",
+   "etag": "\"1dba84e6036dca4\"",
+   "length": "3882788"
+  },
+  "https://cityoflacey.org/wp-content/uploads/sites/3/2022/04/2010_lacey_stormwater_design_manual_chapters_1-5.pdf": {
+   "url": "https://cityoflacey.org/wp-content/uploads/sites/3/2022/04/2010_lacey_stormwater_design_manual_chapters_1-5.pdf",
+   "slugs": [
+    "lacey-wa"
+   ],
+   "checked_at": "2026-11-18T14:51:13.744Z",
+   "status": 200,
+   "last_modified": "Fri, 17 Apr 2026 19:24:44 GMT",
+   "etag": "\"69e288fc-2c630a\"",
+   "length": "2908938"
+  },
+  "https://www.shreveportla.gov/DocumentCenter/View/29000": {
+   "url": "https://www.shreveportla.gov/DocumentCenter/View/29000",
+   "slugs": [
+    "lafayette-la",
+    "shreveport-la"
+   ],
+   "checked_at": "2026-11-18T14:51:13.959Z",
+   "status": 404,
+   "last_modified": null,
+   "etag": null,
+   "length": "103140"
+  },
+  "https://www.swfwmd.state.fl.us/sites/default/files/medias/documents/SWFWMD%20AHVII%20with%20Appendices-Adopted%20on%2010-31-25.pdf": {
+   "url": "https://www.swfwmd.state.fl.us/sites/default/files/medias/documents/SWFWMD%20AHVII%20with%20Appendices-Adopted%20on%2010-31-25.pdf",
+   "slugs": [
+    "lakeland-fl"
+   ],
+   "checked_at": "2026-11-18T14:51:14.269Z",
+   "status": 206,
+   "last_modified": "Fri, 07 Nov 2025 20:19:42 GMT",
+   "etag": "\"690e545e-417bbd\"",
+   "length": "4291517"
+  },
+  "https://www.cityoflancasterpa.gov/wp-content/uploads/2020/10/SWMF-Policies-and-Procedures-2023.pdf": {
+   "url": "https://www.cityoflancasterpa.gov/wp-content/uploads/2020/10/SWMF-Policies-and-Procedures-2023.pdf",
+   "slugs": [
+    "lancaster-pa-swmf"
+   ],
+   "checked_at": "2026-11-18T14:51:14.651Z",
+   "status": 200,
+   "last_modified": "Fri, 23 Jun 2023 13:54:14 GMT",
+   "etag": "\"6495a406-99af5\"",
+   "length": "629493"
+  },
+  "https://www.cityoflancasterpa.gov/wp-content/uploads/2021/01/2024-6-21_Lancaster-SW-Guidance-Manual_FINAL.pdf": {
+   "url": "https://www.cityoflancasterpa.gov/wp-content/uploads/2021/01/2024-6-21_Lancaster-SW-Guidance-Manual_FINAL.pdf",
+   "slugs": [
+    "lancaster-pa"
+   ],
+   "checked_at": "2026-11-18T14:51:14.805Z",
+   "status": 200,
+   "last_modified": "Thu, 27 Jun 2024 13:15:46 GMT",
+   "etag": "\"667d6602-20189e3\"",
+   "length": "33655267"
+  },
+  "https://gustfront.ccrfcd.org/pdf_arch1/hcddm/current%20manual%20(complete)/hcddm.pdf": {
+   "url": "https://gustfront.ccrfcd.org/pdf_arch1/hcddm/current%20manual%20(complete)/hcddm.pdf",
+   "slugs": [
+    "las-vegas-nv"
+   ],
+   "checked_at": "2026-11-18T14:51:14.880Z",
+   "status": 200,
+   "last_modified": "Thu, 15 Oct 2015 20:27:18 GMT",
+   "etag": "\"106436e3877d11:0\"",
+   "length": "8229593"
+  },
+  "https://lawrenceks.gov/wp-content/uploads/2025/03/Stormwater-Management-Criteria-2025-1.pdf": {
+   "url": "https://lawrenceks.gov/wp-content/uploads/2025/03/Stormwater-Management-Criteria-2025-1.pdf",
+   "slugs": [
+    "lawrence-ks"
+   ],
+   "checked_at": "2026-11-18T14:51:15.290Z",
+   "status": 404,
+   "last_modified": null,
+   "etag": null,
+   "length": "342"
+  },
+  "https://content.lexingtonky.gov/sites/default/files/2026-04/LFUCG%20Stormwater%20Manual%2005.01.26.pdf": {
+   "url": "https://content.lexingtonky.gov/sites/default/files/2026-04/LFUCG%20Stormwater%20Manual%2005.01.26.pdf",
+   "slugs": [
+    "lexington-ky"
+   ],
+   "checked_at": "2026-11-18T14:51:16.025Z",
+   "status": 200,
+   "last_modified": "Wed, 15 Apr 2026 21:04:01 GMT",
+   "etag": "\"69dffd41-89a526\"",
+   "length": "9020710"
+  },
+  "https://www.lincoln.ne.gov/files/sharedassets/public/v/1/ltu/utilities/watershed-management/best-management-practices/bmp-guidelines.pdf": {
+   "url": "https://www.lincoln.ne.gov/files/sharedassets/public/v/1/ltu/utilities/watershed-management/best-management-practices/bmp-guidelines.pdf",
+   "slugs": [
+    "lincoln-ne"
+   ],
+   "checked_at": "2026-11-18T14:51:16.260Z",
+   "status": 200,
+   "last_modified": "Wed, 26 Feb 2025 09:22:08 GMT",
+   "etag": "\"73ce881f-e04c-4774-8bf9-85bbf293e9b2\"",
+   "length": "16118775"
+  },
+  "https://www.waterboards.ca.gov/rwqcb4/water_issues/programs/stormwater/municipal/ms4_permits/long_beach/2014/LIDBMPManual-2ndEd(FINAL)120413.pdf": {
+   "url": "https://www.waterboards.ca.gov/rwqcb4/water_issues/programs/stormwater/municipal/ms4_permits/long_beach/2014/LIDBMPManual-2ndEd(FINAL)120413.pdf",
+   "slugs": [
+    "long-beach-ca"
+   ],
+   "checked_at": "2026-11-18T14:51:16.577Z",
+   "status": 200,
+   "last_modified": "Fri, 07 Nov 2014 23:24:00 GMT",
+   "etag": "\"3613a2-5074d1b924400\"",
+   "length": "3543970"
+  },
+  "https://dpw.lacounty.gov/ldd/lddservices/docs/Low_Impact_Development_Standards_Manual.pdf": {
+   "url": "https://dpw.lacounty.gov/ldd/lddservices/docs/Low_Impact_Development_Standards_Manual.pdf",
+   "slugs": [
+    "los-angeles-ca"
+   ],
+   "checked_at": "2026-11-18T14:51:16.998Z",
+   "status": 200,
+   "last_modified": "Mon, 19 Oct 2026 15:24:34 GMT",
+   "etag": "\"0e5caf1dd5fdd1:0\"",
+   "length": "8262843"
+  },
+  "https://louisvillemsd.org/sites/default/files/inline-files/designmanual_rev%2006-29-2021_0.pdf": {
+   "url": "https://louisvillemsd.org/sites/default/files/inline-files/designmanual_rev%2006-29-2021_0.pdf",
+   "slugs": [
+    "louisville-ky"
+   ],
+   "checked_at": "2026-11-18T14:51:17.389Z",
+   "status": 200,
+   "last_modified": "Tue, 27 Sep 2022 15:18:51 GMT",
+   "etag": "\"6333145b-34ed658\"",
+   "length": "55498328"
+  },
+  "https://www.mylubbock.us/DocumentCenter/View/1563/Drainage-Criteria-Manual-PDF": {
+   "url": "https://www.mylubbock.us/DocumentCenter/View/1563/Drainage-Criteria-Manual-PDF",
+   "slugs": [
+    "lubbock-tx"
+   ],
+   "checked_at": "2026-11-18T14:51:18.247Z",
+   "status": 403,
+   "last_modified": null,
+   "etag": null,
+   "length": null
+  },
+  "https://www.acecma.org/wp-content/uploads/MassDOT_StormwaterDesignGuide_FINAL_508c.pdf": {
+   "url": "https://www.acecma.org/wp-content/uploads/MassDOT_StormwaterDesignGuide_FINAL_508c.pdf",
+   "slugs": [
+    "ma-massdot-drainage"
+   ],
+   "checked_at": "2026-11-18T14:51:18.428Z",
+   "status": 200,
+   "last_modified": "Wed, 30 Apr 2025 20:03:39 GMT",
+   "etag": "\"6812821b-336101a\"",
+   "length": "53874714"
+  },
+  "https://mcclibraryfunctions.azurewebsites.us/api/ordinanceDownload/50000/1346594/pdf": {
+   "url": "https://mcclibraryfunctions.azurewebsites.us/api/ordinanceDownload/50000/1346594/pdf",
+   "slugs": [
+    "madison-wi"
+   ],
+   "checked_at": "2026-11-18T14:51:18.751Z",
+   "status": 404,
+   "last_modified": null,
+   "etag": null,
+   "length": null
+  },
+  "https://www.esd.maricopa.gov/DocumentCenter/View/2369/Drainage-Policies-and-Standards-Manual-for-Maricopa-County---revised-112025-PDF": {
+   "url": "https://www.esd.maricopa.gov/DocumentCenter/View/2369/Drainage-Policies-and-Standards-Manual-for-Maricopa-County---revised-112025-PDF",
+   "slugs": [
+    "maricopa-county-az",
+    "yuma-az"
+   ],
+   "checked_at": "2026-11-18T14:51:18.983Z",
+   "status": 200,
+   "last_modified": "Wed, 18 Nov 2026 14:51:19 GMT",
+   "etag": null,
+   "length": "4862773"
+  },
+  "https://www.mcallen.net/docs/default-source/engineering-files/standard_design_guide_july_2021.pdf?sfvrsn=2": {
+   "url": "https://www.mcallen.net/docs/default-source/engineering-files/standard_design_guide_july_2021.pdf?sfvrsn=2",
+   "slugs": [
+    "mcallen-tx"
+   ],
+   "checked_at": "2026-11-18T14:51:19.312Z",
+   "status": 200,
+   "last_modified": "Mon, 09 Dec 2024 16:54:44 GMT",
+   "etag": null,
+   "length": "2096735"
+  },
+  "https://www.mckinneytexas.org/DocumentCenter/View/16490/McKinney-Engineering-Design-Manual---Proposed-Rev-6-20241119": {
+   "url": "https://www.mckinneytexas.org/DocumentCenter/View/16490/McKinney-Engineering-Design-Manual---Proposed-Rev-6-20241119",
+   "slugs": [
+    "mckinney-tx"
+   ],
+   "checked_at": "2026-11-18T14:51:19.732Z",
+   "status": 403,
+   "last_modified": null,
+   "etag": null,
+   "length": null
+  },
+  "https://roads.maryland.gov/ohd2/MDOTSHADrainageManual.pdf": {
+   "url": "https://roads.maryland.gov/ohd2/MDOTSHADrainageManual.pdf",
+   "slugs": [
+    "md-sha-drainage"
+   ],
+   "checked_at": "2026-11-18T14:51:19.979Z",
+   "status": 200,
+   "last_modified": "Fri, 06 Mar 2026 19:30:36 GMT",
+   "etag": "\"{D122E04E-7B3A-4849-AC73-3C9225A2E247},1\"",
+   "length": "6626287"
+  },
+  "https://www.maine.gov/tools/whatsnew/attach.php?id=816916&an=1": {
+   "url": "https://www.maine.gov/tools/whatsnew/attach.php?id=816916&an=1",
+   "slugs": [
+    "me-dot-drainage"
+   ],
+   "checked_at": "2026-11-18T14:51:20.532Z",
+   "status": 200,
+   "last_modified": null,
+   "etag": null,
+   "length": "417588"
+  },
+  "https://www.shelbycountytn.gov/DocumentCenter/View/34048/Volume-1-Policy-Manual": {
+   "url": "https://www.shelbycountytn.gov/DocumentCenter/View/34048/Volume-1-Policy-Manual",
+   "slugs": [
+    "memphis-tn"
+   ],
+   "checked_at": "2026-11-18T14:51:20.846Z",
+   "status": 403,
+   "last_modified": null,
+   "etag": null,
+   "length": null
+  },
+  "https://www.mesaaz.gov/files/assets/public/v/1/business-development/engineering/designstandards/2022engdesignstandards.pdf": {
+   "url": "https://www.mesaaz.gov/files/assets/public/v/1/business-development/engineering/designstandards/2022engdesignstandards.pdf",
+   "slugs": [
+    "mesa-az"
+   ],
+   "checked_at": "2026-11-18T14:51:21.168Z",
+   "status": 200,
+   "last_modified": "Wed, 05 Mar 2025 09:43:51 GMT",
+   "etag": "\"0113ddda-0507-4507-9180-6fad803dcef1\"",
+   "length": "6136522"
+  },
+  "https://www.cityofmesquite.com/DocumentCenter/View/13132": {
+   "url": "https://www.cityofmesquite.com/DocumentCenter/View/13132",
+   "slugs": [
+    "mesquite-tx"
+   ],
+   "checked_at": "2026-11-18T14:51:21.405Z",
+   "status": 404,
+   "last_modified": null,
+   "etag": null,
+   "length": "261666"
+  },
+  "https://www.michigan.gov/mdot/-/media/Project/Websites/MDOT/Business/Design/Drainage-Manual/MDOT-MS4-Chap-07-Drainage-Manual.pdf": {
+   "url": "https://www.michigan.gov/mdot/-/media/Project/Websites/MDOT/Business/Design/Drainage-Manual/MDOT-MS4-Chap-07-Drainage-Manual.pdf",
+   "slugs": [
+    "mi-mdot-drainage"
+   ],
+   "checked_at": "2026-11-18T14:51:21.542Z",
+   "status": 403,
+   "last_modified": null,
+   "etag": null,
+   "length": "541"
+  },
+  "https://www.kalcounty.gov/DocumentCenter/View/2059/EGLE-Nonpoint-Source-Best-Management-Practices-Manual-PDF": {
+   "url": "https://www.kalcounty.gov/DocumentCenter/View/2059/EGLE-Nonpoint-Source-Best-Management-Practices-Manual-PDF",
+   "slugs": [
+    "michigan-manual"
+   ],
+   "checked_at": "2026-11-18T14:51:21.794Z",
+   "status": 403,
+   "last_modified": null,
+   "etag": null,
+   "length": null
+  },
+  "https://www.mmsd.com/application/files/9515/9621/1174/Chapter_13_July_2020.pdf": {
+   "url": "https://www.mmsd.com/application/files/9515/9621/1174/Chapter_13_July_2020.pdf",
+   "slugs": [
+    "milwaukee-wi"
+   ],
+   "checked_at": "2026-11-18T14:51:21.982Z",
+   "status": 200,
+   "last_modified": "Fri, 31 Jul 2020 15:59:34 GMT",
+   "etag": null,
+   "length": "268171"
+  },
+  "https://www2.minneapolismn.gov/media/content-assets/www2-documents/government/Stormwater-and-Sanitary-Sewer-Guide.pdf": {
+   "url": "https://www2.minneapolismn.gov/media/content-assets/www2-documents/government/Stormwater-and-Sanitary-Sewer-Guide.pdf",
+   "slugs": [
+    "minneapolis-mn"
+   ],
+   "checked_at": "2026-11-18T14:51:22.210Z",
+   "status": 200,
+   "last_modified": "Wed, 16 Jul 2025 04:32:39 GMT",
+   "etag": "\"4f030e-63a0462062510\"",
+   "length": "5178126"
+  },
+  "https://edocs-public.dot.state.mn.us/edocs_public/DMResultSet/download?docId=26996068": {
+   "url": "https://edocs-public.dot.state.mn.us/edocs_public/DMResultSet/download?docId=26996068",
+   "slugs": [
+    "mn-mndot-drainage"
+   ],
+   "checked_at": "2026-11-18T14:51:22.380Z",
+   "status": 404,
+   "last_modified": null,
+   "etag": null,
+   "length": "2913"
+  },
+  "https://mapformobile.org/wp/wp-content/uploads/2023/10/City-of-Mobile-LID-Design-Manual.pdf": {
+   "url": "https://mapformobile.org/wp/wp-content/uploads/2023/10/City-of-Mobile-LID-Design-Manual.pdf",
+   "slugs": [
+    "mobile-al"
+   ],
+   "checked_at": "2026-11-18T14:51:22.680Z",
+   "status": 200,
+   "last_modified": "Mon, 16 Oct 2023 19:52:54 GMT",
+   "etag": "\"d34b4e-652d9496-0;;;\"",
+   "length": "13847374"
+  },
+  "https://mdot.ms.gov/documents/Roadway%20Design/Standards/Manuals/MDOT%20Roadway%20Design%20Drainage%20Manual%20-%20NOVEMBER%202025.pdf": {
+   "url": "https://mdot.ms.gov/documents/Roadway%20Design/Standards/Manuals/MDOT%20Roadway%20Design%20Drainage%20Manual%20-%20NOVEMBER%202025.pdf",
+   "slugs": [
+    "ms-mdot-drainage"
+   ],
+   "checked_at": "2026-11-18T14:51:22.969Z",
+   "status": 200,
+   "last_modified": "Wed, 03 Dec 2025 15:49:03 GMT",
+   "etag": "\"f6a899596c64dc1:0\"",
+   "length": "13651743"
+  },
+  "https://www.mdt.mt.gov/other/webdata/external/hydraulics/manuals/Chapter-09-Hydrology.pdf": {
+   "url": "https://www.mdt.mt.gov/other/webdata/external/hydraulics/manuals/Chapter-09-Hydrology.pdf",
+   "slugs": [
+    "mt-mdt-drainage"
+   ],
+   "checked_at": "2026-11-18T14:51:23.097Z",
+   "status": 200,
+   "last_modified": "Tue, 30 Jun 2026 14:08:00 GMT",
+   "etag": "\"e8723fdc998dd1:0\"",
+   "length": "1398489"
+  },
+  "https://www.murfreesborotn.gov/DocumentCenter/View/420/Stormwater-Planning-and-Low-Impact-Design-Guide": {
+   "url": "https://www.murfreesborotn.gov/DocumentCenter/View/420/Stormwater-Planning-and-Low-Impact-Design-Guide",
+   "slugs": [
+    "murfreesboro-tn"
+   ],
+   "checked_at": "2026-11-18T14:51:23.593Z",
+   "status": 403,
+   "last_modified": null,
+   "etag": null,
+   "length": null
+  },
+  "https://connect.ncdot.gov/resources/hydro/DrainageStudiesGuidelines/2022%20Guidelines%20for%20Drainage%20Studies%20and%20Hydraulic%20Design.pdf": {
+   "url": "https://connect.ncdot.gov/resources/hydro/DrainageStudiesGuidelines/2022%20Guidelines%20for%20Drainage%20Studies%20and%20Hydraulic%20Design.pdf",
+   "slugs": [
+    "nc-ncdot-drainage"
+   ],
+   "checked_at": "2026-11-18T14:51:23.821Z",
+   "status": 200,
+   "last_modified": "Wed, 21 Jun 2023 16:39:10 GMT",
+   "etag": "\"{ADC34085-97CF-4395-9660-76B05EA761BA},19pub\"",
+   "length": "12058358"
+  },
+  "https://www.dot.nd.gov/sites/www/files/documents/Design/Chapter%205.pdf": {
+   "url": "https://www.dot.nd.gov/sites/www/files/documents/Design/Chapter%205.pdf",
+   "slugs": [
+    "nd-nddot-drainage"
+   ],
+   "checked_at": "2026-11-18T14:51:24.127Z",
+   "status": 200,
+   "last_modified": "Wed, 22 Apr 2026 22:57:21 GMT",
+   "etag": "\"3ce086-65014745720e9\"",
+   "length": "3989638"
+  },
+  "https://dot.nebraska.gov/media/fhpdgmi4/f-chapter-3-stormwater-treatment.pdf": {
+   "url": "https://dot.nebraska.gov/media/fhpdgmi4/f-chapter-3-stormwater-treatment.pdf",
+   "slugs": [
+    "ne-ndot-stf"
+   ],
+   "checked_at": "2026-11-18T14:51:24.448Z",
+   "status": 200,
+   "last_modified": "Wed, 08 Apr 2026 18:46:27 GMT",
+   "etag": "\"1dcc788019f05bc\"",
+   "length": "1017404"
+  },
+  "https://www.landcan.org/pdfs/Bayou_Land_Guidance_NO_BMP.176113438.pdf": {
+   "url": "https://www.landcan.org/pdfs/Bayou_Land_Guidance_NO_BMP.176113438.pdf",
+   "slugs": [
+    "new-orleans-jefferson-la"
+   ],
+   "checked_at": "2026-11-18T14:51:24.805Z",
+   "status": 200,
+   "last_modified": "Thu, 30 Nov 2023 01:24:06 GMT",
+   "etag": "\"1473de92b23da1:0\"",
+   "length": "8388608"
+  },
+  "https://www.dot.nh.gov/sites/g/files/ehbemt811/files/inline-documents/manual-drainage-design.pdf": {
+   "url": "https://www.dot.nh.gov/sites/g/files/ehbemt811/files/inline-documents/manual-drainage-design.pdf",
+   "slugs": [
+    "nh-nhdot-drainage"
+   ],
+   "checked_at": "2026-11-18T14:51:25.086Z",
+   "status": 200,
+   "last_modified": "Thu, 12 Oct 2023 15:04:12 GMT",
+   "etag": null,
+   "length": "6420069"
+  },
+  "https://www.nj.gov/transportation/eng/documents/SEM/pdf/DrainageDesignManual2006s.pdf": {
+   "url": "https://www.nj.gov/transportation/eng/documents/SEM/pdf/DrainageDesignManual2006s.pdf",
+   "slugs": [
+    "nj-njdot-drainage"
+   ],
+   "checked_at": "2026-11-18T14:51:25.402Z",
+   "status": 200,
+   "last_modified": "Tue, 08 Apr 2014 12:28:08 GMT",
+   "etag": "\"5098f1-5343eb58\"",
+   "length": "5282033"
+  },
+  "https://api.realfile.rtsclients.com/PublicFiles/f260a66b364d453e91ff9b3fedd494dc/ae005670-a671-480e-9c33-0e37cf2f6b82/Drainage%20Design%20Manual%202018.pdf": {
+   "url": "https://api.realfile.rtsclients.com/PublicFiles/f260a66b364d453e91ff9b3fedd494dc/ae005670-a671-480e-9c33-0e37cf2f6b82/Drainage%20Design%20Manual%202018.pdf",
+   "slugs": [
+    "nm-nmdot-drainage"
+   ],
+   "checked_at": "2026-11-18T14:51:25.567Z",
+   "status": 206,
+   "last_modified": "Wed, 09 Jun 2021 19:38:03 GMT",
+   "etag": "\"374549554fc5e2eb6a74214934025012-8\"",
+   "length": "38156490"
+  },
+  "https://norfolk.gov/DocumentCenter/View/88177/Norfolk-Design-and-Construction-Manual_7-01-2024": {
+   "url": "https://norfolk.gov/DocumentCenter/View/88177/Norfolk-Design-and-Construction-Manual_7-01-2024",
+   "slugs": [
+    "norfolk-va"
+   ],
+   "checked_at": "2026-11-18T14:51:26.522Z",
+   "status": 404,
+   "last_modified": null,
+   "etag": null,
+   "length": "100486"
+  },
+  "https://nlr.ar.gov/download/629/plans-and-specs/18083/nlr-stormwater-best-management-practices-v20251017.pdf": {
+   "url": "https://nlr.ar.gov/download/629/plans-and-specs/18083/nlr-stormwater-best-management-practices-v20251017.pdf",
+   "slugs": [
+    "north-little-rock-ar"
+   ],
+   "checked_at": "2026-11-18T14:51:26.748Z",
+   "status": 200,
+   "last_modified": null,
+   "etag": null,
+   "length": null
+  },
+  "https://www.dec.ny.gov/fs/docs/pdf/erosionsediment_bluebook.pdf": {
+   "url": "https://www.dec.ny.gov/fs/docs/pdf/erosionsediment_bluebook.pdf",
+   "slugs": [
+    "ny-bluebook"
+   ],
+   "checked_at": "2026-11-18T14:51:27.883Z",
+   "status": 200,
+   "last_modified": "Wed, 28 Jun 2023 19:55:19 GMT",
+   "etag": "\"13370b2-5ff35f69717c0\"",
+   "length": "20148402"
+  },
+  "https://www.dot.ny.gov/divisions/engineering/design/dqab/hdm/hdm-repository/chapt_08.pdf": {
+   "url": "https://www.dot.ny.gov/divisions/engineering/design/dqab/hdm/hdm-repository/chapt_08.pdf",
+   "slugs": [
+    "ny-nysdot-drainage"
+   ],
+   "checked_at": "2026-11-18T14:51:28.294Z",
+   "status": 200,
+   "last_modified": null,
+   "etag": null,
+   "length": "10876"
+  },
+  "https://dec.ny.gov/fs/projects/24-25DraftCGPDesignManual/Manual.SW.CGP.2024-07-31.Design_Manual_Issued_2024-07-31.pdf": {
+   "url": "https://dec.ny.gov/fs/projects/24-25DraftCGPDesignManual/Manual.SW.CGP.2024-07-31.Design_Manual_Issued_2024-07-31.pdf",
+   "slugs": [
+    "ny-state"
+   ],
+   "checked_at": "2026-11-18T14:51:28.606Z",
+   "status": 200,
+   "last_modified": "Tue, 23 Jul 2024 14:04:04 GMT",
+   "etag": "\"1385569-61deaa25fbd00\"",
+   "length": "20469097"
+  },
+  "https://www.nyc.gov/assets/dep/downloads/pdf/water/stormwater/unified-stormwater-rule/uswr_nyc_stormwater_manual.pdf": {
+   "url": "https://www.nyc.gov/assets/dep/downloads/pdf/water/stormwater/unified-stormwater-rule/uswr_nyc_stormwater_manual.pdf",
+   "slugs": [
+    "nyc-ny"
+   ],
+   "checked_at": "2026-11-18T14:51:28.983Z",
+   "status": 200,
+   "last_modified": "Fri, 14 Mar 2025 18:08:48 GMT",
+   "etag": "\"67d470b0-b5129e\"",
+   "length": "11866782"
+  },
+  "https://cao-94612.s3.us-west-2.amazonaws.com/documents/City-of-Oakland-Design-Standards.pdf": {
+   "url": "https://cao-94612.s3.us-west-2.amazonaws.com/documents/City-of-Oakland-Design-Standards.pdf",
+   "slugs": [
+    "oakland-ca"
+   ],
+   "checked_at": "2026-11-18T14:51:29.372Z",
+   "status": 200,
+   "last_modified": "Thu, 01 Nov 2018 20:12:24 GMT",
+   "etag": "\"0f56c7e68d4e5b40c4d9e2570e9cde55\"",
+   "length": "689510"
+  },
+  "https://dam.assets.ohio.gov/image/upload/transportation.ohio.gov/hydraulic/ld2/archive/2022-07-LD2.pdf": {
+   "url": "https://dam.assets.ohio.gov/image/upload/transportation.ohio.gov/hydraulic/ld2/archive/2022-07-LD2.pdf",
+   "slugs": [
+    "oh-odot-drainage"
+   ],
+   "checked_at": "2026-11-18T14:51:29.599Z",
+   "status": 200,
+   "last_modified": "Thu, 20 Feb 2025 17:11:40 GMT",
+   "etag": "\"735c7bbf51a3e0185c651ec345e6cd8c\"",
+   "length": "7576827"
+  },
+  "https://oklahoma.gov/content/dam/ok/en/odot/documents/chapter-10-stormwater-drainage.pdf": {
+   "url": "https://oklahoma.gov/content/dam/ok/en/odot/documents/chapter-10-stormwater-drainage.pdf",
+   "slugs": [
+    "oklahoma-odot-ch10"
+   ],
+   "checked_at": "2026-11-18T14:51:29.933Z",
+   "status": 200,
+   "last_modified": "Thu, 22 Oct 2020 08:08:47 GMT",
+   "etag": "\"9c6973-5b23df93061c0\"",
+   "length": "10250611"
+  },
+  "https://papiopartnership.org/wp-content/uploads/2017/11/post_construction_stormwater_planning.pdf": {
+   "url": "https://papiopartnership.org/wp-content/uploads/2017/11/post_construction_stormwater_planning.pdf",
+   "slugs": [
+    "omaha-ne"
+   ],
+   "checked_at": "2026-11-18T14:51:30.083Z",
+   "status": 200,
+   "last_modified": "Wed, 01 Nov 2017 23:52:24 GMT",
+   "etag": "\"59fa5e38-4443c\"",
+   "length": "279612"
+  },
+  "https://www.oregon.gov/odot/hydraulics/Docs_Hydraulics_Manual/Hydraulics-13.pdf": {
+   "url": "https://www.oregon.gov/odot/hydraulics/Docs_Hydraulics_Manual/Hydraulics-13.pdf",
+   "slugs": [
+    "or-odot-drainage"
+   ],
+   "checked_at": "2026-11-18T14:51:30.364Z",
+   "status": 200,
+   "last_modified": "Thu, 25 Jun 2026 10:47:48 GMT",
+   "etag": "W/\"{45DB2238-429D-46A1-8620-13F5DD813033},14\"",
+   "length": null
+  },
+  "https://pwip.oc.gov/sites/ocpwocip/files/2021-08/OC%20LDM%20-%202nd%20Edition-secured.pdf": {
+   "url": "https://pwip.oc.gov/sites/ocpwocip/files/2021-08/OC%20LDM%20-%202nd%20Edition-secured.pdf",
+   "slugs": [
+    "orange-county-ca"
+   ],
+   "checked_at": "2026-11-18T14:51:30.597Z",
+   "status": 200,
+   "last_modified": "Mon, 23 Aug 2021 16:38:51 GMT",
+   "etag": null,
+   "length": "10516064"
+  },
+  "https://www.canbyoregon.gov/sites/default/files/fileattachments/streets_and_sewer/page/6341/cws_low_impact_development_lid.pdf": {
+   "url": "https://www.canbyoregon.gov/sites/default/files/fileattachments/streets_and_sewer/page/6341/cws_low_impact_development_lid.pdf",
+   "slugs": [
+    "oregon-manual"
+   ],
+   "checked_at": "2026-11-18T14:51:30.926Z",
+   "status": 200,
+   "last_modified": "Thu, 08 Oct 2020 18:50:17 GMT",
+   "etag": "\"1100f7c-5b12d4d9c9708\"",
+   "length": "17829756"
+  },
+  "https://www.orlando.gov/files/sharedassets/public/v/3/documents/engineering/platting/2026_engineeringstandardsmanual.pdf": {
+   "url": "https://www.orlando.gov/files/sharedassets/public/v/3/documents/engineering/platting/2026_engineeringstandardsmanual.pdf",
+   "slugs": [
+    "orlando-fl"
+   ],
+   "checked_at": "2026-11-18T14:51:31.252Z",
+   "status": 200,
+   "last_modified": "Thu, 16 Apr 2026 17:45:01 GMT",
+   "etag": "\"24581aa5-8082-4a17-a8a5-8ccf6ac1adc6\"",
+   "length": "2240170"
+  },
+  "https://content.civicplus.com/api/assets/ks-overlandpark/2e50125c-ea9f-462d-8053-f153e5f23e1c?cache=1800": {
+   "url": "https://content.civicplus.com/api/assets/ks-overlandpark/2e50125c-ea9f-462d-8053-f153e5f23e1c?cache=1800",
+   "slugs": [
+    "overland-park-ks"
+   ],
+   "checked_at": "2026-11-18T14:51:31.576Z",
+   "status": 200,
+   "last_modified": null,
+   "etag": "W/\"0\"",
+   "length": "1448128"
+  },
+  "https://www.wrightstownpa.org/media/1993/pennsylvania_stormwater_best_management_practices_manual.pdf": {
+   "url": "https://www.wrightstownpa.org/media/1993/pennsylvania_stormwater_best_management_practices_manual.pdf",
+   "slugs": [
+    "pa-bmp-2006"
+   ],
+   "checked_at": "2026-11-18T14:51:31.709Z",
+   "status": 200,
+   "last_modified": "Wed, 25 Mar 2026 11:31:00 GMT",
+   "etag": "\"9e81e9da4abcdc1:0\"",
+   "length": "20161027"
+  },
+  "https://www.pa.gov/content/dam/copapwp-pagov/en/penndot/documents/public/pubsforms/publications/pub-584/june%202022-change%201.pdf": {
+   "url": "https://www.pa.gov/content/dam/copapwp-pagov/en/penndot/documents/public/pubsforms/publications/pub-584/june%202022-change%201.pdf",
+   "slugs": [
+    "pa-penndot-drainage"
+   ],
+   "checked_at": "2026-11-18T14:51:32.080Z",
+   "status": 200,
+   "last_modified": "Wed, 22 Jan 2025 19:21:38 GMT",
+   "etag": "\"0x8DD3B19FE678B94\"",
+   "length": "62582358"
+  },
+  "https://www.peoriagov.org/DocumentCenter/View/2575": {
+   "url": "https://www.peoriagov.org/DocumentCenter/View/2575",
+   "slugs": [
+    "peoria-il"
+   ],
+   "checked_at": "2026-11-18T14:51:32.237Z",
+   "status": 404,
+   "last_modified": null,
+   "etag": null,
+   "length": "91999"
+  },
+  "https://water.phila.gov/wp-content/uploads/files/stormwater-management-guidance-manual.pdf": {
+   "url": "https://water.phila.gov/wp-content/uploads/files/stormwater-management-guidance-manual.pdf",
+   "slugs": [
+    "philadelphia-pa"
+   ],
+   "checked_at": "2026-11-18T14:51:32.485Z",
+   "status": 200,
+   "last_modified": "Tue, 07 Jul 2026 21:28:22 GMT",
+   "etag": "\"081e5ed83764d555\"",
+   "length": "153119021"
+  },
+  "https://www.phoenix.gov/content/dam/phoenix/streetssite/documents/swpolicy.pdf": {
+   "url": "https://www.phoenix.gov/content/dam/phoenix/streetssite/documents/swpolicy.pdf",
+   "slugs": [
+    "phoenix-az"
+   ],
+   "checked_at": "2026-11-18T14:51:32.628Z",
+   "status": 200,
+   "last_modified": "Fri, 03 Jan 2025 23:25:35 GMT",
+   "etag": "\"0x8DD2C4DECB84237\"",
+   "length": "2213624"
+  },
+  "https://dot.sd.gov/media/kywakwy4/escontrolsw.pdf": {
+   "url": "https://dot.sd.gov/media/kywakwy4/escontrolsw.pdf",
+   "slugs": [
+    "pierre-sd",
+    "sd-dot-esc",
+    "sioux-falls-sd"
+   ],
+   "checked_at": "2026-11-18T14:51:33.184Z",
+   "status": 200,
+   "last_modified": "Thu, 08 May 2025 21:15:10 GMT",
+   "etag": "\"1dbc05e4785fcb9\"",
+   "length": "3276729"
+  },
+  "https://pinellas.gov/wp-content/uploads/2021/11/Stormwater_Manual.pdf": {
+   "url": "https://pinellas.gov/wp-content/uploads/2021/11/Stormwater_Manual.pdf",
+   "slugs": [
+    "pinellas-county-fl"
+   ],
+   "checked_at": "2026-11-18T14:51:33.368Z",
+   "status": 200,
+   "last_modified": "Tue, 06 Aug 2024 13:49:00 GMT",
+   "etag": "\"66b229cc-1a1a238\"",
+   "length": "27370040"
+  },
+  "https://engage.pittsburghpa.gov/download_file/2830/541": {
+   "url": "https://engage.pittsburghpa.gov/download_file/2830/541",
+   "slugs": [
+    "pittsburgh-pa"
+   ],
+   "checked_at": "2026-11-18T14:51:33.938Z",
+   "status": 200,
+   "last_modified": "Wed, 23 Mar 2022 13:42:54 GMT",
+   "etag": "\"e044431d5ddf17c487a1350173ee0f51\"",
+   "length": "9508312"
+  },
+  "https://content.civicplus.com/api/assets/tx-plano/a66735c2-e8bd-4348-ad5f-fb5dedebdaef/final-city-of-plano-storm-drainage-design-manual-1-.pdf?scope=all&sq=1c8352d3-e41e-89e7-c087-e050ad0bd558": {
+   "url": "https://content.civicplus.com/api/assets/tx-plano/a66735c2-e8bd-4348-ad5f-fb5dedebdaef/final-city-of-plano-storm-drainage-design-manual-1-.pdf?scope=all&sq=1c8352d3-e41e-89e7-c087-e050ad0bd558",
+   "slugs": [
+    "plano-tx"
+   ],
+   "checked_at": "2026-11-18T14:51:35.065Z",
+   "status": 200,
+   "last_modified": null,
+   "etag": "W/\"3\"",
+   "length": "8732237"
+  },
+  "https://www.portland.gov/sites/default/files/policies/enb-4.01-stormwater-management-manual-december-2020.pdf": {
+   "url": "https://www.portland.gov/sites/default/files/policies/enb-4.01-stormwater-management-manual-december-2020.pdf",
+   "slugs": [
+    "portland-or"
+   ],
+   "checked_at": "2026-11-18T14:51:35.251Z",
+   "status": 200,
+   "last_modified": "Fri, 09 Apr 2021 01:29:04 GMT",
+   "etag": "\"606fade0-1c68216\"",
+   "length": "29786646"
+  },
+  "https://www.prescottvalley-az.gov/Documents/Departments/Public%20Works/TOPV%20DrainagePoliciesStandards%202025-02-10.pdf": {
+   "url": "https://www.prescottvalley-az.gov/Documents/Departments/Public%20Works/TOPV%20DrainagePoliciesStandards%202025-02-10.pdf",
+   "slugs": [
+    "prescott-valley-az"
+   ],
+   "checked_at": "2026-11-18T14:51:35.888Z",
+   "status": 200,
+   "last_modified": "Fri, 14 Nov 2025 19:41:46 GMT",
+   "etag": "\"df8775b69e55dc1:0\"",
+   "length": "14088757"
+  },
+  "https://dem.ri.gov/sites/g/files/xkgbur861/files/pubs/regs/regs/water/swmanual15.pdf": {
+   "url": "https://dem.ri.gov/sites/g/files/xkgbur861/files/pubs/regs/regs/water/swmanual15.pdf",
+   "slugs": [
+    "providence-ri"
+   ],
+   "checked_at": "2026-11-18T14:51:36.343Z",
+   "status": 200,
+   "last_modified": "Thu, 28 Apr 2022 19:39:54 GMT",
+   "etag": null,
+   "length": "16770642"
+  },
+  "https://cityofraleigh0drupal.blob.core.usgovcloudapi.net/drupal-prod/COR16/Stormwater%20Design%20Manual.pdf": {
+   "url": "https://cityofraleigh0drupal.blob.core.usgovcloudapi.net/drupal-prod/COR16/Stormwater%20Design%20Manual.pdf",
+   "slugs": [
+    "raleigh-nc"
+   ],
+   "checked_at": "2026-11-18T14:51:36.617Z",
+   "status": 200,
+   "last_modified": "Tue, 14 Jan 2025 22:21:19 GMT",
+   "etag": "0x8DD34E9C4F848D4",
+   "length": "5834388"
+  },
+  "https://www.reno.gov/Documents/Government/Departments/Public%20Works/Engineering%20Standards/Truckee%20Meadows%20Structural%20Controls%20Design%20and%20Low%20Impact%20Development%20Manual.pdf": {
+   "url": "https://www.reno.gov/Documents/Government/Departments/Public%20Works/Engineering%20Standards/Truckee%20Meadows%20Structural%20Controls%20Design%20and%20Low%20Impact%20Development%20Manual.pdf",
+   "slugs": [
+    "reno-nv"
+   ],
+   "checked_at": "2026-11-18T14:51:36.888Z",
+   "status": 200,
+   "last_modified": "Mon, 20 Apr 2026 21:26:07 GMT",
+   "etag": "\"0b5f4dcd1dc1:0\"",
+   "length": "15415673"
+  },
+  "https://www.dot.ri.gov/EnvironmentalDivision/docs/Stormwater/Linearstormwatermanual.pdf": {
+   "url": "https://www.dot.ri.gov/EnvironmentalDivision/docs/Stormwater/Linearstormwatermanual.pdf",
+   "slugs": [
+    "ri-ridot-drainage"
+   ],
+   "checked_at": "2026-11-18T14:51:37.345Z",
+   "status": 200,
+   "last_modified": "Thu, 01 Oct 2026 16:22:14 GMT",
+   "etag": "\"7685415c151dd1:0\"",
+   "length": "36111649"
+  },
+  "https://services.statescape.com/RegsText/StaticDownloads/90765_156853.pdf": {
+   "url": "https://services.statescape.com/RegsText/StaticDownloads/90765_156853.pdf",
+   "slugs": [
+    "ri-state"
+   ],
+   "checked_at": "2026-11-18T14:51:37.606Z",
+   "status": 200,
+   "last_modified": "Tue, 07 Apr 2015 13:23:43 GMT",
+   "etag": "\"216af113671d01:0\"",
+   "length": "16770642"
+  },
+  "https://rva.gov/sites/default/files/2025-07/Richmond%20Water%20Resources%20Guidance%20Manual_Final_6.25.2025.pdf": {
+   "url": "https://rva.gov/sites/default/files/2025-07/Richmond%20Water%20Resources%20Guidance%20Manual_Final_6.25.2025.pdf",
+   "slugs": [
+    "richmond-va"
+   ],
+   "checked_at": "2026-11-18T14:51:37.877Z",
+   "status": 200,
+   "last_modified": "Mon, 14 Jul 2025 19:24:26 GMT",
+   "etag": null,
+   "length": "17311309"
+  },
+  "https://id3464.securedata.net/moreno-valley/departments/public_works/pdf/MV-WQMP.pdf": {
+   "url": "https://id3464.securedata.net/moreno-valley/departments/public_works/pdf/MV-WQMP.pdf",
+   "slugs": [
+    "riverside-county-ca"
+   ],
+   "checked_at": "2026-11-18T14:51:38.366Z",
+   "status": 200,
+   "last_modified": "Wed, 23 Sep 2026 19:37:19 GMT",
+   "etag": "\"2fc739-65c2b9c80141f\"",
+   "length": "3131193"
+  },
+  "https://www.roanokeva.gov/DocumentCenter/View/1181/Chapter-5-Stormwater-Hydrology": {
+   "url": "https://www.roanokeva.gov/DocumentCenter/View/1181/Chapter-5-Stormwater-Hydrology",
+   "slugs": [
+    "roanoke-va"
+   ],
+   "checked_at": "2026-11-18T14:51:38.618Z",
+   "status": 403,
+   "last_modified": null,
+   "etag": null,
+   "length": null
+  },
+  "https://www.rochestermn.gov/media/wauldibk/1999-rochester-storm-water-management-plan.pdf": {
+   "url": "https://www.rochestermn.gov/media/wauldibk/1999-rochester-storm-water-management-plan.pdf",
+   "slugs": [
+    "rochester-mn"
+   ],
+   "checked_at": "2026-11-18T14:51:38.873Z",
+   "status": 200,
+   "last_modified": "Thu, 27 Aug 2026 07:48:07 GMT",
+   "etag": "W/\"1dd35f865f35920\"",
+   "length": null
+  },
+  "https://www.rockfordil.gov/DocumentCenter/View/400": {
+   "url": "https://www.rockfordil.gov/DocumentCenter/View/400",
+   "slugs": [
+    "rockford-il"
+   ],
+   "checked_at": "2026-11-18T14:51:39.095Z",
+   "status": 404,
+   "last_modified": null,
+   "etag": null,
+   "length": "87826"
+  },
+  "https://www.roundrocktexas.gov/wp-content/uploads/2014/12/Drainage-Stormwater-Management-08.pdf": {
+   "url": "https://www.roundrocktexas.gov/wp-content/uploads/2014/12/Drainage-Stormwater-Management-08.pdf",
+   "slugs": [
+    "round-rock-tx"
+   ],
+   "checked_at": "2026-11-18T14:51:39.308Z",
+   "status": 200,
+   "last_modified": "Sat, 10 Jul 2021 02:04:32 GMT",
+   "etag": "\"60e90030-637c\"",
+   "length": "25468"
+  },
+  "https://www.cityofsacramento.gov/content/dam/portal/dou/utilities/development-standards/OnsiteDesignManual.pdf": {
+   "url": "https://www.cityofsacramento.gov/content/dam/portal/dou/utilities/development-standards/OnsiteDesignManual.pdf",
+   "slugs": [
+    "sacramento-ca"
+   ],
+   "checked_at": "2026-11-18T14:51:39.428Z",
+   "status": 200,
+   "last_modified": "Tue, 08 Sep 2026 15:46:30 GMT",
+   "etag": "\"577383-65afaa366a180-gzip\"",
+   "length": null
+  },
+  "https://www.stpaul.gov/sites/default/files/public-works/st-paul-stormwater-management-design-standards-swmdsjanuary-2026.pdf": {
+   "url": "https://www.stpaul.gov/sites/default/files/public-works/st-paul-stormwater-management-design-standards-swmdsjanuary-2026.pdf",
+   "slugs": [
+    "saint-paul-mn"
+   ],
+   "checked_at": "2026-11-18T14:51:39.818Z",
+   "status": 200,
+   "last_modified": "Thu, 29 Jan 2026 21:10:34 GMT",
+   "etag": null,
+   "length": "5812413"
+  },
+  "https://www.cityofsalem.net/home/showpublisheddocument/420/639198930718730000": {
+   "url": "https://www.cityofsalem.net/home/showpublisheddocument/420/639198930718730000",
+   "slugs": [
+    "salem-or"
+   ],
+   "checked_at": "2026-11-18T14:51:40.013Z",
+   "status": 403,
+   "last_modified": null,
+   "etag": null,
+   "length": "470"
+  },
+  "https://www.slcdocs.com/utilities/Stormwater/SaltLakeCity_MS4_UTS000002_SWMP_v2024.1.pdf": {
+   "url": "https://www.slcdocs.com/utilities/Stormwater/SaltLakeCity_MS4_UTS000002_SWMP_v2024.1.pdf",
+   "slugs": [
+    "salt-lake-city-ut"
+   ],
+   "checked_at": "2026-11-18T14:51:40.360Z",
+   "status": 200,
+   "last_modified": "Tue, 13 Feb 2024 05:59:00 GMT",
+   "etag": "\"02a24bd415eda1:0\"",
+   "length": "7086981"
+  },
+  "https://dpw.sbcounty.gov/wp-content/uploads/sites/87/docs/SantaAnaRiver-WQMP-Final-June2013.pdf": {
+   "url": "https://dpw.sbcounty.gov/wp-content/uploads/sites/87/docs/SantaAnaRiver-WQMP-Final-June2013.pdf",
+   "slugs": [
+    "san-bernardino-county-ca"
+   ],
+   "checked_at": "2026-11-18T14:51:40.649Z",
+   "status": 200,
+   "last_modified": "Thu, 23 Jan 2025 18:07:38 GMT",
+   "etag": "\"243b55-62c637c42bc63-gzip\"",
+   "length": null
+  },
+  "https://www.sfpuc.gov/sites/default/files/documents/SMR_DesignGuide_May2016.pdf": {
+   "url": "https://www.sfpuc.gov/sites/default/files/documents/SMR_DesignGuide_May2016.pdf",
+   "slugs": [
+    "san-francisco-ca"
+   ],
+   "checked_at": "2026-11-18T14:51:40.869Z",
+   "status": 200,
+   "last_modified": "Sat, 07 Nov 2020 06:55:04 GMT",
+   "etag": "\"5fa644c8-9bf683\"",
+   "length": "10221187"
+  },
+  "https://scvurppp.org/wp-content/uploads/2024/11/SCVURPPP-C3-Handbook-chapters-2024-Oct-update.pdf": {
+   "url": "https://scvurppp.org/wp-content/uploads/2024/11/SCVURPPP-C3-Handbook-chapters-2024-Oct-update.pdf",
+   "slugs": [
+    "san-jose-ca"
+   ],
+   "checked_at": "2026-11-18T14:51:41.210Z",
+   "status": 200,
+   "last_modified": "Sat, 02 Nov 2024 00:21:28 GMT",
+   "etag": "\"99b108-67257088-cfd722933f098e3f;;;\"",
+   "length": "10072328"
+  },
+  "https://sustainability.santabarbaraca.gov/sites/default/files/documents/Parks%20%26%20Recreation/Creeks/Final%20Guidance%20Manual.pdf": {
+   "url": "https://sustainability.santabarbaraca.gov/sites/default/files/documents/Parks%20%26%20Recreation/Creeks/Final%20Guidance%20Manual.pdf",
+   "slugs": [
+    "santa-barbara-ca"
+   ],
+   "checked_at": "2026-11-18T14:51:41.429Z",
+   "status": 200,
+   "last_modified": "Tue, 11 Feb 2025 00:40:55 GMT",
+   "etag": "\"67aa9c97-9a1aad\"",
+   "length": "10099373"
+  },
+  "https://www.srcity.org/DocumentCenter/View/14974/2017-Storm-Water-Technical-Design-Manual-Narrative-revised-1621": {
+   "url": "https://www.srcity.org/DocumentCenter/View/14974/2017-Storm-Water-Technical-Design-Manual-Narrative-revised-1621",
+   "slugs": [
+    "santa-rosa-ca"
+   ],
+   "checked_at": "2026-11-18T14:51:41.804Z",
+   "status": 403,
+   "last_modified": null,
+   "etag": null,
+   "length": null
+  },
+  "https://documents.atlantaregional.com/gastormwater/Georgia-CSS-Final-Apr-09.pdf": {
+   "url": "https://documents.atlantaregional.com/gastormwater/Georgia-CSS-Final-Apr-09.pdf",
+   "slugs": [
+    "savannah-ga-css"
+   ],
+   "checked_at": "2026-11-18T14:51:42.020Z",
+   "status": 200,
+   "last_modified": "Wed, 17 Aug 2011 14:54:46 GMT",
+   "etag": "\"03fbd9aed5ccc1:0\"",
+   "length": "14568291"
+  },
+  "https://www.scdot.org/content/dam/scdot-legacy/business/pdf/stormwater/SCDOT_SWQDM.pdf": {
+   "url": "https://www.scdot.org/content/dam/scdot-legacy/business/pdf/stormwater/SCDOT_SWQDM.pdf",
+   "slugs": [
+    "sc-scdot-drainage"
+   ],
+   "checked_at": "2026-11-18T14:51:42.243Z",
+   "status": 200,
+   "last_modified": "Tue, 07 May 2024 14:45:58 GMT",
+   "etag": "\"0x8DC6EA46828760A\"",
+   "length": "552762"
+  },
+  "https://ww2.scottsdaleaz.gov/Assets/ScottsdaleAZ/Design/DSPM/DSPM+2018.pdf": {
+   "url": "https://ww2.scottsdaleaz.gov/Assets/ScottsdaleAZ/Design/DSPM/DSPM+2018.pdf",
+   "slugs": [
+    "scottsdale-az"
+   ],
+   "checked_at": "2026-11-18T14:51:42.719Z",
+   "status": 200,
+   "last_modified": "Wed, 21 Feb 2018 00:49:31 GMT",
+   "etag": "\"SJW/7vZ2HmV4Enevcrt9Iw==\"",
+   "length": "18865656"
+  },
+  "https://www.seattle.gov/documents/departments/sdci/codes/stormwatercode/2026stormwatermanualcombined.pdf": {
+   "url": "https://www.seattle.gov/documents/departments/sdci/codes/stormwatercode/2026stormwatermanualcombined.pdf",
+   "slugs": [
+    "seattle-wa-2026"
+   ],
+   "checked_at": "2026-11-18T14:51:42.929Z",
+   "status": 200,
+   "last_modified": "Sat, 14 Nov 2026 11:47:49 GMT",
+   "etag": "\"yS4qimczSefITrhxR/7SgA==\"",
+   "length": "49434854"
+  },
+  "https://www.seattle.gov/documents/Departments/SDCI/Codes/ChangesToCodes/UpdatingStormwaterRegulations/2021SWFullManualFinalClean.pdf": {
+   "url": "https://www.seattle.gov/documents/Departments/SDCI/Codes/ChangesToCodes/UpdatingStormwaterRegulations/2021SWFullManualFinalClean.pdf",
+   "slugs": [
+    "seattle-wa"
+   ],
+   "checked_at": "2026-11-18T14:51:43.218Z",
+   "status": 200,
+   "last_modified": "Sat, 14 Nov 2026 11:09:02 GMT",
+   "etag": "\"pTW0HkSP9nd4YIq9k6dp7w==\"",
+   "length": "14869794"
+  },
+  "https://www.des.sc.gov/sites/des/files/Documents/BOW/Stormwater/BMP/BMPFieldManual.pdf": {
+   "url": "https://www.des.sc.gov/sites/des/files/Documents/BOW/Stormwater/BMP/BMPFieldManual.pdf",
+   "slugs": [
+    "south-carolina-manual"
+   ],
+   "checked_at": "2026-11-18T14:51:43.367Z",
+   "status": 200,
+   "last_modified": "Fri, 13 Feb 2026 16:48:56 GMT",
+   "etag": null,
+   "length": "21947726"
+  },
+  "https://sslc.gov/DocumentCenter/View/475/South-Salt-Lake-Stormwater-Design-Manual-PDF": {
+   "url": "https://sslc.gov/DocumentCenter/View/475/South-Salt-Lake-Stormwater-Design-Manual-PDF",
+   "slugs": [
+    "south-salt-lake-ut"
+   ],
+   "checked_at": "2026-11-18T14:51:43.602Z",
+   "status": 404,
+   "last_modified": null,
+   "etag": null,
+   "length": "97129"
+  },
+  "https://www.spokanecounty.gov/DocumentCenter/View/1640/Spokane-Regional-Stormwater-Manual-PDF": {
+   "url": "https://www.spokanecounty.gov/DocumentCenter/View/1640/Spokane-Regional-Stormwater-Manual-PDF",
+   "slugs": [
+    "spokane-wa"
+   ],
+   "checked_at": "2026-11-18T14:51:43.799Z",
+   "status": 403,
+   "last_modified": null,
+   "etag": null,
+   "length": null
+  },
+  "https://dnr.illinois.gov/content/dam/soi/en/web/dnr/waterresources/documents/il-model-stormwater-ordinance.pdf": {
+   "url": "https://dnr.illinois.gov/content/dam/soi/en/web/dnr/waterresources/documents/il-model-stormwater-ordinance.pdf",
+   "slugs": [
+    "springfield-il"
+   ],
+   "checked_at": "2026-11-18T14:51:43.955Z",
+   "status": 200,
+   "last_modified": "Mon, 20 Apr 2026 19:55:17 GMT",
+   "etag": null,
+   "length": "1239587"
+  },
+  "https://www.springfieldmo.gov/DocumentCenter/View/57515/Flood-Control-and-Water-Quality-Protection-Manual-April-2022": {
+   "url": "https://www.springfieldmo.gov/DocumentCenter/View/57515/Flood-Control-and-Water-Quality-Protection-Manual-April-2022",
+   "slugs": [
+    "springfield-mo"
+   ],
+   "checked_at": "2026-11-18T14:51:44.188Z",
+   "status": 200,
+   "last_modified": "Wed, 18 Nov 2026 14:51:44 GMT",
+   "etag": null,
+   "length": "21890695"
+  },
+  "https://www.rockhillmo.net/sites/g/files/vyhlif1136/f/uploads/site_design_guidance.pdf": {
+   "url": "https://www.rockhillmo.net/sites/g/files/vyhlif1136/f/uploads/site_design_guidance.pdf",
+   "slugs": [
+    "st-louis-mo"
+   ],
+   "checked_at": "2026-11-18T14:51:44.803Z",
+   "status": 404,
+   "last_modified": null,
+   "etag": null,
+   "length": "70759"
+  },
+  "https://www.sjwater.org/Portals/0/ThemePluginPro/uploads/2025/7/1/FULL%20FINAL%20SWQCCP%20Stockton%20SJC%20March%202025_1.pdf": {
+   "url": "https://www.sjwater.org/Portals/0/ThemePluginPro/uploads/2025/7/1/FULL%20FINAL%20SWQCCP%20Stockton%20SJC%20March%202025_1.pdf",
+   "slugs": [
+    "stockton-ca"
+   ],
+   "checked_at": "2026-11-18T14:51:45.053Z",
+   "status": 200,
+   "last_modified": "Tue, 01 Jul 2025 15:59:18 GMT",
+   "etag": "\"cf81f1aa1eadb1:0\"",
+   "length": "12516588"
+  },
+  "https://cms.cityoftacoma.org/enviro/SurfaceWater/2016%20SWMM%20Manual/SWMM%20July%202016%20Masterbook.pdf": {
+   "url": "https://cms.cityoftacoma.org/enviro/SurfaceWater/2016%20SWMM%20Manual/SWMM%20July%202016%20Masterbook.pdf",
+   "slugs": [
+    "tacoma-wa"
+   ],
+   "checked_at": "2026-11-18T14:51:45.404Z",
+   "status": 200,
+   "last_modified": "Thu, 11 Aug 2016 00:01:19 GMT",
+   "etag": "\"c4b6e27c63f3d11:0\"",
+   "length": "40350933"
+  },
+  "https://tahoebmp.org/Documents/BMPHandbook/BMP_Handbook.pdf": {
+   "url": "https://tahoebmp.org/Documents/BMPHandbook/BMP_Handbook.pdf",
+   "slugs": [
+    "tahoe-trpa-bmp"
+   ],
+   "checked_at": "2026-11-18T14:51:49.193Z",
+   "status": 200,
+   "last_modified": "Fri, 13 Mar 2015 20:16:30 GMT",
+   "etag": "\"0e37b97ca5dd01:0\"",
+   "length": "63536539"
+  },
+  "https://iswm.nctcog.org/Documents/technical_manual/Site_Development_Controls_4-2010b.pdf": {
+   "url": "https://iswm.nctcog.org/Documents/technical_manual/Site_Development_Controls_4-2010b.pdf",
+   "slugs": [
+    "tarrant-county-tx"
+   ],
+   "checked_at": "2026-11-18T14:51:49.536Z",
+   "status": 200,
+   "last_modified": "Fri, 17 Feb 2023 21:53:33 GMT",
+   "etag": "\"0x8DB11316A251374\"",
+   "length": "12637564"
+  },
+  "https://lewisburgtn.gov/wp-content/uploads/2022/11/Permanent-Stormwater-Management-Design-Guidance-Manual.pdf": {
+   "url": "https://lewisburgtn.gov/wp-content/uploads/2022/11/Permanent-Stormwater-Management-Design-Guidance-Manual.pdf",
+   "slugs": [
+    "tn-state"
+   ],
+   "checked_at": "2026-11-18T14:51:49.600Z",
+   "status": 200,
+   "last_modified": "Mon, 29 Jan 2024 17:05:21 GMT",
+   "etag": null,
+   "length": "23398907"
+  },
+  "https://www.tn.gov/content/dam/tn/tdot/engineering-production-support/documents/drainage_manual/DM-Chapter_07.pdf": {
+   "url": "https://www.tn.gov/content/dam/tn/tdot/engineering-production-support/documents/drainage_manual/DM-Chapter_07.pdf",
+   "slugs": [
+    "tn-tdot-drainage"
+   ],
+   "checked_at": "2026-11-18T14:51:49.793Z",
+   "status": 403,
+   "last_modified": null,
+   "etag": null,
+   "length": "118"
+  },
+  "https://cot-wp-uploads.s3.amazonaws.com/wp-content/uploads/utilities/stormwater/Topeka+SW+Design+Handbook.pdf": {
+   "url": "https://cot-wp-uploads.s3.amazonaws.com/wp-content/uploads/utilities/stormwater/Topeka+SW+Design+Handbook.pdf",
+   "slugs": [
+    "topeka-ks"
+   ],
+   "checked_at": "2026-11-18T14:51:50.349Z",
+   "status": 200,
+   "last_modified": "Fri, 31 Mar 2023 16:50:13 GMT",
+   "etag": "\"e64352714a445821b46a424193c0704c\"",
+   "length": "13150648"
+  },
+  "https://www.tucsonaz.gov/files/sharedassets/public/v/1/pdsd/documents/engineering-code/updated-retention-detention-manual.pdf": {
+   "url": "https://www.tucsonaz.gov/files/sharedassets/public/v/1/pdsd/documents/engineering-code/updated-retention-detention-manual.pdf",
+   "slugs": [
+    "tucson-az-detention"
+   ],
+   "checked_at": "2026-11-18T14:51:50.569Z",
+   "status": 200,
+   "last_modified": "Wed, 05 Mar 2025 10:15:44 GMT",
+   "etag": "\"1f9b3006-7d43-49de-bf84-f3031ad19f56\"",
+   "length": "4322977"
+  },
+  "https://www.tucsonaz.gov/files/sharedassets/public/v/1/pdsd/documents/manuals/cot-drainage-manual-searchable.pdf": {
+   "url": "https://www.tucsonaz.gov/files/sharedassets/public/v/1/pdsd/documents/manuals/cot-drainage-manual-searchable.pdf",
+   "slugs": [
+    "tucson-az"
+   ],
+   "checked_at": "2026-11-18T14:51:50.944Z",
+   "status": 200,
+   "last_modified": "Wed, 05 Mar 2025 09:48:11 GMT",
+   "etag": "\"8a9c756d-9d67-48a9-8f80-8d81c50c54b3\"",
+   "length": "1"
+  },
+  "https://www.cityoftulsa.org/media/11859/stormwatermanagementcriteriamanual-june2019.pdf": {
+   "url": "https://www.cityoftulsa.org/media/11859/stormwatermanagementcriteriamanual-june2019.pdf",
+   "slugs": [
+    "tulsa-ok"
+   ],
+   "checked_at": "2026-11-18T14:51:51.185Z",
+   "status": 200,
+   "last_modified": "Wed, 11 Dec 2019 18:28:37 GMT",
+   "etag": "\"7147e2cd50b0d51:0\"",
+   "length": "6804352"
+  },
+  "https://www.tceq.texas.gov/downloads/publications/rg/complying-with-the-edwards-aquifer-rules-rg-348.pdf": {
+   "url": "https://www.tceq.texas.gov/downloads/publications/rg/complying-with-the-edwards-aquifer-rules-rg-348.pdf",
+   "slugs": [
+    "tx-edwards-rg348"
+   ],
+   "checked_at": "2026-11-18T14:51:51.337Z",
+   "status": 200,
+   "last_modified": "Wed, 14 Oct 2026 14:12:08 GMT",
+   "etag": "\"|1772099122.5281|1791987127.0\"",
+   "length": "11712588"
+  },
+  "https://www.txdot.gov/content/dam/txdotoms/des/hyd/hyd.pdf": {
+   "url": "https://www.txdot.gov/content/dam/txdotoms/des/hyd/hyd.pdf",
+   "slugs": [
+    "tx-txdot-hydraulic"
+   ],
+   "checked_at": "2026-11-18T14:51:51.459Z",
+   "status": 200,
+   "last_modified": "Fri, 05 Sep 2025 09:45:57 GMT",
+   "etag": "\"14148a8-63e0ab45f3f40\"",
+   "length": null
+  },
+  "https://drive.google.com/uc?export=download&id=1sxmhKziSdENiN03kQUhUlu8xyAHMdJol": {
+   "url": "https://drive.google.com/uc?export=download&id=1sxmhKziSdENiN03kQUhUlu8xyAHMdJol",
+   "slugs": [
+    "ut-udot-drainage"
+   ],
+   "checked_at": "2026-11-18T14:51:51.943Z",
+   "status": 200,
+   "last_modified": "Mon, 02 Mar 2026 19:49:17 GMT",
+   "etag": null,
+   "length": "7934829"
+  },
+  "https://swbmpvwrrc.wp.prod.es.cloud.vt.edu/wp-content/uploads/2018/07/31_Chap-8_BMP-Overview-Selection.pdf": {
+   "url": "https://swbmpvwrrc.wp.prod.es.cloud.vt.edu/wp-content/uploads/2018/07/31_Chap-8_BMP-Overview-Selection.pdf",
+   "slugs": [
+    "va-state"
+   ],
+   "checked_at": "2026-11-18T14:52:01.425Z",
+   "status": null,
+   "last_modified": null,
+   "etag": null,
+   "length": null,
+   "error": "fetch failed"
+  },
+  "https://www.vdot.virginia.gov/media/vdotvirginiagov/doing-business/technical-guidance-and-support/technical-guidance-documents/location-and-design/migrated/drainagemanual/Drain-Manual-Chapter-11_acc07072026.pdf": {
+   "url": "https://www.vdot.virginia.gov/media/vdotvirginiagov/doing-business/technical-guidance-and-support/technical-guidance-documents/location-and-design/migrated/drainagemanual/Drain-Manual-Chapter-11_acc07072026.pdf",
+   "slugs": [
+    "va-vdot-drainage"
+   ],
+   "checked_at": "2026-11-18T14:52:01.710Z",
+   "status": 200,
+   "last_modified": "Wed, 08 Jul 2026 17:12:08 GMT",
+   "etag": "\"e816ab-6561c9b89cf88\"",
+   "length": "15210155"
+  },
+  "https://www.cityofvancouver.us/wp-content/uploads/2024/12/Section-4-Storm-Gen-Reqs-2025-with-appendix.pdf": {
+   "url": "https://www.cityofvancouver.us/wp-content/uploads/2024/12/Section-4-Storm-Gen-Reqs-2025-with-appendix.pdf",
+   "slugs": [
+    "vancouver-wa"
+   ],
+   "checked_at": "2026-11-18T14:52:01.938Z",
+   "status": 200,
+   "last_modified": "Wed, 14 May 2025 19:47:57 GMT",
+   "etag": "\"6824f36d-ff61c0\"",
+   "length": "16736704"
+  },
+  "https://www.wsdot.wa.gov/publications/fulltext/hydraulics/hrm/chap3_2014.pdf": {
+   "url": "https://www.wsdot.wa.gov/publications/fulltext/hydraulics/hrm/chap3_2014.pdf",
+   "slugs": [
+    "wa-wsdot-hr"
+   ],
+   "checked_at": "2026-11-18T14:52:02.440Z",
+   "status": 200,
+   "last_modified": "Fri, 21 Mar 2014 17:26:53 GMT",
+   "etag": "\"cb60dc02a45cf1:0\"",
+   "length": "597276"
+  },
+  "https://www.waynecountymi.gov/files/assets/mainsite/v/1/environmental-services/documents/land-resource-management/wqm-wcsw-mgmt-plan-9-3-2021.pdf": {
+   "url": "https://www.waynecountymi.gov/files/assets/mainsite/v/1/environmental-services/documents/land-resource-management/wqm-wcsw-mgmt-plan-9-3-2021.pdf",
+   "slugs": [
+    "wayne-county-mi"
+   ],
+   "checked_at": "2026-11-18T14:52:02.712Z",
+   "status": 200,
+   "last_modified": "Tue, 14 Apr 2026 07:22:01 GMT",
+   "etag": "\"5c9b6bf0-3c88-44b5-9f66-19152b8780ad\"",
+   "length": "1"
+  },
+  "https://apps.dep.wv.gov/Documents/DWWM/Stormwater/Design/West_Virginia_Stormwater_Management_and_Design_Guidance_Manual_FULL_November_2012-v2.pdf": {
+   "url": "https://apps.dep.wv.gov/Documents/DWWM/Stormwater/Design/West_Virginia_Stormwater_Management_and_Design_Guidance_Manual_FULL_November_2012-v2.pdf",
+   "slugs": [
+    "west-virginia-manual"
+   ],
+   "checked_at": "2026-11-18T14:52:03.253Z",
+   "status": 200,
+   "last_modified": "Tue, 14 Apr 2026 18:12:39 GMT",
+   "etag": "\"69de8397-14e6f88\"",
+   "length": "21917576"
+  },
+  "https://dnr.wisconsin.gov/sites/default/files/topic/Stormwater/1001WetDetentionPond.pdf": {
+   "url": "https://dnr.wisconsin.gov/sites/default/files/topic/Stormwater/1001WetDetentionPond.pdf",
+   "slugs": [
+    "wi-dnr-1001"
+   ],
+   "checked_at": "2026-11-18T14:52:03.534Z",
+   "status": 200,
+   "last_modified": "Fri, 17 Jun 2022 19:49:52 GMT",
+   "etag": null,
+   "length": "1064598"
+  },
+  "https://wisconsindot.gov/rdwy/fdm/fd-13-10.pdf": {
+   "url": "https://wisconsindot.gov/rdwy/fdm/fd-13-10.pdf",
+   "slugs": [
+    "wi-wisdot-drainage"
+   ],
+   "checked_at": "2026-11-18T14:52:03.728Z",
+   "status": 200,
+   "last_modified": "Mon, 17 Aug 2026 17:10:59 GMT",
+   "etag": "\"{F0269FF2-A5C7-48E7-B588-A812E62C21FF},18pub\"",
+   "length": "508903"
+  },
+  "https://www.wichita.gov/DocumentCenter/View/11104/Volume-2-03---Chapter-1-PDF": {
+   "url": "https://www.wichita.gov/DocumentCenter/View/11104/Volume-2-03---Chapter-1-PDF",
+   "slugs": [
+    "wichita-ks-vol2"
+   ],
+   "checked_at": "2026-11-18T14:52:04.000Z",
+   "status": 403,
+   "last_modified": null,
+   "etag": null,
+   "length": null
+  },
+  "https://www.cityofws.org/DocumentCenter/View/14134/Infrastructure-Development-Standards-2020-Revised-April-2020-PDF": {
+   "url": "https://www.cityofws.org/DocumentCenter/View/14134/Infrastructure-Development-Standards-2020-Revised-April-2020-PDF",
+   "slugs": [
+    "winston-salem-nc"
+   ],
+   "checked_at": "2026-11-18T14:52:04.177Z",
+   "status": 404,
+   "last_modified": null,
+   "etag": null,
+   "length": "129949"
+  },
+  "https://transportation.wv.gov/highways/engineering/Manuals/Drainage/WVDOH%202007%20Drainage%20Manual%20with%20Addendum%209-23-13.pdf": {
+   "url": "https://transportation.wv.gov/highways/engineering/Manuals/Drainage/WVDOH%202007%20Drainage%20Manual%20with%20Addendum%209-23-13.pdf",
+   "slugs": [
+    "wv-wvdoh-drainage"
+   ],
+   "checked_at": "2026-11-18T14:52:04.400Z",
+   "status": 404,
+   "last_modified": "Wed, 18 Nov 2026 14:52:04 GMT",
+   "etag": "W/\"1795013524\"",
+   "length": "87650"
+  }
+ }
+}
