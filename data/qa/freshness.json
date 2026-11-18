@@ -1,13 +1,13 @@
 {
  "version": 1,
- "generated_at": "2026-11-18T15:03:53.828Z",
+ "generated_at": "2026-11-18T15:08:21.853Z",
  "urls": {
   "https://dot.alaska.gov/stwddes/desbridge/assets/pdf/hwydrnman/hwydrncover.pdf": {
    "url": "https://dot.alaska.gov/stwddes/desbridge/assets/pdf/hwydrnman/hwydrncover.pdf",
    "slugs": [
     "ak-dot-drainage"
    ],
-   "checked_at": "2026-11-18T15:01:57.420Z",
+   "checked_at": "2026-11-18T15:06:51.623Z",
    "status": 200,
    "last_modified": "Fri, 17 Dec 2004 19:45:04 GMT",
    "etag": "\"41c33740-1e5a1\"",
@@ -19,7 +19,7 @@
     "ak-state",
     "juneau-ak"
    ],
-   "checked_at": "2026-11-18T15:01:57.813Z",
+   "checked_at": "2026-11-18T15:06:52.490Z",
    "status": 200,
    "last_modified": "Wed, 17 Jul 2024 17:21:55 GMT",
    "etag": "\"6697fdb3-4de93a\"",
@@ -35,7 +35,7 @@
     "toledo-oh",
     "youngstown-oh"
    ],
-   "checked_at": "2026-11-18T15:01:58.072Z",
+   "checked_at": "2026-11-18T15:06:52.960Z",
    "status": 200,
    "last_modified": "Fri, 02 Aug 2024 15:17:52 GMT",
    "etag": "\"2c338c475691a73cea108208a30661b5\"",
@@ -46,7 +46,7 @@
    "slugs": [
     "al-aldot-drainage"
    ],
-   "checked_at": "2026-11-18T15:01:58.394Z",
+   "checked_at": "2026-11-18T15:06:53.087Z",
    "status": 206,
    "last_modified": "Thu, 12 Mar 2020 17:25:13 GMT",
    "etag": "\"341a803093f8d51:0\"",
@@ -57,7 +57,7 @@
    "slugs": [
     "alabama-handbook"
    ],
-   "checked_at": "2026-11-18T15:01:58.904Z",
+   "checked_at": "2026-11-18T15:06:53.432Z",
    "status": 200,
    "last_modified": "Mon, 01 Aug 2022 13:01:44 GMT",
    "etag": null,
@@ -71,7 +71,7 @@
     "syracuse-ny",
     "yonkers-ny"
    ],
-   "checked_at": "2026-11-18T15:01:59.173Z",
+   "checked_at": "2026-11-18T15:06:53.493Z",
    "status": 200,
    "last_modified": "Tue, 23 Jul 2024 14:04:04 GMT",
    "etag": "\"1385569-61deaa25fbd00\"",
@@ -84,7 +84,7 @@
     "las-cruces-nm",
     "santa-fe-nm"
    ],
-   "checked_at": "2026-11-18T15:01:59.552Z",
+   "checked_at": "2026-11-18T15:06:53.602Z",
    "status": 200,
    "last_modified": "Tue, 04 Mar 2025 18:57:28 GMT",
    "etag": null,
@@ -95,7 +95,7 @@
    "slugs": [
     "alexandria-va"
    ],
-   "checked_at": "2026-11-18T15:01:59.766Z",
+   "checked_at": "2026-11-18T15:06:54.410Z",
    "status": 200,
    "last_modified": "Thu, 09 Sep 2021 19:38:11 GMT",
    "etag": "W/\"fd6f0d8fb65b4c059d0023b5fc72cb56\"",
@@ -111,7 +111,7 @@
     "reading-pa",
     "scranton-pa"
    ],
-   "checked_at": "2026-11-18T15:02:00.035Z",
+   "checked_at": "2026-11-18T15:06:54.567Z",
    "status": 200,
    "last_modified": "Fri, 06 Sep 2024 12:01:20 GMT",
    "etag": "\"66daef10-1b48a3d\"",
@@ -122,7 +122,7 @@
    "slugs": [
     "amarillo-tx"
    ],
-   "checked_at": "2026-11-18T15:02:00.315Z",
+   "checked_at": "2026-11-18T15:06:54.910Z",
    "status": 200,
    "last_modified": "Tue, 26 Nov 2024 21:31:30 GMT",
    "etag": "\"67463e32-10a2158\"",
@@ -133,7 +133,7 @@
    "slugs": [
     "anaheim-ca"
    ],
-   "checked_at": "2026-11-18T15:02:00.567Z",
+   "checked_at": "2026-11-18T15:06:55.484Z",
    "status": 403,
    "last_modified": null,
    "etag": null,
@@ -144,7 +144,7 @@
    "slugs": [
     "anchorage-ak"
    ],
-   "checked_at": "2026-11-18T15:02:00.697Z",
+   "checked_at": "2026-11-18T15:06:55.650Z",
    "status": 404,
    "last_modified": null,
    "etag": null,
@@ -155,7 +155,7 @@
    "slugs": [
     "ann-arbor-mi"
    ],
-   "checked_at": "2026-11-18T15:02:01.181Z",
+   "checked_at": "2026-11-18T15:06:56.231Z",
    "status": 200,
    "last_modified": "Tue, 29 Oct 2019 22:48:27 GMT",
    "etag": "\"75f0dee5f4a5a14ce781cb9850d19275\"",
@@ -169,7 +169,7 @@
     "prince-georges-county-md",
     "rockville-md"
    ],
-   "checked_at": "2026-11-18T15:02:01.239Z",
+   "checked_at": "2026-11-18T15:06:56.361Z",
    "status": 200,
    "last_modified": "Mon, 10 Jan 2022 18:56:02 GMT",
    "etag": "\"{6EBCE281-7127-4E26-9FBC-A57CD271A6D8},3\"",
@@ -181,18 +181,18 @@
     "arkansas-manual",
     "fayetteville-ar"
    ],
-   "checked_at": "2026-11-18T15:02:01.846Z",
-   "status": 403,
-   "last_modified": null,
-   "etag": null,
-   "length": null
+   "checked_at": "2026-11-18T15:06:56.487Z",
+   "status": 200,
+   "last_modified": "Wed, 19 Jun 2024 23:28:20 GMT",
+   "etag": "\"66736994-5c2ba6\"",
+   "length": "6040486"
   },
   "https://www.arlingtonva.us/files/sharedassets/public/v/3/building/documents/guidance_manual_lda2.0-2025-updates-for-new-vrrm-and-bmp-manual.pdf": {
    "url": "https://www.arlingtonva.us/files/sharedassets/public/v/3/building/documents/guidance_manual_lda2.0-2025-updates-for-new-vrrm-and-bmp-manual.pdf",
    "slugs": [
     "arlington-county-va"
    ],
-   "checked_at": "2026-11-18T15:02:01.983Z",
+   "checked_at": "2026-11-18T15:06:56.607Z",
    "status": 200,
    "last_modified": "Wed, 16 Sep 2026 19:25:04 GMT",
    "etag": "\"9f6b38b7-7a05-4c3d-987d-ac305cf3c1c0\"",
@@ -203,7 +203,7 @@
    "slugs": [
     "arlington-tx"
    ],
-   "checked_at": "2026-11-18T15:02:02.322Z",
+   "checked_at": "2026-11-18T15:06:56.804Z",
    "status": 200,
    "last_modified": "Fri, 21 Mar 2025 07:44:53 GMT",
    "etag": "\"6c29ff27-5c05-4ade-8124-e0630ec90a1d\"",
@@ -220,7 +220,7 @@
     "nc-state",
     "wilmington-nc"
    ],
-   "checked_at": "2026-11-18T15:02:02.803Z",
+   "checked_at": "2026-11-18T15:06:56.865Z",
    "status": 200,
    "last_modified": "Wed, 04 Jan 2017 23:17:21 GMT",
    "etag": "\"8421-91170-1483571841-359223\"",
@@ -238,7 +238,7 @@
     "gwinnett-county-ga",
     "macon-ga"
    ],
-   "checked_at": "2026-11-18T15:02:03.135Z",
+   "checked_at": "2026-11-18T15:06:57.198Z",
    "status": 200,
    "last_modified": "Wed, 02 Mar 2016 14:59:00 GMT",
    "etag": "\"0d271d9474d11:0\"",
@@ -251,10 +251,10 @@
     "maine-manual",
     "portland-me"
    ],
-   "checked_at": "2026-11-18T15:02:03.428Z",
+   "checked_at": "2026-11-18T15:06:57.376Z",
    "status": 200,
    "last_modified": "Fri, 06 Apr 2018 18:50:36 GMT",
-   "etag": "W/\"50afc5-5693288165701\"",
+   "etag": "\"50afc5-5693288165701\"",
    "length": "5287877"
   },
   "https://cdnsm5-hosted.civiclive.com/UserFiles/Servers/Server_1881137/File/Business%20Services/Development%20Center/Water%20%26%20Other%20Utilities/2026%20SDDTC%20FINAL%20(January%202026).pdf": {
@@ -262,9 +262,9 @@
    "slugs": [
     "aurora-co"
    ],
-   "checked_at": "2026-11-18T15:02:03.692Z",
+   "checked_at": "2026-11-18T15:06:57.533Z",
    "status": 200,
-   "last_modified": "Wed, 18 Nov 2026 15:02:03 GMT",
+   "last_modified": "Wed, 18 Nov 2026 14:54:39 GMT",
    "etag": null,
    "length": null
   },
@@ -273,7 +273,7 @@
    "slugs": [
     "austin-tx-ecm"
    ],
-   "checked_at": "2026-11-18T15:02:03.804Z",
+   "checked_at": "2026-11-18T15:06:57.593Z",
    "status": 200,
    "last_modified": null,
    "etag": null,
@@ -284,7 +284,7 @@
    "slugs": [
     "az-adot-drainage"
    ],
-   "checked_at": "2026-11-18T15:02:04.499Z",
+   "checked_at": "2026-11-18T15:06:57.693Z",
    "status": 403,
    "last_modified": null,
    "etag": null,
@@ -295,7 +295,7 @@
    "slugs": [
     "bakersfield-ca"
    ],
-   "checked_at": "2026-11-18T15:02:04.585Z",
+   "checked_at": "2026-11-18T15:06:57.836Z",
    "status": 403,
    "last_modified": null,
    "etag": null,
@@ -306,7 +306,7 @@
    "slugs": [
     "baltimore-md"
    ],
-   "checked_at": "2026-11-18T15:02:04.870Z",
+   "checked_at": "2026-11-18T15:06:58.261Z",
    "status": 200,
    "last_modified": "Fri, 19 Jan 2024 19:42:29 GMT",
    "etag": "\"24f6ed06c9d060376c07719fa86b86ea\"",
@@ -317,7 +317,7 @@
    "slugs": [
     "baton-rouge-la"
    ],
-   "checked_at": "2026-11-18T15:02:05.255Z",
+   "checked_at": "2026-11-18T15:06:58.489Z",
    "status": 200,
    "last_modified": null,
    "etag": null,
@@ -328,7 +328,7 @@
    "slugs": [
     "beatrice-ne"
    ],
-   "checked_at": "2026-11-18T15:02:05.643Z",
+   "checked_at": "2026-11-18T15:06:58.785Z",
    "status": 200,
    "last_modified": "Tue, 18 Aug 2026 07:55:26 GMT",
    "etag": "W/\"1dd2ee6edd34637\"",
@@ -339,7 +339,7 @@
    "slugs": [
     "beaumont-tx"
    ],
-   "checked_at": "2026-11-18T15:02:06.113Z",
+   "checked_at": "2026-11-18T15:06:59.106Z",
    "status": 200,
    "last_modified": "Thu, 10 Jul 2025 16:04:00 GMT",
    "etag": "\"686fe470-6eb8ff\"",
@@ -350,7 +350,7 @@
    "slugs": [
     "bellevue-wa"
    ],
-   "checked_at": "2026-11-18T15:02:06.249Z",
+   "checked_at": "2026-11-18T15:06:59.336Z",
    "status": 200,
    "last_modified": "Thu, 26 Jan 2023 18:23:09 GMT",
    "etag": null,
@@ -364,7 +364,7 @@
     "olympia-wa",
     "wa-state-western"
    ],
-   "checked_at": "2026-11-18T15:02:06.297Z",
+   "checked_at": "2026-11-18T15:06:59.627Z",
    "status": 200,
    "last_modified": "Mon, 04 Nov 2024 16:56:35 GMT",
    "etag": "\"1b2686b-626192ad960d8\"",
@@ -376,7 +376,7 @@
     "bend-or",
     "eugene-or"
    ],
-   "checked_at": "2026-11-18T15:02:06.619Z",
+   "checked_at": "2026-11-18T15:06:59.710Z",
    "status": 403,
    "last_modified": null,
    "etag": null,
@@ -387,7 +387,7 @@
    "slugs": [
     "billings-mt"
    ],
-   "checked_at": "2026-11-18T15:02:06.787Z",
+   "checked_at": "2026-11-18T15:06:59.834Z",
    "status": 200,
    "last_modified": null,
    "etag": null,
@@ -400,7 +400,7 @@
     "huntsville-al",
     "montgomery-al"
    ],
-   "checked_at": "2026-11-18T15:02:07.204Z",
+   "checked_at": "2026-11-18T15:07:00.231Z",
    "status": 200,
    "last_modified": "Thu, 21 Nov 2024 20:58:50 GMT",
    "etag": "\"673f9f0a-111c388\"",
@@ -411,9 +411,9 @@
    "slugs": [
     "bismarck-nd"
    ],
-   "checked_at": "2026-11-18T15:02:07.465Z",
+   "checked_at": "2026-11-18T15:07:00.267Z",
    "status": 200,
-   "last_modified": "Wed, 18 Nov 2026 15:02:08 GMT",
+   "last_modified": "Wed, 18 Nov 2026 15:07:00 GMT",
    "etag": null,
    "length": "7523067"
   },
@@ -425,7 +425,7 @@
     "port-st-lucie-fl",
     "west-palm-beach-fl"
    ],
-   "checked_at": "2026-11-18T15:02:08.190Z",
+   "checked_at": "2026-11-18T15:07:00.784Z",
    "status": 200,
    "last_modified": "Sat, 15 Oct 2016 17:42:39 GMT",
    "etag": null,
@@ -436,7 +436,7 @@
    "slugs": [
     "boise-id"
    ],
-   "checked_at": "2026-11-18T15:02:08.423Z",
+   "checked_at": "2026-11-18T15:07:00.933Z",
    "status": 200,
    "last_modified": "Tue, 24 Mar 2026 20:57:17 GMT",
    "etag": "\"8f5daccd0bbdc1:0\"",
@@ -447,7 +447,7 @@
    "slugs": [
     "boston-ma"
    ],
-   "checked_at": "2026-11-18T15:02:08.630Z",
+   "checked_at": "2026-11-18T15:07:01.532Z",
    "status": 200,
    "last_modified": "Fri, 28 Feb 2025 19:01:20 GMT",
    "etag": "\"67c20800-6c2371\"",
@@ -461,7 +461,7 @@
     "denver-co",
     "fort-collins-co"
    ],
-   "checked_at": "2026-11-18T15:02:08.740Z",
+   "checked_at": "2026-11-18T15:07:01.768Z",
    "status": 200,
    "last_modified": "Wed, 07 Aug 2024 17:10:42 GMT",
    "etag": "\"7e25f93fdc7abb2d715e599f468e1a30\"",
@@ -476,7 +476,7 @@
     "new-haven-ct",
     "stamford-ct"
    ],
-   "checked_at": "2026-11-18T15:02:08.857Z",
+   "checked_at": "2026-11-18T15:07:02.685Z",
    "status": 200,
    "last_modified": "Wed, 27 Mar 2024 14:39:26 GMT",
    "etag": "070cca7e503f4573a5b5345f8dac3ad2",
@@ -487,7 +487,7 @@
    "slugs": [
     "broward-county-fl"
    ],
-   "checked_at": "2026-11-18T15:02:09.338Z",
+   "checked_at": "2026-11-18T15:07:02.859Z",
    "status": 200,
    "last_modified": "Mon, 15 Apr 2019 15:58:46 GMT",
    "etag": "\"3a5d04-58693ba4272f5\"",
@@ -500,7 +500,7 @@
     "laredo-tx",
     "san-antonio-tx"
    ],
-   "checked_at": "2026-11-18T15:02:09.729Z",
+   "checked_at": "2026-11-18T15:07:03.191Z",
    "status": 200,
    "last_modified": null,
    "etag": null,
@@ -511,7 +511,7 @@
    "slugs": [
     "buffalo-ny"
    ],
-   "checked_at": "2026-11-18T15:02:10.143Z",
+   "checked_at": "2026-11-18T15:07:05.472Z",
    "status": 200,
    "last_modified": "Thu, 30 Jan 2020 15:51:04 GMT",
    "etag": "\"5e32fb68-e79f\"",
@@ -524,7 +524,7 @@
     "montpelier-vt",
     "vt-state"
    ],
-   "checked_at": "2026-11-18T15:02:10.424Z",
+   "checked_at": "2026-11-18T15:07:05.690Z",
    "status": 200,
    "last_modified": "Tue, 22 Mar 2016 19:02:02 GMT",
    "etag": "\"65da5c-52ea7d9337e80\"",
@@ -535,7 +535,7 @@
    "slugs": [
     "ca-caltrans-construction"
    ],
-   "checked_at": "2026-11-18T15:02:10.634Z",
+   "checked_at": "2026-11-18T15:07:05.779Z",
    "status": 200,
    "last_modified": "Mon, 12 May 2025 21:24:10 GMT",
    "etag": null,
@@ -546,7 +546,7 @@
    "slugs": [
     "ca-caltrans-project-planning"
    ],
-   "checked_at": "2026-11-18T15:02:11.114Z",
+   "checked_at": "2026-11-18T15:07:06.427Z",
    "status": 200,
    "last_modified": "Tue, 14 Oct 2025 20:28:53 GMT",
    "etag": null,
@@ -557,7 +557,7 @@
    "slugs": [
     "ca-casqa-municipal"
    ],
-   "checked_at": "2026-11-18T15:02:11.589Z",
+   "checked_at": "2026-11-18T15:07:06.964Z",
    "status": 200,
    "last_modified": "Mon, 18 Nov 2024 18:34:43 GMT",
    "etag": "\"673b88c3-318f9b\"",
@@ -571,7 +571,7 @@
     "springfield-ma",
     "worcester-ma"
    ],
-   "checked_at": "2026-11-18T15:02:11.795Z",
+   "checked_at": "2026-11-18T15:07:07.381Z",
    "status": 200,
    "last_modified": null,
    "etag": null,
@@ -582,7 +582,7 @@
    "slugs": [
     "cape-coral-fl"
    ],
-   "checked_at": "2026-11-18T15:02:12.282Z",
+   "checked_at": "2026-11-18T15:07:07.917Z",
    "status": 200,
    "last_modified": "Mon, 27 Apr 2026 19:08:17 GMT",
    "etag": "\"937e4c3479d6dc1:0\"",
@@ -593,7 +593,7 @@
    "slugs": [
     "carson-city-nv"
    ],
-   "checked_at": "2026-11-18T15:02:12.479Z",
+   "checked_at": "2026-11-18T15:07:08.033Z",
    "status": null,
    "last_modified": null,
    "etag": null,
@@ -607,7 +607,7 @@
     "cheyenne-wy",
     "wy-wydot-field"
    ],
-   "checked_at": "2026-11-18T15:02:12.568Z",
+   "checked_at": "2026-11-18T15:07:08.213Z",
    "status": 200,
    "last_modified": "Wed, 26 Jul 2017 14:26:11 GMT",
    "etag": "\"af360231-5321-4c4f-a354-59905f6e32ec-1501079171899\"",
@@ -620,18 +620,18 @@
     "davenport-ia",
     "des-moines-ia"
    ],
-   "checked_at": "2026-11-18T15:02:12.834Z",
+   "checked_at": "2026-11-18T15:07:08.530Z",
    "status": 200,
    "last_modified": "Fri, 19 Dec 2025 14:49:27 GMT",
-   "etag": "W/\"2df457243e955e89477dbec17b896f75\"",
-   "length": null
+   "etag": "\"2df457243e955e89477dbec17b896f75\"",
+   "length": "8286380"
   },
   "https://www.chandleraz.gov/sites/default/files/departments/development-services/City-of-Chandler-Engineering-Design-Standards-Manual.pdf": {
    "url": "https://www.chandleraz.gov/sites/default/files/departments/development-services/City-of-Chandler-Engineering-Design-Standards-Manual.pdf",
    "slugs": [
     "chandler-az"
    ],
-   "checked_at": "2026-11-18T15:02:13.051Z",
+   "checked_at": "2026-11-18T15:07:08.731Z",
    "status": 200,
    "last_modified": "Fri, 05 Dec 2025 00:36:09 GMT",
    "etag": "\"693228f9-6644a9\"",
@@ -642,7 +642,7 @@
    "slugs": [
     "charleston-sc"
    ],
-   "checked_at": "2026-11-18T15:02:13.307Z",
+   "checked_at": "2026-11-18T15:07:09.096Z",
    "status": 200,
    "last_modified": null,
    "etag": null,
@@ -653,30 +653,18 @@
    "slugs": [
     "charleston-wv"
    ],
-   "checked_at": "2026-11-18T15:02:13.710Z",
-   "status": null,
-   "last_modified": null,
-   "etag": null,
-   "length": null,
-   "error": "fetch failed"
-  },
-  "https://www.charlottenc.gov/files/sharedassets/city/v/1/services/stormwater/documents/regulations/storm-water-design-manual/public-comment/charlotte-sw-design-manual-for-public-comment.pdf": {
-   "url": "https://www.charlottenc.gov/files/sharedassets/city/v/1/services/stormwater/documents/regulations/storm-water-design-manual/public-comment/charlotte-sw-design-manual-for-public-comment.pdf",
-   "slugs": [
-    "charlotte-nc"
-   ],
-   "checked_at": "2026-11-18T14:54:49.938Z",
-   "status": 404,
-   "last_modified": null,
-   "etag": null,
-   "length": null
+   "checked_at": "2026-11-18T15:07:09.525Z",
+   "status": 200,
+   "last_modified": "Fri, 07 Mar 2025 20:09:47 GMT",
+   "etag": "\"cc0838-13f1ea5-62fc6345065bf\"",
+   "length": "20913829"
   },
   "https://www.charlottesville.gov/DocumentCenter/View/10298": {
    "url": "https://www.charlottesville.gov/DocumentCenter/View/10298",
    "slugs": [
     "charlottesville-va"
    ],
-   "checked_at": "2026-11-18T15:02:23.800Z",
+   "checked_at": "2026-11-18T15:07:09.850Z",
    "status": 200,
    "last_modified": null,
    "etag": null,
@@ -687,18 +675,18 @@
    "slugs": [
     "chattanooga-tn"
    ],
-   "checked_at": "2026-11-18T15:02:24.387Z",
-   "status": 403,
-   "last_modified": null,
-   "etag": null,
-   "length": "425"
+   "checked_at": "2026-11-18T15:07:10.382Z",
+   "status": 200,
+   "last_modified": "Tue, 17 Nov 2026 15:45:11 GMT",
+   "etag": "\"6afc7687-267a0f2\"",
+   "length": "40345842"
   },
   "https://www.cityofchesapeake.net/DocumentCenter/View/2455/Stormwater-Management-and-Drainage-Design-PDF": {
    "url": "https://www.cityofchesapeake.net/DocumentCenter/View/2455/Stormwater-Management-and-Drainage-Design-PDF",
    "slugs": [
     "chesapeake-va"
    ],
-   "checked_at": "2026-11-18T15:02:24.528Z",
+   "checked_at": "2026-11-18T15:07:11.021Z",
    "status": 200,
    "last_modified": null,
    "etag": null,
@@ -709,11 +697,11 @@
    "slugs": [
     "chicago-il"
    ],
-   "checked_at": "2026-11-18T15:02:25.098Z",
+   "checked_at": "2026-11-18T15:07:12.317Z",
    "status": 403,
    "last_modified": null,
    "etag": null,
-   "length": "493"
+   "length": "495"
   },
   "https://www.sandiego.gov/sites/default/files/2024-08/sws_manual_august_2024_update.pdf": {
    "url": "https://www.sandiego.gov/sites/default/files/2024-08/sws_manual_august_2024_update.pdf",
@@ -721,7 +709,7 @@
     "chula-vista-ca",
     "san-diego-ca"
    ],
-   "checked_at": "2026-11-18T15:02:25.326Z",
+   "checked_at": "2026-11-18T15:07:12.489Z",
    "status": 200,
    "last_modified": "Wed, 14 Aug 2024 18:17:55 GMT",
    "etag": "\"66bcf4d3-15abad4\"",
@@ -732,7 +720,7 @@
    "slugs": [
     "clarksville-tn"
    ],
-   "checked_at": "2026-11-18T15:02:25.623Z",
+   "checked_at": "2026-11-18T15:07:12.730Z",
    "status": 200,
    "last_modified": null,
    "etag": null,
@@ -743,7 +731,7 @@
    "slugs": [
     "co-cwcb-floodplain-stormwater"
    ],
-   "checked_at": "2026-11-18T15:02:26.336Z",
+   "checked_at": "2026-11-18T15:07:13.461Z",
    "status": 200,
    "last_modified": null,
    "etag": null,
@@ -757,7 +745,7 @@
     "grand-prairie-tx",
     "waco-tx"
    ],
-   "checked_at": "2026-11-18T15:02:26.615Z",
+   "checked_at": "2026-11-18T15:07:14.078Z",
    "status": 200,
    "last_modified": "Fri, 17 Feb 2023 21:53:33 GMT",
    "etag": "\"0x8DB11316A03D4B9\"",
@@ -768,7 +756,7 @@
    "slugs": [
     "columbia-mo"
    ],
-   "checked_at": "2026-11-18T15:02:26.972Z",
+   "checked_at": "2026-11-18T15:07:14.449Z",
    "status": 200,
    "last_modified": "Thu, 05 Aug 2021 19:57:55 GMT",
    "etag": "\"3a9210-5c8d555be3ed3\"",
@@ -780,7 +768,7 @@
     "columbia-sc",
     "greenville-sc"
    ],
-   "checked_at": "2026-11-18T15:02:27.295Z",
+   "checked_at": "2026-11-18T15:07:14.645Z",
    "status": 200,
    "last_modified": "Sun, 20 Feb 2022 04:45:12 GMT",
    "etag": "\"e6577-5d86bc7fe8600\"",
@@ -791,7 +779,7 @@
    "slugs": [
     "columbus-oh"
    ],
-   "checked_at": "2026-11-18T15:02:27.749Z",
+   "checked_at": "2026-11-18T15:07:14.863Z",
    "status": 200,
    "last_modified": "Tue, 26 Aug 2025 15:10:01 GMT",
    "etag": "\"bc9b5970-a0ee-4936-8709-f4bd0da1685f\"",
@@ -805,7 +793,7 @@
     "nashua-nh",
     "nh-state"
    ],
-   "checked_at": "2026-11-18T15:02:28.574Z",
+   "checked_at": "2026-11-18T15:07:15.423Z",
    "status": 200,
    "last_modified": "Mon, 09 Jun 2025 14:21:21 GMT",
    "etag": "\"4aadb-637244b4d0ba8\"",
@@ -816,7 +804,7 @@
    "slugs": [
     "cook-county-il"
    ],
-   "checked_at": "2026-11-18T15:02:29.043Z",
+   "checked_at": "2026-11-18T15:07:15.587Z",
    "status": 200,
    "last_modified": "Mon, 13 Nov 2023 04:34:37 GMT",
    "etag": null,
@@ -827,7 +815,7 @@
    "slugs": [
     "corpus-christi-tx"
    ],
-   "checked_at": "2026-11-18T15:02:29.313Z",
+   "checked_at": "2026-11-18T15:07:15.654Z",
    "status": 200,
    "last_modified": "Mon, 17 Aug 2026 06:49:03 GMT",
    "etag": "\"1dd2e147df6dd1f\"",
@@ -838,7 +826,7 @@
    "slugs": [
     "ct-ctdot-drainage"
    ],
-   "checked_at": "2026-11-18T15:02:29.773Z",
+   "checked_at": "2026-11-18T15:07:15.816Z",
    "status": 200,
    "last_modified": "Wed, 18 Jun 2025 15:22:57 GMT",
    "etag": "cfa9352915f341b9b9dba79790bca957",
@@ -849,7 +837,7 @@
    "slugs": [
     "dayton-oh"
    ],
-   "checked_at": "2026-11-18T15:02:30.167Z",
+   "checked_at": "2026-11-18T15:07:16.054Z",
    "status": 200,
    "last_modified": null,
    "etag": null,
@@ -865,7 +853,7 @@
     "palm-bay-fl",
     "palm-coast-fl"
    ],
-   "checked_at": "2026-11-18T15:02:30.868Z",
+   "checked_at": "2026-11-18T15:07:16.657Z",
    "status": 200,
    "last_modified": "Wed, 22 Jan 2025 21:51:12 GMT",
    "etag": "\"e7b247b6361e66b408b8e48701585318-1\"",
@@ -876,7 +864,7 @@
    "slugs": [
     "dc-ddot-stormwater"
    ],
-   "checked_at": "2026-11-18T15:02:31.108Z",
+   "checked_at": "2026-11-18T15:07:16.823Z",
    "status": 200,
    "last_modified": "Wed, 20 Jul 2016 13:20:03 GMT",
    "etag": null,
@@ -887,7 +875,7 @@
    "slugs": [
     "dc-guidebook"
    ],
-   "checked_at": "2026-11-18T15:02:31.155Z",
+   "checked_at": "2026-11-18T15:07:16.887Z",
    "status": 200,
    "last_modified": "Wed, 31 Jul 2013 20:54:23 GMT",
    "etag": null,
@@ -898,7 +886,7 @@
    "slugs": [
     "de-deldot-drainage"
    ],
-   "checked_at": "2026-11-18T15:02:31.210Z",
+   "checked_at": "2026-11-18T15:07:16.948Z",
    "status": 206,
    "last_modified": null,
    "etag": null,
@@ -911,7 +899,7 @@
     "dover-de",
     "wilmington-de"
    ],
-   "checked_at": "2026-11-18T15:02:32.240Z",
+   "checked_at": "2026-11-18T15:07:17.101Z",
    "status": 200,
    "last_modified": "Tue, 06 Jan 2026 20:43:53 GMT",
    "etag": "\"b6664-647be3bd84ce4\"",
@@ -922,7 +910,7 @@
    "slugs": [
     "denton-tx"
    ],
-   "checked_at": "2026-11-18T15:02:32.637Z",
+   "checked_at": "2026-11-18T15:07:17.186Z",
    "status": 403,
    "last_modified": null,
    "etag": null,
@@ -933,7 +921,7 @@
    "slugs": [
     "detroit-mi"
    ],
-   "checked_at": "2026-11-18T15:02:32.746Z",
+   "checked_at": "2026-11-18T15:07:17.422Z",
    "status": 403,
    "last_modified": null,
    "etag": null,
@@ -945,7 +933,7 @@
     "duluth-mn",
     "mn-state-2008"
    ],
-   "checked_at": "2026-11-18T15:02:32.846Z",
+   "checked_at": "2026-11-18T15:07:17.506Z",
    "status": 200,
    "last_modified": "Wed, 23 Oct 2024 18:29:38 GMT",
    "etag": null,
@@ -956,7 +944,7 @@
    "slugs": [
     "durham-nc"
    ],
-   "checked_at": "2026-11-18T15:02:33.193Z",
+   "checked_at": "2026-11-18T15:07:17.809Z",
    "status": 403,
    "last_modified": null,
    "etag": null,
@@ -967,7 +955,7 @@
    "slugs": [
     "el-paso-tx"
    ],
-   "checked_at": "2026-11-18T15:02:33.345Z",
+   "checked_at": "2026-11-18T15:07:18.044Z",
    "status": 200,
    "last_modified": "Wed, 18 May 2022 17:26:04 GMT",
    "etag": "\"8ad095-5df4c8d426300\"",
@@ -982,7 +970,7 @@
     "paterson-nj",
     "trenton-nj"
    ],
-   "checked_at": "2026-11-18T15:02:33.431Z",
+   "checked_at": "2026-11-18T15:07:18.114Z",
    "status": 200,
    "last_modified": "Fri, 16 Jan 2026 17:19:36 GMT",
    "etag": "\"696a7328-4fe300\"",
@@ -995,7 +983,7 @@
     "indiana-manual",
     "south-bend-in"
    ],
-   "checked_at": "2026-11-18T15:02:33.927Z",
+   "checked_at": "2026-11-18T15:07:18.200Z",
    "status": 200,
    "last_modified": "Thu, 02 Nov 2017 19:08:45 GMT",
    "etag": "W/\"f1f2b7-55d04b7980940\"",
@@ -1006,7 +994,7 @@
    "slugs": [
     "fairfax-county-va"
    ],
-   "checked_at": "2026-11-18T15:02:34.413Z",
+   "checked_at": "2026-11-18T15:07:18.360Z",
    "status": 200,
    "last_modified": null,
    "etag": null,
@@ -1017,7 +1005,7 @@
    "slugs": [
     "fargo-nd"
    ],
-   "checked_at": "2026-11-18T15:02:34.804Z",
+   "checked_at": "2026-11-18T15:07:18.688Z",
    "status": 200,
    "last_modified": null,
    "etag": null,
@@ -1028,7 +1016,7 @@
    "slugs": [
     "fhwa-hds-4"
    ],
-   "checked_at": "2026-11-18T15:02:35.225Z",
+   "checked_at": "2026-11-18T15:07:19.144Z",
    "status": 200,
    "last_modified": "Wed, 04 Feb 2015 15:59:14 GMT",
    "etag": "\"075a0859340d01:0\"",
@@ -1039,7 +1027,7 @@
    "slugs": [
     "fhwa-hec-14"
    ],
-   "checked_at": "2026-11-18T15:02:35.742Z",
+   "checked_at": "2026-11-18T15:07:19.408Z",
    "status": 200,
    "last_modified": "Thu, 20 Jul 2017 16:45:31 GMT",
    "etag": "\"80c76299771d31:0\"",
@@ -1050,7 +1038,7 @@
    "slugs": [
     "fhwa-hec-15"
    ],
-   "checked_at": "2026-11-18T15:02:36.009Z",
+   "checked_at": "2026-11-18T15:07:19.604Z",
    "status": 200,
    "last_modified": "Tue, 27 Jan 2015 17:57:40 GMT",
    "etag": "\"02d4bd5a3ad01:0\"",
@@ -1061,7 +1049,7 @@
    "slugs": [
     "fhwa-hec-21"
    ],
-   "checked_at": "2026-11-18T15:02:36.270Z",
+   "checked_at": "2026-11-18T15:07:19.817Z",
    "status": 200,
    "last_modified": "Wed, 16 Mar 2005 20:14:21 GMT",
    "etag": "\"804c3ebd642ac51:0\"",
@@ -1072,7 +1060,7 @@
    "slugs": [
     "fhwa-hec-22"
    ],
-   "checked_at": "2026-11-18T15:02:36.546Z",
+   "checked_at": "2026-11-18T15:07:20.013Z",
    "status": 200,
    "last_modified": "Mon, 11 Mar 2024 14:26:05 GMT",
    "etag": "\"34872fdc073da1:0\"",
@@ -1083,7 +1071,7 @@
    "slugs": [
     "fhwa-hec-24"
    ],
-   "checked_at": "2026-11-18T15:02:36.813Z",
+   "checked_at": "2026-11-18T15:07:20.238Z",
    "status": 200,
    "last_modified": "Mon, 19 Mar 2001 20:19:40 GMT",
    "etag": "\"0561aedb1b0c01:0\"",
@@ -1094,7 +1082,7 @@
    "slugs": [
     "fl-fdot-drainage"
    ],
-   "checked_at": "2026-11-18T15:02:37.076Z",
+   "checked_at": "2026-11-18T15:07:20.427Z",
    "status": 200,
    "last_modified": "Wed, 01 Apr 2026 22:57:14 GMT",
    "etag": "0x8DE9042042D4398",
@@ -1105,7 +1093,7 @@
    "slugs": [
     "fl-fsesci-tier1"
    ],
-   "checked_at": "2026-11-18T15:02:37.465Z",
+   "checked_at": "2026-11-18T15:07:20.475Z",
    "status": 200,
    "last_modified": null,
    "etag": null,
@@ -1118,7 +1106,7 @@
     "pensacola-fl",
     "tallahassee-fl"
    ],
-   "checked_at": "2026-11-18T15:02:37.954Z",
+   "checked_at": "2026-11-18T15:07:21.055Z",
    "status": 200,
    "last_modified": "Fri, 19 Jul 2024 17:45:09 GMT",
    "etag": "\"669aa625-49a403\"",
@@ -1130,7 +1118,7 @@
     "fl-sfwmd-erp-ah2",
     "miami-fl"
    ],
-   "checked_at": "2026-11-18T15:02:38.162Z",
+   "checked_at": "2026-11-18T15:07:21.185Z",
    "status": 200,
    "last_modified": "Fri, 10 Jul 2026 12:37:51 GMT",
    "etag": null,
@@ -1142,7 +1130,7 @@
     "fl-srwmd-erp-ah2",
     "gainesville-fl"
    ],
-   "checked_at": "2026-11-18T15:02:38.362Z",
+   "checked_at": "2026-11-18T15:07:21.227Z",
    "status": 200,
    "last_modified": null,
    "etag": null,
@@ -1154,7 +1142,7 @@
     "fl-swfwmd-erp-ah2",
     "tampa-fl"
    ],
-   "checked_at": "2026-11-18T15:02:39.417Z",
+   "checked_at": "2026-11-18T15:07:22.576Z",
    "status": 206,
    "last_modified": "Wed, 28 Jun 2023 16:28:33 GMT",
    "etag": "\"649c5fb1-971c1b\"",
@@ -1165,7 +1153,7 @@
    "slugs": [
     "flagstaff-az"
    ],
-   "checked_at": "2026-11-18T15:02:39.642Z",
+   "checked_at": "2026-11-18T15:07:22.752Z",
    "status": 200,
    "last_modified": null,
    "etag": null,
@@ -1177,7 +1165,7 @@
     "flint-mi",
     "lansing-mi"
    ],
-   "checked_at": "2026-11-18T15:02:40.508Z",
+   "checked_at": "2026-11-18T15:07:23.280Z",
    "status": 200,
    "last_modified": null,
    "etag": "W/\"0\"",
@@ -1188,7 +1176,7 @@
    "slugs": [
     "fort-wayne-in"
    ],
-   "checked_at": "2026-11-18T15:02:40.941Z",
+   "checked_at": "2026-11-18T15:07:23.325Z",
    "status": 200,
    "last_modified": "Fri, 17 Jul 2026 17:05:40 GMT",
    "etag": "\"6a5a60e4-1b3d77e\"",
@@ -1199,7 +1187,7 @@
    "slugs": [
     "fort-worth-tx"
    ],
-   "checked_at": "2026-11-18T15:02:41.047Z",
+   "checked_at": "2026-11-18T15:07:23.401Z",
    "status": 200,
    "last_modified": "Thu, 27 Feb 2025 09:25:39 GMT",
    "etag": "\"96c4ae06-6e68-4357-bd9a-29462bc91f8c\"",
@@ -1210,7 +1198,7 @@
    "slugs": [
     "frankfort-ky"
    ],
-   "checked_at": "2026-11-18T15:02:41.173Z",
+   "checked_at": "2026-11-18T15:07:23.684Z",
    "status": 200,
    "last_modified": "Fri, 30 Jan 2026 20:19:28 GMT",
    "etag": null,
@@ -1222,7 +1210,7 @@
     "franklin-tn",
     "nashville-tn-vol4"
    ],
-   "checked_at": "2026-11-18T15:02:41.391Z",
+   "checked_at": "2026-11-18T15:07:24.059Z",
    "status": 200,
    "last_modified": "Fri, 27 Aug 2021 14:05:46 GMT",
    "etag": null,
@@ -1233,18 +1221,18 @@
    "slugs": [
     "fremont-ca"
    ],
-   "checked_at": "2026-11-18T15:02:41.781Z",
+   "checked_at": "2026-11-18T15:07:24.226Z",
    "status": 200,
-   "last_modified": null,
+   "last_modified": "Sun, 19 May 2024 23:02:52 GMT",
    "etag": null,
-   "length": null
+   "length": "24204853"
   },
   "https://www.fresnofloodcontrol.org/wp-content/uploads/2022/09/Post-Development-Standards-Technical-Manual.pdf": {
    "url": "https://www.fresnofloodcontrol.org/wp-content/uploads/2022/09/Post-Development-Standards-Technical-Manual.pdf",
    "slugs": [
     "fresno-ca"
    ],
-   "checked_at": "2026-11-18T15:02:42.042Z",
+   "checked_at": "2026-11-18T15:07:24.478Z",
    "status": 200,
    "last_modified": "Mon, 09 Dec 2024 21:32:15 GMT",
    "etag": "\"675761df-5d75c4\"",
@@ -1255,9 +1243,9 @@
    "slugs": [
     "frisco-tx"
    ],
-   "checked_at": "2026-11-18T15:02:42.212Z",
+   "checked_at": "2026-11-18T15:07:24.625Z",
    "status": 200,
-   "last_modified": "Wed, 18 Nov 2026 15:02:42 GMT",
+   "last_modified": "Wed, 18 Nov 2026 15:07:24 GMT",
    "etag": null,
    "length": "7994497"
   },
@@ -1266,7 +1254,7 @@
    "slugs": [
     "ga-gdot-drainage"
    ],
-   "checked_at": "2026-11-18T15:02:42.511Z",
+   "checked_at": "2026-11-18T15:07:24.832Z",
    "status": 200,
    "last_modified": "Thu, 03 Apr 2025 18:47:12 GMT",
    "etag": "\"{4B749D15-679B-4CA2-8ECC-D10078338FA7},2\"",
@@ -1277,7 +1265,7 @@
    "slugs": [
     "garland-tx"
    ],
-   "checked_at": "2026-11-18T15:02:43.158Z",
+   "checked_at": "2026-11-18T15:07:25.109Z",
    "status": 200,
    "last_modified": null,
    "etag": null,
@@ -1288,7 +1276,7 @@
    "slugs": [
     "grand-rapids-mi"
    ],
-   "checked_at": "2026-11-18T15:02:43.960Z",
+   "checked_at": "2026-11-18T15:07:25.975Z",
    "status": 200,
    "last_modified": "Tue, 18 Aug 2026 07:41:35 GMT",
    "etag": "W/\"1dd2ee4fe84b5ec\"",
@@ -1301,7 +1289,7 @@
     "jackson-ms",
     "ms-state-vol2"
    ],
-   "checked_at": "2026-11-18T15:02:44.433Z",
+   "checked_at": "2026-11-18T15:07:26.074Z",
    "status": 200,
    "last_modified": "Tue, 17 Nov 2020 16:34:16 GMT",
    "etag": "\"3ed508-5b45010cff200\"",
@@ -1314,7 +1302,7 @@
     "pasadena-tx",
     "pearland-tx"
    ],
-   "checked_at": "2026-11-18T15:02:45.216Z",
+   "checked_at": "2026-11-18T15:07:26.135Z",
    "status": 200,
    "last_modified": "Fri, 11 Apr 2025 20:46:00 GMT",
    "etag": "\"0f477bb22abdb1:0\"",
@@ -1325,7 +1313,7 @@
    "slugs": [
     "hawaii-dot-pcbmp"
    ],
-   "checked_at": "2026-11-18T15:02:45.328Z",
+   "checked_at": "2026-11-18T15:07:26.192Z",
    "status": 200,
    "last_modified": "Thu, 07 Jul 2022 02:44:10 GMT",
    "etag": null,
@@ -1338,7 +1326,7 @@
     "missoula-mt",
     "mt-deq8"
    ],
-   "checked_at": "2026-11-18T15:02:45.588Z",
+   "checked_at": "2026-11-18T15:07:26.644Z",
    "status": 200,
    "last_modified": "Fri, 20 Sep 2024 15:54:00 GMT",
    "etag": "\"0dce04e75bdb1:0\"",
@@ -1349,9 +1337,9 @@
    "slugs": [
     "high-point-nc"
    ],
-   "checked_at": "2026-11-18T15:02:45.803Z",
+   "checked_at": "2026-11-18T15:07:27.146Z",
    "status": 200,
-   "last_modified": "Wed, 18 Nov 2026 15:02:46 GMT",
+   "last_modified": "Wed, 18 Nov 2026 15:07:27 GMT",
    "etag": null,
    "length": "127838"
   },
@@ -1360,7 +1348,7 @@
    "slugs": [
     "honolulu-hi"
    ],
-   "checked_at": "2026-11-18T15:02:46.763Z",
+   "checked_at": "2026-11-18T15:07:27.341Z",
    "status": 200,
    "last_modified": "Wed, 17 Jul 2024 18:03:29 GMT",
    "etag": "\"66980771-56b51c\"",
@@ -1371,7 +1359,7 @@
    "slugs": [
     "houston-tx"
    ],
-   "checked_at": "2026-11-18T15:02:47.075Z",
+   "checked_at": "2026-11-18T15:07:27.880Z",
    "status": 200,
    "last_modified": "Mon, 31 Jul 2023 03:52:19 GMT",
    "etag": null,
@@ -1382,7 +1370,7 @@
    "slugs": [
     "ia-dot-drainage"
    ],
-   "checked_at": "2026-11-18T15:02:47.551Z",
+   "checked_at": "2026-11-18T15:07:28.124Z",
    "status": 200,
    "last_modified": null,
    "etag": null,
@@ -1393,7 +1381,7 @@
    "slugs": [
     "ia-state-ch1"
    ],
-   "checked_at": "2026-11-18T15:02:47.992Z",
+   "checked_at": "2026-11-18T15:07:28.596Z",
    "status": 200,
    "last_modified": "Thu, 20 Feb 2025 21:40:15 GMT",
    "etag": null,
@@ -1404,7 +1392,7 @@
    "slugs": [
     "id-itd-drainage"
    ],
-   "checked_at": "2026-11-18T15:02:48.133Z",
+   "checked_at": "2026-11-18T15:07:28.748Z",
    "status": 200,
    "last_modified": "Thu, 08 Aug 2013 17:44:22 GMT",
    "etag": "\"3313d2ea5e94ce1:0\"",
@@ -1415,7 +1403,7 @@
    "slugs": [
     "idaho-bmp-catalog"
    ],
-   "checked_at": "2026-11-18T15:02:48.318Z",
+   "checked_at": "2026-11-18T15:07:29.242Z",
    "status": 200,
    "last_modified": "Wed, 26 Nov 2025 10:15:44 GMT",
    "etag": "\"6926d350-2156f08\"",
@@ -1426,7 +1414,7 @@
    "slugs": [
     "il-idot-drainage"
    ],
-   "checked_at": "2026-11-18T15:02:48.591Z",
+   "checked_at": "2026-11-18T15:07:29.439Z",
    "status": 200,
    "last_modified": null,
    "etag": "\"a7d213ed1b626c6f2564e058ef73de0474d32d8eb92c85072dbbd3081e7996bb\"",
@@ -1437,7 +1425,7 @@
    "slugs": [
     "il-iepa-stormwater"
    ],
-   "checked_at": "2026-11-18T15:02:48.657Z",
+   "checked_at": "2026-11-18T15:07:29.765Z",
    "status": 200,
    "last_modified": "Mon, 23 Feb 2026 21:47:08 GMT",
    "etag": "\"685350f5da5dc1:0\"",
@@ -1448,7 +1436,7 @@
    "slugs": [
     "in-indot-drainage"
    ],
-   "checked_at": "2026-11-18T15:02:48.866Z",
+   "checked_at": "2026-11-18T15:07:30.057Z",
    "status": 200,
    "last_modified": "Fri, 20 Mar 2026 17:13:14 GMT",
    "etag": "\"4db11c-64d77cce0de80\"",
@@ -1460,19 +1448,18 @@
     "independence-mo",
     "kansas-city-marc-bmp"
    ],
-   "checked_at": "2026-11-18T15:02:49.156Z",
-   "status": null,
-   "last_modified": null,
-   "etag": null,
-   "length": null,
-   "error": "fetch failed"
+   "checked_at": "2026-11-18T15:07:30.194Z",
+   "status": 200,
+   "last_modified": "Mon, 02 May 2022 18:33:56 GMT",
+   "etag": "\"abf90e-5de0ba2822d00\"",
+   "length": "11270414"
   },
   "https://www.jacksonville.gov/getContentAsset/f2c6099d-cdf0-40da-b6a9-43e4c734282e/135b97c9-84fa-4e82-b956-0fbccec4aa1f/LDPM-Vol2-EFF-2026-01-30-CLEAN-ADA-508.pdf?language=en": {
    "url": "https://www.jacksonville.gov/getContentAsset/f2c6099d-cdf0-40da-b6a9-43e4c734282e/135b97c9-84fa-4e82-b956-0fbccec4aa1f/LDPM-Vol2-EFF-2026-01-30-CLEAN-ADA-508.pdf?language=en",
    "slugs": [
     "jacksonville-fl"
    ],
-   "checked_at": "2026-11-18T15:02:59.146Z",
+   "checked_at": "2026-11-18T15:07:30.505Z",
    "status": 200,
    "last_modified": "Thu, 28 May 2026 19:58:26 GMT",
    "etag": "\"639155807061382332\"",
@@ -1484,7 +1471,7 @@
     "jefferson-city-mo",
     "missouri-manual"
    ],
-   "checked_at": "2026-11-18T15:02:59.393Z",
+   "checked_at": "2026-11-18T15:07:30.748Z",
    "status": 200,
    "last_modified": "Wed, 24 May 2023 20:21:34 GMT",
    "etag": null,
@@ -1495,18 +1482,18 @@
    "slugs": [
     "jersey-city-nj"
    ],
-   "checked_at": "2026-11-18T15:02:59.668Z",
-   "status": 403,
-   "last_modified": null,
-   "etag": null,
-   "length": null
+   "checked_at": "2026-11-18T15:07:30.829Z",
+   "status": 200,
+   "last_modified": "Wed, 16 Apr 2025 23:49:33 GMT",
+   "etag": "\"6800420d-35b02fe\"",
+   "length": "56296190"
   },
   "https://apps.ecology.wa.gov/publications/documents/2410014.pdf": {
    "url": "https://apps.ecology.wa.gov/publications/documents/2410014.pdf",
    "slugs": [
     "kennewick-wa"
    ],
-   "checked_at": "2026-11-18T15:02:59.785Z",
+   "checked_at": "2026-11-18T15:07:31.000Z",
    "status": 200,
    "last_modified": null,
    "etag": null,
@@ -1517,7 +1504,7 @@
    "slugs": [
     "kentucky-bmp"
    ],
-   "checked_at": "2026-11-18T15:03:00.065Z",
+   "checked_at": "2026-11-18T15:07:31.512Z",
    "status": 200,
    "last_modified": "Thu, 08 Jun 2017 14:15:19 GMT",
    "etag": "\"{7B32BEE5-D3D7-4F8D-88D7-A5ADFE92D267},5\"",
@@ -1528,7 +1515,7 @@
    "slugs": [
     "killeen-tx"
    ],
-   "checked_at": "2026-11-18T15:03:00.406Z",
+   "checked_at": "2026-11-18T15:07:31.910Z",
    "status": 200,
    "last_modified": null,
    "etag": null,
@@ -1539,7 +1526,7 @@
    "slugs": [
     "king-county-wa"
    ],
-   "checked_at": "2026-11-18T15:03:01.157Z",
+   "checked_at": "2026-11-18T15:07:32.648Z",
    "status": 200,
    "last_modified": "Wed, 13 Nov 2024 22:31:41 GMT",
    "etag": "\"eadaf0cf1b36db1:0\"",
@@ -1550,9 +1537,9 @@
    "slugs": [
     "knoxville-tn"
    ],
-   "checked_at": "2026-11-18T15:03:01.244Z",
+   "checked_at": "2026-11-18T15:07:33.055Z",
    "status": 200,
-   "last_modified": "Wed, 18 Nov 2026 15:03:01 GMT",
+   "last_modified": "Sat, 14 Nov 2026 05:02:32 GMT",
    "etag": null,
    "length": null
   },
@@ -1561,7 +1548,7 @@
    "slugs": [
     "ks-kdot-drainage"
    ],
-   "checked_at": "2026-11-18T15:03:01.332Z",
+   "checked_at": "2026-11-18T15:07:33.092Z",
    "status": 403,
    "last_modified": null,
    "etag": null,
@@ -1572,7 +1559,7 @@
    "slugs": [
     "ky-kytc-drainage"
    ],
-   "checked_at": "2026-11-18T15:03:01.686Z",
+   "checked_at": "2026-11-18T15:07:33.357Z",
    "status": 200,
    "last_modified": "Mon, 08 Jan 2024 21:32:17 GMT",
    "etag": "\"{44A5FE6E-E6A3-45DD-BC06-C160052CFFEC},7\"",
@@ -1583,7 +1570,7 @@
    "slugs": [
     "la-ladotd-drainage"
    ],
-   "checked_at": "2026-11-18T15:03:01.976Z",
+   "checked_at": "2026-11-18T15:07:33.597Z",
    "status": 200,
    "last_modified": "Tue, 08 Apr 2025 06:20:51 GMT",
    "etag": "\"1dba84e6036dca4\"",
@@ -1594,7 +1581,7 @@
    "slugs": [
     "lacey-wa"
    ],
-   "checked_at": "2026-11-18T15:03:02.058Z",
+   "checked_at": "2026-11-18T15:07:33.728Z",
    "status": 200,
    "last_modified": "Fri, 17 Apr 2026 19:24:44 GMT",
    "etag": "\"69e288fc-2c630a\"",
@@ -1606,7 +1593,7 @@
     "lafayette-la",
     "shreveport-la"
    ],
-   "checked_at": "2026-11-18T15:03:02.375Z",
+   "checked_at": "2026-11-18T15:07:33.788Z",
    "status": 200,
    "last_modified": null,
    "etag": null,
@@ -1617,7 +1604,7 @@
    "slugs": [
     "lakeland-fl"
    ],
-   "checked_at": "2026-11-18T15:03:02.938Z",
+   "checked_at": "2026-11-18T15:07:34.631Z",
    "status": 200,
    "last_modified": "Fri, 07 Nov 2025 20:19:42 GMT",
    "etag": "\"690e545e-417bbd\"",
@@ -1628,7 +1615,7 @@
    "slugs": [
     "lancaster-pa-swmf"
    ],
-   "checked_at": "2026-11-18T15:03:03.003Z",
+   "checked_at": "2026-11-18T15:07:34.683Z",
    "status": 200,
    "last_modified": "Fri, 23 Jun 2023 13:54:14 GMT",
    "etag": "\"6495a406-99af5\"",
@@ -1639,7 +1626,7 @@
    "slugs": [
     "lancaster-pa"
    ],
-   "checked_at": "2026-11-18T15:03:03.137Z",
+   "checked_at": "2026-11-18T15:07:34.839Z",
    "status": 200,
    "last_modified": "Thu, 27 Jun 2024 13:15:46 GMT",
    "etag": "\"667d6602-20189e3\"",
@@ -1650,7 +1637,7 @@
    "slugs": [
     "las-vegas-nv"
    ],
-   "checked_at": "2026-11-18T15:03:03.195Z",
+   "checked_at": "2026-11-18T15:07:34.974Z",
    "status": 200,
    "last_modified": "Thu, 15 Oct 2015 20:27:18 GMT",
    "etag": "\"106436e3877d11:0\"",
@@ -1661,7 +1648,7 @@
    "slugs": [
     "lawrence-ks"
    ],
-   "checked_at": "2026-11-18T15:03:03.412Z",
+   "checked_at": "2026-11-18T15:07:35.255Z",
    "status": 404,
    "last_modified": null,
    "etag": null,
@@ -1672,7 +1659,7 @@
    "slugs": [
     "lexington-ky"
    ],
-   "checked_at": "2026-11-18T15:03:04.791Z",
+   "checked_at": "2026-11-18T15:07:35.957Z",
    "status": 200,
    "last_modified": "Wed, 15 Apr 2026 21:04:01 GMT",
    "etag": "\"69dffd41-89a526\"",
@@ -1683,7 +1670,7 @@
    "slugs": [
     "lincoln-ne"
    ],
-   "checked_at": "2026-11-18T15:03:05.055Z",
+   "checked_at": "2026-11-18T15:07:36.156Z",
    "status": 200,
    "last_modified": "Wed, 26 Feb 2025 09:22:08 GMT",
    "etag": "\"73ce881f-e04c-4774-8bf9-85bbf293e9b2\"",
@@ -1694,7 +1681,7 @@
    "slugs": [
     "long-beach-ca"
    ],
-   "checked_at": "2026-11-18T15:03:05.505Z",
+   "checked_at": "2026-11-18T15:07:36.623Z",
    "status": 200,
    "last_modified": "Fri, 07 Nov 2014 23:24:00 GMT",
    "etag": "\"3613a2-5074d1b924400\"",
@@ -1705,7 +1692,7 @@
    "slugs": [
     "los-angeles-ca"
    ],
-   "checked_at": "2026-11-18T15:03:05.652Z",
+   "checked_at": "2026-11-18T15:07:36.881Z",
    "status": 200,
    "last_modified": "Mon, 19 Oct 2026 15:24:34 GMT",
    "etag": "\"0e5caf1dd5fdd1:0\"",
@@ -1716,7 +1703,7 @@
    "slugs": [
     "louisville-ky"
    ],
-   "checked_at": "2026-11-18T15:03:05.868Z",
+   "checked_at": "2026-11-18T15:07:37.317Z",
    "status": 200,
    "last_modified": "Tue, 27 Sep 2022 15:18:51 GMT",
    "etag": "\"6333145b-34ed658\"",
@@ -1727,7 +1714,7 @@
    "slugs": [
     "lubbock-tx"
    ],
-   "checked_at": "2026-11-18T15:03:06.521Z",
+   "checked_at": "2026-11-18T15:07:38.173Z",
    "status": 403,
    "last_modified": null,
    "etag": null,
@@ -1738,7 +1725,7 @@
    "slugs": [
     "ma-massdot-drainage"
    ],
-   "checked_at": "2026-11-18T15:03:06.639Z",
+   "checked_at": "2026-11-18T15:07:38.273Z",
    "status": 200,
    "last_modified": "Wed, 30 Apr 2025 20:03:39 GMT",
    "etag": "\"6812821b-336101a\"",
@@ -1749,7 +1736,7 @@
    "slugs": [
     "madison-wi"
    ],
-   "checked_at": "2026-11-18T15:03:06.833Z",
+   "checked_at": "2026-11-18T15:07:38.543Z",
    "status": 200,
    "last_modified": null,
    "etag": null,
@@ -1761,9 +1748,9 @@
     "maricopa-county-az",
     "yuma-az"
    ],
-   "checked_at": "2026-11-18T15:03:07.575Z",
+   "checked_at": "2026-11-18T15:07:38.615Z",
    "status": 200,
-   "last_modified": "Wed, 18 Nov 2026 15:03:07 GMT",
+   "last_modified": "Wed, 18 Nov 2026 15:07:38 GMT",
    "etag": null,
    "length": "4862773"
   },
@@ -1772,18 +1759,18 @@
    "slugs": [
     "mcallen-tx"
    ],
-   "checked_at": "2026-11-18T15:03:07.756Z",
-   "status": 403,
-   "last_modified": null,
+   "checked_at": "2026-11-18T15:07:39.005Z",
+   "status": 200,
+   "last_modified": "Mon, 09 Dec 2024 16:54:44 GMT",
    "etag": null,
-   "length": null
+   "length": "2096735"
   },
   "https://www.mckinneytexas.org/DocumentCenter/View/16490/McKinney-Engineering-Design-Manual---Proposed-Rev-6-20241119": {
    "url": "https://www.mckinneytexas.org/DocumentCenter/View/16490/McKinney-Engineering-Design-Manual---Proposed-Rev-6-20241119",
    "slugs": [
     "mckinney-tx"
    ],
-   "checked_at": "2026-11-18T15:03:07.924Z",
+   "checked_at": "2026-11-18T15:07:39.134Z",
    "status": 403,
    "last_modified": null,
    "etag": null,
@@ -1794,7 +1781,7 @@
    "slugs": [
     "md-sha-drainage"
    ],
-   "checked_at": "2026-11-18T15:03:08.034Z",
+   "checked_at": "2026-11-18T15:07:39.417Z",
    "status": 200,
    "last_modified": "Fri, 06 Mar 2026 19:30:36 GMT",
    "etag": "\"{D122E04E-7B3A-4849-AC73-3C9225A2E247},1\"",
@@ -1805,7 +1792,7 @@
    "slugs": [
     "me-dot-drainage"
    ],
-   "checked_at": "2026-11-18T15:03:08.636Z",
+   "checked_at": "2026-11-18T15:07:39.503Z",
    "status": 200,
    "last_modified": null,
    "etag": null,
@@ -1816,7 +1803,7 @@
    "slugs": [
     "memphis-tn"
    ],
-   "checked_at": "2026-11-18T15:03:08.927Z",
+   "checked_at": "2026-11-18T15:07:39.745Z",
    "status": 403,
    "last_modified": null,
    "etag": null,
@@ -1827,7 +1814,7 @@
    "slugs": [
     "mesa-az"
    ],
-   "checked_at": "2026-11-18T15:03:09.026Z",
+   "checked_at": "2026-11-18T15:07:39.843Z",
    "status": 200,
    "last_modified": "Wed, 05 Mar 2025 09:43:51 GMT",
    "etag": "\"0113ddda-0507-4507-9180-6fad803dcef1\"",
@@ -1838,7 +1825,7 @@
    "slugs": [
     "mesquite-tx"
    ],
-   "checked_at": "2026-11-18T15:03:09.538Z",
+   "checked_at": "2026-11-18T15:07:39.983Z",
    "status": 200,
    "last_modified": null,
    "etag": null,
@@ -1849,7 +1836,7 @@
    "slugs": [
     "mi-mdot-drainage"
    ],
-   "checked_at": "2026-11-18T15:03:10.162Z",
+   "checked_at": "2026-11-18T15:07:40.474Z",
    "status": 403,
    "last_modified": null,
    "etag": null,
@@ -1860,7 +1847,7 @@
    "slugs": [
     "michigan-manual"
    ],
-   "checked_at": "2026-11-18T15:03:10.299Z",
+   "checked_at": "2026-11-18T15:07:40.565Z",
    "status": 403,
    "last_modified": null,
    "etag": null,
@@ -1871,18 +1858,18 @@
    "slugs": [
     "milwaukee-wi"
    ],
-   "checked_at": "2026-11-18T15:03:10.495Z",
+   "checked_at": "2026-11-18T15:07:40.865Z",
    "status": 200,
-   "last_modified": null,
+   "last_modified": "Fri, 31 Jul 2020 15:59:34 GMT",
    "etag": null,
-   "length": null
+   "length": "268171"
   },
   "https://www2.minneapolismn.gov/media/content-assets/www2-documents/government/Stormwater-and-Sanitary-Sewer-Guide.pdf": {
    "url": "https://www2.minneapolismn.gov/media/content-assets/www2-documents/government/Stormwater-and-Sanitary-Sewer-Guide.pdf",
    "slugs": [
     "minneapolis-mn"
    ],
-   "checked_at": "2026-11-18T15:03:10.736Z",
+   "checked_at": "2026-11-18T15:07:41.052Z",
    "status": 200,
    "last_modified": "Wed, 16 Jul 2025 04:32:39 GMT",
    "etag": "\"4f030e-63a0462062510\"",
@@ -1893,7 +1880,7 @@
    "slugs": [
     "mn-mndot-drainage"
    ],
-   "checked_at": "2026-11-18T15:03:10.983Z",
+   "checked_at": "2026-11-18T15:07:41.182Z",
    "status": 200,
    "last_modified": null,
    "etag": null,
@@ -1904,18 +1891,18 @@
    "slugs": [
     "mobile-al"
    ],
-   "checked_at": "2026-11-18T15:03:13.926Z",
+   "checked_at": "2026-11-18T15:07:44.147Z",
    "status": 200,
-   "last_modified": null,
-   "etag": null,
-   "length": null
+   "last_modified": "Mon, 16 Oct 2023 19:52:54 GMT",
+   "etag": "\"d34b4e-652d9496-0;;;\"",
+   "length": "13847374"
   },
   "https://mdot.ms.gov/documents/Roadway%20Design/Standards/Manuals/MDOT%20Roadway%20Design%20Drainage%20Manual%20-%20NOVEMBER%202025.pdf": {
    "url": "https://mdot.ms.gov/documents/Roadway%20Design/Standards/Manuals/MDOT%20Roadway%20Design%20Drainage%20Manual%20-%20NOVEMBER%202025.pdf",
    "slugs": [
     "ms-mdot-drainage"
    ],
-   "checked_at": "2026-11-18T15:03:14.188Z",
+   "checked_at": "2026-11-18T15:07:44.261Z",
    "status": 200,
    "last_modified": "Wed, 03 Dec 2025 15:49:03 GMT",
    "etag": "\"f6a899596c64dc1:0\"",
@@ -1926,7 +1913,7 @@
    "slugs": [
     "mt-mdt-drainage"
    ],
-   "checked_at": "2026-11-18T15:03:14.265Z",
+   "checked_at": "2026-11-18T15:07:44.338Z",
    "status": 200,
    "last_modified": "Tue, 30 Jun 2026 14:08:00 GMT",
    "etag": "\"e8723fdc998dd1:0\"",
@@ -1937,7 +1924,7 @@
    "slugs": [
     "murfreesboro-tn"
    ],
-   "checked_at": "2026-11-18T15:03:14.495Z",
+   "checked_at": "2026-11-18T15:07:44.944Z",
    "status": 403,
    "last_modified": null,
    "etag": null,
@@ -1948,7 +1935,7 @@
    "slugs": [
     "nc-ncdot-drainage"
    ],
-   "checked_at": "2026-11-18T15:03:14.584Z",
+   "checked_at": "2026-11-18T15:07:45.180Z",
    "status": 200,
    "last_modified": "Wed, 21 Jun 2023 16:39:10 GMT",
    "etag": "\"{ADC34085-97CF-4395-9660-76B05EA761BA},19pub\"",
@@ -1959,7 +1946,7 @@
    "slugs": [
     "nd-nddot-drainage"
    ],
-   "checked_at": "2026-11-18T15:03:15.055Z",
+   "checked_at": "2026-11-18T15:07:45.325Z",
    "status": 200,
    "last_modified": "Wed, 22 Apr 2026 22:57:21 GMT",
    "etag": "\"3ce086-65014745720e9\"",
@@ -1970,7 +1957,7 @@
    "slugs": [
     "ne-ndot-stf"
    ],
-   "checked_at": "2026-11-18T15:03:15.298Z",
+   "checked_at": "2026-11-18T15:07:45.600Z",
    "status": 200,
    "last_modified": "Wed, 08 Apr 2026 18:46:27 GMT",
    "etag": "\"1dcc788019f05bc\"",
@@ -1981,7 +1968,7 @@
    "slugs": [
     "new-orleans-jefferson-la"
    ],
-   "checked_at": "2026-11-18T15:03:15.502Z",
+   "checked_at": "2026-11-18T15:07:46.129Z",
    "status": 200,
    "last_modified": "Thu, 30 Nov 2023 01:24:06 GMT",
    "etag": "\"1473de92b23da1:0\"",
@@ -1992,7 +1979,7 @@
    "slugs": [
     "nh-nhdot-drainage"
    ],
-   "checked_at": "2026-11-18T15:03:15.648Z",
+   "checked_at": "2026-11-18T15:07:46.361Z",
    "status": 403,
    "last_modified": null,
    "etag": null,
@@ -2003,7 +1990,7 @@
    "slugs": [
     "nj-njdot-drainage"
    ],
-   "checked_at": "2026-11-18T15:03:15.796Z",
+   "checked_at": "2026-11-18T15:07:46.469Z",
    "status": 200,
    "last_modified": "Tue, 08 Apr 2014 12:28:08 GMT",
    "etag": "\"5098f1-5343eb58\"",
@@ -2014,7 +2001,7 @@
    "slugs": [
     "nm-nmdot-drainage"
    ],
-   "checked_at": "2026-11-18T15:03:15.932Z",
+   "checked_at": "2026-11-18T15:07:46.617Z",
    "status": 206,
    "last_modified": "Wed, 09 Jun 2021 19:38:03 GMT",
    "etag": "\"374549554fc5e2eb6a74214934025012-8\"",
@@ -2025,7 +2012,7 @@
    "slugs": [
     "norfolk-va"
    ],
-   "checked_at": "2026-11-18T15:03:16.716Z",
+   "checked_at": "2026-11-18T15:07:47.232Z",
    "status": 200,
    "last_modified": null,
    "etag": null,
@@ -2036,19 +2023,18 @@
    "slugs": [
     "north-little-rock-ar"
    ],
-   "checked_at": "2026-11-18T15:03:17.139Z",
-   "status": null,
+   "checked_at": "2026-11-18T15:07:47.656Z",
+   "status": 200,
    "last_modified": null,
    "etag": null,
-   "length": null,
-   "error": "fetch failed"
+   "length": null
   },
   "https://www.dec.ny.gov/fs/docs/pdf/erosionsediment_bluebook.pdf": {
    "url": "https://www.dec.ny.gov/fs/docs/pdf/erosionsediment_bluebook.pdf",
    "slugs": [
     "ny-bluebook"
    ],
-   "checked_at": "2026-11-18T15:03:27.421Z",
+   "checked_at": "2026-11-18T15:07:49.365Z",
    "status": 200,
    "last_modified": "Wed, 28 Jun 2023 19:55:19 GMT",
    "etag": "\"13370b2-5ff35f69717c0\"",
@@ -2059,7 +2045,7 @@
    "slugs": [
     "ny-nysdot-drainage"
    ],
-   "checked_at": "2026-11-18T15:03:27.908Z",
+   "checked_at": "2026-11-18T15:07:49.539Z",
    "status": 200,
    "last_modified": null,
    "etag": null,
@@ -2070,7 +2056,7 @@
    "slugs": [
     "ny-state"
    ],
-   "checked_at": "2026-11-18T15:03:28.583Z",
+   "checked_at": "2026-11-18T15:07:49.675Z",
    "status": 200,
    "last_modified": "Tue, 23 Jul 2024 14:04:04 GMT",
    "etag": "\"1385569-61deaa25fbd00\"",
@@ -2081,7 +2067,7 @@
    "slugs": [
     "nyc-ny"
    ],
-   "checked_at": "2026-11-18T15:03:28.988Z",
+   "checked_at": "2026-11-18T15:07:49.839Z",
    "status": 200,
    "last_modified": "Fri, 14 Mar 2025 18:08:48 GMT",
    "etag": "\"67d470b0-b5129e\"",
@@ -2092,7 +2078,7 @@
    "slugs": [
     "oakland-ca"
    ],
-   "checked_at": "2026-11-18T15:03:29.152Z",
+   "checked_at": "2026-11-18T15:07:49.974Z",
    "status": 200,
    "last_modified": "Thu, 01 Nov 2018 20:12:24 GMT",
    "etag": "\"0f56c7e68d4e5b40c4d9e2570e9cde55\"",
@@ -2103,7 +2089,7 @@
    "slugs": [
     "oh-odot-drainage"
    ],
-   "checked_at": "2026-11-18T15:03:29.187Z",
+   "checked_at": "2026-11-18T15:07:50.305Z",
    "status": 200,
    "last_modified": "Thu, 20 Feb 2025 17:11:40 GMT",
    "etag": "\"735c7bbf51a3e0185c651ec345e6cd8c\"",
@@ -2114,7 +2100,7 @@
    "slugs": [
     "oklahoma-odot-ch10"
    ],
-   "checked_at": "2026-11-18T15:03:29.382Z",
+   "checked_at": "2026-11-18T15:07:50.331Z",
    "status": 200,
    "last_modified": "Thu, 22 Oct 2020 08:08:47 GMT",
    "etag": "\"9c6973-5b23df93061c0\"",
@@ -2125,21 +2111,21 @@
    "slugs": [
     "omaha-ne"
    ],
-   "checked_at": "2026-11-18T15:03:29.502Z",
-   "status": 403,
-   "last_modified": null,
-   "etag": null,
-   "length": null
+   "checked_at": "2026-11-18T15:07:50.381Z",
+   "status": 200,
+   "last_modified": "Wed, 01 Nov 2017 23:52:24 GMT",
+   "etag": "\"59fa5e38-4443c\"",
+   "length": "279612"
   },
   "https://www.oregon.gov/odot/hydraulics/Docs_Hydraulics_Manual/Hydraulics-13.pdf": {
    "url": "https://www.oregon.gov/odot/hydraulics/Docs_Hydraulics_Manual/Hydraulics-13.pdf",
    "slugs": [
     "or-odot-drainage"
    ],
-   "checked_at": "2026-11-18T15:03:29.678Z",
+   "checked_at": "2026-11-18T15:07:50.618Z",
    "status": 200,
    "last_modified": "Thu, 25 Jun 2026 10:47:48 GMT",
-   "etag": "\"{45DB2238-429D-46A1-8620-13F5DD813033},14\"",
+   "etag": "W/\"{45DB2238-429D-46A1-8620-13F5DD813033},14\"",
    "length": "65623"
   },
   "https://pwip.oc.gov/sites/ocpwocip/files/2021-08/OC%20LDM%20-%202nd%20Edition-secured.pdf": {
@@ -2147,7 +2133,7 @@
    "slugs": [
     "orange-county-ca"
    ],
-   "checked_at": "2026-11-18T15:03:29.811Z",
+   "checked_at": "2026-11-18T15:07:50.800Z",
    "status": 200,
    "last_modified": "Mon, 23 Aug 2021 16:38:51 GMT",
    "etag": null,
@@ -2158,7 +2144,7 @@
    "slugs": [
     "oregon-manual"
    ],
-   "checked_at": "2026-11-18T15:03:29.892Z",
+   "checked_at": "2026-11-18T15:07:51.212Z",
    "status": 200,
    "last_modified": "Thu, 08 Oct 2020 18:50:17 GMT",
    "etag": "\"1100f7c-5b12d4d9c9708\"",
@@ -2169,7 +2155,7 @@
    "slugs": [
     "orlando-fl"
    ],
-   "checked_at": "2026-11-18T15:03:30.159Z",
+   "checked_at": "2026-11-18T15:07:51.370Z",
    "status": 200,
    "last_modified": "Thu, 16 Apr 2026 17:45:01 GMT",
    "etag": "\"24581aa5-8082-4a17-a8a5-8ccf6ac1adc6\"",
@@ -2180,7 +2166,7 @@
    "slugs": [
     "overland-park-ks"
    ],
-   "checked_at": "2026-11-18T15:03:30.438Z",
+   "checked_at": "2026-11-18T15:07:51.454Z",
    "status": 200,
    "last_modified": null,
    "etag": "W/\"0\"",
@@ -2191,7 +2177,7 @@
    "slugs": [
     "pa-bmp-2006"
    ],
-   "checked_at": "2026-11-18T15:03:30.802Z",
+   "checked_at": "2026-11-18T15:07:51.502Z",
    "status": 200,
    "last_modified": "Wed, 25 Mar 2026 11:31:00 GMT",
    "etag": "\"9e81e9da4abcdc1:0\"",
@@ -2202,7 +2188,7 @@
    "slugs": [
     "pa-penndot-drainage"
    ],
-   "checked_at": "2026-11-18T15:03:31.138Z",
+   "checked_at": "2026-11-18T15:07:51.904Z",
    "status": 200,
    "last_modified": "Wed, 22 Jan 2025 19:21:38 GMT",
    "etag": "\"0x8DD3B19FE678B94\"",
@@ -2213,7 +2199,7 @@
    "slugs": [
     "peoria-il"
    ],
-   "checked_at": "2026-11-18T15:03:31.581Z",
+   "checked_at": "2026-11-18T15:07:52.147Z",
    "status": 200,
    "last_modified": null,
    "etag": null,
@@ -2224,7 +2210,7 @@
    "slugs": [
     "philadelphia-pa"
    ],
-   "checked_at": "2026-11-18T15:03:32.254Z",
+   "checked_at": "2026-11-18T15:07:53.192Z",
    "status": 200,
    "last_modified": "Tue, 07 Jul 2026 21:28:22 GMT",
    "etag": "\"081e5ed83764d555\"",
@@ -2235,7 +2221,7 @@
    "slugs": [
     "phoenix-az"
    ],
-   "checked_at": "2026-11-18T15:03:32.385Z",
+   "checked_at": "2026-11-18T15:07:53.257Z",
    "status": 200,
    "last_modified": "Fri, 03 Jan 2025 23:25:35 GMT",
    "etag": "\"0x8DD2C4DECB84237\"",
@@ -2248,7 +2234,7 @@
     "sd-dot-esc",
     "sioux-falls-sd"
    ],
-   "checked_at": "2026-11-18T15:03:32.775Z",
+   "checked_at": "2026-11-18T15:07:53.944Z",
    "status": 200,
    "last_modified": "Thu, 08 May 2025 21:15:10 GMT",
    "etag": "\"1dbc05e4785fcb9\"",
@@ -2259,7 +2245,7 @@
    "slugs": [
     "pinellas-county-fl"
    ],
-   "checked_at": "2026-11-18T15:03:33.081Z",
+   "checked_at": "2026-11-18T15:07:54.165Z",
    "status": 200,
    "last_modified": "Tue, 06 Aug 2024 13:49:00 GMT",
    "etag": "\"66b229cc-1a1a238\"",
@@ -2270,7 +2256,7 @@
    "slugs": [
     "pittsburgh-pa"
    ],
-   "checked_at": "2026-11-18T15:03:33.593Z",
+   "checked_at": "2026-11-18T15:07:54.729Z",
    "status": 200,
    "last_modified": "Wed, 23 Mar 2022 13:42:54 GMT",
    "etag": "\"e044431d5ddf17c487a1350173ee0f51\"",
@@ -2281,7 +2267,7 @@
    "slugs": [
     "plano-tx"
    ],
-   "checked_at": "2026-11-18T15:03:34.139Z",
+   "checked_at": "2026-11-18T15:07:56.075Z",
    "status": 200,
    "last_modified": null,
    "etag": "W/\"3\"",
@@ -2292,7 +2278,7 @@
    "slugs": [
     "portland-or"
    ],
-   "checked_at": "2026-11-18T15:03:34.394Z",
+   "checked_at": "2026-11-18T15:07:56.225Z",
    "status": 200,
    "last_modified": "Fri, 09 Apr 2021 01:29:04 GMT",
    "etag": "\"606fade0-1c68216\"",
@@ -2303,7 +2289,7 @@
    "slugs": [
     "prescott-valley-az"
    ],
-   "checked_at": "2026-11-18T15:03:34.935Z",
+   "checked_at": "2026-11-18T15:07:56.586Z",
    "status": 200,
    "last_modified": "Fri, 14 Nov 2025 19:41:46 GMT",
    "etag": "\"df8775b69e55dc1:0\"",
@@ -2314,7 +2300,7 @@
    "slugs": [
     "providence-ri"
    ],
-   "checked_at": "2026-11-18T15:03:35.577Z",
+   "checked_at": "2026-11-18T15:07:56.765Z",
    "status": 200,
    "last_modified": "Thu, 28 Apr 2022 19:39:54 GMT",
    "etag": null,
@@ -2325,7 +2311,7 @@
    "slugs": [
     "raleigh-nc"
    ],
-   "checked_at": "2026-11-18T15:03:35.915Z",
+   "checked_at": "2026-11-18T15:07:56.844Z",
    "status": 200,
    "last_modified": "Tue, 14 Jan 2025 22:21:19 GMT",
    "etag": "0x8DD34E9C4F848D4",
@@ -2336,7 +2322,7 @@
    "slugs": [
     "reno-nv"
    ],
-   "checked_at": "2026-11-18T15:03:36.452Z",
+   "checked_at": "2026-11-18T15:07:56.873Z",
    "status": 200,
    "last_modified": "Mon, 20 Apr 2026 21:26:07 GMT",
    "etag": "\"0b5f4dcd1dc1:0\"",
@@ -2347,7 +2333,7 @@
    "slugs": [
     "ri-ridot-drainage"
    ],
-   "checked_at": "2026-11-18T15:03:36.658Z",
+   "checked_at": "2026-11-18T15:07:57.166Z",
    "status": 200,
    "last_modified": "Thu, 01 Oct 2026 16:22:14 GMT",
    "etag": "\"7685415c151dd1:0\"",
@@ -2358,7 +2344,7 @@
    "slugs": [
     "ri-state"
    ],
-   "checked_at": "2026-11-18T15:03:37.041Z",
+   "checked_at": "2026-11-18T15:07:57.309Z",
    "status": 200,
    "last_modified": "Tue, 07 Apr 2015 13:23:43 GMT",
    "etag": "\"216af113671d01:0\"",
@@ -2369,7 +2355,7 @@
    "slugs": [
     "richmond-va"
    ],
-   "checked_at": "2026-11-18T15:03:37.312Z",
+   "checked_at": "2026-11-18T15:07:57.422Z",
    "status": 200,
    "last_modified": "Mon, 14 Jul 2025 19:24:26 GMT",
    "etag": null,
@@ -2380,7 +2366,7 @@
    "slugs": [
     "riverside-county-ca"
    ],
-   "checked_at": "2026-11-18T15:03:37.392Z",
+   "checked_at": "2026-11-18T15:07:57.487Z",
    "status": 200,
    "last_modified": "Wed, 23 Sep 2026 19:37:19 GMT",
    "etag": "\"2fc739-65c2b9c80141f\"",
@@ -2391,7 +2377,7 @@
    "slugs": [
     "roanoke-va"
    ],
-   "checked_at": "2026-11-18T15:03:37.777Z",
+   "checked_at": "2026-11-18T15:07:57.630Z",
    "status": 403,
    "last_modified": null,
    "etag": null,
@@ -2402,7 +2388,7 @@
    "slugs": [
     "rochester-mn"
    ],
-   "checked_at": "2026-11-18T15:03:37.876Z",
+   "checked_at": "2026-11-18T15:07:57.742Z",
    "status": 200,
    "last_modified": "Thu, 27 Aug 2026 07:48:07 GMT",
    "etag": "W/\"1dd35f865f35920\"",
@@ -2413,7 +2399,7 @@
    "slugs": [
     "rockford-il"
    ],
-   "checked_at": "2026-11-18T15:03:38.288Z",
+   "checked_at": "2026-11-18T15:07:58.029Z",
    "status": 200,
    "last_modified": null,
    "etag": null,
@@ -2424,7 +2410,7 @@
    "slugs": [
     "round-rock-tx"
    ],
-   "checked_at": "2026-11-18T15:03:38.854Z",
+   "checked_at": "2026-11-18T15:07:58.650Z",
    "status": 200,
    "last_modified": "Sat, 10 Jul 2021 02:04:32 GMT",
    "etag": "\"60e90030-637c\"",
@@ -2435,7 +2421,7 @@
    "slugs": [
     "sacramento-ca"
    ],
-   "checked_at": "2026-11-18T15:03:39.033Z",
+   "checked_at": "2026-11-18T15:07:58.722Z",
    "status": 200,
    "last_modified": "Tue, 08 Sep 2026 15:46:30 GMT",
    "etag": "\"577383-65afaa366a180-gzip\"",
@@ -2446,7 +2432,7 @@
    "slugs": [
     "saint-paul-mn"
    ],
-   "checked_at": "2026-11-18T15:03:39.285Z",
+   "checked_at": "2026-11-18T15:07:59.065Z",
    "status": 200,
    "last_modified": "Thu, 29 Jan 2026 21:10:34 GMT",
    "etag": null,
@@ -2457,7 +2443,7 @@
    "slugs": [
     "salem-or"
    ],
-   "checked_at": "2026-11-18T15:03:39.530Z",
+   "checked_at": "2026-11-18T15:07:59.218Z",
    "status": 403,
    "last_modified": null,
    "etag": null,
@@ -2468,7 +2454,7 @@
    "slugs": [
     "salt-lake-city-ut"
    ],
-   "checked_at": "2026-11-18T15:03:39.813Z",
+   "checked_at": "2026-11-18T15:07:59.529Z",
    "status": 200,
    "last_modified": "Tue, 13 Feb 2024 05:59:00 GMT",
    "etag": "\"02a24bd415eda1:0\"",
@@ -2479,7 +2465,7 @@
    "slugs": [
     "san-bernardino-county-ca"
    ],
-   "checked_at": "2026-11-18T15:03:40.048Z",
+   "checked_at": "2026-11-18T15:07:59.708Z",
    "status": 200,
    "last_modified": "Thu, 23 Jan 2025 18:07:38 GMT",
    "etag": "\"243b55-62c637c42bc63-gzip\"",
@@ -2490,7 +2476,7 @@
    "slugs": [
     "san-francisco-ca"
    ],
-   "checked_at": "2026-11-18T15:03:40.263Z",
+   "checked_at": "2026-11-18T15:07:59.983Z",
    "status": 200,
    "last_modified": "Sat, 07 Nov 2020 06:55:04 GMT",
    "etag": "\"5fa644c8-9bf683\"",
@@ -2501,18 +2487,18 @@
    "slugs": [
     "san-jose-ca"
    ],
-   "checked_at": "2026-11-18T15:03:40.546Z",
+   "checked_at": "2026-11-18T15:08:00.244Z",
    "status": 200,
-   "last_modified": null,
-   "etag": null,
-   "length": null
+   "last_modified": "Sat, 02 Nov 2024 00:21:28 GMT",
+   "etag": "\"99b108-67257088-cfd722933f098e3f;;;\"",
+   "length": "10072328"
   },
   "https://sustainability.santabarbaraca.gov/sites/default/files/documents/Parks%20%26%20Recreation/Creeks/Final%20Guidance%20Manual.pdf": {
    "url": "https://sustainability.santabarbaraca.gov/sites/default/files/documents/Parks%20%26%20Recreation/Creeks/Final%20Guidance%20Manual.pdf",
    "slugs": [
     "santa-barbara-ca"
    ],
-   "checked_at": "2026-11-18T15:03:40.873Z",
+   "checked_at": "2026-11-18T15:08:00.505Z",
    "status": 200,
    "last_modified": "Tue, 11 Feb 2025 00:40:55 GMT",
    "etag": "\"67aa9c97-9a1aad\"",
@@ -2523,7 +2509,7 @@
    "slugs": [
     "santa-rosa-ca"
    ],
-   "checked_at": "2026-11-18T15:03:41.229Z",
+   "checked_at": "2026-11-18T15:08:00.833Z",
    "status": 403,
    "last_modified": null,
    "etag": null,
@@ -2534,7 +2520,7 @@
    "slugs": [
     "savannah-ga-css"
    ],
-   "checked_at": "2026-11-18T15:03:41.330Z",
+   "checked_at": "2026-11-18T15:08:01.099Z",
    "status": 200,
    "last_modified": "Wed, 17 Aug 2011 14:54:46 GMT",
    "etag": "\"03fbd9aed5ccc1:0\"",
@@ -2545,7 +2531,7 @@
    "slugs": [
     "sc-scdot-drainage"
    ],
-   "checked_at": "2026-11-18T15:03:41.609Z",
+   "checked_at": "2026-11-18T15:08:01.169Z",
    "status": 200,
    "last_modified": "Tue, 07 May 2024 14:45:58 GMT",
    "etag": "\"0x8DC6EA46828760A\"",
@@ -2556,7 +2542,7 @@
    "slugs": [
     "scottsdale-az"
    ],
-   "checked_at": "2026-11-18T15:03:41.909Z",
+   "checked_at": "2026-11-18T15:08:01.363Z",
    "status": 200,
    "last_modified": "Wed, 21 Feb 2018 00:49:31 GMT",
    "etag": "\"SJW/7vZ2HmV4Enevcrt9Iw==\"",
@@ -2567,10 +2553,10 @@
    "slugs": [
     "seattle-wa-2026"
    ],
-   "checked_at": "2026-11-18T15:03:42.005Z",
+   "checked_at": "2026-11-18T15:08:01.493Z",
    "status": 200,
-   "last_modified": "Sat, 14 Nov 2026 10:28:52 GMT",
-   "etag": "\"LYIKyIOMCB5N2LhsmvWi6A==\"",
+   "last_modified": "Sat, 14 Nov 2026 11:47:49 GMT",
+   "etag": "\"yS4qimczSefITrhxR/7SgA==\"",
    "length": "49434854"
   },
   "https://www.seattle.gov/documents/Departments/SDCI/Codes/ChangesToCodes/UpdatingStormwaterRegulations/2021SWFullManualFinalClean.pdf": {
@@ -2578,10 +2564,10 @@
    "slugs": [
     "seattle-wa"
    ],
-   "checked_at": "2026-11-18T15:03:42.098Z",
+   "checked_at": "2026-11-18T15:08:01.626Z",
    "status": 200,
-   "last_modified": "Sat, 14 Nov 2026 12:35:40 GMT",
-   "etag": "\"9ZhxrXXd6JDzSMmsdpTRtw==\"",
+   "last_modified": "Sat, 14 Nov 2026 11:10:48 GMT",
+   "etag": "\"TnTAE1YscRQEGkAe5u5JVg==\"",
    "length": "14869794"
   },
   "https://www.des.sc.gov/sites/des/files/Documents/BOW/Stormwater/BMP/BMPFieldManual.pdf": {
@@ -2589,29 +2575,18 @@
    "slugs": [
     "south-carolina-manual"
    ],
-   "checked_at": "2026-11-18T15:03:42.138Z",
+   "checked_at": "2026-11-18T15:08:01.743Z",
    "status": 200,
    "last_modified": "Fri, 13 Feb 2026 16:48:56 GMT",
    "etag": null,
    "length": "21947726"
-  },
-  "https://sslc.gov/DocumentCenter/View/475/South-Salt-Lake-Stormwater-Design-Manual-PDF": {
-   "url": "https://sslc.gov/DocumentCenter/View/475/South-Salt-Lake-Stormwater-Design-Manual-PDF",
-   "slugs": [
-    "south-salt-lake-ut"
-   ],
-   "checked_at": "2026-11-18T14:55:45.311Z",
-   "status": 404,
-   "last_modified": null,
-   "etag": null,
-   "length": "97129"
   },
   "https://www.spokanecounty.gov/DocumentCenter/View/1640/Spokane-Regional-Stormwater-Manual-PDF": {
    "url": "https://www.spokanecounty.gov/DocumentCenter/View/1640/Spokane-Regional-Stormwater-Manual-PDF",
    "slugs": [
     "spokane-wa"
    ],
-   "checked_at": "2026-11-18T15:03:42.828Z",
+   "checked_at": "2026-11-18T15:08:02.325Z",
    "status": 403,
    "last_modified": null,
    "etag": null,
@@ -2622,7 +2597,7 @@
    "slugs": [
     "springfield-il"
    ],
-   "checked_at": "2026-11-18T15:03:42.918Z",
+   "checked_at": "2026-11-18T15:08:02.438Z",
    "status": 200,
    "last_modified": "Mon, 20 Apr 2026 19:55:17 GMT",
    "etag": null,
@@ -2633,29 +2608,18 @@
    "slugs": [
     "springfield-mo"
    ],
-   "checked_at": "2026-11-18T15:03:43.191Z",
-   "status": 403,
-   "last_modified": null,
+   "checked_at": "2026-11-18T15:08:02.866Z",
+   "status": 200,
+   "last_modified": "Wed, 18 Nov 2026 15:08:03 GMT",
    "etag": null,
-   "length": "5979"
-  },
-  "https://www.rockhillmo.net/sites/g/files/vyhlif1136/f/uploads/site_design_guidance.pdf": {
-   "url": "https://www.rockhillmo.net/sites/g/files/vyhlif1136/f/uploads/site_design_guidance.pdf",
-   "slugs": [
-    "st-louis-mo"
-   ],
-   "checked_at": "2026-11-18T14:55:46.350Z",
-   "status": 404,
-   "last_modified": null,
-   "etag": null,
-   "length": "70759"
+   "length": "21890695"
   },
   "https://www.sjwater.org/Portals/0/ThemePluginPro/uploads/2025/7/1/FULL%20FINAL%20SWQCCP%20Stockton%20SJC%20March%202025_1.pdf": {
    "url": "https://www.sjwater.org/Portals/0/ThemePluginPro/uploads/2025/7/1/FULL%20FINAL%20SWQCCP%20Stockton%20SJC%20March%202025_1.pdf",
    "slugs": [
     "stockton-ca"
    ],
-   "checked_at": "2026-11-18T15:03:43.285Z",
+   "checked_at": "2026-11-18T15:08:03.265Z",
    "status": 200,
    "last_modified": "Tue, 01 Jul 2025 15:59:18 GMT",
    "etag": "\"cf81f1aa1eadb1:0\"",
@@ -2666,7 +2630,7 @@
    "slugs": [
     "tacoma-wa"
    ],
-   "checked_at": "2026-11-18T15:03:43.628Z",
+   "checked_at": "2026-11-18T15:08:03.636Z",
    "status": 200,
    "last_modified": "Thu, 11 Aug 2016 00:01:19 GMT",
    "etag": "\"c4b6e27c63f3d11:0\"",
@@ -2677,7 +2641,7 @@
    "slugs": [
     "tahoe-trpa-bmp"
    ],
-   "checked_at": "2026-11-18T15:03:44.097Z",
+   "checked_at": "2026-11-18T15:08:04.052Z",
    "status": 200,
    "last_modified": "Fri, 13 Mar 2015 20:16:30 GMT",
    "etag": "\"0e37b97ca5dd01:0\"",
@@ -2688,7 +2652,7 @@
    "slugs": [
     "tarrant-county-tx"
    ],
-   "checked_at": "2026-11-18T15:03:44.269Z",
+   "checked_at": "2026-11-18T15:08:04.536Z",
    "status": 200,
    "last_modified": "Fri, 17 Feb 2023 21:53:33 GMT",
    "etag": "\"0x8DB11316A251374\"",
@@ -2699,7 +2663,7 @@
    "slugs": [
     "tn-state"
    ],
-   "checked_at": "2026-11-18T15:03:44.625Z",
+   "checked_at": "2026-11-18T15:08:04.907Z",
    "status": 200,
    "last_modified": "Mon, 29 Jan 2024 17:05:21 GMT",
    "etag": null,
@@ -2710,18 +2674,18 @@
    "slugs": [
     "tn-tdot-drainage"
    ],
-   "checked_at": "2026-11-18T15:03:44.852Z",
-   "status": 200,
-   "last_modified": "Tue, 29 Apr 2025 13:40:17 GMT",
-   "etag": "\"b03720-633eaf0e27240-gzip\"",
-   "length": null
+   "checked_at": "2026-11-18T15:08:04.954Z",
+   "status": 403,
+   "last_modified": null,
+   "etag": null,
+   "length": "118"
   },
   "https://cot-wp-uploads.s3.amazonaws.com/wp-content/uploads/utilities/stormwater/Topeka+SW+Design+Handbook.pdf": {
    "url": "https://cot-wp-uploads.s3.amazonaws.com/wp-content/uploads/utilities/stormwater/Topeka+SW+Design+Handbook.pdf",
    "slugs": [
     "topeka-ks"
    ],
-   "checked_at": "2026-11-18T15:03:45.326Z",
+   "checked_at": "2026-11-18T15:08:05.141Z",
    "status": 200,
    "last_modified": "Fri, 31 Mar 2023 16:50:13 GMT",
    "etag": "\"e64352714a445821b46a424193c0704c\"",
@@ -2732,7 +2696,7 @@
    "slugs": [
     "tucson-az-detention"
    ],
-   "checked_at": "2026-11-18T15:03:45.553Z",
+   "checked_at": "2026-11-18T15:08:05.265Z",
    "status": 200,
    "last_modified": "Wed, 05 Mar 2025 10:15:44 GMT",
    "etag": "\"1f9b3006-7d43-49de-bf84-f3031ad19f56\"",
@@ -2743,18 +2707,18 @@
    "slugs": [
     "tucson-az"
    ],
-   "checked_at": "2026-11-18T15:03:45.688Z",
+   "checked_at": "2026-11-18T15:08:05.514Z",
    "status": 200,
    "last_modified": "Wed, 05 Mar 2025 09:48:11 GMT",
    "etag": "\"8a9c756d-9d67-48a9-8f80-8d81c50c54b3\"",
-   "length": "1"
+   "length": "12411885"
   },
   "https://www.cityoftulsa.org/media/11859/stormwatermanagementcriteriamanual-june2019.pdf": {
    "url": "https://www.cityoftulsa.org/media/11859/stormwatermanagementcriteriamanual-june2019.pdf",
    "slugs": [
     "tulsa-ok"
    ],
-   "checked_at": "2026-11-18T15:03:46.105Z",
+   "checked_at": "2026-11-18T15:08:05.639Z",
    "status": 200,
    "last_modified": "Wed, 11 Dec 2019 18:28:37 GMT",
    "etag": "\"7147e2cd50b0d51:0\"",
@@ -2765,7 +2729,7 @@
    "slugs": [
     "tx-edwards-rg348"
    ],
-   "checked_at": "2026-11-18T15:03:46.456Z",
+   "checked_at": "2026-11-18T15:08:06.213Z",
    "status": 200,
    "last_modified": "Wed, 14 Oct 2026 14:12:08 GMT",
    "etag": "\"|1772099122.5281|1791987127.0\"",
@@ -2776,7 +2740,7 @@
    "slugs": [
     "tx-txdot-hydraulic"
    ],
-   "checked_at": "2026-11-18T15:03:46.723Z",
+   "checked_at": "2026-11-18T15:08:06.519Z",
    "status": 200,
    "last_modified": "Fri, 05 Sep 2025 09:45:57 GMT",
    "etag": "\"14148a8-63e0ab45f3f40\"",
@@ -2787,7 +2751,7 @@
    "slugs": [
     "ut-udot-drainage"
    ],
-   "checked_at": "2026-11-18T15:03:47.288Z",
+   "checked_at": "2026-11-18T15:08:06.762Z",
    "status": 200,
    "last_modified": "Mon, 02 Mar 2026 19:49:17 GMT",
    "etag": null,
@@ -2798,7 +2762,7 @@
    "slugs": [
     "va-state"
    ],
-   "checked_at": "2026-11-18T15:03:50.550Z",
+   "checked_at": "2026-11-18T15:08:09.519Z",
    "status": null,
    "last_modified": null,
    "etag": null,
@@ -2810,7 +2774,7 @@
    "slugs": [
     "va-vdot-drainage"
    ],
-   "checked_at": "2026-11-18T15:03:50.757Z",
+   "checked_at": "2026-11-18T15:08:09.620Z",
    "status": 200,
    "last_modified": "Wed, 08 Jul 2026 17:12:08 GMT",
    "etag": "\"e816ab-6561c9b89cf88\"",
@@ -2821,7 +2785,7 @@
    "slugs": [
     "vancouver-wa"
    ],
-   "checked_at": "2026-11-18T15:03:51.054Z",
+   "checked_at": "2026-11-18T15:08:09.653Z",
    "status": 200,
    "last_modified": "Wed, 14 May 2025 19:47:57 GMT",
    "etag": "\"6824f36d-ff61c0\"",
@@ -2832,7 +2796,7 @@
    "slugs": [
     "wa-wsdot-hr"
    ],
-   "checked_at": "2026-11-18T15:03:51.396Z",
+   "checked_at": "2026-11-18T15:08:10.170Z",
    "status": 200,
    "last_modified": "Fri, 21 Mar 2014 17:26:53 GMT",
    "etag": "\"cb60dc02a45cf1:0\"",
@@ -2843,7 +2807,7 @@
    "slugs": [
     "wayne-county-mi"
    ],
-   "checked_at": "2026-11-18T15:03:51.468Z",
+   "checked_at": "2026-11-18T15:08:10.506Z",
    "status": 200,
    "last_modified": "Tue, 14 Apr 2026 07:22:01 GMT",
    "etag": "\"5c9b6bf0-3c88-44b5-9f66-19152b8780ad\"",
@@ -2854,7 +2818,7 @@
    "slugs": [
     "west-virginia-manual"
    ],
-   "checked_at": "2026-11-18T15:03:51.705Z",
+   "checked_at": "2026-11-18T15:08:10.691Z",
    "status": 200,
    "last_modified": "Tue, 14 Apr 2026 18:12:39 GMT",
    "etag": "\"69de8397-14e6f88\"",
@@ -2865,7 +2829,7 @@
    "slugs": [
     "wi-dnr-1001"
    ],
-   "checked_at": "2026-11-18T15:03:52.073Z",
+   "checked_at": "2026-11-18T15:08:10.879Z",
    "status": 200,
    "last_modified": "Fri, 17 Jun 2022 19:49:52 GMT",
    "etag": null,
@@ -2876,18 +2840,19 @@
    "slugs": [
     "wi-wisdot-drainage"
    ],
-   "checked_at": "2026-11-18T15:03:52.336Z",
-   "status": 200,
-   "last_modified": "Mon, 17 Aug 2026 17:10:59 GMT",
-   "etag": "\"{F0269FF2-A5C7-48E7-B588-A812E62C21FF},18pub\"",
-   "length": "508903"
+   "checked_at": "2026-11-18T15:08:10.967Z",
+   "status": null,
+   "last_modified": null,
+   "etag": null,
+   "length": null,
+   "error": "fetch failed"
   },
   "https://www.wichita.gov/DocumentCenter/View/11104/Volume-2-03---Chapter-1-PDF": {
    "url": "https://www.wichita.gov/DocumentCenter/View/11104/Volume-2-03---Chapter-1-PDF",
    "slugs": [
     "wichita-ks-vol2"
    ],
-   "checked_at": "2026-11-18T15:03:52.700Z",
+   "checked_at": "2026-11-18T15:08:21.180Z",
    "status": 403,
    "last_modified": null,
    "etag": null,
@@ -2898,29 +2863,18 @@
    "slugs": [
     "winston-salem-nc"
    ],
-   "checked_at": "2026-11-18T15:03:52.810Z",
+   "checked_at": "2026-11-18T15:08:21.311Z",
    "status": 200,
    "last_modified": null,
    "etag": null,
    "length": "4922321"
-  },
-  "https://transportation.wv.gov/highways/engineering/Manuals/Drainage/WVDOH%202007%20Drainage%20Manual%20with%20Addendum%209-23-13.pdf": {
-   "url": "https://transportation.wv.gov/highways/engineering/Manuals/Drainage/WVDOH%202007%20Drainage%20Manual%20with%20Addendum%209-23-13.pdf",
-   "slugs": [
-    "wv-wvdoh-drainage"
-   ],
-   "checked_at": "2026-11-18T14:55:57.223Z",
-   "status": 404,
-   "last_modified": "Wed, 18 Nov 2026 14:52:04 GMT",
-   "etag": "W/\"1795013524\"",
-   "length": "174693"
   },
   "https://sslc.gov/DocumentCenter/View/1116/SSL-Stormwater-Design-Manual-PDF": {
    "url": "https://sslc.gov/DocumentCenter/View/1116/SSL-Stormwater-Design-Manual-PDF",
    "slugs": [
     "south-salt-lake-ut"
    ],
-   "checked_at": "2026-11-18T15:03:42.398Z",
+   "checked_at": "2026-11-18T15:08:01.927Z",
    "status": 404,
    "last_modified": null,
    "etag": null,
@@ -2931,7 +2885,7 @@
    "slugs": [
     "wv-wvdoh-drainage"
    ],
-   "checked_at": "2026-11-18T15:03:53.238Z",
+   "checked_at": "2026-11-18T15:08:21.677Z",
    "status": 404,
    "last_modified": "Wed, 18 Nov 2026 15:03:53 GMT",
    "etag": "W/\"1795014233\"",
