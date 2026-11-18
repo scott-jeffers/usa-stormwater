@@ -57,7 +57,8 @@ async function probe(url: string): Promise<Omit<Probe, "slugs" | "url" | "checke
       status: res.status,
       last_modified: res.headers.get("last-modified"),
       etag: res.headers.get("etag"),
-      length: range?.split("/")[1] ?? res.headers.get("content-length"),
+      // a ranged GET's own Content-Length is the 1-byte slice, not the file
+      length: range?.split("/")[1] ?? (res.status === 206 ? null : res.headers.get("content-length")),
     };
   } catch (error) {
     return { status: null, last_modified: null, etag: null, length: null, error: (error as Error).message };
@@ -76,9 +77,13 @@ function stableDate(lm: string | null, checkedAt: string): number | null {
 }
 
 export function hasChanged(before: Probe, now: Probe): boolean {
+  // Size is the most reliable signal (CDNs give each node its own ETag); a
+  // new edition with exactly the same byte count is vanishingly rare.
+  const ok = (l: string | null) => (l && Number(l) > 1 ? l : null);
+  const l1 = ok(before.length), l2 = ok(now.length);
+  if (l1 && l2) return l1 !== l2;
   const e1 = etagOf(before.etag), e2 = etagOf(now.etag);
   if (e1 && e2 && e1 !== e2) return true;
-  if (before.length && now.length && before.length !== now.length) return true;
   const d1 = stableDate(before.last_modified, before.checked_at);
   const d2 = stableDate(now.last_modified, now.checked_at);
   return d1 != null && d2 != null && d1 !== d2;

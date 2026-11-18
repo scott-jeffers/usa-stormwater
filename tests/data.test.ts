@@ -129,7 +129,15 @@ test("freshness: ignores weak/strong ETag flips and per-request dates, catches r
     { ...base, etag: null, last_modified: "Wed, 18 Nov 2026 15:07:00 GMT", checked_at: "2026-11-18T15:07:00Z" }
   ), false);
   assert.equal(hasChanged(base, { ...base, length: null }), false);
-  assert.equal(hasChanged(base, { ...base, etag: '"def"' }), true);
+  assert.equal(hasChanged({ ...base, length: null }, { ...base, length: null, etag: '"def"' }), true);
   assert.equal(hasChanged(base, { ...base, length: "200" }), true);
-  assert.equal(hasChanged(base, { ...base, etag: null, last_modified: "Mon, 01 Jun 2026 00:00:00 GMT" }), true);
+  assert.equal(hasChanged({ ...base, length: null, etag: null }, { ...base, length: null, etag: null, last_modified: "Mon, 01 Jun 2026 00:00:00 GMT" }), true);
+});
+
+test("freshness: same file size beats differing CDN ETags; a 1-byte range length is ignored", async () => {
+  const { hasChanged } = await import("../scripts/qa/check-freshness");
+  const base = { url: "u", slugs: ["x"], status: 200, etag: '"a"', last_modified: null, length: "49434854", checked_at: "2026-11-18T15:00:00Z" };
+  assert.equal(hasChanged(base, { ...base, etag: '"b"' }), false);
+  assert.equal(hasChanged(base, { ...base, length: "1" }), false);
+  assert.equal(hasChanged(base, { ...base, length: "1", etag: '"b"' }), true);
 });
