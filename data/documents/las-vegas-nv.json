@@ -51,11 +51,6 @@
       "page_or_section": "p. 7"
     },
     {
-      "field": "design_criteria.design_storm_return_periods_years",
-      "excerpt": "minor storm 10-year / major storm 100-year",
-      "page_or_section": "§304.2"
-    },
-    {
       "field": "design_criteria.peak_flow_calculation_method",
       "excerpt": "minor and major storm",
       "page_or_section": "§304.2"
@@ -64,11 +59,6 @@
       "field": "design_criteria.water_quality_volume_method",
       "excerpt": "drainage design",
       "page_or_section": "HCDDM"
-    },
-    {
-      "field": "design_criteria.approved_bmp_categories",
-      "excerpt": "detention / channels / storm drains",
-      "page_or_section": "Design chapters"
     },
     {
       "field": "design_parameters.wqv_depth_inches",
@@ -139,7 +129,7 @@
   "extraction_quality": {
     "confidence": "medium",
     "needs_human_review": true,
-    "review_notes": "Clark County HCDDM covers Las Vegas metro flood/drainage criteria. Text extract truncated; confirm WQ BMP chapter if present. Pipeline excerpt repair removed 2 unlocated citation(s).",
+    "review_notes": "Clark County HCDDM covers Las Vegas metro flood/drainage criteria. Text extract truncated; confirm WQ BMP chapter if present. Pipeline excerpt repair removed 2 unlocated citation(s). Citation QA 2026-11-18: 0 quote(s) replaced with verbatim source text; 2 removed because no supporting text was found (design_storm_return_periods_years, approved_bmp_categories).",
     "fields_not_found": [
       "document_metadata.version_or_edition",
       "document_metadata.last_revised_date",

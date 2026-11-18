@@ -44,11 +44,6 @@
   },
   "evidence": [
     {
-      "field": "document_metadata.jurisdiction_name",
-      "excerpt": "College Station — BCS Drainage Design Manual PDF 404; temporary NCTCOG iSWM / Dallas criteria",
-      "page_or_section": "Coverage note"
-    },
-    {
       "field": "design_parameters.wqv_depth_inches",
       "excerpt": "The Water Quality Protection Volume (WQv) is the runoff from the first 1.5 inches of rainfall.",
       "page_or_section": "page 29, Section 3.2.3"
@@ -77,7 +72,7 @@
   "extraction_quality": {
     "confidence": "low",
     "needs_human_review": true,
-    "review_notes": "Replace when bcsunited.net publishes a durable Drainage Design Manual PDF.",
+    "review_notes": "Replace when bcsunited.net publishes a durable Drainage Design Manual PDF. Citation QA 2026-11-18: 0 quote(s) replaced with verbatim source text; 1 removed because no supporting text was found (jurisdiction_name).",
     "fields_not_found": []
   },
   "source": {

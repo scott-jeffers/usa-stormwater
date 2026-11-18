@@ -50,16 +50,6 @@
       "page_or_section": "Appendix B.8 / Page B-31"
     },
     {
-      "field": "design_parameters.bioretention_media_depth_min_inches",
-      "excerpt": "Soil Media Depth Min. ... Min. 18 in [Bioretention column, Table 3-90]",
-      "page_or_section": "Table 3-90 / Page 3-310"
-    },
-    {
-      "field": "design_parameters.bioretention_ponding_depth_inches",
-      "excerpt": "Maximum Ponding/Storage Depth ... 2 ft [3.6.1 Bioretention, Table 3-90]",
-      "page_or_section": "Table 3-90 / Page 3-310"
-    },
-    {
       "field": "design_parameters.permeable_pavement_storage_depth_inches",
       "excerpt": "Permeable pavement materials with greater than or equal to one foot of storage underneath are considered permeable pavement systems with underground storage",
       "page_or_section": "Page 3-126 / Section 3.5.3 Permeable Pavement"
@@ -83,17 +73,12 @@
       "field": "design_parameters.swale_bottom_width_inches",
       "excerpt": "Bottom widths range from two feet to eight feet.",
       "page_or_section": "Page 3-96 / Vegetated Conveyance SCM"
-    },
-    {
-      "field": "design_parameters.green_roof_media_depth_inches",
-      "excerpt": "Soil Media Depth Min. ... Min. 3 in [Green Roof column, Table 3-90]",
-      "page_or_section": "Table 3-90 / Page 3-310"
     }
   ],
   "extraction_quality": {
     "confidence": "medium",
     "needs_human_review": true,
-    "review_notes": "Municipality coverage via PA PCSM Manual (Allentown pattern). Pipeline excerpt repair removed 1 unlocated citation(s).",
+    "review_notes": "Municipality coverage via PA PCSM Manual (Allentown pattern). Pipeline excerpt repair removed 1 unlocated citation(s). Citation QA 2026-11-18: 0 quote(s) replaced with verbatim source text; 3 removed because no supporting text was found (bioretention_media_depth_min_inches, bioretention_ponding_depth_inches, green_roof_media_depth_inches).",
     "fields_not_found": [
       "design_criteria.design_storm_return_periods_years",
       "design_parameters.shwt_separation_inches"

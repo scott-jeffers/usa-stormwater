@@ -53,16 +53,6 @@
       "page_or_section": "Title"
     },
     {
-      "field": "document_metadata.relationship_to_state_manual",
-      "excerpt": "NCDEQ SCM Design Manual",
-      "page_or_section": "References"
-    },
-    {
-      "field": "design_criteria.design_storm_return_periods_years",
-      "excerpt": "design storms / peak rate",
-      "page_or_section": "Design criteria"
-    },
-    {
       "field": "design_criteria.approved_bmp_categories",
       "excerpt": "Stormwater Control Measures",
       "page_or_section": "SCM chapters"
@@ -101,7 +91,7 @@
   "extraction_quality": {
     "confidence": "medium",
     "needs_human_review": true,
-    "review_notes": "Raleigh SDM effective Nov 2, 2024; adopts/modifies NCDEQ SCM guidance. Confirm exact return-period list from hydrology chapter. Pipeline excerpt repair removed 5 unlocated citation(s).",
+    "review_notes": "Raleigh SDM effective Nov 2, 2024; adopts/modifies NCDEQ SCM guidance. Confirm exact return-period list from hydrology chapter. Pipeline excerpt repair removed 5 unlocated citation(s). Citation QA 2026-11-18: 0 quote(s) replaced with verbatim source text; 2 removed because no supporting text was found (relationship_to_state_manual, design_storm_return_periods_years).",
     "fields_not_found": [
       "design_criteria.required_hydrologic_hydraulic_software",
       "document_metadata.version_or_edition",

@@ -2,7 +2,7 @@
   "version": 1,
   "practice_key": "swale",
   "practice_label": "Vegetated Swale",
-  "generated_at": "2026-08-13T10:43:42.726Z",
+  "generated_at": "2026-11-18T13:22:15.243Z",
   "tier_a_only": true,
   "manuals_with_practice": 70,
   "manuals_scanned": 76,
@@ -176,7 +176,7 @@
           "jurisdiction_name": "City of Flagstaff",
           "value": 1,
           "chapter_proxy": false,
-          "excerpt": "Low Impact Development Runoff Capture Volume (ROCV): Impervious Surface Area (sq ft) × 1 inch = ROCV."
+          "excerpt": null
         },
         {
           "slug": "houston-tx",
@@ -184,7 +184,7 @@
           "jurisdiction_name": "City of Houston",
           "value": 0.5,
           "chapter_proxy": false,
-          "excerpt": "permanent stormwater quality BMPs for new development and significant redevelopment must treat the first 1/2 inch of runoff"
+          "excerpt": "At a minimum, the system must be designed to treat the first 1/2 inch of runoff, except as noted in the SWQGM or the MDC."
         },
         {
           "slug": "lawrence-ks",
@@ -1107,7 +1107,7 @@
           "jurisdiction_name": "Montana",
           "value": 72,
           "chapter_proxy": false,
-          "excerpt": null
+          "excerpt": "The recommended maximum drawdown time for the design volume is 72 hours."
         },
         {
           "slug": "mt-deq8",
@@ -1550,7 +1550,7 @@
           "jurisdiction_name": "City of Raleigh",
           "value": 12,
           "chapter_proxy": false,
-          "excerpt": null
+          "excerpt": "The depth to the SHWT shall be a minimum of 12 inches measured from the lowest ground surface elevation."
         },
         {
           "slug": "san-antonio-tx",
@@ -1766,7 +1766,7 @@
           "jurisdiction_name": "Montana",
           "value": 36,
           "chapter_proxy": false,
-          "excerpt": null
+          "excerpt": "A minimum vertical distance of 3 feet is recommended between the bottom of the infiltration basin and the seasonal high water table or bedrock layer"
         },
         {
           "slug": "mt-deq8",
@@ -2165,7 +2165,7 @@
           "jurisdiction_name": "City of Raleigh",
           "value": 24,
           "chapter_proxy": false,
-          "excerpt": null
+          "excerpt": "Minimum swale bottom width of 2 feet."
         },
         {
           "slug": "san-diego-ca",
@@ -2213,7 +2213,7 @@
           "jurisdiction_name": "Connecticut",
           "value": 24,
           "chapter_proxy": false,
-          "excerpt": "Bottom Width Minimum: 2 feet"
+          "excerpt": "Minimum Bottom Width: 2 feet"
         },
         {
           "slug": "los-angeles-ca",
@@ -2750,7 +2750,7 @@
           "jurisdiction_name": "City of Raleigh",
           "value": 5,
           "chapter_proxy": false,
-          "excerpt": null
+          "excerpt": "Vegetated Swale: maximum longitudinal slope of 5%, 2% preferred."
         },
         {
           "slug": "san-diego-ca",

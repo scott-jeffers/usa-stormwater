@@ -52,11 +52,6 @@
       "page_or_section": null
     },
     {
-      "field": "design_criteria.approved_bmp_categories",
-      "excerpt": "Bioretention, Infiltration Basin, Infiltration Trench, Extended Detention",
-      "page_or_section": null
-    },
-    {
       "field": "design_parameters.max_drawdown_hours",
       "excerpt": "Maximum allowable temporary ponding time is 48 hours.",
       "page_or_section": "Section 2.3.5 – Bioretention Swale, page 131"
@@ -135,7 +130,7 @@
   "extraction_quality": {
     "confidence": "medium",
     "needs_human_review": true,
-    "review_notes": "Heuristic agency extract from prepared text. RIDOT Linear Stormwater Manual (February 2019)",
+    "review_notes": "Heuristic agency extract from prepared text. RIDOT Linear Stormwater Manual (February 2019) Citation QA 2026-11-18: 0 quote(s) replaced with verbatim source text; 1 removed because no supporting text was found (approved_bmp_categories).",
     "fields_not_found": [
       "design_criteria.peak_flow_calculation_method",
       "design_criteria.required_hydrologic_hydraulic_software"

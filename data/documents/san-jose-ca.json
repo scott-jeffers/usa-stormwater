@@ -51,8 +51,8 @@
     },
     {
       "field": "document_metadata.document_title",
-      "excerpt": "rements . . . . . . . . . . 2- 1 2.1 Stormwater Issues in Developed Areas.................................................................2-1 2.2 Post-Construction Stormwater Controls ................................................................2-3 2.3 Municipal Stormwater",
-      "page_or_section": "p. 4"
+      "excerpt": "rements . . . . . . . . . . 2- 1 2.1 Stormwater Issues in Developed Areas … 2-1 2.2 Post-Construction Stormwater Controls",
+      "page_or_section": "PDF p. 4"
     },
     {
       "field": "document_metadata.version_or_edition",
@@ -155,11 +155,6 @@
       "page_or_section": "Chapter 6.8, page 134"
     },
     {
-      "field": "design_parameters.practice_mentions.green_roof",
-      "excerpt": "Green roofs listed as site design measure in Table 2-1",
-      "page_or_section": "Chapter 2, page 33"
-    },
-    {
       "field": "design_parameters.practice_mentions.swale",
       "excerpt": "Vegetated swales are no longer considered stand-alone LID treatment systems in the MRP.",
       "page_or_section": "Glossary, page xxi"
@@ -167,8 +162,8 @@
   ],
   "extraction_quality": {
     "confidence": "high",
-    "needs_human_review": false,
-    "review_notes": "SCVURPPP C.3 Handbook is the shared MRP C.3 design guidance for San Jose and other Santa Clara Valley co-permittees. Design storms are provision C.3.d / HM criteria rather than classical return-period drainage design; return-period list left empty. BAHM required for HM where applicable, not for all C.3 treatment sizing.",
+    "needs_human_review": true,
+    "review_notes": "SCVURPPP C.3 Handbook is the shared MRP C.3 design guidance for San Jose and other Santa Clara Valley co-permittees. Design storms are provision C.3.d / HM criteria rather than classical return-period drainage design; return-period list left empty. BAHM required for HM where applicable, not for all C.3 treatment sizing. Citation QA 2026-11-18: 1 quote(s) replaced with verbatim source text; 1 removed because no supporting text was found (green_roof).",
     "fields_not_found": [
       "design_criteria.design_storm_return_periods_years"
     ]

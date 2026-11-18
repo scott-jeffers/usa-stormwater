@@ -233,7 +233,7 @@
       "key": "14",
       "slug": "md-state",
       "state_code": "MD",
-      "excerpt": "Chapter 2. Unified Stormwater Sizing Criteria ...............Channel Protection Storage Volume 2.8 Section 2.3 Channel Protection Storage Volume Requirements (Cpv ) The method for determining the Cpv requirement is detailed in Appendix D.1",
+      "excerpt": "Chapter 2. Unified Stormwater Sizing Criteria ...............Channel Protection Storage Volume 2.8 Section 2.3 Channel Protection Storage Volume Requirements (Cpv ) The method for determining the Cpv requirement is detailed in Appendix",
       "page_or_section": "pages 46-47",
       "confidence": "corpus_pattern",
       "field": "corpus_chunk"
@@ -313,7 +313,7 @@
       "slug": "md-state",
       "chunk_id": "md-state-c0011",
       "page_or_section": "pages 46-47",
-      "excerpt": "Chapter 2. Unified Stormwater Sizing Criteria ...............Channel Protection Storage Volume 2.8 Section 2.3 Channel Protection Storage Volume Requirements (Cpv ) The method for determining the Cpv requirement is detailed in Appendix D.1"
+      "excerpt": "Chapter 2. Unified Stormwater Sizing Criteria ...............Channel Protection Storage Volume 2.8 Section 2.3 Channel Protection Storage Volume Requirements (Cpv ) The method for determining the Cpv requirement is detailed in Appendix"
     },
     {
       "slug": "mn-state-2008",

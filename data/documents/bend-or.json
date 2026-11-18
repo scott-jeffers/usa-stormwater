@@ -27,11 +27,6 @@
   },
   "evidence": [
     {
-      "field": "document_metadata.jurisdiction_name",
-      "excerpt": "Bend — coverage via Eugene Stormwater Management Manual as Oregon municipal reference (not Bend-adopted)",
-      "page_or_section": "Coverage note"
-    },
-    {
       "field": "design_parameters.max_drawdown_hours",
       "excerpt": "When sized for flood control, infiltration facilities must infiltrate the Flood Control Design Storm Event within 30 hours.",
       "page_or_section": "2.2.2 Infiltration Facilities, page 34"
@@ -75,7 +70,7 @@
   "extraction_quality": {
     "confidence": "low",
     "needs_human_review": true,
-    "review_notes": "Placeholder — replace when Bend publishes a durable public design-standards PDF.",
+    "review_notes": "Placeholder — replace when Bend publishes a durable public design-standards PDF. Citation QA 2026-11-18: 0 quote(s) replaced with verbatim source text; 1 removed because no supporting text was found (jurisdiction_name).",
     "fields_not_found": [
       "design_criteria.design_storm_return_periods_years"
     ]

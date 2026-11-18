@@ -31,11 +31,6 @@
   },
   "evidence": [
     {
-      "field": "document_metadata.jurisdiction_name",
-      "excerpt": "Greenville SC — coverage via Columbia BMP Design Manual / GSMM sizing pattern (needs local confirmation)",
-      "page_or_section": "Coverage note"
-    },
-    {
       "field": "design_parameters.wqv_depth_inches",
       "excerpt": "WQV = (1.2)(Rv)(A)/12 where: WQv = water quality volume 1.2-inch rainfall (in acre-feet)",
       "page_or_section": "2.1 Water Quality (WQv), page 23"
@@ -74,7 +69,7 @@
   "extraction_quality": {
     "confidence": "low",
     "needs_human_review": true,
-    "review_notes": "Placeholder using Columbia SC BMP manual as SC municipal GSMM pattern — replace with Greenville city manual when found.",
+    "review_notes": "Placeholder using Columbia SC BMP manual as SC municipal GSMM pattern — replace with Greenville city manual when found. Citation QA 2026-11-18: 0 quote(s) replaced with verbatim source text; 1 removed because no supporting text was found (jurisdiction_name).",
     "fields_not_found": []
   },
   "source": {

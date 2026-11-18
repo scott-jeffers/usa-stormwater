@@ -39,18 +39,8 @@
       "page_or_section": "Title / header"
     },
     {
-      "field": "design_criteria.design_storm_return_periods_years",
-      "excerpt": "2-year design storms referenced",
-      "page_or_section": null
-    },
-    {
       "field": "design_criteria.peak_flow_calculation_method",
       "excerpt": "ands viii. Soil boundary lines based on NRCS Hydrologic Soil Group (A, B, C, D, Urban Land) ix. Hot spots (gas stations, con",
-      "page_or_section": null
-    },
-    {
-      "field": "design_criteria.approved_bmp_categories",
-      "excerpt": "Bioretention, Infiltration Basin, Filter Strip, Permeable Pavement",
       "page_or_section": null
     },
     {
@@ -107,7 +97,7 @@
   "extraction_quality": {
     "confidence": "medium",
     "needs_human_review": true,
-    "review_notes": "Heuristic agency extract from prepared text. DDOT Green Infrastructure Standards (2014)",
+    "review_notes": "Heuristic agency extract from prepared text. DDOT Green Infrastructure Standards (2014) Citation QA 2026-11-18: 0 quote(s) replaced with verbatim source text; 2 removed because no supporting text was found (design_storm_return_periods_years, approved_bmp_categories).",
     "fields_not_found": [
       "design_criteria.water_quality_volume_method",
       "design_criteria.required_hydrologic_hydraulic_software"

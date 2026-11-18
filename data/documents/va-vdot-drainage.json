@@ -36,11 +36,6 @@
   },
   "evidence": [
     {
-      "field": "document_metadata.jurisdiction_name",
-      "excerpt": "Virginia Department of Transportation (VDOT)",
-      "page_or_section": "Title / header"
-    },
-    {
       "field": "document_metadata.document_title",
       "excerpt": "VDOT Drainage Manual — Chapter 11 Stormwater Management",
       "page_or_section": "Title / header"
@@ -58,11 +53,6 @@
     {
       "field": "design_criteria.water_quality_volume_method",
       "excerpt": "Water Quality Volume Computation and BMP Selection Procedure",
-      "page_or_section": null
-    },
-    {
-      "field": "design_criteria.approved_bmp_categories",
-      "excerpt": "Bioretention, Wet Pond, Extended Detention, Filter Strip",
       "page_or_section": null
     },
     {
@@ -114,7 +104,7 @@
   "extraction_quality": {
     "confidence": "medium",
     "needs_human_review": true,
-    "review_notes": "Heuristic agency extract from prepared text. VDOT Drainage Manual Chapter 11 Stormwater Management (July 2026). Full combined PDF ~161MB deferred.",
+    "review_notes": "Heuristic agency extract from prepared text. VDOT Drainage Manual Chapter 11 Stormwater Management (July 2026). Full combined PDF ~161MB deferred. Citation QA 2026-11-18: 0 quote(s) replaced with verbatim source text; 2 removed because no supporting text was found (jurisdiction_name, approved_bmp_categories).",
     "fields_not_found": [
       "design_criteria.required_hydrologic_hydraulic_software"
     ]

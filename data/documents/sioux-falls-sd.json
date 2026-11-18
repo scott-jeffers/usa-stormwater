@@ -25,11 +25,6 @@
   },
   "evidence": [
     {
-      "field": "document_metadata.jurisdiction_name",
-      "excerpt": "City of Sioux Falls — partial coverage via SDDOT ESC/stormwater course manual (city design PDF 403)",
-      "page_or_section": "Coverage note"
-    },
-    {
       "field": "design_parameters.practice_mentions.swale",
       "excerpt": "open vegetated swales, natural depressions to allow infiltration of runoff onsite",
       "page_or_section": "5.3 SWPPP Contents / page 95"
@@ -58,7 +53,7 @@
   "extraction_quality": {
     "confidence": "low",
     "needs_human_review": true,
-    "review_notes": "ESC-focused state course manual — not a full municipal post-construction design manual.",
+    "review_notes": "ESC-focused state course manual — not a full municipal post-construction design manual. Citation QA 2026-11-18: 0 quote(s) replaced with verbatim source text; 1 removed because no supporting text was found (jurisdiction_name).",
     "fields_not_found": [
       "design_criteria.water_quality_volume_method"
     ]

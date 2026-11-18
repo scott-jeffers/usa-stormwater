@@ -99,11 +99,6 @@
       "page_or_section": "Porous Pavement Application & Limitations, page 22"
     },
     {
-      "field": "design_parameters.bioretention_ponding_depth_inches",
-      "excerpt": "Diagram labels 3\" (ponding zone above growing medium)",
-      "page_or_section": "Infiltration Planter/Rain Garden, page 30"
-    },
-    {
       "field": "design_parameters.bioretention_media_depth_min_inches",
       "excerpt": "Growing medium ... 9\"",
       "page_or_section": "Infiltration Planter/Rain Garden diagram, page 30"
@@ -127,7 +122,7 @@
   "extraction_quality": {
     "confidence": "medium",
     "needs_human_review": true,
-    "review_notes": "Handbook is a supplement to Clean Water Services Design and Construction Standards; water quality design storm rainfall depth/intensity and peak-flow hydrology methods are deferred to Standards Chapter 4 and are not specified here. Only freeboard references a 25-year water surface elevation for extended dry basins and wetlands.",
+    "review_notes": "Handbook is a supplement to Clean Water Services Design and Construction Standards; water quality design storm rainfall depth/intensity and peak-flow hydrology methods are deferred to Standards Chapter 4 and are not specified here. Only freeboard references a 25-year water surface elevation for extended dry basins and wetlands. Citation QA 2026-11-18: 0 quote(s) replaced with verbatim source text; 1 removed because no supporting text was found (bioretention_ponding_depth_inches).",
     "fields_not_found": [
       "design_criteria.design_storm_return_periods_years",
       "design_criteria.peak_flow_calculation_method",

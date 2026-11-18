@@ -108,8 +108,8 @@
     },
     {
       "field": "design_criteria.water_quality_volume_method",
-      "excerpt": "SA = FS(Q2/VS) where Q2 = Design inflow based on the peak discharge from the developed 2-year runoff event ... VS = 0.00096 fps ... SA = 2 x Q2/0.00096 or 2080 square feet per cfs of inflow.",
-      "page_or_section": "BMP 401: Sediment Trap"
+      "excerpt": "SA = FS(Q2/VS) where Q2 = Design inflow based on the peak discharge from the developed 2-year runoff event … SA = 2 x Q2/0.00096 or 2080 square feet per cfs of inflow.",
+      "page_or_section": "PDF p. 78"
     },
     {
       "field": "design_criteria.water_quality_volume_method",
@@ -205,7 +205,7 @@
   "extraction_quality": {
     "confidence": "high",
     "needs_human_review": false,
-    "review_notes": "Regional NWA MS4 construction/post-construction BMP guide (also branded for Little Flock ARR040035). Design storms of 2-, 10-, 25-, and 100-year (24-hour) appear throughout conveyance, containment, and sediment-pond criteria. No regional WQv equation; sediment-trap settling-area method and municipal detention standards are the primary quantitative WQ approaches. Rational Method is the fallback when a full hydrologic analysis is not required. No hydrologic/hydraulic software is mandated.",
+    "review_notes": "Regional NWA MS4 construction/post-construction BMP guide (also branded for Little Flock ARR040035). Design storms of 2-, 10-, 25-, and 100-year (24-hour) appear throughout conveyance, containment, and sediment-pond criteria. No regional WQv equation; sediment-trap settling-area method and municipal detention standards are the primary quantitative WQ approaches. Rational Method is the fallback when a full hydrologic analysis is not required. No hydrologic/hydraulic software is mandated. Citation QA 2026-11-18: 1 quote(s) replaced with verbatim source text.",
     "fields_not_found": [
       "document_metadata.last_revised_date",
       "design_criteria.required_hydrologic_hydraulic_software"

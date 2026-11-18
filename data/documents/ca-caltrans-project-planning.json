@@ -30,19 +30,9 @@
   },
   "evidence": [
     {
-      "field": "document_metadata.jurisdiction_name",
-      "excerpt": "California Department of Transportation (Caltrans)",
-      "page_or_section": "Title / header"
-    },
-    {
       "field": "document_metadata.document_title",
       "excerpt": "Stormwater Quality Handbooks — Project Planning and Design Guide",
       "page_or_section": "Title / header"
-    },
-    {
-      "field": "design_criteria.design_storm_return_periods_years",
-      "excerpt": "2, 5-year design storms referenced",
-      "page_or_section": null
     },
     {
       "field": "design_criteria.peak_flow_calculation_method",
@@ -52,11 +42,6 @@
     {
       "field": "design_criteria.water_quality_volume_method",
       "excerpt": "Water Quality Volume (WQV) and Water Quality Flows (WQF)",
-      "page_or_section": null
-    },
-    {
-      "field": "design_criteria.approved_bmp_categories",
-      "excerpt": "Bioretention, Infiltration Basin, Infiltration Trench, Sand Filter",
       "page_or_section": null
     },
     {
@@ -103,7 +88,7 @@
   "extraction_quality": {
     "confidence": "medium",
     "needs_human_review": true,
-    "review_notes": "Heuristic agency extract from prepared text. Caltrans Stormwater Quality Handbooks — Project Planning and Design Guide (June 2023)",
+    "review_notes": "Heuristic agency extract from prepared text. Caltrans Stormwater Quality Handbooks — Project Planning and Design Guide (June 2023) Citation QA 2026-11-18: 0 quote(s) replaced with verbatim source text; 3 removed because no supporting text was found (jurisdiction_name, design_storm_return_periods_years, approved_bmp_categories).",
     "fields_not_found": [
       "design_criteria.required_hydrologic_hydraulic_software"
     ]

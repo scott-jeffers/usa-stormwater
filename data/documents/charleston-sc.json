@@ -63,19 +63,9 @@
       "page_or_section": "Purpose"
     },
     {
-      "field": "design_criteria.water_quality_volume_method",
-      "excerpt": "WQV Water Quality Volume / Chapter 6 Post-Construction",
-      "page_or_section": "TOC / Chapter 6"
-    },
-    {
       "field": "design_criteria.peak_flow_calculation_method",
       "excerpt": "conveyance design criteria and design criteria for roadway drainage",
       "page_or_section": "Design criteria"
-    },
-    {
-      "field": "design_criteria.approved_bmp_categories",
-      "excerpt": "permanent construction stormwater management practices / BMPs",
-      "page_or_section": "Introduction"
     },
     {
       "field": "design_parameters.max_drawdown_hours",
@@ -121,7 +111,7 @@
   "extraction_quality": {
     "confidence": "medium",
     "needs_human_review": true,
-    "review_notes": "2026 SWDSM; confirm council adoption date; numeric WQV depths in later chapters.",
+    "review_notes": "2026 SWDSM; confirm council adoption date; numeric WQV depths in later chapters. Citation QA 2026-11-18: 0 quote(s) replaced with verbatim source text; 2 removed because no supporting text was found (water_quality_volume_method, approved_bmp_categories).",
     "fields_not_found": [
       "document_metadata.adoption_or_effective_date",
       "design_criteria.design_storm_return_periods_years",

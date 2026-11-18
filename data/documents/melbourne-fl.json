@@ -33,11 +33,6 @@
   },
   "evidence": [
     {
-      "field": "document_metadata.jurisdiction_name",
-      "excerpt": "City of Melbourne (SJRWMD) — coverage via Jacksonville LDPM Vol 2 pattern",
-      "page_or_section": "Coverage note"
-    },
-    {
       "field": "design_parameters.wqv_depth_inches",
       "excerpt": "Treatment Volume 1-inch runoff: TV = (10 ac x 1 inch) / 12 = 0.83 acre-feet",
       "page_or_section": "Section 4.3 Design Example / page 118 (LDPM Vol 2)"
@@ -96,7 +91,7 @@
   "extraction_quality": {
     "confidence": "low",
     "needs_human_review": true,
-    "review_notes": "Canonical SJRWMD special_district record: fl-sjrwmd-erp-ah2. Placeholder pending durable SJRWMD AH Vol II or city design-manual PDF.",
+    "review_notes": "Canonical SJRWMD special_district record: fl-sjrwmd-erp-ah2. Placeholder pending durable SJRWMD AH Vol II or city design-manual PDF. Citation QA 2026-11-18: 0 quote(s) replaced with verbatim source text; 1 removed because no supporting text was found (jurisdiction_name).",
     "fields_not_found": []
   },
   "source": {

@@ -46,11 +46,6 @@
       "page_or_section": "§1.2.8 Stormwater Detention"
     },
     {
-      "field": "document_metadata.relationship_to_state_manual",
-      "excerpt": "independent city drainage design manual",
-      "page_or_section": "Coverage note"
-    },
-    {
       "field": "design_parameters.practice_mentions.extended_detention",
       "excerpt": "SWM facilities such as detention, retention, extended detention, infiltration, and sedimentation ponds",
       "page_or_section": "8.1 GENERAL, page 8-1"
@@ -61,16 +56,6 @@
       "page_or_section": "1.2.10 Lot Grading, page 1-10"
     },
     {
-      "field": "design_parameters.wqv_depth_inches",
-      "excerpt": "No water-quality rainfall or runoff depth (inches) stated; design storms referenced as 25- and 100-year frequency",
-      "page_or_section": "1.2.2 General, page 1-1"
-    },
-    {
-      "field": "design_parameters.ed_drain_time_hours",
-      "excerpt": "Extended detention named among pond types; no drain or drawdown time in hours given",
-      "page_or_section": "8.1 GENERAL, page 8-1"
-    },
-    {
       "field": "design_parameters.design_infiltration_rate_in_per_hr",
       "excerpt": "Minimum infiltration rates for the four soils groups are: A 0.30–0.45; B 0.15–0.30; C 0.05–0.15; D 0.00–0.05 (inch/hour)",
       "page_or_section": "Section 2, Table context page 2-18"
@@ -79,7 +64,7 @@
   "extraction_quality": {
     "confidence": "medium",
     "needs_human_review": true,
-    "review_notes": "Body PDF; city also posts chapter amendments (2012/2013) that should be consulted for latest policy wording.",
+    "review_notes": "Body PDF; city also posts chapter amendments (2012/2013) that should be consulted for latest policy wording. Citation QA 2026-11-18: 0 quote(s) replaced with verbatim source text; 3 removed because no supporting text was found (relationship_to_state_manual, wqv_depth_inches, ed_drain_time_hours).",
     "fields_not_found": [
       "document_metadata.last_revised_date",
       "design_criteria.required_hydrologic_hydraulic_software"

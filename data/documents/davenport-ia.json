@@ -31,16 +31,6 @@
   },
   "evidence": [
     {
-      "field": "document_metadata.jurisdiction_name",
-      "excerpt": "City of Davenport uses SUDAS Design Manual / ISWMM",
-      "page_or_section": "Coverage note"
-    },
-    {
-      "field": "design_criteria.water_quality_volume_method",
-      "excerpt": "Water Quality Volume, WQv / ISWMM Design Standards",
-      "page_or_section": "SUDAS Ch.2"
-    },
-    {
       "field": "design_parameters.wqv_depth_inches",
       "excerpt": "For Iowa, this equates to providing water quality treatment for the runoff resulting from a rainfall depth of 1.25 inches or less.",
       "page_or_section": "2A-1 D. Unified Sizing Criteria, Table 2A-1.01 (page 9)"
@@ -64,7 +54,7 @@
   "extraction_quality": {
     "confidence": "medium",
     "needs_human_review": true,
-    "review_notes": "Municipality coverage via SUDAS + ISWMM (Cedar Rapids pattern).",
+    "review_notes": "Municipality coverage via SUDAS + ISWMM (Cedar Rapids pattern). Citation QA 2026-11-18: 0 quote(s) replaced with verbatim source text; 2 removed because no supporting text was found (jurisdiction_name, water_quality_volume_method).",
     "fields_not_found": []
   },
   "source": {

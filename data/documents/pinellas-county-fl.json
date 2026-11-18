@@ -57,11 +57,6 @@
       "page_or_section": "Cover"
     },
     {
-      "field": "document_metadata.relationship_to_state_manual",
-      "excerpt": "Pinellas County Stormwater Manual / state water quality standards",
-      "page_or_section": "Introduction"
-    },
-    {
       "field": "design_criteria.water_quality_volume_method",
       "excerpt": "Presumptive treatment criteria of 0.5\" for dry retention and 1\" for wet detention",
       "page_or_section": "Small sites"
@@ -70,11 +65,6 @@
       "field": "design_criteria.peak_flow_calculation_method",
       "excerpt": "attenuation, storage and treatment required",
       "page_or_section": "Performance standards"
-    },
-    {
-      "field": "design_criteria.approved_bmp_categories",
-      "excerpt": "Bioswales/Treatment Swales / Wet Detention / Green Infrastructure",
-      "page_or_section": "Chapter 4 / 6"
     },
     {
       "field": "design_parameters.wqv_depth_inches",
@@ -125,7 +115,7 @@
   "extraction_quality": {
     "confidence": "high",
     "needs_human_review": true,
-    "review_notes": "Pinellas County Stormwater Manual Apr 2024. Pipeline excerpt repair removed 1 unlocated citation(s).",
+    "review_notes": "Pinellas County Stormwater Manual Apr 2024. Pipeline excerpt repair removed 1 unlocated citation(s). Citation QA 2026-11-18: 0 quote(s) replaced with verbatim source text; 2 removed because no supporting text was found (relationship_to_state_manual, approved_bmp_categories).",
     "fields_not_found": [
       "design_criteria.design_storm_return_periods_years",
       "design_criteria.required_hydrologic_hydraulic_software",

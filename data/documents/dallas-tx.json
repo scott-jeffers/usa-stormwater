@@ -49,11 +49,6 @@
       "page_or_section": "Introduction / Program purpose"
     },
     {
-      "field": "document_metadata.jurisdiction_level",
-      "excerpt": "criteria that cities and counties may use as a component of their stormwater management related development regulations",
-      "page_or_section": "Criteria Manual overview"
-    },
-    {
       "field": "document_metadata.state_code",
       "excerpt": "TPDES Stormwater permit",
       "page_or_section": "Table 1.3 Water Quality Option 3"
@@ -77,11 +72,6 @@
       "field": "document_metadata.last_revised_date",
       "excerpt": "Revised 1/2015",
       "page_or_section": "Footer"
-    },
-    {
-      "field": "document_metadata.relationship_to_state_manual",
-      "excerpt": "The criteria may be customized by local governments to meet specific local needs",
-      "page_or_section": "Criteria Manual introduction"
     },
     {
       "field": "design_criteria.design_storm_return_periods_years",
@@ -167,7 +157,7 @@
   "extraction_quality": {
     "confidence": "high",
     "needs_human_review": true,
-    "review_notes": "NCTCOG iSWM Criteria Manual is regional guidance adopted/customized by many North Texas cities including Dallas. Local Provision boxes may alter criteria city-by-city; verify City of Dallas local provisions. Detailed hydrologic software requirements live in companion Technical Manuals, not mandated by name in this Criteria Manual.",
+    "review_notes": "NCTCOG iSWM Criteria Manual is regional guidance adopted/customized by many North Texas cities including Dallas. Local Provision boxes may alter criteria city-by-city; verify City of Dallas local provisions. Detailed hydrologic software requirements live in companion Technical Manuals, not mandated by name in this Criteria Manual. Citation QA 2026-11-18: 0 quote(s) replaced with verbatim source text; 2 removed because no supporting text was found (jurisdiction_level, relationship_to_state_manual).",
     "fields_not_found": [
       "design_criteria.required_hydrologic_hydraulic_software"
     ]

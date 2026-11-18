@@ -45,11 +45,6 @@
       "page_or_section": "Revision History"
     },
     {
-      "field": "document_metadata.version_or_edition",
-      "excerpt": "June 2014 / October 2014 Updated Chapter 4... Chapter 9, Post Construction",
-      "page_or_section": "Revision History"
-    },
-    {
       "field": "document_metadata.adoption_or_effective_date",
       "excerpt": "August, 2000 Manual adopted by reference by Ordinance 3-2000-01",
       "page_or_section": "Revision History"
@@ -60,28 +55,8 @@
       "page_or_section": "Ch. 9 example / WQv calc"
     },
     {
-      "field": "design_criteria.design_storm_return_periods_years",
-      "excerpt": "Q2-yr / Q10-yr preliminary hydrologic calculations; 25-year spillway example",
-      "page_or_section": "Design examples"
-    },
-    {
-      "field": "design_criteria.approved_bmp_categories",
-      "excerpt": "9.7 Bioretention; 9.10 Water Quality Swales; permeable pavement specification",
-      "page_or_section": "Ch. 9 TOC"
-    },
-    {
-      "field": "document_metadata.relationship_to_state_manual",
-      "excerpt": "independent city stormwater management manual",
-      "page_or_section": "Coverage note"
-    },
-    {
       "field": "design_parameters.wqv_depth_inches",
       "excerpt": "WQv = (1.11\") (Rv) (A) / 12",
-      "page_or_section": "Appendix J, page 129"
-    },
-    {
-      "field": "design_parameters.wqv_depth_inches",
-      "excerpt": "WQv = (1.11\") (0.62) (3.0ac)",
       "page_or_section": "Appendix J, page 129"
     },
     {
@@ -153,7 +128,7 @@
   "extraction_quality": {
     "confidence": "medium",
     "needs_human_review": true,
-    "review_notes": "Archive ADID=1469 labeled Stormwater Manual 2021 on city page; extracted PDF revision history tops out at Oct 2014 chapter updates. Large truncated text — medium confidence.",
+    "review_notes": "Archive ADID=1469 labeled Stormwater Manual 2021 on city page; extracted PDF revision history tops out at Oct 2014 chapter updates. Large truncated text — medium confidence. Citation QA 2026-11-18: 0 quote(s) replaced with verbatim source text; 5 removed because no supporting text was found (version_or_edition, design_storm_return_periods_years, approved_bmp_categories, relationship_to_state_manual, wqv_depth_inches).",
     "fields_not_found": []
   },
   "source": {

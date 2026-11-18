@@ -2,7 +2,7 @@
   "version": 1,
   "practice_key": "wet_pond",
   "practice_label": "Wet Pond",
-  "generated_at": "2026-08-13T10:44:14.744Z",
+  "generated_at": "2026-11-18T13:22:15.747Z",
   "tier_a_only": true,
   "manuals_with_practice": 58,
   "manuals_scanned": 76,
@@ -176,7 +176,7 @@
           "jurisdiction_name": "City of Flagstaff",
           "value": 1,
           "chapter_proxy": false,
-          "excerpt": "Low Impact Development Runoff Capture Volume (ROCV): Impervious Surface Area (sq ft) × 1 inch = ROCV."
+          "excerpt": null
         },
         {
           "slug": "houston-tx",
@@ -184,7 +184,7 @@
           "jurisdiction_name": "City of Houston",
           "value": 0.5,
           "chapter_proxy": false,
-          "excerpt": "permanent stormwater quality BMPs for new development and significant redevelopment must treat the first 1/2 inch of runoff"
+          "excerpt": "At a minimum, the system must be designed to treat the first 1/2 inch of runoff, except as noted in the SWQGM or the MDC."
         },
         {
           "slug": "lawrence-ks",
@@ -1107,7 +1107,7 @@
           "jurisdiction_name": "Montana",
           "value": 72,
           "chapter_proxy": false,
-          "excerpt": null
+          "excerpt": "The recommended maximum drawdown time for the design volume is 72 hours."
         },
         {
           "slug": "mt-deq8",
@@ -1550,7 +1550,7 @@
           "jurisdiction_name": "City of Raleigh",
           "value": 12,
           "chapter_proxy": false,
-          "excerpt": null
+          "excerpt": "The depth to the SHWT shall be a minimum of 12 inches measured from the lowest ground surface elevation."
         },
         {
           "slug": "san-antonio-tx",
@@ -1766,7 +1766,7 @@
           "jurisdiction_name": "Montana",
           "value": 36,
           "chapter_proxy": false,
-          "excerpt": null
+          "excerpt": "A minimum vertical distance of 3 feet is recommended between the bottom of the infiltration basin and the seasonal high water table or bedrock layer"
         },
         {
           "slug": "mt-deq8",
@@ -2439,7 +2439,7 @@
           "jurisdiction_name": "Virginia Department of Environmental Quality (DEQ)",
           "value": 48,
           "chapter_proxy": true,
-          "excerpt": null
+          "excerpt": "max. normal pool depth of 4 feet"
         },
         {
           "slug": "wa-state-western",
@@ -2637,7 +2637,7 @@
           "jurisdiction_name": "City of Raleigh",
           "value": 48,
           "chapter_proxy": false,
-          "excerpt": null
+          "excerpt": "If not designing for nutrient removal credit, maximum drawdown time is 2 days."
         },
         {
           "slug": "san-diego-ca",
@@ -2813,7 +2813,7 @@
           "jurisdiction_name": "Montana",
           "value": 48,
           "chapter_proxy": false,
-          "excerpt": null
+          "excerpt": "An EDB has a minimum 48-hour drain time for the RTV, facilitating the removal of TSS"
         },
         {
           "slug": "mt-deq8",
@@ -2941,7 +2941,7 @@
           "jurisdiction_name": "Virginia Department of Environmental Quality (DEQ)",
           "value": 48,
           "chapter_proxy": true,
-          "excerpt": null
+          "excerpt": "Provide long ED (> 48 hrs) for max. bacteria die-off"
         },
         {
           "slug": "wa-state-western",
@@ -3134,7 +3134,7 @@
           "jurisdiction_name": "City of Raleigh",
           "value": 3,
           "chapter_proxy": false,
-          "excerpt": null
+          "excerpt": "A minimum flow length to width ratio (L:W) shall be 3:1."
         },
         {
           "slug": "san-diego-ca",

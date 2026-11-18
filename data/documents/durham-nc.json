@@ -65,11 +65,6 @@
       "page_or_section": "Stormwater Services role"
     },
     {
-      "field": "design_criteria.peak_flow_calculation_method",
-      "excerpt": "Storm Drainage / Culverts / Open Channels",
-      "page_or_section": "Section 8.0"
-    },
-    {
       "field": "design_criteria.approved_bmp_categories",
       "excerpt": "Bioretention Areas / Vegetated Water Quality Swales",
       "page_or_section": "SCM list"
@@ -98,7 +93,7 @@
   "extraction_quality": {
     "confidence": "medium",
     "needs_human_review": true,
-    "review_notes": "Durham RGD; pair with City addendum to NC DEQ BMP manual for full SCM sizing.",
+    "review_notes": "Durham RGD; pair with City addendum to NC DEQ BMP manual for full SCM sizing. Citation QA 2026-11-18: 0 quote(s) replaced with verbatim source text; 1 removed because no supporting text was found (peak_flow_calculation_method).",
     "fields_not_found": [
       "document_metadata.version_or_edition",
       "document_metadata.adoption_or_effective_date",

@@ -33,11 +33,6 @@
   },
   "evidence": [
     {
-      "field": "document_metadata.jurisdiction_name",
-      "excerpt": "Helena capital MS4 follows Montana DEQ-8 stormwater standards",
-      "page_or_section": "Coverage note"
-    },
-    {
       "field": "design_criteria.water_quality_volume_method",
       "excerpt": "first 0.5 inches of rainfall on impervious areas",
       "page_or_section": "DEQ-8"
@@ -71,7 +66,7 @@
   "extraction_quality": {
     "confidence": "medium",
     "needs_human_review": true,
-    "review_notes": "DEQ-8 is subdivision stormwater drainage standards — partial design coverage for capital MS4.",
+    "review_notes": "DEQ-8 is subdivision stormwater drainage standards — partial design coverage for capital MS4. Citation QA 2026-11-18: 0 quote(s) replaced with verbatim source text; 1 removed because no supporting text was found (jurisdiction_name).",
     "fields_not_found": []
   },
   "source": {

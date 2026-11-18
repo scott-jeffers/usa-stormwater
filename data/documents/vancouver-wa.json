@@ -99,11 +99,6 @@
       "page_or_section": "§4-7.01"
     },
     {
-      "field": "design_criteria.design_storm_return_periods_years",
-      "excerpt": "SWMMWW design storms 2/10/25/50/100",
-      "page_or_section": "SWMMWW / coverage note"
-    },
-    {
       "field": "design_parameters.shwt_separation_inches",
       "excerpt": "The base of infiltration facilities shall be a minimum of five (5) feet above seasonal high water or an impermeable layer",
       "page_or_section": "Section 4-5.10 Infiltration Facility Setbacks (4-35)"
@@ -132,7 +127,7 @@
   "extraction_quality": {
     "confidence": "medium",
     "needs_human_review": true,
-    "review_notes": "Local Section 4 (2025) + SWMMWW adoption via VMC 14.25. Return periods mirrored from wa-state-western / SWMMWW.",
+    "review_notes": "Local Section 4 (2025) + SWMMWW adoption via VMC 14.25. Return periods mirrored from wa-state-western / SWMMWW. Citation QA 2026-11-18: 0 quote(s) replaced with verbatim source text; 1 removed because no supporting text was found (design_storm_return_periods_years).",
     "fields_not_found": []
   },
   "source": {

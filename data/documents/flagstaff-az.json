@@ -50,11 +50,6 @@
       "page_or_section": "§6.2 policy 14"
     },
     {
-      "field": "design_parameters.wqv_depth_inches",
-      "excerpt": "Low Impact Development Runoff Capture Volume (ROCV): Impervious Surface Area (sq ft) × 1 inch = ROCV.",
-      "page_or_section": "Atlas context (WQv method)"
-    },
-    {
       "field": "design_parameters.max_drawdown_hours",
       "excerpt": "ROCV requirement may be met by (1) retaining the minimum ROCV for ≥24 hours",
       "page_or_section": "Atlas context (WQv method)"
@@ -82,8 +77,8 @@
   ],
   "extraction_quality": {
     "confidence": "high",
-    "needs_human_review": false,
-    "review_notes": null,
+    "needs_human_review": true,
+    "review_notes": "Citation QA 2026-11-18: 0 quote(s) replaced with verbatim source text; 1 removed because no supporting text was found (wqv_depth_inches).",
     "fields_not_found": []
   },
   "source": {

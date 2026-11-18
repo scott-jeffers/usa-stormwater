@@ -139,8 +139,8 @@
     },
     {
       "field": "design_parameters.swale_bottom_width_inches",
-      "excerpt": "Bottom Width Minimum: 2 feet",
-      "page_or_section": "Chapter 13 – Wet Water Quality Swale, page 421"
+      "excerpt": "Minimum Bottom Width: 2 feet",
+      "page_or_section": "PDF p. 250"
     },
     {
       "field": "design_parameters.swale_longitudinal_slope_percent",
@@ -156,7 +156,7 @@
   "extraction_quality": {
     "confidence": "high",
     "needs_human_review": true,
-    "review_notes": "The document is the official Connecticut Stormwater Quality Manual, and all details, including the updated 1.3-inch water quality storm and NOAA Atlas 14 storm return periods, were extracted directly with matching exact citations. Pipeline excerpt repair removed 1 unlocated citation(s).",
+    "review_notes": "The document is the official Connecticut Stormwater Quality Manual, and all details, including the updated 1.3-inch water quality storm and NOAA Atlas 14 storm return periods, were extracted directly with matching exact citations. Pipeline excerpt repair removed 1 unlocated citation(s). Citation QA 2026-11-18: 1 quote(s) replaced with verbatim source text.",
     "fields_not_found": [
       "document_metadata.state_code"
     ]

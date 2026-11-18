@@ -33,11 +33,6 @@
   },
   "evidence": [
     {
-      "field": "document_metadata.jurisdiction_name",
-      "excerpt": "South Bend MS4 references Indiana Storm Water Quality Manual",
-      "page_or_section": "Coverage note"
-    },
-    {
       "field": "design_criteria.water_quality_volume_method",
       "excerpt": "Treat at least one-half inch of storm water runoff",
       "page_or_section": "Indiana Storm Water Quality Manual"
@@ -76,7 +71,7 @@
   "extraction_quality": {
     "confidence": "medium",
     "needs_human_review": true,
-    "review_notes": "Municipality coverage via Indiana Storm Water Quality Manual (Evansville pattern).",
+    "review_notes": "Municipality coverage via Indiana Storm Water Quality Manual (Evansville pattern). Citation QA 2026-11-18: 0 quote(s) replaced with verbatim source text; 1 removed because no supporting text was found (jurisdiction_name).",
     "fields_not_found": []
   },
   "source": {

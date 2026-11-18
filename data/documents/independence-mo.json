@@ -34,21 +34,6 @@
   },
   "evidence": [
     {
-      "field": "document_metadata.jurisdiction_name",
-      "excerpt": "City of Independence Engineering Codes list APWA 5600 and MARC & KC APWA BMP Manual",
-      "page_or_section": "City engineering resources page"
-    },
-    {
-      "field": "design_criteria.water_quality_volume_method",
-      "excerpt": "Default Strategy: Comprehensive Protection Peak runoff control shall be provided for the 1%, 10% and 50% chance storms and volumetric and/or extended detention control of the 90% mean annual event ... WQv captures 90% ... 1.37-inch Water Quality Storm",
-      "page_or_section": "APWA 5600 city amendments / MARC BMP Manual"
-    },
-    {
-      "field": "document_metadata.relationship_to_state_manual",
-      "excerpt": "independent — metro APWA 5600 + MARC BMP standards",
-      "page_or_section": "Coverage note"
-    },
-    {
       "field": "design_parameters.wqv_depth_inches",
       "excerpt": "In the greater Kansas City Metropolitian area, the Water Quality Storm is the 1.37' rain event.",
       "page_or_section": "Section 3.3 / page 29"
@@ -92,7 +77,7 @@
   "extraction_quality": {
     "confidence": "medium",
     "needs_human_review": true,
-    "review_notes": "Independence D&C Manual / APWA 5600 only on Issuu (no durable direct PDF); criteria from city-cited MARC BMP Manual + published 5600 amendment excerpts.",
+    "review_notes": "Independence D&C Manual / APWA 5600 only on Issuu (no durable direct PDF); criteria from city-cited MARC BMP Manual + published 5600 amendment excerpts. Citation QA 2026-11-18: 0 quote(s) replaced with verbatim source text; 3 removed because no supporting text was found (jurisdiction_name, water_quality_volume_method, relationship_to_state_manual).",
     "fields_not_found": [
       "document_metadata.last_revised_date",
       "design_criteria.required_hydrologic_hydraulic_software"

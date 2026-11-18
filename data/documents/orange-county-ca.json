@@ -68,11 +68,6 @@
       "page_or_section": "Chapter 7"
     },
     {
-      "field": "design_criteria.approved_bmp_categories",
-      "excerpt": "Local Detention Basins / Water Quality Vegetated Swale",
-      "page_or_section": "Chapter 7 / Figure 6-9"
-    },
-    {
       "field": "design_parameters.swale_longitudinal_slope_percent",
       "excerpt": "the maximum bed slope should not be more than 6 percent, unless check dams are used",
       "page_or_section": "Chapter 6 – Open Channels, 6.4.2.3.2 Water Quality Vegetated Swales (page 6-12)"
@@ -96,7 +91,7 @@
   "extraction_quality": {
     "confidence": "medium",
     "needs_human_review": true,
-    "review_notes": "OC Local Drainage Manual is hydraulics-focused; post-construction LID/WQ primarily in OC DAMP/TGD — consider adding TGD next. Pipeline excerpt repair removed 1 unlocated citation(s).",
+    "review_notes": "OC Local Drainage Manual is hydraulics-focused; post-construction LID/WQ primarily in OC DAMP/TGD — consider adding TGD next. Pipeline excerpt repair removed 1 unlocated citation(s). Citation QA 2026-11-18: 0 quote(s) replaced with verbatim source text; 1 removed because no supporting text was found (approved_bmp_categories).",
     "fields_not_found": [
       "document_metadata.adoption_or_effective_date",
       "document_metadata.last_revised_date",

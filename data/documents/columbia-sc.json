@@ -62,11 +62,6 @@
       "page_or_section": "§1 Water Quality"
     },
     {
-      "field": "design_criteria.peak_flow_calculation_method",
-      "excerpt": "Channel Protection Volume ... 1-year storm; Overbank Flood Protection (Q25)",
-      "page_or_section": "Ch. 1–2"
-    },
-    {
       "field": "design_criteria.approved_bmp_categories",
       "excerpt": "permanent water quality BMP ... pretreatment device such as a forebay",
       "page_or_section": "§1 Water Quality"
@@ -120,7 +115,7 @@
   "extraction_quality": {
     "confidence": "high",
     "needs_human_review": true,
-    "review_notes": "Pipeline excerpt repair removed 3 unlocated citation(s).",
+    "review_notes": "Pipeline excerpt repair removed 3 unlocated citation(s). Citation QA 2026-11-18: 0 quote(s) replaced with verbatim source text; 1 removed because no supporting text was found (peak_flow_calculation_method).",
     "fields_not_found": [
       "design_criteria.required_hydrologic_hydraulic_software",
       "document_metadata.version_or_edition",

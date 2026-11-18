@@ -37,11 +37,6 @@
       "page_or_section": "Title"
     },
     {
-      "field": "document_metadata.state_code",
-      "excerpt": "Pennsylvania / Title Thirteen",
-      "page_or_section": "Introduction"
-    },
-    {
       "field": "document_metadata.document_title",
       "excerpt": "STORMWATER DESIGN MANUAL",
       "page_or_section": "Cover"
@@ -94,8 +89,8 @@
   ],
   "extraction_quality": {
     "confidence": "high",
-    "needs_human_review": false,
-    "review_notes": "Pittsburgh Stormwater Design Manual; 2-inch / 95th percentile volume control confirmed.",
+    "needs_human_review": true,
+    "review_notes": "Pittsburgh Stormwater Design Manual; 2-inch / 95th percentile volume control confirmed. Citation QA 2026-11-18: 0 quote(s) replaced with verbatim source text; 1 removed because no supporting text was found (state_code).",
     "fields_not_found": [
       "document_metadata.version_or_edition",
       "document_metadata.adoption_or_effective_date",

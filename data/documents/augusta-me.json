@@ -38,11 +38,6 @@
   },
   "evidence": [
     {
-      "field": "document_metadata.jurisdiction_name",
-      "excerpt": "City of Augusta capital MS4 follows Maine Stormwater Design Manual Vol III",
-      "page_or_section": "Coverage note"
-    },
-    {
       "field": "design_criteria.water_quality_volume_method",
       "excerpt": "Treat the first 1 inch of runoff from impervious surfaces and 0.4 inch from landscaped areas",
       "page_or_section": "Maine Vol III"
@@ -81,7 +76,7 @@
   "extraction_quality": {
     "confidence": "medium",
     "needs_human_review": true,
-    "review_notes": "Municipality coverage via Maine Stormwater Management Design Manual Volume III.",
+    "review_notes": "Municipality coverage via Maine Stormwater Management Design Manual Volume III. Citation QA 2026-11-18: 0 quote(s) replaced with verbatim source text; 1 removed because no supporting text was found (jurisdiction_name).",
     "fields_not_found": []
   },
   "source": {

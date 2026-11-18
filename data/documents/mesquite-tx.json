@@ -52,11 +52,6 @@
       "page_or_section": "§3.2"
     },
     {
-      "field": "document_metadata.relationship_to_state_manual",
-      "excerpt": "independent city engineering design manual",
-      "page_or_section": "Coverage note"
-    },
-    {
       "field": "design_parameters.swale_longitudinal_slope_percent",
       "excerpt": "All earthen drainage swales draining areas less than one cumulative acre shall have a 2% minimum slope. ... All paved drainage swales shall have a 1% minimum slope.",
       "page_or_section": "Section 3.1.14, Drainage Design Requirements 3-3 (mesquite-tx-c0065)"
@@ -80,7 +75,7 @@
   "extraction_quality": {
     "confidence": "medium",
     "needs_human_review": true,
-    "review_notes": "Full EDM Sections 1–9 PDF; drainage criteria concentrated in §3. Edition date not clear on extract.",
+    "review_notes": "Full EDM Sections 1–9 PDF; drainage criteria concentrated in §3. Edition date not clear on extract. Citation QA 2026-11-18: 0 quote(s) replaced with verbatim source text; 1 removed because no supporting text was found (relationship_to_state_manual).",
     "fields_not_found": [
       "document_metadata.adoption_or_effective_date",
       "document_metadata.last_revised_date",

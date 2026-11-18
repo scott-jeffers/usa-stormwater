@@ -59,11 +59,6 @@
       "page_or_section": "Table 3-1"
     },
     {
-      "field": "document_metadata.relationship_to_state_manual",
-      "excerpt": "independent — aligns with MARC/APWA BMP Manual and TMC 13.35",
-      "page_or_section": "§1.4 / §3.3"
-    },
-    {
       "field": "design_parameters.max_drawdown_hours",
       "excerpt": "For dry detention BMPs not designed for extended detention, the design shall allow for discharge of at least 80 percent of the detention storage volume within 24 hours after the peak or center of mass of the inflow has entered the detention basin.",
       "page_or_section": "Chapter 4, page 4-11 (Section 7.d)"
@@ -82,7 +77,7 @@
   "extraction_quality": {
     "confidence": "medium",
     "needs_human_review": true,
-    "review_notes": "LS/Value Rating method rather than fixed rainfall depth WQv; quantity design storms live partly in companion Design Criteria manual.",
+    "review_notes": "LS/Value Rating method rather than fixed rainfall depth WQv; quantity design storms live partly in companion Design Criteria manual. Citation QA 2026-11-18: 0 quote(s) replaced with verbatim source text; 1 removed because no supporting text was found (relationship_to_state_manual).",
     "fields_not_found": [
       "design_criteria.design_storm_return_periods_years",
       "design_criteria.required_hydrologic_hydraulic_software"

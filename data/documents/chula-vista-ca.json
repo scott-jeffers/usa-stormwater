@@ -34,11 +34,6 @@
   },
   "evidence": [
     {
-      "field": "document_metadata.jurisdiction_name",
-      "excerpt": "Chula Vista — San Diego County MS4; coverage via City of San Diego Stormwater Standards as regional reference",
-      "page_or_section": "Coverage note"
-    },
-    {
       "field": "design_parameters.shwt_separation_inches",
       "excerpt": "The depth to seasonally high groundwater tables (normal high depth during the wet season) beneath the base of any infiltration BMP must be greater than 10 feet for full infiltration BMPs to be allowed.",
       "page_or_section": "Appendix C.2.2.2, page 272"
@@ -67,7 +62,7 @@
   "extraction_quality": {
     "confidence": "low",
     "needs_human_review": true,
-    "review_notes": "Regional placeholder — replace with Chula Vista / County BMP Design Manual when a durable public PDF is available.",
+    "review_notes": "Regional placeholder — replace with Chula Vista / County BMP Design Manual when a durable public PDF is available. Citation QA 2026-11-18: 0 quote(s) replaced with verbatim source text; 1 removed because no supporting text was found (jurisdiction_name).",
     "fields_not_found": []
   },
   "source": {

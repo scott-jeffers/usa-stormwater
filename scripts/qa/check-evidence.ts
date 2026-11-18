@@ -167,6 +167,41 @@ function loadExisting(): EvidenceQaFile | null {
   return parsed.success ? parsed.data : null;
 }
 
+/** Strict-check every quote cited by the national drafts and practice pages. */
+function checkNational(): NonNullable<EvidenceQaFile["national"]> {
+  const NAT = path.resolve(process.cwd(), "data/national");
+  const cache = new Map<string, SourceIndex[]>();
+  const counts = { exact: 0, fuzzy: 0, unverifiable: 0, fail: 0, unchecked: 0 };
+  const failing: Array<{ file: string; slug: string; excerpt: string }> = [];
+  const files = (dir: string): string[] =>
+    readdirSync(dir, { withFileTypes: true }).flatMap((e) =>
+      e.isDirectory() ? files(path.join(dir, e.name)) : e.name.endsWith(".json") ? [path.join(dir, e.name)] : []
+    );
+  for (const f of existsSync(NAT) ? files(NAT) : []) {
+    const walk = (o: unknown): void => {
+      if (Array.isArray(o)) return o.forEach(walk);
+      if (!o || typeof o !== "object") return;
+      const rec = o as Record<string, unknown>;
+      if (typeof rec.slug === "string" && typeof rec.excerpt === "string" && rec.excerpt) {
+        if (!cache.has(rec.slug)) cache.set(rec.slug, loadPageSources(rec.slug).map((p) => new SourceIndex(p)));
+        const ixs = cache.get(rec.slug)!;
+        if (!ixs.length) counts.unchecked += 1;
+        else {
+          const st = ixs
+            .map((ix) => matchExcerpt(ix, rec.excerpt as string).status)
+            .sort((a, b) => RANK[a] - RANK[b])[0]!;
+          counts[st] += 1;
+          if (st === "fail")
+            failing.push({ file: path.relative(NAT, f), slug: rec.slug, excerpt: (rec.excerpt as string).slice(0, 160) });
+        }
+      }
+      Object.values(rec).forEach(walk);
+    };
+    walk(JSON.parse(readFileSync(f, "utf-8")));
+  }
+  return { counts, failing };
+}
+
 function markdown(file: EvidenceQaFile): string {
   const recs = Object.values(file.records);
   const tot = { exact: 0, fuzzy: 0, unverifiable: 0, fail: 0 };
@@ -216,6 +251,10 @@ be stated in its own excerpt.
 | Kind | Count |
 |------|------:|
 ${[...kinds.entries()].map(([k, n]) => `| ${k} | ${n} |`).join("\n") || "| _none_ | 0 |"}
+
+## National drafts and practice pages
+
+${file.national ? `${Object.entries(file.national.counts).map(([k, n]) => `${k}: ${n}`).join(" · ")}${file.national.failing.length ? `\n\nNot found in source:\n\n${file.national.failing.map((x) => `- \`${x.slug}\` in ${x.file}: ${x.excerpt}`).join("\n")}` : ""}` : "_not checked_"}
 
 ## Records needing attention (worst first, top ${worst.length})
 
@@ -267,6 +306,7 @@ function main() {
     version: 1,
     generated_at: new Date().toISOString(),
     records: Object.fromEntries(Object.entries(records).sort(([a], [b]) => a.localeCompare(b))),
+    national: only.length ? existing?.national : checkNational(),
   });
   mkdirSync(QA_DIR, { recursive: true });
   writeFileSync(QA_EVIDENCE_PATH, JSON.stringify(file, null, 1) + "\n");

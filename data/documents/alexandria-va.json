@@ -62,11 +62,6 @@
       "page_or_section": "Water Quality Sizing"
     },
     {
-      "field": "design_criteria.approved_bmp_categories",
-      "excerpt": "Urban Bioretention; Permeable Pavement",
-      "page_or_section": "TOC"
-    },
-    {
       "field": "design_parameters.shwt_separation_inches",
       "excerpt": "the bottom of the the soil underneath the proposed bioretention must be at least 2 feet above bedrock or the seasonal high groundwater table",
       "page_or_section": "3.1 PLANNING FOR STORMWATER, page 31"
@@ -105,7 +100,7 @@
   "extraction_quality": {
     "confidence": "medium",
     "needs_human_review": true,
-    "review_notes": "ROW-focused green streets guidelines; site development still relies on full VA BMP Clearinghouse / VESMP. Not a complete city stormwater design manual. Pipeline excerpt repair removed 2 unlocated citation(s).",
+    "review_notes": "ROW-focused green streets guidelines; site development still relies on full VA BMP Clearinghouse / VESMP. Not a complete city stormwater design manual. Pipeline excerpt repair removed 2 unlocated citation(s). Citation QA 2026-11-18: 0 quote(s) replaced with verbatim source text; 1 removed because no supporting text was found (approved_bmp_categories).",
     "fields_not_found": [
       "document_metadata.adoption_or_effective_date",
       "design_criteria.design_storm_return_periods_years",

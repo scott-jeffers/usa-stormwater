@@ -28,16 +28,6 @@
   },
   "evidence": [
     {
-      "field": "document_metadata.jurisdiction_name",
-      "excerpt": "City of Boulder Front Range MS4 — coverage via MHFD/UDFCD Volume 3 WQCV",
-      "page_or_section": "Coverage note"
-    },
-    {
-      "field": "design_criteria.water_quality_volume_method",
-      "excerpt": "Water Quality Capture Volume (WQCV) based on runoff from 0.6 inches",
-      "page_or_section": "USDCM Vol.3"
-    },
-    {
       "field": "design_parameters.wqv_depth_inches",
       "excerpt": "Within the UDFCD boundary, the WQCV is based on runoff from 0.6 inches of precipitation.",
       "page_or_section": "Chapter 1, page 11 (Common Stormwater Management Terms)"
@@ -46,7 +36,7 @@
   "extraction_quality": {
     "confidence": "medium",
     "needs_human_review": true,
-    "review_notes": "Regional MHFD criteria — prefer city-specific drainage criteria manual when a durable public PDF is available.",
+    "review_notes": "Regional MHFD criteria — prefer city-specific drainage criteria manual when a durable public PDF is available. Citation QA 2026-11-18: 0 quote(s) replaced with verbatim source text; 2 removed because no supporting text was found (jurisdiction_name, water_quality_volume_method).",
     "fields_not_found": []
   },
   "source": {

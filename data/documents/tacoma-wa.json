@@ -77,11 +77,6 @@
       "page_or_section": "Chapter 3"
     },
     {
-      "field": "design_criteria.approved_bmp_categories",
-      "excerpt": "Infiltration Facilities / Detention",
-      "page_or_section": "Volume 3"
-    },
-    {
       "field": "design_parameters.max_drawdown_hours",
       "excerpt": "Document that the water quality design storm volume (indicated by WWHM) can infiltrate through the infiltration basin surface within 48 hours.",
       "page_or_section": "Volume 5, Section 7.6.4.2 Drawdown Time"
@@ -110,7 +105,7 @@
   "extraction_quality": {
     "confidence": "high",
     "needs_human_review": true,
-    "review_notes": "Tacoma SWMM July 2016; text truncated but Minimum Requirements structure clear. Newer editions may exist. Pipeline excerpt repair removed 1 unlocated citation(s).",
+    "review_notes": "Tacoma SWMM July 2016; text truncated but Minimum Requirements structure clear. Newer editions may exist. Pipeline excerpt repair removed 1 unlocated citation(s). Citation QA 2026-11-18: 0 quote(s) replaced with verbatim source text; 1 removed because no supporting text was found (approved_bmp_categories).",
     "fields_not_found": [
       "document_metadata.adoption_or_effective_date",
       "design_criteria.required_hydrologic_hydraulic_software",

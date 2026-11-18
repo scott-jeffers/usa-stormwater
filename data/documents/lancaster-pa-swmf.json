@@ -91,17 +91,12 @@
       "field": "design_parameters.practice_mentions.permeable_pavement",
       "excerpt": "Pervious Pavement w/ Infiltration Bed – a Green Infrastructure (GI) technique that combines stormwater infiltration, storage, and structural pavement",
       "page_or_section": "Definitions, page 9"
-    },
-    {
-      "field": "design_parameters.practice_mentions.manufactured_treatment",
-      "excerpt": "Proprietary Water Quality Filters and Hydrodynamic Devices – city-approved prefabricated stormwater treatment structures",
-      "page_or_section": "Definitions, page 9; Table 6-2"
     }
   ],
   "extraction_quality": {
     "confidence": "medium",
     "needs_human_review": true,
-    "review_notes": "Fee/credit policy manual (not primary design criteria). Companion design manual is lancaster-pa (Green Infrastructure Design Manual, June 2024). Peak-flow and software fields not specified here.",
+    "review_notes": "Fee/credit policy manual (not primary design criteria). Companion design manual is lancaster-pa (Green Infrastructure Design Manual, June 2024). Peak-flow and software fields not specified here. Citation QA 2026-11-18: 0 quote(s) replaced with verbatim source text; 1 removed because no supporting text was found (manufactured_treatment).",
     "fields_not_found": [
       "design_criteria.design_storm_return_periods_years",
       "design_criteria.peak_flow_calculation_method",

@@ -65,11 +65,6 @@
       "page_or_section": "Title Page"
     },
     {
-      "field": "document_metadata.version_or_edition",
-      "excerpt": "March 2024 CTSW-RT-24-425.11.1",
-      "page_or_section": "Title Page"
-    },
-    {
       "field": "document_metadata.adoption_or_effective_date",
       "excerpt": "Report Date: March 2024",
       "page_or_section": "Caltrans Technical Report Documentation Page"
@@ -98,11 +93,6 @@
       "field": "design_criteria.required_hydrologic_hydraulic_software",
       "excerpt": "calculated using the Revised Universal Soil Loss Equation, version 2 (RUSLE2)",
       "page_or_section": "Section 2.3.1 Surface Water Buffers, Page 2-7"
-    },
-    {
-      "field": "design_criteria.approved_bmp_categories",
-      "excerpt": "Caltrans Construction Site BMPs are divided into six categories, as shown in Table 2-1: Temporary Soil Stabilization, Temporary Sediment Control, Wind Erosion Control, Tracking Control, Non-Stormwater Management, Waste Management and Materials Pollution Control",
-      "page_or_section": "Section 2.2, Table 2-1, Pages 2-5 to 2-7"
     },
     {
       "field": "design_criteria.approved_bmp_categories",
@@ -147,8 +137,8 @@
   ],
   "extraction_quality": {
     "confidence": "high",
-    "needs_human_review": false,
-    "review_notes": "Construction-phase BMP manual for Caltrans right-of-way projects. Post-construction TBMP sizing and water quality volume methods are in the Project Planning and Design Guide (PPDG), not this manual. RUSLE2 is required for surface-water-buffer equivalency; 2-year storm cited only as a common clear-water-diversion default.",
+    "needs_human_review": true,
+    "review_notes": "Construction-phase BMP manual for Caltrans right-of-way projects. Post-construction TBMP sizing and water quality volume methods are in the Project Planning and Design Guide (PPDG), not this manual. RUSLE2 is required for surface-water-buffer equivalency; 2-year storm cited only as a common clear-water-diversion default. Citation QA 2026-11-18: 0 quote(s) replaced with verbatim source text; 2 removed because no supporting text was found (version_or_edition, approved_bmp_categories).",
     "fields_not_found": [
       "design_criteria.water_quality_volume_method"
     ]

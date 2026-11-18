@@ -30,11 +30,6 @@
   },
   "evidence": [
     {
-      "field": "document_metadata.jurisdiction_name",
-      "excerpt": "Pensacola / NWFWMD geographic boundaries",
-      "page_or_section": "Coverage note"
-    },
-    {
       "field": "design_criteria.water_quality_volume_method",
       "excerpt": "ENVIRONMENTAL RESOURCE PERMIT APPLICANT’S HANDBOOK VOLUME II",
       "page_or_section": "Title"
@@ -68,7 +63,7 @@
   "extraction_quality": {
     "confidence": "medium",
     "needs_human_review": true,
-    "review_notes": "Municipal map coverage via NWFWMD ERP AH Vol II. Canonical special_district record: fl-nwfwmd-erp-ah2. Regional NWFWMD AH Vol II for Pensacola MS4 — confirm city-specific amendments.",
+    "review_notes": "Municipal map coverage via NWFWMD ERP AH Vol II. Canonical special_district record: fl-nwfwmd-erp-ah2. Regional NWFWMD AH Vol II for Pensacola MS4 — confirm city-specific amendments. Citation QA 2026-11-18: 0 quote(s) replaced with verbatim source text; 1 removed because no supporting text was found (jurisdiction_name).",
     "fields_not_found": []
   },
   "source": {

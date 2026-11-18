@@ -46,5 +46,18 @@ export const evidenceQaFileSchema = z.object({
   version: z.literal(1),
   generated_at: z.string(),
   records: z.record(z.string(), evidenceQaRecordSchema),
+  /** Quotes cited by data/national drafts and practice matrices. */
+  national: z
+    .object({
+      counts: z.object({
+        exact: z.number(),
+        fuzzy: z.number(),
+        unverifiable: z.number(),
+        fail: z.number(),
+        unchecked: z.number(),
+      }),
+      failing: z.array(z.object({ file: z.string(), slug: z.string(), excerpt: z.string() })),
+    })
+    .optional(),
 });
 export type EvidenceQaFile = z.infer<typeof evidenceQaFileSchema>;

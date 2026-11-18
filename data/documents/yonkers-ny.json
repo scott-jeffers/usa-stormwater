@@ -59,11 +59,6 @@
       "page_or_section": "Title Page"
     },
     {
-      "field": "design_criteria.design_storm_return_periods_years",
-      "excerpt": "1-year, 2-year, 10-year, and 100-year",
-      "page_or_section": "Table 4.1"
-    },
-    {
       "field": "design_criteria.water_quality_volume_method",
       "excerpt": "Water Quality Volume (WQv) 90% Rule: WQv (acre-feet) = (P ∙ Rv ∙ A) / 12 Rv = 0.05+0.009(I) I = Impervious Cover (Percent) P(inches) = 90% Rainfall Event Number (See Figure 4.1) 2 A = Contributing Area (acres) Runoff Reduction Volume (RRv) RRv (acre-feet) = Reduction of",
       "page_or_section": "p. 43"
@@ -152,7 +147,7 @@
   "extraction_quality": {
     "confidence": "medium",
     "needs_human_review": true,
-    "review_notes": "Municipality coverage via NYS Stormwater Management Design Manual (same pattern as Rochester). Pipeline excerpt repair removed 3 unlocated citation(s).",
+    "review_notes": "Municipality coverage via NYS Stormwater Management Design Manual (same pattern as Rochester). Pipeline excerpt repair removed 3 unlocated citation(s). Citation QA 2026-11-18: 0 quote(s) replaced with verbatim source text; 1 removed because no supporting text was found (design_storm_return_periods_years).",
     "fields_not_found": [
       "document_metadata.version_or_edition",
       "document_metadata.adoption_or_effective_date",

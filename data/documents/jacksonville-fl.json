@@ -68,16 +68,6 @@
       "page_or_section": "p. 76"
     },
     {
-      "field": "design_criteria.water_quality_volume_method",
-      "excerpt": "wet detention Table 3.7-1",
-      "page_or_section": "Table 3.7-1"
-    },
-    {
-      "field": "design_criteria.peak_flow_calculation_method",
-      "excerpt": "Rational SMF storage 100-year / SCS 25-year",
-      "page_or_section": "SMF design"
-    },
-    {
       "field": "design_criteria.approved_bmp_categories",
       "excerpt": "wet detention",
       "page_or_section": "Table 3.7-1"
@@ -126,7 +116,7 @@
   "extraction_quality": {
     "confidence": "medium",
     "needs_human_review": true,
-    "review_notes": "Jacksonville LDPM Vol 2 effective Jan 2026. Confirm exact Table 3.7-1 WQ criteria from PDF. Pipeline excerpt repair removed 1 unlocated citation(s).",
+    "review_notes": "Jacksonville LDPM Vol 2 effective Jan 2026. Confirm exact Table 3.7-1 WQ criteria from PDF. Pipeline excerpt repair removed 1 unlocated citation(s). Citation QA 2026-11-18: 0 quote(s) replaced with verbatim source text; 2 removed because no supporting text was found (water_quality_volume_method, peak_flow_calculation_method).",
     "fields_not_found": [
       "document_metadata.last_revised_date",
       "design_criteria.required_hydrologic_hydraulic_software",

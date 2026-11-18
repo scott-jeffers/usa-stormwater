@@ -35,11 +35,6 @@
   },
   "evidence": [
     {
-      "field": "document_metadata.jurisdiction_name",
-      "excerpt": "City of Cambridge follows MassDEP Stormwater Handbook / Standards",
-      "page_or_section": "Coverage note"
-    },
-    {
       "field": "document_metadata.relationship_to_state_manual",
       "excerpt": "Performance Removal Curves and the MassDEP pollutant removal credits – i.e., the EPA-PRCs and MassDEP pollutant removal credits assume that the SCM has been designed with proper pretreatment in accordance with the Appendix A Structural SCM Specifications and the Massachusett",
       "page_or_section": "p. 30"
@@ -103,7 +98,7 @@
   "extraction_quality": {
     "confidence": "medium",
     "needs_human_review": true,
-    "review_notes": "Municipality coverage via MassDEP handbook.",
+    "review_notes": "Municipality coverage via MassDEP handbook. Citation QA 2026-11-18: 0 quote(s) replaced with verbatim source text; 1 removed because no supporting text was found (jurisdiction_name).",
     "fields_not_found": [
       "document_metadata.adoption_or_effective_date"
     ]

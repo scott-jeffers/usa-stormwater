@@ -42,16 +42,6 @@
       "page_or_section": "Title"
     },
     {
-      "field": "design_criteria.water_quality_volume_method",
-      "excerpt": "C.3 stormwater quality measures",
-      "page_or_section": "References"
-    },
-    {
-      "field": "design_criteria.peak_flow_calculation_method",
-      "excerpt": "Modified Rational / Synthetic UH; 25% peak reduction",
-      "page_or_section": "Hydrology / detention"
-    },
-    {
       "field": "design_criteria.approved_bmp_categories",
       "excerpt": "................................ 5 3.6. Detention Facilities..................................................................................................... 5 4. TAILWATER ELEVATIONS IN FLOOD ZONES & DESIGN DISCHARGE FREQUENCIES ..............................................",
       "page_or_section": "p. 3"
@@ -90,7 +80,7 @@
   "extraction_quality": {
     "confidence": "medium",
     "needs_human_review": true,
-    "review_notes": "Oakland 2014 drainage standards; C.3 WQ largely by reference to MRP/regional guidance. Pipeline excerpt repair removed 5 unlocated citation(s).",
+    "review_notes": "Oakland 2014 drainage standards; C.3 WQ largely by reference to MRP/regional guidance. Pipeline excerpt repair removed 5 unlocated citation(s). Citation QA 2026-11-18: 0 quote(s) replaced with verbatim source text; 2 removed because no supporting text was found (water_quality_volume_method, peak_flow_calculation_method).",
     "fields_not_found": [
       "document_metadata.adoption_or_effective_date",
       "design_criteria.required_hydrologic_hydraulic_software",

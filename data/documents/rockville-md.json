@@ -33,11 +33,6 @@
   },
   "evidence": [
     {
-      "field": "document_metadata.jurisdiction_name",
-      "excerpt": "City of Rockville MS4 follows Maryland Stormwater Design Manual",
-      "page_or_section": "Coverage note"
-    },
-    {
       "field": "design_parameters.wqv_depth_inches",
       "excerpt": "P= rainfall depth in inches and is equal to 1.0\" in the Eastern Rainfall Zone and 0.9\" in the Western Rainfall Zone",
       "page_or_section": "Table 2.1 / Chapter 2.0, page 39"
@@ -91,7 +86,7 @@
   "extraction_quality": {
     "confidence": "medium",
     "needs_human_review": true,
-    "review_notes": "Municipality coverage via Maryland Design Manual (Annapolis/Baltimore pattern). Pipeline excerpt repair removed 1 unlocated citation(s).",
+    "review_notes": "Municipality coverage via Maryland Design Manual (Annapolis/Baltimore pattern). Pipeline excerpt repair removed 1 unlocated citation(s). Citation QA 2026-11-18: 0 quote(s) replaced with verbatim source text; 1 removed because no supporting text was found (jurisdiction_name).",
     "fields_not_found": [
       "design_parameters.wqv_depth_inches"
     ]

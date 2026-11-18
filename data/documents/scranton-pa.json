@@ -25,11 +25,6 @@
   },
   "evidence": [
     {
-      "field": "document_metadata.jurisdiction_name",
-      "excerpt": "City of Scranton MS4 / Act 167 cites PA PCSM Manual",
-      "page_or_section": "Coverage note"
-    },
-    {
       "field": "document_metadata.relationship_to_state_manual",
       "excerpt": "DRAFT / Page 1-3 1.1 OVERVIEW OF PCSM MANUAL This PCSM Manual establishes DEP-approved procedures for conducting PCSM stormwater analyses and provides SCM standards that can be used for regulatory compliance under Chapter 102. These procedures and standards may be applied to he",
       "page_or_section": "p. 12"
@@ -98,7 +93,7 @@
   "extraction_quality": {
     "confidence": "medium",
     "needs_human_review": true,
-    "review_notes": "Municipality coverage via PA PCSM Manual (Allentown/Harrisburg pattern). Pipeline excerpt repair removed 1 unlocated citation(s).",
+    "review_notes": "Municipality coverage via PA PCSM Manual (Allentown/Harrisburg pattern). Pipeline excerpt repair removed 1 unlocated citation(s). Citation QA 2026-11-18: 0 quote(s) replaced with verbatim source text; 1 removed because no supporting text was found (jurisdiction_name).",
     "fields_not_found": [
       "design_criteria.design_storm_return_periods_years",
       "design_parameters.shwt_separation_inches"

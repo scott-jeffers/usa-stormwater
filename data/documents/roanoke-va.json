@@ -33,19 +33,9 @@
   },
   "evidence": [
     {
-      "field": "document_metadata.jurisdiction_name",
-      "excerpt": "City of Roanoke Stormwater Management Design Manual",
-      "page_or_section": "Ch.5 / Ch.12 headers"
-    },
-    {
       "field": "design_criteria.design_storm_return_periods_years",
       "excerpt": "Open Channels: Minor Channel Capacity 10-year ... Major Channel Capacity 100-year ... Culverts: Principal Arterial Roads 25-year Other Roads 10-year ... Storm Drains: 10-year",
       "page_or_section": "§5.2.2"
-    },
-    {
-      "field": "design_criteria.water_quality_volume_method",
-      "excerpt": "runoff reduction method will be utilized. A water quality compliance worksheet ... 9VAC25-870-65",
-      "page_or_section": "Ch.12 §12.3"
     },
     {
       "field": "design_parameters.wqv_depth_inches",
@@ -66,7 +56,7 @@
   "extraction_quality": {
     "confidence": "medium",
     "needs_human_review": true,
-    "review_notes": "Manual is chaptered; ingested Ch.5 hydrology PDF plus Ch.12 pollutant-removal criteria from city DocumentCenter. Prefer full combined PDF if published later.",
+    "review_notes": "Manual is chaptered; ingested Ch.5 hydrology PDF plus Ch.12 pollutant-removal criteria from city DocumentCenter. Prefer full combined PDF if published later. Citation QA 2026-11-18: 0 quote(s) replaced with verbatim source text; 2 removed because no supporting text was found (jurisdiction_name, water_quality_volume_method).",
     "fields_not_found": []
   },
   "source": {

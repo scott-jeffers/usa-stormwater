@@ -50,11 +50,6 @@
       "page_or_section": "Title"
     },
     {
-      "field": "document_metadata.relationship_to_state_manual",
-      "excerpt": "City Engineering Design Manual / iSWM Technical Manuals",
-      "page_or_section": "References"
-    },
-    {
       "field": "design_criteria.design_storm_return_periods_years",
       "excerpt": "fully developed 5-year and 100-year flows",
       "page_or_section": "Section 4"
@@ -93,7 +88,7 @@
   "extraction_quality": {
     "confidence": "medium",
     "needs_human_review": true,
-    "review_notes": "Large EDM; adoption date unclear on title page; confirm which Rev is effective vs Proposed Rev 6. Pipeline excerpt repair removed 1 unlocated citation(s).",
+    "review_notes": "Large EDM; adoption date unclear on title page; confirm which Rev is effective vs Proposed Rev 6. Pipeline excerpt repair removed 1 unlocated citation(s). Citation QA 2026-11-18: 0 quote(s) replaced with verbatim source text; 1 removed because no supporting text was found (relationship_to_state_manual).",
     "fields_not_found": [
       "document_metadata.adoption_or_effective_date",
       "document_metadata.last_revised_date",

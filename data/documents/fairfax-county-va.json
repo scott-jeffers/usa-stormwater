@@ -53,11 +53,6 @@
       "page_or_section": "p. 5"
     },
     {
-      "field": "document_metadata.relationship_to_state_manual",
-      "excerpt": "Fairfax County Public Facilities Manual",
-      "page_or_section": "Title"
-    },
-    {
       "field": "design_criteria.design_storm_return_periods_years",
       "excerpt": "100-year floodplain limits / 10-Year Tree Canopy",
       "page_or_section": "Chapter 6 / related"
@@ -71,11 +66,6 @@
       "field": "design_criteria.peak_flow_calculation_method",
       "excerpt": "6-0300 POLICY ON DETENTION OF STORMWATERS",
       "page_or_section": "Chapter 6"
-    },
-    {
-      "field": "design_criteria.approved_bmp_categories",
-      "excerpt": "bioretention basins or rain gardens / Retention, Detention, and Best Management Practices",
-      "page_or_section": "6-1300"
     },
     {
       "field": "design_parameters.max_drawdown_hours",
@@ -161,7 +151,7 @@
   "extraction_quality": {
     "confidence": "medium",
     "needs_human_review": true,
-    "review_notes": "Large PFM export; Chapter 6 storm drainage confirmed. Pull numeric WQ depth from 6-0400 on review. Pipeline excerpt repair removed 2 unlocated citation(s).",
+    "review_notes": "Large PFM export; Chapter 6 storm drainage confirmed. Pull numeric WQ depth from 6-0400 on review. Pipeline excerpt repair removed 2 unlocated citation(s). Citation QA 2026-11-18: 0 quote(s) replaced with verbatim source text; 2 removed because no supporting text was found (relationship_to_state_manual, approved_bmp_categories).",
     "fields_not_found": [
       "document_metadata.adoption_or_effective_date",
       "design_criteria.required_hydrologic_hydraulic_software",

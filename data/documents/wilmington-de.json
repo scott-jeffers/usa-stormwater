@@ -27,11 +27,6 @@
   },
   "evidence": [
     {
-      "field": "document_metadata.jurisdiction_name",
-      "excerpt": "City of Wilmington DE MS4 follows DNREC Sediment and Stormwater standards",
-      "page_or_section": "Coverage note"
-    },
-    {
       "field": "design_parameters.ed_drain_time_hours",
       "excerpt": "a Wet ED Pond must provide 48 hours extended detention for the RPv runoff volume",
       "page_or_section": "13.6 Wet Pond Design Criteria (page 11); Table 13.2 summary (page 5)"
@@ -60,7 +55,7 @@
   "extraction_quality": {
     "confidence": "low",
     "needs_human_review": true,
-    "review_notes": "Partial coverage via wet-pond chapter (Dover pattern).",
+    "review_notes": "Partial coverage via wet-pond chapter (Dover pattern). Citation QA 2026-11-18: 0 quote(s) replaced with verbatim source text; 1 removed because no supporting text was found (jurisdiction_name).",
     "fields_not_found": []
   },
   "source": {

@@ -1,6 +1,6 @@
 # Evidence QA report
 
-Generated: 2026-11-18T12:31:11.048Z by `npm run qa:evidence`
+Generated: 2026-11-18T13:25:09.583Z by `npm run qa:evidence`
 
 Strict check: each excerpt must appear in the source manual (exact, or a close
 in-order match with **every number identical**), and each extracted number must
@@ -10,87 +10,91 @@ be stated in its own excerpt.
 
 | Status | Count |
 |--------|------:|
-| Passed | 52 |
-| Warnings only | 79 |
-| Failed (excerpt not in source) | 225 |
+| Passed | 77 |
+| Warnings only | 279 |
+| Failed (excerpt not in source) | 0 |
 
-## Excerpts (5095)
+## Excerpts (4727)
 
 | Result | Count | Share |
 |--------|------:|------:|
-| Exact | 4322 | 84.8% |
-| Close match, numbers identical | 311 | 6.1% |
-| Can't check: PDF text lost the numbers | 44 | 0.9% |
-| Not found in source / different number | 418 | 8.2% |
+| Exact | 4400 | 93.1% |
+| Close match, numbers identical | 310 | 6.6% |
+| Can't check: PDF text lost the numbers | 17 | 0.4% |
+| Not found in source / different number | 0 | 0.0% |
 
 ## Warnings
 
 | Kind | Count |
 |------|------:|
-| no_evidence | 426 |
-| value_not_in_excerpt | 180 |
+| no_evidence | 572 |
+| value_not_in_excerpt | 170 |
+
+## National drafts and practice pages
+
+exact: 1543 · fuzzy: 445 · unverifiable: 17 · fail: 0 · unchecked: 0
 
 ## Records needing attention (worst first, top 60)
 
 | Record | Not found | Warnings | Fields |
 |--------|----------:|---------:|--------|
-| `ohio-rainwater` | 7 | 0 | design_criteria.design_storm_return_periods_years, design_criteria.water_quality_volume_method, design_criteria.peak_flow_calculation_method, design_criteria.approved_bmp_categories |
-| `south-carolina-manual` | 6 | 1 | document_metadata.jurisdiction_name, document_metadata.document_title, document_metadata.relationship_to_state_manual, design_criteria.design_storm_return_periods_years |
-| `des-moines-ia` | 6 | 0 | document_metadata.jurisdiction_name, document_metadata.jurisdiction_level, document_metadata.document_title, document_metadata.version_or_edition |
-| `clarksville-tn` | 5 | 3 | document_metadata.version_or_edition, design_criteria.design_storm_return_periods_years, design_criteria.approved_bmp_categories, document_metadata.relationship_to_state_manual |
-| `toledo-oh` | 5 | 3 | document_metadata.jurisdiction_name, design_parameters.wqv_depth_inches, design_parameters.bioretention_media_depth_min_inches, design_parameters.ed_drain_time_hours |
-| `eugene-or` | 5 | 0 | document_metadata.state_code, document_metadata.adoption_or_effective_date, document_metadata.relationship_to_state_manual, design_criteria.peak_flow_calculation_method |
-| `grand-rapids-mi` | 5 | 0 | document_metadata.relationship_to_state_manual, design_criteria.design_storm_return_periods_years, design_criteria.water_quality_volume_method, design_criteria.peak_flow_calculation_method |
-| `reading-pa` | 4 | 7 | document_metadata.jurisdiction_name, design_parameters.bioretention_media_depth_min_inches, design_parameters.ed_drain_time_hours, design_parameters.green_roof_media_depth_inches |
-| `erie-pa` | 4 | 4 | document_metadata.jurisdiction_name, design_parameters.shwt_separation_inches, design_parameters.bioretention_ponding_depth_inches, design_parameters.green_roof_media_depth_inches |
-| `youngstown-oh` | 4 | 3 | document_metadata.jurisdiction_name, design_parameters.wqv_depth_inches, design_parameters.max_drawdown_hours, design_parameters.ed_drain_time_hours |
-| `prince-georges-county-md` | 4 | 2 | document_metadata.jurisdiction_name, document_metadata.relationship_to_state_manual, design_criteria.design_storm_return_periods_years, design_criteria.water_quality_volume_method |
-| `fremont-ca` | 4 | 1 | document_metadata.jurisdiction_level, document_metadata.state_code, design_criteria.water_quality_volume_method, design_criteria.peak_flow_calculation_method |
-| `richmond-va` | 4 | 1 | document_metadata.relationship_to_state_manual, design_criteria.design_storm_return_periods_years, design_criteria.water_quality_volume_method, design_criteria.approved_bmp_categories |
-| `springfield-mo` | 4 | 1 | document_metadata.adoption_or_effective_date, design_criteria.design_storm_return_periods_years, design_criteria.peak_flow_calculation_method, design_criteria.approved_bmp_categories |
-| `tallahassee-fl` | 4 | 1 | document_metadata.jurisdiction_name, document_metadata.jurisdiction_level, document_metadata.relationship_to_state_manual, design_criteria.approved_bmp_categories |
-| `tn-state` | 4 | 1 | design_criteria.design_storm_return_periods_years, design_criteria.water_quality_volume_method, design_criteria.required_hydrologic_hydraulic_software, design_criteria.approved_bmp_categories |
-| `broward-county-fl` | 4 | 0 | document_metadata.jurisdiction_level, document_metadata.version_or_edition, design_criteria.design_storm_return_periods_years, design_criteria.peak_flow_calculation_method |
-| `buffalo-ny` | 4 | 0 | document_metadata.jurisdiction_level, document_metadata.version_or_edition, design_criteria.design_storm_return_periods_years, design_criteria.approved_bmp_categories |
-| `fl-sfwmd-erp-ah2` | 4 | 0 | document_metadata.jurisdiction_name, document_metadata.jurisdiction_level, design_criteria.design_storm_return_periods_years |
-| `frisco-tx` | 4 | 0 | document_metadata.document_title, document_metadata.adoption_or_effective_date, document_metadata.relationship_to_state_manual, design_criteria.approved_bmp_categories |
-| `san-bernardino-county-ca` | 4 | 0 | document_metadata.state_code, document_metadata.relationship_to_state_manual, design_criteria.water_quality_volume_method, design_criteria.peak_flow_calculation_method |
-| `harrisburg-pa` | 3 | 9 | design_parameters.bioretention_media_depth_min_inches, design_parameters.bioretention_ponding_depth_inches, design_parameters.green_roof_media_depth_inches, design_criteria.water_quality_volume_method |
-| `allentown-pa` | 3 | 4 | document_metadata.jurisdiction_name, design_criteria.water_quality_volume_method, design_parameters.green_roof_media_depth_inches, design_criteria.peak_flow_calculation_method |
-| `independence-mo` | 3 | 4 | document_metadata.jurisdiction_name, design_criteria.water_quality_volume_method, document_metadata.relationship_to_state_manual, design_criteria.design_storm_return_periods_years |
-| `stamford-ct` | 3 | 4 | document_metadata.jurisdiction_name, document_metadata.relationship_to_state_manual, design_parameters.swale_bottom_width_inches, design_criteria.design_storm_return_periods_years |
-| `akron-oh` | 3 | 3 | document_metadata.jurisdiction_name, design_parameters.wqv_depth_inches, design_parameters.ed_drain_time_hours, design_criteria.design_storm_return_periods_years |
-| `cedar-rapids-ia` | 3 | 3 | document_metadata.jurisdiction_name, document_metadata.document_title, design_criteria.water_quality_volume_method, design_criteria.design_storm_return_periods_years |
-| `cleveland-oh` | 3 | 3 | document_metadata.jurisdiction_name, design_parameters.wqv_depth_inches, design_parameters.ed_drain_time_hours, design_criteria.design_storm_return_periods_years |
-| `elizabeth-nj` | 3 | 3 | document_metadata.jurisdiction_name, document_metadata.relationship_to_state_manual, design_criteria.water_quality_volume_method, design_criteria.design_storm_return_periods_years |
-| `newark-nj` | 3 | 3 | document_metadata.jurisdiction_name, document_metadata.relationship_to_state_manual, design_criteria.water_quality_volume_method, design_criteria.design_storm_return_periods_years |
-| `paterson-nj` | 3 | 3 | document_metadata.jurisdiction_name, document_metadata.relationship_to_state_manual, design_criteria.water_quality_volume_method, design_criteria.design_storm_return_periods_years |
-| `killeen-tx` | 3 | 2 | document_metadata.relationship_to_state_manual, design_parameters.wqv_depth_inches, design_parameters.ed_drain_time_hours, design_criteria.peak_flow_calculation_method |
-| `tx-txdot-hydraulic` | 3 | 2 | document_metadata.document_title, design_criteria.design_storm_return_periods_years, design_criteria.approved_bmp_categories, design_criteria.required_hydrologic_hydraulic_software |
-| `bakersfield-ca` | 3 | 1 | document_metadata.relationship_to_state_manual, design_criteria.design_storm_return_periods_years, design_criteria.approved_bmp_categories |
-| `ky-kytc-drainage` | 3 | 1 | document_metadata.document_title, design_criteria.peak_flow_calculation_method, design_criteria.approved_bmp_categories, design_criteria.required_hydrologic_hydraulic_software |
-| `memphis-tn` | 3 | 1 | document_metadata.document_title, design_criteria.water_quality_volume_method, design_criteria.approved_bmp_categories, design_criteria.design_storm_return_periods_years |
-| `pa-penndot-drainage` | 3 | 1 | document_metadata.jurisdiction_name, document_metadata.document_title, design_criteria.approved_bmp_categories, design_criteria.required_hydrologic_hydraulic_software |
-| `birmingham-al` | 3 | 0 | document_metadata.jurisdiction_name, document_metadata.jurisdiction_level, design_criteria.approved_bmp_categories |
-| `ca-caltrans-project-planning` | 3 | 0 | document_metadata.jurisdiction_name, design_criteria.design_storm_return_periods_years, design_criteria.approved_bmp_categories |
-| `ca-casqa-municipal` | 3 | 0 | document_metadata.document_title, design_criteria.approved_bmp_categories |
-| `dallas-tx` | 3 | 0 | document_metadata.jurisdiction_level, document_metadata.version_or_edition, document_metadata.relationship_to_state_manual |
-| `fl-srwmd-erp-ah2` | 3 | 0 | document_metadata.jurisdiction_name, document_metadata.jurisdiction_level, design_parameters.max_drawdown_hours |
-| `kentucky-bmp` | 3 | 0 | design_criteria.design_storm_return_periods_years, design_criteria.water_quality_volume_method, design_parameters.enrich_notes |
-| `montgomery-al` | 3 | 0 | document_metadata.jurisdiction_name, document_metadata.jurisdiction_level, design_criteria.approved_bmp_categories |
-| `overland-park-ks` | 3 | 0 | document_metadata.jurisdiction_name, design_criteria.water_quality_volume_method, design_criteria.approved_bmp_categories |
-| `rochester-ny` | 3 | 0 | document_metadata.jurisdiction_name, design_criteria.design_storm_return_periods_years, design_criteria.approved_bmp_categories |
-| `salem-or` | 3 | 0 | document_metadata.version_or_edition, document_metadata.relationship_to_state_manual, design_criteria.approved_bmp_categories |
-| `seattle-wa-2026` | 3 | 0 | design_criteria.design_storm_return_periods_years, design_criteria.peak_flow_calculation_method, design_parameters.design_infiltration_rate_in_per_hr |
-| `tarrant-county-tx` | 3 | 0 | document_metadata.jurisdiction_name, document_metadata.state_code, document_metadata.relationship_to_state_manual |
-| `annapolis-md` | 2 | 6 | document_metadata.jurisdiction_name, design_criteria.water_quality_volume_method, design_criteria.design_storm_return_periods_years, design_criteria.peak_flow_calculation_method |
-| `bellingham-wa` | 2 | 5 | document_metadata.jurisdiction_name, document_metadata.relationship_to_state_manual, design_criteria.design_storm_return_periods_years, design_criteria.water_quality_volume_method |
-| `evansville-in` | 2 | 5 | document_metadata.jurisdiction_name, document_metadata.relationship_to_state_manual, design_criteria.design_storm_return_periods_years, design_criteria.peak_flow_calculation_method |
-| `everett-wa` | 2 | 5 | document_metadata.jurisdiction_name, document_metadata.relationship_to_state_manual, design_criteria.design_storm_return_periods_years, design_criteria.water_quality_volume_method |
-| `olympia-wa` | 2 | 5 | document_metadata.jurisdiction_name, document_metadata.relationship_to_state_manual, design_criteria.design_storm_return_periods_years, design_criteria.water_quality_volume_method |
-| `ann-arbor-mi` | 2 | 4 | document_metadata.jurisdiction_name, document_metadata.relationship_to_state_manual, design_criteria.design_storm_return_periods_years, design_criteria.peak_flow_calculation_method |
-| `bridgeport-ct` | 2 | 4 | document_metadata.jurisdiction_name, document_metadata.relationship_to_state_manual, design_criteria.design_storm_return_periods_years, design_criteria.peak_flow_calculation_method |
-| `hartford-ct` | 2 | 4 | document_metadata.jurisdiction_name, design_parameters.swale_bottom_width_inches, design_criteria.design_storm_return_periods_years, design_criteria.peak_flow_calculation_method |
-| `new-haven-ct` | 2 | 4 | document_metadata.jurisdiction_name, document_metadata.relationship_to_state_manual, design_criteria.design_storm_return_periods_years, design_criteria.peak_flow_calculation_method |
-| `davenport-ia` | 2 | 3 | document_metadata.jurisdiction_name, design_criteria.water_quality_volume_method, design_criteria.design_storm_return_periods_years, design_criteria.peak_flow_calculation_method |
-| `raleigh-nc` | 2 | 3 | document_metadata.relationship_to_state_manual, design_criteria.design_storm_return_periods_years, design_criteria.water_quality_volume_method, design_criteria.peak_flow_calculation_method |
+| `harrisburg-pa` | 0 | 12 | design_criteria.water_quality_volume_method, design_criteria.peak_flow_calculation_method, design_criteria.approved_bmp_categories, design_parameters.shwt_separation_inches |
+| `reading-pa` | 0 | 10 | design_criteria.water_quality_volume_method, design_criteria.peak_flow_calculation_method, design_criteria.approved_bmp_categories, design_parameters.shwt_separation_inches |
+| `annapolis-md` | 0 | 7 | design_criteria.design_storm_return_periods_years, design_criteria.water_quality_volume_method, design_criteria.peak_flow_calculation_method, design_criteria.required_hydrologic_hydraulic_software |
+| `rockville-md` | 0 | 7 | design_criteria.design_storm_return_periods_years, design_criteria.water_quality_volume_method, design_criteria.peak_flow_calculation_method, design_criteria.required_hydrologic_hydraulic_software |
+| `allentown-pa` | 0 | 6 | design_criteria.water_quality_volume_method, design_criteria.peak_flow_calculation_method, design_criteria.approved_bmp_categories, design_parameters.shwt_separation_inches |
+| `burlington-vt` | 0 | 6 | design_criteria.design_storm_return_periods_years, design_criteria.water_quality_volume_method, design_criteria.peak_flow_calculation_method, design_criteria.required_hydrologic_hydraulic_software |
+| `erie-pa` | 0 | 6 | design_criteria.water_quality_volume_method, design_criteria.peak_flow_calculation_method, design_criteria.approved_bmp_categories, design_parameters.bioretention_ponding_depth_inches |
+| `fl-fdot-drainage` | 0 | 6 | design_criteria.required_hydrologic_hydraulic_software, design_criteria.design_storm_return_periods_years, design_parameters.shwt_separation_inches, design_parameters.permanent_pool_depth_inches |
+| `montpelier-vt` | 0 | 6 | design_criteria.design_storm_return_periods_years, design_criteria.peak_flow_calculation_method, design_criteria.required_hydrologic_hydraulic_software, design_criteria.approved_bmp_categories |
+| `asheville-nc` | 0 | 5 | design_criteria.design_storm_return_periods_years, design_criteria.water_quality_volume_method, design_criteria.peak_flow_calculation_method, design_criteria.approved_bmp_categories |
+| `bellingham-wa` | 0 | 5 | design_criteria.design_storm_return_periods_years, design_criteria.water_quality_volume_method, design_criteria.peak_flow_calculation_method, design_criteria.required_hydrologic_hydraulic_software |
+| `brownsville-tx` | 0 | 5 | design_criteria.design_storm_return_periods_years, design_criteria.water_quality_volume_method, design_criteria.peak_flow_calculation_method, design_criteria.required_hydrologic_hydraulic_software |
+| `chula-vista-ca` | 0 | 5 | design_criteria.design_storm_return_periods_years, design_criteria.water_quality_volume_method, design_criteria.peak_flow_calculation_method, design_criteria.required_hydrologic_hydraulic_software |
+| `concord-nc` | 0 | 5 | design_criteria.design_storm_return_periods_years, design_criteria.water_quality_volume_method, design_criteria.peak_flow_calculation_method, design_criteria.approved_bmp_categories |
+| `duluth-mn` | 0 | 5 | design_criteria.design_storm_return_periods_years, design_criteria.water_quality_volume_method, design_criteria.peak_flow_calculation_method, design_criteria.approved_bmp_categories |
+| `evansville-in` | 0 | 5 | design_criteria.design_storm_return_periods_years, design_criteria.peak_flow_calculation_method, design_criteria.approved_bmp_categories, design_parameters.wqv_depth_inches |
+| `everett-wa` | 0 | 5 | design_criteria.design_storm_return_periods_years, design_criteria.water_quality_volume_method, design_criteria.peak_flow_calculation_method, design_criteria.required_hydrologic_hydraulic_software |
+| `gastonia-nc` | 0 | 5 | design_criteria.design_storm_return_periods_years, design_criteria.water_quality_volume_method, design_criteria.peak_flow_calculation_method, design_criteria.approved_bmp_categories |
+| `greensboro-nc` | 0 | 5 | design_criteria.design_storm_return_periods_years, design_criteria.water_quality_volume_method, design_criteria.peak_flow_calculation_method, design_criteria.approved_bmp_categories |
+| `independence-mo` | 0 | 5 | design_criteria.design_storm_return_periods_years, design_criteria.water_quality_volume_method, design_criteria.peak_flow_calculation_method, design_criteria.approved_bmp_categories |
+| `laredo-tx` | 0 | 5 | design_criteria.design_storm_return_periods_years, design_criteria.water_quality_volume_method, design_criteria.peak_flow_calculation_method, design_criteria.required_hydrologic_hydraulic_software |
+| `mcallen-tx` | 0 | 5 | design_criteria.design_storm_return_periods_years, design_criteria.water_quality_volume_method, design_criteria.peak_flow_calculation_method, design_criteria.required_hydrologic_hydraulic_software |
+| `missoula-mt` | 0 | 5 | design_criteria.design_storm_return_periods_years, design_criteria.water_quality_volume_method, design_criteria.peak_flow_calculation_method, design_criteria.approved_bmp_categories |
+| `olympia-wa` | 0 | 5 | design_criteria.design_storm_return_periods_years, design_criteria.water_quality_volume_method, design_criteria.peak_flow_calculation_method, design_criteria.required_hydrologic_hydraulic_software |
+| `portland-me` | 0 | 5 | design_criteria.design_storm_return_periods_years, design_criteria.water_quality_volume_method, design_criteria.peak_flow_calculation_method, design_criteria.required_hydrologic_hydraulic_software |
+| `scranton-pa` | 0 | 5 | design_criteria.water_quality_volume_method, design_criteria.peak_flow_calculation_method, design_criteria.approved_bmp_categories, design_parameters.permeable_pavement_storage_depth_inches |
+| `south-bend-in` | 0 | 5 | design_criteria.design_storm_return_periods_years, design_criteria.peak_flow_calculation_method, design_criteria.approved_bmp_categories, design_parameters.wqv_depth_inches |
+| `wilmington-de` | 0 | 5 | design_criteria.design_storm_return_periods_years, design_criteria.water_quality_volume_method, design_criteria.peak_flow_calculation_method, design_criteria.approved_bmp_categories |
+| `albany-ny` | 0 | 4 | design_criteria.design_storm_return_periods_years, design_criteria.peak_flow_calculation_method, design_criteria.required_hydrologic_hydraulic_software, design_criteria.approved_bmp_categories |
+| `ann-arbor-mi` | 0 | 4 | design_criteria.design_storm_return_periods_years, design_criteria.peak_flow_calculation_method, design_criteria.approved_bmp_categories, design_parameters.wqv_depth_inches |
+| `augusta-me` | 0 | 4 | design_criteria.design_storm_return_periods_years, design_criteria.peak_flow_calculation_method, design_criteria.required_hydrologic_hydraulic_software, design_criteria.approved_bmp_categories |
+| `boca-raton-fl` | 0 | 4 | design_criteria.design_storm_return_periods_years, design_criteria.peak_flow_calculation_method, design_criteria.approved_bmp_categories, design_parameters.wqv_depth_inches |
+| `bridgeport-ct` | 0 | 4 | design_criteria.design_storm_return_periods_years, design_criteria.peak_flow_calculation_method, design_criteria.required_hydrologic_hydraulic_software, design_criteria.approved_bmp_categories |
+| `cambridge-ma` | 0 | 4 | design_criteria.design_storm_return_periods_years, design_criteria.peak_flow_calculation_method, design_criteria.required_hydrologic_hydraulic_software, design_criteria.approved_bmp_categories |
+| `cedar-rapids-ia` | 0 | 4 | design_criteria.design_storm_return_periods_years, design_criteria.water_quality_volume_method, design_criteria.peak_flow_calculation_method, design_criteria.approved_bmp_categories |
+| `cincinnati-oh` | 0 | 4 | design_criteria.design_storm_return_periods_years, design_criteria.water_quality_volume_method, design_criteria.peak_flow_calculation_method, design_criteria.approved_bmp_categories |
+| `clarksville-tn` | 0 | 4 | design_criteria.design_storm_return_periods_years, design_criteria.peak_flow_calculation_method, design_criteria.required_hydrologic_hydraulic_software, design_criteria.approved_bmp_categories |
+| `college-station-tx` | 0 | 4 | design_criteria.design_storm_return_periods_years, design_criteria.water_quality_volume_method, design_criteria.peak_flow_calculation_method, design_criteria.approved_bmp_categories |
+| `davenport-ia` | 0 | 4 | design_criteria.design_storm_return_periods_years, design_criteria.water_quality_volume_method, design_criteria.peak_flow_calculation_method, design_criteria.approved_bmp_categories |
+| `daytona-beach-fl` | 0 | 4 | design_criteria.design_storm_return_periods_years, design_criteria.water_quality_volume_method, design_criteria.peak_flow_calculation_method, design_criteria.approved_bmp_categories |
+| `deltona-fl` | 0 | 4 | design_criteria.design_storm_return_periods_years, design_criteria.water_quality_volume_method, design_criteria.peak_flow_calculation_method, design_criteria.approved_bmp_categories |
+| `dover-de` | 0 | 4 | design_criteria.design_storm_return_periods_years, design_criteria.peak_flow_calculation_method, design_criteria.approved_bmp_categories, design_parameters.shwt_separation_inches |
+| `elizabeth-nj` | 0 | 4 | design_criteria.design_storm_return_periods_years, design_criteria.water_quality_volume_method, design_criteria.peak_flow_calculation_method, design_criteria.approved_bmp_categories |
+| `fayetteville-ar` | 0 | 4 | design_criteria.design_storm_return_periods_years, design_criteria.water_quality_volume_method, design_criteria.peak_flow_calculation_method, design_criteria.approved_bmp_categories |
+| `flagstaff-az` | 0 | 4 | design_criteria.design_storm_return_periods_years, design_criteria.peak_flow_calculation_method, design_criteria.approved_bmp_categories, design_parameters.wqv_depth_inches |
+| `flint-mi` | 0 | 4 | design_criteria.design_storm_return_periods_years, design_criteria.water_quality_volume_method, design_criteria.peak_flow_calculation_method, design_criteria.approved_bmp_categories |
+| `grand-prairie-tx` | 0 | 4 | design_criteria.design_storm_return_periods_years, design_criteria.water_quality_volume_method, design_criteria.peak_flow_calculation_method, design_criteria.approved_bmp_categories |
+| `grand-rapids-mi` | 0 | 4 | design_criteria.design_storm_return_periods_years, design_criteria.water_quality_volume_method, design_criteria.peak_flow_calculation_method, design_criteria.approved_bmp_categories |
+| `greenville-sc` | 0 | 4 | design_criteria.design_storm_return_periods_years, design_criteria.water_quality_volume_method, design_criteria.peak_flow_calculation_method, design_criteria.approved_bmp_categories |
+| `gulfport-ms` | 0 | 4 | design_criteria.design_storm_return_periods_years, design_criteria.water_quality_volume_method, design_criteria.peak_flow_calculation_method, design_criteria.approved_bmp_categories |
+| `hartford-ct` | 0 | 4 | design_criteria.design_storm_return_periods_years, design_criteria.peak_flow_calculation_method, design_criteria.required_hydrologic_hydraulic_software, design_criteria.approved_bmp_categories |
+| `helena-mt` | 0 | 4 | design_criteria.design_storm_return_periods_years, design_criteria.peak_flow_calculation_method, design_criteria.approved_bmp_categories, design_parameters.shwt_separation_inches |
+| `hialeah-fl` | 0 | 4 | design_criteria.design_storm_return_periods_years, design_criteria.peak_flow_calculation_method, design_criteria.approved_bmp_categories, design_parameters.wqv_depth_inches |
+| `juneau-ak` | 0 | 4 | design_criteria.design_storm_return_periods_years, design_criteria.peak_flow_calculation_method, design_criteria.required_hydrologic_hydraulic_software, design_criteria.approved_bmp_categories |
+| `lafayette-la` | 0 | 4 | design_criteria.design_storm_return_periods_years, design_criteria.water_quality_volume_method, design_criteria.peak_flow_calculation_method, design_criteria.approved_bmp_categories |
+| `lakeland-fl` | 0 | 4 | design_criteria.design_storm_return_periods_years, design_criteria.water_quality_volume_method, design_criteria.approved_bmp_categories, design_parameters.shwt_separation_inches |
+| `lincoln-ne` | 0 | 4 | design_criteria.design_storm_return_periods_years, design_criteria.peak_flow_calculation_method, design_criteria.approved_bmp_categories, design_parameters.design_infiltration_rate_in_per_hr |
+| `melbourne-fl` | 0 | 4 | design_criteria.design_storm_return_periods_years, design_criteria.water_quality_volume_method, design_criteria.peak_flow_calculation_method, design_criteria.approved_bmp_categories |
+| `new-haven-ct` | 0 | 4 | design_criteria.design_storm_return_periods_years, design_criteria.peak_flow_calculation_method, design_criteria.required_hydrologic_hydraulic_software, design_criteria.approved_bmp_categories |
+| `new-orleans-jefferson-la` | 0 | 4 | design_criteria.design_storm_return_periods_years, design_criteria.water_quality_volume_method, design_criteria.peak_flow_calculation_method, design_criteria.approved_bmp_categories |

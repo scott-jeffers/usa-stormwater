@@ -36,19 +36,9 @@
   },
   "evidence": [
     {
-      "field": "document_metadata.jurisdiction_name",
-      "excerpt": "Evansville Municipal Code Title 16 Drainage cites Indiana Storm Water Quality Manual",
-      "page_or_section": "Coverage note / EMC 16.20"
-    },
-    {
       "field": "design_criteria.water_quality_volume_method",
       "excerpt": "Treat at least one-half inch of storm water runoff (water quality volume or storage) from impervious surfaces",
       "page_or_section": "Indiana Storm Water Quality Manual"
-    },
-    {
-      "field": "document_metadata.relationship_to_state_manual",
-      "excerpt": "adopts_state_manual_directly — IDEM / Indiana SWQ Manual",
-      "page_or_section": "Coverage note"
     },
     {
       "field": "design_parameters.wqv_depth_inches",
@@ -114,7 +104,7 @@
   "extraction_quality": {
     "confidence": "medium",
     "needs_human_review": true,
-    "review_notes": "Municipality coverage via Indiana Storm Water Quality Manual referenced by Evansville drainage code; local EMC may add site-specific criteria.",
+    "review_notes": "Municipality coverage via Indiana Storm Water Quality Manual referenced by Evansville drainage code; local EMC may add site-specific criteria. Citation QA 2026-11-18: 0 quote(s) replaced with verbatim source text; 2 removed because no supporting text was found (jurisdiction_name, relationship_to_state_manual).",
     "fields_not_found": []
   },
   "source": {

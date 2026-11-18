@@ -26,11 +26,6 @@
   },
   "evidence": [
     {
-      "field": "document_metadata.document_title",
-      "excerpt": "MDOT Drainage Manual Chapter 7",
-      "page_or_section": "Title / header"
-    },
-    {
       "field": "design_criteria.design_storm_return_periods_years",
       "excerpt": "shall be based on a 10 percent chance (10-year) storm frequency. The sewer should be designed to flow full, i.e., with a hydra",
       "page_or_section": null
@@ -38,11 +33,6 @@
     {
       "field": "design_criteria.peak_flow_calculation_method",
       "excerpt": "oss traveled lanes. 7.3.7 Hydrology The Rational Method is the most common method in use for the design of storm sewers when a p",
-      "page_or_section": null
-    },
-    {
-      "field": "design_criteria.approved_bmp_categories",
-      "excerpt": "Detention Basin",
       "page_or_section": null
     },
     {
@@ -64,7 +54,7 @@
   "extraction_quality": {
     "confidence": "medium",
     "needs_human_review": true,
-    "review_notes": "Heuristic agency extract from prepared text. MDOT Drainage Manual Chapter 7 — Road Storm Drainage Systems Pipeline excerpt repair removed 1 unlocated citation(s).",
+    "review_notes": "Heuristic agency extract from prepared text. MDOT Drainage Manual Chapter 7 — Road Storm Drainage Systems Pipeline excerpt repair removed 1 unlocated citation(s). Citation QA 2026-11-18: 0 quote(s) replaced with verbatim source text; 2 removed because no supporting text was found (document_title, approved_bmp_categories).",
     "fields_not_found": [
       "design_criteria.water_quality_volume_method",
       "design_criteria.required_hydrologic_hydraulic_software",

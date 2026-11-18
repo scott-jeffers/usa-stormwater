@@ -66,11 +66,6 @@
       "page_or_section": "Section 1.7"
     },
     {
-      "field": "design_criteria.approved_bmp_categories",
-      "excerpt": "GREEN INFRASTRUCTURE PRACTICES / extended detention basins",
-      "page_or_section": "Table 1-7 / Chapter 10"
-    },
-    {
       "field": "design_parameters.wqv_depth_inches",
       "excerpt": "The 90th percentile storm in Fayette County is 1.2 inches. The WQV is determined by multiplying 1.2 inches times the impervious area.",
       "page_or_section": "10.2.2 / page 138"
@@ -134,7 +129,7 @@
   "extraction_quality": {
     "confidence": "high",
     "needs_human_review": true,
-    "review_notes": "LFUCG Stormwater Manual 2026 effective May 1, 2026. Pipeline excerpt repair removed 4 unlocated citation(s).",
+    "review_notes": "LFUCG Stormwater Manual 2026 effective May 1, 2026. Pipeline excerpt repair removed 4 unlocated citation(s). Citation QA 2026-11-18: 0 quote(s) replaced with verbatim source text; 1 removed because no supporting text was found (approved_bmp_categories).",
     "fields_not_found": [
       "design_criteria.required_hydrologic_hydraulic_software",
       "document_metadata.state_code",

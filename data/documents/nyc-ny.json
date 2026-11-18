@@ -113,8 +113,8 @@
     },
     {
       "field": "design_parameters.bioretention_ponding_depth_inches",
-      "excerpt": "Surface ponding depth 12\" MAX",
-      "page_or_section": "Table 4.2 Bioretention, page 4-17"
+      "excerpt": "MIN Surface ponding depth 12\" MAXC 12\" MAX 12\" MAXC - - Media layers Mulch Eng.",
+      "page_or_section": "PDF p. 69"
     },
     {
       "field": "design_parameters.permeable_pavement_storage_depth_inches",
@@ -135,17 +135,12 @@
       "field": "design_parameters.swale_bottom_width_inches",
       "excerpt": "bottom width minimum of 2' and no greater than 6'",
       "page_or_section": "Section 4.10 Vegetated swale supplementary criteria, page 4-97"
-    },
-    {
-      "field": "design_parameters.green_roof_media_depth_inches",
-      "excerpt": "Planting/filter media depth ... Green roof 4\" MIN",
-      "page_or_section": "Table 4.3, page 4-21"
     }
   ],
   "extraction_quality": {
     "confidence": "high",
-    "needs_human_review": false,
-    "review_notes": null,
+    "needs_human_review": true,
+    "review_notes": "Citation QA 2026-11-18: 1 quote(s) replaced with verbatim source text; 1 removed because no supporting text was found (green_roof_media_depth_inches).",
     "fields_not_found": [
       "document_metadata.last_revised_date"
     ]

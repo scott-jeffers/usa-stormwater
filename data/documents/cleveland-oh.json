@@ -35,11 +35,6 @@
   },
   "evidence": [
     {
-      "field": "document_metadata.jurisdiction_name",
-      "excerpt": "City of Cleveland MS4 — Ohio Rainwater and Land Development standards",
-      "page_or_section": "Coverage note"
-    },
-    {
       "field": "design_criteria.water_quality_volume_method",
       "excerpt": "for construction activities. WQv (ac-ft) = C * 0.7\u0018 * A / \u00182 (Equation \u0018) Where: C = runoff coefficient A = area draining into the BMP in acres The runoff coefficient, C, is calculated using the following equation or alternatively values provided in the current Ohio EPA NP",
       "page_or_section": "p. 37"
@@ -93,7 +88,7 @@
   "extraction_quality": {
     "confidence": "medium",
     "needs_human_review": true,
-    "review_notes": "Statewide Ohio manual used as MS4 post-construction reference when city PDF unavailable/empty.",
+    "review_notes": "Statewide Ohio manual used as MS4 post-construction reference when city PDF unavailable/empty. Citation QA 2026-11-18: 0 quote(s) replaced with verbatim source text; 1 removed because no supporting text was found (jurisdiction_name).",
     "fields_not_found": []
   },
   "source": {

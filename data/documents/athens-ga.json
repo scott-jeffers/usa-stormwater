@@ -56,11 +56,6 @@
   },
   "evidence": [
     {
-      "field": "document_metadata.jurisdiction_name",
-      "excerpt": "Athens-Clarke County adopts GSMM technical standards",
-      "page_or_section": "Coverage note"
-    },
-    {
       "field": "document_metadata.document_title",
       "excerpt": "STORMWATER MANAGEMENT MANUAL GEORGIA VOLUMES 1 & 2",
       "page_or_section": "Title Page"
@@ -99,7 +94,7 @@
   "extraction_quality": {
     "confidence": "medium",
     "needs_human_review": true,
-    "review_notes": "Municipality coverage via GSMM 2016 (same pattern as Macon/Atlanta). Pipeline excerpt repair removed 1 unlocated citation(s).",
+    "review_notes": "Municipality coverage via GSMM 2016 (same pattern as Macon/Atlanta). Pipeline excerpt repair removed 1 unlocated citation(s). Citation QA 2026-11-18: 0 quote(s) replaced with verbatim source text; 1 removed because no supporting text was found (jurisdiction_name).",
     "fields_not_found": [
       "document_metadata.adoption_or_effective_date",
       "document_metadata.last_revised_date",

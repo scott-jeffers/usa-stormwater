@@ -46,11 +46,6 @@
       "page_or_section": "§5.2 Design Criteria"
     },
     {
-      "field": "document_metadata.relationship_to_state_manual",
-      "excerpt": "independent city storm water management plan",
-      "page_or_section": "Preface"
-    },
-    {
       "field": "design_parameters.wqv_depth_inches",
       "excerpt": "the City has selected the 1-year, 6-hour storm event as the criteria for sizing the water quality (permanent pool) volume for treatment ponds. For the Rochester area, this event is equal to 1.8 inches of rainfall.",
       "page_or_section": "6.3 Design Criteria for Water Quality, page 91"
@@ -94,7 +89,7 @@
   "extraction_quality": {
     "confidence": "medium",
     "needs_human_review": true,
-    "review_notes": "1999 plan still referenced historically; confirm whether newer design standards superseded sections.",
+    "review_notes": "1999 plan still referenced historically; confirm whether newer design standards superseded sections. Citation QA 2026-11-18: 0 quote(s) replaced with verbatim source text; 1 removed because no supporting text was found (relationship_to_state_manual).",
     "fields_not_found": [
       "design_criteria.required_hydrologic_hydraulic_software"
     ]

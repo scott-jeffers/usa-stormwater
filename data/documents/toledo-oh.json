@@ -35,11 +35,6 @@
   },
   "evidence": [
     {
-      "field": "document_metadata.jurisdiction_name",
-      "excerpt": "City of Toledo MS4 — Ohio Rainwater and Land Development standards",
-      "page_or_section": "Coverage note"
-    },
-    {
       "field": "design_criteria.water_quality_volume_method",
       "excerpt": "for construction activities. WQv (ac-ft) = C * 0.7\u0018 * A / \u00182 (Equation \u0018) Where: C = runoff coefficient A = area draining into the BMP in acres The runoff coefficient, C, is calculated using the following equation or alternatively values provided in the current Ohio EPA NP",
       "page_or_section": "p. 37"
@@ -75,16 +70,6 @@
       "page_or_section": "CHAPTER 2 Bioretention, pages 79/386"
     },
     {
-      "field": "design_parameters.ed_drain_time_hours",
-      "excerpt": "draw down the extended detention volume over a 48-hour period (dry ED); over a 24-hour period (wet ED)",
-      "page_or_section": "CHAPTER 2 Dry/Wet Extended Detention, pages 40–41/377–378"
-    },
-    {
-      "field": "design_parameters.shwt_separation_inches",
-      "excerpt": "minimum 4ft of separation required between the water table and the bioretention practice; infiltration trench: at least 2 feet between seasonal high-water table and trench bottom",
-      "page_or_section": "CHAPTER 2 Bioretention page 77; Infiltration Trench page 51"
-    },
-    {
       "field": "design_parameters.design_infiltration_rate_in_per_hr",
       "excerpt": "Soil infiltration rates within the trench must be between 0.52 and 2.5 inches per hour",
       "page_or_section": "CHAPTER 2 Infiltration Trench, page 50"
@@ -103,7 +88,7 @@
   "extraction_quality": {
     "confidence": "medium",
     "needs_human_review": true,
-    "review_notes": "Statewide Ohio manual used as MS4 post-construction reference when city PDF unavailable/empty.",
+    "review_notes": "Statewide Ohio manual used as MS4 post-construction reference when city PDF unavailable/empty. Citation QA 2026-11-18: 0 quote(s) replaced with verbatim source text; 3 removed because no supporting text was found (jurisdiction_name, ed_drain_time_hours, shwt_separation_inches).",
     "fields_not_found": []
   },
   "source": {

@@ -30,11 +30,6 @@
   },
   "evidence": [
     {
-      "field": "document_metadata.jurisdiction_name",
-      "excerpt": "City of Missoula MS4 follows Montana DEQ-8 standards",
-      "page_or_section": "Coverage note"
-    },
-    {
       "field": "design_parameters.max_drawdown_hours",
       "excerpt": "Retention facilities should be designed to infiltrate, evapotranspire, and/or capture for reuse storm water and to hold runoff no more than 72 hours.",
       "page_or_section": "5.1 GENERAL, page 29"
@@ -78,7 +73,7 @@
   "extraction_quality": {
     "confidence": "medium",
     "needs_human_review": true,
-    "review_notes": "Municipality coverage via Montana DEQ-8 (Helena pattern).",
+    "review_notes": "Municipality coverage via Montana DEQ-8 (Helena pattern). Citation QA 2026-11-18: 0 quote(s) replaced with verbatim source text; 1 removed because no supporting text was found (jurisdiction_name).",
     "fields_not_found": []
   },
   "source": {

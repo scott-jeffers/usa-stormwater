@@ -95,11 +95,6 @@
     },
     {
       "field": "design_criteria.water_quality_volume_method",
-      "excerpt": "WQv Water Quality Volume / Method used for calculating the Water Quality Volume (WQv)",
-      "page_or_section": "Acronyms / Table 2-2"
-    },
-    {
-      "field": "design_criteria.water_quality_volume_method",
       "excerpt": "For extended detention, release 50% WQv in 8 hours and release 100% WQv",
       "page_or_section": "Section 3 bioretention/extended detention design table"
     },
@@ -142,7 +137,7 @@
   "extraction_quality": {
     "confidence": "high",
     "needs_human_review": true,
-    "review_notes": "June 2025 Columbus SWDM. Explicit WQv rainfall depth equation is deferred to OEPA CGP / Rainwater and Land Development Manual rather than restated as a single Columbus-only formula in Section 3.3. No named proprietary modeling package is mandated (methods are specified). Manual text: effective August 26, 2025. Pipeline excerpt repair removed 1 unlocated citation(s).",
+    "review_notes": "June 2025 Columbus SWDM. Explicit WQv rainfall depth equation is deferred to OEPA CGP / Rainwater and Land Development Manual rather than restated as a single Columbus-only formula in Section 3.3. No named proprietary modeling package is mandated (methods are specified). Manual text: effective August 26, 2025. Pipeline excerpt repair removed 1 unlocated citation(s). Citation QA 2026-11-18: 0 quote(s) replaced with verbatim source text; 1 removed because no supporting text was found (water_quality_volume_method).",
     "fields_not_found": [
       "design_criteria.required_hydrologic_hydraulic_software",
       "document_metadata.version_or_edition"

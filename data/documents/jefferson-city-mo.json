@@ -32,11 +32,6 @@
   },
   "evidence": [
     {
-      "field": "document_metadata.jurisdiction_name",
-      "excerpt": "Jefferson City capital coverage via Missouri Guide to Green Infrastructure",
-      "page_or_section": "Coverage note"
-    },
-    {
       "field": "design_criteria.water_quality_volume_method",
       "excerpt": "water quality volume based on water quality rain events that occur roughly 90% of the time",
       "page_or_section": "PUB2446"
@@ -75,7 +70,7 @@
   "extraction_quality": {
     "confidence": "medium",
     "needs_human_review": true,
-    "review_notes": "Statewide GI guide — not a full conventional drainage design manual; city may have additional local standards.",
+    "review_notes": "Statewide GI guide — not a full conventional drainage design manual; city may have additional local standards. Citation QA 2026-11-18: 0 quote(s) replaced with verbatim source text; 1 removed because no supporting text was found (jurisdiction_name).",
     "fields_not_found": []
   },
   "source": {

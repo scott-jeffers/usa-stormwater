@@ -25,11 +25,6 @@
   },
   "evidence": [
     {
-      "field": "document_metadata.jurisdiction_name",
-      "excerpt": "City of Erie MS4 / Act 167 cites PA PCSM Manual",
-      "page_or_section": "Coverage note"
-    },
-    {
       "field": "document_metadata.relationship_to_state_manual",
       "excerpt": "DRAFT / Page 1-3 1.1 OVERVIEW OF PCSM MANUAL This PCSM Manual establishes DEP-approved procedures for conducting PCSM stormwater analyses and provides SCM standards that can be used for regulatory compliance under Chapter 102. These procedures and standards may be applied to he",
       "page_or_section": "p. 12"
@@ -41,8 +36,8 @@
     },
     {
       "field": "design_parameters.shwt_separation_inches",
-      "excerpt": "Distance Above SHWT 2 ft ... (multiple infiltration and bioretention SCM columns)",
-      "page_or_section": "Table 3-90 / page 3-310"
+      "excerpt": "Distance Above SHWT 2 ft",
+      "page_or_section": "PDF p. 388"
     },
     {
       "field": "design_parameters.bioretention_media_depth_min_inches",
@@ -52,11 +47,6 @@
     {
       "field": "design_parameters.bioretention_media_depth_min_inches",
       "excerpt": "Soil Media Depth Min. 18 in ... 3.5.1 Bioinfiltration; 3.6.1 Bioretention; 3.7.1 MRC Bioretention",
-      "page_or_section": "Table 3-90 / page 3-310"
-    },
-    {
-      "field": "design_parameters.bioretention_ponding_depth_inches",
-      "excerpt": "Maximum Ponding/Storage Depth ... 3.5.1 Bioinfiltration 2 ft; 3.6.1 Bioretention 2 ft",
       "page_or_section": "Table 3-90 / page 3-310"
     },
     {
@@ -83,17 +73,12 @@
       "field": "design_parameters.length_to_width_ratio",
       "excerpt": "The length to width ratio of the basin should be a minimum of 2:1 to avoid short circuiting.",
       "page_or_section": "Section 3.8.1 Wet Basin / page 3-286"
-    },
-    {
-      "field": "design_parameters.green_roof_media_depth_inches",
-      "excerpt": "Soil Media Depth Min. ... 3.6.2 Green Roof Min. 3 in",
-      "page_or_section": "Table 3-90 / page 3-310"
     }
   ],
   "extraction_quality": {
     "confidence": "medium",
     "needs_human_review": true,
-    "review_notes": "Municipality coverage via PA PCSM Manual (Allentown/Harrisburg pattern). Pipeline excerpt repair removed 1 unlocated citation(s).",
+    "review_notes": "Municipality coverage via PA PCSM Manual (Allentown/Harrisburg pattern). Pipeline excerpt repair removed 1 unlocated citation(s). Citation QA 2026-11-18: 1 quote(s) replaced with verbatim source text; 3 removed because no supporting text was found (jurisdiction_name, bioretention_ponding_depth_inches, green_roof_media_depth_inches).",
     "fields_not_found": [
       "design_criteria.design_storm_return_periods_years",
       "design_parameters.shwt_separation_inches"

@@ -36,18 +36,8 @@
       "page_or_section": "Cover"
     },
     {
-      "field": "document_metadata.jurisdiction_level",
-      "excerpt": "SOUTH BROWARD DRAINAGE DISTRICT / BROWARD COUNTY, FLORIDA",
-      "page_or_section": "Cover"
-    },
-    {
       "field": "document_metadata.document_title",
       "excerpt": "STORMWATER MANAGEMENT REGULATIONS, STANDARDS, PROCEDURES AND DESIGN CRITERIA MANUAL",
-      "page_or_section": "Cover"
-    },
-    {
-      "field": "document_metadata.version_or_edition",
-      "excerpt": "March 26, 2015 / Latest Revision February 2015",
       "page_or_section": "Cover"
     },
     {
@@ -66,19 +56,14 @@
       "page_or_section": "Purpose"
     },
     {
-      "field": "design_criteria.design_storm_return_periods_years",
-      "excerpt": "100-year, 3-day storm event / second-order drainage system ... 3-year",
-      "page_or_section": "Definitions / Design criteria"
-    },
-    {
       "field": "design_criteria.water_quality_volume_method",
       "excerpt": "meet SFWMD criteria for dry, pre-treatment retention/detention",
       "page_or_section": "Water Quality"
     },
     {
       "field": "design_criteria.peak_flow_calculation_method",
-      "excerpt": "allowable discharge ... inch of runoff per day per acre ... SFWMD C-9 / C-11 basin",
-      "page_or_section": "Discharge Criteria"
+      "excerpt": "inch of runoff per day per acre",
+      "page_or_section": "PDF p. 24"
     },
     {
       "field": "design_criteria.approved_bmp_categories",
@@ -114,7 +99,7 @@
   "extraction_quality": {
     "confidence": "high",
     "needs_human_review": true,
-    "review_notes": "SBDD criteria cover southern Broward; Central Broward WCD has separate manual. Pipeline excerpt repair removed 1 unlocated citation(s).",
+    "review_notes": "SBDD criteria cover southern Broward; Central Broward WCD has separate manual. Pipeline excerpt repair removed 1 unlocated citation(s). Citation QA 2026-11-18: 1 quote(s) replaced with verbatim source text; 3 removed because no supporting text was found (jurisdiction_level, version_or_edition, design_storm_return_periods_years).",
     "fields_not_found": [
       "design_criteria.required_hydrologic_hydraulic_software",
       "document_metadata.state_code"

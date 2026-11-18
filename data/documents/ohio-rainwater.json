@@ -80,23 +80,18 @@
     },
     {
       "field": "design_criteria.design_storm_return_periods_years",
-      "excerpt": "Storm Event Return Interval (years) 2 5 10 25 50 100 ... 1-year 2-year 5-year 10-year 25-year 50-year 100-year",
-      "page_or_section": "Chapter 1, Table 1.1.2; Bioretention Design Checklist"
+      "excerpt": "1-year 2-year 5-year 10-year 25-year 50-year 100-year",
+      "page_or_section": "PDF p. 83"
     },
     {
       "field": "design_criteria.water_quality_volume_method",
-      "excerpt": "The water quality volume (WQv) is the volume of runoff that is treated in a water quality pond. WQv (ac-ft) = C * 0.75 * A / 12 ... C = 0.858i² – 0.78i + 0.773i + 0.04 ... the Ohio EPA NPDES stormwater general permit for construction activities requires that the water quality volume be increased by 20% for capacity lost over time due to sediment accumulation.",
-      "page_or_section": "Chapter 2, Section 2.6"
+      "excerpt": "The water quality volume (WQv) is the volume of runoff that is treated in a water quality pond. WQv (ac-ft) = C * 0.75 * A / 12 … the Ohio EPA NPDES stormwater general permit for construction activities requires that the water quality volume be increased by 20% for capacity lost over time due to sediment accumulation.",
+      "page_or_section": "PDF p. 37"
     },
     {
       "field": "design_criteria.peak_flow_calculation_method",
-      "excerpt": "NRCS Technical Release 55 (TR 55) or other suitable method shall be used to determine ... peak discharges were estimated using empirical equations developed by the U.S. Geological Survey (Sherwood, 1986)",
-      "page_or_section": "Chapter 4; Chapter 1, Table 1.1.2"
-    },
-    {
-      "field": "design_criteria.approved_bmp_categories",
-      "excerpt": "2.6 Water Quality Ponds; 2.7 Infiltration Trench; 2.8 Sand & Organic Filter; 2.9 Grass Filter; 3.0 Bioretention Area; 2.1 Reduction of Impervious Areas; 2.2 Low Impact Development; 2.3 Conservation Development",
-      "page_or_section": "Chapter 2 Table of Contents"
+      "excerpt": "NRCS Technical Release 55 (TR 55) or other suitable method shall be used to determine",
+      "page_or_section": "PDF p. 93"
     },
     {
       "field": "design_parameters.wqv_depth_inches",
@@ -129,16 +124,6 @@
       "page_or_section": "2.10 Bioretention, page 80"
     },
     {
-      "field": "design_parameters.ed_drain_time_hours",
-      "excerpt": "draw down the extended detention volume over a 48-hour period (dry ED); over a 24-hour period (wet ED)",
-      "page_or_section": "Dry/Wet Extended Detention Basin, pages 40–41 / 377–378"
-    },
-    {
-      "field": "design_parameters.max_drawdown_hours",
-      "excerpt": "Ohio EPA requires ... minimum drawdown time of 40 hours (bioretention); drained over a 24-48 hour period (ponds)",
-      "page_or_section": "CHAPTER 2 ponds and bioretention, pages 37 / 79"
-    },
-    {
       "field": "design_parameters.design_infiltration_rate_in_per_hr",
       "excerpt": "Soil infiltration rates within the trench must be between 0.52 and 2.5 inches per hour",
       "page_or_section": "2.7 Infiltration Trench, page 50"
@@ -147,7 +132,7 @@
   "extraction_quality": {
     "confidence": "high",
     "needs_human_review": true,
-    "review_notes": "Pipeline excerpt repair removed 1 unlocated citation(s).",
+    "review_notes": "Pipeline excerpt repair removed 1 unlocated citation(s). Citation QA 2026-11-18: 3 quote(s) replaced with verbatim source text; 3 removed because no supporting text was found (approved_bmp_categories, ed_drain_time_hours, max_drawdown_hours).",
     "fields_not_found": [
       "document_metadata.last_revised_date",
       "design_criteria.required_hydrologic_hydraulic_software",

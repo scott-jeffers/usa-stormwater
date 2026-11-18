@@ -43,11 +43,6 @@
   },
   "evidence": [
     {
-      "field": "document_metadata.jurisdiction_name",
-      "excerpt": "Juneau capital MS4 follows Alaska Storm Water Guide",
-      "page_or_section": "Coverage note"
-    },
-    {
       "field": "design_criteria.water_quality_volume_method",
       "excerpt": "Treat runoff from 90% of average-year storms",
       "page_or_section": "Alaska Storm Water Guide"
@@ -76,7 +71,7 @@
   "extraction_quality": {
     "confidence": "medium",
     "needs_human_review": true,
-    "review_notes": "Municipality coverage via Alaska Storm Water Guide.",
+    "review_notes": "Municipality coverage via Alaska Storm Water Guide. Citation QA 2026-11-18: 0 quote(s) replaced with verbatim source text; 1 removed because no supporting text was found (jurisdiction_name).",
     "fields_not_found": []
   },
   "source": {

@@ -79,11 +79,6 @@
       "page_or_section": "Section 7.2"
     },
     {
-      "field": "design_criteria.approved_bmp_categories",
-      "excerpt": "Detention Basin Design / Stormwater Retention",
-      "page_or_section": "Chapter 7"
-    },
-    {
       "field": "design_parameters.wqv_depth_inches",
       "excerpt": "the water quality control volume (WQCV) that is recommended for control is the first half inch (0.5 inches) of runoff from the basin tributary to the BMP",
       "page_or_section": "Chapter 11 – 11.4.3 Water Quality Control Volume; page 178"
@@ -100,8 +95,8 @@
     },
     {
       "field": "design_parameters.shwt_separation_inches",
-      "excerpt": "Minimum of 3 feet between stone reservoir level and seasonally high-water table.",
-      "page_or_section": "Chapter 11 – 11.4.4.8 Porous Pavement; page 210"
+      "excerpt": "Minimum of 3 feet between stone reservoir level and seasonally highwater table. h.",
+      "page_or_section": "PDF p. 210"
     },
     {
       "field": "design_parameters.ed_drain_time_hours",
@@ -147,7 +142,7 @@
   "extraction_quality": {
     "confidence": "medium",
     "needs_human_review": true,
-    "review_notes": "Corpus Christi DDM Dec 2024 labeled draft appendix to IDM.",
+    "review_notes": "Corpus Christi DDM Dec 2024 labeled draft appendix to IDM. Citation QA 2026-11-18: 1 quote(s) replaced with verbatim source text; 1 removed because no supporting text was found (approved_bmp_categories).",
     "fields_not_found": [
       "document_metadata.adoption_or_effective_date",
       "design_criteria.required_hydrologic_hydraulic_software"

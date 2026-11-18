@@ -39,11 +39,6 @@
   },
   "evidence": [
     {
-      "field": "document_metadata.jurisdiction_name",
-      "excerpt": "City of Albany capital MS4 follows NYS Design Manual",
-      "page_or_section": "Coverage note"
-    },
-    {
       "field": "design_criteria.water_quality_volume_method",
       "excerpt": "Water Quality Volume (WQv) 90% Rule: WQv (acre-feet) = (P ∙ Rv ∙ A) / 12 Rv = 0.05+0.009(I) I = Impervious Cover (Percent) P(inches) = 90% Rainfall Event Number (See Figure 4.1) 2 A = Contributing Area (acres) Runoff Reduction Volume (RRv) RRv (acre-feet) = Reduction of",
       "page_or_section": "p. 43"
@@ -112,7 +107,7 @@
   "extraction_quality": {
     "confidence": "medium",
     "needs_human_review": true,
-    "review_notes": "Municipality coverage via NYS Stormwater Management Design Manual (Syracuse/Yonkers pattern).",
+    "review_notes": "Municipality coverage via NYS Stormwater Management Design Manual (Syracuse/Yonkers pattern). Citation QA 2026-11-18: 0 quote(s) replaced with verbatim source text; 1 removed because no supporting text was found (jurisdiction_name).",
     "fields_not_found": []
   },
   "source": {

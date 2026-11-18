@@ -37,11 +37,6 @@
       "page_or_section": "Title / header"
     },
     {
-      "field": "document_metadata.document_title",
-      "excerpt": "SJRWMD ERP Applicant's Handbook Volume II",
-      "page_or_section": "Title / header"
-    },
-    {
       "field": "design_criteria.design_storm_return_periods_years",
       "excerpt": "ting centerline road grade is above the 10-year flood elevation, and provided that no increase in upstream flooding is caused.",
       "page_or_section": null
@@ -49,11 +44,6 @@
     {
       "field": "design_criteria.peak_flow_calculation_method",
       "excerpt": "e in 40C-4.091(1)(e)). (b) The modified rational method (see Appendix C of this Volume, incorporated by reference in 40C-4.091(1",
-      "page_or_section": null
-    },
-    {
-      "field": "design_criteria.approved_bmp_categories",
-      "excerpt": "Wet Pond, Vegetated Swale, Detention Basin, Retention Basin",
       "page_or_section": null
     },
     {
@@ -105,7 +95,7 @@
   "extraction_quality": {
     "confidence": "medium",
     "needs_human_review": true,
-    "review_notes": "Canonical SJRWMD ERP AH Vol II special_district record. Heuristic bootstrap extract; needs human review. East-FL city placeholders point here.",
+    "review_notes": "Canonical SJRWMD ERP AH Vol II special_district record. Heuristic bootstrap extract; needs human review. East-FL city placeholders point here. Citation QA 2026-11-18: 0 quote(s) replaced with verbatim source text; 2 removed because no supporting text was found (document_title, approved_bmp_categories).",
     "fields_not_found": [
       "design_criteria.required_hydrologic_hydraulic_software"
     ]

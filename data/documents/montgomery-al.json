@@ -26,16 +26,6 @@
   },
   "evidence": [
     {
-      "field": "document_metadata.jurisdiction_name",
-      "excerpt": "City of Montgomery capital coverage via ADEM LID Handbook",
-      "page_or_section": "Coverage note"
-    },
-    {
-      "field": "document_metadata.jurisdiction_level",
-      "excerpt": "municipality — City of Montgomery",
-      "page_or_section": "Coverage note"
-    },
-    {
       "field": "document_metadata.document_title",
       "excerpt": "Low Impact Development Handbook",
       "page_or_section": "Cover"
@@ -58,11 +48,6 @@
     {
       "field": "design_criteria.peak_flow_calculation_method",
       "excerpt": "Appendix A: Stormwater Hydrology",
-      "page_or_section": "TOC"
-    },
-    {
-      "field": "design_criteria.approved_bmp_categories",
-      "excerpt": "Bioretention; Constructed Stormwater Wetlands",
       "page_or_section": "TOC"
     },
     {
@@ -134,7 +119,7 @@
   "extraction_quality": {
     "confidence": "medium",
     "needs_human_review": true,
-    "review_notes": "No durable Birmingham city design-manual PDF; coverage via ADEM LID Handbook. Pipeline excerpt repair removed 1 unlocated citation(s).",
+    "review_notes": "No durable Birmingham city design-manual PDF; coverage via ADEM LID Handbook. Pipeline excerpt repair removed 1 unlocated citation(s). Citation QA 2026-11-18: 0 quote(s) replaced with verbatim source text; 3 removed because no supporting text was found (jurisdiction_name, jurisdiction_level, approved_bmp_categories).",
     "fields_not_found": [
       "document_metadata.adoption_or_effective_date",
       "document_metadata.last_revised_date",

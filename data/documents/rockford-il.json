@@ -68,11 +68,6 @@
       "page_or_section": "T2-02(e)"
     },
     {
-      "field": "document_metadata.relationship_to_state_manual",
-      "excerpt": "independent city technical manual (supplements Stormwater Ordinance)",
-      "page_or_section": "Introduction"
-    },
-    {
       "field": "design_parameters.practice_mentions.bioretention",
       "excerpt": "Utilize bio-retention methods and rain gardens to infiltrate stormwater",
       "page_or_section": "T2-02(j), page 20"
@@ -101,7 +96,7 @@
   "extraction_quality": {
     "confidence": "medium",
     "needs_human_review": true,
-    "review_notes": "May 2015 edition; quantity-focused release-rate standard with BMP hierarchy.",
+    "review_notes": "May 2015 edition; quantity-focused release-rate standard with BMP hierarchy. Citation QA 2026-11-18: 0 quote(s) replaced with verbatim source text; 1 removed because no supporting text was found (relationship_to_state_manual).",
     "fields_not_found": []
   },
   "source": {

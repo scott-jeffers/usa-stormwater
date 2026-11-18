@@ -40,11 +40,6 @@
       "page_or_section": "Title"
     },
     {
-      "field": "document_metadata.jurisdiction_level",
-      "excerpt": "City of Buffalo Code / Green Code",
-      "page_or_section": "Guidance"
-    },
-    {
       "field": "document_metadata.state_code",
       "excerpt": "New York State Stormwater Design Manual",
       "page_or_section": "Criteria"
@@ -55,19 +50,9 @@
       "page_or_section": "Title"
     },
     {
-      "field": "document_metadata.version_or_edition",
-      "excerpt": "191015 Plan Review SW Guidance",
-      "page_or_section": "Filename"
-    },
-    {
       "field": "document_metadata.relationship_to_state_manual",
       "excerpt": "All designs must follow the criteria and standards contained in the most recent version of the New York State Stormwater Design Manual",
       "page_or_section": "Guidance"
-    },
-    {
-      "field": "design_criteria.design_storm_return_periods_years",
-      "excerpt": "1-, 10-, and 100- year storm event / 25-year / 2-year",
-      "page_or_section": "SWPPP requirements"
     },
     {
       "field": "design_criteria.water_quality_volume_method",
@@ -78,11 +63,6 @@
       "field": "design_criteria.peak_flow_calculation_method",
       "excerpt": "post-construction 25-year storm peak flows to the storm relief/ combined sewer system are less than or equal to pre-construction 2-year storm peak flows",
       "page_or_section": "Combined sewer criteria"
-    },
-    {
-      "field": "design_criteria.approved_bmp_categories",
-      "excerpt": "Bio-retention /Rain Gardens / Porous Pavement / Underground detention",
-      "page_or_section": "Preference hierarchy"
     },
     {
       "field": "design_parameters.practice_mentions.bioretention",
@@ -118,7 +98,7 @@
   "extraction_quality": {
     "confidence": "high",
     "needs_human_review": true,
-    "review_notes": "Short BSA local guidance; design numbers come from NYSMDM + combined-sewer peak criterion. Pipeline excerpt repair removed 1 unlocated citation(s).",
+    "review_notes": "Short BSA local guidance; design numbers come from NYSMDM + combined-sewer peak criterion. Pipeline excerpt repair removed 1 unlocated citation(s). Citation QA 2026-11-18: 0 quote(s) replaced with verbatim source text; 4 removed because no supporting text was found (jurisdiction_level, version_or_edition, design_storm_return_periods_years, approved_bmp_categories).",
     "fields_not_found": [
       "document_metadata.adoption_or_effective_date",
       "design_criteria.required_hydrologic_hydraulic_software",

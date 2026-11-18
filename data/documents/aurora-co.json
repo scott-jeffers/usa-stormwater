@@ -72,11 +72,6 @@
       "page_or_section": "Purpose"
     },
     {
-      "field": "design_criteria.design_storm_return_periods_years",
-      "excerpt": "detention / storm frequencies",
-      "page_or_section": "Design criteria chapters"
-    },
-    {
       "field": "design_criteria.water_quality_volume_method",
       "excerpt": "When Detention and/or Water Quality is Required",
       "page_or_section": "Section 3.13.1"
@@ -130,7 +125,7 @@
   "extraction_quality": {
     "confidence": "medium",
     "needs_human_review": true,
-    "review_notes": "Aurora SDDTC Jan 2026; return periods inferred from typical MHFD/Aurora practice — confirm exact list from hydrology chapter.",
+    "review_notes": "Aurora SDDTC Jan 2026; return periods inferred from typical MHFD/Aurora practice — confirm exact list from hydrology chapter. Citation QA 2026-11-18: 0 quote(s) replaced with verbatim source text; 1 removed because no supporting text was found (design_storm_return_periods_years).",
     "fields_not_found": [
       "design_criteria.required_hydrologic_hydraulic_software"
     ]

@@ -35,19 +35,9 @@
   },
   "evidence": [
     {
-      "field": "document_metadata.jurisdiction_name",
-      "excerpt": "iSWM Technical Manual Site Development Controls — NCTCOG regional guidance used in Tarrant County",
-      "page_or_section": "Coverage note"
-    },
-    {
       "field": "document_metadata.jurisdiction_level",
       "excerpt": "Tarrant County",
       "page_or_section": "Coverage note"
-    },
-    {
-      "field": "document_metadata.state_code",
-      "excerpt": "North Central Texas Council of Governments",
-      "page_or_section": "Cover"
     },
     {
       "field": "document_metadata.document_title",
@@ -63,11 +53,6 @@
       "field": "document_metadata.last_revised_date",
       "excerpt": "Revised 04/10",
       "page_or_section": "Footer"
-    },
-    {
-      "field": "document_metadata.relationship_to_state_manual",
-      "excerpt": "iSWM Online Technical Manual referenced by community iSWM Criteria Manuals",
-      "page_or_section": "NCTCOG iSWM"
     },
     {
       "field": "design_criteria.water_quality_volume_method",
@@ -148,7 +133,7 @@
   "extraction_quality": {
     "confidence": "medium",
     "needs_human_review": true,
-    "review_notes": "County coverage via NCTCOG iSWM Site Development Controls technical manual. Local Tarrant/iSWM Criteria Manual adoption details not separately ingested.",
+    "review_notes": "County coverage via NCTCOG iSWM Site Development Controls technical manual. Local Tarrant/iSWM Criteria Manual adoption details not separately ingested. Citation QA 2026-11-18: 0 quote(s) replaced with verbatim source text; 3 removed because no supporting text was found (jurisdiction_name, state_code, relationship_to_state_manual).",
     "fields_not_found": [
       "document_metadata.adoption_or_effective_date",
       "design_criteria.design_storm_return_periods_years",

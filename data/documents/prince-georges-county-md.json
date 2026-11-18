@@ -36,11 +36,6 @@
   },
   "evidence": [
     {
-      "field": "document_metadata.jurisdiction_name",
-      "excerpt": "Prince George's County implements Maryland SWM Design Manual",
-      "page_or_section": "Coverage note"
-    },
-    {
       "field": "document_metadata.jurisdiction_level",
       "excerpt": "5.2 7.4 Montgomery 2.6 3.2 5.1 7.2 Prince George’s 2.7 3.3 5.3 7.4 Queen Anne’s 2.7 3.3 5.3 7.5 St. Mary’s 2.8 3.4 5.4 7.7 Somerset 2.9 3.5 5.6 8.1 Talbot 2.8 3.4 5.3 7.6 Washington 2.5 3.0 4.8 6.7 Wicomico 2.9 3.5 5.6 7.9 Worcester 3.0 3.6 5.6 8.1",
       "page_or_section": "pp. 48–49"
@@ -54,21 +49,6 @@
       "field": "document_metadata.document_title",
       "excerpt": "Maryland Stormwater Design Manual",
       "page_or_section": "TOC-1"
-    },
-    {
-      "field": "document_metadata.relationship_to_state_manual",
-      "excerpt": "adopts_state_manual_directly — Maryland SWM Design Manual ESD to MEP",
-      "page_or_section": "Coverage note"
-    },
-    {
-      "field": "design_criteria.design_storm_return_periods_years",
-      "excerpt": "1, 2, 10, 100 year design storms (Maryland SWM Design Manual)",
-      "page_or_section": "Design criteria"
-    },
-    {
-      "field": "design_criteria.water_quality_volume_method",
-      "excerpt": "WQv is calculated as (P)(Rv)(A)/12, where P is the rainfall depth (1.0 inch in the Eastern Rainfall Zone, 0.9 inch in the Western Rainfall Zone)",
-      "page_or_section": "WQv chapter"
     },
     {
       "field": "design_criteria.peak_flow_calculation_method",
@@ -134,7 +114,7 @@
   "extraction_quality": {
     "confidence": "medium",
     "needs_human_review": true,
-    "review_notes": "County-level coverage using Maryland SWM Design Manual Volume 1 (ESD to MEP). Local Prince George's supplements not separately ingested. Pipeline excerpt repair removed 1 unlocated citation(s).",
+    "review_notes": "County-level coverage using Maryland SWM Design Manual Volume 1 (ESD to MEP). Local Prince George's supplements not separately ingested. Pipeline excerpt repair removed 1 unlocated citation(s). Citation QA 2026-11-18: 0 quote(s) replaced with verbatim source text; 4 removed because no supporting text was found (jurisdiction_name, relationship_to_state_manual, design_storm_return_periods_years, water_quality_volume_method).",
     "fields_not_found": [
       "document_metadata.adoption_or_effective_date",
       "document_metadata.last_revised_date",

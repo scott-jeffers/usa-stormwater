@@ -45,11 +45,6 @@
       "page_or_section": "Title"
     },
     {
-      "field": "document_metadata.version_or_edition",
-      "excerpt": "June 2019 / October 2019",
-      "page_or_section": "Cover / TOC"
-    },
-    {
       "field": "document_metadata.last_revised_date",
       "excerpt": "October 2019",
       "page_or_section": "TOC footer"
@@ -68,11 +63,6 @@
       "field": "design_criteria.water_quality_volume_method",
       "excerpt": "Water Quality Control",
       "page_or_section": "TOC / criteria"
-    },
-    {
-      "field": "design_criteria.peak_flow_calculation_method",
-      "excerpt": "RATIONAL METHOD / DESIGN STORM",
-      "page_or_section": "Technical Provisions TOC"
     },
     {
       "field": "design_criteria.approved_bmp_categories",
@@ -113,7 +103,7 @@
   "extraction_quality": {
     "confidence": "medium",
     "needs_human_review": true,
-    "review_notes": "Tulsa SMCM 2019; confirm exact WQ sizing formulas from water quality control chapter. Pipeline excerpt repair removed 1 unlocated citation(s).",
+    "review_notes": "Tulsa SMCM 2019; confirm exact WQ sizing formulas from water quality control chapter. Pipeline excerpt repair removed 1 unlocated citation(s). Citation QA 2026-11-18: 0 quote(s) replaced with verbatim source text; 2 removed because no supporting text was found (version_or_edition, peak_flow_calculation_method).",
     "fields_not_found": [
       "document_metadata.adoption_or_effective_date",
       "design_criteria.required_hydrologic_hydraulic_software",

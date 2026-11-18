@@ -41,11 +41,6 @@
       "page_or_section": null
     },
     {
-      "field": "design_criteria.approved_bmp_categories",
-      "excerpt": "Infiltration Trench, Vegetated Swale, Filter Strip, Permeable Pavement",
-      "page_or_section": null
-    },
-    {
       "field": "design_parameters.length_to_width_ratio",
       "excerpt": "wet detention pond with a 4:1 length to width ratio and a mean depth of 4 feet",
       "page_or_section": "Example 6, pages 106-107"
@@ -84,7 +79,7 @@
   "extraction_quality": {
     "confidence": "medium",
     "needs_human_review": true,
-    "review_notes": "Heuristic agency extract from prepared text. Illinois Urban Manual (June 2013 PDF compilation via AISWCD; IEPA/partner statewide BMP reference)",
+    "review_notes": "Heuristic agency extract from prepared text. Illinois Urban Manual (June 2013 PDF compilation via AISWCD; IEPA/partner statewide BMP reference) Citation QA 2026-11-18: 0 quote(s) replaced with verbatim source text; 1 removed because no supporting text was found (approved_bmp_categories).",
     "fields_not_found": [
       "design_criteria.design_storm_return_periods_years",
       "design_criteria.water_quality_volume_method",

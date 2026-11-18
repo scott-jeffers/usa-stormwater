@@ -26,11 +26,6 @@
   },
   "evidence": [
     {
-      "field": "document_metadata.jurisdiction_name",
-      "excerpt": "City of Huntsville MS4 coverage via ADEM LID Handbook",
-      "page_or_section": "Coverage note"
-    },
-    {
       "field": "document_metadata.relationship_to_state_manual",
       "excerpt": "Conservation Committee. 2009. Alabama Handbook for Erosion Control, Sediment Control, and Stormwater Management on Construction Sites and Urban Areas. Montgomery, AL. Brown, R.A., W.F. Hunt, and S.G. Kennedy. 2009. Designing Bioretention with an Internal Water Storage (IWS) Lay",
       "page_or_section": "p. 9"
@@ -99,7 +94,7 @@
   "extraction_quality": {
     "confidence": "medium",
     "needs_human_review": true,
-    "review_notes": "No durable Huntsville city design-manual PDF found (prior 404s); ADEM LID Handbook used as statewide MS4 LID reference.",
+    "review_notes": "No durable Huntsville city design-manual PDF found (prior 404s); ADEM LID Handbook used as statewide MS4 LID reference. Citation QA 2026-11-18: 0 quote(s) replaced with verbatim source text; 1 removed because no supporting text was found (jurisdiction_name).",
     "fields_not_found": [
       "design_criteria.design_storm_return_periods_years"
     ]

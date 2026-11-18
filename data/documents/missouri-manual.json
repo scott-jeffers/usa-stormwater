@@ -86,8 +86,8 @@
     },
     {
       "field": "design_criteria.approved_bmp_categories",
-      "excerpt": "Examples include grass swales, filter strips, constructed wetlands, rain gardens and other bioretention practices. ... wet ponds, dry basins, or multi-chamber catch basins ... infiltration basins, subsurface trenches and pervious pavements. Chapter 6 practices include Green Roofs, Cisterns/Storage Tanks, Rain Gardens, Infiltration Trenches, Dry wells, Pervious Pavements, Tree Box and Tree Vault, Bioretention, Bioswales (Vegetative Swales), Filter strips, Wet Ponds, Constructed Wetlands.",
-      "page_or_section": "Chapter 3, Section 3.1; Chapter 6"
+      "excerpt": "Examples include grass swales, filter strips, constructed wetlands, rain gardens and other bioretention practices. … wet ponds, dry basins, or multi-chamber catch basins",
+      "page_or_section": "PDF p. 89"
     },
     {
       "field": "design_parameters.ed_drain_time_hours",
@@ -123,7 +123,7 @@
   "extraction_quality": {
     "confidence": "medium",
     "needs_human_review": true,
-    "review_notes": "PUB2446 is statewide GI/LID guidance for municipalities, not a conventional design manual with mandatory statewide sizing equations or required hydrologic methods/software. Return periods (1, 2, 10, 100) and the ~90% WQv / 0.5–1.5 inch small-storm framing are recommended or literature-cited guidance; local MSD checklist examples (e.g., 1-year 24-hour channel protection) appear only as case/reference material. SUSTAIN is mentioned as an optional planning tool, not a required model. No last-revised date beyond May 2012 publication.",
+    "review_notes": "PUB2446 is statewide GI/LID guidance for municipalities, not a conventional design manual with mandatory statewide sizing equations or required hydrologic methods/software. Return periods (1, 2, 10, 100) and the ~90% WQv / 0.5–1.5 inch small-storm framing are recommended or literature-cited guidance; local MSD checklist examples (e.g., 1-year 24-hour channel protection) appear only as case/reference material. SUSTAIN is mentioned as an optional planning tool, not a required model. No last-revised date beyond May 2012 publication. Citation QA 2026-11-18: 1 quote(s) replaced with verbatim source text.",
     "fields_not_found": [
       "document_metadata.last_revised_date",
       "design_criteria.peak_flow_calculation_method",

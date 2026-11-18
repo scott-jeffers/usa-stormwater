@@ -42,11 +42,6 @@
       "page_or_section": "Title"
     },
     {
-      "field": "document_metadata.relationship_to_state_manual",
-      "excerpt": "MSD Design Manual Chapter 10 stormwater",
-      "page_or_section": "Chapter 10"
-    },
-    {
       "field": "design_criteria.design_storm_return_periods_years",
       "excerpt": "systems will be designed for the 10-year event. The 100-year discharge elevation must be checked to ensure the system does not surcharge out of any inlets and/or manholes. Manning's Equation is recommended to calculate pipe flow and velocity. The storm sewer hydraulic grad",
       "page_or_section": "pp. 165–166"
@@ -120,7 +115,7 @@
   "extraction_quality": {
     "confidence": "low",
     "needs_human_review": true,
-    "review_notes": "Large MSD Design Manual; queue text truncated. Re-extract Chapter 10 from full PDF for higher-confidence WQ and peak methods. Pipeline excerpt repair removed 5 unlocated citation(s).",
+    "review_notes": "Large MSD Design Manual; queue text truncated. Re-extract Chapter 10 from full PDF for higher-confidence WQ and peak methods. Pipeline excerpt repair removed 5 unlocated citation(s). Citation QA 2026-11-18: 0 quote(s) replaced with verbatim source text; 1 removed because no supporting text was found (relationship_to_state_manual).",
     "fields_not_found": [
       "document_metadata.adoption_or_effective_date",
       "design_criteria.required_hydrologic_hydraulic_software",

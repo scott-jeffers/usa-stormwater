@@ -92,11 +92,6 @@
       "page_or_section": "2-14"
     },
     {
-      "field": "design_criteria.approved_bmp_categories",
-      "excerpt": "Pre-Treatment Practices, Non-Structural Practices, Structural Stormwater Treatment Practices",
-      "page_or_section": "Table of Contents"
-    },
-    {
       "field": "design_parameters.wqv_depth_inches",
       "excerpt": "P = 1.0 inch across Vermont",
       "page_or_section": "Section 2.2.4 WQTS, page 16"
@@ -184,8 +179,8 @@
   ],
   "extraction_quality": {
     "confidence": "high",
-    "needs_human_review": false,
-    "review_notes": null,
+    "needs_human_review": true,
+    "review_notes": "Citation QA 2026-11-18: 0 quote(s) replaced with verbatim source text; 1 removed because no supporting text was found (approved_bmp_categories).",
     "fields_not_found": []
   },
   "source": {

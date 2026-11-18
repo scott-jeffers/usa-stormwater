@@ -34,21 +34,6 @@
   },
   "evidence": [
     {
-      "field": "document_metadata.jurisdiction_name",
-      "excerpt": "City of Elizabeth MS4 follows NJDEP Stormwater BMP Manual",
-      "page_or_section": "Coverage note"
-    },
-    {
-      "field": "document_metadata.relationship_to_state_manual",
-      "excerpt": "adopts_state_manual_directly — NJDEP BMP Manual / N.J.A.C. 7:8",
-      "page_or_section": "Coverage note"
-    },
-    {
-      "field": "design_criteria.water_quality_volume_method",
-      "excerpt": "WQDS: 1.25 inches of rain falling nonuniformly over 2 hours",
-      "page_or_section": "N.J.A.C. 7:8-5.5 / Ch.5"
-    },
-    {
       "field": "design_parameters.max_drawdown_hours",
       "excerpt": "The capacity of the underdrain must be sufficient to allow the system to drain within 72 hours",
       "page_or_section": "Green Infrastructure BMPs, Chapter 9.7: Small-Scale Bioretention Systems (Page 74 / c0092)"
@@ -92,7 +77,7 @@
   "extraction_quality": {
     "confidence": "medium",
     "needs_human_review": true,
-    "review_notes": "Municipality coverage via NJDEP Stormwater BMP Manual / N.J.A.C. 7:8.",
+    "review_notes": "Municipality coverage via NJDEP Stormwater BMP Manual / N.J.A.C. 7:8. Citation QA 2026-11-18: 0 quote(s) replaced with verbatim source text; 3 removed because no supporting text was found (jurisdiction_name, relationship_to_state_manual, water_quality_volume_method).",
     "fields_not_found": [
       "design_criteria.required_hydrologic_hydraulic_software"
     ]

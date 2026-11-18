@@ -2,7 +2,7 @@
   "version": 1,
   "practice_key": "sand_filter",
   "practice_label": "Sand Filter",
-  "generated_at": "2026-08-13T10:43:13.844Z",
+  "generated_at": "2026-11-18T13:22:14.703Z",
   "tier_a_only": true,
   "manuals_with_practice": 46,
   "manuals_scanned": 76,
@@ -176,7 +176,7 @@
           "jurisdiction_name": "City of Flagstaff",
           "value": 1,
           "chapter_proxy": false,
-          "excerpt": "Low Impact Development Runoff Capture Volume (ROCV): Impervious Surface Area (sq ft) × 1 inch = ROCV."
+          "excerpt": null
         },
         {
           "slug": "houston-tx",
@@ -184,7 +184,7 @@
           "jurisdiction_name": "City of Houston",
           "value": 0.5,
           "chapter_proxy": false,
-          "excerpt": "permanent stormwater quality BMPs for new development and significant redevelopment must treat the first 1/2 inch of runoff"
+          "excerpt": "At a minimum, the system must be designed to treat the first 1/2 inch of runoff, except as noted in the SWQGM or the MDC."
         },
         {
           "slug": "lawrence-ks",
@@ -1107,7 +1107,7 @@
           "jurisdiction_name": "Montana",
           "value": 72,
           "chapter_proxy": false,
-          "excerpt": null
+          "excerpt": "The recommended maximum drawdown time for the design volume is 72 hours."
         },
         {
           "slug": "mt-deq8",
@@ -1550,7 +1550,7 @@
           "jurisdiction_name": "City of Raleigh",
           "value": 12,
           "chapter_proxy": false,
-          "excerpt": null
+          "excerpt": "The depth to the SHWT shall be a minimum of 12 inches measured from the lowest ground surface elevation."
         },
         {
           "slug": "san-antonio-tx",
@@ -1766,7 +1766,7 @@
           "jurisdiction_name": "Montana",
           "value": 36,
           "chapter_proxy": false,
-          "excerpt": null
+          "excerpt": "A minimum vertical distance of 3 feet is recommended between the bottom of the infiltration basin and the seasonal high water table or bedrock layer"
         },
         {
           "slug": "mt-deq8",

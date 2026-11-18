@@ -31,14 +31,9 @@
   },
   "evidence": [
     {
-      "field": "document_metadata.jurisdiction_name",
-      "excerpt": "City adopted Standard Construction Specifications and the Erosion Control Drainage Design Manual for Maricopa County, Arizona",
-      "page_or_section": "Yuma SWMP BMP 3"
-    },
-    {
       "field": "design_criteria.water_quality_volume_method",
-      "excerpt": "First Flush: retain or treat the first 0.5 inches of direct runoff",
-      "page_or_section": "Maricopa Drainage Policies 3.6.6"
+      "excerpt": "This minimum standard is “First Flush”, and consists of retaining or treating the first 0.5 inches of direct runoff from a storm event.",
+      "page_or_section": "PDF p. 37"
     },
     {
       "field": "design_parameters.wqv_depth_inches",
@@ -64,7 +59,7 @@
   "extraction_quality": {
     "confidence": "medium",
     "needs_human_review": true,
-    "review_notes": "Yuma explicitly adopts Maricopa ECDDM/Drainage Policies; local retention rates in City Code Ch.192.",
+    "review_notes": "Yuma explicitly adopts Maricopa ECDDM/Drainage Policies; local retention rates in City Code Ch.192. Citation QA 2026-11-18: 1 quote(s) replaced with verbatim source text; 1 removed because no supporting text was found (jurisdiction_name).",
     "fields_not_found": []
   },
   "source": {

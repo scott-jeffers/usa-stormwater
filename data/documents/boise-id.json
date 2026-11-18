@@ -86,8 +86,8 @@
     },
     {
       "field": "design_criteria.water_quality_volume_method",
-      "excerpt": "Water quality treatment depth is based on the City's goal to fully treat at least 80% of the storms annually (i.e. 80% of daily storm events are estimated to have a depth of 0.34\" or less)... offsite stormwater discharges... require water quality treatment prior to discharge into the receiving drainage system to achieve an 80% reduction of Total Suspended Solids (TSS)",
-      "page_or_section": "Table 2-1 and Section 2.5.C, Pages 2-6 to 2-8"
+      "excerpt": "Water quality treatment depth is based on the City's goal to fully treat at least 80% of the storms annually (i.e. 80% of daily storm events are estimated to have a depth of 0.34\" or less) … require water quality treatment prior to discharge into the receiving drainage system to achieve an 80% reduction of Total Suspended Solids (TSS)",
+      "page_or_section": "PDF p. 16"
     },
     {
       "field": "design_criteria.peak_flow_calculation_method",
@@ -143,7 +143,7 @@
   "extraction_quality": {
     "confidence": "high",
     "needs_human_review": false,
-    "review_notes": "Manual clearly states design storms, TR-55/Rational methods, 0.34-inch water quality depth with 80% TSS removal, and detailed BMP list in Table 2-3 and Chapter 3.",
+    "review_notes": "Manual clearly states design storms, TR-55/Rational methods, 0.34-inch water quality depth with 80% TSS removal, and detailed BMP list in Table 2-3 and Chapter 3. Citation QA 2026-11-18: 1 quote(s) replaced with verbatim source text.",
     "fields_not_found": [
       "design_criteria.required_hydrologic_hydraulic_software"
     ]

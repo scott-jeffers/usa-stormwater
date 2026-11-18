@@ -149,3 +149,17 @@ test("a footnote digit merged into a year is not a contradiction", () => {
   const r = matchExcerpt(t, "peak discharges were estimated using empirical equations developed by the U.S. Geological Survey (Sherwood, 1986)");
   assert.notEqual(r.segments[0]!.contradictingNumbers?.[0], "19861");
 });
+
+test("a quote running across a page footer passes sentence by sentence", () => {
+  const t = new SourceIndex([
+    { page: 37, text: "The BMPs listed on the Virginia Stormwater BMP Clearinghouse are approved for use. PAGE 5-32 Revised 2024" },
+    { page: 38, text: "Where a BMP listed on the Clearinghouse contains Coastal Plain design considerations, these shall be employed." },
+  ]);
+  const r = matchExcerpt(t, "The BMPs listed on the Virginia Stormwater BMP Clearinghouse are approved for use. Where a BMP listed on the Clearinghouse contains Coastal Plain design considerations, these shall be employed.");
+  assert.equal(r.status, "fuzzy");
+});
+
+test("unicode fractions match their slash spelling", () => {
+  const t = new SourceIndex([{ page: 2, text: "treat the first ½ inch of runoff from impervious surfaces" }]);
+  assert.equal(matchExcerpt(t, "treat the first 1/2 inch of runoff from impervious surfaces").status, "exact");
+});

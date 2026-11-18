@@ -51,29 +51,9 @@
       "page_or_section": "Cover"
     },
     {
-      "field": "document_metadata.relationship_to_state_manual",
-      "excerpt": "Virginia Stormwater Management Program (VSMP) / Virginia Stormwater Management Handbook",
-      "page_or_section": "Introduction"
-    },
-    {
-      "field": "design_criteria.design_storm_return_periods_years",
-      "excerpt": "100-year flood / storm drain design references",
-      "page_or_section": "Glossary / checklists"
-    },
-    {
-      "field": "design_criteria.water_quality_volume_method",
-      "excerpt": "Runoff Reduction Method / Runoff Reduction Spreadsheet",
-      "page_or_section": "Guidance"
-    },
-    {
       "field": "design_criteria.peak_flow_calculation_method",
       "excerpt": "Stormwater Management Design and Construction Manual that shall be used to prepare stormwater design",
       "page_or_section": "Guidance"
-    },
-    {
-      "field": "design_criteria.approved_bmp_categories",
-      "excerpt": "stormwater quantity and water quality / detention/retention",
-      "page_or_section": "Plan requirements"
     },
     {
       "field": "design_parameters.practice_mentions.swale",
@@ -84,7 +64,7 @@
   "extraction_quality": {
     "confidence": "medium",
     "needs_human_review": true,
-    "review_notes": "Guidance manual (process + VA criteria). Original Design & Construction Standards PDF was image-only; supplement later if text layer available. Pipeline excerpt repair removed 3 unlocated citation(s).",
+    "review_notes": "Guidance manual (process + VA criteria). Original Design & Construction Standards PDF was image-only; supplement later if text layer available. Pipeline excerpt repair removed 3 unlocated citation(s). Citation QA 2026-11-18: 0 quote(s) replaced with verbatim source text; 4 removed because no supporting text was found (relationship_to_state_manual, design_storm_return_periods_years, water_quality_volume_method, approved_bmp_categories).",
     "fields_not_found": [
       "design_criteria.required_hydrologic_hydraulic_software",
       "document_metadata.version_or_edition",

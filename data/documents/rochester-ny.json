@@ -39,11 +39,6 @@
   },
   "evidence": [
     {
-      "field": "document_metadata.jurisdiction_name",
-      "excerpt": "City of Rochester adopts NYSDEC Stormwater Management Design Manual for MS4/post-construction design",
-      "page_or_section": "Coverage note / city code practice"
-    },
-    {
       "field": "document_metadata.jurisdiction_level",
       "excerpt": "or other individual hired by the municipality Learn about the resources the local program has at its disposal. If government staff are being trained, develop a maintenance plan that is consistent with their knowledge and understanding. Be aware of equipment and materials o",
       "page_or_section": "p. 323"
@@ -64,11 +59,6 @@
       "page_or_section": "p. 11"
     },
     {
-      "field": "design_criteria.design_storm_return_periods_years",
-      "excerpt": "1, 2, 10, 100 year design storms (NYS Design Manual)",
-      "page_or_section": "Design criteria chapters"
-    },
-    {
       "field": "design_criteria.water_quality_volume_method",
       "excerpt": "90% Rule: WQv (acre-feet) = (P * Rv * A) / 12, where Rv = 0.05 + 0.009(I)",
       "page_or_section": "WQv chapter"
@@ -85,8 +75,8 @@
     },
     {
       "field": "design_criteria.approved_bmp_categories",
-      "excerpt": "Stormwater Ponds; Stormwater Wetlands; Infiltration Practices; Filtering Practices; Open Channel Practices",
-      "page_or_section": "SMP chapters"
+      "excerpt": "These include ponds, wetlands, infiltration practices, filtering practices and open channel systems.",
+      "page_or_section": "PDF p. 143"
     },
     {
       "field": "design_parameters.wqv_depth_inches",
@@ -167,7 +157,7 @@
   "extraction_quality": {
     "confidence": "medium",
     "needs_human_review": true,
-    "review_notes": "Municipality-level coverage record: Rochester adopts the statewide NYS Stormwater Management Design Manual (July 31, 2024). Criteria mirrored from ny-state extraction; city-specific ordinance overlays not separately extracted. Pipeline excerpt repair removed 3 unlocated citation(s).",
+    "review_notes": "Municipality-level coverage record: Rochester adopts the statewide NYS Stormwater Management Design Manual (July 31, 2024). Criteria mirrored from ny-state extraction; city-specific ordinance overlays not separately extracted. Pipeline excerpt repair removed 3 unlocated citation(s). Citation QA 2026-11-18: 1 quote(s) replaced with verbatim source text; 2 removed because no supporting text was found (jurisdiction_name, design_storm_return_periods_years).",
     "fields_not_found": [
       "document_metadata.version_or_edition",
       "document_metadata.adoption_or_effective_date",

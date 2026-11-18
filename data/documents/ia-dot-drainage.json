@@ -22,17 +22,11 @@
       "Detention Basin"
     ]
   },
-  "evidence": [
-    {
-      "field": "document_metadata.document_title",
-      "excerpt": "Iowa DOT Design Manual Ch4 Drainage",
-      "page_or_section": "Title / header"
-    }
-  ],
+  "evidence": [],
   "extraction_quality": {
     "confidence": "medium",
     "needs_human_review": true,
-    "review_notes": "Heuristic agency extract from prepared text. Iowa DOT Design Manual Ch4 Drainage — §4A-01 intro (chapter set) Pipeline excerpt repair removed 3 unlocated citation(s).",
+    "review_notes": "Heuristic agency extract from prepared text. Iowa DOT Design Manual Ch4 Drainage — §4A-01 intro (chapter set) Pipeline excerpt repair removed 3 unlocated citation(s). Citation QA 2026-11-18: 0 quote(s) replaced with verbatim source text; 1 removed because no supporting text was found (document_title).",
     "fields_not_found": [
       "design_criteria.peak_flow_calculation_method",
       "design_criteria.water_quality_volume_method",

@@ -89,11 +89,6 @@
       "page_or_section": "Section 3.3 Flood Protection of Building Floors"
     },
     {
-      "field": "design_criteria.design_storm_return_periods_years",
-      "excerpt": "Road crown: Frequency: 5-year... Parking lots: Frequency: 5-year",
-      "page_or_section": "Section 3.4 Flood Protection of Roads and Parking Lots"
-    },
-    {
       "field": "design_criteria.water_quality_volume_method",
       "excerpt": "Commercial or industrial zoned projects shall provide a minimum of 20% of the load reduction required by AH Vol. I in a retention BMP or a separate containment system designed to prevent discharge.",
       "page_or_section": "Section 4.1.1 Land Use and Coverage Criteria"
@@ -167,7 +162,7 @@
   "extraction_quality": {
     "confidence": "high",
     "needs_human_review": true,
-    "review_notes": "Municipal map coverage via SFWMD ERP AH Vol II. Canonical special_district record: fl-sfwmd-erp-ah2. Previously mislabeled as county; reclassified to municipality proxy. Regional SFWMD ERP Applicant's Handbook Vol II (not a Miami city-only ordinance). Jurisdiction coded as county per task guidance to reflect Miami-Dade regional coverage; SFWMD is a water management district. Numeric WQ treatment depths live primarily in AH Vol. I (referenced throughout Vol. II).",
+    "review_notes": "Municipal map coverage via SFWMD ERP AH Vol II. Canonical special_district record: fl-sfwmd-erp-ah2. Previously mislabeled as county; reclassified to municipality proxy. Regional SFWMD ERP Applicant's Handbook Vol II (not a Miami city-only ordinance). Jurisdiction coded as county per task guidance to reflect Miami-Dade regional coverage; SFWMD is a water management district. Numeric WQ treatment depths live primarily in AH Vol. I (referenced throughout Vol. II). Citation QA 2026-11-18: 0 quote(s) replaced with verbatim source text; 1 removed because no supporting text was found (design_storm_return_periods_years).",
     "fields_not_found": [
       "design_criteria.required_hydrologic_hydraulic_software"
     ]

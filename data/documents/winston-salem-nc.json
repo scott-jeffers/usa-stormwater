@@ -46,11 +46,6 @@
       "page_or_section": "Title"
     },
     {
-      "field": "document_metadata.version_or_edition",
-      "excerpt": "2020 Revised April 2020",
-      "page_or_section": "Filename / cover"
-    },
-    {
       "field": "document_metadata.relationship_to_state_manual",
       "excerpt": "most current standards of the Land Quality Section of the NCDEQ",
       "page_or_section": "Checklist"
@@ -64,11 +59,6 @@
       "field": "design_criteria.peak_flow_calculation_method",
       "excerpt": "Storm Drain System",
       "page_or_section": "Section IV-5"
-    },
-    {
-      "field": "design_criteria.approved_bmp_categories",
-      "excerpt": "Stormwater Management Permit / NCDEQ",
-      "page_or_section": "Section VI / checklist"
     },
     {
       "field": "design_parameters.practice_mentions.swale",
@@ -99,7 +89,7 @@
   "extraction_quality": {
     "confidence": "low",
     "needs_human_review": true,
-    "review_notes": "IDS is process/infrastructure-heavy; numeric post-construction criteria live mainly in Chapter 75 ordinance + NCDEQ manual. Consider supplementing with ordinance PDF later. Pipeline excerpt repair removed 1 unlocated citation(s).",
+    "review_notes": "IDS is process/infrastructure-heavy; numeric post-construction criteria live mainly in Chapter 75 ordinance + NCDEQ manual. Consider supplementing with ordinance PDF later. Pipeline excerpt repair removed 1 unlocated citation(s). Citation QA 2026-11-18: 0 quote(s) replaced with verbatim source text; 2 removed because no supporting text was found (version_or_edition, approved_bmp_categories).",
     "fields_not_found": [
       "document_metadata.adoption_or_effective_date",
       "design_criteria.design_storm_return_periods_years",

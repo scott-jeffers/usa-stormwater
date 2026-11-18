@@ -31,11 +31,6 @@
   },
   "evidence": [
     {
-      "field": "document_metadata.jurisdiction_name",
-      "excerpt": "City of Lakeland is within SWFWMD and follows ERP AH Volume II",
-      "page_or_section": "Coverage note"
-    },
-    {
       "field": "design_criteria.peak_flow_calculation_method",
       "excerpt": "24-hour, 25-year rainfall maps and the Natural Resources Conservation Service type II Florida Modified 24-hour rainfall distribution",
       "page_or_section": "SWFWMD AH Vol II §3"
@@ -69,7 +64,7 @@
   "extraction_quality": {
     "confidence": "medium",
     "needs_human_review": true,
-    "review_notes": "Municipality coverage via SWFWMD ERP AH Vol II. City portal criteria PDF returned HTML/404 previously.",
+    "review_notes": "Municipality coverage via SWFWMD ERP AH Vol II. City portal criteria PDF returned HTML/404 previously. Citation QA 2026-11-18: 0 quote(s) replaced with verbatim source text; 1 removed because no supporting text was found (jurisdiction_name).",
     "fields_not_found": []
   },
   "source": {

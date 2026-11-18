@@ -31,24 +31,9 @@
   },
   "evidence": [
     {
-      "field": "document_metadata.jurisdiction_name",
-      "excerpt": "SUDAS Design Manual Chapter 2 Stormwater",
-      "page_or_section": "Title"
-    },
-    {
-      "field": "document_metadata.jurisdiction_level",
-      "excerpt": "Iowa Statewide Urban Design and Specifications",
-      "page_or_section": "Title"
-    },
-    {
       "field": "document_metadata.document_title",
-      "excerpt": "--- page 1 --- TOC Design Manual Chapter 2 - Stormwater Table of Contents Table of Contents i Revised: 2021 Edition Chapter 2 - Stormwater 2A General Information 2A-1--------------------------------General Information A. Concept…………………………………………………………………………... 1 B. Informin",
-      "page_or_section": "p. 1"
-    },
-    {
-      "field": "document_metadata.version_or_edition",
-      "excerpt": "Chapter_02.pdf SUDAS Design Manual",
-      "page_or_section": "Source"
+      "excerpt": "TOC Design Manual Chapter 2 - Stormwater Table of Contents Table of Contents i Revised: 2021 Edition Chapter 2 - Stormwater 2A General Information 2A-1--------------------------------General Information A. Concept",
+      "page_or_section": "PDF p. 1"
     },
     {
       "field": "design_criteria.design_storm_return_periods_years",
@@ -59,16 +44,6 @@
       "field": "design_criteria.water_quality_volume_method",
       "excerpt": "Water Quality Volume, WQv",
       "page_or_section": "Definitions / criteria"
-    },
-    {
-      "field": "design_criteria.peak_flow_calculation_method",
-      "excerpt": "2G Detention Practices / Detention Basin Design Methods",
-      "page_or_section": "Chapter 2G"
-    },
-    {
-      "field": "design_criteria.approved_bmp_categories",
-      "excerpt": "Detention Practices / stormwater facilities",
-      "page_or_section": "2G"
     },
     {
       "field": "design_parameters.wqv_depth_inches",
@@ -94,7 +69,7 @@
   "extraction_quality": {
     "confidence": "medium",
     "needs_human_review": true,
-    "review_notes": "SUDAS Ch.2 used as Des Moines design reference alongside ISWMM; consider adding ISWMM criteria chapter later. Pipeline excerpt repair removed 2 unlocated citation(s).",
+    "review_notes": "SUDAS Ch.2 used as Des Moines design reference alongside ISWMM; consider adding ISWMM criteria chapter later. Pipeline excerpt repair removed 2 unlocated citation(s). Citation QA 2026-11-18: 1 quote(s) replaced with verbatim source text; 5 removed because no supporting text was found (jurisdiction_name, jurisdiction_level, version_or_edition, peak_flow_calculation_method, approved_bmp_categories).",
     "fields_not_found": [
       "document_metadata.adoption_or_effective_date",
       "document_metadata.last_revised_date",

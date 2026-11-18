@@ -33,11 +33,6 @@
   },
   "evidence": [
     {
-      "field": "document_metadata.jurisdiction_name",
-      "excerpt": "Drainage Criteria Manual / City of Round Rock",
-      "page_or_section": "Section 8 header"
-    },
-    {
       "field": "document_metadata.document_title",
       "excerpt": "SECTION 8– STORMWATER MANAGEMENT",
       "page_or_section": "Title"
@@ -81,7 +76,7 @@
   "extraction_quality": {
     "confidence": "medium",
     "needs_human_review": true,
-    "review_notes": "Only Section 8 ingested (7 pages); remaining DCM sections (policy, hydrology, storm drains) are separate city PDFs.",
+    "review_notes": "Only Section 8 ingested (7 pages); remaining DCM sections (policy, hydrology, storm drains) are separate city PDFs. Citation QA 2026-11-18: 0 quote(s) replaced with verbatim source text; 1 removed because no supporting text was found (jurisdiction_name).",
     "fields_not_found": [
       "document_metadata.adoption_or_effective_date",
       "document_metadata.last_revised_date",

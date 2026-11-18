@@ -55,11 +55,6 @@
       "page_or_section": "1.1.2"
     },
     {
-      "field": "document_metadata.relationship_to_state_manual",
-      "excerpt": "iSWM Technical Manuals / City stormwater criteria supersede iSWM where conflicting",
-      "page_or_section": "Section 4 intro"
-    },
-    {
       "field": "design_criteria.design_storm_return_periods_years",
       "excerpt": "100-year water surface elevation based on fully developed conditions",
       "page_or_section": "Section 4"
@@ -68,11 +63,6 @@
       "field": "design_criteria.water_quality_volume_method",
       "excerpt": "4.13.1 Water Quality Protection Volume",
       "page_or_section": "Section 4.13"
-    },
-    {
-      "field": "design_criteria.peak_flow_calculation_method",
-      "excerpt": "4.9 Detention Facilities / iSWM Hydrology Technical Manual",
-      "page_or_section": "Section 4"
     },
     {
       "field": "design_criteria.approved_bmp_categories",
@@ -103,7 +93,7 @@
   "extraction_quality": {
     "confidence": "high",
     "needs_human_review": true,
-    "review_notes": "2024 DCM Section 4 stormwater; iSWM referenced. Pipeline excerpt repair removed 2 unlocated citation(s).",
+    "review_notes": "2024 DCM Section 4 stormwater; iSWM referenced. Pipeline excerpt repair removed 2 unlocated citation(s). Citation QA 2026-11-18: 0 quote(s) replaced with verbatim source text; 2 removed because no supporting text was found (relationship_to_state_manual, peak_flow_calculation_method).",
     "fields_not_found": [
       "design_criteria.required_hydrologic_hydraulic_software",
       "document_metadata.state_code",

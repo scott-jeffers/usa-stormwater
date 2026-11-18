@@ -55,11 +55,6 @@
       "page_or_section": "Division IV"
     },
     {
-      "field": "design_criteria.design_storm_return_periods_years",
-      "excerpt": "minimum of the 10-year storm / capture Q25 / 100-year protection of habitable areas",
-      "page_or_section": "Section 1 Design Criteria"
-    },
-    {
       "field": "design_criteria.water_quality_volume_method",
       "excerpt": "special drainage design requirements for private storm drains",
       "page_or_section": "Section 1"
@@ -88,7 +83,7 @@
   "extraction_quality": {
     "confidence": "medium",
     "needs_human_review": true,
-    "review_notes": "Anaheim Division IV only (10 pages). Full city criteria also in Div I–III adopting OC manuals with revisions — already have orange-county-ca LDM. Pipeline excerpt repair removed 2 unlocated citation(s).",
+    "review_notes": "Anaheim Division IV only (10 pages). Full city criteria also in Div I–III adopting OC manuals with revisions — already have orange-county-ca LDM. Pipeline excerpt repair removed 2 unlocated citation(s). Citation QA 2026-11-18: 0 quote(s) replaced with verbatim source text; 1 removed because no supporting text was found (design_storm_return_periods_years).",
     "fields_not_found": [
       "document_metadata.adoption_or_effective_date",
       "design_criteria.required_hydrologic_hydraulic_software",

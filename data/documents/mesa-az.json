@@ -62,11 +62,6 @@
       "page_or_section": "Chapter 8"
     },
     {
-      "field": "design_criteria.approved_bmp_categories",
-      "excerpt": "Retention Basins / Low Impact Development (LID) Landscape",
-      "page_or_section": "Sections 808 / 1112"
-    },
-    {
       "field": "design_parameters.practice_mentions.bioretention",
       "excerpt": "Suggested “tools” highlighted in the toolkit include: Green Streets, Vegetated Swales, Bioretention, Permeable Paving, Constructed Wetlands, Infiltration & Underdrains, Green Roofs, Rainwater Harvesting.",
       "page_or_section": "Section 1112, page 211"
@@ -90,7 +85,7 @@
   "extraction_quality": {
     "confidence": "medium",
     "needs_human_review": true,
-    "review_notes": "Mesa EDS 2022 Ch 8; confirm retention depth/volume numeric criteria from Section 806 tables. Pipeline excerpt repair removed 2 unlocated citation(s).",
+    "review_notes": "Mesa EDS 2022 Ch 8; confirm retention depth/volume numeric criteria from Section 806 tables. Pipeline excerpt repair removed 2 unlocated citation(s). Citation QA 2026-11-18: 0 quote(s) replaced with verbatim source text; 1 removed because no supporting text was found (approved_bmp_categories).",
     "fields_not_found": [
       "document_metadata.adoption_or_effective_date",
       "design_criteria.design_storm_return_periods_years",

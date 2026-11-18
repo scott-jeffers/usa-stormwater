@@ -31,11 +31,6 @@
   },
   "evidence": [
     {
-      "field": "document_metadata.jurisdiction_name",
-      "excerpt": "City of West Palm Beach is within SFWMD and follows ERP Applicant's Handbook Vol II",
-      "page_or_section": "Coverage note"
-    },
-    {
       "field": "design_criteria.water_quality_volume_method",
       "excerpt": "Wet detention volume shall be provided for the first inch of runoff",
       "page_or_section": "SFWMD Vol II water quality criteria"
@@ -84,7 +79,7 @@
   "extraction_quality": {
     "confidence": "medium",
     "needs_human_review": true,
-    "review_notes": "Municipality coverage via SFWMD ERP AH Vol II. Prefer city-specific drainage criteria if a durable public PDF appears.",
+    "review_notes": "Municipality coverage via SFWMD ERP AH Vol II. Prefer city-specific drainage criteria if a durable public PDF appears. Citation QA 2026-11-18: 0 quote(s) replaced with verbatim source text; 1 removed because no supporting text was found (jurisdiction_name).",
     "fields_not_found": []
   },
   "source": {

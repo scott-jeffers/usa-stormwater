@@ -51,31 +51,6 @@
       "page_or_section": "Header"
     },
     {
-      "field": "document_metadata.relationship_to_state_manual",
-      "excerpt": "Stormwater Ordinance Chapter 32 / Chapter 67",
-      "page_or_section": "Purpose"
-    },
-    {
-      "field": "design_criteria.design_storm_return_periods_years",
-      "excerpt": "2-year, 24-hour / 100-year storm",
-      "page_or_section": "Channel Protection / Flood Control"
-    },
-    {
-      "field": "design_criteria.water_quality_volume_method",
-      "excerpt": "Treat the runoff generated from 1 inch of rain / \"first flush\"",
-      "page_or_section": "Water Quality"
-    },
-    {
-      "field": "design_criteria.peak_flow_calculation_method",
-      "excerpt": "Channel Protection / Flood Control performance standards",
-      "page_or_section": "Part IV / Table 1"
-    },
-    {
-      "field": "design_criteria.approved_bmp_categories",
-      "excerpt": "infiltration BMPs / Structural Best Management Practices",
-      "page_or_section": "Design Process / Green Book"
-    },
-    {
       "field": "design_parameters.wqv_depth_inches",
       "excerpt": "This storm is approximately equivalent to 1 inch of rain (1.00 inch for Michigan Climatic Zone 8 per DEQ memo",
       "page_or_section": "Part 3, II. STANDARDS A. Water Quality, page 21"
@@ -109,7 +84,7 @@
   "extraction_quality": {
     "confidence": "high",
     "needs_human_review": true,
-    "review_notes": "Grand Rapids Stormwater Standards Manual Apr 2021. Pipeline excerpt repair removed 2 unlocated citation(s).",
+    "review_notes": "Grand Rapids Stormwater Standards Manual Apr 2021. Pipeline excerpt repair removed 2 unlocated citation(s). Citation QA 2026-11-18: 0 quote(s) replaced with verbatim source text; 5 removed because no supporting text was found (relationship_to_state_manual, design_storm_return_periods_years, water_quality_volume_method, peak_flow_calculation_method, approved_bmp_categories).",
     "fields_not_found": [
       "document_metadata.adoption_or_effective_date",
       "design_criteria.required_hydrologic_hydraulic_software",

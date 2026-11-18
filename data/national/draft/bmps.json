@@ -160,7 +160,7 @@
       "key": "4",
       "slug": "ca-caltrans-construction",
       "state_code": "CA",
-      "excerpt": "Caltrans Construction Site BMPs are divided into six categories, as shown in Table 2-1: Temporary Soil Stabilization, Temporary Sediment Control, Wind Erosion Control, Tracking Control, Non-Stormwater Management, Waste Management and Materials Pollution Control",
+      "excerpt": "Caltrans Construction Site BMPs are divided into six categories, as shown in Table 2-1.",
       "page_or_section": "Section 2.2, Table 2-1, Pages 2-5 to 2-7",
       "confidence": "field_verified",
       "field": "design_criteria.approved_bmp_categories"
@@ -169,7 +169,7 @@
       "key": "5",
       "slug": "ca-casqa-municipal",
       "state_code": "CA",
-      "excerpt": "Table 3-1 Municipal Fixed Facility BMPs: Non-Stormwater Management, Vehicle and Equipment Management, Material and Waste Management, Building and Grounds Management, Over Water Activities, General Stormwater Management",
+      "excerpt": "Table 3-1 Municipal Fixed Facility BMPs Non-Stormwater Management SC-10 Non-Stormwater Discharges SC-11 Spill Prevention, Control and Cleanup Vehicle and Equipment Management",
       "page_or_section": "Table 3-1, Page 3-1",
       "confidence": "field_verified",
       "field": "design_criteria.approved_bmp_categories"

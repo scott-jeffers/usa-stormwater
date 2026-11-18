@@ -67,11 +67,6 @@
       "page_or_section": "Volume 1, Chapter 1, Page 1-1"
     },
     {
-      "field": "design_criteria.design_storm_return_periods_years",
-      "excerpt": "2-year, 5-year, 10-year, 25-year, 50-year, 100-year",
-      "page_or_section": "Volume 1 & Volume 3"
-    },
-    {
       "field": "design_criteria.water_quality_volume_method",
       "excerpt": "The daily runoff volume at or below which 91 percent of the total runoff volume for the simulation period occurs, as determined using an approved continuous model.",
       "page_or_section": "Volume 1, Chapter 5, Page 5-14"
@@ -80,11 +75,6 @@
       "field": "design_criteria.peak_flow_calculation_method",
       "excerpt": "Single Event Hydrograph Method... Continuous Simulation Method... Rational Method",
       "page_or_section": "Volume 3, Chapter 4, Page 4-46 & Page 4-65"
-    },
-    {
-      "field": "design_criteria.approved_bmp_categories",
-      "excerpt": "This volume covers four primary functional categories of stormwater BMPs: On-site stormwater management, Flow control BMPs, Water quality treatment BMPs, Conveyance BMPs",
-      "page_or_section": "Volume 3, Chapter 2, Page 2-1"
     },
     {
       "field": "design_parameters.max_drawdown_hours",
@@ -120,7 +110,7 @@
   "extraction_quality": {
     "confidence": "high",
     "needs_human_review": true,
-    "review_notes": "Pipeline excerpt repair removed 3 unlocated citation(s).",
+    "review_notes": "Pipeline excerpt repair removed 3 unlocated citation(s). Citation QA 2026-11-18: 0 quote(s) replaced with verbatim source text; 2 removed because no supporting text was found (design_storm_return_periods_years, approved_bmp_categories).",
     "fields_not_found": [
       "design_criteria.required_hydrologic_hydraulic_software",
       "document_metadata.version_or_edition",

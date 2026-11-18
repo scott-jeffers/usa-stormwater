@@ -39,11 +39,6 @@
       "page_or_section": "Title / header"
     },
     {
-      "field": "document_metadata.document_title",
-      "excerpt": "MassDOT Stormwater Design Guide 2023 Edition",
-      "page_or_section": "Title / header"
-    },
-    {
       "field": "design_criteria.design_storm_return_periods_years",
       "excerpt": "easures (SCMs) that, based on more than 25 years of experience, are supported and promoted by MassDOT to meet regulatory requir",
       "page_or_section": null
@@ -56,11 +51,6 @@
     {
       "field": "design_criteria.water_quality_volume_method",
       "excerpt": "Water Quality Volume vii MassDOT Stormwater Design Guide | Preface Preface Purpose and Scope As presented herein by the Massachusetts Department of Transportation, Highway Division (MassDOT), the Stormwater Design Guide",
-      "page_or_section": null
-    },
-    {
-      "field": "design_criteria.approved_bmp_categories",
-      "excerpt": "Bioretention, Infiltration Basin, Filter Strip, Permeable Pavement",
       "page_or_section": null
     },
     {
@@ -137,7 +127,7 @@
   "extraction_quality": {
     "confidence": "medium",
     "needs_human_review": true,
-    "review_notes": "Heuristic agency extract from prepared text. MassDOT Stormwater Design Guide 2023 Edition (ACEC-MA mirror; mass.gov download often 403 to bots)",
+    "review_notes": "Heuristic agency extract from prepared text. MassDOT Stormwater Design Guide 2023 Edition (ACEC-MA mirror; mass.gov download often 403 to bots) Citation QA 2026-11-18: 0 quote(s) replaced with verbatim source text; 2 removed because no supporting text was found (document_title, approved_bmp_categories).",
     "fields_not_found": [
       "design_criteria.required_hydrologic_hydraulic_software"
     ]

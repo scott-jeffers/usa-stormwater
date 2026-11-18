@@ -37,16 +37,6 @@
   },
   "evidence": [
     {
-      "field": "document_metadata.jurisdiction_name",
-      "excerpt": "City of Bellingham MS4 follows Ecology SWMMWW",
-      "page_or_section": "Coverage note"
-    },
-    {
-      "field": "document_metadata.relationship_to_state_manual",
-      "excerpt": "adopts_state_manual_directly — Ecology SWMMWW 2024",
-      "page_or_section": "Coverage note"
-    },
-    {
       "field": "design_parameters.max_drawdown_hours",
       "excerpt": "Document that the maximum ponded depth from the infiltration BMP can infiltrate through the infiltration BMP surface within 48 hours.",
       "page_or_section": "Volume V - Chapter 5 - Page 823"
@@ -75,7 +65,7 @@
   "extraction_quality": {
     "confidence": "medium",
     "needs_human_review": true,
-    "review_notes": "Municipality coverage via Ecology SWMMWW (Everett/Olympia pattern). City may publish a local drainage manual separately.",
+    "review_notes": "Municipality coverage via Ecology SWMMWW (Everett/Olympia pattern). City may publish a local drainage manual separately. Citation QA 2026-11-18: 0 quote(s) replaced with verbatim source text; 2 removed because no supporting text was found (jurisdiction_name, relationship_to_state_manual).",
     "fields_not_found": []
   },
   "source": {

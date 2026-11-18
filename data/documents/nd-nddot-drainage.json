@@ -40,11 +40,6 @@
       "page_or_section": "Title / header"
     },
     {
-      "field": "document_metadata.document_title",
-      "excerpt": "NDDOT Design Manual Chapter V",
-      "page_or_section": "Title / header"
-    },
-    {
       "field": "design_criteria.design_storm_return_periods_years",
       "excerpt": "). 10. Type of precipitation. V–01.03.2 100-Year Frequency Discharges for 100 year frequencies and associated water surface elev",
       "page_or_section": null
@@ -63,7 +58,7 @@
   "extraction_quality": {
     "confidence": "medium",
     "needs_human_review": true,
-    "review_notes": "Heuristic agency extract from prepared text. NDDOT Design Manual Chapter V — Hydraulic Studies and Drainage Design",
+    "review_notes": "Heuristic agency extract from prepared text. NDDOT Design Manual Chapter V — Hydraulic Studies and Drainage Design Citation QA 2026-11-18: 0 quote(s) replaced with verbatim source text; 1 removed because no supporting text was found (document_title).",
     "fields_not_found": [
       "design_criteria.water_quality_volume_method",
       "design_criteria.approved_bmp_categories"

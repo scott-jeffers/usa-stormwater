@@ -75,6 +75,8 @@ export function normalizeText(text: string): string {
     text
       .normalize("NFKC")
       .replace(/­/g, "")
+      // NFKC turns "½" into "1⁄2" (fraction slash): read it as "1/2"
+      .replace(/\u2044/g, "/")
       // join words hyphenated across a line break: "infil-\ntration"
       .replace(/([A-Za-z])-[ \t]*\r?\n[ \t]*([a-z])/g, "$1$2")
       .toLowerCase()
@@ -333,8 +335,33 @@ export function matchSegment(index: SourceIndex, segment: string): SegmentResult
   };
 }
 
+/**
+ * A segment that fails as a whole may still be verbatim sentence by sentence
+ * (a quote that runs across a page break, footer or column). Each sentence of
+ * 5+ tokens must then match on its own, like ellipsis segments.
+ */
+function matchBySentence(index: SourceIndex, segment: string, whole: SegmentResult): SegmentResult {
+  if (whole.status !== "fail") return whole;
+  const parts = segment
+    .split(/(?<=[.;!?])\s+(?=[A-Z(“"])/)
+    .map((p) => p.trim())
+    .filter((p) => tokenize(p).length >= 5);
+  if (parts.length < 2) return whole;
+  const results = parts.map((p) => matchSegment(index, p));
+  if (results.every((r) => r.status === "exact" || r.status === "fuzzy")) {
+    return {
+      text: segment,
+      status: "fuzzy",
+      score: Math.min(...results.map((r) => r.score)),
+      page: results[0]!.page,
+      missingNumbers: [],
+    };
+  }
+  return whole;
+}
+
 export function matchExcerpt(index: SourceIndex, excerpt: string): ExcerptResult {
-  const segments = splitSegments(excerpt).map((s) => matchSegment(index, s));
+  const segments = splitSegments(excerpt).map((s) => matchBySentence(index, s, matchSegment(index, s)));
   if (segments.length === 0) {
     return { status: "fail", score: 0, page: null, segments: [] };
   }

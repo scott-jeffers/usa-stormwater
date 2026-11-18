@@ -38,11 +38,6 @@
       "page_or_section": "page 39, Section 2.6.2"
     },
     {
-      "field": "document_metadata.jurisdiction_level",
-      "excerpt": "a single seven-parameter regression equation was developed for nationwide application",
-      "page_or_section": "page 39, Section 2.6.3"
-    },
-    {
       "field": "document_metadata.document_title",
       "excerpt": "nomographs for solution of Equation 6.1, for both uniform and for the more complex geometry created by composite cross slopes, are provided in HEC-22 (Brown et al. 2008)",
       "page_or_section": "page 117, Chapter 6"
@@ -101,7 +96,7 @@
   "extraction_quality": {
     "confidence": "medium",
     "needs_human_review": true,
-    "review_notes": "Title/edition corrected from FHWA Highway Drainage publications list (HDS-4, June 2008). Extractor had labeled this HEC-22 because HDS-4 cites that circular. Design storm return periods reflect typical state highway agency practice cited in the manual, not a single FHWA-mandated frequency. No explicit water quality volume method or approved BMP category list in supplied hydrology excerpts.",
+    "review_notes": "Title/edition corrected from FHWA Highway Drainage publications list (HDS-4, June 2008). Extractor had labeled this HEC-22 because HDS-4 cites that circular. Design storm return periods reflect typical state highway agency practice cited in the manual, not a single FHWA-mandated frequency. No explicit water quality volume method or approved BMP category list in supplied hydrology excerpts. Citation QA 2026-11-18: 0 quote(s) replaced with verbatim source text; 1 removed because no supporting text was found (jurisdiction_level).",
     "fields_not_found": [
       "document_metadata.version_or_edition",
       "document_metadata.adoption_or_effective_date",

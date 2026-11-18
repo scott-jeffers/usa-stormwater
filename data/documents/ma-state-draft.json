@@ -87,11 +87,6 @@
       "page_or_section": "Page 2-5"
     },
     {
-      "field": "design_criteria.approved_bmp_categories",
-      "excerpt": "Non-Structural\nStreet Cleaning\nESSD Credits\nStructural Pretreatment\nDeep Sump Catch Basin\nOil/Grit Separator\nProprietary Separator\nSediment Forebay\nVegetated Filter Strip\nStructural Treatment\nBioretention Area\nConstructed Stormwater Wetland\nExtended Dry Detention Basin\nGravel Wetland\nProprietary Media Filter\nSand/Organic Filter\nTree Box Filter\nWet Basin\nRoof Dripline Filter\nStructural Conveyance\nDrainage Channel\nGrass Channel\nWater Quality Swale\nStructural Infiltration\nDry well\nInfiltration Basin\nInfiltration Trench\nLeaching Catch Basin\nPorous pavement\nSubsurface Infiltrator\nStructural Other\nDry Detention Basin\nGreen Roof\nRain Barrels & Cisterns",
-      "page_or_section": "Page 2-18"
-    },
-    {
       "field": "design_parameters.wqv_depth_inches",
       "excerpt": "Required WQv is at least 1.0 inch times the total impervious area of the post-development site.",
       "page_or_section": "Table 2-4d / page 47 (Chapter 2)"
@@ -160,7 +155,7 @@
   "extraction_quality": {
     "confidence": "high",
     "needs_human_review": true,
-    "review_notes": "Pipeline excerpt repair removed 1 unlocated citation(s).",
+    "review_notes": "Pipeline excerpt repair removed 1 unlocated citation(s). Citation QA 2026-11-18: 0 quote(s) replaced with verbatim source text; 1 removed because no supporting text was found (approved_bmp_categories).",
     "fields_not_found": [
       "document_metadata.adoption_or_effective_date",
       "document_metadata.last_revised_date"

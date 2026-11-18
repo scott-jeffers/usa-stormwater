@@ -76,16 +76,6 @@
       "page_or_section": "Chapter 9"
     },
     {
-      "field": "design_criteria.peak_flow_calculation_method",
-      "excerpt": "Rational Method / Playa Analysis / Detention and Retention",
-      "page_or_section": "Chapters 3, 5, 7"
-    },
-    {
-      "field": "design_criteria.approved_bmp_categories",
-      "excerpt": "Structural Controls / Detention/Retention Basin",
-      "page_or_section": "Chapters 7–9"
-    },
-    {
       "field": "design_parameters.practice_mentions.bioretention",
       "excerpt": "Bioretention Areas — Shallow stormwater basins or landscaped areas which utilize engineered soils and vegetation to capture and treat stormwater runoff.",
       "page_or_section": "Table 9-1, page 9-2 (lubbock-tx-c0119)"
@@ -114,7 +104,7 @@
   "extraction_quality": {
     "confidence": "medium",
     "needs_human_review": true,
-    "review_notes": "Lubbock DCM Nov 2019; playa-centric. Confirm Chapter 9 numeric WQ sizing if needed. Pipeline excerpt repair removed 1 unlocated citation(s).",
+    "review_notes": "Lubbock DCM Nov 2019; playa-centric. Confirm Chapter 9 numeric WQ sizing if needed. Pipeline excerpt repair removed 1 unlocated citation(s). Citation QA 2026-11-18: 0 quote(s) replaced with verbatim source text; 2 removed because no supporting text was found (peak_flow_calculation_method, approved_bmp_categories).",
     "fields_not_found": [
       "design_criteria.required_hydrologic_hydraulic_software",
       "document_metadata.state_code"

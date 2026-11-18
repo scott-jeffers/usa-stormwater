@@ -124,8 +124,8 @@
     },
     {
       "field": "design_parameters.wqv_depth_inches",
-      "excerpt": "permanent stormwater quality BMPs for new development and significant redevelopment must treat the first 1/2 inch of runoff",
-      "page_or_section": "Atlas context / WQv method"
+      "excerpt": "At a minimum, the system must be designed to treat the first 1/2 inch of runoff, except as noted in the SWQGM or the MDC.",
+      "page_or_section": "PDF p. 48"
     },
     {
       "field": "design_parameters.max_drawdown_hours",
@@ -181,7 +181,7 @@
   "extraction_quality": {
     "confidence": "high",
     "needs_human_review": true,
-    "review_notes": "Chapter 9 (07-01-2022) clearly states City of Houston municipal design criteria, Atlas 14 IDF coefficients for 2–500 year events, Rational/HCFCD/Clark/NRCS/Malcolm hydrology, HouStorm software, first 1/2-inch WQ treatment, and LID BMP list. Complements HCFCD criteria but is an independent city IDM chapter, not a state manual adoption. A 3-year rainfall frequency is defined in 9.1.04.R but has no Table 9.1 intensity coefficients, so it was omitted from the return-period array. Pipeline excerpt repair removed 3 unlocated citation(s).",
+    "review_notes": "Chapter 9 (07-01-2022) clearly states City of Houston municipal design criteria, Atlas 14 IDF coefficients for 2–500 year events, Rational/HCFCD/Clark/NRCS/Malcolm hydrology, HouStorm software, first 1/2-inch WQ treatment, and LID BMP list. Complements HCFCD criteria but is an independent city IDM chapter, not a state manual adoption. A 3-year rainfall frequency is defined in 9.1.04.R but has no Table 9.1 intensity coefficients, so it was omitted from the return-period array. Pipeline excerpt repair removed 3 unlocated citation(s). Citation QA 2026-11-18: 1 quote(s) replaced with verbatim source text.",
     "fields_not_found": [
       "document_metadata.version_or_edition",
       "document_metadata.adoption_or_effective_date",

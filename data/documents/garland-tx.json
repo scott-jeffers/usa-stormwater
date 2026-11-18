@@ -48,11 +48,6 @@
       "page_or_section": "Title"
     },
     {
-      "field": "document_metadata.adoption_or_effective_date",
-      "excerpt": "Garland Development Code (GDC) on Tuesday, May 19, 2015",
-      "page_or_section": "TSM landing page / intro"
-    },
-    {
       "field": "document_metadata.relationship_to_state_manual",
       "excerpt": "Technical Standards Manual",
       "page_or_section": "Title"
@@ -71,11 +66,6 @@
       "field": "design_criteria.peak_flow_calculation_method",
       "excerpt": "Drainage Plan and Capacity Analysis (see TSM Section 4.04)",
       "page_or_section": "Submittals"
-    },
-    {
-      "field": "design_criteria.approved_bmp_categories",
-      "excerpt": "Detention/Retention Facility / Stormwater Quality BMPs",
-      "page_or_section": "Chapter 4 / Section 6"
     },
     {
       "field": "design_parameters.wqv_depth_inches",
@@ -126,7 +116,7 @@
   "extraction_quality": {
     "confidence": "medium",
     "needs_human_review": true,
-    "review_notes": "Large TSM; drainage Chapter 4 confirmed. Numeric detention volume formulas may need deeper pull. Pipeline excerpt repair removed 1 unlocated citation(s).",
+    "review_notes": "Large TSM; drainage Chapter 4 confirmed. Numeric detention volume formulas may need deeper pull. Pipeline excerpt repair removed 1 unlocated citation(s). Citation QA 2026-11-18: 0 quote(s) replaced with verbatim source text; 2 removed because no supporting text was found (adoption_or_effective_date, approved_bmp_categories).",
     "fields_not_found": [
       "document_metadata.version_or_edition",
       "document_metadata.last_revised_date",

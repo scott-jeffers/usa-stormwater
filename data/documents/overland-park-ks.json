@@ -28,11 +28,6 @@
   },
   "evidence": [
     {
-      "field": "document_metadata.jurisdiction_name",
-      "excerpt": "City of Overland Park / Planning and Development Services / Public Works",
-      "page_or_section": "Cover"
-    },
-    {
       "field": "document_metadata.jurisdiction_level",
       "excerpt": "City of Overland Park",
       "page_or_section": "Cover"
@@ -53,19 +48,9 @@
       "page_or_section": "Stormwater Conveyance Facilities"
     },
     {
-      "field": "design_criteria.water_quality_volume_method",
-      "excerpt": "Stormwater Treatment Facilities / Detention Basin Size",
-      "page_or_section": "Section C / 5608.4.D"
-    },
-    {
       "field": "design_criteria.peak_flow_calculation_method",
       "excerpt": "Section 5600 - Storm Drainage Systems and Facilities ... adopted by reference",
       "page_or_section": "B.1"
-    },
-    {
-      "field": "design_criteria.approved_bmp_categories",
-      "excerpt": "Stormwater Detention / Stormwater Treatment Facilities",
-      "page_or_section": "5608 / Section C"
     },
     {
       "field": "design_parameters.wqv_depth_inches",
@@ -81,7 +66,7 @@
   "extraction_quality": {
     "confidence": "medium",
     "needs_human_review": true,
-    "review_notes": "City amendments to KC-APWA 5600; full numeric criteria in referenced APWA/MARC manuals. Pipeline excerpt repair removed 3 unlocated citation(s).",
+    "review_notes": "City amendments to KC-APWA 5600; full numeric criteria in referenced APWA/MARC manuals. Pipeline excerpt repair removed 3 unlocated citation(s). Citation QA 2026-11-18: 0 quote(s) replaced with verbatim source text; 3 removed because no supporting text was found (jurisdiction_name, water_quality_volume_method, approved_bmp_categories).",
     "fields_not_found": [
       "design_criteria.design_storm_return_periods_years",
       "design_criteria.required_hydrologic_hydraulic_software",

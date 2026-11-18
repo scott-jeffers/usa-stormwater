@@ -66,8 +66,8 @@
     },
     {
       "field": "design_criteria.water_quality_volume_method",
-      "excerpt": "For new developments, the new MS4 permit requires 80th percentile storm precipitation for the total disturbed area... 80th Percentile: 0.6 inches... V80 = RV × d80 × A",
-      "page_or_section": "Sections 3.1 and 3.2, Pages 3-4 to 3-5"
+      "excerpt": "For new developments, the new MS4 permit requires 80th percentile storm precipitation for the total disturbed area … 80th Percentile: 0.6 inches",
+      "page_or_section": "PDF p. 6"
     },
     {
       "field": "design_criteria.peak_flow_calculation_method",
@@ -118,7 +118,7 @@
   "extraction_quality": {
     "confidence": "high",
     "needs_human_review": true,
-    "review_notes": "Compact manual with explicit 80th percentile 0.6-inch volume method, 100-year 24-hour design storm, Rational/TR-55 methods, and post-construction BMP appendix. Pipeline excerpt repair removed 3 unlocated citation(s).",
+    "review_notes": "Compact manual with explicit 80th percentile 0.6-inch volume method, 100-year 24-hour design storm, Rational/TR-55 methods, and post-construction BMP appendix. Pipeline excerpt repair removed 3 unlocated citation(s). Citation QA 2026-11-18: 1 quote(s) replaced with verbatim source text.",
     "fields_not_found": [
       "design_criteria.required_hydrologic_hydraulic_software",
       "document_metadata.version_or_edition",

@@ -71,19 +71,9 @@
       "page_or_section": "1.1"
     },
     {
-      "field": "design_criteria.design_storm_return_periods_years",
-      "excerpt": "2-year, 5-year, 10-year, 25-year, 50-year, and 100-year recurrence intervals",
-      "page_or_section": "3.8, 5.3, 5.3.5, 4.3.6"
-    },
-    {
       "field": "design_criteria.water_quality_volume_method",
       "excerpt": "The daily runoff volume at or below which 91 percent of the total runoff volume for the simulation period occurs, as determined using an approved continuous model.",
       "page_or_section": "5.4.1.1"
-    },
-    {
-      "field": "design_criteria.peak_flow_calculation_method",
-      "excerpt": "Single Event Hydrograph Method, Continuous Simulation Method, Rational Method",
-      "page_or_section": "4.3.6"
     },
     {
       "field": "design_criteria.required_hydrologic_hydraulic_software",
@@ -111,11 +101,6 @@
       "page_or_section": "Volume 3, Chapter 5, Section 5.4.4 Ponding Area, page 5-69 (420)"
     },
     {
-      "field": "design_parameters.design_infiltration_rate_in_per_hr",
-      "excerpt": "Table 3.3. Minimum Measured Infiltration Rates. (multiple BMP-specific minimums in in/hr, e.g., Infiltration Trenches 2, Drywells 5, Infiltrating Bioretention without underdrain 0.6)",
-      "page_or_section": "Volume 3, Chapter 3, Table 3.3, page 3-12 (311)"
-    },
-    {
       "field": "design_parameters.shwt_separation_inches",
       "excerpt": "Minimum Vertical Separation (ft) Groundwater … Infiltrating Bioretention without Underdrain … Wet Season … 3 … Permeable Pavement Facilities … Wet Season … 1",
       "page_or_section": "Appendix D, Comprehensive Subsurface Investigation Elements, page D-6 (840)"
@@ -124,7 +109,7 @@
   "extraction_quality": {
     "confidence": "high",
     "needs_human_review": true,
-    "review_notes": "All fields were successfully mapped based on direct, explicit text references. No interpolation or estimation was used. Pipeline excerpt repair removed 1 unlocated citation(s).",
+    "review_notes": "All fields were successfully mapped based on direct, explicit text references. No interpolation or estimation was used. Pipeline excerpt repair removed 1 unlocated citation(s). Citation QA 2026-11-18: 0 quote(s) replaced with verbatim source text; 3 removed because no supporting text was found (design_storm_return_periods_years, peak_flow_calculation_method, design_infiltration_rate_in_per_hr).",
     "fields_not_found": [
       "document_metadata.last_revised_date",
       "document_metadata.adoption_or_effective_date"

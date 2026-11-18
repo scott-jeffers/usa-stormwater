@@ -53,19 +53,9 @@
       "page_or_section": "Title"
     },
     {
-      "field": "design_criteria.design_storm_return_periods_years",
-      "excerpt": "(on roadways of four lanes or more) 100-year Within curb height (maximum curb h=1½” below top of curb and 50 cfs max) Streets (Local Streets) 50-year One lane high and dry 100-year Within curb height (maximum curb h= 1½” below top of curb and 50 cfs max) Storm Drain System 10",
-      "page_or_section": "p. 12"
-    },
-    {
       "field": "design_criteria.water_quality_volume_method",
       "excerpt": "bioretention",
       "page_or_section": "Section 14"
-    },
-    {
-      "field": "design_criteria.peak_flow_calculation_method",
-      "excerpt": "Rational Method / HEC-HMS",
-      "page_or_section": "Hydrology"
     },
     {
       "field": "design_criteria.approved_bmp_categories",
@@ -101,7 +91,7 @@
   "extraction_quality": {
     "confidence": "medium",
     "needs_human_review": true,
-    "review_notes": "El Paso SWDM 2022; Atlas 14 + Rational/HEC-HMS. Confirm exact street vs major conveyance return periods from tables. Pipeline excerpt repair removed 4 unlocated citation(s).",
+    "review_notes": "El Paso SWDM 2022; Atlas 14 + Rational/HEC-HMS. Confirm exact street vs major conveyance return periods from tables. Pipeline excerpt repair removed 4 unlocated citation(s). Citation QA 2026-11-18: 0 quote(s) replaced with verbatim source text; 2 removed because no supporting text was found (design_storm_return_periods_years, peak_flow_calculation_method).",
     "fields_not_found": [
       "document_metadata.adoption_or_effective_date",
       "document_metadata.state_code",

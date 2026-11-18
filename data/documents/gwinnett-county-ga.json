@@ -56,11 +56,6 @@
   },
   "evidence": [
     {
-      "field": "document_metadata.jurisdiction_name",
-      "excerpt": "Gwinnett County Stormwater Management Manual based on GSMM",
-      "page_or_section": "County develop resources / GSMM"
-    },
-    {
       "field": "document_metadata.jurisdiction_level",
       "excerpt": "Gwinnett County",
       "page_or_section": "Coverage note"
@@ -91,11 +86,6 @@
       "page_or_section": "111"
     },
     {
-      "field": "design_criteria.peak_flow_calculation_method",
-      "excerpt": "SCS Curve Number Method",
-      "page_or_section": "154"
-    },
-    {
       "field": "design_criteria.approved_bmp_categories",
       "excerpt": "Bioretention Basin; Bioslopes; Dry Wells; Infiltration Trenches; Organic Filters",
       "page_or_section": "199"
@@ -124,7 +114,7 @@
   "extraction_quality": {
     "confidence": "medium",
     "needs_human_review": true,
-    "review_notes": "Official GCSMM PDF is portal/HTML-gated. Criteria taken from GSMM 2016 (same technical basis Gwinnett publishes). Prefer swapping source to direct GCSMM PDF if a durable public URL appears. Pipeline excerpt repair removed 1 unlocated citation(s).",
+    "review_notes": "Official GCSMM PDF is portal/HTML-gated. Criteria taken from GSMM 2016 (same technical basis Gwinnett publishes). Prefer swapping source to direct GCSMM PDF if a durable public URL appears. Pipeline excerpt repair removed 1 unlocated citation(s). Citation QA 2026-11-18: 0 quote(s) replaced with verbatim source text; 2 removed because no supporting text was found (jurisdiction_name, peak_flow_calculation_method).",
     "fields_not_found": [
       "document_metadata.adoption_or_effective_date",
       "document_metadata.last_revised_date",

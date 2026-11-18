@@ -54,13 +54,8 @@
     },
     {
       "field": "design_criteria.water_quality_volume_method",
-      "excerpt": "reducing peak flow of a post-development site to peak flow the pre-development ... 10-year, 25-year, and 100-year design storms",
-      "page_or_section": "§9 Stormwater Detention"
-    },
-    {
-      "field": "document_metadata.relationship_to_state_manual",
-      "excerpt": "independent city drainage design standards",
-      "page_or_section": "Coverage note"
+      "excerpt": "The purpose of detention basins is to reduce the peak flow of a post-development site to peak flow the predevelopment conditions. … 10-year, 25-year, and 100-year design storms",
+      "page_or_section": "PDF p. 300"
     },
     {
       "field": "design_parameters.practice_mentions.extended_detention",
@@ -91,7 +86,7 @@
   "extraction_quality": {
     "confidence": "medium",
     "needs_human_review": true,
-    "review_notes": "Large standards PDF (324 pages / many detail sheets); WQ focus is primarily peak detention rather than fixed rainfall-depth WQv.",
+    "review_notes": "Large standards PDF (324 pages / many detail sheets); WQ focus is primarily peak detention rather than fixed rainfall-depth WQv. Citation QA 2026-11-18: 1 quote(s) replaced with verbatim source text; 1 removed because no supporting text was found (relationship_to_state_manual).",
     "fields_not_found": [
       "design_criteria.required_hydrologic_hydraulic_software"
     ]

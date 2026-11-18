@@ -53,17 +53,12 @@
       "field": "design_criteria.peak_flow_calculation_method",
       "excerpt": "s. The two analytic methods are: 1. The Rational Method. Used for uniform drainage areas that are less than 160 acres in size. 2",
       "page_or_section": null
-    },
-    {
-      "field": "design_criteria.approved_bmp_categories",
-      "excerpt": "Retention Basin",
-      "page_or_section": null
     }
   ],
   "extraction_quality": {
     "confidence": "medium",
     "needs_human_review": true,
-    "review_notes": "Heuristic agency extract from prepared text. ADOT Highway Drainage Design Manual Vol 2 Hydrology (2014). Companion Hydraulics volume also available.",
+    "review_notes": "Heuristic agency extract from prepared text. ADOT Highway Drainage Design Manual Vol 2 Hydrology (2014). Companion Hydraulics volume also available. Citation QA 2026-11-18: 0 quote(s) replaced with verbatim source text; 1 removed because no supporting text was found (approved_bmp_categories).",
     "fields_not_found": [
       "design_criteria.water_quality_volume_method"
     ]

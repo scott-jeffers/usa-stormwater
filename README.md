@@ -136,6 +136,8 @@ npm run qa:evidence            # all records with a local corpus (data/corpus/, 
 npm run qa:evidence -- ga-state
 ```
 
+For a second, independent reading of each PDF (recommended — some PDFs lose digits in the pipeline's extractor), run `npm run qa:alt-text` first; it needs poppler's `pdftotext` and the local PDFs in `samples/queue/`, and `qa:evidence` then keeps the best result across both readings. Quotes that still fail can be repaired with `npm run qa:repair -- --dry-run` (then without `--dry-run`): it only ever copies verbatim source text that states the value, or removes the quote and flags the record; every change is logged in `data/qa/REPAIR.md`. National draft and practice-page citations are checked too.
+
 A quote passes only if it is verbatim, or a close in-order match with **every number identical**. Text whose numbers were dropped by the PDF's text layer is marked *couldn't check* instead of passing or failing. Results go to `data/qa/evidence.json` (committed; the site shows a per-quote label and a link to the PDF page) and `data/qa/EVIDENCE.md`. Re-run it after any extraction, enrichment or excerpt repair, then commit both files. The pipeline's `verify` stage uses the same matcher (`lib/qa/evidenceMatch.ts`, tested in `tests/`).
 
 ## Finding missing manuals (coverage gaps)

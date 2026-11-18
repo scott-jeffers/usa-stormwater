@@ -34,11 +34,6 @@
   },
   "evidence": [
     {
-      "field": "document_metadata.jurisdiction_name",
-      "excerpt": "City of Jackson capital coverage via MDEQ Volume 2",
-      "page_or_section": "Coverage note"
-    },
-    {
       "field": "document_metadata.document_title",
       "excerpt": "Volume 2 Stormwater Runoff Management Manual",
       "page_or_section": "Title Page"
@@ -97,7 +92,7 @@
   "extraction_quality": {
     "confidence": "medium",
     "needs_human_review": true,
-    "review_notes": "No durable Jackson city design-manual PDF found; MS4 program page only. Coverage via MDEQ Volume 2 (same pattern as AL capitals with ADEM LID).",
+    "review_notes": "No durable Jackson city design-manual PDF found; MS4 program page only. Coverage via MDEQ Volume 2 (same pattern as AL capitals with ADEM LID). Citation QA 2026-11-18: 0 quote(s) replaced with verbatim source text; 1 removed because no supporting text was found (jurisdiction_name).",
     "fields_not_found": [
       "design_criteria.required_hydrologic_hydraulic_software"
     ]

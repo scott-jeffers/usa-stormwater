@@ -39,11 +39,6 @@
   },
   "evidence": [
     {
-      "field": "document_metadata.jurisdiction_name",
-      "excerpt": "City of Syracuse Stormwater Management Reviews cite NYS Design Manual",
-      "page_or_section": "Coverage note / syr.gov Engineering"
-    },
-    {
       "field": "document_metadata.document_title",
       "excerpt": "STORMWATER MANAGEMENT DESIGN MANUAL",
       "page_or_section": "Title Page"
@@ -112,7 +107,7 @@
   "extraction_quality": {
     "confidence": "medium",
     "needs_human_review": true,
-    "review_notes": "Municipality coverage via NYS Stormwater Management Design Manual (same pattern as Rochester/Yonkers). City also has Ordinance #53.",
+    "review_notes": "Municipality coverage via NYS Stormwater Management Design Manual (same pattern as Rochester/Yonkers). City also has Ordinance #53. Citation QA 2026-11-18: 0 quote(s) replaced with verbatim source text; 1 removed because no supporting text was found (jurisdiction_name).",
     "fields_not_found": []
   },
   "source": {

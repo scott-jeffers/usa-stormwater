@@ -30,18 +30,13 @@
     },
     {
       "field": "document_metadata.document_title",
-      "excerpt": "Highway Runoff Manual M 31-16 — Chapter 3 Minimum Requirements",
-      "page_or_section": "Title / header"
+      "excerpt": "WSDOT Highway Runoff Manual M 31-16.04 Page 3-1 April 2014 Chapter 3 Minimum Requirements",
+      "page_or_section": "PDF p. 5"
     },
     {
       "field": "design_criteria.design_storm_return_periods_years",
       "excerpt": "auses a 0.1 cfs or more increase in the 100-year recurrence interval flow? Chapter 3 Minimum Requirements WSDOT Highway Runoff M",
       "page_or_section": null
-    },
-    {
-      "field": "design_parameters.wqv_depth_inches",
-      "excerpt": "No water-quality rainfall/runoff depth in inches (e.g. 1.0 in.) stated; western volume-based wetpool uses \"91st percentile, 24-hour runoff volume as calculated by MGSFlood.\"",
-      "page_or_section": "Table 3-3, page 3-17"
     },
     {
       "field": "design_parameters.shwt_separation_inches",
@@ -77,7 +72,7 @@
   "extraction_quality": {
     "confidence": "medium",
     "needs_human_review": true,
-    "review_notes": "Heuristic agency extract from prepared text. WSDOT Highway Runoff Manual Ch3 Minimum Requirements (2014). Full HRM PDF ~240MB deferred.",
+    "review_notes": "Heuristic agency extract from prepared text. WSDOT Highway Runoff Manual Ch3 Minimum Requirements (2014). Full HRM PDF ~240MB deferred. Citation QA 2026-11-18: 0 quote(s) replaced with verbatim source text; 1 removed because no supporting text was found (wqv_depth_inches).",
     "fields_not_found": [
       "design_criteria.peak_flow_calculation_method",
       "design_criteria.water_quality_volume_method",

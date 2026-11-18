@@ -28,11 +28,6 @@
   },
   "evidence": [
     {
-      "field": "document_metadata.jurisdiction_name",
-      "excerpt": "City of Duluth MS4 follows Minnesota Stormwater Manual",
-      "page_or_section": "Coverage note"
-    },
-    {
       "field": "design_parameters.max_drawdown_hours",
       "excerpt": "48 hours is the REQUIRED maximum tf for bioretention under the CGP",
       "page_or_section": "Chapter 12-6 bioretention, page 397"
@@ -81,7 +76,7 @@
   "extraction_quality": {
     "confidence": "medium",
     "needs_human_review": true,
-    "review_notes": "Municipality coverage via Minnesota Stormwater Manual.",
+    "review_notes": "Municipality coverage via Minnesota Stormwater Manual. Citation QA 2026-11-18: 0 quote(s) replaced with verbatim source text; 1 removed because no supporting text was found (jurisdiction_name).",
     "fields_not_found": []
   },
   "source": {

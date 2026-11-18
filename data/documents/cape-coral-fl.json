@@ -76,11 +76,6 @@
       "page_or_section": "Section 9"
     },
     {
-      "field": "design_criteria.approved_bmp_categories",
-      "excerpt": "CATCH BASINS / OUTFALLS",
-      "page_or_section": "9.4–9.6"
-    },
-    {
       "field": "design_parameters.practice_mentions.swale",
       "excerpt": "If the mains are placed beneath a swale, the depth of cover may be reduced to 30\" below the finished grade of the swale.",
       "page_or_section": "Section 2.1 GENERAL, page 11"
@@ -94,7 +89,7 @@
   "extraction_quality": {
     "confidence": "low",
     "needs_human_review": true,
-    "review_notes": "Utilities conveyance standards only; full Engineering Design Standards Section L PDF was 404 — replace when available.",
+    "review_notes": "Utilities conveyance standards only; full Engineering Design Standards Section L PDF was 404 — replace when available. Citation QA 2026-11-18: 0 quote(s) replaced with verbatim source text; 1 removed because no supporting text was found (approved_bmp_categories).",
     "fields_not_found": [
       "design_criteria.design_storm_return_periods_years",
       "design_criteria.required_hydrologic_hydraulic_software"

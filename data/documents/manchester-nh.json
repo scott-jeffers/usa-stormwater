@@ -36,11 +36,6 @@
   },
   "evidence": [
     {
-      "field": "document_metadata.jurisdiction_name",
-      "excerpt": "Manchester Stormwater Regulations implement NHDES / NH Stormwater Manual standards",
-      "page_or_section": "Coverage note"
-    },
-    {
       "field": "design_criteria.water_quality_volume_method",
       "excerpt": "WQV = (P)(Rv)(A) where P = 1 inch of rainfall",
       "page_or_section": "NH Model Stormwater Standards"
@@ -74,7 +69,7 @@
   "extraction_quality": {
     "confidence": "medium",
     "needs_human_review": true,
-    "review_notes": "Municipality coverage via NH Model Stormwater Standards (2025 update). City also posts local Stormwater Regulations PDF.",
+    "review_notes": "Municipality coverage via NH Model Stormwater Standards (2025 update). City also posts local Stormwater Regulations PDF. Citation QA 2026-11-18: 0 quote(s) replaced with verbatim source text; 1 removed because no supporting text was found (jurisdiction_name).",
     "fields_not_found": []
   },
   "source": {

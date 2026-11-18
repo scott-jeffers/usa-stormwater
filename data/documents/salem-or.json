@@ -46,16 +46,6 @@
       "page_or_section": "TOC"
     },
     {
-      "field": "document_metadata.version_or_edition",
-      "excerpt": "Public Works Design Standards - March 2025",
-      "page_or_section": "Landing / filename"
-    },
-    {
-      "field": "document_metadata.relationship_to_state_manual",
-      "excerpt": "Salem Revised Code / Public Works Design Standards",
-      "page_or_section": "Introduction"
-    },
-    {
       "field": "design_criteria.water_quality_volume_method",
       "excerpt": "Water Quality Design Storm Event - a design storm event representative of 80 percent of the",
       "page_or_section": "Definitions"
@@ -67,8 +57,8 @@
     },
     {
       "field": "design_criteria.approved_bmp_categories",
-      "excerpt": "Green Stormwater Infrastructure - GSI; Infiltration Facility",
-      "page_or_section": "Definitions"
+      "excerpt": "Green Stormwater Infrastructure (GSI).",
+      "page_or_section": "PDF p. 88"
     },
     {
       "field": "design_criteria.design_storm_return_periods_years",
@@ -109,7 +99,7 @@
   "extraction_quality": {
     "confidence": "medium",
     "needs_human_review": true,
-    "review_notes": "Full Admin Rule 109 PDF (multiple divisions). Stormwater criteria concentrated in Div. 004 / SRC 71 references. Pipeline excerpt repair removed 2 unlocated citation(s).",
+    "review_notes": "Full Admin Rule 109 PDF (multiple divisions). Stormwater criteria concentrated in Div. 004 / SRC 71 references. Pipeline excerpt repair removed 2 unlocated citation(s). Citation QA 2026-11-18: 1 quote(s) replaced with verbatim source text; 2 removed because no supporting text was found (version_or_edition, relationship_to_state_manual).",
     "fields_not_found": [
       "document_metadata.adoption_or_effective_date",
       "design_criteria.required_hydrologic_hydraulic_software",

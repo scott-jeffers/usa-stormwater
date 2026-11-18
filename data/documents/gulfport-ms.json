@@ -31,11 +31,6 @@
   },
   "evidence": [
     {
-      "field": "document_metadata.jurisdiction_name",
-      "excerpt": "City of Gulfport MS4 follows MDEQ Volume 2",
-      "page_or_section": "Coverage note"
-    },
-    {
       "field": "design_parameters.wqv_depth_inches",
       "excerpt": "Required volume: first 1.0 inch of runoff or 2.5 inches from impervious areas, whichever is greater.",
       "page_or_section": "Retention/Detention, Dry Retention Systems, page 196 (4-165)"
@@ -104,7 +99,7 @@
   "extraction_quality": {
     "confidence": "medium",
     "needs_human_review": true,
-    "review_notes": "Municipality coverage via MDEQ Vol 2 (Jackson pattern).",
+    "review_notes": "Municipality coverage via MDEQ Vol 2 (Jackson pattern). Citation QA 2026-11-18: 0 quote(s) replaced with verbatim source text; 1 removed because no supporting text was found (jurisdiction_name).",
     "fields_not_found": []
   },
   "source": {

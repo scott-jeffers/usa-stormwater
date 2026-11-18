@@ -30,11 +30,6 @@
   },
   "evidence": [
     {
-      "field": "document_metadata.jurisdiction_name",
-      "excerpt": "Lafayette — coverage via Shreveport Drainage Manual as LA municipal pattern",
-      "page_or_section": "Coverage note"
-    },
-    {
       "field": "design_parameters.practice_mentions.extended_detention",
       "excerpt": "Section 9 Stormwater Detention 9-1 ... 9.3 Minimum Requirements for Detention Basin Design",
       "page_or_section": "Section 9 / page 6 TOC"
@@ -68,7 +63,7 @@
   "extraction_quality": {
     "confidence": "low",
     "needs_human_review": true,
-    "review_notes": "Placeholder — replace when Lafayette publishes a durable drainage design PDF.",
+    "review_notes": "Placeholder — replace when Lafayette publishes a durable drainage design PDF. Citation QA 2026-11-18: 0 quote(s) replaced with verbatim source text; 1 removed because no supporting text was found (jurisdiction_name).",
     "fields_not_found": []
   },
   "source": {

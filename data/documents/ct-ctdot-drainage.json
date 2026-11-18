@@ -30,11 +30,6 @@
   },
   "evidence": [
     {
-      "field": "document_metadata.document_title",
-      "excerpt": "CTDOT Drainage Manual",
-      "page_or_section": "Title / header"
-    },
-    {
       "field": "design_criteria.design_storm_return_periods_years",
       "excerpt": "loodplain. • The predicted value of the 100-year or base flood serves as the present engineering standard for evaluating flood h",
       "page_or_section": null
@@ -42,11 +37,6 @@
     {
       "field": "design_criteria.peak_flow_calculation_method",
       "excerpt": "ccurs in the future; • documenting that rationally accepted procedures and analysis were used at the time of the design which we",
-      "page_or_section": null
-    },
-    {
-      "field": "design_criteria.approved_bmp_categories",
-      "excerpt": "Wet Pond, Dry Pond, Detention Basin",
       "page_or_section": null
     },
     {
@@ -93,7 +83,7 @@
   "extraction_quality": {
     "confidence": "medium",
     "needs_human_review": true,
-    "review_notes": "Heuristic agency extract from prepared text. CTDOT Drainage Manual — full PDF Pipeline excerpt repair removed 1 unlocated citation(s).",
+    "review_notes": "Heuristic agency extract from prepared text. CTDOT Drainage Manual — full PDF Pipeline excerpt repair removed 1 unlocated citation(s). Citation QA 2026-11-18: 0 quote(s) replaced with verbatim source text; 2 removed because no supporting text was found (document_title, approved_bmp_categories).",
     "fields_not_found": [
       "design_criteria.water_quality_volume_method",
       "design_criteria.required_hydrologic_hydraulic_software",

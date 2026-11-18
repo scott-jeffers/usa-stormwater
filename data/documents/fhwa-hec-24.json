@@ -46,11 +46,6 @@
       "page_or_section": "Chapter 4 – Pump Station Design Process, pages 45-46"
     },
     {
-      "field": "document_metadata.version_or_edition",
-      "excerpt": "queue id fhwa-hec-24; Hydraulic Engineering Circular stormwater pump station manual context",
-      "page_or_section": "Corpus fhwa-hec-24"
-    },
-    {
       "field": "document_metadata.relationship_to_state_manual",
       "excerpt": "The choice of hydrologic methods is either based on agency standard practice or left up to the designer based on local conditions and judgment.",
       "page_or_section": "Chapter 5 – Site Planning and Hydrology, 5.4.1 Hydrologic Methods, page 66"
@@ -109,7 +104,7 @@
   "extraction_quality": {
     "confidence": "medium",
     "needs_human_review": true,
-    "review_notes": "Title/edition from FHWA Highway Drainage publications list (HEC-24, February 2001). HY-22 citation appears with OCR artifact. BMPs referenced generically for NPDES compliance but no approved BMP category list. water_quality_volume_method not stated (pump-station hydrology focus).",
+    "review_notes": "Title/edition from FHWA Highway Drainage publications list (HEC-24, February 2001). HY-22 citation appears with OCR artifact. BMPs referenced generically for NPDES compliance but no approved BMP category list. water_quality_volume_method not stated (pump-station hydrology focus). Citation QA 2026-11-18: 0 quote(s) replaced with verbatim source text; 1 removed because no supporting text was found (version_or_edition).",
     "fields_not_found": [
       "document_metadata.adoption_or_effective_date",
       "document_metadata.last_revised_date",

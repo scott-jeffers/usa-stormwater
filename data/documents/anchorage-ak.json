@@ -139,8 +139,8 @@
     },
     {
       "field": "design_criteria.required_hydrologic_hydraulic_software",
-      "excerpt": "Criteria March 2015 vii LIST OF TABLES Table 2.1-1: Summary of Urban Stormwater Pollutants ............................................................ 2-7 Table 3.2-1: Summary of Stormwater Standards and Requirements.......................................... 3-3 Table 4.",
-      "page_or_section": "p. 9"
+      "excerpt": "Criteria March 2015 vii LIST OF TABLES Table 2.1-1: Summary of Urban Stormwater Pollutants … 2-7 Table 3.2-1: Summary of Stormwater Standards and Requirements",
+      "page_or_section": "PDF p. 9"
     },
     {
       "field": "design_criteria.approved_bmp_categories",
@@ -191,7 +191,7 @@
   "extraction_quality": {
     "confidence": "high",
     "needs_human_review": true,
-    "review_notes": "Source PDF is labeled DRAFT March 2015 (ASM Volume 1 / DCM Ch. 2). Confirm whether a later adopted edition supersedes this draft before relying on criteria operationally. Software listed are common models in Table 4.8-1, not an exclusive required list.",
+    "review_notes": "Source PDF is labeled DRAFT March 2015 (ASM Volume 1 / DCM Ch. 2). Confirm whether a later adopted edition supersedes this draft before relying on criteria operationally. Software listed are common models in Table 4.8-1, not an exclusive required list. Citation QA 2026-11-18: 1 quote(s) replaced with verbatim source text.",
     "fields_not_found": [
       "document_metadata.adoption_or_effective_date"
     ]

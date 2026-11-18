@@ -52,11 +52,6 @@
       "page_or_section": "Header"
     },
     {
-      "field": "document_metadata.relationship_to_state_manual",
-      "excerpt": "Kern County Development Standards Division Four",
-      "page_or_section": "Coverage note"
-    },
-    {
       "field": "design_criteria.design_storm_return_periods_years",
       "excerpt": "Capital Storm Design Discharge (CSDD) ... referred to as the 100-year storm; Intermediate Storm Design Discharge (ISDD) ... referred to as the ten-year storm",
       "page_or_section": "§402-1.04 / §402-1.17"
@@ -70,11 +65,6 @@
       "field": "design_criteria.peak_flow_calculation_method",
       "excerpt": "CSDD and ISDD flows shall be calculated in accordance with the current Kern County",
       "page_or_section": "§402-3"
-    },
-    {
-      "field": "design_criteria.approved_bmp_categories",
-      "excerpt": "Retention Basin Design; Detention Basin Design; Closed Conduit Systems, Catch Basins",
-      "page_or_section": "Division Four chapters"
     },
     {
       "field": "design_parameters.max_drawdown_hours",
@@ -100,7 +90,7 @@
   "extraction_quality": {
     "confidence": "medium",
     "needs_human_review": true,
-    "review_notes": "Kern County Division Four drainage standards used for Bakersfield metro / co-permittee coverage. City of Bakersfield may publish a separate Subdivision/Engineering Design Manual — prefer swapping if a durable city PDF is found. Pipeline excerpt repair removed 1 unlocated citation(s).",
+    "review_notes": "Kern County Division Four drainage standards used for Bakersfield metro / co-permittee coverage. City of Bakersfield may publish a separate Subdivision/Engineering Design Manual — prefer swapping if a durable city PDF is found. Pipeline excerpt repair removed 1 unlocated citation(s). Citation QA 2026-11-18: 0 quote(s) replaced with verbatim source text; 2 removed because no supporting text was found (relationship_to_state_manual, approved_bmp_categories).",
     "fields_not_found": [
       "document_metadata.adoption_or_effective_date",
       "document_metadata.last_revised_date",

@@ -29,11 +29,6 @@
   },
   "evidence": [
     {
-      "field": "document_metadata.jurisdiction_name",
-      "excerpt": "Frankfort capital — coverage via LFUCG Stormwater Manual as KY urban reference (not a Frankfort-adopted document)",
-      "page_or_section": "Coverage note"
-    },
-    {
       "field": "design_criteria.water_quality_volume_method",
       "excerpt": "90th percentile storm of 1.2 inches",
       "page_or_section": "LFUCG Stormwater Manual"
@@ -92,7 +87,7 @@
   "extraction_quality": {
     "confidence": "low",
     "needs_human_review": true,
-    "review_notes": "Placeholder using Lexington-Fayette manual criteria — replace when Frankfort publishes a local drainage/stormwater design PDF.",
+    "review_notes": "Placeholder using Lexington-Fayette manual criteria — replace when Frankfort publishes a local drainage/stormwater design PDF. Citation QA 2026-11-18: 0 quote(s) replaced with verbatim source text; 1 removed because no supporting text was found (jurisdiction_name).",
     "fields_not_found": []
   },
   "source": {

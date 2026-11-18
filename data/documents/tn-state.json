@@ -76,13 +76,13 @@
     },
     {
       "field": "design_criteria.design_storm_return_periods_years",
-      "excerpt": "Typically, a 10-year or 25-year return design storm is used to size storm sewer systems... Similarly, a 2-year or 5-year return design storm is used to protect from downstream... Additionally, a 100-year return design storm is used to protect from downstream flooding",
-      "page_or_section": "Chapter 4, Section 4.5"
+      "excerpt": "Generally, a 10-year or 25-year return design storm is used to size storm drainage infrastructure and a 100-year return design storm is used to protect from downstream ﬂooding. … Additionally, a 100-year return design storm is used to protect from downstream flooding",
+      "page_or_section": "PDF p. 60"
     },
     {
       "field": "design_criteria.water_quality_volume_method",
-      "excerpt": "designed, built, and maintained to infiltrate, evapotranspirate, harvest and/or use, the first inch of every rainfall event preceded by 72 hours of dry weather.",
-      "page_or_section": "Chapter 2, Section 2.2"
+      "excerpt": "Runoﬀ Reduction and Pollutant Removal with Smart Site Design Site design standards for all new development and redevelopment require management measures that are designed, built, and maintained to inﬁltrate, evapotranspire, harvest and/or reuse, at a minimum, the ﬁrst inch of every rainfall event preceded by 72 hours of no measurable precipitation.",
+      "page_or_section": "PDF p. 23"
     },
     {
       "field": "design_criteria.peak_flow_calculation_method",
@@ -158,7 +158,7 @@
   "extraction_quality": {
     "confidence": "high",
     "needs_human_review": true,
-    "review_notes": "All required properties were successfully extracted from the text. The document is the official state manual for Tennessee, published by TDEC in December 2014. Pipeline excerpt repair removed 1 unlocated citation(s).",
+    "review_notes": "All required properties were successfully extracted from the text. The document is the official state manual for Tennessee, published by TDEC in December 2014. Pipeline excerpt repair removed 1 unlocated citation(s). Citation QA 2026-11-18: 2 quote(s) replaced with verbatim source text.",
     "fields_not_found": [
       "document_metadata.last_revised_date",
       "document_metadata.state_code"

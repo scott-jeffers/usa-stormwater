@@ -36,11 +36,6 @@
   },
   "evidence": [
     {
-      "field": "document_metadata.jurisdiction_name",
-      "excerpt": "City of Portland ME MS4 follows Maine Stormwater Design Manual Vol III",
-      "page_or_section": "Coverage note"
-    },
-    {
       "field": "design_parameters.wqv_depth_inches",
       "excerpt": "An underdrained soil filter must detain and filter a runoff volume equal to 1.0 inch times the subcatchment's impervious area plus 0.4 inch times the subcatchment's landscaped developed area.",
       "page_or_section": "Chapter 7.1, page 50"
@@ -94,7 +89,7 @@
   "extraction_quality": {
     "confidence": "medium",
     "needs_human_review": true,
-    "review_notes": "Municipality coverage via Maine Vol III (Augusta pattern).",
+    "review_notes": "Municipality coverage via Maine Vol III (Augusta pattern). Citation QA 2026-11-18: 0 quote(s) replaced with verbatim source text; 1 removed because no supporting text was found (jurisdiction_name).",
     "fields_not_found": []
   },
   "source": {
