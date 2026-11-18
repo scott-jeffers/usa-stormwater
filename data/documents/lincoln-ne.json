@@ -144,6 +144,22 @@
       "swale_longitudinal_slope_percent",
       "green_roof_media_depth_inches",
       "mtd_verification_program"
+    ],
+    "value_qualifiers": {
+      "design_infiltration_rate_in_per_hr": "min",
+      "green_roof_slope_percent": "max",
+      "max_drawdown_hours": "max",
+      "shwt_separation_inches": "min"
+    },
+    "design_storms": [
+      {
+        "years": 2,
+        "purposes": [
+          "other"
+        ],
+        "quote": null,
+        "page": null
+      }
     ]
   }
 }

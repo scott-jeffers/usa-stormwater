@@ -181,6 +181,13 @@
       "green_roof_media_depth_inches",
       "green_roof_slope_percent",
       "mtd_verification_program"
-    ]
+    ],
+    "value_qualifiers": {
+      "design_infiltration_rate_in_per_hr": "max",
+      "length_to_width_ratio": "min",
+      "max_drawdown_hours": "max",
+      "permanent_pool_depth_inches": "max",
+      "shwt_separation_inches": "min"
+    }
   }
 }

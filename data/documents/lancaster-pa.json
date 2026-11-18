@@ -149,6 +149,57 @@
       "swale_longitudinal_slope_percent",
       "green_roof_slope_percent",
       "mtd_verification_program"
+    ],
+    "value_qualifiers": {
+      "bioretention_media_depth_min_inches": "min",
+      "bioretention_ponding_depth_inches": "max",
+      "green_roof_media_depth_inches": "min",
+      "length_to_width_ratio": "min"
+    },
+    "design_storms": [
+      {
+        "years": 2,
+        "purposes": [
+          "peak_control"
+        ],
+        "quote": "the Volume Control requirement of no increase in the post-development total runoff volume for all storms equal to or less than the 2-year 24-hour storm event as described in Section 2.3.1.A.1 above, and",
+        "page": 20
+      },
+      {
+        "years": 10,
+        "purposes": [
+          "other"
+        ],
+        "quote": null,
+        "page": null
+      },
+      {
+        "years": 25,
+        "purposes": [
+          "conveyance"
+        ],
+        "quote": "All stormwater conveyance facilities (excluding detention, retention, and wetland basin outfall structures) shall be designed to convey a 25-year storm event*, unless otherwise directed by the City so as not to exceed the capacity of the existing City conveyance system.",
+        "page": 241
+      },
+      {
+        "years": 50,
+        "purposes": [
+          "conveyance"
+        ],
+        "quote": "All stormwater conveyance facilities (excluding detention, retention, and wetland basin outfall structures) conveying water originating from offsite shall be designed to convey a 50-year storm event*.",
+        "page": 241
+      },
+      {
+        "years": 100,
+        "purposes": [
+          "peak_control",
+          "conveyance",
+          "flood",
+          "channel_protection"
+        ],
+        "quote": "Systems must provide safe conveyance of the 100-year, 24-hour storm event to appropriate peak rate control BMPs in the design.",
+        "page": 68
+      }
     ]
   }
 }

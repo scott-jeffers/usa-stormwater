@@ -58,16 +58,6 @@
       "page_or_section": "1.5.2 Engineered Soil Media, page 31"
     },
     {
-      "field": "design_parameters.bioretention_ponding_depth_inches",
-      "excerpt": "Maximum surface ponding depth of 2ft for the 2yr event and 4ft for the 100yr event.",
-      "page_or_section": "Table 6 Surface Ponding, page 14"
-    },
-    {
-      "field": "design_parameters.bioretention_ponding_depth_inches",
-      "excerpt": "surface ponding does not exceed 24 hours",
-      "page_or_section": "1.5.1 Design Considerations, page 30"
-    },
-    {
       "field": "design_parameters.design_infiltration_rate_in_per_hr",
       "excerpt": "meet Harris County minimum 30\"/hour Infiltration rate requirements, of bioretention media",
       "page_or_section": "Appendix B, page 42"
@@ -117,7 +107,7 @@
     "max_drawdown_hours": 72,
     "shwt_separation_inches": null,
     "bioretention_media_depth_min_inches": 18,
-    "bioretention_ponding_depth_inches": 24,
+    "bioretention_ponding_depth_inches": null,
     "permeable_pavement_storage_depth_inches": null,
     "design_infiltration_rate_in_per_hr": 30,
     "permanent_pool_depth_inches": null,
@@ -151,6 +141,13 @@
       "green_roof_media_depth_inches",
       "green_roof_slope_percent",
       "mtd_verification_program"
-    ]
+    ],
+    "wqv_basis": "runoff",
+    "value_qualifiers": {
+      "bioretention_media_depth_min_inches": "typical",
+      "design_infiltration_rate_in_per_hr": "min",
+      "max_drawdown_hours": "max",
+      "wqv_depth_inches": "design"
+    }
   }
 }

@@ -183,6 +183,68 @@
       "green_roof_media_depth_inches",
       "green_roof_slope_percent",
       "mtd_verification_program"
+    ],
+    "wqv_basis": "rainfall",
+    "value_qualifiers": {
+      "wqv_depth_inches": "design"
+    },
+    "design_storms": [
+      {
+        "years": 1,
+        "purposes": [
+          "channel_protection"
+        ],
+        "quote": "In cases where site constraints prevent control of the full channel protection volume, volume control should still be maximized, and the 1-year, 24-hour storm should be captured and released over a 24-hour period.",
+        "page": 17
+      },
+      {
+        "years": 2,
+        "purposes": [
+          "other"
+        ],
+        "quote": null,
+        "page": null
+      },
+      {
+        "years": 5,
+        "purposes": [
+          "other"
+        ],
+        "quote": null,
+        "page": null
+      },
+      {
+        "years": 10,
+        "purposes": [
+          "other"
+        ],
+        "quote": null,
+        "page": null
+      },
+      {
+        "years": 25,
+        "purposes": [
+          "conveyance"
+        ],
+        "quote": "Over bank Flooding - The design storm for overbank flooding is based on local design standards and storm sewer or drain capacity, and is typically a 10- to 25-year, 24-hour event.",
+        "page": 17
+      },
+      {
+        "years": 50,
+        "purposes": [
+          "other"
+        ],
+        "quote": null,
+        "page": null
+      },
+      {
+        "years": 100,
+        "purposes": [
+          "other"
+        ],
+        "quote": null,
+        "page": null
+      }
     ]
   }
 }

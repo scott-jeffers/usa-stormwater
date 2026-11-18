@@ -161,6 +161,29 @@
       "green_roof_media_depth_inches",
       "green_roof_slope_percent",
       "mtd_verification_program"
+    ],
+    "value_qualifiers": {
+      "length_to_width_ratio": "min",
+      "max_drawdown_hours": "max",
+      "shwt_separation_inches": "min"
+    },
+    "design_storms": [
+      {
+        "years": 10,
+        "purposes": [
+          "flood"
+        ],
+        "quote": "(a) A system shall not cause a net reduction in flood storage within a 10-year floodplain except for structures elevated on pilings or traversing works.",
+        "page": 23
+      },
+      {
+        "years": 100,
+        "purposes": [
+          "flood"
+        ],
+        "quote": "3.6 Flood Damage For the purposes of this section, the design storm for determining the 100-year flood elevations shall be the 100-year, 24-hour event.",
+        "page": 24
+      }
     ]
   }
 }

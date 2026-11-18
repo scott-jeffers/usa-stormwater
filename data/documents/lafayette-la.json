@@ -123,6 +123,40 @@
       "green_roof_media_depth_inches",
       "green_roof_slope_percent",
       "mtd_verification_program"
+    ],
+    "design_storms": [
+      {
+        "years": 2,
+        "purposes": [
+          "other"
+        ],
+        "quote": null,
+        "page": null
+      },
+      {
+        "years": 10,
+        "purposes": [
+          "other"
+        ],
+        "quote": null,
+        "page": null
+      },
+      {
+        "years": 25,
+        "purposes": [
+          "conveyance"
+        ],
+        "quote": "7.2 Design Criteria Open channels shall be designed to the following criteria: 7.2.1 Design Storm The design storm shall be 25-year frequency.",
+        "page": 187
+      },
+      {
+        "years": 100,
+        "purposes": [
+          "flood"
+        ],
+        "quote": "7-1 Where: Hv = Velocity head (feet) V = Average velocity (ft/sec) g = Acceleration due to gravity (32.2 ft/sec2) Additional freeboard shall be provided when flooding is caused by the 100-year flood, and as appropriate in other areas.",
+        "page": 188
+      }
     ]
   }
 }

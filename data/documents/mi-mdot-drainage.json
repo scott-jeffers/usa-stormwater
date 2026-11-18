@@ -114,6 +114,24 @@
       "green_roof_media_depth_inches",
       "green_roof_slope_percent",
       "mtd_verification_program"
+    ],
+    "design_storms": [
+      {
+        "years": 10,
+        "purposes": [
+          "conveyance"
+        ],
+        "quote": "From the table, the storm sewer shall be sized for a 10 percent chance (10-year) storm.",
+        "page": 70
+      },
+      {
+        "years": 50,
+        "purposes": [
+          "conveyance"
+        ],
+        "quote": "7.4.2 Depressed Roadways The method for designing storm sewers for depressed roadways is the same as for a roadway with enclosed drainage, except that runoff shall be computed using a 2 percent chance (50-year) frequency and the hydraulic grade line must be a minimum of 1 foot below the gutter grade",
+        "page": 14
+      }
     ]
   }
 }

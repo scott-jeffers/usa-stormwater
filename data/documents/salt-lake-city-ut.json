@@ -178,6 +178,16 @@
       "green_roof_media_depth_inches",
       "green_roof_slope_percent",
       "mtd_verification_program"
+    ],
+    "design_storms": [
+      {
+        "years": 100,
+        "purposes": [
+          "peak_control"
+        ],
+        "quote": "Salt Lake City requires all commercial, industrial, and residential developments with impervious areas greater than 15,000 square feet to provide onsite detention facilities to limit the discharge to a pre-development rate of 0.2 cubic feet per second per acre during the 100-year storm.",
+        "page": 11
+      }
     ]
   }
 }

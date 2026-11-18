@@ -145,11 +145,6 @@
       "page_or_section": "5.4.6 Bioretention, Soils (tn-state-c0176)"
     },
     {
-      "field": "design_parameters.length_to_width_ratio",
-      "excerpt": "Length of shortest flow path/length: 0.3",
-      "page_or_section": "5.4.6 Bioretention, Key Design Criteria (tn-state-c0174)"
-    },
-    {
       "field": "design_parameters.swale_longitudinal_slope_percent",
       "excerpt": "A minimum slope of 0.5% must be maintained to ensu",
       "page_or_section": "Appendix B, Grass Channel (tn-state-c0313)"
@@ -190,7 +185,7 @@
     "design_infiltration_rate_in_per_hr": 0.5,
     "permanent_pool_depth_inches": null,
     "ed_drain_time_hours": 72,
-    "length_to_width_ratio": 0.3,
+    "length_to_width_ratio": null,
     "wetland_detention_hours": null,
     "swale_bottom_width_inches": null,
     "swale_longitudinal_slope_percent": 0.5,
@@ -223,6 +218,67 @@
       "green_roof_media_depth_inches",
       "green_roof_slope_percent",
       "mtd_verification_program"
+    ],
+    "value_qualifiers": {
+      "bioretention_media_depth_min_inches": "min",
+      "design_infiltration_rate_in_per_hr": "min",
+      "ed_drain_time_hours": "design",
+      "max_drawdown_hours": "max",
+      "shwt_separation_inches": "min",
+      "swale_longitudinal_slope_percent": "min"
+    },
+    "design_storms": [
+      {
+        "years": 1,
+        "purposes": [
+          "other"
+        ],
+        "quote": null,
+        "page": null
+      },
+      {
+        "years": 2,
+        "purposes": [
+          "channel_protection"
+        ],
+        "quote": "Flow velocities in channel must be: - less than 1 fps during a 1” storm event, and - non-erosive during the 2-year and 10-year design storm events.",
+        "page": 110
+      },
+      {
+        "years": 5,
+        "purposes": [
+          "other"
+        ],
+        "quote": null,
+        "page": null
+      },
+      {
+        "years": 10,
+        "purposes": [
+          "conveyance",
+          "flood",
+          "peak_control",
+          "channel_protection"
+        ],
+        "quote": "Design Storm Permeable pavement must be designed to treat th provide safe conveyance of the 10-year, 24-hour s detention and release.",
+        "page": 199
+      },
+      {
+        "years": 25,
+        "purposes": [
+          "other"
+        ],
+        "quote": null,
+        "page": null
+      },
+      {
+        "years": 100,
+        "purposes": [
+          "flood"
+        ],
+        "quote": "As a general rule vegetated swales should be at least 10 feet 50 feet from septic system fields, and 100 feet from private w outside the limits of the mapped 100 year flood plain unlessthe local authority.",
+        "page": 112
+      }
     ]
   }
 }

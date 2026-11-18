@@ -39,7 +39,9 @@ function main() {
 
   const mHead = ["slug", "jurisdiction", "level", "state", "title", "agency_category", "edition", "adopted_or_effective", "last_revised", "coverage_basis", "design_from", "values_filled", "quotes_exact", "quotes_fuzzy", "quotes_unverifiable", "quotes_fail", "needs_review", "pdf_url", "landing_url", "page_url"];
   const mRows = [row(mHead)];
-  const vHead = ["slug", "state", "level", "coverage_basis", "field", "label", "value", "unit", "quote", "page_or_section", "check", "check_page", "atlas_url"];
+  const vHead = ["slug", "state", "level", "coverage_basis", "field", "label", "value", "unit", "qualifier", "basis", "hand_review", "quote", "page_or_section", "check", "check_page", "atlas_url"];
+  const review = existsSync(path.join(ROOT, "data/qa/value-review.json")) ? (JSON.parse(readFileSync(path.join(ROOT, "data/qa/value-review.json"), "utf-8")).values as Record<string, Rec>) : {};
+  const sRows = [row(["slug", "state", "level", "coverage_basis", "years", "main_purpose", "purposes", "quote", "page", "atlas_url"])];
   const vRows = [row(vHead)];
   const fill: Record<string, number> = Object.fromEntries(Object.keys(FIELDS).map((k) => [k, 0]));
   let own = 0;
@@ -52,22 +54,31 @@ function main() {
     if (isOwn) own++;
     let filled = 0;
     for (const [field, meta] of Object.entries(FIELDS)) {
-      const v = get(r, field);
+      let v = get(r, field);
       if (!present(v)) continue;
+      if (field === "design_parameters.design_storms")
+        v = (v as Rec[]).map((st) => `${st.years}-yr: ${(st.purposes ?? []).join("+")}`);
       filled++;
       if (isOwn) fill[field]!++;
       const ev = (r.evidence ?? []).find((e: Rec) => e.field === field);
       const chk = (cc.excerpts ?? []).find((e: Rec) => e.field === field);
       vRows.push(
-        row([r.slug, md.state_code, md.jurisdiction_level, r.coverage_basis, field, meta.label, v, meta.unit, ev?.excerpt, ev?.page_or_section, chk?.status ?? (ev ? "unchecked" : "no_quote"), chk?.page, `https://www.stormwateratlas.com/${r.slug}/`])
+        row([r.slug, md.state_code, md.jurisdiction_level, r.coverage_basis, field, meta.label, v, meta.unit,
+          field.startsWith("design_parameters.") ? r.design_parameters?.value_qualifiers?.[field.slice(18)] : undefined,
+          field === "design_parameters.wqv_depth_inches" ? r.design_parameters?.wqv_basis : undefined,
+          field.startsWith("design_parameters.") ? review[`${r.slug}|${field.slice(18)}`]?.verdict : undefined,
+          ev?.excerpt, ev?.page_or_section, chk?.status ?? (ev ? "unchecked" : "no_quote"), chk?.page, `https://www.stormwateratlas.com/${r.slug}/`])
       );
     }
+    for (const st of r.design_parameters?.design_storms ?? [])
+      sRows.push(row([r.slug, md.state_code, md.jurisdiction_level, r.coverage_basis, st.years, st.purposes?.[0], st.purposes, st.quote, st.page, `https://www.stormwateratlas.com/${r.slug}/`]));
     mRows.push(
       row([r.slug, md.jurisdiction_name, md.jurisdiction_level, md.state_code, md.document_title, md.issuing_agency_category, md.version_or_edition, md.adoption_or_effective_date, md.last_revised_date, r.coverage_basis, r.design_from, filled, counts.exact, counts.fuzzy, counts.unverifiable, counts.fail, r.extraction_quality?.needs_human_review, r.source?.document_url, r.source?.landing_page_url, `https://www.stormwateratlas.com/${r.slug}/`])
     );
   }
   writeFileSync(path.join(PUB, "manuals.csv"), mRows.join("\n") + "\n");
   writeFileSync(path.join(PUB, "values.csv"), vRows.join("\n") + "\n");
+  writeFileSync(path.join(PUB, "design-storms.csv"), sRows.join("\n") + "\n");
 
   const hcSrc = path.join(ROOT, "data/national/hand-checks.json");
   let hcN = 0;
@@ -95,10 +106,11 @@ function main() {
     records_with_own_rules: own,
     values: vRows.length - 1,
     hand_checked_values: hcN,
-    license: "Not yet chosen for the data; code is MIT. Source manuals remain the property of their issuing agencies.",
+    license: "CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/) for the original structured data and the draft model manual; code is MIT. Quoted excerpts and the source manuals remain the copyright of their issuing agencies (see NOTICE).",
+    license_spdx: "CC-BY-4.0",
     citation: `Stormwater Atlas (${DATASET_VERSION}). U.S. stormwater design manual database. https://www.stormwateratlas.com/data/`,
     changelog: "https://github.com/scott-jeffers/usa-stormwater/blob/main/CHANGELOG.md",
-    files: ["/data/manuals.csv", "/data/values.csv", "/data/hand-checks.csv", "/data/dictionary.json", "/data/manuals.json", "/data/schema.json"],
+    files: ["/data/manuals.csv", "/data/values.csv", "/data/design-storms.csv", "/data/hand-checks.csv", "/data/dictionary.json", "/data/manuals.json", "/data/schema.json"],
   };
   writeFileSync(path.join(PUB, "dataset.json"), JSON.stringify(dataset, null, 2) + "\n");
 

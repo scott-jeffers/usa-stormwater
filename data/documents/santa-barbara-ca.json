@@ -128,7 +128,7 @@
     "max_drawdown_hours": 72,
     "shwt_separation_inches": null,
     "bioretention_media_depth_min_inches": 24,
-    "bioretention_ponding_depth_inches": 3,
+    "bioretention_ponding_depth_inches": 12,
     "permeable_pavement_storage_depth_inches": null,
     "design_infiltration_rate_in_per_hr": null,
     "permanent_pool_depth_inches": 48,
@@ -167,6 +167,14 @@
       "green_roof_media_depth_inches",
       "green_roof_slope_percent",
       "mtd_verification_program"
-    ]
+    ],
+    "value_qualifiers": {
+      "bioretention_media_depth_min_inches": "min",
+      "bioretention_ponding_depth_inches": "max",
+      "ed_drain_time_hours": "range",
+      "length_to_width_ratio": "min",
+      "max_drawdown_hours": "max",
+      "permanent_pool_depth_inches": "min"
+    }
   }
 }

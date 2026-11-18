@@ -159,6 +159,28 @@
       "green_roof_media_depth_inches",
       "green_roof_slope_percent",
       "mtd_verification_program"
+    ],
+    "wqv_basis": "runoff",
+    "value_qualifiers": {
+      "wqv_depth_inches": "design"
+    },
+    "design_storms": [
+      {
+        "years": 2,
+        "purposes": [
+          "peak_control"
+        ],
+        "quote": "13.302 Runoff Management Requirements (1) Definitions applicable to this section (a) “Allowable runoff release rate” means a post-development peak outflow during the 1% probability (100-year) storm that is no more than 0.5 cubic feet per second multiplied by the area of the site in acres and a post-",
+        "page": 11
+      },
+      {
+        "years": 100,
+        "purposes": [
+          "peak_control"
+        ],
+        "quote": "(10) Changes to plans If a change in a site development stormwater runoff management plan approved by the District would increase runoff release rates for the 1%/100 year or 50%/2-year storms, then governmental units shall re-submit the materials required by sub.",
+        "page": 17
+      }
     ]
   }
 }

@@ -159,7 +159,7 @@
     "design_infiltration_rate_in_per_hr": 0.5,
     "permanent_pool_depth_inches": null,
     "ed_drain_time_hours": 24,
-    "length_to_width_ratio": 3,
+    "length_to_width_ratio": 2,
     "wetland_detention_hours": 24,
     "swale_bottom_width_inches": null,
     "swale_longitudinal_slope_percent": null,
@@ -190,6 +190,37 @@
       "swale_longitudinal_slope_percent",
       "green_roof_slope_percent",
       "mtd_verification_program"
+    ],
+    "wqv_basis": "rainfall",
+    "value_qualifiers": {
+      "bioretention_media_depth_min_inches": "min",
+      "bioretention_ponding_depth_inches": "max",
+      "design_infiltration_rate_in_per_hr": "min",
+      "ed_drain_time_hours": "max",
+      "green_roof_media_depth_inches": "max",
+      "length_to_width_ratio": "min",
+      "max_drawdown_hours": "max",
+      "wetland_detention_hours": "max",
+      "wqv_depth_inches": "design"
+    },
+    "design_storms": [
+      {
+        "years": 10,
+        "purposes": [
+          "peak_control",
+          "channel_protection"
+        ],
+        "quote": "The pipe slope drain shall be designed to handle the peak runoff for the 10-year, 24-hour storm.",
+        "page": 218
+      },
+      {
+        "years": 100,
+        "purposes": [
+          "flood"
+        ],
+        "quote": "The emergency spillway shall be designed to pass the 100-year 24-hour storm.",
+        "page": 65
+      }
     ]
   }
 }

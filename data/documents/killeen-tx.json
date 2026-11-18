@@ -125,6 +125,27 @@
       "green_roof_media_depth_inches",
       "green_roof_slope_percent",
       "mtd_verification_program"
+    ],
+    "design_storms": [
+      {
+        "years": 25,
+        "purposes": [
+          "conveyance",
+          "peak_control"
+        ],
+        "quote": "The 25-year hydraulic grade line shall remain at or below the allowable water surface elevation at the inlet throat.",
+        "page": 66
+      },
+      {
+        "years": 100,
+        "purposes": [
+          "flood",
+          "conveyance",
+          "peak_control"
+        ],
+        "quote": "The freeboard for the channel shall be the velocity head for the 100-year storm.",
+        "page": 89
+      }
     ]
   }
 }

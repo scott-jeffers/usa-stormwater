@@ -13,9 +13,10 @@ This repository contains multiple kinds of material, licensed as follows.
 2. Original dataset
 
    Original structured data created for this project — including the
-   compilation in data/documents/, national outline and drafts, schemas,
-   summaries, and other original annotations — is licensed under Creative
-   Commons Attribution 4.0 International (CC BY 4.0):
+   compilation in data/documents/, national outline and drafts, the draft
+   model manual (content/manual/), hand checks, schemas, summaries, and
+   other original annotations — is licensed under Creative Commons
+   Attribution 4.0 International (CC BY 4.0):
 
    https://creativecommons.org/licenses/by/4.0/
 

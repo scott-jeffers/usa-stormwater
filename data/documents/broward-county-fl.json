@@ -164,6 +164,27 @@
       "green_roof_media_depth_inches",
       "green_roof_slope_percent",
       "mtd_verification_program"
+    ],
+    "value_qualifiers": {
+      "swale_longitudinal_slope_percent": "min"
+    },
+    "design_storms": [
+      {
+        "years": 3,
+        "purposes": [
+          "other"
+        ],
+        "quote": null,
+        "page": null
+      },
+      {
+        "years": 100,
+        "purposes": [
+          "flood"
+        ],
+        "quote": "Chapter 3 DESIGNCRITERIAFORDEVELOPMENT PROJECTSAND REDEVELOPMENT 3.1 FLOOD CRITERIA 3.1.1 FLOOD CRITERIA - BUILDINGS The first floor elevations of all structures within the District shall be set such that the structure is protected from a 100-year, 3-day storm event, as indicated in the District's F",
+        "page": 23
+      }
     ]
   }
 }

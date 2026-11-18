@@ -137,6 +137,28 @@
       "green_roof_media_depth_inches",
       "green_roof_slope_percent",
       "mtd_verification_program"
+    ],
+    "wqv_basis": "runoff",
+    "value_qualifiers": {
+      "wqv_depth_inches": "design"
+    },
+    "design_storms": [
+      {
+        "years": 25,
+        "purposes": [
+          "peak_control"
+        ],
+        "quote": "3.3 Design Storm Unless otherwise specified by previous Agency permits or criteria, a storm event of 3 day duration and 25 year return frequency shall be used in computing off-site discharge rates.",
+        "page": 11
+      },
+      {
+        "years": 100,
+        "purposes": [
+          "flood"
+        ],
+        "quote": "Both tidal flooding and the 100 year, 3 day storm event shall be considered in determining elevations.",
+        "page": 13
+      }
     ]
   }
 }

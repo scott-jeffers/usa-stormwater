@@ -142,6 +142,43 @@
       "green_roof_media_depth_inches",
       "green_roof_slope_percent",
       "mtd_verification_program"
+    ],
+    "value_qualifiers": {
+      "permanent_pool_depth_inches": "average"
+    },
+    "design_storms": [
+      {
+        "years": 1,
+        "purposes": [
+          "other"
+        ],
+        "quote": null,
+        "page": null
+      },
+      {
+        "years": 25,
+        "purposes": [
+          "conveyance"
+        ],
+        "quote": "The hydraulic grade line for culverts shall be 12” below pavement elevation for a 25-year storm and shall not exceed the pavement elevation for a 100-year storm.",
+        "page": 2
+      },
+      {
+        "years": 50,
+        "purposes": [
+          "other"
+        ],
+        "quote": null,
+        "page": null
+      },
+      {
+        "years": 100,
+        "purposes": [
+          "other"
+        ],
+        "quote": null,
+        "page": null
+      }
     ]
   }
 }

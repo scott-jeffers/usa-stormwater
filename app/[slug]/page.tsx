@@ -16,6 +16,16 @@ import { FieldWithEvidence } from "@/components/FieldWithEvidence";
 import { getEvidenceQa } from "@/lib/qa/load";
 import { getSharedInfo, BASIS_LABELS } from "@/lib/sharedManuals";
 import { NUMERIC_PARAM_FIELDS } from "@/lib/practices/fields";
+
+const QUALIFIER_WORD: Record<string, string> = { min: "at least ", max: "at most ", typical: "typically ", average: "average ", range: "", design: "" };
+const PURPOSE_WORD: Record<string, string> = {
+  water_quality: "water quality",
+  channel_protection: "channel protection",
+  peak_control: "peak control",
+  conveyance: "conveyance",
+  flood: "flood safety",
+  other: "purpose not stated",
+};
 import { inferAgencyCategory, normalizeAgencyCategory } from "@/lib/agencyTypes";
 
 const PLACEHOLDER_SLUG = "_placeholder";
@@ -176,6 +186,8 @@ export default async function ManualDetailPage({
         ? "warnings"
         : (designQa ?? qa)?.status ?? "unknown";
   const dp = designData.design_parameters as Record<string, unknown> | undefined;
+  const quals = (dp?.value_qualifiers ?? {}) as Record<string, string>;
+  const storms = (dp?.design_storms ?? []) as Array<{ years: number; purposes: string[]; quote?: string | null; page?: number | null }>;
   const paramRows = NUMERIC_PARAM_FIELDS.filter(
     (f) => typeof dp?.[f.field] === "number"
   );
@@ -528,11 +540,42 @@ export default async function ManualDetailPage({
                 key={f.field}
                 label={f.label}
                 fieldPath={`design_parameters.${f.field}`}
-                value={`${dp![f.field] as number} ${f.unit}`}
+                value={`${QUALIFIER_WORD[quals[f.field] ?? ""] ?? ""}${dp![f.field] as number} ${f.unit}${f.field === "wqv_depth_inches" && dp?.wqv_basis === "runoff" ? " of runoff" : ""}`}
                 {...designEv}
                 fieldsNotFound={[]}
               />
             ))}
+          </div>
+        </section>
+      )}
+
+      {storms.length > 0 && (
+        <section className="rounded-xl border border-edge/80 bg-surface p-6 shadow-sm">
+          <h2 className="font-display text-lg font-semibold text-ink">Design storms by purpose</h2>
+          <p className="mt-1 text-xs text-fg-muted">
+            What each named storm is used for, from the manual&rsquo;s own requirement sentences. Assigned automatically; check the quote.
+          </p>
+          <div className="mt-3 overflow-x-auto">
+            <table className="data-table">
+              <thead>
+                <tr>
+                  <th>Storm</th>
+                  <th>Used for</th>
+                  <th>Source sentence</th>
+                </tr>
+              </thead>
+              <tbody>
+                {storms.map((s) => (
+                  <tr key={s.years}>
+                    <td className="whitespace-nowrap tabular-nums">{s.years}-year</td>
+                    <td className="whitespace-nowrap">{s.purposes.map((p) => PURPOSE_WORD[p] ?? p).join(", ")}</td>
+                    <td className="text-xs text-fg-muted [overflow-wrap:anywhere]">
+                      {s.quote ? `“${s.quote}”${s.page ? ` (p. ${s.page})` : ""}` : "—"}
+                    </td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
           </div>
         </section>
       )}

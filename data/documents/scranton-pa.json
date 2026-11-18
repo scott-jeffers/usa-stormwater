@@ -55,11 +55,6 @@
       "page_or_section": "Table 3-90 (3.6.1 Bioretention) / page 388"
     },
     {
-      "field": "design_parameters.permeable_pavement_storage_depth_inches",
-      "excerpt": "Permeable pavement materials with greater than or equal to one foot of storage underneath are considered permeable pavement systems with underground storage",
-      "page_or_section": "Section 3.5.3 / page 204"
-    },
-    {
       "field": "design_parameters.permanent_pool_depth_inches",
       "excerpt": "Permanent pool should be a minimum of five feet deep.",
       "page_or_section": "Section 3.8.1 Wet Basin / page 364"
@@ -111,7 +106,7 @@
     "shwt_separation_inches": 24,
     "bioretention_media_depth_min_inches": 18,
     "bioretention_ponding_depth_inches": 24,
-    "permeable_pavement_storage_depth_inches": 12,
+    "permeable_pavement_storage_depth_inches": null,
     "design_infiltration_rate_in_per_hr": null,
     "permanent_pool_depth_inches": 60,
     "ed_drain_time_hours": 72,
@@ -147,6 +142,15 @@
       "swale_longitudinal_slope_percent",
       "green_roof_slope_percent",
       "mtd_verification_program"
-    ]
+    ],
+    "value_qualifiers": {
+      "bioretention_media_depth_min_inches": "min",
+      "bioretention_ponding_depth_inches": "max",
+      "ed_drain_time_hours": "max",
+      "green_roof_media_depth_inches": "min",
+      "length_to_width_ratio": "min",
+      "permanent_pool_depth_inches": "min",
+      "shwt_separation_inches": "min"
+    }
   }
 }

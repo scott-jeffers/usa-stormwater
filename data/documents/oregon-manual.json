@@ -79,11 +79,6 @@
       "page_or_section": "Table of Contents / Table 2: LIDA Fact Sheet Table, Pages 3 & 20–21; Chapter 3 §3.2, Page 19"
     },
     {
-      "field": "design_parameters.max_drawdown_hours",
-      "excerpt": "At a minimum, the detention basin must accommodate the water quality design storm and be sized for a 48 hour drawdown time.",
-      "page_or_section": "Extended Dry Basin Design Factors, page 51"
-    },
-    {
       "field": "design_parameters.ed_drain_time_hours",
       "excerpt": "Extended Dry Basin ... 2-cell design, 48-hour draw-down",
       "page_or_section": "Table 2, page 20"
@@ -137,7 +132,7 @@
   },
   "design_parameters": {
     "wqv_depth_inches": null,
-    "max_drawdown_hours": 48,
+    "max_drawdown_hours": null,
     "shwt_separation_inches": 120,
     "bioretention_media_depth_min_inches": 9,
     "bioretention_ponding_depth_inches": 3,
@@ -174,6 +169,15 @@
       "swale_bottom_width_inches",
       "swale_longitudinal_slope_percent",
       "mtd_verification_program"
-    ]
+    ],
+    "value_qualifiers": {
+      "bioretention_media_depth_min_inches": "min",
+      "bioretention_ponding_depth_inches": "max",
+      "ed_drain_time_hours": "design",
+      "green_roof_media_depth_inches": "max",
+      "green_roof_slope_percent": "max",
+      "permanent_pool_depth_inches": "design",
+      "shwt_separation_inches": "min"
+    }
   }
 }

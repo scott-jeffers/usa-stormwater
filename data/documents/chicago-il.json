@@ -199,6 +199,60 @@
       "green_roof_media_depth_inches",
       "green_roof_slope_percent",
       "mtd_verification_program"
+    ],
+    "value_qualifiers": {
+      "bioretention_media_depth_min_inches": "min",
+      "bioretention_ponding_depth_inches": "max",
+      "design_infiltration_rate_in_per_hr": "min",
+      "ed_drain_time_hours": "max",
+      "max_drawdown_hours": "max",
+      "permanent_pool_depth_inches": "min",
+      "shwt_separation_inches": "min"
+    },
+    "design_storms": [
+      {
+        "years": 2,
+        "purposes": [
+          "other"
+        ],
+        "quote": null,
+        "page": null
+      },
+      {
+        "years": 5,
+        "purposes": [
+          "peak_control"
+        ],
+        "quote": "Proposed 5-year Discharge = 1.6 cfs + 0.15 cfs = 1.75 cfs >> 0 cfs Must consider 25 gpm (0.055 cfs) release rate for site.",
+        "page": 132
+      },
+      {
+        "years": 10,
+        "purposes": [
+          "flood",
+          "peak_control"
+        ],
+        "quote": "In these cases, storage for a minimum 10-year event must be provided for the building area.",
+        "page": 20
+      },
+      {
+        "years": 25,
+        "purposes": [
+          "flood"
+        ],
+        "quote": "If any offsite flows are routed through the detention system, it must not overflow to the public right-of-way for storms up to and including the 25-year event.",
+        "page": 22
+      },
+      {
+        "years": 100,
+        "purposes": [
+          "flood",
+          "conveyance",
+          "peak_control"
+        ],
+        "quote": "The 100-year high water level must still meet the 0.1 foot freeboard requirement for adjacent properties (Chapter III, Part 3.1 of the Regulations).",
+        "page": 29
+      }
     ]
   }
 }

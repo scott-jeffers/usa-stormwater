@@ -155,6 +155,43 @@
       "green_roof_media_depth_inches",
       "green_roof_slope_percent",
       "mtd_verification_program"
+    ],
+    "wqv_basis": "rainfall",
+    "value_qualifiers": {
+      "design_infiltration_rate_in_per_hr": "min",
+      "ed_drain_time_hours": "design",
+      "length_to_width_ratio": "min",
+      "max_drawdown_hours": "max",
+      "permanent_pool_depth_inches": "min",
+      "shwt_separation_inches": "min",
+      "wqv_depth_inches": "design"
+    },
+    "design_storms": [
+      {
+        "years": 25,
+        "purposes": [
+          "peak_control",
+          "flood"
+        ],
+        "quote": "The basin should be designed to reduce the peak flow from a 2, 10, and a 25-year storm, considered individually and be able to pass a 100-year storm safely.",
+        "page": 567
+      },
+      {
+        "years": 50,
+        "purposes": [
+          "flood"
+        ],
+        "quote": "12.3.2 Hydrology Because of traffic safety and flood hazards, pump stations serving major expressways and arterials are usually designed to accommodate a 50-year storm.",
+        "page": 682
+      },
+      {
+        "years": 100,
+        "purposes": [
+          "flood"
+        ],
+        "quote": "The performance curve should include the 100-year flood.",
+        "page": 21
+      }
     ]
   }
 }

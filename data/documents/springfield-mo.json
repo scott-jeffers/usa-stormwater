@@ -114,11 +114,6 @@
       "page_or_section": "Chapter 10, Section 15.3, page 350"
     },
     {
-      "field": "design_parameters.ed_drain_time_hours",
-      "excerpt": "designing a functional outlet to release the WQV over a 24-hour drain time is practically impossible",
-      "page_or_section": "Chapter 10, Section 5.1.4, page 296"
-    },
-    {
       "field": "design_parameters.length_to_width_ratio",
       "excerpt": "The basin length to width ratio should be between 2:1 and 4:1. The minimum allowable ratio is 1:1.",
       "page_or_section": "Chapter 10, Section 16.4, page 356"
@@ -171,8 +166,8 @@
     "permeable_pavement_storage_depth_inches": 6,
     "design_infiltration_rate_in_per_hr": 0.5,
     "permanent_pool_depth_inches": 72,
-    "ed_drain_time_hours": 24,
-    "length_to_width_ratio": 2,
+    "ed_drain_time_hours": null,
+    "length_to_width_ratio": 1,
     "wetland_detention_hours": 22,
     "swale_bottom_width_inches": null,
     "swale_longitudinal_slope_percent": null,
@@ -198,6 +193,64 @@
       "swale_longitudinal_slope_percent",
       "green_roof_media_depth_inches",
       "green_roof_slope_percent"
+    ],
+    "wqv_basis": "rainfall",
+    "value_qualifiers": {
+      "bioretention_media_depth_min_inches": "min",
+      "bioretention_ponding_depth_inches": "max",
+      "design_infiltration_rate_in_per_hr": "min",
+      "length_to_width_ratio": "min",
+      "max_drawdown_hours": "max",
+      "permanent_pool_depth_inches": "min",
+      "permeable_pavement_storage_depth_inches": "min",
+      "shwt_separation_inches": "min",
+      "wetland_detention_hours": "range",
+      "wqv_depth_inches": "design"
+    },
+    "design_storms": [
+      {
+        "years": 1,
+        "purposes": [
+          "peak_control"
+        ],
+        "quote": "Detention basin designs must include a low-flow orifice designed to discharge at the 1-year peak flow rate and be a minimum of 6 inches in diameter.",
+        "page": 48
+      },
+      {
+        "years": 2,
+        "purposes": [
+          "conveyance",
+          "flood"
+        ],
+        "quote": "City of Springfield Inundation Criteria Street Classification Minor Storm (2-year) Major Storm (100-year) Local",
+        "page": 86
+      },
+      {
+        "years": 10,
+        "purposes": [
+          "peak_control"
+        ],
+        "quote": "The designer must show that the volume design and outlet design are compatible with the calculated volume for each design event to ensure peak discharges do not exceed pre-development rates for each design event (e.g., for the water surface elevation corresponding to the volume calculated for the 10",
+        "page": 263
+      },
+      {
+        "years": 25,
+        "purposes": [
+          "conveyance"
+        ],
+        "quote": "Pipes and boxes must be designed to convey the 25-year design flow.",
+        "page": 30
+      },
+      {
+        "years": 100,
+        "purposes": [
+          "flood",
+          "peak_control",
+          "conveyance"
+        ],
+        "quote": "Provide emergency overflow spillway calculations for the 24-hour, 100-year SCS Type II storm.",
+        "page": 48
+      }
     ]
   }
 }

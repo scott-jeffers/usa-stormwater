@@ -126,6 +126,48 @@
       "green_roof_media_depth_inches",
       "green_roof_slope_percent",
       "mtd_verification_program"
+    ],
+    "design_storms": [
+      {
+        "years": 2,
+        "purposes": [
+          "conveyance"
+        ],
+        "quote": "8.3.4.1 Bridge Scour Design Flood and Check Flood Criteria For riverine bridges, the scour analysis is to be completed using all standard storm frequencies between 2-year storm and 100-year storm (scour design flood), and including design storm (according to section 8.2), or the overtopping flood if",
+        "page": 138
+      },
+      {
+        "years": 10,
+        "purposes": [
+          "conveyance"
+        ],
+        "quote": "Bridge Hydraulics 4/3/25 Page 8-10 8.3.5 Detour Structures The detour structure is sized to convey the 10-year storm and is recommended to be placed downstream of the proposed bridge site.",
+        "page": 140
+      },
+      {
+        "years": 25,
+        "purposes": [
+          "conveyance"
+        ],
+        "quote": "event, if less than the 25-year tide event. ** For tidal bridge replacement, minimum of 2 ft of freeboard above the roadway overtopping flood is required for overtopping event less than or equal to the 10-year tide event.",
+        "page": 136
+      },
+      {
+        "years": 100,
+        "purposes": [
+          "flood"
+        ],
+        "quote": "The 100-year flood should be used for this design.",
+        "page": 138
+      },
+      {
+        "years": 500,
+        "purposes": [
+          "flood"
+        ],
+        "quote": "The study should include a theoretical scour analysis for the 100-year and 500-year flood frequency.",
+        "page": 140
+      }
     ]
   }
 }

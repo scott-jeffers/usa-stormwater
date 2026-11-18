@@ -18,7 +18,8 @@ function readJson<T>(rel: string): T | null {
 }
 
 const FILES = [
-  { href: "/data/values.csv", name: "values.csv", what: "One row per extracted value: manual, state, field, value, unit, source quote, page and citation-check result. The main research table." },
+  { href: "/data/values.csv", name: "values.csv", what: "One row per extracted value: manual, state, field, value, unit, whether it is a minimum, maximum or design value, the hand-review verdict, source quote, page and citation-check result. The main research table." },
+  { href: "/data/design-storms.csv", name: "design-storms.csv", what: "One row per design storm per manual, with what it is used for (water quality, channel protection, peak control, conveyance, flood) and the source sentence." },
   { href: "/data/manuals.csv", name: "manuals.csv", what: "One row per manual record: jurisdiction, level, edition, whose rules apply (coverage basis), quote-check counts and source links." },
   { href: "/data/hand-checks.csv", name: "hand-checks.csv", what: "Values read by hand for the model manual, with verdict, page and quote." },
   { href: "/data/dictionary.json", name: "dictionary.json", what: "Every field, its meaning, unit and fill rate." },
@@ -29,7 +30,7 @@ const FILES = [
 
 export default function DataPage() {
   const dict = readJson<{ records_with_own_rules: number; fields: Array<{ field: string; filled: number; fill_rate: number }> }>("dictionary.json");
-  const ds = readJson<{ records: number; values: number; hand_checked_values: number; citation: string; license: string }>("dataset.json");
+  const ds = readJson<{ records: number; values: number; hand_checked_values: number; citation: string }>("dataset.json");
   const fill = new Map((dict?.fields ?? []).map((f) => [f.field, f]));
   return (
     <main className="space-y-10">
@@ -42,7 +43,7 @@ export default function DataPage() {
         </p>
         <p className="draft-note">
           Values are machine-extracted and checked against their quotes; a quote that matches does not prove the value
-          is the right requirement. In a random audit 59% of values were fully correct. Check the source before design use, and see the{" "}
+          is the right requirement. Every numeric value was then read by hand against its quote and given a qualifier (minimum, maximum, design value); 48 were corrected and 52 removed. Prose and list fields are weaker (see the audit). Check the source before design use, and see the{" "}
           <Link href="/about/" className="text-water-link hover:underline">method</Link>.
         </p>
       </header>
@@ -65,7 +66,10 @@ export default function DataPage() {
         <h2 className="font-display text-xl font-semibold text-ink">Cite and reuse</h2>
         <p className="rounded-md bg-surface-muted px-4 py-3 font-mono text-sm text-foreground">{ds?.citation}</p>
         <p className="text-sm text-fg-secondary">
-          {ds?.license} Changes between versions are listed in the{" "}
+          The data and the draft manual are licensed{" "}
+          <a href="https://creativecommons.org/licenses/by/4.0/" className="text-water-link hover:underline">CC BY 4.0</a>: reuse them freely,
+          crediting Stormwater Atlas. Quoted excerpts and the source manuals stay the copyright of their issuing agencies (see{" "}
+          <a href="https://github.com/scott-jeffers/usa-stormwater/blob/main/NOTICE" className="text-water-link hover:underline">NOTICE</a>). Code is MIT. Changes between versions are listed in the{" "}
           <a href="https://github.com/scott-jeffers/usa-stormwater/blob/main/CHANGELOG.md" className="text-water-link hover:underline">changelog</a>; a{" "}
           <a href="https://github.com/scott-jeffers/usa-stormwater/blob/main/CITATION.cff" className="text-water-link hover:underline">CITATION.cff</a> file is in the repository.
         </p>
@@ -75,7 +79,7 @@ export default function DataPage() {
         <h2 className="font-display text-xl font-semibold text-ink">Data dictionary</h2>
         <p className="max-w-3xl text-sm text-fg-secondary">
           Fill rate is the share of the {dict?.records_with_own_rules ?? "—"} records with their own rules (stand-ins excluded) that state the field.
-          Several numeric fields do not yet record whether a value is a minimum, maximum or design value.
+          Each numeric value carries a qualifier (min, max, design, typical, range or average) in values.csv and in the API (design_parameters.value_qualifiers).
         </p>
         <div className="overflow-x-auto">
           <table className="data-table">

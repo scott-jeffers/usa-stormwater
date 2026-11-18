@@ -151,6 +151,36 @@
       "green_roof_media_depth_inches",
       "green_roof_slope_percent",
       "mtd_verification_program"
+    ],
+    "wqv_basis": "runoff",
+    "value_qualifiers": {
+      "wqv_depth_inches": "design"
+    },
+    "design_storms": [
+      {
+        "years": 2,
+        "purposes": [
+          "other"
+        ],
+        "quote": null,
+        "page": null
+      },
+      {
+        "years": 10,
+        "purposes": [
+          "conveyance"
+        ],
+        "quote": "When ditches serve as a primary water surface collector in the upper part of a drainage basin, they shall be designed per NDCC 89-14-01 except that as a minimum, shall convey the 10-year storm event without ponding in the roadway or adjacent private property.",
+        "page": 12
+      },
+      {
+        "years": 100,
+        "purposes": [
+          "peak_control"
+        ],
+        "quote": "The report shall be conceptual in nature and include (1) a narrative describing the existing site conditions, proposed site conditions, types and locations of storm water BMPs proposed to be used, as well as (2) the model calculations for the post-development 2, 10, and 100-year storm events as iden",
+        "page": 4
+      }
     ]
   }
 }

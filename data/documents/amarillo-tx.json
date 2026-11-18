@@ -160,6 +160,58 @@
       "green_roof_media_depth_inches",
       "green_roof_slope_percent",
       "mtd_verification_program"
+    ],
+    "value_qualifiers": {
+      "design_infiltration_rate_in_per_hr": "min",
+      "max_drawdown_hours": "max",
+      "shwt_separation_inches": "min",
+      "swale_longitudinal_slope_percent": "max"
+    },
+    "design_storms": [
+      {
+        "years": 2,
+        "purposes": [
+          "conveyance"
+        ],
+        "quote": "The minor storm drainage system shall be designed to convey the runoff from a 2-year return period storm.",
+        "page": 23
+      },
+      {
+        "years": 5,
+        "purposes": [
+          "peak_control"
+        ],
+        "quote": "10,000 DRAINAGE AREA (ACRES) Source: HDR Engineering, Inc., Bmprillo Storm Water Ma- Plpg. - 5-Year Peak Flow Curves (Average Basin Slope = 2% - 3%) - L 2 T- CITY OF AMARILLO Amarillo, Texas Figure Storm Water Management Criteria Manual",
+        "page": 64
+      },
+      {
+        "years": 10,
+        "purposes": [
+          "peak_control",
+          "conveyance"
+        ],
+        "quote": "Capacity The minimum capacity is to be that required to convey the peak runoff expected from a 24-hour, 10-year frequency storm.",
+        "page": 376
+      },
+      {
+        "years": 25,
+        "purposes": [
+          "peak_control",
+          "conveyance"
+        ],
+        "quote": "25-Year Peak Flow Curves Amarillo, Texas Figure 7-17 CITY OF AMARILLO 1 Storm Water Management Criteria Manual I ' *",
+        "page": 70
+      },
+      {
+        "years": 100,
+        "purposes": [
+          "flood",
+          "conveyance",
+          "peak_control"
+        ],
+        "quote": "The major storm drainage system shall be designed to accommodate a 100-year return period storm.",
+        "page": 23
+      }
     ]
   }
 }

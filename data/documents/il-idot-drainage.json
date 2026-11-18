@@ -165,6 +165,41 @@
       "green_roof_media_depth_inches",
       "green_roof_slope_percent",
       "mtd_verification_program"
+    ],
+    "design_storms": [
+      {
+        "years": 5,
+        "purposes": [
+          "flood"
+        ],
+        "quote": "In general, temporary structures which will be in service from one to three months can be designed for a minimum 1-year frequency flood event and structures to be in service longer than three months to one construction season can be designed for a minimum 5-year frequency flood event.",
+        "page": 61
+      },
+      {
+        "years": 50,
+        "purposes": [
+          "conveyance",
+          "flood"
+        ],
+        "quote": "The roof drainage and conveyance system must be a 50-year design compatible with the subway design.",
+        "page": 106
+      },
+      {
+        "years": 100,
+        "purposes": [
+          "flood"
+        ],
+        "quote": "Most NFIP communities have established a permit requirement for all development within the base (100 year) floodplain.",
+        "page": 170
+      },
+      {
+        "years": 500,
+        "purposes": [
+          "flood"
+        ],
+        "quote": "These plots should show the 10, 50, 100 and 500 year flood profiles.",
+        "page": 134
+      }
     ]
   }
 }

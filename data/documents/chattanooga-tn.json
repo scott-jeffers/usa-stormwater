@@ -98,11 +98,6 @@
       "page_or_section": "RMG Page 5.3.8-4"
     },
     {
-      "field": "design_parameters.green_roof_slope_percent",
-      "excerpt": "For green roofs situated atop roofs with slopes greater than 1.5 percent, battens should be incorporated",
-      "page_or_section": "RMG Page 5.3.8-8"
-    },
-    {
       "field": "design_parameters.mtd_verification_program",
       "excerpt": "proprietary, man-made devices meeting NJCAT verification (www.njcat.org) and using 3.1\" storm.",
       "page_or_section": "Chapter 8, page 5"
@@ -143,8 +138,8 @@
     "wetland_detention_hours": null,
     "swale_bottom_width_inches": null,
     "swale_longitudinal_slope_percent": null,
-    "green_roof_media_depth_inches": 2.5,
-    "green_roof_slope_percent": 1.5,
+    "green_roof_media_depth_inches": 2,
+    "green_roof_slope_percent": null,
     "mtd_verification_program": "NJCAT",
     "practice_mentions": [
       "bioretention",
@@ -173,6 +168,11 @@
       "wetland_detention_hours",
       "swale_bottom_width_inches",
       "swale_longitudinal_slope_percent"
-    ]
+    ],
+    "value_qualifiers": {
+      "green_roof_media_depth_inches": "min",
+      "max_drawdown_hours": "max",
+      "shwt_separation_inches": "min"
+    }
   }
 }

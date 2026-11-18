@@ -223,6 +223,44 @@
       "swale_longitudinal_slope_percent",
       "green_roof_media_depth_inches",
       "mtd_verification_program"
+    ],
+    "value_qualifiers": {
+      "ed_drain_time_hours": "design",
+      "green_roof_slope_percent": "max"
+    },
+    "design_storms": [
+      {
+        "years": 1,
+        "purposes": [
+          "channel_protection"
+        ],
+        "quote": "Rev = [(S)(Rv)(A)] / 12 where S = soil specific recharge factor in inches Channel Protection Storage Volume Cpv Provide 24 hours of extended detention of the runoff from the 1-year, 24-hour duration storm event to reduce bank-full flows and protect downstream channels from erosive velocities and uns",
+        "page": 78
+      },
+      {
+        "years": 2,
+        "purposes": [
+          "peak_control"
+        ],
+        "quote": "Some jurisdictions may require peak discharge control for the 2-year storm event.",
+        "page": 78
+      },
+      {
+        "years": 5,
+        "purposes": [
+          "peak_control"
+        ],
+        "quote": "Overbank Flood Protection Qp Provide peak discharge control of the 5-year storm event such that the postdevelopment peak rate does not exceed the downstream conveyance capacity or cause overbank flooding in local urban watersheds.",
+        "page": 78
+      },
+      {
+        "years": 100,
+        "purposes": [
+          "peak_control"
+        ],
+        "quote": "Extreme Flood Control The postdevelopment peak rate of discharge for the 100-year, 24-hour storm should be reduced to the predevelopment peak rate.",
+        "page": 87
+      }
     ]
   }
 }

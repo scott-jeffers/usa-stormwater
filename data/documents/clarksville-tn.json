@@ -191,6 +191,57 @@
       "green_roof_media_depth_inches",
       "green_roof_slope_percent",
       "mtd_verification_program"
+    ],
+    "wqv_basis": "rainfall",
+    "value_qualifiers": {
+      "bioretention_media_depth_min_inches": "min",
+      "bioretention_ponding_depth_inches": "max",
+      "design_infiltration_rate_in_per_hr": "min",
+      "ed_drain_time_hours": "range",
+      "wqv_depth_inches": "design"
+    },
+    "design_storms": [
+      {
+        "years": 1,
+        "purposes": [
+          "other"
+        ],
+        "quote": null,
+        "page": null
+      },
+      {
+        "years": 2,
+        "purposes": [
+          "peak_control",
+          "channel_protection"
+        ],
+        "quote": "7.6.3 Release Rate The release rate from any detention facility should approximate that of the site prior to the proposed development for the 2-year through 100-year storms.",
+        "page": 246
+      },
+      {
+        "years": 10,
+        "purposes": [
+          "conveyance"
+        ],
+        "quote": "7.3.4 Inlets Inlets shall be designed to convey the 10-year frequency, time of concentration storm event.",
+        "page": 243
+      },
+      {
+        "years": 25,
+        "purposes": [
+          "conveyance"
+        ],
+        "quote": "The parking area, curb and gutter is sized to convey the 25-year event to the facility.",
+        "page": 135
+      },
+      {
+        "years": 100,
+        "purposes": [
+          "flood"
+        ],
+        "quote": "Calculations that document a lowering of the 100-year flood elevation shall be based on the 100-year, 24-hour storm.",
+        "page": 202
+      }
     ]
   }
 }

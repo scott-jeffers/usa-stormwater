@@ -147,6 +147,49 @@
       "green_roof_media_depth_inches",
       "green_roof_slope_percent",
       "mtd_verification_program"
+    ],
+    "design_storms": [
+      {
+        "years": 2,
+        "purposes": [
+          "other"
+        ],
+        "quote": null,
+        "page": null
+      },
+      {
+        "years": 25,
+        "purposes": [
+          "other"
+        ],
+        "quote": null,
+        "page": null
+      },
+      {
+        "years": 50,
+        "purposes": [
+          "flood"
+        ],
+        "quote": "As per 23CFR650A, and Table 1-1 of HDS 2, a 50-year frequency shall be used for stormwater design at the following locations where no overflow relief is available: a. sag vertical curves connecting negative and positive grades. b. other locations such as underpasses, depressed roadways, etc.",
+        "page": 24
+      },
+      {
+        "years": 100,
+        "purposes": [
+          "flood",
+          "peak_control"
+        ],
+        "quote": "Note: 100-year requirements must be checked if the proposed highway is in an established regulatory floodway or floodplain.",
+        "page": 24
+      },
+      {
+        "years": 500,
+        "purposes": [
+          "other"
+        ],
+        "quote": null,
+        "page": null
+      }
     ]
   }
 }

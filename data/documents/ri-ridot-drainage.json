@@ -159,7 +159,7 @@
     "bioretention_media_depth_min_inches": 24,
     "bioretention_ponding_depth_inches": 12,
     "permeable_pavement_storage_depth_inches": 4,
-    "design_infiltration_rate_in_per_hr": 0.52,
+    "design_infiltration_rate_in_per_hr": 0.5,
     "permanent_pool_depth_inches": null,
     "ed_drain_time_hours": null,
     "length_to_width_ratio": null,
@@ -193,6 +193,35 @@
       "green_roof_media_depth_inches",
       "green_roof_slope_percent",
       "mtd_verification_program"
+    ],
+    "value_qualifiers": {
+      "bioretention_media_depth_min_inches": "min",
+      "bioretention_ponding_depth_inches": "max",
+      "design_infiltration_rate_in_per_hr": "min",
+      "max_drawdown_hours": "max",
+      "permeable_pavement_storage_depth_inches": "min",
+      "swale_bottom_width_inches": "min",
+      "swale_longitudinal_slope_percent": "max"
+    },
+    "design_storms": [
+      {
+        "years": 10,
+        "purposes": [
+          "conveyance"
+        ],
+        "quote": "Infiltration basins must have a primary outlet sized to convey the 10-year storm event, at a minimum.",
+        "page": 62
+      },
+      {
+        "years": 100,
+        "purposes": [
+          "conveyance",
+          "flood",
+          "channel_protection"
+        ],
+        "quote": "An emergency spillway is required to convey the 100-year storm event (assuming the primary outlet is not designed to pass the 100-year storm event).",
+        "page": 62
+      }
     ]
   }
 }

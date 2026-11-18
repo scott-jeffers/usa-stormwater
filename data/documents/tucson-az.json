@@ -242,6 +242,58 @@
       "green_roof_media_depth_inches",
       "green_roof_slope_percent",
       "mtd_verification_program"
+    ],
+    "design_storms": [
+      {
+        "years": 2,
+        "purposes": [
+          "flood"
+        ],
+        "quote": "The preceding evaluation procedure for the selection of 100-year basin factors should always be employed before classifying any channel within the City of Tucson as \"underfit.\" 4.4 Calculating Times of Concentration for Frequent Floods This procedure should only be applied to \"small watersheds,\" whi",
+        "page": 90
+      },
+      {
+        "years": 5,
+        "purposes": [
+          "other"
+        ],
+        "quote": null,
+        "page": null
+      },
+      {
+        "years": 10,
+        "purposes": [
+          "flood",
+          "conveyance"
+        ],
+        "quote": "On arterial streets or multi-Ianed roadways, at least one travel lane in each direction shall be free from flooding during a 10-year flood.",
+        "page": 49
+      },
+      {
+        "years": 25,
+        "purposes": [
+          "other"
+        ],
+        "quote": null,
+        "page": null
+      },
+      {
+        "years": 50,
+        "purposes": [
+          "other"
+        ],
+        "quote": null,
+        "page": null
+      },
+      {
+        "years": 100,
+        "purposes": [
+          "flood",
+          "conveyance"
+        ],
+        "quote": "In addition, the elevation of the building pad must not be lower than the 100-year water-surface elevation.",
+        "page": 166
+      }
     ]
   }
 }

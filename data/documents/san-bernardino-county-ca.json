@@ -161,6 +161,13 @@
       "green_roof_media_depth_inches",
       "green_roof_slope_percent",
       "mtd_verification_program"
-    ]
+    ],
+    "value_qualifiers": {
+      "bioretention_ponding_depth_inches": "max",
+      "design_infiltration_rate_in_per_hr": "design",
+      "ed_drain_time_hours": "design",
+      "max_drawdown_hours": "max",
+      "wetland_detention_hours": "min"
+    }
   }
 }

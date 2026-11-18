@@ -181,6 +181,35 @@
       "green_roof_media_depth_inches",
       "green_roof_slope_percent",
       "mtd_verification_program"
+    ],
+    "wqv_basis": "rainfall",
+    "value_qualifiers": {
+      "bioretention_ponding_depth_inches": "max",
+      "ed_drain_time_hours": "min",
+      "permanent_pool_depth_inches": "min",
+      "shwt_separation_inches": "min",
+      "wqv_depth_inches": "design"
+    },
+    "design_storms": [
+      {
+        "years": 2,
+        "purposes": [
+          "peak_control"
+        ],
+        "quote": "Beginning in 2013, EGLE places additional requirements on stormwater management for land development, including specific controls for Total Suspended Solids (TSS) for the first 1.0 inch of rainfall, peak flow control for the 2-year, 24-hour storm, as well as runoff volume controls which typically re",
+        "page": 11
+      },
+      {
+        "years": 100,
+        "purposes": [
+          "peak_control",
+          "flood",
+          "conveyance",
+          "channel_protection"
+        ],
+        "quote": "The weir must be designed to convey the peak flow rate tributary to the forebay for the 100-year design storm.",
+        "page": 79
+      }
     ]
   }
 }

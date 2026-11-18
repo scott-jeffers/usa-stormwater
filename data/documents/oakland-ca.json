@@ -145,6 +145,22 @@
       "green_roof_media_depth_inches",
       "green_roof_slope_percent",
       "mtd_verification_program"
+    ],
+    "value_qualifiers": {
+      "ed_drain_time_hours": "max",
+      "max_drawdown_hours": "max",
+      "swale_bottom_width_inches": "min"
+    },
+    "design_storms": [
+      {
+        "years": 100,
+        "purposes": [
+          "flood",
+          "peak_control"
+        ],
+        "quote": "TAILWATER ELEVATIONS IN FLOOD ZONES & DESIGN DISCHARGE FREQUENCIES Primary facilities that flow into or may be located within Federal Emergency Management Agency (FEMA) study areas are subject to FEMA 100-year water surface elevation using the FEMA criteria.",
+        "page": 10
+      }
     ]
   }
 }

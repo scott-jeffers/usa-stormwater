@@ -150,6 +150,28 @@
       "green_roof_media_depth_inches",
       "green_roof_slope_percent",
       "mtd_verification_program"
+    ],
+    "wqv_basis": "rainfall",
+    "value_qualifiers": {
+      "wqv_depth_inches": "design"
+    },
+    "design_storms": [
+      {
+        "years": 2,
+        "purposes": [
+          "other"
+        ],
+        "quote": null,
+        "page": null
+      },
+      {
+        "years": 100,
+        "purposes": [
+          "flood"
+        ],
+        "quote": "Floodway: the channel of a river or other watercourse and the adjacent land areas that must be reserved in order to discharge the 100-year flood without cumulatively increasing the water surface elevation. [See 44 CFR 59.1] Karst: areas where the dissolution of limestone or other soluble rocks has p",
+        "page": 6
+      }
     ]
   }
 }

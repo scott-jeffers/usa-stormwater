@@ -188,6 +188,47 @@
       "green_roof_media_depth_inches",
       "green_roof_slope_percent",
       "mtd_verification_program"
+    ],
+    "wqv_basis": "rainfall",
+    "value_qualifiers": {
+      "bioretention_media_depth_min_inches": "min",
+      "bioretention_ponding_depth_inches": "max",
+      "design_infiltration_rate_in_per_hr": "min",
+      "ed_drain_time_hours": "design",
+      "max_drawdown_hours": "max",
+      "swale_bottom_width_inches": "min",
+      "swale_longitudinal_slope_percent": "max",
+      "wqv_depth_inches": "design"
+    },
+    "design_storms": [
+      {
+        "years": 1,
+        "purposes": [
+          "channel_protection",
+          "water_quality"
+        ],
+        "quote": "Extended Detention Method – Provide 12 or 24 hour detention of the 1 year storm.",
+        "page": 11
+      },
+      {
+        "years": 10,
+        "purposes": [
+          "flood",
+          "channel_protection"
+        ],
+        "quote": "Swales shall be designed to safely convey the 10-year, 24-hour storm.",
+        "page": 115
+      },
+      {
+        "years": 100,
+        "purposes": [
+          "flood",
+          "peak_control",
+          "conveyance"
+        ],
+        "quote": "The green roof system shall safely convey runoff from the 100-year storm away from the building (i.e, so as not to flood the building) and into a downstream drainage system.",
+        "page": 176
+      }
     ]
   }
 }

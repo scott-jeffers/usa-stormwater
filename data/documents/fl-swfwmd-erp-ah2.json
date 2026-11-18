@@ -214,7 +214,7 @@
     "permeable_pavement_storage_depth_inches": null,
     "design_infiltration_rate_in_per_hr": null,
     "permanent_pool_depth_inches": 96,
-    "ed_drain_time_hours": 36,
+    "ed_drain_time_hours": 24,
     "length_to_width_ratio": null,
     "wetland_detention_hours": null,
     "swale_bottom_width_inches": null,
@@ -246,6 +246,30 @@
       "green_roof_media_depth_inches",
       "green_roof_slope_percent",
       "mtd_verification_program"
+    ],
+    "value_qualifiers": {
+      "ed_drain_time_hours": "design",
+      "max_drawdown_hours": "max",
+      "permanent_pool_depth_inches": "max",
+      "shwt_separation_inches": "min"
+    },
+    "design_storms": [
+      {
+        "years": 25,
+        "purposes": [
+          "peak_control"
+        ],
+        "quote": "(10) All terminal discharge structures are designed to withstand the 25-year, 24-hour postdevelopment discharge without functional failure.",
+        "page": 36
+      },
+      {
+        "years": 100,
+        "purposes": [
+          "flood"
+        ],
+        "quote": "(b) Industrial, commercial or other non-residential buildings susceptible to flood damage should have the lowest floor elevated above the 100-year flood elevation.",
+        "page": 20
+      }
     ]
   }
 }

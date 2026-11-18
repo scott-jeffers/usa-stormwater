@@ -159,6 +159,22 @@
       "green_roof_media_depth_inches",
       "green_roof_slope_percent",
       "mtd_verification_program"
+    ],
+    "wqv_basis": "rainfall",
+    "value_qualifiers": {
+      "shwt_separation_inches": "min",
+      "wqv_depth_inches": "min"
+    },
+    "design_storms": [
+      {
+        "years": 100,
+        "purposes": [
+          "flood",
+          "conveyance"
+        ],
+        "quote": "The effective and/or future FEMA 100-year floodplain, with base flood elevations (if applicable), shall be shown on the plans.",
+        "page": 112
+      }
     ]
   }
 }

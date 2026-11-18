@@ -196,6 +196,19 @@
       "green_roof_media_depth_inches",
       "green_roof_slope_percent",
       "mtd_verification_program"
+    ],
+    "value_qualifiers": {
+      "max_drawdown_hours": "max"
+    },
+    "design_storms": [
+      {
+        "years": 2,
+        "purposes": [
+          "flood"
+        ],
+        "quote": "Install the first check dam approximately 15 feet from the outfall device and at regular intervals based on slope gradient and soil type. ■ For multiple check dam installation, backwater from the downstream check dam should reach the toe of the upstream dam. ■ High flows (typically a 2-year storm or",
+        "page": 94
+      }
     ]
   }
 }

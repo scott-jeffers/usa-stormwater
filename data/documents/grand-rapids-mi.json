@@ -155,6 +155,33 @@
       "green_roof_media_depth_inches",
       "green_roof_slope_percent",
       "mtd_verification_program"
+    ],
+    "wqv_basis": "rainfall",
+    "value_qualifiers": {
+      "ed_drain_time_hours": "max",
+      "max_drawdown_hours": "max",
+      "swale_longitudinal_slope_percent": "max",
+      "wqv_depth_inches": "design"
+    },
+    "design_storms": [
+      {
+        "years": 2,
+        "purposes": [
+          "channel_protection",
+          "peak_control"
+        ],
+        "quote": "The alternative approach shall consist of extended detention of the 2-year, 24-hour storm for a period of 24 hours resulting in a drawdown time no greater than 72 hours.",
+        "page": 22
+      },
+      {
+        "years": 100,
+        "purposes": [
+          "flood",
+          "conveyance"
+        ],
+        "quote": "(4) Flood storage must be between the 2-year flood elevation and the 100-year flood elevation.",
+        "page": 68
+      }
     ]
   }
 }

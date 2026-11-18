@@ -171,6 +171,48 @@
       "green_roof_media_depth_inches",
       "green_roof_slope_percent",
       "mtd_verification_program"
+    ],
+    "value_qualifiers": {
+      "design_infiltration_rate_in_per_hr": "min",
+      "max_drawdown_hours": "max",
+      "shwt_separation_inches": "min"
+    },
+    "design_storms": [
+      {
+        "years": 2,
+        "purposes": [
+          "peak_control"
+        ],
+        "quote": "WWHM shall identify the 2-year return frequency flow rate discharged by a detention facility that is designed to meet the flow duration standard.",
+        "page": 700
+      },
+      {
+        "years": 10,
+        "purposes": [
+          "peak_control"
+        ],
+        "quote": "The diameter shall be the minimum necessary to pass the pre-developed 10-year peak flow (Q10).",
+        "page": 373
+      },
+      {
+        "years": 25,
+        "purposes": [
+          "peak_control",
+          "conveyance"
+        ],
+        "quote": "Culverts shall convey the 25-year, 24-hour peak flow rate assuming a Type 1A rainfall distribution (3.5-inches) without submerging the culvert inlet.",
+        "page": 539
+      },
+      {
+        "years": 100,
+        "purposes": [
+          "peak_control",
+          "conveyance",
+          "flood"
+        ],
+        "quote": "These outlets must pass the peak runoff expected from the contributing drainage area for a 100-year storm.",
+        "page": 373
+      }
     ]
   }
 }

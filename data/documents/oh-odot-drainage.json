@@ -20,7 +20,7 @@
       100,
       500
     ],
-    "water_quality_volume_method": "Water Quality Volume WSE Water Surface Elevation Reference Documents AASHTO Model Drainage Manual (2005) AASHTO Drainage Manual Volume 1 - Policy (2014) Highway Hydrology (FHWA Hydraulic Design Series No",
+    "water_quality_volume_method": "Size post-construction BMPs for the water quality volume (WQV) from a 0.90 in precipitation depth, the depth Ohio EPA set to achieve an estimated 80% average annual TSS reduction.",
     "peak_flow_calculation_method": [
       "Rational Method",
       "HEC-RAS",
@@ -55,8 +55,8 @@
     },
     {
       "field": "design_criteria.water_quality_volume_method",
-      "excerpt": "Water Quality Volume WSE Water Surface Elevation Reference Documents AASHTO Model Drainage Manual (2005) AASHTO Drainage Manual Volume 1 - Policy (2014) Highway Hydrology (FHWA Hydraulic Design Series No",
-      "page_or_section": null
+      "excerpt": "Ohio EPA determined that the WQV precipitation depth of 0.90 inches is the appropriate depth for sizing BMPs",
+      "page_or_section": "1111.4 / page 112"
     },
     {
       "field": "design_parameters.wqv_depth_inches",
@@ -177,6 +177,74 @@
       "green_roof_media_depth_inches",
       "green_roof_slope_percent",
       "mtd_verification_program"
+    ],
+    "wqv_basis": "rainfall",
+    "value_qualifiers": {
+      "bioretention_media_depth_min_inches": "min",
+      "bioretention_ponding_depth_inches": "max",
+      "ed_drain_time_hours": "min",
+      "length_to_width_ratio": "min",
+      "shwt_separation_inches": "min",
+      "wetland_detention_hours": "min",
+      "wqv_depth_inches": "design"
+    },
+    "design_storms": [
+      {
+        "years": 2,
+        "purposes": [
+          "other"
+        ],
+        "quote": null,
+        "page": null
+      },
+      {
+        "years": 5,
+        "purposes": [
+          "other"
+        ],
+        "quote": null,
+        "page": null
+      },
+      {
+        "years": 10,
+        "purposes": [
+          "other"
+        ],
+        "quote": null,
+        "page": null
+      },
+      {
+        "years": 25,
+        "purposes": [
+          "other"
+        ],
+        "quote": null,
+        "page": null
+      },
+      {
+        "years": 50,
+        "purposes": [
+          "other"
+        ],
+        "quote": null,
+        "page": null
+      },
+      {
+        "years": 100,
+        "purposes": [
+          "flood"
+        ],
+        "quote": "This is the regulatory standard also referred to as the \"100-year flood\" or the “1% AEP flood.” The base flood is the national standard used by the National Flood Insurance Program (NFIP) and all Federal agencies for the purposes of requiring the purchase of flood insurance and regulating new develo",
+        "page": 11
+      },
+      {
+        "years": 500,
+        "purposes": [
+          "other"
+        ],
+        "quote": null,
+        "page": null
+      }
     ]
   }
 }

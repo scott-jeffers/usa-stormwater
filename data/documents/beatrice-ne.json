@@ -256,6 +256,41 @@
       "green_roof_media_depth_inches",
       "green_roof_slope_percent",
       "mtd_verification_program"
+    ],
+    "design_storms": [
+      {
+        "years": 2,
+        "purposes": [
+          "peak_control"
+        ],
+        "quote": "Regardless of their location, storage facilities shall be designed to attenuate the post-project runoff peak flow rate so that it is equal to or less than the existing 2-year, 10-year, and 100-year peak flow rates of the project.",
+        "page": 74
+      },
+      {
+        "years": 5,
+        "purposes": [
+          "conveyance"
+        ],
+        "quote": "When comprising the minor drainage system, open channels shall be sized to handle the 5-year storm in residential areas and the 10-year storm in downtown, commercial, and industrial areas.",
+        "page": 48
+      },
+      {
+        "years": 10,
+        "purposes": [
+          "other"
+        ],
+        "quote": null,
+        "page": null
+      },
+      {
+        "years": 100,
+        "purposes": [
+          "flood",
+          "conveyance"
+        ],
+        "quote": "Freeboard should be determined based on the 100-year storm water surface elevation under mature channel conditions.",
+        "page": 48
+      }
     ]
   }
 }

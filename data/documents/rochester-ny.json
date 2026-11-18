@@ -222,6 +222,55 @@
       "green_roof_media_depth_inches",
       "green_roof_slope_percent",
       "mtd_verification_program"
+    ],
+    "wqv_basis": "rainfall",
+    "value_qualifiers": {
+      "bioretention_media_depth_min_inches": "min",
+      "bioretention_ponding_depth_inches": "max",
+      "design_infiltration_rate_in_per_hr": "min",
+      "ed_drain_time_hours": "design",
+      "length_to_width_ratio": "min",
+      "shwt_separation_inches": "min",
+      "swale_bottom_width_inches": "min",
+      "wqv_depth_inches": "design"
+    },
+    "design_storms": [
+      {
+        "years": 1,
+        "purposes": [
+          "water_quality",
+          "channel_protection"
+        ],
+        "quote": "Section 4.3 Water Quality Volume (WQv) for Enhanced Phosphorus Removal Watersheds For watersheds requiring enhanced phosphorus removal, the WQv shall be sized to capture and treat the 1-yr 24-hr design storm.",
+        "page": 46
+      },
+      {
+        "years": 2,
+        "purposes": [
+          "channel_protection"
+        ],
+        "quote": "𝑓𝑡⁄𝑓𝑡) 0.11 6.42 𝑓𝑡 𝑉2 = 1.02 𝑓𝑝𝑠 Based on the above, the 2-yr velocity is less than 5 fps and meets the requirement for non-erosive conditions.",
+        "page": 249
+      },
+      {
+        "years": 10,
+        "purposes": [
+          "flood",
+          "conveyance",
+          "channel_protection",
+          "water_quality"
+        ],
+        "quote": "During the 10-year event, the swale shall have a minimum freeboard of 6 inches at a maximum velocity of 5 fps",
+        "page": 111
+      },
+      {
+        "years": 100,
+        "purposes": [
+          "flood"
+        ],
+        "quote": "Ideally, riparian buffers should be sized to include the 100-year floodplain as well as steep banks and freshwater wetlands.",
+        "page": 60
+      }
     ]
   }
 }

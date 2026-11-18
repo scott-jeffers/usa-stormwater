@@ -159,6 +159,65 @@
       "green_roof_media_depth_inches",
       "green_roof_slope_percent",
       "mtd_verification_program"
+    ],
+    "design_storms": [
+      {
+        "years": 1,
+        "purposes": [
+          "conveyance"
+        ],
+        "quote": "T3-00(p) Temporary Stream Crossings Temporary stream crossings (bridges, fords, and culvert crossings) should be designed for short-term use periods not to exceed 1 year.",
+        "page": 93
+      },
+      {
+        "years": 2,
+        "purposes": [
+          "other"
+        ],
+        "quote": null,
+        "page": null
+      },
+      {
+        "years": 5,
+        "purposes": [
+          "other"
+        ],
+        "quote": null,
+        "page": null
+      },
+      {
+        "years": 10,
+        "purposes": [
+          "flood",
+          "conveyance"
+        ],
+        "quote": "All floodplain storage lost above the existing 10-year flood elevation shall be replaced above the proposed 10-year flood elevation.",
+        "page": 107
+      },
+      {
+        "years": 25,
+        "purposes": [
+          "other"
+        ],
+        "quote": null,
+        "page": null
+      },
+      {
+        "years": 50,
+        "purposes": [
+          "other"
+        ],
+        "quote": null,
+        "page": null
+      },
+      {
+        "years": 100,
+        "purposes": [
+          "flood"
+        ],
+        "quote": "This must be valid for all flood events up to and including the 100-year flood.",
+        "page": 119
+      }
     ]
   }
 }

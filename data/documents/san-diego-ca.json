@@ -217,6 +217,38 @@
       "swale_longitudinal_slope_percent",
       "green_roof_media_depth_inches",
       "green_roof_slope_percent"
+    ],
+    "value_qualifiers": {
+      "length_to_width_ratio": "min",
+      "shwt_separation_inches": "min"
+    },
+    "design_storms": [
+      {
+        "years": 2,
+        "purposes": [
+          "peak_control"
+        ],
+        "quote": "For the San Diego region, the lower flow threshold shall be a fraction (0.1, 0.3, or 0.5) of the pre-development 2-year flow rate based on continuous simulation modeling (0.1Q2, 0.3Q2, or 0.5Q2).",
+        "page": 646
+      },
+      {
+        "years": 10,
+        "purposes": [
+          "flood",
+          "water_quality",
+          "conveyance"
+        ],
+        "quote": "reach) should be equal to or below the 10-year floodplain elevation.",
+        "page": 43
+      },
+      {
+        "years": 100,
+        "purposes": [
+          "flood"
+        ],
+        "quote": "Exceptions may be made at the discretion of the City Engineer, but shall never exceed the 100-year floodplain elevation.",
+        "page": 43
+      }
     ]
   }
 }

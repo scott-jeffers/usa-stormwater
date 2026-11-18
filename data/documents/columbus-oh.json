@@ -195,6 +195,72 @@
       "green_roof_media_depth_inches",
       "green_roof_slope_percent",
       "mtd_verification_program"
+    ],
+    "value_qualifiers": {
+      "ed_drain_time_hours": "design",
+      "length_to_width_ratio": "min",
+      "max_drawdown_hours": "max"
+    },
+    "design_storms": [
+      {
+        "years": 1,
+        "purposes": [
+          "peak_control"
+        ],
+        "quote": "In no instance shall the release rate for any storm, up to and including the critical storm, exceed the 1-year predevelopment rate.",
+        "page": 53
+      },
+      {
+        "years": 2,
+        "purposes": [
+          "other"
+        ],
+        "quote": null,
+        "page": null
+      },
+      {
+        "years": 5,
+        "purposes": [
+          "other"
+        ],
+        "quote": null,
+        "page": null
+      },
+      {
+        "years": 10,
+        "purposes": [
+          "channel_protection",
+          "conveyance",
+          "flood",
+          "peak_control"
+        ],
+        "quote": "The bypass channel must be sized and appropriately lined to convey the 10-year storm event without flooding or inducing channel erosion.",
+        "page": 94
+      },
+      {
+        "years": 25,
+        "purposes": [
+          "other"
+        ],
+        "quote": null,
+        "page": null
+      },
+      {
+        "years": 50,
+        "purposes": [
+          "other"
+        ],
+        "quote": null,
+        "page": null
+      },
+      {
+        "years": 100,
+        "purposes": [
+          "flood"
+        ],
+        "quote": "An overflow designed to convey all storms up to and including the 100-year event shall be provided.",
+        "page": 143
+      }
     ]
   }
 }

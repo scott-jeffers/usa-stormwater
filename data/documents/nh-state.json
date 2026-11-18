@@ -168,6 +168,60 @@
       "green_roof_media_depth_inches",
       "green_roof_slope_percent",
       "mtd_verification_program"
+    ],
+    "wqv_basis": "rainfall",
+    "value_qualifiers": {
+      "wqv_depth_inches": "design"
+    },
+    "design_storms": [
+      {
+        "years": 1,
+        "purposes": [
+          "other"
+        ],
+        "quote": null,
+        "page": null
+      },
+      {
+        "years": 2,
+        "purposes": [
+          "peak_control"
+        ],
+        "quote": "Drainage analyses shall include calculations comparing pre- and post-development stormwater runoff rates (cubic feet/second) and volumes (cubic feet) for the 1-inch rainstorm and the 2-year, 10-year, 25-year, and 50-year 24-hour storm events.",
+        "page": 4
+      },
+      {
+        "years": 10,
+        "purposes": [
+          "peak_control"
+        ],
+        "quote": "Measures shall be taken to control the post-development peak runoff rate so that it does not exceed the pre-development runoff rate for the 10-year and 50-year 24-hour storms for all discharges leaving the site.",
+        "page": 4
+      },
+      {
+        "years": 25,
+        "purposes": [
+          "other"
+        ],
+        "quote": null,
+        "page": null
+      },
+      {
+        "years": 50,
+        "purposes": [
+          "other"
+        ],
+        "quote": null,
+        "page": null
+      },
+      {
+        "years": 100,
+        "purposes": [
+          "flood"
+        ],
+        "quote": "For sites in the 100-year floodplain, supporting documentation should demonstrate that there is no impact to properties as a result of development. d.",
+        "page": 4
+      }
     ]
   }
 }

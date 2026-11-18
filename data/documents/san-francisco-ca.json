@@ -212,6 +212,24 @@
       "green_roof_media_depth_inches",
       "green_roof_slope_percent",
       "mtd_verification_program"
+    ],
+    "design_storms": [
+      {
+        "years": 1,
+        "purposes": [
+          "other"
+        ],
+        "quote": null,
+        "page": null
+      },
+      {
+        "years": 2,
+        "purposes": [
+          "peak_control"
+        ],
+        "quote": "Case 2: Projects with existing imperviousness of greater than 50 percent must reduce the stormwater runoff rate and volume by 25 percent relative to pre-development conditions for the 2-year, 24-hour design storm.",
+        "page": 76
+      }
     ]
   }
 }

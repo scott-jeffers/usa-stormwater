@@ -104,6 +104,11 @@
       "green_roof_media_depth_inches",
       "green_roof_slope_percent",
       "mtd_verification_program"
-    ]
+    ],
+    "value_qualifiers": {
+      "bioretention_media_depth_min_inches": "min",
+      "max_drawdown_hours": "max",
+      "shwt_separation_inches": "min"
+    }
   }
 }

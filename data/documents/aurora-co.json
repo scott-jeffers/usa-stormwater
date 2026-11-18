@@ -197,6 +197,63 @@
       "swale_longitudinal_slope_percent",
       "green_roof_media_depth_inches",
       "green_roof_slope_percent"
+    ],
+    "wqv_basis": "rainfall",
+    "value_qualifiers": {
+      "max_drawdown_hours": "max",
+      "shwt_separation_inches": "min",
+      "wqv_depth_inches": "design"
+    },
+    "design_storms": [
+      {
+        "years": 2,
+        "purposes": [
+          "conveyance",
+          "flood",
+          "channel_protection",
+          "peak_control"
+        ],
+        "quote": "Most storm drains are sized for the 2-year event or smaller, which produces localized street flooding in larger storms.",
+        "page": 90
+      },
+      {
+        "years": 5,
+        "purposes": [
+          "conveyance"
+        ],
+        "quote": "The design storm frequency and maintenance responsibility (CoA or private) for each proposed drainage facility must be indicated (e.g., “private storm drain, 5-year storm capacity”); if privately maintained, note party responsible for maintenance (e.g., Metro District, HOA, etc.).",
+        "page": 43
+      },
+      {
+        "years": 10,
+        "purposes": [
+          "water_quality",
+          "conveyance",
+          "flood",
+          "peak_control"
+        ],
+        "quote": "The 10-year storage volume and WQCV must be released over a period of 48-hours to the bypass storm drain line.",
+        "page": 94
+      },
+      {
+        "years": 25,
+        "purposes": [
+          "other"
+        ],
+        "quote": null,
+        "page": null
+      },
+      {
+        "years": 100,
+        "purposes": [
+          "conveyance",
+          "flood",
+          "peak_control",
+          "water_quality"
+        ],
+        "quote": "These inlets shall capture a minimum 80% of the 100-year flow.",
+        "page": 158
+      }
     ]
   }
 }

@@ -145,6 +145,38 @@
       "green_roof_media_depth_inches",
       "green_roof_slope_percent",
       "mtd_verification_program"
+    ],
+    "value_qualifiers": {
+      "max_drawdown_hours": "max",
+      "shwt_separation_inches": "min"
+    },
+    "design_storms": [
+      {
+        "years": 1,
+        "purposes": [
+          "peak_control"
+        ],
+        "quote": "2 The 1-year release rate shall be set to provide 24 hour detention time, but shall not be greater than 0.08 cfs/acre..",
+        "page": 49
+      },
+      {
+        "years": 10,
+        "purposes": [
+          "conveyance"
+        ],
+        "quote": "It consists of street gutters, storm sewers, small open channels, and swales and, where manmade, is to be designed to safely convey the 10-year recurrence interval storm discharge.",
+        "page": 12
+      },
+      {
+        "years": 100,
+        "purposes": [
+          "flood",
+          "peak_control",
+          "conveyance"
+        ],
+        "quote": "Major Drainage System components are to be designed to safely convey the 100year recurrence interval storm event.",
+        "page": 12
+      }
     ]
   }
 }

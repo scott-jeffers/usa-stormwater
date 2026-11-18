@@ -157,6 +157,40 @@
       "green_roof_media_depth_inches",
       "green_roof_slope_percent",
       "mtd_verification_program"
+    ],
+    "design_storms": [
+      {
+        "years": 5,
+        "purposes": [
+          "other"
+        ],
+        "quote": null,
+        "page": null
+      },
+      {
+        "years": 10,
+        "purposes": [
+          "other"
+        ],
+        "quote": null,
+        "page": null
+      },
+      {
+        "years": 50,
+        "purposes": [
+          "conveyance"
+        ],
+        "quote": "10.13.7 Sag Point As discussed in Section 10.5.1, the storm drain that drains a Interstate, freeway and arterial highway sag point should be sized to accommodate the runoff from a 50-year frequency rainfall.",
+        "page": 68
+      },
+      {
+        "years": 100,
+        "purposes": [
+          "other"
+        ],
+        "quote": null,
+        "page": null
+      }
     ]
   }
 }

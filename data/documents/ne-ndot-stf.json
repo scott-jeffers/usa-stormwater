@@ -214,6 +214,38 @@
       "green_roof_media_depth_inches",
       "green_roof_slope_percent",
       "mtd_verification_program"
+    ],
+    "wqv_basis": "runoff",
+    "value_qualifiers": {
+      "design_infiltration_rate_in_per_hr": "min",
+      "max_drawdown_hours": "max",
+      "wqv_depth_inches": "design"
+    },
+    "design_storms": [
+      {
+        "years": 2,
+        "purposes": [
+          "peak_control"
+        ],
+        "quote": "A wet detention pond can be used to reduce the post-development discharge to that of the pre-development rate under the 2-year, 10-year and 100-year event storms and can provide relatively good water quality improvement along with rate control.",
+        "page": 33
+      },
+      {
+        "years": 10,
+        "purposes": [
+          "other"
+        ],
+        "quote": null,
+        "page": null
+      },
+      {
+        "years": 100,
+        "purposes": [
+          "other"
+        ],
+        "quote": null,
+        "page": null
+      }
     ]
   }
 }

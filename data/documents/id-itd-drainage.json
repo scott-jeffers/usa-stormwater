@@ -116,6 +116,48 @@
       "green_roof_media_depth_inches",
       "green_roof_slope_percent",
       "mtd_verification_program"
+    ],
+    "design_storms": [
+      {
+        "years": 10,
+        "purposes": [
+          "other"
+        ],
+        "quote": null,
+        "page": null
+      },
+      {
+        "years": 25,
+        "purposes": [
+          "conveyance"
+        ],
+        "quote": "Circular culverts, box culverts, and pipe arches under 12 feet wide that have a closed bottom (including those with the invert lowered) should be designed so that the ratio of the headwater (HW) to diameter (D) during the 25-year flow event is less than or equal to 1.25 (HW/D < 1.25).",
+        "page": 11
+      },
+      {
+        "years": 50,
+        "purposes": [
+          "flood"
+        ],
+        "quote": "The design flood for encroachments by through lanes of Interstate highways shall not be less than the flood with a 2 percent chance (50 year flood) of being exceeded in any given year.",
+        "page": 15
+      },
+      {
+        "years": 100,
+        "purposes": [
+          "flood"
+        ],
+        "quote": "The headwater from the 100-year event shall not overtop the roadway and should also be investigated for flooding damage.",
+        "page": 11
+      },
+      {
+        "years": 500,
+        "purposes": [
+          "other"
+        ],
+        "quote": null,
+        "page": null
+      }
     ]
   }
 }

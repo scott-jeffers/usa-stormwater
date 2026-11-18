@@ -174,7 +174,7 @@
   },
   "design_parameters": {
     "wqv_depth_inches": null,
-    "max_drawdown_hours": 48,
+    "max_drawdown_hours": 72,
     "shwt_separation_inches": null,
     "bioretention_media_depth_min_inches": 18,
     "bioretention_ponding_depth_inches": null,
@@ -219,6 +219,55 @@
       "green_roof_media_depth_inches",
       "green_roof_slope_percent",
       "mtd_verification_program"
+    ],
+    "value_qualifiers": {
+      "bioretention_media_depth_min_inches": "min",
+      "max_drawdown_hours": "max"
+    },
+    "design_storms": [
+      {
+        "years": 2,
+        "purposes": [
+          "peak_control"
+        ],
+        "quote": "Stormwater discharges shall match developed discharge durations to pre-developed durations for the range of pre-developed discharge rates from 8% of the 2-year peak flow to 50% of the 2-year peak flow.",
+        "page": 127
+      },
+      {
+        "years": 10,
+        "purposes": [
+          "flood"
+        ],
+        "quote": "S = Perform inspections after major storm events (24-hour storm event with a 10-year or greater recurrence interval). b Inspection should occur during storm event.",
+        "page": 1200
+      },
+      {
+        "years": 25,
+        "purposes": [
+          "conveyance"
+        ],
+        "quote": "General Criteria l A biofiltration swale can be sized as both a Runoff Treatment BMP (for the Water Quality Design Flow Rate), and as a conveyance BMP to pass the peak hydraulic flows of the 25-year storm if it is located \"online\". l The ideal cross section of a biofiltration swale is a trapezoid. l",
+        "page": 978
+      },
+      {
+        "years": 50,
+        "purposes": [
+          "peak_control",
+          "flood"
+        ],
+        "quote": "The design must assure that flows delivered to Type 5 stream reaches will approximate, but in no case exceed, durations ranging from 50% of the 2-year to the 50-year peak flow.",
+        "page": 135
+      },
+      {
+        "years": 100,
+        "purposes": [
+          "peak_control",
+          "conveyance",
+          "flood"
+        ],
+        "quote": "These outlets must pass the peak runoff expected from the contributing drainage area for a 100-year storm.",
+        "page": 434
+      }
     ]
   }
 }

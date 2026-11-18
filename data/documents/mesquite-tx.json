@@ -140,6 +140,25 @@
       "green_roof_media_depth_inches",
       "green_roof_slope_percent",
       "mtd_verification_program"
+    ],
+    "design_storms": [
+      {
+        "years": 25,
+        "purposes": [
+          "other"
+        ],
+        "quote": null,
+        "page": null
+      },
+      {
+        "years": 100,
+        "purposes": [
+          "conveyance",
+          "flood"
+        ],
+        "quote": "Storm drain systems shall be designed for 100-year storm event.",
+        "page": 74
+      }
     ]
   }
 }

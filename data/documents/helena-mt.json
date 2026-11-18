@@ -140,6 +140,37 @@
       "green_roof_media_depth_inches",
       "green_roof_slope_percent",
       "mtd_verification_program"
+    ],
+    "value_qualifiers": {
+      "max_drawdown_hours": "max",
+      "shwt_separation_inches": "min"
+    },
+    "design_storms": [
+      {
+        "years": 2,
+        "purposes": [
+          "peak_control"
+        ],
+        "quote": "The minimum storage volume of infiltration facilities must be the difference between the preand post-development runoff volume from the 2-year 24-hour storm event.",
+        "page": 35
+      },
+      {
+        "years": 10,
+        "purposes": [
+          "conveyance",
+          "peak_control"
+        ],
+        "quote": "Conveyance structures must be designed to meet the following during a 10-year storm event: A.",
+        "page": 26
+      },
+      {
+        "years": 100,
+        "purposes": [
+          "peak_control"
+        ],
+        "quote": "Detention facilities must include a description of routing 100-year peak flows without damaging adjacent or down-gradient buildings.",
+        "page": 32
+      }
     ]
   }
 }

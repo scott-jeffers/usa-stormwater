@@ -198,6 +198,55 @@
       "green_roof_media_depth_inches",
       "green_roof_slope_percent",
       "mtd_verification_program"
+    ],
+    "value_qualifiers": {
+      "max_drawdown_hours": "max",
+      "permeable_pavement_storage_depth_inches": "min",
+      "shwt_separation_inches": "min",
+      "swale_longitudinal_slope_percent": "max"
+    },
+    "design_storms": [
+      {
+        "years": 2,
+        "purposes": [
+          "other"
+        ],
+        "quote": null,
+        "page": null
+      },
+      {
+        "years": 5,
+        "purposes": [
+          "other"
+        ],
+        "quote": null,
+        "page": null
+      },
+      {
+        "years": 10,
+        "purposes": [
+          "other"
+        ],
+        "quote": null,
+        "page": null
+      },
+      {
+        "years": 50,
+        "purposes": [
+          "peak_control"
+        ],
+        "quote": "For the lesser magnitude storms (5, 10, 50 year), structures shall also approximate these pre-development discharge conditions.",
+        "page": 91
+      },
+      {
+        "years": 100,
+        "purposes": [
+          "flood",
+          "peak_control"
+        ],
+        "quote": "The spillway shall be sized to safely pass a minimum 100 year storm event.",
+        "page": 67
+      }
     ]
   }
 }

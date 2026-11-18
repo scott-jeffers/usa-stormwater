@@ -135,7 +135,7 @@
     "max_drawdown_hours": 24,
     "shwt_separation_inches": 12,
     "bioretention_media_depth_min_inches": null,
-    "bioretention_ponding_depth_inches": 6,
+    "bioretention_ponding_depth_inches": 12,
     "permeable_pavement_storage_depth_inches": null,
     "design_infiltration_rate_in_per_hr": null,
     "permanent_pool_depth_inches": null,
@@ -178,6 +178,49 @@
       "green_roof_media_depth_inches",
       "green_roof_slope_percent",
       "mtd_verification_program"
+    ],
+    "value_qualifiers": {
+      "bioretention_ponding_depth_inches": "max",
+      "max_drawdown_hours": "max",
+      "shwt_separation_inches": "min"
+    },
+    "design_storms": [
+      {
+        "years": 2,
+        "purposes": [
+          "peak_control"
+        ],
+        "quote": "The Level 1 flow control standard does not require flow duration analysis because it addresses peak flows only (the 2-year and 10-year peaks).",
+        "page": 206
+      },
+      {
+        "years": 10,
+        "purposes": [
+          "peak_control",
+          "conveyance"
+        ],
+        "quote": "This standard may be modified under certain conditions to only match the 10-year peak flow as allowed in Section 1.2.3.1.A.",
+        "page": 180
+      },
+      {
+        "years": 25,
+        "purposes": [
+          "peak_control",
+          "conveyance"
+        ],
+        "quote": "No ponding around the drain inlet should occur for the 25-year peak rate.",
+        "page": 514
+      },
+      {
+        "years": 100,
+        "purposes": [
+          "flood",
+          "peak_control",
+          "conveyance"
+        ],
+        "quote": "FREEBOARD 1' ROCK LINING EVALUATE DOWNSTREAM CONVEYANCE PER CORE REQS #2 AND #4 POND OUTLET SIZED TO CONVEY THE 100-YR DEVELOPED PEAK FLOW",
+        "page": 323
+      }
     ]
   }
 }

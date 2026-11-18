@@ -136,6 +136,32 @@
       "green_roof_media_depth_inches",
       "green_roof_slope_percent",
       "mtd_verification_program"
+    ],
+    "design_storms": [
+      {
+        "years": 10,
+        "purposes": [
+          "conveyance"
+        ],
+        "quote": "Driveway pipe culverts: All driveway pipe culverts (side drain pipes) shall be designed for the 10-year frequency storm.",
+        "page": 200
+      },
+      {
+        "years": 50,
+        "purposes": [
+          "conveyance"
+        ],
+        "quote": "Median storm drains shall be designed for a 50-year frequency.",
+        "page": 161
+      },
+      {
+        "years": 100,
+        "purposes": [
+          "flood"
+        ],
+        "quote": "The 100-year flood should be used for this design.",
+        "page": 311
+      }
     ]
   }
 }

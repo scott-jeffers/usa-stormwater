@@ -267,6 +267,40 @@
       "green_roof_media_depth_inches",
       "green_roof_slope_percent",
       "mtd_verification_program"
+    ],
+    "design_storms": [
+      {
+        "years": 2,
+        "purposes": [
+          "peak_control"
+        ],
+        "quote": "The terrace should have enough capacity to handle the peak runoff expected from a 2-year, 24-hour design storm without overtopping.",
+        "page": 48
+      },
+      {
+        "years": 10,
+        "purposes": [
+          "peak_control"
+        ],
+        "quote": "The channel shall not be overtopped by the peak runoff from a 10-year, 24-hour design storm.",
+        "page": 52
+      },
+      {
+        "years": 25,
+        "purposes": [
+          "other"
+        ],
+        "quote": null,
+        "page": null
+      },
+      {
+        "years": 100,
+        "purposes": [
+          "peak_control"
+        ],
+        "quote": "These outlets must pass the peak runoff expected from the contributing drainage area for a 100-year storm.",
+        "page": 80
+      }
     ]
   }
 }

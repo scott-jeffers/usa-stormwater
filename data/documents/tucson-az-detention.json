@@ -220,6 +220,39 @@
       "green_roof_media_depth_inches",
       "green_roof_slope_percent",
       "mtd_verification_program"
+    ],
+    "wqv_basis": "rainfall",
+    "value_qualifiers": {
+      "bioretention_media_depth_min_inches": "min",
+      "wqv_depth_inches": "design"
+    },
+    "design_storms": [
+      {
+        "years": 2,
+        "purposes": [
+          "peak_control"
+        ],
+        "quote": "The pump’s discharge rate shall not exceed the pre-developed conditions 2-year peak discharge rate.",
+        "page": 59
+      },
+      {
+        "years": 10,
+        "purposes": [
+          "conveyance"
+        ],
+        "quote": "When flow crosses a sidewalk or other paved pedestrian pathway, a scupper or other conveyance to prohibit overtopping of the 10-year design discharge shall be used.",
+        "page": 45
+      },
+      {
+        "years": 100,
+        "purposes": [
+          "peak_control",
+          "flood",
+          "conveyance"
+        ],
+        "quote": "The design capacity of the emergency spillway shall be the pre-developed 100-year peak discharge outflow rate.",
+        "page": 52
+      }
     ]
   }
 }

@@ -66,11 +66,6 @@
       "page_or_section": "p18"
     },
     {
-      "field": "design_parameters.max_drawdown_hours",
-      "excerpt": "The simplest approach to sizing the treatment cell is to multiply the allowable discharge flow rate by the desired drawdown time. A 4-hour drawdown time allows 1 batch per cell per 8-hour work period, given 1 hour of flocculation followed by 2 hours of settling.",
-      "page_or_section": "Chapter 5: BMPs for Dewatering, page 200"
-    },
-    {
       "field": "design_parameters.practice_mentions.swale",
       "excerpt": "A small, temporary dam constructed across a swale or stormwater conveyance channel.",
       "page_or_section": "Section 3.8 Temporary Check Dam, page 117"
@@ -107,7 +102,7 @@
   },
   "design_parameters": {
     "wqv_depth_inches": null,
-    "max_drawdown_hours": 4,
+    "max_drawdown_hours": null,
     "shwt_separation_inches": null,
     "bioretention_media_depth_min_inches": null,
     "bioretention_ponding_depth_inches": null,
@@ -146,6 +141,25 @@
       "green_roof_media_depth_inches",
       "green_roof_slope_percent",
       "mtd_verification_program"
+    ],
+    "value_qualifiers": {},
+    "design_storms": [
+      {
+        "years": 2,
+        "purposes": [
+          "peak_control"
+        ],
+        "quote": "If the discharge is direct or indirect to a stream, the discharge flow rate should not exceed 50 % of the peak flow rate for all events between the 2-year and the 10-year, 24-hour event.",
+        "page": 197
+      },
+      {
+        "years": 10,
+        "purposes": [
+          "peak_control"
+        ],
+        "quote": "If no emergency spillway is used, the principal spillway must be designed to pass the entire peak flow expected from a 10-year storm.",
+        "page": 106
+      }
     ]
   }
 }

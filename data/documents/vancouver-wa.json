@@ -163,7 +163,7 @@
     "bioretention_media_depth_min_inches": null,
     "bioretention_ponding_depth_inches": 12,
     "permeable_pavement_storage_depth_inches": null,
-    "design_infiltration_rate_in_per_hr": 250,
+    "design_infiltration_rate_in_per_hr": 12,
     "permanent_pool_depth_inches": null,
     "ed_drain_time_hours": null,
     "length_to_width_ratio": null,
@@ -204,6 +204,54 @@
       "green_roof_media_depth_inches",
       "green_roof_slope_percent",
       "mtd_verification_program"
+    ],
+    "value_qualifiers": {
+      "bioretention_ponding_depth_inches": "max",
+      "design_infiltration_rate_in_per_hr": "design",
+      "shwt_separation_inches": "min"
+    },
+    "design_storms": [
+      {
+        "years": 2,
+        "purposes": [
+          "peak_control",
+          "channel_protection"
+        ],
+        "quote": "Downstream of Detention BMPs: The Water Quality Design Flow Rate shall be the full 2-year release rate from the detention BMP.",
+        "page": 37
+      },
+      {
+        "years": 10,
+        "purposes": [
+          "conveyance"
+        ],
+        "quote": "Temporary pipe slope drains must be sized to convey the flow rate calculated by one of the following methods: x Single Event Hydrograph Method: The peak volumetric flow rate calculated using a 10-minute time step from a Type 1A, 10-year, 24-hour frequency storm.",
+        "page": 81
+      },
+      {
+        "years": 25,
+        "purposes": [
+          "other"
+        ],
+        "quote": null,
+        "page": null
+      },
+      {
+        "years": 50,
+        "purposes": [
+          "peak_control"
+        ],
+        "quote": "The design must assure that flows delivered to Type 5 stream reaches will approximate, but in no case exceed, durations ranging from 50% of the 2-year to the 50-year peak flow.",
+        "page": 97
+      },
+      {
+        "years": 100,
+        "purposes": [
+          "peak_control"
+        ],
+        "quote": "Provide the amount of effective impervious area in each Threshold Discharge Area (TDA), and document through an approved continuous runoff simulation model (e.g., the Western Washington Hydrologic Model 2012[WWHM2012]) the increase in the 100-year flood frequency from predeveloped to developed condi",
+        "page": 10
+      }
     ]
   }
 }

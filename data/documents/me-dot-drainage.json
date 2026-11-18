@@ -110,6 +110,32 @@
       "green_roof_media_depth_inches",
       "green_roof_slope_percent",
       "mtd_verification_program"
+    ],
+    "design_storms": [
+      {
+        "years": 10,
+        "purposes": [
+          "conveyance"
+        ],
+        "quote": "Ditches are not typically designed for hydraulic capacity, but in certain situations they should be designed for the 10-year return period.",
+        "page": 5
+      },
+      {
+        "years": 50,
+        "purposes": [
+          "other"
+        ],
+        "quote": null,
+        "page": null
+      },
+      {
+        "years": 100,
+        "purposes": [
+          "other"
+        ],
+        "quote": null,
+        "page": null
+      }
     ]
   }
 }

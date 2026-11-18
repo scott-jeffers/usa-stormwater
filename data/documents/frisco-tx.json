@@ -166,6 +166,49 @@
       "green_roof_media_depth_inches",
       "green_roof_slope_percent",
       "mtd_verification_program"
+    ],
+    "wqv_basis": "rainfall",
+    "value_qualifiers": {
+      "bioretention_media_depth_min_inches": "min",
+      "bioretention_ponding_depth_inches": "max",
+      "ed_drain_time_hours": "max",
+      "max_drawdown_hours": "max",
+      "wqv_depth_inches": "design"
+    },
+    "design_storms": [
+      {
+        "years": 2,
+        "purposes": [
+          "conveyance"
+        ],
+        "quote": "When multiple box culverts are installed, one shall be lowered to accommodate 2-year flows in the lowest part of the channel.",
+        "page": 136
+      },
+      {
+        "years": 5,
+        "purposes": [
+          "other"
+        ],
+        "quote": null,
+        "page": null
+      },
+      {
+        "years": 25,
+        "purposes": [
+          "other"
+        ],
+        "quote": null,
+        "page": null
+      },
+      {
+        "years": 100,
+        "purposes": [
+          "conveyance",
+          "flood"
+        ],
+        "quote": "100-year inlet length required to capture 100% of the gutter flow (ft)",
+        "page": 123
+      }
     ]
   }
 }

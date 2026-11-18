@@ -209,6 +209,32 @@
       "green_roof_media_depth_inches",
       "green_roof_slope_percent",
       "mtd_verification_program"
+    ],
+    "design_storms": [
+      {
+        "years": 5,
+        "purposes": [
+          "other"
+        ],
+        "quote": null,
+        "page": null
+      },
+      {
+        "years": 25,
+        "purposes": [
+          "peak_control"
+        ],
+        "quote": "3.2 Design Storm Unless otherwise specified by previous Agency permits, criteria, or Appendix A to this Volume, a 25-year, 3-day storm event shall be used in computing off-site discharge rates.",
+        "page": 12
+      },
+      {
+        "years": 100,
+        "purposes": [
+          "flood"
+        ],
+        "quote": "Both tidal flooding and the 100-year, 3-day storm event shall be considered in determining elevations.",
+        "page": 14
+      }
     ]
   }
 }

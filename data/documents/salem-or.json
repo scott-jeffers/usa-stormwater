@@ -66,11 +66,6 @@
       "page_or_section": "Easements"
     },
     {
-      "field": "design_parameters.max_drawdown_hours",
-      "excerpt": "All stormwater managed by the rain garden must drain from the storage reservoir (bottom of drain rock) within 48 hours after a design storm event ends.",
-      "page_or_section": "Section 4.6(b)(2)-Rain Garden, page 112"
-    },
-    {
       "field": "design_parameters.shwt_separation_inches",
       "excerpt": "Infiltration or partial infiltration facilities are prohibited on sites with less than 3 ft of vertical separation between the bottom of the facility (i.e., bottom of drain rock layer) and seasonal high ground water elevation.",
       "page_or_section": "Table 4-1, page 93"
@@ -89,11 +84,6 @@
       "field": "design_parameters.design_infiltration_rate_in_per_hr",
       "excerpt": "The design infiltration rate must be 0.5 inches per hour or greater.",
       "page_or_section": "Section 4.6(d)(2) Private System, page 109"
-    },
-    {
-      "field": "design_parameters.max_drawdown_hours",
-      "excerpt": "The minimum drawdown time for a soakage trench, leach line, or manufactured chamber technology for the applicable design storm event is 48 hours.",
-      "page_or_section": "Section 4.6(b)(4) Subsurface Infiltration, page 119"
     }
   ],
   "extraction_quality": {
@@ -115,7 +105,7 @@
   },
   "design_parameters": {
     "wqv_depth_inches": null,
-    "max_drawdown_hours": 48,
+    "max_drawdown_hours": null,
     "shwt_separation_inches": 36,
     "bioretention_media_depth_min_inches": null,
     "bioretention_ponding_depth_inches": null,
@@ -157,6 +147,21 @@
       "green_roof_media_depth_inches",
       "green_roof_slope_percent",
       "mtd_verification_program"
+    ],
+    "value_qualifiers": {
+      "design_infiltration_rate_in_per_hr": "min",
+      "shwt_separation_inches": "min",
+      "wetland_detention_hours": "min"
+    },
+    "design_storms": [
+      {
+        "years": 100,
+        "purposes": [
+          "flood"
+        ],
+        "quote": "Pervious pavement shall not be used in areas within the 100-year floodplain.",
+        "page": 121
+      }
     ]
   }
 }

@@ -229,6 +229,65 @@
       "swale_longitudinal_slope_percent",
       "green_roof_slope_percent",
       "mtd_verification_program"
+    ],
+    "value_qualifiers": {
+      "green_roof_media_depth_inches": "min",
+      "length_to_width_ratio": "min",
+      "permanent_pool_depth_inches": "design",
+      "swale_bottom_width_inches": "min"
+    },
+    "design_storms": [
+      {
+        "years": 2,
+        "purposes": [
+          "peak_control"
+        ],
+        "quote": "The terrace should have enough capacity to handle the peak runoff expected from a 2-year, 24-hour design storm without overtopping.",
+        "page": 177
+      },
+      {
+        "years": 5,
+        "purposes": [
+          "other"
+        ],
+        "quote": null,
+        "page": null
+      },
+      {
+        "years": 10,
+        "purposes": [
+          "peak_control"
+        ],
+        "quote": "The diameter shall be the minimum necessary to pass the pre-developed 10-year peak flow (Q10).",
+        "page": 237
+      },
+      {
+        "years": 25,
+        "purposes": [
+          "conveyance",
+          "peak_control"
+        ],
+        "quote": "Drains and culverts passing under public roads and arterial streets shall be designed for the 25-year event.",
+        "page": 278
+      },
+      {
+        "years": 50,
+        "purposes": [
+          "peak_control"
+        ],
+        "quote": "If the post-development flow duration values exceed any of the pre-development flow levels between 100% of the 2-year and 100% of the 50-year pre-development peak flow values more than 10 percent of the time (110 Percent Threshold) then the flow duration requirement has not been met.",
+        "page": 271
+      },
+      {
+        "years": 100,
+        "purposes": [
+          "peak_control",
+          "flood",
+          "conveyance"
+        ],
+        "quote": "These outlets must pass the peak runoff expected from the contributing drainage area for a 100-year storm.",
+        "page": 233
+      }
     ]
   }
 }

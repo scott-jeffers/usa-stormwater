@@ -127,6 +127,11 @@
       "green_roof_media_depth_inches",
       "green_roof_slope_percent",
       "mtd_verification_program"
-    ]
+    ],
+    "wqv_basis": "rainfall",
+    "value_qualifiers": {
+      "swale_longitudinal_slope_percent": "min",
+      "wqv_depth_inches": "design"
+    }
   }
 }

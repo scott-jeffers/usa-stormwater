@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-18T16:49:02.519Z",
+ "generated_at": "2026-11-18T18:00:31.893Z",
  "method": "One value per state (median of hand-checked state-level records). Agreement = share of states within ±10% of the most common value. Climate = eta² across NOAA U.S. climate regions with a 10,000-shuffle permutation p-value. Classes: insufficient (<8 states), consensus (agreement ≥ 50%), climate-linked (p < 0.10, suggestive), divergent (otherwise).",
  "criteria": [
   {
@@ -7,18 +7,18 @@
    "label": "Water-quality rainfall depth",
    "unit": "in",
    "reads_as": "rainfall depth the water-quality volume is sized for",
-   "states": 21,
-   "records": 24,
-   "excluded": 2,
+   "states": 15,
+   "records": 17,
+   "excluded": 9,
    "min": 0.5,
    "median": 1,
    "max": 1.25,
-   "distinct_values": 7,
+   "distinct_values": 6,
    "most_common": 1,
-   "agreement": 0.52,
-   "climate_eta2": 0.38,
-   "climate_p": 0.1928,
-   "class": "consensus",
+   "agreement": 0.47,
+   "climate_eta2": 0.23,
+   "climate_p": 0.3826,
+   "class": "divergent",
    "by_state": [
     {
      "state": "CT",
@@ -39,12 +39,6 @@
      "records": 1
     },
     {
-     "state": "HI",
-     "region": "Hawaii",
-     "value": 1,
-     "records": 1
-    },
-    {
      "state": "IA",
      "region": "Upper Midwest",
      "value": 1.25,
@@ -57,19 +51,7 @@
      "records": 1
     },
     {
-     "state": "MA",
-     "region": "Northeast",
-     "value": 0.75,
-     "records": 2
-    },
-    {
      "state": "MD",
-     "region": "Northeast",
-     "value": 1,
-     "records": 1
-    },
-    {
-     "state": "ME",
      "region": "Northeast",
      "value": 1,
      "records": 1
@@ -90,12 +72,6 @@
      "state": "NC",
      "region": "Southeast",
      "value": 1,
-     "records": 1
-    },
-    {
-     "state": "NE",
-     "region": "Northern Rockies & Plains",
-     "value": 0.5,
      "records": 1
     },
     {
@@ -123,18 +99,6 @@
      "records": 2
     },
     {
-     "state": "RI",
-     "region": "Northeast",
-     "value": 1,
-     "records": 1
-    },
-    {
-     "state": "VA",
-     "region": "Southeast",
-     "value": 1,
-     "records": 1
-    },
-    {
      "state": "VT",
      "region": "Northeast",
      "value": 1,
@@ -150,9 +114,9 @@
    "by_region": [
     {
      "region": "Northeast",
-     "states": 10,
-     "median": 1,
-     "min": 0.75,
+     "states": 7,
+     "median": 1.15,
+     "min": 1,
      "max": 1.25
     },
     {
@@ -171,24 +135,10 @@
     },
     {
      "region": "Southeast",
-     "states": 3,
-     "median": 1,
+     "states": 2,
+     "median": 1.1,
      "min": 1,
      "max": 1.2
-    },
-    {
-     "region": "Northern Rockies & Plains",
-     "states": 1,
-     "median": 0.5,
-     "min": 0.5,
-     "max": 0.5
-    },
-    {
-     "region": "Hawaii",
-     "states": 1,
-     "median": 1,
-     "min": 1,
-     "max": 1
     }
    ]
   },
@@ -202,13 +152,13 @@
    "excluded": 5,
    "min": 24,
    "median": 72,
-   "max": 120,
-   "distinct_values": 6,
+   "max": 96,
+   "distinct_values": 5,
    "most_common": 72,
    "agreement": 0.44,
-   "climate_eta2": 0.4,
-   "climate_p": 0.3602,
-   "class": "divergent",
+   "climate_eta2": 0.52,
+   "climate_p": 0.0929,
+   "class": "climate-linked",
    "by_state": [
     {
      "state": "AL",
@@ -285,13 +235,13 @@
     {
      "state": "MS",
      "region": "South",
-     "value": 120,
+     "value": 48,
      "records": 1
     },
     {
      "state": "MT",
      "region": "Northern Rockies & Plains",
-     "value": 72,
+     "value": 60,
      "records": 2
     },
     {
@@ -363,7 +313,7 @@
     {
      "state": "WA",
      "region": "Northwest",
-     "value": 48,
+     "value": 72,
      "records": 1
     },
     {
@@ -405,16 +355,16 @@
     {
      "region": "Northern Rockies & Plains",
      "states": 2,
-     "median": 72,
-     "min": 72,
+     "median": 66,
+     "min": 60,
      "max": 72
     },
     {
      "region": "South",
      "states": 2,
-     "median": 84,
+     "median": 48,
      "min": 48,
-     "max": 120
+     "max": 48
     },
     {
      "region": "Southwest",
@@ -426,8 +376,8 @@
     {
      "region": "Northwest",
      "states": 2,
-     "median": 60,
-     "min": 48,
+     "median": 72,
+     "min": 72,
      "max": 72
     },
     {
@@ -454,14 +404,14 @@
    "states": 24,
    "records": 31,
    "excluded": 2,
-   "min": 12,
+   "min": 18,
    "median": 33,
    "max": 60,
-   "distinct_values": 7,
+   "distinct_values": 6,
    "most_common": 24,
-   "agreement": 0.38,
-   "climate_eta2": 0.44,
-   "climate_p": 0.3422,
+   "agreement": 0.33,
+   "climate_eta2": 0.56,
+   "climate_p": 0.1175,
    "class": "divergent",
    "by_state": [
     {
@@ -521,7 +471,7 @@
     {
      "state": "ME",
      "region": "Northeast",
-     "value": 12,
+     "value": 18,
      "records": 1
     },
     {
@@ -533,19 +483,19 @@
     {
      "state": "MS",
      "region": "South",
-     "value": 24,
+     "value": 36,
      "records": 1
     },
     {
      "state": "MT",
      "region": "Northern Rockies & Plains",
-     "value": 24,
+     "value": 30,
      "records": 2
     },
     {
      "state": "NJ",
      "region": "Northeast",
-     "value": 12,
+     "value": 24,
      "records": 1
     },
     {
@@ -557,7 +507,7 @@
     {
      "state": "OH",
      "region": "Ohio Valley",
-     "value": 42,
+     "value": 30,
      "records": 2
     },
     {
@@ -614,7 +564,7 @@
      "region": "Northeast",
      "states": 10,
      "median": 24,
-     "min": 12,
+     "min": 18,
      "max": 48
     },
     {
@@ -629,7 +579,7 @@
      "states": 4,
      "median": 27,
      "min": 24,
-     "max": 42
+     "max": 30
     },
     {
      "region": "Southeast",
@@ -641,15 +591,15 @@
     {
      "region": "Northern Rockies & Plains",
      "states": 1,
-     "median": 24,
-     "min": 24,
-     "max": 24
+     "median": 30,
+     "min": 30,
+     "max": 30
     },
     {
      "region": "South",
      "states": 2,
-     "median": 36,
-     "min": 24,
+     "median": 42,
+     "min": 36,
      "max": 48
     },
     {
@@ -898,11 +848,11 @@
    "min": 0.09,
    "median": 0.5,
    "max": 2,
-   "distinct_values": 11,
+   "distinct_values": 10,
    "most_common": 0.5,
-   "agreement": 0.54,
-   "climate_eta2": 0.2,
-   "climate_p": 0.73,
+   "agreement": 0.5,
+   "climate_eta2": 0.3,
+   "climate_p": 0.5646,
    "class": "consensus",
    "by_state": [
     {
@@ -974,7 +924,7 @@
     {
      "state": "MS",
      "region": "South",
-     "value": 0.52,
+     "value": 2,
      "records": 1
     },
     {
@@ -1004,7 +954,7 @@
     {
      "state": "RI",
      "region": "Northeast",
-     "value": 0.51,
+     "value": 0.5,
      "records": 2
     },
     {
@@ -1089,9 +1039,9 @@
     {
      "region": "South",
      "states": 2,
-     "median": 0.51,
+     "median": 1.25,
      "min": 0.5,
-     "max": 0.52
+     "max": 2
     },
     {
      "region": "Northwest",
@@ -1128,18 +1078,18 @@
    "label": "Minimum wet-pond permanent pool depth",
    "unit": "in",
    "reads_as": "minimum depth of a wet pond's permanent pool",
-   "states": 8,
-   "records": 8,
-   "excluded": 9,
+   "states": 7,
+   "records": 7,
+   "excluded": 10,
    "min": 36,
    "median": 48,
    "max": 72,
    "distinct_values": 4,
-   "most_common": 48,
-   "agreement": 0.38,
+   "most_common": 36,
+   "agreement": 0.29,
    "climate_eta2": 0.62,
-   "climate_p": 0.149,
-   "class": "divergent",
+   "climate_p": 0.1404,
+   "class": "insufficient",
    "by_state": [
     {
      "state": "CT",
@@ -1182,18 +1132,12 @@
      "region": "Northeast",
      "value": 48,
      "records": 1
-    },
-    {
-     "state": "VT",
-     "region": "Northeast",
-     "value": 48,
-     "records": 1
     }
    ],
    "by_region": [
     {
      "region": "Northeast",
-     "states": 6,
+     "states": 5,
      "median": 48,
      "min": 36,
      "max": 60
@@ -1314,7 +1258,7 @@
    "most_common": 24,
    "agreement": 0.63,
    "climate_eta2": 0.46,
-   "climate_p": 0.1173,
+   "climate_p": 0.1202,
    "class": "consensus",
    "by_state": [
     {
@@ -1492,7 +1436,7 @@
    "most_common": 2,
    "agreement": 0.52,
    "climate_eta2": 0.47,
-   "climate_p": 0.1813,
+   "climate_p": 0.1827,
    "class": "consensus",
    "by_state": [
     {
@@ -1696,7 +1640,7 @@
    "most_common": 80,
    "agreement": 0.95,
    "climate_eta2": 0.33,
-   "climate_p": 0.4734,
+   "climate_p": 0.4621,
    "class": "consensus",
    "by_state": [
     {

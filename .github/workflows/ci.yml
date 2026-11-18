@@ -19,6 +19,7 @@ jobs:
       - run: npm run typecheck
       - run: npm test
       - run: npm run qa:normalize -- --check
+      - run: npm run qa:apply-review -- --check
       # prebuild runs export:data (tsx) — exercises the Linux script toolchain too
       - run: npm run build
       - run: npm run national:smoke

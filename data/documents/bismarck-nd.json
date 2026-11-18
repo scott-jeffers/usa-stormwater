@@ -182,6 +182,46 @@
       "green_roof_media_depth_inches",
       "green_roof_slope_percent",
       "mtd_verification_program"
+    ],
+    "value_qualifiers": {
+      "design_infiltration_rate_in_per_hr": "min",
+      "length_to_width_ratio": "min",
+      "shwt_separation_inches": "min"
+    },
+    "design_storms": [
+      {
+        "years": 2,
+        "purposes": [
+          "conveyance"
+        ],
+        "quote": "Channels, Ditches and Swales: The 2-year 24-hour normal wetted perimeter of any temporary or permanent drainage ditch that drains water from a construction site, or diverts water around a site, must be stabilized at least 200 linear feet from the property edge, or from the point of discharge to any ",
+        "page": 94
+      },
+      {
+        "years": 5,
+        "purposes": [
+          "conveyance"
+        ],
+        "quote": "6-5 Table 6-6 – Storm Sewer Pipe Velocity Requirements for 5-year 24-hour Storm ...",
+        "page": 7
+      },
+      {
+        "years": 10,
+        "purposes": [
+          "other"
+        ],
+        "quote": null,
+        "page": null
+      },
+      {
+        "years": 100,
+        "purposes": [
+          "flood",
+          "conveyance"
+        ],
+        "quote": "Engineered channels shall meet the minimum freeboard requirements listed in Table 6-10 for the 100-year 24-hour event.",
+        "page": 74
+      }
     ]
   }
 }

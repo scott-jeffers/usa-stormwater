@@ -200,6 +200,55 @@
       "green_roof_media_depth_inches",
       "green_roof_slope_percent",
       "mtd_verification_program"
+    ],
+    "wqv_basis": "rainfall",
+    "value_qualifiers": {
+      "ed_drain_time_hours": "design",
+      "wqv_depth_inches": "design"
+    },
+    "design_storms": [
+      {
+        "years": 1,
+        "purposes": [
+          "channel_protection"
+        ],
+        "quote": "STANDARD #5 – STREAM CHANNEL PROTECTION Stream channel protection shall be provided by using all of the following three approaches: (1) 24-hour extended detention storage of the 1-year, 24-hour return frequency storm event;",
+        "page": 120
+      },
+      {
+        "years": 2,
+        "purposes": [
+          "peak_control"
+        ],
+        "quote": "If control of the 1-year, 24-hour storm (Standard #5) is exempted, then overbank flood protection shall be provided by controlling the post-development peak discharge rate to the pre-development rate (natural or existing condition, as applicable) for the 2-year through the 25-year return frequency s",
+        "page": 121
+      },
+      {
+        "years": 10,
+        "purposes": [
+          "other"
+        ],
+        "quote": null,
+        "page": null
+      },
+      {
+        "years": 25,
+        "purposes": [
+          "peak_control",
+          "flood"
+        ],
+        "quote": "VOL 1 112Implementing Stormwater Management Requirements for Development STANDARD #6 – OVERBANK FLOOD PROTECTION Overbank flood protection shall be provided by controlling the post-development peak discharge rate to the pre-development rate (natural or existing condition, as applicable) for the 25-y",
+        "page": 121
+      },
+      {
+        "years": 100,
+        "purposes": [
+          "flood",
+          "conveyance"
+        ],
+        "quote": "Ideally, the entire 100-year floodplain should be avoided for clearing or building activities, and should be preserved in a natural undisturbed state where possible.",
+        "page": 74
+      }
     ]
   }
 }

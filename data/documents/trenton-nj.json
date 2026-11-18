@@ -106,7 +106,7 @@
     "max_drawdown_hours": 72,
     "shwt_separation_inches": 12,
     "bioretention_media_depth_min_inches": 18,
-    "bioretention_ponding_depth_inches": 12,
+    "bioretention_ponding_depth_inches": 18,
     "permeable_pavement_storage_depth_inches": null,
     "design_infiltration_rate_in_per_hr": null,
     "permanent_pool_depth_inches": null,
@@ -139,6 +139,41 @@
       "green_roof_media_depth_inches",
       "green_roof_slope_percent",
       "mtd_verification_program"
+    ],
+    "wqv_basis": "rainfall",
+    "value_qualifiers": {
+      "bioretention_media_depth_min_inches": "min",
+      "bioretention_ponding_depth_inches": "max",
+      "max_drawdown_hours": "max",
+      "shwt_separation_inches": "min",
+      "swale_longitudinal_slope_percent": "max",
+      "wqv_depth_inches": "design"
+    },
+    "design_storms": [
+      {
+        "years": 2,
+        "purposes": [
+          "other"
+        ],
+        "quote": null,
+        "page": null
+      },
+      {
+        "years": 10,
+        "purposes": [
+          "other"
+        ],
+        "quote": null,
+        "page": null
+      },
+      {
+        "years": 100,
+        "purposes": [
+          "peak_control"
+        ],
+        "quote": "Standards and Computations Page 43 Step 3: Calculate the peak flow rates for the projected 100-year storm for the pre- and post construction conditions using the future precipitation change factor and compare the hydrographs.",
+        "page": 33
+      }
     ]
   }
 }

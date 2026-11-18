@@ -75,11 +75,6 @@
       "page_or_section": "Table of Contents, Chapter 3"
     },
     {
-      "field": "design_parameters.design_infiltration_rate_in_per_hr",
-      "excerpt": "pervious concrete which allows water to drain off the parking surface at a rate more rapid than any storm (up to 50 inches per hour)",
-      "page_or_section": "STORMWATER MANAGEMENT PLANNING PROCESS, page 30"
-    },
-    {
       "field": "design_parameters.practice_mentions.extended_detention",
       "excerpt": "Dry ponds, also known as detention ponds, are designed to hold water for a minimum time and then completely drain.",
       "page_or_section": "CHAPTER 5 STORMWATER BMPs, Dry Pond, page 38"
@@ -151,7 +146,7 @@
     "bioretention_media_depth_min_inches": null,
     "bioretention_ponding_depth_inches": null,
     "permeable_pavement_storage_depth_inches": null,
-    "design_infiltration_rate_in_per_hr": 50,
+    "design_infiltration_rate_in_per_hr": null,
     "permanent_pool_depth_inches": null,
     "ed_drain_time_hours": null,
     "length_to_width_ratio": null,
@@ -193,6 +188,17 @@
       "green_roof_slope_percent",
       "mtd_verification_program",
       "permeable_pavement_storage_depth_inches"
+    ],
+    "value_qualifiers": {},
+    "design_storms": [
+      {
+        "years": 10,
+        "purposes": [
+          "other"
+        ],
+        "quote": null,
+        "page": null
+      }
     ]
   }
 }

@@ -52,11 +52,6 @@
       "page_or_section": null
     },
     {
-      "field": "design_parameters.shwt_separation_inches",
-      "excerpt": "The minimum ditch bottom elevation is one foot above the estimated seasonal high groundwater elevation for maintainability.",
-      "page_or_section": "Section 2.4.4 Channel Bottom, page 2-4"
-    },
-    {
       "field": "design_parameters.permanent_pool_depth_inches",
       "excerpt": "With facilities designed to be wet, provide a minimum permanent pool depth of six feet to minimize aquatic growth.",
       "page_or_section": "Section 5.4.4.2 item 4, page 5-12"
@@ -130,7 +125,7 @@
   "design_parameters": {
     "wqv_depth_inches": null,
     "max_drawdown_hours": null,
-    "shwt_separation_inches": 12,
+    "shwt_separation_inches": null,
     "bioretention_media_depth_min_inches": null,
     "bioretention_ponding_depth_inches": null,
     "permeable_pavement_storage_depth_inches": null,
@@ -169,6 +164,69 @@
       "green_roof_media_depth_inches",
       "green_roof_slope_percent",
       "mtd_verification_program"
+    ],
+    "value_qualifiers": {
+      "permanent_pool_depth_inches": "min",
+      "swale_bottom_width_inches": "min",
+      "swale_longitudinal_slope_percent": "min"
+    },
+    "design_storms": [
+      {
+        "years": 2,
+        "purposes": [
+          "conveyance"
+        ],
+        "quote": "2.2 DESIGN FREQUENCY Design open channels to collect and convey without damage, and to confine within the ditch, stormwater flow with standard design frequencies as follows: Table 2.1: Design Storm Frequencies for Open Channels TYPE CHANNEL FREQUENCY Roadside, Median, and Interceptor Ditches or Swal",
+        "page": 14
+      },
+      {
+        "years": 5,
+        "purposes": [
+          "other"
+        ],
+        "quote": null,
+        "page": null
+      },
+      {
+        "years": 10,
+        "purposes": [
+          "conveyance"
+        ],
+        "quote": "625-040-002 Effective: January 2025 Drainage Manual 3-15 In addition to the above standards, for sections with a shoulder gutter, the spread resulting from a 10-year frequency storm will not exceed one foot, three inches outside the gutter in the direction toward the front slope.",
+        "page": 40
+      },
+      {
+        "years": 25,
+        "purposes": [
+          "other"
+        ],
+        "quote": null,
+        "page": null
+      },
+      {
+        "years": 50,
+        "purposes": [
+          "other"
+        ],
+        "quote": null,
+        "page": null
+      },
+      {
+        "years": 100,
+        "purposes": [
+          "other"
+        ],
+        "quote": null,
+        "page": null
+      },
+      {
+        "years": 500,
+        "purposes": [
+          "other"
+        ],
+        "quote": null,
+        "page": null
+      }
     ]
   }
 }

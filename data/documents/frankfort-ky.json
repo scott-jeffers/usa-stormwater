@@ -47,6 +47,30 @@
       "max_drawdown_hours",
       "shwt_separation_inches",
       "bioretention_media_depth_min_inches"
+    ],
+    "wqv_basis": "rainfall",
+    "value_qualifiers": {
+      "wqv_depth_inches": "design"
+    },
+    "design_storms": [
+      {
+        "years": 10,
+        "purposes": [
+          "conveyance"
+        ],
+        "quote": "3.3 Storm Sewers Storm Sewers shall be sized to flow under gravity conditions for the 10-year 1-hour design storm and shall be able convey the 100-year 6-hour storm without overflows.",
+        "page": 12
+      },
+      {
+        "years": 100,
+        "purposes": [
+          "conveyance",
+          "peak_control",
+          "flood"
+        ],
+        "quote": "Channel depth shall be as necessary to convey 100-year 6-hour (see Table 3.1- 1) peak discharge",
+        "page": 13
+      }
     ]
   },
   "evidence": [

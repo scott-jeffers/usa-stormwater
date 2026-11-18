@@ -151,11 +151,6 @@
       "page_or_section": "Bioretention Systems, page 619"
     },
     {
-      "field": "design_parameters.length_to_width_ratio",
-      "excerpt": "Typical dimensions for a bioretention area are 10 feet wide by 20 feet long. Any system wider than 20 feet should be at least twice as long to evenly distribute the flow.",
-      "page_or_section": "Bioretention Systems, page 619"
-    },
-    {
       "field": "design_parameters.ed_drain_time_hours",
       "excerpt": "Water is retained during storm events and released into the permanent pool over 12 to 48 hours.",
       "page_or_section": "Wet Detention Ponds, Table 4, page 640"
@@ -174,11 +169,6 @@
       "field": "design_parameters.practice_mentions.swale",
       "excerpt": "Dry swales are similar to a bioretention system.",
       "page_or_section": "Vegetated Swales, page 530"
-    },
-    {
-      "field": "design_parameters.length_to_width_ratio",
-      "excerpt": "Lay out the location and shape of the sediment trap allowing for a length to width ratio of 2:1 or greater.",
-      "page_or_section": "PDF p. 397 · found by QA search"
     }
   ],
   "extraction_quality": {
@@ -206,7 +196,7 @@
     "design_infiltration_rate_in_per_hr": null,
     "permanent_pool_depth_inches": null,
     "ed_drain_time_hours": null,
-    "length_to_width_ratio": 2,
+    "length_to_width_ratio": null,
     "wetland_detention_hours": null,
     "swale_bottom_width_inches": null,
     "swale_longitudinal_slope_percent": null,
@@ -239,6 +229,34 @@
       "green_roof_media_depth_inches",
       "green_roof_slope_percent",
       "mtd_verification_program"
+    ],
+    "wqv_basis": "rainfall",
+    "value_qualifiers": {
+      "bioretention_media_depth_min_inches": "min",
+      "max_drawdown_hours": "typical",
+      "shwt_separation_inches": "min",
+      "wqv_depth_inches": "typical"
+    },
+    "design_storms": [
+      {
+        "years": 10,
+        "purposes": [
+          "flood",
+          "conveyance",
+          "channel_protection",
+          "peak_control"
+        ],
+        "quote": "Emergency Spillway shall be at or above the 10-year, 24-hour precipitation event.",
+        "page": 933
+      },
+      {
+        "years": 100,
+        "purposes": [
+          "flood"
+        ],
+        "quote": "Ideally the 100-year flood plain should be avoided for clearing and building.",
+        "page": 82
+      }
     ]
   }
 }

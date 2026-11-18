@@ -131,7 +131,7 @@
     "original_filename": "garland-tx.pdf"
   },
   "design_parameters": {
-    "wqv_depth_inches": 0.96,
+    "wqv_depth_inches": 1,
     "max_drawdown_hours": null,
     "shwt_separation_inches": null,
     "bioretention_media_depth_min_inches": null,
@@ -176,6 +176,37 @@
       "green_roof_media_depth_inches",
       "green_roof_slope_percent",
       "mtd_verification_program"
+    ],
+    "wqv_basis": "rainfall",
+    "value_qualifiers": {
+      "wqv_depth_inches": "design"
+    },
+    "design_storms": [
+      {
+        "years": 2,
+        "purposes": [
+          "other"
+        ],
+        "quote": null,
+        "page": null
+      },
+      {
+        "years": 10,
+        "purposes": [
+          "other"
+        ],
+        "quote": null,
+        "page": null
+      },
+      {
+        "years": 100,
+        "purposes": [
+          "flood",
+          "conveyance"
+        ],
+        "quote": "Sealed manholes required in creeks, drainage easements, and 100-year flood plains.",
+        "page": 260
+      }
     ]
   }
 }

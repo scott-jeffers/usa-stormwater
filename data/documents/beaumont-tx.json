@@ -130,6 +130,57 @@
       "green_roof_media_depth_inches",
       "green_roof_slope_percent",
       "mtd_verification_program"
+    ],
+    "design_storms": [
+      {
+        "years": 2,
+        "purposes": [
+          "other"
+        ],
+        "quote": null,
+        "page": null
+      },
+      {
+        "years": 5,
+        "purposes": [
+          "other"
+        ],
+        "quote": null,
+        "page": null
+      },
+      {
+        "years": 10,
+        "purposes": [
+          "peak_control"
+        ],
+        "quote": "The maximum post-development discharge for the 10-year, 25-year, 50-year, and 100-year peak flow, measured where drainage leaves the Applicant/Owner’s property, shall not exceed the pre-development aforementioned peak flow discharges at that location.",
+        "page": 29
+      },
+      {
+        "years": 25,
+        "purposes": [
+          "other"
+        ],
+        "quote": null,
+        "page": null
+      },
+      {
+        "years": 50,
+        "purposes": [
+          "other"
+        ],
+        "quote": null,
+        "page": null
+      },
+      {
+        "years": 100,
+        "purposes": [
+          "peak_control",
+          "conveyance"
+        ],
+        "quote": "Improvements to outfalls shall be designed to convey the 100-year peak flow discharge.",
+        "page": 23
+      }
     ]
   }
 }

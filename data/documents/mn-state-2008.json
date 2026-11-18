@@ -250,6 +250,69 @@
       "green_roof_media_depth_inches",
       "green_roof_slope_percent",
       "mtd_verification_program"
+    ],
+    "value_qualifiers": {
+      "bioretention_media_depth_min_inches": "typical",
+      "ed_drain_time_hours": "min",
+      "max_drawdown_hours": "max",
+      "permanent_pool_depth_inches": "min",
+      "shwt_separation_inches": "min"
+    },
+    "design_storms": [
+      {
+        "years": 1,
+        "purposes": [
+          "channel_protection"
+        ],
+        "quote": "The recommended channel protection criterion is to provide 24 hours of extended detention for the runoff generated from the 1-year 24-hour design storm.",
+        "page": 255
+      },
+      {
+        "years": 2,
+        "purposes": [
+          "peak_control",
+          "water_quality",
+          "channel_protection"
+        ],
+        "quote": "1 Grass channels are designed to meet a runoff velocity target for a water quality storm as well as the peak discharge from a 2-year design storm.",
+        "page": 406
+      },
+      {
+        "years": 5,
+        "purposes": [
+          "other"
+        ],
+        "quote": null,
+        "page": null
+      },
+      {
+        "years": 10,
+        "purposes": [
+          "peak_control",
+          "flood"
+        ],
+        "quote": "Most localities in Minnesota require that post-development peak discharge rates from the 10-year and/or 25-year, 24-hour design storm event be controlled to pre-development rates.",
+        "page": 258
+      },
+      {
+        "years": 25,
+        "purposes": [
+          "peak_control",
+          "channel_protection"
+        ],
+        "quote": "Most localities in Minnesota require that post-development peak discharge rates from the 10-year and/or 25-year, 24-hour design storm event be controlled to pre-development rates.",
+        "page": 258
+      },
+      {
+        "years": 100,
+        "purposes": [
+          "peak_control",
+          "flood",
+          "channel_protection"
+        ],
+        "quote": "Extreme Storm (Vp100) Current Local Requirement: Varies, but frequently involves 100-year design storm peak discharge control.",
+        "page": 246
+      }
     ]
   }
 }

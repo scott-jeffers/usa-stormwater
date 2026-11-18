@@ -63,11 +63,6 @@
       "page_or_section": "1.2.2.1, page 18"
     },
     {
-      "field": "design_parameters.max_drawdown_hours",
-      "excerpt": "The water quality treatment requirement can be met by providing a 24-hour drawdown of a portion of WQv in a stormwater pond or wetland system",
-      "page_or_section": "1.2.2.1, page 18"
-    },
-    {
       "field": "design_parameters.ed_drain_time_hours",
       "excerpt": "providing a 24-hour drawdown of a portion of WQv in a stormwater pond or wetland system (as described in Chapter 5). Referred to as water quality ED (extended detention)",
       "page_or_section": "1.2.2.1, page 18"
@@ -100,7 +95,7 @@
   },
   "design_parameters": {
     "wqv_depth_inches": 1.2,
-    "max_drawdown_hours": 24,
+    "max_drawdown_hours": null,
     "shwt_separation_inches": null,
     "bioretention_media_depth_min_inches": null,
     "bioretention_ponding_depth_inches": null,
@@ -144,6 +139,26 @@
       "green_roof_media_depth_inches",
       "green_roof_slope_percent",
       "mtd_verification_program"
+    ],
+    "wqv_basis": "rainfall",
+    "value_qualifiers": {
+      "ed_drain_time_hours": "design",
+      "swale_bottom_width_inches": "max",
+      "swale_longitudinal_slope_percent": "max",
+      "wqv_depth_inches": "design"
+    },
+    "design_storms": [
+      {
+        "years": 100,
+        "purposes": [
+          "channel_protection",
+          "flood",
+          "conveyance",
+          "peak_control"
+        ],
+        "quote": "The downstream flood control criterion is based on an analysis of the “Streambank Protection” and “Conveyance” storm events, as well as the 100-year, 24-hour storm, (denoted Qp100).",
+        "page": 26
+      }
     ]
   }
 }

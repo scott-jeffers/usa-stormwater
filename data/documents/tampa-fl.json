@@ -249,6 +249,27 @@
       "green_roof_media_depth_inches",
       "green_roof_slope_percent",
       "mtd_verification_program"
+    ],
+    "value_qualifiers": {
+      "shwt_separation_inches": "min"
+    },
+    "design_storms": [
+      {
+        "years": 25,
+        "purposes": [
+          "peak_control"
+        ],
+        "quote": "(10) All terminal discharge structures are designed to withstand the 25-year, 24-hour postdevelopment discharge without functional failure.",
+        "page": 36
+      },
+      {
+        "years": 100,
+        "purposes": [
+          "flood"
+        ],
+        "quote": "(b) Industrial, commercial or other non-residential buildings susceptible to flood damage should have the lowest floor elevated above the 100-year flood elevation.",
+        "page": 20
+      }
     ]
   }
 }

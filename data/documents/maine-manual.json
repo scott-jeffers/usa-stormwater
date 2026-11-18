@@ -167,7 +167,7 @@
   "design_parameters": {
     "wqv_depth_inches": 1,
     "max_drawdown_hours": 48,
-    "shwt_separation_inches": 12,
+    "shwt_separation_inches": 18,
     "bioretention_media_depth_min_inches": 18,
     "bioretention_ponding_depth_inches": 6,
     "permeable_pavement_storage_depth_inches": null,
@@ -206,6 +206,54 @@
       "swale_longitudinal_slope_percent",
       "green_roof_media_depth_inches",
       "mtd_verification_program"
+    ],
+    "wqv_basis": "runoff",
+    "value_qualifiers": {
+      "bioretention_media_depth_min_inches": "min",
+      "bioretention_ponding_depth_inches": "max",
+      "design_infiltration_rate_in_per_hr": "max",
+      "green_roof_slope_percent": "min",
+      "length_to_width_ratio": "min",
+      "max_drawdown_hours": "max",
+      "shwt_separation_inches": "min",
+      "wetland_detention_hours": "range",
+      "wqv_depth_inches": "design"
+    },
+    "design_storms": [
+      {
+        "years": 1,
+        "purposes": [
+          "channel_protection"
+        ],
+        "quote": "Detention structures designed to provide channel protection detention must have principal spillways capable of providing extended detention of 12 hours for runoff from a 2-hour storm of a 1-year frequency.",
+        "page": 11
+      },
+      {
+        "years": 2,
+        "purposes": [
+          "flood"
+        ],
+        "quote": "Depth and Capacity: The swale should be designed to safely convey the 2 year storm with design velocities less than 4.0 to 5.0 feet per second.",
+        "page": 93
+      },
+      {
+        "years": 10,
+        "purposes": [
+          "conveyance"
+        ],
+        "quote": "Storm drains are designed for the 10-year frequency storm.",
+        "page": 11
+      },
+      {
+        "years": 25,
+        "purposes": [
+          "flood",
+          "peak_control",
+          "conveyance"
+        ],
+        "quote": "Storage over the treatment volume may be provided to control peak flows from the 2, 10 and 25 year storms and meet the flooding standards.",
+        "page": 50
+      }
     ]
   }
 }

@@ -14,7 +14,7 @@
       50,
       100
     ],
-    "water_quality_volume_method": "Bioretention and other water quality BMPs addressed in Section 14; Atlas 14 rainfall used for hydrologic design.",
+    "water_quality_volume_method": null,
     "peak_flow_calculation_method": [
       "Rational Method",
       "HEC-HMS for larger watersheds",
@@ -51,11 +51,6 @@
       "field": "document_metadata.relationship_to_state_manual",
       "excerpt": "Stormwater Design Manual",
       "page_or_section": "Title"
-    },
-    {
-      "field": "design_criteria.water_quality_volume_method",
-      "excerpt": "bioretention",
-      "page_or_section": "Section 14"
     },
     {
       "field": "design_criteria.approved_bmp_categories",
@@ -112,7 +107,8 @@
       "document_metadata.state_code",
       "document_metadata.version_or_edition",
       "document_metadata.last_revised_date",
-      "design_criteria.required_hydrologic_hydraulic_software"
+      "design_criteria.required_hydrologic_hydraulic_software",
+      "design_criteria.water_quality_volume_method"
     ]
   },
   "source": {
@@ -123,7 +119,7 @@
   },
   "design_parameters": {
     "wqv_depth_inches": null,
-    "max_drawdown_hours": 72,
+    "max_drawdown_hours": 24,
     "shwt_separation_inches": 24,
     "bioretention_media_depth_min_inches": null,
     "bioretention_ponding_depth_inches": null,
@@ -162,6 +158,30 @@
       "green_roof_media_depth_inches",
       "green_roof_slope_percent",
       "mtd_verification_program"
+    ],
+    "value_qualifiers": {
+      "ed_drain_time_hours": "max",
+      "max_drawdown_hours": "max",
+      "shwt_separation_inches": "min"
+    },
+    "design_storms": [
+      {
+        "years": 50,
+        "purposes": [
+          "conveyance"
+        ],
+        "quote": "DRAFT - Stormwater Design Manual DRAFT – May 2022 City of El Paso 3 | P a g e Table 2- 1: Hydrologic Design Criteria Conveyance Structures Design Storm and Duration Maximum Water Surface Streets (Arterial and Major Collector) 50-year One lane high and dry (on roadways of four lanes or more) 100-year",
+        "page": 12
+      },
+      {
+        "years": 100,
+        "purposes": [
+          "flood",
+          "peak_control"
+        ],
+        "quote": "A minimum freeboard of two (2) feet for the 100-year event is required.",
+        "page": 36
+      }
     ]
   }
 }

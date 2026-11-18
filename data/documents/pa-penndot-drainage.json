@@ -163,6 +163,25 @@
       "green_roof_media_depth_inches",
       "green_roof_slope_percent",
       "mtd_verification_program"
+    ],
+    "value_qualifiers": {
+      "design_infiltration_rate_in_per_hr": "min",
+      "ed_drain_time_hours": "max",
+      "length_to_width_ratio": "min",
+      "max_drawdown_hours": "max",
+      "shwt_separation_inches": "min",
+      "swale_bottom_width_inches": "min"
+    },
+    "design_storms": [
+      {
+        "years": 10,
+        "purposes": [
+          "conveyance",
+          "peak_control"
+        ],
+        "quote": "All permanent channels are to be designed to convey the 10-year storm peak discharge.",
+        "page": 299
+      }
     ]
   }
 }

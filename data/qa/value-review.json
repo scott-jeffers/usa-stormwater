@@ -1,0 +1,5929 @@
+{
+ "reviewed_at": "2026-11-18",
+ "method": "Every numeric design parameter (1,107 values) was read against its source quote, and the page text where the quote was unclear. Each got a qualifier (min, max, design, typical, range or average) and a verdict: ok; weak (the quote does not show the value or is about a related practice); corrected (the quote states a different number; corrected_value applied); or removed (not this requirement, e.g. a construction practice or a maintenance drain). Water-quality depths also record whether the depth is rainfall or runoff.",
+ "values": {
+  "akron-oh|wqv_depth_inches": {
+   "qualifier": "design",
+   "verdict": "ok",
+   "value": 0.75,
+   "basis": "rainfall"
+  },
+  "albany-ny|wqv_depth_inches": {
+   "qualifier": "design",
+   "verdict": "ok",
+   "value": 1.2,
+   "basis": "rainfall"
+  },
+  "anchorage-ak|wqv_depth_inches": {
+   "qualifier": "design",
+   "verdict": "ok",
+   "value": 0.52,
+   "basis": "rainfall"
+  },
+  "ann-arbor-mi|wqv_depth_inches": {
+   "qualifier": "design",
+   "verdict": "weak",
+   "value": 1,
+   "basis": "rainfall"
+  },
+  "annapolis-md|wqv_depth_inches": {
+   "qualifier": "design",
+   "verdict": "ok",
+   "value": 1,
+   "basis": "rainfall"
+  },
+  "arlington-tx|wqv_depth_inches": {
+   "qualifier": "design",
+   "verdict": "ok",
+   "value": 1,
+   "basis": "runoff"
+  },
+  "asheville-nc|wqv_depth_inches": {
+   "qualifier": "design",
+   "verdict": "ok",
+   "value": 1,
+   "basis": "rainfall"
+  },
+  "athens-ga|wqv_depth_inches": {
+   "qualifier": "design",
+   "verdict": "ok",
+   "value": 1.2,
+   "basis": "rainfall"
+  },
+  "atlanta-ga|wqv_depth_inches": {
+   "qualifier": "design",
+   "verdict": "ok",
+   "value": 1.2,
+   "basis": "rainfall"
+  },
+  "augusta-ga|wqv_depth_inches": {
+   "qualifier": "design",
+   "verdict": "ok",
+   "value": 1.2,
+   "basis": "rainfall"
+  },
+  "augusta-me|wqv_depth_inches": {
+   "qualifier": "design",
+   "verdict": "ok",
+   "value": 1,
+   "basis": "runoff"
+  },
+  "aurora-co|wqv_depth_inches": {
+   "qualifier": "design",
+   "verdict": "ok",
+   "value": 0.6,
+   "basis": "rainfall"
+  },
+  "baltimore-md|wqv_depth_inches": {
+   "qualifier": "design",
+   "verdict": "weak",
+   "value": 1,
+   "note": "Quote is the redevelopment target (0.5 in); 1.0 in for new development is Maryland's state rule",
+   "basis": "rainfall"
+  },
+  "birmingham-al|wqv_depth_inches": {
+   "qualifier": "design",
+   "verdict": "weak",
+   "value": 1,
+   "basis": "runoff"
+  },
+  "boca-raton-fl|wqv_depth_inches": {
+   "qualifier": "design",
+   "verdict": "ok",
+   "value": 1,
+   "basis": "runoff"
+  },
+  "boston-ma|wqv_depth_inches": {
+   "qualifier": "design",
+   "verdict": "ok",
+   "value": 1,
+   "basis": "runoff"
+  },
+  "boulder-co|wqv_depth_inches": {
+   "qualifier": "design",
+   "verdict": "ok",
+   "value": 0.6,
+   "basis": "rainfall"
+  },
+  "bridgeport-ct|wqv_depth_inches": {
+   "qualifier": "design",
+   "verdict": "ok",
+   "value": 1.3,
+   "basis": "rainfall"
+  },
+  "burlington-vt|wqv_depth_inches": {
+   "qualifier": "design",
+   "verdict": "weak",
+   "value": 1,
+   "basis": "rainfall"
+  },
+  "cambridge-ma|wqv_depth_inches": {
+   "qualifier": "design",
+   "verdict": "ok",
+   "value": 1,
+   "basis": "runoff"
+  },
+  "cary-nc|wqv_depth_inches": {
+   "qualifier": "design",
+   "verdict": "ok",
+   "value": 1,
+   "basis": "rainfall"
+  },
+  "cedar-rapids-ia|wqv_depth_inches": {
+   "qualifier": "design",
+   "verdict": "ok",
+   "value": 1.25,
+   "basis": "rainfall"
+  },
+  "charleston-wv|wqv_depth_inches": {
+   "qualifier": "design",
+   "verdict": "ok",
+   "value": 1,
+   "basis": "rainfall"
+  },
+  "chesapeake-va|wqv_depth_inches": {
+   "qualifier": "design",
+   "verdict": "ok",
+   "value": 1,
+   "basis": "rainfall"
+  },
+  "clarksville-tn|wqv_depth_inches": {
+   "qualifier": "design",
+   "verdict": "ok",
+   "value": 1.11,
+   "basis": "rainfall"
+  },
+  "cleveland-oh|wqv_depth_inches": {
+   "qualifier": "design",
+   "verdict": "ok",
+   "value": 0.75,
+   "basis": "rainfall"
+  },
+  "college-station-tx|wqv_depth_inches": {
+   "qualifier": "design",
+   "verdict": "ok",
+   "value": 1.5,
+   "basis": "rainfall"
+  },
+  "colorado-springs-co|wqv_depth_inches": {
+   "qualifier": "design",
+   "verdict": "ok",
+   "value": 0.6,
+   "basis": "rainfall"
+  },
+  "columbia-mo|wqv_depth_inches": {
+   "qualifier": "design",
+   "verdict": "ok",
+   "value": 1.3,
+   "basis": "rainfall"
+  },
+  "columbia-sc|wqv_depth_inches": {
+   "qualifier": "design",
+   "verdict": "ok",
+   "value": 1.2,
+   "basis": "rainfall"
+  },
+  "concord-nc|wqv_depth_inches": {
+   "qualifier": "design",
+   "verdict": "ok",
+   "value": 1,
+   "basis": "rainfall"
+  },
+  "concord-nh|wqv_depth_inches": {
+   "qualifier": "design",
+   "verdict": "ok",
+   "value": 1,
+   "basis": "rainfall"
+  },
+  "corpus-christi-tx|wqv_depth_inches": {
+   "qualifier": "design",
+   "verdict": "weak",
+   "value": 0.5,
+   "basis": "runoff"
+  },
+  "ct-ctdot-drainage|wqv_depth_inches": {
+   "qualifier": "design",
+   "verdict": "ok",
+   "value": 1,
+   "basis": "rainfall"
+  },
+  "ct-state|wqv_depth_inches": {
+   "qualifier": "design",
+   "verdict": "ok",
+   "value": 1.3,
+   "basis": "rainfall"
+  },
+  "dallas-tx|wqv_depth_inches": {
+   "qualifier": "design",
+   "verdict": "ok",
+   "value": 1.5,
+   "basis": "rainfall"
+  },
+  "davenport-ia|wqv_depth_inches": {
+   "qualifier": "design",
+   "verdict": "ok",
+   "value": 1.25,
+   "basis": "rainfall"
+  },
+  "dc-ddot-stormwater|wqv_depth_inches": {
+   "qualifier": "design",
+   "verdict": "ok",
+   "value": 1.2,
+   "basis": "rainfall"
+  },
+  "dekalb-county-ga|wqv_depth_inches": {
+   "qualifier": "design",
+   "verdict": "ok",
+   "value": 1.2,
+   "basis": "rainfall"
+  },
+  "denton-tx|wqv_depth_inches": {
+   "qualifier": "design",
+   "verdict": "ok",
+   "value": 1.5,
+   "basis": "rainfall"
+  },
+  "denver-co|wqv_depth_inches": {
+   "qualifier": "design",
+   "verdict": "ok",
+   "value": 0.6,
+   "basis": "rainfall"
+  },
+  "des-moines-ia|wqv_depth_inches": {
+   "qualifier": "design",
+   "verdict": "ok",
+   "value": 1.25,
+   "basis": "rainfall"
+  },
+  "detroit-mi|wqv_depth_inches": {
+   "qualifier": "design",
+   "verdict": "ok",
+   "value": 1,
+   "basis": "rainfall"
+  },
+  "durham-nc|wqv_depth_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 1,
+   "basis": "rainfall"
+  },
+  "evansville-in|wqv_depth_inches": {
+   "qualifier": "design",
+   "verdict": "weak",
+   "value": 1,
+   "basis": "rainfall"
+  },
+  "fargo-nd|wqv_depth_inches": {
+   "qualifier": "design",
+   "verdict": "ok",
+   "value": 0.5,
+   "basis": "runoff"
+  },
+  "flagstaff-az|wqv_depth_inches": {
+   "qualifier": "design",
+   "verdict": "ok",
+   "value": 1,
+   "basis": "runoff"
+  },
+  "fort-collins-co|wqv_depth_inches": {
+   "qualifier": "design",
+   "verdict": "ok",
+   "value": 0.6,
+   "basis": "rainfall"
+  },
+  "fort-wayne-in|wqv_depth_inches": {
+   "qualifier": "design",
+   "verdict": "ok",
+   "value": 1,
+   "basis": "rainfall"
+  },
+  "fort-worth-tx|wqv_depth_inches": {
+   "qualifier": "design",
+   "verdict": "ok",
+   "value": 1.5,
+   "basis": "rainfall"
+  },
+  "frankfort-ky|wqv_depth_inches": {
+   "qualifier": "design",
+   "verdict": "ok",
+   "value": 0.87,
+   "basis": "rainfall"
+  },
+  "frisco-tx|wqv_depth_inches": {
+   "qualifier": "design",
+   "verdict": "ok",
+   "value": 1,
+   "basis": "rainfall"
+  },
+  "fulton-county-ga|wqv_depth_inches": {
+   "qualifier": "design",
+   "verdict": "ok",
+   "value": 1.2,
+   "basis": "rainfall"
+  },
+  "ga-state|wqv_depth_inches": {
+   "qualifier": "design",
+   "verdict": "ok",
+   "value": 1.2,
+   "basis": "rainfall"
+  },
+  "garland-tx|wqv_depth_inches": {
+   "qualifier": "design",
+   "verdict": "corrected",
+   "value": 0.96,
+   "corrected_value": 1.0,
+   "note": "Quote states the first 1 inch; 0.96 was not in the source",
+   "basis": "rainfall"
+  },
+  "gastonia-nc|wqv_depth_inches": {
+   "qualifier": "design",
+   "verdict": "ok",
+   "value": 1,
+   "basis": "rainfall"
+  },
+  "grand-prairie-tx|wqv_depth_inches": {
+   "qualifier": "design",
+   "verdict": "ok",
+   "value": 1.5,
+   "basis": "rainfall"
+  },
+  "grand-rapids-mi|wqv_depth_inches": {
+   "qualifier": "design",
+   "verdict": "ok",
+   "value": 1,
+   "basis": "rainfall"
+  },
+  "greensboro-nc|wqv_depth_inches": {
+   "qualifier": "design",
+   "verdict": "ok",
+   "value": 1,
+   "basis": "rainfall"
+  },
+  "greenville-sc|wqv_depth_inches": {
+   "qualifier": "design",
+   "verdict": "ok",
+   "value": 1.2,
+   "basis": "rainfall"
+  },
+  "gulfport-ms|wqv_depth_inches": {
+   "qualifier": "design",
+   "verdict": "ok",
+   "value": 1,
+   "basis": "runoff"
+  },
+  "gwinnett-county-ga|wqv_depth_inches": {
+   "qualifier": "design",
+   "verdict": "ok",
+   "value": 1.2,
+   "basis": "rainfall"
+  },
+  "harris-county-tx|wqv_depth_inches": {
+   "qualifier": "design",
+   "verdict": "ok",
+   "value": 1,
+   "basis": "runoff"
+  },
+  "harrisburg-pa|wqv_depth_inches": {
+   "qualifier": "design",
+   "verdict": "ok",
+   "value": 1.2,
+   "basis": "rainfall"
+  },
+  "hartford-ct|wqv_depth_inches": {
+   "qualifier": "design",
+   "verdict": "ok",
+   "value": 1.3,
+   "basis": "rainfall"
+  },
+  "hawaii-dot-pcbmp|wqv_depth_inches": {
+   "qualifier": "design",
+   "verdict": "ok",
+   "value": 1,
+   "basis": "runoff"
+  },
+  "hialeah-fl|wqv_depth_inches": {
+   "qualifier": "design",
+   "verdict": "ok",
+   "value": 1,
+   "basis": "runoff"
+  },
+  "high-point-nc|wqv_depth_inches": {
+   "qualifier": "design",
+   "verdict": "ok",
+   "value": 1,
+   "basis": "rainfall"
+  },
+  "houston-tx|wqv_depth_inches": {
+   "qualifier": "min",
+   "verdict": "weak",
+   "value": 0.5,
+   "basis": "runoff"
+  },
+  "huntsville-al|wqv_depth_inches": {
+   "qualifier": "typical",
+   "verdict": "ok",
+   "value": 1,
+   "basis": "rainfall"
+  },
+  "ia-state-ch1|wqv_depth_inches": {
+   "qualifier": "design",
+   "verdict": "ok",
+   "value": 1.25,
+   "basis": "rainfall"
+  },
+  "independence-mo|wqv_depth_inches": {
+   "qualifier": "design",
+   "verdict": "ok",
+   "value": 1.37,
+   "basis": "rainfall"
+  },
+  "indiana-manual|wqv_depth_inches": {
+   "qualifier": "typical",
+   "verdict": "weak",
+   "value": 1,
+   "basis": "rainfall"
+  },
+  "juneau-ak|wqv_depth_inches": {
+   "qualifier": "typical",
+   "verdict": "ok",
+   "value": 1.25,
+   "note": "Alaska range 0.5-1.25 in by climatic region; 1.25 is the coastal upper end",
+   "basis": "rainfall"
+  },
+  "kansas-city-marc-bmp|wqv_depth_inches": {
+   "qualifier": "design",
+   "verdict": "ok",
+   "value": 1.37,
+   "basis": "rainfall"
+  },
+  "knoxville-tn|wqv_depth_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 0.5,
+   "basis": "runoff"
+  },
+  "lancaster-pa-swmf|wqv_depth_inches": {
+   "qualifier": "design",
+   "verdict": "ok",
+   "value": 1,
+   "basis": "rainfall"
+  },
+  "las-vegas-nv|wqv_depth_inches": {
+   "qualifier": "design",
+   "verdict": "ok",
+   "value": 0.37,
+   "basis": "rainfall"
+  },
+  "lexington-ky|wqv_depth_inches": {
+   "qualifier": "design",
+   "verdict": "ok",
+   "value": 1.2,
+   "basis": "rainfall"
+  },
+  "long-beach-ca|wqv_depth_inches": {
+   "qualifier": "design",
+   "verdict": "weak",
+   "value": 0.75,
+   "basis": "rainfall"
+  },
+  "ma-massdot-drainage|wqv_depth_inches": {
+   "qualifier": "design",
+   "verdict": "ok",
+   "value": 0.5,
+   "basis": "runoff"
+  },
+  "ma-state-draft|wqv_depth_inches": {
+   "qualifier": "design",
+   "verdict": "ok",
+   "value": 1,
+   "basis": "runoff"
+  },
+  "macon-ga|wqv_depth_inches": {
+   "qualifier": "design",
+   "verdict": "ok",
+   "value": 1.2,
+   "basis": "rainfall"
+  },
+  "madison-wi|wqv_depth_inches": {
+   "qualifier": "min",
+   "verdict": "weak",
+   "value": 0.5,
+   "basis": "rainfall"
+  },
+  "maine-manual|wqv_depth_inches": {
+   "qualifier": "design",
+   "verdict": "ok",
+   "value": 1,
+   "basis": "runoff"
+  },
+  "manchester-nh|wqv_depth_inches": {
+   "qualifier": "design",
+   "verdict": "ok",
+   "value": 1,
+   "basis": "rainfall"
+  },
+  "maricopa-county-az|wqv_depth_inches": {
+   "qualifier": "design",
+   "verdict": "ok",
+   "value": 0.5,
+   "basis": "runoff"
+  },
+  "michigan-manual|wqv_depth_inches": {
+   "qualifier": "design",
+   "verdict": "weak",
+   "value": 1,
+   "basis": "rainfall"
+  },
+  "milwaukee-wi|wqv_depth_inches": {
+   "qualifier": "design",
+   "verdict": "ok",
+   "value": 0.5,
+   "basis": "runoff"
+  },
+  "minneapolis-mn|wqv_depth_inches": {
+   "qualifier": "design",
+   "verdict": "ok",
+   "value": 1.25,
+   "basis": "rainfall"
+  },
+  "mobile-al|wqv_depth_inches": {
+   "qualifier": "design",
+   "verdict": "ok",
+   "value": 1.2,
+   "basis": "rainfall"
+  },
+  "montgomery-al|wqv_depth_inches": {
+   "qualifier": "design",
+   "verdict": "weak",
+   "value": 1,
+   "basis": "runoff"
+  },
+  "montpelier-vt|wqv_depth_inches": {
+   "qualifier": "design",
+   "verdict": "weak",
+   "value": 1,
+   "basis": "rainfall"
+  },
+  "murfreesboro-tn|wqv_depth_inches": {
+   "qualifier": "design",
+   "verdict": "ok",
+   "value": 1.2,
+   "basis": "rainfall"
+  },
+  "nashua-nh|wqv_depth_inches": {
+   "qualifier": "design",
+   "verdict": "ok",
+   "value": 1,
+   "basis": "rainfall"
+  },
+  "nc-state|wqv_depth_inches": {
+   "qualifier": "design",
+   "verdict": "ok",
+   "value": 1,
+   "basis": "rainfall"
+  },
+  "ne-ndot-stf|wqv_depth_inches": {
+   "qualifier": "design",
+   "verdict": "ok",
+   "value": 0.5,
+   "basis": "runoff"
+  },
+  "new-haven-ct|wqv_depth_inches": {
+   "qualifier": "design",
+   "verdict": "ok",
+   "value": 1.3,
+   "basis": "rainfall"
+  },
+  "nh-state|wqv_depth_inches": {
+   "qualifier": "design",
+   "verdict": "ok",
+   "value": 1,
+   "basis": "rainfall"
+  },
+  "nj-njdot-drainage|wqv_depth_inches": {
+   "qualifier": "design",
+   "verdict": "weak",
+   "value": 1.25,
+   "basis": "rainfall"
+  },
+  "norfolk-va|wqv_depth_inches": {
+   "qualifier": "design",
+   "verdict": "ok",
+   "value": 1,
+   "basis": "rainfall"
+  },
+  "ny-state|wqv_depth_inches": {
+   "qualifier": "design",
+   "verdict": "ok",
+   "value": 1.2,
+   "basis": "rainfall"
+  },
+  "nyc-ny|wqv_depth_inches": {
+   "qualifier": "design",
+   "verdict": "ok",
+   "value": 1.5,
+   "basis": "rainfall"
+  },
+  "oh-odot-drainage|wqv_depth_inches": {
+   "qualifier": "design",
+   "verdict": "ok",
+   "value": 0.9,
+   "basis": "rainfall"
+  },
+  "ohio-rainwater|wqv_depth_inches": {
+   "qualifier": "design",
+   "verdict": "ok",
+   "value": 0.75,
+   "basis": "rainfall"
+  },
+  "omaha-ne|wqv_depth_inches": {
+   "qualifier": "design",
+   "verdict": "ok",
+   "value": 0.5,
+   "basis": "runoff"
+  },
+  "overland-park-ks|wqv_depth_inches": {
+   "qualifier": "design",
+   "verdict": "ok",
+   "value": 1.37,
+   "basis": "rainfall"
+  },
+  "pa-bmp-2006|wqv_depth_inches": {
+   "qualifier": "design",
+   "verdict": "weak",
+   "value": 1,
+   "basis": "rainfall"
+  },
+  "pa-state|wqv_depth_inches": {
+   "qualifier": "design",
+   "verdict": "ok",
+   "value": 1.2,
+   "basis": "rainfall"
+  },
+  "pasadena-tx|wqv_depth_inches": {
+   "qualifier": "design",
+   "verdict": "ok",
+   "value": 1,
+   "basis": "runoff"
+  },
+  "pearland-tx|wqv_depth_inches": {
+   "qualifier": "design",
+   "verdict": "ok",
+   "value": 1,
+   "basis": "runoff"
+  },
+  "philadelphia-pa|wqv_depth_inches": {
+   "qualifier": "design",
+   "verdict": "ok",
+   "value": 1.5,
+   "basis": "runoff"
+  },
+  "phoenix-az|wqv_depth_inches": {
+   "qualifier": "design",
+   "verdict": "ok",
+   "value": 0.5,
+   "basis": "runoff"
+  },
+  "pittsburgh-pa|wqv_depth_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 2,
+   "basis": "runoff"
+  },
+  "port-st-lucie-fl|wqv_depth_inches": {
+   "qualifier": "design",
+   "verdict": "ok",
+   "value": 1,
+   "basis": "runoff"
+  },
+  "portland-me|wqv_depth_inches": {
+   "qualifier": "design",
+   "verdict": "ok",
+   "value": 1,
+   "basis": "runoff"
+  },
+  "portland-or|wqv_depth_inches": {
+   "qualifier": "design",
+   "verdict": "ok",
+   "value": 1.61,
+   "basis": "rainfall"
+  },
+  "prince-georges-county-md|wqv_depth_inches": {
+   "qualifier": "design",
+   "verdict": "ok",
+   "value": 1,
+   "basis": "rainfall"
+  },
+  "providence-ri|wqv_depth_inches": {
+   "qualifier": "design",
+   "verdict": "ok",
+   "value": 1,
+   "basis": "runoff"
+  },
+  "reading-pa|wqv_depth_inches": {
+   "qualifier": "design",
+   "verdict": "ok",
+   "value": 1.2,
+   "basis": "rainfall"
+  },
+  "reno-nv|wqv_depth_inches": {
+   "qualifier": "design",
+   "verdict": "ok",
+   "value": 0.6,
+   "basis": "rainfall"
+  },
+  "ri-state|wqv_depth_inches": {
+   "qualifier": "design",
+   "verdict": "ok",
+   "value": 1,
+   "basis": "runoff"
+  },
+  "rochester-mn|wqv_depth_inches": {
+   "qualifier": "design",
+   "verdict": "ok",
+   "value": 1.8,
+   "basis": "rainfall"
+  },
+  "rochester-ny|wqv_depth_inches": {
+   "qualifier": "design",
+   "verdict": "weak",
+   "value": 1.2,
+   "basis": "rainfall"
+  },
+  "rockville-md|wqv_depth_inches": {
+   "qualifier": "design",
+   "verdict": "ok",
+   "value": 1,
+   "basis": "rainfall"
+  },
+  "saint-paul-mn|wqv_depth_inches": {
+   "qualifier": "design",
+   "verdict": "ok",
+   "value": 1.1,
+   "basis": "runoff"
+  },
+  "santa-rosa-ca|wqv_depth_inches": {
+   "qualifier": "design",
+   "verdict": "ok",
+   "value": 1,
+   "basis": "rainfall"
+  },
+  "scottsdale-az|wqv_depth_inches": {
+   "qualifier": "design",
+   "verdict": "ok",
+   "value": 0.5,
+   "basis": "rainfall"
+  },
+  "south-bend-in|wqv_depth_inches": {
+   "qualifier": "design",
+   "verdict": "ok",
+   "value": 1,
+   "basis": "rainfall"
+  },
+  "south-salt-lake-ut|wqv_depth_inches": {
+   "qualifier": "design",
+   "verdict": "ok",
+   "value": 0.6,
+   "basis": "rainfall"
+  },
+  "springfield-ma|wqv_depth_inches": {
+   "qualifier": "design",
+   "verdict": "ok",
+   "value": 1,
+   "basis": "runoff"
+  },
+  "springfield-mo|wqv_depth_inches": {
+   "qualifier": "design",
+   "verdict": "weak",
+   "value": 1,
+   "note": "Quote is the redevelopment target (0.5 in)",
+   "basis": "rainfall"
+  },
+  "st-louis-mo|wqv_depth_inches": {
+   "qualifier": "design",
+   "verdict": "ok",
+   "value": 1.14,
+   "basis": "rainfall"
+  },
+  "stamford-ct|wqv_depth_inches": {
+   "qualifier": "design",
+   "verdict": "ok",
+   "value": 1.3,
+   "basis": "rainfall"
+  },
+  "stockton-ca|wqv_depth_inches": {
+   "qualifier": "design",
+   "verdict": "ok",
+   "value": 0.51,
+   "basis": "rainfall"
+  },
+  "syracuse-ny|wqv_depth_inches": {
+   "qualifier": "design",
+   "verdict": "ok",
+   "value": 1.2,
+   "basis": "rainfall"
+  },
+  "tahoe-trpa-bmp|wqv_depth_inches": {
+   "qualifier": "design",
+   "verdict": "weak",
+   "value": 1,
+   "note": "Quote names the 20-year, 1-hour storm, not a depth",
+   "basis": "rainfall"
+  },
+  "toledo-oh|wqv_depth_inches": {
+   "qualifier": "design",
+   "verdict": "ok",
+   "value": 0.75,
+   "basis": "rainfall"
+  },
+  "trenton-nj|wqv_depth_inches": {
+   "qualifier": "design",
+   "verdict": "ok",
+   "value": 1.25,
+   "basis": "rainfall"
+  },
+  "tucson-az-detention|wqv_depth_inches": {
+   "qualifier": "design",
+   "verdict": "ok",
+   "value": 0.5,
+   "basis": "rainfall"
+  },
+  "va-vdot-drainage|wqv_depth_inches": {
+   "qualifier": "design",
+   "verdict": "corrected",
+   "value": 1,
+   "corrected_value": 0.5,
+   "note": "Quote defines WQV as the first one-half inch of runoff from impervious surfaces",
+   "basis": "runoff"
+  },
+  "vt-state|wqv_depth_inches": {
+   "qualifier": "design",
+   "verdict": "weak",
+   "value": 1,
+   "basis": "rainfall"
+  },
+  "waco-tx|wqv_depth_inches": {
+   "qualifier": "design",
+   "verdict": "ok",
+   "value": 1.5,
+   "basis": "rainfall"
+  },
+  "wayne-county-mi|wqv_depth_inches": {
+   "qualifier": "design",
+   "verdict": "ok",
+   "value": 1,
+   "basis": "rainfall"
+  },
+  "west-palm-beach-fl|wqv_depth_inches": {
+   "qualifier": "design",
+   "verdict": "ok",
+   "value": 1,
+   "basis": "runoff"
+  },
+  "west-virginia-manual|wqv_depth_inches": {
+   "qualifier": "design",
+   "verdict": "weak",
+   "value": 1,
+   "note": "Quote mentions the 1 in depth but not the requirement",
+   "basis": "rainfall"
+  },
+  "wichita-ks-vol2|wqv_depth_inches": {
+   "qualifier": "design",
+   "verdict": "ok",
+   "value": 1.2,
+   "basis": "runoff"
+  },
+  "wilmington-nc|wqv_depth_inches": {
+   "qualifier": "design",
+   "verdict": "ok",
+   "value": 1,
+   "basis": "rainfall"
+  },
+  "worcester-ma|wqv_depth_inches": {
+   "qualifier": "design",
+   "verdict": "ok",
+   "value": 1,
+   "basis": "runoff"
+  },
+  "yonkers-ny|wqv_depth_inches": {
+   "qualifier": "design",
+   "verdict": "weak",
+   "value": 1.2,
+   "basis": "rainfall"
+  },
+  "youngstown-oh|wqv_depth_inches": {
+   "qualifier": "design",
+   "verdict": "ok",
+   "value": 0.75,
+   "basis": "rainfall"
+  },
+  "yuma-az|wqv_depth_inches": {
+   "qualifier": "design",
+   "verdict": "ok",
+   "value": 0.5,
+   "basis": "runoff"
+  },
+  "alabama-handbook|max_drawdown_hours": {
+   "qualifier": "max",
+   "verdict": "removed",
+   "value": 40,
+   "note": "Extended-detention release time, not a maximum drawdown"
+  },
+  "albuquerque-nm-gsi|max_drawdown_hours": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 96
+  },
+  "amarillo-tx|max_drawdown_hours": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 72
+  },
+  "ann-arbor-mi|max_drawdown_hours": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 48
+  },
+  "annapolis-md|max_drawdown_hours": {
+   "qualifier": "max",
+   "verdict": "removed",
+   "value": 24,
+   "note": "Extended-detention release time, not a maximum drawdown"
+  },
+  "arlington-county-va|max_drawdown_hours": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 24
+  },
+  "arlington-tx|max_drawdown_hours": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 48
+  },
+  "augusta-me|max_drawdown_hours": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 48
+  },
+  "aurora-co|max_drawdown_hours": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 72
+  },
+  "bakersfield-ca|max_drawdown_hours": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 168
+  },
+  "bellingham-wa|max_drawdown_hours": {
+   "qualifier": "max",
+   "verdict": "corrected",
+   "value": 48,
+   "corrected_value": 72.0,
+   "note": "Quote: within 48 to 72 hours"
+  },
+  "bend-or|max_drawdown_hours": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 30
+  },
+  "billings-mt|max_drawdown_hours": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 72
+  },
+  "birmingham-al|max_drawdown_hours": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 96
+  },
+  "boise-id|max_drawdown_hours": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 48
+  },
+  "bridgeport-ct|max_drawdown_hours": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 48
+  },
+  "burlington-vt|max_drawdown_hours": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 48
+  },
+  "ca-caltrans-construction|max_drawdown_hours": {
+   "qualifier": "max",
+   "verdict": "weak",
+   "value": 96
+  },
+  "ca-caltrans-project-planning|max_drawdown_hours": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 96
+  },
+  "ca-casqa-municipal|max_drawdown_hours": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 72
+  },
+  "cambridge-ma|max_drawdown_hours": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 72
+  },
+  "carson-city-nv|max_drawdown_hours": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 72
+  },
+  "chandler-az|max_drawdown_hours": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 36
+  },
+  "charleston-sc|max_drawdown_hours": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 72
+  },
+  "charleston-wv|max_drawdown_hours": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 48
+  },
+  "chattanooga-tn|max_drawdown_hours": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 72
+  },
+  "chesapeake-va|max_drawdown_hours": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 48
+  },
+  "chicago-il|max_drawdown_hours": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 72
+  },
+  "cleveland-oh|max_drawdown_hours": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 72
+  },
+  "columbia-sc|max_drawdown_hours": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 72
+  },
+  "columbus-oh|max_drawdown_hours": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 72
+  },
+  "ct-ctdot-drainage|max_drawdown_hours": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 72
+  },
+  "ct-state|max_drawdown_hours": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 48
+  },
+  "daytona-beach-fl|max_drawdown_hours": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 72
+  },
+  "deltona-fl|max_drawdown_hours": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 72
+  },
+  "denton-tx|max_drawdown_hours": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 72
+  },
+  "dover-de|max_drawdown_hours": {
+   "qualifier": "max",
+   "verdict": "removed",
+   "value": 24,
+   "note": "Pond drain-pipe capacity for maintenance, not a design drawdown"
+  },
+  "duluth-mn|max_drawdown_hours": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 48
+  },
+  "el-paso-tx|max_drawdown_hours": {
+   "qualifier": "max",
+   "verdict": "corrected",
+   "value": 72,
+   "corrected_value": 24.0,
+   "note": "Quote: infiltrate collected water within 24 hours"
+  },
+  "elizabeth-nj|max_drawdown_hours": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 72
+  },
+  "eugene-or|max_drawdown_hours": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 30
+  },
+  "evansville-in|max_drawdown_hours": {
+   "qualifier": "typical",
+   "verdict": "ok",
+   "value": 24
+  },
+  "everett-wa|max_drawdown_hours": {
+   "qualifier": "max",
+   "verdict": "corrected",
+   "value": 48,
+   "corrected_value": 72.0,
+   "note": "Quote: within 48 to 72 hours"
+  },
+  "fl-fsesci-tier1|max_drawdown_hours": {
+   "qualifier": "max",
+   "verdict": "removed",
+   "value": 4,
+   "note": "Construction-site flocculation cell, not a permanent practice"
+  },
+  "fl-nwfwmd-erp-ah2|max_drawdown_hours": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 72
+  },
+  "fl-sjrwmd-erp-ah2|max_drawdown_hours": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 72
+  },
+  "fl-srwmd-erp-ah2|max_drawdown_hours": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 72
+  },
+  "fl-swfwmd-erp-ah2|max_drawdown_hours": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 72
+  },
+  "flagstaff-az|max_drawdown_hours": {
+   "qualifier": "max",
+   "verdict": "removed",
+   "value": 24,
+   "note": "Minimum retention time, not a maximum drawdown"
+  },
+  "flint-mi|max_drawdown_hours": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 72
+  },
+  "fort-wayne-in|max_drawdown_hours": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 48
+  },
+  "fremont-ca|max_drawdown_hours": {
+   "qualifier": "max",
+   "verdict": "corrected",
+   "value": 72,
+   "corrected_value": 48.0,
+   "note": "Quote: empties over two days"
+  },
+  "fresno-ca|max_drawdown_hours": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 96
+  },
+  "frisco-tx|max_drawdown_hours": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 48
+  },
+  "grand-rapids-mi|max_drawdown_hours": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 72
+  },
+  "greenville-sc|max_drawdown_hours": {
+   "qualifier": "max",
+   "verdict": "removed",
+   "value": 24,
+   "note": "Extended-detention release time, not a maximum drawdown"
+  },
+  "gulfport-ms|max_drawdown_hours": {
+   "qualifier": "max",
+   "verdict": "corrected",
+   "value": 120,
+   "corrected_value": 48.0,
+   "note": "Quote: drain to 24 in below the surface within 48 hours (maximum)"
+  },
+  "harris-county-tx|max_drawdown_hours": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 24
+  },
+  "harrisburg-pa|max_drawdown_hours": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 72
+  },
+  "hartford-ct|max_drawdown_hours": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 48
+  },
+  "hawaii-dot-pcbmp|max_drawdown_hours": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 48
+  },
+  "helena-mt|max_drawdown_hours": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 72
+  },
+  "houston-tx|max_drawdown_hours": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 48
+  },
+  "huntsville-al|max_drawdown_hours": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 96
+  },
+  "idaho-bmp-catalog|max_drawdown_hours": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 72
+  },
+  "in-indot-drainage|max_drawdown_hours": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 72
+  },
+  "independence-mo|max_drawdown_hours": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 40
+  },
+  "indiana-manual|max_drawdown_hours": {
+   "qualifier": "typical",
+   "verdict": "ok",
+   "value": 24
+  },
+  "jackson-ms|max_drawdown_hours": {
+   "qualifier": "max",
+   "verdict": "corrected",
+   "value": 120,
+   "corrected_value": 48.0,
+   "note": "Quote: drain to 24 in below the surface within 48 hours (maximum)"
+  },
+  "jacksonville-fl|max_drawdown_hours": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 72
+  },
+  "jersey-city-nj|max_drawdown_hours": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 72
+  },
+  "kansas-city-marc-bmp|max_drawdown_hours": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 40
+  },
+  "kennewick-wa|max_drawdown_hours": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 72
+  },
+  "king-county-wa|max_drawdown_hours": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 24
+  },
+  "knoxville-tn|max_drawdown_hours": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 72
+  },
+  "lansing-mi|max_drawdown_hours": {
+   "qualifier": "max",
+   "verdict": "corrected",
+   "value": 48,
+   "corrected_value": 72.0,
+   "note": "Quote: entire cross section drained within 72 hours"
+  },
+  "las-cruces-nm|max_drawdown_hours": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 96
+  },
+  "las-vegas-nv|max_drawdown_hours": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 72
+  },
+  "lexington-ky|max_drawdown_hours": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 24
+  },
+  "lincoln-ne|max_drawdown_hours": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 48
+  },
+  "long-beach-ca|max_drawdown_hours": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 48
+  },
+  "los-angeles-ca|max_drawdown_hours": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 96
+  },
+  "louisville-ky|max_drawdown_hours": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 36
+  },
+  "ma-massdot-drainage|max_drawdown_hours": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 72
+  },
+  "ma-state-draft|max_drawdown_hours": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 72
+  },
+  "maine-manual|max_drawdown_hours": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 48
+  },
+  "maricopa-county-az|max_drawdown_hours": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 36
+  },
+  "md-state|max_drawdown_hours": {
+   "qualifier": "max",
+   "verdict": "removed",
+   "value": 24,
+   "note": "Extended-detention release time, not a maximum drawdown"
+  },
+  "melbourne-fl|max_drawdown_hours": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 72
+  },
+  "memphis-tn|max_drawdown_hours": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 72
+  },
+  "missoula-mt|max_drawdown_hours": {
+   "qualifier": "max",
+   "verdict": "corrected",
+   "value": 72,
+   "corrected_value": 48.0,
+   "note": "Quote: sized to drain within 48 hours"
+  },
+  "mn-state-2008|max_drawdown_hours": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 48
+  },
+  "mobile-al|max_drawdown_hours": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 48
+  },
+  "montgomery-al|max_drawdown_hours": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 96
+  },
+  "montpelier-vt|max_drawdown_hours": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 48
+  },
+  "ms-state-vol2|max_drawdown_hours": {
+   "qualifier": "max",
+   "verdict": "corrected",
+   "value": 120,
+   "corrected_value": 48.0,
+   "note": "Quote: drain to 24 in below the surface within 48 hours (maximum)"
+  },
+  "mt-deq8|max_drawdown_hours": {
+   "qualifier": "max",
+   "verdict": "corrected",
+   "value": 72,
+   "corrected_value": 48.0,
+   "note": "Quote: sized to drain within 48 hours"
+  },
+  "murfreesboro-tn|max_drawdown_hours": {
+   "qualifier": "max",
+   "verdict": "removed",
+   "value": 24,
+   "note": "Extended-detention release time, not a maximum drawdown"
+  },
+  "ne-ndot-stf|max_drawdown_hours": {
+   "qualifier": "max",
+   "verdict": "weak",
+   "value": 72,
+   "note": "Water-rights context, not a practice requirement"
+  },
+  "new-haven-ct|max_drawdown_hours": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 48
+  },
+  "newark-nj|max_drawdown_hours": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 72
+  },
+  "nj-njdot-drainage|max_drawdown_hours": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 72
+  },
+  "nj-state|max_drawdown_hours": {
+   "qualifier": "max",
+   "verdict": "weak",
+   "value": 72
+  },
+  "nm-nmdot-drainage|max_drawdown_hours": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 96
+  },
+  "nyc-ny|max_drawdown_hours": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 48
+  },
+  "oakland-ca|max_drawdown_hours": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 48
+  },
+  "olympia-wa|max_drawdown_hours": {
+   "qualifier": "max",
+   "verdict": "corrected",
+   "value": 48,
+   "corrected_value": 72.0,
+   "note": "Quote: within 48 to 72 hours"
+  },
+  "oregon-manual|max_drawdown_hours": {
+   "qualifier": "max",
+   "verdict": "removed",
+   "value": 48,
+   "note": "Extended-detention release time, not a maximum drawdown"
+  },
+  "orlando-fl|max_drawdown_hours": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 72
+  },
+  "pa-bmp-2006|max_drawdown_hours": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 72
+  },
+  "pa-penndot-drainage|max_drawdown_hours": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 48
+  },
+  "pa-state|max_drawdown_hours": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 72
+  },
+  "palm-bay-fl|max_drawdown_hours": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 72
+  },
+  "palm-coast-fl|max_drawdown_hours": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 72
+  },
+  "pasadena-tx|max_drawdown_hours": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 24
+  },
+  "paterson-nj|max_drawdown_hours": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 72
+  },
+  "pearland-tx|max_drawdown_hours": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 72
+  },
+  "pensacola-fl|max_drawdown_hours": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 72
+  },
+  "peoria-il|max_drawdown_hours": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 72
+  },
+  "philadelphia-pa|max_drawdown_hours": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 72
+  },
+  "phoenix-az|max_drawdown_hours": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 36
+  },
+  "pinellas-county-fl|max_drawdown_hours": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 72
+  },
+  "port-st-lucie-fl|max_drawdown_hours": {
+   "qualifier": "max",
+   "verdict": "removed",
+   "value": 288,
+   "note": "Computed from a percolation rate, not a stated time"
+  },
+  "portland-me|max_drawdown_hours": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 48
+  },
+  "portland-or|max_drawdown_hours": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 30
+  },
+  "prince-georges-county-md|max_drawdown_hours": {
+   "qualifier": "max",
+   "verdict": "removed",
+   "value": 24,
+   "note": "Extended-detention release time, not a maximum drawdown"
+  },
+  "providence-ri|max_drawdown_hours": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 48
+  },
+  "reading-pa|max_drawdown_hours": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 72
+  },
+  "reno-nv|max_drawdown_hours": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 168
+  },
+  "ri-ridot-drainage|max_drawdown_hours": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 48
+  },
+  "ri-state|max_drawdown_hours": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 48
+  },
+  "riverside-county-ca|max_drawdown_hours": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 72
+  },
+  "rochester-mn|max_drawdown_hours": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 144
+  },
+  "rockville-md|max_drawdown_hours": {
+   "qualifier": "max",
+   "verdict": "removed",
+   "value": 24,
+   "note": "Extended-detention release time, not a maximum drawdown"
+  },
+  "sacramento-ca|max_drawdown_hours": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 48
+  },
+  "saint-paul-mn|max_drawdown_hours": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 48
+  },
+  "salem-or|max_drawdown_hours": {
+   "qualifier": "max",
+   "verdict": "removed",
+   "value": 48,
+   "note": "A minimum drawdown time, not a maximum"
+  },
+  "san-bernardino-county-ca|max_drawdown_hours": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 48
+  },
+  "santa-barbara-ca|max_drawdown_hours": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 72
+  },
+  "santa-fe-nm|max_drawdown_hours": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 96
+  },
+  "sc-scdot-drainage|max_drawdown_hours": {
+   "qualifier": "max",
+   "verdict": "removed",
+   "value": 24,
+   "note": "Extended-detention release time, not a maximum drawdown"
+  },
+  "scottsdale-az|max_drawdown_hours": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 36
+  },
+  "seattle-wa-2026|max_drawdown_hours": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 24
+  },
+  "seattle-wa|max_drawdown_hours": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 24
+  },
+  "south-bend-in|max_drawdown_hours": {
+   "qualifier": "typical",
+   "verdict": "ok",
+   "value": 24
+  },
+  "south-carolina-manual|max_drawdown_hours": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 72
+  },
+  "spokane-wa|max_drawdown_hours": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 72
+  },
+  "springfield-il|max_drawdown_hours": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 72
+  },
+  "springfield-ma|max_drawdown_hours": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 72
+  },
+  "springfield-mo|max_drawdown_hours": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 72
+  },
+  "stamford-ct|max_drawdown_hours": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 48
+  },
+  "tacoma-wa|max_drawdown_hours": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 48
+  },
+  "tallahassee-fl|max_drawdown_hours": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 72
+  },
+  "tarrant-county-tx|max_drawdown_hours": {
+   "qualifier": "max",
+   "verdict": "removed",
+   "value": 48,
+   "note": "Applicability note for a method, not a requirement"
+  },
+  "tn-state|max_drawdown_hours": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 24
+  },
+  "topeka-ks|max_drawdown_hours": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 24
+  },
+  "trenton-nj|max_drawdown_hours": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 72
+  },
+  "ut-udot-drainage|max_drawdown_hours": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 72
+  },
+  "vt-state|max_drawdown_hours": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 48
+  },
+  "wa-state-western|max_drawdown_hours": {
+   "qualifier": "max",
+   "verdict": "corrected",
+   "value": 48,
+   "corrected_value": 72.0,
+   "note": "Quote: within 48 to 72 hours"
+  },
+  "west-virginia-manual|max_drawdown_hours": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 48
+  },
+  "wilmington-de|max_drawdown_hours": {
+   "qualifier": "max",
+   "verdict": "removed",
+   "value": 24,
+   "note": "Pond drain-pipe capacity for maintenance, not a design drawdown"
+  },
+  "worcester-ma|max_drawdown_hours": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 72
+  },
+  "yonkers-ny|max_drawdown_hours": {
+   "qualifier": "max",
+   "verdict": "removed",
+   "value": 24,
+   "note": "Pond drain-pipe capacity for maintenance, not a design drawdown"
+  },
+  "youngstown-oh|max_drawdown_hours": {
+   "qualifier": "max",
+   "verdict": "removed",
+   "value": 48,
+   "note": "Minimum extended-detention time (40 h), not a maximum drawdown"
+  },
+  "yuma-az|max_drawdown_hours": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 36
+  },
+  "akron-oh|shwt_separation_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 36
+  },
+  "alabama-handbook|shwt_separation_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 24
+  },
+  "albany-ny|shwt_separation_inches": {
+   "qualifier": "min",
+   "verdict": "corrected",
+   "value": 24,
+   "corrected_value": 48.0,
+   "note": "Quote: 4 ft vertical distance from the water table"
+  },
+  "albuquerque-nm-gsi|shwt_separation_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 36
+  },
+  "alexandria-va|shwt_separation_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 24
+  },
+  "allentown-pa|shwt_separation_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 24
+  },
+  "amarillo-tx|shwt_separation_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 12
+  },
+  "ann-arbor-mi|shwt_separation_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 36
+  },
+  "annapolis-md|shwt_separation_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 48
+  },
+  "aurora-co|shwt_separation_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 24
+  },
+  "bellevue-wa|shwt_separation_inches": {
+   "qualifier": "min",
+   "verdict": "weak",
+   "value": 60,
+   "note": "Quote gives 1 ft for permeable pavement; the 5 ft is for other infiltration BMPs"
+  },
+  "bellingham-wa|shwt_separation_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 60
+  },
+  "bend-or|shwt_separation_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 60
+  },
+  "billings-mt|shwt_separation_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 36
+  },
+  "birmingham-al|shwt_separation_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 24
+  },
+  "bismarck-nd|shwt_separation_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 60
+  },
+  "boise-id|shwt_separation_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 36
+  },
+  "bridgeport-ct|shwt_separation_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 36
+  },
+  "ca-caltrans-project-planning|shwt_separation_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 60
+  },
+  "cambridge-ma|shwt_separation_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 24
+  },
+  "carson-city-nv|shwt_separation_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 48
+  },
+  "charleston-sc|shwt_separation_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 6
+  },
+  "chattanooga-tn|shwt_separation_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 24
+  },
+  "chesapeake-va|shwt_separation_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 12
+  },
+  "chicago-il|shwt_separation_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 24
+  },
+  "chula-vista-ca|shwt_separation_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 120
+  },
+  "cleveland-oh|shwt_separation_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 36
+  },
+  "corpus-christi-tx|shwt_separation_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 36
+  },
+  "ct-ctdot-drainage|shwt_separation_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 60
+  },
+  "ct-state|shwt_separation_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 36
+  },
+  "daytona-beach-fl|shwt_separation_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 24
+  },
+  "dc-ddot-stormwater|shwt_separation_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 24
+  },
+  "dc-guidebook|shwt_separation_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 24
+  },
+  "de-wet-ponds-draft|shwt_separation_inches": {
+   "qualifier": "min",
+   "verdict": "removed",
+   "value": 24,
+   "note": "Wet-pond siting test (use another BMP where soils drain), not a separation requirement"
+  },
+  "deltona-fl|shwt_separation_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 24
+  },
+  "detroit-mi|shwt_separation_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 24
+  },
+  "dover-de|shwt_separation_inches": {
+   "qualifier": "min",
+   "verdict": "removed",
+   "value": 24,
+   "note": "Wet-pond siting test, not a separation requirement"
+  },
+  "duluth-mn|shwt_separation_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 36
+  },
+  "durham-nc|shwt_separation_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 12
+  },
+  "el-paso-tx|shwt_separation_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 24
+  },
+  "erie-pa|shwt_separation_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 24
+  },
+  "eugene-or|shwt_separation_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 60
+  },
+  "evansville-in|shwt_separation_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 36
+  },
+  "everett-wa|shwt_separation_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 60
+  },
+  "fl-fdot-drainage|shwt_separation_inches": {
+   "qualifier": "min",
+   "verdict": "removed",
+   "value": 12,
+   "note": "Ditch-bottom clearance for mowing, not an infiltrating practice"
+  },
+  "fl-nwfwmd-erp-ah2|shwt_separation_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 24
+  },
+  "fl-sjrwmd-erp-ah2|shwt_separation_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 24
+  },
+  "fl-swfwmd-erp-ah2|shwt_separation_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 12
+  },
+  "flint-mi|shwt_separation_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 24
+  },
+  "fremont-ca|shwt_separation_inches": {
+   "qualifier": "min",
+   "verdict": "corrected",
+   "value": 60,
+   "corrected_value": 120.0,
+   "note": "Quote: at least a 10-foot separation"
+  },
+  "fresno-ca|shwt_separation_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 120
+  },
+  "gulfport-ms|shwt_separation_inches": {
+   "qualifier": "min",
+   "verdict": "corrected",
+   "value": 24,
+   "corrected_value": 36.0,
+   "note": "Quote: at least three feet"
+  },
+  "harrisburg-pa|shwt_separation_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 24
+  },
+  "hartford-ct|shwt_separation_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 36
+  },
+  "hawaii-dot-pcbmp|shwt_separation_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 36
+  },
+  "helena-mt|shwt_separation_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 12
+  },
+  "houston-tx|shwt_separation_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 48
+  },
+  "huntsville-al|shwt_separation_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 24
+  },
+  "idaho-bmp-catalog|shwt_separation_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 36
+  },
+  "in-indot-drainage|shwt_separation_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 24
+  },
+  "independence-mo|shwt_separation_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 36
+  },
+  "indiana-manual|shwt_separation_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 36
+  },
+  "jackson-ms|shwt_separation_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 24
+  },
+  "jacksonville-fl|shwt_separation_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 6
+  },
+  "jersey-city-nj|shwt_separation_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 12
+  },
+  "kansas-city-marc-bmp|shwt_separation_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 36
+  },
+  "kennewick-wa|shwt_separation_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 60
+  },
+  "king-county-wa|shwt_separation_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 12
+  },
+  "knoxville-tn|shwt_separation_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 36
+  },
+  "lakeland-fl|shwt_separation_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 12
+  },
+  "lansing-mi|shwt_separation_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 24
+  },
+  "las-cruces-nm|shwt_separation_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 36
+  },
+  "las-vegas-nv|shwt_separation_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 24
+  },
+  "lincoln-ne|shwt_separation_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 36
+  },
+  "long-beach-ca|shwt_separation_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 60
+  },
+  "louisville-ky|shwt_separation_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 24
+  },
+  "ma-massdot-drainage|shwt_separation_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 24
+  },
+  "ma-state-draft|shwt_separation_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 24
+  },
+  "maine-manual|shwt_separation_inches": {
+   "qualifier": "min",
+   "verdict": "corrected",
+   "value": 12,
+   "corrected_value": 18.0,
+   "note": "Quote: a minimum of 18 inches"
+  },
+  "md-state|shwt_separation_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 48
+  },
+  "melbourne-fl|shwt_separation_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 24
+  },
+  "minneapolis-mn|shwt_separation_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 36
+  },
+  "missoula-mt|shwt_separation_inches": {
+   "qualifier": "min",
+   "verdict": "corrected",
+   "value": 12,
+   "corrected_value": 24.0,
+   "note": "Quote: two feet above a limiting layer"
+  },
+  "mn-state-2008|shwt_separation_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 36
+  },
+  "montgomery-al|shwt_separation_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 24
+  },
+  "montpelier-vt|shwt_separation_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 36
+  },
+  "ms-state-vol2|shwt_separation_inches": {
+   "qualifier": "min",
+   "verdict": "corrected",
+   "value": 24,
+   "corrected_value": 36.0,
+   "note": "Quote: at least three feet"
+  },
+  "mt-deq8|shwt_separation_inches": {
+   "qualifier": "min",
+   "verdict": "corrected",
+   "value": 12,
+   "corrected_value": 24.0,
+   "note": "Quote: two feet above a limiting layer"
+  },
+  "new-haven-ct|shwt_separation_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 36
+  },
+  "nj-state|shwt_separation_inches": {
+   "qualifier": "min",
+   "verdict": "corrected",
+   "value": 12,
+   "corrected_value": 24.0,
+   "note": "Quote: the 2 ft minimum separation requirement"
+  },
+  "ny-state|shwt_separation_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 24
+  },
+  "nyc-ny|shwt_separation_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 36
+  },
+  "oh-odot-drainage|shwt_separation_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 48
+  },
+  "ohio-rainwater|shwt_separation_inches": {
+   "qualifier": "min",
+   "verdict": "corrected",
+   "value": 36,
+   "corrected_value": 12.0,
+   "note": "Quote: 1 ft required (2 ft recommended)"
+  },
+  "oregon-manual|shwt_separation_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 120
+  },
+  "orlando-fl|shwt_separation_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 24
+  },
+  "pa-bmp-2006|shwt_separation_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 24
+  },
+  "pa-penndot-drainage|shwt_separation_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 24
+  },
+  "pa-state|shwt_separation_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 24
+  },
+  "palm-bay-fl|shwt_separation_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 24
+  },
+  "palm-coast-fl|shwt_separation_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 24
+  },
+  "paterson-nj|shwt_separation_inches": {
+   "qualifier": "min",
+   "verdict": "corrected",
+   "value": 12,
+   "corrected_value": 24.0,
+   "note": "Quote: the 2 ft minimum separation requirement"
+  },
+  "pensacola-fl|shwt_separation_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 24
+  },
+  "peoria-il|shwt_separation_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 36
+  },
+  "philadelphia-pa|shwt_separation_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 24
+  },
+  "pittsburgh-pa|shwt_separation_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 24
+  },
+  "portland-me|shwt_separation_inches": {
+   "qualifier": "min",
+   "verdict": "corrected",
+   "value": 12,
+   "corrected_value": 18.0,
+   "note": "Quote: a minimum of 18 inches"
+  },
+  "portland-or|shwt_separation_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 60
+  },
+  "prince-georges-county-md|shwt_separation_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 48
+  },
+  "providence-ri|shwt_separation_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 36
+  },
+  "raleigh-nc|shwt_separation_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 12
+  },
+  "reading-pa|shwt_separation_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 24
+  },
+  "reno-nv|shwt_separation_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 48
+  },
+  "ri-state|shwt_separation_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 36
+  },
+  "riverside-county-ca|shwt_separation_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 120
+  },
+  "rochester-ny|shwt_separation_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 24
+  },
+  "rockville-md|shwt_separation_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 48
+  },
+  "saint-paul-mn|shwt_separation_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 36
+  },
+  "salem-or|shwt_separation_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 36
+  },
+  "san-diego-ca|shwt_separation_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 120
+  },
+  "santa-fe-nm|shwt_separation_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 36
+  },
+  "scranton-pa|shwt_separation_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 24
+  },
+  "south-bend-in|shwt_separation_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 36
+  },
+  "spokane-wa|shwt_separation_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 54
+  },
+  "springfield-il|shwt_separation_inches": {
+   "qualifier": "min",
+   "verdict": "corrected",
+   "value": 48,
+   "corrected_value": 24.0,
+   "note": "Quote: a minimum depth of 24 inches"
+  },
+  "springfield-ma|shwt_separation_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 24
+  },
+  "springfield-mo|shwt_separation_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 24
+  },
+  "stamford-ct|shwt_separation_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 36
+  },
+  "stockton-ca|shwt_separation_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 120
+  },
+  "syracuse-ny|shwt_separation_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 24
+  },
+  "tacoma-wa|shwt_separation_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 12
+  },
+  "tahoe-trpa-bmp|shwt_separation_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 12
+  },
+  "tallahassee-fl|shwt_separation_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 24
+  },
+  "tampa-fl|shwt_separation_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 12
+  },
+  "tarrant-county-tx|shwt_separation_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 24
+  },
+  "tn-state|shwt_separation_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 24
+  },
+  "topeka-ks|shwt_separation_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 36
+  },
+  "trenton-nj|shwt_separation_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 12
+  },
+  "tx-edwards-rg348|shwt_separation_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 48
+  },
+  "ut-udot-drainage|shwt_separation_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 48
+  },
+  "vancouver-wa|shwt_separation_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 60
+  },
+  "vt-state|shwt_separation_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 36
+  },
+  "wa-state-western|shwt_separation_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 60
+  },
+  "wayne-county-mi|shwt_separation_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 24
+  },
+  "west-virginia-manual|shwt_separation_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 24
+  },
+  "wilmington-de|shwt_separation_inches": {
+   "qualifier": "min",
+   "verdict": "removed",
+   "value": 24,
+   "note": "Wet-pond siting test, not a separation requirement"
+  },
+  "worcester-ma|shwt_separation_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 24
+  },
+  "yonkers-ny|shwt_separation_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 24
+  },
+  "youngstown-oh|shwt_separation_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 36
+  },
+  "akron-oh|bioretention_media_depth_min_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 30
+  },
+  "alabama-handbook|bioretention_media_depth_min_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 24
+  },
+  "albany-ny|bioretention_media_depth_min_inches": {
+   "qualifier": "min",
+   "verdict": "weak",
+   "value": 30,
+   "note": "Quote is for rain gardens (12-18 in); NY bioretention is 30 in"
+  },
+  "allentown-pa|bioretention_media_depth_min_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 18
+  },
+  "anchorage-ak|bioretention_media_depth_min_inches": {
+   "qualifier": "min",
+   "verdict": "weak",
+   "value": 36,
+   "note": "Quote gives the reduced 18 in option"
+  },
+  "annapolis-md|bioretention_media_depth_min_inches": {
+   "qualifier": "min",
+   "verdict": "corrected",
+   "value": 30,
+   "corrected_value": 24.0,
+   "note": "Quote: between 24 and 48 inches"
+  },
+  "arlington-county-va|bioretention_media_depth_min_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 18
+  },
+  "augusta-me|bioretention_media_depth_min_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 18
+  },
+  "bellingham-wa|bioretention_media_depth_min_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 18
+  },
+  "billings-mt|bioretention_media_depth_min_inches": {
+   "qualifier": "typical",
+   "verdict": "ok",
+   "value": 18
+  },
+  "birmingham-al|bioretention_media_depth_min_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 36
+  },
+  "bridgeport-ct|bioretention_media_depth_min_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 24
+  },
+  "burlington-vt|bioretention_media_depth_min_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 24
+  },
+  "ca-caltrans-project-planning|bioretention_media_depth_min_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 18
+  },
+  "cambridge-ma|bioretention_media_depth_min_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 24
+  },
+  "charleston-wv|bioretention_media_depth_min_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 18
+  },
+  "charlottesville-va|bioretention_media_depth_min_inches": {
+   "qualifier": "min",
+   "verdict": "corrected",
+   "value": 18,
+   "corrected_value": 24.0,
+   "note": "Quote: 24 in for Level 1 bioretention (18-24 in for rain gardens)"
+  },
+  "chicago-il|bioretention_media_depth_min_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 24
+  },
+  "clarksville-tn|bioretention_media_depth_min_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 48
+  },
+  "cleveland-oh|bioretention_media_depth_min_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 30
+  },
+  "columbia-mo|bioretention_media_depth_min_inches": {
+   "qualifier": "typical",
+   "verdict": "ok",
+   "value": 27,
+   "note": "Design example"
+  },
+  "ct-state|bioretention_media_depth_min_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 24
+  },
+  "dc-ddot-stormwater|bioretention_media_depth_min_inches": {
+   "qualifier": "min",
+   "verdict": "weak",
+   "value": 18,
+   "note": "Quote gives 24 in where trees are planted"
+  },
+  "duluth-mn|bioretention_media_depth_min_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 30
+  },
+  "elizabeth-nj|bioretention_media_depth_min_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 18
+  },
+  "erie-pa|bioretention_media_depth_min_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 18
+  },
+  "evansville-in|bioretention_media_depth_min_inches": {
+   "qualifier": "min",
+   "verdict": "removed",
+   "value": 12,
+   "note": "Sand or gravel drainage bed, not bioretention media"
+  },
+  "everett-wa|bioretention_media_depth_min_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 18
+  },
+  "fort-wayne-in|bioretention_media_depth_min_inches": {
+   "qualifier": "min",
+   "verdict": "corrected",
+   "value": 48,
+   "corrected_value": 18.0,
+   "note": "Quote: at least 18 inches of soil or media"
+  },
+  "fremont-ca|bioretention_media_depth_min_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 18
+  },
+  "fresno-ca|bioretention_media_depth_min_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 24
+  },
+  "frisco-tx|bioretention_media_depth_min_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 30
+  },
+  "harris-county-tx|bioretention_media_depth_min_inches": {
+   "qualifier": "typical",
+   "verdict": "ok",
+   "value": 18
+  },
+  "harrisburg-pa|bioretention_media_depth_min_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 18
+  },
+  "hartford-ct|bioretention_media_depth_min_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 24
+  },
+  "hawaii-dot-pcbmp|bioretention_media_depth_min_inches": {
+   "qualifier": "typical",
+   "verdict": "ok",
+   "value": 24
+  },
+  "huntsville-al|bioretention_media_depth_min_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 36
+  },
+  "indiana-manual|bioretention_media_depth_min_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 48
+  },
+  "kennewick-wa|bioretention_media_depth_min_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 18
+  },
+  "lancaster-pa|bioretention_media_depth_min_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 18
+  },
+  "las-cruces-nm|bioretention_media_depth_min_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 18
+  },
+  "lexington-ky|bioretention_media_depth_min_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 48
+  },
+  "long-beach-ca|bioretention_media_depth_min_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 24
+  },
+  "los-angeles-ca|bioretention_media_depth_min_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 24
+  },
+  "louisville-ky|bioretention_media_depth_min_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 36
+  },
+  "ma-state-draft|bioretention_media_depth_min_inches": {
+   "qualifier": "min",
+   "verdict": "weak",
+   "value": 24,
+   "note": "Quote is the 30 in depth for nitrogen removal"
+  },
+  "maine-manual|bioretention_media_depth_min_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 18
+  },
+  "md-state|bioretention_media_depth_min_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 30
+  },
+  "mn-state-2008|bioretention_media_depth_min_inches": {
+   "qualifier": "typical",
+   "verdict": "ok",
+   "value": 30
+  },
+  "montgomery-al|bioretention_media_depth_min_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 36
+  },
+  "montpelier-vt|bioretention_media_depth_min_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 24
+  },
+  "new-haven-ct|bioretention_media_depth_min_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 24
+  },
+  "newark-nj|bioretention_media_depth_min_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 18
+  },
+  "nj-state|bioretention_media_depth_min_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 18
+  },
+  "ny-state|bioretention_media_depth_min_inches": {
+   "qualifier": "min",
+   "verdict": "weak",
+   "value": 12,
+   "note": "Quote is for infiltration rain gardens, not bioretention"
+  },
+  "nyc-ny|bioretention_media_depth_min_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 30
+  },
+  "oh-odot-drainage|bioretention_media_depth_min_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 30
+  },
+  "ohio-rainwater|bioretention_media_depth_min_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 30
+  },
+  "olympia-wa|bioretention_media_depth_min_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 18
+  },
+  "oregon-manual|bioretention_media_depth_min_inches": {
+   "qualifier": "min",
+   "verdict": "weak",
+   "value": 9,
+   "note": "Growing medium of unclear practice"
+  },
+  "pa-bmp-2006|bioretention_media_depth_min_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 18
+  },
+  "pa-state|bioretention_media_depth_min_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 18
+  },
+  "paterson-nj|bioretention_media_depth_min_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 18
+  },
+  "pearland-tx|bioretention_media_depth_min_inches": {
+   "qualifier": "typical",
+   "verdict": "ok",
+   "value": 18
+  },
+  "philadelphia-pa|bioretention_media_depth_min_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 24
+  },
+  "pinellas-county-fl|bioretention_media_depth_min_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 12
+  },
+  "portland-me|bioretention_media_depth_min_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 18
+  },
+  "portland-or|bioretention_media_depth_min_inches": {
+   "qualifier": "min",
+   "verdict": "removed",
+   "value": 12,
+   "note": "Compost soil amendment depth, not bioretention media"
+  },
+  "prince-georges-county-md|bioretention_media_depth_min_inches": {
+   "qualifier": "min",
+   "verdict": "corrected",
+   "value": 30,
+   "corrected_value": 24.0,
+   "note": "Quote: between 24 and 48 inches"
+  },
+  "providence-ri|bioretention_media_depth_min_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 24
+  },
+  "reading-pa|bioretention_media_depth_min_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 18
+  },
+  "reno-nv|bioretention_media_depth_min_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 18
+  },
+  "ri-ridot-drainage|bioretention_media_depth_min_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 24
+  },
+  "ri-state|bioretention_media_depth_min_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 24
+  },
+  "rochester-ny|bioretention_media_depth_min_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 30
+  },
+  "rockville-md|bioretention_media_depth_min_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 30
+  },
+  "san-jose-ca|bioretention_media_depth_min_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 18
+  },
+  "santa-barbara-ca|bioretention_media_depth_min_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 24
+  },
+  "santa-fe-nm|bioretention_media_depth_min_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 18
+  },
+  "scranton-pa|bioretention_media_depth_min_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 18
+  },
+  "seattle-wa-2026|bioretention_media_depth_min_inches": {
+   "qualifier": "min",
+   "verdict": "weak",
+   "value": 12,
+   "note": "Quote is for rain gardens"
+  },
+  "south-bend-in|bioretention_media_depth_min_inches": {
+   "qualifier": "min",
+   "verdict": "removed",
+   "value": 12,
+   "note": "Sand or gravel drainage bed, not bioretention media"
+  },
+  "spokane-wa|bioretention_media_depth_min_inches": {
+   "qualifier": "min",
+   "verdict": "removed",
+   "value": 6,
+   "note": "Subgrade thickness, not bioretention media"
+  },
+  "springfield-ma|bioretention_media_depth_min_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 24
+  },
+  "springfield-mo|bioretention_media_depth_min_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 12
+  },
+  "stamford-ct|bioretention_media_depth_min_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 24
+  },
+  "stockton-ca|bioretention_media_depth_min_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 18
+  },
+  "syracuse-ny|bioretention_media_depth_min_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 30
+  },
+  "tarrant-county-tx|bioretention_media_depth_min_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 30
+  },
+  "tn-state|bioretention_media_depth_min_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 24
+  },
+  "toledo-oh|bioretention_media_depth_min_inches": {
+   "qualifier": "typical",
+   "verdict": "ok",
+   "value": 30
+  },
+  "trenton-nj|bioretention_media_depth_min_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 18
+  },
+  "tucson-az-detention|bioretention_media_depth_min_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 16
+  },
+  "vt-state|bioretention_media_depth_min_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 24
+  },
+  "wa-state-western|bioretention_media_depth_min_inches": {
+   "qualifier": "min",
+   "verdict": "weak",
+   "value": 18,
+   "note": "Quote gives the media's conductivity, not its depth"
+  },
+  "west-virginia-manual|bioretention_media_depth_min_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 18
+  },
+  "worcester-ma|bioretention_media_depth_min_inches": {
+   "qualifier": "min",
+   "verdict": "weak",
+   "value": 24,
+   "note": "Quote is the 30 in depth for nitrogen removal"
+  },
+  "yonkers-ny|bioretention_media_depth_min_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 30
+  },
+  "youngstown-oh|bioretention_media_depth_min_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 30
+  },
+  "akron-oh|bioretention_ponding_depth_inches": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 12
+  },
+  "alabama-handbook|bioretention_ponding_depth_inches": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 6
+  },
+  "albany-ny|bioretention_ponding_depth_inches": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 12
+  },
+  "alexandria-va|bioretention_ponding_depth_inches": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 12
+  },
+  "allentown-pa|bioretention_ponding_depth_inches": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 24,
+   "note": "Maximum ponding/storage depth incl. subsurface storage"
+  },
+  "ann-arbor-mi|bioretention_ponding_depth_inches": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 8
+  },
+  "annapolis-md|bioretention_ponding_depth_inches": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 12
+  },
+  "arlington-county-va|bioretention_ponding_depth_inches": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 15
+  },
+  "augusta-me|bioretention_ponding_depth_inches": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 6
+  },
+  "birmingham-al|bioretention_ponding_depth_inches": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 12
+  },
+  "bridgeport-ct|bioretention_ponding_depth_inches": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 12
+  },
+  "burlington-vt|bioretention_ponding_depth_inches": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 12
+  },
+  "chicago-il|bioretention_ponding_depth_inches": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 12
+  },
+  "clarksville-tn|bioretention_ponding_depth_inches": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 6
+  },
+  "columbia-mo|bioretention_ponding_depth_inches": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 6
+  },
+  "ct-state|bioretention_ponding_depth_inches": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 12
+  },
+  "dc-ddot-stormwater|bioretention_ponding_depth_inches": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 18
+  },
+  "detroit-mi|bioretention_ponding_depth_inches": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 12
+  },
+  "erie-pa|bioretention_ponding_depth_inches": {
+   "qualifier": "max",
+   "verdict": "weak",
+   "value": 24,
+   "note": "No quote"
+  },
+  "fort-wayne-in|bioretention_ponding_depth_inches": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 6
+  },
+  "fresno-ca|bioretention_ponding_depth_inches": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 18
+  },
+  "frisco-tx|bioretention_ponding_depth_inches": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 12
+  },
+  "harrisburg-pa|bioretention_ponding_depth_inches": {
+   "qualifier": "max",
+   "verdict": "weak",
+   "value": 24,
+   "note": "No quote"
+  },
+  "hartford-ct|bioretention_ponding_depth_inches": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 12
+  },
+  "hawaii-dot-pcbmp|bioretention_ponding_depth_inches": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 6
+  },
+  "houston-tx|bioretention_ponding_depth_inches": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 6
+  },
+  "huntsville-al|bioretention_ponding_depth_inches": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 12
+  },
+  "jersey-city-nj|bioretention_ponding_depth_inches": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 12
+  },
+  "kennewick-wa|bioretention_ponding_depth_inches": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 12
+  },
+  "king-county-wa|bioretention_ponding_depth_inches": {
+   "qualifier": "max",
+   "verdict": "corrected",
+   "value": 6,
+   "corrected_value": 12.0,
+   "note": "Quote: 6 in minimum to 12 in maximum"
+  },
+  "lancaster-pa|bioretention_ponding_depth_inches": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 12
+  },
+  "lexington-ky|bioretention_ponding_depth_inches": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 6
+  },
+  "long-beach-ca|bioretention_ponding_depth_inches": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 18
+  },
+  "los-angeles-ca|bioretention_ponding_depth_inches": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 18
+  },
+  "louisville-ky|bioretention_ponding_depth_inches": {
+   "qualifier": "max",
+   "verdict": "removed",
+   "value": 4,
+   "note": "A typical range, minimum 4 in; no maximum stated"
+  },
+  "maine-manual|bioretention_ponding_depth_inches": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 6
+  },
+  "md-state|bioretention_ponding_depth_inches": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 12
+  },
+  "montgomery-al|bioretention_ponding_depth_inches": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 12
+  },
+  "montpelier-vt|bioretention_ponding_depth_inches": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 12
+  },
+  "new-haven-ct|bioretention_ponding_depth_inches": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 12
+  },
+  "ny-state|bioretention_ponding_depth_inches": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 12
+  },
+  "nyc-ny|bioretention_ponding_depth_inches": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 12
+  },
+  "oh-odot-drainage|bioretention_ponding_depth_inches": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 12
+  },
+  "oregon-manual|bioretention_ponding_depth_inches": {
+   "qualifier": "max",
+   "verdict": "weak",
+   "value": 3,
+   "note": "No quote"
+  },
+  "pa-bmp-2006|bioretention_ponding_depth_inches": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 6
+  },
+  "pa-state|bioretention_ponding_depth_inches": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 24,
+   "note": "Maximum ponding/storage depth incl. subsurface storage"
+  },
+  "paterson-nj|bioretention_ponding_depth_inches": {
+   "qualifier": "max",
+   "verdict": "corrected",
+   "value": 12,
+   "corrected_value": 18.0,
+   "note": "Quote: maximum depth of runoff is 18 inches"
+  },
+  "pearland-tx|bioretention_ponding_depth_inches": {
+   "qualifier": "max",
+   "verdict": "removed",
+   "value": 24,
+   "note": "Quote is a ponding time (24 hours), not a depth"
+  },
+  "philadelphia-pa|bioretention_ponding_depth_inches": {
+   "qualifier": "max",
+   "verdict": "removed",
+   "value": 3,
+   "note": "Minimum ponding below the outlet, not the maximum depth"
+  },
+  "portland-me|bioretention_ponding_depth_inches": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 6
+  },
+  "portland-or|bioretention_ponding_depth_inches": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 12
+  },
+  "prince-georges-county-md|bioretention_ponding_depth_inches": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 12
+  },
+  "providence-ri|bioretention_ponding_depth_inches": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 9
+  },
+  "ri-ridot-drainage|bioretention_ponding_depth_inches": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 12
+  },
+  "ri-state|bioretention_ponding_depth_inches": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 9
+  },
+  "rochester-ny|bioretention_ponding_depth_inches": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 12
+  },
+  "rockville-md|bioretention_ponding_depth_inches": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 12
+  },
+  "san-bernardino-county-ca|bioretention_ponding_depth_inches": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 18
+  },
+  "santa-barbara-ca|bioretention_ponding_depth_inches": {
+   "qualifier": "max",
+   "verdict": "corrected",
+   "value": 3,
+   "corrected_value": 12.0,
+   "note": "Quote: 3 in minimum (6 preferred) / 12 in maximum"
+  },
+  "scranton-pa|bioretention_ponding_depth_inches": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 24,
+   "note": "Maximum ponding/storage depth incl. subsurface storage"
+  },
+  "spokane-wa|bioretention_ponding_depth_inches": {
+   "qualifier": "design",
+   "verdict": "ok",
+   "value": 6
+  },
+  "springfield-mo|bioretention_ponding_depth_inches": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 18
+  },
+  "stamford-ct|bioretention_ponding_depth_inches": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 12
+  },
+  "stockton-ca|bioretention_ponding_depth_inches": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 12
+  },
+  "syracuse-ny|bioretention_ponding_depth_inches": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 12
+  },
+  "tarrant-county-tx|bioretention_ponding_depth_inches": {
+   "qualifier": "typical",
+   "verdict": "ok",
+   "value": 6
+  },
+  "trenton-nj|bioretention_ponding_depth_inches": {
+   "qualifier": "max",
+   "verdict": "corrected",
+   "value": 12,
+   "corrected_value": 18.0,
+   "note": "Quote: maximum depth of runoff is 18 inches"
+  },
+  "vancouver-wa|bioretention_ponding_depth_inches": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 12
+  },
+  "vt-state|bioretention_ponding_depth_inches": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 12
+  },
+  "wayne-county-mi|bioretention_ponding_depth_inches": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 12
+  },
+  "yonkers-ny|bioretention_ponding_depth_inches": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 12
+  },
+  "alexandria-va|permeable_pavement_storage_depth_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 9
+  },
+  "arlington-county-va|permeable_pavement_storage_depth_inches": {
+   "qualifier": "min",
+   "verdict": "weak",
+   "value": 12,
+   "note": "Quote gives a 6 in stone section"
+  },
+  "billings-mt|permeable_pavement_storage_depth_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 6
+  },
+  "birmingham-al|permeable_pavement_storage_depth_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 9
+  },
+  "boise-id|permeable_pavement_storage_depth_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 4
+  },
+  "harrisburg-pa|permeable_pavement_storage_depth_inches": {
+   "qualifier": "min",
+   "verdict": "removed",
+   "value": 12,
+   "note": "Definition threshold, not a minimum depth"
+  },
+  "houston-tx|permeable_pavement_storage_depth_inches": {
+   "qualifier": "min",
+   "verdict": "weak",
+   "value": 9
+  },
+  "huntsville-al|permeable_pavement_storage_depth_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 9
+  },
+  "independence-mo|permeable_pavement_storage_depth_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 12
+  },
+  "kansas-city-marc-bmp|permeable_pavement_storage_depth_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 12
+  },
+  "mobile-al|permeable_pavement_storage_depth_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 9
+  },
+  "montgomery-al|permeable_pavement_storage_depth_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 9
+  },
+  "nyc-ny|permeable_pavement_storage_depth_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 12
+  },
+  "pa-state|permeable_pavement_storage_depth_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 18,
+   "note": "PA table: storage depth max 3 ft, min 18 in"
+  },
+  "reading-pa|permeable_pavement_storage_depth_inches": {
+   "qualifier": "min",
+   "verdict": "removed",
+   "value": 12,
+   "note": "Definition threshold, not a minimum depth"
+  },
+  "ri-ridot-drainage|permeable_pavement_storage_depth_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 4
+  },
+  "scranton-pa|permeable_pavement_storage_depth_inches": {
+   "qualifier": "min",
+   "verdict": "removed",
+   "value": 12,
+   "note": "Definition threshold, not a minimum depth"
+  },
+  "springfield-mo|permeable_pavement_storage_depth_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 6
+  },
+  "alabama-handbook|design_infiltration_rate_in_per_hr": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 1
+  },
+  "albany-ny|design_infiltration_rate_in_per_hr": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 0.5
+  },
+  "albuquerque-nm-gsi|design_infiltration_rate_in_per_hr": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 0.1
+  },
+  "alexandria-va|design_infiltration_rate_in_per_hr": {
+   "qualifier": "min",
+   "verdict": "weak",
+   "value": 0.5
+  },
+  "amarillo-tx|design_infiltration_rate_in_per_hr": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 0.27
+  },
+  "arlington-county-va|design_infiltration_rate_in_per_hr": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 0.5
+  },
+  "baton-rouge-la|design_infiltration_rate_in_per_hr": {
+   "qualifier": "min",
+   "verdict": "removed",
+   "value": 50,
+   "note": "Describes pervious concrete surface rate, not a soil requirement"
+  },
+  "bend-or|design_infiltration_rate_in_per_hr": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 2.5,
+   "note": "Rate for engineered media or pavement, not native soil"
+  },
+  "birmingham-al|design_infiltration_rate_in_per_hr": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 0.5
+  },
+  "bismarck-nd|design_infiltration_rate_in_per_hr": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 1
+  },
+  "bridgeport-ct|design_infiltration_rate_in_per_hr": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 0.5,
+   "note": "Design rate cap: 50% of the field rate or 0.5 in/hr for the media, whichever is lower"
+  },
+  "burlington-vt|design_infiltration_rate_in_per_hr": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 0.2
+  },
+  "cambridge-ma|design_infiltration_rate_in_per_hr": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 0.01
+  },
+  "carson-city-nv|design_infiltration_rate_in_per_hr": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 0.5
+  },
+  "charleston-wv|design_infiltration_rate_in_per_hr": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 0.5
+  },
+  "chicago-il|design_infiltration_rate_in_per_hr": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 0.5
+  },
+  "clarksville-tn|design_infiltration_rate_in_per_hr": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 0.5
+  },
+  "college-station-tx|design_infiltration_rate_in_per_hr": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 0.5
+  },
+  "ct-ctdot-drainage|design_infiltration_rate_in_per_hr": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 1
+  },
+  "ct-state|design_infiltration_rate_in_per_hr": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 0.5,
+   "note": "Design rate cap: 50% of the field rate or 0.5 in/hr for the media, whichever is lower"
+  },
+  "dallas-tx|design_infiltration_rate_in_per_hr": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 0.5
+  },
+  "dc-guidebook|design_infiltration_rate_in_per_hr": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 0.5
+  },
+  "de-wet-ponds-draft|design_infiltration_rate_in_per_hr": {
+   "qualifier": "min",
+   "verdict": "removed",
+   "value": 0.01,
+   "note": "Water-budget assumption, not a requirement"
+  },
+  "dover-de|design_infiltration_rate_in_per_hr": {
+   "qualifier": "min",
+   "verdict": "removed",
+   "value": 0.01,
+   "note": "Water-budget assumption, not a requirement"
+  },
+  "eugene-or|design_infiltration_rate_in_per_hr": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 2.5,
+   "note": "Rate for engineered media or pavement, not native soil"
+  },
+  "flint-mi|design_infiltration_rate_in_per_hr": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 0.5
+  },
+  "fort-wayne-in|design_infiltration_rate_in_per_hr": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 0.5
+  },
+  "fort-worth-tx|design_infiltration_rate_in_per_hr": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 0.5
+  },
+  "fremont-ca|design_infiltration_rate_in_per_hr": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 5,
+   "note": "Rate for engineered media or pavement, not native soil"
+  },
+  "grand-prairie-tx|design_infiltration_rate_in_per_hr": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 0.5
+  },
+  "gulfport-ms|design_infiltration_rate_in_per_hr": {
+   "qualifier": "min",
+   "verdict": "corrected",
+   "value": 0.52,
+   "corrected_value": 2.0,
+   "note": "Quote: underdrain likely where in-situ permeability is below 2 in/hr"
+  },
+  "harris-county-tx|design_infiltration_rate_in_per_hr": {
+   "qualifier": "min",
+   "verdict": "weak",
+   "value": 30,
+   "note": "Rate for engineered media or pavement, not native soil"
+  },
+  "hartford-ct|design_infiltration_rate_in_per_hr": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 0.5,
+   "note": "Design rate cap: 50% of the field rate or 0.5 in/hr for the media, whichever is lower"
+  },
+  "houston-tx|design_infiltration_rate_in_per_hr": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 0.5
+  },
+  "idaho-bmp-catalog|design_infiltration_rate_in_per_hr": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 0.4
+  },
+  "in-indot-drainage|design_infiltration_rate_in_per_hr": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 2
+  },
+  "jackson-ms|design_infiltration_rate_in_per_hr": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 0.52
+  },
+  "jersey-city-nj|design_infiltration_rate_in_per_hr": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 0.5
+  },
+  "kansas-city-marc-bmp|design_infiltration_rate_in_per_hr": {
+   "qualifier": "design",
+   "verdict": "ok",
+   "value": 0.0208,
+   "note": "Assumed rate for sizing calculations"
+  },
+  "kennewick-wa|design_infiltration_rate_in_per_hr": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 0.3
+  },
+  "knoxville-tn|design_infiltration_rate_in_per_hr": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 0.5
+  },
+  "lansing-mi|design_infiltration_rate_in_per_hr": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 0.5
+  },
+  "lexington-ky|design_infiltration_rate_in_per_hr": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 0.5
+  },
+  "lincoln-ne|design_infiltration_rate_in_per_hr": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 2
+  },
+  "long-beach-ca|design_infiltration_rate_in_per_hr": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 5,
+   "note": "Rate for engineered media or pavement, not native soil"
+  },
+  "louisville-ky|design_infiltration_rate_in_per_hr": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 0.5
+  },
+  "ma-massdot-drainage|design_infiltration_rate_in_per_hr": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 0.17
+  },
+  "ma-state-draft|design_infiltration_rate_in_per_hr": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 0.01
+  },
+  "maine-manual|design_infiltration_rate_in_per_hr": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 2.41
+  },
+  "montpelier-vt|design_infiltration_rate_in_per_hr": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 0.2
+  },
+  "ms-state-vol2|design_infiltration_rate_in_per_hr": {
+   "qualifier": "min",
+   "verdict": "corrected",
+   "value": 0.52,
+   "corrected_value": 2.0,
+   "note": "Quote: underdrain likely where in-situ permeability is below 2 in/hr"
+  },
+  "ne-ndot-stf|design_infiltration_rate_in_per_hr": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 0.5
+  },
+  "new-haven-ct|design_infiltration_rate_in_per_hr": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 0.5,
+   "note": "Design rate cap: 50% of the field rate or 0.5 in/hr for the media, whichever is lower"
+  },
+  "ny-state|design_infiltration_rate_in_per_hr": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 0.5
+  },
+  "nyc-ny|design_infiltration_rate_in_per_hr": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 0.5
+  },
+  "pa-bmp-2006|design_infiltration_rate_in_per_hr": {
+   "qualifier": "min",
+   "verdict": "weak",
+   "value": 0.5
+  },
+  "pa-penndot-drainage|design_infiltration_rate_in_per_hr": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 0.5
+  },
+  "pasadena-tx|design_infiltration_rate_in_per_hr": {
+   "qualifier": "min",
+   "verdict": "weak",
+   "value": 30,
+   "note": "Rate for engineered media or pavement, not native soil"
+  },
+  "pearland-tx|design_infiltration_rate_in_per_hr": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 30,
+   "note": "Rate for engineered media or pavement, not native soil"
+  },
+  "portland-or|design_infiltration_rate_in_per_hr": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 2
+  },
+  "providence-ri|design_infiltration_rate_in_per_hr": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 0.5
+  },
+  "reno-nv|design_infiltration_rate_in_per_hr": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 0.5
+  },
+  "ri-ridot-drainage|design_infiltration_rate_in_per_hr": {
+   "qualifier": "min",
+   "verdict": "corrected",
+   "value": 0.52,
+   "corrected_value": 0.5,
+   "note": "Quote: exceed 0.5 inches per hour"
+  },
+  "ri-state|design_infiltration_rate_in_per_hr": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 0.5
+  },
+  "riverside-county-ca|design_infiltration_rate_in_per_hr": {
+   "qualifier": "min",
+   "verdict": "corrected",
+   "value": 0.83,
+   "corrected_value": 1.6,
+   "note": "Quote: infiltration BMPs not used below 1.6 in/hr"
+  },
+  "rochester-ny|design_infiltration_rate_in_per_hr": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 0.5
+  },
+  "salem-or|design_infiltration_rate_in_per_hr": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 0.5
+  },
+  "san-bernardino-county-ca|design_infiltration_rate_in_per_hr": {
+   "qualifier": "design",
+   "verdict": "ok",
+   "value": 2.5,
+   "note": "Rate for engineered media or pavement, not native soil"
+  },
+  "san-jose-ca|design_infiltration_rate_in_per_hr": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 5,
+   "note": "Rate for engineered media or pavement, not native soil"
+  },
+  "south-carolina-manual|design_infiltration_rate_in_per_hr": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 0.3
+  },
+  "spokane-wa|design_infiltration_rate_in_per_hr": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 0.15
+  },
+  "springfield-il|design_infiltration_rate_in_per_hr": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 0.5
+  },
+  "springfield-ma|design_infiltration_rate_in_per_hr": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 0.01
+  },
+  "springfield-mo|design_infiltration_rate_in_per_hr": {
+   "qualifier": "min",
+   "verdict": "weak",
+   "value": 0.5,
+   "note": "Quote gives the in-service rate for pervious pavement (10 in/hr)"
+  },
+  "stamford-ct|design_infiltration_rate_in_per_hr": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 0.5,
+   "note": "Design rate cap: 50% of the field rate or 0.5 in/hr for the media, whichever is lower"
+  },
+  "syracuse-ny|design_infiltration_rate_in_per_hr": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 0.5
+  },
+  "tacoma-wa|design_infiltration_rate_in_per_hr": {
+   "qualifier": "min",
+   "verdict": "weak",
+   "value": 3,
+   "note": "Quote gives an 8 in/hr condition"
+  },
+  "tarrant-county-tx|design_infiltration_rate_in_per_hr": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 0.5
+  },
+  "tn-state|design_infiltration_rate_in_per_hr": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 0.5
+  },
+  "va-state|design_infiltration_rate_in_per_hr": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 0.5
+  },
+  "vancouver-wa|design_infiltration_rate_in_per_hr": {
+   "qualifier": "design",
+   "verdict": "corrected",
+   "value": 250,
+   "corrected_value": 12.0,
+   "note": "Assumed rate for bioretention soil mix (12 in/hr)"
+  },
+  "vt-state|design_infiltration_rate_in_per_hr": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 0.2
+  },
+  "waco-tx|design_infiltration_rate_in_per_hr": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 0.5
+  },
+  "west-virginia-manual|design_infiltration_rate_in_per_hr": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 0.5
+  },
+  "worcester-ma|design_infiltration_rate_in_per_hr": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 0.01
+  },
+  "yonkers-ny|design_infiltration_rate_in_per_hr": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 0.5
+  },
+  "allentown-pa|permanent_pool_depth_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 60
+  },
+  "arlington-tx|permanent_pool_depth_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 48
+  },
+  "bend-or|permanent_pool_depth_inches": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 48
+  },
+  "chesapeake-va|permanent_pool_depth_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 96
+  },
+  "chicago-il|permanent_pool_depth_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 36
+  },
+  "college-station-tx|permanent_pool_depth_inches": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 48,
+   "note": "Limit for dugout ponds in flat or karst terrain"
+  },
+  "columbia-sc|permanent_pool_depth_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 48
+  },
+  "ct-ctdot-drainage|permanent_pool_depth_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 60
+  },
+  "dallas-tx|permanent_pool_depth_inches": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 48,
+   "note": "Limit for dugout ponds in flat or karst terrain"
+  },
+  "dayton-oh|permanent_pool_depth_inches": {
+   "qualifier": "average",
+   "verdict": "ok",
+   "value": 48
+  },
+  "de-wet-ponds-draft|permanent_pool_depth_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 48
+  },
+  "detroit-mi|permanent_pool_depth_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 36
+  },
+  "dover-de|permanent_pool_depth_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 48
+  },
+  "duluth-mn|permanent_pool_depth_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 36
+  },
+  "erie-pa|permanent_pool_depth_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 60
+  },
+  "eugene-or|permanent_pool_depth_inches": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 48
+  },
+  "fl-fdot-drainage|permanent_pool_depth_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 72
+  },
+  "fl-swfwmd-erp-ah2|permanent_pool_depth_inches": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 96,
+   "note": "Depth limit for permanent-pool volume credit"
+  },
+  "flint-mi|permanent_pool_depth_inches": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 18,
+   "note": "Depth without safety fencing"
+  },
+  "fort-wayne-in|permanent_pool_depth_inches": {
+   "qualifier": "average",
+   "verdict": "ok",
+   "value": 48
+  },
+  "fort-worth-tx|permanent_pool_depth_inches": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 48,
+   "note": "Limit for dugout ponds in flat or karst terrain"
+  },
+  "grand-prairie-tx|permanent_pool_depth_inches": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 48,
+   "note": "Limit for dugout ponds in flat or karst terrain"
+  },
+  "greenville-sc|permanent_pool_depth_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 48
+  },
+  "harrisburg-pa|permanent_pool_depth_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 60
+  },
+  "hawaii-dot-pcbmp|permanent_pool_depth_inches": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 96
+  },
+  "idaho-bmp-catalog|permanent_pool_depth_inches": {
+   "qualifier": "min",
+   "verdict": "removed",
+   "value": 36,
+   "note": "Average depth of a constructed wetland, not a wet pond"
+  },
+  "il-iepa-stormwater|permanent_pool_depth_inches": {
+   "qualifier": "average",
+   "verdict": "ok",
+   "value": 48,
+   "note": "Design example"
+  },
+  "independence-mo|permanent_pool_depth_inches": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 18,
+   "note": "Extended detention wetland main pool"
+  },
+  "kansas-city-marc-bmp|permanent_pool_depth_inches": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 18,
+   "note": "Extended detention wetland main pool"
+  },
+  "knoxville-tn|permanent_pool_depth_inches": {
+   "qualifier": "min",
+   "verdict": "removed",
+   "value": 0.5,
+   "note": "Pool volume per impervious acre, not a depth"
+  },
+  "lacey-wa|permanent_pool_depth_inches": {
+   "qualifier": "design",
+   "verdict": "ok",
+   "value": 36
+  },
+  "lakeland-fl|permanent_pool_depth_inches": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 96,
+   "note": "Depth limit for permanent-pool volume credit"
+  },
+  "lansing-mi|permanent_pool_depth_inches": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 18,
+   "note": "Depth without safety fencing"
+  },
+  "louisville-ky|permanent_pool_depth_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 60
+  },
+  "memphis-tn|permanent_pool_depth_inches": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 144
+  },
+  "mn-state-2008|permanent_pool_depth_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 36
+  },
+  "montpelier-vt|permanent_pool_depth_inches": {
+   "qualifier": "min",
+   "verdict": "removed",
+   "value": 48,
+   "note": "Depth that triggers a safety bench, not a pool-depth rule"
+  },
+  "oregon-manual|permanent_pool_depth_inches": {
+   "qualifier": "design",
+   "verdict": "ok",
+   "value": 4.8,
+   "note": "Shallow pool in an extended dry basin"
+  },
+  "pa-state|permanent_pool_depth_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 60
+  },
+  "reading-pa|permanent_pool_depth_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 60
+  },
+  "saint-paul-mn|permanent_pool_depth_inches": {
+   "qualifier": "average",
+   "verdict": "ok",
+   "value": 48
+  },
+  "santa-barbara-ca|permanent_pool_depth_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 48
+  },
+  "scranton-pa|permanent_pool_depth_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 60
+  },
+  "springfield-mo|permanent_pool_depth_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 72
+  },
+  "tarrant-county-tx|permanent_pool_depth_inches": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 48,
+   "note": "Limit for dugout ponds in flat or karst terrain"
+  },
+  "topeka-ks|permanent_pool_depth_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 48
+  },
+  "va-state|permanent_pool_depth_inches": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 48
+  },
+  "va-vdot-drainage|permanent_pool_depth_inches": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 36
+  },
+  "vt-state|permanent_pool_depth_inches": {
+   "qualifier": "min",
+   "verdict": "removed",
+   "value": 48,
+   "note": "Depth that triggers a safety bench, not a pool-depth rule"
+  },
+  "waco-tx|permanent_pool_depth_inches": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 48,
+   "note": "Limit for dugout ponds in flat or karst terrain"
+  },
+  "wayne-county-mi|permanent_pool_depth_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 48
+  },
+  "wilmington-de|permanent_pool_depth_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 48
+  },
+  "ak-state|ed_drain_time_hours": {
+   "qualifier": "design",
+   "verdict": "ok",
+   "value": 24
+  },
+  "akron-oh|ed_drain_time_hours": {
+   "qualifier": "range",
+   "verdict": "ok",
+   "value": 48
+  },
+  "albany-ny|ed_drain_time_hours": {
+   "qualifier": "design",
+   "verdict": "ok",
+   "value": 24
+  },
+  "annapolis-md|ed_drain_time_hours": {
+   "qualifier": "design",
+   "verdict": "ok",
+   "value": 24
+  },
+  "arlington-tx|ed_drain_time_hours": {
+   "qualifier": "range",
+   "verdict": "ok",
+   "value": 48
+  },
+  "athens-ga|ed_drain_time_hours": {
+   "qualifier": "design",
+   "verdict": "ok",
+   "value": 24
+  },
+  "augusta-ga|ed_drain_time_hours": {
+   "qualifier": "design",
+   "verdict": "ok",
+   "value": 24
+  },
+  "baltimore-md|ed_drain_time_hours": {
+   "qualifier": "design",
+   "verdict": "ok",
+   "value": 24
+  },
+  "billings-mt|ed_drain_time_hours": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 48
+  },
+  "bridgeport-ct|ed_drain_time_hours": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 48
+  },
+  "burlington-vt|ed_drain_time_hours": {
+   "qualifier": "design",
+   "verdict": "ok",
+   "value": 24
+  },
+  "ca-casqa-municipal|ed_drain_time_hours": {
+   "qualifier": "typical",
+   "verdict": "ok",
+   "value": 72
+  },
+  "cambridge-ma|ed_drain_time_hours": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 24
+  },
+  "carson-city-nv|ed_drain_time_hours": {
+   "qualifier": "design",
+   "verdict": "ok",
+   "value": 48
+  },
+  "cedar-rapids-ia|ed_drain_time_hours": {
+   "qualifier": "design",
+   "verdict": "ok",
+   "value": 24
+  },
+  "charleston-wv|ed_drain_time_hours": {
+   "qualifier": "typical",
+   "verdict": "ok",
+   "value": 48
+  },
+  "chesapeake-va|ed_drain_time_hours": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 48
+  },
+  "chicago-il|ed_drain_time_hours": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 72
+  },
+  "clarksville-tn|ed_drain_time_hours": {
+   "qualifier": "range",
+   "verdict": "ok",
+   "value": 24
+  },
+  "columbia-sc|ed_drain_time_hours": {
+   "qualifier": "design",
+   "verdict": "removed",
+   "value": 24,
+   "note": "Applicability note for a calculation method"
+  },
+  "columbus-oh|ed_drain_time_hours": {
+   "qualifier": "design",
+   "verdict": "ok",
+   "value": 24
+  },
+  "corpus-christi-tx|ed_drain_time_hours": {
+   "qualifier": "typical",
+   "verdict": "ok",
+   "value": 40
+  },
+  "ct-ctdot-drainage|ed_drain_time_hours": {
+   "qualifier": "design",
+   "verdict": "ok",
+   "value": 24
+  },
+  "ct-state|ed_drain_time_hours": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 48
+  },
+  "davenport-ia|ed_drain_time_hours": {
+   "qualifier": "design",
+   "verdict": "ok",
+   "value": 24
+  },
+  "de-deldot-drainage|ed_drain_time_hours": {
+   "qualifier": "design",
+   "verdict": "ok",
+   "value": 24
+  },
+  "de-wet-ponds-draft|ed_drain_time_hours": {
+   "qualifier": "design",
+   "verdict": "ok",
+   "value": 48
+  },
+  "dekalb-county-ga|ed_drain_time_hours": {
+   "qualifier": "design",
+   "verdict": "ok",
+   "value": 24
+  },
+  "des-moines-ia|ed_drain_time_hours": {
+   "qualifier": "design",
+   "verdict": "ok",
+   "value": 24
+  },
+  "detroit-mi|ed_drain_time_hours": {
+   "qualifier": "design",
+   "verdict": "ok",
+   "value": 48
+  },
+  "dover-de|ed_drain_time_hours": {
+   "qualifier": "design",
+   "verdict": "ok",
+   "value": 48
+  },
+  "duluth-mn|ed_drain_time_hours": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 24
+  },
+  "el-paso-tx|ed_drain_time_hours": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 72
+  },
+  "erie-pa|ed_drain_time_hours": {
+   "qualifier": "design",
+   "verdict": "removed",
+   "value": 72,
+   "note": "Infiltration drawdown, not extended detention"
+  },
+  "fl-swfwmd-erp-ah2|ed_drain_time_hours": {
+   "qualifier": "design",
+   "verdict": "corrected",
+   "value": 36,
+   "corrected_value": 24.0,
+   "note": "Quote: discharge in 24 hours"
+  },
+  "flint-mi|ed_drain_time_hours": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 48
+  },
+  "fort-worth-tx|ed_drain_time_hours": {
+   "qualifier": "design",
+   "verdict": "ok",
+   "value": 24
+  },
+  "fremont-ca|ed_drain_time_hours": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 48
+  },
+  "fresno-ca|ed_drain_time_hours": {
+   "qualifier": "design",
+   "verdict": "ok",
+   "value": 96
+  },
+  "frisco-tx|ed_drain_time_hours": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 48
+  },
+  "fulton-county-ga|ed_drain_time_hours": {
+   "qualifier": "design",
+   "verdict": "ok",
+   "value": 24
+  },
+  "ga-state|ed_drain_time_hours": {
+   "qualifier": "design",
+   "verdict": "ok",
+   "value": 24
+  },
+  "grand-rapids-mi|ed_drain_time_hours": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 72
+  },
+  "greenville-sc|ed_drain_time_hours": {
+   "qualifier": "design",
+   "verdict": "corrected",
+   "value": 72,
+   "corrected_value": 24.0,
+   "note": "Quote: 24 hours of extended detention"
+  },
+  "gulfport-ms|ed_drain_time_hours": {
+   "qualifier": "max",
+   "verdict": "corrected",
+   "value": 24,
+   "corrected_value": 72.0,
+   "note": "Quote: no more than 3 days"
+  },
+  "gwinnett-county-ga|ed_drain_time_hours": {
+   "qualifier": "design",
+   "verdict": "ok",
+   "value": 24
+  },
+  "harrisburg-pa|ed_drain_time_hours": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 72
+  },
+  "hartford-ct|ed_drain_time_hours": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 48
+  },
+  "houston-tx|ed_drain_time_hours": {
+   "qualifier": "design",
+   "verdict": "removed",
+   "value": 48,
+   "note": "Drain time of a pavement or media layer, not extended detention"
+  },
+  "ia-state-ch1|ed_drain_time_hours": {
+   "qualifier": "design",
+   "verdict": "ok",
+   "value": 24
+  },
+  "idaho-bmp-catalog|ed_drain_time_hours": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 48
+  },
+  "in-indot-drainage|ed_drain_time_hours": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 72
+  },
+  "independence-mo|ed_drain_time_hours": {
+   "qualifier": "design",
+   "verdict": "ok",
+   "value": 40
+  },
+  "jackson-ms|ed_drain_time_hours": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 72
+  },
+  "jefferson-city-mo|ed_drain_time_hours": {
+   "qualifier": "design",
+   "verdict": "ok",
+   "value": 40
+  },
+  "juneau-ak|ed_drain_time_hours": {
+   "qualifier": "design",
+   "verdict": "ok",
+   "value": 24
+  },
+  "kansas-city-marc-bmp|ed_drain_time_hours": {
+   "qualifier": "design",
+   "verdict": "ok",
+   "value": 40
+  },
+  "knoxville-tn|ed_drain_time_hours": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 72
+  },
+  "lakeland-fl|ed_drain_time_hours": {
+   "qualifier": "design",
+   "verdict": "corrected",
+   "value": 36,
+   "corrected_value": 24.0,
+   "note": "Quote: discharge in 24 hours"
+  },
+  "las-vegas-nv|ed_drain_time_hours": {
+   "qualifier": "range",
+   "verdict": "ok",
+   "value": 24
+  },
+  "lexington-ky|ed_drain_time_hours": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 24
+  },
+  "louisville-ky|ed_drain_time_hours": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 36
+  },
+  "ma-massdot-drainage|ed_drain_time_hours": {
+   "qualifier": "range",
+   "verdict": "ok",
+   "value": 72
+  },
+  "ma-state-draft|ed_drain_time_hours": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 24
+  },
+  "macon-ga|ed_drain_time_hours": {
+   "qualifier": "design",
+   "verdict": "ok",
+   "value": 24
+  },
+  "md-state|ed_drain_time_hours": {
+   "qualifier": "design",
+   "verdict": "ok",
+   "value": 24
+  },
+  "missouri-manual|ed_drain_time_hours": {
+   "qualifier": "design",
+   "verdict": "ok",
+   "value": 40
+  },
+  "mn-state-2008|ed_drain_time_hours": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 24
+  },
+  "montpelier-vt|ed_drain_time_hours": {
+   "qualifier": "design",
+   "verdict": "ok",
+   "value": 24
+  },
+  "murfreesboro-tn|ed_drain_time_hours": {
+   "qualifier": "design",
+   "verdict": "ok",
+   "value": 24
+  },
+  "new-haven-ct|ed_drain_time_hours": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 48
+  },
+  "nj-njdot-drainage|ed_drain_time_hours": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 24
+  },
+  "nm-nmdot-drainage|ed_drain_time_hours": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 96
+  },
+  "ny-state|ed_drain_time_hours": {
+   "qualifier": "design",
+   "verdict": "ok",
+   "value": 24
+  },
+  "nyc-ny|ed_drain_time_hours": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 48
+  },
+  "oakland-ca|ed_drain_time_hours": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 24
+  },
+  "oh-odot-drainage|ed_drain_time_hours": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 48
+  },
+  "oregon-manual|ed_drain_time_hours": {
+   "qualifier": "design",
+   "verdict": "ok",
+   "value": 48
+  },
+  "pa-penndot-drainage|ed_drain_time_hours": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 48
+  },
+  "pa-state|ed_drain_time_hours": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 72
+  },
+  "portland-or|ed_drain_time_hours": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 30
+  },
+  "prince-georges-county-md|ed_drain_time_hours": {
+   "qualifier": "design",
+   "verdict": "ok",
+   "value": 24
+  },
+  "providence-ri|ed_drain_time_hours": {
+   "qualifier": "design",
+   "verdict": "ok",
+   "value": 24
+  },
+  "raleigh-nc|ed_drain_time_hours": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 48
+  },
+  "reading-pa|ed_drain_time_hours": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 72
+  },
+  "reno-nv|ed_drain_time_hours": {
+   "qualifier": "range",
+   "verdict": "ok",
+   "value": 48
+  },
+  "ri-state|ed_drain_time_hours": {
+   "qualifier": "design",
+   "verdict": "ok",
+   "value": 24
+  },
+  "rochester-ny|ed_drain_time_hours": {
+   "qualifier": "design",
+   "verdict": "ok",
+   "value": 24
+  },
+  "rockville-md|ed_drain_time_hours": {
+   "qualifier": "design",
+   "verdict": "ok",
+   "value": 24
+  },
+  "san-bernardino-county-ca|ed_drain_time_hours": {
+   "qualifier": "design",
+   "verdict": "ok",
+   "value": 48
+  },
+  "san-jose-ca|ed_drain_time_hours": {
+   "qualifier": "design",
+   "verdict": "ok",
+   "value": 48
+  },
+  "santa-barbara-ca|ed_drain_time_hours": {
+   "qualifier": "range",
+   "verdict": "ok",
+   "value": 48
+  },
+  "sc-scdot-drainage|ed_drain_time_hours": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 24
+  },
+  "scranton-pa|ed_drain_time_hours": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 72
+  },
+  "south-carolina-manual|ed_drain_time_hours": {
+   "qualifier": "design",
+   "verdict": "ok",
+   "value": 24
+  },
+  "springfield-ma|ed_drain_time_hours": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 24
+  },
+  "springfield-mo|ed_drain_time_hours": {
+   "qualifier": "design",
+   "verdict": "removed",
+   "value": 24,
+   "note": "Quote says a 24-hour release is impractical; not a requirement"
+  },
+  "stamford-ct|ed_drain_time_hours": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 48
+  },
+  "stockton-ca|ed_drain_time_hours": {
+   "qualifier": "design",
+   "verdict": "ok",
+   "value": 48
+  },
+  "syracuse-ny|ed_drain_time_hours": {
+   "qualifier": "design",
+   "verdict": "ok",
+   "value": 24
+  },
+  "tarrant-county-tx|ed_drain_time_hours": {
+   "qualifier": "design",
+   "verdict": "ok",
+   "value": 24
+  },
+  "tn-state|ed_drain_time_hours": {
+   "qualifier": "design",
+   "verdict": "ok",
+   "value": 72
+  },
+  "tx-edwards-rg348|ed_drain_time_hours": {
+   "qualifier": "design",
+   "verdict": "ok",
+   "value": 48
+  },
+  "va-state|ed_drain_time_hours": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 48
+  },
+  "vt-state|ed_drain_time_hours": {
+   "qualifier": "design",
+   "verdict": "ok",
+   "value": 24
+  },
+  "wayne-county-mi|ed_drain_time_hours": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 48
+  },
+  "wichita-ks-vol2|ed_drain_time_hours": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 24
+  },
+  "wilmington-de|ed_drain_time_hours": {
+   "qualifier": "design",
+   "verdict": "ok",
+   "value": 48
+  },
+  "worcester-ma|ed_drain_time_hours": {
+   "qualifier": "design",
+   "verdict": "removed",
+   "value": 24,
+   "note": "Quote is a dewatering period for recharge, not extended detention"
+  },
+  "yonkers-ny|ed_drain_time_hours": {
+   "qualifier": "design",
+   "verdict": "ok",
+   "value": 24
+  },
+  "youngstown-oh|ed_drain_time_hours": {
+   "qualifier": "design",
+   "verdict": "corrected",
+   "value": 48,
+   "corrected_value": 24.0,
+   "note": "Quote: over a 24-hour period"
+  },
+  "akron-oh|length_to_width_ratio": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 2
+  },
+  "alabama-handbook|length_to_width_ratio": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 2
+  },
+  "albany-ny|length_to_width_ratio": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 1.5
+  },
+  "allentown-pa|length_to_width_ratio": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 2
+  },
+  "annapolis-md|length_to_width_ratio": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 1.5
+  },
+  "augusta-me|length_to_width_ratio": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 2
+  },
+  "bend-or|length_to_width_ratio": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 3
+  },
+  "bismarck-nd|length_to_width_ratio": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 3
+  },
+  "ca-caltrans-project-planning|length_to_width_ratio": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 2,
+   "note": "Sedimentation chamber of a sand filter"
+  },
+  "carson-city-nv|length_to_width_ratio": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 1.5
+  },
+  "chula-vista-ca|length_to_width_ratio": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 2
+  },
+  "cleveland-oh|length_to_width_ratio": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 2
+  },
+  "columbus-oh|length_to_width_ratio": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 3
+  },
+  "ct-ctdot-drainage|length_to_width_ratio": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 3
+  },
+  "de-deldot-drainage|length_to_width_ratio": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 2
+  },
+  "de-wet-ponds-draft|length_to_width_ratio": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 2
+  },
+  "detroit-mi|length_to_width_ratio": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 3
+  },
+  "dover-de|length_to_width_ratio": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 2,
+   "note": "Forebay ratio"
+  },
+  "erie-pa|length_to_width_ratio": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 2
+  },
+  "eugene-or|length_to_width_ratio": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 3
+  },
+  "evansville-in|length_to_width_ratio": {
+   "qualifier": "min",
+   "verdict": "removed",
+   "value": 2,
+   "note": "Construction sediment trap"
+  },
+  "fl-nwfwmd-erp-ah2|length_to_width_ratio": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 2
+  },
+  "gulfport-ms|length_to_width_ratio": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 3
+  },
+  "harrisburg-pa|length_to_width_ratio": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 2,
+   "note": "Forebay ratio"
+  },
+  "hawaii-dot-pcbmp|length_to_width_ratio": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 1.5
+  },
+  "idaho-bmp-catalog|length_to_width_ratio": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 1.5
+  },
+  "il-iepa-stormwater|length_to_width_ratio": {
+   "qualifier": "typical",
+   "verdict": "ok",
+   "value": 4,
+   "note": "Design example"
+  },
+  "indiana-manual|length_to_width_ratio": {
+   "qualifier": "min",
+   "verdict": "removed",
+   "value": 2,
+   "note": "Construction sediment trap"
+  },
+  "jackson-ms|length_to_width_ratio": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 3
+  },
+  "jersey-city-nj|length_to_width_ratio": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 2
+  },
+  "lacey-wa|length_to_width_ratio": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 3
+  },
+  "lancaster-pa-swmf|length_to_width_ratio": {
+   "qualifier": "min",
+   "verdict": "weak",
+   "value": 2,
+   "note": "Vegetated receiving area, not a pond"
+  },
+  "lancaster-pa|length_to_width_ratio": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 2
+  },
+  "las-vegas-nv|length_to_width_ratio": {
+   "qualifier": "min",
+   "verdict": "weak",
+   "value": 2,
+   "note": "Depressed landscape area, not a pond"
+  },
+  "lexington-ky|length_to_width_ratio": {
+   "qualifier": "min",
+   "verdict": "corrected",
+   "value": 3,
+   "corrected_value": 2.0,
+   "note": "Quote: at least a 2:1 length to width ratio"
+  },
+  "long-beach-ca|length_to_width_ratio": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 2,
+   "note": "Forebay ratio"
+  },
+  "los-angeles-ca|length_to_width_ratio": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 2,
+   "note": "Forebay ratio"
+  },
+  "louisville-ky|length_to_width_ratio": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 2
+  },
+  "ma-massdot-drainage|length_to_width_ratio": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 2
+  },
+  "maine-manual|length_to_width_ratio": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 2
+  },
+  "md-state|length_to_width_ratio": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 1.5
+  },
+  "memphis-tn|length_to_width_ratio": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 4
+  },
+  "ms-state-vol2|length_to_width_ratio": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 3
+  },
+  "ny-state|length_to_width_ratio": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 1.5
+  },
+  "oh-odot-drainage|length_to_width_ratio": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 3
+  },
+  "ohio-rainwater|length_to_width_ratio": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 2
+  },
+  "pa-bmp-2006|length_to_width_ratio": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 2
+  },
+  "pa-penndot-drainage|length_to_width_ratio": {
+   "qualifier": "min",
+   "verdict": "weak",
+   "value": 2,
+   "note": "Quote is a 4:1 credit condition"
+  },
+  "pa-state|length_to_width_ratio": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 2
+  },
+  "pensacola-fl|length_to_width_ratio": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 2
+  },
+  "pittsburgh-pa|length_to_width_ratio": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 2
+  },
+  "portland-me|length_to_width_ratio": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 2
+  },
+  "prince-georges-county-md|length_to_width_ratio": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 1.5
+  },
+  "providence-ri|length_to_width_ratio": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 2
+  },
+  "raleigh-nc|length_to_width_ratio": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 3
+  },
+  "reading-pa|length_to_width_ratio": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 2,
+   "note": "Forebay ratio"
+  },
+  "reno-nv|length_to_width_ratio": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 2
+  },
+  "ri-state|length_to_width_ratio": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 2
+  },
+  "rochester-ny|length_to_width_ratio": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 1.5
+  },
+  "rockville-md|length_to_width_ratio": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 1.5
+  },
+  "san-diego-ca|length_to_width_ratio": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 2
+  },
+  "san-jose-ca|length_to_width_ratio": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 1.5
+  },
+  "santa-barbara-ca|length_to_width_ratio": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 2,
+   "note": "Forebay ratio"
+  },
+  "scranton-pa|length_to_width_ratio": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 2
+  },
+  "south-bend-in|length_to_width_ratio": {
+   "qualifier": "min",
+   "verdict": "removed",
+   "value": 2,
+   "note": "Construction sediment trap"
+  },
+  "springfield-mo|length_to_width_ratio": {
+   "qualifier": "min",
+   "verdict": "corrected",
+   "value": 2,
+   "corrected_value": 1.0,
+   "note": "Quote: minimum allowable 1:1 (2:1 to 4:1 recommended)"
+  },
+  "stockton-ca|length_to_width_ratio": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 2
+  },
+  "syracuse-ny|length_to_width_ratio": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 1.5
+  },
+  "tallahassee-fl|length_to_width_ratio": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 2
+  },
+  "tarrant-county-tx|length_to_width_ratio": {
+   "qualifier": "typical",
+   "verdict": "ok",
+   "value": 2,
+   "note": "Design assumption"
+  },
+  "tn-state|length_to_width_ratio": {
+   "qualifier": "min",
+   "verdict": "removed",
+   "value": 0.3,
+   "note": "Shortest-flow-path ratio, a different measure"
+  },
+  "toledo-oh|length_to_width_ratio": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 2
+  },
+  "tx-edwards-rg348|length_to_width_ratio": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 1
+  },
+  "va-vdot-drainage|length_to_width_ratio": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 3
+  },
+  "vt-state|length_to_width_ratio": {
+   "qualifier": "min",
+   "verdict": "corrected",
+   "value": 3,
+   "corrected_value": 2.0,
+   "note": "Quote: minimum 2:1 for a shallow treatment wetland"
+  },
+  "wilmington-de|length_to_width_ratio": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 2,
+   "note": "Forebay ratio"
+  },
+  "yonkers-ny|length_to_width_ratio": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 1.5
+  },
+  "youngstown-oh|length_to_width_ratio": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 2
+  },
+  "birmingham-al|wetland_detention_hours": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 48
+  },
+  "fort-wayne-in|wetland_detention_hours": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 48
+  },
+  "huntsville-al|wetland_detention_hours": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 48
+  },
+  "independence-mo|wetland_detention_hours": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 40
+  },
+  "jersey-city-nj|wetland_detention_hours": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 24,
+   "note": " Share of the volume remaining after 24 h"
+  },
+  "kansas-city-marc-bmp|wetland_detention_hours": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 40
+  },
+  "lexington-ky|wetland_detention_hours": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 24
+  },
+  "ma-massdot-drainage|wetland_detention_hours": {
+   "qualifier": "range",
+   "verdict": "ok",
+   "value": 24
+  },
+  "ma-state-draft|wetland_detention_hours": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 24
+  },
+  "maine-manual|wetland_detention_hours": {
+   "qualifier": "range",
+   "verdict": "ok",
+   "value": 48
+  },
+  "montgomery-al|wetland_detention_hours": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 48
+  },
+  "oh-odot-drainage|wetland_detention_hours": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 24
+  },
+  "salem-or|wetland_detention_hours": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 36
+  },
+  "san-bernardino-county-ca|wetland_detention_hours": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 48
+  },
+  "springfield-mo|wetland_detention_hours": {
+   "qualifier": "range",
+   "verdict": "ok",
+   "value": 22
+  },
+  "stockton-ca|wetland_detention_hours": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 24
+  },
+  "tarrant-county-tx|wetland_detention_hours": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 24
+  },
+  "va-state|wetland_detention_hours": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 24
+  },
+  "albany-ny|swale_bottom_width_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 24
+  },
+  "bridgeport-ct|swale_bottom_width_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 24
+  },
+  "burlington-vt|swale_bottom_width_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 24
+  },
+  "ct-state|swale_bottom_width_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 24
+  },
+  "fl-fdot-drainage|swale_bottom_width_inches": {
+   "qualifier": "min",
+   "verdict": "weak",
+   "value": 60,
+   "note": "Drainage channel, not a water-quality swale"
+  },
+  "fort-wayne-in|swale_bottom_width_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 24
+  },
+  "fresno-ca|swale_bottom_width_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 24
+  },
+  "harrisburg-pa|swale_bottom_width_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 24
+  },
+  "hartford-ct|swale_bottom_width_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 24
+  },
+  "houston-tx|swale_bottom_width_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 24
+  },
+  "jacksonville-fl|swale_bottom_width_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 24
+  },
+  "lacey-wa|swale_bottom_width_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 24
+  },
+  "long-beach-ca|swale_bottom_width_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 24
+  },
+  "los-angeles-ca|swale_bottom_width_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 24
+  },
+  "montpelier-vt|swale_bottom_width_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 24
+  },
+  "murfreesboro-tn|swale_bottom_width_inches": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 72
+  },
+  "new-haven-ct|swale_bottom_width_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 24
+  },
+  "nj-njdot-drainage|swale_bottom_width_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 24
+  },
+  "ny-state|swale_bottom_width_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 24
+  },
+  "nyc-ny|swale_bottom_width_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 24
+  },
+  "oakland-ca|swale_bottom_width_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 48,
+   "note": "Open channel, not a water-quality swale"
+  },
+  "pa-penndot-drainage|swale_bottom_width_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 24
+  },
+  "phoenix-az|swale_bottom_width_inches": {
+   "qualifier": "min",
+   "verdict": "weak",
+   "value": 48,
+   "note": "Roadside ditch, not a water-quality swale"
+  },
+  "pinellas-county-fl|swale_bottom_width_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 24
+  },
+  "portland-or|swale_bottom_width_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 24
+  },
+  "providence-ri|swale_bottom_width_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 24
+  },
+  "raleigh-nc|swale_bottom_width_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 24
+  },
+  "ri-ridot-drainage|swale_bottom_width_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 24
+  },
+  "ri-state|swale_bottom_width_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 24
+  },
+  "rochester-ny|swale_bottom_width_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 24
+  },
+  "stamford-ct|swale_bottom_width_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 24
+  },
+  "syracuse-ny|swale_bottom_width_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 24
+  },
+  "vt-state|swale_bottom_width_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 24
+  },
+  "yonkers-ny|swale_bottom_width_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 24
+  },
+  "albany-ny|swale_longitudinal_slope_percent": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 0.5
+  },
+  "amarillo-tx|swale_longitudinal_slope_percent": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 2
+  },
+  "arlington-tx|swale_longitudinal_slope_percent": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 2
+  },
+  "birmingham-al|swale_longitudinal_slope_percent": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 5
+  },
+  "boise-id|swale_longitudinal_slope_percent": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 2
+  },
+  "broward-county-fl|swale_longitudinal_slope_percent": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 0.3,
+   "note": "Roadway swales"
+  },
+  "burlington-vt|swale_longitudinal_slope_percent": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 2
+  },
+  "charleston-wv|swale_longitudinal_slope_percent": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 4
+  },
+  "chesapeake-va|swale_longitudinal_slope_percent": {
+   "qualifier": "min",
+   "verdict": "weak",
+   "value": 0.5
+  },
+  "ct-state|swale_longitudinal_slope_percent": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 5
+  },
+  "elizabeth-nj|swale_longitudinal_slope_percent": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 10,
+   "note": "Sloped-bottom bioretention or swale systems"
+  },
+  "fl-fdot-drainage|swale_longitudinal_slope_percent": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 0.05,
+   "note": "Conveyance ditches"
+  },
+  "fort-wayne-in|swale_longitudinal_slope_percent": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 4
+  },
+  "fort-worth-tx|swale_longitudinal_slope_percent": {
+   "qualifier": "max",
+   "verdict": "removed",
+   "value": 4,
+   "note": "Feasibility note, not a slope requirement"
+  },
+  "grand-rapids-mi|swale_longitudinal_slope_percent": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 2
+  },
+  "gulfport-ms|swale_longitudinal_slope_percent": {
+   "qualifier": "typical",
+   "verdict": "ok",
+   "value": 2
+  },
+  "huntsville-al|swale_longitudinal_slope_percent": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 5
+  },
+  "las-vegas-nv|swale_longitudinal_slope_percent": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 1
+  },
+  "long-beach-ca|swale_longitudinal_slope_percent": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 2
+  },
+  "louisville-ky|swale_longitudinal_slope_percent": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 1
+  },
+  "mobile-al|swale_longitudinal_slope_percent": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 4
+  },
+  "montgomery-al|swale_longitudinal_slope_percent": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 5
+  },
+  "montpelier-vt|swale_longitudinal_slope_percent": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 2
+  },
+  "murfreesboro-tn|swale_longitudinal_slope_percent": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 3
+  },
+  "newark-nj|swale_longitudinal_slope_percent": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 10,
+   "note": "Sloped-bottom bioretention or swale systems"
+  },
+  "nj-njdot-drainage|swale_longitudinal_slope_percent": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 0.5
+  },
+  "nj-state|swale_longitudinal_slope_percent": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 10,
+   "note": "Sloped-bottom bioretention or swale systems"
+  },
+  "orange-county-ca|swale_longitudinal_slope_percent": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 6
+  },
+  "overland-park-ks|swale_longitudinal_slope_percent": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 2
+  },
+  "paterson-nj|swale_longitudinal_slope_percent": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 10,
+   "note": "Sloped-bottom bioretention or swale systems"
+  },
+  "plano-tx|swale_longitudinal_slope_percent": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 0.5
+  },
+  "providence-ri|swale_longitudinal_slope_percent": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 4
+  },
+  "raleigh-nc|swale_longitudinal_slope_percent": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 5
+  },
+  "reno-nv|swale_longitudinal_slope_percent": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 0.5,
+   "note": "Low-flow channels"
+  },
+  "ri-ridot-drainage|swale_longitudinal_slope_percent": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 2
+  },
+  "ri-state|swale_longitudinal_slope_percent": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 4
+  },
+  "sc-scdot-drainage|swale_longitudinal_slope_percent": {
+   "qualifier": "max",
+   "verdict": "removed",
+   "value": 1,
+   "note": "Condition for swale length, not a slope limit"
+  },
+  "spokane-wa|swale_longitudinal_slope_percent": {
+   "qualifier": "max",
+   "verdict": "removed",
+   "value": 1,
+   "note": "Pond-bottom slope, not a swale"
+  },
+  "tn-state|swale_longitudinal_slope_percent": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 0.5
+  },
+  "trenton-nj|swale_longitudinal_slope_percent": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 10,
+   "note": "Sloped-bottom bioretention or swale systems"
+  },
+  "tx-edwards-rg348|swale_longitudinal_slope_percent": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 2.5
+  },
+  "ut-udot-drainage|swale_longitudinal_slope_percent": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 0.5
+  },
+  "vt-state|swale_longitudinal_slope_percent": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 2
+  },
+  "west-virginia-manual|swale_longitudinal_slope_percent": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 4
+  },
+  "allentown-pa|green_roof_media_depth_inches": {
+   "qualifier": "min",
+   "verdict": "weak",
+   "value": 3,
+   "note": "No quote"
+  },
+  "charleston-wv|green_roof_media_depth_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 4
+  },
+  "chattanooga-tn|green_roof_media_depth_inches": {
+   "qualifier": "min",
+   "verdict": "corrected",
+   "value": 2.5,
+   "corrected_value": 2.0,
+   "note": "Quote: 2 to 6 inches of growing media"
+  },
+  "columbia-mo|green_roof_media_depth_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 3
+  },
+  "dc-guidebook|green_roof_media_depth_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 3
+  },
+  "erie-pa|green_roof_media_depth_inches": {
+   "qualifier": "min",
+   "verdict": "weak",
+   "value": 3,
+   "note": "No quote"
+  },
+  "harrisburg-pa|green_roof_media_depth_inches": {
+   "qualifier": "min",
+   "verdict": "weak",
+   "value": 3,
+   "note": "No quote"
+  },
+  "lacey-wa|green_roof_media_depth_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 3
+  },
+  "lancaster-pa|green_roof_media_depth_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 3
+  },
+  "lexington-ky|green_roof_media_depth_inches": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 12,
+   "note": "Maximum depth counted in the volume calculation"
+  },
+  "louisville-ky|green_roof_media_depth_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 6,
+   "note": "Intensive green roofs"
+  },
+  "nyc-ny|green_roof_media_depth_inches": {
+   "qualifier": "min",
+   "verdict": "weak",
+   "value": 4,
+   "note": "No quote"
+  },
+  "oregon-manual|green_roof_media_depth_inches": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 6
+  },
+  "pa-state|green_roof_media_depth_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 3
+  },
+  "reading-pa|green_roof_media_depth_inches": {
+   "qualifier": "min",
+   "verdict": "weak",
+   "value": 3,
+   "note": "No quote"
+  },
+  "scranton-pa|green_roof_media_depth_inches": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 3
+  },
+  "ak-state|green_roof_slope_percent": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 25
+  },
+  "augusta-me|green_roof_slope_percent": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 2
+  },
+  "bridgeport-ct|green_roof_slope_percent": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 20
+  },
+  "chattanooga-tn|green_roof_slope_percent": {
+   "qualifier": "max",
+   "verdict": "removed",
+   "value": 1.5,
+   "note": "Slope above which battens are needed, not a limit"
+  },
+  "ct-state|green_roof_slope_percent": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 20
+  },
+  "hartford-ct|green_roof_slope_percent": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 20
+  },
+  "juneau-ak|green_roof_slope_percent": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 25
+  },
+  "lincoln-ne|green_roof_slope_percent": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 25
+  },
+  "maine-manual|green_roof_slope_percent": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 2
+  },
+  "new-haven-ct|green_roof_slope_percent": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 20
+  },
+  "oregon-manual|green_roof_slope_percent": {
+   "qualifier": "max",
+   "verdict": "weak",
+   "value": 33.33
+  },
+  "portland-me|green_roof_slope_percent": {
+   "qualifier": "min",
+   "verdict": "ok",
+   "value": 2
+  },
+  "stamford-ct|green_roof_slope_percent": {
+   "qualifier": "max",
+   "verdict": "ok",
+   "value": 20
+  }
+ }
+}

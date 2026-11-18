@@ -35,6 +35,8 @@
     "pipeline:verify-report": "tsx scripts/pipeline/verify-report.ts",
     "qa:evidence": "tsx scripts/qa/check-evidence.ts",
     "qa:normalize": "tsx scripts/qa/normalize-documents.ts",
+    "qa:apply-review": "tsx scripts/qa/apply-value-review.ts",
+    "qa:storms": "tsx scripts/qa/design-storm-purposes.ts",
     "qa:alt-text": "tsx scripts/qa/build-alt-text.ts",
     "qa:repair": "tsx scripts/qa/repair-evidence.ts",
     "qa:find-quotes": "tsx scripts/qa/find-quotes.ts",

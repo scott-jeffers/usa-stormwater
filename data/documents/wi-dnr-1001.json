@@ -176,6 +176,40 @@
       "green_roof_media_depth_inches",
       "green_roof_slope_percent",
       "mtd_verification_program"
+    ],
+    "design_storms": [
+      {
+        "years": 1,
+        "purposes": [
+          "other"
+        ],
+        "quote": null,
+        "page": null
+      },
+      {
+        "years": 2,
+        "purposes": [
+          "peak_control"
+        ],
+        "quote": "At a minimum: a) The post-development outflow shall not exceed predevelopment peak flows for the 2-yr., 24-hour design storm. b) Use a hydrograph-producing method such as TR-55 for all runoff and flow calculations. c) When pre-development land cover is cropland, use the runoff curve numbers in Table",
+        "page": 4
+      },
+      {
+        "years": 10,
+        "purposes": [
+          "flood"
+        ],
+        "quote": "The 10-yr. design criteria protects the embankment from premature failure due to frequent or long-duration flows through the emergency spillway.",
+        "page": 8
+      },
+      {
+        "years": 100,
+        "purposes": [
+          "other"
+        ],
+        "quote": null,
+        "page": null
+      }
     ]
   }
 }

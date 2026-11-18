@@ -187,6 +187,43 @@
       "green_roof_media_depth_inches",
       "green_roof_slope_percent",
       "mtd_verification_program"
+    ],
+    "wqv_basis": "runoff",
+    "value_qualifiers": {
+      "ed_drain_time_hours": "min",
+      "wqv_depth_inches": "design"
+    },
+    "design_storms": [
+      {
+        "years": 1,
+        "purposes": [
+          "channel_protection",
+          "water_quality"
+        ],
+        "quote": "Step 2: Channel Protection The Channel Protection Volume (CPv) is the volume of temporary detention required to detain the development site runoff for the 1-year, 24-hour rain event (of 2.8”) for a minimum of 24 hours (centroid-to-centroid) to prevent increased long-term downstream channel erosion.",
+        "page": 5
+      },
+      {
+        "years": 2,
+        "purposes": [
+          "peak_control",
+          "flood",
+          "channel_protection",
+          "water_quality"
+        ],
+        "quote": "Step 5: Downstream Assessment In conjunction with Step 4, principal and emergency stormwater controls must be designed to ensure that the post-development peak discharges for the 2-year through 100-year, 24-hour rain events do not exceed pre-development values downstream of the project boundary.",
+        "page": 6
+      },
+      {
+        "years": 100,
+        "purposes": [
+          "peak_control",
+          "conveyance",
+          "flood"
+        ],
+        "quote": "On-site stormwater conveyances must be designed to convey the peak flows associated with their applicable design rainfall criteria, and must also be capable of conveying the 100-year event without flooding structures or other critical features.",
+        "page": 9
+      }
     ]
   }
 }

@@ -1,5 +1,5 @@
 /** Dataset version and research field dictionary (used by export-research and /data/). */
-export const DATASET_VERSION = "2026.11.0";
+export const DATASET_VERSION = "2026.11.1";
 
 /** Field dictionary: the research-facing meaning of every value field. */
 export const FIELDS: Record<string, { label: string; unit: string; type: "number" | "list" | "text"; meaning: string }> = {
@@ -24,6 +24,8 @@ export const FIELDS: Record<string, { label: string; unit: string; type: "number
   "design_parameters.green_roof_media_depth_inches": { label: "Green roof media depth", unit: "in", type: "number", meaning: "Green roof growing-media depth (usually a minimum)." },
   "design_parameters.green_roof_slope_percent": { label: "Green roof slope", unit: "%", type: "number", meaning: "Green roof slope (usually a maximum)." },
   "design_parameters.mtd_verification_program": { label: "MTD verification program", unit: "", type: "text", meaning: "Testing program the manual accepts for manufactured treatment devices (TAPE, NJCAT, etc.)." },
+  "design_parameters.wqv_basis": { label: "Water-quality depth basis", unit: "", type: "text", meaning: "Whether the water-quality depth is a rainfall depth or a depth of runoff (usually from impervious area)." },
+  "design_parameters.design_storms": { label: "Design storms by purpose", unit: "years", type: "list", meaning: "Each named storm with what it is used for: water quality, channel protection, peak control, conveyance or flood safety. Assigned automatically from the manual's requirement sentences (spot check of 30: 21 assigned, 16 of those right). Download: design-storms.csv." },
   "design_parameters.practice_mentions": { label: "Practices mentioned", unit: "", type: "list", meaning: "Canonical practice keys the manual mentions (data/ontology/bmp-aliases.json)." },
 };
 

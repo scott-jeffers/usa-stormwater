@@ -48,19 +48,9 @@
       "page_or_section": null
     },
     {
-      "field": "design_parameters.max_drawdown_hours",
-      "excerpt": "store and release the first ½ inch of runoff from the entire Project site over a minimum period of 24 hours",
-      "page_or_section": "3.3.3.1 Design Removal Efficiency Goal/Performance Standard, page 3-8"
-    },
-    {
       "field": "design_parameters.ed_drain_time_hours",
       "excerpt": "Design permanent water quality structures not having a permanent pool elevation (dry structures) to store and release the first one (1) inch of runoff from the Project site over a minimum period of 24 hours.",
       "page_or_section": "3.3.3.1, page 3-8"
-    },
-    {
-      "field": "design_parameters.swale_longitudinal_slope_percent",
-      "excerpt": "vegetated channels and swales with a slope less than or equal to 1% may be 75 feet long",
-      "page_or_section": "5.1 Post-Construction BMP Policy, page 5-1"
     },
     {
       "field": "design_parameters.practice_mentions.wet_pond",
@@ -111,7 +101,7 @@
   },
   "design_parameters": {
     "wqv_depth_inches": null,
-    "max_drawdown_hours": 24,
+    "max_drawdown_hours": null,
     "shwt_separation_inches": null,
     "bioretention_media_depth_min_inches": null,
     "bioretention_ponding_depth_inches": null,
@@ -122,7 +112,7 @@
     "length_to_width_ratio": null,
     "wetland_detention_hours": null,
     "swale_bottom_width_inches": null,
-    "swale_longitudinal_slope_percent": 1,
+    "swale_longitudinal_slope_percent": null,
     "green_roof_media_depth_inches": null,
     "green_roof_slope_percent": null,
     "mtd_verification_program": null,
@@ -152,6 +142,27 @@
       "green_roof_media_depth_inches",
       "green_roof_slope_percent",
       "mtd_verification_program"
+    ],
+    "value_qualifiers": {
+      "ed_drain_time_hours": "min"
+    },
+    "design_storms": [
+      {
+        "years": 10,
+        "purposes": [
+          "other"
+        ],
+        "quote": null,
+        "page": null
+      },
+      {
+        "years": 100,
+        "purposes": [
+          "flood"
+        ],
+        "quote": "The sediment basin outfall device or system design must take into account the total drainage area flowing through the disturbed area to be served by the basin and must successfully pass the 100-year, 24-hour storm event through the emergency spillway.",
+        "page": 18
+      }
     ]
   }
 }

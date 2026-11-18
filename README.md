@@ -131,6 +131,7 @@ By default the corpus stage runs **offline heuristics** (`PIPELINE_LLM=heuristic
 
 - **Model manual:** `content/manual/model-manual.md` is the single source for the draft model stormwater manual, rendered at `/manual/`. Clauses are written `**3.2 Title.** [Default, E1] text`; rationale lines are `> Why: ...` (or `> Why (6.0.1): ...` after a list). `tests/manual.test.ts` checks clause numbers are unique and that every hand-checked criterion's clause exists.
 - **Hand-checked evidence:** `data/national/hand-checks.json` (one entry per value read by hand; corpus finds carry `source: "corpus"`, page and quote). Rebuild the classification with `npm run national:classify`, then update the numbers quoted in the manual.
+- **Value review:** `data/qa/value-review.json` holds the hand reading of every numeric parameter (qualifier, verdict, corrections); `npm run qa:apply-review` applies it to `data/documents/` (CI checks it is applied). `npm run qa:storms` records each design storm's purpose from the local corpus into `design_parameters.design_storms` and `data/qa/design-storms.json`.
 - **Research downloads:** `npm run export:data` also runs `scripts/export-research.ts`, which writes `values.csv`, `manuals.csv`, `hand-checks.csv`, `dictionary.json` and `dataset.json` to `public/data/` (served at `/data/`). Bump `DATASET_VERSION` in `lib/dataset.ts`, `CITATION.cff` and `CHANGELOG.md` together.
 
 ## Citation QA (strict evidence check)

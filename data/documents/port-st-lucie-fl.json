@@ -46,11 +46,6 @@
       "page_or_section": "3.9 Minimum Drainage (b)(1)(a), page 14"
     },
     {
-      "field": "design_parameters.max_drawdown_hours",
-      "excerpt": "Residential projects shall have systems with the calculated ability to discharge by surface flow or subsurface percolation at least 3/8 inch per day during or subsequent to the storm of the allowable discharge frequency and duration, so that lowering of the water surface elevations within the water management system to the maximum depth compatible with the environmental protection or other constraints as described in 3.10, will occur in 12 days or less.",
-      "page_or_section": "3.9 Minimum Drainage (a), page 14"
-    },
-    {
       "field": "design_parameters.practice_mentions.swale",
       "excerpt": "Onsite works such as swales and dikes shall be used to allow the passage of drainage from offsite areas to downstream areas.",
       "page_or_section": "3.8 Offsite Lands, page 14"
@@ -110,7 +105,7 @@
   },
   "design_parameters": {
     "wqv_depth_inches": 1,
-    "max_drawdown_hours": 288,
+    "max_drawdown_hours": null,
     "shwt_separation_inches": null,
     "bioretention_media_depth_min_inches": null,
     "bioretention_ponding_depth_inches": null,
@@ -151,6 +146,28 @@
       "green_roof_media_depth_inches",
       "green_roof_slope_percent",
       "mtd_verification_program"
+    ],
+    "wqv_basis": "runoff",
+    "value_qualifiers": {
+      "wqv_depth_inches": "design"
+    },
+    "design_storms": [
+      {
+        "years": 25,
+        "purposes": [
+          "peak_control"
+        ],
+        "quote": "3.3 Design Storm Unless otherwise specified by previous Agency permits or criteria, a storm event of 3 day duration and 25 year return frequency shall be used in computing off-site discharge rates.",
+        "page": 11
+      },
+      {
+        "years": 100,
+        "purposes": [
+          "flood"
+        ],
+        "quote": "Both tidal flooding and the 100 year, 3 day storm event shall be considered in determining elevations.",
+        "page": 13
+      }
     ]
   }
 }

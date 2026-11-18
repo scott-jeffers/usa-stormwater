@@ -76,16 +76,6 @@
       "page_or_section": "Chapter 8, Wet Detention Ponds, page 636"
     },
     {
-      "field": "design_parameters.bioretention_media_depth_min_inches",
-      "excerpt": "Sand/Gravel Substrate Aeration and drainage for planting bed is provided by a 12 to 20- inch deep sand and/or gravel bed.",
-      "page_or_section": "Chapter 8, Bioretention Systems, Table 2, page 620"
-    },
-    {
-      "field": "design_parameters.length_to_width_ratio",
-      "excerpt": "Minimum dimensions for a bioretention area are 10 feet wide by 20 feet long. Any system wider than 20 feet should be at least twice as long to evenly distribute the flow.",
-      "page_or_section": "Chapter 8, Bioretention Systems, page 619"
-    },
-    {
       "field": "design_parameters.bioretention_ponding_depth_inches",
       "excerpt": "A ponding depth of six to nine inches is recommended.",
       "page_or_section": "Chapter 8, Bioretention Systems, page 619"
@@ -114,11 +104,6 @@
       "field": "design_criteria.approved_bmp_categories",
       "excerpt": "Surface filtration systems include measures such as compost filters, vegetated swales, and riparian buffer zones.",
       "page_or_section": "PDF p. 525 · found by QA search"
-    },
-    {
-      "field": "design_parameters.length_to_width_ratio",
-      "excerpt": "Lay out the location and shape of the sediment trap allowing for a length to width ratio of 2:1 or greater.",
-      "page_or_section": "PDF p. 397 · found by QA search"
     }
   ],
   "extraction_quality": {
@@ -137,13 +122,13 @@
     "wqv_depth_inches": 1,
     "max_drawdown_hours": 24,
     "shwt_separation_inches": 36,
-    "bioretention_media_depth_min_inches": 12,
+    "bioretention_media_depth_min_inches": null,
     "bioretention_ponding_depth_inches": null,
     "permeable_pavement_storage_depth_inches": null,
     "design_infiltration_rate_in_per_hr": null,
     "permanent_pool_depth_inches": null,
     "ed_drain_time_hours": null,
-    "length_to_width_ratio": 2,
+    "length_to_width_ratio": null,
     "wetland_detention_hours": null,
     "swale_bottom_width_inches": null,
     "swale_longitudinal_slope_percent": null,
@@ -176,6 +161,33 @@
       "green_roof_media_depth_inches",
       "green_roof_slope_percent",
       "mtd_verification_program"
+    ],
+    "wqv_basis": "rainfall",
+    "value_qualifiers": {
+      "max_drawdown_hours": "typical",
+      "shwt_separation_inches": "min",
+      "wqv_depth_inches": "design"
+    },
+    "design_storms": [
+      {
+        "years": 10,
+        "purposes": [
+          "flood",
+          "conveyance",
+          "channel_protection",
+          "peak_control"
+        ],
+        "quote": "Emergency Spillway shall be at or above the 10-year, 24-hour precipitation event.",
+        "page": 933
+      },
+      {
+        "years": 100,
+        "purposes": [
+          "flood"
+        ],
+        "quote": "Ideally the 100-year flood plain should be avoided for clearing and building.",
+        "page": 82
+      }
     ]
   }
 }

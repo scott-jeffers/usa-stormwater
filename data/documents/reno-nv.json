@@ -211,6 +211,52 @@
       "green_roof_media_depth_inches",
       "green_roof_slope_percent",
       "mtd_verification_program"
+    ],
+    "wqv_basis": "rainfall",
+    "value_qualifiers": {
+      "bioretention_media_depth_min_inches": "min",
+      "design_infiltration_rate_in_per_hr": "min",
+      "ed_drain_time_hours": "range",
+      "length_to_width_ratio": "min",
+      "max_drawdown_hours": "max",
+      "shwt_separation_inches": "min",
+      "swale_longitudinal_slope_percent": "min",
+      "wqv_depth_inches": "design"
+    },
+    "design_storms": [
+      {
+        "years": 2,
+        "purposes": [
+          "peak_control"
+        ],
+        "quote": "To ensure that flooding of critical areas and structures will not occur during larger storm events, upstream diversion structures that limit flows through flow-based BMPs to the 2-year peak flow rate may be required.",
+        "page": 94
+      },
+      {
+        "years": 5,
+        "purposes": [
+          "conveyance"
+        ],
+        "quote": "Truckee Meadows Section 6 – Treatment Controls Regional Storm Water Quality Management Program Structural Controls and Low Impact Development Handbook, 2015 Update Page 6 - 8 Since conventional storm drainage systems are typically constructed to convey flows from the larger storm events (the 5-year ",
+        "page": 98
+      },
+      {
+        "years": 25,
+        "purposes": [
+          "other"
+        ],
+        "quote": null,
+        "page": null
+      },
+      {
+        "years": 100,
+        "purposes": [
+          "peak_control",
+          "flood"
+        ],
+        "quote": "The emergency spillway should be consistent with local flood control design standards [100-year peak flow, probable maximum flood (PMF), or standard project flood (SPF)].",
+        "page": 155
+      }
     ]
   }
 }

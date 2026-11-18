@@ -179,6 +179,28 @@
       "green_roof_media_depth_inches",
       "green_roof_slope_percent",
       "mtd_verification_program"
+    ],
+    "value_qualifiers": {
+      "max_drawdown_hours": "max"
+    },
+    "design_storms": [
+      {
+        "years": 10,
+        "purposes": [
+          "conveyance",
+          "peak_control"
+        ],
+        "quote": "The 10-year event detention volume must be completely contained within underground pipes and designated detention facilities.",
+        "page": 17
+      },
+      {
+        "years": 100,
+        "purposes": [
+          "flood"
+        ],
+        "quote": "relative to approved basin wide master plan at 0.4cfs/ac UP = Underpass - Do not drain to these basins Note: 100-year event volume must be contained onsite and may include parking lot storage or other surface flooding.",
+        "page": 54
+      }
     ]
   }
 }

@@ -147,6 +147,20 @@
       "green_roof_media_depth_inches",
       "green_roof_slope_percent",
       "mtd_verification_program"
+    ],
+    "value_qualifiers": {
+      "swale_longitudinal_slope_percent": "max"
+    },
+    "design_storms": [
+      {
+        "years": 100,
+        "purposes": [
+          "flood",
+          "conveyance"
+        ],
+        "quote": "The Pad of any habitable structure and other Flood non-flood proofed structures shall be protected from the 100-year storm.",
+        "page": 228
+      }
     ]
   }
 }

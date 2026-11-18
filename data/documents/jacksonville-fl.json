@@ -176,6 +176,62 @@
       "green_roof_media_depth_inches",
       "green_roof_slope_percent",
       "mtd_verification_program"
+    ],
+    "value_qualifiers": {
+      "max_drawdown_hours": "max",
+      "shwt_separation_inches": "min",
+      "swale_bottom_width_inches": "min"
+    },
+    "design_storms": [
+      {
+        "years": 3,
+        "purposes": [
+          "conveyance"
+        ],
+        "quote": "Contributing pipe system flow shall be calculated based on a 3-year frequency storm and minimum time of concentration of 20 minutes.",
+        "page": 78
+      },
+      {
+        "years": 5,
+        "purposes": [
+          "conveyance",
+          "flood"
+        ],
+        "quote": "General A grassed conveyance swale should be designed to convey at least the 5-year/24-hour design storm without erosion, scouring, or localized flooding.",
+        "page": 111
+      },
+      {
+        "years": 10,
+        "purposes": [
+          "other"
+        ],
+        "quote": null,
+        "page": null
+      },
+      {
+        "years": 25,
+        "purposes": [
+          "peak_control"
+        ],
+        "quote": "The outflow rate shall not exceed the capacity of the downstream system based on a 25-year design storm inflow into the detention pond.",
+        "page": 85
+      },
+      {
+        "years": 50,
+        "purposes": [
+          "other"
+        ],
+        "quote": null,
+        "page": null
+      },
+      {
+        "years": 100,
+        "purposes": [
+          "peak_control"
+        ],
+        "quote": "The maximum allowable outflow rate shall be based on the runoff rate for existing conditions using the 100-year rational or 25-year SCS design storm.",
+        "page": 85
+      }
     ]
   }
 }

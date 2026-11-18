@@ -151,6 +151,12 @@
       "swale_longitudinal_slope_percent",
       "green_roof_media_depth_inches",
       "green_roof_slope_percent"
-    ]
+    ],
+    "wqv_basis": "runoff",
+    "value_qualifiers": {
+      "length_to_width_ratio": "min",
+      "shwt_separation_inches": "min",
+      "wqv_depth_inches": "min"
+    }
   }
 }

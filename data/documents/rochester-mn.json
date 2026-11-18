@@ -152,6 +152,30 @@
       "green_roof_media_depth_inches",
       "green_roof_slope_percent",
       "mtd_verification_program"
+    ],
+    "wqv_basis": "rainfall",
+    "value_qualifiers": {
+      "max_drawdown_hours": "max",
+      "wqv_depth_inches": "design"
+    },
+    "design_storms": [
+      {
+        "years": 10,
+        "purposes": [
+          "conveyance"
+        ],
+        "quote": "New development must follow 10-year storm sewer design standards.",
+        "page": 76
+      },
+      {
+        "years": 100,
+        "purposes": [
+          "peak_control",
+          "flood"
+        ],
+        "quote": "This basin should limit the 100-year discharge rate to 9.5 cfs within 6.7 ac-ft of detention storage available.",
+        "page": 152
+      }
     ]
   }
 }

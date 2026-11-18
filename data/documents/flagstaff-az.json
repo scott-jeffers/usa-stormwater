@@ -50,11 +50,6 @@
       "page_or_section": "§6.2 policy 14"
     },
     {
-      "field": "design_parameters.max_drawdown_hours",
-      "excerpt": "ROCV requirement may be met by (1) retaining the minimum ROCV for ≥24 hours",
-      "page_or_section": "Atlas context (WQv method)"
-    },
-    {
       "field": "design_parameters.practice_mentions.extended_detention",
       "excerpt": "EXTENDED DETENTION – A basin designed for retention and detention. The retention portion of the basin is below the basin outlet that holds water and allows infiltration or has an underdrain system that filters water.",
       "page_or_section": "DEFINITIONS, page 8"
@@ -99,7 +94,7 @@
   },
   "design_parameters": {
     "wqv_depth_inches": 1,
-    "max_drawdown_hours": 24,
+    "max_drawdown_hours": null,
     "shwt_separation_inches": null,
     "bioretention_media_depth_min_inches": null,
     "bioretention_ponding_depth_inches": null,
@@ -139,6 +134,62 @@
       "green_roof_media_depth_inches",
       "green_roof_slope_percent",
       "mtd_verification_program"
+    ],
+    "wqv_basis": "runoff",
+    "value_qualifiers": {
+      "wqv_depth_inches": "design"
+    },
+    "design_storms": [
+      {
+        "years": 2,
+        "purposes": [
+          "peak_control"
+        ],
+        "quote": "Low flow channels should be designed to convey the 2-year peak discharge at a minimum.",
+        "page": 76
+      },
+      {
+        "years": 5,
+        "purposes": [
+          "peak_control"
+        ],
+        "quote": "Increases in maximum flood velocity shall not exceed 10% of the pre-development, post-fire velocity, for all frequency storms at or above the 5-year storm event and up to the 100-yr storm event. a.",
+        "page": 107
+      },
+      {
+        "years": 10,
+        "purposes": [
+          "conveyance"
+        ],
+        "quote": "Storm drain systems for local streets must keep the 10-year design flow between the curbs.",
+        "page": 52
+      },
+      {
+        "years": 25,
+        "purposes": [
+          "conveyance"
+        ],
+        "quote": "Must convey the 25-year storm without roadway overtopping.",
+        "page": 62
+      },
+      {
+        "years": 50,
+        "purposes": [
+          "conveyance"
+        ],
+        "quote": "Must convey the 50-year storm without roadway overtopping.",
+        "page": 62
+      },
+      {
+        "years": 100,
+        "purposes": [
+          "flood",
+          "peak_control",
+          "conveyance"
+        ],
+        "quote": "The overflow shall be designed to pass the post development 100-year inflow peak discharge at a minimum.",
+        "page": 87
+      }
     ]
   }
 }

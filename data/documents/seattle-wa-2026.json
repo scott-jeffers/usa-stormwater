@@ -184,6 +184,64 @@
       "green_roof_media_depth_inches",
       "green_roof_slope_percent",
       "mtd_verification_program"
+    ],
+    "value_qualifiers": {
+      "bioretention_media_depth_min_inches": "min",
+      "max_drawdown_hours": "max"
+    },
+    "design_storms": [
+      {
+        "years": 2,
+        "purposes": [
+          "peak_control"
+        ],
+        "quote": "The peak flow with a 50 percent annual probability (2-year recurrence flow) shall not exceed 0.07 cubic feet per second per acre;",
+        "page": 110
+      },
+      {
+        "years": 5,
+        "purposes": [
+          "peak_control"
+        ],
+        "quote": "The peak flow with a 20 percent annual probability (5-year recurrence flow) shall not exceed 0.10 cubic feet per second per acre; and 3.",
+        "page": 110
+      },
+      {
+        "years": 10,
+        "purposes": [
+          "conveyance"
+        ],
+        "quote": "If hydrographs corresponding to the 100-year, 25-year, and 10-year recurrence intervals were needed for conveyance design purposes, then simulated hydrographs with recurrence intervals closest to those required would be exported from the continuous hydrologic model as indicated in the right column o",
+        "page": 942
+      },
+      {
+        "years": 25,
+        "purposes": [
+          "peak_control",
+          "conveyance",
+          "flood"
+        ],
+        "quote": "Drywell Area (sf)b,c c Drywell was sized to reduce the 25-year peak discharge rate to no more than 0.0001 cfs.",
+        "page": 886
+      },
+      {
+        "years": 50,
+        "purposes": [
+          "peak_control"
+        ],
+        "quote": "The post-development discharge durations from the project site shall match the discharge durations of a pre-developed forested condition for the range of pre-developed discharge rates from 50 percent of the 2-year peak flow to the 50-year peak flow.",
+        "page": 109
+      },
+      {
+        "years": 100,
+        "purposes": [
+          "peak_control",
+          "flood",
+          "conveyance"
+        ],
+        "quote": "An overflow system must be designed to safely convey the peak flow with a 1 percent annual probability (100year recurrence interval flow).",
+        "page": 557
+      }
     ]
   }
 }

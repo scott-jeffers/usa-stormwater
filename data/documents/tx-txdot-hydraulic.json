@@ -139,6 +139,65 @@
       "green_roof_media_depth_inches",
       "green_roof_slope_percent",
       "mtd_verification_program"
+    ],
+    "design_storms": [
+      {
+        "years": 2,
+        "purposes": [
+          "other"
+        ],
+        "quote": null,
+        "page": null
+      },
+      {
+        "years": 5,
+        "purposes": [
+          "other"
+        ],
+        "quote": null,
+        "page": null
+      },
+      {
+        "years": 10,
+        "purposes": [
+          "other"
+        ],
+        "quote": null,
+        "page": null
+      },
+      {
+        "years": 25,
+        "purposes": [
+          "conveyance"
+        ],
+        "quote": "Storm drains on facilities such as underpasses, depressed roadways, etc., where no overflow relief is available should be designed for the 2% AEP event. + It may be necessary to calculate the 4% (25-yr), 2% (50-yr), 0.5% (200-yr), or 0.2% (500-yr) AEP for scour computations.",
+        "page": 79
+      },
+      {
+        "years": 50,
+        "purposes": [
+          "flood",
+          "conveyance"
+        ],
+        "quote": "For example, there are times where TxDOT criteria call for a 2% AEP (50-year) bridge and the 1% AEP water surface coincidentally falls within the available freeboard.",
+        "page": 221
+      },
+      {
+        "years": 100,
+        "purposes": [
+          "flood"
+        ],
+        "quote": "ZONE AR: SFHAs that result from the decertification of previously accredited flood protection systems that are in the process of being restored to provide a 1% AEP (100-year) or greater level of flood protection.",
+        "page": 218
+      },
+      {
+        "years": 500,
+        "purposes": [
+          "other"
+        ],
+        "quote": null,
+        "page": null
+      }
     ]
   }
 }

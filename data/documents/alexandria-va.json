@@ -154,6 +154,12 @@
       "green_roof_media_depth_inches",
       "green_roof_slope_percent",
       "mtd_verification_program"
-    ]
+    ],
+    "value_qualifiers": {
+      "bioretention_ponding_depth_inches": "max",
+      "design_infiltration_rate_in_per_hr": "min",
+      "permeable_pavement_storage_depth_inches": "min",
+      "shwt_separation_inches": "min"
+    }
   }
 }

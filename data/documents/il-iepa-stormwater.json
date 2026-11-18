@@ -140,6 +140,10 @@
       "green_roof_media_depth_inches",
       "green_roof_slope_percent",
       "mtd_verification_program"
-    ]
+    ],
+    "value_qualifiers": {
+      "length_to_width_ratio": "typical",
+      "permanent_pool_depth_inches": "average"
+    }
   }
 }

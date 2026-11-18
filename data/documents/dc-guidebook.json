@@ -209,6 +209,38 @@
       "swale_longitudinal_slope_percent",
       "green_roof_slope_percent",
       "mtd_verification_program"
+    ],
+    "value_qualifiers": {
+      "design_infiltration_rate_in_per_hr": "min",
+      "green_roof_media_depth_inches": "min",
+      "shwt_separation_inches": "min"
+    },
+    "design_storms": [
+      {
+        "years": 2,
+        "purposes": [
+          "peak_control"
+        ],
+        "quote": "Predevelopment runoff conditions (used for the 2-year storm) shall be computed independent of existing developed land uses and conditions and shall be based on ―Meadow in good condition‖ or better, assuming good hydrologic conditions and land with grass cover.",
+        "page": 93
+      },
+      {
+        "years": 15,
+        "purposes": [
+          "peak_control"
+        ],
+        "quote": "Preproject runoff conditions (used for the 15-year storm) shall be based on the existing condition of the site",
+        "page": 93
+      },
+      {
+        "years": 100,
+        "purposes": [
+          "flood",
+          "conveyance"
+        ],
+        "quote": "Yard or grate inlets must show the 15-year and 100-year ponding limits (if applicable).",
+        "page": 85
+      }
     ]
   }
 }

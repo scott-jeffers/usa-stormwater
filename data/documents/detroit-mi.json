@@ -244,6 +244,78 @@
       "green_roof_media_depth_inches",
       "green_roof_slope_percent",
       "mtd_verification_program"
+    ],
+    "wqv_basis": "rainfall",
+    "value_qualifiers": {
+      "bioretention_ponding_depth_inches": "max",
+      "ed_drain_time_hours": "design",
+      "length_to_width_ratio": "min",
+      "permanent_pool_depth_inches": "min",
+      "shwt_separation_inches": "min",
+      "wqv_depth_inches": "design"
+    },
+    "design_storms": [
+      {
+        "years": 1,
+        "purposes": [
+          "peak_control"
+        ],
+        "quote": "MTDs shall be designed for the following peak flow rate calculated using the Rational Method as follows: o 1-year recurrence interval peak rainfall intensity using NOAA Atlas 14",
+        "page": 434
+      },
+      {
+        "years": 2,
+        "purposes": [
+          "peak_control",
+          "channel_protection",
+          "water_quality"
+        ],
+        "quote": "V2-year should be part of the detention pond volume.",
+        "page": 65
+      },
+      {
+        "years": 5,
+        "purposes": [
+          "other"
+        ],
+        "quote": null,
+        "page": null
+      },
+      {
+        "years": 10,
+        "purposes": [
+          "flood",
+          "peak_control",
+          "conveyance",
+          "channel_protection"
+        ],
+        "quote": "Overflow structures shall be designed to handle the 10-year peak flow (see Chapter 4).",
+        "page": 270
+      },
+      {
+        "years": 25,
+        "purposes": [
+          "other"
+        ],
+        "quote": null,
+        "page": null
+      },
+      {
+        "years": 50,
+        "purposes": [
+          "conveyance"
+        ],
+        "quote": "In special cases, such as depressed high-volume roadways, the conveyance system shall be designed to carry the 2 percent chance (50-year recurrence interval) storm.",
+        "page": 133
+      },
+      {
+        "years": 100,
+        "purposes": [
+          "flood"
+        ],
+        "quote": "The practice shall be designed to safely pass a 100-year storm.",
+        "page": 213
+      }
     ]
   }
 }

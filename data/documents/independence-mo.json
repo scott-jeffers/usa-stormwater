@@ -142,6 +142,42 @@
       "green_roof_media_depth_inches",
       "green_roof_slope_percent",
       "mtd_verification_program"
+    ],
+    "wqv_basis": "rainfall",
+    "value_qualifiers": {
+      "ed_drain_time_hours": "design",
+      "max_drawdown_hours": "max",
+      "permanent_pool_depth_inches": "max",
+      "permeable_pavement_storage_depth_inches": "min",
+      "shwt_separation_inches": "min",
+      "wetland_detention_hours": "min",
+      "wqv_depth_inches": "design"
+    },
+    "design_storms": [
+      {
+        "years": 2,
+        "purposes": [
+          "other"
+        ],
+        "quote": null,
+        "page": null
+      },
+      {
+        "years": 10,
+        "purposes": [
+          "other"
+        ],
+        "quote": null,
+        "page": null
+      },
+      {
+        "years": 100,
+        "purposes": [
+          "water_quality"
+        ],
+        "quote": "Detention basins detain and manage releases from larger rainfall events―usually up to and including the 100-year return interval event ― and should include a treatment component sized for the WQv.",
+        "page": 31
+      }
     ]
   }
 }

@@ -245,6 +245,47 @@
       "green_roof_media_depth_inches",
       "green_roof_slope_percent",
       "mtd_verification_program"
+    ],
+    "wqv_basis": "rainfall",
+    "value_qualifiers": {
+      "bioretention_media_depth_min_inches": "min",
+      "design_infiltration_rate_in_per_hr": "min",
+      "max_drawdown_hours": "max",
+      "shwt_separation_inches": "min",
+      "swale_longitudinal_slope_percent": "max",
+      "wqv_depth_inches": "design"
+    },
+    "design_storms": [
+      {
+        "years": 1,
+        "purposes": [
+          "other"
+        ],
+        "quote": null,
+        "page": null
+      },
+      {
+        "years": 2,
+        "purposes": [
+          "conveyance",
+          "water_quality",
+          "flood",
+          "channel_protection",
+          "peak_control"
+        ],
+        "quote": "Conveyance and overflow Permeable Pavement designs should include methods to convey larger storms (e.g., 2-yr, 10-yr) to the storm drain system or receiving water body.",
+        "page": 216
+      },
+      {
+        "years": 10,
+        "purposes": [
+          "flood",
+          "peak_control",
+          "conveyance"
+        ],
+        "quote": "and the 10-year peak flow rate must be contained within the channel banks (with a minimum of 0.3 feet of freeboard).",
+        "page": 238
+      }
     ]
   }
 }

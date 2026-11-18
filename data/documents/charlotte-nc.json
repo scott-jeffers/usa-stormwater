@@ -195,6 +195,50 @@
       "green_roof_media_depth_inches",
       "green_roof_slope_percent",
       "mtd_verification_program"
+    ],
+    "design_storms": [
+      {
+        "years": 2,
+        "purposes": [
+          "other"
+        ],
+        "quote": null,
+        "page": null
+      },
+      {
+        "years": 10,
+        "purposes": [
+          "conveyance",
+          "flood"
+        ],
+        "quote": "Driveway pipes Driveway pipes designed for the 10-yr storm must not cause flow to encroach on adjacent streets for the following storms:",
+        "page": 48
+      },
+      {
+        "years": 25,
+        "purposes": [
+          "other"
+        ],
+        "quote": null,
+        "page": null
+      },
+      {
+        "years": 50,
+        "purposes": [
+          "other"
+        ],
+        "quote": null,
+        "page": null
+      },
+      {
+        "years": 100,
+        "purposes": [
+          "flood",
+          "conveyance"
+        ],
+        "quote": "HW must be check for the 100-yr flood to ensure compliance with the floodway UDO and 100+1 criteria",
+        "page": 47
+      }
     ]
   }
 }

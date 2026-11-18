@@ -95,7 +95,7 @@
     "wqv_depth_inches": null,
     "max_drawdown_hours": null,
     "shwt_separation_inches": null,
-    "bioretention_media_depth_min_inches": 18,
+    "bioretention_media_depth_min_inches": 24,
     "bioretention_ponding_depth_inches": null,
     "permeable_pavement_storage_depth_inches": null,
     "design_infiltration_rate_in_per_hr": null,
@@ -139,6 +139,27 @@
       "green_roof_media_depth_inches",
       "green_roof_slope_percent",
       "mtd_verification_program"
+    ],
+    "value_qualifiers": {
+      "bioretention_media_depth_min_inches": "min"
+    },
+    "design_storms": [
+      {
+        "years": 10,
+        "purposes": [
+          "other"
+        ],
+        "quote": null,
+        "page": null
+      },
+      {
+        "years": 100,
+        "purposes": [
+          "flood"
+        ],
+        "quote": "Sewers and their appurtenances located along streams shall be protected against the normal range of high and low water conditions, including the 100-year flood. c.",
+        "page": 184
+      }
     ]
   }
 }

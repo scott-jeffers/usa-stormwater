@@ -70,21 +70,6 @@
       "page_or_section": "p. 1"
     },
     {
-      "field": "design_parameters.max_drawdown_hours",
-      "excerpt": "tf = design filter bed drain time (days) (2.0 days or 48 hours is recommended maximum)",
-      "page_or_section": "Bioretention SD-37, page 49"
-    },
-    {
-      "field": "design_parameters.max_drawdown_hours",
-      "excerpt": "Given that a bioretention facility is typically designed to completely drain over 48 hours",
-      "page_or_section": "Bioretention SD-31, page 43"
-    },
-    {
-      "field": "design_parameters.max_drawdown_hours",
-      "excerpt": "this method should be used only for bioretention areas, filter facilities, and infiltration trenches where the drawdown time is ≥ 24 hours",
-      "page_or_section": "Overview SD-26, page 38"
-    },
-    {
       "field": "design_parameters.shwt_separation_inches",
       "excerpt": "Minimum Depth to Water Table – A separation distance of 2 feet recommended between the bottom of the bioretention facility and the elevation of the seasonally high water table.",
       "page_or_section": "Bioretention SD-32, page 44"
@@ -148,7 +133,7 @@
   },
   "design_parameters": {
     "wqv_depth_inches": null,
-    "max_drawdown_hours": 48,
+    "max_drawdown_hours": null,
     "shwt_separation_inches": 24,
     "bioretention_media_depth_min_inches": 30,
     "bioretention_ponding_depth_inches": 6,
@@ -187,6 +172,16 @@
       "green_roof_media_depth_inches",
       "green_roof_slope_percent",
       "mtd_verification_program"
-    ]
+    ],
+    "value_qualifiers": {
+      "bioretention_media_depth_min_inches": "min",
+      "bioretention_ponding_depth_inches": "typical",
+      "design_infiltration_rate_in_per_hr": "min",
+      "ed_drain_time_hours": "design",
+      "length_to_width_ratio": "typical",
+      "permanent_pool_depth_inches": "max",
+      "shwt_separation_inches": "min",
+      "wetland_detention_hours": "min"
+    }
   }
 }

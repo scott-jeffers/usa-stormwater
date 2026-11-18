@@ -122,6 +122,39 @@
       "green_roof_media_depth_inches",
       "green_roof_slope_percent",
       "mtd_verification_program"
+    ],
+    "wqv_basis": "rainfall",
+    "value_qualifiers": {
+      "ed_drain_time_hours": "design",
+      "wqv_depth_inches": "design"
+    },
+    "design_storms": [
+      {
+        "years": 2,
+        "purposes": [
+          "peak_control"
+        ],
+        "quote": "Some jurisdictions may require peak discharge control for the 2 year storm event.",
+        "page": 9
+      },
+      {
+        "years": 10,
+        "purposes": [
+          "conveyance",
+          "flood"
+        ],
+        "quote": "The Engineer may require 10 year frequency for intakes for major collectors, arterials, expressways, and freeways.",
+        "page": 16
+      },
+      {
+        "years": 100,
+        "purposes": [
+          "flood",
+          "conveyance"
+        ],
+        "quote": "The 100 year flood is checked to determine if streets will provide access or be inundated.",
+        "page": 123
+      }
     ]
   }
 }

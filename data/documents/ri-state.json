@@ -205,6 +205,83 @@
       "green_roof_media_depth_inches",
       "green_roof_slope_percent",
       "mtd_verification_program"
+    ],
+    "wqv_basis": "runoff",
+    "value_qualifiers": {
+      "bioretention_media_depth_min_inches": "min",
+      "bioretention_ponding_depth_inches": "max",
+      "design_infiltration_rate_in_per_hr": "min",
+      "ed_drain_time_hours": "design",
+      "length_to_width_ratio": "min",
+      "max_drawdown_hours": "max",
+      "shwt_separation_inches": "min",
+      "swale_bottom_width_inches": "min",
+      "swale_longitudinal_slope_percent": "max",
+      "wqv_depth_inches": "design"
+    },
+    "design_storms": [
+      {
+        "years": 1,
+        "purposes": [
+          "channel_protection"
+        ],
+        "quote": "The peak velocity for the 1-year storm must be non-erosive (i.e., 3.5-5.0 fps).",
+        "page": 147
+      },
+      {
+        "years": 2,
+        "purposes": [
+          "other"
+        ],
+        "quote": null,
+        "page": null
+      },
+      {
+        "years": 5,
+        "purposes": [
+          "other"
+        ],
+        "quote": null,
+        "page": null
+      },
+      {
+        "years": 10,
+        "purposes": [
+          "peak_control",
+          "conveyance",
+          "flood"
+        ],
+        "quote": "Calculate the 10-year release rate and required storage.",
+        "page": 278
+      },
+      {
+        "years": 25,
+        "purposes": [
+          "other"
+        ],
+        "quote": null,
+        "page": null
+      },
+      {
+        "years": 50,
+        "purposes": [
+          "other"
+        ],
+        "quote": null,
+        "page": null
+      },
+      {
+        "years": 100,
+        "purposes": [
+          "peak_control",
+          "conveyance",
+          "water_quality",
+          "flood",
+          "channel_protection"
+        ],
+        "quote": "Figure D-12 HydroCAD Output for 10-Year, 24-hour Type III Storm Calculate the 100-year release rate and required storage.",
+        "page": 279
+      }
     ]
   }
 }

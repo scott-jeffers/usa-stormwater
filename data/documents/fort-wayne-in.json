@@ -157,7 +157,7 @@
     "wqv_depth_inches": 1,
     "max_drawdown_hours": 48,
     "shwt_separation_inches": null,
-    "bioretention_media_depth_min_inches": 48,
+    "bioretention_media_depth_min_inches": 18,
     "bioretention_ponding_depth_inches": 6,
     "permeable_pavement_storage_depth_inches": null,
     "design_infiltration_rate_in_per_hr": 0.5,
@@ -192,6 +192,48 @@
       "green_roof_media_depth_inches",
       "green_roof_slope_percent",
       "mtd_verification_program"
+    ],
+    "wqv_basis": "rainfall",
+    "value_qualifiers": {
+      "bioretention_media_depth_min_inches": "min",
+      "bioretention_ponding_depth_inches": "max",
+      "design_infiltration_rate_in_per_hr": "min",
+      "max_drawdown_hours": "max",
+      "permanent_pool_depth_inches": "average",
+      "swale_bottom_width_inches": "min",
+      "swale_longitudinal_slope_percent": "max",
+      "wetland_detention_hours": "min",
+      "wqv_depth_inches": "design"
+    },
+    "design_storms": [
+      {
+        "years": 2,
+        "purposes": [
+          "other"
+        ],
+        "quote": null,
+        "page": null
+      },
+      {
+        "years": 10,
+        "purposes": [
+          "conveyance",
+          "peak_control"
+        ],
+        "quote": "For the 10-year design storm, the depth of ponded water at the inlet shall not exceed the values shown in Figure SW7.3.",
+        "page": 184
+      },
+      {
+        "years": 100,
+        "purposes": [
+          "peak_control",
+          "flood",
+          "conveyance",
+          "channel_protection"
+        ],
+        "quote": "(2) Determine watershed area and peak release rate (100 yr peak release rate is 0.18 cfs/acre) [See Tables SW11.2 and SW11.3] (3) Provide a developed site layout.",
+        "page": 239
+      }
     ]
   }
 }

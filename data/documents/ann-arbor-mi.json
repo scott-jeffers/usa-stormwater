@@ -141,6 +141,35 @@
       "green_roof_media_depth_inches",
       "green_roof_slope_percent",
       "mtd_verification_program"
+    ],
+    "wqv_basis": "rainfall",
+    "value_qualifiers": {
+      "bioretention_ponding_depth_inches": "max",
+      "max_drawdown_hours": "max",
+      "shwt_separation_inches": "min",
+      "wqv_depth_inches": "design"
+    },
+    "design_storms": [
+      {
+        "years": 2,
+        "purposes": [
+          "channel_protection",
+          "peak_control"
+        ],
+        "quote": "Exit velocities from the forebay must not be erosive during the 2-year recurrence interval design storm.",
+        "page": 57
+      },
+      {
+        "years": 100,
+        "purposes": [
+          "peak_control",
+          "channel_protection",
+          "flood",
+          "water_quality"
+        ],
+        "quote": "Standard Method Runoff Volume Calculations Pervious Cover Post-Development 100-year Storm Runoff Calculations (V 100- per-post) A.",
+        "page": 40
+      }
     ]
   }
 }

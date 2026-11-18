@@ -100,7 +100,7 @@
   "design_parameters": {
     "wqv_depth_inches": null,
     "max_drawdown_hours": 72,
-    "shwt_separation_inches": 48,
+    "shwt_separation_inches": 24,
     "bioretention_media_depth_min_inches": null,
     "bioretention_ponding_depth_inches": null,
     "permeable_pavement_storage_depth_inches": null,
@@ -143,6 +143,31 @@
       "green_roof_media_depth_inches",
       "green_roof_slope_percent",
       "mtd_verification_program"
+    ],
+    "value_qualifiers": {
+      "design_infiltration_rate_in_per_hr": "min",
+      "max_drawdown_hours": "max",
+      "shwt_separation_inches": "min"
+    },
+    "design_storms": [
+      {
+        "years": 10,
+        "purposes": [
+          "peak_control"
+        ],
+        "quote": "OR Developments disturbing over 5,000 square feet OR Any development increasing the postdevelopment peak discharge for the 10-year storm event by more than 10 percent OR Regulated development shall include, but not be limited to: \u0001 Land development subject to the requirements of the [name of municip",
+        "page": 21
+      },
+      {
+        "years": 100,
+        "purposes": [
+          "flood",
+          "peak_control",
+          "conveyance"
+        ],
+        "quote": "Drainage easements shall be provided to contain and convey the 100-year frequency flood.",
+        "page": 25
+      }
     ]
   }
 }

@@ -41,16 +41,6 @@
       "page_or_section": "1.4.1 Design Requirements, page 14"
     },
     {
-      "field": "design_parameters.max_drawdown_hours",
-      "excerpt": "release the accumulated water quality volume (WQv) over a minimum period of 24-hours",
-      "page_or_section": "1.4.1 Design Requirements, page 14"
-    },
-    {
-      "field": "design_parameters.max_drawdown_hours",
-      "excerpt": "This volume shall be released for a minimum period of 24-hours when a detention pond is used",
-      "page_or_section": "1.2.3 Critical Water Bodies, page 9"
-    },
-    {
       "field": "design_parameters.permanent_pool_depth_inches",
       "excerpt": "Permanent pool depths must be ≥ 4 feet to reduce mosquito breeding",
       "page_or_section": "3.1.2 Accepted Quantity Controls / Table 3.2, pages 35, 39"
@@ -105,14 +95,14 @@
   },
   "design_parameters": {
     "wqv_depth_inches": 1.2,
-    "max_drawdown_hours": 24,
+    "max_drawdown_hours": null,
     "shwt_separation_inches": null,
     "bioretention_media_depth_min_inches": null,
     "bioretention_ponding_depth_inches": null,
     "permeable_pavement_storage_depth_inches": null,
     "design_infiltration_rate_in_per_hr": null,
     "permanent_pool_depth_inches": 48,
-    "ed_drain_time_hours": 72,
+    "ed_drain_time_hours": 24,
     "length_to_width_ratio": null,
     "wetland_detention_hours": null,
     "swale_bottom_width_inches": null,
@@ -149,6 +139,50 @@
       "green_roof_media_depth_inches",
       "green_roof_slope_percent",
       "mtd_verification_program"
+    ],
+    "wqv_basis": "rainfall",
+    "value_qualifiers": {
+      "ed_drain_time_hours": "design",
+      "permanent_pool_depth_inches": "min",
+      "wqv_depth_inches": "design"
+    },
+    "design_storms": [
+      {
+        "years": 1,
+        "purposes": [
+          "channel_protection"
+        ],
+        "quote": "Channel Protection Provide extended detention of the 1-year storm event released over a period of 24 hours to reduce bank-full flows and protect downstream channels from erosive velocities and unstable conditions.",
+        "page": 20
+      },
+      {
+        "years": 2,
+        "purposes": [
+          "peak_control"
+        ],
+        "quote": "2.3 Overbank Flood Protection (QFP) The Overbank Flood Protection criterion specifies that the post-development 2-year and 10-year (also 25-year for site 40 acres and larger), 24-hour storm peak discharge rates not exceed the predevelopment (or undisturbed natural conditions) discharge rate.",
+        "page": 29
+      },
+      {
+        "years": 25,
+        "purposes": [
+          "peak_control",
+          "water_quality",
+          "channel_protection",
+          "flood"
+        ],
+        "quote": "For developments 40 acres and larger, post-development peak discharge rates shall not exceed predevelopment peak discharge rates for the 25-year frequency 24-hour duration storm event.",
+        "page": 33
+      },
+      {
+        "years": 100,
+        "purposes": [
+          "flood",
+          "channel_protection"
+        ],
+        "quote": "When deemed appropriate, the City’s SWD can require that the limits of flooding under a 100-year event be established on the site, regardless of drainage area.",
+        "page": 7
+      }
     ]
   }
 }

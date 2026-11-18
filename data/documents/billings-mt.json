@@ -202,6 +202,48 @@
       "green_roof_media_depth_inches",
       "green_roof_slope_percent",
       "mtd_verification_program"
+    ],
+    "value_qualifiers": {
+      "bioretention_media_depth_min_inches": "typical",
+      "ed_drain_time_hours": "min",
+      "max_drawdown_hours": "max",
+      "permeable_pavement_storage_depth_inches": "min",
+      "shwt_separation_inches": "min"
+    },
+    "design_storms": [
+      {
+        "years": 2,
+        "purposes": [
+          "other"
+        ],
+        "quote": null,
+        "page": null
+      },
+      {
+        "years": 10,
+        "purposes": [
+          "other"
+        ],
+        "quote": null,
+        "page": null
+      },
+      {
+        "years": 25,
+        "purposes": [
+          "conveyance"
+        ],
+        "quote": "A WDB will typically have a multistage outlet control structure that includes a low-flow water quality outlet (typically an orifice), a 10- or 25-year design storm outlet depending on local jurisdiction requirements (typically a drop inlet, pipe, or weir), and may also include an auxiliary or emerge",
+        "page": 132
+      },
+      {
+        "years": 100,
+        "purposes": [
+          "flood",
+          "conveyance"
+        ],
+        "quote": "The overflow spillway should be designed to safely convey runoff from the 100-year storm, at a minimum.",
+        "page": 135
+      }
     ]
   }
 }

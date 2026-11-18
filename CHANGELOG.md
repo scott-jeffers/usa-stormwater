@@ -2,6 +2,22 @@
 
 Dataset versions use `YEAR.MONTH.PATCH`. The site always serves the latest version; the files listed on [/data/](https://www.stormwateratlas.com/data/) are rebuilt on every deploy.
 
+## 2026.11.1 — 2026-11-18
+
+**Data**
+- Every numeric design parameter (1,107 values) read by hand against its quote: 48 corrected, 52 removed (construction practices, pond maintenance drains, extended-detention times filed as drawdown, siting tests), 57 flagged as weak quotes. Review in `data/qa/value-review.json`, applied by `npm run qa:apply-review`.
+- New `design_parameters.value_qualifiers` (min / max / design / typical / range / average) and `wqv_basis` (rainfall or runoff).
+- New `design_parameters.design_storms`: each design storm with its purpose (water quality, channel protection, peak control, conveyance, flood), from the manual's own requirement sentences. New download `design-storms.csv`.
+- `values.csv` gains `qualifier`, `basis` and `hand_review` columns.
+- Hand-checked evidence updated from the review: 216 of 249 values kept; water-quality depths given as runoff are counted separately.
+- Accuracy audit round 2: numeric values 13 of 14 correct; prose and list fields remain weaker.
+- Data license stated on /data/ and in CITATION.cff: CC BY 4.0 (it was already the license in NOTICE).
+
+**Model manual — Draft 0.3**
+- 3.2 counts rainfall and runoff depths separately: 1.0 in rainfall in 7 of 15 states; 4 more use 1.0 in of runoff.
+- 3.4–3.6 rest on storms classified by purpose: 13 state manuals use the 1-year storm for channel protection, 20 the 2-year for peak control. 3.4 is now an open question.
+- 6.0.1 drawdown shows a suggestive regional pattern again (p = 0.09 after corrections); new 10.4 lets arid-West states allow up to 96 h.
+
 ## 2026.11.0 — 2026-11-18
 
 First versioned release.
@@ -20,6 +36,5 @@ First versioned release.
 - Extended-detention release time settled at 24 hours (12 of 19 states).
 
 **Known limits**
-- In a random audit of 27 values, 59% were fully correct, 33% partly right and 7% wrong.
-- Several numeric fields do not record whether a value is a minimum, maximum or design value, and design storms do not record their purpose.
+- In a random audit of 27 values, 59% were fully correct, 33% partly right and 7% wrong (see 2026.11.1 for the follow-up).
 - Arkansas and Nevada have no state manual in the atlas.

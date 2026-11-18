@@ -169,6 +169,68 @@
       "green_roof_media_depth_inches",
       "green_roof_slope_percent",
       "mtd_verification_program"
+    ],
+    "value_qualifiers": {
+      "ed_drain_time_hours": "design",
+      "length_to_width_ratio": "min"
+    },
+    "design_storms": [
+      {
+        "years": 2,
+        "purposes": [
+          "peak_control"
+        ],
+        "quote": "Drainage calculations provide pre- and post-development velocities, peak rates of discharge, and inflow and outflow hydrographs of stormwater runoff at all existing and proposed points of discharge from the site for the 2-yr and 10-yr and 100-yr frequency storm.",
+        "page": 62
+      },
+      {
+        "years": 5,
+        "purposes": [
+          "other"
+        ],
+        "quote": null,
+        "page": null
+      },
+      {
+        "years": 10,
+        "purposes": [
+          "other"
+        ],
+        "quote": null,
+        "page": null
+      },
+      {
+        "years": 25,
+        "purposes": [
+          "other"
+        ],
+        "quote": null,
+        "page": null
+      },
+      {
+        "years": 50,
+        "purposes": [
+          "conveyance"
+        ],
+        "quote": "If drainage inlets are located on a depressed roadway, then a 50-yr frequency must be used for most types of highways as indicated in the design criteria.",
+        "page": 95
+      },
+      {
+        "years": 100,
+        "purposes": [
+          "peak_control"
+        ],
+        "quote": "Post-development peak rates of discharge for the 2-yr and 10-yr (and the 100-yr frequency storm events for projects north of the C&D Canal) and in some cases postdevelopment volumetric rate shall not exceed the pre-development peak rates of discharge based on the same storm frequency criteria.",
+        "page": 62
+      },
+      {
+        "years": 500,
+        "purposes": [
+          "other"
+        ],
+        "quote": null,
+        "page": null
+      }
     ]
   }
 }

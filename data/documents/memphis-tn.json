@@ -165,6 +165,31 @@
       "green_roof_media_depth_inches",
       "green_roof_slope_percent",
       "mtd_verification_program"
+    ],
+    "value_qualifiers": {
+      "length_to_width_ratio": "min",
+      "max_drawdown_hours": "max",
+      "permanent_pool_depth_inches": "max"
+    },
+    "design_storms": [
+      {
+        "years": 10,
+        "purposes": [
+          "conveyance",
+          "peak_control",
+          "flood"
+        ],
+        "quote": "The design of the minor storm water management system shall be based on the 10-year, 24-hour storm.",
+        "page": 65
+      },
+      {
+        "years": 100,
+        "purposes": [
+          "flood"
+        ],
+        "quote": "In addition, building elevations shall be checked for flooding caused by the 100-year, 24-hour storm.",
+        "page": 73
+      }
     ]
   }
 }

@@ -221,6 +221,26 @@
       "green_roof_media_depth_inches",
       "green_roof_slope_percent",
       "mtd_verification_program"
+    ],
+    "design_storms": [
+      {
+        "years": 10,
+        "purposes": [
+          "conveyance",
+          "peak_control",
+          "flood"
+        ],
+        "quote": "Internal drainage conduits must be designed to convey the 10-year storm.",
+        "page": 180
+      },
+      {
+        "years": 100,
+        "purposes": [
+          "flood"
+        ],
+        "quote": "The 100-year frequency storm must be used to compute the runoff for the major drainage system.",
+        "page": 221
+      }
     ]
   }
 }

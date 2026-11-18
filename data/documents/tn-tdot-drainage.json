@@ -95,6 +95,24 @@
       "green_roof_media_depth_inches",
       "green_roof_slope_percent",
       "mtd_verification_program"
+    ],
+    "design_storms": [
+      {
+        "years": 10,
+        "purposes": [
+          "conveyance"
+        ],
+        "quote": "SOLUTION: As discussed in Section 7.03.3.7, the spread on the roadway in the 10-year storm event should be used to determine inlet spacing.",
+        "page": 117
+      },
+      {
+        "years": 50,
+        "purposes": [
+          "conveyance"
+        ],
+        "quote": "4 An HGL check for the 50-year storm should be performed for all pipes designed for the 10- year storm.",
+        "page": 8
+      }
     ]
   }
 }

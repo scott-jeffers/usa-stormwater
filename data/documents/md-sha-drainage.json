@@ -139,6 +139,40 @@
       "green_roof_media_depth_inches",
       "green_roof_slope_percent",
       "mtd_verification_program"
+    ],
+    "design_storms": [
+      {
+        "years": 2,
+        "purposes": [
+          "conveyance"
+        ],
+        "quote": "The land use culvert shall be sized to ensure it can serve its intended land use function up to and including a 2-year flood.",
+        "page": 84
+      },
+      {
+        "years": 10,
+        "purposes": [
+          "conveyance"
+        ],
+        "quote": "For storm drain systems, the outfall must be stable for the 10-year storm.",
+        "page": 160
+      },
+      {
+        "years": 25,
+        "purposes": [
+          "other"
+        ],
+        "quote": null,
+        "page": null
+      },
+      {
+        "years": 50,
+        "purposes": [
+          "conveyance"
+        ],
+        "quote": "If a storm drain system provides conveyance for a sag inlet requiring a 50-year design storm for spread restrictions, as described in Table 5-1, then the hydraulic gradient for the 50-year storm must remain below finished grade for the portions of the storm drain system within the sag.",
+        "page": 147
+      }
     ]
   }
 }

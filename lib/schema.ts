@@ -147,6 +147,26 @@ export const extractionSchema = z.object({
  * Optional numeric / canonical enrichments layered onto atlas records.
  * Additive — never replaces design_criteria prose. Null means not found.
  */
+export const valueQualifiers = ["min", "max", "design", "typical", "range", "average"] as const;
+export type ValueQualifier = (typeof valueQualifiers)[number];
+
+export const stormPurposes = [
+  "water_quality",
+  "channel_protection",
+  "peak_control",
+  "conveyance",
+  "flood",
+  "other",
+] as const;
+export type StormPurpose = (typeof stormPurposes)[number];
+
+export const designStormSchema = z.object({
+  years: z.number(),
+  purposes: z.array(z.enum(stormPurposes)),
+  quote: z.string().nullable().optional(),
+  page: z.number().nullable().optional(),
+});
+
 export const designParametersSchema = z.object({
   wqv_depth_inches: z
     .number()
@@ -182,6 +202,19 @@ export const designParametersSchema = z.object({
     .nullable()
     .optional()
     .describe("Named MTD verification program (TAPE, NJCAT, etc.) when explicit"),
+  value_qualifiers: z
+    .record(z.string(), z.enum(valueQualifiers))
+    .optional()
+    .describe("Per numeric field: whether the value is a min, max, design, typical, range bound or average (data/qa/value-review.json)"),
+  wqv_basis: z
+    .enum(["rainfall", "runoff"])
+    .nullable()
+    .optional()
+    .describe("Whether wqv_depth_inches is a rainfall depth or a runoff depth"),
+  design_storms: z
+    .array(designStormSchema)
+    .optional()
+    .describe("Design storms with what each is used for (data/qa/design-storms.json)"),
   practice_mentions: z
     .array(z.string())
     .describe("Canonical practice keys mentioned (see bmp-aliases ontology)"),

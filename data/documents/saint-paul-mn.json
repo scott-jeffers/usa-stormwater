@@ -165,6 +165,13 @@
       "green_roof_media_depth_inches",
       "green_roof_slope_percent",
       "mtd_verification_program"
-    ]
+    ],
+    "wqv_basis": "runoff",
+    "value_qualifiers": {
+      "max_drawdown_hours": "max",
+      "permanent_pool_depth_inches": "average",
+      "shwt_separation_inches": "min",
+      "wqv_depth_inches": "design"
+    }
   }
 }

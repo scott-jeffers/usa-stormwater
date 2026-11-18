@@ -116,6 +116,16 @@
       "green_roof_media_depth_inches",
       "green_roof_slope_percent",
       "mtd_verification_program"
+    ],
+    "design_storms": [
+      {
+        "years": 100,
+        "purposes": [
+          "flood"
+        ],
+        "quote": "The predicted value of the 100-year (or “base”) flood serves as the present engineering standard for evaluating flood hazards and is the basis for regulating floodplains under the National Flood Insurance Program and Kentucky Revised Statutes.",
+        "page": 5
+      }
     ]
   }
 }

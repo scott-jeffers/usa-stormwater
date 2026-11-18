@@ -105,7 +105,7 @@ export function NationalDraftExplorer({
           <h2 className="font-display text-base font-semibold text-ink sm:text-lg">
             Draft national model manual
           </h2>
-          <span className="status-chip status-open">Draft 0.2</span>
+          <span className="status-chip status-open">Draft 0.3</span>
         </div>
         <p className="mt-1 text-sm leading-relaxed text-fg-secondary">
           A complete draft manual a state could adopt by reference: eleven chapters, every number

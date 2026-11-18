@@ -154,6 +154,30 @@
       "green_roof_media_depth_inches",
       "green_roof_slope_percent",
       "mtd_verification_program"
+    ],
+    "value_qualifiers": {
+      "bioretention_media_depth_min_inches": "min",
+      "length_to_width_ratio": "min",
+      "max_drawdown_hours": "max",
+      "shwt_separation_inches": "min"
+    },
+    "design_storms": [
+      {
+        "years": 2,
+        "purposes": [
+          "water_quality"
+        ],
+        "quote": "5.3.4 Determining Water Quality Volume (WQV) and Water Quality Flows (WQF) Unlike flood control measures that are typically designed to store or convey the peak volumes or flows of infrequent (i.e., return period typically > 5 years) storm events, Treatment BMPs are designed to treat the lower volum",
+        "page": 64
+      },
+      {
+        "years": 5,
+        "purposes": [
+          "other"
+        ],
+        "quote": null,
+        "page": null
+      }
     ]
   }
 }

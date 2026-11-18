@@ -113,6 +113,46 @@
       "green_roof_media_depth_inches",
       "green_roof_slope_percent",
       "mtd_verification_program"
+    ],
+    "wqv_basis": "runoff",
+    "value_qualifiers": {
+      "max_drawdown_hours": "max",
+      "wqv_depth_inches": "design"
+    },
+    "design_storms": [
+      {
+        "years": 2,
+        "purposes": [
+          "flood"
+        ],
+        "quote": "Maricopa County Drainage Policies and Standards 93 Revised August 22, 2018 Table 6.7 Minimum Drainage Design Criteria Drainage Feature Flood Event Return Interval 2-year through 50-year 100-year",
+        "page": 93
+      },
+      {
+        "years": 10,
+        "purposes": [
+          "peak_control"
+        ],
+        "quote": "Maricopa County Drainage Policies and Standards 100 Revised August 22, 2018 on maintaining a 12-foot dry lane in each direction for the 10-year event, and 10-year peak flow depths shall not exceed the top-of-curb for local streets.",
+        "page": 100
+      },
+      {
+        "years": 50,
+        "purposes": [
+          "water_quality"
+        ],
+        "quote": "2-, 10- and 50-year peak discharge: Qpost reduced to < Qpre And First flush per policy 3.6.6 Qpost reduced to < Qpre and First flush per policy 3.6.6 6.4 STORMWATER QUALITY The following minimum standards will be utilized for protection of stormwater quality in Maricopa County.",
+        "page": 98
+      },
+      {
+        "years": 100,
+        "purposes": [
+          "flood",
+          "conveyance"
+        ],
+        "quote": "The 100-year floodplain limits shall be delineated and shown on the subdivision Final Plat or Map of Dedication.",
+        "page": 106
+      }
     ]
   }
 }

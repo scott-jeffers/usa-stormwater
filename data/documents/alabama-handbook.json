@@ -132,11 +132,6 @@
       "page_or_section": "p33"
     },
     {
-      "field": "design_parameters.max_drawdown_hours",
-      "excerpt": "It is believed that basin drawdown times between 30-40 hours will result in significant pollutant removal.",
-      "page_or_section": "Chapter 2, page 25"
-    },
-    {
       "field": "design_parameters.shwt_separation_inches",
       "excerpt": "A distance of 2 feet between the bottom of the bioretention basin and the seasonal high-water table is recommended.",
       "page_or_section": "Bioretention Area Design Criteria, page 309"
@@ -193,7 +188,7 @@
   },
   "design_parameters": {
     "wqv_depth_inches": null,
-    "max_drawdown_hours": 40,
+    "max_drawdown_hours": null,
     "shwt_separation_inches": 24,
     "bioretention_media_depth_min_inches": 24,
     "bioretention_ponding_depth_inches": 6,
@@ -231,6 +226,66 @@
       "green_roof_media_depth_inches",
       "green_roof_slope_percent",
       "mtd_verification_program"
+    ],
+    "value_qualifiers": {
+      "bioretention_media_depth_min_inches": "min",
+      "bioretention_ponding_depth_inches": "max",
+      "design_infiltration_rate_in_per_hr": "min",
+      "length_to_width_ratio": "min",
+      "shwt_separation_inches": "min"
+    },
+    "design_storms": [
+      {
+        "years": 2,
+        "purposes": [
+          "peak_control",
+          "conveyance"
+        ],
+        "quote": "However, the allowable release rate should be tied to the actual carrying capacity of the receiving stream or the 2-year pre-development peak runoff rate.",
+        "page": 26
+      },
+      {
+        "years": 5,
+        "purposes": [
+          "other"
+        ],
+        "quote": null,
+        "page": null
+      },
+      {
+        "years": 10,
+        "purposes": [
+          "peak_control",
+          "flood",
+          "channel_protection"
+        ],
+        "quote": "Basin Auxiliary Spillway The auxiliary spillway should carry the peak runoff from a 10-year storm.",
+        "page": 296
+      },
+      {
+        "years": 25,
+        "purposes": [
+          "peak_control"
+        ],
+        "quote": "The minimum total capacity of the principal and emergency spillways shall be that required to handle the 25-year 24-hour duration storm, or the peak rate of flow from the contributing structure, whichever is greater.",
+        "page": 199
+      },
+      {
+        "years": 50,
+        "purposes": [
+          "peak_control"
+        ],
+        "quote": "50-year Diversions designed to protect homes, schools, industrial buildings, roads, parking lots, and comparable high-risk areas, and those designed to function in connection with other structures, should have sufficient capacity to carry peak runoff expected from a storm frequency consistent with t",
+        "page": 194
+      },
+      {
+        "years": 100,
+        "purposes": [
+          "other"
+        ],
+        "quote": null,
+        "page": null
+      }
     ]
   }
 }

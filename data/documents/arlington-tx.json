@@ -169,6 +169,24 @@
       "green_roof_media_depth_inches",
       "green_roof_slope_percent",
       "mtd_verification_program"
+    ],
+    "wqv_basis": "runoff",
+    "value_qualifiers": {
+      "ed_drain_time_hours": "range",
+      "max_drawdown_hours": "max",
+      "permanent_pool_depth_inches": "min",
+      "swale_longitudinal_slope_percent": "max",
+      "wqv_depth_inches": "design"
+    },
+    "design_storms": [
+      {
+        "years": 100,
+        "purposes": [
+          "flood"
+        ],
+        "quote": "A positive structural overflow is required to provide for the remainder of the 100-year storm.",
+        "page": 96
+      }
     ]
   }
 }

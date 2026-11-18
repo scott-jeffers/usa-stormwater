@@ -120,16 +120,6 @@
       "field": "design_parameters.length_to_width_ratio",
       "excerpt": "The total length of the flow path ... should be a minimum ratio of 2:1",
       "page_or_section": "13.6 / page 12"
-    },
-    {
-      "field": "design_parameters.shwt_separation_inches",
-      "excerpt": "the seasonal high groundwater table is two feet or more below the proposed Wet Pond invert",
-      "page_or_section": "13.3 / page 8"
-    },
-    {
-      "field": "design_parameters.design_infiltration_rate_in_per_hr",
-      "excerpt": "INF = Monthly infiltration loss (assume 7.2 @ 0.01 inch/hour)",
-      "page_or_section": "13.6 Equation 13.1 / page 11"
     }
   ],
   "extraction_quality": {
@@ -151,11 +141,11 @@
   "design_parameters": {
     "wqv_depth_inches": null,
     "max_drawdown_hours": null,
-    "shwt_separation_inches": 24,
+    "shwt_separation_inches": null,
     "bioretention_media_depth_min_inches": null,
     "bioretention_ponding_depth_inches": null,
     "permeable_pavement_storage_depth_inches": null,
-    "design_infiltration_rate_in_per_hr": 0.01,
+    "design_infiltration_rate_in_per_hr": null,
     "permanent_pool_depth_inches": 48,
     "ed_drain_time_hours": 48,
     "length_to_width_ratio": 2,
@@ -185,6 +175,21 @@
       "green_roof_slope_percent",
       "mtd_verification_program",
       "max_drawdown_hours"
+    ],
+    "value_qualifiers": {
+      "ed_drain_time_hours": "design",
+      "length_to_width_ratio": "min",
+      "permanent_pool_depth_inches": "min"
+    },
+    "design_storms": [
+      {
+        "years": 100,
+        "purposes": [
+          "flood"
+        ],
+        "quote": "The total storage, including any ponding for larger flooding events (100-year storm) should not extend more than 5 feet above the permanent pool unless specific design enhancements to ensure side slope stability, safety, and maintenance are identified and approved.",
+        "page": 12
+      }
     ]
   }
 }

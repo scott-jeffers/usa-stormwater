@@ -44,7 +44,8 @@
       "state": "HI",
       "slug": "hawaii-dot-pcbmp",
       "value": 1.0,
-      "verdict": "ok"
+      "verdict": "excluded",
+      "reason": "Runoff depth, not a rainfall depth"
     },
     {
       "n": 6,
@@ -68,7 +69,8 @@
       "state": "MA",
       "slug": "ma-massdot-drainage",
       "value": 0.5,
-      "verdict": "ok"
+      "verdict": "excluded",
+      "reason": "Runoff depth, not a rainfall depth"
     },
     {
       "n": 9,
@@ -76,7 +78,8 @@
       "state": "MA",
       "slug": "ma-state-draft",
       "value": 1.0,
-      "verdict": "ok"
+      "verdict": "excluded",
+      "reason": "Runoff depth, not a rainfall depth"
     },
     {
       "n": 10,
@@ -84,7 +87,8 @@
       "state": "ME",
       "slug": "maine-manual",
       "value": 1.0,
-      "verdict": "ok"
+      "verdict": "excluded",
+      "reason": "Runoff depth, not a rainfall depth"
     },
     {
       "n": 11,
@@ -108,7 +112,8 @@
       "state": "NE",
       "slug": "ne-ndot-stf",
       "value": 0.5,
-      "verdict": "ok"
+      "verdict": "excluded",
+      "reason": "Runoff depth, not a rainfall depth"
     },
     {
       "n": 14,
@@ -174,15 +179,18 @@
       "state": "RI",
       "slug": "ri-state",
       "value": 1.0,
-      "verdict": "ok"
+      "verdict": "excluded",
+      "reason": "Runoff depth, not a rainfall depth"
     },
     {
       "n": 22,
       "param": "wqv_depth_inches",
       "state": "VA",
       "slug": "va-vdot-drainage",
-      "value": 1.0,
-      "verdict": "ok"
+      "value": 0.5,
+      "verdict": "excluded",
+      "note": "Quote defines WQV as the first one-half inch of runoff from impervious surfaces",
+      "reason": "Runoff depth, not a rainfall depth"
     },
     {
       "n": 23,
@@ -337,8 +345,9 @@
       "param": "max_drawdown_hours",
       "state": "MS",
       "slug": "ms-state-vol2",
-      "value": 120.0,
-      "verdict": "ok"
+      "value": 48.0,
+      "verdict": "corrected",
+      "note": "Quote: drain to 24 in below the surface within 48 hours (maximum)"
     },
     {
       "n": 42,
@@ -353,8 +362,9 @@
       "param": "max_drawdown_hours",
       "state": "MT",
       "slug": "mt-deq8",
-      "value": 72.0,
-      "verdict": "ok"
+      "value": 48.0,
+      "verdict": "corrected",
+      "note": "Quote: sized to drain within 48 hours"
     },
     {
       "n": 44,
@@ -474,8 +484,9 @@
       "param": "max_drawdown_hours",
       "state": "WA",
       "slug": "wa-state-western",
-      "value": 48.0,
-      "verdict": "ok"
+      "value": 72.0,
+      "verdict": "corrected",
+      "note": "Quote: within 48 to 72 hours"
     },
     {
       "n": 59,
@@ -604,8 +615,9 @@
       "param": "shwt_separation_inches",
       "state": "ME",
       "slug": "maine-manual",
-      "value": 12.0,
-      "verdict": "ok"
+      "value": 18.0,
+      "verdict": "corrected",
+      "note": "Quote: a minimum of 18 inches"
     },
     {
       "n": 75,
@@ -620,8 +632,9 @@
       "param": "shwt_separation_inches",
       "state": "MS",
       "slug": "ms-state-vol2",
-      "value": 24.0,
-      "verdict": "ok"
+      "value": 36.0,
+      "verdict": "corrected",
+      "note": "Quote: at least three feet"
     },
     {
       "n": 77,
@@ -636,16 +649,18 @@
       "param": "shwt_separation_inches",
       "state": "MT",
       "slug": "mt-deq8",
-      "value": 12.0,
-      "verdict": "ok"
+      "value": 24.0,
+      "verdict": "corrected",
+      "note": "Quote: two feet above a limiting layer"
     },
     {
       "n": 79,
       "param": "shwt_separation_inches",
       "state": "NJ",
       "slug": "nj-state",
-      "value": 12.0,
-      "verdict": "ok"
+      "value": 24.0,
+      "verdict": "corrected",
+      "note": "Quote: the 2 ft minimum separation requirement"
     },
     {
       "n": 80,
@@ -660,8 +675,9 @@
       "param": "shwt_separation_inches",
       "state": "OH",
       "slug": "ohio-rainwater",
-      "value": 36.0,
-      "verdict": "ok"
+      "value": 12.0,
+      "verdict": "corrected",
+      "note": "Quote: 1 ft required (2 ft recommended)"
     },
     {
       "n": 82,
@@ -1018,8 +1034,9 @@
       "param": "design_infiltration_rate_in_per_hr",
       "state": "MS",
       "slug": "ms-state-vol2",
-      "value": 0.52,
-      "verdict": "ok"
+      "value": 2.0,
+      "verdict": "corrected",
+      "note": "Quote: underdrain likely where in-situ permeability is below 2 in/hr"
     },
     {
       "n": 126,
@@ -1059,8 +1076,9 @@
       "param": "design_infiltration_rate_in_per_hr",
       "state": "RI",
       "slug": "ri-ridot-drainage",
-      "value": 0.52,
-      "verdict": "ok"
+      "value": 0.5,
+      "verdict": "corrected",
+      "note": "Quote: exceed 0.5 inches per hour"
     },
     {
       "n": 131,
@@ -1201,7 +1219,8 @@
       "state": "VT",
       "slug": "vt-state",
       "value": 48.0,
-      "verdict": "ok"
+      "verdict": "excluded",
+      "reason": "Depth that triggers a safety bench, not a pool-depth rule"
     },
     {
       "n": 148,
@@ -2325,5 +2344,6 @@
       "page": 362,
       "quote": "designed to drain the Design Volume from the filter chamber within 40 hours"
     }
-  ]
+  ],
+  "second_pass": "2026-11-18: re-read against data/qa/value-review.json; values the full review corrected or removed are updated here, and water-quality depths given as runoff (not rainfall) are excluded."
 }

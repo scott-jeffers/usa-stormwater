@@ -131,7 +131,7 @@
     "original_filename": "va-vdot-drainage.pdf"
   },
   "design_parameters": {
-    "wqv_depth_inches": 1,
+    "wqv_depth_inches": 0.5,
     "max_drawdown_hours": null,
     "shwt_separation_inches": null,
     "bioretention_media_depth_min_inches": null,
@@ -176,6 +176,41 @@
       "green_roof_media_depth_inches",
       "green_roof_slope_percent",
       "mtd_verification_program"
+    ],
+    "wqv_basis": "runoff",
+    "value_qualifiers": {
+      "length_to_width_ratio": "min",
+      "permanent_pool_depth_inches": "max",
+      "wqv_depth_inches": "design"
+    },
+    "design_storms": [
+      {
+        "years": 2,
+        "purposes": [
+          "peak_control",
+          "channel_protection",
+          "conveyance"
+        ],
+        "quote": "Reservoir routing should confirm that the allowable peak discharge is not exceeded for the 2-yr storm. · The invert for the weir should be at the Elev.",
+        "page": 104
+      },
+      {
+        "years": 10,
+        "purposes": [
+          "peak_control"
+        ],
+        "quote": "The post-development peak flow rate must be less than the pre-developed peak flow rate for the 10-yr 24-hour storm event.",
+        "page": 34
+      },
+      {
+        "years": 100,
+        "purposes": [
+          "flood",
+          "peak_control"
+        ],
+        "quote": "Flood Protection is not required as the system immediately below the outfall is a mapped FEMA floodplain · 100-yr Storm Conveyance",
+        "page": 107
+      }
     ]
   }
 }

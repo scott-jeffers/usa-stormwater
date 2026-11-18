@@ -166,6 +166,18 @@
       "green_roof_media_depth_inches",
       "green_roof_slope_percent",
       "mtd_verification_program"
+    ],
+    "design_storms": [
+      {
+        "years": 100,
+        "purposes": [
+          "flood",
+          "conveyance",
+          "peak_control"
+        ],
+        "quote": "Freeboard: Channel freeboard of six (6) inches shall be provided for the 100-year storm.",
+        "page": 70
+      }
     ]
   }
 }

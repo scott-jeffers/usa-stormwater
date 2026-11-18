@@ -168,11 +168,6 @@
       "page_or_section": "9.10.01.B.1.b.(6), page 9-47"
     },
     {
-      "field": "design_parameters.ed_drain_time_hours",
-      "excerpt": "The layer shall be designed to drain completely in 48 hours",
-      "page_or_section": "9.10.01.B.3.b.(9) Reservoir Layer, page 9-51"
-    },
-    {
       "field": "design_parameters.swale_bottom_width_inches",
       "excerpt": "Bottom width shall be 2 feet wide minimum or 6 feet wide max",
       "page_or_section": "9.10.01.B.4.b.(3) Dry Swale, page 9-52"
@@ -203,7 +198,7 @@
     "permeable_pavement_storage_depth_inches": 9,
     "design_infiltration_rate_in_per_hr": 0.5,
     "permanent_pool_depth_inches": null,
-    "ed_drain_time_hours": 48,
+    "ed_drain_time_hours": null,
     "length_to_width_ratio": null,
     "wetland_detention_hours": null,
     "swale_bottom_width_inches": 24,
@@ -232,6 +227,75 @@
       "green_roof_media_depth_inches",
       "green_roof_slope_percent",
       "mtd_verification_program"
+    ],
+    "wqv_basis": "runoff",
+    "value_qualifiers": {
+      "bioretention_ponding_depth_inches": "max",
+      "design_infiltration_rate_in_per_hr": "min",
+      "max_drawdown_hours": "max",
+      "permeable_pavement_storage_depth_inches": "min",
+      "shwt_separation_inches": "min",
+      "swale_bottom_width_inches": "min",
+      "wqv_depth_inches": "min"
+    },
+    "design_storms": [
+      {
+        "years": 2,
+        "purposes": [
+          "conveyance",
+          "channel_protection"
+        ],
+        "quote": "The storm drain shall then be evaluated for the 2-year rainfall event design with the Development in place.",
+        "page": 16
+      },
+      {
+        "years": 5,
+        "purposes": [
+          "other"
+        ],
+        "quote": null,
+        "page": null
+      },
+      {
+        "years": 10,
+        "purposes": [
+          "other"
+        ],
+        "quote": null,
+        "page": null
+      },
+      {
+        "years": 25,
+        "purposes": [
+          "other"
+        ],
+        "quote": null,
+        "page": null
+      },
+      {
+        "years": 50,
+        "purposes": [
+          "other"
+        ],
+        "quote": null,
+        "page": null
+      },
+      {
+        "years": 100,
+        "purposes": [
+          "flood"
+        ],
+        "quote": "Drainage criteria administered by the City of Houston and complemented by Harris County and the Harris County Flood Control District (HCFCD) for newly designed areas provides protection from Structural Flooding from a 100-year storm event.",
+        "page": 4
+      },
+      {
+        "years": 500,
+        "purposes": [
+          "other"
+        ],
+        "quote": null,
+        "page": null
+      }
     ]
   }
 }

@@ -139,6 +139,9 @@
       "green_roof_media_depth_inches",
       "green_roof_slope_percent",
       "mtd_verification_program"
-    ]
+    ],
+    "value_qualifiers": {
+      "max_drawdown_hours": "max"
+    }
   }
 }

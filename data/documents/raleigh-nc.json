@@ -167,6 +167,56 @@
       "green_roof_media_depth_inches",
       "green_roof_slope_percent",
       "mtd_verification_program"
+    ],
+    "value_qualifiers": {
+      "ed_drain_time_hours": "max",
+      "length_to_width_ratio": "min",
+      "shwt_separation_inches": "min",
+      "swale_bottom_width_inches": "min",
+      "swale_longitudinal_slope_percent": "max"
+    },
+    "design_storms": [
+      {
+        "years": 1,
+        "purposes": [
+          "other"
+        ],
+        "quote": null,
+        "page": null
+      },
+      {
+        "years": 2,
+        "purposes": [
+          "other"
+        ],
+        "quote": null,
+        "page": null
+      },
+      {
+        "years": 10,
+        "purposes": [
+          "conveyance"
+        ],
+        "quote": "Yard Inlets: Ponding at yard inlets outside the ROW shall be limited to a maximum of one foot above an inlet elevation for the 10-year storm.",
+        "page": 50
+      },
+      {
+        "years": 25,
+        "purposes": [
+          "conveyance"
+        ],
+        "quote": "HGL shall not exceed the top of inlet structures or gutter elevations. > 25 acres 25-year 100-year HGL for the entire system is to be at or below the crown of all pipes.",
+        "page": 46
+      },
+      {
+        "years": 100,
+        "purposes": [
+          "flood",
+          "conveyance"
+        ],
+        "quote": "A high-flow bypass shall be included to safely pass the 100-year storm.",
+        "page": 98
+      }
     ]
   }
 }

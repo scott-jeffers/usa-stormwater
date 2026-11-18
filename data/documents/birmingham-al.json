@@ -181,6 +181,18 @@
       "green_roof_media_depth_inches",
       "green_roof_slope_percent",
       "mtd_verification_program"
-    ]
+    ],
+    "wqv_basis": "runoff",
+    "value_qualifiers": {
+      "bioretention_media_depth_min_inches": "min",
+      "bioretention_ponding_depth_inches": "max",
+      "design_infiltration_rate_in_per_hr": "min",
+      "max_drawdown_hours": "max",
+      "permeable_pavement_storage_depth_inches": "min",
+      "shwt_separation_inches": "min",
+      "swale_longitudinal_slope_percent": "max",
+      "wetland_detention_hours": "min",
+      "wqv_depth_inches": "design"
+    }
   }
 }

@@ -184,6 +184,20 @@
       "green_roof_media_depth_inches",
       "green_roof_slope_percent",
       "mtd_verification_program"
+    ],
+    "wqv_basis": "rainfall",
+    "value_qualifiers": {
+      "wqv_depth_inches": "design"
+    },
+    "design_storms": [
+      {
+        "years": 10,
+        "purposes": [
+          "peak_control"
+        ],
+        "quote": "The outlets of SCMs shall be designed so that they do not cause erosion immediately downslope of the discharge point during the peak flow from the 10-year storm event as shown by engineering calculations.",
+        "page": 3
+      }
     ]
   }
 }

@@ -172,6 +172,48 @@
       "green_roof_media_depth_inches",
       "green_roof_slope_percent",
       "mtd_verification_program"
+    ],
+    "design_storms": [
+      {
+        "years": 2,
+        "purposes": [
+          "other"
+        ],
+        "quote": null,
+        "page": null
+      },
+      {
+        "years": 10,
+        "purposes": [
+          "conveyance"
+        ],
+        "quote": "Pavement drainage is designed for allowable spread for the 10 yr. storm frequency.",
+        "page": 102
+      },
+      {
+        "years": 25,
+        "purposes": [
+          "flood"
+        ],
+        "quote": "Form losses for each hydraulic structure should be calculated using the methods described by HEC-22 After completing the HGL/EGL calculations, the designer should evaluate the system using a higher check flood, such as the 25 yr. storm, and adjust to reduce cost and risk as appropriate.",
+        "page": 121
+      },
+      {
+        "years": 50,
+        "purposes": [
+          "other"
+        ],
+        "quote": null,
+        "page": null
+      },
+      {
+        "years": 100,
+        "purposes": [
+          "flood"
+        ],
+        "quote": "As described earlier, project plans must show the water surface elevations of the base flood (i.e., 100-year flood) and overtopping flood [§650.117(c)].",
+        "page": 190
+      }
     ]
   }
 }

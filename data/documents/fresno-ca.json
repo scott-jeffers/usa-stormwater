@@ -200,6 +200,24 @@
       "green_roof_media_depth_inches",
       "green_roof_slope_percent",
       "mtd_verification_program"
+    ],
+    "value_qualifiers": {
+      "bioretention_media_depth_min_inches": "min",
+      "bioretention_ponding_depth_inches": "max",
+      "ed_drain_time_hours": "design",
+      "max_drawdown_hours": "max",
+      "shwt_separation_inches": "min",
+      "swale_bottom_width_inches": "min"
+    },
+    "design_storms": [
+      {
+        "years": 100,
+        "purposes": [
+          "peak_control"
+        ],
+        "quote": "Appendix D – Stormwater Quality Best Management Practice Examples Fresno Metropolitan Flood Control District D-2 June 2014 The FMFCD Storm Drainage and Flood Control Master Plan uses the difference in stormwater runoff volume between the pre- and post-development 100-year, 48-hour storm, which is ap",
+        "page": 271
+      }
     ]
   }
 }

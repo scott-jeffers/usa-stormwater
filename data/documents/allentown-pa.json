@@ -143,6 +143,14 @@
       "swale_longitudinal_slope_percent",
       "green_roof_slope_percent",
       "mtd_verification_program"
-    ]
+    ],
+    "value_qualifiers": {
+      "bioretention_media_depth_min_inches": "min",
+      "bioretention_ponding_depth_inches": "max",
+      "green_roof_media_depth_inches": "min",
+      "length_to_width_ratio": "min",
+      "permanent_pool_depth_inches": "min",
+      "shwt_separation_inches": "min"
+    }
   }
 }

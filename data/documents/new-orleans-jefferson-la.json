@@ -204,6 +204,24 @@
       "green_roof_media_depth_inches",
       "green_roof_slope_percent",
       "mtd_verification_program"
+    ],
+    "design_storms": [
+      {
+        "years": 10,
+        "purposes": [
+          "flood"
+        ],
+        "quote": "They often represent a worst-case scenario and are therefore quite useful for sizing BMPs for a particular design storm (e.g., the 10-year 24-hr storm) or for evaluating BMPs with respect to flood control requirements.",
+        "page": 98
+      },
+      {
+        "years": 100,
+        "purposes": [
+          "other"
+        ],
+        "quote": null,
+        "page": null
+      }
     ]
   }
 }

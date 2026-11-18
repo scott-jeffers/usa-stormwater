@@ -191,6 +191,70 @@
       "green_roof_media_depth_inches",
       "green_roof_slope_percent",
       "mtd_verification_program"
+    ],
+    "wqv_basis": "rainfall",
+    "value_qualifiers": {
+      "ed_drain_time_hours": "design",
+      "wqv_depth_inches": "design"
+    },
+    "design_storms": [
+      {
+        "years": 1,
+        "purposes": [
+          "channel_protection"
+        ],
+        "quote": "Smaller storm events (e.g., 2-year and 10-year) are often effectively controlled through the combination of the extended detention for the 1-year, 24-hour event (channel protection criterion) and the control of the 25-year peak rate for overbank flood protection.",
+        "page": 38
+      },
+      {
+        "years": 2,
+        "purposes": [
+          "peak_control"
+        ],
+        "quote": "If the control of the 1-year, 24-hour storm under guideline #3 is exempted, then for overbank flood protection, peak flow attenuation of the 2-year (Qp2) through the 50-year (Qp50) return frequency storm events must be provided.",
+        "page": 38
+      },
+      {
+        "years": 5,
+        "purposes": [
+          "conveyance"
+        ],
+        "quote": "Storm sewers should have capacity to convey a 5-year storm under developed conditions within the pipe for local streets and minor collectors.",
+        "page": 41
+      },
+      {
+        "years": 10,
+        "purposes": [
+          "conveyance"
+        ],
+        "quote": "The Engineer may require 10-year frequency for intakes for major collectors, arterials, expressways, and freeways.",
+        "page": 41
+      },
+      {
+        "years": 25,
+        "purposes": [
+          "peak_control"
+        ],
+        "quote": "Smaller storm events (e.g., 2-year and 10-year) are often effectively controlled through the combination of the extended detention for the 1-year, 24-hour event (channel protection criterion) and the control of the 25-year peak rate for overbank flood protection.",
+        "page": 38
+      },
+      {
+        "years": 50,
+        "purposes": [
+          "conveyance"
+        ],
+        "quote": "Ditches should have capacity to convey a 50-year storm within the ditch banks.",
+        "page": 41
+      },
+      {
+        "years": 100,
+        "purposes": [
+          "conveyance",
+          "flood"
+        ],
+        "quote": "100-year storms should be conveyed through the culvert without the headwater depth exceeding one foot below the low point of the roadway/embankment, unless there are other, more restrictive elevations. d.",
+        "page": 41
+      }
     ]
   }
 }

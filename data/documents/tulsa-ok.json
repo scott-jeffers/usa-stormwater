@@ -161,6 +161,17 @@
       "green_roof_media_depth_inches",
       "green_roof_slope_percent",
       "mtd_verification_program"
+    ],
+    "design_storms": [
+      {
+        "years": 100,
+        "purposes": [
+          "flood",
+          "conveyance"
+        ],
+        "quote": "The Regulatory 1 % (100-year) Flood discharge shall be the design discharge.",
+        "page": 78
+      }
     ]
   }
 }

@@ -136,6 +136,57 @@
       "green_roof_media_depth_inches",
       "green_roof_slope_percent",
       "mtd_verification_program"
+    ],
+    "design_storms": [
+      {
+        "years": 2,
+        "purposes": [
+          "other"
+        ],
+        "quote": null,
+        "page": null
+      },
+      {
+        "years": 10,
+        "purposes": [
+          "conveyance"
+        ],
+        "quote": "The culverts for field drives and private drives shall be sized using a 10-year discharge, the same as is prescribed for township roads.",
+        "page": 51
+      },
+      {
+        "years": 25,
+        "purposes": [
+          "conveyance"
+        ],
+        "quote": "V–02.02 Structure Hydraulic Reports Generally, a hydraulic report shall be prepared for all locations where the design discharge for culverts (which is the 25-year discharge for state highways) is greater than 500 cfs, and a structure will be considered rather than the installation of pipe culverts.",
+        "page": 7
+      },
+      {
+        "years": 50,
+        "purposes": [
+          "conveyance"
+        ],
+        "quote": "APPENDIX V-02A _______________________________ Example Bridge Hydraulic Report Page 18 3 As per the Stream Crossing Standards and the NDDOT Design Manual, the new structure alternatives were designed to pass the 50-year flow.",
+        "page": 19
+      },
+      {
+        "years": 100,
+        "purposes": [
+          "conveyance",
+          "flood"
+        ],
+        "quote": "It is required that 100-year flood data be provided in the hydraulic data in Section 50 of the plans for centerline culvert crossings.",
+        "page": 50
+      },
+      {
+        "years": 500,
+        "purposes": [
+          "other"
+        ],
+        "quote": null,
+        "page": null
+      }
     ]
   }
 }

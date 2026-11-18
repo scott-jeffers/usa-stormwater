@@ -254,6 +254,65 @@
       "green_roof_media_depth_inches",
       "green_roof_slope_percent",
       "mtd_verification_program"
+    ],
+    "wqv_basis": "rainfall",
+    "value_qualifiers": {
+      "ed_drain_time_hours": "max",
+      "max_drawdown_hours": "max",
+      "permanent_pool_depth_inches": "min",
+      "shwt_separation_inches": "min",
+      "swale_longitudinal_slope_percent": "min",
+      "wqv_depth_inches": "design"
+    },
+    "design_storms": [
+      {
+        "years": 2,
+        "purposes": [
+          "other"
+        ],
+        "quote": null,
+        "page": null
+      },
+      {
+        "years": 5,
+        "purposes": [
+          "other"
+        ],
+        "quote": null,
+        "page": null
+      },
+      {
+        "years": 10,
+        "purposes": [
+          "conveyance"
+        ],
+        "quote": "Storm drain facilities shall be designed to provide a 10-year design velocity of not less than 2.5 ft./sec.",
+        "page": 10
+      },
+      {
+        "years": 25,
+        "purposes": [
+          "other"
+        ],
+        "quote": null,
+        "page": null
+      },
+      {
+        "years": 50,
+        "purposes": [
+          "peak_control"
+        ],
+        "quote": "The entire length of every new minor and collector street shall have some portion or point of the pavement ridging surface above the 50 year static elevation of the detention facility serving that roadway.",
+        "page": 13
+      },
+      {
+        "years": 100,
+        "purposes": [
+          "flood"
+        ],
+        "quote": "In the event that an emergency spillway is impractical the engineer must show that no property damage will result from a 100-year storm event in lieu of providing an emergency spillway.",
+        "page": 13
+      }
     ]
   }
 }

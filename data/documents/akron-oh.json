@@ -150,6 +150,73 @@
       "green_roof_media_depth_inches",
       "green_roof_slope_percent",
       "mtd_verification_program"
+    ],
+    "wqv_basis": "rainfall",
+    "value_qualifiers": {
+      "bioretention_media_depth_min_inches": "min",
+      "bioretention_ponding_depth_inches": "max",
+      "ed_drain_time_hours": "range",
+      "length_to_width_ratio": "min",
+      "shwt_separation_inches": "min",
+      "wqv_depth_inches": "design"
+    },
+    "design_storms": [
+      {
+        "years": 1,
+        "purposes": [
+          "other"
+        ],
+        "quote": null,
+        "page": null
+      },
+      {
+        "years": 2,
+        "purposes": [
+          "channel_protection"
+        ],
+        "quote": "Flow Capacity – For all types of crossings, the structure shall be designed to pass bankfull flow or the peak flow from a 2 year frequency 24 hour duration storm, whichever is less without overtopping.",
+        "page": 163
+      },
+      {
+        "years": 5,
+        "purposes": [
+          "other"
+        ],
+        "quote": null,
+        "page": null
+      },
+      {
+        "years": 10,
+        "purposes": [
+          "peak_control"
+        ],
+        "quote": "Capacity The design capacity of the level spreader shall be estimated by determining the peak rate of runoff from a 10-yr. frequency storm.",
+        "page": 99
+      },
+      {
+        "years": 25,
+        "purposes": [
+          "peak_control"
+        ],
+        "quote": "Capacity—The capacity of the emergency spillway shall be that required to pass the peak flow from a 25-year, 24-hour storm less any reduction creditable to pipe conduit discharge detention storage and routing.",
+        "page": 191
+      },
+      {
+        "years": 50,
+        "purposes": [
+          "other"
+        ],
+        "quote": null,
+        "page": null
+      },
+      {
+        "years": 100,
+        "purposes": [
+          "other"
+        ],
+        "quote": null,
+        "page": null
+      }
     ]
   }
 }

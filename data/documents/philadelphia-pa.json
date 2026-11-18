@@ -124,11 +124,6 @@
       "field": "design_parameters.bioretention_media_depth_min_inches",
       "excerpt": "The planting soil medium must have a minimum depth of two feet.",
       "page_or_section": "Section 4.1.3 item 21 / page 265"
-    },
-    {
-      "field": "design_parameters.bioretention_ponding_depth_inches",
-      "excerpt": "The minimum allowable ponding depth below the lowest outlet device is three inches.",
-      "page_or_section": "Section 4.1.3 item 11 / page 264"
     }
   ],
   "extraction_quality": {
@@ -152,7 +147,7 @@
     "max_drawdown_hours": 72,
     "shwt_separation_inches": 24,
     "bioretention_media_depth_min_inches": 24,
-    "bioretention_ponding_depth_inches": 3,
+    "bioretention_ponding_depth_inches": null,
     "permeable_pavement_storage_depth_inches": null,
     "design_infiltration_rate_in_per_hr": null,
     "permanent_pool_depth_inches": null,
@@ -190,6 +185,71 @@
       "green_roof_media_depth_inches",
       "green_roof_slope_percent",
       "mtd_verification_program"
+    ],
+    "wqv_basis": "runoff",
+    "value_qualifiers": {
+      "bioretention_media_depth_min_inches": "min",
+      "max_drawdown_hours": "max",
+      "shwt_separation_inches": "min",
+      "wqv_depth_inches": "design"
+    },
+    "design_storms": [
+      {
+        "years": 1,
+        "purposes": [
+          "other"
+        ],
+        "quote": null,
+        "page": null
+      },
+      {
+        "years": 2,
+        "purposes": [
+          "other"
+        ],
+        "quote": null,
+        "page": null
+      },
+      {
+        "years": 5,
+        "purposes": [
+          "other"
+        ],
+        "quote": null,
+        "page": null
+      },
+      {
+        "years": 10,
+        "purposes": [
+          "other"
+        ],
+        "quote": null,
+        "page": null
+      },
+      {
+        "years": 25,
+        "purposes": [
+          "other"
+        ],
+        "quote": null,
+        "page": null
+      },
+      {
+        "years": 50,
+        "purposes": [
+          "other"
+        ],
+        "quote": null,
+        "page": null
+      },
+      {
+        "years": 100,
+        "purposes": [
+          "flood"
+        ],
+        "quote": "Filters with detention must be designed to safely store and/or convey the 100-year, 24-hour storm event, or, if the project is exempt from Flood Control, the ten-year, 24-hour storm.",
+        "page": 385
+      }
     ]
   }
 }

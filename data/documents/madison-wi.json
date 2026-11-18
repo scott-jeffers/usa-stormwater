@@ -202,6 +202,45 @@
       "green_roof_media_depth_inches",
       "green_roof_slope_percent",
       "mtd_verification_program"
+    ],
+    "wqv_basis": "rainfall",
+    "value_qualifiers": {
+      "wqv_depth_inches": "min"
+    },
+    "design_storms": [
+      {
+        "years": 10,
+        "purposes": [
+          "conveyance"
+        ],
+        "quote": "General storm design shall convey the runoff that would drain from upstream lands during the 10-year storm event. b.",
+        "page": 7
+      },
+      {
+        "years": 25,
+        "purposes": [
+          "other"
+        ],
+        "quote": null,
+        "page": null
+      },
+      {
+        "years": 100,
+        "purposes": [
+          "conveyance"
+        ],
+        "quote": "Culvert crossings in greenway drainage systems shall be designed to convey runoff created during a 100-year storm event that uniformly impacts the watershed draining to said road crossing, without road overtopping. c.",
+        "page": 7
+      },
+      {
+        "years": 500,
+        "purposes": [
+          "flood",
+          "conveyance"
+        ],
+        "quote": "Further the 500-year event flood elevation shall be routed through the development to determine flood elevations.",
+        "page": 17
+      }
     ]
   }
 }

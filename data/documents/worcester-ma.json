@@ -95,16 +95,6 @@
       "page_or_section": "Appendix A Infiltration Basin / A-142"
     },
     {
-      "field": "design_parameters.ed_drain_time_hours",
-      "excerpt": "Water levels in the extended detention wetlands may increase by as much as three feet after a storm, and return gradually to normal within 24 hours of the rain event.",
-      "page_or_section": "Appendix A Extended Detention Wetlands / A-86"
-    },
-    {
-      "field": "design_parameters.ed_drain_time_hours",
-      "excerpt": "For design purposes, use 72 hours to evaluate dewatering, using the storm that produces 1.0 inch of runoff",
-      "page_or_section": "Appendix A Media Filters / A-102"
-    },
-    {
       "field": "design_criteria.design_storm_return_periods_years",
       "excerpt": "Engineering Handbook, Part 630, Chapter 16, for the 2-year, 10-year, and 100-year 24-hour storms.",
       "page_or_section": "PDF p. 148 · found by QA search"
@@ -148,7 +138,7 @@
     "permeable_pavement_storage_depth_inches": null,
     "design_infiltration_rate_in_per_hr": 0.01,
     "permanent_pool_depth_inches": null,
-    "ed_drain_time_hours": 24,
+    "ed_drain_time_hours": null,
     "length_to_width_ratio": null,
     "wetland_detention_hours": null,
     "swale_bottom_width_inches": null,
@@ -184,6 +174,42 @@
       "green_roof_media_depth_inches",
       "green_roof_slope_percent",
       "mtd_verification_program"
+    ],
+    "wqv_basis": "runoff",
+    "value_qualifiers": {
+      "bioretention_media_depth_min_inches": "min",
+      "design_infiltration_rate_in_per_hr": "min",
+      "max_drawdown_hours": "max",
+      "shwt_separation_inches": "min",
+      "wqv_depth_inches": "design"
+    },
+    "design_storms": [
+      {
+        "years": 2,
+        "purposes": [
+          "peak_control"
+        ],
+        "quote": "The middle stage is designed to regulate peak flow from the 2-year storm.",
+        "page": 335
+      },
+      {
+        "years": 10,
+        "purposes": [
+          "peak_control",
+          "conveyance"
+        ],
+        "quote": "Design Criteria Capacity - Peak runoff from 10-year storm.",
+        "page": 594
+      },
+      {
+        "years": 100,
+        "purposes": [
+          "peak_control",
+          "flood"
+        ],
+        "quote": "The system must attenuate peak discharge for the 2-, 10-, and 100-year storms in accordance with Standard 2.",
+        "page": 402
+      }
     ]
   }
 }

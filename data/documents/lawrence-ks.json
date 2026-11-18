@@ -141,6 +141,68 @@
       "green_roof_media_depth_inches",
       "green_roof_slope_percent",
       "mtd_verification_program"
+    ],
+    "design_storms": [
+      {
+        "years": 1,
+        "purposes": [
+          "other"
+        ],
+        "quote": null,
+        "page": null
+      },
+      {
+        "years": 2,
+        "purposes": [
+          "peak_control"
+        ],
+        "quote": "Peak discharges from the property shall not exceed the following release rates: 2 yr storm 2.4 cfs/acre 10 yr storm 3.2 cfs/acre 100 yr storm 4.5 cfs/acre b.",
+        "page": 16
+      },
+      {
+        "years": 5,
+        "purposes": [
+          "other"
+        ],
+        "quote": null,
+        "page": null
+      },
+      {
+        "years": 10,
+        "purposes": [
+          "conveyance",
+          "flood",
+          "peak_control"
+        ],
+        "quote": "Location Requirements: Inlets shall be located along streets as required to limit the width of flow in the gutters at the 10-year peak discharge to the following limits: Street Width, Ft.",
+        "page": 26
+      },
+      {
+        "years": 25,
+        "purposes": [
+          "other"
+        ],
+        "quote": null,
+        "page": null
+      },
+      {
+        "years": 50,
+        "purposes": [
+          "conveyance"
+        ],
+        "quote": "Bridges, pipes and culverts crossing arterial streets shall be designed for the 50-year peak flow, unless subject to the requirements of No.",
+        "page": 13
+      },
+      {
+        "years": 100,
+        "purposes": [
+          "flood",
+          "peak_control",
+          "conveyance"
+        ],
+        "quote": "The elevation of the 100-year water surface shall be indicated for all major system drainage easements as required by Section 3.0.",
+        "page": 38
+      }
     ]
   }
 }

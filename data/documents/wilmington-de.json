@@ -42,16 +42,6 @@
       "page_or_section": "13.5 Wet Pond Pretreatment Criteria (page 10)"
     },
     {
-      "field": "design_parameters.max_drawdown_hours",
-      "excerpt": "a diameter capable of draining the Wet Pond within 24 hours",
-      "page_or_section": "13.6 Pond Drain (page 14)"
-    },
-    {
-      "field": "design_parameters.shwt_separation_inches",
-      "excerpt": "the seasonal high groundwater table is two feet or more below the proposed Wet Pond invert",
-      "page_or_section": "13.3 Wet Pond Feasibility Criteria – Soils (page 8)"
-    },
-    {
       "field": "design_criteria.design_storm_return_periods_years",
       "excerpt": "The total storage, including any ponding for larger flooding events (100-year storm) should not extend more than 5 feet above the permanent pool unless specific design enhancements to ensure side slope stability, safety, and maintenance are identified and approved.",
       "page_or_section": "PDF p. 12 · found by QA search"
@@ -71,8 +61,8 @@
   },
   "design_parameters": {
     "wqv_depth_inches": null,
-    "max_drawdown_hours": 24,
-    "shwt_separation_inches": 24,
+    "max_drawdown_hours": null,
+    "shwt_separation_inches": null,
     "bioretention_media_depth_min_inches": null,
     "bioretention_ponding_depth_inches": null,
     "permeable_pavement_storage_depth_inches": null,
@@ -106,6 +96,21 @@
       "green_roof_media_depth_inches",
       "green_roof_slope_percent",
       "mtd_verification_program"
+    ],
+    "value_qualifiers": {
+      "ed_drain_time_hours": "design",
+      "length_to_width_ratio": "min",
+      "permanent_pool_depth_inches": "min"
+    },
+    "design_storms": [
+      {
+        "years": 100,
+        "purposes": [
+          "flood"
+        ],
+        "quote": "The total storage, including any ponding for larger flooding events (100-year storm) should not extend more than 5 feet above the permanent pool unless specific design enhancements to ensure side slope stability, safety, and maintenance are identified and approved.",
+        "page": 12
+      }
     ]
   }
 }

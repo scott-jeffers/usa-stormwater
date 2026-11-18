@@ -134,11 +134,6 @@
       "page_or_section": "Chapter 3 Rain Garden, page 139 (portland-or-c0099)"
     },
     {
-      "field": "design_parameters.bioretention_media_depth_min_inches",
-      "excerpt": "Amend the soil with 3 inches of compost, blend to a depth of 12 inches below grade.",
-      "page_or_section": "Chapter 3 Rain Garden, page 139 (portland-or-c0099)"
-    },
-    {
       "field": "design_parameters.design_infiltration_rate_in_per_hr",
       "excerpt": "BES requires a minimum design infiltration rate of 2 in/hr unless otherwise approved",
       "page_or_section": "Chapter 3 Drywells, page 168 (portland-or-c0107)"
@@ -177,7 +172,7 @@
     "wqv_depth_inches": 1.61,
     "max_drawdown_hours": 30,
     "shwt_separation_inches": 60,
-    "bioretention_media_depth_min_inches": 12,
+    "bioretention_media_depth_min_inches": null,
     "bioretention_ponding_depth_inches": 12,
     "permeable_pavement_storage_depth_inches": null,
     "design_infiltration_rate_in_per_hr": 2,
@@ -215,6 +210,64 @@
       "green_roof_media_depth_inches",
       "green_roof_slope_percent",
       "mtd_verification_program"
+    ],
+    "wqv_basis": "rainfall",
+    "value_qualifiers": {
+      "bioretention_ponding_depth_inches": "max",
+      "design_infiltration_rate_in_per_hr": "min",
+      "ed_drain_time_hours": "max",
+      "max_drawdown_hours": "max",
+      "shwt_separation_inches": "min",
+      "swale_bottom_width_inches": "min",
+      "wqv_depth_inches": "design"
+    },
+    "design_storms": [
+      {
+        "years": 2,
+        "purposes": [
+          "channel_protection"
+        ],
+        "quote": "Design distinct low-flow (typically ½ of the 2-year event) areas to provide habitat and design high-flow areas to maintain floodplain connectivity for flows above bankfull flow conditions.",
+        "page": 355
+      },
+      {
+        "years": 5,
+        "purposes": [
+          "other"
+        ],
+        "quote": null,
+        "page": null
+      },
+      {
+        "years": 10,
+        "purposes": [
+          "flood",
+          "peak_control",
+          "conveyance"
+        ],
+        "quote": "Presumptive/Performance Approaches – The planter must have an underdrain system and/or an overflow pipe unless it infiltrates the 10-year event.",
+        "page": 148
+      },
+      {
+        "years": 25,
+        "purposes": [
+          "flood",
+          "conveyance",
+          "peak_control"
+        ],
+        "quote": "There should be at least 6 inches of freeboard during the 25-year flow.",
+        "page": 463
+      },
+      {
+        "years": 100,
+        "purposes": [
+          "flood",
+          "conveyance",
+          "peak_control"
+        ],
+        "quote": "The structure must be designed to pass the 100-year design storm as overflow, without flooding the contributing drainage area.",
+        "page": 324
+      }
     ]
   }
 }

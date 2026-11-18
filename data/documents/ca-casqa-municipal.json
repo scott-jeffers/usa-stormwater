@@ -184,6 +184,10 @@
       "green_roof_media_depth_inches",
       "green_roof_slope_percent",
       "mtd_verification_program"
-    ]
+    ],
+    "value_qualifiers": {
+      "ed_drain_time_hours": "typical",
+      "max_drawdown_hours": "max"
+    }
   }
 }

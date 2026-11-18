@@ -164,6 +164,44 @@
       "green_roof_media_depth_inches",
       "green_roof_slope_percent",
       "mtd_verification_program"
+    ],
+    "value_qualifiers": {
+      "max_drawdown_hours": "max",
+      "shwt_separation_inches": "min"
+    },
+    "design_storms": [
+      {
+        "years": 5,
+        "purposes": [
+          "peak_control"
+        ],
+        "quote": "When the conservation storage is at the average dry season design stage, the low flow discharge should equal the average pre-development surface water discharge which occurred from the project site to receiving waters during the 5-year, 30-day drought.",
+        "page": 35
+      },
+      {
+        "years": 10,
+        "purposes": [
+          "flood"
+        ],
+        "quote": "It is presumed a system will meet this criterion if the following are met: (a) A system may not cause a net reduction in flood storage within a 10-year floodplain except for structures elevated on pilings or traversing works.",
+        "page": 32
+      },
+      {
+        "years": 25,
+        "purposes": [
+          "peak_control"
+        ],
+        "quote": "(c) The post-development volume of direct runoff must not exceed the pre-development volume of direct runoff for the 25-year frequency, 96-hour duration storm for systems discharging to land-",
+        "page": 28
+      },
+      {
+        "years": 100,
+        "purposes": [
+          "flood"
+        ],
+        "quote": "13.5.2 Floodplain Storage Criteria Systems constructed in the 100-year floodplain have the potential to increase flood stages on adjacent property.",
+        "page": 86
+      }
     ]
   }
 }

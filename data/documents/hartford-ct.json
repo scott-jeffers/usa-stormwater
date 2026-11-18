@@ -180,6 +180,49 @@
       "swale_longitudinal_slope_percent",
       "green_roof_media_depth_inches",
       "mtd_verification_program"
+    ],
+    "wqv_basis": "rainfall",
+    "value_qualifiers": {
+      "bioretention_media_depth_min_inches": "min",
+      "bioretention_ponding_depth_inches": "max",
+      "design_infiltration_rate_in_per_hr": "max",
+      "ed_drain_time_hours": "max",
+      "green_roof_slope_percent": "max",
+      "max_drawdown_hours": "max",
+      "shwt_separation_inches": "min",
+      "swale_bottom_width_inches": "min",
+      "wqv_depth_inches": "design"
+    },
+    "design_storms": [
+      {
+        "years": 2,
+        "purposes": [
+          "channel_protection",
+          "peak_control"
+        ],
+        "quote": "For extended detention shallow wetland and pond/wetland systems, the upper stages of the wetland should provide temporary storage of larger storms (2-year, 10-year, and 100- year, 24-hour events) to control peak discharge rates.",
+        "page": 394
+      },
+      {
+        "years": 10,
+        "purposes": [
+          "conveyance",
+          "channel_protection",
+          "water_quality"
+        ],
+        "quote": "Dry water quality swales should have an outlet sized to convey the 10-year, 24-hour storm event, at a minimum.",
+        "page": 408
+      },
+      {
+        "years": 100,
+        "purposes": [
+          "flood",
+          "conveyance",
+          "water_quality"
+        ],
+        "quote": "An emergency spillway is required to convey the 100-year storm event if the outlet structure is not designed to pass the 100-year storm event.",
+        "page": 368
+      }
     ]
   }
 }

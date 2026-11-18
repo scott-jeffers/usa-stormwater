@@ -133,6 +133,65 @@
       "green_roof_media_depth_inches",
       "green_roof_slope_percent",
       "mtd_verification_program"
+    ],
+    "design_storms": [
+      {
+        "years": 2,
+        "purposes": [
+          "other"
+        ],
+        "quote": null,
+        "page": null
+      },
+      {
+        "years": 5,
+        "purposes": [
+          "other"
+        ],
+        "quote": null,
+        "page": null
+      },
+      {
+        "years": 10,
+        "purposes": [
+          "other"
+        ],
+        "quote": null,
+        "page": null
+      },
+      {
+        "years": 25,
+        "purposes": [
+          "conveyance"
+        ],
+        "quote": "Increase design frequency on sideroad storm sewers to 25-year if the tailwater prevents mainline and ramp drainage features from meeting standards.",
+        "page": 4
+      },
+      {
+        "years": 50,
+        "purposes": [
+          "conveyance"
+        ],
+        "quote": "50-year design frequency may be required if tailwater creates issues for mainline culverts and ditches.",
+        "page": 3
+      },
+      {
+        "years": 100,
+        "purposes": [
+          "flood",
+          "conveyance"
+        ],
+        "quote": "In addition to the required design frequency event, any proposed drainage facility located in a mapped floodplain regulated by the Federal Emergency Management Agency (FEMA) shall also be evaluated for the 100-year (one-percent risk) flood.",
+        "page": 2
+      },
+      {
+        "years": 500,
+        "purposes": [
+          "other"
+        ],
+        "quote": null,
+        "page": null
+      }
     ]
   }
 }

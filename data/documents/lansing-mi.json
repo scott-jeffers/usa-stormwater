@@ -106,7 +106,7 @@
   },
   "design_parameters": {
     "wqv_depth_inches": null,
-    "max_drawdown_hours": 48,
+    "max_drawdown_hours": 72,
     "shwt_separation_inches": 24,
     "bioretention_media_depth_min_inches": null,
     "bioretention_ponding_depth_inches": null,
@@ -150,6 +150,56 @@
       "green_roof_media_depth_inches",
       "green_roof_slope_percent",
       "mtd_verification_program"
+    ],
+    "value_qualifiers": {
+      "design_infiltration_rate_in_per_hr": "min",
+      "max_drawdown_hours": "max",
+      "permanent_pool_depth_inches": "max",
+      "shwt_separation_inches": "min"
+    },
+    "design_storms": [
+      {
+        "years": 1,
+        "purposes": [
+          "other"
+        ],
+        "quote": null,
+        "page": null
+      },
+      {
+        "years": 2,
+        "purposes": [
+          "channel_protection"
+        ],
+        "quote": "Inclusion of infiltration facilities into the design of sites of new development and redevelopment is typically necessary in order to meet channel protection criteria; in particular the State requirement for no increase in the discharge of runoff volume from a site for all storm events up to and inc",
+        "page": 18
+      },
+      {
+        "years": 10,
+        "purposes": [
+          "peak_control"
+        ],
+        "quote": "Channel Protection Up to and including the 2-year 24-hour Sites (parcels) and roadways Less than or equal to condition prior to development Less than or equal to condition prior to development Provide retention as necessary to meet volume and peak flow limits NA Direct overflow to flood control SCMs",
+        "page": 14
+      },
+      {
+        "years": 50,
+        "purposes": [
+          "other"
+        ],
+        "quote": null,
+        "page": null
+      },
+      {
+        "years": 100,
+        "purposes": [
+          "conveyance",
+          "flood",
+          "channel_protection"
+        ],
+        "quote": "The full build-out 100-year, 24-hour design storm shall be routed through the on-site storm sewer system and stormwater controls to determine the effects on the on-site system, adjacent property, and downstream areas.",
+        "page": 16
+      }
     ]
   }
 }

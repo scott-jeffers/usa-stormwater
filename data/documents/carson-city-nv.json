@@ -148,6 +148,42 @@
       "green_roof_media_depth_inches",
       "green_roof_slope_percent",
       "mtd_verification_program"
+    ],
+    "value_qualifiers": {
+      "design_infiltration_rate_in_per_hr": "min",
+      "ed_drain_time_hours": "design",
+      "length_to_width_ratio": "min",
+      "max_drawdown_hours": "max",
+      "shwt_separation_inches": "min"
+    },
+    "design_storms": [
+      {
+        "years": 2,
+        "purposes": [
+          "peak_control"
+        ],
+        "quote": "The water quality flow rate (WQF) for flow-based stormwater treatment controls should be determined by using the following methods to estimate the peak discharge produced by the 2-year storm event in the drainage area of the BMP.",
+        "page": 14
+      },
+      {
+        "years": 10,
+        "purposes": [
+          "peak_control"
+        ],
+        "quote": "Onsite detention storage shall be sized to detain sufficient runoff to limit post-development flows from a 10-year storm (Q10) to the flows under the predevelopment condition.",
+        "page": 12
+      },
+      {
+        "years": 100,
+        "purposes": [
+          "conveyance",
+          "peak_control",
+          "channel_protection",
+          "flood"
+        ],
+        "quote": "There are conditions, however, when the storm drain system design shall be governed by the 100-year return period, 24-hour duration storm flows.",
+        "page": 24
+      }
     ]
   }
 }

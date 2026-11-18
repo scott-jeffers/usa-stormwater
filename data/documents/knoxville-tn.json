@@ -117,11 +117,6 @@
       "page_or_section": "ST-03, page 418 (knoxville-tn-c0425)"
     },
     {
-      "field": "design_parameters.permanent_pool_depth_inches",
-      "excerpt": "Wet detention basin, Permanent pool = 0.5\" per impervious acre",
-      "page_or_section": "Table 4-5, page 42 (knoxville-tn-c0089)"
-    },
-    {
       "field": "design_parameters.ed_drain_time_hours",
       "excerpt": "Extended detention – ... provide for its gradual (attenuated) release over a minimum of 24 hours and no more than 72 hours",
       "page_or_section": "Chapter 9 glossary, page 77 (knoxville-tn-c0123)"
@@ -157,7 +152,7 @@
     "bioretention_ponding_depth_inches": null,
     "permeable_pavement_storage_depth_inches": null,
     "design_infiltration_rate_in_per_hr": 0.5,
-    "permanent_pool_depth_inches": 0.5,
+    "permanent_pool_depth_inches": null,
     "ed_drain_time_hours": 72,
     "length_to_width_ratio": null,
     "wetland_detention_hours": null,
@@ -192,6 +187,14 @@
       "green_roof_media_depth_inches",
       "green_roof_slope_percent",
       "mtd_verification_program"
-    ]
+    ],
+    "wqv_basis": "runoff",
+    "value_qualifiers": {
+      "design_infiltration_rate_in_per_hr": "min",
+      "ed_drain_time_hours": "max",
+      "max_drawdown_hours": "max",
+      "shwt_separation_inches": "min",
+      "wqv_depth_inches": "min"
+    }
   }
 }

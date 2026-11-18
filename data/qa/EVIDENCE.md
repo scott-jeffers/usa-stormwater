@@ -1,6 +1,6 @@
 # Evidence QA report
 
-Generated: 2026-11-18T15:59:58.181Z by `npm run qa:evidence`
+Generated: 2026-11-18T18:04:21.826Z by `npm run qa:evidence`
 
 Strict check: each excerpt must appear in the source manual (exact, or a close
 in-order match with **every number identical**), and each extracted number must
@@ -14,12 +14,12 @@ be stated in its own excerpt.
 | Warnings only | 157 |
 | Failed (excerpt not in source) | 0 |
 
-## Excerpts (5351)
+## Excerpts (5279)
 
 | Result | Count | Share |
 |--------|------:|------:|
-| Exact | 5026 | 93.9% |
-| Close match, numbers identical | 320 | 6.0% |
+| Exact | 4958 | 93.9% |
+| Close match, numbers identical | 316 | 6.0% |
 | Can't check: PDF text lost the numbers | 5 | 0.1% |
 | … of which checked by eye on the page image (`data/qa/visual-checks.json`) | 5 | 0.1% |
 | Not found in source / different number | 0 | 0.0% |

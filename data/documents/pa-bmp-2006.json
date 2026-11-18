@@ -211,6 +211,42 @@
       "green_roof_media_depth_inches",
       "green_roof_slope_percent",
       "mtd_verification_program"
+    ],
+    "wqv_basis": "rainfall",
+    "value_qualifiers": {
+      "bioretention_media_depth_min_inches": "min",
+      "bioretention_ponding_depth_inches": "max",
+      "design_infiltration_rate_in_per_hr": "min",
+      "length_to_width_ratio": "min",
+      "max_drawdown_hours": "max",
+      "shwt_separation_inches": "min",
+      "wqv_depth_inches": "design"
+    },
+    "design_storms": [
+      {
+        "years": 1,
+        "purposes": [
+          "peak_control"
+        ],
+        "quote": "Detention basins should be designed to control runoff peak flow rates of discharge for the 1 year through 100 year events.",
+        "page": 338
+      },
+      {
+        "years": 2,
+        "purposes": [
+          "peak_control"
+        ],
+        "quote": "Step 6: Provide detailed routing analysis to demonstrate peak rate control for the 2-year through 100-year storm events.",
+        "page": 468
+      },
+      {
+        "years": 100,
+        "purposes": [
+          "flood"
+        ],
+        "quote": "At least one foot of freeboard above the 100-year storm water elevation should be maintained.",
+        "page": 194
+      }
     ]
   }
 }

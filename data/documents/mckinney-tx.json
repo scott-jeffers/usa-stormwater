@@ -144,6 +144,25 @@
       "green_roof_media_depth_inches",
       "green_roof_slope_percent",
       "mtd_verification_program"
+    ],
+    "design_storms": [
+      {
+        "years": 5,
+        "purposes": [
+          "flood"
+        ],
+        "quote": "When constructing a swale parallel to the main channel where the swale also ties to the main channel, the lowest elevation of excavated areas shall not be lower than one-third of the depth of the main channel, as measured down from the top of bank of the main channel, or the water surface elevation ",
+        "page": 101
+      },
+      {
+        "years": 100,
+        "purposes": [
+          "flood",
+          "conveyance"
+        ],
+        "quote": "Preservation of the 100-year Floodplain - must meet the following: a.",
+        "page": 247
+      }
     ]
   }
 }

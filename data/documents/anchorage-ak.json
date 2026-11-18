@@ -249,6 +249,72 @@
       "green_roof_media_depth_inches",
       "green_roof_slope_percent",
       "mtd_verification_program"
+    ],
+    "wqv_basis": "rainfall",
+    "value_qualifiers": {
+      "bioretention_media_depth_min_inches": "min",
+      "wqv_depth_inches": "design"
+    },
+    "design_storms": [
+      {
+        "years": 1,
+        "purposes": [
+          "other"
+        ],
+        "quote": null,
+        "page": null
+      },
+      {
+        "years": 2,
+        "purposes": [
+          "flood",
+          "channel_protection"
+        ],
+        "quote": "No seedlings shall be planted below the elevation of the 2-year recurrence interval flood in the channel.",
+        "page": 103
+      },
+      {
+        "years": 5,
+        "purposes": [
+          "other"
+        ],
+        "quote": null,
+        "page": null
+      },
+      {
+        "years": 10,
+        "purposes": [
+          "peak_control"
+        ],
+        "quote": "Anchorage Stormwater Manual (Draft) Volume 1 – Management and Design Criteria March 2015 ix LIST OF FIGURES Figure 2.1-1: Pre- and Post-Development 10-Year Hydrograph .................................................",
+        "page": 11
+      },
+      {
+        "years": 25,
+        "purposes": [
+          "flood"
+        ],
+        "quote": "Intermediate floodplain benches that are designed to accommodate the 25-year flood may be incorporated as appropriate.",
+        "page": 102
+      },
+      {
+        "years": 50,
+        "purposes": [
+          "other"
+        ],
+        "quote": null,
+        "page": null
+      },
+      {
+        "years": 100,
+        "purposes": [
+          "flood",
+          "conveyance",
+          "channel_protection"
+        ],
+        "quote": "The channel improvements shall not extend the 100-year floodplain limits.",
+        "page": 101
+      }
     ]
   }
 }

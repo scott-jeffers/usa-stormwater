@@ -272,6 +272,45 @@
       "green_roof_media_depth_inches",
       "green_roof_slope_percent",
       "mtd_verification_program"
+    ],
+    "wqv_basis": "rainfall",
+    "value_qualifiers": {
+      "wqv_depth_inches": "design"
+    },
+    "design_storms": [
+      {
+        "years": 1,
+        "purposes": [
+          "other"
+        ],
+        "quote": null,
+        "page": null
+      },
+      {
+        "years": 2,
+        "purposes": [
+          "conveyance"
+        ],
+        "quote": "A 2-year frequency storm shall be used in the design of the roadside or median ditch lining for erosion control.",
+        "page": 47
+      },
+      {
+        "years": 10,
+        "purposes": [
+          "peak_control",
+          "water_quality"
+        ],
+        "quote": "If the proposed storm water drainage system does not limit the post-development peak runoff discharge rate to equal the predevelopment rate for the 10-year frequency storm, the system design shall be modified to meet this requirement.",
+        "page": 40
+      },
+      {
+        "years": 100,
+        "purposes": [
+          "flood"
+        ],
+        "quote": "A regional storm water facility shall allow a 100-year design storm to pass without flooding surrounding structures.",
+        "page": 42
+      }
     ]
   }
 }

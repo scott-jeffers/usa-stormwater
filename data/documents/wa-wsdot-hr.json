@@ -141,6 +141,40 @@
       "green_roof_media_depth_inches",
       "green_roof_slope_percent",
       "mtd_verification_program"
+    ],
+    "design_storms": [
+      {
+        "years": 2,
+        "purposes": [
+          "peak_control"
+        ],
+        "quote": "Projects must match the predeveloped 2-year and 25-year peak runoff rates for these discharges.",
+        "page": 23
+      },
+      {
+        "years": 25,
+        "purposes": [
+          "peak_control"
+        ],
+        "quote": "Projects must match the predeveloped 2-year and 25-year peak runoff rates for these discharges.",
+        "page": 23
+      },
+      {
+        "years": 50,
+        "purposes": [
+          "peak_control"
+        ],
+        "quote": "Western Washington Design Criteria Ensure stormwater discharges match developed discharge durations to predeveloped durations for the range of predeveloped discharge rates from 50% of the 2-year peak flow up to the full 50-year peak flow.",
+        "page": 29
+      },
+      {
+        "years": 100,
+        "purposes": [
+          "peak_control"
+        ],
+        "quote": "Facility Type Criteria Model Infiltration facilities Size facility to infiltrate sufficient volumes so that the overflow matches the duration standard, and check the 100-year peak flow to estimate the potential for downstream property damage, or infiltrate the entire runoff file.",
+        "page": 30
+      }
     ]
   }
 }

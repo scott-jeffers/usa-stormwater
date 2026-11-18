@@ -162,6 +162,64 @@
       "green_roof_media_depth_inches",
       "green_roof_slope_percent",
       "mtd_verification_program"
+    ],
+    "wqv_basis": "rainfall",
+    "value_qualifiers": {
+      "ed_drain_time_hours": "max",
+      "max_drawdown_hours": "max",
+      "swale_bottom_width_inches": "min",
+      "swale_longitudinal_slope_percent": "min",
+      "wqv_depth_inches": "design"
+    },
+    "design_storms": [
+      {
+        "years": 2,
+        "purposes": [
+          "peak_control"
+        ],
+        "quote": "There shall be no increase, as compared to the pre-construction condition, in peak runoff rates of stormwater leaving the project site for the 2-year, 10-year, and 100-year storm events and that the increased volume or change in timing of stormwater runoff will not increase flood damage at or downst",
+        "page": 75
+      },
+      {
+        "years": 5,
+        "purposes": [
+          "other"
+        ],
+        "quote": null,
+        "page": null
+      },
+      {
+        "years": 10,
+        "purposes": [
+          "conveyance"
+        ],
+        "quote": "Design shall be based on the following frequencies: Recurrence Interval Facility Description 15-Year Freeway or interstate highway 10-Year Land service highway The Manning equation has been modified to allow its use in the calculation of curbed gutter capacity for a triangular shaped gutter.",
+        "page": 37
+      },
+      {
+        "years": 25,
+        "purposes": [
+          "other"
+        ],
+        "quote": null,
+        "page": null
+      },
+      {
+        "years": 50,
+        "purposes": [
+          "other"
+        ],
+        "quote": null,
+        "page": null
+      },
+      {
+        "years": 100,
+        "purposes": [
+          "conveyance"
+        ],
+        "quote": "below top of Levee Dam See NJDEP Dam Safety Standards Channel Min 1 foot below top of low bank Road Min 1 foot below top of grate or manhole rim for storm sewers The peak 100-year water surface elevation for any new detention/retention facility must be contained within NJDOT property or acquired eas",
+        "page": 9
+      }
     ]
   }
 }

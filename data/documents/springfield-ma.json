@@ -169,6 +169,43 @@
       "green_roof_media_depth_inches",
       "green_roof_slope_percent",
       "mtd_verification_program"
+    ],
+    "wqv_basis": "runoff",
+    "value_qualifiers": {
+      "bioretention_media_depth_min_inches": "min",
+      "design_infiltration_rate_in_per_hr": "min",
+      "ed_drain_time_hours": "max",
+      "max_drawdown_hours": "max",
+      "shwt_separation_inches": "min",
+      "wqv_depth_inches": "design"
+    },
+    "design_storms": [
+      {
+        "years": 2,
+        "purposes": [
+          "peak_control"
+        ],
+        "quote": "The middle stage is designed to regulate peak flow from the 2-year storm.",
+        "page": 335
+      },
+      {
+        "years": 10,
+        "purposes": [
+          "peak_control",
+          "conveyance"
+        ],
+        "quote": "Design Criteria Capacity - Peak runoff from 10-year storm.",
+        "page": 594
+      },
+      {
+        "years": 100,
+        "purposes": [
+          "peak_control",
+          "flood"
+        ],
+        "quote": "The system must attenuate peak discharge for the 2-, 10-, and 100-year storms in accordance with Standard 2.",
+        "page": 402
+      }
     ]
   }
 }

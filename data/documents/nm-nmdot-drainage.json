@@ -148,6 +148,38 @@
       "green_roof_media_depth_inches",
       "green_roof_slope_percent",
       "mtd_verification_program"
+    ],
+    "value_qualifiers": {
+      "ed_drain_time_hours": "max",
+      "max_drawdown_hours": "max"
+    },
+    "design_storms": [
+      {
+        "years": 2,
+        "purposes": [
+          "channel_protection"
+        ],
+        "quote": "Abrasion velocities should be determined from the flow frequency of 5 years or less (2 year, bankfull).",
+        "page": 415
+      },
+      {
+        "years": 50,
+        "purposes": [
+          "flood",
+          "conveyance"
+        ],
+        "quote": "The spread at the 50-year Design Flood is 12.11 ft which exceeds the design criterion to limit the spread to one 12 ft driving lane.",
+        "page": 551
+      },
+      {
+        "years": 100,
+        "purposes": [
+          "flood",
+          "conveyance"
+        ],
+        "quote": "shall safely convey the 100 year event within the ADOT ROW.",
+        "page": 615
+      }
     ]
   }
 }

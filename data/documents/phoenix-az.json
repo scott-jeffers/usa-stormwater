@@ -194,6 +194,41 @@
       "green_roof_media_depth_inches",
       "green_roof_slope_percent",
       "mtd_verification_program"
+    ],
+    "wqv_basis": "runoff",
+    "value_qualifiers": {
+      "max_drawdown_hours": "max",
+      "swale_bottom_width_inches": "min",
+      "wqv_depth_inches": "design"
+    },
+    "design_storms": [
+      {
+        "years": 2,
+        "purposes": [
+          "conveyance"
+        ],
+        "quote": "City of Phoenix Stormwater Policies and Standards Standards 6.2 Hydrology Table 6.2.1 Rainfall Criteria Purpose Criteria Street Storm Drains 2-year Storm Water Storage Facilities 100-year, 2-hour rainfall as defined in the Design Manual for stormwater volume.",
+        "page": 78
+      },
+      {
+        "years": 10,
+        "purposes": [
+          "other"
+        ],
+        "quote": null,
+        "page": null
+      },
+      {
+        "years": 100,
+        "purposes": [
+          "flood",
+          "conveyance",
+          "peak_control",
+          "water_quality"
+        ],
+        "quote": "Manholes should be raised above the 100-year flood level or equipped with seals to prevent leakage.",
+        "page": 56
+      }
     ]
   }
 }

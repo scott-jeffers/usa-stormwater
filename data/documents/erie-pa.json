@@ -50,16 +50,6 @@
       "page_or_section": "Table 3-90 / page 3-310"
     },
     {
-      "field": "design_parameters.ed_drain_time_hours",
-      "excerpt": "Drawdown time to native soil surface (i.e., bottom of storage) is limited to 72 hours.",
-      "page_or_section": "Section 3.5.4 Infiltration Trench / page 3-135"
-    },
-    {
-      "field": "design_parameters.ed_drain_time_hours",
-      "excerpt": "Drawdown time to native soil surface (i.e., bottom of storage) is limited to 72 hours.",
-      "page_or_section": "Section 3.5.5 Underground Infiltration Basin / page 3-146"
-    },
-    {
       "field": "design_parameters.permanent_pool_depth_inches",
       "excerpt": "Permanent pool should be a minimum of five feet deep.",
       "page_or_section": "Section 3.8.1 Wet Basin / page 3-286"
@@ -99,7 +89,7 @@
     "permeable_pavement_storage_depth_inches": null,
     "design_infiltration_rate_in_per_hr": null,
     "permanent_pool_depth_inches": 60,
-    "ed_drain_time_hours": 72,
+    "ed_drain_time_hours": null,
     "length_to_width_ratio": 2,
     "wetland_detention_hours": null,
     "swale_bottom_width_inches": null,
@@ -133,6 +123,14 @@
       "swale_longitudinal_slope_percent",
       "green_roof_slope_percent",
       "mtd_verification_program"
-    ]
+    ],
+    "value_qualifiers": {
+      "bioretention_media_depth_min_inches": "min",
+      "bioretention_ponding_depth_inches": "max",
+      "green_roof_media_depth_inches": "min",
+      "length_to_width_ratio": "min",
+      "permanent_pool_depth_inches": "min",
+      "shwt_separation_inches": "min"
+    }
   }
 }

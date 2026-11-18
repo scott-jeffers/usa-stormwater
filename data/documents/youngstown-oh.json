@@ -50,16 +50,6 @@
       "page_or_section": "Bioretention Design Checklist, page 83"
     },
     {
-      "field": "design_parameters.max_drawdown_hours",
-      "excerpt": "drained over a 24-48 hour period",
-      "page_or_section": "Water Quality Volume (Applicable to all pond configurations), page 37"
-    },
-    {
-      "field": "design_parameters.max_drawdown_hours",
-      "excerpt": "Drain times in excess of 72 hours should be avoided",
-      "page_or_section": "2.7 Infiltration Trench, page 51"
-    },
-    {
       "field": "design_parameters.shwt_separation_inches",
       "excerpt": "A minimum 2ft of separation is recommended and a minimum 1ft of separation required between the water table and the bioretention practice.",
       "page_or_section": "2.10 Bioretention, page 77"
@@ -90,11 +80,6 @@
       "page_or_section": "2.10 Bioretention Area Dimensions, page 80"
     },
     {
-      "field": "design_parameters.max_drawdown_hours",
-      "excerpt": "minimum drawdown time of 40 hours",
-      "page_or_section": "2.10 Bioretention Detention, page 79"
-    },
-    {
       "field": "design_criteria.design_storm_return_periods_years",
       "excerpt": "Design Storm Peak Discharge Rate (cfs) 24-hour Runoff Volume (show units) Percent Increase Design Discharge (cfs) Pre-Development Post- Development 1-year 2-year 5-year 10-year 25-year 50-year 100-year 3.",
       "page_or_section": "PDF p. 83 · found by QA search"
@@ -119,14 +104,14 @@
   },
   "design_parameters": {
     "wqv_depth_inches": 0.75,
-    "max_drawdown_hours": 48,
+    "max_drawdown_hours": null,
     "shwt_separation_inches": 36,
     "bioretention_media_depth_min_inches": 30,
     "bioretention_ponding_depth_inches": null,
     "permeable_pavement_storage_depth_inches": null,
     "design_infiltration_rate_in_per_hr": null,
     "permanent_pool_depth_inches": null,
-    "ed_drain_time_hours": 48,
+    "ed_drain_time_hours": 24,
     "length_to_width_ratio": 2,
     "wetland_detention_hours": null,
     "swale_bottom_width_inches": null,
@@ -160,6 +145,72 @@
       "green_roof_media_depth_inches",
       "green_roof_slope_percent",
       "mtd_verification_program"
+    ],
+    "wqv_basis": "rainfall",
+    "value_qualifiers": {
+      "bioretention_media_depth_min_inches": "min",
+      "ed_drain_time_hours": "design",
+      "length_to_width_ratio": "min",
+      "shwt_separation_inches": "min",
+      "wqv_depth_inches": "design"
+    },
+    "design_storms": [
+      {
+        "years": 1,
+        "purposes": [
+          "other"
+        ],
+        "quote": null,
+        "page": null
+      },
+      {
+        "years": 2,
+        "purposes": [
+          "channel_protection"
+        ],
+        "quote": "Flow Capacity – For all types of crossings, the structure shall be designed to pass bankfull flow or the peak flow from a 2 year frequency 24 hour duration storm, whichever is less without overtopping.",
+        "page": 163
+      },
+      {
+        "years": 5,
+        "purposes": [
+          "other"
+        ],
+        "quote": null,
+        "page": null
+      },
+      {
+        "years": 10,
+        "purposes": [
+          "peak_control"
+        ],
+        "quote": "Capacity The design capacity of the level spreader shall be estimated by determining the peak rate of runoff from a 10-yr. frequency storm.",
+        "page": 99
+      },
+      {
+        "years": 25,
+        "purposes": [
+          "peak_control"
+        ],
+        "quote": "Capacity—The capacity of the emergency spillway shall be that required to pass the peak flow from a 25-year, 24-hour storm less any reduction creditable to pipe conduit discharge detention storage and routing.",
+        "page": 191
+      },
+      {
+        "years": 50,
+        "purposes": [
+          "other"
+        ],
+        "quote": null,
+        "page": null
+      },
+      {
+        "years": 100,
+        "purposes": [
+          "other"
+        ],
+        "quote": null,
+        "page": null
+      }
     ]
   }
 }

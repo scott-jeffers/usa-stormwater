@@ -32,21 +32,6 @@
       "page_or_section": "Wet Ponds §13"
     },
     {
-      "field": "design_parameters.max_drawdown_hours",
-      "excerpt": "The drain pipe should have an upturned elbow or protected intake within the Wet Pond to help keep it clear of sediment deposition, and a diameter capable of draining the Wet Pond within 24 hours.",
-      "page_or_section": "13.6 Wet Pond Design Criteria, page 14"
-    },
-    {
-      "field": "design_parameters.shwt_separation_inches",
-      "excerpt": "If the infiltration test results in an infiltration rate greater than 1.0 inch/hour at the proposed Wet Pond invert, and the seasonal high groundwater table is two feet or more below the proposed Wet Pond invert, a stormwater management BMP other than a Wet Pond or Wet ED Pond should be designed.",
-      "page_or_section": "13.3 Wet Pond Feasibility Criteria, page 8"
-    },
-    {
-      "field": "design_parameters.design_infiltration_rate_in_per_hr",
-      "excerpt": "INF = Monthly infiltration loss (assume 7.2 @ 0.01 inch/hour)",
-      "page_or_section": "13.6 Wet Pond Design Criteria, Equation 13.1, page 11"
-    },
-    {
       "field": "design_parameters.permanent_pool_depth_inches",
       "excerpt": "Permanent Pool Depth: The minimum depth to prevent the permanent pool area from being overtaken by undesirable vegetation is 4 feet.",
       "page_or_section": "13.6 Wet Pond Design Criteria, page 12"
@@ -96,12 +81,12 @@
   },
   "design_parameters": {
     "wqv_depth_inches": null,
-    "max_drawdown_hours": 24,
-    "shwt_separation_inches": 24,
+    "max_drawdown_hours": null,
+    "shwt_separation_inches": null,
     "bioretention_media_depth_min_inches": null,
     "bioretention_ponding_depth_inches": null,
     "permeable_pavement_storage_depth_inches": null,
-    "design_infiltration_rate_in_per_hr": 0.01,
+    "design_infiltration_rate_in_per_hr": null,
     "permanent_pool_depth_inches": 48,
     "ed_drain_time_hours": 48,
     "length_to_width_ratio": 2,
@@ -130,6 +115,21 @@
       "green_roof_media_depth_inches",
       "green_roof_slope_percent",
       "mtd_verification_program"
+    ],
+    "value_qualifiers": {
+      "ed_drain_time_hours": "design",
+      "length_to_width_ratio": "min",
+      "permanent_pool_depth_inches": "min"
+    },
+    "design_storms": [
+      {
+        "years": 100,
+        "purposes": [
+          "flood"
+        ],
+        "quote": "The total storage, including any ponding for larger flooding events (100-year storm) should not extend more than 5 feet above the permanent pool unless specific design enhancements to ensure side slope stability, safety, and maintenance are identified and approved.",
+        "page": 12
+      }
     ]
   }
 }

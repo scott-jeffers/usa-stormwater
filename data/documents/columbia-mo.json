@@ -151,6 +151,13 @@
       "swale_longitudinal_slope_percent",
       "green_roof_slope_percent",
       "mtd_verification_program"
-    ]
+    ],
+    "wqv_basis": "rainfall",
+    "value_qualifiers": {
+      "bioretention_media_depth_min_inches": "typical",
+      "bioretention_ponding_depth_inches": "max",
+      "green_roof_media_depth_inches": "min",
+      "wqv_depth_inches": "design"
+    }
   }
 }

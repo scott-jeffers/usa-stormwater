@@ -219,6 +219,58 @@
       "swale_longitudinal_slope_percent",
       "green_roof_slope_percent",
       "mtd_verification_program"
+    ],
+    "wqv_basis": "rainfall",
+    "value_qualifiers": {
+      "bioretention_media_depth_min_inches": "min",
+      "bioretention_ponding_depth_inches": "max",
+      "ed_drain_time_hours": "max",
+      "green_roof_media_depth_inches": "min",
+      "length_to_width_ratio": "min",
+      "max_drawdown_hours": "max",
+      "permanent_pool_depth_inches": "min",
+      "permeable_pavement_storage_depth_inches": "min",
+      "shwt_separation_inches": "min",
+      "wqv_depth_inches": "design"
+    },
+    "design_storms": [
+      {
+        "years": 2,
+        "purposes": [
+          "peak_control",
+          "flood",
+          "water_quality"
+        ],
+        "quote": "For certain SCMs – show that the 2-year/24-hour peak rate is managed back to the 1-year/24-hour rate or an established minimum (see Chapter 3 for more details) to meet volume management requirements.",
+        "page": 490
+      },
+      {
+        "years": 10,
+        "purposes": [
+          "conveyance",
+          "channel_protection"
+        ],
+        "quote": "When it is determined that an erosion potential analysis is necessary, the entire flow path from the DP to the nearest stable conveyance should be evaluated for accelerated erosion potential using a 10-year/24-hour storm event.",
+        "page": 73
+      },
+      {
+        "years": 50,
+        "purposes": [
+          "other"
+        ],
+        "quote": null,
+        "page": null
+      },
+      {
+        "years": 100,
+        "purposes": [
+          "flood",
+          "peak_control",
+          "conveyance"
+        ],
+        "quote": "Design should safely convey the 100-year/24-hour storm event.",
+        "page": 382
+      }
     ]
   }
 }

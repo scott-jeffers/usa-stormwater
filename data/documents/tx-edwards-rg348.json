@@ -197,6 +197,22 @@
       "green_roof_media_depth_inches",
       "green_roof_slope_percent",
       "mtd_verification_program"
+    ],
+    "value_qualifiers": {
+      "ed_drain_time_hours": "design",
+      "length_to_width_ratio": "min",
+      "shwt_separation_inches": "min",
+      "swale_longitudinal_slope_percent": "max"
+    },
+    "design_storms": [
+      {
+        "years": 100,
+        "purposes": [
+          "flood"
+        ],
+        "quote": "Structural BMPs located in the floodplain should be constructed with the wall elevation of any basins or ponds higher than the elevation of the 100 year flood at that location.",
+        "page": 186
+      }
     ]
   }
 }
