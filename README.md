@@ -19,6 +19,19 @@ When documents or national drafts change, either re-run `npm run export:data` or
 
 Open [http://localhost:3000](http://localhost:3000). No API keys required for the site.
 
+Before pushing, `npm run check` runs lint + typecheck + a full static build (the same steps CI runs on Ubuntu).
+
+### Windows, Linux and macOS
+
+The project runs on all three with Node 22 (`.nvmrc`). Every pipeline script uses Node path APIs and CLI flags, so the commands in this README work in any shell; the only differences are setting env vars:
+
+| | PowerShell | bash / zsh |
+|---|---|---|
+| Set the LLM mode | `$env:PIPELINE_LLM='cursor'` | `export PIPELINE_LLM=cursor` |
+| One-off | — | `PIPELINE_LLM=heuristic npm run pipeline:corpus -- <id>` |
+
+`node_modules` is **platform-specific**: several dependencies (esbuild for `tsx`, Next's SWC compiler, Tailwind's oxide engine, lightningcss) ship native binaries for the OS that ran `npm install`. Don't share one `node_modules` between Windows and Linux/WSL or a container — run `npm ci` in each environment (or use a separate clone per OS). If you see *"You installed esbuild for another platform"*, that is the cause.
+
 ## Secrets / API keys
 
 - The published site is a **static export**. Builds on Netlify need **no** environment variables.

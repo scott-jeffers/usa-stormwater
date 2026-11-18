@@ -14,9 +14,9 @@ import {
   pickCitations,
   type RetrievedChunk,
 } from "./citationPicker";
-import { useHeuristicLlm } from "./corpusHeuristic";
+import { isHeuristicLlm } from "./corpusHeuristic";
 
-export { useHeuristicLlm };
+export { isHeuristicLlm };
 
 type Retrieved = { slug: string; chunk: CorpusChunk; score?: number };
 

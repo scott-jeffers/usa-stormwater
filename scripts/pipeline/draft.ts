@@ -20,7 +20,7 @@ import {
 } from "../../lib/pipeline/types";
 import { cursorJsonPrompt } from "../lib/cursorLlm";
 import { retrieveScoredChunks } from "../lib/citationPicker";
-import { buildHeuristicDraft, useHeuristicLlm } from "../lib/draftHeuristic";
+import { buildHeuristicDraft, isHeuristicLlm } from "../lib/draftHeuristic";
 import { loadEnvLocal } from "../lib/loadEnv";
 import { pipelineDelay } from "./shared";
 
@@ -148,7 +148,7 @@ export async function runDraftStage(
       let draft;
       let runId: string | undefined;
 
-      if (useHeuristicLlm()) {
+      if (isHeuristicLlm()) {
         console.log(
           `[draft] ${section.id}: heuristic (${retrieved.length} retrieved chunks)`
         );

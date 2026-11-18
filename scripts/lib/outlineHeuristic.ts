@@ -5,9 +5,9 @@ import type {
   CorpusStructure,
   NationalOutline,
 } from "../../lib/pipeline/types";
-import { useHeuristicLlm } from "./corpusHeuristic";
+import { isHeuristicLlm } from "./corpusHeuristic";
 
-export { useHeuristicLlm };
+export { isHeuristicLlm };
 
 interface SectionDef {
   id: string;

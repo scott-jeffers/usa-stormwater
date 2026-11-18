@@ -3,12 +3,17 @@
   "version": "0.1.0",
   "private": true,
   "license": "MIT",
+  "engines": {
+    "node": ">=22"
+  },
   "scripts": {
     "dev": "next dev",
     "dev:sync": "npm run export:data && next dev",
     "build": "next build",
     "start": "next start",
     "lint": "eslint .",
+    "typecheck": "tsc --noEmit -p .",
+    "check": "npm run lint && npm run typecheck && npm run build",
     "export:data": "tsx scripts/export-data.ts",
     "prebuild": "npm run export:data",
     "perf:smoke": "tsx scripts/perf/smoke-nav.ts",

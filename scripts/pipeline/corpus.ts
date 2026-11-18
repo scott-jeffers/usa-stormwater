@@ -32,7 +32,7 @@ import { cursorJsonPrompt } from "../lib/cursorLlm";
 import {
   buildHeuristicStructure,
   tagChunksHeuristic,
-  useHeuristicLlm,
+  isHeuristicLlm,
 } from "../lib/corpusHeuristic";
 import { loadEnvLocal } from "../lib/loadEnv";
 import { ensureJobPdf } from "./prepareStage";
@@ -193,7 +193,7 @@ async function runSubstepStructure(
   loadEnvLocal();
   let structure: CorpusStructure;
 
-  if (useHeuristicLlm()) {
+  if (isHeuristicLlm()) {
     console.log(`[${job.id}] structure: heuristic (no Cursor API key)`);
     structure = buildHeuristicStructure({
       pages,
@@ -271,7 +271,7 @@ async function runSubstepChunks(
 
   let chunks: CorpusChunk[] = [];
   loadEnvLocal();
-  if (useHeuristicLlm()) {
+  if (isHeuristicLlm()) {
     console.log(`[${job.id}] chunks: heuristic`);
     chunks = heuristicChunks(pages, structure);
   } else {
@@ -368,7 +368,7 @@ async function runSubstepTagging(
   loadEnvLocal();
   let updated = [...chunks];
 
-  if (useHeuristicLlm()) {
+  if (isHeuristicLlm()) {
     console.log(`[${job.id}] tagging: heuristic`);
     updated = tagChunksHeuristic(updated);
     await writeChunks(slug, updated);

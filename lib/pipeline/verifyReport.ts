@@ -260,7 +260,7 @@ ${slugLines}
 
 - Prefer fixing \`design_criteria.*\` excerpts before \`document_metadata.*\` (national strawman depends on design fields).
 - \`va-state\` and chapter-only corpora may lack metadata date text — mark review-only rather than inventing excerpts.
-- After repairs: \`$env:PIPELINE_STAGE='verify'; $env:PIPELINE_FORCE='1'; npx tsx scripts/pipeline/run.ts <ids...>\`
+- After repairs: \`npx tsx scripts/pipeline/run.ts --stage=verify --force <ids...>\`
 `;
 }
 

@@ -16,7 +16,7 @@ import {
   type CorpusStructure,
 } from "../../lib/pipeline/types";
 import { cursorJsonPrompt } from "../lib/cursorLlm";
-import { buildHeuristicOutline, useHeuristicLlm } from "../lib/outlineHeuristic";
+import { buildHeuristicOutline, isHeuristicLlm } from "../lib/outlineHeuristic";
 import { loadEnvLocal } from "../lib/loadEnv";
 import { pipelineDelay } from "./shared";
 
@@ -106,7 +106,7 @@ export async function runOutlineStage(
     let outline;
     let runId: string | undefined;
 
-    if (useHeuristicLlm()) {
+    if (isHeuristicLlm()) {
       console.log(
         `outline: heuristic from ${structures.length} corpus structures (no API key)`
       );

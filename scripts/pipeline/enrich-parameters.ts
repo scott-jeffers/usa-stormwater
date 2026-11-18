@@ -1,10 +1,10 @@
 /**
  * Enrich atlas JSON with optional design_parameters (resume-safe).
  *
- *   $env:PIPELINE_LLM='cursor'
+ *   # PowerShell: $env:PIPELINE_LLM='cursor'   bash/zsh: export PIPELINE_LLM=cursor
  *   npx tsx scripts/pipeline/enrich-parameters.ts --upgrade-heuristic
  *   npx tsx scripts/pipeline/enrich-parameters.ts --tier-a
- *   $env:PIPELINE_LLM='heuristic'
+ *   # PowerShell: $env:PIPELINE_LLM='heuristic'   bash/zsh: export PIPELINE_LLM=heuristic
  *   npx tsx scripts/pipeline/enrich-parameters.ts --tier-a
  *   npx tsx scripts/pipeline/enrich-parameters.ts --slug wa-state --force
  */
@@ -49,7 +49,7 @@ import {
   cursorJsonPrompt,
   getPipelineModel,
 } from "../lib/cursorLlm";
-import { useHeuristicLlm } from "../lib/corpusHeuristic";
+import { isHeuristicLlm } from "../lib/corpusHeuristic";
 import { loadEnvLocal } from "../lib/loadEnv";
 import { pipelineDelay } from "./shared";
 
@@ -203,7 +203,7 @@ async function enrichOne(
   const atlasBlob = atlasContextBlob(data);
   const practiceKeys = listCanonicalPracticeKeys().join(", ");
 
-  if (useHeuristicLlm()) {
+  if (isHeuristicLlm()) {
     const { params, evidence } = heuristicEnrichParameters(data, text);
     const design_parameters: DesignParameters = {
       ...params,
@@ -293,7 +293,7 @@ export async function runEnrichParameters(
 ): Promise<EnrichParametersResult> {
   loadEnvLocal();
 
-  if (!useHeuristicLlm()) {
+  if (!isHeuristicLlm()) {
     await assertPipelineModelAvailable();
   }
 
@@ -304,7 +304,7 @@ export async function runEnrichParameters(
   }
 
   console.log(
-    `enrich-parameters: ${slugs.length} slug(s) | llm=${useHeuristicLlm() ? "heuristic" : "cursor"} | model=${getPipelineModel()} | force=${opts.force} | upgradeHeuristic=${opts.upgradeHeuristic} | dryRun=${opts.dryRun}`
+    `enrich-parameters: ${slugs.length} slug(s) | llm=${isHeuristicLlm() ? "heuristic" : "cursor"} | model=${getPipelineModel()} | force=${opts.force} | upgradeHeuristic=${opts.upgradeHeuristic} | dryRun=${opts.dryRun}`
   );
 
   let done = 0;

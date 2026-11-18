@@ -42,3 +42,9 @@ next-env.d.ts
 # editor
 .vscode/*
 !.vscode/extensions.json
+
+# pipeline / scratch logs (local only)
+/data/pipeline/*.log
+/data/queue/_validate.txt
+/tmp-*
+/_to_delete/

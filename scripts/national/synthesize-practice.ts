@@ -3,7 +3,7 @@
  * Refuses to invent numbers — LLM (or heuristic) only phrases the matrix.
  *
  *   npx tsx scripts/national/synthesize-practice.ts --practice bioretention
- *   $env:PIPELINE_LLM='cursor'
+ *   # PowerShell: $env:PIPELINE_LLM='cursor'   bash/zsh: export PIPELINE_LLM=cursor
  *   npx tsx scripts/national/synthesize-practice.ts --practice bioretention
  */
 import { mkdir, writeFile, readFile } from "node:fs/promises";
@@ -25,7 +25,7 @@ import {
   type PracticeSynthesis,
 } from "../../lib/practices/types";
 import { cursorJsonPrompt, getPipelineModel } from "../lib/cursorLlm";
-import { useHeuristicLlm } from "../lib/corpusHeuristic";
+import { isHeuristicLlm } from "../lib/corpusHeuristic";
 import { loadEnvLocal } from "../lib/loadEnv";
 
 function parseArgs(argv: string[]) {
@@ -260,7 +260,7 @@ async function main() {
     JSON.parse(await readFile(matrixPath, "utf-8"))
   );
 
-  const synthesis = useHeuristicLlm()
+  const synthesis = isHeuristicLlm()
     ? heuristicSynthesis(matrix)
     : await llmSynthesis(matrix);
 

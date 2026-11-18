@@ -320,7 +320,7 @@ async function main() {
     `Done. excerpts repaired=${totalRepaired}, removed=${totalRemoved}`
   );
   console.log(
-    `$env:PIPELINE_STAGE='verify'; $env:PIPELINE_FORCE='1'; npx tsx scripts/pipeline/run.ts ${targets.join(" ")}`
+    `npx tsx scripts/pipeline/run.ts --stage=verify --force ${targets.join(" ")}`
   );
 }
 

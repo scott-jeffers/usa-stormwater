@@ -272,7 +272,7 @@ export function tagChunksHeuristic(chunks: CorpusChunk[]): CorpusChunk[] {
 }
 
 /** True when pipeline should skip Cursor SDK and use heuristics. */
-export function useHeuristicLlm(): boolean {
+export function isHeuristicLlm(): boolean {
   const mode = (process.env.PIPELINE_LLM ?? "").trim().toLowerCase();
   if (mode === "heuristic" || mode === "offline" || mode === "local") return true;
   if (mode === "cursor" || mode === "sdk") return false;
