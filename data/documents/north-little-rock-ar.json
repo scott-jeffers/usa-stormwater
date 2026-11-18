@@ -82,17 +82,17 @@
       "page_or_section": "Table of Contents; Sections 3.2–3.4"
     },
     {
-      "field": "practice_mentions.swale",
+      "field": "design_parameters.practice_mentions.swale",
       "excerpt": "Earth dikes, swales and lined ditches can be constructed at the top/bottom of slopes, to direct run-on and runoff around stockpiles",
       "page_or_section": "3.4.1 Runoff Control - Ditches and Dams, page 16"
     },
     {
-      "field": "enrich_notes.sediment_trap_sizing",
+      "field": "design_parameters.enrich_notes.sediment_trap_sizing",
       "excerpt": "Size traps to accommodate both a settling and storage zone with minimum volumes of 70 CY/acre and 53 CY/acre of contributing drainage area, respectively, based on ½\" of runoff volume over a 24-hour period",
       "page_or_section": "3.3.5 Sediment Basins, page 14"
     },
     {
-      "field": "enrich_notes.inspection_rainfall",
+      "field": "design_parameters.enrich_notes.inspection_rainfall",
       "excerpt": "Sites must be inspected every seven calendar days and within 24 hours of a rainfall event of .5 inches or greater",
       "page_or_section": "3.5 Inspection and Maintenance Guidelines, page 20"
     }

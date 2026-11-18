@@ -67,27 +67,27 @@
       "page_or_section": "Section 2.2.a"
     },
     {
-      "field": "wqv_depth_inches",
+      "field": "design_parameters.wqv_depth_inches",
       "excerpt": "stormwater facilities shall capture at least the first two (2) inches of runoff",
       "page_or_section": "Atlas context — Volume Control (Section 2.2.a)"
     },
     {
-      "field": "shwt_separation_inches",
+      "field": "design_parameters.shwt_separation_inches",
       "excerpt": "must show at least 2 ft. of separation (measured from the bottom of the basin, or underdrain, if present) from the seasonal high groundwater level table",
       "page_or_section": "page 62 — Groundwater"
     },
     {
-      "field": "shwt_separation_inches",
+      "field": "design_parameters.shwt_separation_inches",
       "excerpt": "The bottom underdrain invert elevation of the infiltrating BMPs must not be within two (2) feet of bedrock or the seasonal high groundwater.",
       "page_or_section": "page 89 — Section 4.2.a.ii"
     },
     {
-      "field": "length_to_width_ratio",
+      "field": "design_parameters.length_to_width_ratio",
       "excerpt": "Basins must have a length-to-width ratio of at least 2:1 to the extent possible.",
       "page_or_section": "page 125 — Ponds and Wet Basins, General B"
     },
     {
-      "field": "mtd_verification_program",
+      "field": "design_parameters.mtd_verification_program",
       "excerpt": "filtration technologies must demonstrate pollutant removal performance at an equivalent level required by New Jersey Corporation for Advanced Technology (NJCAT) certification and the Technology Assessment Protocol-Ecology (TAPE) developed by the Washington State Department of Ecology",
       "page_or_section": "page 146 — Section 4.4 filtration / manufactured treatment"
     }

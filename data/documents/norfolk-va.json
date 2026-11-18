@@ -156,52 +156,52 @@
       "page_or_section": "Section 2.4.1 / PAGE 2-23"
     },
     {
-      "field": "practice_mentions.manufactured_treatment",
+      "field": "design_parameters.practice_mentions.manufactured_treatment",
       "excerpt": "Manufactured Treatment Devices ... Please refer to the DEQ BMP Clearinghouse website for the most up to date list of approved MTD's.",
       "page_or_section": "Section 5.1 / PAGE 5-30"
     },
     {
-      "field": "practice_mentions.extended_detention",
+      "field": "design_parameters.practice_mentions.extended_detention",
       "excerpt": "3. Extended Detention Pond ... 15. Dry Extended Detention Ponds – No modification",
       "page_or_section": "Section 5.1; Appendix 4A"
     },
     {
-      "field": "practice_mentions.wet_pond",
+      "field": "design_parameters.practice_mentions.wet_pond",
       "excerpt": "4. Wet Pond ... 14. Wet Ponds – Table 14.2",
       "page_or_section": "Section 5.1; Appendix 4A"
     },
     {
-      "field": "practice_mentions.swale",
+      "field": "design_parameters.practice_mentions.swale",
       "excerpt": "10. Dry Swales ... 11. Wet Swales ... A shallow swale may be necessary",
       "page_or_section": "Section 5.1; Section 2.3.1.2"
     },
     {
-      "field": "practice_mentions.green_roof",
+      "field": "design_parameters.practice_mentions.green_roof",
       "excerpt": "8. Vegetated Roof ... 5. Vegetated Roofs – No modification",
       "page_or_section": "Section 5.1; Appendix 4A"
     },
     {
-      "field": "practice_mentions.bioretention",
+      "field": "design_parameters.practice_mentions.bioretention",
       "excerpt": "4. Bioretention (including Urban Bioretention) ... all bioretention and infiltration practices proposed in the City of Norfolk must incorporate an appropriately sized underdrain.",
       "page_or_section": "Section 5.1; Appendix 4A"
     },
     {
-      "field": "practice_mentions.permeable_pavement",
+      "field": "design_parameters.practice_mentions.permeable_pavement",
       "excerpt": "7. Permeable Pavement – All practices proposed in the City of Norfolk shall incorporate an appropriately sized underdrain",
       "page_or_section": "Appendix 4A"
     },
     {
-      "field": "practice_mentions.infiltration_basin",
+      "field": "design_parameters.practice_mentions.infiltration_basin",
       "excerpt": "3. Infiltration Practices ... Infiltration practices are generally discouraged in the City of Norfolk due to the presence of a high ground water table",
       "page_or_section": "Section 5.1"
     },
     {
-      "field": "practice_mentions.constructed_wetland",
+      "field": "design_parameters.practice_mentions.constructed_wetland",
       "excerpt": "12. Constructed Wetlands ... 13. Constructed Wetlands – No modification",
       "page_or_section": "Section 5.1; Appendix 4A"
     },
     {
-      "field": "practice_mentions.sand_filter",
+      "field": "design_parameters.practice_mentions.sand_filter",
       "excerpt": "Enhance sand filter media with a layer of organic matter.",
       "page_or_section": "Appendix (Structural BMP / bacteria guidance)"
     }

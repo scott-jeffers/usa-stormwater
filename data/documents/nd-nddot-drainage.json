@@ -55,7 +55,7 @@
       "page_or_section": null
     },
     {
-      "field": "practice_mentions.extended_detention",
+      "field": "design_parameters.practice_mentions.extended_detention",
       "excerpt": "The entire discharge hydrograph shall be used for the design of facilities which are intended to control volume of runoff, such as detention facilities.",
       "page_or_section": "Section V-01 Hydrology, page 1 (V–01 intro)"
     }

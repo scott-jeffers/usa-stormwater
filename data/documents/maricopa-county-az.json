@@ -95,17 +95,17 @@
       "page_or_section": "6.14.3 Additional Report Requirements, page 131"
     },
     {
-      "field": "practice_mentions.swale",
+      "field": "design_parameters.practice_mentions.swale",
       "excerpt": "Interceptor channels (and other low impact development techniques, such as: bioswales, microbasins) may be required/needed",
       "page_or_section": "page 140"
     },
     {
-      "field": "practice_mentions.permeable_pavement",
+      "field": "design_parameters.practice_mentions.permeable_pavement",
       "excerpt": "Section 323 allows for the use of pervious concrete. Per Section 323 pervious concrete \"is usually part of a water management system used to reduce runoff rates and volumes\"",
       "page_or_section": "Summary of Changes 6th Edition Draft, Section 2.7.4, page 195"
     },
     {
-      "field": "practice_mentions.infiltration_basin",
+      "field": "design_parameters.practice_mentions.infiltration_basin",
       "excerpt": "SECTION 6: RETENTION BASINS ... Have stormwater storage and first flush requirements been met?",
       "page_or_section": "Checklist 1, page 157"
     }

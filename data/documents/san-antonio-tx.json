@@ -120,22 +120,22 @@
       "page_or_section": "p. 24"
     },
     {
-      "field": "practice_mentions",
+      "field": "design_parameters.practice_mentions",
       "excerpt": "13.3 Detention Basins ... 13.4 Retention Basins",
       "page_or_section": "Chapter 13 STORAGE FACILITIES (TOC)"
     },
     {
-      "field": "enrich_notes",
+      "field": "design_parameters.enrich_notes",
       "excerpt": "Provide required storage for the 5, 25, and 100 yr (proposed, ultimate)",
       "page_or_section": "Appendix A checklist"
     },
     {
-      "field": "enrich_notes",
+      "field": "design_parameters.enrich_notes",
       "excerpt": "LID Low Impact Development",
       "page_or_section": "Chapter 1.2 Acronyms"
     },
     {
-      "field": "enrich_notes",
+      "field": "design_parameters.enrich_notes",
       "excerpt": "FILO Fee in Lieu of Detention",
       "page_or_section": "Chapter 1.2 Acronyms"
     }

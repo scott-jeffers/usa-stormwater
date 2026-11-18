@@ -114,22 +114,22 @@
       "page_or_section": "2.3.8 Ponds Design Requirements, page 51"
     },
     {
-      "field": "practice_mentions.swale",
+      "field": "design_parameters.practice_mentions.swale",
       "excerpt": "Flow-rate-based facility design: Swales, filter strips, oil/water separators, and proprietary treatment systems shall be sized to treat a rate of flow draining through them.",
       "page_or_section": "1.7.2, page 20"
     },
     {
-      "field": "practice_mentions.bioretention",
+      "field": "design_parameters.practice_mentions.bioretention",
       "excerpt": "Combination Flow-Rate-Volume-Based Facility: A stormwater management facility such as a rain garden, planter, sand filter, soakage trench or drywell",
       "page_or_section": "1.4 DEFINITIONS, page 7"
     },
     {
-      "field": "practice_mentions.permeable_pavement",
+      "field": "design_parameters.practice_mentions.permeable_pavement",
       "excerpt": "Contained Planters, Eco roofs, Permeable Pavements, and Tree Credits are impervious area reduction techniques.",
       "page_or_section": "2.2.1, page 34"
     },
     {
-      "field": "practice_mentions.manufactured_treatment",
+      "field": "design_parameters.practice_mentions.manufactured_treatment",
       "excerpt": "Mechanical treatment facilities, if utilized must be selected from the list of approved proprietary treatment technologies",
       "page_or_section": "2.2.4, page 34"
     }

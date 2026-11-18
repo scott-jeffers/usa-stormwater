@@ -56,17 +56,17 @@
       "page_or_section": "Element C.2.a, page 4"
     },
     {
-      "field": "practice_mentions.bioretention",
+      "field": "design_parameters.practice_mentions.bioretention",
       "excerpt": "enhanced stormwater SCMs (such as raingardens, bioretention systems, tree box filters, and similar stormwater management landscaping techniques)",
       "page_or_section": "Element C.1.b, page 3"
     },
     {
-      "field": "practice_mentions.swale",
+      "field": "design_parameters.practice_mentions.swale",
       "excerpt": "GIS files containing the coordinates of all stormwater infrastructure elements (e.g. catch basins, swales, detention/bioretention areas, piping)",
       "page_or_section": "Element D.1.d, page 5"
     },
     {
-      "field": "practice_mentions.constructed_wetland",
+      "field": "design_parameters.practice_mentions.constructed_wetland",
       "excerpt": "subsurface gravel wetlands for water quality treatment is preferred",
       "page_or_section": "Element C.2.b, page 4"
     }

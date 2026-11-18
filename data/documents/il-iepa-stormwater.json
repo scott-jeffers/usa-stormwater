@@ -56,27 +56,27 @@
       "page_or_section": "Example 6, pages 106-107 (4 ft mean depth converted to 48 in)"
     },
     {
-      "field": "practice_mentions.wet_pond",
+      "field": "design_parameters.practice_mentions.wet_pond",
       "excerpt": "Wet ponds or multiple pond systems are the most reliable practices for controlling nutrients in runoff",
       "page_or_section": "Example 3, page 97"
     },
     {
-      "field": "practice_mentions.extended_detention",
+      "field": "design_parameters.practice_mentions.extended_detention",
       "excerpt": "All flows are to be treated by a 100 ft buffer strip with 10% slope and a wet detention pond",
       "page_or_section": "Example 6, page 106"
     },
     {
-      "field": "practice_mentions.infiltration_trench",
+      "field": "design_parameters.practice_mentions.infiltration_trench",
       "excerpt": "Infiltration Trench 847 1/99",
       "page_or_section": "Section 4, List of Urban Standards (Alphabetical), page 28"
     },
     {
-      "field": "practice_mentions.constructed_wetland",
+      "field": "design_parameters.practice_mentions.constructed_wetland",
       "excerpt": "Urban Stormwater Wetlands* 800 8/94",
       "page_or_section": "Section 4, List of Urban Standards (Alphabetical), page 28"
     },
     {
-      "field": "practice_mentions.swale",
+      "field": "design_parameters.practice_mentions.swale",
       "excerpt": "Grass - Lined Channel 840 10/01",
       "page_or_section": "Section 4, List of Urban Standards (Alphabetical), page 28"
     }

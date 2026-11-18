@@ -72,17 +72,17 @@
       "page_or_section": "Section 2.4.2 Slope, page 2-2"
     },
     {
-      "field": "practice_mentions.swale",
+      "field": "design_parameters.practice_mentions.swale",
       "excerpt": "Roadside, Median, and Interceptor Ditches or Swales",
       "page_or_section": "Table 2.1, page 2-1"
     },
     {
-      "field": "practice_mentions.bioretention",
+      "field": "design_parameters.practice_mentions.bioretention",
       "excerpt": "Bioretention Systems (landscaped areas or planters, rain gardens, stormwater trees)",
       "page_or_section": "Table 5-1, page 5-7"
     },
     {
-      "field": "practice_mentions.wet_pond",
+      "field": "design_parameters.practice_mentions.wet_pond",
       "excerpt": "Retention Pond ... Littoral Zone (Wet detention ponds)",
       "page_or_section": "Table 5-1, page 5-7"
     }

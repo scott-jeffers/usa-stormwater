@@ -558,6 +558,26 @@ export function isStaleEnrichment(data: StormwaterData): boolean {
   return ver < ENRICH_SCHEMA_VERSION;
 }
 
+const EVIDENCE_ROOTS = [
+  "document_metadata.",
+  "design_criteria.",
+  "design_parameters.",
+  "extraction_quality.",
+];
+
+/**
+ * Canonical dot-path for an evidence entry. LLM output sometimes uses bare
+ * names ("max_drawdown_hours") or annotations ("enrich_notes (context)");
+ * those would not attach to their values on the site or in QA.
+ */
+export function normalizeEvidenceField(field: string): string {
+  const f = field.replace(/\s*\(.*\)\s*$/, "").trim();
+  if (EVIDENCE_ROOTS.some((r) => f.startsWith(r))) return f;
+  if (f === "fields_not_found") return "extraction_quality.fields_not_found";
+  if (f === "design_parameters") return "design_parameters.enrich_notes";
+  return `${PARAM_EVIDENCE_PREFIX}${f}`;
+}
+
 export function mergeParameterEvidence(
   existing: StormwaterData["evidence"],
   incoming: Array<{
@@ -566,11 +586,13 @@ export function mergeParameterEvidence(
     page_or_section?: string | null;
   }>
 ): StormwaterData["evidence"] {
-  const kept = existing.filter((e) => !e.field.startsWith(PARAM_EVIDENCE_PREFIX));
+  const kept = existing.filter(
+    (e) => !normalizeEvidenceField(e.field).startsWith(PARAM_EVIDENCE_PREFIX)
+  );
   return [
     ...kept,
     ...incoming.map((e) => ({
-      field: e.field,
+      field: normalizeEvidenceField(e.field),
       excerpt: e.excerpt,
       page_or_section: e.page_or_section ?? null,
     })),

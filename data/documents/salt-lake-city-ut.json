@@ -111,12 +111,12 @@
       "page_or_section": "salt-lake-city-ut-c0024, page 11 (Long-Term Storm Water Management)"
     },
     {
-      "field": "practice_mentions.swale",
+      "field": "design_parameters.practice_mentions.swale",
       "excerpt": "structural BMPs such as grass swales and detention basins",
       "page_or_section": "salt-lake-city-ut-c0073, page 54 (BMP 18)"
     },
     {
-      "field": "practice_mentions.extended_detention",
+      "field": "design_parameters.practice_mentions.extended_detention",
       "excerpt": "provide onsite detention facilities to limit the discharge to a pre-development rate of 0.2 cubic feet per second per acre during the 100-year storm",
       "page_or_section": "salt-lake-city-ut-c0024, page 11"
     }

@@ -93,7 +93,7 @@
       "page_or_section": "T2-02(j), page 19"
     },
     {
-      "field": "enrich_notes.release_rate",
+      "field": "design_parameters.enrich_notes.release_rate",
       "excerpt": "The design runoff rate for a development shall be the lesser of: ... 2. 0.2 cfs/acre of development.",
       "page_or_section": "T2-02(e), page 17"
     }

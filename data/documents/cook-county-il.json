@@ -67,32 +67,32 @@
       "page_or_section": "p. 413"
     },
     {
-      "field": "practice_mentions.swale",
+      "field": "design_parameters.practice_mentions.swale",
       "excerpt": "For grassed swales that serve as overland flow routes, regular mowing should be performed to keep grass at an optimum height (less than six inches).",
       "page_or_section": "Article 7 Maintenance, pages 412-412 (c0048)"
     },
     {
-      "field": "practice_mentions.permeable_pavement",
+      "field": "design_parameters.practice_mentions.permeable_pavement",
       "excerpt": "Without proper maintenance, the void spaces in porous pavement and infiltration basins may become clogged with sediment, reducing their effectiveness.",
       "page_or_section": "Article 7 Maintenance, pages 413-413 (c0049)"
     },
     {
-      "field": "practice_mentions.infiltration_basin",
+      "field": "design_parameters.practice_mentions.infiltration_basin",
       "excerpt": "Without proper maintenance, the void spaces in porous pavement and infiltration basins may become clogged with sediment, reducing their effectiveness.",
       "page_or_section": "Article 7 Maintenance, pages 413-413 (c0049)"
     },
     {
-      "field": "practice_mentions.infiltration_trench",
+      "field": "design_parameters.practice_mentions.infiltration_trench",
       "excerpt": "For infiltration trenches and basins, the use of a mulch layer above the infiltration practice will work like a filter for the sediment transported by stormwater runoff.",
       "page_or_section": "Article 7 Maintenance, pages 413-413 (c0049)"
     },
     {
-      "field": "practice_mentions.manufactured_treatment",
+      "field": "design_parameters.practice_mentions.manufactured_treatment",
       "excerpt": "For mechanical flow-through practices, such as an oil and grit separator, an effective maintenance plan is based on performing frequent inspections.",
       "page_or_section": "Article 7 Maintenance, pages 413-413 (c0049)"
     },
     {
-      "field": "practice_mentions.bioretention",
+      "field": "design_parameters.practice_mentions.bioretention",
       "excerpt": "The letter will encourage the property owner to correct the condition and will provide information about the Village's cost-sharing programs for lateral rehabilitation, sump repair and installation, rain garden construction, and storm sewer extension.",
       "page_or_section": "Appendix D Sample PSP, pages 509-509 (c0108)"
     }

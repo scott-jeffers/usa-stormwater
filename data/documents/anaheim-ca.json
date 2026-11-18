@@ -80,7 +80,7 @@
       "page_or_section": "Section 1 – Design Criteria D.1.b, page 3"
     },
     {
-      "field": "practice_mentions",
+      "field": "design_parameters.practice_mentions",
       "excerpt": "This section presents special drainage design requirements for private storm drains within the City of Anaheim.",
       "page_or_section": "Section 1 – Design Criteria, page 3"
     }

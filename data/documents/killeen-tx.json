@@ -51,12 +51,12 @@
       "page_or_section": "Coverage note"
     },
     {
-      "field": "practice_mentions.extended_detention",
+      "field": "design_parameters.practice_mentions.extended_detention",
       "excerpt": "SWM facilities such as detention, retention, extended detention, infiltration, and sedimentation ponds",
       "page_or_section": "8.1 GENERAL, page 8-1"
     },
     {
-      "field": "practice_mentions.swale",
+      "field": "design_parameters.practice_mentions.swale",
       "excerpt": "Residential lots may drain to a side lot swale or flume only if such feature drains directly to public right-of-way",
       "page_or_section": "1.2.10 Lot Grading, page 1-10"
     },

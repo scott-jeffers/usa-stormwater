@@ -73,22 +73,22 @@
       "page_or_section": "Appendix B, page 42"
     },
     {
-      "field": "practice_mentions.bioretention",
+      "field": "design_parameters.practice_mentions.bioretention",
       "excerpt": "Bioretention & Engineered Soil",
       "page_or_section": "Table 1 Acceptable LID IMPs, page 7"
     },
     {
-      "field": "practice_mentions.swale",
+      "field": "design_parameters.practice_mentions.swale",
       "excerpt": "Vegetated Swale",
       "page_or_section": "Table 1 Acceptable LID IMPs, page 7"
     },
     {
-      "field": "practice_mentions.permeable_pavement",
+      "field": "design_parameters.practice_mentions.permeable_pavement",
       "excerpt": "Permeable Pavement",
       "page_or_section": "Table 1 / 1.6 Permeable Pavement Systems, pages 7, 33"
     },
     {
-      "field": "practice_mentions.green_roof",
+      "field": "design_parameters.practice_mentions.green_roof",
       "excerpt": "1.9 Green Roof",
       "page_or_section": "page 35"
     }

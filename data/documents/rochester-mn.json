@@ -71,22 +71,22 @@
       "page_or_section": "10.4 Infiltration, page 118"
     },
     {
-      "field": "practice_mentions.wet_pond",
+      "field": "design_parameters.practice_mentions.wet_pond",
       "excerpt": "Wet detention basins are the most effective means of removing sediment and the pollutants associated with it",
       "page_or_section": "6.3 Design Criteria for Water Quality, page 91"
     },
     {
-      "field": "practice_mentions.infiltration_basin",
+      "field": "design_parameters.practice_mentions.infiltration_basin",
       "excerpt": "These practices include the use of grass swales, infiltration trenches and infiltration ponds.",
       "page_or_section": "10.4 Infiltration, page 117"
     },
     {
-      "field": "practice_mentions.infiltration_trench",
+      "field": "design_parameters.practice_mentions.infiltration_trench",
       "excerpt": "Infiltration ponds and trenches operate much like an on-site waste water treatment system.",
       "page_or_section": "10.4 Infiltration, page 117"
     },
     {
-      "field": "practice_mentions.swale",
+      "field": "design_parameters.practice_mentions.swale",
       "excerpt": "Runoff should be pre-treated by a sedimentation pond or grassed swale before discharging to an infiltration structure.",
       "page_or_section": "10.4 Infiltration, page 135"
     }

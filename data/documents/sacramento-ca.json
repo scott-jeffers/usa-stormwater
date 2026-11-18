@@ -90,32 +90,32 @@
       "page_or_section": "Section 3.10 Detention & Retention, page 17"
     },
     {
-      "field": "practice_mentions.bioretention",
+      "field": "design_parameters.practice_mentions.bioretention",
       "excerpt": "Bioretention planters",
       "page_or_section": "Section 7.2 Low Impact Development (LID) Design, page 33"
     },
     {
-      "field": "practice_mentions.green_roof",
+      "field": "design_parameters.practice_mentions.green_roof",
       "excerpt": "Green Roofs",
       "page_or_section": "Section 7.2 Low Impact Development (LID) Design, page 33"
     },
     {
-      "field": "practice_mentions.permeable_pavement",
+      "field": "design_parameters.practice_mentions.permeable_pavement",
       "excerpt": "Porous Pavement/Pervious surfaces",
       "page_or_section": "Section 7.2 Low Impact Development (LID) Design, page 33"
     },
     {
-      "field": "practice_mentions.permeable_pavement",
+      "field": "design_parameters.practice_mentions.permeable_pavement",
       "excerpt": "Green roofs, pervious pavement, gravel, pavers with pervious base and joints shall be considered entirely pervious",
       "page_or_section": "Section 3.1.1 Onsite Project Storage Method, page 8"
     },
     {
-      "field": "practice_mentions.extended_detention",
+      "field": "design_parameters.practice_mentions.extended_detention",
       "excerpt": "For projects that include onsite dry detention areas",
       "page_or_section": "Section 3.1.3 Onsite Computer Model, page 9"
     },
     {
-      "field": "practice_mentions.wet_pond",
+      "field": "design_parameters.practice_mentions.wet_pond",
       "excerpt": "For onsite detention areas that include a permanent pool, the starting HGL for each pipe segment connected to the pool, is the permanent pool water surface elevation",
       "page_or_section": "Section 3.1.3 Onsite Computer Model, page 9"
     }

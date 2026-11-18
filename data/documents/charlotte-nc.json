@@ -119,22 +119,22 @@
       "page_or_section": "Summary of Technical Changes / Chapter 6"
     },
     {
-      "field": "practice_mentions.swale",
+      "field": "design_parameters.practice_mentions.swale",
       "excerpt": "NCDEQ Stormwater Design Manual: C-11. Treatment Swale.",
       "page_or_section": "Chapter 3 | Channels | 3.11 References (page 40)"
     },
     {
-      "field": "practice_mentions.swale",
+      "field": "design_parameters.practice_mentions.swale",
       "excerpt": "Ekka, S & Hunt, W. (2020). Swale Terminology for Urban Stormwater Treatment.",
       "page_or_section": "Chapter 3 | Channels | 3.11 References (page 40)"
     },
     {
-      "field": "enrich_notes",
+      "field": "design_parameters.enrich_notes",
       "excerpt": "Detention: Unless otherwise approved by Storm Water Services, stormwater detention effect from stormwater control measures, ponds, or reservoirs must not be taken into account when calculating flows from an existing drainage area to a stormwater conveyance design.",
       "page_or_section": "Chapter 2 | Hydrology | 2.3 Hydrologic Considerations (page 11)"
     },
     {
-      "field": "enrich_notes",
+      "field": "design_parameters.enrich_notes",
       "excerpt": "Design of SCMs",
       "page_or_section": "Chapter 2 | Hydrology | Table 2-2 Allowable uses for NRCS Method (page 11)"
     }

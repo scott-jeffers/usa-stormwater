@@ -144,22 +144,22 @@
       "page_or_section": "Table 3.19 Physiographic Factors, pages 60-61"
     },
     {
-      "field": "practice_mentions.bioretention",
+      "field": "design_parameters.practice_mentions.bioretention",
       "excerpt": "Bioretention Areas Bioretention Areas 80% P S S -",
       "page_or_section": "Table 3.6, page 30"
     },
     {
-      "field": "practice_mentions.swale",
+      "field": "design_parameters.practice_mentions.swale",
       "excerpt": "Enhanced Swales 80% P S S S",
       "page_or_section": "Table 3.6, page 31"
     },
     {
-      "field": "practice_mentions.extended_detention",
+      "field": "design_parameters.practice_mentions.extended_detention",
       "excerpt": "Detention, Extended Dry 65% S P P P",
       "page_or_section": "Table 3.6, page 31"
     },
     {
-      "field": "practice_mentions.manufactured_treatment",
+      "field": "design_parameters.practice_mentions.manufactured_treatment",
       "excerpt": "Third-party sources could include Technology Acceptance Reciprocity Partnership, Technology Assessment Protocol – Ecology, or others.",
       "page_or_section": "Table 3.2 footnote, page 112 TriSWM Appendix"
     }

@@ -151,7 +151,7 @@
       "page_or_section": "7.2 DESIGNS, page 34"
     },
     {
-      "field": "practice_mentions",
+      "field": "design_parameters.practice_mentions",
       "excerpt": "The BMPs may include infiltration basins, bioretention, biofiltration swales, extended detention basins, wet detention basins, and proprietary treatment devices. Permeable pavement systems and dispersion BMPs are not allowed as the initial storm water facility.",
       "page_or_section": "Section 3 (Standard Plans BMPs), page 16"
     },

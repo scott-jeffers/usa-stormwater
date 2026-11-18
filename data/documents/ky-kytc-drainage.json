@@ -50,12 +50,12 @@
       "page_or_section": null
     },
     {
-      "field": "practice_mentions.extended_detention",
+      "field": "design_parameters.practice_mentions.extended_detention",
       "excerpt": "In some instances, this will require the use of energy dissipaters and detention basin storage prior to discharging onto adjacent property.",
       "page_or_section": "DR-103.3 KENTUCKY TRANSPORTATION CABINET (KYTC), page 6"
     },
     {
-      "field": "practice_mentions.extended_detention",
+      "field": "design_parameters.practice_mentions.extended_detention",
       "excerpt": "DR 900: Storage. Design criteria and procedures for reducing peak flows via storage methods such as culvert sizing and detention/retention basins.",
       "page_or_section": "DR-101.2 LOCATING INFORMATION, page 2"
     }

@@ -57,17 +57,17 @@
       "page_or_section": null
     },
     {
-      "field": "practice_mentions.extended_detention",
+      "field": "design_parameters.practice_mentions.extended_detention",
       "excerpt": "Measures intended to mitigate storm water quantity and quality problems are termed “best management practices” (BMPs). These measures include detention and retention ponds which delay storm water flow and trap sediment",
       "page_or_section": "Chapter 13, Section 1, Hydraulic Design Manual 13-2"
     },
     {
-      "field": "practice_mentions.extended_detention",
+      "field": "design_parameters.practice_mentions.extended_detention",
       "excerpt": "storm water detention and retention systems to reduce peak runoff rates and improve water quality",
       "page_or_section": "Chapter 13, Section 1, Hydraulic Design Manual 13-2"
     },
     {
-      "field": "practice_mentions.permeable_pavement",
+      "field": "design_parameters.practice_mentions.permeable_pavement",
       "excerpt": "Alternatively, a permeable asphalt surface may be considered under load conditions that warrant its use. Typically, the asphalt layer lies on top of an aggregate drainage layer",
       "page_or_section": "Chapter 15, Storm Surge and Drawdown Protection, Hydraulic Design Manual 15-84"
     },

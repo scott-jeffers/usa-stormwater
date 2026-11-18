@@ -44,17 +44,17 @@
       "page_or_section": "GENERAL MDC 1. SIZING., page 2"
     },
     {
-      "field": "practice_mentions.bioretention",
+      "field": "design_parameters.practice_mentions.bioretention",
       "excerpt": "Some SCMs that allow water to infiltrate include: infiltration systems, bioretention cells, permeable pavement",
       "page_or_section": "GENERAL MDC 2: CONTAMINATED SOILS., page 2"
     },
     {
-      "field": "practice_mentions.swale",
+      "field": "design_parameters.practice_mentions.swale",
       "excerpt": "vegetated swales, level spreader-filter strips, and berms",
       "page_or_section": "GENERAL MDC 2: CONTAMINATED SOILS., page 2"
     },
     {
-      "field": "practice_mentions.wet_pond",
+      "field": "design_parameters.practice_mentions.wet_pond",
       "excerpt": "Recommend pumping down wet ponds and wetlands rather than using a drawdown orifice at the invert",
       "page_or_section": "GENERAL MDC 6: DEWATERING., page 3"
     }

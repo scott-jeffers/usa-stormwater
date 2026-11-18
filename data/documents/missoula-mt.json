@@ -35,42 +35,42 @@
       "page_or_section": "Coverage note"
     },
     {
-      "field": "max_drawdown_hours",
+      "field": "design_parameters.max_drawdown_hours",
       "excerpt": "Retention facilities should be designed to infiltrate, evapotranspire, and/or capture for reuse storm water and to hold runoff no more than 72 hours.",
       "page_or_section": "5.1 GENERAL, page 29"
     },
     {
-      "field": "max_drawdown_hours",
+      "field": "design_parameters.max_drawdown_hours",
       "excerpt": "Detention facilities should be designed to infiltrate, evapotranspire, and/or capture for reuse storm water and to hold runoff no more than 72 hours.",
       "page_or_section": "6.1 GENERAL, page 31"
     },
     {
-      "field": "max_drawdown_hours",
+      "field": "design_parameters.max_drawdown_hours",
       "excerpt": "Infiltration facilities must: ... D. Be sized to drain within 48 hours;",
       "page_or_section": "7.2 DESIGNS, page 34"
     },
     {
-      "field": "shwt_separation_inches",
+      "field": "design_parameters.shwt_separation_inches",
       "excerpt": "For detention facilities that have a minimum one-foot separation from the bottom of the facility to the seasonally high groundwater or bedrock layer",
       "page_or_section": "6.2 DESIGN, page 31"
     },
     {
-      "field": "shwt_separation_inches",
+      "field": "design_parameters.shwt_separation_inches",
       "excerpt": "Be constructed two feet above a limiting layer;",
       "page_or_section": "7.2 DESIGNS (infiltration), page 34"
     },
     {
-      "field": "design_infiltration_rate_in_per_hr",
+      "field": "design_parameters.design_infiltration_rate_in_per_hr",
       "excerpt": "The measured infiltration must be divided by a safety factor of 2.0 to arrive at the design infiltration rate.",
       "page_or_section": "Appendix A, page 39-40"
     },
     {
-      "field": "practice_mentions.bioretention",
+      "field": "design_parameters.practice_mentions.bioretention",
       "excerpt": "The BMPs may include infiltration basins, bioretention, biofiltration swales, extended detention basins, wet detention basins, and proprietary treatment devices.",
       "page_or_section": "Section 3 (standard plans BMPs), page 16"
     },
     {
-      "field": "practice_mentions.permeable_pavement",
+      "field": "design_parameters.practice_mentions.permeable_pavement",
       "excerpt": "Permeable pavement systems and dispersion BMPs are not allowed as the initial storm water facility.",
       "page_or_section": "Section 3, page 16"
     }

@@ -38,42 +38,42 @@
       "page_or_section": "Coverage note"
     },
     {
-      "field": "max_drawdown_hours",
+      "field": "design_parameters.max_drawdown_hours",
       "excerpt": "Standing water must be recovered within 72 hours.",
       "page_or_section": "Section 4.3 Grassed Conveyance Swales, Recovery (page 109)"
     },
     {
-      "field": "max_drawdown_hours",
+      "field": "design_parameters.max_drawdown_hours",
       "excerpt": "All standing water must be recovered through surface discharge or percolation in less than 72 hours under SHWL conditions",
       "page_or_section": "Section 4.3, Recovery Requirements (page 110)"
     },
     {
-      "field": "max_drawdown_hours",
+      "field": "design_parameters.max_drawdown_hours",
       "excerpt": "Surface ponding area must be recovered within 72 hours.",
       "page_or_section": "Section 4.4 Shallow Bioretention, Recovery (page 121)"
     },
     {
-      "field": "shwt_separation_inches",
+      "field": "design_parameters.shwt_separation_inches",
       "excerpt": "Shallow Water Table: To receive pollutant-load-reduction credits, the SHWL should be at least 6 inches below the bottom of the grassed conveyance swale.",
       "page_or_section": "Section 4.3, Implementation Considerations (page 109)"
     },
     {
-      "field": "shwt_separation_inches",
+      "field": "design_parameters.shwt_separation_inches",
       "excerpt": "Shallow Water Table: SHWL should be a minimum of 6 inches below the bottom of the planting media or nutrient- sorption layer.",
       "page_or_section": "Section 4.4 Shallow Bioretention (page 121)"
     },
     {
-      "field": "shwt_separation_inches",
+      "field": "design_parameters.shwt_separation_inches",
       "excerpt": "SHWL – Must be at least 0.5 foot below the bottom of the surface ponding area.",
       "page_or_section": "Section 4.4.1 General, Physical Constraints (page 123)"
     },
     {
-      "field": "swale_bottom_width_inches",
+      "field": "design_parameters.swale_bottom_width_inches",
       "excerpt": "Recommended bottom width of 2 to 8 feet.",
       "page_or_section": "Section 4.3 Design Criteria (page 109)"
     },
     {
-      "field": "swale_bottom_width_inches",
+      "field": "design_parameters.swale_bottom_width_inches",
       "excerpt": "the swale should have an approximately trapezoidal shape with a bottom width of at least 2 feet to allow mowing.",
       "page_or_section": "Section 4.3 Sizing Requirements (page 112)"
     }

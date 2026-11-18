@@ -9,7 +9,7 @@ import { mkdir, rm, writeFile } from "node:fs/promises";
 import { existsSync, readFileSync, readdirSync } from "node:fs";
 import path from "node:path";
 import { getEvidenceQa } from "../lib/qa/load";
-import { getAllManuals, revisionDateFromMetadata } from "../lib/data";
+import { getAllManuals, getManualLoadErrors, revisionDateFromMetadata } from "../lib/data";
 import {
   getAllDraftSections,
   getNationalOutline,
@@ -101,6 +101,13 @@ function qaSummary(slug: string) {
 
 async function main() {
   const manuals = getAllManuals();
+  const loadErrors = getManualLoadErrors();
+  if (loadErrors.length) {
+    console.error(`export:data — ${loadErrors.length} document(s) failed validation:`);
+    for (const e of loadErrors) console.error(`  ${e.file}: ${e.error}`);
+    console.error("Fix them (npm run qa:normalize may help) — refusing to publish a partial atlas.");
+    process.exit(1);
+  }
   const generatedAt = new Date().toISOString();
 
   await rm(PUBLIC_DATA, { recursive: true, force: true });

@@ -45,27 +45,27 @@
       "page_or_section": null
     },
     {
-      "field": "practice_mentions.permeable_pavement",
+      "field": "design_parameters.practice_mentions.permeable_pavement",
       "excerpt": "Use of graded course (porous pavements)",
       "page_or_section": "August 2018 6-7 / Section 6 Pavement Drainage"
     },
     {
-      "field": "practice_mentions.swale",
+      "field": "design_parameters.practice_mentions.swale",
       "excerpt": "Grass channels and filter strips would be examples of LID/GI BMPs",
       "page_or_section": "August 2018 9-35 / Section 9.3"
     },
     {
-      "field": "practice_mentions.wet_pond",
+      "field": "design_parameters.practice_mentions.wet_pond",
       "excerpt": "natural ponds, detention ponds, and water quality ponds that contain water over 24 inches deep",
       "page_or_section": "August 2018 9-37 / Section 9.4"
     },
     {
-      "field": "practice_mentions.extended_detention",
+      "field": "design_parameters.practice_mentions.extended_detention",
       "excerpt": "ED Extended Detention",
       "page_or_section": "Appendix A Acronyms"
     },
     {
-      "field": "practice_mentions.constructed_wetland",
+      "field": "design_parameters.practice_mentions.constructed_wetland",
       "excerpt": "wetland restoration projects, often referred to as wetland mitigation",
       "page_or_section": "August 2018 10-9 / Section 10.4"
     }

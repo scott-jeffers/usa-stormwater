@@ -28,12 +28,12 @@
       "page_or_section": "Coverage note"
     },
     {
-      "field": "practice_mentions.swale",
+      "field": "design_parameters.practice_mentions.swale",
       "excerpt": "Ditch Checks are designed to provide erosion control within man-made storm water conveyances such as ditches, channels, and swales.",
       "page_or_section": "cheyenne-wy-c0025 | DITCH CHECKS | pages 17-19"
     },
     {
-      "field": "practice_mentions.swale",
+      "field": "design_parameters.practice_mentions.swale",
       "excerpt": "Erosion Control Blankets Installed Running Along the Direction Of the Flow In This Swale.",
       "page_or_section": "cheyenne-wy-c0039 | RECLAMATION | pages 42-43"
     }

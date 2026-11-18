@@ -51,17 +51,17 @@
       "page_or_section": "3.9 Minimum Drainage (b)(1)(a), page 14"
     },
     {
-      "field": "practice_mentions.swale",
+      "field": "design_parameters.practice_mentions.swale",
       "excerpt": "Vegetated swales with swale blocks or raised inlets.",
       "page_or_section": "5.3.1 Description, page 26"
     },
     {
-      "field": "practice_mentions.infiltration_trench",
+      "field": "design_parameters.practice_mentions.infiltration_trench",
       "excerpt": "The individual sites must provide the remainder (2.5\" x % impervious - one inch) which may be in exfiltration trench.",
       "page_or_section": "3.9 Minimum Drainage (b)(1)(a), page 14"
     },
     {
-      "field": "practice_mentions.extended_detention",
+      "field": "design_parameters.practice_mentions.extended_detention",
       "excerpt": "Dry retention/detention areas shall have mechanisms for returning the groundwater level in the area to the control elevation.",
       "page_or_section": "5.3.3 Dry Retention/Detention Areas (a), page 26"
     }

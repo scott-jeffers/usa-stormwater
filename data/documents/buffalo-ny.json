@@ -85,32 +85,32 @@
       "page_or_section": "Preference hierarchy"
     },
     {
-      "field": "practice_mentions.bioretention",
+      "field": "design_parameters.practice_mentions.bioretention",
       "excerpt": "Bio-retention /Rain Gardens, Stormwater Planters, Vegetated Swale (bio-swale), Filter Strips, Constructed Wetlands, Porous Pavement",
       "page_or_section": "buffalo-ny-c0001 | page 1"
     },
     {
-      "field": "practice_mentions.green_roof",
+      "field": "design_parameters.practice_mentions.green_roof",
       "excerpt": "Green Roof, Blue Roof, Cisterns",
       "page_or_section": "buffalo-ny-c0001 | page 1"
     },
     {
-      "field": "practice_mentions.infiltration_basin",
+      "field": "design_parameters.practice_mentions.infiltration_basin",
       "excerpt": "Tier 5 Subsurface infiltration or underground retention",
       "page_or_section": "buffalo-ny-c0001 | page 1"
     },
     {
-      "field": "enrich_notes",
+      "field": "design_parameters.enrich_notes",
       "excerpt": "All designs must follow the criteria and standards contained in the most recent version of the New York State Stormwater Design Manual.",
       "page_or_section": "buffalo-ny-c0001 | page 1"
     },
     {
-      "field": "enrich_notes",
+      "field": "design_parameters.enrich_notes",
       "excerpt": "6. Water Quality Volume (WQv) and Runoff Reduction Volume (RRv) Targets",
       "page_or_section": "buffalo-ny-c0002 | page 2"
     },
     {
-      "field": "enrich_notes",
+      "field": "design_parameters.enrich_notes",
       "excerpt": "post-construction 25-year storm peak flows to the storm relief/ combined sewer system are less than or equal to pre-construction 2-year storm peak flows",
       "page_or_section": "buffalo-ny-c0003 | page 3"
     }

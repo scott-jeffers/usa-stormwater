@@ -58,27 +58,27 @@
       "page_or_section": null
     },
     {
-      "field": "practice_mentions.swale",
+      "field": "design_parameters.practice_mentions.swale",
       "excerpt": "Treatment swales are designed to promote sedimentation and infiltration by providing a minimum hydraulic residence time within the channel under design flow conditions.",
       "page_or_section": "Section 4.0.3 Open Channel Treatment Practices, 4-6"
     },
     {
-      "field": "practice_mentions.swale",
+      "field": "design_parameters.practice_mentions.swale",
       "excerpt": "the NHDES Stormwater Manuals are used for design considerations and maintenance requirements.",
       "page_or_section": "Section 4.0.3, 4-6"
     },
     {
-      "field": "practice_mentions.bioretention",
+      "field": "design_parameters.practice_mentions.bioretention",
       "excerpt": "Where stormwater can be temporarily impounded safely, such as open space areas, and some parking lot areas, or LID rain gardens; an inlet grate can be used effectively to slowly release water",
       "page_or_section": "Section 4.0.15 Hydraulic Analysis of Pavement Inlets, 4-33"
     },
     {
-      "field": "practice_mentions.permeable_pavement",
+      "field": "design_parameters.practice_mentions.permeable_pavement",
       "excerpt": "Porous pavement consists of pervious asphalt or concrete surfacing with several feet of free draining granular soil installed below the pavement to provide treatment to the infiltrating surface water.",
       "page_or_section": "Section 4.0.23 Other Underdrain Applications, 4-53"
     },
     {
-      "field": "practice_mentions.wet_pond",
+      "field": "design_parameters.practice_mentions.wet_pond",
       "excerpt": "Water Treatment Ponds – Some treatment ponds utilize underdrain between pond segments to collect water infiltrating through the soil.",
       "page_or_section": "Section 4.0.23 Other Underdrain Applications, 4-53"
     },

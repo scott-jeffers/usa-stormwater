@@ -106,17 +106,17 @@
       "page_or_section": "page 33, Design Process for ESC Plans"
     },
     {
-      "field": "practice_mentions.swale",
+      "field": "design_parameters.practice_mentions.swale",
       "excerpt": "Energy dissipation with check dams, drop structures, and possibly turf reinforcement in swales and ditches",
       "page_or_section": "page 30, Site Improvements Stage"
     },
     {
-      "field": "practice_mentions.swale",
+      "field": "design_parameters.practice_mentions.swale",
       "excerpt": "Perimeter Dike/Swale Divert runoff Drainage area ≤ 5 Ac.",
       "page_or_section": "Table 2.2, page 37"
     },
     {
-      "field": "practice_mentions.constructed_wetland",
+      "field": "design_parameters.practice_mentions.constructed_wetland",
       "excerpt": "embankments and grading for wetland restoration projects",
       "page_or_section": "page 32, Water Resources Projects"
     },

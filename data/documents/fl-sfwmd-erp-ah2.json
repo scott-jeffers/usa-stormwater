@@ -139,32 +139,32 @@
       "page_or_section": "Section 2.1.1; Appendices"
     },
     {
-      "field": "practice_mentions.extended_detention",
+      "field": "design_parameters.practice_mentions.extended_detention",
       "excerpt": "\"Retention/detention area (dry)\" – Water storage area with bottom elevation at least 1.0-feet above the control elevation",
       "page_or_section": "2.1.13, page 8"
     },
     {
-      "field": "practice_mentions.wet_pond",
+      "field": "design_parameters.practice_mentions.wet_pond",
       "excerpt": "\"Wet detention systems\" – Permanently wet ponds which are designed to slowly release collected stormwater runoff through an outlet structure.",
       "page_or_section": "2.1.17, page 8"
     },
     {
-      "field": "practice_mentions.infiltration_basin",
+      "field": "design_parameters.practice_mentions.infiltration_basin",
       "excerpt": "Man-made or natural depressional areas where the basin bottom is graded flat and vegetation is established to promote infiltration",
       "page_or_section": "5.2.1(a), page 28"
     },
     {
-      "field": "practice_mentions.bioretention",
+      "field": "design_parameters.practice_mentions.bioretention",
       "excerpt": "Shallow landscaped areas designed to store stormwater",
       "page_or_section": "5.2.1(b), page 28"
     },
     {
-      "field": "practice_mentions.swale",
+      "field": "design_parameters.practice_mentions.swale",
       "excerpt": "Vegetated swales with swale blocks or raised inlets.",
       "page_or_section": "5.2.1(c), page 28"
     },
     {
-      "field": "practice_mentions.infiltration_trench",
+      "field": "design_parameters.practice_mentions.infiltration_trench",
       "excerpt": "Minimum pipe diameter: 12.0-inch diameter. (b) Minimum trench width: 3.0 feet.",
       "page_or_section": "5.5.2, pages 32-33"
     }

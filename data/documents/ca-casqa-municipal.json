@@ -104,7 +104,7 @@
       "page_or_section": "Table 4-1, Page 4-1"
     },
     {
-      "field": "practice_mentions",
+      "field": "design_parameters.practice_mentions",
       "excerpt": "TC-32 Bioretention",
       "page_or_section": "p203"
     },

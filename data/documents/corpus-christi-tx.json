@@ -109,37 +109,37 @@
       "page_or_section": "Chapter 11 – 11.4.4.1 Extended Dry Detention Basins; page 179"
     },
     {
-      "field": "practice_mentions.extended_detention",
+      "field": "design_parameters.practice_mentions.extended_detention",
       "excerpt": "Extended dry detention (EDD) basins are designed to completely empty at some time after storm water runoff ends.",
       "page_or_section": "Chapter 11 – 11.4.4.1; page 179"
     },
     {
-      "field": "practice_mentions.sand_filter",
+      "field": "design_parameters.practice_mentions.sand_filter",
       "excerpt": "Final sand bed depth shall be at least 18 inches.",
       "page_or_section": "Chapter 11 – 11.4.4.6 Sand Filters; page 201"
     },
     {
-      "field": "practice_mentions.infiltration_trench",
+      "field": "design_parameters.practice_mentions.infiltration_trench",
       "excerpt": "The soil infiltration rate shall be between 0.5 and 2.4 inches per hour.",
       "page_or_section": "Chapter 11 – 11.4.4.7; page 205"
     },
     {
-      "field": "practice_mentions.permeable_pavement",
+      "field": "design_parameters.practice_mentions.permeable_pavement",
       "excerpt": "Stone reservoir shall be designed to completely drain within a maximum of 2 to 3 days after design storm event",
       "page_or_section": "Chapter 11 – 11.4.4.8; page 210"
     },
     {
-      "field": "practice_mentions.constructed_wetland",
+      "field": "design_parameters.practice_mentions.constructed_wetland",
       "excerpt": "The detention facility shall have at least a 24 hour drain period for the design storm.",
       "page_or_section": "Chapter 11 – 11.4.4.3 Constructed Wetlands; page 187"
     },
     {
-      "field": "practice_mentions.bioretention",
+      "field": "design_parameters.practice_mentions.bioretention",
       "excerpt": "Installation of Rain Gardens & Bioretention Areas",
       "page_or_section": "Chapter 11 – nonstructural BMP list; page 177"
     },
     {
-      "field": "practice_mentions.swale",
+      "field": "design_parameters.practice_mentions.swale",
       "excerpt": "5-year design storm must be contained in roadside swales",
       "page_or_section": "Chapter 2 – 2.7.1 Streets and Roadways; page 17"
     }

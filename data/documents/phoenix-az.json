@@ -127,17 +127,17 @@
       "page_or_section": "6.6.19 Ditches and Swales, page 87"
     },
     {
-      "field": "practice_mentions.swale",
+      "field": "design_parameters.practice_mentions.swale",
       "excerpt": "Roadside ditches and swales that are intended to convey 100-year flows less than 100 cfs shall be no deeper than two feet",
       "page_or_section": "6.6.19 Ditches and Swales, page 87"
     },
     {
-      "field": "practice_mentions.extended_detention",
+      "field": "design_parameters.practice_mentions.extended_detention",
       "excerpt": "In the special case when a detention facility is allowed, the requirement to retain the 100-year, 2-hour runoff volume may be waived",
       "page_or_section": "6.8.3 First Flush, page 89"
     },
     {
-      "field": "practice_mentions.infiltration_basin",
+      "field": "design_parameters.practice_mentions.infiltration_basin",
       "excerpt": "Required retention basin volume shall be obtained by using the following equation",
       "page_or_section": "6.8.4 Retention Volume, page 90"
     }

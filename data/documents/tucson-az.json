@@ -136,7 +136,7 @@
       "page_or_section": "October 24, 1997 Cover Letter"
     },
     {
-      "field": "fields_not_found",
+      "field": "extraction_quality.fields_not_found",
       "excerpt": "have a minimum vertical separation of 75 feet from the invert of the infiltration",
       "page_or_section": "p336"
     },
@@ -171,17 +171,17 @@
       "page_or_section": "XIV. Detention/Retention Basins, Design Policy (tucson-az-c0284)"
     },
     {
-      "field": "practice_mentions.swale",
+      "field": "design_parameters.practice_mentions.swale",
       "excerpt": "limited to, lined and unlined channels, drainage swales, streets and alleys",
       "page_or_section": "II. Report Formats, 2.3.1.6 (tucson-az-c0124)"
     },
     {
-      "field": "practice_mentions.extended_detention",
+      "field": "design_parameters.practice_mentions.extended_detention",
       "excerpt": "DETENTION BASIN is a type of flood-control system which employs a reservoir as a means of delaying the downstream progress of floodwaters in a controlled manner.",
       "page_or_section": "Glossary (tucson-az-c0090)"
     },
     {
-      "field": "practice_mentions.infiltration_trench",
+      "field": "design_parameters.practice_mentions.infiltration_trench",
       "excerpt": "Detention/retention systems which utilize a method of subsurface disposal (i.e., dry wells, engineered basin floors, trenches, etc.)",
       "page_or_section": "XIV. 14.5 Stormwater-Infiltration Systems (tucson-az-c0287)"
     }

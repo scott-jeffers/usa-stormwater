@@ -89,12 +89,12 @@
       "page_or_section": "Section 7.05.01 A, page 89 (orlando-fl-c0130)"
     },
     {
-      "field": "practice_mentions.swale",
+      "field": "design_parameters.practice_mentions.swale",
       "excerpt": "A grass swale is defined as a trench which: a. Has a top width-to-depth ratio of the cross-section equal to or greater than 12:1",
       "page_or_section": "Section 7.05.05 Open Channel Design, page 96"
     },
     {
-      "field": "practice_mentions.wet_pond",
+      "field": "design_parameters.practice_mentions.wet_pond",
       "excerpt": "Dry detention is not allowed. Wet detention shall be constructed in accordance with the requirements of SJRWMD",
       "page_or_section": "Section 7.04.01, page 85 (orlando-fl-c0126)"
     }

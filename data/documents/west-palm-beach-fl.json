@@ -51,32 +51,32 @@
       "page_or_section": "3.9 Minimum Drainage (b)(1)(a), page 14"
     },
     {
-      "field": "practice_mentions.swale",
+      "field": "design_parameters.practice_mentions.swale",
       "excerpt": "Onsite works such as swales and dikes shall be used to allow the passage of drainage from offsite areas to downstream areas.",
       "page_or_section": "3.8 Offsite Lands, page 14"
     },
     {
-      "field": "practice_mentions.swale",
+      "field": "design_parameters.practice_mentions.swale",
       "excerpt": "Vegetated swales with swale blocks or raised inlets.",
       "page_or_section": "5.3.1 Description, page 26"
     },
     {
-      "field": "practice_mentions.infiltration_trench",
+      "field": "design_parameters.practice_mentions.infiltration_trench",
       "excerpt": "The individual sites must provide the remainder (2.5\" x % impervious - one inch) which may be in exfiltration trench.",
       "page_or_section": "3.9 Minimum Drainage (b)(1)(a), page 14"
     },
     {
-      "field": "practice_mentions.wet_pond",
+      "field": "design_parameters.practice_mentions.wet_pond",
       "excerpt": "Wet detention volume shall be provided for the first inch of runoff from the developed project",
       "page_or_section": "4.2.1 Volumetric Requirements, page 17"
     },
     {
-      "field": "practice_mentions.extended_detention",
+      "field": "design_parameters.practice_mentions.extended_detention",
       "excerpt": "Dry retention/detention areas shall have mechanisms for returning the groundwater level in the area to the control elevation.",
       "page_or_section": "5.3.3 Dry Retention/Detention Areas, page 26"
     },
     {
-      "field": "practice_mentions.infiltration_basin",
+      "field": "design_parameters.practice_mentions.infiltration_basin",
       "excerpt": "Man-made or natural depressional areas where the basin bottom is graded flat and turf is established to promote infiltration and stabilize the basin slopes",
       "page_or_section": "5.3.1 Description, page 26"
     }

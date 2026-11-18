@@ -48,37 +48,37 @@
       "page_or_section": "BMP 410, page lxxxiii (83)"
     },
     {
-      "field": "practice_mentions.bioretention",
+      "field": "design_parameters.practice_mentions.bioretention",
       "excerpt": "Rain gardens are landscaped bio-retention facilities that soak up runoff displaced by the impervious area of a structure.",
       "page_or_section": "Appendix B, page xcviii (98)"
     },
     {
-      "field": "practice_mentions.green_roof",
+      "field": "design_parameters.practice_mentions.green_roof",
       "excerpt": "Green Rooftop is a layer of vegetation, shrubs, or trees planted on rooftops to absorb stormwater runoff.",
       "page_or_section": "Appendix B, page xcviii (98)"
     },
     {
-      "field": "practice_mentions.swale",
+      "field": "design_parameters.practice_mentions.swale",
       "excerpt": "Bio-retention and grassed swales are common infiltration techniques.",
       "page_or_section": "Appendix B, page xcvii (97)"
     },
     {
-      "field": "practice_mentions.extended_detention",
+      "field": "design_parameters.practice_mentions.extended_detention",
       "excerpt": "Detention ponds should also be designed to the standards of the municipality that they are located in",
       "page_or_section": "BMP 410, page lxxxiii (83)"
     },
     {
-      "field": "practice_mentions.manufactured_treatment",
+      "field": "design_parameters.practice_mentions.manufactured_treatment",
       "excerpt": "One example of a de-watering BMP is a manufactured enclosed filter bag placed on a pervious pavement or material",
       "page_or_section": "BMP 420, page lxxxiii (83)"
     },
     {
-      "field": "practice_mentions.sand_filter",
+      "field": "design_parameters.practice_mentions.sand_filter",
       "excerpt": "In areas where local soils do not readily support infiltration, rain gardens can be modified to be underlain with a sand filtration system",
       "page_or_section": "Appendix B, page xcviii (98)"
     },
     {
-      "field": "practice_mentions.permeable_pavement",
+      "field": "design_parameters.practice_mentions.permeable_pavement",
       "excerpt": "Provide an overflow lot utilizing grass or alternative pavers for peak demand parking.",
       "page_or_section": "Appendix B, page xcviii (98)"
     }

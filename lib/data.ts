@@ -41,6 +41,17 @@ let cachedManuals: ManualRecord[] | undefined;
 let cachedSlugMap: Map<string, ManualRecord> | undefined;
 let cachedListItems: ManualListItem[] | undefined;
 let cachedDocumentsSignature: string | undefined;
+let loadErrors: Array<{ file: string; error: string }> = [];
+
+/**
+ * Documents that failed to load on the last cache build. The export step
+ * (and therefore every build) fails when this is non-empty, so a broken
+ * record can't silently disappear from the site.
+ */
+export function getManualLoadErrors(): Array<{ file: string; error: string }> {
+  ensureManualsCache();
+  return loadErrors;
+}
 
 function documentsCacheSignature(): string {
   const files = listManualFiles();
@@ -71,11 +82,11 @@ function loadManualFromPath(filePath: string, slug: string): ManualRecord | null
     const result = stormwaterSchema.safeParse(json);
 
     if (!result.success) {
-      console.warn(
-        `[lib/data] Skipping ${path.basename(filePath)}: failed schema validation (${result.error.issues
-          .map((i) => i.path.join("."))
-          .join(", ")})`
-      );
+      const error = `failed schema validation: ${result.error.issues
+        .map((i) => `${i.path.join(".")} (${i.message})`)
+        .join("; ")}`;
+      loadErrors.push({ file: path.basename(filePath), error });
+      console.warn(`[lib/data] Skipping ${path.basename(filePath)}: ${error}`);
       return null;
     }
 
@@ -89,6 +100,7 @@ function loadManualFromPath(filePath: string, slug: string): ManualRecord | null
       processedAt,
     };
   } catch (error) {
+    loadErrors.push({ file: path.basename(filePath), error: (error as Error).message });
     console.warn(
       `[lib/data] Skipping ${path.basename(filePath)}: ${(error as Error).message}`
     );
@@ -106,6 +118,7 @@ function ensureManualsCache(): void {
     return;
   }
   cachedDocumentsSignature = signature;
+  loadErrors = [];
 
   const files = listManualFiles();
   const records: ManualRecord[] = [];

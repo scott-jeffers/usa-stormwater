@@ -161,22 +161,22 @@
       "page_or_section": "Ch 9.7 Example 1, page 23"
     },
     {
-      "field": "practice_mentions.bioretention",
+      "field": "design_parameters.practice_mentions.bioretention",
       "excerpt": "Small-scale bioretention systems are stormwater management",
       "page_or_section": "Ch 9.7, page 64"
     },
     {
-      "field": "practice_mentions.infiltration_basin",
+      "field": "design_parameters.practice_mentions.infiltration_basin",
       "excerpt": "proposed small-scale infiltration basin",
       "page_or_section": "Ch 5, page 54"
     },
     {
-      "field": "practice_mentions.swale",
+      "field": "design_parameters.practice_mentions.swale",
       "excerpt": "Bioretention Swale",
       "page_or_section": "Ch 9.7, page 22"
     },
     {
-      "field": "practice_mentions.manufactured_treatment",
+      "field": "design_parameters.practice_mentions.manufactured_treatment",
       "excerpt": "Note that an MTD is used for pretreatment so that exfiltration may be used",
       "page_or_section": "Ch 9.7, page 19"
     }

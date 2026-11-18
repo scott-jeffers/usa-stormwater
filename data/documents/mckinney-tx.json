@@ -75,17 +75,17 @@
       "page_or_section": "p. 279"
     },
     {
-      "field": "practice_mentions.bioretention",
+      "field": "design_parameters.practice_mentions.bioretention",
       "excerpt": "1. Bioretention Area- maintenance as listed in iSWM revision 2014",
       "page_or_section": "Appendix B PCSWQP Checklist 2, page 270"
     },
     {
-      "field": "practice_mentions.swale",
+      "field": "design_parameters.practice_mentions.swale",
       "excerpt": "2. Enhanced Swale- maintenance as listed iSWM Revised 2014",
       "page_or_section": "Appendix B PCSWQP Checklist 2, page 270"
     },
     {
-      "field": "practice_mentions.swale",
+      "field": "design_parameters.practice_mentions.swale",
       "excerpt": "Drainage System – Includes streets, alleys, storm drains, drainage channels, culverts, bridges, overflow swales, and any other facility",
       "page_or_section": "Appendix A A-4, page 254"
     }

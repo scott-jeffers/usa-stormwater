@@ -1,13 +1,59 @@
 import { z } from "zod";
 
+const MONTHS = [
+  "january", "february", "march", "april", "may", "june",
+  "july", "august", "september", "october", "november", "december",
+];
+
+/**
+ * Coerce common date spellings to ISO ("YYYY", "YYYY-MM" or "YYYY-MM-DD").
+ * Returns the input unchanged when it can't be parsed (the schema then
+ * rejects it, so it gets fixed rather than displayed inconsistently).
+ */
+export function normalizeIsoishDate(value: string): string {
+  const v = value.trim();
+  if (/^\d{4}(-\d{2}(-\d{2})?)?$/.test(v)) return v;
+  const pad = (n: number) => String(n).padStart(2, "0");
+  const m1 = v.match(/^([A-Za-z]+)\.?\s+(\d{1,2}),?\s+(\d{4})$/);
+  if (m1) {
+    const mi = MONTHS.findIndex((m) => m.startsWith(m1[1]!.toLowerCase().slice(0, 3)));
+    if (mi >= 0) return `${m1[3]}-${pad(mi + 1)}-${pad(Number(m1[2]))}`;
+  }
+  const m2 = v.match(/^([A-Za-z]+)\.?,?\s+(\d{4})$/);
+  if (m2) {
+    const mi = MONTHS.findIndex((m) => m.startsWith(m2[1]!.toLowerCase().slice(0, 3)));
+    if (mi >= 0) return `${m2[2]}-${pad(mi + 1)}`;
+  }
+  const m3 = v.match(/^(\d{1,2})\/(\d{1,2})\/(\d{4})$/);
+  if (m3) return `${m3[3]}-${pad(Number(m3[1]))}-${pad(Number(m3[2]))}`;
+  return v;
+}
+
+/** ISO date with optional precision: 2024, 2024-07, 2024-07-01. */
+const isoishDate = z
+  .string()
+  .regex(/^\d{4}(-(0[1-9]|1[0-2])(-(0[1-9]|[12]\d|3[01]))?)?$/, {
+    message: "Use YYYY, YYYY-MM or YYYY-MM-DD",
+  });
+
+/** Absolute http(s) link (blocks javascript:, data:, relative paths). */
+const webUrl = z
+  .string()
+  .regex(/^https?:\/\/[^\s]+$/i, { message: "Must be an absolute http(s) URL" });
+
+const EVIDENCE_ROOTS = [
+  "document_metadata.",
+  "design_criteria.",
+  "design_parameters.",
+  "extraction_quality.",
+];
+
 /** Metadata about where the PDF came from — provided by the prepare/save CLI or agent. */
 export const sourceSchema = z.object({
-  document_url: z
-    .string()
+  document_url: webUrl
     .nullable()
     .describe("Direct public URL to the PDF or primary document file"),
-  landing_page_url: z
-    .string()
+  landing_page_url: webUrl
     .nullable()
     .describe("Official agency page that hosts or describes the manual"),
   retrieved_at: z
@@ -38,15 +84,15 @@ export const extractionSchema = z.object({
     ]),
     state_code: z
       .string()
+      .regex(/^[A-Z]{2}$/, { message: "2-letter uppercase USPS code" })
       .nullable()
       .describe("2-letter USPS code, or null"),
     document_title: z.string(),
     version_or_edition: z.string().nullable(),
-    adoption_or_effective_date: z
-      .string()
+    adoption_or_effective_date: isoishDate
       .nullable()
       .describe("ISO 8601 if determinable, else null"),
-    last_revised_date: z.string().nullable(),
+    last_revised_date: isoishDate.nullable(),
     relationship_to_state_manual: z.enum([
       "independent",
       "adopts_state_manual_directly",
@@ -74,7 +120,12 @@ export const extractionSchema = z.object({
   evidence: z
     .array(
       z.object({
-        field: z.string().describe("Dot-path to the field"),
+        field: z
+          .string()
+          .refine((f) => EVIDENCE_ROOTS.some((r) => f.startsWith(r)), {
+            message: `Evidence field must be a dot-path under ${EVIDENCE_ROOTS.join(" | ")}`,
+          })
+          .describe("Dot-path to the field"),
         excerpt: z
           .string()
           .describe("Short verbatim excerpt supporting the extracted value"),

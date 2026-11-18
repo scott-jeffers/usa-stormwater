@@ -166,12 +166,12 @@
       "page_or_section": "Infiltration Trench, Table 2, page 599"
     },
     {
-      "field": "practice_mentions.permeable_pavement",
+      "field": "design_parameters.practice_mentions.permeable_pavement",
       "excerpt": "designed and sized to attenuate and treat a small storm water runoff event (typically 0.5 inch to 1.5 inches).",
       "page_or_section": "Pervious Concrete Systems, page 560"
     },
     {
-      "field": "practice_mentions.swale",
+      "field": "design_parameters.practice_mentions.swale",
       "excerpt": "Dry swales are similar to a bioretention system.",
       "page_or_section": "Vegetated Swales, page 530"
     }

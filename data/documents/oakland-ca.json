@@ -77,12 +77,12 @@
       "page_or_section": "3.2 Conveyance Facilities Minimum Requirements, page 7"
     },
     {
-      "field": "practice_mentions.bioretention",
+      "field": "design_parameters.practice_mentions.bioretention",
       "excerpt": "builders and developers are encouraged to employ concepts of bio-retention, swales, pervious pavers, rain barrels, cisterns, tree wells",
       "page_or_section": "3.6.1 Design Procedure, page 9"
     },
     {
-      "field": "practice_mentions.swale",
+      "field": "design_parameters.practice_mentions.swale",
       "excerpt": "Commonly utilized storm water quality control measures shown in the Alameda Countywide Clean Water Program (C.3 Requirements) such as pervious ground cover, grassy swales, tree wells, rain gardens, infiltration, retention",
       "page_or_section": "3.1 General Standards, page 6"
     }

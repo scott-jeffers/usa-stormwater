@@ -54,12 +54,12 @@
       "page_or_section": null
     },
     {
-      "field": "practice_mentions.swale",
+      "field": "design_parameters.practice_mentions.swale",
       "excerpt": "Encroachments that impact NCDOT non-swale BMP facilities should be considered on a case-by-case basis",
       "page_or_section": "2.4.12 Stormwater BMP Facilities within NCDOT Right-of-Way (page 31)"
     },
     {
-      "field": "practice_mentions.swale",
+      "field": "design_parameters.practice_mentions.swale",
       "excerpt": "complete the ... stormwater control measure tabs (swales, filter strip, PSHs and energy dissipators, level spreader and HSB, other toolbox BMPs, other non-toolbox BMPs)",
       "page_or_section": "5.5.2 Stormwater Control Measure Summary Sheets (pages 90-91)"
     },

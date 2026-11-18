@@ -109,27 +109,27 @@
       "page_or_section": "3.2 SEWER SYSTEM OVERFLOW CONTROL AND RESPONSE, page 27"
     },
     {
-      "field": "practice_mentions.bioretention",
+      "field": "design_parameters.practice_mentions.bioretention",
       "excerpt": "rain gardens and vegetative swales, infiltration basins, and paving materials and permeable surfaces",
       "page_or_section": "4.9 BOSTON COMPLETE STREETS INITIATIVE, page 45"
     },
     {
-      "field": "practice_mentions.swale",
+      "field": "design_parameters.practice_mentions.swale",
       "excerpt": "rain gardens and vegetative swales, infiltration basins, and paving materials and permeable surfaces",
       "page_or_section": "4.9 BOSTON COMPLETE STREETS INITIATIVE, page 45"
     },
     {
-      "field": "practice_mentions.infiltration_basin",
+      "field": "design_parameters.practice_mentions.infiltration_basin",
       "excerpt": "rain gardens and vegetative swales, infiltration basins, and paving materials and permeable surfaces",
       "page_or_section": "4.9 BOSTON COMPLETE STREETS INITIATIVE, page 45"
     },
     {
-      "field": "practice_mentions.permeable_pavement",
+      "field": "design_parameters.practice_mentions.permeable_pavement",
       "excerpt": "rain gardens and vegetative swales, infiltration basins, and paving materials and permeable surfaces",
       "page_or_section": "4.9 BOSTON COMPLETE STREETS INITIATIVE, page 45"
     },
     {
-      "field": "practice_mentions.manufactured_treatment",
+      "field": "design_parameters.practice_mentions.manufactured_treatment",
       "excerpt": "the Commission may require developers to install particle separators on newly constructed storm drains that serve large outdoor parking areas",
       "page_or_section": "3.2 SEWER SYSTEM OVERFLOW CONTROL AND RESPONSE, page 27"
     }

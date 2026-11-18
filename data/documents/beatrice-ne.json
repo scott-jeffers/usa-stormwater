@@ -171,22 +171,22 @@
       "page_or_section": "9.4.4.4, page 122"
     },
     {
-      "field": "practice_mentions.bioretention",
+      "field": "design_parameters.practice_mentions.bioretention",
       "excerpt": "Bioretention Basin",
       "page_or_section": "Table 9-3, page 113"
     },
     {
-      "field": "practice_mentions.swale",
+      "field": "design_parameters.practice_mentions.swale",
       "excerpt": "Grass Swale",
       "page_or_section": "Table 9-3, page 113"
     },
     {
-      "field": "practice_mentions.permeable_pavement",
+      "field": "design_parameters.practice_mentions.permeable_pavement",
       "excerpt": "Pervious Pavement",
       "page_or_section": "Table 9-3, page 113"
     },
     {
-      "field": "practice_mentions.manufactured_treatment",
+      "field": "design_parameters.practice_mentions.manufactured_treatment",
       "excerpt": "Proprietary Structural Treatment Controls",
       "page_or_section": "Table 9-3, page 113"
     }

@@ -140,42 +140,42 @@
       "page_or_section": "4.3.1.3 C Restrictions, page 34"
     },
     {
-      "field": "practice_mentions.bioretention",
+      "field": "design_parameters.practice_mentions.bioretention",
       "excerpt": "infiltration cells (\"rain gardens\")... bio-retention areas",
       "page_or_section": "Glossary / Section 8.2.1, pages 11, 94"
     },
     {
-      "field": "practice_mentions.infiltration_trench",
+      "field": "design_parameters.practice_mentions.infiltration_trench",
       "excerpt": "infiltration trenches",
       "page_or_section": "Glossary; Section 8.2.1, pages 11, 94"
     },
     {
-      "field": "practice_mentions.permeable_pavement",
+      "field": "design_parameters.practice_mentions.permeable_pavement",
       "excerpt": "Porous pavement (pervious concrete, porous asphalt, or porous pavers)",
       "page_or_section": "Section 8.2.1, page 94"
     },
     {
-      "field": "practice_mentions.swale",
+      "field": "design_parameters.practice_mentions.swale",
       "excerpt": "Vegetated swales... dry or wet swales",
       "page_or_section": "Glossary; Section 8.2.1, pages 11, 94"
     },
     {
-      "field": "practice_mentions.sand_filter",
+      "field": "design_parameters.practice_mentions.sand_filter",
       "excerpt": "Sand filters",
       "page_or_section": "Section 8.2.1, page 94"
     },
     {
-      "field": "practice_mentions.wet_pond",
+      "field": "design_parameters.practice_mentions.wet_pond",
       "excerpt": "pond systems/detention basins... Water quality ponds and wetlands",
       "page_or_section": "Glossary; Section 8.2.1, pages 11, 94"
     },
     {
-      "field": "practice_mentions.extended_detention",
+      "field": "design_parameters.practice_mentions.extended_detention",
       "excerpt": "Detention Basins... pond systems/detention basins",
       "page_or_section": "Appendix inspection examples; glossary, pages 11, 97"
     },
     {
-      "field": "practice_mentions.manufactured_treatment",
+      "field": "design_parameters.practice_mentions.manufactured_treatment",
       "excerpt": "Proprietary Device... oil/water separators... hydrodynamic separators",
       "page_or_section": "Glossary; Appendix B form; pre-treatment, pages 11, 101"
     }

@@ -46,17 +46,17 @@
       "page_or_section": null
     },
     {
-      "field": "practice_mentions.extended_detention",
+      "field": "design_parameters.practice_mentions.extended_detention",
       "excerpt": "Reduction of peak flows can be achieved by the storage of runoff in detention basins, storm sewer pipes, swales or channels, and other detention storage facilities.",
       "page_or_section": "7.3.5 Detention Storage, page 11"
     },
     {
-      "field": "practice_mentions.swale",
+      "field": "design_parameters.practice_mentions.swale",
       "excerpt": "It is preferable to slope median areas and inside shoulders to a center swale to prevent drainage from the median area from running across the pavement.",
       "page_or_section": "7.4.3.2 Roadside and Median Channels, page 15"
     },
     {
-      "field": "practice_mentions.swale",
+      "field": "design_parameters.practice_mentions.swale",
       "excerpt": "Shallow swale sections at the edge of the roadway pavement or shoulder offer advantages over curbed sections where curbs are not needed for traffic control.",
       "page_or_section": "7.4.3.5 Curb and Gutter, page 16"
     }

@@ -78,17 +78,17 @@
       "page_or_section": "Chapter 6 – Open Channels, 6.4.2.3.2 Water Quality Vegetated Swales (page 6-12)"
     },
     {
-      "field": "practice_mentions.swale",
+      "field": "design_parameters.practice_mentions.swale",
       "excerpt": "water quality vegetated swales are designed in accordance with the Water Quality Management Plan (WQMP) Technical Guidance Document (TGD)",
       "page_or_section": "Chapter 6, 6.4.2.3.2"
     },
     {
-      "field": "practice_mentions.extended_detention",
+      "field": "design_parameters.practice_mentions.extended_detention",
       "excerpt": "Perforated risers are a special case of orifice flow that can be used to obtain extended detention times.",
       "page_or_section": "Chapter 7 – Local Detention Basins, 7.4.3.7 (page 7-21)"
     },
     {
-      "field": "practice_mentions.wet_pond",
+      "field": "design_parameters.practice_mentions.wet_pond",
       "excerpt": "the water quality retention volume (e.g., volume for infiltration and wet pond volume) shall be provided in addition to the volume designated for flood storage",
       "page_or_section": "Chapter 7, 7.2.8 Conjunctive Use of Detention Facilities (page 7-9)"
     }

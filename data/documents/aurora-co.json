@@ -117,12 +117,12 @@
       "page_or_section": "Table 11-3 MTDs (page 245, aurora-co-c0263)"
     },
     {
-      "field": "practice_mentions.extended_detention",
+      "field": "design_parameters.practice_mentions.extended_detention",
       "excerpt": "Zone 1 provides the WQCV and is released over the drain time (12 to 40 hours) corresponding to the type of SCM.",
       "page_or_section": "§10.4 Figure 10-2 narrative (page 209, aurora-co-c0231)"
     },
     {
-      "field": "practice_mentions.bioretention",
+      "field": "design_parameters.practice_mentions.bioretention",
       "excerpt": "Impervious Area < 2 acres: water quality via infiltration/filtration SCM; no EDB. Use bioretention, sand filter, or permeable pavement.",
       "page_or_section": "Table 11-1 (page 239, aurora-co-c0258)"
     }

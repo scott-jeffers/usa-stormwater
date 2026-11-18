@@ -57,17 +57,17 @@
       "page_or_section": null
     },
     {
-      "field": "practice_mentions.extended_detention",
+      "field": "design_parameters.practice_mentions.extended_detention",
       "excerpt": "For projects anticipating the need for detention ponds for peak rate control only (not TS 4 or other required stormwater treatment purpose), contact the Bureau of Project Development Statewide Drainage Engineer(s) prior to design.",
       "page_or_section": "FDM 13-10 Section 10.1 General, page 14"
     },
     {
-      "field": "practice_mentions.extended_detention",
+      "field": "design_parameters.practice_mentions.extended_detention",
       "excerpt": "For stormwater ponds or features required for treatment reference this subsection for the hydraulic methods described within but also reference FDM Chapter 10 and inquire with the Bureau of Technical Services Statewide Stormwater Engineer for the appropriate pollutant removal requirements.",
       "page_or_section": "FDM 13-10 Section 10.1 General, page 14"
     },
     {
-      "field": "design_parameters (context)",
+      "field": "design_parameters.enrich_notes",
       "excerpt": "Stormwater Facilities - - Customary Method - -",
       "page_or_section": "Table 5.1 Hydrologic Method Selection, page 8"
     }

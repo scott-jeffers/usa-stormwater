@@ -53,17 +53,17 @@
       "page_or_section": null
     },
     {
-      "field": "practice_mentions.swale",
+      "field": "design_parameters.practice_mentions.swale",
       "excerpt": "Roadside, Median, and Interceptor ditches or swales 10-year 9 inches below edge of shoulder",
       "page_or_section": "Table 3-1, Section 3.4 (page 3-5)"
     },
     {
-      "field": "practice_mentions.swale",
+      "field": "design_parameters.practice_mentions.swale",
       "excerpt": "Shallow Concentrated Flow is flow in swales, rills, and gullies that are assumed to not have a well-defined / regular channel shape.",
       "page_or_section": "Section 2.5.4 (page 2-9)"
     },
     {
-      "field": "practice_mentions.swale",
+      "field": "design_parameters.practice_mentions.swale",
       "excerpt": "Grate Inlet. A drainage inlet composed of a grate in the roadway section or in the roadside swale or channel.",
       "page_or_section": "Section 5.1.4 Definitions (page 5-2)"
     }

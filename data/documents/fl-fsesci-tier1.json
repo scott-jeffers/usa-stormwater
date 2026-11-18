@@ -61,7 +61,7 @@
       "page_or_section": "Contents"
     },
     {
-      "field": "fields_not_found",
+      "field": "extraction_quality.fields_not_found",
       "excerpt": "0.5-inch or greater storm event. The Construction Generic Permit (CGP) defines a storm event as",
       "page_or_section": "p18"
     },
@@ -71,12 +71,12 @@
       "page_or_section": "Chapter 5: BMPs for Dewatering, page 200"
     },
     {
-      "field": "practice_mentions.swale",
+      "field": "design_parameters.practice_mentions.swale",
       "excerpt": "A small, temporary dam constructed across a swale or stormwater conveyance channel.",
       "page_or_section": "Section 3.8 Temporary Check Dam, page 117"
     },
     {
-      "field": "practice_mentions.wet_pond",
+      "field": "design_parameters.practice_mentions.wet_pond",
       "excerpt": "Runoff calculations for a 10-year frequency storm.",
       "page_or_section": "Sediment basin submission requirements, page 116"
     }

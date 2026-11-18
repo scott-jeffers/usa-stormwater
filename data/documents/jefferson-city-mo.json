@@ -62,12 +62,12 @@
       "page_or_section": "Chapter 5, page 149"
     },
     {
-      "field": "practice_mentions.constructed_wetland",
+      "field": "design_parameters.practice_mentions.constructed_wetland",
       "excerpt": "Open water zone: Greater than 18 inches deep... Low marsh zone: 6 to 18 inches deep... High marsh zone: Up to 6 inches deep",
       "page_or_section": "Chapter 6, page 229"
     },
     {
-      "field": "practice_mentions.bioretention",
+      "field": "design_parameters.practice_mentions.bioretention",
       "excerpt": "Depth of amended soils is critical where specific infiltration volumes are assumed as part of stormwater control measure performance.",
       "page_or_section": "Chapter 6, page 161-162"
     }

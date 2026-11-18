@@ -66,12 +66,12 @@
       "page_or_section": "Section 5.4 C.1 Recommendations for Basins Containing Permanent Water, page 7"
     },
     {
-      "field": "practice_mentions.extended_detention",
+      "field": "design_parameters.practice_mentions.extended_detention",
       "excerpt": "Dry detention basins should be designed to minimize ponding so that water does not remain standing in the bottom",
       "page_or_section": "Section 5.4 B Recommendations for Dry Detention Basins, page 7"
     },
     {
-      "field": "practice_mentions.wet_pond",
+      "field": "design_parameters.practice_mentions.wet_pond",
       "excerpt": "retention basins containing permanent lakes should have a water area of at least one-half acre",
       "page_or_section": "Section 5.4 C.1, page 7"
     }

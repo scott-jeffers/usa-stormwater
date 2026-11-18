@@ -60,22 +60,22 @@
       "page_or_section": "505.0 Non-Structural BMPs / 2.A (ORDINANCE COMMENTARY p.33)"
     },
     {
-      "field": "practice_mentions.infiltration_basin",
+      "field": "design_parameters.practice_mentions.infiltration_basin",
       "excerpt": "Infiltration basins may be used as detention facilities subject to the following:",
       "page_or_section": "504.0 Detention Facilities / 17 (p.32-33)"
     },
     {
-      "field": "practice_mentions.swale",
+      "field": "design_parameters.practice_mentions.swale",
       "excerpt": "The 10-year critical duration storm shall be used as a minimum for the design of storm sewers, storm inlets, and minor swales.",
       "page_or_section": "506.0 Stormwater Conveyance Systems / 1.A (p.34)"
     },
     {
-      "field": "practice_mentions.permeable_pavement",
+      "field": "design_parameters.practice_mentions.permeable_pavement",
       "excerpt": "For new permeable pavement, designers should use one-half of the measured infiltration rate during design",
       "page_or_section": "402.0 / 8.D (ORDINANCE COMMENTARY p.24)"
     },
     {
-      "field": "practice_mentions.green_roof",
+      "field": "design_parameters.practice_mentions.green_roof",
       "excerpt": "Approaches may include green roofs, naturalized detention facilities, trees and tree boxes, rain gardens, vegetated swales",
       "page_or_section": "Green Infrastructure definition (p.13)"
     }

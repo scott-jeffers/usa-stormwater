@@ -111,27 +111,27 @@
       "page_or_section": "Section 1503.4.5 Design Criteria / page 547"
     },
     {
-      "field": "practice_mentions.extended_detention",
+      "field": "design_parameters.practice_mentions.extended_detention",
       "excerpt": "incorporating extended detention basins (EDBs) within the regional detention basins",
       "page_or_section": "Section 1207 / page 468"
     },
     {
-      "field": "practice_mentions.swale",
+      "field": "design_parameters.practice_mentions.swale",
       "excerpt": "Landscape swales are typically located in parks, parkways, private landscaped areas",
       "page_or_section": "Section 1503.4.3 / page 547"
     },
     {
-      "field": "practice_mentions.sand_filter",
+      "field": "design_parameters.practice_mentions.sand_filter",
       "excerpt": "tf = Design filter bed drain time or the time required for the WQCV to pass through the filter in hrs (Max: 48 hours)",
       "page_or_section": "Section 1500 sand filter / page 561"
     },
     {
-      "field": "practice_mentions.infiltration_trench",
+      "field": "design_parameters.practice_mentions.infiltration_trench",
       "excerpt": "An infiltration trench is a shallow excavation (generally 2 to 10 feet in depth)",
       "page_or_section": "Section 1503.13.1 / page 577"
     },
     {
-      "field": "practice_mentions.infiltration_basin",
+      "field": "design_parameters.practice_mentions.infiltration_basin",
       "excerpt": "Infiltration basins are not allowed in areas of shallow groundwater or poor permeability soils",
       "page_or_section": "Section 1503.12.5 / page 575"
     }

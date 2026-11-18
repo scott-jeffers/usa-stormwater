@@ -65,17 +65,17 @@
       "page_or_section": "Section One, Article I. Definitions, item 120 (page 17)"
     },
     {
-      "field": "practice_mentions.bioretention",
+      "field": "design_parameters.practice_mentions.bioretention",
       "excerpt": "Bioretention areas are landscaping features adapted to provide on-site treatment of storm water runoff.",
       "page_or_section": "Section Three, Article I. D. Infiltrating Runoff On-Site (page 46)"
     },
     {
-      "field": "practice_mentions.constructed_wetland",
+      "field": "design_parameters.practice_mentions.constructed_wetland",
       "excerpt": "Storm water wetlands (a.k.a. constructed wetlands) are structural practices similar to wet detention ponds that incorporate wetland plants into the design.",
       "page_or_section": "Section Three, Article I. C. (page 45)"
     },
     {
-      "field": "practice_mentions.swale",
+      "field": "design_parameters.practice_mentions.swale",
       "excerpt": "These BMPs shall be designed to follow criteria in the Illinois Urban Manual.",
       "page_or_section": "Section Three, Article II. H. Vegetated Filter Strips and Swales (page 50)"
     }

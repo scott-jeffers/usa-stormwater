@@ -24,7 +24,7 @@
       "page_or_section": "Title / header"
     },
     {
-      "field": "design_parameters",
+      "field": "design_parameters.enrich_notes",
       "excerpt": "Alaska Highway Drainage Manual",
       "page_or_section": "pages 1-2"
     }

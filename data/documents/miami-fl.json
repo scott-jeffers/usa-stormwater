@@ -139,27 +139,27 @@
       "page_or_section": "Section 2.1.1; Appendices"
     },
     {
-      "field": "practice_mentions.infiltration_trench",
+      "field": "design_parameters.practice_mentions.infiltration_trench",
       "excerpt": "In an exfiltration trench system, stormwater shall pass through a perforated pipe and infiltrate through the trench walls and bottom into the shallow groundwater aquifer",
       "page_or_section": "5.5.1 Description, page 31"
     },
     {
-      "field": "practice_mentions.swale",
+      "field": "design_parameters.practice_mentions.swale",
       "excerpt": "Vegetated swales with swale blocks or raised inlets.",
       "page_or_section": "5.2 Retention System, page 28"
     },
     {
-      "field": "practice_mentions.wet_pond",
+      "field": "design_parameters.practice_mentions.wet_pond",
       "excerpt": "\"Wet detention systems\" – Permanently wet ponds which are designed to slowly release collected stormwater runoff through an outlet structure.",
       "page_or_section": "2.1.17, page 8"
     },
     {
-      "field": "practice_mentions.extended_detention",
+      "field": "design_parameters.practice_mentions.extended_detention",
       "excerpt": "\"Retention/detention area (dry)\" – Water storage area with bottom elevation at least 1.0-feet above the control elevation of the area.",
       "page_or_section": "2.1.13, page 8"
     },
     {
-      "field": "practice_mentions.infiltration_basin",
+      "field": "design_parameters.practice_mentions.infiltration_basin",
       "excerpt": "Man-made or natural depressional areas where the basin bottom is graded flat and vegetation is established to promote infiltration",
       "page_or_section": "5.2 Retention System, page 28"
     }

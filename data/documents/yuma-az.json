@@ -51,12 +51,12 @@
       "page_or_section": "6.14.3 Additional Report Requirements item 4, page 131"
     },
     {
-      "field": "practice_mentions.swale",
+      "field": "design_parameters.practice_mentions.swale",
       "excerpt": "Interceptor channels (and other low impact development techniques, such as: bioswales, microbasins) may be required/needed to collect offsite flow into an onsite channel.",
       "page_or_section": "Section 7.2 / page 140"
     },
     {
-      "field": "practice_mentions.permeable_pavement",
+      "field": "design_parameters.practice_mentions.permeable_pavement",
       "excerpt": "2.7.4 Pervious Concrete ... pervious concrete \"is usually part of a water management system used to reduce runoff rates and volumes from on-grade surfaces such as patios, walkways, driveways, fire lanes, and parking spaces\"",
       "page_or_section": "Summary of Changes 6th Edition Draft, page 195"
     }

@@ -94,7 +94,7 @@
       "page_or_section": "Sec. 37.09(3)(c)3.c / Page 16"
     },
     {
-      "field": "practice_mentions.green_roof",
+      "field": "design_parameters.practice_mentions.green_roof",
       "excerpt": "green roofs, and rain barrels.",
       "page_or_section": "Sec. 37.04 Definitions / Page 4"
     },
@@ -109,22 +109,22 @@
       "page_or_section": "Sec. 37.09(3)(c)2.l.i / Page 15"
     },
     {
-      "field": "practice_mentions.bioretention",
+      "field": "design_parameters.practice_mentions.bioretention",
       "excerpt": "rain gardens, bioretention systems, infiltration basins, underground infiltration fields",
       "page_or_section": "Sec. 37.04 Green Infrastructure / Page 4"
     },
     {
-      "field": "practice_mentions.permeable_pavement",
+      "field": "design_parameters.practice_mentions.permeable_pavement",
       "excerpt": "Pervious/permeable pavement constructed in accordance with WDNR Technical Standard # 1008",
       "page_or_section": "Sec. 37.04 Impervious Surface note / Page 5"
     },
     {
-      "field": "practice_mentions.swale",
+      "field": "design_parameters.practice_mentions.swale",
       "excerpt": "bioswales, permeable pavement, green roofs",
       "page_or_section": "Sec. 37.04 / Page 4"
     },
     {
-      "field": "practice_mentions.infiltration_basin",
+      "field": "design_parameters.practice_mentions.infiltration_basin",
       "excerpt": "infiltration basins, underground infiltration fields",
       "page_or_section": "Sec. 37.04 / Page 4"
     }

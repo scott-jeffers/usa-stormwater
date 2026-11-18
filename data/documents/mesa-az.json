@@ -67,22 +67,22 @@
       "page_or_section": "Sections 808 / 1112"
     },
     {
-      "field": "practice_mentions.bioretention",
+      "field": "design_parameters.practice_mentions.bioretention",
       "excerpt": "Suggested “tools” highlighted in the toolkit include: Green Streets, Vegetated Swales, Bioretention, Permeable Paving, Constructed Wetlands, Infiltration & Underdrains, Green Roofs, Rainwater Harvesting.",
       "page_or_section": "Section 1112, page 211"
     },
     {
-      "field": "practice_mentions.swale",
+      "field": "design_parameters.practice_mentions.swale",
       "excerpt": "Vegetated Swales",
       "page_or_section": "Section 1112.2, page 211"
     },
     {
-      "field": "enrich_notes (drywell infiltration, not mapped to in/hr field)",
+      "field": "design_parameters.enrich_notes",
       "excerpt": "Such drywells shall have a minimum infiltration rate after de-rating of 0.1 cfs",
       "page_or_section": "806.21.2.6, page 152"
     },
     {
-      "field": "enrich_notes (drawdown time unspecified)",
+      "field": "design_parameters.enrich_notes",
       "excerpt": "If the infiltrometer tests and associated calculations do not demonstrate that direct percolation can drain the storage system within the required time, other means of disposal shall be installed",
       "page_or_section": "806.21.2.5, page 152"
     }

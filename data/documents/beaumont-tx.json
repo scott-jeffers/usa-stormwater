@@ -50,22 +50,22 @@
       "page_or_section": "Hydrologic Design Criteria"
     },
     {
-      "field": "practice_mentions.extended_detention",
+      "field": "design_parameters.practice_mentions.extended_detention",
       "excerpt": "A detention facility is designed to store the increased runoff while releasing discharges continuously at acceptable rates through flow-limiting outlet structures",
       "page_or_section": "10. On-Site Detention and Retention Criteria, page 28"
     },
     {
-      "field": "practice_mentions.wet_pond",
+      "field": "design_parameters.practice_mentions.wet_pond",
       "excerpt": "A retention facility, often designed to have a permanent pool, is designed to store runoff and release it after the passage of peak flows.",
       "page_or_section": "10.1 General, page 28"
     },
     {
-      "field": "practice_mentions.swale",
+      "field": "design_parameters.practice_mentions.swale",
       "excerpt": "E. Curb cut overflow and swale overflow.",
       "page_or_section": "7.3 Design Schematics, page 24"
     },
     {
-      "field": "practice_mentions.swale",
+      "field": "design_parameters.practice_mentions.swale",
       "excerpt": "A swale ditch is to be constructed just beyond the outside edge of the maintenance berm to convey water to downspouts",
       "page_or_section": "10.5 District Maintenance of Subdivision Detention Basins, page 30"
     }

@@ -78,22 +78,22 @@
       "page_or_section": "6.6.2 Downspout Disconnection, page 20"
     },
     {
-      "field": "practice_mentions.bioretention",
+      "field": "design_parameters.practice_mentions.bioretention",
       "excerpt": "Rain Garden (i.e., Bioretention) – an excavated shallow surface depression that consists of a soil bed planted with suitable non-invasive (preferably native) vegetation",
       "page_or_section": "Definitions, page 9"
     },
     {
-      "field": "practice_mentions.green_roof",
+      "field": "design_parameters.practice_mentions.green_roof",
       "excerpt": "Green Roof – an extensive roof cover of vegetation that is grown on and completely covers an otherwise conventional flat or slightly sloped roof (<30° slope)",
       "page_or_section": "Definitions, page 9"
     },
     {
-      "field": "practice_mentions.permeable_pavement",
+      "field": "design_parameters.practice_mentions.permeable_pavement",
       "excerpt": "Pervious Pavement w/ Infiltration Bed – a Green Infrastructure (GI) technique that combines stormwater infiltration, storage, and structural pavement",
       "page_or_section": "Definitions, page 9"
     },
     {
-      "field": "practice_mentions.manufactured_treatment",
+      "field": "design_parameters.practice_mentions.manufactured_treatment",
       "excerpt": "Proprietary Water Quality Filters and Hydrodynamic Devices – city-approved prefabricated stormwater treatment structures",
       "page_or_section": "Definitions, page 9; Table 6-2"
     }

@@ -53,22 +53,22 @@
       "page_or_section": "p. 2"
     },
     {
-      "field": "practice_mentions.extended_detention",
+      "field": "design_parameters.practice_mentions.extended_detention",
       "excerpt": "SWM facilities such as detention, retention, extended detention, infiltration, and sedimentation ponds",
       "page_or_section": "8.1.0 GENERAL, page 8-2"
     },
     {
-      "field": "practice_mentions.extended_detention",
+      "field": "design_parameters.practice_mentions.extended_detention",
       "excerpt": "SWM ponds may be further classified as retention or detention ponds and may incorporate water quality Best Management Practices (BMPs) such as sedimentation, infiltration, or filtration",
       "page_or_section": "8.3.1 General, page 8-4"
     },
     {
-      "field": "practice_mentions.infiltration_basin",
+      "field": "design_parameters.practice_mentions.infiltration_basin",
       "excerpt": "detention, retention, extended detention, infiltration, and sedimentation ponds",
       "page_or_section": "8.1.0 GENERAL, page 8-2"
     },
     {
-      "field": "practice_mentions.wet_pond",
+      "field": "design_parameters.practice_mentions.wet_pond",
       "excerpt": "SWM ponds may be further classified as retention or detention ponds",
       "page_or_section": "8.3.1 General, page 8-4"
     },

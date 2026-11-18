@@ -69,17 +69,17 @@
       "page_or_section": "Chapter 6, Section 6.2.4 Constructed Channels (roadside and median ditches; chapter 6.1 also lists swales)"
     },
     {
-      "field": "practice_mentions.infiltration_basin",
+      "field": "design_parameters.practice_mentions.infiltration_basin",
       "excerpt": "The Department will not allow any connection if the Department’s drainage system depends entirely on subsurface infiltration such as infiltration trenches, infiltration basins, dry wells, sumps or similar features.",
       "page_or_section": "Chapter 2, Section 2.8.2.3"
     },
     {
-      "field": "practice_mentions.infiltration_trench",
+      "field": "design_parameters.practice_mentions.infiltration_trench",
       "excerpt": "The Department will not allow any connection if the Department’s drainage system depends entirely on subsurface infiltration such as infiltration trenches, infiltration basins, dry wells, sumps or similar features.",
       "page_or_section": "Chapter 2, Section 2.8.2.3"
     },
     {
-      "field": "practice_mentions.swale",
+      "field": "design_parameters.practice_mentions.swale",
       "excerpt": "Channels are natural or constructed conveyances for water and include rivers, streams, roadside and median ditches, swales and irrigation flows.",
       "page_or_section": "Chapter 6, Section 6.1 INTRODUCTION"
     }

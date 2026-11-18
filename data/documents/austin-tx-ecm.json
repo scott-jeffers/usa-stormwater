@@ -63,27 +63,27 @@
       "page_or_section": "p. 4"
     },
     {
-      "field": "practice_mentions.bioretention",
+      "field": "design_parameters.practice_mentions.bioretention",
       "excerpt": "vegetative filter strips, rain gardens, biofiltration ponds, and areas used for irrigation or infiltration of stormwater are allowed within the Critical Water Quality Zone",
       "page_or_section": "1.5.3 H. Green Water Quality Controls (page 5)"
     },
     {
-      "field": "practice_mentions.infiltration_basin",
+      "field": "design_parameters.practice_mentions.infiltration_basin",
       "excerpt": "areas used for irrigation or infiltration of stormwater are allowed within the Critical Water Quality Zone",
       "page_or_section": "1.5.3 H. Green Water Quality Controls (page 5)"
     },
     {
-      "field": "practice_mentions.wet_pond",
+      "field": "design_parameters.practice_mentions.wet_pond",
       "excerpt": "In-channel detention basins and in-channel wet ponds can be located within the Critical Water Quality Zone",
       "page_or_section": "1.5.3 F. Detention Basins and Wet Ponds (page 4)"
     },
     {
-      "field": "practice_mentions.permeable_pavement",
+      "field": "design_parameters.practice_mentions.permeable_pavement",
       "excerpt": "porous pavement designed in accordance with Section 1.6.7 of this manual, limited to only pedestrian walkways and multi-use trails",
       "page_or_section": "1.8.1 C. Impervious cover calculations exclude (page 8)"
     },
     {
-      "field": "practice_mentions.sand_filter",
+      "field": "design_parameters.practice_mentions.sand_filter",
       "excerpt": "If the entire site is treated with sedimentation/sand filtration or an equivalent level of water quality control",
       "page_or_section": "OPTION 1 WORKSHEET / INSTRUCTIONS (pages 12-14)"
     }

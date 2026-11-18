@@ -72,17 +72,17 @@
       "page_or_section": "Section 3.9.2 Pond and Spillway Geometry, page 3-26 (page 64)"
     },
     {
-      "field": "practice_mentions.extended_detention",
+      "field": "design_parameters.practice_mentions.extended_detention",
       "excerpt": "Dry detention basins are sized to temporarily store the volume of runoff required to provide flood protection up to the flood mitigation storm, if required.",
       "page_or_section": "Section 3.9.2, page 3-26 (page 64)"
     },
     {
-      "field": "practice_mentions.swale",
+      "field": "design_parameters.practice_mentions.swale",
       "excerpt": "The Engineer may utilize swales to redirect flows.",
       "page_or_section": "Section 1.5.3 Site Grading Plans, page 1-11 (page 23)"
     },
     {
-      "field": "practice_mentions.wet_pond",
+      "field": "design_parameters.practice_mentions.wet_pond",
       "excerpt": "Easements for stormwater controls, including detention basins, sediment traps, and retention ponds, shall be negotiated between the City and the developer",
       "page_or_section": "Section 1.5.3 Other Stormwater Facilities, page 1-13 (page 25)"
     }

@@ -129,17 +129,17 @@
       "page_or_section": "4.1-c Infiltration Trench, page 19 (tahoe-trpa-bmp-c0169)"
     },
     {
-      "field": "practice_mentions.permeable_pavement",
+      "field": "design_parameters.practice_mentions.permeable_pavement",
       "excerpt": "depth to seasonal high groundwater, bedrock, or any impermeable layer is at least 3 feet below the underlying base course",
       "page_or_section": "4.1-a Pervious Pavement DESIGN CONSIDERATIONS (tahoe-trpa-bmp-c0157)"
     },
     {
-      "field": "practice_mentions.bioretention",
+      "field": "design_parameters.practice_mentions.bioretention",
       "excerpt": "Alternative Names: Small Vegetated Basin, Infiltration Garden, Bio-Retention Garden",
       "page_or_section": "4.1-f Rain Garden, page 37 (tahoe-trpa-bmp-c0180)"
     },
     {
-      "field": "practice_mentions.extended_detention",
+      "field": "design_parameters.practice_mentions.extended_detention",
       "excerpt": "Alternative Names: Dry Pond, Extended Detention Basin, Detention Basin, Sediment Basin",
       "page_or_section": "4.4-c Dry Basin, page 17 (tahoe-trpa-bmp-c0317)"
     },

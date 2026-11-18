@@ -56,12 +56,12 @@
       "page_or_section": "2A-1 D. Unified Sizing Criteria, Table 2A-1.01 (page 9)"
     },
     {
-      "field": "practice_mentions.extended_detention",
+      "field": "design_parameters.practice_mentions.extended_detention",
       "excerpt": "Provide 24 hours of extended detention of the runoff from the 1 year 24 hour duration storm event to reduce bank-full flows",
       "page_or_section": "2A-1 D. Unified Sizing Criteria (page 9)"
     },
     {
-      "field": "practice_mentions.swale",
+      "field": "design_parameters.practice_mentions.swale",
       "excerpt": "Open Channel Flow - Swales and Ditches: Describe swale and ditch design.",
       "page_or_section": "2A-4 Project Drainage Report, 4.d (page 22)"
     }

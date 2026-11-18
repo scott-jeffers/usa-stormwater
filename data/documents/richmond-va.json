@@ -76,7 +76,7 @@
       "page_or_section": "Plan requirements"
     },
     {
-      "field": "practice_mentions.swale",
+      "field": "design_parameters.practice_mentions.swale",
       "excerpt": "Storm drainage facility: any kind of natural or man-made structure, such as a sewer, ditch, creek, river, lake, swale, or any other facility that stormwater or runoff may flow through",
       "page_or_section": "Glossary, page 6"
     }

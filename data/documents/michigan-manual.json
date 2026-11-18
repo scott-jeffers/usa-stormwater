@@ -116,7 +116,7 @@
       "page_or_section": "Page 17, Water Quality Volume"
     },
     {
-      "field": "practice_mentions",
+      "field": "design_parameters.practice_mentions",
       "excerpt": "mitigation (by interception, detention, retention, treatment, and/or controlled release) of runoff from 90 percent of all runoff producing events",
       "page_or_section": "Page 17, 10 Percent Exceedance Precipitation Events"
     }

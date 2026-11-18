@@ -50,27 +50,27 @@
       "page_or_section": "CH15-104 / item 3, page 5"
     },
     {
-      "field": "practice_mentions.extended_detention",
+      "field": "design_parameters.practice_mentions.extended_detention",
       "excerpt": "1. Extended detention basin 2. Sand filter extended detention basin 3. Constructed wetland basin 4. Retention pond",
       "page_or_section": "2.4.5 DETENTION BASIN, page 17"
     },
     {
-      "field": "practice_mentions.sand_filter",
+      "field": "design_parameters.practice_mentions.sand_filter",
       "excerpt": "Sand filter extended detention basin",
       "page_or_section": "2.4.5 DETENTION BASIN, page 17"
     },
     {
-      "field": "practice_mentions.constructed_wetland",
+      "field": "design_parameters.practice_mentions.constructed_wetland",
       "excerpt": "For sites with sufficient water to support wetlands, detention facilities can be developed as a constructed wetland basin.",
       "page_or_section": "2.4.6 CONSTRUCTED WETLANDS, page 18"
     },
     {
-      "field": "practice_mentions.wet_pond",
+      "field": "design_parameters.practice_mentions.wet_pond",
       "excerpt": "4. Retention pond",
       "page_or_section": "2.4.5 DETENTION BASIN, page 17"
     },
     {
-      "field": "practice_mentions.permeable_pavement",
+      "field": "design_parameters.practice_mentions.permeable_pavement",
       "excerpt": "Porous pavement detention is flat and includes a shallow storage area above the surface for the water quality capture volume (WQCV).",
       "page_or_section": "2.4.3 POROUS PAVEMENT, page 15"
     },
@@ -80,22 +80,22 @@
       "page_or_section": "2.4.3 POROUS PAVEMENT, page 15"
     },
     {
-      "field": "practice_mentions.bioretention",
+      "field": "design_parameters.practice_mentions.bioretention",
       "excerpt": "Examples of LID “integrated management practices” include bioretention, permeable pavers, tree box planters, rain gardens, and disconnected downspouts.",
       "page_or_section": "2.3 SITE DESIGN PRACTICES, page 12"
     },
     {
-      "field": "practice_mentions.green_roof",
+      "field": "design_parameters.practice_mentions.green_roof",
       "excerpt": "Typical Applications: Parking islands, medians and buffers, courtyards, planters, and green roofs.",
       "page_or_section": "2.4.4 POROUS LANDSCAPE DETENTION, page 16"
     },
     {
-      "field": "practice_mentions.swale",
+      "field": "design_parameters.practice_mentions.swale",
       "excerpt": "If flow can be conveyed on the surface in grass swales or in strips of modular block porous pavement, additional stormwater quality benefits will accrue",
       "page_or_section": "1.5 DESIGN PRINCIPLES AND PROCESS, page 7"
     },
     {
-      "field": "practice_mentions.manufactured_treatment",
+      "field": "design_parameters.practice_mentions.manufactured_treatment",
       "excerpt": "2.4.7 UNDERGROUND FACILITIES/PROPRIETARY DEVICES",
       "page_or_section": "Section 2 BMP TOC, page 10"
     }

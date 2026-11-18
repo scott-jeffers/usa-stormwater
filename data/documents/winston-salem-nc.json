@@ -71,17 +71,17 @@
       "page_or_section": "Section VI / checklist"
     },
     {
-      "field": "practice_mentions.swale",
+      "field": "design_parameters.practice_mentions.swale",
       "excerpt": "Identify and label all proposed and existing stormwater conveyance systems including but not limited to storm drainage inlets, catch basins, junction boxes etc. ... (Indicate type and size of conveyance, e.g. storm drainage pipe, grass swale, diversion berms etc.)",
       "page_or_section": "VI-23 / Checklist 4"
     },
     {
-      "field": "practice_mentions.swale",
+      "field": "design_parameters.practice_mentions.swale",
       "excerpt": "All ditches and swales shall be indicated on the drawings complete with spot elevations, slopes, typical sections and liner materials.",
       "page_or_section": "IV-6 / Storm Drain System"
     },
     {
-      "field": "practice_mentions.extended_detention",
+      "field": "design_parameters.practice_mentions.extended_detention",
       "excerpt": "Acceptable mitigation alternatives include on-site detention to reduce post construction runoff rates and volumes and natural channel stabilization measures to control channel degradation.",
       "page_or_section": "VI-17 / Checklist 2"
     },

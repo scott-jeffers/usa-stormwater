@@ -149,27 +149,27 @@
       "page_or_section": "Atlas context (SRWMD ERP AH Vol II summary)"
     },
     {
-      "field": "practice_mentions.wet_pond",
+      "field": "design_parameters.practice_mentions.wet_pond",
       "excerpt": "Wet detention systems are permanently wet ponds which are designed to slowly release collected stormwater runoff through an outlet structure.",
       "page_or_section": "5.4.1 Description, page 26"
     },
     {
-      "field": "practice_mentions.wet_pond",
+      "field": "design_parameters.practice_mentions.wet_pond",
       "excerpt": "The permanent pool shall be sized to provide at least a 14-day residence time based upon average wet season rainfall",
       "page_or_section": "5.4.3 Permanent Pool, page 26"
     },
     {
-      "field": "practice_mentions.swale",
+      "field": "design_parameters.practice_mentions.swale",
       "excerpt": "Swales shall be used for water quality treatment with a maximum slope of three-to-one (3:1)",
       "page_or_section": "5.7.2 Criteria, page 11"
     },
     {
-      "field": "practice_mentions.extended_detention",
+      "field": "design_parameters.practice_mentions.extended_detention",
       "excerpt": "5.2 Dry Detention Pond Design Criteria and Guidelines",
       "page_or_section": "PART V – BEST MANAGEMENT PRACTICES, page 3"
     },
     {
-      "field": "practice_mentions.infiltration_trench",
+      "field": "design_parameters.practice_mentions.infiltration_trench",
       "excerpt": "5.3 Exfiltration Trench Systems Design Criteria and Guidelines",
       "page_or_section": "PART V – BEST MANAGEMENT PRACTICES, page 3"
     }

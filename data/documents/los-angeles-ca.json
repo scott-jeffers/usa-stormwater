@@ -128,7 +128,7 @@
       "page_or_section": "Table 7-1, Pages 7-3–7-4"
     },
     {
-      "field": "fields_not_found",
+      "field": "extraction_quality.fields_not_found",
       "excerpt": "may preclude infiltration if less than 5 to 10 feet of separation exists between the infiltration surface and the seasonal high groundwater",
       "page_or_section": "p23"
     },

@@ -80,17 +80,17 @@
       "page_or_section": "Attachment B Example Problem, page 109"
     },
     {
-      "field": "practice_mentions.bioretention",
+      "field": "design_parameters.practice_mentions.bioretention",
       "excerpt": "Filter strips, biofiltration swales, bioretention areas and infiltration ditches are designed using DURMM",
       "page_or_section": "6.4 Step 3 Hydraulics, page 7"
     },
     {
-      "field": "practice_mentions.swale",
+      "field": "design_parameters.practice_mentions.swale",
       "excerpt": "a runoff velocity of 1 fps for the design storm",
       "page_or_section": "6.12.2 BIOFILTRATION, page 68"
     },
     {
-      "field": "practice_mentions.wet_pond",
+      "field": "design_parameters.practice_mentions.wet_pond",
       "excerpt": "Wet ponds are to have a forebay to act as a sediment trap and two ten foot (10 ft) wide safety benches",
       "page_or_section": "6.10.5 / checklist, page 63"
     }

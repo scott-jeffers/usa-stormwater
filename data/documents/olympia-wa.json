@@ -108,27 +108,27 @@
       "page_or_section": "Volume III - Chapter 1 - Page 478 (Maximum Depth)"
     },
     {
-      "field": "practice_mentions.swale",
+      "field": "design_parameters.practice_mentions.swale",
       "excerpt": "biofiltration swales are usually situated on sites with slopes of less than 6%",
       "page_or_section": "Volume III - Chapter 1 - Page 478"
     },
     {
-      "field": "practice_mentions.permeable_pavement",
+      "field": "design_parameters.practice_mentions.permeable_pavement",
       "excerpt": "Minimum slope = 1% to 2% to allow for surface overflow in extreme rainfall",
       "page_or_section": "Volume V - Chapter 5 - Page 838 (Slope Considerations)"
     },
     {
-      "field": "practice_mentions.permeable_pavement",
+      "field": "design_parameters.practice_mentions.permeable_pavement",
       "excerpt": "The permeable pavement design includes a 6\" layer of sand that meets the size gradation (by weight) given in Table V-7.1: Sand Medium Specification.",
       "page_or_section": "Volume V - Chapter 5 - Page 838"
     },
     {
-      "field": "practice_mentions.constructed_wetland",
+      "field": "design_parameters.practice_mentions.constructed_wetland",
       "excerpt": "biological treatment method, such as a biofiltration swale or constructed wetland.",
       "page_or_section": "Volume I - Chapter 4 - Page 171"
     },
     {
-      "field": "practice_mentions.bioretention",
+      "field": "design_parameters.practice_mentions.bioretention",
       "excerpt": "runoff from these types of landscaped areas should be directed to bioretention, biofiltration, or constructed wetland BMPs prior to discharge to UIC wells.",
       "page_or_section": "Volume I - Chapter 4 - Page 171"
     }

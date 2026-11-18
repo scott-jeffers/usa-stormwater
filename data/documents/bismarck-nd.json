@@ -109,17 +109,17 @@
       "page_or_section": "5.3.1 DETENTION BASINS, Page 5-5"
     },
     {
-      "field": "practice_mentions.extended_detention",
+      "field": "design_parameters.practice_mentions.extended_detention",
       "excerpt": "Dry Detention Basins (w/Extended Detention)",
       "page_or_section": "PCSMP Checklist SM-05, Section 5.2.2"
     },
     {
-      "field": "practice_mentions.manufactured_treatment",
+      "field": "design_parameters.practice_mentions.manufactured_treatment",
       "excerpt": "Flow Through BMPs are defined as proprietary mechanical treatment devices",
       "page_or_section": "5.3.3 FLOW THROUGH BMPS, Page 5-6"
     },
     {
-      "field": "practice_mentions.swale",
+      "field": "design_parameters.practice_mentions.swale",
       "excerpt": "For above ground infiltration facilities (e.g., swales, basins)",
       "page_or_section": "Page 3-14"
     }

@@ -56,17 +56,17 @@
       "page_or_section": "Element C.2.a, page 4"
     },
     {
-      "field": "practice_mentions.bioretention",
+      "field": "design_parameters.practice_mentions.bioretention",
       "excerpt": "raingardens, bioretention systems, tree box filters",
       "page_or_section": "Element C.1.b, page 3"
     },
     {
-      "field": "practice_mentions.constructed_wetland",
+      "field": "design_parameters.practice_mentions.constructed_wetland",
       "excerpt": "subsurface gravel wetlands",
       "page_or_section": "Element C.2.b, page 4"
     },
     {
-      "field": "practice_mentions.swale",
+      "field": "design_parameters.practice_mentions.swale",
       "excerpt": "catch basins, swales, detention/bioretention areas",
       "page_or_section": "Element D.1.d, page 5"
     }

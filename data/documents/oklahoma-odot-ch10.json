@@ -84,17 +84,17 @@
       "page_or_section": "Section 10.4.9, Page 10.4-4"
     },
     {
-      "field": "practice_mentions.extended_detention",
+      "field": "design_parameters.practice_mentions.extended_detention",
       "excerpt": "The reduction of peak flows can be achieved by the storage of runoff in detention basins, storm drainage pipes, swales and channels and other detention storage facilities.",
       "page_or_section": "10.4.9 Detention Storage, page 18"
     },
     {
-      "field": "practice_mentions.swale",
+      "field": "design_parameters.practice_mentions.swale",
       "excerpt": "The reduction of peak flows can be achieved by the storage of runoff in detention basins, storm drainage pipes, swales and channels and other detention storage facilities.",
       "page_or_section": "10.4.9 Detention Storage, page 18"
     },
     {
-      "field": "enrich_notes",
+      "field": "design_parameters.enrich_notes",
       "excerpt": "HEC-22 (2), Chapter 10 provides an introduction to the types of BMPs that have been historically used to provide water quality benefits.",
       "page_or_section": "10.6.3 Inverted Siphons, page 22"
     }

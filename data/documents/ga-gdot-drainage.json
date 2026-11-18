@@ -48,17 +48,17 @@
       "page_or_section": null
     },
     {
-      "field": "practice_mentions.swale",
+      "field": "design_parameters.practice_mentions.swale",
       "excerpt": "Swale – A broad channel for the conveyance and temporary storage of runoff.",
       "page_or_section": "Acronyms and Definitions, page xxxviii"
     },
     {
-      "field": "practice_mentions.swale",
+      "field": "design_parameters.practice_mentions.swale",
       "excerpt": "Concentrated flow includes flows in gutters, pipes, swales, channels, and streams.",
       "page_or_section": "Chapter 3. Hydrology, page 3-3"
     },
     {
-      "field": "practice_mentions.permeable_pavement",
+      "field": "design_parameters.practice_mentions.permeable_pavement",
       "excerpt": "Drainage Pavement Course – A type of pavement surface such as Open Graded Friction Course, (OGFC), which has specialized characteristics such as higher permeability and friction.",
       "page_or_section": "Acronyms and Definitions, page xxxi"
     },

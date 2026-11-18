@@ -85,47 +85,47 @@
       "page_or_section": "Section 8.1"
     },
     {
-      "field": "max_drawdown_hours",
+      "field": "design_parameters.max_drawdown_hours",
       "excerpt": "Treatment measures should drain completely within 72 hours to effectively suppress mosquito production",
       "page_or_section": "Chapter 10 / page 147"
     },
     {
-      "field": "max_drawdown_hours",
+      "field": "design_parameters.max_drawdown_hours",
       "excerpt": "so that the bioretention area empties over two days",
       "page_or_section": "Section 8.1 / page 92"
     },
     {
-      "field": "shwt_separation_inches",
+      "field": "design_parameters.shwt_separation_inches",
       "excerpt": "If there is at least a 5-foot separation between the bottom of the facility and the seasonal high groundwater level",
       "page_or_section": "Section 8.1 / page 96"
     },
     {
-      "field": "shwt_separation_inches",
+      "field": "design_parameters.shwt_separation_inches",
       "excerpt": "There should be at least a 10-foot separation between the bottom of the trench and the seasonal high groundwater level",
       "page_or_section": "Section 8.4 / page 113"
     },
     {
-      "field": "bioretention_media_depth_min_inches",
+      "field": "design_parameters.bioretention_media_depth_min_inches",
       "excerpt": "The BSM layer should be at least 18 inches deep.",
       "page_or_section": "Section 8.1 / page 96"
     },
     {
-      "field": "design_infiltration_rate_in_per_hr",
+      "field": "design_parameters.design_infiltration_rate_in_per_hr",
       "excerpt": "filters through the biotreatment soil at a rate of 5 inches per hour (the design surface loading rate for bioretention facilities)",
       "page_or_section": "Section 7.1.3 / page 73"
     },
     {
-      "field": "design_infiltration_rate_in_per_hr",
+      "field": "design_parameters.design_infiltration_rate_in_per_hr",
       "excerpt": "A long-term minimum percolation rate of 5 inches per hour is required",
       "page_or_section": "Section 8.1 / page 96"
     },
     {
-      "field": "ed_drain_time_hours",
+      "field": "design_parameters.ed_drain_time_hours",
       "excerpt": "detain the stormwater runoff from a water quality design storm for a minimum of 48 hours",
       "page_or_section": "Glossary / page 9"
     },
     {
-      "field": "ed_drain_time_hours",
+      "field": "design_parameters.ed_drain_time_hours",
       "excerpt": "sized to capture the required water quality volume over at least a 48-hour period",
       "page_or_section": "Section 8.5 / page 116"
     }

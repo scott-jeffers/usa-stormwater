@@ -67,27 +67,27 @@
       "page_or_section": "Appendix C, page 9"
     },
     {
-      "field": "practice_mentions.extended_detention",
+      "field": "design_parameters.practice_mentions.extended_detention",
       "excerpt": "Dry Detention Ponds (w/Extended Detention) Extended Detention / Water Quality Volume (Vwqed) = 1800 cu-ft per impervious acre draining to pond.",
       "page_or_section": "Appendix C, page 9"
     },
     {
-      "field": "practice_mentions.wet_pond",
+      "field": "design_parameters.practice_mentions.wet_pond",
       "excerpt": "Wet Detention Ponds Water Quality Volume (Vwq) = 1800 cu-ft per impervious acre draining to the pond.",
       "page_or_section": "Appendix C, page 9"
     },
     {
-      "field": "practice_mentions.manufactured_treatment",
+      "field": "design_parameters.practice_mentions.manufactured_treatment",
       "excerpt": "Flow-Through Treatment Devices Size devices to treat the first 0.5 inches of runoff from impervious area.",
       "page_or_section": "Appendix C, page 9"
     },
     {
-      "field": "practice_mentions.bioretention",
+      "field": "design_parameters.practice_mentions.bioretention",
       "excerpt": "The volume captured in rain gardens, or passed through biofilters with under drains, would be grouped with infiltration for water quality treatment.",
       "page_or_section": "Appendix C, page 9"
     },
     {
-      "field": "practice_mentions.swale",
+      "field": "design_parameters.practice_mentions.swale",
       "excerpt": "Construction of \"rain gardens\", \"grassy swales\", and other methods of achieving water quality are encouraged and will be evaluated on a case-by-case basis.",
       "page_or_section": "Appendix B, page 8"
     }

@@ -48,27 +48,27 @@
       "page_or_section": null
     },
     {
-      "field": "practice_mentions.extended_detention",
+      "field": "design_parameters.practice_mentions.extended_detention",
       "excerpt": "Retention facilities which provide for slow release of stormwater over an extended period of several days or more are referred to as extended detention facilities.",
       "page_or_section": "HIGHWAY DRAINAGE 8-122, Section 8.7.7 Storage Facilities"
     },
     {
-      "field": "practice_mentions.infiltration_basin",
+      "field": "design_parameters.practice_mentions.infiltration_basin",
       "excerpt": "In addition to extended detention facilities, retention facilities include infiltration basins, and swales.",
       "page_or_section": "HIGHWAY DRAINAGE 8-122, Section 8.7.7 Storage Facilities"
     },
     {
-      "field": "practice_mentions.swale",
+      "field": "design_parameters.practice_mentions.swale",
       "excerpt": "Outfalls include discharges from pipes, ditches, swales, and other points of concentrated flow.",
       "page_or_section": "HIGHWAY DRAINAGE 8-122–123, Section 8.8.5 MS4 Stormwater Outfall Inventory Mapping"
     },
     {
-      "field": "practice_mentions.swale",
+      "field": "design_parameters.practice_mentions.swale",
       "excerpt": "A gutter section without curb may be considered a shallow swale section, is formed as detailed on Standard Sheet 624-01",
       "page_or_section": "HIGHWAY DRAINAGE 8-86, Section 8.7.3 Gutters"
     },
     {
-      "field": "ed_drain_time_hours",
+      "field": "design_parameters.ed_drain_time_hours",
       "excerpt": "extended period of several days or more",
       "page_or_section": "Section 8.7.7 Storage Facilities (no hours specified)"
     }

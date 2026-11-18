@@ -86,27 +86,27 @@
       "page_or_section": "Chapters 7–9"
     },
     {
-      "field": "practice_mentions.bioretention",
+      "field": "design_parameters.practice_mentions.bioretention",
       "excerpt": "Bioretention Areas — Shallow stormwater basins or landscaped areas which utilize engineered soils and vegetation to capture and treat stormwater runoff.",
       "page_or_section": "Table 9-1, page 9-2 (lubbock-tx-c0119)"
     },
     {
-      "field": "practice_mentions.extended_detention",
+      "field": "design_parameters.practice_mentions.extended_detention",
       "excerpt": "Detention — May include Dry Detention Basins or Multi-Purpose Detention Areas. Dry Detention Basins are surface facilities intended to provide for the temporary storage of stormwater runoff",
       "page_or_section": "Table 9-1, page 9-2"
     },
     {
-      "field": "practice_mentions.infiltration_trench",
+      "field": "design_parameters.practice_mentions.infiltration_trench",
       "excerpt": "Infiltration Trenches — Excavated trenches filled with stone aggregate used to capture and allow infiltration of stormwater runoff into the surrounding soils",
       "page_or_section": "Table 9-1, page 9-2"
     },
     {
-      "field": "practice_mentions.sand_filter",
+      "field": "design_parameters.practice_mentions.sand_filter",
       "excerpt": "Sand Filters — Multi-chamber structures designed to treat stormwater runoff through filtration, using a sand bed as its primary filter media.",
       "page_or_section": "Table 9-1, page 9-2"
     },
     {
-      "field": "practice_mentions.swale",
+      "field": "design_parameters.practice_mentions.swale",
       "excerpt": "Enhanced Swales — Vegetated open channels that are explicitly designed and constructed to capture and treat stormwater runoff within dry or wet cells formed by check dams or other means.",
       "page_or_section": "Table 9-1, page 9-2"
     }

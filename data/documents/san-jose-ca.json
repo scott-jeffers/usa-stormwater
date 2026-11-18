@@ -145,22 +145,22 @@
       "page_or_section": "Chapter 6 infiltration trench, page 121"
     },
     {
-      "field": "practice_mentions.bioretention",
+      "field": "design_parameters.practice_mentions.bioretention",
       "excerpt": "Bioretention areas, or \"rain gardens,\" function as soil and plant-based filtration measures",
       "page_or_section": "Chapter 6.1, page 101"
     },
     {
-      "field": "practice_mentions.extended_detention",
+      "field": "design_parameters.practice_mentions.extended_detention",
       "excerpt": "Extended detention ponds (a.k.a. dry ponds or dry extended detention basins)",
       "page_or_section": "Chapter 6.8, page 134"
     },
     {
-      "field": "practice_mentions.green_roof",
+      "field": "design_parameters.practice_mentions.green_roof",
       "excerpt": "Green roofs listed as site design measure in Table 2-1",
       "page_or_section": "Chapter 2, page 33"
     },
     {
-      "field": "practice_mentions.swale",
+      "field": "design_parameters.practice_mentions.swale",
       "excerpt": "Vegetated swales are no longer considered stand-alone LID treatment systems in the MRP.",
       "page_or_section": "Glossary, page xxi"
     }

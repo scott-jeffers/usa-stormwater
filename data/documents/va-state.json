@@ -95,22 +95,22 @@
       "page_or_section": "Section 8.2.2.7, Page 8-40"
     },
     {
-      "field": "design_infiltration_rate_in_per_hr",
+      "field": "design_parameters.design_infiltration_rate_in_per_hr",
       "excerpt": "Infiltration practices are suitable for use in residential and other urban areas where measured soil permeability rates exceed 0.5 inch per hour.",
       "page_or_section": "8.2.2.4 Infiltration Practices, 8-37"
     },
     {
-      "field": "permanent_pool_depth_inches",
+      "field": "design_parameters.permanent_pool_depth_inches",
       "excerpt": "max. normal pool depth of 4 feet",
       "page_or_section": "Table 8.6 BMP Selection Matrix 4, 8-49"
     },
     {
-      "field": "ed_drain_time_hours",
+      "field": "design_parameters.ed_drain_time_hours",
       "excerpt": "Provide long ED (> 48 hrs) for max. bacteria die-off",
       "page_or_section": "Table 8.6 BMP Selection Matrix 4, 8-49"
     },
     {
-      "field": "wetland_detention_hours",
+      "field": "design_parameters.wetland_detention_hours",
       "excerpt": "Generally the goal is to hold the flows for at least 24 hours to maximize the opportunity of settling, adsorption, and transformation of pollutants",
       "page_or_section": "8.1.11 Peak Flow Reduction and Runoff Treatment, 8-19"
     }

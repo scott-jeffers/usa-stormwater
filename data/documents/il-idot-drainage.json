@@ -51,37 +51,37 @@
       "page_or_section": null
     },
     {
-      "field": "practice_mentions.extended_detention",
+      "field": "design_parameters.practice_mentions.extended_detention",
       "excerpt": "detention basin, retention basin, aggregate filter and manufactured devices",
       "page_or_section": "Chapter 8, Section 8-306 Best Management Practices, page 482"
     },
     {
-      "field": "practice_mentions.swale",
+      "field": "design_parameters.practice_mentions.swale",
       "excerpt": "vegetated swales and buffers",
       "page_or_section": "Chapter 8, Section 8-306 Best Management Practices, page 482"
     },
     {
-      "field": "practice_mentions.wet_pond",
+      "field": "design_parameters.practice_mentions.wet_pond",
       "excerpt": "Retention facilities are designed to contain a permanent pool of water.",
       "page_or_section": "Chapter 12, Section 12-001 Types, page 649"
     },
     {
-      "field": "practice_mentions.manufactured_treatment",
+      "field": "design_parameters.practice_mentions.manufactured_treatment",
       "excerpt": "manufactured devices",
       "page_or_section": "Chapter 8, Section 8-306 Best Management Practices, page 482"
     },
     {
-      "field": "enrich_notes",
+      "field": "design_parameters.enrich_notes",
       "excerpt": "The designer should establish pollutant removal goals then design BMPs that achieve those goals. The U.S. Environmental Protection Agency’s National Menu of Storm Water Best Management Practices ... the Illinois Urban Manual (IEPA/USDA, NRCS; latest version), and IDOT BDE Manual, Chapter 59",
       "page_or_section": "Chapter 8, Section 8-306, page 482"
     },
     {
-      "field": "enrich_notes",
+      "field": "design_parameters.enrich_notes",
       "excerpt": "a grade of at least 0.3 percent should be provided on all roadside ditches. Grades in the range of 0.4 percent to 0.6 percent are usually more desirable.",
       "page_or_section": "Chapter 9, Section 9-302 Considerations, page 501"
     },
     {
-      "field": "enrich_notes",
+      "field": "design_parameters.enrich_notes",
       "excerpt": "excavation should be limited to areas outside of the channel bank(s) and above the ground water table and/or the normal water elevation in the stream (or pool) (1 foot minimum is desirable).",
       "page_or_section": "Chapter 3, Section 3-403.01, page 165"
     }

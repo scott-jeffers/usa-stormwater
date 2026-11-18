@@ -60,22 +60,22 @@
       "page_or_section": "Atlas context (WQv method)"
     },
     {
-      "field": "practice_mentions.extended_detention",
+      "field": "design_parameters.practice_mentions.extended_detention",
       "excerpt": "EXTENDED DETENTION – A basin designed for retention and detention. The retention portion of the basin is below the basin outlet that holds water and allows infiltration or has an underdrain system that filters water.",
       "page_or_section": "DEFINITIONS, page 8"
     },
     {
-      "field": "practice_mentions.swale",
+      "field": "design_parameters.practice_mentions.swale",
       "excerpt": "The gutter flow from the street section must be conveyed into a receiving channel, roadside swale, or other approved means.",
       "page_or_section": "5.3.3.4 Curb and Gutter Terminations, page 37"
     },
     {
-      "field": "practice_mentions.bioretention",
+      "field": "design_parameters.practice_mentions.bioretention",
       "excerpt": "The order of preference for open channels and swales shall be: 1. The use of natural bio-filters to promote infiltration and water quality treatment.",
       "page_or_section": "5.3.7.7 Channel Linings, page 61"
     },
     {
-      "field": "practice_mentions.infiltration_basin",
+      "field": "design_parameters.practice_mentions.infiltration_basin",
       "excerpt": "RETENTION BASIN – is a stormwater storage facility which reduces runoff and is drained by subsurface infiltration or reuse instead of a positive outlet.",
       "page_or_section": "DEFINITIONS, page 10"
     }

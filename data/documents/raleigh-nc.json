@@ -68,32 +68,32 @@
       "page_or_section": "SCM chapters"
     },
     {
-      "field": "shwt_separation_inches",
+      "field": "design_parameters.shwt_separation_inches",
       "excerpt": "The depth to the SHWT shall be a minimum of 12 inches measured from the lowest ground surface elevation.",
       "page_or_section": "6.5.9 Level Spreader – Filter Strip (LS-FS), page 6-22"
     },
     {
-      "field": "ed_drain_time_hours",
+      "field": "design_parameters.ed_drain_time_hours",
       "excerpt": "If not designing for nutrient removal credit, maximum drawdown time is 2 days.",
       "page_or_section": "6.5.12 Dry Pond, page 6-25"
     },
     {
-      "field": "length_to_width_ratio",
+      "field": "design_parameters.length_to_width_ratio",
       "excerpt": "A minimum flow length to width ratio (L:W) shall be 3:1.",
       "page_or_section": "6.5.4 Stormwater Wetland, page 6-16"
     },
     {
-      "field": "length_to_width_ratio",
+      "field": "design_parameters.length_to_width_ratio",
       "excerpt": "If designing for nutrient removal credit, the flow length to pond width ratio (L:W) shall be 3:1.",
       "page_or_section": "6.5.12 Dry Pond, page 6-25"
     },
     {
-      "field": "swale_bottom_width_inches",
+      "field": "design_parameters.swale_bottom_width_inches",
       "excerpt": "Minimum swale bottom width of 2 feet.",
       "page_or_section": "6.5.2 Bioretention pretreatment, page 6-12"
     },
     {
-      "field": "swale_longitudinal_slope_percent",
+      "field": "design_parameters.swale_longitudinal_slope_percent",
       "excerpt": "Vegetated Swale: maximum longitudinal slope of 5%, 2% preferred.",
       "page_or_section": "6.5.2 Bioretention pretreatment, page 6-12"
     }

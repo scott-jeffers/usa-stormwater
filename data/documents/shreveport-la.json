@@ -63,27 +63,27 @@
       "page_or_section": "Coverage note"
     },
     {
-      "field": "practice_mentions.extended_detention",
+      "field": "design_parameters.practice_mentions.extended_detention",
       "excerpt": "Section 9 Stormwater Detention 9-1 ... 9.3 Minimum Requirements for Detention Basin Design",
       "page_or_section": "Table of Contents / Section 9"
     },
     {
-      "field": "practice_mentions.permeable_pavement",
+      "field": "design_parameters.practice_mentions.permeable_pavement",
       "excerpt": "Examples of green infrastructure ... permeable pavement, green roofs, bioswales/stormwater parks",
       "page_or_section": "Section 11.2 Green Infrastructure Types, page 317"
     },
     {
-      "field": "practice_mentions.green_roof",
+      "field": "design_parameters.practice_mentions.green_roof",
       "excerpt": "Examples of green infrastructure ... permeable pavement, green roofs, bioswales/stormwater parks",
       "page_or_section": "Section 11.2 Green Infrastructure Types, page 317"
     },
     {
-      "field": "practice_mentions.swale",
+      "field": "design_parameters.practice_mentions.swale",
       "excerpt": "Inlets can be placed in roadside ditches, grass or lined swales, parking or pavement area depressions",
       "page_or_section": "Section 4.4 Inlet Placement, page 78"
     },
     {
-      "field": "practice_mentions.bioretention",
+      "field": "design_parameters.practice_mentions.bioretention",
       "excerpt": "rain gardens/bioretention, cisterns and rainfall harvesting devices, subsurface infiltration",
       "page_or_section": "Section 11.2 Green Infrastructure Types, page 317"
     }

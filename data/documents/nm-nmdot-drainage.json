@@ -66,17 +66,17 @@
       "page_or_section": "Section 701 MS4, page 7-10"
     },
     {
-      "field": "practice_mentions.wet_pond",
+      "field": "design_parameters.practice_mentions.wet_pond",
       "excerpt": "Retention storage facilities which may have a permanent pool (wet pond) are often discouraged",
       "page_or_section": "Section 506.7, page 5-123"
     },
     {
-      "field": "practice_mentions.swale",
+      "field": "design_parameters.practice_mentions.swale",
       "excerpt": "Gutter sections can be categorized as conventional or shallow swale type as illustrated in Figure 504-1.",
       "page_or_section": "Section 504.2.1 Curb and Gutter, page 5-56"
     },
     {
-      "field": "practice_mentions.extended_detention",
+      "field": "design_parameters.practice_mentions.extended_detention",
       "excerpt": "DETENTION PONDS (Non-Jurisdictional) ... Drain Time Rural and Urban - must drain in less than 96 hours",
       "page_or_section": "Table 207-1, page 2-14"
     }

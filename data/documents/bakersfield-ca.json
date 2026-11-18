@@ -77,22 +77,22 @@
       "page_or_section": "Division Four chapters"
     },
     {
-      "field": "max_drawdown_hours",
+      "field": "design_parameters.max_drawdown_hours",
       "excerpt": "Retention basins shall not be permitted unless it can be demonstrated, to the satisfaction of the Director, that the basin will completely drain the design volume within seven (7) days.",
       "page_or_section": "Sec. 408-8.01, CHAPTER VIII (page 16)"
     },
     {
-      "field": "practice_mentions.infiltration_basin",
+      "field": "design_parameters.practice_mentions.infiltration_basin",
       "excerpt": "RETENTION BASIN: is a terminal storm water facility for the storage of runoff. Commonly referred to as a sump.",
       "page_or_section": "Sec. 402-1.24 Definitions (page 4)"
     },
     {
-      "field": "practice_mentions.extended_detention",
+      "field": "design_parameters.practice_mentions.extended_detention",
       "excerpt": "DETENTION BASIN: is a storm water facility designed to affect flood hydrograph peak attenuation.",
       "page_or_section": "Sec. 402-1.11 Definitions (page 3)"
     },
     {
-      "field": "practice_mentions.extended_detention",
+      "field": "design_parameters.practice_mentions.extended_detention",
       "excerpt": "The design flow into the basin shall be the ISDD five-day runoff hydrograph.",
       "page_or_section": "Sec. 409-1, CHAPTER IX (page 17)"
     }

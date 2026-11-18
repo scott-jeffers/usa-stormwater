@@ -80,32 +80,32 @@
       "page_or_section": "TOC"
     },
     {
-      "field": "practice_mentions.swale",
+      "field": "design_parameters.practice_mentions.swale",
       "excerpt": "Open Channels and Swales ... Facilities shall be designed to convey the flood produced by the regulatory 1% (100- year) storm with one (1) foot of freeboard.",
       "page_or_section": "Stormwater Policy & Standards / page 310 (tulsa-ok-c0050)"
     },
     {
-      "field": "practice_mentions.swale",
+      "field": "design_parameters.practice_mentions.swale",
       "excerpt": "A swale shall be designed within the overland drainage easement. The swale shall be sized to convey the regulatory 1% (100-year) flow rate under fully urbanized conditions",
       "page_or_section": "Stormwater Policy & Standards / page 310 (tulsa-ok-c0050)"
     },
     {
-      "field": "practice_mentions.extended_detention",
+      "field": "design_parameters.practice_mentions.extended_detention",
       "excerpt": "The peak flows from development shall be controlled by on-site detention, or by regional detention identified in the adopted City master drainage plans",
       "page_or_section": "Executive Summary Administrative Provisions / page 101 (tulsa-ok-c0017)"
     },
     {
-      "field": "practice_mentions.bioretention",
+      "field": "design_parameters.practice_mentions.bioretention",
       "excerpt": "post-construction storm water controls such as ponds, wetlands, bioswales, or rain gardens, if known, should be defined.",
       "page_or_section": "Construction Phase Stormwater Pollution Prevention / page 1005 (tulsa-ok-c0158)"
     },
     {
-      "field": "practice_mentions.wet_pond",
+      "field": "design_parameters.practice_mentions.wet_pond",
       "excerpt": "For wet ponds, A. The bottom area will normally be inundated.",
       "page_or_section": "Maintenance and Design / page 1206 (tulsa-ok-c0165)"
     },
     {
-      "field": "practice_mentions.constructed_wetland",
+      "field": "design_parameters.practice_mentions.constructed_wetland",
       "excerpt": "The use of wetlands for treatment of urban runoff water quality has been shown to be effective (Chapter 1000).",
       "page_or_section": "Maintenance and Design / page 1207 (tulsa-ok-c0166)"
     }

@@ -63,22 +63,22 @@
       "page_or_section": "5.1 Post-Construction BMP Policy, page 5-1"
     },
     {
-      "field": "practice_mentions.wet_pond",
+      "field": "design_parameters.practice_mentions.wet_pond",
       "excerpt": "Design permanent water quality ponds and detention structures having a permanent pool elevation to store and release the first ½ inch of runoff",
       "page_or_section": "3.3.3.1, page 3-8"
     },
     {
-      "field": "practice_mentions.extended_detention",
+      "field": "design_parameters.practice_mentions.extended_detention",
       "excerpt": "Dry stormwater ponds are constructed stormwater basins that do not have a permanent pool of water.",
       "page_or_section": "Table 2, page 5-4"
     },
     {
-      "field": "practice_mentions.infiltration_trench",
+      "field": "design_parameters.practice_mentions.infiltration_trench",
       "excerpt": "Design permanent water quality infiltration practices to accommodate, at a minimum, the first one (1) inch of runoff from impervious areas",
       "page_or_section": "3.3.3.1, page 3-8"
     },
     {
-      "field": "practice_mentions.manufactured_treatment",
+      "field": "design_parameters.practice_mentions.manufactured_treatment",
       "excerpt": "Design MTDs to treat at a minimum the peak flow rate of the stormwater runoff from the 1.8-inch, 1-year, 24-hour storm event",
       "page_or_section": "3.3.3.1, page 3-8"
     },

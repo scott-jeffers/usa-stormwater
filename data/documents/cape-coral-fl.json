@@ -81,12 +81,12 @@
       "page_or_section": "9.4–9.6"
     },
     {
-      "field": "practice_mentions.swale",
+      "field": "design_parameters.practice_mentions.swale",
       "excerpt": "If the mains are placed beneath a swale, the depth of cover may be reduced to 30\" below the finished grade of the swale.",
       "page_or_section": "Section 2.1 GENERAL, page 11"
     },
     {
-      "field": "practice_mentions.swale",
+      "field": "design_parameters.practice_mentions.swale",
       "excerpt": "If inlet is located at the bottom of the swale the two front bleed downs will be filled with grout. If the inlet is located in the bank of the swale, the 2 side bleed downs will be filled with grout.",
       "page_or_section": "Section 9.4 CATCH BASINS, page 59"
     }

@@ -89,12 +89,12 @@
       "page_or_section": "ACRONYMS, ABBREVIATIONS AND DEFINITIONS, page 14"
     },
     {
-      "field": "practice_mentions.bioretention",
+      "field": "design_parameters.practice_mentions.bioretention",
       "excerpt": "BIORETENTION A-64",
       "page_or_section": "APPENDIX E table of contents, page 8"
     },
     {
-      "field": "practice_mentions.swale",
+      "field": "design_parameters.practice_mentions.swale",
       "excerpt": "Examples of treatment controls include: vegetated swales, extended detention basins, vegetated buffer strips, Bioretention areas, and media filters.",
       "page_or_section": "ACRONYMS, ABBREVIATIONS AND DEFINITIONS, page 14"
     }

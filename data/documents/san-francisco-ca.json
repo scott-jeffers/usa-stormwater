@@ -128,7 +128,7 @@
       "page_or_section": "Chapter 5 Figure 7 Combined Sewer Area BMP Hierarchy"
     },
     {
-      "field": "fields_not_found",
+      "field": "extraction_quality.fields_not_found",
       "excerpt": "percentile, 24-hour storm. This storm translates to a rainfall depth of approximately 0.63",
       "page_or_section": "p88"
     },

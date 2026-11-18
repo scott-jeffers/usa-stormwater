@@ -116,22 +116,22 @@
       "page_or_section": "6.7 Wet Bioswale, Page 6.7-10"
     },
     {
-      "field": "practice_mentions.bioretention",
+      "field": "design_parameters.practice_mentions.bioretention",
       "excerpt": "Bioretention areas are LID‐WQPs that capture and infiltrate (or temporarily store) the water quality volume (WQV)",
       "page_or_section": "6.5 Bioretention, Page 6.5-2"
     },
     {
-      "field": "practice_mentions.swale",
+      "field": "design_parameters.practice_mentions.swale",
       "excerpt": "Maximum ponding in the wet bioswale is 18 inches.",
       "page_or_section": "6.7 Wet Bioswale, Page 6.7-10"
     },
     {
-      "field": "practice_mentions.constructed_wetland",
+      "field": "design_parameters.practice_mentions.constructed_wetland",
       "excerpt": "Engineered wetlands cannot be used for extended detention",
       "page_or_section": "6.11 Engineered Wetland, Page 6.11-3"
     },
     {
-      "field": "practice_mentions.manufactured_treatment",
+      "field": "design_parameters.practice_mentions.manufactured_treatment",
       "excerpt": "LID‐MTDs ... Varies by MTD",
       "page_or_section": "Table 6.4, Page 6-5"
     }

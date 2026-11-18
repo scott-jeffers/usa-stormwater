@@ -52,12 +52,12 @@
       "page_or_section": "Chapter 10: Trees and Landscape pg. 190 (10.2.2.1 Bioretention Planting Soils)"
     },
     {
-      "field": "practice_mentions.permeable_pavement",
+      "field": "design_parameters.practice_mentions.permeable_pavement",
       "excerpt": "A maximum 8% longitudinal slope shall be applied to the system unless otherwise approved. Subgrade slopes greater than 3% should include check dams or baffles.",
       "page_or_section": "Chapter 5: Stormwater Management pg. 111 (5.5.1 Permeable interlocking concrete pavers)"
     },
     {
-      "field": "practice_mentions.bioretention",
+      "field": "design_parameters.practice_mentions.bioretention",
       "excerpt": "If underdrains are proposed, the maximum stone depth permitted to be used in the quality calculations is 18 inches.",
       "page_or_section": "Chapter 5: Stormwater Management pg. 110 (Green Stormwater Infrastructure — Bioretention)"
     }

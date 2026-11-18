@@ -54,22 +54,22 @@
       "page_or_section": "Table 3-3, page 3-17"
     },
     {
-      "field": "practice_mentions.wet_pond",
+      "field": "design_parameters.practice_mentions.wet_pond",
       "excerpt": "Volume-based (on-line) Wetpool – Size the wetpool to store the 91st percentile, 24-hour runoff volume as calculated by MGSFlood.",
       "page_or_section": "Table 3-3, page 3-17"
     },
     {
-      "field": "practice_mentions.constructed_wetland",
+      "field": "design_parameters.practice_mentions.constructed_wetland",
       "excerpt": "Refer to Section 5-4.1.4 for additional information on the Constructed Stormwater Treatment Wetland (see BMP RT.13).",
       "page_or_section": "Section 3-3.7, page 3-29"
     },
     {
-      "field": "practice_mentions.permeable_pavement",
+      "field": "design_parameters.practice_mentions.permeable_pavement",
       "excerpt": "Model pervious pavement as grass in this analysis.",
       "page_or_section": "Section 3-3.6.4 Guidelines, page 3-24"
     },
     {
-      "field": "practice_mentions.extended_detention",
+      "field": "design_parameters.practice_mentions.extended_detention",
       "excerpt": "Flow-based: downstream of flow control facility — Size treatment facility or facilities using the full 2-year release rate from the detention facility.",
       "page_or_section": "Table 3-3, page 3-17"
     }

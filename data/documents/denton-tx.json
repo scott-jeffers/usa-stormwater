@@ -90,12 +90,12 @@
       "page_or_section": "Section 4.13.4 Construction Erosion and Sediment Control Requirements, page 73"
     },
     {
-      "field": "practice_mentions.extended_detention",
+      "field": "design_parameters.practice_mentions.extended_detention",
       "excerpt": "For water quality, refer to Section 2.2.3 for design of extended detention outlets.",
       "page_or_section": "Section 4.9.6 Outlet Structures for Detention Facilities, page 66"
     },
     {
-      "field": "practice_mentions.swale",
+      "field": "design_parameters.practice_mentions.swale",
       "excerpt": "Open channels, including all natural or improved channels, swales, and ditches shall be designed for the \"Flood Mitigation\" storm event.",
       "page_or_section": "Section 4.6.3 Open Channels, page 55"
     }

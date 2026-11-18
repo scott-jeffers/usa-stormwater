@@ -129,7 +129,7 @@
       "page_or_section": "Section 5.5 / Table, Page 5-13"
     },
     {
-      "field": "fields_not_found",
+      "field": "extraction_quality.fields_not_found",
       "excerpt": "runoff produced from a 24-hour, 85th percentile storm event (Design Capture Volume (DCV)). The 24-hour, 85th percentile storm event shall be based on Figure B.1-1 in Appendix B",
       "page_or_section": "p56"
     },

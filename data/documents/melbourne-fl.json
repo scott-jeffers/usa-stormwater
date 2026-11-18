@@ -83,12 +83,12 @@
       "page_or_section": "Section 4.3 Sizing Requirements / page 108"
     },
     {
-      "field": "practice_mentions.swale",
+      "field": "design_parameters.practice_mentions.swale",
       "excerpt": "Longitudinal slope between 0.5 percent and 3 percent.",
       "page_or_section": "Section 4.3 Design Criteria / page 105"
     },
     {
-      "field": "practice_mentions.permeable_pavement",
+      "field": "design_parameters.practice_mentions.permeable_pavement",
       "excerpt": "If the pervious pavement system infiltration rates measured using the installed testing device are less than 1.5 inches per hour, maintenance must be performed",
       "page_or_section": "Section 4.5 Maintenance Requirements / page 136"
     }

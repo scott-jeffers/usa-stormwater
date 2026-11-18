@@ -110,7 +110,7 @@
       "page_or_section": "Table 10-1, Section 10.2, Page 10-1"
     },
     {
-      "field": "fields_not_found",
+      "field": "extraction_quality.fields_not_found",
       "excerpt": "based on 0.5 inches of runoff volume over a 24-hour",
       "page_or_section": "p90"
     },
@@ -125,22 +125,22 @@
       "page_or_section": "SC-2 Sediment/Desilting Basin, page 83"
     },
     {
-      "field": "practice_mentions.bioretention",
+      "field": "design_parameters.practice_mentions.bioretention",
       "excerpt": "Bioretention • Drain time does not exceed 96 hours after end of rain event",
       "page_or_section": "Section 10.4 TBMP Maintenance Indicators, page 237"
     },
     {
-      "field": "practice_mentions.permeable_pavement",
+      "field": "design_parameters.practice_mentions.permeable_pavement",
       "excerpt": "Porous Pavement (Non-Highway Facilities Only)",
       "page_or_section": "Table 10-1 Approved TBMPs, page 233"
     },
     {
-      "field": "practice_mentions.sand_filter",
+      "field": "design_parameters.practice_mentions.sand_filter",
       "excerpt": "Drain time does not exceed 72 hours (in the filter chamber for Delaware Sand Filter)",
       "page_or_section": "Section 10.4 Media Filters, page 237"
     },
     {
-      "field": "practice_mentions.swale",
+      "field": "design_parameters.practice_mentions.swale",
       "excerpt": "There is more than 70 percent background coverage of vegetation in swale invert and swale side slope",
       "page_or_section": "Section 10.4 Biofiltration Systems, page 236"
     }

@@ -89,27 +89,27 @@
       "page_or_section": "Table of Contents, Chapter 7 Dewatering"
     },
     {
-      "field": "practice_mentions.swale",
+      "field": "design_parameters.practice_mentions.swale",
       "excerpt": "they improve the efficiency of other sediment controls, such as vegetated swales, filter strips, or infiltration devices",
       "page_or_section": "sd-dot-esc-c0017, page 16, Slope Flow Control"
     },
     {
-      "field": "practice_mentions.swale",
+      "field": "design_parameters.practice_mentions.swale",
       "excerpt": "Check dams – are small dams constructed in an open channel, swale, or ditch.",
       "page_or_section": "sd-dot-esc-c0018, page 17, Channel Velocity Control"
     },
     {
-      "field": "practice_mentions.swale",
+      "field": "design_parameters.practice_mentions.swale",
       "excerpt": "structural stormwater management practices such as stormwater ponds, open vegetated swales, natural depressions to allow infiltration of runoff onsite",
       "page_or_section": "sd-dot-esc-c0122, page 95, 5.3 SWPPP Post-Construction Stormwater Management"
     },
     {
-      "field": "practice_mentions.wet_pond",
+      "field": "design_parameters.practice_mentions.wet_pond",
       "excerpt": "structural stormwater management practices such as stormwater ponds, open vegetated swales, natural depressions to allow infiltration of runoff onsite",
       "page_or_section": "sd-dot-esc-c0122, page 95"
     },
     {
-      "field": "practice_mentions.infiltration_basin",
+      "field": "design_parameters.practice_mentions.infiltration_basin",
       "excerpt": "natural depressions to allow infiltration of runoff onsite",
       "page_or_section": "sd-dot-esc-c0122, page 95"
     },

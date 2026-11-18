@@ -62,17 +62,17 @@
       "page_or_section": "Section 3.1.14, Drainage Design Requirements 3-3 (mesquite-tx-c0065)"
     },
     {
-      "field": "practice_mentions.swale",
+      "field": "design_parameters.practice_mentions.swale",
       "excerpt": "Drop inlets shall only be located to collect water on non-paved areas where it is not practical to use a headwall, such as swales.",
       "page_or_section": "Section 3.4, Drainage Design Requirements 3-18 (mesquite-tx-c0078)"
     },
     {
-      "field": "practice_mentions.extended_detention",
+      "field": "design_parameters.practice_mentions.extended_detention",
       "excerpt": "Detention Basin – A dry basin or depression constructed to temporarily store stormwater runoff and discharge the water over time at a reduced rate than would have otherwise occurred.",
       "page_or_section": "Section 9 Definitions, 9-2 (mesquite-tx-c0171)"
     },
     {
-      "field": "practice_mentions.extended_detention",
+      "field": "design_parameters.practice_mentions.extended_detention",
       "excerpt": "Detention/Retention Facilities and Levees – An easement must encompass the entire facility plus 15 feet on all sides measured from the top of bank.",
       "page_or_section": "Section 1.8.8.E, General Design Requirements 1-8 (mesquite-tx-c0008)"
     }

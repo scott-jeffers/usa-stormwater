@@ -51,7 +51,7 @@
       "page_or_section": null
     },
     {
-      "field": "practice_mentions.extended_detention",
+      "field": "design_parameters.practice_mentions.extended_detention",
       "excerpt": "For structures that are designed to control the volume of runoff (e.g., detention storage facilities) or where flood routing through culverts is used, the entire discharge hydrograph is of interest.",
       "page_or_section": "9.1.1 Definition / page 4"
     }

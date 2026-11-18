@@ -101,12 +101,12 @@
       "page_or_section": "Chapter 11, 11.7.4 Detention Time / page 121 (c0139)"
     },
     {
-      "field": "practice_mentions.extended_detention",
+      "field": "design_parameters.practice_mentions.extended_detention",
       "excerpt": "SWM wet ponds and extended detention ponds that are not covered by the Impounding Structure Regulations",
       "page_or_section": "11.3.5 Impounding Facilities / page 9 (c0030)"
     },
     {
-      "field": "practice_mentions.manufactured_treatment",
+      "field": "design_parameters.practice_mentions.manufactured_treatment",
       "excerpt": "Manufactured Treatment Devices (MTDs) or proprietary BMPs accepted by DEQ may be utilized, when accepted by VDOT",
       "page_or_section": "Chapter 11 / page 16 (c0049)"
     }

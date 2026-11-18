@@ -101,12 +101,12 @@
       "page_or_section": "Chapter 3, Section 3.1.4 Pond Treatment Criteria, page 92"
     },
     {
-      "field": "practice_mentions.extended_detention",
+      "field": "design_parameters.practice_mentions.extended_detention",
       "excerpt": "Cpv = 24 hour (12 hour in USE III and IV watersheds) extended detention of post-developed one-year, 24 hour storm event",
       "page_or_section": "Chapter 2, Table 2.1, page 39"
     },
     {
-      "field": "practice_mentions.infiltration_basin",
+      "field": "design_parameters.practice_mentions.infiltration_basin",
       "excerpt": "I-2 infiltration basin ... capture and temporarily store the WQv before allowing it to infiltrate into the soil over a two day period",
       "page_or_section": "Chapter 2, Section 2.7, page 76"
     }

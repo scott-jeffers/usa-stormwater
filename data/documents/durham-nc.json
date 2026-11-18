@@ -85,12 +85,12 @@
       "page_or_section": "Field Checklist for Open Sand Filters, page 186 (also Closed Sand Filter, page 193)"
     },
     {
-      "field": "practice_mentions.bioretention",
+      "field": "design_parameters.practice_mentions.bioretention",
       "excerpt": "Infiltration SCMs include bioretention cells, sand filters that are open on the bottom, permeable pavement",
       "page_or_section": "8.1.5 Potential SCM Location Issues, page 140"
     },
     {
-      "field": "practice_mentions.sand_filter",
+      "field": "design_parameters.practice_mentions.sand_filter",
       "excerpt": "For sand filters: cleaned, washed, coarse concrete sand such as ASTM C33. The sand particles shall be less than 2 mm average diameter.",
       "page_or_section": "Materials Certification for SCMs with Filter Media, page 175"
     }

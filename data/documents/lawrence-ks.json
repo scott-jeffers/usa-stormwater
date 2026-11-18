@@ -51,22 +51,22 @@
       "page_or_section": "Section 9.3 / Lake Alvamar criteria"
     },
     {
-      "field": "practice_mentions.extended_detention",
+      "field": "design_parameters.practice_mentions.extended_detention",
       "excerpt": "Dry Detention Facility: Any detention facility designed to permit no permanent impoundment of water.",
       "page_or_section": "1.4 Definitions / page 12"
     },
     {
-      "field": "practice_mentions.wet_pond",
+      "field": "design_parameters.practice_mentions.wet_pond",
       "excerpt": "Wet Detention Facility: A detention facility that is designed to include permanent storage of water in addition to the temporary storage used to control discharge rates from the facility.",
       "page_or_section": "1.4 Definitions / page 12"
     },
     {
-      "field": "practice_mentions.swale",
+      "field": "design_parameters.practice_mentions.swale",
       "excerpt": "All or a portion of the detention storage may also be provided in underground or surface detention areas, including, but not limited to, oversized storm sewers, vaults, tanks, swales, etc.",
       "page_or_section": "9.8.G Other Detention / page 37"
     },
     {
-      "field": "enrich_notes.parking_lot_detention_depth",
+      "field": "design_parameters.enrich_notes.parking_lot_detention_depth",
       "excerpt": "Depths of storage shall be limited to a maximum of seven inches with such areas located so that access to and from parking areas is not impaired.",
       "page_or_section": "9.8.F Parking Lot Detention / page 37"
     }

@@ -99,27 +99,27 @@
       "page_or_section": "Material Specifications for Permeable Pavements, page 24"
     },
     {
-      "field": "practice_mentions.permeable_pavement",
+      "field": "design_parameters.practice_mentions.permeable_pavement",
       "excerpt": "The slope of the surface of the permeable pavement systems shall be from 1 to 10 percent",
       "page_or_section": "2.2.4 Permeable Pavement, page 22"
     },
     {
-      "field": "practice_mentions.bioretention",
+      "field": "design_parameters.practice_mentions.bioretention",
       "excerpt": "Bioretention facilities may not be constructed on slopes steeper than 15 percent",
       "page_or_section": "2.2.4 Bioretention, page 28"
     },
     {
-      "field": "practice_mentions.green_roof",
+      "field": "design_parameters.practice_mentions.green_roof",
       "excerpt": "All of the design specifications are taken from the Handbook 8.31. P-FIL-02",
       "page_or_section": "Vegetated Roof, page 22"
     },
     {
-      "field": "practice_mentions.infiltration_trench",
+      "field": "design_parameters.practice_mentions.infiltration_trench",
       "excerpt": "The maximum length or width of an infiltration trench is 16 feet or less for SFD infill project",
       "page_or_section": "Infiltration Practices, page 25"
     },
     {
-      "field": "practice_mentions.extended_detention",
+      "field": "design_parameters.practice_mentions.extended_detention",
       "excerpt": "2.9.5.3 Detention tanks",
       "page_or_section": "Alternative Compliance Option, page 44"
     }

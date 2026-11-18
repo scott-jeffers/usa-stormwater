@@ -48,32 +48,32 @@
       "page_or_section": "page 14, Table 3 / Post-Construction Structural BMPs"
     },
     {
-      "field": "practice_mentions.bioretention",
+      "field": "design_parameters.practice_mentions.bioretention",
       "excerpt": "Bioretention",
       "page_or_section": "page 14, Table 3 Stormwater Filtering System"
     },
     {
-      "field": "practice_mentions.permeable_pavement",
+      "field": "design_parameters.practice_mentions.permeable_pavement",
       "excerpt": "Permeable Pavement",
       "page_or_section": "page 14, Table 3 Alternative Surface Materials"
     },
     {
-      "field": "practice_mentions.green_roof",
+      "field": "design_parameters.practice_mentions.green_roof",
       "excerpt": "Green Roof",
       "page_or_section": "page 14, Table 3 Alternative Surface Materials"
     },
     {
-      "field": "practice_mentions.swale",
+      "field": "design_parameters.practice_mentions.swale",
       "excerpt": "Dry Swale • Wet Swale",
       "page_or_section": "page 14, Table 3 Open Channel Systems"
     },
     {
-      "field": "practice_mentions.manufactured_treatment",
+      "field": "design_parameters.practice_mentions.manufactured_treatment",
       "excerpt": "Hydrodynamic Separator Devices • MSD Approved Devices",
       "page_or_section": "page 14, Table 3"
     },
     {
-      "field": "practice_mentions.extended_detention",
+      "field": "design_parameters.practice_mentions.extended_detention",
       "excerpt": "Micropool Extended-Detention (ED) Ponds ... Wet ED Ponds ... ED Shallow Wetland",
       "page_or_section": "page 14, Table 3"
     }

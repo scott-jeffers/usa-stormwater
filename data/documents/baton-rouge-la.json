@@ -82,57 +82,57 @@
       "page_or_section": "Table of Contents, Chapter 3"
     },
     {
-      "field": "permeable_pavement_storage_depth_inches",
+      "field": "design_parameters.permeable_pavement_storage_depth_inches",
       "excerpt": "The soil excavated for the four-feet of subsurface storage system was used as fill under the building.",
       "page_or_section": "STORMWATER MANAGEMENT PLANNING PROCESS, page 30"
     },
     {
-      "field": "design_infiltration_rate_in_per_hr",
+      "field": "design_parameters.design_infiltration_rate_in_per_hr",
       "excerpt": "pervious concrete which allows water to drain off the parking surface at a rate more rapid than any storm (up to 50 inches per hour)",
       "page_or_section": "STORMWATER MANAGEMENT PLANNING PROCESS, page 30"
     },
     {
-      "field": "practice_mentions.extended_detention",
+      "field": "design_parameters.practice_mentions.extended_detention",
       "excerpt": "Dry ponds, also known as detention ponds, are designed to hold water for a minimum time and then completely drain.",
       "page_or_section": "CHAPTER 5 STORMWATER BMPs, Dry Pond, page 38"
     },
     {
-      "field": "practice_mentions.wet_pond",
+      "field": "design_parameters.practice_mentions.wet_pond",
       "excerpt": "Wet ponds, also known as stormwater ponds or retention / detention ponds, are permanent bodies of water.",
       "page_or_section": "CHAPTER 5 STORMWATER BMPs, Wet Pond, page 38"
     },
     {
-      "field": "practice_mentions.permeable_pavement",
+      "field": "design_parameters.practice_mentions.permeable_pavement",
       "excerpt": "Pervious concrete was designed for all the parking spaces.",
       "page_or_section": "STORMWATER MANAGEMENT PLANNING PROCESS, page 30"
     },
     {
-      "field": "practice_mentions.bioretention",
+      "field": "design_parameters.practice_mentions.bioretention",
       "excerpt": "Rain Gardens are depressed landscaped areas that detain and treat stormwater runoff.",
       "page_or_section": "FILTRATION SYSTEMS, Rain Garden, page 49"
     },
     {
-      "field": "practice_mentions.swale",
+      "field": "design_parameters.practice_mentions.swale",
       "excerpt": "Bioswales act as filtration devices in place of typical swales.",
       "page_or_section": "FILTRATION SYSTEMS, Bioswale, page 44"
     },
     {
-      "field": "practice_mentions.sand_filter",
+      "field": "design_parameters.practice_mentions.sand_filter",
       "excerpt": "Sand Filter Basins are designed as a two chambered device with the first chamber designed for the settlement of large particles",
       "page_or_section": "FILTRATION SYSTEMS, Sand Filter Basin, page 47"
     },
     {
-      "field": "practice_mentions.constructed_wetland",
+      "field": "design_parameters.practice_mentions.constructed_wetland",
       "excerpt": "Constructed wetlands provide for a progressive cleaning of stormwater before it drains into surface water.",
       "page_or_section": "FILTRATION SYSTEMS, Water Quality Wetlands, page 49"
     },
     {
-      "field": "practice_mentions.green_roof",
+      "field": "design_parameters.practice_mentions.green_roof",
       "excerpt": "Green roofs are designed to intercept rainwater that falls on a roof, allowing plants to filter and uptake the water.",
       "page_or_section": "FILTRATION SYSTEMS, Green Roof, page 50"
     },
     {
-      "field": "practice_mentions.manufactured_treatment",
+      "field": "design_parameters.practice_mentions.manufactured_treatment",
       "excerpt": "Catch Basin Inserts are manufactured devices used to capture settlement and debris from stormwater before flowing through the system.",
       "page_or_section": "FILTRATION SYSTEMS, Catch Basin Insert, page 48"
     }

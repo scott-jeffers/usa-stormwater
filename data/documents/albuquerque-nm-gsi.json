@@ -91,22 +91,22 @@
       "page_or_section": "Pervious Pavement DPM DETAIL 9.0, page 18"
     },
     {
-      "field": "practice_mentions.swale",
+      "field": "design_parameters.practice_mentions.swale",
       "excerpt": "Bioswales are linear stormwater management features used to convey, slow, and treat runoff",
       "page_or_section": "Bioswale 1.0, page 7"
     },
     {
-      "field": "practice_mentions.infiltration_trench",
+      "field": "design_parameters.practice_mentions.infiltration_trench",
       "excerpt": "TYPE 2 INFILTRATION TRENCH CONCENTRATED INLET",
       "page_or_section": "Infiltration Trench 3.0, page 9"
     },
     {
-      "field": "practice_mentions.permeable_pavement",
+      "field": "design_parameters.practice_mentions.permeable_pavement",
       "excerpt": "Pervious pavement refers to a wide variety of surfaces... that effectively treat, detains, and infiltrates stormwater runoff",
       "page_or_section": "Pervious Pavement 9.0, page 18"
     },
     {
-      "field": "practice_mentions.bioretention",
+      "field": "design_parameters.practice_mentions.bioretention",
       "excerpt": "Bioretention See 'Bioinfiltration.' which is more accurate for a New Mexico context.",
       "page_or_section": "Glossary DPM DETAIL 14.0, page 25"
     }

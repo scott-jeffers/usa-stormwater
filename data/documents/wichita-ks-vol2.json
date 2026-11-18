@@ -120,7 +120,7 @@
       "page_or_section": "Section 1.3.6 Summary, page 1-7"
     },
     {
-      "field": "practice_mentions",
+      "field": "design_parameters.practice_mentions",
       "excerpt": "Examples include detention and retention ponds, constructed wetlands, bioretention areas, infiltration trenches, and engineered swales.",
       "page_or_section": "Section 1.5, page 1-8"
     }

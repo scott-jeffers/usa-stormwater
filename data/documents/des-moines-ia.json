@@ -81,12 +81,12 @@
       "page_or_section": "2A-1 D. Unified Sizing Criteria, Table 2A-1.01 Channel Protection Storage Volume, Cpv (page 9)"
     },
     {
-      "field": "practice_mentions.extended_detention",
+      "field": "design_parameters.practice_mentions.extended_detention",
       "excerpt": "Channel Protection Storage Volume, Cpv ... Provide 24 hours of extended detention",
       "page_or_section": "Table 2A-1.01 (page 9)"
     },
     {
-      "field": "practice_mentions.swale",
+      "field": "design_parameters.practice_mentions.swale",
       "excerpt": "Open Channel Flow - Swales and Ditches: 1) Describe swale and ditch design.",
       "page_or_section": "2A-4 Project Drainage Report, 4.d (page 22)"
     }

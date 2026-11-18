@@ -77,7 +77,7 @@
       "page_or_section": "Section 4.2, Page 1-17"
     },
     {
-      "field": "practice_mentions",
+      "field": "design_parameters.practice_mentions",
       "excerpt": "bioretention, extended detention basins, sand filters, constructed wetland ponds, and retention ponds.",
       "page_or_section": "p19"
     },
@@ -87,42 +87,42 @@
       "page_or_section": "Chapter 1, page 11, Common Stormwater Management Terms (WQCV definition)"
     },
     {
-      "field": "practice_mentions.bioretention",
+      "field": "design_parameters.practice_mentions.bioretention",
       "excerpt": "Bioretention (rain gardens): The use of distributed on-site vegetated features such as rain gardens can help maintain natural drainage patterns",
       "page_or_section": "Chapter 1, Section 4.1, page 17"
     },
     {
-      "field": "practice_mentions.permeable_pavement",
+      "field": "design_parameters.practice_mentions.permeable_pavement",
       "excerpt": "Permeable Pavement: The use of various permeable pavement techniques as alternatives to paved areas can significantly reduce site imperviousness.",
       "page_or_section": "Chapter 1, Section 4.1, page 17"
     },
     {
-      "field": "practice_mentions.green_roof",
+      "field": "design_parameters.practice_mentions.green_roof",
       "excerpt": "Green Roofs: Green roofs can be used to decrease imperviousness associated with buildings and structures.",
       "page_or_section": "Chapter 1, Section 4.1, page 17"
     },
     {
-      "field": "practice_mentions.swale",
+      "field": "design_parameters.practice_mentions.swale",
       "excerpt": "Grass Swales: Like grass buffers, use of grass swales instead of storm sewers slows runoff and promotes infiltration",
       "page_or_section": "Chapter 1, Section 4.1, page 17"
     },
     {
-      "field": "practice_mentions.extended_detention",
+      "field": "design_parameters.practice_mentions.extended_detention",
       "excerpt": "including permeable pavement systems with subsurface storage, bioretention, extended detention basins, sand filters, constructed wetland ponds, and retention ponds.",
       "page_or_section": "Chapter 1, Section 4.2, page 19"
     },
     {
-      "field": "practice_mentions.sand_filter",
+      "field": "design_parameters.practice_mentions.sand_filter",
       "excerpt": "extended detention basins, sand filters, constructed wetland ponds, and retention ponds.",
       "page_or_section": "Chapter 1, Section 4.2, page 19"
     },
     {
-      "field": "practice_mentions.constructed_wetland",
+      "field": "design_parameters.practice_mentions.constructed_wetland",
       "excerpt": "sand filters, constructed wetland ponds, and retention ponds.",
       "page_or_section": "Chapter 1, Section 4.2, page 19"
     },
     {
-      "field": "practice_mentions.wet_pond",
+      "field": "design_parameters.practice_mentions.wet_pond",
       "excerpt": "constructed wetland ponds, and retention ponds.",
       "page_or_section": "Chapter 1, Section 4.2, page 19"
     }

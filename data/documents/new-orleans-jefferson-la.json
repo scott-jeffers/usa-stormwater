@@ -53,52 +53,52 @@
       "page_or_section": "p. 135"
     },
     {
-      "field": "practice_mentions.swale",
+      "field": "design_parameters.practice_mentions.swale",
       "excerpt": "Answer Answer Description A Vegetated swales",
       "page_or_section": "Appendix A Table A-2, page 138"
     },
     {
-      "field": "practice_mentions.bioretention",
+      "field": "design_parameters.practice_mentions.bioretention",
       "excerpt": "F Bioretention G Rain gardens",
       "page_or_section": "Appendix A Table A-2, page 138"
     },
     {
-      "field": "practice_mentions.permeable_pavement",
+      "field": "design_parameters.practice_mentions.permeable_pavement",
       "excerpt": "C Permeable pavement",
       "page_or_section": "Appendix A Table A-2, page 138"
     },
     {
-      "field": "practice_mentions.sand_filter",
+      "field": "design_parameters.practice_mentions.sand_filter",
       "excerpt": "K Sand filters",
       "page_or_section": "Appendix A Table A-2, page 138"
     },
     {
-      "field": "practice_mentions.extended_detention",
+      "field": "design_parameters.practice_mentions.extended_detention",
       "excerpt": "L Extended detention basins",
       "page_or_section": "Appendix A Table A-2, page 138"
     },
     {
-      "field": "practice_mentions.infiltration_basin",
+      "field": "design_parameters.practice_mentions.infiltration_basin",
       "excerpt": "M Infiltration Basins",
       "page_or_section": "Appendix A Table A-2, page 138"
     },
     {
-      "field": "practice_mentions.wet_pond",
+      "field": "design_parameters.practice_mentions.wet_pond",
       "excerpt": "N Retention basins/wet ponds",
       "page_or_section": "Appendix A Table A-2, page 138"
     },
     {
-      "field": "practice_mentions.constructed_wetland",
+      "field": "design_parameters.practice_mentions.constructed_wetland",
       "excerpt": "I Pocket wetlands",
       "page_or_section": "Appendix A Table A-2, page 138"
     },
     {
-      "field": "practice_mentions.manufactured_treatment",
+      "field": "design_parameters.practice_mentions.manufactured_treatment",
       "excerpt": "J Hydrodynamic separators",
       "page_or_section": "Appendix A Table A-2, page 138"
     },
     {
-      "field": "fields_not_found.shwt_separation_inches",
+      "field": "design_parameters.fields_not_found.shwt_separation_inches",
       "excerpt": "water table elevations",
       "page_or_section": "Appendix A §1.5 / Table A-3, page 139"
     }

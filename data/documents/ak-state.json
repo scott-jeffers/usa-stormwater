@@ -146,17 +146,17 @@
       "page_or_section": "Table 3-4, pages 78-79"
     },
     {
-      "field": "practice_mentions.bioretention",
+      "field": "design_parameters.practice_mentions.bioretention",
       "excerpt": "Bioretention cells, commonly known as rain gardens, are relatively small-scale, landscaped depressions",
       "page_or_section": "Section 5.2 LID, page 182"
     },
     {
-      "field": "practice_mentions.extended_detention",
+      "field": "design_parameters.practice_mentions.extended_detention",
       "excerpt": "Dry ED Ponds",
       "page_or_section": "Table 5-2, page 185"
     },
     {
-      "field": "practice_mentions.manufactured_treatment",
+      "field": "design_parameters.practice_mentions.manufactured_treatment",
       "excerpt": "demonstrate that the proposed oil and grit separator(s) has (have) the ability to remove at least 50 percent of TSS particles larger than 20 microns",
       "page_or_section": "Chapter 1, page 31"
     }

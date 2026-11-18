@@ -43,12 +43,12 @@
       "page_or_section": "Chapter 1, Common Stormwater Management Terms (page 11)"
     },
     {
-      "field": "practice_mentions.bioretention",
+      "field": "design_parameters.practice_mentions.bioretention",
       "excerpt": "Bioretention (rain gardens): The use of distributed on-site vegetated features such as rain gardens",
       "page_or_section": "Chapter 1, Step 1 (page 17)"
     },
     {
-      "field": "practice_mentions.wqv_depth_inches",
+      "field": "design_parameters.practice_mentions.wqv_depth_inches",
       "excerpt": "Water Quality Capture Volume (WQCV): This volume represents runoff from frequent storm events such as the 80th percentile storm.",
       "page_or_section": "Chapter 1 (page 11)"
     }

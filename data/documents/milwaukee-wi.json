@@ -68,27 +68,27 @@
       "page_or_section": "13.302(3)(c)1, page 12"
     },
     {
-      "field": "practice_mentions.bioretention",
+      "field": "design_parameters.practice_mentions.bioretention",
       "excerpt": "Rain garden 4.4 gallons per square foot",
       "page_or_section": "13.303(4)(b) table, page 16"
     },
     {
-      "field": "practice_mentions.swale",
+      "field": "design_parameters.practice_mentions.swale",
       "excerpt": "Bioswale 7.5 gallons per square foot",
       "page_or_section": "13.303(4)(b) table, page 16"
     },
     {
-      "field": "practice_mentions.permeable_pavement",
+      "field": "design_parameters.practice_mentions.permeable_pavement",
       "excerpt": "Porous pavement 3.0 gallons per square foot",
       "page_or_section": "13.303(4)(b) table, page 16"
     },
     {
-      "field": "practice_mentions.green_roof",
+      "field": "design_parameters.practice_mentions.green_roof",
       "excerpt": "Green roof 1.0 gallon per square foot",
       "page_or_section": "13.303(4)(b) table, page 16"
     },
     {
-      "field": "practice_mentions.constructed_wetland",
+      "field": "design_parameters.practice_mentions.constructed_wetland",
       "excerpt": "Constructed wetlands 8.3 gallons per square foot",
       "page_or_section": "13.303(4)(b) table, page 16"
     }

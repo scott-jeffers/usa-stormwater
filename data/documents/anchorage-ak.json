@@ -168,7 +168,7 @@
       "page_or_section": "Section 6.6 Design Modification 2 – Impermeable Liner and Subdrain (page 129)"
     },
     {
-      "field": "practice_mentions.bioretention",
+      "field": "design_parameters.practice_mentions.bioretention",
       "excerpt": "Allowable Green Infrastructure techniques are presented in Chapter 6 and include methods such as retention, infiltration, bioretention, evaporation, rainfall harvesting",
       "page_or_section": "Section 3.2.2.1 (page 44)"
     },

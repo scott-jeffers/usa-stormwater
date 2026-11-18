@@ -57,22 +57,22 @@
       "page_or_section": "INTRODUCTION, page 2"
     },
     {
-      "field": "practice_mentions.wet_pond",
+      "field": "design_parameters.practice_mentions.wet_pond",
       "excerpt": "In addition to North Carolina Division of Water Quality BMP Manual, Chapter 10, Wet Detention Basin, the City of High Point requires the following additional wet detention basin design elements:",
       "page_or_section": "INTRODUCTION, page 2"
     },
     {
-      "field": "practice_mentions.extended_detention",
+      "field": "design_parameters.practice_mentions.extended_detention",
       "excerpt": "Additional BMPs include natural infiltration areas, dry detention ponds, and infiltration trenches.",
       "page_or_section": "INTRODUCTION, page 2"
     },
     {
-      "field": "practice_mentions.infiltration_trench",
+      "field": "design_parameters.practice_mentions.infiltration_trench",
       "excerpt": "Additional BMPs include natural infiltration areas, dry detention ponds, and infiltration trenches.",
       "page_or_section": "INTRODUCTION, page 2"
     },
     {
-      "field": "practice_mentions.infiltration_basin",
+      "field": "design_parameters.practice_mentions.infiltration_basin",
       "excerpt": "Additional BMPs include natural infiltration areas, dry detention ponds, and infiltration trenches.",
       "page_or_section": "INTRODUCTION, page 2"
     }

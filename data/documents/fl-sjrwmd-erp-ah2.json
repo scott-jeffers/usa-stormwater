@@ -62,42 +62,42 @@
       "page_or_section": "Introduction / Part IV"
     },
     {
-      "field": "max_drawdown_hours",
+      "field": "design_parameters.max_drawdown_hours",
       "excerpt": "The retention system must provide the capacity for the appropriate treatment volume of stormwater specified in section 5.2 within 72 hours following a storm event",
       "page_or_section": "5.3 Recovery Time, page 40"
     },
     {
-      "field": "max_drawdown_hours",
+      "field": "design_parameters.max_drawdown_hours",
       "excerpt": "The system should be designed to provide for the drawdown of the appropriate treatment volume specified in section 6.2 within 72 hours following a storm event.",
       "page_or_section": "6.3 Recovery Time, page 42"
     },
     {
-      "field": "max_drawdown_hours",
+      "field": "design_parameters.max_drawdown_hours",
       "excerpt": "Swale systems must provide the capacity for the specified treatment volume of stormwater and contain no contiguous areas of standing or flowing water within 72 hours following the storm event",
       "page_or_section": "9.3 Recovery Time, page 59"
     },
     {
-      "field": "shwt_separation_inches",
+      "field": "design_parameters.shwt_separation_inches",
       "excerpt": "The exfiltration trench system must be designed so that the invert elevation of the trench is at least two feet above the seasonal high ground water table elevation",
       "page_or_section": "7.8 Ground Water Table, page 51"
     },
     {
-      "field": "practice_mentions",
+      "field": "design_parameters.practice_mentions",
       "excerpt": "Examples of retention systems include: ... Pervious concrete with continuous curb",
       "page_or_section": "5.1 Description, page 38"
     },
     {
-      "field": "practice_mentions",
+      "field": "design_parameters.practice_mentions",
       "excerpt": "7.0 Exfiltration Trench Design and Performance Criteria",
       "page_or_section": "Part V, page 47"
     },
     {
-      "field": "practice_mentions",
+      "field": "design_parameters.practice_mentions",
       "excerpt": "9.0 Swale Systems Design and Performance Criteria",
       "page_or_section": "Part V, page 57"
     },
     {
-      "field": "practice_mentions",
+      "field": "design_parameters.practice_mentions",
       "excerpt": "8.0 Wet Detention Design and Performance Criteria ... permanently wet ponds",
       "page_or_section": "8.1 Description, page 52"
     }

@@ -30,37 +30,37 @@
       "page_or_section": "Coverage note"
     },
     {
-      "field": "practice_mentions.swale",
+      "field": "design_parameters.practice_mentions.swale",
       "excerpt": "they improve the efficiency of other sediment controls, such as vegetated swales, filter strips, or infiltration devices",
       "page_or_section": "page 16, Slope Flow Control/Stormwater Runoff Management"
     },
     {
-      "field": "practice_mentions.swale",
+      "field": "design_parameters.practice_mentions.swale",
       "excerpt": "Check Dams – are small dams constructed in an open channel, swale, or ditch.",
       "page_or_section": "page 17, Channel Velocity Control"
     },
     {
-      "field": "practice_mentions.swale",
+      "field": "design_parameters.practice_mentions.swale",
       "excerpt": "structural stormwater management practices such as stormwater ponds, open vegetated swales, natural depressions to allow infiltration of runoff onsite",
       "page_or_section": "page 95, 5.3 SWPPP Contents – Post-Construction Stormwater Management"
     },
     {
-      "field": "practice_mentions.wet_pond",
+      "field": "design_parameters.practice_mentions.wet_pond",
       "excerpt": "A diversion ditch is constructed to divert the stormwater runoff away from a slope or active construction area and into a stabilized outlet or a sediment trap or pond.",
       "page_or_section": "page 16"
     },
     {
-      "field": "practice_mentions.wet_pond",
+      "field": "design_parameters.practice_mentions.wet_pond",
       "excerpt": "structural stormwater management practices such as stormwater ponds, open vegetated swales",
       "page_or_section": "page 95, Post-Construction Stormwater Management"
     },
     {
-      "field": "practice_mentions.infiltration_basin",
+      "field": "design_parameters.practice_mentions.infiltration_basin",
       "excerpt": "vegetated swales, filter strips, or infiltration devices, which depend on sheet flow to operate properly",
       "page_or_section": "page 16, Level Spreader"
     },
     {
-      "field": "practice_mentions.infiltration_basin",
+      "field": "design_parameters.practice_mentions.infiltration_basin",
       "excerpt": "natural depressions to allow infiltration of runoff onsite",
       "page_or_section": "page 95, Post-Construction Stormwater Management"
     }
