@@ -20,6 +20,8 @@ export const excerptQaSchema = z.object({
   missing_numbers: z.array(z.string()),
   /** Different numbers the source shows at that spot (a contradiction). */
   source_numbers: z.array(z.string()).optional(),
+  /** Unverifiable from text, but checked by eye on the page image (date). */
+  visual_check: z.string().optional(),
 });
 export type ExcerptQa = z.infer<typeof excerptQaSchema>;
 

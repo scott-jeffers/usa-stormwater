@@ -36,11 +36,6 @@
       "page_or_section": "Title / header"
     },
     {
-      "field": "design_criteria.design_storm_return_periods_years",
-      "excerpt": "6 Figure 402-18 Bulking Factors for the 100-year Peak Discharge for Natural Channels ...... 4—57 Figure 402-19 Estimated Bulking",
-      "page_or_section": null
-    },
-    {
       "field": "design_criteria.peak_flow_calculation_method",
       "excerpt": ".............................. 4—79 404 NRCS Simplified Peak Discharge Method ..............................................",
       "page_or_section": null

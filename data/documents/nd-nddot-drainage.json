@@ -73,6 +73,11 @@
       "field": "design_criteria.design_storm_return_periods_years",
       "excerpt": "For sites with upstream buildings which may be affected by high-flow events, the 500-year discharge shall also be determined.",
       "page_or_section": "PDF p. 5 · found by QA search"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "V–02.02 Structure Hydraulic Reports Generally, a hydraulic report shall be prepared for all locations where the design discharge for culverts (which is the 25-year discharge for state highways) is greater than 500 cfs, and a structure will be considered rather than the installation of pipe culverts.",
+      "page_or_section": "PDF p. 7 · found by QA search"
     }
   ],
   "extraction_quality": {

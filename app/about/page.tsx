@@ -13,11 +13,12 @@ const BASE = "https://stormwateratlas.com";
 
 function qaTotals() {
   const recs = Object.values(loadEvidenceQa()?.records ?? {});
-  const t = { exact: 0, fuzzy: 0, unverifiable: 0, fail: 0, records: recs.length, passed: 0 };
+  const t = { exact: 0, fuzzy: 0, unverifiable: 0, visual: 0, fail: 0, records: recs.length, passed: 0 };
   for (const r of recs) {
     t.exact += r.counts.exact;
     t.fuzzy += r.counts.fuzzy;
     t.unverifiable += r.counts.unverifiable;
+    t.visual += r.excerpts.filter((x) => x.visual_check).length;
     t.fail += r.counts.fail;
     if (r.status === "passed") t.passed += 1;
   }
@@ -282,6 +283,11 @@ export default function AboutPage() {
             with a link to the PDF page where it appears.
           </li>
           <li>
+            <strong className="text-emerald-700 dark:text-emerald-300">✓ Checked by eye on the page image</strong>:
+            the PDF&rsquo;s text layer drops the numbers here, so a reviewer read the
+            rendered page and confirmed the quote word for word.
+          </li>
+          <li>
             <strong className="text-amber-700 dark:text-amber-300">? Couldn&rsquo;t check</strong>:
             the words match, but the PDF&rsquo;s text layer dropped the numbers at that
             spot, so check the page yourself.
@@ -295,8 +301,10 @@ export default function AboutPage() {
         {qa.all > 0 && (
           <p className="mt-3 text-sm text-fg-muted">
             Current results across {qa.records} manuals and {qa.all.toLocaleString()} quotes:{" "}
-            {qa.pct(qa.exact + qa.fuzzy)} found, {qa.pct(qa.unverifiable)} couldn&rsquo;t be
-            checked, {qa.pct(qa.fail)} not found. {qa.passed} manuals pass with no issues.
+            {qa.pct(qa.exact + qa.fuzzy)} found in the text
+            {qa.visual > 0 && <>, {qa.visual} checked by eye on the page image</>}
+            {qa.unverifiable - qa.visual > 0 && <>, {qa.pct(qa.unverifiable - qa.visual)} couldn&rsquo;t be checked</>}
+            , {qa.pct(qa.fail)} not found. {qa.passed} manuals pass with no issues.
             This is a strict machine check. It proves a quote exists, not that it was
             interpreted correctly.
           </p>

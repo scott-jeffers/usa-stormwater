@@ -12,12 +12,14 @@
  *   data/qa/EVIDENCE.md     human-readable summary
  * Records without a local corpus keep their previous results.
  */
+import { visualCheckFor } from "../../lib/qa/visualChecks";
 import { existsSync, mkdirSync, readFileSync, readdirSync, writeFileSync } from "node:fs";
 import path from "node:path";
 import { stormwaterSchema, type StormwaterData } from "../../lib/schema";
 import {
   SourceIndex,
   matchExcerpt,
+  bestAcrossSources,
   valueAppearsIn,
   type SourcePage,
 } from "../../lib/qa/evidenceMatch";
@@ -119,22 +121,22 @@ function valueWarnings(doc: StormwaterData): QaWarning[] {
   return out;
 }
 
-const RANK = { exact: 0, fuzzy: 1, unverifiable: 2, fail: 3 } as const;
 
 function checkRecord(slug: string, doc: StormwaterData, sources: SourcePage[][]): EvidenceQaRecord {
   const indexes = sources.map((p) => new SourceIndex(p));
   const excerpts = doc.evidence.map((e) => {
     // Best result across extractors: a quote counts as found if any
     // independent reading of the PDF contains it.
-    const r = indexes
-      .map((ix) => matchExcerpt(ix, e.excerpt))
-      .reduce((a, b) => (RANK[b.status] < RANK[a.status] || (RANK[b.status] === RANK[a.status] && b.score > a.score) ? b : a));
+    const r = bestAcrossSources(indexes.map((ix) => matchExcerpt(ix, e.excerpt)));
     return {
       field: e.field,
       status: r.status,
       score: Math.round(r.score * 100) / 100,
       page: r.page,
       missing_numbers: [...new Set(r.segments.flatMap((s) => s.missingNumbers))],
+      ...(r.status === "unverifiable" && visualCheckFor(slug, e.excerpt)
+        ? { visual_check: visualCheckFor(slug, e.excerpt)! }
+        : {}),
       ...(r.segments.some((s) => s.contradictingNumbers?.length)
         ? { source_numbers: [...new Set(r.segments.flatMap((s) => s.contradictingNumbers ?? []))] }
         : {}),
@@ -155,7 +157,7 @@ function checkRecord(slug: string, doc: StormwaterData, sources: SourcePage[][])
     status:
       counts.fail > 0
         ? "failed"
-        : warnings.length > 0 || counts.unverifiable > 0
+        : warnings.length > 0 || excerpts.some((x) => x.status === "unverifiable" && !x.visual_check)
           ? "warnings"
           : "passed",
   };
@@ -187,9 +189,7 @@ function checkNational(): NonNullable<EvidenceQaFile["national"]> {
         const ixs = cache.get(rec.slug)!;
         if (!ixs.length) counts.unchecked += 1;
         else {
-          const st = ixs
-            .map((ix) => matchExcerpt(ix, rec.excerpt as string).status)
-            .sort((a, b) => RANK[a] - RANK[b])[0]!;
+          const st = bestAcrossSources(ixs.map((ix) => matchExcerpt(ix, rec.excerpt as string))).status;
           counts[st] += 1;
           if (st === "fail")
             failing.push({ file: path.relative(NAT, f), slug: rec.slug, excerpt: (rec.excerpt as string).slice(0, 160) });
@@ -220,6 +220,7 @@ function markdown(file: EvidenceQaFile): string {
     .filter((r) => r.status !== "passed")
     .slice(0, 60);
   const all = tot.exact + tot.fuzzy + tot.unverifiable + tot.fail;
+  const visual = recs.reduce((n, r) => n + r.excerpts.filter((x) => x.visual_check).length, 0);
   const pct = (n: number) => (all ? `${((100 * n) / all).toFixed(1)}%` : "–");
   return `# Evidence QA report
 
@@ -244,6 +245,7 @@ be stated in its own excerpt.
 | Exact | ${tot.exact} | ${pct(tot.exact)} |
 | Close match, numbers identical | ${tot.fuzzy} | ${pct(tot.fuzzy)} |
 | Can't check: PDF text lost the numbers | ${tot.unverifiable} | ${pct(tot.unverifiable)} |
+| … of which checked by eye on the page image (\`data/qa/visual-checks.json\`) | ${visual} | ${pct(visual)} |
 | Not found in source / different number | ${tot.fail} | ${pct(tot.fail)} |
 
 ## Warnings

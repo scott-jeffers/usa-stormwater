@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "note": "Quotes whose digits the PDF text layer drops, checked by eye against the rendered page. Keyed by record slug + exact excerpt. Add entries only after looking at the page image.",
+  "checks": [
+    { "slugs": ["ohio-rainwater", "akron-oh", "cleveland-oh", "youngstown-oh"], "page": 51, "excerpt": "shallow enough to leave at least 3 feet between the seasonal high-water table or bedrock and the trench bottom", "checked_at": "2026-11-18" },
+    { "slugs": ["ohio-rainwater", "akron-oh", "cleveland-oh", "youngstown-oh"], "page": 77, "excerpt": "A minimum 2ft of separation is recommended and a minimum 1ft of separation required between the water table and the bioretention practice.", "checked_at": "2026-11-18" },
+    { "slugs": ["ohio-rainwater", "toledo-oh"], "page": 50, "excerpt": "Soil infiltration rates within the trench must be between 0.52 and 2.4 inches per hour", "checked_at": "2026-11-18" },
+    { "slugs": ["tucson-az"], "page": 75, "excerpt": "procedure for estimating 2-year, 5-year, 10-year, 25-year, 50-year, and 100-year flood peaks and flood hydrographs for watershed areas located within the City of Tucson", "checked_at": "2026-11-18" },
+    { "slugs": ["tucson-az"], "page": 66, "excerpt": "Provide and describe Reservoir-Routing Calculation Sheets for each basin for the 2-year, 10-year, and 100-year design floods, at a minimum.", "checked_at": "2026-11-18" },
+    { "slugs": ["tucson-az"], "page": 5, "excerpt": "For those watersheds designated as Critical Basins, a 15% reduction in the 2-, 10-, and 100-year flow events will be required as a fair and equitable apportioning increment.", "checked_at": "2026-11-18" },
+    { "slugs": ["tucson-az"], "page": 76, "excerpt": "a City-approved hydrologic methodology (e.g., HEC-1) should be used to properly model the effects of any such controls.", "checked_at": "2026-11-18" },
+    { "slugs": ["tucson-az"], "page": 8, "excerpt": "The TSMS hydrologic modeling was accomplished using the Stormwater System Planner, a software package which includes a database manager, the HEC-1 hydrologic model, and an AutoCAD mapping component.", "checked_at": "2026-11-18" }
+  ]
+}

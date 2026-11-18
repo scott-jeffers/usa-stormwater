@@ -48,3 +48,6 @@ next-env.d.ts
 /data/queue/_validate.txt
 /tmp-*
 /_to_delete/
+
+# QA dry-run reports
+data/qa/*-dry-run.md

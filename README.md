@@ -147,7 +147,9 @@ npm run qa              # alt-text → evidence check → repair & find-quotes (
 npm run qa:freshness    # are the source PDFs still there, and have any changed?
 ```
 
-`npm run qa` changes nothing except the reports in `data/qa/` and `data/coverage/`; read `REPAIR.md` and `FIND-QUOTES.md`, then re-run the repair or find-quotes step without `--dry-run` if the proposed changes look right. `qa:freshness` sends one HEAD request per source PDF and compares status, `Last-Modified`, `ETag` and size with the last run (`data/qa/freshness.json`, committed); `data/qa/FRESHNESS.md` lists broken links and files that changed, which usually means a new edition to re-ingest. Run it from your own computer: many agency sites block cloud servers.
+`npm run qa` changes nothing except the reports in `data/qa/` and `data/coverage/`; read `REPAIR.md` and `FIND-QUOTES.md`, then re-run the repair or find-quotes step without `--dry-run` if the proposed changes look right. `qa:freshness` sends one HEAD request per source PDF and compares status, `Last-Modified`, `ETag` and size with the last run (`data/qa/freshness.json`, committed); `data/qa/FRESHNESS.md` lists broken links and files that changed, which usually means a new edition to re-ingest. It also runs monthly on GitHub (`.github/workflows/freshness.yml`), commits the new baseline and keeps one open "Source freshness" issue listing what changed; sites that block GitHub's servers show up there as blocked, so re-check those from your own computer.
+
+Quotes whose digits the PDF's text layer drops can be checked by eye against the rendered page and recorded in `data/qa/visual-checks.json`; the site then labels them "checked by eye on the page image". When one text reading drops a digit and the other shows a *different* number, the check reports a contradiction rather than "couldn't check".
 
 Readers can report a wrong value with the "Report an error" links on each record page; they open a prefilled GitHub issue (`.github/ISSUE_TEMPLATE/data-error.yml`, label `data-error`).
 

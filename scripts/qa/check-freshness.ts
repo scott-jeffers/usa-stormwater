@@ -12,7 +12,7 @@
  * A changed file usually means a new edition — re-run prepare/corpus/
  * extract for that record, then qa:evidence.
  */
-import { existsSync, readFileSync, readdirSync, writeFileSync } from "node:fs";
+import { appendFileSync, existsSync, readFileSync, readdirSync, writeFileSync } from "node:fs";
 import path from "node:path";
 
 const DOCS = path.resolve(process.cwd(), "data/documents");
@@ -96,6 +96,10 @@ async function main() {
       `## Changed since last run (${changed.length}) — likely a new edition\n\n${changed.map(line).join("\n") || "_none_"}\n`
   );
   console.log(`\n${broken.length} broken/blocked, ${changed.length} changed. Wrote data/qa/FRESHNESS.md`);
+  // for the scheduled GitHub workflow
+  if (process.env.GITHUB_OUTPUT) {
+    appendFileSync(process.env.GITHUB_OUTPUT, `broken=${broken.length}\nchanged=${changed.length}\nchecked=${n}\n`);
+  }
 }
 
 main();

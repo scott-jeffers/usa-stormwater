@@ -916,3 +916,10 @@ field(s) still have no quote that clearly states the value.
 - `youngstown-oh` design_criteria.approved_bmp_categories
 - `yuma-az` design_criteria.peak_flow_calculation_method
 - `yuma-az` design_criteria.approved_bmp_categories
+
+## Added 2026-11-18 (second pass, after the value check learned spelled-out numbers)
+
+- `fl-fdot-drainage` design_criteria.design_storm_return_periods_years (PDF p. 14): 2.2 DESIGN FREQUENCY Design open channels to collect and convey without damage, and to confine within the ditch, stormwater flow with standard design frequencies as follows: Table 2.1: Design Storm Frequencies for Open Channels TYPE CHANNEL FREQUENCY Roadside, Median, and Interceptor Ditches or Swales 10-year Outfalls 25-year Canals 25-year Temporary Roadside and Median Ditches or Swales 2-year
+- `juneau-ak` design_criteria.design_storm_return_periods_years (PDF p. 78): Rev = [(S)(Rv)(A)] / 12 where S = soil specific recharge factor in inches Channel Protection Storage Volume Cpv Provide 24 hours of extended detention of the runoff from the 1-year, 24-hour duration storm event to reduce bank-full flows and protect downstream channels from erosive velocities and unstable conditions.
+- `nd-nddot-drainage` design_criteria.design_storm_return_periods_years (PDF p. 7): V–02.02 Structure Hydraulic Reports Generally, a hydraulic report shall be prepared for all locations where the design discharge for culverts (which is the 25-year discharge for state highways) is greater than 500 cfs, and a structure will be considered rather than the installation of pipe culverts.
+- `vancouver-wa` design_criteria.design_storm_return_periods_years (PDF p. 26): The 25-year, 24-hour storm: Contributing drainage areas of 40 acres or more.

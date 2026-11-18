@@ -1,0 +1,60 @@
+name: Source freshness
+
+# Monthly: are the source PDFs still online, and has any agency replaced one?
+# Results are committed (data/qa/freshness.json is the baseline the next run
+# compares against) and summarised in a single "Source freshness" issue.
+on:
+  schedule:
+    - cron: "17 6 3 * *" # 06:17 UTC on the 3rd of each month
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: freshness
+  cancel-in-progress: false
+
+jobs:
+  freshness:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - id: check
+        run: npm run -s qa:freshness
+
+      - name: Commit the new baseline
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/qa/freshness.json data/qa/FRESHNESS.md
+          git diff --cached --quiet || git commit -m "Source freshness check ($(date -u +%Y-%m-%d))"
+          git push
+
+      - name: Open or update the freshness issue
+        if: steps.check.outputs.broken != '0' || steps.check.outputs.changed != '0'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          {
+            echo "Monthly check of ${{ steps.check.outputs.checked }} source PDFs: **${{ steps.check.outputs.changed }} changed**, **${{ steps.check.outputs.broken }} broken or blocked**."
+            echo
+            echo "_Blocked_ often means the agency site refuses GitHub's servers, not that the PDF is gone — re-check those from your own computer with \`npm run qa:freshness\`. A _changed_ file is usually a new edition: re-ingest that record, then \`npm run qa\`."
+            echo
+            sed '1,/^Generated/d' data/qa/FRESHNESS.md
+          } > /tmp/body.md
+          num=$(gh issue list --label source-freshness --state open --json number --jq '.[0].number')
+          if [ -n "$num" ]; then
+            gh issue edit "$num" --body-file /tmp/body.md
+            gh issue comment "$num" --body "Updated by the $(date -u +%Y-%m-%d) run."
+          else
+            gh label create source-freshness --color 0e8a16 --description "Monthly source PDF check" 2>/dev/null || true
+            gh issue create --title "Source freshness: PDFs to re-check" --label source-freshness --body-file /tmp/body.md
+          fi

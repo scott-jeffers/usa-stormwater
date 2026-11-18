@@ -385,11 +385,12 @@ export function matchExcerpt(index: SourceIndex, excerpt: string): ExcerptResult
 export function valueSpellings(value: number, field: string): string[] {
   const out = new Set<string>([canonicalNumber(String(value))]);
   const add = (n: number) => {
-    if (Number.isFinite(n) && n > 0) out.add(canonicalNumber(String(Math.round(n * 1000) / 1000)));
+    if (Number.isFinite(n) && n > 0) out.add(canonicalNumber(String(Math.round(n * 1e6) / 1e6)));
   };
   if (field.endsWith("_hours")) add(value / 24); // "3 days"
   if (field.endsWith("_inches")) add(value / 12); // "2 feet"
   if (field.endsWith("_in_per_hr")) add(value * 24); // "in/day"
+  if (field.endsWith("_percent")) add(value / 100); // "0.005 ft/ft"
   // fractions commonly written in manuals
   const fractions: Record<string, string> = {
     "0.125": "1/8", "0.25": "1/4", "0.375": "3/8", "0.5": "1/2",
@@ -399,8 +400,64 @@ export function valueSpellings(value: number, field: string): string[] {
   return [...out];
 }
 
+const NUMBER_WORDS: Record<string, number> = {
+  one: 1, two: 2, three: 3, four: 4, five: 5, six: 6, seven: 7, eight: 8, nine: 9, ten: 10,
+  eleven: 11, twelve: 12, fifteen: 15, eighteen: 18, twenty: 20, "twenty-four": 24, thirty: 30,
+  "thirty-six": 36, forty: 40, "forty-eight": 48, fifty: 50, sixty: 60, "seventy-two": 72, hundred: 100,
+};
+
+/**
+ * Numbers a reader would see in `text`, including spelled-out ones
+ * ("two feet", "one-half inch", "the first inch") and mixed fractions
+ * ("2½", "2 1/2" → 2.5). Used only for "is the value stated?" — never for
+ * matching quotes against the source.
+ */
+export function statedNumbersIn(text: string): string[] {
+  let t = text.replace(/\u2044/g, "/").replace(/(\d)\s*½/g, "$1 1/2").replace(/½/g, "1/2");
+  t = t.replace(/\b(?:one|a)[-\s]half\b/gi, " 0.5 ").replace(/\bhalf(?:\s+an?)?\s+(?=inch|foot|feet|hour)/gi, " 0.5 ");
+  t = t.replace(/\b(?:the\s+)?first\s+(?=inch\b)/gi, " 1 ");
+  t = t.replace(/\btwice\s+as\s+(?=long|wide|deep)/gi, " 2 ");
+  t = t.replace(/\b[a-z]+(?:-[a-z]+)?\b/gi, (w) => {
+    const n = NUMBER_WORDS[w.toLowerCase()];
+    if (n != null) return ` ${n} `;
+    // "ten-year", "one-foot", "one-inch"
+    const [head, ...rest] = w.split("-");
+    const h = NUMBER_WORDS[head!.toLowerCase()];
+    return h != null && rest.length ? ` ${h}-${rest.join("-")}` : w;
+  });
+  const out = new Set(numbersIn(t));
+  // mixed fractions: "2 1/2" → 2.5
+  for (const m of t.matchAll(/\b(\d+)\s+(\d)\/(\d)\b/g)) {
+    const v = Number(m[1]) + Number(m[2]) / Number(m[3]);
+    out.add(canonicalNumber(String(Math.round(v * 1000) / 1000)));
+  }
+  return [...out];
+}
+
 /** True when any spelling of `value` appears among the excerpt numbers. */
 export function valueAppearsIn(value: number, field: string, excerpts: string[]): boolean {
-  const nums = new Set(excerpts.flatMap((e) => numbersIn(e)));
+  const nums = new Set(excerpts.flatMap((e) => statedNumbersIn(e)));
   return valueSpellings(value, field).some((s) => nums.has(s));
+}
+
+const STATUS_RANK = { exact: 0, fuzzy: 1, unverifiable: 2, fail: 3 } as const;
+
+/**
+ * Combine results for one excerpt from independent text extractions of the
+ * same PDF. A quote is found if any reading contains it — but when one reading
+ * can't see the digits and another shows *different* digits at that spot, the
+ * contradiction wins: "couldn't check" must never hide a wrong number.
+ */
+export function bestAcrossSources(results: ExcerptResult[]): ExcerptResult {
+  const best = results.reduce((a, b) =>
+    STATUS_RANK[b.status] < STATUS_RANK[a.status] ||
+    (STATUS_RANK[b.status] === STATUS_RANK[a.status] && b.score > a.score)
+      ? b
+      : a
+  );
+  if (best.status !== "unverifiable") return best;
+  const contradiction = results.find(
+    (r) => r.status === "fail" && r.segments.some((s) => s.contradictingNumbers?.length)
+  );
+  return contradiction ?? best;
 }

@@ -82,11 +82,6 @@
       "page_or_section": "Table of Contents, Chapter 3"
     },
     {
-      "field": "design_parameters.permeable_pavement_storage_depth_inches",
-      "excerpt": "The soil excavated for the four-feet of subsurface storage system was used as fill under the building.",
-      "page_or_section": "STORMWATER MANAGEMENT PLANNING PROCESS, page 30"
-    },
-    {
       "field": "design_parameters.design_infiltration_rate_in_per_hr",
       "excerpt": "pervious concrete which allows water to drain off the parking surface at a rate more rapid than any storm (up to 50 inches per hour)",
       "page_or_section": "STORMWATER MANAGEMENT PLANNING PROCESS, page 30"
@@ -140,7 +135,7 @@
   "extraction_quality": {
     "confidence": "medium",
     "needs_human_review": true,
-    "review_notes": "Planning/BMP guidance appendix for EBR Master Development Program (July 2007). Explicitly requires calculating pre-development runoff for a minimum ten-year design storm, but does not define a quantified water quality volume, named hydrologic method (e.g., Rational/TR-55), or required software. Pipeline excerpt repair removed 3 unlocated citation(s).",
+    "review_notes": "Planning/BMP guidance appendix for EBR Master Development Program (July 2007). Explicitly requires calculating pre-development runoff for a minimum ten-year design storm, but does not define a quantified water quality volume, named hydrologic method (e.g., Rational/TR-55), or required software. Pipeline excerpt repair removed 3 unlocated citation(s). Permeable pavement storage depth removed 2026-11-18: the only source was a case-study sentence about excavated fill, not a design requirement.",
     "fields_not_found": [
       "design_criteria.water_quality_volume_method",
       "design_criteria.required_hydrologic_hydraulic_software",
@@ -161,7 +156,7 @@
     "shwt_separation_inches": null,
     "bioretention_media_depth_min_inches": null,
     "bioretention_ponding_depth_inches": null,
-    "permeable_pavement_storage_depth_inches": 48,
+    "permeable_pavement_storage_depth_inches": null,
     "design_infiltration_rate_in_per_hr": 50,
     "permanent_pool_depth_inches": null,
     "ed_drain_time_hours": null,
@@ -202,7 +197,8 @@
       "swale_longitudinal_slope_percent",
       "green_roof_media_depth_inches",
       "green_roof_slope_percent",
-      "mtd_verification_program"
+      "mtd_verification_program",
+      "permeable_pavement_storage_depth_inches"
     ]
   }
 }

@@ -105,6 +105,11 @@
       "field": "design_criteria.design_storm_return_periods_years",
       "excerpt": "Outlets of systems requiring pumping stations 50-year Acquire flood rights where offsite stages increase and impact land use values.",
       "page_or_section": "PDF p. 26 · found by QA search"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "2.2 DESIGN FREQUENCY Design open channels to collect and convey without damage, and to confine within the ditch, stormwater flow with standard design frequencies as follows: Table 2.1: Design Storm Frequencies for Open Channels TYPE CHANNEL FREQUENCY Roadside, Median, and Interceptor Ditches or Swales 10-year Outfalls 25-year Canals 25-year Temporary Roadside and Median Ditches or Swales 2-year",
+      "page_or_section": "PDF p. 14 · found by QA search"
     }
   ],
   "extraction_quality": {

@@ -170,3 +170,38 @@ test("displayQuote tidies page markers and marks clipped quotes", async () => {
   assert.equal(displayQuote("Ponds shall drain in 72 hours."), "Ponds shall drain in 72 hours.");
   assert.equal(displayQuote("Intro --- page 2 --- Chapter 3 ........ 5"), "Intro … Chapter 3 … 5…");
 });
+
+test("a contradiction in one text reading beats 'couldn't check' in another", async () => {
+  const { SourceIndex, matchExcerpt, bestAcrossSources } = await import("../lib/qa/evidenceMatch");
+  const quote = "leave at least 4 feet between the seasonal high-water table or bedrock and the trench bottom";
+  // reading 1 lost the digit (control char); reading 2 shows a different number
+  const lost = new SourceIndex([{ page: 51, text: "shallow enough to leave at least \u0018 feet between the seasonal high-water table or bedrock and the trench bottom." }]);
+  const clear = new SourceIndex([{ page: 51, text: "shallow enough to leave at least 3 feet between the seasonal high-water table or bedrock and the trench bottom." }]);
+  const a = matchExcerpt(lost, quote);
+  const b = matchExcerpt(clear, quote);
+  assert.equal(a.status, "unverifiable");
+  assert.equal(bestAcrossSources([a, b]).status, "fail");
+  // the right number passes
+  const ok = quote.replace("4 feet", "3 feet");
+  assert.equal(bestAcrossSources([matchExcerpt(lost, ok), matchExcerpt(clear, ok)]).status, "exact");
+});
+
+test("value check reads spelled-out numbers, mixed fractions and ft/ft slopes", async () => {
+  const { valueAppearsIn } = await import("../lib/qa/evidenceMatch");
+  assert.ok(valueAppearsIn(60, "permanent_pool_depth_inches", ["Permanent pool should be a minimum of five feet deep."]));
+  assert.ok(valueAppearsIn(24, "shwt_separation_inches", ["at least two feet above the seasonal high ground water table"]));
+  assert.ok(valueAppearsIn(2.5, "green_roof_media_depth_inches", ["a minimum media depth of 2½ inches."]));
+  assert.ok(valueAppearsIn(30, "bioretention_media_depth_min_inches", ["A 2½ to 4 foot deep planting soil bed"]));
+  assert.ok(valueAppearsIn(1, "wqv_depth_inches", ["the runoff from the first inch of precipitation"]));
+  assert.ok(valueAppearsIn(0.05, "swale_longitudinal_slope_percent", ["a minimum physical slope of 0.0005 feet/feet"]));
+  // still catches a value the quote doesn't state
+  assert.ok(!valueAppearsIn(48, "shwt_separation_inches", ["at least two feet above the water table"]));
+});
+
+test("value check reads hyphenated number words and 'twice as long'", async () => {
+  const { valueAppearsIn } = await import("../lib/qa/evidenceMatch");
+  assert.ok(valueAppearsIn(10, "years", ["referred to as the ten-year storm"]));
+  assert.ok(valueAppearsIn(12, "shwt_separation_inches", ["a minimum one-foot separation from the bottom"]));
+  assert.ok(valueAppearsIn(1, "wqv_depth_inches", ["all storms up to and including a one-inch storm"]));
+  assert.ok(valueAppearsIn(2, "length_to_width_ratio", ["at least twice as long as it is wide."]));
+});

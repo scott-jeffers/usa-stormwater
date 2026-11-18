@@ -69,8 +69,8 @@
     },
     {
       "field": "design_criteria.water_quality_volume_method",
-      "excerpt": "MINIMUM REQUIREMENT #6 - RUNOFF TREATMENT / #5 - ON-SITE STORMWATER MANAGEMENT",
-      "page_or_section": "D1-04.2"
+      "excerpt": "There are several levels of runoff treatment, depending on the type of land use activities. Volume V of the DOE Manual includes performance goals for Basic, Enhanced, Phosphorus, and Oil Control treatment, and a menu of facility options for each treatment type.",
+      "page_or_section": "D1-04.2(f) Minimum Requirement #6 - Runoff Treatment"
     },
     {
       "field": "design_criteria.peak_flow_calculation_method",

@@ -71,6 +71,13 @@ function QaChip({ qa, pdfUrl }: { qa: ExcerptQa | undefined; pdfUrl?: string | n
         </p>
       );
     case "unverifiable":
+      if (qa.visual_check)
+        return (
+          <p className={`${base} text-emerald-700 dark:text-emerald-300`}>
+            <span aria-hidden>✓</span> Checked by eye on the page image (the PDF&rsquo;s text layer drops these numbers)
+            {pageLink && <> · {pageLink}</>}
+          </p>
+        );
       return (
         <p className={`${base} text-amber-700 dark:text-amber-300`}>
           <span aria-hidden>?</span> Couldn&rsquo;t check: the PDF&rsquo;s text drops these numbers

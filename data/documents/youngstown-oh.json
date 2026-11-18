@@ -61,12 +61,12 @@
     },
     {
       "field": "design_parameters.shwt_separation_inches",
-      "excerpt": "minimum 4ft of separation required between the water table and the bioretention practice",
+      "excerpt": "A minimum 2ft of separation is recommended and a minimum 1ft of separation required between the water table and the bioretention practice.",
       "page_or_section": "2.10 Bioretention, page 77"
     },
     {
       "field": "design_parameters.shwt_separation_inches",
-      "excerpt": "leave at least 2 feet between the seasonal high-water table or bedrock and the trench bottom",
+      "excerpt": "shallow enough to leave at least 3 feet between the seasonal high-water table or bedrock and the trench bottom",
       "page_or_section": "2.7 Infiltration Trench, page 51"
     },
     {
@@ -108,7 +108,7 @@
   "extraction_quality": {
     "confidence": "medium",
     "needs_human_review": true,
-    "review_notes": "Statewide Ohio manual used as MS4 post-construction reference when city PDF unavailable/empty. Citation QA 2026-11-18: 0 quote(s) replaced with verbatim source text; 1 removed because no supporting text was found (jurisdiction_name).",
+    "review_notes": "Statewide Ohio manual used as MS4 post-construction reference when city PDF unavailable/empty. Citation QA 2026-11-18: 0 quote(s) replaced with verbatim source text; 1 removed because no supporting text was found (jurisdiction_name). Separation and infiltration-rate digits on PDF pp. 50, 51 and 77 were checked against the page images on 2026-11-18 (the text layer drops them); earlier quotes had 4 ft and 2.5 in/hr, which the manual does not say.",
     "fields_not_found": []
   },
   "source": {
@@ -120,7 +120,7 @@
   "design_parameters": {
     "wqv_depth_inches": 0.75,
     "max_drawdown_hours": 48,
-    "shwt_separation_inches": 48,
+    "shwt_separation_inches": 36,
     "bioretention_media_depth_min_inches": 30,
     "bioretention_ponding_depth_inches": null,
     "permeable_pavement_storage_depth_inches": null,

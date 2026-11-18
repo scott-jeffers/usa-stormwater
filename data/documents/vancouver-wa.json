@@ -137,6 +137,11 @@
       "field": "design_criteria.design_storm_return_periods_years",
       "excerpt": "Identify the 10-year recurrence interval stage for detention facility outfalls.",
       "page_or_section": "PDF p. 20 · found by QA search"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "The 25-year, 24-hour storm: Contributing drainage areas of 40 acres or more.",
+      "page_or_section": "PDF p. 26 · found by QA search"
     }
   ],
   "extraction_quality": {

@@ -105,12 +105,12 @@
     },
     {
       "field": "design_parameters.shwt_separation_inches",
-      "excerpt": "leave at least 4 feet between the seasonal high-water table or bedrock and the trench bottom",
+      "excerpt": "shallow enough to leave at least 3 feet between the seasonal high-water table or bedrock and the trench bottom",
       "page_or_section": "2.7 Infiltration Trench, page 51"
     },
     {
       "field": "design_parameters.shwt_separation_inches",
-      "excerpt": "a minimum 4ft of separation required between the water table and the bioretention practice",
+      "excerpt": "A minimum 2ft of separation is recommended and a minimum 1ft of separation required between the water table and the bioretention practice.",
       "page_or_section": "2.10 Bioretention, page 77"
     },
     {
@@ -125,7 +125,7 @@
     },
     {
       "field": "design_parameters.design_infiltration_rate_in_per_hr",
-      "excerpt": "Soil infiltration rates within the trench must be between 0.52 and 2.5 inches per hour",
+      "excerpt": "Soil infiltration rates within the trench must be between 0.52 and 2.4 inches per hour",
       "page_or_section": "2.7 Infiltration Trench, page 50"
     },
     {
@@ -142,7 +142,7 @@
   "extraction_quality": {
     "confidence": "high",
     "needs_human_review": true,
-    "review_notes": "Pipeline excerpt repair removed 1 unlocated citation(s). Citation QA 2026-11-18: 3 quote(s) replaced with verbatim source text; 3 removed because no supporting text was found (approved_bmp_categories, ed_drain_time_hours, max_drawdown_hours).",
+    "review_notes": "Pipeline excerpt repair removed 1 unlocated citation(s). Citation QA 2026-11-18: 3 quote(s) replaced with verbatim source text; 3 removed because no supporting text was found (approved_bmp_categories, ed_drain_time_hours, max_drawdown_hours). Separation and infiltration-rate digits on PDF pp. 50, 51 and 77 were checked against the page images on 2026-11-18 (the text layer drops them); earlier quotes had 4 ft and 2.5 in/hr, which the manual does not say.",
     "fields_not_found": [
       "document_metadata.last_revised_date",
       "design_criteria.required_hydrologic_hydraulic_software",
@@ -158,7 +158,7 @@
   "design_parameters": {
     "wqv_depth_inches": 0.75,
     "max_drawdown_hours": null,
-    "shwt_separation_inches": 48,
+    "shwt_separation_inches": 36,
     "bioretention_media_depth_min_inches": 30,
     "bioretention_ponding_depth_inches": null,
     "permeable_pavement_storage_depth_inches": null,

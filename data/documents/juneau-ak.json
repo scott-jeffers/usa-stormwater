@@ -101,6 +101,11 @@
       "field": "design_criteria.approved_bmp_categories",
       "excerpt": "Storm water treatment suitability matrix BMP family BMP list RUNOFF HYDROLOGY WATER QUALITY BENEFIT Rate control Volume reduction TSS P&N Metals Fecal coliform Retention Wet Pond High Low Primary Secondary Secondary Secondary Extended Storage Pond High Low Primary Secondary Secondary Secondary Wet Vaults Medium Lowa Primary Secondary Secondary Minor Detention Dry Pond High Low Secondary Minor",
       "page_or_section": "PDF p. 181 · found by QA search"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "Rev = [(S)(Rv)(A)] / 12 where S = soil specific recharge factor in inches Channel Protection Storage Volume Cpv Provide 24 hours of extended detention of the runoff from the 1-year, 24-hour duration storm event to reduce bank-full flows and protect downstream channels from erosive velocities and unstable conditions.",
+      "page_or_section": "PDF p. 78 · found by QA search"
     }
   ],
   "extraction_quality": {

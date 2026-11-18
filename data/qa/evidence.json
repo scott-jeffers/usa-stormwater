@@ -1,10 +1,10 @@
 {
  "version": 1,
- "generated_at": "2026-11-18T13:58:56.170Z",
+ "generated_at": "2026-11-18T14:46:56.445Z",
  "records": {
   "ak-dot-drainage": {
    "slug": "ak-dot-drainage",
-   "checked_at": "2026-11-18T13:58:12.957Z",
+   "checked_at": "2026-11-18T14:46:16.137Z",
    "corpus_pages": 2,
    "text_sources": 2,
    "status": "passed",
@@ -34,7 +34,7 @@
   },
   "ak-state": {
    "slug": "ak-state",
-   "checked_at": "2026-11-18T13:58:13.104Z",
+   "checked_at": "2026-11-18T14:46:16.306Z",
    "corpus_pages": 239,
    "text_sources": 2,
    "status": "passed",
@@ -197,14 +197,14 @@
   },
   "akron-oh": {
    "slug": "akron-oh",
-   "checked_at": "2026-11-18T13:58:13.345Z",
+   "checked_at": "2026-11-18T14:46:16.580Z",
    "corpus_pages": 400,
    "text_sources": 2,
    "status": "warnings",
    "counts": {
-    "exact": 9,
+    "exact": 11,
     "fuzzy": 1,
-    "unverifiable": 1,
+    "unverifiable": 0,
     "fail": 0
    },
    "excerpts": [
@@ -231,12 +231,10 @@
     },
     {
      "field": "design_parameters.shwt_separation_inches",
-     "status": "unverifiable",
-     "score": 0.93,
+     "status": "exact",
+     "score": 1,
      "page": 77,
-     "missing_numbers": [
-      "4"
-     ]
+     "missing_numbers": []
     },
     {
      "field": "design_parameters.bioretention_media_depth_min_inches",
@@ -286,6 +284,13 @@
      "score": 1,
      "page": 94,
      "missing_numbers": []
+    },
+    {
+     "field": "design_parameters.shwt_separation_inches",
+     "status": "exact",
+     "score": 1,
+     "page": 51,
+     "missing_numbers": []
     }
    ],
    "warnings": [
@@ -298,7 +303,7 @@
   },
   "al-aldot-drainage": {
    "slug": "al-aldot-drainage",
-   "checked_at": "2026-11-18T13:58:13.522Z",
+   "checked_at": "2026-11-18T14:46:16.761Z",
    "corpus_pages": 453,
    "text_sources": 2,
    "status": "passed",
@@ -377,7 +382,7 @@
   },
   "alabama-handbook": {
    "slug": "alabama-handbook",
-   "checked_at": "2026-11-18T13:58:13.674Z",
+   "checked_at": "2026-11-18T14:46:16.938Z",
    "corpus_pages": 409,
    "text_sources": 2,
    "status": "passed",
@@ -582,7 +587,7 @@
   },
   "albany-ny": {
    "slug": "albany-ny",
-   "checked_at": "2026-11-18T13:58:13.895Z",
+   "checked_at": "2026-11-18T14:46:17.150Z",
    "corpus_pages": 522,
    "text_sources": 2,
    "status": "passed",
@@ -724,7 +729,7 @@
   },
   "albuquerque-nm-gsi": {
    "slug": "albuquerque-nm-gsi",
-   "checked_at": "2026-11-18T13:58:13.907Z",
+   "checked_at": "2026-11-18T14:46:17.162Z",
    "corpus_pages": 27,
    "text_sources": 2,
    "status": "passed",
@@ -852,7 +857,7 @@
   },
   "alexandria-va": {
    "slug": "alexandria-va",
-   "checked_at": "2026-11-18T13:58:13.933Z",
+   "checked_at": "2026-11-18T14:46:17.188Z",
    "corpus_pages": 83,
    "text_sources": 2,
    "status": "warnings",
@@ -972,7 +977,7 @@
   },
   "allentown-pa": {
    "slug": "allentown-pa",
-   "checked_at": "2026-11-18T13:58:14.338Z",
+   "checked_at": "2026-11-18T14:46:17.580Z",
    "corpus_pages": 755,
    "text_sources": 2,
    "status": "warnings",
@@ -1078,11 +1083,6 @@
      "detail": "Value shown but no supporting excerpt"
     },
     {
-     "field": "design_parameters.permanent_pool_depth_inches",
-     "kind": "value_not_in_excerpt",
-     "detail": "60 is not stated in its excerpt (derived or misread?)"
-    },
-    {
      "field": "design_parameters.green_roof_media_depth_inches",
      "kind": "no_evidence",
      "detail": "3 has no supporting excerpt"
@@ -1091,7 +1091,7 @@
   },
   "amarillo-tx": {
    "slug": "amarillo-tx",
-   "checked_at": "2026-11-18T13:58:14.450Z",
+   "checked_at": "2026-11-18T14:46:17.677Z",
    "corpus_pages": 403,
    "text_sources": 2,
    "status": "warnings",
@@ -1211,7 +1211,7 @@
   },
   "anaheim-ca": {
    "slug": "anaheim-ca",
-   "checked_at": "2026-11-18T13:58:14.452Z",
+   "checked_at": "2026-11-18T14:46:17.679Z",
    "corpus_pages": 10,
    "text_sources": 2,
    "status": "warnings",
@@ -1317,7 +1317,7 @@
   },
   "anchorage-ak": {
    "slug": "anchorage-ak",
-   "checked_at": "2026-11-18T13:58:14.583Z",
+   "checked_at": "2026-11-18T14:46:17.794Z",
    "corpus_pages": 337,
    "text_sources": 2,
    "status": "passed",
@@ -1515,10 +1515,10 @@
   },
   "ann-arbor-mi": {
    "slug": "ann-arbor-mi",
-   "checked_at": "2026-11-18T13:58:14.659Z",
+   "checked_at": "2026-11-18T14:46:17.856Z",
    "corpus_pages": 140,
    "text_sources": 2,
-   "status": "warnings",
+   "status": "passed",
    "counts": {
     "exact": 10,
     "fuzzy": 0,
@@ -1597,20 +1597,14 @@
      "missing_numbers": []
     }
    ],
-   "warnings": [
-    {
-     "field": "design_parameters.wqv_depth_inches",
-     "kind": "value_not_in_excerpt",
-     "detail": "1 is not stated in its excerpt (derived or misread?)"
-    }
-   ]
+   "warnings": []
   },
   "annapolis-md": {
    "slug": "annapolis-md",
-   "checked_at": "2026-11-18T13:58:14.752Z",
+   "checked_at": "2026-11-18T14:46:17.948Z",
    "corpus_pages": 289,
    "text_sources": 2,
-   "status": "warnings",
+   "status": "passed",
    "counts": {
     "exact": 18,
     "fuzzy": 0,
@@ -1745,22 +1739,11 @@
      "missing_numbers": []
     }
    ],
-   "warnings": [
-    {
-     "field": "design_parameters.shwt_separation_inches",
-     "kind": "value_not_in_excerpt",
-     "detail": "48 is not stated in its excerpt (derived or misread?)"
-    },
-    {
-     "field": "design_parameters.bioretention_media_depth_min_inches",
-     "kind": "value_not_in_excerpt",
-     "detail": "30 is not stated in its excerpt (derived or misread?)"
-    }
-   ]
+   "warnings": []
   },
   "arkansas-manual": {
    "slug": "arkansas-manual",
-   "checked_at": "2026-11-18T13:58:14.837Z",
+   "checked_at": "2026-11-18T14:46:18.035Z",
    "corpus_pages": 109,
    "text_sources": 2,
    "status": "passed",
@@ -1986,7 +1969,7 @@
   },
   "arlington-county-va": {
    "slug": "arlington-county-va",
-   "checked_at": "2026-11-18T13:58:14.884Z",
+   "checked_at": "2026-11-18T14:46:18.076Z",
    "corpus_pages": 77,
    "text_sources": 2,
    "status": "passed",
@@ -2135,7 +2118,7 @@
   },
   "arlington-tx": {
    "slug": "arlington-tx",
-   "checked_at": "2026-11-18T13:58:14.947Z",
+   "checked_at": "2026-11-18T14:46:18.134Z",
    "corpus_pages": 148,
    "text_sources": 2,
    "status": "passed",
@@ -2270,7 +2253,7 @@
   },
   "asheville-nc": {
    "slug": "asheville-nc",
-   "checked_at": "2026-11-18T13:58:14.951Z",
+   "checked_at": "2026-11-18T14:46:18.137Z",
    "corpus_pages": 7,
    "text_sources": 2,
    "status": "warnings",
@@ -2348,17 +2331,12 @@
      "field": "design_criteria.peak_flow_calculation_method",
      "kind": "no_evidence",
      "detail": "Value shown but no supporting excerpt"
-    },
-    {
-     "field": "design_parameters.wqv_depth_inches",
-     "kind": "value_not_in_excerpt",
-     "detail": "1 is not stated in its excerpt (derived or misread?)"
     }
    ]
   },
   "athens-ga": {
    "slug": "athens-ga",
-   "checked_at": "2026-11-18T13:58:15.074Z",
+   "checked_at": "2026-11-18T14:46:18.242Z",
    "corpus_pages": 227,
    "text_sources": 2,
    "status": "passed",
@@ -2465,7 +2443,7 @@
   },
   "augusta-ga": {
    "slug": "augusta-ga",
-   "checked_at": "2026-11-18T13:58:15.241Z",
+   "checked_at": "2026-11-18T14:46:18.360Z",
    "corpus_pages": 227,
    "text_sources": 2,
    "status": "passed",
@@ -2572,7 +2550,7 @@
   },
   "augusta-me": {
    "slug": "augusta-me",
-   "checked_at": "2026-11-18T13:58:15.318Z",
+   "checked_at": "2026-11-18T14:46:18.413Z",
    "corpus_pages": 114,
    "text_sources": 2,
    "status": "passed",
@@ -2672,7 +2650,7 @@
   },
   "aurora-co": {
    "slug": "aurora-co",
-   "checked_at": "2026-11-18T13:58:15.478Z",
+   "checked_at": "2026-11-18T14:46:18.530Z",
    "corpus_pages": 257,
    "text_sources": 2,
    "status": "passed",
@@ -2835,7 +2813,7 @@
   },
   "austin-tx-ecm": {
    "slug": "austin-tx-ecm",
-   "checked_at": "2026-11-18T13:58:15.495Z",
+   "checked_at": "2026-11-18T14:46:18.541Z",
    "corpus_pages": 29,
    "text_sources": 2,
    "status": "passed",
@@ -2935,7 +2913,7 @@
   },
   "az-adot-drainage": {
    "slug": "az-adot-drainage",
-   "checked_at": "2026-11-18T13:58:15.563Z",
+   "checked_at": "2026-11-18T14:46:18.591Z",
    "corpus_pages": 182,
    "text_sources": 2,
    "status": "warnings",
@@ -2999,7 +2977,7 @@
   },
   "bakersfield-ca": {
    "slug": "bakersfield-ca",
-   "checked_at": "2026-11-18T13:58:15.575Z",
+   "checked_at": "2026-11-18T14:46:18.600Z",
    "corpus_pages": 38,
    "text_sources": 2,
    "status": "warnings",
@@ -3093,20 +3071,15 @@
      "field": "design_criteria.approved_bmp_categories",
      "kind": "no_evidence",
      "detail": "Value shown but no supporting excerpt"
-    },
-    {
-     "field": "design_criteria.design_storm_return_periods_years",
-     "kind": "value_not_in_excerpt",
-     "detail": "Not mentioned in excerpts: 10-yr"
     }
    ]
   },
   "baltimore-md": {
    "slug": "baltimore-md",
-   "checked_at": "2026-11-18T13:58:15.584Z",
+   "checked_at": "2026-11-18T14:46:18.605Z",
    "corpus_pages": 5,
    "text_sources": 2,
-   "status": "warnings",
+   "status": "passed",
    "counts": {
     "exact": 14,
     "fuzzy": 1,
@@ -3220,22 +3193,16 @@
      "missing_numbers": []
     }
    ],
-   "warnings": [
-    {
-     "field": "design_criteria.design_storm_return_periods_years",
-     "kind": "value_not_in_excerpt",
-     "detail": "Not mentioned in excerpts: 1-yr"
-    }
-   ]
+   "warnings": []
   },
   "baton-rouge-la": {
    "slug": "baton-rouge-la",
-   "checked_at": "2026-11-18T13:58:15.614Z",
+   "checked_at": "2026-11-18T14:46:18.625Z",
    "corpus_pages": 62,
    "text_sources": 2,
-   "status": "warnings",
+   "status": "passed",
    "counts": {
-    "exact": 21,
+    "exact": 20,
     "fuzzy": 1,
     "unverifiable": 0,
     "fail": 0
@@ -3319,13 +3286,6 @@
      "missing_numbers": []
     },
     {
-     "field": "design_parameters.permeable_pavement_storage_depth_inches",
-     "status": "exact",
-     "score": 1,
-     "page": 30,
-     "missing_numbers": []
-    },
-    {
      "field": "design_parameters.design_infiltration_rate_in_per_hr",
      "status": "exact",
      "score": 1,
@@ -3396,22 +3356,11 @@
      "missing_numbers": []
     }
    ],
-   "warnings": [
-    {
-     "field": "design_criteria.design_storm_return_periods_years",
-     "kind": "value_not_in_excerpt",
-     "detail": "Not mentioned in excerpts: 10-yr"
-    },
-    {
-     "field": "design_parameters.permeable_pavement_storage_depth_inches",
-     "kind": "value_not_in_excerpt",
-     "detail": "48 is not stated in its excerpt (derived or misread?)"
-    }
-   ]
+   "warnings": []
   },
   "beatrice-ne": {
    "slug": "beatrice-ne",
-   "checked_at": "2026-11-18T13:58:15.722Z",
+   "checked_at": "2026-11-18T14:46:18.688Z",
    "corpus_pages": 126,
    "text_sources": 2,
    "status": "passed",
@@ -3623,7 +3572,7 @@
   },
   "beaumont-tx": {
    "slug": "beaumont-tx",
-   "checked_at": "2026-11-18T13:58:15.741Z",
+   "checked_at": "2026-11-18T14:46:18.702Z",
    "corpus_pages": 45,
    "text_sources": 2,
    "status": "warnings",
@@ -3706,14 +3655,14 @@
   },
   "bellevue-wa": {
    "slug": "bellevue-wa",
-   "checked_at": "2026-11-18T13:58:15.894Z",
+   "checked_at": "2026-11-18T14:46:18.811Z",
    "corpus_pages": 317,
    "text_sources": 2,
-   "status": "warnings",
+   "status": "passed",
    "counts": {
-    "exact": 12,
+    "exact": 13,
     "fuzzy": 3,
-    "unverifiable": 1,
+    "unverifiable": 0,
     "fail": 0
    },
    "excerpts": [
@@ -3775,12 +3724,10 @@
     },
     {
      "field": "design_criteria.water_quality_volume_method",
-     "status": "unverifiable",
-     "score": 0.9,
-     "page": 193,
-     "missing_numbers": [
-      "5"
-     ]
+     "status": "exact",
+     "score": 1,
+     "page": 33,
+     "missing_numbers": []
     },
     {
      "field": "design_criteria.peak_flow_calculation_method",
@@ -3836,7 +3783,7 @@
   },
   "bellingham-wa": {
    "slug": "bellingham-wa",
-   "checked_at": "2026-11-18T13:58:16.663Z",
+   "checked_at": "2026-11-18T14:46:19.430Z",
    "corpus_pages": 1350,
    "text_sources": 2,
    "status": "warnings",
@@ -3942,7 +3889,7 @@
   },
   "bend-or": {
    "slug": "bend-or",
-   "checked_at": "2026-11-18T13:58:16.777Z",
+   "checked_at": "2026-11-18T14:46:19.542Z",
    "corpus_pages": 236,
    "text_sources": 2,
    "status": "warnings",
@@ -4039,7 +3986,7 @@
   },
   "billings-mt": {
    "slug": "billings-mt",
-   "checked_at": "2026-11-18T13:58:16.878Z",
+   "checked_at": "2026-11-18T14:46:19.643Z",
    "corpus_pages": 207,
    "text_sources": 2,
    "status": "passed",
@@ -4209,7 +4156,7 @@
   },
   "birmingham-al": {
    "slug": "birmingham-al",
-   "checked_at": "2026-11-18T13:58:17.077Z",
+   "checked_at": "2026-11-18T14:46:19.820Z",
    "corpus_pages": 262,
    "text_sources": 2,
    "status": "passed",
@@ -4365,7 +4312,7 @@
   },
   "bismarck-nd": {
    "slug": "bismarck-nd",
-   "checked_at": "2026-11-18T13:58:17.149Z",
+   "checked_at": "2026-11-18T14:46:19.899Z",
    "corpus_pages": 206,
    "text_sources": 2,
    "status": "passed",
@@ -4500,7 +4447,7 @@
   },
   "boca-raton-fl": {
    "slug": "boca-raton-fl",
-   "checked_at": "2026-11-18T13:58:17.177Z",
+   "checked_at": "2026-11-18T14:46:19.932Z",
    "corpus_pages": 59,
    "text_sources": 2,
    "status": "warnings",
@@ -4592,17 +4539,12 @@
      "field": "design_criteria.approved_bmp_categories",
      "kind": "no_evidence",
      "detail": "Value shown but no supporting excerpt"
-    },
-    {
-     "field": "design_parameters.wqv_depth_inches",
-     "kind": "value_not_in_excerpt",
-     "detail": "1 is not stated in its excerpt (derived or misread?)"
     }
    ]
   },
   "boise-id": {
    "slug": "boise-id",
-   "checked_at": "2026-11-18T13:58:17.245Z",
+   "checked_at": "2026-11-18T14:46:20.009Z",
    "corpus_pages": 149,
    "text_sources": 2,
    "status": "passed",
@@ -4758,7 +4700,7 @@
   },
   "boston-ma": {
    "slug": "boston-ma",
-   "checked_at": "2026-11-18T13:58:17.341Z",
+   "checked_at": "2026-11-18T14:46:20.115Z",
    "corpus_pages": 90,
    "text_sources": 2,
    "status": "passed",
@@ -4935,7 +4877,7 @@
   },
   "boulder-co": {
    "slug": "boulder-co",
-   "checked_at": "2026-11-18T13:58:17.356Z",
+   "checked_at": "2026-11-18T14:46:20.132Z",
    "corpus_pages": 23,
    "text_sources": 2,
    "status": "warnings",
@@ -4978,7 +4920,7 @@
   },
   "bridgeport-ct": {
    "slug": "bridgeport-ct",
-   "checked_at": "2026-11-18T13:58:17.668Z",
+   "checked_at": "2026-11-18T14:46:20.416Z",
    "corpus_pages": 564,
    "text_sources": 2,
    "status": "passed",
@@ -5120,7 +5062,7 @@
   },
   "broward-county-fl": {
    "slug": "broward-county-fl",
-   "checked_at": "2026-11-18T13:58:17.726Z",
+   "checked_at": "2026-11-18T14:46:20.450Z",
    "corpus_pages": 92,
    "text_sources": 2,
    "status": "passed",
@@ -5241,7 +5183,7 @@
   },
   "brownsville-tx": {
    "slug": "brownsville-tx",
-   "checked_at": "2026-11-18T13:58:17.750Z",
+   "checked_at": "2026-11-18T14:46:20.471Z",
    "corpus_pages": 52,
    "text_sources": 2,
    "status": "warnings",
@@ -5301,7 +5243,7 @@
   },
   "buffalo-ny": {
    "slug": "buffalo-ny",
-   "checked_at": "2026-11-18T13:58:17.754Z",
+   "checked_at": "2026-11-18T14:46:20.473Z",
    "corpus_pages": 3,
    "text_sources": 2,
    "status": "passed",
@@ -5422,7 +5364,7 @@
   },
   "burlington-vt": {
    "slug": "burlington-vt",
-   "checked_at": "2026-11-18T13:58:17.885Z",
+   "checked_at": "2026-11-18T14:46:20.577Z",
    "corpus_pages": 220,
    "text_sources": 2,
    "status": "warnings",
@@ -5579,17 +5521,12 @@
      "field": "design_criteria.approved_bmp_categories",
      "kind": "no_evidence",
      "detail": "Value shown but no supporting excerpt"
-    },
-    {
-     "field": "design_parameters.swale_bottom_width_inches",
-     "kind": "value_not_in_excerpt",
-     "detail": "24 is not stated in its excerpt (derived or misread?)"
     }
    ]
   },
   "ca-caltrans-construction": {
    "slug": "ca-caltrans-construction",
-   "checked_at": "2026-11-18T13:58:18.025Z",
+   "checked_at": "2026-11-18T14:46:20.696Z",
    "corpus_pages": 272,
    "text_sources": 2,
    "status": "passed",
@@ -5731,7 +5668,7 @@
   },
   "ca-caltrans-project-planning": {
    "slug": "ca-caltrans-project-planning",
-   "checked_at": "2026-11-18T13:58:18.229Z",
+   "checked_at": "2026-11-18T14:46:20.876Z",
    "corpus_pages": 302,
    "text_sources": 2,
    "status": "passed",
@@ -5838,7 +5775,7 @@
   },
   "ca-casqa-municipal": {
    "slug": "ca-casqa-municipal",
-   "checked_at": "2026-11-18T13:58:18.350Z",
+   "checked_at": "2026-11-18T14:46:21.011Z",
    "corpus_pages": 300,
    "text_sources": 2,
    "status": "passed",
@@ -5952,7 +5889,7 @@
   },
   "cambridge-ma": {
    "slug": "cambridge-ma",
-   "checked_at": "2026-11-18T13:58:18.962Z",
+   "checked_at": "2026-11-18T14:46:21.539Z",
    "corpus_pages": 860,
    "text_sources": 2,
    "status": "passed",
@@ -6080,7 +6017,7 @@
   },
   "cape-coral-fl": {
    "slug": "cape-coral-fl",
-   "checked_at": "2026-11-18T13:58:18.998Z",
+   "checked_at": "2026-11-18T14:46:21.573Z",
    "corpus_pages": 64,
    "text_sources": 2,
    "status": "warnings",
@@ -6186,7 +6123,7 @@
   },
   "carson-city-nv": {
    "slug": "carson-city-nv",
-   "checked_at": "2026-11-18T13:58:19.112Z",
+   "checked_at": "2026-11-18T14:46:21.658Z",
    "corpus_pages": 200,
    "text_sources": 2,
    "status": "warnings",
@@ -6290,10 +6227,10 @@
   },
   "cary-nc": {
    "slug": "cary-nc",
-   "checked_at": "2026-11-18T13:58:19.116Z",
+   "checked_at": "2026-11-18T14:46:21.661Z",
    "corpus_pages": 7,
    "text_sources": 2,
-   "status": "warnings",
+   "status": "passed",
    "counts": {
     "exact": 8,
     "fuzzy": 1,
@@ -6365,17 +6302,11 @@
      "missing_numbers": []
     }
    ],
-   "warnings": [
-    {
-     "field": "design_parameters.wqv_depth_inches",
-     "kind": "value_not_in_excerpt",
-     "detail": "1 is not stated in its excerpt (derived or misread?)"
-    }
-   ]
+   "warnings": []
   },
   "casper-wy": {
    "slug": "casper-wy",
-   "checked_at": "2026-11-18T13:58:19.124Z",
+   "checked_at": "2026-11-18T14:46:21.666Z",
    "corpus_pages": 58,
    "text_sources": 2,
    "status": "warnings",
@@ -6418,7 +6349,7 @@
   },
   "cedar-rapids-ia": {
    "slug": "cedar-rapids-ia",
-   "checked_at": "2026-11-18T13:58:19.215Z",
+   "checked_at": "2026-11-18T14:46:21.734Z",
    "corpus_pages": 182,
    "text_sources": 2,
    "status": "warnings",
@@ -6494,7 +6425,7 @@
   },
   "chandler-az": {
    "slug": "chandler-az",
-   "checked_at": "2026-11-18T13:58:19.349Z",
+   "checked_at": "2026-11-18T14:46:21.852Z",
    "corpus_pages": 264,
    "text_sources": 2,
    "status": "warnings",
@@ -6593,7 +6524,7 @@
   },
   "charleston-sc": {
    "slug": "charleston-sc",
-   "checked_at": "2026-11-18T13:58:19.511Z",
+   "checked_at": "2026-11-18T14:46:21.974Z",
    "corpus_pages": 251,
    "text_sources": 2,
    "status": "warnings",
@@ -6732,7 +6663,7 @@
   },
   "charleston-wv": {
    "slug": "charleston-wv",
-   "checked_at": "2026-11-18T13:58:19.696Z",
+   "checked_at": "2026-11-18T14:46:22.121Z",
    "corpus_pages": 336,
    "text_sources": 2,
    "status": "passed",
@@ -6895,7 +6826,7 @@
   },
   "charlotte-nc": {
    "slug": "charlotte-nc",
-   "checked_at": "2026-11-18T13:58:19.741Z",
+   "checked_at": "2026-11-18T14:46:22.155Z",
    "corpus_pages": 123,
    "text_sources": 2,
    "status": "passed",
@@ -7051,7 +6982,7 @@
   },
   "charlottesville-va": {
    "slug": "charlottesville-va",
-   "checked_at": "2026-11-18T13:58:19.880Z",
+   "checked_at": "2026-11-18T14:46:22.268Z",
    "corpus_pages": 266,
    "text_sources": 2,
    "status": "warnings",
@@ -7136,7 +7067,7 @@
   },
   "chattanooga-tn": {
    "slug": "chattanooga-tn",
-   "checked_at": "2026-11-18T13:58:20.159Z",
+   "checked_at": "2026-11-18T14:46:22.488Z",
    "corpus_pages": 635,
    "text_sources": 2,
    "status": "warnings",
@@ -7272,17 +7203,12 @@
      "field": "design_criteria.approved_bmp_categories",
      "kind": "no_evidence",
      "detail": "Value shown but no supporting excerpt"
-    },
-    {
-     "field": "design_parameters.green_roof_media_depth_inches",
-     "kind": "value_not_in_excerpt",
-     "detail": "2.5 is not stated in its excerpt (derived or misread?)"
     }
    ]
   },
   "chesapeake-va": {
    "slug": "chesapeake-va",
-   "checked_at": "2026-11-18T13:58:20.179Z",
+   "checked_at": "2026-11-18T14:46:22.502Z",
    "corpus_pages": 33,
    "text_sources": 2,
    "status": "passed",
@@ -7487,7 +7413,7 @@
   },
   "cheyenne-wy": {
    "slug": "cheyenne-wy",
-   "checked_at": "2026-11-18T13:58:20.202Z",
+   "checked_at": "2026-11-18T14:46:22.509Z",
    "corpus_pages": 58,
    "text_sources": 2,
    "status": "warnings",
@@ -7523,7 +7449,7 @@
   },
   "chicago-il": {
    "slug": "chicago-il",
-   "checked_at": "2026-11-18T13:58:20.265Z",
+   "checked_at": "2026-11-18T14:46:22.576Z",
    "corpus_pages": 145,
    "text_sources": 2,
    "status": "passed",
@@ -7665,7 +7591,7 @@
   },
   "chula-vista-ca": {
    "slug": "chula-vista-ca",
-   "checked_at": "2026-11-18T13:58:20.625Z",
+   "checked_at": "2026-11-18T14:46:22.926Z",
    "corpus_pages": 786,
    "text_sources": 2,
    "status": "warnings",
@@ -7764,7 +7690,7 @@
   },
   "cincinnati-oh": {
    "slug": "cincinnati-oh",
-   "checked_at": "2026-11-18T13:58:20.626Z",
+   "checked_at": "2026-11-18T14:46:22.927Z",
    "corpus_pages": 136,
    "text_sources": 2,
    "status": "warnings",
@@ -7800,7 +7726,7 @@
   },
   "clarksville-tn": {
    "slug": "clarksville-tn",
-   "checked_at": "2026-11-18T13:58:20.767Z",
+   "checked_at": "2026-11-18T14:46:23.030Z",
    "corpus_pages": 369,
    "text_sources": 2,
    "status": "warnings",
@@ -7960,14 +7886,14 @@
   },
   "cleveland-oh": {
    "slug": "cleveland-oh",
-   "checked_at": "2026-11-18T13:58:20.968Z",
+   "checked_at": "2026-11-18T14:46:23.199Z",
    "corpus_pages": 400,
    "text_sources": 2,
    "status": "warnings",
    "counts": {
-    "exact": 9,
+    "exact": 11,
     "fuzzy": 1,
-    "unverifiable": 2,
+    "unverifiable": 0,
     "fail": 0
    },
    "excerpts": [
@@ -8001,21 +7927,17 @@
     },
     {
      "field": "design_parameters.shwt_separation_inches",
-     "status": "unverifiable",
-     "score": 0.93,
+     "status": "exact",
+     "score": 1,
      "page": 77,
-     "missing_numbers": [
-      "4"
-     ]
+     "missing_numbers": []
     },
     {
      "field": "design_parameters.shwt_separation_inches",
-     "status": "unverifiable",
-     "score": 0.94,
+     "status": "exact",
+     "score": 1,
      "page": 51,
-     "missing_numbers": [
-      "4"
-     ]
+     "missing_numbers": []
     },
     {
      "field": "design_parameters.bioretention_media_depth_min_inches",
@@ -8070,7 +7992,7 @@
   },
   "co-cwcb-floodplain-stormwater": {
    "slug": "co-cwcb-floodplain-stormwater",
-   "checked_at": "2026-11-18T13:58:20.983Z",
+   "checked_at": "2026-11-18T14:46:23.207Z",
    "corpus_pages": 20,
    "text_sources": 2,
    "status": "passed",
@@ -8191,7 +8113,7 @@
   },
   "college-station-tx": {
    "slug": "college-station-tx",
-   "checked_at": "2026-11-18T13:58:21.044Z",
+   "checked_at": "2026-11-18T14:46:23.262Z",
    "corpus_pages": 127,
    "text_sources": 2,
    "status": "warnings",
@@ -8283,7 +8205,7 @@
   },
   "colorado-springs-co": {
    "slug": "colorado-springs-co",
-   "checked_at": "2026-11-18T13:58:21.054Z",
+   "checked_at": "2026-11-18T14:46:23.285Z",
    "corpus_pages": 23,
    "text_sources": 2,
    "status": "warnings",
@@ -8340,7 +8262,7 @@
   },
   "columbia-mo": {
    "slug": "columbia-mo",
-   "checked_at": "2026-11-18T13:58:21.108Z",
+   "checked_at": "2026-11-18T14:46:23.349Z",
    "corpus_pages": 195,
    "text_sources": 2,
    "status": "passed",
@@ -8433,7 +8355,7 @@
   },
   "columbia-sc": {
    "slug": "columbia-sc",
-   "checked_at": "2026-11-18T13:58:21.135Z",
+   "checked_at": "2026-11-18T14:46:23.397Z",
    "corpus_pages": 59,
    "text_sources": 2,
    "status": "passed",
@@ -8582,7 +8504,7 @@
   },
   "columbus-oh": {
    "slug": "columbus-oh",
-   "checked_at": "2026-11-18T13:58:21.277Z",
+   "checked_at": "2026-11-18T14:46:23.534Z",
    "corpus_pages": 264,
    "text_sources": 2,
    "status": "passed",
@@ -8724,7 +8646,7 @@
   },
   "concord-nc": {
    "slug": "concord-nc",
-   "checked_at": "2026-11-18T13:58:21.282Z",
+   "checked_at": "2026-11-18T14:46:23.536Z",
    "corpus_pages": 7,
    "text_sources": 2,
    "status": "warnings",
@@ -8823,17 +8745,12 @@
      "field": "design_criteria.peak_flow_calculation_method",
      "kind": "no_evidence",
      "detail": "Value shown but no supporting excerpt"
-    },
-    {
-     "field": "design_parameters.wqv_depth_inches",
-     "kind": "value_not_in_excerpt",
-     "detail": "1 is not stated in its excerpt (derived or misread?)"
     }
    ]
   },
   "concord-nh": {
    "slug": "concord-nh",
-   "checked_at": "2026-11-18T13:58:21.299Z",
+   "checked_at": "2026-11-18T14:46:23.542Z",
    "corpus_pages": 11,
    "text_sources": 2,
    "status": "warnings",
@@ -8953,7 +8870,7 @@
   },
   "cook-county-il": {
    "slug": "cook-county-il",
-   "checked_at": "2026-11-18T13:58:21.549Z",
+   "checked_at": "2026-11-18T14:46:23.717Z",
    "corpus_pages": 538,
    "text_sources": 2,
    "status": "passed",
@@ -9067,7 +8984,7 @@
   },
   "corpus-christi-tx": {
    "slug": "corpus-christi-tx",
-   "checked_at": "2026-11-18T13:58:21.668Z",
+   "checked_at": "2026-11-18T14:46:23.815Z",
    "corpus_pages": 342,
    "text_sources": 2,
    "status": "warnings",
@@ -9243,7 +9160,7 @@
   },
   "ct-ctdot-drainage": {
    "slug": "ct-ctdot-drainage",
-   "checked_at": "2026-11-18T13:58:22.004Z",
+   "checked_at": "2026-11-18T14:46:24.097Z",
    "corpus_pages": 729,
    "text_sources": 2,
    "status": "passed",
@@ -9357,7 +9274,7 @@
   },
   "ct-state": {
    "slug": "ct-state",
-   "checked_at": "2026-11-18T13:58:22.315Z",
+   "checked_at": "2026-11-18T14:46:24.343Z",
    "corpus_pages": 564,
    "text_sources": 2,
    "status": "passed",
@@ -9527,7 +9444,7 @@
   },
   "dallas-tx": {
    "slug": "dallas-tx",
-   "checked_at": "2026-11-18T13:58:22.375Z",
+   "checked_at": "2026-11-18T14:46:24.391Z",
    "corpus_pages": 127,
    "text_sources": 2,
    "status": "passed",
@@ -9697,7 +9614,7 @@
   },
   "davenport-ia": {
    "slug": "davenport-ia",
-   "checked_at": "2026-11-18T13:58:22.445Z",
+   "checked_at": "2026-11-18T14:46:24.468Z",
    "corpus_pages": 182,
    "text_sources": 2,
    "status": "warnings",
@@ -9766,7 +9683,7 @@
   },
   "dayton-oh": {
    "slug": "dayton-oh",
-   "checked_at": "2026-11-18T13:58:22.449Z",
+   "checked_at": "2026-11-18T14:46:24.473Z",
    "corpus_pages": 11,
    "text_sources": 2,
    "status": "warnings",
@@ -9858,7 +9775,7 @@
   },
   "daytona-beach-fl": {
    "slug": "daytona-beach-fl",
-   "checked_at": "2026-11-18T13:58:22.515Z",
+   "checked_at": "2026-11-18T14:46:24.546Z",
    "corpus_pages": 188,
    "text_sources": 2,
    "status": "warnings",
@@ -9973,20 +9890,15 @@
      "field": "design_criteria.approved_bmp_categories",
      "kind": "no_evidence",
      "detail": "Value shown but no supporting excerpt"
-    },
-    {
-     "field": "design_parameters.shwt_separation_inches",
-     "kind": "value_not_in_excerpt",
-     "detail": "24 is not stated in its excerpt (derived or misread?)"
     }
    ]
   },
   "dc-ddot-stormwater": {
    "slug": "dc-ddot-stormwater",
-   "checked_at": "2026-11-18T13:58:22.577Z",
+   "checked_at": "2026-11-18T14:46:24.608Z",
    "corpus_pages": 198,
    "text_sources": 2,
-   "status": "warnings",
+   "status": "passed",
    "counts": {
     "exact": 14,
     "fuzzy": 1,
@@ -10100,17 +10012,11 @@
      "missing_numbers": []
     }
    ],
-   "warnings": [
-    {
-     "field": "design_parameters.shwt_separation_inches",
-     "kind": "value_not_in_excerpt",
-     "detail": "24 is not stated in its excerpt (derived or misread?)"
-    }
-   ]
+   "warnings": []
   },
   "dc-guidebook": {
    "slug": "dc-guidebook",
-   "checked_at": "2026-11-18T13:58:22.647Z",
+   "checked_at": "2026-11-18T14:46:24.681Z",
    "corpus_pages": 231,
    "text_sources": 2,
    "status": "passed",
@@ -10259,7 +10165,7 @@
   },
   "de-deldot-drainage": {
    "slug": "de-deldot-drainage",
-   "checked_at": "2026-11-18T13:58:22.730Z",
+   "checked_at": "2026-11-18T14:46:24.739Z",
    "corpus_pages": 111,
    "text_sources": 2,
    "status": "warnings",
@@ -10379,10 +10285,10 @@
   },
   "de-wet-ponds-draft": {
    "slug": "de-wet-ponds-draft",
-   "checked_at": "2026-11-18T13:58:22.739Z",
+   "checked_at": "2026-11-18T14:46:24.751Z",
    "corpus_pages": 22,
    "text_sources": 2,
-   "status": "warnings",
+   "status": "passed",
    "counts": {
     "exact": 22,
     "fuzzy": 0,
@@ -10545,17 +10451,11 @@
      "missing_numbers": []
     }
    ],
-   "warnings": [
-    {
-     "field": "design_parameters.shwt_separation_inches",
-     "kind": "value_not_in_excerpt",
-     "detail": "24 is not stated in its excerpt (derived or misread?)"
-    }
-   ]
+   "warnings": []
   },
   "dekalb-county-ga": {
    "slug": "dekalb-county-ga",
-   "checked_at": "2026-11-18T13:58:22.855Z",
+   "checked_at": "2026-11-18T14:46:24.862Z",
    "corpus_pages": 227,
    "text_sources": 2,
    "status": "passed",
@@ -10662,7 +10562,7 @@
   },
   "deltona-fl": {
    "slug": "deltona-fl",
-   "checked_at": "2026-11-18T13:58:22.921Z",
+   "checked_at": "2026-11-18T14:46:24.926Z",
    "corpus_pages": 188,
    "text_sources": 2,
    "status": "warnings",
@@ -10777,17 +10677,12 @@
      "field": "design_criteria.approved_bmp_categories",
      "kind": "no_evidence",
      "detail": "Value shown but no supporting excerpt"
-    },
-    {
-     "field": "design_parameters.shwt_separation_inches",
-     "kind": "value_not_in_excerpt",
-     "detail": "24 is not stated in its excerpt (derived or misread?)"
     }
    ]
   },
   "denton-tx": {
    "slug": "denton-tx",
-   "checked_at": "2026-11-18T13:58:22.992Z",
+   "checked_at": "2026-11-18T14:46:25.014Z",
    "corpus_pages": 194,
    "text_sources": 2,
    "status": "warnings",
@@ -10893,7 +10788,7 @@
   },
   "denver-co": {
    "slug": "denver-co",
-   "checked_at": "2026-11-18T13:58:23.008Z",
+   "checked_at": "2026-11-18T14:46:25.045Z",
    "corpus_pages": 23,
    "text_sources": 2,
    "status": "passed",
@@ -11042,7 +10937,7 @@
   },
   "des-moines-ia": {
    "slug": "des-moines-ia",
-   "checked_at": "2026-11-18T13:58:23.097Z",
+   "checked_at": "2026-11-18T14:46:25.137Z",
    "corpus_pages": 182,
    "text_sources": 2,
    "status": "warnings",
@@ -11120,7 +11015,7 @@
   },
   "detroit-mi": {
    "slug": "detroit-mi",
-   "checked_at": "2026-11-18T13:58:23.298Z",
+   "checked_at": "2026-11-18T14:46:25.417Z",
    "corpus_pages": 494,
    "text_sources": 2,
    "status": "passed",
@@ -11325,7 +11220,7 @@
   },
   "dover-de": {
    "slug": "dover-de",
-   "checked_at": "2026-11-18T13:58:23.324Z",
+   "checked_at": "2026-11-18T14:46:25.438Z",
    "corpus_pages": 22,
    "text_sources": 2,
    "status": "warnings",
@@ -11419,17 +11314,12 @@
      "field": "design_criteria.approved_bmp_categories",
      "kind": "no_evidence",
      "detail": "Value shown but no supporting excerpt"
-    },
-    {
-     "field": "design_parameters.shwt_separation_inches",
-     "kind": "value_not_in_excerpt",
-     "detail": "24 is not stated in its excerpt (derived or misread?)"
     }
    ]
   },
   "duluth-mn": {
    "slug": "duluth-mn",
-   "checked_at": "2026-11-18T13:58:23.731Z",
+   "checked_at": "2026-11-18T14:46:25.894Z",
    "corpus_pages": 885,
    "text_sources": 2,
    "status": "warnings",
@@ -11540,7 +11430,7 @@
   },
   "durham-nc": {
    "slug": "durham-nc",
-   "checked_at": "2026-11-18T13:58:23.854Z",
+   "checked_at": "2026-11-18T14:46:26.004Z",
    "corpus_pages": 262,
    "text_sources": 2,
    "status": "warnings",
@@ -11648,17 +11538,12 @@
      "field": "design_criteria.peak_flow_calculation_method",
      "kind": "no_evidence",
      "detail": "Value shown but no supporting excerpt"
-    },
-    {
-     "field": "design_parameters.shwt_separation_inches",
-     "kind": "value_not_in_excerpt",
-     "detail": "12 is not stated in its excerpt (derived or misread?)"
     }
    ]
   },
   "el-paso-tx": {
    "slug": "el-paso-tx",
-   "checked_at": "2026-11-18T13:58:23.905Z",
+   "checked_at": "2026-11-18T14:46:26.055Z",
    "corpus_pages": 217,
    "text_sources": 2,
    "status": "passed",
@@ -11772,7 +11657,7 @@
   },
   "elizabeth-nj": {
    "slug": "elizabeth-nj",
-   "checked_at": "2026-11-18T13:58:23.957Z",
+   "checked_at": "2026-11-18T14:46:26.102Z",
    "corpus_pages": 100,
    "text_sources": 2,
    "status": "warnings",
@@ -11869,7 +11754,7 @@
   },
   "erie-pa": {
    "slug": "erie-pa",
-   "checked_at": "2026-11-18T13:58:24.381Z",
+   "checked_at": "2026-11-18T14:46:26.488Z",
    "corpus_pages": 755,
    "text_sources": 2,
    "status": "warnings",
@@ -11973,11 +11858,6 @@
      "detail": "24 has no supporting excerpt"
     },
     {
-     "field": "design_parameters.permanent_pool_depth_inches",
-     "kind": "value_not_in_excerpt",
-     "detail": "60 is not stated in its excerpt (derived or misread?)"
-    },
-    {
      "field": "design_parameters.green_roof_media_depth_inches",
      "kind": "no_evidence",
      "detail": "3 has no supporting excerpt"
@@ -11986,7 +11866,7 @@
   },
   "eugene-or": {
    "slug": "eugene-or",
-   "checked_at": "2026-11-18T13:58:24.493Z",
+   "checked_at": "2026-11-18T14:46:26.575Z",
    "corpus_pages": 236,
    "text_sources": 2,
    "status": "warnings",
@@ -12134,10 +12014,10 @@
   },
   "evansville-in": {
    "slug": "evansville-in",
-   "checked_at": "2026-11-18T13:58:24.810Z",
+   "checked_at": "2026-11-18T14:46:26.899Z",
    "corpus_pages": 984,
    "text_sources": 2,
-   "status": "warnings",
+   "status": "passed",
    "counts": {
     "exact": 15,
     "fuzzy": 2,
@@ -12265,17 +12145,11 @@
      "missing_numbers": []
     }
    ],
-   "warnings": [
-    {
-     "field": "design_parameters.wqv_depth_inches",
-     "kind": "value_not_in_excerpt",
-     "detail": "1 is not stated in its excerpt (derived or misread?)"
-    }
-   ]
+   "warnings": []
   },
   "everett-wa": {
    "slug": "everett-wa",
-   "checked_at": "2026-11-18T13:58:25.593Z",
+   "checked_at": "2026-11-18T14:46:27.538Z",
    "corpus_pages": 1350,
    "text_sources": 2,
    "status": "warnings",
@@ -12395,7 +12269,7 @@
   },
   "fairfax-county-va": {
    "slug": "fairfax-county-va",
-   "checked_at": "2026-11-18T13:58:25.945Z",
+   "checked_at": "2026-11-18T14:46:27.801Z",
    "corpus_pages": 607,
    "text_sources": 2,
    "status": "passed",
@@ -12579,7 +12453,7 @@
   },
   "fargo-nd": {
    "slug": "fargo-nd",
-   "checked_at": "2026-11-18T13:58:25.951Z",
+   "checked_at": "2026-11-18T14:46:27.805Z",
    "corpus_pages": 15,
    "text_sources": 2,
    "status": "warnings",
@@ -12690,7 +12564,7 @@
   },
   "fayetteville-ar": {
    "slug": "fayetteville-ar",
-   "checked_at": "2026-11-18T13:58:26.035Z",
+   "checked_at": "2026-11-18T14:46:27.879Z",
    "corpus_pages": 109,
    "text_sources": 2,
    "status": "warnings",
@@ -12808,7 +12682,7 @@
   },
   "fhwa-hds-4": {
    "slug": "fhwa-hds-4",
-   "checked_at": "2026-11-18T13:58:26.130Z",
+   "checked_at": "2026-11-18T14:46:27.944Z",
    "corpus_pages": 203,
    "text_sources": 2,
    "status": "passed",
@@ -12908,7 +12782,7 @@
   },
   "fhwa-hec-14": {
    "slug": "fhwa-hec-14",
-   "checked_at": "2026-11-18T13:58:26.280Z",
+   "checked_at": "2026-11-18T14:46:28.038Z",
    "corpus_pages": 287,
    "text_sources": 2,
    "status": "passed",
@@ -12973,7 +12847,7 @@
   },
   "fhwa-hec-15": {
    "slug": "fhwa-hec-15",
-   "checked_at": "2026-11-18T13:58:26.341Z",
+   "checked_at": "2026-11-18T14:46:28.084Z",
    "corpus_pages": 154,
    "text_sources": 2,
    "status": "passed",
@@ -13080,7 +12954,7 @@
   },
   "fhwa-hec-21": {
    "slug": "fhwa-hec-21",
-   "checked_at": "2026-11-18T13:58:26.372Z",
+   "checked_at": "2026-11-18T14:46:28.111Z",
    "corpus_pages": 138,
    "text_sources": 2,
    "status": "passed",
@@ -13180,7 +13054,7 @@
   },
   "fhwa-hec-22": {
    "slug": "fhwa-hec-22",
-   "checked_at": "2026-11-18T13:58:26.526Z",
+   "checked_at": "2026-11-18T14:46:28.264Z",
    "corpus_pages": 313,
    "text_sources": 2,
    "status": "warnings",
@@ -13370,7 +13244,7 @@
   },
   "fhwa-hec-24": {
    "slug": "fhwa-hec-24",
-   "checked_at": "2026-11-18T13:58:26.600Z",
+   "checked_at": "2026-11-18T14:46:28.326Z",
    "corpus_pages": 221,
    "text_sources": 2,
    "status": "passed",
@@ -13484,12 +13358,12 @@
   },
   "fl-fdot-drainage": {
    "slug": "fl-fdot-drainage",
-   "checked_at": "2026-11-18T13:58:26.676Z",
+   "checked_at": "2026-11-18T14:46:28.384Z",
    "corpus_pages": 168,
    "text_sources": 2,
-   "status": "warnings",
+   "status": "passed",
    "counts": {
-    "exact": 13,
+    "exact": 14,
     "fuzzy": 2,
     "unverifiable": 0,
     "fail": 0
@@ -13599,39 +13473,20 @@
      "score": 1,
      "page": 26,
      "missing_numbers": []
-    }
-   ],
-   "warnings": [
+    },
     {
      "field": "design_criteria.design_storm_return_periods_years",
-     "kind": "value_not_in_excerpt",
-     "detail": "Not mentioned in excerpts: 2-yr"
-    },
-    {
-     "field": "design_parameters.shwt_separation_inches",
-     "kind": "value_not_in_excerpt",
-     "detail": "12 is not stated in its excerpt (derived or misread?)"
-    },
-    {
-     "field": "design_parameters.permanent_pool_depth_inches",
-     "kind": "value_not_in_excerpt",
-     "detail": "72 is not stated in its excerpt (derived or misread?)"
-    },
-    {
-     "field": "design_parameters.swale_bottom_width_inches",
-     "kind": "value_not_in_excerpt",
-     "detail": "60 is not stated in its excerpt (derived or misread?)"
-    },
-    {
-     "field": "design_parameters.swale_longitudinal_slope_percent",
-     "kind": "value_not_in_excerpt",
-     "detail": "0.05 is not stated in its excerpt (derived or misread?)"
+     "status": "exact",
+     "score": 1,
+     "page": 14,
+     "missing_numbers": []
     }
-   ]
+   ],
+   "warnings": []
   },
   "fl-fsesci-tier1": {
    "slug": "fl-fsesci-tier1",
-   "checked_at": "2026-11-18T13:58:26.751Z",
+   "checked_at": "2026-11-18T14:46:28.441Z",
    "corpus_pages": 202,
    "text_sources": 2,
    "status": "passed",
@@ -13731,10 +13586,10 @@
   },
   "fl-nwfwmd-erp-ah2": {
    "slug": "fl-nwfwmd-erp-ah2",
-   "checked_at": "2026-11-18T13:58:26.812Z",
+   "checked_at": "2026-11-18T14:46:28.484Z",
    "corpus_pages": 100,
    "text_sources": 2,
-   "status": "warnings",
+   "status": "passed",
    "counts": {
     "exact": 14,
     "fuzzy": 1,
@@ -13848,17 +13703,11 @@
      "missing_numbers": []
     }
    ],
-   "warnings": [
-    {
-     "field": "design_parameters.shwt_separation_inches",
-     "kind": "value_not_in_excerpt",
-     "detail": "24 is not stated in its excerpt (derived or misread?)"
-    }
-   ]
+   "warnings": []
   },
   "fl-sfwmd-erp-ah2": {
    "slug": "fl-sfwmd-erp-ah2",
-   "checked_at": "2026-11-18T13:58:26.842Z",
+   "checked_at": "2026-11-18T14:46:28.503Z",
    "corpus_pages": 57,
    "text_sources": 2,
    "status": "warnings",
@@ -14041,7 +13890,7 @@
   },
   "fl-sjrwmd-erp-ah2": {
    "slug": "fl-sjrwmd-erp-ah2",
-   "checked_at": "2026-11-18T13:58:26.923Z",
+   "checked_at": "2026-11-18T14:46:28.559Z",
    "corpus_pages": 188,
    "text_sources": 2,
    "status": "warnings",
@@ -14163,17 +14012,12 @@
      "field": "design_criteria.approved_bmp_categories",
      "kind": "no_evidence",
      "detail": "Value shown but no supporting excerpt"
-    },
-    {
-     "field": "design_parameters.shwt_separation_inches",
-     "kind": "value_not_in_excerpt",
-     "detail": "24 is not stated in its excerpt (derived or misread?)"
     }
    ]
   },
   "fl-srwmd-erp-ah2": {
    "slug": "fl-srwmd-erp-ah2",
-   "checked_at": "2026-11-18T13:58:26.958Z",
+   "checked_at": "2026-11-18T14:46:28.583Z",
    "corpus_pages": 48,
    "text_sources": 2,
    "status": "passed",
@@ -14364,10 +14208,10 @@
   },
   "fl-swfwmd-erp-ah2": {
    "slug": "fl-swfwmd-erp-ah2",
-   "checked_at": "2026-11-18T13:58:26.999Z",
+   "checked_at": "2026-11-18T14:46:28.612Z",
    "corpus_pages": 87,
    "text_sources": 2,
-   "status": "warnings",
+   "status": "passed",
    "counts": {
     "exact": 30,
     "fuzzy": 1,
@@ -14593,17 +14437,11 @@
      "missing_numbers": []
     }
    ],
-   "warnings": [
-    {
-     "field": "design_parameters.shwt_separation_inches",
-     "kind": "value_not_in_excerpt",
-     "detail": "12 is not stated in its excerpt (derived or misread?)"
-    }
-   ]
+   "warnings": []
   },
   "flagstaff-az": {
    "slug": "flagstaff-az",
-   "checked_at": "2026-11-18T13:58:27.051Z",
+   "checked_at": "2026-11-18T14:46:28.652Z",
    "corpus_pages": 110,
    "text_sources": 2,
    "status": "warnings",
@@ -14700,7 +14538,7 @@
   },
   "flint-mi": {
    "slug": "flint-mi",
-   "checked_at": "2026-11-18T13:58:27.068Z",
+   "checked_at": "2026-11-18T14:46:28.667Z",
    "corpus_pages": 39,
    "text_sources": 2,
    "status": "warnings",
@@ -14776,7 +14614,7 @@
   },
   "fort-collins-co": {
    "slug": "fort-collins-co",
-   "checked_at": "2026-11-18T13:58:27.079Z",
+   "checked_at": "2026-11-18T14:46:28.675Z",
    "corpus_pages": 23,
    "text_sources": 2,
    "status": "warnings",
@@ -14833,7 +14671,7 @@
   },
   "fort-wayne-in": {
    "slug": "fort-wayne-in",
-   "checked_at": "2026-11-18T13:58:27.507Z",
+   "checked_at": "2026-11-18T14:46:29.078Z",
    "corpus_pages": 681,
    "text_sources": 2,
    "status": "passed",
@@ -14989,7 +14827,7 @@
   },
   "fort-worth-tx": {
    "slug": "fort-worth-tx",
-   "checked_at": "2026-11-18T13:58:27.613Z",
+   "checked_at": "2026-11-18T14:46:29.161Z",
    "corpus_pages": 194,
    "text_sources": 2,
    "status": "warnings",
@@ -15116,7 +14954,7 @@
   },
   "frankfort-ky": {
    "slug": "frankfort-ky",
-   "checked_at": "2026-11-18T13:58:27.630Z",
+   "checked_at": "2026-11-18T14:46:29.193Z",
    "corpus_pages": 64,
    "text_sources": 2,
    "status": "passed",
@@ -15216,7 +15054,7 @@
   },
   "franklin-tn": {
    "slug": "franklin-tn",
-   "checked_at": "2026-11-18T13:58:27.641Z",
+   "checked_at": "2026-11-18T14:46:29.200Z",
    "corpus_pages": 18,
    "text_sources": 2,
    "status": "passed",
@@ -15288,7 +15126,7 @@
   },
   "fremont-ca": {
    "slug": "fremont-ca",
-   "checked_at": "2026-11-18T13:58:27.814Z",
+   "checked_at": "2026-11-18T14:46:29.362Z",
    "corpus_pages": 366,
    "text_sources": 2,
    "status": "warnings",
@@ -15436,10 +15274,10 @@
   },
   "fresno-ca": {
    "slug": "fresno-ca",
-   "checked_at": "2026-11-18T13:58:27.915Z",
+   "checked_at": "2026-11-18T14:46:29.475Z",
    "corpus_pages": 282,
    "text_sources": 2,
-   "status": "warnings",
+   "status": "passed",
    "counts": {
     "exact": 19,
     "fuzzy": 0,
@@ -15581,17 +15419,11 @@
      "missing_numbers": []
     }
    ],
-   "warnings": [
-    {
-     "field": "design_parameters.swale_bottom_width_inches",
-     "kind": "value_not_in_excerpt",
-     "detail": "24 is not stated in its excerpt (derived or misread?)"
-    }
-   ]
+   "warnings": []
   },
   "frisco-tx": {
    "slug": "frisco-tx",
-   "checked_at": "2026-11-18T13:58:28.018Z",
+   "checked_at": "2026-11-18T14:46:29.602Z",
    "corpus_pages": 239,
    "text_sources": 2,
    "status": "warnings",
@@ -15725,7 +15557,7 @@
   },
   "fulton-county-ga": {
    "slug": "fulton-county-ga",
-   "checked_at": "2026-11-18T13:58:28.128Z",
+   "checked_at": "2026-11-18T14:46:29.730Z",
    "corpus_pages": 227,
    "text_sources": 2,
    "status": "passed",
@@ -15832,7 +15664,7 @@
   },
   "ga-gdot-drainage": {
    "slug": "ga-gdot-drainage",
-   "checked_at": "2026-11-18T13:58:28.203Z",
+   "checked_at": "2026-11-18T14:46:29.808Z",
    "corpus_pages": 175,
    "text_sources": 2,
    "status": "passed",
@@ -15897,7 +15729,7 @@
   },
   "ga-state": {
    "slug": "ga-state",
-   "checked_at": "2026-11-18T13:58:28.338Z",
+   "checked_at": "2026-11-18T14:46:29.904Z",
    "corpus_pages": 227,
    "text_sources": 2,
    "status": "passed",
@@ -16025,7 +15857,7 @@
   },
   "gainesville-fl": {
    "slug": "gainesville-fl",
-   "checked_at": "2026-11-18T13:58:28.372Z",
+   "checked_at": "2026-11-18T14:46:29.927Z",
    "corpus_pages": 48,
    "text_sources": 2,
    "status": "passed",
@@ -16223,7 +16055,7 @@
   },
   "garland-tx": {
    "slug": "garland-tx",
-   "checked_at": "2026-11-18T13:58:28.559Z",
+   "checked_at": "2026-11-18T14:46:30.078Z",
    "corpus_pages": 386,
    "text_sources": 2,
    "status": "warnings",
@@ -16357,7 +16189,7 @@
   },
   "gastonia-nc": {
    "slug": "gastonia-nc",
-   "checked_at": "2026-11-18T13:58:28.562Z",
+   "checked_at": "2026-11-18T14:46:30.080Z",
    "corpus_pages": 7,
    "text_sources": 2,
    "status": "warnings",
@@ -16407,17 +16239,12 @@
      "field": "design_criteria.peak_flow_calculation_method",
      "kind": "no_evidence",
      "detail": "Value shown but no supporting excerpt"
-    },
-    {
-     "field": "design_parameters.wqv_depth_inches",
-     "kind": "value_not_in_excerpt",
-     "detail": "1 is not stated in its excerpt (derived or misread?)"
     }
    ]
   },
   "grand-prairie-tx": {
    "slug": "grand-prairie-tx",
-   "checked_at": "2026-11-18T13:58:28.614Z",
+   "checked_at": "2026-11-18T14:46:30.132Z",
    "corpus_pages": 127,
    "text_sources": 2,
    "status": "passed",
@@ -16517,7 +16344,7 @@
   },
   "grand-rapids-mi": {
    "slug": "grand-rapids-mi",
-   "checked_at": "2026-11-18T13:58:28.655Z",
+   "checked_at": "2026-11-18T14:46:30.166Z",
    "corpus_pages": 70,
    "text_sources": 2,
    "status": "warnings",
@@ -16628,7 +16455,7 @@
   },
   "greensboro-nc": {
    "slug": "greensboro-nc",
-   "checked_at": "2026-11-18T13:58:28.658Z",
+   "checked_at": "2026-11-18T14:46:30.171Z",
    "corpus_pages": 7,
    "text_sources": 2,
    "status": "warnings",
@@ -16706,17 +16533,12 @@
      "field": "design_criteria.peak_flow_calculation_method",
      "kind": "no_evidence",
      "detail": "Value shown but no supporting excerpt"
-    },
-    {
-     "field": "design_parameters.wqv_depth_inches",
-     "kind": "value_not_in_excerpt",
-     "detail": "1 is not stated in its excerpt (derived or misread?)"
     }
    ]
   },
   "greenville-sc": {
    "slug": "greenville-sc",
-   "checked_at": "2026-11-18T13:58:28.679Z",
+   "checked_at": "2026-11-18T14:46:30.192Z",
    "corpus_pages": 59,
    "text_sources": 2,
    "status": "warnings",
@@ -16822,7 +16644,7 @@
   },
   "gulfport-ms": {
    "slug": "gulfport-ms",
-   "checked_at": "2026-11-18T13:58:28.767Z",
+   "checked_at": "2026-11-18T14:46:30.279Z",
    "corpus_pages": 199,
    "text_sources": 2,
    "status": "warnings",
@@ -16968,7 +16790,7 @@
   },
   "gwinnett-county-ga": {
    "slug": "gwinnett-county-ga",
-   "checked_at": "2026-11-18T13:58:28.895Z",
+   "checked_at": "2026-11-18T14:46:30.392Z",
    "corpus_pages": 227,
    "text_sources": 2,
    "status": "passed",
@@ -17075,7 +16897,7 @@
   },
   "harris-county-tx": {
    "slug": "harris-county-tx",
-   "checked_at": "2026-11-18T13:58:28.925Z",
+   "checked_at": "2026-11-18T14:46:30.426Z",
    "corpus_pages": 53,
    "text_sources": 2,
    "status": "passed",
@@ -17203,7 +17025,7 @@
   },
   "harrisburg-pa": {
    "slug": "harrisburg-pa",
-   "checked_at": "2026-11-18T13:58:29.358Z",
+   "checked_at": "2026-11-18T14:46:30.810Z",
    "corpus_pages": 755,
    "text_sources": 2,
    "status": "warnings",
@@ -17335,21 +17157,6 @@
      "detail": "24 has no supporting excerpt"
     },
     {
-     "field": "design_parameters.permeable_pavement_storage_depth_inches",
-     "kind": "value_not_in_excerpt",
-     "detail": "12 is not stated in its excerpt (derived or misread?)"
-    },
-    {
-     "field": "design_parameters.permanent_pool_depth_inches",
-     "kind": "value_not_in_excerpt",
-     "detail": "60 is not stated in its excerpt (derived or misread?)"
-    },
-    {
-     "field": "design_parameters.swale_bottom_width_inches",
-     "kind": "value_not_in_excerpt",
-     "detail": "24 is not stated in its excerpt (derived or misread?)"
-    },
-    {
      "field": "design_parameters.green_roof_media_depth_inches",
      "kind": "no_evidence",
      "detail": "3 has no supporting excerpt"
@@ -17358,7 +17165,7 @@
   },
   "hartford-ct": {
    "slug": "hartford-ct",
-   "checked_at": "2026-11-18T13:58:29.612Z",
+   "checked_at": "2026-11-18T14:46:31.036Z",
    "corpus_pages": 564,
    "text_sources": 2,
    "status": "passed",
@@ -17493,7 +17300,7 @@
   },
   "hawaii-dot-pcbmp": {
    "slug": "hawaii-dot-pcbmp",
-   "checked_at": "2026-11-18T13:58:29.676Z",
+   "checked_at": "2026-11-18T14:46:31.099Z",
    "corpus_pages": 203,
    "text_sources": 2,
    "status": "passed",
@@ -17656,7 +17463,7 @@
   },
   "helena-mt": {
    "slug": "helena-mt",
-   "checked_at": "2026-11-18T13:58:29.696Z",
+   "checked_at": "2026-11-18T14:46:31.116Z",
    "corpus_pages": 61,
    "text_sources": 2,
    "status": "warnings",
@@ -17743,17 +17550,12 @@
      "field": "design_criteria.approved_bmp_categories",
      "kind": "no_evidence",
      "detail": "Value shown but no supporting excerpt"
-    },
-    {
-     "field": "design_parameters.shwt_separation_inches",
-     "kind": "value_not_in_excerpt",
-     "detail": "12 is not stated in its excerpt (derived or misread?)"
     }
    ]
   },
   "hialeah-fl": {
    "slug": "hialeah-fl",
-   "checked_at": "2026-11-18T13:58:29.718Z",
+   "checked_at": "2026-11-18T14:46:31.135Z",
    "corpus_pages": 59,
    "text_sources": 2,
    "status": "warnings",
@@ -17824,17 +17626,12 @@
      "field": "design_criteria.approved_bmp_categories",
      "kind": "no_evidence",
      "detail": "Value shown but no supporting excerpt"
-    },
-    {
-     "field": "design_parameters.wqv_depth_inches",
-     "kind": "value_not_in_excerpt",
-     "detail": "1 is not stated in its excerpt (derived or misread?)"
     }
    ]
   },
   "high-point-nc": {
    "slug": "high-point-nc",
-   "checked_at": "2026-11-18T13:58:29.719Z",
+   "checked_at": "2026-11-18T14:46:31.137Z",
    "corpus_pages": 3,
    "text_sources": 2,
    "status": "warnings",
@@ -17940,7 +17737,7 @@
   },
   "honolulu-hi": {
    "slug": "honolulu-hi",
-   "checked_at": "2026-11-18T13:58:29.728Z",
+   "checked_at": "2026-11-18T14:46:31.146Z",
    "corpus_pages": 53,
    "text_sources": 2,
    "status": "passed",
@@ -18075,10 +17872,10 @@
   },
   "houston-tx": {
    "slug": "houston-tx",
-   "checked_at": "2026-11-18T13:58:29.754Z",
+   "checked_at": "2026-11-18T14:46:31.169Z",
    "corpus_pages": 73,
    "text_sources": 2,
-   "status": "warnings",
+   "status": "passed",
    "counts": {
     "exact": 26,
     "fuzzy": 1,
@@ -18276,17 +18073,11 @@
      "missing_numbers": []
     }
    ],
-   "warnings": [
-    {
-     "field": "design_parameters.permeable_pavement_storage_depth_inches",
-     "kind": "value_not_in_excerpt",
-     "detail": "9 is not stated in its excerpt (derived or misread?)"
-    }
-   ]
+   "warnings": []
   },
   "huntsville-al": {
    "slug": "huntsville-al",
-   "checked_at": "2026-11-18T13:58:29.896Z",
+   "checked_at": "2026-11-18T14:46:31.326Z",
    "corpus_pages": 262,
    "text_sources": 2,
    "status": "warnings",
@@ -18411,7 +18202,7 @@
   },
   "ia-dot-drainage": {
    "slug": "ia-dot-drainage",
-   "checked_at": "2026-11-18T13:58:29.897Z",
+   "checked_at": "2026-11-18T14:46:31.328Z",
    "corpus_pages": 3,
    "text_sources": 2,
    "status": "warnings",
@@ -18447,7 +18238,7 @@
   },
   "ia-state-ch1": {
    "slug": "ia-state-ch1",
-   "checked_at": "2026-11-18T13:58:29.934Z",
+   "checked_at": "2026-11-18T14:46:31.364Z",
    "corpus_pages": 50,
    "text_sources": 2,
    "status": "passed",
@@ -18575,7 +18366,7 @@
   },
   "id-itd-drainage": {
    "slug": "id-itd-drainage",
-   "checked_at": "2026-11-18T13:58:29.945Z",
+   "checked_at": "2026-11-18T14:46:31.376Z",
    "corpus_pages": 44,
    "text_sources": 2,
    "status": "warnings",
@@ -18639,7 +18430,7 @@
   },
   "idaho-bmp-catalog": {
    "slug": "idaho-bmp-catalog",
-   "checked_at": "2026-11-18T13:58:30.213Z",
+   "checked_at": "2026-11-18T14:46:31.648Z",
    "corpus_pages": 582,
    "text_sources": 2,
    "status": "passed",
@@ -18788,7 +18579,7 @@
   },
   "il-idot-drainage": {
    "slug": "il-idot-drainage",
-   "checked_at": "2026-11-18T13:58:30.520Z",
+   "checked_at": "2026-11-18T14:46:32.029Z",
    "corpus_pages": 794,
    "text_sources": 2,
    "status": "passed",
@@ -18909,7 +18700,7 @@
   },
   "il-iepa-stormwater": {
    "slug": "il-iepa-stormwater",
-   "checked_at": "2026-11-18T13:58:30.573Z",
+   "checked_at": "2026-11-18T14:46:32.099Z",
    "corpus_pages": 144,
    "text_sources": 2,
    "status": "passed",
@@ -19002,7 +18793,7 @@
   },
   "in-indot-drainage": {
    "slug": "in-indot-drainage",
-   "checked_at": "2026-11-18T13:58:30.645Z",
+   "checked_at": "2026-11-18T14:46:32.183Z",
    "corpus_pages": 199,
    "text_sources": 2,
    "status": "warnings",
@@ -19101,7 +18892,7 @@
   },
   "independence-mo": {
    "slug": "independence-mo",
-   "checked_at": "2026-11-18T13:58:30.757Z",
+   "checked_at": "2026-11-18T14:46:32.289Z",
    "corpus_pages": 334,
    "text_sources": 2,
    "status": "warnings",
@@ -19198,20 +18989,15 @@
      "field": "design_criteria.design_storm_return_periods_years",
      "kind": "value_not_in_excerpt",
      "detail": "Not mentioned in excerpts: 2, 10-yr"
-    },
-    {
-     "field": "design_parameters.shwt_separation_inches",
-     "kind": "value_not_in_excerpt",
-     "detail": "36 is not stated in its excerpt (derived or misread?)"
     }
    ]
   },
   "indiana-manual": {
    "slug": "indiana-manual",
-   "checked_at": "2026-11-18T13:58:31.100Z",
+   "checked_at": "2026-11-18T14:46:32.579Z",
    "corpus_pages": 984,
    "text_sources": 2,
-   "status": "warnings",
+   "status": "passed",
    "counts": {
     "exact": 25,
     "fuzzy": 2,
@@ -19409,22 +19195,11 @@
      "missing_numbers": []
     }
    ],
-   "warnings": [
-    {
-     "field": "design_parameters.wqv_depth_inches",
-     "kind": "value_not_in_excerpt",
-     "detail": "1 is not stated in its excerpt (derived or misread?)"
-    },
-    {
-     "field": "design_parameters.bioretention_media_depth_min_inches",
-     "kind": "value_not_in_excerpt",
-     "detail": "48 is not stated in its excerpt (derived or misread?)"
-    }
-   ]
+   "warnings": []
   },
   "jackson-ms": {
    "slug": "jackson-ms",
-   "checked_at": "2026-11-18T13:58:31.219Z",
+   "checked_at": "2026-11-18T14:46:32.679Z",
    "corpus_pages": 199,
    "text_sources": 2,
    "status": "passed",
@@ -19552,7 +19327,7 @@
   },
   "jacksonville-fl": {
    "slug": "jacksonville-fl",
-   "checked_at": "2026-11-18T13:58:31.320Z",
+   "checked_at": "2026-11-18T14:46:32.770Z",
    "corpus_pages": 169,
    "text_sources": 2,
    "status": "warnings",
@@ -19698,7 +19473,7 @@
   },
   "jefferson-city-mo": {
    "slug": "jefferson-city-mo",
-   "checked_at": "2026-11-18T13:58:31.429Z",
+   "checked_at": "2026-11-18T14:46:32.880Z",
    "corpus_pages": 261,
    "text_sources": 2,
    "status": "warnings",
@@ -19783,7 +19558,7 @@
   },
   "jersey-city-nj": {
    "slug": "jersey-city-nj",
-   "checked_at": "2026-11-18T13:58:31.483Z",
+   "checked_at": "2026-11-18T14:46:32.919Z",
    "corpus_pages": 367,
    "text_sources": 2,
    "status": "passed",
@@ -19918,12 +19693,12 @@
   },
   "juneau-ak": {
    "slug": "juneau-ak",
-   "checked_at": "2026-11-18T13:58:31.581Z",
+   "checked_at": "2026-11-18T14:46:32.997Z",
    "corpus_pages": 239,
    "text_sources": 2,
-   "status": "warnings",
+   "status": "passed",
    "counts": {
-    "exact": 11,
+    "exact": 12,
     "fuzzy": 1,
     "unverifiable": 0,
     "fail": 0
@@ -20012,22 +19787,23 @@
      "score": 1,
      "page": 181,
      "missing_numbers": []
-    }
-   ],
-   "warnings": [
+    },
     {
      "field": "design_criteria.design_storm_return_periods_years",
-     "kind": "value_not_in_excerpt",
-     "detail": "Not mentioned in excerpts: 1-yr"
+     "status": "exact",
+     "score": 1,
+     "page": 78,
+     "missing_numbers": []
     }
-   ]
+   ],
+   "warnings": []
   },
   "kansas-city-marc-bmp": {
    "slug": "kansas-city-marc-bmp",
-   "checked_at": "2026-11-18T13:58:31.720Z",
+   "checked_at": "2026-11-18T14:46:33.125Z",
    "corpus_pages": 334,
    "text_sources": 2,
-   "status": "warnings",
+   "status": "passed",
    "counts": {
     "exact": 22,
     "fuzzy": 0,
@@ -20190,17 +19966,11 @@
      "missing_numbers": []
     }
    ],
-   "warnings": [
-    {
-     "field": "design_parameters.shwt_separation_inches",
-     "kind": "value_not_in_excerpt",
-     "detail": "36 is not stated in its excerpt (derived or misread?)"
-    }
-   ]
+   "warnings": []
   },
   "kennewick-wa": {
    "slug": "kennewick-wa",
-   "checked_at": "2026-11-18T13:58:32.374Z",
+   "checked_at": "2026-11-18T14:46:33.754Z",
    "corpus_pages": 1368,
    "text_sources": 2,
    "status": "warnings",
@@ -20313,7 +20083,7 @@
   },
   "kentucky-bmp": {
    "slug": "kentucky-bmp",
-   "checked_at": "2026-11-18T13:58:32.392Z",
+   "checked_at": "2026-11-18T14:46:33.773Z",
    "corpus_pages": 43,
    "text_sources": 2,
    "status": "passed",
@@ -20455,7 +20225,7 @@
   },
   "killeen-tx": {
    "slug": "killeen-tx",
-   "checked_at": "2026-11-18T13:58:32.441Z",
+   "checked_at": "2026-11-18T14:46:33.832Z",
    "corpus_pages": 141,
    "text_sources": 2,
    "status": "warnings",
@@ -20526,7 +20296,7 @@
   },
   "king-county-wa": {
    "slug": "king-county-wa",
-   "checked_at": "2026-11-18T13:58:33.210Z",
+   "checked_at": "2026-11-18T14:46:34.480Z",
    "corpus_pages": 1185,
    "text_sources": 2,
    "status": "passed",
@@ -20654,7 +20424,7 @@
   },
   "knoxville-tn": {
    "slug": "knoxville-tn",
-   "checked_at": "2026-11-18T13:58:33.537Z",
+   "checked_at": "2026-11-18T14:46:34.785Z",
    "corpus_pages": 543,
    "text_sources": 2,
    "status": "passed",
@@ -20810,7 +20580,7 @@
   },
   "ks-kdot-drainage": {
    "slug": "ks-kdot-drainage",
-   "checked_at": "2026-11-18T13:58:33.543Z",
+   "checked_at": "2026-11-18T14:46:34.793Z",
    "corpus_pages": 32,
    "text_sources": 2,
    "status": "warnings",
@@ -20867,7 +20637,7 @@
   },
   "ky-kytc-drainage": {
    "slug": "ky-kytc-drainage",
-   "checked_at": "2026-11-18T13:58:33.554Z",
+   "checked_at": "2026-11-18T14:46:34.801Z",
    "corpus_pages": 24,
    "text_sources": 2,
    "status": "warnings",
@@ -20931,7 +20701,7 @@
   },
   "la-ladotd-drainage": {
    "slug": "la-ladotd-drainage",
-   "checked_at": "2026-11-18T13:58:33.616Z",
+   "checked_at": "2026-11-18T14:46:34.854Z",
    "corpus_pages": 199,
    "text_sources": 2,
    "status": "passed",
@@ -20996,7 +20766,7 @@
   },
   "lacey-wa": {
    "slug": "lacey-wa",
-   "checked_at": "2026-11-18T13:58:33.742Z",
+   "checked_at": "2026-11-18T14:46:34.987Z",
    "corpus_pages": 302,
    "text_sources": 2,
    "status": "passed",
@@ -21180,7 +20950,7 @@
   },
   "lafayette-la": {
    "slug": "lafayette-la",
-   "checked_at": "2026-11-18T13:58:33.794Z",
+   "checked_at": "2026-11-18T14:46:35.033Z",
    "corpus_pages": 324,
    "text_sources": 2,
    "status": "warnings",
@@ -21261,7 +21031,7 @@
   },
   "lakeland-fl": {
    "slug": "lakeland-fl",
-   "checked_at": "2026-11-18T13:58:33.815Z",
+   "checked_at": "2026-11-18T14:46:35.054Z",
    "corpus_pages": 67,
    "text_sources": 2,
    "status": "warnings",
@@ -21334,17 +21104,12 @@
      "field": "design_criteria.water_quality_volume_method",
      "kind": "no_evidence",
      "detail": "Value shown but no supporting excerpt"
-    },
-    {
-     "field": "design_parameters.shwt_separation_inches",
-     "kind": "value_not_in_excerpt",
-     "detail": "12 is not stated in its excerpt (derived or misread?)"
     }
    ]
   },
   "lancaster-pa": {
    "slug": "lancaster-pa",
-   "checked_at": "2026-11-18T13:58:33.990Z",
+   "checked_at": "2026-11-18T14:46:35.198Z",
    "corpus_pages": 290,
    "text_sources": 2,
    "status": "passed",
@@ -21437,10 +21202,10 @@
   },
   "lancaster-pa-swmf": {
    "slug": "lancaster-pa-swmf",
-   "checked_at": "2026-11-18T13:58:33.832Z",
+   "checked_at": "2026-11-18T14:46:35.069Z",
    "corpus_pages": 41,
    "text_sources": 2,
-   "status": "warnings",
+   "status": "passed",
    "counts": {
     "exact": 11,
     "fuzzy": 1,
@@ -21533,22 +21298,11 @@
      "missing_numbers": []
     }
    ],
-   "warnings": [
-    {
-     "field": "design_parameters.wqv_depth_inches",
-     "kind": "value_not_in_excerpt",
-     "detail": "1 is not stated in its excerpt (derived or misread?)"
-    },
-    {
-     "field": "design_parameters.length_to_width_ratio",
-     "kind": "value_not_in_excerpt",
-     "detail": "2 is not stated in its excerpt (derived or misread?)"
-    }
-   ]
+   "warnings": []
   },
   "lansing-mi": {
    "slug": "lansing-mi",
-   "checked_at": "2026-11-18T13:58:34.009Z",
+   "checked_at": "2026-11-18T14:46:35.214Z",
    "corpus_pages": 39,
    "text_sources": 2,
    "status": "warnings",
@@ -21647,7 +21401,7 @@
   },
   "laredo-tx": {
    "slug": "laredo-tx",
-   "checked_at": "2026-11-18T13:58:34.036Z",
+   "checked_at": "2026-11-18T14:46:35.232Z",
    "corpus_pages": 52,
    "text_sources": 2,
    "status": "warnings",
@@ -21707,7 +21461,7 @@
   },
   "las-cruces-nm": {
    "slug": "las-cruces-nm",
-   "checked_at": "2026-11-18T13:58:34.052Z",
+   "checked_at": "2026-11-18T14:46:35.245Z",
    "corpus_pages": 27,
    "text_sources": 2,
    "status": "warnings",
@@ -21769,10 +21523,10 @@
   },
   "las-vegas-nv": {
    "slug": "las-vegas-nv",
-   "checked_at": "2026-11-18T13:58:34.265Z",
+   "checked_at": "2026-11-18T14:46:35.454Z",
    "corpus_pages": 650,
    "text_sources": 2,
-   "status": "warnings",
+   "status": "passed",
    "counts": {
     "exact": 20,
     "fuzzy": 2,
@@ -21935,17 +21689,11 @@
      "missing_numbers": []
     }
    ],
-   "warnings": [
-    {
-     "field": "design_parameters.length_to_width_ratio",
-     "kind": "value_not_in_excerpt",
-     "detail": "2 is not stated in its excerpt (derived or misread?)"
-    }
-   ]
+   "warnings": []
   },
   "lawrence-ks": {
    "slug": "lawrence-ks",
-   "checked_at": "2026-11-18T13:58:34.293Z",
+   "checked_at": "2026-11-18T14:46:35.479Z",
    "corpus_pages": 105,
    "text_sources": 2,
    "status": "warnings",
@@ -22042,7 +21790,7 @@
   },
   "lexington-ky": {
    "slug": "lexington-ky",
-   "checked_at": "2026-11-18T13:58:34.414Z",
+   "checked_at": "2026-11-18T14:46:35.583Z",
    "corpus_pages": 262,
    "text_sources": 2,
    "status": "passed",
@@ -22198,7 +21946,7 @@
   },
   "lincoln-ne": {
    "slug": "lincoln-ne",
-   "checked_at": "2026-11-18T13:58:34.466Z",
+   "checked_at": "2026-11-18T14:46:35.622Z",
    "corpus_pages": 160,
    "text_sources": 2,
    "status": "warnings",
@@ -22297,17 +22045,12 @@
      "field": "design_criteria.approved_bmp_categories",
      "kind": "no_evidence",
      "detail": "Value shown but no supporting excerpt"
-    },
-    {
-     "field": "design_parameters.design_infiltration_rate_in_per_hr",
-     "kind": "value_not_in_excerpt",
-     "detail": "2 is not stated in its excerpt (derived or misread?)"
     }
    ]
   },
   "long-beach-ca": {
    "slug": "long-beach-ca",
-   "checked_at": "2026-11-18T13:58:34.514Z",
+   "checked_at": "2026-11-18T14:46:35.658Z",
    "corpus_pages": 101,
    "text_sources": 2,
    "status": "passed",
@@ -22498,10 +22241,10 @@
   },
   "los-angeles-ca": {
    "slug": "los-angeles-ca",
-   "checked_at": "2026-11-18T13:58:34.687Z",
+   "checked_at": "2026-11-18T14:46:35.784Z",
    "corpus_pages": 475,
    "text_sources": 2,
-   "status": "warnings",
+   "status": "passed",
    "counts": {
     "exact": 24,
     "fuzzy": 0,
@@ -22678,17 +22421,11 @@
      "missing_numbers": []
     }
    ],
-   "warnings": [
-    {
-     "field": "design_parameters.swale_bottom_width_inches",
-     "kind": "value_not_in_excerpt",
-     "detail": "24 is not stated in its excerpt (derived or misread?)"
-    }
-   ]
+   "warnings": []
   },
   "louisville-ky": {
    "slug": "louisville-ky",
-   "checked_at": "2026-11-18T13:58:35.026Z",
+   "checked_at": "2026-11-18T14:46:36.082Z",
    "corpus_pages": 875,
    "text_sources": 2,
    "status": "warnings",
@@ -22843,7 +22580,7 @@
   },
   "lubbock-tx": {
    "slug": "lubbock-tx",
-   "checked_at": "2026-11-18T13:58:35.079Z",
+   "checked_at": "2026-11-18T14:46:36.124Z",
    "corpus_pages": 120,
    "text_sources": 2,
    "status": "warnings",
@@ -22970,7 +22707,7 @@
   },
   "ma-massdot-drainage": {
    "slug": "ma-massdot-drainage",
-   "checked_at": "2026-11-18T13:58:35.176Z",
+   "checked_at": "2026-11-18T14:46:36.209Z",
    "corpus_pages": 146,
    "text_sources": 2,
    "status": "warnings",
@@ -23134,17 +22871,12 @@
      "field": "design_criteria.design_storm_return_periods_years",
      "kind": "value_not_in_excerpt",
      "detail": "Not mentioned in excerpts: 5-yr"
-    },
-    {
-     "field": "design_parameters.shwt_separation_inches",
-     "kind": "value_not_in_excerpt",
-     "detail": "24 is not stated in its excerpt (derived or misread?)"
     }
    ]
   },
   "ma-state-draft": {
    "slug": "ma-state-draft",
-   "checked_at": "2026-11-18T13:58:35.715Z",
+   "checked_at": "2026-11-18T14:46:36.676Z",
    "corpus_pages": 860,
    "text_sources": 2,
    "status": "passed",
@@ -23328,7 +23060,7 @@
   },
   "macon-ga": {
    "slug": "macon-ga",
-   "checked_at": "2026-11-18T13:58:35.822Z",
+   "checked_at": "2026-11-18T14:46:36.791Z",
    "corpus_pages": 227,
    "text_sources": 2,
    "status": "passed",
@@ -23435,7 +23167,7 @@
   },
   "madison-wi": {
    "slug": "madison-wi",
-   "checked_at": "2026-11-18T13:58:35.833Z",
+   "checked_at": "2026-11-18T14:46:36.803Z",
    "corpus_pages": 23,
    "text_sources": 2,
    "status": "warnings",
@@ -23604,7 +23336,7 @@
   },
   "maine-manual": {
    "slug": "maine-manual",
-   "checked_at": "2026-11-18T13:58:35.897Z",
+   "checked_at": "2026-11-18T14:46:36.864Z",
    "corpus_pages": 114,
    "text_sources": 2,
    "status": "passed",
@@ -23774,7 +23506,7 @@
   },
   "manchester-nh": {
    "slug": "manchester-nh",
-   "checked_at": "2026-11-18T13:58:35.902Z",
+   "checked_at": "2026-11-18T14:46:36.870Z",
    "corpus_pages": 11,
    "text_sources": 2,
    "status": "warnings",
@@ -23873,7 +23605,7 @@
   },
   "maricopa-county-az": {
    "slug": "maricopa-county-az",
-   "checked_at": "2026-11-18T13:58:36.008Z",
+   "checked_at": "2026-11-18T14:46:36.956Z",
    "corpus_pages": 198,
    "text_sources": 2,
    "status": "warnings",
@@ -24000,7 +23732,7 @@
   },
   "mcallen-tx": {
    "slug": "mcallen-tx",
-   "checked_at": "2026-11-18T13:58:36.036Z",
+   "checked_at": "2026-11-18T14:46:36.966Z",
    "corpus_pages": 130,
    "text_sources": 2,
    "status": "passed",
@@ -24086,7 +23818,7 @@
   },
   "mckinney-tx": {
    "slug": "mckinney-tx",
-   "checked_at": "2026-11-18T13:58:36.186Z",
+   "checked_at": "2026-11-18T14:46:37.087Z",
    "corpus_pages": 428,
    "text_sources": 2,
    "status": "passed",
@@ -24179,7 +23911,7 @@
   },
   "md-sha-drainage": {
    "slug": "md-sha-drainage",
-   "checked_at": "2026-11-18T13:58:36.268Z",
+   "checked_at": "2026-11-18T14:46:37.167Z",
    "corpus_pages": 181,
    "text_sources": 2,
    "status": "passed",
@@ -24265,10 +23997,10 @@
   },
   "md-state": {
    "slug": "md-state",
-   "checked_at": "2026-11-18T13:58:36.373Z",
+   "checked_at": "2026-11-18T14:46:37.265Z",
    "corpus_pages": 289,
    "text_sources": 2,
-   "status": "warnings",
+   "status": "passed",
    "counts": {
     "exact": 16,
     "fuzzy": 1,
@@ -24396,22 +24128,11 @@
      "missing_numbers": []
     }
    ],
-   "warnings": [
-    {
-     "field": "design_parameters.shwt_separation_inches",
-     "kind": "value_not_in_excerpt",
-     "detail": "48 is not stated in its excerpt (derived or misread?)"
-    },
-    {
-     "field": "design_parameters.bioretention_media_depth_min_inches",
-     "kind": "value_not_in_excerpt",
-     "detail": "30 is not stated in its excerpt (derived or misread?)"
-    }
-   ]
+   "warnings": []
   },
   "me-dot-drainage": {
    "slug": "me-dot-drainage",
-   "checked_at": "2026-11-18T13:58:36.377Z",
+   "checked_at": "2026-11-18T14:46:37.269Z",
    "corpus_pages": 13,
    "text_sources": 2,
    "status": "passed",
@@ -24462,7 +24183,7 @@
   },
   "melbourne-fl": {
    "slug": "melbourne-fl",
-   "checked_at": "2026-11-18T13:58:36.455Z",
+   "checked_at": "2026-11-18T14:46:37.327Z",
    "corpus_pages": 188,
    "text_sources": 2,
    "status": "warnings",
@@ -24577,17 +24298,12 @@
      "field": "design_criteria.approved_bmp_categories",
      "kind": "no_evidence",
      "detail": "Value shown but no supporting excerpt"
-    },
-    {
-     "field": "design_parameters.shwt_separation_inches",
-     "kind": "value_not_in_excerpt",
-     "detail": "24 is not stated in its excerpt (derived or misread?)"
     }
    ]
   },
   "memphis-tn": {
    "slug": "memphis-tn",
-   "checked_at": "2026-11-18T13:58:36.509Z",
+   "checked_at": "2026-11-18T14:46:37.371Z",
    "corpus_pages": 196,
    "text_sources": 2,
    "status": "warnings",
@@ -24707,7 +24423,7 @@
   },
   "mesa-az": {
    "slug": "mesa-az",
-   "checked_at": "2026-11-18T13:58:36.685Z",
+   "checked_at": "2026-11-18T14:46:37.477Z",
    "corpus_pages": 230,
    "text_sources": 2,
    "status": "warnings",
@@ -24806,7 +24522,7 @@
   },
   "mesquite-tx": {
    "slug": "mesquite-tx",
-   "checked_at": "2026-11-18T13:58:36.764Z",
+   "checked_at": "2026-11-18T14:46:37.547Z",
    "corpus_pages": 210,
    "text_sources": 2,
    "status": "warnings",
@@ -24898,7 +24614,7 @@
   },
   "mi-mdot-drainage": {
    "slug": "mi-mdot-drainage",
-   "checked_at": "2026-11-18T13:58:36.791Z",
+   "checked_at": "2026-11-18T14:46:37.572Z",
    "corpus_pages": 94,
    "text_sources": 2,
    "status": "warnings",
@@ -24962,7 +24678,7 @@
   },
   "miami-fl": {
    "slug": "miami-fl",
-   "checked_at": "2026-11-18T13:58:36.811Z",
+   "checked_at": "2026-11-18T14:46:37.594Z",
    "corpus_pages": 57,
    "text_sources": 2,
    "status": "warnings",
@@ -25159,7 +24875,7 @@
   },
   "michigan-manual": {
    "slug": "michigan-manual",
-   "checked_at": "2026-11-18T13:58:36.825Z",
+   "checked_at": "2026-11-18T14:46:37.606Z",
    "corpus_pages": 31,
    "text_sources": 2,
    "status": "passed",
@@ -25280,7 +24996,7 @@
   },
   "milwaukee-wi": {
    "slug": "milwaukee-wi",
-   "checked_at": "2026-11-18T13:58:36.838Z",
+   "checked_at": "2026-11-18T14:46:37.616Z",
    "corpus_pages": 27,
    "text_sources": 2,
    "status": "warnings",
@@ -25388,17 +25104,12 @@
      "field": "design_criteria.peak_flow_calculation_method",
      "kind": "no_evidence",
      "detail": "Value shown but no supporting excerpt"
-    },
-    {
-     "field": "design_parameters.wqv_depth_inches",
-     "kind": "value_not_in_excerpt",
-     "detail": "0.5 is not stated in its excerpt (derived or misread?)"
     }
    ]
   },
   "minneapolis-mn": {
    "slug": "minneapolis-mn",
-   "checked_at": "2026-11-18T13:58:36.882Z",
+   "checked_at": "2026-11-18T14:46:37.659Z",
    "corpus_pages": 104,
    "text_sources": 2,
    "status": "passed",
@@ -25610,7 +25321,7 @@
   },
   "missoula-mt": {
    "slug": "missoula-mt",
-   "checked_at": "2026-11-18T13:58:36.902Z",
+   "checked_at": "2026-11-18T14:46:37.701Z",
    "corpus_pages": 61,
    "text_sources": 2,
    "status": "warnings",
@@ -25716,17 +25427,12 @@
      "field": "design_criteria.approved_bmp_categories",
      "kind": "no_evidence",
      "detail": "Value shown but no supporting excerpt"
-    },
-    {
-     "field": "design_parameters.shwt_separation_inches",
-     "kind": "value_not_in_excerpt",
-     "detail": "12 is not stated in its excerpt (derived or misread?)"
     }
    ]
   },
   "missouri-manual": {
    "slug": "missouri-manual",
-   "checked_at": "2026-11-18T13:58:37.045Z",
+   "checked_at": "2026-11-18T14:46:37.801Z",
    "corpus_pages": 261,
    "text_sources": 2,
    "status": "passed",
@@ -25868,7 +25574,7 @@
   },
   "mn-mndot-drainage": {
    "slug": "mn-mndot-drainage",
-   "checked_at": "2026-11-18T13:58:37.045Z",
+   "checked_at": "2026-11-18T14:46:37.802Z",
    "corpus_pages": 298,
    "text_sources": 2,
    "status": "passed",
@@ -25883,7 +25589,7 @@
   },
   "mn-state-2008": {
    "slug": "mn-state-2008",
-   "checked_at": "2026-11-18T13:58:37.462Z",
+   "checked_at": "2026-11-18T14:46:38.219Z",
    "corpus_pages": 885,
    "text_sources": 2,
    "status": "passed",
@@ -26102,7 +25808,7 @@
   },
   "mobile-al": {
    "slug": "mobile-al",
-   "checked_at": "2026-11-18T13:58:37.610Z",
+   "checked_at": "2026-11-18T14:46:38.407Z",
    "corpus_pages": 245,
    "text_sources": 2,
    "status": "passed",
@@ -26265,7 +25971,7 @@
   },
   "montgomery-al": {
    "slug": "montgomery-al",
-   "checked_at": "2026-11-18T13:58:37.740Z",
+   "checked_at": "2026-11-18T14:46:38.577Z",
    "corpus_pages": 262,
    "text_sources": 2,
    "status": "passed",
@@ -26414,7 +26120,7 @@
   },
   "montpelier-vt": {
    "slug": "montpelier-vt",
-   "checked_at": "2026-11-18T13:58:37.843Z",
+   "checked_at": "2026-11-18T14:46:38.687Z",
    "corpus_pages": 220,
    "text_sources": 2,
    "status": "warnings",
@@ -26592,17 +26298,12 @@
      "field": "design_criteria.approved_bmp_categories",
      "kind": "no_evidence",
      "detail": "Value shown but no supporting excerpt"
-    },
-    {
-     "field": "design_parameters.swale_bottom_width_inches",
-     "kind": "value_not_in_excerpt",
-     "detail": "24 is not stated in its excerpt (derived or misread?)"
     }
    ]
   },
   "ms-mdot-drainage": {
    "slug": "ms-mdot-drainage",
-   "checked_at": "2026-11-18T13:58:37.942Z",
+   "checked_at": "2026-11-18T14:46:38.783Z",
    "corpus_pages": 302,
    "text_sources": 2,
    "status": "passed",
@@ -26786,7 +26487,7 @@
   },
   "ms-state-vol2": {
    "slug": "ms-state-vol2",
-   "checked_at": "2026-11-18T13:58:38.058Z",
+   "checked_at": "2026-11-18T14:46:38.869Z",
    "corpus_pages": 199,
    "text_sources": 2,
    "status": "passed",
@@ -26998,10 +26699,10 @@
   },
   "mt-deq8": {
    "slug": "mt-deq8",
-   "checked_at": "2026-11-18T13:58:38.085Z",
+   "checked_at": "2026-11-18T14:46:38.903Z",
    "corpus_pages": 61,
    "text_sources": 2,
-   "status": "warnings",
+   "status": "passed",
    "counts": {
     "exact": 24,
     "fuzzy": 0,
@@ -27178,17 +26879,11 @@
      "missing_numbers": []
     }
    ],
-   "warnings": [
-    {
-     "field": "design_parameters.shwt_separation_inches",
-     "kind": "value_not_in_excerpt",
-     "detail": "12 is not stated in its excerpt (derived or misread?)"
-    }
-   ]
+   "warnings": []
   },
   "mt-mdt-drainage": {
    "slug": "mt-mdt-drainage",
-   "checked_at": "2026-11-18T13:58:38.126Z",
+   "checked_at": "2026-11-18T14:46:38.928Z",
    "corpus_pages": 55,
    "text_sources": 2,
    "status": "warnings",
@@ -27246,13 +26941,13 @@
     {
      "field": "design_criteria.design_storm_return_periods_years",
      "kind": "value_not_in_excerpt",
-     "detail": "Not mentioned in excerpts: 5, 500-yr"
+     "detail": "Not mentioned in excerpts: 500-yr"
     }
    ]
   },
   "murfreesboro-tn": {
    "slug": "murfreesboro-tn",
-   "checked_at": "2026-11-18T13:58:38.169Z",
+   "checked_at": "2026-11-18T14:46:38.975Z",
    "corpus_pages": 104,
    "text_sources": 2,
    "status": "warnings",
@@ -27351,7 +27046,7 @@
   },
   "nashua-nh": {
    "slug": "nashua-nh",
-   "checked_at": "2026-11-18T13:58:38.179Z",
+   "checked_at": "2026-11-18T14:46:38.982Z",
    "corpus_pages": 11,
    "text_sources": 2,
    "status": "warnings",
@@ -27457,7 +27152,7 @@
   },
   "nashville-tn-vol4": {
    "slug": "nashville-tn-vol4",
-   "checked_at": "2026-11-18T13:58:38.187Z",
+   "checked_at": "2026-11-18T14:46:38.991Z",
    "corpus_pages": 18,
    "text_sources": 2,
    "status": "passed",
@@ -27606,7 +27301,7 @@
   },
   "nc-ncdot-drainage": {
    "slug": "nc-ncdot-drainage",
-   "checked_at": "2026-11-18T13:58:38.319Z",
+   "checked_at": "2026-11-18T14:46:39.088Z",
    "corpus_pages": 311,
    "text_sources": 2,
    "status": "passed",
@@ -27699,10 +27394,10 @@
   },
   "nc-state": {
    "slug": "nc-state",
-   "checked_at": "2026-11-18T13:58:38.322Z",
+   "checked_at": "2026-11-18T14:46:39.090Z",
    "corpus_pages": 7,
    "text_sources": 2,
-   "status": "warnings",
+   "status": "passed",
    "counts": {
     "exact": 19,
     "fuzzy": 0,
@@ -27844,22 +27539,16 @@
      "missing_numbers": []
     }
    ],
-   "warnings": [
-    {
-     "field": "design_parameters.wqv_depth_inches",
-     "kind": "value_not_in_excerpt",
-     "detail": "1 is not stated in its excerpt (derived or misread?)"
-    }
-   ]
+   "warnings": []
   },
   "nd-nddot-drainage": {
    "slug": "nd-nddot-drainage",
-   "checked_at": "2026-11-18T13:58:38.361Z",
+   "checked_at": "2026-11-18T14:46:39.120Z",
    "corpus_pages": 105,
    "text_sources": 2,
-   "status": "warnings",
+   "status": "passed",
    "counts": {
-    "exact": 6,
+    "exact": 7,
     "fuzzy": 2,
     "unverifiable": 0,
     "fail": 0
@@ -27920,19 +27609,20 @@
      "score": 1,
      "page": 5,
      "missing_numbers": []
-    }
-   ],
-   "warnings": [
+    },
     {
      "field": "design_criteria.design_storm_return_periods_years",
-     "kind": "value_not_in_excerpt",
-     "detail": "Not mentioned in excerpts: 25-yr"
+     "status": "exact",
+     "score": 1,
+     "page": 7,
+     "missing_numbers": []
     }
-   ]
+   ],
+   "warnings": []
   },
   "ne-ndot-stf": {
    "slug": "ne-ndot-stf",
-   "checked_at": "2026-11-18T13:58:38.381Z",
+   "checked_at": "2026-11-18T14:46:39.137Z",
    "corpus_pages": 39,
    "text_sources": 2,
    "status": "passed",
@@ -28109,7 +27799,7 @@
   },
   "new-haven-ct": {
    "slug": "new-haven-ct",
-   "checked_at": "2026-11-18T13:58:38.679Z",
+   "checked_at": "2026-11-18T14:46:39.377Z",
    "corpus_pages": 564,
    "text_sources": 2,
    "status": "passed",
@@ -28251,7 +27941,7 @@
   },
   "new-orleans-jefferson-la": {
    "slug": "new-orleans-jefferson-la",
-   "checked_at": "2026-11-18T13:58:38.740Z",
+   "checked_at": "2026-11-18T14:46:39.427Z",
    "corpus_pages": 142,
    "text_sources": 2,
    "status": "passed",
@@ -28407,7 +28097,7 @@
   },
   "newark-nj": {
    "slug": "newark-nj",
-   "checked_at": "2026-11-18T13:58:38.812Z",
+   "checked_at": "2026-11-18T14:46:39.481Z",
    "corpus_pages": 100,
    "text_sources": 2,
    "status": "warnings",
@@ -28532,7 +28222,7 @@
   },
   "nh-nhdot-drainage": {
    "slug": "nh-nhdot-drainage",
-   "checked_at": "2026-11-18T13:58:38.894Z",
+   "checked_at": "2026-11-18T14:46:39.561Z",
    "corpus_pages": 193,
    "text_sources": 2,
    "status": "passed",
@@ -28653,7 +28343,7 @@
   },
   "nh-state": {
    "slug": "nh-state",
-   "checked_at": "2026-11-18T13:58:38.903Z",
+   "checked_at": "2026-11-18T14:46:39.567Z",
    "corpus_pages": 11,
    "text_sources": 2,
    "status": "passed",
@@ -28767,7 +28457,7 @@
   },
   "nj-njdot-drainage": {
    "slug": "nj-njdot-drainage",
-   "checked_at": "2026-11-18T13:58:38.948Z",
+   "checked_at": "2026-11-18T14:46:39.607Z",
    "corpus_pages": 100,
    "text_sources": 2,
    "status": "warnings",
@@ -28875,17 +28565,12 @@
      "field": "design_criteria.design_storm_return_periods_years",
      "kind": "value_not_in_excerpt",
      "detail": "Not mentioned in excerpts: 5, 50-yr"
-    },
-    {
-     "field": "design_parameters.wqv_depth_inches",
-     "kind": "value_not_in_excerpt",
-     "detail": "1.25 is not stated in its excerpt (derived or misread?)"
     }
    ]
   },
   "nj-state": {
    "slug": "nj-state",
-   "checked_at": "2026-11-18T13:58:39.014Z",
+   "checked_at": "2026-11-18T14:46:39.662Z",
    "corpus_pages": 100,
    "text_sources": 2,
    "status": "passed",
@@ -29104,14 +28789,14 @@
   },
   "nm-nmdot-drainage": {
    "slug": "nm-nmdot-drainage",
-   "checked_at": "2026-11-18T13:58:39.270Z",
+   "checked_at": "2026-11-18T14:46:39.912Z",
    "corpus_pages": 626,
    "text_sources": 2,
-   "status": "warnings",
+   "status": "passed",
    "counts": {
     "exact": 12,
     "fuzzy": 0,
-    "unverifiable": 1,
+    "unverifiable": 0,
     "fail": 0
    },
    "excerpts": [
@@ -29121,15 +28806,6 @@
      "score": 1,
      "page": 5,
      "missing_numbers": []
-    },
-    {
-     "field": "design_criteria.design_storm_return_periods_years",
-     "status": "unverifiable",
-     "score": 0.93,
-     "page": 13,
-     "missing_numbers": [
-      "6"
-     ]
     },
     {
      "field": "design_criteria.peak_flow_calculation_method",
@@ -29213,7 +28889,7 @@
   },
   "norfolk-va": {
    "slug": "norfolk-va",
-   "checked_at": "2026-11-18T13:58:39.340Z",
+   "checked_at": "2026-11-18T14:46:39.969Z",
    "corpus_pages": 156,
    "text_sources": 2,
    "status": "passed",
@@ -29453,7 +29129,7 @@
   },
   "north-little-rock-ar": {
    "slug": "north-little-rock-ar",
-   "checked_at": "2026-11-18T13:58:39.347Z",
+   "checked_at": "2026-11-18T14:46:39.976Z",
    "corpus_pages": 42,
    "text_sources": 2,
    "status": "passed",
@@ -29560,7 +29236,7 @@
   },
   "ny-bluebook": {
    "slug": "ny-bluebook",
-   "checked_at": "2026-11-18T13:58:39.497Z",
+   "checked_at": "2026-11-18T14:46:40.123Z",
    "corpus_pages": 375,
    "text_sources": 2,
    "status": "passed",
@@ -29723,7 +29399,7 @@
   },
   "ny-nysdot-drainage": {
    "slug": "ny-nysdot-drainage",
-   "checked_at": "2026-11-18T13:58:39.572Z",
+   "checked_at": "2026-11-18T14:46:40.192Z",
    "corpus_pages": 135,
    "text_sources": 2,
    "status": "warnings",
@@ -29822,7 +29498,7 @@
   },
   "ny-state": {
    "slug": "ny-state",
-   "checked_at": "2026-11-18T13:58:39.827Z",
+   "checked_at": "2026-11-18T14:46:40.445Z",
    "corpus_pages": 522,
    "text_sources": 2,
    "status": "passed",
@@ -29971,7 +29647,7 @@
   },
   "nyc-ny": {
    "slug": "nyc-ny",
-   "checked_at": "2026-11-18T13:58:39.912Z",
+   "checked_at": "2026-11-18T14:46:40.517Z",
    "corpus_pages": 126,
    "text_sources": 2,
    "status": "warnings",
@@ -30140,7 +29816,7 @@
   },
   "oakland-ca": {
    "slug": "oakland-ca",
-   "checked_at": "2026-11-18T13:58:39.920Z",
+   "checked_at": "2026-11-18T14:46:40.527Z",
    "corpus_pages": 27,
    "text_sources": 2,
    "status": "warnings",
@@ -30244,7 +29920,7 @@
   },
   "oh-odot-drainage": {
    "slug": "oh-odot-drainage",
-   "checked_at": "2026-11-18T13:58:40.033Z",
+   "checked_at": "2026-11-18T14:46:40.663Z",
    "corpus_pages": 248,
    "text_sources": 2,
    "status": "passed",
@@ -30379,14 +30055,14 @@
   },
   "ohio-rainwater": {
    "slug": "ohio-rainwater",
-   "checked_at": "2026-11-18T13:58:40.231Z",
+   "checked_at": "2026-11-18T14:46:40.876Z",
    "corpus_pages": 400,
    "text_sources": 2,
-   "status": "warnings",
+   "status": "passed",
    "counts": {
-    "exact": 13,
+    "exact": 16,
     "fuzzy": 2,
-    "unverifiable": 3,
+    "unverifiable": 0,
     "fail": 0
    },
    "excerpts": [
@@ -30469,21 +30145,17 @@
     },
     {
      "field": "design_parameters.shwt_separation_inches",
-     "status": "unverifiable",
-     "score": 0.94,
+     "status": "exact",
+     "score": 1,
      "page": 51,
-     "missing_numbers": [
-      "4"
-     ]
+     "missing_numbers": []
     },
     {
      "field": "design_parameters.shwt_separation_inches",
-     "status": "unverifiable",
-     "score": 0.93,
+     "status": "exact",
+     "score": 1,
      "page": 77,
-     "missing_numbers": [
-      "4"
-     ]
+     "missing_numbers": []
     },
     {
      "field": "design_parameters.bioretention_media_depth_min_inches",
@@ -30501,13 +30173,10 @@
     },
     {
      "field": "design_parameters.design_infiltration_rate_in_per_hr",
-     "status": "unverifiable",
-     "score": 0.87,
+     "status": "exact",
+     "score": 1,
      "page": 50,
-     "missing_numbers": [
-      "0.52",
-      "2.5"
-     ]
+     "missing_numbers": []
     },
     {
      "field": "design_criteria.approved_bmp_categories",
@@ -30528,7 +30197,7 @@
   },
   "oklahoma-odot-ch10": {
    "slug": "oklahoma-odot-ch10",
-   "checked_at": "2026-11-18T13:58:40.272Z",
+   "checked_at": "2026-11-18T14:46:40.906Z",
    "corpus_pages": 126,
    "text_sources": 2,
    "status": "passed",
@@ -30635,7 +30304,7 @@
   },
   "olympia-wa": {
    "slug": "olympia-wa",
-   "checked_at": "2026-11-18T13:58:40.969Z",
+   "checked_at": "2026-11-18T14:46:41.498Z",
    "corpus_pages": 1350,
    "text_sources": 2,
    "status": "warnings",
@@ -30825,7 +30494,7 @@
   },
   "omaha-ne": {
    "slug": "omaha-ne",
-   "checked_at": "2026-11-18T13:58:40.974Z",
+   "checked_at": "2026-11-18T14:46:41.503Z",
    "corpus_pages": 21,
    "text_sources": 2,
    "status": "warnings",
@@ -30894,7 +30563,7 @@
   },
   "or-odot-drainage": {
    "slug": "or-odot-drainage",
-   "checked_at": "2026-11-18T13:58:40.975Z",
+   "checked_at": "2026-11-18T14:46:41.504Z",
    "corpus_pages": 8,
    "text_sources": 2,
    "status": "passed",
@@ -30917,7 +30586,7 @@
   },
   "orange-county-ca": {
    "slug": "orange-county-ca",
-   "checked_at": "2026-11-18T13:58:41.068Z",
+   "checked_at": "2026-11-18T14:46:41.593Z",
    "corpus_pages": 283,
    "text_sources": 2,
    "status": "warnings",
@@ -31023,7 +30692,7 @@
   },
   "oregon-manual": {
    "slug": "oregon-manual",
-   "checked_at": "2026-11-18T13:58:41.097Z",
+   "checked_at": "2026-11-18T14:46:41.619Z",
    "corpus_pages": 134,
    "text_sources": 2,
    "status": "warnings",
@@ -31176,7 +30845,7 @@
   },
   "orlando-fl": {
    "slug": "orlando-fl",
-   "checked_at": "2026-11-18T13:58:41.210Z",
+   "checked_at": "2026-11-18T14:46:41.698Z",
    "corpus_pages": 182,
    "text_sources": 2,
    "status": "passed",
@@ -31290,7 +30959,7 @@
   },
   "overland-park-ks": {
    "slug": "overland-park-ks",
-   "checked_at": "2026-11-18T13:58:41.254Z",
+   "checked_at": "2026-11-18T14:46:41.723Z",
    "corpus_pages": 72,
    "text_sources": 2,
    "status": "warnings",
@@ -31366,7 +31035,7 @@
   },
   "pa-bmp-2006": {
    "slug": "pa-bmp-2006",
-   "checked_at": "2026-11-18T13:58:41.601Z",
+   "checked_at": "2026-11-18T14:46:41.957Z",
    "corpus_pages": 639,
    "text_sources": 2,
    "status": "passed",
@@ -31522,7 +31191,7 @@
   },
   "pa-penndot-drainage": {
    "slug": "pa-penndot-drainage",
-   "checked_at": "2026-11-18T13:58:42.093Z",
+   "checked_at": "2026-11-18T14:46:42.406Z",
    "corpus_pages": 833,
    "text_sources": 2,
    "status": "passed",
@@ -31636,10 +31305,10 @@
   },
   "pa-state": {
    "slug": "pa-state",
-   "checked_at": "2026-11-18T13:58:42.498Z",
+   "checked_at": "2026-11-18T14:46:42.807Z",
    "corpus_pages": 755,
    "text_sources": 2,
-   "status": "warnings",
+   "status": "passed",
    "counts": {
     "exact": 24,
     "fuzzy": 1,
@@ -31823,17 +31492,11 @@
      "missing_numbers": []
     }
    ],
-   "warnings": [
-    {
-     "field": "design_parameters.permanent_pool_depth_inches",
-     "kind": "value_not_in_excerpt",
-     "detail": "60 is not stated in its excerpt (derived or misread?)"
-    }
-   ]
+   "warnings": []
   },
   "palm-bay-fl": {
    "slug": "palm-bay-fl",
-   "checked_at": "2026-11-18T13:58:42.559Z",
+   "checked_at": "2026-11-18T14:46:42.868Z",
    "corpus_pages": 188,
    "text_sources": 2,
    "status": "warnings",
@@ -31948,17 +31611,12 @@
      "field": "design_criteria.approved_bmp_categories",
      "kind": "no_evidence",
      "detail": "Value shown but no supporting excerpt"
-    },
-    {
-     "field": "design_parameters.shwt_separation_inches",
-     "kind": "value_not_in_excerpt",
-     "detail": "24 is not stated in its excerpt (derived or misread?)"
     }
    ]
   },
   "palm-coast-fl": {
    "slug": "palm-coast-fl",
-   "checked_at": "2026-11-18T13:58:42.624Z",
+   "checked_at": "2026-11-18T14:46:42.934Z",
    "corpus_pages": 188,
    "text_sources": 2,
    "status": "warnings",
@@ -32073,17 +31731,12 @@
      "field": "design_criteria.approved_bmp_categories",
      "kind": "no_evidence",
      "detail": "Value shown but no supporting excerpt"
-    },
-    {
-     "field": "design_parameters.shwt_separation_inches",
-     "kind": "value_not_in_excerpt",
-     "detail": "24 is not stated in its excerpt (derived or misread?)"
     }
    ]
   },
   "pasadena-tx": {
    "slug": "pasadena-tx",
-   "checked_at": "2026-11-18T13:58:42.645Z",
+   "checked_at": "2026-11-18T14:46:42.954Z",
    "corpus_pages": 53,
    "text_sources": 2,
    "status": "warnings",
@@ -32175,7 +31828,7 @@
   },
   "paterson-nj": {
    "slug": "paterson-nj",
-   "checked_at": "2026-11-18T13:58:42.695Z",
+   "checked_at": "2026-11-18T14:46:43.002Z",
    "corpus_pages": 100,
    "text_sources": 2,
    "status": "warnings",
@@ -32279,7 +31932,7 @@
   },
   "pearland-tx": {
    "slug": "pearland-tx",
-   "checked_at": "2026-11-18T13:58:42.717Z",
+   "checked_at": "2026-11-18T14:46:43.023Z",
    "corpus_pages": 53,
    "text_sources": 2,
    "status": "warnings",
@@ -32399,7 +32052,7 @@
   },
   "pensacola-fl": {
    "slug": "pensacola-fl",
-   "checked_at": "2026-11-18T13:58:42.751Z",
+   "checked_at": "2026-11-18T14:46:43.059Z",
    "corpus_pages": 100,
    "text_sources": 2,
    "status": "warnings",
@@ -32479,17 +32132,12 @@
      "field": "design_criteria.peak_flow_calculation_method",
      "kind": "no_evidence",
      "detail": "Value shown but no supporting excerpt"
-    },
-    {
-     "field": "design_parameters.shwt_separation_inches",
-     "kind": "value_not_in_excerpt",
-     "detail": "24 is not stated in its excerpt (derived or misread?)"
     }
    ]
   },
   "peoria-il": {
    "slug": "peoria-il",
-   "checked_at": "2026-11-18T13:58:42.788Z",
+   "checked_at": "2026-11-18T14:46:43.091Z",
    "corpus_pages": 98,
    "text_sources": 2,
    "status": "warnings",
@@ -32581,10 +32229,10 @@
   },
   "philadelphia-pa": {
    "slug": "philadelphia-pa",
-   "checked_at": "2026-11-18T13:58:43.159Z",
+   "checked_at": "2026-11-18T14:46:43.485Z",
    "corpus_pages": 660,
    "text_sources": 2,
-   "status": "warnings",
+   "status": "passed",
    "counts": {
     "exact": 16,
     "fuzzy": 2,
@@ -32719,30 +32367,14 @@
      "missing_numbers": []
     }
    ],
-   "warnings": [
-    {
-     "field": "design_parameters.shwt_separation_inches",
-     "kind": "value_not_in_excerpt",
-     "detail": "24 is not stated in its excerpt (derived or misread?)"
-    },
-    {
-     "field": "design_parameters.bioretention_media_depth_min_inches",
-     "kind": "value_not_in_excerpt",
-     "detail": "24 is not stated in its excerpt (derived or misread?)"
-    },
-    {
-     "field": "design_parameters.bioretention_ponding_depth_inches",
-     "kind": "value_not_in_excerpt",
-     "detail": "3 is not stated in its excerpt (derived or misread?)"
-    }
-   ]
+   "warnings": []
   },
   "phoenix-az": {
    "slug": "phoenix-az",
-   "checked_at": "2026-11-18T13:58:43.217Z",
+   "checked_at": "2026-11-18T14:46:43.554Z",
    "corpus_pages": 144,
    "text_sources": 2,
-   "status": "warnings",
+   "status": "passed",
    "counts": {
     "exact": 21,
     "fuzzy": 0,
@@ -32898,17 +32530,11 @@
      "missing_numbers": []
     }
    ],
-   "warnings": [
-    {
-     "field": "design_parameters.swale_bottom_width_inches",
-     "kind": "value_not_in_excerpt",
-     "detail": "48 is not stated in its excerpt (derived or misread?)"
-    }
-   ]
+   "warnings": []
   },
   "pierre-sd": {
    "slug": "pierre-sd",
-   "checked_at": "2026-11-18T13:58:43.321Z",
+   "checked_at": "2026-11-18T14:46:43.653Z",
    "corpus_pages": 218,
    "text_sources": 2,
    "status": "passed",
@@ -32987,7 +32613,7 @@
   },
   "pinellas-county-fl": {
    "slug": "pinellas-county-fl",
-   "checked_at": "2026-11-18T13:58:43.441Z",
+   "checked_at": "2026-11-18T14:46:43.792Z",
    "corpus_pages": 260,
    "text_sources": 2,
    "status": "warnings",
@@ -33135,7 +32761,7 @@
   },
   "pittsburgh-pa": {
    "slug": "pittsburgh-pa",
-   "checked_at": "2026-11-18T13:58:43.522Z",
+   "checked_at": "2026-11-18T14:46:43.887Z",
    "corpus_pages": 179,
    "text_sources": 2,
    "status": "passed",
@@ -33235,7 +32861,7 @@
   },
   "plano-tx": {
    "slug": "plano-tx",
-   "checked_at": "2026-11-18T13:58:43.554Z",
+   "checked_at": "2026-11-18T14:46:43.928Z",
    "corpus_pages": 153,
    "text_sources": 2,
    "status": "passed",
@@ -33328,7 +32954,7 @@
   },
   "port-st-lucie-fl": {
    "slug": "port-st-lucie-fl",
-   "checked_at": "2026-11-18T13:58:43.582Z",
+   "checked_at": "2026-11-18T14:46:43.956Z",
    "corpus_pages": 59,
    "text_sources": 2,
    "status": "warnings",
@@ -33441,17 +33067,12 @@
      "field": "design_criteria.approved_bmp_categories",
      "kind": "no_evidence",
      "detail": "Value shown but no supporting excerpt"
-    },
-    {
-     "field": "design_parameters.wqv_depth_inches",
-     "kind": "value_not_in_excerpt",
-     "detail": "1 is not stated in its excerpt (derived or misread?)"
     }
    ]
   },
   "portland-me": {
    "slug": "portland-me",
-   "checked_at": "2026-11-18T13:58:43.652Z",
+   "checked_at": "2026-11-18T14:46:44.036Z",
    "corpus_pages": 114,
    "text_sources": 2,
    "status": "passed",
@@ -33593,7 +33214,7 @@
   },
   "portland-or": {
    "slug": "portland-or",
-   "checked_at": "2026-11-18T13:58:43.844Z",
+   "checked_at": "2026-11-18T14:46:44.243Z",
    "corpus_pages": 480,
    "text_sources": 2,
    "status": "passed",
@@ -33756,7 +33377,7 @@
   },
   "prescott-valley-az": {
    "slug": "prescott-valley-az",
-   "checked_at": "2026-11-18T13:58:43.978Z",
+   "checked_at": "2026-11-18T14:46:44.387Z",
    "corpus_pages": 290,
    "text_sources": 2,
    "status": "passed",
@@ -33919,10 +33540,10 @@
   },
   "prince-georges-county-md": {
    "slug": "prince-georges-county-md",
-   "checked_at": "2026-11-18T13:58:44.100Z",
+   "checked_at": "2026-11-18T14:46:44.528Z",
    "corpus_pages": 289,
    "text_sources": 2,
-   "status": "warnings",
+   "status": "passed",
    "counts": {
     "exact": 15,
     "fuzzy": 2,
@@ -34050,22 +33671,11 @@
      "missing_numbers": []
     }
    ],
-   "warnings": [
-    {
-     "field": "design_parameters.shwt_separation_inches",
-     "kind": "value_not_in_excerpt",
-     "detail": "48 is not stated in its excerpt (derived or misread?)"
-    },
-    {
-     "field": "design_parameters.bioretention_media_depth_min_inches",
-     "kind": "value_not_in_excerpt",
-     "detail": "30 is not stated in its excerpt (derived or misread?)"
-    }
-   ]
+   "warnings": []
   },
   "providence-ri": {
    "slug": "providence-ri",
-   "checked_at": "2026-11-18T13:58:44.325Z",
+   "checked_at": "2026-11-18T14:46:44.794Z",
    "corpus_pages": 483,
    "text_sources": 2,
    "status": "passed",
@@ -34228,7 +33838,7 @@
   },
   "raleigh-nc": {
    "slug": "raleigh-nc",
-   "checked_at": "2026-11-18T13:58:44.382Z",
+   "checked_at": "2026-11-18T14:46:44.849Z",
    "corpus_pages": 137,
    "text_sources": 2,
    "status": "warnings",
@@ -34343,17 +33953,12 @@
      "field": "design_criteria.peak_flow_calculation_method",
      "kind": "no_evidence",
      "detail": "Value shown but no supporting excerpt"
-    },
-    {
-     "field": "design_criteria.design_storm_return_periods_years",
-     "kind": "value_not_in_excerpt",
-     "detail": "Not mentioned in excerpts: 1-yr"
     }
    ]
   },
   "reading-pa": {
    "slug": "reading-pa",
-   "checked_at": "2026-11-18T13:58:44.754Z",
+   "checked_at": "2026-11-18T14:46:45.224Z",
    "corpus_pages": 755,
    "text_sources": 2,
    "status": "warnings",
@@ -34466,16 +34071,6 @@
      "detail": "Value shown but no supporting excerpt"
     },
     {
-     "field": "design_parameters.permeable_pavement_storage_depth_inches",
-     "kind": "value_not_in_excerpt",
-     "detail": "12 is not stated in its excerpt (derived or misread?)"
-    },
-    {
-     "field": "design_parameters.permanent_pool_depth_inches",
-     "kind": "value_not_in_excerpt",
-     "detail": "60 is not stated in its excerpt (derived or misread?)"
-    },
-    {
      "field": "design_parameters.green_roof_media_depth_inches",
      "kind": "no_evidence",
      "detail": "3 has no supporting excerpt"
@@ -34484,7 +34079,7 @@
   },
   "reno-nv": {
    "slug": "reno-nv",
-   "checked_at": "2026-11-18T13:58:44.905Z",
+   "checked_at": "2026-11-18T14:46:45.375Z",
    "corpus_pages": 353,
    "text_sources": 2,
    "status": "passed",
@@ -34647,7 +34242,7 @@
   },
   "ri-ridot-drainage": {
    "slug": "ri-ridot-drainage",
-   "checked_at": "2026-11-18T13:58:44.978Z",
+   "checked_at": "2026-11-18T14:46:45.452Z",
    "corpus_pages": 196,
    "text_sources": 2,
    "status": "passed",
@@ -34810,7 +34405,7 @@
   },
   "ri-state": {
    "slug": "ri-state",
-   "checked_at": "2026-11-18T13:58:45.207Z",
+   "checked_at": "2026-11-18T14:46:45.692Z",
    "corpus_pages": 483,
    "text_sources": 2,
    "status": "passed",
@@ -34987,7 +34582,7 @@
   },
   "richmond-va": {
    "slug": "richmond-va",
-   "checked_at": "2026-11-18T13:58:45.244Z",
+   "checked_at": "2026-11-18T14:46:45.722Z",
    "corpus_pages": 97,
    "text_sources": 2,
    "status": "warnings",
@@ -35070,7 +34665,7 @@
   },
   "riverside-county-ca": {
    "slug": "riverside-county-ca",
-   "checked_at": "2026-11-18T13:58:45.318Z",
+   "checked_at": "2026-11-18T14:46:45.803Z",
    "corpus_pages": 210,
    "text_sources": 2,
    "status": "warnings",
@@ -35218,7 +34813,7 @@
   },
   "roanoke-va": {
    "slug": "roanoke-va",
-   "checked_at": "2026-11-18T13:58:45.326Z",
+   "checked_at": "2026-11-18T14:46:45.816Z",
    "corpus_pages": 41,
    "text_sources": 2,
    "status": "warnings",
@@ -35287,7 +34882,7 @@
   },
   "rochester-mn": {
    "slug": "rochester-mn",
-   "checked_at": "2026-11-18T13:58:45.386Z",
+   "checked_at": "2026-11-18T14:46:45.877Z",
    "corpus_pages": 169,
    "text_sources": 2,
    "status": "warnings",
@@ -35400,7 +34995,7 @@
   },
   "rochester-ny": {
    "slug": "rochester-ny",
-   "checked_at": "2026-11-18T13:58:45.610Z",
+   "checked_at": "2026-11-18T14:46:46.131Z",
    "corpus_pages": 522,
    "text_sources": 2,
    "status": "passed",
@@ -35591,7 +35186,7 @@
   },
   "rockford-il": {
    "slug": "rockford-il",
-   "checked_at": "2026-11-18T13:58:45.643Z",
+   "checked_at": "2026-11-18T14:46:46.159Z",
    "corpus_pages": 137,
    "text_sources": 2,
    "status": "warnings",
@@ -35702,7 +35297,7 @@
   },
   "rockville-md": {
    "slug": "rockville-md",
-   "checked_at": "2026-11-18T13:58:45.744Z",
+   "checked_at": "2026-11-18T14:46:46.273Z",
    "corpus_pages": 289,
    "text_sources": 2,
    "status": "warnings",
@@ -35817,22 +35412,12 @@
      "field": "design_criteria.approved_bmp_categories",
      "kind": "no_evidence",
      "detail": "Value shown but no supporting excerpt"
-    },
-    {
-     "field": "design_parameters.shwt_separation_inches",
-     "kind": "value_not_in_excerpt",
-     "detail": "48 is not stated in its excerpt (derived or misread?)"
-    },
-    {
-     "field": "design_parameters.bioretention_media_depth_min_inches",
-     "kind": "value_not_in_excerpt",
-     "detail": "30 is not stated in its excerpt (derived or misread?)"
     }
    ]
   },
   "round-rock-tx": {
    "slug": "round-rock-tx",
-   "checked_at": "2026-11-18T13:58:45.758Z",
+   "checked_at": "2026-11-18T14:46:46.277Z",
    "corpus_pages": 7,
    "text_sources": 2,
    "status": "warnings",
@@ -35931,7 +35516,7 @@
   },
   "sacramento-ca": {
    "slug": "sacramento-ca",
-   "checked_at": "2026-11-18T13:58:45.784Z",
+   "checked_at": "2026-11-18T14:46:46.310Z",
    "corpus_pages": 55,
    "text_sources": 2,
    "status": "passed",
@@ -36073,7 +35658,7 @@
   },
   "saint-paul-mn": {
    "slug": "saint-paul-mn",
-   "checked_at": "2026-11-18T13:58:45.808Z",
+   "checked_at": "2026-11-18T14:46:46.345Z",
    "corpus_pages": 68,
    "text_sources": 2,
    "status": "passed",
@@ -36194,7 +35779,7 @@
   },
   "salem-or": {
    "slug": "salem-or",
-   "checked_at": "2026-11-18T13:58:45.975Z",
+   "checked_at": "2026-11-18T14:46:46.522Z",
    "corpus_pages": 336,
    "text_sources": 2,
    "status": "passed",
@@ -36301,7 +35886,7 @@
   },
   "salt-lake-city-ut": {
    "slug": "salt-lake-city-ut",
-   "checked_at": "2026-11-18T13:58:46.209Z",
+   "checked_at": "2026-11-18T14:46:46.696Z",
    "corpus_pages": 336,
    "text_sources": 2,
    "status": "passed",
@@ -36443,7 +36028,7 @@
   },
   "san-antonio-tx": {
    "slug": "san-antonio-tx",
-   "checked_at": "2026-11-18T13:58:46.237Z",
+   "checked_at": "2026-11-18T14:46:46.722Z",
    "corpus_pages": 52,
    "text_sources": 2,
    "status": "passed",
@@ -36599,7 +36184,7 @@
   },
   "san-bernardino-county-ca": {
    "slug": "san-bernardino-county-ca",
-   "checked_at": "2026-11-18T13:58:46.307Z",
+   "checked_at": "2026-11-18T14:46:46.773Z",
    "corpus_pages": 125,
    "text_sources": 2,
    "status": "warnings",
@@ -36724,7 +36309,7 @@
   },
   "san-diego-ca": {
    "slug": "san-diego-ca",
-   "checked_at": "2026-11-18T13:58:46.678Z",
+   "checked_at": "2026-11-18T14:46:47.139Z",
    "corpus_pages": 786,
    "text_sources": 2,
    "status": "passed",
@@ -36901,7 +36486,7 @@
   },
   "san-francisco-ca": {
    "slug": "san-francisco-ca",
-   "checked_at": "2026-11-18T13:58:46.718Z",
+   "checked_at": "2026-11-18T14:46:47.181Z",
    "corpus_pages": 132,
    "text_sources": 2,
    "status": "passed",
@@ -37064,7 +36649,7 @@
   },
   "san-jose-ca": {
    "slug": "san-jose-ca",
-   "checked_at": "2026-11-18T13:58:46.816Z",
+   "checked_at": "2026-11-18T14:46:47.266Z",
    "corpus_pages": 181,
    "text_sources": 2,
    "status": "passed",
@@ -37255,7 +36840,7 @@
   },
   "santa-barbara-ca": {
    "slug": "santa-barbara-ca",
-   "checked_at": "2026-11-18T13:58:47.003Z",
+   "checked_at": "2026-11-18T14:46:47.451Z",
    "corpus_pages": 401,
    "text_sources": 2,
    "status": "warnings",
@@ -37389,7 +36974,7 @@
   },
   "santa-fe-nm": {
    "slug": "santa-fe-nm",
-   "checked_at": "2026-11-18T13:58:47.018Z",
+   "checked_at": "2026-11-18T14:46:47.465Z",
    "corpus_pages": 27,
    "text_sources": 2,
    "status": "warnings",
@@ -37451,7 +37036,7 @@
   },
   "santa-rosa-ca": {
    "slug": "santa-rosa-ca",
-   "checked_at": "2026-11-18T13:58:47.042Z",
+   "checked_at": "2026-11-18T14:46:47.488Z",
    "corpus_pages": 54,
    "text_sources": 2,
    "status": "passed",
@@ -37558,7 +37143,7 @@
   },
   "savannah-ga-css": {
    "slug": "savannah-ga-css",
-   "checked_at": "2026-11-18T13:58:47.405Z",
+   "checked_at": "2026-11-18T14:46:47.803Z",
    "corpus_pages": 542,
    "text_sources": 2,
    "status": "passed",
@@ -37742,7 +37327,7 @@
   },
   "sc-scdot-drainage": {
    "slug": "sc-scdot-drainage",
-   "checked_at": "2026-11-18T13:58:47.431Z",
+   "checked_at": "2026-11-18T14:46:47.819Z",
    "corpus_pages": 41,
    "text_sources": 2,
    "status": "warnings",
@@ -37855,7 +37440,7 @@
   },
   "scottsdale-az": {
    "slug": "scottsdale-az",
-   "checked_at": "2026-11-18T13:58:47.749Z",
+   "checked_at": "2026-11-18T14:46:48.069Z",
    "corpus_pages": 668,
    "text_sources": 2,
    "status": "warnings",
@@ -38015,7 +37600,7 @@
   },
   "scranton-pa": {
    "slug": "scranton-pa",
-   "checked_at": "2026-11-18T13:58:48.166Z",
+   "checked_at": "2026-11-18T14:46:48.533Z",
    "corpus_pages": 755,
    "text_sources": 2,
    "status": "warnings",
@@ -38133,22 +37718,12 @@
      "field": "design_criteria.approved_bmp_categories",
      "kind": "no_evidence",
      "detail": "Value shown but no supporting excerpt"
-    },
-    {
-     "field": "design_parameters.permeable_pavement_storage_depth_inches",
-     "kind": "value_not_in_excerpt",
-     "detail": "12 is not stated in its excerpt (derived or misread?)"
-    },
-    {
-     "field": "design_parameters.permanent_pool_depth_inches",
-     "kind": "value_not_in_excerpt",
-     "detail": "60 is not stated in its excerpt (derived or misread?)"
     }
    ]
   },
   "sd-dot-esc": {
    "slug": "sd-dot-esc",
-   "checked_at": "2026-11-18T13:58:48.264Z",
+   "checked_at": "2026-11-18T14:46:48.642Z",
    "corpus_pages": 218,
    "text_sources": 2,
    "status": "passed",
@@ -38290,7 +37865,7 @@
   },
   "seattle-wa": {
    "slug": "seattle-wa",
-   "checked_at": "2026-11-18T13:58:49.360Z",
+   "checked_at": "2026-11-18T14:46:49.600Z",
    "corpus_pages": 1086,
    "text_sources": 2,
    "status": "passed",
@@ -38425,7 +38000,7 @@
   },
   "seattle-wa-2026": {
    "slug": "seattle-wa-2026",
-   "checked_at": "2026-11-18T13:58:48.935Z",
+   "checked_at": "2026-11-18T14:46:49.208Z",
    "corpus_pages": 1158,
    "text_sources": 2,
    "status": "passed",
@@ -38553,14 +38128,14 @@
   },
   "shreveport-la": {
    "slug": "shreveport-la",
-   "checked_at": "2026-11-18T13:58:49.415Z",
+   "checked_at": "2026-11-18T14:46:49.652Z",
    "corpus_pages": 324,
    "text_sources": 2,
-   "status": "warnings",
+   "status": "passed",
    "counts": {
-    "exact": 11,
+    "exact": 12,
     "fuzzy": 0,
-    "unverifiable": 1,
+    "unverifiable": 0,
     "fail": 0
    },
    "excerpts": [
@@ -38587,12 +38162,10 @@
     },
     {
      "field": "design_criteria.design_storm_return_periods_years",
-     "status": "unverifiable",
-     "score": 0.94,
+     "status": "exact",
+     "score": 1,
      "page": 32,
-     "missing_numbers": [
-      "10"
-     ]
+     "missing_numbers": []
     },
     {
      "field": "design_criteria.water_quality_volume_method",
@@ -38655,7 +38228,7 @@
   },
   "sioux-falls-sd": {
    "slug": "sioux-falls-sd",
-   "checked_at": "2026-11-18T13:58:49.516Z",
+   "checked_at": "2026-11-18T14:46:49.740Z",
    "corpus_pages": 218,
    "text_sources": 2,
    "status": "passed",
@@ -38720,7 +38293,7 @@
   },
   "south-bend-in": {
    "slug": "south-bend-in",
-   "checked_at": "2026-11-18T13:58:49.829Z",
+   "checked_at": "2026-11-18T14:46:50.054Z",
    "corpus_pages": 984,
    "text_sources": 2,
    "status": "warnings",
@@ -38807,17 +38380,12 @@
      "field": "design_criteria.approved_bmp_categories",
      "kind": "no_evidence",
      "detail": "Value shown but no supporting excerpt"
-    },
-    {
-     "field": "design_parameters.wqv_depth_inches",
-     "kind": "value_not_in_excerpt",
-     "detail": "1 is not stated in its excerpt (derived or misread?)"
     }
    ]
   },
   "south-carolina-manual": {
    "slug": "south-carolina-manual",
-   "checked_at": "2026-11-18T13:58:49.873Z",
+   "checked_at": "2026-11-18T14:46:50.116Z",
    "corpus_pages": 200,
    "text_sources": 2,
    "status": "warnings",
@@ -38919,7 +38487,7 @@
   },
   "south-salt-lake-ut": {
    "slug": "south-salt-lake-ut",
-   "checked_at": "2026-11-18T13:58:49.881Z",
+   "checked_at": "2026-11-18T14:46:50.121Z",
    "corpus_pages": 30,
    "text_sources": 2,
    "status": "passed",
@@ -39047,7 +38615,7 @@
   },
   "spokane-wa": {
    "slug": "spokane-wa",
-   "checked_at": "2026-11-18T13:58:49.990Z",
+   "checked_at": "2026-11-18T14:46:50.239Z",
    "corpus_pages": 314,
    "text_sources": 2,
    "status": "passed",
@@ -39196,7 +38764,7 @@
   },
   "springfield-il": {
    "slug": "springfield-il",
-   "checked_at": "2026-11-18T13:58:50.020Z",
+   "checked_at": "2026-11-18T14:46:50.270Z",
    "corpus_pages": 70,
    "text_sources": 2,
    "status": "warnings",
@@ -39300,7 +38868,7 @@
   },
   "springfield-ma": {
    "slug": "springfield-ma",
-   "checked_at": "2026-11-18T13:58:50.449Z",
+   "checked_at": "2026-11-18T14:46:50.731Z",
    "corpus_pages": 860,
    "text_sources": 2,
    "status": "passed",
@@ -39421,7 +38989,7 @@
   },
   "springfield-mo": {
    "slug": "springfield-mo",
-   "checked_at": "2026-11-18T13:58:50.620Z",
+   "checked_at": "2026-11-18T14:46:50.909Z",
    "corpus_pages": 390,
    "text_sources": 2,
    "status": "warnings",
@@ -39597,17 +39165,12 @@
      "field": "design_criteria.approved_bmp_categories",
      "kind": "no_evidence",
      "detail": "Value shown but no supporting excerpt"
-    },
-    {
-     "field": "design_parameters.shwt_separation_inches",
-     "kind": "value_not_in_excerpt",
-     "detail": "24 is not stated in its excerpt (derived or misread?)"
     }
    ]
   },
   "st-louis-mo": {
    "slug": "st-louis-mo",
-   "checked_at": "2026-11-18T13:58:50.628Z",
+   "checked_at": "2026-11-18T14:46:50.917Z",
    "corpus_pages": 33,
    "text_sources": 2,
    "status": "warnings",
@@ -39711,7 +39274,7 @@
   },
   "stamford-ct": {
    "slug": "stamford-ct",
-   "checked_at": "2026-11-18T13:58:50.880Z",
+   "checked_at": "2026-11-18T14:46:51.171Z",
    "corpus_pages": 564,
    "text_sources": 2,
    "status": "passed",
@@ -39853,7 +39416,7 @@
   },
   "stockton-ca": {
    "slug": "stockton-ca",
-   "checked_at": "2026-11-18T13:58:50.981Z",
+   "checked_at": "2026-11-18T14:46:51.314Z",
    "corpus_pages": 297,
    "text_sources": 2,
    "status": "passed",
@@ -39981,7 +39544,7 @@
   },
   "syracuse-ny": {
    "slug": "syracuse-ny",
-   "checked_at": "2026-11-18T13:58:51.248Z",
+   "checked_at": "2026-11-18T14:46:51.598Z",
    "corpus_pages": 522,
    "text_sources": 2,
    "status": "passed",
@@ -40123,7 +39686,7 @@
   },
   "tacoma-wa": {
    "slug": "tacoma-wa",
-   "checked_at": "2026-11-18T13:58:51.706Z",
+   "checked_at": "2026-11-18T14:46:52.074Z",
    "corpus_pages": 945,
    "text_sources": 2,
    "status": "warnings",
@@ -40245,17 +39808,12 @@
      "field": "design_criteria.approved_bmp_categories",
      "kind": "no_evidence",
      "detail": "Value shown but no supporting excerpt"
-    },
-    {
-     "field": "design_parameters.shwt_separation_inches",
-     "kind": "value_not_in_excerpt",
-     "detail": "12 is not stated in its excerpt (derived or misread?)"
     }
    ]
   },
   "tahoe-trpa-bmp": {
    "slug": "tahoe-trpa-bmp",
-   "checked_at": "2026-11-18T13:58:52.001Z",
+   "checked_at": "2026-11-18T14:46:52.407Z",
    "corpus_pages": 736,
    "text_sources": 2,
    "status": "passed",
@@ -40397,10 +39955,10 @@
   },
   "tallahassee-fl": {
    "slug": "tallahassee-fl",
-   "checked_at": "2026-11-18T13:58:52.057Z",
+   "checked_at": "2026-11-18T14:46:52.462Z",
    "corpus_pages": 100,
    "text_sources": 2,
-   "status": "warnings",
+   "status": "passed",
    "counts": {
     "exact": 13,
     "fuzzy": 0,
@@ -40500,20 +40058,14 @@
      "missing_numbers": []
     }
    ],
-   "warnings": [
-    {
-     "field": "design_parameters.shwt_separation_inches",
-     "kind": "value_not_in_excerpt",
-     "detail": "24 is not stated in its excerpt (derived or misread?)"
-    }
-   ]
+   "warnings": []
   },
   "tampa-fl": {
    "slug": "tampa-fl",
-   "checked_at": "2026-11-18T13:58:52.085Z",
+   "checked_at": "2026-11-18T14:46:52.501Z",
    "corpus_pages": 87,
    "text_sources": 2,
-   "status": "warnings",
+   "status": "passed",
    "counts": {
     "exact": 31,
     "fuzzy": 0,
@@ -40739,17 +40291,11 @@
      "missing_numbers": []
     }
    ],
-   "warnings": [
-    {
-     "field": "design_parameters.shwt_separation_inches",
-     "kind": "value_not_in_excerpt",
-     "detail": "12 is not stated in its excerpt (derived or misread?)"
-    }
-   ]
+   "warnings": []
   },
   "tarrant-county-tx": {
    "slug": "tarrant-county-tx",
-   "checked_at": "2026-11-18T13:58:52.217Z",
+   "checked_at": "2026-11-18T14:46:52.645Z",
    "corpus_pages": 287,
    "text_sources": 2,
    "status": "passed",
@@ -40898,7 +40444,7 @@
   },
   "tn-state": {
    "slug": "tn-state",
-   "checked_at": "2026-11-18T13:58:52.424Z",
+   "checked_at": "2026-11-18T14:46:52.912Z",
    "corpus_pages": 369,
    "text_sources": 2,
    "status": "warnings",
@@ -41088,7 +40634,7 @@
   },
   "tn-tdot-drainage": {
    "slug": "tn-tdot-drainage",
-   "checked_at": "2026-11-18T13:58:52.479Z",
+   "checked_at": "2026-11-18T14:46:52.984Z",
    "corpus_pages": 149,
    "text_sources": 2,
    "status": "passed",
@@ -41125,14 +40671,14 @@
   },
   "toledo-oh": {
    "slug": "toledo-oh",
-   "checked_at": "2026-11-18T13:58:52.661Z",
+   "checked_at": "2026-11-18T14:46:53.201Z",
    "corpus_pages": 400,
    "text_sources": 2,
    "status": "warnings",
    "counts": {
-    "exact": 10,
+    "exact": 11,
     "fuzzy": 1,
-    "unverifiable": 1,
+    "unverifiable": 0,
     "fail": 0
    },
    "excerpts": [
@@ -41187,13 +40733,10 @@
     },
     {
      "field": "design_parameters.design_infiltration_rate_in_per_hr",
-     "status": "unverifiable",
-     "score": 0.87,
+     "status": "exact",
+     "score": 1,
      "page": 50,
-     "missing_numbers": [
-      "0.52",
-      "2.5"
-     ]
+     "missing_numbers": []
     },
     {
      "field": "design_parameters.permanent_pool_depth_inches",
@@ -41234,7 +40777,7 @@
   },
   "topeka-ks": {
    "slug": "topeka-ks",
-   "checked_at": "2026-11-18T13:58:52.738Z",
+   "checked_at": "2026-11-18T14:46:53.255Z",
    "corpus_pages": 123,
    "text_sources": 2,
    "status": "warnings",
@@ -41307,17 +40850,12 @@
      "field": "design_criteria.peak_flow_calculation_method",
      "kind": "no_evidence",
      "detail": "Value shown but no supporting excerpt"
-    },
-    {
-     "field": "design_parameters.permanent_pool_depth_inches",
-     "kind": "value_not_in_excerpt",
-     "detail": "48 is not stated in its excerpt (derived or misread?)"
     }
    ]
   },
   "trenton-nj": {
    "slug": "trenton-nj",
-   "checked_at": "2026-11-18T13:58:52.793Z",
+   "checked_at": "2026-11-18T14:46:53.304Z",
    "corpus_pages": 100,
    "text_sources": 2,
    "status": "warnings",
@@ -41416,10 +40954,10 @@
   },
   "tucson-az": {
    "slug": "tucson-az",
-   "checked_at": "2026-11-18T13:58:53.028Z",
+   "checked_at": "2026-11-18T14:46:53.557Z",
    "corpus_pages": 432,
    "text_sources": 2,
-   "status": "warnings",
+   "status": "passed",
    "counts": {
     "exact": 23,
     "fuzzy": 1,
@@ -41491,7 +41029,8 @@
      "missing_numbers": [
       "10",
       "100"
-     ]
+     ],
+     "visual_check": "2026-11-18"
     },
     {
      "field": "design_criteria.design_storm_return_periods_years",
@@ -41500,7 +41039,8 @@
      "page": 66,
      "missing_numbers": [
       "100"
-     ]
+     ],
+     "visual_check": "2026-11-18"
     },
     {
      "field": "design_criteria.water_quality_volume_method",
@@ -41516,7 +41056,8 @@
      "page": 5,
      "missing_numbers": [
       "100"
-     ]
+     ],
+     "visual_check": "2026-11-18"
     },
     {
      "field": "design_criteria.peak_flow_calculation_method",
@@ -41539,7 +41080,8 @@
      "page": 76,
      "missing_numbers": [
       "1"
-     ]
+     ],
+     "visual_check": "2026-11-18"
     },
     {
      "field": "design_criteria.peak_flow_calculation_method",
@@ -41555,7 +41097,8 @@
      "page": 8,
      "missing_numbers": [
       "1"
-     ]
+     ],
+     "visual_check": "2026-11-18"
     },
     {
      "field": "design_criteria.approved_bmp_categories",
@@ -41646,7 +41189,7 @@
   },
   "tucson-az-detention": {
    "slug": "tucson-az-detention",
-   "checked_at": "2026-11-18T13:58:52.842Z",
+   "checked_at": "2026-11-18T14:46:53.362Z",
    "corpus_pages": 119,
    "text_sources": 2,
    "status": "passed",
@@ -41837,7 +41380,7 @@
   },
   "tulsa-ok": {
    "slug": "tulsa-ok",
-   "checked_at": "2026-11-18T13:58:53.123Z",
+   "checked_at": "2026-11-18T14:46:53.659Z",
    "corpus_pages": 222,
    "text_sources": 2,
    "status": "warnings",
@@ -41957,7 +41500,7 @@
   },
   "tx-edwards-rg348": {
    "slug": "tx-edwards-rg348",
-   "checked_at": "2026-11-18T13:58:53.293Z",
+   "checked_at": "2026-11-18T14:46:53.820Z",
    "corpus_pages": 415,
    "text_sources": 2,
    "status": "passed",
@@ -42113,7 +41656,7 @@
   },
   "tx-txdot-hydraulic": {
    "slug": "tx-txdot-hydraulic",
-   "checked_at": "2026-11-18T13:58:53.565Z",
+   "checked_at": "2026-11-18T14:46:54.088Z",
    "corpus_pages": 601,
    "text_sources": 2,
    "status": "passed",
@@ -42192,7 +41735,7 @@
   },
   "ut-udot-drainage": {
    "slug": "ut-udot-drainage",
-   "checked_at": "2026-11-18T13:58:53.584Z",
+   "checked_at": "2026-11-18T14:46:54.104Z",
    "corpus_pages": 70,
    "text_sources": 2,
    "status": "passed",
@@ -42285,7 +41828,7 @@
   },
   "va-state": {
    "slug": "va-state",
-   "checked_at": "2026-11-18T13:58:53.618Z",
+   "checked_at": "2026-11-18T14:46:54.132Z",
    "corpus_pages": 66,
    "text_sources": 2,
    "status": "passed",
@@ -42420,7 +41963,7 @@
   },
   "va-vdot-drainage": {
    "slug": "va-vdot-drainage",
-   "checked_at": "2026-11-18T13:58:53.686Z",
+   "checked_at": "2026-11-18T14:46:54.205Z",
    "corpus_pages": 169,
    "text_sources": 2,
    "status": "passed",
@@ -42548,12 +42091,12 @@
   },
   "vancouver-wa": {
    "slug": "vancouver-wa",
-   "checked_at": "2026-11-18T13:58:53.772Z",
+   "checked_at": "2026-11-18T14:46:54.264Z",
    "corpus_pages": 183,
    "text_sources": 2,
-   "status": "warnings",
+   "status": "passed",
    "counts": {
-    "exact": 19,
+    "exact": 20,
     "fuzzy": 1,
     "unverifiable": 0,
     "fail": 0
@@ -42698,19 +42241,20 @@
      "score": 1,
      "page": 20,
      "missing_numbers": []
-    }
-   ],
-   "warnings": [
+    },
     {
      "field": "design_criteria.design_storm_return_periods_years",
-     "kind": "value_not_in_excerpt",
-     "detail": "Not mentioned in excerpts: 25-yr"
+     "status": "exact",
+     "score": 1,
+     "page": 26,
+     "missing_numbers": []
     }
-   ]
+   ],
+   "warnings": []
   },
   "vt-state": {
    "slug": "vt-state",
-   "checked_at": "2026-11-18T13:58:53.885Z",
+   "checked_at": "2026-11-18T14:46:54.355Z",
    "corpus_pages": 220,
    "text_sources": 2,
    "status": "warnings",
@@ -42930,17 +42474,12 @@
      "field": "design_criteria.approved_bmp_categories",
      "kind": "no_evidence",
      "detail": "Value shown but no supporting excerpt"
-    },
-    {
-     "field": "design_parameters.swale_bottom_width_inches",
-     "kind": "value_not_in_excerpt",
-     "detail": "24 is not stated in its excerpt (derived or misread?)"
     }
    ]
   },
   "wa-state-western": {
    "slug": "wa-state-western",
-   "checked_at": "2026-11-18T13:58:54.561Z",
+   "checked_at": "2026-11-18T14:46:54.994Z",
    "corpus_pages": 1350,
    "text_sources": 2,
    "status": "passed",
@@ -43124,7 +42663,7 @@
   },
   "wa-wsdot-hr": {
    "slug": "wa-wsdot-hr",
-   "checked_at": "2026-11-18T13:58:54.577Z",
+   "checked_at": "2026-11-18T14:46:55.012Z",
    "corpus_pages": 42,
    "text_sources": 2,
    "status": "passed",
@@ -43217,7 +42756,7 @@
   },
   "waco-tx": {
    "slug": "waco-tx",
-   "checked_at": "2026-11-18T13:58:54.618Z",
+   "checked_at": "2026-11-18T14:46:55.056Z",
    "corpus_pages": 127,
    "text_sources": 2,
    "status": "passed",
@@ -43310,7 +42849,7 @@
   },
   "wayne-county-mi": {
    "slug": "wayne-county-mi",
-   "checked_at": "2026-11-18T13:58:54.711Z",
+   "checked_at": "2026-11-18T14:46:55.151Z",
    "corpus_pages": 252,
    "text_sources": 2,
    "status": "passed",
@@ -43452,7 +42991,7 @@
   },
   "west-palm-beach-fl": {
    "slug": "west-palm-beach-fl",
-   "checked_at": "2026-11-18T13:58:54.734Z",
+   "checked_at": "2026-11-18T14:46:55.171Z",
    "corpus_pages": 59,
    "text_sources": 2,
    "status": "warnings",
@@ -43544,17 +43083,12 @@
      "field": "design_criteria.approved_bmp_categories",
      "kind": "no_evidence",
      "detail": "Value shown but no supporting excerpt"
-    },
-    {
-     "field": "design_parameters.wqv_depth_inches",
-     "kind": "value_not_in_excerpt",
-     "detail": "1 is not stated in its excerpt (derived or misread?)"
     }
    ]
   },
   "west-virginia-manual": {
    "slug": "west-virginia-manual",
-   "checked_at": "2026-11-18T13:58:54.938Z",
+   "checked_at": "2026-11-18T14:46:55.370Z",
    "corpus_pages": 502,
    "text_sources": 2,
    "status": "passed",
@@ -43773,7 +43307,7 @@
   },
   "wi-dnr-1001": {
    "slug": "wi-dnr-1001",
-   "checked_at": "2026-11-18T13:58:54.946Z",
+   "checked_at": "2026-11-18T14:46:55.377Z",
    "corpus_pages": 19,
    "text_sources": 2,
    "status": "passed",
@@ -43901,7 +43435,7 @@
   },
   "wi-wisdot-drainage": {
    "slug": "wi-wisdot-drainage",
-   "checked_at": "2026-11-18T13:58:54.957Z",
+   "checked_at": "2026-11-18T14:46:55.389Z",
    "corpus_pages": 14,
    "text_sources": 2,
    "status": "warnings",
@@ -43979,7 +43513,7 @@
   },
   "wichita-ks-vol2": {
    "slug": "wichita-ks-vol2",
-   "checked_at": "2026-11-18T13:58:54.960Z",
+   "checked_at": "2026-11-18T14:46:55.399Z",
    "corpus_pages": 10,
    "text_sources": 2,
    "status": "passed",
@@ -44135,7 +43669,7 @@
   },
   "wilmington-de": {
    "slug": "wilmington-de",
-   "checked_at": "2026-11-18T13:58:54.969Z",
+   "checked_at": "2026-11-18T14:46:55.421Z",
    "corpus_pages": 22,
    "text_sources": 2,
    "status": "warnings",
@@ -44204,17 +43738,12 @@
      "field": "design_criteria.approved_bmp_categories",
      "kind": "no_evidence",
      "detail": "Value shown but no supporting excerpt"
-    },
-    {
-     "field": "design_parameters.shwt_separation_inches",
-     "kind": "value_not_in_excerpt",
-     "detail": "24 is not stated in its excerpt (derived or misread?)"
     }
    ]
   },
   "wilmington-nc": {
    "slug": "wilmington-nc",
-   "checked_at": "2026-11-18T13:58:54.972Z",
+   "checked_at": "2026-11-18T14:46:55.425Z",
    "corpus_pages": 7,
    "text_sources": 2,
    "status": "warnings",
@@ -44294,17 +43823,12 @@
      "field": "design_criteria.peak_flow_calculation_method",
      "kind": "no_evidence",
      "detail": "Value shown but no supporting excerpt"
-    },
-    {
-     "field": "design_parameters.wqv_depth_inches",
-     "kind": "value_not_in_excerpt",
-     "detail": "1 is not stated in its excerpt (derived or misread?)"
     }
    ]
   },
   "winston-salem-nc": {
    "slug": "winston-salem-nc",
-   "checked_at": "2026-11-18T13:58:55.013Z",
+   "checked_at": "2026-11-18T14:46:55.472Z",
    "corpus_pages": 149,
    "text_sources": 2,
    "status": "warnings",
@@ -44410,7 +43934,7 @@
   },
   "worcester-ma": {
    "slug": "worcester-ma",
-   "checked_at": "2026-11-18T13:58:55.648Z",
+   "checked_at": "2026-11-18T14:46:55.909Z",
    "corpus_pages": 860,
    "text_sources": 2,
    "status": "passed",
@@ -44552,7 +44076,7 @@
   },
   "wy-wydot-field": {
    "slug": "wy-wydot-field",
-   "checked_at": "2026-11-18T13:58:55.654Z",
+   "checked_at": "2026-11-18T14:46:55.914Z",
    "corpus_pages": 58,
    "text_sources": 2,
    "status": "passed",
@@ -44617,7 +44141,7 @@
   },
   "yonkers-ny": {
    "slug": "yonkers-ny",
-   "checked_at": "2026-11-18T13:58:55.863Z",
+   "checked_at": "2026-11-18T14:46:56.159Z",
    "corpus_pages": 522,
    "text_sources": 2,
    "status": "passed",
@@ -44794,14 +44318,14 @@
   },
   "youngstown-oh": {
    "slug": "youngstown-oh",
-   "checked_at": "2026-11-18T13:58:56.054Z",
+   "checked_at": "2026-11-18T14:46:56.341Z",
    "corpus_pages": 400,
    "text_sources": 2,
    "status": "warnings",
    "counts": {
-    "exact": 11,
+    "exact": 13,
     "fuzzy": 1,
-    "unverifiable": 2,
+    "unverifiable": 0,
     "fail": 0
    },
    "excerpts": [
@@ -44842,21 +44366,17 @@
     },
     {
      "field": "design_parameters.shwt_separation_inches",
-     "status": "unverifiable",
-     "score": 0.93,
+     "status": "exact",
+     "score": 1,
      "page": 77,
-     "missing_numbers": [
-      "4"
-     ]
+     "missing_numbers": []
     },
     {
      "field": "design_parameters.shwt_separation_inches",
-     "status": "unverifiable",
-     "score": 0.94,
+     "status": "exact",
+     "score": 1,
      "page": 51,
-     "missing_numbers": [
-      "2"
-     ]
+     "missing_numbers": []
     },
     {
      "field": "design_parameters.bioretention_media_depth_min_inches",
@@ -44918,7 +44438,7 @@
   },
   "yuma-az": {
    "slug": "yuma-az",
-   "checked_at": "2026-11-18T13:58:56.170Z",
+   "checked_at": "2026-11-18T14:46:56.445Z",
    "corpus_pages": 198,
    "text_sources": 2,
    "status": "warnings",
@@ -44988,9 +44508,9 @@
  },
  "national": {
   "counts": {
-   "exact": 1543,
+   "exact": 1565,
    "fuzzy": 445,
-   "unverifiable": 17,
+   "unverifiable": 6,
    "fail": 0,
    "unchecked": 0
   },

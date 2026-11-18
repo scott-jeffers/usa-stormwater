@@ -71,7 +71,7 @@
     },
     {
       "field": "design_parameters.design_infiltration_rate_in_per_hr",
-      "excerpt": "Soil infiltration rates within the trench must be between 0.52 and 2.5 inches per hour",
+      "excerpt": "Soil infiltration rates within the trench must be between 0.52 and 2.4 inches per hour",
       "page_or_section": "CHAPTER 2 Infiltration Trench, page 50"
     },
     {
@@ -98,7 +98,7 @@
   "extraction_quality": {
     "confidence": "medium",
     "needs_human_review": true,
-    "review_notes": "Statewide Ohio manual used as MS4 post-construction reference when city PDF unavailable/empty. Citation QA 2026-11-18: 0 quote(s) replaced with verbatim source text; 3 removed because no supporting text was found (jurisdiction_name, ed_drain_time_hours, shwt_separation_inches).",
+    "review_notes": "Statewide Ohio manual used as MS4 post-construction reference when city PDF unavailable/empty. Citation QA 2026-11-18: 0 quote(s) replaced with verbatim source text; 3 removed because no supporting text was found (jurisdiction_name, ed_drain_time_hours, shwt_separation_inches). Separation and infiltration-rate digits on PDF pp. 50, 51 and 77 were checked against the page images on 2026-11-18 (the text layer drops them); earlier quotes had 4 ft and 2.5 in/hr, which the manual does not say.",
     "fields_not_found": []
   },
   "source": {

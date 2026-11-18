@@ -49,7 +49,7 @@
     },
     {
       "field": "design_criteria.design_storm_return_periods_years",
-      "excerpt": "Storm Sewers and Inlets ... 10-yr; Main Drainage Channels 25-yr; Detention or Retention Features 25yr; 100-year frequency storm ... SFHA",
+      "excerpt": "Main Drainage Channels 25-yr ... Storm Sewers and Inlets, Cross drains, Side drains 10-yr ... Detention or Retention Features 25yr ... Use a 100-year frequency storm to determine the hydraulic gradient in special flood hazard areas.",
       "page_or_section": "Table 2-1"
     },
     {

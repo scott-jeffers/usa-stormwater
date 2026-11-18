@@ -18,7 +18,7 @@
  * Every added quote must pass the strict check. Values are never changed.
  * Writes data/qa/FIND-QUOTES.md. Run qa:evidence afterwards.
  */
-import { readFileSync, writeFileSync } from "node:fs";
+import { appendFileSync, existsSync, readFileSync, writeFileSync } from "node:fs";
 import path from "node:path";
 import {
   SourceIndex,
@@ -290,7 +290,12 @@ ${found.map((f) => `- \`${f.slug}\` ${f.field} (PDF p. ${f.page}): ${f.text}`).j
 
 ${missed.map((m) => `- \`${m.slug}\` ${m.field}`).join("\n")}
 `;
-  writeFileSync(path.resolve(process.cwd(), `data/qa/FIND-QUOTES${dryRun ? "-dry-run" : ""}.md`), md);
+  const logPath = path.resolve(process.cwd(), `data/qa/FIND-QUOTES${dryRun ? "-dry-run" : ""}.md`);
+  if (!dryRun && existsSync(logPath)) {
+    // keep the history of what was added: append this run
+    const added = found.map((f) => `- \`${f.slug}\` ${f.field} (PDF p. ${f.page}): ${f.text}`).join("\n");
+    appendFileSync(logPath, `\n## Run ${new Date().toISOString()}: ${found.length} added, ${missed.length} still without a quote\n\n${added || "_none_"}\n`);
+  } else writeFileSync(logPath, md);
   console.log(`added=${found.length} missed=${missed.length}${dryRun ? " (dry run)" : ""}`);
 }
 
