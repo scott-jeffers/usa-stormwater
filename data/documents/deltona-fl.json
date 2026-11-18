@@ -3,102 +3,123 @@
     "jurisdiction_name": "City of Deltona",
     "jurisdiction_level": "municipality",
     "state_code": "FL",
-    "document_title": "Jacksonville Land Development Procedures Manual Volume 2 (SJRWMD-region municipal pattern)",
-    "version_or_edition": "Effective January 2026",
-    "adoption_or_effective_date": "2026-01-01",
+    "document_title": "Environmental Resource Permit Applicant's Handbook Volume II (St. Johns River Water Management District) (SJRWMD rules applied in Deltona)",
+    "version_or_edition": "June 28, 2024",
+    "adoption_or_effective_date": null,
     "last_revised_date": null,
-    "relationship_to_state_manual": "unknown"
+    "relationship_to_state_manual": "adopts_state_manual_directly"
   },
   "design_criteria": {
     "design_storm_return_periods_years": [
-      3,
       5,
       10,
       25,
-      50,
       100
     ],
-    "water_quality_volume_method": "SJRWMD ERP AH Vol II PDF not publicly fetchable (403). Using Jacksonville LDPM Vol 2 wet detention / SMF pattern as east-central Florida municipal reference: wet detention and stormwater management facilities per Table 3.7-1; MSMP 2070 rainfall depths for multi-return-period 24-hour storms. Prefer SJRWMD AH Vol II when a durable PDF is available.",
+    "water_quality_volume_method": "Minimum state water quality treatment and performance standards are those in statewide ERP Applicant's Handbook Volume I; SJRWMD Volume II provides District-specific design/performance standards for water quality and quantity, erosion/sediment control, and BMP criteria within SJRWMD geographic limits (Part IV Stormwater Quality).",
     "peak_flow_calculation_method": [
-      "Rational Method and SCS methods as applicable",
-      "Stormwater management facility storage contexts",
-      "Design rainfall depths from MSMP 2070"
+      "Rational Method",
+      "NRCS / SCS Curve Number (TR-55)",
+      "Modified Rational Method"
     ],
     "required_hydrologic_hydraulic_software": [],
     "approved_bmp_categories": [
-      "Wet detention",
-      "Stormwater management facilities (SMFs)",
-      "Other LDPM Vol 2 BMPs"
+      "Wet Pond",
+      "Vegetated Swale",
+      "Detention Basin",
+      "Retention Basin"
     ]
   },
   "evidence": [
     {
-      "field": "design_parameters.max_drawdown_hours",
-      "excerpt": "Standing water must be recovered within 72 hours.",
-      "page_or_section": "Section 4.3 Grassed Conveyance Swales (Recovery)"
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "ting centerline road grade is above the 10-year flood elevation, and provided that no increase in upstream flooding is caused.",
+      "page_or_section": null
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "e in 40C-4.091(1)(e)). (b) The modified rational method (see Appendix C of this Volume, incorporated by reference in 40C-4.091(1",
+      "page_or_section": null
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "Design and performance standards and criteria for water quality and quantity ... Part IV - Stormwater Quality",
+      "page_or_section": "Introduction / Part IV"
     },
     {
       "field": "design_parameters.max_drawdown_hours",
-      "excerpt": "All standing water must be recovered through surface discharge or percolation in less than 72 hours under SHWL conditions",
-      "page_or_section": "Section 4.3 Recovery Requirements"
+      "excerpt": "The retention system must provide the capacity for the appropriate treatment volume of stormwater specified in section 5.2 within 72 hours following a storm event",
+      "page_or_section": "5.3 Recovery Time, page 40"
     },
     {
       "field": "design_parameters.max_drawdown_hours",
-      "excerpt": "Surface ponding area must be recovered within 72 hours.",
-      "page_or_section": "Section 4.4 Shallow Bioretention (Recovery)"
+      "excerpt": "The system should be designed to provide for the drawdown of the appropriate treatment volume specified in section 6.2 within 72 hours following a storm event.",
+      "page_or_section": "6.3 Recovery Time, page 42"
+    },
+    {
+      "field": "design_parameters.max_drawdown_hours",
+      "excerpt": "Swale systems must provide the capacity for the specified treatment volume of stormwater and contain no contiguous areas of standing or flowing water within 72 hours following the storm event",
+      "page_or_section": "9.3 Recovery Time, page 59"
     },
     {
       "field": "design_parameters.shwt_separation_inches",
-      "excerpt": "the SHWL should be at least 6 inches below the bottom of the grassed conveyance swale.",
-      "page_or_section": "Section 4.3 Implementation Considerations"
+      "excerpt": "The exfiltration trench system must be designed so that the invert elevation of the trench is at least two feet above the seasonal high ground water table elevation",
+      "page_or_section": "7.8 Ground Water Table, page 51"
     },
     {
-      "field": "design_parameters.shwt_separation_inches",
-      "excerpt": "SHWL should be a minimum of 6 inches below the bottom of the planting media or nutrient- sorption layer.",
-      "page_or_section": "Section 4.4 Shallow Bioretention"
+      "field": "design_parameters.practice_mentions",
+      "excerpt": "Examples of retention systems include: ... Pervious concrete with continuous curb",
+      "page_or_section": "5.1 Description, page 38"
     },
     {
-      "field": "design_parameters.shwt_separation_inches",
-      "excerpt": "SHWL – Must be at least 0.5 foot below the bottom of the surface ponding area.",
-      "page_or_section": "Section 4.4.1 Physical Constraints"
+      "field": "design_parameters.practice_mentions",
+      "excerpt": "7.0 Exfiltration Trench Design and Performance Criteria",
+      "page_or_section": "Part V, page 47"
     },
     {
-      "field": "design_parameters.swale_bottom_width_inches",
-      "excerpt": "Recommended bottom width of 2 to 8 feet.",
-      "page_or_section": "Section 4.3 Design Criteria"
+      "field": "design_parameters.practice_mentions",
+      "excerpt": "9.0 Swale Systems Design and Performance Criteria",
+      "page_or_section": "Part V, page 57"
     },
     {
-      "field": "design_parameters.swale_bottom_width_inches",
-      "excerpt": "the swale should have an approximately trapezoidal shape with a bottom width of at least 2 feet to allow mowing.",
-      "page_or_section": "Section 4.3 Sizing Requirements"
-    },
-    {
-      "field": "design_parameters.swale_longitudinal_slope_percent",
-      "excerpt": "Longitudinal slope between 0.5 percent and 3 percent.",
-      "page_or_section": "Section 4.3 Design Criteria"
+      "field": "design_parameters.practice_mentions",
+      "excerpt": "8.0 Wet Detention Design and Performance Criteria ... permanently wet ponds",
+      "page_or_section": "8.1 Description, page 52"
     },
     {
       "field": "design_criteria.design_storm_return_periods_years",
-      "excerpt": "SECTION 3.0 DRAINAGE DESIGN GUIDELINES Table 3.3-2 Rainfall Intensity Based on Storm Frequency (24-hr design storm) Storm Frequency 24-hr Design Storm (inches/24-hrs)1 3-yr 6.1 5-yr 7.7 10-yr 8.2 25-yr 10.4 50-yr 12.6 100-yr 15.0 1.",
-      "page_or_section": "PDF p. 79 · found by QA search"
+      "excerpt": "(b) 25-year return period.",
+      "page_or_section": "PDF p. 78 · found by QA search"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "Apopka or its tributaries for the 100-year, 24-hour storm event.",
+      "page_or_section": "PDF p. 96 · found by QA search"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "When conservation storage is at the average dry season design stage, the discharge will be the average 5 year, 30-day low flow.",
+      "page_or_section": "PDF p. 35 · found by QA search"
     }
   ],
   "extraction_quality": {
-    "confidence": "low",
+    "confidence": "medium",
     "needs_human_review": true,
-    "review_notes": "Canonical SJRWMD special_district record: fl-sjrwmd-erp-ah2. Placeholder pending durable SJRWMD AH Vol II or city design-manual PDF. Citation QA 2026-11-18: 0 quote(s) replaced with verbatim source text; 1 removed because no supporting text was found (jurisdiction_name).",
-    "fields_not_found": []
+    "review_notes": "City of Deltona is within the St. Johns River Water Management District; its stormwater permitting follows the SJRWMD ERP Applicant's Handbook Volume II. Values are shared with the district record (fl-sjrwmd-erp-ah2). Replaced a stand-in (Jacksonville's manual) on 2026-11-18.",
+    "fields_not_found": [
+      "design_criteria.required_hydrologic_hydraulic_software"
+    ]
   },
   "source": {
-    "document_url": "https://www.jacksonville.gov/getContentAsset/f2c6099d-cdf0-40da-b6a9-43e4c734282e/135b97c9-84fa-4e82-b956-0fbccec4aa1f/LDPM-Vol2-EFF-2026-01-30-CLEAN-ADA-508.pdf?language=en",
-    "landing_page_url": "https://www.sjrwmd.com/documents/permitting/",
-    "retrieved_at": "2026-08-10T10:42:30.501Z",
-    "original_filename": "deltona-fl.pdf"
+    "document_url": "https://aws.sjrwmd.com/SJRWMD/permitting/SJRWMD_Applicants_Handbook_Volume_II_6-28-24.pdf",
+    "landing_page_url": "https://www.sjrwmd.com/",
+    "retrieved_at": "2026-08-11T18:39:24.874Z",
+    "original_filename": "fl-sjrwmd-erp-ah2.pdf"
   },
   "design_parameters": {
     "wqv_depth_inches": null,
     "max_drawdown_hours": 72,
-    "shwt_separation_inches": 6,
+    "shwt_separation_inches": 24,
     "bioretention_media_depth_min_inches": null,
     "bioretention_ponding_depth_inches": null,
     "permeable_pavement_storage_depth_inches": null,
@@ -107,21 +128,21 @@
     "ed_drain_time_hours": null,
     "length_to_width_ratio": null,
     "wetland_detention_hours": null,
-    "swale_bottom_width_inches": 24,
+    "swale_bottom_width_inches": null,
     "swale_longitudinal_slope_percent": null,
     "green_roof_media_depth_inches": null,
     "green_roof_slope_percent": null,
     "mtd_verification_program": null,
     "practice_mentions": [
-      "bioretention",
-      "green_roof",
+      "infiltration_basin",
+      "infiltration_trench",
       "permeable_pavement",
       "swale",
       "wet_pond"
     ],
-    "enriched_at": "2026-08-13T08:05:36.866Z",
-    "enrich_model": "composer-2.5:run-0e588a06-44ec-4550-8a53-566fcdd81b0b",
-    "enrich_notes": "Corpus is Jacksonville LDPM Vol 2 (Deltona proxy). Swale WQ sizing references SJRWMD 3-year/1-hour storm percolation requirements; wet detention example uses 1-inch and 2.5-inch treatment-volume depths and residence time in days (not hours). Infiltration-dependent designs use half of field-measured rate (swales) or safety factor of 2 (detention basin bottom tests)—no single jurisdiction-wide design infiltration rate.",
+    "enriched_at": "2026-08-13T08:16:47.297Z",
+    "enrich_model": "composer-2.5:run-f201dab4-bdc0-4801-9cec-2ac943bd093d",
+    "enrich_notes": "Treatment volume sizing references ERP Applicant's Handbook Volume I (sections 8.3 and 9.0); no WQv depth in inches in Vol II excerpts. Retention, underdrain, exfiltration trench, and swale share 72-hour treatment-volume recovery under average AMC; optional safety factor example uses 36-hour drawdown. System-wide quantity recovery for detention/retention storage is 14 days (3.2.7); wet detention draws down volume above permanent pool within 14 days. Exfiltration trench invert must be at least 2 ft above seasonal high groundwater (7.8). Swale geometry: top width-to-depth ≥ 6:1 or side slopes ≥ 3:1 (H:V).",
     "enrich_schema_version": 2,
     "fields_not_found": [
       "wqv_depth_inches",
@@ -133,6 +154,7 @@
       "ed_drain_time_hours",
       "length_to_width_ratio",
       "wetland_detention_hours",
+      "swale_bottom_width_inches",
       "swale_longitudinal_slope_percent",
       "green_roof_media_depth_inches",
       "green_roof_slope_percent",

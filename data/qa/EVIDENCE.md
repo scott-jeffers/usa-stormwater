@@ -1,6 +1,6 @@
 # Evidence QA report
 
-Generated: 2026-11-18T13:52:28.821Z by `npm run qa:evidence`
+Generated: 2026-11-18T13:58:56.170Z by `npm run qa:evidence`
 
 Strict check: each excerpt must appear in the source manual (exact, or a close
 in-order match with **every number identical**), and each extracted number must
@@ -10,16 +10,16 @@ be stated in its own excerpt.
 
 | Status | Count |
 |--------|------:|
-| Passed | 162 |
-| Warnings only | 194 |
+| Passed | 164 |
+| Warnings only | 192 |
 | Failed (excerpt not in source) | 0 |
 
-## Excerpts (5325)
+## Excerpts (5350)
 
 | Result | Count | Share |
 |--------|------:|------:|
-| Exact | 4998 | 93.9% |
-| Close match, numbers identical | 310 | 5.8% |
+| Exact | 5013 | 93.7% |
+| Close match, numbers identical | 320 | 6.0% |
 | Can't check: PDF text lost the numbers | 17 | 0.3% |
 | Not found in source / different number | 0 | 0.0% |
 
@@ -27,8 +27,8 @@ be stated in its own excerpt.
 
 | Kind | Count |
 |------|------:|
-| no_evidence | 223 |
-| value_not_in_excerpt | 109 |
+| no_evidence | 210 |
+| value_not_in_excerpt | 113 |
 
 ## National drafts and practice pages
 
@@ -51,19 +51,13 @@ exact: 1543 · fuzzy: 445 · unverifiable: 17 · fail: 0 · unchecked: 0
 | `boca-raton-fl` | 0 | 3 | design_criteria.peak_flow_calculation_method, design_criteria.approved_bmp_categories, design_parameters.wqv_depth_inches |
 | `brownsville-tx` | 0 | 3 | design_criteria.water_quality_volume_method, design_criteria.approved_bmp_categories, design_criteria.design_storm_return_periods_years |
 | `concord-nc` | 0 | 3 | design_criteria.water_quality_volume_method, design_criteria.peak_flow_calculation_method, design_parameters.wqv_depth_inches |
-| `daytona-beach-fl` | 0 | 3 | design_criteria.water_quality_volume_method, design_criteria.peak_flow_calculation_method, design_criteria.approved_bmp_categories |
-| `deltona-fl` | 0 | 3 | design_criteria.water_quality_volume_method, design_criteria.peak_flow_calculation_method, design_criteria.approved_bmp_categories |
 | `gastonia-nc` | 0 | 3 | design_criteria.water_quality_volume_method, design_criteria.peak_flow_calculation_method, design_parameters.wqv_depth_inches |
 | `greensboro-nc` | 0 | 3 | design_criteria.water_quality_volume_method, design_criteria.peak_flow_calculation_method, design_parameters.wqv_depth_inches |
 | `hialeah-fl` | 0 | 3 | design_criteria.peak_flow_calculation_method, design_criteria.approved_bmp_categories, design_parameters.wqv_depth_inches |
 | `lafayette-la` | 0 | 3 | design_criteria.water_quality_volume_method, design_criteria.peak_flow_calculation_method, design_criteria.approved_bmp_categories |
 | `laredo-tx` | 0 | 3 | design_criteria.water_quality_volume_method, design_criteria.approved_bmp_categories, design_criteria.design_storm_return_periods_years |
 | `lincoln-ne` | 0 | 3 | design_criteria.peak_flow_calculation_method, design_criteria.approved_bmp_categories, design_parameters.design_infiltration_rate_in_per_hr |
-| `mcallen-tx` | 0 | 3 | design_criteria.water_quality_volume_method, design_criteria.approved_bmp_categories, design_criteria.design_storm_return_periods_years |
-| `melbourne-fl` | 0 | 3 | design_criteria.water_quality_volume_method, design_criteria.peak_flow_calculation_method, design_criteria.approved_bmp_categories |
 | `missoula-mt` | 0 | 3 | design_criteria.water_quality_volume_method, design_criteria.approved_bmp_categories, design_parameters.shwt_separation_inches |
-| `palm-bay-fl` | 0 | 3 | design_criteria.water_quality_volume_method, design_criteria.peak_flow_calculation_method, design_criteria.approved_bmp_categories |
-| `palm-coast-fl` | 0 | 3 | design_criteria.water_quality_volume_method, design_criteria.peak_flow_calculation_method, design_criteria.approved_bmp_categories |
 | `philadelphia-pa` | 0 | 3 | design_parameters.shwt_separation_inches, design_parameters.bioretention_media_depth_min_inches, design_parameters.bioretention_ponding_depth_inches |
 | `port-st-lucie-fl` | 0 | 3 | design_criteria.peak_flow_calculation_method, design_criteria.approved_bmp_categories, design_parameters.wqv_depth_inches |
 | `rockville-md` | 0 | 3 | design_criteria.approved_bmp_categories, design_parameters.shwt_separation_inches, design_parameters.bioretention_media_depth_min_inches |
@@ -82,6 +76,8 @@ exact: 1543 · fuzzy: 445 · unverifiable: 17 · fail: 0 · unchecked: 0
 | `chattanooga-tn` | 0 | 2 | design_criteria.approved_bmp_categories, design_parameters.green_roof_media_depth_inches |
 | `clarksville-tn` | 0 | 2 | design_criteria.peak_flow_calculation_method, design_criteria.approved_bmp_categories |
 | `davenport-ia` | 0 | 2 | design_criteria.water_quality_volume_method, design_criteria.approved_bmp_categories |
+| `daytona-beach-fl` | 0 | 2 | design_criteria.approved_bmp_categories, design_parameters.shwt_separation_inches |
+| `deltona-fl` | 0 | 2 | design_criteria.approved_bmp_categories, design_parameters.shwt_separation_inches |
 | `dover-de` | 0 | 2 | design_criteria.approved_bmp_categories, design_parameters.shwt_separation_inches |
 | `duluth-mn` | 0 | 2 | design_criteria.water_quality_volume_method, design_criteria.approved_bmp_categories |
 | `durham-nc` | 0 | 2 | design_criteria.peak_flow_calculation_method, design_parameters.shwt_separation_inches |
@@ -98,3 +94,7 @@ exact: 1543 · fuzzy: 445 · unverifiable: 17 · fail: 0 · unchecked: 0
 | `indiana-manual` | 0 | 2 | design_parameters.wqv_depth_inches, design_parameters.bioretention_media_depth_min_inches |
 | `jacksonville-fl` | 0 | 2 | design_criteria.water_quality_volume_method, design_criteria.peak_flow_calculation_method |
 | `lakeland-fl` | 0 | 2 | design_criteria.water_quality_volume_method, design_parameters.shwt_separation_inches |
+| `lancaster-pa-swmf` | 0 | 2 | design_parameters.wqv_depth_inches, design_parameters.length_to_width_ratio |
+| `las-cruces-nm` | 0 | 2 | design_criteria.water_quality_volume_method, design_criteria.approved_bmp_categories |
+| `lawrence-ks` | 0 | 2 | design_criteria.approved_bmp_categories, design_criteria.design_storm_return_periods_years |
+| `ma-massdot-drainage` | 0 | 2 | design_criteria.design_storm_return_periods_years, design_parameters.shwt_separation_inches |

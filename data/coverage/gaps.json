@@ -1,16 +1,16 @@
 {
-  "generatedAt": "2026-11-18T12:09:40.230Z",
+  "generatedAt": "2026-11-18T13:59:10.696Z",
   "summary": {
     "targets": 309,
-    "covered": 280,
-    "coveredOwn": 189,
-    "coveredAdopted": 91,
-    "standIn": 28,
-    "gaps": 29,
+    "covered": 287,
+    "coveredOwn": 191,
+    "coveredAdopted": 96,
+    "standIn": 21,
+    "gaps": 22,
     "byTier": {
       "queue": 0,
-      "p1": 21,
-      "p2": 8,
+      "p1": 18,
+      "p2": 4,
       "p3": 0
     },
     "queueGaps": 6
@@ -132,20 +132,6 @@
       "manifestId": null
     },
     {
-      "jurisdiction": "McAllen",
-      "state_code": "TX",
-      "tier": "p1",
-      "reason": "stand_in_only",
-      "sources": [
-        "ms4_phase1"
-      ],
-      "suggestedSlug": "mcallen-tx",
-      "notes": "Only a stand-in (another jurisdiction's manual): mcallen-tx",
-      "population": 142210,
-      "rank": null,
-      "manifestId": null
-    },
-    {
       "jurisdiction": "Waco",
       "state_code": "TX",
       "tier": "p1",
@@ -198,20 +184,6 @@
       "suggestedSlug": "college-station-tx",
       "notes": "Only a stand-in (another jurisdiction's manual): college-station-tx",
       "population": 120511,
-      "rank": null,
-      "manifestId": null
-    },
-    {
-      "jurisdiction": "Palm Bay",
-      "state_code": "FL",
-      "tier": "p1",
-      "reason": "stand_in_only",
-      "sources": [
-        "ms4_phase1"
-      ],
-      "suggestedSlug": "palm-bay-fl",
-      "notes": "Only a stand-in (another jurisdiction's manual): palm-bay-fl",
-      "population": 119760,
       "rank": null,
       "manifestId": null
     },
@@ -289,21 +261,6 @@
       "manifestId": null
     },
     {
-      "jurisdiction": "Frankfort",
-      "state_code": "KY",
-      "tier": "p1",
-      "reason": "stand_in_only",
-      "sources": [
-        "capital",
-        "ms4_phase2"
-      ],
-      "suggestedSlug": "frankfort-ky",
-      "notes": "Only a stand-in (another jurisdiction's manual): frankfort-ky",
-      "population": null,
-      "rank": null,
-      "manifestId": null
-    },
-    {
       "jurisdiction": "Pierre",
       "state_code": "SD",
       "tier": "p1",
@@ -315,48 +272,6 @@
       "suggestedSlug": "pierre-sd",
       "notes": "Only a stand-in (another jurisdiction's manual): pierre-sd",
       "population": null,
-      "rank": null,
-      "manifestId": null
-    },
-    {
-      "jurisdiction": "Deltona",
-      "state_code": "FL",
-      "tier": "p2",
-      "reason": "stand_in_only",
-      "sources": [
-        "ms4_phase2"
-      ],
-      "suggestedSlug": "deltona-fl",
-      "notes": "Only a stand-in (another jurisdiction's manual): deltona-fl",
-      "population": 93692,
-      "rank": null,
-      "manifestId": null
-    },
-    {
-      "jurisdiction": "Palm Coast",
-      "state_code": "FL",
-      "tier": "p2",
-      "reason": "stand_in_only",
-      "sources": [
-        "ms4_phase2"
-      ],
-      "suggestedSlug": "palm-coast-fl",
-      "notes": "Only a stand-in (another jurisdiction's manual): palm-coast-fl",
-      "population": 89258,
-      "rank": null,
-      "manifestId": null
-    },
-    {
-      "jurisdiction": "Melbourne",
-      "state_code": "FL",
-      "tier": "p2",
-      "reason": "stand_in_only",
-      "sources": [
-        "ms4_phase2"
-      ],
-      "suggestedSlug": "melbourne-fl",
-      "notes": "Only a stand-in (another jurisdiction's manual): melbourne-fl",
-      "population": 84678,
       "rank": null,
       "manifestId": null
     },
@@ -385,20 +300,6 @@
       "suggestedSlug": "flint-mi",
       "notes": "Only a stand-in (another jurisdiction's manual): flint-mi",
       "population": 81252,
-      "rank": null,
-      "manifestId": null
-    },
-    {
-      "jurisdiction": "Daytona Beach",
-      "state_code": "FL",
-      "tier": "p2",
-      "reason": "stand_in_only",
-      "sources": [
-        "ms4_phase2"
-      ],
-      "suggestedSlug": "daytona-beach-fl",
-      "notes": "Only a stand-in (another jurisdiction's manual): daytona-beach-fl",
-      "population": 72647,
       "rank": null,
       "manifestId": null
     },

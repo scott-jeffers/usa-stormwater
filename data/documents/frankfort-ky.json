@@ -3,156 +3,126 @@
     "jurisdiction_name": "City of Frankfort",
     "jurisdiction_level": "municipality",
     "state_code": "KY",
-    "document_title": "LFUCG Stormwater Manual (KY urban post-construction reference for capital)",
-    "version_or_edition": "2026 (effective May 1, 2026)",
-    "adoption_or_effective_date": "2026-05-01",
-    "last_revised_date": "2026-05-01",
-    "relationship_to_state_manual": "unknown"
+    "document_title": "Stormwater Procedures Manual — City of Frankfort and Franklin County, Kentucky (Chapter 2 Stormwater Design Standards)",
+    "version_or_edition": "December 2017",
+    "adoption_or_effective_date": null,
+    "last_revised_date": "2017-12",
+    "relationship_to_state_manual": "independent",
+    "issuing_agency_category": null
   },
   "design_criteria": {
     "design_storm_return_periods_years": [
       10,
       100
     ],
-    "water_quality_volume_method": "No durable Frankfort city design-manual PDF found. Using LFUCG Stormwater Manual as a Kentucky urban MS4 post-construction reference: WQv for new development — treat runoff from impervious areas for the 90th percentile storm of 1.2 inches; streambank protection via 24-hour detention of the 10-year 6-hour storm volume.",
+    "water_quality_volume_method": "Treat the water quality volume WQv = (P)(Rv)(A)/12 with P = 0.87 inches, the first 0.87 inches of rainfall (80% of average annual rainfall, the \"first flush\"); larger storms routed non-erosively through or around the device.",
     "peak_flow_calculation_method": [
-      "Post-construction water quantity and quality criteria",
-      "Detention for 10-year and 100-year development levels"
+      "Rational Method",
+      "NRCS (SCS) TR-55 Curve Number method",
+      "NRCS (SCS) Unit Hydrograph method"
     ],
-    "required_hydrologic_hydraulic_software": [],
+    "required_hydrologic_hydraulic_software": [
+      "HEC-2",
+      "HEC-RAS"
+    ],
     "approved_bmp_categories": [
-      "Green infrastructure practices",
-      "Extended detention basins",
-      "Underground detention",
-      "Post-construction BMPs"
+      "Detention ponds",
+      "Dual-purpose (water quality) detention ponds",
+      "Retention ponds"
+    ]
+  },
+  "design_parameters": {
+    "wqv_depth_inches": 0.87,
+    "max_drawdown_hours": null,
+    "shwt_separation_inches": null,
+    "bioretention_media_depth_min_inches": null,
+    "practice_mentions": [
+      "extended_detention",
+      "wet_pond"
+    ],
+    "enriched_at": "2026-11-18T13:57:56.000Z",
+    "enrich_model": "manual:qa-2026-11-18",
+    "enrich_schema_version": 2,
+    "fields_not_found": [
+      "max_drawdown_hours",
+      "shwt_separation_inches",
+      "bioretention_media_depth_min_inches"
     ]
   },
   "evidence": [
     {
-      "field": "design_criteria.water_quality_volume_method",
-      "excerpt": "90th percentile storm of 1.2 inches",
-      "page_or_section": "LFUCG Stormwater Manual"
+      "field": "document_metadata.document_title",
+      "excerpt": "Stormwater Procedures Manual City of Frankfort and Franklin County, Kentucky",
+      "page_or_section": "PDF p. 1"
     },
     {
-      "field": "design_parameters.wqv_depth_inches",
-      "excerpt": "The 90th percentile storm in Fayette County is 1.2 inches. The WQV is determined by multiplying 1.2 inches times the impervious area.",
-      "page_or_section": "10.2.2 / page 138"
-    },
-    {
-      "field": "design_parameters.wqv_depth_inches",
-      "excerpt": "Multiply 1.2 inches times the total impervious area (rooftops, parking lots, sidewalks, and driveways)",
-      "page_or_section": "1.7.3 / page 23"
-    },
-    {
-      "field": "design_parameters.max_drawdown_hours",
-      "excerpt": "Drain Time: Maximum drain time (i.e., ponding) is 24 hours.",
-      "page_or_section": "10.3.2 Bioretention / page 140"
-    },
-    {
-      "field": "design_parameters.bioretention_media_depth_min_inches",
-      "excerpt": "Provide a planting soil bed with a minimum width of 4 feet and a minimum depth of 4 feet (including a 12-inch sand bed).",
-      "page_or_section": "10.3.2 Design Criteria / page 141"
-    },
-    {
-      "field": "design_parameters.bioretention_ponding_depth_inches",
-      "excerpt": "Grade the top of the planting soil bed to provide a shallow ponding area with a maximum depth of 6 inches.",
-      "page_or_section": "10.3.2 Design Criteria / page 141"
-    },
-    {
-      "field": "design_parameters.design_infiltration_rate_in_per_hr",
-      "excerpt": "An underdrain shall be provided if the underlying soils have an infiltration rate of less than 0.5 inches per hour.",
-      "page_or_section": "10.3.2 / page 140"
-    },
-    {
-      "field": "design_parameters.design_infiltration_rate_in_per_hr",
-      "excerpt": "Infiltration basins may be used in locations that have at least 5 feet of soil, with a permeability of at least 0.5 inches/hour underlying the device.",
-      "page_or_section": "10.3.5 Design Criteria / page 149"
-    },
-    {
-      "field": "design_parameters.ed_drain_time_hours",
-      "excerpt": "Design the extended detention outlet so that the \"design\" WQV requires a maximum of 24 hours to discharge.",
-      "page_or_section": "10.6.2 / page 166"
-    },
-    {
-      "field": "design_parameters.wetland_detention_hours",
-      "excerpt": "Design the extended detention outlet so that a maximum of 24 hours would be required to release the design WQV.",
-      "page_or_section": "10.9.2 / page 173"
-    },
-    {
-      "field": "design_parameters.green_roof_media_depth_inches",
-      "excerpt": "Vegetated Roofs Soil area x soil depth x 0.18. Maximum soil depth for calculation purposes shall be 12 inches.",
-      "page_or_section": "Table 1-7 / page 23"
+      "field": "document_metadata.last_revised_date",
+      "excerpt": "Stormwater Procedures Manual December 2017",
+      "page_or_section": "PDF p. 1"
     },
     {
       "field": "design_criteria.design_storm_return_periods_years",
-      "excerpt": "reduce peak flows to pre-development levels for the 10-year 6-hour and 100-year 6-hour storms",
-      "page_or_section": "PDF p. 65 · found by QA search"
+      "excerpt": "Detention ponds will be designed to limit the post development peak runoff to the predeveloped value for the 10-year 1-hour and 100-year 6-hour storms.",
+      "page_or_section": "PDF p. 15"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "Stormwater BMPs must be sized to capture and treat this defined water quality volume which is defined by the City/County as the first 0.87 inches of rainfall from the site.",
+      "page_or_section": "PDF p. 16"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "The City/County stormwater quality program requires new and redevelopment projects to treat runoff of 80% of the average annual rainfall, which is considered the “first flush”.",
+      "page_or_section": "PDF p. 16"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "All storms greater than 0.87 inches must be routed non-erosively through the water quality treatment device or routed around it.",
+      "page_or_section": "PDF p. 16"
+    },
+    {
+      "field": "design_parameters.wqv_depth_inches",
+      "excerpt": "Stormwater BMPs must be sized to capture and treat this defined water quality volume which is defined by the City/County as the first 0.87 inches of rainfall from the site.",
+      "page_or_section": "PDF p. 16"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "See sample calculations (Appendix E) for an example of the rational method.",
+      "page_or_section": "PDF p. 11"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "Curve Numbers for a broad range of land uses are found in TR-55.",
+      "page_or_section": "PDF p. 20"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "Natural Resource Conservation Service (formerly Soil Conservation Service, SCS) Unit Hydrograph method may be utilized in modeling the watershed.",
+      "page_or_section": "PDF p. 20"
+    },
+    {
+      "field": "design_criteria.required_hydrologic_hydraulic_software",
+      "excerpt": "HEC-2 or HEC-RAS software, Army Corps of Engineers shall be utilized for backwater and scour analyses.",
+      "page_or_section": "PDF p. 15"
     },
     {
       "field": "design_criteria.approved_bmp_categories",
-      "excerpt": "Revised design standards for permeable pavement, manufactured treatment devices, extended detention basins, and underground detention in Chapter 10 – Post- Construction Stormwater Controls",
-      "page_or_section": "PDF p. 8 · found by QA search"
-    },
-    {
-      "field": "design_criteria.approved_bmp_categories",
-      "excerpt": "They may be used instead of Green Infrastructure in the following situations:",
-      "page_or_section": "PDF p. 160 · found by QA search"
+      "excerpt": "Dual Purpose detention ponds are designed to enhance water quality as well as to control water quantity.",
+      "page_or_section": "PDF p. 16"
     }
   ],
   "extraction_quality": {
-    "confidence": "low",
+    "confidence": "medium",
     "needs_human_review": true,
-    "review_notes": "Placeholder using Lexington-Fayette manual criteria — replace when Frankfort publishes a local drainage/stormwater design PDF. Citation QA 2026-11-18: 0 quote(s) replaced with verbatim source text; 1 removed because no supporting text was found (jurisdiction_name).",
-    "fields_not_found": []
+    "review_notes": "Extracted 2026-11-18 from the City of Frankfort and Franklin County's own Stormwater Procedures Manual (December 2017), replacing a stand-in (Lexington's manual).",
+    "fields_not_found": [
+      "document_metadata.adoption_or_effective_date"
+    ]
   },
   "source": {
-    "document_url": "https://content.lexingtonky.gov/sites/default/files/2026-04/LFUCG%20Stormwater%20Manual%2005.01.26.pdf",
-    "landing_page_url": "https://www.lexingtonky.gov/government/departments-programs/environmental-quality-public-works/water-quality/municipal-separate-storm-sewer-system-ms4",
-    "retrieved_at": "2026-08-10T10:18:37.456Z",
-    "original_filename": "frankfort-ky.pdf"
-  },
-  "design_parameters": {
-    "wqv_depth_inches": 1.2,
-    "max_drawdown_hours": 24,
-    "shwt_separation_inches": null,
-    "bioretention_media_depth_min_inches": 48,
-    "bioretention_ponding_depth_inches": 6,
-    "permeable_pavement_storage_depth_inches": null,
-    "design_infiltration_rate_in_per_hr": 0.5,
-    "permanent_pool_depth_inches": null,
-    "ed_drain_time_hours": 24,
-    "length_to_width_ratio": null,
-    "wetland_detention_hours": 24,
-    "swale_bottom_width_inches": null,
-    "swale_longitudinal_slope_percent": null,
-    "green_roof_media_depth_inches": 12,
-    "green_roof_slope_percent": null,
-    "mtd_verification_program": null,
-    "practice_mentions": [
-      "bioretention",
-      "constructed_wetland",
-      "extended_detention",
-      "green_roof",
-      "infiltration_basin",
-      "infiltration_trench",
-      "manufactured_treatment",
-      "permeable_pavement",
-      "swale",
-      "wet_pond"
-    ],
-    "enriched_at": "2026-08-13T08:21:28.369Z",
-    "enrich_model": "composer-2.5:run-fb1be22c-599b-406e-abd1-ee52eeddd265",
-    "enrich_notes": "Frankfort placeholder uses LFUCG (Lexington-Fayette) manual. WQV = 1.2 in × impervious area (90th percentile); runoff reduction credit 0.8 in × impervious. Underdrain required when native soil infiltration < 0.5 in/hr (most GI); tree trenches use < 2 in/hr. Bioretention planting bed min 4 ft depth (includes 12 in sand bed); ponding max 6 in; surface ponding drain max 24 h, full media drawdown max 3 days. Permeable pavement stone porosity 0.4; drain time per industry standard. Infiltration basins need ≥5 ft permeable soil at ≥0.5 in/hr above seasonal high water table (no numeric SHWT setback in inches). Wet pond L:W min 3:1; constructed wetland L:W min 2:1; bioretention L:W min 2:1 when width >10 ft.",
-    "enrich_schema_version": 2,
-    "fields_not_found": [
-      "shwt_separation_inches",
-      "permeable_pavement_storage_depth_inches",
-      "permanent_pool_depth_inches",
-      "length_to_width_ratio",
-      "swale_bottom_width_inches",
-      "swale_longitudinal_slope_percent",
-      "green_roof_slope_percent",
-      "mtd_verification_program"
-    ]
+    "document_url": "https://franklincounty.ky.gov/wp-content/uploads/2018/11/2017-Stormwater-Procedures-Manual-ADOPTED.pdf",
+    "landing_page_url": "https://franklincounty.ky.gov/",
+    "retrieved_at": "2026-11-18T13:57:56.000Z",
+    "original_filename": "2017-Stormwater-Procedures-Manual-ADOPTED.pdf"
   }
 }

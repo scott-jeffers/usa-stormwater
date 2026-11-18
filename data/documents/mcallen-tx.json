@@ -3,116 +3,99 @@
     "jurisdiction_name": "City of McAllen",
     "jurisdiction_level": "municipality",
     "state_code": "TX",
-    "document_title": "Storm Water Design Criteria Manual",
-    "version_or_edition": "April 2019",
-    "adoption_or_effective_date": "2019-04",
-    "last_revised_date": "2019-04",
-    "relationship_to_state_manual": "unknown"
+    "document_title": "Standard Design Guide for Public Infrastructure Improvements (Drainage Design and Drainage Policy)",
+    "version_or_edition": "Revised: July 2021",
+    "adoption_or_effective_date": null,
+    "last_revised_date": "2021-07",
+    "relationship_to_state_manual": "independent",
+    "issuing_agency_category": null
   },
   "design_criteria": {
     "design_storm_return_periods_years": [
-      1,
-      2,
-      5,
       10,
       25,
       50,
-      100,
-      500
+      100
     ],
-    "water_quality_volume_method": "null McAllen — no durable city PDF; San Antonio South TX pattern",
+    "water_quality_volume_method": null,
     "peak_flow_calculation_method": [
-      "Rational Method (Q = CIA) for drainage areas less than 200 acres",
-      "Modified Rational Method for detention ponds with drainage areas of 20 acres or less",
-      "Unit hydrograph method (preferably SCS Dimensionless Unit Hydrograph in HEC-HMS) for drainage areas 200 acres or greater and for detention ponds greater than 20 acres",
-      "Snyder Unit Hydrograph",
-      "Clark Unit Hydrograph",
-      "NOAA Atlas 14 Volume 11 rainfall intensities / depths for San Antonio and ETJ"
+      "Rational Method (areas under 100 acres)",
+      "SCS Unit Hydrograph, Type III rainfall (areas over 100 acres)",
+      "Modified Rational Method (detention storage, areas under 10 acres)"
     ],
     "required_hydrologic_hydraulic_software": [
-      "HEC-HMS (preferred for SCS Dimensionless Unit Hydrograph / unit hydrograph modeling)"
+      "HEC-RAS (or standard-step backwater calculations)"
     ],
     "approved_bmp_categories": [
-      "Onsite detention facilities (Regional Storm Water Management Program option)",
-      "Fee in-lieu-of (FILO) detention participation",
-      "Low Impact Development (LID) planning referenced in manual TOC"
+      "Detention ponds",
+      "Engineered sub-surface detention systems"
     ]
   },
   "evidence": [
     {
-      "field": "design_criteria.design_storm_return_periods_years",
-      "excerpt": "Include acreage, runoff coefficients, Tc values, and rainfall intensities for the 5, 25, & 100-yr storm events, as applicable 3 5.",
-      "page_or_section": "PDF p. 17 · found by QA search"
+      "field": "document_metadata.document_title",
+      "excerpt": "STANDARD DESIGN GUIDE FOR PUBLIC INFRASTRUCTURE IMPROVEMENTS",
+      "page_or_section": "PDF p. 1"
+    },
+    {
+      "field": "document_metadata.last_revised_date",
+      "excerpt": "Revised: July 2021",
+      "page_or_section": "PDF p. 1"
     },
     {
       "field": "design_criteria.design_storm_return_periods_years",
-      "excerpt": "(Equation 5.4.1) Tt = travel time (hr.) n = Manning’s roughness coefficient L = flow length (ft.) P2 = 2-year, 24-hour rainfall* s = slope of hydraulic grade line (land slope, ft/ft) *in San Antonio and its ETJ please use 4.44 inches for the two (2) -year, twentyfour (24)-hour rainfall value",
-      "page_or_section": "PDF p. 30 · found by QA search"
+      "excerpt": "All drainage facilities including street gutters, inlets, pipes and related appurtenances to the drainage outfall system shall be designed to intercept and convey runoff from a 10- year frequency storm event and checked for a 25-year frequency storm event.",
+      "page_or_section": "PDF p. 16"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "Stormwater runoff generated from developed improvements shall be detained on-site for a 50-year frequency storm event and released into the receiving system at the pre- developed, peak discharge rate for a 10-year frequency storm event.",
+      "page_or_section": "PDF p. 16"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "Improvements which will increase the frequency of flooding or the depth of inundation of unprotected structures in the 100-year flood plain or areas of flooding shall not be permitted for construction.",
+      "page_or_section": "PDF p. 16"
     },
     {
       "field": "design_criteria.peak_flow_calculation_method",
-      "excerpt": "Technical Memorandum: Snyder Unit Hydrograph Parameter Guidelines – San Antonio River Basin, Regional Watershed Modeling System.",
-      "page_or_section": "PDF p. 52 · found by QA search"
+      "excerpt": "Peak flows may be estimated with use of the Rational Method for areas less than 100-acres.",
+      "page_or_section": "PDF p. 20"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "For areas greater than 100-acres, including phased projects with total area greater than 100 acres, SCS Unit Hydrograph (Ty III rainfall distribution) methodology shall be utilized.",
+      "page_or_section": "PDF p. 22"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "The Modified Rational Method (MRM) shall be used to determine stormwater storage requirements for areas less than 10-acres.",
+      "page_or_section": "PDF p. 34"
     },
     {
       "field": "design_criteria.required_hydrologic_hydraulic_software",
-      "excerpt": "Army Corps of Engineers Hydrologic Engineering Center HEC-HMS “Hydrologic Modeling Systems\".",
-      "page_or_section": "PDF p. 28 · found by QA search"
+      "excerpt": "Water surface profiles shall be prepared utilizing standard-step backwater calculations or hydraulic modeling software such as HEC-RAS.",
+      "page_or_section": "PDF p. 38"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Methods of on-site detention shall include ponds or engineered sub-surface systems with an outlet structure connecting into an approved drainage system.",
+      "page_or_section": "PDF p. 34"
     }
   ],
   "extraction_quality": {
-    "confidence": "low",
+    "confidence": "medium",
     "needs_human_review": true,
-    "review_notes": "South Texas municipal placeholder using San Antonio criteria — replace with city manual when available. Pipeline excerpt repair removed 1 unlocated citation(s).",
+    "review_notes": "Extracted 2026-11-18 from the City's own Standard Design Guide (July 2021), replacing a stand-in (San Antonio's manual). The guide sets drainage and detention criteria; it has no water-quality volume requirement.",
     "fields_not_found": [
-      "document_metadata.jurisdiction_name"
+      "design_criteria.water_quality_volume_method",
+      "document_metadata.adoption_or_effective_date"
     ]
   },
   "source": {
-    "document_url": "https://www.sanantonio.gov/Portals/0/Files/CIMS/Services/UDC-Amendment-Drainage-Manual.pdf",
-    "landing_page_url": "https://www.sanantonio.gov/",
-    "retrieved_at": "2026-08-10T10:44:44.192Z",
-    "original_filename": "mcallen-tx.pdf"
-  },
-  "design_parameters": {
-    "wqv_depth_inches": null,
-    "max_drawdown_hours": null,
-    "shwt_separation_inches": null,
-    "bioretention_media_depth_min_inches": null,
-    "bioretention_ponding_depth_inches": null,
-    "permeable_pavement_storage_depth_inches": null,
-    "design_infiltration_rate_in_per_hr": null,
-    "permanent_pool_depth_inches": null,
-    "ed_drain_time_hours": null,
-    "length_to_width_ratio": null,
-    "wetland_detention_hours": null,
-    "swale_bottom_width_inches": null,
-    "swale_longitudinal_slope_percent": null,
-    "green_roof_media_depth_inches": null,
-    "green_roof_slope_percent": null,
-    "mtd_verification_program": null,
-    "practice_mentions": [],
-    "enriched_at": "2026-08-13T09:05:50.304Z",
-    "enrich_model": "composer-2.5:run-a24e526e-4fe6-42af-9a54-b8781a768773",
-    "enrich_notes": "Provided corpus for slug mcallen-tx is largely table-of-contents, San Antonio Storm Water Design Criteria Manual (April 2019) front matter, and hydrology intro; Chapter 13 lists detention and retention basins but excerpt text includes no BMP/LID design numeric criteria. Atlas notes McAllen placeholder using San Antonio South TX pattern with no durable city PDF.",
-    "enrich_schema_version": 2,
-    "fields_not_found": [
-      "wqv_depth_inches",
-      "max_drawdown_hours",
-      "shwt_separation_inches",
-      "bioretention_media_depth_min_inches",
-      "bioretention_ponding_depth_inches",
-      "permeable_pavement_storage_depth_inches",
-      "design_infiltration_rate_in_per_hr",
-      "permanent_pool_depth_inches",
-      "ed_drain_time_hours",
-      "length_to_width_ratio",
-      "wetland_detention_hours",
-      "swale_bottom_width_inches",
-      "swale_longitudinal_slope_percent",
-      "green_roof_media_depth_inches",
-      "green_roof_slope_percent",
-      "mtd_verification_program"
-    ]
+    "document_url": "https://www.mcallen.net/docs/default-source/engineering-files/standard_design_guide_july_2021.pdf?sfvrsn=2",
+    "landing_page_url": "https://www.mcallen.net/departments/engineering/design-guide",
+    "retrieved_at": "2026-11-18T13:57:56.000Z",
+    "original_filename": "standard_design_guide_july_2021.pdf"
   }
 }

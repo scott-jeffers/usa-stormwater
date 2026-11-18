@@ -2882,13 +2882,13 @@
     "id": "frankfort-ky",
     "jurisdictionHint": "Frankfort",
     "levelHint": "municipality",
-    "pdfUrl": "https://content.lexingtonky.gov/sites/default/files/2026-04/LFUCG%20Stormwater%20Manual%2005.01.26.pdf",
-    "landingPageUrl": "https://www.lexingtonky.gov/government/departments-programs/environmental-quality-public-works/water-quality/municipal-separate-storm-sewer-system-ms4",
+    "pdfUrl": "https://franklincounty.ky.gov/wp-content/uploads/2018/11/2017-Stormwater-Procedures-Manual-ADOPTED.pdf",
+    "landingPageUrl": "https://franklincounty.ky.gov/",
     "cityCoords": [
       -84.8733,
       38.2009
     ],
-    "notes": "Frankfort capital — no city PDF found; LFUCG Stormwater Manual used as KY urban post-construction reference (needs review)"
+    "notes": "City of Frankfort & Franklin County Stormwater Procedures Manual (Dec 2017)."
   },
   {
     "id": "dover-de",
@@ -2990,13 +2990,14 @@
     "id": "franklin-tn",
     "jurisdictionHint": "Franklin",
     "levelHint": "municipality",
-    "pdfUrl": "https://www.nashville.gov/sites/default/files/2021-08/SWMM-Vol4-01_SECTION_1_0_ALL.pdf",
-    "landingPageUrl": "https://www.franklintn.gov/",
+    "pdfUrl": "https://franklintn.gov/home/showpublisheddocument/33471/637569413148200000",
+    "landingPageUrl": "https://franklintn.gov/government/departments-a-j/engineering/stormwater/construction-development/2021-bmp-manual",
     "cityCoords": [
       -86.8689,
       35.9251
     ],
-    "notes": "Franklin TN MS4 — Metro Nashville SWMM Vol4 BMP reference (CivicPlus id was city newsletter)"
+    "notes": "City of Franklin Stormwater Management Manual (2021) — replaces Nashville stand-in",
+    "replaceStandIn": true
   },
   {
     "id": "charlottesville-va",
@@ -3098,25 +3099,27 @@
     "id": "chula-vista-ca",
     "jurisdictionHint": "Chula Vista",
     "levelHint": "municipality",
-    "pdfUrl": "https://www.sandiego.gov/sites/default/files/2024-08/sws_manual_august_2024_update.pdf",
-    "landingPageUrl": "https://www.chulavistaca.gov/",
+    "pdfUrl": "https://chulavistaca.gov/home/showpublisheddocument/11881/636311514730130000",
+    "landingPageUrl": "https://chulavistaca.gov/departments/public-works/services/storm-water-pollution-prevention/documents-and-reports",
     "cityCoords": [
       -117.0842,
       32.6401
     ],
-    "notes": "Chula Vista San Diego County MS4 — City of San Diego Stormwater Standards regional reference"
+    "notes": "Chula Vista BMP Design Manual (May 2017 update; Aug 2023 update exists on the landing page) — replaces San Diego stand-in",
+    "replaceStandIn": true
   },
   {
     "id": "pearland-tx",
     "jurisdictionHint": "Pearland",
     "levelHint": "municipality",
-    "pdfUrl": "https://oce.harriscountytx.gov/Portals/43/Documents/Publications/SWQ_LID_design_criteria.pdf",
-    "landingPageUrl": "https://www.pearlandtx.gov/",
+    "pdfUrl": "https://pearlandtx.gov/home/showpublisheddocument/30579/637654805511100000",
+    "landingPageUrl": "https://pearlandtx.gov/departments/engineering-and-public-works/engineering",
     "cityCoords": [
       -95.2861,
       29.5636
     ],
-    "notes": "Pearland metro — Harris County LID/GI SWQ criteria reference"
+    "notes": "Pearland Engineering Design Criteria Manual (Oct 2020) Ch. 5 Stormwater — replaces Harris County stand-in",
+    "replaceStandIn": true
   },
   {
     "id": "greenville-sc",
@@ -3146,13 +3149,14 @@
     "id": "colorado-springs-co",
     "jurisdictionHint": "Colorado Springs",
     "levelHint": "municipality",
-    "pdfUrl": "https://www.mhfd.org/files/7af5d4c2f/03_Chapter-1-Stormwater-Management.pdf",
-    "landingPageUrl": "https://www.mhfd.org/criteria-manual-volume-3",
+    "pdfUrl": "https://coloradosprings.gov/document/current-dcmvolume1.pdf",
+    "landingPageUrl": "https://coloradosprings.gov/node/59776",
     "cityCoords": [
       -104.8214,
       38.8339
     ],
-    "notes": "Front Range MS4 — MHFD/UDFCD Volume 3 WQCV regional criteria (city portal HTML)"
+    "notes": "Colorado Springs Drainage Criteria Manual Vol. I (rev. Jan 2021) — replaces MHFD stand-in",
+    "replaceStandIn": true
   },
   {
     "id": "boulder-co",
@@ -3170,13 +3174,14 @@
     "id": "fort-collins-co",
     "jurisdictionHint": "Fort Collins",
     "levelHint": "municipality",
-    "pdfUrl": "https://www.mhfd.org/files/7af5d4c2f/03_Chapter-1-Stormwater-Management.pdf",
-    "landingPageUrl": "https://www.mhfd.org/criteria-manual-volume-3",
+    "pdfUrl": "https://www.fcgov.com/utilities/img/site_specific/uploads/fcscm-overall-manual-12-2018.pdf",
+    "landingPageUrl": "https://www.fcgov.com/utilities/business/builders-and-developers/development-forms-guidelines-regulations/stormwater-criteria",
     "cityCoords": [
       -105.0844,
       40.5853
     ],
-    "notes": "Front Range MS4 — MHFD/UDFCD Volume 3 WQCV (city PDF often HTML/403)"
+    "notes": "Fort Collins Stormwater Criteria Manual (Dec 2018) — replaces MHFD stand-in",
+    "replaceStandIn": true
   },
   {
     "id": "toledo-oh",
@@ -3230,13 +3235,14 @@
     "id": "bend-or",
     "jurisdictionHint": "Bend",
     "levelHint": "municipality",
-    "pdfUrl": "https://www.eugene-or.gov/DocumentCenter/View/79289/2025-Stormwater-Management-Manual-with-Appendices",
-    "landingPageUrl": "https://www.eugene-or.gov/477/Stormwater-Management-Manual",
+    "pdfUrl": "https://bendoregon.gov/home/showpublisheddocument/51300/637710958897670000",
+    "landingPageUrl": "https://bend.municipal.codes/BC/16.05.040",
     "cityCoords": [
       -121.3153,
       44.0582
     ],
-    "notes": "Bend — city portal 403; Eugene SWMM used as Oregon municipal LID/GSI reference (needs review)"
+    "notes": "Central Oregon Stormwater Manual, adopted by Bend (BC 16.05.040) — replaces Eugene stand-in",
+    "replaceStandIn": true
   },
   {
     "id": "flint-mi",
@@ -3266,13 +3272,14 @@
     "id": "waco-tx",
     "jurisdictionHint": "Waco",
     "levelHint": "municipality",
-    "pdfUrl": "https://iswm.nctcog.org/Documents/iSWM_Criteria_Manual_01142015.pdf",
-    "landingPageUrl": "https://iswm.nctcog.org/criteria-manual.html",
+    "pdfUrl": "https://www.waco-texas.com/files/sharedassets/public/v/4/departments/engineering/documents/storm-drainage-design-manual.pdf",
+    "landingPageUrl": "https://www.waco-texas.com/Departments/Engineering/Specifications-Manuals-and-Regulations",
     "cityCoords": [
       -97.1467,
       31.5493
     ],
-    "notes": "Waco — city 403; NCTCOG iSWM used as Central TX municipal reference (needs review)"
+    "notes": "Waco Stormwater Drainage Design Manual — replaces NCTCOG iSWM stand-in",
+    "replaceStandIn": true
   },
   {
     "id": "lafayette-la",
@@ -3302,25 +3309,27 @@
     "id": "las-cruces-nm",
     "jurisdictionHint": "Las Cruces",
     "levelHint": "municipality",
-    "pdfUrl": "https://swefc.unm.edu/gardb/wp-content/uploads/2025/03/61-Green_Infrastructure_and_Low_Impact_Design_Guide_1-1.pdf",
-    "landingPageUrl": "https://www.bernco.gov/",
+    "pdfUrl": "https://lascruces.gov/wp-content/uploads/2024/06/City-of-Las-Cruces-Design-Standards-PDF_202105051256229885.pdf",
+    "landingPageUrl": "https://lascruces.gov/",
     "cityCoords": [
       -106.7637,
       32.3199
     ],
-    "notes": "Las Cruces — no durable city PDF; NM GSI guide reference (needs review)"
+    "notes": "Las Cruces Design Standards (Chapter 32, incl. drainage) — replaces Bernalillo stand-in",
+    "replaceStandIn": true
   },
   {
     "id": "sioux-falls-sd",
     "jurisdictionHint": "Sioux Falls",
     "levelHint": "municipality",
-    "pdfUrl": "https://dot.sd.gov/media/kywakwy4/escontrolsw.pdf",
-    "landingPageUrl": "https://www.siouxfalls.org/",
+    "pdfUrl": "https://www.siouxfalls.gov/files/assets/public/v/1/planning-and-development/construction-mgmt-amp-design/engineering-design-standards/u30011-ch11-2022.pdf",
+    "landingPageUrl": "https://www.siouxfalls.gov/business-permits/development-projects/construction-management-and-design/specs-policies-manuals",
     "cityCoords": [
       -96.7311,
       43.546
     ],
-    "notes": "Sioux Falls — city 403; SD DOT ESC / regional pattern (partial)"
+    "notes": "Sioux Falls Engineering Design Standards Ch. 11 Drainage (2022) — replaces SDDOT stand-in",
+    "replaceStandIn": true
   },
   {
     "id": "pierre-sd",
@@ -3506,13 +3515,14 @@
     "id": "yuma-az",
     "jurisdictionHint": "Yuma",
     "levelHint": "municipality",
-    "pdfUrl": "https://www.esd.maricopa.gov/DocumentCenter/View/2369/Drainage-Policies-and-Standards-Manual-for-Maricopa-County---revised-112025-PDF",
-    "landingPageUrl": "https://www.yumaaz.gov/",
+    "pdfUrl": "https://yumaaz.gov/home/showpublisheddocument/354/637309677149470000",
+    "landingPageUrl": "https://yumaaz.gov/government/engineering/design-construction-management",
     "cityCoords": [
       -114.6277,
       32.6927
     ],
-    "notes": "Yuma SWMP adopts Maricopa ECDDM / Drainage Policies; also aliased to Maricopa for coverage"
+    "notes": "City of Yuma Drainage Policy (Ord. 1670 & 1836) — replaces Maricopa County stand-in",
+    "replaceStandIn": true
   },
   {
     "id": "college-station-tx",
@@ -3542,13 +3552,13 @@
     "id": "mcallen-tx",
     "jurisdictionHint": "McAllen",
     "levelHint": "municipality",
-    "pdfUrl": "https://www.sanantonio.gov/Portals/0/Files/CIMS/Services/UDC-Amendment-Drainage-Manual.pdf",
-    "landingPageUrl": "https://www.mcallen.net/",
+    "pdfUrl": "https://www.mcallen.net/docs/default-source/engineering-files/standard_design_guide_july_2021.pdf?sfvrsn=2",
+    "landingPageUrl": "https://www.mcallen.net/departments/engineering/design-guide",
     "cityCoords": [
       -98.23,
       26.2034
     ],
-    "notes": "McAllen — no durable city PDF; San Antonio South TX pattern (needs review)"
+    "notes": "City of McAllen Standard Design Guide (July 2021), incl. Drainage Policy."
   },
   {
     "id": "brownsville-tx",
