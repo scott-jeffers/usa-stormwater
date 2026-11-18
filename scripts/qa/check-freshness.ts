@@ -46,7 +46,8 @@ async function probe(url: string): Promise<Omit<Probe, "slugs" | "url" | "checke
   };
   try {
     let res = await attempt("HEAD");
-    if (res.status === 405 || res.status === 403 || res.status === 501) res = await attempt("GET");
+    // many CMSs (CivicPlus DocumentCenter, Azure functions) refuse HEAD with 403/404/405
+    if (res.status >= 400) res = await attempt("GET");
     const range = res.headers.get("content-range");
     return {
       status: res.status,
