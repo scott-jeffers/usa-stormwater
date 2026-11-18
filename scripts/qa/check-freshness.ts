@@ -71,7 +71,10 @@ async function main() {
     if (u) byUrl.set(u, [...(byUrl.get(u) ?? []), f.slice(0, -5)]);
   }
   const previous: Record<string, Probe> = existsSync(OUT) ? JSON.parse(readFileSync(OUT, "utf-8")).urls ?? {} : {};
-  const results: Record<string, Probe> = { ...previous };
+  // keep earlier results only for URLs still cited (e.g. skipped by --limit)
+  const results: Record<string, Probe> = Object.fromEntries(
+    Object.entries(previous).filter(([u]) => byUrl.has(u))
+  );
   const changed: Probe[] = [];
   const broken: Probe[] = [];
   const blocked: Probe[] = [];
