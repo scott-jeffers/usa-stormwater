@@ -91,11 +91,11 @@
   "extraction_quality": {
     "confidence": "medium",
     "needs_human_review": true,
-    "review_notes": "Criteria from Phase II Site Design Guidance documenting MSD rules; prefer direct MSD Laserfiche design chapter when available.",
+    "review_notes": "Criteria from Phase II Site Design Guidance documenting MSD rules; prefer direct MSD Laserfiche design chapter when available. Source PDF removed 2026-11-18: the copy of MSD's Site Design Guidance hosted by the City of Rock Hill is gone. St. Louis uses MSD's Rules and Regulations and Engineering Design Requirements (February 2018); see the MSD landing page.",
     "fields_not_found": []
   },
   "source": {
-    "document_url": "https://www.rockhillmo.net/sites/g/files/vyhlif1136/f/uploads/site_design_guidance.pdf",
+    "document_url": null,
     "landing_page_url": "https://msdprojectclear.org/what-we-do/stormwater-management/bmp-toolbox/technology-matrix/",
     "retrieved_at": "2026-08-10T10:44:44.192Z",
     "original_filename": "st-louis-mo.pdf"

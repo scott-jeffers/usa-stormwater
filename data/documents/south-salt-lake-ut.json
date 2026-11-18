@@ -118,7 +118,7 @@
   "extraction_quality": {
     "confidence": "high",
     "needs_human_review": true,
-    "review_notes": "Compact manual with explicit 80th percentile 0.6-inch volume method, 100-year 24-hour design storm, Rational/TR-55 methods, and post-construction BMP appendix. Pipeline excerpt repair removed 3 unlocated citation(s). Citation QA 2026-11-18: 1 quote(s) replaced with verbatim source text.",
+    "review_notes": "Compact manual with explicit 80th percentile 0.6-inch volume method, 100-year 24-hour design storm, Rational/TR-55 methods, and post-construction BMP appendix. Pipeline excerpt repair removed 3 unlocated citation(s). Citation QA 2026-11-18: 1 quote(s) replaced with verbatim source text. Source link updated 2026-11-18: the city moved the same July 2020 manual to DocumentCenter/View/1116.",
     "fields_not_found": [
       "design_criteria.required_hydrologic_hydraulic_software",
       "document_metadata.version_or_edition",
@@ -127,7 +127,7 @@
     ]
   },
   "source": {
-    "document_url": "https://sslc.gov/DocumentCenter/View/475/South-Salt-Lake-Stormwater-Design-Manual-PDF",
+    "document_url": "https://sslc.gov/DocumentCenter/View/1116/SSL-Stormwater-Design-Manual-PDF",
     "landing_page_url": "https://sslc.gov/",
     "retrieved_at": "2026-08-08T01:05:00.000Z",
     "original_filename": "south-salt-lake-ut.pdf"

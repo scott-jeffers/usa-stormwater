@@ -1,0 +1,8 @@
+{
+  "version": 1,
+  "note": "Hosts that answer automated checks with an error although the PDF loads in a browser. qa:freshness reports these as 'blocked', not 'broken'. Add a host only after opening one of its links by hand.",
+  "refuses_automated_checks": {
+    "www.muni.org": "Anchorage 2015 draft loads in a browser (checked 2026-11-18)",
+    "lawrenceks.gov": "Stormwater Management Criteria 2025 loads in a browser (checked 2026-11-18)"
+  }
+}

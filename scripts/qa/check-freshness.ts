@@ -20,6 +20,10 @@ const OUT = path.resolve(process.cwd(), "data/qa/freshness.json");
 const MD = path.resolve(process.cwd(), "data/qa/FRESHNESS.md");
 const limitArg = process.argv.find((a) => a.startsWith("--limit="));
 const limit = limitArg ? Number(limitArg.split("=")[1]) : Infinity;
+const NOTES = path.resolve(process.cwd(), "data/qa/freshness-notes.json");
+const refusesChecks: Record<string, string> = existsSync(NOTES)
+  ? JSON.parse(readFileSync(NOTES, "utf-8")).refuses_automated_checks ?? {}
+  : {};
 const UA = "Mozilla/5.0 (compatible; StormwaterAtlas-freshness/1.0; +https://stormwateratlas.com/about/)";
 
 interface Probe {
@@ -70,12 +74,15 @@ async function main() {
   const results: Record<string, Probe> = { ...previous };
   const changed: Probe[] = [];
   const broken: Probe[] = [];
+  const blocked: Probe[] = [];
   let n = 0;
   for (const [url, slugs] of byUrl) {
     if (n++ >= limit) break;
     const p: Probe = { url, slugs, checked_at: new Date().toISOString(), ...(await probe(url)) };
     const before = previous[url];
-    if (p.status == null || p.status >= 400) broken.push(p);
+    const host = (() => { try { return new URL(url).host; } catch { return ""; } })();
+    if ((p.status == null || p.status >= 400) && refusesChecks[host]) blocked.push(p);
+    else if (p.status == null || p.status >= 400) broken.push(p);
     else if (
       before &&
       before.status != null &&
@@ -94,6 +101,7 @@ async function main() {
     MD,
     `# Source freshness\n\nGenerated ${new Date().toISOString()} by \`npm run qa:freshness\` (${n} source URL(s) checked).\n\n` +
       `## Broken or blocked (${broken.length})\n\n${broken.map(line).join("\n") || "_none_"}\n\n` +
+      `## Known to refuse automated checks (${blocked.length}) — PDF opens in a browser; see data/qa/freshness-notes.json\n\n${blocked.map(line).join("\n") || "_none_"}\n\n` +
       `## Changed since last run (${changed.length}) — likely a new edition\n\n${changed.map(line).join("\n") || "_none_"}\n`
   );
   console.log(`\n${broken.length} broken/blocked, ${changed.length} changed. Wrote data/qa/FRESHNESS.md`);

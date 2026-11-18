@@ -87,14 +87,14 @@
   "extraction_quality": {
     "confidence": "medium",
     "needs_human_review": true,
-    "review_notes": "Heuristic agency extract from prepared text. WVDOH Drainage Manual 3rd Ed. (2007) with Addendum 9-23-13",
+    "review_notes": "Heuristic agency extract from prepared text. WVDOH Drainage Manual 3rd Ed. (2007) with Addendum 9-23-13 Source link updated 2026-11-18: WVDOH replaced the 2013 printing (Addendum 1) with the 2007 manual including Addenda 1 and 2 (June 2015). Values were extracted from the earlier printing; re-ingest to pick up Addendum 2 changes.",
     "fields_not_found": [
       "design_criteria.water_quality_volume_method",
       "design_criteria.approved_bmp_categories"
     ]
   },
   "source": {
-    "document_url": "https://transportation.wv.gov/highways/engineering/Manuals/Drainage/WVDOH%202007%20Drainage%20Manual%20with%20Addendum%209-23-13.pdf",
+    "document_url": "https://transportation.wv.gov/highways/engineering/Manuals/Drainage/WVDOH%202007%20Drainage%20Manual%20with%20Addendum%201%20and%202.pdf",
     "landing_page_url": "https://transportation.wv.gov/highways/engineering/Pages/Manuals.aspx",
     "retrieved_at": "2026-08-11T17:59:28.857Z",
     "original_filename": "wv-wvdoh-drainage.pdf"
