@@ -15,8 +15,7 @@ const sans = Source_Sans_3({
   variable: "--font-source-sans",
 });
 
-const SITE_URL = "https://stormwateratlas.com";
-const SITE_NAME = "Stormwater Atlas";
+import { SITE_NAME, SITE_URL } from "@/lib/site";
 const DESCRIPTION =
   "Browse U.S. stormwater design manuals in one place. Key requirements from federal, state, county, and city documents—with the source quote for every field.";
 
@@ -27,10 +26,11 @@ export const metadata: Metadata = {
     template: `%s · ${SITE_NAME}`,
   },
   description: DESCRIPTION,
+  alternates: { canonical: "/" },
   applicationName: SITE_NAME,
   openGraph: {
     type: "website",
-    url: SITE_URL,
+    url: "/",
     siteName: SITE_NAME,
     title: SITE_NAME,
     description: DESCRIPTION,

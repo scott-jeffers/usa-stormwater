@@ -1,6 +1,6 @@
 # Evidence QA report
 
-Generated: 2026-11-18T14:46:56.445Z by `npm run qa:evidence`
+Generated: 2026-11-18T15:28:28.712Z by `npm run qa:evidence`
 
 Strict check: each excerpt must appear in the source manual (exact, or a close
 in-order match with **every number identical**), and each extracted number must
@@ -14,11 +14,11 @@ be stated in its own excerpt.
 | Warnings only | 157 |
 | Failed (excerpt not in source) | 0 |
 
-## Excerpts (5353)
+## Excerpts (5351)
 
 | Result | Count | Share |
 |--------|------:|------:|
-| Exact | 5028 | 93.9% |
+| Exact | 5026 | 93.9% |
 | Close match, numbers identical | 320 | 6.0% |
 | Can't check: PDF text lost the numbers | 5 | 0.1% |
 | … of which checked by eye on the page image (`data/qa/visual-checks.json`) | 5 | 0.1% |
@@ -33,7 +33,7 @@ be stated in its own excerpt.
 
 ## National drafts and practice pages
 
-exact: 1565 · fuzzy: 445 · unverifiable: 6 · fail: 0 · unchecked: 0
+exact: 1554 · fuzzy: 445 · unverifiable: 6 · fail: 0 · unchecked: 0
 
 ## Records needing attention (worst first, top 60)
 

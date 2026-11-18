@@ -2,7 +2,7 @@
   "version": 1,
   "practice_key": "infiltration_trench",
   "practice_label": "Infiltration Trench",
-  "generated_at": "2026-11-18T14:46:07.757Z",
+  "generated_at": "2026-11-18T15:27:35.787Z",
   "tier_a_only": true,
   "manuals_with_practice": 41,
   "manuals_scanned": 76,
@@ -738,7 +738,7 @@
       "mode": 72,
       "median": 48,
       "count": 36,
-      "missing_count": 38,
+      "missing_count": 39,
       "cells": [
         {
           "slug": "alabama-handbook",
@@ -1015,10 +1015,9 @@
           "slug": "de-wet-ponds-draft",
           "state_code": "DE",
           "jurisdiction_name": "Delaware",
-          "value": 24,
+          "value": null,
           "chapter_proxy": true,
-          "verified": true,
-          "excerpt": "a diameter capable of draining the Wet Pond within 24 hours"
+          "excerpt": null
         },
         {
           "slug": "dc-guidebook",
@@ -2514,7 +2513,7 @@
     "Statistics count only values whose supporting quote was found in the source manual and states the value (strict citation check).",
     "Site-wide fields (WQv, drawdown, SHWT) are jurisdiction sizing context, not practice facility specs.",
     "wqv_depth_inches [site-wide]: n=30 mode=1 range=0.37–1.61 (missing=45 in pool of 76)",
-    "max_drawdown_hours [site-wide]: n=36 mode=72 range=4–120 (missing=38 in pool of 76)",
+    "max_drawdown_hours [site-wide]: n=36 mode=72 range=4–120 (missing=39 in pool of 76)",
     "shwt_separation_inches [site-wide]: n=36 mode=36 range=12–120 (missing=38 in pool of 76)",
     "design_infiltration_rate_in_per_hr: n=17 mode=0.5 range=0.01–2.41 (missing=23 in pool of 41)"
   ]

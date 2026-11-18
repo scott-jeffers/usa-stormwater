@@ -1,8 +1,9 @@
+import { pageMeta } from "@/lib/site";
 import { reportErrorHref } from "@/lib/reportError";
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { getAllManuals, getManualBySlug } from "@/lib/data";
+import { getAllManuals, getManualBySlug, revisionDateFromMetadata } from "@/lib/data";
 import { STATE_CODE_TO_NAME } from "@/lib/usStates";
 import {
   ConfidenceBadge,
@@ -71,10 +72,7 @@ export async function generateMetadata({
   }
 
   const { jurisdiction_name, document_title } = manual.data.document_metadata;
-  return {
-    title: jurisdiction_name,
-    description: document_title,
-  };
+  return pageMeta(`/${slug}/`, jurisdiction_name, `${document_title}: design storms, water-quality volume, peak-flow methods and BMPs, each with the quote from the manual.`);
 }
 
 export default async function ManualDetailPage({
@@ -152,6 +150,8 @@ export default async function ManualDetailPage({
       ? getManualBySlug(shared.representative)
       : null;
   const designData = repManual?.data ?? data;
+  const edition = revisionDateFromMetadata(designData.document_metadata);
+  const editionYear = edition ? Number(String(edition).slice(0, 4)) || null : null;
   const designSlug = repManual?.slug ?? slug;
   const designQa = repManual ? getEvidenceQa(designSlug) : qa;
   const designEv = {
@@ -203,7 +203,30 @@ export default async function ManualDetailPage({
             <h1 className="font-display text-2xl font-semibold tracking-tight text-ink sm:text-3xl">
               {meta.jurisdiction_name}
             </h1>
-            <p className="mt-1 text-sm text-fg-secondary">{meta.document_title}</p>
+            <p className="mt-1 text-sm text-fg-secondary">
+              {shared?.basis === "stand_in" && repManual ? (
+                <>
+                  <span className="font-medium text-amber-800 dark:text-amber-200">Placeholder:</span>{" "}
+                  {repManual.data.document_metadata.jurisdiction_name}&rsquo;s {meta.document_title}
+                </>
+              ) : (
+                meta.document_title
+              )}
+            </p>
+            <p className="mt-1 text-xs text-fg-subtle">
+              {edition ? (
+                <>
+                  Edition: {edition}
+                  {editionYear != null && editionYear < 2010 && (
+                    <span className="text-amber-700 dark:text-amber-300">
+                      {" "}· {new Date().getUTCFullYear() - editionYear}+ years old, check for a newer version
+                    </span>
+                  )}
+                </>
+              ) : (
+                <>Edition date not stated in the document</>
+              )}
+            </p>
             <div className="mt-3 flex flex-wrap gap-2">
               <LevelBadge level={meta.jurisdiction_level} />
               <AgencyBadge category={agencyCategory} />

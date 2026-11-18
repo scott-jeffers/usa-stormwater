@@ -1,3 +1,4 @@
+import { pageMeta } from "@/lib/site";
 import { displayQuote } from "@/lib/displayExcerpt";
 import type { Metadata } from "next";
 import Link from "next/link";
@@ -54,8 +55,7 @@ export async function generateMetadata({
     outline?.sections.find((s) => s.id === sectionId)?.title ??
     sectionId;
   return {
-    title,
-    description: `U.S. Stormwater Practice Synthesis — ${title}`,
+    ...pageMeta(`/national/${sectionId}/`, title, `U.S. Stormwater Practice Synthesis — ${title}`),
   };
 }
 

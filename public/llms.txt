@@ -2,18 +2,19 @@
 
 > U.S. stormwater design manual requirements in one place — an ongoing open project with structured, evidence-cited JSON anyone (or any AI) can fetch. No API key.
 
-Website: https://stormwateratlas.com/
-About & examples: https://stormwateratlas.com/about/
-Federal drainage guidance: https://stormwateratlas.com/federal/
-Practice synthesis: https://stormwateratlas.com/national/
+Website: https://www.stormwateratlas.com/
+About & examples: https://www.stormwateratlas.com/about/
+Federal drainage guidance: https://www.stormwateratlas.com/federal/
+Practice synthesis: https://www.stormwateratlas.com/national/
 
 ## Machine-readable data
 
-- Index (lightweight): https://stormwateratlas.com/data/manuals.json
-- One manual: https://stormwateratlas.com/data/manuals/{slug}.json
-- Full atlas dump: https://stormwateratlas.com/data/atlas.json
-- Field guide: https://stormwateratlas.com/data/schema.json
-- Practice synthesis outline: https://stormwateratlas.com/data/national/outline.json
+- Index (lightweight): https://www.stormwateratlas.com/data/manuals.json
+- One manual: https://www.stormwateratlas.com/data/manuals/{slug}.json
+- Full atlas dump: https://www.stormwateratlas.com/data/atlas.json
+- Field guide: https://www.stormwateratlas.com/data/schema.json
+- Practice synthesis outline: https://www.stormwateratlas.com/data/national/outline.json
+- Side-by-side comparison rows (design storms, methods, key design values with their citation check): https://www.stormwateratlas.com/data/compare.json
 
 Each record includes jurisdiction metadata, design criteria (storm return periods, water-quality volume method, peak-flow methods, software, BMP categories), verbatim evidence excerpts with page/section, extraction confidence, and source PDF / agency URLs.
 
@@ -28,8 +29,11 @@ The `/national/` reader is a **U.S. Stormwater Practice Synthesis** (research dr
 
 ## Important
 
+- Check `coverage_basis` before quoting a record. `stand_in` means the page shows another jurisdiction's manual as a placeholder; those values are NOT that place's requirements. `state_manual` / `regional_manual` mean the place adopts a shared manual, whose values are in `effective_design` (slug in `design_from`).
+- `citation_check` tells you whether each quote was found word-for-word in the source PDF. Prefer values whose quotes passed; a quote proves the text exists, not that it was interpreted correctly.
+
 Data is for research reference only. Always verify against the current official agency document linked in each record. Some extracted fields may need human review.
 
-The `needs_human_review` flag in JSON means an automated extraction had low confidence or incomplete citations — compare excerpts to the official PDF; it is not a volunteer review program. See https://stormwateratlas.com/about/#needs-review
+The `needs_human_review` flag in JSON means an automated extraction had low confidence or incomplete citations — compare excerpts to the official PDF; it is not a volunteer review program. See https://www.stormwateratlas.com/about/#needs-review
 
 Open-source community project (actively developed). MIT license: https://github.com/scott-jeffers/usa-stormwater

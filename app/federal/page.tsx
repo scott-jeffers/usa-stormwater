@@ -1,13 +1,10 @@
+import { pageMeta } from "@/lib/site";
 import type { Metadata } from "next";
 import Link from "next/link";
 import { getManualListItems } from "@/lib/data";
 import { LevelBadge } from "@/components/Badge";
 
-export const metadata: Metadata = {
-  title: "Federal manuals",
-  description:
-    "FHWA and other U.S. federal drainage and stormwater design guidance in the Stormwater Atlas.",
-};
+export const metadata: Metadata = pageMeta("/federal/", "Federal manuals", "FHWA and other U.S. federal drainage and stormwater design guidance in the Stormwater Atlas.");
 
 export default function FederalIndexPage() {
   const manuals = getManualListItems()

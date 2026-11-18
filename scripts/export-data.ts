@@ -10,6 +10,8 @@ import { existsSync, readFileSync, readdirSync } from "node:fs";
 import path from "node:path";
 import { getEvidenceQa } from "../lib/qa/load";
 import { getCompareRows } from "../lib/compare";
+import { SITE_URL } from "../lib/site";
+import { coverageBasisFor, getSharedInfo } from "../lib/sharedManuals";
 import { getAllManuals, getManualBySlug, getManualLoadErrors, revisionDateFromMetadata } from "../lib/data";
 
 const getManualBySlugOrNull = (slug: string) => getManualBySlug(slug)?.data ?? null;
@@ -23,11 +25,17 @@ const MANUALS_DIR = path.join(PUBLIC_DATA, "manuals");
 const NATIONAL_DIR = path.join(PUBLIC_DATA, "national");
 const NATIONAL_DRAFT_DIR = path.join(NATIONAL_DIR, "draft");
 
-const SITE_ORIGIN = "https://stormwateratlas.com";
+const SITE_ORIGIN = SITE_URL;
 
 const FIELD_SCHEMA = {
   description:
     "Stormwater Atlas record shape. Each manual is one JSON object with metadata, design criteria, evidence excerpts, extraction quality, and source links.",
+  coverage_basis:
+    "own | issuer | state_manual | regional_manual | stand_in — whose rules these are. stand_in means another jurisdiction's manual is shown as a placeholder: do NOT treat its values as this jurisdiction's requirements.",
+  design_from:
+    "slug whose design_criteria / design_parameters apply. Differs from slug when the jurisdiction uses a shared state or regional manual; per-manual JSON then carries those values in effective_design.",
+  citation_check:
+    "Strict machine check of every evidence excerpt against the source PDF text: counts of exact, fuzzy (numbers identical), unverifiable (PDF text lost digits; visual_check gives the date one was checked by eye), fail. warnings list values not stated in their excerpt or with no excerpt.",
   document_metadata: {
     jurisdiction_name: "string — agency or place name",
     jurisdiction_level:
@@ -102,6 +110,12 @@ function qaSummary(slug: string) {
   return { status: qa.status, checked_at: qa.checked_at, counts: qa.counts, warnings: qa.warnings.length };
 }
 
+/** Slug whose design values apply (the shared manual's representative), or the record itself. */
+function effectiveFrom(slug: string): string {
+  const shared = getSharedInfo(slug);
+  return shared && !shared.isRepresentative && shared.representative !== slug ? shared.representative : slug;
+}
+
 async function main() {
   const manuals = getAllManuals();
   const loadErrors = getManualLoadErrors();
@@ -134,6 +148,8 @@ async function main() {
       },
       processed_at: record.processedAt,
       revised_at: revisionDateFromMetadata(record.data.document_metadata),
+      coverage_basis: coverageBasisFor(record.slug),
+      design_from: effectiveFrom(record.slug),
       citation_check: qaSummary(record.slug),
       detail_url: `${SITE_ORIGIN}/${record.slug}/`,
       data_url: `${SITE_ORIGIN}/data/manuals/${record.slug}.json`,
@@ -171,7 +187,7 @@ async function main() {
     await writeFile(
       path.join(MANUALS_DIR, `${record.slug}.json`),
       JSON.stringify(
-        { ...record.data, effective_design, citation_check: getEvidenceQa(record.slug) },
+        { coverage_basis: coverageBasisFor(record.slug), design_from: effectiveFrom(record.slug), ...record.data, effective_design, citation_check: getEvidenceQa(record.slug) },
         null,
         2
       ) + "\n",
@@ -190,6 +206,8 @@ async function main() {
           processed_at: record.processedAt,
           detail_url: `${SITE_ORIGIN}/${record.slug}/`,
           data_url: `${SITE_ORIGIN}/data/manuals/${record.slug}.json`,
+          coverage_basis: coverageBasisFor(record.slug),
+          design_from: effectiveFrom(record.slug),
           ...record.data,
         })),
       },
@@ -210,6 +228,7 @@ async function main() {
           index: "/data/manuals.json",
           one: "/data/manuals/{slug}.json",
           atlas: "/data/atlas.json",
+          compare: "/data/compare.json",
           schema: "/data/schema.json",
           national_outline: "/data/national/outline.json",
           national_drafts: "/data/national/drafts.json",

@@ -1,3 +1,4 @@
+import { pageMeta } from "@/lib/site";
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
@@ -35,8 +36,7 @@ export async function generateMetadata({
   if (practiceId === PLACEHOLDER) return { title: "Practice synthesis" };
   const synth = getPracticeSynthesis(practiceId);
   return {
-    title: synth?.practice_label ?? practiceId,
-    description: `Practice synthesis — ${synth?.practice_label ?? practiceId}`,
+    ...pageMeta(`/national/practices/${practiceId}/`, synth?.practice_label ?? practiceId, `Practice synthesis — ${synth?.practice_label ?? practiceId}`),
   };
 }
 

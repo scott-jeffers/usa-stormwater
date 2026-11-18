@@ -61,13 +61,8 @@ export function CitationBadge({
 }
 
 export function NeedsReviewBadge({ needsReview }: { needsReview: boolean }) {
-  if (!needsReview) {
-    return (
-      <span className="inline-flex items-center rounded-full bg-surface-muted px-2.5 py-0.5 text-xs font-medium text-fg-secondary ring-1 ring-inset ring-edge-strong/40">
-        No
-      </span>
-    );
-  }
+  // nothing to say when the record isn't flagged (a bare "No" read as noise)
+  if (!needsReview) return null;
   return (
     <span className="inline-flex items-center rounded-full bg-orange-50 px-2.5 py-0.5 text-xs font-medium text-orange-800 ring-1 ring-inset ring-orange-600/15 dark:bg-orange-950/50 dark:text-orange-200 dark:ring-orange-400/20">
       Needs review

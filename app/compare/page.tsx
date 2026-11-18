@@ -1,13 +1,10 @@
+import { pageMeta } from "@/lib/site";
 import type { Metadata } from "next";
 import Link from "next/link";
 import { CompareView } from "@/components/CompareView";
 import { COMPARE_PARAMS } from "@/lib/compare";
 
-export const metadata: Metadata = {
-  title: "Compare manuals",
-  description:
-    "Put up to four stormwater design manuals side by side: design storms, water-quality methods, software, BMPs and key design values, each with its citation check.",
-};
+export const metadata: Metadata = pageMeta("/compare/", "Compare manuals", "Put up to four stormwater design manuals side by side: design storms, water-quality methods, software, BMPs and key design values, each with its citation check.");
 
 export default function ComparePage() {
   return (

@@ -1,12 +1,9 @@
+import { pageMeta } from "@/lib/site";
 import type { Metadata } from "next";
 import Link from "next/link";
 import { getAllPracticeSyntheses } from "@/lib/practices";
 
-export const metadata: Metadata = {
-  title: "Practice Syntheses",
-  description:
-    "Base + regional-modifier practice syntheses from atlas design parameters — research draft, not adopted regulation.",
-};
+export const metadata: Metadata = pageMeta("/national/practices/", "Practice Syntheses", "Base + regional-modifier practice syntheses from atlas design parameters — research draft, not adopted regulation.");
 
 export default function PracticesIndexPage() {
   const practices = getAllPracticeSyntheses();

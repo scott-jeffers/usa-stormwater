@@ -1,15 +1,12 @@
+import { SITE_URL, pageMeta } from "@/lib/site";
 import type { Metadata } from "next";
 import Link from "next/link";
 import { loadEvidenceQa } from "@/lib/qa/load";
 import { buildCoverageReport } from "@/lib/coverage";
 
-export const metadata: Metadata = {
-  title: "About",
-  description:
-    "How Stormwater Atlas works — and how people, tools, and AIs can fetch the open JSON data.",
-};
+export const metadata: Metadata = pageMeta("/about/", "About", "How Stormwater Atlas works — and how people, tools, and AIs can fetch the open JSON data.");
 
-const BASE = "https://stormwateratlas.com";
+const BASE = SITE_URL;
 
 function qaTotals() {
   const recs = Object.values(loadEvidenceQa()?.records ?? {});
@@ -141,6 +138,16 @@ export default function AboutPage() {
         <p>
           The same database is published as static JSON. No API key, no
           signup. Fetch over HTTPS from any script, agent, or notebook.
+        </p>
+        <p className="mt-3 text-sm text-fg-muted">
+          Before quoting a record, check its{" "}
+          <code className="rounded bg-surface-muted px-1">coverage_basis</code>:{" "}
+          <code className="rounded bg-surface-muted px-1">stand_in</code> means the page shows
+          another jurisdiction&rsquo;s manual as a placeholder, so its values are not that
+          place&rsquo;s requirements. Records that adopt a state or regional manual name it in{" "}
+          <code className="rounded bg-surface-muted px-1">design_from</code>, and{" "}
+          <code className="rounded bg-surface-muted px-1">citation_check</code> says whether each
+          quote was found in the source PDF.
         </p>
         <p className="mt-3 text-sm text-fg-muted">
           Discovery file for crawlers:{" "}

@@ -122,11 +122,6 @@
       "page_or_section": "13.6 / page 12"
     },
     {
-      "field": "design_parameters.max_drawdown_hours",
-      "excerpt": "a diameter capable of draining the Wet Pond within 24 hours",
-      "page_or_section": "13.6 / page 14"
-    },
-    {
       "field": "design_parameters.shwt_separation_inches",
       "excerpt": "the seasonal high groundwater table is two feet or more below the proposed Wet Pond invert",
       "page_or_section": "13.3 / page 8"
@@ -140,7 +135,7 @@
   "extraction_quality": {
     "confidence": "medium",
     "needs_human_review": true,
-    "review_notes": "DRAFT public-notice chapter (source PDF: 13-0-Wet-Ponds-DRAFT-strikethrough.pdf) — not a final adopted manual by itself. Covers only Wet Ponds post-construction BMP standards. RPv/Cv/Fv event definitions and numeric depths are referenced to the Delaware Sediment and Stormwater Regulations rather than fully specified here; only the 100-year flooding-event storage limit is explicit. No required hydrologic/hydraulic software named. No adoption/effective date in text.",
+    "review_notes": "DRAFT public-notice chapter (source PDF: 13-0-Wet-Ponds-DRAFT-strikethrough.pdf) — not a final adopted manual by itself. Covers only Wet Ponds post-construction BMP standards. RPv/Cv/Fv event definitions and numeric depths are referenced to the Delaware Sediment and Stormwater Regulations rather than fully specified here; only the 100-year flooding-event storage limit is explicit. No required hydrologic/hydraulic software named. No adoption/effective date in text. Max drawdown removed 2026-11-18 (accuracy audit): the 24 hours is the capacity rule for the maintenance drain pipe that empties the permanent pool, not a design drawdown time.",
     "fields_not_found": [
       "document_metadata.adoption_or_effective_date",
       "document_metadata.last_revised_date",
@@ -155,7 +150,7 @@
   },
   "design_parameters": {
     "wqv_depth_inches": null,
-    "max_drawdown_hours": 24,
+    "max_drawdown_hours": null,
     "shwt_separation_inches": 24,
     "bioretention_media_depth_min_inches": null,
     "bioretention_ponding_depth_inches": null,
@@ -188,7 +183,8 @@
       "swale_longitudinal_slope_percent",
       "green_roof_media_depth_inches",
       "green_roof_slope_percent",
-      "mtd_verification_program"
+      "mtd_verification_program",
+      "max_drawdown_hours"
     ]
   }
 }

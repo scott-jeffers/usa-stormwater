@@ -2,7 +2,7 @@
   "version": 1,
   "practice_key": "extended_detention",
   "practice_label": "Extended Detention",
-  "generated_at": "2026-11-18T14:46:03.754Z",
+  "generated_at": "2026-11-18T15:27:31.373Z",
   "tier_a_only": true,
   "manuals_with_practice": 60,
   "manuals_scanned": 76,
@@ -738,7 +738,7 @@
       "mode": 72,
       "median": 48,
       "count": 36,
-      "missing_count": 38,
+      "missing_count": 39,
       "cells": [
         {
           "slug": "alabama-handbook",
@@ -1015,10 +1015,9 @@
           "slug": "de-wet-ponds-draft",
           "state_code": "DE",
           "jurisdiction_name": "Delaware",
-          "value": 24,
+          "value": null,
           "chapter_proxy": true,
-          "verified": true,
-          "excerpt": "a diameter capable of draining the Wet Pond within 24 hours"
+          "excerpt": null
         },
         {
           "slug": "dc-guidebook",
@@ -3237,7 +3236,7 @@
     "Statistics count only values whose supporting quote was found in the source manual and states the value (strict citation check).",
     "Site-wide fields (WQv, drawdown, SHWT) are jurisdiction sizing context, not practice facility specs.",
     "wqv_depth_inches [site-wide]: n=30 mode=1 range=0.37–1.61 (missing=45 in pool of 76)",
-    "max_drawdown_hours [site-wide]: n=36 mode=72 range=4–120 (missing=38 in pool of 76)",
+    "max_drawdown_hours [site-wide]: n=36 mode=72 range=4–120 (missing=39 in pool of 76)",
     "shwt_separation_inches [site-wide]: n=36 mode=36 range=12–120 (missing=38 in pool of 76)",
     "ed_drain_time_hours: n=25 mode=24 range=24–72 (missing=32 in pool of 60)",
     "length_to_width_ratio: n=19 mode=2 range=0.3–3 (missing=40 in pool of 60)"

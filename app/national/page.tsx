@@ -1,3 +1,4 @@
+import { pageMeta } from "@/lib/site";
 import type { Metadata } from "next";
 import { getNationalReaderIndex } from "@/lib/national";
 import { getAllPracticeSyntheses } from "@/lib/practices";
@@ -5,11 +6,7 @@ import { getPipelineStatusSummary } from "@/lib/pipeline/statusSummary";
 import { NationalDraftExplorer } from "@/components/NationalDraftExplorer";
 import { NationalPipelineProgress } from "@/components/NationalPipelineProgress";
 
-export const metadata: Metadata = {
-  title: "U.S. Stormwater Practice Synthesis",
-  description:
-    "Research synthesis of common U.S. post-construction stormwater criteria from atlas manuals — not a design manual or adopted practice.",
-};
+export const metadata: Metadata = pageMeta("/national/", "U.S. Stormwater Practice Synthesis", "Research synthesis of common U.S. post-construction stormwater criteria from atlas manuals — not a design manual or adopted practice.");
 
 function searchSnippet(text: string | null | undefined, max = 200): string {
   if (!text) return "";
