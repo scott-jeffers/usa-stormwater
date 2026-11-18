@@ -146,6 +146,11 @@
       "field": "design_parameters.mtd_verification_program",
       "excerpt": "Approvals from the Virginia Department of Environmental Quality (DEQ);",
       "page_or_section": "§ 6-0402.3B (Manufactured BMPs), page 108"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Planting plans are required for all extended detention ponds.",
+      "page_or_section": "PDF p. 214 · found by QA search"
     }
   ],
   "extraction_quality": {

@@ -79,6 +79,21 @@
       "field": "design_parameters.practice_mentions.extended_detention",
       "excerpt": "DETENTION PONDS (Non-Jurisdictional) ... Drain Time Rural and Urban - must drain in less than 96 hours",
       "page_or_section": "Table 207-1, page 2-14"
+    },
+    {
+      "field": "design_criteria.required_hydrologic_hydraulic_software",
+      "excerpt": "Figure 13 HEC-HMS Basin Model",
+      "page_or_section": "PDF p. 533 · found by QA search"
+    },
+    {
+      "field": "design_criteria.required_hydrologic_hydraulic_software",
+      "excerpt": "Pier debris width and height may be simulated with HEC-RAS.",
+      "page_or_section": "PDF p. 269 · found by QA search"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "The USGS has determined station specific flood frequency data for 293 gage locations for recurrence intervals of 2-, 5-, 10-, 25-, 50-, 100- and 500-years that generally have 10 or more years of record (through 2004).",
+      "page_or_section": "PDF p. 156 · found by QA search"
     }
   ],
   "extraction_quality": {

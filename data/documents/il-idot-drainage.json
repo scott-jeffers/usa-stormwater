@@ -84,6 +84,26 @@
       "field": "design_parameters.enrich_notes",
       "excerpt": "excavation should be limited to areas outside of the channel bank(s) and above the ground water table and/or the normal water elevation in the stream (or pool) (1 foot minimum is desirable).",
       "page_or_section": "Chapter 3, Section 3-403.01, page 165"
+    },
+    {
+      "field": "design_criteria.required_hydrologic_hydraulic_software",
+      "excerpt": "HEC-RAS6 can model a three-sided structure.",
+      "page_or_section": "PDF p. 354 · found by QA search"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "Calc.) and the 500 year event is disregarded.",
+      "page_or_section": "PDF p. 127 · found by QA search"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "1-hr (First-Quartile Distribution) 50-yr Storm).",
+      "page_or_section": "PDF p. 237 · found by QA search"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "Season 1-52 Design Frequency 1 yr 5 yr Consult BBS-HYD 10.",
+      "page_or_section": "PDF p. 62 · found by QA search"
     }
   ],
   "extraction_quality": {

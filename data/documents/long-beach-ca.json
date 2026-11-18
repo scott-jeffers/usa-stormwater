@@ -146,6 +146,11 @@
       "field": "design_parameters.swale_longitudinal_slope_percent",
       "excerpt": "Slope in Flow Direction % … Vegetated Swale … 2% (min) 33% (max)",
       "page_or_section": "Biofiltration BMP Design Criteria / page 87"
+    },
+    {
+      "field": "design_parameters.shwt_separation_inches",
+      "excerpt": "Site soils have adequate drainage (at least 0.5 inches per hour) and depth to groundwater (5 feet) if water will infiltrate from the open-graded base into site soils.",
+      "page_or_section": "PDF p. 60 · found by QA search"
     }
   ],
   "extraction_quality": {

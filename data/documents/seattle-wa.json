@@ -105,6 +105,26 @@
       "field": "design_parameters.mtd_verification_program",
       "excerpt": "Proprietary and Emerging Water Quality Treatment Technologies — refer to Section 5.8.11",
       "page_or_section": "Volume 3, Section 3.5.2.4 Basic Treatment, page 309"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "Recurrence Interval 2-Hour Total (inches) 6-month 0.40 2-yr 0.58 5-yr 0.70 10-yr 0.78 20-yr 0.88 25-yr 0.92 50-yr 1.04 100-yr 1.14 Figure 1.",
+      "page_or_section": "PDF p. 957 · found by QA search"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "(aboveground) Non-infiltrating Bioretention Type of Credit/Factor Flow Control Credit Dispersion BMPs Flow Control Credit Flow Control Credit Infiltration BMPs BMP Sizing Factor BMP Sizing Factor BMP Sizing Factor BMP Sizing Factor BMP Sizing Factor Alternative Surface BMPs Flow Control Credit Flow Control Credit Detention BMPs BMP Sizing Equation BMP Sizing Equation BMP Sizing Equation",
+      "page_or_section": "PDF p. 313 · found by QA search"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Soil amendment can also be used to help achieve on-site stormwater management, flow control, and water quality treatment standards.",
+      "page_or_section": "PDF p. 334 · found by QA search"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "BMP On-site Flow Control Water Qualitya Conveyance List Standard Forest Pasture Peak Basic Enhanced Oil Control Phosphorus Rainwater Harvesting",
+      "page_or_section": "PDF p. 461 · found by QA search"
     }
   ],
   "extraction_quality": {

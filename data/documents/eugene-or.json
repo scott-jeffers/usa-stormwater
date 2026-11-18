@@ -107,6 +107,16 @@
       "field": "design_parameters.practice_mentions.manufactured_treatment",
       "excerpt": "Mechanical treatment facilities, if utilized must be selected from the list of approved proprietary treatment technologies",
       "page_or_section": "2.2.4, page 34"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "1.6.2 Flood Control Design Methodologies The Rational Method and U.S.",
+      "page_or_section": "PDF p. 18 · found by QA search"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "Does not create or increase flooding problems 1.9.2 Flow Control Methodologies Flow controls are required for development sites in the Headwaters Area of Eugene that drain to a headwater stream (see the Headwater Streams Map in Appendix J) and development proposed within the Special Stormwater Flood Control Area (Map EC 9.6791(3)(c), Appendix A).",
+      "page_or_section": "PDF p. 23 · found by QA search"
     }
   ],
   "extraction_quality": {

@@ -127,6 +127,16 @@
       "field": "design_parameters.design_infiltration_rate_in_per_hr",
       "excerpt": "Soil infiltration rates within the trench must be between 0.52 and 2.5 inches per hour",
       "page_or_section": "2.7 Infiltration Trench, page 50"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "The rock-lined channel must have design capacity as required if it to be used as an outlet for a grassed waterway, diversion, terrace, or other measure.",
+      "page_or_section": "PDF p. 105 · found by QA search"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "A grass filter strip of at least 25 feet must precede the infiltration trench in these situations.",
+      "page_or_section": "PDF p. 50 · found by QA search"
     }
   ],
   "extraction_quality": {

@@ -77,6 +77,16 @@
       "field": "design_parameters.max_drawdown_hours",
       "excerpt": "The 72 hour maximum has not been exceeded, meaning the procedure may be continued",
       "page_or_section": "Chapter 5, page 44 (paterson-nj-c0054)"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "7:8-5.6(b) for the current and projected 2-, 10-, and 100-year storms.",
+      "page_or_section": "PDF p. 34 · found by QA search"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "The reduced curve number method is illustrated in Example 1 of Chapter 9.6: Pervious Paving Systems and the example in Chapter 9.4: Green Roofs of the BMP Manual.",
+      "page_or_section": "PDF p. 24 · found by QA search"
     }
   ],
   "extraction_quality": {

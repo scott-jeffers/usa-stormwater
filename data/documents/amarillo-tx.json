@@ -92,6 +92,16 @@
       "field": "design_parameters.swale_longitudinal_slope_percent",
       "excerpt": "The grade of the channel should be as flat as possible, and should not exceed 2 percent.",
       "page_or_section": "9.7.3 Vegetated Swales, Section 9, page 9-33"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "TABLE 2-6 Duration (Min) Depth-Duration-Frequency Data for Amarillo, Texas Rainfall DeptK(inches) Frequency 2-Yr 5-Yr 10-Yr 25-Yr 50-Y r lWYr Areal Adjustment The rainfall data listed in Table 2-6 are \"point rainfall depths\"; that is, as measured at a rain gage, i.e., a single point.",
+      "page_or_section": "PDF p. 50 · found by QA search"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "2-48 100-Year Peak Flow Curves.",
+      "page_or_section": "PDF p. 33 · found by QA search"
     }
   ],
   "extraction_quality": {

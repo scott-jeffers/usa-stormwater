@@ -51,6 +51,16 @@
       "field": "design_parameters.ed_drain_time_hours",
       "excerpt": "Channel protection and flood protection shall be addressed in accordance with the criteria set forth in Section 9VAC25-870-66 of the Stormwater Mangement Regulations.",
       "page_or_section": "5.2.3.1 New Development, page 2"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "Refer to the VDOT Drainage Manual for a more complete discussion of the Rational Methods and Anderson Method and the VA SWM Handbook for a more complete discussion of the SCS Method.",
+      "page_or_section": "PDF p. 5 · found by QA search"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "Open Channels: Minor Channel Capacity 10-year Minor Channel Protective Lining (Drainage Area 5 acres or less) 2-year Minor Channel Protective Lining 5-1 STORMWATER MANAGEMENT DESIGN MANUAL Revised: Oct.",
+      "page_or_section": "PDF p. 1 · found by QA search"
     }
   ],
   "extraction_quality": {

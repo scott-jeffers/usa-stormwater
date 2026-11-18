@@ -152,6 +152,11 @@
       "field": "design_parameters.swale_bottom_width_inches",
       "excerpt": "Grassy swales on private property: Minimum bottom width: 2 ft (must be flat)",
       "page_or_section": "Chapter 3, page 194 (portland-or-c0118)"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "The 2-, 5-, 10-, 25-, and 100-year design storm depths are shown below in Table A-9.",
+      "page_or_section": "PDF p. 409 · found by QA search"
     }
   ],
   "extraction_quality": {

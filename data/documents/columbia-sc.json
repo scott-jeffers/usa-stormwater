@@ -110,6 +110,21 @@
       "field": "design_parameters.permanent_pool_depth_inches",
       "excerpt": "Permanent pool depths must be ≥ 4 feet to reduce mosquito breeding.",
       "page_or_section": "Table 3.1 / Table 3.2, pages 35 and 38"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "Determining the Overbank Flood Protection Volume (QFP)",
+      "page_or_section": "PDF p. 29 · found by QA search"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "The Unified Stormwater Sizing Criteria method shall be used to determine the 7",
+      "page_or_section": "PDF p. 8 · found by QA search"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "Overbank Flood Protection Provide peak discharge control of the 25-year storm event such that the postdevelopment peak rate does not exceed the predevelopment rate to reduce overbank flooding (2-, 5-, 10- and 50-yr events are also detained/retained to meet pre-development rates.) Extreme Flood Protection Evaluate the effects of the 100-year storm on the stormwater management system, adjacent",
+      "page_or_section": "PDF p. 20 · found by QA search"
     }
   ],
   "extraction_quality": {

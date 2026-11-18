@@ -49,6 +49,11 @@
       "field": "design_parameters.practice_mentions.swale",
       "excerpt": "Shallow swale sections at the edge of the roadway pavement or shoulder offer advantages over curbed sections where curbs are not needed for traffic control.",
       "page_or_section": "7.4.3.5 Curb and Gutter, page 16"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "If designing at a sag point, use a 2 percent chance (50-year) storm and continue to contain spread within the shoulder.",
+      "page_or_section": "PDF p. 15 · found by QA search"
     }
   ],
   "extraction_quality": {

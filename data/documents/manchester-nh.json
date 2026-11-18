@@ -64,6 +64,31 @@
       "field": "design_parameters.practice_mentions.constructed_wetland",
       "excerpt": "subsurface gravel wetlands for water quality treatment is preferred",
       "page_or_section": "Element C.2.b, page 4"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "Drainage analyses shall include calculations comparing pre- and post-development stormwater runoff rates (cubic feet/second) and volumes (cubic feet) for the 1-inch rainstorm and the 2-year, 10-year, 25-year, and 50-year 24-hour storm events.",
+      "page_or_section": "PDF p. 4 · found by QA search"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "For sites in the 100-year floodplain, supporting documentation should demonstrate that there is no impact to properties as a result of development. d.",
+      "page_or_section": "PDF p. 4 · found by QA search"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "If the 2-year, 24-hour post-development storm volume does increase due to development then: control the 2-year, 24-hour post-development peak flow rate to ½ of the 2-year, 24-hour pre-development level or to the 1-year, 24-hour predevelopment level.",
+      "page_or_section": "PDF p. 10 · found by QA search"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Where practical, the use of natural, vegetated filtration and/or infiltration practices or subsurface gravel wetlands for water quality treatment is preferred, given its relatively high nitrogen removal efficiency.",
+      "page_or_section": "PDF p. 4 · found by QA search"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "The SMP shall include calculations of the change in impervious area, pollution loading and removal volumes for each SCM, retention, and groundwater recharge, as well as GIS files containing the coordinates of all stormwater infrastructure elements (e.g. catch basins, swales, detention/bioretention areas, piping). e.",
+      "page_or_section": "PDF p. 5 · found by QA search"
     }
   ],
   "extraction_quality": {

@@ -76,6 +76,16 @@
       "field": "design_parameters.practice_mentions.extended_detention",
       "excerpt": "Micropool Extended-Detention (ED) Ponds ... Wet ED Ponds ... ED Shallow Wetland",
       "page_or_section": "page 14, Table 3"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "Locate outside limits of 100-year floodplain.",
+      "page_or_section": "PDF p. 11 · found by QA search"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Also, post-construction BMPs (such as filters, bioretention/rain gardens, dry swales, and infiltration areas) must be installed after contributing drainage areas are stabilized in order to prevent them from clogging with construction sediment.",
+      "page_or_section": "PDF p. 18 · found by QA search"
     }
   ],
   "extraction_quality": {

@@ -78,6 +78,11 @@
       "field": "design_parameters.green_roof_slope_percent",
       "excerpt": "The maximum slope for a green roof is about 25 percent.",
       "page_or_section": "3.6 Green Roof, page 48"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "Design to hold/infiltrate volume difference in 2-yr storm.",
+      "page_or_section": "PDF p. 53 · found by QA search"
     }
   ],
   "extraction_quality": {

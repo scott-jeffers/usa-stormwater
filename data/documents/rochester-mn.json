@@ -84,6 +84,16 @@
       "field": "design_parameters.practice_mentions.swale",
       "excerpt": "Runoff should be pre-treated by a sedimentation pond or grassed swale before discharging to an infiltration structure.",
       "page_or_section": "10.4 Infiltration, page 135"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "An SCS 24-hour Type II storm distribution with 100-year intensity was used for the design of ponds and drainage systems.",
+      "page_or_section": "PDF p. 73 · found by QA search"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "STORMWATER QUALITY 74 6.1 Background 74 6.2 Stormwater Management Basin Types 75 6.2.1 Rate Control Basins 77 6.2.2 Sedimentation Basins 77 6.2.3 Nutrient Removal Basins 77 6.2.4 Vegetation Filter Basins 78 6.2.5 Created or Restored Wetlands 78 6.3 Design Criteria for Water Quality 81 6.4 Water Quality Model 86 7.",
+      "page_or_section": "PDF p. 8 · found by QA search"
     }
   ],
   "extraction_quality": {

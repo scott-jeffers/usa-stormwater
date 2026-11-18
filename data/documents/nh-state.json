@@ -95,6 +95,16 @@
       "field": "design_parameters.wqv_depth_inches",
       "excerpt": "onsite retention of the first 1-inch of rainfall based on hydrologic soil group (HSG)",
       "page_or_section": "Element C.2.a, page 4"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "For sites in the 100-year floodplain, supporting documentation should demonstrate that there is no impact to properties as a result of development. d.",
+      "page_or_section": "PDF p. 4 · found by QA search"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "If the 2-year, 24-hour post-development storm volume does increase due to development then: control the 2-year, 24-hour post-development peak flow rate to ½ of the 2-year, 24-hour pre-development level or to the 1-year, 24-hour predevelopment level.",
+      "page_or_section": "PDF p. 10 · found by QA search"
     }
   ],
   "extraction_quality": {

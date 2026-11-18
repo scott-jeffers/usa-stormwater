@@ -88,6 +88,11 @@
       "field": "design_parameters.practice_mentions.sand_filter",
       "excerpt": "For sand filters: cleaned, washed, coarse concrete sand such as ASTM C33. The sand particles shall be less than 2 mm average diameter.",
       "page_or_section": "Materials Certification for SCMs with Filter Media, page 175"
+    },
+    {
+      "field": "design_parameters.wqv_depth_inches",
+      "excerpt": "All impervious surfaces, as reasonably practical, must drain to an SCM that is designed to provide a minimum of 85% TSS removal and is sized to capture runoff from the first 1 inch of rainfall from all surfaces that drain to the SCM.",
+      "page_or_section": "PDF p. 137 · found by QA search"
     }
   ],
   "extraction_quality": {

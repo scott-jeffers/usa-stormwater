@@ -59,6 +59,16 @@
       "field": "design_parameters.ed_drain_time_hours",
       "excerpt": "sized to discharge ½ inch of detention runoff (mixing volume) from the contributing area in 24 hours",
       "page_or_section": "4.1.a.3, page 22"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "25-year, 24-hour 100-year, 24-hour High 100-year, 24-hour Probable Maximum Flood History Note: Adapted from NWFWMD AH I Section 8.4.7.",
+      "page_or_section": "PDF p. 29 · found by QA search"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "The volume of runoff to be treated from a site shall be determined by the type of treatment system, i.e., wet detention, detention with effluent filtration, on-line retention treatment system, or off-line retention treatment system. a.",
+      "page_or_section": "PDF p. 22 · found by QA search"
     }
   ],
   "extraction_quality": {

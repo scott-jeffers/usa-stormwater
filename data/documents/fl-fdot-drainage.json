@@ -85,6 +85,26 @@
       "field": "design_parameters.practice_mentions.wet_pond",
       "excerpt": "Retention Pond ... Littoral Zone (Wet detention ponds)",
       "page_or_section": "Table 5-1, page 5-7"
+    },
+    {
+      "field": "design_criteria.required_hydrologic_hydraulic_software",
+      "excerpt": "The computer programs acceptable for hydraulic analyses at tidal crossing are HEC-RAS, RMA-2, ADCIRC, and FESWMS.",
+      "page_or_section": "PDF p. 56 · found by QA search"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "Analyze the design of all cross drain structures for the Design Flood, Base Flood (100-year frequency flood), and the Greatest Flood (overtopping flood or the 500-year frequency flood where overtopping is not practicable) that you expect to flow to the structure.",
+      "page_or_section": "PDF p. 53 · found by QA search"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "Temporary Outfalls and Canals 5-year Site-specific factors may warrant the use of an atypical design frequency.",
+      "page_or_section": "PDF p. 14 · found by QA search"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "Outlets of systems requiring pumping stations 50-year Acquire flood rights where offsite stages increase and impact land use values.",
+      "page_or_section": "PDF p. 26 · found by QA search"
     }
   ],
   "extraction_quality": {

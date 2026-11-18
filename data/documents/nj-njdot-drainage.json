@@ -86,6 +86,21 @@
       "field": "design_parameters.design_infiltration_rate_in_per_hr",
       "excerpt": "The BMP must have a minimum Permeability of 0.2 to 0.5 inches per hour",
       "page_or_section": "11.2 Methodology, page 77"
+    },
+    {
+      "field": "design_criteria.required_hydrologic_hydraulic_software",
+      "excerpt": "HEC-HMS or others† ‡ For all projects in certain areas south of the South Central flat inland and New Jersey Coastal Plain, the DELMARVA Unit Hydrograph shall be incorporated into the design procedure.",
+      "page_or_section": "PDF p. 15 · found by QA search"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "Stormwater management for the higher intensity storms (2-year, 10-year, and 100-year) is subsequently provided above the level of the water quality storm.",
+      "page_or_section": "PDF p. 83 · found by QA search"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "The velocity in the pipe shall be that which occurs during passage of the design storm or of the 25- year storm, whichever is greater.",
+      "page_or_section": "PDF p. 70 · found by QA search"
     }
   ],
   "extraction_quality": {

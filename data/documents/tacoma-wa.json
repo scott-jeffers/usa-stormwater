@@ -100,6 +100,11 @@
       "field": "design_parameters.design_infiltration_rate_in_per_hr",
       "excerpt": "if the measured infiltration rate is at least 8 inches per hour.",
       "page_or_section": "Volume 3, Section 2.5.3 Design Criteria (perforated stub-outs in fill)"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "C, Forest Flat) Acreage Predeveloped or Existing Hydrology (WWHM) Basin ID Return Interval Flow (cfs) 2-year 10-year 25-year 100-year Developed Basin Conditions (WWHM) Basin ID WWHM Input (ex.",
+      "page_or_section": "PDF p. 108 · found by QA search"
     }
   ],
   "extraction_quality": {

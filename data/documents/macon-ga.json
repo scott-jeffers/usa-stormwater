@@ -114,6 +114,11 @@
       "field": "design_parameters.ed_drain_time_hours",
       "excerpt": "extended detention of the 1-year, 24-hour storm for a period of 24 hours using BMPs",
       "page_or_section": "VOL 1, Standard #5 – Stream Channel Protection, page 120"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "This diagram shows the hydrograph for a typical 30-acre residential site during a 10-year storm event.",
+      "page_or_section": "PDF p. 20 · found by QA search"
     }
   ],
   "extraction_quality": {

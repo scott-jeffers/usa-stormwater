@@ -124,6 +124,21 @@
       "field": "design_parameters.practice_mentions.infiltration_basin",
       "excerpt": "Infiltration basins are not allowed in areas of shallow groundwater or poor permeability soils",
       "page_or_section": "Section 1503.12.5 / page 575"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "Therefore the 2-, 5-, 10-, 25-, 50-, and 100-year, 6-hour and 24-hour point precipitation values are read from Figures 501 through 512.",
+      "page_or_section": "PDF p. 94 · found by QA search"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "The Regional Flood Control Facilities consist of channels, storm sewers, bridges, detention areas, and other facilities which carry runoff from on-site and off-site facilities to an ultimate outfall location.",
+      "page_or_section": "PDF p. 43 · found by QA search"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Hydraulic calculations for culverts and storm drains.",
+      "page_or_section": "PDF p. 645 · found by QA search"
     }
   ],
   "extraction_quality": {

@@ -122,6 +122,11 @@
       "field": "design_parameters.mtd_verification_program",
       "excerpt": "The field data must meet the statistical goals set out in the TAPE guidelines (Appendix D).",
       "page_or_section": "Chapter 6 – Conditional Use Level Designation"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "Spokane for the 2-, 10-, 25-, 50-, and 100-year storm events.",
+      "page_or_section": "PDF p. 139 · found by QA search"
     }
   ],
   "extraction_quality": {

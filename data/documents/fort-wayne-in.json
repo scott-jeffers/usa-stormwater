@@ -128,6 +128,11 @@
       "field": "design_parameters.swale_longitudinal_slope_percent",
       "excerpt": "Longitudinal Slope: Max. 4%, 0% slope less than 25'",
       "page_or_section": "Figure SW11.16 / page 212"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "Documentation of Water Quality Volume Calculations that include impacts for 2 year event and 100 year event.",
+      "page_or_section": "PDF p. 142 · found by QA search"
     }
   ],
   "extraction_quality": {

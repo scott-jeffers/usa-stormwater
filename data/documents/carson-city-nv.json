@@ -81,6 +81,11 @@
       "field": "design_parameters.length_to_width_ratio",
       "excerpt": "Length to width ratio of at least 1.5:1 where feasible",
       "page_or_section": "Extended detention design and sizing guidelines, page 117"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "Flow based post-construction water quality controls shall be designed to capture and treat the flow rate for the 2-year runoff event from the drainage area connected to the BMP.",
+      "page_or_section": "PDF p. 10 · found by QA search"
     }
   ],
   "extraction_quality": {

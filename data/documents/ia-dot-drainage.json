@@ -22,7 +22,18 @@
       "Detention Basin"
     ]
   },
-  "evidence": [],
+  "evidence": [
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "In this manual, a minor design storm is generally taken to be a storm event that has a 10% probability of being equaled or exceeded in any year (often referred to as the 10 year storm).",
+      "page_or_section": "PDF p. 1 · found by QA search"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "In this manual, a major design storm is generally taken to be a storm event that has a 1% probability of being equaled or exceeded in any year (often referred to as the 100 year storm).",
+      "page_or_section": "PDF p. 1 · found by QA search"
+    }
+  ],
   "extraction_quality": {
     "confidence": "medium",
     "needs_human_review": true,

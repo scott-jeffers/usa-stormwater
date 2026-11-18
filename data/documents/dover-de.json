@@ -70,6 +70,16 @@
       "field": "design_parameters.permanent_pool_depth_inches",
       "excerpt": "Minimum depth = 4'; maximum depth = 8'",
       "page_or_section": "13.2 Wet Pond Practice Summary, Section 13.6 Geometry, page 5"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "The total storage, including any ponding for larger flooding events (100-year storm) should not extend more than 5 feet above the permanent pool unless specific design enhancements to ensure side slope stability, safety, and maintenance are identified and approved.",
+      "page_or_section": "PDF p. 12 · found by QA search"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "For treatment train designs where upland practices are utilized for treatment of the resource protection storm (RPv), designers can use a site-adjusted runoff curve number (RCN) that reflects the volume reduction of upland practices to compute the Cv and Fv that will be treated by the Wet Pond.",
+      "page_or_section": "PDF p. 11 · found by QA search"
     }
   ],
   "extraction_quality": {

@@ -78,6 +78,26 @@
       "field": "design_parameters.length_to_width_ratio",
       "excerpt": "The length-to-width ratio should be at least 3:1.",
       "page_or_section": "10.12.3 / page 557"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "changed section deleted detention basin design moved to Section 10.11 new section – Temporary Sediment Trap all of section changed changed \"dry pond\" to \"dry detention basin\" and removed regulatory discussion (moved to Section 10.11.2) riser diameter changed to riser circumference (p.",
+      "page_or_section": "PDF p. 7 · found by QA search"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "ALL REVISIONS TO CONNDOT DRAINAGE MANUAL (NOVEMBER 2017) SECTION REVISION DATE NOTES 10.11.2 December 2003 new section (Regulatory Considerations) 10.11.3 December 2003 new section (Sizing Requirements) 10.11.4 December 2003 new section (Outlets) 10.11.5 December 2003 new section (Embankment Cross Sections) 10.12 December 2003 all of section changed 10.12.1 December 2003 changed \"wet pond\" to \"wet",
+      "page_or_section": "PDF p. 8 · found by QA search"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "Shall have minimum flow capacity of a flood equal to at least 25 year frequency flood.",
+      "page_or_section": "PDF p. 249 · found by QA search"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "Small structures shall be designed to pass a 50-year frequency discharge as outlined in the Hydrology chapter.",
+      "page_or_section": "PDF p. 440 · found by QA search"
     }
   ],
   "extraction_quality": {

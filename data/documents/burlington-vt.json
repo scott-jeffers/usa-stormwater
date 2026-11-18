@@ -97,6 +97,41 @@
       "field": "design_parameters.swale_longitudinal_slope_percent",
       "excerpt": "Open channels constructed without check dams shall have a maximum longitudinal slope of 2%",
       "page_or_section": "Section 4.3.2.2, page 114"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "fps) peak velocity for the 1-year storm Safe conveyance of the 10-year storm Overflow Stabilized channel required if overflow above practice capacity will exceed erosive velocities.",
+      "page_or_section": "PDF p. 124 · found by QA search"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "More rigorous and detailed hydraulic analyses may be required for evaluation of the 100-year 24-hour design storm.",
+      "page_or_section": "PDF p. 28 · found by QA search"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "The following equation shall be used to determine the treatment volume needed to comply with the WQTS in acrefeet of storage: WQv = (P)(Rv)(A) 12 where: WQv = water quality treatment volume (acre-feet) P = 1.0 inch across Vermont Rv = volumetric runoff coefficient, equal to: [0.05 + 0.009(I)] I = whole number percent impervious of the site A = site area (in acres) In association with the 90% rule,",
+      "page_or_section": "PDF p. 16 · found by QA search"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "discharge rate of the water quality storm using a computer aided hydrologic model (TR-55, TR-20, or an approved equivalent).",
+      "page_or_section": "PDF p. 17 · found by QA search"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "(acres) Runoff depth (Q) shall be calculated by the NRCS Runoff methods or approved equivalent pre and postdevelopment condition. 𝑄𝑄 = (𝑃𝑃 − 0.2 ∗ 𝑆𝑆)2 𝑃𝑃 + 0.8 ∗ 𝑆𝑆 where: Q = runoff depth in inches P = precipitation in inches 𝑆𝑆 = 1000/𝐶𝐶𝐶𝐶 − 10 The standard for characterizing the pre-development land use shall be woods in good calculation.",
+      "page_or_section": "PDF p. 18 · found by QA search"
+    },
+    {
+      "field": "design_criteria.required_hydrologic_hydraulic_software",
+      "excerpt": "discharge rate of the water quality storm using a computer aided hydrologic model (TR-55, TR-20, or an approved equivalent).",
+      "page_or_section": "PDF p. 17 · found by QA search"
+    },
+    {
+      "field": "design_criteria.required_hydrologic_hydraulic_software",
+      "excerpt": "Vermont Stormwater Treatment Standards Section 2.0 necessary (e.g., a HECRAS water surface profile analysis or approved equivalent).",
+      "page_or_section": "PDF p. 28 · found by QA search"
     }
   ],
   "extraction_quality": {

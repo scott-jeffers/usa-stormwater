@@ -53,6 +53,26 @@
       "field": "design_parameters.practice_mentions.extended_detention",
       "excerpt": "The entire discharge hydrograph shall be used for the design of facilities which are intended to control volume of runoff, such as detention facilities.",
       "page_or_section": "Section V-01 Hydrology, page 1 (V–01 intro)"
+    },
+    {
+      "field": "design_criteria.required_hydrologic_hydraulic_software",
+      "excerpt": "HY- 8 FHWA Hydraulic Design of Highway Culverts HEC-HMS USACE Hydrologic Modeling System HEC-RAS USACE Hydrologic Engineering Center River Analysis System FHWA Hydraulic Toolbox Aquaveo Surface-water Modeling System (SMS/SRH-2D) PeakFQ Annual Flood Frequency Analysis Using Bulletin 17C and Bulletin 17B Guidelines",
+      "page_or_section": "PDF p. 12 · found by QA search"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "Abrasion velocities based on a 2 year design frequency.",
+      "page_or_section": "PDF p. 78 · found by QA search"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "alternatives all maintained flow velocities at the structure below 5 feet per second during a 50-year flood event.",
+      "page_or_section": "PDF p. 19 · found by QA search"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "For sites with upstream buildings which may be affected by high-flow events, the 500-year discharge shall also be determined.",
+      "page_or_section": "PDF p. 5 · found by QA search"
     }
   ],
   "extraction_quality": {

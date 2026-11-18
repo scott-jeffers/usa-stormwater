@@ -75,6 +75,21 @@
       "field": "design_parameters.practice_mentions.infiltration_basin",
       "excerpt": "Additional BMPs include natural infiltration areas, dry detention ponds, and infiltration trenches.",
       "page_or_section": "INTRODUCTION, page 2"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "The principal spillway shall be designed for the 10-year pre-development storm event.",
+      "page_or_section": "PDF p. 3 · found by QA search"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "The emergency spillway shall be designed to safely convey the 100-year storm event. o.",
+      "page_or_section": "PDF p. 3 · found by QA search"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Additional BMPs include natural infiltration areas, dry detention ponds, and infiltration trenches.",
+      "page_or_section": "PDF p. 2 · found by QA search"
     }
   ],
   "extraction_quality": {

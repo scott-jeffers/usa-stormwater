@@ -61,6 +61,26 @@
       "field": "design_parameters.practice_mentions.swale",
       "excerpt": "Grate Inlet. A drainage inlet composed of a grate in the roadway section or in the roadside swale or channel.",
       "page_or_section": "Section 5.1.4 Definitions (page 5-2)"
+    },
+    {
+      "field": "design_criteria.required_hydrologic_hydraulic_software",
+      "excerpt": "The MDOT SHA allows the use of many up-to-date versions of the government software packages (such as TVHG from MDOT SHA, WinTR-20 from NRCS, Hydraulic Toolbox from FHWA, and HEC-RAS from USACE), as well as many proprietary software packages (such as HydroCAD or Bentley OpenRoads Designer) but does not necessarily approve or endorse the use of all computational methodologies / routines within these software packages.",
+      "page_or_section": "PDF p. 15 · found by QA search"
+    },
+    {
+      "field": "design_criteria.required_hydrologic_hydraulic_software",
+      "excerpt": "HY-8: Software that automates the design methods described in HDS No.",
+      "page_or_section": "PDF p. 101 · found by QA search"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "Projected rainfall ratios are storm event dependent, ratios for the 10-year storm should not be applied to rainfalls from the 50-year storm.",
+      "page_or_section": "PDF p. 40 · found by QA search"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "The land use culvert shall be sized to ensure it can serve its intended land use function up to and including a 2-year flood.",
+      "page_or_section": "PDF p. 84 · found by QA search"
     }
   ],
   "extraction_quality": {

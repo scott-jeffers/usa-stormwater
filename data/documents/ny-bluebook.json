@@ -124,6 +124,21 @@
       "field": "design_parameters.max_drawdown_hours",
       "excerpt": "sediment traps and basins should have their temporary storage dewatered over a 48 hour period",
       "page_or_section": "page 5.10, Dewatering Drawdown (sediment control—not assigned to SCM max drawdown field)"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "We want to protect the site for the 2- year, 24-hour storm.",
+      "page_or_section": "PDF p. 293 · found by QA search"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "This process imports rainfall values from the 1 year to the 500 year storm.",
+      "page_or_section": "PDF p. 297 · found by QA search"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "Existing drainage patterns, 100 year floodplain and sub-areas shown, runoff outfall locations identified ____ ____ 9.",
+      "page_or_section": "PDF p. 333 · found by QA search"
     }
   ],
   "extraction_quality": {

@@ -53,6 +53,16 @@
       "field": "design_criteria.peak_flow_calculation_method",
       "excerpt": "s. The two analytic methods are: 1. The Rational Method. Used for uniform drainage areas that are less than 160 acres in size. 2",
       "page_or_section": null
+    },
+    {
+      "field": "design_criteria.required_hydrologic_hydraulic_software",
+      "excerpt": "Execute the HEC-HMS model.",
+      "page_or_section": "PDF p. 98 · found by QA search"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "Develop the D-D-F table for storm frequencies: 1-year, 2-year, 5-year, 10-year, 25-year, 50- year, 100-year, and 500-year and durations: 5-minutes, 10-minutes, 15-minutes, 30- minutes, 60-minutes, 2-hours, 3-hours, 6-hours, 12-hours and 24-hours.",
+      "page_or_section": "PDF p. 18 · found by QA search"
     }
   ],
   "extraction_quality": {

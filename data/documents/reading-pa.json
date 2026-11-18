@@ -63,6 +63,26 @@
       "field": "design_parameters.swale_bottom_width_inches",
       "excerpt": "Bottom widths range from two feet to eight feet.",
       "page_or_section": "Page 3-96 / Vegetated Conveyance — range only, no single design width"
+    },
+    {
+      "field": "design_parameters.shwt_separation_inches",
+      "excerpt": "Maintain a minimum 2-foot separation to bedrock and seasonally high-water table.",
+      "page_or_section": "PDF p. 166 · found by QA search"
+    },
+    {
+      "field": "design_parameters.bioretention_media_depth_min_inches",
+      "excerpt": "Soil media depth should be at least 18 inches.",
+      "page_or_section": "PDF p. 174 · found by QA search"
+    },
+    {
+      "field": "design_parameters.ed_drain_time_hours",
+      "excerpt": "Should be designed to drain within 72 hours.",
+      "page_or_section": "PDF p. 277 · found by QA search"
+    },
+    {
+      "field": "design_parameters.length_to_width_ratio",
+      "excerpt": "The length to width ratio of the forebay should be 2:1 or greater.",
+      "page_or_section": "PDF p. 612 · found by QA search"
     }
   ],
   "extraction_quality": {

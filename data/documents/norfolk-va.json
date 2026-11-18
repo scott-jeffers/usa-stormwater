@@ -204,6 +204,11 @@
       "field": "design_parameters.practice_mentions.sand_filter",
       "excerpt": "Enhance sand filter media with a layer of organic matter.",
       "page_or_section": "Appendix (Structural BMP / bacteria guidance)"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "(ii) 1-, 2-, and 10-year 24-hour storm events (NOAA Atlas 14); and (iii) the seasonal high groundwater table (GWT).",
+      "page_or_section": "PDF p. 28 · found by QA search"
     }
   ],
   "extraction_quality": {

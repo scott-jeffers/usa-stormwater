@@ -54,6 +54,11 @@
       "field": "design_parameters.practice_mentions.permeable_pavement",
       "excerpt": "2.7.4 Pervious Concrete ... pervious concrete \"is usually part of a water management system used to reduce runoff rates and volumes from on-grade surfaces such as patios, walkways, driveways, fire lanes, and parking spaces\"",
       "page_or_section": "Summary of Changes 6th Edition Draft, page 195"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "In addition, post-development peak discharges may not exceed pre-development peak discharges for the 2-, 10-, 50-, and 100-year storm events for the design of detention basins.",
+      "page_or_section": "PDF p. 116 · found by QA search"
     }
   ],
   "extraction_quality": {

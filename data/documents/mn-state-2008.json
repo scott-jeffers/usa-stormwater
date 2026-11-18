@@ -187,6 +187,11 @@
       "field": "design_parameters.design_infiltration_rate_in_per_hr",
       "excerpt": "Native soils with f>=0.2 in/hr",
       "page_or_section": "Table 7.8, page 182"
+    },
+    {
+      "field": "design_parameters.permanent_pool_depth_inches",
+      "excerpt": "Permanent pool depth 3’ minimum, 10’ maximum",
+      "page_or_section": "PDF p. 461 · found by QA search"
     }
   ],
   "extraction_quality": {

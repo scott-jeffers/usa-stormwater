@@ -153,6 +153,16 @@
       "field": "design_parameters.swale_longitudinal_slope_percent",
       "excerpt": "A minimum slope of 0.5% must be maintained to ensu",
       "page_or_section": "Appendix B, Grass Channel (tn-state-c0313)"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "Channel protection is performed when outflow rates from ﬂood controls are held at or below the 1-year or 2-year return design storm.",
+      "page_or_section": "PDF p. 60 · found by QA search"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "This is calculated by reducing the allowable peak ﬂow rate resulting from the 1.5-, 2-, and 10-year, 24-hour storms to a level that is less than or equal to the peak ﬂow rate from the site assuming the site was in a good Tennessee Permanent Stormwater Management and Design Guidance Manual Appendix B-13 Appendix B",
+      "page_or_section": "PDF p. 340 · found by QA search"
     }
   ],
   "extraction_quality": {

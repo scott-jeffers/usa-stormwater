@@ -83,6 +83,16 @@
       "field": "design_parameters.bioretention_ponding_depth_inches",
       "excerpt": "depth of ponding should generally be less than 6 inches, but may be designed up to 12 inches",
       "page_or_section": "CHAPTER 2 Bioretention, page 80"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "Design Storm Peak Discharge Rate (cfs) 24-hour Runoff Volume (show units) Percent Increase Design Discharge (cfs) Pre-Development Post- Development 1-year 2-year 5-year 10-year 25-year 50-year 100-year 3.",
+      "page_or_section": "PDF p. 83 · found by QA search"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "Manning’s Equation or other suitable method should be used to determine design velocity.",
+      "page_or_section": "PDF p. 94 · found by QA search"
     }
   ],
   "extraction_quality": {

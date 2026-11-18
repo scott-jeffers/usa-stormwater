@@ -63,6 +63,16 @@
       "field": "design_parameters.practice_mentions.swale",
       "excerpt": "and depending upon native soils, vegetated swales, level spreader-filter strips, and berms.",
       "page_or_section": "GENERAL MDC 2: CONTAMINATED SOILS., page 2"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "The outlets of SCMs shall be designed so that they do not cause erosion immediately downslope of the discharge point during the peak flow from the 10-year storm event as shown by engineering calculations.",
+      "page_or_section": "PDF p. 3 · found by QA search"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Some SCMs that allow water to infiltrate include: infiltration systems, bioretention cells, permeable pavement, and depending upon native soils, vegetated swales, level spreader-filter strips, and berms.",
+      "page_or_section": "PDF p. 2 · found by QA search"
     }
   ],
   "extraction_quality": {

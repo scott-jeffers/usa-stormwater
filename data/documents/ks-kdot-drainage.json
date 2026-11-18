@@ -42,6 +42,16 @@
       "field": "design_parameters.practice_mentions.extended_detention",
       "excerpt": "1.5.5 Detention-Storage Structures The plans and supporting documents should include the pertinent information regarding detention requirements that impact construction.",
       "page_or_section": "1.5.5 Detention-Storage Structures, page 1-28"
+    },
+    {
+      "field": "design_criteria.required_hydrologic_hydraulic_software",
+      "excerpt": "Army Corps of Engineers computer program for flood hydrograph simulation HEC-HMS Hydrologic Modeling System: U.",
+      "page_or_section": "PDF p. 6 · found by QA search"
+    },
+    {
+      "field": "design_criteria.required_hydrologic_hydraulic_software",
+      "excerpt": "elevation for a culvert (ft) HY-8 FHWA computer program for hydraulic analysis and design of culverts and energy dissipators i Point rainfall intensity in the Rational formula (in./hr) I Moment of inertia of pipe wall (in.4/in.) IA Basin-average rainfall intensity (in/hr) K Bedding constant in deflection formula for corrugated metal pipe K Hydraulic conveyance of roadway and gutter (cfs) Drainage",
+      "page_or_section": "PDF p. 7 · found by QA search"
     }
   ],
   "extraction_quality": {

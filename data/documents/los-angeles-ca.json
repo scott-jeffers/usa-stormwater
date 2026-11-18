@@ -161,6 +161,11 @@
       "field": "design_parameters.swale_bottom_width_inches",
       "excerpt": "The minimum width of the vegetated swale bottom is two feet to allow for ease of mowing.",
       "page_or_section": "Appendix D VEG-3 Geometry, D-87"
+    },
+    {
+      "field": "design_parameters.bioretention_media_depth_min_inches",
+      "excerpt": "dpm Depth of planting media layer (min 2 ft) [ft]",
+      "page_or_section": "PDF p. 298 · found by QA search"
     }
   ],
   "extraction_quality": {

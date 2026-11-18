@@ -100,6 +100,11 @@
       "field": "design_parameters.ed_drain_time_hours",
       "excerpt": "The release rate for both the WQv and SPv shall discharge the ED volume in a period of 24 hours or longer.",
       "page_or_section": "3.8.3.3 Outlet Structures, page 99"
+    },
+    {
+      "field": "design_parameters.swale_longitudinal_slope_percent",
+      "excerpt": "However, slope <1% may lead to standing water in dry swales Often infeasible if slopes are 4% or greater Channels, Grass Channels, Open Chemical Treatment Alum Treatment System Conveyance System Components Culverts Energy Dissipation Inlets/Street Gutters Pipe Systems Detention Detention, Dry Embankment heights restricted Require poly or clay liner, Max ponding depth, Geotechnical tests Detention,",
+      "page_or_section": "PDF p. 116 · found by QA search"
     }
   ],
   "extraction_quality": {

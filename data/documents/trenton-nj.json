@@ -72,6 +72,21 @@
       "field": "design_parameters.swale_longitudinal_slope_percent",
       "excerpt": "In sloped-bottom systems, the maximum longitudinal slope is 10%.",
       "page_or_section": "Ch. 9.7 Bioretention Swale, page 22"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "7:8-5.6(b) for the current and projected 2-, 10-, and 100-year storms.",
+      "page_or_section": "PDF p. 34 · found by QA search"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "The reduced curve number method is illustrated in Example 1 of Chapter 9.6: Pervious Paving Systems and the example in Chapter 9.4: Green Roofs of the BMP Manual.",
+      "page_or_section": "PDF p. 24 · found by QA search"
+    },
+    {
+      "field": "design_parameters.wqv_depth_inches",
+      "excerpt": "The accumulative distribution curve for rainfall depth, shown in Figure 5-10, is a graphical representation of 1.25 inches of rainfall falling in the 2-hour NJDEP WQDS.",
+      "page_or_section": "PDF p. 17 · found by QA search"
     }
   ],
   "extraction_quality": {

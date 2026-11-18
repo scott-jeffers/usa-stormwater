@@ -75,6 +75,11 @@
       "field": "design_parameters.ed_drain_time_hours",
       "excerpt": "released over a period of 24-hours",
       "page_or_section": "south-carolina-manual-c0059, page 139 (Extended Detention Shallow Wetland)"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "5 to 10 year cycle, after 25% of the permanent pool volume is filled Stormwater BMP Field Manual 02/2025",
+      "page_or_section": "PDF p. 131 · found by QA search"
     }
   ],
   "extraction_quality": {

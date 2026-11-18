@@ -74,6 +74,16 @@
       "field": "design_parameters.design_infiltration_rate_in_per_hr",
       "excerpt": "The design infiltration rate shall be 20% of the rate determined by the soils report",
       "page_or_section": "Chapter 6, 6.8.2 B. KCBMP Sections 8.1-8.3 item 1"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "2.3 WATER QUALITY HYDROLOGY METHODS Sizing BMPs properly is critical to their success.",
+      "page_or_section": "PDF p. 42 · found by QA search"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "Detention/retention facilities shall have 1,000 acres or less area tributary to the facility.",
+      "page_or_section": "PDF p. 87 · found by QA search"
     }
   ],
   "extraction_quality": {

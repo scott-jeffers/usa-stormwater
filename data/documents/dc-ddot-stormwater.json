@@ -92,6 +92,16 @@
       "field": "design_parameters.permeable_pavement_storage_depth_inches",
       "excerpt": "with a minimum of 6\" where above tree soil volume, and a minimum of 4\" otherwise",
       "page_or_section": "33.14.4.3 Pedestrian Use Permeable Pavement Systems"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "The reservoir will be sized so that the runoff associated with the 2 year, 24 hour frequency storm does not surcharge the wearing surface at the low end of the facility.",
+      "page_or_section": "PDF p. 27 · found by QA search"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Bioretention in Open Area: diaphragm, or grass filter strip.",
+      "page_or_section": "PDF p. 32 · found by QA search"
     }
   ],
   "extraction_quality": {

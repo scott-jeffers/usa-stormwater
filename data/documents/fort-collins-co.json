@@ -41,6 +41,16 @@
       "field": "design_parameters.practice_mentions.wqv_depth_inches",
       "excerpt": "Water Quality Capture Volume (WQCV): This volume represents runoff from frequent storm events such as the 80th percentile storm.",
       "page_or_section": "Chapter 1 (page 11)"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "Excess Urban Runoff Volume (EURV): EURV represents the difference between the developed and pre-developed runoff volume for the range of storms that produce runoff from pervious land surfaces (generally greater than the 2-year event).",
+      "page_or_section": "PDF p. 11 · found by QA search"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "This manual provides design guidance for BMPs providing treatment of the WQCV, including permeable pavement systems with subsurface storage, bioretention, extended detention basins, sand filters, constructed wetland ponds, and retention ponds.",
+      "page_or_section": "PDF p. 19 · found by QA search"
     }
   ],
   "extraction_quality": {

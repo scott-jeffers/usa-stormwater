@@ -76,6 +76,26 @@
       "field": "design_parameters.practice_mentions.permeable_pavement",
       "excerpt": "Provide an overflow lot utilizing grass or alternative pavers for peak demand parking.",
       "page_or_section": "Appendix B, page xcviii (98)"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "If the discharge is directly or indirectly to a stream, the discharge flow rate shall not exceed 50% of the peak flow rate of the 2-year, 24-hour event for all storm events up to the 10-year, 24-hour event.",
+      "page_or_section": "PDF p. 86 · found by QA search"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "These outlets must pass the peak runoff expected from the contributing drainage area for a 100-year storm.",
+      "page_or_section": "PDF p. 80 · found by QA search"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "Temporary secondary containment facilities shall provide for a spill containment volume able to contain precipitation from a 25 year, 24 hour storm event, plus 10% of the total enclosed container volume of all containers, or 110% of the capacity of the largest container within its boundary, whichever is greater.",
+      "page_or_section": "PDF p. 21 · found by QA search"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "If no hydrologic analysis is required, the Rational Method may be used.",
+      "page_or_section": "PDF p. 78 · found by QA search"
     }
   ],
   "extraction_quality": {

@@ -28,72 +28,15 @@ import {
   tokenize,
   valueAppearsIn,
   isNumberToken,
-  type SourcePage,
 } from "../../lib/qa/evidenceMatch";
 import { QA_EVIDENCE_PATH, evidenceQaFileSchema } from "../../lib/qa/types";
+import { lcs, postingsOf, readPageSources as readPages, sentencesOf, type Sentence } from "../../lib/qa/sentences";
 
 const DOCS = path.resolve(process.cwd(), "data/documents");
-const CORPUS = path.resolve(process.cwd(), "data/corpus");
 const args = process.argv.slice(2);
 const dryRun = args.includes("--dry-run");
 const only = args.filter((a) => !a.startsWith("-"));
 const TODAY = new Date().toISOString().slice(0, 10);
-
-function readPages(slug: string): SourcePage[][] {
-  return ["pages.json", "pages-alt.json"]
-    .map((f) => path.join(CORPUS, slug, f))
-    .filter((p) => existsSync(p))
-    .map((p) =>
-      (JSON.parse(readFileSync(p, "utf-8")).pages as Array<{ page: number | string; text: string }>).map(
-        (pg, i) => ({ page: Number(pg.page) || i + 1, text: pg.text ?? "" })
-      )
-    );
-}
-
-interface Sentence {
-  text: string;
-  page: number;
-  tokens: string[];
-}
-
-/** Split page text into sentence-sized verbatim passages. */
-function sentencesOf(pages: SourcePage[]): Sentence[] {
-  const out: Sentence[] = [];
-  for (const p of pages) {
-    const flat = p.text
-      .replace(/([A-Za-z])-[ \t]*\r?\n[ \t]*([a-z])/g, "$1$2")
-      .replace(/\s+/g, " ")
-      .trim();
-    // sentences, plus bullet items (•, ●, ▪, ◦, "o ", symbol-font bullets)
-    const parts = flat.split(
-      /(?<=[.;!?])\s+(?=[A-Z(“"•\d])|\s*[•●▪◦\uf000-\uf8ff]\s*|\s+o\s+(?=[A-Z])|\s{2,}(?=[A-Z])/
-    );
-    for (let part of parts) {
-      part = part.trim();
-      while (part.length > 420) {
-        const cut = part.lastIndexOf(" ", 400);
-        const head = part.slice(0, cut > 100 ? cut : 400);
-        out.push({ text: head, page: p.page, tokens: tokenize(head) });
-        part = part.slice(head.length).trim();
-      }
-      if (part.length >= 25) out.push({ text: part, page: p.page, tokens: tokenize(part) });
-    }
-  }
-  return out;
-}
-
-function lcs(a: string[], b: string[]): number {
-  const m = b.length;
-  let prev = new Uint16Array(m + 1);
-  let row = new Uint16Array(m + 1);
-  for (let i = 1; i <= a.length; i++) {
-    for (let j = 1; j <= m; j++) {
-      row[j] = a[i - 1] === b[j - 1] ? prev[j - 1]! + 1 : Math.max(prev[j]!, row[j - 1]!);
-    }
-    [prev, row] = [row, prev];
-  }
-  return prev[m]!;
-}
 
 type FieldKind = "numeric" | "storms" | "criteria_text" | "metadata" | "other";
 
@@ -210,14 +153,7 @@ function main() {
       continue;
     }
     const sentences = sources.flatMap((p) => sentencesOf(p));
-    const postings = new Map<string, number[]>();
-    sentences.forEach((s, id) => {
-      for (const t of new Set(s.tokens)) {
-        const arr = postings.get(t);
-        if (arr) arr.push(id);
-        else postings.set(t, [id]);
-      }
-    });
+    const postings = postingsOf(sentences);
     const indexes = sources.map((p) => new SourceIndex(p));
 
     const keep = new Array<boolean>(doc.evidence.length).fill(true);

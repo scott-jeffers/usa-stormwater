@@ -102,6 +102,11 @@
       "field": "design_parameters.shwt_separation_inches",
       "excerpt": "Groundwater separation must be at least 5 feet between bottom of the basin, trench, or dry well and the measured seasonally high groundwater surface elevation",
       "page_or_section": "Section 6.7, page 146"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "The BMP Inspection/Maintenance Checklists are presented in the following order: Bioretention/Planter Box Vegetated Swale Filter Vegetated Filter Strip Sand Filter Infiltration BMPs Permeable Pavement Constructed Treatment Wetland Wet Retention Basin Dry Extended Detention Basin Proprietary Devices",
+      "page_or_section": "PDF p. 359 · found by QA search"
     }
   ],
   "extraction_quality": {

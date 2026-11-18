@@ -43,6 +43,21 @@
       "field": "design_parameters.practice_mentions.extended_detention",
       "excerpt": "DR 900: Storage. Design criteria and procedures for reducing peak flows via storage methods such as culvert sizing and detention/retention basins.",
       "page_or_section": "DR-101.2 LOCATING INFORMATION, page 2"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "HEC has developed and maintains programs that compute runoff and flood profiles, the most familiar being HECHMS and HEC-RAS.",
+      "page_or_section": "PDF p. 10 · found by QA search"
+    },
+    {
+      "field": "design_criteria.required_hydrologic_hydraulic_software",
+      "excerpt": "HEC has developed and maintains programs that compute runoff and flood profiles, the most familiar being HECHMS and HEC-RAS.",
+      "page_or_section": "PDF p. 10 · found by QA search"
+    },
+    {
+      "field": "design_criteria.required_hydrologic_hydraulic_software",
+      "excerpt": "Documentation for TR-55 can be found online at: https://www.hydrocad.net/pdf/TR-55 Manual.pdf The TR-55 program download can be found online at: https://www.nrcs.usda.gov/resources?title=&resource_type=1970 Soil survey information is available online at: https://websoilsurvey.sc.egov.usda.gov/App/HomePage.htm The interactive Web Soil Survey application provides online access to soil maps and data nationwide.",
+      "page_or_section": "PDF p. 10 · found by QA search"
     }
   ],
   "extraction_quality": {

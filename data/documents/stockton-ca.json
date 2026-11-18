@@ -98,6 +98,16 @@
       "field": "design_parameters.length_to_width_ratio",
       "excerpt": "Pond length to width ratio 2:1 Minimum (larger preferred)",
       "page_or_section": "Table 6-39 Wet Pond Design Criteria / page 186 (stockton-ca-c0183)"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "TREATMENT CONTROLS 6.1 INTRODUCTION Treatment Controls are required in addition to Site Design Controls, Source Controls and VRMs to reduce pollutants in stormwater discharges to the MEP.",
+      "page_or_section": "PDF p. 82 · found by QA search"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "The VRR must be met through the combination of Volume Reduction Measures (VRMs) (e.g., rain barrels) and LID Treatment Controls (e.g., bioretention areas) to maintain the runoff volume from the proposed project site for a specified design storm depth at or below pre-project runoff volumes.",
+      "page_or_section": "PDF p. 9 · found by QA search"
     }
   ],
   "extraction_quality": {

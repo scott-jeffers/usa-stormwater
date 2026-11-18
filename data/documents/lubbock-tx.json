@@ -99,6 +99,11 @@
       "field": "design_parameters.practice_mentions.swale",
       "excerpt": "Enhanced Swales — Vegetated open channels that are explicitly designed and constructed to capture and treat stormwater runoff within dry or wet cells formed by check dams or other means.",
       "page_or_section": "Table 9-1, page 9-2"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "An example table for submittal of Modified Rational Method calculations in an acceptable format is provided in the appendix.",
+      "page_or_section": "PDF p. 103 · found by QA search"
     }
   ],
   "extraction_quality": {

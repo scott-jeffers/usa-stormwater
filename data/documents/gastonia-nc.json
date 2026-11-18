@@ -36,6 +36,16 @@
       "field": "design_parameters.wqv_depth_inches",
       "excerpt": "Rule 15A NCAC 02H .1021(6) requires that for projects designed to achieve runoff treatment, the required storm depth is one inch for non-coastal HQW and ORW management zones.",
       "page_or_section": "GENERAL MDC 1. SIZING., page 2"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "The outlets of SCMs shall be designed so that they do not cause erosion immediately downslope of the discharge point during the peak flow from the 10-year storm event as shown by engineering calculations.",
+      "page_or_section": "PDF p. 3 · found by QA search"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Some SCMs that allow water to infiltrate include: infiltration systems, bioretention cells, permeable pavement, and depending upon native soils, vegetated swales, level spreader-filter strips, and berms.",
+      "page_or_section": "PDF p. 2 · found by QA search"
     }
   ],
   "extraction_quality": {

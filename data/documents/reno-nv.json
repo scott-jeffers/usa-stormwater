@@ -141,6 +141,16 @@
       "field": "design_parameters.swale_longitudinal_slope_percent",
       "excerpt": "Low flow channels should be designed with a minimum continuous grade of 0.5 percent.",
       "page_or_section": "Section 4.7 / vector control, page 4-24"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "When ‘I’ equals the rainfall intensity for the 2-year storm event, Q2 = WQF.",
+      "page_or_section": "PDF p. 93 · found by QA search"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "Since conventional storm drainage systems are typically constructed to convey flows from the larger storm events (the 5-year up to the 100-year peak flow) without regard for treatment, the design engineer must ensure there is sufficient capacity in the diversion structure to accommodate overflows.",
+      "page_or_section": "PDF p. 98 · found by QA search"
     }
   ],
   "extraction_quality": {

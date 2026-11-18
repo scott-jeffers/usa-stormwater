@@ -39,6 +39,26 @@
       "field": "design_criteria.peak_flow_calculation_method",
       "excerpt": "10 square miles • NRCS TR-55 Method. • Rational Method. Is generally used for storm sewer design and is limited to small waters",
       "page_or_section": null
+    },
+    {
+      "field": "design_criteria.required_hydrologic_hydraulic_software",
+      "excerpt": "Design Manual Hydraulics Section 600.00 640.00 – CULVERTS It is highly recommended the HY-8 computer program be used for culvert design.",
+      "page_or_section": "PDF p. 10 · found by QA search"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "The 500-year flood can be established by gauge records if sufficient data is available.",
+      "page_or_section": "PDF p. 5 · found by QA search"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "High Water is defined as the water surface elevation at the inlet of the culvert for the 50-year flood event.",
+      "page_or_section": "PDF p. 11 · found by QA search"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "For culverts less than 12 feet wide that have a closed bottom (including those with the invert lowered) the design flood will be a 25-year flood.",
+      "page_or_section": "PDF p. 5 · found by QA search"
     }
   ],
   "extraction_quality": {

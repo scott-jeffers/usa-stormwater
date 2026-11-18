@@ -58,6 +58,16 @@
       "field": "design_parameters.practice_mentions.infiltration_basin",
       "excerpt": "natural depressions to allow infiltration of runoff onsite",
       "page_or_section": "page 95, Post-Construction Stormwater Management"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "SOUTH DAKOTA 2-year 24-hour precipitation in inches",
+      "page_or_section": "PDF p. 139 · found by QA search"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Erosion Control for Bridge: The Department will not measure for erosion and sediment control for bridge.",
+      "page_or_section": "PDF p. 217 · found by QA search"
     }
   ],
   "extraction_quality": {

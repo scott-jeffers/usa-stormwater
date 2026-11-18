@@ -109,6 +109,16 @@
       "field": "design_parameters.ed_drain_time_hours",
       "excerpt": "The first method of providing stream bank protection is the extended detention of the 1-year, 24-hour storm for a period of 24 hours using BMPs.",
       "page_or_section": "VOL 1, Standard #5 – Stream Channel Protection, page 120"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "Overlay Analysis – Performs integration of different data layers (e.g., What is the SCS curve number for this sub-watershed considering soils and land use?)",
+      "page_or_section": "PDF p. 163 · found by QA search"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "Smaller storm events (e.g., 2-year and 10-year) are effectively controlled through a combination of extended detention for the 1-year, 24-hour event (channel protection) and control of the 25-year peak rate for overbank flood protection.",
+      "page_or_section": "PDF p. 121 · found by QA search"
     }
   ],
   "extraction_quality": {

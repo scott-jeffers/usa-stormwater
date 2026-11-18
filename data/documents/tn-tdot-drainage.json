@@ -32,6 +32,11 @@
       "field": "design_criteria.peak_flow_calculation_method",
       "excerpt": "gutter is typically evaluated using the Rational Method (see Chapter 4 of this Manual) and the spread is determined by examining",
       "page_or_section": null
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "4 An HGL check for the 50-year storm should be performed for all pipes designed for the 10- year storm.",
+      "page_or_section": "PDF p. 8 · found by QA search"
     }
   ],
   "extraction_quality": {

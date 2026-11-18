@@ -57,6 +57,36 @@
       "field": "design_parameters.ed_drain_time_hours",
       "excerpt": "Surface ponding drawdown time is between 24 and 96 hours.",
       "page_or_section": "Appendix E dry extended detention, page 439"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "For flow rates ranging from 10 percent, 30 percent or 50 percent of the pre-development 2- year runoff event (0.1Q2, 0.3Q2, or 0.5Q2) to the pre-development 10-year runoff event (Q10), the post-project discharge rates and durations must not exceed the pre-development rates and durations by more than 10 percent.",
+      "page_or_section": "PDF p. 115 · found by QA search"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "Size overflow structure to pass 100-year peak flow.",
+      "page_or_section": "PDF p. 440 · found by QA search"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "Refer to Appendix G of this manual for guidance for continuous simulation hydrologic modeling.",
+      "page_or_section": "PDF p. 121 · found by QA search"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "A runoff factor (similar to a “C” factor used in the rational method) should be used to estimate the runoff draining to the BMP.",
+      "page_or_section": "PDF p. 71 · found by QA search"
+    },
+    {
+      "field": "design_criteria.required_hydrologic_hydraulic_software",
+      "excerpt": "San Diego Hydrology Model User Manual.",
+      "page_or_section": "PDF p. 145 · found by QA search"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Participation in an offsite stormwater alternative compliance program would allow a PDP to fulfill the requirement of providing retention and/or biofiltration pollutant controls onsite that completely fulfill the performance standards specified in Chapter 5 (pollutant controls) with onsite flow-thru treatment controls and offsite mitigation of the DCV not retained onsite.",
+      "page_or_section": "PDF p. 47 · found by QA search"
     }
   ],
   "extraction_quality": {

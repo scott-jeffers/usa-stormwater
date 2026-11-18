@@ -70,6 +70,16 @@
       "field": "design_parameters.practice_mentions.extended_detention",
       "excerpt": "Detention/Retention Facilities and Levees – An easement must encompass the entire facility plus 15 feet on all sides measured from the top of bank.",
       "page_or_section": "Section 1.8.8.E, General Design Requirements 1-8 (mesquite-tx-c0008)"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "These criteria apply to all open channels (including roadside ditches) and detention/retention facilities.",
+      "page_or_section": "PDF p. 120 · found by QA search"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "Pedestrian bridges must be sized to contain the 25-year storm event.",
+      "page_or_section": "PDF p. 79 · found by QA search"
     }
   ],
   "extraction_quality": {

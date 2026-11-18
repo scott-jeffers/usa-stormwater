@@ -78,6 +78,16 @@
       "field": "design_parameters.practice_mentions",
       "excerpt": "This section presents special drainage design requirements for private storm drains within the City of Anaheim.",
       "page_or_section": "Section 1 – Design Criteria, page 3"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "When proposing a sump condition the designer must verify 100-year protection of habitable areas assuming the grate clogs 100%.",
+      "page_or_section": "PDF p. 3 · found by QA search"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "RECURRENCE INTERVAL For private storm drains within a watershed tributary to the Santa Ana River beginning and ending on Private property, and not connected directly or indirectly to a publicly owned facility, the design recurrence interval may be a minimum of the 10-year storm.",
+      "page_or_section": "PDF p. 3 · found by QA search"
     }
   ],
   "extraction_quality": {

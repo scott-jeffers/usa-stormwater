@@ -75,6 +75,11 @@
       "field": "design_parameters.practice_mentions.wet_pond",
       "excerpt": "Easements for stormwater controls, including detention basins, sediment traps, and retention ponds, shall be negotiated between the City and the developer",
       "page_or_section": "Section 1.5.3 Other Stormwater Facilities, page 1-13 (page 25)"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "3.9.1 Detention Storage Calculation The Modified Rational Method is allowed for planning and conceptual design for watersheds of 200 acres and less.",
+      "page_or_section": "PDF p. 63 · found by QA search"
     }
   ],
   "extraction_quality": {

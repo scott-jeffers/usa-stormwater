@@ -154,6 +154,16 @@
       "field": "design_criteria.approved_bmp_categories",
       "excerpt": "An infiltration basin impounds stormwater flow and gradually exfiltrates it through the floor of an excavated area.",
       "page_or_section": "Section 11.3.2.2 Infiltration Basins, page 269"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "Project plans must show the water surface elevations of the overtopping flood and base flood (i.e., 100-year flood) if larger than the overtopping flood. [23 CFR 650.117(c)].",
+      "page_or_section": "PDF p. 41 · found by QA search"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "(4.3) where: tt = Sheet flow travel time, min n = Roughness coefficient L = Flow length, ft (m) P2 = 2-year, 24-hour rainfall depth, inches (mm) S = Surface slope, ft/ft (m/m) Ku = Unit conversion constant, 0.42 in CU (5.5 in SI) Table 4.2 summarizes Manning’s roughness coefficients.",
+      "page_or_section": "PDF p. 59 · found by QA search"
     }
   ],
   "extraction_quality": {

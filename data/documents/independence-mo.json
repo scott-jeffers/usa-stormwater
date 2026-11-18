@@ -72,6 +72,16 @@
       "field": "design_parameters.permanent_pool_depth_inches",
       "excerpt": "being shallower (approximately 18 inches maximum depth in an EDW main pool versus 6 to 12 feet maximum depth in a EWDB main pool).",
       "page_or_section": "Section 8.6.1 / page 147"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "Detention basins detain and manage releases from larger rainfall events―usually up to and including the 100-year return interval event ― and should include a treatment component sized for the WQv.",
+      "page_or_section": "PDF p. 31 · found by QA search"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Structural BMPs that provide on-site treatment include bioretention, infiltration trenches, and sand filters.",
+      "page_or_section": "PDF p. 105 · found by QA search"
     }
   ],
   "extraction_quality": {

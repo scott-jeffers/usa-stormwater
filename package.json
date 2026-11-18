@@ -37,6 +37,7 @@
     "qa:normalize": "tsx scripts/qa/normalize-documents.ts",
     "qa:alt-text": "tsx scripts/qa/build-alt-text.ts",
     "qa:repair": "tsx scripts/qa/repair-evidence.ts",
+    "qa:find-quotes": "tsx scripts/qa/find-quotes.ts",
     "pipeline:repair-excerpts": "tsx scripts/pipeline/repair-excerpts.ts",
     "pipeline:corpus": "tsx scripts/pipeline/run.ts --stage corpus",
     "pipeline:extract": "tsx scripts/pipeline/run.ts --stage extract",

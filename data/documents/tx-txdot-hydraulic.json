@@ -60,6 +60,26 @@
       "field": "design_parameters.design_infiltration_rate_in_per_hr",
       "excerpt": "f = infiltration capacity (in./hr.) Ks = saturated hydraulic conductivity (permeability) (in./hr.)",
       "page_or_section": "Chapter 4, Section 13 Hydrograph Method, Green and Ampt, Hydraulic Design Manual 4-99"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "Table 4-2: Recommended Design Standards for Various Drainage Facilities Design AEP (Design ARI) Functional classification and structure type 50% (2-yr) 20% (5-yr) 10% (10-yr) 4% (25-yr) 2% (50-yr) Freeways (main lanes): Culverts X Bridges+ X Principal arterials: Culverts X [X] X Small bridges+ X [X] X Major river crossings+ [X] Minor arterials and collectors (including frontage roads): Culverts X",
+      "page_or_section": "PDF p. 78 · found by QA search"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "ZONE B and ZONE X (shaded): Areas of 0.2% AEP (500-year) flood; areas subject to the 1% AEP (100-year) flood with average depths of less than 1 foot or with contributing drainage area less than 1 square mile; areas protected by levees from the base flood.",
+      "page_or_section": "PDF p. 218 · found by QA search"
+    },
+    {
+      "field": "design_criteria.required_hydrologic_hydraulic_software",
+      "excerpt": "comparison with computer programs (such as HEC-RAS)",
+      "page_or_section": "PDF p. 339 · found by QA search"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "(See mass curve.) Retention Basin Similar to detention basin but water in storage is permanently obstructed from flowing downstream.",
+      "page_or_section": "PDF p. 209 · found by QA search"
     }
   ],
   "extraction_quality": {

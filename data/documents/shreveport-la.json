@@ -81,6 +81,16 @@
       "field": "design_parameters.practice_mentions.bioretention",
       "excerpt": "rain gardens/bioretention, cisterns and rainfall harvesting devices, subsurface infiltration",
       "page_or_section": "Section 11.2 Green Infrastructure Types, page 317"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "Table 2-2 Drainage Area Sizing Table Per Method Drainage Area Method and Source 200 Acres or less Rational Method 200 - 2,000 Acres Natural Resources Conservation Service (NRCS) 2,000 Acres and above United States Geological Survey (USGS)",
+      "page_or_section": "PDF p. 32 · found by QA search"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Section 2 Hydrology Table 2-1 Design Storm Frequency Drainage Classification Frequency Roadway Grade, Bridges, Cross Drains, Side Drains under arterial and collector roads Main Drainage Channels Storm Sewers and Inlets, Cross drains, Side drains Detention or Retention Features 25-yr 25-yr 10-yr 25yr Use a 100-year frequency storm to determine the hydraulic gradient in special flood hazard areas.",
+      "page_or_section": "PDF p. 32 · found by QA search"
     }
   ],
   "extraction_quality": {

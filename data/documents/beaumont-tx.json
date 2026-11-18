@@ -68,6 +68,11 @@
       "field": "design_parameters.practice_mentions.swale",
       "excerpt": "A swale ditch is to be constructed just beyond the outside edge of the maintenance berm to convey water to downspouts",
       "page_or_section": "10.5 District Maintenance of Subdivision Detention Basins, page 30"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "Table 4-3: Atlas 14 Rainfall Intensity Coefficients* Frequency Runoff Coefficients e b d (min) 2-Year 5-Year 10-Year 25-Year 50-Year 100-Year .7862 69.0281 13.2179 .7691 81.5214 13.4732 .7505 88.8360 13.4254 .7266 97.4049 13.3288 .7065 101.4198 13.0449 .6872 105.5701 12.9873 *NOAA Atlas 14, “Precipitation-Frequency Atlas of the United States” (Volume 11 Version 2.0: Texas, September 2018) &",
+      "page_or_section": "PDF p. 15 · found by QA search"
     }
   ],
   "extraction_quality": {

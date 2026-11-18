@@ -88,6 +88,11 @@
       "field": "design_parameters.length_to_width_ratio",
       "excerpt": "The average length to width ratio of the pond must be at least 2:1.",
       "page_or_section": "5.2.8 Pond Configuration"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Stormwater retention and detention systems are classified as moderate sanitary hazards with respect to public and private drinking water wells.",
+      "page_or_section": "PDF p. 27 · found by QA search"
     }
   ],
   "extraction_quality": {

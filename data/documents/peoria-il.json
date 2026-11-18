@@ -78,6 +78,11 @@
       "field": "design_parameters.practice_mentions.swale",
       "excerpt": "These BMPs shall be designed to follow criteria in the Illinois Urban Manual.",
       "page_or_section": "Section Three, Article II. H. Vegetated Filter Strips and Swales (page 50)"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "Detention Storage Requirements The design storage to be provided in the detention basin shall be based on the need to restrict the runoff from the 1-year, 10-year and 100-year events to the allowable release rates while providing a minimum of one (1) vertical foot of freeboard for the 100-year event.",
+      "page_or_section": "PDF p. 54 · found by QA search"
     }
   ],
   "extraction_quality": {

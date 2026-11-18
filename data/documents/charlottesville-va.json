@@ -60,6 +60,21 @@
       "field": "design_parameters.practice_mentions.bioretention",
       "excerpt": "If underdrains are proposed, the maximum stone depth permitted to be used in the quality calculations is 18 inches.",
       "page_or_section": "Chapter 5: Stormwater Management pg. 110 (Green Stormwater Infrastructure — Bioretention)"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "Water quality calculations showing pre-development conditions, and removal rate using latest DEQ Runoff Reduction Method spreadsheets e.",
+      "page_or_section": "PDF p. 119 · found by QA search"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "The rational method or the SCS TR-55 method may be utilized for determining peak discharges for sediment basin sizing criteria.",
+      "page_or_section": "PDF p. 141 · found by QA search"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "Boundaries of 100-year floodplain and floodway (where applicable) e.",
+      "page_or_section": "PDF p. 115 · found by QA search"
     }
   ],
   "extraction_quality": {

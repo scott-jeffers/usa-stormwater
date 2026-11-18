@@ -94,6 +94,16 @@
       "field": "design_parameters.practice_mentions.permeable_pavement",
       "excerpt": "Semi-impervious means land surfaces that partially restrict the penetration of water; such as porous concrete and asphalt pavements, gravel, limerock, and certain compacted soils.",
       "page_or_section": "2.2 DEFINITIONS, page 19"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "The calculations and modeling shall be performed for a 10-year, 3-day storm event and a 100-year, 3-day storm event.",
+      "page_or_section": "PDF p. 51 · found by QA search"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "3.7.4 SECOND-ORDER DRAINAGE SYSTEM The second-order drainage system of each project shall be designed by using the 3-year rainfall intensity as indicated on the State of Florida Department of Transportation (FDOT) rainfall curve for Zone 10 as shown on Exhibit 41, Florida Department of Transportation Zone 10 - 3-Year Rainfall Data.",
+      "page_or_section": "PDF p. 28 · found by QA search"
     }
   ],
   "extraction_quality": {

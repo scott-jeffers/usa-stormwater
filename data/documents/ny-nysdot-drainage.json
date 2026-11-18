@@ -66,6 +66,26 @@
       "field": "design_parameters.ed_drain_time_hours",
       "excerpt": "extended period of several days or more",
       "page_or_section": "Section 8.7.7 Storage Facilities (no hours specified)"
+    },
+    {
+      "field": "design_criteria.required_hydrologic_hydraulic_software",
+      "excerpt": "HEC-HMS \"Hydrologic Modeling System\", Hydrologic Engineering Center, U.",
+      "page_or_section": "PDF p. 132 · found by QA search"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "Use a 25-year frequency at the following locations where no overflow relief is available: a. sag vertical curves connecting negative and positive grades. b. other locations such as underpasses, depressed roadways, etc.",
+      "page_or_section": "PDF p. 24 · found by QA search"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "As per 23CFR650A, and Table 1-1 of HDS 2, a 50-year frequency shall be used for stormwater design at the following locations where no overflow relief is available: a. sag vertical curves connecting negative and positive grades. b. other locations such as underpasses, depressed roadways, etc.",
+      "page_or_section": "PDF p. 24 · found by QA search"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "To construct a set of IDF curves for a given location, HEC-12 uses six data points from HYDRO-35: the 2-year 5, 15 and 60 minute rainfalls and the 100-year 5, 15 and 60 minute rainfalls. the 60 minute rainfall for each intermediate return period is calculated from these points, and then the rainfall intensities for other durations are calculated.",
+      "page_or_section": "PDF p. 26 · found by QA search"
     }
   ],
   "extraction_quality": {

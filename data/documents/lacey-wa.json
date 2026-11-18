@@ -161,6 +161,11 @@
       "field": "design_parameters.green_roof_media_depth_inches",
       "excerpt": "Green Roof — 3-8 inches soil medium; > 8 inches soil medium",
       "page_or_section": "Table 5.3 LID Techniques Represented in WWHM3, Section 5.1.1 (lacey-wa-c0252)"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "If the post-development flow duration values exceed any of the pre-development flow levels between 100% of the 2-year and 100% of the 50-year pre-development peak flow values more than 10 percent of the time (110 Percent Threshold) then the flow duration requirement has not been met.",
+      "page_or_section": "PDF p. 271 · found by QA search"
     }
   ],
   "extraction_quality": {

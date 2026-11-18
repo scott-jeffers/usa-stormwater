@@ -98,6 +98,11 @@
       "field": "design_parameters.practice_mentions.infiltration_basin",
       "excerpt": "SECTION 6: RETENTION BASINS ... Have stormwater storage and first flush requirements been met?",
       "page_or_section": "Checklist 1, page 157"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Discharges of dredged or fill material into non-tidal Waters of the United States for the construction and maintenance of stormwater management facilities, including activities for the excavation of stormwater ponds/facilities, detention basins, and retention basins; the installation and maintenance of water control structures, outfall structures and emergency spillways; and the maintenance",
+      "page_or_section": "PDF p. 61 · found by QA search"
     }
   ],
   "extraction_quality": {

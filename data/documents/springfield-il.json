@@ -78,6 +78,11 @@
       "field": "design_parameters.practice_mentions.green_roof",
       "excerpt": "Approaches may include green roofs, naturalized detention facilities, trees and tree boxes, rain gardens, vegetated swales",
       "page_or_section": "Green Infrastructure definition (p.13)"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "The 10-year storm is a common storm to manage, with safe passage of the 100-year storm.",
+      "page_or_section": "PDF p. 34 · found by QA search"
     }
   ],
   "extraction_quality": {

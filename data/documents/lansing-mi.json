@@ -78,6 +78,16 @@
       "field": "design_parameters.permanent_pool_depth_inches",
       "excerpt": "Maximum Depth … Wet Pond … 1.5 feet wet depth without safety fencing",
       "page_or_section": "Table 5 Detention Pond Design Criteria, page 20"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "Water quality treatment volume Channel protection Flood control Stormwater conveyance Groundwater recharge Operation and maintenance requirements Enforcement mechanism with recordkeeping procedures These minimum design requirements apply to all sites of new development and/or redevelopment that result in a discharge of stormwater runoff from the site to the City of Lansing’s separate storm sewer",
+      "page_or_section": "PDF p. 13 · found by QA search"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "The City is located in Zone 9 of Michigan, the 24-hour event data for which are as follows: Zone Table 2: Rainfall frequencies, 24-hour duration (rainfall in inches) 1-year 2-year 5-year 10-year 25-year 50-year 100-year 9 2.03 2.42 2.98 3.43 4.09 4.63 5.20 ENGINEERING STANDARDS Storm Sewers The following minimum standards apply to the design of storm sewers.",
+      "page_or_section": "PDF p. 16 · found by QA search"
     }
   ],
   "extraction_quality": {

@@ -152,6 +152,21 @@
       "field": "design_parameters.practice_mentions.infiltration_basin",
       "excerpt": "several groups of green infrastructure and stormwater management practices are not well represented in either of them, including bioretention areas, infiltration practices",
       "page_or_section": "Appendix C, C.1 Introduction, page 493"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Undisturbed Pervious Areas Vegetated Filter Strips Grass Channels Simple Downspout Disconnection Rain Gardens Stormwater Planters Dry Wells Rainwater Harvesting Bioretention Areas Infiltration Practices Dry Swales Applying Low Impact Development Practices During the Site Planning & Design Process Figure 6.12: Green Roof Used in Place of a Traditional Impervious Rooftop (Source: Center for",
+      "page_or_section": "PDF p. 139 · found by QA search"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Pervious Surfaces Soil Restoration Site Reforestation/ Revegetation Alternatives to Impervious Surfaces Green Roofs Permeable Pavement",
+      "page_or_section": "PDF p. 186 · found by QA search"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Georgia Coastal Stormwater Supplement April 2009 Table 8.3: Factors to Consider When Evaluating the Applicability of Stormwater Management Practices on a Development Site Stormwater Rural Use Suburban Use Urban Use Construction Cost Maintenance Management Practice General Application Practices Stormwater Ponds Stormwater Wetlands Bioretention Areas Filtration Practices Infiltration Practices Dry Swales Wet Swales",
+      "page_or_section": "PDF p. 361 · found by QA search"
     }
   ],
   "extraction_quality": {

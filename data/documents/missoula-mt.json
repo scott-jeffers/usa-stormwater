@@ -68,6 +68,26 @@
       "field": "design_parameters.practice_mentions.permeable_pavement",
       "excerpt": "Permeable pavement systems and dispersion BMPs are not allowed as the initial storm water facility.",
       "page_or_section": "Section 3, page 16"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "(2) a 10-year storm event; and (3) a 100-year storm event.",
+      "page_or_section": "PDF p. 11 · found by QA search"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "for a 60-minute storm at the 2-year recurrence interval at Helena Airport is 0.51 in/hour.",
+      "page_or_section": "PDF p. 58 · found by QA search"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "3.7.4 STORAGE-INDICATION ROUTING Storage-indication routing may be used to calculate detention or infiltration facility volumes.",
+      "page_or_section": "PDF p. 22 · found by QA search"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "The rational method may also be used to estimate the volume of runoff from a drainage area for design of retention facilities.",
+      "page_or_section": "PDF p. 18 · found by QA search"
     }
   ],
   "extraction_quality": {

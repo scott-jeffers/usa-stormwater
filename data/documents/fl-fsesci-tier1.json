@@ -79,6 +79,11 @@
       "field": "design_parameters.practice_mentions.wet_pond",
       "excerpt": "Runoff calculations for a 10-year frequency storm.",
       "page_or_section": "Sediment basin submission requirements, page 116"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "Most natural stream channels are formed with a bankfull capacity to pass the runoff from a storm with a 1 1/2 to 2-year recurrence interval.",
+      "page_or_section": "PDF p. 171 · found by QA search"
     }
   ],
   "extraction_quality": {

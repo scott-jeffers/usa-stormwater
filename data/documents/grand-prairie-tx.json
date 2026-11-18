@@ -61,6 +61,36 @@
       "field": "design_parameters.mtd_verification_program",
       "excerpt": "Third-party sources could include Technology Acceptance Reciprocity Partnership, Technology Assessment Protocol – Ecology, or others.",
       "page_or_section": "Table 3.2 footnote, TriSWM Appendix page 112"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "Table 1.2 Storm Events Storm Event Name Storm Event Description “Water Quality” Criteria based on a volume of 1.5 inches of rainfall, not a storm frequency “Streambank Protection” 1-year, 24-hour storm event “Conveyance” 25-year, 24-hour storm event “Flood Mitigation” 100-year, 24-hour storm event Throughout the manual the storms will be referred to by their storm event names.",
+      "page_or_section": "PDF p. 10 · found by QA search"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "Table 1.2 Storm Events Storm Event Name Storm Event Description “Water Quality” Criteria based on a volume of 1.5 inches of rainfall, not a storm frequency “Streambank Protection” 1-year, 24-hour storm event “Conveyance” 25-year, 24-hour storm event “Flood Mitigation” 100-year, 24-hour storm event Throughout the manual the storms will be referred to by their storm event names.",
+      "page_or_section": "PDF p. 10 · found by QA search"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "SCS Unit Hydrograph Method",
+      "page_or_section": "PDF p. 20 · found by QA search"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "The required volume for extended detention is referred to as the Streambank Protection Volume (denoted SPv).",
+      "page_or_section": "PDF p. 34 · found by QA search"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "Modified Rational2 0 – 200 acres Method can be used for estimating runoff volumes for storage design.",
+      "page_or_section": "PDF p. 22 · found by QA search"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Bioretention Enhanced swales (dry, wet, wetland) Alum treatment Detention Filter strips Sand filters, filter boxes, etc Infiltration wells and trenches",
+      "page_or_section": "PDF p. 29 · found by QA search"
     }
   ],
   "extraction_quality": {

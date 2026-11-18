@@ -91,6 +91,16 @@
       "field": "design_parameters.enrich_notes.release_rate",
       "excerpt": "The design runoff rate for a development shall be the lesser of: ... 2. 0.2 cfs/acre of development.",
       "page_or_section": "T2-02(e), page 17"
+    },
+    {
+      "field": "design_criteria.required_hydrologic_hydraulic_software",
+      "excerpt": "Acceptable event hydrograph computer models for determining the allowable release rate are: HEC-HMS, HEC-1 with SCS runoff method, SWMM, TR-20, and TR-55 tabular method.",
+      "page_or_section": "PDF p. 17 · found by QA search"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "Project Length < 6 months 6 months — 1 year > 1 year Design Event 2 year 5 year 10 year Probability of Occurrence 50% 20% 10% Sufficient volume shall be created to retain all sediment from these design storm events.",
+      "page_or_section": "PDF p. 79 · found by QA search"
     }
   ],
   "extraction_quality": {

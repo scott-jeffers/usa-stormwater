@@ -54,6 +54,16 @@
       "field": "design_parameters.practice_mentions.swale",
       "excerpt": "Open Channel Flow - Swales and Ditches: Describe swale and ditch design.",
       "page_or_section": "2A-4 Project Drainage Report, 4.d (page 22)"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "Size (Acres) Predominant Land Use Watershed Length Time of Concentration Runoff Coefficient Runoff (Q) 2 yr 5 yr 10 yr 25 yr 50 yr 100 yr Table 2A-4.02: Hydrology Summary (Critical Points) Design Flows Critical Point 1 Critical Point 2 Critical Point 3 Critical Point 4 2 yr 5 yr 10 yr 25 yr 50 yr 100 yr",
+      "page_or_section": "PDF p. 26 · found by QA search"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "Detention Basin Design Methods A detention basin is to be designed to reduce the peak inflow by temporarily storing the excess stormwater and then releasing the water volume at allowable rates over an extended period.",
+      "page_or_section": "PDF p. 175 · found by QA search"
     }
   ],
   "extraction_quality": {

@@ -99,6 +99,26 @@
       "field": "design_parameters.permanent_pool_depth_inches",
       "excerpt": "Shallow Marsh. The portion of a storm water wetland that consists of aquatic vegetation within a permanent pool ranging in depth from 6 inches to 18 inches during normal conditions.",
       "page_or_section": "Appendix A — Glossary of Terms, page 731"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "Design to control multiple types of storm events (e.g., two- and/or 10-year storms) and safely pass the 100-year storm event.",
+      "page_or_section": "PDF p. 638 · found by QA search"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "Some of the more common and acceptable methods are the rational method, Technical Release Numbers 55 and 20.",
+      "page_or_section": "PDF p. 62 · found by QA search"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Surface filtration systems include measures such as compost filters, vegetated swales, and riparian buffer zones.",
+      "page_or_section": "PDF p. 525 · found by QA search"
+    },
+    {
+      "field": "design_parameters.length_to_width_ratio",
+      "excerpt": "Lay out the location and shape of the sediment trap allowing for a length to width ratio of 2:1 or greater.",
+      "page_or_section": "PDF p. 397 · found by QA search"
     }
   ],
   "extraction_quality": {

@@ -82,6 +82,16 @@
       "field": "design_parameters.design_infiltration_rate_in_per_hr",
       "excerpt": "field testing indicates potential bioretention sites have a measured (a.k.a. initial) native soil saturated hydraulic conductivity less than 0.30 inches per hour.",
       "page_or_section": "Chapter 6, Page 574"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "The corresponding overflow and underdrain design flow is the 2 Year Storm.",
+      "page_or_section": "PDF p. 679 · found by QA search"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "l Pretreatment BMPs l Oil Control BMPs l Phosphorus Treatment BMPs l Metals Treatment BMPs l Basic Treatment BMPs See the following sections for additional information on Runoff Treatment BMPs: l 6.1.2 Choosing Your Runoff Treatment BMPs l Chapter 6 - Runoff Treatment, Flow Control, and LID BMP Library LID BMPs LID (Low Impact Development) BMPs refer to BMPs that are installed for the purpose of",
+      "page_or_section": "PDF p. 66 · found by QA search"
     }
   ],
   "extraction_quality": {

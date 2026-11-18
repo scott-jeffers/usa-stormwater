@@ -75,6 +75,11 @@
       "field": "design_parameters.practice_mentions.swale",
       "excerpt": "Commonly utilized storm water quality control measures shown in the Alameda Countywide Clean Water Program (C.3 Requirements) such as pervious ground cover, grassy swales, tree wells, rain gardens, infiltration, retention",
       "page_or_section": "3.1 General Standards, page 6"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "Be certain that the detention basin returns to the starting elevation within 24 hours of the end of the 100-year storm event.",
+      "page_or_section": "PDF p. 10 · found by QA search"
     }
   ],
   "extraction_quality": {

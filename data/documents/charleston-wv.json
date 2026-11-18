@@ -117,6 +117,21 @@
       "field": "design_parameters.swale_bottom_width_inches",
       "excerpt": "Bottom Width 2-8 feet",
       "page_or_section": "Table 6-4.1, page 134"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "Detention basins will be review and approved on a case by case basis.",
+      "page_or_section": "PDF p. 205 · found by QA search"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "Chapter 4 Engineering Calculations 4.0 Introduction This chapter outlines the necessary calculations for stormwater management within the City of Charleston.",
+      "page_or_section": "PDF p. 69 · found by QA search"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Infiltration Credit Materials Construction Guidelines Maintenance Impervious Surface Disconnection Device Description Key Elements Device Uses and Applicability Impervious Surface Disconnection in the Urban Landscape Recommended Design Procedures Infiltration Credit Construction Guidelines Maintenance Detention Basins - - - - - 6-41 6-41 6-42 6-43 6-45 6-46 6-46 6-47 6-48 6-49 6-49 6-49 6-50 6-50",
+      "page_or_section": "PDF p. 15 · found by QA search"
     }
   ],
   "extraction_quality": {

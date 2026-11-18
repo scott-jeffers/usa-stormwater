@@ -89,6 +89,11 @@
       "field": "design_parameters.swale_longitudinal_slope_percent",
       "excerpt": "The longitudinal slope should not exceed 5% where possible.",
       "page_or_section": "Chapter 4.4 Swales, page 94"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "For example, swales and bioretention drain small acreages, while constructed stormwater wetlands drain large acreages.",
+      "page_or_section": "PDF p. 7 · found by QA search"
     }
   ],
   "extraction_quality": {

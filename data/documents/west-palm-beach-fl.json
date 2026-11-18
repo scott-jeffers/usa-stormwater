@@ -74,6 +74,11 @@
       "field": "design_parameters.practice_mentions.infiltration_basin",
       "excerpt": "Man-made or natural depressional areas where the basin bottom is graded flat and turf is established to promote infiltration and stabilize the basin slopes",
       "page_or_section": "5.3.1 Description, page 26"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "Area Design Frequency 10 year 200 year + 200 year + 200 year + 100 year + 200 year + 100 year + 200 year + -----------25 year 25 year 25 year 25 year 25 year 25 year 25 year -----------10 year 10 year 10 year 10 year 10 year 25 year 70.8 CSM 25 year 20 CSM 5 year A-1",
+      "page_or_section": "PDF p. 35 · found by QA search"
     }
   ],
   "extraction_quality": {

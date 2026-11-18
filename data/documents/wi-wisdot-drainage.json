@@ -60,6 +60,21 @@
       "field": "design_parameters.enrich_notes",
       "excerpt": "Stormwater Facilities - - Customary Method - -",
       "page_or_section": "Table 5.1 Hydrologic Method Selection, page 8"
+    },
+    {
+      "field": "design_criteria.required_hydrologic_hydraulic_software",
+      "excerpt": "The use of HEC-HMS is not detailed in this subsection.",
+      "page_or_section": "PDF p. 11 · found by QA search"
+    },
+    {
+      "field": "design_criteria.required_hydrologic_hydraulic_software",
+      "excerpt": "The distributions are often built into proprietary software such as HydroCAD so this data may not be needed to perform software generated calculations.",
+      "page_or_section": "PDF p. 10 · found by QA search"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "Table 1.1 Correlation Between Return Period and Annual Exceedance Probability Return Period Event Annual Exceedance Probability (AEP) Percent Storm 2-Year 0.5 50% 5-Year 0.2 20% 10-Year 0.1 10% 25-Year 0.04 4% 50-Year 0.02 2% 100-Year 0.01 1% 500-Year 0.002 0.2%",
+      "page_or_section": "PDF p. 1 · found by QA search"
     }
   ],
   "extraction_quality": {

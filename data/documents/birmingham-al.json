@@ -119,6 +119,11 @@
       "field": "design_parameters.permanent_pool_depth_inches",
       "excerpt": "Deep Pool ... 18 - 36\" Max allowable height (h)",
       "page_or_section": "Chapter 4.2 CSW Cross Section, page 57"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "For example, swales and bioretention drain small acreages, while constructed stormwater wetlands drain large acreages.",
+      "page_or_section": "PDF p. 7 · found by QA search"
     }
   ],
   "extraction_quality": {

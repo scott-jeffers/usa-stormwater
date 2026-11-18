@@ -93,6 +93,21 @@
       "field": "design_parameters.enrich_notes",
       "excerpt": "post-construction 25-year storm peak flows to the storm relief/ combined sewer system are less than or equal to pre-construction 2-year storm peak flows",
       "page_or_section": "buffalo-ny-c0003 | page 3"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "Stormwater Calculations for pre- and post- construction 1-, 10-, and 100- year storm event.",
+      "page_or_section": "PDF p. 2 · found by QA search"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "Provide stormwater management calculations utilizing USDA TR-55 and the New York State Stormwater Management Design Manual (NYSMDM) demonstrating that post-construction 25-year storm peak flows to the storm relief/ combined sewer system are less than or equal to pre-construction 2-year storm peak flows.",
+      "page_or_section": "PDF p. 3 · found by QA search"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Preference Hierarchy Stormwater Management Practices Additional Criteria Tier 1 Conservation of Natural Areas - Tier 2 Bio-retention /Rain Gardens, Stormwater Planters, Vegetated Swale (bio-swale), Filter Strips, Constructed Wetlands, Porous Pavement To be used for onsite and off-site GI Tier 3 Green Roof, Blue Roof, Cisterns To be used for onsite and off-site GI Tier 4 Off-site GI (within same",
+      "page_or_section": "PDF p. 1 · found by QA search"
     }
   ],
   "extraction_quality": {

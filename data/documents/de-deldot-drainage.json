@@ -88,6 +88,26 @@
       "field": "design_parameters.practice_mentions.wet_pond",
       "excerpt": "Wet ponds are to have a forebay to act as a sediment trap and two ten foot (10 ft) wide safety benches",
       "page_or_section": "6.10.5 / checklist, page 63"
+    },
+    {
+      "field": "design_criteria.required_hydrologic_hydraulic_software",
+      "excerpt": "Computer programs such as HEC-RAS, NFF and HY-8 automate the design methods.",
+      "page_or_section": "PDF p. 57 · found by QA search"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "Normally, the analysis will include the 2-, 10-, and 100- year storms are evaluated.",
+      "page_or_section": "PDF p. 111 · found by QA search"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "The design frequency is 25-yr.",
+      "page_or_section": "PDF p. 80 · found by QA search"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "18 remarks such as sump condition, 50-yr frequency, etc One of the final checks is to determine the interception efficiency, E, of the inlet.",
+      "page_or_section": "PDF p. 95 · found by QA search"
     }
   ],
   "extraction_quality": {

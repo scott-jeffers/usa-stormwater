@@ -99,6 +99,31 @@
       "field": "design_parameters.practice_mentions.infiltration_basin",
       "excerpt": "I-2 infiltration basin ... capture and temporarily store the WQv before allowing it to infiltrate into the soil over a two day period",
       "page_or_section": "Chapter 2, Section 2.7, page 76"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "Condition CN tc Runoff (Qa) 1 yr storm Q 1-year Q 2-year Q 10-year Q 100 year hours inches cfs cfs cfs cfs pre-developed 63 0.35 0.2 4.62 13.58 50.38 102.6 developed 78 0.19 0.8 35.0 54.94 129.96 216.30 Step 3c.",
+      "page_or_section": "PDF p. 55 · found by QA search"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "Table 2.1 Summary of the Statewide Stormwater Criteria Sizing Criteria Description of Stormwater Sizing Criteria Water Quality Volume (WQv) (acre-feet) WQv = [(P )(Rv )(A)] 12 P= rainfall depth in inches and is equal to 1.0” in the Eastern Rainfall Zone and 0.9” in the Western Rainfall Zone (Fig.",
+      "page_or_section": "PDF p. 39 · found by QA search"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "Basis for Determining Overbank Flood Protection Volume When addressing the overbank flooding design criteria, the following represent the minimum basis for design: \"\u0003 The models TR-55 and TR-20 (or an equivalent approved by the appropriate local authority) will be used for determining peak discharge rates.",
+      "page_or_section": "PDF p. 50 · found by QA search"
+    },
+    {
+      "field": "design_criteria.required_hydrologic_hydraulic_software",
+      "excerpt": "Basis for Determining Overbank Flood Protection Volume When addressing the overbank flooding design criteria, the following represent the minimum basis for design: \"\u0003 The models TR-55 and TR-20 (or an equivalent approved by the appropriate local authority) will be used for determining peak discharge rates.",
+      "page_or_section": "PDF p. 50 · found by QA search"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Acceptable BMP groups are: Stormwater Ponds Stormwater Wetlands Infiltration Practices Filtering Systems Open Channel Practices Non-structural Practices Lastly, the chapter presents a list of land uses or site activities that have been designated as “stormwater hotspots.” If a development site is considered a “hotspot,\" it may have special requirements for pollution prevention and groundwater protection.",
+      "page_or_section": "PDF p. 31 · found by QA search"
     }
   ],
   "extraction_quality": {

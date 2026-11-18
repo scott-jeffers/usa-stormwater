@@ -122,6 +122,21 @@
       "field": "design_parameters.design_infiltration_rate_in_per_hr",
       "excerpt": "An assumed twelve (12) inches per hour infiltration rate may be used for bioretention soil mixes (BSM) that meet the requirements of the Stormwater Manual.",
       "page_or_section": "Section 4-7.01 Bioretention Areas (4-41)"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "The design must assure that flows delivered to Type 5 stream reaches will approximate, but in no case exceed, durations ranging from 50% of the 2-year to the 50-year peak flow.",
+      "page_or_section": "PDF p. 97 · found by QA search"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "The 100-year, 24-hour storm: a.",
+      "page_or_section": "PDF p. 26 · found by QA search"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "Identify the 10-year recurrence interval stage for detention facility outfalls.",
+      "page_or_section": "PDF p. 20 · found by QA search"
     }
   ],
   "extraction_quality": {

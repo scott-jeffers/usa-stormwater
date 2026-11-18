@@ -86,6 +86,21 @@
       "field": "design_parameters.swale_longitudinal_slope_percent",
       "excerpt": "Vegetated Swale: maximum longitudinal slope of 5%, 2% preferred.",
       "page_or_section": "6.5.2 Bioretention pretreatment, page 6-12"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "Calculated water surface elevations labeled for the water quality, 2-year, 10-year and 100-year storms.",
+      "page_or_section": "PDF p. 81 · found by QA search"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "One dry eight-foot travel lane in the 25-year event on two- or three-lane streets.",
+      "page_or_section": "PDF p. 49 · found by QA search"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "CHAPTER 6 SCM DESIGN September 3, 2024 PAGE 6-3 6.1 INTRODUCTION Stormwater Control Measures (SCMs) improve water quality and detain peak runoff to meet the City’s Active Stormwater Control requirements set forth in UDO Section 9.2.2. and described in the previous chapter of this Manual.",
+      "page_or_section": "PDF p. 74 · found by QA search"
     }
   ],
   "extraction_quality": {

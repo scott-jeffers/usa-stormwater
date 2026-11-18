@@ -177,6 +177,16 @@
       "field": "design_parameters.bioretention_ponding_depth_inches",
       "excerpt": "Ponding Depth = 6\" – 18\" - Section BR-4.6",
       "page_or_section": "Figure BR-2, BR.4 (range only; no single value assigned)"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "Both examples illustrate the very common occurrence in areas of karst terrain where the pre-developed runoff for small storms (up to the 1- or 2-year storm event) is minimal.",
+      "page_or_section": "PDF p. 458 · found by QA search"
+    },
+    {
+      "field": "design_parameters.wqv_depth_inches",
+      "excerpt": "Unfortunately, there are no IDF curves available at this time for the 1” rainfall depth.",
+      "page_or_section": "PDF p. 467 · found by QA search"
     }
   ],
   "extraction_quality": {

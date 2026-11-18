@@ -91,6 +91,11 @@
       "field": "design_parameters.practice_mentions.green_roof",
       "excerpt": "1.9 Green Roof",
       "page_or_section": "page 35"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Green Roof X X Disconnection X X Soil Amendment X X Rainwater Harvesting X* (2) X* (3) *(1) Voids within the permeable pavement itself can not be counted for detention, see section 3.6.1. *(2) Acceptable for Storm Water Quality if re-used for irrigation or other non-potable uses. *(3) Various LID practices will be considered, so long as sufficient volume reductions and the design approach are proven.",
+      "page_or_section": "PDF p. 8 · found by QA search"
     }
   ],
   "extraction_quality": {

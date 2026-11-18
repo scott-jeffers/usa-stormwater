@@ -110,6 +110,16 @@
       "field": "design_parameters.green_roof_media_depth_inches",
       "excerpt": "Extensive roofs have soil depths of six inches or less that is designed to support dense, low growing, drought tolerant vegetation.",
       "page_or_section": "18 Definitions"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Temporary detention of stormwater",
+      "page_or_section": "PDF p. 764 · found by QA search"
+    },
+    {
+      "field": "design_parameters.green_roof_media_depth_inches",
+      "excerpt": "Intensive Green Roof – Soil depth greater than 6 inches.",
+      "page_or_section": "PDF p. 771 · found by QA search"
     }
   ],
   "extraction_quality": {

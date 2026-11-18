@@ -72,6 +72,16 @@
       "field": "design_parameters.design_infiltration_rate_in_per_hr",
       "excerpt": "field data collection, such as seasonal high-water table, infiltration rates, or other design parameters",
       "page_or_section": "13.4.2.7 / NC-SELDM BMPtoolbox guidance (page 265)"
+    },
+    {
+      "field": "design_criteria.required_hydrologic_hydraulic_software",
+      "excerpt": "HEC-RAS can model many different culvert shapes.",
+      "page_or_section": "PDF p. 180 · found by QA search"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "For cross-drainage, design for the appropriate storm frequency for the functional classification of the highway facility (usually 25-year or 50-year) should be achieved.",
+      "page_or_section": "PDF p. 29 · found by QA search"
     }
   ],
   "extraction_quality": {

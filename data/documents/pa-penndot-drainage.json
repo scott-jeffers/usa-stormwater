@@ -84,6 +84,26 @@
       "field": "design_parameters.length_to_width_ratio",
       "excerpt": "A reduction of 25 m3 (350 ft3) per total contributing hectare (acre) may be utilized for basins with length to width ratios of 4:1 or greater.",
       "page_or_section": "Chapter 12, Sediment Basin / page 658"
+    },
+    {
+      "field": "design_criteria.required_hydrologic_hydraulic_software",
+      "excerpt": "HEC-1 & HEC-HMS are generalized hydrologic simulation models that can be used with basins of almost any size and complexity.",
+      "page_or_section": "PDF p. 154 · found by QA search"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "-Updated wording in subsections 14.5.A, 14.5.B, and 14.5.C. -Updated content in subsection 14.5.D Stream Restoration and Stabilization. -Updated content in subsection 14.5.E Vegetated Swale. -Updated content in subsection 14.5.F Bioretention. -Updated content in subsection 14.5.G Vegetated Filter Strip. -Updated content in subsection 14.5.H on Media Filter Drain. -Updated content in subsection",
+      "page_or_section": "PDF p. 3 · found by QA search"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "14.15 DRY POND (DETENTION BASIN) A.",
+      "page_or_section": "PDF p. 797 · found by QA search"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "A wet basin, also known as a wet pond or retention basin, includes a permanent pool for water quality treatment and additional capacity above the permanent pool for temporary runoff storage (extended detention).",
+      "page_or_section": "PDF p. 765 · found by QA search"
     }
   ],
   "extraction_quality": {

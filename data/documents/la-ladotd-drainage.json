@@ -47,6 +47,21 @@
       "field": "design_parameters.practice_mentions.swale",
       "excerpt": "profiles of ground elevations ... whether gutter (or swale ditch) grades are low enough to provide for drainage",
       "page_or_section": "2.6.3 Plan / Profile Sheets (page 29)"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "(See Chapter 1) 8.3.2 Lower Service Class Streets For lower service class streets, if the 10 year design cannot be met, or creates significant design burden, the design may be amended to a 5 year or 2 year storm, with the concurrence of the Chief Design Engineer.",
+      "page_or_section": "PDF p. 118 · found by QA search"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "In addition, the low chord should be set to clear the FEMA base flood (100-year flood) water surface elevation.",
+      "page_or_section": "PDF p. 190 · found by QA search"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "Year Frequency a.) 25 year frequency is required when the PAADT is ≤ 3000. b.) 50 year frequency is required when the PAADT is > 3000.",
+      "page_or_section": "PDF p. 17 · found by QA search"
     }
   ],
   "extraction_quality": {

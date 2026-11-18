@@ -71,6 +71,21 @@
       "field": "design_parameters.wqv_depth_inches",
       "excerpt": "Vwq equals 0.5 or 1.0 inch of runoff per impervious acre, depending on the receiving stream designation",
       "page_or_section": "Chapter 12-9 Stormwater Ponds, page 470"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "Graphs 1-4 illustrate the hydrographs for the 1-yr, 2-yr, 10-yr and 100-yr events for the routed",
+      "page_or_section": "PDF p. 852 · found by QA search"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "305 Minnesota storMwater Manual procedures, cost determinations, graphics and references.",
+      "page_or_section": "PDF p. 305 · found by QA search"
+    },
+    {
+      "field": "design_parameters.permanent_pool_depth_inches",
+      "excerpt": "Permanent pool depth 3’ minimum, 10’ maximum",
+      "page_or_section": "PDF p. 461 · found by QA search"
     }
   ],
   "extraction_quality": {

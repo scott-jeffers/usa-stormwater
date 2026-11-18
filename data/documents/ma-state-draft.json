@@ -150,6 +150,11 @@
       "field": "design_parameters.wetland_detention_hours",
       "excerpt": "return gradually to normal within 24 hours of the rain event.",
       "page_or_section": "Appendix A Extended Detention Wetlands / page 325"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "(Filtering)11 Yes Yes Yes No Both Yes Yes Yes Varies Constructed Stormwater Wetland Yes Yes Yes No Both Yes Varies Varies Varies Extended Dry Detention Basin Yes No Yes No Both Yes No Varies Varies SCM Non-Structural Street Cleaning ESSD Credits Credit 6: Reduce Impervious Area Credit 7: Buffer Zone Improvement Structural Pretreatment Structural Treatment Page 2-50",
+      "page_or_section": "PDF p. 64 · found by QA search"
     }
   ],
   "extraction_quality": {

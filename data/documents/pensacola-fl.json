@@ -58,6 +58,21 @@
       "field": "design_parameters.ed_drain_time_hours",
       "excerpt": "The outfall structure shall be designed to drawdown one-half the required treatment volume between 48 and 60 hours.",
       "page_or_section": "5.2.3 Recovery Time, page 43"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "Significant 25-year, 24-hour 100-year, 24-hour High 100-year, 24-hour Probable Maximum FloodJune 28, 2024",
+      "page_or_section": "PDF p. 16 · found by QA search"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "(a) A system shall not cause a net reduction in flood storage within a 10-year floodplain except for structures elevated on pilings or traversing works.",
+      "page_or_section": "PDF p. 23 · found by QA search"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Stormwater retention and detention systems are classified as moderate sanitary hazards with respect to public and private drinking water wells.",
+      "page_or_section": "PDF p. 27 · found by QA search"
     }
   ],
   "extraction_quality": {

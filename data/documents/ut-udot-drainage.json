@@ -77,6 +77,16 @@
       "field": "design_parameters.practice_mentions.swale",
       "excerpt": "Channels are natural or constructed conveyances for water and include rivers, streams, roadside and median ditches, swales and irrigation flows.",
       "page_or_section": "Chapter 6, Section 6.1 INTRODUCTION"
+    },
+    {
+      "field": "design_criteria.required_hydrologic_hydraulic_software",
+      "excerpt": "Use HY-8 for calculations.",
+      "page_or_section": "PDF p. 48 · found by QA search"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "5.2.3 Hydrologic Analysis Roadway Functional Class Design Frequency Design Check Event Storm Drainage System Characteristics Interstate, Freeway, Expressway 10 year 50 year 50 year 100 year Major sag locations, including all downstream drainage features Arterial, Collector 10 year 50 year 25 year 50 year Major sag locations, including all downstream drainage features Figure 5.1 — DESIGN FREQUENCY (YEAR) REQUIREMENTS",
+      "page_or_section": "PDF p. 32 · found by QA search"
     }
   ],
   "extraction_quality": {

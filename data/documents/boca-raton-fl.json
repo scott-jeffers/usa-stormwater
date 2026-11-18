@@ -74,6 +74,11 @@
       "field": "design_parameters.practice_mentions.extended_detention",
       "excerpt": "Dry retention/detention areas shall have mechanisms for returning the groundwater level in the area to the control elevation.",
       "page_or_section": "5.3.3 Dry Retention/Detention Areas, page 26"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "Area Design Frequency 10 year 200 year + 200 year + 200 year + 100 year + 200 year + 100 year + 200 year + -----------25 year 25 year 25 year 25 year 25 year 25 year 25 year -----------10 year 10 year 10 year 10 year 10 year 25 year 70.8 CSM 25 year 20 CSM 5 year A-1",
+      "page_or_section": "PDF p. 35 · found by QA search"
     }
   ],
   "extraction_quality": {

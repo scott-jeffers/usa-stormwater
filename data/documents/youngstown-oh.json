@@ -93,6 +93,16 @@
       "field": "design_parameters.max_drawdown_hours",
       "excerpt": "minimum drawdown time of 40 hours",
       "page_or_section": "2.10 Bioretention Detention, page 79"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "Design Storm Peak Discharge Rate (cfs) 24-hour Runoff Volume (show units) Percent Increase Design Discharge (cfs) Pre-Development Post- Development 1-year 2-year 5-year 10-year 25-year 50-year 100-year 3.",
+      "page_or_section": "PDF p. 83 · found by QA search"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "Manning’s Equation or other suitable method should be used to determine design velocity.",
+      "page_or_section": "PDF p. 94 · found by QA search"
     }
   ],
   "extraction_quality": {

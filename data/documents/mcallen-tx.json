@@ -38,7 +38,28 @@
       "Low Impact Development (LID) planning referenced in manual TOC"
     ]
   },
-  "evidence": [],
+  "evidence": [
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "Include acreage, runoff coefficients, Tc values, and rainfall intensities for the 5, 25, & 100-yr storm events, as applicable 3 5.",
+      "page_or_section": "PDF p. 17 · found by QA search"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "(Equation 5.4.1) Tt = travel time (hr.) n = Manning’s roughness coefficient L = flow length (ft.) P2 = 2-year, 24-hour rainfall* s = slope of hydraulic grade line (land slope, ft/ft) *in San Antonio and its ETJ please use 4.44 inches for the two (2) -year, twentyfour (24)-hour rainfall value",
+      "page_or_section": "PDF p. 30 · found by QA search"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "Technical Memorandum: Snyder Unit Hydrograph Parameter Guidelines – San Antonio River Basin, Regional Watershed Modeling System.",
+      "page_or_section": "PDF p. 52 · found by QA search"
+    },
+    {
+      "field": "design_criteria.required_hydrologic_hydraulic_software",
+      "excerpt": "Army Corps of Engineers Hydrologic Engineering Center HEC-HMS “Hydrologic Modeling Systems\".",
+      "page_or_section": "PDF p. 28 · found by QA search"
+    }
+  ],
   "extraction_quality": {
     "confidence": "low",
     "needs_human_review": true,

@@ -87,6 +87,16 @@
       "field": "design_parameters.practice_mentions.manufactured_treatment",
       "excerpt": "In-ground pre-manufactured water quality units will be evaluated on a case-by-case basis",
       "page_or_section": "7.1.2.5 PCRC Plan Review Information; Page 7-4"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "In the future, water quality detention and retention may be required.",
+      "page_or_section": "PDF p. 3 · found by QA search"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "professional engineer to define the expected 100-year flood elevation throughout the site of the proposed development.",
+      "page_or_section": "PDF p. 57 · found by QA search"
     }
   ],
   "extraction_quality": {

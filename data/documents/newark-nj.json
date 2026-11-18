@@ -92,6 +92,16 @@
       "field": "design_parameters.practice_mentions.manufactured_treatment",
       "excerpt": "Note that an MTD is used for pretreatment so that exfiltration may be used",
       "page_or_section": "Chapter 9.7 (c0096, Page 19)"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "7:8-5.6(b) for the current and projected 2-, 10-, and 100-year storms.",
+      "page_or_section": "PDF p. 34 · found by QA search"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "The reduced curve number method is illustrated in Example 1 of Chapter 9.6: Pervious Paving Systems and the example in Chapter 9.4: Green Roofs of the BMP Manual.",
+      "page_or_section": "PDF p. 24 · found by QA search"
     }
   ],
   "extraction_quality": {

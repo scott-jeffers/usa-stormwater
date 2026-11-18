@@ -106,6 +106,21 @@
       "field": "design_parameters.ed_drain_time_hours",
       "excerpt": "Extended Detention means the storage and gradual release of stormwater from a detention system over a period of not less than 48 hours.",
       "page_or_section": "Administrative Rules definitions, page 227"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "Wayne County Stormwater Standards Manual 100-yr flow through Ext.",
+      "page_or_section": "PDF p. 134 · found by QA search"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "The obligation to enact and implement stormwater design standards related to frequent hydrologic events (2-year recurrence interval storm and smaller) was imposed upon the County, local governments, and other public agencies by Phase II of the federal National Pollutant Discharge Elimination System (NPDES) stormwater regulations.",
+      "page_or_section": "PDF p. 7 · found by QA search"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Basins Rule 701: Open Detention Basins Rule 702: Retention Basins Rule 703: Underground Detention Systems Rule 704: Reserved Rule 705: Reserved Pretreatment Systems Rule 706: Forebays Rule 707: Bioretention Areas Rule 502: Rule 708: Manufactured Treatment Water Resources Systems Protection (WQC) Rule 709: Reserved 80% average annual TSS Rule 710: Reserved Additional requirements: Rule 603(D)",
+      "page_or_section": "PDF p. 34 · found by QA search"
     }
   ],
   "extraction_quality": {

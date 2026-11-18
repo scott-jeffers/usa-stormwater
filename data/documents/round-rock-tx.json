@@ -71,6 +71,21 @@
       "field": "design_parameters.wqv_depth_inches",
       "excerpt": "reduce post-development peak rates of discharge to existing pre-development peak rates of discharge for the 2, 10, and 25 year storm events",
       "page_or_section": "8.3.2 Performance Criteria for on-Site SWM Ponds B, page 8-4"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "DETENTION POND CLASS On-site: Small Large Regional: Small Large DESIGN STORM EVENT 25 year 25 year 100 year 100 year FREEBOARD TO TOP OF EMBANKMENT, FT.",
+      "page_or_section": "PDF p. 5 · found by QA search"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "8.4.0 DETENTION POND STORAGE DETERMINATION A flow routing analysis using detailed hydrographs must be applied for all detention pond designs.",
+      "page_or_section": "PDF p. 7 · found by QA search"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "SWM facilities such as detention, retention, extended detention, infiltration, and sedimentation ponds have proven to significantly reduce downstream flooding, reduce sediment and pollutant loads, and provide debris removal which can benefit water quality.",
+      "page_or_section": "PDF p. 2 · found by QA search"
     }
   ],
   "extraction_quality": {

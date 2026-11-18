@@ -124,6 +124,11 @@
       "field": "design_parameters.green_roof_media_depth_inches",
       "excerpt": "Vegetated Roofs Soil area x soil depth x 0.18. Maximum soil depth for calculation purposes shall be 12 inches.",
       "page_or_section": "Table 1-7 / page 23"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Revised design standards for permeable pavement, manufactured treatment devices, extended detention basins, and underground detention in Chapter 10 – Post- Construction Stormwater Controls",
+      "page_or_section": "PDF p. 8 · found by QA search"
     }
   ],
   "extraction_quality": {

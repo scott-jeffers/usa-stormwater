@@ -108,6 +108,16 @@
       "field": "design_parameters.ed_drain_time_hours",
       "excerpt": "sized to capture the required water quality volume over at least a 48-hour period",
       "page_or_section": "Section 8.5 / page 116"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "7.1.1 Volume-Based Sizing Criteria The MRP specifies two alternative methods for hydraulically sizing volume-based stormwater treatment measure.",
+      "page_or_section": "PDF p. 66 · found by QA search"
+    },
+    {
+      "field": "design_criteria.required_hydrologic_hydraulic_software",
+      "excerpt": "Please make sure to use the current version of the BAHM (BAHM2023).",
+      "page_or_section": "PDF p. 162 · found by QA search"
     }
   ],
   "extraction_quality": {

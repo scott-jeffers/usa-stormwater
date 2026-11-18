@@ -73,6 +73,16 @@
       "field": "design_parameters.practice_mentions.infiltration_basin",
       "excerpt": "RETENTION BASIN – is a stormwater storage facility which reduces runoff and is drained by subsurface infiltration or reuse instead of a positive outlet.",
       "page_or_section": "DEFINITIONS, page 10"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "However, peak flow estimates should be calculated using the regression equation below with the local parameters defined in Table 4-6. 𝑄 = 𝑎(𝐷𝑅𝑁𝐴𝑅𝐸𝐴)𝑏 Where: Q = peak flow (cfs) DRNAREA = Watershed area (sq mi) TABLE 4-6: REGRESSION PARAMETERS ANNUAL EXCEEDANCE PROBABILITY (AEP) 50% (2-Year) 20% (5-Year) 10% (10-Year) 4% (25-Year) 2% (50-Year) 1% (100-Year) 0.5% (200-Year) 0.2% (500-Year)",
+      "page_or_section": "PDF p. 43 · found by QA search"
+    },
+    {
+      "field": "design_parameters.wqv_depth_inches",
+      "excerpt": "Impervious Surface Area (square feet) X 1 inch = Runoff Capture Volume 5.",
+      "page_or_section": "PDF p. 92 · found by QA search"
     }
   ],
   "extraction_quality": {

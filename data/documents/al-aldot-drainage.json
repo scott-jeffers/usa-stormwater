@@ -63,6 +63,16 @@
       "field": "design_parameters.practice_mentions.constructed_wetland",
       "excerpt": "wetland restoration projects, often referred to as wetland mitigation",
       "page_or_section": "August 2018 10-9 / Section 10.4"
+    },
+    {
+      "field": "design_criteria.required_hydrologic_hydraulic_software",
+      "excerpt": "HY-8, WSPRO and the HEC-RAS culvert module are the only computer programs allowed for the hydraulic analysis of a culvert.",
+      "page_or_section": "PDF p. 199 · found by QA search"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "The 2-, 5-, 10-, 25-, 50-, 100-, 200-, and 500-year floods shall be modeled for the project site.",
+      "page_or_section": "PDF p. 329 · found by QA search"
     }
   ],
   "extraction_quality": {

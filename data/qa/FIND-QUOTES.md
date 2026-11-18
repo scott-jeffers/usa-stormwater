@@ -1,0 +1,918 @@
+# Quote finder log
+
+Generated 2026-11-18T13:51:46.976Z by `npm run qa:find-quotes`.
+
+Verbatim sentences added as supporting quotes for values that had none, or
+whose quote didn't state the value. 598 added; 307
+field(s) still have no quote that clearly states the value.
+
+## Added
+
+- `akron-oh` design_criteria.design_storm_return_periods_years (PDF p. 83): Design Storm Peak Discharge Rate (cfs) 24-hour Runoff Volume (show units) Percent Increase Design Discharge (cfs) Pre-Development Post- Development 1-year 2-year 5-year 10-year 25-year 50-year 100-year 3.
+- `akron-oh` design_criteria.peak_flow_calculation_method (PDF p. 94): Manning’s Equation or other suitable method should be used to determine design velocity.
+- `al-aldot-drainage` design_criteria.required_hydrologic_hydraulic_software (PDF p. 199): HY-8, WSPRO and the HEC-RAS culvert module are the only computer programs allowed for the hydraulic analysis of a culvert.
+- `al-aldot-drainage` design_criteria.design_storm_return_periods_years (PDF p. 329): The 2-, 5-, 10-, 25-, 50-, 100-, 200-, and 500-year floods shall be modeled for the project site.
+- `alabama-handbook` design_criteria.design_storm_return_periods_years (PDF p. 24): Other localities require that larger storms (i.e., 50-100 year events) must be detained and released at a controlled rate to reduce the downstream impacts of major storms.
+- `albany-ny` design_criteria.design_storm_return_periods_years (PDF p. 221): Hotspot The proposed development is not a hotspot (Section 4.14) 90th percentile rainfall 1.20 inches (Section 4.2) 1-year 24-hour rainfall 2.22 inches (NRCC and NRCS joint collaborative website Section 4.9) 2-year 24-hour rainfall 2.60 inches (NRCC and NRCS joint collaborative website Section 4.9) 10-year 24-hour rainfall 3.74 inches (NRCC and NRCS joint collaborative website Section 4.9)
+- `albany-ny` design_criteria.design_storm_return_periods_years (PDF p. 43): Safely pass the 100-year design storm.
+- `albany-ny` design_criteria.peak_flow_calculation_method (PDF p. 47): TR-55 and TR-20 (or approved equivalent) shall be used to determine peak discharge rates.
+- `albany-ny` design_criteria.required_hydrologic_hydraulic_software (PDF p. 50): Hydraulic and hydrologic modeling software, such as USDA NRCS TR20, HydroCAD, Pond Pack, StormCAD, Hydraflow, and Hydrologic Engineering Center Hydrologic Modeling System (HEC-HMS) and others, shall be used to extract rainfall frequency and duration data, for the project location, to create intensity-duration-frequency (IDF) curves, and then convert into rainfall distribution curves.
+- `albany-ny` design_criteria.approved_bmp_categories (PDF p. 143): These include ponds, wetlands, infiltration practices, filtering practices and open channel systems.
+- `allentown-pa` design_parameters.shwt_separation_inches (PDF p. 166): Maintain a minimum 2-foot separation to bedrock and seasonally high-water table.
+- `amarillo-tx` design_criteria.design_storm_return_periods_years (PDF p. 50): TABLE 2-6 Duration (Min) Depth-Duration-Frequency Data for Amarillo, Texas Rainfall DeptK(inches) Frequency 2-Yr 5-Yr 10-Yr 25-Yr 50-Y r lWYr Areal Adjustment The rainfall data listed in Table 2-6 are "point rainfall depths"; that is, as measured at a rain gage, i.e., a single point.
+- `amarillo-tx` design_criteria.design_storm_return_periods_years (PDF p. 33): 2-48 100-Year Peak Flow Curves.
+- `anaheim-ca` design_criteria.design_storm_return_periods_years (PDF p. 3): When proposing a sump condition the designer must verify 100-year protection of habitable areas assuming the grate clogs 100%.
+- `anaheim-ca` design_criteria.design_storm_return_periods_years (PDF p. 3): RECURRENCE INTERVAL For private storm drains within a watershed tributary to the Santa Ana River beginning and ending on Private property, and not connected directly or indirectly to a publicly owned facility, the design recurrence interval may be a minimum of the 10-year storm.
+- `ann-arbor-mi` design_criteria.design_storm_return_periods_years (PDF p. 15): Preliminary calculations of runoff from the upstream area for both the 100-year and 2-year recurrence interval 24-hour design storms, for fully developed conditions according to the current land use plan for the area.
+- `ann-arbor-mi` design_criteria.peak_flow_calculation_method (PDF p. 50): The MDEQ requires applicants to use the UD-21 method by NRCS in lieu of the rational method.
+- `ann-arbor-mi` design_criteria.approved_bmp_categories (PDF p. 31): In addition, bioretention, rain gardens, porous pavement, infiltration basins, subsurface infiltration beds, infiltration trenches, vegetated swales, dry wells, green roofs and water reuse can all be used to meet some or all of the first flush/bankfull infiltration requirement for sites with A, B and some C soil types.
+- `annapolis-md` design_criteria.design_storm_return_periods_years (PDF p. 55): Condition CN tc Runoff (Qa) 1 yr storm Q 1-year Q 2-year Q 10-year Q 100 year hours inches cfs cfs cfs cfs pre-developed 63 0.35 0.2 4.62 13.58 50.38 102.6 developed 78 0.19 0.8 35.0 54.94 129.96 216.30 Step 3c.
+- `annapolis-md` design_criteria.water_quality_volume_method (PDF p. 39): Table 2.1 Summary of the Statewide Stormwater Criteria Sizing Criteria Description of Stormwater Sizing Criteria Water Quality Volume (WQv) (acre-feet) WQv = [(P )(Rv )(A)] 12 P= rainfall depth in inches and is equal to 1.0” in the Eastern Rainfall Zone and 0.9” in the Western Rainfall Zone (Fig.
+- `annapolis-md` design_criteria.peak_flow_calculation_method (PDF p. 50): Basis for Determining Overbank Flood Protection Volume When addressing the overbank flooding design criteria, the following represent the minimum basis for design: " The models TR-55 and TR-20 (or an equivalent approved by the appropriate local authority) will be used for determining peak discharge rates.
+- `annapolis-md` design_criteria.required_hydrologic_hydraulic_software (PDF p. 50): Basis for Determining Overbank Flood Protection Volume When addressing the overbank flooding design criteria, the following represent the minimum basis for design: " The models TR-55 and TR-20 (or an equivalent approved by the appropriate local authority) will be used for determining peak discharge rates.
+- `annapolis-md` design_criteria.approved_bmp_categories (PDF p. 31): Acceptable BMP groups are: Stormwater Ponds Stormwater Wetlands Infiltration Practices Filtering Systems Open Channel Practices Non-structural Practices Lastly, the chapter presents a list of land uses or site activities that have been designated as “stormwater hotspots.” If a development site is considered a “hotspot," it may have special requirements for pollution prevention and groundwater protection.
+- `asheville-nc` design_criteria.design_storm_return_periods_years (PDF p. 3): The outlets of SCMs shall be designed so that they do not cause erosion immediately downslope of the discharge point during the peak flow from the 10-year storm event as shown by engineering calculations.
+- `asheville-nc` design_criteria.approved_bmp_categories (PDF p. 2): Some SCMs that allow water to infiltrate include: infiltration systems, bioretention cells, permeable pavement, and depending upon native soils, vegetated swales, level spreader-filter strips, and berms.
+- `athens-ga` design_criteria.design_storm_return_periods_years (PDF p. 121): Smaller storm events (e.g., 2-year and 10-year) are effectively controlled through a combination of extended detention for the 1-year, 24-hour event (channel protection) and control of the 25-year peak rate for overbank flood protection.
+- `athens-ga` design_criteria.design_storm_return_periods_years (PDF p. 54): Does the community restrict or discourage development in the 100-year floodplain?
+- `athens-ga` design_criteria.peak_flow_calculation_method (PDF p. 163): Overlay Analysis – Performs integration of different data layers (e.g., What is the SCS curve number for this sub-watershed considering soils and land use?)
+- `athens-ga` design_criteria.approved_bmp_categories (PDF p. 134): The Georgia Department of Transportation (GDOT) Manual on Drainage Design for Highways (http://www.dot.ga.gov/ PS/DesignManuals) provides design guidance for linear applications of filter strips, grass channels, enhanced swales, infiltration trenches, bioslopes, sand filters, bioretention basins, and open-graded friction course BMPs.
+- `athens-ga` design_criteria.approved_bmp_categories (PDF p. 218): Pervious Concrete; and Porous Asphalt
+- `athens-ga` design_criteria.approved_bmp_categories (PDF p. 212): Stormwater Wetlands Level 2; and Gravel Wetlands
+- `augusta-ga` design_criteria.design_storm_return_periods_years (PDF p. 20): This diagram shows the hydrograph for a typical 30-acre residential site during a 10-year storm event.
+- `augusta-me` design_criteria.design_storm_return_periods_years (PDF p. 11): Detention structures are designed to control the 2-year, 10-year, and 25-year frequency discharges.
+- `augusta-me` design_criteria.design_storm_return_periods_years (PDF p. 11): Detention structures designed to provide channel protection detention must have principal spillways capable of providing extended detention of 12 hours for runoff from a 2-hour storm of a 1-year frequency.
+- `augusta-me` design_criteria.peak_flow_calculation_method (PDF p. 7): Users of this manual should have a working knowledge of applied hydrology, including familiarity with the Rational Method, SCS TR-20 and SCS TR-55 methodology.
+- `augusta-me` design_criteria.required_hydrologic_hydraulic_software (PDF p. 112): TR-55 is in fact derived from a simplification of the TR-20 model.
+- `augusta-me` design_criteria.approved_bmp_categories (PDF p. 6): Buffers Infiltration Filtration Conveyance and Distribution Separator BMPs LID
+- `aurora-co` design_criteria.design_storm_return_periods_years (PDF p. 173): Velocity, shear stress, depth, and water surface elevation (WSEL) must be evaluated for all relevant storm events detailed in the previous section, typically the bankfull, 2-year, 10-year, and 100-year flood flows.
+- `aurora-co` design_criteria.design_storm_return_periods_years (PDF p. 200): Pedestrian bridges must be designed to resist scour in a 25-year storm event, and low water crossings must be designed to resist scour in a 10-year storm event.
+- `aurora-co` design_criteria.design_storm_return_periods_years (PDF p. 220): It continuously releases or infiltrates as quickly as practicable, but in all cases releases or infiltrates at least 99% of the runoff within 120 hours after the end of events greater than a 5-year storm.
+- `az-adot-drainage` design_criteria.required_hydrologic_hydraulic_software (PDF p. 98): Execute the HEC-HMS model.
+- `az-adot-drainage` design_criteria.design_storm_return_periods_years (PDF p. 18): Develop the D-D-F table for storm frequencies: 1-year, 2-year, 5-year, 10-year, 25-year, 50- year, 100-year, and 500-year and durations: 5-minutes, 10-minutes, 15-minutes, 30- minutes, 60-minutes, 2-hours, 3-hours, 6-hours, 12-hours and 24-hours.
+- `beaumont-tx` design_criteria.design_storm_return_periods_years (PDF p. 15): Table 4-3: Atlas 14 Rainfall Intensity Coefficients* Frequency Runoff Coefficients e b d (min) 2-Year 5-Year 10-Year 25-Year 50-Year 100-Year .7862 69.0281 13.2179 .7691 81.5214 13.4732 .7505 88.8360 13.4254 .7266 97.4049 13.3288 .7065 101.4198 13.0449 .6872 105.5701 12.9873 *NOAA Atlas 14, “Precipitation-Frequency Atlas of the United States” (Volume 11 Version 2.0: Texas, September 2018) &
+- `bellingham-wa` design_criteria.design_storm_return_periods_years (PDF p. 1312): Storm frequency The time interval between major storms of predetermined intensity and volumes of runoff for which storm sewers and other structures are designed and constructed to handle hydraulically without surcharging and backflooding; e.g., a 2-year, 10-year or 100-year storm.
+- `bellingham-wa` design_criteria.design_storm_return_periods_years (PDF p. 64): 100 yr peak flow instead of 50 yr) in more vulnerable areas.
+- `bellingham-wa` design_criteria.design_storm_return_periods_years (PDF p. 123): Stormwater control or treatment structures should not be located within the expected 25-year water level elevations for salmonid-bearing waters.
+- `bellingham-wa` design_criteria.peak_flow_calculation_method (PDF p. 21): III-1.1 Choosing Your Source Control BMPs 459 III-1.2 Choosing Your Runoff Treatment BMPs 462 III-1.3 Choosing Your Flow Control BMPs 479 III-1.4 Review and Document Your BMP Choices 480 III-2 Modeling Your BMPs 483 III-2.1 An Overview of Hydrologic Analysis 483 III-2.2 Continuous Simulation Models 485 III-2.3 Single Event Hydrograph Method 496 III-2.4 Flow Bypass and Additional Area Inflow 506
+- `bellingham-wa` design_criteria.required_hydrologic_hydraulic_software (PDF p. 488): WWHM uses the EPA HSPF software program to do all of the rainfall-runoff and routing computations.
+- `bellingham-wa` design_criteria.approved_bmp_categories (PDF p. 3): Volume II - Construction Stormwater Pollution Prevention Volume III - Choosing, Modeling, and Documenting Your BMPs Volume IV - Source Control BMP Library Volume V - Runoff Treatment, Flow Control, and LID BMP Library Prepared by: Washington State Department of Ecology Water Quality Program July 2024 Publication Number 24-10-013
+- `bellingham-wa` design_criteria.approved_bmp_categories (PDF p. 479): Soil Type Infiltration/Bioretention Wet Pond* Biofiltration* (Swale or Filter Strip) Coarse Sand or Cobbles X X X Sand ü X X Loamy Sand ü X ü Sandy Loam ü X ü Loam X X ü Silt Loam X X ü Sandy Clay Loam X ü ü Silty Clay Loam X ü ü Sandy Clay X ü ü Silty Clay X ü X Clay X ü X Notes: ü Indicates that the BMP type is generally appropriate for this soil type.
+- `bend-or` design_criteria.peak_flow_calculation_method (PDF p. 18): 1.6.2 Flood Control Design Methodologies The Rational Method and U.S.
+- `bend-or` design_criteria.peak_flow_calculation_method (PDF p. 23): Does not create or increase flooding problems 1.9.2 Flow Control Methodologies Flow controls are required for development sites in the Headwaters Area of Eugene that drain to a headwater stream (see the Headwater Streams Map in Appendix J) and development proposed within the Special Stormwater Flood Control Area (Map EC 9.6791(3)(c), Appendix A).
+- `birmingham-al` design_criteria.approved_bmp_categories (PDF p. 7): For example, swales and bioretention drain small acreages, while constructed stormwater wetlands drain large acreages.
+- `boca-raton-fl` design_criteria.design_storm_return_periods_years (PDF p. 35): Area Design Frequency 10 year 200 year + 200 year + 200 year + 100 year + 200 year + 100 year + 200 year + -----------25 year 25 year 25 year 25 year 25 year 25 year 25 year -----------10 year 10 year 10 year 10 year 10 year 25 year 70.8 CSM 25 year 20 CSM 5 year A-1
+- `boston-ma` design_parameters.wqv_depth_inches (PDF p. 43): Through the Commission’s site plan review and approval process continue to require new development and redevelopment projects to incorporate priority BMPs with high pollutant removal rates to treat 1-inch of runoff from the site prior to discharging into the Commission’s MS4.
+- `boulder-co` design_criteria.design_storm_return_periods_years (PDF p. 11): Excess Urban Runoff Volume (EURV): EURV represents the difference between the developed and pre-developed runoff volume for the range of storms that produce runoff from pervious land surfaces (generally greater than the 2-year event).
+- `boulder-co` design_criteria.approved_bmp_categories (PDF p. 19): This manual provides design guidance for BMPs providing treatment of the WQCV, including permeable pavement systems with subsurface storage, bioretention, extended detention basins, sand filters, constructed wetland ponds, and retention ponds.
+- `bridgeport-ct` design_criteria.design_storm_return_periods_years (PDF p. 227): 2-year, 10-year, and potentially the 25-year and 100-year, 24-hour storms
+- `bridgeport-ct` design_criteria.peak_flow_calculation_method (PDF p. 460): Once the adjusted CN values are determined, also calculate the time of concentration and either follow the remaining steps in the Graphical Peak Discharge Method in Appendix D or use a stormwater hydrologic/hydraulic routing model based on the NRCS Curve Number method (e.g., HydroCAD or similar software) to calculate peak discharge for each design storm event.
+- `bridgeport-ct` design_criteria.peak_flow_calculation_method (PDF p. 66): The analysis should use an appropriate hydrograph routing method, such as routing employed by TR-20, to route the pre- and post-development runoff hydrographs from the project site to the downstream critical locations.
+- `bridgeport-ct` design_criteria.peak_flow_calculation_method (PDF p. 527): small storm events, and 2) the Rational Formula, which should only be used with reliable intensity, duration, and frequency (IDF) tables or curves for the storm and region of interest (Claytor and Schueler, 1996).
+- `bridgeport-ct` design_criteria.required_hydrologic_hydraulic_software (PDF p. 62): NOAA_D may be created as a user-defined rainfall distribution in HydroCAD.
+- `bridgeport-ct` design_criteria.required_hydrologic_hydraulic_software (PDF p. 62): The NRCS NOAA_D rainfall distribution is available as a standard rainfall distribution in hydrologic analysis software such as WinTR-55.
+- `bridgeport-ct` design_criteria.required_hydrologic_hydraulic_software (PDF p. 66): The analysis should use an appropriate hydrograph routing method, such as routing employed by TR-20, to route the pre- and post-development runoff hydrographs from the project site to the downstream critical locations.
+- `bridgeport-ct` design_criteria.approved_bmp_categories (PDF p. 333): Source: Eastern CT Conservation District, nianticriverwatershed.org Stormwater BMP Type Pretreatment BMP □ Infiltration BMP □ Filtering BMP ■ Stormwater Pond BMP □ Stormwater Wetland BMP □ Water Quality Conveyance BMP □ Stormwater Reuse BMP □ Proprietary BMP □ Other BMPs and Accessories □ Stormwater Management Suitability Retention* ■ Treatment ■ Pretreatment □ Peak Runoff Attenuation □
+- `broward-county-fl` design_criteria.design_storm_return_periods_years (PDF p. 51): The calculations and modeling shall be performed for a 10-year, 3-day storm event and a 100-year, 3-day storm event.
+- `broward-county-fl` design_criteria.design_storm_return_periods_years (PDF p. 28): 3.7.4 SECOND-ORDER DRAINAGE SYSTEM The second-order drainage system of each project shall be designed by using the 3-year rainfall intensity as indicated on the State of Florida Department of Transportation (FDOT) rainfall curve for Zone 10 as shown on Exhibit 41, Florida Department of Transportation Zone 10 - 3-Year Rainfall Data.
+- `brownsville-tx` design_criteria.design_storm_return_periods_years (PDF p. 17): Include acreage, runoff coefficients, Tc values, and rainfall intensities for the 5, 25, & 100-yr storm events, as applicable 3 5.
+- `brownsville-tx` design_criteria.design_storm_return_periods_years (PDF p. 30): (Equation 5.4.1) Tt = travel time (hr.) n = Manning’s roughness coefficient L = flow length (ft.) P2 = 2-year, 24-hour rainfall* s = slope of hydraulic grade line (land slope, ft/ft) *in San Antonio and its ETJ please use 4.44 inches for the two (2) -year, twentyfour (24)-hour rainfall value
+- `brownsville-tx` design_criteria.peak_flow_calculation_method (PDF p. 52): Technical Memorandum: Snyder Unit Hydrograph Parameter Guidelines – San Antonio River Basin, Regional Watershed Modeling System.
+- `brownsville-tx` design_criteria.required_hydrologic_hydraulic_software (PDF p. 28): Army Corps of Engineers Hydrologic Engineering Center HEC-HMS “Hydrologic Modeling Systems".
+- `buffalo-ny` design_criteria.design_storm_return_periods_years (PDF p. 2): Stormwater Calculations for pre- and post- construction 1-, 10-, and 100- year storm event.
+- `buffalo-ny` design_criteria.design_storm_return_periods_years (PDF p. 3): Provide stormwater management calculations utilizing USDA TR-55 and the New York State Stormwater Management Design Manual (NYSMDM) demonstrating that post-construction 25-year storm peak flows to the storm relief/ combined sewer system are less than or equal to pre-construction 2-year storm peak flows.
+- `buffalo-ny` design_criteria.approved_bmp_categories (PDF p. 1): Preference Hierarchy Stormwater Management Practices Additional Criteria Tier 1 Conservation of Natural Areas - Tier 2 Bio-retention /Rain Gardens, Stormwater Planters, Vegetated Swale (bio-swale), Filter Strips, Constructed Wetlands, Porous Pavement To be used for onsite and off-site GI Tier 3 Green Roof, Blue Roof, Cisterns To be used for onsite and off-site GI Tier 4 Off-site GI (within same
+- `burlington-vt` design_criteria.design_storm_return_periods_years (PDF p. 124): fps) peak velocity for the 1-year storm Safe conveyance of the 10-year storm Overflow Stabilized channel required if overflow above practice capacity will exceed erosive velocities.
+- `burlington-vt` design_criteria.design_storm_return_periods_years (PDF p. 28): More rigorous and detailed hydraulic analyses may be required for evaluation of the 100-year 24-hour design storm.
+- `burlington-vt` design_criteria.water_quality_volume_method (PDF p. 16): The following equation shall be used to determine the treatment volume needed to comply with the WQTS in acrefeet of storage: WQv = (P)(Rv)(A) 12 where: WQv = water quality treatment volume (acre-feet) P = 1.0 inch across Vermont Rv = volumetric runoff coefficient, equal to: [0.05 + 0.009(I)] I = whole number percent impervious of the site A = site area (in acres) In association with the 90% rule,
+- `burlington-vt` design_criteria.peak_flow_calculation_method (PDF p. 17): discharge rate of the water quality storm using a computer aided hydrologic model (TR-55, TR-20, or an approved equivalent).
+- `burlington-vt` design_criteria.peak_flow_calculation_method (PDF p. 18): (acres) Runoff depth (Q) shall be calculated by the NRCS Runoff methods or approved equivalent pre and postdevelopment condition. 𝑄𝑄 = (𝑃𝑃 − 0.2 ∗ 𝑆𝑆)2 𝑃𝑃 + 0.8 ∗ 𝑆𝑆 where: Q = runoff depth in inches P = precipitation in inches 𝑆𝑆 = 1000/𝐶𝐶𝐶𝐶 − 10 The standard for characterizing the pre-development land use shall be woods in good calculation.
+- `burlington-vt` design_criteria.required_hydrologic_hydraulic_software (PDF p. 17): discharge rate of the water quality storm using a computer aided hydrologic model (TR-55, TR-20, or an approved equivalent).
+- `burlington-vt` design_criteria.required_hydrologic_hydraulic_software (PDF p. 28): Vermont Stormwater Treatment Standards Section 2.0 necessary (e.g., a HECRAS water surface profile analysis or approved equivalent).
+- `ca-caltrans-project-planning` design_criteria.design_storm_return_periods_years (PDF p. 199): In the past many temporary diversion system guidance documents required mandatory minimum return storms for sizing the systems, for example the 2-year, 5-year, or 10-year 24-hour return period.
+- `ca-caltrans-project-planning` design_criteria.approved_bmp_categories (PDF p. 62): Bioretention Detention Basin Infiltration Trench and Basin Austin Media Filter (Earthen & Concrete Vault) Delaware Media Filter The GSRD, Trash Net, and Capture Housing are all stand-alone full-capture trash devices.
+- `cambridge-ma` design_criteria.design_storm_return_periods_years (PDF p. 148): Engineering Handbook, Part 630, Chapter 16, for the 2-year, 10-year, and 100-year 24-hour storms.
+- `cambridge-ma` design_criteria.peak_flow_calculation_method (PDF p. 19): The peak discharge rate computations must be conducted using the NRCS Technical Release WinTR20 Project Formulation Method (Version 3.20 or later versions are permissible) or WinTR55 Small Watershed Hydrology Method (Version 1.00.10 or later versions are permissible).
+- `cambridge-ma` design_criteria.required_hydrologic_hydraulic_software (PDF p. 183): Using the WinTR20/WinTR55 computer model confirm adequate Storage Volume. e.
+- `cambridge-ma` design_criteria.approved_bmp_categories (PDF p. 64): (Filtering)11 Yes Yes Yes No Both Yes Yes Yes Varies Constructed Stormwater Wetland Yes Yes Yes No Both Yes Varies Varies Varies Extended Dry Detention Basin Yes No Yes No Both Yes No Varies Varies SCM Non-Structural Street Cleaning ESSD Credits Credit 6: Reduce Impervious Area Credit 7: Buffer Zone Improvement Structural Pretreatment Structural Treatment Page 2-50
+- `carson-city-nv` design_criteria.design_storm_return_periods_years (PDF p. 10): Flow based post-construction water quality controls shall be designed to capture and treat the flow rate for the 2-year runoff event from the drainage area connected to the BMP.
+- `cedar-rapids-ia` design_criteria.design_storm_return_periods_years (PDF p. 26): Size (Acres) Predominant Land Use Watershed Length Time of Concentration Runoff Coefficient Runoff (Q) 2 yr 5 yr 10 yr 25 yr 50 yr 100 yr Table 2A-4.02: Hydrology Summary (Critical Points) Design Flows Critical Point 1 Critical Point 2 Critical Point 3 Critical Point 4 2 yr 5 yr 10 yr 25 yr 50 yr 100 yr
+- `cedar-rapids-ia` design_criteria.peak_flow_calculation_method (PDF p. 175): Detention Basin Design Methods A detention basin is to be designed to reduce the peak inflow by temporarily storing the excess stormwater and then releasing the water volume at allowable rates over an extended period.
+- `chandler-az` design_criteria.approved_bmp_categories (PDF p. 67): Chapter 3 – Storm Drainage System Design Stormwater Dissipation Drywells are permitted to drain surface retention areas only when no other means of disposal are available.
+- `charleston-wv` design_criteria.peak_flow_calculation_method (PDF p. 205): Detention basins will be review and approved on a case by case basis.
+- `charleston-wv` design_criteria.peak_flow_calculation_method (PDF p. 69): Chapter 4 Engineering Calculations 4.0 Introduction This chapter outlines the necessary calculations for stormwater management within the City of Charleston.
+- `charleston-wv` design_criteria.approved_bmp_categories (PDF p. 15): Infiltration Credit Materials Construction Guidelines Maintenance Impervious Surface Disconnection Device Description Key Elements Device Uses and Applicability Impervious Surface Disconnection in the Urban Landscape Recommended Design Procedures Infiltration Credit Construction Guidelines Maintenance Detention Basins - - - - - 6-41 6-41 6-42 6-43 6-45 6-46 6-46 6-47 6-48 6-49 6-49 6-49 6-50 6-50
+- `charlottesville-va` design_criteria.peak_flow_calculation_method (PDF p. 119): Water quality calculations showing pre-development conditions, and removal rate using latest DEQ Runoff Reduction Method spreadsheets e.
+- `charlottesville-va` design_criteria.peak_flow_calculation_method (PDF p. 141): The rational method or the SCS TR-55 method may be utilized for determining peak discharges for sediment basin sizing criteria.
+- `charlottesville-va` design_criteria.design_storm_return_periods_years (PDF p. 115): Boundaries of 100-year floodplain and floodway (where applicable) e.
+- `chula-vista-ca` design_criteria.design_storm_return_periods_years (PDF p. 115): For flow rates ranging from 10 percent, 30 percent or 50 percent of the pre-development 2- year runoff event (0.1Q2, 0.3Q2, or 0.5Q2) to the pre-development 10-year runoff event (Q10), the post-project discharge rates and durations must not exceed the pre-development rates and durations by more than 10 percent.
+- `chula-vista-ca` design_criteria.design_storm_return_periods_years (PDF p. 440): Size overflow structure to pass 100-year peak flow.
+- `chula-vista-ca` design_criteria.peak_flow_calculation_method (PDF p. 121): Refer to Appendix G of this manual for guidance for continuous simulation hydrologic modeling.
+- `chula-vista-ca` design_criteria.peak_flow_calculation_method (PDF p. 71): A runoff factor (similar to a “C” factor used in the rational method) should be used to estimate the runoff draining to the BMP.
+- `chula-vista-ca` design_criteria.required_hydrologic_hydraulic_software (PDF p. 145): San Diego Hydrology Model User Manual.
+- `chula-vista-ca` design_criteria.approved_bmp_categories (PDF p. 47): Participation in an offsite stormwater alternative compliance program would allow a PDP to fulfill the requirement of providing retention and/or biofiltration pollutant controls onsite that completely fulfill the performance standards specified in Chapter 5 (pollutant controls) with onsite flow-thru treatment controls and offsite mitigation of the DCV not retained onsite.
+- `clarksville-tn` design_criteria.design_storm_return_periods_years (PDF p. 117): Channel Flow Total Area in Acres = Weighted CN = Time Of Concentration = Pond Factor = STORM 1 Year 2 Year 5 Year 10 Year 25 Year 50 Year 100 Year 38.00 Ac.
+- `clarksville-tn` design_criteria.required_hydrologic_hydraulic_software (PDF p. 116): Compute WQv WQv = (1.11”) (Rv) (A) = (1.11”) (0.38) (38.0 ac) (1ft/12in) = 1.34 ac-ft Develop Site Hydrologic and Hydrologic Input Parameters Note that any hydrologic models using SCS procedures, such as TR-20, HEC-HMS, or HEC-1, can be used to perform preliminary hydrologic calculations.
+- `cleveland-oh` design_criteria.design_storm_return_periods_years (PDF p. 83): Design Storm Peak Discharge Rate (cfs) 24-hour Runoff Volume (show units) Percent Increase Design Discharge (cfs) Pre-Development Post- Development 1-year 2-year 5-year 10-year 25-year 50-year 100-year 3.
+- `cleveland-oh` design_criteria.peak_flow_calculation_method (PDF p. 94): Manning’s Equation or other suitable method should be used to determine design velocity.
+- `college-station-tx` design_criteria.design_storm_return_periods_years (PDF p. 10): Table 1.2 Storm Events Storm Event Name Storm Event Description “Water Quality” Criteria based on a volume of 1.5 inches of rainfall, not a storm frequency “Streambank Protection” 1-year, 24-hour storm event “Conveyance” 25-year, 24-hour storm event “Flood Mitigation” 100-year, 24-hour storm event Throughout the manual the storms will be referred to by their storm event names.
+- `college-station-tx` design_criteria.peak_flow_calculation_method (PDF p. 20): SCS Unit Hydrograph Method
+- `college-station-tx` design_criteria.peak_flow_calculation_method (PDF p. 22): Modified Rational2 0 – 200 acres Method can be used for estimating runoff volumes for storage design.
+- `college-station-tx` design_criteria.approved_bmp_categories (PDF p. 29): Ponds Porous surfaces Proprietary systems Green roofs Rainwater harvesting Wetlands Submerged gravel wetlands Local Provisions: Using Other or New Structural Stormwater Controls Innovative technologies will be allowed and encouraged.
+- `college-station-tx` design_criteria.approved_bmp_categories (PDF p. 29): Bioretention Enhanced swales (dry, wet, wetland) Alum treatment Detention Filter strips Sand filters, filter boxes, etc Infiltration wells and trenches
+- `colorado-springs-co` design_criteria.design_storm_return_periods_years (PDF p. 11): Excess Urban Runoff Volume (EURV): EURV represents the difference between the developed and pre-developed runoff volume for the range of storms that produce runoff from pervious land surfaces (generally greater than the 2-year event).
+- `colorado-springs-co` design_criteria.approved_bmp_categories (PDF p. 19): This manual provides design guidance for BMPs providing treatment of the WQCV, including permeable pavement systems with subsurface storage, bioretention, extended detention basins, sand filters, constructed wetland ponds, and retention ponds.
+- `columbia-mo` design_criteria.peak_flow_calculation_method (PDF p. 42): 2.3 WATER QUALITY HYDROLOGY METHODS Sizing BMPs properly is critical to their success.
+- `columbia-mo` design_criteria.peak_flow_calculation_method (PDF p. 87): Detention/retention facilities shall have 1,000 acres or less area tributary to the facility.
+- `columbia-sc` design_criteria.peak_flow_calculation_method (PDF p. 29): Determining the Overbank Flood Protection Volume (QFP)
+- `columbia-sc` design_criteria.peak_flow_calculation_method (PDF p. 8): The Unified Stormwater Sizing Criteria method shall be used to determine the 7
+- `columbia-sc` design_criteria.design_storm_return_periods_years (PDF p. 20): Overbank Flood Protection Provide peak discharge control of the 25-year storm event such that the postdevelopment peak rate does not exceed the predevelopment rate to reduce overbank flooding (2-, 5-, 10- and 50-yr events are also detained/retained to meet pre-development rates.) Extreme Flood Protection Evaluate the effects of the 100-year storm on the stormwater management system, adjacent
+- `concord-nc` design_criteria.design_storm_return_periods_years (PDF p. 3): The outlets of SCMs shall be designed so that they do not cause erosion immediately downslope of the discharge point during the peak flow from the 10-year storm event as shown by engineering calculations.
+- `concord-nc` design_criteria.approved_bmp_categories (PDF p. 2): Some SCMs that allow water to infiltrate include: infiltration systems, bioretention cells, permeable pavement, and depending upon native soils, vegetated swales, level spreader-filter strips, and berms.
+- `concord-nh` design_criteria.design_storm_return_periods_years (PDF p. 4): Drainage analyses shall include calculations comparing pre- and post-development stormwater runoff rates (cubic feet/second) and volumes (cubic feet) for the 1-inch rainstorm and the 2-year, 10-year, 25-year, and 50-year 24-hour storm events.
+- `concord-nh` design_criteria.design_storm_return_periods_years (PDF p. 4): For sites in the 100-year floodplain, supporting documentation should demonstrate that there is no impact to properties as a result of development. d.
+- `concord-nh` design_criteria.design_storm_return_periods_years (PDF p. 10): If the 2-year, 24-hour post-development storm volume does increase due to development then: control the 2-year, 24-hour post-development peak flow rate to ½ of the 2-year, 24-hour pre-development level or to the 1-year, 24-hour predevelopment level.
+- `concord-nh` design_criteria.approved_bmp_categories (PDF p. 4): Where practical, the use of natural, vegetated filtration and/or infiltration practices or subsurface gravel wetlands for water quality treatment is preferred, given its relatively high nitrogen removal efficiency.
+- `concord-nh` design_criteria.approved_bmp_categories (PDF p. 5): The SMP shall include calculations of the change in impervious area, pollution loading and removal volumes for each SCM, retention, and groundwater recharge, as well as GIS files containing the coordinates of all stormwater infrastructure elements (e.g. catch basins, swales, detention/bioretention areas, piping). e.
+- `ct-ctdot-drainage` design_criteria.approved_bmp_categories (PDF p. 7): changed section deleted detention basin design moved to Section 10.11 new section – Temporary Sediment Trap all of section changed changed "dry pond" to "dry detention basin" and removed regulatory discussion (moved to Section 10.11.2) riser diameter changed to riser circumference (p.
+- `ct-ctdot-drainage` design_criteria.approved_bmp_categories (PDF p. 8): ALL REVISIONS TO CONNDOT DRAINAGE MANUAL (NOVEMBER 2017) SECTION REVISION DATE NOTES 10.11.2 December 2003 new section (Regulatory Considerations) 10.11.3 December 2003 new section (Sizing Requirements) 10.11.4 December 2003 new section (Outlets) 10.11.5 December 2003 new section (Embankment Cross Sections) 10.12 December 2003 all of section changed 10.12.1 December 2003 changed "wet pond" to "wet
+- `ct-ctdot-drainage` design_criteria.design_storm_return_periods_years (PDF p. 249): Shall have minimum flow capacity of a flood equal to at least 25 year frequency flood.
+- `ct-ctdot-drainage` design_criteria.design_storm_return_periods_years (PDF p. 440): Small structures shall be designed to pass a 50-year frequency discharge as outlined in the Hydrology chapter.
+- `davenport-ia` design_criteria.design_storm_return_periods_years (PDF p. 26): Size (Acres) Predominant Land Use Watershed Length Time of Concentration Runoff Coefficient Runoff (Q) 2 yr 5 yr 10 yr 25 yr 50 yr 100 yr Table 2A-4.02: Hydrology Summary (Critical Points) Design Flows Critical Point 1 Critical Point 2 Critical Point 3 Critical Point 4 2 yr 5 yr 10 yr 25 yr 50 yr 100 yr
+- `davenport-ia` design_criteria.peak_flow_calculation_method (PDF p. 175): Detention Basin Design Methods A detention basin is to be designed to reduce the peak inflow by temporarily storing the excess stormwater and then releasing the water volume at allowable rates over an extended period.
+- `dayton-oh` design_criteria.design_storm_return_periods_years (PDF p. 2): The hydraulic grade line for culverts shall be 12” below pavement elevation for a 25-year storm and shall not exceed the pavement elevation for a 100-year storm.
+- `dayton-oh` design_criteria.design_storm_return_periods_years (PDF p. 3): Control the post-development storms of a frequency between one-year and the critical storm determined in (b), so as to be equal to, or less than, the predevelopment peak runoff rate for a 24-hour, 1-year frequency storm. d.
+- `daytona-beach-fl` design_criteria.design_storm_return_periods_years (PDF p. 79): SECTION 3.0 DRAINAGE DESIGN GUIDELINES Table 3.3-2 Rainfall Intensity Based on Storm Frequency (24-hr design storm) Storm Frequency 24-hr Design Storm (inches/24-hrs)1 3-yr 6.1 5-yr 7.7 10-yr 8.2 25-yr 10.4 50-yr 12.6 100-yr 15.0 1.
+- `dc-ddot-stormwater` design_criteria.design_storm_return_periods_years (PDF p. 27): The reservoir will be sized so that the runoff associated with the 2 year, 24 hour frequency storm does not surcharge the wearing surface at the low end of the facility.
+- `dc-ddot-stormwater` design_criteria.approved_bmp_categories (PDF p. 32): Bioretention in Open Area: diaphragm, or grass filter strip.
+- `dc-guidebook` design_criteria.design_storm_return_periods_years (PDF p. 104): (g) Sizing of ring to accept openings and to pass 100-year design storm.
+- `de-deldot-drainage` design_criteria.required_hydrologic_hydraulic_software (PDF p. 57): Computer programs such as HEC-RAS, NFF and HY-8 automate the design methods.
+- `de-deldot-drainage` design_criteria.design_storm_return_periods_years (PDF p. 111): Normally, the analysis will include the 2-, 10-, and 100- year storms are evaluated.
+- `de-deldot-drainage` design_criteria.design_storm_return_periods_years (PDF p. 80): The design frequency is 25-yr.
+- `de-deldot-drainage` design_criteria.design_storm_return_periods_years (PDF p. 95): 18 remarks such as sump condition, 50-yr frequency, etc One of the final checks is to determine the interception efficiency, E, of the inlet.
+- `dekalb-county-ga` design_criteria.peak_flow_calculation_method (PDF p. 163): Overlay Analysis – Performs integration of different data layers (e.g., What is the SCS curve number for this sub-watershed considering soils and land use?)
+- `dekalb-county-ga` design_criteria.design_storm_return_periods_years (PDF p. 121): Smaller storm events (e.g., 2-year and 10-year) are effectively controlled through a combination of extended detention for the 1-year, 24-hour event (channel protection) and control of the 25-year peak rate for overbank flood protection.
+- `deltona-fl` design_criteria.design_storm_return_periods_years (PDF p. 79): SECTION 3.0 DRAINAGE DESIGN GUIDELINES Table 3.3-2 Rainfall Intensity Based on Storm Frequency (24-hr design storm) Storm Frequency 24-hr Design Storm (inches/24-hrs)1 3-yr 6.1 5-yr 7.7 10-yr 8.2 25-yr 10.4 50-yr 12.6 100-yr 15.0 1.
+- `des-moines-ia` design_criteria.peak_flow_calculation_method (PDF p. 175): Detention Basin Design Methods A detention basin is to be designed to reduce the peak inflow by temporarily storing the excess stormwater and then releasing the water volume at allowable rates over an extended period.
+- `dover-de` design_criteria.design_storm_return_periods_years (PDF p. 12): The total storage, including any ponding for larger flooding events (100-year storm) should not extend more than 5 feet above the permanent pool unless specific design enhancements to ensure side slope stability, safety, and maintenance are identified and approved.
+- `dover-de` design_criteria.peak_flow_calculation_method (PDF p. 11): For treatment train designs where upland practices are utilized for treatment of the resource protection storm (RPv), designers can use a site-adjusted runoff curve number (RCN) that reflects the volume reduction of upland practices to compute the Cv and Fv that will be treated by the Wet Pond.
+- `duluth-mn` design_criteria.design_storm_return_periods_years (PDF p. 852): Graphs 1-4 illustrate the hydrographs for the 1-yr, 2-yr, 10-yr and 100-yr events for the routed
+- `duluth-mn` design_criteria.peak_flow_calculation_method (PDF p. 305): 305 Minnesota storMwater Manual procedures, cost determinations, graphics and references.
+- `duluth-mn` design_parameters.permanent_pool_depth_inches (PDF p. 461): Permanent pool depth 3’ minimum, 10’ maximum
+- `durham-nc` design_parameters.wqv_depth_inches (PDF p. 137): All impervious surfaces, as reasonably practical, must drain to an SCM that is designed to provide a minimum of 85% TSS removal and is sized to capture runoff from the first 1 inch of rainfall from all surfaces that drain to the SCM.
+- `el-paso-tx` design_criteria.design_storm_return_periods_years (PDF p. 157): surface Runoff Velocity less than six (6) feet per second Ensure runoff will flow into drainage easement Storm Drain 100-year Hydraulic Grade Line (50-year, if vested).
+- `el-paso-tx` design_criteria.peak_flow_calculation_method (PDF p. 15): Urban Conditions Drainage Area less than 200 Acres Rational Method Drainage Area between 200 Acres & 5 Square Miles Unit Hydrograph Method Drainage Area Greater than 200 Acres Unit Hydrograph Method
+- `el-paso-tx` design_criteria.required_hydrologic_hydraulic_software (PDF p. 168): HEC-HMS Tutorial City of El Paso May 2022 5.3.1 Basin Model 1.
+- `elizabeth-nj` design_criteria.design_storm_return_periods_years (PDF p. 34): 7:8-5.6(b) for the current and projected 2-, 10-, and 100-year storms.
+- `elizabeth-nj` design_criteria.approved_bmp_categories (PDF p. 24): The reduced curve number method is illustrated in Example 1 of Chapter 9.6: Pervious Paving Systems and the example in Chapter 9.4: Green Roofs of the BMP Manual.
+- `eugene-or` design_criteria.peak_flow_calculation_method (PDF p. 18): 1.6.2 Flood Control Design Methodologies The Rational Method and U.S.
+- `eugene-or` design_criteria.peak_flow_calculation_method (PDF p. 23): Does not create or increase flooding problems 1.9.2 Flow Control Methodologies Flow controls are required for development sites in the Headwaters Area of Eugene that drain to a headwater stream (see the Headwater Streams Map in Appendix J) and development proposed within the Special Stormwater Flood Control Area (Map EC 9.6791(3)(c), Appendix A).
+- `evansville-in` design_criteria.design_storm_return_periods_years (PDF p. 638): Design to control multiple types of storm events (e.g., two- and/or 10-year storms) and safely pass the 100-year storm event.
+- `evansville-in` design_criteria.peak_flow_calculation_method (PDF p. 62): Some of the more common and acceptable methods are the rational method, Technical Release Numbers 55 and 20.
+- `evansville-in` design_criteria.approved_bmp_categories (PDF p. 525): Surface filtration systems include measures such as compost filters, vegetated swales, and riparian buffer zones.
+- `evansville-in` design_parameters.length_to_width_ratio (PDF p. 397): Lay out the location and shape of the sediment trap allowing for a length to width ratio of 2:1 or greater.
+- `everett-wa` design_criteria.design_storm_return_periods_years (PDF p. 1312): Storm frequency The time interval between major storms of predetermined intensity and volumes of runoff for which storm sewers and other structures are designed and constructed to handle hydraulically without surcharging and backflooding; e.g., a 2-year, 10-year or 100-year storm.
+- `everett-wa` design_criteria.design_storm_return_periods_years (PDF p. 64): 100 yr peak flow instead of 50 yr) in more vulnerable areas.
+- `everett-wa` design_criteria.design_storm_return_periods_years (PDF p. 123): Stormwater control or treatment structures should not be located within the expected 25-year water level elevations for salmonid-bearing waters.
+- `everett-wa` design_criteria.peak_flow_calculation_method (PDF p. 21): III-1.1 Choosing Your Source Control BMPs 459 III-1.2 Choosing Your Runoff Treatment BMPs 462 III-1.3 Choosing Your Flow Control BMPs 479 III-1.4 Review and Document Your BMP Choices 480 III-2 Modeling Your BMPs 483 III-2.1 An Overview of Hydrologic Analysis 483 III-2.2 Continuous Simulation Models 485 III-2.3 Single Event Hydrograph Method 496 III-2.4 Flow Bypass and Additional Area Inflow 506
+- `everett-wa` design_criteria.required_hydrologic_hydraulic_software (PDF p. 488): WWHM uses the EPA HSPF software program to do all of the rainfall-runoff and routing computations.
+- `everett-wa` design_criteria.approved_bmp_categories (PDF p. 3): Volume II - Construction Stormwater Pollution Prevention Volume III - Choosing, Modeling, and Documenting Your BMPs Volume IV - Source Control BMP Library Volume V - Runoff Treatment, Flow Control, and LID BMP Library Prepared by: Washington State Department of Ecology Water Quality Program July 2024 Publication Number 24-10-013
+- `everett-wa` design_criteria.approved_bmp_categories (PDF p. 479): Soil Type Infiltration/Bioretention Wet Pond* Biofiltration* (Swale or Filter Strip) Coarse Sand or Cobbles X X X Sand ü X X Loamy Sand ü X ü Sandy Loam ü X ü Loam X X ü Silt Loam X X ü Sandy Clay Loam X ü ü Silty Clay Loam X ü ü Sandy Clay X ü ü Silty Clay X ü X Clay X ü X Notes: ü Indicates that the BMP type is generally appropriate for this soil type.
+- `fairfax-county-va` design_criteria.approved_bmp_categories (PDF p. 214): Planting plans are required for all extended detention ponds.
+- `fayetteville-ar` design_criteria.design_storm_return_periods_years (PDF p. 86): If the discharge is directly or indirectly to a stream, the discharge flow rate shall not exceed 50% of the peak flow rate of the 2-year, 24-hour event for all storm events up to the 10-year, 24-hour event.
+- `fayetteville-ar` design_criteria.design_storm_return_periods_years (PDF p. 80): These outlets must pass the peak runoff expected from the contributing drainage area for a 100-year storm.
+- `fayetteville-ar` design_criteria.design_storm_return_periods_years (PDF p. 21): Temporary secondary containment facilities shall provide for a spill containment volume able to contain precipitation from a 25 year, 24 hour storm event, plus 10% of the total enclosed container volume of all containers, or 110% of the capacity of the largest container within its boundary, whichever is greater.
+- `fayetteville-ar` design_criteria.peak_flow_calculation_method (PDF p. 78): If no hydrologic analysis is required, the Rational Method may be used.
+- `fhwa-hec-22` design_criteria.design_storm_return_periods_years (PDF p. 41): Project plans must show the water surface elevations of the overtopping flood and base flood (i.e., 100-year flood) if larger than the overtopping flood. [23 CFR 650.117(c)].
+- `fhwa-hec-22` design_criteria.design_storm_return_periods_years (PDF p. 59): (4.3) where: tt = Sheet flow travel time, min n = Roughness coefficient L = Flow length, ft (m) P2 = 2-year, 24-hour rainfall depth, inches (mm) S = Surface slope, ft/ft (m/m) Ku = Unit conversion constant, 0.42 in CU (5.5 in SI) Table 4.2 summarizes Manning’s roughness coefficients.
+- `fl-fdot-drainage` design_criteria.required_hydrologic_hydraulic_software (PDF p. 56): The computer programs acceptable for hydraulic analyses at tidal crossing are HEC-RAS, RMA-2, ADCIRC, and FESWMS.
+- `fl-fdot-drainage` design_criteria.design_storm_return_periods_years (PDF p. 53): Analyze the design of all cross drain structures for the Design Flood, Base Flood (100-year frequency flood), and the Greatest Flood (overtopping flood or the 500-year frequency flood where overtopping is not practicable) that you expect to flow to the structure.
+- `fl-fdot-drainage` design_criteria.design_storm_return_periods_years (PDF p. 14): Temporary Outfalls and Canals 5-year Site-specific factors may warrant the use of an atypical design frequency.
+- `fl-fdot-drainage` design_criteria.design_storm_return_periods_years (PDF p. 26): Outlets of systems requiring pumping stations 50-year Acquire flood rights where offsite stages increase and impact land use values.
+- `fl-fsesci-tier1` design_criteria.design_storm_return_periods_years (PDF p. 171): Most natural stream channels are formed with a bankfull capacity to pass the runoff from a storm with a 1 1/2 to 2-year recurrence interval.
+- `fl-nwfwmd-erp-ah2` design_criteria.approved_bmp_categories (PDF p. 27): Stormwater retention and detention systems are classified as moderate sanitary hazards with respect to public and private drinking water wells.
+- `fl-sjrwmd-erp-ah2` design_criteria.design_storm_return_periods_years (PDF p. 78): (b) 25-year return period.
+- `fl-sjrwmd-erp-ah2` design_criteria.design_storm_return_periods_years (PDF p. 96): Apopka or its tributaries for the 100-year, 24-hour storm event.
+- `fl-sjrwmd-erp-ah2` design_criteria.design_storm_return_periods_years (PDF p. 35): When conservation storage is at the average dry season design stage, the discharge will be the average 5 year, 30-day low flow.
+- `flagstaff-az` design_criteria.design_storm_return_periods_years (PDF p. 43): However, peak flow estimates should be calculated using the regression equation below with the local parameters defined in Table 4-6. 𝑄 = 𝑎(𝐷𝑅𝑁𝐴𝑅𝐸𝐴)𝑏 Where: Q = peak flow (cfs) DRNAREA = Watershed area (sq mi) TABLE 4-6: REGRESSION PARAMETERS ANNUAL EXCEEDANCE PROBABILITY (AEP) 50% (2-Year) 20% (5-Year) 10% (10-Year) 4% (25-Year) 2% (50-Year) 1% (100-Year) 0.5% (200-Year) 0.2% (500-Year)
+- `flagstaff-az` design_parameters.wqv_depth_inches (PDF p. 92): Impervious Surface Area (square feet) X 1 inch = Runoff Capture Volume 5.
+- `flint-mi` design_criteria.design_storm_return_periods_years (PDF p. 16): The City is located in Zone 9 of Michigan, the 24-hour event data for which are as follows: Zone Table 2: Rainfall frequencies, 24-hour duration (rainfall in inches) 1-year 2-year 5-year 10-year 25-year 50-year 100-year 9 2.03 2.42 2.98 3.43 4.09 4.63 5.20 ENGINEERING STANDARDS Storm Sewers The following minimum standards apply to the design of storm sewers.
+- `flint-mi` design_criteria.peak_flow_calculation_method (PDF p. 13): Water quality treatment volume Channel protection Flood control Stormwater conveyance Groundwater recharge Operation and maintenance requirements Enforcement mechanism with recordkeeping procedures These minimum design requirements apply to all sites of new development and/or redevelopment that result in a discharge of stormwater runoff from the site to the City of Lansing’s separate storm sewer
+- `fort-collins-co` design_criteria.design_storm_return_periods_years (PDF p. 11): Excess Urban Runoff Volume (EURV): EURV represents the difference between the developed and pre-developed runoff volume for the range of storms that produce runoff from pervious land surfaces (generally greater than the 2-year event).
+- `fort-collins-co` design_criteria.approved_bmp_categories (PDF p. 19): This manual provides design guidance for BMPs providing treatment of the WQCV, including permeable pavement systems with subsurface storage, bioretention, extended detention basins, sand filters, constructed wetland ponds, and retention ponds.
+- `fort-wayne-in` design_criteria.design_storm_return_periods_years (PDF p. 142): Documentation of Water Quality Volume Calculations that include impacts for 2 year event and 100 year event.
+- `fort-worth-tx` design_parameters.swale_longitudinal_slope_percent (PDF p. 116): However, slope <1% may lead to standing water in dry swales Often infeasible if slopes are 4% or greater Channels, Grass Channels, Open Chemical Treatment Alum Treatment System Conveyance System Components Culverts Energy Dissipation Inlets/Street Gutters Pipe Systems Detention Detention, Dry Embankment heights restricted Require poly or clay liner, Max ponding depth, Geotechnical tests Detention,
+- `frankfort-ky` design_criteria.design_storm_return_periods_years (PDF p. 65): reduce peak flows to pre-development levels for the 10-year 6-hour and 100-year 6-hour storms
+- `frankfort-ky` design_criteria.approved_bmp_categories (PDF p. 8): Revised design standards for permeable pavement, manufactured treatment devices, extended detention basins, and underground detention in Chapter 10 – Post- Construction Stormwater Controls
+- `frankfort-ky` design_criteria.approved_bmp_categories (PDF p. 160): They may be used instead of Green Infrastructure in the following situations:
+- `franklin-tn` design_criteria.approved_bmp_categories (PDF p. 7): Permanent BMPs may include swales, sediment or detention ponds, and a variety of other features.
+- `fremont-ca` design_criteria.peak_flow_calculation_method (PDF p. 66): 7.1.1 Volume-Based Sizing Criteria The MRP specifies two alternative methods for hydraulically sizing volume-based stormwater treatment measure.
+- `fremont-ca` design_criteria.required_hydrologic_hydraulic_software (PDF p. 162): Please make sure to use the current version of the BAHM (BAHM2023).
+- `fresno-ca` design_parameters.bioretention_media_depth_min_inches (PDF p. 87): SWQDV = Stormwater quality design volume [ft3]; lPM = Depth of planting media (min 2 ft) [ft];
+- `fulton-county-ga` design_criteria.peak_flow_calculation_method (PDF p. 163): Overlay Analysis – Performs integration of different data layers (e.g., What is the SCS curve number for this sub-watershed considering soils and land use?)
+- `fulton-county-ga` design_criteria.design_storm_return_periods_years (PDF p. 121): Smaller storm events (e.g., 2-year and 10-year) are effectively controlled through a combination of extended detention for the 1-year, 24-hour event (channel protection) and control of the 25-year peak rate for overbank flood protection.
+- `ga-gdot-drainage` design_criteria.required_hydrologic_hydraulic_software (PDF p. 53): If a higher degree of accuracy is warranted, or if the watershed is large and complex, use computer programs such as NRCS Technical Release 20 (TR-20), the USACE Hydrologic Engineering Center Hydraulic Modeling Software (HEC-HMS), or AQUAVEO Watershed Modeling System (WMS).
+- `ga-gdot-drainage` design_criteria.design_storm_return_periods_years (PDF p. 47): Industry standard design storm events, include the 1-year, 2-year, 5-year, 10-year, 25-year, 50-year, 100-year, 200-year, and 500-year storms.
+- `ga-state` design_criteria.design_storm_return_periods_years (PDF p. 20): This diagram shows the hydrograph for a typical 30-acre residential site during a 10-year storm event.
+- `gastonia-nc` design_criteria.design_storm_return_periods_years (PDF p. 3): The outlets of SCMs shall be designed so that they do not cause erosion immediately downslope of the discharge point during the peak flow from the 10-year storm event as shown by engineering calculations.
+- `gastonia-nc` design_criteria.approved_bmp_categories (PDF p. 2): Some SCMs that allow water to infiltrate include: infiltration systems, bioretention cells, permeable pavement, and depending upon native soils, vegetated swales, level spreader-filter strips, and berms.
+- `grand-prairie-tx` design_criteria.design_storm_return_periods_years (PDF p. 10): Table 1.2 Storm Events Storm Event Name Storm Event Description “Water Quality” Criteria based on a volume of 1.5 inches of rainfall, not a storm frequency “Streambank Protection” 1-year, 24-hour storm event “Conveyance” 25-year, 24-hour storm event “Flood Mitigation” 100-year, 24-hour storm event Throughout the manual the storms will be referred to by their storm event names.
+- `grand-prairie-tx` design_criteria.water_quality_volume_method (PDF p. 10): Table 1.2 Storm Events Storm Event Name Storm Event Description “Water Quality” Criteria based on a volume of 1.5 inches of rainfall, not a storm frequency “Streambank Protection” 1-year, 24-hour storm event “Conveyance” 25-year, 24-hour storm event “Flood Mitigation” 100-year, 24-hour storm event Throughout the manual the storms will be referred to by their storm event names.
+- `grand-prairie-tx` design_criteria.peak_flow_calculation_method (PDF p. 20): SCS Unit Hydrograph Method
+- `grand-prairie-tx` design_criteria.peak_flow_calculation_method (PDF p. 34): The required volume for extended detention is referred to as the Streambank Protection Volume (denoted SPv).
+- `grand-prairie-tx` design_criteria.peak_flow_calculation_method (PDF p. 22): Modified Rational2 0 – 200 acres Method can be used for estimating runoff volumes for storage design.
+- `grand-prairie-tx` design_criteria.approved_bmp_categories (PDF p. 29): Bioretention Enhanced swales (dry, wet, wetland) Alum treatment Detention Filter strips Sand filters, filter boxes, etc Infiltration wells and trenches
+- `grand-rapids-mi` design_criteria.design_storm_return_periods_years (PDF p. 68): (4) Flood storage must be between the 2-year flood elevation and the 100-year flood elevation.
+- `grand-rapids-mi` design_criteria.approved_bmp_categories (PDF p. 26): Implement structural BMPs that control volume through infiltration.
+- `greensboro-nc` design_criteria.design_storm_return_periods_years (PDF p. 3): The outlets of SCMs shall be designed so that they do not cause erosion immediately downslope of the discharge point during the peak flow from the 10-year storm event as shown by engineering calculations.
+- `greensboro-nc` design_criteria.approved_bmp_categories (PDF p. 2): Some SCMs that allow water to infiltrate include: infiltration systems, bioretention cells, permeable pavement, and depending upon native soils, vegetated swales, level spreader-filter strips, and berms.
+- `greenville-sc` design_criteria.design_storm_return_periods_years (PDF p. 20): Overbank Flood Protection Provide peak discharge control of the 25-year storm event such that the postdevelopment peak rate does not exceed the predevelopment rate to reduce overbank flooding (2-, 5-, 10- and 50-yr events are also detained/retained to meet pre-development rates.) Extreme Flood Protection Evaluate the effects of the 100-year storm on the stormwater management system, adjacent
+- `greenville-sc` design_criteria.design_storm_return_periods_years (PDF p. 24): Rainfall Depths: The rainfall depth of the 1-year, 24-hour storm is 3.1 inches.
+- `greenville-sc` design_criteria.peak_flow_calculation_method (PDF p. 29): Determining the Overbank Flood Protection Volume (QFP)
+- `greenville-sc` design_criteria.peak_flow_calculation_method (PDF p. 8): The Unified Stormwater Sizing Criteria method shall be used to determine the 7
+- `greenville-sc` design_criteria.approved_bmp_categories (PDF p. 14): BMPs used for water quality shall have a pretreatment device as part of the BMP or treatment system.
+- `gulfport-ms` design_criteria.design_storm_return_periods_years (PDF p. 199): Detention basins and associated outflow structures should be designed to address the 2-year, 5-year, 10-year, 25-year, and 50-year, 24-hour storm events.
+- `gulfport-ms` design_criteria.design_storm_return_periods_years (PDF p. 197): Designed for an extended detention time of 24 hours for the 1-year storm event.
+- `gulfport-ms` design_criteria.peak_flow_calculation_method (PDF p. 199): Runoff volumes and rates may be calculated using the SCS Runoff Curve Number Method (see Appendix Volume, Appendix A, A-16).
+- `gulfport-ms` design_criteria.peak_flow_calculation_method (PDF p. 199): Detention storage may be determined using the Short Cut Floodrouting Method for determining drainage areas and runoffs that fall with the method’s limits.
+- `gwinnett-county-ga` design_criteria.peak_flow_calculation_method (PDF p. 163): Overlay Analysis – Performs integration of different data layers (e.g., What is the SCS curve number for this sub-watershed considering soils and land use?)
+- `gwinnett-county-ga` design_criteria.design_storm_return_periods_years (PDF p. 20): This diagram shows the hydrograph for a typical 30-acre residential site during a 10-year storm event.
+- `harrisburg-pa` design_parameters.shwt_separation_inches (PDF p. 166): Maintain a minimum 2-foot separation to bedrock and seasonally high-water table.
+- `harrisburg-pa` design_parameters.bioretention_media_depth_min_inches (PDF p. 174): Soil media depth should be at least 18 inches.
+- `harrisburg-pa` design_parameters.ed_drain_time_hours (PDF p. 277): Should be designed to drain within 72 hours.
+- `harrisburg-pa` design_parameters.length_to_width_ratio (PDF p. 612): The length to width ratio of the forebay should be 2:1 or greater.
+- `hartford-ct` design_criteria.design_storm_return_periods_years (PDF p. 227): 2-year, 10-year, and potentially the 25-year and 100-year, 24-hour storms
+- `hartford-ct` design_criteria.peak_flow_calculation_method (PDF p. 527): 94 This method is more appropriate than: 1) the traditional Natural Resources Conservation Service (NRCS) Curve Number methods, which are valuable for estimating peak discharge rates for storms greater than 2 inches but can significantly underestimate runoff from small storm events, and 2) the Rational Formula, which should only be used with reliable intensity, duration, and frequency (IDF) tables
+- `hartford-ct` design_criteria.peak_flow_calculation_method (PDF p. 66): The analysis should use an appropriate hydrograph routing method, such as routing employed by TR-20, to route the pre- and post-development runoff hydrographs from the project site to the downstream critical locations.
+- `hartford-ct` design_criteria.required_hydrologic_hydraulic_software (PDF p. 62): NOAA_D may be created as a user-defined rainfall distribution in HydroCAD.
+- `hartford-ct` design_criteria.required_hydrologic_hydraulic_software (PDF p. 62): The NRCS NOAA_D rainfall distribution is available as a standard rainfall distribution in hydrologic analysis software such as WinTR-55.
+- `hartford-ct` design_criteria.required_hydrologic_hydraulic_software (PDF p. 66): The analysis should use an appropriate hydrograph routing method, such as routing employed by TR-20, to route the pre- and post-development runoff hydrographs from the project site to the downstream critical locations.
+- `hartford-ct` design_criteria.approved_bmp_categories (PDF p. 333): Source: Eastern CT Conservation District, nianticriverwatershed.org Stormwater BMP Type Pretreatment BMP □ Infiltration BMP □ Filtering BMP ■ Stormwater Pond BMP □ Stormwater Wetland BMP □ Water Quality Conveyance BMP □ Stormwater Reuse BMP □ Proprietary BMP □ Other BMPs and Accessories □ Stormwater Management Suitability Retention* ■ Treatment ■ Pretreatment □ Peak Runoff Attenuation □
+- `helena-mt` design_criteria.design_storm_return_periods_years (PDF p. 11): (2) a 10-year storm event; and (3) a 100-year storm event.
+- `helena-mt` design_criteria.design_storm_return_periods_years (PDF p. 58): for a 60-minute storm at the 2-year recurrence interval at Helena Airport is 0.51 in/hour.
+- `helena-mt` design_criteria.peak_flow_calculation_method (PDF p. 32): Calculations must be performed using the Storage Indication Method, Modified Rational Method in Section 3.7, or another method approved by the Department.
+- `helena-mt` design_criteria.peak_flow_calculation_method (PDF p. 22): 3.7.4 STORAGE-INDICATION ROUTING Storage-indication routing may be used to calculate detention or infiltration facility volumes.
+- `hialeah-fl` design_criteria.design_storm_return_periods_years (PDF p. 35): Area Design Frequency 10 year 200 year + 200 year + 200 year + 100 year + 200 year + 100 year + 200 year + -----------25 year 25 year 25 year 25 year 25 year 25 year 25 year -----------10 year 10 year 10 year 10 year 10 year 25 year 70.8 CSM 25 year 20 CSM 5 year A-1
+- `high-point-nc` design_criteria.design_storm_return_periods_years (PDF p. 3): The principal spillway shall be designed for the 10-year pre-development storm event.
+- `high-point-nc` design_criteria.design_storm_return_periods_years (PDF p. 3): The emergency spillway shall be designed to safely convey the 100-year storm event. o.
+- `high-point-nc` design_criteria.approved_bmp_categories (PDF p. 2): Additional BMPs include natural infiltration areas, dry detention ponds, and infiltration trenches.
+- `huntsville-al` design_criteria.approved_bmp_categories (PDF p. 7): For example, swales and bioretention drain small acreages, while constructed stormwater wetlands drain large acreages.
+- `ia-dot-drainage` design_criteria.design_storm_return_periods_years (PDF p. 1): In this manual, a minor design storm is generally taken to be a storm event that has a 10% probability of being equaled or exceeded in any year (often referred to as the 10 year storm).
+- `ia-dot-drainage` design_criteria.design_storm_return_periods_years (PDF p. 1): In this manual, a major design storm is generally taken to be a storm event that has a 1% probability of being equaled or exceeded in any year (often referred to as the 100 year storm).
+- `ia-state-ch1` design_criteria.design_storm_return_periods_years (PDF p. 49): (critical points) Design Flows Critical Point 1 Critical Point 2 Critical Point 3 Critical Point 4 1 yr 2 yr 5 yr 10 yr 25 yr 50 yr 100 yr Page 7 of 8 October 28, 2009
+- `id-itd-drainage` design_criteria.required_hydrologic_hydraulic_software (PDF p. 10): Design Manual Hydraulics Section 600.00 640.00 – CULVERTS It is highly recommended the HY-8 computer program be used for culvert design.
+- `id-itd-drainage` design_criteria.design_storm_return_periods_years (PDF p. 5): The 500-year flood can be established by gauge records if sufficient data is available.
+- `id-itd-drainage` design_criteria.design_storm_return_periods_years (PDF p. 11): High Water is defined as the water surface elevation at the inlet of the culvert for the 50-year flood event.
+- `id-itd-drainage` design_criteria.design_storm_return_periods_years (PDF p. 5): For culverts less than 12 feet wide that have a closed bottom (including those with the invert lowered) the design flood will be a 25-year flood.
+- `il-idot-drainage` design_criteria.required_hydrologic_hydraulic_software (PDF p. 354): HEC-RAS6 can model a three-sided structure.
+- `il-idot-drainage` design_criteria.design_storm_return_periods_years (PDF p. 127): Calc.) and the 500 year event is disregarded.
+- `il-idot-drainage` design_criteria.design_storm_return_periods_years (PDF p. 237): 1-hr (First-Quartile Distribution) 50-yr Storm).
+- `il-idot-drainage` design_criteria.design_storm_return_periods_years (PDF p. 62): Season 1-52 Design Frequency 1 yr 5 yr Consult BBS-HYD 10.
+- `il-iepa-stormwater` design_criteria.approved_bmp_categories (PDF p. 31): (835) Grass-Lined Channel (840) Infiltration Trench (847) 1/99 10/2001 1/99 Level Spreader (870) Name (Code) Open Channel (878) Permeable Pavement (890) Subsurface Drain (945) 1/99 Date 9/2012 1/99 8/94 Detention Urban Stormwater Wetlands (800) 8/94 Special Area Protection Streambanks and Shorelines Dewatering (813) Erosion Control Blanket – Turf Reinforcement Mat (TRM) Structural Streambank
+- `in-indot-drainage` design_criteria.required_hydrologic_hydraulic_software (PDF p. 12): HY-8 version 7.2 and the HEC-RAS culvert modules are the only computer programs allowed for the hydraulic analysis of a culvert.
+- `in-indot-drainage` design_criteria.required_hydrologic_hydraulic_software (PDF p. 43): structure elevation v. inlet-depression depth 5. hydrology calculations which can include the Rational Method, Hydrograph Method (TR- 20, HEC-HMS, etc.), curve numbers, Manning’s n values, time of concentration, etc.
+- `in-indot-drainage` design_criteria.design_storm_return_periods_years (PDF p. 25): The other model will use the 100-year design storm for the main stream and the 5-year design storm for the tributary.
+- `independence-mo` design_criteria.design_storm_return_periods_years (PDF p. 31): Detention basins detain and manage releases from larger rainfall events―usually up to and including the 100-year return interval event ― and should include a treatment component sized for the WQv.
+- `independence-mo` design_criteria.approved_bmp_categories (PDF p. 105): Structural BMPs that provide on-site treatment include bioretention, infiltration trenches, and sand filters.
+- `indiana-manual` design_parameters.length_to_width_ratio (PDF p. 397): Lay out the location and shape of the sediment trap allowing for a length to width ratio of 2:1 or greater.
+- `jackson-ms` design_criteria.design_storm_return_periods_years (PDF p. 199): Detention basins and associated outflow structures should be designed to address the 2-year, 5-year, 10-year, 25-year, and 50-year, 24-hour storm events.
+- `jackson-ms` design_criteria.design_storm_return_periods_years (PDF p. 197): Designed for an extended detention time of 24 hours for the 1-year storm event.
+- `jackson-ms` design_criteria.peak_flow_calculation_method (PDF p. 199): Runoff volumes and rates may be calculated using the SCS Runoff Curve Number Method (see Appendix Volume, Appendix A, A-16).
+- `jackson-ms` design_criteria.peak_flow_calculation_method (PDF p. 199): Detention storage may be determined using the Short Cut Floodrouting Method for determining drainage areas and runoffs that fall with the method’s limits.
+- `jackson-ms` design_criteria.approved_bmp_categories (PDF p. 147): Filtration but can also be designed as infiltration type systems when located in soils with sufficient permeability or infiltration rates.
+- `jacksonville-fl` design_criteria.design_storm_return_periods_years (PDF p. 79): SECTION 3.0 DRAINAGE DESIGN GUIDELINES Table 3.3-2 Rainfall Intensity Based on Storm Frequency (24-hr design storm) Storm Frequency 24-hr Design Storm (inches/24-hrs)1 3-yr 6.1 5-yr 7.7 10-yr 8.2 25-yr 10.4 50-yr 12.6 100-yr 15.0 1.
+- `jefferson-city-mo` design_criteria.design_storm_return_periods_years (PDF p. 209): Flow-through Wet Detention Ponds typically have a weir or single orifice outlet control to slow the release of runoff from large, infrequent storms such as 10-year or 100-year storms.
+- `jefferson-city-mo` design_criteria.design_storm_return_periods_years (PDF p. 222): Debris removal Removal cost ($/acre) x Area (acre) x Frequency (1x/2 yr) Inspection Inspection cost ($) x Inspection frequency (6x/1 yr) Mowing Mowing cost ($) x Mowing frequency (6x/1 yr) table 6.13 Source: Minnesota Stormwater Manual Version 2, 2008.
+- `juneau-ak` design_criteria.design_storm_return_periods_years (PDF p. 78): Some jurisdictions may require peak discharge control for the 2-year storm event.
+- `juneau-ak` design_criteria.design_storm_return_periods_years (PDF p. 81): The MOA approach uses a maximum melt event (an approximate 5-year return period).
+- `juneau-ak` design_criteria.design_storm_return_periods_years (PDF p. 87): Extreme Flood Control The postdevelopment peak rate of discharge for the 100-year, 24-hour storm should be reduced to the predevelopment peak rate.
+- `juneau-ak` design_criteria.peak_flow_calculation_method (PDF p. 73): Alaska Storm Water Guide December 2011 A partial list of hydrologic modeling software accepted by some Alaskan municipalities includes the following: ILLUDAS TR55-1986 WinTR553 WinTR20 SCS HEC-HMS Rational Method For small sites (e.g., a single residential structure), generally the easiest to implement method for determining peak event runoff rates is the rational method.
+- `juneau-ak` design_criteria.peak_flow_calculation_method (PDF p. 88): Soil Conservation Service methods if evaluating small basins (TR-55 or EPA SWMM)) coupled with site topography and flood routing analysis.
+- `juneau-ak` design_criteria.required_hydrologic_hydraulic_software (PDF p. 73): Alaska Storm Water Guide December 2011 A partial list of hydrologic modeling software accepted by some Alaskan municipalities includes the following: ILLUDAS TR55-1986 WinTR553 WinTR20 SCS HEC-HMS Rational Method For small sites (e.g., a single residential structure), generally the easiest to implement method for determining peak event runoff rates is the rational method.
+- `juneau-ak` design_criteria.approved_bmp_categories (PDF p. 181): Storm water treatment suitability matrix BMP family BMP list RUNOFF HYDROLOGY WATER QUALITY BENEFIT Rate control Volume reduction TSS P&N Metals Fecal coliform Retention Wet Pond High Low Primary Secondary Secondary Secondary Extended Storage Pond High Low Primary Secondary Secondary Secondary Wet Vaults Medium Lowa Primary Secondary Secondary Minor Detention Dry Pond High Low Secondary Minor
+- `kennewick-wa` design_criteria.design_storm_return_periods_years (PDF p. 679): The corresponding overflow and underdrain design flow is the 2 Year Storm.
+- `kennewick-wa` design_criteria.approved_bmp_categories (PDF p. 66): l Pretreatment BMPs l Oil Control BMPs l Phosphorus Treatment BMPs l Metals Treatment BMPs l Basic Treatment BMPs See the following sections for additional information on Runoff Treatment BMPs: l 6.1.2 Choosing Your Runoff Treatment BMPs l Chapter 6 - Runoff Treatment, Flow Control, and LID BMP Library LID BMPs LID (Low Impact Development) BMPs refer to BMPs that are installed for the purpose of
+- `killeen-tx` design_criteria.peak_flow_calculation_method (PDF p. 22): Table 2-1 Storm Runoff Calculation Methods Contributing Area Runoff Methods Less than 200 acres Rational or VRIM1 SCS Tabular/Graphical2 200–400 acres SCS Tabular/Graphical3 HEC-HMS or FEMA-approved models Greater than 400 acres SCS HEC-HMS or FEMA-approved models 1Variable Rainfall Intensity Method (VRIM) in Section 2.4.5.
+- `king-county-wa` design_criteria.design_storm_return_periods_years (PDF p. 206): Typical return periods calculated in continuous models are the 100-year, 50-year, 25-year, 10- year, 5-year, 3-year, 2-year, and lesser storms for low-flow regime, LID and water quality applications. ❑ FLOW DURATION ANALYSIS Flow duration analysis is important because it identifies the changes in durations of all high flows rather than simply the change in frequency of the peak annual flows.
+- `ks-kdot-drainage` design_criteria.required_hydrologic_hydraulic_software (PDF p. 6): Army Corps of Engineers computer program for flood hydrograph simulation HEC-HMS Hydrologic Modeling System: U.
+- `ks-kdot-drainage` design_criteria.required_hydrologic_hydraulic_software (PDF p. 7): elevation for a culvert (ft) HY-8 FHWA computer program for hydraulic analysis and design of culverts and energy dissipators i Point rainfall intensity in the Rational formula (in./hr) I Moment of inertia of pipe wall (in.4/in.) IA Basin-average rainfall intensity (in/hr) K Bedding constant in deflection formula for corrugated metal pipe K Hydraulic conveyance of roadway and gutter (cfs) Drainage
+- `ky-kytc-drainage` design_criteria.peak_flow_calculation_method (PDF p. 10): HEC has developed and maintains programs that compute runoff and flood profiles, the most familiar being HECHMS and HEC-RAS.
+- `ky-kytc-drainage` design_criteria.required_hydrologic_hydraulic_software (PDF p. 10): HEC has developed and maintains programs that compute runoff and flood profiles, the most familiar being HECHMS and HEC-RAS.
+- `ky-kytc-drainage` design_criteria.required_hydrologic_hydraulic_software (PDF p. 10): Documentation for TR-55 can be found online at: https://www.hydrocad.net/pdf/TR-55 Manual.pdf The TR-55 program download can be found online at: https://www.nrcs.usda.gov/resources?title=&resource_type=1970 Soil survey information is available online at: https://websoilsurvey.sc.egov.usda.gov/App/HomePage.htm The interactive Web Soil Survey application provides online access to soil maps and data nationwide.
+- `la-ladotd-drainage` design_criteria.design_storm_return_periods_years (PDF p. 118): (See Chapter 1) 8.3.2 Lower Service Class Streets For lower service class streets, if the 10 year design cannot be met, or creates significant design burden, the design may be amended to a 5 year or 2 year storm, with the concurrence of the Chief Design Engineer.
+- `la-ladotd-drainage` design_criteria.design_storm_return_periods_years (PDF p. 190): In addition, the low chord should be set to clear the FEMA base flood (100-year flood) water surface elevation.
+- `la-ladotd-drainage` design_criteria.design_storm_return_periods_years (PDF p. 17): Year Frequency a.) 25 year frequency is required when the PAADT is ≤ 3000. b.) 50 year frequency is required when the PAADT is > 3000.
+- `lacey-wa` design_criteria.design_storm_return_periods_years (PDF p. 271): If the post-development flow duration values exceed any of the pre-development flow levels between 100% of the 2-year and 100% of the 50-year pre-development peak flow values more than 10 percent of the time (110 Percent Threshold) then the flow duration requirement has not been met.
+- `lafayette-la` design_criteria.design_storm_return_periods_years (PDF p. 300): Drainage facilities shall be designed and constructed so that the rate of runoff from a site postconstruction shall be equal to or less than the runoff of a pre-construction site for the 2-year, 10-year, 25-year, and 100-year design storms.
+- `lakeland-fl` design_criteria.design_storm_return_periods_years (PDF p. 29): 25-year, 24-hour 100-year, 24-hour High 100-year, 24-hour Probable Maximum Flood History Note: Adapted from NWFWMD AH I Section 8.4.7.
+- `lakeland-fl` design_criteria.approved_bmp_categories (PDF p. 22): The volume of runoff to be treated from a site shall be determined by the type of treatment system, i.e., wet detention, detention with effluent filtration, on-line retention treatment system, or off-line retention treatment system. a.
+- `lansing-mi` design_criteria.peak_flow_calculation_method (PDF p. 13): Water quality treatment volume Channel protection Flood control Stormwater conveyance Groundwater recharge Operation and maintenance requirements Enforcement mechanism with recordkeeping procedures These minimum design requirements apply to all sites of new development and/or redevelopment that result in a discharge of stormwater runoff from the site to the City of Lansing’s separate storm sewer
+- `lansing-mi` design_criteria.design_storm_return_periods_years (PDF p. 16): The City is located in Zone 9 of Michigan, the 24-hour event data for which are as follows: Zone Table 2: Rainfall frequencies, 24-hour duration (rainfall in inches) 1-year 2-year 5-year 10-year 25-year 50-year 100-year 9 2.03 2.42 2.98 3.43 4.09 4.63 5.20 ENGINEERING STANDARDS Storm Sewers The following minimum standards apply to the design of storm sewers.
+- `laredo-tx` design_criteria.design_storm_return_periods_years (PDF p. 17): Include acreage, runoff coefficients, Tc values, and rainfall intensities for the 5, 25, & 100-yr storm events, as applicable 3 5.
+- `laredo-tx` design_criteria.design_storm_return_periods_years (PDF p. 30): (Equation 5.4.1) Tt = travel time (hr.) n = Manning’s roughness coefficient L = flow length (ft.) P2 = 2-year, 24-hour rainfall* s = slope of hydraulic grade line (land slope, ft/ft) *in San Antonio and its ETJ please use 4.44 inches for the two (2) -year, twentyfour (24)-hour rainfall value
+- `laredo-tx` design_criteria.peak_flow_calculation_method (PDF p. 52): Technical Memorandum: Snyder Unit Hydrograph Parameter Guidelines – San Antonio River Basin, Regional Watershed Modeling System.
+- `laredo-tx` design_criteria.required_hydrologic_hydraulic_software (PDF p. 28): Army Corps of Engineers Hydrologic Engineering Center HEC-HMS “Hydrologic Modeling Systems".
+- `las-vegas-nv` design_criteria.design_storm_return_periods_years (PDF p. 94): Therefore the 2-, 5-, 10-, 25-, 50-, and 100-year, 6-hour and 24-hour point precipitation values are read from Figures 501 through 512.
+- `las-vegas-nv` design_criteria.approved_bmp_categories (PDF p. 43): The Regional Flood Control Facilities consist of channels, storm sewers, bridges, detention areas, and other facilities which carry runoff from on-site and off-site facilities to an ultimate outfall location.
+- `las-vegas-nv` design_criteria.approved_bmp_categories (PDF p. 645): Hydraulic calculations for culverts and storm drains.
+- `lawrence-ks` design_criteria.design_storm_return_periods_years (PDF p. 16): Peak discharges from the property shall not exceed the following release rates: 2 yr storm 2.4 cfs/acre 10 yr storm 3.2 cfs/acre 100 yr storm 4.5 cfs/acre b.
+- `lawrence-ks` design_criteria.design_storm_return_periods_years (PDF p. 11): A 50-year storm has a probability of 0.02 (2%) of occurring in any given year.
+- `lawrence-ks` design_criteria.design_storm_return_periods_years (PDF p. 33): Wall Height: The minimum wall height shall be the greater of 1.5 feet or the depth of the 1-year peak water surface plus 0.5 ft.
+- `lexington-ky` design_criteria.approved_bmp_categories (PDF p. 8): Revised design standards for permeable pavement, manufactured treatment devices, extended detention basins, and underground detention in Chapter 10 – Post- Construction Stormwater Controls
+- `lincoln-ne` design_criteria.design_storm_return_periods_years (PDF p. 53): Design to hold/infiltrate volume difference in 2-yr storm.
+- `long-beach-ca` design_parameters.shwt_separation_inches (PDF p. 60): Site soils have adequate drainage (at least 0.5 inches per hour) and depth to groundwater (5 feet) if water will infiltrate from the open-graded base into site soils.
+- `los-angeles-ca` design_parameters.bioretention_media_depth_min_inches (PDF p. 298): dpm Depth of planting media layer (min 2 ft) [ft]
+- `louisville-ky` design_criteria.approved_bmp_categories (PDF p. 764): Temporary detention of stormwater
+- `louisville-ky` design_parameters.green_roof_media_depth_inches (PDF p. 771): Intensive Green Roof – Soil depth greater than 6 inches.
+- `lubbock-tx` design_criteria.peak_flow_calculation_method (PDF p. 103): An example table for submittal of Modified Rational Method calculations in an acceptable format is provided in the appendix.
+- `ma-massdot-drainage` design_criteria.approved_bmp_categories (PDF p. 26): It covers green infrastructure such as bioretention designs, stormwater trees, and permeable pavement, and provides insight on innovative street design strategies.
+- `ma-massdot-drainage` design_criteria.design_storm_return_periods_years (PDF p. 139): Design the auxiliary outlet to safely pass the 100-year design event.
+- `ma-massdot-drainage` design_criteria.design_storm_return_periods_years (PDF p. 91): Both configurations are designed to safely bypass larger flows (e.g., 10-year storm).
+- `ma-state-draft` design_criteria.approved_bmp_categories (PDF p. 64): (Filtering)11 Yes Yes Yes No Both Yes Yes Yes Varies Constructed Stormwater Wetland Yes Yes Yes No Both Yes Varies Varies Varies Extended Dry Detention Basin Yes No Yes No Both Yes No Varies Varies SCM Non-Structural Street Cleaning ESSD Credits Credit 6: Reduce Impervious Area Credit 7: Buffer Zone Improvement Structural Pretreatment Structural Treatment Page 2-50
+- `macon-ga` design_criteria.design_storm_return_periods_years (PDF p. 20): This diagram shows the hydrograph for a typical 30-acre residential site during a 10-year storm event.
+- `madison-wi` design_criteria.design_storm_return_periods_years (PDF p. 16): Design the detention device(s) to fill during the post development 100-year event.
+- `madison-wi` design_criteria.design_storm_return_periods_years (PDF p. 17): Further the 500-year event flood elevation shall be routed through the development to determine flood elevations.
+- `madison-wi` design_criteria.design_storm_return_periods_years (PDF p. 18): Reduce runoff volumes from the site by 5% compared to existing conditions during a 10-year design storm.
+- `madison-wi` design_criteria.approved_bmp_categories (PDF p. 4): Green infrastructure includes, but is not limited to, the following practices: rainwater harvesting/reuse, rain gardens, bioretention systems, infiltration basins, underground infiltration fields (note these may be Class V injection
+- `manchester-nh` design_criteria.design_storm_return_periods_years (PDF p. 4): Drainage analyses shall include calculations comparing pre- and post-development stormwater runoff rates (cubic feet/second) and volumes (cubic feet) for the 1-inch rainstorm and the 2-year, 10-year, 25-year, and 50-year 24-hour storm events.
+- `manchester-nh` design_criteria.design_storm_return_periods_years (PDF p. 4): For sites in the 100-year floodplain, supporting documentation should demonstrate that there is no impact to properties as a result of development. d.
+- `manchester-nh` design_criteria.design_storm_return_periods_years (PDF p. 10): If the 2-year, 24-hour post-development storm volume does increase due to development then: control the 2-year, 24-hour post-development peak flow rate to ½ of the 2-year, 24-hour pre-development level or to the 1-year, 24-hour predevelopment level.
+- `manchester-nh` design_criteria.approved_bmp_categories (PDF p. 4): Where practical, the use of natural, vegetated filtration and/or infiltration practices or subsurface gravel wetlands for water quality treatment is preferred, given its relatively high nitrogen removal efficiency.
+- `manchester-nh` design_criteria.approved_bmp_categories (PDF p. 5): The SMP shall include calculations of the change in impervious area, pollution loading and removal volumes for each SCM, retention, and groundwater recharge, as well as GIS files containing the coordinates of all stormwater infrastructure elements (e.g. catch basins, swales, detention/bioretention areas, piping). e.
+- `maricopa-county-az` design_criteria.approved_bmp_categories (PDF p. 61): Discharges of dredged or fill material into non-tidal Waters of the United States for the construction and maintenance of stormwater management facilities, including activities for the excavation of stormwater ponds/facilities, detention basins, and retention basins; the installation and maintenance of water control structures, outfall structures and emergency spillways; and the maintenance
+- `mcallen-tx` design_criteria.design_storm_return_periods_years (PDF p. 17): Include acreage, runoff coefficients, Tc values, and rainfall intensities for the 5, 25, & 100-yr storm events, as applicable 3 5.
+- `mcallen-tx` design_criteria.design_storm_return_periods_years (PDF p. 30): (Equation 5.4.1) Tt = travel time (hr.) n = Manning’s roughness coefficient L = flow length (ft.) P2 = 2-year, 24-hour rainfall* s = slope of hydraulic grade line (land slope, ft/ft) *in San Antonio and its ETJ please use 4.44 inches for the two (2) -year, twentyfour (24)-hour rainfall value
+- `mcallen-tx` design_criteria.peak_flow_calculation_method (PDF p. 52): Technical Memorandum: Snyder Unit Hydrograph Parameter Guidelines – San Antonio River Basin, Regional Watershed Modeling System.
+- `mcallen-tx` design_criteria.required_hydrologic_hydraulic_software (PDF p. 28): Army Corps of Engineers Hydrologic Engineering Center HEC-HMS “Hydrologic Modeling Systems".
+- `md-sha-drainage` design_criteria.required_hydrologic_hydraulic_software (PDF p. 15): The MDOT SHA allows the use of many up-to-date versions of the government software packages (such as TVHG from MDOT SHA, WinTR-20 from NRCS, Hydraulic Toolbox from FHWA, and HEC-RAS from USACE), as well as many proprietary software packages (such as HydroCAD or Bentley OpenRoads Designer) but does not necessarily approve or endorse the use of all computational methodologies / routines within these software packages.
+- `md-sha-drainage` design_criteria.required_hydrologic_hydraulic_software (PDF p. 101): HY-8: Software that automates the design methods described in HDS No.
+- `md-sha-drainage` design_criteria.design_storm_return_periods_years (PDF p. 40): Projected rainfall ratios are storm event dependent, ratios for the 10-year storm should not be applied to rainfalls from the 50-year storm.
+- `md-sha-drainage` design_criteria.design_storm_return_periods_years (PDF p. 84): The land use culvert shall be sized to ensure it can serve its intended land use function up to and including a 2-year flood.
+- `me-dot-drainage` design_criteria.design_storm_return_periods_years (PDF p. 13): By their nature, closed systems have limited capacity and therefore are designed for the 10-year event instead of the much larger 50-year event.
+- `me-dot-drainage` design_criteria.design_storm_return_periods_years (PDF p. 2): For cross culverts > 60 inches, the return period is the 100-year storm.
+- `me-dot-drainage` design_criteria.peak_flow_calculation_method (PDF p. 11): Rational Method will typically be used for pavement drainage.
+- `me-dot-drainage` design_criteria.required_hydrologic_hydraulic_software (PDF p. 13): HydroCad and other analysis software can be used to calculate flows.
+- `melbourne-fl` design_criteria.design_storm_return_periods_years (PDF p. 79): SECTION 3.0 DRAINAGE DESIGN GUIDELINES Table 3.3-2 Rainfall Intensity Based on Storm Frequency (24-hr design storm) Storm Frequency 24-hr Design Storm (inches/24-hrs)1 3-yr 6.1 5-yr 7.7 10-yr 8.2 25-yr 10.4 50-yr 12.6 100-yr 15.0 1.
+- `memphis-tn` design_criteria.approved_bmp_categories (PDF p. 3): In the future, water quality detention and retention may be required.
+- `memphis-tn` design_criteria.design_storm_return_periods_years (PDF p. 57): professional engineer to define the expected 100-year flood elevation throughout the site of the proposed development.
+- `mesquite-tx` design_criteria.approved_bmp_categories (PDF p. 120): These criteria apply to all open channels (including roadside ditches) and detention/retention facilities.
+- `mesquite-tx` design_criteria.design_storm_return_periods_years (PDF p. 79): Pedestrian bridges must be sized to contain the 25-year storm event.
+- `mi-mdot-drainage` design_criteria.design_storm_return_periods_years (PDF p. 15): If designing at a sag point, use a 2 percent chance (50-year) storm and continue to contain spread within the shoulder.
+- `missoula-mt` design_criteria.design_storm_return_periods_years (PDF p. 11): (2) a 10-year storm event; and (3) a 100-year storm event.
+- `missoula-mt` design_criteria.design_storm_return_periods_years (PDF p. 58): for a 60-minute storm at the 2-year recurrence interval at Helena Airport is 0.51 in/hour.
+- `missoula-mt` design_criteria.peak_flow_calculation_method (PDF p. 22): 3.7.4 STORAGE-INDICATION ROUTING Storage-indication routing may be used to calculate detention or infiltration facility volumes.
+- `missoula-mt` design_criteria.peak_flow_calculation_method (PDF p. 18): The rational method may also be used to estimate the volume of runoff from a drainage area for design of retention facilities.
+- `missouri-manual` design_criteria.design_storm_return_periods_years (PDF p. 222): Debris removal Removal cost ($/acre) x Area (acre) x Frequency (1x/2 yr) Inspection Inspection cost ($) x Inspection frequency (6x/1 yr) Mowing Mowing cost ($) x Mowing frequency (6x/1 yr) table 6.13 Source: Minnesota Stormwater Manual Version 2, 2008.
+- `missouri-manual` design_criteria.design_storm_return_periods_years (PDF p. 212): V = Volume needed to control the 10-year storm (ft3).
+- `mn-state-2008` design_parameters.permanent_pool_depth_inches (PDF p. 461): Permanent pool depth 3’ minimum, 10’ maximum
+- `montgomery-al` design_criteria.approved_bmp_categories (PDF p. 7): For example, swales and bioretention drain small acreages, while constructed stormwater wetlands drain large acreages.
+- `montpelier-vt` design_criteria.design_storm_return_periods_years (PDF p. 124): fps) peak velocity for the 1-year storm Safe conveyance of the 10-year storm Overflow Stabilized channel required if overflow above practice capacity will exceed erosive velocities.
+- `montpelier-vt` design_criteria.design_storm_return_periods_years (PDF p. 28): More rigorous and detailed hydraulic analyses may be required for evaluation of the 100-year 24-hour design storm.
+- `montpelier-vt` design_criteria.peak_flow_calculation_method (PDF p. 17): discharge rate of the water quality storm using a computer aided hydrologic model (TR-55, TR-20, or an approved equivalent).
+- `montpelier-vt` design_criteria.peak_flow_calculation_method (PDF p. 22): The Watershed Lag Method shall be used for determination of peak rates for existing and proposed condition modeling, proposed condition modeling with treatment volume credit and an associated adjusted curve number, and water quality storm modeling.
+- `montpelier-vt` design_criteria.peak_flow_calculation_method (PDF p. 18): (acres) Runoff depth (Q) shall be calculated by the NRCS Runoff methods or approved equivalent pre and postdevelopment condition. 𝑄𝑄 = (𝑃𝑃 − 0.2 ∗ 𝑆𝑆)2 𝑃𝑃 + 0.8 ∗ 𝑆𝑆 where: Q = runoff depth in inches P = precipitation in inches 𝑆𝑆 = 1000/𝐶𝐶𝐶𝐶 − 10 The standard for characterizing the pre-development land use shall be woods in good calculation.
+- `montpelier-vt` design_criteria.required_hydrologic_hydraulic_software (PDF p. 17): discharge rate of the water quality storm using a computer aided hydrologic model (TR-55, TR-20, or an approved equivalent).
+- `montpelier-vt` design_criteria.required_hydrologic_hydraulic_software (PDF p. 28): Vermont Stormwater Treatment Standards Section 2.0 necessary (e.g., a HECRAS water surface profile analysis or approved equivalent).
+- `montpelier-vt` design_parameters.permanent_pool_depth_inches (PDF p. 206): Pocket ponds with permanent pools equal to or greater than 4 feet in depth shall provide a safety bench in accordance with the safety bench requirements in Section 4.3.6.
+- `mt-mdt-drainage` design_criteria.required_hydrologic_hydraulic_software (PDF p. 25): HEC-HMS offers several loss models in gridded format.
+- `mt-mdt-drainage` design_criteria.design_storm_return_periods_years (PDF p. 11): DESIGN FLOOD FREQUENCY SELECTION GUIDELINES Design Flood < 10-year 10-year 25-year 50-year ADT < 50 50 – 399 400 – 3000 > 3000 ADT × Detour Length (miles) < 1000 1000 – 3999 4000 – 15,000 > 15,000 Notes: 1.
+- `mt-mdt-drainage` design_criteria.design_storm_return_periods_years (PDF p. 38): From Figure 9.A-4, for a Percent Design Risk of 25% and a construction time of five months, the recommended design frequency for the temporary hydraulic facility is a 2-year return period.
+- `nashua-nh` design_criteria.design_storm_return_periods_years (PDF p. 4): Drainage analyses shall include calculations comparing pre- and post-development stormwater runoff rates (cubic feet/second) and volumes (cubic feet) for the 1-inch rainstorm and the 2-year, 10-year, 25-year, and 50-year 24-hour storm events.
+- `nashua-nh` design_criteria.design_storm_return_periods_years (PDF p. 4): For sites in the 100-year floodplain, supporting documentation should demonstrate that there is no impact to properties as a result of development. d.
+- `nashua-nh` design_criteria.design_storm_return_periods_years (PDF p. 10): If the 2-year, 24-hour post-development storm volume does increase due to development then: control the 2-year, 24-hour post-development peak flow rate to ½ of the 2-year, 24-hour pre-development level or to the 1-year, 24-hour predevelopment level.
+- `nashua-nh` design_criteria.approved_bmp_categories (PDF p. 4): Where practical, the use of natural, vegetated filtration and/or infiltration practices or subsurface gravel wetlands for water quality treatment is preferred, given its relatively high nitrogen removal efficiency.
+- `nashua-nh` design_criteria.approved_bmp_categories (PDF p. 5): The SMP shall include calculations of the change in impervious area, pollution loading and removal volumes for each SCM, retention, and groundwater recharge, as well as GIS files containing the coordinates of all stormwater infrastructure elements (e.g. catch basins, swales, detention/bioretention areas, piping). e.
+- `nc-ncdot-drainage` design_criteria.required_hydrologic_hydraulic_software (PDF p. 180): HEC-RAS can model many different culvert shapes.
+- `nc-ncdot-drainage` design_criteria.design_storm_return_periods_years (PDF p. 29): For cross-drainage, design for the appropriate storm frequency for the functional classification of the highway facility (usually 25-year or 50-year) should be achieved.
+- `nd-nddot-drainage` design_criteria.required_hydrologic_hydraulic_software (PDF p. 12): HY- 8 FHWA Hydraulic Design of Highway Culverts HEC-HMS USACE Hydrologic Modeling System HEC-RAS USACE Hydrologic Engineering Center River Analysis System FHWA Hydraulic Toolbox Aquaveo Surface-water Modeling System (SMS/SRH-2D) PeakFQ Annual Flood Frequency Analysis Using Bulletin 17C and Bulletin 17B Guidelines
+- `nd-nddot-drainage` design_criteria.design_storm_return_periods_years (PDF p. 78): Abrasion velocities based on a 2 year design frequency.
+- `nd-nddot-drainage` design_criteria.design_storm_return_periods_years (PDF p. 19): alternatives all maintained flow velocities at the structure below 5 feet per second during a 50-year flood event.
+- `nd-nddot-drainage` design_criteria.design_storm_return_periods_years (PDF p. 5): For sites with upstream buildings which may be affected by high-flow events, the 500-year discharge shall also be determined.
+- `new-haven-ct` design_criteria.design_storm_return_periods_years (PDF p. 227): 2-year, 10-year, and potentially the 25-year and 100-year, 24-hour storms
+- `new-haven-ct` design_criteria.peak_flow_calculation_method (PDF p. 460): Once the adjusted CN values are determined, also calculate the time of concentration and either follow the remaining steps in the Graphical Peak Discharge Method in Appendix D or use a stormwater hydrologic/hydraulic routing model based on the NRCS Curve Number method (e.g., HydroCAD or similar software) to calculate peak discharge for each design storm event.
+- `new-haven-ct` design_criteria.peak_flow_calculation_method (PDF p. 66): The analysis should use an appropriate hydrograph routing method, such as routing employed by TR-20, to route the pre- and post-development runoff hydrographs from the project site to the downstream critical locations.
+- `new-haven-ct` design_criteria.peak_flow_calculation_method (PDF p. 527): small storm events, and 2) the Rational Formula, which should only be used with reliable intensity, duration, and frequency (IDF) tables or curves for the storm and region of interest (Claytor and Schueler, 1996).
+- `new-haven-ct` design_criteria.required_hydrologic_hydraulic_software (PDF p. 62): NOAA_D may be created as a user-defined rainfall distribution in HydroCAD.
+- `new-haven-ct` design_criteria.required_hydrologic_hydraulic_software (PDF p. 62): The NRCS NOAA_D rainfall distribution is available as a standard rainfall distribution in hydrologic analysis software such as WinTR-55.
+- `new-haven-ct` design_criteria.required_hydrologic_hydraulic_software (PDF p. 66): The analysis should use an appropriate hydrograph routing method, such as routing employed by TR-20, to route the pre- and post-development runoff hydrographs from the project site to the downstream critical locations.
+- `new-haven-ct` design_criteria.approved_bmp_categories (PDF p. 333): Source: Eastern CT Conservation District, nianticriverwatershed.org Stormwater BMP Type Pretreatment BMP □ Infiltration BMP □ Filtering BMP ■ Stormwater Pond BMP □ Stormwater Wetland BMP □ Water Quality Conveyance BMP □ Stormwater Reuse BMP □ Proprietary BMP □ Other BMPs and Accessories □ Stormwater Management Suitability Retention* ■ Treatment ■ Pretreatment □ Peak Runoff Attenuation □
+- `new-orleans-jefferson-la` design_criteria.design_storm_return_periods_years (PDF p. 95): For instance the City of New Orleans specifies the 10-year, 24-hour rainfall event.
+- `new-orleans-jefferson-la` design_criteria.design_storm_return_periods_years (PDF p. 88): Storm events that exceed the 100-year design storm will exit the basin over an emergency spillway.
+- `new-orleans-jefferson-la` design_criteria.water_quality_volume_method (PDF p. 95): The determination of the design storm depth for volume-based BMPs can be computed from the water quality storage volume (treatment plus retention) as follows: d = V × 12 in/ft/[C × A × 43560 sf/ac] Equation 4-1 Where: d = storm depth (inches) V = total water quality design volume (cu-ft) C = drainage area runoff coefficient = 0.05 + 0.9 × imp Bayou Land RC&D 4-5 October 2010
+- `new-orleans-jefferson-la` design_criteria.peak_flow_calculation_method (PDF p. 96): Design flow rates are typically determined using unit hydrograph, rational method, or SCS curve number approaches for computing peak flow rates from the drainage area.
+- `new-orleans-jefferson-la` design_criteria.peak_flow_calculation_method (PDF p. 99): Continuous simulation methods have their own strengths and limitations.
+- `new-orleans-jefferson-la` design_criteria.approved_bmp_categories (PDF p. 123): Bayou Land RC&D 5-14 October 2010 Figure 5-5: Office Building Site Design Example
+- `newark-nj` design_criteria.design_storm_return_periods_years (PDF p. 34): 7:8-5.6(b) for the current and projected 2-, 10-, and 100-year storms.
+- `newark-nj` design_criteria.approved_bmp_categories (PDF p. 24): The reduced curve number method is illustrated in Example 1 of Chapter 9.6: Pervious Paving Systems and the example in Chapter 9.4: Green Roofs of the BMP Manual.
+- `nh-nhdot-drainage` design_criteria.required_hydrologic_hydraulic_software (PDF p. 40): Practice: Requiring models, such a HydroCAD, StormCAD, SMS, HEC RAS or HY8 should be submitted for review for timely reviews rather than just the results from print-outs in .pdf format.
+- `nh-nhdot-drainage` design_criteria.required_hydrologic_hydraulic_software (PDF p. 144): HEC- HMS and the NRCS TR-20 models are examples of deterministic models that are quasiempirical.
+- `nh-nhdot-drainage` design_criteria.design_storm_return_periods_years (PDF p. 19): Storm sewers for depressed sections & underpasses Check for 50 yr.
+- `nh-nhdot-drainage` design_criteria.design_storm_return_periods_years (PDF p. 133): Permanent slope drain systems are designed for the 10 yr. storm event.
+- `nh-nhdot-drainage` design_criteria.design_storm_return_periods_years (PDF p. 26): Design flow for AOP is typically on the order of ~ 25% of the 2 yr. event.
+- `nh-state` design_criteria.design_storm_return_periods_years (PDF p. 4): For sites in the 100-year floodplain, supporting documentation should demonstrate that there is no impact to properties as a result of development. d.
+- `nh-state` design_criteria.design_storm_return_periods_years (PDF p. 10): If the 2-year, 24-hour post-development storm volume does increase due to development then: control the 2-year, 24-hour post-development peak flow rate to ½ of the 2-year, 24-hour pre-development level or to the 1-year, 24-hour predevelopment level.
+- `nj-njdot-drainage` design_criteria.required_hydrologic_hydraulic_software (PDF p. 15): HEC-HMS or others† ‡ For all projects in certain areas south of the South Central flat inland and New Jersey Coastal Plain, the DELMARVA Unit Hydrograph shall be incorporated into the design procedure.
+- `nj-njdot-drainage` design_criteria.design_storm_return_periods_years (PDF p. 83): Stormwater management for the higher intensity storms (2-year, 10-year, and 100-year) is subsequently provided above the level of the water quality storm.
+- `nj-njdot-drainage` design_criteria.design_storm_return_periods_years (PDF p. 70): The velocity in the pipe shall be that which occurs during passage of the design storm or of the 25- year storm, whichever is greater.
+- `nm-nmdot-drainage` design_criteria.required_hydrologic_hydraulic_software (PDF p. 533): Figure 13 HEC-HMS Basin Model
+- `nm-nmdot-drainage` design_criteria.required_hydrologic_hydraulic_software (PDF p. 269): Pier debris width and height may be simulated with HEC-RAS.
+- `nm-nmdot-drainage` design_criteria.design_storm_return_periods_years (PDF p. 156): The USGS has determined station specific flood frequency data for 293 gage locations for recurrence intervals of 2-, 5-, 10-, 25-, 50-, 100- and 500-years that generally have 10 or more years of record (through 2004).
+- `norfolk-va` design_criteria.design_storm_return_periods_years (PDF p. 28): (ii) 1-, 2-, and 10-year 24-hour storm events (NOAA Atlas 14); and (iii) the seasonal high groundwater table (GWT).
+- `ny-bluebook` design_criteria.design_storm_return_periods_years (PDF p. 293): We want to protect the site for the 2- year, 24-hour storm.
+- `ny-bluebook` design_criteria.design_storm_return_periods_years (PDF p. 297): This process imports rainfall values from the 1 year to the 500 year storm.
+- `ny-bluebook` design_criteria.design_storm_return_periods_years (PDF p. 333): Existing drainage patterns, 100 year floodplain and sub-areas shown, runoff outfall locations identified ____ ____ 9.
+- `ny-nysdot-drainage` design_criteria.required_hydrologic_hydraulic_software (PDF p. 132): HEC-HMS "Hydrologic Modeling System", Hydrologic Engineering Center, U.
+- `ny-nysdot-drainage` design_criteria.design_storm_return_periods_years (PDF p. 24): Use a 25-year frequency at the following locations where no overflow relief is available: a. sag vertical curves connecting negative and positive grades. b. other locations such as underpasses, depressed roadways, etc.
+- `ny-nysdot-drainage` design_criteria.design_storm_return_periods_years (PDF p. 24): As per 23CFR650A, and Table 1-1 of HDS 2, a 50-year frequency shall be used for stormwater design at the following locations where no overflow relief is available: a. sag vertical curves connecting negative and positive grades. b. other locations such as underpasses, depressed roadways, etc.
+- `ny-nysdot-drainage` design_criteria.design_storm_return_periods_years (PDF p. 26): To construct a set of IDF curves for a given location, HEC-12 uses six data points from HYDRO-35: the 2-year 5, 15 and 60 minute rainfalls and the 100-year 5, 15 and 60 minute rainfalls. the 60 minute rainfall for each intermediate return period is calculated from these points, and then the rainfall intensities for other durations are calculated.
+- `ny-state` design_criteria.design_storm_return_periods_years (PDF p. 221): Hotspot The proposed development is not a hotspot (Section 4.14) 90th percentile rainfall 1.20 inches (Section 4.2) 1-year 24-hour rainfall 2.22 inches (NRCC and NRCS joint collaborative website Section 4.9) 2-year 24-hour rainfall 2.60 inches (NRCC and NRCS joint collaborative website Section 4.9) 10-year 24-hour rainfall 3.74 inches (NRCC and NRCS joint collaborative website Section 4.9)
+- `ny-state` design_criteria.design_storm_return_periods_years (PDF p. 43): Safely pass the 100-year design storm.
+- `oakland-ca` design_criteria.design_storm_return_periods_years (PDF p. 10): Be certain that the detention basin returns to the starting elevation within 24 hours of the end of the 100-year storm event.
+- `oh-odot-drainage` design_criteria.required_hydrologic_hydraulic_software (PDF p. 94): For bridge replacements, the acceptable method of hydraulic analysis is HEC- RAS.
+- `oh-odot-drainage` design_criteria.approved_bmp_categories (PDF p. 146): Intensity Table Exempt Outfalls Manufactured System Detail Vegetated Biofilter Detail Extended Detention Basin Example Retention Basin Example Bioretention Cell Infiltration Basin Example Anti-Seep Collars Amended Vegetated Filter Strip
+- `oh-odot-drainage` design_criteria.design_storm_return_periods_years (PDF p. 33): Highway Encroachments on Floodplains 1005.1 General 50% 20% 10% 4% 2% 1% 0.2% 2 year 5 year 10 year 25 year 50 year 100 year 500 year Other roadway design AEP floods are based on the class of highway, or the level of urbanization and development.
+- `ohio-rainwater` design_criteria.approved_bmp_categories (PDF p. 105): The rock-lined channel must have design capacity as required if it to be used as an outlet for a grassed waterway, diversion, terrace, or other measure.
+- `ohio-rainwater` design_criteria.approved_bmp_categories (PDF p. 50): A grass filter strip of at least 25 feet must precede the infiltration trench in these situations.
+- `olympia-wa` design_criteria.design_storm_return_periods_years (PDF p. 1312): Storm frequency The time interval between major storms of predetermined intensity and volumes of runoff for which storm sewers and other structures are designed and constructed to handle hydraulically without surcharging and backflooding; e.g., a 2-year, 10-year or 100-year storm.
+- `olympia-wa` design_criteria.design_storm_return_periods_years (PDF p. 64): 100 yr peak flow instead of 50 yr) in more vulnerable areas.
+- `olympia-wa` design_criteria.design_storm_return_periods_years (PDF p. 123): Stormwater control or treatment structures should not be located within the expected 25-year water level elevations for salmonid-bearing waters.
+- `olympia-wa` design_criteria.peak_flow_calculation_method (PDF p. 21): III-1.1 Choosing Your Source Control BMPs 459 III-1.2 Choosing Your Runoff Treatment BMPs 462 III-1.3 Choosing Your Flow Control BMPs 479 III-1.4 Review and Document Your BMP Choices 480 III-2 Modeling Your BMPs 483 III-2.1 An Overview of Hydrologic Analysis 483 III-2.2 Continuous Simulation Models 485 III-2.3 Single Event Hydrograph Method 496 III-2.4 Flow Bypass and Additional Area Inflow 506
+- `olympia-wa` design_criteria.required_hydrologic_hydraulic_software (PDF p. 488): WWHM uses the EPA HSPF software program to do all of the rainfall-runoff and routing computations.
+- `olympia-wa` design_criteria.approved_bmp_categories (PDF p. 3): Volume II - Construction Stormwater Pollution Prevention Volume III - Choosing, Modeling, and Documenting Your BMPs Volume IV - Source Control BMP Library Volume V - Runoff Treatment, Flow Control, and LID BMP Library Prepared by: Washington State Department of Ecology Water Quality Program July 2024 Publication Number 24-10-013
+- `olympia-wa` design_criteria.approved_bmp_categories (PDF p. 479): Soil Type Infiltration/Bioretention Wet Pond* Biofiltration* (Swale or Filter Strip) Coarse Sand or Cobbles X X X Sand ü X X Loamy Sand ü X ü Sandy Loam ü X ü Loam X X ü Silt Loam X X ü Sandy Clay Loam X ü ü Silty Clay Loam X ü ü Sandy Clay X ü ü Silty Clay X ü X Clay X ü X Notes: ü Indicates that the BMP type is generally appropriate for this soil type.
+- `pa-penndot-drainage` design_criteria.required_hydrologic_hydraulic_software (PDF p. 154): HEC-1 & HEC-HMS are generalized hydrologic simulation models that can be used with basins of almost any size and complexity.
+- `pa-penndot-drainage` design_criteria.approved_bmp_categories (PDF p. 3): -Updated wording in subsections 14.5.A, 14.5.B, and 14.5.C. -Updated content in subsection 14.5.D Stream Restoration and Stabilization. -Updated content in subsection 14.5.E Vegetated Swale. -Updated content in subsection 14.5.F Bioretention. -Updated content in subsection 14.5.G Vegetated Filter Strip. -Updated content in subsection 14.5.H on Media Filter Drain. -Updated content in subsection
+- `pa-penndot-drainage` design_criteria.approved_bmp_categories (PDF p. 797): 14.15 DRY POND (DETENTION BASIN) A.
+- `pa-penndot-drainage` design_criteria.approved_bmp_categories (PDF p. 765): A wet basin, also known as a wet pond or retention basin, includes a permanent pool for water quality treatment and additional capacity above the permanent pool for temporary runoff storage (extended detention).
+- `pa-state` design_criteria.approved_bmp_categories (PDF p. 521): Most PCSM Objective A (Section 3.3, Protect and Preserve Natural Landscape Processes and Section 3.4, Enhanced Natural Landscape SCMs), B (Section 3.5, Infiltration-Based SCMs and Section 3.6, Non-Infiltration SCMs, with one exception) and C (Section 3.7, MRC) SCMs provide water quality credit as discussed further below.
+- `pa-state` design_parameters.shwt_separation_inches (PDF p. 166): Maintain a minimum 2-foot separation to bedrock and seasonally high-water table.
+- `palm-bay-fl` design_criteria.design_storm_return_periods_years (PDF p. 79): SECTION 3.0 DRAINAGE DESIGN GUIDELINES Table 3.3-2 Rainfall Intensity Based on Storm Frequency (24-hr design storm) Storm Frequency 24-hr Design Storm (inches/24-hrs)1 3-yr 6.1 5-yr 7.7 10-yr 8.2 25-yr 10.4 50-yr 12.6 100-yr 15.0 1.
+- `palm-coast-fl` design_criteria.design_storm_return_periods_years (PDF p. 79): SECTION 3.0 DRAINAGE DESIGN GUIDELINES Table 3.3-2 Rainfall Intensity Based on Storm Frequency (24-hr design storm) Storm Frequency 24-hr Design Storm (inches/24-hrs)1 3-yr 6.1 5-yr 7.7 10-yr 8.2 25-yr 10.4 50-yr 12.6 100-yr 15.0 1.
+- `pasadena-tx` design_criteria.approved_bmp_categories (PDF p. 8): Green Roof X X Disconnection X X Soil Amendment X X Rainwater Harvesting X* (2) X* (3) *(1) Voids within the permeable pavement itself can not be counted for detention, see section 3.6.1. *(2) Acceptable for Storm Water Quality if re-used for irrigation or other non-potable uses. *(3) Various LID practices will be considered, so long as sufficient volume reductions and the design approach are proven.
+- `paterson-nj` design_criteria.design_storm_return_periods_years (PDF p. 34): 7:8-5.6(b) for the current and projected 2-, 10-, and 100-year storms.
+- `paterson-nj` design_criteria.approved_bmp_categories (PDF p. 24): The reduced curve number method is illustrated in Example 1 of Chapter 9.6: Pervious Paving Systems and the example in Chapter 9.4: Green Roofs of the BMP Manual.
+- `pearland-tx` design_criteria.approved_bmp_categories (PDF p. 8): Green Roof X X Disconnection X X Soil Amendment X X Rainwater Harvesting X* (2) X* (3) *(1) Voids within the permeable pavement itself can not be counted for detention, see section 3.6.1. *(2) Acceptable for Storm Water Quality if re-used for irrigation or other non-potable uses. *(3) Various LID practices will be considered, so long as sufficient volume reductions and the design approach are proven.
+- `pensacola-fl` design_criteria.design_storm_return_periods_years (PDF p. 16): Significant 25-year, 24-hour 100-year, 24-hour High 100-year, 24-hour Probable Maximum FloodJune 28, 2024
+- `pensacola-fl` design_criteria.design_storm_return_periods_years (PDF p. 23): (a) A system shall not cause a net reduction in flood storage within a 10-year floodplain except for structures elevated on pilings or traversing works.
+- `pensacola-fl` design_criteria.approved_bmp_categories (PDF p. 27): Stormwater retention and detention systems are classified as moderate sanitary hazards with respect to public and private drinking water wells.
+- `peoria-il` design_criteria.design_storm_return_periods_years (PDF p. 54): Detention Storage Requirements The design storage to be provided in the detention basin shall be based on the need to restrict the runoff from the 1-year, 10-year and 100-year events to the allowable release rates while providing a minimum of one (1) vertical foot of freeboard for the 100-year event.
+- `pierre-sd` design_criteria.design_storm_return_periods_years (PDF p. 139): SOUTH DAKOTA 2-year 24-hour precipitation in inches
+- `pierre-sd` design_criteria.approved_bmp_categories (PDF p. 217): Erosion Control for Bridge: The Department will not measure for erosion and sediment control for bridge.
+- `pinellas-county-fl` design_parameters.swale_bottom_width_inches (PDF p. 149): BOTTOM WIDTHS LESS THAN 2 ' ARE NOT RECOMMENDED.
+- `plano-tx` design_criteria.peak_flow_calculation_method (PDF p. 63): 3.9.1 Detention Storage Calculation The Modified Rational Method is allowed for planning and conceptual design for watersheds of 200 acres and less.
+- `port-st-lucie-fl` design_criteria.design_storm_return_periods_years (PDF p. 35): Area Design Frequency 10 year 200 year + 200 year + 200 year + 100 year + 200 year + 100 year + 200 year + -----------25 year 25 year 25 year 25 year 25 year 25 year 25 year -----------10 year 10 year 10 year 10 year 10 year 25 year 70.8 CSM 25 year 20 CSM 5 year A-1
+- `portland-me` design_criteria.design_storm_return_periods_years (PDF p. 11): Detention structures are designed to control the 2-year, 10-year, and 25-year frequency discharges.
+- `portland-me` design_criteria.design_storm_return_periods_years (PDF p. 11): Detention structures designed to provide channel protection detention must have principal spillways capable of providing extended detention of 12 hours for runoff from a 2-hour storm of a 1-year frequency.
+- `portland-me` design_criteria.water_quality_volume_method (PDF p. 7): Stormwater management facilities must be designed to treat the first 1 inch of runoff from impervious surfaces and 0.4 inch from landscaped areas.
+- `portland-me` design_criteria.peak_flow_calculation_method (PDF p. 7): Users of this manual should have a working knowledge of applied hydrology, including familiarity with the Rational Method, SCS TR-20 and SCS TR-55 methodology.
+- `portland-me` design_criteria.required_hydrologic_hydraulic_software (PDF p. 112): TR-55 is in fact derived from a simplification of the TR-20 model.
+- `portland-me` design_criteria.approved_bmp_categories (PDF p. 6): Buffers Infiltration Filtration Conveyance and Distribution Separator BMPs LID
+- `portland-me` design_criteria.approved_bmp_categories (PDF p. 2): MAINE STORMWATER MANAGEMENT MANUAL VOLUME III – Technical Design Manual Chapter 1 Introduction Chapter 2 Stormwater Hydrology Chapter 3 Detention Basins for Flooding Control Chapter 4 Wetponds Chapter 5 Vegetated Buffers Chapter 6 Infiltration BMPs Chapter 7 Filtration BMPs 7.1 Grassed Underdrained Soil Filters 7.2 Bioretention Filters 7.3 Subsurface Sand Filters 7.4 Gravel Wetlands 7.5 Roof
+- `portland-me` design_criteria.approved_bmp_categories (PDF p. 27): Construction: Construction of wet ponds should be started no later than September 1 or before June.
+- `portland-or` design_criteria.design_storm_return_periods_years (PDF p. 409): The 2-, 5-, 10-, 25-, and 100-year design storm depths are shown below in Table A-9.
+- `prince-georges-county-md` design_criteria.design_storm_return_periods_years (PDF p. 55): Condition CN tc Runoff (Qa) 1 yr storm Q 1-year Q 2-year Q 10-year Q 100 year hours inches cfs cfs cfs cfs pre-developed 63 0.35 0.2 4.62 13.58 50.38 102.6 developed 78 0.19 0.8 35.0 54.94 129.96 216.30 Step 3c.
+- `prince-georges-county-md` design_criteria.water_quality_volume_method (PDF p. 39): Table 2.1 Summary of the Statewide Stormwater Criteria Sizing Criteria Description of Stormwater Sizing Criteria Water Quality Volume (WQv) (acre-feet) WQv = [(P )(Rv )(A)] 12 P= rainfall depth in inches and is equal to 1.0” in the Eastern Rainfall Zone and 0.9” in the Western Rainfall Zone (Fig.
+- `raleigh-nc` design_criteria.design_storm_return_periods_years (PDF p. 81): Calculated water surface elevations labeled for the water quality, 2-year, 10-year and 100-year storms.
+- `raleigh-nc` design_criteria.design_storm_return_periods_years (PDF p. 49): One dry eight-foot travel lane in the 25-year event on two- or three-lane streets.
+- `raleigh-nc` design_criteria.water_quality_volume_method (PDF p. 74): CHAPTER 6 SCM DESIGN September 3, 2024 PAGE 6-3 6.1 INTRODUCTION Stormwater Control Measures (SCMs) improve water quality and detain peak runoff to meet the City’s Active Stormwater Control requirements set forth in UDO Section 9.2.2. and described in the previous chapter of this Manual.
+- `reading-pa` design_parameters.shwt_separation_inches (PDF p. 166): Maintain a minimum 2-foot separation to bedrock and seasonally high-water table.
+- `reading-pa` design_parameters.bioretention_media_depth_min_inches (PDF p. 174): Soil media depth should be at least 18 inches.
+- `reading-pa` design_parameters.ed_drain_time_hours (PDF p. 277): Should be designed to drain within 72 hours.
+- `reading-pa` design_parameters.length_to_width_ratio (PDF p. 612): The length to width ratio of the forebay should be 2:1 or greater.
+- `reno-nv` design_criteria.design_storm_return_periods_years (PDF p. 93): When ‘I’ equals the rainfall intensity for the 2-year storm event, Q2 = WQF.
+- `reno-nv` design_criteria.design_storm_return_periods_years (PDF p. 98): Since conventional storm drainage systems are typically constructed to convey flows from the larger storm events (the 5-year up to the 100-year peak flow) without regard for treatment, the design engineer must ensure there is sufficient capacity in the diversion structure to accommodate overflows.
+- `ri-ridot-drainage` design_criteria.approved_bmp_categories (PDF p. 38): Bioretention Basin Bioretention Swale Gravel Wetland (WVTS) Sand Filter Infiltration Basin Infiltration Trench 2.1.4 Pretreatment Vegetated Filter Strip Vegetated filter Strips are uniformly graded, vegetated slopes that treat sheet flow from adjacent areas by reducing runoff velocity and utilizing vegetation to filter coarse sediments and debris.
+- `ri-ridot-drainage` design_criteria.design_storm_return_periods_years (PDF p. 58): The top of the structure is set to allow the bypass of the 100-year event.
+- `richmond-va` design_criteria.design_storm_return_periods_years (PDF p. 8): 100-year Floodplain and Floodway
+- `richmond-va` design_criteria.design_storm_return_periods_years (PDF p. 55): Existing peak flows for 2- and 10-year storms 2.
+- `roanoke-va` design_criteria.peak_flow_calculation_method (PDF p. 5): Refer to the VDOT Drainage Manual for a more complete discussion of the Rational Methods and Anderson Method and the VA SWM Handbook for a more complete discussion of the SCS Method.
+- `roanoke-va` design_criteria.design_storm_return_periods_years (PDF p. 1): Open Channels: Minor Channel Capacity 10-year Minor Channel Protective Lining (Drainage Area 5 acres or less) 2-year Minor Channel Protective Lining 5-1 STORMWATER MANAGEMENT DESIGN MANUAL Revised: Oct.
+- `rochester-mn` design_criteria.peak_flow_calculation_method (PDF p. 73): An SCS 24-hour Type II storm distribution with 100-year intensity was used for the design of ponds and drainage systems.
+- `rochester-mn` design_criteria.approved_bmp_categories (PDF p. 8): STORMWATER QUALITY 74 6.1 Background 74 6.2 Stormwater Management Basin Types 75 6.2.1 Rate Control Basins 77 6.2.2 Sedimentation Basins 77 6.2.3 Nutrient Removal Basins 77 6.2.4 Vegetation Filter Basins 78 6.2.5 Created or Restored Wetlands 78 6.3 Design Criteria for Water Quality 81 6.4 Water Quality Model 86 7.
+- `rochester-ny` design_criteria.design_storm_return_periods_years (PDF p. 221): Hotspot The proposed development is not a hotspot (Section 4.14) 90th percentile rainfall 1.20 inches (Section 4.2) 1-year 24-hour rainfall 2.22 inches (NRCC and NRCS joint collaborative website Section 4.9) 2-year 24-hour rainfall 2.60 inches (NRCC and NRCS joint collaborative website Section 4.9) 10-year 24-hour rainfall 3.74 inches (NRCC and NRCS joint collaborative website Section 4.9)
+- `rochester-ny` design_criteria.design_storm_return_periods_years (PDF p. 43): Safely pass the 100-year design storm.
+- `rockford-il` design_criteria.required_hydrologic_hydraulic_software (PDF p. 17): Acceptable event hydrograph computer models for determining the allowable release rate are: HEC-HMS, HEC-1 with SCS runoff method, SWMM, TR-20, and TR-55 tabular method.
+- `rockford-il` design_criteria.design_storm_return_periods_years (PDF p. 79): Project Length < 6 months 6 months — 1 year > 1 year Design Event 2 year 5 year 10 year Probability of Occurrence 50% 20% 10% Sufficient volume shall be created to retain all sediment from these design storm events.
+- `rockville-md` design_criteria.design_storm_return_periods_years (PDF p. 55): Condition CN tc Runoff (Qa) 1 yr storm Q 1-year Q 2-year Q 10-year Q 100 year hours inches cfs cfs cfs cfs pre-developed 63 0.35 0.2 4.62 13.58 50.38 102.6 developed 78 0.19 0.8 35.0 54.94 129.96 216.30 Step 3c.
+- `rockville-md` design_criteria.water_quality_volume_method (PDF p. 39): Table 2.1 Summary of the Statewide Stormwater Criteria Sizing Criteria Description of Stormwater Sizing Criteria Water Quality Volume (WQv) (acre-feet) WQv = [(P )(Rv )(A)] 12 P= rainfall depth in inches and is equal to 1.0” in the Eastern Rainfall Zone and 0.9” in the Western Rainfall Zone (Fig.
+- `rockville-md` design_criteria.peak_flow_calculation_method (PDF p. 50): Basis for Determining Overbank Flood Protection Volume When addressing the overbank flooding design criteria, the following represent the minimum basis for design: " The models TR-55 and TR-20 (or an equivalent approved by the appropriate local authority) will be used for determining peak discharge rates.
+- `rockville-md` design_criteria.required_hydrologic_hydraulic_software (PDF p. 50): Basis for Determining Overbank Flood Protection Volume When addressing the overbank flooding design criteria, the following represent the minimum basis for design: " The models TR-55 and TR-20 (or an equivalent approved by the appropriate local authority) will be used for determining peak discharge rates.
+- `round-rock-tx` design_criteria.design_storm_return_periods_years (PDF p. 5): DETENTION POND CLASS On-site: Small Large Regional: Small Large DESIGN STORM EVENT 25 year 25 year 100 year 100 year FREEBOARD TO TOP OF EMBANKMENT, FT.
+- `round-rock-tx` design_criteria.peak_flow_calculation_method (PDF p. 7): 8.4.0 DETENTION POND STORAGE DETERMINATION A flow routing analysis using detailed hydrographs must be applied for all detention pond designs.
+- `round-rock-tx` design_criteria.approved_bmp_categories (PDF p. 2): SWM facilities such as detention, retention, extended detention, infiltration, and sedimentation ponds have proven to significantly reduce downstream flooding, reduce sediment and pollutant loads, and provide debris removal which can benefit water quality.
+- `santa-barbara-ca` design_criteria.approved_bmp_categories (PDF p. 359): The BMP Inspection/Maintenance Checklists are presented in the following order: Bioretention/Planter Box Vegetated Swale Filter Vegetated Filter Strip Sand Filter Infiltration BMPs Permeable Pavement Constructed Treatment Wetland Wet Retention Basin Dry Extended Detention Basin Proprietary Devices
+- `savannah-ga-css` design_criteria.approved_bmp_categories (PDF p. 139): Undisturbed Pervious Areas Vegetated Filter Strips Grass Channels Simple Downspout Disconnection Rain Gardens Stormwater Planters Dry Wells Rainwater Harvesting Bioretention Areas Infiltration Practices Dry Swales Applying Low Impact Development Practices During the Site Planning & Design Process Figure 6.12: Green Roof Used in Place of a Traditional Impervious Rooftop (Source: Center for
+- `savannah-ga-css` design_criteria.approved_bmp_categories (PDF p. 186): Pervious Surfaces Soil Restoration Site Reforestation/ Revegetation Alternatives to Impervious Surfaces Green Roofs Permeable Pavement
+- `savannah-ga-css` design_criteria.approved_bmp_categories (PDF p. 361): Georgia Coastal Stormwater Supplement April 2009 Table 8.3: Factors to Consider When Evaluating the Applicability of Stormwater Management Practices on a Development Site Stormwater Rural Use Suburban Use Urban Use Construction Cost Maintenance Management Practice General Application Practices Stormwater Ponds Stormwater Wetlands Bioretention Areas Filtration Practices Infiltration Practices Dry Swales Wet Swales
+- `sc-scdot-drainage` design_criteria.design_storm_return_periods_years (PDF p. 18): The sediment basin outfall device or system design must take into account the total drainage area flowing through the disturbed area to be served by the basin and must successfully pass the 100-year, 24-hour storm event through the emergency spillway.
+- `scottsdale-az` design_criteria.design_storm_return_periods_years (PDF p. 194): For a 25-year event, convey runoff by culvert or bridge and by flow over the street with so d max =6 inches, except as provided in SRC, Chapter 37. d max =12 inches, except as provided in SRC, Chapter 37.
+- `seattle-wa` design_criteria.design_storm_return_periods_years (PDF p. 957): Recurrence Interval 2-Hour Total (inches) 6-month 0.40 2-yr 0.58 5-yr 0.70 10-yr 0.78 20-yr 0.88 25-yr 0.92 50-yr 1.04 100-yr 1.14 Figure 1.
+- `seattle-wa` design_criteria.approved_bmp_categories (PDF p. 313): (aboveground) Non-infiltrating Bioretention Type of Credit/Factor Flow Control Credit Dispersion BMPs Flow Control Credit Flow Control Credit Infiltration BMPs BMP Sizing Factor BMP Sizing Factor BMP Sizing Factor BMP Sizing Factor BMP Sizing Factor Alternative Surface BMPs Flow Control Credit Flow Control Credit Detention BMPs BMP Sizing Equation BMP Sizing Equation BMP Sizing Equation
+- `seattle-wa` design_criteria.approved_bmp_categories (PDF p. 334): Soil amendment can also be used to help achieve on-site stormwater management, flow control, and water quality treatment standards.
+- `seattle-wa` design_criteria.approved_bmp_categories (PDF p. 461): BMP On-site Flow Control Water Qualitya Conveyance List Standard Forest Pasture Peak Basic Enhanced Oil Control Phosphorus Rainwater Harvesting
+- `seattle-wa-2026` design_criteria.design_storm_return_periods_years (PDF p. 984): Recurrence Interval 2-Hour Total (inches) 6-month 0.40 2-yr 0.58 5-yr 0.70 10-yr 0.78 20-yr 0.88 25-yr 0.92 50-yr 1.04 100-yr 1.14 Figure 1.
+- `seattle-wa-2026` design_criteria.peak_flow_calculation_method (PDF p. 901): Other models approved by the Director Rational Method NA Upstream of storage routing and backwater effects a Refer to the Approval Status of Continuous Simulation Models section of the SWMMWW for a list of currently approved models. b The following continuous hydrologic models may also be used for project-specific situations: HSPF, EPA SWMM5, ModFlow, HMS, PCSWMM, and other models approved by the Director.
+- `seattle-wa-2026` design_criteria.peak_flow_calculation_method (PDF p. 191): Single Event Hydrograph Method: The peak flow rate from a 10--year, 24--hour frequency storm with a 10--minute time step.
+- `shreveport-la` design_criteria.peak_flow_calculation_method (PDF p. 32): Table 2-2 Drainage Area Sizing Table Per Method Drainage Area Method and Source 200 Acres or less Rational Method 200 - 2,000 Acres Natural Resources Conservation Service (NRCS) 2,000 Acres and above United States Geological Survey (USGS)
+- `shreveport-la` design_criteria.approved_bmp_categories (PDF p. 32): Section 2 Hydrology Table 2-1 Design Storm Frequency Drainage Classification Frequency Roadway Grade, Bridges, Cross Drains, Side Drains under arterial and collector roads Main Drainage Channels Storm Sewers and Inlets, Cross drains, Side drains Detention or Retention Features 25-yr 25-yr 10-yr 25yr Use a 100-year frequency storm to determine the hydraulic gradient in special flood hazard areas.
+- `sioux-falls-sd` design_criteria.design_storm_return_periods_years (PDF p. 139): SOUTH DAKOTA 2-year 24-hour precipitation in inches
+- `sioux-falls-sd` design_criteria.approved_bmp_categories (PDF p. 217): Erosion Control for Bridge: The Department will not measure for erosion and sediment control for bridge.
+- `south-bend-in` design_criteria.design_storm_return_periods_years (PDF p. 638): Design to control multiple types of storm events (e.g., two- and/or 10-year storms) and safely pass the 100-year storm event.
+- `south-bend-in` design_criteria.peak_flow_calculation_method (PDF p. 62): Some of the more common and acceptable methods are the rational method, Technical Release Numbers 55 and 20.
+- `south-bend-in` design_parameters.length_to_width_ratio (PDF p. 397): Lay out the location and shape of the sediment trap allowing for a length to width ratio of 2:1 or greater.
+- `south-carolina-manual` design_criteria.design_storm_return_periods_years (PDF p. 131): 5 to 10 year cycle, after 25% of the permanent pool volume is filled Stormwater BMP Field Manual 02/2025
+- `spokane-wa` design_criteria.design_storm_return_periods_years (PDF p. 139): Spokane for the 2-, 10-, 25-, 50-, and 100-year storm events.
+- `springfield-il` design_criteria.design_storm_return_periods_years (PDF p. 34): The 10-year storm is a common storm to manage, with safe passage of the 100-year storm.
+- `springfield-ma` design_criteria.design_storm_return_periods_years (PDF p. 148): Engineering Handbook, Part 630, Chapter 16, for the 2-year, 10-year, and 100-year 24-hour storms.
+- `springfield-ma` design_criteria.peak_flow_calculation_method (PDF p. 19): The peak discharge rate computations must be conducted using the NRCS Technical Release WinTR20 Project Formulation Method (Version 3.20 or later versions are permissible) or WinTR55 Small Watershed Hydrology Method (Version 1.00.10 or later versions are permissible).
+- `springfield-ma` design_criteria.required_hydrologic_hydraulic_software (PDF p. 183): Using the WinTR20/WinTR55 computer model confirm adequate Storage Volume. e.
+- `springfield-ma` design_criteria.approved_bmp_categories (PDF p. 64): (Filtering)11 Yes Yes Yes No Both Yes Yes Yes Varies Constructed Stormwater Wetland Yes Yes Yes No Both Yes Varies Varies Varies Extended Dry Detention Basin Yes No Yes No Both Yes No Varies Varies SCM Non-Structural Street Cleaning ESSD Credits Credit 6: Reduce Impervious Area Credit 7: Buffer Zone Improvement Structural Pretreatment Structural Treatment Page 2-50
+- `springfield-mo` design_criteria.design_storm_return_periods_years (PDF p. 30): The design flows that must be considered include the 2-, 25-, and 100-year design flows.
+- `springfield-mo` design_criteria.design_storm_return_periods_years (PDF p. 30): Detention for flood control is designed to prevent increases in peak flow from the 1-, 10-, and 100-year storms.
+- `st-louis-mo` design_criteria.design_storm_return_periods_years (PDF p. 11): Locate outside limits of 100-year floodplain.
+- `st-louis-mo` design_criteria.approved_bmp_categories (PDF p. 18): Also, post-construction BMPs (such as filters, bioretention/rain gardens, dry swales, and infiltration areas) must be installed after contributing drainage areas are stabilized in order to prevent them from clogging with construction sediment.
+- `stamford-ct` design_criteria.design_storm_return_periods_years (PDF p. 227): 2-year, 10-year, and potentially the 25-year and 100-year, 24-hour storms
+- `stamford-ct` design_criteria.peak_flow_calculation_method (PDF p. 460): Once the adjusted CN values are determined, also calculate the time of concentration and either follow the remaining steps in the Graphical Peak Discharge Method in Appendix D or use a stormwater hydrologic/hydraulic routing model based on the NRCS Curve Number method (e.g., HydroCAD or similar software) to calculate peak discharge for each design storm event.
+- `stamford-ct` design_criteria.peak_flow_calculation_method (PDF p. 66): The analysis should use an appropriate hydrograph routing method, such as routing employed by TR-20, to route the pre- and post-development runoff hydrographs from the project site to the downstream critical locations.
+- `stamford-ct` design_criteria.peak_flow_calculation_method (PDF p. 527): small storm events, and 2) the Rational Formula, which should only be used with reliable intensity, duration, and frequency (IDF) tables or curves for the storm and region of interest (Claytor and Schueler, 1996).
+- `stamford-ct` design_criteria.required_hydrologic_hydraulic_software (PDF p. 62): NOAA_D may be created as a user-defined rainfall distribution in HydroCAD.
+- `stamford-ct` design_criteria.required_hydrologic_hydraulic_software (PDF p. 62): The NRCS NOAA_D rainfall distribution is available as a standard rainfall distribution in hydrologic analysis software such as WinTR-55.
+- `stamford-ct` design_criteria.required_hydrologic_hydraulic_software (PDF p. 66): The analysis should use an appropriate hydrograph routing method, such as routing employed by TR-20, to route the pre- and post-development runoff hydrographs from the project site to the downstream critical locations.
+- `stamford-ct` design_criteria.approved_bmp_categories (PDF p. 333): Source: Eastern CT Conservation District, nianticriverwatershed.org Stormwater BMP Type Pretreatment BMP □ Infiltration BMP □ Filtering BMP ■ Stormwater Pond BMP □ Stormwater Wetland BMP □ Water Quality Conveyance BMP □ Stormwater Reuse BMP □ Proprietary BMP □ Other BMPs and Accessories □ Stormwater Management Suitability Retention* ■ Treatment ■ Pretreatment □ Peak Runoff Attenuation □
+- `stockton-ca` design_criteria.approved_bmp_categories (PDF p. 82): TREATMENT CONTROLS 6.1 INTRODUCTION Treatment Controls are required in addition to Site Design Controls, Source Controls and VRMs to reduce pollutants in stormwater discharges to the MEP.
+- `stockton-ca` design_criteria.approved_bmp_categories (PDF p. 9): The VRR must be met through the combination of Volume Reduction Measures (VRMs) (e.g., rain barrels) and LID Treatment Controls (e.g., bioretention areas) to maintain the runoff volume from the proposed project site for a specified design storm depth at or below pre-project runoff volumes.
+- `syracuse-ny` design_criteria.design_storm_return_periods_years (PDF p. 221): Hotspot The proposed development is not a hotspot (Section 4.14) 90th percentile rainfall 1.20 inches (Section 4.2) 1-year 24-hour rainfall 2.22 inches (NRCC and NRCS joint collaborative website Section 4.9) 2-year 24-hour rainfall 2.60 inches (NRCC and NRCS joint collaborative website Section 4.9) 10-year 24-hour rainfall 3.74 inches (NRCC and NRCS joint collaborative website Section 4.9)
+- `syracuse-ny` design_criteria.design_storm_return_periods_years (PDF p. 43): Safely pass the 100-year design storm.
+- `syracuse-ny` design_criteria.peak_flow_calculation_method (PDF p. 47): TR-55 and TR-20 (or approved equivalent) shall be used to determine peak discharge rates.
+- `syracuse-ny` design_criteria.required_hydrologic_hydraulic_software (PDF p. 50): Hydraulic and hydrologic modeling software, such as USDA NRCS TR20, HydroCAD, Pond Pack, StormCAD, Hydraflow, and Hydrologic Engineering Center Hydrologic Modeling System (HEC-HMS) and others, shall be used to extract rainfall frequency and duration data, for the project location, to create intensity-duration-frequency (IDF) curves, and then convert into rainfall distribution curves.
+- `syracuse-ny` design_criteria.approved_bmp_categories (PDF p. 143): These include ponds, wetlands, infiltration practices, filtering practices and open channel systems.
+- `tacoma-wa` design_criteria.design_storm_return_periods_years (PDF p. 108): C, Forest Flat) Acreage Predeveloped or Existing Hydrology (WWHM) Basin ID Return Interval Flow (cfs) 2-year 10-year 25-year 100-year Developed Basin Conditions (WWHM) Basin ID WWHM Input (ex.
+- `tallahassee-fl` design_criteria.approved_bmp_categories (PDF p. 27): Stormwater retention and detention systems are classified as moderate sanitary hazards with respect to public and private drinking water wells.
+- `tn-state` design_criteria.design_storm_return_periods_years (PDF p. 60): Channel protection is performed when outflow rates from ﬂood controls are held at or below the 1-year or 2-year return design storm.
+- `tn-state` design_criteria.design_storm_return_periods_years (PDF p. 340): This is calculated by reducing the allowable peak ﬂow rate resulting from the 1.5-, 2-, and 10-year, 24-hour storms to a level that is less than or equal to the peak ﬂow rate from the site assuming the site was in a good Tennessee Permanent Stormwater Management and Design Guidance Manual Appendix B-13 Appendix B
+- `tn-tdot-drainage` design_criteria.design_storm_return_periods_years (PDF p. 8): 4 An HGL check for the 50-year storm should be performed for all pipes designed for the 10- year storm.
+- `toledo-oh` design_criteria.design_storm_return_periods_years (PDF p. 83): Design Storm Peak Discharge Rate (cfs) 24-hour Runoff Volume (show units) Percent Increase Design Discharge (cfs) Pre-Development Post- Development 1-year 2-year 5-year 10-year 25-year 50-year 100-year 3.
+- `toledo-oh` design_criteria.peak_flow_calculation_method (PDF p. 94): Manning’s Equation or other suitable method should be used to determine design velocity.
+- `trenton-nj` design_criteria.design_storm_return_periods_years (PDF p. 34): 7:8-5.6(b) for the current and projected 2-, 10-, and 100-year storms.
+- `trenton-nj` design_criteria.approved_bmp_categories (PDF p. 24): The reduced curve number method is illustrated in Example 1 of Chapter 9.6: Pervious Paving Systems and the example in Chapter 9.4: Green Roofs of the BMP Manual.
+- `trenton-nj` design_parameters.wqv_depth_inches (PDF p. 17): The accumulative distribution curve for rainfall depth, shown in Figure 5-10, is a graphical representation of 1.25 inches of rainfall falling in the 2-hour NJDEP WQDS.
+- `tx-txdot-hydraulic` design_criteria.design_storm_return_periods_years (PDF p. 78): Table 4-2: Recommended Design Standards for Various Drainage Facilities Design AEP (Design ARI) Functional classification and structure type 50% (2-yr) 20% (5-yr) 10% (10-yr) 4% (25-yr) 2% (50-yr) Freeways (main lanes): Culverts X Bridges+ X Principal arterials: Culverts X [X] X Small bridges+ X [X] X Major river crossings+ [X] Minor arterials and collectors (including frontage roads): Culverts X
+- `tx-txdot-hydraulic` design_criteria.design_storm_return_periods_years (PDF p. 218): ZONE B and ZONE X (shaded): Areas of 0.2% AEP (500-year) flood; areas subject to the 1% AEP (100-year) flood with average depths of less than 1 foot or with contributing drainage area less than 1 square mile; areas protected by levees from the base flood.
+- `tx-txdot-hydraulic` design_criteria.required_hydrologic_hydraulic_software (PDF p. 339): comparison with computer programs (such as HEC-RAS)
+- `tx-txdot-hydraulic` design_criteria.approved_bmp_categories (PDF p. 209): (See mass curve.) Retention Basin Similar to detention basin but water in storage is permanently obstructed from flowing downstream.
+- `ut-udot-drainage` design_criteria.required_hydrologic_hydraulic_software (PDF p. 48): Use HY-8 for calculations.
+- `ut-udot-drainage` design_criteria.design_storm_return_periods_years (PDF p. 32): 5.2.3 Hydrologic Analysis Roadway Functional Class Design Frequency Design Check Event Storm Drainage System Characteristics Interstate, Freeway, Expressway 10 year 50 year 50 year 100 year Major sag locations, including all downstream drainage features Arterial, Collector 10 year 50 year 25 year 50 year Major sag locations, including all downstream drainage features Figure 5.1 — DESIGN FREQUENCY (YEAR) REQUIREMENTS
+- `va-vdot-drainage` design_criteria.approved_bmp_categories (PDF p. 120): Functional Goals of Stormwater BMPs Stormwater BMP Quality Stream Channel Erosion Quantity/ Flooding Vegetated filter strip +++ Grasses Swale (w/check dams) +++ + Constructed wetlands +++ + Extended detention ++ +++ + Extended detention enhanced +++ ++ + Bioretention +++ Retention basin +++ ++ +++ Sand filter +++ Infiltration +++ Infiltration Basin ++ + + Detention ++ +++ Manufactured BMPs (Water
+- `va-vdot-drainage` design_criteria.approved_bmp_categories (PDF p. 16): · · · · · · · · · Dry Swale Wet Swale Sheet Flow to Vegetated Filter/Open Space Extended Detention Pond Filtering Practice Constructed Wetland Wet Pond Regenerative Stormwater Conveyance* Tree Planting 5) Manufactured Treatment Devices (MTDs) or proprietary BMPs accepted by DEQ may be utilized, when accepted by VDOT, in accordance with the design guidance and efficiencies approved by DEQ.
+- `va-vdot-drainage` design_criteria.design_storm_return_periods_years (PDF p. 122): 11.7.5 Release Rates Control structure release rates are usually designed to approximate pre-developed peak runoff rates for the 2- and 10-yr design storms with an emergency spillway capable of handling the 100-yr peak discharge.
+- `vancouver-wa` design_criteria.design_storm_return_periods_years (PDF p. 97): The design must assure that flows delivered to Type 5 stream reaches will approximate, but in no case exceed, durations ranging from 50% of the 2-year to the 50-year peak flow.
+- `vancouver-wa` design_criteria.design_storm_return_periods_years (PDF p. 26): The 100-year, 24-hour storm: a.
+- `vancouver-wa` design_criteria.design_storm_return_periods_years (PDF p. 20): Identify the 10-year recurrence interval stage for detention facility outfalls.
+- `vt-state` design_parameters.permanent_pool_depth_inches (PDF p. 206): Pocket ponds with permanent pools equal to or greater than 4 feet in depth shall provide a safety bench in accordance with the safety bench requirements in Section 4.3.6.
+- `wa-state-western` design_criteria.design_storm_return_periods_years (PDF p. 64): 100 yr peak flow instead of 50 yr) in more vulnerable areas.
+- `wa-state-western` design_criteria.design_storm_return_periods_years (PDF p. 123): Stormwater control or treatment structures should not be located within the expected 25-year water level elevations for salmonid-bearing waters.
+- `wa-wsdot-hr` design_criteria.design_storm_return_periods_years (PDF p. 23): Projects must match the predeveloped 2-year and 25-year peak runoff rates for these discharges.
+- `wa-wsdot-hr` design_criteria.design_storm_return_periods_years (PDF p. 23): The design will ensure flows delivered to Type 5 stream reaches will approximate, but in no case exceed, durations ranging from 50% of the 2-year to the 50-year peak flow.
+- `waco-tx` design_criteria.design_storm_return_periods_years (PDF p. 10): Table 1.2 Storm Events Storm Event Name Storm Event Description “Water Quality” Criteria based on a volume of 1.5 inches of rainfall, not a storm frequency “Streambank Protection” 1-year, 24-hour storm event “Conveyance” 25-year, 24-hour storm event “Flood Mitigation” 100-year, 24-hour storm event Throughout the manual the storms will be referred to by their storm event names.
+- `waco-tx` design_criteria.water_quality_volume_method (PDF p. 10): Table 1.2 Storm Events Storm Event Name Storm Event Description “Water Quality” Criteria based on a volume of 1.5 inches of rainfall, not a storm frequency “Streambank Protection” 1-year, 24-hour storm event “Conveyance” 25-year, 24-hour storm event “Flood Mitigation” 100-year, 24-hour storm event Throughout the manual the storms will be referred to by their storm event names.
+- `waco-tx` design_criteria.peak_flow_calculation_method (PDF p. 20): SCS Unit Hydrograph Method
+- `waco-tx` design_criteria.peak_flow_calculation_method (PDF p. 34): The required volume for extended detention is referred to as the Streambank Protection Volume (denoted SPv).
+- `waco-tx` design_criteria.peak_flow_calculation_method (PDF p. 22): Modified Rational2 0 – 200 acres Method can be used for estimating runoff volumes for storage design.
+- `waco-tx` design_criteria.approved_bmp_categories (PDF p. 29): Bioretention Enhanced swales (dry, wet, wetland) Alum treatment Detention Filter strips Sand filters, filter boxes, etc Infiltration wells and trenches
+- `wayne-county-mi` design_criteria.design_storm_return_periods_years (PDF p. 134): Wayne County Stormwater Standards Manual 100-yr flow through Ext.
+- `wayne-county-mi` design_criteria.design_storm_return_periods_years (PDF p. 7): The obligation to enact and implement stormwater design standards related to frequent hydrologic events (2-year recurrence interval storm and smaller) was imposed upon the County, local governments, and other public agencies by Phase II of the federal National Pollutant Discharge Elimination System (NPDES) stormwater regulations.
+- `wayne-county-mi` design_criteria.approved_bmp_categories (PDF p. 34): Basins Rule 701: Open Detention Basins Rule 702: Retention Basins Rule 703: Underground Detention Systems Rule 704: Reserved Rule 705: Reserved Pretreatment Systems Rule 706: Forebays Rule 707: Bioretention Areas Rule 502: Rule 708: Manufactured Treatment Water Resources Systems Protection (WQC) Rule 709: Reserved 80% average annual TSS Rule 710: Reserved Additional requirements: Rule 603(D)
+- `west-palm-beach-fl` design_criteria.design_storm_return_periods_years (PDF p. 35): Area Design Frequency 10 year 200 year + 200 year + 200 year + 100 year + 200 year + 100 year + 200 year + -----------25 year 25 year 25 year 25 year 25 year 25 year 25 year -----------10 year 10 year 10 year 10 year 10 year 25 year 70.8 CSM 25 year 20 CSM 5 year A-1
+- `west-virginia-manual` design_criteria.design_storm_return_periods_years (PDF p. 458): Both examples illustrate the very common occurrence in areas of karst terrain where the pre-developed runoff for small storms (up to the 1- or 2-year storm event) is minimal.
+- `west-virginia-manual` design_parameters.wqv_depth_inches (PDF p. 467): Unfortunately, there are no IDF curves available at this time for the 1” rainfall depth.
+- `wi-dnr-1001` design_criteria.peak_flow_calculation_method (PDF p. 4): runoff curve numbers from TR-55 assuming “good hydrologic conditions.” e) For post-development calculations, use runoff curve numbers based on proposed plans.
+- `wi-dnr-1001` design_criteria.required_hydrologic_hydraulic_software (PDF p. 1): Pollutant loading models such as SLAMM, P8, DETPOND or equivalent methodology may also be used to evaluate the efficiency of the design in reducing TSS. lV.
+- `wi-dnr-1001` design_criteria.approved_bmp_categories (PDF p. 1): Wet Detention Pond (1001) Wisconsin Department of Natural Resources Technical Standard l.
+- `wi-dnr-1001` design_criteria.design_storm_return_periods_years (PDF p. 8): Design so that the 10-yr., 24-hour design storm does not flow through the emergency spillway.
+- `wi-dnr-1001` design_criteria.design_storm_return_periods_years (PDF p. 3): VR = Calculated volume of runoff from the 1-year, 24-hour design storm for the entire contributory area.
+- `wi-dnr-1001` design_criteria.design_storm_return_periods_years (PDF p. 1): Identify buildings and other structures, parking lots, property lines, wells, wetlands, 100-year floodplains, surface Technical Standards are reviewed periodically and updated if needed.
+- `wi-wisdot-drainage` design_criteria.required_hydrologic_hydraulic_software (PDF p. 11): The use of HEC-HMS is not detailed in this subsection.
+- `wi-wisdot-drainage` design_criteria.required_hydrologic_hydraulic_software (PDF p. 10): The distributions are often built into proprietary software such as HydroCAD so this data may not be needed to perform software generated calculations.
+- `wi-wisdot-drainage` design_criteria.design_storm_return_periods_years (PDF p. 1): Table 1.1 Correlation Between Return Period and Annual Exceedance Probability Return Period Event Annual Exceedance Probability (AEP) Percent Storm 2-Year 0.5 50% 5-Year 0.2 20% 10-Year 0.1 10% 25-Year 0.04 4% 50-Year 0.02 2% 100-Year 0.01 1% 500-Year 0.002 0.2%
+- `wilmington-de` design_criteria.design_storm_return_periods_years (PDF p. 12): The total storage, including any ponding for larger flooding events (100-year storm) should not extend more than 5 feet above the permanent pool unless specific design enhancements to ensure side slope stability, safety, and maintenance are identified and approved.
+- `wilmington-nc` design_criteria.design_storm_return_periods_years (PDF p. 3): The outlets of SCMs shall be designed so that they do not cause erosion immediately downslope of the discharge point during the peak flow from the 10-year storm event as shown by engineering calculations.
+- `wilmington-nc` design_criteria.approved_bmp_categories (PDF p. 2): Some SCMs that allow water to infiltrate include: infiltration systems, bioretention cells, permeable pavement, and depending upon native soils, vegetated swales, level spreader-filter strips, and berms.
+- `worcester-ma` design_criteria.design_storm_return_periods_years (PDF p. 148): Engineering Handbook, Part 630, Chapter 16, for the 2-year, 10-year, and 100-year 24-hour storms.
+- `worcester-ma` design_criteria.peak_flow_calculation_method (PDF p. 19): The peak discharge rate computations must be conducted using the NRCS Technical Release WinTR20 Project Formulation Method (Version 3.20 or later versions are permissible) or WinTR55 Small Watershed Hydrology Method (Version 1.00.10 or later versions are permissible).
+- `worcester-ma` design_criteria.required_hydrologic_hydraulic_software (PDF p. 183): Using the WinTR20/WinTR55 computer model confirm adequate Storage Volume. e.
+- `worcester-ma` design_criteria.approved_bmp_categories (PDF p. 64): (Filtering)11 Yes Yes Yes No Both Yes Yes Yes Varies Constructed Stormwater Wetland Yes Yes Yes No Both Yes Varies Varies Varies Extended Dry Detention Basin Yes No Yes No Both Yes No Varies Varies SCM Non-Structural Street Cleaning ESSD Credits Credit 6: Reduce Impervious Area Credit 7: Buffer Zone Improvement Structural Pretreatment Structural Treatment Page 2-50
+- `yonkers-ny` design_criteria.design_storm_return_periods_years (PDF p. 221): Hotspot The proposed development is not a hotspot (Section 4.14) 90th percentile rainfall 1.20 inches (Section 4.2) 1-year 24-hour rainfall 2.22 inches (NRCC and NRCS joint collaborative website Section 4.9) 2-year 24-hour rainfall 2.60 inches (NRCC and NRCS joint collaborative website Section 4.9) 10-year 24-hour rainfall 3.74 inches (NRCC and NRCS joint collaborative website Section 4.9)
+- `yonkers-ny` design_criteria.design_storm_return_periods_years (PDF p. 43): Safely pass the 100-year design storm.
+- `youngstown-oh` design_criteria.design_storm_return_periods_years (PDF p. 83): Design Storm Peak Discharge Rate (cfs) 24-hour Runoff Volume (show units) Percent Increase Design Discharge (cfs) Pre-Development Post- Development 1-year 2-year 5-year 10-year 25-year 50-year 100-year 3.
+- `youngstown-oh` design_criteria.peak_flow_calculation_method (PDF p. 94): Manning’s Equation or other suitable method should be used to determine design velocity.
+- `yuma-az` design_criteria.design_storm_return_periods_years (PDF p. 116): In addition, post-development peak discharges may not exceed pre-development peak discharges for the 2-, 10-, 50-, and 100-year storm events for the design of detention basins.
+
+## Still without a supporting quote
+
+- `akron-oh` design_criteria.approved_bmp_categories
+- `alexandria-va` design_criteria.approved_bmp_categories
+- `allentown-pa` design_criteria.water_quality_volume_method
+- `allentown-pa` design_criteria.peak_flow_calculation_method
+- `allentown-pa` design_criteria.approved_bmp_categories
+- `allentown-pa` design_parameters.permanent_pool_depth_inches
+- `allentown-pa` design_parameters.green_roof_media_depth_inches
+- `amarillo-tx` design_criteria.water_quality_volume_method
+- `ann-arbor-mi` design_parameters.wqv_depth_inches
+- `annapolis-md` design_parameters.shwt_separation_inches
+- `annapolis-md` design_parameters.bioretention_media_depth_min_inches
+- `asheville-nc` design_criteria.water_quality_volume_method
+- `asheville-nc` design_criteria.peak_flow_calculation_method
+- `asheville-nc` design_parameters.wqv_depth_inches
+- `az-adot-drainage` design_criteria.approved_bmp_categories
+- `bakersfield-ca` design_criteria.approved_bmp_categories
+- `bakersfield-ca` design_criteria.design_storm_return_periods_years
+- `baltimore-md` design_criteria.design_storm_return_periods_years
+- `baton-rouge-la` design_criteria.design_storm_return_periods_years
+- `baton-rouge-la` design_parameters.permeable_pavement_storage_depth_inches
+- `beaumont-tx` design_criteria.water_quality_volume_method
+- `beaumont-tx` design_criteria.approved_bmp_categories
+- `bellingham-wa` design_criteria.water_quality_volume_method
+- `bend-or` design_criteria.water_quality_volume_method
+- `bend-or` design_criteria.approved_bmp_categories
+- `boca-raton-fl` design_criteria.peak_flow_calculation_method
+- `boca-raton-fl` design_criteria.approved_bmp_categories
+- `boca-raton-fl` design_parameters.wqv_depth_inches
+- `boulder-co` design_criteria.water_quality_volume_method
+- `brownsville-tx` design_criteria.water_quality_volume_method
+- `brownsville-tx` design_criteria.approved_bmp_categories
+- `burlington-vt` design_criteria.approved_bmp_categories
+- `burlington-vt` design_parameters.swale_bottom_width_inches
+- `cape-coral-fl` design_criteria.approved_bmp_categories
+- `carson-city-nv` design_criteria.peak_flow_calculation_method
+- `carson-city-nv` design_criteria.approved_bmp_categories
+- `cary-nc` design_parameters.wqv_depth_inches
+- `casper-wy` design_criteria.approved_bmp_categories
+- `cedar-rapids-ia` design_criteria.water_quality_volume_method
+- `cedar-rapids-ia` design_criteria.approved_bmp_categories
+- `chandler-az` design_criteria.peak_flow_calculation_method
+- `charleston-sc` design_criteria.water_quality_volume_method
+- `charleston-sc` design_criteria.approved_bmp_categories
+- `charlottesville-va` design_criteria.approved_bmp_categories
+- `chattanooga-tn` design_criteria.approved_bmp_categories
+- `chattanooga-tn` design_parameters.green_roof_media_depth_inches
+- `cheyenne-wy` design_criteria.approved_bmp_categories
+- `chula-vista-ca` design_criteria.water_quality_volume_method
+- `cincinnati-oh` design_criteria.design_storm_return_periods_years
+- `cincinnati-oh` design_criteria.water_quality_volume_method
+- `cincinnati-oh` design_criteria.peak_flow_calculation_method
+- `cincinnati-oh` design_criteria.approved_bmp_categories
+- `clarksville-tn` design_criteria.peak_flow_calculation_method
+- `clarksville-tn` design_criteria.approved_bmp_categories
+- `cleveland-oh` design_criteria.approved_bmp_categories
+- `college-station-tx` design_criteria.water_quality_volume_method
+- `colorado-springs-co` design_criteria.water_quality_volume_method
+- `concord-nc` design_criteria.water_quality_volume_method
+- `concord-nc` design_criteria.peak_flow_calculation_method
+- `concord-nc` design_parameters.wqv_depth_inches
+- `concord-nh` design_criteria.peak_flow_calculation_method
+- `corpus-christi-tx` design_criteria.approved_bmp_categories
+- `davenport-ia` design_criteria.water_quality_volume_method
+- `davenport-ia` design_criteria.approved_bmp_categories
+- `dayton-oh` design_criteria.peak_flow_calculation_method
+- `daytona-beach-fl` design_criteria.water_quality_volume_method
+- `daytona-beach-fl` design_criteria.peak_flow_calculation_method
+- `daytona-beach-fl` design_criteria.approved_bmp_categories
+- `dc-ddot-stormwater` design_parameters.shwt_separation_inches
+- `de-wet-ponds-draft` design_parameters.shwt_separation_inches
+- `deltona-fl` design_criteria.water_quality_volume_method
+- `deltona-fl` design_criteria.peak_flow_calculation_method
+- `deltona-fl` design_criteria.approved_bmp_categories
+- `denton-tx` design_criteria.peak_flow_calculation_method
+- `des-moines-ia` design_criteria.approved_bmp_categories
+- `dover-de` design_criteria.approved_bmp_categories
+- `dover-de` design_parameters.shwt_separation_inches
+- `duluth-mn` design_criteria.water_quality_volume_method
+- `duluth-mn` design_criteria.approved_bmp_categories
+- `durham-nc` design_criteria.peak_flow_calculation_method
+- `durham-nc` design_parameters.shwt_separation_inches
+- `elizabeth-nj` design_criteria.water_quality_volume_method
+- `elizabeth-nj` design_criteria.peak_flow_calculation_method
+- `erie-pa` design_criteria.water_quality_volume_method
+- `erie-pa` design_criteria.peak_flow_calculation_method
+- `erie-pa` design_criteria.approved_bmp_categories
+- `erie-pa` design_parameters.bioretention_ponding_depth_inches
+- `erie-pa` design_parameters.permanent_pool_depth_inches
+- `erie-pa` design_parameters.green_roof_media_depth_inches
+- `eugene-or` design_criteria.approved_bmp_categories
+- `evansville-in` design_parameters.wqv_depth_inches
+- `everett-wa` design_criteria.water_quality_volume_method
+- `fargo-nd` design_criteria.peak_flow_calculation_method
+- `fargo-nd` design_criteria.approved_bmp_categories
+- `fayetteville-ar` design_criteria.water_quality_volume_method
+- `fayetteville-ar` design_criteria.approved_bmp_categories
+- `fl-fdot-drainage` design_parameters.shwt_separation_inches
+- `fl-fdot-drainage` design_parameters.permanent_pool_depth_inches
+- `fl-fdot-drainage` design_parameters.swale_bottom_width_inches
+- `fl-fdot-drainage` design_parameters.swale_longitudinal_slope_percent
+- `fl-nwfwmd-erp-ah2` design_parameters.shwt_separation_inches
+- `fl-sfwmd-erp-ah2` design_criteria.design_storm_return_periods_years
+- `fl-sjrwmd-erp-ah2` design_criteria.approved_bmp_categories
+- `fl-sjrwmd-erp-ah2` design_parameters.shwt_separation_inches
+- `fl-swfwmd-erp-ah2` design_parameters.shwt_separation_inches
+- `flagstaff-az` design_criteria.peak_flow_calculation_method
+- `flagstaff-az` design_criteria.approved_bmp_categories
+- `flint-mi` design_criteria.water_quality_volume_method
+- `flint-mi` design_criteria.approved_bmp_categories
+- `fort-collins-co` design_criteria.water_quality_volume_method
+- `fort-worth-tx` design_criteria.approved_bmp_categories
+- `frankfort-ky` design_criteria.peak_flow_calculation_method
+- `fremont-ca` design_criteria.water_quality_volume_method
+- `fresno-ca` design_parameters.swale_bottom_width_inches
+- `frisco-tx` design_criteria.approved_bmp_categories
+- `garland-tx` design_criteria.approved_bmp_categories
+- `gastonia-nc` design_criteria.water_quality_volume_method
+- `gastonia-nc` design_criteria.peak_flow_calculation_method
+- `gastonia-nc` design_parameters.wqv_depth_inches
+- `grand-rapids-mi` design_criteria.water_quality_volume_method
+- `grand-rapids-mi` design_criteria.peak_flow_calculation_method
+- `greensboro-nc` design_criteria.water_quality_volume_method
+- `greensboro-nc` design_criteria.peak_flow_calculation_method
+- `greensboro-nc` design_parameters.wqv_depth_inches
+- `greenville-sc` design_criteria.water_quality_volume_method
+- `gulfport-ms` design_criteria.water_quality_volume_method
+- `gulfport-ms` design_criteria.approved_bmp_categories
+- `harrisburg-pa` design_criteria.water_quality_volume_method
+- `harrisburg-pa` design_criteria.peak_flow_calculation_method
+- `harrisburg-pa` design_criteria.approved_bmp_categories
+- `harrisburg-pa` design_parameters.bioretention_ponding_depth_inches
+- `harrisburg-pa` design_parameters.permeable_pavement_storage_depth_inches
+- `harrisburg-pa` design_parameters.permanent_pool_depth_inches
+- `harrisburg-pa` design_parameters.swale_bottom_width_inches
+- `harrisburg-pa` design_parameters.green_roof_media_depth_inches
+- `helena-mt` design_criteria.approved_bmp_categories
+- `helena-mt` design_parameters.shwt_separation_inches
+- `hialeah-fl` design_criteria.peak_flow_calculation_method
+- `hialeah-fl` design_criteria.approved_bmp_categories
+- `hialeah-fl` design_parameters.wqv_depth_inches
+- `high-point-nc` design_criteria.peak_flow_calculation_method
+- `houston-tx` design_parameters.permeable_pavement_storage_depth_inches
+- `huntsville-al` design_criteria.water_quality_volume_method
+- `huntsville-al` design_criteria.peak_flow_calculation_method
+- `ia-dot-drainage` design_criteria.approved_bmp_categories
+- `in-indot-drainage` design_criteria.approved_bmp_categories
+- `independence-mo` design_criteria.water_quality_volume_method
+- `independence-mo` design_criteria.peak_flow_calculation_method
+- `independence-mo` design_parameters.shwt_separation_inches
+- `indiana-manual` design_parameters.wqv_depth_inches
+- `indiana-manual` design_parameters.bioretention_media_depth_min_inches
+- `jacksonville-fl` design_criteria.water_quality_volume_method
+- `jacksonville-fl` design_criteria.peak_flow_calculation_method
+- `jefferson-city-mo` design_criteria.approved_bmp_categories
+- `kansas-city-marc-bmp` design_parameters.shwt_separation_inches
+- `kennewick-wa` design_criteria.peak_flow_calculation_method
+- `killeen-tx` design_criteria.approved_bmp_categories
+- `ks-kdot-drainage` design_criteria.design_storm_return_periods_years
+- `ky-kytc-drainage` design_criteria.approved_bmp_categories
+- `lafayette-la` design_criteria.water_quality_volume_method
+- `lafayette-la` design_criteria.peak_flow_calculation_method
+- `lafayette-la` design_criteria.approved_bmp_categories
+- `lakeland-fl` design_criteria.water_quality_volume_method
+- `lakeland-fl` design_parameters.shwt_separation_inches
+- `lancaster-pa-swmf` design_parameters.wqv_depth_inches
+- `lancaster-pa-swmf` design_parameters.length_to_width_ratio
+- `lansing-mi` design_criteria.approved_bmp_categories
+- `laredo-tx` design_criteria.water_quality_volume_method
+- `laredo-tx` design_criteria.approved_bmp_categories
+- `las-cruces-nm` design_criteria.water_quality_volume_method
+- `las-cruces-nm` design_criteria.approved_bmp_categories
+- `las-vegas-nv` design_parameters.length_to_width_ratio
+- `lawrence-ks` design_criteria.approved_bmp_categories
+- `lincoln-ne` design_criteria.peak_flow_calculation_method
+- `lincoln-ne` design_criteria.approved_bmp_categories
+- `lincoln-ne` design_parameters.design_infiltration_rate_in_per_hr
+- `los-angeles-ca` design_parameters.swale_bottom_width_inches
+- `louisville-ky` design_criteria.peak_flow_calculation_method
+- `lubbock-tx` design_criteria.approved_bmp_categories
+- `ma-massdot-drainage` design_parameters.shwt_separation_inches
+- `manchester-nh` design_criteria.peak_flow_calculation_method
+- `maricopa-county-az` design_criteria.water_quality_volume_method
+- `mcallen-tx` design_criteria.water_quality_volume_method
+- `mcallen-tx` design_criteria.approved_bmp_categories
+- `md-state` design_parameters.shwt_separation_inches
+- `md-state` design_parameters.bioretention_media_depth_min_inches
+- `melbourne-fl` design_criteria.water_quality_volume_method
+- `melbourne-fl` design_criteria.peak_flow_calculation_method
+- `melbourne-fl` design_criteria.approved_bmp_categories
+- `memphis-tn` design_criteria.water_quality_volume_method
+- `mesa-az` design_criteria.approved_bmp_categories
+- `mesquite-tx` design_criteria.water_quality_volume_method
+- `mi-mdot-drainage` design_criteria.approved_bmp_categories
+- `miami-fl` design_criteria.design_storm_return_periods_years
+- `milwaukee-wi` design_criteria.peak_flow_calculation_method
+- `milwaukee-wi` design_parameters.wqv_depth_inches
+- `missoula-mt` design_criteria.water_quality_volume_method
+- `missoula-mt` design_criteria.approved_bmp_categories
+- `missoula-mt` design_parameters.shwt_separation_inches
+- `montpelier-vt` design_criteria.approved_bmp_categories
+- `montpelier-vt` design_parameters.swale_bottom_width_inches
+- `mt-deq8` design_parameters.shwt_separation_inches
+- `murfreesboro-tn` design_criteria.approved_bmp_categories
+- `nashua-nh` design_criteria.peak_flow_calculation_method
+- `nc-state` design_parameters.wqv_depth_inches
+- `newark-nj` design_criteria.water_quality_volume_method
+- `newark-nj` design_criteria.peak_flow_calculation_method
+- `nj-njdot-drainage` design_parameters.wqv_depth_inches
+- `nyc-ny` design_parameters.green_roof_media_depth_inches
+- `oakland-ca` design_criteria.water_quality_volume_method
+- `oakland-ca` design_criteria.peak_flow_calculation_method
+- `olympia-wa` design_criteria.water_quality_volume_method
+- `omaha-ne` design_criteria.peak_flow_calculation_method
+- `omaha-ne` design_criteria.approved_bmp_categories
+- `orange-county-ca` design_criteria.approved_bmp_categories
+- `oregon-manual` design_parameters.bioretention_ponding_depth_inches
+- `oregon-manual` design_parameters.green_roof_slope_percent
+- `overland-park-ks` design_criteria.water_quality_volume_method
+- `overland-park-ks` design_criteria.approved_bmp_categories
+- `pa-state` design_parameters.permanent_pool_depth_inches
+- `palm-bay-fl` design_criteria.water_quality_volume_method
+- `palm-bay-fl` design_criteria.peak_flow_calculation_method
+- `palm-bay-fl` design_criteria.approved_bmp_categories
+- `palm-coast-fl` design_criteria.water_quality_volume_method
+- `palm-coast-fl` design_criteria.peak_flow_calculation_method
+- `palm-coast-fl` design_criteria.approved_bmp_categories
+- `pasadena-tx` design_criteria.peak_flow_calculation_method
+- `paterson-nj` design_criteria.water_quality_volume_method
+- `paterson-nj` design_criteria.peak_flow_calculation_method
+- `pearland-tx` design_criteria.peak_flow_calculation_method
+- `pensacola-fl` design_criteria.peak_flow_calculation_method
+- `pensacola-fl` design_parameters.shwt_separation_inches
+- `peoria-il` design_criteria.approved_bmp_categories
+- `philadelphia-pa` design_parameters.shwt_separation_inches
+- `philadelphia-pa` design_parameters.bioretention_media_depth_min_inches
+- `philadelphia-pa` design_parameters.bioretention_ponding_depth_inches
+- `phoenix-az` design_parameters.swale_bottom_width_inches
+- `pinellas-county-fl` design_criteria.approved_bmp_categories
+- `port-st-lucie-fl` design_criteria.peak_flow_calculation_method
+- `port-st-lucie-fl` design_criteria.approved_bmp_categories
+- `port-st-lucie-fl` design_parameters.wqv_depth_inches
+- `prince-georges-county-md` design_parameters.shwt_separation_inches
+- `prince-georges-county-md` design_parameters.bioretention_media_depth_min_inches
+- `raleigh-nc` design_criteria.peak_flow_calculation_method
+- `reading-pa` design_criteria.water_quality_volume_method
+- `reading-pa` design_criteria.peak_flow_calculation_method
+- `reading-pa` design_criteria.approved_bmp_categories
+- `reading-pa` design_parameters.permeable_pavement_storage_depth_inches
+- `reading-pa` design_parameters.permanent_pool_depth_inches
+- `reading-pa` design_parameters.green_roof_media_depth_inches
+- `richmond-va` design_criteria.water_quality_volume_method
+- `richmond-va` design_criteria.approved_bmp_categories
+- `riverside-county-ca` design_criteria.water_quality_volume_method
+- `roanoke-va` design_criteria.water_quality_volume_method
+- `roanoke-va` design_criteria.approved_bmp_categories
+- `rochester-mn` design_criteria.water_quality_volume_method
+- `rockford-il` design_criteria.approved_bmp_categories
+- `rockville-md` design_criteria.approved_bmp_categories
+- `rockville-md` design_parameters.shwt_separation_inches
+- `rockville-md` design_parameters.bioretention_media_depth_min_inches
+- `san-bernardino-county-ca` design_criteria.water_quality_volume_method
+- `san-bernardino-county-ca` design_criteria.peak_flow_calculation_method
+- `santa-barbara-ca` design_criteria.peak_flow_calculation_method
+- `santa-fe-nm` design_criteria.water_quality_volume_method
+- `santa-fe-nm` design_criteria.approved_bmp_categories
+- `sc-scdot-drainage` design_criteria.approved_bmp_categories
+- `scottsdale-az` design_criteria.approved_bmp_categories
+- `scranton-pa` design_criteria.water_quality_volume_method
+- `scranton-pa` design_criteria.peak_flow_calculation_method
+- `scranton-pa` design_criteria.approved_bmp_categories
+- `scranton-pa` design_parameters.permeable_pavement_storage_depth_inches
+- `scranton-pa` design_parameters.permanent_pool_depth_inches
+- `south-bend-in` design_criteria.approved_bmp_categories
+- `south-bend-in` design_parameters.wqv_depth_inches
+- `south-carolina-manual` design_criteria.water_quality_volume_method
+- `south-carolina-manual` design_criteria.peak_flow_calculation_method
+- `springfield-il` design_criteria.peak_flow_calculation_method
+- `springfield-il` design_criteria.approved_bmp_categories
+- `springfield-mo` design_criteria.peak_flow_calculation_method
+- `springfield-mo` design_criteria.approved_bmp_categories
+- `springfield-mo` design_parameters.shwt_separation_inches
+- `st-louis-mo` design_criteria.peak_flow_calculation_method
+- `tacoma-wa` design_criteria.approved_bmp_categories
+- `tacoma-wa` design_parameters.shwt_separation_inches
+- `tallahassee-fl` design_parameters.shwt_separation_inches
+- `tampa-fl` design_parameters.shwt_separation_inches
+- `toledo-oh` design_criteria.approved_bmp_categories
+- `topeka-ks` design_criteria.peak_flow_calculation_method
+- `topeka-ks` design_parameters.permanent_pool_depth_inches
+- `trenton-nj` design_criteria.peak_flow_calculation_method
+- `tulsa-ok` design_criteria.peak_flow_calculation_method
+- `vt-state` design_criteria.approved_bmp_categories
+- `vt-state` design_parameters.swale_bottom_width_inches
+- `west-palm-beach-fl` design_criteria.peak_flow_calculation_method
+- `west-palm-beach-fl` design_criteria.approved_bmp_categories
+- `west-palm-beach-fl` design_parameters.wqv_depth_inches
+- `wi-wisdot-drainage` design_criteria.approved_bmp_categories
+- `wilmington-de` design_criteria.water_quality_volume_method
+- `wilmington-de` design_criteria.peak_flow_calculation_method
+- `wilmington-de` design_criteria.approved_bmp_categories
+- `wilmington-de` design_parameters.shwt_separation_inches
+- `wilmington-nc` design_criteria.peak_flow_calculation_method
+- `wilmington-nc` design_parameters.wqv_depth_inches
+- `winston-salem-nc` design_criteria.approved_bmp_categories
+- `youngstown-oh` design_criteria.approved_bmp_categories
+- `yuma-az` design_criteria.peak_flow_calculation_method
+- `yuma-az` design_criteria.approved_bmp_categories

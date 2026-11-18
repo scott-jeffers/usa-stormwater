@@ -71,6 +71,41 @@
       "field": "design_parameters.practice_mentions.bioretention",
       "excerpt": "runoff from these types of landscaped areas should be directed to bioretention, biofiltration, or constructed wetland BMPs prior to discharge to UIC wells.",
       "page_or_section": "Volume I - Chapter 4 - Page 171"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "Storm frequency The time interval between major storms of predetermined intensity and volumes of runoff for which storm sewers and other structures are designed and constructed to handle hydraulically without surcharging and backflooding; e.g., a 2-year, 10-year or 100-year storm.",
+      "page_or_section": "PDF p. 1312 · found by QA search"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "100 yr peak flow instead of 50 yr) in more vulnerable areas.",
+      "page_or_section": "PDF p. 64 · found by QA search"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "Stormwater control or treatment structures should not be located within the expected 25-year water level elevations for salmonid-bearing waters.",
+      "page_or_section": "PDF p. 123 · found by QA search"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "III-1.1 Choosing Your Source Control BMPs 459 III-1.2 Choosing Your Runoff Treatment BMPs 462 III-1.3 Choosing Your Flow Control BMPs 479 III-1.4 Review and Document Your BMP Choices 480 III-2 Modeling Your BMPs 483 III-2.1 An Overview of Hydrologic Analysis 483 III-2.2 Continuous Simulation Models 485 III-2.3 Single Event Hydrograph Method 496 III-2.4 Flow Bypass and Additional Area Inflow 506",
+      "page_or_section": "PDF p. 21 · found by QA search"
+    },
+    {
+      "field": "design_criteria.required_hydrologic_hydraulic_software",
+      "excerpt": "WWHM uses the EPA HSPF software program to do all of the rainfall-runoff and routing computations.",
+      "page_or_section": "PDF p. 488 · found by QA search"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Volume II - Construction Stormwater Pollution Prevention Volume III - Choosing, Modeling, and Documenting Your BMPs Volume IV - Source Control BMP Library Volume V - Runoff Treatment, Flow Control, and LID BMP Library Prepared by: Washington State Department of Ecology Water Quality Program July 2024 Publication Number 24-10-013",
+      "page_or_section": "PDF p. 3 · found by QA search"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Soil Type Infiltration/Bioretention Wet Pond* Biofiltration* (Swale or Filter Strip) Coarse Sand or Cobbles X X X Sand ü X X Loamy Sand ü X ü Sandy Loam ü X ü Loam X X ü Silt Loam X X ü Sandy Clay Loam X ü ü Silty Clay Loam X ü ü Sandy Clay X ü ü Silty Clay X ü X Clay X ü X Notes: ü Indicates that the BMP type is generally appropriate for this soil type.",
+      "page_or_section": "PDF p. 479 · found by QA search"
     }
   ],
   "extraction_quality": {

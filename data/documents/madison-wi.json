@@ -117,6 +117,26 @@
       "field": "design_parameters.practice_mentions.infiltration_basin",
       "excerpt": "infiltration basins, underground infiltration fields",
       "page_or_section": "Sec. 37.04 / Page 4"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "Design the detention device(s) to fill during the post development 100-year event.",
+      "page_or_section": "PDF p. 16 · found by QA search"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "Further the 500-year event flood elevation shall be routed through the development to determine flood elevations.",
+      "page_or_section": "PDF p. 17 · found by QA search"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "Reduce runoff volumes from the site by 5% compared to existing conditions during a 10-year design storm.",
+      "page_or_section": "PDF p. 18 · found by QA search"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Green infrastructure includes, but is not limited to, the following practices: rainwater harvesting/reuse, rain gardens, bioretention systems, infiltration basins, underground infiltration fields (note these may be Class V injection",
+      "page_or_section": "PDF p. 4 · found by QA search"
     }
   ],
   "extraction_quality": {

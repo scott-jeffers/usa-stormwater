@@ -155,6 +155,16 @@
       "field": "design_parameters.swale_bottom_width_inches",
       "excerpt": "Bottom widths range from two feet to eight feet.",
       "page_or_section": "Page 3-96 / Vegetated Conveyance SCM (range only)"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Most PCSM Objective A (Section 3.3, Protect and Preserve Natural Landscape Processes and Section 3.4, Enhanced Natural Landscape SCMs), B (Section 3.5, Infiltration-Based SCMs and Section 3.6, Non-Infiltration SCMs, with one exception) and C (Section 3.7, MRC) SCMs provide water quality credit as discussed further below.",
+      "page_or_section": "PDF p. 521 · found by QA search"
+    },
+    {
+      "field": "design_parameters.shwt_separation_inches",
+      "excerpt": "Maintain a minimum 2-foot separation to bedrock and seasonally high-water table.",
+      "page_or_section": "PDF p. 166 · found by QA search"
     }
   ],
   "extraction_quality": {

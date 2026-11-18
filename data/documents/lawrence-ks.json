@@ -69,6 +69,21 @@
       "field": "design_parameters.enrich_notes.parking_lot_detention_depth",
       "excerpt": "Depths of storage shall be limited to a maximum of seven inches with such areas located so that access to and from parking areas is not impaired.",
       "page_or_section": "9.8.F Parking Lot Detention / page 37"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "Peak discharges from the property shall not exceed the following release rates: 2 yr storm 2.4 cfs/acre 10 yr storm 3.2 cfs/acre 100 yr storm 4.5 cfs/acre b.",
+      "page_or_section": "PDF p. 16 · found by QA search"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "A 50-year storm has a probability of 0.02 (2%) of occurring in any given year.",
+      "page_or_section": "PDF p. 11 · found by QA search"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "Wall Height: The minimum wall height shall be the greater of 1.5 feet or the depth of the 1-year peak water surface plus 0.5 ft.",
+      "page_or_section": "PDF p. 33 · found by QA search"
     }
   ],
   "extraction_quality": {

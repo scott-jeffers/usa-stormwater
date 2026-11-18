@@ -79,6 +79,16 @@
       "field": "design_parameters.swale_longitudinal_slope_percent",
       "excerpt": "Vegetated Swale Provide a 20-foot minimum length at a maximum slope of 2% with a 1-foot high check dam",
       "page_or_section": "Part 3, II. STANDARDS D. Pretreatment, page 24"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "(4) Flood storage must be between the 2-year flood elevation and the 100-year flood elevation.",
+      "page_or_section": "PDF p. 68 · found by QA search"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Implement structural BMPs that control volume through infiltration.",
+      "page_or_section": "PDF p. 26 · found by QA search"
     }
   ],
   "extraction_quality": {

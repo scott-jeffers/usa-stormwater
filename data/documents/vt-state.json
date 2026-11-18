@@ -175,6 +175,11 @@
       "field": "design_parameters.swale_longitudinal_slope_percent",
       "excerpt": "Open channels constructed without check dams shall have a maximum longitudinal slope of 2%",
       "page_or_section": "Section 4.3.2.2, page 114"
+    },
+    {
+      "field": "design_parameters.permanent_pool_depth_inches",
+      "excerpt": "Pocket ponds with permanent pools equal to or greater than 4 feet in depth shall provide a safety bench in accordance with the safety bench requirements in Section 4.3.6.",
+      "page_or_section": "PDF p. 206 · found by QA search"
     }
   ],
   "extraction_quality": {

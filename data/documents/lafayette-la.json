@@ -58,6 +58,11 @@
       "field": "design_parameters.practice_mentions.infiltration_basin",
       "excerpt": "subsurface infiltration",
       "page_or_section": "Section 11.2 / page 317"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "Drainage facilities shall be designed and constructed so that the rate of runoff from a site postconstruction shall be equal to or less than the runoff of a pre-construction site for the 2-year, 10-year, 25-year, and 100-year design storms.",
+      "page_or_section": "PDF p. 300 · found by QA search"
     }
   ],
   "extraction_quality": {

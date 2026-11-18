@@ -108,6 +108,11 @@
       "field": "design_parameters.design_infiltration_rate_in_per_hr",
       "excerpt": "12 inches per hour is the initial uncorrected rate for both standard and high performance BSMs. A corrected design rate of 3 inches per hour is used where the drainage area to the bioretention device exceeds any of the following... A corrected design rate of 6 inches per hour is used if the contributing drainage area does not exceed any of the above-listed areas",
       "page_or_section": "Section 5.2.1 Design Infiltration Rate – Bioretention and Permeable Pavement (5-48)"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "Typical return periods calculated in continuous models are the 100-year, 50-year, 25-year, 10- year, 5-year, 3-year, 2-year, and lesser storms for low-flow regime, LID and water quality applications. ❑ FLOW DURATION ANALYSIS Flow duration analysis is important because it identifies the changes in durations of all high flows rather than simply the change in frequency of the peak annual flows.",
+      "page_or_section": "PDF p. 206 · found by QA search"
     }
   ],
   "extraction_quality": {

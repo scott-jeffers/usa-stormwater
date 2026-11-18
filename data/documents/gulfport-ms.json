@@ -94,6 +94,26 @@
       "field": "design_parameters.swale_longitudinal_slope_percent",
       "excerpt": "Grassed swales should be used on sites with relatively flat slopes of less than 4 percent slope; 1 to 2 percent slope is recommended",
       "page_or_section": "Infiltration, Grassed Swale Slope, page 96 (4-65)"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "Detention basins and associated outflow structures should be designed to address the 2-year, 5-year, 10-year, 25-year, and 50-year, 24-hour storm events.",
+      "page_or_section": "PDF p. 199 · found by QA search"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "Designed for an extended detention time of 24 hours for the 1-year storm event.",
+      "page_or_section": "PDF p. 197 · found by QA search"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "Runoff volumes and rates may be calculated using the SCS Runoff Curve Number Method (see Appendix Volume, Appendix A, A-16).",
+      "page_or_section": "PDF p. 199 · found by QA search"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "Detention storage may be determined using the Short Cut Floodrouting Method for determining drainage areas and runoffs that fall with the method’s limits.",
+      "page_or_section": "PDF p. 199 · found by QA search"
     }
   ],
   "extraction_quality": {

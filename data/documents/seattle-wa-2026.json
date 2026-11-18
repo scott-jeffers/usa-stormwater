@@ -104,6 +104,21 @@
       "field": "design_parameters.shwt_separation_inches",
       "excerpt": "Minimum Vertical Separation (ft) Groundwater … Infiltrating Bioretention without Underdrain … Wet Season … 3 … Permeable Pavement Facilities … Wet Season … 1",
       "page_or_section": "Appendix D, Comprehensive Subsurface Investigation Elements, page D-6 (840)"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "Recurrence Interval 2-Hour Total (inches) 6-month 0.40 2-yr 0.58 5-yr 0.70 10-yr 0.78 20-yr 0.88 25-yr 0.92 50-yr 1.04 100-yr 1.14 Figure 1.",
+      "page_or_section": "PDF p. 984 · found by QA search"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "Other models approved by the Director Rational Method NA Upstream of storage routing and backwater effects a Refer to the Approval Status of Continuous Simulation Models section of the SWMMWW for a list of currently approved models. b The following continuous hydrologic models may also be used for project-specific situations: HSPF, EPA SWMM5, ModFlow, HMS, PCSWMM, and other models approved by the Director.",
+      "page_or_section": "PDF p. 901 · found by QA search"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "Single Event Hydrograph Method: The peak flow rate from a 10--year, 24--hour frequency storm with a 10--minute time step.",
+      "page_or_section": "PDF p. 191 · found by QA search"
     }
   ],
   "extraction_quality": {

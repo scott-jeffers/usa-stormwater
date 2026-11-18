@@ -83,6 +83,16 @@
       "field": "design_parameters.length_to_width_ratio",
       "excerpt": "a length to width ratio of 2:1 should be provided for the sedimentation chamber",
       "page_or_section": "Table B-8 Media Filters, page 166"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "In the past many temporary diversion system guidance documents required mandatory minimum return storms for sizing the systems, for example the 2-year, 5-year, or 10-year 24-hour return period.",
+      "page_or_section": "PDF p. 199 · found by QA search"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Bioretention Detention Basin Infiltration Trench and Basin Austin Media Filter (Earthen & Concrete Vault) Delaware Media Filter The GSRD, Trash Net, and Capture Housing are all stand-alone full-capture trash devices.",
+      "page_or_section": "PDF p. 62 · found by QA search"
     }
   ],
   "extraction_quality": {

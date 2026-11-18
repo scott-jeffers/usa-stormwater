@@ -99,6 +99,21 @@
       "field": "design_parameters.practice_mentions.manufactured_treatment",
       "excerpt": "Manufactured Treatment Devices (MTDs) or proprietary BMPs accepted by DEQ may be utilized, when accepted by VDOT",
       "page_or_section": "Chapter 11 / page 16 (c0049)"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Functional Goals of Stormwater BMPs Stormwater BMP Quality Stream Channel Erosion Quantity/ Flooding Vegetated filter strip +++ Grasses Swale (w/check dams) +++ + Constructed wetlands +++ + Extended detention ++ +++ + Extended detention enhanced +++ ++ + Bioretention +++ Retention basin +++ ++ +++ Sand filter +++ Infiltration +++ Infiltration Basin ++ + + Detention ++ +++ Manufactured BMPs (Water",
+      "page_or_section": "PDF p. 120 · found by QA search"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "· · · · · · · · · Dry Swale Wet Swale Sheet Flow to Vegetated Filter/Open Space Extended Detention Pond Filtering Practice Constructed Wetland Wet Pond Regenerative Stormwater Conveyance* Tree Planting 5) Manufactured Treatment Devices (MTDs) or proprietary BMPs accepted by DEQ may be utilized, when accepted by VDOT, in accordance with the design guidance and efficiencies approved by DEQ.",
+      "page_or_section": "PDF p. 16 · found by QA search"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "11.7.5 Release Rates Control structure release rates are usually designed to approximate pre-developed peak runoff rates for the 2- and 10-yr design storms with an emergency spillway capable of handling the 100-yr peak discharge.",
+      "page_or_section": "PDF p. 122 · found by QA search"
     }
   ],
   "extraction_quality": {

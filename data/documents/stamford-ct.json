@@ -88,6 +88,46 @@
       "field": "design_parameters.green_roof_slope_percent",
       "excerpt": "Green Roof ... (max 20% roof slope)",
       "page_or_section": "Chapter 8 Table 8-3, page 140"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "2-year, 10-year, and potentially the 25-year and 100-year, 24-hour storms",
+      "page_or_section": "PDF p. 227 · found by QA search"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "Once the adjusted CN values are determined, also calculate the time of concentration and either follow the remaining steps in the Graphical Peak Discharge Method in Appendix D or use a stormwater hydrologic/hydraulic routing model based on the NRCS Curve Number method (e.g., HydroCAD or similar software) to calculate peak discharge for each design storm event.",
+      "page_or_section": "PDF p. 460 · found by QA search"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "The analysis should use an appropriate hydrograph routing method, such as routing employed by TR-20, to route the pre- and post-development runoff hydrographs from the project site to the downstream critical locations.",
+      "page_or_section": "PDF p. 66 · found by QA search"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "small storm events, and 2) the Rational Formula, which should only be used with reliable intensity, duration, and frequency (IDF) tables or curves for the storm and region of interest (Claytor and Schueler, 1996).",
+      "page_or_section": "PDF p. 527 · found by QA search"
+    },
+    {
+      "field": "design_criteria.required_hydrologic_hydraulic_software",
+      "excerpt": "NOAA_D may be created as a user-defined rainfall distribution in HydroCAD.",
+      "page_or_section": "PDF p. 62 · found by QA search"
+    },
+    {
+      "field": "design_criteria.required_hydrologic_hydraulic_software",
+      "excerpt": "The NRCS NOAA_D rainfall distribution is available as a standard rainfall distribution in hydrologic analysis software such as WinTR-55.",
+      "page_or_section": "PDF p. 62 · found by QA search"
+    },
+    {
+      "field": "design_criteria.required_hydrologic_hydraulic_software",
+      "excerpt": "The analysis should use an appropriate hydrograph routing method, such as routing employed by TR-20, to route the pre- and post-development runoff hydrographs from the project site to the downstream critical locations.",
+      "page_or_section": "PDF p. 66 · found by QA search"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Source: Eastern CT Conservation District, nianticriverwatershed.org Stormwater BMP Type Pretreatment BMP □ Infiltration BMP □ Filtering BMP ■ Stormwater Pond BMP □ Stormwater Wetland BMP □ Water Quality Conveyance BMP □ Stormwater Reuse BMP □ Proprietary BMP □ Other BMPs and Accessories □ Stormwater Management Suitability Retention* ■ Treatment ■ Pretreatment □ Peak Runoff Attenuation □",
+      "page_or_section": "PDF p. 333 · found by QA search"
     }
   ],
   "extraction_quality": {

@@ -56,6 +56,16 @@
       "field": "design_parameters.practice_mentions.permeable_pavement",
       "excerpt": "Drainage Pavement Course – A type of pavement surface such as Open Graded Friction Course, (OGFC), which has specialized characteristics such as higher permeability and friction.",
       "page_or_section": "Acronyms and Definitions, page xxxi"
+    },
+    {
+      "field": "design_criteria.required_hydrologic_hydraulic_software",
+      "excerpt": "If a higher degree of accuracy is warranted, or if the watershed is large and complex, use computer programs such as NRCS Technical Release 20 (TR-20), the USACE Hydrologic Engineering Center Hydraulic Modeling Software (HEC-HMS), or AQUAVEO Watershed Modeling System (WMS).",
+      "page_or_section": "PDF p. 53 · found by QA search"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "Industry standard design storm events, include the 1-year, 2-year, 5-year, 10-year, 25-year, 50-year, 100-year, 200-year, and 500-year storms.",
+      "page_or_section": "PDF p. 47 · found by QA search"
     }
   ],
   "extraction_quality": {

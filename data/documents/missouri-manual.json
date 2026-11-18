@@ -118,6 +118,16 @@
       "field": "design_parameters.bioretention_media_depth_min_inches",
       "excerpt": "Depth of amended soils is critical where specific infiltration volumes are assumed as part of stormwater control measure performance.",
       "page_or_section": "Chapter 6 | page 161"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "Debris removal Removal cost ($/acre) x Area (acre) x Frequency (1x/2 yr) Inspection Inspection cost ($) x Inspection frequency (6x/1 yr) Mowing Mowing cost ($) x Mowing frequency (6x/1 yr) table 6.13 Source: Minnesota Stormwater Manual Version 2, 2008.",
+      "page_or_section": "PDF p. 222 · found by QA search"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "V = Volume needed to control the 10-year storm (ft3).",
+      "page_or_section": "PDF p. 212 · found by QA search"
     }
   ],
   "extraction_quality": {

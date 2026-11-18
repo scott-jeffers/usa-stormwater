@@ -66,6 +66,41 @@
       "field": "design_parameters.green_roof_slope_percent",
       "excerpt": "Green roofs can be installed on building roofs with slopes up to 25 percent.",
       "page_or_section": "Chapter 5 Green Roof Design Adaptation for Alaska, page 200"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "Some jurisdictions may require peak discharge control for the 2-year storm event.",
+      "page_or_section": "PDF p. 78 · found by QA search"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "The MOA approach uses a maximum melt event (an approximate 5-year return period).",
+      "page_or_section": "PDF p. 81 · found by QA search"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "Extreme Flood Control The postdevelopment peak rate of discharge for the 100-year, 24-hour storm should be reduced to the predevelopment peak rate.",
+      "page_or_section": "PDF p. 87 · found by QA search"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "Alaska Storm Water Guide December 2011 A partial list of hydrologic modeling software accepted by some Alaskan municipalities includes the following: ILLUDAS TR55-1986 WinTR553 WinTR20 SCS HEC-HMS Rational Method For small sites (e.g., a single residential structure), generally the easiest to implement method for determining peak event runoff rates is the rational method.",
+      "page_or_section": "PDF p. 73 · found by QA search"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "Soil Conservation Service methods if evaluating small basins (TR-55 or EPA SWMM)) coupled with site topography and flood routing analysis.",
+      "page_or_section": "PDF p. 88 · found by QA search"
+    },
+    {
+      "field": "design_criteria.required_hydrologic_hydraulic_software",
+      "excerpt": "Alaska Storm Water Guide December 2011 A partial list of hydrologic modeling software accepted by some Alaskan municipalities includes the following: ILLUDAS TR55-1986 WinTR553 WinTR20 SCS HEC-HMS Rational Method For small sites (e.g., a single residential structure), generally the easiest to implement method for determining peak event runoff rates is the rational method.",
+      "page_or_section": "PDF p. 73 · found by QA search"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Storm water treatment suitability matrix BMP family BMP list RUNOFF HYDROLOGY WATER QUALITY BENEFIT Rate control Volume reduction TSS P&N Metals Fecal coliform Retention Wet Pond High Low Primary Secondary Secondary Secondary Extended Storage Pond High Low Primary Secondary Secondary Secondary Wet Vaults Medium Lowa Primary Secondary Secondary Minor Detention Dry Pond High Low Secondary Minor",
+      "page_or_section": "PDF p. 181 · found by QA search"
     }
   ],
   "extraction_quality": {

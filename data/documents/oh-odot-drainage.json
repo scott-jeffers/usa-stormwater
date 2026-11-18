@@ -107,6 +107,21 @@
       "field": "design_parameters.bioretention_ponding_depth_inches",
       "excerpt": "Maximum 12\" Ponding Allowed",
       "page_or_section": "Figure 1113-5 / page 214"
+    },
+    {
+      "field": "design_criteria.required_hydrologic_hydraulic_software",
+      "excerpt": "For bridge replacements, the acceptable method of hydraulic analysis is HEC- RAS.",
+      "page_or_section": "PDF p. 94 · found by QA search"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Intensity Table Exempt Outfalls Manufactured System Detail Vegetated Biofilter Detail Extended Detention Basin Example Retention Basin Example Bioretention Cell Infiltration Basin Example Anti-Seep Collars Amended Vegetated Filter Strip",
+      "page_or_section": "PDF p. 146 · found by QA search"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "Highway Encroachments on Floodplains 1005.1 General 50% 20% 10% 4% 2% 1% 0.2% 2 year 5 year 10 year 25 year 50 year 100 year 500 year Other roadway design AEP floods are based on the class of highway, or the level of urbanization and development.",
+      "page_or_section": "PDF p. 33 · found by QA search"
     }
   ],
   "extraction_quality": {

@@ -90,6 +90,21 @@
       "field": "design_parameters.practice_mentions",
       "excerpt": "8.0 Wet Detention Design and Performance Criteria ... permanently wet ponds",
       "page_or_section": "8.1 Description, page 52"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "(b) 25-year return period.",
+      "page_or_section": "PDF p. 78 · found by QA search"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "Apopka or its tributaries for the 100-year, 24-hour storm event.",
+      "page_or_section": "PDF p. 96 · found by QA search"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "When conservation storage is at the average dry season design stage, the discharge will be the average 5 year, 30-day low flow.",
+      "page_or_section": "PDF p. 35 · found by QA search"
     }
   ],
   "extraction_quality": {

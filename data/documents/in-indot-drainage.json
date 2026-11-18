@@ -72,6 +72,21 @@
       "field": "design_parameters.design_infiltration_rate_in_per_hr",
       "excerpt": "Only infiltration rates of at least 2 in. per hour should be used for sizing.",
       "page_or_section": "203-5.04(02) Infiltration Basin, page 88"
+    },
+    {
+      "field": "design_criteria.required_hydrologic_hydraulic_software",
+      "excerpt": "HY-8 version 7.2 and the HEC-RAS culvert modules are the only computer programs allowed for the hydraulic analysis of a culvert.",
+      "page_or_section": "PDF p. 12 · found by QA search"
+    },
+    {
+      "field": "design_criteria.required_hydrologic_hydraulic_software",
+      "excerpt": "structure elevation v. inlet-depression depth 5. hydrology calculations which can include the Rational Method, Hydrograph Method (TR- 20, HEC-HMS, etc.), curve numbers, Manning’s n values, time of concentration, etc.",
+      "page_or_section": "PDF p. 43 · found by QA search"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "The other model will use the 100-year design storm for the main stream and the 5-year design storm for the tributary.",
+      "page_or_section": "PDF p. 25 · found by QA search"
     }
   ],
   "extraction_quality": {

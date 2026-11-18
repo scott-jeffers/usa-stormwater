@@ -139,6 +139,11 @@
       "field": "design_parameters.bioretention_ponding_depth_inches",
       "excerpt": "a ponding depth of 0.75 feet, a filter media depth of 2 feet",
       "page_or_section": "Appendix A, A-27"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "(g) Sizing of ring to accept openings and to pass 100-year design storm.",
+      "page_or_section": "PDF p. 104 · found by QA search"
     }
   ],
   "extraction_quality": {

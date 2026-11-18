@@ -50,6 +50,11 @@
       "field": "design_parameters.shwt_separation_inches",
       "excerpt": "the seasonal high groundwater table is two feet or more below the proposed Wet Pond invert",
       "page_or_section": "13.3 Wet Pond Feasibility Criteria – Soils (page 8)"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "The total storage, including any ponding for larger flooding events (100-year storm) should not extend more than 5 feet above the permanent pool unless specific design enhancements to ensure side slope stability, safety, and maintenance are identified and approved.",
+      "page_or_section": "PDF p. 12 · found by QA search"
     }
   ],
   "extraction_quality": {

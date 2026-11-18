@@ -132,6 +132,16 @@
       "field": "design_parameters.mtd_verification_program",
       "excerpt": "Pollutant removal efficiency of the system shall be certified by an independent certification program including but not limited to: U.S. EPA Technology Verification Program, State of Washington Technology Assessment Protocol - Ecology (TAPE), the Technology Acceptance Reciprocity Partnership Protocol (TARP), New Jersey Corporation for Advance Technology (NJCAT) or the State of Maryland Proprietary Practice acceptance program.",
       "page_or_section": "Chapter 10, Section 19.4, page 368"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "The design flows that must be considered include the 2-, 25-, and 100-year design flows.",
+      "page_or_section": "PDF p. 30 · found by QA search"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "Detention for flood control is designed to prevent increases in peak flow from the 1-, 10-, and 100-year storms.",
+      "page_or_section": "PDF p. 30 · found by QA search"
     }
   ],
   "extraction_quality": {

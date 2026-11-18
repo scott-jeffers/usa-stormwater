@@ -31,6 +31,26 @@
       "field": "document_metadata.document_title",
       "excerpt": "MaineDOT Highway Program §7 Drainage Design Practices & Procedures",
       "page_or_section": "Title / header"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "By their nature, closed systems have limited capacity and therefore are designed for the 10-year event instead of the much larger 50-year event.",
+      "page_or_section": "PDF p. 13 · found by QA search"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "For cross culverts > 60 inches, the return period is the 100-year storm.",
+      "page_or_section": "PDF p. 2 · found by QA search"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "Rational Method will typically be used for pavement drainage.",
+      "page_or_section": "PDF p. 11 · found by QA search"
+    },
+    {
+      "field": "design_criteria.required_hydrologic_hydraulic_software",
+      "excerpt": "HydroCad and other analysis software can be used to calculate flows.",
+      "page_or_section": "PDF p. 13 · found by QA search"
     }
   ],
   "extraction_quality": {

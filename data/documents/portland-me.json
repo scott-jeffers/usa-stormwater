@@ -84,6 +84,46 @@
       "field": "design_parameters.design_infiltration_rate_in_per_hr",
       "excerpt": "Recommended infiltration should be less than 2.41 inches per hour but great enough that one inch of stored precipitation infiltrates in 24 hours (i.e. >0.04 inches per hour).",
       "page_or_section": "Chapter 7.7 Manmade Pervious Surfaces, page 84"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "Detention structures are designed to control the 2-year, 10-year, and 25-year frequency discharges.",
+      "page_or_section": "PDF p. 11 · found by QA search"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "Detention structures designed to provide channel protection detention must have principal spillways capable of providing extended detention of 12 hours for runoff from a 2-hour storm of a 1-year frequency.",
+      "page_or_section": "PDF p. 11 · found by QA search"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "Stormwater management facilities must be designed to treat the first 1 inch of runoff from impervious surfaces and 0.4 inch from landscaped areas.",
+      "page_or_section": "PDF p. 7 · found by QA search"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "Users of this manual should have a working knowledge of applied hydrology, including familiarity with the Rational Method, SCS TR-20 and SCS TR-55 methodology.",
+      "page_or_section": "PDF p. 7 · found by QA search"
+    },
+    {
+      "field": "design_criteria.required_hydrologic_hydraulic_software",
+      "excerpt": "TR-55 is in fact derived from a simplification of the TR-20 model.",
+      "page_or_section": "PDF p. 112 · found by QA search"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Buffers Infiltration Filtration Conveyance and Distribution Separator BMPs LID",
+      "page_or_section": "PDF p. 6 · found by QA search"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "MAINE STORMWATER MANAGEMENT MANUAL VOLUME III – Technical Design Manual Chapter 1 Introduction Chapter 2 Stormwater Hydrology Chapter 3 Detention Basins for Flooding Control Chapter 4 Wetponds Chapter 5 Vegetated Buffers Chapter 6 Infiltration BMPs Chapter 7 Filtration BMPs 7.1 Grassed Underdrained Soil Filters 7.2 Bioretention Filters 7.3 Subsurface Sand Filters 7.4 Gravel Wetlands 7.5 Roof",
+      "page_or_section": "PDF p. 2 · found by QA search"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Construction: Construction of wet ponds should be started no later than September 1 or before June.",
+      "page_or_section": "PDF p. 27 · found by QA search"
     }
   ],
   "extraction_quality": {

@@ -170,6 +170,11 @@
       "field": "design_parameters.permeable_pavement_storage_depth_inches",
       "excerpt": "The stone reservoir should be designed so that it can be drained within 72 hours",
       "page_or_section": "Porous Pavement Stone Reservoir, page 305"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "Other localities require that larger storms (i.e., 50-100 year events) must be detained and released at a controlled rate to reduce the downstream impacts of major storms.",
+      "page_or_section": "PDF p. 24 · found by QA search"
     }
   ],
   "extraction_quality": {

@@ -123,6 +123,16 @@
       "field": "design_parameters.swale_bottom_width_inches",
       "excerpt": "Bottom widths must be between 2-8 feet wide.",
       "page_or_section": "Chapter 9.10.2, page 341"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "Channel Flow Total Area in Acres = Weighted CN = Time Of Concentration = Pond Factor = STORM 1 Year 2 Year 5 Year 10 Year 25 Year 50 Year 100 Year 38.00 Ac.",
+      "page_or_section": "PDF p. 117 · found by QA search"
+    },
+    {
+      "field": "design_criteria.required_hydrologic_hydraulic_software",
+      "excerpt": "Compute WQv WQv = (1.11”) (Rv) (A) = (1.11”) (0.38) (38.0 ac) (1ft/12in) = 1.34 ac-ft Develop Site Hydrologic and Hydrologic Input Parameters Note that any hydrologic models using SCS procedures, such as TR-20, HEC-HMS, or HEC-1, can be used to perform preliminary hydrologic calculations.",
+      "page_or_section": "PDF p. 116 · found by QA search"
     }
   ],
   "extraction_quality": {

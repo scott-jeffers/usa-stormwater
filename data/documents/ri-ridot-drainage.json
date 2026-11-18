@@ -125,6 +125,16 @@
       "field": "design_parameters.shwt_separation_inches",
       "excerpt": "Bottom of crushed stone reservoir shall be at least 3 feet above SHGT and bedrock.",
       "page_or_section": "Section 2.3.3 – Underground Infiltration System, page 66"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Bioretention Basin Bioretention Swale Gravel Wetland (WVTS) Sand Filter Infiltration Basin Infiltration Trench 2.1.4 Pretreatment Vegetated Filter Strip Vegetated filter Strips are uniformly graded, vegetated slopes that treat sheet flow from adjacent areas by reducing runoff velocity and utilizing vegetation to filter coarse sediments and debris.",
+      "page_or_section": "PDF p. 38 · found by QA search"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "The top of the structure is set to allow the bypass of the 100-year event.",
+      "page_or_section": "PDF p. 58 · found by QA search"
     }
   ],
   "extraction_quality": {

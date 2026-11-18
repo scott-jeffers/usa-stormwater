@@ -49,6 +49,21 @@
       "field": "design_parameters.practice_mentions.extended_detention",
       "excerpt": "For structures that are designed to control the volume of runoff (e.g., detention storage facilities) or where flood routing through culverts is used, the entire discharge hydrograph is of interest.",
       "page_or_section": "9.1.1 Definition / page 4"
+    },
+    {
+      "field": "design_criteria.required_hydrologic_hydraulic_software",
+      "excerpt": "HEC-HMS offers several loss models in gridded format.",
+      "page_or_section": "PDF p. 25 · found by QA search"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "DESIGN FLOOD FREQUENCY SELECTION GUIDELINES Design Flood < 10-year 10-year 25-year 50-year ADT < 50 50 – 399 400 – 3000 > 3000 ADT × Detour Length (miles) < 1000 1000 – 3999 4000 – 15,000 > 15,000 Notes: 1.",
+      "page_or_section": "PDF p. 11 · found by QA search"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "From Figure 9.A-4, for a Percent Design Risk of 25% and a construction time of five months, the recommended design frequency for the temporary hydraulic facility is a 2-year return period.",
+      "page_or_section": "PDF p. 38 · found by QA search"
     }
   ],
   "extraction_quality": {

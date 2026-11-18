@@ -123,6 +123,16 @@
       "field": "design_parameters.swale_bottom_width_inches",
       "excerpt": "Bottom width shall be a min of 2 ft and a max of 8 ft",
       "page_or_section": "Fact Sheet: Dry Swale (O-1), page 6-77"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "Hotspot The proposed development is not a hotspot (Section 4.14) 90th percentile rainfall 1.20 inches (Section 4.2) 1-year 24-hour rainfall 2.22 inches (NRCC and NRCS joint collaborative website Section 4.9) 2-year 24-hour rainfall 2.60 inches (NRCC and NRCS joint collaborative website Section 4.9) 10-year 24-hour rainfall 3.74 inches (NRCC and NRCS joint collaborative website Section 4.9)",
+      "page_or_section": "PDF p. 221 · found by QA search"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "Safely pass the 100-year design storm.",
+      "page_or_section": "PDF p. 43 · found by QA search"
     }
   ],
   "extraction_quality": {

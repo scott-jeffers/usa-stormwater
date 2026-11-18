@@ -59,6 +59,16 @@
       "field": "design_parameters.practice_mentions.swale",
       "excerpt": "Storm drainage facility: any kind of natural or man-made structure, such as a sewer, ditch, creek, river, lake, swale, or any other facility that stormwater or runoff may flow through",
       "page_or_section": "Glossary, page 6"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "100-year Floodplain and Floodway",
+      "page_or_section": "PDF p. 8 · found by QA search"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "Existing peak flows for 2- and 10-year storms 2.",
+      "page_or_section": "PDF p. 55 · found by QA search"
     }
   ],
   "extraction_quality": {

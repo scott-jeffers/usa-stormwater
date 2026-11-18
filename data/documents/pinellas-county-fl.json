@@ -110,6 +110,11 @@
       "field": "design_parameters.swale_bottom_width_inches",
       "excerpt": "It is recommended that the bottom of the swale be at least two feet wide to facilitate mowing",
       "page_or_section": "4.4 Treatment Swales, page 68"
+    },
+    {
+      "field": "design_parameters.swale_bottom_width_inches",
+      "excerpt": "BOTTOM WIDTHS LESS THAN 2 ' ARE NOT RECOMMENDED.",
+      "page_or_section": "PDF p. 149 · found by QA search"
     }
   ],
   "extraction_quality": {

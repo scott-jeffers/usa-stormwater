@@ -120,6 +120,21 @@
       "field": "design_parameters.practice_mentions.bioretention",
       "excerpt": "Impervious Area < 2 acres: water quality via infiltration/filtration SCM; no EDB. Use bioretention, sand filter, or permeable pavement.",
       "page_or_section": "Table 11-1 (page 239, aurora-co-c0258)"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "Velocity, shear stress, depth, and water surface elevation (WSEL) must be evaluated for all relevant storm events detailed in the previous section, typically the bankfull, 2-year, 10-year, and 100-year flood flows.",
+      "page_or_section": "PDF p. 173 · found by QA search"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "Pedestrian bridges must be designed to resist scour in a 25-year storm event, and low water crossings must be designed to resist scour in a 10-year storm event.",
+      "page_or_section": "PDF p. 200 · found by QA search"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "It continuously releases or infiltrates as quickly as practicable, but in all cases releases or infiltrates at least 99% of the runoff within 120 hours after the end of events greater than a 5-year storm.",
+      "page_or_section": "PDF p. 220 · found by QA search"
     }
   ],
   "extraction_quality": {

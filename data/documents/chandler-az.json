@@ -76,6 +76,11 @@
       "field": "design_parameters.practice_mentions.infiltration_basin",
       "excerpt": "The infiltration rate of the bottom surface of proposed retention basins must be characterized by double-ring infiltrometer tests",
       "page_or_section": "Chapter 3, §3.6.10.4 Basin Infiltration (manual p. 76)"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Chapter 3 – Storm Drainage System Design Stormwater Dissipation Drywells are permitted to drain surface retention areas only when no other means of disposal are available.",
+      "page_or_section": "PDF p. 67 · found by QA search"
     }
   ],
   "extraction_quality": {

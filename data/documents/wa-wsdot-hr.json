@@ -67,6 +67,16 @@
       "field": "design_parameters.practice_mentions.extended_detention",
       "excerpt": "Flow-based: downstream of flow control facility — Size treatment facility or facilities using the full 2-year release rate from the detention facility.",
       "page_or_section": "Table 3-3, page 3-17"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "Projects must match the predeveloped 2-year and 25-year peak runoff rates for these discharges.",
+      "page_or_section": "PDF p. 23 · found by QA search"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "The design will ensure flows delivered to Type 5 stream reaches will approximate, but in no case exceed, durations ranging from 50% of the 2-year to the 50-year peak flow.",
+      "page_or_section": "PDF p. 23 · found by QA search"
     }
   ],
   "extraction_quality": {

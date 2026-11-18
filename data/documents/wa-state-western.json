@@ -155,6 +155,16 @@
       "field": "design_parameters.swale_longitudinal_slope_percent",
       "excerpt": "biofiltration swales are usually situated on sites with slopes of less than 6%, although greater slopes can be considered.",
       "page_or_section": "Volume III - Chapter 1 - Page 478"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "100 yr peak flow instead of 50 yr) in more vulnerable areas.",
+      "page_or_section": "PDF p. 64 · found by QA search"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "Stormwater control or treatment structures should not be located within the expected 25-year water level elevations for salmonid-bearing waters.",
+      "page_or_section": "PDF p. 123 · found by QA search"
     }
   ],
   "extraction_quality": {

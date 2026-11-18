@@ -61,6 +61,26 @@
       "field": "design_parameters.practice_mentions",
       "excerpt": "The BMPs may include infiltration basins, bioretention, biofiltration swales, extended detention basins, wet detention basins, and proprietary treatment devices. Permeable pavement systems and dispersion BMPs are not allowed as the initial storm water facility.",
       "page_or_section": "3.5 / standard plans BMP allowance, page 16"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "(2) a 10-year storm event; and (3) a 100-year storm event.",
+      "page_or_section": "PDF p. 11 · found by QA search"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "for a 60-minute storm at the 2-year recurrence interval at Helena Airport is 0.51 in/hour.",
+      "page_or_section": "PDF p. 58 · found by QA search"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "Calculations must be performed using the Storage Indication Method, Modified Rational Method in Section 3.7, or another method approved by the Department.",
+      "page_or_section": "PDF p. 32 · found by QA search"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "3.7.4 STORAGE-INDICATION ROUTING Storage-indication routing may be used to calculate detention or infiltration facility volumes.",
+      "page_or_section": "PDF p. 22 · found by QA search"
     }
   ],
   "extraction_quality": {

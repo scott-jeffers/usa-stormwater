@@ -65,6 +65,21 @@
       "field": "design_parameters.bioretention_ponding_depth_inches",
       "excerpt": "Maximum depth of ponding is 8 inches",
       "page_or_section": "Section V Rain Garden, page 70"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "Preliminary calculations of runoff from the upstream area for both the 100-year and 2-year recurrence interval 24-hour design storms, for fully developed conditions according to the current land use plan for the area.",
+      "page_or_section": "PDF p. 15 · found by QA search"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "The MDEQ requires applicants to use the UD-21 method by NRCS in lieu of the rational method.",
+      "page_or_section": "PDF p. 50 · found by QA search"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "In addition, bioretention, rain gardens, porous pavement, infiltration basins, subsurface infiltration beds, infiltration trenches, vegetated swales, dry wells, green roofs and water reuse can all be used to meet some or all of the first flush/bankfull infiltration requirement for sites with A, B and some C soil types.",
+      "page_or_section": "PDF p. 31 · found by QA search"
     }
   ],
   "extraction_quality": {

@@ -67,6 +67,31 @@
       "field": "design_parameters.permanent_pool_depth_inches",
       "excerpt": "Wet Pond Limit maximum normal pool depth to about 4 ft (dugout)",
       "page_or_section": "Table 3.19 Physiographic Factors, page 61"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "Table 1.2 Storm Events Storm Event Name Storm Event Description “Water Quality” Criteria based on a volume of 1.5 inches of rainfall, not a storm frequency “Streambank Protection” 1-year, 24-hour storm event “Conveyance” 25-year, 24-hour storm event “Flood Mitigation” 100-year, 24-hour storm event Throughout the manual the storms will be referred to by their storm event names.",
+      "page_or_section": "PDF p. 10 · found by QA search"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "SCS Unit Hydrograph Method",
+      "page_or_section": "PDF p. 20 · found by QA search"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "Modified Rational2 0 – 200 acres Method can be used for estimating runoff volumes for storage design.",
+      "page_or_section": "PDF p. 22 · found by QA search"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Ponds Porous surfaces Proprietary systems Green roofs Rainwater harvesting Wetlands Submerged gravel wetlands Local Provisions: Using Other or New Structural Stormwater Controls Innovative technologies will be allowed and encouraged.",
+      "page_or_section": "PDF p. 29 · found by QA search"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Bioretention Enhanced swales (dry, wet, wetland) Alum treatment Detention Filter strips Sand filters, filter boxes, etc Infiltration wells and trenches",
+      "page_or_section": "PDF p. 29 · found by QA search"
     }
   ],
   "extraction_quality": {

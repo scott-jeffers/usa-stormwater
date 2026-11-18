@@ -73,6 +73,11 @@
       "field": "design_parameters.max_drawdown_hours",
       "excerpt": "Drawdown time to native soil surface (i.e., bottom of storage) is limited to 72 hours.",
       "page_or_section": "Section 3.5.4 Infiltration Trench / Page 3-135 (SCM-specific; no single site-wide max reported)"
+    },
+    {
+      "field": "design_parameters.shwt_separation_inches",
+      "excerpt": "Maintain a minimum 2-foot separation to bedrock and seasonally high-water table.",
+      "page_or_section": "PDF p. 166 · found by QA search"
     }
   ],
   "extraction_quality": {

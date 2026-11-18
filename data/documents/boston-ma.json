@@ -132,6 +132,11 @@
       "field": "design_parameters.practice_mentions.manufactured_treatment",
       "excerpt": "the Commission may require developers to install particle separators on newly constructed storm drains that serve large outdoor parking areas",
       "page_or_section": "3.2 SEWER SYSTEM OVERFLOW CONTROL AND RESPONSE, page 27"
+    },
+    {
+      "field": "design_parameters.wqv_depth_inches",
+      "excerpt": "Through the Commission’s site plan review and approval process continue to require new development and redevelopment projects to incorporate priority BMPs with high pollutant removal rates to treat 1-inch of runoff from the site prior to discharging into the Commission’s MS4.",
+      "page_or_section": "PDF p. 43 · found by QA search"
     }
   ],
   "extraction_quality": {

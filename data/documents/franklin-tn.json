@@ -58,6 +58,11 @@
       "field": "design_parameters.enrich_notes",
       "excerpt": "Typically these events are less than 1.1-inches of rainfall and that fact was used in preparing the selection, sizing, approach, and maintenance criteria presented in the BMP fact sheets.",
       "page_or_section": "1.2 Stormwater Quality and Quantity Management, page 1-2"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Permanent BMPs may include swales, sediment or detention ponds, and a variety of other features.",
+      "page_or_section": "PDF p. 7 · found by QA search"
     }
   ],
   "extraction_quality": {

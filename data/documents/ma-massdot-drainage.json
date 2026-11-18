@@ -122,6 +122,21 @@
       "field": "design_parameters.wetland_detention_hours",
       "excerpt": "Extended DetentionB Not Allowed 24 – 72 hoursC 24 – 72 hours 24 – 72 hoursC",
       "page_or_section": "Table 4-3 Constructed Stormwater Wetlands (page 113)"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "It covers green infrastructure such as bioretention designs, stormwater trees, and permeable pavement, and provides insight on innovative street design strategies.",
+      "page_or_section": "PDF p. 26 · found by QA search"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "Design the auxiliary outlet to safely pass the 100-year design event.",
+      "page_or_section": "PDF p. 139 · found by QA search"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "Both configurations are designed to safely bypass larger flows (e.g., 10-year storm).",
+      "page_or_section": "PDF p. 91 · found by QA search"
     }
   ],
   "extraction_quality": {

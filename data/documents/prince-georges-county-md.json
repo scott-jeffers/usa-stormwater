@@ -109,6 +109,16 @@
       "field": "design_parameters.bioretention_ponding_depth_inches",
       "excerpt": "Temporary storage of the ESDv may be provided above the facility with a surface ponding depth of 12 inches or less",
       "page_or_section": "Chapter 5, Micro-bioretention, page 245"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "Condition CN tc Runoff (Qa) 1 yr storm Q 1-year Q 2-year Q 10-year Q 100 year hours inches cfs cfs cfs cfs pre-developed 63 0.35 0.2 4.62 13.58 50.38 102.6 developed 78 0.19 0.8 35.0 54.94 129.96 216.30 Step 3c.",
+      "page_or_section": "PDF p. 55 · found by QA search"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "Table 2.1 Summary of the Statewide Stormwater Criteria Sizing Criteria Description of Stormwater Sizing Criteria Water Quality Volume (WQv) (acre-feet) WQv = [(P )(Rv )(A)] 12 P= rainfall depth in inches and is equal to 1.0” in the Eastern Rainfall Zone and 0.9” in the Western Rainfall Zone (Fig.",
+      "page_or_section": "PDF p. 39 · found by QA search"
     }
   ],
   "extraction_quality": {

@@ -86,6 +86,31 @@
       "field": "design_parameters.design_infiltration_rate_in_per_hr",
       "excerpt": "Note: These values are approximate references. If needed, contact the NHDOT Geotechnical Section for site specific design infiltration rates.",
       "page_or_section": "Table 0.a Hydrologic Soil Group Descriptions, 3-9"
+    },
+    {
+      "field": "design_criteria.required_hydrologic_hydraulic_software",
+      "excerpt": "Practice: Requiring models, such a HydroCAD, StormCAD, SMS, HEC RAS or HY8 should be submitted for review for timely reviews rather than just the results from print-outs in .pdf format.",
+      "page_or_section": "PDF p. 40 · found by QA search"
+    },
+    {
+      "field": "design_criteria.required_hydrologic_hydraulic_software",
+      "excerpt": "HEC- HMS and the NRCS TR-20 models are examples of deterministic models that are quasiempirical.",
+      "page_or_section": "PDF p. 144 · found by QA search"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "Storm sewers for depressed sections & underpasses Check for 50 yr.",
+      "page_or_section": "PDF p. 19 · found by QA search"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "Permanent slope drain systems are designed for the 10 yr. storm event.",
+      "page_or_section": "PDF p. 133 · found by QA search"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "Design flow for AOP is typically on the order of ~ 25% of the 2 yr. event.",
+      "page_or_section": "PDF p. 26 · found by QA search"
     }
   ],
   "extraction_quality": {

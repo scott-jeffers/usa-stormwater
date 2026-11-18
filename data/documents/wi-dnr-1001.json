@@ -81,6 +81,36 @@
       "field": "design_parameters.max_drawdown_hours",
       "excerpt": "Approximate Detention Basin Routing for Type II Storms",
       "page_or_section": "Appendix B, page 11 (routing curves only; no drawdown hours)"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "runoff curve numbers from TR-55 assuming “good hydrologic conditions.” e) For post-development calculations, use runoff curve numbers based on proposed plans.",
+      "page_or_section": "PDF p. 4 · found by QA search"
+    },
+    {
+      "field": "design_criteria.required_hydrologic_hydraulic_software",
+      "excerpt": "Pollutant loading models such as SLAMM, P8, DETPOND or equivalent methodology may also be used to evaluate the efficiency of the design in reducing TSS. lV.",
+      "page_or_section": "PDF p. 1 · found by QA search"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Wet Detention Pond (1001) Wisconsin Department of Natural Resources Technical Standard l.",
+      "page_or_section": "PDF p. 1 · found by QA search"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "Design so that the 10-yr., 24-hour design storm does not flow through the emergency spillway.",
+      "page_or_section": "PDF p. 8 · found by QA search"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "VR = Calculated volume of runoff from the 1-year, 24-hour design storm for the entire contributory area.",
+      "page_or_section": "PDF p. 3 · found by QA search"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "Identify buildings and other structures, parking lots, property lines, wells, wetlands, 100-year floodplains, surface Technical Standards are reviewed periodically and updated if needed.",
+      "page_or_section": "PDF p. 1 · found by QA search"
     }
   ],
   "extraction_quality": {

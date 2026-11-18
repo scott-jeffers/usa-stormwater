@@ -101,6 +101,36 @@
       "field": "design_parameters.fields_not_found.shwt_separation_inches",
       "excerpt": "water table elevations",
       "page_or_section": "Appendix A §1.5 / Table A-3, page 139"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "For instance the City of New Orleans specifies the 10-year, 24-hour rainfall event.",
+      "page_or_section": "PDF p. 95 · found by QA search"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "Storm events that exceed the 100-year design storm will exit the basin over an emergency spillway.",
+      "page_or_section": "PDF p. 88 · found by QA search"
+    },
+    {
+      "field": "design_criteria.water_quality_volume_method",
+      "excerpt": "The determination of the design storm depth for volume-based BMPs can be computed from the water quality storage volume (treatment plus retention) as follows: d = V × 12 in/ft/[C × A × 43560 sf/ac] Equation 4-1 Where: d = storm depth (inches) V = total water quality design volume (cu-ft) C = drainage area runoff coefficient = 0.05 + 0.9 × imp Bayou Land RC&D 4-5 October 2010",
+      "page_or_section": "PDF p. 95 · found by QA search"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "Design flow rates are typically determined using unit hydrograph, rational method, or SCS curve number approaches for computing peak flow rates from the drainage area.",
+      "page_or_section": "PDF p. 96 · found by QA search"
+    },
+    {
+      "field": "design_criteria.peak_flow_calculation_method",
+      "excerpt": "Continuous simulation methods have their own strengths and limitations.",
+      "page_or_section": "PDF p. 99 · found by QA search"
+    },
+    {
+      "field": "design_criteria.approved_bmp_categories",
+      "excerpt": "Bayou Land RC&D 5-14 October 2010 Figure 5-5: Office Building Site Design Example",
+      "page_or_section": "PDF p. 123 · found by QA search"
     }
   ],
   "extraction_quality": {

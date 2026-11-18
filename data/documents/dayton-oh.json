@@ -74,6 +74,16 @@
       "field": "design_parameters.practice_mentions.wet_pond",
       "excerpt": "retention basins containing permanent lakes should have a water area of at least one-half acre",
       "page_or_section": "Section 5.4 C.1, page 7"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "The hydraulic grade line for culverts shall be 12” below pavement elevation for a 25-year storm and shall not exceed the pavement elevation for a 100-year storm.",
+      "page_or_section": "PDF p. 2 · found by QA search"
+    },
+    {
+      "field": "design_criteria.design_storm_return_periods_years",
+      "excerpt": "Control the post-development storms of a frequency between one-year and the critical storm determined in (b), so as to be equal to, or less than, the predevelopment peak runoff rate for a 24-hour, 1-year frequency storm. d.",
+      "page_or_section": "PDF p. 3 · found by QA search"
     }
   ],
   "extraction_quality": {
