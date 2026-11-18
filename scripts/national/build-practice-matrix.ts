@@ -30,10 +30,13 @@ import {
   type PracticeNumericStat,
 } from "../../lib/practices/types";
 import type { StormwaterData } from "../../lib/schema";
+import { checkParameterValue } from "../../lib/qa/load";
 
 function parseArgs(argv: string[]) {
   let practice = "bioretention";
   let tierAOnly = true;
+  // statistics use only values whose quote passed the strict citation check
+  let verifiedOnly = true;
   for (let i = 0; i < argv.length; i++) {
     const a = argv[i]!;
     if ((a === "--practice" || a === "-p") && argv[i + 1]) {
@@ -44,9 +47,11 @@ function parseArgs(argv: string[]) {
       tierAOnly = false;
     } else if (a === "--tier-a") {
       tierAOnly = true;
+    } else if (a === "--all-values") {
+      verifiedOnly = false;
     }
   }
-  return { practice, tierAOnly };
+  return { practice, tierAOnly, verifiedOnly };
 }
 
 function excerptForField(
@@ -111,6 +116,11 @@ async function main() {
   notes.push(
     "Numeric consensus uses mode/range of extracted values — not an adopted national standard."
   );
+  if (opts.verifiedOnly) {
+    notes.push(
+      "Statistics count only values whose supporting quote was found in the source manual and states the value (strict citation check)."
+    );
+  }
   notes.push(
     "Site-wide fields (WQv, drawdown, SHWT) are jurisdiction sizing context, not practice facility specs."
   );
@@ -144,11 +154,14 @@ async function main() {
         value,
         chapter_proxy: isChapterProxy(m.slug),
         excerpt: excerptForField(m.data, field.field),
+        verified: checkParameterValue(m.slug, field.field, m.data.evidence) === "verified",
       });
     }
 
     // Prefer non-proxy values for stats
-    const scoredCells = cells.filter((c) => c.value != null);
+    const scoredCells = cells.filter(
+      (c) => c.value != null && (!opts.verifiedOnly || c.verified)
+    );
     const nonProxy = scoredCells.filter((c) => !c.chapter_proxy);
     const forStats = nonProxy.length ? nonProxy : scoredCells;
     const stat = buildStat(field, cells, missing);

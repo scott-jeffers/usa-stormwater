@@ -2,85 +2,42 @@
   "version": 1,
   "practice_key": "green_roof",
   "practice_label": "Green Roof",
-  "generated_at": "2026-08-13T10:41:17.519Z",
-  "model": "composer-2.5:run-5bacbade-0e1c-45db-ae8e-eb3feec035ee",
+  "generated_at": "2026-11-18T14:03:40.665Z",
+  "model": "heuristic",
   "editorial_status": "draft",
-  "national_baseline": "Among Tier A manuals that mention green roofs (36 of 76 scanned), numeric guidance for green-roof-specific facility parameters is sparse: media depth appears in only two jurisdictions (both 3 inches), and maximum slope in only three (2–25 percent, with mode 2 percent). Jurisdiction-wide water-quality volume depth where cited clusters around 1 inch (n=30, mode=1, median=1, range 0.37–1.61 inches)—context for site sizing, not a green-roof media specification. Site-wide maximum drawdown times are commonly 48–72 hours (n=36, mode=72, median=48, range 4–120 hours). Seasonal high water table separation where stated is often 24–36 inches (n=36, mode=24, median=36, range 12–120 inches), again as general groundwater context rather than a roof assembly detail. For temperate, Type II–style assumptions, committees should treat green roof design as qualitatively supported in many manuals but numerically anchored mainly by broad jurisdictional stormwater sizing defaults until more manuals publish explicit roof-specific depths, slopes, and drawdown expectations.",
+  "national_baseline": "National baseline for Green Roof (practice synthesis — not adopted regulation). Where green-roof media depth is specified (n=2), values cluster around 3 inches (range 3 inches–3 inches). Where green-roof slope is specified (n=3), values cluster around 2 percent (range 2 percent–25 percent). Associated site water-quality depth (not practice-specific) in the same manuals (n=28) range 0.37 inches–1.61 inches (mode 1 inches) — site-wide sizing context, not a green roof-only rule. Associated max drawdown / dewatering time in the same manuals (n=36) range 4 hours–120 hours (mode 72 hours) — site-wide sizing context, not a green roof-only rule. Associated SHWT separation in the same manuals (n=31) range 12 inches–120 inches (mode 24 inches) — site-wide sizing context, not a green roof-only rule. Use the controlling jurisdiction manual for project design. Prefer retention/runoff reduction where soils and groundwater allow.",
   "regional_modifiers": [
     {
       "id": "cold_climate",
-      "title": "Cold climate and freeze–thaw",
-      "text": "Northern and cold-state manuals still cite site-wide drawdown and SHWT values (e.g., ME 48 h drawdown and 12 in SHWT; MN 36 in SHWT; VT 48 h drawdown and 36 in SHWT; MI Detroit 24 in SHWT) without establishing green-roof media depth or slope beyond the sparse national sample. AK lists 25 percent maximum slope—among the few explicit slope values. Cold-climate committees should not infer insulation, drainage layer, or anti-icing requirements from these site-wide numbers alone.",
-      "states": [
-        "AK",
-        "ME",
-        "MI",
-        "MN",
-        "VT"
-      ],
-      "citation_slugs": [
-        "ak-state",
-        "maine-manual",
-        "detroit-mi",
-        "minneapolis-mn",
-        "mn-state-2008",
-        "vt-state"
-      ]
+      "title": "Cold climate / freeze-thaw",
+      "text": "Cold-climate manuals often adjust underdrain depth, planting, and winter maintenance for freeze-thaw. Verify frost-line and snowmelt criteria in the controlling manual.",
+      "states": [],
+      "citation_slugs": []
     },
     {
       "id": "coastal_high_wt",
-      "title": "Coastal and high water table",
-      "text": "Coastal and humid jurisdictions often specify tighter SHWT separation (e.g., VA Chesapeake 12 in; NC Raleigh 12 in; ME 12 in) or longer drawdown in some Gulf and South Atlantic contexts (MS 120 h; FL Tier 1 4 h as an outlier). TX Houston and MD state use 48 in SHWT. These values reflect local groundwater and sizing programs, not verified green-roof profile depths; coastal modifiers should emphasize verifying structural loading, wind uplift, and salt exposure separately from matrix SHWT modes.",
-      "states": [
-        "VA",
-        "NC",
-        "ME",
-        "MS",
-        "FL",
-        "TX",
-        "MD"
-      ],
-      "citation_slugs": [
-        "chesapeake-va",
-        "raleigh-nc",
-        "maine-manual",
-        "ms-state-vol2",
-        "fl-fsesci-tier1",
-        "houston-tx",
-        "md-state"
-      ]
-    },
-    {
-      "id": "arid_west",
-      "title": "Arid and semi-arid West",
-      "text": "Arid jurisdictions show wider spread in site-wide WQv depth (NV Las Vegas 0.37 in; AZ Flagstaff 1 in; CO Denver 0.6 in) and drawdown (AZ Flagstaff 24 h; NV 72 h). NM Albuquerque cites 96 h drawdown and 36 in SHWT. None of these establish green-roof media depth beyond the two-manual 3 in consensus nationally; arid design discussion should stress irrigation, fire, and evapotranspiration limits rather than extrapolating from low WQv depth entries.",
-      "states": [
-        "NV",
-        "AZ",
-        "CO",
-        "NM"
-      ],
-      "citation_slugs": [
-        "las-vegas-nv",
-        "flagstaff-az",
-        "denver-co",
-        "albuquerque-nm-gsi"
-      ]
+      "title": "Coastal / high water table",
+      "text": "Coastal and high-water-table settings may reduce infiltration credit and require underdrains or impermeable liners. Use SHWT separation values from the matrix when present; otherwise defer to local criteria.",
+      "states": [],
+      "citation_slugs": []
     },
     {
       "id": "karst",
-      "title": "Karst and sensitive groundwater",
-      "text": "The matrix includes TX Edwards (tx-edwards-rg348) with 48 in SHWT separation alongside other site-wide values; no additional green-roof-specific karst separation or infiltration prohibition is numerically extracted in this Tier A set. Karst modifiers should note that baseline green-roof numeric specs are not yet established for karst beyond general SHWT context.",
-      "states": [
-        "TX"
-      ],
-      "citation_slugs": [
-        "tx-edwards-rg348"
-      ]
+      "title": "Karst / bedrock",
+      "text": "Karst and shallow-bedrock settings often require lined facilities or prohibit untreated infiltration. Do not assume unlined infiltration from national defaults.",
+      "states": [],
+      "citation_slugs": []
+    },
+    {
+      "id": "arid",
+      "title": "Arid / semi-arid",
+      "text": "Arid-region manuals may use larger capture depths, different planting palettes, and tighter water budgets. Confirm media specs and irrigation constraints locally.",
+      "states": [],
+      "citation_slugs": []
     }
   ],
-  "open_issues": "Green-roof-specific numeric baseline is not yet established: media depth is documented in only two manuals (both 3 inches, n=2); maximum slope appears in only three (2–25 percent, n=3). Forty-five of 76 Tier A manuals lack extracted WQv depth, and 34 of 36 green-roof-mentioning manuals lack media depth—so committees cannot treat mode values as national design standards. Site-wide WQv, drawdown, and SHWT fields must not be read as green-roof layer thickness or roof drain time without manual-specific green roof chapters. Wide drawdown range (4–120 hours) and SHWT range (12–120 inches) include chapter proxies and pond-oriented language that may not apply to extensive roofs. Tier A coverage is mention-weighted (36/76) rather than design-parameter-complete for this practice.",
-  "matrix_summary": "In Tier A manuals mentioning green_roof (36/76), site-wide WQv depth (n=30) modes at 1 inch (0.37–1.61 in); site-wide max drawdown (n=36) modes at 72 h with median 48 h (4–120 h); site-wide SHWT separation (n=36) modes at 24 in with median 36 in (12–120 in). Practice-specific green_roof_media_depth_inches is n=2 (3 in only); green_roof_slope_percent is n=3 (mode 2%, range 2–25%). These counts describe extracted numeric consensus, not an adopted national standard.",
+  "open_issues": "Too few parameterized green roof values — re-run Cursor enrich-parameters, then rebuild the matrix.",
+  "matrix_summary": "Scoped to Tier A manuals only. 36 of 76 manuals mention practice_key=green_roof (design_parameters.practice_mentions or BMP text). Numeric consensus uses mode/range of extracted values — not an adopted national standard. Statistics count only values whose supporting quote was found in the source manual and states the value (strict citation check). Site-wide fields (WQv, drawdown, SHWT) are jurisdiction sizing context, not practice facility specs. wqv_depth_inches [site-wide]: n=28 mode=1 range=0.37–1.61 (missing=45 in pool of 76) max_drawdown_hours [site-wide]: n=36 mode=72 range=4–120 (missing=38 in pool of 76) shwt_separation_inches [site-wide]: n=31 mode=24 range=12–120 (missing=38 in pool of 76) green_roof_media_depth_inches: n=2 mode=3 range=3–3 (missing=34 in pool of 36) green_roof_slope_percent: n=3 mode=2 range=2–25 (missing=33 in pool of 36)",
   "supporting_slugs": [
     "ak-state",
     "arkansas-manual",

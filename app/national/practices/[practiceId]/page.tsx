@@ -74,7 +74,11 @@ export default async function PracticePage({
         </h1>
         <p className="text-sm text-fg-muted">
           Generated {new Date(synth.generated_at).toLocaleDateString("en-US", { timeZone: "UTC", dateStyle: "medium" })}
-          {synth.model ? ` · AI-drafted from the matrix below (${synth.model.split(":")[0]})` : ""}
+          {synth.model?.startsWith("heuristic")
+            ? " · Summary written automatically from the verified values below"
+            : synth.model
+              ? ` · AI-drafted from the matrix below (${synth.model.split(":")[0]})`
+              : ""}
         </p>
       </div>
 

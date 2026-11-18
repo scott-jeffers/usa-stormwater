@@ -105,7 +105,7 @@ function heuristicSynthesis(matrix: PracticeMatrix): PracticeSynthesis {
     for (const f of practiceFields) {
       if (f.count > 0 && f.mode != null) {
         baselineParts.push(
-          `Where ${f.label.toLowerCase()} is specified (n=${f.count}), values cluster around ${f.mode} ${f.unit} (range ${f.min}–${f.max} ${f.unit}).`
+          `Where ${lowerFirst(f.label)} is specified (n=${f.count}), values cluster around ${fmt(f.mode, f.unit)} (range ${fmt(f.min, f.unit)}–${fmt(f.max, f.unit)}).`
         );
       }
     }
@@ -114,7 +114,7 @@ function heuristicSynthesis(matrix: PracticeMatrix): PracticeSynthesis {
   for (const f of siteFields) {
     if (f.count > 0 && f.mode != null) {
       baselineParts.push(
-        `Associated ${f.label.toLowerCase()} in the same manuals (n=${f.count}) range ${f.min}–${f.max} ${f.unit} (mode ${f.mode}) — site-wide sizing context, not a ${matrix.practice_label.toLowerCase()}-only rule.`
+        `Associated ${lowerFirst(f.label)} in the same manuals (n=${f.count}) range ${fmt(f.min, f.unit)}–${fmt(f.max, f.unit)} (mode ${fmt(f.mode, f.unit)}) — site-wide sizing context, not a ${matrix.practice_label.toLowerCase()}-only rule.`
       );
     }
   }
@@ -194,6 +194,17 @@ function heuristicSynthesis(matrix: PracticeMatrix): PracticeSynthesis {
     matrix_summary: matrix.notes.join(" "),
     supporting_slugs: [...new Set(matrix.mentioning_slugs.slice(0, 40))],
   });
+}
+
+/** 2 + "ratio" → "2:1"; 24 + "inches" → "24 inches". */
+function fmt(v: number | null, unit: string): string {
+  if (v == null) return "n/a";
+  return unit === "ratio" ? `${v}:1` : `${v} ${unit}`;
+}
+
+/** "SHWT separation" stays as is; "Max drawdown" → "max drawdown". */
+function lowerFirst(label: string): string {
+  return /^[A-Z]{2}/.test(label) ? label : label.charAt(0).toLowerCase() + label.slice(1);
 }
 
 async function llmSynthesis(matrix: PracticeMatrix): Promise<PracticeSynthesis> {

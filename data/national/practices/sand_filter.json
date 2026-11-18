@@ -2,88 +2,72 @@
   "version": 1,
   "practice_key": "sand_filter",
   "practice_label": "Sand Filter",
-  "generated_at": "2026-08-13T10:43:41.480Z",
-  "model": "composer-2.5:run-a6e80882-948a-4131-bd23-27275278efcb",
+  "generated_at": "2026-11-18T14:03:44.890Z",
+  "model": "heuristic",
   "editorial_status": "draft",
-  "national_baseline": "Among Tier A manuals that mention sand filters, numeric guidance is often tied to site-wide water-quality volume (WQv), drawdown, and seasonal high water table (SHWT) separation rather than sand-bed thickness or underdrain details stated uniformly for the practice. Where WQV depth is specified (n=30), the mode is 1 inch with a median of 1 inch and a range of 0.37–1.61 inches—typical of temperate jurisdictions using roughly 1 inch of runoff capture for sizing context. Maximum ponding or facility drawdown limits appear in 36 manuals with a mode of 72 hours, median 48 hours, and range 4–120 hours; 48- and 72-hour values are common in eastern and midwestern sources, while shorter limits (e.g., 24–30 hours) show up in several western and some eastern programs. SHWT separation (n=36) has a mode of 24 inches, median 36 inches, and range 12–120 inches, reflecting wide geologic and programmatic variation rather than a single national sand-filter invert rule. Sand filter is referenced in 46 of 76 scanned Tier A manuals; extracted numerics describe jurisdiction sizing context, not a consolidated national sand-filter cross-section standard.",
+  "national_baseline": "National baseline for Sand Filter (practice synthesis — not adopted regulation). Practice-specific numeric criteria are not yet parameterized for enough manuals to state a numeric national baseline for Sand Filter; cite local criteria. Associated site water-quality depth (not practice-specific) in the same manuals (n=28) range 0.37 inches–1.61 inches (mode 1 inches) — site-wide sizing context, not a sand filter-only rule. Associated max drawdown / dewatering time in the same manuals (n=36) range 4 hours–120 hours (mode 72 hours) — site-wide sizing context, not a sand filter-only rule. Associated SHWT separation in the same manuals (n=31) range 12 inches–120 inches (mode 24 inches) — site-wide sizing context, not a sand filter-only rule. Use the controlling jurisdiction manual for project design. Prefer retention/runoff reduction where soils and groundwater allow.",
   "regional_modifiers": [
     {
       "id": "cold_climate",
-      "title": "Cold climate and frost",
-      "text": "Northern and mountain jurisdictions often pair sand-filter discussion with longer drawdown allowances or moderate SHWT separations. Examples in the matrix include Minnesota (WQv 1.25 inches, drawdown 48 hours, SHWT 36 inches), Maine (WQv 1 inch, drawdown 48 hours, SHWT 12 inches), Montana (drawdown 72 hours, SHWT 36 or 12 inches depending on source), and Vermont (WQv 1 inch, drawdown 48 hours, SHWT 36 inches). These values sit within the overall ranges and do not establish a separate cold-climate numeric baseline for sand filter media depth.",
+      "title": "Cold climate / freeze-thaw",
+      "text": "Cold-climate manuals often adjust underdrain depth, planting, and winter maintenance for freeze-thaw. Verify frost-line and snowmelt criteria in the controlling manual.",
       "states": [
         "ME",
+        "MI",
         "MN",
-        "MT",
+        "NH",
         "VT"
       ],
       "citation_slugs": [
+        "detroit-mi",
         "maine-manual",
+        "michigan-manual",
         "minneapolis-mn",
-        "mn-state-2008",
-        "billings-mt",
-        "mt-deq8",
+        "nh-state",
         "vt-state"
       ]
     },
     {
-      "id": "coastal_high_shwt",
-      "title": "Coastal plains and high water table",
-      "text": "Where manuals specify relatively shallow SHWT separation, sand filters and infiltration-related practices are often constrained by clearance to groundwater. Matrix entries at 12 inches include Chesapeake, Virginia; Raleigh, North Carolina; Maine; Montana DEQ; and New Jersey (chapter proxy). Mid-Atlantic and Gulf examples also use 24–48 inches (e.g., Houston 48 inches, Maryland state 48 inches). These site-wide separations inform feasibility and invert setting; they are not practice-specific filter bed depths.",
+      "id": "coastal_high_wt",
+      "title": "Coastal / high water table",
+      "text": "Coastal and high-water-table settings may reduce infiltration credit and require underdrains or impermeable liners. Use SHWT separation values from the matrix when present; otherwise defer to local criteria.",
       "states": [
-        "VA",
+        "HI",
         "NC",
-        "ME",
-        "MT",
-        "NJ",
-        "TX",
-        "MD"
+        "TX"
       ],
       "citation_slugs": [
-        "chesapeake-va",
-        "raleigh-nc",
-        "maine-manual",
-        "mt-deq8",
-        "nj-state",
+        "dallas-tx",
+        "hawaii-dot-pcbmp",
         "houston-tx",
-        "md-state"
+        "nc-state"
       ]
     },
     {
       "id": "karst",
-      "title": "Karst and sensitive groundwater",
-      "text": "Karst-related guidance in the matrix is sparse for sand filter as a distinct practice. Texas Edwards RG-348 lists SHWT separation of 48 inches among site-wide parameters where sand filter may be discussed alongside other BMPs. A karst-specific numeric baseline for sand filter design is not yet established from Tier A extractions alone.",
-      "states": [
-        "TX"
-      ],
-      "citation_slugs": [
-        "tx-edwards-rg348"
-      ]
+      "title": "Karst / bedrock",
+      "text": "Karst and shallow-bedrock settings often require lined facilities or prohibit untreated infiltration. Do not assume unlined infiltration from national defaults.",
+      "states": [],
+      "citation_slugs": []
     },
     {
       "id": "arid",
-      "title": "Arid and semi-arid",
-      "text": "Arid jurisdictions show wider spread on WQV depth and drawdown. Las Vegas lists WQV 0.37 inches and drawdown 72 hours with SHWT 24 inches; Flagstaff uses WQV 1 inch, drawdown 24 hours; Albuquerque GSI specifies drawdown 96 hours and SHWT 36 inches. Denver (WQv 0.6 inches) and Los Angeles / Caltrans-related entries (72–96 hours drawdown) further illustrate low-rainfall sizing context rather than a unified arid sand-filter spec.",
+      "title": "Arid / semi-arid",
+      "text": "Arid-region manuals may use larger capture depths, different planting palettes, and tighter water budgets. Confirm media specs and irrigation constraints locally.",
       "states": [
-        "NV",
         "AZ",
-        "NM",
         "CO",
-        "CA"
+        "NV"
       ],
       "citation_slugs": [
-        "las-vegas-nv",
-        "flagstaff-az",
-        "albuquerque-nm-gsi",
         "denver-co",
-        "los-angeles-ca",
-        "ca-casqa-municipal",
-        "ca-caltrans-construction"
+        "flagstaff-az",
+        "las-vegas-nv"
       ]
     }
   ],
-  "open_issues": "Nearly half of scanned Tier A manuals lack extracted values for each site-wide field (WQv depth missing in 45 of 76; drawdown and SHWT missing in 38 of 76), so consensus reflects mentioning jurisdictions, not full national coverage. Extracted numbers are labeled site-wide and may come from general BMP or pond chapters rather than sand-filter-specific sections—committee discussion should not treat them as adopted filter media depth, underdrain detail, or maintenance frequency. No matrix fields capture sand bed thickness, filtration rate, underdrain spacing, or pretreatment requirements; practice-specific numerics for sand filter are not yet established. Extreme drawdown values (e.g., 4 hours in Florida FSESCI Tier 1, 120 hours in Mississippi) and SHWT up to 120 inches (San Diego) widen ranges without clear tie to sand filter alone. Tier A-only scope excludes Tier B manuals that may contain additional sand filter detail.",
-  "matrix_summary": "For sand filter–mentioning Tier A manuals, WQV depth (n=30) modes at 1 inch (median 1, range 0.37–1.61); max drawdown hours (n=36) modes at 72 (median 48, range 4–120); SHWT separation (n=36) modes at 24 inches (median 36, range 12–120)—all as site-wide jurisdiction context, with substantial missing data across the 76-manual pool.",
+  "open_issues": "Too few parameterized sand filter values — re-run Cursor enrich-parameters, then rebuild the matrix.",
+  "matrix_summary": "Scoped to Tier A manuals only. 46 of 76 manuals mention practice_key=sand_filter (design_parameters.practice_mentions or BMP text). Numeric consensus uses mode/range of extracted values — not an adopted national standard. Statistics count only values whose supporting quote was found in the source manual and states the value (strict citation check). Site-wide fields (WQv, drawdown, SHWT) are jurisdiction sizing context, not practice facility specs. wqv_depth_inches [site-wide]: n=28 mode=1 range=0.37–1.61 (missing=45 in pool of 76) max_drawdown_hours [site-wide]: n=36 mode=72 range=4–120 (missing=38 in pool of 76) shwt_separation_inches [site-wide]: n=31 mode=24 range=12–120 (missing=38 in pool of 76)",
   "supporting_slugs": [
     "ak-state",
     "arkansas-manual",

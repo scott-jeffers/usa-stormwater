@@ -9,6 +9,8 @@ export const practiceMatrixCellSchema = z.object({
   jurisdiction_name: z.string(),
   value: z.number().nullable(),
   chapter_proxy: z.boolean().optional(),
+  /** Quote for this value found in the source and stating it (strict QA). */
+  verified: z.boolean().optional(),
   excerpt: z.string().nullable().optional(),
 });
 
