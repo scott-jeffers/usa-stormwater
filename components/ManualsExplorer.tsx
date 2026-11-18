@@ -301,29 +301,18 @@ export function ManualsExplorer({ manuals }: { manuals: ManualListItem[] }) {
 
   return (
     <div className="space-y-4">
-      <CoverageMap
-        counts={countsByState}
-        selectedState={stateFilter}
-        onSelectState={(code) => {
-          setStateFilter(code);
-          setSearch("");
-          setLevelFilter("all");
-        }}
-        localities={localityMarkers}
-      />
-
       <div className="rounded-xl border border-edge/80 bg-surface p-4 shadow-sm">
         <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-4">
           <div className="sm:col-span-2 lg:col-span-2">
             <label htmlFor="filter-search" className="mb-1 block text-xs font-medium text-fg-muted">
-              Search
+              Find a jurisdiction
             </label>
             <input id="filter-search"
-              type="text"
+              type="search"
               value={search}
               onChange={(e) => setSearch(e.target.value)}
-              placeholder="Jurisdiction or document title..."
-              className={CONTROL}
+              placeholder="City, county, state or manual title"
+              className="h-11 w-full rounded-md border border-edge-strong bg-surface px-3 text-base text-foreground focus:border-water focus:outline-none focus:ring-2 focus:ring-water/20"
             />
           </div>
 
@@ -452,6 +441,20 @@ export function ManualsExplorer({ manuals }: { manuals: ManualListItem[] }) {
           </div>
         </div>
       </div>
+
+      {/* the map is a way in, not the answer: it steps aside while someone searches */}
+      {!search.trim() && (
+        <CoverageMap
+          counts={countsByState}
+          selectedState={stateFilter}
+          onSelectState={(code) => {
+            setStateFilter(code);
+            setSearch("");
+            setLevelFilter("all");
+          }}
+          localities={localityMarkers}
+        />
+      )}
 
       {sorted.length === 0 ? (
         <div className="rounded-xl border border-dashed border-edge-strong bg-surface p-10 text-center text-fg-muted">

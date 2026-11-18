@@ -98,6 +98,24 @@ export function NationalDraftExplorer({
       </div>
 
       <Link
+        href="/national/model-manual/"
+        className="block rounded-xl border border-water/40 bg-surface px-4 py-3 shadow-sm transition hover:border-water hover:bg-mist/40"
+      >
+        <div className="flex flex-wrap items-baseline justify-between gap-2">
+          <h2 className="font-display text-base font-semibold text-ink sm:text-lg">
+            Draft national model manual
+          </h2>
+          <span className="rounded-full bg-amber-50 px-2 py-0.5 text-xs font-medium text-amber-900 ring-1 ring-inset ring-amber-700/15 dark:bg-amber-950/50 dark:text-amber-200 dark:ring-amber-400/20">
+            Proposal
+          </span>
+        </div>
+        <p className="mt-1 text-sm leading-relaxed text-fg-secondary">
+          Seven baseline provisions a state could adopt by reference, each with the hand-checked,
+          state-by-state evidence behind it.
+        </p>
+      </Link>
+
+      <Link
         href="/national/practices/"
         className="block rounded-xl border border-edge/80 bg-surface px-4 py-3 shadow-sm transition hover:border-water/40 hover:bg-mist/40"
       >
@@ -117,11 +135,9 @@ export function NationalDraftExplorer({
           </div>
         </div>
         <p className="mt-1 text-sm leading-relaxed text-fg-secondary">
-          National baseline and regional modifiers for bioretention, permeable
-          pavement, swales, wet ponds, and related controls — cross-state
-          criteria matrices from atlas parameters.
+          What state and local manuals require for bioretention, permeable
+          pavement, swales, wet ponds and related practices, compared across states.
         </p>
-        <p className="mt-1 font-mono text-[11px] text-fg-subtle">practices</p>
       </Link>
 
       <div className="sticky top-0 z-10 -mx-1 space-y-3 bg-mist/90 px-1 py-3 backdrop-blur-sm">
@@ -197,20 +213,8 @@ export function NationalDraftExplorer({
               </div>
               {section.prevalence != null && (
                 <div className="mt-2 flex items-center gap-2">
-                  <div
-                    className="h-1.5 max-w-[12rem] flex-1 overflow-hidden rounded-full bg-surface-muted"
-                    role="img"
-                    aria-label={`Topic prevalence ${(section.prevalence * 100).toFixed(0)} percent`}
-                  >
-                    <span
-                      className="block h-full bg-water/70"
-                      style={{
-                        width: `${Math.round(section.prevalence * 100)}%`,
-                      }}
-                    />
-                  </div>
                   <span className="text-xs text-fg-muted">
-                    {(section.prevalence * 100).toFixed(0)}% tagged
+                    Covered in {(section.prevalence * 100).toFixed(0)}% of manuals
                   </span>
                 </div>
               )}
@@ -219,9 +223,6 @@ export function NationalDraftExplorer({
                   {section.summary}
                 </p>
               )}
-              <p className="mt-1 font-mono text-[11px] text-fg-subtle">
-                {section.id}
-              </p>
             </Link>
           </li>
         ))}

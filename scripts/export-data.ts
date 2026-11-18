@@ -286,6 +286,11 @@ async function main() {
   }
 
   const practicesSrc = path.resolve(process.cwd(), "data/national/practices");
+  // model-manual evidence (hand checks + classification)
+  for (const f of ["criteria-classification.json", "hand-checks.json"]) {
+    const src = path.resolve(process.cwd(), "data/national", f);
+    if (existsSync(src)) await writeFile(path.join(NATIONAL_DIR, f), readFileSync(src, "utf-8"), "utf8");
+  }
   const practicesOut = path.join(NATIONAL_DIR, "practices");
   let practiceCount = 0;
   if (existsSync(practicesSrc)) {

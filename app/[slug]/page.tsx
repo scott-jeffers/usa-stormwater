@@ -6,10 +6,8 @@ import { notFound } from "next/navigation";
 import { getAllManuals, getManualBySlug, revisionDateFromMetadata } from "@/lib/data";
 import { STATE_CODE_TO_NAME } from "@/lib/usStates";
 import {
-  ConfidenceBadge,
   LevelBadge,
   LEVEL_LABELS,
-  NeedsReviewBadge,
   StateBadge,
   VerifyBadge,
   AgencyBadge,
@@ -231,8 +229,6 @@ export default async function ManualDetailPage({
               <LevelBadge level={meta.jurisdiction_level} />
               <AgencyBadge category={agencyCategory} />
               <StateBadge stateCode={meta.state_code} showName />
-              <ConfidenceBadge confidence={quality.confidence} withLabel />
-              <NeedsReviewBadge needsReview={quality.needs_human_review} />
               <VerifyBadge status={shownStatus} mismatchCount={failedQa.length} />
               {shared && shared.basis !== "issuer" && (
                 <span
@@ -394,22 +390,22 @@ export default async function ManualDetailPage({
           </div>
         )}
 
-        {quality.needs_human_review && (
-          <div className="mt-4 rounded-md border border-orange-200 bg-orange-50 p-3 text-sm text-orange-800 dark:border-orange-500/30 dark:bg-orange-950/40 dark:text-orange-100">
-            <p className="font-medium">
-              This extraction is flagged for quality review.
-            </p>
-            <p className="mt-1 text-orange-800/90 dark:text-orange-200/90">
-              Compare each cited field to the official PDF before relying on it.{" "}
-              <Link href="/about/#needs-review" className="font-medium underline">
-                What this means
-              </Link>
-            </p>
-            {quality.review_notes && (
-              <p className="mt-2">{quality.review_notes}</p>
-            )}
-          </div>
-        )}
+        <div className="mt-4 text-xs leading-relaxed text-fg-muted">
+          <p>
+            Automated extraction, {quality.confidence} confidence
+            {quality.needs_human_review ? ", not yet reviewed by a person" : ""}. Check each quote
+            against the PDF before relying on a value.{" "}
+            <Link href="/about/#needs-review" className="font-medium underline hover:text-water-link">
+              What this means
+            </Link>
+          </p>
+          {quality.review_notes && (
+            <details className="mt-1">
+              <summary className="cursor-pointer text-fg-subtle hover:text-fg-secondary">Extraction notes</summary>
+              <p className="mt-1">{quality.review_notes}</p>
+            </details>
+          )}
+        </div>
 
         {designEv.fieldsNotFound.length > 0 && (
           <div className="mt-3 text-xs text-fg-muted">
@@ -455,48 +451,6 @@ export default async function ManualDetailPage({
           </div>
         )}
       </header>
-
-      <section className="rounded-xl border border-edge/80 bg-surface p-6 shadow-sm">
-        <h2 className="font-display text-lg font-semibold text-ink">Document Metadata</h2>
-        <div className="mt-2">
-          <FieldWithEvidence
-            label="Jurisdiction level"
-            fieldPath="document_metadata.jurisdiction_level"
-            value={LEVEL_LABELS[meta.jurisdiction_level]}
-            {...ev}
-          />
-          <FieldWithEvidence
-            label="State"
-            fieldPath="document_metadata.state_code"
-            value={meta.state_code ? STATE_CODE_TO_NAME[meta.state_code] ?? meta.state_code : null}
-            {...ev}
-          />
-          <FieldWithEvidence
-            label="Version / edition"
-            fieldPath="document_metadata.version_or_edition"
-            value={meta.version_or_edition}
-            {...ev}
-          />
-          <FieldWithEvidence
-            label="Adoption / effective date"
-            fieldPath="document_metadata.adoption_or_effective_date"
-            value={meta.adoption_or_effective_date}
-            {...ev}
-          />
-          <FieldWithEvidence
-            label="Last revised date"
-            fieldPath="document_metadata.last_revised_date"
-            value={meta.last_revised_date}
-            {...ev}
-          />
-          <FieldWithEvidence
-            label="Relationship to state manual"
-            fieldPath="document_metadata.relationship_to_state_manual"
-            value={<span className="capitalize">{meta.relationship_to_state_manual.replace(/_/g, " ")}</span>}
-            {...ev}
-          />
-        </div>
-      </section>
 
       <section className="rounded-xl border border-edge/80 bg-surface p-6 shadow-sm">
         <h2 className="font-display text-lg font-semibold text-ink">Design Criteria</h2>
@@ -582,6 +536,52 @@ export default async function ManualDetailPage({
           </div>
         </section>
       )}
+
+      <details className="group rounded-xl border border-edge/80 bg-surface p-6 shadow-sm">
+        <summary className="cursor-pointer list-none font-display text-lg font-semibold text-ink">
+          <span aria-hidden className="mr-2 inline-block transition-transform group-open:rotate-90">›</span>
+          Document details
+          <span className="ml-2 font-sans text-sm font-normal text-fg-subtle">level, edition, adoption date, relationship to the state manual</span>
+        </summary>
+        <div className="mt-2">
+          <FieldWithEvidence
+            label="Jurisdiction level"
+            fieldPath="document_metadata.jurisdiction_level"
+            value={LEVEL_LABELS[meta.jurisdiction_level]}
+            {...ev}
+          />
+          <FieldWithEvidence
+            label="State"
+            fieldPath="document_metadata.state_code"
+            value={meta.state_code ? STATE_CODE_TO_NAME[meta.state_code] ?? meta.state_code : null}
+            {...ev}
+          />
+          <FieldWithEvidence
+            label="Version / edition"
+            fieldPath="document_metadata.version_or_edition"
+            value={meta.version_or_edition}
+            {...ev}
+          />
+          <FieldWithEvidence
+            label="Adoption / effective date"
+            fieldPath="document_metadata.adoption_or_effective_date"
+            value={meta.adoption_or_effective_date}
+            {...ev}
+          />
+          <FieldWithEvidence
+            label="Last revised date"
+            fieldPath="document_metadata.last_revised_date"
+            value={meta.last_revised_date}
+            {...ev}
+          />
+          <FieldWithEvidence
+            label="Relationship to state manual"
+            fieldPath="document_metadata.relationship_to_state_manual"
+            value={<span className="capitalize">{meta.relationship_to_state_manual.replace(/_/g, " ")}</span>}
+            {...ev}
+          />
+        </div>
+      </details>
     </main>
   );
 }

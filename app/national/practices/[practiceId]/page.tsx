@@ -1,6 +1,7 @@
 import { pageMeta } from "@/lib/site";
 import type { Metadata } from "next";
 import Link from "next/link";
+import { ValueStrip, describeValues } from "@/components/ValueStrip";
 import { notFound } from "next/navigation";
 import {
   getAllPracticeSyntheses,
@@ -83,29 +84,24 @@ export default async function PracticePage({
       </div>
 
       <div className="rounded-xl border border-amber-200/80 bg-amber-50/80 px-4 py-3 text-sm text-amber-950 dark:border-amber-500/30 dark:bg-amber-950/40 dark:text-amber-100">
-        Provisional practice synthesis — not a design manual or adopted
-        regulation. Numbers come from atlas{" "}
-        <code className="text-xs">design_parameters</code>; verify against source
-        PDFs. Controlling state/local criteria apply when more stringent.
+        Research summary of what manuals require, not a design standard. Only values whose
+        quote was found in the source manual are counted. Your state or local manual controls.
       </div>
 
-      <section className="space-y-2">
-        <h2 className="font-display text-xl font-semibold text-ink">
-          National baseline
-        </h2>
-        <p className="whitespace-pre-wrap leading-relaxed text-fg-secondary">
-          {synth.national_baseline}
-        </p>
-      </section>
-
-      {synth.matrix_summary && (
+      {matrix && matrix.numeric_fields.some((f) => f.cells.some((c) => c.value != null && c.verified)) && (
         <section className="space-y-2">
-          <h2 className="font-display text-xl font-semibold text-ink">
-            Matrix summary
-          </h2>
-          <p className="whitespace-pre-wrap leading-relaxed text-fg-secondary">
-            {synth.matrix_summary}
-          </p>
+          <h2 className="font-display text-xl font-semibold text-ink">What manuals require</h2>
+          <ul className="list-disc space-y-1.5 pl-5 leading-relaxed text-fg-secondary">
+            {matrix.numeric_fields.map((f) => {
+              const vals = f.cells.filter((c) => c.value != null && c.verified).map((c) => c.value as number);
+              return vals.length ? <li key={f.field}>{describeValues(f.label, f.unit, vals, f.mode)}</li> : null;
+            })}
+          </ul>
+          <details className="text-sm text-fg-muted">
+            <summary className="cursor-pointer hover:text-fg-secondary">How these numbers were computed</summary>
+            <p className="mt-2 whitespace-pre-wrap leading-relaxed">{synth.national_baseline}</p>
+            {synth.matrix_summary && <p className="mt-2 whitespace-pre-wrap leading-relaxed">{synth.matrix_summary}</p>}
+          </details>
         </section>
       )}
 
@@ -121,33 +117,33 @@ export default async function PracticePage({
             >
               <div className="border-b border-edge px-4 py-3">
                 <h3 className="font-medium text-ink">{field.label}</h3>
-                <p className="text-xs text-fg-muted">
-                  {(() => {
-                    const shown = field.cells.filter((c) => c.value != null);
-                    const ok = shown.filter(
-                      (c) =>
-                        checkParameterValue(
-                          c.slug,
-                          field.field,
-                          getManualBySlug(c.slug)?.data.evidence ?? []
-                        ) === "verified"
-                    ).length;
-                    return `${ok} of ${shown.length} values verified · `;
-                  })()}
-                  n={field.count} · mode={field.mode ?? "—"} · median=
-                  {field.median ?? "—"} · range=
-                  {field.min != null && field.max != null
-                    ? `${field.min}–${field.max}`
-                    : "—"}{" "}
-                  {field.unit}
-                </p>
+                {(() => {
+                  const shown = field.cells.filter((c) => c.value != null);
+                  const ok = shown.filter((c) => c.verified);
+                  return (
+                    <>
+                      <p className="text-xs text-fg-muted">
+                        {ok.length} of {shown.length} values found in their source manual
+                        {field.min != null && field.max != null ? ` · ${field.min}–${field.max} ${field.unit}` : ""}
+                      </p>
+                      <ValueStrip
+                        label={field.label}
+                        unit={field.unit}
+                        mode={field.mode}
+                        values={ok.map((c) => ({ name: c.jurisdiction_name, value: c.value as number }))}
+                      />
+                    </>
+                  );
+                })()}
               </div>
+              <details className="group">
+              <summary className="cursor-pointer px-4 py-2 text-xs font-medium text-water-link hover:underline">Show the {field.cells.filter((c) => c.value != null).length} manuals</summary>
               <div className="overflow-x-auto">
                 <table className="w-full min-w-[20rem] text-left text-sm">
                   <thead>
                     <tr className="border-b border-edge text-xs text-fg-muted">
                       <th className="px-3 py-2 font-medium">State</th>
-                      <th className="px-3 py-2 font-medium">Slug</th>
+                      <th className="px-3 py-2 font-medium">Manual</th>
                       <th className="px-3 py-2 font-medium">Value</th>
                       <th className="px-3 py-2 font-medium">Citation check</th>
                     </tr>
@@ -166,7 +162,7 @@ export default async function PracticePage({
                               href={`/${c.slug}/`}
                               className="text-water-deep underline decoration-water/40 underline-offset-2 hover:decoration-water-deep"
                             >
-                              {c.slug}
+                              {c.jurisdiction_name}
                             </Link>
                           </td>
                           <td className="px-3 py-2">
@@ -186,6 +182,7 @@ export default async function PracticePage({
                   </tbody>
                 </table>
               </div>
+              </details>
             </div>
           ))}
         </section>

@@ -124,7 +124,6 @@ export default async function NationalSectionPage({
       </nav>
 
       <header className="overflow-hidden rounded-xl border border-edge/80 border-t-4 border-t-water bg-surface p-6 shadow-sm">
-        <p className="font-mono text-xs text-fg-subtle">{sectionId}</p>
         <h1 className="mt-1 font-display text-2xl font-semibold tracking-tight text-ink sm:text-3xl">
           {title}
         </h1>
@@ -139,18 +138,14 @@ export default async function NationalSectionPage({
               Reviewed
             </span>
           )}
-          {meta?.prevalence != null && (
-            <span>Prevalence {(meta.prevalence * 100).toFixed(0)}%</span>
-          )}
           {meta?.source_manual_count != null && (
-            <span>~{meta.source_manual_count} manuals tagged</span>
+            <span>Covered in about {meta.source_manual_count} manuals</span>
           )}
           {draft?.citations && (
             <span>{draft.citations.length} citations</span>
           )}
-          {draft?.model && <span>Model: {draft.model}</span>}
           {meta?.regional_notes?.length ? (
-            <span>Regional: {meta.regional_notes.join(", ")}</span>
+            <span>Regional notes: {meta.regional_notes.map((r) => r.replace(/_/g, " ")).join(", ")}</span>
           ) : null}
         </div>
       </header>

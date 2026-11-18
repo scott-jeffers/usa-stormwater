@@ -1,6 +1,6 @@
 # Evidence QA report
 
-Generated: 2026-11-18T15:28:28.712Z by `npm run qa:evidence`
+Generated: 2026-11-18T15:59:58.181Z by `npm run qa:evidence`
 
 Strict check: each excerpt must appear in the source manual (exact, or a close
 in-order match with **every number identical**), and each extracted number must

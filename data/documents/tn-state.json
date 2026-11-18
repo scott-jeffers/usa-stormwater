@@ -168,7 +168,7 @@
   "extraction_quality": {
     "confidence": "high",
     "needs_human_review": true,
-    "review_notes": "All required properties were successfully extracted from the text. The document is the official state manual for Tennessee, published by TDEC in December 2014. Pipeline excerpt repair removed 1 unlocated citation(s). Citation QA 2026-11-18: 2 quote(s) replaced with verbatim source text.",
+    "review_notes": "All required properties were successfully extracted from the text. The document is the official state manual for Tennessee, published by TDEC in December 2014. Pipeline excerpt repair removed 1 unlocated citation(s). Citation QA 2026-11-18: 2 quote(s) replaced with verbatim source text. Bioretention media minimum corrected 18 -> 24 in on 2026-11-18 (hand check): the manual's standard minimum filter is 24 in for bioretention cells; 18-24 in applies to rain gardens.",
     "fields_not_found": [
       "document_metadata.last_revised_date",
       "document_metadata.state_code"
@@ -184,7 +184,7 @@
     "wqv_depth_inches": null,
     "max_drawdown_hours": 24,
     "shwt_separation_inches": 24,
-    "bioretention_media_depth_min_inches": 18,
+    "bioretention_media_depth_min_inches": 24,
     "bioretention_ponding_depth_inches": null,
     "permeable_pavement_storage_depth_inches": null,
     "design_infiltration_rate_in_per_hr": 0.5,

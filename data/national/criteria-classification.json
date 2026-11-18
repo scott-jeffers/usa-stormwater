@@ -1,0 +1,1063 @@
+{
+ "generated_at": "2026-11-18T15:48:48.078Z",
+ "method": "One value per state (median of hand-checked state-level records). Agreement = share of states within ±10% of the most common value. Climate = eta² across NOAA U.S. climate regions with a 10,000-shuffle permutation p-value. Classes: insufficient (<8 states), consensus (agreement ≥ 50%), climate-linked (p < 0.10, suggestive), divergent (otherwise).",
+ "criteria": [
+  {
+   "key": "wqv_depth_inches",
+   "label": "Water-quality rainfall depth",
+   "unit": "in",
+   "reads_as": "rainfall depth the water-quality volume is sized for",
+   "states": 19,
+   "records": 22,
+   "excluded": 2,
+   "min": 0.5,
+   "median": 1,
+   "max": 1.25,
+   "distinct_values": 7,
+   "most_common": 1,
+   "agreement": 0.53,
+   "climate_eta2": 0.55,
+   "climate_p": 0.0894,
+   "class": "consensus",
+   "by_state": [
+    {
+     "state": "CT",
+     "region": "Northeast",
+     "value": 1.15,
+     "records": 2
+    },
+    {
+     "state": "DC",
+     "region": "Northeast",
+     "value": 1.2,
+     "records": 1
+    },
+    {
+     "state": "GA",
+     "region": "Southeast",
+     "value": 1.2,
+     "records": 1
+    },
+    {
+     "state": "HI",
+     "region": "Hawaii",
+     "value": 1,
+     "records": 1
+    },
+    {
+     "state": "IA",
+     "region": "Upper Midwest",
+     "value": 1.25,
+     "records": 1
+    },
+    {
+     "state": "IN",
+     "region": "Ohio Valley",
+     "value": 1,
+     "records": 1
+    },
+    {
+     "state": "MA",
+     "region": "Northeast",
+     "value": 0.75,
+     "records": 2
+    },
+    {
+     "state": "ME",
+     "region": "Northeast",
+     "value": 1,
+     "records": 1
+    },
+    {
+     "state": "MI",
+     "region": "Upper Midwest",
+     "value": 1,
+     "records": 1
+    },
+    {
+     "state": "NC",
+     "region": "Southeast",
+     "value": 1,
+     "records": 1
+    },
+    {
+     "state": "NE",
+     "region": "Northern Rockies & Plains",
+     "value": 0.5,
+     "records": 1
+    },
+    {
+     "state": "NH",
+     "region": "Northeast",
+     "value": 1,
+     "records": 1
+    },
+    {
+     "state": "NJ",
+     "region": "Northeast",
+     "value": 1.25,
+     "records": 1
+    },
+    {
+     "state": "NY",
+     "region": "Northeast",
+     "value": 1.2,
+     "records": 1
+    },
+    {
+     "state": "OH",
+     "region": "Ohio Valley",
+     "value": 0.825,
+     "records": 2
+    },
+    {
+     "state": "RI",
+     "region": "Northeast",
+     "value": 1,
+     "records": 1
+    },
+    {
+     "state": "VA",
+     "region": "Southeast",
+     "value": 1,
+     "records": 1
+    },
+    {
+     "state": "VT",
+     "region": "Northeast",
+     "value": 1,
+     "records": 1
+    },
+    {
+     "state": "WV",
+     "region": "Ohio Valley",
+     "value": 1,
+     "records": 1
+    }
+   ],
+   "by_region": [
+    {
+     "region": "Northeast",
+     "states": 9,
+     "median": 1,
+     "min": 0.75,
+     "max": 1.25
+    },
+    {
+     "region": "Upper Midwest",
+     "states": 2,
+     "median": 1.125,
+     "min": 1,
+     "max": 1.25
+    },
+    {
+     "region": "Ohio Valley",
+     "states": 3,
+     "median": 1,
+     "min": 0.825,
+     "max": 1
+    },
+    {
+     "region": "Southeast",
+     "states": 3,
+     "median": 1,
+     "min": 1,
+     "max": 1.2
+    },
+    {
+     "region": "Northern Rockies & Plains",
+     "states": 1,
+     "median": 0.5,
+     "min": 0.5,
+     "max": 0.5
+    },
+    {
+     "region": "Hawaii",
+     "states": 1,
+     "median": 1,
+     "min": 1,
+     "max": 1
+    }
+   ]
+  },
+  {
+   "key": "max_drawdown_hours",
+   "label": "Maximum drawdown time",
+   "unit": "hours",
+   "reads_as": "longest time a practice may hold water after a storm",
+   "states": 21,
+   "records": 30,
+   "excluded": 5,
+   "min": 24,
+   "median": 72,
+   "max": 120,
+   "distinct_values": 6,
+   "most_common": 72,
+   "agreement": 0.43,
+   "climate_eta2": 0.72,
+   "climate_p": 0.0521,
+   "class": "climate-linked",
+   "by_state": [
+    {
+     "state": "CA",
+     "region": "West",
+     "value": 96,
+     "records": 3
+    },
+    {
+     "state": "CT",
+     "region": "Northeast",
+     "value": 60,
+     "records": 2
+    },
+    {
+     "state": "HI",
+     "region": "Hawaii",
+     "value": 48,
+     "records": 1
+    },
+    {
+     "state": "ID",
+     "region": "Northwest",
+     "value": 72,
+     "records": 1
+    },
+    {
+     "state": "IN",
+     "region": "Ohio Valley",
+     "value": 72,
+     "records": 1
+    },
+    {
+     "state": "MA",
+     "region": "Northeast",
+     "value": 72,
+     "records": 2
+    },
+    {
+     "state": "ME",
+     "region": "Northeast",
+     "value": 48,
+     "records": 1
+    },
+    {
+     "state": "MN",
+     "region": "Upper Midwest",
+     "value": 48,
+     "records": 1
+    },
+    {
+     "state": "MS",
+     "region": "South",
+     "value": 120,
+     "records": 1
+    },
+    {
+     "state": "MT",
+     "region": "Northern Rockies & Plains",
+     "value": 72,
+     "records": 2
+    },
+    {
+     "state": "NE",
+     "region": "Northern Rockies & Plains",
+     "value": 72,
+     "records": 1
+    },
+    {
+     "state": "NJ",
+     "region": "Northeast",
+     "value": 72,
+     "records": 2
+    },
+    {
+     "state": "NM",
+     "region": "Southwest",
+     "value": 96,
+     "records": 1
+    },
+    {
+     "state": "PA",
+     "region": "Northeast",
+     "value": 72,
+     "records": 3
+    },
+    {
+     "state": "RI",
+     "region": "Northeast",
+     "value": 48,
+     "records": 2
+    },
+    {
+     "state": "SC",
+     "region": "Southeast",
+     "value": 72,
+     "records": 1
+    },
+    {
+     "state": "TN",
+     "region": "Ohio Valley",
+     "value": 24,
+     "records": 1
+    },
+    {
+     "state": "UT",
+     "region": "Southwest",
+     "value": 72,
+     "records": 1
+    },
+    {
+     "state": "VT",
+     "region": "Northeast",
+     "value": 48,
+     "records": 1
+    },
+    {
+     "state": "WA",
+     "region": "Northwest",
+     "value": 48,
+     "records": 1
+    },
+    {
+     "state": "WV",
+     "region": "Ohio Valley",
+     "value": 48,
+     "records": 1
+    }
+   ],
+   "by_region": [
+    {
+     "region": "Northeast",
+     "states": 7,
+     "median": 60,
+     "min": 48,
+     "max": 72
+    },
+    {
+     "region": "Upper Midwest",
+     "states": 1,
+     "median": 48,
+     "min": 48,
+     "max": 48
+    },
+    {
+     "region": "Ohio Valley",
+     "states": 3,
+     "median": 48,
+     "min": 24,
+     "max": 72
+    },
+    {
+     "region": "Southeast",
+     "states": 1,
+     "median": 72,
+     "min": 72,
+     "max": 72
+    },
+    {
+     "region": "Northern Rockies & Plains",
+     "states": 2,
+     "median": 72,
+     "min": 72,
+     "max": 72
+    },
+    {
+     "region": "South",
+     "states": 1,
+     "median": 120,
+     "min": 120,
+     "max": 120
+    },
+    {
+     "region": "Southwest",
+     "states": 2,
+     "median": 84,
+     "min": 72,
+     "max": 96
+    },
+    {
+     "region": "Northwest",
+     "states": 2,
+     "median": 60,
+     "min": 48,
+     "max": 72
+    },
+    {
+     "region": "West",
+     "states": 1,
+     "median": 96,
+     "min": 96,
+     "max": 96
+    },
+    {
+     "region": "Hawaii",
+     "states": 1,
+     "median": 48,
+     "min": 48,
+     "max": 48
+    }
+   ]
+  },
+  {
+   "key": "shwt_separation_inches",
+   "label": "Separation from seasonal high water table",
+   "unit": "in",
+   "reads_as": "minimum depth from an infiltrating practice's bottom to the seasonal high water table",
+   "states": 24,
+   "records": 31,
+   "excluded": 2,
+   "min": 12,
+   "median": 33,
+   "max": 60,
+   "distinct_values": 7,
+   "most_common": 24,
+   "agreement": 0.38,
+   "climate_eta2": 0.44,
+   "climate_p": 0.3449,
+   "class": "divergent",
+   "by_state": [
+    {
+     "state": "AL",
+     "region": "Southeast",
+     "value": 24,
+     "records": 1
+    },
+    {
+     "state": "CA",
+     "region": "West",
+     "value": 60,
+     "records": 1
+    },
+    {
+     "state": "CT",
+     "region": "Northeast",
+     "value": 48,
+     "records": 2
+    },
+    {
+     "state": "DC",
+     "region": "Northeast",
+     "value": 24,
+     "records": 1
+    },
+    {
+     "state": "HI",
+     "region": "Hawaii",
+     "value": 36,
+     "records": 1
+    },
+    {
+     "state": "ID",
+     "region": "Northwest",
+     "value": 36,
+     "records": 1
+    },
+    {
+     "state": "IN",
+     "region": "Ohio Valley",
+     "value": 30,
+     "records": 2
+    },
+    {
+     "state": "MA",
+     "region": "Northeast",
+     "value": 24,
+     "records": 2
+    },
+    {
+     "state": "MD",
+     "region": "Northeast",
+     "value": 48,
+     "records": 1
+    },
+    {
+     "state": "ME",
+     "region": "Northeast",
+     "value": 12,
+     "records": 1
+    },
+    {
+     "state": "MN",
+     "region": "Upper Midwest",
+     "value": 36,
+     "records": 1
+    },
+    {
+     "state": "MS",
+     "region": "South",
+     "value": 24,
+     "records": 1
+    },
+    {
+     "state": "MT",
+     "region": "Northern Rockies & Plains",
+     "value": 24,
+     "records": 2
+    },
+    {
+     "state": "NJ",
+     "region": "Northeast",
+     "value": 12,
+     "records": 1
+    },
+    {
+     "state": "NY",
+     "region": "Northeast",
+     "value": 24,
+     "records": 1
+    },
+    {
+     "state": "OH",
+     "region": "Ohio Valley",
+     "value": 42,
+     "records": 2
+    },
+    {
+     "state": "PA",
+     "region": "Northeast",
+     "value": 24,
+     "records": 3
+    },
+    {
+     "state": "RI",
+     "region": "Northeast",
+     "value": 36,
+     "records": 1
+    },
+    {
+     "state": "TN",
+     "region": "Ohio Valley",
+     "value": 24,
+     "records": 1
+    },
+    {
+     "state": "TX",
+     "region": "South",
+     "value": 48,
+     "records": 1
+    },
+    {
+     "state": "UT",
+     "region": "Southwest",
+     "value": 48,
+     "records": 1
+    },
+    {
+     "state": "VT",
+     "region": "Northeast",
+     "value": 36,
+     "records": 1
+    },
+    {
+     "state": "WA",
+     "region": "Northwest",
+     "value": 60,
+     "records": 1
+    },
+    {
+     "state": "WV",
+     "region": "Ohio Valley",
+     "value": 24,
+     "records": 1
+    }
+   ],
+   "by_region": [
+    {
+     "region": "Northeast",
+     "states": 10,
+     "median": 24,
+     "min": 12,
+     "max": 48
+    },
+    {
+     "region": "Upper Midwest",
+     "states": 1,
+     "median": 36,
+     "min": 36,
+     "max": 36
+    },
+    {
+     "region": "Ohio Valley",
+     "states": 4,
+     "median": 27,
+     "min": 24,
+     "max": 42
+    },
+    {
+     "region": "Southeast",
+     "states": 1,
+     "median": 24,
+     "min": 24,
+     "max": 24
+    },
+    {
+     "region": "Northern Rockies & Plains",
+     "states": 1,
+     "median": 24,
+     "min": 24,
+     "max": 24
+    },
+    {
+     "region": "South",
+     "states": 2,
+     "median": 36,
+     "min": 24,
+     "max": 48
+    },
+    {
+     "region": "Southwest",
+     "states": 1,
+     "median": 48,
+     "min": 48,
+     "max": 48
+    },
+    {
+     "region": "Northwest",
+     "states": 2,
+     "median": 48,
+     "min": 36,
+     "max": 60
+    },
+    {
+     "region": "West",
+     "states": 1,
+     "median": 60,
+     "min": 60,
+     "max": 60
+    },
+    {
+     "region": "Hawaii",
+     "states": 1,
+     "median": 36,
+     "min": 36,
+     "max": 36
+    }
+   ]
+  },
+  {
+   "key": "bioretention_media_depth_min_inches",
+   "label": "Minimum bioretention media depth",
+   "unit": "in",
+   "reads_as": "minimum depth of engineered bioretention soil",
+   "states": 19,
+   "records": 22,
+   "excluded": 1,
+   "min": 18,
+   "median": 24,
+   "max": 48,
+   "distinct_values": 4,
+   "most_common": 18,
+   "agreement": 0.42,
+   "climate_eta2": 0.33,
+   "climate_p": 0.3847,
+   "class": "divergent",
+   "by_state": [
+    {
+     "state": "AL",
+     "region": "Southeast",
+     "value": 24,
+     "records": 1
+    },
+    {
+     "state": "CA",
+     "region": "West",
+     "value": 18,
+     "records": 1
+    },
+    {
+     "state": "CT",
+     "region": "Northeast",
+     "value": 24,
+     "records": 1
+    },
+    {
+     "state": "DC",
+     "region": "Northeast",
+     "value": 18,
+     "records": 1
+    },
+    {
+     "state": "HI",
+     "region": "Hawaii",
+     "value": 24,
+     "records": 1
+    },
+    {
+     "state": "IN",
+     "region": "Ohio Valley",
+     "value": 48,
+     "records": 1
+    },
+    {
+     "state": "MA",
+     "region": "Northeast",
+     "value": 24,
+     "records": 1
+    },
+    {
+     "state": "MD",
+     "region": "Northeast",
+     "value": 30,
+     "records": 1
+    },
+    {
+     "state": "ME",
+     "region": "Northeast",
+     "value": 18,
+     "records": 1
+    },
+    {
+     "state": "MN",
+     "region": "Upper Midwest",
+     "value": 30,
+     "records": 1
+    },
+    {
+     "state": "MT",
+     "region": "Northern Rockies & Plains",
+     "value": 18,
+     "records": 1
+    },
+    {
+     "state": "NJ",
+     "region": "Northeast",
+     "value": 18,
+     "records": 1
+    },
+    {
+     "state": "OH",
+     "region": "Ohio Valley",
+     "value": 30,
+     "records": 2
+    },
+    {
+     "state": "PA",
+     "region": "Northeast",
+     "value": 18,
+     "records": 2
+    },
+    {
+     "state": "RI",
+     "region": "Northeast",
+     "value": 24,
+     "records": 2
+    },
+    {
+     "state": "TN",
+     "region": "Ohio Valley",
+     "value": 24,
+     "records": 1
+    },
+    {
+     "state": "VT",
+     "region": "Northeast",
+     "value": 24,
+     "records": 1
+    },
+    {
+     "state": "WA",
+     "region": "Northwest",
+     "value": 18,
+     "records": 1
+    },
+    {
+     "state": "WV",
+     "region": "Ohio Valley",
+     "value": 18,
+     "records": 1
+    }
+   ],
+   "by_region": [
+    {
+     "region": "Northeast",
+     "states": 9,
+     "median": 24,
+     "min": 18,
+     "max": 30
+    },
+    {
+     "region": "Upper Midwest",
+     "states": 1,
+     "median": 30,
+     "min": 30,
+     "max": 30
+    },
+    {
+     "region": "Ohio Valley",
+     "states": 4,
+     "median": 27,
+     "min": 18,
+     "max": 48
+    },
+    {
+     "region": "Southeast",
+     "states": 1,
+     "median": 24,
+     "min": 24,
+     "max": 24
+    },
+    {
+     "region": "Northern Rockies & Plains",
+     "states": 1,
+     "median": 18,
+     "min": 18,
+     "max": 18
+    },
+    {
+     "region": "Northwest",
+     "states": 1,
+     "median": 18,
+     "min": 18,
+     "max": 18
+    },
+    {
+     "region": "West",
+     "states": 1,
+     "median": 18,
+     "min": 18,
+     "max": 18
+    },
+    {
+     "region": "Hawaii",
+     "states": 1,
+     "median": 24,
+     "min": 24,
+     "max": 24
+    }
+   ]
+  },
+  {
+   "key": "design_infiltration_rate_in_per_hr",
+   "label": "Minimum soil infiltration rate",
+   "unit": "in/hr",
+   "reads_as": "lowest native-soil infiltration rate at which infiltration is allowed",
+   "states": 15,
+   "records": 17,
+   "excluded": 4,
+   "min": 0.09000000000000001,
+   "median": 0.5,
+   "max": 2,
+   "distinct_values": 9,
+   "most_common": 0.5,
+   "agreement": 0.53,
+   "climate_eta2": 0.22,
+   "climate_p": 0.6181,
+   "class": "consensus",
+   "by_state": [
+    {
+     "state": "AL",
+     "region": "Southeast",
+     "value": 1,
+     "records": 1
+    },
+    {
+     "state": "CT",
+     "region": "Northeast",
+     "value": 1,
+     "records": 1
+    },
+    {
+     "state": "ID",
+     "region": "Northwest",
+     "value": 0.4,
+     "records": 1
+    },
+    {
+     "state": "IN",
+     "region": "Ohio Valley",
+     "value": 2,
+     "records": 1
+    },
+    {
+     "state": "MA",
+     "region": "Northeast",
+     "value": 0.09000000000000001,
+     "records": 2
+    },
+    {
+     "state": "MS",
+     "region": "South",
+     "value": 0.52,
+     "records": 1
+    },
+    {
+     "state": "NE",
+     "region": "Northern Rockies & Plains",
+     "value": 0.5,
+     "records": 1
+    },
+    {
+     "state": "NY",
+     "region": "Northeast",
+     "value": 0.5,
+     "records": 1
+    },
+    {
+     "state": "PA",
+     "region": "Northeast",
+     "value": 0.5,
+     "records": 1
+    },
+    {
+     "state": "RI",
+     "region": "Northeast",
+     "value": 0.51,
+     "records": 2
+    },
+    {
+     "state": "SC",
+     "region": "Southeast",
+     "value": 0.3,
+     "records": 1
+    },
+    {
+     "state": "TN",
+     "region": "Ohio Valley",
+     "value": 0.5,
+     "records": 1
+    },
+    {
+     "state": "VA",
+     "region": "Southeast",
+     "value": 0.5,
+     "records": 1
+    },
+    {
+     "state": "VT",
+     "region": "Northeast",
+     "value": 0.2,
+     "records": 1
+    },
+    {
+     "state": "WV",
+     "region": "Ohio Valley",
+     "value": 0.5,
+     "records": 1
+    }
+   ],
+   "by_region": [
+    {
+     "region": "Northeast",
+     "states": 6,
+     "median": 0.5,
+     "min": 0.09000000000000001,
+     "max": 1
+    },
+    {
+     "region": "Ohio Valley",
+     "states": 3,
+     "median": 0.5,
+     "min": 0.5,
+     "max": 2
+    },
+    {
+     "region": "Southeast",
+     "states": 3,
+     "median": 0.5,
+     "min": 0.3,
+     "max": 1
+    },
+    {
+     "region": "Northern Rockies & Plains",
+     "states": 1,
+     "median": 0.5,
+     "min": 0.5,
+     "max": 0.5
+    },
+    {
+     "region": "South",
+     "states": 1,
+     "median": 0.52,
+     "min": 0.52,
+     "max": 0.52
+    },
+    {
+     "region": "Northwest",
+     "states": 1,
+     "median": 0.4,
+     "min": 0.4,
+     "max": 0.4
+    }
+   ]
+  },
+  {
+   "key": "permanent_pool_depth_inches",
+   "label": "Minimum wet-pond permanent pool depth",
+   "unit": "in",
+   "reads_as": "minimum depth of a wet pond's permanent pool",
+   "states": 6,
+   "records": 6,
+   "excluded": 5,
+   "min": 36,
+   "median": 54,
+   "max": 72,
+   "distinct_values": 4,
+   "most_common": 48,
+   "agreement": 0.33,
+   "climate_eta2": 0.82,
+   "climate_p": 0.069,
+   "class": "insufficient",
+   "by_state": [
+    {
+     "state": "CT",
+     "region": "Northeast",
+     "value": 60,
+     "records": 1
+    },
+    {
+     "state": "DE",
+     "region": "Northeast",
+     "value": 48,
+     "records": 1
+    },
+    {
+     "state": "FL",
+     "region": "Southeast",
+     "value": 72,
+     "records": 1
+    },
+    {
+     "state": "MN",
+     "region": "Upper Midwest",
+     "value": 36,
+     "records": 1
+    },
+    {
+     "state": "PA",
+     "region": "Northeast",
+     "value": 60,
+     "records": 1
+    },
+    {
+     "state": "VT",
+     "region": "Northeast",
+     "value": 48,
+     "records": 1
+    }
+   ],
+   "by_region": [
+    {
+     "region": "Northeast",
+     "states": 4,
+     "median": 54,
+     "min": 48,
+     "max": 60
+    },
+    {
+     "region": "Upper Midwest",
+     "states": 1,
+     "median": 36,
+     "min": 36,
+     "max": 36
+    },
+    {
+     "region": "Southeast",
+     "states": 1,
+     "median": 72,
+     "min": 72,
+     "max": 72
+    }
+   ]
+  }
+ ]
+}

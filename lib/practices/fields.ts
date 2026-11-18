@@ -35,7 +35,7 @@ export const NUMERIC_PARAM_FIELDS: NumericParamField[] = [
   },
   {
     field: "shwt_separation_inches",
-    label: "SHWT separation",
+    label: "Separation from seasonal high water table",
     unit: "inches",
     practices: "*",
     practiceScoped: false,
