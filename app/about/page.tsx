@@ -22,7 +22,15 @@ function qaTotals() {
     if (r.status === "passed") t.passed += 1;
   }
   const all = t.exact + t.fuzzy + t.unverifiable + t.fail;
-  const pct = (n: number) => (all ? `${Math.round((100 * n) / all)}%` : "–");
+  // one decimal, and never round a non-zero share to 0% or a partial one to 100%
+  const pct = (n: number) => {
+    if (!all) return "–";
+    const v = (100 * n) / all;
+    const r = Math.round(v * 10) / 10;
+    if (n > 0 && r === 0) return "<0.1%";
+    if (n < all && r === 100) return ">99.9%";
+    return `${r}%`;
+  };
   return { ...t, all, pct };
 }
 
