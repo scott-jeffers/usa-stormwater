@@ -2,6 +2,14 @@
 
 Dataset versions use `YEAR.MONTH.PATCH`. The site always serves the latest version; the files listed on [/data/](https://www.stormwateratlas.com/data/) are rebuilt on every deploy.
 
+## 2026.11.3 — 2026-11-18
+
+**Design archive** (new, at /archive/)
+- 25 agency libraries of standard drawings (CAD and PDF), for permanent practices and construction erosion and sediment control, each linked to the agency's own page (`data/archive/libraries.json`).
+- 955 drawings found inside 128 atlas manuals (typical sections, plans, profiles, details), tagged by practice and linked to the PDF page (`drawings.json`, `drawings.csv`).
+- 859 worked design examples, sample plans and plan-review checklists inside atlas manuals, tagged by practice or topic (`examples.json`, `examples.csv`), plus agency sample plan sets published separately.
+- Built by `npm run archive:build`; spot checks: drawings 25 of 30 right (4 partly), examples 26 of 30 right (3 partly). The archive links to the agencies' files and hosts no copies.
+
 ## 2026.11.2 — 2026-11-18
 
 **Data**

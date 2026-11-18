@@ -40,3 +40,11 @@ test("CSV cells round-trip through the parser", () => {
   const line = cells.map(csvCell).join(",");
   assert.deepEqual(parseCsv(line + "\n")[0], ["a", 'he said "hi"', "x, y", "line\nbreak", "1; 2"]);
 });
+
+test("archive classifier: a drawing caption page is a drawing; a prose page is not", async () => {
+  const { classifyDrawing, topicOf } = await import("../scripts/archive/build-archive");
+  assert.equal(classifyDrawing("Figure 3.12 Typical Section of a Bioretention Cell 6\" MIN. MULCH 18\" MEDIA").isDrawing, true);
+  assert.equal(classifyDrawing("Bioretention cells shall be sized for the water quality volume. ".repeat(40)).isDrawing, false);
+  assert.equal(classifyDrawing("TABLE OF CONTENTS Figure 3.12 Typical Section .......... 45").isDrawing, false);
+  assert.equal(topicOf("Design a concrete box culvert for the 50-year flow"), "culverts");
+});

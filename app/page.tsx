@@ -46,6 +46,7 @@ export default function HomePage() {
           <Link href="/compare/" className="font-medium text-water-link hover:underline">Compare manuals →</Link>
           <Link href="/manual/" className="font-medium text-water-link hover:underline">Draft model manual →</Link>
           <Link href="/data/" className="font-medium text-water-link hover:underline">Download the data →</Link>
+          <Link href="/archive/" className="font-medium text-water-link hover:underline">Design archive →</Link>
           <Link href="/national/" className="font-medium text-water-link hover:underline">Practice synthesis →</Link>
         </nav>
       </header>

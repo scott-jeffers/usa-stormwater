@@ -1,0 +1,448 @@
+{
+ "checked_at": "2026-11-18",
+ "note": "Agency libraries of standard drawings found by web search; each link opens the agency's own page or file. The drawings belong to the agencies and carry their own terms; the atlas links to them and does not host copies.",
+ "libraries": [
+  {
+   "id": "portland-bes",
+   "agency": "Portland Bureau of Environmental Services",
+   "state": "OR",
+   "level": "municipality",
+   "url": "https://www.portland.gov/bes/stormwater/2025-stormwater-management-manual/design-details-and-cad-support-files",
+   "formats": [
+    "DWG",
+    "PDF"
+   ],
+   "practices": [
+    "bioretention",
+    "infiltration_basin",
+    "infiltration_trench",
+    "swale"
+   ],
+   "part": "A",
+   "description": "Typical details for the 2025 Stormwater Management Manual: simplified-approach facilities (SW-100s), drywells and soakage trenches (SW-200s), and green streets (SW-300s)."
+  },
+  {
+   "id": "phoenix-lid-handbook",
+   "agency": "Greater Phoenix Green Infrastructure and LID Handbook (ASU)",
+   "state": "AZ",
+   "level": "regional",
+   "url": "https://globalfutures.asu.edu/sustainable-cities/greater-phoenix-green-infrastructure-and-lid-handbook/",
+   "formats": [
+    "DWG",
+    "PDF"
+   ],
+   "practices": [
+    "permeable_pavement",
+    "bioretention",
+    "sediment_trap",
+    "rainwater_harvesting"
+   ],
+   "part": "A",
+   "description": "Standard details for LID techniques used across the Phoenix region, including permeable pavements, curb openings, sediment traps and harvesting basins."
+  },
+  {
+   "id": "scottsdale-lid",
+   "agency": "City of Scottsdale",
+   "state": "AZ",
+   "level": "municipality",
+   "url": "https://www.scottsdaleaz.gov/design",
+   "formats": [
+    "DWG",
+    "PDF"
+   ],
+   "practices": [
+    "permeable_pavement",
+    "bioretention"
+   ],
+   "part": "A",
+   "description": "Low-impact development details for alternative stormwater management (LID 01 onward)."
+  },
+  {
+   "id": "savannah-drainage",
+   "agency": "City of Savannah",
+   "state": "GA",
+   "level": "municipality",
+   "url": "https://savannahga.gov/922",
+   "formats": [
+    "DWG",
+    "PDF"
+   ],
+   "practices": [
+    "infiltration_trench",
+    "wet_pond",
+    "extended_detention"
+   ],
+   "part": "A",
+   "description": "Drainage standard details D01\u2013D31, including an infiltration practice and wet and dry detention ponds."
+  },
+  {
+   "id": "pwd-standard-details",
+   "agency": "Philadelphia Water Department (stormwater plan review)",
+   "state": "PA",
+   "level": "municipality",
+   "url": "https://water.phila.gov/development/stormwater-plan-review/manual/appendices/l-standard-details/",
+   "formats": [
+    "DWG"
+   ],
+   "practices": [
+    "bioretention",
+    "green_roof",
+    "infiltration_trench",
+    "outlet_structure"
+   ],
+   "part": "A",
+   "description": "Standard details for private development: bioinfiltration and bioretention basins, green and blue-green roofs, subsurface infiltration, outlet control structures."
+  },
+  {
+   "id": "pwd-gsi-typical",
+   "agency": "Philadelphia Water Department (GSI typical details)",
+   "state": "PA",
+   "level": "municipality",
+   "url": "https://water.phila.gov/pool/files/gsi-typical-details.pdf",
+   "formats": [
+    "PDF",
+    "DWG"
+   ],
+   "practices": [
+    "bioretention",
+    "infiltration_trench",
+    "permeable_pavement"
+   ],
+   "part": "A",
+   "description": "Green Stormwater Infrastructure Typical Details for public projects (version 2.0, with a 2023 addendum); CAD versions in a zip."
+  },
+  {
+   "id": "nyc-dep-gi",
+   "agency": "NYC Department of Environmental Protection",
+   "state": "NY",
+   "level": "municipality",
+   "url": "https://www.nyc.gov/assets/dep/downloads/pdf/water/stormwater/green-infrastructure/green-infrastructure-standard-designs.pdf",
+   "formats": [
+    "PDF"
+   ],
+   "practices": [
+    "bioretention",
+    "swale",
+    "permeable_pavement"
+   ],
+   "part": "A",
+   "description": "Standard designs for right-of-way green infrastructure: bioswales, rain gardens, porous concrete panels and planting plans."
+  },
+  {
+   "id": "boston-pwd",
+   "agency": "City of Boston Public Works",
+   "state": "MA",
+   "level": "municipality",
+   "url": "https://www.boston.gov/departments/public-works/public-works-design-standards",
+   "formats": [
+    "PDF",
+    "DWG"
+   ],
+   "practices": [
+    "bioretention",
+    "inlet_protection"
+   ],
+   "part": "A",
+   "description": "Green infrastructure standard details and roadway details, including a catch basin insert for sediment control."
+  },
+  {
+   "id": "mwrd-chicago",
+   "agency": "Metropolitan Water Reclamation District of Greater Chicago",
+   "state": "IL",
+   "level": "regional",
+   "url": "https://www.mwrd.org/node/278",
+   "formats": [
+    "DWG"
+   ],
+   "practices": [
+    "bioretention",
+    "swale",
+    "check_dam",
+    "constructed_wetland",
+    "green_roof",
+    "outlet_structure"
+   ],
+   "part": "A",
+   "description": "Watershed Management Ordinance standard details: bioretention, bioswales and check dams, wetlands, drywells, green roofs, outlet control structures, emergency overflow weirs."
+  },
+  {
+   "id": "charlotte-cldsm",
+   "agency": "City of Charlotte (Land Development Standards Manual)",
+   "state": "NC",
+   "level": "municipality",
+   "url": "https://www.charlottenc.gov/Growth-and-Development/Getting-Started-on-Your-Project/cldsm/CAD-files",
+   "formats": [
+    "DWG"
+   ],
+   "practices": [
+    "outlet_structure"
+   ],
+   "part": "A",
+   "description": "AutoCAD files of the Charlotte Land Development Standards Manual details, in zip archives."
+  },
+  {
+   "id": "raleigh-gsi",
+   "agency": "City of Raleigh",
+   "state": "NC",
+   "level": "municipality",
+   "url": "https://raleighnc.gov/stormwater/standard-details-requirements",
+   "formats": [
+    "PDF"
+   ],
+   "practices": [
+    "bioretention",
+    "permeable_pavement"
+   ],
+   "part": "A",
+   "description": "Standard stormwater details for green stormwater infrastructure."
+  },
+  {
+   "id": "edmonds-lid",
+   "agency": "City of Edmonds",
+   "state": "WA",
+   "level": "municipality",
+   "url": "https://edmondswa.gov/government/departments/public_works_and_utilities/edmonds_standard_details/l_i_d_storm_standard_details",
+   "formats": [
+    "DWG",
+    "PDF"
+   ],
+   "practices": [
+    "bioretention"
+   ],
+   "part": "A",
+   "description": "LID storm standard details SD-600 series, including typical rain garden plan and section."
+  },
+  {
+   "id": "tacoma-gsi",
+   "agency": "City of Tacoma",
+   "state": "WA",
+   "level": "municipality",
+   "url": "https://tacoma.gov/?p=1247",
+   "formats": [
+    "PDF"
+   ],
+   "practices": [
+    "bioretention",
+    "permeable_pavement",
+    "outlet_structure"
+   ],
+   "part": "A",
+   "description": "Green Stormwater Infrastructure plans and typical details (GSI series), including outlet controls and permeable pavement overflow."
+  },
+  {
+   "id": "semswa",
+   "agency": "Southeast Metro Stormwater Authority",
+   "state": "CO",
+   "level": "regional",
+   "url": "https://semswa.specialdistrict.org/permanent-water-quality-control-measure-cm-standard-details-d1658b2",
+   "formats": [
+    "PDF"
+   ],
+   "practices": [
+    "extended_detention",
+    "sand_filter",
+    "bioretention"
+   ],
+   "part": "A",
+   "description": "Permanent water quality control measure standard details; CAD on request."
+  },
+  {
+   "id": "mhfd-vol3",
+   "agency": "Mile High Flood District (Urban Storm Drainage Criteria Manual, Vol. 3)",
+   "state": "CO",
+   "level": "regional",
+   "url": "https://mhfd.specialdistrict.org/files/4a86311fa/01_USDCM-Volume-3.pdf",
+   "formats": [
+    "PDF"
+   ],
+   "practices": [
+    "bioretention",
+    "extended_detention",
+    "sand_filter",
+    "silt_fence",
+    "sediment_basin"
+   ],
+   "part": "A+B",
+   "description": "Fact sheets and details for treatment practices and construction controls used across the Denver region; several cities adopt its construction details."
+  },
+  {
+   "id": "mn-stormwater-cadd",
+   "agency": "Minnesota Pollution Control Agency (Minnesota Stormwater Manual)",
+   "state": "MN",
+   "level": "state",
+   "url": "https://stormwater.pca.state.mn.us/index.php/Computer-aided_design_and_drafting_(CAD/CADD)_drawings",
+   "formats": [
+    "DWG",
+    "PDF"
+   ],
+   "practices": [
+    "bioretention",
+    "sand_filter",
+    "swale",
+    "wet_pond",
+    "constructed_wetland",
+    "check_dam"
+   ],
+   "part": "A",
+   "description": "CADD drawings for bioretention, infiltration, sand filters, swales and check dams, ponds and wetlands; printable PDFs on a companion page."
+  },
+  {
+   "id": "minneapolis-specs",
+   "agency": "City of Minneapolis",
+   "state": "MN",
+   "level": "municipality",
+   "url": "https://www.minneapolismn.gov/media/-www-content-assets/documents/Stormwater-Design-Specification-Examples.pdf",
+   "formats": [
+    "PDF"
+   ],
+   "practices": [
+    "bioretention"
+   ],
+   "part": "A",
+   "description": "Stormwater design specification examples, including biofiltration planter plan and section."
+  },
+  {
+   "id": "nc-deq-esc",
+   "agency": "North Carolina DEQ (Erosion and Sediment Control)",
+   "state": "NC",
+   "level": "state",
+   "url": "https://deq.nc.gov/about/divisions/energy-mineral-and-land-resources/erosion-and-sediment-control/esc-downloads",
+   "formats": [
+    "PDF",
+    "DWG"
+   ],
+   "practices": [
+    "construction_entrance",
+    "inlet_protection",
+    "erosion_blanket",
+    "silt_fence",
+    "sediment_basin"
+   ],
+   "part": "B",
+   "description": "E&SC standard details from the NC Planning and Design Manual, as 11x17 PDF sheets and zipped DWG, plus a residential plan set."
+  },
+  {
+   "id": "wake-county-esc",
+   "agency": "Wake County",
+   "state": "NC",
+   "level": "county",
+   "url": "https://www.wake.gov/departments-government/watershed-management/about-watershed-management/sedimentation-and-erosion-control/sediment-and-erosion-control-standard-details",
+   "formats": [
+    "DWG",
+    "PDF"
+   ],
+   "practices": [
+    "silt_fence",
+    "sediment_trap",
+    "construction_entrance",
+    "inlet_protection"
+   ],
+   "part": "B",
+   "description": "Sedimentation and erosion control standard drawings, downloadable in DWG."
+  },
+  {
+   "id": "monroe-nc-esc",
+   "agency": "City of Monroe",
+   "state": "NC",
+   "level": "municipality",
+   "url": "https://www.monroenc.org/Departments/Engineering/Erosion-Control/Standard-Specifications",
+   "formats": [
+    "DWG",
+    "PDF"
+   ],
+   "practices": [
+    "silt_fence",
+    "sediment_trap",
+    "construction_entrance",
+    "sediment_basin"
+   ],
+   "part": "B",
+   "description": "Erosion and sedimentation control standards: silt fence, temporary sediment trap, construction entrance, sediment basin and skimmer basin."
+  },
+  {
+   "id": "fayetteville-nc-esc",
+   "agency": "City of Fayetteville",
+   "state": "NC",
+   "level": "municipality",
+   "url": "https://fayettevillenc.gov/city-services/public-services/engineering/development-review/standard-details/erosion-control-details",
+   "formats": [
+    "DWG",
+    "PDF"
+   ],
+   "practices": [
+    "inlet_protection"
+   ],
+   "part": "B",
+   "description": "Erosion control standard details (EC series), including drop inlet protection."
+  },
+  {
+   "id": "mde-esc-2011",
+   "agency": "Maryland Department of the Environment",
+   "state": "MD",
+   "level": "state",
+   "url": "https://mde.maryland.gov/programs/Water/StormwaterManagementProgram/Pages/2011_ESC_details.aspx",
+   "formats": [
+    "PDF"
+   ],
+   "practices": [
+    "silt_fence",
+    "sediment_trap",
+    "sediment_basin",
+    "construction_entrance"
+   ],
+   "part": "B",
+   "description": "Details from the 2011 Maryland Standards and Specifications for Soil Erosion and Sediment Control."
+  },
+  {
+   "id": "concord-ma-esc",
+   "agency": "Town of Concord",
+   "state": "MA",
+   "level": "municipality",
+   "url": "https://concordma.gov/178/Erosion-Sedimentation-Control-Standard",
+   "formats": [
+    "PDF"
+   ],
+   "practices": [
+    "erosion_blanket",
+    "inlet_protection"
+   ],
+   "part": "B",
+   "description": "Erosion and sedimentation control standard details EC-1 to EC-13: matting, fiber rolls, silt sacks, dewatering sump."
+  },
+  {
+   "id": "cdot-m208",
+   "agency": "Colorado DOT (Standard Plan M-208-1)",
+   "state": "CO",
+   "level": "state",
+   "url": "https://www.codot.gov/business/designsupport/mstandards/m-208-1_temporary_erosion_control_ada.pdf",
+   "formats": [
+    "PDF"
+   ],
+   "practices": [
+    "inlet_protection",
+    "check_dam",
+    "silt_fence"
+   ],
+   "part": "B",
+   "description": "Temporary erosion control standard plan: erosion logs, culvert outlet and storm drain inlet protection (MicroStation source)."
+  },
+  {
+   "id": "odot-env",
+   "agency": "Oregon DOT (Standard Details, Environmental)",
+   "state": "OR",
+   "level": "state",
+   "url": "https://www.oregon.gov/odot/Engineering/Pages/Details-Environmental.aspx",
+   "formats": [
+    "PDF",
+    "DWG"
+   ],
+   "practices": [
+    "silt_fence",
+    "inlet_protection",
+    "check_dam"
+   ],
+   "part": "B",
+   "description": "Oregon standard details for environmental and erosion control work."
+  }
+ ]
+}

@@ -26,6 +26,8 @@ const FILES = [
   { href: "/data/dictionary.json", name: "dictionary.json", what: "Every field, its meaning, unit and fill rate." },
   { href: "/data/manuals.json", name: "manuals.json", what: "Index of all records (JSON API). Full records at /data/manuals/{slug}.json." },
   { href: "/data/schema.json", name: "schema.json", what: "Record shape and API endpoints." },
+  { href: "/data/archive/drawings.csv", name: "archive/drawings.csv", what: "Standard drawings found in the atlas manuals (design archive), with practice, kind and a link to the PDF page." },
+  { href: "/data/archive/examples.csv", name: "archive/examples.csv", what: "Worked design examples, sample plans and plan checklists in the atlas manuals (design archive)." },
   { href: "/manual/model-manual.md", name: "model-manual.md", what: "The draft model manual, as Markdown." },
 ];
 

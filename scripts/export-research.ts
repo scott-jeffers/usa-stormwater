@@ -98,6 +98,24 @@ function main() {
     writeFileSync(path.join(PUB, "esc-checks.csv"), h.join("\n") + "\n");
   }
 
+  // design archive: JSON as built, plus flat CSVs
+  const arch = path.join(ROOT, "data/archive");
+  if (existsSync(arch)) {
+    const outDir = path.join(PUB, "archive");
+    mkdirSync(outDir, { recursive: true });
+    for (const f of ["libraries.json", "drawings.json", "examples.json", "sample-plans-external.json"])
+      if (existsSync(path.join(arch, f))) copyFileSync(path.join(arch, f), path.join(outDir, f));
+    const link = (pdf: string | null, p: number) => (pdf ? `${pdf}#page=${p}` : "");
+    if (existsSync(path.join(arch, "drawings.json"))) {
+      const d = JSON.parse(readFileSync(path.join(arch, "drawings.json"), "utf-8")).drawings as Rec[];
+      writeFileSync(path.join(outDir, "drawings.csv"), [row(["slug", "page", "title", "kind", "practices", "pdf_page_url"]), ...d.map((x) => row([x.slug, x.page, x.title, x.kind, x.practices, link(x.pdf, x.page)]))].join("\n") + "\n");
+    }
+    if (existsSync(path.join(arch, "examples.json"))) {
+      const e = JSON.parse(readFileSync(path.join(arch, "examples.json"), "utf-8")).examples as Rec[];
+      writeFileSync(path.join(outDir, "examples.csv"), [row(["slug", "first_page", "last_page", "kind", "title", "practices", "topic", "pdf_page_url"]), ...e.map((x) => row([x.slug, x.pages[0], x.pages[1], x.kind, x.title, x.practices, x.topic, link(x.pdf, x.pages[0])]))].join("\n") + "\n");
+    }
+  }
+
   const dictionary = {
     dataset_version: DATASET_VERSION,
     note: "fill_rate is the share of records with their own rules (stand-ins excluded) that state the field.",

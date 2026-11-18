@@ -1,0 +1,34 @@
+{
+ "note": "Sample plans and plan sets published separately by agencies (outside the atlas manuals).",
+ "sample_plans": [
+  {
+   "id": "nc-deq-residential-plan-set",
+   "agency": "North Carolina DEQ",
+   "state": "NC",
+   "url": "https://deq.nc.gov/about/divisions/energy-mineral-and-land-resources/erosion-and-sediment-control/esc-downloads",
+   "formats": [
+    "PDF",
+    "DWG"
+   ],
+   "kind": "sample_plan",
+   "practices": [
+    "construction_entrance",
+    "inlet_protection",
+    "erosion_blanket"
+   ],
+   "description": "Residential erosion and sediment control plan set: title sheet, lot information table, seeding schedules and standard detail sheets."
+  },
+  {
+   "id": "pwd-record-drawing-sample",
+   "agency": "Philadelphia Water Department",
+   "state": "PA",
+   "url": "https://water.phila.gov/development/?p=53",
+   "formats": [
+    "PDF"
+   ],
+   "kind": "sample_plan",
+   "practices": [],
+   "description": "Record drawing sample submitted with the construction certification package for stormwater management practices."
+  }
+ ]
+}
