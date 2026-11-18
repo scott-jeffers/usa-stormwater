@@ -105,11 +105,11 @@ export function NationalDraftExplorer({
           <h2 className="font-display text-base font-semibold text-ink sm:text-lg">
             Draft national model manual
           </h2>
-          <span className="status-chip status-open">Draft 0.3</span>
+          <span className="status-chip status-open">Draft 0.4</span>
         </div>
         <p className="mt-1 text-sm leading-relaxed text-fg-secondary">
-          A complete draft manual a state could adopt by reference: eleven chapters, every number
-          graded by the strength of its evidence.
+          A complete draft manual a state could adopt by reference: permanent stormwater (Part A) and
+          construction erosion and sediment control (Part B), every number graded by its evidence.
         </p>
       </Link>
 

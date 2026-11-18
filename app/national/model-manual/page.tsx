@@ -2,7 +2,8 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { pageMeta } from "@/lib/site";
 import { ValueStrip, withUnit } from "@/components/ValueStrip";
-import { CLASS_LABELS, CRITERION_CLAUSE, loadCriteria, type CriterionEvidence } from "@/lib/national/modelManual";
+import { CLASS_LABELS, CRITERION_CLAUSE, ESC_CRITERION_CLAUSE, loadCriteria, loadEscCriteria, type CriterionEvidence } from "@/lib/national/modelManual";
+import type { Clause } from "@/lib/manual/parse";
 import { clauseId, loadManual } from "@/lib/manual/parse";
 import { inline } from "@/components/ManualText";
 import { STATE_CODE_TO_NAME } from "@/lib/usStates";
@@ -61,16 +62,95 @@ function Evidence({ c }: { c: CriterionEvidence }) {
   );
 }
 
+function EvidenceGroup({
+  id,
+  title,
+  intro,
+  crit,
+  clauseMap,
+  clause,
+}: {
+  id: string;
+  title: string;
+  intro: string;
+  crit: CriterionEvidence[];
+  clauseMap: Record<string, string>;
+  clause: Map<string, Clause>;
+}) {
+  const order = Object.keys(clauseMap);
+  const sorted = [...crit].sort((a, b) => order.indexOf(a.key) - order.indexOf(b.key));
+  return (
+    <section id={id} className="scroll-mt-20 space-y-4">
+      <h2 className="font-display text-2xl font-semibold text-ink">{title}</h2>
+      <p className="text-sm leading-relaxed text-fg-secondary">{intro}</p>
+      <div className="overflow-x-auto">
+        <table className="data-table">
+          <thead>
+            <tr>
+              <th>Criterion</th>
+              <th>Clause</th>
+              <th className="text-right">States</th>
+              <th>Most common</th>
+              <th>Class</th>
+              <th className="text-right">Climate p</th>
+            </tr>
+          </thead>
+          <tbody>
+            {sorted.map((c) => (
+              <tr key={c.key}>
+                <td><a href={`#${c.key}`} className="text-water-link hover:underline">{c.label}</a></td>
+                <td className="tabular-nums">
+                  {clauseMap[c.key] ? (
+                    <Link href={`/manual/#${clauseId(clauseMap[c.key]!)}`} className="text-water-link hover:underline">
+                      {clauseMap[c.key]}
+                    </Link>
+                  ) : "—"}
+                </td>
+                <td className="text-right tabular-nums">{c.states}</td>
+                <td className="tabular-nums">{withUnit(c.most_common, c.unit)} ({Math.round(c.agreement * 100)}%)</td>
+                <td>{CLASS_LABELS[c.class].label}</td>
+                <td className="text-right tabular-nums">{c.climate_p.toFixed(2)}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+      {sorted.map((c) => {
+        const num = clauseMap[c.key];
+        const cl = num ? clause.get(num) : undefined;
+        return (
+          <article key={c.key} id={c.key} className="scroll-mt-20 rounded-lg border border-edge bg-surface p-5">
+            <h3 className="font-display text-lg font-semibold text-ink">{c.label}</h3>
+            {cl && (
+              <p className="mt-2 leading-relaxed text-fg-secondary">
+                <Link href={`/manual/#${clauseId(cl.number)}`} className="font-semibold text-water-link hover:underline">
+                  Clause {cl.number}
+                </Link>{" "}
+                {cl.tags.map((t) => (
+                  <span key={t} className={`status-chip ${t === "Open" ? "status-open" : t === "Regional" ? "status-regional" : "status-neutral"}`}>{t}</span>
+                ))}{" "}
+                {inline(cl.text, c.key)}
+              </p>
+            )}
+            <Evidence c={c} />
+          </article>
+        );
+      })}
+    </section>
+  );
+}
+
 export default function ModelManualPage() {
   const data = loadCriteria();
+  const esc = loadEscCriteria();
   const manual = loadManual();
   const clause = new Map(manual.clauses.map((c) => [c.number, c]));
   const crit = data?.criteria ?? [];
-  const order = Object.keys(CRITERION_CLAUSE);
-  const sorted = [...crit].sort((a, b) => order.indexOf(a.key) - order.indexOf(b.key));
+  const escCrit = esc?.criteria ?? [];
   const states = new Set(crit.flatMap((c) => c.by_state.map((s) => s.state)));
+  const escStates = new Set(escCrit.flatMap((c) => c.by_state.map((s) => s.state)));
   return (
-    <main className="mx-auto max-w-3xl space-y-8">
+    <main className="mx-auto max-w-3xl space-y-10">
       <header className="space-y-3">
         <p className="text-sm font-medium">
           <Link href="/manual/" className="text-water-link hover:underline">
@@ -81,88 +161,50 @@ export default function ModelManualPage() {
           Evidence for the model manual
         </h1>
         <p className="text-base leading-relaxed text-fg-secondary">
-          The numbers graded E1 in the draft manual come from state-level manuals read by hand: {crit.length}{" "}
-          criteria, {states.size} states. For each one this page shows what states require, how much they agree,
-          and whether the differences follow climate.
+          The numbers graded E1 in the draft manual come from manuals read by hand. For each criterion this page shows
+          what states require, how much they agree, and whether the differences follow climate.
         </p>
         <p className="draft-note">
           Evidence for a proposal, not adopted criteria. Your state or local manual controls.
         </p>
-      </header>
-
-      <section className="space-y-3">
-        <h2 className="font-display text-xl font-semibold text-ink">How the evidence sorts</h2>
-        <div className="overflow-x-auto">
-          <table className="data-table">
-            <thead>
-              <tr>
-                <th>Criterion</th>
-                <th>Clause</th>
-                <th className="text-right">States</th>
-                <th>Most common</th>
-                <th>Class</th>
-                <th className="text-right">Climate p</th>
-              </tr>
-            </thead>
-            <tbody>
-              {sorted.map((c) => (
-                <tr key={c.key}>
-                  <td><a href={`#${c.key}`} className="text-water-link hover:underline">{c.label}</a></td>
-                  <td className="tabular-nums">
-                    {CRITERION_CLAUSE[c.key] ? (
-                      <Link href={`/manual/#${clauseId(CRITERION_CLAUSE[c.key]!)}`} className="text-water-link hover:underline">
-                        {CRITERION_CLAUSE[c.key]}
-                      </Link>
-                    ) : "—"}
-                  </td>
-                  <td className="text-right tabular-nums">{c.states}</td>
-                  <td className="tabular-nums">
-                    {withUnit(c.most_common, c.unit)} ({Math.round(c.agreement * 100)}%)
-                  </td>
-                  <td>{CLASS_LABELS[c.class].label}</td>
-                  <td className="text-right tabular-nums">{c.climate_p.toFixed(2)}</td>
-                </tr>
-              ))}
-            </tbody>
-          </table>
-        </div>
+        <p className="text-sm">
+          <a href="#part-a" className="text-water-link hover:underline">Part A: permanent stormwater</a>
+          {" · "}
+          <a href="#part-b" className="text-water-link hover:underline">Part B: construction erosion and sediment control</a>
+        </p>
         {data && (
           <details className="text-sm text-fg-muted">
             <summary className="cursor-pointer text-water-link hover:underline">Method</summary>
             <p className="mt-2 leading-relaxed">{data.method}</p>
           </details>
         )}
-      </section>
+      </header>
 
-      <section className="space-y-4">
-        <h2 className="font-display text-xl font-semibold text-ink">Criterion by criterion</h2>
-        {sorted.map((c) => {
-          const num = CRITERION_CLAUSE[c.key];
-          const cl = num ? clause.get(num) : undefined;
-          return (
-            <article key={c.key} id={c.key} className="scroll-mt-20 rounded-lg border border-edge bg-surface p-5">
-              <h3 className="font-display text-lg font-semibold text-ink">{c.label}</h3>
-              {cl && (
-                <p className="mt-2 leading-relaxed text-fg-secondary">
-                  <Link href={`/manual/#${clauseId(cl.number)}`} className="font-semibold text-water-link hover:underline">
-                    Clause {cl.number}
-                  </Link>{" "}
-                  {cl.tags.map((t) => (
-                    <span key={t} className={`status-chip ${t === "Open" ? "status-open" : t === "Regional" ? "status-regional" : "status-neutral"}`}>{t}</span>
-                  ))}{" "}
-                  {inline(cl.text, c.key)}
-                </p>
-              )}
-              <Evidence c={c} />
-            </article>
-          );
-        })}
-      </section>
+      <EvidenceGroup
+        id="part-a"
+        title="Part A: permanent stormwater"
+        intro={`State-level manuals read by hand: ${crit.length} criteria, ${states.size} states.`}
+        crit={crit}
+        clauseMap={CRITERION_CLAUSE}
+        clause={clause}
+      />
+      <EvidenceGroup
+        id="part-b"
+        title="Part B: construction erosion and sediment control"
+        intro={`State and local manuals read by hand (many states publish construction handbooks separately): ${escCrit.length} criteria, ${escStates.size} states. One value per state is the median of its manuals.`}
+        crit={escCrit}
+        clauseMap={ESC_CRITERION_CLAUSE}
+        clause={clause}
+      />
 
       <p className="text-sm text-fg-muted">
         Data: <a href="/data/national/criteria-classification.json" className="text-water-link hover:underline">criteria-classification.json</a>
         {" · "}
-        <a href="/data/hand-checks.csv" className="text-water-link hover:underline">hand-checks.csv</a> · rebuilt with{" "}
+        <a href="/data/national/esc-classification.json" className="text-water-link hover:underline">esc-classification.json</a>
+        {" · "}
+        <a href="/data/hand-checks.csv" className="text-water-link hover:underline">hand-checks.csv</a>
+        {" · "}
+        <a href="/data/esc-checks.csv" className="text-water-link hover:underline">esc-checks.csv</a> · rebuilt with{" "}
         <code className="rounded bg-surface-muted px-1">npm run national:classify</code>.
       </p>
     </main>

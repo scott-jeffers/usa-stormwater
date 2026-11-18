@@ -47,7 +47,26 @@ export const CRITERION_CLAUSE: Record<string, string> = {
   pond_length_width_min: "6.5.3",
 };
 
+/** Part B (construction erosion and sediment control) criteria and their clauses. */
+export const ESC_CRITERION_CLAUSE: Record<string, string> = {
+  stabilization_days: "13.1",
+  natural_buffer_ft: "13.4",
+  basin_threshold_acres: "14.1",
+  basin_storage_cf_per_acre: "14.2",
+  silt_fence_drainage_acres_per_100ft: "14.4",
+  silt_fence_slope_length_ft: "14.4",
+  construction_entrance_length_ft: "14.5",
+  inspection_days: "15.1",
+  inspection_storm_trigger_in: "15.1",
+};
+
 const FILE = path.resolve(process.cwd(), "data/national/criteria-classification.json");
+const ESC_FILE = path.resolve(process.cwd(), "data/national/esc-classification.json");
+
+export function loadEscCriteria(): { generated_at: string; method: string; criteria: CriterionEvidence[] } | null {
+  if (!existsSync(ESC_FILE)) return null;
+  return JSON.parse(readFileSync(ESC_FILE, "utf-8"));
+}
 
 export function loadCriteria(): { generated_at: string; method: string; criteria: CriterionEvidence[] } | null {
   if (!existsSync(FILE)) return null;

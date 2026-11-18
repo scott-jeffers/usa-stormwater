@@ -2,6 +2,16 @@
 
 Dataset versions use `YEAR.MONTH.PATCH`. The site always serves the latest version; the files listed on [/data/](https://www.stormwateratlas.com/data/) are rebuilt on every deploy.
 
+## 2026.11.2 — 2026-11-18
+
+**Data**
+- New construction erosion and sediment control evidence: 154 values read by hand from 68 state and local manuals in 33 states, across nine criteria (basin threshold, trap and basin storage, stabilization deadline, inspection interval and storm trigger, silt fence limits, construction entrance length, natural buffer). `data/national/esc-checks.json`, download `esc-checks.csv`; classified with `npm run national:classify` into `esc-classification.json`.
+
+**Model manual — Draft 0.4**
+- New Part B, Sections 12–16: construction scope and plans, stabilization, sediment controls, inspection and closeout, and how construction controls hand over to permanent practices. Set against the federal construction permit (EPA CGP, 40 CFR 450).
+- Near-consensus values: inspect every 7 days (21 of 23 states) and within 24 h of 0.5 in of rain; stabilize within 14 days; sediment basins above 5 acres; 3,600 cf of storage per acre.
+- Two new open questions: a 7-day stabilization deadline for sensitive waters or wet seasons, and the 5-acre versus federal 10-acre basin threshold.
+
 ## 2026.11.1 — 2026-11-18
 
 **Data**

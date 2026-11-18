@@ -90,6 +90,14 @@ function main() {
     writeFileSync(path.join(PUB, "hand-checks.csv"), h.join("\n") + "\n");
   }
 
+  const escSrc = path.join(ROOT, "data/national/esc-checks.json");
+  if (existsSync(escSrc)) {
+    const ev = JSON.parse(readFileSync(escSrc, "utf-8")).values as Rec[];
+    const h = [row(["n", "criterion", "state", "slug", "level", "value", "verdict", "page", "quote", "note"])];
+    for (const v of ev) h.push(row([v.n, v.param, v.state, v.slug, v.level, v.value, v.verdict, v.page, v.quote, v.note ?? v.reason]));
+    writeFileSync(path.join(PUB, "esc-checks.csv"), h.join("\n") + "\n");
+  }
+
   const dictionary = {
     dataset_version: DATASET_VERSION,
     note: "fill_rate is the share of records with their own rules (stand-ins excluded) that state the field.",
@@ -110,7 +118,7 @@ function main() {
     license_spdx: "CC-BY-4.0",
     citation: `Stormwater Atlas (${DATASET_VERSION}). U.S. stormwater design manual database. https://www.stormwateratlas.com/data/`,
     changelog: "https://github.com/scott-jeffers/usa-stormwater/blob/main/CHANGELOG.md",
-    files: ["/data/manuals.csv", "/data/values.csv", "/data/design-storms.csv", "/data/hand-checks.csv", "/data/dictionary.json", "/data/manuals.json", "/data/schema.json"],
+    files: ["/data/manuals.csv", "/data/values.csv", "/data/design-storms.csv", "/data/hand-checks.csv", "/data/esc-checks.csv", "/data/dictionary.json", "/data/manuals.json", "/data/schema.json"],
   };
   writeFileSync(path.join(PUB, "dataset.json"), JSON.stringify(dataset, null, 2) + "\n");
 

@@ -1,7 +1,7 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
 import { loadManual, parseManual } from "../lib/manual/parse";
-import { CRITERION_CLAUSE, loadCriteria } from "../lib/national/modelManual";
+import { CRITERION_CLAUSE, ESC_CRITERION_CLAUSE, loadCriteria, loadEscCriteria } from "../lib/national/modelManual";
 import { csvCell } from "../scripts/export-research";
 import { parseCsv } from "../components/ValuesTable";
 
@@ -26,6 +26,12 @@ test("the real manual: unique clause numbers, every criterion's clause exists an
     assert.ok(c, `clause ${n} for ${k} missing`);
     const crit = loadCriteria()?.criteria.find((x) => x.key === k);
     if (crit && crit.class !== "insufficient") assert.equal(c!.grade, "E1", `${n} should be E1`);
+  }
+  for (const [k, n] of Object.entries(ESC_CRITERION_CLAUSE)) {
+    const c = m.clauses.find((x) => x.number === n);
+    assert.ok(c, `Part B clause ${n} for ${k} missing`);
+    assert.equal(c!.grade, "E1", `${n} should be E1`);
+    assert.ok(loadEscCriteria()?.criteria.some((x) => x.key === k), `${k} missing from esc-classification.json`);
   }
 });
 

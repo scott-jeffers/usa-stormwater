@@ -1,0 +1,1247 @@
+{
+ "generated_at": "2026-11-18T18:28:31.549Z",
+ "part": "B: construction erosion and sediment control (state and local manuals)",
+ "method": "One value per state (median of hand-checked state-level records). Agreement = share of states within ±10% of the most common value. Climate = eta² across NOAA U.S. climate regions with a 10,000-shuffle permutation p-value. Classes: insufficient (<8 states), consensus (agreement ≥ 50%), climate-linked (p < 0.10, suggestive), divergent (otherwise).",
+ "criteria": [
+  {
+   "key": "basin_threshold_acres",
+   "label": "Drainage area needing a sediment basin",
+   "unit": "acres",
+   "reads_as": "drainage area above which a sediment basin (not a trap) is required",
+   "states": 19,
+   "records": 31,
+   "excluded": 1,
+   "min": 3,
+   "median": 5,
+   "max": 10,
+   "distinct_values": 3,
+   "most_common": 5,
+   "agreement": 0.63,
+   "climate_eta2": 0.74,
+   "climate_p": 0.0144,
+   "class": "consensus",
+   "by_state": [
+    {
+     "state": "AK",
+     "region": "Alaska",
+     "value": 10,
+     "records": 1
+    },
+    {
+     "state": "CA",
+     "region": "West",
+     "value": 5,
+     "records": 2
+    },
+    {
+     "state": "CT",
+     "region": "Northeast",
+     "value": 5,
+     "records": 1
+    },
+    {
+     "state": "FL",
+     "region": "Southeast",
+     "value": 5,
+     "records": 1
+    },
+    {
+     "state": "ID",
+     "region": "Northwest",
+     "value": 5,
+     "records": 1
+    },
+    {
+     "state": "IL",
+     "region": "Ohio Valley",
+     "value": 5,
+     "records": 1
+    },
+    {
+     "state": "IN",
+     "region": "Ohio Valley",
+     "value": 5,
+     "records": 1
+    },
+    {
+     "state": "KS",
+     "region": "South",
+     "value": 10,
+     "records": 1
+    },
+    {
+     "state": "KY",
+     "region": "Ohio Valley",
+     "value": 5,
+     "records": 3
+    },
+    {
+     "state": "MA",
+     "region": "Northeast",
+     "value": 5,
+     "records": 1
+    },
+    {
+     "state": "MN",
+     "region": "Upper Midwest",
+     "value": 10,
+     "records": 1
+    },
+    {
+     "state": "NY",
+     "region": "Northeast",
+     "value": 5,
+     "records": 1
+    },
+    {
+     "state": "OH",
+     "region": "Ohio Valley",
+     "value": 5,
+     "records": 1
+    },
+    {
+     "state": "RI",
+     "region": "Northeast",
+     "value": 5,
+     "records": 2
+    },
+    {
+     "state": "SC",
+     "region": "Southeast",
+     "value": 10,
+     "records": 2
+    },
+    {
+     "state": "TN",
+     "region": "Ohio Valley",
+     "value": 5,
+     "records": 3
+    },
+    {
+     "state": "TX",
+     "region": "South",
+     "value": 10,
+     "records": 2
+    },
+    {
+     "state": "VA",
+     "region": "Southeast",
+     "value": 3,
+     "records": 2
+    },
+    {
+     "state": "WA",
+     "region": "Northwest",
+     "value": 3,
+     "records": 4
+    }
+   ],
+   "by_region": [
+    {
+     "region": "Northeast",
+     "states": 4,
+     "median": 5,
+     "min": 5,
+     "max": 5
+    },
+    {
+     "region": "Upper Midwest",
+     "states": 1,
+     "median": 10,
+     "min": 10,
+     "max": 10
+    },
+    {
+     "region": "Ohio Valley",
+     "states": 5,
+     "median": 5,
+     "min": 5,
+     "max": 5
+    },
+    {
+     "region": "Southeast",
+     "states": 3,
+     "median": 5,
+     "min": 3,
+     "max": 10
+    },
+    {
+     "region": "South",
+     "states": 2,
+     "median": 10,
+     "min": 10,
+     "max": 10
+    },
+    {
+     "region": "Northwest",
+     "states": 2,
+     "median": 4,
+     "min": 3,
+     "max": 5
+    },
+    {
+     "region": "West",
+     "states": 1,
+     "median": 5,
+     "min": 5,
+     "max": 5
+    },
+    {
+     "region": "Alaska",
+     "states": 1,
+     "median": 10,
+     "min": 10,
+     "max": 10
+    }
+   ]
+  },
+  {
+   "key": "basin_storage_cf_per_acre",
+   "label": "Sediment basin or trap storage",
+   "unit": "cf/acre",
+   "reads_as": "minimum storage per acre draining to a sediment trap or basin",
+   "states": 16,
+   "records": 17,
+   "excluded": 1,
+   "min": 1800,
+   "median": 3460.5,
+   "max": 3600,
+   "distinct_values": 5,
+   "most_common": 3600,
+   "agreement": 0.56,
+   "climate_eta2": 0.53,
+   "climate_p": 0.2919,
+   "class": "consensus",
+   "by_state": [
+    {
+     "state": "AK",
+     "region": "Alaska",
+     "value": 3600,
+     "records": 1
+    },
+    {
+     "state": "AL",
+     "region": "Southeast",
+     "value": 3600,
+     "records": 1
+    },
+    {
+     "state": "AR",
+     "region": "South",
+     "value": 3321,
+     "records": 1
+    },
+    {
+     "state": "CA",
+     "region": "West",
+     "value": 1809,
+     "records": 1
+    },
+    {
+     "state": "DE",
+     "region": "Northeast",
+     "value": 3600,
+     "records": 1
+    },
+    {
+     "state": "FL",
+     "region": "Southeast",
+     "value": 3600,
+     "records": 1
+    },
+    {
+     "state": "ID",
+     "region": "Northwest",
+     "value": 1800,
+     "records": 1
+    },
+    {
+     "state": "IN",
+     "region": "Ohio Valley",
+     "value": 1800,
+     "records": 1
+    },
+    {
+     "state": "KY",
+     "region": "Ohio Valley",
+     "value": 3600,
+     "records": 1
+    },
+    {
+     "state": "MN",
+     "region": "Upper Midwest",
+     "value": 1800,
+     "records": 1
+    },
+    {
+     "state": "NY",
+     "region": "Northeast",
+     "value": 3600,
+     "records": 1
+    },
+    {
+     "state": "OH",
+     "region": "Ohio Valley",
+     "value": 1800,
+     "records": 1
+    },
+    {
+     "state": "PA",
+     "region": "Northeast",
+     "value": 2000,
+     "records": 1
+    },
+    {
+     "state": "TN",
+     "region": "Ohio Valley",
+     "value": 1809,
+     "records": 1
+    },
+    {
+     "state": "TX",
+     "region": "South",
+     "value": 3600,
+     "records": 2
+    },
+    {
+     "state": "WV",
+     "region": "Ohio Valley",
+     "value": 3600,
+     "records": 1
+    }
+   ],
+   "by_region": [
+    {
+     "region": "Northeast",
+     "states": 3,
+     "median": 3600,
+     "min": 2000,
+     "max": 3600
+    },
+    {
+     "region": "Upper Midwest",
+     "states": 1,
+     "median": 1800,
+     "min": 1800,
+     "max": 1800
+    },
+    {
+     "region": "Ohio Valley",
+     "states": 5,
+     "median": 1809,
+     "min": 1800,
+     "max": 3600
+    },
+    {
+     "region": "Southeast",
+     "states": 2,
+     "median": 3600,
+     "min": 3600,
+     "max": 3600
+    },
+    {
+     "region": "South",
+     "states": 2,
+     "median": 3460.5,
+     "min": 3321,
+     "max": 3600
+    },
+    {
+     "region": "Northwest",
+     "states": 1,
+     "median": 1800,
+     "min": 1800,
+     "max": 1800
+    },
+    {
+     "region": "West",
+     "states": 1,
+     "median": 1809,
+     "min": 1809,
+     "max": 1809
+    },
+    {
+     "region": "Alaska",
+     "states": 1,
+     "median": 3600,
+     "min": 3600,
+     "max": 3600
+    }
+   ]
+  },
+  {
+   "key": "stabilization_days",
+   "label": "Time to stabilize inactive areas",
+   "unit": "days",
+   "reads_as": "days within which disturbed areas must be stabilized once work stops or final grade is reached",
+   "states": 15,
+   "records": 26,
+   "excluded": 1,
+   "min": 5,
+   "median": 14,
+   "max": 14,
+   "distinct_values": 5,
+   "most_common": 14,
+   "agreement": 0.6,
+   "climate_eta2": 0.32,
+   "climate_p": 0.722,
+   "class": "consensus",
+   "by_state": [
+    {
+     "state": "AK",
+     "region": "Alaska",
+     "value": 14,
+     "records": 1
+    },
+    {
+     "state": "AR",
+     "region": "South",
+     "value": 14,
+     "records": 1
+    },
+    {
+     "state": "FL",
+     "region": "Southeast",
+     "value": 7,
+     "records": 1
+    },
+    {
+     "state": "IL",
+     "region": "Ohio Valley",
+     "value": 10.5,
+     "records": 2
+    },
+    {
+     "state": "KY",
+     "region": "Ohio Valley",
+     "value": 14,
+     "records": 3
+    },
+    {
+     "state": "MD",
+     "region": "Northeast",
+     "value": 14,
+     "records": 1
+    },
+    {
+     "state": "MI",
+     "region": "Upper Midwest",
+     "value": 5,
+     "records": 1
+    },
+    {
+     "state": "MN",
+     "region": "Upper Midwest",
+     "value": 14,
+     "records": 1
+    },
+    {
+     "state": "OH",
+     "region": "Ohio Valley",
+     "value": 7,
+     "records": 1
+    },
+    {
+     "state": "OK",
+     "region": "South",
+     "value": 14,
+     "records": 1
+    },
+    {
+     "state": "OR",
+     "region": "Northwest",
+     "value": 14,
+     "records": 1
+    },
+    {
+     "state": "SC",
+     "region": "Southeast",
+     "value": 14,
+     "records": 2
+    },
+    {
+     "state": "TX",
+     "region": "South",
+     "value": 14,
+     "records": 5
+    },
+    {
+     "state": "VA",
+     "region": "Southeast",
+     "value": 7,
+     "records": 3
+    },
+    {
+     "state": "WA",
+     "region": "Northwest",
+     "value": 6,
+     "records": 2
+    }
+   ],
+   "by_region": [
+    {
+     "region": "Northeast",
+     "states": 1,
+     "median": 14,
+     "min": 14,
+     "max": 14
+    },
+    {
+     "region": "Upper Midwest",
+     "states": 2,
+     "median": 9.5,
+     "min": 5,
+     "max": 14
+    },
+    {
+     "region": "Ohio Valley",
+     "states": 3,
+     "median": 10.5,
+     "min": 7,
+     "max": 14
+    },
+    {
+     "region": "Southeast",
+     "states": 3,
+     "median": 7,
+     "min": 7,
+     "max": 14
+    },
+    {
+     "region": "South",
+     "states": 3,
+     "median": 14,
+     "min": 14,
+     "max": 14
+    },
+    {
+     "region": "Northwest",
+     "states": 2,
+     "median": 10,
+     "min": 6,
+     "max": 14
+    },
+    {
+     "region": "Alaska",
+     "states": 1,
+     "median": 14,
+     "min": 14,
+     "max": 14
+    }
+   ]
+  },
+  {
+   "key": "inspection_days",
+   "label": "Routine inspection interval",
+   "unit": "days",
+   "reads_as": "days between routine erosion and sediment control inspections",
+   "states": 23,
+   "records": 39,
+   "excluded": 0,
+   "min": 7,
+   "median": 7,
+   "max": 14,
+   "distinct_values": 2,
+   "most_common": 7,
+   "agreement": 0.91,
+   "climate_eta2": 0.27,
+   "climate_p": 0.7053,
+   "class": "consensus",
+   "by_state": [
+    {
+     "state": "AK",
+     "region": "Alaska",
+     "value": 7,
+     "records": 1
+    },
+    {
+     "state": "AR",
+     "region": "South",
+     "value": 7,
+     "records": 1
+    },
+    {
+     "state": "CA",
+     "region": "West",
+     "value": 7,
+     "records": 1
+    },
+    {
+     "state": "FL",
+     "region": "Southeast",
+     "value": 7,
+     "records": 2
+    },
+    {
+     "state": "ID",
+     "region": "Northwest",
+     "value": 7,
+     "records": 1
+    },
+    {
+     "state": "IL",
+     "region": "Ohio Valley",
+     "value": 7,
+     "records": 4
+    },
+    {
+     "state": "IN",
+     "region": "Ohio Valley",
+     "value": 7,
+     "records": 1
+    },
+    {
+     "state": "KY",
+     "region": "Ohio Valley",
+     "value": 7,
+     "records": 3
+    },
+    {
+     "state": "MA",
+     "region": "Northeast",
+     "value": 7,
+     "records": 1
+    },
+    {
+     "state": "MI",
+     "region": "Upper Midwest",
+     "value": 7,
+     "records": 1
+    },
+    {
+     "state": "MN",
+     "region": "Upper Midwest",
+     "value": 7,
+     "records": 1
+    },
+    {
+     "state": "NC",
+     "region": "Southeast",
+     "value": 7,
+     "records": 1
+    },
+    {
+     "state": "ND",
+     "region": "Northern Rockies & Plains",
+     "value": 14,
+     "records": 1
+    },
+    {
+     "state": "NE",
+     "region": "Northern Rockies & Plains",
+     "value": 7,
+     "records": 1
+    },
+    {
+     "state": "NY",
+     "region": "Northeast",
+     "value": 7,
+     "records": 1
+    },
+    {
+     "state": "OH",
+     "region": "Ohio Valley",
+     "value": 7,
+     "records": 1
+    },
+    {
+     "state": "OK",
+     "region": "South",
+     "value": 14,
+     "records": 1
+    },
+    {
+     "state": "PA",
+     "region": "Northeast",
+     "value": 7,
+     "records": 2
+    },
+    {
+     "state": "SC",
+     "region": "Southeast",
+     "value": 7,
+     "records": 3
+    },
+    {
+     "state": "SD",
+     "region": "Northern Rockies & Plains",
+     "value": 7,
+     "records": 1
+    },
+    {
+     "state": "TN",
+     "region": "Ohio Valley",
+     "value": 7,
+     "records": 1
+    },
+    {
+     "state": "TX",
+     "region": "South",
+     "value": 7,
+     "records": 5
+    },
+    {
+     "state": "WA",
+     "region": "Northwest",
+     "value": 7,
+     "records": 4
+    }
+   ],
+   "by_region": [
+    {
+     "region": "Northeast",
+     "states": 3,
+     "median": 7,
+     "min": 7,
+     "max": 7
+    },
+    {
+     "region": "Upper Midwest",
+     "states": 2,
+     "median": 7,
+     "min": 7,
+     "max": 7
+    },
+    {
+     "region": "Ohio Valley",
+     "states": 5,
+     "median": 7,
+     "min": 7,
+     "max": 7
+    },
+    {
+     "region": "Southeast",
+     "states": 3,
+     "median": 7,
+     "min": 7,
+     "max": 7
+    },
+    {
+     "region": "Northern Rockies & Plains",
+     "states": 3,
+     "median": 7,
+     "min": 7,
+     "max": 14
+    },
+    {
+     "region": "South",
+     "states": 3,
+     "median": 7,
+     "min": 7,
+     "max": 14
+    },
+    {
+     "region": "Northwest",
+     "states": 2,
+     "median": 7,
+     "min": 7,
+     "max": 7
+    },
+    {
+     "region": "West",
+     "states": 1,
+     "median": 7,
+     "min": 7,
+     "max": 7
+    },
+    {
+     "region": "Alaska",
+     "states": 1,
+     "median": 7,
+     "min": 7,
+     "max": 7
+    }
+   ]
+  },
+  {
+   "key": "inspection_storm_trigger_in",
+   "label": "Storm that triggers an inspection",
+   "unit": "in",
+   "reads_as": "rainfall depth after which controls must be inspected (usually within 24 hours)",
+   "states": 10,
+   "records": 14,
+   "excluded": 0,
+   "min": 0.25,
+   "median": 0.5,
+   "max": 0.5,
+   "distinct_values": 2,
+   "most_common": 0.5,
+   "agreement": 0.9,
+   "climate_eta2": 1,
+   "climate_p": 0.2309,
+   "class": "consensus",
+   "by_state": [
+    {
+     "state": "AK",
+     "region": "Alaska",
+     "value": 0.5,
+     "records": 1
+    },
+    {
+     "state": "AR",
+     "region": "South",
+     "value": 0.5,
+     "records": 1
+    },
+    {
+     "state": "FL",
+     "region": "Southeast",
+     "value": 0.5,
+     "records": 2
+    },
+    {
+     "state": "IL",
+     "region": "Ohio Valley",
+     "value": 0.5,
+     "records": 1
+    },
+    {
+     "state": "KY",
+     "region": "Ohio Valley",
+     "value": 0.5,
+     "records": 3
+    },
+    {
+     "state": "MN",
+     "region": "Upper Midwest",
+     "value": 0.5,
+     "records": 1
+    },
+    {
+     "state": "ND",
+     "region": "Northern Rockies & Plains",
+     "value": 0.25,
+     "records": 1
+    },
+    {
+     "state": "OK",
+     "region": "South",
+     "value": 0.5,
+     "records": 1
+    },
+    {
+     "state": "SC",
+     "region": "Southeast",
+     "value": 0.5,
+     "records": 2
+    },
+    {
+     "state": "TX",
+     "region": "South",
+     "value": 0.5,
+     "records": 1
+    }
+   ],
+   "by_region": [
+    {
+     "region": "Upper Midwest",
+     "states": 1,
+     "median": 0.5,
+     "min": 0.5,
+     "max": 0.5
+    },
+    {
+     "region": "Ohio Valley",
+     "states": 2,
+     "median": 0.5,
+     "min": 0.5,
+     "max": 0.5
+    },
+    {
+     "region": "Southeast",
+     "states": 2,
+     "median": 0.5,
+     "min": 0.5,
+     "max": 0.5
+    },
+    {
+     "region": "Northern Rockies & Plains",
+     "states": 1,
+     "median": 0.25,
+     "min": 0.25,
+     "max": 0.25
+    },
+    {
+     "region": "South",
+     "states": 3,
+     "median": 0.5,
+     "min": 0.5,
+     "max": 0.5
+    },
+    {
+     "region": "Alaska",
+     "states": 1,
+     "median": 0.5,
+     "min": 0.5,
+     "max": 0.5
+    }
+   ]
+  },
+  {
+   "key": "silt_fence_drainage_acres_per_100ft",
+   "label": "Silt fence drainage area",
+   "unit": "acres per 100 ft",
+   "reads_as": "maximum drainage area per 100 ft of silt fence",
+   "states": 7,
+   "records": 7,
+   "excluded": 0,
+   "min": 0.23,
+   "median": 0.25,
+   "max": 0.5,
+   "distinct_values": 3,
+   "most_common": 0.25,
+   "agreement": 0.71,
+   "climate_eta2": 0.66,
+   "climate_p": 0.615,
+   "class": "insufficient",
+   "by_state": [
+    {
+     "state": "AK",
+     "region": "Alaska",
+     "value": 0.25,
+     "records": 1
+    },
+    {
+     "state": "CA",
+     "region": "West",
+     "value": 0.25,
+     "records": 1
+    },
+    {
+     "state": "FL",
+     "region": "Southeast",
+     "value": 0.25,
+     "records": 1
+    },
+    {
+     "state": "ID",
+     "region": "Northwest",
+     "value": 0.23,
+     "records": 1
+    },
+    {
+     "state": "KY",
+     "region": "Ohio Valley",
+     "value": 0.25,
+     "records": 1
+    },
+    {
+     "state": "OH",
+     "region": "Ohio Valley",
+     "value": 0.5,
+     "records": 1
+    },
+    {
+     "state": "TX",
+     "region": "South",
+     "value": 0.5,
+     "records": 1
+    }
+   ],
+   "by_region": [
+    {
+     "region": "Ohio Valley",
+     "states": 2,
+     "median": 0.375,
+     "min": 0.25,
+     "max": 0.5
+    },
+    {
+     "region": "Southeast",
+     "states": 1,
+     "median": 0.25,
+     "min": 0.25,
+     "max": 0.25
+    },
+    {
+     "region": "South",
+     "states": 1,
+     "median": 0.5,
+     "min": 0.5,
+     "max": 0.5
+    },
+    {
+     "region": "Northwest",
+     "states": 1,
+     "median": 0.23,
+     "min": 0.23,
+     "max": 0.23
+    },
+    {
+     "region": "West",
+     "states": 1,
+     "median": 0.25,
+     "min": 0.25,
+     "max": 0.25
+    },
+    {
+     "region": "Alaska",
+     "states": 1,
+     "median": 0.25,
+     "min": 0.25,
+     "max": 0.25
+    }
+   ]
+  },
+  {
+   "key": "silt_fence_slope_length_ft",
+   "label": "Silt fence slope length",
+   "unit": "ft",
+   "reads_as": "maximum slope length draining to a silt fence",
+   "states": 5,
+   "records": 5,
+   "excluded": 0,
+   "min": 100,
+   "median": 100,
+   "max": 150,
+   "distinct_values": 3,
+   "most_common": 100,
+   "agreement": 0.8,
+   "climate_eta2": 0.97,
+   "climate_p": 0.5971,
+   "class": "insufficient",
+   "by_state": [
+    {
+     "state": "FL",
+     "region": "Southeast",
+     "value": 100,
+     "records": 1
+    },
+    {
+     "state": "ID",
+     "region": "Northwest",
+     "value": 150,
+     "records": 1
+    },
+    {
+     "state": "KY",
+     "region": "Ohio Valley",
+     "value": 110,
+     "records": 1
+    },
+    {
+     "state": "NE",
+     "region": "Northern Rockies & Plains",
+     "value": 100,
+     "records": 1
+    },
+    {
+     "state": "TN",
+     "region": "Ohio Valley",
+     "value": 100,
+     "records": 1
+    }
+   ],
+   "by_region": [
+    {
+     "region": "Ohio Valley",
+     "states": 2,
+     "median": 105,
+     "min": 100,
+     "max": 110
+    },
+    {
+     "region": "Southeast",
+     "states": 1,
+     "median": 100,
+     "min": 100,
+     "max": 100
+    },
+    {
+     "region": "Northern Rockies & Plains",
+     "states": 1,
+     "median": 100,
+     "min": 100,
+     "max": 100
+    },
+    {
+     "region": "Northwest",
+     "states": 1,
+     "median": 150,
+     "min": 150,
+     "max": 150
+    }
+   ]
+  },
+  {
+   "key": "construction_entrance_length_ft",
+   "label": "Construction entrance length",
+   "unit": "ft",
+   "reads_as": "minimum length of a stabilized construction entrance",
+   "states": 6,
+   "records": 6,
+   "excluded": 0,
+   "min": 50,
+   "median": 50,
+   "max": 75,
+   "distinct_values": 3,
+   "most_common": 50,
+   "agreement": 0.67,
+   "climate_eta2": 1,
+   "climate_p": 1,
+   "class": "insufficient",
+   "by_state": [
+    {
+     "state": "CA",
+     "region": "West",
+     "value": 50,
+     "records": 1
+    },
+    {
+     "state": "MN",
+     "region": "Upper Midwest",
+     "value": 50,
+     "records": 1
+    },
+    {
+     "state": "ND",
+     "region": "Northern Rockies & Plains",
+     "value": 50,
+     "records": 1
+    },
+    {
+     "state": "OH",
+     "region": "Ohio Valley",
+     "value": 70,
+     "records": 1
+    },
+    {
+     "state": "TX",
+     "region": "South",
+     "value": 50,
+     "records": 1
+    },
+    {
+     "state": "VA",
+     "region": "Southeast",
+     "value": 75,
+     "records": 1
+    }
+   ],
+   "by_region": [
+    {
+     "region": "Upper Midwest",
+     "states": 1,
+     "median": 50,
+     "min": 50,
+     "max": 50
+    },
+    {
+     "region": "Ohio Valley",
+     "states": 1,
+     "median": 70,
+     "min": 70,
+     "max": 70
+    },
+    {
+     "region": "Southeast",
+     "states": 1,
+     "median": 75,
+     "min": 75,
+     "max": 75
+    },
+    {
+     "region": "Northern Rockies & Plains",
+     "states": 1,
+     "median": 50,
+     "min": 50,
+     "max": 50
+    },
+    {
+     "region": "South",
+     "states": 1,
+     "median": 50,
+     "min": 50,
+     "max": 50
+    },
+    {
+     "region": "West",
+     "states": 1,
+     "median": 50,
+     "min": 50,
+     "max": 50
+    }
+   ]
+  },
+  {
+   "key": "natural_buffer_ft",
+   "label": "Natural buffer from waters",
+   "unit": "ft",
+   "reads_as": "undisturbed natural buffer kept between disturbance and surface waters",
+   "states": 5,
+   "records": 6,
+   "excluded": 0,
+   "min": 50,
+   "median": 50,
+   "max": 50,
+   "distinct_values": 1,
+   "most_common": 50,
+   "agreement": 1,
+   "climate_eta2": 0,
+   "climate_p": 1,
+   "class": "insufficient",
+   "by_state": [
+    {
+     "state": "CA",
+     "region": "West",
+     "value": 50,
+     "records": 1
+    },
+    {
+     "state": "ID",
+     "region": "Northwest",
+     "value": 50,
+     "records": 1
+    },
+    {
+     "state": "ND",
+     "region": "Northern Rockies & Plains",
+     "value": 50,
+     "records": 1
+    },
+    {
+     "state": "OH",
+     "region": "Ohio Valley",
+     "value": 50,
+     "records": 2
+    },
+    {
+     "state": "OR",
+     "region": "Northwest",
+     "value": 50,
+     "records": 1
+    }
+   ],
+   "by_region": [
+    {
+     "region": "Ohio Valley",
+     "states": 1,
+     "median": 50,
+     "min": 50,
+     "max": 50
+    },
+    {
+     "region": "Northern Rockies & Plains",
+     "states": 1,
+     "median": 50,
+     "min": 50,
+     "max": 50
+    },
+    {
+     "region": "Northwest",
+     "states": 2,
+     "median": 50,
+     "min": 50,
+     "max": 50
+    },
+    {
+     "region": "West",
+     "states": 1,
+     "median": 50,
+     "min": 50,
+     "max": 50
+    }
+   ]
+  }
+ ]
+}

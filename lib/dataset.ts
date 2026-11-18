@@ -1,5 +1,5 @@
 /** Dataset version and research field dictionary (used by export-research and /data/). */
-export const DATASET_VERSION = "2026.11.1";
+export const DATASET_VERSION = "2026.11.2";
 
 /** Field dictionary: the research-facing meaning of every value field. */
 export const FIELDS: Record<string, { label: string; unit: string; type: "number" | "list" | "text"; meaning: string }> = {

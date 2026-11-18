@@ -21,8 +21,10 @@ import { readFileSync, writeFileSync } from "node:fs";
 import path from "node:path";
 
 const ROOT = process.cwd();
-const IN = path.join(ROOT, "data/national/hand-checks.json");
-const OUT = path.join(ROOT, "data/national/criteria-classification.json");
+// --part=esc classifies Part B (construction erosion and sediment control)
+const PART = process.argv.find((a) => a.startsWith("--part="))?.slice(7) ?? "a";
+const IN = path.join(ROOT, PART === "esc" ? "data/national/esc-checks.json" : "data/national/hand-checks.json");
+const OUT = path.join(ROOT, PART === "esc" ? "data/national/esc-classification.json" : "data/national/criteria-classification.json");
 
 /** NOAA NCEI U.S. climate regions (contiguous U.S.), plus Alaska and Hawaii. */
 export const CLIMATE_REGIONS: Record<string, string[]> = {
@@ -54,6 +56,18 @@ export const CRITERIA: Record<string, { label: string; unit: string; reads_as: s
   infiltration_safety_factor: { label: "Infiltration safety factor", unit: "factor", reads_as: "factor the measured infiltration rate is divided by to get the design rate" },
 };
 
+export const ESC_CRITERIA: Record<string, { label: string; unit: string; reads_as: string }> = {
+  basin_threshold_acres: { label: "Drainage area needing a sediment basin", unit: "acres", reads_as: "drainage area above which a sediment basin (not a trap) is required" },
+  basin_storage_cf_per_acre: { label: "Sediment basin or trap storage", unit: "cf/acre", reads_as: "minimum storage per acre draining to a sediment trap or basin" },
+  stabilization_days: { label: "Time to stabilize inactive areas", unit: "days", reads_as: "days within which disturbed areas must be stabilized once work stops or final grade is reached" },
+  inspection_days: { label: "Routine inspection interval", unit: "days", reads_as: "days between routine erosion and sediment control inspections" },
+  inspection_storm_trigger_in: { label: "Storm that triggers an inspection", unit: "in", reads_as: "rainfall depth after which controls must be inspected (usually within 24 hours)" },
+  silt_fence_drainage_acres_per_100ft: { label: "Silt fence drainage area", unit: "acres per 100 ft", reads_as: "maximum drainage area per 100 ft of silt fence" },
+  silt_fence_slope_length_ft: { label: "Silt fence slope length", unit: "ft", reads_as: "maximum slope length draining to a silt fence" },
+  construction_entrance_length_ft: { label: "Construction entrance length", unit: "ft", reads_as: "minimum length of a stabilized construction entrance" },
+  natural_buffer_ft: { label: "Natural buffer from waters", unit: "ft", reads_as: "undisturbed natural buffer kept between disturbance and surface waters" },
+};
+
 const median = (xs: number[]) => {
   const s = [...xs].sort((a, b) => a - b), m = s.length >> 1;
   return s.length % 2 ? s[m]! : (s[m - 1]! + s[m]!) / 2;
@@ -80,7 +94,7 @@ function main() {
     values: Array<{ param: string; state: string; slug: string; value: number; verdict: string }>;
   };
   const rand = rng(20261118);
-  const criteria = Object.entries(CRITERIA).map(([key, meta]) => {
+  const criteria = Object.entries(PART === "esc" ? ESC_CRITERIA : CRITERIA).map(([key, meta]) => {
     const kept = checks.values.filter((v) => v.param === key && v.verdict !== "excluded");
     const byState = new Map<string, number[]>();
     for (const v of kept) byState.set(v.state, [...(byState.get(v.state) ?? []), v.value]);
@@ -145,6 +159,7 @@ function main() {
     JSON.stringify(
       {
         generated_at: new Date().toISOString(),
+        part: PART === "esc" ? "B: construction erosion and sediment control (state and local manuals)" : "A: permanent stormwater (state-level manuals)",
         method:
           "One value per state (median of hand-checked state-level records). Agreement = share of states within ±10% of the most common value. Climate = eta² across NOAA U.S. climate regions with a 10,000-shuffle permutation p-value. Classes: insufficient (<8 states), consensus (agreement ≥ 50%), climate-linked (p < 0.10, suggestive), divergent (otherwise).",
         criteria,

@@ -61,7 +61,7 @@
     "national:rewrite-voice": "tsx scripts/national/rewrite-voice.ts",
     "national:spotcheck-heroes": "tsx scripts/national/spotcheck-heroes.ts",
     "national:refresh-core": "tsx scripts/national/refresh-core-parents.ts",
-    "national:classify": "tsx scripts/national/classify-criteria.ts",
+    "national:classify": "tsx scripts/national/classify-criteria.ts && tsx scripts/national/classify-criteria.ts --part=esc",
     "national:smoke": "tsx scripts/national/smoke-check.ts"
   },
   "dependencies": {

@@ -22,6 +22,7 @@ const FILES = [
   { href: "/data/design-storms.csv", name: "design-storms.csv", what: "One row per design storm per manual, with what it is used for (water quality, channel protection, peak control, conveyance, flood) and the source sentence." },
   { href: "/data/manuals.csv", name: "manuals.csv", what: "One row per manual record: jurisdiction, level, edition, whose rules apply (coverage basis), quote-check counts and source links." },
   { href: "/data/hand-checks.csv", name: "hand-checks.csv", what: "Values read by hand for the model manual, with verdict, page and quote." },
+  { href: "/data/esc-checks.csv", name: "esc-checks.csv", what: "Construction erosion and sediment control values read by hand from state and local manuals (Part B of the model manual), with page and quote." },
   { href: "/data/dictionary.json", name: "dictionary.json", what: "Every field, its meaning, unit and fill rate." },
   { href: "/data/manuals.json", name: "manuals.json", what: "Index of all records (JSON API). Full records at /data/manuals/{slug}.json." },
   { href: "/data/schema.json", name: "schema.json", what: "Record shape and API endpoints." },

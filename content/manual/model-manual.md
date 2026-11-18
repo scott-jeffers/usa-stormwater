@@ -1,6 +1,6 @@
 ---
 title: Model Stormwater Design Manual
-version: Public Review Draft 0.3
+version: Public Review Draft 0.4
 date: 2026-11-18
 status: Draft for committee review. Not adopted by any agency.
 ---
@@ -24,13 +24,15 @@ Each provision also carries an evidence grade, explained in Appendix A:
 
 "Shall" marks a requirement and "should" a recommendation. Where a permit, TMDL or local rule is stricter, it controls.
 
+**Changes in Draft 0.4.** Adds Part B, construction-phase erosion and sediment control (Sections 12–16). Its numbers come from 154 values read by hand in 68 state and local manuals across 33 states, set against the federal construction permit, which every site of 1 acre or more must already meet.
+
 **Changes in Draft 0.3.** Every numeric value in the atlas (1,107) was read by hand against its source quote and labelled as a minimum, maximum or design value; 48 values were corrected and 52 removed (for example, construction sediment basins and pond maintenance drains that had been read as design rules). The atlas now records what each design storm is for, which settles most of the design-storm evidence in 3.4–3.6. Water-quality depths stated as runoff rather than rainfall are now counted separately (3.2). With the corrected values, maximum drawdown again shows a suggestive regional pattern (6.0.1).
 
 **Changes from Draft 0.1 to 0.2.** Hand-checked evidence grew from 147 to 249 values (224 kept) across 39 states, and five more criteria were read by hand. Channel-protection detention time (3.4), the TSS target (3.3), the infiltration safety factor (5.3), the pond length-to-width ratio (6.5.3) and the extended-detention release time (6.6.1) are now E1. With 27 states instead of 21, maximum drawdown no longer shows a regional pattern, so Draft 0.2 drops the regional drawdown table and makes drawdown an open question (6.0.1). Each key provision now has a short rationale.
 
 ## 1 Purpose, scope and applicability
 
-This manual sets minimum design standards for permanent stormwater management on new development and redevelopment.
+This manual sets minimum design standards for permanent stormwater management on new development and redevelopment (Part A, Sections 1–11) and for erosion and sediment control while sites are under construction (Part B, Sections 12–16).
 
 **1.1 Purpose.** Protect water quality, stream channels and property from the effects of development, using consistent criteria that designers can apply across state lines.
 
@@ -49,7 +51,7 @@ This manual sets minimum design standards for permanent stormwater management on
 - routine maintenance that keeps the original line, grade and hydraulic capacity, or
 - emergency work, which must be brought into compliance once the emergency ends.
 
-**1.5 Relationship to other requirements.** Where an NPDES permit, TMDL, state rule or local ordinance is stricter, the stricter requirement controls. This manual does not cover conveyance design (see ANSI/ASCE/EWRI 45-16) or erosion and sediment control during construction.
+**1.5 Relationship to other requirements.** Where an NPDES permit, TMDL, state rule or local ordinance is stricter, the stricter requirement controls. This manual does not cover conveyance design (see ANSI/ASCE/EWRI 45-16). Part B (Sections 12–16) covers erosion and sediment control during construction.
 
 ## 2 Definitions
 
@@ -311,6 +313,90 @@ Where a site cannot meet Section 3 on site, the owner may meet it elsewhere or p
 
 **11.3 Variances.** [Default, E0] A variance from a specific provision may be granted where the applicant shows the provision cannot be met, the alternative achieves the same performance standard, and the variance is the minimum needed. Each variance and its basis shall be recorded.
 
+## 12 Part B: construction scope and plans
+
+Part B sets the minimum controls for keeping soil on a site while it is being built. It adds design numbers to the federal construction permit (EPA's Construction General Permit and the construction and development rule, 40 CFR 450), which already applies to every site Part B covers; where that permit or a state permit is stricter, it controls.
+
+**12.1 Applicability.** [Default, E3] Part B applies to land disturbance of 1 acre or more, or less than 1 acre when part of a larger common plan of development, the federal permit threshold (192 of 253 manuals use a 1-acre threshold).
+
+**12.2 Erosion and sediment control plan.** [Default, E0] Before disturbance, prepare a plan showing limits of disturbance, phasing, drainage areas to each control, the controls of Sections 13–15 with their sizes, the stabilization schedule, and the inspection schedule of Section 16. The plan may be part of the permit's stormwater pollution prevention plan.
+
+**12.3 Install controls first.** [Default, E0] Install perimeter and sediment controls downslope of each area before it is disturbed, and keep them until the area is stabilized.
+
+**12.4 Limit and phase disturbance.** [Default, E0] Disturb only what can be stabilized under Section 13, and phase large sites so that exposed areas are as small as practical at any one time.
+
+## 13 Erosion prevention and stabilization
+
+Keeping soil in place is cheaper and more reliable than catching it afterwards, so stabilization comes first.
+
+**13.1 Stabilization deadline.** [Default, E1] Begin stabilizing a disturbed area immediately once work there stops and will not resume for 14 days or more, or once it reaches final grade, and complete stabilization **within 14 days** (9 of 15 states read by hand; 5 states require 5–7 days).
+
+> Why: 14 days matches the federal permit, so sites face one deadline rather than two. A shorter deadline helps most on steep or highly erodible sites and in wet seasons.
+
+- *Open question:* should sites draining to impaired or high-quality waters, or working through the wet season, stabilize within 7 days, as Virginia, Ohio and Florida require for all sites and Spokane requires in its wet season?
+
+**13.2 Stockpiles.** [Default, E0] Cover or stabilize soil stockpiles not used for 14 days, and keep them out of drainage paths and away from inlets and waters.
+
+**13.3 Slopes and channels.** [Default, E0] Protect slopes steeper than 3:1 and all concentrated-flow channels with erosion control blankets, matting or equivalent within the deadline of 13.1.
+
+**13.4 Natural buffer.** [Default, E1 (thin)] Keep an undisturbed natural buffer of **50 ft** from surface waters, or install controls that achieve the same sediment reduction (all 5 states that state a buffer use 50 ft, as the federal permit does).
+
+**13.5 Final stabilization.** [Default, E0] Final stabilization means permanent vegetation over at least 70% of the natural cover density, or permanent non-vegetative cover, on all disturbed areas.
+
+## 14 Sediment controls
+
+Where soil does move, catch it on site. The right control depends on how much area drains to it.
+
+| Drainage area to one point | Minimum sediment control |
+| --- | --- |
+| Sheet flow from small areas | Silt fence or equivalent perimeter control (14.4) |
+| Up to 5 acres | Sediment trap (14.2) |
+| More than 5 acres | Sediment basin (14.1–14.3) |
+
+**14.1 Sediment basin threshold.** [Default, E1] Where more than **5 acres** drain to one point, provide a sediment basin; below that a sediment trap may be used (12 of 19 states read by hand use 5 acres; 5 use the federal 10 acres; Washington and Virginia use 3 acres).
+
+> Why: 5 acres is the most common limit for traps, which lose efficiency on larger areas. The federal permit requires basins only from 10 acres, so this is a stricter, evidence-based default; a state may keep 10 acres if it relies on the federal permit alone.
+
+**14.2 Storage volume.** [Default, E1] Sediment traps and basins shall provide at least **3,600 cubic feet of storage per acre drained** (134 cubic yards), or the runoff from the 2-year, 24-hour storm if that is calculated (8 of 16 states read by hand use 3,600 cf/acre; 7 states give 1,800–2,000 cf/acre, mostly for one of the two zones of a basin or for small traps).
+
+- **14.2.1** [Default, E0] In basins, split the storage equally between a wet sediment-storage zone and a dry dewatering zone (1,800 cf per acre each).
+
+**14.3 Basin outlets and dewatering.** [Default, E1 (thin)] Withdraw water from the surface (a skimmer or equivalent) and dewater the dry zone over no less than **48 hours** (Ohio and PennDOT; PennDOT caps it at 7 days). Provide an emergency spillway for the 10-year storm (E0).
+
+**14.4 Silt fence.** [Default, E1 (thin)] Limit the drainage area to **0.25 acre per 100 ft** of fence (5 of 7 states use 0.23–0.25 acre) and the slope length above the fence to **100 ft** (4 of 5 states use 100–110 ft), shorter on steeper slopes. Install fence on the contour, with the ends turned upslope, and never across concentrated flow.
+
+**14.5 Construction entrances.** [Default, E1 (thin)] Stabilize every vehicle exit with an aggregate pad at least **50 ft long** (4 of 6 states; Ohio uses 70 ft and Fairfax County 75 ft) and 6 in thick, and remove any sediment tracked onto paved roads by the end of each work day (E0).
+
+**14.6 Inlet protection.** [Default, E0] Protect every storm drain inlet that receives runoff from disturbed areas, without causing flooding of roads or buildings.
+
+**14.7 Dewatering discharges.** [Default, E0] Do not discharge water pumped from excavations unless it is treated to remove sediment first, as the federal rule requires.
+
+## 15 Inspection, maintenance and closeout
+
+Controls fail quietly, so they must be checked on a fixed schedule and after storms.
+
+**15.1 Inspection frequency.** [Default, E1] A qualified person shall inspect all controls at least **every 7 days** (21 of 23 states read by hand) and **within 24 hours after 0.5 in of rain** or more (9 of 10 states that set a trigger).
+
+> Why: weekly inspection is close to universal. The 0.5 in trigger catches the storms that overtop or undercut controls.
+
+**15.2 Corrective action.** [Default, E0] Repair or replace a failed control by the end of the next work day where feasible, and within 7 days at the latest; record what was found and done.
+
+**15.3 Sediment removal.** [Default, E0] Remove sediment from traps and basins when it fills half of the wet storage, and from behind silt fence when it reaches one third of the fence height.
+
+**15.4 Records.** [Default, E0] Keep inspection reports on site, or available electronically, until final stabilization.
+
+**15.5 Closeout.** [Default, E0] Remove temporary controls only after final stabilization (13.5), and stabilize the areas they occupied.
+
+## 16 Part B and Part A together
+
+Some construction controls become permanent practices, so the two parts must be designed together.
+
+**16.1 Converting basins.** [Default, E0] A sediment basin may become a permanent wet pond or extended detention basin only if it is cleaned out, regraded and brought to the standards of Section 6 before final approval.
+
+**16.2 Protecting infiltration areas.** [Default, E0] Do not use areas planned for infiltration (Section 5) as sediment traps, basins or staging areas, and keep construction traffic off them (8.1).
+
+**16.3 Sequencing.** [Default, E0] Build permanent infiltrating practices last, after their drainage area is stabilized.
+
 ## Appendix A: Evidence behind each provision
 
 The grade counts above are computed from this text. Every provision marked E0 is a placeholder for the committee.
@@ -319,6 +405,8 @@ The grade counts above are computed from this text. Every provision marked E0 is
 - **E2** values from all atlas manuals whose quote was found word-for-word in the source PDF. Numeric values were also read by hand against their quotes (data/qa/value-review.json); design-storm purposes are assigned automatically from requirement sentences (in a spot check of 30 storms, 21 got a purpose and 16 of those were right).
 - **E3** the number of the 253 distinct manuals whose text states the rule, by text search. This shows how common a rule is, not that the manual requires exactly that value.
 - **E0** common engineering practice with no atlas evidence yet.
+
+In Part B, E1 means values read by hand in every atlas manual with its own rules (state and local), because many states publish their construction handbooks separately from the manuals in the atlas: 154 values from 68 manuals in 33 states ([esc-checks.json](https://github.com/scott-jeffers/usa-stormwater/blob/main/data/national/esc-checks.json)).
 
 | Provision | Value | Grade | Evidence |
 | --- | --- | --- | --- |
@@ -350,8 +438,16 @@ The grade counts above are computed from this text. Every provision marked E0 is
 | 7.3 Freeboard | 1 ft | E3 | 87 of 253 manuals |
 | 7.4 Side slopes | 3:1 | E3 | 106 of 253 manuals |
 | 8.4–8.5 Maintenance | agreement, annual inspection | E3 | 125 and 120 of 253 manuals |
+| 13.1 Stabilization deadline | 14 days | E1 | 9 of 15 states; 5 use 5–7 days |
+| 13.4 Natural buffer | 50 ft | E1 (thin) | all 5 states that state one |
+| 14.1 Sediment basin threshold | 5 acres | E1 | 12 of 19 states; 5 use 10 acres |
+| 14.2 Trap and basin storage | 3,600 cf/acre | E1 | 8 of 16 states; 7 give 1,800–2,000 cf/acre for one zone or small traps |
+| 14.3 Basin dewatering | 48 h minimum | E1 (thin) | 2 states |
+| 14.4 Silt fence | 0.25 acre per 100 ft; 100 ft slope | E1 (thin) | 5 of 7 states (0.23–0.25 acre) and 4 of 5 (100–110 ft) |
+| 14.5 Construction entrance | 50 ft | E1 (thin) | 4 of 6 states |
+| 15.1 Inspections | every 7 days; after 0.5 in of rain | E1 | 21 of 23 and 9 of 10 states |
 
-The state-level evidence still leans on the Northeast, which supplies 8–10 of the states for most E1 values. Arkansas and Nevada have no state manual in the atlas, and most western and Plains states are represented only by DOT drainage manuals, which rarely set post-construction criteria.
+The state-level evidence still leans on the Northeast, which supplies 8–10 of the states for most E1 values. Arkansas and Nevada have no state manual in the atlas, and most western and Plains states are represented only by DOT drainage manuals, which rarely set post-construction criteria. Part B evidence is thinner still: many states publish their construction erosion and sediment control handbooks separately, and most of those are not yet in the atlas.
 
 ## Appendix B: Open questions for the committee
 
@@ -365,4 +461,6 @@ These decisions set the size and cost of most practices. Each is marked [Open] i
 6. **Wet-pond depth (6.5.2):** confirm 4–8 ft once more states are read.
 7. **Rational-method limit (4.3):** 20 acres, or another limit?
 8. **Fee in lieu (11.2):** require a published, cost-based rate formula?
-9. **Evidence gaps:** before adoption, replace each E0 placeholder with E1 or E2 evidence, and add the western and southern state manuals missing from the atlas.
+9. **Construction stabilization (13.1):** 14 days for all sites, with 7 days for sensitive waters or wet seasons?
+10. **Sediment basin threshold (14.1):** 5 acres (most states) or the federal 10 acres?
+11. **Evidence gaps:** before adoption, replace each E0 placeholder with E1 or E2 evidence, and add the western and southern state manuals missing from the atlas.
