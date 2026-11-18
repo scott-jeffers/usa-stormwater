@@ -140,6 +140,17 @@ For a second, independent reading of each PDF (recommended — some PDFs lose di
 
 A quote passes only if it is verbatim, or a close in-order match with **every number identical**. Text whose numbers were dropped by the PDF's text layer is marked *couldn't check* instead of passing or failing. Results go to `data/qa/evidence.json` (committed; the site shows a per-quote label and a link to the PDF page) and `data/qa/EVIDENCE.md`. Re-run it after any extraction, enrichment or excerpt repair, then commit both files. The pipeline's `verify` stage uses the same matcher (`lib/qa/evidenceMatch.ts`, tested in `tests/`).
 
+### Routine QA (run monthly, or after any data change)
+
+```bash
+npm run qa              # alt-text → evidence check → repair & find-quotes (dry runs) → coverage report
+npm run qa:freshness    # are the source PDFs still there, and have any changed?
+```
+
+`npm run qa` changes nothing except the reports in `data/qa/` and `data/coverage/`; read `REPAIR.md` and `FIND-QUOTES.md`, then re-run the repair or find-quotes step without `--dry-run` if the proposed changes look right. `qa:freshness` sends one HEAD request per source PDF and compares status, `Last-Modified`, `ETag` and size with the last run (`data/qa/freshness.json`, committed); `data/qa/FRESHNESS.md` lists broken links and files that changed, which usually means a new edition to re-ingest. Run it from your own computer: many agency sites block cloud servers.
+
+Readers can report a wrong value with the "Report an error" links on each record page; they open a prefilled GitHub issue (`.github/ISSUE_TEMPLATE/data-error.yml`, label `data-error`).
+
 ## Finding missing manuals (coverage gaps)
 
 The ingest queue is hand-curated. To find jurisdictions that should have a stormwater manual but are not in the atlas yet (e.g. San Francisco):
@@ -206,10 +217,12 @@ Do not paste API keys into Netlify env settings for this project.
 ## Dashboard features
 
 - **Search** by jurisdiction name or document title.
-- **Filters** by jurisdiction level, agency (DOT / DEP·DEQ), state, confidence, and "needs review only".
+- **Filters** by jurisdiction level, agency (DOT / DEP·DEQ), state, confidence, and coverage basis.
 - **Coverage map** — clickable US map; city dots for municipalities with coords.
 - **Group by state** — flat table or state-grouped sections.
 - **Detail pages** — each field with verbatim evidence, source PDF / agency links, related manuals in-state.
+- **Compare** (`/compare/`) — up to four jurisdictions side by side, each value with its citation check; shareable via `?m=slug,slug`.
+- **Report an error** — every value links to a prefilled GitHub issue.
 
 ## Project structure
 

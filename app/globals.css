@@ -89,3 +89,8 @@ body {
     linear-gradient(180deg, var(--body-top) 0%, var(--background) 40%, var(--body-bottom) 100%);
   color: var(--foreground);
 }
+
+/* Source quotes can contain long unbroken runs (URLs, leader dots, rules). */
+blockquote {
+  overflow-wrap: anywhere;
+}

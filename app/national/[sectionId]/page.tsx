@@ -1,3 +1,4 @@
+import { displayQuote } from "@/lib/displayExcerpt";
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
@@ -319,7 +320,7 @@ export default async function NationalSectionPage({
                         )}
                       </div>
                       <blockquote className="mt-1 text-sm italic leading-relaxed text-fg-secondary">
-                        “{ref.excerpt}”
+                        “{displayQuote(ref.excerpt)}”
                       </blockquote>
                     </li>
                   );
@@ -385,7 +386,7 @@ export default async function NationalSectionPage({
                               )}
                             </div>
                             <blockquote className="mt-1 text-sm italic leading-relaxed text-fg-secondary">
-                              “{c.excerpt}”
+                              “{displayQuote(c.excerpt)}”
                             </blockquote>
                           </li>
                         ))}

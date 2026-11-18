@@ -38,6 +38,8 @@
     "qa:alt-text": "tsx scripts/qa/build-alt-text.ts",
     "qa:repair": "tsx scripts/qa/repair-evidence.ts",
     "qa:find-quotes": "tsx scripts/qa/find-quotes.ts",
+    "qa": "npm run -s qa:alt-text && npm run -s qa:evidence && npm run -s qa:repair -- --dry-run && npm run -s qa:find-quotes -- --dry-run && npm run -s coverage:report",
+    "qa:freshness": "tsx scripts/qa/check-freshness.ts",
     "pipeline:repair-excerpts": "tsx scripts/pipeline/repair-excerpts.ts",
     "pipeline:corpus": "tsx scripts/pipeline/run.ts --stage corpus",
     "pipeline:extract": "tsx scripts/pipeline/run.ts --stage extract",

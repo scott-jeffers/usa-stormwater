@@ -9,7 +9,10 @@ import { mkdir, rm, writeFile } from "node:fs/promises";
 import { existsSync, readFileSync, readdirSync } from "node:fs";
 import path from "node:path";
 import { getEvidenceQa } from "../lib/qa/load";
-import { getAllManuals, getManualLoadErrors, revisionDateFromMetadata } from "../lib/data";
+import { getCompareRows } from "../lib/compare";
+import { getAllManuals, getManualBySlug, getManualLoadErrors, revisionDateFromMetadata } from "../lib/data";
+
+const getManualBySlugOrNull = (slug: string) => getManualBySlug(slug)?.data ?? null;
 import {
   getAllDraftSections,
   getNationalOutline,
@@ -151,11 +154,24 @@ async function main() {
     "utf8"
   );
 
+  const compareRows = getCompareRows();
+  const effective = new Map(compareRows.map((r) => [r.slug, r]));
+  await writeFile(
+    path.join(PUBLIC_DATA, "compare.json"),
+    JSON.stringify({ generated_at: generatedAt, count: compareRows.length, rows: compareRows }) + "\n",
+    "utf8"
+  );
+
   for (const record of manuals) {
+    const row = effective.get(record.slug);
+    const effective_design =
+      row && row.design_from !== record.slug
+        ? { from: row.design_from, design_criteria: getManualBySlugOrNull(row.design_from)?.design_criteria, design_parameters: getManualBySlugOrNull(row.design_from)?.design_parameters }
+        : undefined;
     await writeFile(
       path.join(MANUALS_DIR, `${record.slug}.json`),
       JSON.stringify(
-        { ...record.data, citation_check: getEvidenceQa(record.slug) },
+        { ...record.data, effective_design, citation_check: getEvidenceQa(record.slug) },
         null,
         2
       ) + "\n",

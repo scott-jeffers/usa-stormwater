@@ -1,3 +1,4 @@
+import { reportErrorHref } from "@/lib/reportError";
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
@@ -244,6 +245,20 @@ export default async function ManualDetailPage({
                     Official agency page ↗
                   </a>
                 )}
+                <Link
+                  href={`/compare/?m=${slug}`}
+                  className="font-medium text-water-link hover:text-water-deep hover:underline"
+                >
+                  Compare with others
+                </Link>
+                <a
+                  href={reportErrorHref(slug)}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="font-medium text-fg-subtle hover:text-water-link hover:underline"
+                >
+                  Report an error ↗
+                </a>
               </div>
             )}
             {!primarySourceUrl && (

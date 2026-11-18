@@ -1,0 +1,35 @@
+name: Report a data error
+description: A value, quote, link or date on Stormwater Atlas is wrong or out of date.
+title: "Data error: "
+labels: ["data-error"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks — corrections are checked against the source manual before they go live.
+        If you came from a "Report an error" link, the record and field are already filled in.
+  - type: input
+    id: record
+    attributes:
+      label: Record (slug)
+      description: The last part of the page address, e.g. `austin-tx`.
+      placeholder: austin-tx
+    validations:
+      required: true
+  - type: input
+    id: field
+    attributes:
+      label: Field
+      description: Which value is wrong (e.g. `design_storms`), or "other".
+  - type: textarea
+    id: problem
+    attributes:
+      label: What is wrong, and what should it say?
+      description: Please cite the manual section or PDF page if you can.
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Source link (optional)
+      description: A link to the current manual or the page that shows the correct value.

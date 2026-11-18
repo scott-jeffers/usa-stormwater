@@ -163,3 +163,10 @@ test("unicode fractions match their slash spelling", () => {
   const t = new SourceIndex([{ page: 2, text: "treat the first ½ inch of runoff from impervious surfaces" }]);
   assert.equal(matchExcerpt(t, "treat the first 1/2 inch of runoff from impervious surfaces").status, "exact");
 });
+
+test("displayQuote tidies page markers and marks clipped quotes", async () => {
+  const { displayQuote } = await import("../lib/displayExcerpt");
+  assert.equal(displayQuote("ting centerline is above grade"), "…ting centerline is above grade…");
+  assert.equal(displayQuote("Ponds shall drain in 72 hours."), "Ponds shall drain in 72 hours.");
+  assert.equal(displayQuote("Intro --- page 2 --- Chapter 3 ........ 5"), "Intro … Chapter 3 … 5…");
+});

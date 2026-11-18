@@ -100,3 +100,22 @@ test("every slug referenced by national drafts and practices is a real document"
   for (const f of list(dir)) walk(JSON.parse(readFileSync(f, "utf-8")), path.relative(dir, f));
   assert.deepEqual(bad, []);
 });
+
+test("compare rows: shared-manual members carry the representative's design values", async () => {
+  const { getCompareRows } = await import("../lib/compare");
+  const { loadSharedManuals } = await import("../lib/sharedManuals");
+  const rows = getCompareRows();
+  const bySlug = new Map(rows.map((r) => [r.slug, r]));
+  assert.equal(rows.length, readdirSync(path.resolve("data/documents")).filter((f) => f.endsWith(".json")).length);
+  for (const g of loadSharedManuals()?.groups ?? []) {
+    const rep = bySlug.get(g.representative);
+    if (!rep) continue;
+    for (const { slug: m } of g.members) {
+      const row = bySlug.get(m);
+      if (!row || m === g.representative) continue;
+      assert.equal(row.design_from, g.representative, m);
+      assert.deepEqual(row.storms, rep.storms, m);
+      assert.deepEqual(row.params, rep.params, m);
+    }
+  }
+});

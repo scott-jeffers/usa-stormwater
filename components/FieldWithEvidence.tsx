@@ -1,6 +1,8 @@
 import type { ReactNode } from "react";
 import type { StormwaterData } from "@/lib/schema";
 import type { EvidenceQaRecord, ExcerptQa } from "@/lib/qa/types";
+import { reportErrorHref } from "@/lib/reportError";
+import { displayQuote } from "@/lib/displayExcerpt";
 import { findEvidence, isFieldNotFound } from "@/lib/evidence";
 
 type Evidence = StormwaterData["evidence"][number];
@@ -103,7 +105,7 @@ export function FieldWithEvidence({
   const empty = notFound || value === null || value === undefined || value === "";
 
   return (
-    <div className="grid grid-cols-1 gap-3 border-b border-edge py-4 last:border-b-0 sm:grid-cols-2">
+    <div className="group grid grid-cols-1 gap-3 border-b border-edge py-4 last:border-b-0 sm:grid-cols-2">
       <div>
         <div className="text-xs font-medium uppercase tracking-wide text-fg-subtle">
           {label}
@@ -128,7 +130,7 @@ export function FieldWithEvidence({
               key={i}
               className="rounded-md border border-edge border-l-4 border-l-water/40 bg-mist/40 px-3 py-2 text-xs text-fg-secondary"
             >
-              <p className="italic">&ldquo;{ev.excerpt}&rdquo;</p>
+              <p className="italic">&ldquo;{displayQuote(ev.excerpt)}&rdquo;</p>
               {ev.page_or_section && (
                 <p className="mt-1 font-medium text-fg-subtle">{ev.page_or_section}</p>
               )}
@@ -137,6 +139,18 @@ export function FieldWithEvidence({
           ))
         ) : (
           <p className="text-xs text-fg-faint">No evidence cited</p>
+        )}
+        {slug && (
+          <p className="text-[11px] text-fg-faint transition-opacity sm:opacity-0 sm:group-hover:opacity-100 sm:group-focus-within:opacity-100">
+            <a
+              href={reportErrorHref(slug, fieldPath, label)}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-water-link hover:underline"
+            >
+              Report an error in this value
+            </a>
+          </p>
         )}
         {matches.length > MAX_EXCERPTS && (
           <p className="text-xs text-fg-subtle">
