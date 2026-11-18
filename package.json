@@ -35,6 +35,7 @@
     "pipeline:verify-report": "tsx scripts/pipeline/verify-report.ts",
     "qa:evidence": "tsx scripts/qa/check-evidence.ts",
     "qa:normalize": "tsx scripts/qa/normalize-documents.ts",
+    "qa:alt-text": "tsx scripts/qa/build-alt-text.ts",
     "pipeline:repair-excerpts": "tsx scripts/pipeline/repair-excerpts.ts",
     "pipeline:corpus": "tsx scripts/pipeline/run.ts --stage corpus",
     "pipeline:extract": "tsx scripts/pipeline/run.ts --stage extract",

@@ -6,6 +6,7 @@
  *   npm run qa:evidence -- ga-state     # selected slugs
  *
  * Needs data/corpus/<slug>/pages.json (gitignored; built by pipeline:corpus).
+ * Also uses pages-alt.json (npm run qa:alt-text) when present.
  * Writes the committed results the website reads:
  *   data/qa/evidence.json   per-record, per-excerpt results
  *   data/qa/EVIDENCE.md     human-readable summary
@@ -32,8 +33,7 @@ import {
 const DOCS = path.resolve(process.cwd(), "data/documents");
 const CORPUS = path.resolve(process.cwd(), "data/corpus");
 
-function loadPages(slug: string): SourcePage[] | null {
-  const p = path.join(CORPUS, slug, "pages.json");
+function readPagesFile(p: string): SourcePage[] | null {
   if (!existsSync(p)) return null;
   const raw = JSON.parse(readFileSync(p, "utf-8")) as {
     pages: Array<{ page: string | number; text: string }>;
@@ -42,6 +42,16 @@ function loadPages(slug: string): SourcePage[] | null {
     page: Number.isFinite(Number(pg.page)) ? Number(pg.page) : i + 1,
     text: pg.text ?? "",
   }));
+}
+
+/**
+ * Page text from every available extractor: the pipeline's pages.json and,
+ * when built (npm run qa:alt-text), pdftotext's pages-alt.json.
+ */
+function loadPageSources(slug: string): SourcePage[][] {
+  return ["pages.json", "pages-alt.json"]
+    .map((f) => readPagesFile(path.join(CORPUS, slug, f)))
+    .filter((p): p is SourcePage[] => p != null && p.length > 0);
 }
 
 const NUMERIC_PARAM_SKIP = new Set(["enrich_schema_version"]);
@@ -109,10 +119,16 @@ function valueWarnings(doc: StormwaterData): QaWarning[] {
   return out;
 }
 
-function checkRecord(slug: string, doc: StormwaterData, pages: SourcePage[]): EvidenceQaRecord {
-  const index = new SourceIndex(pages);
+const RANK = { exact: 0, fuzzy: 1, unverifiable: 2, fail: 3 } as const;
+
+function checkRecord(slug: string, doc: StormwaterData, sources: SourcePage[][]): EvidenceQaRecord {
+  const indexes = sources.map((p) => new SourceIndex(p));
   const excerpts = doc.evidence.map((e) => {
-    const r = matchExcerpt(index, e.excerpt);
+    // Best result across extractors: a quote counts as found if any
+    // independent reading of the PDF contains it.
+    const r = indexes
+      .map((ix) => matchExcerpt(ix, e.excerpt))
+      .reduce((a, b) => (RANK[b.status] < RANK[a.status] || (RANK[b.status] === RANK[a.status] && b.score > a.score) ? b : a));
     return {
       field: e.field,
       status: r.status,
@@ -130,7 +146,8 @@ function checkRecord(slug: string, doc: StormwaterData, pages: SourcePage[]): Ev
   return {
     slug,
     checked_at: new Date().toISOString(),
-    corpus_pages: pages.length,
+    corpus_pages: sources[0]!.length,
+    text_sources: sources.length,
     counts,
     excerpts,
     warnings,
@@ -233,12 +250,12 @@ function main() {
   let noCorpus = 0;
   for (const slug of slugs) {
     const doc = stormwaterSchema.parse(JSON.parse(readFileSync(path.join(DOCS, `${slug}.json`), "utf-8")));
-    const pages = loadPages(slug);
-    if (!pages) {
+    const sources = loadPageSources(slug);
+    if (sources.length === 0) {
       noCorpus += 1;
       continue;
     }
-    const rec = checkRecord(slug, doc, pages);
+    const rec = checkRecord(slug, doc, sources);
     records[slug] = rec;
     checked += 1;
     if (rec.status !== "passed") {

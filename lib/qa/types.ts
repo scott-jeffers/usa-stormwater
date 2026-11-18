@@ -27,6 +27,8 @@ export const evidenceQaRecordSchema = z.object({
   slug: z.string(),
   checked_at: z.string(),
   corpus_pages: z.number().int(),
+  /** How many independent text extractions were checked (1 or 2). */
+  text_sources: z.number().int().optional(),
   status: z.enum(["passed", "warnings", "failed"]),
   counts: z.object({
     exact: z.number(),
