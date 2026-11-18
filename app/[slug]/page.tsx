@@ -85,7 +85,7 @@ export default async function ManualDetailPage({
       <main className="space-y-6">
         <nav aria-label="Breadcrumb" className="text-sm text-fg-muted">
           <Link href="/" className="font-medium text-water-link hover:text-water-deep hover:underline">
-            &larr; Back to dashboard
+            &larr; All manuals
           </Link>
         </nav>
         <div className="rounded-xl border border-dashed border-edge-strong bg-surface p-10 text-center text-fg-muted">
@@ -191,7 +191,7 @@ export default async function ManualDetailPage({
     <main className="space-y-6">
       <nav aria-label="Breadcrumb" className="text-sm text-fg-muted">
         <Link href="/" className="font-medium text-water-link hover:text-water-deep hover:underline">
-          &larr; Back to dashboard
+          &larr; All manuals
         </Link>
       </nav>
 

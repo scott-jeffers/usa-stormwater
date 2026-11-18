@@ -10,17 +10,17 @@ export function SiteHeader() {
           className="group flex min-w-0 items-center gap-2 text-ink sm:gap-2.5 transition-opacity hover:opacity-80"
         >
           <BrandMark className="h-6 w-6 shrink-0 sm:h-7 sm:w-7" />
-          <span className="whitespace-nowrap font-display text-[15px] font-semibold tracking-tight sm:text-lg">
+          <span className="whitespace-nowrap font-display text-[15px] font-semibold tracking-tight max-[399px]:sr-only sm:text-lg">
             Stormwater Atlas
           </span>
         </Link>
         <nav aria-label="Main" className="flex shrink-0 items-center gap-2.5 text-[13px] sm:gap-4 sm:text-sm">
           <Link
-            href="/national/"
+            href="/national/model-manual/"
             className="font-medium text-fg-secondary transition-colors hover:text-water-link"
           >
-            <span className="sm:hidden">Practices</span>
-            <span className="hidden sm:inline">Practice synthesis</span>
+            <span className="sm:hidden">National</span>
+            <span className="hidden sm:inline">National manual</span>
           </Link>
           <Link
             href="/compare/"

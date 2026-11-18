@@ -53,9 +53,15 @@ export default function RootLayout({
         <script dangerouslySetInnerHTML={{ __html: THEME_BOOT_SCRIPT }} />
       </head>
       <body className="min-h-screen font-sans text-foreground antialiased">
+        <a
+          href="#content"
+          className="sr-only focus:not-sr-only focus:fixed focus:left-3 focus:top-3 focus:z-50 focus:rounded-md focus:bg-surface focus:px-3 focus:py-2 focus:text-sm focus:font-medium focus:text-water-link focus:shadow"
+        >
+          Skip to content
+        </a>
         <SiteHeader />
         <div className="mx-auto flex min-h-[calc(100vh-3.5rem)] max-w-6xl flex-col px-4 py-8 sm:px-6 lg:px-8">
-          <div className="flex-1">{children}</div>
+          <div id="content" className="flex-1">{children}</div>
           <Footer />
         </div>
       </body>

@@ -40,7 +40,7 @@ export default function AboutPage() {
       <header className="space-y-3">
         <p className="text-sm font-medium text-water">
           <Link href="/" className="hover:underline">
-            ← Back to atlas
+            ← All manuals
           </Link>
         </p>
         <h1 className="font-display text-3xl font-semibold tracking-tight text-ink sm:text-4xl">

@@ -74,6 +74,8 @@ function revisionSortTime(value: string | null | undefined): number {
 
 export function ManualsExplorer({ manuals }: { manuals: ManualListItem[] }) {
   const [search, setSearch] = useState("");
+  // phones: the search box first, the other filters one tap away
+  const [showFilters, setShowFilters] = useState(false);
   const [levelFilter, setLevelFilter] = useState<string>("all");
   const [agencyFilter, setAgencyFilter] = useState<string>("all");
   const [stateFilter, setStateFilter] = useState<string | null>(null);
@@ -316,7 +318,7 @@ export function ManualsExplorer({ manuals }: { manuals: ManualListItem[] }) {
             />
           </div>
 
-          <div>
+          <div className={showFilters ? "" : "hidden sm:block"}>
             <label htmlFor="filter-level" className="mb-1 block text-xs font-medium text-fg-muted">
               Level
             </label>
@@ -334,7 +336,7 @@ export function ManualsExplorer({ manuals }: { manuals: ManualListItem[] }) {
             </select>
           </div>
 
-          <div>
+          <div className={showFilters ? "" : "hidden sm:block"}>
             <label htmlFor="filter-agency" className="mb-1 block text-xs font-medium text-fg-muted">
               Agency
             </label>
@@ -350,7 +352,7 @@ export function ManualsExplorer({ manuals }: { manuals: ManualListItem[] }) {
             </select>
           </div>
 
-          <div>
+          <div className={showFilters ? "" : "hidden sm:block"}>
             <label htmlFor="filter-state" className="mb-1 block text-xs font-medium text-fg-muted">
               State
             </label>
@@ -370,7 +372,7 @@ export function ManualsExplorer({ manuals }: { manuals: ManualListItem[] }) {
             </select>
           </div>
 
-          <div>
+          <div className={showFilters ? "" : "hidden sm:block"}>
             <label htmlFor="filter-confidence" className="mb-1 block text-xs font-medium text-fg-muted">
               Confidence
             </label>
@@ -386,7 +388,7 @@ export function ManualsExplorer({ manuals }: { manuals: ManualListItem[] }) {
             </select>
           </div>
 
-          <div>
+          <div className={showFilters ? "" : "hidden sm:block"}>
             <label htmlFor="filter-coverage" className="mb-1 block text-xs font-medium text-fg-muted">
               Coverage
             </label>
@@ -404,8 +406,17 @@ export function ManualsExplorer({ manuals }: { manuals: ManualListItem[] }) {
             </select>
           </div>
 
+          <button
+            type="button"
+            onClick={() => setShowFilters((v) => !v)}
+            aria-expanded={showFilters}
+            className="h-9 text-left text-sm font-medium text-water-link hover:underline sm:hidden"
+          >
+            {showFilters ? "Fewer filters" : "More filters"}
+          </button>
+
           <div className="flex flex-wrap items-end gap-x-4 gap-y-2 sm:col-span-2 lg:col-span-4">
-            <label className="flex h-9 items-center gap-2 text-sm text-fg-secondary">
+            <label className={`${showFilters ? "flex" : "hidden sm:flex"} h-9 items-center gap-2 text-sm text-fg-secondary`}>
               <input
                 type="checkbox"
                 checked={needsReviewOnly}
@@ -415,7 +426,7 @@ export function ManualsExplorer({ manuals }: { manuals: ManualListItem[] }) {
               Needs review only
             </label>
 
-            <label className="flex h-9 items-center gap-2 text-sm text-fg-secondary">
+            <label className={`${showFilters ? "flex" : "hidden sm:flex"} h-9 items-center gap-2 text-sm text-fg-secondary`}>
               <input
                 type="checkbox"
                 checked={groupByState}

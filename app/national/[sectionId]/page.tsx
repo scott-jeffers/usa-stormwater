@@ -108,7 +108,7 @@ export default async function NationalSectionPage({
           href="/national/"
           className="font-medium text-water-link hover:text-water-deep hover:underline"
         >
-          Practice synthesis
+          ← National synthesis
         </Link>
         {parent && (
           <>

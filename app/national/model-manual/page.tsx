@@ -74,7 +74,7 @@ export default function ModelManualPage() {
       <header className="space-y-3">
         <p className="text-sm font-medium text-water">
           <Link href="/national/" className="hover:underline">
-            ← Practice synthesis
+            ← National synthesis
           </Link>
         </p>
         <h1 className="font-display text-3xl font-semibold tracking-tight text-ink sm:text-4xl">

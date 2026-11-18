@@ -16,7 +16,7 @@ export default function FederalIndexPage() {
       <div className="space-y-3">
         <p className="text-sm text-fg-muted">
           <Link href="/" className="text-water-deep hover:underline">
-            ← Atlas
+            ← All manuals
           </Link>
         </p>
         <h1 className="font-display text-3xl font-semibold text-ink">

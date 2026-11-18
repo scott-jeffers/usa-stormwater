@@ -67,7 +67,7 @@ export default async function PracticePage({
             href="/national/practices/"
             className="text-water-deep hover:underline"
           >
-            ← Practices
+            ← All practices
           </Link>
         </p>
         <h1 className="font-display text-3xl font-semibold text-ink">

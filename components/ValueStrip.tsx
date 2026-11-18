@@ -10,6 +10,9 @@ interface Props {
 }
 
 const fmt = (v: number) => String(Math.round(v * 100) / 100);
+/** A value with its unit, written the way engineers write it (2:1, 24 in, 72 hours). */
+const withUnit = (v: number, unit: string) =>
+  unit === "ratio" ? `${fmt(v)}:1` : `${fmt(v)} ${unit === "inches" ? "in" : unit}`;
 
 export function ValueStrip({ label, unit, values, mode }: Props) {
   if (!values.length) return null;
@@ -30,12 +33,12 @@ export function ValueStrip({ label, unit, values, mode }: Props) {
         const hit = mode != null && Math.abs(v.value - mode) <= 0.1 * mode;
         return (
           <circle key={`${v.name}-${i}`} cx={sx(v.value)} cy={base - 6 - k * 7} r={3.5} className={hit ? "fill-water" : "fill-fg-faint"} opacity={hit ? 1 : 0.55}>
-            <title>{`${v.name}: ${fmt(v.value)} ${unit}`}</title>
+            <title>{`${v.name}: ${withUnit(v.value, unit)}`}</title>
           </circle>
         );
       })}
       <text x={sx(min)} y={base + 18} textAnchor="middle" className="fill-fg-subtle" fontSize={12}>{fmt(min)}</text>
-      <text x={x1 + 8} y={base + 4} className="fill-fg-subtle" fontSize={12}>{`${fmt(max)} ${unit}`}</text>
+      <text x={x1 + 8} y={base + 4} className="fill-fg-subtle" fontSize={12}>{withUnit(max, unit)}</text>
       {mode != null && Math.abs(sx(mode) - sx(min)) > 28 && (
         <text x={sx(mode)} y={base + 18} textAnchor="middle" className="fill-water" fontSize={12} fontWeight={600}>{fmt(mode)}</text>
       )}
@@ -45,12 +48,11 @@ export function ValueStrip({ label, unit, values, mode }: Props) {
 
 /** One plain sentence describing a set of values. */
 export function describeValues(label: string, unit: string, values: number[], mode: number | null): string {
-  const u = unit === "inches" ? "in" : unit;
   if (!values.length) return `${label}: no manual states a value.`;
   const n = values.length;
   const min = Math.min(...values), max = Math.max(...values);
   const atMode = mode == null ? 0 : values.filter((v) => Math.abs(v - mode) <= 0.1 * mode).length;
-  const range = min === max ? `all ${fmt(min)} ${u}` : `${fmt(min)}–${fmt(max)} ${u}`;
-  const common = mode != null && atMode >= 2 ? `; most common ${fmt(mode)} ${u} (${atMode} manuals)` : "";
+  const range = min === max ? `all ${withUnit(min, unit)}` : unit === "ratio" ? `${fmt(min)}:1 to ${fmt(max)}:1` : `${fmt(min)}–${withUnit(max, unit)}`;
+  const common = mode != null && atMode >= 2 ? `; most common ${withUnit(mode, unit)} (${atMode} manuals)` : "";
   return `${label}: ${n} manual${n === 1 ? "" : "s"}, ${range}${common}.`;
 }
