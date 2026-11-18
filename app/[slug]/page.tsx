@@ -13,7 +13,8 @@ import {
   AgencyBadge,
 } from "@/components/Badge";
 import { FieldWithEvidence } from "@/components/FieldWithEvidence";
-import { getJurisdictionVerifyStatus } from "@/lib/pipeline/verifyReport";
+import { getEvidenceQa } from "@/lib/qa/load";
+import { NUMERIC_PARAM_FIELDS } from "@/lib/practices/fields";
 import { inferAgencyCategory, normalizeAgencyCategory } from "@/lib/agencyTypes";
 
 const PLACEHOLDER_SLUG = "_placeholder";
@@ -108,7 +109,19 @@ export default async function ManualDetailPage({
 
   const fieldsNotFound = quality.fields_not_found;
   const primarySourceUrl = source.document_url ?? source.landing_page_url;
-  const verify = getJurisdictionVerifyStatus(slug);
+  const qa = getEvidenceQa(slug);
+  const ev = {
+    evidence,
+    fieldsNotFound,
+    qa,
+    pdfUrl: source.document_url,
+    slug,
+  };
+  const failedQa = qa ? qa.excerpts.filter((x) => x.status === "fail") : [];
+  const dp = data.design_parameters as Record<string, unknown> | undefined;
+  const paramRows = NUMERIC_PARAM_FIELDS.filter(
+    (f) => typeof dp?.[f.field] === "number"
+  );
   const agencyCategory =
     normalizeAgencyCategory(meta.issuing_agency_category) ??
     inferAgencyCategory({
@@ -139,8 +152,8 @@ export default async function ManualDetailPage({
               <ConfidenceBadge confidence={quality.confidence} />
               <NeedsReviewBadge needsReview={quality.needs_human_review} />
               <VerifyBadge
-                status={verify.status}
-                mismatchCount={verify.mismatchCount}
+                status={qa?.status ?? "unknown"}
+                mismatchCount={failedQa.length}
               />
             </div>
             {(source.document_url || source.landing_page_url) && (
@@ -177,15 +190,18 @@ export default async function ManualDetailPage({
           </div>
         </div>
 
-        {verify.status === "failed" && verify.failedFields.length > 0 && (
+        {failedQa.length > 0 && (
           <div className="mt-4 rounded-md border border-rose-200 bg-rose-50 p-3 text-sm text-rose-900 dark:border-rose-500/30 dark:bg-rose-950/40 dark:text-rose-100">
             <p className="font-medium">
-              Corpus verify found citation mismatches for{" "}
-              {verify.mismatchCount} field
-              {verify.mismatchCount === 1 ? "" : "s"}.
+              {failedQa.length} cited quote{failedQa.length === 1 ? " was" : "s were"} not found
+              word-for-word in the source manual.
             </p>
             <p className="mt-1 text-xs text-rose-800/90 dark:text-rose-200/90">
-              {verify.failedFields.join(", ")}
+              Those fields are marked below. Treat their values as unverified until checked
+              against the PDF.{" "}
+              <Link href="/about/#verification" className="font-medium underline">
+                How citations are checked
+              </Link>
             </p>
           </div>
         )}
@@ -253,43 +269,37 @@ export default async function ManualDetailPage({
             label="Jurisdiction level"
             fieldPath="document_metadata.jurisdiction_level"
             value={LEVEL_LABELS[meta.jurisdiction_level]}
-            evidence={evidence}
-            fieldsNotFound={fieldsNotFound}
+            {...ev}
           />
           <FieldWithEvidence
             label="State"
             fieldPath="document_metadata.state_code"
             value={meta.state_code ? STATE_CODE_TO_NAME[meta.state_code] ?? meta.state_code : null}
-            evidence={evidence}
-            fieldsNotFound={fieldsNotFound}
+            {...ev}
           />
           <FieldWithEvidence
             label="Version / edition"
             fieldPath="document_metadata.version_or_edition"
             value={meta.version_or_edition}
-            evidence={evidence}
-            fieldsNotFound={fieldsNotFound}
+            {...ev}
           />
           <FieldWithEvidence
             label="Adoption / effective date"
             fieldPath="document_metadata.adoption_or_effective_date"
             value={meta.adoption_or_effective_date}
-            evidence={evidence}
-            fieldsNotFound={fieldsNotFound}
+            {...ev}
           />
           <FieldWithEvidence
             label="Last revised date"
             fieldPath="document_metadata.last_revised_date"
             value={meta.last_revised_date}
-            evidence={evidence}
-            fieldsNotFound={fieldsNotFound}
+            {...ev}
           />
           <FieldWithEvidence
             label="Relationship to state manual"
             fieldPath="document_metadata.relationship_to_state_manual"
             value={<span className="capitalize">{meta.relationship_to_state_manual.replace(/_/g, " ")}</span>}
-            evidence={evidence}
-            fieldsNotFound={fieldsNotFound}
+            {...ev}
           />
         </div>
       </section>
@@ -307,15 +317,13 @@ export default async function ManualDetailPage({
                     .join(", ")
                 : null
             }
-            evidence={evidence}
-            fieldsNotFound={fieldsNotFound}
+            {...ev}
           />
           <FieldWithEvidence
             label="Water quality volume method"
             fieldPath="design_criteria.water_quality_volume_method"
             value={criteria.water_quality_volume_method}
-            evidence={evidence}
-            fieldsNotFound={fieldsNotFound}
+            {...ev}
           />
           <FieldWithEvidence
             label="Peak flow calculation method(s)"
@@ -325,8 +333,7 @@ export default async function ManualDetailPage({
                 ? criteria.peak_flow_calculation_method.join(", ")
                 : null
             }
-            evidence={evidence}
-            fieldsNotFound={fieldsNotFound}
+            {...ev}
           />
           <FieldWithEvidence
             label="Hydrologic/hydraulic software"
@@ -336,8 +343,7 @@ export default async function ManualDetailPage({
                 ? criteria.required_hydrologic_hydraulic_software.join(", ")
                 : null
             }
-            evidence={evidence}
-            fieldsNotFound={fieldsNotFound}
+            {...ev}
           />
           <FieldWithEvidence
             label="Approved BMP categories"
@@ -347,11 +353,32 @@ export default async function ManualDetailPage({
                 ? criteria.approved_bmp_categories.join(", ")
                 : null
             }
-            evidence={evidence}
-            fieldsNotFound={fieldsNotFound}
+            {...ev}
           />
         </div>
       </section>
+
+      {paramRows.length > 0 && (
+        <section className="rounded-xl border border-edge/80 bg-surface p-6 shadow-sm">
+          <h2 className="font-display text-lg font-semibold text-ink">Design Parameters</h2>
+          <p className="mt-1 text-xs text-fg-muted">
+            Numeric values extracted from the manual. Site-wide values (water-quality depth,
+            drawdown, groundwater separation) size the whole site, not one practice.
+          </p>
+          <div className="mt-2">
+            {paramRows.map((f) => (
+              <FieldWithEvidence
+                key={f.field}
+                label={f.label}
+                fieldPath={`design_parameters.${f.field}`}
+                value={`${dp![f.field] as number} ${f.unit}`}
+                {...ev}
+                fieldsNotFound={[]}
+              />
+            ))}
+          </div>
+        </section>
+      )}
     </main>
   );
 }

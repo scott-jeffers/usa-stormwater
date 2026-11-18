@@ -15,30 +15,18 @@ import {
   type ManifestJob,
 } from "../../lib/pipeline/types";
 import { stormwaterSchema, type StormwaterData } from "../../lib/schema";
+import { SourceIndex, matchExcerpt, type SourcePage } from "../../lib/qa/evidenceMatch";
 
-function normalize(text: string): string {
-  return text
-    .toLowerCase()
-    .replace(/\s+/g, " ")
-    .replace(/[“”]/g, '"')
-    .replace(/[‘’]/g, "'")
-    .trim();
-}
-
-function excerptMatches(corpus: string, excerpt: string): boolean {
-  const hay = normalize(corpus);
-  const needle = normalize(excerpt);
-  if (!needle || needle.length < 12) return false;
-  if (hay.includes(needle)) return true;
-
-  // Soft match: require ~70% of significant words in order-ish presence
-  const words = needle.split(" ").filter((w) => w.length > 3);
-  if (words.length < 3) return hay.includes(needle.slice(0, Math.min(40, needle.length)));
-  let hits = 0;
-  for (const w of words) {
-    if (hay.includes(w)) hits += 1;
-  }
-  return hits / words.length >= 0.7;
+/**
+ * Strict match (see lib/qa/evidenceMatch.ts): verbatim, or a close in-order
+ * match with every number identical. "unverifiable" (PDF text lost the
+ * digits) does not fail the stage but is recorded.
+ */
+function pagesFromChunks(chunks: CorpusChunk[]): SourcePage[] {
+  return chunks.map((c, i) => ({
+    page: c.page_start ?? i + 1,
+    text: c.text,
+  }));
 }
 
 async function loadChunks(slug: string): Promise<CorpusChunk[]> {
@@ -127,11 +115,13 @@ export async function runVerifyStage(
       return "done";
     }
 
+    const index = new SourceIndex(pagesFromChunks(chunks));
     const failedFields: string[] = [];
+    const unverifiableFields: string[] = [];
     for (const ev of doc.evidence) {
-      if (!excerptMatches(corpusText, ev.excerpt)) {
-        failedFields.push(ev.field);
-      }
+      const r = matchExcerpt(index, ev.excerpt);
+      if (r.status === "fail") failedFields.push(ev.field);
+      else if (r.status === "unverifiable") unverifiableFields.push(ev.field);
     }
 
     const verification_passed = failedFields.length === 0;
@@ -144,7 +134,9 @@ export async function runVerifyStage(
       meta: {
         verification_passed,
         failed_fields: failedFields,
+        unverifiable_fields: unverifiableFields,
         evidence_count: doc.evidence.length,
+        matcher: "strict-v1",
       },
     });
     await store.saveAndLog({

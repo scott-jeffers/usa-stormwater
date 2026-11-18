@@ -127,6 +127,17 @@ Crash mid-run? Re-run the same command — completed substeps are skipped. Exist
 
 By default the corpus stage runs **offline heuristics** (`PIPELINE_LLM=heuristic`). `npm run overnight:go` forces Cursor unless you pass `--heuristic`. For a one-off richer corpus/tagging pass, set `PIPELINE_LLM=cursor` after `pipeline:cursor-login`. Model default: `composer-2.5` (`PIPELINE_MODEL`). Delay between AI calls: `PIPELINE_DELAY_MS` (default 2000).
 
+## Citation QA (strict evidence check)
+
+Every excerpt is re-checked against the source PDF's page text, and every extracted number must be stated in its own excerpt:
+
+```bash
+npm run qa:evidence            # all records with a local corpus (data/corpus/, gitignored)
+npm run qa:evidence -- ga-state
+```
+
+A quote passes only if it is verbatim, or a close in-order match with **every number identical**. Text whose numbers were dropped by the PDF's text layer is marked *couldn't check* instead of passing or failing. Results go to `data/qa/evidence.json` (committed; the site shows a per-quote label and a link to the PDF page) and `data/qa/EVIDENCE.md`. Re-run it after any extraction, enrichment or excerpt repair, then commit both files. The pipeline's `verify` stage uses the same matcher (`lib/qa/evidenceMatch.ts`, tested in `tests/`).
+
 ## Finding missing manuals (coverage gaps)
 
 The ingest queue is hand-curated. To find jurisdictions that should have a stormwater manual but are not in the atlas yet (e.g. San Francisco):

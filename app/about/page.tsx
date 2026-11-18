@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { loadEvidenceQa } from "@/lib/qa/load";
 
 export const metadata: Metadata = {
   title: "About",
@@ -9,7 +10,23 @@ export const metadata: Metadata = {
 
 const BASE = "https://stormwateratlas.com";
 
+function qaTotals() {
+  const recs = Object.values(loadEvidenceQa()?.records ?? {});
+  const t = { exact: 0, fuzzy: 0, unverifiable: 0, fail: 0, records: recs.length, passed: 0 };
+  for (const r of recs) {
+    t.exact += r.counts.exact;
+    t.fuzzy += r.counts.fuzzy;
+    t.unverifiable += r.counts.unverifiable;
+    t.fail += r.counts.fail;
+    if (r.status === "passed") t.passed += 1;
+  }
+  const all = t.exact + t.fuzzy + t.unverifiable + t.fail;
+  const pct = (n: number) => (all ? `${Math.round((100 * n) / all)}%` : "–");
+  return { ...t, all, pct };
+}
+
 export default function AboutPage() {
+  const qa = qaTotals();
   return (
     <main className="mx-auto max-w-3xl space-y-12">
       <header className="space-y-3">
@@ -217,6 +234,45 @@ export default function AboutPage() {
           development — use it as a research aid and always verify against the
           current official document.
         </blockquote>
+      </Section>
+
+      <Section title="How citations are checked" id="verification">
+        <p>
+          Every value on a manual page is meant to be backed by a quote from the
+          source PDF. After extraction, an automated check re-reads the PDF&rsquo;s
+          text and looks for each quote. A quote counts as <strong>found</strong>{" "}
+          only if it appears word-for-word, or as a close in-order match where{" "}
+          <strong>every number is identical</strong>. A sentence that merely
+          reuses the manual&rsquo;s vocabulary, or quotes it with a different
+          number, does not pass. Each extracted number must also be stated in its
+          own quote, not derived from it.
+        </p>
+        <p className="mt-3">Each quote on a manual page carries one of these labels:</p>
+        <ul className="mt-2 list-disc space-y-1.5 pl-5 text-sm">
+          <li>
+            <strong className="text-emerald-700 dark:text-emerald-300">✓ Quote found in source</strong>{" "}
+            with a link to the PDF page where it appears.
+          </li>
+          <li>
+            <strong className="text-amber-700 dark:text-amber-300">? Couldn&rsquo;t check</strong>:
+            the words match, but the PDF&rsquo;s text layer dropped the numbers at that
+            spot, so check the page yourself.
+          </li>
+          <li>
+            <strong className="text-rose-700 dark:text-rose-300">✗ Not found in source</strong>:
+            the quote is not in the PDF as written (often a summary written during
+            extraction). Treat the value as unverified.
+          </li>
+        </ul>
+        {qa.all > 0 && (
+          <p className="mt-3 text-sm text-fg-muted">
+            Current results across {qa.records} manuals and {qa.all.toLocaleString()} quotes:{" "}
+            {qa.pct(qa.exact + qa.fuzzy)} found, {qa.pct(qa.unverifiable)} couldn&rsquo;t be
+            checked, {qa.pct(qa.fail)} not found. {qa.passed} manuals pass with no issues.
+            This is a strict machine check. It proves a quote exists, not that it was
+            interpreted correctly.
+          </p>
+        )}
       </Section>
 
       <Section title="Needs review flag" id="needs-review">

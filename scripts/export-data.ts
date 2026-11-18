@@ -8,6 +8,7 @@
 import { mkdir, rm, writeFile } from "node:fs/promises";
 import { existsSync, readFileSync, readdirSync } from "node:fs";
 import path from "node:path";
+import { getEvidenceQa } from "../lib/qa/load";
 import { getAllManuals, revisionDateFromMetadata } from "../lib/data";
 import {
   getAllDraftSections,
@@ -91,6 +92,13 @@ const FIELD_SCHEMA = {
   },
 };
 
+/** Compact citation-check summary for list endpoints (see /about/#verification). */
+function qaSummary(slug: string) {
+  const qa = getEvidenceQa(slug);
+  if (!qa) return null;
+  return { status: qa.status, checked_at: qa.checked_at, counts: qa.counts, warnings: qa.warnings.length };
+}
+
 async function main() {
   const manuals = getAllManuals();
   const generatedAt = new Date().toISOString();
@@ -116,6 +124,7 @@ async function main() {
       },
       processed_at: record.processedAt,
       revised_at: revisionDateFromMetadata(record.data.document_metadata),
+      citation_check: qaSummary(record.slug),
       detail_url: `${SITE_ORIGIN}/${record.slug}/`,
       data_url: `${SITE_ORIGIN}/data/manuals/${record.slug}.json`,
     };
@@ -138,7 +147,11 @@ async function main() {
   for (const record of manuals) {
     await writeFile(
       path.join(MANUALS_DIR, `${record.slug}.json`),
-      JSON.stringify(record.data, null, 2) + "\n",
+      JSON.stringify(
+        { ...record.data, citation_check: getEvidenceQa(record.slug) },
+        null,
+        2
+      ) + "\n",
       "utf8"
     );
   }

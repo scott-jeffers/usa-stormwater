@@ -17,6 +17,7 @@ jobs:
       - run: npm ci
       - run: npm run lint
       - run: npm run typecheck
+      - run: npm test
       # prebuild runs export:data (tsx) — exercises the Linux script toolchain too
       - run: npm run build
       - run: npm run national:smoke

@@ -44,13 +44,27 @@ export function VerifyBadge({
   status,
   mismatchCount = 0,
 }: {
-  status: "passed" | "failed" | "skipped" | "pending" | "running" | "unknown";
+  status:
+    | "passed"
+    | "warnings"
+    | "failed"
+    | "skipped"
+    | "pending"
+    | "running"
+    | "unknown";
   mismatchCount?: number;
 }) {
+  if (status === "warnings") {
+    return (
+      <span className="inline-flex items-center rounded-full bg-amber-50 px-2.5 py-0.5 text-xs font-medium text-amber-900 ring-1 ring-inset ring-amber-700/15 dark:bg-amber-950/50 dark:text-amber-200 dark:ring-amber-400/20">
+        Quotes found · some values to check
+      </span>
+    );
+  }
   if (status === "passed") {
     return (
       <span className="inline-flex items-center rounded-full bg-emerald-50 px-2.5 py-0.5 text-xs font-medium text-emerald-800 ring-1 ring-inset ring-emerald-700/15 dark:bg-emerald-950/50 dark:text-emerald-300 dark:ring-emerald-400/20">
-        Citations verified
+        All quotes found in source
       </span>
     );
   }
@@ -58,8 +72,8 @@ export function VerifyBadge({
     return (
       <span className="inline-flex items-center rounded-full bg-rose-50 px-2.5 py-0.5 text-xs font-medium text-rose-800 ring-1 ring-inset ring-rose-700/15 dark:bg-rose-950/50 dark:text-rose-300 dark:ring-rose-400/20">
         {mismatchCount > 0
-          ? `${mismatchCount} citation mismatch${mismatchCount === 1 ? "" : "es"}`
-          : "Citation mismatches"}
+          ? `${mismatchCount} quote${mismatchCount === 1 ? "" : "s"} not in source`
+          : "Quotes not in source"}
       </span>
     );
   }

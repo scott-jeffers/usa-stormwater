@@ -24,7 +24,7 @@ export interface ManualListItem {
   needs_human_review: boolean;
   document_url: string | null;
   landing_page_url: string | null;
-  /** File mtime when the JSON was last written (ingest/process time). */
+  /** When the source was retrieved/ingested (source.retrieved_at). */
   processedAt: string;
   /**
    * Manual revision / effective date for display.
@@ -79,11 +79,14 @@ function loadManualFromPath(filePath: string, slug: string): ManualRecord | null
       return null;
     }
 
-    const stats = statSync(filePath);
+    // File mtimes are meaningless after a git clone (every file gets the
+    // checkout time), so prefer the recorded retrieval timestamp.
+    const processedAt =
+      result.data.source.retrieved_at ?? statSync(filePath).mtime.toISOString();
     return {
       slug,
       data: result.data,
-      processedAt: stats.mtime.toISOString(),
+      processedAt,
     };
   } catch (error) {
     console.warn(
