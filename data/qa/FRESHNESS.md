@@ -1,8 +1,8 @@
 # Source freshness
 
-Generated 2026-11-18T15:12:34.140Z by `npm run qa:freshness` (253 source URL(s) checked).
+Generated 2026-11-18T15:16:13.795Z by `npm run qa:freshness` (253 source URL(s) checked).
 
-## Broken or blocked (23)
+## Broken or blocked (25)
 
 - `anaheim-ca`: 403 — https://www.anaheim.net/DocumentCenter/View/1077
 - `az-adot-drainage`: 403 — https://azdot.gov/sites/default/files/2019/07/2014_adot_hydrology_manual.pdf
@@ -20,12 +20,14 @@ Generated 2026-11-18T15:12:34.140Z by `npm run qa:freshness` (253 source URL(s) 
 - `mi-mdot-drainage`: 403 — https://www.michigan.gov/mdot/-/media/Project/Websites/MDOT/Business/Design/Drainage-Manual/MDOT-MS4-Chap-07-Drainage-Manual.pdf
 - `michigan-manual`: 403 — https://www.kalcounty.gov/DocumentCenter/View/2059/EGLE-Nonpoint-Source-Best-Management-Practices-Manual-PDF
 - `murfreesboro-tn`: 403 — https://www.murfreesborotn.gov/DocumentCenter/View/420/Stormwater-Planning-and-Low-Impact-Design-Guide
+- `nh-nhdot-drainage`: 403 — https://www.dot.nh.gov/sites/g/files/ehbemt811/files/inline-documents/manual-drainage-design.pdf
 - `roanoke-va`: 403 — https://www.roanokeva.gov/DocumentCenter/View/1181/Chapter-5-Stormwater-Hydrology
 - `salem-or`: 403 — https://www.cityofsalem.net/home/showpublisheddocument/420/639198930718730000
 - `santa-rosa-ca`: 403 — https://www.srcity.org/DocumentCenter/View/14974/2017-Storm-Water-Technical-Design-Manual-Narrative-revised-1621
 - `spokane-wa`: 403 — https://www.spokanecounty.gov/DocumentCenter/View/1640/Spokane-Regional-Stormwater-Manual-PDF
-- `tn-tdot-drainage`: fetch failed — https://www.tn.gov/content/dam/tn/tdot/engineering-production-support/documents/drainage_manual/DM-Chapter_07.pdf
+- `tn-tdot-drainage`: 403 — https://www.tn.gov/content/dam/tn/tdot/engineering-production-support/documents/drainage_manual/DM-Chapter_07.pdf
 - `va-state`: fetch failed — https://swbmpvwrrc.wp.prod.es.cloud.vt.edu/wp-content/uploads/2018/07/31_Chap-8_BMP-Overview-Selection.pdf
+- `west-virginia-manual`: fetch failed — https://apps.dep.wv.gov/Documents/DWWM/Stormwater/Design/West_Virginia_Stormwater_Management_and_Design_Guidance_Manual_FULL_November_2012-v2.pdf
 - `wichita-ks-vol2`: 403 — https://www.wichita.gov/DocumentCenter/View/11104/Volume-2-03---Chapter-1-PDF
 
 ## Known to refuse automated checks (4) — PDF opens in a browser; see data/qa/freshness-notes.json
@@ -35,9 +37,6 @@ Generated 2026-11-18T15:12:34.140Z by `npm run qa:freshness` (253 source URL(s) 
 - `south-salt-lake-ut`: 404 — https://sslc.gov/DocumentCenter/View/1116/SSL-Stormwater-Design-Manual-PDF
 - `wv-wvdoh-drainage`: 404 — https://transportation.wv.gov/highways/engineering/Manuals/Drainage/WVDOH%202007%20Drainage%20Manual%20with%20Addendum%201%20and%202.pdf
 
-## Changed since last run (4) — likely a new edition
+## Changed since last run (0) — likely a new edition
 
-- `seattle-wa-2026`: 200 — https://www.seattle.gov/documents/departments/sdci/codes/stormwatercode/2026stormwatermanualcombined.pdf
-- `seattle-wa`: 200 — https://www.seattle.gov/documents/Departments/SDCI/Codes/ChangesToCodes/UpdatingStormwaterRegulations/2021SWFullManualFinalClean.pdf
-- `tucson-az`: 200 — https://www.tucsonaz.gov/files/sharedassets/public/v/1/pdsd/documents/manuals/cot-drainage-manual-searchable.pdf
-- `wayne-county-mi`: 200 — https://www.waynecountymi.gov/files/assets/mainsite/v/1/environmental-services/documents/land-resource-management/wqm-wcsw-mgmt-plan-9-3-2021.pdf
+_none_
