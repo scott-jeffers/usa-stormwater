@@ -119,3 +119,17 @@ test("compare rows: shared-manual members carry the representative's design valu
     }
   }
 });
+
+test("freshness: ignores weak/strong ETag flips and per-request dates, catches real changes", async () => {
+  const { hasChanged } = await import("../scripts/qa/check-freshness");
+  const base = { url: "u", slugs: ["x"], status: 200, etag: 'W/"abc"', last_modified: "Fri, 06 Apr 2018 18:50:36 GMT", length: "100", checked_at: "2026-11-18T15:00:00Z" };
+  assert.equal(hasChanged(base, { ...base, etag: '"abc"', checked_at: "2026-11-18T15:05:00Z" }), false);
+  assert.equal(hasChanged(
+    { ...base, etag: null, last_modified: "Wed, 18 Nov 2026 15:02:08 GMT" },
+    { ...base, etag: null, last_modified: "Wed, 18 Nov 2026 15:07:00 GMT", checked_at: "2026-11-18T15:07:00Z" }
+  ), false);
+  assert.equal(hasChanged(base, { ...base, length: null }), false);
+  assert.equal(hasChanged(base, { ...base, etag: '"def"' }), true);
+  assert.equal(hasChanged(base, { ...base, length: "200" }), true);
+  assert.equal(hasChanged(base, { ...base, etag: null, last_modified: "Mon, 01 Jun 2026 00:00:00 GMT" }), true);
+});

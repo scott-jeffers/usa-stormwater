@@ -64,6 +64,26 @@ async function probe(url: string): Promise<Omit<Probe, "slugs" | "url" | "checke
   }
 }
 
+/** ETags compare without the weak-validator prefix (servers flip W/ on and off). */
+const etagOf = (e: string | null) => (e ? e.replace(/^W\//, "") : null);
+
+/** A Last-Modified within 2 days of the check is generated per request (CMS document links), not a file date. */
+function stableDate(lm: string | null, checkedAt: string): number | null {
+  if (!lm) return null;
+  const t = Date.parse(lm);
+  if (!Number.isFinite(t)) return null;
+  return Math.abs(Date.parse(checkedAt) - t) < 2 * 86_400_000 ? null : t;
+}
+
+export function hasChanged(before: Probe, now: Probe): boolean {
+  const e1 = etagOf(before.etag), e2 = etagOf(now.etag);
+  if (e1 && e2 && e1 !== e2) return true;
+  if (before.length && now.length && before.length !== now.length) return true;
+  const d1 = stableDate(before.last_modified, before.checked_at);
+  const d2 = stableDate(now.last_modified, now.checked_at);
+  return d1 != null && d2 != null && d1 !== d2;
+}
+
 async function main() {
   const byUrl = new Map<string, string[]>();
   for (const f of readdirSync(DOCS).filter((x) => x.endsWith(".json"))) {
@@ -86,15 +106,7 @@ async function main() {
     const host = (() => { try { return new URL(url).host; } catch { return ""; } })();
     if ((p.status == null || p.status >= 400) && refusesChecks[host]) blocked.push(p);
     else if (p.status == null || p.status >= 400) broken.push(p);
-    else if (
-      before &&
-      before.status != null &&
-      before.status < 400 &&
-      ((p.etag && before.etag && p.etag !== before.etag) ||
-        (p.last_modified && before.last_modified && p.last_modified !== before.last_modified) ||
-        (p.length && before.length && p.length !== before.length))
-    )
-      changed.push(p);
+    else if (before && before.status != null && before.status < 400 && hasChanged(before, p)) changed.push(p);
     results[url] = p;
     process.stdout.write(`${p.status ?? "ERR"} ${url.slice(0, 90)}\n`);
   }
@@ -114,4 +126,4 @@ async function main() {
   }
 }
 
-main();
+if (process.argv[1]?.replace(/\\/g, "/").endsWith("scripts/qa/check-freshness.ts")) main();
