@@ -11,9 +11,10 @@
   --edge: #e2e8f0;
   --edge-strong: #cbd5e1;
   --fg-secondary: #475569;
-  --fg-muted: #64748b;
-  --fg-subtle: #94a3b8;
-  --fg-faint: #cbd5e1;
+  /* text greys meet WCAG AA (4.5:1) on surface, muted and mist backgrounds */
+  --fg-muted: #4b5a6c;
+  --fg-subtle: #56657a;
+  --fg-faint: #5f6e82;
   --ink: #0b1c2c;
   --water: #0e7490;
   --water-deep: #155e75;
@@ -38,9 +39,9 @@
   --edge: #243447;
   --edge-strong: #334155;
   --fg-secondary: #94a3b8;
-  --fg-muted: #7c8c9e;
-  --fg-subtle: #64748b;
-  --fg-faint: #475569;
+  --fg-muted: #a3b1c2;
+  --fg-subtle: #94a3b8;
+  --fg-faint: #8796aa;
   --ink: #e8f2f5;
   --water: #22d3ee;
   --water-deep: #67e8f9;

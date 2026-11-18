@@ -13,16 +13,51 @@ const CONFIDENCE_STYLES: Record<
 
 export function ConfidenceBadge({
   confidence,
+  withLabel = false,
 }: {
   confidence: StormwaterData["extraction_quality"]["confidence"];
+  /** Append "confidence" (for places without a column header). */
+  withLabel?: boolean;
 }) {
   return (
     <span
-      className={`inline-flex items-center rounded-full px-2.5 py-0.5 text-xs font-medium capitalize ring-1 ring-inset ${CONFIDENCE_STYLES[confidence]}`}
+      title="Extraction confidence reported when the manual was processed"
+      className={`inline-flex items-center rounded-full px-2.5 py-0.5 text-xs font-medium ring-1 ring-inset ${CONFIDENCE_STYLES[confidence]}`}
     >
-      {confidence}
+      <span className="capitalize">{confidence}</span>
+      {withLabel && <>&nbsp;confidence</>}
     </span>
   );
+}
+
+/** Compact strict-citation-check status for lists. */
+export function CitationBadge({
+  status,
+}: {
+  status: "passed" | "warnings" | "failed" | null;
+}) {
+  if (status === "passed") {
+    return (
+      <span className="inline-flex items-center rounded-full bg-emerald-50 px-2.5 py-0.5 text-xs font-medium text-emerald-800 ring-1 ring-inset ring-emerald-700/15 dark:bg-emerald-950/50 dark:text-emerald-300 dark:ring-emerald-400/20">
+        All found
+      </span>
+    );
+  }
+  if (status === "warnings") {
+    return (
+      <span className="inline-flex items-center rounded-full bg-amber-50 px-2.5 py-0.5 text-xs font-medium text-amber-900 ring-1 ring-inset ring-amber-700/15 dark:bg-amber-950/50 dark:text-amber-200 dark:ring-amber-400/20">
+        Values to check
+      </span>
+    );
+  }
+  if (status === "failed") {
+    return (
+      <span className="inline-flex items-center rounded-full bg-rose-50 px-2.5 py-0.5 text-xs font-medium text-rose-800 ring-1 ring-inset ring-rose-700/15 dark:bg-rose-950/50 dark:text-rose-300 dark:ring-rose-400/20">
+        Some not found
+      </span>
+    );
+  }
+  return <span className="text-xs text-fg-subtle">Not checked</span>;
 }
 
 export function NeedsReviewBadge({ needsReview }: { needsReview: boolean }) {

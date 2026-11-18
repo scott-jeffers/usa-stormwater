@@ -20,6 +20,32 @@ import { inferAgencyCategory, normalizeAgencyCategory } from "@/lib/agencyTypes"
 
 const PLACEHOLDER_SLUG = "_placeholder";
 
+const FIELD_LABELS: Record<string, string> = {
+  jurisdiction_level: "jurisdiction level",
+  state_code: "state",
+  version_or_edition: "version / edition",
+  adoption_or_effective_date: "adoption date",
+  last_revised_date: "last revised date",
+  relationship_to_state_manual: "relationship to state manual",
+  design_storm_return_periods_years: "design storms",
+  water_quality_volume_method: "water quality volume method",
+  peak_flow_calculation_method: "peak flow method",
+  required_hydrologic_hydraulic_software: "H&H software",
+  approved_bmp_categories: "BMP categories",
+};
+
+/** Short document title for disambiguating same-name records. */
+function shortTitle(title: string): string {
+  const t = title.replace(/\s*[—–(:].*$/, "").trim();
+  return t.length > 40 ? `${t.slice(0, 38).trimEnd()}…` : t;
+}
+
+/** "design_criteria.water_quality_volume_method" → "water quality volume method" */
+function humanizeField(path: string): string {
+  const last = path.split(".").pop() ?? path;
+  return FIELD_LABELS[last] ?? last.replace(/_/g, " ");
+}
+
 export function generateStaticParams() {
   const manuals = getAllManuals();
   // `output: 'export'` requires at least one generated param for a dynamic
@@ -60,7 +86,7 @@ export default async function ManualDetailPage({
   if (slug === PLACEHOLDER_SLUG) {
     return (
       <main className="space-y-6">
-        <nav className="text-sm text-fg-muted">
+        <nav aria-label="Breadcrumb" className="text-sm text-fg-muted">
           <Link href="/" className="font-medium text-water-link hover:text-water-deep hover:underline">
             &larr; Back to dashboard
           </Link>
@@ -164,7 +190,7 @@ export default async function ManualDetailPage({
 
   return (
     <main className="space-y-6">
-      <nav className="text-sm text-fg-muted">
+      <nav aria-label="Breadcrumb" className="text-sm text-fg-muted">
         <Link href="/" className="font-medium text-water-link hover:text-water-deep hover:underline">
           &larr; Back to dashboard
         </Link>
@@ -181,7 +207,7 @@ export default async function ManualDetailPage({
               <LevelBadge level={meta.jurisdiction_level} />
               <AgencyBadge category={agencyCategory} />
               <StateBadge stateCode={meta.state_code} showName />
-              <ConfidenceBadge confidence={quality.confidence} />
+              <ConfidenceBadge confidence={quality.confidence} withLabel />
               <NeedsReviewBadge needsReview={quality.needs_human_review} />
               <VerifyBadge status={shownStatus} mismatchCount={failedQa.length} />
               {shared && shared.basis !== "issuer" && (
@@ -303,7 +329,7 @@ export default async function ManualDetailPage({
               return (
                 <span key={o.slug}>
                   {i > 0 && ", "}
-                  <Link href={`/${o.slug}/`} className="text-water-link hover:underline">
+                  <Link href={`/${o.slug}/`} className="text-water-link underline decoration-water/40 underline-offset-2">
                     {other?.data.document_metadata.jurisdiction_name ?? o.slug}
                   </Link>
                   {o.basis === "stand_in" && " (stand-in)"}
@@ -350,7 +376,7 @@ export default async function ManualDetailPage({
         {designEv.fieldsNotFound.length > 0 && (
           <div className="mt-3 text-xs text-fg-muted">
             <span className="font-medium text-fg-secondary">Fields not found in document: </span>
-            {designEv.fieldsNotFound.join(", ")}
+            {designEv.fieldsNotFound.map(humanizeField).join(", ")}
           </div>
         )}
 
@@ -362,7 +388,7 @@ export default async function ManualDetailPage({
             {relatedFederal.map((m, i) => (
               <span key={m.slug}>
                 {i > 0 && ", "}
-                <Link href={`/${m.slug}`} className="text-water-link hover:text-water-deep hover:underline">
+                <Link href={`/${m.slug}/`} className="text-water-link underline decoration-water/40 underline-offset-2 hover:text-water-deep">
                   {m.data.document_metadata.document_title}
                 </Link>
               </span>
@@ -377,8 +403,14 @@ export default async function ManualDetailPage({
             {relatedInState.map((m, i) => (
               <span key={m.slug}>
                 {i > 0 && ", "}
-                <Link href={`/${m.slug}`} className="text-water-link hover:text-water-deep hover:underline">
+                <Link href={`/${m.slug}/`} className="text-water-link underline decoration-water/40 underline-offset-2 hover:text-water-deep">
                   {m.data.document_metadata.jurisdiction_name}
+                  {relatedInState.filter(
+                    (o) =>
+                      o.data.document_metadata.jurisdiction_name ===
+                      m.data.document_metadata.jurisdiction_name
+                  ).length > 1 &&
+                    ` (${shortTitle(m.data.document_metadata.document_title)})`}
                 </Link>
               </span>
             ))}

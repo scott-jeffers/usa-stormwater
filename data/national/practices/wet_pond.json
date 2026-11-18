@@ -24,15 +24,15 @@
       ],
       "citation_slugs": [
         "ak-state",
-        "me-maine-manual",
+        "maine-manual",
         "mn-state-2008",
-        "mt-billings-mt",
+        "billings-mt",
         "mt-deq8",
-        "wa-seattle-wa",
+        "seattle-wa",
         "wa-state-western",
-        "id-idaho-bmp-catalog",
-        "il-chicago-il",
-        "mi-detroit-mi"
+        "idaho-bmp-catalog",
+        "chicago-il",
+        "detroit-mi"
       ]
     },
     {
@@ -51,15 +51,15 @@
         "FL"
       ],
       "citation_slugs": [
-        "va-chesapeake-va",
-        "nc-raleigh-nc",
-        "me-maine-manual",
-        "nj-nj-state",
+        "chesapeake-va",
+        "raleigh-nc",
+        "maine-manual",
+        "nj-state",
         "mt-deq8",
-        "tx-houston-tx",
-        "oh-ohio-rainwater",
-        "ca-san-diego-ca",
-        "fl-fl-fsesci-tier1"
+        "houston-tx",
+        "ohio-rainwater",
+        "san-diego-ca",
+        "fl-fsesci-tier1"
       ]
     },
     {
@@ -70,7 +70,7 @@
         "TX"
       ],
       "citation_slugs": [
-        "tx-tx-edwards-rg348"
+        "tx-edwards-rg348"
       ]
     },
     {
@@ -84,10 +84,10 @@
         "NM"
       ],
       "citation_slugs": [
-        "nv-las-vegas-nv",
-        "co-denver-co",
-        "az-flagstaff-az",
-        "nm-albuquerque-nm-gsi"
+        "las-vegas-nv",
+        "denver-co",
+        "flagstaff-az",
+        "albuquerque-nm-gsi"
       ]
     }
   ],

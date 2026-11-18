@@ -99,12 +99,23 @@ export function isNumberToken(tok: string): boolean {
   return /^\d/.test(tok);
 }
 
-/** True when `part`'s characters appear in order inside `whole` ("8" in "48"). */
+/**
+ * True when `part` looks like a garbled copy of `whole` from a broken PDF
+ * text layer: its digits are a sub-multiset of `whole`'s digits
+ * ("8" from "48", "0.1" from "100", "0.36" from "3,600").
+ */
 export function isDigitFragment(part: string, whole: string): boolean {
-  if (part.length >= whole.length) return false;
-  let k = 0;
-  for (const ch of whole) if (ch === part[k]) k++;
-  return k === part.length;
+  const pd = part.replace(/\D/g, "");
+  const wd = whole.replace(/\D/g, "");
+  if (!pd || pd.length >= wd.length) return false;
+  const counts = new Map<string, number>();
+  for (const ch of wd) counts.set(ch, (counts.get(ch) ?? 0) + 1);
+  for (const ch of pd) {
+    const n = counts.get(ch) ?? 0;
+    if (n === 0) return false;
+    counts.set(ch, n - 1);
+  }
+  return true;
 }
 
 /** Numbers mentioned in a piece of text (canonical form). */
@@ -308,9 +319,17 @@ export function matchSegment(index: SourceIndex, segment: string): SegmentResult
       missingNumbers: [...new Set(best.missing)],
     };
   }
+  // Only call it a contradiction for a clean one-number swap inside text
+  // that otherwise matches (e.g. "48 hours" vs "72 hours"). Tables and
+  // stitched-together excerpts pick up unrelated neighbouring numbers.
+  const missing = [...new Set(best.missing)];
+  const contra = [...new Set(best.contradicting)].filter(
+    (c) => !missing.some((m) => isDigitFragment(m, c))
+  );
+  const cleanSwap = best.wordScore >= 0.9 && missing.length === 1 && contra.length === 1;
   return {
-    ...fail(best.score, best.page, [...new Set(best.missing)]),
-    contradictingNumbers: [...new Set(best.contradicting)],
+    ...fail(best.score, best.page, missing),
+    ...(cleanSwap ? { contradictingNumbers: contra } : {}),
   };
 }
 

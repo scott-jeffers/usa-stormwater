@@ -74,7 +74,7 @@ export function NationalDraftExplorer({
             ? ` · ${practiceCount} practice criteria`
             : ""}
           {generatedAt
-            ? ` · ${new Date(generatedAt).toLocaleDateString()}`
+            ? ` · ${new Date(generatedAt).toLocaleDateString("en-US", { timeZone: "UTC" })}`
             : ""}
         </p>
       </header>

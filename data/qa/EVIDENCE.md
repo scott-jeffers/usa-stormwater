@@ -1,6 +1,6 @@
 # Evidence QA report
 
-Generated: 2026-11-18T12:02:52.963Z by `npm run qa:evidence`
+Generated: 2026-11-18T12:31:11.048Z by `npm run qa:evidence`
 
 Strict check: each excerpt must appear in the source manual (exact, or a close
 in-order match with **every number identical**), and each extracted number must
@@ -20,8 +20,8 @@ be stated in its own excerpt.
 |--------|------:|------:|
 | Exact | 4322 | 84.8% |
 | Close match, numbers identical | 311 | 6.1% |
-| Can't check: PDF text lost the numbers | 41 | 0.8% |
-| Not found in source / different number | 421 | 8.3% |
+| Can't check: PDF text lost the numbers | 44 | 0.9% |
+| Not found in source / different number | 418 | 8.2% |
 
 ## Warnings
 
@@ -37,7 +37,6 @@ be stated in its own excerpt.
 | `ohio-rainwater` | 7 | 0 | design_criteria.design_storm_return_periods_years, design_criteria.water_quality_volume_method, design_criteria.peak_flow_calculation_method, design_criteria.approved_bmp_categories |
 | `south-carolina-manual` | 6 | 1 | document_metadata.jurisdiction_name, document_metadata.document_title, document_metadata.relationship_to_state_manual, design_criteria.design_storm_return_periods_years |
 | `des-moines-ia` | 6 | 0 | document_metadata.jurisdiction_name, document_metadata.jurisdiction_level, document_metadata.document_title, document_metadata.version_or_edition |
-| `kentucky-bmp` | 6 | 0 | design_criteria.design_storm_return_periods_years, design_criteria.water_quality_volume_method, design_criteria.peak_flow_calculation_method, design_parameters.enrich_notes |
 | `clarksville-tn` | 5 | 3 | document_metadata.version_or_edition, design_criteria.design_storm_return_periods_years, design_criteria.approved_bmp_categories, document_metadata.relationship_to_state_manual |
 | `toledo-oh` | 5 | 3 | document_metadata.jurisdiction_name, design_parameters.wqv_depth_inches, design_parameters.bioretention_media_depth_min_inches, design_parameters.ed_drain_time_hours |
 | `eugene-or` | 5 | 0 | document_metadata.state_code, document_metadata.adoption_or_effective_date, document_metadata.relationship_to_state_manual, design_criteria.peak_flow_calculation_method |
@@ -77,6 +76,7 @@ be stated in its own excerpt.
 | `ca-casqa-municipal` | 3 | 0 | document_metadata.document_title, design_criteria.approved_bmp_categories |
 | `dallas-tx` | 3 | 0 | document_metadata.jurisdiction_level, document_metadata.version_or_edition, document_metadata.relationship_to_state_manual |
 | `fl-srwmd-erp-ah2` | 3 | 0 | document_metadata.jurisdiction_name, document_metadata.jurisdiction_level, design_parameters.max_drawdown_hours |
+| `kentucky-bmp` | 3 | 0 | design_criteria.design_storm_return_periods_years, design_criteria.water_quality_volume_method, design_parameters.enrich_notes |
 | `montgomery-al` | 3 | 0 | document_metadata.jurisdiction_name, document_metadata.jurisdiction_level, design_criteria.approved_bmp_categories |
 | `overland-park-ks` | 3 | 0 | document_metadata.jurisdiction_name, design_criteria.water_quality_volume_method, design_criteria.approved_bmp_categories |
 | `rochester-ny` | 3 | 0 | document_metadata.jurisdiction_name, design_criteria.design_storm_return_periods_years, design_criteria.approved_bmp_categories |

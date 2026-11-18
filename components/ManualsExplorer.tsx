@@ -4,7 +4,7 @@ import { Fragment, useMemo, useState } from "react";
 import Link from "next/link";
 import type { ManualListItem } from "@/lib/data";
 import { STATE_CODE_TO_NAME } from "@/lib/usStates";
-import { ConfidenceBadge, LevelBadge, LEVEL_LABELS, NeedsReviewBadge, StateBadge, AgencyBadge, CoverageBadge } from "@/components/Badge";
+import { CitationBadge, ConfidenceBadge, LevelBadge, LEVEL_LABELS, StateBadge, AgencyBadge, CoverageBadge } from "@/components/Badge";
 import { CoverageMap, type LocalityMarker } from "@/components/CoverageMap";
 import { lookupCityCoordinates } from "@/lib/geoCenters";
 
@@ -16,6 +16,11 @@ const CONFIDENCE_RANK: Record<string, number> = { low: 0, medium: 1, high: 2 };
 const CONTROL =
   "h-9 w-full rounded-md border border-edge-strong bg-surface px-3 text-sm text-foreground focus:border-water focus:outline-none focus:ring-2 focus:ring-water/20";
 
+// Fixed locale + UTC: the page is pre-rendered at build time, so formatting
+// with the visitor's locale/time zone would differ from the server HTML and
+// break hydration (React #418) for non-US visitors.
+const DATE_LOCALE = "en-US";
+
 function formatManualDate(value: string | null | undefined): string {
   if (!value) return "—";
   const trimmed = value.trim();
@@ -24,29 +29,27 @@ function formatManualDate(value: string | null | undefined): string {
 
   const ym = /^(\d{4})-(\d{2})$/.exec(trimmed);
   if (ym) {
-    const d = new Date(Number(ym[1]), Number(ym[2]) - 1, 1);
-    return d.toLocaleDateString(undefined, { year: "numeric", month: "short" });
+    const d = new Date(Date.UTC(Number(ym[1]), Number(ym[2]) - 1, 1));
+    return d.toLocaleDateString(DATE_LOCALE, { year: "numeric", month: "short", timeZone: "UTC" });
   }
   const ymd = /^(\d{4})-(\d{2})-(\d{2})/.exec(trimmed);
   if (ymd) {
-    const d = new Date(
-      Number(ymd[1]),
-      Number(ymd[2]) - 1,
-      Number(ymd[3])
-    );
-    return d.toLocaleDateString(undefined, {
+    const d = new Date(Date.UTC(Number(ymd[1]), Number(ymd[2]) - 1, Number(ymd[3])));
+    return d.toLocaleDateString(DATE_LOCALE, {
       year: "numeric",
       month: "short",
       day: "numeric",
+      timeZone: "UTC",
     });
   }
   try {
     const d = new Date(value);
     if (!Number.isNaN(d.getTime())) {
-      return d.toLocaleDateString(undefined, {
+      return d.toLocaleDateString(DATE_LOCALE, {
         year: "numeric",
         month: "short",
         day: "numeric",
+        timeZone: "UTC",
       });
     }
   } catch {
@@ -312,10 +315,10 @@ export function ManualsExplorer({ manuals }: { manuals: ManualListItem[] }) {
       <div className="rounded-xl border border-edge/80 bg-surface p-4 shadow-sm">
         <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-4">
           <div className="sm:col-span-2 lg:col-span-2">
-            <label className="mb-1 block text-xs font-medium text-fg-muted">
+            <label htmlFor="filter-search" className="mb-1 block text-xs font-medium text-fg-muted">
               Search
             </label>
-            <input
+            <input id="filter-search"
               type="text"
               value={search}
               onChange={(e) => setSearch(e.target.value)}
@@ -325,10 +328,10 @@ export function ManualsExplorer({ manuals }: { manuals: ManualListItem[] }) {
           </div>
 
           <div>
-            <label className="mb-1 block text-xs font-medium text-fg-muted">
+            <label htmlFor="filter-level" className="mb-1 block text-xs font-medium text-fg-muted">
               Level
             </label>
-            <select
+            <select id="filter-level"
               value={levelFilter}
               onChange={(e) => setLevelFilter(e.target.value)}
               className={`${CONTROL} capitalize`}
@@ -343,10 +346,10 @@ export function ManualsExplorer({ manuals }: { manuals: ManualListItem[] }) {
           </div>
 
           <div>
-            <label className="mb-1 block text-xs font-medium text-fg-muted">
+            <label htmlFor="filter-agency" className="mb-1 block text-xs font-medium text-fg-muted">
               Agency
             </label>
-            <select
+            <select id="filter-agency"
               value={agencyFilter}
               onChange={(e) => setAgencyFilter(e.target.value)}
               className={CONTROL}
@@ -359,10 +362,10 @@ export function ManualsExplorer({ manuals }: { manuals: ManualListItem[] }) {
           </div>
 
           <div>
-            <label className="mb-1 block text-xs font-medium text-fg-muted">
+            <label htmlFor="filter-state" className="mb-1 block text-xs font-medium text-fg-muted">
               State
             </label>
-            <select
+            <select id="filter-state"
               value={stateFilter ?? "all"}
               onChange={(e) =>
                 setStateFilter(e.target.value === "all" ? null : e.target.value)
@@ -379,10 +382,10 @@ export function ManualsExplorer({ manuals }: { manuals: ManualListItem[] }) {
           </div>
 
           <div>
-            <label className="mb-1 block text-xs font-medium text-fg-muted">
+            <label htmlFor="filter-confidence" className="mb-1 block text-xs font-medium text-fg-muted">
               Confidence
             </label>
-            <select
+            <select id="filter-confidence"
               value={confidenceFilter}
               onChange={(e) => setConfidenceFilter(e.target.value)}
               className={`${CONTROL} capitalize`}
@@ -444,7 +447,7 @@ export function ManualsExplorer({ manuals }: { manuals: ManualListItem[] }) {
             )}
 
             <div className="ml-auto flex h-9 items-center text-sm text-fg-muted">
-              {sorted.length} of {manuals.length} manuals
+              {sorted.length} of {manuals.length} records
             </div>
           </div>
         </div>
@@ -479,7 +482,7 @@ export function ManualsExplorer({ manuals }: { manuals: ManualListItem[] }) {
           {/* Desktop table */}
           <div className="hidden overflow-x-auto rounded-xl border border-edge/80 bg-surface shadow-sm md:block">
             <table className="w-full min-w-[720px] text-left text-sm">
-              <thead className="border-b border-edge bg-surface-muted/80 text-xs uppercase tracking-wide text-fg-muted">
+              <thead className="border-b border-edge bg-surface-muted/80 text-xs text-fg-muted">
                 <tr>
                   <SortableHeader
                     label="Jurisdiction"
@@ -506,7 +509,9 @@ export function ManualsExplorer({ manuals }: { manuals: ManualListItem[] }) {
                     dir={sortDir}
                     onClick={() => toggleSort("confidence")}
                   />
-                  <th className="px-4 py-3 font-medium">Needs Review</th>
+                  <th className="px-4 py-3 font-medium">
+                    <span title="Strict check of each quote against the source PDF">Citations</span>
+                  </th>
                 </tr>
               </thead>
               <tbody className="divide-y divide-edge">
@@ -552,7 +557,10 @@ function SortableHeader({
   onClick: () => void;
 }) {
   return (
-    <th className="px-4 py-3 font-medium">
+    <th
+      className="px-4 py-3 font-medium"
+      aria-sort={active ? (dir === "asc" ? "ascending" : "descending") : "none"}
+    >
       <button
         type="button"
         onClick={onClick}
@@ -652,7 +660,7 @@ function ManualRow({ record }: { record: ManualListItem }) {
         <ConfidenceBadge confidence={record.confidence} />
       </td>
       <td className="px-4 py-3">
-        <NeedsReviewBadge needsReview={record.needs_human_review} />
+        <CitationBadge status={record.citation_status} />
       </td>
     </tr>
   );
@@ -684,7 +692,7 @@ function ManualCard({ record }: { record: ManualListItem }) {
         <CoverageBadge basis={record.coverage_basis} />
         <StateBadge stateCode={record.state_code} />
         <ConfidenceBadge confidence={record.confidence} />
-        <NeedsReviewBadge needsReview={record.needs_human_review} />
+        <CitationBadge status={record.citation_status} />
       </div>
 
       <div className="mt-3 text-xs text-fg-muted">

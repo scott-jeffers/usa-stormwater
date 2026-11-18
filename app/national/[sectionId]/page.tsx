@@ -102,7 +102,7 @@ export default async function NationalSectionPage({
 
   return (
     <main className="space-y-8">
-      <nav className="flex flex-wrap items-center gap-x-2 gap-y-1 text-sm text-fg-muted">
+      <nav aria-label="Breadcrumb" className="flex flex-wrap items-center gap-x-2 gap-y-1 text-sm text-fg-muted">
         <Link
           href="/national/"
           className="font-medium text-water-link hover:text-water-deep hover:underline"
@@ -422,7 +422,7 @@ export default async function NationalSectionPage({
         </div>
       )}
 
-      <nav className="flex flex-wrap justify-between gap-4 border-t border-edge pt-6 text-sm">
+      <nav aria-label="Previous and next section" className="flex flex-wrap justify-between gap-4 border-t border-edge pt-6 text-sm">
         {prev ? (
           <Link
             href={`/national/${prev.id}/`}

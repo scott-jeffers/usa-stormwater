@@ -132,3 +132,20 @@ test("leading-digit dropout in the source ('8' for '48') is unverifiable, not a 
   const r = matchExcerpt(broken, "draw down the extended detention volume over a 48-hour period");
   assert.equal(r.status, "unverifiable");
 });
+
+test("table-style excerpts fail without claiming a specific contradicting number", () => {
+  const t = new SourceIndex([
+    { page: 3, text: "Table 1.1.2 Storm Event Return Interval (years) 1 2 5 37 Bioretention Design Checklist" },
+  ]);
+  const r = matchExcerpt(t, "Storm Event Return Interval (years) 2 5 10 25 50 100");
+  assert.equal(r.status, "fail");
+  assert.equal(r.segments[0]!.contradictingNumbers, undefined);
+});
+
+test("a footnote digit merged into a year is not a contradiction", () => {
+  const t = new SourceIndex([
+    { page: 9, text: "peak discharges were estimated using empirical equations developed by the U.S. Geological Survey (Sherwood, 19861) for small streams" },
+  ]);
+  const r = matchExcerpt(t, "peak discharges were estimated using empirical equations developed by the U.S. Geological Survey (Sherwood, 1986)");
+  assert.notEqual(r.segments[0]!.contradictingNumbers?.[0], "19861");
+});

@@ -176,10 +176,9 @@ export function CoverageMap({
                     },
                   }}
                 >
+                  {/* single string child: React 19 needs that for <title> to hydrate */}
                   <title>
-                    {stateName}
-                    {": "}
-                    {count} manual{count === 1 ? "" : "s"}
+                    {`${stateName}: ${count} manual${count === 1 ? "" : "s"}`}
                   </title>
                 </Geography>
               );
@@ -211,9 +210,7 @@ export function CoverageMap({
                   router.push(`/${marker.slug}`);
                 }}
               >
-                <title>
-                  {marker.name} — open manual
-                </title>
+                <title>{`${marker.name} — open manual`}</title>
                 {marker.kind === "county" ? (
                   <>
                     <rect

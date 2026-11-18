@@ -6,6 +6,17 @@ import {
   getPracticeMatrix,
   getPracticeSynthesis,
 } from "@/lib/practices";
+import { getManualBySlug } from "@/lib/data";
+import { checkParameterValue, type ValueCheck } from "@/lib/qa/load";
+
+const CHECK_LABEL: Record<ValueCheck, { mark: string; text: string; cls: string }> = {
+  verified: { mark: "✓", text: "Quote verified", cls: "text-emerald-700 dark:text-emerald-300" },
+  value_not_stated: { mark: "⚠", text: "Value not stated in its quote", cls: "text-amber-700 dark:text-amber-300" },
+  unverifiable: { mark: "?", text: "PDF text unreadable here", cls: "text-amber-700 dark:text-amber-300" },
+  not_found: { mark: "✗", text: "Quote not found in source", cls: "text-rose-700 dark:text-rose-300" },
+  no_quote: { mark: "–", text: "No quote recorded", cls: "text-fg-subtle" },
+  unchecked: { mark: "·", text: "Not checked", cls: "text-fg-subtle" },
+};
 
 const PLACEHOLDER = "_placeholder";
 
@@ -62,8 +73,8 @@ export default async function PracticePage({
           {synth.practice_label}
         </h1>
         <p className="text-sm text-fg-muted">
-          Generated {new Date(synth.generated_at).toLocaleString()}
-          {synth.model ? ` · ${synth.model}` : ""}
+          Generated {new Date(synth.generated_at).toLocaleDateString("en-US", { timeZone: "UTC", dateStyle: "medium" })}
+          {synth.model ? ` · AI-drafted from the matrix below (${synth.model.split(":")[0]})` : ""}
         </p>
       </div>
 
@@ -107,6 +118,18 @@ export default async function PracticePage({
               <div className="border-b border-edge px-4 py-3">
                 <h3 className="font-medium text-ink">{field.label}</h3>
                 <p className="text-xs text-fg-muted">
+                  {(() => {
+                    const shown = field.cells.filter((c) => c.value != null);
+                    const ok = shown.filter(
+                      (c) =>
+                        checkParameterValue(
+                          c.slug,
+                          field.field,
+                          getManualBySlug(c.slug)?.data.evidence ?? []
+                        ) === "verified"
+                    ).length;
+                    return `${ok} of ${shown.length} values verified · `;
+                  })()}
                   n={field.count} · mode={field.mode ?? "—"} · median=
                   {field.median ?? "—"} · range=
                   {field.min != null && field.max != null
@@ -118,10 +141,11 @@ export default async function PracticePage({
               <div className="overflow-x-auto">
                 <table className="w-full min-w-[20rem] text-left text-sm">
                   <thead>
-                    <tr className="border-b border-edge text-xs uppercase tracking-wide text-fg-muted">
+                    <tr className="border-b border-edge text-xs text-fg-muted">
                       <th className="px-3 py-2 font-medium">State</th>
                       <th className="px-3 py-2 font-medium">Slug</th>
                       <th className="px-3 py-2 font-medium">Value</th>
+                      <th className="px-3 py-2 font-medium">Citation check</th>
                     </tr>
                   </thead>
                   <tbody>
@@ -136,7 +160,7 @@ export default async function PracticePage({
                           <td className="px-3 py-2">
                             <Link
                               href={`/${c.slug}/`}
-                              className="text-water-deep hover:underline"
+                              className="text-water-deep underline decoration-water/40 underline-offset-2 hover:decoration-water-deep"
                             >
                               {c.slug}
                             </Link>
@@ -144,6 +168,15 @@ export default async function PracticePage({
                           <td className="px-3 py-2">
                             {c.value} {field.unit}
                           </td>
+                          {(() => {
+                            const ev = getManualBySlug(c.slug)?.data.evidence ?? [];
+                            const chk = CHECK_LABEL[checkParameterValue(c.slug, field.field, ev)];
+                            return (
+                              <td className={`px-3 py-2 text-xs ${chk.cls}`}>
+                                <span aria-hidden>{chk.mark}</span> {chk.text}
+                              </td>
+                            );
+                          })()}
                         </tr>
                       ))}
                   </tbody>
@@ -179,7 +212,7 @@ export default async function PracticePage({
                           {i > 0 && ", "}
                           <Link
                             href={`/${s}/`}
-                            className="text-water-deep hover:underline"
+                            className="text-water-deep underline decoration-water/40 underline-offset-2 hover:decoration-water-deep"
                           >
                             {s}
                           </Link>

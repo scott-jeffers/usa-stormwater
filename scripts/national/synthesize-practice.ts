@@ -7,6 +7,7 @@
  *   npx tsx scripts/national/synthesize-practice.ts --practice bioretention
  */
 import { mkdir, writeFile, readFile } from "node:fs/promises";
+import { getAllManuals } from "../../lib/data";
 import { existsSync } from "node:fs";
 import {
   isKnownPracticeKey,
@@ -225,11 +226,30 @@ ${promptBody}`,
     model: `${model}:${runId}`,
     editorial_status: "draft",
     national_baseline: data.national_baseline,
-    regional_modifiers: data.regional_modifiers,
+    regional_modifiers: data.regional_modifiers.map((m) => ({
+      ...m,
+      citation_slugs: resolveCitationSlugs(m.citation_slugs, m.id),
+    })),
     open_issues: data.open_issues,
     matrix_summary: data.matrix_summary,
     supporting_slugs: matrix.mentioning_slugs.slice(0, 40),
   });
+}
+
+/**
+ * Model output sometimes prefixes slugs with a state code ("me-maine-manual")
+ * or invents them. Map to real document slugs; drop anything unknown so the
+ * site never links to a 404.
+ */
+function resolveCitationSlugs(slugs: string[], context: string): string[] {
+  const known = new Set(getAllManuals().map((m) => m.slug));
+  const out: string[] = [];
+  for (const s of slugs) {
+    const fixed = known.has(s) ? s : known.has(s.slice(3)) ? s.slice(3) : null;
+    if (fixed) out.push(fixed);
+    else console.warn(`[synthesize] ${context}: dropped unknown citation slug "${s}"`);
+  }
+  return [...new Set(out)];
 }
 
 async function main() {

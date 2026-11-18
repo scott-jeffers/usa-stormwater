@@ -164,7 +164,7 @@ export function NationalPipelineProgress({
             <p className="text-xs text-fg-muted">
               {total} jobs · updated{" "}
               {status.updatedAt
-                ? new Date(status.updatedAt).toLocaleString()
+                ? new Date(status.updatedAt).toLocaleString("en-US", { timeZone: "UTC", dateStyle: "medium", timeStyle: "short" }) + " UTC"
                 : "—"}
             </p>
           </div>

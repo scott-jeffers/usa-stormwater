@@ -82,3 +82,21 @@ test("shared-manual groups: complete, consistent, one group per record", async (
   const missing = [...byUrl.values()].filter((ss) => ss.length > 1 && ss.some((s) => !seen.has(s)));
   assert.deepEqual(missing, [], "records share a PDF but are not in data/coverage/shared-manuals.json");
 });
+
+test("every slug referenced by national drafts and practices is a real document", () => {
+  const slugs = new Set(files.map((f) => f.slice(0, -5)));
+  const bad: string[] = [];
+  const walk = (o: unknown, file: string, key = ""): void => {
+    if (Array.isArray(o)) o.forEach((v) => walk(v, file, key));
+    else if (o && typeof o === "object")
+      for (const [k, v] of Object.entries(o)) walk(v, file, k);
+    else if (typeof o === "string" && /slug/.test(key) && !slugs.has(o)) bad.push(`${file}:${key}=${o}`);
+  };
+  const dir = path.resolve("data/national");
+  const list = (d: string): string[] =>
+    readdirSync(d, { withFileTypes: true }).flatMap((e) =>
+      e.isDirectory() ? list(path.join(d, e.name)) : e.name.endsWith(".json") ? [path.join(d, e.name)] : []
+    );
+  for (const f of list(dir)) walk(JSON.parse(readFileSync(f, "utf-8")), path.relative(dir, f));
+  assert.deepEqual(bad, []);
+});
