@@ -91,27 +91,25 @@ export function NationalDraftExplorer({
         </div>
       </details>
 
-      <div className="rounded-xl border border-amber-200/80 bg-amber-50/80 px-4 py-3 text-sm text-amber-950 dark:border-amber-500/30 dark:bg-amber-950/40 dark:text-amber-100">
+      <div className="draft-note">
         Practice notes describe what manuals commonly contain. Guidance clauses
         are provisional synthesis for discussion — not adopted criteria. Verify
         every citation against the linked jurisdiction manual before design use.
       </div>
 
       <Link
-        href="/national/model-manual/"
+        href="/manual/"
         className="block rounded-xl border border-water/40 bg-surface px-4 py-3 shadow-sm transition hover:border-water hover:bg-mist/40"
       >
         <div className="flex flex-wrap items-baseline justify-between gap-2">
           <h2 className="font-display text-base font-semibold text-ink sm:text-lg">
             Draft national model manual
           </h2>
-          <span className="rounded-full bg-amber-50 px-2 py-0.5 text-xs font-medium text-amber-900 ring-1 ring-inset ring-amber-700/15 dark:bg-amber-950/50 dark:text-amber-200 dark:ring-amber-400/20">
-            Proposal
-          </span>
+          <span className="status-chip status-open">Draft 0.2</span>
         </div>
         <p className="mt-1 text-sm leading-relaxed text-fg-secondary">
-          Seven baseline provisions a state could adopt by reference, each with the hand-checked,
-          state-by-state evidence behind it.
+          A complete draft manual a state could adopt by reference: eleven chapters, every number
+          graded by the strength of its evidence.
         </p>
       </Link>
 

@@ -25,16 +25,6 @@ export interface CriterionEvidence {
   by_region: Array<{ region: string; states: number; median: number; min: number; max: number }>;
 }
 
-export interface Provision {
-  id: string;
-  title: string;
-  criterion?: string;
-  status: "drafted" | "open question" | "not drafted" | "provisional";
-  text: string;
-  regional?: string;
-  open?: string;
-}
-
 export const CLASS_LABELS: Record<CriterionEvidence["class"], { label: string; meaning: string }> = {
   consensus: { label: "Near-consensus", meaning: "Half or more of states already use one value: a national default." },
   "climate-linked": { label: "Climate-linked (suggestive)", meaning: "Values differ between climate regions more than chance would suggest: a default plus regional adjustments." },
@@ -42,60 +32,20 @@ export const CLASS_LABELS: Record<CriterionEvidence["class"], { label: string; m
   insufficient: { label: "Too little evidence", meaning: "Fewer than 8 states state a value." },
 };
 
-export const PROVISIONS: Provision[] = [
-  {
-    id: "MM-1",
-    title: "Water-quality volume",
-    criterion: "wqv_depth_inches",
-    status: "drafted",
-    text: "Size permanent practices for the runoff from 1.0 in of rainfall.",
-    regional: "A state may instead adopt a documented 90th-percentile storm, as Connecticut (1.3 in), New York (1.2 in) and Iowa (1.25 in) do.",
-  },
-  {
-    id: "MM-2",
-    title: "Maximum drawdown",
-    criterion: "max_drawdown_hours",
-    status: "drafted",
-    text: "Practices that hold water after a storm must drain within 72 hours.",
-    regional: "Suggestive regional adjustment: 48 hours in the Upper Midwest and Ohio Valley; up to 96–120 hours in the West, Southwest and South.",
-  },
-  {
-    id: "MM-3",
-    title: "Separation from the seasonal high water table",
-    criterion: "shwt_separation_inches",
-    status: "open question",
-    text: "The bottom of an infiltrating practice must sit at least 24 in above the seasonal high water table.",
-    open: "13 states require 30–60 in, mostly for infiltration basins and trenches. Should a deeper separation apply to those practices?",
-  },
-  {
-    id: "MM-4",
-    title: "Bioretention media depth",
-    criterion: "bioretention_media_depth_min_inches",
-    status: "open question",
-    text: "Use at least 18 in of engineered bioretention media, and 24 in where trees are planted.",
-    open: "11 states require 24–48 in. Should 24 in be the default?",
-  },
-  {
-    id: "MM-5",
-    title: "Minimum soil infiltration rate",
-    criterion: "design_infiltration_rate_in_per_hr",
-    status: "drafted",
-    text: "Infiltration without an underdrain is allowed where tested native soils infiltrate at 0.5 in/hr or more; below that, use an underdrain.",
-  },
-  {
-    id: "MM-6",
-    title: "Wet-pond permanent pool depth",
-    criterion: "permanent_pool_depth_inches",
-    status: "not drafted",
-    text: "Not drafted: only 6 states state a minimum depth.",
-  },
-  {
-    id: "MM-7",
-    title: "Design storms by purpose",
-    status: "provisional",
-    text: "State manuals most often name the 100-, 10-, 2-, 50- and 25-year storms. A purpose-based set (channel protection, minor conveyance, major flood) needs the atlas to record what each storm is for.",
-  },
-];
+/** Which model-manual clause (content/manual/model-manual.md) each hand-checked criterion sets. */
+export const CRITERION_CLAUSE: Record<string, string> = {
+  wqv_depth_inches: "3.2",
+  tss_removal_target_pct: "3.3",
+  ed_drain_time_hours: "3.4",
+  design_infiltration_rate_in_per_hr: "5.2",
+  infiltration_safety_factor: "5.3",
+  shwt_separation_inches: "5.4",
+  max_drawdown_hours: "6.0.1",
+  bioretention_media_depth_min_inches: "6.1.1",
+  bioretention_ponding_depth_max_inches: "6.1.2",
+  permanent_pool_depth_inches: "6.5.2",
+  pond_length_width_min: "6.5.3",
+};
 
 const FILE = path.resolve(process.cwd(), "data/national/criteria-classification.json");
 

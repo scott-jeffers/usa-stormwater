@@ -171,6 +171,10 @@ export default function AboutPage() {
             </thead>
             <tbody className="divide-y divide-edge text-fg-secondary">
               <EndpointRow
+                path="/data/values.csv"
+                desc="Every extracted value, one per row, with quote, page and check status (CSV; see /data/ for all downloads and the data dictionary)"
+              />
+              <EndpointRow
                 path="/data/manuals.json"
                 desc="Lightweight index of every manual (slug, state, title, confidence, links)"
               />

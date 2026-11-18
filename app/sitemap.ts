@@ -9,7 +9,7 @@ export const dynamic = "force-static";
 const BASE = SITE_URL;
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const pages: MetadataRoute.Sitemap = ["/", "/compare/", "/about/", "/federal/", "/national/", "/national/model-manual/", "/national/practices/"].map(
+  const pages: MetadataRoute.Sitemap = ["/", "/manual/", "/data/", "/compare/", "/about/", "/federal/", "/national/", "/national/model-manual/", "/national/practices/"].map(
     (p) => ({ url: `${BASE}${p}` })
   );
   for (const m of getAllManuals()) pages.push({ url: `${BASE}/${m.slug}/`, lastModified: m.processedAt ?? undefined });

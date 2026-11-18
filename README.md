@@ -127,6 +127,12 @@ Crash mid-run? Re-run the same command — completed substeps are skipped. Exist
 
 By default the corpus stage runs **offline heuristics** (`PIPELINE_LLM=heuristic`). `npm run overnight:go` forces Cursor unless you pass `--heuristic`. For a one-off richer corpus/tagging pass, set `PIPELINE_LLM=cursor` after `pipeline:cursor-login`. Model default: `composer-2.5` (`PIPELINE_MODEL`). Delay between AI calls: `PIPELINE_DELAY_MS` (default 2000).
 
+## Model manual and research data
+
+- **Model manual:** `content/manual/model-manual.md` is the single source for the draft model stormwater manual, rendered at `/manual/`. Clauses are written `**3.2 Title.** [Default, E1] text`; rationale lines are `> Why: ...` (or `> Why (6.0.1): ...` after a list). `tests/manual.test.ts` checks clause numbers are unique and that every hand-checked criterion's clause exists.
+- **Hand-checked evidence:** `data/national/hand-checks.json` (one entry per value read by hand; corpus finds carry `source: "corpus"`, page and quote). Rebuild the classification with `npm run national:classify`, then update the numbers quoted in the manual.
+- **Research downloads:** `npm run export:data` also runs `scripts/export-research.ts`, which writes `values.csv`, `manuals.csv`, `hand-checks.csv`, `dictionary.json` and `dataset.json` to `public/data/` (served at `/data/`). Bump `DATASET_VERSION` in `lib/dataset.ts`, `CITATION.cff` and `CHANGELOG.md` together.
+
 ## Citation QA (strict evidence check)
 
 Every excerpt is re-checked against the source PDF's page text, and every extracted number must be stated in its own excerpt:

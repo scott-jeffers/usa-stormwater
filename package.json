@@ -15,7 +15,7 @@
     "typecheck": "tsc --noEmit -p .",
     "test": "tsx --test tests/*.test.ts",
     "check": "npm run lint && npm run typecheck && npm test && npm run build",
-    "export:data": "tsx scripts/export-data.ts",
+    "export:data": "tsx scripts/export-data.ts && tsx scripts/export-research.ts",
     "prebuild": "npm run export:data",
     "perf:smoke": "tsx scripts/perf/smoke-nav.ts",
     "prepare:queue": "tsx scripts/prepare.ts",

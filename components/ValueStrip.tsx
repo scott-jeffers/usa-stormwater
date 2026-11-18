@@ -11,8 +11,8 @@ interface Props {
 
 const fmt = (v: number) => String(Math.round(v * 100) / 100);
 /** A value with its unit, written the way engineers write it (2:1, 24 in, 72 hours). */
-const withUnit = (v: number, unit: string) =>
-  unit === "ratio" ? `${fmt(v)}:1` : `${fmt(v)} ${unit === "inches" ? "in" : unit}`;
+export const withUnit = (v: number, unit: string) =>
+  unit === "ratio" ? `${fmt(v)}:1` : unit === "%" ? `${fmt(v)}%` : unit === "factor" ? fmt(v) : `${fmt(v)} ${unit === "inches" ? "in" : unit}`;
 
 export function ValueStrip({ label, unit, values, mode }: Props) {
   if (!values.length) return null;

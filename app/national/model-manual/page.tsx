@@ -1,22 +1,17 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { pageMeta } from "@/lib/site";
-import { ValueStrip } from "@/components/ValueStrip";
-import { CLASS_LABELS, PROVISIONS, loadCriteria, type CriterionEvidence } from "@/lib/national/modelManual";
+import { ValueStrip, withUnit } from "@/components/ValueStrip";
+import { CLASS_LABELS, CRITERION_CLAUSE, loadCriteria, type CriterionEvidence } from "@/lib/national/modelManual";
+import { clauseId, loadManual } from "@/lib/manual/parse";
+import { inline } from "@/components/ManualText";
 import { STATE_CODE_TO_NAME } from "@/lib/usStates";
 
 export const metadata: Metadata = pageMeta(
   "/national/model-manual/",
-  "Draft national model manual",
-  "Draft baseline provisions for a voluntary national stormwater design manual, each with the state-by-state evidence it rests on."
+  "Evidence for the model manual",
+  "State-by-state, hand-checked evidence behind each number in the draft model stormwater manual, with agreement and climate tests."
 );
-
-const STATUS_STYLE: Record<string, string> = {
-  drafted: "bg-emerald-50 text-emerald-800 ring-emerald-700/15 dark:bg-emerald-950/50 dark:text-emerald-300",
-  "open question": "bg-amber-50 text-amber-900 ring-amber-700/20 dark:bg-amber-950/50 dark:text-amber-200",
-  "not drafted": "bg-surface-muted text-fg-secondary ring-edge-strong/40",
-  provisional: "bg-surface-muted text-fg-secondary ring-edge-strong/40",
-};
 
 const fmt = (v: number | null) => (v == null ? "—" : String(Math.round(v * 100) / 100));
 
@@ -27,7 +22,7 @@ function Evidence({ c }: { c: CriterionEvidence }) {
       <p className="text-sm text-fg-secondary">
         <span className="font-medium text-foreground">{cls.label}.</span> {cls.meaning}{" "}
         {c.states} states (from {c.records} hand-checked manuals); {Math.round(c.agreement * 100)}% use{" "}
-        {fmt(c.most_common)} {c.unit}; range {fmt(c.min)}–{fmt(c.max)} {c.unit}.
+        {withUnit(c.most_common, c.unit)}; range {c.min == null ? "—" : withUnit(c.min, c.unit)} to {c.max == null ? "—" : withUnit(c.max, c.unit)}.
       </p>
       <ValueStrip
         label={c.label}
@@ -68,50 +63,64 @@ function Evidence({ c }: { c: CriterionEvidence }) {
 
 export default function ModelManualPage() {
   const data = loadCriteria();
-  const byKey = new Map((data?.criteria ?? []).map((c) => [c.key, c]));
+  const manual = loadManual();
+  const clause = new Map(manual.clauses.map((c) => [c.number, c]));
+  const crit = data?.criteria ?? [];
+  const order = Object.keys(CRITERION_CLAUSE);
+  const sorted = [...crit].sort((a, b) => order.indexOf(a.key) - order.indexOf(b.key));
+  const states = new Set(crit.flatMap((c) => c.by_state.map((s) => s.state)));
   return (
     <main className="mx-auto max-w-3xl space-y-8">
       <header className="space-y-3">
-        <p className="text-sm font-medium text-water">
-          <Link href="/national/" className="hover:underline">
-            ← National synthesis
+        <p className="text-sm font-medium">
+          <Link href="/manual/" className="text-water-link hover:underline">
+            ← {manual.title}, {manual.version}
           </Link>
         </p>
         <h1 className="font-display text-3xl font-semibold tracking-tight text-ink sm:text-4xl">
-          Draft national model manual
+          Evidence for the model manual
         </h1>
         <p className="text-base leading-relaxed text-fg-secondary">
-          Starting text for a voluntary national stormwater design manual that states could adopt by
-          reference. Each provision proposes the value most states already use, and shows the
-          state-by-state evidence behind it.
+          The numbers graded E1 in the draft manual come from state-level manuals read by hand: {crit.length}{" "}
+          criteria, {states.size} states. For each one this page shows what states require, how much they agree,
+          and whether the differences follow climate.
         </p>
-        <div className="rounded-xl border border-amber-200/80 bg-amber-50/80 px-4 py-3 text-sm text-amber-950 dark:border-amber-500/30 dark:bg-amber-950/40 dark:text-amber-100">
-          A proposal for discussion, not adopted criteria. Evidence = state-level manuals whose values
-          were read by hand against their quotes. Your state or local manual controls.
-        </div>
+        <p className="draft-note">
+          Evidence for a proposal, not adopted criteria. Your state or local manual controls.
+        </p>
       </header>
 
       <section className="space-y-3">
         <h2 className="font-display text-xl font-semibold text-ink">How the evidence sorts</h2>
-        <div className="overflow-x-auto rounded-xl border border-edge bg-surface">
-          <table className="w-full text-left text-sm">
+        <div className="overflow-x-auto">
+          <table className="data-table">
             <thead>
-              <tr className="border-b border-edge text-xs text-fg-muted">
-                <th className="px-3 py-2 font-medium">Criterion</th>
-                <th className="px-3 py-2 font-medium">States</th>
-                <th className="px-3 py-2 font-medium">Most common</th>
-                <th className="px-3 py-2 font-medium">Class</th>
+              <tr>
+                <th>Criterion</th>
+                <th>Clause</th>
+                <th className="text-right">States</th>
+                <th>Most common</th>
+                <th>Class</th>
+                <th className="text-right">Climate p</th>
               </tr>
             </thead>
             <tbody>
-              {(data?.criteria ?? []).map((c) => (
-                <tr key={c.key} className="border-b border-edge/60">
-                  <td className="px-3 py-2">{c.label}</td>
-                  <td className="px-3 py-2">{c.states}</td>
-                  <td className="px-3 py-2">
-                    {fmt(c.most_common)} {c.unit} ({Math.round(c.agreement * 100)}%)
+              {sorted.map((c) => (
+                <tr key={c.key}>
+                  <td><a href={`#${c.key}`} className="text-water-link hover:underline">{c.label}</a></td>
+                  <td className="tabular-nums">
+                    {CRITERION_CLAUSE[c.key] ? (
+                      <Link href={`/manual/#${clauseId(CRITERION_CLAUSE[c.key]!)}`} className="text-water-link hover:underline">
+                        {CRITERION_CLAUSE[c.key]}
+                      </Link>
+                    ) : "—"}
                   </td>
-                  <td className="px-3 py-2">{CLASS_LABELS[c.class].label}</td>
+                  <td className="text-right tabular-nums">{c.states}</td>
+                  <td className="tabular-nums">
+                    {withUnit(c.most_common, c.unit)} ({Math.round(c.agreement * 100)}%)
+                  </td>
+                  <td>{CLASS_LABELS[c.class].label}</td>
+                  <td className="text-right tabular-nums">{c.climate_p.toFixed(2)}</td>
                 </tr>
               ))}
             </tbody>
@@ -119,41 +128,42 @@ export default function ModelManualPage() {
         </div>
         {data && (
           <details className="text-sm text-fg-muted">
-            <summary className="cursor-pointer hover:text-fg-secondary">Method</summary>
+            <summary className="cursor-pointer text-water-link hover:underline">Method</summary>
             <p className="mt-2 leading-relaxed">{data.method}</p>
           </details>
         )}
       </section>
 
       <section className="space-y-4">
-        <h2 className="font-display text-xl font-semibold text-ink">Provisions</h2>
-        {PROVISIONS.map((p) => {
-          const c = p.criterion ? byKey.get(p.criterion) : undefined;
+        <h2 className="font-display text-xl font-semibold text-ink">Criterion by criterion</h2>
+        {sorted.map((c) => {
+          const num = CRITERION_CLAUSE[c.key];
+          const cl = num ? clause.get(num) : undefined;
           return (
-            <article key={p.id} id={p.id.toLowerCase()} className="rounded-xl border border-edge/80 bg-surface p-5 shadow-sm">
-              <div className="flex flex-wrap items-baseline gap-2">
-                <span className="font-mono text-xs font-semibold text-water-deep">{p.id}</span>
-                <h3 className="font-display text-lg font-semibold text-ink">{p.title}</h3>
-                <span className={`ml-auto rounded-full px-2.5 py-0.5 text-xs font-medium ring-1 ring-inset ${STATUS_STYLE[p.status]}`}>
-                  {p.status}
-                </span>
-              </div>
-              <p className="mt-2 leading-relaxed text-foreground">{p.text}</p>
-              {p.regional && <p className="mt-2 text-sm leading-relaxed text-fg-secondary">{p.regional}</p>}
-              {p.open && (
-                <p className="mt-2 text-sm leading-relaxed text-amber-800 dark:text-amber-200">
-                  <span className="font-medium">Open question:</span> {p.open}
+            <article key={c.key} id={c.key} className="scroll-mt-20 rounded-lg border border-edge bg-surface p-5">
+              <h3 className="font-display text-lg font-semibold text-ink">{c.label}</h3>
+              {cl && (
+                <p className="mt-2 leading-relaxed text-fg-secondary">
+                  <Link href={`/manual/#${clauseId(cl.number)}`} className="font-semibold text-water-link hover:underline">
+                    Clause {cl.number}
+                  </Link>{" "}
+                  {cl.tags.map((t) => (
+                    <span key={t} className={`status-chip ${t === "Open" ? "status-open" : t === "Regional" ? "status-regional" : "status-neutral"}`}>{t}</span>
+                  ))}{" "}
+                  {inline(cl.text, c.key)}
                 </p>
               )}
-              {c && <Evidence c={c} />}
+              <Evidence c={c} />
             </article>
           );
         })}
       </section>
 
       <p className="text-sm text-fg-muted">
-        Data: <a href="/data/national/criteria-classification.json" className="underline">criteria-classification.json</a>{" "}
-        · rebuilt with <code className="rounded bg-surface-muted px-1">npm run national:classify</code>.
+        Data: <a href="/data/national/criteria-classification.json" className="text-water-link hover:underline">criteria-classification.json</a>
+        {" · "}
+        <a href="/data/hand-checks.csv" className="text-water-link hover:underline">hand-checks.csv</a> · rebuilt with{" "}
+        <code className="rounded bg-surface-muted px-1">npm run national:classify</code>.
       </p>
     </main>
   );

@@ -83,7 +83,7 @@ export default async function PracticePage({
         </p>
       </div>
 
-      <div className="rounded-xl border border-amber-200/80 bg-amber-50/80 px-4 py-3 text-sm text-amber-950 dark:border-amber-500/30 dark:bg-amber-950/40 dark:text-amber-100">
+      <div className="draft-note">
         Research summary of what manuals require, not a design standard. Only values whose
         quote was found in the source manual are counted. Your state or local manual controls.
       </div>

@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use the Stormwater Atlas data or the draft model manual, please cite it as below."
+title: "Stormwater Atlas: a database of U.S. stormwater design manuals"
+type: dataset
+version: "2026.11.0"
+date-released: "2026-11-18"
+url: "https://www.stormwateratlas.com/data/"
+repository-code: "https://github.com/scott-jeffers/usa-stormwater"
+authors:
+  - name: "Scott Jeffers"
+keywords:
+  - stormwater
+  - design manuals
+  - green infrastructure
+  - water quality
+  - model manual
+abstract: >-
+  Key design requirements extracted from U.S. federal, state, county and city
+  stormwater design manuals, each value with its source quote, page and a
+  machine check against the source PDF, plus hand-checked state-level values
+  and a draft model stormwater design manual built on them.

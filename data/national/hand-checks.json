@@ -1,1207 +1,2329 @@
 {
- "checked_at": "2026-11-18",
- "method": "Each state-level value whose quote passed the strict citation check was read by hand against its quote (and page text where needed) and judged: is it this requirement, for this kind of practice, stated as a requirement?",
- "criteria_notes": {
-  "design_infiltration_rate_in_per_hr": "Read as the minimum native-soil infiltration rate for infiltration practices; media rates, caps and assumptions excluded.",
-  "permanent_pool_depth_inches": "Read as the minimum permanent-pool depth; maxima and averages excluded."
- },
- "values": [
-  {
-   "n": 1,
-   "param": "wqv_depth_inches",
-   "state": "CT",
-   "slug": "ct-ctdot-drainage",
-   "value": 1.0,
-   "verdict": "ok"
-  },
-  {
-   "n": 2,
-   "param": "wqv_depth_inches",
-   "state": "CT",
-   "slug": "ct-state",
-   "value": 1.3,
-   "verdict": "ok"
-  },
-  {
-   "n": 3,
-   "param": "wqv_depth_inches",
-   "state": "DC",
-   "slug": "dc-ddot-stormwater",
-   "value": 1.2,
-   "verdict": "ok"
-  },
-  {
-   "n": 4,
-   "param": "wqv_depth_inches",
-   "state": "GA",
-   "slug": "ga-state",
-   "value": 1.2,
-   "verdict": "ok"
-  },
-  {
-   "n": 5,
-   "param": "wqv_depth_inches",
-   "state": "HI",
-   "slug": "hawaii-dot-pcbmp",
-   "value": 1.0,
-   "verdict": "ok"
-  },
-  {
-   "n": 6,
-   "param": "wqv_depth_inches",
-   "state": "IA",
-   "slug": "ia-state-ch1",
-   "value": 1.25,
-   "verdict": "ok"
-  },
-  {
-   "n": 7,
-   "param": "wqv_depth_inches",
-   "state": "IN",
-   "slug": "indiana-manual",
-   "value": 1.0,
-   "verdict": "ok"
-  },
-  {
-   "n": 8,
-   "param": "wqv_depth_inches",
-   "state": "MA",
-   "slug": "ma-massdot-drainage",
-   "value": 0.5,
-   "verdict": "ok"
-  },
-  {
-   "n": 9,
-   "param": "wqv_depth_inches",
-   "state": "MA",
-   "slug": "ma-state-draft",
-   "value": 1.0,
-   "verdict": "ok"
-  },
-  {
-   "n": 10,
-   "param": "wqv_depth_inches",
-   "state": "ME",
-   "slug": "maine-manual",
-   "value": 1.0,
-   "verdict": "ok"
-  },
-  {
-   "n": 11,
-   "param": "wqv_depth_inches",
-   "state": "MI",
-   "slug": "michigan-manual",
-   "value": 1.0,
-   "verdict": "ok"
-  },
-  {
-   "n": 12,
-   "param": "wqv_depth_inches",
-   "state": "NC",
-   "slug": "nc-state",
-   "value": 1.0,
-   "verdict": "ok"
-  },
-  {
-   "n": 13,
-   "param": "wqv_depth_inches",
-   "state": "NE",
-   "slug": "ne-ndot-stf",
-   "value": 0.5,
-   "verdict": "ok"
-  },
-  {
-   "n": 14,
-   "param": "wqv_depth_inches",
-   "state": "NH",
-   "slug": "nh-state",
-   "value": 1.0,
-   "verdict": "ok"
-  },
-  {
-   "n": 15,
-   "param": "wqv_depth_inches",
-   "state": "NJ",
-   "slug": "nj-njdot-drainage",
-   "value": 1.25,
-   "verdict": "ok"
-  },
-  {
-   "n": 16,
-   "param": "wqv_depth_inches",
-   "state": "NY",
-   "slug": "ny-state",
-   "value": 1.2,
-   "verdict": "ok"
-  },
-  {
-   "n": 17,
-   "param": "wqv_depth_inches",
-   "state": "OH",
-   "slug": "ohio-rainwater",
-   "value": 0.75,
-   "verdict": "ok"
-  },
-  {
-   "n": 18,
-   "param": "wqv_depth_inches",
-   "state": "OH",
-   "slug": "oh-odot-drainage",
-   "value": 0.9,
-   "verdict": "ok"
-  },
-  {
-   "n": 19,
-   "param": "wqv_depth_inches",
-   "state": "PA",
-   "slug": "pa-bmp-2006",
-   "value": 1.0,
-   "verdict": "excluded",
-   "reason": "PRV volume definition is ambiguous (the manual's main control retains 2 in)"
-  },
-  {
-   "n": 20,
-   "param": "wqv_depth_inches",
-   "state": "PA",
-   "slug": "pa-state",
-   "value": 1.2,
-   "verdict": "excluded",
-   "reason": "Wet-pond permanent-pool sizing storm, not the water-quality depth"
-  },
-  {
-   "n": 21,
-   "param": "wqv_depth_inches",
-   "state": "RI",
-   "slug": "ri-state",
-   "value": 1.0,
-   "verdict": "ok"
-  },
-  {
-   "n": 22,
-   "param": "wqv_depth_inches",
-   "state": "VA",
-   "slug": "va-vdot-drainage",
-   "value": 1.0,
-   "verdict": "ok"
-  },
-  {
-   "n": 23,
-   "param": "wqv_depth_inches",
-   "state": "VT",
-   "slug": "vt-state",
-   "value": 1.0,
-   "verdict": "ok"
-  },
-  {
-   "n": 24,
-   "param": "wqv_depth_inches",
-   "state": "WV",
-   "slug": "west-virginia-manual",
-   "value": 1.0,
-   "verdict": "ok"
-  },
-  {
-   "n": 25,
-   "param": "max_drawdown_hours",
-   "state": "AL",
-   "slug": "alabama-handbook",
-   "value": 40.0,
-   "verdict": "excluded",
-   "reason": "States a belief about pollutant removal (30-40 h), not a maximum"
-  },
-  {
-   "n": 26,
-   "param": "max_drawdown_hours",
-   "state": "CA",
-   "slug": "ca-casqa-municipal",
-   "value": 72.0,
-   "verdict": "ok"
-  },
-  {
-   "n": 27,
-   "param": "max_drawdown_hours",
-   "state": "CA",
-   "slug": "ca-caltrans-construction",
-   "value": 96.0,
-   "verdict": "ok"
-  },
-  {
-   "n": 28,
-   "param": "max_drawdown_hours",
-   "state": "CA",
-   "slug": "ca-caltrans-project-planning",
-   "value": 96.0,
-   "verdict": "ok"
-  },
-  {
-   "n": 29,
-   "param": "max_drawdown_hours",
-   "state": "CT",
-   "slug": "ct-ctdot-drainage",
-   "value": 72.0,
-   "verdict": "ok"
-  },
-  {
-   "n": 30,
-   "param": "max_drawdown_hours",
-   "state": "CT",
-   "slug": "ct-state",
-   "value": 48.0,
-   "verdict": "ok"
-  },
-  {
-   "n": 31,
-   "param": "max_drawdown_hours",
-   "state": "FL",
-   "slug": "fl-fsesci-tier1",
-   "value": 4.0,
-   "verdict": "excluded",
-   "reason": "Construction-site treatment cell batch time, not a post-construction practice"
-  },
-  {
-   "n": 32,
-   "param": "max_drawdown_hours",
-   "state": "HI",
-   "slug": "hawaii-dot-pcbmp",
-   "value": 48.0,
-   "verdict": "ok"
-  },
-  {
-   "n": 33,
-   "param": "max_drawdown_hours",
-   "state": "ID",
-   "slug": "idaho-bmp-catalog",
-   "value": 72.0,
-   "verdict": "ok"
-  },
-  {
-   "n": 34,
-   "param": "max_drawdown_hours",
-   "state": "IN",
-   "slug": "in-indot-drainage",
-   "value": 72.0,
-   "verdict": "ok"
-  },
-  {
-   "n": 35,
-   "param": "max_drawdown_hours",
-   "state": "IN",
-   "slug": "indiana-manual",
-   "value": 24.0,
-   "verdict": "excluded",
-   "reason": "Pond low-flow drain valve setting, not a design drawdown limit"
-  },
-  {
-   "n": 36,
-   "param": "max_drawdown_hours",
-   "state": "MA",
-   "slug": "ma-massdot-drainage",
-   "value": 72.0,
-   "verdict": "ok"
-  },
-  {
-   "n": 37,
-   "param": "max_drawdown_hours",
-   "state": "MA",
-   "slug": "ma-state-draft",
-   "value": 72.0,
-   "verdict": "ok"
-  },
-  {
-   "n": 38,
-   "param": "max_drawdown_hours",
-   "state": "MD",
-   "slug": "md-state",
-   "value": 24.0,
-   "verdict": "excluded",
-   "reason": "Extended-detention target time, a different concept from a maximum drawdown"
-  },
-  {
-   "n": 39,
-   "param": "max_drawdown_hours",
-   "state": "ME",
-   "slug": "maine-manual",
-   "value": 48.0,
-   "verdict": "ok"
-  },
-  {
-   "n": 40,
-   "param": "max_drawdown_hours",
-   "state": "MN",
-   "slug": "mn-state-2008",
-   "value": 48.0,
-   "verdict": "ok"
-  },
-  {
-   "n": 41,
-   "param": "max_drawdown_hours",
-   "state": "MS",
-   "slug": "ms-state-vol2",
-   "value": 120.0,
-   "verdict": "ok"
-  },
-  {
-   "n": 42,
-   "param": "max_drawdown_hours",
-   "state": "MT",
-   "slug": "billings-mt",
-   "value": 72.0,
-   "verdict": "ok"
-  },
-  {
-   "n": 43,
-   "param": "max_drawdown_hours",
-   "state": "MT",
-   "slug": "mt-deq8",
-   "value": 72.0,
-   "verdict": "ok"
-  },
-  {
-   "n": 44,
-   "param": "max_drawdown_hours",
-   "state": "NE",
-   "slug": "ne-ndot-stf",
-   "value": 72.0,
-   "verdict": "ok"
-  },
-  {
-   "n": 45,
-   "param": "max_drawdown_hours",
-   "state": "NJ",
-   "slug": "nj-njdot-drainage",
-   "value": 72.0,
-   "verdict": "ok"
-  },
-  {
-   "n": 46,
-   "param": "max_drawdown_hours",
-   "state": "NJ",
-   "slug": "nj-state",
-   "value": 72.0,
-   "verdict": "ok"
-  },
-  {
-   "n": 47,
-   "param": "max_drawdown_hours",
-   "state": "NM",
-   "slug": "nm-nmdot-drainage",
-   "value": 96.0,
-   "verdict": "ok"
-  },
-  {
-   "n": 48,
-   "param": "max_drawdown_hours",
-   "state": "PA",
-   "slug": "pa-bmp-2006",
-   "value": 72.0,
-   "verdict": "ok"
-  },
-  {
-   "n": 49,
-   "param": "max_drawdown_hours",
-   "state": "PA",
-   "slug": "pa-state",
-   "value": 72.0,
-   "verdict": "ok"
-  },
-  {
-   "n": 50,
-   "param": "max_drawdown_hours",
-   "state": "PA",
-   "slug": "pa-penndot-drainage",
-   "value": 48.0,
-   "verdict": "ok"
-  },
-  {
-   "n": 51,
-   "param": "max_drawdown_hours",
-   "state": "RI",
-   "slug": "ri-ridot-drainage",
-   "value": 48.0,
-   "verdict": "ok"
-  },
-  {
-   "n": 52,
-   "param": "max_drawdown_hours",
-   "state": "RI",
-   "slug": "ri-state",
-   "value": 48.0,
-   "verdict": "ok"
-  },
-  {
-   "n": 53,
-   "param": "max_drawdown_hours",
-   "state": "SC",
-   "slug": "sc-scdot-drainage",
-   "value": 24.0,
-   "verdict": "excluded",
-   "reason": "A minimum release period (at least 24 h), not a maximum"
-  },
-  {
-   "n": 54,
-   "param": "max_drawdown_hours",
-   "state": "SC",
-   "slug": "south-carolina-manual",
-   "value": 72.0,
-   "verdict": "ok"
-  },
-  {
-   "n": 55,
-   "param": "max_drawdown_hours",
-   "state": "TN",
-   "slug": "tn-state",
-   "value": 24.0,
-   "verdict": "ok"
-  },
-  {
-   "n": 56,
-   "param": "max_drawdown_hours",
-   "state": "UT",
-   "slug": "ut-udot-drainage",
-   "value": 72.0,
-   "verdict": "ok"
-  },
-  {
-   "n": 57,
-   "param": "max_drawdown_hours",
-   "state": "VT",
-   "slug": "vt-state",
-   "value": 48.0,
-   "verdict": "ok"
-  },
-  {
-   "n": 58,
-   "param": "max_drawdown_hours",
-   "state": "WA",
-   "slug": "wa-state-western",
-   "value": 48.0,
-   "verdict": "ok"
-  },
-  {
-   "n": 59,
-   "param": "max_drawdown_hours",
-   "state": "WV",
-   "slug": "west-virginia-manual",
-   "value": 48.0,
-   "verdict": "ok"
-  },
-  {
-   "n": 60,
-   "param": "shwt_separation_inches",
-   "state": "AL",
-   "slug": "alabama-handbook",
-   "value": 24.0,
-   "verdict": "ok"
-  },
-  {
-   "n": 61,
-   "param": "shwt_separation_inches",
-   "state": "CA",
-   "slug": "ca-caltrans-project-planning",
-   "value": 60.0,
-   "verdict": "ok"
-  },
-  {
-   "n": 62,
-   "param": "shwt_separation_inches",
-   "state": "CT",
-   "slug": "ct-ctdot-drainage",
-   "value": 60.0,
-   "verdict": "ok"
-  },
-  {
-   "n": 63,
-   "param": "shwt_separation_inches",
-   "state": "CT",
-   "slug": "ct-state",
-   "value": 36.0,
-   "verdict": "ok"
-  },
-  {
-   "n": 64,
-   "param": "shwt_separation_inches",
-   "state": "DC",
-   "slug": "dc-ddot-stormwater",
-   "value": 24.0,
-   "verdict": "ok"
-  },
-  {
-   "n": 65,
-   "param": "shwt_separation_inches",
-   "state": "DE",
-   "slug": "de-wet-ponds-draft",
-   "value": 24.0,
-   "verdict": "excluded",
-   "reason": "Condition for a pond liner, not a separation requirement"
-  },
-  {
-   "n": 66,
-   "param": "shwt_separation_inches",
-   "state": "FL",
-   "slug": "fl-fdot-drainage",
-   "value": 12.0,
-   "verdict": "excluded",
-   "reason": "Ditch-bottom elevation for maintenance, not an infiltration practice"
-  },
-  {
-   "n": 67,
-   "param": "shwt_separation_inches",
-   "state": "HI",
-   "slug": "hawaii-dot-pcbmp",
-   "value": 36.0,
-   "verdict": "ok"
-  },
-  {
-   "n": 68,
-   "param": "shwt_separation_inches",
-   "state": "ID",
-   "slug": "idaho-bmp-catalog",
-   "value": 36.0,
-   "verdict": "ok"
-  },
-  {
-   "n": 69,
-   "param": "shwt_separation_inches",
-   "state": "IN",
-   "slug": "in-indot-drainage",
-   "value": 24.0,
-   "verdict": "ok"
-  },
-  {
-   "n": 70,
-   "param": "shwt_separation_inches",
-   "state": "IN",
-   "slug": "indiana-manual",
-   "value": 36.0,
-   "verdict": "ok"
-  },
-  {
-   "n": 71,
-   "param": "shwt_separation_inches",
-   "state": "MA",
-   "slug": "ma-massdot-drainage",
-   "value": 24.0,
-   "verdict": "ok"
-  },
-  {
-   "n": 72,
-   "param": "shwt_separation_inches",
-   "state": "MA",
-   "slug": "ma-state-draft",
-   "value": 24.0,
-   "verdict": "ok"
-  },
-  {
-   "n": 73,
-   "param": "shwt_separation_inches",
-   "state": "MD",
-   "slug": "md-state",
-   "value": 48.0,
-   "verdict": "ok"
-  },
-  {
-   "n": 74,
-   "param": "shwt_separation_inches",
-   "state": "ME",
-   "slug": "maine-manual",
-   "value": 12.0,
-   "verdict": "ok"
-  },
-  {
-   "n": 75,
-   "param": "shwt_separation_inches",
-   "state": "MN",
-   "slug": "mn-state-2008",
-   "value": 36.0,
-   "verdict": "ok"
-  },
-  {
-   "n": 76,
-   "param": "shwt_separation_inches",
-   "state": "MS",
-   "slug": "ms-state-vol2",
-   "value": 24.0,
-   "verdict": "ok"
-  },
-  {
-   "n": 77,
-   "param": "shwt_separation_inches",
-   "state": "MT",
-   "slug": "billings-mt",
-   "value": 36.0,
-   "verdict": "ok"
-  },
-  {
-   "n": 78,
-   "param": "shwt_separation_inches",
-   "state": "MT",
-   "slug": "mt-deq8",
-   "value": 12.0,
-   "verdict": "ok"
-  },
-  {
-   "n": 79,
-   "param": "shwt_separation_inches",
-   "state": "NJ",
-   "slug": "nj-state",
-   "value": 12.0,
-   "verdict": "ok"
-  },
-  {
-   "n": 80,
-   "param": "shwt_separation_inches",
-   "state": "NY",
-   "slug": "ny-state",
-   "value": 24.0,
-   "verdict": "ok"
-  },
-  {
-   "n": 81,
-   "param": "shwt_separation_inches",
-   "state": "OH",
-   "slug": "ohio-rainwater",
-   "value": 36.0,
-   "verdict": "ok"
-  },
-  {
-   "n": 82,
-   "param": "shwt_separation_inches",
-   "state": "OH",
-   "slug": "oh-odot-drainage",
-   "value": 48.0,
-   "verdict": "ok"
-  },
-  {
-   "n": 83,
-   "param": "shwt_separation_inches",
-   "state": "PA",
-   "slug": "pa-bmp-2006",
-   "value": 24.0,
-   "verdict": "ok"
-  },
-  {
-   "n": 84,
-   "param": "shwt_separation_inches",
-   "state": "PA",
-   "slug": "pa-state",
-   "value": 24.0,
-   "verdict": "ok"
-  },
-  {
-   "n": 85,
-   "param": "shwt_separation_inches",
-   "state": "PA",
-   "slug": "pa-penndot-drainage",
-   "value": 24.0,
-   "verdict": "ok"
-  },
-  {
-   "n": 86,
-   "param": "shwt_separation_inches",
-   "state": "RI",
-   "slug": "ri-state",
-   "value": 36.0,
-   "verdict": "ok"
-  },
-  {
-   "n": 87,
-   "param": "shwt_separation_inches",
-   "state": "TN",
-   "slug": "tn-state",
-   "value": 24.0,
-   "verdict": "ok"
-  },
-  {
-   "n": 88,
-   "param": "shwt_separation_inches",
-   "state": "TX",
-   "slug": "tx-edwards-rg348",
-   "value": 48.0,
-   "verdict": "ok"
-  },
-  {
-   "n": 89,
-   "param": "shwt_separation_inches",
-   "state": "UT",
-   "slug": "ut-udot-drainage",
-   "value": 48.0,
-   "verdict": "ok"
-  },
-  {
-   "n": 90,
-   "param": "shwt_separation_inches",
-   "state": "VT",
-   "slug": "vt-state",
-   "value": 36.0,
-   "verdict": "ok"
-  },
-  {
-   "n": 91,
-   "param": "shwt_separation_inches",
-   "state": "WA",
-   "slug": "wa-state-western",
-   "value": 60.0,
-   "verdict": "ok"
-  },
-  {
-   "n": 92,
-   "param": "shwt_separation_inches",
-   "state": "WV",
-   "slug": "west-virginia-manual",
-   "value": 24.0,
-   "verdict": "ok"
-  },
-  {
-   "n": 93,
-   "param": "bioretention_media_depth_min_inches",
-   "state": "AL",
-   "slug": "alabama-handbook",
-   "value": 24.0,
-   "verdict": "ok"
-  },
-  {
-   "n": 94,
-   "param": "bioretention_media_depth_min_inches",
-   "state": "CA",
-   "slug": "ca-caltrans-project-planning",
-   "value": 18.0,
-   "verdict": "ok"
-  },
-  {
-   "n": 95,
-   "param": "bioretention_media_depth_min_inches",
-   "state": "CT",
-   "slug": "ct-state",
-   "value": 24.0,
-   "verdict": "ok"
-  },
-  {
-   "n": 96,
-   "param": "bioretention_media_depth_min_inches",
-   "state": "DC",
-   "slug": "dc-ddot-stormwater",
-   "value": 18.0,
-   "verdict": "ok"
-  },
-  {
-   "n": 97,
-   "param": "bioretention_media_depth_min_inches",
-   "state": "HI",
-   "slug": "hawaii-dot-pcbmp",
-   "value": 24.0,
-   "verdict": "ok"
-  },
-  {
-   "n": 98,
-   "param": "bioretention_media_depth_min_inches",
-   "state": "IN",
-   "slug": "indiana-manual",
-   "value": 48.0,
-   "verdict": "ok"
-  },
-  {
-   "n": 99,
-   "param": "bioretention_media_depth_min_inches",
-   "state": "MA",
-   "slug": "ma-state-draft",
-   "value": 24.0,
-   "verdict": "ok"
-  },
-  {
-   "n": 100,
-   "param": "bioretention_media_depth_min_inches",
-   "state": "MD",
-   "slug": "md-state",
-   "value": 30.0,
-   "verdict": "ok"
-  },
-  {
-   "n": 101,
-   "param": "bioretention_media_depth_min_inches",
-   "state": "ME",
-   "slug": "maine-manual",
-   "value": 18.0,
-   "verdict": "ok"
-  },
-  {
-   "n": 102,
-   "param": "bioretention_media_depth_min_inches",
-   "state": "MN",
-   "slug": "mn-state-2008",
-   "value": 30.0,
-   "verdict": "ok"
-  },
-  {
-   "n": 103,
-   "param": "bioretention_media_depth_min_inches",
-   "state": "MT",
-   "slug": "billings-mt",
-   "value": 18.0,
-   "verdict": "ok"
-  },
-  {
-   "n": 104,
-   "param": "bioretention_media_depth_min_inches",
-   "state": "NJ",
-   "slug": "nj-state",
-   "value": 18.0,
-   "verdict": "ok"
-  },
-  {
-   "n": 105,
-   "param": "bioretention_media_depth_min_inches",
-   "state": "NY",
-   "slug": "ny-state",
-   "value": 12.0,
-   "verdict": "excluded",
-   "reason": "Rain-garden media; New York's bioretention filter depth differs"
-  },
-  {
-   "n": 106,
-   "param": "bioretention_media_depth_min_inches",
-   "state": "OH",
-   "slug": "ohio-rainwater",
-   "value": 30.0,
-   "verdict": "ok"
-  },
-  {
-   "n": 107,
-   "param": "bioretention_media_depth_min_inches",
-   "state": "OH",
-   "slug": "oh-odot-drainage",
-   "value": 30.0,
-   "verdict": "ok"
-  },
-  {
-   "n": 108,
-   "param": "bioretention_media_depth_min_inches",
-   "state": "PA",
-   "slug": "pa-bmp-2006",
-   "value": 18.0,
-   "verdict": "ok"
-  },
-  {
-   "n": 109,
-   "param": "bioretention_media_depth_min_inches",
-   "state": "PA",
-   "slug": "pa-state",
-   "value": 18.0,
-   "verdict": "ok"
-  },
-  {
-   "n": 110,
-   "param": "bioretention_media_depth_min_inches",
-   "state": "RI",
-   "slug": "ri-ridot-drainage",
-   "value": 24.0,
-   "verdict": "ok"
-  },
-  {
-   "n": 111,
-   "param": "bioretention_media_depth_min_inches",
-   "state": "RI",
-   "slug": "ri-state",
-   "value": 24.0,
-   "verdict": "ok"
-  },
-  {
-   "n": 112,
-   "param": "bioretention_media_depth_min_inches",
-   "state": "TN",
-   "slug": "tn-state",
-   "value": 24,
-   "verdict": "corrected",
-   "was": 18.0,
-   "reason": "Manual: standard minimum filter is 24 in for bioretention cells (18-24 in is for rain gardens)"
-  },
-  {
-   "n": 113,
-   "param": "bioretention_media_depth_min_inches",
-   "state": "VT",
-   "slug": "vt-state",
-   "value": 24.0,
-   "verdict": "ok"
-  },
-  {
-   "n": 114,
-   "param": "bioretention_media_depth_min_inches",
-   "state": "WA",
-   "slug": "wa-state-western",
-   "value": 18.0,
-   "verdict": "ok"
-  },
-  {
-   "n": 115,
-   "param": "bioretention_media_depth_min_inches",
-   "state": "WV",
-   "slug": "west-virginia-manual",
-   "value": 18.0,
-   "verdict": "ok"
-  },
-  {
-   "n": 116,
-   "param": "design_infiltration_rate_in_per_hr",
-   "state": "AL",
-   "slug": "alabama-handbook",
-   "value": 1.0,
-   "verdict": "ok"
-  },
-  {
-   "n": 117,
-   "param": "design_infiltration_rate_in_per_hr",
-   "state": "CT",
-   "slug": "ct-ctdot-drainage",
-   "value": 1.0,
-   "verdict": "ok"
-  },
-  {
-   "n": 118,
-   "param": "design_infiltration_rate_in_per_hr",
-   "state": "CT",
-   "slug": "ct-state",
-   "value": 0.5,
-   "verdict": "excluded",
-   "reason": "Bioretention media design rate, not the native soil threshold"
-  },
-  {
-   "n": 119,
-   "param": "design_infiltration_rate_in_per_hr",
-   "state": "DE",
-   "slug": "de-wet-ponds-draft",
-   "value": 0.01,
-   "verdict": "excluded",
-   "reason": "Assumed monthly infiltration loss in a water balance"
-  },
-  {
-   "n": 120,
-   "param": "design_infiltration_rate_in_per_hr",
-   "state": "ID",
-   "slug": "idaho-bmp-catalog",
-   "value": 0.4,
-   "verdict": "ok"
-  },
-  {
-   "n": 121,
-   "param": "design_infiltration_rate_in_per_hr",
-   "state": "IN",
-   "slug": "in-indot-drainage",
-   "value": 2.0,
-   "verdict": "ok"
-  },
-  {
-   "n": 122,
-   "param": "design_infiltration_rate_in_per_hr",
-   "state": "MA",
-   "slug": "ma-massdot-drainage",
-   "value": 0.17,
-   "verdict": "ok"
-  },
-  {
-   "n": 123,
-   "param": "design_infiltration_rate_in_per_hr",
-   "state": "MA",
-   "slug": "ma-state-draft",
-   "value": 0.01,
-   "verdict": "ok"
-  },
-  {
-   "n": 124,
-   "param": "design_infiltration_rate_in_per_hr",
-   "state": "ME",
-   "slug": "maine-manual",
-   "value": 2.41,
-   "verdict": "excluded",
-   "reason": "Recommended maximum, not a minimum"
-  },
-  {
-   "n": 125,
-   "param": "design_infiltration_rate_in_per_hr",
-   "state": "MS",
-   "slug": "ms-state-vol2",
-   "value": 0.52,
-   "verdict": "ok"
-  },
-  {
-   "n": 126,
-   "param": "design_infiltration_rate_in_per_hr",
-   "state": "NE",
-   "slug": "ne-ndot-stf",
-   "value": 0.5,
-   "verdict": "ok"
-  },
-  {
-   "n": 127,
-   "param": "design_infiltration_rate_in_per_hr",
-   "state": "NY",
-   "slug": "ny-state",
-   "value": 0.5,
-   "verdict": "ok"
-  },
-  {
-   "n": 128,
-   "param": "design_infiltration_rate_in_per_hr",
-   "state": "PA",
-   "slug": "pa-bmp-2006",
-   "value": 0.5,
-   "verdict": "ok"
-  },
-  {
-   "n": 129,
-   "param": "design_infiltration_rate_in_per_hr",
-   "state": "PA",
-   "slug": "pa-penndot-drainage",
-   "value": 0.5,
-   "verdict": "excluded",
-   "reason": "Planting-soil (media) permeability, not native soil"
-  },
-  {
-   "n": 130,
-   "param": "design_infiltration_rate_in_per_hr",
-   "state": "RI",
-   "slug": "ri-ridot-drainage",
-   "value": 0.52,
-   "verdict": "ok"
-  },
-  {
-   "n": 131,
-   "param": "design_infiltration_rate_in_per_hr",
-   "state": "RI",
-   "slug": "ri-state",
-   "value": 0.5,
-   "verdict": "ok"
-  },
-  {
-   "n": 132,
-   "param": "design_infiltration_rate_in_per_hr",
-   "state": "SC",
-   "slug": "south-carolina-manual",
-   "value": 0.3,
-   "verdict": "ok"
-  },
-  {
-   "n": 133,
-   "param": "design_infiltration_rate_in_per_hr",
-   "state": "TN",
-   "slug": "tn-state",
-   "value": 0.5,
-   "verdict": "ok"
-  },
-  {
-   "n": 134,
-   "param": "design_infiltration_rate_in_per_hr",
-   "state": "VA",
-   "slug": "va-state",
-   "value": 0.5,
-   "verdict": "ok"
-  },
-  {
-   "n": 135,
-   "param": "design_infiltration_rate_in_per_hr",
-   "state": "VT",
-   "slug": "vt-state",
-   "value": 0.2,
-   "verdict": "ok"
-  },
-  {
-   "n": 136,
-   "param": "design_infiltration_rate_in_per_hr",
-   "state": "WV",
-   "slug": "west-virginia-manual",
-   "value": 0.5,
-   "verdict": "ok"
-  },
-  {
-   "n": 137,
-   "param": "permanent_pool_depth_inches",
-   "state": "CT",
-   "slug": "ct-ctdot-drainage",
-   "value": 60.0,
-   "verdict": "ok"
-  },
-  {
-   "n": 138,
-   "param": "permanent_pool_depth_inches",
-   "state": "DE",
-   "slug": "de-wet-ponds-draft",
-   "value": 48.0,
-   "verdict": "ok"
-  },
-  {
-   "n": 139,
-   "param": "permanent_pool_depth_inches",
-   "state": "FL",
-   "slug": "fl-fdot-drainage",
-   "value": 72.0,
-   "verdict": "ok"
-  },
-  {
-   "n": 140,
-   "param": "permanent_pool_depth_inches",
-   "state": "HI",
-   "slug": "hawaii-dot-pcbmp",
-   "value": 96.0,
-   "verdict": "excluded",
-   "reason": "Maximum pool depth, not a minimum"
-  },
-  {
-   "n": 141,
-   "param": "permanent_pool_depth_inches",
-   "state": "ID",
-   "slug": "idaho-bmp-catalog",
-   "value": 36.0,
-   "verdict": "excluded",
-   "reason": "Average wetland depth used in a sizing example"
-  },
-  {
-   "n": 142,
-   "param": "permanent_pool_depth_inches",
-   "state": "IL",
-   "slug": "il-iepa-stormwater",
-   "value": 48.0,
-   "verdict": "excluded",
-   "reason": "Mean depth in a worked example"
-  },
-  {
-   "n": 143,
-   "param": "permanent_pool_depth_inches",
-   "state": "MN",
-   "slug": "mn-state-2008",
-   "value": 36.0,
-   "verdict": "ok"
-  },
-  {
-   "n": 144,
-   "param": "permanent_pool_depth_inches",
-   "state": "PA",
-   "slug": "pa-state",
-   "value": 60.0,
-   "verdict": "ok"
-  },
-  {
-   "n": 145,
-   "param": "permanent_pool_depth_inches",
-   "state": "VA",
-   "slug": "va-state",
-   "value": 48.0,
-   "verdict": "excluded",
-   "reason": "Maximum normal pool depth"
-  },
-  {
-   "n": 146,
-   "param": "permanent_pool_depth_inches",
-   "state": "VA",
-   "slug": "va-vdot-drainage",
-   "value": 36.0,
-   "verdict": "excluded",
-   "reason": "Maximum pool depth"
-  },
-  {
-   "n": 147,
-   "param": "permanent_pool_depth_inches",
-   "state": "VT",
-   "slug": "vt-state",
-   "value": 48.0,
-   "verdict": "ok"
-  }
- ]
+  "checked_at": "2026-11-18",
+  "method": "Each state-level value whose quote passed the strict citation check was read by hand against its quote (and page text where needed) and judged: is it this requirement, for this kind of practice, stated as a requirement?",
+  "criteria_notes": {
+    "design_infiltration_rate_in_per_hr": "Read as the minimum native-soil infiltration rate for infiltration practices; media rates, caps and assumptions excluded.",
+    "permanent_pool_depth_inches": "Read as the minimum permanent-pool depth; maxima and averages excluded."
+  },
+  "values": [
+    {
+      "n": 1,
+      "param": "wqv_depth_inches",
+      "state": "CT",
+      "slug": "ct-ctdot-drainage",
+      "value": 1.0,
+      "verdict": "ok"
+    },
+    {
+      "n": 2,
+      "param": "wqv_depth_inches",
+      "state": "CT",
+      "slug": "ct-state",
+      "value": 1.3,
+      "verdict": "ok"
+    },
+    {
+      "n": 3,
+      "param": "wqv_depth_inches",
+      "state": "DC",
+      "slug": "dc-ddot-stormwater",
+      "value": 1.2,
+      "verdict": "ok"
+    },
+    {
+      "n": 4,
+      "param": "wqv_depth_inches",
+      "state": "GA",
+      "slug": "ga-state",
+      "value": 1.2,
+      "verdict": "ok"
+    },
+    {
+      "n": 5,
+      "param": "wqv_depth_inches",
+      "state": "HI",
+      "slug": "hawaii-dot-pcbmp",
+      "value": 1.0,
+      "verdict": "ok"
+    },
+    {
+      "n": 6,
+      "param": "wqv_depth_inches",
+      "state": "IA",
+      "slug": "ia-state-ch1",
+      "value": 1.25,
+      "verdict": "ok"
+    },
+    {
+      "n": 7,
+      "param": "wqv_depth_inches",
+      "state": "IN",
+      "slug": "indiana-manual",
+      "value": 1.0,
+      "verdict": "ok"
+    },
+    {
+      "n": 8,
+      "param": "wqv_depth_inches",
+      "state": "MA",
+      "slug": "ma-massdot-drainage",
+      "value": 0.5,
+      "verdict": "ok"
+    },
+    {
+      "n": 9,
+      "param": "wqv_depth_inches",
+      "state": "MA",
+      "slug": "ma-state-draft",
+      "value": 1.0,
+      "verdict": "ok"
+    },
+    {
+      "n": 10,
+      "param": "wqv_depth_inches",
+      "state": "ME",
+      "slug": "maine-manual",
+      "value": 1.0,
+      "verdict": "ok"
+    },
+    {
+      "n": 11,
+      "param": "wqv_depth_inches",
+      "state": "MI",
+      "slug": "michigan-manual",
+      "value": 1.0,
+      "verdict": "ok"
+    },
+    {
+      "n": 12,
+      "param": "wqv_depth_inches",
+      "state": "NC",
+      "slug": "nc-state",
+      "value": 1.0,
+      "verdict": "ok"
+    },
+    {
+      "n": 13,
+      "param": "wqv_depth_inches",
+      "state": "NE",
+      "slug": "ne-ndot-stf",
+      "value": 0.5,
+      "verdict": "ok"
+    },
+    {
+      "n": 14,
+      "param": "wqv_depth_inches",
+      "state": "NH",
+      "slug": "nh-state",
+      "value": 1.0,
+      "verdict": "ok"
+    },
+    {
+      "n": 15,
+      "param": "wqv_depth_inches",
+      "state": "NJ",
+      "slug": "nj-njdot-drainage",
+      "value": 1.25,
+      "verdict": "ok"
+    },
+    {
+      "n": 16,
+      "param": "wqv_depth_inches",
+      "state": "NY",
+      "slug": "ny-state",
+      "value": 1.2,
+      "verdict": "ok"
+    },
+    {
+      "n": 17,
+      "param": "wqv_depth_inches",
+      "state": "OH",
+      "slug": "ohio-rainwater",
+      "value": 0.75,
+      "verdict": "ok"
+    },
+    {
+      "n": 18,
+      "param": "wqv_depth_inches",
+      "state": "OH",
+      "slug": "oh-odot-drainage",
+      "value": 0.9,
+      "verdict": "ok"
+    },
+    {
+      "n": 19,
+      "param": "wqv_depth_inches",
+      "state": "PA",
+      "slug": "pa-bmp-2006",
+      "value": 1.0,
+      "verdict": "excluded",
+      "reason": "PRV volume definition is ambiguous (the manual's main control retains 2 in)"
+    },
+    {
+      "n": 20,
+      "param": "wqv_depth_inches",
+      "state": "PA",
+      "slug": "pa-state",
+      "value": 1.2,
+      "verdict": "excluded",
+      "reason": "Wet-pond permanent-pool sizing storm, not the water-quality depth"
+    },
+    {
+      "n": 21,
+      "param": "wqv_depth_inches",
+      "state": "RI",
+      "slug": "ri-state",
+      "value": 1.0,
+      "verdict": "ok"
+    },
+    {
+      "n": 22,
+      "param": "wqv_depth_inches",
+      "state": "VA",
+      "slug": "va-vdot-drainage",
+      "value": 1.0,
+      "verdict": "ok"
+    },
+    {
+      "n": 23,
+      "param": "wqv_depth_inches",
+      "state": "VT",
+      "slug": "vt-state",
+      "value": 1.0,
+      "verdict": "ok"
+    },
+    {
+      "n": 24,
+      "param": "wqv_depth_inches",
+      "state": "WV",
+      "slug": "west-virginia-manual",
+      "value": 1.0,
+      "verdict": "ok"
+    },
+    {
+      "n": 25,
+      "param": "max_drawdown_hours",
+      "state": "AL",
+      "slug": "alabama-handbook",
+      "value": 40.0,
+      "verdict": "excluded",
+      "reason": "States a belief about pollutant removal (30-40 h), not a maximum"
+    },
+    {
+      "n": 26,
+      "param": "max_drawdown_hours",
+      "state": "CA",
+      "slug": "ca-casqa-municipal",
+      "value": 72.0,
+      "verdict": "ok"
+    },
+    {
+      "n": 27,
+      "param": "max_drawdown_hours",
+      "state": "CA",
+      "slug": "ca-caltrans-construction",
+      "value": 96.0,
+      "verdict": "ok"
+    },
+    {
+      "n": 28,
+      "param": "max_drawdown_hours",
+      "state": "CA",
+      "slug": "ca-caltrans-project-planning",
+      "value": 96.0,
+      "verdict": "ok"
+    },
+    {
+      "n": 29,
+      "param": "max_drawdown_hours",
+      "state": "CT",
+      "slug": "ct-ctdot-drainage",
+      "value": 72.0,
+      "verdict": "ok"
+    },
+    {
+      "n": 30,
+      "param": "max_drawdown_hours",
+      "state": "CT",
+      "slug": "ct-state",
+      "value": 48.0,
+      "verdict": "ok"
+    },
+    {
+      "n": 31,
+      "param": "max_drawdown_hours",
+      "state": "FL",
+      "slug": "fl-fsesci-tier1",
+      "value": 4.0,
+      "verdict": "excluded",
+      "reason": "Construction-site treatment cell batch time, not a post-construction practice"
+    },
+    {
+      "n": 32,
+      "param": "max_drawdown_hours",
+      "state": "HI",
+      "slug": "hawaii-dot-pcbmp",
+      "value": 48.0,
+      "verdict": "ok"
+    },
+    {
+      "n": 33,
+      "param": "max_drawdown_hours",
+      "state": "ID",
+      "slug": "idaho-bmp-catalog",
+      "value": 72.0,
+      "verdict": "ok"
+    },
+    {
+      "n": 34,
+      "param": "max_drawdown_hours",
+      "state": "IN",
+      "slug": "in-indot-drainage",
+      "value": 72.0,
+      "verdict": "ok"
+    },
+    {
+      "n": 35,
+      "param": "max_drawdown_hours",
+      "state": "IN",
+      "slug": "indiana-manual",
+      "value": 24.0,
+      "verdict": "excluded",
+      "reason": "Pond low-flow drain valve setting, not a design drawdown limit"
+    },
+    {
+      "n": 36,
+      "param": "max_drawdown_hours",
+      "state": "MA",
+      "slug": "ma-massdot-drainage",
+      "value": 72.0,
+      "verdict": "ok"
+    },
+    {
+      "n": 37,
+      "param": "max_drawdown_hours",
+      "state": "MA",
+      "slug": "ma-state-draft",
+      "value": 72.0,
+      "verdict": "ok"
+    },
+    {
+      "n": 38,
+      "param": "max_drawdown_hours",
+      "state": "MD",
+      "slug": "md-state",
+      "value": 24.0,
+      "verdict": "excluded",
+      "reason": "Extended-detention target time, a different concept from a maximum drawdown"
+    },
+    {
+      "n": 39,
+      "param": "max_drawdown_hours",
+      "state": "ME",
+      "slug": "maine-manual",
+      "value": 48.0,
+      "verdict": "ok"
+    },
+    {
+      "n": 40,
+      "param": "max_drawdown_hours",
+      "state": "MN",
+      "slug": "mn-state-2008",
+      "value": 48.0,
+      "verdict": "ok"
+    },
+    {
+      "n": 41,
+      "param": "max_drawdown_hours",
+      "state": "MS",
+      "slug": "ms-state-vol2",
+      "value": 120.0,
+      "verdict": "ok"
+    },
+    {
+      "n": 42,
+      "param": "max_drawdown_hours",
+      "state": "MT",
+      "slug": "billings-mt",
+      "value": 72.0,
+      "verdict": "ok"
+    },
+    {
+      "n": 43,
+      "param": "max_drawdown_hours",
+      "state": "MT",
+      "slug": "mt-deq8",
+      "value": 72.0,
+      "verdict": "ok"
+    },
+    {
+      "n": 44,
+      "param": "max_drawdown_hours",
+      "state": "NE",
+      "slug": "ne-ndot-stf",
+      "value": 72.0,
+      "verdict": "ok"
+    },
+    {
+      "n": 45,
+      "param": "max_drawdown_hours",
+      "state": "NJ",
+      "slug": "nj-njdot-drainage",
+      "value": 72.0,
+      "verdict": "ok"
+    },
+    {
+      "n": 46,
+      "param": "max_drawdown_hours",
+      "state": "NJ",
+      "slug": "nj-state",
+      "value": 72.0,
+      "verdict": "ok"
+    },
+    {
+      "n": 47,
+      "param": "max_drawdown_hours",
+      "state": "NM",
+      "slug": "nm-nmdot-drainage",
+      "value": 96.0,
+      "verdict": "ok"
+    },
+    {
+      "n": 48,
+      "param": "max_drawdown_hours",
+      "state": "PA",
+      "slug": "pa-bmp-2006",
+      "value": 72.0,
+      "verdict": "ok"
+    },
+    {
+      "n": 49,
+      "param": "max_drawdown_hours",
+      "state": "PA",
+      "slug": "pa-state",
+      "value": 72.0,
+      "verdict": "ok"
+    },
+    {
+      "n": 50,
+      "param": "max_drawdown_hours",
+      "state": "PA",
+      "slug": "pa-penndot-drainage",
+      "value": 48.0,
+      "verdict": "ok"
+    },
+    {
+      "n": 51,
+      "param": "max_drawdown_hours",
+      "state": "RI",
+      "slug": "ri-ridot-drainage",
+      "value": 48.0,
+      "verdict": "ok"
+    },
+    {
+      "n": 52,
+      "param": "max_drawdown_hours",
+      "state": "RI",
+      "slug": "ri-state",
+      "value": 48.0,
+      "verdict": "ok"
+    },
+    {
+      "n": 53,
+      "param": "max_drawdown_hours",
+      "state": "SC",
+      "slug": "sc-scdot-drainage",
+      "value": 24.0,
+      "verdict": "excluded",
+      "reason": "A minimum release period (at least 24 h), not a maximum"
+    },
+    {
+      "n": 54,
+      "param": "max_drawdown_hours",
+      "state": "SC",
+      "slug": "south-carolina-manual",
+      "value": 72.0,
+      "verdict": "ok"
+    },
+    {
+      "n": 55,
+      "param": "max_drawdown_hours",
+      "state": "TN",
+      "slug": "tn-state",
+      "value": 24.0,
+      "verdict": "ok"
+    },
+    {
+      "n": 56,
+      "param": "max_drawdown_hours",
+      "state": "UT",
+      "slug": "ut-udot-drainage",
+      "value": 72.0,
+      "verdict": "ok"
+    },
+    {
+      "n": 57,
+      "param": "max_drawdown_hours",
+      "state": "VT",
+      "slug": "vt-state",
+      "value": 48.0,
+      "verdict": "ok"
+    },
+    {
+      "n": 58,
+      "param": "max_drawdown_hours",
+      "state": "WA",
+      "slug": "wa-state-western",
+      "value": 48.0,
+      "verdict": "ok"
+    },
+    {
+      "n": 59,
+      "param": "max_drawdown_hours",
+      "state": "WV",
+      "slug": "west-virginia-manual",
+      "value": 48.0,
+      "verdict": "ok"
+    },
+    {
+      "n": 60,
+      "param": "shwt_separation_inches",
+      "state": "AL",
+      "slug": "alabama-handbook",
+      "value": 24.0,
+      "verdict": "ok"
+    },
+    {
+      "n": 61,
+      "param": "shwt_separation_inches",
+      "state": "CA",
+      "slug": "ca-caltrans-project-planning",
+      "value": 60.0,
+      "verdict": "ok"
+    },
+    {
+      "n": 62,
+      "param": "shwt_separation_inches",
+      "state": "CT",
+      "slug": "ct-ctdot-drainage",
+      "value": 60.0,
+      "verdict": "ok"
+    },
+    {
+      "n": 63,
+      "param": "shwt_separation_inches",
+      "state": "CT",
+      "slug": "ct-state",
+      "value": 36.0,
+      "verdict": "ok"
+    },
+    {
+      "n": 64,
+      "param": "shwt_separation_inches",
+      "state": "DC",
+      "slug": "dc-ddot-stormwater",
+      "value": 24.0,
+      "verdict": "ok"
+    },
+    {
+      "n": 65,
+      "param": "shwt_separation_inches",
+      "state": "DE",
+      "slug": "de-wet-ponds-draft",
+      "value": 24.0,
+      "verdict": "excluded",
+      "reason": "Condition for a pond liner, not a separation requirement"
+    },
+    {
+      "n": 66,
+      "param": "shwt_separation_inches",
+      "state": "FL",
+      "slug": "fl-fdot-drainage",
+      "value": 12.0,
+      "verdict": "excluded",
+      "reason": "Ditch-bottom elevation for maintenance, not an infiltration practice"
+    },
+    {
+      "n": 67,
+      "param": "shwt_separation_inches",
+      "state": "HI",
+      "slug": "hawaii-dot-pcbmp",
+      "value": 36.0,
+      "verdict": "ok"
+    },
+    {
+      "n": 68,
+      "param": "shwt_separation_inches",
+      "state": "ID",
+      "slug": "idaho-bmp-catalog",
+      "value": 36.0,
+      "verdict": "ok"
+    },
+    {
+      "n": 69,
+      "param": "shwt_separation_inches",
+      "state": "IN",
+      "slug": "in-indot-drainage",
+      "value": 24.0,
+      "verdict": "ok"
+    },
+    {
+      "n": 70,
+      "param": "shwt_separation_inches",
+      "state": "IN",
+      "slug": "indiana-manual",
+      "value": 36.0,
+      "verdict": "ok"
+    },
+    {
+      "n": 71,
+      "param": "shwt_separation_inches",
+      "state": "MA",
+      "slug": "ma-massdot-drainage",
+      "value": 24.0,
+      "verdict": "ok"
+    },
+    {
+      "n": 72,
+      "param": "shwt_separation_inches",
+      "state": "MA",
+      "slug": "ma-state-draft",
+      "value": 24.0,
+      "verdict": "ok"
+    },
+    {
+      "n": 73,
+      "param": "shwt_separation_inches",
+      "state": "MD",
+      "slug": "md-state",
+      "value": 48.0,
+      "verdict": "ok"
+    },
+    {
+      "n": 74,
+      "param": "shwt_separation_inches",
+      "state": "ME",
+      "slug": "maine-manual",
+      "value": 12.0,
+      "verdict": "ok"
+    },
+    {
+      "n": 75,
+      "param": "shwt_separation_inches",
+      "state": "MN",
+      "slug": "mn-state-2008",
+      "value": 36.0,
+      "verdict": "ok"
+    },
+    {
+      "n": 76,
+      "param": "shwt_separation_inches",
+      "state": "MS",
+      "slug": "ms-state-vol2",
+      "value": 24.0,
+      "verdict": "ok"
+    },
+    {
+      "n": 77,
+      "param": "shwt_separation_inches",
+      "state": "MT",
+      "slug": "billings-mt",
+      "value": 36.0,
+      "verdict": "ok"
+    },
+    {
+      "n": 78,
+      "param": "shwt_separation_inches",
+      "state": "MT",
+      "slug": "mt-deq8",
+      "value": 12.0,
+      "verdict": "ok"
+    },
+    {
+      "n": 79,
+      "param": "shwt_separation_inches",
+      "state": "NJ",
+      "slug": "nj-state",
+      "value": 12.0,
+      "verdict": "ok"
+    },
+    {
+      "n": 80,
+      "param": "shwt_separation_inches",
+      "state": "NY",
+      "slug": "ny-state",
+      "value": 24.0,
+      "verdict": "ok"
+    },
+    {
+      "n": 81,
+      "param": "shwt_separation_inches",
+      "state": "OH",
+      "slug": "ohio-rainwater",
+      "value": 36.0,
+      "verdict": "ok"
+    },
+    {
+      "n": 82,
+      "param": "shwt_separation_inches",
+      "state": "OH",
+      "slug": "oh-odot-drainage",
+      "value": 48.0,
+      "verdict": "ok"
+    },
+    {
+      "n": 83,
+      "param": "shwt_separation_inches",
+      "state": "PA",
+      "slug": "pa-bmp-2006",
+      "value": 24.0,
+      "verdict": "ok"
+    },
+    {
+      "n": 84,
+      "param": "shwt_separation_inches",
+      "state": "PA",
+      "slug": "pa-state",
+      "value": 24.0,
+      "verdict": "ok"
+    },
+    {
+      "n": 85,
+      "param": "shwt_separation_inches",
+      "state": "PA",
+      "slug": "pa-penndot-drainage",
+      "value": 24.0,
+      "verdict": "ok"
+    },
+    {
+      "n": 86,
+      "param": "shwt_separation_inches",
+      "state": "RI",
+      "slug": "ri-state",
+      "value": 36.0,
+      "verdict": "ok"
+    },
+    {
+      "n": 87,
+      "param": "shwt_separation_inches",
+      "state": "TN",
+      "slug": "tn-state",
+      "value": 24.0,
+      "verdict": "ok"
+    },
+    {
+      "n": 88,
+      "param": "shwt_separation_inches",
+      "state": "TX",
+      "slug": "tx-edwards-rg348",
+      "value": 48.0,
+      "verdict": "ok"
+    },
+    {
+      "n": 89,
+      "param": "shwt_separation_inches",
+      "state": "UT",
+      "slug": "ut-udot-drainage",
+      "value": 48.0,
+      "verdict": "ok"
+    },
+    {
+      "n": 90,
+      "param": "shwt_separation_inches",
+      "state": "VT",
+      "slug": "vt-state",
+      "value": 36.0,
+      "verdict": "ok"
+    },
+    {
+      "n": 91,
+      "param": "shwt_separation_inches",
+      "state": "WA",
+      "slug": "wa-state-western",
+      "value": 60.0,
+      "verdict": "ok"
+    },
+    {
+      "n": 92,
+      "param": "shwt_separation_inches",
+      "state": "WV",
+      "slug": "west-virginia-manual",
+      "value": 24.0,
+      "verdict": "ok"
+    },
+    {
+      "n": 93,
+      "param": "bioretention_media_depth_min_inches",
+      "state": "AL",
+      "slug": "alabama-handbook",
+      "value": 24.0,
+      "verdict": "ok"
+    },
+    {
+      "n": 94,
+      "param": "bioretention_media_depth_min_inches",
+      "state": "CA",
+      "slug": "ca-caltrans-project-planning",
+      "value": 18.0,
+      "verdict": "ok"
+    },
+    {
+      "n": 95,
+      "param": "bioretention_media_depth_min_inches",
+      "state": "CT",
+      "slug": "ct-state",
+      "value": 24.0,
+      "verdict": "ok"
+    },
+    {
+      "n": 96,
+      "param": "bioretention_media_depth_min_inches",
+      "state": "DC",
+      "slug": "dc-ddot-stormwater",
+      "value": 18.0,
+      "verdict": "ok"
+    },
+    {
+      "n": 97,
+      "param": "bioretention_media_depth_min_inches",
+      "state": "HI",
+      "slug": "hawaii-dot-pcbmp",
+      "value": 24.0,
+      "verdict": "ok"
+    },
+    {
+      "n": 98,
+      "param": "bioretention_media_depth_min_inches",
+      "state": "IN",
+      "slug": "indiana-manual",
+      "value": 48.0,
+      "verdict": "ok"
+    },
+    {
+      "n": 99,
+      "param": "bioretention_media_depth_min_inches",
+      "state": "MA",
+      "slug": "ma-state-draft",
+      "value": 24.0,
+      "verdict": "ok"
+    },
+    {
+      "n": 100,
+      "param": "bioretention_media_depth_min_inches",
+      "state": "MD",
+      "slug": "md-state",
+      "value": 30.0,
+      "verdict": "ok"
+    },
+    {
+      "n": 101,
+      "param": "bioretention_media_depth_min_inches",
+      "state": "ME",
+      "slug": "maine-manual",
+      "value": 18.0,
+      "verdict": "ok"
+    },
+    {
+      "n": 102,
+      "param": "bioretention_media_depth_min_inches",
+      "state": "MN",
+      "slug": "mn-state-2008",
+      "value": 30.0,
+      "verdict": "ok"
+    },
+    {
+      "n": 103,
+      "param": "bioretention_media_depth_min_inches",
+      "state": "MT",
+      "slug": "billings-mt",
+      "value": 18.0,
+      "verdict": "ok"
+    },
+    {
+      "n": 104,
+      "param": "bioretention_media_depth_min_inches",
+      "state": "NJ",
+      "slug": "nj-state",
+      "value": 18.0,
+      "verdict": "ok"
+    },
+    {
+      "n": 105,
+      "param": "bioretention_media_depth_min_inches",
+      "state": "NY",
+      "slug": "ny-state",
+      "value": 12.0,
+      "verdict": "excluded",
+      "reason": "Rain-garden media; New York's bioretention filter depth differs"
+    },
+    {
+      "n": 106,
+      "param": "bioretention_media_depth_min_inches",
+      "state": "OH",
+      "slug": "ohio-rainwater",
+      "value": 30.0,
+      "verdict": "ok"
+    },
+    {
+      "n": 107,
+      "param": "bioretention_media_depth_min_inches",
+      "state": "OH",
+      "slug": "oh-odot-drainage",
+      "value": 30.0,
+      "verdict": "ok"
+    },
+    {
+      "n": 108,
+      "param": "bioretention_media_depth_min_inches",
+      "state": "PA",
+      "slug": "pa-bmp-2006",
+      "value": 18.0,
+      "verdict": "ok"
+    },
+    {
+      "n": 109,
+      "param": "bioretention_media_depth_min_inches",
+      "state": "PA",
+      "slug": "pa-state",
+      "value": 18.0,
+      "verdict": "ok"
+    },
+    {
+      "n": 110,
+      "param": "bioretention_media_depth_min_inches",
+      "state": "RI",
+      "slug": "ri-ridot-drainage",
+      "value": 24.0,
+      "verdict": "ok"
+    },
+    {
+      "n": 111,
+      "param": "bioretention_media_depth_min_inches",
+      "state": "RI",
+      "slug": "ri-state",
+      "value": 24.0,
+      "verdict": "ok"
+    },
+    {
+      "n": 112,
+      "param": "bioretention_media_depth_min_inches",
+      "state": "TN",
+      "slug": "tn-state",
+      "value": 24,
+      "verdict": "corrected",
+      "was": 18.0,
+      "reason": "Manual: standard minimum filter is 24 in for bioretention cells (18-24 in is for rain gardens)"
+    },
+    {
+      "n": 113,
+      "param": "bioretention_media_depth_min_inches",
+      "state": "VT",
+      "slug": "vt-state",
+      "value": 24.0,
+      "verdict": "ok"
+    },
+    {
+      "n": 114,
+      "param": "bioretention_media_depth_min_inches",
+      "state": "WA",
+      "slug": "wa-state-western",
+      "value": 18.0,
+      "verdict": "ok"
+    },
+    {
+      "n": 115,
+      "param": "bioretention_media_depth_min_inches",
+      "state": "WV",
+      "slug": "west-virginia-manual",
+      "value": 18.0,
+      "verdict": "ok"
+    },
+    {
+      "n": 116,
+      "param": "design_infiltration_rate_in_per_hr",
+      "state": "AL",
+      "slug": "alabama-handbook",
+      "value": 1.0,
+      "verdict": "ok"
+    },
+    {
+      "n": 117,
+      "param": "design_infiltration_rate_in_per_hr",
+      "state": "CT",
+      "slug": "ct-ctdot-drainage",
+      "value": 1.0,
+      "verdict": "ok"
+    },
+    {
+      "n": 118,
+      "param": "design_infiltration_rate_in_per_hr",
+      "state": "CT",
+      "slug": "ct-state",
+      "value": 0.5,
+      "verdict": "excluded",
+      "reason": "Bioretention media design rate, not the native soil threshold"
+    },
+    {
+      "n": 119,
+      "param": "design_infiltration_rate_in_per_hr",
+      "state": "DE",
+      "slug": "de-wet-ponds-draft",
+      "value": 0.01,
+      "verdict": "excluded",
+      "reason": "Assumed monthly infiltration loss in a water balance"
+    },
+    {
+      "n": 120,
+      "param": "design_infiltration_rate_in_per_hr",
+      "state": "ID",
+      "slug": "idaho-bmp-catalog",
+      "value": 0.4,
+      "verdict": "ok"
+    },
+    {
+      "n": 121,
+      "param": "design_infiltration_rate_in_per_hr",
+      "state": "IN",
+      "slug": "in-indot-drainage",
+      "value": 2.0,
+      "verdict": "ok"
+    },
+    {
+      "n": 122,
+      "param": "design_infiltration_rate_in_per_hr",
+      "state": "MA",
+      "slug": "ma-massdot-drainage",
+      "value": 0.17,
+      "verdict": "ok"
+    },
+    {
+      "n": 123,
+      "param": "design_infiltration_rate_in_per_hr",
+      "state": "MA",
+      "slug": "ma-state-draft",
+      "value": 0.01,
+      "verdict": "ok"
+    },
+    {
+      "n": 124,
+      "param": "design_infiltration_rate_in_per_hr",
+      "state": "ME",
+      "slug": "maine-manual",
+      "value": 2.41,
+      "verdict": "excluded",
+      "reason": "Recommended maximum, not a minimum"
+    },
+    {
+      "n": 125,
+      "param": "design_infiltration_rate_in_per_hr",
+      "state": "MS",
+      "slug": "ms-state-vol2",
+      "value": 0.52,
+      "verdict": "ok"
+    },
+    {
+      "n": 126,
+      "param": "design_infiltration_rate_in_per_hr",
+      "state": "NE",
+      "slug": "ne-ndot-stf",
+      "value": 0.5,
+      "verdict": "ok"
+    },
+    {
+      "n": 127,
+      "param": "design_infiltration_rate_in_per_hr",
+      "state": "NY",
+      "slug": "ny-state",
+      "value": 0.5,
+      "verdict": "ok"
+    },
+    {
+      "n": 128,
+      "param": "design_infiltration_rate_in_per_hr",
+      "state": "PA",
+      "slug": "pa-bmp-2006",
+      "value": 0.5,
+      "verdict": "ok"
+    },
+    {
+      "n": 129,
+      "param": "design_infiltration_rate_in_per_hr",
+      "state": "PA",
+      "slug": "pa-penndot-drainage",
+      "value": 0.5,
+      "verdict": "excluded",
+      "reason": "Planting-soil (media) permeability, not native soil"
+    },
+    {
+      "n": 130,
+      "param": "design_infiltration_rate_in_per_hr",
+      "state": "RI",
+      "slug": "ri-ridot-drainage",
+      "value": 0.52,
+      "verdict": "ok"
+    },
+    {
+      "n": 131,
+      "param": "design_infiltration_rate_in_per_hr",
+      "state": "RI",
+      "slug": "ri-state",
+      "value": 0.5,
+      "verdict": "ok"
+    },
+    {
+      "n": 132,
+      "param": "design_infiltration_rate_in_per_hr",
+      "state": "SC",
+      "slug": "south-carolina-manual",
+      "value": 0.3,
+      "verdict": "ok"
+    },
+    {
+      "n": 133,
+      "param": "design_infiltration_rate_in_per_hr",
+      "state": "TN",
+      "slug": "tn-state",
+      "value": 0.5,
+      "verdict": "ok"
+    },
+    {
+      "n": 134,
+      "param": "design_infiltration_rate_in_per_hr",
+      "state": "VA",
+      "slug": "va-state",
+      "value": 0.5,
+      "verdict": "ok"
+    },
+    {
+      "n": 135,
+      "param": "design_infiltration_rate_in_per_hr",
+      "state": "VT",
+      "slug": "vt-state",
+      "value": 0.2,
+      "verdict": "ok"
+    },
+    {
+      "n": 136,
+      "param": "design_infiltration_rate_in_per_hr",
+      "state": "WV",
+      "slug": "west-virginia-manual",
+      "value": 0.5,
+      "verdict": "ok"
+    },
+    {
+      "n": 137,
+      "param": "permanent_pool_depth_inches",
+      "state": "CT",
+      "slug": "ct-ctdot-drainage",
+      "value": 60.0,
+      "verdict": "ok"
+    },
+    {
+      "n": 138,
+      "param": "permanent_pool_depth_inches",
+      "state": "DE",
+      "slug": "de-wet-ponds-draft",
+      "value": 48.0,
+      "verdict": "ok"
+    },
+    {
+      "n": 139,
+      "param": "permanent_pool_depth_inches",
+      "state": "FL",
+      "slug": "fl-fdot-drainage",
+      "value": 72.0,
+      "verdict": "ok"
+    },
+    {
+      "n": 140,
+      "param": "permanent_pool_depth_inches",
+      "state": "HI",
+      "slug": "hawaii-dot-pcbmp",
+      "value": 96.0,
+      "verdict": "excluded",
+      "reason": "Maximum pool depth, not a minimum"
+    },
+    {
+      "n": 141,
+      "param": "permanent_pool_depth_inches",
+      "state": "ID",
+      "slug": "idaho-bmp-catalog",
+      "value": 36.0,
+      "verdict": "excluded",
+      "reason": "Average wetland depth used in a sizing example"
+    },
+    {
+      "n": 142,
+      "param": "permanent_pool_depth_inches",
+      "state": "IL",
+      "slug": "il-iepa-stormwater",
+      "value": 48.0,
+      "verdict": "excluded",
+      "reason": "Mean depth in a worked example"
+    },
+    {
+      "n": 143,
+      "param": "permanent_pool_depth_inches",
+      "state": "MN",
+      "slug": "mn-state-2008",
+      "value": 36.0,
+      "verdict": "ok"
+    },
+    {
+      "n": 144,
+      "param": "permanent_pool_depth_inches",
+      "state": "PA",
+      "slug": "pa-state",
+      "value": 60.0,
+      "verdict": "ok"
+    },
+    {
+      "n": 145,
+      "param": "permanent_pool_depth_inches",
+      "state": "VA",
+      "slug": "va-state",
+      "value": 48.0,
+      "verdict": "excluded",
+      "reason": "Maximum normal pool depth"
+    },
+    {
+      "n": 146,
+      "param": "permanent_pool_depth_inches",
+      "state": "VA",
+      "slug": "va-vdot-drainage",
+      "value": 36.0,
+      "verdict": "excluded",
+      "reason": "Maximum pool depth"
+    },
+    {
+      "n": 147,
+      "param": "permanent_pool_depth_inches",
+      "state": "VT",
+      "slug": "vt-state",
+      "value": 48.0,
+      "verdict": "ok"
+    },
+    {
+      "n": 148,
+      "param": "max_drawdown_hours",
+      "state": "AL",
+      "slug": "alabama-handbook",
+      "value": 72.0,
+      "verdict": "ok",
+      "source": "corpus",
+      "page": 318,
+      "quote": "The stone reservoir should be designed so that it can be drained within 72 hours"
+    },
+    {
+      "n": 149,
+      "param": "max_drawdown_hours",
+      "state": "DC",
+      "slug": "dc-ddot-stormwater",
+      "value": 48.0,
+      "verdict": "ok",
+      "source": "corpus",
+      "page": 27,
+      "quote": "shall be 24 hours minimum and 48 hours maximum"
+    },
+    {
+      "n": 150,
+      "param": "max_drawdown_hours",
+      "state": "MD",
+      "slug": "md-state",
+      "value": 48.0,
+      "verdict": "ok",
+      "source": "corpus",
+      "page": 230,
+      "quote": "Landscape infiltration facilities shall be designed to fully dewater the entire ESDv within 48 hours"
+    },
+    {
+      "n": 151,
+      "param": "max_drawdown_hours",
+      "state": "MO",
+      "slug": "missouri-manual",
+      "value": 72.0,
+      "verdict": "ok",
+      "source": "corpus",
+      "page": 184,
+      "quote": "the subgrade should be designed to drain or exfiltrate within 72 hours"
+    },
+    {
+      "n": 152,
+      "param": "max_drawdown_hours",
+      "state": "OH",
+      "slug": "ohio-rainwater",
+      "value": 72.0,
+      "verdict": "ok",
+      "source": "corpus",
+      "page": 79,
+      "quote": "Where in-situ soils can infiltrate a majority of the water quality volume within 72 hours"
+    },
+    {
+      "n": 153,
+      "param": "max_drawdown_hours",
+      "state": "TX",
+      "slug": "tx-edwards-rg348",
+      "value": 48.0,
+      "verdict": "ok",
+      "source": "corpus",
+      "page": 367,
+      "quote": "allow for complete drawdown of the water quality volume within 48 hours"
+    },
+    {
+      "n": 154,
+      "param": "wqv_depth_inches",
+      "state": "MD",
+      "slug": "md-state",
+      "value": 1.0,
+      "verdict": "ok",
+      "source": "corpus",
+      "page": 285,
+      "quote": "equal to 1\" (or 0.9\" in Western Rainfall Zone) times the volumetric runoff coefficient"
+    },
+    {
+      "n": 155,
+      "param": "wqv_depth_inches",
+      "state": "MN",
+      "slug": "mn-state-2008",
+      "value": 0.5,
+      "verdict": "ok",
+      "source": "corpus",
+      "page": 456,
+      "quote": "a water quality volume of \u00bd inch of runoff from the new impervious surfaces"
+    },
+    {
+      "n": 156,
+      "param": "bioretention_media_depth_min_inches",
+      "state": "MS",
+      "slug": "ms-state-vol2",
+      "value": 24.0,
+      "verdict": "ok",
+      "source": "corpus",
+      "page": 136,
+      "quote": "The depth of the media in a bioretention cell should be between 2 and 4 feet."
+    },
+    {
+      "n": 157,
+      "param": "design_infiltration_rate_in_per_hr",
+      "state": "AK",
+      "slug": "ak-state",
+      "value": 0.27,
+      "verdict": "ok",
+      "source": "corpus",
+      "page": 204,
+      "quote": "a minimum soil infiltration capacity of 0.27 inches/hour"
+    },
+    {
+      "n": 158,
+      "param": "design_infiltration_rate_in_per_hr",
+      "state": "CA",
+      "slug": "ca-caltrans-project-planning",
+      "value": 0.5,
+      "verdict": "ok",
+      "source": "corpus",
+      "page": 125,
+      "quote": "Soil having an infiltration rate \u2265 0.5 in/hr"
+    },
+    {
+      "n": 159,
+      "param": "design_infiltration_rate_in_per_hr",
+      "state": "HI",
+      "slug": "hawaii-dot-pcbmp",
+      "value": 0.5,
+      "verdict": "ok",
+      "source": "corpus",
+      "page": 67,
+      "quote": "Design infiltration rates should be greater than 0.5 inches per hour"
+    },
+    {
+      "n": 160,
+      "param": "design_infiltration_rate_in_per_hr",
+      "state": "MD",
+      "slug": "md-state",
+      "value": 0.52,
+      "verdict": "ok",
+      "source": "corpus",
+      "page": 195,
+      "quote": "underlying soils shall have an infiltration rate ( f ) of 0.52 in/hr or greater"
+    },
+    {
+      "n": 161,
+      "param": "design_infiltration_rate_in_per_hr",
+      "state": "ME",
+      "slug": "maine-manual",
+      "value": 0.5,
+      "verdict": "ok",
+      "source": "corpus",
+      "page": 40,
+      "quote": "should be no less than 0.50 inches per hour"
+    },
+    {
+      "n": 162,
+      "param": "design_infiltration_rate_in_per_hr",
+      "state": "MN",
+      "slug": "mn-state-2008",
+      "value": 0.2,
+      "verdict": "ok",
+      "source": "corpus",
+      "page": 439,
+      "quote": "have a minimum infiltration rate of 0.2 inches per hour"
+    },
+    {
+      "n": 163,
+      "param": "design_infiltration_rate_in_per_hr",
+      "state": "OH",
+      "slug": "oh-odot-drainage",
+      "value": 0.5,
+      "verdict": "ok",
+      "source": "corpus",
+      "page": 139,
+      "quote": "must be greater than 0.50 in/hr and no greater than 2.4 in/hr"
+    },
+    {
+      "n": 164,
+      "param": "design_infiltration_rate_in_per_hr",
+      "state": "OH",
+      "slug": "ohio-rainwater",
+      "value": 0.2,
+      "verdict": "ok",
+      "source": "corpus",
+      "page": 49,
+      "quote": "Hydraulic conductivity should be at least 0.2 inches per hour"
+    },
+    {
+      "n": 165,
+      "param": "design_infiltration_rate_in_per_hr",
+      "state": "TX",
+      "slug": "tx-edwards-rg348",
+      "value": 0.5,
+      "verdict": "ok",
+      "source": "corpus",
+      "page": 189,
+      "quote": "infiltration rates of less than 0.5 inch/hour"
+    },
+    {
+      "n": 166,
+      "param": "design_infiltration_rate_in_per_hr",
+      "state": "WA",
+      "slug": "wa-state-western",
+      "value": 0.3,
+      "verdict": "ok",
+      "source": "corpus",
+      "page": 478,
+      "quote": "not generally appropriate for sites that have a design infiltration rate less than 0.3 inches per hour"
+    },
+    {
+      "n": 167,
+      "param": "design_infiltration_rate_in_per_hr",
+      "state": "DC",
+      "slug": "dc-ddot-stormwater",
+      "value": 60.0,
+      "verdict": "excluded",
+      "source": "corpus",
+      "page": 104,
+      "quote": "Media/pavement rate, not native soil"
+    },
+    {
+      "n": 168,
+      "param": "permanent_pool_depth_inches",
+      "state": "NY",
+      "slug": "ny-state",
+      "value": 36.0,
+      "verdict": "ok",
+      "source": "corpus",
+      "page": 154,
+      "quote": "shall have a permanent pool with a minimum depth of 3 ft and a maximum depth of 8 ft"
+    },
+    {
+      "n": 169,
+      "param": "permanent_pool_depth_inches",
+      "state": "RI",
+      "slug": "ri-state",
+      "value": 48.0,
+      "verdict": "ok",
+      "source": "corpus",
+      "page": 176,
+      "quote": "The permanent pool of wet basins should have a minimum 4-foot depth"
+    },
+    {
+      "n": 170,
+      "param": "permanent_pool_depth_inches",
+      "state": "ME",
+      "slug": "maine-manual",
+      "value": 36.0,
+      "verdict": "excluded",
+      "source": "corpus",
+      "page": 22,
+      "quote": "Mean depth, not minimum"
+    },
+    {
+      "n": 171,
+      "param": "permanent_pool_depth_inches",
+      "state": "WI",
+      "slug": "wi-dnr-1001",
+      "value": 36.0,
+      "verdict": "excluded",
+      "source": "corpus",
+      "page": 3,
+      "quote": "Average depth, not minimum"
+    },
+    {
+      "n": 172,
+      "param": "permanent_pool_depth_inches",
+      "state": "MS",
+      "slug": "ms-state-vol2",
+      "value": 24.0,
+      "verdict": "excluded",
+      "source": "corpus",
+      "page": 195,
+      "quote": "Mean depth range"
+    },
+    {
+      "n": 173,
+      "param": "permanent_pool_depth_inches",
+      "state": "MA",
+      "slug": "ma-massdot-drainage",
+      "value": 36.0,
+      "verdict": "excluded",
+      "source": "corpus",
+      "page": 124,
+      "quote": "Average depth range"
+    },
+    {
+      "n": 174,
+      "param": "bioretention_ponding_depth_max_inches",
+      "state": "DC",
+      "slug": "dc-ddot-stormwater",
+      "value": 18.0,
+      "verdict": "ok",
+      "source": "corpus",
+      "page": 30,
+      "quote": "The maximum allowed ponding depth in bioretention is 18 inches."
+    },
+    {
+      "n": 175,
+      "param": "bioretention_ponding_depth_max_inches",
+      "state": "MN",
+      "slug": "mn-state-2008",
+      "value": 12.0,
+      "verdict": "ok",
+      "source": "corpus",
+      "page": 577,
+      "quote": "should be considered to up to 12 inches"
+    },
+    {
+      "n": 176,
+      "param": "bioretention_ponding_depth_max_inches",
+      "state": "NY",
+      "slug": "ny-state",
+      "value": 12.0,
+      "verdict": "ok",
+      "source": "corpus",
+      "page": 231,
+      "quote": "12 inches maximum of ponding during the WQv storm event"
+    },
+    {
+      "n": 177,
+      "param": "bioretention_ponding_depth_max_inches",
+      "state": "OH",
+      "slug": "oh-odot-drainage",
+      "value": 12.0,
+      "verdict": "ok",
+      "source": "corpus",
+      "page": 135,
+      "quote": "Limit the maximum depth to 12 inches"
+    },
+    {
+      "n": 178,
+      "param": "bioretention_ponding_depth_max_inches",
+      "state": "RI",
+      "slug": "ri-state",
+      "value": 9.0,
+      "verdict": "ok",
+      "source": "corpus",
+      "page": 289,
+      "quote": "a maximum of 9 inches of ponding occurs above the bottom of the bioretention area"
+    },
+    {
+      "n": 179,
+      "param": "bioretention_ponding_depth_max_inches",
+      "state": "TN",
+      "slug": "tn-state",
+      "value": 6.0,
+      "verdict": "ok",
+      "source": "corpus",
+      "page": 178,
+      "quote": "Maximum Ponding Depth6 inches"
+    },
+    {
+      "n": 180,
+      "param": "bioretention_ponding_depth_max_inches",
+      "state": "WV",
+      "slug": "west-virginia-manual",
+      "value": 18.0,
+      "verdict": "ok",
+      "source": "corpus",
+      "page": 160,
+      "quote": "the maximum ponding depth of the Bioretention area (6 to 18 inches"
+    },
+    {
+      "n": 181,
+      "param": "pond_length_width_min",
+      "state": "AL",
+      "slug": "alabama-handbook",
+      "value": 2.0,
+      "verdict": "ok",
+      "source": "corpus",
+      "page": 322,
+      "quote": "a flow length to width ratio of 2:1 or greater"
+    },
+    {
+      "n": 182,
+      "param": "pond_length_width_min",
+      "state": "CA",
+      "slug": "ca-caltrans-project-planning",
+      "value": 2.0,
+      "verdict": "ok",
+      "source": "corpus",
+      "page": 138,
+      "quote": "> 2:1 length to width ratio at WQV elevation is recommended"
+    },
+    {
+      "n": 183,
+      "param": "pond_length_width_min",
+      "state": "CT",
+      "slug": "ct-ctdot-drainage",
+      "value": 3.0,
+      "verdict": "ok",
+      "source": "corpus",
+      "page": 552,
+      "quote": "The length-to-width ratio should be at least 3:1"
+    },
+    {
+      "n": 184,
+      "param": "pond_length_width_min",
+      "state": "DE",
+      "slug": "de-wet-ponds-draft",
+      "value": 2.0,
+      "verdict": "ok",
+      "source": "corpus",
+      "page": 12,
+      "quote": "should be a minimum ratio of 2:1"
+    },
+    {
+      "n": 185,
+      "param": "pond_length_width_min",
+      "state": "HI",
+      "slug": "hawaii-dot-pcbmp",
+      "value": 1.5,
+      "verdict": "ok",
+      "source": "corpus",
+      "page": 158,
+      "quote": "A flow path having a minimum length-to-width ratio of 1.5:1 shall be provided for wet ponds"
+    },
+    {
+      "n": 186,
+      "param": "pond_length_width_min",
+      "state": "ID",
+      "slug": "idaho-bmp-catalog",
+      "value": 3.0,
+      "verdict": "ok",
+      "source": "corpus",
+      "page": 209,
+      "quote": "The ratio of flow path length to pond width should be at least 3:1"
+    },
+    {
+      "n": 187,
+      "param": "pond_length_width_min",
+      "state": "IN",
+      "slug": "indiana-manual",
+      "value": 3.0,
+      "verdict": "ok",
+      "source": "corpus",
+      "page": 610,
+      "quote": "have a length to width ratio of at least 3:1"
+    },
+    {
+      "n": 188,
+      "param": "pond_length_width_min",
+      "state": "MA",
+      "slug": "ma-state-draft",
+      "value": 2.0,
+      "verdict": "ok",
+      "source": "corpus",
+      "page": 330,
+      "quote": "a dry weather flow path of 2:1 (length: width) or greater"
+    },
+    {
+      "n": 189,
+      "param": "pond_length_width_min",
+      "state": "MD",
+      "slug": "md-state",
+      "value": 1.5,
+      "verdict": "ok",
+      "source": "corpus",
+      "page": 92,
+      "quote": "Flowpaths of 1.5:1 (length relative to width)"
+    },
+    {
+      "n": 190,
+      "param": "pond_length_width_min",
+      "state": "ME",
+      "slug": "maine-manual",
+      "value": 2.0,
+      "verdict": "ok",
+      "source": "corpus",
+      "page": 22,
+      "quote": "with a minimum 2:1 length to width ratio"
+    },
+    {
+      "n": 191,
+      "param": "pond_length_width_min",
+      "state": "MN",
+      "slug": "mn-state-2008",
+      "value": 1.5,
+      "verdict": "ok",
+      "source": "corpus",
+      "page": 471,
+      "quote": "the minimum length to width ratio for ponds be 1.5:1"
+    },
+    {
+      "n": 192,
+      "param": "pond_length_width_min",
+      "state": "NY",
+      "slug": "ny-state",
+      "value": 1.5,
+      "verdict": "ok",
+      "source": "corpus",
+      "page": 154,
+      "quote": "A minimum flow path of 1.5:1 (i.e. length to relative width) shall be provided"
+    },
+    {
+      "n": 193,
+      "param": "pond_length_width_min",
+      "state": "OH",
+      "slug": "ohio-rainwater",
+      "value": 3.0,
+      "verdict": "ok",
+      "source": "corpus",
+      "page": 38,
+      "quote": "The ratio of flow length to pond width should be at least 3:1."
+    },
+    {
+      "n": 194,
+      "param": "pond_length_width_min",
+      "state": "PA",
+      "slug": "pa-bmp-2006",
+      "value": 2.0,
+      "verdict": "ok",
+      "source": "corpus",
+      "page": 331,
+      "quote": "Wet Ponds should be designed with a length to width ratio of at least 2:1"
+    },
+    {
+      "n": 195,
+      "param": "pond_length_width_min",
+      "state": "RI",
+      "slug": "ri-state",
+      "value": 2.0,
+      "verdict": "ok",
+      "source": "corpus",
+      "page": 88,
+      "quote": "Minimum flowpath of 2:1 (length to width)."
+    },
+    {
+      "n": 196,
+      "param": "pond_length_width_min",
+      "state": "TN",
+      "slug": "tn-state",
+      "value": 2.0,
+      "verdict": "ok",
+      "source": "corpus",
+      "page": 95,
+      "quote": "Length/Width ratio OR Flow path = 2:1 or more"
+    },
+    {
+      "n": 197,
+      "param": "pond_length_width_min",
+      "state": "TX",
+      "slug": "tx-edwards-rg348",
+      "value": 2.0,
+      "verdict": "ok",
+      "source": "corpus",
+      "page": 231,
+      "quote": "should be at least 2:1 (L:W)"
+    },
+    {
+      "n": 198,
+      "param": "pond_length_width_min",
+      "state": "VA",
+      "slug": "va-vdot-drainage",
+      "value": 2.0,
+      "verdict": "ok",
+      "source": "corpus",
+      "page": 115,
+      "quote": "with a minimum ratio of 2:1"
+    },
+    {
+      "n": 199,
+      "param": "pond_length_width_min",
+      "state": "VT",
+      "slug": "vt-state",
+      "value": 2.0,
+      "verdict": "ok",
+      "source": "corpus",
+      "page": 147,
+      "quote": "Minimum flowpath of 2:1 (length to width)."
+    },
+    {
+      "n": 200,
+      "param": "pond_length_width_min",
+      "state": "WA",
+      "slug": "wa-state-western",
+      "value": 3.0,
+      "verdict": "ok",
+      "source": "corpus",
+      "page": 1009,
+      "quote": "The ratio of flowpath length to width from the inlet to the outlet shall be at least 3:1."
+    },
+    {
+      "n": 201,
+      "param": "pond_length_width_min",
+      "state": "WI",
+      "slug": "wi-dnr-1001",
+      "value": 3.0,
+      "verdict": "ok",
+      "source": "corpus",
+      "page": 7,
+      "quote": "with a goal of 3:1 or greater"
+    },
+    {
+      "n": 202,
+      "param": "tss_removal_target_pct",
+      "state": "AK",
+      "slug": "ak-state",
+      "value": 80.0,
+      "verdict": "ok",
+      "source": "corpus",
+      "page": 23,
+      "quote": "reduce the average annual total suspended solid (TSS) loadings by 80 percent"
+    },
+    {
+      "n": 203,
+      "param": "tss_removal_target_pct",
+      "state": "AL",
+      "slug": "alabama-handbook",
+      "value": 80.0,
+      "verdict": "ok",
+      "source": "corpus",
+      "page": 61,
+      "quote": "a minimum of 80% reduction"
+    },
+    {
+      "n": 204,
+      "param": "tss_removal_target_pct",
+      "state": "GA",
+      "slug": "ga-state",
+      "value": 80.0,
+      "verdict": "ok",
+      "source": "corpus",
+      "page": 119,
+      "quote": "must be treated by BMPs to remove at least 80% of the calculated average annual post-development"
+    },
+    {
+      "n": 205,
+      "param": "tss_removal_target_pct",
+      "state": "IA",
+      "slug": "ia-state-ch1",
+      "value": 80.0,
+      "verdict": "ok",
+      "source": "corpus",
+      "page": 37,
+      "quote": "treated to the 80% TSS removal performance goal"
+    },
+    {
+      "n": 206,
+      "param": "tss_removal_target_pct",
+      "state": "IN",
+      "slug": "indiana-manual",
+      "value": 80.0,
+      "verdict": "ok",
+      "source": "corpus",
+      "page": 150,
+      "quote": "remove at least 80 percent of the total suspended solids from runoff on an annual average basis"
+    },
+    {
+      "n": 207,
+      "param": "tss_removal_target_pct",
+      "state": "KY",
+      "slug": "kentucky-bmp",
+      "value": 80.0,
+      "verdict": "ok",
+      "source": "corpus",
+      "page": 32,
+      "quote": "Measures to remove 80% of the TSS that exceeds predevelopment levels"
+    },
+    {
+      "n": 208,
+      "param": "tss_removal_target_pct",
+      "state": "MA",
+      "slug": "ma-massdot-drainage",
+      "value": 80.0,
+      "verdict": "ok",
+      "source": "corpus",
+      "page": 32,
+      "quote": "designed to remove 80% of the average annual post-construction load of Total Suspended Solids"
+    },
+    {
+      "n": 209,
+      "param": "tss_removal_target_pct",
+      "state": "MD",
+      "slug": "md-state",
+      "value": 80.0,
+      "verdict": "ok",
+      "source": "corpus",
+      "page": 28,
+      "quote": "designed to remove 80% of the average annual post development total suspended solids load"
+    },
+    {
+      "n": 210,
+      "param": "tss_removal_target_pct",
+      "state": "MN",
+      "slug": "mn-state-2008",
+      "value": 80.0,
+      "verdict": "ok",
+      "source": "corpus",
+      "page": 306,
+      "quote": "fails to remove 80% of the Total Suspended Solids on an annual average basis"
+    },
+    {
+      "n": 211,
+      "param": "tss_removal_target_pct",
+      "state": "NE",
+      "slug": "ne-ndot-stf",
+      "value": 80.0,
+      "verdict": "ok",
+      "source": "corpus",
+      "page": 17,
+      "quote": "reducing the post development loadings of Total Suspended Solids (TSS) by a minimum of 80%"
+    },
+    {
+      "n": 212,
+      "param": "tss_removal_target_pct",
+      "state": "NH",
+      "slug": "nh-state",
+      "value": 90.0,
+      "verdict": "ok",
+      "source": "corpus",
+      "page": 7,
+      "quote": "treated to achieve at least 90% removal of Total Suspended Solids"
+    },
+    {
+      "n": 213,
+      "param": "tss_removal_target_pct",
+      "state": "NJ",
+      "slug": "nj-njdot-drainage",
+      "value": 80.0,
+      "verdict": "ok",
+      "source": "corpus",
+      "page": 11,
+      "quote": "reduce the post-construction load of TSS in stormwater runoff generated from the water quality storm by 80%"
+    },
+    {
+      "n": 214,
+      "param": "tss_removal_target_pct",
+      "state": "NY",
+      "slug": "ny-state",
+      "value": 80.0,
+      "verdict": "ok",
+      "source": "corpus",
+      "page": 33,
+      "quote": "Are capable of 80% TSS removal and 40% TP removal."
+    },
+    {
+      "n": 215,
+      "param": "tss_removal_target_pct",
+      "state": "OH",
+      "slug": "oh-odot-drainage",
+      "value": 80.0,
+      "verdict": "ok",
+      "source": "corpus",
+      "page": 112,
+      "quote": "to achieve an estimated 80 percent reduction in total suspended solids (TSS)"
+    },
+    {
+      "n": 216,
+      "param": "tss_removal_target_pct",
+      "state": "PA",
+      "slug": "pa-bmp-2006",
+      "value": 85.0,
+      "verdict": "ok",
+      "source": "corpus",
+      "page": 51,
+      "quote": "Achieve an 85 percent reduction in post-development particulate associated pollutant load"
+    },
+    {
+      "n": 217,
+      "param": "tss_removal_target_pct",
+      "state": "RI",
+      "slug": "ri-state",
+      "value": 85.0,
+      "verdict": "ok",
+      "source": "corpus",
+      "page": 44,
+      "quote": "85% removal of total suspended solids (TSS)"
+    },
+    {
+      "n": 218,
+      "param": "tss_removal_target_pct",
+      "state": "TN",
+      "slug": "tn-state",
+      "value": 80.0,
+      "verdict": "ok",
+      "source": "corpus",
+      "page": 24,
+      "quote": "to remove 80% total suspended solids"
+    },
+    {
+      "n": 219,
+      "param": "tss_removal_target_pct",
+      "state": "TX",
+      "slug": "tx-edwards-rg348",
+      "value": 80.0,
+      "verdict": "ok",
+      "source": "corpus",
+      "page": 185,
+      "quote": "must reduce the increase in total suspended solids (TSS) load associated with development by at least 80%"
+    },
+    {
+      "n": 220,
+      "param": "tss_removal_target_pct",
+      "state": "VT",
+      "slug": "vt-state",
+      "value": 85.0,
+      "verdict": "ok",
+      "source": "corpus",
+      "page": 16,
+      "quote": "designed to remove 85% of the average annual, post-development total suspended solids (TSS) load"
+    },
+    {
+      "n": 221,
+      "param": "tss_removal_target_pct",
+      "state": "WA",
+      "slug": "wa-state-western",
+      "value": 80.0,
+      "verdict": "ok",
+      "source": "corpus",
+      "page": 475,
+      "quote": "intended to achieve 80% removal of total suspended solids"
+    },
+    {
+      "n": 222,
+      "param": "infiltration_safety_factor",
+      "state": "HI",
+      "slug": "hawaii-dot-pcbmp",
+      "value": 2.0,
+      "verdict": "ok",
+      "source": "corpus",
+      "page": 67,
+      "quote": "Minimum safety factor of 2 should be applied to measured infiltration rates"
+    },
+    {
+      "n": 223,
+      "param": "infiltration_safety_factor",
+      "state": "MT",
+      "slug": "mt-deq8",
+      "value": 2.0,
+      "verdict": "ok",
+      "source": "corpus",
+      "page": 39,
+      "quote": "The measured infiltration must be divided by a safety factor of 2.0"
+    },
+    {
+      "n": 224,
+      "param": "infiltration_safety_factor",
+      "state": "NY",
+      "slug": "ny-state",
+      "value": 2.0,
+      "verdict": "ok",
+      "source": "corpus",
+      "page": 426,
+      "quote": "Apply a minimum factor of safety by dividing the representative Ksat by 2.0"
+    },
+    {
+      "n": 225,
+      "param": "infiltration_safety_factor",
+      "state": "OH",
+      "slug": "oh-odot-drainage",
+      "value": 1.5,
+      "verdict": "ok",
+      "source": "corpus",
+      "page": 140,
+      "quote": "S.F. = Safety Factor of 1.5"
+    },
+    {
+      "n": 226,
+      "param": "infiltration_safety_factor",
+      "state": "PA",
+      "slug": "pa-bmp-2006",
+      "value": 2.0,
+      "verdict": "ok",
+      "source": "corpus",
+      "page": 601,
+      "quote": "with a factor of two being recommended for most cases"
+    },
+    {
+      "n": 227,
+      "param": "infiltration_safety_factor",
+      "state": "RI",
+      "slug": "ri-state",
+      "value": 2.0,
+      "verdict": "ok",
+      "source": "corpus",
+      "page": 427,
+      "quote": "Design infiltration rates shall be determined by using a factor of safety of 2 from the field-derived value."
+    },
+    {
+      "n": 228,
+      "param": "infiltration_safety_factor",
+      "state": "TN",
+      "slug": "tn-state",
+      "value": 2.0,
+      "verdict": "ok",
+      "source": "corpus",
+      "page": 201,
+      "quote": "divided by a factor of safety of 2"
+    },
+    {
+      "n": 229,
+      "param": "infiltration_safety_factor",
+      "state": "WV",
+      "slug": "west-virginia-manual",
+      "value": 2.0,
+      "verdict": "ok",
+      "source": "corpus",
+      "page": 263,
+      "quote": "is divided by 2 as a factor of safety"
+    },
+    {
+      "n": 230,
+      "param": "infiltration_safety_factor",
+      "state": "MN",
+      "slug": "mn-state-2008",
+      "value": 3.0,
+      "verdict": "excluded",
+      "source": "corpus",
+      "page": 453,
+      "quote": "Variable correction factor from a table, not one value"
+    },
+    {
+      "n": 231,
+      "param": "ed_drain_time_hours",
+      "state": "AK",
+      "slug": "ak-state",
+      "value": 24.0,
+      "verdict": "ok",
+      "source": "corpus",
+      "page": 78,
+      "quote": "Provide 24 hours of extended detention of the runoff from the 1-year, 24-hour duration storm event"
+    },
+    {
+      "n": 232,
+      "param": "ed_drain_time_hours",
+      "state": "CT",
+      "slug": "ct-state",
+      "value": 24.0,
+      "verdict": "ok",
+      "source": "corpus",
+      "page": 385,
+      "quote": "the extended detention volume shall drain over a 24 to 48 hour period"
+    },
+    {
+      "n": 233,
+      "param": "ed_drain_time_hours",
+      "state": "DE",
+      "slug": "de-wet-ponds-draft",
+      "value": 48.0,
+      "verdict": "ok",
+      "source": "corpus",
+      "page": 5,
+      "quote": "a Wet ED Pond must provide 48 hours extended detention for the RPv runoff volume"
+    },
+    {
+      "n": 234,
+      "param": "ed_drain_time_hours",
+      "state": "GA",
+      "slug": "ga-state",
+      "value": 24.0,
+      "verdict": "ok",
+      "source": "corpus",
+      "page": 120,
+      "quote": "extended detention of the 1-year, 24-hour storm for a period of 24 hours"
+    },
+    {
+      "n": 235,
+      "param": "ed_drain_time_hours",
+      "state": "IA",
+      "slug": "ia-state-ch1",
+      "value": 24.0,
+      "verdict": "ok",
+      "source": "corpus",
+      "page": 38,
+      "quote": "Extended detention of the 1-year, 24-hour storm for a period of 24 hours"
+    },
+    {
+      "n": 236,
+      "param": "ed_drain_time_hours",
+      "state": "IN",
+      "slug": "indiana-manual",
+      "value": 24.0,
+      "verdict": "ok",
+      "source": "corpus",
+      "page": 627,
+      "quote": "Dry extended detention basins are designed with a minimum retention time of 24 hours."
+    },
+    {
+      "n": 237,
+      "param": "ed_drain_time_hours",
+      "state": "MA",
+      "slug": "ma-massdot-drainage",
+      "value": 24.0,
+      "verdict": "ok",
+      "source": "corpus",
+      "page": 122,
+      "quote": "a minimum detention time of 24 hours for the brimful WQV"
+    },
+    {
+      "n": 238,
+      "param": "ed_drain_time_hours",
+      "state": "MD",
+      "slug": "md-state",
+      "value": 24.0,
+      "verdict": "ok",
+      "source": "corpus",
+      "page": 39,
+      "quote": "Cpv = 24 hour (12 hour in USE III and IV watersheds) extended detention"
+    },
+    {
+      "n": 239,
+      "param": "ed_drain_time_hours",
+      "state": "ME",
+      "slug": "maine-manual",
+      "value": 24.0,
+      "verdict": "ok",
+      "source": "corpus",
+      "page": 76,
+      "quote": "Stored volume needs to fully drain within 24 to 48 hours."
+    },
+    {
+      "n": 240,
+      "param": "ed_drain_time_hours",
+      "state": "MN",
+      "slug": "mn-state-2008",
+      "value": 12.0,
+      "verdict": "ok",
+      "source": "corpus",
+      "page": 251,
+      "quote": "at least 12 hours of extended detention are provided for the live storage"
+    },
+    {
+      "n": 241,
+      "param": "ed_drain_time_hours",
+      "state": "MO",
+      "slug": "missouri-manual",
+      "value": 40.0,
+      "verdict": "ok",
+      "source": "corpus",
+      "page": 238,
+      "quote": "designed to detain the water quality volume for 40 hours"
+    },
+    {
+      "n": 242,
+      "param": "ed_drain_time_hours",
+      "state": "MS",
+      "slug": "ms-state-vol2",
+      "value": 24.0,
+      "verdict": "ok",
+      "source": "corpus",
+      "page": 197,
+      "quote": "Designed for an extended detention time of 24 hours for the 1-year storm event."
+    },
+    {
+      "n": 243,
+      "param": "ed_drain_time_hours",
+      "state": "NY",
+      "slug": "ny-state",
+      "value": 24.0,
+      "verdict": "ok",
+      "source": "corpus",
+      "page": 156,
+      "quote": "Size outlet structure to detain WQv for 24 hrs (12 hrs to trout waters)"
+    },
+    {
+      "n": 244,
+      "param": "ed_drain_time_hours",
+      "state": "RI",
+      "slug": "ri-state",
+      "value": 24.0,
+      "verdict": "ok",
+      "source": "corpus",
+      "page": 59,
+      "quote": "T = extended detention time (24 hours)"
+    },
+    {
+      "n": 245,
+      "param": "ed_drain_time_hours",
+      "state": "TN",
+      "slug": "tn-state",
+      "value": 48.0,
+      "verdict": "ok",
+      "source": "corpus",
+      "page": 86,
+      "quote": "The dry detention basin should be sized to detain this treatm 48 hours."
+    },
+    {
+      "n": 246,
+      "param": "ed_drain_time_hours",
+      "state": "TX",
+      "slug": "tx-edwards-rg348",
+      "value": 12.0,
+      "verdict": "ok",
+      "source": "corpus",
+      "page": 365,
+      "quote": "all the runoff is detained for 12 hours"
+    },
+    {
+      "n": 247,
+      "param": "ed_drain_time_hours",
+      "state": "VA",
+      "slug": "va-vdot-drainage",
+      "value": 30.0,
+      "verdict": "ok",
+      "source": "corpus",
+      "page": 121,
+      "quote": "The brim drawdown requirement for water quality for extended detention design is 30 hours."
+    },
+    {
+      "n": 248,
+      "param": "ed_drain_time_hours",
+      "state": "VT",
+      "slug": "vt-state",
+      "value": 24.0,
+      "verdict": "ok",
+      "source": "corpus",
+      "page": 19,
+      "quote": "if a stormwater discharge is to a warm water fish habitat, 24 hours of extended detention is required"
+    },
+    {
+      "n": 249,
+      "param": "ed_drain_time_hours",
+      "state": "WV",
+      "slug": "west-virginia-manual",
+      "value": 40.0,
+      "verdict": "ok",
+      "source": "corpus",
+      "page": 362,
+      "quote": "designed to drain the Design Volume from the filter chamber within 40 hours"
+    }
+  ]
 }

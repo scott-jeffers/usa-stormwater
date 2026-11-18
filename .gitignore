@@ -51,3 +51,4 @@ next-env.d.ts
 
 # QA dry-run reports
 data/qa/*-dry-run.md
+/public/manual/

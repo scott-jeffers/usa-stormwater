@@ -44,7 +44,8 @@ export default function HomePage() {
         </p>
         <nav aria-label="Start here" className="flex flex-wrap gap-x-4 gap-y-1 pt-1 text-sm">
           <Link href="/compare/" className="font-medium text-water-link hover:underline">Compare manuals →</Link>
-          <Link href="/national/model-manual/" className="font-medium text-water-link hover:underline">Draft national model manual →</Link>
+          <Link href="/manual/" className="font-medium text-water-link hover:underline">Draft model manual →</Link>
+          <Link href="/data/" className="font-medium text-water-link hover:underline">Download the data →</Link>
           <Link href="/national/" className="font-medium text-water-link hover:underline">Practice synthesis →</Link>
         </nav>
       </header>

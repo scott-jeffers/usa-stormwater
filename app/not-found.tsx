@@ -10,7 +10,7 @@ export default function NotFound() {
       </p>
       <div className="flex flex-wrap justify-center gap-x-5 gap-y-2 pt-2 text-sm font-medium">
         <Link href="/" className="text-water-link hover:underline">Search all manuals</Link>
-        <Link href="/national/model-manual/" className="text-water-link hover:underline">Draft model manual</Link>
+        <Link href="/manual/" className="text-water-link hover:underline">Draft model manual</Link>
         <Link href="/about/" className="text-water-link hover:underline">About the atlas</Link>
       </div>
     </main>

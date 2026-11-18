@@ -16,11 +16,16 @@ export function SiteHeader() {
         </Link>
         <nav aria-label="Main" className="flex shrink-0 items-center gap-2.5 text-[13px] sm:gap-4 sm:text-sm">
           <Link
-            href="/national/model-manual/"
+            href="/manual/"
             className="font-medium text-fg-secondary transition-colors hover:text-water-link"
           >
-            <span className="sm:hidden">National</span>
-            <span className="hidden sm:inline">National manual</span>
+            Manual
+          </Link>
+          <Link
+            href="/data/"
+            className="font-medium text-fg-secondary transition-colors hover:text-water-link"
+          >
+            Data
           </Link>
           <Link
             href="/compare/"

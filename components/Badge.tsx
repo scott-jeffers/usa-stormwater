@@ -276,9 +276,9 @@ export function StateBadge({
 }
 
 const AGENCY_STYLES: Record<"dot" | "dep_deq" | "other", string> = {
-  dot: "bg-amber-50 text-amber-900 ring-amber-700/20 dark:bg-amber-950/50 dark:text-amber-200 dark:ring-amber-400/25",
-  dep_deq:
-    "bg-emerald-50 text-emerald-900 ring-emerald-700/20 dark:bg-emerald-950/50 dark:text-emerald-300 dark:ring-emerald-400/25",
+  // agency type is not a status: neutral chips, the icon tells them apart
+  dot: "bg-surface-muted text-fg-secondary ring-edge-strong/40",
+  dep_deq: "bg-surface-muted text-fg-secondary ring-edge-strong/40",
   other: "bg-surface-muted text-fg-secondary ring-edge-strong/40",
 };
 

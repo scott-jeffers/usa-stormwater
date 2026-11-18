@@ -47,6 +47,11 @@ export const CRITERIA: Record<string, { label: string; unit: string; reads_as: s
   bioretention_media_depth_min_inches: { label: "Minimum bioretention media depth", unit: "in", reads_as: "minimum depth of engineered bioretention soil" },
   design_infiltration_rate_in_per_hr: { label: "Minimum soil infiltration rate", unit: "in/hr", reads_as: "lowest native-soil infiltration rate at which infiltration is allowed" },
   permanent_pool_depth_inches: { label: "Minimum wet-pond permanent pool depth", unit: "in", reads_as: "minimum depth of a wet pond's permanent pool" },
+  bioretention_ponding_depth_max_inches: { label: "Maximum bioretention ponding depth", unit: "in", reads_as: "deepest water allowed over a bioretention surface for the design storm" },
+  ed_drain_time_hours: { label: "Extended-detention time", unit: "hours", reads_as: "time over which an extended-detention volume (water quality or channel protection) is released" },
+  pond_length_width_min: { label: "Minimum pond length-to-width ratio", unit: "ratio", reads_as: "minimum flow-path length to width for ponds and basins" },
+  tss_removal_target_pct: { label: "TSS removal target", unit: "%", reads_as: "required removal of average annual total suspended solids" },
+  infiltration_safety_factor: { label: "Infiltration safety factor", unit: "factor", reads_as: "factor the measured infiltration rate is divided by to get the design rate" },
 };
 
 const median = (xs: number[]) => {
@@ -80,14 +85,16 @@ function main() {
     const byState = new Map<string, number[]>();
     for (const v of kept) byState.set(v.state, [...(byState.get(v.state) ?? []), v.value]);
     const states = [...byState.keys()].sort();
-    const xs = states.map((s) => median(byState.get(s)!));
+    const xs = states.map((s) => Math.round(median(byState.get(s)!) * 1000) / 1000);
     const labels = states.map((s) => REGION_OF.get(s) ?? "Other");
     const n = xs.length;
 
-    // most common value, counting values within ±10% of it as agreeing
+    // most common exact value (ties: the one with most states within ±10%, then
+    // the smaller); agreement counts states within ±10% of it
     const candidates = [...new Set(xs)];
-    const within = (c: number) => xs.filter((x) => Math.abs(x - c) <= 0.1 * c).length;
-    const mode = candidates.sort((a, b) => within(b) - within(a) || a - b)[0]!;
+    const exact = (c: number) => xs.filter((x) => x === c).length;
+    const within = (c: number) => xs.filter((x) => Math.abs(x - c) <= 0.1 * c + 1e-9).length;
+    const mode = candidates.sort((a, b) => exact(b) - exact(a) || within(b) - within(a) || a - b)[0]!;
     const agreement = n ? within(mode) / n : 0;
 
     const e = n > 2 ? eta2(xs, labels) : 0;

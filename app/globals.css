@@ -28,6 +28,13 @@
   --body-glow-b: #cffafe;
   --body-top: #f8fafc;
   --body-bottom: #eef2f7;
+  /* status palette: kept apart from the teal link/brand colour */
+  --st-strong-bg: #dcfce7; --st-strong-fg: #14532d;
+  --st-good-bg: #e0e7ff; --st-good-fg: #312e81;
+  --st-neutral-bg: #f1f5f9; --st-neutral-fg: #334155;
+  --st-open-bg: #fef3c7; --st-open-fg: #78350f;
+  --st-regional-bg: #f3e8ff; --st-regional-fg: #581c87;
+  --st-placeholder-fg: #57534e;
 }
 
 .dark {
@@ -55,6 +62,12 @@
   --body-glow-b: #0a3a3f;
   --body-top: #0b1520;
   --body-bottom: #0a1219;
+  --st-strong-bg: #14361f; --st-strong-fg: #bbf7d0;
+  --st-good-bg: #1e1b4b; --st-good-fg: #c7d2fe;
+  --st-neutral-bg: #1e293b; --st-neutral-fg: #cbd5e1;
+  --st-open-bg: #3b2a0a; --st-open-fg: #fde68a;
+  --st-regional-bg: #2e1065; --st-regional-fg: #e9d5ff;
+  --st-placeholder-fg: #d6d3d1;
 }
 
 @theme inline {
@@ -93,4 +106,86 @@ body {
 /* Source quotes can contain long unbroken runs (URLs, leader dots, rules). */
 blockquote {
   overflow-wrap: anywhere;
+}
+
+/* ---- status chips: one meaning per colour (green = strong evidence,
+   indigo = checked, slate = neutral, amber = open decision, violet = regional,
+   dashed = placeholder). Teal is reserved for links. ---- */
+.status-chip {
+  display: inline-block;
+  margin-right: 0.25rem;
+  border-radius: 0.25rem;
+  padding: 0 0.375rem;
+  font-size: 0.72rem;
+  font-weight: 600;
+  line-height: 1.35rem;
+  vertical-align: 0.08em;
+  letter-spacing: 0.01em;
+  white-space: nowrap;
+}
+.status-strong { background: var(--st-strong-bg); color: var(--st-strong-fg); }
+.status-good { background: var(--st-good-bg); color: var(--st-good-fg); }
+.status-neutral { background: var(--st-neutral-bg); color: var(--st-neutral-fg); }
+.status-open { background: var(--st-open-bg); color: var(--st-open-fg); }
+.status-regional { background: var(--st-regional-bg); color: var(--st-regional-fg); }
+.status-placeholder { color: var(--st-placeholder-fg); outline: 1px dashed currentColor; outline-offset: -1px; }
+
+/* one draft marker, used wherever a page shows unadopted proposals */
+.draft-marker {
+  display: inline-block;
+  border-left: 3px solid var(--st-open-fg);
+  background: var(--st-open-bg);
+  color: var(--st-open-fg);
+  padding: 0.15rem 0.6rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+/* standards-document clauses */
+.manual .clause { position: relative; }
+.manual .clause-num {
+  font-variant-numeric: tabular-nums;
+  font-weight: 700;
+  color: var(--foreground);
+  text-decoration: none;
+}
+.manual .clause-num:hover { color: var(--water-link); text-decoration: underline; }
+.manual .why {
+  border-left: 2px solid var(--edge-strong);
+  padding-left: 0.875rem;
+  font-size: 0.925rem;
+  color: var(--fg-muted);
+}
+.manual .why-label {
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--fg-faint);
+}
+
+/* dense research tables */
+.data-table { width: 100%; border-collapse: collapse; font-size: 0.875rem; }
+.data-table th {
+  border-bottom: 1px solid var(--edge-strong);
+  padding: 0.375rem 0.75rem 0.375rem 0;
+  text-align: left;
+  font-weight: 600;
+  color: var(--foreground);
+  white-space: nowrap;
+}
+.data-table td {
+  border-bottom: 1px solid var(--edge);
+  padding: 0.375rem 0.75rem 0.375rem 0;
+  vertical-align: top;
+}
+.data-table tbody tr:hover { background: var(--surface-muted); }
+
+/* longer draft disclaimer: same amber rule as .draft-marker, no tinted box */
+.draft-note {
+  border-left: 3px solid var(--st-open-fg);
+  padding: 0.25rem 0 0.25rem 0.875rem;
+  font-size: 0.875rem;
+  line-height: 1.55;
+  color: var(--fg-secondary);
 }
