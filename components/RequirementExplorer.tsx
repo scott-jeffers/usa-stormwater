@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { ComposableMap, Geographies, Geography } from "react-simple-maps";
 import { FIPS_TO_STATE_CODE, STATE_CODE_TO_NAME } from "@/lib/usStates";
 
@@ -45,6 +45,11 @@ export function RequirementExplorer({ rows, unit, byState, criterionKey }: { row
   const [ownOnly, setOwnOnly] = useState(true);
   const [sort, setSort] = useState<{ k: "state" | "name" | "value"; dir: 1 | -1 }>({ k: "state", dir: 1 });
   const [openQuote, setOpenQuote] = useState<string | null>(null);
+  // Arriving from a map (?state=GA) pre-filters the table.
+  useEffect(() => {
+    const s = new URLSearchParams(window.location.search).get("state")?.toUpperCase();
+    if (s && byState[s] !== undefined) queueMicrotask(() => setState(s));
+  }, [byState]);
 
   const vals = Object.values(byState);
   const breaks = useMemo(() => {

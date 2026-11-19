@@ -121,7 +121,7 @@ export function SiteSearch({ variant = "header", autoFocus = false }: { variant?
         value={q}
         autoFocus={autoFocus}
         autoComplete="off"
-        placeholder={hero ? "Requirement, place or clause, e.g. “drawdown”" : "Search  ( / )"}
+        placeholder={hero ? "Search requirements, places, clauses" : "Search  ( / )"}
         onChange={(e) => {
           setQ(e.target.value);
           setOpen(true);
