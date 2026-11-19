@@ -1,3 +1,4 @@
+import { SearchMeta } from "@/components/SiteSearch";
 import type { Metadata } from "next";
 import Link from "next/link";
 import { existsSync, readFileSync } from "node:fs";
@@ -28,7 +29,7 @@ const FILES = [
   { href: "/data/schema.json", name: "schema.json", what: "Record shape and API endpoints." },
   { href: "/data/archive/drawings.csv", name: "archive/drawings.csv", what: "Standard drawings found in the atlas manuals (design archive), with practice, kind and a link to the PDF page." },
   { href: "/data/archive/examples.csv", name: "archive/examples.csv", what: "Worked design examples, sample plans and plan checklists in the atlas manuals (design archive)." },
-  { href: "/manual/model-manual.md", name: "model-manual.md", what: "The draft model manual, as Markdown." },
+  { href: "/data/model-manual.md", name: "model-manual.md", what: "The draft model manual, as Markdown." },
 ];
 
 export default function DataPage() {
@@ -36,9 +37,10 @@ export default function DataPage() {
   const ds = readJson<{ records: number; values: number; hand_checked_values: number; citation: string }>("dataset.json");
   const fill = new Map((dict?.fields ?? []).map((f) => [f.field, f]));
   return (
-    <main className="space-y-10">
+    <main className="w-data mx-auto space-y-10">
+      <SearchMeta type="Resource" />
       <header className="max-w-3xl space-y-3">
-        <h1 className="font-display text-3xl font-semibold tracking-tight text-ink sm:text-4xl">Data</h1>
+        <h1 className="text-3xl font-semibold tracking-tight text-ink">Data</h1>
         <p className="text-base leading-relaxed text-fg-secondary">
           The whole atlas is open for research: {ds?.records ?? "—"} manual records, {ds?.values.toLocaleString() ?? "—"} extracted
           values each with its source quote, and {ds?.hand_checked_values ?? "—"} values read by hand. Dataset version{" "}
@@ -52,7 +54,7 @@ export default function DataPage() {
       </header>
 
       <section className="max-w-3xl space-y-3">
-        <h2 className="font-display text-xl font-semibold text-ink">Downloads</h2>
+        <h2 className="text-xl font-semibold text-ink">Downloads</h2>
         <ul className="divide-y divide-edge rounded-lg border border-edge bg-surface">
           {FILES.map((f) => (
             <li key={f.href} className="flex flex-col gap-0.5 px-4 py-3 sm:flex-row sm:items-baseline sm:gap-4">
@@ -66,7 +68,7 @@ export default function DataPage() {
       </section>
 
       <section className="max-w-3xl space-y-2">
-        <h2 className="font-display text-xl font-semibold text-ink">Cite and reuse</h2>
+        <h2 className="text-xl font-semibold text-ink">Cite and reuse</h2>
         <p className="rounded-md bg-surface-muted px-4 py-3 font-mono text-sm text-foreground">{ds?.citation}</p>
         <p className="text-sm text-fg-secondary">
           The data and the draft manual are licensed{" "}
@@ -79,7 +81,7 @@ export default function DataPage() {
       </section>
 
       <section className="space-y-3">
-        <h2 className="font-display text-xl font-semibold text-ink">Data dictionary</h2>
+        <h2 className="text-xl font-semibold text-ink">Data dictionary</h2>
         <p className="max-w-3xl text-sm text-fg-secondary">
           Fill rate is the share of the {dict?.records_with_own_rules ?? "—"} records with their own rules (stand-ins excluded) that state the field.
           Each numeric value carries a qualifier (min, max, design, typical, range or average) in values.csv and in the API (design_parameters.value_qualifiers).
@@ -117,7 +119,7 @@ export default function DataPage() {
       </section>
 
       <section className="space-y-3">
-        <h2 className="font-display text-xl font-semibold text-ink">Browse values</h2>
+        <h2 className="text-xl font-semibold text-ink">Browse values</h2>
         <p className="max-w-3xl text-sm text-fg-secondary">
           Every numeric value in values.csv. Filter by field and state, sort any column, and open the record to see the quote in context.
         </p>

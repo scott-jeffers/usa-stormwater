@@ -1,8 +1,10 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { pageMeta } from "@/lib/site";
-import { loadManual } from "@/lib/manual/parse";
+import { loadManual, clauseId } from "@/lib/manual/parse";
 import { Chip, GRADE_MEANING, ManualBlock } from "@/components/ManualText";
+import { ManualTools } from "@/components/ManualTools";
+import { SearchMeta } from "@/components/SiteSearch";
 
 const manual = loadManual();
 
@@ -19,8 +21,8 @@ export default function ManualPage() {
   const counts = (["E1", "E2", "E3", "E0"] as const).map((g) => ({ g, n: graded.filter((c) => c.grade === g).length }));
   const open = manual.clauses.filter((c) => c.tags.includes("Open"));
   return (
-    <main className="lg:grid lg:grid-cols-[13rem_minmax(0,1fr)] lg:gap-10">
-      <nav aria-label="Contents" className="hidden lg:block">
+    <main className="mx-auto max-w-6xl lg:grid lg:grid-cols-[13rem_minmax(0,1fr)] lg:gap-10">
+      <nav aria-label="Contents" className="no-print hidden lg:block">
         <div className="sticky top-20 max-h-[calc(100vh-6rem)] overflow-y-auto pb-6 text-sm">
           <p className="mb-2 text-xs font-semibold uppercase tracking-wide text-fg-muted">Contents</p>
           <ol className="space-y-1">
@@ -37,9 +39,10 @@ export default function ManualPage() {
       </nav>
 
       <article className="manual max-w-3xl">
+        <SearchMeta type="Model manual" />
         <header className="border-b border-edge-strong pb-6">
           <p className="draft-marker">{manual.version} · {manual.status}</p>
-          <h1 className="mt-3 font-display text-3xl font-semibold tracking-tight text-ink sm:text-4xl">{manual.title}</h1>
+          <h1 className="mt-3 text-3xl font-semibold tracking-tight text-ink sm:text-4xl">{manual.title}</h1>
           <p className="mt-2 text-fg-secondary">
             {manual.date} · {manual.clauses.length} numbered provisions · {open.length} open questions
           </p>
@@ -54,12 +57,13 @@ export default function ManualPage() {
           </dl>
           <p className="mt-4 text-sm text-fg-secondary">
             Evidence:{" "}
-            <Link href="/national/model-manual/" className="text-water-link hover:underline">state-by-state classification</Link>
+            <Link href="/manual/evidence/" className="text-water-link hover:underline">state-by-state classification</Link>
             {" · "}
             <Link href="/data/" className="text-water-link hover:underline">data downloads</Link>
             {" · "}
-            <a href="/manual/model-manual.md" className="text-water-link hover:underline">Markdown source</a>
+            <a href="/data/model-manual.md" className="text-water-link hover:underline">Markdown source</a>
           </p>
+          <ManualTools clauses={manual.clauses.map((c) => ({ n: c.number, id: clauseId(c.number), title: c.title ?? "", text: c.text.slice(0, 240) }))} />
           <details className="mt-4 lg:hidden">
             <summary className="cursor-pointer text-sm font-medium text-water-link">Contents</summary>
             <ol className="mt-2 space-y-1 text-sm">
@@ -76,7 +80,7 @@ export default function ManualPage() {
 
         {manual.sections.map((s) => (
           <section key={s.id} id={s.id} className="scroll-mt-20 border-b border-edge py-8 last:border-0">
-            <h2 className="font-display text-2xl font-semibold text-ink">
+            <h2 className="text-2xl font-semibold text-ink">
               {s.number ? <span className="mr-2 tabular-nums text-fg-faint">{s.number}</span> : null}
               {s.title}
             </h2>

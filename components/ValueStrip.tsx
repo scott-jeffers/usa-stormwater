@@ -21,7 +21,10 @@ export function ValueStrip({ label, unit, values, mode }: Props) {
   const counts = new Map<number, number>();
   for (const v of values) counts.set(v.value, (counts.get(v.value) ?? 0) + 1);
   const tallest = Math.max(...counts.values());
-  const x0 = 12, x1 = 560, base = 14 + tallest * 7;
+  // Stack step shrinks for tall columns so the strip stays under ~110 px.
+  const step = Math.max(2.2, Math.min(7, 96 / tallest));
+  const r = Math.min(3.5, Math.max(1.6, step / 2));
+  const x0 = 12, x1 = 560, base = 14 + tallest * step;
   const sx = (v: number) => x0 + (max ? (v / max) * (x1 - x0) : 0);
   const seen = new Map<number, number>();
   return (
@@ -30,9 +33,9 @@ export function ValueStrip({ label, unit, values, mode }: Props) {
       {values.map((v, i) => {
         const k = seen.get(v.value) ?? 0;
         seen.set(v.value, k + 1);
-        const hit = mode != null && Math.abs(v.value - mode) <= 0.1 * mode;
+        const hit = mode != null && v.value === mode;
         return (
-          <circle key={`${v.name}-${i}`} cx={sx(v.value)} cy={base - 6 - k * 7} r={3.5} className={hit ? "fill-water" : "fill-fg-faint"} opacity={hit ? 1 : 0.55}>
+          <circle key={`${v.name}-${i}`} cx={sx(v.value)} cy={base - 6 - k * step} r={r} className={hit ? "fill-water" : "fill-fg-faint"} opacity={hit ? 1 : 0.55}>
             <title>{`${v.name}: ${withUnit(v.value, unit)}`}</title>
           </circle>
         );
@@ -41,6 +44,9 @@ export function ValueStrip({ label, unit, values, mode }: Props) {
       <text x={x1 + 8} y={base + 4} className="fill-fg-subtle" fontSize={12}>{withUnit(max, unit)}</text>
       {mode != null && Math.abs(sx(mode) - sx(min)) > 28 && (
         <text x={sx(mode)} y={base + 18} textAnchor="middle" className="fill-water" fontSize={12} fontWeight={600}>{fmt(mode)}</text>
+      )}
+      {mode != null && (
+        <text x={sx(mode) + 8} y={base - 6 - ((counts.get(mode) ?? 1) - 1) * step + 4} className="fill-fg-subtle" fontSize={11}>{counts.get(mode)} manuals</text>
       )}
     </svg>
   );
@@ -51,7 +57,7 @@ export function describeValues(label: string, unit: string, values: number[], mo
   if (!values.length) return `${label}: no manual states a value.`;
   const n = values.length;
   const min = Math.min(...values), max = Math.max(...values);
-  const atMode = mode == null ? 0 : values.filter((v) => Math.abs(v - mode) <= 0.1 * mode).length;
+  const atMode = mode == null ? 0 : values.filter((v) => v === mode).length;
   const range = min === max ? `all ${withUnit(min, unit)}` : unit === "ratio" ? `${fmt(min)}:1 to ${fmt(max)}:1` : `${fmt(min)}–${withUnit(max, unit)}`;
   const common = mode != null && atMode >= 2 ? `; most common ${withUnit(mode, unit)} (${atMode} manuals)` : "";
   return `${label}: ${n} manual${n === 1 ? "" : "s"}, ${range}${common}.`;

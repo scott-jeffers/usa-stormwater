@@ -6,7 +6,7 @@
  *   public/data/hand-checks.csv   values read by hand for the model manual
  *   public/data/dictionary.json   every field: meaning, unit, type, fill rate
  *   public/data/dataset.json      dataset version, counts, citation
- *   public/manual/model-manual.md the model manual source
+ *   public/data/model-manual.md   the model manual source (public/manual/ would clash with the /manual/ route)
  *
  *   npx tsx scripts/export-research.ts
  */
@@ -142,8 +142,7 @@ function main() {
 
   const man = path.join(ROOT, "content/manual/model-manual.md");
   if (existsSync(man)) {
-    mkdirSync(path.join(ROOT, "public/manual"), { recursive: true });
-    copyFileSync(man, path.join(ROOT, "public/manual/model-manual.md"));
+    copyFileSync(man, path.join(PUB, "model-manual.md"));
   }
   console.log(`research export: ${recs.length} records, ${vRows.length - 1} values, ${hcN} hand checks`);
 }

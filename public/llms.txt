@@ -1,39 +1,35 @@
 # Stormwater Atlas
 
-> U.S. stormwater design manual requirements in one place — an ongoing open project with structured, evidence-cited JSON anyone (or any AI) can fetch. No API key.
+> Numeric stormwater design requirements read from U.S. federal, state, county and city manuals, each with the quoted sentence and PDF page it came from, plus a draft national model manual built on that evidence. Open data, no API key.
 
 Website: https://www.stormwateratlas.com/
-About & examples: https://www.stormwateratlas.com/about/
-Federal drainage guidance: https://www.stormwateratlas.com/federal/
-Practice synthesis: https://www.stormwateratlas.com/national/
+Requirements (one page per design value, every manual's value and quote): https://www.stormwateratlas.com/requirements/
+One requirement: https://www.stormwateratlas.com/requirements/{criterionKey}/
+Jurisdictions: https://www.stormwateratlas.com/jurisdictions/
+One jurisdiction: https://www.stormwateratlas.com/{slug}/
+Model manual (draft): https://www.stormwateratlas.com/manual/
+Model manual evidence: https://www.stormwateratlas.com/manual/evidence/
+Compare up to four jurisdictions: https://www.stormwateratlas.com/compare/?m={slug},{slug}
+About and methods: https://www.stormwateratlas.com/about/
 
 ## Machine-readable data
 
-- Index (lightweight): https://www.stormwateratlas.com/data/manuals.json
-- One manual: https://www.stormwateratlas.com/data/manuals/{slug}.json
-- Full atlas dump: https://www.stormwateratlas.com/data/atlas.json
+- Every numeric value with qualifier, basis, quote, page and check (CSV): https://www.stormwateratlas.com/data/values.csv
+- Data dictionary: https://www.stormwateratlas.com/data/dictionary.json
+- Dataset version and citation: https://www.stormwateratlas.com/data/dataset.json
+- Index of records: https://www.stormwateratlas.com/data/manuals.json
+- One record: https://www.stormwateratlas.com/data/manuals/{slug}.json
+- Full dump: https://www.stormwateratlas.com/data/atlas.json
 - Field guide: https://www.stormwateratlas.com/data/schema.json
-- Practice synthesis outline: https://www.stormwateratlas.com/data/national/outline.json
-- Side-by-side comparison rows (design storms, methods, key design values with their citation check): https://www.stormwateratlas.com/data/compare.json
-
-Each record includes jurisdiction metadata, design criteria (storm return periods, water-quality volume method, peak-flow methods, software, BMP categories), verbatim evidence excerpts with page/section, extraction confidence, and source PDF / agency URLs.
-
-The `/national/` reader is a **U.S. Stormwater Practice Synthesis** (research draft) — not a design manual or adopted regulation.
-
-## Suggested uses
-
-- Compare design storms or BMP lists across states and cities
-- Look up a jurisdiction and return the cited quote for a field
-- Filter manuals that mention a method, software package, or BMP type
-- Browse synthesized practice guidance with atlas-backed citations
+- Comparison rows: https://www.stormwateratlas.com/data/compare.json
+- Model manual source (Markdown): https://www.stormwateratlas.com/data/model-manual.md
 
 ## Important
 
-- Check `coverage_basis` before quoting a record. `stand_in` means the page shows another jurisdiction's manual as a placeholder; those values are NOT that place's requirements. `state_manual` / `regional_manual` mean the place adopts a shared manual, whose values are in `effective_design` (slug in `design_from`).
-- `citation_check` tells you whether each quote was found word-for-word in the source PDF. Prefer values whose quotes passed; a quote proves the text exists, not that it was interpreted correctly.
+- Check `coverage_basis` before quoting a record. `stand_in` means the page shows another jurisdiction's manual as a placeholder; those values are NOT that place's requirements. `state_manual` / `regional_manual` mean the place adopts a shared manual. National statistics count only `own` and `issuer` records, one value per manual.
+- `check` / `citation_check` says whether each quote was found word-for-word in the source PDF. A found quote proves the text exists, not that it was read correctly; `hand_review` marks values a person checked.
+- The model manual is a draft for discussion, not adopted regulation.
 
-Data is for research reference only. Always verify against the current official agency document linked in each record. Some extracted fields may need human review.
+Always verify against the current official agency document linked in each record.
 
-The `needs_human_review` flag in JSON means an automated extraction had low confidence or incomplete citations — compare excerpts to the official PDF; it is not a volunteer review program. See https://www.stormwateratlas.com/about/#needs-review
-
-Open-source community project (actively developed). MIT license: https://github.com/scott-jeffers/usa-stormwater
+Data: CC BY 4.0. Code: MIT. https://github.com/scott-jeffers/usa-stormwater

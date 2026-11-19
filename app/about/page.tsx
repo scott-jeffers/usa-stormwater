@@ -1,3 +1,4 @@
+import { SearchMeta } from "@/components/SiteSearch";
 import { SITE_URL, pageMeta } from "@/lib/site";
 import type { Metadata } from "next";
 import Link from "next/link";
@@ -37,13 +38,12 @@ export default function AboutPage() {
   const coverage = buildCoverageReport().summary;
   return (
     <main className="mx-auto max-w-3xl space-y-12">
+      <SearchMeta type="Resource" />
       <header className="space-y-3">
-        <p className="text-sm font-medium text-water">
-          <Link href="/" className="hover:underline">
-            ← All manuals
-          </Link>
+        <p className="text-sm text-fg-muted">
+          <Link href="/resources/" className="text-water-link hover:underline">Resources</Link>
         </p>
-        <h1 className="font-display text-3xl font-semibold tracking-tight text-ink sm:text-4xl">
+        <h1 className="text-3xl font-semibold tracking-tight text-ink">
           About Stormwater Atlas
         </h1>
         <p className="text-base leading-relaxed text-fg-secondary">
@@ -101,13 +101,16 @@ export default function AboutPage() {
 
       <Section title="For people">
         <p>
-          Use the{" "}
-          <Link href="/" className="font-medium text-water-link hover:underline">
-            homepage map and table
+          Start from{" "}
+          <Link href="/requirements/" className="font-medium text-water-link hover:underline">
+            Requirements
           </Link>{" "}
-          to find a federal, state, county, or city manual. Open a jurisdiction to see
-          design storms, water-quality methods, BMPs, and other fields — each
-          with a cited excerpt and a link to the official PDF or agency page.
+          to see one design value across every manual, or from{" "}
+          <Link href="/jurisdictions/" className="font-medium text-water-link hover:underline">
+            Jurisdictions
+          </Link>{" "}
+          to find a federal, state, county or city manual. Every value carries the
+          sentence it came from and a link to that page of the official PDF.
         </p>
         <p className="mt-3">
           Browse{" "}
@@ -119,15 +122,10 @@ export default function AboutPage() {
           </Link>{" "}
           (FHWA hydraulic circulars) separately from adopted state and local
           manuals. The{" "}
-          <Link
-            href="/national/"
-            className="font-medium text-water-link hover:underline"
-          >
-            U.S. Stormwater Practice Synthesis
+          <Link href="/manual/" className="font-medium text-water-link hover:underline">
+            model manual
           </Link>{" "}
-          is an 18-chapter research draft with practice notes, criteria
-          guidance tables, and curated citations — provisional language for
-          discussion, not a design manual or adopted practice. Data freshness
+          is a complete draft for discussion, with every number graded by its evidence; it is not adopted practice. Data freshness
           follows the latest{" "}
           <code className="rounded bg-mist px-1 text-xs">npm run export:data</code>{" "}
           / site build.
@@ -161,7 +159,7 @@ export default function AboutPage() {
       </Section>
 
       <Section title="Endpoints">
-        <div className="overflow-x-auto rounded-xl border border-edge/80 bg-surface shadow-sm">
+        <div className="overflow-x-auto rounded-md border border-edge bg-surface">
           <table className="w-full min-w-[520px] text-left text-sm">
             <thead className="border-b border-edge bg-surface-muted/80 text-xs uppercase tracking-wide text-fg-muted">
               <tr>
@@ -207,8 +205,8 @@ export default function AboutPage() {
                 desc="Short plain-text summary for AI agents"
               />
               <EndpointRow
-                path="/national/"
-                desc="Human-readable practice synthesis reader"
+                path="/data/dataset.json"
+                desc="Dataset version, counts and how to cite it"
               />
             </tbody>
           </table>
@@ -235,7 +233,7 @@ export default function AboutPage() {
         <p className="mt-3 text-sm text-fg-muted">
           Suggested attribution line (project only):
         </p>
-        <blockquote className="mt-2 rounded-xl border border-edge/80 bg-mist/40 px-4 py-3 text-sm italic text-fg-secondary">
+        <blockquote className="mt-2 rounded-md border border-edge bg-mist/40 px-4 py-3 text-sm italic text-fg-secondary">
           Stormwater Atlas — national index of stormwater design manual criteria
           with cited excerpts.{" "}
           <a href={BASE} className="text-water-link not-italic hover:underline">
@@ -245,7 +243,7 @@ export default function AboutPage() {
         <p className="mt-3 text-sm text-fg-muted">
           Suggested blurb for resource pages:
         </p>
-        <blockquote className="mt-2 rounded-xl border border-edge/80 bg-mist/40 px-4 py-3 text-sm text-fg-secondary">
+        <blockquote className="mt-2 rounded-md border border-edge bg-mist/40 px-4 py-3 text-sm text-fg-secondary">
           <a href={BASE} className="font-medium text-water-link hover:underline">
             Stormwater Atlas
           </a>{" "}
@@ -374,17 +372,17 @@ export default function AboutPage() {
       </Section>
 
       <Section title="Examples">
-        <h3 className="font-display text-base font-semibold text-ink">
+        <h3 className="text-base font-semibold text-ink">
           Fetch the index
         </h3>
         <CodeBlock>{`curl ${BASE}/data/manuals.json`}</CodeBlock>
 
-        <h3 className="mt-6 font-display text-base font-semibold text-ink">
+        <h3 className="mt-6 text-base font-semibold text-ink">
           Fetch one manual
         </h3>
         <CodeBlock>{`curl ${BASE}/data/manuals/austin-tx-ecm.json`}</CodeBlock>
 
-        <h3 className="mt-6 font-display text-base font-semibold text-ink">
+        <h3 className="mt-6 text-base font-semibold text-ink">
           Filter in JavaScript
         </h3>
         <CodeBlock>{`const res = await fetch("${BASE}/data/atlas.json");
@@ -399,7 +397,7 @@ const tx100 = manuals.filter(
 
 console.log(tx100.map((m) => m.document_metadata.jurisdiction_name));`}</CodeBlock>
 
-        <h3 className="mt-6 font-display text-base font-semibold text-ink">
+        <h3 className="mt-6 text-base font-semibold text-ink">
           Prompts for an AI agent
         </h3>
         <ul className="mt-2 list-disc space-y-2 pl-5 text-sm text-fg-secondary">
@@ -455,7 +453,7 @@ function Section({
 }) {
   return (
     <section id={id} className="scroll-mt-20 space-y-3">
-      <h2 className="font-display text-xl font-semibold text-ink">{title}</h2>
+      <h2 className="text-xl font-semibold text-ink">{title}</h2>
       <div className="text-base leading-relaxed text-fg-secondary">{children}</div>
     </section>
   );
@@ -485,7 +483,7 @@ function EndpointRow({ path, desc }: { path: string; desc: string }) {
 
 function CodeBlock({ children }: { children: string }) {
   return (
-    <pre className="mt-2 overflow-x-auto rounded-xl border border-edge/80 bg-code px-4 py-3 text-xs leading-relaxed text-code-fg sm:text-sm">
+    <pre className="mt-2 overflow-x-auto rounded-md border border-edge bg-code px-4 py-3 text-xs leading-relaxed text-code-fg sm:text-sm">
       <code>{children}</code>
     </pre>
   );

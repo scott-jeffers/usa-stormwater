@@ -1,46 +1,38 @@
 import Link from "next/link";
 import { ThemeToggle } from "@/components/ThemeToggle";
+import { SiteSearch } from "@/components/SiteSearch";
+import { MobileMenu, NavLinks } from "@/components/MobileMenu";
+
+const NAV = [
+  { href: "/requirements/", label: "Requirements" },
+  { href: "/jurisdictions/", label: "Jurisdictions" },
+  { href: "/manual/", label: "Model manual" },
+  { href: "/compare/", label: "Compare" },
+  { href: "/resources/", label: "Resources" },
+];
 
 export function SiteHeader() {
   return (
-    <header className="sticky top-0 z-40 border-b border-edge/80 bg-surface/80 backdrop-blur-md">
-      <div className="mx-auto flex h-14 max-w-6xl items-center justify-between gap-2 px-3 sm:gap-4 sm:px-6 lg:px-8">
-        <Link
-          href="/"
-          className="group flex min-w-0 items-center gap-2 text-ink sm:gap-2.5 transition-opacity hover:opacity-80"
-        >
-          <BrandMark className="h-6 w-6 shrink-0 sm:h-7 sm:w-7" />
-          <span className="whitespace-nowrap font-display text-[15px] font-semibold tracking-tight max-[399px]:sr-only sm:text-lg">
-            Stormwater Atlas
-          </span>
+    <header data-pagefind-ignore="all" className="sticky top-0 z-40 border-b border-edge bg-surface">
+      <div className="mx-auto flex h-14 max-w-6xl items-center gap-3 px-3 sm:gap-5 sm:px-6 lg:px-8">
+        <Link href="/" className="flex shrink-0 items-center gap-2 text-ink hover:opacity-80">
+          <BrandMark className="h-7 w-7 shrink-0" />
+          <span className="whitespace-nowrap text-[15px] font-semibold tracking-tight max-[479px]:sr-only">Stormwater Atlas</span>
         </Link>
-        <nav aria-label="Main" className="flex shrink-0 items-center gap-2.5 text-[13px] sm:gap-4 sm:text-sm">
-          <Link
-            href="/manual/"
-            className="font-medium text-fg-secondary transition-colors hover:text-water-link"
-          >
-            Manual
+        <div className="hidden min-w-0 flex-1 md:block">
+          <SiteSearch />
+        </div>
+        <NavLinks items={NAV} />
+        <div className="ml-auto flex items-center gap-1 lg:ml-0">
+          <Link href="/search/" aria-label="Search" className="flex h-10 w-10 items-center justify-center rounded-md text-fg-secondary hover:bg-surface-muted md:hidden">
+            <svg viewBox="0 0 20 20" className="h-5 w-5" fill="none" stroke="currentColor" strokeWidth="1.8" aria-hidden>
+              <circle cx="9" cy="9" r="6" />
+              <path d="m14 14 4 4" strokeLinecap="round" />
+            </svg>
           </Link>
-          <Link
-            href="/data/"
-            className="font-medium text-fg-secondary transition-colors hover:text-water-link"
-          >
-            Data
-          </Link>
-          <Link
-            href="/compare/"
-            className="font-medium text-fg-secondary transition-colors hover:text-water-link"
-          >
-            Compare
-          </Link>
-          <Link
-            href="/about/"
-            className="font-medium text-fg-secondary transition-colors hover:text-water-link"
-          >
-            About
-          </Link>
+          <MobileMenu items={NAV} />
           <ThemeToggle />
-        </nav>
+        </div>
       </div>
     </header>
   );

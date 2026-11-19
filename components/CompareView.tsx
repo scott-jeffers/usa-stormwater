@@ -49,7 +49,11 @@ function List({ list, slug }: { list: CappedList; slug: string }) {
   );
 }
 
-export function CompareView({ params }: { params: Array<{ key: string; label: string; unit: string }> }) {
+type Ctx = { hideSame: boolean; national: boolean };
+
+export function CompareView({ params, national }: { params: Array<{ key: string; label: string; unit: string; clause?: string }>; national: Record<string, { mode: number; n: number }> }) {
+  const [hideSame, setHideSame] = useState(false);
+  const [showNational, setShowNational] = useState(true);
   const [rows, setRows] = useState<CompareRow[] | null>(null);
   const [error, setError] = useState(false);
   const [picked, setPicked] = useState<string[]>([]);
@@ -100,7 +104,7 @@ export function CompareView({ params }: { params: Array<{ key: string; label: st
 
   return (
     <div className="space-y-6">
-      <div className="rounded-xl border border-edge/80 bg-surface p-4 shadow-sm">
+      <div className="rounded-md border border-edge bg-surface p-4">
         <label htmlFor="compare-search" className="mb-1 block text-xs font-medium text-fg-muted">
           Add a jurisdiction ({chosen.length} of {MAX})
         </label>
@@ -122,7 +126,7 @@ export function CompareView({ params }: { params: Array<{ key: string; label: st
           {suggestions.length > 0 && (
             <ul
               id="compare-suggestions"
-              className="absolute z-20 mt-1 w-full overflow-hidden rounded-md border border-edge-strong bg-surface shadow-lg"
+              className="absolute z-20 mt-1 w-full overflow-hidden rounded-md border border-edge-strong bg-surface "
             >
               {suggestions.map((r) => (
                 <li key={r.slug}>
@@ -157,12 +161,28 @@ export function CompareView({ params }: { params: Array<{ key: string; label: st
         )}
       </div>
 
+      {chosen.length > 1 && (
+        <div className="flex flex-wrap gap-x-6 gap-y-2 text-sm">
+          <label className="flex items-center gap-2">
+            <input type="checkbox" checked={hideSame} onChange={(e) => setHideSame(e.target.checked)} />
+            Hide rows where all are the same
+          </label>
+          <label className="flex items-center gap-2">
+            <input type="checkbox" checked={showNational} onChange={(e) => setShowNational(e.target.checked)} />
+            Show the most common value nationally
+          </label>
+          <span className="flex items-center gap-2 text-fg-muted">
+            <span className="inline-block h-3 w-3 rounded-sm bg-[var(--st-open-bg)] ring-1 ring-edge-strong" aria-hidden /> differs from the others
+          </span>
+        </div>
+      )}
+
       {chosen.length === 0 ? (
-        <div className="rounded-xl border border-dashed border-edge-strong bg-surface p-10 text-center text-sm text-fg-muted">
+        <div className="rounded-md border border-dashed border-edge-strong bg-surface p-10 text-center text-sm text-fg-muted">
           {rows ? "Search above to add the first jurisdiction." : "Loading records…"}
         </div>
       ) : (
-        <div className="overflow-x-auto rounded-xl border border-edge/80 bg-surface shadow-sm">
+        <div className="overflow-x-auto rounded-md border border-edge bg-surface">
           <table className="w-full border-collapse text-sm">
             <thead>
               <tr className="border-b border-edge bg-mist text-left align-top">
@@ -178,10 +198,15 @@ export function CompareView({ params }: { params: Array<{ key: string; label: st
                     <span className="mt-0.5 block text-xs font-normal text-fg-subtle">{r.title}</span>
                   </th>
                 ))}
+                {showNational && (
+                  <th scope="col" className="min-w-[150px] border-l border-edge px-4 py-3 text-xs font-medium uppercase tracking-wide text-fg-subtle">
+                    Most common nationally
+                  </th>
+                )}
               </tr>
             </thead>
             <tbody className="align-top text-fg-secondary">
-              <Row label="Manual basis" rows={chosen} render={(r) => (
+              <Row ctx={{ hideSame, national: showNational }} label="Manual basis" rows={chosen} sig={(r) => r.basis} render={(r) => (
                 <>
                   {BASIS[r.basis] ?? r.basis}
                   {r.design_from !== r.slug && (
@@ -191,16 +216,16 @@ export function CompareView({ params }: { params: Array<{ key: string; label: st
                   )}
                 </>
               )} />
-              <Row label="Revised" rows={chosen} render={(r) => r.revised ?? <span className="italic text-fg-subtle">Unknown</span>} />
-              <Row label="Design storms" rows={chosen} render={(r) =>
+              <Row ctx={{ hideSame, national: showNational }} label="Revised" rows={chosen} sig={(r) => r.revised ?? ""} render={(r) => r.revised ?? <span className="italic text-fg-subtle">Unknown</span>} />
+              <Row ctx={{ hideSame, national: showNational }} label="Design storms" rows={chosen} sig={(r) => r.storms.join(",")} render={(r) =>
                 r.storms.length ? r.storms.map((y) => `${y}-yr`).join(", ") : <span className="italic text-fg-subtle">Not found</span>
               } />
-              <Row label="Water-quality volume" rows={chosen} render={(r) => r.wqv_method ?? <span className="italic text-fg-subtle">Not found</span>} />
-              <Row label="Peak-flow methods" rows={chosen} render={(r) => <List list={r.peak_flow} slug={r.design_from} />} />
-              <Row label="Software" rows={chosen} render={(r) => <List list={r.software} slug={r.design_from} />} />
-              <Row label="BMP categories" rows={chosen} render={(r) => <List list={r.bmps} slug={r.design_from} />} />
+              <Row ctx={{ hideSame, national: showNational }} label="Water-quality volume" rows={chosen} sig={(r) => r.wqv_method ?? ""} render={(r) => r.wqv_method ?? <span className="italic text-fg-subtle">Not found</span>} />
+              <Row ctx={{ hideSame, national: showNational }} label="Peak-flow methods" rows={chosen} sig={(r) => r.peak_flow.items.join("|")} render={(r) => <List list={r.peak_flow} slug={r.design_from} />} />
+              <Row ctx={{ hideSame, national: showNational }} label="Software" rows={chosen} sig={(r) => r.software.items.join("|")} render={(r) => <List list={r.software} slug={r.design_from} />} />
+              <Row ctx={{ hideSame, national: showNational }} label="BMP categories" rows={chosen} sig={(r) => r.bmps.items.join("|")} render={(r) => <List list={r.bmps} slug={r.design_from} />} />
               {shownParams.map((p) => (
-                <Row key={p.key} label={p.label} rows={chosen} render={(r) => {
+                <Row key={p.key} ctx={{ hideSame, national: showNational }} label={p.label} sig={(r) => { const v = r.params[p.key]; return v ? String(v.value) : ""; }} nat={national[p.key] ? <><span className="num font-medium text-foreground">{fmt(national[p.key]!.mode, p.unit)}</span><span className="block text-xs text-fg-subtle">{national[p.key]!.n} manuals</span></> : null} rows={chosen} render={(r) => {
                   const v = r.params[p.key];
                   if (!v) return <span className="italic text-fg-subtle">Not found</span>;
                   const c = CHECK[v.check];
@@ -214,14 +239,14 @@ export function CompareView({ params }: { params: Array<{ key: string; label: st
                   );
                 }} />
               ))}
-              <Row label="Citation check" rows={chosen} render={(r) => {
+              <Row ctx={{ hideSame, national: showNational }} label="Citation check" rows={chosen} render={(r) => {
                 const c = r.citations;
                 if (!c) return <span className="italic text-fg-subtle">Not checked</span>;
                 const ok = c.exact + c.fuzzy;
                 const all = ok + c.unverifiable + c.fail;
                 return `${ok} of ${all} quotes found in source`;
               }} />
-              <Row label="Source" rows={chosen} render={(r) =>
+              <Row ctx={{ hideSame, national: showNational }} label="Source" rows={chosen} render={(r) =>
                 r.pdf ? (
                   <a href={r.pdf} target="_blank" rel="noopener noreferrer" className="text-water-link hover:underline">
                     Open PDF ↗
@@ -242,21 +267,43 @@ function Row({
   label,
   rows,
   render,
+  sig,
+  ctx,
+  nat,
 }: {
   label: string;
   rows: CompareRow[];
   render: (r: CompareRow) => React.ReactNode;
+  sig?: (r: CompareRow) => string;
+  ctx: Ctx;
+  nat?: React.ReactNode;
 }) {
+  const sigs = sig ? rows.map(sig) : null;
+  const same = !!sigs && rows.length > 1 && sigs.every((x) => x === sigs[0]);
+  if (ctx.hideSame && same) return null;
+  // The value most of the chosen manuals share; cells that differ from it are marked.
+  let common: string | null = null;
+  if (sigs && rows.length > 1 && !same) {
+    const n = new Map<string, number>();
+    for (const x of sigs) n.set(x, (n.get(x) ?? 0) + 1);
+    const top = [...n.entries()].sort((a, b) => b[1] - a[1]);
+    common = top.length > 1 && top[0]![1] === top[1]![1] ? null : top[0]![0];
+  }
   return (
     <tr className="border-b border-edge last:border-b-0">
       <th scope="row" className="sticky left-0 z-10 bg-surface px-3 py-3 text-left text-[11px] font-medium uppercase tracking-wide text-fg-subtle sm:px-4 sm:text-xs">
         {label}
       </th>
-      {rows.map((r) => (
-        <td key={r.slug} className="px-4 py-3">
-          {render(r)}
-        </td>
-      ))}
+      {rows.map((r, i) => {
+        const differs = !!sigs && rows.length > 1 && !same && (common === null || sigs[i] !== common);
+        return (
+          <td key={r.slug} className={`px-4 py-3 ${differs ? "bg-[var(--st-open-bg)]" : ""}`}>
+            {render(r)}
+            {differs ? <span className="sr-only"> (differs)</span> : null}
+          </td>
+        );
+      })}
+      {ctx.national && <td className="border-l border-edge px-4 py-3">{nat ?? <span className="text-fg-faint">—</span>}</td>}
     </tr>
   );
 }

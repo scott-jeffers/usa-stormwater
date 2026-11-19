@@ -1,3 +1,4 @@
+import { SearchMeta } from "@/components/SiteSearch";
 import type { Metadata } from "next";
 import Link from "next/link";
 import { pageMeta } from "@/lib/site";
@@ -9,7 +10,7 @@ import { inline } from "@/components/ManualText";
 import { STATE_CODE_TO_NAME } from "@/lib/usStates";
 
 export const metadata: Metadata = pageMeta(
-  "/national/model-manual/",
+  "/manual/evidence/",
   "Evidence for the model manual",
   "State-by-state, hand-checked evidence behind each number in the draft model stormwater manual, with agreement and climate tests."
 );
@@ -81,7 +82,7 @@ function EvidenceGroup({
   const sorted = [...crit].sort((a, b) => order.indexOf(a.key) - order.indexOf(b.key));
   return (
     <section id={id} className="scroll-mt-20 space-y-4">
-      <h2 className="font-display text-2xl font-semibold text-ink">{title}</h2>
+      <h2 className="text-2xl font-semibold text-ink">{title}</h2>
       <p className="text-sm leading-relaxed text-fg-secondary">{intro}</p>
       <div className="overflow-x-auto">
         <table className="data-table">
@@ -120,7 +121,7 @@ function EvidenceGroup({
         const cl = num ? clause.get(num) : undefined;
         return (
           <article key={c.key} id={c.key} className="scroll-mt-20 rounded-lg border border-edge bg-surface p-5">
-            <h3 className="font-display text-lg font-semibold text-ink">{c.label}</h3>
+            <h3 className="text-lg font-semibold text-ink">{c.label}</h3>
             {cl && (
               <p className="mt-2 leading-relaxed text-fg-secondary">
                 <Link href={`/manual/#${clauseId(cl.number)}`} className="font-semibold text-water-link hover:underline">
@@ -151,13 +152,14 @@ export default function ModelManualPage() {
   const escStates = new Set(escCrit.flatMap((c) => c.by_state.map((s) => s.state)));
   return (
     <main className="mx-auto max-w-3xl space-y-10">
+      <SearchMeta type="Model manual" />
       <header className="space-y-3">
         <p className="text-sm font-medium">
           <Link href="/manual/" className="text-water-link hover:underline">
             ← {manual.title}, {manual.version}
           </Link>
         </p>
-        <h1 className="font-display text-3xl font-semibold tracking-tight text-ink sm:text-4xl">
+        <h1 className="text-3xl font-semibold tracking-tight text-ink">
           Evidence for the model manual
         </h1>
         <p className="text-base leading-relaxed text-fg-secondary">

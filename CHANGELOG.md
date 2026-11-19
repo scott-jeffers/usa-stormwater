@@ -2,6 +2,21 @@
 
 Dataset versions use `YEAR.MONTH.PATCH`. The site always serves the latest version; the files listed on [/data/](https://www.stormwateratlas.com/data/) are rebuilt on every deploy.
 
+## Site redesign — 2026-11-19
+
+No data changed (dataset stays 2026.11.3); the site was rebuilt around three jobs: search, look up a requirement, find a jurisdiction.
+
+- **Search everywhere.** A search box in every page header (press `/`), with a full results page at /search/, built with Pagefind at deploy time. It covers requirements, jurisdictions, model-manual clauses and resources.
+- **Requirements** (new, /requirements/): one page per design value (24) with the most common value, median and range, a dot strip, a state map that filters the table, every manual's value with its quote, PDF page and check, and a CSV of the rows shown. National figures count each manual with its own rules once.
+- **Jurisdictions** (/jurisdictions/) replaces the 358-row home list: 50 rows a page, filters kept in the address so a view can be shared.
+- **Home** is now a search box, three starting points and a six-line summary (36 KB, down from 3.2 MB).
+- **Record pages** open with a requirement sheet: this manual's value beside the national most common value and the model-manual clause.
+- **Compare** marks values that differ, can hide rows where all agree, and adds a national column.
+- **Model manual**: find a clause by number or words; print or save as PDF. The evidence page moved to /manual/evidence/; the Markdown source is now /data/model-manual.md.
+- **Retired:** the /national/ practice-synthesis reader (machine-drafted sections and practice pages), superseded by the model manual and the requirement pages. Old addresses redirect (301). The JSON under /data/national/ is unchanged.
+- **Look:** flat surfaces, IBM Plex Sans with tabular numbers, two page widths, colour for links and data only, print stylesheet. The US map is served from the site instead of a CDN.
+- **Checks:** 43 scripted interaction tests pass on desktop and mobile; axe finds no violations (including target size) on 16 sampled pages; no broken internal links in 393 sitemap pages.
+
 ## 2026.11.3 — 2026-11-18
 
 **Design archive** (new, at /archive/)

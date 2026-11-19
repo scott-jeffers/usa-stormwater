@@ -93,7 +93,7 @@ npm run overnight:enrich
 # offline fallback: npx tsx scripts/pipeline/overnight-enrich.ts --heuristic
 ```
 
-Fills missing / stale (schema v1) / heuristic `design_parameters`, rebuilds bioretention + permeable pavement, writes `data/pipeline/OVERNIGHT.md`. Resume-safe. Morning: `/national/practices/bioretention/`, `/national/practices/permeable_pavement/`.
+Fills missing / stale (schema v1) / heuristic `design_parameters`, rebuilds bioretention + permeable pavement, writes `data/pipeline/OVERNIGHT.md`. Resume-safe.
 
 ### Full overnight go (the sleep command)
 
@@ -225,15 +225,15 @@ DOT manuals show an amber highway badge in the dashboard; filter with **Agency �
 
 Do not paste API keys into Netlify env settings for this project.
 
-## Dashboard features
+## Site
 
-- **Search** by jurisdiction name or document title.
-- **Filters** by jurisdiction level, agency (DOT / DEP·DEQ), state, confidence, and coverage basis.
-- **Coverage map** — clickable US map; city dots for municipalities with coords.
-- **Group by state** — flat table or state-grouped sections.
-- **Detail pages** — each field with verbatim evidence, source PDF / agency links, related manuals in-state.
-- **Compare** (`/compare/`) — up to four jurisdictions side by side, each value with its citation check; shareable via `?m=slug,slug`.
-- **Report an error** — every value links to a prefilled GitHub issue.
+- **Search** (`/search/`, and in every header; press `/`): Pagefind index built by `postbuild` (`pagefind --site out`). Pages mark their type with `SearchMeta` (`components/SiteSearch.tsx`); search works only on a built site, not `next dev`.
+- **Requirements** (`/requirements/`, `/requirements/{key}/`): one page per criterion in `lib/requirements.ts` (`CRITERIA`). Values come from record `design_parameters` plus `data/national/esc-checks.json`; national statistics count only `own` and `issuer` records.
+- **Jurisdictions** (`/jurisdictions/`): every record, 50 a page; filters live in the query string (`?state=PA&level=county&q=...`).
+- **Record pages** (`/{slug}/`): requirement sheet first, then the extracted design criteria with evidence.
+- **Compare** (`/compare/?m=slug,slug`): up to four, differences marked, national column.
+- **Model manual** (`/manual/`, evidence at `/manual/evidence/`), **Resources** (`/resources/`: data, archive, federal, about).
+- Retired `/national/*` URLs redirect in `netlify.toml`.
 
 ## Project structure
 
@@ -249,7 +249,7 @@ data/documents/         Committed JSON "database"
 data/queue/             Manifest, progress, NOTES for the scrub
 data/pipeline/          Automation progress.json + STATUS.md
 data/corpus/            Per-manual pages/chunks (gitignored)
-data/national/          Outline + draft sections
+data/national/          Model-manual evidence (hand checks, classification) + retired draft sections
 data/coverage/          Target jurisdictions + gap reports
 samples/                Local PDFs/text (gitignored)
 netlify.toml            Netlify build + publish config

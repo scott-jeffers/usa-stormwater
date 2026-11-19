@@ -19,9 +19,9 @@ export function inline(text: string, key = "i"): ReactNode[] {
       const href = m[5]!;
       out.push(
         href.startsWith("/") ? (
-          <Link key={k} href={href} className="text-water-link underline-offset-2 hover:underline">{m[4]}</Link>
+          <Link key={k} href={href} className="text-water-link underline underline-offset-2 hover:decoration-2">{m[4]}</Link>
         ) : (
-          <a key={k} href={href} className="text-water-link underline-offset-2 hover:underline">{m[4]}</a>
+          <a key={k} href={href} className="text-water-link underline underline-offset-2 hover:decoration-2">{m[4]}</a>
         )
       );
     }
@@ -31,12 +31,12 @@ export function inline(text: string, key = "i"): ReactNode[] {
   return out;
 }
 
-const TAG_STYLE: Record<string, string> = {
+export const TAG_STYLE: Record<string, string> = {
   Default: "status-neutral",
   Regional: "status-regional",
   Open: "status-open",
 };
-const GRADE_STYLE: Record<string, string> = {
+export const GRADE_STYLE: Record<string, string> = {
   E1: "status-strong",
   E2: "status-good",
   E3: "status-neutral",

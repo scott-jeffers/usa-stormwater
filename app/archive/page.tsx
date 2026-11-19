@@ -1,3 +1,4 @@
+import { SearchMeta } from "@/components/SiteSearch";
 import type { Metadata } from "next";
 import Link from "next/link";
 import { pageMeta } from "@/lib/site";
@@ -23,9 +24,10 @@ export default function ArchivePage() {
   const partA = libraries.filter((l) => l.part.includes("A"));
   const partB = libraries.filter((l) => l.part.includes("B") && !l.part.includes("A"));
   return (
-    <main className="space-y-12">
+    <main className="w-data mx-auto space-y-12">
+      <SearchMeta type="Resource" />
       <header className="max-w-3xl space-y-3">
-        <h1 className="font-display text-3xl font-semibold tracking-tight text-ink sm:text-4xl">Design archive</h1>
+        <h1 className="text-3xl font-semibold tracking-tight text-ink">Design archive</h1>
         <p className="text-base leading-relaxed text-fg-secondary">
           Standard drawings and worked designs from U.S. stormwater agencies, sorted by practice: {libraries.length} agency
           libraries of CAD and PDF details, {counts.drawings.toLocaleString()} drawings found in {counts.drawingManuals} atlas manuals,{" "}
@@ -44,13 +46,13 @@ export default function ArchivePage() {
       </header>
 
       <section id="libraries" className="scroll-mt-20 space-y-4">
-        <h2 className="font-display text-2xl font-semibold text-ink">Agency CAD and PDF libraries</h2>
+        <h2 className="text-2xl font-semibold text-ink">Agency CAD and PDF libraries</h2>
         {[
           { title: "Permanent practices", rows: partA },
           { title: "Construction erosion and sediment control", rows: partB },
         ].map((g) => (
           <div key={g.title} className="space-y-2">
-            <h3 className="font-display text-lg font-semibold text-ink">{g.title}</h3>
+            <h3 className="text-lg font-semibold text-ink">{g.title}</h3>
             <div className="overflow-x-auto">
               <table className="data-table">
                 <thead>
@@ -85,7 +87,7 @@ export default function ArchivePage() {
       </section>
 
       <section id="drawings" className="scroll-mt-20 space-y-3">
-        <h2 className="font-display text-2xl font-semibold text-ink">Drawings in the manuals</h2>
+        <h2 className="text-2xl font-semibold text-ink">Drawings in the manuals</h2>
         <p className="max-w-3xl text-sm text-fg-secondary">
           Typical sections, plans, profiles and details printed inside the atlas manuals. Each opens the source PDF at its page.
         </p>
@@ -93,7 +95,7 @@ export default function ArchivePage() {
       </section>
 
       <section id="examples" className="scroll-mt-20 space-y-3">
-        <h2 className="font-display text-2xl font-semibold text-ink">Worked examples and sample plans</h2>
+        <h2 className="text-2xl font-semibold text-ink">Worked examples and sample plans</h2>
         <p className="max-w-3xl text-sm text-fg-secondary">
           Step-by-step design calculations, sample plan sheets and plan-review checklists from the atlas manuals. Examples with no
           practice are tagged by topic (culverts, storm drains, hydrology and so on).

@@ -13,6 +13,8 @@ import {
   AgencyBadge,
 } from "@/components/Badge";
 import { FieldWithEvidence } from "@/components/FieldWithEvidence";
+import { RequirementSheet } from "@/components/RequirementSheet";
+import { SearchMeta } from "@/components/SiteSearch";
 import { getEvidenceQa } from "@/lib/qa/load";
 import { getSharedInfo, BASIS_LABELS } from "@/lib/sharedManuals";
 import { NUMERIC_PARAM_FIELDS } from "@/lib/practices/fields";
@@ -94,11 +96,11 @@ export default async function ManualDetailPage({
     return (
       <main className="space-y-6">
         <nav aria-label="Breadcrumb" className="text-sm text-fg-muted">
-          <Link href="/" className="font-medium text-water-link hover:text-water-deep hover:underline">
-            &larr; All manuals
+          <Link href="/jurisdictions/" className="font-medium text-water-link hover:underline">
+            Jurisdictions
           </Link>
         </nav>
-        <div className="rounded-xl border border-dashed border-edge-strong bg-surface p-10 text-center text-fg-muted">
+        <div className="rounded-md border border-dashed border-edge-strong bg-surface p-10 text-center text-fg-muted">
           No manuals ingested yet. Run{" "}
           <code className="rounded bg-surface-muted px-1.5 py-0.5">
             npm run ingest -- path/to/manual.pdf
@@ -200,17 +202,26 @@ export default async function ManualDetailPage({
     });
 
   return (
-    <main className="space-y-6">
+    <main className="w-data mx-auto space-y-8">
+      <SearchMeta type="Jurisdiction" />
       <nav aria-label="Breadcrumb" className="text-sm text-fg-muted">
-        <Link href="/" className="font-medium text-water-link hover:text-water-deep hover:underline">
-          &larr; All manuals
+        <Link href="/jurisdictions/" className="font-medium text-water-link hover:underline">
+          Jurisdictions
         </Link>
+        {meta.state_code ? (
+          <>
+            {" "}<span aria-hidden>/</span>{" "}
+            <Link href={`/jurisdictions/?state=${meta.state_code}`} className="font-medium text-water-link hover:underline">
+              {STATE_CODE_TO_NAME[meta.state_code] ?? meta.state_code}
+            </Link>
+          </>
+        ) : null}
       </nav>
 
-      <header className="overflow-hidden rounded-xl border border-edge/80 border-t-4 border-t-water bg-surface p-6 shadow-sm">
+      <header className="border-b border-edge pb-6">
         <div className="flex flex-wrap items-start justify-between gap-4">
           <div>
-            <h1 className="font-display text-2xl font-semibold tracking-tight text-ink sm:text-3xl">
+            <h1 className="text-3xl font-semibold tracking-tight text-ink">
               {meta.jurisdiction_name}
             </h1>
             <p className="mt-1 text-sm text-fg-secondary">
@@ -464,8 +475,10 @@ export default async function ManualDetailPage({
         )}
       </header>
 
-      <section className="rounded-xl border border-edge/80 bg-surface p-6 shadow-sm">
-        <h2 className="font-display text-lg font-semibold text-ink">Design Criteria</h2>
+      <RequirementSheet slugs={[slug, designSlug]} name={meta.jurisdiction_name} />
+
+      <section className="border-t border-edge pt-6">
+        <h2 className="text-lg font-semibold text-ink">Design criteria found in the manual</h2>
         {repManual && (
           <p className="mt-1 text-xs text-fg-muted">
             From the{" "}
@@ -528,8 +541,8 @@ export default async function ManualDetailPage({
       </section>
 
       {paramRows.length > 0 && (
-        <section className="rounded-xl border border-edge/80 bg-surface p-6 shadow-sm">
-          <h2 className="font-display text-lg font-semibold text-ink">Design Parameters</h2>
+        <section className="border-t border-edge pt-6">
+          <h2 className="text-lg font-semibold text-ink">Other design parameters</h2>
           <p className="mt-1 text-xs text-fg-muted">
             Numeric values extracted from the manual. Site-wide values (water-quality depth,
             drawdown, groundwater separation) size the whole site, not one practice.
@@ -550,8 +563,8 @@ export default async function ManualDetailPage({
       )}
 
       {storms.length > 0 && (
-        <section className="rounded-xl border border-edge/80 bg-surface p-6 shadow-sm">
-          <h2 className="font-display text-lg font-semibold text-ink">Design storms by purpose</h2>
+        <section className="border-t border-edge pt-6">
+          <h2 className="text-lg font-semibold text-ink">Design storms by purpose</h2>
           <p className="mt-1 text-xs text-fg-muted">
             What each named storm is used for, from the manual&rsquo;s own requirement sentences. Assigned automatically; check the quote.
           </p>
@@ -580,8 +593,8 @@ export default async function ManualDetailPage({
         </section>
       )}
 
-      <details className="group rounded-xl border border-edge/80 bg-surface p-6 shadow-sm">
-        <summary className="cursor-pointer list-none font-display text-lg font-semibold text-ink">
+      <details className="group rounded-md border border-edge bg-surface p-6">
+        <summary className="cursor-pointer list-none text-lg font-semibold text-ink">
           <span aria-hidden className="mr-2 inline-block transition-transform group-open:rotate-90">›</span>
           Document details
           <span className="ml-2 font-sans text-sm font-normal text-fg-subtle">level, edition, adoption date, relationship to the state manual</span>

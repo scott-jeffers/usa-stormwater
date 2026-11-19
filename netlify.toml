@@ -10,6 +10,31 @@
   # Do NOT set GEMINI_API_KEY (or any AI keys) here. The site is a static
   # export built from committed JSON in data/documents/ — no secrets needed.
 
+# Retired pages (2026-11 redesign): send old links somewhere useful.
+[[redirects]]
+  from = "/national/model-manual/*"
+  to = "/manual/evidence/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/national/practices/*"
+  to = "/requirements/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/national/*"
+  to = "/manual/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/national"
+  to = "/manual/"
+  status = 301
+  force = true
+
 # Pretty URLs for trailingSlash: true static export
 [[redirects]]
   from = "/*"

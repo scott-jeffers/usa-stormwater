@@ -1,18 +1,20 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { Fraunces, Source_Sans_3 } from "next/font/google";
+import { IBM_Plex_Mono, IBM_Plex_Sans } from "next/font/google";
 import { SiteHeader } from "@/components/SiteHeader";
 import { THEME_BOOT_SCRIPT } from "@/lib/theme";
 import "./globals.css";
 
-const display = Fraunces({
+const sans = IBM_Plex_Sans({
   subsets: ["latin"],
-  variable: "--font-fraunces",
+  weight: ["400", "500", "600", "700"],
+  variable: "--font-plex-sans",
 });
 
-const sans = Source_Sans_3({
+const mono = IBM_Plex_Mono({
   subsets: ["latin"],
-  variable: "--font-source-sans",
+  weight: ["400", "500"],
+  variable: "--font-plex-mono",
 });
 
 import { SITE_NAME, SITE_URL } from "@/lib/site";
@@ -48,7 +50,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${display.variable} ${sans.variable}`} suppressHydrationWarning>
+    <html lang="en" className={`${sans.variable} ${mono.variable}`} suppressHydrationWarning>
       <head>
         <script dangerouslySetInnerHTML={{ __html: THEME_BOOT_SCRIPT }} />
       </head>
@@ -61,7 +63,7 @@ export default function RootLayout({
         </a>
         <SiteHeader />
         <div className="mx-auto flex min-h-[calc(100vh-3.5rem)] max-w-6xl flex-col px-4 py-8 sm:px-6 lg:px-8">
-          <div id="content" className="flex-1">{children}</div>
+          <div id="content" data-pagefind-body className="flex-1">{children}</div>
           <Footer />
         </div>
       </body>
@@ -71,10 +73,10 @@ export default function RootLayout({
 
 function Footer() {
   return (
-    <footer className="mt-16 border-t border-edge/80 pt-6 pb-2 text-xs text-fg-subtle">
+    <footer data-pagefind-ignore="all" className="mt-16 border-t border-edge pt-6 pb-2 text-xs text-fg-subtle">
       <div className="flex flex-wrap items-center justify-between gap-2">
         <p>
-          <span className="font-display font-semibold text-fg-muted">
+          <span className="font-semibold text-fg-muted">
             Stormwater Atlas
           </span>{" "}
           — data extracted from public agency manuals for research reference

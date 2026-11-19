@@ -401,7 +401,7 @@ Some construction controls become permanent practices, so the two parts must be 
 
 The grade counts above are computed from this text. Every provision marked E0 is a placeholder for the committee.
 
-- **E1** state-level manuals whose values were read by hand against their source text: 249 values read, 216 kept, from 39 states ([hand-checks.json](https://github.com/scott-jeffers/usa-stormwater/blob/main/data/national/hand-checks.json); [classification](/national/model-manual/)).
+- **E1** state-level manuals whose values were read by hand against their source text: 249 values read, 216 kept, from 39 states ([hand-checks.json](https://github.com/scott-jeffers/usa-stormwater/blob/main/data/national/hand-checks.json); [classification](/manual/evidence/)).
 - **E2** values from all atlas manuals whose quote was found word-for-word in the source PDF. Numeric values were also read by hand against their quotes (data/qa/value-review.json); design-storm purposes are assigned automatically from requirement sentences (in a spot check of 30 storms, 21 got a purpose and 16 of those were right).
 - **E3** the number of the 253 distinct manuals whose text states the rule, by text search. This shows how common a rule is, not that the manual requires exactly that value.
 - **E0** common engineering practice with no atlas evidence yet.

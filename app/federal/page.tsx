@@ -1,3 +1,4 @@
+import { SearchMeta } from "@/components/SiteSearch";
 import { pageMeta } from "@/lib/site";
 import type { Metadata } from "next";
 import Link from "next/link";
@@ -12,14 +13,13 @@ export default function FederalIndexPage() {
     .sort((a, b) => a.document_title.localeCompare(b.document_title));
 
   return (
-    <main className="space-y-8">
+    <main className="w-data mx-auto space-y-8">
+      <SearchMeta type="Resource" />
       <div className="space-y-3">
         <p className="text-sm text-fg-muted">
-          <Link href="/" className="text-water-deep hover:underline">
-            ← All manuals
-          </Link>
+          <Link href="/resources/" className="text-water-link hover:underline">Resources</Link>
         </p>
-        <h1 className="font-display text-3xl font-semibold text-ink">
+        <h1 className="text-3xl font-semibold text-ink">
           Federal drainage guidance
         </h1>
         <p className="max-w-2xl text-fg-secondary">
@@ -31,11 +31,11 @@ export default function FederalIndexPage() {
       </div>
 
       {manuals.length === 0 ? (
-        <p className="rounded-xl border border-dashed border-edge-strong bg-surface p-8 text-fg-muted">
+        <p className="rounded-md border border-dashed border-edge-strong bg-surface p-8 text-fg-muted">
           No federal manuals ingested yet.
         </p>
       ) : (
-        <ul className="divide-y divide-edge rounded-xl border border-edge bg-surface">
+        <ul className="divide-y divide-edge rounded-md border border-edge bg-surface">
           {manuals.map((m) => (
             <li key={m.slug}>
               <Link

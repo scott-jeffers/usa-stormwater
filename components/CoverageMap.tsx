@@ -10,7 +10,7 @@ import {
 } from "react-simple-maps";
 import { FIPS_TO_STATE_CODE, STATE_CODE_TO_NAME } from "@/lib/usStates";
 
-const GEO_URL = "https://cdn.jsdelivr.net/npm/us-atlas@3/states-10m.json";
+const GEO_URL = "/geo/states-10m.json";
 
 const MAP_FILLS_LIGHT = {
   empty: "#e8eef2",
@@ -118,7 +118,7 @@ export function CoverageMap({
   const MAP_FILLS = dark ? MAP_FILLS_DARK : MAP_FILLS_LIGHT;
 
   return (
-    <div className="rounded-xl border border-edge/80 bg-surface p-3 shadow-sm sm:p-4">
+    <div className="rounded-md border border-edge bg-surface p-3 sm:p-4">
       <p className="mb-2 text-xs text-fg-muted">
         Click a state to filter the list. Click a pin (city, county, or district)
         to open that manual. The map stays at national scale.
@@ -310,7 +310,7 @@ export function CoverageMap({
           <button
             type="button"
             onClick={() => onSelectState(null)}
-            className="inline-flex h-9 shrink-0 items-center justify-center rounded-md border border-water/30 bg-surface px-3.5 text-sm font-medium text-water-link shadow-sm transition-colors hover:border-water hover:bg-mist hover:text-water-deep focus:outline-none focus:ring-2 focus:ring-water/20"
+            className="inline-flex h-9 shrink-0 items-center justify-center rounded-md border border-water/30 bg-surface px-3.5 text-sm font-medium text-water-link transition-colors hover:border-water hover:bg-mist hover:text-water-deep focus:outline-none focus:ring-2 focus:ring-water/20"
           >
             Clear map selection
           </button>
