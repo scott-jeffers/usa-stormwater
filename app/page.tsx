@@ -5,6 +5,9 @@ import { loadManual } from "@/lib/manual/parse";
 import { SiteSearch } from "@/components/SiteSearch";
 import { HomeMap, type MapLayer } from "@/components/HomeMap";
 import { DATASET_VERSION } from "@/lib/dataset";
+import { archiveCounts, loadLibraries, loadExternalPlans } from "@/lib/archive";
+
+const REPO = "https://github.com/scott-jeffers/usa-stormwater";
 
 const MAP_LAYERS: Array<[string, string]> = [
   ["wqv_depth_inches", "Water-quality depth"],
@@ -24,6 +27,9 @@ export default function HomePage() {
   const all = allRequirementValues();
   const nValues = [...all.values()].reduce((n, vs) => n + vs.length, 0);
   const manual = loadManual();
+  const arc = archiveCounts();
+  const libraries = loadLibraries().length;
+  const extPlans = loadExternalPlans().length;
 
   const coverage: Record<string, number> = {};
   for (const m of own) if (m.state_code) coverage[m.state_code] = (coverage[m.state_code] ?? 0) + 1;
@@ -62,12 +68,17 @@ export default function HomePage() {
 
   return (
     <main className="mx-auto max-w-6xl space-y-10">
-
       <div className="grid items-start gap-8 pt-2 sm:pt-6 lg:grid-cols-[minmax(0,5fr)_minmax(0,7fr)] lg:gap-10">
-        <section className="space-y-5 lg:pt-6">
-          <h1 className="text-3xl font-semibold tracking-tight text-ink sm:text-4xl lg:text-[2.5rem] lg:leading-tight">What does each U.S. stormwater manual actually require?</h1>
+        <section className="space-y-5 lg:pt-4">
+          <p className="text-sm font-semibold uppercase tracking-wide text-water-link">An open research project</p>
+          <h1 className="text-3xl font-semibold tracking-tight text-ink sm:text-4xl lg:text-[2.5rem] lg:leading-tight">
+            Every U.S. stormwater design manual, read and made searchable
+          </h1>
           <p className="text-lg text-fg-secondary">
-            Design values read from {sources} manuals in {states}, each with the sentence and page it came from, and a draft national model manual built on them.
+            Stormwater Atlas collects the country&rsquo;s stormwater design manuals and reads what each one actually requires: {sources} manuals across {states} so far, with every value tied to the sentence and PDF page it came from.
+          </p>
+          <p className="text-fg-secondary">
+            The goal is a shared, checkable record that engineers can use in design today, and a starting point for a conversation about a national stormwater standard.
           </p>
           <SiteSearch variant="hero" />
           <p className="text-sm text-fg-muted">
@@ -77,17 +88,53 @@ export default function HomePage() {
         <HomeMap layers={layers} />
       </div>
 
-      <section aria-label="Start" className="grid gap-px overflow-hidden rounded-md border border-edge bg-edge md:grid-cols-3">
-        {[
-          { href: "/requirements/", h: "Look up a requirement", p: "One page per design value: the national range, the most common value, a map, and every manual's quote." },
-          { href: "/jurisdictions/", h: "Find a jurisdiction", p: "Every federal, state, county and city manual, with its requirements and a link to the PDF." },
-          { href: "/manual/", h: "Read the model manual", p: `${manual.version}: ${manual.clauses.length} clauses, each graded by how much evidence stands behind it.` },
-        ].map((t) => (
-          <Link key={t.href} href={t.href} className="group bg-surface p-5 hover:bg-surface-muted">
-            <h2 className="font-semibold text-water-link group-hover:underline">{t.h} →</h2>
-            <p className="mt-1.5 text-sm text-fg-secondary">{t.p}</p>
-          </Link>
-        ))}
+      <section aria-labelledby="aims" className="space-y-4">
+        <h2 id="aims" className="text-lg font-semibold text-ink">What the project does</h2>
+        <ol className="grid gap-px overflow-hidden rounded-md border border-edge bg-edge md:grid-cols-2 lg:grid-cols-4">
+          {[
+            {
+              n: "1",
+              h: "A database of manuals",
+              p: `${manuals.length} federal, state, county and city jurisdictions, with ${nValues.toLocaleString("en-US")} design values read from their manuals. Each value carries its quote, its page and whether it was checked against the PDF.`,
+              links: [["/requirements/", "Requirements"], ["/jurisdictions/", "Jurisdictions"], ["/compare/", "Compare"]],
+            },
+            {
+              n: "2",
+              h: "Links for design work",
+              p: `Where to find the drawings and examples behind the rules: ${libraries} standard-detail libraries, ${arc.drawings} drawings, and ${arc.examples + arc.plans + extPlans} worked examples and sample plans from public agencies.`,
+              links: [["/archive/", "Design archive"]],
+            },
+            {
+              n: "3",
+              h: "Open data and an API",
+              p: "Everything is published as CSV and JSON at stable addresses, with no key or account, under CC BY 4.0, for spreadsheets, scripts, research and other tools.",
+              links: [["/data/", "Data and API"], ["/data/values.csv", "values.csv"]],
+            },
+            {
+              n: "4",
+              h: "Toward a national standard",
+              p: `A draft model manual (${manual.clauses.length} clauses) built from what the manuals agree on, with each number graded by how much evidence supports it. It is published for review and comment.`,
+              links: [["/manual/", "Model manual"], ["/manual/evidence/", "Evidence"], [`${REPO}/issues`, "Comment on GitHub"]],
+            },
+          ].map((a) => (
+            <li key={a.n} className="flex flex-col bg-surface p-5">
+              <span className="num text-sm font-semibold text-fg-faint">{a.n}</span>
+              <h3 className="mt-1 font-semibold text-ink">{a.h}</h3>
+              <p className="mt-1.5 flex-1 text-sm text-fg-secondary">{a.p}</p>
+              <p className="mt-3 flex flex-wrap gap-x-4 gap-y-1 text-sm">
+                {a.links.map(([href, label]) => (
+                  <a key={href} href={href} className="font-medium text-water-link">
+                    {label} →
+                  </a>
+                ))}
+              </p>
+            </li>
+          ))}
+        </ol>
+        <p className="text-sm text-fg-muted">
+          This is research, not regulation. Values are read from published documents and may be out of date or misread; confirm against the agency&rsquo;s current manual before using one in design, and{" "}
+          <a href={`${REPO}/issues/new`} className="text-water-link">report anything wrong</a>.
+        </p>
       </section>
 
       <section aria-labelledby="glance" className="space-y-3">
@@ -122,20 +169,6 @@ export default function HomePage() {
         <p className="text-sm"><Link href="/requirements/" className="font-medium text-water-link hover:underline">All {CRITERIA.length} requirements →</Link></p>
       </section>
 
-      <section className="grid gap-6 border-t border-edge pt-8 text-sm sm:grid-cols-3">
-        <div>
-          <h2 className="font-semibold text-ink"><Link href="/compare/" className="text-water-link hover:underline">Compare</Link></h2>
-          <p className="mt-1 text-fg-secondary">Put up to four jurisdictions side by side; differences are highlighted.</p>
-        </div>
-        <div>
-          <h2 className="font-semibold text-ink"><Link href="/data/" className="text-water-link hover:underline">Open data</Link></h2>
-          <p className="mt-1 text-fg-secondary">Every value as CSV and JSON, with a data dictionary and citation file.</p>
-        </div>
-        <div>
-          <h2 className="font-semibold text-ink"><Link href="/archive/" className="text-water-link hover:underline">Design archive</Link></h2>
-          <p className="mt-1 text-fg-secondary">Standard detail libraries, drawings and worked examples from public agencies.</p>
-        </div>
-      </section>
     </main>
   );
 }
