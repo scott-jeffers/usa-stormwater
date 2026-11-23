@@ -104,7 +104,7 @@ export function ManualBlock({ b, k }: { b: Block; k: string }) {
     }
     case "table":
       return (
-        <div className="overflow-x-auto">
+        <div className="overflow-x-auto" tabIndex={0}>
           <table className="data-table">
             <thead>
               <tr>{b.head.map((h, i) => <th key={i}>{inline(h, `${k}-h${i}`)}</th>)}</tr>
@@ -118,7 +118,7 @@ export function ManualBlock({ b, k }: { b: Block; k: string }) {
         </div>
       );
     case "code":
-      return <pre className="overflow-x-auto rounded-md bg-surface-muted px-4 py-3 font-mono text-sm text-foreground">{b.text}</pre>;
+      return <pre tabIndex={0} className="overflow-x-auto rounded-md bg-surface-muted px-4 py-3 font-mono text-sm text-foreground">{b.text}</pre>;
     case "why":
       return (
         <p className="why">

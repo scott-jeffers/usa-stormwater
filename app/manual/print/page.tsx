@@ -67,7 +67,7 @@ export default function ManualPrintPage() {
             <p><strong>How provisions are tagged.</strong></p>
             <div className="legend">
               <span className="status-chip">Default</span><span>A national value. Use it unless a regional adjustment applies.</span>
-              <span className="status-chip status-regional">Regional</span><span>A value a state may replace for its climate (Section 10).</span>
+              <span className="status-chip status-regional">Regional</span><span>A value a state may replace for its climate (Section 11).</span>
               <span className="status-chip status-open">Open</span><span>A value the committee must still choose; the draft gives a starting value.</span>
               {(["E1", "E2", "E3", "E0"] as const).map((g) => (
                 <span key={g} style={{ display: "contents" }}>

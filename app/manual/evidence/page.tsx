@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { pageMeta } from "@/lib/site";
 import { ValueStrip, withUnit } from "@/components/ValueStrip";
-import { CLASS_LABELS, CRITERION_CLAUSE, DET_CRITERION_CLAUSE, ESC_CRITERION_CLAUSE, loadCriteria, loadDetCriteria, loadEscCriteria, type CriterionEvidence } from "@/lib/national/modelManual";
+import { CLASS_LABELS, CONV_CRITERION_CLAUSE, CRITERION_CLAUSE, DET_CRITERION_CLAUSE, ESC_CRITERION_CLAUSE, loadConvCriteria, loadCriteria, loadDetCriteria, loadEscCriteria, type CriterionEvidence } from "@/lib/national/modelManual";
 import type { Clause } from "@/lib/manual/parse";
 import { clauseId, loadManual } from "@/lib/manual/parse";
 import { inline } from "@/components/ManualText";
@@ -147,6 +147,8 @@ export default function ModelManualPage() {
   const det = loadDetCriteria();
   const detCrit = det?.criteria ?? [];
   const detStates = new Set(detCrit.flatMap((c) => c.by_state.map((s) => s.state)));
+  const convCrit = loadConvCriteria()?.criteria ?? [];
+  const convStates = new Set(convCrit.flatMap((c) => c.by_state.map((s) => s.state)));
   const manual = loadManual();
   const clause = new Map(manual.clauses.map((c) => [c.number, c]));
   const crit = data?.criteria ?? [];
@@ -177,6 +179,8 @@ export default function ModelManualPage() {
           {" · "}
           <a href="#detention" className="text-water-link hover:underline">Detention, outlets and spillways</a>
           {" · "}
+          <a href="#conveyance" className="text-water-link hover:underline">Conveyance</a>
+          {" · "}
           <a href="#part-b" className="text-water-link hover:underline">Part B: construction erosion and sediment control</a>
         </p>
         {data && (
@@ -204,6 +208,14 @@ export default function ModelManualPage() {
         clause={clause}
       />
       <EvidenceGroup
+        id="conveyance"
+        title="Conveyance: storm drains, inlets, culverts and channels (Section 8)"
+        intro={`State, local and federal manuals read by hand: ${convCrit.length} criteria, ${convStates.size} states. Much of this evidence comes from state DOT drainage manuals. One value per state is the median of its manuals; federal manuals are listed in the data but not counted as a state.`}
+        crit={convCrit}
+        clauseMap={CONV_CRITERION_CLAUSE}
+        clause={clause}
+      />
+      <EvidenceGroup
         id="part-b"
         title="Part B: construction erosion and sediment control"
         intro={`State and local manuals read by hand (many states publish construction handbooks separately): ${escCrit.length} criteria, ${escStates.size} states. One value per state is the median of its manuals.`}
@@ -221,7 +233,9 @@ export default function ModelManualPage() {
         {" · "}
         <a href="/data/esc-checks.csv" className="text-water-link hover:underline">esc-checks.csv</a>
         {" · "}
-        <a href="/data/det-checks.csv" className="text-water-link hover:underline">det-checks.csv</a> · rebuilt with{" "}
+        <a href="/data/det-checks.csv" className="text-water-link hover:underline">det-checks.csv</a>
+        {" · "}
+        <a href="/data/conv-checks.csv" className="text-water-link hover:underline">conv-checks.csv</a> · rebuilt with{" "}
         <code className="rounded bg-surface-muted px-1">npm run national:classify</code>.
       </p>
     </main>

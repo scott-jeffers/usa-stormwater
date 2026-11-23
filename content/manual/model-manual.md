@@ -1,6 +1,6 @@
 ---
 title: Model Stormwater Design Manual
-version: Public Review Draft 0.5
+version: Public Review Draft 0.6
 date: 2026-11-24
 status: Draft for committee review. Not adopted by any agency.
 ---
@@ -12,7 +12,7 @@ This is a complete draft of a voluntary model manual that a state could adopt by
 Each provision is numbered (for example **3.2.1**) and tagged with what kind of choice it is:
 
 - **[Default]** a national value. Use it unless a regional adjustment applies.
-- **[Regional]** a value a state may replace for its climate (Section 10).
+- **[Regional]** a value a state may replace for its climate (Section 11).
 - **[Open]** a value the committee must still choose. The draft gives a starting value and the question.
 
 Each provision also carries an evidence grade, explained in Appendix A:
@@ -24,9 +24,11 @@ Each provision also carries an evidence grade, explained in Appendix A:
 
 "Shall" marks a requirement and "should" a recommendation. Where a permit, TMDL or local rule is stricter, it controls.
 
+**Changes in Draft 0.6.** Adds Section 8, conveyance: design storms for storm drains, inlets, culverts and channels (8.1), gutter spread and inlets (8.2), storm drain pipes (8.3), the hydraulic grade line by the FHWA access-hole method (8.4), culverts (8.5), open channels (8.6) and outfalls (8.7). Its numbers come from 379 values read by hand in 119 manuals across 44 states. Adds Appendix D, a worked storm drain, culvert and channel design, which the site's hydraulics calculator reproduces. Former Sections 8–16 are now 9–17.
+
 **Changes in Draft 0.5.** Rewrites Section 7 as a full detention standard: what detention must achieve and against what baseline (7.2), downstream analysis (7.3), sizing and routing (7.4), multi-stage outlets and barrels (7.5), the orifice and weir equations and coefficients (7.6–7.7), emergency spillways (7.8), basin geometry (7.9) and underground and parking-lot storage (7.10). Its numbers come from 309 values read by hand in 135 manuals across 45 states and DC. Adds Appendix C, a worked detention design checked by routing, which the site's detention calculator reproduces.
 
-**Changes in Draft 0.4.** Adds Part B, construction-phase erosion and sediment control (Sections 12–16). Its numbers come from 154 values read by hand in 68 state and local manuals across 33 states, set against the federal construction permit, which every site of 1 acre or more must already meet.
+**Changes in Draft 0.4.** Adds Part B, construction-phase erosion and sediment control (Sections 13–17). Its numbers come from 154 values read by hand in 68 state and local manuals across 33 states, set against the federal construction permit, which every site of 1 acre or more must already meet.
 
 **Changes in Draft 0.3.** Every numeric value in the atlas (1,107) was read by hand against its source quote and labelled as a minimum, maximum or design value; 48 values were corrected and 52 removed (for example, construction sediment basins and pond maintenance drains that had been read as design rules). The atlas now records what each design storm is for, which settles most of the design-storm evidence in 3.4–3.6. Water-quality depths stated as runoff rather than rainfall are now counted separately (3.2). With the corrected values, maximum drawdown again shows a suggestive regional pattern (6.0.1).
 
@@ -34,7 +36,7 @@ Each provision also carries an evidence grade, explained in Appendix A:
 
 ## 1 Purpose, scope and applicability
 
-This manual sets minimum design standards for permanent stormwater management on new development and redevelopment (Part A, Sections 1–11) and for erosion and sediment control while sites are under construction (Part B, Sections 12–16).
+This manual sets minimum design standards for permanent stormwater management on new development and redevelopment (Part A, Sections 1–12) and for erosion and sediment control while sites are under construction (Part B, Sections 13–17).
 
 **1.1 Purpose.** Protect water quality, stream channels and property from the effects of development, using consistent criteria that designers can apply across state lines.
 
@@ -53,7 +55,7 @@ This manual sets minimum design standards for permanent stormwater management on
 - routine maintenance that keeps the original line, grade and hydraulic capacity, or
 - emergency work, which must be brought into compliance once the emergency ends.
 
-**1.5 Relationship to other requirements.** Where an NPDES permit, TMDL, state rule or local ordinance is stricter, the stricter requirement controls. This manual does not cover conveyance design (see ANSI/ASCE/EWRI 45-16). Part B (Sections 12–16) covers erosion and sediment control during construction.
+**1.5 Relationship to other requirements.** Where an NPDES permit, TMDL, state rule or local ordinance is stricter, the stricter requirement controls. Section 8 sets conveyance standards for storm drains, inlets, culverts and channels; ANSI/ASCE/EWRI 45-16 remains a reference for storm sewer design. Part B (Sections 13–17) covers erosion and sediment control during construction.
 
 ## 2 Definitions
 
@@ -81,7 +83,7 @@ Seven standards apply together. A site meets them in order of preference: retain
 
 > Why: 1.0 in is the most common single value and sits near the 90th-percentile daily rainfall across much of the humid East. States that use another value mostly sit between 0.8 and 1.25 in. Stating the depth as rainfall, not runoff, lets the volume scale with how much of the site is paved (4.2).
 
-- **3.2.1** [Regional] A state may instead adopt a documented 90th-percentile rainfall depth for its climate (Section 10). Connecticut (1.3 in), New York (1.2 in) and Iowa (1.25 in) already do.
+- **3.2.1** [Regional] A state may instead adopt a documented 90th-percentile rainfall depth for its climate (Section 11). Connecticut (1.3 in), New York (1.2 in) and Iowa (1.25 in) already do.
 
 **3.3 Treatment of the WQv not retained.** [Default, E1] Remove at least **80% of total suspended solids** (TSS) on an average annual basis (16 of 20 states read by hand; the rest require 85–90%). Use a practice from Section 6 sized for the full WQv, or a verified MTD (6.11).
 
@@ -166,7 +168,7 @@ Each practice below may count toward 3.1–3.3 when designed to these minimums. 
 
 **6.0 Rules for every practice.**
 
-- **6.0.1 Maximum drawdown.** [Open, Regional, E1] Practices that hold water after a storm shall drain within **72 hours** (12 of 27 states read by hand). *Open question:* 10 states use 48 hours, most of them in the Northeast (median 48 h), while the arid Southwest and West allow 72–96 h. That regional pattern is suggestive only (p = 0.09) and has moved with each round of corrections (p = 0.05, 0.36, 0.09), so this draft keeps one national value and lets a state in the arid West adopt up to 96 h (10.4).
+- **6.0.1 Maximum drawdown.** [Open, Regional, E1] Practices that hold water after a storm shall drain within **72 hours** (12 of 27 states read by hand). *Open question:* 10 states use 48 hours, most of them in the Northeast (median 48 h), while the arid Southwest and West allow 72–96 h. That regional pattern is suggestive only (p = 0.09) and has moved with each round of corrections (p = 0.05, 0.36, 0.09), so this draft keeps one national value and lets a state in the arid West adopt up to 96 h (11.4).
 - **6.0.2 Pretreatment.** [Default] Every practice shall have pretreatment as set out in Section 7.
 - **6.0.3 Overflow.** [Default] Every practice shall have an overflow that passes the 10-year storm without damage, and a safe path for the 100-year storm (3.6).
 
@@ -333,146 +335,242 @@ where Q is the discharge (cfs), A the orifice area (sf), g = 32.2 ft/s², and h 
 
 > Why (Section 7): most manuals agree on the safety numbers (100-year spillway, 1 ft freeboard, 10% downstream point) and disagree on the hydraulics only in the details. The outlet and weir equations above are the ones in HEC-22 and in nearly every state manual that gives them, so a designer working in any state uses the same calculations.
 
-## 8 Construction, inspection and maintenance
+## 8 Conveyance: storm drains, inlets, culverts and channels
+
+Conveyance carries runoff from where it lands to where it is released: gutters and inlets collect it, storm drains and culverts carry it under streets and embankments, and open channels carry it on the surface. This section sets the storms each part is sized for, the limits it must meet, and the methods used to show it does. It applies to new and replaced public conveyance and to private conveyance that serves more than one lot or crosses a public right-of-way.
+
+Every system has two parts. The **minor system** (gutters, inlets, pipes and small channels) carries the design storms of 8.1.1–8.1.5 without surcharge or nuisance flooding. The **major system** (streets, swales, overflow paths and the minor system together) carries the 100-year storm without flooding buildings. Both are designed; the major system is not whatever happens when the minor system is full.
+
+Its numbers come from 379 values read by hand in 119 state, local and federal manuals: 116 from 44 states and three FHWA manuals (Appendix A). One value per state is counted. The methods are those of FHWA HEC-22 (*Urban Drainage Design Manual*, 4th edition, 2024) and HDS-5 (*Hydraulic Design of Highway Culverts*, 3rd edition, 2012), which nearly every manual in the atlas cites. The atlas's [hydraulics calculator](/tools/hydraulics/) applies this section and reproduces the worked example in Appendix D.
+
+**8.1 Design storms.** [Default, E1]
+
+- **8.1.1 Storm drains and inlets.** [Default, E1] Size storm drains to carry the **10-year** peak flow within the HGL limit of 8.4.3, and size inlets so that gutter spread for the **10-year** storm stays within 8.2.1 (storm drains: 15 of 25 states; inlets and spread: 7 of 11 states). Four states use 5 years (some only on residential streets) and six use 25 years or more.
+- **8.1.2 Sag points.** [Default, E0] Where water can leave a low point only through the storm drain (a depressed roadway or underpass, or a sag with no overflow path), size the inlets and the pipe leaving the sag for the **50-year** storm, as HEC-22 9.2.1 recommends and the Alabama, Georgia, Delaware, Maryland, Illinois and Mississippi DOT manuals require.
+- **8.1.3 Major system.** [Default, E0] Show a continuous overflow path for the **100-year** storm from every sag and every inlet to a receiving water, in streets, swales or easements, that floods no building and keeps the depth in streets at or below the top of curb, with at least one lane free of water on arterials. Where no surface path is possible, the minor system shall carry the 100-year storm.
+- **8.1.4 Culverts.** [Open, E1] Size culverts under local and collector roads for the **25-year** storm and under arterials and freeways for the **50-year** storm, within the headwater limits of 8.5.2, and check the **100-year** storm for building flooding and road overtopping. *Open question:* states split three ways: of 18, five use 10 years, five use 25 years and five use 100 years. The draft takes the middle value and makes the 100-year check universal.
+- **8.1.5 Open channels.** [Default, E1] Size constructed channels for the **10-year** storm with the freeboard of 8.6.2 (11 of 18 states). A channel that is part of the major system, or that drains more than one development, shall carry the **100-year** storm within its easement (4 states use 100 years for all channels).
+
+> Why (8.1.1): a 10-year minor system is the most common standard by a wide margin, and HEC-22 9.2.1 calls it the usual minimum. What protects people and buildings from larger storms is the overflow path of 8.1.3, which costs little when it is planned with the street grades and a great deal when it is not.
+
+**8.2 Gutter spread and inlets.** [Default]
+
+- **8.2.1 Allowable spread.** [Open, E0] For the design storm of 8.1.1, spread beyond the parking lane or shoulder shall not exceed **half of one driving lane** on local streets and on collectors with design speeds under 45 mph, and **3 ft** on arterials under 45 mph; on roads designed for 45 mph or more, spread shall stay within the shoulder. These are the limits of HEC-22 Table 5.1, and they apply at sags to the storm of 8.1.2. *Open question:* manuals state spread limits in too many forms (by lane, by width, by depth at the curb) for the atlas to compare them yet.
+- **8.2.2 Gutter flow.** [Default] Compute gutter flow and spread with HEC-22 equations 5.2 to 5.8 (Izzard's modification of Manning's equation) with Manning's n from HEC-22 Table 5.3 (0.016 for asphalt or concrete pavement with a concrete gutter is typical):
+
+```
+Uniform gutter (HEC-22 eq. 5.2):
+  Q = (0.56 / n) · Sx^1.67 · SL^0.5 · T^2.67
+Share of flow over width W (eq. 5.7):
+  Eo = 1 / {1 + (Sw/Sx) / [(1 + (Sw/Sx)/(T/W − 1))^2.67 − 1]}
+```
+
+where Q is the gutter flow (cfs), T the spread (ft), Sx the cross slope, SL the longitudinal slope, W the width of a depressed gutter (ft) and Sw its cross slope (Sx + a/W for a depression a).
+- **8.2.3 Inlets on grade.** [Default] Compute interception with HEC-22 equations 7.3 to 7.13: for grates, frontal and side flow efficiency with the grate's splash-over velocity from HEC-22 Figure 7.8; for curb openings, `LT = 0.6 Q^0.42 SL^0.3 (1/(n Se))^0.6` and `E = 1 − (1 − L/LT)^1.8`. Carry each inlet's bypass to the next inlet downstream and add it to that inlet's flow. Locate inlets so the spread limit of 8.2.1 is met at each one.
+- **8.2.4 Inlets in sags.** [Default, E0] Compute sag inlets as weirs at low depth and orifices at greater depth (HEC-22 equations 7.14–7.21), and use the greater of the two depths. Assume grates in sags are **50% clogged**, and curb openings 10% clogged, unless a combination inlet's curb opening alone carries the flow. Provide flanking inlets on both sides of a sag on any street where ponding would reach a travel lane.
+- **8.2.5 Safety.** [Default, E0] Use bicycle-safe grates wherever bicycles may travel, and avoid grates in crosswalks and pedestrian routes.
+
+> Why (8.2.4): sag inlets fail by clogging, and when they fail all the water that reaches them stays in the street. HEC-22's own sag example assumes 50%, and so do the manuals of Arlington (Texas), Aurora, Frankfort and Lexington for low-point inlets.
+
+**8.3 Storm drain pipes.** [Default, E1]
+
+- **8.3.1 Minimum diameter.** [Open, E1] Public storm drains shall be at least **15 in** in diameter; inlet leads shorter than 50 ft may be **12 in**. *Open question:* 8 of 22 states require 12 in, 6 require 15 in and 7 require 18 in (Houston 24 in). The draft takes the median.
+- **8.3.2 Capacity.** [Default, E1 (thin)] Size pipes with Manning's equation for full flow, `Q = (0.463/n) · D^2.67 · S^0.5` (HEC-22 eq. 9.2, D in ft), using **n = 0.013** for concrete and smooth-interior plastic pipe and 0.024 for 2⅔ × ½ in corrugated metal. The pipe may run partly full or surcharged only as the HGL of 8.4 allows. *Evidence:* only six states give a design n for concrete pipe: four use 0.012 and two 0.013. HEC-22's worked examples use 0.013, which allows for joints, structures and aging.
+- **8.3.3 Minimum velocity.** [Default, E1] Each pipe shall reach at least **3 ft/s** flowing full (or at the design flow) so that it cleans itself (16 of 33 states; 10 use 2.5 ft/s). Where the grade cannot give 3 ft/s, the reviewing agency may accept **2.5 ft/s**.
+- **8.3.4 Maximum velocity.** [Open, E1] Velocity at the design flow shall not exceed **15 ft/s** in concrete pipe, or the manufacturer's limit for other materials if lower, unless the pipe is designed for abrasion and the outlet has an energy dissipator (8.7). *Open question:* states range from 8 to 20 ft/s; 6 of 21 use 10 ft/s, 5 use 15 and 5 use 20.
+- **8.3.5 Minimum cover.** [Open, E1] Provide at least **2 ft** of cover from finished grade to the outside crown, or the manufacturer's minimum for the design live load if greater. Less cover, to an absolute minimum of 1 ft below the pavement subgrade, needs a structural design. *Open question:* states range from 1 to 4 ft. Six use 1 ft, five of them DOT manuals measuring below the pavement subgrade, and four use 2 ft, all city or county manuals measuring from finished grade: the two are not the same measurement.
+- **8.3.6 Alignment and size.** [Default, E0] Lay pipes straight between structures. Do not decrease pipe size downstream, even where a smaller pipe would carry the flow, so debris that enters a pipe can pass through it. Where pipe size increases at a structure, match the crowns or the 0.8-diameter points, and drop the outlet invert at each structure by at least the loss of HEC-22 equation 9.10.
+- **8.3.7 Access structures.** [Open, E1] Provide a manhole, inlet or junction box at every change in size, slope or direction, at every junction, and at intervals of no more than **300 ft** for pipes smaller than 36 in and **500 ft** for larger pipes. *Open question:* 7 of 16 states use 300 ft; three use 400 ft and the rest range from 250 to 500 ft, most of them longer for larger pipes.
+
+> Why (8.3.3): sediment that settles in a storm drain reduces its capacity a little more after every storm. Three feet per second flowing full is the velocity HEC-22 recommends and the one the largest group of states requires.
+
+**8.4 Hydraulic grade line.** [Default]
+
+- **8.4.1 Method.** [Default, E0] Compute the energy and hydraulic grade lines for the design storm from the outfall upstream: friction losses with HEC-22 equation 9.4, the outfall's exit loss with equation 9.5, bends with equation 9.6, and the losses in each access hole and inlet with the FHWA access-hole method of HEC-22 section 9.1.6.7 (equations 9.13–9.31), which accounts for benching, angled inflows and plunging flow. HEC-22's approximate method (`H = K V²/2g`) may be used for preliminary layout only. At the downstream end of each pipe use HEC-22 Table 9.6, and in partly full pipes compute the water surface profile.
+- **8.4.2 Tailwater.** [Default, E0] At the outfall, start from the water surface of the receiving water for a storm whose frequency is consistent with the design storm (FHWA HEC-19 gives coincident frequencies for a storm drain and its receiving stream), or from the outlet pipe's critical depth where the outfall is free.
+- **8.4.3 Clearance.** [Default, E1] For the design storm, the energy level in every structure (EGLa, HEC-22 eq. 9.29, used as its water level) shall stay at least **1 ft** below the rim, grate or curb-inlet opening, and below the ground surface over the pipe (11 of 14 states).
+- **8.4.4 Check storm.** [Default, E0] For the 100-year storm (or the 50-year storm at sags under 8.1.2), the HGL may reach the rim only where the overflow it releases follows the path of 8.1.3.
+
+```
+Friction (eq. 9.4):
+  Hf  = L · [Q n / (1.486 A R^0.67)]²
+Access hole (eq. 9.13–9.18):
+  DI  = Q / (A √(g D))
+  Eai = max(Ei + 0.2 V²/2g,  D·DI²,  1.6 D·DI^0.67)
+Benching, angled and plunging inflow (eq. 9.27):
+  Ea  = Eai + (Eai − Ei)(CB + Cθ + CP)
+```
+
+> Why (8.4.1): energy lost in access holes is often larger than the friction in the pipes between them, and the simple coefficient methods misjudge it most where it matters: at junctions, bends and drops. FHWA's laboratory method fixes this and can still be checked by hand, as Appendix D shows.
+
+**8.5 Culverts.** [Default]
+
+- **8.5.1 Method.** [Default, E0] Compute headwater for both inlet control and outlet control and use the higher (HDS-5), with the HDS-5 inlet-control equations and coefficients for the inlet type (Appendix A of HDS-5) or the FHWA HY-8 program. Outlet control is `HW = ho + [1 + ke + 29 n² L / R^1.33] V²/2g − S L`, with ho the greater of the tailwater depth and (dc + D)/2.
+- **8.5.2 Allowable headwater.** [Default, E1] At the design storm of 8.1.4, headwater shall not exceed **1.5 times the culvert rise** (HW/D ≤ 1.5; 10 of 13 states), shall stay below the edge of the road shoulder, and shall not raise water on another property above what that property can safely accept. Culverts larger than 30 sq ft in area should be held to HW/D ≤ 1.2, as Pennsylvania and Flagstaff require.
+- **8.5.3 Minimum diameter.** [Default, E1] Culverts under public roads shall be at least **18 in** in diameter (10 of 22 states; six use 24 in). Driveway culverts may be 15 in.
+- **8.5.4 Outlet velocity.** [Default, E0] Where the culvert's outlet velocity exceeds what the downstream channel can withstand, provide outlet protection or an energy dissipator designed with FHWA HEC-14 (8.7).
+- **8.5.5 Streams and debris.** [Default, E0] Culverts in streams that support fish or other aquatic organisms shall meet the state's passage requirements, which may govern size. Where debris is expected, size for partial blockage or provide debris control (FHWA HEC-9).
+
+```
+Inlet control, submerged (Q/(A D^0.5) ≥ 4.0; HDS-5 eq. A.3):
+  HW/D = c [Q/(A D^0.5)]² + Y − 0.5 S
+Inlet control, unsubmerged (≤ 3.5, form 1; interpolate between):
+  HW/D = Hc/D + K [Q/(A D^0.5)]^M − 0.5 S
+```
+
+> Why (8.5.2): an HW/D of 1.5 keeps a culvert out of deep pressure flow at its design storm and leaves headroom for the larger storm, and it is the value that most manuals that state a ratio have chosen.
+
+**8.6 Open channels.** [Default]
+
+- **8.6.1 Capacity.** [Default] Compute normal depth with Manning's equation and Manning's n for the channel lining as maintained, not as built (HDS-4 or HEC-15 tables). Check critical depth; where the Froude number of the design flow is between 0.8 and 1.2, change the section or slope, because flow near critical depth is unstable.
+- **8.6.2 Freeboard.** [Default, E1] Provide at least **1 ft** of freeboard above the design water surface (7 of 10 states), or 0.5 ft for channels carrying less than 10 cfs. At bends, add the superelevation of the water surface.
+- **8.6.3 Lining.** [Default, E0] Size the lining so the design shear stress, `τ = 62.4 · d · S` (lb/sq ft, d the maximum depth in ft), does not exceed the lining's permissible shear from FHWA HEC-15 or the product's tested value.
+- **8.6.4 Side slopes and access.** [Default, E0] Mowed grass channels shall have side slopes of 3:1 or flatter, and every channel shall have maintenance access along its length.
+
+**8.7 Outfalls and energy dissipation.** [Default, E0] At every outfall, compare the exit velocity with the permissible velocity of the receiving channel and provide riprap aprons, stilling basins or other dissipators designed with FHWA HEC-14 where it is exceeded. Outfalls to streams shall not be placed where they direct flow into the opposite bank.
+
+> Why (8.7): an outfall is where a well-designed system most often does its damage, by eroding the stream it discharges to. HEC-14 sizes the protection from the exit velocity and the tailwater, both of which the calculations above already produce.
+
+## 9 Construction, inspection and maintenance
 
 A practice only works if it is built as designed and kept working.
 
-**8.1 Protection during construction.** [Default, E0] Keep construction traffic and sediment off infiltration areas. Do not build infiltrating practices until the contributing area is stabilized.
+**9.1 Protection during construction.** [Default, E0] Keep construction traffic and sediment off infiltration areas. Do not build infiltrating practices until the contributing area is stabilized.
 
-**8.2 Construction inspection.** [Default, E0] A qualified inspector shall check excavation depth, subgrade, media, underdrain and outlet elevations before each is covered.
+**9.2 Construction inspection.** [Default, E0] A qualified inspector shall check excavation depth, subgrade, media, underdrain and outlet elevations before each is covered.
 
-**8.3 As-built certification.** [Default, E0] A licensed engineer shall certify the as-built practice against the approved plan before final approval.
+**9.3 As-built certification.** [Default, E0] A licensed engineer shall certify the as-built practice against the approved plan before final approval.
 
-**8.4 Maintenance agreement.** [Default, E3] The owner shall record a maintenance agreement or easement that runs with the land (stated in 125 of 253 manuals).
+**9.4 Maintenance agreement.** [Default, E3] The owner shall record a maintenance agreement or easement that runs with the land (stated in 125 of 253 manuals).
 
-**8.5 Inspection frequency.** [Default, E3] Inspect each practice at least **annually** and after major storms, and keep records for the reviewing agency (120 of 253 manuals).
+**9.5 Inspection frequency.** [Default, E3] Inspect each practice at least **annually** and after major storms, and keep records for the reviewing agency (120 of 253 manuals).
 
-**8.6 Maintenance triggers.** [Default, E0] Remove sediment when it fills 50% of a forebay or 25% of a pond's permanent pool, and restore infiltration when drawdown exceeds 6.0.1.
+**9.6 Maintenance triggers.** [Default, E0] Remove sediment when it fills 50% of a forebay or 25% of a pond's permanent pool, and restore infiltration when drawdown exceeds 6.0.1.
 
-## 9 Plans and submittals
+## 10 Plans and submittals
 
 A stormwater management plan shall show how each standard in Section 3 is met, in one place.
 
-**9.1 Concept plan.** [Default, E0] Before detailed design, submit a concept plan showing drainage areas, soils, the SHWT, proposed practices, and how retention (3.1) was maximized.
+**10.1 Concept plan.** [Default, E0] Before detailed design, submit a concept plan showing drainage areas, soils, the SHWT, proposed practices, and how retention (3.1) was maximized.
 
-**9.2 Final plan contents.** [Default, E0]
+**10.2 Final plan contents.** [Default, E0]
 
 1. Pre- and post-development drainage area maps, with impervious cover by area.
 2. WQv, channel-protection and peak-flow calculations (Sections 3 and 4), with rainfall sources.
 3. Infiltration test results and locations (5.1).
 4. Practice plans, sections and details showing every dimension in Section 6.
 5. Stage-storage, stage-discharge and routing calculations for each design storm, outlet and spillway details, and the downstream analysis (Section 7).
-6. A maintenance plan and the recorded agreement (8.4).
+6. A maintenance plan and the recorded agreement (9.4).
 
-**9.3 Review.** [Default, E0] The reviewing agency should complete its first review within 30 days of a complete submittal.
+**10.3 Review.** [Default, E0] The reviewing agency should complete its first review within 30 days of a complete submittal.
 
-## 10 Regional adjustments
+## 11 Regional adjustments
 
 Of the eleven hand-checked criteria, only maximum drawdown varies with NOAA climate region more than chance would readily explain, and only suggestively (p = 0.09; Appendix A). Regional values are therefore limited to the cases below.
 
-**10.1 Adopting a regional value.** [Default] A state may replace a [Regional] value only with a documented local analysis, such as a 90th-percentile rainfall depth computed from at least 30 years of daily records, published with the state's adoption.
+**11.1 Adopting a regional value.** [Default] A state may replace a [Regional] value only with a documented local analysis, such as a 90th-percentile rainfall depth computed from at least 30 years of daily records, published with the state's adoption.
 
-**10.2 Water-quality depth (3.2.1).** [Regional] A state may adopt a documented 90th-percentile depth in place of 1.0 in. Arid and Plains states may find a lower depth (Nebraska DOT uses 0.5 in of runoff); this draft does not set one.
+**11.2 Water-quality depth (3.2.1).** [Regional] A state may adopt a documented 90th-percentile depth in place of 1.0 in. Arid and Plains states may find a lower depth (Nebraska DOT uses 0.5 in of runoff); this draft does not set one.
 
-**10.3 Cold climates.** [Regional, E0] In the Upper Midwest, Alaska and mountain areas, a state may also require a snowmelt water-quality volume and frost-protected outlets, as Minnesota and Alaska do.
+**11.3 Cold climates.** [Regional, E0] In the Upper Midwest, Alaska and mountain areas, a state may also require a snowmelt water-quality volume and frost-protected outlets, as Minnesota and Alaska do.
 
-**10.4 Maximum drawdown (6.0.1).** [Regional, E1] A state in the NOAA Southwest or West climate regions may allow up to 96 hours, as California and New Mexico do.
+**11.4 Maximum drawdown (6.0.1).** [Regional, E1] A state in the NOAA Southwest or West climate regions may allow up to 96 hours, as California and New Mexico do.
 
-**10.5 Other values.** Water-table separation, media depth and infiltration rate show no regional pattern. They stay national values until the evidence says otherwise.
+**11.5 Other values.** Water-table separation, media depth and infiltration rate show no regional pattern. They stay national values until the evidence says otherwise.
 
-## 11 Alternative compliance and variances
+## 12 Alternative compliance and variances
 
 Where a site cannot meet Section 3 on site, the owner may meet it elsewhere or pay, but not skip it.
 
-**11.1 Off-site compliance.** [Default, E3] The reviewing agency may accept treatment or retention at another site in the same watershed, provided it is at least equal to the shortfall and is in place before the project is occupied. 59 of 253 manuals allow off-site compliance or a fee in lieu.
+**12.1 Off-site compliance.** [Default, E3] The reviewing agency may accept treatment or retention at another site in the same watershed, provided it is at least equal to the shortfall and is in place before the project is occupied. 59 of 253 manuals allow off-site compliance or a fee in lieu.
 
-**11.2 Fee in lieu.** [Open, E3] The reviewing agency may accept a payment, set by a published formula based on the cost of the volume not managed. The fund shall be spent on stormwater projects in the same watershed.
+**12.2 Fee in lieu.** [Open, E3] The reviewing agency may accept a payment, set by a published formula based on the cost of the volume not managed. The fund shall be spent on stormwater projects in the same watershed.
 
-**11.3 Variances.** [Default, E0] A variance from a specific provision may be granted where the applicant shows the provision cannot be met, the alternative achieves the same performance standard, and the variance is the minimum needed. Each variance and its basis shall be recorded.
+**12.3 Variances.** [Default, E0] A variance from a specific provision may be granted where the applicant shows the provision cannot be met, the alternative achieves the same performance standard, and the variance is the minimum needed. Each variance and its basis shall be recorded.
 
-## 12 Part B: construction scope and plans
+## 13 Part B: construction scope and plans
 
 Part B sets the minimum controls for keeping soil on a site while it is being built. It adds design numbers to the federal construction permit (EPA's Construction General Permit and the construction and development rule, 40 CFR 450), which already applies to every site Part B covers; where that permit or a state permit is stricter, it controls.
 
-**12.1 Applicability.** [Default, E3] Part B applies to land disturbance of 1 acre or more, or less than 1 acre when part of a larger common plan of development, the federal permit threshold (192 of 253 manuals use a 1-acre threshold).
+**13.1 Applicability.** [Default, E3] Part B applies to land disturbance of 1 acre or more, or less than 1 acre when part of a larger common plan of development, the federal permit threshold (192 of 253 manuals use a 1-acre threshold).
 
-**12.2 Erosion and sediment control plan.** [Default, E0] Before disturbance, prepare a plan showing limits of disturbance, phasing, drainage areas to each control, the controls of Sections 13–15 with their sizes, the stabilization schedule, and the inspection schedule of Section 16. The plan may be part of the permit's stormwater pollution prevention plan.
+**13.2 Erosion and sediment control plan.** [Default, E0] Before disturbance, prepare a plan showing limits of disturbance, phasing, drainage areas to each control, the controls of Sections 14–16 with their sizes, the stabilization schedule, and the inspection schedule of Section 16. The plan may be part of the permit's stormwater pollution prevention plan.
 
-**12.3 Install controls first.** [Default, E0] Install perimeter and sediment controls downslope of each area before it is disturbed, and keep them until the area is stabilized.
+**13.3 Install controls first.** [Default, E0] Install perimeter and sediment controls downslope of each area before it is disturbed, and keep them until the area is stabilized.
 
-**12.4 Limit and phase disturbance.** [Default, E0] Disturb only what can be stabilized under Section 13, and phase large sites so that exposed areas are as small as practical at any one time.
+**13.4 Limit and phase disturbance.** [Default, E0] Disturb only what can be stabilized under Section 14, and phase large sites so that exposed areas are as small as practical at any one time.
 
-## 13 Erosion prevention and stabilization
+## 14 Erosion prevention and stabilization
 
 Keeping soil in place is cheaper and more reliable than catching it afterwards, so stabilization comes first.
 
-**13.1 Stabilization deadline.** [Default, E1] Begin stabilizing a disturbed area immediately once work there stops and will not resume for 14 days or more, or once it reaches final grade, and complete stabilization **within 14 days** (9 of 15 states read by hand; 5 states require 5–7 days).
+**14.1 Stabilization deadline.** [Default, E1] Begin stabilizing a disturbed area immediately once work there stops and will not resume for 14 days or more, or once it reaches final grade, and complete stabilization **within 14 days** (9 of 15 states read by hand; 5 states require 5–7 days).
 
 > Why: 14 days matches the federal permit, so sites face one deadline rather than two. A shorter deadline helps most on steep or highly erodible sites and in wet seasons.
 
 - *Open question:* should sites draining to impaired or high-quality waters, or working through the wet season, stabilize within 7 days, as Virginia, Ohio and Florida require for all sites and Spokane requires in its wet season?
 
-**13.2 Stockpiles.** [Default, E0] Cover or stabilize soil stockpiles not used for 14 days, and keep them out of drainage paths and away from inlets and waters.
+**14.2 Stockpiles.** [Default, E0] Cover or stabilize soil stockpiles not used for 14 days, and keep them out of drainage paths and away from inlets and waters.
 
-**13.3 Slopes and channels.** [Default, E0] Protect slopes steeper than 3:1 and all concentrated-flow channels with erosion control blankets, matting or equivalent within the deadline of 13.1.
+**14.3 Slopes and channels.** [Default, E0] Protect slopes steeper than 3:1 and all concentrated-flow channels with erosion control blankets, matting or equivalent within the deadline of 13.1.
 
-**13.4 Natural buffer.** [Default, E1 (thin)] Keep an undisturbed natural buffer of **50 ft** from surface waters, or install controls that achieve the same sediment reduction (all 5 states that state a buffer use 50 ft, as the federal permit does).
+**14.4 Natural buffer.** [Default, E1 (thin)] Keep an undisturbed natural buffer of **50 ft** from surface waters, or install controls that achieve the same sediment reduction (all 5 states that state a buffer use 50 ft, as the federal permit does).
 
-**13.5 Final stabilization.** [Default, E0] Final stabilization means permanent vegetation over at least 70% of the natural cover density, or permanent non-vegetative cover, on all disturbed areas.
+**14.5 Final stabilization.** [Default, E0] Final stabilization means permanent vegetation over at least 70% of the natural cover density, or permanent non-vegetative cover, on all disturbed areas.
 
-## 14 Sediment controls
+## 15 Sediment controls
 
 Where soil does move, catch it on site. The right control depends on how much area drains to it.
 
 | Drainage area to one point | Minimum sediment control |
 | --- | --- |
-| Sheet flow from small areas | Silt fence or equivalent perimeter control (14.4) |
-| Up to 5 acres | Sediment trap (14.2) |
-| More than 5 acres | Sediment basin (14.1–14.3) |
+| Sheet flow from small areas | Silt fence or equivalent perimeter control (15.4) |
+| Up to 5 acres | Sediment trap (15.2) |
+| More than 5 acres | Sediment basin (15.1–15.3) |
 
-**14.1 Sediment basin threshold.** [Default, E1] Where more than **5 acres** drain to one point, provide a sediment basin; below that a sediment trap may be used (12 of 19 states read by hand use 5 acres; 5 use the federal 10 acres; Washington and Virginia use 3 acres).
+**15.1 Sediment basin threshold.** [Default, E1] Where more than **5 acres** drain to one point, provide a sediment basin; below that a sediment trap may be used (12 of 19 states read by hand use 5 acres; 5 use the federal 10 acres; Washington and Virginia use 3 acres).
 
 > Why: 5 acres is the most common limit for traps, which lose efficiency on larger areas. The federal permit requires basins only from 10 acres, so this is a stricter, evidence-based default; a state may keep 10 acres if it relies on the federal permit alone.
 
-**14.2 Storage volume.** [Default, E1] Sediment traps and basins shall provide at least **3,600 cubic feet of storage per acre drained** (134 cubic yards), or the runoff from the 2-year, 24-hour storm if that is calculated (8 of 16 states read by hand use 3,600 cf/acre; 7 states give 1,800–2,000 cf/acre, mostly for one of the two zones of a basin or for small traps).
+**15.2 Storage volume.** [Default, E1] Sediment traps and basins shall provide at least **3,600 cubic feet of storage per acre drained** (134 cubic yards), or the runoff from the 2-year, 24-hour storm if that is calculated (8 of 16 states read by hand use 3,600 cf/acre; 7 states give 1,800–2,000 cf/acre, mostly for one of the two zones of a basin or for small traps).
 
-- **14.2.1** [Default, E0] In basins, split the storage equally between a wet sediment-storage zone and a dry dewatering zone (1,800 cf per acre each).
+- **15.2.1** [Default, E0] In basins, split the storage equally between a wet sediment-storage zone and a dry dewatering zone (1,800 cf per acre each).
 
-**14.3 Basin outlets and dewatering.** [Default, E1 (thin)] Withdraw water from the surface (a skimmer or equivalent) and dewater the dry zone over no less than **48 hours** (Ohio and PennDOT; PennDOT caps it at 7 days). Provide an emergency spillway for the 10-year storm (E0).
+**15.3 Basin outlets and dewatering.** [Default, E1 (thin)] Withdraw water from the surface (a skimmer or equivalent) and dewater the dry zone over no less than **48 hours** (Ohio and PennDOT; PennDOT caps it at 7 days). Provide an emergency spillway for the 10-year storm (E0).
 
-**14.4 Silt fence.** [Default, E1 (thin)] Limit the drainage area to **0.25 acre per 100 ft** of fence (5 of 7 states use 0.23–0.25 acre) and the slope length above the fence to **100 ft** (4 of 5 states use 100–110 ft), shorter on steeper slopes. Install fence on the contour, with the ends turned upslope, and never across concentrated flow.
+**15.4 Silt fence.** [Default, E1 (thin)] Limit the drainage area to **0.25 acre per 100 ft** of fence (5 of 7 states use 0.23–0.25 acre) and the slope length above the fence to **100 ft** (4 of 5 states use 100–110 ft), shorter on steeper slopes. Install fence on the contour, with the ends turned upslope, and never across concentrated flow.
 
-**14.5 Construction entrances.** [Default, E1 (thin)] Stabilize every vehicle exit with an aggregate pad at least **50 ft long** (4 of 6 states; Ohio uses 70 ft and Fairfax County 75 ft) and 6 in thick, and remove any sediment tracked onto paved roads by the end of each work day (E0).
+**15.5 Construction entrances.** [Default, E1 (thin)] Stabilize every vehicle exit with an aggregate pad at least **50 ft long** (4 of 6 states; Ohio uses 70 ft and Fairfax County 75 ft) and 6 in thick, and remove any sediment tracked onto paved roads by the end of each work day (E0).
 
-**14.6 Inlet protection.** [Default, E0] Protect every storm drain inlet that receives runoff from disturbed areas, without causing flooding of roads or buildings.
+**15.6 Inlet protection.** [Default, E0] Protect every storm drain inlet that receives runoff from disturbed areas, without causing flooding of roads or buildings.
 
-**14.7 Dewatering discharges.** [Default, E0] Do not discharge water pumped from excavations unless it is treated to remove sediment first, as the federal rule requires.
+**15.7 Dewatering discharges.** [Default, E0] Do not discharge water pumped from excavations unless it is treated to remove sediment first, as the federal rule requires.
 
-## 15 Inspection, maintenance and closeout
+## 16 Inspection, maintenance and closeout
 
 Controls fail quietly, so they must be checked on a fixed schedule and after storms.
 
-**15.1 Inspection frequency.** [Default, E1] A qualified person shall inspect all controls at least **every 7 days** (21 of 23 states read by hand) and **within 24 hours after 0.5 in of rain** or more (9 of 10 states that set a trigger).
+**16.1 Inspection frequency.** [Default, E1] A qualified person shall inspect all controls at least **every 7 days** (21 of 23 states read by hand) and **within 24 hours after 0.5 in of rain** or more (9 of 10 states that set a trigger).
 
 > Why: weekly inspection is close to universal. The 0.5 in trigger catches the storms that overtop or undercut controls.
 
-**15.2 Corrective action.** [Default, E0] Repair or replace a failed control by the end of the next work day where feasible, and within 7 days at the latest; record what was found and done.
+**16.2 Corrective action.** [Default, E0] Repair or replace a failed control by the end of the next work day where feasible, and within 7 days at the latest; record what was found and done.
 
-**15.3 Sediment removal.** [Default, E0] Remove sediment from traps and basins when it fills half of the wet storage, and from behind silt fence when it reaches one third of the fence height.
+**16.3 Sediment removal.** [Default, E0] Remove sediment from traps and basins when it fills half of the wet storage, and from behind silt fence when it reaches one third of the fence height.
 
-**15.4 Records.** [Default, E0] Keep inspection reports on site, or available electronically, until final stabilization.
+**16.4 Records.** [Default, E0] Keep inspection reports on site, or available electronically, until final stabilization.
 
-**15.5 Closeout.** [Default, E0] Remove temporary controls only after final stabilization (13.5), and stabilize the areas they occupied.
+**16.5 Closeout.** [Default, E0] Remove temporary controls only after final stabilization (14.5), and stabilize the areas they occupied.
 
-## 16 Part B and Part A together
+## 17 Part B and Part A together
 
 Some construction controls become permanent practices, so the two parts must be designed together.
 
-**16.1 Converting basins.** [Default, E0] A sediment basin may become a permanent wet pond or extended detention basin only if it is cleaned out, regraded and brought to the standards of Section 6 before final approval.
+**17.1 Converting basins.** [Default, E0] A sediment basin may become a permanent wet pond or extended detention basin only if it is cleaned out, regraded and brought to the standards of Section 6 before final approval.
 
-**16.2 Protecting infiltration areas.** [Default, E0] Do not use areas planned for infiltration (Section 5) as sediment traps, basins or staging areas, and keep construction traffic off them (8.1).
+**17.2 Protecting infiltration areas.** [Default, E0] Do not use areas planned for infiltration (Section 5) as sediment traps, basins or staging areas, and keep construction traffic off them (9.1).
 
-**16.3 Sequencing.** [Default, E0] Build permanent infiltrating practices last, after their drainage area is stabilized.
+**17.3 Sequencing.** [Default, E0] Build permanent infiltrating practices last, after their drainage area is stabilized.
 
 ## Appendix A: Evidence behind each provision
 
@@ -483,7 +581,7 @@ The grade counts above are computed from this text. Every provision marked E0 is
 - **E3** the number of the 253 distinct manuals whose text states the rule, by text search. This shows how common a rule is, not that the manual requires exactly that value.
 - **E0** common engineering practice with no atlas evidence yet.
 
-In Section 7 and Part B, E1 means values read by hand in every atlas manual with its own rules (state and local), because many states publish their construction handbooks separately from the manuals in the atlas: 154 values from 68 manuals in 33 states for Part B ([esc-checks.json](https://github.com/scott-jeffers/usa-stormwater/blob/main/data/national/esc-checks.json)) and 309 values from 135 manuals in 45 states and DC for Section 7 ([det-checks.json](https://github.com/scott-jeffers/usa-stormwater/blob/main/data/national/det-checks.json)).
+In Sections 7 and 8 and Part B, E1 means values read by hand in every atlas manual with its own rules (state and local), because many states publish their construction handbooks separately from the manuals in the atlas: 154 values from 68 manuals in 33 states for Part B ([esc-checks.json](https://github.com/scott-jeffers/usa-stormwater/blob/main/data/national/esc-checks.json)) 309 values from 135 manuals in 45 states and DC for Section 7 ([det-checks.json](https://github.com/scott-jeffers/usa-stormwater/blob/main/data/national/det-checks.json)); and 379 values from 119 manuals in 44 states for Section 8 ([conv-checks.json](https://github.com/scott-jeffers/usa-stormwater/blob/main/data/national/conv-checks.json)), where DOT drainage manuals, which the atlas holds for most states, supply much of the evidence.
 
 | Provision | Value | Grade | Evidence |
 | --- | --- | --- | --- |
@@ -522,15 +620,28 @@ In Section 7 and Part B, E1 means values read by hand in every atlas manual with
 | 7.9.1 Side slopes | 3:1 | E3 | 106 of 253 manuals |
 | 7.9.2 Basin bottom slope | 0.5% min | E1 | 7 of 11 states |
 | 7.10.1 Parking-lot depth | 1 ft max | E1 (thin) | 4 of 5 manuals |
-| 8.4–8.5 Maintenance | agreement, annual inspection | E3 | 125 and 120 of 253 manuals |
-| 13.1 Stabilization deadline | 14 days | E1 | 9 of 15 states; 5 use 5–7 days |
-| 13.4 Natural buffer | 50 ft | E1 (thin) | all 5 states that state one |
-| 14.1 Sediment basin threshold | 5 acres | E1 | 12 of 19 states; 5 use 10 acres |
-| 14.2 Trap and basin storage | 3,600 cf/acre | E1 | 8 of 16 states; 7 give 1,800–2,000 cf/acre for one zone or small traps |
-| 14.3 Basin dewatering | 48 h minimum | E1 (thin) | 2 states |
-| 14.4 Silt fence | 0.25 acre per 100 ft; 100 ft slope | E1 (thin) | 5 of 7 states (0.23–0.25 acre) and 4 of 5 (100–110 ft) |
-| 14.5 Construction entrance | 50 ft | E1 (thin) | 4 of 6 states |
-| 15.1 Inspections | every 7 days; after 0.5 in of rain | E1 | 21 of 23 and 9 of 10 states |
+| 8.1.1 Storm drain and inlet storms | 10-yr | E1 | storm drains 15 of 25 states; inlets and spread 7 of 11 |
+| 8.1.4 Culvert storm | 25-yr (50-yr arterials), 100-yr check | E1 | divided: of 18 states, 5 use 10-yr, 5 use 25-yr, 5 use 100-yr |
+| 8.1.5 Channel storm | 10-yr (100-yr major system) | E1 | 11 of 18 states; 4 use 100-yr |
+| 8.3.1 Minimum storm drain | 15 in | E1 | divided: of 22 states, 8 use 12 in, 6 use 15 in, 7 use 18 in |
+| 8.3.2 Manning's n, concrete pipe | 0.013 | E1 (thin) | 6 states: 4 use 0.012, 2 use 0.013 |
+| 8.3.3 Minimum velocity | 3 ft/s | E1 | 16 of 33 states; 10 use 2.5 ft/s |
+| 8.3.4 Maximum velocity | 15 ft/s | E1 | divided: 21 states, 8–20 ft/s; 6 use 10, 5 use 15, 5 use 20 |
+| 8.3.5 Minimum cover | 2 ft | E1 | divided: 16 states, 1–4 ft; 6 use 1 ft, 4 use 2 ft |
+| 8.3.7 Access structure spacing | 300 ft (< 36 in) | E1 | 7 of 16 states; 3 use 400 ft |
+| 8.4.3 HGL clearance | 1 ft | E1 | 11 of 14 states |
+| 8.5.2 Culvert headwater | HW/D ≤ 1.5 | E1 | 10 of 13 states |
+| 8.5.3 Minimum culvert | 18 in | E1 | 10 of 22 states; 6 use 24 in |
+| 8.6.2 Channel freeboard | 1 ft | E1 | 7 of 10 states |
+| 9.4–9.5 Maintenance | agreement, annual inspection | E3 | 125 and 120 of 253 manuals |
+| 14.1 Stabilization deadline | 14 days | E1 | 9 of 15 states; 5 use 5–7 days |
+| 14.4 Natural buffer | 50 ft | E1 (thin) | all 5 states that state one |
+| 15.1 Sediment basin threshold | 5 acres | E1 | 12 of 19 states; 5 use 10 acres |
+| 15.2 Trap and basin storage | 3,600 cf/acre | E1 | 8 of 16 states; 7 give 1,800–2,000 cf/acre for one zone or small traps |
+| 15.3 Basin dewatering | 48 h minimum | E1 (thin) | 2 states |
+| 15.4 Silt fence | 0.25 acre per 100 ft; 100 ft slope | E1 (thin) | 5 of 7 states (0.23–0.25 acre) and 4 of 5 (100–110 ft) |
+| 15.5 Construction entrance | 50 ft | E1 (thin) | 4 of 6 states |
+| 16.1 Inspections | every 7 days; after 0.5 in of rain | E1 | 21 of 23 and 9 of 10 states |
 
 The state-level evidence still leans on the Northeast, which supplies 8–10 of the states for most E1 values. Arkansas and Nevada have no state manual in the atlas, and most western and Plains states are represented only by DOT drainage manuals, which rarely set post-construction criteria. Part B evidence is thinner still: many states publish their construction erosion and sediment control handbooks separately, and most of those are not yet in the atlas.
 
@@ -541,17 +652,22 @@ These decisions set the size and cost of most practices. Each is marked [Open] i
 1. **Channel-protection storm (3.4):** 24-hour extended detention of the 1-year storm (13 state manuals), 2-year peak matching (20), or both (6)?
 2. **Redevelopment (3.7):** is 50% of replaced impervious area the right target, and should an impervious-reduction alternative remain?
 3. **Water-table separation (5.4):** keep 24 in for all practices, or require 36 in for infiltration basins and trenches?
-4. **Maximum drawdown (6.0.1):** 72 hours or 48 hours nationally? States split 12 to 10, and the Northeast leans to 48 h; confirm whether a regional value (10.4) is warranted.
+4. **Maximum drawdown (6.0.1):** 72 hours or 48 hours nationally? States split 12 to 10, and the Northeast leans to 48 h; confirm whether a regional value (11.4) is warranted.
 5. **Bioretention media (6.1.1):** 18 in or 24 in as the default minimum? States split 8 to 8.
 6. **Wet-pond depth (6.5.2):** confirm 4–8 ft once more states are read.
 7. **Rational-method limit (4.3):** 20 acres, or another limit?
 8. **Pre-development baseline (7.2.1):** meadow in good condition, forest, or the land cover that exists before the project?
 9. **Minimum orifice (7.6.2):** keep a 3 in default with a 1 in protected minimum, or allow 0.5 in nationally to make flow-duration control possible on small sites?
 10. **Basin depth (7.9.3):** set a national maximum depth for dry basins open to the public, or leave it to fencing and safety-bench rules?
-11. **Fee in lieu (11.2):** require a published, cost-based rate formula?
-12. **Construction stabilization (13.1):** 14 days for all sites, with 7 days for sensitive waters or wet seasons?
-13. **Sediment basin threshold (14.1):** 5 acres (most states) or the federal 10 acres?
-14. **Evidence gaps:** before adoption, replace each E0 placeholder with E1 or E2 evidence, and add the western and southern state manuals missing from the atlas.
+11. **Culvert design storm (8.1.4):** 10, 25 or 100 years for local roads? States divide evenly among the three.
+12. **Minimum storm drain (8.3.1):** 12, 15 or 18 in? States divide 8, 6 and 7.
+13. **Maximum pipe velocity and cover (8.3.4–8.3.5):** set one national value for each, or a value by pipe material and a common way of measuring cover?
+14. **Access structure spacing (8.3.7):** 300 ft for pipes smaller than 36 in, or 400 ft, as three states allow?
+15. **Gutter spread (8.2.1):** adopt the HEC-22 Table 5.1 limits, and collect state spread criteria in a comparable form?
+16. **Fee in lieu (12.2):** require a published, cost-based rate formula?
+17. **Construction stabilization (14.1):** 14 days for all sites, with 7 days for sensitive waters or wet seasons?
+18. **Sediment basin threshold (15.1):** 5 acres (most states) or the federal 10 acres?
+19. **Evidence gaps:** before adoption, replace each E0 placeholder with E1 or E2 evidence, and add the western and southern state manuals missing from the atlas.
 
 ## Appendix C: Worked example, detention basin
 
@@ -607,3 +723,54 @@ This example applies Sections 3, 4 and 7 to one site. Every number below is comp
 **Step 8. Riser flotation (7.5.3).** An empty 48 in riser rising 6.3 ft above its footing displaces 4,940 lb of water, so the riser and its base must weigh at least 6,180 lb (safety factor 1.25).
 
 **Result.** All targets are met, with 1.25 ft of freeboard in the most severe case (outlet blocked). The binding requirement is channel protection: the 1-year detention sets the orifice and most of the storage, and the 2-year peak control in 3.5 then comes for free.
+
+## Appendix D: Worked example, storm drain, culvert and channel
+
+This example applies Section 8 to a residential street, the storm drain under it, a culvert downstream and the channel between them. Every number below is computed by the engine behind the site's [hydraulics calculator](/tools/hydraulics/), which loads this example, and the calculation is part of the atlas's automated tests. The engine reproduces the worked examples of HEC-22 chapters 5, 7 and 9 and the HDS-5 examples it is tested against. Flows are given rather than computed, to keep the example on hydraulics.
+
+**Street.** A local street with an 8 ft parking lane and 12 ft driving lanes, longitudinal slope 2%, cross slope 2%, n = 0.016, and a 2 ft gutter depressed 2 in. The allowable spread (8.2.1) is the parking lane plus half a driving lane: **14 ft**.
+
+**Step 1. Inlet on grade (8.2.3).** The 10-year gutter flow at inlet 1 is 3.0 cfs, spread **7.8 ft**, velocity 3.8 ft/s. A 10 ft curb opening in the depressed gutter (Eo = 0.73, Se = 0.081) needs 15.9 ft to capture everything, so it captures 83%: **2.50 cfs**, with 0.50 cfs passing to the sag.
+
+**Step 2. Inlet in the sag (8.1.2, 8.2.4).** Inlet 2, a 10 ft curb opening with a 6 in opening height at the low point, receives its own 2.9 cfs plus the 0.50 cfs bypass, 3.40 cfs. It runs as a weir with 0.23 ft of water above the cross slope (0.39 ft at the curb, below the opening height), a spread of **11.3 ft**. The street has no overflow path at the sag, so 8.1.2 applies: for the 50-year flow of 4.4 cfs the spread is **13.4 ft**, still within 14 ft.
+
+**Step 3. Pipe sizes (8.3).** Each pipe carries all the flow its inlets capture, with n = 0.013:
+
+| Pipe | Flow | Slope | Diameter for full flow | Pipe used | Full-flow capacity | Full-flow velocity | Velocity at design flow |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 1–2 | 2.5 cfs | 1.20% | 10.2 in | 15 in (8.3.1 minimum) | 7.1 cfs | 5.8 ft/s | 5.3 ft/s |
+| 2–3 | 5.9 cfs | 0.77% | 15.2 in | 18 in | 9.2 cfs | 5.2 ft/s | 5.5 ft/s |
+| 3–outfall | 5.9 cfs | 0.95% | 14.6 in | 18 in (8.3.6: no size decrease) | 10.2 cfs | 5.8 ft/s | 6.0 ft/s |
+
+Every pipe exceeds the 3 ft/s minimum and stays well below 15 ft/s (8.3.3–8.3.4). The last pipe could be 15 in, but 8.3.6 keeps it at 18 in. The outlet crowns drop 0.22 ft through inlet 2 and the inverts 0.08 ft through manhole 3, at least the losses HEC-22 equation 9.10 gives for a straight run through an inlet (K = 0.5) and a manhole (K = 0.15). Cover is at least 2.0 ft everywhere (8.3.5).
+
+**Step 4. Hydraulic grade line (8.4).** The outfall discharges to a channel whose 10-year water surface is at elevation 96.30, below the crown of the outlet pipe (96.62), so the pipe flows partly full and backwater from the channel sets the depth at its outlet (HEC-22 Table 9.6, case B). Working upstream with the FHWA access-hole method:
+
+| Structure | Rim | Energy level in structure (EGLa) | Clearance (8.4.3, at least 1 ft) |
+| --- | --- | --- | --- |
+| Manhole 3 (full bench) | 100.80 | 97.18 | 3.62 ft |
+| Inlet 2 (half bench; 3.40 cfs falls in from the street) | 101.50 | 98.66 | 2.84 ft |
+| Inlet 1 (flat floor; 2.50 cfs falls in from the street) | 104.00 | 101.93 | 2.07 ft |
+
+At inlet 1 the access-hole method adds 0.15 ft for the water plunging in from the curb opening (CP = 1.77) to the 1.03 ft energy level of the outlet pipe's entrance; at manhole 3 the full bench removes the loss altogether. All three structures keep the required 1 ft of clearance.
+
+**Step 5. Culvert (8.1.4, 8.5).** Downstream, a collector road crosses the channel on a culvert 90 ft long at 1.2% slope (concrete, groove end with headwall, n = 0.012). The 25-year flow is 110 cfs with 2.6 ft of tailwater; the road shoulder is 8.0 ft above the inlet invert.
+
+| Culvert | Inlet-control HW | Outlet-control HW | HW/D | Result |
+| --- | --- | --- | --- | --- |
+| 42 in, 25-year | 6.39 ft | 5.61 ft | 1.83 | Fails 8.5.2 (HW/D > 1.5) |
+| 48 in, 25-year | 5.17 ft | 4.38 ft | 1.29 | Meets 8.5.2; inlet control |
+| 48 in, 100-year check (150 cfs) | 7.10 ft | 6.21 ft | 1.77 | Below the 8.0 ft shoulder: no overtopping |
+
+The 48 in culvert's outlet velocity at the 25-year flow is 14.4 ft/s, so its outlet needs protection designed with HEC-14 (8.5.4, 8.7).
+
+**Step 6. Channel (8.1.5, 8.6).** The outfall channel is grass-lined (n = 0.035), trapezoidal with a 4 ft bottom and 3:1 side slopes, at 0.5% slope. It carries flow from more than one development, so it is sized for the 100-year storm (8.1.5).
+
+| Storm | Flow | Normal depth | Velocity | Froude number | Shear stress |
+| --- | --- | --- | --- | --- | --- |
+| 10-year | 45 cfs | 1.65 ft | 3.0 ft/s | 0.52 | 0.51 lb/sq ft |
+| 100-year | 80 cfs | 2.16 ft | 3.5 ft/s | 0.54 | 0.67 lb/sq ft |
+
+Flow is well below critical (8.6.1). With 1 ft of freeboard above the 100-year depth (8.6.2), the channel must be at least **3.2 ft** deep, and the lining must resist 0.67 lb/sq ft (8.6.3).
+
+**Result.** All requirements are met with a 15 in and two 18 in pipes, a 48 in culvert and a 3.2 ft channel. The binding requirements are the sag spread (8.1.2), which sets the length of inlet 2, and the culvert headwater ratio (8.5.2), which rules out the 42 in culvert.

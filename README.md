@@ -228,13 +228,14 @@ Do not paste API keys into Netlify env settings for this project.
 ## Site
 
 - **Search** (`/search/`, and in every header; press `/`): Pagefind index built by `postbuild` (`pagefind --site out`). Pages mark their type with `SearchMeta` (`components/SiteSearch.tsx`); search works only on a built site, not `next dev`.
-- **Requirements** (`/requirements/`, `/requirements/{key}/`): one page per criterion in `lib/requirements.ts` (`CRITERIA`). Values come from record `design_parameters` plus `data/national/esc-checks.json`; national statistics count only `own` and `issuer` records.
+- **Requirements** (`/requirements/`, `/requirements/{key}/`): one page per criterion in `lib/requirements.ts` (`CRITERIA`). Values come from record `design_parameters` plus the hand-read files `data/national/esc-checks.json`, `det-checks.json` and `conv-checks.json`; national statistics count only `own` and `issuer` records.
 - **Jurisdictions** (`/jurisdictions/`): every record, 50 a page; filters live in the query string (`?state=PA&level=county&q=...`).
 - **Record pages** (`/{slug}/`): requirement sheet first, then the extracted design criteria with evidence.
 - **Compare** (`/compare/?m=slug,slug`): up to four, differences marked, national column.
 - **Model manual** (`/manual/`, evidence at `/manual/evidence/`), **Resources** (`/resources/`: data, archive, federal, about).
 - **PDF of the model manual** (`/downloads/model-manual.pdf`): paginated by Paged.js on `/manual/print/` and printed with Chrome by `npm run manual:pdf` after a build (set `CHROME_PATH` if needed). Commit the PDF with any manual change; a test fails if its version lags the manual.
 - **Detention calculator** (`/tools/detention/`): engine in `lib/detention/engine.ts`, worked example in `lib/detention/example.ts` (model manual Appendix C); both are tested in `tests/detention.test.ts` against HEC-1 and HEC-22 examples.
+- **Hydraulics calculator** (`/tools/hydraulics/`): pipes, gutters and inlets, storm drain HGL (FHWA access-hole method), culverts (HDS-5) and channels. Engine in `lib/hydraulics/engine.ts`, worked example in `lib/hydraulics/example.ts` (model manual Appendix D); `tests/hydraulics.test.ts` checks both against the HEC-22, HDS-4 and HDS-5 examples.
 - Retired `/national/*` URLs redirect in `netlify.toml`.
 
 ## Project structure

@@ -2,7 +2,7 @@ import { readFileSync } from "node:fs";
 import { test } from "node:test";
 import assert from "node:assert/strict";
 import { loadManual, parseManual } from "../lib/manual/parse";
-import { CRITERION_CLAUSE, ESC_CRITERION_CLAUSE, loadCriteria, loadEscCriteria } from "../lib/national/modelManual";
+import { CONV_CRITERION_CLAUSE, CRITERION_CLAUSE, DET_CRITERION_CLAUSE, ESC_CRITERION_CLAUSE, loadConvCriteria, loadCriteria, loadDetCriteria, loadEscCriteria } from "../lib/national/modelManual";
 import { csvCell } from "../scripts/export-research";
 import { parseCsv } from "../components/ValuesTable";
 
@@ -39,6 +39,14 @@ test("the real manual: unique clause numbers, every criterion's clause exists an
     assert.ok(c, `Part B clause ${n} for ${k} missing`);
     assert.equal(c!.grade, "E1", `${n} should be E1`);
     assert.ok(loadEscCriteria()?.criteria.some((x) => x.key === k), `${k} missing from esc-classification.json`);
+  }
+  for (const [map, load, name] of [[DET_CRITERION_CLAUSE, loadDetCriteria, "det"], [CONV_CRITERION_CLAUSE, loadConvCriteria, "conv"]] as const) {
+    for (const [k, n] of Object.entries(map)) {
+      const c = m.clauses.find((x) => x.number === n);
+      assert.ok(c, `${name} clause ${n} for ${k} missing`);
+      if (name === "conv") assert.equal(c!.grade, "E1", `${n} should be E1`);
+      assert.ok(load()?.criteria.some((x) => x.key === k), `${k} missing from ${name}-classification.json`);
+    }
   }
 });
 

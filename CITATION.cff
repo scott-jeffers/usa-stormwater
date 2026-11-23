@@ -3,7 +3,7 @@ message: "If you use the Stormwater Atlas data or the draft model manual, please
 title: "Stormwater Atlas: a database of U.S. stormwater design manuals"
 type: dataset
 license: CC-BY-4.0
-version: "2026.11.4"
+version: "2026.11.5"
 date-released: "2026-11-24"
 url: "https://www.stormwateratlas.com/data/"
 repository-code: "https://github.com/scott-jeffers/usa-stormwater"

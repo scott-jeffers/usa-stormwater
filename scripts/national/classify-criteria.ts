@@ -22,12 +22,14 @@ import path from "node:path";
 
 const ROOT = process.cwd();
 // --part=esc classifies Part B (construction erosion and sediment control);
-// --part=det classifies detention, outlets and spillways (model manual §7)
+// --part=det classifies detention, outlets and spillways (model manual §7);
+// --part=conv classifies conveyance: storm drains, inlets, culverts, channels (§8)
 const PART = process.argv.find((a) => a.startsWith("--part="))?.slice(7) ?? "a";
 const FILES: Record<string, [string, string]> = {
   a: ["data/national/hand-checks.json", "data/national/criteria-classification.json"],
   esc: ["data/national/esc-checks.json", "data/national/esc-classification.json"],
   det: ["data/national/det-checks.json", "data/national/det-classification.json"],
+  conv: ["data/national/conv-checks.json", "data/national/conv-classification.json"],
 };
 const IN = path.join(ROOT, FILES[PART]![0]);
 const OUT = path.join(ROOT, FILES[PART]![1]);
@@ -86,6 +88,23 @@ export const DET_CRITERIA: Record<string, { label: string; unit: string; reads_a
   det_min_barrel_in: { label: "Minimum outlet pipe diameter", unit: "in", reads_as: "smallest barrel or outlet pipe allowed from a detention facility" },
 };
 
+export const CONV_CRITERIA: Record<string, { label: string; unit: string; reads_as: string }> = {
+  conv_storm_drain_storm_yr: { label: "Storm drain design storm", unit: "years", reads_as: "return period a storm drain (pipe system) must carry without surcharge on a typical street" },
+  conv_inlet_storm_yr: { label: "Inlet and gutter spread design storm", unit: "years", reads_as: "return period inlets and gutter spread are designed for on a typical street on grade" },
+  conv_min_pipe_in: { label: "Minimum storm drain diameter", unit: "in", reads_as: "smallest public storm drain pipe allowed" },
+  conv_min_velocity_fps: { label: "Minimum storm drain velocity", unit: "ft/s", reads_as: "lowest self-cleaning velocity a storm drain must reach (usually flowing full)" },
+  conv_max_velocity_fps: { label: "Maximum storm drain velocity", unit: "ft/s", reads_as: "highest velocity allowed in a storm drain (concrete pipe, mains)" },
+  conv_hgl_clearance_ft: { label: "Hydraulic grade line clearance", unit: "ft", reads_as: "minimum distance the design hydraulic grade line must stay below inlet grates, rims or ground" },
+  conv_manhole_spacing_ft: { label: "Maximum access structure spacing", unit: "ft", reads_as: "longest run between manholes or access structures on smaller storm drains" },
+  conv_min_cover_ft: { label: "Minimum pipe cover", unit: "ft", reads_as: "least cover over a storm drain pipe" },
+  conv_manning_n_concrete: { label: "Manning's n for concrete pipe", unit: "coefficient", reads_as: "design roughness the manual gives for concrete storm drain pipe" },
+  culv_design_storm_yr: { label: "Culvert design storm", unit: "years", reads_as: "return period a road culvert must pass within its headwater limits (local or typical road)" },
+  culv_hw_d: { label: "Allowable culvert headwater ratio", unit: "ratio", reads_as: "largest headwater depth to culvert rise (HW/D) allowed at the design flow" },
+  culv_min_dia_in: { label: "Minimum culvert diameter", unit: "in", reads_as: "smallest culvert allowed under a public road" },
+  chan_design_storm_yr: { label: "Open channel design storm", unit: "years", reads_as: "return period a constructed open channel must carry" },
+  chan_freeboard_ft: { label: "Open channel freeboard", unit: "ft", reads_as: "minimum height of channel bank above the design water surface" },
+};
+
 const median = (xs: number[]) => {
   const s = [...xs].sort((a, b) => a - b), m = s.length >> 1;
   return s.length % 2 ? s[m]! : (s[m - 1]! + s[m]!) / 2;
@@ -112,7 +131,7 @@ function main() {
     values: Array<{ param: string; state: string; slug: string; value: number; verdict: string }>;
   };
   const rand = rng(20261118);
-  const criteria = Object.entries(PART === "esc" ? ESC_CRITERIA : PART === "det" ? DET_CRITERIA : CRITERIA).map(([key, meta]) => {
+  const criteria = Object.entries(PART === "esc" ? ESC_CRITERIA : PART === "det" ? DET_CRITERIA : PART === "conv" ? CONV_CRITERIA : CRITERIA).map(([key, meta]) => {
     const kept = checks.values.filter((v) => v.param === key && v.verdict !== "excluded" && v.state);
     const byState = new Map<string, number[]>();
     for (const v of kept) byState.set(v.state, [...(byState.get(v.state) ?? []), v.value]);
@@ -182,7 +201,9 @@ function main() {
             ? "B: construction erosion and sediment control (state and local manuals)"
             : PART === "det"
               ? "Detention, outlets and spillways (state and local manuals)"
-              : "A: permanent stormwater (state-level manuals)",
+              : PART === "conv"
+                ? "Conveyance: storm drains, inlets, culverts and open channels (state and local manuals)"
+                : "A: permanent stormwater (state-level manuals)",
         method:
           "One value per state (median of hand-checked state-level records). Agreement = share of states within ±10% of the most common value. Climate = eta² across NOAA U.S. climate regions with a 10,000-shuffle permutation p-value. Classes: insufficient (<8 states), consensus (agreement ≥ 50%), climate-linked (p < 0.10, suggestive), divergent (otherwise).",
         criteria,

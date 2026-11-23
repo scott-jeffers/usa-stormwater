@@ -49,15 +49,15 @@ export const CRITERION_CLAUSE: Record<string, string> = {
 
 /** Part B (construction erosion and sediment control) criteria and their clauses. */
 export const ESC_CRITERION_CLAUSE: Record<string, string> = {
-  stabilization_days: "13.1",
-  natural_buffer_ft: "13.4",
-  basin_threshold_acres: "14.1",
-  basin_storage_cf_per_acre: "14.2",
-  silt_fence_drainage_acres_per_100ft: "14.4",
-  silt_fence_slope_length_ft: "14.4",
-  construction_entrance_length_ft: "14.5",
-  inspection_days: "15.1",
-  inspection_storm_trigger_in: "15.1",
+  stabilization_days: "14.1",
+  natural_buffer_ft: "14.4",
+  basin_threshold_acres: "15.1",
+  basin_storage_cf_per_acre: "15.2",
+  silt_fence_drainage_acres_per_100ft: "15.4",
+  silt_fence_slope_length_ft: "15.4",
+  construction_entrance_length_ft: "15.5",
+  inspection_days: "16.1",
+  inspection_storm_trigger_in: "16.1",
 };
 
 /** Detention, outlet and spillway criteria (model manual Section 7) and their clauses. */
@@ -72,6 +72,31 @@ export const DET_CRITERION_CLAUSE: Record<string, string> = {
   det_parking_depth_ft: "7.10.1",
   det_min_barrel_in: "7.5.2",
 };
+
+/** Conveyance criteria (model manual Section 8) and their clauses. */
+export const CONV_CRITERION_CLAUSE: Record<string, string> = {
+  conv_storm_drain_storm_yr: "8.1.1",
+  conv_inlet_storm_yr: "8.1.1",
+  culv_design_storm_yr: "8.1.4",
+  chan_design_storm_yr: "8.1.5",
+  conv_min_pipe_in: "8.3.1",
+  conv_manning_n_concrete: "8.3.2",
+  conv_min_velocity_fps: "8.3.3",
+  conv_max_velocity_fps: "8.3.4",
+  conv_min_cover_ft: "8.3.5",
+  conv_manhole_spacing_ft: "8.3.7",
+  conv_hgl_clearance_ft: "8.4.3",
+  culv_hw_d: "8.5.2",
+  culv_min_dia_in: "8.5.3",
+  chan_freeboard_ft: "8.6.2",
+};
+
+const CONV_FILE = path.resolve(process.cwd(), "data/national/conv-classification.json");
+
+export function loadConvCriteria(): { generated_at: string; method: string; criteria: CriterionEvidence[] } | null {
+  if (!existsSync(CONV_FILE)) return null;
+  return JSON.parse(readFileSync(CONV_FILE, "utf-8"));
+}
 
 const DET_FILE = path.resolve(process.cwd(), "data/national/det-classification.json");
 

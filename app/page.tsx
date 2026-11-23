@@ -101,8 +101,8 @@ export default function HomePage() {
             {
               n: "2",
               h: "Links for design work",
-              p: `Where to find the drawings and examples behind the rules: ${libraries} standard-detail libraries, ${arc.drawings} drawings, and ${arc.examples + arc.plans + extPlans} worked examples and sample plans from public agencies, plus a detention and outlet calculator.`,
-              links: [["/archive/", "Design archive"], ["/tools/detention/", "Detention calculator"]],
+              p: `Where to find the drawings and examples behind the rules: ${libraries} standard-detail libraries, ${arc.drawings} drawings, and ${arc.examples + arc.plans + extPlans} worked examples and sample plans from public agencies, plus calculators for detention outlets and for storm drains, inlets, culverts and channels.`,
+              links: [["/archive/", "Design archive"], ["/tools/detention/", "Detention calculator"], ["/tools/hydraulics/", "Hydraulics calculator"]],
             },
             {
               n: "3",

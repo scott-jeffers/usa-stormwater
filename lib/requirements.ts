@@ -13,7 +13,7 @@ import { getAllManuals } from "./data";
 import { checkParameterValue, type ValueCheck } from "./qa/load";
 import { coverageBasisFor } from "./sharedManuals";
 
-export type RequirementGroup = "Site sizing" | "Infiltration" | "Bioretention" | "Ponds and detention" | "Detention outlets and spillways" | "Swales and other practices" | "Construction (Part B)";
+export type RequirementGroup = "Site sizing" | "Infiltration" | "Bioretention" | "Ponds and detention" | "Detention outlets and spillways" | "Conveyance" | "Swales and other practices" | "Construction (Part B)";
 
 export interface Criterion {
   key: string;
@@ -23,7 +23,7 @@ export interface Criterion {
   group: RequirementGroup;
   means: string;
   clause?: string;
-  source: "records" | "esc" | "det";
+  source: "records" | "esc" | "det" | "conv";
 }
 
 export const CRITERIA: Criterion[] = [
@@ -49,18 +49,32 @@ export const CRITERIA: Criterion[] = [
   { key: "det_downstream_pct", short: "Downstream analysis", label: "Downstream analysis limit", unit: "%", group: "Detention outlets and spillways", source: "det", clause: "7.3", means: "Share of the total drainage area the site makes up at the point where downstream analysis may stop (the 10% rule)." },
   { key: "det_bottom_slope_pct", short: "Basin bottom slope", label: "Dry basin bottom slope", unit: "%", group: "Detention outlets and spillways", source: "det", clause: "7.9.2", means: "Minimum slope of a dry detention basin bottom toward its outlet." },
   { key: "det_parking_depth_ft", short: "Parking-lot depth", label: "Parking-lot detention depth", unit: "ft", group: "Detention outlets and spillways", source: "det", clause: "7.10.1", means: "Deepest water allowed where a parking lot is used for detention." },
-  { key: "stabilization_days", short: "Stabilization deadline", label: "Time to stabilize inactive areas", unit: "days", group: "Construction (Part B)", source: "esc", clause: "13.1", means: "Days within which disturbed areas must be stabilized once work stops or final grade is reached." },
-  { key: "inspection_days", short: "Inspection interval", label: "Construction inspection interval", unit: "days", group: "Construction (Part B)", source: "esc", clause: "15.1", means: "Days between routine erosion and sediment control inspections." },
-  { key: "inspection_storm_trigger_in", short: "Inspection storm trigger", label: "Rainfall that triggers an inspection", unit: "in", group: "Construction (Part B)", source: "esc", clause: "15.1", means: "Rainfall after which controls must be inspected, usually within 24 hours." },
-  { key: "basin_threshold_acres", short: "Sediment basin threshold", label: "Drainage area needing a sediment basin", unit: "acres", group: "Construction (Part B)", source: "esc", clause: "14.1", means: "Drainage area above which a sediment basin, not a trap, is required." },
-  { key: "basin_storage_cf_per_acre", short: "Sediment storage", label: "Sediment trap and basin storage", unit: "cf/acre", group: "Construction (Part B)", source: "esc", clause: "14.2", means: "Minimum storage per acre draining to a sediment trap or basin." },
-  { key: "silt_fence_drainage_acres_per_100ft", short: "Silt fence drainage area", label: "Silt fence drainage area", unit: "acres/100 ft", group: "Construction (Part B)", source: "esc", clause: "14.4", means: "Maximum drainage area per 100 ft of silt fence." },
-  { key: "silt_fence_slope_length_ft", short: "Silt fence slope length", label: "Slope length above silt fence", unit: "ft", group: "Construction (Part B)", source: "esc", clause: "14.4", means: "Maximum slope length draining to a silt fence." },
-  { key: "construction_entrance_length_ft", short: "Construction entrance", label: "Construction entrance length", unit: "ft", group: "Construction (Part B)", source: "esc", clause: "14.5", means: "Minimum length of a stabilized construction entrance." },
-  { key: "natural_buffer_ft", short: "Natural buffer", label: "Natural buffer from waters", unit: "ft", group: "Construction (Part B)", source: "esc", clause: "13.4", means: "Undisturbed natural buffer kept between disturbance and surface waters." },
+  { key: "conv_storm_drain_storm_yr", short: "Storm drain design storm", label: "Storm drain design storm", unit: "years", group: "Conveyance", source: "conv", clause: "8.1.1", means: "Return period a storm drain must carry without surcharge on a typical street." },
+  { key: "conv_inlet_storm_yr", short: "Inlet design storm", label: "Inlet and gutter spread design storm", unit: "years", group: "Conveyance", source: "conv", clause: "8.1.1", means: "Return period inlets and gutter spread are designed for on a typical street." },
+  { key: "conv_min_pipe_in", short: "Minimum storm drain", label: "Minimum storm drain diameter", unit: "in", group: "Conveyance", source: "conv", clause: "8.3.1", means: "Smallest public storm drain pipe allowed." },
+  { key: "conv_min_velocity_fps", short: "Minimum pipe velocity", label: "Minimum storm drain velocity", unit: "ft/s", group: "Conveyance", source: "conv", clause: "8.3.3", means: "Lowest self-cleaning velocity a storm drain must reach, usually flowing full." },
+  { key: "conv_max_velocity_fps", short: "Maximum pipe velocity", label: "Maximum storm drain velocity", unit: "ft/s", group: "Conveyance", source: "conv", clause: "8.3.4", means: "Highest velocity allowed in a storm drain (concrete pipe, mains)." },
+  { key: "conv_min_cover_ft", short: "Minimum cover", label: "Minimum cover over storm drains", unit: "ft", group: "Conveyance", source: "conv", clause: "8.3.5", means: "Least cover over a storm drain pipe (manuals measure it from finished grade or from the pavement subgrade)." },
+  { key: "conv_manhole_spacing_ft", short: "Access structure spacing", label: "Maximum manhole or access spacing", unit: "ft", group: "Conveyance", source: "conv", clause: "8.3.7", means: "Longest run between manholes or other access structures on smaller storm drains." },
+  { key: "conv_manning_n_concrete", short: "Manning's n, concrete", label: "Manning's n for concrete pipe", unit: "", group: "Conveyance", source: "conv", clause: "8.3.2", means: "Design roughness the manual gives for concrete storm drain pipe." },
+  { key: "conv_hgl_clearance_ft", short: "HGL clearance", label: "Hydraulic grade line clearance", unit: "ft", group: "Conveyance", source: "conv", clause: "8.4.3", means: "Minimum distance the design hydraulic grade line must stay below inlet grates, rims or the ground." },
+  { key: "culv_design_storm_yr", short: "Culvert design storm", label: "Culvert design storm", unit: "years", group: "Conveyance", source: "conv", clause: "8.1.4", means: "Return period a road culvert must pass within its headwater limits (local or typical roads)." },
+  { key: "culv_hw_d", short: "Culvert HW/D", label: "Allowable culvert headwater ratio", unit: "", group: "Conveyance", source: "conv", clause: "8.5.2", means: "Largest ratio of headwater depth to culvert rise (HW/D) allowed at the design flow." },
+  { key: "culv_min_dia_in", short: "Minimum culvert", label: "Minimum culvert diameter", unit: "in", group: "Conveyance", source: "conv", clause: "8.5.3", means: "Smallest culvert allowed under a public road." },
+  { key: "chan_design_storm_yr", short: "Channel design storm", label: "Open channel design storm", unit: "years", group: "Conveyance", source: "conv", clause: "8.1.5", means: "Return period a constructed open channel must carry." },
+  { key: "chan_freeboard_ft", short: "Channel freeboard", label: "Open channel freeboard", unit: "ft", group: "Conveyance", source: "conv", clause: "8.6.2", means: "Minimum height of the channel bank above the design water surface." },
+  { key: "stabilization_days", short: "Stabilization deadline", label: "Time to stabilize inactive areas", unit: "days", group: "Construction (Part B)", source: "esc", clause: "14.1", means: "Days within which disturbed areas must be stabilized once work stops or final grade is reached." },
+  { key: "inspection_days", short: "Inspection interval", label: "Construction inspection interval", unit: "days", group: "Construction (Part B)", source: "esc", clause: "16.1", means: "Days between routine erosion and sediment control inspections." },
+  { key: "inspection_storm_trigger_in", short: "Inspection storm trigger", label: "Rainfall that triggers an inspection", unit: "in", group: "Construction (Part B)", source: "esc", clause: "16.1", means: "Rainfall after which controls must be inspected, usually within 24 hours." },
+  { key: "basin_threshold_acres", short: "Sediment basin threshold", label: "Drainage area needing a sediment basin", unit: "acres", group: "Construction (Part B)", source: "esc", clause: "15.1", means: "Drainage area above which a sediment basin, not a trap, is required." },
+  { key: "basin_storage_cf_per_acre", short: "Sediment storage", label: "Sediment trap and basin storage", unit: "cf/acre", group: "Construction (Part B)", source: "esc", clause: "15.2", means: "Minimum storage per acre draining to a sediment trap or basin." },
+  { key: "silt_fence_drainage_acres_per_100ft", short: "Silt fence drainage area", label: "Silt fence drainage area", unit: "acres/100 ft", group: "Construction (Part B)", source: "esc", clause: "15.4", means: "Maximum drainage area per 100 ft of silt fence." },
+  { key: "silt_fence_slope_length_ft", short: "Silt fence slope length", label: "Slope length above silt fence", unit: "ft", group: "Construction (Part B)", source: "esc", clause: "15.4", means: "Maximum slope length draining to a silt fence." },
+  { key: "construction_entrance_length_ft", short: "Construction entrance", label: "Construction entrance length", unit: "ft", group: "Construction (Part B)", source: "esc", clause: "15.5", means: "Minimum length of a stabilized construction entrance." },
+  { key: "natural_buffer_ft", short: "Natural buffer", label: "Natural buffer from waters", unit: "ft", group: "Construction (Part B)", source: "esc", clause: "14.4", means: "Undisturbed natural buffer kept between disturbance and surface waters." },
 ];
 
-export const GROUPS: RequirementGroup[] = ["Site sizing", "Infiltration", "Bioretention", "Ponds and detention", "Detention outlets and spillways", "Swales and other practices", "Construction (Part B)"];
+export const GROUPS: RequirementGroup[] = ["Site sizing", "Infiltration", "Bioretention", "Ponds and detention", "Detention outlets and spillways", "Conveyance", "Swales and other practices", "Construction (Part B)"];
 
 export interface RequirementValue {
   slug: string;
@@ -151,7 +165,7 @@ export function allRequirementValues(): Map<string, RequirementValue[]> {
       });
     }
   }
-  const hand = ["data/national/esc-checks.json", "data/national/det-checks.json"].flatMap((f) => {
+  const hand = ["data/national/esc-checks.json", "data/national/det-checks.json", "data/national/conv-checks.json"].flatMap((f) => {
     const file = path.join(ROOT, f);
     return existsSync(file)
       ? (JSON.parse(readFileSync(file, "utf-8")).values as Array<{ param: string; slug: string; state: string; level: string; value: number | null; verdict: string; page: number; quote: string; note?: string }>)
