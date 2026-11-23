@@ -226,3 +226,14 @@ nav[aria-label="Breadcrumb"] a {
 /* Chart series (categorical slots 1-2, validated for light and dark surfaces). */
 :root { --series-1: #2a78d6; --series-2: #eb6834; }
 .dark { --series-1: #3987e5; --series-2: #d95926; }
+
+/* Print edition of the manual (/manual/print/): Paged.js draws Letter pages into .pm-pages. */
+.pm-pages .pagedjs_page { background: #fff; color: #1d2630; box-shadow: 0 1px 2px rgb(0 0 0 / 0.08), 0 0 0 1px rgb(0 0 0 / 0.06); margin: 0 auto 24px; }
+@media screen { .pm-pages { overflow-x: auto; padding-bottom: 2rem; } }
+@media print {
+  .pm-chrome { display: none !important; }
+  body:has(.pm-pages) { background: #fff !important; min-height: 0 !important; }
+  .pm-pages { padding: 0 !important; overflow: visible !important; }
+  body:has(.pm-pages) > div { max-width: none !important; padding: 0 !important; margin: 0 !important; min-height: 0 !important; }
+  .pm-pages .pagedjs_page { box-shadow: none !important; margin: 0 !important; }
+}

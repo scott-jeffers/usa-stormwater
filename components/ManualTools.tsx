@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { useMemo, useState } from "react";
 
 export type ClauseIndex = { n: string; id: string; title: string; text: string };
@@ -33,9 +34,12 @@ export function ManualTools({ clauses }: { clauses: ClauseIndex[] }) {
             className="h-10 w-full rounded-md border border-edge-strong bg-surface px-3 text-sm focus:border-water-link focus:outline-none focus:ring-2 focus:ring-water-link/30"
           />
         </label>
-        <button type="button" onClick={() => window.print()} className="h-10 rounded-md border border-edge-strong px-4 text-sm font-medium text-foreground hover:bg-surface-muted">
-          Print or save as PDF
-        </button>
+        <a href="/downloads/model-manual.pdf" download className="h-10 rounded-md bg-water-link px-4 text-sm font-medium leading-10 text-white hover:opacity-90">
+          Download PDF
+        </a>
+        <Link href="/manual/print/" className="h-10 rounded-md border border-edge-strong px-4 text-sm font-medium leading-10 text-foreground hover:bg-surface-muted">
+          Print edition
+        </Link>
       </div>
       {q.trim().length >= 2 && (
         <ul className="divide-y divide-edge rounded-md border border-edge bg-surface text-sm" aria-live="polite">

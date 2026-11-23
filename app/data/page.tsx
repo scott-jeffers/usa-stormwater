@@ -24,6 +24,7 @@ const FILES = [
   { href: "/data/manuals.csv", name: "manuals.csv", what: "One row per manual record: jurisdiction, level, edition, whose rules apply (coverage basis), quote-check counts and source links." },
   { href: "/data/hand-checks.csv", name: "hand-checks.csv", what: "Values read by hand for the model manual, with verdict, page and quote." },
   { href: "/data/esc-checks.csv", name: "esc-checks.csv", what: "Construction erosion and sediment control values read by hand from state and local manuals (Part B of the model manual), with page and quote." },
+  { href: "/downloads/model-manual.pdf", name: "model-manual.pdf", what: "The draft model manual as a paginated PDF (Letter), with contents, running heads and page numbers. Rebuilt with npm run manual:pdf." },
   { href: "/data/det-checks.csv", name: "det-checks.csv", what: "Detention, outlet and spillway values read by hand from state, local and federal manuals (Section 7 of the model manual): spillway storm, freeboard, orifice size and coefficient, downstream analysis, pre-development baseline and more, with page and quote." },
   { href: "/data/dictionary.json", name: "dictionary.json", what: "Every field, its meaning, unit and fill rate." },
   { href: "/data/manuals.json", name: "manuals.json", what: "Index of all records (JSON API). Full records at /data/manuals/{slug}.json." },

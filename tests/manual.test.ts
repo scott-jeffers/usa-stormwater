@@ -1,9 +1,16 @@
+import { readFileSync } from "node:fs";
 import { test } from "node:test";
 import assert from "node:assert/strict";
 import { loadManual, parseManual } from "../lib/manual/parse";
 import { CRITERION_CLAUSE, ESC_CRITERION_CLAUSE, loadCriteria, loadEscCriteria } from "../lib/national/modelManual";
 import { csvCell } from "../scripts/export-research";
 import { parseCsv } from "../components/ValuesTable";
+
+test("the downloadable PDF was made from the current manual version (run npm run build && npm run manual:pdf)", () => {
+  const rec = JSON.parse(readFileSync("public/downloads/model-manual.json", "utf-8")) as { version: string; pages: number };
+  assert.equal(rec.version, loadManual().version);
+  assert.ok(rec.pages > 10);
+});
 
 test("parses numbered clauses with tags, grades and rationale", () => {
   const m = parseManual("---\ntitle: T\nversion: V\n---\n## 3 Std\n\n**3.2 WQ.** [Default, E1] Text **bold**.\n\n> Why: because.\n\n- **6.0.1 Max.** [Open, E1 (thin)] Drain.\n");
