@@ -13,7 +13,7 @@ import { getAllManuals } from "./data";
 import { checkParameterValue, type ValueCheck } from "./qa/load";
 import { coverageBasisFor } from "./sharedManuals";
 
-export type RequirementGroup = "Site sizing" | "Infiltration" | "Bioretention" | "Ponds and detention" | "Swales and other practices" | "Construction (Part B)";
+export type RequirementGroup = "Site sizing" | "Infiltration" | "Bioretention" | "Ponds and detention" | "Detention outlets and spillways" | "Swales and other practices" | "Construction (Part B)";
 
 export interface Criterion {
   key: string;
@@ -23,7 +23,7 @@ export interface Criterion {
   group: RequirementGroup;
   means: string;
   clause?: string;
-  source: "records" | "esc";
+  source: "records" | "esc" | "det";
 }
 
 export const CRITERIA: Criterion[] = [
@@ -42,6 +42,13 @@ export const CRITERIA: Criterion[] = [
   { key: "swale_longitudinal_slope_percent", short: "Swale slope", label: "Swale longitudinal slope", unit: "%", group: "Swales and other practices", source: "records", clause: "6.4.2", means: "Longitudinal slope of a swale (minimum or maximum)." },
   { key: "green_roof_media_depth_inches", short: "Green roof media", label: "Green roof growing media depth", unit: "in", group: "Swales and other practices", source: "records", clause: "6.9.1", means: "Depth of green roof growing media." },
   { key: "green_roof_slope_percent", short: "Green roof slope", label: "Green roof slope", unit: "%", group: "Swales and other practices", source: "records", clause: "6.9.2", means: "Roof slope allowed for a green roof." },
+  { key: "det_spillway_storm_yr", short: "Spillway design storm", label: "Emergency spillway design storm", unit: "years", group: "Detention outlets and spillways", source: "det", clause: "7.8.1", means: "Return period of the storm a detention facility's emergency spillway must pass safely." },
+  { key: "det_freeboard_ft", short: "Freeboard", label: "Detention embankment freeboard", unit: "ft", group: "Detention outlets and spillways", source: "det", clause: "7.8.3", means: "Minimum height of the embankment or berm above the highest design water surface." },
+  { key: "det_min_orifice_in", short: "Minimum orifice", label: "Minimum outlet orifice diameter", unit: "in", group: "Detention outlets and spillways", source: "det", clause: "7.6.2", means: "Smallest orifice allowed in a detention or pond outlet." },
+  { key: "det_orifice_c", short: "Orifice coefficient", label: "Orifice discharge coefficient", unit: "", group: "Detention outlets and spillways", source: "det", clause: "7.6.1", means: "Discharge coefficient C in Q = C A √(2gh) the manual gives for outlet orifices." },
+  { key: "det_downstream_pct", short: "Downstream analysis", label: "Downstream analysis limit", unit: "%", group: "Detention outlets and spillways", source: "det", clause: "7.3", means: "Share of the total drainage area the site makes up at the point where downstream analysis may stop (the 10% rule)." },
+  { key: "det_bottom_slope_pct", short: "Basin bottom slope", label: "Dry basin bottom slope", unit: "%", group: "Detention outlets and spillways", source: "det", clause: "7.9.2", means: "Minimum slope of a dry detention basin bottom toward its outlet." },
+  { key: "det_parking_depth_ft", short: "Parking-lot depth", label: "Parking-lot detention depth", unit: "ft", group: "Detention outlets and spillways", source: "det", clause: "7.10.1", means: "Deepest water allowed where a parking lot is used for detention." },
   { key: "stabilization_days", short: "Stabilization deadline", label: "Time to stabilize inactive areas", unit: "days", group: "Construction (Part B)", source: "esc", clause: "13.1", means: "Days within which disturbed areas must be stabilized once work stops or final grade is reached." },
   { key: "inspection_days", short: "Inspection interval", label: "Construction inspection interval", unit: "days", group: "Construction (Part B)", source: "esc", clause: "15.1", means: "Days between routine erosion and sediment control inspections." },
   { key: "inspection_storm_trigger_in", short: "Inspection storm trigger", label: "Rainfall that triggers an inspection", unit: "in", group: "Construction (Part B)", source: "esc", clause: "15.1", means: "Rainfall after which controls must be inspected, usually within 24 hours." },
@@ -53,7 +60,7 @@ export const CRITERIA: Criterion[] = [
   { key: "natural_buffer_ft", short: "Natural buffer", label: "Natural buffer from waters", unit: "ft", group: "Construction (Part B)", source: "esc", clause: "13.4", means: "Undisturbed natural buffer kept between disturbance and surface waters." },
 ];
 
-export const GROUPS: RequirementGroup[] = ["Site sizing", "Infiltration", "Bioretention", "Ponds and detention", "Swales and other practices", "Construction (Part B)"];
+export const GROUPS: RequirementGroup[] = ["Site sizing", "Infiltration", "Bioretention", "Ponds and detention", "Detention outlets and spillways", "Swales and other practices", "Construction (Part B)"];
 
 export interface RequirementValue {
   slug: string;
@@ -144,20 +151,24 @@ export function allRequirementValues(): Map<string, RequirementValue[]> {
       });
     }
   }
-  const escFile = path.join(ROOT, "data/national/esc-checks.json");
-  if (existsSync(escFile)) {
-    const esc = JSON.parse(readFileSync(escFile, "utf-8")).values as Array<{ param: string; slug: string; state: string; level: string; value: number; verdict: string; page: number; quote: string; note?: string }>;
-    for (const e of esc) {
-      if (e.verdict === "excluded" || !out.has(e.param)) continue;
+  const hand = ["data/national/esc-checks.json", "data/national/det-checks.json"].flatMap((f) => {
+    const file = path.join(ROOT, f);
+    return existsSync(file)
+      ? (JSON.parse(readFileSync(file, "utf-8")).values as Array<{ param: string; slug: string; state: string; level: string; value: number | null; verdict: string; page: number; quote: string; note?: string }>)
+      : [];
+  });
+  {
+    for (const e of hand) {
+      if (e.verdict === "excluded" || !out.has(e.param) || typeof e.value !== "number") continue;
       const m = bySlug.get(e.slug);
       out.get(e.param)!.push({
         slug: e.slug,
         name: m?.data.document_metadata.jurisdiction_name ?? e.slug,
-        state: e.state,
+        state: e.state || null,
         level: e.level,
         basis: coverageBasisFor(e.slug),
         value: e.value,
-        qualifier: null,
+        qualifier: e.verdict === "typical" ? "recommended" : null,
         basisNote: e.note ?? null,
         quote: e.quote,
         page: e.page,
@@ -185,6 +196,8 @@ export function fmtValue(v: number, unit: string): string {
   if (unit === "ratio") return `${n}:1`;
   if (unit === "%") return `${n}%`;
   if (unit === "cf/acre") return `${Number(n).toLocaleString("en-US")} cf/acre`;
+  if (!unit) return n;
+  if (unit === "years") return `${n}-year`;
   return `${n} ${unit}`;
 }
 
@@ -192,6 +205,8 @@ export function fmtValue(v: number, unit: string): string {
 export function fmtRange(a: number, b: number, unit: string): string {
   if (a === b) return fmtValue(a, unit);
   if (unit === "ratio" || unit === "%") return `${fmtValue(a, unit)} – ${fmtValue(b, unit)}`;
+  if (!unit) return `${fmtValue(a, unit)}–${fmtValue(b, unit)}`;
+  if (unit === "years") return `${fmtValue(a, "")}–${fmtValue(b, "")}-year`;
   const strip = (v: number) => fmtValue(v, unit).replace(new RegExp(` ${unit.replace(/[/.]/g, "\\$&")}$`), "");
   return `${strip(a)}–${strip(b)} ${unit}`;
 }

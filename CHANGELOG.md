@@ -2,6 +2,13 @@
 
 Dataset versions use `YEAR.MONTH.PATCH`. The site always serves the latest version; the files listed on [/data/](https://www.stormwateratlas.com/data/) are rebuilt on every deploy.
 
+## 2026.11.4 — 2026-11-24: detention standards
+
+- **Model manual Draft 0.5.** Section 7 is now a full detention standard: performance and pre-development baseline (7.2), downstream analysis to the 10% point (7.3), preliminary sizing and storage-indication routing (7.4), multi-stage outlets, barrels and risers (7.5), orifice and weir equations and coefficients (7.6–7.7), emergency spillways sized for the 100-year storm with the principal outlet blocked and 1 ft of freeboard (7.8), basin geometry (7.9), and underground and parking-lot storage (7.10). New Appendix C works a full design and is part of the automated tests. Three new open questions (pre-development baseline, minimum orifice, basin depth).
+- **New hand-read evidence:** 309 detention, outlet and spillway values from 135 state, local and federal manuals in 45 states and DC (`data/national/det-checks.json`, `/data/det-checks.csv`), classified in `det-classification.json` (`npm run national:classify`). Key results: 100-year spillway storm in 28 of 30 states; 1 ft freeboard in 31 of 33; 10% downstream point in 12 of 16; orifice C 0.60 in 11 of 22; minimum orifice most often 3 in but 0.5–6 in by region.
+- **Seven new requirement pages** (Detention outlets and spillways group) on /requirements/.
+- **Detention and outlet calculator** (/tools/detention/): NRCS hydrographs, stage-storage-discharge with orifices, weirs, V-notches, riser and spillway, barrel check, storage-indication routing, clogged-outlet spillway check, hover chart, CSV, shareable links. Its engine (`lib/detention/engine.ts`) reproduces a published HEC-1 routing (Knoxville BMP Manual ST-12) within 1 cfs and 0.05 ft.
+
 ## Site redesign — 2026-11-19
 
 No data changed (dataset stays 2026.11.3); the site was rebuilt around three jobs: search, look up a requirement, find a jurisdiction.

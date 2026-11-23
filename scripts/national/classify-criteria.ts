@@ -21,10 +21,16 @@ import { readFileSync, writeFileSync } from "node:fs";
 import path from "node:path";
 
 const ROOT = process.cwd();
-// --part=esc classifies Part B (construction erosion and sediment control)
+// --part=esc classifies Part B (construction erosion and sediment control);
+// --part=det classifies detention, outlets and spillways (model manual §7)
 const PART = process.argv.find((a) => a.startsWith("--part="))?.slice(7) ?? "a";
-const IN = path.join(ROOT, PART === "esc" ? "data/national/esc-checks.json" : "data/national/hand-checks.json");
-const OUT = path.join(ROOT, PART === "esc" ? "data/national/esc-classification.json" : "data/national/criteria-classification.json");
+const FILES: Record<string, [string, string]> = {
+  a: ["data/national/hand-checks.json", "data/national/criteria-classification.json"],
+  esc: ["data/national/esc-checks.json", "data/national/esc-classification.json"],
+  det: ["data/national/det-checks.json", "data/national/det-classification.json"],
+};
+const IN = path.join(ROOT, FILES[PART]![0]);
+const OUT = path.join(ROOT, FILES[PART]![1]);
 
 /** NOAA NCEI U.S. climate regions (contiguous U.S.), plus Alaska and Hawaii. */
 export const CLIMATE_REGIONS: Record<string, string[]> = {
@@ -68,6 +74,18 @@ export const ESC_CRITERIA: Record<string, { label: string; unit: string; reads_a
   natural_buffer_ft: { label: "Natural buffer from waters", unit: "ft", reads_as: "undisturbed natural buffer kept between disturbance and surface waters" },
 };
 
+export const DET_CRITERIA: Record<string, { label: string; unit: string; reads_as: string }> = {
+  det_spillway_storm_yr: { label: "Emergency spillway design storm", unit: "years", reads_as: "return period of the storm the emergency (auxiliary) spillway must pass safely" },
+  det_freeboard_ft: { label: "Detention freeboard", unit: "ft", reads_as: "minimum height of embankment or berm above the highest design water surface" },
+  det_min_orifice_in: { label: "Minimum orifice diameter", unit: "in", reads_as: "smallest orifice allowed in a detention or pond outlet" },
+  det_orifice_c: { label: "Orifice discharge coefficient", unit: "coefficient", reads_as: "discharge coefficient the manual gives for outlet orifices" },
+  det_downstream_pct: { label: "Downstream analysis limit", unit: "%", reads_as: "share of the total drainage area the site makes up at the point where downstream analysis may stop" },
+  det_bottom_slope_pct: { label: "Dry basin bottom slope", unit: "%", reads_as: "minimum slope of a dry basin bottom toward the outlet" },
+  det_max_depth_ft: { label: "Maximum detention depth", unit: "ft", reads_as: "deepest design water allowed in a surface detention or retention basin" },
+  det_parking_depth_ft: { label: "Parking-lot detention depth", unit: "ft", reads_as: "deepest water allowed where a parking lot is used for detention" },
+  det_min_barrel_in: { label: "Minimum outlet pipe diameter", unit: "in", reads_as: "smallest barrel or outlet pipe allowed from a detention facility" },
+};
+
 const median = (xs: number[]) => {
   const s = [...xs].sort((a, b) => a - b), m = s.length >> 1;
   return s.length % 2 ? s[m]! : (s[m - 1]! + s[m]!) / 2;
@@ -94,8 +112,8 @@ function main() {
     values: Array<{ param: string; state: string; slug: string; value: number; verdict: string }>;
   };
   const rand = rng(20261118);
-  const criteria = Object.entries(PART === "esc" ? ESC_CRITERIA : CRITERIA).map(([key, meta]) => {
-    const kept = checks.values.filter((v) => v.param === key && v.verdict !== "excluded");
+  const criteria = Object.entries(PART === "esc" ? ESC_CRITERIA : PART === "det" ? DET_CRITERIA : CRITERIA).map(([key, meta]) => {
+    const kept = checks.values.filter((v) => v.param === key && v.verdict !== "excluded" && v.state);
     const byState = new Map<string, number[]>();
     for (const v of kept) byState.set(v.state, [...(byState.get(v.state) ?? []), v.value]);
     const states = [...byState.keys()].sort();
@@ -159,7 +177,12 @@ function main() {
     JSON.stringify(
       {
         generated_at: new Date().toISOString(),
-        part: PART === "esc" ? "B: construction erosion and sediment control (state and local manuals)" : "A: permanent stormwater (state-level manuals)",
+        part:
+          PART === "esc"
+            ? "B: construction erosion and sediment control (state and local manuals)"
+            : PART === "det"
+              ? "Detention, outlets and spillways (state and local manuals)"
+              : "A: permanent stormwater (state-level manuals)",
         method:
           "One value per state (median of hand-checked state-level records). Agreement = share of states within ±10% of the most common value. Climate = eta² across NOAA U.S. climate regions with a 10,000-shuffle permutation p-value. Classes: insufficient (<8 states), consensus (agreement ≥ 50%), climate-linked (p < 0.10, suggestive), divergent (otherwise).",
         criteria,

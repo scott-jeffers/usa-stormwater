@@ -1,7 +1,7 @@
 ---
 title: Model Stormwater Design Manual
-version: Public Review Draft 0.4
-date: 2026-11-18
+version: Public Review Draft 0.5
+date: 2026-11-24
 status: Draft for committee review. Not adopted by any agency.
 ---
 
@@ -23,6 +23,8 @@ Each provision also carries an evidence grade, explained in Appendix A:
 - **E0** common engineering practice with no atlas evidence yet. Treat these as placeholders.
 
 "Shall" marks a requirement and "should" a recommendation. Where a permit, TMDL or local rule is stricter, it controls.
+
+**Changes in Draft 0.5.** Rewrites Section 7 as a full detention standard: what detention must achieve and against what baseline (7.2), downstream analysis (7.3), sizing and routing (7.4), multi-stage outlets and barrels (7.5), the orifice and weir equations and coefficients (7.6–7.7), emergency spillways (7.8), basin geometry (7.9) and underground and parking-lot storage (7.10). Its numbers come from 309 values read by hand in 135 manuals across 45 states and DC. Adds Appendix C, a worked detention design checked by routing, which the site's detention calculator reproduces.
 
 **Changes in Draft 0.4.** Adds Part B, construction-phase erosion and sediment control (Sections 12–16). Its numbers come from 154 values read by hand in 68 state and local manuals across 33 states, set against the federal construction permit, which every site of 1 acre or more must already meet.
 
@@ -90,10 +92,11 @@ Seven standards apply together. A site meets them in order of preference: retain
 > Why: holding the 1-year storm for a day keeps flows below the level that erodes most stream beds for longer than the storm itself lasts.
 
 - *Open question:* which storm. Classified by purpose (E2), 13 of 45 state manuals use the 1-year storm for channel protection, while 20 use the 2-year storm for peak control; 6 do both. The committee should choose between 1-year extended detention, 2-year peak matching, or both.
+- *Evidence for the choice:* in the worked example (Appendix C), the storage needed for 24 hours of 1-year detention brings the routed 2-year peak to 1.5 cfs against a pre-development 8.1 cfs. Where 3.4 applies, 2-year peak control is usually met without a separate stage; the reverse is not true.
 
-**3.5 Peak-flow control.** [Default, E2] Post-development peak discharge shall not exceed pre-development peak discharge for the **2-year and 10-year, 24-hour storms**. Classified by purpose, 20 of 45 state manuals use the 2-year storm and 15 the 10-year storm for peak control; the 25-year storm is used by 8.
+**3.5 Peak-flow control.** [Default, E2] Post-development peak discharge shall not exceed pre-development peak discharge for the **2-year and 10-year, 24-hour storms**, at each point of discharge and against the baseline in 7.2.1. Classified by purpose, 20 of 45 state manuals use the 2-year storm and 15 the 10-year storm for peak control; the 25-year storm is used by 8.
 
-**3.6 Extreme flood.** [Default, E2] Pass the **100-year, 24-hour storm** safely, without flooding buildings and with an emergency spillway sized for it (28 of 45 state manuals use the 100-year storm for flood safety, the most common purpose for that storm).
+**3.6 Extreme flood.** [Default, E1] Pass the **100-year, 24-hour storm** safely, without flooding buildings, through an emergency spillway sized by 7.8 (28 of 30 states that set a spillway storm use the 100-year storm; by purpose, 28 of 45 state manuals use the 100-year storm for flood safety).
 
 **3.7 Redevelopment.** [Open, E0] On redevelopment sites, meet 3.1–3.3 for at least **50% of the replaced impervious area** and 100% of new impervious area, or reduce site impervious area by 20%.
 
@@ -123,7 +126,7 @@ where WQv is in acre-feet, P is the rainfall depth from 3.2 (in), A is the drain
 
 - *Open question:* the 20-acre limit for the rational method is a placeholder (E0). Manuals in the atlas use limits from 10 to 200 acres.
 
-**4.4 Routing.** [Default, E0] Route storage practices with a level-pool or equivalent method. Start each design storm with the WQv and any permanent pool full, and infiltration set to zero.
+**4.4 Routing.** [Default, E3] Route storage practices with a level-pool (storage-indication) or equivalent method, using the starting conditions, time step and tailwater in 7.4.
 
 ## 5 Site assessment and infiltration feasibility
 
@@ -236,9 +239,11 @@ Each practice below may count toward 3.1–3.3 when designed to these minimums. 
 - **6.11.1** [Default, E2] Accept a device for 3.3 only with a current verification from a recognized program such as Washington TAPE or NJCAT. These are the programs the atlas manuals name.
 - **6.11.2** [Default] Size the device to treat the WQv peak flow at its verified rate.
 
-## 7 Pretreatment, outlets and safety
+## 7 Detention, outlets and spillways
 
-Every practice needs a way to drop sediment before it clogs, and a safe way to pass large storms.
+Detention holds runoff and lets it out slowly through a controlled outlet. This section sets what a detention facility must do, how its storage and outlet are sized and checked, and how it passes floods larger than it was designed for. It applies to every practice with an outlet structure: dry and extended detention basins, wet ponds, wetlands, underground tanks and vaults, and rooftop and parking-lot storage.
+
+Its numbers come from 309 values read by hand in 135 state, local and federal manuals across 45 states and DC (Appendix A). One value per state is counted, so a state with many local manuals does not outweigh one with a single manual. The atlas's [detention calculator](/tools/detention/) applies this section and checks a design against it.
 
 **7.1 Pretreatment.** [Default, E3] Provide one of the following ahead of each practice:
 
@@ -248,13 +253,85 @@ Every practice needs a way to drop sediment before it clogs, and a safe way to p
 | Infiltration trenches and basins | 25% of the WQv (19 of 253 manuals) |
 | Bioretention, swales, filters | Grass filter strip, gravel diaphragm or sediment chamber sized for the contributing area (E0) |
 
-**7.2 Outlets.** [Default, E0] Orifices for extended detention shall be at least 1 in in diameter and protected by a trash rack or reverse-slope pipe.
+**7.2 What detention must achieve.** [Default, E1] Each detention facility shall meet, at every point where the site discharges, the channel-protection and peak-control standards of 3.4 and 3.5, and pass the extreme flood under 3.6 and 7.8. Peak control is checked separately for each design storm; a facility designed for one storm controls the others poorly (HEC-22, 10.1.1), so the outlet shall have one stage for each storm it controls (7.5).
 
-**7.3 Emergency spillways.** [Default, E3] Embankment practices shall pass the 100-year storm through an emergency spillway with at least **1 ft of freeboard** to the top of the embankment (87 of 253 manuals state 1 ft).
+- **7.2.1 Pre-development condition.** [Open, E1] Compute pre-development peaks with all pervious areas on the site modeled as **meadow in good condition** (or woods in good condition where the site is wooded), and with 20% of existing impervious area modeled as meadow on redevelopment sites. *Open question:* states define the baseline three ways. Ten manuals in four states (Washington, New Jersey, Maryland, North Carolina) assume forest; Pennsylvania, Michigan, Rhode Island and Vermont use meadow or woods in good condition; five states use the land cover that exists before the project. The draft takes the middle path: it removes the incentive to over-graze or clear a site before applying, without holding every site to a forest it may never have had.
+- **7.2.2 Release at each outfall.** [Default, E0] Meet the peak limits at each point of discharge, not only for the site as a whole. Flow shall not be shifted from one outfall to another to meet the limits unless the receiving system downstream of both is shown to be adequate (7.3).
+- **7.2.3 Reduced release rates.** [Regional, E1] A state or watershed plan may set release rates below the pre-development peak. Eight manuals in eight states do: New Jersey limits the 2-, 10- and 100-year post-development peaks to 50, 75 and 80% of pre-development; Connecticut and Washington DOT limit the 2-year peak to 50%; Tucson's critical basins and the Denver area (Aurora) limit peaks to 90%; Madison, San Francisco and Charleston require reductions of 15, 25 and 10%.
 
-**7.4 Side slopes.** [Default, E3] Side slopes of ponds and basins shall be **3:1** or flatter (106 of 253 manuals), with a 10 ft safety bench around permanent pools deeper than 4 ft (E0).
+> Why (7.2.1): detention sized to an already-developed or degraded baseline locks in today's flooding. A meadow baseline is the most common middle ground, and the one most hydrologic tables (TR-55) define clearly.
 
-**7.5 Dam safety.** Embankments that meet state dam-safety thresholds shall also meet the state dam-safety rules.
+**7.3 Downstream analysis.** [Default, E1] Where a facility controls peaks, show that the post-development peaks and velocities do not exceed pre-development values at each downstream confluence and constriction to the point where the site makes up **10% of the total drainage area** (the "10 percent rule"; 12 of 16 states that set a limit). King County and Salem use 15%; Virginia uses 1%.
+
+> Why: matching peaks at the property line does not guarantee they match downstream, because detention delays and lengthens the outflow and can stack it on the main-stem peak (HEC-22, 10.1.2). Beyond the 10% point the site's effect on the combined hydrograph is generally small.
+
+**7.4 Sizing and routing.** [Default, E3]
+
+- **7.4.1 Preliminary volume.** [Default] A first estimate of storage may use the TR-55 chapter 6 relationship, `Vs/Vr = C0 + C1·(qo/qi) + C2·(qo/qi)² + C3·(qo/qi)³` (Type II and III: 0.682, −1.43, 1.64, −0.804), or the triangular-hydrograph method. These estimates are for layout only: HEC-22 reports they can under- or over-size a basin.
+- **7.4.2 Final design by routing.** [Default, E3] (118 of 253 manuals describe routing.) Final storage and outlet sizes shall be confirmed by routing each design storm's inflow hydrograph through the stage-storage-discharge relationship with the storage-indication (modified Puls) method or an equivalent hydrograph model (HEC-HMS, TR-20, SWMM). The computation step shall not exceed 0.1 hour or one-fifth of the post-development time of concentration, whichever is smaller.
+- **7.4.3 Starting conditions.** [Default, E0] Start each routing with any permanent pool at its normal level, any WQv or channel-protection storage full where it does not drain within 24 hours, and infiltration in the facility set to zero unless measured rates support it (5.3).
+- **7.4.4 Tailwater.** [Default, E0] Use the receiving water's water surface for the same storm when it would submerge the outlet; otherwise assume free outfall.
+- **7.4.5 Drawdown.** [Default, E1] Storage above any permanent pool shall drain within the time set by 6.0.1.
+
+> Why (7.4.2): the preliminary methods average many basins; routing is the only check that the specific outlet and storage meet the specific targets. In the worked example (Appendix C) the average-head estimate of the channel-protection orifice gives 3.6 in, while routing shows 2.25 in is needed for 24 hours of detention.
+
+**7.5 Outlet structures.** [Default, E3]
+
+- **7.5.1 Multi-stage outlets.** [Default, E3] (53 of 253 manuals.) Provide one control for each storm in 3.4–3.5, lowest first: an orifice for channel protection, then orifices or weirs for each peak-control storm, then an overflow for larger storms. Set each stage's invert at or above the maximum water surface of the storm below it, and check every stage with all lower stages flowing (HEC-22, 10.3.3.5).
+- **7.5.2 Barrel.** [Default] Size the outlet pipe so that it does not control the discharge for any storm up to the largest peak-control storm: its outlet-control capacity (HDS-5) at each stage shall exceed the combined flow of the stages above it, and its headwater inside the riser shall stay below the lowest stage it would submerge. The pipe should be at least **15 in** in diameter where it passes through an embankment, for cleaning (E1, thin: Kentucky manuals require 15 in, Detroit 12 in, Denton 18 in and El Paso 24 in).
+- **7.5.3 Riser and barrel construction.** [Default, E3] Risers shall be designed against flotation with a safety factor of at least 1.25 (flotation is addressed in 117 of 253 manuals), and every pipe through an embankment shall have a filter diaphragm or anti-seep collars and watertight joints (66 of 253).
+- **7.5.4 Access.** [Default, E0] Outlet structures shall be reachable for inspection and cleaning without entering the water, and shall have a lockable or bolted access opening.
+
+**7.6 Orifices.** [Default, E1]
+
+```
+Q = C · A · √(2 g h)
+```
+
+where Q is the discharge (cfs), A the orifice area (sf), g = 32.2 ft/s², and h the head (ft) from the water surface to the orifice centroid, or to the downstream water surface when the orifice is submerged.
+
+- **7.6.1 Coefficient.** [Default, E1] Use **C = 0.60** for sharp-edged orifices in plates thinner than the orifice diameter (11 of 22 states that give a value; Washington manuals use 0.62), 0.80 for orifices in walls thicker than the diameter, and 0.40 for ragged edges such as torch-cut holes in corrugated pipe (HEC-22).
+- **7.6.2 Minimum size.** [Regional, E1] No orifice shall be smaller than **3 in** in diameter unless it is protected by internal control (a hood, reverse-slope pipe, perforated riser in a gravel jacket, or screened chamber), in which case the minimum is **1 in**. *Evidence:* 3 in is the most common minimum (14 of 44 manuals; 9 of 24 states), but values range from 0.5 in to 6 in and divide by region. Washington manuals allow 0.5 in, and King County and Seattle 0.25 in, for flow-duration control, while several cities in the Midwest and South require 4–6 in for maintenance.
+- **7.6.3 Partly full orifices.** [Default, E0] Below the crown of the opening, compute flow from the wetted area with the head to its mid-depth, or as a weir, so the rating curve is continuous.
+- **7.6.4 Trash racks.** [Default, E3] Protect every orifice smaller than 6 in with a trash rack or internal protection (131 of 253 manuals call for trash racks). The rack's open area should be at least 10 times the area it protects (Connecticut and Rhode Island), with bars spaced no wider than one-third of the orifice diameter (New Jersey).
+
+> Why (7.6.2): small orifices clog, and a clogged orifice turns a detention basin into a pond that spills more often. But orifices larger than the target allows cannot meet small-storm and flow-duration standards on small sites. Internal protection is how most manuals reconcile the two.
+
+**7.7 Weirs.** [Default, E1] Compute weir flow as `Q = C · L · h^1.5` (US units; h is the head above the crest in ft), with:
+
+| Weir | C (US units) | Notes |
+| --- | --- | --- |
+| Sharp-crested rectangular, no end contractions | 3.33 | HEC-22 Cw = 0.415 when h/height < 0.3; use L − 0.1·n·h for n end contractions |
+| Riser rim (open-top riser) | 3.33 on the circumference | flow is the lesser of rim weir flow and orifice flow through the top area (HEC-22 ex. 10.11) |
+| V-notch | 2.49 · tan(θ/2), with h^2.5 | HEC-22 Cw = 0.31 |
+| Broad-crested (spillways, wide crests) | 2.6–3.1 | use 2.6 unless the crest breadth and head justify more (HEC-22 table 10.7) |
+
+- **7.7.1 Submergence.** [Default, E0] When tailwater rises above a weir crest, reduce the flow by the Villemonte relation, `Qs = Q · (1 − (h2/h1)^1.5)^0.385`.
+
+**7.8 Emergency spillways.** [Default, E1] Every embankment or berm that impounds water shall have an emergency (auxiliary) spillway or overflow path that:
+
+- **7.8.1** [Default, E1] passes the peak inflow of the **100-year, 24-hour storm** (28 of 30 states; 59 of 62 manuals) without overtopping the embankment;
+- **7.8.2** [Default, E1] does so **with the principal outlet assumed fully blocked** and the facility full to the spillway crest at the start of the storm (at least 12 manuals in 8 states state this; most others size the spillway for the 100-year flow without saying whether the outlet works);
+- **7.8.3** [Default, E1] leaves at least **1 ft of freeboard** between the spillway design water surface and the settled top of the embankment (31 of 33 states; 65 of 73 manuals);
+- **7.8.4** [Default, E0] has its crest no lower than the maximum water surface of the largest storm the principal outlet is designed to control, and is built in undisturbed ground or armored where it crosses fill, with a stable outlet to the receiving channel.
+
+> Why (7.8.2): the spillway is the facility's last line of defence. Outlets clog most often in the large storms that carry the most debris, so a spillway that only works when the outlet works protects little. HEC-22 and Illinois DOT prefer 2 ft of freeboard for larger impoundments, and Fairfax County requires 2 ft for its larger dam classes.
+
+**7.9 Basin geometry and safety.** [Default, E3]
+
+- **7.9.1 Side slopes.** [Default, E3] Side slopes of ponds and basins shall be **3:1** or flatter (106 of 253 manuals), with a 10 ft safety bench around permanent pools deeper than 4 ft (E0).
+- **7.9.2 Bottom slope.** [Default, E1] Dry basin bottoms shall slope at least **0.5%** toward the outlet or a paved low-flow channel (7 of 11 states).
+- **7.9.3 Depth.** [Open, E1] Where the public can reach a dry basin, the 100-year depth should not exceed 3–6 ft without a fence or safety bench. *Evidence:* only Arizona jurisdictions set a maximum (3 ft for the 100-year, 2-hour storm in Phoenix, Mesa, Scottsdale and Prescott Valley; 6 ft in Tucson).
+- **7.9.4 Access.** [Default, E0] Provide a maintenance access at least 12 ft wide with a slope no steeper than 15% to the basin bottom and outlet.
+
+**7.10 Underground, rooftop and parking-lot storage.** [Default, E1]
+
+- **7.10.1 Parking lots.** [Default, E1] Parking-lot detention shall not exceed **1 ft** of depth at any point for the largest design storm (4 of 5 manuals; Tacoma 6 in), and shall be posted.
+- **7.10.2 Underground tanks and vaults.** [Default, E0] Provide access over the inlet and the outlet, a sediment sump, ventilation, and a bypass or overflow for storms above the design storm. Size the orifice by 7.6, with a 0.5 in minimum where the orifice is inside a screened, accessible control structure.
+
+**7.11 Dam safety.** [Default] Embankments that meet state dam-safety thresholds shall also meet the state dam-safety rules, which govern where they are stricter than this section.
+
+> Why (Section 7): most manuals agree on the safety numbers (100-year spillway, 1 ft freeboard, 10% downstream point) and disagree on the hydraulics only in the details. The outlet and weir equations above are the ones in HEC-22 and in nearly every state manual that gives them, so a designer working in any state uses the same calculations.
 
 ## 8 Construction, inspection and maintenance
 
@@ -284,7 +361,7 @@ A stormwater management plan shall show how each standard in Section 3 is met, i
 2. WQv, channel-protection and peak-flow calculations (Sections 3 and 4), with rainfall sources.
 3. Infiltration test results and locations (5.1).
 4. Practice plans, sections and details showing every dimension in Section 6.
-5. Outlet and spillway calculations (Section 7).
+5. Stage-storage, stage-discharge and routing calculations for each design storm, outlet and spillway details, and the downstream analysis (Section 7).
 6. A maintenance plan and the recorded agreement (8.4).
 
 **9.3 Review.** [Default, E0] The reviewing agency should complete its first review within 30 days of a complete submittal.
@@ -406,7 +483,7 @@ The grade counts above are computed from this text. Every provision marked E0 is
 - **E3** the number of the 253 distinct manuals whose text states the rule, by text search. This shows how common a rule is, not that the manual requires exactly that value.
 - **E0** common engineering practice with no atlas evidence yet.
 
-In Part B, E1 means values read by hand in every atlas manual with its own rules (state and local), because many states publish their construction handbooks separately from the manuals in the atlas: 154 values from 68 manuals in 33 states ([esc-checks.json](https://github.com/scott-jeffers/usa-stormwater/blob/main/data/national/esc-checks.json)).
+In Section 7 and Part B, E1 means values read by hand in every atlas manual with its own rules (state and local), because many states publish their construction handbooks separately from the manuals in the atlas: 154 values from 68 manuals in 33 states for Part B ([esc-checks.json](https://github.com/scott-jeffers/usa-stormwater/blob/main/data/national/esc-checks.json)) and 309 values from 135 manuals in 45 states and DC for Section 7 ([det-checks.json](https://github.com/scott-jeffers/usa-stormwater/blob/main/data/national/det-checks.json)).
 
 | Provision | Value | Grade | Evidence |
 | --- | --- | --- | --- |
@@ -435,8 +512,16 @@ In Part B, E1 means values read by hand in every atlas manual with its own rules
 | 5.5 Setbacks | 10 ft / 100 ft | E3 | 68 and 55 of 253 manuals |
 | 7.1 Forebay | 10% of WQv | E3 | 45 of 253 manuals |
 | 7.1 Infiltration pretreatment | 25% of WQv | E3 | 19 of 253 manuals |
-| 7.3 Freeboard | 1 ft | E3 | 87 of 253 manuals |
-| 7.4 Side slopes | 3:1 | E3 | 106 of 253 manuals |
+| 7.2.1 Pre-development baseline | meadow, good condition | E1 | forest in 4 states, meadow or woods in 4, existing cover in 5 |
+| 7.3 Downstream analysis | 10% point | E1 | 12 of 16 states; 15% in 2, 1% in Virginia |
+| 7.6.1 Orifice coefficient | 0.60 | E1 | 11 of 22 states; Washington 0.62; 0.66/0.80 for thin/thick plates in 6 manuals |
+| 7.6.2 Minimum orifice | 3 in (1 in protected) | E1 | 9 of 24 states; range 0.5–6 in |
+| 7.8.1 Spillway storm | 100-yr | E1 | 28 of 30 states; 59 of 62 manuals |
+| 7.8.2 Spillway with outlet blocked | required | E1 | 12 manuals in 8 states say so explicitly |
+| 7.8.3 Freeboard | 1 ft | E1 | 31 of 33 states; 65 of 73 manuals |
+| 7.9.1 Side slopes | 3:1 | E3 | 106 of 253 manuals |
+| 7.9.2 Basin bottom slope | 0.5% min | E1 | 7 of 11 states |
+| 7.10.1 Parking-lot depth | 1 ft max | E1 (thin) | 4 of 5 manuals |
 | 8.4–8.5 Maintenance | agreement, annual inspection | E3 | 125 and 120 of 253 manuals |
 | 13.1 Stabilization deadline | 14 days | E1 | 9 of 15 states; 5 use 5–7 days |
 | 13.4 Natural buffer | 50 ft | E1 (thin) | all 5 states that state one |
@@ -460,7 +545,65 @@ These decisions set the size and cost of most practices. Each is marked [Open] i
 5. **Bioretention media (6.1.1):** 18 in or 24 in as the default minimum? States split 8 to 8.
 6. **Wet-pond depth (6.5.2):** confirm 4–8 ft once more states are read.
 7. **Rational-method limit (4.3):** 20 acres, or another limit?
-8. **Fee in lieu (11.2):** require a published, cost-based rate formula?
-9. **Construction stabilization (13.1):** 14 days for all sites, with 7 days for sensitive waters or wet seasons?
-10. **Sediment basin threshold (14.1):** 5 acres (most states) or the federal 10 acres?
-11. **Evidence gaps:** before adoption, replace each E0 placeholder with E1 or E2 evidence, and add the western and southern state manuals missing from the atlas.
+8. **Pre-development baseline (7.2.1):** meadow in good condition, forest, or the land cover that exists before the project?
+9. **Minimum orifice (7.6.2):** keep a 3 in default with a 1 in protected minimum, or allow 0.5 in nationally to make flow-duration control possible on small sites?
+10. **Basin depth (7.9.3):** set a national maximum depth for dry basins open to the public, or leave it to fencing and safety-bench rules?
+11. **Fee in lieu (11.2):** require a published, cost-based rate formula?
+12. **Construction stabilization (13.1):** 14 days for all sites, with 7 days for sensitive waters or wet seasons?
+13. **Sediment basin threshold (14.1):** 5 acres (most states) or the federal 10 acres?
+14. **Evidence gaps:** before adoption, replace each E0 placeholder with E1 or E2 evidence, and add the western and southern state manuals missing from the atlas.
+
+## Appendix C: Worked example, detention basin
+
+This example applies Sections 3, 4 and 7 to one site. Every number below is computed by the routing engine behind the site's [detention calculator](/tools/detention/), which loads this example, and the calculation is part of the atlas's automated tests. Rainfall depths are illustrative; use NOAA Atlas 14 for a real site (4.1).
+
+**Site.** 10 acres, hydrologic soil group C, NRCS Type II rainfall. Before development the site is meadow in good condition (CN 71, Tc 0.40 h; 7.2.1). After development it is half impervious (CN 85, Tc 0.15 h).
+
+| Storm | 24-h rainfall | Pre-development peak | Post-development peak (no detention) | Post-development runoff |
+| --- | --- | --- | --- | --- |
+| 1-year | 2.6 in | 4.6 cfs | 17.7 cfs | 1.26 in |
+| 2-year | 3.2 in | 8.1 cfs | 24.7 cfs | 1.76 in |
+| 10-year | 4.9 in | 20.4 cfs | 45.5 cfs | 3.28 in |
+| 100-year | 7.6 in | 42.9 cfs | 78.9 cfs | 5.83 in |
+
+**Targets.** Hold the 1-year runoff for 24 hours, measured between the centroids of the inflow and outflow hydrographs (3.4); keep the routed 2- and 10-year peaks at or below 8.1 and 20.4 cfs (3.5); pass the 100-year storm with 1 ft of freeboard, including with the principal outlet blocked (7.8).
+
+**Step 1. Preliminary volume (7.4.1).** For the 10-year storm, qo/qi = 20.4/45.5 = 0.45, so Vs/Vr = 0.682 − 1.43(0.45) + 1.64(0.45)² − 0.804(0.45)³ = 0.30, and Vs = 0.30 × 3.28 in × 10 ac × 3,630 = 35,500 cf for peak control alone. The 1-year channel-protection volume is 1.26 in × 10 ac = 45,700 cf. A basin 120 ft by 60 ft at the bottom with 3:1 side slopes (storage V = L·W·h + (L+W)·z·h² + 4/3·z²·h³) holds 38,200 cf at 4 ft and 65,200 cf at 6 ft.
+
+**Step 2. Channel-protection orifice (7.6).** Releasing 45,700 cf over 24 hours at half its 4.6 ft depth suggests a 3.6 in orifice. Routing the 1-year storm shows that orifice releases too fast; a **2.25 in orifice** at the basin floor gives a centroid detention time of **27.4 hours**, with the 1-year water surface at 3.71 ft and a peak release of 0.25 cfs. Because 2.25 in is below the 3 in minimum, it is placed inside the riser behind a reverse-slope pipe (7.6.2).
+
+**Step 3. 10-year stage (7.5.1, 7.7).** A rectangular notch **3.5 ft wide** with its crest at **3.8 ft**, just above the 1-year water surface, cut in the riser wall (C = 3.33). Routing gives a 10-year peak of **19.6 cfs** (target 20.4) at 5.20 ft, and a 2-year peak of **1.5 cfs** (target 8.1) at 4.02 ft. No separate 2-year stage is needed (see 3.4).
+
+**Step 4. Overflow and spillway (7.8).** The riser is 48 in in diameter with its open top at **5.3 ft**, above the 10-year water surface. The emergency spillway is a broad-crested weir **20 ft wide** (C = 2.6) with its crest at **6.0 ft**, cut in undisturbed ground. The top of the embankment is at **8.5 ft**.
+
+**Step 5. Stage-storage-discharge (7.4.2).**
+
+| Stage (ft) | Storage (cf) | 2.25 in orifice | 3.5 ft notch | Riser top | Spillway | Total (cfs) |
+| --- | --- | --- | --- | --- | --- | --- |
+| 0.0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 1.0 | 7,750 | 0.13 | 0 | 0 | 0 | 0.13 |
+| 2.0 | 16,660 | 0.18 | 0 | 0 | 0 | 0.18 |
+| 3.0 | 26,780 | 0.23 | 0 | 0 | 0 | 0.23 |
+| 4.0 | 38,210 | 0.26 | 1.04 | 0 | 0 | 1.31 |
+| 4.5 | 44,430 | 0.28 | 6.83 | 0 | 0 | 7.10 |
+| 5.0 | 51,000 | 0.29 | 15.32 | 0 | 0 | 15.62 |
+| 5.5 | 57,930 | 0.31 | 25.83 | 3.74 | 0 | 29.89 |
+| 6.0 | 65,230 | 0.32 | 38.03 | 24.51 | 0 | 62.86 |
+| 6.5 | 72,910 | 0.34 | 51.71 | 55.01 | 18.38 | 123.2 (barrel limits the riser to 104.9) |
+| 7.0 | 80,980 | 0.35 | 66.72 | 78.89 | 52.00 | 160.8 (barrel limits the riser to 108.8) |
+
+**Step 6. Route every storm (7.4.2).** Storage-indication routing at a 1-minute step:
+
+| Storm | Inflow peak | Routed peak | Target | Maximum water surface | Freeboard to 8.5 ft |
+| --- | --- | --- | --- | --- | --- |
+| 1-year | 17.7 cfs | 0.25 cfs | 24 h centroid detention (27.4 h) | 3.71 ft | 4.8 ft |
+| 2-year | 24.7 cfs | 1.5 cfs | 8.1 cfs | 4.02 ft | 4.5 ft |
+| 10-year | 45.5 cfs | 19.6 cfs | 20.4 cfs | 5.20 ft | 3.3 ft |
+| 100-year | 78.9 cfs | 71.0 cfs | pass safely | 6.09 ft | 2.4 ft |
+| 100-year, principal outlet blocked, basin full to the spillway crest | 78.9 cfs | 72.7 cfs | 1 ft freeboard | 7.25 ft | 1.25 ft |
+
+**Step 7. Barrel (7.5.2).** A 36 in concrete pipe 60 ft long (n = 0.013, entrance loss 0.5) with a free outfall at −1.6 ft carries 101 cfs in outlet control with the pond at the 100-year level (6.09 ft), more than the 71 cfs the riser passes then; a 30 in pipe would carry only 70 cfs and would control the outflow. Above about 6.4 ft the 36 in barrel does limit the riser, which is why the spillway, not the riser, carries flows above the 100-year storm.
+
+**Step 8. Riser flotation (7.5.3).** An empty 48 in riser rising 6.3 ft above its footing displaces 4,940 lb of water, so the riser and its base must weigh at least 6,180 lb (safety factor 1.25).
+
+**Result.** All targets are met, with 1.25 ft of freeboard in the most severe case (outlet blocked). The binding requirement is channel protection: the 1-year detention sets the orifice and most of the storage, and the 2-year peak control in 3.5 then comes for free.

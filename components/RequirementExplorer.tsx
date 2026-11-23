@@ -189,7 +189,7 @@ export function RequirementExplorer({ rows, unit, byState, criterionKey }: { row
               {th("state", "State")}
               {th("name", "Jurisdiction")}
               <th>Level</th>
-              {th("value", `Value${unit === "ratio" ? "" : ` (${unit})`}`, true)}
+              {th("value", `Value${unit === "ratio" || !unit ? "" : ` (${unit})`}`, true)}
               <th>Source</th>
               <th>Check</th>
             </tr>

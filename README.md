@@ -233,6 +233,7 @@ Do not paste API keys into Netlify env settings for this project.
 - **Record pages** (`/{slug}/`): requirement sheet first, then the extracted design criteria with evidence.
 - **Compare** (`/compare/?m=slug,slug`): up to four, differences marked, national column.
 - **Model manual** (`/manual/`, evidence at `/manual/evidence/`), **Resources** (`/resources/`: data, archive, federal, about).
+- **Detention calculator** (`/tools/detention/`): engine in `lib/detention/engine.ts`, worked example in `lib/detention/example.ts` (model manual Appendix C); both are tested in `tests/detention.test.ts` against HEC-1 and HEC-22 examples.
 - Retired `/national/*` URLs redirect in `netlify.toml`.
 
 ## Project structure

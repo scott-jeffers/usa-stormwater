@@ -18,6 +18,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/resources/",
     "/data/",
     "/archive/",
+    "/tools/detention/",
     "/federal/",
     "/about/",
   ].map((p) => ({ url: `${BASE}${p}` }));

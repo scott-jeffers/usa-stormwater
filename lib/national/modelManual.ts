@@ -60,6 +60,26 @@ export const ESC_CRITERION_CLAUSE: Record<string, string> = {
   inspection_storm_trigger_in: "15.1",
 };
 
+/** Detention, outlet and spillway criteria (model manual Section 7) and their clauses. */
+export const DET_CRITERION_CLAUSE: Record<string, string> = {
+  det_spillway_storm_yr: "7.8.1",
+  det_freeboard_ft: "7.8.3",
+  det_downstream_pct: "7.3",
+  det_orifice_c: "7.6.1",
+  det_min_orifice_in: "7.6.2",
+  det_bottom_slope_pct: "7.9.2",
+  det_max_depth_ft: "7.9.3",
+  det_parking_depth_ft: "7.10.1",
+  det_min_barrel_in: "7.5.2",
+};
+
+const DET_FILE = path.resolve(process.cwd(), "data/national/det-classification.json");
+
+export function loadDetCriteria(): { generated_at: string; method: string; criteria: CriterionEvidence[] } | null {
+  if (!existsSync(DET_FILE)) return null;
+  return JSON.parse(readFileSync(DET_FILE, "utf-8"));
+}
+
 const FILE = path.resolve(process.cwd(), "data/national/criteria-classification.json");
 const ESC_FILE = path.resolve(process.cwd(), "data/national/esc-classification.json");
 
