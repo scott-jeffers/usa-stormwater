@@ -71,12 +71,12 @@ export type Watershed = { areaAc: number; cn: number; tcHours: number };
  * Runoff hydrograph (cfs at every dt) for a 24-hour design storm, by the NRCS
  * dimensionless unit hydrograph (peak rate factor 484, lag = 0.6 Tc).
  */
-export function hydrograph(w: Watershed, P: number, dist: Distribution, dtH: number, hours = 36): { q: number[]; runoffIn: number } {
+export function hydrograph(w: Watershed, P: number, dist: Distribution, dtH: number, hours = 36, prf = 484): { q: number[]; runoffIn: number } {
   const n = Math.round(hours / dtH);
   const cum = Array.from({ length: n + 1 }, (_, i) => runoffDepth(P * cumulativeFraction(Math.min(i * dtH, 24), dist), w.cn));
   const lag = 0.6 * w.tcHours;
   const Tp = dtH / 2 + lag;
-  const qp = (484 * (w.areaAc / 640)) / Tp; // cfs per inch of runoff
+  const qp = (prf * (w.areaAc / 640)) / Tp; // cfs per inch of runoff (peak rate factor 484 standard, 284 Delmarva)
   const xs = DUH.map((d) => d[0]), ys = DUH.map((d) => d[1]);
   const m = Math.floor((5 * Tp) / dtH) + 2;
   const uh = Array.from({ length: m }, (_, j) => qp * interp(((j + 1) * dtH) / Tp, xs, ys));

@@ -13,6 +13,7 @@ export const metadata: Metadata = pageMeta(
 const ITEMS = [
   { href: "/data/", h: "Open data", p: `Every value as CSV and JSON with a data dictionary, citation file and changelog. Dataset ${DATASET_VERSION}, CC BY 4.0.` },
   { href: "/tools/detention/", h: "Detention and outlet calculator", p: "Route design storms through a basin and its orifices, weirs, riser, barrel and spillway, and check the result against Section 7 of the model manual." },
+  { href: "/tools/hydrology/", h: "Time of concentration and peak flow calculator", p: "Build Tc from flow-path segments and compute rational and NRCS peaks before and after development, checked against Section 4 of the model manual." },
   { href: "/tools/hydraulics/", h: "Storm drain, inlet, culvert and channel calculator", p: "Size pipes, compute gutter spread and inlet interception, run the HGL with the FHWA access-hole method, find culvert headwater by HDS-5 and check channels against Section 8 of the model manual." },
   { href: "/archive/", h: "Design archive", p: "Standard detail libraries, CAD and PDF drawings, and worked design examples and sample plans published by public agencies." },
   { href: "/manual/evidence/", h: "Evidence for the model manual", p: "How each number in the model manual was chosen: state-by-state values, hand checks, agreement and climate tests." },

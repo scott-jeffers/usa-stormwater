@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { pageMeta } from "@/lib/site";
 import { ValueStrip, withUnit } from "@/components/ValueStrip";
-import { CLASS_LABELS, CONV_CRITERION_CLAUSE, CRITERION_CLAUSE, DET_CRITERION_CLAUSE, ESC_CRITERION_CLAUSE, loadConvCriteria, loadCriteria, loadDetCriteria, loadEscCriteria, type CriterionEvidence } from "@/lib/national/modelManual";
+import { CLASS_LABELS, CONV_CRITERION_CLAUSE, HYD_CRITERION_CLAUSE, loadHydCriteria, CRITERION_CLAUSE, DET_CRITERION_CLAUSE, ESC_CRITERION_CLAUSE, loadConvCriteria, loadCriteria, loadDetCriteria, loadEscCriteria, type CriterionEvidence } from "@/lib/national/modelManual";
 import type { Clause } from "@/lib/manual/parse";
 import { clauseId, loadManual } from "@/lib/manual/parse";
 import { inline } from "@/components/ManualText";
@@ -147,6 +147,8 @@ export default function ModelManualPage() {
   const det = loadDetCriteria();
   const detCrit = det?.criteria ?? [];
   const detStates = new Set(detCrit.flatMap((c) => c.by_state.map((s) => s.state)));
+  const hydCrit = loadHydCriteria()?.criteria ?? [];
+  const hydStates = new Set(hydCrit.flatMap((c) => c.by_state.map((s) => s.state)));
   const convCrit = loadConvCriteria()?.criteria ?? [];
   const convStates = new Set(convCrit.flatMap((c) => c.by_state.map((s) => s.state)));
   const manual = loadManual();
@@ -177,6 +179,8 @@ export default function ModelManualPage() {
         <p className="text-sm">
           <a href="#part-a" className="text-water-link hover:underline">Part A: permanent stormwater</a>
           {" · "}
+          <a href="#hydrology" className="text-water-link hover:underline">Hydrology</a>
+          {" · "}
           <a href="#detention" className="text-water-link hover:underline">Detention, outlets and spillways</a>
           {" · "}
           <a href="#conveyance" className="text-water-link hover:underline">Conveyance</a>
@@ -197,6 +201,14 @@ export default function ModelManualPage() {
         intro={`State-level manuals read by hand: ${crit.length} criteria, ${states.size} states.`}
         crit={crit}
         clauseMap={CRITERION_CLAUSE}
+        clause={clause}
+      />
+      <EvidenceGroup
+        id="hydrology"
+        title="Hydrology (Section 4)"
+        intro={`State, local and federal manuals read by hand: ${hydCrit.length} criteria, ${hydStates.size} states. One value per state is the median of its manuals; federal manuals are listed in the data but not counted as a state.`}
+        crit={hydCrit}
+        clauseMap={HYD_CRITERION_CLAUSE}
         clause={clause}
       />
       <EvidenceGroup
@@ -235,7 +247,9 @@ export default function ModelManualPage() {
         {" · "}
         <a href="/data/det-checks.csv" className="text-water-link hover:underline">det-checks.csv</a>
         {" · "}
-        <a href="/data/conv-checks.csv" className="text-water-link hover:underline">conv-checks.csv</a> · rebuilt with{" "}
+        <a href="/data/conv-checks.csv" className="text-water-link hover:underline">conv-checks.csv</a>
+        {" · "}
+        <a href="/data/hyd-checks.csv" className="text-water-link hover:underline">hyd-checks.csv</a> · rebuilt with{" "}
         <code className="rounded bg-surface-muted px-1">npm run national:classify</code>.
       </p>
     </main>

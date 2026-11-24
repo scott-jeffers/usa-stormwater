@@ -30,6 +30,7 @@ const FILES: Record<string, [string, string]> = {
   esc: ["data/national/esc-checks.json", "data/national/esc-classification.json"],
   det: ["data/national/det-checks.json", "data/national/det-classification.json"],
   conv: ["data/national/conv-checks.json", "data/national/conv-classification.json"],
+  hyd: ["data/national/hyd-checks.json", "data/national/hyd-classification.json"],
 };
 const IN = path.join(ROOT, FILES[PART]![0]);
 const OUT = path.join(ROOT, FILES[PART]![1]);
@@ -105,6 +106,14 @@ export const CONV_CRITERIA: Record<string, { label: string; unit: string; reads_
   chan_freeboard_ft: { label: "Open channel freeboard", unit: "ft", reads_as: "minimum height of channel bank above the design water surface" },
 };
 
+export const HYD_CRITERIA: Record<string, { label: string; unit: string; reads_as: string }> = {
+  hyd_min_tc_min: { label: "Minimum time of concentration", unit: "min", reads_as: "shortest time of concentration a design may use (developed or paved areas where the manual gives several)" },
+  hyd_sheet_flow_max_ft: { label: "Maximum sheet-flow length", unit: "ft", reads_as: "longest flow path that may be treated as sheet flow in time-of-concentration calculations (developed conditions)" },
+  hyd_rational_max_ac: { label: "Rational method area limit", unit: "acres", reads_as: "largest drainage area for which the rational method may be used to compute peak flow" },
+  hyd_rational_c_impervious: { label: "Rational C for impervious surfaces", unit: "coefficient", reads_as: "runoff coefficient the manual gives for pavement and roofs in the rational method" },
+  hyd_cn_impervious: { label: "Curve number for impervious surfaces", unit: "CN", reads_as: "NRCS curve number the manual assigns to directly connected impervious area" },
+};
+
 const median = (xs: number[]) => {
   const s = [...xs].sort((a, b) => a - b), m = s.length >> 1;
   return s.length % 2 ? s[m]! : (s[m - 1]! + s[m]!) / 2;
@@ -131,7 +140,7 @@ function main() {
     values: Array<{ param: string; state: string; slug: string; value: number; verdict: string }>;
   };
   const rand = rng(20261118);
-  const criteria = Object.entries(PART === "esc" ? ESC_CRITERIA : PART === "det" ? DET_CRITERIA : PART === "conv" ? CONV_CRITERIA : CRITERIA).map(([key, meta]) => {
+  const criteria = Object.entries(PART === "esc" ? ESC_CRITERIA : PART === "det" ? DET_CRITERIA : PART === "conv" ? CONV_CRITERIA : PART === "hyd" ? HYD_CRITERIA : CRITERIA).map(([key, meta]) => {
     const kept = checks.values.filter((v) => v.param === key && v.verdict !== "excluded" && v.state);
     const byState = new Map<string, number[]>();
     for (const v of kept) byState.set(v.state, [...(byState.get(v.state) ?? []), v.value]);
@@ -203,6 +212,8 @@ function main() {
               ? "Detention, outlets and spillways (state and local manuals)"
               : PART === "conv"
                 ? "Conveyance: storm drains, inlets, culverts and open channels (state and local manuals)"
+                : PART === "hyd"
+                  ? "Hydrology: time of concentration, rational method and curve numbers (state and local manuals)"
                 : "A: permanent stormwater (state-level manuals)",
         method:
           "One value per state (median of hand-checked state-level records). Agreement = share of states within ±10% of the most common value. Climate = eta² across NOAA U.S. climate regions with a 10,000-shuffle permutation p-value. Classes: insufficient (<8 states), consensus (agreement ≥ 50%), climate-linked (p < 0.10, suggestive), divergent (otherwise).",

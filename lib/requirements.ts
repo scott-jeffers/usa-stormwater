@@ -13,7 +13,7 @@ import { getAllManuals } from "./data";
 import { checkParameterValue, type ValueCheck } from "./qa/load";
 import { coverageBasisFor } from "./sharedManuals";
 
-export type RequirementGroup = "Site sizing" | "Infiltration" | "Bioretention" | "Ponds and detention" | "Detention outlets and spillways" | "Conveyance" | "Swales and other practices" | "Construction (Part B)";
+export type RequirementGroup = "Hydrology" | "Site sizing" | "Infiltration" | "Bioretention" | "Ponds and detention" | "Detention outlets and spillways" | "Conveyance" | "Swales and other practices" | "Construction (Part B)";
 
 export interface Criterion {
   key: string;
@@ -23,10 +23,15 @@ export interface Criterion {
   group: RequirementGroup;
   means: string;
   clause?: string;
-  source: "records" | "esc" | "det" | "conv";
+  source: "records" | "esc" | "det" | "conv" | "hyd";
 }
 
 export const CRITERIA: Criterion[] = [
+  { key: "hyd_min_tc_min", short: "Minimum Tc", label: "Minimum time of concentration", unit: "min", group: "Hydrology", source: "hyd", clause: "4.4.3", means: "Shortest time of concentration a design may use (developed or paved areas where the manual gives several)." },
+  { key: "hyd_sheet_flow_max_ft", short: "Sheet-flow length", label: "Maximum sheet-flow length", unit: "ft", group: "Hydrology", source: "hyd", clause: "4.4.2", means: "Longest flow path that may be treated as sheet flow in time-of-concentration calculations." },
+  { key: "hyd_rational_max_ac", short: "Rational method limit", label: "Rational method area limit", unit: "acres", group: "Hydrology", source: "hyd", clause: "4.3", means: "Largest drainage area for which the rational method may be used to compute peak flow." },
+  { key: "hyd_rational_c_impervious", short: "Rational C, impervious", label: "Rational runoff coefficient for impervious surfaces", unit: "", group: "Hydrology", source: "hyd", clause: "4.5.1", means: "Runoff coefficient C the manual gives for pavement and roofs." },
+  { key: "hyd_cn_impervious", short: "Impervious curve number", label: "Curve number for impervious surfaces", unit: "", group: "Hydrology", source: "hyd", clause: "4.6.1", means: "NRCS curve number assigned to directly connected impervious area." },
   { key: "wqv_depth_inches", short: "Water-quality depth", label: "Water-quality rainfall depth", unit: "in", group: "Site sizing", source: "records", clause: "3.2", means: "Rainfall (or runoff) depth the water-quality volume is sized for." },
   { key: "ed_drain_time_hours", short: "Extended-detention time", label: "Extended-detention release time", unit: "hours", group: "Ponds and detention", source: "records", clause: "6.6.1", means: "Time over which an extended-detention volume is released." },
   { key: "max_drawdown_hours", short: "Maximum drawdown", label: "Maximum drawdown time", unit: "hours", group: "Site sizing", source: "records", clause: "6.0.1", means: "Longest time a practice may hold water after a storm." },
@@ -74,7 +79,7 @@ export const CRITERIA: Criterion[] = [
   { key: "natural_buffer_ft", short: "Natural buffer", label: "Natural buffer from waters", unit: "ft", group: "Construction (Part B)", source: "esc", clause: "14.4", means: "Undisturbed natural buffer kept between disturbance and surface waters." },
 ];
 
-export const GROUPS: RequirementGroup[] = ["Site sizing", "Infiltration", "Bioretention", "Ponds and detention", "Detention outlets and spillways", "Conveyance", "Swales and other practices", "Construction (Part B)"];
+export const GROUPS: RequirementGroup[] = ["Hydrology", "Site sizing", "Infiltration", "Bioretention", "Ponds and detention", "Detention outlets and spillways", "Conveyance", "Swales and other practices", "Construction (Part B)"];
 
 export interface RequirementValue {
   slug: string;
@@ -165,7 +170,7 @@ export function allRequirementValues(): Map<string, RequirementValue[]> {
       });
     }
   }
-  const hand = ["data/national/esc-checks.json", "data/national/det-checks.json", "data/national/conv-checks.json"].flatMap((f) => {
+  const hand = ["data/national/esc-checks.json", "data/national/det-checks.json", "data/national/conv-checks.json", "data/national/hyd-checks.json"].flatMap((f) => {
     const file = path.join(ROOT, f);
     return existsSync(file)
       ? (JSON.parse(readFileSync(file, "utf-8")).values as Array<{ param: string; slug: string; state: string; level: string; value: number | null; verdict: string; page: number; quote: string; note?: string }>)

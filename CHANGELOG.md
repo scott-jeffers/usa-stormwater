@@ -2,6 +2,13 @@
 
 Dataset versions use `YEAR.MONTH.PATCH`. The site always serves the latest version; the files listed on [/data/](https://www.stormwateratlas.com/data/) are rebuilt on every deploy.
 
+## 2026.11.6 — 2026-11-24: hydrology standards
+
+- **Model manual Draft 0.7.** Section 4 is now a full hydrology standard: rainfall source, distribution and duration (4.1), method selection with the rational method up to 200 acres for conveyance and hydrographs for all storage (4.3), time of concentration by segments with a 100 ft sheet-flow limit and 5-minute minimum (4.4), rational coefficients and frequency factors (4.5), curve numbers with impervious and pervious runoff computed separately, initial abstraction and unit hydrographs (4.6), routing (4.7) and continuous simulation (4.8). Future rainfall (4.1.1) waits for NOAA Atlas 15, with the factors New Jersey, Pittsburgh, Massachusetts and Lancaster already use recorded for the committee. New Appendix E works a site's hydrology and is part of the automated tests.
+- **New hand-read evidence:** 229 hydrology values from 122 manuals in 44 states (`data/national/hyd-checks.json`, `/data/hyd-checks.csv`), classified in `hyd-classification.json`. Key results: 5-minute minimum Tc in 19 of 32 states; 100 ft sheet flow in 16 of 25; CN 98 for impervious area in all 26 states that state it; C = 0.90 for impervious area in 5 of 8; rational-method limits from 10 to 320 acres, most often 200 (13 of 34), with a regional pattern.
+- **Five new requirement pages** (Hydrology group) on /requirements/.
+- **Time of concentration and peak flow calculator** (/tools/hydrology/): Tc segments before and after development, rational and NRCS peaks, weighted versus separate curve numbers, hydrograph chart and CSV, shareable links. Engine tested against HEC-22 Examples 4.1–4.4 (`tests/hydrology.test.ts`).
+
 ## 2026.11.5 — 2026-11-24: conveyance standards
 
 - **Model manual Draft 0.6.** New Section 8 sets conveyance standards: design storms for storm drains, inlets, culverts and channels with a 100-year overflow path (8.1), gutter spread and inlet interception on grade and in sags (8.2), storm drain size, roughness, velocity, cover and access spacing (8.3), the hydraulic grade line by the FHWA access-hole method with 1 ft of clearance (8.4), culvert headwater by HDS-5 with HW/D ≤ 1.5 (8.5), open channels with 1 ft of freeboard (8.6) and outfalls (8.7). New Appendix D works a street, storm drain, culvert and channel and is part of the automated tests. Five new open questions. Former Sections 8–16 are renumbered 9–17; requirement pages and the evidence page follow.

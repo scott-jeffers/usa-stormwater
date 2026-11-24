@@ -1,6 +1,6 @@
 ---
 title: Model Stormwater Design Manual
-version: Public Review Draft 0.6
+version: Public Review Draft 0.7
 date: 2026-11-24
 status: Draft for committee review. Not adopted by any agency.
 ---
@@ -25,6 +25,8 @@ Each provision also carries an evidence grade, explained in Appendix A:
 **Versions.** This manual is numbered like software: it stays at version 0.x (Draft 0.6, 0.7 and so on) through every round of community and professional review, and each release lists what changed. No version 1 will be published until reviewers outside the project have checked it.
 
 "Shall" marks a requirement and "should" a recommendation. Where a permit, TMDL or local rule is stricter, it controls.
+
+**Changes in Draft 0.7.** Rewrites Section 4 as a full hydrology standard: rainfall source, temporal distribution and duration (4.1), the choice between the rational method, NRCS hydrographs and continuous simulation (4.3, 4.8), time of concentration by segments with a 100 ft sheet-flow limit and a 5-minute minimum (4.4), rational-method coefficients and frequency factors (4.5), and curve numbers, separate impervious and pervious runoff and unit hydrographs (4.6). Its numbers come from 229 values read by hand in 122 manuals across 44 states. Future rainfall waits for NOAA Atlas 15 (4.1.1), with the rules states already use recorded for the committee. Adds Appendix E, a worked hydrology example the site's hydrology calculator reproduces.
 
 **Changes in Draft 0.6.** Adds Section 8, conveyance: design storms for storm drains, inlets, culverts and channels (8.1), gutter spread and inlets (8.2), storm drain pipes (8.3), the hydraulic grade line by the FHWA access-hole method (8.4), culverts (8.5), open channels (8.6) and outfalls (8.7). Its numbers come from 379 values read by hand in 119 manuals across 44 states. Adds Appendix D, a worked storm drain, culvert and channel design, which the site's hydraulics calculator reproduces. Former Sections 8–16 are now 9–17.
 
@@ -108,11 +110,17 @@ Seven standards apply together. A site meets them in order of preference: retain
 
 ## 4 Hydrology and calculation methods
 
-Use current published rainfall and a method suited to the drainage area.
+Every number in Sections 3, 7 and 8 depends on the rainfall, runoff and timing used to compute it. This section sets where rainfall comes from, which method computes peak flows and hydrographs, and how its inputs are chosen, so that two engineers given the same site get the same answer.
 
-**4.1 Rainfall data.** [Default, E3] Use NOAA Atlas 14 (or its successor) depths and distributions for the site. 87 of 253 manuals cite Atlas 14.
+Its numbers come from 229 values read by hand in 122 state, local and federal manuals: 119 from 44 states and three FHWA manuals (Appendix A), plus a text search of the 243 atlas manuals with their own rules for methods and rainfall sources. The methods are those of NRCS TR-55 and the National Engineering Handbook (NEH 630), and FHWA HEC-22 and HDS-2. The atlas's [hydrology calculator](/tools/hydrology/) applies this section and reproduces the worked example in Appendix E.
 
-- **4.1.1 Future rainfall.** [Open, E0] This draft sets no factor for future rainfall. NOAA is preparing Atlas 15, whose Volume 1 will replace Atlas 14 with current estimates and whose Volume 2 will give estimates projected into the future. The committee will take up future-rainfall design once Atlas 15 is published, rather than adopt an interim factor that Atlas 15 would soon replace. Until then, a state or local rule that already sets a factor controls (1.5).
+**4.1 Rainfall data.** [Default, E3] Use the NOAA Atlas 14 partial-duration point estimates (the mean values) for the site, or a state product that the state has adopted in their place. 87 of 253 manuals cite Atlas 14.
+
+- **4.1.1 Future rainfall.** [Open, E0] This draft sets no factor for future rainfall. NOAA is preparing Atlas 15, whose Volume 1 will replace Atlas 14 with current estimates and whose Volume 2 will give estimates projected into the future. The committee will take up future-rainfall design once Atlas 15 is published, rather than adopt an interim factor that Atlas 15 would soon replace. Until then, a state or local rule that already sets a factor controls (1.5). *Evidence for the committee:* New Jersey (2023) multiplies Atlas 14 depths by county factors projecting 2050–2099 rainfall; Pittsburgh designs to future 24-hour depths and multiplies 10-year conveyance intensities by 1.15; Massachusetts uses the upper 90% confidence limit of Atlas 14 times 0.9, and Lancaster, Pennsylvania the upper confidence limit itself. Four manuals (Aurora, Caltrans, Connecticut, Maryland SHA) say they will move to Atlas 15 when it is published.
+- **4.1.2 Temporal distribution.** [Default, E3] For hydrograph methods, use a 24-hour storm with the NRCS distribution for the site: Type II or Type III (96 and 65 of 243 manuals), Type IA in the Pacific Northwest (5 manuals, in Washington, Oregon and two other states), or the Atlas 14-based distributions NRCS has published for many states (21 manuals already name one). Do not use a distribution with a shorter peak than the Tc can resolve.
+- **4.1.3 Duration.** [Default, E0] Use the 24-hour storm for runoff volume, detention and infiltration practices, and a duration equal to the time of concentration for rational-method peaks.
+
+> Why (4.1): Atlas 14's confidence limits describe sampling error, not a design margin. Adopting the upper limit raises design depths substantially without saying what risk is being bought: in Massachusetts's own example the 10-year depth rises from 4.75 in to 5.91 in, 24%. Where a state wants a margin, it should say so as a factor it can explain, which is the question the committee will take up with Atlas 15.
 
 **4.2 Water-quality volume.** [Default, E3] Compute the WQv as
 
@@ -122,17 +130,51 @@ WQv = (P × Rv × A) / 12        Rv = 0.05 + 0.009 × I
 
 where WQv is in acre-feet, P is the rainfall depth from 3.2 (in), A is the drainage area (acres) and I is impervious cover (%). This is the unified sizing formula used in 28 of 253 manuals.
 
-**4.3 Peak-flow methods.** [Default, E3]
+**4.3 Choosing a method.** [Open, E1]
 
-| Drainage area | Method |
+| Purpose | Method |
 | --- | --- |
-| 20 acres or less | Rational method (176 of 253 manuals) or NRCS TR-55 |
-| More than 20 acres | NRCS TR-55 / TR-20 unit hydrograph (133 of 253 manuals cite TR-55) |
-| Any size, complex systems | Continuous simulation (48 of 253 manuals) or another method the reviewing agency accepts |
+| Peak flow for conveyance (Section 8), drainage area up to **200 acres** | Rational method (4.5) or an NRCS hydrograph (4.6) |
+| Peak flow, larger areas | NRCS hydrograph (TR-20, HEC-HMS or equivalent), or USGS regression equations for rural watersheds |
+| Storage, detention and infiltration practices (Sections 6 and 7), any size | A runoff hydrograph (4.6). The modified rational method may be used only for sites of **20 acres** or less |
+| Flow-duration and continuous standards | Continuous simulation (4.8) |
 
-- *Open question:* the 20-acre limit for the rational method is a placeholder (E0). Manuals in the atlas use limits from 10 to 200 acres.
+*Open question:* 13 of 34 states that set a limit allow the rational method up to 200 acres, the limit HEC-22 and HDS-2 recommend, but the limits range from 10 to 320 acres, and the differences follow region more than chance would suggest (p = 0.10): Washington, Oregon and Idaho allow only 10 acres, and Florida's water management districts 10–40 acres, while most of the South and Southwest allow 160–200 acres. A state may adopt a lower limit (Section 11).
 
-**4.4 Routing.** [Default, E3] Route storage practices with a level-pool (storage-indication) or equivalent method, using the starting conditions, time step and tailwater in 7.4.
+**4.4 Time of concentration.** [Default, E1] Compute the time of concentration (Tc) as the sum of travel times along the hydraulically longest path, by the segment method of TR-55 chapter 3 and NEH 630 chapter 15:
+
+```
+Sheet flow (TR-55 eq. 3-3):        Tt = 0.007 (n L)^0.8 / (P2^0.5 S^0.4)     hours
+Shallow concentrated (eq. 3-1):    V = 16.13 S^0.5 unpaved, 20.33 S^0.5 paved   ft/s
+Channels and pipes:                V by Manning's equation at bankfull or full flow; Tt = L / V
+```
+
+where n is the sheet-flow roughness of TR-55 Table 3-1, L the segment length (ft), P2 the 2-year, 24-hour rainfall (in) and S the slope (ft/ft).
+
+- **4.4.1 Path.** [Default, E0] Use the path with the longest travel time, which is not always the longest distance. Compute Tc separately for pre- and post-development conditions, and for each subarea.
+- **4.4.2 Sheet flow.** [Default, E1] Limit sheet flow to **100 ft** (16 of 25 states; NRCS's current guidance, NEH 630 chapter 15, gives the same limit); beyond it flow is shallow concentrated. Six states still use 300 ft, the limit in TR-55 (1986).
+- **4.4.3 Minimum.** [Default, E1] Use no Tc shorter than **5 minutes** (19 of 32 states; seven use 10 minutes). Hydrograph models that run at a 0.1-hour step may use 6 minutes.
+- **4.4.4 Other formulas.** [Default, E3] Kirpich, kinematic-wave and lag equations (13, 39 and several manuals) may be used for undeveloped watersheds where the segment method's inputs cannot be defined, with the method and its range of validity stated in the report.
+
+> Why (4.4.2): sheet flow becomes shallow concentrated flow within a few hundred feet at most, and usually well under 100 ft. Long sheet-flow segments make Tc long and peaks low, which undersizes conveyance; NRCS lowered its limit for that reason.
+
+**4.5 Rational method.** [Default, E1] Compute peak flow as `Q = Cf · C · i · A` (cfs, with A in acres and i in in/h) where i is the intensity for a duration equal to Tc from the rainfall of 4.1.
+
+- **4.5.1 Runoff coefficient.** [Default, E1 (thin)] Use **C = 0.90** for pavement and roofs (5 of 8 states that give one value; HEC-22 Table 4.1 gives 0.70–0.95), the HEC-22 Table 4.1 values for other covers, and area-weight them (HEC-22 eq. 4.2). Pervious covers on disturbed or compacted soil take the next higher value in the range.
+- **4.5.2 Frequency factor.** [Default, E0] Multiply C by **Cf = 1.1, 1.2 and 1.25** for the 25-, 50- and 100-year storms (the AASHTO Model Drainage Manual values as PennDOT gives them), with the product never greater than 1.0.
+- **4.5.3 Systems.** [Default, E0] For each point in a storm drain, use the longest Tc of the areas draining to it and the sum of their C·A, unless a highly impervious part alone gives a larger peak (HEC-22 9.2.2); check both.
+
+**4.6 Curve numbers and unit hydrographs.** [Default, E1]
+
+- **4.6.1 Impervious areas.** [Default, E1] Use **CN = 98** for directly connected impervious area (26 of 26 states that state one). Take pervious curve numbers from TR-55 Table 2-2 for the cover and hydrologic soil group, in good condition for lawns and open space, and in poor or fair condition where soils are compacted by construction.
+- **4.6.2 Mixed areas.** [Default, E0] Where impervious area is more than 10% of a subarea, compute impervious and pervious runoff separately and add them, rather than using one weighted CN. For a 1 in storm on the worked example's site, a weighted CN gives 0.14 in of runoff and separate areas 0.33 in (Appendix E): a weighted CN understates small-storm runoff, which is what water-quality and channel-protection practices are sized for.
+- **4.6.3 Initial abstraction.** [Default, E0] Use Ia = 0.2 S, the basis of the published curve numbers, unless the state adopts the 0.05 S relationship with curve numbers converted to match.
+- **4.6.4 Unit hydrograph.** [Regional, E0] Use the NRCS dimensionless unit hydrograph (peak rate factor 484), with lag = 0.6 Tc. On flat coastal-plain watersheds a state may prescribe the Delmarva unit hydrograph (peak rate factor 284), as the Delaware, Maryland and New Jersey manuals in the atlas do.
+- **4.6.5 Time step.** [Default, E0] Use a computation step no longer than 0.1 hour or one-fifth of Tc, whichever is smaller (7.4.2).
+
+**4.7 Routing.** [Default, E3] Route storage practices with a level-pool (storage-indication) or equivalent method, using the starting conditions, time step and tailwater in 7.4.
+
+**4.8 Continuous simulation.** [Regional, E3] Where a state sets flow-duration or continuous performance standards, compute them with a continuous model (HSPF, SWMM, WWHM or equivalent) driven by a long local rainfall record at an hourly or finer step (51 of 243 manuals describe continuous simulation; Washington and California manuals most often require it).
 
 ## 5 Site assessment and infiltration feasibility
 
@@ -585,13 +627,18 @@ The grade counts above are computed from this text. Every provision marked E0 is
 - **E3** the number of the 253 distinct manuals whose text states the rule, by text search. This shows how common a rule is, not that the manual requires exactly that value.
 - **E0** common engineering practice with no atlas evidence yet.
 
-In Sections 7 and 8 and Part B, E1 means values read by hand in every atlas manual with its own rules (state and local), because many states publish their construction handbooks separately from the manuals in the atlas: 154 values from 68 manuals in 33 states for Part B ([esc-checks.json](https://github.com/scott-jeffers/usa-stormwater/blob/main/data/national/esc-checks.json)) 309 values from 135 manuals in 45 states and DC for Section 7 ([det-checks.json](https://github.com/scott-jeffers/usa-stormwater/blob/main/data/national/det-checks.json)); and 379 values from 119 manuals in 44 states for Section 8 ([conv-checks.json](https://github.com/scott-jeffers/usa-stormwater/blob/main/data/national/conv-checks.json)), where DOT drainage manuals, which the atlas holds for most states, supply much of the evidence.
+In Sections 4, 7 and 8 and Part B, E1 means values read by hand in every atlas manual with its own rules (state and local), because many states publish their construction handbooks separately from the manuals in the atlas: 154 values from 68 manuals in 33 states for Part B ([esc-checks.json](https://github.com/scott-jeffers/usa-stormwater/blob/main/data/national/esc-checks.json)) 309 values from 135 manuals in 45 states and DC for Section 7 ([det-checks.json](https://github.com/scott-jeffers/usa-stormwater/blob/main/data/national/det-checks.json)); 229 values from 122 manuals in 44 states for Section 4 ([hyd-checks.json](https://github.com/scott-jeffers/usa-stormwater/blob/main/data/national/hyd-checks.json)); and 379 values from 119 manuals in 44 states for Section 8 ([conv-checks.json](https://github.com/scott-jeffers/usa-stormwater/blob/main/data/national/conv-checks.json)), where DOT drainage manuals, which the atlas holds for most states, supply much of the evidence.
 
 | Provision | Value | Grade | Evidence |
 | --- | --- | --- | --- |
 | 3.2 WQ rainfall depth | 1.0 in | E1 | 7 of 15 states that set a rainfall depth; range 0.5–1.25 in; 4 more set 1.0 in of runoff |
 | 3.3 TSS removal | 80% | E1 | 16 of 20 states; range 80–90% |
 | 3.4 Channel-protection detention | 24 h | E1 | 12 of 19 states; range 12–48 h |
+| 4.3 Rational-method limit | 200 acres (conveyance) | E1 | 13 of 34 states; 10–320 acres; regional pattern (p = 0.10) |
+| 4.4.2 Sheet-flow length | 100 ft | E1 | 16 of 25 states; 6 use 300 ft |
+| 4.4.3 Minimum Tc | 5 min | E1 | 19 of 32 states; 7 use 10 min |
+| 4.5.1 Rational C, impervious | 0.90 | E1 (thin) | 5 of 8 states |
+| 4.6.1 Impervious CN | 98 | E1 | 26 of 26 states |
 | 5.2 Min soil infiltration rate | 0.5 in/hr | E1 | 12 of 24 states within 10%; range 0.09–2 in/hr |
 | 5.3 Infiltration safety factor | 2 | E1 | 7 of 8 states |
 | 5.4 Water-table separation | 24 in | E1 | 8 of 24 states; range 18–60 in |
@@ -659,7 +706,7 @@ These decisions set the size and cost of most practices. Each is marked [Open] i
 4. **Maximum drawdown (6.0.1):** 72 hours or 48 hours nationally? States split 12 to 10, and the Northeast leans to 48 h; confirm whether a regional value (11.4) is warranted.
 5. **Bioretention media (6.1.1):** 18 in or 24 in as the default minimum? States split 8 to 8.
 6. **Wet-pond depth (6.5.2):** confirm 4–8 ft once more states are read.
-7. **Rational-method limit (4.3):** 20 acres, or another limit?
+7. **Rational-method limit (4.3):** 200 acres nationally for conveyance peaks (13 of 34 states), with lower regional limits where states use them (10 acres in the Pacific Northwest), or one lower national limit?
 8. **Pre-development baseline (7.2.1):** meadow in good condition, forest, or the land cover that exists before the project?
 9. **Minimum orifice (7.6.2):** keep a 3 in default with a 1 in protected minimum, or allow 0.5 in nationally to make flow-duration control possible on small sites?
 10. **Basin depth (7.9.3):** set a national maximum depth for dry basins open to the public, or leave it to fencing and safety-bench rules?
@@ -779,3 +826,36 @@ The 48 in culvert's outlet velocity at the 25-year flow is 14.4 ft/s, so its out
 Flow is well below critical (8.6.1). With 1 ft of freeboard above the 100-year depth (8.6.2), the channel must be at least **3.2 ft** deep, and the lining must resist 0.67 lb/sq ft (8.6.3).
 
 **Result.** All requirements are met with a 15 in and two 18 in pipes, a 48 in culvert and a 3.2 ft channel. The binding requirements are the sag spread (8.1.2), which sets the length of inlet 2, and the culvert headwater ratio (8.5.2), which rules out the 42 in culvert.
+
+## Appendix E: Worked example, site hydrology
+
+This example applies Section 4 to one site before and after development. Every number below is computed by the engine behind the site's [hydrology calculator](/tools/hydrology/), which loads this example, and the calculation is part of the atlas's automated tests. The intensities are HEC-22's illustrative Table 9.8 and the 24-hour depths those of Appendix C; use NOAA Atlas 14 for a real site (4.1).
+
+**Site.** 25 acres, hydrologic soil group C. Before development it is meadow (C = 0.25, CN 71). After development 10 acres are impervious (C = 0.90, CN 98; 4.5.1, 4.6.1) and 15 acres are lawn in good condition (C = 0.22, CN 74). The 2-year, 24-hour rainfall is 3.2 in.
+
+**Step 1. Time of concentration (4.4).**
+
+| Condition | Sheet flow | Shallow concentrated | Channel or pipe | Tc |
+| --- | --- | --- | --- | --- |
+| Before | 100 ft of dense grass at 2% (n = 0.24): 14.3 min | 900 ft of short-grass pasture at 2%: 15.2 min | 800 ft of swale at 2.0 ft/s: 6.7 min | **36.1 min** |
+| After | 75 ft of pavement at 2% (n = 0.011): 1.0 min | 400 ft of paved gutter at 1.5%: 2.7 min | 900 ft of pipe at 5.0 ft/s: 3.0 min | **6.6 min** |
+
+Neither sheet-flow segment exceeds 100 ft (4.4.2), and both times exceed the 5-minute minimum (4.4.3). Development cuts Tc to a fifth.
+
+**Step 2. Rational-method peaks (4.3, 4.5).** The site is under 200 acres, so the rational method may be used for conveyance. For the 10-year storm (Cf = 1.0):
+
+| Condition | Weighted C | Intensity at Tc | Peak |
+| --- | --- | --- | --- |
+| Before | 0.25 | 3.17 in/h | 19.8 cfs |
+| After | 0.49 | 6.58 in/h | 81.0 cfs |
+
+**Step 3. NRCS hydrograph peaks (4.6).** Type II, 24-hour storms, with the post-development area computed both ways:
+
+| Storm | Before | After, weighted CN 83.6 | After, impervious and lawn separate |
+| --- | --- | --- | --- |
+| 2-year (3.2 in) | 15.7 cfs | 61.6 cfs | 61.4 cfs |
+| 10-year (4.9 in) | 39.9 cfs | 116.6 cfs | 111.8 cfs |
+| 100-year (7.6 in) | 84.9 cfs | 205.8 cfs | 197.0 cfs |
+| 1 in (small storm) | — | 0.14 in of runoff, 4.3 cfs | 0.33 in of runoff, 11.3 cfs |
+
+**Result.** For design storms the two curve-number approaches agree within 5%, but for the 1 in storm that water-quality and channel-protection practices are sized for, the weighted CN gives less than half the runoff (4.6.2). The rational and NRCS 10-year peaks after development differ (81 and 112–117 cfs) because the methods distribute rainfall differently: either may size the site's pipes (4.3), but any storage on the site must be sized from the hydrograph (Section 7).

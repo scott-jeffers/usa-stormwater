@@ -292,7 +292,7 @@ async function main() {
 
   const practicesSrc = path.resolve(process.cwd(), "data/national/practices");
   // model-manual evidence (hand checks + classification)
-  for (const f of ["criteria-classification.json", "hand-checks.json", "esc-classification.json", "esc-checks.json", "det-classification.json", "det-checks.json", "conv-classification.json", "conv-checks.json"]) {
+  for (const f of ["criteria-classification.json", "hand-checks.json", "esc-classification.json", "esc-checks.json", "det-classification.json", "det-checks.json", "conv-classification.json", "conv-checks.json", "hyd-classification.json", "hyd-checks.json"]) {
     const src = path.resolve(process.cwd(), "data/national", f);
     if (existsSync(src)) await writeFile(path.join(NATIONAL_DIR, f), readFileSync(src, "utf-8"), "utf8");
   }

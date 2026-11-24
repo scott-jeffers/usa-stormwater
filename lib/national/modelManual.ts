@@ -73,6 +73,22 @@ export const DET_CRITERION_CLAUSE: Record<string, string> = {
   det_min_barrel_in: "7.5.2",
 };
 
+/** Hydrology criteria (model manual Section 4) and their clauses. */
+export const HYD_CRITERION_CLAUSE: Record<string, string> = {
+  hyd_rational_max_ac: "4.3",
+  hyd_sheet_flow_max_ft: "4.4.2",
+  hyd_min_tc_min: "4.4.3",
+  hyd_rational_c_impervious: "4.5.1",
+  hyd_cn_impervious: "4.6.1",
+};
+
+const HYD_FILE = path.resolve(process.cwd(), "data/national/hyd-classification.json");
+
+export function loadHydCriteria(): { generated_at: string; method: string; criteria: CriterionEvidence[] } | null {
+  if (!existsSync(HYD_FILE)) return null;
+  return JSON.parse(readFileSync(HYD_FILE, "utf-8"));
+}
+
 /** Conveyance criteria (model manual Section 8) and their clauses. */
 export const CONV_CRITERION_CLAUSE: Record<string, string> = {
   conv_storm_drain_storm_yr: "8.1.1",
