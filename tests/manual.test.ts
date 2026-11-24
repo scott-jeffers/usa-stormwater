@@ -2,7 +2,7 @@ import { readFileSync } from "node:fs";
 import { test } from "node:test";
 import assert from "node:assert/strict";
 import { loadManual, parseManual } from "../lib/manual/parse";
-import { CONV_CRITERION_CLAUSE, CRITERION_CLAUSE, DET_CRITERION_CLAUSE, ESC_CRITERION_CLAUSE, HYD_CRITERION_CLAUSE, SD_CRITERION_CLAUSE, loadConvCriteria, loadHydCriteria, loadSdCriteria, loadCriteria, loadDetCriteria, loadEscCriteria } from "../lib/national/modelManual";
+import { CONV_CRITERION_CLAUSE, CRITERION_CLAUSE, DET_CRITERION_CLAUSE, ESC_CRITERION_CLAUSE, HYD_CRITERION_CLAUSE, SD_CRITERION_CLAUSE, PT_CRITERION_CLAUSE, loadPtCriteria, loadConvCriteria, loadHydCriteria, loadSdCriteria, loadCriteria, loadDetCriteria, loadEscCriteria } from "../lib/national/modelManual";
 import { csvCell } from "../scripts/export-research";
 import { parseCsv } from "../components/ValuesTable";
 
@@ -40,11 +40,12 @@ test("the real manual: unique clause numbers, every criterion's clause exists an
     assert.equal(c!.grade, "E1", `${n} should be E1`);
     assert.ok(loadEscCriteria()?.criteria.some((x) => x.key === k), `${k} missing from esc-classification.json`);
   }
-  for (const [map, load, name] of [[DET_CRITERION_CLAUSE, loadDetCriteria, "det"], [CONV_CRITERION_CLAUSE, loadConvCriteria, "conv"], [HYD_CRITERION_CLAUSE, loadHydCriteria, "hyd"], [SD_CRITERION_CLAUSE, loadSdCriteria, "sd"]] as const) {
+  for (const [map, load, name] of [[DET_CRITERION_CLAUSE, loadDetCriteria, "det"], [CONV_CRITERION_CLAUSE, loadConvCriteria, "conv"], [HYD_CRITERION_CLAUSE, loadHydCriteria, "hyd"], [SD_CRITERION_CLAUSE, loadSdCriteria, "sd"], [PT_CRITERION_CLAUSE, loadPtCriteria, "pt"]] as const) {
     for (const [k, n] of Object.entries(map)) {
       const c = m.clauses.find((x) => x.number === n);
       assert.ok(c, `${name} clause ${n} for ${k} missing`);
-      if (name !== "det") assert.equal(c!.grade, "E1", `${n} should be E1`);
+      const thin = name === "pt" && load()?.criteria.find((x) => x.key === k)?.class === "insufficient" && c!.grade === "E0";
+      if (name !== "det" && !thin) assert.equal(c!.grade, "E1", `${n} should be E1`);
       assert.ok(load()?.criteria.some((x) => x.key === k), `${k} missing from ${name}-classification.json`);
     }
   }

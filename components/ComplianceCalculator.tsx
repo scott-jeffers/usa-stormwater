@@ -69,13 +69,8 @@ function VolumeBar({ parts, total }: { parts: Array<{ name: string; v: number }>
   const W = 640, H = 56, GAP = 2;
   const used = parts.reduce((a, p) => a + p.v, 0);
   const all = [...parts, { name: "Remainder to treat (3.3)", v: Math.max(total - used, 0) }];
-  let x = 0;
-  const segs = all.map((p, i) => {
-    const w = total > 0 ? (p.v / total) * W : 0;
-    const s = { ...p, x, w, i, last: i === all.length - 1 };
-    x += w;
-    return s;
-  });
+  const widths = all.map((p) => (total > 0 ? (p.v / total) * W : 0));
+  const segs = all.map((p, i) => ({ ...p, x: widths.slice(0, i).reduce((a, b) => a + b, 0), w: widths[i]!, i, last: i === all.length - 1 }));
   return (
     <figure className="viz-root space-y-2">
       <figcaption className="flex flex-wrap items-center justify-between gap-2 text-sm">

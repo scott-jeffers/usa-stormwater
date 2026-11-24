@@ -32,6 +32,7 @@ const FILES: Record<string, [string, string]> = {
   conv: ["data/national/conv-checks.json", "data/national/conv-classification.json"],
   hyd: ["data/national/hyd-checks.json", "data/national/hyd-classification.json"],
   sd: ["data/national/sd-checks.json", "data/national/sd-classification.json"],
+  pt: ["data/national/pt-checks.json", "data/national/pt-classification.json"],
 };
 const IN = path.join(ROOT, FILES[PART]![0]);
 const OUT = path.join(ROOT, FILES[PART]![1]);
@@ -131,6 +132,18 @@ export const SD_CRITERIA: Record<string, { label: string; unit: string; reads_as
   sd_rr_harvest_pct: { label: "Credit, rainwater harvesting", unit: "%", reads_as: "share of harvesting storage counted as retained" },
 };
 
+export const PT_CRITERIA: Record<string, { label: string; unit: string; reads_as: string }> = {
+  pt_tp_removal_pct: { label: "Total phosphorus removal target", unit: "%", reads_as: "average annual TP load reduction a site or practice must achieve" },
+  pt_tn_removal_pct: { label: "Total nitrogen removal target", unit: "%", reads_as: "average annual TN load reduction a site or practice must achieve" },
+  pt_media_sand_pct: { label: "Bioretention media sand content", unit: "%", reads_as: "least share of sand in the bioretention media mix" },
+  pt_media_clay_max_pct: { label: "Bioretention media clay limit", unit: "%", reads_as: "largest clay content allowed in the bioretention media" },
+  pt_media_om_pct: { label: "Bioretention media organic matter", unit: "%", reads_as: "least organic matter content of the bioretention media" },
+  pt_compost_om_pct: { label: "Compost organic matter", unit: "%", reads_as: "least organic matter content of compost used in media and soil restoration" },
+  pt_media_p_max: { label: "Bioretention media phosphorus limit", unit: "P-index or mg/kg", reads_as: "highest phosphorus index or Mehlich-3 phosphorus allowed in the media" },
+  pt_media_ksat_inhr: { label: "Bioretention media permeability", unit: "in/hr", reads_as: "least infiltration rate or hydraulic conductivity of the media" },
+  pt_underdrain_dia_in: { label: "Minimum underdrain diameter", unit: "in", reads_as: "smallest perforated underdrain pipe allowed in a practice" },
+};
+
 const median = (xs: number[]) => {
   const s = [...xs].sort((a, b) => a - b), m = s.length >> 1;
   return s.length % 2 ? s[m]! : (s[m - 1]! + s[m]!) / 2;
@@ -157,7 +170,7 @@ function main() {
     values: Array<{ param: string; state: string; slug: string; value: number; verdict: string }>;
   };
   const rand = rng(20261118);
-  const criteria = Object.entries(PART === "esc" ? ESC_CRITERIA : PART === "det" ? DET_CRITERIA : PART === "conv" ? CONV_CRITERIA : PART === "hyd" ? HYD_CRITERIA : PART === "sd" ? SD_CRITERIA : CRITERIA).map(([key, meta]) => {
+  const criteria = Object.entries(PART === "esc" ? ESC_CRITERIA : PART === "det" ? DET_CRITERIA : PART === "conv" ? CONV_CRITERIA : PART === "hyd" ? HYD_CRITERIA : PART === "sd" ? SD_CRITERIA : PART === "pt" ? PT_CRITERIA : CRITERIA).map(([key, meta]) => {
     const kept = checks.values.filter((v) => v.param === key && v.verdict !== "excluded" && v.state);
     const byState = new Map<string, number[]>();
     for (const v of kept) byState.set(v.state, [...(byState.get(v.state) ?? []), v.value]);
@@ -233,6 +246,8 @@ function main() {
                   ? "Hydrology: time of concentration, rational method and curve numbers (state and local manuals)"
                   : PART === "sd"
                     ? "Site design and volume credits (state and local manuals)"
+                    : PART === "pt"
+                      ? "Water-quality treatment, media and materials (state and local manuals)"
                 : "A: permanent stormwater (state-level manuals)",
         method:
           "One value per state (median of hand-checked state-level records). Agreement = share of states within ±10% of the most common value. Climate = eta² across NOAA U.S. climate regions with a 10,000-shuffle permutation p-value. Classes: insufficient (<8 states), consensus (agreement ≥ 50%), climate-linked (p < 0.10, suggestive), divergent (otherwise).",

@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { pageMeta } from "@/lib/site";
 import { ValueStrip, withUnit } from "@/components/ValueStrip";
-import { CLASS_LABELS, CONV_CRITERION_CLAUSE, HYD_CRITERION_CLAUSE, loadHydCriteria, SD_CRITERION_CLAUSE, loadSdCriteria, CRITERION_CLAUSE, DET_CRITERION_CLAUSE, ESC_CRITERION_CLAUSE, loadConvCriteria, loadCriteria, loadDetCriteria, loadEscCriteria, type CriterionEvidence } from "@/lib/national/modelManual";
+import { CLASS_LABELS, CONV_CRITERION_CLAUSE, HYD_CRITERION_CLAUSE, loadHydCriteria, SD_CRITERION_CLAUSE, loadSdCriteria, PT_CRITERION_CLAUSE, loadPtCriteria, CRITERION_CLAUSE, DET_CRITERION_CLAUSE, ESC_CRITERION_CLAUSE, loadConvCriteria, loadCriteria, loadDetCriteria, loadEscCriteria, type CriterionEvidence } from "@/lib/national/modelManual";
 import type { Clause } from "@/lib/manual/parse";
 import { clauseId, loadManual } from "@/lib/manual/parse";
 import { inline } from "@/components/ManualText";
@@ -150,6 +150,8 @@ export default function ModelManualPage() {
   const hydCrit = loadHydCriteria()?.criteria ?? [];
   const hydStates = new Set(hydCrit.flatMap((c) => c.by_state.map((s) => s.state)));
   const sdCrit = loadSdCriteria()?.criteria ?? [];
+  const ptCrit = loadPtCriteria()?.criteria ?? [];
+  const ptStates = new Set(ptCrit.flatMap((c) => c.by_state.map((s) => s.state)));
   const sdStates = new Set(sdCrit.flatMap((c) => c.by_state.map((s) => s.state)));
   const convCrit = loadConvCriteria()?.criteria ?? [];
   const convStates = new Set(convCrit.flatMap((c) => c.by_state.map((s) => s.state)));
@@ -211,6 +213,14 @@ export default function ModelManualPage() {
         intro={`State and local manuals read by hand: ${sdCrit.length} criteria, ${sdStates.size} states. Only four states publish a retention credit for each practice, so most credit criteria are thin. One value per state is the median of its manuals.`}
         crit={sdCrit}
         clauseMap={SD_CRITERION_CLAUSE}
+        clause={clause}
+      />
+      <EvidenceGroup
+        id="treatment"
+        title="Treatment targets, media and materials (3.10, 6.1)"
+        intro={`State and local manuals read by hand: ${ptCrit.length} criteria, ${ptStates.size} states. Nutrient targets are thin: only eight states set a phosphorus target and two a nitrogen target. One value per state is the median of its manuals.`}
+        crit={ptCrit}
+        clauseMap={PT_CRITERION_CLAUSE}
         clause={clause}
       />
       <EvidenceGroup

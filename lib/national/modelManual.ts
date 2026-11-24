@@ -73,6 +73,26 @@ export const DET_CRITERION_CLAUSE: Record<string, string> = {
   det_min_barrel_in: "7.5.2",
 };
 
+/** Water-quality treatment, media and materials criteria (model manual 3.10, 6.1) and their clauses. */
+export const PT_CRITERION_CLAUSE: Record<string, string> = {
+  pt_tp_removal_pct: "3.10.1",
+  pt_tn_removal_pct: "3.10.2",
+  pt_media_sand_pct: "6.1.5",
+  pt_media_clay_max_pct: "6.1.5",
+  pt_media_om_pct: "6.1.5",
+  pt_media_p_max: "6.1.6",
+  pt_compost_om_pct: "6.1.7",
+  pt_media_ksat_inhr: "6.1.3",
+  pt_underdrain_dia_in: "6.1.9",
+};
+
+const PT_FILE = path.resolve(process.cwd(), "data/national/pt-classification.json");
+
+export function loadPtCriteria(): { generated_at: string; method: string; criteria: CriterionEvidence[] } | null {
+  if (!existsSync(PT_FILE)) return null;
+  return JSON.parse(readFileSync(PT_FILE, "utf-8"));
+}
+
 /** Site-design and volume-credit criteria (model manual 3.8-3.9) and their clauses. */
 export const SD_CRITERION_CLAUSE: Record<string, string> = {
   sd_disc_roof_max_sf: "3.8.2",

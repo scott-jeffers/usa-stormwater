@@ -1,6 +1,6 @@
 ---
 title: Model Stormwater Design Manual
-version: Public Review Draft 0.8
+version: Public Review Draft 0.9
 date: 2026-11-24
 status: Draft for committee review. Not adopted by any agency.
 ---
@@ -25,6 +25,8 @@ Each provision also carries an evidence grade, explained in Appendix A:
 **Versions.** This manual is numbered like software: it stays at version 0.x (Draft 0.6, 0.7 and so on) through every round of community and professional review, and each release lists what changed. No version 1 will be published until reviewers outside the project have checked it.
 
 "Shall" marks a requirement and "should" a recommendation. Where a permit, TMDL or local rule is stricter, it controls.
+
+**Changes in Draft 0.9.** Adds treatment targets for impaired and sensitive waters (3.10): 50% phosphorus removal where phosphorus is the concern, nitrogen, bacteria, temperature and chloride. Rewrites bioretention (6.1) with a tested media standard (at least 70% sand, at most 5% clay, 3–5% organic matter, P-index 10–30), compost (at least 35% organic matter), sizing by Darcy's law and by storage, and underdrains of at least 4 in with a choker course and no geotextile under the media. Adds source controls at hotspots (5.6.1). Its numbers come from 142 values read by hand in 70 manuals across 36 states. Adds Appendix G, a worked bioretention and phosphorus example the site's bioretention calculator reproduces, and Appendix H, materials and plants.
 
 **Changes in Draft 0.8.** Adds site design and volume credits to Section 3. Site design (3.8) sets when roofs count as disconnected (1,000 sq ft per downspout, a 40 ft flow path at 5% or less), how compacted soils are restored (12 in tilled, top 8 in amended), and a tree credit of 100 sq ft per tree capped at 25%. A national credit table (3.9) says how much of each practice's storage, or of the runoff from each measure's drainage area, counts as retained toward 3.1. Its numbers come from 97 values read by hand in 38 manuals across 24 states; only four states publish a credit for each practice, so the credits are graded thin. Adds Appendix F, a worked example the site's compliance calculator reproduces.
 
@@ -81,7 +83,7 @@ This manual sets minimum design standards for permanent stormwater management on
 
 ## 3 Performance standards
 
-Nine standards apply together. A site meets them in order of preference: design the site to generate less runoff (3.8), retain (3.1, credited by 3.9), then treat (3.3), then control peaks.
+Ten standards apply together. A site meets them in order of preference: design the site to generate less runoff (3.8), retain (3.1, credited by 3.9), then treat (3.3, and 3.10 where receiving waters are impaired or sensitive), then control peaks.
 
 **3.1 Retention first.** [Default, E3] Retain as much of the WQv as site conditions allow (Section 5). Treat any part of the WQv that cannot be retained under 3.3. Retention-hierarchy language appears in most green-infrastructure manuals in the atlas.
 
@@ -147,6 +149,16 @@ Remainder to treat (3.3)
 *Evidence and open question:* only four states in the atlas publish a credit for each practice, and they measure it two ways. New York, Georgia's coastal supplement and West Virginia credit a share of the **storage** a practice provides, while the Runoff Reduction Method (Hirschman, Collins and Schueler, 2008, as Springfield, Missouri reproduces it) credits a share of the **runoff entering** it. This draft uses storage-based credits for practices that hold water, because storage can be checked on the plans, and runoff-based credits for measures that only slow it. The committee should confirm the underdrained credit (40%) once more states are read.
 
 > Why (3.9): a practice with an underdrain still loses water to the soil and the air, but most of what it holds leaves through the pipe. Crediting all of its storage would count treated water as retained; crediting none would remove the reason to build underdrained practices where infiltration is poor.
+
+**3.10 Impaired and sensitive waters.** [Default, E3] Where a site drains to a water that is impaired (on a state 303(d) list or under a TMDL) for a pollutant, or to a water the state designates as sensitive (a nutrient-sensitive lake or estuary, a cold-water fishery, a shellfish bed or bathing beach, or a source of drinking water), the WQv not retained under 3.1 shall also meet the targets below for that pollutant, in addition to 3.3. Where a TMDL or permit sets a load or wasteload allocation, it controls. (190 atlas manuals refer to impaired waters or TMDLs.)
+
+- **3.10.1 Phosphorus.** [Open, E1 (thin)] Remove at least **50% of the annual total phosphorus load** (8 states set a TP target from 30% to 85%, median 50%: Washington and its DOT require 50% for phosphorus treatment, New York 40%, Massachusetts and New Hampshire 60%, Pennsylvania and Pittsburgh 85%, Rhode Island 30%; Carson City and Minnesota recommend 50%). Compute loads by the Simple Method (Appendix G). A state may instead set a load limit per acre, as Virginia does (0.41 lb/acre/yr for new development). *Open question:* a percentage, a load per acre, or both?
+- **3.10.2 Nitrogen.** [Open, E0] Where nitrogen is the concern (estuaries, coastal waters and nitrate-sensitive groundwater), remove at least **30% of the annual total nitrogen load**. *Evidence:* only two states set a TN target (Rhode Island 30% for saltwater discharges, New Hampshire 50%), too few to grade. Practices that retain water (3.9) and media with an internal water storage zone remove more nitrogen than filters that drain freely.
+- **3.10.3 Bacteria.** [Default, E3] Where bathing beaches, shellfish beds or a bacteria TMDL are affected, retain the WQv where 5.2 allows, and otherwise use filtering practices; do not rely on wet ponds or swales alone, which can become bacteria sources where wildlife use them. (57 atlas manuals link bacteria to impairments, shellfish or beaches.)
+- **3.10.4 Temperature.** [Default, E3] Where a site drains to a cold-water fishery, prefer infiltration, underground storage and shaded or vegetated practices; do not discharge from a wet pond or a sunlit permanent pool directly to the stream without a shaded or subsurface outlet, and keep extended-detention times no longer than 3.4 requires. (55 atlas manuals address thermal effects on trout or cold-water streams; 23 restrict ponds that discharge to them.)
+- **3.10.5 Chloride.** [Default, E3] Where de-icing salt is used, do not infiltrate runoff into a source-water protection area without the reviewing agency's approval, choose salt-tolerant plants (Appendix H), and record a salt-management plan with the maintenance agreement (9.4). (39 atlas manuals warn about chloride in infiltration or vegetated practices.)
+
+> Why (3.10): 80% TSS removal (3.3) protects most waters from sediment, but dissolved phosphorus, nitrate, bacteria, heat and chloride pass through many practices that capture sediment well. A water that already fails its standard needs the practice chosen for the pollutant that impairs it.
 
 ## 4 Hydrology and calculation methods
 
@@ -246,6 +258,8 @@ Infiltration is required wherever the tests below allow it, and prohibited where
 
 **5.6 Hotspots and contaminated soils.** [Default, E3] Do not infiltrate runoff from hotspots, or into contaminated soils, without pretreatment approved by the reviewing agency. 69 of 253 manuals restrict hotspot infiltration.
 
+- **5.6.1 Source controls.** [Default, E3] On hotspots, the plans shall show source controls before treatment: fueling areas under a canopy that keeps rain off the pumps, graded so spills cannot leave the pad; vehicle and equipment washing piped to the sanitary sewer with the utility's approval; outdoor storage of salt, materials and waste covered or bermed; a spill kit and a written spill-response procedure; and an oil-water or hydrodynamic separator ahead of any practice that receives runoff from fueling or vehicle service. (144 atlas manuals call for source controls, 130 for spill kits or spill prevention and 66 for covered fueling areas.)
+
 **5.7 Karst and steep slopes.** [Default, E0] In karst areas or on slopes over 15%, infiltration requires a geotechnical evaluation.
 
 ## 6 Practice design standards
@@ -264,10 +278,15 @@ Each practice below may count toward 3.1–3.3 when designed to these minimums. 
 
 - **6.1.1** [Open, E1] Engineered media at least **18 in** deep, and 24 in where trees are planted. *Open question:* states split evenly: 8 of 20 use 18 in and 8 use 24 in; 4 more require 30–48 in.
 - **6.1.2** [Default, E2] Ponding depth **12 in** maximum (19 of 45 manuals use 12 in; range 3–24 in; 3 of 7 states read by hand). 6 in is recommended next to sidewalks and play areas.
-- **6.1.3** [Default, E0] Media permeability 1–4 in/hr after placement.
+- **6.1.3** [Default, E1 (thin)] The media's saturated hydraulic conductivity, tested after mixing by ASTM D2434 or an equivalent method, shall be at least **1 in/hr** and not more than 12 in/hr. Size with half the tested value (5.3). *Evidence:* six states set a minimum from 0.5 in/hr (Indiana's Fort Wayne, Pennsylvania, Tennessee) to 5 in/hr (California and Idaho manuals that use high-compost or sandy mixes), with West Virginia at 2 in/hr.
 - **6.1.4** [Default] An underdrain is required where 5.2 is not met.
+- **6.1.5 Media composition.** [Open, E1] The media shall be a uniform blend of washed sand (ASTM C33), topsoil and compost that, tested as placed, is a loamy sand with at least **70% sand**, no more than **5% clay** and **3–5% organic matter** by dry weight. *Evidence:* 22 states give a sand share. Eight states use 85% or more (Virginia, Tennessee, Rhode Island, Vermont, Mississippi and New Jersey, Idaho's Boise and Arizona's Tucson), most of them with 8–12% fines; Kentucky, West Virginia and Alabama's Mobile use 70%; the West Coast uses compost blends of about 60% sand and 40% compost by volume (Washington, California). Organic matter of 3% (lower end of a 3–5% range) is the most common value (consensus, 10 of 17 states). The clay limit ranges from 2% (Maine, Rhode Island, Vermont) to 10% (Kentucky, Michigan, Alabama), median 5%, with a suggestive regional pattern (p = 0.08). *Open question:* allow the 60:40 compost blend where water quality is not limited by phosphorus?
+- **6.1.6 Phosphorus.** [Default, E1] The media shall have a **P-index of 10 to 30**, or 7 to 30 mg/kg of Mehlich-3 phosphorus (7 of 10 states set an upper limit of 30; Pennsylvania and West Virginia use 23 mg/kg, Ohio DOT 60 mg/kg). Where 3.10.1 applies, compost shall be no more than 10% of the media by volume, or the media shall include a phosphorus-sorbing amendment (iron, aluminum or calcium-based) shown by column test to keep effluent phosphorus below influent. *Evidence:* King County, Washington, reports that the 60:40 compost mix has a "known net discharge of phosphorus, nitrate, and copper" and replaced it with high-performance media for phosphorus-sensitive waters; 39 atlas manuals warn of phosphorus leaching from media or compost.
+- **6.1.7 Compost.** [Default, E1] Compost in media and in soil restoration (3.8.4) shall have at least **35% organic matter** by dry weight (7 of 11 states; Washington and Vermont use 40%), a carbon-to-nitrogen ratio below 25:1, no biosolids or manure where 3.10.1 applies, and come from a facility in the US Composting Council's Seal of Testing Assurance program or equivalent (44 atlas manuals refer to it).
+- **6.1.8 Sizing.** [Default, E0] The surface area shall be the larger of (a) the filter area by Darcy's law, Af = WQv·df / [k·(hf + df)·tf], with k half the tested conductivity of 6.1.3, hf half the maximum ponding depth and tf = 2 days; and (b) the area that stores **75% of the WQv** above the underdrain invert in ponding, media voids (0.25) and stone voids (0.40). The ponded water shall drain through the media within 24 hours and all storage within 6.0.1. *Evidence:* Darcy's law sizing appears in the design examples of Rhode Island, Clarksville (Tennessee) and Tarrant County (Texas), and the calculator behind Appendix G reproduces four of them; Rhode Island also requires a volume of at least three-quarters of the WQv.
+- **6.1.9 Underdrains.** [Default, E1] Underdrains shall be perforated or slotted pipe at least **4 in** in diameter (10 of 16 states; Bellevue and Spokane in Washington, Carson City, Lancaster, San Diego, Santa Barbara and Vermont use 6 in, and Saint Paul 8 in for public practices), at a slope of at least 0.5%, with a cleanout at each end, sized to carry the media's flow at maximum ponding and the tested conductivity, and set in No. 57 stone with at least 3 in of stone above the pipe. Place a 3 in choker course of No. 8 or No. 89 stone between the media and the stone, and do not place geotextile between the media and the stone, where it clogs (14 and 10 atlas manuals). Geotextile may line the sides. An upturned elbow or orifice that holds water in the stone below the outlet makes an internal water storage zone, which this draft encourages where 3.10.2 applies.
 
-> Why (6.1.1): 18 in is enough depth for filtration and most herbaceous roots; deeper media adds nitrogen removal and tree rooting depth at higher cost. That cost trade-off is why 6.1.1 is open.
+> Why (6.1.5–6.1.7): the media does most of bioretention's work, and its recipe decides whether it removes phosphorus or exports it. A sandy media with little compost drains reliably and leaches little; a compost-rich media grows plants well but can release phosphorus for years. Specifying test results, not only a recipe, lets suppliers in any region meet the standard with local sand and compost.
 
 **6.2 Permeable pavement.**
 
@@ -667,7 +686,7 @@ The grade counts above are computed from this text. Every provision marked E0 is
 - **E3** the number of the 253 distinct manuals whose text states the rule, by text search. This shows how common a rule is, not that the manual requires exactly that value.
 - **E0** common engineering practice with no atlas evidence yet.
 
-In 3.8–3.9, Sections 4, 7 and 8 and Part B, E1 means values read by hand in every atlas manual with its own rules (state and local), because many states publish their construction handbooks separately from the manuals in the atlas: 154 values from 68 manuals in 33 states for Part B ([esc-checks.json](https://github.com/scott-jeffers/usa-stormwater/blob/main/data/national/esc-checks.json)) 309 values from 135 manuals in 45 states and DC for Section 7 ([det-checks.json](https://github.com/scott-jeffers/usa-stormwater/blob/main/data/national/det-checks.json)); 229 values from 122 manuals in 44 states for Section 4 ([hyd-checks.json](https://github.com/scott-jeffers/usa-stormwater/blob/main/data/national/hyd-checks.json)); 379 values from 119 manuals in 44 states for Section 8 ([conv-checks.json](https://github.com/scott-jeffers/usa-stormwater/blob/main/data/national/conv-checks.json)), where DOT drainage manuals, which the atlas holds for most states, supply much of the evidence; and 97 values from 38 manuals in 24 states for 3.8–3.9 ([sd-checks.json](https://github.com/scott-jeffers/usa-stormwater/blob/main/data/national/sd-checks.json)).
+In 3.8–3.10, 6.1, Sections 4, 7 and 8 and Part B, E1 means values read by hand in every atlas manual with its own rules (state and local), because many states publish their construction handbooks separately from the manuals in the atlas: 154 values from 68 manuals in 33 states for Part B ([esc-checks.json](https://github.com/scott-jeffers/usa-stormwater/blob/main/data/national/esc-checks.json)) 309 values from 135 manuals in 45 states and DC for Section 7 ([det-checks.json](https://github.com/scott-jeffers/usa-stormwater/blob/main/data/national/det-checks.json)); 229 values from 122 manuals in 44 states for Section 4 ([hyd-checks.json](https://github.com/scott-jeffers/usa-stormwater/blob/main/data/national/hyd-checks.json)); 379 values from 119 manuals in 44 states for Section 8 ([conv-checks.json](https://github.com/scott-jeffers/usa-stormwater/blob/main/data/national/conv-checks.json)), where DOT drainage manuals, which the atlas holds for most states, supply much of the evidence; 97 values from 38 manuals in 24 states for 3.8–3.9 ([sd-checks.json](https://github.com/scott-jeffers/usa-stormwater/blob/main/data/national/sd-checks.json)); and 142 values from 70 manuals in 36 states for 3.10 and 6.1 ([pt-checks.json](https://github.com/scott-jeffers/usa-stormwater/blob/main/data/national/pt-checks.json)).
 
 | Provision | Value | Grade | Evidence |
 | --- | --- | --- | --- |
@@ -681,6 +700,14 @@ In 3.8–3.9, Sections 4, 7 and 8 and Part B, E1 means values read by hand in ev
 | 3.8.5 Tree credit | 100 sq ft per tree | E1 (thin) | 5 states; range 20–200 sq ft |
 | 3.9 Credit, infiltrating practice | 100% of storage | E1 (thin) | 3 of 4 states |
 | 3.9 Credit, underdrained practice | 40% of storage | E1 (thin) | 4 states; range 40–60% |
+| 3.10.1 Phosphorus removal | 50% | E1 (thin) | 8 states; range 30–85%; no consensus |
+| 6.1.3 Media conductivity | 1 in/hr min | E1 (thin) | 6 states; range 0.5–5 in/hr |
+| 6.1.5 Media organic matter | 3–5% | E1 | 10 of 17 states use 3% as the lower limit |
+| 6.1.5 Media clay | 5% max | E1 | 11 states, median 5%; range 2–10%; suggestive regional pattern (p = 0.08) |
+| 6.1.5 Media sand | 70% min | E1 | 22 states, median 67.5%; 8 use 85% or more; no consensus |
+| 6.1.6 Media phosphorus | P-index 10–30 | E1 | 7 of 10 states use 30 as the upper limit |
+| 6.1.7 Compost organic matter | 35% min | E1 | 7 of 11 states |
+| 6.1.9 Underdrain diameter | 4 in min | E1 | 10 of 16 states; range 4–8 in |
 | 4.3 Rational-method limit | 200 acres (conveyance) | E1 | 13 of 34 states; 10–320 acres; regional pattern (p = 0.10) |
 | 4.4.2 Sheet-flow length | 100 ft | E1 | 16 of 25 states; 6 use 300 ft |
 | 4.4.3 Minimum Tc | 5 min | E1 | 19 of 32 states; 7 use 10 min |
@@ -769,7 +796,9 @@ These decisions set the size and cost of most practices. Each is marked [Open] i
 20. **Disconnection flow path (3.8.3):** one national length of 40 ft, or a length that grows with soil group and slope, as Vermont and Philadelphia use?
 21. **Credit basis (3.9):** credit a share of the storage a practice provides (New York, Georgia coastal, West Virginia) or a share of the runoff entering it (Runoff Reduction Method)? And is 40% right for underdrained practices?
 22. **Treatment by the flow path (3.9.2):** does runoff that crosses a disconnection or conservation area need no further treatment, or must the flow path meet a filter-strip standard?
-23. **Evidence gaps:** before adoption, replace each E0 placeholder with E1 or E2 evidence, and add the western and southern state manuals missing from the atlas.
+23. **Nutrient targets (3.10.1–3.10.2):** a percentage removal, a load limit per acre (as Virginia uses), or both? And should the manual publish practice efficiencies for phosphorus and nitrogen so that designers do not supply their own?
+24. **Media recipe (6.1.5):** keep one textural standard, or also allow the 60:40 sand-compost blend used on the West Coast where phosphorus is not the concern?
+25. **Evidence gaps:** before adoption, replace each E0 placeholder with E1 or E2 evidence, and add the western and southern state manuals missing from the atlas.
 
 ## Appendix C: Worked example, detention basin
 
@@ -937,3 +966,68 @@ This example applies 3.1–3.3, 3.8 and 3.9 to one site. Every number below is c
 - 158 cf from the disconnected roofs crosses 40 ft of restored lawn (3.9.2), and 109 cf is runoff from the lawn itself.
 
 **Result.** Site design (the disconnected roofs and the cistern) provides a third of the retention on the site and lets the permeable pavement and bioretention stay at the sizes shown. Without the cistern the site would retain 51% of its WQv; without the sump under the bioretention, 59%.
+
+## Appendix G: Worked example, bioretention and phosphorus
+
+This example designs the underdrained bioretention of Appendix F under 6.1 and checks it against 3.10.1, as if the site drained to a lake impaired for phosphorus. Every number is computed by the engine behind the site's [bioretention calculator](/tools/bioretention/), which loads this example, and the calculation is part of the atlas's automated tests. The same tests check the sizing equation against published examples from Rhode Island, Clarksville (Tennessee) and Tarrant County (Texas).
+
+**Inputs.** 0.6 acre (26,136 sq ft) of parking drains to the practice. WQv = 1.0 in × 0.95 × 26,136 / 12 = **2,069 cf** (4.2). Media 24 in deep (6.1.1), ponding 12 in (6.1.2), media conductivity tested at 2.0 in/hr (6.1.3), 15 in of No. 57 stone from the underdrain invert up to the choker course, and a 20 in stone sump below the invert on subsoil tested at 0.3 in/hr.
+
+**Step 1. Area by Darcy's law (6.1.8a).** Design k = 2.0 / 2 = 1.0 in/hr = 2.0 ft/day; hf = 0.5 ft; tf = 2 days:
+
+```
+Af = 2,069 × 2.0 / [2.0 × (0.5 + 2.0) × 2]
+   = 414 sq ft
+```
+
+**Step 2. Area by storage (6.1.8b).** Water stored above the invert per square foot = 1.0 + 0.25 × 2.0 + 0.40 × 1.25 = 2.0 ft. Storing 75% of the WQv needs 0.75 × 2,069 / 2.0 = **776 sq ft**, which governs. The designer provides **900 sq ft**, which stores 1,800 cf above the invert (87% of the WQv) and 600 cf in the sump.
+
+**Step 3. Drawdown (6.0.1, 6.1.8).** At the design k, the 12 in of ponding drains through the media in **9.6 hours** (limit 24). The sump holds 8 in of water and drains to the subsoil at 0.15 in/hr (half the tested 0.3 in/hr, 5.3) in **53 hours** (limit 72), so it qualifies for the sump credit of 3.9.1.
+
+**Step 4. Underdrain (6.1.9).** At full ponding and the tested conductivity (not the design value, so that new media does not surcharge the pipe), the media passes 2.0 / 12 / 3,600 × 900 × (1.0 + 2.0) / 2.0 = **0.063 cfs**. One 4 in smooth-wall pipe at 0.5% carries 0.159 cfs flowing full (n = 0.011), so the 4 in minimum is enough.
+
+**Step 5. Media test results (6.1.3, 6.1.5–6.1.7).**
+
+| Test | Result | Standard | Meets |
+| --- | --- | --- | --- |
+| Sand | 86% | at least 70% | Yes |
+| Clay | 3% | at most 5% | Yes |
+| Organic matter | 4% | 3–5% | Yes |
+| P-index | 22 | 10–30 | Yes |
+| Saturated conductivity | 2.0 in/hr | 1–12 in/hr | Yes |
+| Compost organic matter | 45% | at least 35% | Yes |
+
+**Step 6. Phosphorus (3.10.1).** By the Simple Method, with 42 in of annual rainfall, 90% of storms producing runoff (Pj = 0.9), Rv = 0.95 and a TP concentration of 0.26 mg/L (the default of Virginia's Runoff Reduction Method):
+
+```
+L = 0.226 × 42 × 0.9 × 0.95 × 0.26 × 0.6
+  = 1.27 lb/yr
+```
+
+A practice sized for the WQv captures about 90% of annual runoff. Of what it captures, 64% is retained (1,320 cf of credited retention out of the 2,069 cf WQv, Appendix F) and leaves no load; the rest passes through the media, which is assumed to remove 40% of the phosphorus in it (New York's performance criterion for practices, used here as a placeholder until the committee adopts practice efficiencies):
+
+```
+Removed = 1.27 × 0.90 × [0.64 + 0.36 × 0.40]
+        = 0.89 lb/yr (70%)
+```
+
+**Result.** The practice removes 70% of the annual phosphorus load, more than the 50% of 3.10.1, mostly because it retains water rather than because its media filters it. Without the sump the retained share falls to 35% and the removal to 55%, just above the target. A media that leached phosphorus (6.1.6) would erase that margin, which is why both matter where 3.10.1 applies.
+
+## Appendix H: Materials and plants
+
+These are the material standards that 6.1, 6.2 and 3.8.4 refer to. Each line names its source in this draft; values with no atlas evidence are marked E0.
+
+| Material | Standard | Where used | Grade |
+| --- | --- | --- | --- |
+| Bioretention media | Loamy sand: sand ≥ 70%, clay ≤ 5%, organic matter 3–5% by dry weight, P-index 10–30, conductivity 1–12 in/hr, tested as placed | 6.1.3, 6.1.5, 6.1.6 | E1 |
+| Sand for media | Washed concrete sand, ASTM C33 | 6.1.5 | E3 |
+| Compost | Organic matter ≥ 35% dry weight, C:N < 25:1, no biosolids or manure where 3.10.1 applies, from a Seal of Testing Assurance facility | 6.1.7, 3.8.4 | E1 |
+| Choker course | 3 in of No. 8 or No. 89 stone (ASTM D448) between media and stone | 6.1.9, 6.2 | E3 |
+| Storage and underdrain stone | Clean, washed No. 57 stone (ASTM D448), voids 0.40 for design | 6.1.8, 6.1.9, 6.2.1 | E3 |
+| Underdrain pipe | Perforated or slotted PVC or HDPE, at least 4 in (6 in in public right of way), slope ≥ 0.5%, cleanout at each end | 6.1.9 | E1 |
+| Geotextile | Non-woven, on the sides of practices only; never between media and stone, or on the bottom of an infiltrating practice | 6.1.9 | E3 |
+| Observation well | 4–6 in perforated pipe to the bottom of the stone, capped and locked | 6.1, 6.2, 6.3 | E0 |
+| Mulch | 2–3 in of shredded hardwood, aged at least 6 months; no dyed mulch or grass clippings | 6.1 | E0 |
+| Restored soil | Subsoil tilled 12 in; top 8 in amended with at least 3 in of compost | 3.8.4 | E1 |
+
+**Plants.** [Default, E0] Plant bioretention and swales in three zones by how often they are wet: the bottom (frequently inundated for up to 48 hours; species tolerant of wet feet and of drought between storms), the side slopes (occasionally wet) and the rim (rarely wet). Use native or regionally adapted species from the state's plant list, salt-tolerant species where de-icing salt is used (3.10.5), no invasive species, and no trees over underdrains or within 10 ft of an inlet or outlet. Cover at least 80% of the media surface with vegetation within two growing seasons, and replace plants that fail during the warranty period of the maintenance agreement (9.4).

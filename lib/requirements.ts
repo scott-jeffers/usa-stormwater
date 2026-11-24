@@ -13,7 +13,7 @@ import { getAllManuals } from "./data";
 import { checkParameterValue, type ValueCheck } from "./qa/load";
 import { coverageBasisFor } from "./sharedManuals";
 
-export type RequirementGroup = "Hydrology" | "Site sizing" | "Site design and credits" | "Infiltration" | "Bioretention" | "Ponds and detention" | "Detention outlets and spillways" | "Conveyance" | "Swales and other practices" | "Construction (Part B)";
+export type RequirementGroup = "Hydrology" | "Site sizing" | "Site design and credits" | "Treatment and materials" | "Infiltration" | "Bioretention" | "Ponds and detention" | "Detention outlets and spillways" | "Conveyance" | "Swales and other practices" | "Construction (Part B)";
 
 export interface Criterion {
   key: string;
@@ -23,7 +23,7 @@ export interface Criterion {
   group: RequirementGroup;
   means: string;
   clause?: string;
-  source: "records" | "esc" | "det" | "conv" | "hyd" | "sd";
+  source: "records" | "esc" | "det" | "conv" | "hyd" | "sd" | "pt";
 }
 
 export const CRITERIA: Criterion[] = [
@@ -32,6 +32,15 @@ export const CRITERIA: Criterion[] = [
   { key: "hyd_rational_max_ac", short: "Rational method limit", label: "Rational method area limit", unit: "acres", group: "Hydrology", source: "hyd", clause: "4.3", means: "Largest drainage area for which the rational method may be used to compute peak flow." },
   { key: "hyd_rational_c_impervious", short: "Rational C, impervious", label: "Rational runoff coefficient for impervious surfaces", unit: "", group: "Hydrology", source: "hyd", clause: "4.5.1", means: "Runoff coefficient C the manual gives for pavement and roofs." },
   { key: "hyd_cn_impervious", short: "Impervious curve number", label: "Curve number for impervious surfaces", unit: "", group: "Hydrology", source: "hyd", clause: "4.6.1", means: "NRCS curve number assigned to directly connected impervious area." },
+  { key: "pt_tp_removal_pct", short: "Phosphorus removal target", label: "Total phosphorus removal target", unit: "%", group: "Treatment and materials", source: "pt", clause: "3.10.1", means: "Average annual total phosphorus load reduction required (for phosphorus treatment or sensitive waters where the manual limits it to them)." },
+  { key: "pt_tn_removal_pct", short: "Nitrogen removal target", label: "Total nitrogen removal target", unit: "%", group: "Treatment and materials", source: "pt", clause: "3.10.2", means: "Average annual total nitrogen load reduction required." },
+  { key: "pt_media_sand_pct", short: "Media sand content", label: "Bioretention media sand content", unit: "%", group: "Treatment and materials", source: "pt", clause: "6.1.5", means: "Least share of sand in the bioretention media (lower end of the stated range; by volume of the mix or by texture, as the manual states it)." },
+  { key: "pt_media_clay_max_pct", short: "Media clay limit", label: "Bioretention media clay limit", unit: "%", group: "Treatment and materials", source: "pt", clause: "6.1.5", means: "Largest clay content allowed in the bioretention media." },
+  { key: "pt_media_om_pct", short: "Media organic matter", label: "Bioretention media organic matter", unit: "%", group: "Treatment and materials", source: "pt", clause: "6.1.5", means: "Least organic matter content of the media (lower end of the stated range)." },
+  { key: "pt_media_p_max", short: "Media phosphorus limit", label: "Bioretention media phosphorus limit", unit: "P-index or mg/kg", group: "Treatment and materials", source: "pt", clause: "6.1.6", means: "Highest P-index or Mehlich-3 phosphorus allowed in the media." },
+  { key: "pt_compost_om_pct", short: "Compost organic matter", label: "Compost organic matter content", unit: "%", group: "Treatment and materials", source: "pt", clause: "6.1.7", means: "Least organic matter content of compost used in media and soil restoration." },
+  { key: "pt_media_ksat_inhr", short: "Media permeability", label: "Bioretention media permeability", unit: "in/hr", group: "Treatment and materials", source: "pt", clause: "6.1.3", means: "Least infiltration rate or hydraulic conductivity of the media." },
+  { key: "pt_underdrain_dia_in", short: "Underdrain diameter", label: "Minimum underdrain diameter", unit: "in", group: "Treatment and materials", source: "pt", clause: "6.1.9", means: "Smallest perforated underdrain pipe allowed in bioretention and similar practices." },
   { key: "sd_disc_roof_max_sf", short: "Roof area per downspout", label: "Roof area per disconnected downspout", unit: "sq ft", group: "Site design and credits", source: "sd", clause: "3.8.2", means: "Largest roof area that may drain to one downspout and still count as disconnected." },
   { key: "sd_disc_flow_path_ft", short: "Disconnection flow path", label: "Disconnection flow path length", unit: "ft", group: "Site design and credits", source: "sd", clause: "3.8.3", means: "Shortest pervious flow path that disconnected runoff must cross (for full credit where the manual scales credit with length)." },
   { key: "sd_disc_slope_max_pct", short: "Disconnection slope", label: "Maximum slope of a disconnection area", unit: "%", group: "Site design and credits", source: "sd", clause: "3.8.3", means: "Steepest slope allowed for the pervious area that receives disconnected runoff." },
@@ -92,7 +101,7 @@ export const CRITERIA: Criterion[] = [
   { key: "natural_buffer_ft", short: "Natural buffer", label: "Natural buffer from waters", unit: "ft", group: "Construction (Part B)", source: "esc", clause: "14.4", means: "Undisturbed natural buffer kept between disturbance and surface waters." },
 ];
 
-export const GROUPS: RequirementGroup[] = ["Hydrology", "Site sizing", "Site design and credits", "Infiltration", "Bioretention", "Ponds and detention", "Detention outlets and spillways", "Conveyance", "Swales and other practices", "Construction (Part B)"];
+export const GROUPS: RequirementGroup[] = ["Hydrology", "Site sizing", "Site design and credits", "Treatment and materials", "Infiltration", "Bioretention", "Ponds and detention", "Detention outlets and spillways", "Conveyance", "Swales and other practices", "Construction (Part B)"];
 
 export interface RequirementValue {
   slug: string;
@@ -183,7 +192,7 @@ export function allRequirementValues(): Map<string, RequirementValue[]> {
       });
     }
   }
-  const hand = ["data/national/esc-checks.json", "data/national/det-checks.json", "data/national/conv-checks.json", "data/national/hyd-checks.json", "data/national/sd-checks.json"].flatMap((f) => {
+  const hand = ["data/national/esc-checks.json", "data/national/det-checks.json", "data/national/conv-checks.json", "data/national/hyd-checks.json", "data/national/sd-checks.json", "data/national/pt-checks.json"].flatMap((f) => {
     const file = path.join(ROOT, f);
     return existsSync(file)
       ? (JSON.parse(readFileSync(file, "utf-8")).values as Array<{ param: string; slug: string; state: string; level: string; value: number | null; verdict: string; page: number; quote: string; note?: string }>)

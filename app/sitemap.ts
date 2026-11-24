@@ -22,6 +22,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/tools/hydraulics/",
     "/tools/hydrology/",
     "/tools/compliance/",
+    "/tools/bioretention/",
     "/federal/",
     "/about/",
   ].map((p) => ({ url: `${BASE}${p}` }));
