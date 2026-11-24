@@ -22,6 +22,8 @@ Each provision also carries an evidence grade, explained in Appendix A:
 - **E3** the share of manuals that state the rule at all, from a text search of 253 manuals.
 - **E0** common engineering practice with no atlas evidence yet. Treat these as placeholders.
 
+**Versions.** This manual is numbered like software: it stays at version 0.x (Draft 0.6, 0.7 and so on) through every round of community and professional review, and each release lists what changed. No version 1 will be published until reviewers outside the project have checked it.
+
 "Shall" marks a requirement and "should" a recommendation. Where a permit, TMDL or local rule is stricter, it controls.
 
 **Changes in Draft 0.6.** Adds Section 8, conveyance: design storms for storm drains, inlets, culverts and channels (8.1), gutter spread and inlets (8.2), storm drain pipes (8.3), the hydraulic grade line by the FHWA access-hole method (8.4), culverts (8.5), open channels (8.6) and outfalls (8.7). Its numbers come from 379 values read by hand in 119 manuals across 44 states. Adds Appendix D, a worked storm drain, culvert and channel design, which the site's hydraulics calculator reproduces. Former Sections 8–16 are now 9–17.
@@ -109,6 +111,8 @@ Seven standards apply together. A site meets them in order of preference: retain
 Use current published rainfall and a method suited to the drainage area.
 
 **4.1 Rainfall data.** [Default, E3] Use NOAA Atlas 14 (or its successor) depths and distributions for the site. 87 of 253 manuals cite Atlas 14.
+
+- **4.1.1 Future rainfall.** [Open, E0] This draft sets no factor for future rainfall. NOAA is preparing Atlas 15, whose Volume 1 will replace Atlas 14 with current estimates and whose Volume 2 will give estimates projected into the future. The committee will take up future-rainfall design once Atlas 15 is published, rather than adopt an interim factor that Atlas 15 would soon replace. Until then, a state or local rule that already sets a factor controls (1.5).
 
 **4.2 Water-quality volume.** [Default, E3] Compute the WQv as
 
@@ -659,15 +663,16 @@ These decisions set the size and cost of most practices. Each is marked [Open] i
 8. **Pre-development baseline (7.2.1):** meadow in good condition, forest, or the land cover that exists before the project?
 9. **Minimum orifice (7.6.2):** keep a 3 in default with a 1 in protected minimum, or allow 0.5 in nationally to make flow-duration control possible on small sites?
 10. **Basin depth (7.9.3):** set a national maximum depth for dry basins open to the public, or leave it to fencing and safety-bench rules?
-11. **Culvert design storm (8.1.4):** 10, 25 or 100 years for local roads? States divide evenly among the three.
-12. **Minimum storm drain (8.3.1):** 12, 15 or 18 in? States divide 8, 6 and 7.
-13. **Maximum pipe velocity and cover (8.3.4–8.3.5):** set one national value for each, or a value by pipe material and a common way of measuring cover?
-14. **Access structure spacing (8.3.7):** 300 ft for pipes smaller than 36 in, or 400 ft, as three states allow?
-15. **Gutter spread (8.2.1):** adopt the HEC-22 Table 5.1 limits, and collect state spread criteria in a comparable form?
-16. **Fee in lieu (12.2):** require a published, cost-based rate formula?
-17. **Construction stabilization (14.1):** 14 days for all sites, with 7 days for sensitive waters or wet seasons?
-18. **Sediment basin threshold (15.1):** 5 acres (most states) or the federal 10 acres?
-19. **Evidence gaps:** before adoption, replace each E0 placeholder with E1 or E2 evidence, and add the western and southern state manuals missing from the atlas.
+11. **Future rainfall (4.1.1):** once NOAA Atlas 15 is published, adopt its Volume 1 estimates as the default, and decide whether and how to use the Volume 2 projections for design.
+12. **Culvert design storm (8.1.4):** 10, 25 or 100 years for local roads? States divide evenly among the three.
+13. **Minimum storm drain (8.3.1):** 12, 15 or 18 in? States divide 8, 6 and 7.
+14. **Maximum pipe velocity and cover (8.3.4–8.3.5):** set one national value for each, or a value by pipe material and a common way of measuring cover?
+15. **Access structure spacing (8.3.7):** 300 ft for pipes smaller than 36 in, or 400 ft, as three states allow?
+16. **Gutter spread (8.2.1):** adopt the HEC-22 Table 5.1 limits, and collect state spread criteria in a comparable form?
+17. **Fee in lieu (12.2):** require a published, cost-based rate formula?
+18. **Construction stabilization (14.1):** 14 days for all sites, with 7 days for sensitive waters or wet seasons?
+19. **Sediment basin threshold (15.1):** 5 acres (most states) or the federal 10 acres?
+20. **Evidence gaps:** before adoption, replace each E0 placeholder with E1 or E2 evidence, and add the western and southern state manuals missing from the atlas.
 
 ## Appendix C: Worked example, detention basin
 
