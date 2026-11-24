@@ -102,7 +102,7 @@ export default function HomePage() {
               n: "2",
               h: "Links for design work",
               p: `Where to find the drawings and examples behind the rules: ${libraries} standard-detail libraries, ${arc.drawings} drawings, and ${arc.examples + arc.plans + extPlans} worked examples and sample plans from public agencies, plus calculators for site hydrology, detention outlets, and storm drains, inlets, culverts and channels.`,
-              links: [["/archive/", "Design archive"], ["/tools/hydrology/", "Hydrology"], ["/tools/detention/", "Detention"], ["/tools/hydraulics/", "Hydraulics"]],
+              links: [["/archive/", "Design archive"], ["/tools/hydrology/", "Hydrology"], ["/tools/compliance/", "Credits"], ["/tools/detention/", "Detention"], ["/tools/hydraulics/", "Hydraulics"]],
             },
             {
               n: "3",

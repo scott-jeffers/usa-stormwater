@@ -1,0 +1,1129 @@
+{
+ "generated_at": "2026-11-24T00:31:32.550Z",
+ "part": "Site design and volume credits (state and local manuals)",
+ "method": "One value per state (median of hand-checked state-level records). Agreement = share of states within ±10% of the most common value. Climate = eta² across NOAA U.S. climate regions with a 10,000-shuffle permutation p-value. Classes: insufficient (<8 states), consensus (agreement ≥ 50%), climate-linked (p < 0.10, suggestive), divergent (otherwise).",
+ "criteria": [
+  {
+   "key": "sd_disc_roof_max_sf",
+   "label": "Roof area per disconnected downspout",
+   "unit": "sq ft",
+   "reads_as": "largest roof area that may drain to one disconnected downspout",
+   "states": 15,
+   "records": 19,
+   "excluded": 0,
+   "min": 300,
+   "median": 1000,
+   "max": 1000,
+   "distinct_values": 4,
+   "most_common": 1000,
+   "agreement": 0.6,
+   "climate_eta2": 0.41,
+   "climate_p": 0.5001,
+   "class": "consensus",
+   "by_state": [
+    {
+     "state": "CT",
+     "region": "Northeast",
+     "value": 1000,
+     "records": 1
+    },
+    {
+     "state": "ID",
+     "region": "Northwest",
+     "value": 700,
+     "records": 1
+    },
+    {
+     "state": "MA",
+     "region": "Northeast",
+     "value": 1000,
+     "records": 1
+    },
+    {
+     "state": "MN",
+     "region": "Upper Midwest",
+     "value": 1000,
+     "records": 1
+    },
+    {
+     "state": "NV",
+     "region": "West",
+     "value": 700,
+     "records": 1
+    },
+    {
+     "state": "NY",
+     "region": "Northeast",
+     "value": 1000,
+     "records": 1
+    },
+    {
+     "state": "OR",
+     "region": "Northwest",
+     "value": 500,
+     "records": 1
+    },
+    {
+     "state": "PA",
+     "region": "Northeast",
+     "value": 500,
+     "records": 4
+    },
+    {
+     "state": "RI",
+     "region": "Northeast",
+     "value": 1000,
+     "records": 1
+    },
+    {
+     "state": "TN",
+     "region": "Ohio Valley",
+     "value": 300,
+     "records": 1
+    },
+    {
+     "state": "TX",
+     "region": "South",
+     "value": 1000,
+     "records": 1
+    },
+    {
+     "state": "VA",
+     "region": "Southeast",
+     "value": 1000,
+     "records": 1
+    },
+    {
+     "state": "VT",
+     "region": "Northeast",
+     "value": 1000,
+     "records": 1
+    },
+    {
+     "state": "WA",
+     "region": "Northwest",
+     "value": 700,
+     "records": 2
+    },
+    {
+     "state": "WV",
+     "region": "Ohio Valley",
+     "value": 1000,
+     "records": 1
+    }
+   ],
+   "by_region": [
+    {
+     "region": "Northeast",
+     "states": 6,
+     "median": 1000,
+     "min": 500,
+     "max": 1000
+    },
+    {
+     "region": "Upper Midwest",
+     "states": 1,
+     "median": 1000,
+     "min": 1000,
+     "max": 1000
+    },
+    {
+     "region": "Ohio Valley",
+     "states": 2,
+     "median": 650,
+     "min": 300,
+     "max": 1000
+    },
+    {
+     "region": "Southeast",
+     "states": 1,
+     "median": 1000,
+     "min": 1000,
+     "max": 1000
+    },
+    {
+     "region": "South",
+     "states": 1,
+     "median": 1000,
+     "min": 1000,
+     "max": 1000
+    },
+    {
+     "region": "Northwest",
+     "states": 3,
+     "median": 700,
+     "min": 500,
+     "max": 700
+    },
+    {
+     "region": "West",
+     "states": 1,
+     "median": 700,
+     "min": 700,
+     "max": 700
+    }
+   ]
+  },
+  {
+   "key": "sd_disc_flow_path_ft",
+   "label": "Disconnection flow path",
+   "unit": "ft",
+   "reads_as": "shortest pervious flow path below a disconnected downspout for full credit",
+   "states": 12,
+   "records": 15,
+   "excluded": 0,
+   "min": 10,
+   "median": 40,
+   "max": 75,
+   "distinct_values": 6,
+   "most_common": 50,
+   "agreement": 0.25,
+   "climate_eta2": 0.54,
+   "climate_p": 0.3283,
+   "class": "divergent",
+   "by_state": [
+    {
+     "state": "CA",
+     "region": "West",
+     "value": 10,
+     "records": 1
+    },
+    {
+     "state": "FL",
+     "region": "Southeast",
+     "value": 10,
+     "records": 1
+    },
+    {
+     "state": "GA",
+     "region": "Southeast",
+     "value": 15,
+     "records": 1
+    },
+    {
+     "state": "MD",
+     "region": "Northeast",
+     "value": 15,
+     "records": 1
+    },
+    {
+     "state": "MN",
+     "region": "Upper Midwest",
+     "value": 75,
+     "records": 1
+    },
+    {
+     "state": "NV",
+     "region": "West",
+     "value": 50,
+     "records": 1
+    },
+    {
+     "state": "NY",
+     "region": "Northeast",
+     "value": 40,
+     "records": 1
+    },
+    {
+     "state": "OR",
+     "region": "Northwest",
+     "value": 50,
+     "records": 1
+    },
+    {
+     "state": "PA",
+     "region": "Northeast",
+     "value": 75,
+     "records": 1
+    },
+    {
+     "state": "VT",
+     "region": "Northeast",
+     "value": 35,
+     "records": 1
+    },
+    {
+     "state": "WA",
+     "region": "Northwest",
+     "value": 50,
+     "records": 4
+    },
+    {
+     "state": "WV",
+     "region": "Ohio Valley",
+     "value": 40,
+     "records": 1
+    }
+   ],
+   "by_region": [
+    {
+     "region": "Northeast",
+     "states": 4,
+     "median": 37.5,
+     "min": 15,
+     "max": 75
+    },
+    {
+     "region": "Upper Midwest",
+     "states": 1,
+     "median": 75,
+     "min": 75,
+     "max": 75
+    },
+    {
+     "region": "Ohio Valley",
+     "states": 1,
+     "median": 40,
+     "min": 40,
+     "max": 40
+    },
+    {
+     "region": "Southeast",
+     "states": 2,
+     "median": 12.5,
+     "min": 10,
+     "max": 15
+    },
+    {
+     "region": "Northwest",
+     "states": 2,
+     "median": 50,
+     "min": 50,
+     "max": 50
+    },
+    {
+     "region": "West",
+     "states": 2,
+     "median": 30,
+     "min": 10,
+     "max": 50
+    }
+   ]
+  },
+  {
+   "key": "sd_disc_slope_max_pct",
+   "label": "Disconnection area slope",
+   "unit": "%",
+   "reads_as": "steepest slope of the pervious area receiving disconnected runoff",
+   "states": 8,
+   "records": 9,
+   "excluded": 0,
+   "min": 2,
+   "median": 5,
+   "max": 8,
+   "distinct_values": 6,
+   "most_common": 5,
+   "agreement": 0.38,
+   "climate_eta2": 0.19,
+   "climate_p": 0.7972,
+   "class": "divergent",
+   "by_state": [
+    {
+     "state": "GA",
+     "region": "Southeast",
+     "value": 6,
+     "records": 1
+    },
+    {
+     "state": "MA",
+     "region": "Northeast",
+     "value": 5,
+     "records": 1
+    },
+    {
+     "state": "MD",
+     "region": "Northeast",
+     "value": 5,
+     "records": 1
+    },
+    {
+     "state": "MN",
+     "region": "Upper Midwest",
+     "value": 5,
+     "records": 1
+    },
+    {
+     "state": "NY",
+     "region": "Northeast",
+     "value": 2,
+     "records": 1
+    },
+    {
+     "state": "SC",
+     "region": "Southeast",
+     "value": 3,
+     "records": 1
+    },
+    {
+     "state": "TN",
+     "region": "Ohio Valley",
+     "value": 2.5,
+     "records": 2
+    },
+    {
+     "state": "VT",
+     "region": "Northeast",
+     "value": 8,
+     "records": 1
+    }
+   ],
+   "by_region": [
+    {
+     "region": "Northeast",
+     "states": 4,
+     "median": 5,
+     "min": 2,
+     "max": 8
+    },
+    {
+     "region": "Upper Midwest",
+     "states": 1,
+     "median": 5,
+     "min": 5,
+     "max": 5
+    },
+    {
+     "region": "Ohio Valley",
+     "states": 1,
+     "median": 2.5,
+     "min": 2.5,
+     "max": 2.5
+    },
+    {
+     "region": "Southeast",
+     "states": 2,
+     "median": 4.5,
+     "min": 3,
+     "max": 6
+    }
+   ]
+  },
+  {
+   "key": "sd_tree_credit_sf",
+   "label": "Impervious area credited per tree",
+   "unit": "sq ft",
+   "reads_as": "impervious area a new or retained tree may offset (deciduous, where split)",
+   "states": 5,
+   "records": 8,
+   "excluded": 0,
+   "min": 20,
+   "median": 100,
+   "max": 200,
+   "distinct_values": 4,
+   "most_common": 100,
+   "agreement": 0.4,
+   "climate_eta2": 0.76,
+   "climate_p": 0.2029,
+   "class": "insufficient",
+   "by_state": [
+    {
+     "state": "MI",
+     "region": "Upper Midwest",
+     "value": 200,
+     "records": 1
+    },
+    {
+     "state": "NY",
+     "region": "Northeast",
+     "value": 100,
+     "records": 2
+    },
+    {
+     "state": "OR",
+     "region": "Northwest",
+     "value": 100,
+     "records": 1
+    },
+    {
+     "state": "PA",
+     "region": "Northeast",
+     "value": 144,
+     "records": 1
+    },
+    {
+     "state": "WA",
+     "region": "Northwest",
+     "value": 20,
+     "records": 3
+    }
+   ],
+   "by_region": [
+    {
+     "region": "Northeast",
+     "states": 2,
+     "median": 122,
+     "min": 100,
+     "max": 144
+    },
+    {
+     "region": "Upper Midwest",
+     "states": 1,
+     "median": 200,
+     "min": 200,
+     "max": 200
+    },
+    {
+     "region": "Northwest",
+     "states": 2,
+     "median": 60,
+     "min": 20,
+     "max": 100
+    }
+   ]
+  },
+  {
+   "key": "sd_soil_amend_depth_in",
+   "label": "Soil restoration depth",
+   "unit": "in",
+   "reads_as": "depth to which compacted soils are tilled and amended to restore pervious credit",
+   "states": 13,
+   "records": 18,
+   "excluded": 0,
+   "min": 5,
+   "median": 8,
+   "max": 18,
+   "distinct_values": 5,
+   "most_common": 6,
+   "agreement": 0.31,
+   "climate_eta2": 0.66,
+   "climate_p": 0.2939,
+   "class": "divergent",
+   "by_state": [
+    {
+     "state": "CA",
+     "region": "West",
+     "value": 6,
+     "records": 1
+    },
+    {
+     "state": "DC",
+     "region": "Northeast",
+     "value": 12,
+     "records": 1
+    },
+    {
+     "state": "GA",
+     "region": "Southeast",
+     "value": 18,
+     "records": 1
+    },
+    {
+     "state": "MN",
+     "region": "Upper Midwest",
+     "value": 5,
+     "records": 1
+    },
+    {
+     "state": "MO",
+     "region": "Ohio Valley",
+     "value": 6,
+     "records": 1
+    },
+    {
+     "state": "NC",
+     "region": "Southeast",
+     "value": 12,
+     "records": 2
+    },
+    {
+     "state": "NY",
+     "region": "Northeast",
+     "value": 12,
+     "records": 1
+    },
+    {
+     "state": "PA",
+     "region": "Northeast",
+     "value": 8,
+     "records": 1
+    },
+    {
+     "state": "TN",
+     "region": "Ohio Valley",
+     "value": 12,
+     "records": 2
+    },
+    {
+     "state": "TX",
+     "region": "South",
+     "value": 6,
+     "records": 1
+    },
+    {
+     "state": "VT",
+     "region": "Northeast",
+     "value": 8,
+     "records": 1
+    },
+    {
+     "state": "WA",
+     "region": "Northwest",
+     "value": 8,
+     "records": 4
+    },
+    {
+     "state": "WV",
+     "region": "Ohio Valley",
+     "value": 6,
+     "records": 1
+    }
+   ],
+   "by_region": [
+    {
+     "region": "Northeast",
+     "states": 4,
+     "median": 10,
+     "min": 8,
+     "max": 12
+    },
+    {
+     "region": "Upper Midwest",
+     "states": 1,
+     "median": 5,
+     "min": 5,
+     "max": 5
+    },
+    {
+     "region": "Ohio Valley",
+     "states": 3,
+     "median": 6,
+     "min": 6,
+     "max": 12
+    },
+    {
+     "region": "Southeast",
+     "states": 2,
+     "median": 15,
+     "min": 12,
+     "max": 18
+    },
+    {
+     "region": "South",
+     "states": 1,
+     "median": 6,
+     "min": 6,
+     "max": 6
+    },
+    {
+     "region": "Northwest",
+     "states": 1,
+     "median": 8,
+     "min": 8,
+     "max": 8
+    },
+    {
+     "region": "West",
+     "states": 1,
+     "median": 6,
+     "min": 6,
+     "max": 6
+    }
+   ]
+  },
+  {
+   "key": "sd_rr_bio_ud_pct",
+   "label": "Credit, underdrained bioretention",
+   "unit": "%",
+   "reads_as": "share of the treated volume counted as retained by bioretention with an underdrain",
+   "states": 4,
+   "records": 4,
+   "excluded": 0,
+   "min": 40,
+   "median": 45,
+   "max": 60,
+   "distinct_values": 3,
+   "most_common": 40,
+   "agreement": 0.5,
+   "climate_eta2": 0.27,
+   "climate_p": 1,
+   "class": "insufficient",
+   "by_state": [
+    {
+     "state": "GA",
+     "region": "Southeast",
+     "value": 50,
+     "records": 1
+    },
+    {
+     "state": "MO",
+     "region": "Ohio Valley",
+     "value": 40,
+     "records": 1
+    },
+    {
+     "state": "NY",
+     "region": "Northeast",
+     "value": 40,
+     "records": 1
+    },
+    {
+     "state": "WV",
+     "region": "Ohio Valley",
+     "value": 60,
+     "records": 1
+    }
+   ],
+   "by_region": [
+    {
+     "region": "Northeast",
+     "states": 1,
+     "median": 40,
+     "min": 40,
+     "max": 40
+    },
+    {
+     "region": "Ohio Valley",
+     "states": 2,
+     "median": 50,
+     "min": 40,
+     "max": 60
+    },
+    {
+     "region": "Southeast",
+     "states": 1,
+     "median": 50,
+     "min": 50,
+     "max": 50
+    }
+   ]
+  },
+  {
+   "key": "sd_rr_bio_inf_pct",
+   "label": "Credit, infiltrating bioretention",
+   "unit": "%",
+   "reads_as": "share counted as retained by bioretention without an underdrain",
+   "states": 4,
+   "records": 4,
+   "excluded": 0,
+   "min": 80,
+   "median": 100,
+   "max": 100,
+   "distinct_values": 2,
+   "most_common": 100,
+   "agreement": 0.75,
+   "climate_eta2": 0.33,
+   "climate_p": 1,
+   "class": "insufficient",
+   "by_state": [
+    {
+     "state": "GA",
+     "region": "Southeast",
+     "value": 100,
+     "records": 1
+    },
+    {
+     "state": "MO",
+     "region": "Ohio Valley",
+     "value": 80,
+     "records": 1
+    },
+    {
+     "state": "NY",
+     "region": "Northeast",
+     "value": 100,
+     "records": 1
+    },
+    {
+     "state": "WV",
+     "region": "Ohio Valley",
+     "value": 100,
+     "records": 1
+    }
+   ],
+   "by_region": [
+    {
+     "region": "Northeast",
+     "states": 1,
+     "median": 100,
+     "min": 100,
+     "max": 100
+    },
+    {
+     "region": "Ohio Valley",
+     "states": 2,
+     "median": 90,
+     "min": 80,
+     "max": 100
+    },
+    {
+     "region": "Southeast",
+     "states": 1,
+     "median": 100,
+     "min": 100,
+     "max": 100
+    }
+   ]
+  },
+  {
+   "key": "sd_rr_pp_ud_pct",
+   "label": "Credit, underdrained permeable pavement",
+   "unit": "%",
+   "reads_as": "share counted as retained by permeable pavement with an underdrain",
+   "states": 4,
+   "records": 4,
+   "excluded": 0,
+   "min": 40,
+   "median": 45,
+   "max": 50,
+   "distinct_values": 3,
+   "most_common": 45,
+   "agreement": 0.5,
+   "climate_eta2": 1,
+   "climate_p": 0.1637,
+   "class": "insufficient",
+   "by_state": [
+    {
+     "state": "GA",
+     "region": "Southeast",
+     "value": 50,
+     "records": 1
+    },
+    {
+     "state": "MO",
+     "region": "Ohio Valley",
+     "value": 45,
+     "records": 1
+    },
+    {
+     "state": "NY",
+     "region": "Northeast",
+     "value": 40,
+     "records": 1
+    },
+    {
+     "state": "WV",
+     "region": "Ohio Valley",
+     "value": 45,
+     "records": 1
+    }
+   ],
+   "by_region": [
+    {
+     "region": "Northeast",
+     "states": 1,
+     "median": 40,
+     "min": 40,
+     "max": 40
+    },
+    {
+     "region": "Ohio Valley",
+     "states": 2,
+     "median": 45,
+     "min": 45,
+     "max": 45
+    },
+    {
+     "region": "Southeast",
+     "states": 1,
+     "median": 50,
+     "min": 50,
+     "max": 50
+    }
+   ]
+  },
+  {
+   "key": "sd_rr_pp_inf_pct",
+   "label": "Credit, infiltrating permeable pavement",
+   "unit": "%",
+   "reads_as": "share counted as retained by permeable pavement without an underdrain",
+   "states": 4,
+   "records": 4,
+   "excluded": 0,
+   "min": 75,
+   "median": 100,
+   "max": 100,
+   "distinct_values": 2,
+   "most_common": 100,
+   "agreement": 0.75,
+   "climate_eta2": 0.33,
+   "climate_p": 1,
+   "class": "insufficient",
+   "by_state": [
+    {
+     "state": "GA",
+     "region": "Southeast",
+     "value": 100,
+     "records": 1
+    },
+    {
+     "state": "MO",
+     "region": "Ohio Valley",
+     "value": 75,
+     "records": 1
+    },
+    {
+     "state": "NY",
+     "region": "Northeast",
+     "value": 100,
+     "records": 1
+    },
+    {
+     "state": "WV",
+     "region": "Ohio Valley",
+     "value": 100,
+     "records": 1
+    }
+   ],
+   "by_region": [
+    {
+     "region": "Northeast",
+     "states": 1,
+     "median": 100,
+     "min": 100,
+     "max": 100
+    },
+    {
+     "region": "Ohio Valley",
+     "states": 2,
+     "median": 87.5,
+     "min": 75,
+     "max": 100
+    },
+    {
+     "region": "Southeast",
+     "states": 1,
+     "median": 100,
+     "min": 100,
+     "max": 100
+    }
+   ]
+  },
+  {
+   "key": "sd_rr_green_roof_pct",
+   "label": "Credit, green roof",
+   "unit": "%",
+   "reads_as": "share counted as retained by a green roof",
+   "states": 4,
+   "records": 4,
+   "excluded": 0,
+   "min": 45,
+   "median": 80,
+   "max": 100,
+   "distinct_values": 3,
+   "most_common": 100,
+   "agreement": 0.5,
+   "climate_eta2": 0.36,
+   "climate_p": 1,
+   "class": "insufficient",
+   "by_state": [
+    {
+     "state": "GA",
+     "region": "Southeast",
+     "value": 60,
+     "records": 1
+    },
+    {
+     "state": "MO",
+     "region": "Ohio Valley",
+     "value": 45,
+     "records": 1
+    },
+    {
+     "state": "NY",
+     "region": "Northeast",
+     "value": 100,
+     "records": 1
+    },
+    {
+     "state": "WV",
+     "region": "Ohio Valley",
+     "value": 100,
+     "records": 1
+    }
+   ],
+   "by_region": [
+    {
+     "region": "Northeast",
+     "states": 1,
+     "median": 100,
+     "min": 100,
+     "max": 100
+    },
+    {
+     "region": "Ohio Valley",
+     "states": 2,
+     "median": 72.5,
+     "min": 45,
+     "max": 100
+    },
+    {
+     "region": "Southeast",
+     "states": 1,
+     "median": 60,
+     "min": 60,
+     "max": 60
+    }
+   ]
+  },
+  {
+   "key": "sd_rr_grass_channel_pct",
+   "label": "Credit, grass channel",
+   "unit": "%",
+   "reads_as": "share counted as retained by a grass channel (C or D soils)",
+   "states": 2,
+   "records": 2,
+   "excluded": 0,
+   "min": 10,
+   "median": 10,
+   "max": 10,
+   "distinct_values": 1,
+   "most_common": 10,
+   "agreement": 1,
+   "climate_eta2": 0,
+   "climate_p": 1,
+   "class": "insufficient",
+   "by_state": [
+    {
+     "state": "MO",
+     "region": "Ohio Valley",
+     "value": 10,
+     "records": 1
+    },
+    {
+     "state": "NY",
+     "region": "Northeast",
+     "value": 10,
+     "records": 1
+    }
+   ],
+   "by_region": [
+    {
+     "region": "Northeast",
+     "states": 1,
+     "median": 10,
+     "min": 10,
+     "max": 10
+    },
+    {
+     "region": "Ohio Valley",
+     "states": 1,
+     "median": 10,
+     "min": 10,
+     "max": 10
+    }
+   ]
+  },
+  {
+   "key": "sd_rr_conservation_pct",
+   "label": "Credit, sheet flow to conservation area",
+   "unit": "%",
+   "reads_as": "share counted as retained when runoff sheet-flows across a protected natural area (C or D soils)",
+   "states": 3,
+   "records": 3,
+   "excluded": 0,
+   "min": 50,
+   "median": 60,
+   "max": 100,
+   "distinct_values": 3,
+   "most_common": 50,
+   "agreement": 0.33,
+   "climate_eta2": 1,
+   "climate_p": 1,
+   "class": "insufficient",
+   "by_state": [
+    {
+     "state": "GA",
+     "region": "Southeast",
+     "value": 60,
+     "records": 1
+    },
+    {
+     "state": "MO",
+     "region": "Ohio Valley",
+     "value": 50,
+     "records": 1
+    },
+    {
+     "state": "NY",
+     "region": "Northeast",
+     "value": 100,
+     "records": 1
+    }
+   ],
+   "by_region": [
+    {
+     "region": "Northeast",
+     "states": 1,
+     "median": 100,
+     "min": 100,
+     "max": 100
+    },
+    {
+     "region": "Ohio Valley",
+     "states": 1,
+     "median": 50,
+     "min": 50,
+     "max": 50
+    },
+    {
+     "region": "Southeast",
+     "states": 1,
+     "median": 60,
+     "min": 60,
+     "max": 60
+    }
+   ]
+  },
+  {
+   "key": "sd_rr_harvest_pct",
+   "label": "Credit, rainwater harvesting",
+   "unit": "%",
+   "reads_as": "share of harvesting storage counted as retained",
+   "states": 3,
+   "records": 3,
+   "excluded": 0,
+   "min": 40,
+   "median": 75,
+   "max": 100,
+   "distinct_values": 3,
+   "most_common": 40,
+   "agreement": 0.33,
+   "climate_eta2": 1,
+   "climate_p": 1,
+   "class": "insufficient",
+   "by_state": [
+    {
+     "state": "GA",
+     "region": "Southeast",
+     "value": 75,
+     "records": 1
+    },
+    {
+     "state": "MO",
+     "region": "Ohio Valley",
+     "value": 40,
+     "records": 1
+    },
+    {
+     "state": "NY",
+     "region": "Northeast",
+     "value": 100,
+     "records": 1
+    }
+   ],
+   "by_region": [
+    {
+     "region": "Northeast",
+     "states": 1,
+     "median": 100,
+     "min": 100,
+     "max": 100
+    },
+    {
+     "region": "Ohio Valley",
+     "states": 1,
+     "median": 40,
+     "min": 40,
+     "max": 40
+    },
+    {
+     "region": "Southeast",
+     "states": 1,
+     "median": 75,
+     "min": 75,
+     "max": 75
+    }
+   ]
+  }
+ ]
+}

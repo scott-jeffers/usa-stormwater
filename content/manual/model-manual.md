@@ -1,6 +1,6 @@
 ---
 title: Model Stormwater Design Manual
-version: Public Review Draft 0.7
+version: Public Review Draft 0.8
 date: 2026-11-24
 status: Draft for committee review. Not adopted by any agency.
 ---
@@ -25,6 +25,8 @@ Each provision also carries an evidence grade, explained in Appendix A:
 **Versions.** This manual is numbered like software: it stays at version 0.x (Draft 0.6, 0.7 and so on) through every round of community and professional review, and each release lists what changed. No version 1 will be published until reviewers outside the project have checked it.
 
 "Shall" marks a requirement and "should" a recommendation. Where a permit, TMDL or local rule is stricter, it controls.
+
+**Changes in Draft 0.8.** Adds site design and volume credits to Section 3. Site design (3.8) sets when roofs count as disconnected (1,000 sq ft per downspout, a 40 ft flow path at 5% or less), how compacted soils are restored (12 in tilled, top 8 in amended), and a tree credit of 100 sq ft per tree capped at 25%. A national credit table (3.9) says how much of each practice's storage, or of the runoff from each measure's drainage area, counts as retained toward 3.1. Its numbers come from 97 values read by hand in 38 manuals across 24 states; only four states publish a credit for each practice, so the credits are graded thin. Adds Appendix F, a worked example the site's compliance calculator reproduces.
 
 **Changes in Draft 0.7.** Rewrites Section 4 as a full hydrology standard: rainfall source, temporal distribution and duration (4.1), the choice between the rational method, NRCS hydrographs and continuous simulation (4.3, 4.8), time of concentration by segments with a 100 ft sheet-flow limit and a 5-minute minimum (4.4), rational-method coefficients and frequency factors (4.5), and curve numbers, separate impervious and pervious runoff and unit hydrographs (4.6). Its numbers come from 229 values read by hand in 122 manuals across 44 states. Future rainfall waits for NOAA Atlas 15 (4.1.1), with the rules states already use recorded for the committee. Adds Appendix E, a worked hydrology example the site's hydrology calculator reproduces.
 
@@ -79,7 +81,7 @@ This manual sets minimum design standards for permanent stormwater management on
 
 ## 3 Performance standards
 
-Seven standards apply together. A site meets them in order of preference: retain first, then treat, then control peaks.
+Nine standards apply together. A site meets them in order of preference: design the site to generate less runoff (3.8), retain (3.1, credited by 3.9), then treat (3.3), then control peaks.
 
 **3.1 Retention first.** [Default, E3] Retain as much of the WQv as site conditions allow (Section 5). Treat any part of the WQv that cannot be retained under 3.3. Retention-hierarchy language appears in most green-infrastructure manuals in the atlas.
 
@@ -107,6 +109,44 @@ Seven standards apply together. A site meets them in order of preference: retain
 **3.7 Redevelopment.** [Open, E0] On redevelopment sites, meet 3.1–3.3 for at least **50% of the replaced impervious area** and 100% of new impervious area, or reduce site impervious area by 20%.
 
 - *Open question:* the atlas has no structured redevelopment data. These figures are common-practice placeholders.
+
+**3.8 Site design.** [Default, E3] Before sizing any practice, the concept plan (10.1) shall show how the layout avoids and reduces runoff: which natural areas, stream buffers, steep slopes and permeable soils are kept undisturbed; how impervious cover was kept to what the use needs; and where roof and pavement runoff is spread over pervious ground rather than piped. Measures that meet 3.8.1–3.8.5 earn the volume credits of 3.9.
+
+- **3.8.1 Conservation areas.** [Default, E0] An area counts as a conservation area only if it is kept undisturbed during construction (14.4, 17.2), protected by a recorded easement or covenant, and receives runoff as sheet flow.
+- **3.8.2 Rooftop disconnection.** [Default, E1] Roof runoff counts as disconnected where no more than **1,000 sq ft** of roof drains to each downspout (9 of 15 states; Pennsylvania and Oregon use 500 sq ft, Washington, Nevada and Idaho 700 sq ft, and Tennessee 300 sq ft), and the downspout discharges away from the building to a pervious area that meets 3.8.3.
+- **3.8.3 Disconnection flow path.** [Open, E1] The receiving pervious area shall be at least **40 ft long** in the direction of flow and at a slope of **5% or less**, on soils that are uncompacted or restored under 3.8.4. *Evidence:* 12 states set a length from 10 to 75 ft (median 40 ft): New York and West Virginia use 40 ft; Washington, Oregon and Nevada 50 ft; Minnesota recommends 75 ft; Philadelphia gives full credit only at 75 ft and partial credit from 15 ft. Eight states set a slope limit from 2% to 8%, with 5% in three (Maryland, Massachusetts, Minnesota). *Open question:* one length, or a length that grows with soil group and slope, as Vermont's and Philadelphia's do?
+- **3.8.4 Soil restoration.** [Open, E1] Where construction has compacted soils that will count as pervious, till the subsoil to **12 in** and amend the top **8 in** with at least 3 in of compost. *Evidence:* 13 states give a depth from 5 to 18 in, in two clusters: deep tilling to 12 in (New York, North Carolina, Tennessee, DC) and amended topsoil of 8 in (Washington: 4 in of compost into the top 8 in; Vermont and Tacoma: 3 in into 5 in, for about 9.5 in amended). Four more use 6 in. This draft combines the two clusters.
+- **3.8.5 Trees.** [Open, E1 (thin)] Each new tree planted in uncompacted soil, and each retained tree of 3 in trunk diameter or more, may offset **100 sq ft** of impervious area in the WQv calculation, with total tree credit no more than **25%** of the impervious area that requires it. *Evidence:* five states give a credit per tree: 100 sq ft in New York (and New York City) and Portland, 144 sq ft in Lancaster, 200 sq ft in Grand Rapids, and 20 sq ft (50 for evergreens) for newly planted trees in Washington, whose state, Seattle and Tacoma manuals cap tree credit at 25%.
+
+> Why (3.8): the cheapest retention is runoff that is never generated. Credits make site design count in the same units as practices, so a designer who keeps a wooded buffer or disconnects roofs sees it in the size of what must still be built.
+
+**3.9 Volume credits.** [Default, E1 (thin)] Credit retention toward 3.1 and 3.2 as follows, separately for each drainage area. The credited retention of a drainage area may not exceed its own WQv, credit may not be moved from one drainage area to another, and no area may be counted twice.
+
+| Measure | Credit | Applied to | Evidence |
+| --- | --- | --- | --- |
+| Infiltrating practice without an underdrain (bioretention, permeable pavement, trench, dry well), on soils meeting 5.2 | **100%** | Storage provided | New York, Georgia coastal and West Virginia; the Runoff Reduction Method gives 75–80% of inflow |
+| The same with an underdrain | **40%**, plus 100% of any stone sump below the underdrain | Storage above the underdrain | New York 40%, Runoff Reduction Method 40–45%, Georgia coastal 50%, West Virginia 45–60% |
+| Green roof | **100%** | Retention tested under 6.9.3 | New York and West Virginia 100%; Georgia coastal 60%; Runoff Reduction Method 45–60% |
+| Rainwater harvesting | **100%** | Volume used between storms (6.10.1) | New York 100%; Georgia coastal 75%; Runoff Reduction Method 40% |
+| Disconnection meeting 3.8.2–3.8.3 | **25%** (C, D soils) or **50%** (A, B or restored soils) | WQv from the disconnected area | Runoff Reduction Method, lawn 25–50% |
+| Sheet flow to a conservation area (3.8.1) | **50%** (C, D) or **75%** (A, B) | WQv from the contributing area | Runoff Reduction Method 50–75%; Georgia coastal 60% on C, D soils; New York 100% |
+| Grass channel | **10%** (C, D) or **20%** (A, B) | WQv conveyed | New York and Missouri |
+| Wet pond, constructed wetland, extended detention, lined filter | **0%** | — | Treatment practices: they count toward 3.3, not 3.1 |
+
+```
+Retention credited
+  = Σ storage × credit
+  + Σ WQv of contributing area × credit
+Remainder to treat (3.3)
+  = WQv of the site − retention credited
+```
+
+- **3.9.1 Sump credit.** [Default, E0] Storage in clean stone below the underdrain invert of a practice on soils that infiltrate at 0.1 in/hr or more drains only to the soil, so it is credited at 100%, provided it drains within the limit of 6.0.1.
+- **3.9.2 Treatment by the flow path.** [Open, E0] The part of the WQv from a disconnected or conservation area that is not credited as retained has crossed the pervious flow path of 3.8.3 and needs no further treatment under 3.3. *Open question:* should this treatment credit require a vegetated filter strip designed to its own standard, which this draft does not yet set?
+
+*Evidence and open question:* only four states in the atlas publish a credit for each practice, and they measure it two ways. New York, Georgia's coastal supplement and West Virginia credit a share of the **storage** a practice provides, while the Runoff Reduction Method (Hirschman, Collins and Schueler, 2008, as Springfield, Missouri reproduces it) credits a share of the **runoff entering** it. This draft uses storage-based credits for practices that hold water, because storage can be checked on the plans, and runoff-based credits for measures that only slow it. The committee should confirm the underdrained credit (40%) once more states are read.
+
+> Why (3.9): a practice with an underdrain still loses water to the soil and the air, but most of what it holds leaves through the pipe. Crediting all of its storage would count treated water as retained; crediting none would remove the reason to build underdrained practices where infiltration is poor.
 
 ## 4 Hydrology and calculation methods
 
@@ -627,13 +667,20 @@ The grade counts above are computed from this text. Every provision marked E0 is
 - **E3** the number of the 253 distinct manuals whose text states the rule, by text search. This shows how common a rule is, not that the manual requires exactly that value.
 - **E0** common engineering practice with no atlas evidence yet.
 
-In Sections 4, 7 and 8 and Part B, E1 means values read by hand in every atlas manual with its own rules (state and local), because many states publish their construction handbooks separately from the manuals in the atlas: 154 values from 68 manuals in 33 states for Part B ([esc-checks.json](https://github.com/scott-jeffers/usa-stormwater/blob/main/data/national/esc-checks.json)) 309 values from 135 manuals in 45 states and DC for Section 7 ([det-checks.json](https://github.com/scott-jeffers/usa-stormwater/blob/main/data/national/det-checks.json)); 229 values from 122 manuals in 44 states for Section 4 ([hyd-checks.json](https://github.com/scott-jeffers/usa-stormwater/blob/main/data/national/hyd-checks.json)); and 379 values from 119 manuals in 44 states for Section 8 ([conv-checks.json](https://github.com/scott-jeffers/usa-stormwater/blob/main/data/national/conv-checks.json)), where DOT drainage manuals, which the atlas holds for most states, supply much of the evidence.
+In 3.8–3.9, Sections 4, 7 and 8 and Part B, E1 means values read by hand in every atlas manual with its own rules (state and local), because many states publish their construction handbooks separately from the manuals in the atlas: 154 values from 68 manuals in 33 states for Part B ([esc-checks.json](https://github.com/scott-jeffers/usa-stormwater/blob/main/data/national/esc-checks.json)) 309 values from 135 manuals in 45 states and DC for Section 7 ([det-checks.json](https://github.com/scott-jeffers/usa-stormwater/blob/main/data/national/det-checks.json)); 229 values from 122 manuals in 44 states for Section 4 ([hyd-checks.json](https://github.com/scott-jeffers/usa-stormwater/blob/main/data/national/hyd-checks.json)); 379 values from 119 manuals in 44 states for Section 8 ([conv-checks.json](https://github.com/scott-jeffers/usa-stormwater/blob/main/data/national/conv-checks.json)), where DOT drainage manuals, which the atlas holds for most states, supply much of the evidence; and 97 values from 38 manuals in 24 states for 3.8–3.9 ([sd-checks.json](https://github.com/scott-jeffers/usa-stormwater/blob/main/data/national/sd-checks.json)).
 
 | Provision | Value | Grade | Evidence |
 | --- | --- | --- | --- |
 | 3.2 WQ rainfall depth | 1.0 in | E1 | 7 of 15 states that set a rainfall depth; range 0.5–1.25 in; 4 more set 1.0 in of runoff |
 | 3.3 TSS removal | 80% | E1 | 16 of 20 states; range 80–90% |
 | 3.4 Channel-protection detention | 24 h | E1 | 12 of 19 states; range 12–48 h |
+| 3.8.2 Roof area per downspout | 1,000 sq ft | E1 | 9 of 15 states; range 300–1,000 sq ft |
+| 3.8.3 Disconnection flow path | 40 ft | E1 | 12 states, median 40 ft; range 10–75 ft; no consensus |
+| 3.8.3 Disconnection slope | 5% max | E1 | 8 states, median 5%; range 2–8% |
+| 3.8.4 Soil restoration depth | 12 in tilled, 8 in amended | E1 | 13 states, median 8 in; clusters at 6, 8 and 12 in |
+| 3.8.5 Tree credit | 100 sq ft per tree | E1 (thin) | 5 states; range 20–200 sq ft |
+| 3.9 Credit, infiltrating practice | 100% of storage | E1 (thin) | 3 of 4 states |
+| 3.9 Credit, underdrained practice | 40% of storage | E1 (thin) | 4 states; range 40–60% |
 | 4.3 Rational-method limit | 200 acres (conveyance) | E1 | 13 of 34 states; 10–320 acres; regional pattern (p = 0.10) |
 | 4.4.2 Sheet-flow length | 100 ft | E1 | 16 of 25 states; 6 use 300 ft |
 | 4.4.3 Minimum Tc | 5 min | E1 | 19 of 32 states; 7 use 10 min |
@@ -719,7 +766,10 @@ These decisions set the size and cost of most practices. Each is marked [Open] i
 17. **Fee in lieu (12.2):** require a published, cost-based rate formula?
 18. **Construction stabilization (14.1):** 14 days for all sites, with 7 days for sensitive waters or wet seasons?
 19. **Sediment basin threshold (15.1):** 5 acres (most states) or the federal 10 acres?
-20. **Evidence gaps:** before adoption, replace each E0 placeholder with E1 or E2 evidence, and add the western and southern state manuals missing from the atlas.
+20. **Disconnection flow path (3.8.3):** one national length of 40 ft, or a length that grows with soil group and slope, as Vermont and Philadelphia use?
+21. **Credit basis (3.9):** credit a share of the storage a practice provides (New York, Georgia coastal, West Virginia) or a share of the runoff entering it (Runoff Reduction Method)? And is 40% right for underdrained practices?
+22. **Treatment by the flow path (3.9.2):** does runoff that crosses a disconnection or conservation area need no further treatment, or must the flow path meet a filter-strip standard?
+23. **Evidence gaps:** before adoption, replace each E0 placeholder with E1 or E2 evidence, and add the western and southern state manuals missing from the atlas.
 
 ## Appendix C: Worked example, detention basin
 
@@ -859,3 +909,31 @@ Neither sheet-flow segment exceeds 100 ft (4.4.2), and both times exceed the 5-m
 | 1 in (small storm) | — | 0.14 in of runoff, 4.3 cfs | 0.33 in of runoff, 11.3 cfs |
 
 **Result.** For design storms the two curve-number approaches agree within 5%, but for the 1 in storm that water-quality and channel-protection practices are sized for, the weighted CN gives less than half the runoff (4.6.2). The rational and NRCS 10-year peaks after development differ (81 and 112–117 cfs) because the methods distribute rainfall differently: either may size the site's pipes (4.3), but any storage on the site must be sized from the hydrograph (Section 7).
+
+## Appendix F: Worked example, site design and volume credits
+
+This example applies 3.1–3.3, 3.8 and 3.9 to one site. Every number below is computed by the engine behind the site's [compliance calculator](/tools/compliance/), which loads this example, and the calculation is part of the atlas's automated tests.
+
+**Site.** 2.0 acres (87,120 sq ft) of commercial development on HSG C soils: 0.5 acre of roof, 0.9 acre of parking and 0.6 acre of lawn, so impervious cover is 70%. The water-quality rainfall is 1.0 in (3.2).
+
+**Step 1. Water-quality volume (4.2).** Rv = 0.05 + 0.009 × 70 = 0.68, so WQv = 1.0 in × 0.68 × 87,120 sq ft / 12 = **4,937 cf**.
+
+**Step 2. Site design (3.8).** Four downspouts, each draining 1,000 sq ft of roof, discharge to lawn restored under 3.8.4, over flow paths at least 40 ft long at 3% (3.8.2–3.8.3). The rest of the roof drains to a 2,000 cf cistern whose irrigation demand uses 1,000 cf between typical storms (6.10.1); its overflow is piped to the stone base of the permeable pavement.
+
+**Step 3. Practices and credits (3.9).**
+
+| Measure | Area draining to it | Its WQv | Credit | Applied to | Retention credited |
+| --- | --- | --- | --- | --- | --- |
+| Roof to restored lawn | 4,000 sq ft | 317 cf | 50% | WQv from the roof | 158 cf |
+| Roof to cistern | 17,780 sq ft | 1,408 cf | 100% | 1,000 cf used | 1,000 cf |
+| Parking to infiltrating permeable pavement (1,800 cf of stone) | 13,068 sq ft | 1,035 cf | 100% | 1,800 cf of storage | 1,035 cf (capped at its WQv) |
+| Parking to underdrained bioretention (1,800 cf above the underdrain, 600 cf sump) | 26,136 sq ft | 2,069 cf | 40%, sump 100% | 1,800 cf and 600 cf | 1,320 cf |
+| **Total** | | | | | **3,513 cf (71%)** |
+
+**Step 4. Treatment of the remainder (3.3).** 1,424 cf of the WQv is not credited as retained:
+
+- 749 cf passes through the bioretention media and leaves by the underdrain; bioretention meets 80% TSS removal (6.1).
+- 408 cf overflows the cistern into the permeable pavement's stone, which has 765 cf of storage left after its own WQv. It is held there, but it is not credited, because credit may not be moved between drainage areas (3.9).
+- 158 cf from the disconnected roofs crosses 40 ft of restored lawn (3.9.2), and 109 cf is runoff from the lawn itself.
+
+**Result.** Site design (the disconnected roofs and the cistern) provides a third of the retention on the site and lets the permeable pavement and bioretention stay at the sizes shown. Without the cistern the site would retain 51% of its WQv; without the sump under the bioretention, 59%.

@@ -31,6 +31,7 @@ const FILES: Record<string, [string, string]> = {
   det: ["data/national/det-checks.json", "data/national/det-classification.json"],
   conv: ["data/national/conv-checks.json", "data/national/conv-classification.json"],
   hyd: ["data/national/hyd-checks.json", "data/national/hyd-classification.json"],
+  sd: ["data/national/sd-checks.json", "data/national/sd-classification.json"],
 };
 const IN = path.join(ROOT, FILES[PART]![0]);
 const OUT = path.join(ROOT, FILES[PART]![1]);
@@ -114,6 +115,22 @@ export const HYD_CRITERIA: Record<string, { label: string; unit: string; reads_a
   hyd_cn_impervious: { label: "Curve number for impervious surfaces", unit: "CN", reads_as: "NRCS curve number the manual assigns to directly connected impervious area" },
 };
 
+export const SD_CRITERIA: Record<string, { label: string; unit: string; reads_as: string }> = {
+  sd_disc_roof_max_sf: { label: "Roof area per disconnected downspout", unit: "sq ft", reads_as: "largest roof area that may drain to one disconnected downspout" },
+  sd_disc_flow_path_ft: { label: "Disconnection flow path", unit: "ft", reads_as: "shortest pervious flow path below a disconnected downspout for full credit" },
+  sd_disc_slope_max_pct: { label: "Disconnection area slope", unit: "%", reads_as: "steepest slope of the pervious area receiving disconnected runoff" },
+  sd_tree_credit_sf: { label: "Impervious area credited per tree", unit: "sq ft", reads_as: "impervious area a new or retained tree may offset (deciduous, where split)" },
+  sd_soil_amend_depth_in: { label: "Soil restoration depth", unit: "in", reads_as: "depth to which compacted soils are tilled and amended to restore pervious credit" },
+  sd_rr_bio_ud_pct: { label: "Credit, underdrained bioretention", unit: "%", reads_as: "share of the treated volume counted as retained by bioretention with an underdrain" },
+  sd_rr_bio_inf_pct: { label: "Credit, infiltrating bioretention", unit: "%", reads_as: "share counted as retained by bioretention without an underdrain" },
+  sd_rr_pp_ud_pct: { label: "Credit, underdrained permeable pavement", unit: "%", reads_as: "share counted as retained by permeable pavement with an underdrain" },
+  sd_rr_pp_inf_pct: { label: "Credit, infiltrating permeable pavement", unit: "%", reads_as: "share counted as retained by permeable pavement without an underdrain" },
+  sd_rr_green_roof_pct: { label: "Credit, green roof", unit: "%", reads_as: "share counted as retained by a green roof" },
+  sd_rr_grass_channel_pct: { label: "Credit, grass channel", unit: "%", reads_as: "share counted as retained by a grass channel (C or D soils)" },
+  sd_rr_conservation_pct: { label: "Credit, sheet flow to conservation area", unit: "%", reads_as: "share counted as retained when runoff sheet-flows across a protected natural area (C or D soils)" },
+  sd_rr_harvest_pct: { label: "Credit, rainwater harvesting", unit: "%", reads_as: "share of harvesting storage counted as retained" },
+};
+
 const median = (xs: number[]) => {
   const s = [...xs].sort((a, b) => a - b), m = s.length >> 1;
   return s.length % 2 ? s[m]! : (s[m - 1]! + s[m]!) / 2;
@@ -140,7 +157,7 @@ function main() {
     values: Array<{ param: string; state: string; slug: string; value: number; verdict: string }>;
   };
   const rand = rng(20261118);
-  const criteria = Object.entries(PART === "esc" ? ESC_CRITERIA : PART === "det" ? DET_CRITERIA : PART === "conv" ? CONV_CRITERIA : PART === "hyd" ? HYD_CRITERIA : CRITERIA).map(([key, meta]) => {
+  const criteria = Object.entries(PART === "esc" ? ESC_CRITERIA : PART === "det" ? DET_CRITERIA : PART === "conv" ? CONV_CRITERIA : PART === "hyd" ? HYD_CRITERIA : PART === "sd" ? SD_CRITERIA : CRITERIA).map(([key, meta]) => {
     const kept = checks.values.filter((v) => v.param === key && v.verdict !== "excluded" && v.state);
     const byState = new Map<string, number[]>();
     for (const v of kept) byState.set(v.state, [...(byState.get(v.state) ?? []), v.value]);
@@ -214,6 +231,8 @@ function main() {
                 ? "Conveyance: storm drains, inlets, culverts and open channels (state and local manuals)"
                 : PART === "hyd"
                   ? "Hydrology: time of concentration, rational method and curve numbers (state and local manuals)"
+                  : PART === "sd"
+                    ? "Site design and volume credits (state and local manuals)"
                 : "A: permanent stormwater (state-level manuals)",
         method:
           "One value per state (median of hand-checked state-level records). Agreement = share of states within ±10% of the most common value. Climate = eta² across NOAA U.S. climate regions with a 10,000-shuffle permutation p-value. Classes: insufficient (<8 states), consensus (agreement ≥ 50%), climate-linked (p < 0.10, suggestive), divergent (otherwise).",

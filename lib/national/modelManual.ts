@@ -73,6 +73,30 @@ export const DET_CRITERION_CLAUSE: Record<string, string> = {
   det_min_barrel_in: "7.5.2",
 };
 
+/** Site-design and volume-credit criteria (model manual 3.8-3.9) and their clauses. */
+export const SD_CRITERION_CLAUSE: Record<string, string> = {
+  sd_disc_roof_max_sf: "3.8.2",
+  sd_disc_flow_path_ft: "3.8.3",
+  sd_disc_slope_max_pct: "3.8.3",
+  sd_soil_amend_depth_in: "3.8.4",
+  sd_tree_credit_sf: "3.8.5",
+  sd_rr_bio_inf_pct: "3.9",
+  sd_rr_bio_ud_pct: "3.9",
+  sd_rr_pp_inf_pct: "3.9",
+  sd_rr_pp_ud_pct: "3.9",
+  sd_rr_green_roof_pct: "3.9",
+  sd_rr_harvest_pct: "3.9",
+  sd_rr_conservation_pct: "3.9",
+  sd_rr_grass_channel_pct: "3.9",
+};
+
+const SD_FILE = path.resolve(process.cwd(), "data/national/sd-classification.json");
+
+export function loadSdCriteria(): { generated_at: string; method: string; criteria: CriterionEvidence[] } | null {
+  if (!existsSync(SD_FILE)) return null;
+  return JSON.parse(readFileSync(SD_FILE, "utf-8"));
+}
+
 /** Hydrology criteria (model manual Section 4) and their clauses. */
 export const HYD_CRITERION_CLAUSE: Record<string, string> = {
   hyd_rational_max_ac: "4.3",

@@ -13,7 +13,7 @@ import { getAllManuals } from "./data";
 import { checkParameterValue, type ValueCheck } from "./qa/load";
 import { coverageBasisFor } from "./sharedManuals";
 
-export type RequirementGroup = "Hydrology" | "Site sizing" | "Infiltration" | "Bioretention" | "Ponds and detention" | "Detention outlets and spillways" | "Conveyance" | "Swales and other practices" | "Construction (Part B)";
+export type RequirementGroup = "Hydrology" | "Site sizing" | "Site design and credits" | "Infiltration" | "Bioretention" | "Ponds and detention" | "Detention outlets and spillways" | "Conveyance" | "Swales and other practices" | "Construction (Part B)";
 
 export interface Criterion {
   key: string;
@@ -23,7 +23,7 @@ export interface Criterion {
   group: RequirementGroup;
   means: string;
   clause?: string;
-  source: "records" | "esc" | "det" | "conv" | "hyd";
+  source: "records" | "esc" | "det" | "conv" | "hyd" | "sd";
 }
 
 export const CRITERIA: Criterion[] = [
@@ -32,6 +32,19 @@ export const CRITERIA: Criterion[] = [
   { key: "hyd_rational_max_ac", short: "Rational method limit", label: "Rational method area limit", unit: "acres", group: "Hydrology", source: "hyd", clause: "4.3", means: "Largest drainage area for which the rational method may be used to compute peak flow." },
   { key: "hyd_rational_c_impervious", short: "Rational C, impervious", label: "Rational runoff coefficient for impervious surfaces", unit: "", group: "Hydrology", source: "hyd", clause: "4.5.1", means: "Runoff coefficient C the manual gives for pavement and roofs." },
   { key: "hyd_cn_impervious", short: "Impervious curve number", label: "Curve number for impervious surfaces", unit: "", group: "Hydrology", source: "hyd", clause: "4.6.1", means: "NRCS curve number assigned to directly connected impervious area." },
+  { key: "sd_disc_roof_max_sf", short: "Roof area per downspout", label: "Roof area per disconnected downspout", unit: "sq ft", group: "Site design and credits", source: "sd", clause: "3.8.2", means: "Largest roof area that may drain to one downspout and still count as disconnected." },
+  { key: "sd_disc_flow_path_ft", short: "Disconnection flow path", label: "Disconnection flow path length", unit: "ft", group: "Site design and credits", source: "sd", clause: "3.8.3", means: "Shortest pervious flow path that disconnected runoff must cross (for full credit where the manual scales credit with length)." },
+  { key: "sd_disc_slope_max_pct", short: "Disconnection slope", label: "Maximum slope of a disconnection area", unit: "%", group: "Site design and credits", source: "sd", clause: "3.8.3", means: "Steepest slope allowed for the pervious area that receives disconnected runoff." },
+  { key: "sd_soil_amend_depth_in", short: "Soil restoration depth", label: "Soil restoration or amendment depth", unit: "in", group: "Site design and credits", source: "sd", clause: "3.8.4", means: "Depth to which compacted soil must be tilled or amended to count as restored." },
+  { key: "sd_tree_credit_sf", short: "Tree credit", label: "Impervious area credited per tree", unit: "sq ft", group: "Site design and credits", source: "sd", clause: "3.8.5", means: "Impervious area each qualifying tree may offset (deciduous or typical tree where the manual gives several)." },
+  { key: "sd_rr_bio_inf_pct", short: "Credit: bioretention, no underdrain", label: "Retention credit for bioretention without an underdrain", unit: "%", group: "Site design and credits", source: "sd", clause: "3.9", means: "Share of storage (or of inflow, under the Runoff Reduction Method) credited as retained." },
+  { key: "sd_rr_bio_ud_pct", short: "Credit: bioretention, underdrained", label: "Retention credit for underdrained bioretention", unit: "%", group: "Site design and credits", source: "sd", clause: "3.9", means: "Share of storage (or of inflow) credited as retained for bioretention with an underdrain." },
+  { key: "sd_rr_pp_inf_pct", short: "Credit: permeable pavement, no underdrain", label: "Retention credit for permeable pavement without an underdrain", unit: "%", group: "Site design and credits", source: "sd", clause: "3.9", means: "Share of storage (or of inflow) credited as retained." },
+  { key: "sd_rr_pp_ud_pct", short: "Credit: permeable pavement, underdrained", label: "Retention credit for underdrained permeable pavement", unit: "%", group: "Site design and credits", source: "sd", clause: "3.9", means: "Share of storage (or of inflow) credited as retained for permeable pavement with an underdrain." },
+  { key: "sd_rr_green_roof_pct", short: "Credit: green roof", label: "Retention credit for green roofs", unit: "%", group: "Site design and credits", source: "sd", clause: "3.9", means: "Share of a green roof's design volume (or inflow) credited as retained." },
+  { key: "sd_rr_harvest_pct", short: "Credit: rainwater harvesting", label: "Retention credit for rainwater harvesting", unit: "%", group: "Site design and credits", source: "sd", clause: "3.9", means: "Share of cistern storage (or inflow) credited as retained." },
+  { key: "sd_rr_conservation_pct", short: "Credit: conservation area", label: "Retention credit for sheet flow to a conservation area", unit: "%", group: "Site design and credits", source: "sd", clause: "3.9", means: "Share of the runoff from the contributing area credited as retained (C and D soils where the manual gives both)." },
+  { key: "sd_rr_grass_channel_pct", short: "Credit: grass channel", label: "Retention credit for grass channels", unit: "%", group: "Site design and credits", source: "sd", clause: "3.9", means: "Share of the runoff conveyed credited as retained (C and D soils where the manual gives both)." },
   { key: "wqv_depth_inches", short: "Water-quality depth", label: "Water-quality rainfall depth", unit: "in", group: "Site sizing", source: "records", clause: "3.2", means: "Rainfall (or runoff) depth the water-quality volume is sized for." },
   { key: "ed_drain_time_hours", short: "Extended-detention time", label: "Extended-detention release time", unit: "hours", group: "Ponds and detention", source: "records", clause: "6.6.1", means: "Time over which an extended-detention volume is released." },
   { key: "max_drawdown_hours", short: "Maximum drawdown", label: "Maximum drawdown time", unit: "hours", group: "Site sizing", source: "records", clause: "6.0.1", means: "Longest time a practice may hold water after a storm." },
@@ -79,7 +92,7 @@ export const CRITERIA: Criterion[] = [
   { key: "natural_buffer_ft", short: "Natural buffer", label: "Natural buffer from waters", unit: "ft", group: "Construction (Part B)", source: "esc", clause: "14.4", means: "Undisturbed natural buffer kept between disturbance and surface waters." },
 ];
 
-export const GROUPS: RequirementGroup[] = ["Hydrology", "Site sizing", "Infiltration", "Bioretention", "Ponds and detention", "Detention outlets and spillways", "Conveyance", "Swales and other practices", "Construction (Part B)"];
+export const GROUPS: RequirementGroup[] = ["Hydrology", "Site sizing", "Site design and credits", "Infiltration", "Bioretention", "Ponds and detention", "Detention outlets and spillways", "Conveyance", "Swales and other practices", "Construction (Part B)"];
 
 export interface RequirementValue {
   slug: string;
@@ -170,7 +183,7 @@ export function allRequirementValues(): Map<string, RequirementValue[]> {
       });
     }
   }
-  const hand = ["data/national/esc-checks.json", "data/national/det-checks.json", "data/national/conv-checks.json", "data/national/hyd-checks.json"].flatMap((f) => {
+  const hand = ["data/national/esc-checks.json", "data/national/det-checks.json", "data/national/conv-checks.json", "data/national/hyd-checks.json", "data/national/sd-checks.json"].flatMap((f) => {
     const file = path.join(ROOT, f);
     return existsSync(file)
       ? (JSON.parse(readFileSync(file, "utf-8")).values as Array<{ param: string; slug: string; state: string; level: string; value: number | null; verdict: string; page: number; quote: string; note?: string }>)
