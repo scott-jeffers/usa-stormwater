@@ -73,6 +73,23 @@ export const DET_CRITERION_CLAUSE: Record<string, string> = {
   det_min_barrel_in: "7.5.2",
 };
 
+/** Floodplain and bridge criteria (model manual 8.8-8.9) and their clauses. */
+export const FP_CRITERION_CLAUSE: Record<string, string> = {
+  fp_ffe_freeboard_ft: "8.8.1",
+  fp_ffe_overflow_ft: "8.8.2",
+  fp_comp_storage_ratio: "8.8.3",
+  fp_rise_ft: "8.8.4",
+  br_design_storm_yr: "8.9.1",
+  br_freeboard_ft: "8.9.1",
+};
+
+const FP_FILE = path.resolve(process.cwd(), "data/national/fp-classification.json");
+
+export function loadFpCriteria(): { generated_at: string; method: string; criteria: CriterionEvidence[] } | null {
+  if (!existsSync(FP_FILE)) return null;
+  return JSON.parse(readFileSync(FP_FILE, "utf-8"));
+}
+
 /** Water-quality treatment, media and materials criteria (model manual 3.10, 6.1) and their clauses. */
 export const PT_CRITERION_CLAUSE: Record<string, string> = {
   pt_tp_removal_pct: "3.10.1",

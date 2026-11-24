@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { pageMeta } from "@/lib/site";
 import { ValueStrip, withUnit } from "@/components/ValueStrip";
-import { CLASS_LABELS, CONV_CRITERION_CLAUSE, HYD_CRITERION_CLAUSE, loadHydCriteria, SD_CRITERION_CLAUSE, loadSdCriteria, PT_CRITERION_CLAUSE, loadPtCriteria, CRITERION_CLAUSE, DET_CRITERION_CLAUSE, ESC_CRITERION_CLAUSE, loadConvCriteria, loadCriteria, loadDetCriteria, loadEscCriteria, type CriterionEvidence } from "@/lib/national/modelManual";
+import { CLASS_LABELS, CONV_CRITERION_CLAUSE, HYD_CRITERION_CLAUSE, loadHydCriteria, SD_CRITERION_CLAUSE, loadSdCriteria, PT_CRITERION_CLAUSE, loadPtCriteria, FP_CRITERION_CLAUSE, loadFpCriteria, CRITERION_CLAUSE, DET_CRITERION_CLAUSE, ESC_CRITERION_CLAUSE, loadConvCriteria, loadCriteria, loadDetCriteria, loadEscCriteria, type CriterionEvidence } from "@/lib/national/modelManual";
 import type { Clause } from "@/lib/manual/parse";
 import { clauseId, loadManual } from "@/lib/manual/parse";
 import { inline } from "@/components/ManualText";
@@ -151,6 +151,8 @@ export default function ModelManualPage() {
   const hydStates = new Set(hydCrit.flatMap((c) => c.by_state.map((s) => s.state)));
   const sdCrit = loadSdCriteria()?.criteria ?? [];
   const ptCrit = loadPtCriteria()?.criteria ?? [];
+  const fpCrit = loadFpCriteria()?.criteria ?? [];
+  const fpStates = new Set(fpCrit.flatMap((c) => c.by_state.map((s) => s.state)));
   const ptStates = new Set(ptCrit.flatMap((c) => c.by_state.map((s) => s.state)));
   const sdStates = new Set(sdCrit.flatMap((c) => c.by_state.map((s) => s.state)));
   const convCrit = loadConvCriteria()?.criteria ?? [];
@@ -245,6 +247,14 @@ export default function ModelManualPage() {
         intro={`State, local and federal manuals read by hand: ${convCrit.length} criteria, ${convStates.size} states. Much of this evidence comes from state DOT drainage manuals. One value per state is the median of its manuals; federal manuals are listed in the data but not counted as a state.`}
         crit={convCrit}
         clauseMap={CONV_CRITERION_CLAUSE}
+        clause={clause}
+      />
+      <EvidenceGroup
+        id="floodplains"
+        title="Floodplains and bridges (8.8–8.9)"
+        intro={`State and local manuals read by hand: ${fpCrit.length} criteria, ${fpStates.size} states. Many states regulate floodplains by ordinances outside the atlas, so most of this evidence comes from city, county and DOT manuals. One value per state is the median of its manuals.`}
+        crit={fpCrit}
+        clauseMap={FP_CRITERION_CLAUSE}
         clause={clause}
       />
       <EvidenceGroup

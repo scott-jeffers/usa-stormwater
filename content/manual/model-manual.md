@@ -1,6 +1,6 @@
 ---
 title: Model Stormwater Design Manual
-version: Public Review Draft 0.9
+version: Public Review Draft 0.10
 date: 2026-11-24
 status: Draft for committee review. Not adopted by any agency.
 ---
@@ -25,6 +25,8 @@ Each provision also carries an evidence grade, explained in Appendix A:
 **Versions.** This manual is numbered like software: it stays at version 0.x (Draft 0.6, 0.7 and so on) through every round of community and professional review, and each release lists what changed. No version 1 will be published until reviewers outside the project have checked it.
 
 "Shall" marks a requirement and "should" a recommendation. Where a permit, TMDL or local rule is stricter, it controls.
+
+**Changes in Draft 0.10.** Adds floodplains, bridges and tidal outfalls to Section 8. Buildings in the floodplain have their lowest floor 2 ft above the base flood elevation (8.8.1, open) and 1 ft above stormwater ponding and overflow paths (8.8.2); fill is balanced 1:1 by compensatory storage band by band (8.8.3); floodways allow no rise and the flood fringe 1.0 ft (8.8.4). Bridges pass the 100-year flood with 2 ft of freeboard (8.9). Tidal outfalls start from MHHW plus a sea-level-rise allowance over the facility's service life, with backflow prevention (8.10). Its numbers come from 96 values read by hand in 58 manuals across 26 states. Adds Appendix I, a worked example the site's floodplain calculator reproduces; the hydraulics calculator's HGL tab gains a tidal tailwater option.
 
 **Changes in Draft 0.9.** Adds treatment targets for impaired and sensitive waters (3.10): 50% phosphorus removal where phosphorus is the concern, nitrogen, bacteria, temperature and chloride. Rewrites bioretention (6.1) with a tested media standard (at least 70% sand, at most 5% clay, 3–5% organic matter, P-index 10–30), compost (at least 35% organic matter), sizing by Darcy's law and by storage, and underdrains of at least 4 in with a choker course and no geotextile under the media. Adds source controls at hotspots (5.6.1). Its numbers come from 142 values read by hand in 70 manuals across 36 states. Adds Appendix G, a worked bioretention and phosphorus example the site's bioretention calculator reproduces, and Appendix H, materials and plants.
 
@@ -63,7 +65,7 @@ This manual sets minimum design standards for permanent stormwater management on
 - routine maintenance that keeps the original line, grade and hydraulic capacity, or
 - emergency work, which must be brought into compliance once the emergency ends.
 
-**1.5 Relationship to other requirements.** Where an NPDES permit, TMDL, state rule or local ordinance is stricter, the stricter requirement controls. Section 8 sets conveyance standards for storm drains, inlets, culverts and channels; ANSI/ASCE/EWRI 45-16 remains a reference for storm sewer design. Part B (Sections 13–17) covers erosion and sediment control during construction.
+**1.5 Relationship to other requirements.** Where an NPDES permit, TMDL, state rule or local ordinance is stricter, the stricter requirement controls. Section 8 sets conveyance standards for storm drains, inlets, culverts and channels, and flood-hazard standards for floodplains, bridges and tidal outfalls; ANSI/ASCE/EWRI 45-16 remains a reference for storm sewer design. Part B (Sections 13–17) covers erosion and sediment control during construction.
 
 ## 2 Definitions
 
@@ -440,7 +442,7 @@ where Q is the discharge (cfs), A the orifice area (sf), g = 32.2 ft/s², and h 
 
 > Why (Section 7): most manuals agree on the safety numbers (100-year spillway, 1 ft freeboard, 10% downstream point) and disagree on the hydraulics only in the details. The outlet and weir equations above are the ones in HEC-22 and in nearly every state manual that gives them, so a designer working in any state uses the same calculations.
 
-## 8 Conveyance: storm drains, inlets, culverts and channels
+## 8 Conveyance and flood hazards: storm drains, inlets, culverts, channels, floodplains, bridges and tidal outfalls
 
 Conveyance carries runoff from where it lands to where it is released: gutters and inlets collect it, storm drains and culverts carry it under streets and embankments, and open channels carry it on the surface. This section sets the storms each part is sized for, the limits it must meet, and the methods used to show it does. It applies to new and replaced public conveyance and to private conveyance that serves more than one lot or crosses a public right-of-way.
 
@@ -535,6 +537,32 @@ Inlet control, unsubmerged (≤ 3.5, form 1; interpolate between):
 **8.7 Outfalls and energy dissipation.** [Default, E0] At every outfall, compare the exit velocity with the permissible velocity of the receiving channel and provide riprap aprons, stilling basins or other dissipators designed with FHWA HEC-14 where it is exceeded. Outfalls to streams shall not be placed where they direct flow into the opposite bank.
 
 > Why (8.7): an outfall is where a well-designed system most often does its damage, by eroding the stream it discharges to. HEC-14 sizes the protection from the exit velocity and the tailwater, both of which the calculations above already produce.
+
+**8.8 Floodplains.** [Default] These provisions add to, and never relax, the community's floodplain ordinance under the National Flood Insurance Program (44 CFR 60.3). Where a state or community rule is stricter, it controls.
+
+- **8.8.1 Lowest floor.** [Open, E1] The lowest floor of a new or substantially improved building in a Special Flood Hazard Area, including its basement and its mechanical and electrical equipment, shall be at least **2 ft above the base flood elevation**, and 3 ft for critical facilities (hospitals, fire, police and emergency operations, and buildings storing hazardous materials). *Evidence:* 11 states set a freeboard from 1 to 2.5 ft and split evenly: Arizona, California, Florida, Oklahoma and Washington use 1 ft, while Colorado, Illinois, Indiana, Tennessee and Texas use 2 ft or more (median 1.25 ft). The NFIP minimum is the base flood elevation itself; FEMA's 2024 Federal Flood Risk Management Standard used +2 ft for non-critical and +3 ft for critical actions on FEMA-funded projects until FEMA stopped applying it in March 2025. *Open question:* 1 ft or 2 ft? Until NOAA Atlas 15 (4.1.1) shows how far design rainfall will move, the extra foot is this draft's margin for it.
+- **8.8.2 Floors near stormwater facilities.** [Default, E1] The lowest floor or lowest opening of a building next to a detention or retention facility, a sag inlet, or an overflow path shall be at least **1 ft above** the 100-year water surface there, or above the emergency spillway's design water surface where that is higher (6 of 9 states; Lancaster, Rochester and Springfield use 2 ft).
+- **8.8.3 Compensatory storage.** [Default, E1] Fill placed in the 100-year floodplain shall be balanced by excavated storage of at least **equal volume (1:1)**, hydraulically connected to the floodplain and provided in the same elevation bands as the fill it replaces, one foot at a time, between the normal water level and the base flood elevation (8 of 9 states; Cook County and Rockford, Illinois require 1.1:1 and 1.5:1 for riverine floodplains, and Lansing 2:1). (55 atlas manuals require compensatory storage.)
+- **8.8.4 Allowable rise.** [Default, E1] Development in a regulatory floodway shall cause **no rise** in the base flood elevation (no increase of 0.01 ft or more, as King County measures it). Outside the floodway, the cumulative rise from all encroachment shall not exceed **1.0 ft** (7 of 11 states, the NFIP standard), or the community's lower limit: Illinois's Rockford and Arizona's Tucson allow 0.1 ft, and Florida's Suwannee River district and King County 0.01 ft. Show the rise with a hydraulic model of the reach (HEC-RAS or equivalent) that extends at least one cross-section beyond the influence of the project.
+- **8.8.5 Floodplain detention.** [Default, E0] Storage in the 100-year floodplain does not count toward 3.5 unless the routing shows it works with the stream at the coincident flood stage (8.4.2).
+
+> Why (8.8): fill in a floodplain pushes water somewhere else. Balancing it band by band keeps the floodplain's storage where the flood uses it; balancing only the total volume can place the new storage above the water that the fill displaced.
+
+**8.9 Bridges.** [Default]
+
+- **8.9.1 Design flood and freeboard.** [Default, E1] Road bridges shall pass the **100-year flood** (9 of 13 states; Alaska, Kansas's Lawrence, South Carolina's Columbia and Utah DOT use 50 years) with the low chord at least **2 ft above** the design water surface (8 of 11 states; Kentucky's Frankfort, Texas's McKinney, North Dakota DOT and Tulsa use 1 ft), or the velocity head above it where that is larger, as Maricopa County requires. Where the bridge will see heavy floating debris, add freeboard: New Mexico DOT suggests 3 ft on large rivers.
+- **8.9.2 Backwater.** [Default, E1] The bridge and its approaches shall meet 8.8.4. Where no floodway is mapped, the bridge shall not raise the 100-year water surface by more than 1 ft (Clark County, Nevada, and Lexington, Kentucky), and never onto a building.
+- **8.9.3 Scour.** [Default, E0] Design foundations for scour from the 100-year flood or the overtopping flood if smaller, and check them for the 500-year flood, by FHWA HEC-18. Protect abutments and piers by FHWA HEC-23.
+- **8.9.4 Overtopping.** [Default, E0] Where approaches are overtopped before the bridge is, size the opening so that the road overtops at a depth and velocity the road's owner accepts, and show the overtopping flow in the hydraulic model.
+
+**8.10 Tidal and coastal outfalls.** [Default]
+
+- **8.10.1 Design tide.** [Default, E3] Where a storm drain, culvert or channel discharges to tidal water, its tailwater (8.4.2, 8.5) shall be the higher of mean higher high water (MHHW) at the nearest NOAA tide station plus the allowance in 8.10.2, and the coincident riverine or surge stage under HEC-19 or HEC-25. Pinellas County requires systems to work at MHHW; Florida DOT adjusts mean high water for sea-level rise; Charleston, South Carolina fixes a tailwater of 5.5 ft NAVD88 to allow for rise and surge. (20 atlas manuals tie tailwater to a tidal datum.)
+- **8.10.2 Sea-level-rise allowance.** [Open, E3] Add the relative sea-level rise projected at the tide station over the facility's service life: projected rise at the end of the life minus the rise at the start, from NOAA's Intermediate scenario (Sweet et al., 2022) or the state's adopted projection. Use a service life of 50 years for storm drains and culverts, 75 years for bridges and 20 years for pavement. *Evidence:* Texas DOT and Corpus Christi compute the allowance this way (Appendix I reproduces their examples); 33 atlas manuals discuss sea-level rise. *Open question:* which NOAA scenario, and should critical facilities use Intermediate-High?
+- **8.10.3 Backflow.** [Default, E3] Where the design tide rises above an outfall's crown, prevent backflow into the system with a tide gate, duckbill or in-line check valve that the owner can inspect and maintain, and route the storm drain HGL (8.4) with the gate closed for the duration of high tide. (114 atlas manuals call for tide gates, flap gates or check valves.)
+- **8.10.4 Coastal high-hazard areas.** [Default, E0] In V zones and Coastal A zones, do not place infiltration, bioretention or detention practices where wave action or erosion can expose them, and anchor outfall structures against wave forces (Florida DOT designs coastal bridges for wave forces unless they stand 1 ft above the design wave crest).
+
+> Why (8.10): a storm drain at the coast is only as good as the water it drains into. A system checked against today's tide will spend more of each year submerged as the sea rises, and its service life runs well past the period over which the rise is already measurable.
 
 ## 9 Construction, inspection and maintenance
 
@@ -686,7 +714,7 @@ The grade counts above are computed from this text. Every provision marked E0 is
 - **E3** the number of the 253 distinct manuals whose text states the rule, by text search. This shows how common a rule is, not that the manual requires exactly that value.
 - **E0** common engineering practice with no atlas evidence yet.
 
-In 3.8–3.10, 6.1, Sections 4, 7 and 8 and Part B, E1 means values read by hand in every atlas manual with its own rules (state and local), because many states publish their construction handbooks separately from the manuals in the atlas: 154 values from 68 manuals in 33 states for Part B ([esc-checks.json](https://github.com/scott-jeffers/usa-stormwater/blob/main/data/national/esc-checks.json)) 309 values from 135 manuals in 45 states and DC for Section 7 ([det-checks.json](https://github.com/scott-jeffers/usa-stormwater/blob/main/data/national/det-checks.json)); 229 values from 122 manuals in 44 states for Section 4 ([hyd-checks.json](https://github.com/scott-jeffers/usa-stormwater/blob/main/data/national/hyd-checks.json)); 379 values from 119 manuals in 44 states for Section 8 ([conv-checks.json](https://github.com/scott-jeffers/usa-stormwater/blob/main/data/national/conv-checks.json)), where DOT drainage manuals, which the atlas holds for most states, supply much of the evidence; 97 values from 38 manuals in 24 states for 3.8–3.9 ([sd-checks.json](https://github.com/scott-jeffers/usa-stormwater/blob/main/data/national/sd-checks.json)); and 142 values from 70 manuals in 36 states for 3.10 and 6.1 ([pt-checks.json](https://github.com/scott-jeffers/usa-stormwater/blob/main/data/national/pt-checks.json)).
+In 3.8–3.10, 6.1, Sections 4, 7 and 8 and Part B, E1 means values read by hand in every atlas manual with its own rules (state and local), because many states publish their construction handbooks separately from the manuals in the atlas: 154 values from 68 manuals in 33 states for Part B ([esc-checks.json](https://github.com/scott-jeffers/usa-stormwater/blob/main/data/national/esc-checks.json)) 309 values from 135 manuals in 45 states and DC for Section 7 ([det-checks.json](https://github.com/scott-jeffers/usa-stormwater/blob/main/data/national/det-checks.json)); 229 values from 122 manuals in 44 states for Section 4 ([hyd-checks.json](https://github.com/scott-jeffers/usa-stormwater/blob/main/data/national/hyd-checks.json)); 379 values from 119 manuals in 44 states for Section 8 ([conv-checks.json](https://github.com/scott-jeffers/usa-stormwater/blob/main/data/national/conv-checks.json)), where DOT drainage manuals, which the atlas holds for most states, supply much of the evidence; 97 values from 38 manuals in 24 states for 3.8–3.9 ([sd-checks.json](https://github.com/scott-jeffers/usa-stormwater/blob/main/data/national/sd-checks.json)); 142 values from 70 manuals in 36 states for 3.10 and 6.1 ([pt-checks.json](https://github.com/scott-jeffers/usa-stormwater/blob/main/data/national/pt-checks.json)); and 96 values from 58 manuals in 26 states for 8.8–8.9 ([fp-checks.json](https://github.com/scott-jeffers/usa-stormwater/blob/main/data/national/fp-checks.json)).
 
 | Provision | Value | Grade | Evidence |
 | --- | --- | --- | --- |
@@ -708,6 +736,12 @@ In 3.8–3.10, 6.1, Sections 4, 7 and 8 and Part B, E1 means values read by hand
 | 6.1.6 Media phosphorus | P-index 10–30 | E1 | 7 of 10 states use 30 as the upper limit |
 | 6.1.7 Compost organic matter | 35% min | E1 | 7 of 11 states |
 | 6.1.9 Underdrain diameter | 4 in min | E1 | 10 of 16 states; range 4–8 in |
+| 8.8.1 Lowest floor above BFE | 2 ft | E1 | 11 states split 5 and 5 between 1 ft and 2 ft or more; median 1.25 ft |
+| 8.8.2 Floor above stormwater ponding | 1 ft | E1 | 6 of 9 states |
+| 8.8.3 Compensatory storage | 1:1 | E1 | 8 of 9 states |
+| 8.8.4 Rise in the flood fringe | 1.0 ft | E1 | 7 of 11 states; four allow 0.01–0.1 ft |
+| 8.9.1 Bridge design flood | 100-yr | E1 | 9 of 13 states; four use 50-yr |
+| 8.9.1 Bridge freeboard | 2 ft | E1 | 8 of 11 states; three use 1 ft |
 | 4.3 Rational-method limit | 200 acres (conveyance) | E1 | 13 of 34 states; 10–320 acres; regional pattern (p = 0.10) |
 | 4.4.2 Sheet-flow length | 100 ft | E1 | 16 of 25 states; 6 use 300 ft |
 | 4.4.3 Minimum Tc | 5 min | E1 | 19 of 32 states; 7 use 10 min |
@@ -798,7 +832,9 @@ These decisions set the size and cost of most practices. Each is marked [Open] i
 22. **Treatment by the flow path (3.9.2):** does runoff that crosses a disconnection or conservation area need no further treatment, or must the flow path meet a filter-strip standard?
 23. **Nutrient targets (3.10.1–3.10.2):** a percentage removal, a load limit per acre (as Virginia uses), or both? And should the manual publish practice efficiencies for phosphorus and nitrogen so that designers do not supply their own?
 24. **Media recipe (6.1.5):** keep one textural standard, or also allow the 60:40 sand-compost blend used on the West Coast where phosphorus is not the concern?
-25. **Evidence gaps:** before adoption, replace each E0 placeholder with E1 or E2 evidence, and add the western and southern state manuals missing from the atlas.
+25. **Lowest-floor freeboard (8.8.1):** 1 ft or 2 ft above the base flood elevation? States split evenly.
+26. **Sea-level rise (8.10.2):** which NOAA scenario for ordinary facilities, which for critical ones, and what service lives?
+27. **Evidence gaps:** before adoption, replace each E0 placeholder with E1 or E2 evidence, and add the western and southern state manuals missing from the atlas.
 
 ## Appendix C: Worked example, detention basin
 
@@ -1031,3 +1067,29 @@ These are the material standards that 6.1, 6.2 and 3.8.4 refer to. Each line nam
 | Restored soil | Subsoil tilled 12 in; top 8 in amended with at least 3 in of compost | 3.8.4 | E1 |
 
 **Plants.** [Default, E0] Plant bioretention and swales in three zones by how often they are wet: the bottom (frequently inundated for up to 48 hours; species tolerant of wet feet and of drought between storms), the side slopes (occasionally wet) and the rim (rarely wet). Use native or regionally adapted species from the state's plant list, salt-tolerant species where de-icing salt is used (3.10.5), no invasive species, and no trees over underdrains or within 10 ft of an inlet or outlet. Cover at least 80% of the media surface with vegetation within two growing seasons, and replace plants that fail during the warranty period of the maintenance agreement (9.4).
+
+## Appendix I: Worked example, floodplain, bridge and tidal outfall
+
+This example applies 8.8–8.10 to a commercial site beside a tidal creek. Every number is computed by the engine behind the site's [floodplain and coastal calculator](/tools/floodplain/), which loads this example, and the calculation is part of the atlas's automated tests, which also reproduce the sea-level-rise examples of Texas DOT and Corpus Christi. Elevations are in feet, NAVD88; the sea-level projection is illustrative.
+
+**Step 1. Lowest floor (8.8.1).** The base flood elevation is 9.0 ft. The building's lowest floor is set at **11.0 ft**, 2.0 ft above it, which meets the 2 ft starting value.
+
+**Step 2. Compensatory storage (8.8.3).** The pad and parking need 6,100 cf of fill below the base flood elevation. The designer excavates a floodplain bench beside the creek, band by band:
+
+| Elevation band | Fill | Cut | Required at 1:1 | Meets |
+| --- | --- | --- | --- | --- |
+| 5–6 ft | 1,200 cf | 1,300 cf | 1,200 cf | Yes |
+| 6–7 ft | 1,800 cf | 1,900 cf | 1,800 cf | Yes |
+| 7–8 ft | 1,900 cf | 2,000 cf | 1,900 cf | Yes |
+| 8–9 ft | 1,200 cf | 1,300 cf | 1,200 cf | Yes |
+| **Total** | **6,100 cf** | **6,500 cf** | **6,100 cf** | |
+
+Had the designer put all 6,500 cf of cut in the 8–9 ft band, the total would still exceed the fill, but the three lower bands would fail: the storage the fill displaces at the start of a flood would not be there.
+
+**Step 3. Allowable rise (8.8.4).** The site is in the flood fringe, outside the mapped floodway. The HEC-RAS model of the reach with the fill and the bench shows a rise of 0.04 ft, within the 1.0 ft allowed.
+
+**Step 4. Access bridge (8.9.1).** The 100-year water surface at the bridge is 9.8 ft and the mean velocity through the opening 6 ft/s, a velocity head of 0.56 ft, so 2 ft of freeboard governs. The low chord at **12.1 ft** gives 2.3 ft.
+
+**Step 5. Tidal outfall (8.10).** The storm drain discharges to the creek, where MHHW at the nearest tide station is 2.1 ft. The projection for the station gives 0.5 ft of rise by 2025 and 2.45 ft by 2075, so a storm drain built in 2025 with a 50-year life needs an allowance of 2.45 − 0.5 = **1.95 ft**. The design tailwater is the higher of 2.1 + 1.95 = **4.05 ft** and the creek's coincident 10-year stage of 3.6 ft: the tide governs. This tailwater is the starting water surface for the HGL (8.4); the hydraulics calculator's tidal option applies it. The outfall crown is at 3.0 ft, below the design tide, so the outfall gets a tide gate (8.10.3).
+
+**Result.** The site meets 8.8–8.10. The tide, not the creek, sets the storm drain's tailwater over its service life, which a check against today's tide alone would have missed by almost 2 ft.

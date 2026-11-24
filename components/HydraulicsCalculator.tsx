@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useMemo, useRef, useState } from "react";
+import Link from "next/link";
 import {
   CULVERT_INLETS,
   SPLASH_OVER_2FT,
@@ -24,6 +25,7 @@ import {
   type Section,
 } from "@/lib/hydraulics/engine";
 import { WORKED_CONVEYANCE, runConveyanceExample } from "@/lib/hydraulics/example";
+import { tidalTailwater } from "@/lib/floodplain/engine";
 
 /* ---------- State ---------- */
 
@@ -38,7 +40,7 @@ type State = {
   channel: { b: number; z1: number; z2: number; n: number; S: number; Q: number; permShear: number; depth: number };
   inlet: { kind: InletKind; Q: number; Sx: number; SL: number; n: number; W: number; aIn: number; L: number; Wg: number; Vo: number; hIn: number; openRatio: number; clog: number; allowT: number };
   culvert: { shape: "circle" | "box"; dIn: number; b: number; h: number; inlet: string; Q: number; barrels: number; n: number; L: number; S: number; TW: number; allowHW: number };
-  hgl: { pipes: PipeRow[]; structures: StructRow[]; tailwater: number };
+  hgl: { pipes: PipeRow[]; structures: StructRow[]; tailwater: number; tidal?: boolean; mhhw?: number; slr?: number };
 };
 
 function exampleState(tab: Tab = "pipe"): State {
@@ -548,7 +550,7 @@ function HglPanel({ s, set }: { s: State["hgl"]; set: (p: Partial<State["hgl"]>)
   const run: DrainRun = {
     pipes: s.pipes.map((p) => ({ id: p.id, d: p.dIn / 12, n: p.n, L: p.L, invUp: p.invUp, invDn: p.invDn, Q: p.Q })),
     structures: s.structures.map((x) => ({ ...x })),
-    tailwater: s.tailwater,
+    tailwater: s.tidal ? tidalTailwater(s.mhhw ?? 0, s.slr ?? 0, s.tailwater).tw : s.tailwater,
   };
   const r = useMemo(() => {
     try {
@@ -662,8 +664,16 @@ function HglPanel({ s, set }: { s: State["hgl"]; set: (p: Partial<State["hgl"]>)
         </div>
         <div className="flex flex-wrap items-end gap-4">
           <button type="button" onClick={add} className="h-9 text-sm font-medium text-water-link hover:underline">+ Add pipe downstream</button>
-          <div className="w-44"><Num label="Outfall tailwater elev. (ft)" value={s.tailwater} onChange={(v) => set({ tailwater: v })} /></div>
+          <div className="w-44"><Num label={s.tidal ? "Riverine tailwater elev. (ft)" : "Outfall tailwater elev. (ft)"} value={s.tailwater} onChange={(v) => set({ tailwater: v })} /></div>
+          <label className="flex items-center gap-2 pb-2 text-sm text-fg-secondary"><input type="checkbox" checked={!!s.tidal} onChange={(e) => set({ tidal: e.target.checked, mhhw: s.mhhw ?? 0, slr: s.slr ?? 0 })} /> Tidal outfall (8.10)</label>
+          {s.tidal ? (
+            <>
+              <div className="w-32"><Num label="MHHW elev. (ft)" value={s.mhhw ?? 0} onChange={(v) => set({ mhhw: v })} /></div>
+              <div className="w-40"><Num label="Sea-level rise (ft)" value={s.slr ?? 0} help="Projected rise over the service life (8.10.2); the floodplain calculator computes it." onChange={(v) => set({ slr: v })} /></div>
+            </>
+          ) : null}
         </div>
+        {s.tidal ? <p className="text-xs text-fg-muted">Tailwater used: {fx(run.tailwater)} ft, the higher of MHHW plus the sea-level-rise allowance and the riverine tailwater (8.10.1). The <Link href="/tools/floodplain/" className="text-water-link underline">floodplain calculator</Link> computes the allowance from a projection.</p> : null}
       </form>
       {r && profile ? (
         <section aria-label="HGL results" className="space-y-5">

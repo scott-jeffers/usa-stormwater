@@ -138,6 +138,14 @@ function main() {
     writeFileSync(path.join(PUB, "pt-checks.csv"), h.join("\n") + "\n");
   }
 
+  const fpSrc = path.join(ROOT, "data/national/fp-checks.json");
+  if (existsSync(fpSrc)) {
+    const fv = JSON.parse(readFileSync(fpSrc, "utf-8")).values as Rec[];
+    const h = [row(["n", "criterion", "state", "slug", "level", "value", "verdict", "page", "quote"])];
+    for (const v of fv) h.push(row([v.n, v.param, v.state, v.slug, v.level, v.value, v.verdict, v.page, v.quote]));
+    writeFileSync(path.join(PUB, "fp-checks.csv"), h.join("\n") + "\n");
+  }
+
   // design archive: JSON as built, plus flat CSVs
   const arch = path.join(ROOT, "data/archive");
   if (existsSync(arch)) {
@@ -176,7 +184,7 @@ function main() {
     license_spdx: "CC-BY-4.0",
     citation: `Stormwater Atlas (${DATASET_VERSION}). U.S. stormwater design manual database. https://www.stormwateratlas.com/data/`,
     changelog: "https://github.com/scott-jeffers/usa-stormwater/blob/main/CHANGELOG.md",
-    files: ["/data/manuals.csv", "/data/values.csv", "/data/design-storms.csv", "/data/hand-checks.csv", "/data/esc-checks.csv", "/data/det-checks.csv", "/data/conv-checks.csv", "/data/hyd-checks.csv", "/data/sd-checks.csv", "/data/pt-checks.csv", "/data/dictionary.json", "/data/manuals.json", "/data/schema.json"],
+    files: ["/data/manuals.csv", "/data/values.csv", "/data/design-storms.csv", "/data/hand-checks.csv", "/data/esc-checks.csv", "/data/det-checks.csv", "/data/conv-checks.csv", "/data/hyd-checks.csv", "/data/sd-checks.csv", "/data/pt-checks.csv", "/data/fp-checks.csv", "/data/dictionary.json", "/data/manuals.json", "/data/schema.json"],
   };
   writeFileSync(path.join(PUB, "dataset.json"), JSON.stringify(dataset, null, 2) + "\n");
 

@@ -13,7 +13,7 @@ import { getAllManuals } from "./data";
 import { checkParameterValue, type ValueCheck } from "./qa/load";
 import { coverageBasisFor } from "./sharedManuals";
 
-export type RequirementGroup = "Hydrology" | "Site sizing" | "Site design and credits" | "Treatment and materials" | "Infiltration" | "Bioretention" | "Ponds and detention" | "Detention outlets and spillways" | "Conveyance" | "Swales and other practices" | "Construction (Part B)";
+export type RequirementGroup = "Hydrology" | "Site sizing" | "Site design and credits" | "Treatment and materials" | "Infiltration" | "Bioretention" | "Ponds and detention" | "Detention outlets and spillways" | "Conveyance" | "Floodplains and bridges" | "Swales and other practices" | "Construction (Part B)";
 
 export interface Criterion {
   key: string;
@@ -23,7 +23,7 @@ export interface Criterion {
   group: RequirementGroup;
   means: string;
   clause?: string;
-  source: "records" | "esc" | "det" | "conv" | "hyd" | "sd" | "pt";
+  source: "records" | "esc" | "det" | "conv" | "hyd" | "sd" | "pt" | "fp";
 }
 
 export const CRITERIA: Criterion[] = [
@@ -90,6 +90,12 @@ export const CRITERIA: Criterion[] = [
   { key: "culv_min_dia_in", short: "Minimum culvert", label: "Minimum culvert diameter", unit: "in", group: "Conveyance", source: "conv", clause: "8.5.3", means: "Smallest culvert allowed under a public road." },
   { key: "chan_design_storm_yr", short: "Channel design storm", label: "Open channel design storm", unit: "years", group: "Conveyance", source: "conv", clause: "8.1.5", means: "Return period a constructed open channel must carry." },
   { key: "chan_freeboard_ft", short: "Channel freeboard", label: "Open channel freeboard", unit: "ft", group: "Conveyance", source: "conv", clause: "8.6.2", means: "Minimum height of the channel bank above the design water surface." },
+  { key: "fp_ffe_freeboard_ft", short: "Floor above base flood", label: "Lowest floor above the base flood elevation", unit: "ft", group: "Floodplains and bridges", source: "fp", clause: "8.8.1", means: "Freeboard from the base (100-year) flood elevation to the lowest floor of a residential building in the floodplain." },
+  { key: "fp_ffe_overflow_ft", short: "Floor above ponding", label: "Lowest floor above stormwater ponding or overflow", unit: "ft", group: "Floodplains and bridges", source: "fp", clause: "8.8.2", means: "Freeboard from the 100-year water surface of a stormwater facility, sag or overflow path to the lowest floor or entry of nearby buildings." },
+  { key: "fp_comp_storage_ratio", short: "Compensatory storage", label: "Compensatory storage ratio", unit: ":1", group: "Floodplains and bridges", source: "fp", clause: "8.8.3", means: "Floodplain storage to be excavated for each unit of storage filled." },
+  { key: "fp_rise_ft", short: "Allowable flood rise", label: "Allowable rise in the 100-year flood elevation", unit: "ft", group: "Floodplains and bridges", source: "fp", clause: "8.8.4", means: "Largest increase in the base flood elevation allowed from encroachment outside the floodway (the floodway surcharge)." },
+  { key: "br_design_storm_yr", short: "Bridge design flood", label: "Bridge design flood", unit: "years", group: "Floodplains and bridges", source: "fp", clause: "8.9.1", means: "Return period a road bridge must pass (local or typical roads)." },
+  { key: "br_freeboard_ft", short: "Bridge freeboard", label: "Bridge low-chord freeboard", unit: "ft", group: "Floodplains and bridges", source: "fp", clause: "8.9.1", means: "Clearance from the design water surface to the bridge low chord." },
   { key: "stabilization_days", short: "Stabilization deadline", label: "Time to stabilize inactive areas", unit: "days", group: "Construction (Part B)", source: "esc", clause: "14.1", means: "Days within which disturbed areas must be stabilized once work stops or final grade is reached." },
   { key: "inspection_days", short: "Inspection interval", label: "Construction inspection interval", unit: "days", group: "Construction (Part B)", source: "esc", clause: "16.1", means: "Days between routine erosion and sediment control inspections." },
   { key: "inspection_storm_trigger_in", short: "Inspection storm trigger", label: "Rainfall that triggers an inspection", unit: "in", group: "Construction (Part B)", source: "esc", clause: "16.1", means: "Rainfall after which controls must be inspected, usually within 24 hours." },
@@ -101,7 +107,7 @@ export const CRITERIA: Criterion[] = [
   { key: "natural_buffer_ft", short: "Natural buffer", label: "Natural buffer from waters", unit: "ft", group: "Construction (Part B)", source: "esc", clause: "14.4", means: "Undisturbed natural buffer kept between disturbance and surface waters." },
 ];
 
-export const GROUPS: RequirementGroup[] = ["Hydrology", "Site sizing", "Site design and credits", "Treatment and materials", "Infiltration", "Bioretention", "Ponds and detention", "Detention outlets and spillways", "Conveyance", "Swales and other practices", "Construction (Part B)"];
+export const GROUPS: RequirementGroup[] = ["Hydrology", "Site sizing", "Site design and credits", "Treatment and materials", "Infiltration", "Bioretention", "Ponds and detention", "Detention outlets and spillways", "Conveyance", "Floodplains and bridges", "Swales and other practices", "Construction (Part B)"];
 
 export interface RequirementValue {
   slug: string;
@@ -192,7 +198,7 @@ export function allRequirementValues(): Map<string, RequirementValue[]> {
       });
     }
   }
-  const hand = ["data/national/esc-checks.json", "data/national/det-checks.json", "data/national/conv-checks.json", "data/national/hyd-checks.json", "data/national/sd-checks.json", "data/national/pt-checks.json"].flatMap((f) => {
+  const hand = ["data/national/esc-checks.json", "data/national/det-checks.json", "data/national/conv-checks.json", "data/national/hyd-checks.json", "data/national/sd-checks.json", "data/national/pt-checks.json", "data/national/fp-checks.json"].flatMap((f) => {
     const file = path.join(ROOT, f);
     return existsSync(file)
       ? (JSON.parse(readFileSync(file, "utf-8")).values as Array<{ param: string; slug: string; state: string; level: string; value: number | null; verdict: string; page: number; quote: string; note?: string }>)

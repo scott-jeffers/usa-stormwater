@@ -33,6 +33,7 @@ const FILES: Record<string, [string, string]> = {
   hyd: ["data/national/hyd-checks.json", "data/national/hyd-classification.json"],
   sd: ["data/national/sd-checks.json", "data/national/sd-classification.json"],
   pt: ["data/national/pt-checks.json", "data/national/pt-classification.json"],
+  fp: ["data/national/fp-checks.json", "data/national/fp-classification.json"],
 };
 const IN = path.join(ROOT, FILES[PART]![0]);
 const OUT = path.join(ROOT, FILES[PART]![1]);
@@ -144,6 +145,15 @@ export const PT_CRITERIA: Record<string, { label: string; unit: string; reads_as
   pt_underdrain_dia_in: { label: "Minimum underdrain diameter", unit: "in", reads_as: "smallest perforated underdrain pipe allowed in a practice" },
 };
 
+export const FP_CRITERIA: Record<string, { label: string; unit: string; reads_as: string }> = {
+  fp_ffe_freeboard_ft: { label: "Lowest floor above the base flood elevation", unit: "ft", reads_as: "freeboard from the 100-year (base) flood elevation to the lowest floor of a residential building" },
+  fp_ffe_overflow_ft: { label: "Lowest floor above stormwater ponding or overflow", unit: "ft", reads_as: "freeboard from the 100-year water surface of a stormwater facility or overflow path to the lowest floor or entry of nearby buildings" },
+  fp_rise_ft: { label: "Allowable rise in flood elevation", unit: "ft", reads_as: "largest increase in the 100-year flood elevation allowed from encroachment (the floodway surcharge where floodways are defined)" },
+  fp_comp_storage_ratio: { label: "Compensatory storage ratio", unit: ":1", reads_as: "floodplain storage to be created for each unit of storage filled" },
+  br_freeboard_ft: { label: "Bridge low-chord freeboard", unit: "ft", reads_as: "clearance from the design water surface to the low chord of a road bridge" },
+  br_design_storm_yr: { label: "Bridge design storm", unit: "years", reads_as: "return period a road bridge must pass (local or typical roads)" },
+};
+
 const median = (xs: number[]) => {
   const s = [...xs].sort((a, b) => a - b), m = s.length >> 1;
   return s.length % 2 ? s[m]! : (s[m - 1]! + s[m]!) / 2;
@@ -170,7 +180,7 @@ function main() {
     values: Array<{ param: string; state: string; slug: string; value: number; verdict: string }>;
   };
   const rand = rng(20261118);
-  const criteria = Object.entries(PART === "esc" ? ESC_CRITERIA : PART === "det" ? DET_CRITERIA : PART === "conv" ? CONV_CRITERIA : PART === "hyd" ? HYD_CRITERIA : PART === "sd" ? SD_CRITERIA : PART === "pt" ? PT_CRITERIA : CRITERIA).map(([key, meta]) => {
+  const criteria = Object.entries(PART === "esc" ? ESC_CRITERIA : PART === "det" ? DET_CRITERIA : PART === "conv" ? CONV_CRITERIA : PART === "hyd" ? HYD_CRITERIA : PART === "sd" ? SD_CRITERIA : PART === "pt" ? PT_CRITERIA : PART === "fp" ? FP_CRITERIA : CRITERIA).map(([key, meta]) => {
     const kept = checks.values.filter((v) => v.param === key && v.verdict !== "excluded" && v.state);
     const byState = new Map<string, number[]>();
     for (const v of kept) byState.set(v.state, [...(byState.get(v.state) ?? []), v.value]);
@@ -248,6 +258,8 @@ function main() {
                     ? "Site design and volume credits (state and local manuals)"
                     : PART === "pt"
                       ? "Water-quality treatment, media and materials (state and local manuals)"
+                      : PART === "fp"
+                        ? "Floodplains, bridges and coastal (state and local manuals)"
                 : "A: permanent stormwater (state-level manuals)",
         method:
           "One value per state (median of hand-checked state-level records). Agreement = share of states within ±10% of the most common value. Climate = eta² across NOAA U.S. climate regions with a 10,000-shuffle permutation p-value. Classes: insufficient (<8 states), consensus (agreement ≥ 50%), climate-linked (p < 0.10, suggestive), divergent (otherwise).",
